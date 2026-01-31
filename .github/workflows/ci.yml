@@ -4,9 +4,13 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -15,7 +19,7 @@ jobs:
         with:
           bun-version: "1.1.x"
       - name: Install
-        run: bun install
+        run: bun install --frozen-lockfile
       - name: Build
         run: bun run build
       - name: Validate
