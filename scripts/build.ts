@@ -202,15 +202,31 @@ type AcceptedEntry = {
   retrievedAt: string;
 };
 
-function normalizeTag(tag: string): string | null {
+type NormalizedTag = {
+  slug: string;
+  label: string;
+};
+
+function normalizeTag(tag: string): NormalizedTag | null {
   const trimmed = tag.trim();
   if (!trimmed) {
+    console.warn("Skipping empty tag");
     return null;
   }
-  if (trimmed.includes("/") || trimmed.includes("\\")) {
+
+  const slug = trimmed
+    .toLowerCase()
+    .replace(/[\s_]+/g, "-")
+    .replace(/[^a-z0-9-]/g, "")
+    .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  if (!slug) {
+    console.warn(`Skipping tag that normalizes to empty: "${trimmed}"`);
     return null;
   }
-  return trimmed;
+
+  return { slug, label: trimmed };
 }
 
 async function fetchMarkdown(
@@ -402,20 +418,23 @@ if (recentEntries.length > 0) {
   await Bun.write(RECENT_PATH, recentLines.join("\n"));
 }
 
-const tagIndex = new Map<string, Set<string>>();
+const tagIndex = new Map<string, { label: string; keys: Set<string> }>();
 for (const entry of accepted) {
   const source = entry.source;
   for (const rawTag of source.tags ?? []) {
-    const tag = normalizeTag(rawTag);
-    if (!tag) {
+    const normalized = normalizeTag(rawTag);
+    if (!normalized) {
       continue;
     }
     const key = `${source.type}/${source.slug}`;
-    const existing = tagIndex.get(tag);
+    const existing = tagIndex.get(normalized.slug);
     if (existing) {
-      existing.add(key);
+      existing.keys.add(key);
     } else {
-      tagIndex.set(tag, new Set([key]));
+      tagIndex.set(normalized.slug, {
+        label: normalized.label,
+        keys: new Set([key]),
+      });
     }
   }
 }
@@ -425,10 +444,12 @@ const sortedTags = Array.from(tagIndex.keys()).sort((a, b) =>
   a.localeCompare(b),
 );
 for (const tag of sortedTags) {
-  const keys = Array.from(tagIndex.get(tag) ?? []).sort((a, b) =>
+  const entry = tagIndex.get(tag);
+  const label = entry?.label ?? tag;
+  const keys = Array.from(entry?.keys ?? []).sort((a, b) =>
     a.localeCompare(b),
   );
-  const tagLines = [`# Tag: ${tag}`, ""];
+  const tagLines = [`# Tag: ${label}`, ""];
   for (const key of keys) {
     const [type, slug] = key.split("/");
     tagLines.push(`- ${entryHeadUrl(type, slug)}`);
@@ -459,7 +480,9 @@ if (wroteTags) {
   if (tags.length > 0) {
     catalogLines.push("## Tags", "");
     for (const tag of tags) {
-      catalogLines.push(`- ${buildUrl(`/tags/${tag}.md`)}`);
+      catalogLines.push(
+        `- ${buildUrl(`/tags/${encodeURIComponent(tag)}.md`)}`,
+      );
     }
     catalogLines.push("");
   }
