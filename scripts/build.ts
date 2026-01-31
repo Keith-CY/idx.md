@@ -429,6 +429,11 @@ for (const entry of accepted) {
     const key = `${source.type}/${source.slug}`;
     const existing = tagIndex.get(normalized.slug);
     if (existing) {
+      if (existing.label !== normalized.label) {
+        console.warn(
+          `Tag slug collision "${normalized.slug}": "${normalized.label}" conflicts with "${existing.label}"`,
+        );
+      }
       existing.keys.add(key);
     } else {
       tagIndex.set(normalized.slug, {
