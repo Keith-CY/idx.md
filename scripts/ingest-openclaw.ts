@@ -1,4 +1,5 @@
 import { createHash } from "crypto";
+import { mkdir } from "fs/promises";
 import { stringify } from "yaml";
 import type { SourceEntry } from "./lib/registry";
 
@@ -7,6 +8,8 @@ const README_URL =
 const README_BASE_URL =
   "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md";
 const OUTPUT_PATH = new URL("../data/sources-openclaw.yml", import.meta.url);
+const REPORT_PATH = new URL("../reports/ingest-openclaw.md", import.meta.url);
+const REPORT_DIR = new URL("../reports/", import.meta.url);
 const SOURCE_TYPE = "skills";
 const BASE_TAGS = ["openclaw", "source-awesome-openclaw-skills"] as const;
 const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
@@ -263,6 +266,29 @@ function buildEntry(
   return entry;
 }
 
+function formatReport(stats: {
+  categories: number;
+  itemsScanned: number;
+  entriesWritten: number;
+  duplicatesSkipped: number;
+  itemsSkipped: number;
+  slugCollisions: number;
+}): string {
+  const timestamp = new Date().toISOString();
+  return [
+    "# OpenClaw ingest report",
+    "",
+    `- Timestamp (UTC): ${timestamp}`,
+    `- Categories: ${stats.categories}`,
+    `- Items scanned: ${stats.itemsScanned}`,
+    `- Entries written: ${stats.entriesWritten}`,
+    `- Duplicates skipped: ${stats.duplicatesSkipped}`,
+    `- Items skipped: ${stats.itemsSkipped}`,
+    `- Slug collisions resolved: ${stats.slugCollisions}`,
+    "",
+  ].join("\n");
+}
+
 async function fetchReadme(): Promise<string | null> {
   let response: Response;
   try {
@@ -352,6 +378,19 @@ entries.sort((a, b) => {
 const yamlBody = stringify(entries, { lineWidth: 0 }).trimEnd();
 const output = `${HEADER}${yamlBody}\n`;
 await Bun.write(OUTPUT_PATH, output);
+
+await mkdir(REPORT_DIR, { recursive: true });
+await Bun.write(
+  REPORT_PATH,
+  formatReport({
+    categories: categories.length,
+    itemsScanned: totalItems,
+    entriesWritten: entries.length,
+    duplicatesSkipped: duplicates,
+    itemsSkipped: skipped,
+    slugCollisions,
+  }),
+);
 
 console.log(`OpenClaw categories: ${categories.length}`);
 console.log(`OpenClaw items scanned: ${totalItems}`);
