@@ -3,7 +3,7 @@ const EXPORT_LINE =
   /^\s*export\s+(?:(?:declare|abstract|async)\s+)?(?:\*|\{|default|const|function|class|type|interface|enum|let|var|namespace|module)/m;
 const JSX_TAG = /<\/?[A-Z][^>]*>/;
 const JSX_FRAGMENT = /<\s*>|<\s*\/\s*>/;
-const FENCE_LINE = /^\s*(?:>\s*)*(?:(?:[-*+]|\d+\.)\s+)?(```|~~~)/;
+const FENCE_LINE = /^\s*(```|~~~)/;
 
 function stripInlineCode(line: string): string {
   let output = "";
@@ -33,24 +33,57 @@ function stripInlineCode(line: string): string {
   return output;
 }
 
+function stripBlockquotePrefixes(line: string): string {
+  let rest = line;
+  while (true) {
+    const match = rest.match(/^\s*>\s?/);
+    if (!match) {
+      break;
+    }
+    rest = rest.slice(match[0].length);
+  }
+  return rest;
+}
+
+function stripListPrefix(line: string): string {
+  const match = line.match(/^\s*(?:[-*+]|\d+\.)\s+/);
+  if (!match) {
+    return line;
+  }
+  const prefixLength = match[0].length;
+  const trimmed = line.slice(prefixLength);
+  const extraSpace = match[0].match(/\s+$/);
+  if (extraSpace && extraSpace[0].length > 1) {
+    return `${extraSpace[0].slice(1)}${trimmed}`;
+  }
+  return trimmed;
+}
+
+function stripPrefixes(line: string): string {
+  const withoutBlockquotes = stripBlockquotePrefixes(line);
+  return stripListPrefix(withoutBlockquotes);
+}
+
 export function buildScanTarget(markdown: string): string {
   const lines = markdown.split(/\r?\n/);
   const kept: string[] = [];
   let inFence = false;
 
   for (const line of lines) {
-    if (FENCE_LINE.test(line)) {
+    const afterPrefix = stripPrefixes(line);
+    const isIndentedCode = /^(?:\t| {4,})/.test(afterPrefix);
+    if (!isIndentedCode && FENCE_LINE.test(afterPrefix)) {
       inFence = !inFence;
       continue;
     }
     if (inFence) {
       continue;
     }
-    if (/^(?:\t| {4,})/.test(line)) {
+    if (isIndentedCode) {
       continue;
     }
 
-    kept.push(stripInlineCode(line));
+    kept.push(stripInlineCode(afterPrefix));
   }
 
   return kept.join("\n");
