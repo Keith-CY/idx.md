@@ -60,8 +60,12 @@ function stripListPrefix(line: string): string {
 }
 
 function stripPrefixes(line: string): string {
-  const withoutBlockquotes = stripBlockquotePrefixes(line);
-  return stripListPrefix(withoutBlockquotes);
+  const indentMatch = line.match(/^\s*/);
+  const indent = indentMatch ? indentMatch[0] : "";
+  const rest = line.slice(indent.length);
+  const withoutBlockquotes = stripBlockquotePrefixes(rest);
+  const withoutList = stripListPrefix(withoutBlockquotes);
+  return `${indent}${withoutList}`;
 }
 
 export function buildScanTarget(markdown: string): string {
@@ -71,15 +75,17 @@ export function buildScanTarget(markdown: string): string {
 
   for (const line of lines) {
     const afterPrefix = stripPrefixes(line);
-    const isIndentedCode = /^(?:\t| {4,})/.test(afterPrefix);
-    if (!isIndentedCode && FENCE_LINE.test(afterPrefix)) {
+    const isIndentedOriginal = /^(?:\t| {4,})/.test(line);
+    const isIndentedAfterPrefix = /^(?:\t| {4,})/.test(afterPrefix);
+    const isIndentedCode = isIndentedOriginal || isIndentedAfterPrefix;
+    if (isIndentedCode) {
+      continue;
+    }
+    if (FENCE_LINE.test(afterPrefix)) {
       inFence = !inFence;
       continue;
     }
     if (inFence) {
-      continue;
-    }
-    if (isIndentedCode) {
       continue;
     }
 
