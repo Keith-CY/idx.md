@@ -6,7 +6,7 @@ type Rejection = { url: string; reason: string };
 
 const IMPORT_LINE = /^\s*import\s+(?:[\w\{\*"'`])/m;
 const EXPORT_LINE =
-  /^\s*export\s+(?:\*|\{|default|const|function|class|type|interface|enum|let|var)/m;
+  /^\s*export\s+(?:(?:declare|abstract|async)\s+)?(?:\*|\{|default|const|function|class|type|interface|enum|let|var|namespace|module)/m;
 const JSX_TAG = /<\/?[A-Z][^>]*>/;
 const JSX_FRAGMENT = /<\s*>|<\s*\/\s*>/;
 const FENCE_LINE = /^\s*(?:>\s*)*(?:(?:[-*+]|\d+\.)\s+)?(```|~~~)/;
