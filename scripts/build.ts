@@ -5,7 +5,9 @@ const result = await loadSources();
 type Rejection = { url: string; reason: string };
 
 const IMPORT_FROM = /^\s*import\s+.+\s+from\s+["'][^"']+["']\s*;?\s*$/m;
-const EXPORT_DECL = /^\s*export\s+(const|function|class|default|\{)/m;
+const IMPORT_SIDE_EFFECT = /^\s*import\s+["'][^"']+["']\s*;?\s*$/m;
+const EXPORT_DECL =
+  /^\s*export\s+(\*|const|function|class|default|\{|type|interface|enum|let|var)/m;
 const JSX_TAG = /<\/?[A-Z][^>]*>/;
 const JSX_FRAGMENT = /<\s*>|<\s*\/\s*>/;
 const FENCE_LINE = /^\s*(?:>\s*)*(?:(?:[-*+]|\d+\.)\s+)?(```|~~~)/;
@@ -70,7 +72,7 @@ function hasExpressionBlock(scanTarget: string): boolean {
 function detectMdx(markdown: string): string | null {
   const scanTarget = buildScanTarget(markdown);
 
-  if (IMPORT_FROM.test(scanTarget)) {
+  if (IMPORT_FROM.test(scanTarget) || IMPORT_SIDE_EFFECT.test(scanTarget)) {
     return "Top-level import detected";
   }
   if (EXPORT_DECL.test(scanTarget)) {
