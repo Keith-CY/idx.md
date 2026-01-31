@@ -1,3 +1,7 @@
+import { createHash } from "crypto";
+import { mkdir } from "fs/promises";
+import { stringify } from "yaml";
+import { fileURLToPath } from "url";
 import { loadSources, type SourceEntry } from "./lib/registry";
 
 const result = await loadSources();
@@ -10,8 +14,11 @@ const EXPORT_LINE =
 const JSX_TAG = /<\/?[A-Z][^>]*>/;
 const JSX_FRAGMENT = /<\s*>|<\s*\/\s*>/;
 const FENCE_LINE = /^\s*(?:>\s*)*(?:(?:[-*+]|\d+\.)\s+)?(```|~~~)/;
+const SUMMARY_MAX_LINES = 10;
+const TEXT_DECODER = new TextDecoder("utf-8");
 
 const REPORT_PATH = new URL("../reports/rejected.md", import.meta.url);
+const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
 
 function stripInlineCode(line: string): string {
   let output = "";
@@ -93,6 +100,24 @@ function urlIsMdx(sourceUrl: URL): boolean {
   return sourceUrl.pathname.toLowerCase().endsWith(".mdx");
 }
 
+function computeSha256(bytes: Uint8Array): string {
+  return createHash("sha256").update(bytes).digest("hex");
+}
+
+function takeSummaryLines(text: string): string[] {
+  const lines = text.split(/\r?\n/).map((line) => line.trimEnd());
+  const nonEmpty = lines.filter((line) => line.trim().length > 0);
+  return nonEmpty.slice(0, SUMMARY_MAX_LINES);
+}
+
+function buildSummaryLines(source: SourceEntry, markdown: string): string[] {
+  const rawSummary = source.summary?.trim();
+  if (rawSummary) {
+    return takeSummaryLines(rawSummary);
+  }
+  return takeSummaryLines(markdown);
+}
+
 function formatRejectedReport(rejections: Rejection[]): string {
   const lines: string[] = [
     "# Rejected sources",
@@ -116,10 +141,16 @@ function formatRejectedReport(rejections: Rejection[]): string {
   return lines.join("\n");
 }
 
+type FetchResult = {
+  markdown: string;
+  bytes: Uint8Array;
+  retrievedAt: string;
+};
+
 async function fetchMarkdown(
   source: SourceEntry,
   rejections: Rejection[],
-): Promise<string | null> {
+): Promise<FetchResult | null> {
   let url: URL;
   try {
     url = new URL(source.source_url);
@@ -160,9 +191,9 @@ async function fetchMarkdown(
     return null;
   }
 
-  let markdown: string;
+  let buffer: ArrayBuffer;
   try {
-    markdown = await response.text();
+    buffer = await response.arrayBuffer();
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     rejections.push({
@@ -171,6 +202,8 @@ async function fetchMarkdown(
     });
     return null;
   }
+  const bytes = new Uint8Array(buffer);
+  const markdown = TEXT_DECODER.decode(bytes);
   const mdxReason = detectMdx(markdown);
 
   if (mdxReason) {
@@ -178,7 +211,7 @@ async function fetchMarkdown(
     return null;
   }
 
-  return markdown;
+  return { markdown, bytes, retrievedAt: new Date().toISOString() };
 }
 
 const accepted: SourceEntry[] = [];
@@ -204,10 +237,40 @@ if (!result.ok) {
 
 try {
   for (const source of result.sources) {
-    const markdown = await fetchMarkdown(source, rejected);
-    if (markdown === null) {
+    const fetched = await fetchMarkdown(source, rejected);
+    if (fetched === null) {
       continue;
     }
+    const { markdown, bytes, retrievedAt } = fetched;
+    const entryDir = new URL(`./${source.type}/${source.slug}/`, ENTRIES_ROOT);
+    const entryDirPath = fileURLToPath(entryDir);
+    const summaryLines = buildSummaryLines(source, markdown);
+    const summaryText = summaryLines.join("\n");
+    const title = source.title?.trim() || source.slug;
+    const frontmatter = {
+      stable_id: `${source.type}/${source.slug}`,
+      type: source.type,
+      title,
+      summary: summaryText,
+      tags: source.tags ?? [],
+      source_url: source.source_url,
+      license: source.license ?? "",
+      upstream_ref: source.upstream_ref ?? "",
+      retrieved_at: retrievedAt,
+      content_sha256: computeSha256(bytes),
+    };
+    const yaml = stringify(frontmatter).trimEnd();
+
+    await mkdir(entryDirPath, { recursive: true });
+    await Bun.write(new URL("BODY.md", entryDir), bytes);
+
+    const headParts = ["---", yaml, "---"];
+    if (summaryText) {
+      headParts.push(summaryText);
+    }
+    const headContent = `${headParts.join("\n")}\n`;
+    await Bun.write(new URL("HEAD.md", entryDir), headContent);
+
     accepted.push(source);
   }
 } finally {
