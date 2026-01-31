@@ -1,5 +1,5 @@
 import { createHash } from "crypto";
-import { mkdir, readdir, stat } from "fs/promises";
+import { mkdir, rm } from "fs/promises";
 import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
 import { fileURLToPath } from "url";
@@ -24,10 +24,6 @@ const ENTRIES_ROOT_PATH = resolve(fileURLToPath(ENTRIES_ROOT));
 const CATALOG_PATH = new URL("../catalog.md", import.meta.url);
 const TYPES_ROOT = new URL("../types/", import.meta.url);
 const TYPES_ROOT_PATH = resolve(fileURLToPath(TYPES_ROOT));
-const RECENT_PATH = new URL("../recent.md", import.meta.url);
-const RECENT_PATH_VALUE = resolve(fileURLToPath(RECENT_PATH));
-const TAGS_ROOT = new URL("../tags/", import.meta.url);
-const TAGS_ROOT_PATH = resolve(fileURLToPath(TAGS_ROOT));
 const BASE_URL = "https://idx.md";
 
 function stripInlineCode(line: string): string {
@@ -173,23 +169,8 @@ function entryHeadUrl(type: string, slug: string): string {
   return buildUrl(`/entries/${type}/${slug}/HEAD.md`);
 }
 
-async function fileExists(path: string): Promise<boolean> {
-  try {
-    const stats = await stat(path);
-    return stats.isFile();
-  } catch {
-    return false;
-  }
-}
-
-async function dirExists(path: string): Promise<boolean> {
-  try {
-    const stats = await stat(path);
-    return stats.isDirectory();
-  } catch {
-    return false;
-  }
-}
+let wroteRecent = false;
+let generatedTags: string[] = [];
 
 type FetchResult = {
   markdown: string;
@@ -285,6 +266,11 @@ if (!result.ok) {
   process.exit(1);
 }
 
+const registryTypes = new Set<string>();
+for (const source of result.sources) {
+  registryTypes.add(source.type);
+}
+
 try {
   for (const source of result.sources) {
     const fetched = await fetchMarkdown(source, rejected);
@@ -336,10 +322,11 @@ for (const source of accepted) {
   }
 }
 
-const sortedTypes = Array.from(typeToSlugs.keys()).sort((a, b) =>
+const sortedTypes = Array.from(registryTypes).sort((a, b) =>
   a.localeCompare(b),
 );
 
+await rm(TYPES_ROOT_PATH, { recursive: true, force: true });
 await mkdir(TYPES_ROOT_PATH, { recursive: true });
 for (const type of sortedTypes) {
   const slugs = Array.from(typeToSlugs.get(type) ?? []).sort((a, b) =>
@@ -359,24 +346,18 @@ for (const type of sortedTypes) {
 }
 catalogLines.push("");
 
-if (await fileExists(RECENT_PATH_VALUE)) {
+if (wroteRecent) {
   catalogLines.push("## Recent", "", `- ${buildUrl("/recent.md")}`, "");
 }
 
-if (await dirExists(TAGS_ROOT_PATH)) {
-  const files = await readdir(TAGS_ROOT_PATH);
-  const tags = files
-    .filter((file) => file.endsWith(".md"))
-    .map((file) => file.slice(0, -3))
-    .sort((a, b) => a.localeCompare(b));
-
-  if (tags.length > 0) {
-    catalogLines.push("## Tags", "");
-    for (const tag of tags) {
-      catalogLines.push(`- ${buildUrl(`/tags/${tag}.md`)}`);
-    }
-    catalogLines.push("");
+const wroteTags = generatedTags.length > 0;
+if (wroteTags) {
+  const tags = [...generatedTags].sort((a, b) => a.localeCompare(b));
+  catalogLines.push("## Tags", "");
+  for (const tag of tags) {
+    catalogLines.push(`- ${buildUrl(`/tags/${tag}.md`)}`);
   }
+  catalogLines.push("");
 }
 
 await Bun.write(CATALOG_PATH, catalogLines.join("\n"));
