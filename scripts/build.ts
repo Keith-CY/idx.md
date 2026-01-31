@@ -2,22 +2,43 @@ import { loadSources, type SourceEntry } from "./lib/registry";
 
 const result = await loadSources();
 
-if (!result.ok) {
-  console.error("Source registry validation errors:");
-  for (const error of result.errors) {
-    console.error(`- ${error}`);
-  }
-  process.exit(1);
-}
-
 type Rejection = { url: string; reason: string };
 
 const TOP_LEVEL_MODULE = /^\s*(import|export)\s/m;
 const JSX_TAG = /<\/?[A-Z][^>]*>/;
+const JSX_FRAGMENT = /<\s*>|<\s*\/\s*>/;
 
 const REPORT_PATH = new URL("../reports/rejected.md", import.meta.url);
 
-function stripFencedCodeBlocks(markdown: string): string {
+function stripInlineCode(line: string): string {
+  let output = "";
+  let fenceLength = 0;
+
+  for (let index = 0; index < line.length; ) {
+    if (line[index] === "`") {
+      let count = 1;
+      while (index + count < line.length && line[index + count] === "`") {
+        count += 1;
+      }
+      if (fenceLength === 0) {
+        fenceLength = count;
+      } else if (fenceLength === count) {
+        fenceLength = 0;
+      }
+      index += count;
+      continue;
+    }
+
+    if (fenceLength === 0) {
+      output += line[index];
+    }
+    index += 1;
+  }
+
+  return output;
+}
+
+function buildScanTarget(markdown: string): string {
   const lines = markdown.split(/\r?\n/);
   const kept: string[] = [];
   let inFence = false;
@@ -27,22 +48,42 @@ function stripFencedCodeBlocks(markdown: string): string {
       inFence = !inFence;
       continue;
     }
-    if (!inFence) {
-      kept.push(line);
+    if (inFence) {
+      continue;
     }
+    if (/^(?:\t| {4,})/.test(line)) {
+      continue;
+    }
+
+    kept.push(stripInlineCode(line));
   }
 
   return kept.join("\n");
 }
 
+function hasExpressionBlock(scanTarget: string): boolean {
+  const openIndex = scanTarget.indexOf("{");
+  if (openIndex === -1) {
+    return false;
+  }
+  const closeIndex = scanTarget.indexOf("}", openIndex + 1);
+  return closeIndex !== -1;
+}
+
 function detectMdx(markdown: string): string | null {
-  const scanTarget = stripFencedCodeBlocks(markdown);
+  const scanTarget = buildScanTarget(markdown);
 
   if (TOP_LEVEL_MODULE.test(scanTarget)) {
     return "Top-level import/export detected";
   }
+  if (JSX_FRAGMENT.test(scanTarget)) {
+    return "JSX fragment detected";
+  }
   if (JSX_TAG.test(scanTarget)) {
     return "JSX tag detected";
+  }
+  if (hasExpressionBlock(scanTarget)) {
+    return "MDX expression block detected";
   }
   return null;
 }
@@ -52,16 +93,23 @@ function urlIsMdx(sourceUrl: URL): boolean {
 }
 
 function formatRejectedReport(rejections: Rejection[]): string {
-  const lines: string[] = ["# Rejected sources", ""];
+  const lines: string[] = [
+    "# Rejected sources",
+    "",
+    "| Reason | URL |",
+    "| --- | --- |",
+  ];
 
   if (rejections.length === 0) {
-    lines.push("- None.");
+    lines.push("| None | |");
     lines.push("");
     return lines.join("\n");
   }
 
   for (const rejection of rejections) {
-    lines.push(`- ${rejection.reason} (${rejection.url})`);
+    const reason = rejection.reason.replaceAll("|", "\\|");
+    const url = rejection.url.replaceAll("|", "\\|");
+    lines.push(`| ${reason} | ${url} |`);
   }
   lines.push("");
   return lines.join("\n");
@@ -71,7 +119,17 @@ async function fetchMarkdown(
   source: SourceEntry,
   rejections: Rejection[],
 ): Promise<string | null> {
-  const url = new URL(source.source_url);
+  let url: URL;
+  try {
+    url = new URL(source.source_url);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    rejections.push({
+      url: source.source_url,
+      reason: `Invalid URL (${message})`,
+    });
+    return null;
+  }
 
   if (urlIsMdx(url)) {
     rejections.push({
@@ -101,7 +159,17 @@ async function fetchMarkdown(
     return null;
   }
 
-  const markdown = await response.text();
+  let markdown: string;
+  try {
+    markdown = await response.text();
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    rejections.push({
+      url: source.source_url,
+      reason: `Read failed (${message})`,
+    });
+    return null;
+  }
   const mdxReason = detectMdx(markdown);
 
   if (mdxReason) {
@@ -115,15 +183,35 @@ async function fetchMarkdown(
 const accepted: SourceEntry[] = [];
 const rejected: Rejection[] = [];
 
-for (const source of result.sources) {
-  const markdown = await fetchMarkdown(source, rejected);
-  if (markdown === null) {
-    continue;
+const writeRejectedReport = async () => {
+  try {
+    await Bun.write(REPORT_PATH, formatRejectedReport(rejected));
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.error(`Failed to write rejected report: ${message}`);
   }
-  accepted.push(source);
+};
+
+if (!result.ok) {
+  console.error("Source registry validation errors:");
+  for (const error of result.errors) {
+    console.error(`- ${error}`);
+  }
+  await writeRejectedReport();
+  process.exit(1);
 }
 
-await Bun.write(REPORT_PATH, formatRejectedReport(rejected));
+try {
+  for (const source of result.sources) {
+    const markdown = await fetchMarkdown(source, rejected);
+    if (markdown === null) {
+      continue;
+    }
+    accepted.push(source);
+  }
+} finally {
+  await writeRejectedReport();
+}
 
 if (rejected.length > 0) {
   console.warn(`Rejected: ${rejected.length}`);
