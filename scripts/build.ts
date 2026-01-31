@@ -197,6 +197,22 @@ type FetchResult = {
   retrievedAt: string;
 };
 
+type AcceptedEntry = {
+  source: SourceEntry;
+  retrievedAt: string;
+};
+
+function normalizeTag(tag: string): string | null {
+  const trimmed = tag.trim();
+  if (!trimmed) {
+    return null;
+  }
+  if (trimmed.includes("/") || trimmed.includes("\\")) {
+    return null;
+  }
+  return trimmed;
+}
+
 async function fetchMarkdown(
   source: SourceEntry,
   rejections: Rejection[],
@@ -264,7 +280,7 @@ async function fetchMarkdown(
   return { markdown, bytes, retrievedAt: new Date().toISOString() };
 }
 
-const accepted: SourceEntry[] = [];
+const accepted: AcceptedEntry[] = [];
 const rejected: Rejection[] = [];
 
 const writeRejectedReport = async () => {
@@ -328,14 +344,15 @@ try {
     const headContent = `${headParts.join("\n")}\n`;
     await Bun.write(join(entryDirPath, "HEAD.md"), headContent);
 
-    accepted.push(source);
+    accepted.push({ source, retrievedAt });
   }
 } finally {
   await writeRejectedReport();
 }
 
 const typeToSlugs = new Map<string, Set<string>>();
-for (const source of accepted) {
+for (const entry of accepted) {
+  const source = entry.source;
   const existing = typeToSlugs.get(source.type);
   if (existing) {
     existing.add(source.slug);
@@ -360,6 +377,64 @@ for (const type of sortedTypes) {
   }
   lines.push("");
   await Bun.write(join(TYPES_ROOT_PATH, `${type}.md`), lines.join("\n"));
+}
+
+const recentEntries = [...accepted].sort((a, b) => {
+  const timeSort = b.retrievedAt.localeCompare(a.retrievedAt);
+  if (timeSort !== 0) {
+    return timeSort;
+  }
+  const typeSort = a.source.type.localeCompare(b.source.type);
+  if (typeSort !== 0) {
+    return typeSort;
+  }
+  return a.source.slug.localeCompare(b.source.slug);
+});
+
+if (recentEntries.length > 0) {
+  const recentLines = ["# Recent", ""];
+  for (const entry of recentEntries) {
+    recentLines.push(
+      `- ${entryHeadUrl(entry.source.type, entry.source.slug)}`,
+    );
+  }
+  recentLines.push("");
+  await Bun.write(RECENT_PATH, recentLines.join("\n"));
+}
+
+const tagIndex = new Map<string, Set<string>>();
+for (const entry of accepted) {
+  const source = entry.source;
+  for (const rawTag of source.tags ?? []) {
+    const tag = normalizeTag(rawTag);
+    if (!tag) {
+      continue;
+    }
+    const key = `${source.type}/${source.slug}`;
+    const existing = tagIndex.get(tag);
+    if (existing) {
+      existing.add(key);
+    } else {
+      tagIndex.set(tag, new Set([key]));
+    }
+  }
+}
+
+await mkdir(TAGS_ROOT_PATH, { recursive: true });
+const sortedTags = Array.from(tagIndex.keys()).sort((a, b) =>
+  a.localeCompare(b),
+);
+for (const tag of sortedTags) {
+  const keys = Array.from(tagIndex.get(tag) ?? []).sort((a, b) =>
+    a.localeCompare(b),
+  );
+  const tagLines = [`# Tag: ${tag}`, ""];
+  for (const key of keys) {
+    const [type, slug] = key.split("/");
+    tagLines.push(`- ${entryHeadUrl(type, slug)}`);
+  }
+  tagLines.push("");
+  await Bun.write(join(TAGS_ROOT_PATH, `${tag}.md`), tagLines.join("\n"));
 }
 
 const catalogLines: string[] = ["# Catalog", "", "## Types", ""];
