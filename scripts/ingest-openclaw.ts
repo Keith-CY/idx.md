@@ -4,6 +4,8 @@ import type { SourceEntry } from "./lib/registry";
 
 const README_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/refs/heads/main/README.md";
+const README_BASE_URL =
+  "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md";
 const OUTPUT_PATH = new URL("../data/sources-openclaw.yml", import.meta.url);
 const SOURCE_TYPE = "skills";
 const BASE_TAGS = ["openclaw", "source-awesome-openclaw-skills"] as const;
@@ -131,21 +133,28 @@ function convertToRawSkillUrl(value: string): ConvertedUrl | null {
   try {
     url = new URL(value);
   } catch {
-    return null;
+    try {
+      url = new URL(value, README_BASE_URL);
+    } catch {
+      return null;
+    }
   }
 
   if (url.hostname === "raw.githubusercontent.com") {
     const parts = url.pathname.split("/").filter(Boolean);
-    if (parts.length < 5) {
+    if (parts.length < 4) {
       return null;
     }
     const owner = parts[0] ?? "";
+    const repo = parts[1] ?? "";
     const pathParts = parts.slice(3);
     const last = pathParts[pathParts.length - 1]?.toLowerCase();
     if (last !== "skill.md") {
       return null;
     }
-    const skillFolder = decodeURIComponent(pathParts[pathParts.length - 2] ?? "");
+    const skillFolder =
+      decodeURIComponent(pathParts[pathParts.length - 2] ?? "") ||
+      decodeURIComponent(repo);
     if (!owner || !skillFolder) {
       return null;
     }
@@ -175,7 +184,7 @@ function convertToRawSkillUrl(value: string): ConvertedUrl | null {
     return null;
   }
 
-  if (pathParts.length === 0) {
+  if (pathParts.length === 0 && mode === "blob") {
     return null;
   }
 
@@ -187,7 +196,9 @@ function convertToRawSkillUrl(value: string): ConvertedUrl | null {
     }
   }
 
-  const skillFolder = decodeURIComponent(pathParts[pathParts.length - 2] ?? "");
+  const skillFolder =
+    decodeURIComponent(pathParts[pathParts.length - 2] ?? "") ||
+    decodeURIComponent(repo);
   if (!skillFolder) {
     return null;
   }
