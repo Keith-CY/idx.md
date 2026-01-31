@@ -1,5 +1,6 @@
 import { createHash } from "crypto";
 import { mkdir } from "fs/promises";
+import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
 import { fileURLToPath } from "url";
 import { loadSources, type SourceEntry } from "./lib/registry";
@@ -19,6 +20,7 @@ const TEXT_DECODER = new TextDecoder("utf-8");
 
 const REPORT_PATH = new URL("../reports/rejected.md", import.meta.url);
 const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
+const ENTRIES_ROOT_PATH = resolve(fileURLToPath(ENTRIES_ROOT));
 
 function stripInlineCode(line: string): string {
   let output = "";
@@ -98,6 +100,15 @@ function detectMdx(markdown: string): string | null {
 
 function urlIsMdx(sourceUrl: URL): boolean {
   return sourceUrl.pathname.toLowerCase().endsWith(".mdx");
+}
+
+function resolveEntryDir(type: string, slug: string): string {
+  const entryPath = resolve(ENTRIES_ROOT_PATH, type, slug);
+  const rel = relative(ENTRIES_ROOT_PATH, entryPath);
+  if (rel.startsWith("..") || isAbsolute(rel)) {
+    throw new Error(`Unsafe entry path: ${type}/${slug}`);
+  }
+  return entryPath;
 }
 
 function computeSha256(bytes: Uint8Array): string {
@@ -242,8 +253,7 @@ try {
       continue;
     }
     const { markdown, bytes, retrievedAt } = fetched;
-    const entryDir = new URL(`./${source.type}/${source.slug}/`, ENTRIES_ROOT);
-    const entryDirPath = fileURLToPath(entryDir);
+    const entryDirPath = resolveEntryDir(source.type, source.slug);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
     const title = source.title?.trim() || source.slug;
@@ -262,14 +272,14 @@ try {
     const yaml = stringify(frontmatter).trimEnd();
 
     await mkdir(entryDirPath, { recursive: true });
-    await Bun.write(new URL("BODY.md", entryDir), bytes);
+    await Bun.write(join(entryDirPath, "BODY.md"), bytes);
 
     const headParts = ["---", yaml, "---"];
     if (summaryText) {
       headParts.push(summaryText);
     }
     const headContent = `${headParts.join("\n")}\n`;
-    await Bun.write(new URL("HEAD.md", entryDir), headContent);
+    await Bun.write(join(entryDirPath, "HEAD.md"), headContent);
 
     accepted.push(source);
   }

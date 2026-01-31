@@ -1,10 +1,15 @@
 import { parse } from "yaml";
 import { z } from "zod";
 
+const PathSegmentSchema = z
+  .string()
+  .min(1)
+  .regex(/^[a-z0-9][a-z0-9-]*$/, "Invalid path segment");
+
 const SourceSchema = z
   .object({
-    type: z.string().min(1),
-    slug: z.string().min(1),
+    type: PathSegmentSchema,
+    slug: PathSegmentSchema,
     source_url: z.string().url(),
     title: z.string().min(1).optional(),
     summary: z.string().min(1).optional(),
