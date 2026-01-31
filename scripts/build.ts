@@ -1,5 +1,5 @@
 import { createHash } from "crypto";
-import { mkdir } from "fs/promises";
+import { mkdir, readdir, stat } from "fs/promises";
 import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
 import { fileURLToPath } from "url";
@@ -21,6 +21,14 @@ const TEXT_DECODER = new TextDecoder("utf-8");
 const REPORT_PATH = new URL("../reports/rejected.md", import.meta.url);
 const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
 const ENTRIES_ROOT_PATH = resolve(fileURLToPath(ENTRIES_ROOT));
+const CATALOG_PATH = new URL("../catalog.md", import.meta.url);
+const TYPES_ROOT = new URL("../types/", import.meta.url);
+const TYPES_ROOT_PATH = resolve(fileURLToPath(TYPES_ROOT));
+const RECENT_PATH = new URL("../recent.md", import.meta.url);
+const RECENT_PATH_VALUE = resolve(fileURLToPath(RECENT_PATH));
+const TAGS_ROOT = new URL("../tags/", import.meta.url);
+const TAGS_ROOT_PATH = resolve(fileURLToPath(TAGS_ROOT));
+const BASE_URL = "https://idx.md";
 
 function stripInlineCode(line: string): string {
   let output = "";
@@ -150,6 +158,37 @@ function formatRejectedReport(rejections: Rejection[]): string {
   }
   lines.push("");
   return lines.join("\n");
+}
+
+function buildUrl(pathname: string): string {
+  const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
+  return new URL(normalized, BASE_URL).toString();
+}
+
+function typeIndexUrl(type: string): string {
+  return buildUrl(`/types/${type}.md`);
+}
+
+function entryHeadUrl(type: string, slug: string): string {
+  return buildUrl(`/entries/${type}/${slug}/HEAD.md`);
+}
+
+async function fileExists(path: string): Promise<boolean> {
+  try {
+    const stats = await stat(path);
+    return stats.isFile();
+  } catch {
+    return false;
+  }
+}
+
+async function dirExists(path: string): Promise<boolean> {
+  try {
+    const stats = await stat(path);
+    return stats.isDirectory();
+  } catch {
+    return false;
+  }
 }
 
 type FetchResult = {
@@ -286,6 +325,61 @@ try {
 } finally {
   await writeRejectedReport();
 }
+
+const typeToSlugs = new Map<string, Set<string>>();
+for (const source of accepted) {
+  const existing = typeToSlugs.get(source.type);
+  if (existing) {
+    existing.add(source.slug);
+  } else {
+    typeToSlugs.set(source.type, new Set([source.slug]));
+  }
+}
+
+const sortedTypes = Array.from(typeToSlugs.keys()).sort((a, b) =>
+  a.localeCompare(b),
+);
+
+await mkdir(TYPES_ROOT_PATH, { recursive: true });
+for (const type of sortedTypes) {
+  const slugs = Array.from(typeToSlugs.get(type) ?? []).sort((a, b) =>
+    a.localeCompare(b),
+  );
+  const lines = [`# ${type}`, ""];
+  for (const slug of slugs) {
+    lines.push(`- ${entryHeadUrl(type, slug)}`);
+  }
+  lines.push("");
+  await Bun.write(join(TYPES_ROOT_PATH, `${type}.md`), lines.join("\n"));
+}
+
+const catalogLines: string[] = ["# Catalog", "", "## Types", ""];
+for (const type of sortedTypes) {
+  catalogLines.push(`- ${typeIndexUrl(type)}`);
+}
+catalogLines.push("");
+
+if (await fileExists(RECENT_PATH_VALUE)) {
+  catalogLines.push("## Recent", "", `- ${buildUrl("/recent.md")}`, "");
+}
+
+if (await dirExists(TAGS_ROOT_PATH)) {
+  const files = await readdir(TAGS_ROOT_PATH);
+  const tags = files
+    .filter((file) => file.endsWith(".md"))
+    .map((file) => file.slice(0, -3))
+    .sort((a, b) => a.localeCompare(b));
+
+  if (tags.length > 0) {
+    catalogLines.push("## Tags", "");
+    for (const tag of tags) {
+      catalogLines.push(`- ${buildUrl(`/tags/${tag}.md`)}`);
+    }
+    catalogLines.push("");
+  }
+}
+
+await Bun.write(CATALOG_PATH, catalogLines.join("\n"));
 
 if (rejected.length > 0) {
   console.warn(`Rejected: ${rejected.length}`);
