@@ -51,7 +51,9 @@ export async function loadSources(
   for (const [index, sourcesPath] of paths.entries()) {
     const parseResult = await loadSourcesFile(sourcesPath);
     if (!parseResult.ok) {
-      if (parseResult.missing && index > 0) {
+      const isOptional =
+        sourcesPath.href === SOURCES_REGISTRY_PATHS[1]?.href || index > 0;
+      if (parseResult.missing && isOptional) {
         console.warn(`Skipping missing optional registry: ${parseResult.label}`);
         continue;
       }
