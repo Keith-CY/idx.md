@@ -4,9 +4,13 @@ import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
 import { fileURLToPath } from "url";
 import { detectMdx } from "./lib/mdx";
-import { loadSources, type SourceEntry } from "./lib/registry";
+import {
+  loadSources,
+  SOURCES_REGISTRY_PATHS,
+  type SourceEntry,
+} from "./lib/registry";
 
-const result = await loadSources();
+const result = await loadSources(SOURCES_REGISTRY_PATHS);
 
 type Rejection = { url: string; reason: string };
 

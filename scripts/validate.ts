@@ -4,7 +4,7 @@ import { join, resolve } from "path";
 import { parse } from "yaml";
 import { fileURLToPath } from "url";
 import { detectMdx } from "./lib/mdx";
-import { loadSources } from "./lib/registry";
+import { loadSources, SOURCES_REGISTRY_PATHS } from "./lib/registry";
 
 const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
 const ENTRIES_ROOT_PATH = resolve(fileURLToPath(ENTRIES_ROOT));
@@ -96,7 +96,7 @@ async function dirExists(path: string): Promise<boolean> {
 
 const errors: string[] = [];
 
-const registry = await loadSources();
+const registry = await loadSources(SOURCES_REGISTRY_PATHS);
 if (!registry.ok) {
   errors.push("Source registry validation errors:");
   for (const error of registry.errors) {
