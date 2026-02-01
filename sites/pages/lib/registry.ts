@@ -18,7 +18,13 @@ export async function getSourcesRegistryPaths(): Promise<URL[]> {
     entries = dirents
       .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".yml"))
       .map((dirent) => resolve(SOURCES_DIR, dirent.name));
-  } catch {
+  } catch (error) {
+    if ((error as { code?: string })?.code !== "ENOENT") {
+      console.warn(
+        `Warning: could not read sources directory '${SOURCES_DIR}'`,
+        error,
+      );
+    }
     entries = [];
   }
 
