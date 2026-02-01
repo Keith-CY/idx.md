@@ -38,4 +38,30 @@ describe("worker fetch", () => {
     const body = await response.text();
     expect(body).toBe("hello");
   });
+
+  test("copies http metadata from R2 object when available", async () => {
+    const env = {
+      IDX_MD: {
+        get: async () => ({
+          body: "hello",
+          writeHttpMetadata: (headers: Headers) => {
+            headers.set("etag", "\"abc\"");
+            headers.set("cache-control", "max-age=120");
+          },
+        }),
+      },
+    } as any;
+
+    const response = await worker.fetch(
+      new Request("https://idx.md/types"),
+      env,
+    );
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("etag")).toBe("\"abc\"");
+    expect(response.headers.get("cache-control")).toBe("max-age=120");
+    expect(response.headers.get("content-type")).toBe(
+      "text/markdown; charset=utf-8",
+    );
+  });
 });

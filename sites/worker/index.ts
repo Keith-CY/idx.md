@@ -20,6 +20,9 @@ export default {
     }
 
     const headers = new Headers();
+    if (typeof object.writeHttpMetadata === "function") {
+      object.writeHttpMetadata(headers);
+    }
     headers.set("content-type", "text/markdown; charset=utf-8");
     return new Response(object.body, { status: 200, headers });
   },

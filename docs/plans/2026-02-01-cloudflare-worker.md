@@ -119,7 +119,7 @@ export default {
 Create `sites/worker/wrangler.toml`:
 ```toml
 name = "idx-md-markdown"
-main = "sites/worker/index.ts"
+main = "index.ts"
 compatibility_date = "2026-02-01"
 
 [[r2_buckets]]

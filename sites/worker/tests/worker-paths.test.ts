@@ -17,4 +17,12 @@ describe("toR2Key", () => {
   test("data path is preserved", () => {
     expect(toR2Key("/data/index.md")).toBe("data/index.md");
   });
+
+  test("data topic path maps to HEAD.md", () => {
+    expect(toR2Key("/data/mintlify")).toBe("data/mintlify/HEAD.md");
+  });
+
+  test("data topic path with slash maps to HEAD.md", () => {
+    expect(toR2Key("/data/mintlify/")).toBe("data/mintlify/HEAD.md");
+  });
 });
