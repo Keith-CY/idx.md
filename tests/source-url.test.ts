@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { normalizeGithubRawUrl, validateSourceUrl } from "../scripts/lib/source-url";
+import { normalizeGithubRawUrl, validateSourceUrl } from "../site/lib/source-url";
 
 describe("validateSourceUrl", () => {
   test("accepts .md URLs", () => {

@@ -6,11 +6,11 @@ Keep the OpenClaw skills registry and generated entries in sync with the upstrea
 ## Manual update steps
 1. Run the ingest script:
    ```bash
-   bun scripts/ingest-openclaw.ts
+   bun site/ingest-openclaw.ts
    ```
 2. Run the build script:
    ```bash
-   bun scripts/build.ts
+   bun site/build.ts
    ```
 
 ## Expected outputs

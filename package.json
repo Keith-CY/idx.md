@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "bun scripts/build.ts",
-    "validate": "bun scripts/validate.ts"
+    "build": "bun site/build.ts",
+    "validate": "bun site/validate.ts"
   },
   "dependencies": {
     "yaml": "^2.8.2",
