@@ -3,7 +3,6 @@ import { readdir, stat } from "fs/promises";
 import { join, resolve } from "path";
 import { parse } from "yaml";
 import { fileURLToPath } from "url";
-import { detectMdx } from "./lib/mdx";
 import { loadSources, SOURCES_REGISTRY_PATHS } from "./lib/registry";
 
 const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
@@ -217,11 +216,6 @@ for (const typeDir of typeDirs) {
       );
     }
 
-    const bodyText = await Bun.file(bodyPath).text();
-    const mdxReason = detectMdx(bodyText);
-    if (mdxReason) {
-      errors.push(`MDX detected in ${typeName}/${slugName} BODY.md: ${mdxReason}`);
-    }
   }
 }
 

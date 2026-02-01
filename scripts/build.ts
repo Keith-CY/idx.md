@@ -3,7 +3,6 @@ import { mkdir, readdir, rm, stat } from "fs/promises";
 import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
 import { fileURLToPath } from "url";
-import { detectMdx } from "./lib/mdx";
 import {
   loadSources,
   SOURCES_REGISTRY_PATHS,
@@ -28,10 +27,6 @@ const RECENT_PATH_VALUE = resolve(fileURLToPath(RECENT_PATH));
 const TAGS_ROOT = new URL("../tags/", import.meta.url);
 const TAGS_ROOT_PATH = resolve(fileURLToPath(TAGS_ROOT));
 const BASE_URL = "https://idx.md";
-
-function urlIsMdx(sourceUrl: URL): boolean {
-  return sourceUrl.pathname.toLowerCase().endsWith(".mdx");
-}
 
 function resolveEntryDir(type: string, slug: string): string {
   const entryPath = resolve(ENTRIES_ROOT_PATH, type, slug);
@@ -168,14 +163,6 @@ async function fetchMarkdown(
     return null;
   }
 
-  if (urlIsMdx(url)) {
-    rejections.push({
-      url: source.source_url,
-      reason: "URL ends with .mdx",
-    });
-    return null;
-  }
-
   let response: Response;
   try {
     response = await fetch(url);
@@ -209,12 +196,6 @@ async function fetchMarkdown(
   }
   const bytes = new Uint8Array(buffer);
   const markdown = TEXT_DECODER.decode(bytes);
-  const mdxReason = detectMdx(markdown);
-
-  if (mdxReason) {
-    rejections.push({ url: source.source_url, reason: mdxReason });
-    return null;
-  }
 
   return { markdown, bytes, retrievedAt: new Date().toISOString() };
 }
