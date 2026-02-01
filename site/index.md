@@ -30,14 +30,6 @@ Teach agents how to ingest markdown-only sources and regenerate idx.md outputs (
   - `types/*.md`, `tags/*.md`, `recent.md`, `catalog.md`
   - `reports/rejected.md`
 
-## Quick Start
-```bash
-bun site/ingest-openclaw.ts
-bun site/validate.ts
-bun site/build.ts
-```
-Then review `reports/rejected.md` and commit changes.
-
 ## Workflow
 1) **Add or update sources**
    - Add new entries to `data/sources.yml` (manual).
