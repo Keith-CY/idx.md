@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import worker from "../sites/worker/index";
+import worker from "../index";
 
 describe("worker fetch", () => {
   test("returns markdown 404 when missing", async () => {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { toR2Key } from "../sites/worker/lib/paths";
+import { toR2Key } from "../lib/paths";
 
 describe("toR2Key", () => {
   test("root maps to index.md", () => {

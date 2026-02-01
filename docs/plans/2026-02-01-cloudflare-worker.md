@@ -2,9 +2,9 @@
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** Serve markdown-only paths from an R2 bucket via a Cloudflare Worker and provide a `wrangler.toml` for deployment.
+**Goal:** Serve markdown-only paths from an R2 bucket via a Cloudflare Worker and provide a `sites/worker/wrangler.toml` for deployment.
 
-**Architecture:** A small path-normalization helper (TDD) maps requests to `.md` keys. The Worker fetches from R2 (`IDX_MD` binding) and returns `text/markdown`. `wrangler.toml` defines the worker name, entrypoint, and R2 binding.
+**Architecture:** A small path-normalization helper (TDD) maps requests to `.md` keys. The Worker fetches from R2 (`IDX_MD` binding) and returns `text/markdown`. `sites/worker/wrangler.toml` defines the worker name, entrypoint, and R2 binding.
 
 **Tech Stack:** TypeScript, Cloudflare Workers, R2.
 
@@ -82,7 +82,7 @@ git commit -m "test: add worker path normalization"
 
 **Files:**
 - Create: `sites/worker/index.ts`
-- Create: `wrangler.toml`
+- Create: `sites/worker/wrangler.toml`
 
 **Step 1: Implement Worker**
 Create `sites/worker/index.ts`:
@@ -116,7 +116,7 @@ export default {
 ```
 
 **Step 2: Add wrangler config**
-Create `wrangler.toml`:
+Create `sites/worker/wrangler.toml`:
 ```toml
 name = "idx-md-markdown"
 main = "sites/worker/index.ts"
@@ -133,7 +133,7 @@ Expected: PASS.
 
 **Step 4: Commit**
 ```bash
-git add sites/worker/index.ts wrangler.toml
+git add sites/worker/index.ts sites/worker/wrangler.toml
  git commit -m "feat: add cloudflare worker for markdown"
 ```
 
