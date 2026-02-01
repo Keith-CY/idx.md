@@ -8,6 +8,7 @@ import {
   SOURCES_REGISTRY_PATHS,
   type SourceEntry,
 } from "./lib/registry";
+import { toRootRelative } from "./lib/links";
 
 const result = await loadSources(SOURCES_REGISTRY_PATHS);
 
@@ -26,7 +27,6 @@ const RECENT_PATH = new URL("../recent.md", import.meta.url);
 const RECENT_PATH_VALUE = resolve(fileURLToPath(RECENT_PATH));
 const TAGS_ROOT = new URL("../tags/", import.meta.url);
 const TAGS_ROOT_PATH = resolve(fileURLToPath(TAGS_ROOT));
-const BASE_URL = "https://idx.md";
 
 function resolveEntryDir(type: string, slug: string): string {
   const entryPath = resolve(ENTRIES_ROOT_PATH, type, slug);
@@ -78,17 +78,12 @@ function formatRejectedReport(rejections: Rejection[]): string {
   return lines.join("\n");
 }
 
-function buildUrl(pathname: string): string {
-  const normalized = pathname.startsWith("/") ? pathname : `/${pathname}`;
-  return new URL(normalized, BASE_URL).toString();
-}
-
 function typeIndexUrl(type: string): string {
-  return buildUrl(`/types/${type}.md`);
+  return toRootRelative(`types/${type}.md`);
 }
 
 function entryHeadUrl(type: string, slug: string): string {
-  return buildUrl(`/entries/${type}/${slug}/HEAD.md`);
+  return toRootRelative(`entries/${type}/${slug}/HEAD.md`);
 }
 
 async function fileExists(path: string): Promise<boolean> {
@@ -375,7 +370,7 @@ catalogLines.push("");
 
 const wroteRecent = await fileExists(RECENT_PATH_VALUE);
 if (wroteRecent) {
-  catalogLines.push("## Recent", "", `- ${buildUrl("/recent.md")}`, "");
+  catalogLines.push("## Recent", "", `- ${toRootRelative("recent.md")}`, "");
 }
 
 const wroteTags = await dirExists(TAGS_ROOT_PATH);
@@ -390,7 +385,7 @@ if (wroteTags) {
     catalogLines.push("## Tags", "");
     for (const tag of tags) {
       catalogLines.push(
-        `- ${buildUrl(`/tags/${encodeURIComponent(tag)}.md`)}`,
+        `- ${toRootRelative(`tags/${encodeURIComponent(tag)}.md`)}`,
       );
     }
     catalogLines.push("");
