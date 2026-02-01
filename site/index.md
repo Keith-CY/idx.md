@@ -6,11 +6,11 @@ description: Agent skill to index markdown-only sources into entries, indexes, a
 # idx.md Indexer Skill
 
 ## Audience
-- Primary: OpenClaw
-- Secondary: Codex, OpenCode, Claude Code
+- Primary: OpenClaw, Codex, OpenCode, Claude Code
+- Secondary: AI Agents
 
 ## Purpose
-Teach agents how to ingest markdown-only sources and regenerate idx.md outputs (entries, catalogs, tags, reports) used by GitHub Pages.
+Teach agents how to ingest markdown-only sources and regenerate idx.md outputs (entries, catalog, tags, reports) used by GitHub Pages.
 
 ## When to Use
 - You need to add or refresh markdown sources in this repo.
