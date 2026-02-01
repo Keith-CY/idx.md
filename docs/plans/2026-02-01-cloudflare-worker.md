@@ -11,14 +11,14 @@
 ### Task 1: Add path normalization helper with tests (TDD)
 
 **Files:**
-- Create: `worker/lib/paths.ts`
+- Create: `sites/worker/lib/paths.ts`
 - Create: `tests/worker-paths.test.ts`
 
 **Step 1: Write the failing test**
 Create `tests/worker-paths.test.ts`:
 ```typescript
 import { describe, expect, test } from "bun:test";
-import { toR2Key } from "../worker/lib/paths";
+import { toR2Key } from "../sites/worker/lib/paths";
 
 describe("toR2Key", () => {
   test("root maps to index.md", () => {
@@ -44,7 +44,7 @@ Run: `bun test tests/worker-paths.test.ts`
 Expected: FAIL (module not found).
 
 **Step 3: Write minimal implementation**
-Create `worker/lib/paths.ts`:
+Create `sites/worker/lib/paths.ts`:
 ```typescript
 export function toR2Key(pathname: string): string {
   const trimmed = pathname.trim();
@@ -74,18 +74,18 @@ Expected: PASS.
 
 **Step 5: Commit**
 ```bash
-git add worker/lib/paths.ts tests/worker-paths.test.ts
+git add sites/worker/lib/paths.ts tests/worker-paths.test.ts
 git commit -m "test: add worker path normalization"
 ```
 
 ### Task 2: Add Worker script and wrangler config
 
 **Files:**
-- Create: `worker/index.ts`
+- Create: `sites/worker/index.ts`
 - Create: `wrangler.toml`
 
 **Step 1: Implement Worker**
-Create `worker/index.ts`:
+Create `sites/worker/index.ts`:
 ```typescript
 import { toR2Key } from "./lib/paths";
 
@@ -119,7 +119,7 @@ export default {
 Create `wrangler.toml`:
 ```toml
 name = "idx-md-markdown"
-main = "worker/index.ts"
+main = "sites/worker/index.ts"
 compatibility_date = "2026-02-01"
 
 [[r2_buckets]]
@@ -133,7 +133,7 @@ Expected: PASS.
 
 **Step 4: Commit**
 ```bash
-git add worker/index.ts wrangler.toml
+git add sites/worker/index.ts wrangler.toml
  git commit -m "feat: add cloudflare worker for markdown"
 ```
 

@@ -1,5 +1,5 @@
 name = "idx-md-markdown"
-main = "worker/index.ts"
+main = "sites/worker/index.ts"
 compatibility_date = "2026-02-01"
 
 [[r2_buckets]]
