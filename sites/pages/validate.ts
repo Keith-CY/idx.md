@@ -3,9 +3,10 @@ import { readdir, stat } from "fs/promises";
 import { join, resolve } from "path";
 import { parse } from "yaml";
 import { loadSources } from "./lib/registry";
-import { repoRoot } from "./lib/paths";
+import { DATA_ROOT } from "./lib/data-layout";
 
-const ENTRIES_ROOT_PATH = resolve(repoRoot, "entries");
+const DATA_ROOT_PATH = resolve(DATA_ROOT);
+const INDEX_PATH = resolve(DATA_ROOT, "index.md");
 
 const REQUIRED_HEAD_FIELDS = [
   "stable_id",
@@ -104,8 +105,8 @@ if (!registry.ok) {
   console.log(`Sources: ${registry.sources.length}`);
 }
 
-if (!(await dirExists(ENTRIES_ROOT_PATH))) {
-  console.warn("No entries directory found; skipping entry validation.");
+if (!(await dirExists(DATA_ROOT_PATH))) {
+  console.warn("No data directory found; skipping entry validation.");
   if (errors.length > 0) {
     for (const error of errors) {
       console.error(error);
@@ -115,106 +116,98 @@ if (!(await dirExists(ENTRIES_ROOT_PATH))) {
   process.exit(0);
 }
 
-const typeDirs = await readdir(ENTRIES_ROOT_PATH, { withFileTypes: true });
-if (typeDirs.length === 0) {
-  console.warn("No entry types found; skipping entry validation.");
+const indexExists = await fileExists(INDEX_PATH);
+if (!indexExists) {
+  errors.push(`Missing data index: ${INDEX_PATH}`);
 }
 
-for (const typeDir of typeDirs) {
-  if (!typeDir.isDirectory()) {
+const topicDirs = await readdir(DATA_ROOT_PATH, { withFileTypes: true });
+const topics = topicDirs
+  .filter(
+    (dirent) =>
+      dirent.isDirectory() &&
+      !dirent.name.startsWith(".") &&
+      dirent.name !== "reports",
+  )
+  .map((dirent) => dirent.name);
+
+if (topics.length === 0) {
+  console.warn("No data topics found; skipping entry validation.");
+}
+
+for (const topic of topics) {
+  const entryPath = join(DATA_ROOT_PATH, topic);
+  const headPath = join(entryPath, "HEAD.md");
+  const bodyPath = join(entryPath, "BODY.md");
+
+  if (!(await fileExists(headPath))) {
+    errors.push(`Missing HEAD.md for ${topic}`);
     continue;
   }
-  const typeName = typeDir.name;
-  const typePath = join(ENTRIES_ROOT_PATH, typeName);
-  const slugDirs = await readdir(typePath, { withFileTypes: true });
+  if (!(await fileExists(bodyPath))) {
+    errors.push(`Missing BODY.md for ${topic}`);
+    continue;
+  }
 
-  for (const slugDir of slugDirs) {
-    if (!slugDir.isDirectory()) {
-      continue;
-    }
-    const slugName = slugDir.name;
-    const entryPath = join(typePath, slugName);
-    const headPath = join(entryPath, "HEAD.md");
-    const bodyPath = join(entryPath, "BODY.md");
+  const headText = await Bun.file(headPath).text();
+  const parsed = parseFrontmatter(headText);
+  if (!parsed.ok) {
+    errors.push(`Invalid HEAD.md for ${topic}: ${parsed.error}`);
+    continue;
+  }
 
-    if (!(await fileExists(headPath))) {
-      errors.push(`Missing HEAD.md for ${typeName}/${slugName}`);
-      continue;
+  const frontmatter = parsed.frontmatter;
+  for (const field of REQUIRED_HEAD_FIELDS) {
+    if (!(field in frontmatter)) {
+      errors.push(`HEAD.md missing required field "${field}" for ${topic}`);
     }
-    if (!(await fileExists(bodyPath))) {
-      errors.push(`Missing BODY.md for ${typeName}/${slugName}`);
-      continue;
-    }
+  }
 
-    const headText = await Bun.file(headPath).text();
-    const parsed = parseFrontmatter(headText);
-    if (!parsed.ok) {
-      errors.push(`Invalid HEAD.md for ${typeName}/${slugName}: ${parsed.error}`);
-      continue;
-    }
+  if (typeof frontmatter.stable_id !== "string" || !frontmatter.stable_id) {
+    errors.push(`HEAD.md stable_id must be a string for ${topic}`);
+  }
+  if (typeof frontmatter.type !== "string" || !frontmatter.type) {
+    errors.push(`HEAD.md type must be a string for ${topic}`);
+  }
+  if (typeof frontmatter.title !== "string") {
+    errors.push(`HEAD.md title must be a string for ${topic}`);
+  }
+  if (typeof frontmatter.summary !== "string") {
+    errors.push(`HEAD.md summary must be a string for ${topic}`);
+  }
+  if (!Array.isArray(frontmatter.tags)) {
+    errors.push(`HEAD.md tags must be an array for ${topic}`);
+  } else if (!frontmatter.tags.every((tag) => typeof tag === "string")) {
+    errors.push(`HEAD.md tags must be strings for ${topic}`);
+  }
+  if (typeof frontmatter.source_url !== "string") {
+    errors.push(`HEAD.md source_url must be a string for ${topic}`);
+  }
+  if (typeof frontmatter.license !== "string") {
+    errors.push(`HEAD.md license must be a string for ${topic}`);
+  }
+  if (typeof frontmatter.upstream_ref !== "string") {
+    errors.push(`HEAD.md upstream_ref must be a string for ${topic}`);
+  }
+  if (typeof frontmatter.retrieved_at !== "string") {
+    errors.push(`HEAD.md retrieved_at must be a string for ${topic}`);
+  }
 
-    const frontmatter = parsed.frontmatter;
-    for (const field of REQUIRED_HEAD_FIELDS) {
-      if (!(field in frontmatter)) {
-        errors.push(
-          `HEAD.md missing required field "${field}" for ${typeName}/${slugName}`,
-        );
-      }
-    }
+  const bodyBytes = new Uint8Array(await Bun.file(bodyPath).arrayBuffer());
+  const computed = computeSha256(bodyBytes);
+  const recorded =
+    typeof frontmatter.content_sha256 === "string"
+      ? frontmatter.content_sha256.toLowerCase()
+      : "";
 
-    if (typeof frontmatter.stable_id !== "string" || !frontmatter.stable_id) {
-      errors.push(`HEAD.md stable_id must be a string for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.type !== "string" || !frontmatter.type) {
-      errors.push(`HEAD.md type must be a string for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.title !== "string") {
-      errors.push(`HEAD.md title must be a string for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.summary !== "string") {
-      errors.push(`HEAD.md summary must be a string for ${typeName}/${slugName}`);
-    }
-    if (!Array.isArray(frontmatter.tags)) {
-      errors.push(`HEAD.md tags must be an array for ${typeName}/${slugName}`);
-    } else if (!frontmatter.tags.every((tag) => typeof tag === "string")) {
-      errors.push(`HEAD.md tags must be strings for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.source_url !== "string") {
-      errors.push(`HEAD.md source_url must be a string for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.license !== "string") {
-      errors.push(`HEAD.md license must be a string for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.upstream_ref !== "string") {
-      errors.push(`HEAD.md upstream_ref must be a string for ${typeName}/${slugName}`);
-    }
-    if (typeof frontmatter.retrieved_at !== "string") {
-      errors.push(
-        `HEAD.md retrieved_at must be a string for ${typeName}/${slugName}`,
-      );
-    }
-
-    const bodyBytes = new Uint8Array(await Bun.file(bodyPath).arrayBuffer());
-    const computed = computeSha256(bodyBytes);
-    const recorded =
-      typeof frontmatter.content_sha256 === "string"
-        ? frontmatter.content_sha256.toLowerCase()
-        : "";
-
-    if (!recorded) {
-      errors.push(
-        `HEAD.md content_sha256 must be a string for ${typeName}/${slugName}`,
-      );
-    } else if (!/^[a-f0-9]{64}$/.test(recorded)) {
-      errors.push(
-        `HEAD.md content_sha256 must be 64 hex chars for ${typeName}/${slugName}`,
-      );
-    } else if (computed !== recorded) {
-      errors.push(
-        `content_sha256 mismatch for ${typeName}/${slugName} (expected ${recorded}, got ${computed})`,
-      );
-    }
-
+  if (!recorded) {
+    errors.push(`HEAD.md content_sha256 must be a string for ${topic}`);
+  } else if (!/^[a-f0-9]{64}$/.test(recorded)) {
+    errors.push(`HEAD.md content_sha256 must be 64 hex chars for ${topic}`);
+  } else if (computed !== recorded) {
+    errors.push(
+      `content_sha256 mismatch for ${topic} (expected ${recorded}, got ${computed})`,
+    );
   }
 }
 

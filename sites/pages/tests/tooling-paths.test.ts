@@ -12,19 +12,21 @@ describe("pages tooling paths", () => {
     expect(text.includes("INDEX_PATH")).toBe(true);
   });
 
-  test("validate reads entries under repo root", async () => {
+  test("validate reads data topics", async () => {
     const text = await readText("sites/pages/validate.ts");
-    expect(text.includes('resolve(repoRoot, "entries")')).toBe(true);
+    expect(text.includes("DATA_ROOT")).toBe(true);
+    expect(text.includes("HEAD.md")).toBe(true);
+    expect(text.includes("BODY.md")).toBe(true);
   });
 
-  test("ingest writes to repo data and reports", async () => {
+  test("ingest writes to sources and data reports", async () => {
     const text = await readText("sites/pages/ingest-openclaw.ts");
-    expect(text.includes('resolve(repoRoot, "data", "sources-openclaw.yml")')).toBe(
+    expect(text.includes('resolve(repoRoot, "sources", "openclaw.yml")')).toBe(
       true,
     );
-    expect(text.includes('resolve(repoRoot, "reports", "ingest-openclaw.md")')).toBe(
-      true,
-    );
-    expect(text.includes('resolve(repoRoot, "reports")')).toBe(true);
+    expect(
+      text.includes('resolve(DATA_ROOT, "reports", "ingest-openclaw.md")'),
+    ).toBe(true);
+    expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
   });
 });
