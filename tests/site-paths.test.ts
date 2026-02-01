@@ -1,9 +1,10 @@
 import { describe, expect, test } from "bun:test";
+import { resolve } from "path";
 import { repoRoot, siteRoot, buildOut } from "../site/lib/paths";
 
 describe("site path helpers", () => {
-  test("repoRoot resolves to project root", () => {
-    expect(repoRoot.endsWith("/idx.md")).toBe(true);
+  test("repoRoot is parent of siteRoot", () => {
+    expect(resolve(siteRoot, "..")).toBe(repoRoot);
   });
 
   test("siteRoot lives under repoRoot/site", () => {
