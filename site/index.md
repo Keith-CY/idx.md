@@ -1,9 +1,16 @@
 ---
 name: idx-md-indexer
-description: Index markdown-only skills and docs in this repo into entries, catalog, tags, and reports.
+description: Agent skill to index markdown-only sources into entries, indexes, and reports for idx.md.
 ---
 
 # idx.md Indexer Skill
+
+## Audience
+- Primary: OpenClaw, Codex, OpenCode, Claude Code
+- Secondary: AI Agents
+
+## Purpose
+Teach agents how to ingest markdown-only sources.
 
 ## When to Use
 - You need to add or refresh markdown sources in this repo.
@@ -52,7 +59,7 @@ description: Index markdown-only skills and docs in this repo into entries, cata
 - **Markdown-only URLs:** `source_url` must end with `.md`.
 - **No github.com HTML URLs:** use `raw.githubusercontent.com` for GitHub content.
 - **MDX is rejected by filename:** `.mdx` is not allowed.
-- **Content is not scanned for MDX:** do not rely on MDX detection; enforce via filename.
+- **Content is not scanned for MDX:** enforce via filename only.
 - **Site output:** GitHub Pages uses `site/out/` and is built by workflow; do not commit `site/out/`.
 
 ## Examples
