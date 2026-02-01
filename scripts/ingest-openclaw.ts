@@ -2,6 +2,7 @@ import { createHash } from "crypto";
 import { mkdir } from "fs/promises";
 import { stringify } from "yaml";
 import type { SourceEntry } from "./lib/registry";
+import { normalizeGithubRawUrl } from "./lib/source-url";
 
 const README_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/refs/heads/main/README.md";
@@ -141,6 +142,11 @@ function convertToRawSkillUrl(value: string): ConvertedUrl | null {
     } catch {
       return null;
     }
+  }
+
+  const normalizedRaw = normalizeGithubRawUrl(url.toString());
+  if (normalizedRaw) {
+    url = new URL(normalizedRaw);
   }
 
   if (url.hostname === "raw.githubusercontent.com") {

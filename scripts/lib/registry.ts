@@ -1,5 +1,6 @@
 import { parse } from "yaml";
 import { z } from "zod";
+import { validateSourceUrl } from "./source-url";
 
 export const SOURCES_REGISTRY_PATH = new URL(
   "../../data/sources.yml",
@@ -15,11 +16,18 @@ const PathSegmentSchema = z
   .min(1)
   .regex(/^[a-z0-9][a-z0-9-]*$/, "Invalid path segment");
 
+const SourceUrlSchema = z.string().superRefine((value, ctx) => {
+  const result = validateSourceUrl(value);
+  if (!result.ok) {
+    ctx.addIssue({ code: z.ZodIssueCode.custom, message: result.reason });
+  }
+});
+
 const SourceSchema = z
   .object({
     type: PathSegmentSchema,
     slug: PathSegmentSchema,
-    source_url: z.string().url(),
+    source_url: SourceUrlSchema,
     title: z.string().min(1).optional(),
     summary: z.string().min(1).optional(),
     tags: z.array(z.string().min(1)).optional(),
