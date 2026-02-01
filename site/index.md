@@ -10,7 +10,7 @@ description: Agent skill to index markdown-only sources into entries, indexes, a
 - Secondary: AI Agents
 
 ## Purpose
-Teach agents how to ingest markdown-only sources and regenerate idx.md outputs (entries, catalog, tags, reports) used by GitHub Pages.
+Teach agents how to ingest markdown-only sources.
 
 ## When to Use
 - You need to add or refresh markdown sources in this repo.
