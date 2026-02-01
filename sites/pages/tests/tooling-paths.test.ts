@@ -5,16 +5,11 @@ async function readText(path: string): Promise<string> {
 }
 
 describe("pages tooling paths", () => {
-  test("build writes outputs under repo root", async () => {
+  test("build writes outputs under data/", async () => {
     const text = await readText("sites/pages/build.ts");
-    expect(text.includes('resolve(repoRoot, "reports", "rejected.md")')).toBe(
-      true,
-    );
-    expect(text.includes('resolve(repoRoot, "entries")')).toBe(true);
-    expect(text.includes('resolve(repoRoot, "catalog.md")')).toBe(true);
-    expect(text.includes('resolve(repoRoot, "types")')).toBe(true);
-    expect(text.includes('resolve(repoRoot, "recent.md")')).toBe(true);
-    expect(text.includes('resolve(repoRoot, "tags")')).toBe(true);
+    expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
+    expect(text.includes('resolve(REPORT_DIR, "rejected.md")')).toBe(true);
+    expect(text.includes("INDEX_PATH")).toBe(true);
   });
 
   test("validate reads entries under repo root", async () => {

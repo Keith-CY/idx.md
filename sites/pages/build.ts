@@ -1,10 +1,16 @@
 import { createHash } from "crypto";
-import { mkdir, readdir, rm, stat } from "fs/promises";
-import { isAbsolute, join, relative, resolve } from "path";
+import { mkdir, rm } from "fs/promises";
+import { isAbsolute, relative, resolve } from "path";
 import { stringify } from "yaml";
 import { loadSources, type SourceEntry } from "./lib/registry";
-import { toRootRelative } from "./lib/links";
-import { repoRoot } from "./lib/paths";
+import {
+  DATA_ROOT,
+  INDEX_PATH,
+  bodyPath,
+  formatIndexEntry,
+  headPath,
+  topicDir,
+} from "./lib/data-layout";
 
 const result = await loadSources();
 
@@ -13,18 +19,14 @@ type Rejection = { url: string; reason: string };
 const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
 
-const REPORT_PATH = resolve(repoRoot, "reports", "rejected.md");
-const ENTRIES_ROOT_PATH = resolve(repoRoot, "entries");
-const CATALOG_PATH = resolve(repoRoot, "catalog.md");
-const TYPES_ROOT_PATH = resolve(repoRoot, "types");
-const RECENT_PATH = resolve(repoRoot, "recent.md");
-const TAGS_ROOT_PATH = resolve(repoRoot, "tags");
+const REPORT_DIR = resolve(DATA_ROOT, "reports");
+const REPORT_PATH = resolve(REPORT_DIR, "rejected.md");
 
-function resolveEntryDir(type: string, slug: string): string {
-  const entryPath = resolve(ENTRIES_ROOT_PATH, type, slug);
-  const rel = relative(ENTRIES_ROOT_PATH, entryPath);
+function resolveTopicDir(topic: string): string {
+  const entryPath = resolve(topicDir(topic));
+  const rel = relative(DATA_ROOT, entryPath);
   if (rel.startsWith("..") || isAbsolute(rel)) {
-    throw new Error(`Unsafe entry path: ${type}/${slug}`);
+    throw new Error(`Unsafe topic path: ${topic}`);
   }
   return entryPath;
 }
@@ -70,32 +72,6 @@ function formatRejectedReport(rejections: Rejection[]): string {
   return lines.join("\n");
 }
 
-function typeIndexUrl(type: string): string {
-  return toRootRelative(`types/${type}.md`);
-}
-
-function entryHeadUrl(type: string, slug: string): string {
-  return toRootRelative(`entries/${type}/${slug}/HEAD.md`);
-}
-
-async function fileExists(path: string): Promise<boolean> {
-  try {
-    const stats = await stat(path);
-    return stats.isFile();
-  } catch {
-    return false;
-  }
-}
-
-async function dirExists(path: string): Promise<boolean> {
-  try {
-    const stats = await stat(path);
-    return stats.isDirectory();
-  } catch {
-    return false;
-  }
-}
-
 type FetchResult = {
   markdown: string;
   bytes: Uint8Array;
@@ -106,33 +82,6 @@ type AcceptedEntry = {
   source: SourceEntry;
   retrievedAt: string;
 };
-
-type NormalizedTag = {
-  slug: string;
-  label: string;
-};
-
-function normalizeTag(tag: string): NormalizedTag | null {
-  const trimmed = tag.trim();
-  if (!trimmed) {
-    console.warn("Skipping empty tag");
-    return null;
-  }
-
-  const slug = trimmed
-    .toLowerCase()
-    .replace(/[\s_]+/g, "-")
-    .replace(/[^a-z0-9-]/g, "")
-    .replace(/-+/g, "-")
-    .replace(/^-+|-+$/g, "");
-
-  if (!slug) {
-    console.warn(`Skipping tag that normalizes to empty: "${trimmed}"`);
-    return null;
-  }
-
-  return { slug, label: trimmed };
-}
 
 async function fetchMarkdown(
   source: SourceEntry,
@@ -189,9 +138,11 @@ async function fetchMarkdown(
 
 const accepted: AcceptedEntry[] = [];
 const rejected: Rejection[] = [];
+const indexEntries: Array<{ topic: string; headContent: string }> = [];
 
 const writeRejectedReport = async () => {
   try {
+    await mkdir(REPORT_DIR, { recursive: true });
     await Bun.write(REPORT_PATH, formatRejectedReport(rejected));
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
@@ -208,13 +159,8 @@ if (!result.ok) {
   process.exit(1);
 }
 
-await rm(RECENT_PATH, { force: true });
-await rm(TAGS_ROOT_PATH, { recursive: true, force: true });
-
-const registryTypes = new Set<string>();
-for (const source of result.sources) {
-  registryTypes.add(source.type);
-}
+await rm(DATA_ROOT, { recursive: true, force: true });
+await mkdir(DATA_ROOT, { recursive: true });
 
 try {
   for (const source of result.sources) {
@@ -223,7 +169,8 @@ try {
       continue;
     }
     const { markdown, bytes, retrievedAt } = fetched;
-    const entryDirPath = resolveEntryDir(source.type, source.slug);
+    const topic = source.slug;
+    const entryDirPath = resolveTopicDir(topic);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
     const title = source.title?.trim() || source.slug;
@@ -242,14 +189,11 @@ try {
     const yaml = stringify(frontmatter).trimEnd();
 
     await mkdir(entryDirPath, { recursive: true });
-    await Bun.write(join(entryDirPath, "BODY.md"), bytes);
+    await Bun.write(bodyPath(topic), bytes);
 
-    const headParts = ["---", yaml, "---"];
-    if (summaryText) {
-      headParts.push(summaryText);
-    }
-    const headContent = `${headParts.join("\n")}\n`;
-    await Bun.write(join(entryDirPath, "HEAD.md"), headContent);
+    const headContent = `---\n${yaml}\n---\n`;
+    await Bun.write(headPath(topic), headContent);
+    indexEntries.push({ topic, headContent });
 
     accepted.push({ source, retrievedAt });
   }
@@ -257,134 +201,14 @@ try {
   await writeRejectedReport();
 }
 
-const typeToSlugs = new Map<string, Set<string>>();
-for (const entry of accepted) {
-  const source = entry.source;
-  const existing = typeToSlugs.get(source.type);
-  if (existing) {
-    existing.add(source.slug);
-  } else {
-    typeToSlugs.set(source.type, new Set([source.slug]));
-  }
-}
-
-const sortedTypes = Array.from(registryTypes).sort((a, b) =>
-  a.localeCompare(b),
+const sortedIndexEntries = indexEntries.sort((a, b) =>
+  a.topic.localeCompare(b.topic),
 );
-
-await rm(TYPES_ROOT_PATH, { recursive: true, force: true });
-await mkdir(TYPES_ROOT_PATH, { recursive: true });
-for (const type of sortedTypes) {
-  const slugs = Array.from(typeToSlugs.get(type) ?? []).sort((a, b) =>
-    a.localeCompare(b),
-  );
-  const lines = [`# ${type}`, ""];
-  for (const slug of slugs) {
-    lines.push(`- ${entryHeadUrl(type, slug)}`);
-  }
-  lines.push("");
-  await Bun.write(join(TYPES_ROOT_PATH, `${type}.md`), lines.join("\n"));
-}
-
-const recentEntries = [...accepted].sort((a, b) => {
-  const timeSort = b.retrievedAt.localeCompare(a.retrievedAt);
-  if (timeSort !== 0) {
-    return timeSort;
-  }
-  const typeSort = a.source.type.localeCompare(b.source.type);
-  if (typeSort !== 0) {
-    return typeSort;
-  }
-  return a.source.slug.localeCompare(b.source.slug);
-});
-
-if (recentEntries.length > 0) {
-  const recentLines = ["# Recent", ""];
-  for (const entry of recentEntries) {
-    recentLines.push(
-      `- ${entryHeadUrl(entry.source.type, entry.source.slug)}`,
-    );
-  }
-  recentLines.push("");
-  await Bun.write(RECENT_PATH, recentLines.join("\n"));
-}
-
-const tagIndex = new Map<string, { label: string; keys: Set<string> }>();
-for (const entry of accepted) {
-  const source = entry.source;
-  for (const rawTag of source.tags ?? []) {
-    const normalized = normalizeTag(rawTag);
-    if (!normalized) {
-      continue;
-    }
-    const key = `${source.type}/${source.slug}`;
-    const existing = tagIndex.get(normalized.slug);
-    if (existing) {
-      if (existing.label !== normalized.label) {
-        console.warn(
-          `Tag slug collision "${normalized.slug}": "${normalized.label}" conflicts with "${existing.label}"`,
-        );
-      }
-      existing.keys.add(key);
-    } else {
-      tagIndex.set(normalized.slug, {
-        label: normalized.label,
-        keys: new Set([key]),
-      });
-    }
-  }
-}
-
-await mkdir(TAGS_ROOT_PATH, { recursive: true });
-const sortedTags = Array.from(tagIndex.keys()).sort((a, b) =>
-  a.localeCompare(b),
+const indexSections = sortedIndexEntries.map((entry) =>
+  formatIndexEntry(entry.topic, entry.headContent).trimEnd(),
 );
-for (const tag of sortedTags) {
-  const entry = tagIndex.get(tag);
-  const label = entry?.label ?? tag;
-  const keys = Array.from(entry?.keys ?? []).sort((a, b) =>
-    a.localeCompare(b),
-  );
-  const tagLines = [`# Tag: ${label}`, ""];
-  for (const key of keys) {
-    const [type, slug] = key.split("/");
-    tagLines.push(`- ${entryHeadUrl(type, slug)}`);
-  }
-  tagLines.push("");
-  await Bun.write(join(TAGS_ROOT_PATH, `${tag}.md`), tagLines.join("\n"));
-}
-
-const catalogLines: string[] = ["# Catalog", "", "## Types", ""];
-for (const type of sortedTypes) {
-  catalogLines.push(`- ${typeIndexUrl(type)}`);
-}
-catalogLines.push("");
-
-const wroteRecent = await fileExists(RECENT_PATH);
-if (wroteRecent) {
-  catalogLines.push("## Recent", "", `- ${toRootRelative("recent.md")}`, "");
-}
-
-const wroteTags = await dirExists(TAGS_ROOT_PATH);
-if (wroteTags) {
-  const files = await readdir(TAGS_ROOT_PATH);
-  const tags = files
-    .filter((file) => file.endsWith(".md"))
-    .map((file) => file.slice(0, -3))
-    .sort((a, b) => a.localeCompare(b));
-
-  if (tags.length > 0) {
-    catalogLines.push("## Tags", "");
-    for (const tag of tags) {
-      catalogLines.push(
-        `- ${toRootRelative(`tags/${encodeURIComponent(tag)}.md`)}`,
-      );
-    }
-    catalogLines.push("");
-  }
-}
-
-await Bun.write(CATALOG_PATH, catalogLines.join("\n"));
+const indexContent = indexSections.join("\n\n");
+await Bun.write(INDEX_PATH, indexContent ? `${indexContent}\n` : "");
 
 if (rejected.length > 0) {
   console.warn(`Rejected: ${rejected.length}`);
