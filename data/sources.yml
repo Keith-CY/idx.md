@@ -10,28 +10,3 @@
 - type: example
   slug: github-markup-readme
   source_url: https://raw.githubusercontent.com/github/markup/master/README.md
-- type: llms-txt
-  slug: twilio-docs
-  source_url: https://www.twilio.com/docs/llms.txt
-  title: Twilio Docs llms.txt
-  tags: [llms-txt, docs]
-- type: llms-txt
-  slug: langfuse
-  source_url: https://langfuse.com/llms.txt
-  title: Langfuse llms.txt
-  tags: [llms-txt, docs]
-- type: llms-txt
-  slug: replicate-docs
-  source_url: https://replicate.com/docs/llms.txt
-  title: Replicate Docs llms.txt
-  tags: [llms-txt, docs]
-- type: llms-txt
-  slug: nuxtseo
-  source_url: https://nuxtseo.com/llms.txt
-  title: NuxtSEO llms.txt
-  tags: [llms-txt, docs]
-- type: llms-txt
-  slug: mdui-docs
-  source_url: https://www.mdui.org/en/docs/2/llms.txt
-  title: MDUI Docs llms.txt
-  tags: [llms-txt, docs]
