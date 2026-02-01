@@ -134,7 +134,7 @@ Expected: PASS.
 **Step 4: Commit**
 ```bash
 git add sites/worker/index.ts sites/worker/wrangler.toml
- git commit -m "feat: add cloudflare worker for markdown"
+git commit -m "feat: add cloudflare worker for markdown"
 ```
 
 ---
