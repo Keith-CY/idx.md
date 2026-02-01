@@ -35,7 +35,7 @@ Expected: PASS.
 
 **Step 5: Commit**
 ```bash
-git add sites/pages/lib/registry.ts sites/pages/tests/registry.test.ts sources/general.yml data/sources.yml
+git add sites/pages/lib/registry.ts sites/pages/tests/registry.test.ts sources/general.yml
  git commit -m "refactor: move registries to sources/"
 ```
 
@@ -61,7 +61,7 @@ Update `sites/pages/build.ts`:
 - Generate `data/index.md` with one section per topic:
   - raw frontmatter block (from HEAD.md)
   - table row containing directory path (e.g., `|/data/mintlify|`)
-- Update rejected report to live under `data/reports/rejected.md` (or keep `reports/` if required; confirm with user).
+- Update rejected report to live under `data/reports/rejected.md`.
 
 **Step 4: Run test to verify it passes**
 Run: `bun test sites/pages/tests/data-layout.test.ts`
@@ -81,7 +81,7 @@ git add sites/pages/build.ts sites/pages/tests/data-layout.test.ts sites/pages/t
 - Modify: tests under `sites/pages/tests/`
 
 **Step 1: Write the failing test**
-Extend tests to check ingest writes to `sources/` and reports to `data/reports/` (or root `reports/` if kept).
+Extend tests to check ingest writes to `sources/` and reports to `data/reports/`.
 
 **Step 2: Run test to verify it fails**
 Run: `bun test sites/pages/tests/tooling-paths.test.ts`

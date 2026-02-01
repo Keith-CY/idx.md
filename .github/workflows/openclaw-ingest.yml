@@ -36,5 +36,5 @@ jobs:
           branch: automation/openclaw-ingest
           delete-branch: true
           add-paths: |
-            data/sources-openclaw.yml
-            reports/ingest-openclaw.md
+            sources/openclaw.yml
+            data/reports/ingest-openclaw.md

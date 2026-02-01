@@ -19,41 +19,42 @@ Teach agents how to ingest markdown-only sources.
 
 ## Inputs
 - Registry files:
-  - `data/sources.yml` (core sources)
-  - `data/sources-openclaw.yml` (OpenClaw sources, auto-generated)
+  - `sources/general.yml` (core sources)
+  - `sources/openclaw.yml` (OpenClaw sources, auto-generated)
+  - Additional registries in `sources/*.yml` for special cases
 - Build tooling under `sites/pages/`:
   - `sites/pages/build.ts`
   - `sites/pages/validate.ts`
   - `sites/pages/ingest-openclaw.ts`
 - Output locations:
-  - `entries/<type>/<slug>/HEAD.md` + `entries/<type>/<slug>/BODY.md`
-  - `types/*.md`, `tags/*.md`, `recent.md`, `catalog.md`
-  - `reports/rejected.md`
+  - `data/<topic>/HEAD.md` + `data/<topic>/BODY.md`
+  - `data/index.md`
+  - `data/reports/rejected.md`
 
 ## Workflow
 1) **Add or update sources**
-   - Add new entries to `data/sources.yml` (manual).
-   - For OpenClaw: run `bun sites/pages/ingest-openclaw.ts` to regenerate `data/sources-openclaw.yml`.
+   - Add new entries to `sources/general.yml` (manual).
+   - For OpenClaw: run `bun sites/pages/ingest-openclaw.ts` to regenerate `sources/openclaw.yml`.
 
 2) **Validate registry**
    - Run `bun sites/pages/validate.ts` to check registry and entries (if any).
 
 3) **Build entries + indexes**
    - Run `bun sites/pages/build.ts`.
-   - This fetches each `source_url`, writes `entries/`, and updates `catalog.md`, `types/`, `tags/`, `recent.md`, and `reports/rejected.md`.
+   - This fetches each `source_url`, writes `data/`, updates `data/index.md`, and updates `data/reports/rejected.md`.
 
 4) **Review outputs**
-   - Check `reports/rejected.md` for fetch failures or invalid sources.
-   - Confirm new entries exist under `entries/`.
+   - Check `data/reports/rejected.md` for fetch failures or invalid sources.
+   - Confirm new entries exist under `data/`.
 
 5) **Commit changes**
    - Commit updated registries, generated entries, and reports.
 
 ## Outputs
-- Updated registry files in `data/`.
-- Generated entries under `entries/`.
-- Updated indexes: `catalog.md`, `types/`, `tags/`, `recent.md`.
-- Updated `reports/rejected.md`.
+- Updated registry files in `sources/`.
+- Generated entries under `data/`.
+- Updated index: `data/index.md`.
+- Updated `data/reports/rejected.md`.
 
 ## Constraints
 - **Markdown-only URLs:** `source_url` must end with `.md`.
@@ -65,21 +66,21 @@ Teach agents how to ingest markdown-only sources.
 ## Examples
 
 ### Example 1: Add a new markdown source
-1) Add to `data/sources.yml`:
+1) Add to `sources/general.yml`:
    - `type`, `slug`, `source_url` (must end in `.md`).
 2) Run:
    - `bun sites/pages/validate.ts`
    - `bun sites/pages/build.ts`
-3) Commit updated `entries/`, `catalog.md`, and `reports/rejected.md`.
+3) Commit updated `data/` and `data/reports/rejected.md`.
 
 ### Example 2: Refresh OpenClaw skills
 1) Run:
    - `bun sites/pages/ingest-openclaw.ts`
    - `bun sites/pages/build.ts`
-2) Review `reports/ingest-openclaw.md` and `reports/rejected.md`.
-3) Commit `data/sources-openclaw.yml` and generated outputs.
+2) Review `data/reports/ingest-openclaw.md` and `data/reports/rejected.md`.
+3) Commit `sources/openclaw.yml` and generated outputs.
 
 ### Example 3: Fix a rejected source
-1) Open `reports/rejected.md` to identify the failing URL.
+1) Open `data/reports/rejected.md` to identify the failing URL.
 2) Replace with a `.md` raw URL (e.g., `raw.githubusercontent.com/.../FILE.md`).
 3) Re-run `bun sites/pages/build.ts` and confirm the rejection is cleared.

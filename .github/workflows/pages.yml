@@ -33,17 +33,12 @@ jobs:
         run: |
           rm -rf sites/pages/out
           mkdir -p sites/pages/out
-          if [ -f sites/pages/index.md ]; then
+          if [ -f data/index.md ]; then
+            cp data/index.md sites/pages/out/index.md
+          elif [ -f sites/pages/index.md ]; then
             cp sites/pages/index.md sites/pages/out/index.md
-          elif [ -f catalog.md ]; then
-            cp catalog.md sites/pages/out/index.md
           fi
-          if [ -f catalog.md ]; then cp catalog.md sites/pages/out/catalog.md; fi
-          if [ -f recent.md ]; then cp recent.md sites/pages/out/recent.md; fi
-          if [ -d types ]; then cp -R types sites/pages/out/; fi
-          if [ -d tags ]; then cp -R tags sites/pages/out/; fi
-          if [ -d entries ]; then cp -R entries sites/pages/out/; fi
-          if [ -d reports ]; then cp -R reports sites/pages/out/; fi
+          if [ -d data ]; then cp -R data sites/pages/out/; fi
           touch sites/pages/out/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
