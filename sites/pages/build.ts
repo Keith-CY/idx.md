@@ -2,15 +2,11 @@ import { createHash } from "crypto";
 import { mkdir, readdir, rm, stat } from "fs/promises";
 import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
-import {
-  loadSources,
-  SOURCES_REGISTRY_PATHS,
-  type SourceEntry,
-} from "./lib/registry";
+import { loadSources, type SourceEntry } from "./lib/registry";
 import { toRootRelative } from "./lib/links";
 import { repoRoot } from "./lib/paths";
 
-const result = await loadSources(SOURCES_REGISTRY_PATHS);
+const result = await loadSources();
 
 type Rejection = { url: string; reason: string };
 

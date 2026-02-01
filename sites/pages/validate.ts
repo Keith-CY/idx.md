@@ -2,7 +2,7 @@ import { createHash } from "crypto";
 import { readdir, stat } from "fs/promises";
 import { join, resolve } from "path";
 import { parse } from "yaml";
-import { loadSources, SOURCES_REGISTRY_PATHS } from "./lib/registry";
+import { loadSources } from "./lib/registry";
 import { repoRoot } from "./lib/paths";
 
 const ENTRIES_ROOT_PATH = resolve(repoRoot, "entries");
@@ -94,7 +94,7 @@ async function dirExists(path: string): Promise<boolean> {
 
 const errors: string[] = [];
 
-const registry = await loadSources(SOURCES_REGISTRY_PATHS);
+const registry = await loadSources();
 if (!registry.ok) {
   errors.push("Source registry validation errors:");
   for (const error of registry.errors) {

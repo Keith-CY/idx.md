@@ -4,9 +4,9 @@ import { tmpdir } from "os";
 import { join, resolve } from "path";
 import { fileURLToPath, pathToFileURL } from "url";
 import {
+  GENERAL_SOURCES_PATH,
+  getSourcesRegistryPaths,
   loadSources,
-  SOURCES_REGISTRY_PATH,
-  SOURCES_REGISTRY_PATHS,
 } from "../lib/registry";
 import { repoRoot } from "../lib/paths";
 
@@ -50,12 +50,16 @@ describe("loadSources url validation", () => {
 });
 
 describe("registry paths", () => {
-  test("resolve to repo data directory", () => {
-    expect(fileURLToPath(SOURCES_REGISTRY_PATH)).toBe(
-      resolve(repoRoot, "data", "sources.yml"),
+  test("general registry lives under sources/", () => {
+    expect(fileURLToPath(GENERAL_SOURCES_PATH)).toBe(
+      resolve(repoRoot, "sources", "general.yml"),
     );
-    expect(fileURLToPath(SOURCES_REGISTRY_PATHS[1])).toBe(
-      resolve(repoRoot, "data", "sources-openclaw.yml"),
-    );
+  });
+
+  test("registry list includes general and only yml files", async () => {
+    const paths = await getSourcesRegistryPaths();
+    const pathnames = paths.map((path) => fileURLToPath(path));
+    expect(pathnames).toContain(resolve(repoRoot, "sources", "general.yml"));
+    expect(pathnames.every((path) => path.endsWith(".yml"))).toBe(true);
   });
 });
