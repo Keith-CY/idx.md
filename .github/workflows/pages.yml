@@ -28,29 +28,29 @@ jobs:
       - name: Install
         run: bun install --frozen-lockfile
       - name: Build site
-        run: bun site/build.ts
+        run: bun sites/pages/build.ts
       - name: Prepare Pages output
         run: |
-          rm -rf site/out
-          mkdir -p site/out
-          if [ -f site/index.md ]; then
-            cp site/index.md site/out/index.md
+          rm -rf sites/pages/out
+          mkdir -p sites/pages/out
+          if [ -f sites/pages/index.md ]; then
+            cp sites/pages/index.md sites/pages/out/index.md
           elif [ -f catalog.md ]; then
-            cp catalog.md site/out/index.md
+            cp catalog.md sites/pages/out/index.md
           fi
-          if [ -f catalog.md ]; then cp catalog.md site/out/catalog.md; fi
-          if [ -f recent.md ]; then cp recent.md site/out/recent.md; fi
-          if [ -d types ]; then cp -R types site/out/; fi
-          if [ -d tags ]; then cp -R tags site/out/; fi
-          if [ -d entries ]; then cp -R entries site/out/; fi
-          if [ -d reports ]; then cp -R reports site/out/; fi
-          touch site/out/.nojekyll
+          if [ -f catalog.md ]; then cp catalog.md sites/pages/out/catalog.md; fi
+          if [ -f recent.md ]; then cp recent.md sites/pages/out/recent.md; fi
+          if [ -d types ]; then cp -R types sites/pages/out/; fi
+          if [ -d tags ]; then cp -R tags sites/pages/out/; fi
+          if [ -d entries ]; then cp -R entries sites/pages/out/; fi
+          if [ -d reports ]; then cp -R reports sites/pages/out/; fi
+          touch sites/pages/out/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
       - name: Upload artifact
         uses: actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8 # v3.0.0
         with:
-          path: site/out
+          path: sites/pages/out
 
   deploy:
     runs-on: ubuntu-24.04

@@ -4,22 +4,22 @@
 
 **Goal:** Generate root-relative links (e.g., `/types/example.md`) instead of absolute URLs in all build outputs.
 
-**Architecture:** Replace the absolute URL builder in `site/build.ts` with a root-relative link helper in `site/lib/links.ts`. All link-producing functions (`typeIndexUrl`, `entryHeadUrl`, tags, recent, catalog) will use this helper. This keeps internal links domain-agnostic for Cloudflare routing.
+**Architecture:** Replace the absolute URL builder in `sites/pages/build.ts` with a root-relative link helper in `sites/pages/lib/links.ts`. All link-producing functions (`typeIndexUrl`, `entryHeadUrl`, tags, recent, catalog) will use this helper. This keeps internal links domain-agnostic for Cloudflare routing.
 
 **Tech Stack:** TypeScript, Bun.
 
 ### Task 1: Add root-relative link helper with tests (TDD)
 
 **Files:**
-- Create: `site/lib/links.ts`
-- Create: `tests/links.test.ts`
+- Create: `sites/pages/lib/links.ts`
+- Create: `sites/pages/tests/links.test.ts`
 
 **Step 1: Write the failing test**
 
-Create `tests/links.test.ts`:
+Create `sites/pages/tests/links.test.ts`:
 ```typescript
 import { describe, expect, test } from "bun:test";
-import { toRootRelative } from "../site/lib/links";
+import { toRootRelative } from "../lib/links";
 
 describe("toRootRelative", () => {
   test("adds leading slash", () => {
@@ -37,11 +37,11 @@ describe("toRootRelative", () => {
 ```
 
 **Step 2: Run test to verify it fails**
-Run: `bun test tests/links.test.ts`
+Run: `bun test sites/pages/tests/links.test.ts`
 Expected: FAIL (module not found).
 
 **Step 3: Write minimal implementation**
-Create `site/lib/links.ts`:
+Create `sites/pages/lib/links.ts`:
 ```typescript
 export function toRootRelative(pathname: string): string {
   const trimmed = pathname.trim();
@@ -53,24 +53,24 @@ export function toRootRelative(pathname: string): string {
 ```
 
 **Step 4: Run test to verify it passes**
-Run: `bun test tests/links.test.ts`
+Run: `bun test sites/pages/tests/links.test.ts`
 Expected: PASS.
 
 **Step 5: Commit**
 ```bash
-git add site/lib/links.ts tests/links.test.ts
+git add sites/pages/lib/links.ts sites/pages/tests/links.test.ts
 git commit -m "test: add root-relative link helper"
 ```
 
 ### Task 2: Switch build outputs to root-relative links
 
 **Files:**
-- Modify: `site/build.ts`
+- Modify: `sites/pages/build.ts`
 - Modify: `tests` if any assert absolute URLs
 
 **Step 1: Update link builder**
-- Remove the absolute `BASE_URL` and `buildUrl()` from `site/build.ts`.
-- Import `toRootRelative` from `site/lib/links.ts`.
+- Remove the absolute `BASE_URL` and `buildUrl()` from `sites/pages/build.ts`.
+- Import `toRootRelative` from `sites/pages/lib/links.ts`.
 - Update `typeIndexUrl`, `entryHeadUrl`, tag links, recent links, and catalog links to use `toRootRelative` with pathnames like `types/${type}.md`.
 
 **Step 2: Run tests**
@@ -79,7 +79,7 @@ Expected: PASS.
 
 **Step 3: Commit**
 ```bash
-git add site/build.ts tests
+git add sites/pages/build.ts sites/pages/tests
  git commit -m "feat: output root-relative links"
 ```
 

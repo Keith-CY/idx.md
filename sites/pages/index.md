@@ -21,10 +21,10 @@ Teach agents how to ingest markdown-only sources.
 - Registry files:
   - `data/sources.yml` (core sources)
   - `data/sources-openclaw.yml` (OpenClaw sources, auto-generated)
-- Build tooling under `site/`:
-  - `site/build.ts`
-  - `site/validate.ts`
-  - `site/ingest-openclaw.ts`
+- Build tooling under `sites/pages/`:
+  - `sites/pages/build.ts`
+  - `sites/pages/validate.ts`
+  - `sites/pages/ingest-openclaw.ts`
 - Output locations:
   - `entries/<type>/<slug>/HEAD.md` + `entries/<type>/<slug>/BODY.md`
   - `types/*.md`, `tags/*.md`, `recent.md`, `catalog.md`
@@ -33,13 +33,13 @@ Teach agents how to ingest markdown-only sources.
 ## Workflow
 1) **Add or update sources**
    - Add new entries to `data/sources.yml` (manual).
-   - For OpenClaw: run `bun site/ingest-openclaw.ts` to regenerate `data/sources-openclaw.yml`.
+   - For OpenClaw: run `bun sites/pages/ingest-openclaw.ts` to regenerate `data/sources-openclaw.yml`.
 
 2) **Validate registry**
-   - Run `bun site/validate.ts` to check registry and entries (if any).
+   - Run `bun sites/pages/validate.ts` to check registry and entries (if any).
 
 3) **Build entries + indexes**
-   - Run `bun site/build.ts`.
+   - Run `bun sites/pages/build.ts`.
    - This fetches each `source_url`, writes `entries/`, and updates `catalog.md`, `types/`, `tags/`, `recent.md`, and `reports/rejected.md`.
 
 4) **Review outputs**
@@ -60,7 +60,7 @@ Teach agents how to ingest markdown-only sources.
 - **No github.com HTML URLs:** use `raw.githubusercontent.com` for GitHub content.
 - **MDX is rejected by filename:** `.mdx` is not allowed.
 - **Content is not scanned for MDX:** enforce via filename only.
-- **Site output:** GitHub Pages uses `site/out/` and is built by workflow; do not commit `site/out/`.
+- **Site output:** GitHub Pages uses `sites/pages/out/` and is built by workflow; do not commit `sites/pages/out/`.
 
 ## Examples
 
@@ -68,18 +68,18 @@ Teach agents how to ingest markdown-only sources.
 1) Add to `data/sources.yml`:
    - `type`, `slug`, `source_url` (must end in `.md`).
 2) Run:
-   - `bun site/validate.ts`
-   - `bun site/build.ts`
+   - `bun sites/pages/validate.ts`
+   - `bun sites/pages/build.ts`
 3) Commit updated `entries/`, `catalog.md`, and `reports/rejected.md`.
 
 ### Example 2: Refresh OpenClaw skills
 1) Run:
-   - `bun site/ingest-openclaw.ts`
-   - `bun site/build.ts`
+   - `bun sites/pages/ingest-openclaw.ts`
+   - `bun sites/pages/build.ts`
 2) Review `reports/ingest-openclaw.md` and `reports/rejected.md`.
 3) Commit `data/sources-openclaw.yml` and generated outputs.
 
 ### Example 3: Fix a rejected source
 1) Open `reports/rejected.md` to identify the failing URL.
 2) Replace with a `.md` raw URL (e.g., `raw.githubusercontent.com/.../FILE.md`).
-3) Re-run `bun site/build.ts` and confirm the rejection is cleared.
+3) Re-run `bun sites/pages/build.ts` and confirm the rejection is cleared.

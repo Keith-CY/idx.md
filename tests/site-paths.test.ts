@@ -1,17 +1,17 @@
 import { describe, expect, test } from "bun:test";
 import { resolve } from "path";
-import { repoRoot, siteRoot, buildOut } from "../site/lib/paths";
+import { repoRoot, siteRoot, buildOut } from "../sites/pages/lib/paths";
 
 describe("site path helpers", () => {
-  test("repoRoot is parent of siteRoot", () => {
-    expect(resolve(siteRoot, "..")).toBe(repoRoot);
+  test("repoRoot is parent of sites", () => {
+    expect(resolve(siteRoot, "..", "..")).toBe(repoRoot);
   });
 
-  test("siteRoot lives under repoRoot/site", () => {
-    expect(siteRoot).toBe(`${repoRoot}/site`);
+  test("siteRoot lives under repoRoot/sites/pages", () => {
+    expect(siteRoot).toBe(`${repoRoot}/sites/pages`);
   });
 
-  test("buildOut points to site/out", () => {
+  test("buildOut points to sites/pages/out", () => {
     expect(buildOut).toBe(`${siteRoot}/out`);
   });
 });
