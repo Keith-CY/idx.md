@@ -2,19 +2,19 @@ import { describe, expect, test } from "bun:test";
 import { toR2Key } from "../lib/paths";
 
 describe("toR2Key", () => {
-  test("root maps to index.md", () => {
-    expect(toR2Key("/")).toBe("index.md");
+  test("root maps to data index", () => {
+    expect(toR2Key("/")).toBe("data/index.md");
   });
 
-  test("trailing slash maps to index.md", () => {
-    expect(toR2Key("/types/")).toBe("types/index.md");
+  test("topic path maps to data/{topic}/HEAD.md", () => {
+    expect(toR2Key("/mintlify")).toBe("data/mintlify/HEAD.md");
   });
 
-  test("non-md path appends .md", () => {
-    expect(toR2Key("/types/example")).toBe("types/example.md");
+  test("topic file preserves HEAD.md", () => {
+    expect(toR2Key("/mintlify/HEAD.md")).toBe("data/mintlify/HEAD.md");
   });
 
-  test("md path preserved", () => {
-    expect(toR2Key("/types/example.md")).toBe("types/example.md");
+  test("data path is preserved", () => {
+    expect(toR2Key("/data/index.md")).toBe("data/index.md");
   });
 });
