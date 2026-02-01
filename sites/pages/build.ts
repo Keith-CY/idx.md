@@ -2,13 +2,13 @@ import { createHash } from "crypto";
 import { mkdir, readdir, rm, stat } from "fs/promises";
 import { isAbsolute, join, relative, resolve } from "path";
 import { stringify } from "yaml";
-import { fileURLToPath } from "url";
 import {
   loadSources,
   SOURCES_REGISTRY_PATHS,
   type SourceEntry,
 } from "./lib/registry";
 import { toRootRelative } from "./lib/links";
+import { repoRoot } from "./lib/paths";
 
 const result = await loadSources(SOURCES_REGISTRY_PATHS);
 
@@ -17,16 +17,12 @@ type Rejection = { url: string; reason: string };
 const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
 
-const REPORT_PATH = new URL("../reports/rejected.md", import.meta.url);
-const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
-const ENTRIES_ROOT_PATH = resolve(fileURLToPath(ENTRIES_ROOT));
-const CATALOG_PATH = new URL("../catalog.md", import.meta.url);
-const TYPES_ROOT = new URL("../types/", import.meta.url);
-const TYPES_ROOT_PATH = resolve(fileURLToPath(TYPES_ROOT));
-const RECENT_PATH = new URL("../recent.md", import.meta.url);
-const RECENT_PATH_VALUE = resolve(fileURLToPath(RECENT_PATH));
-const TAGS_ROOT = new URL("../tags/", import.meta.url);
-const TAGS_ROOT_PATH = resolve(fileURLToPath(TAGS_ROOT));
+const REPORT_PATH = resolve(repoRoot, "reports", "rejected.md");
+const ENTRIES_ROOT_PATH = resolve(repoRoot, "entries");
+const CATALOG_PATH = resolve(repoRoot, "catalog.md");
+const TYPES_ROOT_PATH = resolve(repoRoot, "types");
+const RECENT_PATH = resolve(repoRoot, "recent.md");
+const TAGS_ROOT_PATH = resolve(repoRoot, "tags");
 
 function resolveEntryDir(type: string, slug: string): string {
   const entryPath = resolve(ENTRIES_ROOT_PATH, type, slug);
@@ -216,7 +212,7 @@ if (!result.ok) {
   process.exit(1);
 }
 
-await rm(RECENT_PATH_VALUE, { force: true });
+await rm(RECENT_PATH, { force: true });
 await rm(TAGS_ROOT_PATH, { recursive: true, force: true });
 
 const registryTypes = new Set<string>();
@@ -368,7 +364,7 @@ for (const type of sortedTypes) {
 }
 catalogLines.push("");
 
-const wroteRecent = await fileExists(RECENT_PATH_VALUE);
+const wroteRecent = await fileExists(RECENT_PATH);
 if (wroteRecent) {
   catalogLines.push("## Recent", "", `- ${toRootRelative("recent.md")}`, "");
 }

@@ -2,11 +2,10 @@ import { createHash } from "crypto";
 import { readdir, stat } from "fs/promises";
 import { join, resolve } from "path";
 import { parse } from "yaml";
-import { fileURLToPath } from "url";
 import { loadSources, SOURCES_REGISTRY_PATHS } from "./lib/registry";
+import { repoRoot } from "./lib/paths";
 
-const ENTRIES_ROOT = new URL("../entries/", import.meta.url);
-const ENTRIES_ROOT_PATH = resolve(fileURLToPath(ENTRIES_ROOT));
+const ENTRIES_ROOT_PATH = resolve(repoRoot, "entries");
 
 const REQUIRED_HEAD_FIELDS = [
   "stable_id",
