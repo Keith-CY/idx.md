@@ -3,12 +3,12 @@ import { z } from "zod";
 import { validateSourceUrl } from "./source-url";
 
 export const SOURCES_REGISTRY_PATH = new URL(
-  "../../data/sources.yml",
+  "../../../data/sources.yml",
   import.meta.url,
 );
 export const SOURCES_REGISTRY_PATHS = [
   SOURCES_REGISTRY_PATH,
-  new URL("../../data/sources-openclaw.yml", import.meta.url),
+  new URL("../../../data/sources-openclaw.yml", import.meta.url),
 ];
 
 const PathSegmentSchema = z

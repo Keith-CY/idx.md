@@ -8,7 +8,7 @@ const README_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/refs/heads/main/README.md";
 const README_BASE_URL =
   "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md";
-const OUTPUT_PATH = new URL("../data/sources-openclaw.yml", import.meta.url);
+const OUTPUT_PATH = new URL("../../data/sources-openclaw.yml", import.meta.url);
 const REPORT_PATH = new URL("../reports/ingest-openclaw.md", import.meta.url);
 const REPORT_DIR = new URL("../reports/", import.meta.url);
 const SOURCE_TYPE = "skills";

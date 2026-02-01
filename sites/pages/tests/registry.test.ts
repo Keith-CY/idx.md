@@ -1,9 +1,14 @@
 import { describe, expect, test } from "bun:test";
 import { mkdtemp, writeFile } from "fs/promises";
 import { tmpdir } from "os";
-import { join } from "path";
-import { pathToFileURL } from "url";
-import { loadSources } from "../lib/registry";
+import { join, resolve } from "path";
+import { fileURLToPath, pathToFileURL } from "url";
+import {
+  loadSources,
+  SOURCES_REGISTRY_PATH,
+  SOURCES_REGISTRY_PATHS,
+} from "../lib/registry";
+import { repoRoot } from "../lib/paths";
 
 async function writeRegistry(contents: string): Promise<URL> {
   const dir = await mkdtemp(join(tmpdir(), "idx-md-registry-"));
@@ -41,5 +46,16 @@ describe("loadSources url validation", () => {
         ),
       ).toBe(true);
     }
+  });
+});
+
+describe("registry paths", () => {
+  test("resolve to repo data directory", () => {
+    expect(fileURLToPath(SOURCES_REGISTRY_PATH)).toBe(
+      resolve(repoRoot, "data", "sources.yml"),
+    );
+    expect(fileURLToPath(SOURCES_REGISTRY_PATHS[1])).toBe(
+      resolve(repoRoot, "data", "sources-openclaw.yml"),
+    );
   });
 });
