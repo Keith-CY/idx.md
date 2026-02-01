@@ -1,0 +1,16 @@
+---
+stable_id: skills/openclaw-openclaw-clawd-modifier
+type: skills
+title: clawd-modifier
+summary: Modify Clawd, the Claude Code mascot. Use this skill when users want to
+  customize Clawd's.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-clawdbot-tools
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/masonc15/clawd-modifier/SKILL.md
+license: ""
+upstream_ref: ""
+retrieved_at: 2026-02-01T17:07:41.268Z
+content_sha256: c6c77a89fa36228b836459133d2c307f04b8e778c6ec632eb4bcc015dba62aee
+---
