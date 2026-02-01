@@ -12,13 +12,9 @@ describe("pages workflow", () => {
     expect(/actions\/deploy-pages@[0-9a-f]{40}/.test(text)).toBe(true);
   });
 
-  test("copies site index into output", async () => {
+  test("copies data index into output", async () => {
     const text = await readText(".github/workflows/pages.yml");
-    expect(text.includes("site/index.md")).toBe(true);
+    expect(text.includes("data/index.md")).toBe(true);
   });
 
-  test("site index exists", async () => {
-    const exists = await Bun.file("site/index.md").exists();
-    expect(exists).toBe(true);
-  });
 });

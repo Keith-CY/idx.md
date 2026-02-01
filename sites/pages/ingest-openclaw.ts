@@ -1,16 +1,19 @@
 import { createHash } from "crypto";
 import { mkdir } from "fs/promises";
 import { stringify } from "yaml";
+import { resolve } from "path";
 import type { SourceEntry } from "./lib/registry";
 import { normalizeGithubRawUrl } from "./lib/source-url";
+import { DATA_ROOT } from "./lib/data-layout";
+import { repoRoot } from "./lib/paths";
 
 const README_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/refs/heads/main/README.md";
 const README_BASE_URL =
   "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md";
-const OUTPUT_PATH = new URL("../data/sources-openclaw.yml", import.meta.url);
-const REPORT_PATH = new URL("../reports/ingest-openclaw.md", import.meta.url);
-const REPORT_DIR = new URL("../reports/", import.meta.url);
+const OUTPUT_PATH = resolve(repoRoot, "sources", "openclaw.yml");
+const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-openclaw.md");
+const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const SOURCE_TYPE = "skills";
 const BASE_TAGS = ["openclaw", "source-awesome-openclaw-skills"] as const;
 const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;

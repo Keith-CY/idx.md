@@ -1,9 +1,14 @@
 import { describe, expect, test } from "bun:test";
 import { mkdtemp, writeFile } from "fs/promises";
 import { tmpdir } from "os";
-import { join } from "path";
-import { pathToFileURL } from "url";
-import { loadSources } from "../site/lib/registry";
+import { join, resolve } from "path";
+import { fileURLToPath, pathToFileURL } from "url";
+import {
+  GENERAL_SOURCES_PATH,
+  getSourcesRegistryPaths,
+  loadSources,
+} from "../lib/registry";
+import { repoRoot } from "../lib/paths";
 
 async function writeRegistry(contents: string): Promise<URL> {
   const dir = await mkdtemp(join(tmpdir(), "idx-md-registry-"));
@@ -41,5 +46,20 @@ describe("loadSources url validation", () => {
         ),
       ).toBe(true);
     }
+  });
+});
+
+describe("registry paths", () => {
+  test("general registry lives under sources/", () => {
+    expect(fileURLToPath(GENERAL_SOURCES_PATH)).toBe(
+      resolve(repoRoot, "sources", "general.yml"),
+    );
+  });
+
+  test("registry list includes general and only yml files", async () => {
+    const paths = await getSourcesRegistryPaths();
+    const pathnames = paths.map((path) => fileURLToPath(path));
+    expect(pathnames).toContain(resolve(repoRoot, "sources", "general.yml"));
+    expect(pathnames.every((path) => path.endsWith(".yml"))).toBe(true);
   });
 });

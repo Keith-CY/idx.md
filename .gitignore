@@ -1,4 +1,4 @@
 .worktrees/
 node_modules/
 internal_notes/
-site/out/
+sites/pages/out/

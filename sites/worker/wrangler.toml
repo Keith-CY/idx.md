@@ -1,0 +1,7 @@
+name = "idx-md-markdown"
+main = "index.ts"
+compatibility_date = "2026-02-01"
+
+[[r2_buckets]]
+binding = "IDX_MD"
+bucket_name = "idx-md"

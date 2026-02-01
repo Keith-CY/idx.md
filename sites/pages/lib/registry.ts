@@ -1,15 +1,42 @@
+import { readdir } from "fs/promises";
+import { resolve } from "path";
 import { parse } from "yaml";
+import { pathToFileURL } from "url";
 import { z } from "zod";
+import { repoRoot } from "./paths";
 import { validateSourceUrl } from "./source-url";
 
-export const SOURCES_REGISTRY_PATH = new URL(
-  "../../data/sources.yml",
-  import.meta.url,
+export const SOURCES_DIR = resolve(repoRoot, "sources");
+export const GENERAL_SOURCES_PATH = pathToFileURL(
+  resolve(SOURCES_DIR, "general.yml"),
 );
-export const SOURCES_REGISTRY_PATHS = [
-  SOURCES_REGISTRY_PATH,
-  new URL("../../data/sources-openclaw.yml", import.meta.url),
-];
+
+export async function getSourcesRegistryPaths(): Promise<URL[]> {
+  let entries: string[] = [];
+  try {
+    const dirents = await readdir(SOURCES_DIR, { withFileTypes: true });
+    entries = dirents
+      .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".yml"))
+      .map((dirent) => resolve(SOURCES_DIR, dirent.name));
+  } catch (error) {
+    if ((error as { code?: string })?.code !== "ENOENT") {
+      console.warn(
+        `Warning: could not read sources directory '${SOURCES_DIR}'`,
+        error,
+      );
+    }
+    entries = [];
+  }
+
+  const paths = entries.map((entry) => pathToFileURL(entry));
+  const hasGeneral = paths.some(
+    (path) => path.href === GENERAL_SOURCES_PATH.href,
+  );
+  if (!hasGeneral) {
+    paths.unshift(GENERAL_SOURCES_PATH);
+  }
+  return paths;
+}
 
 const PathSegmentSchema = z
   .string()
@@ -49,9 +76,15 @@ type RegistryFileResult =
   | { ok: false; errors: string[]; missing: boolean; label: string };
 
 export async function loadSources(
-  sourcesPaths: URL | URL[] = SOURCES_REGISTRY_PATHS,
+  sourcesPaths?: URL | URL[],
 ): Promise<RegistryParseResult> {
-  const paths = Array.isArray(sourcesPaths) ? sourcesPaths : [sourcesPaths];
+  const resolvedPaths =
+    sourcesPaths === undefined
+      ? await getSourcesRegistryPaths()
+      : Array.isArray(sourcesPaths)
+        ? sourcesPaths
+        : [sourcesPaths];
+  const paths = resolvedPaths;
   const merged: SourceEntry[] = [];
   const errors: string[] = [];
   const seen = new Map<string, string>();
@@ -59,7 +92,7 @@ export async function loadSources(
   for (const [index, sourcesPath] of paths.entries()) {
     const parseResult = await loadSourcesFile(sourcesPath);
     if (!parseResult.ok) {
-      const isOptional = sourcesPath.href === SOURCES_REGISTRY_PATHS[1]?.href;
+      const isOptional = sourcesPath.href !== GENERAL_SOURCES_PATH.href;
       if (parseResult.missing && isOptional) {
         console.warn(`Skipping missing optional registry: ${parseResult.label}`);
         continue;
