@@ -1,0 +1,62 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1
+        with:
+          bun-version: "1.1.14"
+      - name: Install
+        run: bun install --frozen-lockfile
+      - name: Build site
+        run: bun site/build.ts
+      - name: Prepare Pages output
+        run: |
+          rm -rf site/out
+          mkdir -p site/out
+          if [ -f catalog.md ]; then
+            cp catalog.md site/out/catalog.md
+            cp catalog.md site/out/index.md
+          fi
+          if [ -f recent.md ]; then cp recent.md site/out/recent.md; fi
+          if [ -d types ]; then cp -R types site/out/; fi
+          if [ -d tags ]; then cp -R tags site/out/; fi
+          if [ -d entries ]; then cp -R entries site/out/; fi
+          if [ -d reports ]; then cp -R reports site/out/; fi
+          touch site/out/.nojekyll
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/out
+
+  deploy:
+    runs-on: ubuntu-24.04
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
