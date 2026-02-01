@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 import { resolve } from "path";
-import { repoRoot, siteRoot, buildOut } from "../sites/pages/lib/paths";
+import { repoRoot, siteRoot, buildOut } from "../lib/paths";
 
 describe("site path helpers", () => {
   test("repoRoot is parent of sites", () => {

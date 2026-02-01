@@ -3,7 +3,7 @@ import { mkdtemp, writeFile } from "fs/promises";
 import { tmpdir } from "os";
 import { join } from "path";
 import { pathToFileURL } from "url";
-import { loadSources } from "../sites/pages/lib/registry";
+import { loadSources } from "../lib/registry";
 
 async function writeRegistry(contents: string): Promise<URL> {
   const dir = await mkdtemp(join(tmpdir(), "idx-md-registry-"));

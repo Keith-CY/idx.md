@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { toRootRelative } from "../sites/pages/lib/links";
+import { toRootRelative } from "../lib/links";
 
 describe("toRootRelative", () => {
   test("adds leading slash", () => {
