@@ -40,6 +40,12 @@ describe("pages tooling paths", () => {
     ).toBe(true);
   });
 
+  test("indexer skill mentions skills.sh ingest", async () => {
+    const text = await readText("sites/pages/index.md");
+    expect(text.includes("sources/skills-sh.yml")).toBe(true);
+    expect(text.includes("ingest-skills-sh.ts")).toBe(true);
+  });
+
   test("gitignore ignores data reports", async () => {
     const text = await readText(".gitignore");
     expect(text.includes("data/reports/")).toBe(true);
