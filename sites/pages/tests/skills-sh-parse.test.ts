@@ -1,7 +1,10 @@
 import { describe, expect, test } from "bun:test";
 import {
-  extractSkillLinksFromSitemap,
+  buildProbeUrls,
+  extractGithubRepo,
+  extractMarkdownUrls,
   extractSkillLinksFromHtml,
+  extractSkillLinksFromSitemap,
   parseSkillPath,
 } from "../lib/skills-sh-parse";
 
@@ -33,4 +36,31 @@ describe("skills.sh parsing", () => {
     expect(parseSkillPath("https://skills.sh/acme/skillbox/landing-page-guide"))
       .toEqual({ owner: "acme", repo: "skillbox", skill: "landing-page-guide" });
   });
+});
+
+const PAGE = `
+  <a href="https://raw.githubusercontent.com/acme/skillbox/main/SKILL.md">raw</a>
+  <a href="https://github.com/acme/skillbox/blob/main/SKILL.md">blob</a>
+  <a href="https://github.com/acme/skillbox">repo</a>
+`;
+
+test("extracts markdown urls (normalized)", () => {
+  expect(extractMarkdownUrls(PAGE)).toEqual([
+    "https://raw.githubusercontent.com/acme/skillbox/main/SKILL.md",
+    "https://raw.githubusercontent.com/acme/skillbox/main/SKILL.md",
+  ]);
+});
+
+test("extracts github repo", () => {
+  expect(extractGithubRepo(PAGE)).toEqual({ owner: "acme", repo: "skillbox" });
+});
+
+test("builds probe urls", () => {
+  expect(buildProbeUrls("acme", "skillbox", ["main"], [
+    "SKILL.md",
+    "docs/skill.md",
+  ])).toEqual([
+    "https://raw.githubusercontent.com/acme/skillbox/main/SKILL.md",
+    "https://raw.githubusercontent.com/acme/skillbox/main/docs/skill.md",
+  ]);
 });
