@@ -27,6 +27,8 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 - Choose `{topic}` from the `|/data/{topic}|` line.
 - HEAD metadata: `https://idx.md/{topic}` (or `/data/{topic}/HEAD.md`)
 - BODY content: `https://idx.md/{topic}/BODY.md`
+- After download, compute SHA-256 on the raw BODY bytes and compare to `content_sha256` in HEAD frontmatter.
+- Use `retrieved_at` to decide whether a cached BODY needs refresh.
 
 ## URL map
 - `/`, `/skill.md`, `/SKILL.md` -> this document
@@ -37,6 +39,13 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 
 ## Constraints
 - `.md` only; `.mdx` rejected by filename.
+
+## Integrity / Hash
+- `content_sha256` lives in the HEAD frontmatter.
+- `content_sha256` is the SHA-256 of the exact BODY bytes (no normalization).
+- Format: lowercase hex string.
+- Verify by hashing the downloaded BODY.md bytes and comparing to `content_sha256`.
+- If the hash differs, re-download BODY.md.
 
 ## Example flow
 - Read `/index.md` -> pick `openclaw` -> fetch `/openclaw/HEAD.md` -> fetch `/openclaw/BODY.md`.
