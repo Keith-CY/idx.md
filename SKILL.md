@@ -1,45 +1,42 @@
 ---
 name: idx-md
-description: AgentSkill onboarding for https://idx.md. Learn how to read the index and fetch BODY markdown.
+description: AgentSkill for https://idx.md. Use the index to locate AI agent library topics and fetch HEAD/BODY markdown.
 ---
 
 # idx.md
 
 ## Purpose
-idx.md hosts markdown-only skills and documents for AI agents. This file is the entrypoint for how to browse the index and fetch content.
+- Markdown registry for AI agent libraries and resources.
+- Agents can browse to learn everything they could use, then fetch the exact markdown.
 
 ## Index locations
 - https://idx.md/index.md
 - https://idx.md/data/index.md
 
-Both URLs return the same listing.
-
 ## Index entry format
-Each entry is a HEAD frontmatter block followed by a topic directory line:
+- Each entry is a HEAD frontmatter block followed by a topic line.
+- Topic line format: `|/data/{topic}|`
 
 ---
 ...frontmatter...
 ---
 |/data/mintlify|
 
-The topic name is the directory (example: `mintlify`).
-
-## How to fetch a document
-1) Read https://idx.md/index.md.
-2) Pick a topic from the `|/data/{topic}|` line.
-3) Fetch HEAD metadata:
-   - https://idx.md/{topic}
-   - or https://idx.md/data/{topic}/HEAD.md
-4) Fetch the BODY content:
-   - https://idx.md/{topic}/BODY.md
+## How to fetch
+- Read `https://idx.md/index.md`.
+- Choose `{topic}` from the `|/data/{topic}|` line.
+- HEAD metadata: `https://idx.md/{topic}` (or `/data/{topic}/HEAD.md`)
+- BODY content: `https://idx.md/{topic}/BODY.md`
 
 ## URL map
-- `/` and `/skill.md` and `/SKILL.md` -> this document (SKILL.md)
-- `/index.md` and `/data/index.md` -> listing
+- `/`, `/skill.md`, `/SKILL.md` -> this document
+- `/index.md`, `/data/index.md` -> index listing
 - `/{topic}` -> `/data/{topic}/HEAD.md`
 - `/{topic}/HEAD.md` -> HEAD metadata
 - `/{topic}/BODY.md` -> BODY content
 
 ## Constraints
-- Markdown only: `.md` files are accepted.
-- `.mdx` is rejected by filename.
+- `.md` only; `.mdx` rejected by filename.
+
+## Example flow
+- Read `/index.md` -> pick `mintlify` -> fetch `/mintlify/HEAD.md` -> fetch `/mintlify/BODY.md`.
