@@ -3,10 +3,12 @@ name: Sync R2 Data
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "data/**"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   sync:
@@ -58,3 +60,19 @@ jobs:
               attempt=$((attempt + 1))
             done
           ' _ {}
+      - name: Configure git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+      - name: Commit data
+        run: |
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "data: refresh data"
+          git push
