@@ -11,6 +11,7 @@ import {
   headPath,
   topicDir,
 } from "./lib/data-layout";
+import { repoRoot } from "./lib/paths";
 
 const result = await loadSources();
 
@@ -18,6 +19,8 @@ type Rejection = { url: string; reason: string };
 
 const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
+const IDX_SOURCE_PATH = resolve(repoRoot, "sites", "pages", "IDX.md");
+const IDX_TARGET_PATH = resolve(DATA_ROOT, "IDX.md");
 
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const REPORT_PATH = resolve(REPORT_DIR, "rejected.md");
@@ -47,6 +50,17 @@ function buildSummaryLines(source: SourceEntry, markdown: string): string[] {
     return takeSummaryLines(rawSummary);
   }
   return takeSummaryLines(markdown);
+}
+
+async function writeIdxDoc(): Promise<void> {
+  try {
+    const content = await Bun.file(IDX_SOURCE_PATH).text();
+    const normalized = content.endsWith("\n") ? content : `${content}\n`;
+    await Bun.write(IDX_TARGET_PATH, normalized);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to write IDX.md (${message})`);
+  }
 }
 
 function formatRejectedReport(rejections: Rejection[]): string {
@@ -209,6 +223,7 @@ const indexSections = sortedIndexEntries.map((entry) =>
 );
 const indexContent = indexSections.join("\n\n");
 await Bun.write(INDEX_PATH, indexContent ? `${indexContent}\n` : "");
+await writeIdxDoc();
 
 if (rejected.length > 0) {
   console.warn(`Rejected: ${rejected.length}`);

@@ -1,7 +1,16 @@
 export function toR2Key(pathname: string): string {
   let path = pathname.trim().replace(/^\/+/, "");
+  const lower = path.toLowerCase();
 
-  if (path === "" || path === "data" || path === "data/") {
+  if (path === "") {
+    return "data/IDX.md";
+  }
+
+  if (lower === "skill.md") {
+    return "data/IDX.md";
+  }
+
+  if (path === "data" || path === "data/") {
     return "data/index.md";
   }
 
