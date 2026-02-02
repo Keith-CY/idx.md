@@ -1,0 +1,47 @@
+name: Skills.sh Ingest
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1.2.2
+        with:
+          bun-version: "1.1.14"
+      - name: Install
+        run: bun install --frozen-lockfile
+      - name: Ingest skills.sh
+        run: bun sites/pages/ingest-skills-sh.ts
+      - name: Upload ingest report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: skills-sh-ingest-report
+          path: data/reports/ingest-skills-sh.md
+          if-no-files-found: ignore
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        with:
+          commit-message: "data: update skills.sh registry"
+          title: "chore: update skills.sh registry"
+          body: |
+            Automated update of skills.sh Top 1000 registry.
+          branch: automation/skills-sh-ingest
+          delete-branch: true
+          add-paths: |
+            sources/skills-sh.yml
+            sources/general.yml
