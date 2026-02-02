@@ -20,7 +20,7 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 ---
 ...frontmatter...
 ---
-|/data/mintlify|
+|/data/openclaw|
 
 ## How to fetch
 - Read `https://idx.md/index.md`.
@@ -39,4 +39,4 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 - `.md` only; `.mdx` rejected by filename.
 
 ## Example flow
-- Read `/index.md` -> pick `mintlify` -> fetch `/mintlify/HEAD.md` -> fetch `/mintlify/BODY.md`.
+- Read `/index.md` -> pick `openclaw` -> fetch `/openclaw/HEAD.md` -> fetch `/openclaw/BODY.md`.
