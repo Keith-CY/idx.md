@@ -33,11 +33,28 @@ jobs:
         run: |
           set -euo pipefail
           BUCKET="idx-md"
+          UPLOAD_CONCURRENCY="${UPLOAD_CONCURRENCY:-4}"
+          UPLOAD_RETRIES="${UPLOAD_RETRIES:-5}"
+          UPLOAD_SLEEP_BASE="${UPLOAD_SLEEP_BASE:-2}"
           if [ ! -d data ]; then
             echo "data/ missing"
             exit 1
           fi
-          find data -type f -print0 | while IFS= read -r -d '' file; do
+          find data -type f -print0 | xargs -0 -n1 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
+            file="$1"
             key="${file#./}"
-            bunx wrangler r2 object put "$BUCKET/$key" --file "$file" --remote
-          done
+            attempt=1
+            while true; do
+              if bunx wrangler r2 object put "$BUCKET/$key" --file "$file" --remote; then
+                exit 0
+              fi
+              if [ "$attempt" -ge "$UPLOAD_RETRIES" ]; then
+                echo "Upload failed after ${attempt} attempts: ${file}"
+                exit 1
+              fi
+              sleep_for=$((UPLOAD_SLEEP_BASE * attempt))
+              echo "Retry ${attempt}/${UPLOAD_RETRIES} for ${file} after ${sleep_for}s"
+              sleep "$sleep_for"
+              attempt=$((attempt + 1))
+            done
+          ' _ {}

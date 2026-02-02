@@ -20,6 +20,13 @@ describe("r2 sync workflow", () => {
     expect(text.includes("--remote")).toBe(true);
   });
 
+  test("sync workflow uses concurrency and retry controls", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes("UPLOAD_CONCURRENCY")).toBe(true);
+    expect(text.includes("UPLOAD_RETRIES")).toBe(true);
+    expect(text.includes("xargs -0 -n1 -P")).toBe(true);
+  });
+
   test("sync workflow pins actions", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(/actions\/checkout@[0-9a-f]{40}/.test(text)).toBe(true);
