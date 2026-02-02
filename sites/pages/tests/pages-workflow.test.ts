@@ -22,4 +22,10 @@ describe("pages workflow", () => {
     expect(/actions\/upload-artifact@/.test(text)).toBe(true);
     expect(text.includes("data/reports/ingest-openclaw.md")).toBe(true);
   });
+
+  test("pages workflow uploads rejected report", async () => {
+    const text = await readText(".github/workflows/pages.yml");
+    expect(/actions\/upload-artifact@/.test(text)).toBe(true);
+    expect(text.includes("data/reports/rejected.md")).toBe(true);
+  });
 });
