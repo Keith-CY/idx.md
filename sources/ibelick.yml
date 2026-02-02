@@ -1,0 +1,37 @@
+# Schema: list of source entries
+# - type: string
+#   slug: string
+#   source_url: string
+#   title: string (optional)
+#   summary: string (optional)
+#   tags: [string] (optional)
+#   license: string (optional)
+#   upstream_ref: string (optional)
+- type: skills
+  slug: ibelick-baseline-ui
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
+- type: skills
+  slug: ibelick-fixing-accessibility
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-accessibility/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
+- type: skills
+  slug: ibelick-fixing-metadata
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
+- type: skills
+  slug: ibelick-fixing-motion-performance
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-motion-performance/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md

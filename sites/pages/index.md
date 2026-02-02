@@ -24,6 +24,7 @@ Teach agents how to ingest markdown-only sources.
   - `sources/skills-sh.yml` (skills.sh sources, auto-generated)
   - `sources/openai.yml` (OpenAI sources, auto-generated)
   - `sources/obra.yml` (Obra superpowers sources, auto-generated)
+  - `sources/ibelick.yml` (iBelick UI skills sources, auto-generated)
   - Additional registries in `sources/*.yml` for special cases
 - Build tooling under `sites/pages/`:
   - `sites/pages/build.ts`
@@ -43,6 +44,7 @@ Teach agents how to ingest markdown-only sources.
    - For skills.sh: run `bun sites/pages/ingest-skills-sh.ts` to regenerate `sources/skills-sh.yml`.
    - For OpenAI: run `bun sites/pages/ingest-openai.ts` to regenerate `sources/openai.yml`.
    - For Obra: run `bun sites/pages/ingest-obra.ts` to regenerate `sources/obra.yml`.
+   - For iBelick: run `bun sites/pages/ingest-ibelick.ts` to regenerate `sources/ibelick.yml`.
    - Probed skills.sh entries are appended to `sources/general.yml`.
 
 2) **Validate registry**

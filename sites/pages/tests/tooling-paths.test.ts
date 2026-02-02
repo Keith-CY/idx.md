@@ -61,6 +61,16 @@ describe("pages tooling paths", () => {
     );
   });
 
+  test("ibelick ingest writes to sources and data reports", async () => {
+    const text = await readText("sites/pages/ingest-ibelick.ts");
+    expect(text.includes('resolve(repoRoot, "sources", "ibelick.yml")')).toBe(
+      true,
+    );
+    expect(
+      text.includes('resolve(DATA_ROOT, "reports", "ingest-ibelick.md")'),
+    ).toBe(true);
+  });
+
   test("agent skill onboarding mentions index and body paths", async () => {
     const text = await readText("SKILL.md");
     expect(text.includes("https://idx.md/index.md")).toBe(true);
