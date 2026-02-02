@@ -17,6 +17,7 @@ describe("r2 sync workflow", () => {
     expect(text.includes("CLOUDFLARE_API_TOKEN")).toBe(true);
     expect(text.includes("CLOUDFLARE_ACCOUNT_ID")).toBe(true);
     expect(text.includes("wrangler r2 object put \"$BUCKET/$key\"")).toBe(true);
+    expect(text.includes("--remote")).toBe(true);
   });
 
   test("sync workflow pins actions", async () => {

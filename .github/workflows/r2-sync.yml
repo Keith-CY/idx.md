@@ -39,5 +39,5 @@ jobs:
           fi
           find data -type f -print0 | while IFS= read -r -d '' file; do
             key="${file#./}"
-            bunx wrangler r2 object put "$BUCKET/$key" --file "$file"
+            bunx wrangler r2 object put "$BUCKET/$key" --file "$file" --remote
           done
