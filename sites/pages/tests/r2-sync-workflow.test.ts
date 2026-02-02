@@ -15,7 +15,7 @@ describe("r2 sync workflow", () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(text.includes("CLOUDFLARE_API_TOKEN")).toBe(true);
     expect(text.includes("CLOUDFLARE_ACCOUNT_ID")).toBe(true);
-    expect(text.includes("wrangler r2 object put")).toBe(true);
+    expect(text.includes("wrangler r2 object put \"$BUCKET/$key\"")).toBe(true);
   });
 
   test("sync workflow pins actions", async () => {
