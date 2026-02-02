@@ -1,0 +1,46 @@
+name: Obra Ingest
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1.2.2
+        with:
+          bun-version: "1.1.14"
+      - name: Install
+        run: bun install --frozen-lockfile
+      - name: Ingest Obra superpowers
+        run: bun sites/pages/ingest-obra.ts
+      - name: Upload ingest report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: obra-ingest-report
+          path: data/reports/ingest-obra.md
+          if-no-files-found: ignore
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+        with:
+          commit-message: "data: update obra superpowers"
+          title: "chore: update obra superpowers"
+          body: |
+            Automated update of Obra superpowers registry.
+          branch: automation/obra-ingest
+          delete-branch: true
+          add-paths: |
+            sources/obra.yml
