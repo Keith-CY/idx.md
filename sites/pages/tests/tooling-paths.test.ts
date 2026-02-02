@@ -40,6 +40,16 @@ describe("pages tooling paths", () => {
     ).toBe(true);
   });
 
+  test("openai ingest writes to sources and data reports", async () => {
+    const text = await readText("sites/pages/ingest-openai.ts");
+    expect(text.includes('resolve(repoRoot, "sources", "openai.yml")')).toBe(
+      true,
+    );
+    expect(text.includes('resolve(DATA_ROOT, "reports", "ingest-openai.md")')).toBe(
+      true,
+    );
+  });
+
   test("indexer skill mentions skills.sh ingest", async () => {
     const text = await readText("sites/pages/index.md");
     expect(text.includes("sources/skills-sh.yml")).toBe(true);
