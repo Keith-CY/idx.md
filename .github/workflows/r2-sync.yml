@@ -26,9 +26,31 @@ jobs:
           bun-version: "1.1.14"
       - name: Install
         run: bun install --frozen-lockfile
+      - name: Snapshot previous data
+        run: |
+          rm -rf data_prev
+          if [ -d data ]; then
+            cp -R data data_prev
+          fi
       - name: Build data
         run: bun sites/pages/build.ts
+      - name: Compare content hashes
+        id: compare
+        run: |
+          if [ ! -d data_prev ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          output=$(bun sites/pages/compare-content-hash.ts data_prev data)
+          echo "$output"
+          changed=$(echo "$output" | grep -m1 '^changed=' | cut -d= -f2)
+          if [ -z "$changed" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
       - name: Upload data to R2
+        if: ${{ steps.compare.outputs.changed == 'true' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
@@ -61,6 +83,7 @@ jobs:
             done
           ' _ {}
       - name: Configure git
+        if: ${{ steps.compare.outputs.changed == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -68,6 +91,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
       - name: Commit data
+        if: ${{ steps.compare.outputs.changed == 'true' }}
         run: |
           git add data
           if git diff --cached --quiet; then

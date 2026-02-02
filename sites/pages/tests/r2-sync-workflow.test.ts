@@ -35,6 +35,13 @@ describe("r2 sync workflow", () => {
     expect(text.includes("git push")).toBe(true);
   });
 
+  test("sync workflow checks content hash changes", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes("data_prev")).toBe(true);
+    expect(text.includes("compare-content-hash.ts")).toBe(true);
+    expect(text.includes("steps.compare.outputs.changed")).toBe(true);
+  });
+
   test("sync workflow pins actions", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(/actions\/checkout@[0-9a-f]{40}/.test(text)).toBe(true);
