@@ -1,10 +1,17 @@
-import { describe, expect, mock, test, vi } from "bun:test";
+import { afterAll, describe, expect, mock, test, vi } from "bun:test";
 
+const actualFs = await import("node:fs/promises");
 const readdirMock = vi.fn();
+readdirMock.mockImplementation(async () => []);
 
 mock.module("fs/promises", () => ({
+  ...actualFs,
   readdir: readdirMock,
 }));
+
+afterAll(() => {
+  mock.restore();
+});
 
 describe("getSourcesRegistryPaths error handling", () => {
   test("warns on non-ENOENT errors", async () => {
