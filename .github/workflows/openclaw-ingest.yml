@@ -26,6 +26,13 @@ jobs:
         run: bun install --frozen-lockfile
       - name: Ingest OpenClaw skills
         run: bun sites/pages/ingest-openclaw.ts
+      - name: Upload ingest report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: openclaw-ingest-report
+          path: data/reports/ingest-openclaw.md
+          if-no-files-found: ignore
       - name: Create pull request
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         with:
@@ -37,4 +44,3 @@ jobs:
           delete-branch: true
           add-paths: |
             sources/openclaw.yml
-            data/reports/ingest-openclaw.md

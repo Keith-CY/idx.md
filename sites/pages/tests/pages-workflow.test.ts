@@ -17,4 +17,9 @@ describe("pages workflow", () => {
     expect(text.includes("data/index.md")).toBe(true);
   });
 
+  test("ingest workflow uploads report", async () => {
+    const text = await readText(".github/workflows/openclaw-ingest.yml");
+    expect(/actions\/upload-artifact@/.test(text)).toBe(true);
+    expect(text.includes("data/reports/ingest-openclaw.md")).toBe(true);
+  });
 });
