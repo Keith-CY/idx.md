@@ -8,6 +8,7 @@ describe("r2 sync workflow", () => {
   test("sync workflow targets main and production environment", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(text.includes("branches: [\"main\"]")).toBe(true);
+    expect(text.includes("workflow_dispatch")).toBe(true);
     expect(text.includes("environment: production")).toBe(true);
   });
 
