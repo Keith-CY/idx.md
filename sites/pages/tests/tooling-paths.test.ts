@@ -30,6 +30,16 @@ describe("pages tooling paths", () => {
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
   });
 
+  test("skills.sh ingest writes to sources and data reports", async () => {
+    const text = await readText("sites/pages/ingest-skills-sh.ts");
+    expect(text.includes('resolve(repoRoot, "sources", "skills-sh.yml")')).toBe(
+      true,
+    );
+    expect(
+      text.includes('resolve(DATA_ROOT, "reports", "ingest-skills-sh.md")'),
+    ).toBe(true);
+  });
+
   test("gitignore ignores data reports", async () => {
     const text = await readText(".gitignore");
     expect(text.includes("data/reports/")).toBe(true);
