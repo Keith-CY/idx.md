@@ -1,0 +1,42 @@
+name: Sync R2 Data
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-24.04
+    environment: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1.2.2
+        with:
+          bun-version: "1.1.14"
+      - name: Install
+        run: bun install --frozen-lockfile
+      - name: Build data
+        run: bun sites/pages/build.ts
+      - name: Upload data to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          BUCKET="idx-md"
+          if [ ! -d data ]; then
+            echo "data/ missing"
+            exit 1
+          fi
+          find data -type f -print0 | while IFS= read -r -d '' file; do
+            key="${file#./}"
+            bunx wrangler r2 object put "$key" --bucket "$BUCKET" --file "$file"
+          done
