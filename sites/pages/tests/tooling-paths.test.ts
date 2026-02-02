@@ -29,4 +29,9 @@ describe("pages tooling paths", () => {
     ).toBe(true);
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
   });
+
+  test("gitignore ignores data reports", async () => {
+    const text = await readText(".gitignore");
+    expect(text.includes("data/reports/")).toBe(true);
+  });
 });
