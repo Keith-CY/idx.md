@@ -3,11 +3,11 @@ export function toR2Key(pathname: string): string {
   const lower = path.toLowerCase();
 
   if (path === "") {
-    return "data/IDX.md";
+    return "data/SKILL.md";
   }
 
   if (lower === "skill.md") {
-    return "data/IDX.md";
+    return "data/SKILL.md";
   }
 
   if (path === "data" || path === "data/") {

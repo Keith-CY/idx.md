@@ -10,7 +10,7 @@ describe("pages tooling paths", () => {
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
     expect(text.includes('resolve(REPORT_DIR, "rejected.md")')).toBe(true);
     expect(text.includes("INDEX_PATH")).toBe(true);
-    expect(text.includes("IDX.md")).toBe(true);
+    expect(text.includes("SKILL.md")).toBe(true);
   });
 
   test("validate reads data topics", async () => {
@@ -52,7 +52,7 @@ describe("pages tooling paths", () => {
   });
 
   test("agent skill onboarding mentions index and body paths", async () => {
-    const text = await readText("sites/pages/IDX.md");
+    const text = await readText("SKILL.md");
     expect(text.includes("https://idx.md/index.md")).toBe(true);
     expect(text.includes("/{topic}/BODY.md")).toBe(true);
   });

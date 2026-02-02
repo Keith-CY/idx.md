@@ -2,12 +2,16 @@ import { describe, expect, test } from "bun:test";
 import { toR2Key } from "../lib/paths";
 
 describe("toR2Key", () => {
-  test("root maps to IDX.md", () => {
-    expect(toR2Key("/")).toBe("data/IDX.md");
+  test("root maps to SKILL.md", () => {
+    expect(toR2Key("/")).toBe("data/SKILL.md");
   });
 
-  test("skill doc maps to IDX.md", () => {
-    expect(toR2Key("/skill.md")).toBe("data/IDX.md");
+  test("skill doc maps to SKILL.md (lowercase)", () => {
+    expect(toR2Key("/skill.md")).toBe("data/SKILL.md");
+  });
+
+  test("skill doc maps to SKILL.md (uppercase)", () => {
+    expect(toR2Key("/SKILL.md")).toBe("data/SKILL.md");
   });
 
   test("topic path maps to data/{topic}/HEAD.md", () => {
