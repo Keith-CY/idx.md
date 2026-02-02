@@ -22,12 +22,14 @@ Teach agents how to ingest markdown-only sources.
   - `sources/general.yml` (core sources)
   - `sources/openclaw.yml` (OpenClaw sources, auto-generated)
   - `sources/skills-sh.yml` (skills.sh sources, auto-generated)
+  - `sources/openai.yml` (OpenAI sources, auto-generated)
   - Additional registries in `sources/*.yml` for special cases
 - Build tooling under `sites/pages/`:
   - `sites/pages/build.ts`
   - `sites/pages/validate.ts`
   - `sites/pages/ingest-openclaw.ts`
   - `sites/pages/ingest-skills-sh.ts`
+  - `sites/pages/ingest-openai.ts`
 - Output locations:
   - `data/<topic>/HEAD.md` + `data/<topic>/BODY.md`
   - `data/index.md`
@@ -38,6 +40,7 @@ Teach agents how to ingest markdown-only sources.
    - Add new entries to `sources/general.yml` (manual).
    - For OpenClaw: run `bun sites/pages/ingest-openclaw.ts` to regenerate `sources/openclaw.yml`.
    - For skills.sh: run `bun sites/pages/ingest-skills-sh.ts` to regenerate `sources/skills-sh.yml`.
+   - For OpenAI: run `bun sites/pages/ingest-openai.ts` to regenerate `sources/openai.yml`.
    - Probed skills.sh entries are appended to `sources/general.yml`.
 
 2) **Validate registry**
@@ -91,7 +94,14 @@ Teach agents how to ingest markdown-only sources.
 2) Review `data/reports/ingest-skills-sh.md` and `data/reports/rejected.md`.
 3) Commit `sources/skills-sh.yml` and generated outputs.
 
-### Example 4: Fix a rejected source
+### Example 4: Refresh OpenAI skills
+1) Run:
+   - `bun sites/pages/ingest-openai.ts`
+   - `bun sites/pages/build.ts`
+2) Review `data/reports/ingest-openai.md` and `data/reports/rejected.md`.
+3) Commit `sources/openai.yml` and generated outputs.
+
+### Example 5: Fix a rejected source
 1) Open `data/reports/rejected.md` to identify the failing URL.
 2) Replace with a `.md` raw URL (e.g., `raw.githubusercontent.com/.../FILE.md`).
 3) Re-run `bun sites/pages/build.ts` and confirm the rejection is cleared.
