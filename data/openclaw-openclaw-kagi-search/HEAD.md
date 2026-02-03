@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-kagi-search
 type: skills
 title: kagi-search
-summary: Web search using Kagi Search API. Use when you need to search the web.
+summary: Web search using Kagi Search API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/silversteez/kagi-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:22.189Z
+retrieved_at: 2026-02-03T18:13:03.303Z
 content_sha256: 0a12456a93901deae91979902dd313a5bc55a45c186ea5d507fa1f9f617679fc
 ---

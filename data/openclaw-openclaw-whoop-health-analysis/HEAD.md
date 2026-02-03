@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rodrigouroz/whoop-health-analysis/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:46.395Z
+retrieved_at: 2026-02-03T18:13:44.036Z
 content_sha256: 4f9e99a32c8b5e4ad5224df190894cc885e430eec71de3ab0667beef2af133b9
 ---

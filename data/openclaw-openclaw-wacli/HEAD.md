@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/wacli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:38.779Z
+retrieved_at: 2026-02-03T18:13:42.210Z
 content_sha256: d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58
 ---

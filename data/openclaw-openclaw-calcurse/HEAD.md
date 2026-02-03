@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-calcurse
 type: skills
 title: calcurse
-summary: A text-based calendar and scheduling application. Use strictly for
-  CLI-based calendar management.
+summary: A text-based calendar and scheduling application.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/calcurse/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:36.980Z
+retrieved_at: 2026-02-03T18:12:34.464Z
 content_sha256: d8af8d5e4734b7f34859b0ae1dace5f45823eb1543dd3f8b556fbb391d9ef951
 ---

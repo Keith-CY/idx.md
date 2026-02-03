@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dhvanilpatel/printer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:56.010Z
+retrieved_at: 2026-02-03T18:13:21.378Z
 content_sha256: 26dcfee26ba889bacffdf38c0ab59a17d65e263a93a4192b3492ea403de18627
 ---

@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-de-ai-ify
 type: skills
 title: de-ai-ify
-summary: Remove AI-generated jargon and restore human voice to text.
+summary: Remove AI-generated jargon and restore human voice.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/de-ai-ify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:51.810Z
+retrieved_at: 2026-02-03T18:12:45.462Z
 content_sha256: d3d415df1685119efa12b7184c67c2cfe3a51e3db8696074fbc77de3d04f7092
 ---

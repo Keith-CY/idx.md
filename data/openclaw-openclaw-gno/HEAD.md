@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-gno
 type: skills
 title: gno
-summary: Search local documents, files, notes, and knowledge bases.
+summary: Search local documents, files, notes.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gmickel/gno/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:08.744Z
+retrieved_at: 2026-02-03T18:12:56.041Z
 content_sha256: 797af7004d2c8bceb4781c0e8b59d6a55adbe72e8abd647cab2379dea958c07d
 ---

@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-quit-vaping
 type: skills
 title: quit-vaping
-summary: Quit vaping with nicotine-free streak tracking, craving tools, and
-  health milestones.
+summary: Quit vaping with nicotine-free streak tracking, craving tools.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-vaping/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:00.551Z
+retrieved_at: 2026-02-03T18:13:24.054Z
 content_sha256: 21211955137f7ba1421f50f6d566c206a6e60810a663fa403589785cc285d07c
 ---

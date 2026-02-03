@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-exa
 type: skills
 title: exa
-summary: Neural web search and code context via Exa AI API. Requires EXA_API_KEY.
+summary: Neural web search and code context via Exa AI API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fardeenxyz/exa/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:58.792Z
+retrieved_at: 2026-02-03T18:12:50.046Z
 content_sha256: 7e25137487411fa75fe44cc5652091e02cef68eab12e2297061b924ed2546bd3
 ---

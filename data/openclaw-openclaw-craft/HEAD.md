@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-craft
 type: skills
 title: craft
-summary: Manage Craft notes, documents, and tasks via CLI.
+summary: Manage Craft notes, documents.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/noah-ribaudo/craft/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:49.871Z
+retrieved_at: 2026-02-03T18:12:43.943Z
 content_sha256: 43d955f0f6667306187875cd1c4b63c054ace114d4fd09cc5157766d2dd1acd0
 ---

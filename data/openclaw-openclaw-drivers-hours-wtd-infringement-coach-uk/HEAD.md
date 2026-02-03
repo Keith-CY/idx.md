@@ -3,7 +3,7 @@ stable_id: skills/openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk
 type: skills
 title: drivers-hours-wtd-infringement-coach-uk
 summary: Creates a 1-page driver-facing tacho/WTD infringement note plus
-  corrective actions and review date.
+  corrective actions and review.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/drivers-hours-wtd-infringement-coach-uk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:55.197Z
+retrieved_at: 2026-02-03T18:12:47.971Z
 content_sha256: 0076e6a56ba39a069430b60827f282028dd4fa38a8092bffe13bae1a71cedd04
 ---

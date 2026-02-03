@@ -87,7 +87,7 @@ PKPagesView {
     PKPage { Text("Page B").font(.title) }
     PKPage { Text("Page C").font(.title) }
 }
-.pkCurrentPageIndex($currentPage) // Bind to @State
+.pkCurrentPageIndex(index: $currentPage) // Bind to @State
 .pkPageNavigationOrientation(.horizontal)
 ```
 
@@ -120,9 +120,9 @@ PKPagesView {
 .pkPageControlIndicatorCurrentIndicatorTintColor(.blue)
 // Custom images
 #if os(iOS)
-.pkPageControlIndicatorPreferredCurrentPageIndicatorImage(UIImage(systemName: "star.fill"))
+.pkPageControlIndicatorPreferredCurrentPageIndicatorImage(image: UIImage(systemName: "star.fill"))
 #else
-.pkPageControlIndicatorPreferredCurrentPageIndicatorImage(Image(systemName: "star.fill"))
+.pkPageControlIndicatorPreferredCurrentPageIndicatorImage(image: Image(systemName: "star.fill"))
 #endif
 ```
 

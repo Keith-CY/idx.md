@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-vikunja
 type: skills
 title: vikunja
-summary: Manage projects and tasks in Vikunja, an open-source project management tool.
+summary: Manage projects and tasks in Vikunja, an open-source project management.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/vikunja/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:36.863Z
+retrieved_at: 2026-02-03T18:13:41.068Z
 content_sha256: 19f0a3dedffb5dd558a8ffe675abb72381577e038d191d75b0c1adfbfc4f8bba
 ---

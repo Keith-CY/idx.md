@@ -1,43 +1,81 @@
 ---
 name: simple-backup
 description: Backup agent brain (workspace) and body (state) to local folder and optionally sync to cloud via rclone.
-metadata: {"clawdbot":{"emoji":"💾","requires":{"bins":["rclone","gpg","tar"]}}}
+metadata: {"openclaw":{"emoji":"💾","requires":{"bins":["rclone","gpg","tar","jq"]}}}
 ---
 
 # Simple Backup
 
 A robust backup script that:
-1.  **Stages:** Copies `~/clawd` (workspace), `~/.clawdbot` (state), and `skills/`.
-2.  **Compresses:** Creates a `.tgz` archive.
-3.  **Encrypts:** AES256 encryption using GPG (password required).
-4.  **Prunes:** Rotates backups (Daily/Hourly retention).
-5.  **Syncs:** Optionally pushes to a cloud provider via `rclone`.
+1.  **Auto-detects** workspace and state directories from OpenClaw config
+2.  **Allows overrides** for custom/non-standard setups
+3.  **Compresses & encrypts** using GPG (AES256)
+4.  **Prunes** old backups (Daily/Hourly retention)
+5.  **Syncs** to cloud via `rclone` (optional)
 
 ## Setup
 
-1.  **Dependencies:** Ensure `rclone` and `gpg` are installed (`brew install rclone gnupg`).
-2.  **Password:** Set the encryption password:
-    *   Env Var: `export BACKUP_PASSWORD="my-secret-password"`
-    *   File: `~/.clawdbot/credentials/backup.key`
-3.  **Cloud (Optional):** Configure an rclone remote:
+1.  **Dependencies:**
+    ```bash
+    brew install rclone gnupg jq
+    ```
+
+2.  **Password:** Set encryption password (choose one):
+    - File: `~/.openclaw/credentials/backup.key` (recommended)
+    - Env: `export BACKUP_PASSWORD="secret"`
+    - Config: Add `"password": "secret"` to skill config
+
+3.  **Cloud (Optional):**
     ```bash
     rclone config
     ```
 
 ## Usage
 
-Run the backup:
 ```bash
 simple-backup
 ```
 
-## Configuration
+## Auto-Detection
 
-You can override defaults with environment variables:
+By default, paths are auto-detected from `~/.openclaw/openclaw.json`:
+- **Workspace:** `agents.defaults.workspace`
+- **State:** `~/.openclaw` (where config lives)
+- **Backup root:** `<workspace>/BACKUPS`
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `BACKUP_ROOT` | `~/clawd/BACKUPS` | Local storage location |
-| `REMOTE_DEST` | (empty) | Rclone path (e.g. `gdrive:backups`) |
-| `MAX_DAYS` | 7 | Days to keep daily backups |
-| `HOURLY_RETENTION_HOURS` | 24 | Hours to keep hourly backups |
+## Custom Configuration
+
+For non-standard setups, override any path in `~/.openclaw/openclaw.json`:
+
+```json
+{
+  "skills": {
+    "entries": {
+      "simple-backup": {
+        "config": {
+          "workspaceDir": "/custom/path/workspace",
+          "stateDir": "/custom/path/state",
+          "skillsDir": "/custom/path/skills",
+          "backupRoot": "/custom/path/backups",
+          "remoteDest": "gdrive:backups"
+        }
+      }
+    }
+  }
+}
+```
+
+## Configuration Reference
+
+| Config Key | Env Var | Auto-Detected | Description |
+|------------|---------|---------------|-------------|
+| `workspaceDir` | `BRAIN_DIR` | `agents.defaults.workspace` | Agent workspace |
+| `stateDir` | `BODY_DIR` | `~/.openclaw` | OpenClaw state dir |
+| `skillsDir` | `SKILLS_DIR` | `~/openclaw/skills` | Skills directory |
+| `backupRoot` | `BACKUP_ROOT` | `<workspace>/BACKUPS` | Local backup storage |
+| `remoteDest` | `REMOTE_DEST` | (none) | Rclone remote path |
+| `maxDays` | `MAX_DAYS` | 7 | Days to keep daily backups |
+| `hourlyRetentionHours` | `HOURLY_RETENTION_HOURS` | 24 | Hours to keep hourly |
+| `password` | `BACKUP_PASSWORD` | (none) | Encryption password |
+
+**Priority:** Config file → Env var → Auto-detect

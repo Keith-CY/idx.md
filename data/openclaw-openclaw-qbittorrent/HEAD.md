@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-qbittorrent
 type: skills
 title: qbittorrent
-summary: Manage torrents with qBittorrent. Use when the user asks to "list
-  torrents", "add torrent".
+summary: Manage torrents with qBittorrent.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/qbittorrent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:59.104Z
+retrieved_at: 2026-02-03T18:13:23.315Z
 content_sha256: 36cbb1050d36496aa6659570503f63ed57bbb32b62b44bf6cd267b690decdcd7
 ---

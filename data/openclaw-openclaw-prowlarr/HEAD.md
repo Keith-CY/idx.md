@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-prowlarr
 type: skills
 title: prowlarr
-summary: Search indexers and manage Prowlarr. Use when the user asks to "search.
+summary: Search indexers and manage Prowlarr.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/prowlarr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:57.604Z
+retrieved_at: 2026-02-03T18:13:22.749Z
 content_sha256: c2a2fd5159da5affcea51f1cf685d20c22dbece535a9319e85a0ac6eea049f78
 ---

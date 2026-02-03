@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-roadrunner
 type: skills
 title: roadrunner
-summary: Beeper Desktop CLI for chats, messages, search, and reminders.
+summary: Beeper Desktop CLI for chats, messages, search.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/johntheyoung/roadrunner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:06.487Z
+retrieved_at: 2026-02-03T18:13:26.668Z
 content_sha256: 8ea78f41fbd59a5617c9ad1534dc182a61c63afde677adcabc929e215dd943ea
 ---

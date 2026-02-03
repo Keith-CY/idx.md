@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/biostartechnology/linkedin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:25.415Z
+retrieved_at: 2026-02-03T18:13:05.153Z
 content_sha256: 95e31d22d52207dd72c44ebe6ca6f7dc8ae44329ba6c04229c9ed1fd43cec702
 ---

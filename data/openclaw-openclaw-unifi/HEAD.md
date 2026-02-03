@@ -3,7 +3,7 @@ stable_id: skills/openclaw-openclaw-unifi
 type: skills
 title: unifi
 summary: Query and monitor UniFi network via local gateway API (Cloud Gateway
-  Max / UniFi OS).
+  Max / UniFi.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/unifi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:33.277Z
+retrieved_at: 2026-02-03T18:13:39.645Z
 content_sha256: 59b21fecb91d469dc7d2dd0536a7d09713de3e8eb7ec666279fb7b70cb6997e5
 ---

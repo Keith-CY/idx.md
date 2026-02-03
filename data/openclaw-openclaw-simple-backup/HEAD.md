@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vacinc/simple-backup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:12.051Z
-content_sha256: b5ad27eca675589839f06997c62541b08871fdc31172785d17feb9e0ce90a0fe
+retrieved_at: 2026-02-03T18:13:29.836Z
+content_sha256: 77e188b4c4ec6c8dad0c197c1060c022fe45106dc39250eed66bf496075d5068
 ---

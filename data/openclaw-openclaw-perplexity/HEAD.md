@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zats/perplexity/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:48.934Z
+retrieved_at: 2026-02-03T18:13:18.270Z
 content_sha256: f593e23b0c365a98818ae563dc8563e51ba9fe0a885c03aa19d23716b2eb40e0
 ---

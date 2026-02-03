@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-linear
 type: skills
 title: linear
-summary: Query and manage Linear issues, projects, and team workflows.
+summary: Query and manage Linear issues, projects.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/linear/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:24.566Z
+retrieved_at: 2026-02-03T18:13:04.893Z
 content_sha256: c9958bce3b7af252c6ace33b3fc6d7540f7f570ddb3c4e868eeb3bf756968605
 ---

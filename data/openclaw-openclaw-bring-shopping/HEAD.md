@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cutzenfriend/bring-shopping/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:36.134Z
+retrieved_at: 2026-02-03T18:12:33.444Z
 content_sha256: aecbb9976d60b435901ba732762b5a806d81509dacefba6d59ab0a0ceef0d538
 ---

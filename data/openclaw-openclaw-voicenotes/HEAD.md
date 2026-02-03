@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnhansen/voicenotes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:38.576Z
+retrieved_at: 2026-02-03T18:13:41.964Z
 content_sha256: 9b8ca88c9cd99f5c27e5c0c4d763e240594c2a03eaa80b01cc530c706de9a45e
 ---

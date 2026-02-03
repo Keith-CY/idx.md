@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-timesheet
 type: skills
 title: timesheet
-summary: Track time, manage projects and tasks using timesheet.io CLI.
+summary: Track time, manage projects and tasks using timesheet.io.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianrauscha/timesheet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:27.342Z
+retrieved_at: 2026-02-03T18:13:37.001Z
 content_sha256: bf95e49c5242ecd68c4c02027942f57cd827c849bb82333e907080675f007dd6
 ---

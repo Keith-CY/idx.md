@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/whcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:45.438Z
+retrieved_at: 2026-02-03T18:13:43.775Z
 content_sha256: b1eb92bab78ca180cb5e8bee80647420298a02d64c1923196528544897502c54
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/spotify-web-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:16.750Z
+retrieved_at: 2026-02-03T18:13:32.539Z
 content_sha256: c7b8bc7dc89b8f142684c4678457f5912d7d74be69b09972d862fe926dfd75fa
 ---

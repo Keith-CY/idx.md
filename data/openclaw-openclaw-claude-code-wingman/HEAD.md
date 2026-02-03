@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yossiovadia/claude-code-wingman/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:39.934Z
+retrieved_at: 2026-02-03T18:12:37.225Z
 content_sha256: 84959e4eaa06d7be29e896be261226efe3dfd611673596818d63d32966680b52
 ---

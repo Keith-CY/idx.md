@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk
 type: skills
 title: cpc-mpqc-competence-tracker-compliance-uk
-summary: Plans CPC/MPQC competence tracking with reminders, evidence lists, and
-  compliance reporting.
+summary: Plans CPC/MPQC competence tracking with reminders, evidence lists.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/cpc-mpqc-competence-tracker-compliance-uk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:49.652Z
+retrieved_at: 2026-02-03T18:12:43.838Z
 content_sha256: cd7a4d5446bf4f75301b00ae5e0d2a6fbdd2cf7c9502ed2d07632661245eb1aa
 ---

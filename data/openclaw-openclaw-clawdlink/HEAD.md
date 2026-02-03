@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/davemorin/clawdlink/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:44.250Z
-content_sha256: 59ca4ee0e5477e9f8071d7b3cc2e64518ad5095a4e1702f6a8dfa774375399c9
+retrieved_at: 2026-02-03T18:12:39.468Z
+content_sha256: 97baa4637fa54eb548d4132924954fae44522ab15621254256eab4e350678231
 ---

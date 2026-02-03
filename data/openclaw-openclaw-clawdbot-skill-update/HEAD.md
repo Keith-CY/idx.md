@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/clawdbot-skill-update/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:43.388Z
+retrieved_at: 2026-02-03T18:12:38.822Z
 content_sha256: 2b665746ece8fe2b47a69e9435ead5a78b28eef551a67a642fc3066bf055d078
 ---

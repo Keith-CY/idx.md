@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/web-search-plus/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:40.822Z
+retrieved_at: 2026-02-03T18:13:43.025Z
 content_sha256: 4929d1e67f98d78aaffa2a27f44beb78f8fa60f2ee1e0897a97aed72efee5fab
 ---

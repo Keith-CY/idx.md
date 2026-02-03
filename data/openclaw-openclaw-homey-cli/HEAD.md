@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-homey-cli
 type: skills
 title: homey-cli
-summary: Control Homey home automation hub via CLI.
+summary: Control Homey home automation hub.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/homey-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:16.843Z
+retrieved_at: 2026-02-03T18:12:59.262Z
 content_sha256: 29a86b070019fe8697a63133eb1aa97f11bea86b59b7c00e0341131706669ddb
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/t-sinclair2500/lm-studio-subagents/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:26.909Z
-content_sha256: d81e1e03ca2d82b2a6617e16e4e6f049eb8f8173bb5f0c0c1706e87dda0f9def
+retrieved_at: 2026-02-03T18:13:05.503Z
+content_sha256: 31ec9487a850a1a450bceac525ace2d2ad3b1f3452d4c1b8b5a6fa232fdc7c7a
 ---

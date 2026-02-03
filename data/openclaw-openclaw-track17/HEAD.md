@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/track17/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:29.453Z
+retrieved_at: 2026-02-03T18:13:37.714Z
 content_sha256: 1b8a1220ba76833a62add2b4521e87cdde696e17b749c15da119030fa949febb
 ---

@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-flights
 type: skills
 title: flights
-summary: Track flight status, delays, and search routes. Uses FlightAware data.
+summary: Track flight status, delays.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/flights/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:02.772Z
+retrieved_at: 2026-02-03T18:12:52.801Z
 content_sha256: eb0b500acf2e0432fd9c7657c92a6f1d4aeb2f2606c041e2e893e1b995e39c63
 ---

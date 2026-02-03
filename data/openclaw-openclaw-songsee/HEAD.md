@@ -3,7 +3,7 @@ stable_id: skills/openclaw-openclaw-songsee
 type: skills
 title: songsee
 summary: Generate spectrograms and feature-panel visualizations from audio with
-  the songsee CLI.
+  the songsee.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/songsee/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:15.260Z
+retrieved_at: 2026-02-03T18:13:31.899Z
 content_sha256: 0b9e5821304ea2ee5fbd1087a2ebcc459d86bf4bc00adf976d07cd0c609da7b0
 ---

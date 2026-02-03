@@ -83,6 +83,19 @@ python3 scripts/ticker.py league nba basketball
 python3 scripts/ticker.py league nfl football
 python3 scripts/ticker.py league eng.1 soccer
 
+# 📅 Schedule - View upcoming fixtures (NEW in v3!)
+python3 scripts/schedule.py                    # All teams, next 14 days
+python3 scripts/schedule.py --days 30          # Look further ahead
+python3 scripts/schedule.py --team spurs       # Specific team
+python3 scripts/schedule.py --compact          # One-liner format
+python3 scripts/schedule.py --json             # JSON output
+
+# 🤖 Auto Setup Crons - Generate match-day crons (NEW in v3!)
+python3 scripts/auto_setup_crons.py            # All teams, next 7 days
+python3 scripts/auto_setup_crons.py --team spurs --days 14
+python3 scripts/auto_setup_crons.py --json     # Machine-readable
+python3 scripts/auto_setup_crons.py --commands # OpenClaw CLI commands
+
 # ESPN direct
 python3 scripts/espn.py leagues
 python3 scripts/espn.py scoreboard nba basketball

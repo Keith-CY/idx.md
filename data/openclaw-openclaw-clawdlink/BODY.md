@@ -1,26 +1,32 @@
 ---
-name: clawdlink
+name: clawphone
 description: Encrypted Clawdbot-to-Clawdbot messaging. Send messages to friends' Clawdbots with end-to-end encryption.
 triggers:
-  - clawdlink
+  - clawphone
   - friend link
   - add friend
   - send message to
   - tell [name] that
   - message from
   - accept friend request
-  - clawdlink preferences
+  - clawphone preferences
   - quiet hours
 ---
 
-# ClawdLink
+# ClawPhone
 
 Encrypted peer-to-peer messaging between Clawdbots via central relay.
+
+## Philosophy
+
+Communication should be async by default, context-aware, and translated to how the recipient wants to receive it. AI on both ends handles the mediation.
+
+**Your Clawdbot** packages and encrypts your message → sends to **their Clawdbot** → which waits for the right moment and delivers it in their preferred voice.
 
 ## Installation
 
 ```bash
-cd ~/clawd/skills/clawdlink
+cd ~/clawd/skills/clawphone
 npm install
 node scripts/install.js      # Adds to HEARTBEAT.md
 node cli.js setup "Your Name"
@@ -40,7 +46,7 @@ node handler.js <action> [args...]
 |--------|-------|
 | `check` | Poll for messages and requests |
 | `send` | `send "Matt" "Hello!" [--urgent] [--context=work]` |
-| `add` | `add "clawdlink://..."` |
+| `add` | `add "clawphone://..."` |
 | `accept` | `accept "Matt"` |
 | `link` | Get your friend link |
 | `friends` | List friends |
@@ -51,91 +57,47 @@ node handler.js <action> [args...]
 | Action | Usage |
 |--------|-------|
 | `preferences` | Show all preferences |
-| `quiet-hours` | `quiet-hours on` / `quiet-hours 22:00 08:00` |
-| `batch` | `batch on` / `batch off` |
-| `tone` | `tone casual` / `tone formal` / `tone brief` |
+| `quiet-hours` | `quiet-hours 22:00 08:00` or `quiet-hours off` |
+| `batch` | `batch on` or `batch off` |
+| `tone` | `tone casual/formal/brief/natural` |
+| `friend-priority` | `friend-priority "Sophie" high` |
+
+## Natural Language (for Clawdbot)
+
+These phrases trigger ClawPhone:
+
+- "Send a message to Sophie saying..."
+- "Tell Matt that..."
+- "Add this friend: clawphone://..."
+- "Accept the friend request from..."
+- "Show my friend link"
+- "Set quiet hours from 10pm to 7am"
+- "What messages do I have?"
+
+## Security
+
+- **Ed25519** identity keys (your Clawdbot ID)
+- **X25519** key exchange (Diffie-Hellman)
+- **XChaCha20-Poly1305** authenticated encryption
+- Keys never leave your device
+- Relay sees only encrypted blobs
 
 ## Delivery Preferences
 
-Users control how they receive messages:
-
-### Quiet Hours
-```bash
-node handler.js quiet-hours 22:00 07:30
-```
-Messages held during quiet hours, delivered when they end. Urgent messages still come through.
-
-### Batch Delivery
-```bash
-node handler.js batch on
-node handler.js preferences set schedule.batchDelivery.times '["09:00","18:00"]'
-```
-Non-urgent messages batched and delivered at set times.
-
-### Communication Tone
-```bash
-node handler.js tone casual
-```
-Options: `natural`, `casual`, `formal`, `brief`
-
-### Per-Friend Settings
-```bash
-node handler.js preferences set friends."Sophie Bakalar".priority high
-node handler.js preferences set friends."Sophie Bakalar".alwaysDeliver true
-```
-
-## Message Metadata
-
-When sending, include context:
-
-```bash
-node handler.js send "Sophie" "Need to discuss budget" --urgent --context=work
-```
-
-Options:
-- `--urgent` — Bypasses quiet hours and batching
-- `--fyi` — Low priority, always batchable
-- `--context=work|personal|social` — Helps with batching decisions
-
-## Conversation Patterns
-
-### Setting preferences
-**User:** "Set quiet hours from 10pm to 8am"
-**Action:** `node handler.js quiet-hours 22:00 08:00`
-
-**User:** "I prefer casual communication"
-**Action:** `node handler.js tone casual`
-
-**User:** "Batch my ClawdLink messages and deliver at 9am and 6pm"
-**Action:** 
-```bash
-node handler.js batch on
-node handler.js preferences set schedule.batchDelivery.times '["09:00","18:00"]'
-```
-
-**User:** "Always let messages from Sophie through"
-**Action:** `node handler.js preferences set friends."Sophie".alwaysDeliver true`
-
-### Sending with context
-**User:** "Tell Matt I need the files urgently"
-**Action:** `node handler.js send "Matt" "I need the files" --urgent --context=work`
-
-## Preferences Schema
+Recipients control how they receive messages:
 
 ```json
 {
   "schedule": {
     "quietHours": { "enabled": true, "start": "22:00", "end": "08:00" },
-    "batchDelivery": { "enabled": false, "times": ["09:00", "18:00"] },
-    "timezone": "America/Los_Angeles"
+    "batchDelivery": { "enabled": false, "times": ["09:00", "18:00"] }
   },
   "delivery": {
     "allowUrgentDuringQuiet": true,
-    "summarizeFirst": true,
-    "includeContext": true
+    "summarizeFirst": true
   },
   "style": {
-    "tone": "natural",
+    "tone": "casual",
     "greetingStyle": "friendly"
   },
   "friends": {
@@ -144,28 +106,42 @@ node handler.js preferences set schedule.batchDelivery.times '["09:00","18:00"]'
 }
 ```
 
-## Data Storage
+## Relay
 
-`~/.clawdbot/clawdlink/`
-- `identity.json` — Keypair
-- `config.json` — Display name
-- `friends.json` — Friends with shared secrets
+- **URL:** https://clawphone-relay.vercel.app
+- Stores only encrypted messages temporarily
+- Cannot read message contents
+- Verifies signatures to prevent spam
+
+## File Structure
+
+```
+~/clawd/skills/clawphone/
+├── lib/
+│   ├── crypto.js       # Ed25519/X25519/XChaCha20
+│   ├── relay.js        # Relay API client
+│   ├── requests.js     # Friend request protocol
+│   ├── clawdbot.js     # Clawdbot integration
+│   ├── preferences.js  # Delivery preferences
+│   └── style.js        # Message formatting
+├── scripts/
+│   ├── setup.js
+│   ├── friends.js
+│   ├── send.js
+│   ├── poll.js
+│   ├── preferences.js
+│   └── install.js
+├── cli.js
+├── handler.js          # JSON API
+├── heartbeat.js        # Auto-poll
+├── manifest.json
+└── SKILL.md
+```
+
+## Data Location
+
+All ClawPhone data stored at: `~/.config/clawdbot/clawphone/`
+
+- `identity.json` — Your Ed25519 keypair
+- `friends.json` — Friend list with shared secrets
 - `preferences.json` — Delivery preferences
-- `held_messages.json` — Messages waiting for delivery
-- `pending_requests.json` — Friend requests
-
-## Auto-Polling
-
-`heartbeat.js` runs on each Clawdbot heartbeat:
-- Polls relay for messages/requests
-- Applies delivery preferences
-- Holds messages during quiet hours
-- Delivers batched messages at scheduled times
-- Outputs formatted text when there's something to deliver
-
-## Security
-
-- **E2E encrypted** — XChaCha20-Poly1305
-- **Ed25519 signatures** — Sender verification
-- **X25519 key exchange** — Shared secrets
-- **7-day TTL** — Messages auto-expire

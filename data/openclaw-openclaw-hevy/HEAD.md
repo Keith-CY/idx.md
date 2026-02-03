@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-hevy
 type: skills
 title: hevy
-summary: Query workout data from Hevy including workouts, routines, exercises,
-  and history.
+summary: Query workout data from Hevy including workouts, routines, exercises.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/hevy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:14.413Z
+retrieved_at: 2026-02-03T18:12:58.488Z
 content_sha256: bb0beb3ae533db3ba072c1f8b91f26dc8acfddd140e57bbaa455865c8fc34064
 ---

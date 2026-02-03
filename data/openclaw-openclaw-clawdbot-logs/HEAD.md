@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-clawdbot-logs
 type: skills
 title: clawdbot-logs
-summary: Analyze Clawdbot logs and diagnostics. Use when the user asks about bot
-  performance.
+summary: Analyze Clawdbot logs and diagnostics.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satriapamudji/clawdbot-logs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:42.109Z
+retrieved_at: 2026-02-03T18:12:38.398Z
 content_sha256: e245b4f8919e10e6bd131e12ee1196494815a9a08356e148a47d0dc97c14d4a7
 ---

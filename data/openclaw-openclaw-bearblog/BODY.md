@@ -21,16 +21,19 @@ browser action:navigate url:https://bearblog.dev/accounts/login/
 ### Step 1: Navigate to the post editor
 
 ```
-browser action:navigate url:https://<subdomain>.bearblog.dev/dashboard/post/
+browser action:navigate url:https://bearblog.dev/<subdomain>/dashboard/posts/new/
 ```
+
 
 ### Step 2: Fill the editor
 
-Bear Blog uses a **plain text header format** — no JavaScript DOM manipulation needed!
+Bear Blog uses a **plain text header format**.
 
-The editor has two textareas:
-- `header_content` — metadata attributes (one per line)
-- `body_content` — the actual post content in Markdown
+The editor fields are:
+- `div#header_content` (contenteditable): attributes (one per line)
+- `textarea#body_content`: Markdown body
+
+**Verified:** use `fill`/`type` on those two fields, then click **Publish** (or **Save as draft**). No `evaluate` needed.
 
 **Header format:**
 ```
@@ -247,13 +250,14 @@ HTML is supported directly in Markdown:
 Replace `<subdomain>` with your blog subdomain:
 
 - **Blog list:** `https://bearblog.dev/dashboard/`
-- **Dashboard:** `https://<subdomain>.bearblog.dev/dashboard/`
-- **New post:** `https://<subdomain>.bearblog.dev/dashboard/post/`
-- **Edit post:** `https://<subdomain>.bearblog.dev/dashboard/post/<uid>/`
-- **Styles:** `https://<subdomain>.bearblog.dev/dashboard/styles/`
-- **Navigation:** `https://<subdomain>.bearblog.dev/dashboard/nav/`
-- **Analytics:** `https://<subdomain>.bearblog.dev/dashboard/analytics/`
-- **Settings:** `https://<subdomain>.bearblog.dev/dashboard/settings/`
+- **Dashboard:** `https://bearblog.dev/<subdomain>/dashboard/`
+- **Posts list:** `https://bearblog.dev/<subdomain>/dashboard/posts/`
+- **New post:** `https://bearblog.dev/<subdomain>/dashboard/posts/new/`
+- **Edit post:** `https://bearblog.dev/<subdomain>/dashboard/posts/<uid>/`
+- **Styles:** `https://bearblog.dev/<subdomain>/dashboard/styles/`
+- **Navigation:** `https://bearblog.dev/<subdomain>/dashboard/nav/`
+- **Analytics:** `https://bearblog.dev/<subdomain>/dashboard/analytics/`
+- **Settings:** `https://bearblog.dev/<subdomain>/dashboard/settings/`
 
 ## Example: Complete Post
 
@@ -262,10 +266,9 @@ Replace `<subdomain>` with your blog subdomain:
 title: Getting Started with AI Assistants
 link: ai-assistants-intro
 published_date: 2026-01-05 15:00
-tags: ai, tutorial, tech
-make_discoverable: true
-is_page: false
 meta_description: A beginner's guide to working with AI assistants
+tags: ai, tutorial, tech
+is_page: false
 lang: en
 ```
 

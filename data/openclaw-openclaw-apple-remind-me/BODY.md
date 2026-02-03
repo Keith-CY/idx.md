@@ -1,7 +1,7 @@
 ---
 name: apple-remind-me
 description: Natural language reminders that create actual Apple Reminders.app entries (macOS-native)
-metadata: {"clawdbot":{"emoji":"⏰","os":["darwin"],"requires":{"bins":["remindctl","date"]}}}
+metadata: {"openclaw":{"emoji":"⏰","os":["darwin"],"requires":{"bins":["remindctl","date"]}}}
 ---
 
 # Apple Remind Me (macOS Native)

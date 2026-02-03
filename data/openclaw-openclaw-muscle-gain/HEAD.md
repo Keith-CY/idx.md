@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-muscle-gain
 type: skills
 title: muscle-gain
-summary: Track muscle building with weight progression, protein tracking, and
-  strength milestones.
+summary: Track muscle building with weight progression, protein tracking.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/muscle-gain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:34.961Z
+retrieved_at: 2026-02-03T18:13:11.202Z
 content_sha256: 593db003757b64e064b60b9d47f6411a470764a459dc1c5d597e2ac6e7cf97f1
 ---

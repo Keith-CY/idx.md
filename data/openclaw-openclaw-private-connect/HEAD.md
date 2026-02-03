@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-private-connect
 type: skills
 title: private-connect
-summary: Access private services by name, from anywhere. No VPN or SSH tunnels.
+summary: Access private services by name, from anywhere.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dantelex/private-connect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:56.227Z
+retrieved_at: 2026-02-03T18:13:21.433Z
 content_sha256: 713f8f15e031d053ad90b37bbe4ac896fcdedaeaf0813512f5c7c58ff0afd505
 ---

@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-claude-oauth-refresher
 type: skills
 title: claude-oauth-refresher
-summary: Keep your Claude access token fresh 24/7.
+summary: Keep your Claude access token fresh.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/claude-oauth-refresher/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:40.363Z
+retrieved_at: 2026-02-03T18:12:37.318Z
 content_sha256: e38dbad31184308b35b57b7b6332554fff31e73706983eb1b23dde807eab2ff9
 ---

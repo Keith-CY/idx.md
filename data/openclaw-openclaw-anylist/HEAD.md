@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/anylist/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:25.247Z
+retrieved_at: 2026-02-03T18:12:27.110Z
 content_sha256: 6a14e19dc187f66eed11a2d300a6f9cd5643decd845ea8a1760f5e9c00c063f2
 ---

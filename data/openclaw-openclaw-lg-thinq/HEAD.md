@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-lg-thinq
 type: skills
 title: lg-thinq
-summary: "Control LG smart appliances: fridge, washer, dryer, AC."
+summary: "Control LG smart appliances: fridge, washer, dryer."
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kaiofreitas/lg-thinq/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:24.340Z
+retrieved_at: 2026-02-03T18:13:04.656Z
 content_sha256: bb08c94fc1b9e1c0bcc1d25670ca412deb667bce676ba59b60c74f1f19e5209a
 ---

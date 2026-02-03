@@ -3,7 +3,7 @@ stable_id: skills/openclaw-openclaw-model-router
 type: skills
 title: model-router
 summary: A comprehensive AI model routing system that automatically selects the
-  optimal model for any task.
+  optimal model.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digitaladaption/model-router/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:32.665Z
+retrieved_at: 2026-02-03T18:13:09.037Z
 content_sha256: 1bf8e6b84f060dcc6f538fbd570c476afcf5d6797d5eb4ee0aae41df8350fb6a
 ---

@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-ynab
 type: skills
 title: ynab
-summary: Manage YNAB budgets, accounts, categories, and transactions via CLI.
+summary: Manage YNAB budgets, accounts, categories.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/obviyus/ynab/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:49.628Z
+retrieved_at: 2026-02-03T18:13:47.546Z
 content_sha256: 2440ad2094ccc9952419b11435d00dd7e5c9d7e53c100daa42242fb9a9d83d62
 ---

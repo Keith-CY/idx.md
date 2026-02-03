@@ -33,9 +33,14 @@ Supported forms:
 - After the item messages, send **one final message** with the generated image.
   - The image must visually incorporate the pulled news on the wraparound studio video wall using **4–6 distinct story panels**.
   - **Panel layout (must):**
-    - TOP: big bold topic label (2–3 words, ALL CAPS)
-    - MIDDLE: smaller 3–6 word mini-headline (news-style)
+    - TOP: big bold text (1–2 words, ALL CAPS). You must invent this.
+    - MIDDLE: smaller text (3–6 words) that describes the story. You must invent this.
+      - The two lines must **not** form a connected sentence.
+      - Avoid repeating the same words between the two lines.
     - BOTTOM: exactly 1–2 simple icons (no maps, no busy collages)
+    - **Icon variety:** make icons distinct across panels whenever possible.
+      - Do not reuse the same icon pair across multiple panels.
+      - Avoid overusing generic icons (e.g. globe + pin); only use them when no better match exists.
   - **Readability:** keep text minimal and large enough to render cleanly.
   - No logos/watermarks.
   - If the chat provider requires non-empty text for media, use a minimal caption `.`.

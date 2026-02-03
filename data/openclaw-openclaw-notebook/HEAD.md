@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/notebook/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:38.656Z
+retrieved_at: 2026-02-03T18:13:13.269Z
 content_sha256: f0a8b1f476252fc285a77212a94b23b6b707f1c62a63ef932af6f2635013b410
 ---

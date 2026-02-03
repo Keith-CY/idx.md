@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-quit-overspending
 type: skills
 title: quit-overspending
-summary: Break impulse buying habits with spending streaks, urge tracking, and
-  savings milestones.
+summary: Break impulse buying habits with spending streaks, urge tracking.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-overspending/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:59.941Z
+retrieved_at: 2026-02-03T18:13:23.934Z
 content_sha256: 7c2683af8b009eda51e08b28143110d0a2ffbd5d302b2ac3ccc0184e9954335d
 ---

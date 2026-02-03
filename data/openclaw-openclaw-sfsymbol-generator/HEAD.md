@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-sfsymbol-generator
 type: skills
 title: sfsymbol-generator
-summary: Generate an Xcode SF Symbol asset catalog .symbolset from an SVG.
+summary: Generate an Xcode SF Symbol asset catalog .symbolset.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/svkozak/sfsymbol-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:10.586Z
+retrieved_at: 2026-02-03T18:13:29.445Z
 content_sha256: 40a9751d243c92c02994aa006d3f60edc1e15d6ea21f75e7f983bd9b7c892741
 ---

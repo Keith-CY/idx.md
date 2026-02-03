@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-coloring-page
 type: skills
 title: coloring-page
-summary: Turn an uploaded photo into a printable black-and-white coloring page.
+summary: Turn an uploaded photo into a printable black-and-white coloring.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/coloring-page/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:46.576Z
+retrieved_at: 2026-02-03T18:12:41.652Z
 content_sha256: 9ad556a3ff990a13231dccae66fef4bd2c64cf4f34e89aeab29d3644cb7e673a
 ---

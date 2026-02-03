@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/just-fucking-cancel/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:21.982Z
+retrieved_at: 2026-02-03T18:13:02.910Z
 content_sha256: e829f90c27342ad19e2fa9b97f9527418a57cc87c0510a1ad77c03f783e0cac8
 ---

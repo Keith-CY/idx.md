@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-pricing-strategy
 type: skills
 title: pricing-strategy
-summary: When the user wants help with pricing decisions, packaging, or
-  monetization strategy.
+summary: When the user wants help with pricing decisions, packaging.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/pricing-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:55.790Z
+retrieved_at: 2026-02-03T18:13:21.266Z
 content_sha256: 44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1
 ---

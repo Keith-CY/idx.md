@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anscg/wheels-router/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:45.659Z
+retrieved_at: 2026-02-03T18:13:43.831Z
 content_sha256: 0ee441593fc7a03d9ae3a42d3ab8a1947fca4ceff418d56413d594b820942099
 ---

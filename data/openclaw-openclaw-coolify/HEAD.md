@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visiongeist/coolify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:48.353Z
+retrieved_at: 2026-02-03T18:12:43.532Z
 content_sha256: efcee656d27427fa36873da9e59a81fc14f779feaf9a37279000dbde5d1b1c13
 ---

@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-quit-porn
 type: skills
 title: quit-porn
-summary: Break free from porn addiction with streak tracking, urge management,
-  and recovery milestones.
+summary: Break free from porn addiction with streak tracking, urge management.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-porn/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:00.143Z
+retrieved_at: 2026-02-03T18:13:23.968Z
 content_sha256: d497254391b5ad788b5ada25ecb525dd4c0b008b6e6dbaf84335851d281ad2b1
 ---

@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-content-advisory
 type: skills
 title: content-advisory
-summary: Lookup detailed content ratings for movies and TV shows (sex/nudity,
-  violence/gore.
+summary: Lookup detailed content ratings for movies and TV shows (sex/nudity.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/content-advisory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:07:47.652Z
+retrieved_at: 2026-02-03T18:12:42.478Z
 content_sha256: 692413c0f2790a74a54f08744b252493d95d9edca54461679f17fb9a8a8150c5
 ---

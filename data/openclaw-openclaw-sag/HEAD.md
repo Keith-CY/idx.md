@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-sag
 type: skills
 title: sag
-summary: ElevenLabs text-to-speech with mac-style say UX.
+summary: ElevenLabs text-to-speech with mac-style say.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/sag/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:07.554Z
+retrieved_at: 2026-02-03T18:13:27.175Z
 content_sha256: e9a062586db13baf6088c28779bc21b0ca80f0e96628de8fe91d604a934c12bb
 ---

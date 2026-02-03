@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-weight-loss
 type: skills
 title: weight-loss
-summary: Track weight loss journey with weigh-ins, trend analysis, and goal milestones.
+summary: Track weight loss journey with weigh-ins, trend analysis.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/weight-loss/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:09:41.871Z
+retrieved_at: 2026-02-03T18:13:43.304Z
 content_sha256: b73aa04daf760798c28ce7d41ef3cab6cb7741c6b5cff2fc2dd7798e2fbadf8b
 ---

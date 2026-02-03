@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-postiz
 type: skills
 title: postiz
-summary: "Schedule posts to 28+ channels: X, LinkedIn, Reddit, Instagram,
-  TikTok, and more."
+summary: "Schedule posts to 28+ channels: X, LinkedIn, Reddit, Instagram, TikTok."
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nevo-david/postiz/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:54.453Z
+retrieved_at: 2026-02-03T18:13:20.680Z
 content_sha256: fdd7b41af9b9502f054507f4538659ea8cdcd1ea42e0c87375e1ca028cc1b514
 ---

@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-huckleberry
 type: skills
 title: huckleberry
-summary: Track baby sleep, feeding, diapers, and growth via the Huckleberry CLI.
+summary: Track baby sleep, feeding, diapers, and growth via the Huckleberry.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jayhickey/huckleberry/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-01T17:08:17.270Z
+retrieved_at: 2026-02-03T18:12:59.406Z
 content_sha256: b4373a94338c032b0aef33729e65e6d2d161b9099e943ffc7a51c5317cfb042a
 ---
