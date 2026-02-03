@@ -62,13 +62,17 @@ jobs:
           UPLOAD_RETRIES="${UPLOAD_RETRIES:-5}"
           UPLOAD_SLEEP_BASE="${UPLOAD_SLEEP_BASE:-2}"
           UPLOAD_FILE_TIMEOUT="${UPLOAD_FILE_TIMEOUT:-60}"
+          export UPLOAD_CONCURRENCY
+          export UPLOAD_RETRIES
+          export UPLOAD_SLEEP_BASE
+          export UPLOAD_FILE_TIMEOUT
           if [ ! -d data ]; then
             echo "data/ missing"
             exit 1
           fi
           total_files=$(find data -type f | wc -l | tr -d " ")
           echo "Uploading ${total_files} files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
-          find data -type f -print0 | xargs -0 -n1 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
+          find data -type f -print0 | xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
             file="$1"
             key="${file#./}"
             attempt=1

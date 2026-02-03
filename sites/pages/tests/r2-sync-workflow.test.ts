@@ -24,13 +24,27 @@ describe("r2 sync workflow", () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(text.includes("UPLOAD_CONCURRENCY")).toBe(true);
     expect(text.includes("UPLOAD_RETRIES")).toBe(true);
-    expect(text.includes("xargs -0 -n1 -P")).toBe(true);
+    expect(text.includes("xargs -0 -P")).toBe(true);
   });
 
   test("sync workflow enforces per-file upload timeouts", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(text.includes("UPLOAD_FILE_TIMEOUT")).toBe(true);
     expect(text.includes('timeout "$UPLOAD_FILE_TIMEOUT"')).toBe(true);
+  });
+
+  test("sync workflow exports retry settings for upload subshells", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes("export UPLOAD_CONCURRENCY")).toBe(true);
+    expect(text.includes("export UPLOAD_RETRIES")).toBe(true);
+    expect(text.includes("export UPLOAD_SLEEP_BASE")).toBe(true);
+    expect(text.includes("export UPLOAD_FILE_TIMEOUT")).toBe(true);
+  });
+
+  test("sync workflow avoids xargs -n with -I", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes("xargs -0 -P")).toBe(true);
+    expect(text.includes("xargs -0 -n1 -P")).toBe(false);
   });
 
   test("sync workflow commits data to the repository", async () => {
