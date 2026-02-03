@@ -155,6 +155,27 @@
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/screenshot/SKILL.md
 - type: skills
+  slug: openai-curated-security-best-practices
+  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-best-practices/SKILL.md
+  tags:
+    - openai
+    - source-openai-skills
+  upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md
+- type: skills
+  slug: openai-curated-security-ownership-map
+  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-ownership-map/SKILL.md
+  tags:
+    - openai
+    - source-openai-skills
+  upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-ownership-map/SKILL.md
+- type: skills
+  slug: openai-curated-security-threat-model
+  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-threat-model/SKILL.md
+  tags:
+    - openai
+    - source-openai-skills
+  upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-threat-model/SKILL.md
+- type: skills
   slug: openai-curated-sentry
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sentry/SKILL.md
   tags:
@@ -231,6 +252,13 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/gitlab-address-comments/SKILL.md
+- type: skills
+  slug: openai-experimental-wrapped
+  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/wrapped/SKILL.md
+  tags:
+    - openai
+    - source-openai-skills
+  upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/wrapped/SKILL.md
 - type: skills
   slug: openai-system-skill-creator
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-creator/SKILL.md
