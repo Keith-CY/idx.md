@@ -10,3 +10,94 @@
 - type: example
   slug: github-markup-readme
   source_url: https://raw.githubusercontent.com/github/markup/master/README.md
+- type: skills
+  slug: skills-sh-op7418-humanizer-zh-humanizer-zh
+  source_url: https://raw.githubusercontent.com/op7418/humanizer-zh/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/op7418/humanizer-zh/humanizer-zh
+- type: skills
+  slug: skills-sh-kadajett-agent-nestjs-skills-nestjs-best-practices
+  source_url: https://raw.githubusercontent.com/kadajett/agent-nestjs-skills/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practices
+- type: skills
+  slug: skills-sh-resend-resend-skills-resend
+  source_url: https://raw.githubusercontent.com/resend/resend-skills/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/resend/resend-skills/resend
+- type: skills
+  slug: skills-sh-emzod-speak-turbo-speakturbo-tts
+  source_url: https://raw.githubusercontent.com/emzod/speak-turbo/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/emzod/speak-turbo/speakturbo-tts
+- type: skills
+  slug: skills-sh-emzod-speak-speak-tts
+  source_url: https://raw.githubusercontent.com/emzod/speak/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/emzod/speak/speak-tts
+- type: skills
+  slug: skills-sh-pleaseprompto-notebooklm-skill-notebooklm
+  source_url: https://raw.githubusercontent.com/pleaseprompto/notebooklm-skill/master/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/pleaseprompto/notebooklm-skill/notebooklm
+- type: skills
+  slug: skills-sh-cclank-news-aggregator-skill-news-aggregator-skill
+  source_url: https://raw.githubusercontent.com/cclank/news-aggregator-skill/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/cclank/news-aggregator-skill/news-aggregator-skill
+- type: skills
+  slug: skills-sh-xenitv1-claude-code-maestro-maestro
+  source_url: https://raw.githubusercontent.com/xenitv1/claude-code-maestro/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/xenitv1/claude-code-maestro/maestro
+- type: skills
+  slug: skills-sh-lwmxiaobei-yt-dlp-skill-yt-dlp
+  source_url: https://raw.githubusercontent.com/lwmxiaobei/yt-dlp-skill/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/lwmxiaobei/yt-dlp-skill/yt-dlp
+- type: skills
+  slug: skills-sh-op7418-document-illustrator-skill-document-illustrator
+  source_url: https://raw.githubusercontent.com/op7418/document-illustrator-skill/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/op7418/document-illustrator-skill/document-illustrator
+- type: skills
+  slug: skills-sh-yizhiyanhua-ai-media-downloader-media-downloader
+  source_url: https://raw.githubusercontent.com/yizhiyanhua-ai/media-downloader/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/yizhiyanhua-ai/media-downloader/media-downloader
+- type: skills
+  slug: skills-sh-youmind-openlab-nano-banana-pro-prompts-recommend-skill-nano-banana-pro-prompts-recommend-skill
+  source_url: https://raw.githubusercontent.com/youmind-openlab/nano-banana-pro-prompts-recommend-skill/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommend-skill/nano-banana-pro-prompts-recommend-skill
+- type: skills
+  slug: skills-sh-zaferayan-skills-zafer-skills
+  source_url: https://raw.githubusercontent.com/zaferayan/skills/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/zaferayan/skills/zafer-skills
