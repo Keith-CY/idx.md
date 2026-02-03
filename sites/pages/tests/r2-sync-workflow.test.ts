@@ -27,6 +27,12 @@ describe("r2 sync workflow", () => {
     expect(text.includes("xargs -0 -n1 -P")).toBe(true);
   });
 
+  test("sync workflow enforces per-file upload timeouts", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes("UPLOAD_FILE_TIMEOUT")).toBe(true);
+    expect(text.includes('timeout "$UPLOAD_FILE_TIMEOUT"')).toBe(true);
+  });
+
   test("sync workflow commits data to the repository", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(text.includes("contents: write")).toBe(true);

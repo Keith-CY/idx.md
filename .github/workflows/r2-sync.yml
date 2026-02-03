@@ -58,19 +58,22 @@ jobs:
         run: |
           set -euo pipefail
           BUCKET="idx-md"
-          UPLOAD_CONCURRENCY="${UPLOAD_CONCURRENCY:-4}"
+          UPLOAD_CONCURRENCY="${UPLOAD_CONCURRENCY:-8}"
           UPLOAD_RETRIES="${UPLOAD_RETRIES:-5}"
           UPLOAD_SLEEP_BASE="${UPLOAD_SLEEP_BASE:-2}"
+          UPLOAD_FILE_TIMEOUT="${UPLOAD_FILE_TIMEOUT:-60}"
           if [ ! -d data ]; then
             echo "data/ missing"
             exit 1
           fi
+          total_files=$(find data -type f | wc -l | tr -d " ")
+          echo "Uploading ${total_files} files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
           find data -type f -print0 | xargs -0 -n1 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
             file="$1"
             key="${file#./}"
             attempt=1
             while true; do
-              if bunx wrangler r2 object put "$BUCKET/$key" --file "$file" --remote; then
+              if timeout "$UPLOAD_FILE_TIMEOUT" bunx wrangler r2 object put "$BUCKET/$key" --file "$file" --remote; then
                 exit 0
               fi
               if [ "$attempt" -ge "$UPLOAD_RETRIES" ]; then
