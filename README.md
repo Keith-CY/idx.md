@@ -2,6 +2,10 @@
 
 Markdown registry for AI agent libraries with indexed HEAD/BODY content.
 
+![idx.md cover](assets/og.png)
+
+OG image: [https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.png](https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.png)
+
 ## What this repo provides
 - A markdown-only index at `https://idx.md/index.md`
 - One topic per directory: `https://idx.md/{topic}` (HEAD) and `https://idx.md/{topic}/BODY.md`
