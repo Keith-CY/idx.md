@@ -62,6 +62,7 @@ jobs:
           UPLOAD_RETRIES="${UPLOAD_RETRIES:-5}"
           UPLOAD_SLEEP_BASE="${UPLOAD_SLEEP_BASE:-2}"
           UPLOAD_FILE_TIMEOUT="${UPLOAD_FILE_TIMEOUT:-60}"
+          export BUCKET
           export UPLOAD_CONCURRENCY
           export UPLOAD_RETRIES
           export UPLOAD_SLEEP_BASE

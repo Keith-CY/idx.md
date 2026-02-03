@@ -35,6 +35,7 @@ describe("r2 sync workflow", () => {
 
   test("sync workflow exports retry settings for upload subshells", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes("export BUCKET")).toBe(true);
     expect(text.includes("export UPLOAD_CONCURRENCY")).toBe(true);
     expect(text.includes("export UPLOAD_RETRIES")).toBe(true);
     expect(text.includes("export UPLOAD_SLEEP_BASE")).toBe(true);
