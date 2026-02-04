@@ -75,6 +75,30 @@ type RegistryFileResult =
   | { ok: true; sources: SourceEntry[]; label: string }
   | { ok: false; errors: string[]; missing: boolean; label: string };
 
+export function parseSourcesText(
+  raw: string,
+  label: string,
+): RegistryParseResult {
+  try {
+    const parsed = parse(raw);
+    const result = SourcesSchema.safeParse(parsed);
+    if (!result.success) {
+      const errors = result.error.issues.map((issue) => {
+        const path = issue.path.length ? issue.path.join(".") : "(root)";
+        return `${label} ${path}: ${issue.message}`;
+      });
+      return { ok: false, errors };
+    }
+    return { ok: true, sources: result.data };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    return {
+      ok: false,
+      errors: [`Failed to read or parse ${label}: ${message}`],
+    };
+  }
+}
+
 export async function loadSources(
   sourcesPaths?: URL | URL[],
 ): Promise<RegistryParseResult> {
@@ -123,7 +147,6 @@ export async function loadSources(
 }
 
 async function loadSourcesFile(sourcesPath: URL): Promise<RegistryFileResult> {
-  const errors: string[] = [];
   const label = sourcesPath.pathname || sourcesPath.toString();
 
   try {
@@ -139,21 +162,19 @@ async function loadSourcesFile(sourcesPath: URL): Promise<RegistryFileResult> {
     }
 
     const raw = await file.text();
-    const parsed = parse(raw);
-    const result = SourcesSchema.safeParse(parsed);
-
-    if (!result.success) {
-      for (const issue of result.error.issues) {
-        const path = issue.path.length ? issue.path.join(".") : "(root)";
-        errors.push(`${label} ${path}: ${issue.message}`);
-      }
-      return { ok: false, errors, missing: false, label };
+    const result = parseSourcesText(raw, label);
+    if (!result.ok) {
+      return { ok: false, errors: result.errors, missing: false, label };
     }
 
-    return { ok: true, sources: result.data, label };
+    return { ok: true, sources: result.sources, label };
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
-    errors.push(`Failed to read or parse ${label}: ${message}`);
-    return { ok: false, errors, missing: false, label };
+    return {
+      ok: false,
+      errors: [`Failed to read or parse ${label}: ${message}`],
+      missing: false,
+      label,
+    };
   }
 }

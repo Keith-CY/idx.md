@@ -7,13 +7,19 @@ import { DATA_ROOT } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
 import { validateSourceUrl } from "./lib/source-url";
 import {
+  migrateRemovedSourcesFromFiles,
+  readSourcesFileResult,
+} from "./lib/source-migration";
+import {
   buildRawUrl,
   buildSlug,
   buildSlugParts,
   filterSkillPaths,
 } from "./lib/obra-parse";
 
-const OUTPUT_PATH = resolve(repoRoot, "sources", "obra.yml");
+const SOURCES_DIR = resolve(repoRoot, "sources");
+const OUTPUT_PATH = resolve(SOURCES_DIR, "obra.yml");
+const GENERAL_PATH = resolve(SOURCES_DIR, "general.yml");
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-obra.md");
 const SOURCE_TYPE = "skills";
@@ -34,6 +40,15 @@ type ReportStats = {
   duplicatesSkipped: number;
   invalidSkipped: number;
   slugCollisions: number;
+};
+
+type MigrationStats = {
+  removedTotal: number;
+  reachable: number;
+  migrated: number;
+  duplicatesSkipped: number;
+  slugCollisions: number;
+  curlFailed: number;
 };
 
 type Rejection = { path: string; reason: string };
@@ -100,7 +115,11 @@ async function fetchJson(url: string): Promise<unknown | null> {
   }
 }
 
-function formatReport(stats: ReportStats, rejections: Rejection[]): string {
+function formatReport(
+  stats: ReportStats,
+  migration: MigrationStats,
+  rejections: Rejection[],
+): string {
   const timestamp = new Date().toISOString();
   const lines: string[] = [
     "# Obra ingest report",
@@ -111,6 +130,12 @@ function formatReport(stats: ReportStats, rejections: Rejection[]): string {
     `- Duplicates skipped: ${stats.duplicatesSkipped}`,
     `- Invalid skipped: ${stats.invalidSkipped}`,
     `- Slug collisions resolved: ${stats.slugCollisions}`,
+    `- Migration removed: ${migration.removedTotal}`,
+    `- Migration reachable: ${migration.reachable}`,
+    `- Migration migrated: ${migration.migrated}`,
+    `- Migration duplicates skipped: ${migration.duplicatesSkipped}`,
+    `- Migration curl failed: ${migration.curlFailed}`,
+    `- Migration slug collisions resolved: ${migration.slugCollisions}`,
     "",
     "## Rejections",
     "",
@@ -131,6 +156,11 @@ function formatReport(stats: ReportStats, rejections: Rejection[]): string {
   }
   lines.push("");
   return lines.join("\n");
+}
+
+const previousResult = await readSourcesFileResult(OUTPUT_PATH);
+if (!previousResult.ok && !previousResult.missing) {
+  throw new Error(previousResult.errors.join("\n"));
 }
 
 const repoJson = await fetchJson(REPO_API);
@@ -202,11 +232,18 @@ for (const path of paths) {
   });
 }
 
+const migration = await migrateRemovedSourcesFromFiles({
+  previousPath: OUTPUT_PATH,
+  nextEntries: entries,
+  generalPath: GENERAL_PATH,
+  sourcesDir: SOURCES_DIR,
+});
+
 const yaml = stringify(entries).trimEnd();
 await Bun.write(OUTPUT_PATH, `${HEADER}${yaml}\n`);
 
 await mkdir(REPORT_DIR, { recursive: true });
-await Bun.write(REPORT_PATH, formatReport(stats, rejections));
+await Bun.write(REPORT_PATH, formatReport(stats, migration.stats, rejections));
 
 console.log(`Obra paths scanned: ${stats.totalPaths}`);
 console.log(`Obra entries written: ${entries.length}`);
