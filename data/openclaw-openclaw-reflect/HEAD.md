@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sergical/reflect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:25.255Z
+retrieved_at: 2026-02-04T07:00:46.932Z
 content_sha256: 3cda3f3d4374c2e703d417ebf844bdbcc876f24db83dec65c4aae24d1d450f1b
 ---

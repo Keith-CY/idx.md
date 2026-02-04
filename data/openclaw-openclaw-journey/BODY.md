@@ -4,6 +4,25 @@ description: "Plan multi-waypoint journeys with route optimization, feasibility 
 metadata: {"clawdbot":{"emoji":"🗺️","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
 ---
 
+## Installation
+
+**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all 6 skills (query, places, relationship, context, route, journey) for comprehensive coverage.
+
+```bash
+# Install all skills from repo
+npx skills add https://github.com/barneyjm/camino-skills
+
+# Or install specific skills
+npx skills add https://github.com/barneyjm/camino-skills --skill journey
+```
+
+**Via clawhub:**
+```bash
+npx clawhub@latest install journey
+# or: pnpm dlx clawhub@latest install journey
+# or: bunx clawhub@latest install journey
+```
+
 # Journey - Multi-Stop Planning
 
 Plan multi-waypoint journeys with route optimization, feasibility analysis, and time budget constraints.

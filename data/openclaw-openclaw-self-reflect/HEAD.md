@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stevengonsalvez/self-reflect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:28.400Z
+retrieved_at: 2026-02-04T07:00:48.070Z
 content_sha256: 0d5c558e160854aa4000a4d8697033f573ef9c44a0989f3c2a82d0e9e850a21d
 ---

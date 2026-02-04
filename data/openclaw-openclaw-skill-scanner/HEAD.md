@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bvinci1-design/skill-scanner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:30.432Z
+retrieved_at: 2026-02-04T07:00:48.794Z
 content_sha256: 040682b9cb0b3f5ef94e71c0282a61d79449b553db00741b1d9801be2ed56329
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amanbhandula/agentarxiv/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:24.833Z
+retrieved_at: 2026-02-04T07:00:24.963Z
 content_sha256: 42624f7fb40ab1c251502ad93f641d41c8dfc7e2f7748ca21ae2df81688bb777
 ---

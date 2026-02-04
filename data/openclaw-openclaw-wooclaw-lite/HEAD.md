@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/magnum-opus-v1/wooclaw-lite/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:44.919Z
+retrieved_at: 2026-02-04T07:00:55.920Z
 content_sha256: fe652854c713dd24640a1b672bdb469d14905353211069a0415d82f9c38cd6a8
 ---

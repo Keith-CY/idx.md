@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ruslanlanket/avito/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:29.485Z
+retrieved_at: 2026-02-04T07:00:27.653Z
 content_sha256: c9a26a82abdfa1d4d2f1bb64e884277eb5797d21a464c8f5db30af2b177472d8
 ---

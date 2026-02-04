@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/keithvassallomt/openclaw-nextcloud/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:15.423Z
+retrieved_at: 2026-02-04T07:00:43.921Z
 content_sha256: 55aa4146eb9125749fec6d7ac8751d251636d722e5d0bdc0bcfcd5892c0b6445
 ---

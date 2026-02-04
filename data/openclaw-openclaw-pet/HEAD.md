@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/pet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:18.661Z
+retrieved_at: 2026-02-04T07:00:44.986Z
 content_sha256: 9818694ee30dfd6d76ff4f5813e11eac37d7e20693f4f396ab20feccbea562d6
 ---

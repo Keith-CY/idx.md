@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/victorcavero14/upload-post/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:39.819Z
+retrieved_at: 2026-02-04T07:00:53.060Z
 content_sha256: ea3c2ea404d406252628a860af995912029b0a5082f9622a3400cb3b3d7ef3af
 ---

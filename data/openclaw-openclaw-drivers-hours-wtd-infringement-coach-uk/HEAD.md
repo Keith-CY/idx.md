@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/drivers-hours-wtd-infringement-coach-uk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:47.971Z
+retrieved_at: 2026-02-04T07:00:33.947Z
 content_sha256: 0076e6a56ba39a069430b60827f282028dd4fa38a8092bffe13bae1a71cedd04
 ---

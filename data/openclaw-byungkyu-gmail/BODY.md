@@ -1,0 +1,280 @@
+---
+name: gmail
+description: |
+  Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail.
+compatibility: Requires network access and valid Maton API key
+metadata:
+  author: maton
+  version: "1.0"
+---
+
+# Gmail
+
+Access the Gmail API with managed OAuth authentication. Read, send, and manage emails, threads, labels, and drafts.
+
+## Quick Start
+
+```bash
+# List messages
+curl -s -X GET 'https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages?maxResults=10' \
+  -H 'Authorization: Bearer YOUR_API_KEY'
+```
+
+## Base URL
+
+```
+https://gateway.maton.ai/google-mail/{native-api-path}
+```
+
+Replace `{native-api-path}` with the actual Gmail API endpoint path. The gateway proxies requests to `gmail.googleapis.com` and automatically injects your OAuth token.
+
+## Authentication
+
+All requests require the Maton API key in the Authorization header:
+
+```
+Authorization: Bearer YOUR_API_KEY
+```
+
+**Environment Variable:** Set your API key as `MATON_API_KEY`:
+
+```bash
+export MATON_API_KEY="YOUR_API_KEY"
+```
+
+### Getting Your API Key
+
+1. Sign in or create an account at [maton.ai](https://maton.ai)
+2. Go to [maton.ai/settings](https://maton.ai/settings)
+3. Copy your API key
+
+## Connection Management
+
+Manage your Google OAuth connections at `https://ctrl.maton.ai`.
+
+### List Connections
+
+```bash
+curl -s -X GET 'https://ctrl.maton.ai/connections?app=google-mail&status=ACTIVE' \
+  -H 'Authorization: Bearer YOUR_API_KEY'
+```
+
+### Create Connection
+
+```bash
+curl -s -X POST 'https://ctrl.maton.ai/connections' \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer YOUR_API_KEY' \
+  -d '{"app": "google-mail"}'
+```
+
+### Get Connection
+
+```bash
+curl -s -X GET 'https://ctrl.maton.ai/connections/{connection_id}' \
+  -H 'Authorization: Bearer YOUR_API_KEY'
+```
+
+**Response:**
+```json
+{
+  "connection": {
+    "connection_id": "21fd90f9-5935-43cd-b6c8-bde9d915ca80",
+    "status": "ACTIVE",
+    "creation_time": "2025-12-08T07:20:53.488460Z",
+    "last_updated_time": "2026-01-31T20:03:32.593153Z",
+    "url": "https://connect.maton.ai/?session_token=...",
+    "app": "google-mail",
+    "metadata": {}
+  }
+}
+```
+
+Open the returned `url` in a browser to complete OAuth authorization.
+
+### Delete Connection
+
+```bash
+curl -s -X DELETE 'https://ctrl.maton.ai/connections/{connection_id}' \
+  -H 'Authorization: Bearer YOUR_API_KEY'
+```
+
+### Specifying Connection
+
+If you have multiple Gmail connections, specify which one to use with the `Maton-Connection` header:
+
+```bash
+curl -s -X GET 'https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages' \
+  -H 'Authorization: Bearer YOUR_API_KEY' \
+  -H 'Maton-Connection: 21fd90f9-5935-43cd-b6c8-bde9d915ca80'
+```
+
+If omitted, the gateway uses the default (oldest) active connection.
+
+## API Reference
+
+### List Messages
+
+```bash
+GET /google-mail/gmail/v1/users/me/messages?maxResults=10
+```
+
+With query filter:
+
+```bash
+GET /google-mail/gmail/v1/users/me/messages?q=is:unread&maxResults=10
+```
+
+### Get Message
+
+```bash
+GET /google-mail/gmail/v1/users/me/messages/{messageId}
+```
+
+With metadata only:
+
+```bash
+GET /google-mail/gmail/v1/users/me/messages/{messageId}?format=metadata&metadataHeaders=From&metadataHeaders=Subject&metadataHeaders=Date
+```
+
+### Send Message
+
+```bash
+POST /google-mail/gmail/v1/users/me/messages/send
+Content-Type: application/json
+
+{
+  "raw": "BASE64_ENCODED_EMAIL"
+}
+```
+
+### List Labels
+
+```bash
+GET /google-mail/gmail/v1/users/me/labels
+```
+
+### List Threads
+
+```bash
+GET /google-mail/gmail/v1/users/me/threads?maxResults=10
+```
+
+### Get Thread
+
+```bash
+GET /google-mail/gmail/v1/users/me/threads/{threadId}
+```
+
+### Modify Message Labels
+
+```bash
+POST /google-mail/gmail/v1/users/me/messages/{messageId}/modify
+Content-Type: application/json
+
+{
+  "addLabelIds": ["STARRED"],
+  "removeLabelIds": ["UNREAD"]
+}
+```
+
+### Trash Message
+
+```bash
+POST /google-mail/gmail/v1/users/me/messages/{messageId}/trash
+```
+
+### Create Draft
+
+```bash
+POST /google-mail/gmail/v1/users/me/drafts
+Content-Type: application/json
+
+{
+  "message": {
+    "raw": "BASE64URL_ENCODED_EMAIL"
+  }
+}
+```
+
+### Send Draft
+
+```bash
+POST /google-mail/gmail/v1/users/me/drafts/send
+Content-Type: application/json
+
+{
+  "id": "{draftId}"
+}
+```
+
+### Get Profile
+
+```bash
+GET /google-mail/gmail/v1/users/me/profile
+```
+
+## Query Operators
+
+Use in the `q` parameter:
+- `is:unread` - Unread messages
+- `is:starred` - Starred messages
+- `from:email@example.com` - From specific sender
+- `to:email@example.com` - To specific recipient
+- `subject:keyword` - Subject contains keyword
+- `after:2024/01/01` - After date
+- `before:2024/12/31` - Before date
+- `has:attachment` - Has attachments
+
+## Code Examples
+
+### JavaScript
+
+```javascript
+const response = await fetch(
+  'https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages?maxResults=10',
+  {
+    headers: {
+      'Authorization': `Bearer ${process.env.MATON_API_KEY}`
+    }
+  }
+);
+```
+
+### Python
+
+```python
+import os
+import requests
+
+response = requests.get(
+    'https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages',
+    headers={'Authorization': f'Bearer {os.environ["MATON_API_KEY"]}'},
+    params={'maxResults': 10, 'q': 'is:unread'}
+)
+```
+
+## Notes
+
+- Use `me` as userId for the authenticated user
+- Message body is base64url encoded in the `raw` field
+- Common labels: `INBOX`, `SENT`, `DRAFT`, `STARRED`, `UNREAD`, `TRASH`
+
+## Error Handling
+
+| Status | Meaning |
+|--------|---------|
+| 400 | Missing Gmail connection |
+| 401 | Invalid or missing Maton API key |
+| 429 | Rate limited (10 req/sec per account) |
+| 4xx/5xx | Passthrough error from Gmail API |
+
+## Resources
+
+- [Gmail API Overview](https://developers.google.com/gmail/api/reference/rest)
+- [List Messages](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/list)
+- [Get Message](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/get)
+- [Send Message](https://developers.google.com/gmail/api/reference/rest/v1/users.messages/send)
+- [List Threads](https://developers.google.com/gmail/api/reference/rest/v1/users.threads/list)
+- [List Labels](https://developers.google.com/gmail/api/reference/rest/v1/users.labels/list)
+- [Create Draft](https://developers.google.com/gmail/api/reference/rest/v1/users.drafts/create)

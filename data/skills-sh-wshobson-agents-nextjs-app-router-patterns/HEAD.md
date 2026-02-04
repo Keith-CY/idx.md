@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/reactjs/rfcs/main/text/0188-server-components.md
 license: ""
 upstream_ref: https://skills.sh/wshobson/agents/nextjs-app-router-patterns
-retrieved_at: 2026-02-03T18:12:14.515Z
+retrieved_at: 2026-02-04T07:00:19.100Z
 content_sha256: 69a2811dc897b66d94690243a13ab78146a998b8753087c97d14c78a38643575
 ---

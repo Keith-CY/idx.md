@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/smart-followups/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:31.070Z
-content_sha256: 452cf4cf8a47ffb2aa1aa4d7929146abc64ccdd70c35ef013d38bb54177090e8
+retrieved_at: 2026-02-04T07:00:48.977Z
+content_sha256: c9393e67be54fae901bb6d672afa2923d0a8fcbe83cd890de74cf77b9704004f
 ---

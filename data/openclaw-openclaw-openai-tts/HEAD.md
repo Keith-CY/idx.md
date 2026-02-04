@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/openai-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:14.821Z
+retrieved_at: 2026-02-04T07:00:43.713Z
 content_sha256: b9bc7aa496bfccb5ea3afa96fa4c7f1d7a7d23bfc3b7ddd04dc3be02c5db3b07
 ---

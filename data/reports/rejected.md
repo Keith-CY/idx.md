@@ -2,6 +2,8 @@
 
 | Reason | URL |
 | --- | --- |
+| Fetch failed (404 Not Found) | https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/html2pptx.md |
+| Fetch failed (404 Not Found) | https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/docx-js.md |
 | Fetch failed (404 Not Found) | https://raw.githubusercontent.com/othmanadi/planning-with-files/main/skills/planning-with-files/templates/task_plan.md |
 | Fetch failed (404 Not Found) | https://raw.githubusercontent.com/wshobson/agents/main/plugins/security-scanning/skills/sast-configuration/references/semgrep-rules.md |
 | Fetch failed (404 Not Found) | https://raw.githubusercontent.com/pproenca/dot-skills/main/skills/.curated/typescript/references/_sections.md |

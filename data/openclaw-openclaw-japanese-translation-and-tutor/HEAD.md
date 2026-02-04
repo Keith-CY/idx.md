@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsjaydesu/japanese-translation-and-tutor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:01.710Z
+retrieved_at: 2026-02-04T07:00:39.199Z
 content_sha256: d1d2a176af66e14eef86a04445493fd6e57798d57c0f432fffee878bf902eddf
 ---

@@ -4,6 +4,25 @@ description: "Get comprehensive context about a location including nearby places
 metadata: {"clawdbot":{"emoji":"📍","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
 ---
 
+## Installation
+
+**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all 6 skills (query, places, relationship, context, route, journey) for comprehensive coverage.
+
+```bash
+# Install all skills from repo
+npx skills add https://github.com/barneyjm/camino-skills
+
+# Or install specific skills
+npx skills add https://github.com/barneyjm/camino-skills --skill context
+```
+
+**Via clawhub:**
+```bash
+npx clawhub@latest install context
+# or: pnpm dlx clawhub@latest install context
+# or: bunx clawhub@latest install context
+```
+
 # Context - Location Analysis
 
 Get comprehensive context about a location including nearby places, area description, and optional weather.

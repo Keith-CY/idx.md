@@ -25,6 +25,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bguidolim/omnisearch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:14.497Z
+retrieved_at: 2026-02-04T07:00:43.610Z
 content_sha256: 9bf6408f1ad9c7357a7912f0a793c138ba2268338120204b52391555d5bfad59
 ---

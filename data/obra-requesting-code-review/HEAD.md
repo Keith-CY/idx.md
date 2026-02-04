@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-retrieved_at: 2026-02-03T18:13:50.861Z
+retrieved_at: 2026-02-04T07:01:00.691Z
 content_sha256: 2da31af22a58938ab78f3ee6d5b4687fcca062b923b646459eb52ba72117ef97
 ---

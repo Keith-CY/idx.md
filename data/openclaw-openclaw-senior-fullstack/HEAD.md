@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-fullstack/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:28.800Z
+retrieved_at: 2026-02-04T07:00:48.224Z
 content_sha256: 49626b216897e91319bb244b303b94d683d0e9a705284d84221055609cb99904
 ---

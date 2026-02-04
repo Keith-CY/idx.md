@@ -20,6 +20,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/creator-rights-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:44.291Z
+retrieved_at: 2026-02-04T07:00:32.833Z
 content_sha256: d1a5a83203d815cf77048d97e00ee3ab613089a6f18e2627b442213db7caba62
 ---

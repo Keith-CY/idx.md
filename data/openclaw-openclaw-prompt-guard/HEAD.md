@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seojoonkim/prompt-guard/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:22.458Z
+retrieved_at: 2026-02-04T07:00:46.059Z
 content_sha256: ee83351c5f3cadd46e68d274860fe8b7a1bfe03b67355a1750f96719f9a95b34
 ---

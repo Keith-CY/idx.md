@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/signup-flow-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:29.738Z
+retrieved_at: 2026-02-04T07:00:48.521Z
 content_sha256: d52fe97c2712260cbba0832e5747dcc6f189e131000be0df762abd7c85562812
 ---

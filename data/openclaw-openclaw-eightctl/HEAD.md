@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/eightctl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:48.785Z
+retrieved_at: 2026-02-04T07:00:34.274Z
 content_sha256: 1b9f4a871415be4d9d2bffbe454604359291bf528b07f202d4c1925786054028
 ---

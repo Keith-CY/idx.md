@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emasoudy/screen-monitor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:27.642Z
+retrieved_at: 2026-02-04T07:00:47.773Z
 content_sha256: e3fa4ab468d28ab38b7c4ea560d012a41d773ed113b0c654c511c2f9af43bee4
 ---

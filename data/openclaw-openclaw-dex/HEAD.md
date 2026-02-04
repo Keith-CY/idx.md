@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/dex/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:46.589Z
+retrieved_at: 2026-02-04T07:00:33.531Z
 content_sha256: 4829786b7b792c01f51bc479fa72e46680dfbddd8b7dbd14a1ca011c02466162
 ---

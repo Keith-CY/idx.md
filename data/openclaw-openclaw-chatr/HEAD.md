@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/netdragonx/chatr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:36.491Z
+retrieved_at: 2026-02-04T07:00:30.534Z
 content_sha256: 87855acc523c5885c0081b8e3c1ce565182582566588dbb85898cde2a0184ca7
 ---

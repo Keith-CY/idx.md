@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/mindfulness-meditation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:08.400Z
+retrieved_at: 2026-02-04T07:00:41.475Z
 content_sha256: 7c5161e20619f7a54e70255fd9377d94946c397b8f626187ffd3e5a4071ad929
 ---

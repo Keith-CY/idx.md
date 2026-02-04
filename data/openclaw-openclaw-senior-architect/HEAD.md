@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-architect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:28.600Z
+retrieved_at: 2026-02-04T07:00:48.180Z
 content_sha256: 469ef270e5752425be0a1779ee42d683c43a342c196bc5f5fe1092bce93cb214
 ---

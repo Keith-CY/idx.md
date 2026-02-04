@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/ripgrep/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:26.557Z
+retrieved_at: 2026-02-04T07:00:47.405Z
 content_sha256: d01fec5271bd212944b98ae9b3435024b6414f81e6822b9a24e2541b2e262a89
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oguzhaslak/molt-mouse/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:09.423Z
+retrieved_at: 2026-02-04T07:00:41.870Z
 content_sha256: 566fbe87952557cb9cde8d257d41185b4f6a847b6a1929206e0a3a00b662981b
 ---

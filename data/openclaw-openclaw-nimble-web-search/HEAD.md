@@ -23,6 +23,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ilchemla/nimble-web-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:12.701Z
+retrieved_at: 2026-02-04T07:00:43.024Z
 content_sha256: f858e506b9f106292ed01cc514df3eb24d59746a9bfede197ed9f8b520bf4f44
 ---

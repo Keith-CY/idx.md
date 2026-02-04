@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-request/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:41.876Z
+retrieved_at: 2026-02-04T07:00:32.051Z
 content_sha256: 259b659b4408abd0636f9e2f6e0492d93520fba74a60252dcd1499c9d78519d6
 ---

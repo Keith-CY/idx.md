@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/paolorollo/openclaw-sec/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:15.557Z
+retrieved_at: 2026-02-04T07:00:43.958Z
 content_sha256: 5553336ab1ca46073445f096e0399f4f7ef982911d0a1cc0b814d84a43fd18be
 ---

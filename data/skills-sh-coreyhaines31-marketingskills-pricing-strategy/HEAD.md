@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/pricing-strategy/references/tier-structure.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/pricing-strategy
-retrieved_at: 2026-02-03T18:12:12.520Z
+retrieved_at: 2026-02-04T07:00:18.006Z
 content_sha256: dec6eb26846fcb6fa67c1daca45438b1a7f5b2a526386e62c8bf5af3a5aea81c
 ---

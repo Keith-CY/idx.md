@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/debug-pro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:45.518Z
+retrieved_at: 2026-02-04T07:00:33.250Z
 content_sha256: 88d58b65a81f7ddaf8792716cfb1b44c585e66682e873c82aab3ac180f83fd68
 ---

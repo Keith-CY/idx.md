@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shhdwi/docstrange/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:47.257Z
+retrieved_at: 2026-02-04T07:00:33.712Z
 content_sha256: c844a2159d20cd8c6dd467b53b99b4d2cb0e91ae0e1ec922f867939db48a6ad5
 ---

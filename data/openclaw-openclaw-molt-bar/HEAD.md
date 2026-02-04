@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alonw0/molt-bar/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:09.214Z
+retrieved_at: 2026-02-04T07:00:41.798Z
 content_sha256: 2cecf35aa6e997b4741a3bf98618efe32c46270bd80e859d587a1daa59869f67
 ---

@@ -4,6 +4,25 @@ description: "Get detailed routing between two points with distance, duration, a
 metadata: {"clawdbot":{"emoji":"🧭","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
 ---
 
+## Installation
+
+**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all 6 skills (query, places, relationship, context, route, journey) for comprehensive coverage.
+
+```bash
+# Install all skills from repo
+npx skills add https://github.com/barneyjm/camino-skills
+
+# Or install specific skills
+npx skills add https://github.com/barneyjm/camino-skills --skill route
+```
+
+**Via clawhub:**
+```bash
+npx clawhub@latest install route
+# or: pnpm dlx clawhub@latest install route
+# or: bunx clawhub@latest install route
+```
+
 # Route - Point-to-Point Navigation
 
 Get detailed routing between two points with distance, duration, and optional turn-by-turn directions.

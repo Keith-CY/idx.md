@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gentrycopsy/ytmusic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:49.163Z
+retrieved_at: 2026-02-04T07:00:57.865Z
 content_sha256: b27c3cc80196f8b2b8d098356249c48787218081ac038e6175b1ae7c41f3ac28
 ---

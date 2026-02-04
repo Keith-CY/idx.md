@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/basal-ganglia-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:30.516Z
+retrieved_at: 2026-02-04T07:00:28.202Z
 content_sha256: 13977bed29b4051babc9415a5e7c98ce0fcee1dfc875c3515dc7892e89755d1c
 ---

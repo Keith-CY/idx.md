@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zsvedic/gembox-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:54.098Z
+retrieved_at: 2026-02-04T07:00:36.278Z
 content_sha256: 0138cfc7a83377eed97a36737f02a7f08d2412b375c17f86a53623763279969a
 ---

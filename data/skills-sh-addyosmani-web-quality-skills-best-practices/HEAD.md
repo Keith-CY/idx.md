@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/main/skills/web-quality-audit/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/addyosmani/web-quality-skills/best-practices
-retrieved_at: 2026-02-03T18:12:18.464Z
+retrieved_at: 2026-02-04T07:00:21.253Z
 content_sha256: aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01
 ---

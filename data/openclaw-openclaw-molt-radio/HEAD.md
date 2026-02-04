@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fciaf420/molt-radio/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:09.460Z
-content_sha256: d7f88eb055e1d17b2af01b003f82b27890a0a4ef83d8c1c8dd6baff9a49d0cf0
+retrieved_at: 2026-02-04T07:00:41.880Z
+content_sha256: 8a0e5d59520d216693672279bd2d010eb6f96e8ce9c3e539682df584d308e179
 ---

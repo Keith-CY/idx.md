@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/depression-support/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:46.057Z
+retrieved_at: 2026-02-04T07:00:33.427Z
 content_sha256: 773918919f7dc561ae0eeeff45ed5a58a272d5aff6df7c09c36a884763698528
 ---

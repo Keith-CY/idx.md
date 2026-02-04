@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/main/skills/n8n-workflow-patterns/webhook_processing.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-workflow-patterns
-retrieved_at: 2026-02-03T18:12:18.250Z
+retrieved_at: 2026-02-04T07:00:21.148Z
 content_sha256: 03174d27d0e25884c3171de8dff99927932e64ed93a9520625a960800742770d
 ---

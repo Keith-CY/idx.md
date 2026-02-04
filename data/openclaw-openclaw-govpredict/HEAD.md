@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/govpredict/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:57.234Z
+retrieved_at: 2026-02-04T07:00:37.589Z
 content_sha256: b06f97adb3625fe1bdbe2a6799148a675cd3cb26a1f564f297e0f122d6c80a73
 ---

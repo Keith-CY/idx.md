@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetration-testing
-retrieved_at: 2026-02-03T18:12:20.811Z
+retrieved_at: 2026-02-04T07:00:22.534Z
 content_sha256: bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff
 ---

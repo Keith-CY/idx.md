@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/main/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/resources/IR_EXAMPLES.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/spec-to-code-compliance
-retrieved_at: 2026-02-03T18:12:18.015Z
+retrieved_at: 2026-02-04T07:00:21.014Z
 content_sha256: 053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec
 ---

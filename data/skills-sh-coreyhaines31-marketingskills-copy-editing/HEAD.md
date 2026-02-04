@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/copy-editing/references/plain-english-alternatives.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copy-editing
-retrieved_at: 2026-02-03T18:12:12.674Z
+retrieved_at: 2026-02-04T07:00:18.097Z
 content_sha256: 491c34b011de82617613a558ce609ff7ba8fd92554ac90b4c5b4db2ab0aef62e
 ---

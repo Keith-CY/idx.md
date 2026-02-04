@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/carlulsoe/parakeet-stt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:17.733Z
+retrieved_at: 2026-02-04T07:00:44.759Z
 content_sha256: b7e010a68292d4bfbf8c418a3f822a79c32418e11b398368111a6095f87b93ab
 ---

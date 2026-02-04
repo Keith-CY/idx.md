@@ -4,6 +4,25 @@ description: "Locate places using flexible query formats - free-form search or s
 metadata: {"clawdbot":{"emoji":"📌","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
 ---
 
+## Installation
+
+**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all 6 skills (query, places, relationship, context, route, journey) for comprehensive coverage.
+
+```bash
+# Install all skills from repo
+npx skills add https://github.com/barneyjm/camino-skills
+
+# Or install specific skills
+npx skills add https://github.com/barneyjm/camino-skills --skill places
+```
+
+**Via clawhub:**
+```bash
+npx clawhub@latest install places
+# or: pnpm dlx clawhub@latest install places
+# or: bunx clawhub@latest install places
+```
+
 # Places - Flexible Place Lookup
 
 Locate places using free-form queries or structured address components. Supports geocoding, place lookup, and optional street-level imagery.

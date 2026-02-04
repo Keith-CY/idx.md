@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vburojevic/instapaper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:00.824Z
+retrieved_at: 2026-02-04T07:00:38.950Z
 content_sha256: 03b71d0007f644fd702f7c4cb4caf0154cffa98279808bcc14741f37bc5cde25
 ---

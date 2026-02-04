@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/langgenius/dify/main/.agents/skills/frontend-code-review/references/code-quality.md
 license: ""
 upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
-retrieved_at: 2026-02-03T18:12:14.850Z
+retrieved_at: 2026-02-04T07:00:19.329Z
 content_sha256: b67ba50627f957bce3c6f67cd96e186485d48f3c6636267fbad1e0aba8f521fa
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bobrenze-bot/commit-analyzer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:41.982Z
+retrieved_at: 2026-02-04T07:00:32.085Z
 content_sha256: a7a580344e44bec14b083d6491389965476baf70485af0dcb5847720239a1ec7
 ---

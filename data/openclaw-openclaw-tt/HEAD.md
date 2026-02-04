@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rafay0313/tt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:38.457Z
+retrieved_at: 2026-02-04T07:00:52.300Z
 content_sha256: d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58
 ---

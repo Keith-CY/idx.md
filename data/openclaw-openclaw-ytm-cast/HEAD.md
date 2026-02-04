@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aidanthebandit/ytm-cast/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:49.112Z
+retrieved_at: 2026-02-04T07:00:57.834Z
 content_sha256: 42a279ae2730ab40edd22511ec558cb6cf1b10e65c11a656b37525c04f45afe1
 ---

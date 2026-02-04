@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/promptify-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:22.593Z
+retrieved_at: 2026-02-04T07:00:46.096Z
 content_sha256: e43a975e2499ca856bf04971326e2c5685394d69c255e7267731d10e882b5fa9
 ---

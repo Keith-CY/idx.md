@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/michaelgathara/youtube-watcher/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:48.662Z
+retrieved_at: 2026-02-04T07:00:57.659Z
 content_sha256: 89b97c95ce71f719f2d97e4cb7657217f4a85afbb66ee5e9dbafa39b71bcdb39
 ---

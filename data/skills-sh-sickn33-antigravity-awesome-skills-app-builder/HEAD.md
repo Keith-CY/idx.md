@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/app-builder/templates/nextjs-fullstack/TEMPLATE.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/app-builder
-retrieved_at: 2026-02-03T18:12:19.630Z
+retrieved_at: 2026-02-04T07:00:21.859Z
 content_sha256: ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c
 ---

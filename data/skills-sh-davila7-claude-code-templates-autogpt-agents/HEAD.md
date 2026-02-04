@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-autogpt/references/advanced-usage.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/autogpt-agents
-retrieved_at: 2026-02-03T18:12:21.491Z
+retrieved_at: 2026-02-04T07:00:22.943Z
 content_sha256: e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b
 ---

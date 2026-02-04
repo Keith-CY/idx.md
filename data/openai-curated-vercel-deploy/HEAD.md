@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/vercel-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-deploy/SKILL.md
-retrieved_at: 2026-02-03T18:12:11.512Z
+retrieved_at: 2026-02-04T07:00:17.406Z
 content_sha256: bb45d7d5699717f7b477ec17b8f9a426b1a6a20c96741e2e0f6abaa68a7d773f
 ---

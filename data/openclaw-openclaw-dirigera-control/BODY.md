@@ -1,6 +1,6 @@
 ---
 name: dirigera-control
-description: Control IKEA Dirigera smart home devices (lights, outlets, scenes, controllers). Use when the user asks to control smart home devices, check device status, turn lights on/off, adjust brightness/color, control outlets, trigger scenes, check battery levels, or work with IKEA smart home automation. Accessible via Cloudflare tunnel on VPS.
+description: Control IKEA Dirigera smart home devices (lights, outlets, scenes, controllers). Use when the user asks to control smart home devices, check device status, turn lights on/off, adjust brightness/color, control outlets, trigger scenes, check battery levels, or work with IKEA smart home automation. Also use when the user needs help finding the Dirigera hub IP address or generating an API token. Accessible via Cloudflare tunnel on VPS.
 ---
 
 # IKEA Dirigera Smart Home Control
@@ -12,6 +12,51 @@ Control lights, outlets, scenes, and other IKEA smart home devices through the D
 ```python
 pip install dirigera
 ```
+
+## Hub Setup
+
+### Find Hub IP
+
+Check the router/DHCP client list for "Dirigera" and note its IP address.
+
+If the agent is on the same LAN, try the IP discovery script. It can:
+1. Scan the subnet for likely candidates (no token required).
+2. Verify the exact hub IP if a token is available.
+3. As a last resort, try `generate-token` against candidates (interactive).
+
+```bash
+python scripts/find_dirigera_ip.py
+# or
+python scripts/find_dirigera_ip.py --subnet 192.168.1.0/24
+# verify with token (if you have it)
+python scripts/find_dirigera_ip.py --token <dirigera-token>
+# last resort: try generate-token against candidates
+python scripts/find_dirigera_ip.py --try-generate-token
+```
+
+### Generate Token
+
+Run the included token generator with the hub IP address:
+
+```bash
+generate-token <dirigera-ip-address>
+```
+
+When prompted:
+1. Press the action button on the bottom of the Dirigera hub.
+2. Press `ENTER` in the terminal.
+3. Copy the printed token for use in `dirigera.Hub(...)`.
+
+### Troubleshooting
+
+If you cannot find the hub IP address:
+
+1. Check the router/DHCP list and look for "Dirigera".
+2. If the name is missing, match the hub's MAC address label to a new device entry.
+3. Ensure the hub and client are on the same network.
+4. If you have candidate IPs, run `generate-token` against them until one succeeds.
+5. If you already have a token, run `python scripts/find_dirigera_ip.py --token <dirigera-token>`.
+6. If everything else fails, run `python scripts/find_dirigera_ip.py --try-generate-token` and follow the prompt.
 
 ## Hub Connection
 

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/audiopod/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:29.076Z
+retrieved_at: 2026-02-04T07:00:27.430Z
 content_sha256: 69a9bd12d3b17f43a09d0fcf4a47aad5dda7ac41244833b32eff1961feda9146
 ---

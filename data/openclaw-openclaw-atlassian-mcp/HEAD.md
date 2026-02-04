@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atakanermis/atlassian-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:28.698Z
+retrieved_at: 2026-02-04T07:00:27.184Z
 content_sha256: 8052a44096cdf9de260c1e0f8bf1d24b3ed9d332acc66c6da5cee31ccf484207
 ---

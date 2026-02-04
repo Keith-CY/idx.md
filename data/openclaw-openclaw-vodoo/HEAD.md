@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julian-r/vodoo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:41.527Z
+retrieved_at: 2026-02-04T07:00:54.044Z
 content_sha256: 50cd2f692f8e5587d23cfb871081c0c19fa871219332b17329fa9fc16c1f2736
 ---

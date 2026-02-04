@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnlewis/agent-arcade/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:23.455Z
+retrieved_at: 2026-02-04T07:00:24.222Z
 content_sha256: 8c1944bbdf2b630b6133bf3a3169548355f60891cfe9e12594f43b97027662cd
 ---

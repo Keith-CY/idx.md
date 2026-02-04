@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/moltbook-registry/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:09.622Z
+retrieved_at: 2026-02-04T07:00:41.956Z
 content_sha256: 7ffbb54e871a49ac07bab9bfd336fbae3aa05901c2c0374fda98807fdb49bb4f
 ---

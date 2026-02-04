@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ipavlidakis/xcodebuildmcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:46.871Z
+retrieved_at: 2026-02-04T07:00:56.662Z
 content_sha256: 9c32abd1b29eb8752c285ff933340076af1bd87aa693eb7eb7feb93b02ce6642
 ---

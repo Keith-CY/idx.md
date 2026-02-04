@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gtrusler/clawdbot-security-suite/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:38.687Z
+retrieved_at: 2026-02-04T07:00:31.103Z
 content_sha256: 77fd5feae52d0f7ef2adaaac101bfd1732b46fab84f7d8bee375740ced1d3c0d
 ---

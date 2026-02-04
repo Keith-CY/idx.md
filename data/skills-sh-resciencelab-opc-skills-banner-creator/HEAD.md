@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/main/skills/banner-creator/references/formats.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
-retrieved_at: 2026-02-03T18:12:20.870Z
+retrieved_at: 2026-02-04T07:00:22.560Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---

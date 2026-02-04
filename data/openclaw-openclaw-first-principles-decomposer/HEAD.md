@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/first-principles-decomposer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:52.390Z
+retrieved_at: 2026-02-04T07:00:35.617Z
 content_sha256: 0482fe6979ff37597309058d6e97b28436c6dec71c19feccd46397fe2c9777f2
 ---

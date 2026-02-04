@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aerialcombat/cloud-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:41.087Z
+retrieved_at: 2026-02-04T07:00:31.771Z
 content_sha256: ade52b37bd9dee188d39bca2462092564e0a6357230f058a8902f9bf1f98dcbd
 ---

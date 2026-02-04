@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-signals/references/signal-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-signals
-retrieved_at: 2026-02-03T18:12:15.862Z
+retrieved_at: 2026-02-04T07:00:19.856Z
 content_sha256: c1ec67a9697f3c8f405a3fef91d774e79bd064f974d6fdad9c283f326349954a
 ---

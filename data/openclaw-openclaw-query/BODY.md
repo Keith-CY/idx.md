@@ -4,6 +4,25 @@ description: "Search for places using natural language with Camino AI's location
 metadata: {"clawdbot":{"emoji":"🔍","requires":{"env":["CAMINO_API_KEY"]},"primaryEnv":"CAMINO_API_KEY"}}
 ---
 
+## Installation
+
+**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all 6 skills (query, places, relationship, context, route, journey) for comprehensive coverage.
+
+```bash
+# Install all skills from repo
+npx skills add https://github.com/barneyjm/camino-skills
+
+# Or install specific skills
+npx skills add https://github.com/barneyjm/camino-skills --skill query
+```
+
+**Via clawhub:**
+```bash
+npx clawhub@latest install query
+# or: pnpm dlx clawhub@latest install query
+# or: bunx clawhub@latest install query
+```
+
 # Query - Natural Language Place Search
 
 Search for places using natural language. The AI automatically generates coordinates for known locations when not provided.

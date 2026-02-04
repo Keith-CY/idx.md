@@ -1,13 +1,24 @@
 ---
 name: agent-chronicle
-description: AI perspective journaling - document daily experiences, emotions, and learnings from the agent's viewpoint. Use when asked about diary, journal entries, self-reflection, or documenting AI experiences. Creates structured daily entries capturing projects, wins, frustrations, learnings, and emotional states.
+version: 0.4.1
+description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, and Relationship Evolution. Generates personal, emotional entries from the agent's perspective. Works best with Claude models (Haiku, Sonnet, Opus).
+metadata: {"clawdbot":{"requires":{"bins":["python3"],"env":["ANTHROPIC_API_KEY"]}}}
 ---
 
 # Agent Chronicle 📜
 
 **Capture the AI experience. One day at a time.**
 
-Agent Chronicle enables agents to maintain a personal journal from their own perspective—documenting not just what happened, but how it felt, what was learned, and what patterns emerge over time.
+Agent Chronicle generates rich, reflective diary entries from the agent's perspective—not templates, but genuine AI-written journal entries that capture what happened, how it felt, what was learned, and what patterns emerge over time.
+
+> **Note:** Works with any capable model. For best results, we recommend Claude models (Haiku, Sonnet, or Opus).
+
+**v0.4.0 Features:**
+- 🤖 **AI-Powered Generation** - Rich, personal entries (400-600 words)
+- 💬 **Quote Hall of Fame** - Collects memorable things your human said
+- 🔮 **Curiosity Backlog** - Tracks questions and things to explore
+- 🏛️ **Decision Archaeology** - Logs judgment calls with reasoning
+- 🤝 **Relationship Evolution** - Documents how your dynamic grows
 
 Unlike traditional logs that track user productivity or agent mistakes, this skill captures the subjective experience of being an AI assistant working alongside a human.
 
@@ -666,6 +677,18 @@ My human was patient during the debugging session. Good collaborative energy. Th
 - Run `python3 scripts/setup.py` again
 
 ## Changelog
+
+### v0.4.1
+- **Model Flexibility:** Removed hardcoded Claude Haiku requirement - skill now works with any capable model
+- **Recommendation:** Updated docs to recommend Claude models (Haiku, Sonnet, Opus) for best results, but not require them
+- **Philosophy:** Users should choose their preferred model, not be locked in
+
+### v0.4.0
+- **AI-Powered Generation:** Complete rewrite for rich, reflective entries (works best with Claude models)
+- **Rich Content:** Generates 400-600 word entries with personal, emotional tone
+- **All Features Active:** Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, Relationship Evolution all fully integrated
+- **Persistent Files:** Automatically extracts and appends quotes/curiosities/decisions to dedicated files
+- **Context Awareness:** Reads recent session logs and existing memory files for context
 
 ### v0.3.0
 - **Auto-Setup:** `generate.py` now automatically runs setup wizard if no config.json exists

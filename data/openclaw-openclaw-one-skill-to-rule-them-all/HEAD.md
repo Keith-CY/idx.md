@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hichana/one-skill-to-rule-them-all/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:14.569Z
+retrieved_at: 2026-02-04T07:00:43.648Z
 content_sha256: dc659973e045ca58bedcee76a9fa68f6b189aa9669a07c00867ff0703d0c1895
 ---

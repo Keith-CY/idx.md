@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/render-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/render-deploy/SKILL.md
-retrieved_at: 2026-02-03T18:12:10.932Z
+retrieved_at: 2026-02-04T07:00:17.059Z
 content_sha256: c17c75adeb1834ed5cee1e440a651ae476c4101cd63762fcd9a58eada917552d
 ---

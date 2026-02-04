@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/bat-cat/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:30.717Z
+retrieved_at: 2026-02-04T07:00:28.258Z
 content_sha256: 3ac2879a4591a2baaddc1ba0a98f488cf35603bcf3f67c5a365688729d4e7915
 ---

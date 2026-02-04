@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/big-roman123/sales-bot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:27.257Z
+retrieved_at: 2026-02-04T07:00:47.644Z
 content_sha256: 123af6dc59ad21ad1f5bbb106814cf2cbe0b324d4a77ac9edd396a562bc2959d
 ---

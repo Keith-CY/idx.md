@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peterw/localrank-agent-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:05.801Z
+retrieved_at: 2026-02-04T07:00:40.549Z
 content_sha256: 03fba345d43bb2401629ced12a5999a3a72c701ad8e59a95521535c6f5f18a22
 ---

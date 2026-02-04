@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/phiro56/aura/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:29.133Z
+retrieved_at: 2026-02-04T07:00:27.455Z
 content_sha256: ec253d5044dc0227bd1b28c0fe695b31d8f55426df1173a7c2335e1d7b03f0ed
 ---

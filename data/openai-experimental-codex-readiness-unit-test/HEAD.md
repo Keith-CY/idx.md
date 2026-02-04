@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/codex-readiness-unit-test/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/codex-readiness-unit-test/SKILL.md
-retrieved_at: 2026-02-03T18:12:11.674Z
+retrieved_at: 2026-02-04T07:00:17.489Z
 content_sha256: 691877b98465cb2244cdc584a429925b95c4a027d375f787ec5411f0599376dc
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enderfga/claude-code-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:37.098Z
+retrieved_at: 2026-02-04T07:00:30.644Z
 content_sha256: 1f1770b8b238e92f4b5ed50e5bdb201179b838ad570ce26382d750be3ead389c
 ---

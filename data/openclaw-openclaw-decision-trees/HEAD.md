@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/evgyur/decision-trees/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:12:45.572Z
+retrieved_at: 2026-02-04T07:00:33.278Z
 content_sha256: 12a6190b2d4226955b4313671c418813c005e86de4da3ef23f2275aeb1cf528b
 ---

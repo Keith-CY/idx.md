@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kaiofreitas/lg-thinq/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-03T18:13:04.656Z
+retrieved_at: 2026-02-04T07:00:40.130Z
 content_sha256: bb08c94fc1b9e1c0bcc1d25670ca412deb667bce676ba59b60c74f1f19e5209a
 ---
