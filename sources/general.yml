@@ -101,3 +101,18 @@
     - skills-sh
     - skills-sh-probed
   upstream_ref: https://skills.sh/zaferayan/skills/zafer-skills
+- type: skills
+  slug: moltbook-skill
+  source_url: https://moltbook.com/skill.md
+- type: skills
+  slug: agentskills-skill
+  source_url: https://agentskills.io/skill.md
+- type: skills
+  slug: mintlify-skill
+  source_url: https://www.mintlify.com/docs/skill.md
+- type: skills
+  slug: pinchboard-skill
+  source_url: https://pinchboard.up.railway.app/skill.md
+- type: skills
+  slug: openclaw-docs-skill
+  source_url: https://docs.openclaw.ai/skill.md
