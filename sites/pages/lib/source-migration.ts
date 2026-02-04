@@ -77,7 +77,13 @@ export async function planGeneralMigration(opts: {
       continue;
     }
 
-    const check = await opts.checkUrl(entry.source_url);
+    let check: UrlCheckResult;
+    try {
+      check = await opts.checkUrl(entry.source_url);
+    } catch {
+      stats.curlFailed += 1;
+      continue;
+    }
     if (!check.ok) {
       stats.curlFailed += 1;
       continue;

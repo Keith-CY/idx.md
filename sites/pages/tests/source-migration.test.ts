@@ -38,6 +38,28 @@ describe("source migration", () => {
     expect(result.stats.duplicatesSkipped).toBe(1);
   });
 
+  test("planGeneralMigration treats checkUrl throws as curlFailed", async () => {
+    const removed = [
+      baseEntry({ source_url: "https://fail.com/skill.md", slug: "fail" }),
+      baseEntry({ source_url: "https://ok.com/skill.md", slug: "ok" }),
+    ];
+    const result = await planGeneralMigration({
+      removed,
+      generalEntries: [],
+      existingUrls: new Set(),
+      checkUrl: async (url) => {
+        if (url.includes("fail")) {
+          throw new Error("network error");
+        }
+        return { ok: true, status: 200 };
+      },
+    });
+    expect(result.stats.curlFailed).toBe(1);
+    expect(result.stats.reachable).toBe(1);
+    expect(result.added).toHaveLength(1);
+    expect(result.added[0]?.source_url).toBe("https://ok.com/skill.md");
+  });
+
   test("planGeneralMigration resolves slug collisions with hash suffix", async () => {
     const removed = [
       baseEntry({ source_url: "https://c.com/skill.md", slug: "dupe" }),
