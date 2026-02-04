@@ -22,53 +22,58 @@ describe("pages tooling paths", () => {
 
   test("ingest writes to sources and data reports", async () => {
     const text = await readText("sites/pages/ingest-openclaw.ts");
-    expect(text.includes('resolve(repoRoot, "sources", "openclaw.yml")')).toBe(
+    expect(text.includes('resolve(SOURCES_DIR, "openclaw.yml")')).toBe(
       true,
     );
     expect(
       text.includes('resolve(DATA_ROOT, "reports", "ingest-openclaw.md")'),
     ).toBe(true);
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
+    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
   });
 
   test("skills.sh ingest writes to sources and data reports", async () => {
     const text = await readText("sites/pages/ingest-skills-sh.ts");
-    expect(text.includes('resolve(repoRoot, "sources", "skills-sh.yml")')).toBe(
+    expect(text.includes('resolve(SOURCES_DIR, "skills-sh.yml")')).toBe(
       true,
     );
     expect(
       text.includes('resolve(DATA_ROOT, "reports", "ingest-skills-sh.md")'),
     ).toBe(true);
+    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
   });
 
   test("openai ingest writes to sources and data reports", async () => {
     const text = await readText("sites/pages/ingest-openai.ts");
-    expect(text.includes('resolve(repoRoot, "sources", "openai.yml")')).toBe(
+    expect(text.includes('resolve(SOURCES_DIR, "openai.yml")')).toBe(
       true,
     );
     expect(text.includes('resolve(DATA_ROOT, "reports", "ingest-openai.md")')).toBe(
       true,
     );
+    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
   });
 
   test("obra ingest writes to sources and data reports", async () => {
     const text = await readText("sites/pages/ingest-obra.ts");
-    expect(text.includes('resolve(repoRoot, "sources", "obra.yml")')).toBe(
+    expect(text.includes('resolve(SOURCES_DIR, "obra.yml")')).toBe(
       true,
     );
     expect(text.includes('resolve(DATA_ROOT, "reports", "ingest-obra.md")')).toBe(
       true,
     );
+    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
   });
 
   test("ibelick ingest writes to sources and data reports", async () => {
     const text = await readText("sites/pages/ingest-ibelick.ts");
-    expect(text.includes('resolve(repoRoot, "sources", "ibelick.yml")')).toBe(
+    expect(text.includes('resolve(SOURCES_DIR, "ibelick.yml")')).toBe(
       true,
     );
     expect(
       text.includes('resolve(DATA_ROOT, "reports", "ingest-ibelick.md")'),
     ).toBe(true);
+    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
   });
 
   test("agent skill onboarding mentions index and body paths", async () => {
