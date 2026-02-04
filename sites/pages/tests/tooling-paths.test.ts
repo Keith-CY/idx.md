@@ -5,6 +5,8 @@ async function readText(path: string): Promise<string> {
 }
 
 describe("pages tooling paths", () => {
+  const migrationCall = /\bawait\s+migrateRemovedSourcesFromFiles\s*\(/;
+
   test("build writes outputs under data/", async () => {
     const text = await readText("sites/pages/build.ts");
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
@@ -29,7 +31,7 @@ describe("pages tooling paths", () => {
       text.includes('resolve(DATA_ROOT, "reports", "ingest-openclaw.md")'),
     ).toBe(true);
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
-    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
+    expect(migrationCall.test(text)).toBe(true);
   });
 
   test("skills.sh ingest writes to sources and data reports", async () => {
@@ -40,7 +42,7 @@ describe("pages tooling paths", () => {
     expect(
       text.includes('resolve(DATA_ROOT, "reports", "ingest-skills-sh.md")'),
     ).toBe(true);
-    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
+    expect(migrationCall.test(text)).toBe(true);
   });
 
   test("openai ingest writes to sources and data reports", async () => {
@@ -51,7 +53,7 @@ describe("pages tooling paths", () => {
     expect(text.includes('resolve(DATA_ROOT, "reports", "ingest-openai.md")')).toBe(
       true,
     );
-    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
+    expect(migrationCall.test(text)).toBe(true);
   });
 
   test("obra ingest writes to sources and data reports", async () => {
@@ -62,7 +64,7 @@ describe("pages tooling paths", () => {
     expect(text.includes('resolve(DATA_ROOT, "reports", "ingest-obra.md")')).toBe(
       true,
     );
-    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
+    expect(migrationCall.test(text)).toBe(true);
   });
 
   test("ibelick ingest writes to sources and data reports", async () => {
@@ -73,7 +75,7 @@ describe("pages tooling paths", () => {
     expect(
       text.includes('resolve(DATA_ROOT, "reports", "ingest-ibelick.md")'),
     ).toBe(true);
-    expect(text.includes("migrateRemovedSourcesFromFiles")).toBe(true);
+    expect(migrationCall.test(text)).toBe(true);
   });
 
   test("agent skill onboarding mentions index and body paths", async () => {
