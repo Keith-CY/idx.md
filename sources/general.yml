@@ -116,3 +116,27 @@
 - type: skills
   slug: openclaw-docs-skill
   source_url: https://docs.openclaw.ai/skill.md
+- type: skills
+  slug: openclaw-byungkyu-gmail
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byungkyu/gmail/SKILL.md
+- type: skills
+  slug: openclaw-mrgoodb-google-drive
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/google-drive/SKILL.md
+- type: skills
+  slug: openclaw-shaharsha-google-maps
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shaharsha/google-maps/SKILL.md
+- type: skills
+  slug: openclaw-mrgoodb-zendesk
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/zendesk/SKILL.md
+- type: skills
+  slug: openclaw-mrgoodb-intercom
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/intercom/SKILL.md
+- type: skills
+  slug: openclaw-mrgoodb-shopify
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/shopify/SKILL.md
+- type: skills
+  slug: openclaw-0xterrybit-stripe
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/0xterrybit/stripe/SKILL.md
+- type: skills
+  slug: openclaw-mrgoodb-twilio
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/twilio/SKILL.md
