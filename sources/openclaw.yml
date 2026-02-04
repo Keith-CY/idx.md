@@ -1296,15 +1296,6 @@
     - source-awesome-openclaw-skills
     - category-ai-llms
 - type: skills
-  slug: openclaw-openclaw-auto-updater
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maximeprades/auto-updater/SKILL.md
-  title: auto-updater
-  summary: Automatically update Clawdbot and all installed skills once daily.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-clawdbot-tools
-- type: skills
   slug: openclaw-openclaw-autofillin
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leohan123123/autofillin/SKILL.md
   title: autofillin
@@ -2828,27 +2819,9 @@
     - category-productivity-tasks
 - type: skills
   slug: openclaw-openclaw-clawhub
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zaycv/clawhub/SKILL.md
-  title: clawhub
-  summary: Use ClawHub CLI to search, install, update, and publish agent skills from clawhub.ai with advanced caching and compre.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-search-research
-- type: skills
-  slug: openclaw-openclaw-clawhub-4eec30fa
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/ClawHub/SKILL.md
   title: ClawHub
   summary: Use the ClawHub CLI to search, install, update, and publish agent skills from ClawHub.com.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-clawdbot-tools
-- type: skills
-  slug: openclaw-openclaw-clawhub-8e0f6cc8
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/clawhub/SKILL.md
-  title: clawhub
-  summary: clawhub
   tags:
     - openclaw
     - source-awesome-openclaw-skills
@@ -5850,15 +5823,6 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-browser-automation
-- type: skills
-  slug: openclaw-openclaw-google-workspace-mcp
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md
-  title: google-workspace
-  summary: Gmail, Calendar, Drive with simple OAuth sign-in.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-productivity-tasks
 - type: skills
   slug: openclaw-openclaw-goplaces
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/goplaces/SKILL.md
@@ -9745,6 +9709,15 @@
     - source-awesome-openclaw-skills
     - category-ai-llms
 - type: skills
+  slug: openclaw-openclaw-penfield
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dial481/penfield/SKILL.md
+  title: penfield
+  summary: Persistent agent memory with hybrid search (BM25 + vector + graph), knowledge graphs, cognitive context handoffs, and artifact storage via OpenClaw native plugin or Penfield MCP.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-notes-pkm
+- type: skills
   slug: openclaw-openclaw-people-memories
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/charbeld/people-memories/SKILL.md
   title: people-memories
@@ -10887,15 +10860,6 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-marketing-sales
-- type: skills
-  slug: openclaw-openclaw-rankaj
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjnpage/rankaj/SKILL.md
-  title: rankaj
-  summary: Fetch current weather and forecast data from a free weather API (Open-Meteo).
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-data-analytics
 - type: skills
   slug: openclaw-openclaw-ranked-gym
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/ranked-gym/SKILL.md
@@ -14806,24 +14770,6 @@
     - source-awesome-openclaw-skills
     - category-marketing-sales
 - type: skills
-  slug: openclaw-openclaw-x-trends
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anishtr4/x-trends/SKILL.md
-  title: x-trends
-  summary: Fetches current top trending topics on X (Twitter) for any country using public aggregators.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-search-research
-- type: skills
-  slug: openclaw-openclaw-x-trends-dev
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anishtr4/x-trends-dev/SKILL.md
-  title: x-trends-dev
-  summary: Fetches current top trending topics on X (Twitter) for any country using public aggregators.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-search-research
-- type: skills
   slug: openclaw-openclaw-x-twitter
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/annettemekuro30/x-twitter/SKILL.md
   title: x-twitter
@@ -14931,15 +14877,6 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-ai-llms
-- type: skills
-  slug: openclaw-openclaw-yahoo-finance
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajanraj/yahoo-finance/SKILL.md
-  title: yahoo-finance
-  summary: Get stock prices, quotes, fundamentals, earnings, options, dividends.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-finance
 - type: skills
   slug: openclaw-openclaw-yboard-operator
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zonder/yboard-operator/SKILL.md
@@ -15121,15 +15058,6 @@
     - source-awesome-openclaw-skills
     - category-search-research
 - type: skills
-  slug: openclaw-openclaw-youtube-summarize
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-summarize/SKILL.md
-  title: youtube-summarize
-  summary: Summarize YouTube videos by extracting transcripts and captions.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-media-streaming
-- type: skills
   slug: openclaw-openclaw-youtube-summarizer
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abe238/youtube-summarizer/SKILL.md
   title: youtube-summarizer
@@ -15138,15 +15066,6 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-search-research
-- type: skills
-  slug: openclaw-openclaw-youtube-thumbnail-grabber
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-thumbnail-grabber/SKILL.md
-  title: youtube-thumbnail-grabber
-  summary: Download YouTube video thumbnails in various resolutions.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-image-video-generation
 - type: skills
   slug: openclaw-openclaw-youtube-title-generator
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/youtube-title-generator/SKILL.md
@@ -15165,15 +15084,6 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-media-streaming
-- type: skills
-  slug: openclaw-openclaw-youtube-video-downloader
-  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-video-downloader/SKILL.md
-  title: youtube-video-downloader
-  summary: Download YouTube videos in various formats and qualities.
-  tags:
-    - openclaw
-    - source-awesome-openclaw-skills
-    - category-marketing-sales
 - type: skills
   slug: openclaw-openclaw-youtube-voice-summarizer-elevenlabs
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/franciscoandsam/youtube-voice-summarizer-elevenlabs/SKILL.md
