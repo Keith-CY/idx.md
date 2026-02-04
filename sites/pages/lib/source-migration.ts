@@ -63,28 +63,73 @@ function extractHeader(raw: string): string | null {
   return `${headerLines.join("\n")}\n`;
 }
 
-export async function readSourcesFile(
+export type ReadSourcesFileResult = {
+  ok: boolean;
+  missing: boolean;
+  sources: SourceEntry[];
+  errors: string[];
+  header: string | null;
+};
+
+export async function readSourcesFileResult(
   path: string,
-): Promise<SourceEntry[] | null> {
+): Promise<ReadSourcesFileResult> {
   try {
     const file = Bun.file(path);
     const exists = await file.exists();
     if (!exists) {
-      return null;
+      return {
+        ok: false,
+        missing: true,
+        sources: [],
+        errors: [],
+        header: null,
+      };
     }
     const raw = await file.text();
+    const header = extractHeader(raw);
     const result = parseSourcesText(raw, path);
     if (!result.ok) {
-      for (const error of result.errors) {
-        console.warn(error);
-      }
-      return null;
+      return {
+        ok: false,
+        missing: false,
+        sources: [],
+        errors: result.errors,
+        header,
+      };
     }
-    return result.sources;
+    return {
+      ok: true,
+      missing: false,
+      sources: result.sources,
+      errors: [],
+      header,
+    };
   } catch (error) {
-    console.warn(`Warning: failed to read sources file ${path}`, error);
-    return null;
+    const message = error instanceof Error ? error.message : String(error);
+    return {
+      ok: false,
+      missing: false,
+      sources: [],
+      errors: [`Failed to read or parse ${path}: ${message}`],
+      header: null,
+    };
   }
+}
+
+export async function readSourcesFile(
+  path: string,
+): Promise<SourceEntry[] | null> {
+  const result = await readSourcesFileResult(path);
+  if (result.ok) {
+    return result.sources;
+  }
+  if (!result.missing) {
+    for (const error of result.errors) {
+      console.warn(error);
+    }
+  }
+  return null;
 }
 
 export async function writeSourcesFile(
@@ -272,18 +317,18 @@ export async function migrateRemovedSourcesFromFiles(opts: {
     curlFailed: number;
   };
 }> {
-  const previousEntries = (await readSourcesFile(opts.previousPath)) ?? [];
-  const generalEntries = (await readSourcesFile(opts.generalPath)) ?? [];
-  let header = DEFAULT_SCHEMA_HEADER;
-  try {
-    const raw = await Bun.file(opts.generalPath).text();
-    const extracted = extractHeader(raw);
-    if (extracted) {
-      header = extracted;
-    }
-  } catch {
-    header = DEFAULT_SCHEMA_HEADER;
+  const previousResult = await readSourcesFileResult(opts.previousPath);
+  if (!previousResult.ok && !previousResult.missing) {
+    throw new Error(previousResult.errors.join("\n"));
   }
+  const generalResult = await readSourcesFileResult(opts.generalPath);
+  if (!generalResult.ok && !generalResult.missing) {
+    throw new Error(generalResult.errors.join("\n"));
+  }
+
+  const previousEntries = previousResult.ok ? previousResult.sources : [];
+  const generalEntries = generalResult.ok ? generalResult.sources : [];
+  const header = generalResult.header ?? DEFAULT_SCHEMA_HEADER;
 
   const removed = diffRemovedByUrl(previousEntries, opts.nextEntries);
   const existingUrls = await collectExistingUrls(

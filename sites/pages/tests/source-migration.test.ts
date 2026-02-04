@@ -154,4 +154,69 @@ describe("source migration", () => {
     const raw = await Bun.file(generalPath).text();
     expect(raw.startsWith(HEADER)).toBe(true);
   });
+
+  test("migrateRemovedSourcesFromFiles throws if general.yml fails to parse", async () => {
+    const root = await mkdtemp(join(tmpdir(), "idx-source-migrate-"));
+    const sourcesDir = join(root, "sources");
+    await mkdir(sourcesDir);
+    const generalPath = join(sourcesDir, "general.yml");
+    const previousPath = join(sourcesDir, "openai.yml");
+
+    const invalidGeneral = `${HEADER}not: valid\n`;
+    await writeFile(generalPath, invalidGeneral);
+
+    const previousEntries = [
+      baseEntry({
+        slug: "removed",
+        source_url: "https://removed.com/skill.md",
+      }),
+    ];
+    await writeFile(previousPath, `${HEADER}${stringify(previousEntries)}`);
+
+    await expect(
+      migrateRemovedSourcesFromFiles({
+        previousPath,
+        nextEntries: [],
+        generalPath,
+        sourcesDir,
+        checkUrl: async () => ({ ok: true, status: 200 }),
+      }),
+    ).rejects.toThrow();
+
+    const raw = await Bun.file(generalPath).text();
+    expect(raw).toBe(invalidGeneral);
+  });
+
+  test("migrateRemovedSourcesFromFiles throws if previousPath fails to parse", async () => {
+    const root = await mkdtemp(join(tmpdir(), "idx-source-migrate-"));
+    const sourcesDir = join(root, "sources");
+    await mkdir(sourcesDir);
+    const generalPath = join(sourcesDir, "general.yml");
+    const previousPath = join(sourcesDir, "openai.yml");
+
+    const generalEntries = [
+      baseEntry({
+        slug: "general",
+        source_url: "https://general.com/skill.md",
+      }),
+    ];
+    const generalRaw = `${HEADER}${stringify(generalEntries)}`;
+    await writeFile(generalPath, generalRaw);
+
+    const invalidPrevious = `${HEADER}not: valid\n`;
+    await writeFile(previousPath, invalidPrevious);
+
+    await expect(
+      migrateRemovedSourcesFromFiles({
+        previousPath,
+        nextEntries: [],
+        generalPath,
+        sourcesDir,
+        checkUrl: async () => ({ ok: true, status: 200 }),
+      }),
+    ).rejects.toThrow();
+
+    const raw = await Bun.file(generalPath).text();
+    expect(raw).toBe(generalRaw);
+  });
 });
