@@ -1,7 +1,13 @@
 import { describe, expect, test } from "bun:test";
+import { mkdtemp, mkdir, writeFile } from "fs/promises";
+import { tmpdir } from "os";
+import { join } from "path";
+import { stringify } from "yaml";
 import {
   diffRemovedByUrl,
+  migrateRemovedSourcesFromFiles,
   planGeneralMigration,
+  readSourcesFile,
 } from "../lib/source-migration";
 
 const baseEntry = (overrides = {}) => ({
@@ -10,6 +16,8 @@ const baseEntry = (overrides = {}) => ({
   source_url: "https://example.com/skill.md",
   ...overrides,
 });
+
+const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
 
 describe("source migration", () => {
   test("diffRemovedByUrl returns entries missing in next set", () => {
@@ -76,5 +84,74 @@ describe("source migration", () => {
     expect(result.added).toHaveLength(1);
     expect(result.added[0]?.slug).not.toBe("dupe");
     expect(result.added[0]?.slug).toMatch(/^dupe-[0-9a-f]{8}$/);
+  });
+
+  test("migrateRemovedSourcesFromFiles appends reachable entries and skips duplicates", async () => {
+    const root = await mkdtemp(join(tmpdir(), "idx-source-migrate-"));
+    const sourcesDir = join(root, "sources");
+    await mkdir(sourcesDir);
+    const generalPath = join(sourcesDir, "general.yml");
+    const otherPath = join(sourcesDir, "other.yml");
+    const previousPath = join(sourcesDir, "openai.yml");
+
+    const generalEntries = [
+      baseEntry({
+        slug: "general",
+        source_url: "https://general.com/skill.md",
+      }),
+    ];
+    const otherEntries = [
+      baseEntry({
+        slug: "other",
+        source_url: "https://other.com/skill.md",
+      }),
+    ];
+    const previousEntries = [
+      baseEntry({
+        slug: "removed",
+        source_url: "https://removed.com/skill.md",
+      }),
+      baseEntry({
+        slug: "duplicate",
+        source_url: "https://other.com/skill.md",
+      }),
+      baseEntry({
+        slug: "kept",
+        source_url: "https://kept.com/skill.md",
+      }),
+    ];
+
+    await writeFile(generalPath, `${HEADER}${stringify(generalEntries)}`);
+    await writeFile(otherPath, `${HEADER}${stringify(otherEntries)}`);
+    await writeFile(previousPath, `${HEADER}${stringify(previousEntries)}`);
+
+    const nextEntries = [
+      baseEntry({
+        slug: "kept",
+        source_url: "https://kept.com/skill.md",
+      }),
+    ];
+
+    const result = await migrateRemovedSourcesFromFiles({
+      previousPath,
+      nextEntries,
+      generalPath,
+      sourcesDir,
+      checkUrl: async () => ({ ok: true, status: 200 }),
+    });
+
+    expect(result.added).toHaveLength(1);
+    expect(result.added[0]?.source_url).toBe("https://removed.com/skill.md");
+    expect(result.stats.duplicatesSkipped).toBe(1);
+    expect(result.stats.migrated).toBe(1);
+
+    const updated = await readSourcesFile(generalPath);
+    expect(updated).not.toBeNull();
+    expect(updated?.[updated.length - 1]?.source_url).toBe(
+      "https://removed.com/skill.md",
+    );
+
+    const raw = await Bun.file(generalPath).text();
+    expect(raw.startsWith(HEADER)).toBe(true);
   });
 });
