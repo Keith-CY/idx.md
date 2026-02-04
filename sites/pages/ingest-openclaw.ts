@@ -7,6 +7,10 @@ import { normalizeGithubRawUrl } from "./lib/source-url";
 import { DATA_ROOT } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
 import {
+  migrateRemovedSourcesFromFiles,
+  readSourcesFileResult,
+} from "./lib/source-migration";
+import {
   type OpenClawCategory,
   parseOpenClawCategories,
 } from "./lib/openclaw-parse";
@@ -15,7 +19,9 @@ const README_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/refs/heads/main/README.md";
 const README_BASE_URL =
   "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md";
-const OUTPUT_PATH = resolve(repoRoot, "sources", "openclaw.yml");
+const SOURCES_DIR = resolve(repoRoot, "sources");
+const OUTPUT_PATH = resolve(SOURCES_DIR, "openclaw.yml");
+const GENERAL_PATH = resolve(SOURCES_DIR, "general.yml");
 const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-openclaw.md");
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const SOURCE_TYPE = "skills";
@@ -26,6 +32,15 @@ type ConvertedUrl = {
   rawUrl: string;
   owner: string;
   skillFolder: string;
+};
+
+type MigrationStats = {
+  removedTotal: number;
+  reachable: number;
+  migrated: number;
+  duplicatesSkipped: number;
+  slugCollisions: number;
+  curlFailed: number;
 };
 
 function slugify(value: string): string {
@@ -190,7 +205,7 @@ function formatReport(stats: {
   duplicatesSkipped: number;
   itemsSkipped: number;
   slugCollisions: number;
-}): string {
+}, migration: MigrationStats): string {
   const timestamp = new Date().toISOString();
   return [
     "# OpenClaw ingest report",
@@ -202,6 +217,12 @@ function formatReport(stats: {
     `- Duplicates skipped: ${stats.duplicatesSkipped}`,
     `- Items skipped: ${stats.itemsSkipped}`,
     `- Slug collisions resolved: ${stats.slugCollisions}`,
+    `- Migration removed: ${migration.removedTotal}`,
+    `- Migration reachable: ${migration.reachable}`,
+    `- Migration migrated: ${migration.migrated}`,
+    `- Migration duplicates skipped: ${migration.duplicatesSkipped}`,
+    `- Migration curl failed: ${migration.curlFailed}`,
+    `- Migration slug collisions resolved: ${migration.slugCollisions}`,
     "",
   ].join("\n");
 }
@@ -224,6 +245,11 @@ async function fetchReadme(): Promise<string | null> {
   }
 
   return response.text();
+}
+
+const previousResult = await readSourcesFileResult(OUTPUT_PATH);
+if (!previousResult.ok && !previousResult.missing) {
+  throw new Error(previousResult.errors.join("\n"));
 }
 
 const readme = await fetchReadme();
@@ -292,6 +318,13 @@ entries.sort((a, b) => {
   return a.source_url.localeCompare(b.source_url);
 });
 
+const migration = await migrateRemovedSourcesFromFiles({
+  previousPath: OUTPUT_PATH,
+  nextEntries: entries,
+  generalPath: GENERAL_PATH,
+  sourcesDir: SOURCES_DIR,
+});
+
 const yamlBody = stringify(entries, { lineWidth: 0 }).trimEnd();
 const output = `${HEADER}${yamlBody}\n`;
 await Bun.write(OUTPUT_PATH, output);
@@ -306,7 +339,7 @@ await Bun.write(
     duplicatesSkipped: duplicates,
     itemsSkipped: skipped,
     slugCollisions,
-  }),
+  }, migration.stats),
 );
 
 console.log(`OpenClaw categories: ${categories.length}`);

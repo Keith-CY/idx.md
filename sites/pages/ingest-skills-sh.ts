@@ -1,11 +1,16 @@
 import { createHash } from "crypto";
 import { mkdir } from "fs/promises";
 import { resolve } from "path";
-import { parse, stringify } from "yaml";
+import { stringify } from "yaml";
 import type { SourceEntry } from "./lib/registry";
 import { DATA_ROOT } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
 import { validateSourceUrl } from "./lib/source-url";
+import {
+  migrateRemovedSourcesFromFiles,
+  readSourcesFileResult,
+  writeSourcesFile,
+} from "./lib/source-migration";
 import {
   buildProbeUrls,
   extractGithubRepo,
@@ -17,8 +22,9 @@ import {
 
 const SKILLS_HOME = "https://skills.sh/";
 const SKILLS_SITEMAP = "https://skills.sh/sitemap.xml";
-const OUTPUT_PATH = resolve(repoRoot, "sources", "skills-sh.yml");
-const GENERAL_PATH = resolve(repoRoot, "sources", "general.yml");
+const SOURCES_DIR = resolve(repoRoot, "sources");
+const OUTPUT_PATH = resolve(SOURCES_DIR, "skills-sh.yml");
+const GENERAL_PATH = resolve(SOURCES_DIR, "general.yml");
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-skills-sh.md");
 const SOURCE_TYPE = "skills";
@@ -47,6 +53,15 @@ type ReportStats = {
   probeMisses: number;
   duplicatesSkipped: number;
   invalidSkipped: number;
+};
+
+type MigrationStats = {
+  removedTotal: number;
+  reachable: number;
+  migrated: number;
+  duplicatesSkipped: number;
+  slugCollisions: number;
+  curlFailed: number;
 };
 
 function slugify(value: string): string {
@@ -174,7 +189,11 @@ async function probeUrl(url: string): Promise<boolean> {
   return response.ok;
 }
 
-function formatReport(stats: ReportStats, rejections: Rejection[]): string {
+function formatReport(
+  stats: ReportStats,
+  migration: MigrationStats,
+  rejections: Rejection[],
+): string {
   const timestamp = new Date().toISOString();
   const lines: string[] = [
     "# Skills.sh ingest report",
@@ -188,6 +207,12 @@ function formatReport(stats: ReportStats, rejections: Rejection[]): string {
     `- Probed entries added to general: ${stats.probedAdded}`,
     `- Duplicates skipped: ${stats.duplicatesSkipped}`,
     `- Invalid/filtered skipped: ${stats.invalidSkipped}`,
+    `- Migration removed: ${migration.removedTotal}`,
+    `- Migration reachable: ${migration.reachable}`,
+    `- Migration migrated: ${migration.migrated}`,
+    `- Migration duplicates skipped: ${migration.duplicatesSkipped}`,
+    `- Migration curl failed: ${migration.curlFailed}`,
+    `- Migration slug collisions resolved: ${migration.slugCollisions}`,
     "",
     "## Rejections",
     "",
@@ -210,19 +235,14 @@ function formatReport(stats: ReportStats, rejections: Rejection[]): string {
   return lines.join("\n");
 }
 
-async function readGeneralSources(): Promise<{
-  raw: string;
-  entries: SourceEntry[];
-}> {
-  const file = Bun.file(GENERAL_PATH);
-  const exists = await file.exists();
-  if (!exists) {
-    return { raw: HEADER + "\n", entries: [] };
-  }
+const previousResult = await readSourcesFileResult(OUTPUT_PATH);
+if (!previousResult.ok && !previousResult.missing) {
+  throw new Error(previousResult.errors.join("\n"));
+}
 
-  const raw = await file.text();
-  const parsed = parse(raw);
-  return { raw, entries: Array.isArray(parsed) ? parsed : [] };
+const initialGeneralResult = await readSourcesFileResult(GENERAL_PATH);
+if (!initialGeneralResult.ok && !initialGeneralResult.missing) {
+  throw new Error(initialGeneralResult.errors.join("\n"));
 }
 
 const links = await fetchSkillLinks();
@@ -232,9 +252,10 @@ const seenIds = new Set<string>();
 const seenUrls = new Set<string>();
 const rejections: Rejection[] = [];
 
-const { raw: generalRaw, entries: generalEntries } =
-  await readGeneralSources();
-for (const entry of generalEntries) {
+const initialGeneralEntries = initialGeneralResult.ok
+  ? initialGeneralResult.sources
+  : [];
+for (const entry of initialGeneralEntries) {
   if (entry && entry.type && entry.slug) {
     seenIds.add(`${entry.type}/${entry.slug}`);
   }
@@ -365,21 +386,85 @@ for (const skillUrl of rankedLinks) {
   );
 }
 
+const migration = await migrateRemovedSourcesFromFiles({
+  previousPath: OUTPUT_PATH,
+  nextEntries: skillsEntries,
+  generalPath: GENERAL_PATH,
+  sourcesDir: SOURCES_DIR,
+});
+
 const skillsYaml = stringify(skillsEntries).trimEnd();
 await Bun.write(OUTPUT_PATH, `${HEADER}${skillsYaml}\n`);
 
 if (probedEntries.length > 0) {
-  const appended = stringify(probedEntries).trimEnd();
-  const rawTrimmed = generalRaw.trimEnd();
-  const next = `${rawTrimmed}\n${appended}\n`;
-  await Bun.write(GENERAL_PATH, next);
-  stats.probedAdded = probedEntries.length;
+  const updatedGeneralResult = await readSourcesFileResult(GENERAL_PATH);
+  if (!updatedGeneralResult.ok && !updatedGeneralResult.missing) {
+    throw new Error(updatedGeneralResult.errors.join("\n"));
+  }
+
+  const updatedGeneralEntries = updatedGeneralResult.ok
+    ? updatedGeneralResult.sources
+    : [];
+  const updatedHeader = updatedGeneralResult.header ?? HEADER;
+  const updatedSeenIds = new Set<string>();
+  const updatedSeenUrls = new Set<string>();
+  const updatedSlugs = new Map<string, string>();
+
+  for (const entry of updatedGeneralEntries) {
+    if (entry && entry.type && entry.slug) {
+      updatedSeenIds.add(`${entry.type}/${entry.slug}`);
+      updatedSlugs.set(entry.slug, entry.source_url);
+    }
+    if (entry && entry.source_url) {
+      updatedSeenUrls.add(entry.source_url);
+    }
+  }
+
+  const reconciledProbed: SourceEntry[] = [];
+  for (const entry of probedEntries) {
+    if (updatedSeenUrls.has(entry.source_url)) {
+      stats.duplicatesSkipped += 1;
+      continue;
+    }
+
+    let nextSlug = entry.slug;
+    const id = `${entry.type}/${nextSlug}`;
+    if (updatedSeenIds.has(id)) {
+      nextSlug = uniqueSlug(nextSlug, entry.source_url, updatedSlugs);
+    } else if (!updatedSlugs.has(nextSlug)) {
+      updatedSlugs.set(nextSlug, entry.source_url);
+    }
+
+    const resolvedId = `${entry.type}/${nextSlug}`;
+    if (updatedSeenIds.has(resolvedId)) {
+      const fallback = uniqueSlug(nextSlug, entry.source_url, updatedSlugs);
+      if (fallback !== nextSlug) {
+        nextSlug = fallback;
+      }
+    }
+
+    updatedSeenIds.add(`${entry.type}/${nextSlug}`);
+    updatedSeenUrls.add(entry.source_url);
+    updatedSlugs.set(nextSlug, entry.source_url);
+
+    if (nextSlug === entry.slug) {
+      reconciledProbed.push(entry);
+    } else {
+      reconciledProbed.push({ ...entry, slug: nextSlug });
+    }
+  }
+
+  if (reconciledProbed.length > 0) {
+    const nextGeneral = [...updatedGeneralEntries, ...reconciledProbed];
+    await writeSourcesFile(GENERAL_PATH, nextGeneral, updatedHeader);
+    stats.probedAdded = reconciledProbed.length;
+  }
 }
 
 stats.entriesWritten = skillsEntries.length;
 
 await mkdir(REPORT_DIR, { recursive: true });
-await Bun.write(REPORT_PATH, formatReport(stats, rejections));
+await Bun.write(REPORT_PATH, formatReport(stats, migration.stats, rejections));
 
 console.log(`Skills.sh links scanned: ${stats.totalLinks}`);
 console.log(`Skills.sh entries written: ${stats.entriesWritten}`);
