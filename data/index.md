@@ -1,3 +1,4 @@
+<!-- Contribute: open a PR to add new markdown sources to sources/general.yml -->
 ---
 stable_id: skills/agentskills-skill
 type: skills
