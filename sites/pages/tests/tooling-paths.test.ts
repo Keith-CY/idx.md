@@ -78,6 +78,11 @@ describe("pages tooling paths", () => {
     expect(migrationCall.test(text)).toBe(true);
   });
 
+  test("awesome-claude ingest writes to general source", async () => {
+    const text = await readText("sites/pages/ingest-awesome-claude.ts");
+    expect(text.includes('resolve(SOURCES_DIR, "general.yml")')).toBe(true);
+  });
+
   test("agent skill onboarding mentions index and body paths", async () => {
     const text = await readText("SKILL.md");
     expect(text.includes("https://idx.md/index.md")).toBe(true);
