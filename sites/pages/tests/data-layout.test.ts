@@ -1,8 +1,10 @@
 import { describe, expect, test } from "bun:test";
 import { resolve } from "path";
 import {
+  CATEGORY_INDEX_PATH,
   DATA_ROOT,
   bodyPath,
+  categoryIndexPath,
   formatIndexEntry,
   headPath,
 } from "../lib/data-layout";
@@ -24,5 +26,14 @@ describe("data layout", () => {
     const output = formatIndexEntry("mintlify", head);
     expect(output).toContain("---\ntitle: Mintlify\n---");
     expect(output).toContain("|/data/mintlify|");
+  });
+
+  test("writes category indexes under data/category", () => {
+    expect(CATEGORY_INDEX_PATH).toBe(
+      resolve(repoRoot, "data", "category", "index.md"),
+    );
+    expect(categoryIndexPath("coding-agents-ides")).toBe(
+      resolve(repoRoot, "data", "category", "coding-agents-ides", "index.md"),
+    );
   });
 });

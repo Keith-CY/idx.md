@@ -1,12 +1,19 @@
 import { createHash } from "crypto";
 import { mkdir, rm } from "fs/promises";
-import { isAbsolute, relative, resolve } from "path";
+import { dirname, isAbsolute, relative, resolve } from "path";
 import { stringify } from "yaml";
+import {
+  buildCategoryIndexes,
+  formatUnknownCategoryReason,
+  parseCategoriesFromTags,
+} from "./lib/categories";
 import { loadSources, type SourceEntry } from "./lib/registry";
 import {
+  CATEGORY_INDEX_PATH,
   DATA_ROOT,
   INDEX_PATH,
   bodyPath,
+  categoryIndexPath,
   formatIndexEntry,
   headPath,
   topicDir,
@@ -152,7 +159,11 @@ async function fetchMarkdown(
 
 const accepted: AcceptedEntry[] = [];
 const rejected: Rejection[] = [];
-const indexEntries: Array<{ topic: string; headContent: string }> = [];
+const indexEntries: Array<{
+  topic: string;
+  headContent: string;
+  categories: string[];
+}> = [];
 
 const writeRejectedReport = async () => {
   try {
@@ -184,6 +195,13 @@ try {
     }
     const { markdown, bytes, retrievedAt } = fetched;
     const topic = source.slug;
+    const parsedCategories = parseCategoriesFromTags(source.tags);
+    if (parsedCategories.unknown.length > 0) {
+      rejected.push({
+        url: source.source_url,
+        reason: formatUnknownCategoryReason(parsedCategories.unknown),
+      });
+    }
     const entryDirPath = resolveTopicDir(topic);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
@@ -207,7 +225,11 @@ try {
 
     const headContent = `---\n${yaml}\n---\n`;
     await Bun.write(headPath(topic), headContent);
-    indexEntries.push({ topic, headContent });
+    indexEntries.push({
+      topic,
+      headContent,
+      categories: parsedCategories.categories,
+    });
 
     accepted.push({ source, retrievedAt });
   }
@@ -228,6 +250,13 @@ const indexOutput = indexContent
   ? `${INDEX_PREAMBLE}\n${indexContent}\n`
   : `${INDEX_PREAMBLE}\n`;
 await Bun.write(INDEX_PATH, indexOutput);
+const categoryOutput = buildCategoryIndexes(sortedIndexEntries);
+await Bun.write(CATEGORY_INDEX_PATH, categoryOutput.hubContent);
+for (const page of categoryOutput.pages) {
+  const outputPath = categoryIndexPath(page.slug);
+  await mkdir(dirname(outputPath), { recursive: true });
+  await Bun.write(outputPath, page.content);
+}
 await writeSkillDoc();
 
 if (rejected.length > 0) {
