@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/main/skills/n8n-code-javascript/DATA_ACCESS.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-javascript
-retrieved_at: 2026-02-05T09:48:59.301Z
+retrieved_at: 2026-02-05T19:13:53.451Z
 content_sha256: 29f361baabfc6f9d2bb213a23520a359cd9cb46073fdf03c48453ad4ac00d544
 ---

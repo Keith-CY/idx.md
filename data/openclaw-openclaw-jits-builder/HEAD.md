@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dannyshmueli/jits-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:15.737Z
+retrieved_at: 2026-02-05T19:13:58.040Z
 content_sha256: a280464a995979dfccbe2205694003aa15f2979bb3c407523ebf256e1ca6f876
 ---

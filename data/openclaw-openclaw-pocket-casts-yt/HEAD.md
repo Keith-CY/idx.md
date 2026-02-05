@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/pocket-casts-yt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:53.497Z
+retrieved_at: 2026-02-05T19:14:02.610Z
 content_sha256: 17ae24972c2cf5a8e523d5c53500f46113ade24cd28bafbf854ed8835b8fc39a
 ---

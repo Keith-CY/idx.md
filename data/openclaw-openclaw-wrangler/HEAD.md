@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asleep123/wrangler/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:42.608Z
+retrieved_at: 2026-02-05T19:14:48.395Z
 content_sha256: 1ddcc7b18eaf4dde75bd53abbe1a38cb16a117d18260cdd8e0047bd04e8ba22d
 ---

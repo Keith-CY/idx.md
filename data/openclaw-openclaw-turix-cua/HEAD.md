@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tongyu-yan/turix-cua/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:29.908Z
+retrieved_at: 2026-02-05T19:14:37.961Z
 content_sha256: d0d8e866ff9c8545c30052c1cac1396772e7e269ba2c081d334c3c040d797af0
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/mongodb-atlas-admin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:33.758Z
+retrieved_at: 2026-02-05T19:13:58.649Z
 content_sha256: f1b06b0288e3453c907e8628fe550c2b395b349a4fc420286f4f3ca73b7ab00e
 ---

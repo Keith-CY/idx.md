@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vikrambalaaj/snowflake-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:14.948Z
+retrieved_at: 2026-02-05T19:14:24.123Z
 content_sha256: a2b8c964a628e0c78cd868b402284530ca0f669f544f9d5e1b7f04a84a9fbe42
 ---

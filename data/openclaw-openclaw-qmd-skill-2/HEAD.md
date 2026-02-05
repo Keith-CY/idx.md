@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lifecoacher/qmd-skill-2/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:00.635Z
+retrieved_at: 2026-02-05T19:14:08.157Z
 content_sha256: a5881d351968fcb36d65c64f7eebaf297b7e7ed5e0f7148b0439d07aa1f5be20
 ---

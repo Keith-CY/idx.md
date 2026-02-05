@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vegovevo/prezentit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:55.212Z
-content_sha256: efc749e2424e59493815a1d2a22cc10ef5fa26a4f880a0f89d36f8a6543af8d2
+retrieved_at: 2026-02-05T19:14:04.250Z
+content_sha256: aac835026fb01d3d9210057cbbc560116fbae477faf86546a054c4923f1ee749
 ---

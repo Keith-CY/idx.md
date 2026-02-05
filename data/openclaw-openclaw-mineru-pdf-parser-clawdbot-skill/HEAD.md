@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/mineru-pdf-parser-clawdbot-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:28.588Z
+retrieved_at: 2026-02-05T19:13:58.504Z
 content_sha256: ffef926bcf10f43daac41de204a9f24db10c779b0866a99201d61ffa77fa6209
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/typefully/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:30.650Z
+retrieved_at: 2026-02-05T19:14:38.617Z
 content_sha256: 0f0f93328de946e62a789fbf748fd4276ce3cdbc76ae151a8e993987f70e2d5f
 ---

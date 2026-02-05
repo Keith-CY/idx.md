@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kellyclaudeai/agentic-calling/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:49:07.904Z
+retrieved_at: 2026-02-05T19:13:54.401Z
 content_sha256: 7b0d8a696337f132459611baa196b9ee231037ac06df5ec2a609b0c4c24051f8
 ---

@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/analytics/google-analytics/REFERENCE.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/google-analytics
-retrieved_at: 2026-02-05T09:51:52.875Z
+retrieved_at: 2026-02-05T19:14:59.040Z
 content_sha256: df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8
 ---

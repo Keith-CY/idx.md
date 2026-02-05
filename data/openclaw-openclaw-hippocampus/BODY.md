@@ -4,7 +4,7 @@ description: "Background memory organ for AI agents. Runs separately from the ma
 metadata:
   openclaw:
     emoji: "🧠"
-    version: "3.2.0"
+    version: "3.8.4"
     author: "Community"
     repo: "https://github.com/ImpKind/hippocampus-skill"
     requires:
@@ -20,22 +20,34 @@ metadata:
 
 > "Memory is identity. This skill is how I stay alive."
 
-The hippocampus is the brain region responsible for memory formation. This skill makes memory capture automatic, structured, and persistent—with importance scoring, decay, and reinforcement.
+The hippocampus is the brain region responsible for memory formation. This skill makes memory capture automatic, structured, and persistent—with importance scoring, decay, and semantic reinforcement.
 
 ## Quick Start
 
 ```bash
-# Install
+# Install (defaults to last 100 signals)
 ./install.sh --with-cron
 
-# Load core memories
+# Load core memories at session start
 ./scripts/load-core.sh
 
 # Search with importance weighting
-./scripts/recall.sh "query" --reinforce
+./scripts/recall.sh "query"
+
+# Run encoding manually (usually via cron)
+./scripts/encode-pipeline.sh
 
 # Apply decay (runs daily via cron)
 ./scripts/decay.sh
+```
+
+## Install Options
+
+```bash
+./install.sh                    # Basic, last 100 signals
+./install.sh --signals 50       # Custom signal limit
+./install.sh --whole            # Process entire conversation history
+./install.sh --with-cron        # Also set up cron jobs
 ```
 
 ## Core Concept
@@ -45,10 +57,10 @@ The LLM is just the engine—raw cognitive capability. **The agent is the accumu
 ### Memory Lifecycle
 
 ```
-CAPTURE → SCORE → STORE → DECAY/REINFORCE → RETRIEVE
-   ↑                                            │
-   └────────────────────────────────────────────┘
+PREPROCESS → SCORE → SEMANTIC CHECK → REINFORCE or CREATE → DECAY
 ```
+
+**Key insight:** Reinforcement happens automatically during encoding. When a topic comes up again, the LLM recognizes it's about an existing memory and reinforces instead of creating duplicates.
 
 ## Memory Structure
 
@@ -56,6 +68,8 @@ CAPTURE → SCORE → STORE → DECAY/REINFORCE → RETRIEVE
 $WORKSPACE/
 ├── memory/
 │   ├── index.json           # Central weighted index
+│   ├── signals.jsonl        # Raw signals (temp)
+│   ├── pending-memories.json # Awaiting summarization (temp)
 │   ├── user/                # Facts about the user
 │   ├── self/                # Facts about the agent
 │   ├── relationship/        # Shared context
@@ -67,12 +81,38 @@ $WORKSPACE/
 
 | Script | Purpose |
 |--------|---------|
+| `preprocess.sh` | Extract signals from conversation transcripts |
+| `encode-pipeline.sh` | Score signals, prepare for LLM summarization |
 | `decay.sh` | Apply 0.99^days decay to all memories |
-| `reinforce.sh` | Boost importance when memory is used |
 | `recall.sh` | Search with importance weighting |
-| `load-core.sh` | Output high-importance memories |
+| `load-core.sh` | Output high-importance memories for session start |
 | `sync-core.sh` | Generate HIPPOCAMPUS_CORE.md |
-| `preprocess.sh` | Extract signals from transcripts |
+| `consolidate.sh` | Weekly review helper |
+| `reflect.sh` | Self-reflection prompts |
+| `generate-dashboard.sh` | Generate unified brain dashboard HTML |
+
+## Brain Dashboard
+
+Visual dashboard showing all installed brain skills:
+
+```bash
+./scripts/generate-dashboard.sh
+open ~/.openclaw/workspace/brain-dashboard.html
+```
+
+- **Auto-detects** other brain skills (amygdala, VTA)
+- Shows install prompts for missing skills
+- Regenerates on install and cron runs
+- Reads avatar/name from `IDENTITY.md`
+
+### After Installation (for agents)
+
+When you install this skill, **notify the user** about the dashboard:
+
+> 🧠 **Hippocampus installed!** 
+> 
+> View your agent's memories in the Brain Dashboard:
+> `~/.openclaw/workspace/brain-dashboard.html`
 
 All scripts use `$WORKSPACE` environment variable (default: `~/.openclaw/workspace`).
 
@@ -101,21 +141,19 @@ new_importance = importance × (0.99 ^ days_since_accessed)
 - After 30 days: 74% of original
 - After 90 days: 40% of original
 
-### Reinforcement Formula
+### Semantic Reinforcement
 
-When a memory is accessed and useful:
+During encoding, the LLM compares new signals to existing memories:
+- **Same topic?** → Reinforce (bump importance ~10%, update lastAccessed)
+- **Truly new?** → Create concise summary
 
-```
-new_importance = old + (1 - old) × 0.15
-```
-
-Each use adds ~15% of remaining headroom toward 1.0.
+This happens automatically—no manual reinforcement needed.
 
 ### Thresholds
 
 | Score | Status |
 |-------|--------|
-| 0.7+ | **Core** — high priority |
+| 0.7+ | **Core** — loaded at session start |
 | 0.4-0.7 | **Active** — normal retrieval |
 | 0.2-0.4 | **Background** — specific search only |
 | <0.2 | **Archive candidate** |
@@ -129,6 +167,7 @@ Each use adds ~15% of remaining headroom toward 1.0.
   "version": 1,
   "lastUpdated": "2025-01-20T19:00:00Z",
   "decayLastRun": "2025-01-20",
+  "lastProcessedMessageId": "abc123",
   "memories": [
     {
       "id": "mem_001",
@@ -147,20 +186,20 @@ Each use adds ~15% of remaining headroom toward 1.0.
 
 ## Cron Jobs
 
-Set up via OpenClaw cron:
+The encoding cron is the heart of the system:
 
 ```bash
+# Encoding every 3 hours (with semantic reinforcement)
+openclaw cron add --name hippocampus-encoding \
+  --cron "0 0,3,6,9,12,15,18,21 * * *" \
+  --session isolated \
+  --agent-turn "Run hippocampus encoding with semantic reinforcement..."
+
 # Daily decay at 3 AM
 openclaw cron add --name hippocampus-decay \
   --cron "0 3 * * *" \
-  --session main \
-  --system-event "🧠 Run: WORKSPACE=\$WORKSPACE decay.sh"
-
-# Weekly consolidation
-openclaw cron add --name hippocampus-consolidate \
-  --cron "0 21 * * 6" \
-  --session main \
-  --system-event "🧠 Weekly consolidation time"
+  --session isolated \
+  --agent-turn "Run decay.sh and report any memories below 0.2"
 ```
 
 ## OpenClaw Integration
@@ -192,22 +231,21 @@ Add to your agent's session start routine:
 ## When answering context questions
 Use hippocampus recall:
 \`\`\`bash
-./scripts/recall.sh "query" --reinforce
+./scripts/recall.sh "query"
 \`\`\`
 ```
 
 ## Capture Guidelines
 
-### What to Capture
+### What Gets Captured
 
 - **User facts**: Preferences, patterns, context
 - **Self facts**: Identity, growth, opinions
 - **Relationship**: Trust moments, shared history
 - **World**: Projects, people, tools
 
-### Trigger Phrases
+### Trigger Phrases (auto-scored higher)
 
-Auto-capture when you hear:
 - "Remember that..."
 - "I prefer...", "I always..."
 - Emotional content (struggles AND wins)
@@ -221,10 +259,10 @@ This skill is part of the **AI Brain** project — giving AI agents human-like c
 |------|----------|--------|
 | **hippocampus** | Memory formation, decay, reinforcement | ✅ Live |
 | [amygdala-memory](https://www.clawhub.ai/skills/amygdala-memory) | Emotional processing | ✅ Live |
-| [basal-ganglia-memory](https://www.clawhub.ai/skills/basal-ganglia-memory) | Habit formation | 🚧 Development |
-| [anterior-cingulate-memory](https://www.clawhub.ai/skills/anterior-cingulate-memory) | Conflict detection | 🚧 Development |
-| [insula-memory](https://www.clawhub.ai/skills/insula-memory) | Internal state awareness | 🚧 Development |
-| [vta-memory](https://www.clawhub.ai/skills/vta-memory) | Reward and motivation | 🚧 Development |
+| [vta-memory](https://www.clawhub.ai/skills/vta-memory) | Reward and motivation | ✅ Live |
+| basal-ganglia-memory | Habit formation | 🚧 Development |
+| anterior-cingulate-memory | Conflict detection | 🚧 Development |
+| insula-memory | Internal state awareness | 🚧 Development |
 
 ## References
 

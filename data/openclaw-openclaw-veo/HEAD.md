@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/buddyh/veo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:33.767Z
+retrieved_at: 2026-02-05T19:14:40.774Z
 content_sha256: 824995c8d46109693a9043c10629d6173ed35387969dcb8b6b31e037d9730109
 ---

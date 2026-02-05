@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/tessie/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:24.347Z
+retrieved_at: 2026-02-05T19:14:32.999Z
 content_sha256: ab586f8a99ded38278c47427ae109bce9db3c606abb655ae229eef19c4dd7dbd
 ---

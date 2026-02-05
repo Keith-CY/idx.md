@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itobey/get-tldr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:03.837Z
+retrieved_at: 2026-02-05T19:13:57.563Z
 content_sha256: 0fc61f73bbe2ab0aca6c311fdc2919158eca2b02e829636a0781dd43e4723c9b
 ---

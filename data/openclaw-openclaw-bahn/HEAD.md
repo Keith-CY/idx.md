@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tobiasbischoff/bahn/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:49:19.657Z
+retrieved_at: 2026-02-05T19:13:55.110Z
 content_sha256: 9370297b799ca6a6c3c69b215d3c79be6a6229581d1ee915b1f4b878822d0dbd
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nerveband/yt-api-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:47.062Z
+retrieved_at: 2026-02-05T19:14:52.441Z
 content_sha256: 40010d01549a344ea730c478fd34d1cac38c35c31595ec599614e92c4e850dd8
 ---

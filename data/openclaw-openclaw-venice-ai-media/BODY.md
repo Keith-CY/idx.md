@@ -1,6 +1,6 @@
 ---
 name: venice-ai-media
-description: Generate, edit, and upscale images; create videos from images or other videos via Venice AI. Supports text-to-image, image-to-video (Sora, WAN), video-to-video (Runway Gen4), upscaling, and AI editing.
+description: Generate, edit, and upscale images; create videos from images via Venice AI. Supports text-to-image, image-to-video (Sora, WAN), upscaling, and AI editing.
 homepage: https://venice.ai
 metadata:
   {
@@ -86,7 +86,6 @@ If you see a list of models, you're ready!
 | Image edit       | $0.04                             |
 | Video (WAN)      | ~$0.10-0.50 depending on duration |
 | Video (Sora)     | ~$0.50-2.00 depending on duration |
-| Video (Runway)   | ~$0.20-1.00                       |
 
 Use `--quote` with video commands to check pricing before generation.
 
@@ -160,10 +159,6 @@ python3 {baseDir}/scripts/venice-video.py --image photo.jpg --prompt "camera pan
 python3 {baseDir}/scripts/venice-video.py --image photo.jpg --prompt "cinematic" \
   --model sora-2-image-to-video --duration 8s --aspect-ratio 16:9 --skip-audio-param
 
-# Video-to-video (Runway Gen4)
-python3 {baseDir}/scripts/venice-video.py --video input.mp4 --prompt "anime style" \
-  --model runway-gen4-turbo-v2v
-
 # List models (shows available durations per model)
 python3 {baseDir}/scripts/venice-video.py --list-models
 
@@ -171,7 +166,7 @@ python3 {baseDir}/scripts/venice-video.py --list-models
 python3 {baseDir}/scripts/venice-video.py --complete <queue_id> --model <model>
 ```
 
-**Key flags:** `--image` or `--video` (required for generation), `--prompt` (required for generation), `--model` (default: wan-2.6-image-to-video), `--duration` (model-dependent, see --list-models), `--resolution` (480p/720p/1080p), `--aspect-ratio`, `--audio`/`--no-audio`, `--skip-audio-param`, `--quote` (price estimate), `--timeout`, `--poll-interval`, `--no-delete` (keep server media), `--complete` (cleanup previously downloaded video), `--no-validate` (skip model check)
+**Key flags:** `--image` (required for generation), `--prompt` (required for generation), `--model` (default: wan-2.6-image-to-video), `--duration` (model-dependent, see --list-models), `--resolution` (480p/720p/1080p), `--aspect-ratio`, `--audio`/`--no-audio`, `--skip-audio-param`, `--quote` (price estimate), `--timeout`, `--poll-interval`, `--no-delete` (keep server media), `--complete` (cleanup previously downloaded video), `--no-validate` (skip model check)
 
 **Progress:** During generation, the script shows estimated progress based on Venice's average execution time.
 
@@ -185,7 +180,6 @@ Use `--list-models` to see current availability and status. Models change freque
 
 - **WAN** models: Image-to-video, configurable audio, various durations (5s-21s)
 - **Sora** models: Requires `--aspect-ratio`, use `--skip-audio-param`
-- **Runway** models: Video-to-video transformation
 
 **Tips:**
 

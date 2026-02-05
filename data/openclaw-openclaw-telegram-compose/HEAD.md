@@ -22,6 +22,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmchow/telegram-compose/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:23.582Z
+retrieved_at: 2026-02-05T19:14:32.299Z
 content_sha256: f71f761df3db2e592f15e4f9caabf11c68b9a86ea19c3e0bacd41d6adf2ce184
 ---

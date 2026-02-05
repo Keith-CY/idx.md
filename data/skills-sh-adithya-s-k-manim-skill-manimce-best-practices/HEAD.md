@@ -28,6 +28,6 @@ tags:
 source_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/main/skills/manimce-best-practices/rules/scenes.md
 license: ""
 upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimce-best-practices
-retrieved_at: 2026-02-05T09:48:52.372Z
+retrieved_at: 2026-02-05T19:13:52.390Z
 content_sha256: 7dc32c7c8bfd50d9266351f90cbfc59b2b71f610a37ea6a836af9946dc64b3ba
 ---

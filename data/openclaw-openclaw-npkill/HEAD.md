@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ashirbadgudu/npkill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:40.583Z
+retrieved_at: 2026-02-05T19:13:58.907Z
 content_sha256: 441a965aeef6cdabb896efbcb9b434599c14154b731b5defe62c863ab33e0b89
 ---

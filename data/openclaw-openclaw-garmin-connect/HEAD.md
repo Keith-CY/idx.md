@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rayleigh3105/garmin-connect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:02.404Z
+retrieved_at: 2026-02-05T19:13:57.508Z
 content_sha256: 01c29630248ee603552c5fb441bc048d09eec3f9eb5a87582e260c279bc14347
 ---

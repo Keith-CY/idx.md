@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/content-id-guide/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:49:39.452Z
+retrieved_at: 2026-02-05T19:13:56.782Z
 content_sha256: a63f258a5bbb5962b56e63f1900eddc9c01cabd4ac4943f0524ded2bf16d6f76
 ---

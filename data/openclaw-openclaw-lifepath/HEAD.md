@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ezbreadsniper/lifepath/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:19.531Z
+retrieved_at: 2026-02-05T19:13:58.259Z
 content_sha256: afa0e74637edba3e6b8c89452e8eb610e0a182bb477d5d171e0234b0089d886e
 ---

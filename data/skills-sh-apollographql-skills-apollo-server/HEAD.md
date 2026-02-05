@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/main/skills/apollo-server/references/resolvers.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-server
-retrieved_at: 2026-02-05T09:49:01.192Z
+retrieved_at: 2026-02-05T19:13:53.722Z
 content_sha256: 55a33184bb8e1d4fac044523888fa8267afe40f7557fbb508c77032e9ea32ea9
 ---

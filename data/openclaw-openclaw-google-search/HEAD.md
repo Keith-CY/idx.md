@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mxfeinberg/google-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:07.789Z
+retrieved_at: 2026-02-05T19:13:57.695Z
 content_sha256: d9600f3dc7af3761e2b2f421e05e78238f1f11d2e22cad0a35160bb1697c11a2
 ---

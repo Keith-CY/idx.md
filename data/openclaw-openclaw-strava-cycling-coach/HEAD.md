@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericrosenberg/strava-cycling-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:18.277Z
+retrieved_at: 2026-02-05T19:14:27.447Z
 content_sha256: d3fff51cea53299d8b493fb638cfb2828712e4d55b0e76fb82c09128291933f7
 ---

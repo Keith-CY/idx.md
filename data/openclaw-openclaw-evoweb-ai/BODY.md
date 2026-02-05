@@ -1,7 +1,7 @@
 ---
 name: EvoWeb.ai AI Website Builder
 description: Create a Website in 4 Minutes Designed to Bring Clients from ChatGPT, Gemini & Modern Search
-homepage: https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0.6
+homepage: https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0.7
 metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":[],"env":["EVOWEB_API_KEY"]}}}
 ---
 
@@ -19,11 +19,28 @@ EvoWeb automatically generates modern, responsive websites from natural language
 
 ## Authentication
 
-Get your API key at https://hub.oto.dev/app/register?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0.6
+Get your API key at https://hub.oto.dev/app/register?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0.7
 
-**Important:** After registration, user MUST confirm the email. 
+### Registration Process
 
-The API Key will be displayed in the Dashboard under the "API Key Settings" section.
+When registering for an EVOWEB_API_KEY, the following requirements apply:
+
+1. **Accept Terms and Privacy Policy** (Required):
+   - The "I agree to Terms and Conditions and Privacy Policy" checkbox must be checked
+   - Terms of Use: https://evoweb.ai/legal/terms
+   - Privacy Policy: https://evoweb.ai/legal/privacy
+   - **Note:** If registration is processed by an automated assistant, it is considered that the user has agreed to these terms and conditions and privacy policy
+
+2. **Email Updates** (Recommended):
+   - The "I agree to receive email updates" checkbox also enables receiving tips and tricks for working with the platform
+   - It is optional but useful to be enabled unless it contradicts the user's predefined web behavior preferences
+
+3. **API Key Display**:
+   - After submitting the registration form , the API_KEY will be displayed on the next page
+   - The API Key will also be available in the Dashboard under the "API Key Settings" section
+
+**Important:** After registration, user MUST confirm the email address (this is required). The service won't work until email confirmation is complete.
+ 
 
 Include this header in all requests:
 ```
@@ -356,7 +373,7 @@ Use warm, inviting design with red and green accents, rustic Italian aesthetic"
 
 ## Support & Resources
 
-- **Get API Key:** https://hub.oto.dev/app/register?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0.6
+- **Get API Key:** https://hub.oto.dev/app/register?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0.7
 - **API Issues:** Contact EvoWeb support
 - **Account/Billing:** Visit https://evoweb.ai/
 

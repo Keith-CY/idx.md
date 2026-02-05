@@ -21,6 +21,6 @@ tags:
 source_url: https://raw.githubusercontent.com/youmind-openlab/nano-banana-pro-prompts-recommend-skill/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommend-skill/nano-banana-pro-prompts-recommend-skill
-retrieved_at: 2026-02-05T09:51:49.449Z
-content_sha256: 50b757e6b17fef064b47972a33fe258076f455b52aee945e23186e447a8162a3
+retrieved_at: 2026-02-05T19:14:56.075Z
+content_sha256: 9209a7ffa2309b57417e9193cce562bf68b1ffdd56863cd9a37ac09743e0ed21
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mve/slidespeak/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:14.432Z
+retrieved_at: 2026-02-05T19:14:23.557Z
 content_sha256: f0e378e3c78c28f5de54d8990fe9e755d86b292306eadf408b8f562408a6c79f
 ---

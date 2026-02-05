@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/waynesutton/convexskills/main/skills/convex-eslint/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/waynesutton/convexskills/convex-best-practices
-retrieved_at: 2026-02-05T09:48:53.760Z
+retrieved_at: 2026-02-05T19:13:52.437Z
 content_sha256: 0f603932229e9ad8c6a68d9f51630b96e07e1a9ff4ce9b7fb8f2bbcf192f5eea
 ---

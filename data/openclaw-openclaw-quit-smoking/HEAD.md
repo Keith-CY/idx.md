@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-smoking/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:01.169Z
+retrieved_at: 2026-02-05T19:14:08.772Z
 content_sha256: 493ee30a1f880b1c5f254555f2f65041a517f6147cf0dcaafe4595d9cdda70d8
 ---

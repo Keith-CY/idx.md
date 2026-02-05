@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-playlist/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:46.417Z
+retrieved_at: 2026-02-05T19:14:51.809Z
 content_sha256: ce206f1227647d5ea6340f006313acf7abfe5a46d2923efdbc7cbfaf3210ba8f
 ---

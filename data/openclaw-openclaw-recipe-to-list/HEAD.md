@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/recipe-to-list/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:02.889Z
+retrieved_at: 2026-02-05T19:14:10.557Z
 content_sha256: 1e6e636ba1ab9e6004b86dd84a265799f0de23b3728184d2994a01a5704435a0
 ---

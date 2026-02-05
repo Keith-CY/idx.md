@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arein/travel-concierge/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:28.588Z
+retrieved_at: 2026-02-05T19:14:36.693Z
 content_sha256: bdf32c660e56debbb50ee937b8a88e5c318f5f3949ececc1b87d045bd0c19679
 ---

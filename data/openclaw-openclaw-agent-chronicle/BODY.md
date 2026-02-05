@@ -1,6 +1,6 @@
 ---
 name: agent-chronicle
-version: 0.5.0
+version: 0.6.0
 description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, and Relationship Evolution. Generates personal, emotional entries from the agent's perspective. Works best with Claude models (Haiku, Sonnet, Opus).
 metadata: {"clawdbot":{"requires":{"bins":["python3"]}}}
 ---
@@ -77,15 +77,42 @@ cp config.example.json config.json
 
 ### Write Today's Entry
 
+#### Recommended (v0.6.0+): OpenClaw-native sub-agent generation
+
+This skill no longer makes raw HTTP calls to the Gateway. Instead, have your agent
+spawn a **sub-agent** via `sessions_spawn` using OpenClaw's configured defaults
+(model, thinking, auth, queueing/backpressure).
+
+Workflow:
+
+1) **Emit a generation task JSON** (context + prompts):
 ```bash
-# Generate entry from today's sessions
-python3 scripts/generate.py --today
+python3 scripts/generate.py --today --emit-task > /tmp/chronicle-task.json
+```
 
-# Write manually with prompts
+2) **Spawn a sub-agent** (inside your agent run):
+- Read `/tmp/chronicle-task.json`
+- Use `sessions_spawn` with a task like:
+  - system: `task.system`
+  - user: `task.prompt`
+  - ask the sub-agent to **output only the final markdown entry**
+
+3) **Save the generated entry**:
+```bash
+# Pipe the sub-agent's markdown output into the saver
+python3 scripts/generate.py --today --from-stdin
+```
+
+#### Manual fallback: Interactive mode
+
+```bash
 python3 scripts/generate.py --interactive
+```
 
-# Preview without saving
-python3 scripts/generate.py --today --dry-run
+#### Preview without saving
+
+```bash
+python3 scripts/generate.py --today --interactive --dry-run
 ```
 
 ### View & Export

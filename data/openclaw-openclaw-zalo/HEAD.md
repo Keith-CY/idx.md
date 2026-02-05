@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/zalo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:47.531Z
+retrieved_at: 2026-02-05T19:14:52.849Z
 content_sha256: 8d233aac693a235d827e92b0f74786f434b9f3ff4d8bd532b5a6a1c7cd0efaf8
 ---

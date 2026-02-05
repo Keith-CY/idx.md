@@ -4,7 +4,7 @@ description: "Background memory organ for AI agents. Runs separately from the ma
 metadata:
   openclaw:
     emoji: "🧠"
-    version: "3.7.1"
+    version: "3.8.4"
     author: "Community"
     repo: "https://github.com/ImpKind/hippocampus-skill"
     requires:

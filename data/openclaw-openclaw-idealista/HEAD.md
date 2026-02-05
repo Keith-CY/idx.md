@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/quifago/idealista/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:12.571Z
+retrieved_at: 2026-02-05T19:13:57.906Z
 content_sha256: 0952926b9b3a2b777d0992808feb24782700eb4179a287919265dc4f9268f9a5
 ---

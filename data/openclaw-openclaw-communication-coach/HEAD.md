@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmoggach/communication-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:49:38.282Z
+retrieved_at: 2026-02-05T19:13:56.745Z
 content_sha256: 6436b62fa55689ced84856c4ca712ebda8769fa49ebf893b4110c7910c3137f1
 ---

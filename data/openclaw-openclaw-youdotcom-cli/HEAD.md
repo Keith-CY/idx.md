@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/youdotcom-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:45.529Z
-content_sha256: b6466edd118ddb15a063cb6ee5cff92890aa29a9c758b44621b45369a279c5dd
+retrieved_at: 2026-02-05T19:14:51.029Z
+content_sha256: eeff0a04faafd79fb65625ce5a86a15ebea28c2f6d08d5e24c2e322f2eafea5c
 ---

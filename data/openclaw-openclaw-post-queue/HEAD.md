@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luluf0x/post-queue/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:54.447Z
+retrieved_at: 2026-02-05T19:14:03.528Z
 content_sha256: 44f68560ac44e2ab562ddf72ffdbe3d8aa8b7e71a50dc0b43be99da5844f8498
 ---

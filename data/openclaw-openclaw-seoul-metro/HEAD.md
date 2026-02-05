@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dukbong/seoul-metro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:10.741Z
+retrieved_at: 2026-02-05T19:14:17.828Z
 content_sha256: fd8b7839f2b6c009f96c8a97b548c0bc79073938167a3217ee3aa9437a0034c2
 ---

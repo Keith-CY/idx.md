@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/kylezantos/design-engineer-auditor-package/main/skills/design-motion-principles/audit-checklist.md
 license: ""
 upstream_ref: https://skills.sh/kylezantos/design-engineer-auditor-package/design-motion-principles
-retrieved_at: 2026-02-05T09:51:53.043Z
+retrieved_at: 2026-02-05T19:14:59.189Z
 content_sha256: 42dfa5637766c6868aea875b24b7ceab8a156ea91b79c0cf7233579992b46f4d
 ---

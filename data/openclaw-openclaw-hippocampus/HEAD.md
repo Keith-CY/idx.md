@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/hippocampus/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:50:10.792Z
-content_sha256: d558f6bd040bd05ea7bf3467a824bbc2ea3d032980587055ab17bb923d993f0f
+retrieved_at: 2026-02-05T19:13:57.820Z
+content_sha256: 917c6ef51cab6af12eec01f49b1f67caadf5cf97a6f2cee3bf7d57649c303993
 ---

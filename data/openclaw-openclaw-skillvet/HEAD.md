@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oakencore/skillvet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:14.071Z
-content_sha256: 67aa47dc13027a30edf7830ce411b302d221c3f3e3580c9db2609c7055b07820
+retrieved_at: 2026-02-05T19:14:22.987Z
+content_sha256: 652099d5cc30866c2b44e287794837b2c63882eac9b45165a06d27adf21b4f93
 ---

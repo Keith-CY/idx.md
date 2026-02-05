@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/local/xuezh/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T09:51:44.546Z
+retrieved_at: 2026-02-05T19:14:50.222Z
 content_sha256: 91e30e0c76bb86ba0a4bcabc285a783322ccf0ca5d69e617ad2f98713abf1050
 ---
