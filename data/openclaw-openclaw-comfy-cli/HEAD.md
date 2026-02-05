@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/johntheyoung/comfy-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:32.025Z
+retrieved_at: 2026-02-05T06:02:15.414Z
 content_sha256: 801c72a440eedb9d87ccde204a48f976fca782adc6df1a6e2767d654f46c7dfa
 ---

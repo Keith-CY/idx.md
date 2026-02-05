@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/go2gg/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:37.194Z
+retrieved_at: 2026-02-05T06:03:16.671Z
 content_sha256: 491ef3647871865ff612f987fa1e42d15cbe762ab5584cafa847e600d599e302
 ---

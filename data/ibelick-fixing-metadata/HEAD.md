@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
-retrieved_at: 2026-02-04T07:01:00.852Z
+retrieved_at: 2026-02-05T06:00:58.837Z
 content_sha256: 08b706369e9083d536cb0bb69f69114acfa63efcad39a3efc28abc7284fc7cf4
 ---

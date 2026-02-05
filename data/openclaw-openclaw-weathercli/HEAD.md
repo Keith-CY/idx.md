@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pjtf93/weathercli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:54.695Z
+retrieved_at: 2026-02-05T06:06:45.739Z
 content_sha256: f00ba5ea644402239cbbb4e7785f486f48dfe8ab22d6dca1864aa8f78d8e86f2
 ---

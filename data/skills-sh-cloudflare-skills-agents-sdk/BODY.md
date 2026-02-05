@@ -1,164 +1,132 @@
-# State & Scheduling
+# Workflows Integration
 
-Fetch `docs/state.md` and `docs/scheduling.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.
+Fetch `docs/workflows.md` from `https://github.com/cloudflare/agents/tree/main/docs` for complete documentation.
 
-## State Management
+## Overview
 
-State persists to SQLite and broadcasts to connected clients automatically.
+Agents handle real-time communication; Workflows handle durable execution. Together they enable:
 
-### Define Typed State
+- Long-running background tasks with automatic retries
+- Human-in-the-loop approval flows
+- Multi-step pipelines that survive failures
 
-```typescript
-type State = { 
-  count: number;
-  items: string[];
-};
+| Use Case | Recommendation |
+|----------|----------------|
+| Chat/messaging | Agent only |
+| Quick API calls (<30s) | Agent only |
+| Background processing (<30s) | Agent `queue()` |
+| Long-running tasks (>30s) | Agent + Workflow |
+| Human approval flows | Agent + Workflow |
 
-export class MyAgent extends Agent<Env, State> {
-  initialState: State = { count: 0, items: [] };
-}
-```
-
-### Read and Update
-
-```typescript
-// Read (lazy-loaded from SQLite)
-const count = this.state.count;
-
-// Write (sync, persists, broadcasts)
-this.setState({ count: this.state.count + 1 });
-```
-
-### Validation Hook
-
-`validateStateChange()` runs synchronously before state persists. Throw to reject the update.
+## AgentWorkflow Base Class
 
 ```typescript
-validateStateChange(nextState: State, source: Connection | "server") {
-  if (nextState.count < 0) {
-    throw new Error("Count cannot be negative");
+import { AgentWorkflow } from "agents/workflows";
+import type { AgentWorkflowEvent, AgentWorkflowStep } from "agents/workflows";
+
+type TaskParams = { taskId: string; data: string };
+
+export class ProcessingWorkflow extends AgentWorkflow<MyAgent, TaskParams> {
+  async run(event: AgentWorkflowEvent<TaskParams>, step: AgentWorkflowStep) {
+    const params = event.payload;
+
+    // Durable step - retries on failure
+    const result = await step.do("process", async () => {
+      return processData(params.data);
+    });
+
+    // Non-durable: progress reporting
+    await this.reportProgress({ step: "process", percent: 0.5 });
+
+    // Non-durable: broadcast to connected clients
+    this.broadcastToClients({ type: "update", taskId: params.taskId });
+
+    // Durable: merge state via step
+    await step.mergeAgentState({ lastProcessed: params.taskId });
+
+    // Durable: report completion
+    await step.reportComplete(result);
+
+    return result;
   }
 }
 ```
 
-### Execution Order
+## Wrangler Configuration
 
-1. `validateStateChange(nextState, source)` - sync, gating
-2. State persisted to SQLite
-3. State broadcast to connected clients
-4. `onStateUpdate(nextState, source)` - async via `ctx.waitUntil`, non-gating
-
-### Client-Side Sync (React)
-
-```tsx
-import { useAgent } from "agents/react";
-
-function App() {
-  const [state, setLocalState] = useState<State>({ count: 0 });
-  
-  const agent = useAgent<State>({
-    agent: "MyAgent",
-    name: "instance-1",
-    onStateUpdate: (newState) => setLocalState(newState)
-  });
-
-  return <button onClick={() => agent.setState({ count: state.count + 1 })}>
-    Count: {state.count}
-  </button>;
+```jsonc
+{
+  "workflows": [
+    { "name": "processing-workflow", "binding": "PROCESSING_WORKFLOW", "class_name": "ProcessingWorkflow" }
+  ],
+  "durable_objects": {
+    "bindings": [{ "name": "MyAgent", "class_name": "MyAgent" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["MyAgent"] }]
 }
 ```
 
-## SQL API
-
-Direct SQLite access for custom queries:
+## Agent Methods for Workflows
 
 ```typescript
-// Create table
-this.sql`
-  CREATE TABLE IF NOT EXISTS items (
-    id TEXT PRIMARY KEY,
-    name TEXT,
-    created_at INTEGER DEFAULT (unixepoch())
-  )
-`;
+// Start a workflow
+const instance = await this.runWorkflow("ProcessingWorkflow", { taskId: "123", data: "..." });
 
-// Insert
-this.sql`INSERT INTO items (id, name) VALUES (${id}, ${name})`;
+// Send event to waiting workflow
+await this.sendWorkflowEvent("ProcessingWorkflow", workflowId, { type: "approve" });
 
-// Query with types
-const items = this.sql<{ id: string; name: string }>`
-  SELECT * FROM items WHERE name LIKE ${`%${search}%`}
-`;
-```
+// Query workflows
+const workflow = await this.getWorkflow(workflowId);
+const workflows = await this.getWorkflows({ status: "running" });
 
-## Scheduling
+// Control workflows
+await this.approveWorkflow(workflowId);
+await this.rejectWorkflow(workflowId);
+await this.terminateWorkflow(workflowId);
+await this.pauseWorkflow(workflowId);
+await this.resumeWorkflow(workflowId);
 
-### Schedule Types
-
-| Mode | Syntax | Use Case |
-|------|--------|----------|
-| Delay | `this.schedule(60, ...)` | Run in 60 seconds |
-| Date | `this.schedule(new Date(...), ...)` | Run at specific time |
-| Cron | `this.schedule("0 8 * * *", ...)` | Recurring schedule |
-| Interval | `this.scheduleEvery(30, ...)` | Fixed interval (every 30s) |
-
-### Examples
-
-```typescript
-// Delay (seconds)
-await this.schedule(60, "checkStatus", { id: "abc123" });
-
-// Specific date
-await this.schedule(new Date("2025-12-25T00:00:00Z"), "sendGreeting", { to: "user" });
-
-// Cron (recurring)
-await this.schedule("0 9 * * 1-5", "weekdayReport", {});
-
-// Fixed interval (every 30 seconds, overlap prevention built-in)
-await this.scheduleEvery(30, "pollUpdates");
-await this.scheduleEvery(300, "syncData", { source: "api" });
-```
-
-### Handler
-
-```typescript
-async sendGreeting(payload: { to: string }, schedule: Schedule) {
-  console.log(`Sending greeting to ${payload.to}`);
-  // Cron schedules auto-reschedule; one-time schedules are deleted
-}
-```
-
-### Manage Schedules
-
-```typescript
-const schedules = this.getSchedules();
-const crons = this.getSchedules({ type: "cron" });
-await this.cancelSchedule(schedule.id);
+// Delete workflows
+await this.deleteWorkflow(workflowId);
+await this.deleteWorkflows({ status: "complete", before: new Date(...) });
 ```
 
 ## Lifecycle Callbacks
 
 ```typescript
 export class MyAgent extends Agent<Env, State> {
-  async onStart() {
-    // Agent started or woke from hibernation
+  async onWorkflowProgress(workflowName: string, workflowId: string, progress: unknown) {
+    // Workflow reported progress via this.reportProgress()
+    this.broadcast({ type: "progress", workflowId, progress });
   }
 
-  onConnect(conn: Connection, ctx: ConnectionContext) {
-    // WebSocket connected
+  async onWorkflowComplete(workflowName: string, workflowId: string, result?: unknown) {
+    // Workflow finished successfully
   }
 
-  onMessage(conn: Connection, message: WSMessage) {
-    // WebSocket message (non-RPC)
+  async onWorkflowError(workflowName: string, workflowId: string, error: Error) {
+    // Workflow failed
   }
 
-  onStateUpdate(state: State, source: Connection | "server") {
-    // State changed (async, non-blocking)
-  }
-
-  onError(error: unknown) {
-    // Error handler
-    throw error; // Re-throw to propagate
+  async onWorkflowEvent(workflowName: string, workflowId: string, event: unknown) {
+    // Workflow received an event via sendWorkflowEvent()
   }
 }
+```
+
+## Human-in-the-Loop
+
+```typescript
+// In workflow: wait for approval
+const approved = await step.waitForEvent<{ approved: boolean }>("approval", {
+  timeout: "7d"
+});
+
+if (!approved.approved) {
+  throw new Error("Rejected");
+}
+
+// From agent: approve or reject
+await this.approveWorkflow(workflowId);  // Sends { approved: true }
+await this.rejectWorkflow(workflowId);   // Sends { approved: false }
 ```

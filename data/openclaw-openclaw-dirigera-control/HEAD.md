@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/falderebet/dirigera-control/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:33.590Z
-content_sha256: 5fba65be1a9149d54b8b377b7a59ebf44fae65bf87fc150e25816403e0bdc318
+retrieved_at: 2026-02-05T06:02:36.095Z
+content_sha256: ba100e5d3f78c05baf15b3390ae0d1eff9b533edaf29eea9c9e5121ca7a58c15
 ---

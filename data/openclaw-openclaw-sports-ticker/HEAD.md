@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/sports-ticker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:49.387Z
-content_sha256: bbb03f234ee3ea4fe15fdac7432b80ae3e5627f6be1dd46df528eb806f290b14
+retrieved_at: 2026-02-05T06:05:59.729Z
+content_sha256: e9052a617d71ebd55552165e52da3e75de34d02a9a5bd1e422e66da73b7f3bb5
 ---

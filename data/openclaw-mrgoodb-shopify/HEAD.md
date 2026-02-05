@@ -17,6 +17,6 @@ tags: []
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/shopify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:01:00.575Z
+retrieved_at: 2026-02-05T06:00:15.119Z
 content_sha256: 18ec875bfa85f598bb9aed704dc4c04092b00b47106462d48a51aced3209d4be
 ---

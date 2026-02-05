@@ -28,6 +28,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/create-plan/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/create-plan/SKILL.md
-retrieved_at: 2026-02-04T07:00:17.516Z
+retrieved_at: 2026-02-05T06:07:18.089Z
 content_sha256: e3c1af59fe8fc6a040f50504babb5003c4489eee4fcfd987794227758f7291a3
 ---

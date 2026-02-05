@@ -1,14 +1,19 @@
 ---
 name: smart-followups
-version: 2.0.1
-description: Generate contextual follow-up suggestions after AI responses. Shows 3 clickable buttons (Quick, Deep Dive, Related) when user asks for "followups".
+version: 2.1.1
+description: Generate contextual follow-up suggestions after AI responses. Shows 3 clickable buttons (Quick, Deep Dive, Related) when user types "/followups".
 metadata: {"clawdbot":{"requires":{"bins":["node"],"env":["OPENROUTER_API_KEY","ANTHROPIC_API_KEY"]}}}
 triggers:
+  - /followups
   - followups
   - follow-ups
   - suggestions
   - give me suggestions
   - what should I ask
+commands:
+  - name: followups
+    description: Generate 3 smart follow-up suggestions based on conversation context
+    aliases: [fu, suggestions, next]
 channels:
   - telegram
   - discord
@@ -25,18 +30,35 @@ channels:
 
 Generate contextual follow-up suggestions for OpenClaw conversations.
 
+## 🚀 Slash Command (New in v2.1.0!)
+
+**Primary command:**
+```
+/followups
+```
+
+**Aliases:**
+```
+/fu
+/suggestions
+```
+
+When you type `/followups`, I'll generate 3 contextual follow-up questions based on our conversation:
+
+1. ⚡ **Quick** — Clarification or immediate next step
+2. 🧠 **Deep Dive** — Technical depth or detailed exploration
+3. 🔗 **Related** — Connected topic or broader context
+
+---
+
 ## How to Trigger
 
-Say any of these to get follow-up suggestions:
-
-| Trigger | Example |
-|---------|---------|
-| `followups` | "followups" |
-| `follow-ups` | "give me follow-ups" |
-| `suggestions` | "any suggestions?" |
-| `what next` | "what should I ask next?" |
-
-> **Note:** This is a keyword the agent recognizes, not a registered `/slash` command. OpenClaw skills are guidance docs that tell the agent how to respond.
+| Method | Example | Recommended |
+|--------|---------|-------------|
+| `/followups` | Just type it! | ✅ Yes |
+| `/fu` | Short alias | ✅ Yes |
+| Natural language | "give me suggestions" | Works too |
+| After any answer | "what should I ask next?" | Works too |
 
 ## Usage
 

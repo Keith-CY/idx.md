@@ -4,6 +4,12 @@ description: Speech-To-Text with MLX (Apple Silicon) and GLM-ASR-Nano-2512 local
 metadata: {"openclaw":{"always":true,"emoji":"🦞","homepage":"https://github.com/guoqiao/skills/blob/main/mlx-stt/mlx-stt/SKILL.md","os":["darwin"],"tags":["latest","asr","stt","speech-to-text","audio","glm","glm-asr","glm-asr-nano-2512","glm-asr-nano-2512-8bit","macOS","MacBook","Mac mini","Apple Silicon","mlx","mlx-audio"],"requires":{"bins":["brew"]}}}
 ---
 
+# ⚠️ Deprecation Notice
+
+This skill is **deprecated** and will no longer receive updates.
+
+Please use **mlx-audio-server** instead, which replaces this skill and provides improved functionality.
+
 # MLX STT
 
 Speech-To-Text/ASR/Transcribe with MLX (Apple Silicon) and GLM-ASR-Nano-2512 locally.

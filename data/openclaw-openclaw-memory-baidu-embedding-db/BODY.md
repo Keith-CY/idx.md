@@ -41,8 +41,8 @@ A semantic memory system for Clawdbot that uses Baidu's Embedding-V1 model to st
 
 Set environment variables:
 ```bash
-export BAIDU_API_STRING='your_bce_v3_api_string'
-export BAIDU_SECRET_KEY='your_secret_key'
+export BAIDU_API_STRING='${BAIDU_API_STRING}'
+export BAIDU_SECRET_KEY='${BAIDU_SECRET_KEY}'
 ```
 
 ## 🚀 Usage Examples

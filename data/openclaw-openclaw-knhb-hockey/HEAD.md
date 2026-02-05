@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tader/knhb-hockey/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:39.852Z
+retrieved_at: 2026-02-05T06:03:49.252Z
 content_sha256: 5729cce710ac32c73e090ec1daecd5c48df2d3c6ddb5a89c10798401100c9184
 ---

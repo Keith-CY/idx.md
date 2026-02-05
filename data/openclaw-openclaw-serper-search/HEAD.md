@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/samoppakiks/serper-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:48.390Z
+retrieved_at: 2026-02-05T06:05:45.289Z
 content_sha256: edf281fabcad63e3dac131a40efea2bfd905594481420b66b54bfe60322e0e07
 ---

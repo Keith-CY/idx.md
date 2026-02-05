@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/heythisischris/gitclassic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:36.744Z
+retrieved_at: 2026-02-05T06:03:13.116Z
 content_sha256: 74ce07c89eb92db1a04fe885e91042650681b196974bcd970989de8178405cb1
 ---

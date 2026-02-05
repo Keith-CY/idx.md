@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/main/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-testing-best-practices
-retrieved_at: 2026-02-04T07:00:19.617Z
+retrieved_at: 2026-02-05T06:00:28.961Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---

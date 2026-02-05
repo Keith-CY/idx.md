@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xatter/taskleef/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:50.281Z
+retrieved_at: 2026-02-05T06:06:12.173Z
 content_sha256: 51fbe1514615925a171e54b014270d2cc6344dfc05903a8b473dc4566d861944
 ---

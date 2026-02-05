@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/copywriting/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:32.630Z
+retrieved_at: 2026-02-05T06:02:22.845Z
 content_sha256: 5b3ea76961e8de82f00083569f4ef275058afb70bb301a9153dd80f73837b18e
 ---

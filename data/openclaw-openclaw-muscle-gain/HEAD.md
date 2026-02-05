@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/muscle-gain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:42.529Z
+retrieved_at: 2026-02-05T06:04:23.167Z
 content_sha256: 593db003757b64e064b60b9d47f6411a470764a459dc1c5d597e2ac6e7cf97f1
 ---

@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/sawyerhood/dev-browser/main/skills/dev-browser/references/scraping.md
 license: ""
 upstream_ref: https://skills.sh/sawyerhood/dev-browser/dev-browser
-retrieved_at: 2026-02-04T07:00:22.717Z
+retrieved_at: 2026-02-05T06:00:52.541Z
 content_sha256: 44031cea3262dbf909d3657897b0b8bb30f0760520887f64e118b8f319cadddd
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/featurebase/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:35.196Z
+retrieved_at: 2026-02-05T06:02:55.450Z
 content_sha256: 61b9abccb211a45ac4424b51a58c4351855bf3231634958cb4c8d0403daf3a59
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maherucifer/mersal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:41.330Z
-content_sha256: add3f25d0f887b823bca9737de66ce37dbb80b3a8cfe272f23daa1b001873cdf
+retrieved_at: 2026-02-05T06:04:07.955Z
+content_sha256: 56c5e8f3fff39155bdc54b5a9d81d168c16fa9a3b39c39661a20bf54dbfdc1ad
 ---

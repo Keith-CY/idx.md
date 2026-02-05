@@ -24,11 +24,15 @@ This skill teaches an agent how to use the `hzl` CLI.
 **Use HZL by default for any non-trivial task tracking:**
 
 - Multi-step projects with real sequencing (dependencies) and handoffs
-- Work that spans multiple sessions, days, or tools/agents
+- Work that may outlive this session or span multiple tools/agents
 - Orchestration: delegating work to sub-agents and needing recovery if they crash
 - Anything where "resume exactly where we left off" matters
 - **Any work you want to persist beyond this session**
 - **Any work that needs structure (nesting, dependencies, progress tracking)**
+- **Any work that benefits from a durable record of decisions or ownership**
+
+Multi-session or multi-agent work are common reasons to use HZL, not requirements.
+Use HZL for single-session, single-agent work when the task is non-trivial.
 
 **Why HZL is the right choice for OpenClaw:**
 
@@ -45,6 +49,10 @@ Without HZL, OpenClaw tracks tasks in-context (burns space, fragments during com
 - Truly trivial, one-step tasks you will complete immediately in this session
 - Time-based reminders/alerts (use OpenClaw Cron instead)
 - Longform notes or knowledge capture (use a notes or memory system)
+
+**Rule of thumb:** If you feel tempted to make a multi-step plan or there is any chance you will not finish in this session, use HZL.
+
+Example: "Investigate failing tests and fix root cause" -> use HZL because it likely involves multiple subtasks, even if you expect to finish within a session.
 
 Personal tasks: HZL is not a polished human to-do app, but it is usable for personal task tracking, and it can also serve as a backend for a lightweight UI.
 
@@ -103,12 +111,24 @@ HZL supports one level of nesting (parent → subtasks). Scope parent tasks to c
 - Parts deliver independent value (can ship separately)
 - You're solving distinct problems that happen to be related
 
-**Adding context:** Use `--links` to attach specs or reference docs when the description isn't enough:
+**Adding context:** Use `-d` for details, `-l` for reference docs:
 ```bash
 hzl task add "Install garage sensors" -P openclaw \
-  --links docs/sensor-spec.md \
-  --links "https://example.com/wiring-guide"
+  -d "Per linked spec. Mount sensors at 7ft height." \
+  -l docs/sensor-spec.md,https://example.com/wiring-guide
 ```
+
+**Don't duplicate specs into descriptions**—this creates drift. Reference docs instead.
+
+**If no docs exist**, include enough detail for another agent to complete the task:
+```bash
+hzl task add "Configure motion alerts" -P openclaw -d "$(cat <<'EOF'
+Trigger alert when motion detected between 10pm-6am.
+Use Home Assistant automation. Notify via Pushover.
+EOF
+)"
+```
+Description supports markdown (16KB max).
 
 ## ⚠️ DESTRUCTIVE COMMANDS - READ CAREFULLY
 
@@ -126,54 +146,85 @@ The following commands **PERMANENTLY DELETE HZL DATA** and cannot be undone:
 - `hzl task prune` deletes only tasks in terminal states (done/archived) older than the specified age
 - There is NO undo. There is NO recovery without a backup.
 
-## Quick reference
+## Core Workflows
+
+**Setup:**
+```bash
+hzl project list                    # Always check first
+hzl project create openclaw         # Only if needed
+```
+
+**Adding work:**
+```bash
+hzl task add "Feature X" -P openclaw -s ready         # Ready to claim
+hzl task add "Subtask A" --parent <id>                # Subtask
+hzl task add "Subtask B" --parent <id> --depends-on <subtask-a-id>  # With dependency
+```
+
+**Working on a task:**
+```bash
+hzl task next -P openclaw                # Next available task
+hzl task next --parent <id>              # Next subtask of parent
+hzl task next -P openclaw --claim        # Find and claim in one step
+hzl task claim <id>                      # Claim specific task
+hzl task checkpoint <id> "milestone X"   # Notable progress or before pausing
+```
+
+**Changing status:**
+```bash
+hzl task set-status <id> ready           # Make claimable (from backlog)
+hzl task set-status <id> backlog         # Move back to planning
+```
+Statuses: `backlog` → `ready` → `in_progress` → `done` (or `blocked`)
+
+**When blocked:**
+```bash
+hzl task block <id> --comment "Waiting for API keys from DevOps"
+hzl task unblock <id>                    # When resolved
+```
+
+**Finishing work:**
+```bash
+hzl task comment <id> "Implemented X, tested Y"  # Optional: final notes
+hzl task complete <id>
+
+# After completing a subtask, check parent:
+hzl task show <parent-id> --json         # Any subtasks left?
+hzl task complete <parent-id>            # If all done, complete parent
+```
+
+**Troubleshooting:**
+| Error | Fix |
+|-------|-----|
+| "not claimable (status: backlog)" | `hzl task set-status <id> ready` |
+| "Cannot complete: status is X" | Claim first: `hzl task claim <id>` |
+
+---
+
+## Extended Reference
 
 ```bash
 # Setup
 hzl init                                      # Initialize (safe, won't overwrite)
-hzl init --reset-config                       # Reset config to default location (non-destructive)
-hzl project create <project>
-hzl project list
+hzl init --reset-config                       # Reset config to default location
+hzl status                                    # Database mode, paths, sync state
+hzl doctor                                    # Health check for debugging
 
-# Create tasks
-hzl task add "<title>" -P <project>
-hzl task add "<title>" -P <project> --priority 2 --tags backend,auth
-hzl task add "<title>" -P <project> --depends-on <other-id>
+# Create with options
+hzl task add "<title>" -P openclaw --priority 2 --tags backend,auth
+hzl task add "<title>" -P openclaw --depends-on <other-id>
+hzl task add "<title>" -P openclaw -s in_progress --assignee <name>  # Create and claim
 
-# Subtasks (organize related work)
-hzl task add "<title>" --parent <parent-id>   # Create subtask
-hzl task list --parent <parent-id>            # List subtasks
-hzl task list --root                          # Top-level tasks only
-hzl task next --parent <parent-id>            # Next subtask of parent
+# List and find
+hzl task list -P openclaw --available        # Ready tasks with met dependencies
+hzl task list --parent <id>                  # Subtasks of a parent
+hzl task list --root                         # Top-level tasks only
 
-# Find work
-hzl task list --project <project> --available
-hzl task next --project <project>
-
-# Create with initial status (skip the claim dance)
-hzl task add "<title>" -P <project> -s ready               # Create ready to claim
-hzl task add "<title>" -P <project> -s in_progress --assignee <name>  # Create and claim
-
-# Work + persist progress
-hzl task claim <id> --assignee <agent-id>
-hzl task checkpoint <id> "<what changed / what's next>" [--progress 50]
-hzl task progress <id> 50                     # Set progress without checkpoint
-hzl task show <id> --json
-hzl task complete <id>
-
-# Blocked tasks (stuck on external issues)
-hzl task block <id> --comment "Blocked: waiting for API key from DevOps"
-hzl task unblock <id>                         # Returns to in_progress
-
-# Dependencies + validation
+# Dependencies
 hzl task add-dep <task-id> <depends-on-id>
-hzl validate
+hzl validate                                 # Check for circular dependencies
 
-# Diagnostics
-hzl status   # database mode, paths, sync state
-hzl doctor   # health check for debugging
-
-# Web Dashboard (human visibility into task state)
+# Web Dashboard
 hzl serve                    # Start on port 3456 (network accessible)
 hzl serve --host 127.0.0.1   # Restrict to localhost only
 hzl serve --background       # Fork to background
@@ -235,13 +286,11 @@ hzl task add "Docs + rollout plan" -P myapp-auth --priority 1 --depends-on <test
 hzl validate
 ```
 
-### Work a task with checkpoints and progress
+### Work a task with checkpoints
 
-Checkpoint early and often. A checkpoint should be short and operational:
-- what you verified
-- what you changed
-- what's next
-- what's blocking you (if anything)
+Checkpoint at notable milestones or before pausing work. A checkpoint should be short and operational:
+- what you accomplished
+- what's next (if continuing)
 
 ```bash
 hzl task claim <id> --assignee orchestrator
@@ -323,9 +372,13 @@ hzl task next --parent abc123
 
 **Important:** `hzl task next` only returns leaf tasks (tasks without children). Parent tasks are organizational containers—they are never returned as "next available work."
 
-When all subtasks are done, manually complete the parent:
+**Finishing subtasks:** After completing each subtask, check if the parent has remaining work:
 ```bash
-hzl task complete abc123
+hzl task complete <subtask-id>
+
+# Check parent status
+hzl task show abc123 --json         # Any subtasks left?
+hzl task complete abc123            # If all done, complete parent
 ```
 
 ## Web Dashboard
@@ -375,13 +428,25 @@ hzl serve --host 127.0.0.1   # Restrict to localhost only
 
 Use `--background` for temporary sessions. Use systemd for always-on access.
 
-## Troubleshooting
+## Best Practices
 
-| Error | Cause | Solution |
-|-------|-------|----------|
-| "Task is not claimable (status: backlog)" | Task needs to be ready before claiming | `hzl task set-status <id> ready`, or create with `-s ready` |
-| "Cannot block: status is X, expected in_progress or blocked" | Task must be claimed before blocking | Claim the task first: `hzl task claim <id> --assignee <name>` |
-| "Cannot complete: status is X" | Task must be in_progress or blocked | Claim the task first |
+1. **Always use `--json`** for programmatic output
+2. **Checkpoint at milestones** or before pausing work
+3. **Check for comments** before completing tasks
+4. **Use a single `openclaw` project** for all work
+5. **Use dependencies** to express sequencing, not priority
+6. **Use leases** for long-running work to enable stuck detection
+7. **Review checkpoints** before stealing stuck tasks
+
+## What HZL Does Not Do
+
+HZL is deliberately limited:
+
+- **No orchestration** - Does not spawn agents or assign work
+- **No task decomposition** - Does not break down tasks automatically
+- **No smart scheduling** - Uses simple priority + FIFO ordering
+
+These are features for your orchestration layer, not for the task tracker.
 
 ## OpenClaw-specific notes
 

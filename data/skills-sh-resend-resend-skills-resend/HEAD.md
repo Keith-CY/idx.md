@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resend/resend-skills/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/resend/resend-skills/resend
-retrieved_at: 2026-02-04T07:00:58.304Z
+retrieved_at: 2026-02-05T06:00:08.623Z
 content_sha256: c86c9c610ae49b7ac08357e95d5e28a945558507e7759d0189b3eaad11d31086
 ---

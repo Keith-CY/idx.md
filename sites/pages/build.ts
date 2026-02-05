@@ -215,6 +215,8 @@ try {
   await writeRejectedReport();
 }
 
+const INDEX_PREAMBLE =
+  "<!-- Contribute: open a PR to add new markdown sources to sources/general.yml -->";
 const sortedIndexEntries = indexEntries.sort((a, b) =>
   a.topic.localeCompare(b.topic),
 );
@@ -222,7 +224,10 @@ const indexSections = sortedIndexEntries.map((entry) =>
   formatIndexEntry(entry.topic, entry.headContent).trimEnd(),
 );
 const indexContent = indexSections.join("\n\n");
-await Bun.write(INDEX_PATH, indexContent ? `${indexContent}\n` : "");
+const indexOutput = indexContent
+  ? `${INDEX_PREAMBLE}\n${indexContent}\n`
+  : `${INDEX_PREAMBLE}\n`;
+await Bun.write(INDEX_PATH, indexOutput);
 await writeSkillDoc();
 
 if (rejected.length > 0) {

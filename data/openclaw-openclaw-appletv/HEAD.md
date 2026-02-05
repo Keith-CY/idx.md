@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucakaufmann/appletv/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:26.892Z
+retrieved_at: 2026-02-05T06:01:25.508Z
 content_sha256: 892aad2014960ca4bbeaafa41f1ebd9924abb83eb9cb4d045620df1efd86e941
 ---

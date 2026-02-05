@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/skills/baoyu-article-illustrator/references/styles.md
+source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-article-illustrator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
-retrieved_at: 2026-02-04T07:00:18.781Z
+retrieved_at: 2026-02-05T06:00:24.651Z
 content_sha256: d0d741a5b3cc839e18d0dd82be41de0401ce1d941f20a377997577352c65543e
 ---

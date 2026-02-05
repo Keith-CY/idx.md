@@ -16,6 +16,7 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 ## Index entry format
 - Each entry is a HEAD frontmatter block followed by a topic line.
 - Topic line format: `|/data/{topic}|`
+- The index may start with a short HTML comment preamble; entries begin at the first `---` frontmatter block.
 
 ---
 ...frontmatter...
@@ -49,3 +50,34 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 
 ## Example flow
 - Read `/index.md` -> pick `openclaw` -> fetch `/openclaw/HEAD.md` -> fetch `/openclaw/BODY.md`.
+
+## Contribute
+If you find a high-quality markdown resource that agents should know about, please open a PR to add it.
+
+### What to add
+- Add new sources to `sources/general.yml`.
+- Use a direct markdown URL (`.md`) and prefer `raw.githubusercontent.com` for GitHub content.
+- `.mdx` files are rejected.
+- Choose a `type` and `slug` that match `^[a-z0-9][a-z0-9-]*$`.
+- Avoid editing auto-generated registries (`sources/openclaw.yml`, `sources/openai.yml`, etc.) or `data/` outputs directly.
+
+### Minimal entry example
+```yaml
+- type: skills
+  slug: acme-awesome-skill
+  source_url: https://raw.githubusercontent.com/acme/awesome-skill/main/SKILL.md
+  title: Awesome Skill (optional)
+  summary: One-line summary (optional)
+  tags:
+    - skills
+  license: MIT (optional)
+  upstream_ref: https://github.com/acme/awesome-skill/blob/main/SKILL.md (optional)
+```
+
+### How to submit
+1. Fork the repo.
+2. Add your entry to `sources/general.yml`.
+3. Open a PR with a short note on why the source is valuable for agents.
+4. If you can run the build, include generated `data/` updates; otherwise the maintainer will handle it.
+
+Thanks for helping keep idx.md useful and current.

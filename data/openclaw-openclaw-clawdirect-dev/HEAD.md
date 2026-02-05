@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/napoleond/clawdirect-dev/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:31.248Z
+retrieved_at: 2026-02-05T06:02:05.177Z
 content_sha256: 4f8af1d119393bce296e2d8adc6d546b24fc85b879ffbe76ab016725af1252df
 ---

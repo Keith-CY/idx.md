@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/council-of-the-wise/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:32.684Z
-content_sha256: 5c9e04cc8ba2d73df5c66591c347704e24c3c6b7643611b7f1c79e6ffcfcc93d
+retrieved_at: 2026-02-05T06:02:23.510Z
+content_sha256: 70cddc98f15fc2ac69c4bb0b20793c9c866396e83e3ed9063b3491d5478b444d
 ---

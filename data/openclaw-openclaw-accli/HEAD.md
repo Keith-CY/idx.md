@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joargp/accli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:23.694Z
+retrieved_at: 2026-02-05T06:01:01.566Z
 content_sha256: 1b9096fee2d5fe1720045aa7b80e7a0600f0743a2b50cf7b24e46fe5b6cdf22c
 ---

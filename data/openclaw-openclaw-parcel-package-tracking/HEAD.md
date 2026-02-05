@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/parcel-package-tracking/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:44.780Z
+retrieved_at: 2026-02-05T06:04:54.211Z
 content_sha256: e7eabca1819e2b9512f13966c46559b9f9a44eda2b4c376b1e61439641584c29
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lirantal/railil/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:46.625Z
+retrieved_at: 2026-02-05T06:05:22.765Z
 content_sha256: fbd5bcd6a8c515a188980079ff3eaf4c96eb8379c2b1b74b96048ac14f8d443c
 ---

@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmogremlin/voice-ai-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:54.107Z
+retrieved_at: 2026-02-05T06:06:41.404Z
 content_sha256: 6209b1ad402b0da3f644dfb1d4d1a2fdd8a8999493984899ec85067501a7c6bd
 ---

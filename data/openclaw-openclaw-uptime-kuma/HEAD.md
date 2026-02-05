@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/msarheed/uptime-kuma/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:53.087Z
+retrieved_at: 2026-02-05T06:06:33.648Z
 content_sha256: 68d5929464230144408f90e6c28a21933b8fe3bd4b38f652553e3c6fee6369ad
 ---
