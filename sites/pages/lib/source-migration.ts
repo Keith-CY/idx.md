@@ -13,7 +13,12 @@ export function diffRemovedByUrl(
   next: SourceEntry[],
 ): SourceEntry[] {
   const nextUrls = new Set(next.map((entry) => entry.source_url));
-  return previous.filter((entry) => !nextUrls.has(entry.source_url));
+  const nextIds = new Set(next.map((entry) => `${entry.type}/${entry.slug}`));
+  return previous.filter(
+    (entry) =>
+      !nextUrls.has(entry.source_url) &&
+      !nextIds.has(`${entry.type}/${entry.slug}`),
+  );
 }
 
 function shortHash(value: string): string {

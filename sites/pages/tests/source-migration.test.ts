@@ -32,6 +32,19 @@ describe("source migration", () => {
     ]);
   });
 
+  test("diffRemovedByUrl ignores entries when slug still exists in next list", () => {
+    const previous = [
+      baseEntry({ source_url: "https://old.com/skill.md", slug: "same" }),
+      baseEntry({ source_url: "https://gone.com/skill.md", slug: "gone" }),
+    ];
+    const next = [
+      baseEntry({ source_url: "https://new.com/skill.md", slug: "same" }),
+    ];
+
+    const removed = diffRemovedByUrl(previous, next);
+    expect(removed.map((entry) => entry.slug)).toEqual(["gone"]);
+  });
+
   test("planGeneralMigration skips urls already present", async () => {
     const removed = [
       baseEntry({ source_url: "https://a.com/skill.md", slug: "a" }),
