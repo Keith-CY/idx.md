@@ -44,3 +44,4 @@ jobs:
           delete-branch: true
           add-paths: |
             sources/openclaw.yml
+            sources/general.yml
