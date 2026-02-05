@@ -20,6 +20,7 @@ describe("pages tooling paths", () => {
     expect(text.includes("DATA_ROOT")).toBe(true);
     expect(text.includes("HEAD.md")).toBe(true);
     expect(text.includes("BODY.md")).toBe(true);
+    expect(text.includes('dirent.name !== "category"')).toBe(true);
   });
 
   test("ingest writes to sources and data reports", async () => {
@@ -86,6 +87,7 @@ describe("pages tooling paths", () => {
   test("agent skill onboarding mentions index and body paths", async () => {
     const text = await readText("SKILL.md");
     expect(text.includes("https://idx.md/index.md")).toBe(true);
+    expect(text.includes("https://idx.md/category/index.md")).toBe(true);
     expect(text.includes("/{topic}/BODY.md")).toBe(true);
   });
 

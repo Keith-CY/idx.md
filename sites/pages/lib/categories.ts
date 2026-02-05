@@ -152,9 +152,6 @@ export function buildCategoryIndexes(
 
   for (const entry of entries) {
     for (const categorySlug of entry.categories) {
-      if (!CATEGORY_SLUGS.has(categorySlug)) {
-        continue;
-      }
       let byTopic = grouped.get(categorySlug);
       if (!byTopic) {
         byTopic = new Map();
@@ -187,13 +184,13 @@ export function buildCategoryIndexes(
     })
     .sort((a, b) => a.slug.localeCompare(b.slug));
 
-  const hubRows = pages.map(
-    (page) =>
-      `| ${page.title} | ${page.count} | /category/${page.slug}/index.md |`,
-  );
-  if (hubRows.length === 0) {
-    hubRows.push("| None | 0 | |");
-  }
+  const hubRows =
+    pages.length > 0
+      ? pages.map(
+          (page) =>
+            `| ${page.title} | ${page.count} | /category/${page.slug}/index.md |`,
+        )
+      : ["| None | 0 | |"];
 
   const hubContent = [
     "# Category Index",

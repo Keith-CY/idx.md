@@ -127,7 +127,8 @@ const topics = topicDirs
     (dirent) =>
       dirent.isDirectory() &&
       !dirent.name.startsWith(".") &&
-      dirent.name !== "reports",
+      dirent.name !== "reports" &&
+      dirent.name !== "category",
   )
   .map((dirent) => dirent.name);
 

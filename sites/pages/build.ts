@@ -252,11 +252,13 @@ const indexOutput = indexContent
 await Bun.write(INDEX_PATH, indexOutput);
 const categoryOutput = buildCategoryIndexes(sortedIndexEntries);
 await Bun.write(CATEGORY_INDEX_PATH, categoryOutput.hubContent);
-for (const page of categoryOutput.pages) {
-  const outputPath = categoryIndexPath(page.slug);
-  await mkdir(dirname(outputPath), { recursive: true });
-  await Bun.write(outputPath, page.content);
-}
+await Promise.all(
+  categoryOutput.pages.map(async (page) => {
+    const outputPath = categoryIndexPath(page.slug);
+    await mkdir(dirname(outputPath), { recursive: true });
+    await Bun.write(outputPath, page.content);
+  }),
+);
 await writeSkillDoc();
 
 if (rejected.length > 0) {

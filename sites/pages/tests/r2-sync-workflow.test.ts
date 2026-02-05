@@ -68,6 +68,14 @@ describe("r2 sync workflow", () => {
     expect(text.includes("steps.compare.outputs.changed")).toBe(true);
   });
 
+  test("sync workflow uploads full data tree for rewritten category indexes", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(
+      text.includes("rewritten category index files are always refreshed"),
+    ).toBe(true);
+    expect(text.includes("find data -type f -print0")).toBe(true);
+  });
+
   test("sync workflow pins actions", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(/actions\/checkout@[0-9a-f]{40}/.test(text)).toBe(true);
