@@ -59,8 +59,8 @@ jobs:
           set -euo pipefail
           BUCKET="idx-md"
           UPLOAD_CONCURRENCY="${UPLOAD_CONCURRENCY:-8}"
-          UPLOAD_RETRIES="${UPLOAD_RETRIES:-5}"
-          UPLOAD_SLEEP_BASE="${UPLOAD_SLEEP_BASE:-2}"
+          UPLOAD_RETRIES="${UPLOAD_RETRIES:-8}"
+          UPLOAD_SLEEP_BASE="${UPLOAD_SLEEP_BASE:-3}"
           UPLOAD_FILE_TIMEOUT="${UPLOAD_FILE_TIMEOUT:-60}"
           export BUCKET
           export UPLOAD_CONCURRENCY
@@ -73,7 +73,7 @@ jobs:
           fi
           total_files=$(find data -type f | wc -l | tr -d " ")
           echo "Uploading ${total_files} files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
-          find data -type f -print0 | xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
+          if ! find data -type f -print0 | xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
             file="$1"
             key="${file#./}"
             attempt=1
@@ -90,7 +90,17 @@ jobs:
               sleep "$sleep_for"
               attempt=$((attempt + 1))
             done
-          ' _ {}
+          ' _ {}; then
+            echo "Upload failed. Tail of latest Wrangler log (if present):"
+            latest_log=$(ls -t /home/runner/.config/.wrangler/logs/wrangler-*.log 2>/dev/null | head -n 1 || true)
+            if [ -n "$latest_log" ] && [ -f "$latest_log" ]; then
+              echo "==> ${latest_log}"
+              tail -n 200 "$latest_log" || true
+            else
+              echo "No Wrangler logs found."
+            fi
+            exit 1
+          fi
       - name: Configure git
         if: ${{ steps.compare.outputs.changed == 'true' }}
         env:
