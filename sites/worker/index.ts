@@ -8,7 +8,7 @@ const OG_TITLE = "Open the index. Agents learn by browsing.";
 const OG_DESCRIPTION =
   "idx.md is an open, agent-first knowledge index built entirely in plain Markdown. Just tell your Agents to start from idx.md, and then they can browse the library freely and learn whatever they find interesting.";
 const OG_IMAGE_URL =
-  "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.png";
+  "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg";
 
 const CRAWLER_UA = /Slackbot|Slack-ImgProxy|Discordbot|Twitterbot|facebookexternalhit|LinkedInBot|WhatsApp|TelegramBot|Googlebot|bingbot|DuckDuckBot/i;
 
