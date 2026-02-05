@@ -7,15 +7,16 @@ summary: >-
 
   name: vercel-deploy
 
-  description: Deploy applications and websites to Vercel using the bundled
-  `scripts/deploy.sh` claimable-preview flow. Use when the user asks to deploy
-  to Vercel, wants a preview URL, or says to push a project live on Vercel.
+  description: Deploy applications and websites to Vercel. Use when the user
+  requests deployment actions like "deploy my app", "deploy and give me the
+  link", "push this live", or "create a preview deployment".
 
   ---
 
   # Vercel Deploy
 
-  Deploy any project to Vercel instantly. No authentication required.
+  Deploy any project to Vercel instantly. **Always deploy as preview** (not
+  production) unless the user explicitly asks for production.
 
   ## Prerequisites
 
@@ -24,13 +25,13 @@ summary: >-
 
   - The deployment might take a few minutes. Use appropriate timeout values.
 
-  ## How It Works
+  ## Quick Start
 tags:
   - openai
   - source-openai-skills
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/vercel-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-deploy/SKILL.md
-retrieved_at: 2026-02-04T07:00:17.406Z
-content_sha256: bb45d7d5699717f7b477ec17b8f9a426b1a6a20c96741e2e0f6abaa68a7d773f
+retrieved_at: 2026-02-05T06:07:17.317Z
+content_sha256: f1f3fa3ff57f87f8f32d77ed635b63416f200a1f976a8a8d3e23d12b30df3ae4
 ---

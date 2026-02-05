@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/doc-coauthoring/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:33.666Z
+retrieved_at: 2026-02-05T06:02:37.723Z
 content_sha256: 2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/peekaboo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:44.858Z
+retrieved_at: 2026-02-05T06:04:55.509Z
 content_sha256: 7a87a01399f99780e872b16f3df999d0e684a3b8dbc189cd20b9cc4230762ed5
 ---

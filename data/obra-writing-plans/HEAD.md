@@ -36,6 +36,6 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-retrieved_at: 2026-02-04T07:01:00.744Z
+retrieved_at: 2026-02-05T06:00:58.081Z
 content_sha256: 2046e5b955aa16c288f9c7290c58f237628dfb6ba6d4817fad3da0fa830b46c2
 ---

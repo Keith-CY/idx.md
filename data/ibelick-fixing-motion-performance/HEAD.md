@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-motion-performance/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md
-retrieved_at: 2026-02-04T07:01:00.881Z
+retrieved_at: 2026-02-05T06:00:59.023Z
 content_sha256: 03e7505ca8cea654a640eaf010eec80da860911432ffdcdc0280641f8109ec1b
 ---

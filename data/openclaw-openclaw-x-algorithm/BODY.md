@@ -1,9 +1,9 @@
 ---
 name: x-algorithm
-description: X (Twitter) algorithm rules, viral strategies, and article best practices. Boost engagement, avoid reach death, write posts that actually perform.
-version: 1.0.0
+description: X (Twitter) algorithm rules, viral strategies, and article best practices. Boost engagement, avoid reach death, write posts that perform. Works with AI agents, Claude, Cursor.
+version: 1.0.1
 author: NextFrontierBuilds
-keywords: x, twitter, algorithm, viral, engagement, social-media, growth, content-strategy, ai-agent, moltbot, clawdbot
+keywords: x, twitter, algorithm, viral, engagement, social-media, growth, content-strategy, ai-agent, ai-coding, claude, cursor, openclaw, moltbot, openclaw, vibe-coding, automation
 ---
 
 # X Algorithm Mastery

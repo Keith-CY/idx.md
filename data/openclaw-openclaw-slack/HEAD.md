@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/slack/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:48.929Z
+retrieved_at: 2026-02-05T06:05:53.221Z
 content_sha256: e15de2ab67a9ee4949c4fce1e5a2685da7eb4575096c1b10bd898499fc844eb3
 ---

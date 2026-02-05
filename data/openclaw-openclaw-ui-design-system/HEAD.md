@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/ui-design-system/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:52.746Z
+retrieved_at: 2026-02-05T06:06:31.090Z
 content_sha256: 0ce37ac6b0f87dbb312f125355e7e9e93273a24cd94dfab8d26194175937a7db
 ---

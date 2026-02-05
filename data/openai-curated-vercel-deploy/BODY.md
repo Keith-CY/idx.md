@@ -1,37 +1,31 @@
 ---
 name: vercel-deploy
-description: Deploy applications and websites to Vercel using the bundled `scripts/deploy.sh` claimable-preview flow. Use when the user asks to deploy to Vercel, wants a preview URL, or says to push a project live on Vercel.
+description: Deploy applications and websites to Vercel. Use when the user requests deployment actions like "deploy my app", "deploy and give me the link", "push this live", or "create a preview deployment".
 ---
 
 # Vercel Deploy
 
-Deploy any project to Vercel instantly. No authentication required.
+Deploy any project to Vercel instantly. **Always deploy as preview** (not production) unless the user explicitly asks for production.
 
 ## Prerequisites
 
 - When sandboxing blocks the deployment network calls, rerun with `sandbox_permissions=require_escalated`.
 - The deployment might take a few minutes. Use appropriate timeout values.
 
-## How It Works
+## Quick Start
 
-1. Packages your project into a `.tar.gz` (excludes `node_modules` and `.git`)
-2. Auto-detects framework from `package.json`
-3. Uploads to deployment service
-4. Returns **Preview URL** (live site) and **Claim URL** (transfer to your Vercel account)
-
-## Usage
-
+**Just run this (with a 10 minute timeout):**
 ```bash
-bash scripts/deploy.sh [path]
+vercel deploy [path] -y
 ```
 
-**Arguments:**
+**Important:** Use a 10 minute (600000ms) timeout for the deploy command since builds can take a while.
 
-- `path` - Directory to deploy, or a `.tgz` file (defaults to current directory)
+If that fails with "No existing credentials found", use the fallback method below.
 
-If you pass a directory, the script will create a `.tar.gz` before upload.
+## Fallback (No Auth)
 
-**Examples:**
+If CLI fails with auth error, use the deploy script:
 
 ```bash
 # Deploy current directory
@@ -44,69 +38,22 @@ bash scripts/deploy.sh /path/to/project
 bash scripts/deploy.sh /path/to/project.tgz
 ```
 
-## Packaging Rules
+The script handles framework detection, packaging, and deployment. It waits for the build to complete and returns JSON with `previewUrl` and `claimUrl`.
 
-- Exclude `node_modules`, `.git`, and `.env*`
-- If no `package.json`, keep `framework` as `null`
-- For static HTML with a single `.html` file, rename it to `index.html` before packaging
+**Tell the user:** "Your deployment is ready at [previewUrl]. Claim it at [claimUrl] to manage your deployment."
+
+## Production Deploys
+
+Only if user explicitly asks:
+```bash
+vercel deploy [path] --prod -y
+```
 
 ## Output
 
-```
-Preparing deployment...
-Creating deployment package...
-Deploying...
-✓ Deployment successful!
+Show the user the deployment URL. For fallback deployments, also show the claim URL.
 
-Preview URL: https://skill-deploy-abc123.vercel.app
-Claim URL:   https://vercel.com/claim-deployment?code=...
-```
-
-The script also outputs JSON to stdout for programmatic use.
-
-```json
-{
-  "previewUrl": "https://skill-deploy-abc123.vercel.app",
-  "claimUrl": "https://vercel.com/claim-deployment?code=...",
-  "deploymentId": "dpl_...",
-  "projectId": "prj_..."
-}
-```
-
-## Framework Detection
-
-The script auto-detects frameworks from `package.json`. Supported frameworks include:
-
-- **React**: Next.js, Gatsby, Create React App, Remix, React Router
-- **Vue**: Nuxt, Vitepress, Vuepress, Gridsome
-- **Svelte**: SvelteKit, Svelte, Sapper
-- **Other Frontend**: Astro, Solid Start, Angular, Ember, Preact, Docusaurus
-- **Backend**: Express, Hono, Fastify, NestJS, Elysia, h3, Nitro
-- **Build Tools**: Vite, Parcel
-- **And more**: Blitz, Hydrogen, RedwoodJS, Storybook, Sanity, etc.
-
-For static HTML projects (no `package.json`), framework is set to `null`.
-
-## Static HTML Projects
-
-For projects without a `package.json`:
-
-- If there's a single `.html` file not named `index.html`, it gets renamed automatically
-- This ensures the page is served at the root URL (`/`)
-
-## Present Results to User
-
-Always show both URLs:
-
-```
-✓ Deployment successful!
-
-Preview URL: https://skill-deploy-abc123.vercel.app
-Claim URL:   https://vercel.com/claim-deployment?code=...
-
-View your site at the Preview URL.
-To transfer this deployment to your Vercel account, visit the Claim URL.
-```
+**Do not** curl or fetch the deployed URL to verify it works. Just return the link.
 
 ## Troubleshooting
 

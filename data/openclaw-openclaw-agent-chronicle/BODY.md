@@ -1,8 +1,8 @@
 ---
 name: agent-chronicle
-version: 0.4.1
+version: 0.5.0
 description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, and Relationship Evolution. Generates personal, emotional entries from the agent's perspective. Works best with Claude models (Haiku, Sonnet, Opus).
-metadata: {"clawdbot":{"requires":{"bins":["python3"],"env":["ANTHROPIC_API_KEY"]}}}
+metadata: {"clawdbot":{"requires":{"bins":["python3"]}}}
 ---
 
 # Agent Chronicle 📜
@@ -677,6 +677,11 @@ My human was patient during the debugging session. Good collaborative energy. Th
 - Run `python3 scripts/setup.py` again
 
 ## Changelog
+
+### v0.5.0
+- **Privacy Cleanup:** Removed all hardcoded personal references from prompts
+- **Dynamic Workspace:** All scripts now use environment variables (`OPENCLAW_WORKSPACE` or `AGENT_WORKSPACE`) for workspace detection
+- **OpenClaw Gateway:** Removed outdated `ANTHROPIC_API_KEY` requirement - skill uses OpenClaw Gateway for LLM access
 
 ### v0.4.1
 - **Model Flexibility:** Removed hardcoded Claude Haiku requirement - skill now works with any capable model

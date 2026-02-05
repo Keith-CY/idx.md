@@ -1,90 +1,168 @@
 ---
 name: bluesky
-version: 1.2.0
-description: Read, post, and interact with Bluesky (AT Protocol) via CLI. Use when user asks to check Bluesky, post to Bluesky, view their Bluesky timeline, search Bluesky, or check Bluesky notifications. Supports timeline, posting, profile lookup, search, and notifications.
+version: 1.5.2
+description: "Complete Bluesky CLI: post, reply, like, repost, follow, block, mute, search, threads, images. Everything you need to engage on Bluesky from the terminal."
 homepage: https://bsky.app
 metadata:
-  moltbot:
+  openclaw:
     emoji: "🦋"
     requires:
       bins: ["python3"]
+    tags: ["social", "bluesky", "at-protocol", "cli"]
 ---
 
 # Bluesky CLI
 
-Interact with Bluesky/AT Protocol from the command line.
+Full-featured CLI for Bluesky/AT Protocol.
+
+## Agent Instructions
+
+**First: Check if logged in**
+```bash
+bsky whoami
+```
+
+- If shows handle → ready to use commands below
+- If "Not logged in" → guide user through Setup section
+
+**Common tasks:**
+- "Post to Bluesky" → `bsky post "text"`
+- "Check my timeline" → `bsky timeline`
+- "Like this post" → `bsky like <url>`
+- "Follow someone" → `bsky follow @handle`
 
 ## Setup
 
-First-time setup requires an app password from Bluesky:
-1. Go to bsky.app → Settings → Privacy and Security → App Passwords
-2. Create a new app password
-3. Run: `bsky login --handle yourhandle.bsky.social --password xxxx-xxxx-xxxx-xxxx`
+If user isn't logged in (`bsky whoami` shows "Not logged in"), guide them through setup:
 
-**Security:** Password is NOT stored. The CLI exports a session token on login, which auto-refreshes. Your app password only exists in memory during login.
+### Getting an App Password
+
+Tell the user:
+> Go to bsky.app → click your avatar → Settings → Privacy and Security → App Passwords → Add App Password. Name it "OpenClaw" and copy the password (like `xxxx-xxxx-xxxx-xxxx`). You'll only see it once!
+
+### Logging In
+
+Once they have the app password, run:
+```bash
+bsky login --handle THEIR_HANDLE.bsky.social --password THEIR_APP_PASSWORD
+```
+
+Example:
+```bash
+bsky login --handle alice.bsky.social --password abcd-1234-efgh-5678
+```
+
+**Security:** Password is used once to get a session token, then immediately discarded. Never stored on disk. Session auto-refreshes.
+
+## Quick Reference
+
+| Action | Command |
+|--------|---------|
+| View timeline | `bsky timeline` or `bsky tl` |
+| Post | `bsky post "text"` |
+| Post with image | `bsky post "text" --image photo.jpg --alt "description"` |
+| Reply | `bsky reply <url> "text"` |
+| Quote-post | `bsky quote <url> "text"` |
+| View thread | `bsky thread <url>` |
+| Like | `bsky like <url>` |
+| Repost | `bsky repost <url>` |
+| Follow | `bsky follow @handle` |
+| Block | `bsky block @handle` |
+| Mute | `bsky mute @handle` |
+| Search | `bsky search "query"` |
+| Notifications | `bsky notifications` or `bsky n` |
+| Delete post | `bsky delete <url>` |
 
 ## Commands
 
+### Timeline
 ```bash
-# Authentication
-bsky login --handle user.bsky.social --password xxxx-xxxx-xxxx-xxxx
-bsky whoami
-
-# Timeline
-bsky timeline              # Show home feed (10 posts)
-bsky timeline -n 20        # Show 20 posts
-bsky tl                    # Alias
-
-# Posting
-bsky post "Hello world!"   # Create a post
-bsky p "Short post"        # Alias
-bsky post "Test" --dry-run # Preview without posting
-
-# Version
-bsky --version             # Show version
-
-# Delete
-bsky delete <post_id>      # Delete a post by ID or URL
-bsky rm <url>              # Alias
-
-# Profiles
-bsky profile               # Your profile
-bsky profile @someone.bsky.social
-
-# Search
-bsky search "query"        # Search posts
-bsky search "offsec" -n 20
-
-# Notifications
-bsky notifications         # Likes, reposts, follows, mentions
-bsky notif -n 30           # Alias with count
+bsky timeline              # 10 posts
+bsky timeline -n 20        # 20 posts
+bsky timeline --json       # JSON output
 ```
 
-## Output Format
-
-Timeline and search results show:
-```
-@handle · Jan 25 14:30
-  Post text (truncated to 200 chars)
-  ❤️ likes  🔁 reposts  💬 replies
-  🔗 https://bsky.app/profile/handle/post/id
-```
-
-## Installation
-
-The skill uses a Python virtual environment. On first run:
+### Posting
 ```bash
-cd {baseDir}/scripts
-python3 -m venv venv
-./venv/bin/pip install atproto
+bsky post "Hello world!"                           # Basic post
+bsky post "Check this!" --image pic.jpg --alt "A photo"  # With image
+bsky post "Test" --dry-run                         # Preview only
 ```
 
-Then run commands via:
+### Reply & Quote
 ```bash
-{baseDir}/scripts/venv/bin/python {baseDir}/scripts/bsky.py [command]
+bsky reply <post-url> "Your reply"
+bsky quote <post-url> "Your take on this"
 ```
 
-Or use the wrapper script:
+### Thread View
 ```bash
-{baseDir}/scripts/bsky [command]
+bsky thread <post-url>           # View conversation
+bsky thread <url> --depth 10     # More replies
+bsky thread <url> --json         # JSON output
 ```
+
+### Engagement
+```bash
+bsky like <post-url>             # ❤️ Like
+bsky unlike <post-url>           # Remove like
+bsky repost <post-url>           # 🔁 Repost (aliases: boost, rt)
+bsky unrepost <post-url>         # Remove repost
+```
+
+### Social Graph
+```bash
+bsky follow @someone             # Follow user
+bsky unfollow @someone           # Unfollow user
+bsky profile @someone            # View profile
+bsky profile --json              # JSON output
+```
+
+### Moderation
+```bash
+bsky block @someone              # 🚫 Block user
+bsky unblock @someone            # Unblock
+bsky mute @someone               # 🔇 Mute user
+bsky unmute @someone             # Unmute
+```
+
+### Search & Notifications
+```bash
+bsky search "query"              # Search posts
+bsky search "topic" -n 20        # More results
+bsky notifications               # Recent notifications
+bsky n -n 30                     # More notifications
+```
+
+### Delete
+```bash
+bsky delete <post-url>           # Delete your post
+bsky delete <post-id>            # By ID
+```
+
+## JSON Output
+
+Add `--json` to read commands for structured output:
+```bash
+bsky timeline --json
+bsky search "topic" --json
+bsky notifications --json
+bsky profile @someone --json
+bsky thread <url> --json
+```
+
+## Error Handling
+
+| Error | Fix |
+|-------|-----|
+| "Session expired" | Run `bsky login` again |
+| "Not logged in" | Run `bsky login --handle ... --password ...` |
+| "Post is X chars (max 300)" | Shorten text |
+| "Image too large" | Use image under 1MB |
+
+## Notes
+
+- All `<url>` parameters accept either `https://bsky.app/...` URLs or `at://` URIs
+- Handles auto-append `.bsky.social` if no domain specified
+- Image posts require `--alt` for accessibility (Bluesky requirement)
+- Session tokens auto-refresh; password never stored

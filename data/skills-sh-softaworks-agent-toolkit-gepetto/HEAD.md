@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/gepetto/references/research-protocol.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/gepetto
-retrieved_at: 2026-02-04T07:00:18.550Z
+retrieved_at: 2026-02-05T06:00:20.219Z
 content_sha256: d219729ce530953d53aeb0a0831567a577981ee79df4f713c01845ced6214163
 ---

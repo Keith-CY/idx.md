@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/phone-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:45.017Z
+retrieved_at: 2026-02-05T06:04:58.480Z
 content_sha256: c1c57a4c8cd260d1d854fef5416305530b320d5cc4f05652053afeec9b112687
 ---

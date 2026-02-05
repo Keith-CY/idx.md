@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/redeemthedream/clankdin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:30.624Z
+retrieved_at: 2026-02-05T06:01:55.999Z
 content_sha256: e29175c5d638bad6c5d6d85704d9f7b6ddc7138f438c034340e74dd73dc8641f
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/active-directory-attacks/references/advanced-attacks.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/active-directory-attacks
-retrieved_at: 2026-02-04T07:00:22.585Z
+retrieved_at: 2026-02-05T06:00:53.132Z
 content_sha256: 2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316
 ---

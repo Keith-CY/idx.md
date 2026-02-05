@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nerveband/drafts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:33.938Z
+retrieved_at: 2026-02-05T06:02:40.993Z
 content_sha256: d99a01482077b5a500872323c74756e59afe0fd164b1ecdeb5d61f296f866de1
 ---

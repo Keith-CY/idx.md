@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickchristensen/get-focus-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:36.400Z
+retrieved_at: 2026-02-05T06:03:09.949Z
 content_sha256: 87d559df883f9efc278fec8d829d16ba2d5c27f2ffe708b9388f0fd6721265cd
 ---

@@ -40,6 +40,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/marketing-ideas/references/ideas-by-category.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
-retrieved_at: 2026-02-04T07:00:17.926Z
+retrieved_at: 2026-02-05T06:00:18.277Z
 content_sha256: 97a02c0bce46d337d6a7e50c483785858efe408e4f8be37d7d78846da525f345
 ---

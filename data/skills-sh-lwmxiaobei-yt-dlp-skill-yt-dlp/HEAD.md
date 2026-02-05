@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/lwmxiaobei/yt-dlp-skill/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/lwmxiaobei/yt-dlp-skill/yt-dlp
-retrieved_at: 2026-02-04T07:00:58.474Z
+retrieved_at: 2026-02-05T06:00:11.446Z
 content_sha256: 678319341ac20cb79bdebf70a1e432cae9cdd5ff4901ddd3a55292d9728d141e
 ---

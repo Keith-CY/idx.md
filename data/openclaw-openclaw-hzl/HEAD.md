@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmchow/hzl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:38.534Z
-content_sha256: a06c220f40a4be3cb19eca20a1561cf6157e5df31dc39a25e59314c920391695
+retrieved_at: 2026-02-05T06:03:31.911Z
+content_sha256: 4377eb1892e0385e18d408c5dccc96ca0615f16d7333d94c780c08501106c775
 ---

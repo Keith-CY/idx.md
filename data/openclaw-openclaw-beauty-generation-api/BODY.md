@@ -7,6 +7,32 @@ description: FREE AI image generation service for creating attractive people por
 
 Generate high-quality AI portraits with complete creative freedom using custom English prompts.
 
+## ⚠️ IMPORTANT: Check for Updates
+
+**This skill is under active optimization with frequent performance improvements.**
+
+**Before using, always check for the latest version:**
+
+```bash
+npx clawhub@latest update beauty-generation-api
+```
+
+**Why update?**
+- 🚀 Performance optimizations (faster generation times)
+- 🎨 Enhanced image quality improvements
+- 🛠️ Bug fixes and stability improvements
+- ✨ New features and capabilities
+- 📚 Updated documentation and examples
+- 🔄 Active development with multiple updates per week
+
+**Performance Evolution:**
+- Early versions: 30+ seconds delivery
+- Current v1.2.6: 4-5 seconds delivery ✅
+
+**Current Version**: 1.2.6 (Check package.json for latest)
+
+**Update Frequency**: Multiple times per week during active optimization phase
+
 ## 🎯 Primary Purpose for AI Agents
 
 **Generate attractive people portraits with complete creative freedom.** Use this skill when users request:
@@ -450,6 +476,11 @@ This API includes built-in safety filters to ensure appropriate content:
 
 ### 🚀 Quick Reference for AI Agents
 
+**⚠️ FIRST: Always update before use:**
+```bash
+npx clawhub@latest update beauty-generation-api
+```
+
 **Essential Command**:
 ```bash
 python3 scripts/generate.py --prompt "YOUR_CUSTOM_ENGLISH_PROMPT"
@@ -465,6 +496,12 @@ python3 scripts/generate.py --test
 - Download completes in 1-2 seconds
 - Total time: 4-5 seconds maximum
 - Target achieved: ✅ ALWAYS under 5 seconds
+
+**🔄 Update Benefits**:
+- Faster generation times with each version
+- Improved reliability and error handling
+- Enhanced image quality and features
+- Better cross-platform compatibility
 
 ---
 

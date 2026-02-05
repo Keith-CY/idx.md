@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/paradoxfuzzle/ddg-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:33.231Z
+retrieved_at: 2026-02-05T06:02:30.877Z
 content_sha256: d836f177a21040d7e1fa809d48e1696c9d9c5a03e29c19e5ec4fbab9f22e89a7
 ---

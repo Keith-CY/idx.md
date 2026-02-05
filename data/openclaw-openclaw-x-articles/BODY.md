@@ -1,12 +1,15 @@
 ---
 name: x-articles
-description: Create and publish X (Twitter) Articles with viral formatting, hook patterns, and browser automation. Handles Draft.js quirks, embed limitations, and image uploads.
-version: 1.0.1
+description: Publish viral X (Twitter) Articles with AI. Long-form content that gets engagement. Proven hook patterns, browser automation. Works with Claude, Cursor, OpenClaw.
+version: 1.1.1
+keywords: twitter-articles, x-articles, viral-content, twitter-automation, social-media, content-marketing, ai-writing, twitter-threads, engagement, ai, ai-agent, ai-coding, cursor, claude, claude-code, gpt, copilot, vibe-coding, openclaw, moltbot, agentic
 ---
 
-# X Articles Skill
+# X Articles — Viral Long-Form for Twitter
 
-Create, format, and publish long-form articles on X (Twitter) with proven viral patterns.
+**Beat the algorithm.** Create and publish X (Twitter) Articles with proven viral patterns.
+
+AI-powered formatting, hook patterns, and browser automation. Handles Draft.js quirks, embed limitations, and image uploads.
 
 ## Quick Reference
 
@@ -316,3 +319,7 @@ Most people will bookmark this and never set it up. Don't be most people. The wi
 - `bird` - X/Twitter CLI for posting tweets
 - `de-ai-ify` - Remove AI jargon from text
 - `ai-pdf-builder` - Generate PDFs (for lead magnets)
+
+---
+
+Built by [@NextXFrontier](https://x.com/NextXFrontier)

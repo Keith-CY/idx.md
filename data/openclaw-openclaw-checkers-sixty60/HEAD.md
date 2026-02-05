@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/snopoke/checkers-sixty60/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:30.545Z
+retrieved_at: 2026-02-05T06:01:54.721Z
 content_sha256: 38a067876156db27adc87c483295654fb900b7ad598e2c257e6160db72e4020c
 ---

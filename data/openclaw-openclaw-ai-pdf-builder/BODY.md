@@ -1,12 +1,15 @@
 ---
 name: ai-pdf-builder
-description: Generate professional PDFs from Markdown using Pandoc and LaTeX with AI-powered content generation. Creates whitepapers, term sheets, memos, agreements, SAFEs, NDAs, and more.
-version: 1.1.0
+description: AI-powered PDF generator for legal docs, pitch decks, and reports. SAFEs, NDAs, term sheets, whitepapers. npx ai-pdf-builder. Works with Claude, Cursor, GPT, Copilot.
+version: 1.2.1
+keywords: pdf-generator, ai-pdf, legal-docs, pitch-deck, startup-docs, investor-docs, ai-writing, document-automation, ycombinator, safe-agreement, nda, term-sheet, whitepaper, ai, ai-agent, ai-coding, llm, cursor, claude, claude-code, gpt, copilot, vibe-coding, mcp, agentic, coding-agent
 ---
 
 # AI PDF Builder
 
-Generate professional PDFs from Markdown with AI-powered content generation. Perfect for:
+**YC-style docs in seconds.** AI-powered PDF generator for legal documents, pitch decks, and professional reports.
+
+Generate SAFEs, NDAs, term sheets, whitepapers, and memos from simple prompts. Works with Claude, GPT, Cursor, and AI coding agents. Perfect for:
 - Whitepapers & Litepapers
 - Term Sheets
 - SAFEs & NDAs
@@ -183,3 +186,7 @@ When a user asks to generate a PDF:
 
 - npm: https://www.npmjs.com/package/ai-pdf-builder
 - GitHub: https://github.com/NextFrontierBuilds/ai-pdf-builder
+
+---
+
+Built by [@NextXFrontier](https://x.com/NextXFrontier)

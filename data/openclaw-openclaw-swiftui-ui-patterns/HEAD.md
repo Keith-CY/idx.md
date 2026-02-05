@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dimillian/swiftui-ui-patterns/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:49.945Z
+retrieved_at: 2026-02-05T06:06:07.956Z
 content_sha256: fd5f0b9e91c73d44b744703342addb79af1410c1bedee04f229c178a257190e6
 ---

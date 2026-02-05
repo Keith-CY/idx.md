@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/document-processing/pdf-processing-pro/FORMS.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/pdf-processing-pro
-retrieved_at: 2026-02-04T07:00:23.175Z
+retrieved_at: 2026-02-05T06:00:55.943Z
 content_sha256: ea43f2930d53347e0cf19a205bf94315737cbb034153181ebdff6d037bac8d24
 ---

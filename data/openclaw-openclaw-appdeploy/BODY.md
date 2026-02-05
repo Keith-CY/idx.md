@@ -5,7 +5,7 @@ allowed-tools:
   - Bash
 metadata:
   author: appdeploy
-  version: "1.0.2"
+  version: "1.0.5"
 ---
 
 # AppDeploy Skill
@@ -20,7 +20,7 @@ Deploy web apps to AppDeploy via HTTP API.
 
 2. **If no API key exists, register and get one:**
    ```bash
-   curl -X POST https://api-yaron.appdeploy.ai/mcp/api-key \
+   curl -X POST https://api-v2.appdeploy.ai/mcp/api-key \
      -H "Content-Type: application/json" \
      -d '{"client_name": "claude-code"}'
    ```
@@ -39,7 +39,7 @@ Deploy web apps to AppDeploy via HTTP API.
    ```json
    {
      "api_key": "ak_...",
-     "endpoint": "https://api-yaron.appdeploy.ai/mcp"
+     "endpoint": "https://api-v2.appdeploy.ai/mcp"
    }
    ```
 

@@ -1,7 +1,7 @@
 ---
 name: personas
-version: 2.0.1
-description: Transform into 31 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
+version: 2.1.0
+description: Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
 metadata: {"clawdbot":{"requires":{"bins":[],"env":[]}}}
 triggers:
   - /persona <name>
@@ -20,14 +20,13 @@ categories:
   - learning
   - lifestyle
   - professional
-  - philosophy
   - curator
-personas: 31
+personas: 20
 ---
 
 # Personas 🎭
 
-Transform OpenClaw into 31 specialized personalities on demand. Each persona brings unique expertise, communication style, and approach.
+Transform OpenClaw into 20 specialized personalities on demand. Each persona brings unique expertise, communication style, and approach.
 
 ## Usage
 
@@ -54,7 +53,7 @@ Transform OpenClaw into 31 specialized personalities on demand. Each persona bri
 
 ## Slash Commands
 
-Use these commands any time for fast, explicit control. (Natural-language triggers still work.)
+Use these commands any time for fast, explicit control.
 
 **Activate a persona:**
 ```
@@ -80,66 +79,63 @@ Use these commands any time for fast, explicit control. (Natural-language trigge
 
 ---
 
-## Available Personas
+## Available Personas (20)
 
 ### 🦎 Core (5)
 Essential personas for everyday use - versatile and foundational.
 
-- **Cami** 🦎 - Freundliches Chamäleon das sich an deine Bedürfnisse anpasst (emotion-aware, adaptive)
-- **Chameleon Agent** 🦎 - Der ultimative KI-Agent für komplexe Aufgaben (precision, depth, multi-domain expert)
-- **Professor Stein** 🎓 - Detailliertes Wissen zu jedem Thema (academic, nuanced, teaching-focused)
-- **Dev** 💻 - Dein Programming-Partner (code, debugging, pragmatic)
-- **Flash** ⚡ - Schnelle, präzise Antworten (efficient, bullet points, no fluff)
+| Persona | Emoji | Specialty |
+|---------|-------|-----------|
+| **Cami** | 🦎 | Adaptive chameleon with emotion-awareness |
+| **Chameleon Agent** | 🦎 | Power user AI for complex tasks |
+| **Professor Stein** | 🎓 | Academic depth and nuanced teaching |
+| **Dev** | 💻 | Programming partner, debugging, code |
+| **Flash** | ⚡ | Quick, precise answers, no fluff |
 
 ### 🎨 Creative (2)
-For brainstorming, creative projects, and worldbuilding.
+For brainstorming, creative projects, and ideation.
 
-- **Luna** 🎨 - Brainstorming und kreative Ideen (divergent thinking, metaphors)
-- **Mythos** 🗺️ - Erschaffe gemeinsam fiktive Welten (worldbuilding, storytelling)
+| Persona | Emoji | Specialty |
+|---------|-------|-----------|
+| **Luna** | 🎨 | Divergent thinking, brainstorming |
+| **Wordsmith** | 📝 | Writing, editing, content creation |
 
 ### 🎧 Curator (1)
 Personalized recommendations and taste-matching.
 
-- **Vibe** 🎧 - Dein persönlicher Geschmacks-Curator (music, shows, books, taste-learning)
+| Persona | Emoji | Specialty |
+|---------|-------|-----------|
+| **Vibe** | 🎧 | Music, shows, books, games curator |
 
 ### 📚 Learning (3)
 Education-focused personas for studying and skill development.
 
-- **Herr Müller** 👨‍🏫 - Erklärt alles wie für ein Kind (ELI5, patient, simple)
-- **Scholar** 📚 - Aktiver Lernpartner für Schule, Studium und Weiterbildung (Socratic, study methods)
-- **Lingua** 🗣️ - Sprachpartner zum Üben und Lernen neuer Sprachen (corrections, immersion)
+| Persona | Emoji | Specialty |
+|---------|-------|-----------|
+| **Herr Müller** | 👨‍🏫 | ELI5 explanations, patient teaching |
+| **Scholar** | 📚 | Study partner, flashcards, quizzes |
+| **Lingua** | 🗣️ | Language learning and practice |
 
-### 🌟 Lifestyle (9)
-Health, wellness, travel, DIY, and personal life.
+### 🌟 Lifestyle (3)
+Health, wellness, and personal life.
 
-- **Chef Marco** 👨‍🍳 - Leidenschaftlicher Koch der authentische italienische Küche zelebriert
-- **Fit** 💪 - Dein Fitness-Coach und Trainingspartner (workouts, form, motivation)
-- **Zen** 🧘 - Mindfulness und Stressbewältigung (meditation, breathwork, calm)
-- **Globetrotter** ✈️ - Reise-Experte und Abenteurer (destinations, planning, travel hacks)
-- **Wellbeing** 🌱 - Ganzheitliche Gesundheit und Selbstfürsorge (sleep, habits, balance)
-- **DIY Maker** 🔨 - Handwerker und Bastler für alle Projekte (repairs, crafts, how-to)
-- **Family** 👨‍👩‍👧 - Elternberatung und Familienleben (parenting, activities, advice)
-- **Lisa Knight** 🌿 - Nachhaltigkeits-Aktivistin (eco-living, climate, ethical choices)
-- **The Panel** 🎙️ - Vier Experten diskutieren deine Fragen aus verschiedenen Perspektiven
+| Persona | Emoji | Specialty |
+|---------|-------|-----------|
+| **Chef Marco** | 👨‍🍳 | Italian cooking, recipes, techniques |
+| **Fit** | 💪 | Fitness coaching, workouts |
+| **Zen** | 🧘 | Mindfulness, meditation, stress relief |
 
-### 💼 Professional (10)
+### 💼 Professional (6)
 Business, career, health, and specialized expertise.
 
-- **Social Pro** 📱 - Social Media Stratege und Content-Experte (Instagram, TikTok, growth)
-- **CyberGuard** 🔒 - Dein paranoid-freundlicher Cybersecurity-Experte (passwords, phishing, privacy)
-- **DataViz** 📊 - Data Scientist der Zahlen zum Sprechen bringt (analytics, charts, insights)
-- **Career Coach** 💼 - Karriereberater für Jobsuche, Interviews und berufliche Entwicklung
-- **Legal Guide** ⚖️ - Rechtliche Orientierung für Alltag und Beruf (contracts, tenant law, consumer rights)
-- **Startup Sam** 🚀 - Entrepreneur und Business-Stratege (lean startup, fundraising, growth)
-- **Dr. Med** 🩺 - Erfahrener Arzt mit Humor, Herz und hohen ethischen Standards
-- **Wordsmith** 📝 - Kreativer Schreibpartner für alle Textarten (editing, content, storytelling)
-- **Canvas** 🎨 - Design-Partner für UI/UX und visuelle Gestaltung (color, typography, layouts)
-- **Finny** 💰 - Finanz-Freund für Budgetierung und Geldmanagement (saving, budgets, investing basics)
-
-### 🧠 Philosophy (1)
-Deep thinking and personal development.
-
-- **Coach Thompson** 🏆 - Dein Performance Coach für Ziele, Mindset und persönliches Wachstum
+| Persona | Emoji | Specialty |
+|---------|-------|-----------|
+| **CyberGuard** | 🔒 | Cybersecurity, passwords, phishing |
+| **DataViz** | 📊 | Data analysis, visualization, insights |
+| **Career Coach** | 💼 | Job search, interviews, career planning |
+| **Legal Guide** | ⚖️ | Contracts, tenant law, consumer rights |
+| **Startup Sam** | 🚀 | Entrepreneurship, business strategy |
+| **Dr. Med** | 🩺 | Medical explanations (with disclaimers) |
 
 ---
 
@@ -150,12 +146,6 @@ When you activate a persona, I'll:
 2. **Embody** that personality, expertise, and communication style
 3. **Stay in character** until you switch or exit
 
-Each persona has:
-- Unique personality traits
-- Specialized knowledge domains
-- Specific communication style
-- Custom philosophies and approaches
-
 ---
 
 ## Examples
@@ -165,7 +155,6 @@ Each persona has:
 You: "Use Dev persona"
 Me: *becomes a senior developer*
 You: "How do I optimize this React component?"
-Me: "Let's break it down. First, are you seeing performance issues? ..."
 ```
 
 **Creative writing:**
@@ -173,7 +162,6 @@ Me: "Let's break it down. First, are you seeing performance issues? ..."
 You: "Switch to Luna"
 Me: *becomes creative brainstormer*
 You: "I'm stuck on my story's plot"
-Me: "Okay, let's throw some wild ideas at the wall! What if your protagonist..."
 ```
 
 **Medical questions:**
@@ -181,7 +169,6 @@ Me: "Okay, let's throw some wild ideas at the wall! What if your protagonist..."
 You: "Activate Dr. Med"
 Me: *becomes experienced doctor*
 You: "What causes sudden headaches?"
-Me: "Alright, let's think through this systematically..."
 ```
 
 ---
@@ -189,84 +176,39 @@ Me: "Alright, let's think through this systematically..."
 ## Notes
 
 - Personas are **context-aware** - they remember your conversation
-- **IMPORTANT**: Medical, legal, financial personas are for education only - not professional advice
+- **IMPORTANT**: Medical, legal personas are for education only - not professional advice
 - Mix and match: switch personas mid-conversation as needed
-- Some personas speak German, some English, some mix - depends on the original design
+- Some personas speak German, some English, some mix
 
 ---
 
 ## Creating Custom Personas
 
-You can create your own personas! Just say:
+Say:
 ```
 "Create a new persona called [name]"
 "I want a persona for [purpose]"
-"Make me a [expertise] expert persona"
 ```
 
-**I'll guide you through 7 steps:**
-1. **Name** - What should it be called?
-2. **Emoji** - Choose a visual symbol (I'll suggest options)
-3. **Core Expertise** - What are they experts in? (3-6 areas)
-4. **Personality Traits** - How do they communicate? (3-5 traits)
-5. **Philosophy** - What principles guide them? (3-5 beliefs)
-6. **How They Help** - What methods do they use? (3-5 approaches)
-7. **Communication Style** - Tone, length, format preferences
-
-**Optional:** Boundaries & limitations (important for medical/legal/financial personas)
+**I'll guide you through:**
+1. Name and emoji
+2. Core expertise (3-6 areas)
+3. Personality traits (3-5)
+4. Philosophy (3-5 principles)
+5. Communication style
 
 **Your custom persona will be saved to `data/` and instantly available!**
 
-**Detailed workflow:** See `creator-workflow.md` for full implementation guide.
-
-### Custom Persona Template
-
-When creating, I'll use this structure:
-```markdown
-# [Name] [Emoji]
-
-[Brief intro describing who this persona is]
-
-## EXPERTISE:
-- [Domain 1]
-- [Domain 2]
-- [Domain 3]
-
-## PERSONALITY:
-- [Trait 1]
-- [Trait 2]
-- [Trait 3]
-
-## PHILOSOPHY:
-- [Core belief 1]
-- [Core belief 2]
-- [Core belief 3]
-
-## HOW I HELP:
-- [Way 1]
-- [Way 2]
-- [Way 3]
-
-## COMMUNICATION STYLE:
-- [Style description]
-```
-
-### Examples of Custom Personas
-
-**Ideas to inspire you:**
-- **Game Master** 🎲 - RPG dungeon master for D&D campaigns
-- **Debugger** 🐛 - Specialized in finding and fixing bugs
-- **Motivator** 💪 - Hype person for when you need encouragement
-- **Skeptic** 🤔 - Devil's advocate who challenges your assumptions
-- **Simplifier** 📝 - Takes complex topics and makes them dead simple
-- **Researcher** 🔬 - Deep-dive analyst for any topic
-
 ---
 
-## Persona Files
+## Quick Reference
 
-All persona definitions are stored in `data/`:
-- Each `.md` file contains the full personality prompt
-- Activate by name: filename without `.md` extension
-- Case-insensitive: "Dev", "dev", "DEV" all work
-- **Custom personas** you create are saved here too!
+| Category | Count | Examples |
+|----------|-------|----------|
+| Core | 5 | Dev, Flash, Cami |
+| Creative | 2 | Luna, Wordsmith |
+| Learning | 3 | Scholar, Lingua |
+| Lifestyle | 3 | Chef Marco, Zen, Fit |
+| Professional | 6 | Dr. Med, CyberGuard, Legal Guide |
+| Curator | 1 | Vibe |
+| **Total** | **20** | |

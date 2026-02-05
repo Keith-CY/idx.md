@@ -36,16 +36,62 @@ python scripts/find_dirigera_ip.py --try-generate-token
 
 ### Generate Token
 
-Run the included token generator with the hub IP address:
+**IMPORTANT**: Token generation REQUIRES PHYSICAL USER ACTION. Follow this workflow:
+
+#### Step 1: Start Token Generation Script
+Run the wrapper script in the background. It will automatically wait for the button press:
+
+```bash
+python scripts/generate_token_wrapper.py <dirigera-ip-address> &
+```
+
+The token will be saved to `dirigera_token.txt` by default. To specify a custom location:
+
+```bash
+python scripts/generate_token_wrapper.py <dirigera-ip-address> --output /path/to/token.txt &
+```
+
+#### Step 2: **END YOUR TURN AND INFORM THE USER**
+**CRITICAL**: After starting the script, you MUST:
+1. **End your turn immediately** - do not wait or continue processing
+2. Tell the user: "I've started the token generation process. Please press the ACTION BUTTON on the bottom of your Dirigera hub now. Let me know when you've pressed it."
+
+#### Step 3: Wait for User Confirmation
+The user will:
+1. Physically press the button on their Dirigera hub
+2. Reply to you confirming they pressed it (e.g., "Done" or "Pressed")
+
+The script will automatically detect the button press and save the token to the file.
+
+#### Step 4: Retrieve the Saved Token
+After the user confirms, read the token from the file:
+
+```python
+from pathlib import Path
+token = Path("dirigera_token.txt").read_text().strip()
+```
+
+Or from a custom location:
+
+```bash
+TOKEN=$(cat /path/to/token.txt)
+```
+
+Then use the token to connect:
+
+```python
+import dirigera
+hub = dirigera.Hub(token=token, ip_address="<dirigera-ip>")
+```
+
+#### Alternative: Manual Command
+For manual use (not recommended for agents):
 
 ```bash
 generate-token <dirigera-ip-address>
 ```
 
-When prompted:
-1. Press the action button on the bottom of the Dirigera hub.
-2. Press `ENTER` in the terminal.
-3. Copy the printed token for use in `dirigera.Hub(...)`.
+This requires interactive terminal access and doesn't save output automatically.
 
 ### Troubleshooting
 

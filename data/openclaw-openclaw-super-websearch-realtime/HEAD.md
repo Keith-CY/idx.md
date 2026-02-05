@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ytthuan/super-websearch-realtime/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:49.748Z
+retrieved_at: 2026-02-05T06:06:05.607Z
 content_sha256: 180bd73391f092135584da37ca7267bd97e32cbec8fc6f9abbb42f610493f22e
 ---

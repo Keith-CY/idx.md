@@ -1,106 +1,126 @@
 ---
 name: skillvet
-description: "Security scanner for ClawHub/community skills — detects malware, credential theft, exfiltration, prompt injection, and obfuscation before you install. Use when installing skills from ClawHub or any public marketplace, reviewing third-party agent skills for safety, or vetting untrusted code before giving it to your AI agent. Triggers: install skill, audit skill, check skill, vet skill, skill security, safe install, is this skill safe."
+description: Security scanner for ClawHub/community skills — detects malware, credential theft, exfiltration, prompt injection, obfuscation, homograph attacks, ANSI injection, campaign-specific attack patterns, and more before you install. Use when installing skills from ClawHub or any public marketplace, reviewing third-party agent skills for safety, or vetting untrusted code before giving it to your AI agent. Triggers: install skill, audit skill, check skill, vet skill, skill security, safe install, is this skill safe.
 ---
 
 # Skillvet
 
-Anyone can publish a skill to ClawHub. That's what makes it powerful — and risky. A single malicious skill can steal your API keys, exfiltrate your environment variables, inject prompts into your agent, or open a reverse shell on your machine.
-
-Skillvet scans skills **before** you use them. It runs 24 critical checks and 8 warning checks against every file in a skill directory, looking for credential theft, data exfiltration, prompt injection, obfuscation, and more. No dependencies — just bash and grep.
+Security scanner for agent skills. 34 critical checks, 8 warning checks. No dependencies — just bash and grep. Includes Tirith-inspired detection patterns and campaign signatures from [Koi Security research](https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting).
 
 ## Usage
 
-**Safe install** — installs a skill, audits it, and auto-removes it if critical issues are found:
+**Safe install** (installs, audits, auto-removes if critical):
 
 ```bash
 bash skills/skillvet/scripts/safe-install.sh <skill-slug>
 ```
 
-**Scan before installing** — downloads a skill to a temp directory, scans it, deletes it:
-
-```bash
-bash skills/skillvet/scripts/scan-remote.sh <skill-slug>
-```
-
-**Audit a skill you already have:**
+**Audit an existing skill:**
 
 ```bash
 bash skills/skillvet/scripts/skill-audit.sh skills/some-skill
 ```
 
-**Audit every installed skill:**
+**Audit all installed skills:**
 
 ```bash
 for d in skills/*/; do bash skills/skillvet/scripts/skill-audit.sh "$d"; done
 ```
 
-**Diff scan** — after an update, scan only what changed between versions:
+**JSON output** (for automation):
 
 ```bash
-bash skills/skillvet/scripts/diff-scan.sh skills/old-version skills/new-version
-```
-
-Exit codes: `0` clean, `1` warnings only, `2` critical findings (blocked).
-
-### Output formats
-
-All scripts accept `--json` for structured output and `--summary` for a single-line result.
-
-```bash
-# JSON — for CI pipelines and dashboards
 bash skills/skillvet/scripts/skill-audit.sh --json skills/some-skill
-
-# Summary — for batch scanning and notifications
-for d in skills/*/; do bash skills/skillvet/scripts/skill-audit.sh --summary "$d"; done
 ```
 
-## What it catches
+**Summary mode** (one-line per skill):
 
-### Critical — skill is blocked
+```bash
+bash skills/skillvet/scripts/skill-audit.sh --summary skills/some-skill
+```
 
-| Check | What it looks for |
-|-------|-------------------|
-| Exfiltration endpoints | URLs pointing to webhook.site, ngrok.io, requestbin, etc. |
-| Env variable harvesting | Bulk dumping of your shell environment |
-| Foreign credential access | Reading API keys the skill doesn't own (ANTHROPIC_API_KEY, OPENAI_API_KEY, etc.) |
-| Code obfuscation | Dynamic code evaluation, base64 decode, hex escape sequences |
-| Path traversal | Reaching outside the skill directory into ~/.ssh, ~/.aws, /etc/passwd |
-| Data exfiltration | Sending captured data out via curl or wget |
-| Reverse/bind shells | Network backdoors via /dev/tcp, netcat, socat |
-| .env file theft | Loading .env files from scripts (not just referencing them in docs) |
-| Prompt injection | "Ignore previous instructions" and similar overrides in markdown |
-| LLM tool exploitation | Instructing the agent to send, email, or post secrets |
-| Agent config tampering | Writing to AGENTS.md, SOUL.md, clawdbot.json, .bashrc |
-| Unicode obfuscation | Zero-width characters, RTL overrides that hide content |
-| Suspicious setup commands | Piping remote scripts to a shell interpreter in SKILL.md |
-| Social engineering | Telling users to download executables or run code from paste sites |
-| Shipped .env files | Actual .env files (not .example) included in the skill |
-| Homograph characters | Cyrillic letters mimicking Latin (e.g., Cyrillic `a` posing as Latin `a` in URLs) |
-| ANSI escape injection | Raw terminal escape sequences in markdown, JSON, or YAML files |
-| Punycode domains | xn-- encoded IDN labels that may hide homograph attacks |
-| Double-encoded paths | %25-based percent-encoding bypass attempts |
-| Shortened URLs | bit.ly, t.co, tinyurl, etc. in code — hides true destination |
-| Insecure pipe-to-shell | HTTP (no TLS) piped to a shell interpreter |
-| String construction evasion | Building dangerous calls from fragments (`'ev'+'al'`, bracket notation, `String.fromCharCode`, `getattr`) |
-| Data flow chain analysis | Same file reads secrets/env, encodes data, AND sends network requests — exfiltration pipeline |
-| Time bomb detection | Date-gated or long-delayed execution (`Date.now() > epoch`, `setTimeout` with 8+ digit delay, `schedule.every().days`) |
+Exit codes: `0` clean, `1` warnings only, `2` critical findings.
 
-### Warnings — flagged for manual review
+## Critical Checks (auto-blocked)
 
-| Check | What it looks for |
-|-------|-------------------|
-| Subprocess spawning | Code that launches child processes or shell commands |
-| Network requests | HTTP client libraries (axios, fetch, requests, httpx) |
-| Minified/bundled files | JS/TS files with very long lines that can't be audited by eye |
-| File write operations | Code that writes to the filesystem |
-| Unknown external tools | CLI tools referenced in docs that aren't on the known-safe list |
-| Insecure transport | Disabled TLS certificate verification |
-| Raw IP URLs | HTTP to non-private IPs — bypasses DNS, harder to trace |
-| Untrusted Docker registries | Docker pull/run from third-party registries |
+### Core Security Checks (1-24)
+
+| # | Check | Example |
+|---|-------|---------|
+| 1 | Known exfiltration endpoints | webhook.site, ngrok.io, requestbin |
+| 2 | Bulk env variable harvesting | `printenv \|`, `${!*@}` |
+| 3 | Foreign credential access | ANTHROPIC_API_KEY, TELEGRAM_BOT_TOKEN in scripts |
+| 4 | Code obfuscation | eval(), base64 decode, hex escapes |
+| 5 | Path traversal / sensitive files | `../../`, `~/.ssh`, `~/.clawdbot` |
+| 6 | Data exfiltration via curl/wget | `curl --data`, `wget --post` with variables |
+| 7 | Reverse/bind shells | `/dev/tcp/`, `nc -e`, `socat` |
+| 8 | .env file theft | dotenv loading in scripts (not docs) |
+| 9 | Prompt injection in markdown | "ignore previous instructions" in SKILL.md |
+| 10 | LLM tool exploitation | Instructions to send/email secrets |
+| 11 | Agent config tampering | Write/modify AGENTS.md, SOUL.md, clawdbot.json |
+| 12 | Unicode obfuscation | Zero-width chars, RTL override, bidi control chars |
+| 13 | Suspicious setup commands | curl piped to bash in SKILL.md |
+| 14 | Social engineering | Download external binaries, paste-and-run instructions |
+| 15 | Shipped .env files | .env files (not .example) in the skill |
+| 16 | Homograph URLs *(Tirith)* | Cyrillic і vs Latin i in hostnames |
+| 17 | ANSI escape sequences *(Tirith)* | Terminal escape codes in code/data files |
+| 18 | Punycode domains *(Tirith)* | `xn--` prefixed IDN-encoded domains |
+| 19 | Double-encoded paths *(Tirith)* | `%25XX` percent-encoding bypass |
+| 20 | Shortened URLs *(Tirith)* | bit.ly, t.co, tinyurl.com hiding destinations |
+| 21 | Pipe-to-shell | `curl \| bash` (HTTP and HTTPS) |
+| 22 | String construction evasion | `'cu' + 'rl'`, `String.fromCharCode`, `getattr(os,...)` |
+| 23 | Data flow chain analysis | Same file reads secrets, encodes, AND sends network requests |
+| 24 | Time bomb detection | `Date.now() > timestamp`, `setTimeout(fn, 86400000)` |
+
+### Campaign-Inspired Checks (25-34)
+
+Inspired by [Koi Security research](https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting) which found 341 malicious skills on ClawHub.
+
+| # | Check | Example |
+|---|-------|---------|
+| 25 | Known C2/IOC IP blocklist | 91.92.242.30, 54.91.154.110 (known AMOS C2 servers) |
+| 26 | Password-protected archives | "extract using password: openclaw" — AV evasion |
+| 27 | Paste service payloads | glot.io, pastebin.com hosting malicious scripts |
+| 28 | GitHub releases binary downloads | Fake prerequisites pointing to `.zip`/`.exe` on GitHub |
+| 29 | Base64 pipe-to-interpreter | `echo '...' \| base64 -D \| bash` — primary macOS vector |
+| 30 | Subprocess + network commands | `os.system("curl ...")` — hidden pipe-to-shell in code |
+| 31 | Fake URL misdirection *(warning)* | `echo "https://apple.com/setup"` decoy before real payload |
+| 32 | Process persistence + network | `nohup curl ... &` — backdoor with network access |
+| 33 | Fake prerequisite pattern | "Prerequisites" section with sketchy external downloads |
+| 34 | xattr/chmod dropper | macOS Gatekeeper bypass: download → `xattr -c` → `chmod +x` → execute |
+
+### Severity Changes (v0.5.0)
+
+- **Raw IP URLs** upgraded from WARNING → **CRITICAL** (malicious C2s commonly use raw IPs)
+- **Pipe-to-shell** now catches both HTTP and HTTPS (not just insecure HTTP)
+
+## Warning Checks (flagged for review)
+
+| # | Check | Example |
+|---|-------|---------|
+| W1 | Unknown external tool requirements | Non-standard CLI tools in install instructions |
+| W2 | Subprocess execution | child_process, exec(), os.system |
+| W3 | Network requests | axios, fetch, requests imports |
+| W4 | Minified/bundled files | First line >500 chars — can't audit |
+| W5 | Filesystem write operations | writeFile, open('w'), fs.append |
+| W6 | Insecure transport | `curl -k`, `verify=False` — TLS disabled |
+| W7 | Docker untrusted registries | Non-standard image sources |
+
+## Optional: Tirith Integration
+
+If the [tirith](https://github.com/sheeki03/tirith) binary is available on PATH, the scanner will additionally extract all URLs from code files and run `tirith check` against each unique hostname for deeper homograph/IDN analysis. This is purely additive — the scanner works fine without tirith installed.
+
+## IOC Updates
+
+The C2 IP blocklist in check #25 is based on known indicators from:
+- [Koi Security report](https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting) (Feb 2026)
+- [The Hacker News coverage](https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html)
+- [OpenSourceMalware analysis](https://opensourcemalware.com/blog/clawdbot-skills-ganked-your-crypto)
+
+To update IOCs, edit the `KNOWN_BAD_IPS` variable in `scripts/skill-audit.sh`.
 
 ## Limitations
 
-This is static analysis — pattern matching with grep. It raises the bar significantly but doesn't guarantee safety. Minified JS is flagged but not deobfuscated. Prompt injection detection is English-centric.
+Static analysis only. English-centric prompt injection patterns. Minified JS is flagged but not deobfuscated. A clean scan raises the bar but doesn't guarantee safety.
 
-The scanner flags itself when audited. Its own source code contains the patterns it detects. This is expected.
+The scanner flags itself when audited — its own patterns contain the strings it detects. This is expected.

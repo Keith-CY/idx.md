@@ -16,19 +16,18 @@ summary: >-
 
   ## Capabilities
 
-  OpenClaw is a personal AI assistant platform that enables agents to interact
-  across multiple messaging channels (WhatsApp, Telegram, Discord, Slack,
-  Signal, iMessage, MS Teams, Google Chat, Mattermost, and more) while providing
-  powerful automation, tool execution, and multi-agent coordination. Agents can
-  execute shell commands, automate workflows, browse the web, control browsers,
-  manage sessions with persistent memory, and coordinate with other agents—all
-  with configurable security sandboxing and access controls.
+  ClawdBot (OpenClaw) enables AI agents to operate autonomously across multiple
+  channels and platforms with sophisticated task automation, browser control,
+  and system integration. Agents can receive messages from 15+ messaging
+  platforms, execute shell commands, control browsers, schedule tasks, manage
+  sessions with persistent memory, and coordinate with other agents—all within a
+  secure, sandboxed environment with granular permission controls.
 
   ## Skills
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:01:00.344Z
-content_sha256: f89ca6d3fa8f53a1e02fa9fc8f036ea390146c1ef029c281d4968281dfc06704
+retrieved_at: 2026-02-05T06:00:13.819Z
+content_sha256: 79ebcec4a605103261b39158e04d4ac813413cc2c9c86a0c8de8499cb4eda169
 ---

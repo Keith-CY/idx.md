@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/emzod/speak/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/emzod/speak/speak-tts
-retrieved_at: 2026-02-04T07:00:58.363Z
+retrieved_at: 2026-02-05T06:00:09.059Z
 content_sha256: ca405caf24ed179997aa55b0ae20b154f31c7b04c35153a5bcf98755e8ef4c8b
 ---

@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-voices
-version: 2.1.2
+version: 2.1.3
 description: High-quality voice synthesis with 18 personas, 32 languages, sound effects, batch processing, and voice design using ElevenLabs API.
 tags: [tts, voice, speech, elevenlabs, audio, sound-effects, voice-design, multilingual]
 metadata: {"clawdbot":{"requires":{"bins":["python3"],"env":["ELEVEN_API_KEY","ELEVENLABS_API_KEY"]},"primaryEnv":"ELEVEN_API_KEY"}}

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/ecto/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-04T07:00:34.245Z
+retrieved_at: 2026-02-05T06:02:44.025Z
 content_sha256: c99c35afc7762390fc509d8e337ea8df40b912a6efcbb7f733e1824d0e86144e
 ---
