@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/netpad/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:27.774Z
+retrieved_at: 2026-02-05T07:25:59.128Z
 content_sha256: 4b7dbe17ee359a0c5ee75ff75b52bf4ca3988c6d5049f544492ab9be9ecb0a99
 ---

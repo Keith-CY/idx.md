@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/heyarviind/clawmail/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:02:08.345Z
+retrieved_at: 2026-02-05T07:25:18.972Z
 content_sha256: a0dfff6f71ecfb8865e6e042ba4f75f24e84b998007473953cc1fe120ae2a8fa
 ---

@@ -1,161 +1,77 @@
 ---
-name: clawdbot-cost-tracker
-description: Track Clawdbot AI model usage and costs accurately. Use when reporting daily/weekly costs, analyzing spending, or monitoring AI usage. Reads actual API cost data from session JSONL files.
+name: openclaw-cost-tracker
+description: Track OpenClaw usage costs and provide detailed reports by date and model. Supports daily, weekly, and monthly report formats for Discord and other messaging channels.
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "💰",
+        "os": ["darwin", "linux"],
+        "requires": { "bins": ["jq"] },
+        "install":
+          [
+            {
+              "id": "brew",
+              "kind": "brew",
+              "formula": "jq",
+              "bins": ["jq"],
+              "label": "Install jq (JSON parser)",
+            },
+          ],
+      },
+  }
 ---
 
-# Clawdbot Cost Tracker
+# OpenClaw Cost Tracker
 
-Track **accurate** API costs from Clawdbot session data.
+## Overview
 
-## ⚠️ Important: Data Source
+Precisely track OpenClaw usage costs with detailed reports by date and model type. This skill uses the jq tool to directly parse JSON data from OpenClaw session logs, extracting accurate cost information.
 
-**DO NOT use `sessions_list` totalTokens for cost tracking!**
-
-The `totalTokens` field in `sessions_list` represents the **current context window size**, not cumulative usage. It resets after each compaction.
-
-### ✅ Correct Data Source
-
-Session JSONL files contain actual API usage with **real cost data** (in USD):
-
-```
-~/.clawdbot/agents/main/sessions/*.jsonl
-```
-
-Each API call logs a `usage` object with precise costs:
-```json
-{
-  "usage": {
-    "input": 288,
-    "output": 646,
-    "cacheRead": 8576,
-    "cacheWrite": 0,
-    "totalTokens": 9510,
-    "cost": {
-      "input": 0.000432,
-      "output": 0.003876,
-      "cacheRead": 0.003216,
-      "cacheWrite": 0,
-      "total": 0.007524
-    }
-  }
-}
-```
+Supports multiple report formats:
+- Daily Reports (today/yesterday costs)
+- Weekly Reports (current week total/comparison with previous week)
+- Monthly Reports (current month total/month-over-month growth)
 
 ## Quick Start
 
-### Get All Daily Costs
-
 ```bash
-cd ~/.clawdbot/agents/main/sessions && \
-for f in *.jsonl; do
-  grep -o '"timestamp":"[^"]*".*"total":[0-9.]*' "$f" 2>/dev/null | \
-  sed 's/.*"timestamp":"\([^T]*\)T.*"total":\([0-9.]*\).*/\1 \2/' 
-done | awk '{date=$1; cost=$2; sum[date]+=cost} END {for(d in sum) printf "%s $%.2f\n", d, sum[d]}' | sort
+# Today's cost report
+bash {baseDir}/scripts/cost_report.sh --today
+
+# Yesterday's cost report
+bash {baseDir}/scripts/cost_report.sh --yesterday
+
+# Weekly cost report
+bash {baseDir}/scripts/cost_report.sh --week
+
+# Date range report
+bash {baseDir}/scripts/cost_report.sh --from 2026-01-01 --to 2026-01-31
 ```
 
-### Get Yesterday's Cost
+## Cost Calculation Method
 
-```bash
-YESTERDAY=$(date -v-1d +%Y-%m-%d)  # macOS
-# YESTERDAY=$(date -d "yesterday" +%Y-%m-%d)  # Linux
+This script directly extracts cost data from OpenClaw session log files (`~/.openclaw/agents/*/sessions/*.jsonl`):
+1. Uses jq to parse JSON data, locating the `message.usage.cost.total` field
+2. Calculates totals grouped by date and model
+3. Ensures each API call's cost is counted only once
 
-cd ~/.clawdbot/agents/main/sessions && \
-for f in *.jsonl; do
-  grep -o '"timestamp":"'$YESTERDAY'[^"]*".*"total":[0-9.]*' "$f" 2>/dev/null | \
-  grep -o '"total":[0-9.]*' | cut -d: -f2
-done | awk '{sum+=$1} END {printf "$%.2f\n", sum}'
+## Discord Output Format
+
+```
+💰 OpenClaw Cost Report (2026-02-04)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Today's Total Cost: $XX.XX (🟢 -XX% vs yesterday)
+
+📊 Model Details:
+• claude-opus-4-5: $XX.XX (XX%)
+• gpt-4o: $X.XX (X%)
+• ...
+
+📈 Weekly Total: $XXX.XX
 ```
 
-### Get Total Lifetime Cost
+## Installation Requirements
 
-```bash
-cd ~/.clawdbot/agents/main/sessions && \
-for f in *.jsonl; do
-  grep -o '"total":[0-9.]*' "$f" 2>/dev/null | cut -d: -f2
-done | awk '{sum+=$1} END {printf "$%.2f\n", sum}'
-```
-
-### Get Cost by Model (Advanced)
-
-```bash
-# Use the bundled script
-bash {baseDir}/scripts/extract-cost.sh --by-model
-```
-
-## Scripts
-
-### `scripts/extract-cost.sh`
-
-Extract actual costs from JSONL files.
-
-```bash
-# Daily costs
-bash scripts/extract-cost.sh
-
-# Yesterday only
-bash scripts/extract-cost.sh --yesterday
-
-# Specific date
-bash scripts/extract-cost.sh --date 2026-01-30
-
-# This week
-bash scripts/extract-cost.sh --week
-
-# JSON output
-bash scripts/extract-cost.sh --json
-```
-
-### `scripts/snapshot-usage.js` (Legacy)
-
-⚠️ **Deprecated** - Uses inaccurate token-based estimation.
-
-If you need token counts (not costs), this still works:
-```bash
-# Pipe sessions_list JSON to the script
-cat sessions.json | node scripts/snapshot-usage.js
-```
-
-## Integration with Daily Report
-
-Add to your HEARTBEAT.md:
-
-```markdown
-### 费用追踪
-
-获取昨日费用：
-\`\`\`bash
-bash /path/to/skills/clawdbot-cost-tracker/scripts/extract-cost.sh --yesterday
-\`\`\`
-
-展示格式：
-💰 昨日费用: $XX.XX
-📊 本周累计: $XXX.XX
-```
-
-## Data Storage (Optional)
-
-Save daily snapshots for historical tracking:
-
-```bash
-# Create snapshot with actual costs
-DATE=$(date +%Y-%m-%d)
-bash scripts/extract-cost.sh --json > memory/usage/$DATE.json
-```
-
-## Pricing Reference
-
-The costs in JSONL are **actual API charges** (USD), already calculated by the provider.
-
-For reference, current pricing (per million tokens):
-
-| Model | Input | Output | Cache Read | Cache Write |
-|-------|-------|--------|------------|-------------|
-| claude-opus-4-5 | $15 | $75 | $1.50 | $18.75 |
-| claude-sonnet-4 | $3 | $15 | $0.30 | $3.75 |
-| codex-mini-latest | $1.50 | $6 | $0.15 | $1.88 |
-
-## Color Conventions (Chinese Style)
-
-For financial displays in Chinese context:
-- 🔴 Red = Up/Increase (涨)
-- 🟢 Green = Down/Decrease (跌)
+- jq: JSON parsing tool (`brew install jq` or `apt install jq`)
+- Access to OpenClaw log files

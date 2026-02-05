@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ngutman/video-subtitles/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:06:38.539Z
+retrieved_at: 2026-02-05T07:26:45.716Z
 content_sha256: 308d80f1bea43b7f1d43f667e7770bd0fa2fd02a8d43a1403cb855899304b0e4
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/beeper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:01:37.831Z
+retrieved_at: 2026-02-05T07:25:09.944Z
 content_sha256: 97c58ae08dc06ee419c94dc9a45016eab0ca8ad65ea1e7ab9ee6e69be6b71278
 ---

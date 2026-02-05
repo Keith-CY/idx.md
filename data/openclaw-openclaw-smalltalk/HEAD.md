@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/johnmci/smalltalk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:05:53.668Z
+retrieved_at: 2026-02-05T07:26:28.918Z
 content_sha256: 5a6f3a546b6ede62eae9b650e4b40ec7a65adfaaf20834034e7d7c9229159d8d
 ---

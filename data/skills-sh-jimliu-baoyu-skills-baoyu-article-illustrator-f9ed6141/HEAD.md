@@ -1,7 +1,7 @@
 ---
-stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
+stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator-f9ed6141
 type: skills
-title: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
+title: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator-f9ed6141
 summary: >-
   # Style Reference
 
@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-article-illustrator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
-retrieved_at: 2026-02-05T06:00:24.651Z
+retrieved_at: 2026-02-05T07:26:59.922Z
 content_sha256: d0d741a5b3cc839e18d0dd82be41de0401ce1d941f20a377997577352c65543e
 ---

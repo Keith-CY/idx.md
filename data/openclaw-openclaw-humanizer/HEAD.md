@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/biostartechnology/humanizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:31.275Z
+retrieved_at: 2026-02-05T07:25:42.684Z
 content_sha256: d7ce483d368e430185b707611ce82ef4206021da28cf306d75d4b64f1167416f
 ---

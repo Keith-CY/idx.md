@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abakermi/kanbanflow-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:47.587Z
+retrieved_at: 2026-02-05T07:25:46.943Z
 content_sha256: c18769f6f4427a6fcc4a29e8afab39ce447ce6823e664aa3d84c7a6801ac4c92
 ---

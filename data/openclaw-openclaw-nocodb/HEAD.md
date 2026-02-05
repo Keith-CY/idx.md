@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/nocodb/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:31.778Z
+retrieved_at: 2026-02-05T07:26:00.214Z
 content_sha256: 75c28d426dd98024898f81ee0c55f6371615ebde09aeae34138e04654d3706bb
 ---

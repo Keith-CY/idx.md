@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/gog/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:17.260Z
+retrieved_at: 2026-02-05T07:25:38.730Z
 content_sha256: 00c1af6cde01299753439088916cb6e245ce00e1672b8cd4305a66d7eac2abad
 ---

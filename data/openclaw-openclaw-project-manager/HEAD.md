@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fr0ziii/project-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:05:13.400Z
+retrieved_at: 2026-02-05T07:26:14.219Z
 content_sha256: 5a850ea832ef5f4e9224fcf452eb836a6489be00779cc27305c41413382861ce
 ---

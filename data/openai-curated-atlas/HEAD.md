@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/atlas/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/atlas/SKILL.md
-retrieved_at: 2026-02-05T06:07:11.849Z
+retrieved_at: 2026-02-05T07:24:40.447Z
 content_sha256: 5e6216dd4d8729428ceef8466aaa69a30d6bdc57cf71c70e6c9a8b7fa94b5bfe
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jestersimpps/fail2ban-reporter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:02:53.725Z
+retrieved_at: 2026-02-05T07:25:31.695Z
 content_sha256: 163628d6e9b4cf0b0e42421674a3cd2ac183440d86b7ff8c0983b7bba5708729
 ---

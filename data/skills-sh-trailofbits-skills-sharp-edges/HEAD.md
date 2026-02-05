@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/main/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
-retrieved_at: 2026-02-05T06:00:36.138Z
+retrieved_at: 2026-02-05T07:24:50.887Z
 content_sha256: 1d99f2716f7bef18efe71015ce0c56e0f4961c042faa503d796d6d4d1626fdc6
 ---

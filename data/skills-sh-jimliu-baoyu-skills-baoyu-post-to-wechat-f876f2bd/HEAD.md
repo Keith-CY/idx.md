@@ -1,7 +1,7 @@
 ---
-stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat
+stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd
 type: skills
-title: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat
+title: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd
 summary: >-
   # Image-Text Posting (图文发表)
 
@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-retrieved_at: 2026-02-05T06:00:26.010Z
+retrieved_at: 2026-02-05T07:27:00.107Z
 content_sha256: 41852e22efea3db12d31d20616e084486f32a639ed4e6f1df7019b06e6e52505
 ---

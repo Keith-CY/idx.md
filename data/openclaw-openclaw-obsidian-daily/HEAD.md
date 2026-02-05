@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/obsidian-daily/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:37.147Z
+retrieved_at: 2026-02-05T07:26:01.795Z
 content_sha256: dac31a9b2816521a52fd2aadf57ba815e1e6ce50d9abb11775d765edb3beddcd
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jash2368-collab/pro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:05:10.401Z
+retrieved_at: 2026-02-05T07:26:13.195Z
 content_sha256: b2e3d83f60425c2d0b9d4162efb8f9aa322b45843497340f2289f42be422801c
 ---

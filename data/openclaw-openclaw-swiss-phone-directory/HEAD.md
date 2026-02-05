@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swiss-phone-directory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:06:09.005Z
+retrieved_at: 2026-02-05T07:26:35.133Z
 content_sha256: a5827e65722547c5207258c9ac969f1174d413d12a7148caa7f18a723ac7e9e2
 ---

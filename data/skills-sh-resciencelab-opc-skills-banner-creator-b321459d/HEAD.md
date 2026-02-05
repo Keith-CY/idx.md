@@ -1,7 +1,7 @@
 ---
-stable_id: skills/skills-sh-resciencelab-opc-skills-banner-creator
+stable_id: skills/skills-sh-resciencelab-opc-skills-banner-creator-b321459d
 type: skills
-title: skills-sh-resciencelab-opc-skills-banner-creator
+title: skills-sh-resciencelab-opc-skills-banner-creator-b321459d
 summary: |-
   # Banner Formats Reference
   ## Platform-Specific Sizes
@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/banner-creator/references/formats.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
-retrieved_at: 2026-02-05T06:00:52.141Z
+retrieved_at: 2026-02-05T07:27:00.377Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---

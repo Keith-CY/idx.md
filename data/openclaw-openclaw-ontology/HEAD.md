@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oswalpalash/ontology/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:39.751Z
+retrieved_at: 2026-02-05T07:26:02.681Z
 content_sha256: ae6a1bc4869c6c6ceba9cac12b1be0ac6ca9fec625a91d005bd3114893e5ca71
 ---

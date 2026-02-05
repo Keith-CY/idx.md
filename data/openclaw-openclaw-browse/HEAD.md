@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pkiv/browse/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:01:46.340Z
+retrieved_at: 2026-02-05T07:25:12.716Z
 content_sha256: 9891afc423023764c07308b21e10745773664f2073fac3bdfe4e42a589b8f1eb
 ---

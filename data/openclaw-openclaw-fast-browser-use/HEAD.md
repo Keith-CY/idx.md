@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rknoche6/fast-browser-use/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:02:54.380Z
+retrieved_at: 2026-02-05T07:25:31.860Z
 content_sha256: 061b020471e915f5b8326c50b63f277f9df2944751719c1bef571a0196b2abb3
 ---

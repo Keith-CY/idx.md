@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/google-ads/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:17.904Z
+retrieved_at: 2026-02-05T07:25:38.887Z
 content_sha256: e599050a8eee737e9706299547e2a4917b4eb4c0523f4b9cabd3a0ea8f8931ac
 ---

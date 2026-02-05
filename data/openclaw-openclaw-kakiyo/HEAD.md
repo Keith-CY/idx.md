@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cyberboyayush/kakiyo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:47.159Z
+retrieved_at: 2026-02-05T07:25:46.832Z
 content_sha256: 743ab0a7fb9ae85e845c9117d85cf21dbc42d4ae9862655c342989fe9b960638
 ---

@@ -1,7 +1,7 @@
 ---
-stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-comic
+stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4
 type: skills
-title: skills-sh-jimliu-baoyu-skills-baoyu-comic
+title: skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4
 summary: |-
   # Partial Workflows
   Options to run specific parts of the workflow.
@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-comic/references/partial-workflows.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
-retrieved_at: 2026-02-05T06:00:25.626Z
+retrieved_at: 2026-02-05T07:27:00.054Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---

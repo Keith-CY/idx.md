@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-alcohol/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:05:20.376Z
+retrieved_at: 2026-02-05T07:26:17.139Z
 content_sha256: 59f86a700d02edf0f4b3ce417c559f36e2abf3645f2a061f1260ae4158627675
 ---

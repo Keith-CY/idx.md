@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/pmndrs/zustand/main/docs/guides/slices-pattern.md
 license: ""
 upstream_ref: https://skills.sh/jezweb/claude-skills/zustand-state-management
-retrieved_at: 2026-02-05T06:00:31.438Z
+retrieved_at: 2026-02-05T07:24:48.883Z
 content_sha256: 91fb4fcc8f81a292dcf42d7683e17b3f1cae02dfeb2926c19840ef573562cc9d
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/cloudflare/skills/main/skills/building-ai-agent-on-cloudflare/references/agent-patterns.md
 license: ""
 upstream_ref: https://skills.sh/cloudflare/skills/building-ai-agent-on-cloudflare
-retrieved_at: 2026-02-05T06:00:44.134Z
+retrieved_at: 2026-02-05T07:24:53.614Z
 content_sha256: dc2ec307e4c8c975269fed04eff86822ecef2fca5365d732420c991fa1025f66
 ---

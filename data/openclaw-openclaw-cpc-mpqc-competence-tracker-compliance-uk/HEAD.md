@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/cpc-mpqc-competence-tracker-compliance-uk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:02:23.716Z
+retrieved_at: 2026-02-05T07:25:23.751Z
 content_sha256: cd7a4d5446bf4f75301b00ae5e0d2a6fbdd2cf7c9502ed2d07632661245eb1aa
 ---

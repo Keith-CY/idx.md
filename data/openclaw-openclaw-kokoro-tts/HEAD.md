@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edkief/kokoro-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:49.462Z
+retrieved_at: 2026-02-05T07:25:47.455Z
 content_sha256: 79fac3c48e8008b9ab69338da7d3827931ef1a5cd32d31e8cf0940988fb9a711
 ---

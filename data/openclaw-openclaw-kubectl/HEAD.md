@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/kubectl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:50.102Z
+retrieved_at: 2026-02-05T07:25:47.749Z
 content_sha256: eecee7fa4b79121b2e7e5f10e422ffb1598efab56d46562592693b43fe67b20f
 ---

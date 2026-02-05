@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jamesalmeida/stranger-danger/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:06:02.678Z
+retrieved_at: 2026-02-05T07:26:32.752Z
 content_sha256: 6cb627cdc46ba6644670cf535c386bf51b6e78977c89ed81b986d3c610141320
 ---

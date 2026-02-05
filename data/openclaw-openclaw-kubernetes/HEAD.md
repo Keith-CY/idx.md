@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kcns008/kubernetes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:50.311Z
+retrieved_at: 2026-02-05T07:25:47.805Z
 content_sha256: abe866082230d81519757b9b25d12eb407c1b368c2f4e7760a93fd7c9683765c
 ---

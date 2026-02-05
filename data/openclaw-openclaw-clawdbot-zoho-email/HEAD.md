@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/briansmith80/clawdbot-zoho-email/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:02:03.930Z
+retrieved_at: 2026-02-05T07:25:17.767Z
 content_sha256: b20c65638542a0cb72b2215aacade7b05f2b9526710fe8ddaa80ea433b7e0fcc
 ---

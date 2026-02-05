@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/galizki/evoweb-ai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:02:49.900Z
+retrieved_at: 2026-02-05T07:25:30.579Z
 content_sha256: 56565d4aa0ff75ac20a142e7211bc7105086b1087f2989b7916f7056c994d8b5
 ---

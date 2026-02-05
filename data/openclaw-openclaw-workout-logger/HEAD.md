@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/workout-logger/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:06:55.206Z
+retrieved_at: 2026-02-05T07:26:51.205Z
 content_sha256: 967a96fa2ecc4a2f0919c717b35d38c089ea38016532e345feaf94ce9d989aaa
 ---

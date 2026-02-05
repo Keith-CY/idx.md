@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drg3nz0/macbook-optimizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:58.583Z
+retrieved_at: 2026-02-05T07:25:50.097Z
 content_sha256: adde35b568dd4bf7296162b5b9c818ea4098c12050fa470c792e8a884aefa21d
 ---

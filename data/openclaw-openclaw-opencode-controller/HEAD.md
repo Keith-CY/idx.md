@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/karatla/opencode-controller/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:45.787Z
+retrieved_at: 2026-02-05T07:26:04.699Z
 content_sha256: 6535df08ba8b0bbc3bfe383a5a975d1b1d9c0a998488fe63c1060c8cddf813fc
 ---

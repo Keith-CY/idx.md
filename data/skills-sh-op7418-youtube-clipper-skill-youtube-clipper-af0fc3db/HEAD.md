@@ -1,7 +1,7 @@
 ---
-stable_id: skills/skills-sh-op7418-youtube-clipper-skill-youtube-clipper
+stable_id: skills/skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db
 type: skills
-title: skills-sh-op7418-youtube-clipper-skill-youtube-clipper
+title: skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db
 summary: |-
   # YouTube Clipper Skill
   > AI-powered YouTube video clipper for Claude Code. Download videos, generate semantic chapters, clip segments, translate subtitles to bilingual format, and burn subtitles into videos.
@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/op7418/youtube-clipper-skill/main/README.md
 license: ""
 upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
-retrieved_at: 2026-02-05T06:00:28.763Z
+retrieved_at: 2026-02-05T07:27:00.178Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---

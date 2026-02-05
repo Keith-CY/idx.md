@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/post-at/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:05:07.335Z
+retrieved_at: 2026-02-05T07:26:12.047Z
 content_sha256: d93e507270af700f1aa080e887d37ffbc83cb59bcdf11b8bf2347da0096ac60f
 ---

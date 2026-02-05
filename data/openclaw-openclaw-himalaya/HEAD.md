@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lamelas/himalaya/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:27.582Z
+retrieved_at: 2026-02-05T07:25:41.642Z
 content_sha256: 2265054da976a3d9ec3d55b66888233cb39509ea4703abed8066382e5b4fc14f
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/instruments-profiling/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:37.110Z
+retrieved_at: 2026-02-05T07:25:44.189Z
 content_sha256: 50bec926d31083d59378bcac07a4dd91a2f0098483f3b3d4067dced803a9138c
 ---

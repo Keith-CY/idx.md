@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickhamze/pinch-to-post/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:59.982Z
+retrieved_at: 2026-02-05T07:26:09.103Z
 content_sha256: b51c21488df7ffcb2eb9d5cd093036845e448753df09933612b4c21c1964347f
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jivvei/zellij/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:07:10.005Z
+retrieved_at: 2026-02-05T07:26:55.573Z
 content_sha256: 59eb6403c7e63ca4f4f6cb8dae97afe29efa6a4e5d83b68f2ea5a43b04290ed1
 ---

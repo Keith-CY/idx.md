@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/main/skills/nanobanana/references/prompts.md
+source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/nanobanana/references/prompts.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/nanobanana
-retrieved_at: 2026-02-05T06:00:46.104Z
+retrieved_at: 2026-02-05T07:24:54.473Z
 content_sha256: f48d19fe05684f799698b03b46178dc7f2003acc3407b6b78fe5f102de721b24
 ---

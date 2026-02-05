@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amoghacloud/openclaws/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:04:45.350Z
+retrieved_at: 2026-02-05T07:26:04.563Z
 content_sha256: f879237afc94eba03df58b91ee3b7f64d40050284ee60414c98553bb35d0141a
 ---

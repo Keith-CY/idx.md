@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luccast/gogcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:03:17.477Z
+retrieved_at: 2026-02-05T07:25:38.786Z
 content_sha256: 8ad7e28eaaeb3576afe817be01c4f72b765e8fa6a665e552162bd7bcd1872bec
 ---

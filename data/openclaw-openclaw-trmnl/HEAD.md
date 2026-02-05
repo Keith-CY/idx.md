@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peetzweg/trmnl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T06:06:27.002Z
+retrieved_at: 2026-02-05T07:26:41.492Z
 content_sha256: 565e52c605039672bbb7d21f26b04a40df181398751f882d87954e542ce11a02
 ---
