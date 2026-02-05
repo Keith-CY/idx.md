@@ -71,9 +71,25 @@ jobs:
             echo "data/ missing"
             exit 1
           fi
-          total_files=$(find data -type f | wc -l | tr -d " ")
-          echo "Uploading ${total_files} files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
-          if ! find data -type f -print0 | xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
+          upload_list="$(mktemp)"
+          trap 'rm -f "$upload_list"' EXIT
+          if [ ! -d data_prev ]; then
+            find data -type f -print0 > "$upload_list"
+          else
+            while IFS= read -r -d '' file; do
+              relative_path="${file#data/}"
+              if [ ! -f "data_prev/$relative_path" ]; then
+                printf '%s\0' "$file" >> "$upload_list"
+              fi
+            done < <(find data -type f -print0)
+          fi
+          total_files=$(awk 'BEGIN { RS = "\0" } END { print NR }' "$upload_list")
+          if [ "$total_files" -eq 0 ]; then
+            echo "No new files to upload."
+            exit 0
+          fi
+          echo "Uploading ${total_files} new files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
+          if ! xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
             file="$1"
             key="${file#./}"
             attempt=1
@@ -90,7 +106,7 @@ jobs:
               sleep "$sleep_for"
               attempt=$((attempt + 1))
             done
-          ' _ {}; then
+          ' _ {} < "$upload_list"; then
             echo "Upload failed. Tail of latest Wrangler log (if present):"
             latest_log=$(ls -t /home/runner/.config/.wrangler/logs/wrangler-*.log 2>/dev/null | head -n 1 || true)
             if [ -n "$latest_log" ] && [ -f "$latest_log" ]; then
