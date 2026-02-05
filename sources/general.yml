@@ -280,3 +280,122 @@
     - skills-sh
     - skills-sh-probed
   upstream_ref: https://skills.sh/sanyuan0704/code-review-expert/code-review-expert
+- type: skills
+  slug: openclaw-openclaw-auto-updater
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maximeprades/auto-updater/SKILL.md
+  title: auto-updater
+  summary: Automatically update Clawdbot and all installed skills once daily.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-clawdbot-tools
+- type: skills
+  slug: openclaw-openclaw-clawhub-8e0f6cc8
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/clawhub/SKILL.md
+  title: clawhub
+  summary: clawhub
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-clawdbot-tools
+- type: skills
+  slug: openclaw-openclaw-google-workspace-mcp
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md
+  title: google-workspace
+  summary: Gmail, Calendar, Drive with simple OAuth sign-in.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-productivity-tasks
+- type: skills
+  slug: openclaw-openclaw-rankaj
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjnpage/rankaj/SKILL.md
+  title: rankaj
+  summary: Fetch current weather and forecast data from a free weather API (Open-Meteo).
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-data-analytics
+- type: skills
+  slug: openclaw-openclaw-x-trends
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anishtr4/x-trends/SKILL.md
+  title: x-trends
+  summary: Fetches current top trending topics on X (Twitter) for any country
+    using public aggregators.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-search-research
+- type: skills
+  slug: openclaw-openclaw-x-trends-dev
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anishtr4/x-trends-dev/SKILL.md
+  title: x-trends-dev
+  summary: Fetches current top trending topics on X (Twitter) for any country
+    using public aggregators.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-search-research
+- type: skills
+  slug: openclaw-openclaw-yahoo-finance
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajanraj/yahoo-finance/SKILL.md
+  title: yahoo-finance
+  summary: Get stock prices, quotes, fundamentals, earnings, options, dividends.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-finance
+- type: skills
+  slug: openclaw-openclaw-youtube-summarize
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-summarize/SKILL.md
+  title: youtube-summarize
+  summary: Summarize YouTube videos by extracting transcripts and captions.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-media-streaming
+- type: skills
+  slug: openclaw-openclaw-youtube-thumbnail-grabber
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-thumbnail-grabber/SKILL.md
+  title: youtube-thumbnail-grabber
+  summary: Download YouTube video thumbnails in various resolutions.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-image-video-generation
+- type: skills
+  slug: openclaw-openclaw-youtube-video-downloader
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-video-downloader/SKILL.md
+  title: youtube-video-downloader
+  summary: Download YouTube videos in various formats and qualities.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-marketing-sales
+- type: skills
+  slug: openclaw-openclaw-yt-summarize
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-summarize/SKILL.md
+  title: yt-summarize
+  summary: Summarize YouTube videos by extracting transcripts and captions.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-media-streaming
+- type: skills
+  slug: openclaw-openclaw-yt-thumbnail-grabber
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-thumbnail-grabber/SKILL.md
+  title: yt-thumbnail-grabber
+  summary: Download YouTube video thumbnails in various resolutions.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-image-video-generation
+- type: skills
+  slug: openclaw-openclaw-yt-video-downloader
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-video-downloader/SKILL.md
+  title: yt-video-downloader
+  summary: Download YouTube videos in various formats and qualities.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-marketing-sales
