@@ -168,3 +168,115 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/railwayapp/railway-skills/new
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator-f9ed6141
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-article-illustrator/references/styles.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-cover-image-93718624
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-cover-image/references/style-presets.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-comic/references/partial-workflows.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
+- type: skills
+  slug: skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db
+  source_url: https://raw.githubusercontent.com/op7418/youtube-clipper-skill/main/README.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
+- type: skills
+  slug: skills-sh-cloudflare-skills-agents-sdk-6c89c221
+  source_url: https://raw.githubusercontent.com/cloudflare/skills/main/skills/agents-sdk/references/workflows.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
+- type: skills
+  slug: skills-sh-resciencelab-opc-skills-domain-hunter-6d172174
+  source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/domain-hunter/references/registrars.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
+- type: skills
+  slug: skills-sh-resciencelab-opc-skills-banner-creator-b321459d
+  source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/banner-creator/references/formats.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-pytorch-lightning
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/distributed-training-pytorch-lightning/references/callbacks.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/pytorch-lightning
+- type: skills
+  slug: skills-sh-railwayapp-railway-skills-service
+  source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/main/plugins/railway/skills/service/references/variables.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/railwayapp/railway-skills/service
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-google-analytics
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/analytics/google-analytics/REFERENCE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/google-analytics
+- type: skills
+  slug: skills-sh-czlonkowski-n8n-skills-n8n-code-python
+  source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/main/skills/n8n-code-python/DATA_ACCESS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-python
+- type: skills
+  slug: skills-sh-kylezantos-design-engineer-auditor-package-design-motion-principles
+  source_url: https://raw.githubusercontent.com/kylezantos/design-engineer-auditor-package/main/skills/design-motion-principles/audit-checklist.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/kylezantos/design-engineer-auditor-package/design-motion-principles
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-autogpt-agents
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-autogpt/references/advanced-usage.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/autogpt-agents
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-pdf-processing-pro
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/document-processing/pdf-processing-pro/FORMS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/pdf-processing-pro
+- type: skills
+  slug: skills-sh-sanyuan0704-code-review-expert-code-review-expert
+  source_url: https://raw.githubusercontent.com/sanyuan0704/code-review-expert/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/sanyuan0704/code-review-expert/code-review-expert
