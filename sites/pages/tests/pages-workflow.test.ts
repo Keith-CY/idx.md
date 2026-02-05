@@ -47,6 +47,12 @@ describe("pages workflow", () => {
     expect(text.includes("data/reports/ingest-ibelick.md")).toBe(true);
   });
 
+  test("awesome claude ingest workflow uploads rejected report", async () => {
+    const text = await readText(".github/workflows/awesome-claude-ingest.yml");
+    expect(/actions\/upload-artifact@/.test(text)).toBe(true);
+    expect(text.includes("data/reports/rejected.md")).toBe(true);
+  });
+
   test("pages workflow uploads rejected report", async () => {
     const text = await readText(".github/workflows/pages.yml");
     expect(/actions\/upload-artifact@/.test(text)).toBe(true);
