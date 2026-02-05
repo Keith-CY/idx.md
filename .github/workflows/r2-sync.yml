@@ -75,25 +75,24 @@ jobs:
           trap 'rm -f "$upload_list"' EXIT
           if [ ! -d data_prev ]; then
             find data -type f -print0 > "$upload_list"
-          else
-            while IFS= read -r -d '' file; do
-              relative_path="${file#data/}"
-              previous_file="data_prev/$relative_path"
-              if [ ! -f "$previous_file" ] || ! cmp -s "$file" "$previous_file"; then
-                printf '%s\0' "$file" >> "$upload_list"
-              fi
-            done < <(find data -type f -print0)
-          fi
-          total_files=$(awk 'BEGIN { RS = "\0" } END { print NR }' "$upload_list")
-          if [ "$total_files" -eq 0 ]; then
-            echo "No new or changed files to upload."
-            exit 0
-          fi
-          echo "Uploading ${total_files} new/changed files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
-          if ! xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
-            file="$1"
-            key="${file#./}"
-            attempt=1
+	          else
+	            while IFS= read -r -d '' file; do
+	              relative_path="${file#data/}"
+	              if [ ! -f "data_prev/$relative_path" ]; then
+	                printf '%s\0' "$file" >> "$upload_list"
+	              fi
+	            done < <(find data -type f -print0)
+	          fi
+	          total_files=$(awk 'BEGIN { RS = "\0" } END { print NR }' "$upload_list")
+	          if [ "$total_files" -eq 0 ]; then
+	            echo "No new files to upload."
+	            exit 0
+	          fi
+	          echo "Uploading ${total_files} new files with concurrency=${UPLOAD_CONCURRENCY} timeout=${UPLOAD_FILE_TIMEOUT}s"
+	          if ! xargs -0 -P "$UPLOAD_CONCURRENCY" -I{} bash -c '
+	            file="$1"
+	            key="${file#./}"
+	            attempt=1
             while true; do
               if timeout "$UPLOAD_FILE_TIMEOUT" bunx wrangler r2 object put "$BUCKET/$key" --file "$file" --remote; then
                 exit 0
