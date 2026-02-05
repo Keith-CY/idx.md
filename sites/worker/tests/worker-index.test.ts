@@ -26,7 +26,7 @@ describe("worker fetch", () => {
     expect(body).toContain("Open the index. Agents learn by browsing.");
     expect(body).toContain("idx.md is an open, agent-first knowledge index");
     expect(body).toContain(
-      "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.png",
+      "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg",
     );
     expect(body).toContain('property="og:title"');
     expect(body).toContain('property="og:description"');
