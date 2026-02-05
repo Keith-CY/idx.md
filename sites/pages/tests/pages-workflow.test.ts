@@ -23,6 +23,11 @@ describe("pages workflow", () => {
     expect(text.includes("data/reports/ingest-openclaw.md")).toBe(true);
   });
 
+  test("openclaw ingest workflow includes general sources", async () => {
+    const text = await readText(".github/workflows/openclaw-ingest.yml");
+    expect(text.includes("sources/general.yml")).toBe(true);
+  });
+
   test("skills.sh workflow uploads report", async () => {
     const text = await readText(".github/workflows/skills-sh-ingest.yml");
     expect(/actions\/upload-artifact@/.test(text)).toBe(true);
