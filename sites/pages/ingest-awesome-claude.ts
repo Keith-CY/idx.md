@@ -1,6 +1,5 @@
 import { createHash } from "crypto";
 import { mkdtemp, rm } from "fs/promises";
-import { tmpdir } from "os";
 import { resolve } from "path";
 import { parse } from "yaml";
 import type { SourceEntry } from "./lib/registry";
@@ -189,7 +188,7 @@ for (const entry of existingEntries) {
 }
 
 const nextEntries: SourceEntry[] = [...existingEntries];
-const tempRoot = await mkdtemp(resolve(tmpdir(), "awesome-claude-"));
+const tempRoot = await mkdtemp(resolve("/tmp", "awesome-claude-"));
 
 try {
   for (const repo of REPOS) {
