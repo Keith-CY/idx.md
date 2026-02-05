@@ -75,3 +75,4 @@ describe("category index generation", () => {
     expect(coding?.content.includes("title: Alpha v1")).toBe(false);
   });
 });
+
