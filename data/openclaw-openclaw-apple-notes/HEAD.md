@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/apple-notes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:05.986Z
+retrieved_at: 2026-02-05T09:49:14.555Z
 content_sha256: 493fde9a5e8df83739552821dc7902e086b1d6cca68b5f90ddf4b4a3488f37b6
 ---

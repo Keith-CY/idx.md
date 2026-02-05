@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/velvet-shark/raindrop/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:18.443Z
+retrieved_at: 2026-02-05T09:51:01.776Z
 content_sha256: 87afddea73144f0588739ca11dc10399d72e929ec9b1ef0873f909810aabf966
 ---

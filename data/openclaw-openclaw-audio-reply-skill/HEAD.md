@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/audio-reply-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:07.329Z
+retrieved_at: 2026-02-05T09:49:17.004Z
 content_sha256: 2ca51c0a5c8debedba8925ca0c7f9e07462a501ecd3b899c747102cac7e4632a
 ---

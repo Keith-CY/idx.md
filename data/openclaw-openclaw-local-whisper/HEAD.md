@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/araa47/local-whisper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:49.598Z
+retrieved_at: 2026-02-05T09:50:20.973Z
 content_sha256: bb27c6bcee9c5bbc1f3467b1112e89afe5bd4cb1050b50e89fa4badf721e1622
 ---

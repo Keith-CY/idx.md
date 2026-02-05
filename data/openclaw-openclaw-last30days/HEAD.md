@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zats/last30days/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:48.045Z
+retrieved_at: 2026-02-05T09:50:18.944Z
 content_sha256: 3f3a34755d0b763e30e72daef9b1b751622586efe3087def770950f831f8376a
 ---

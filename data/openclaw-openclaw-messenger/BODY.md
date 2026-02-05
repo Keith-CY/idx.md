@@ -1,35 +1,45 @@
 ---
 name: messenger
-description: Guidance for Facebook Messenger Platform integrations: app setup, webhooks, messaging, and operational safety.
+description: OpenClaw skill for Facebook Messenger Platform workflows, including messaging, webhooks, and Page inbox operations using direct HTTPS requests.
 ---
 
-# Messenger Integration Guide
+# Facebook Messenger API Skill (Advanced)
 
-## Goal
-Provide a practical baseline for integrating Facebook Messenger: app setup, webhooks, messaging flows, and safe operations.
+## Purpose
+Provide a production-oriented guide for Messenger Platform workflows: sending messages, handling webhooks, and managing Page messaging using direct HTTPS calls.
 
-## Use when
-- You need a Messenger bot for notifications or support.
-- You need to describe webhook validation and event handling.
-- You want a security/rate-limit checklist.
+## Best fit
+- You need bot-style messaging in Facebook Messenger.
+- You want clean webhook handling and message UX.
+- You prefer direct HTTP requests rather than SDKs.
 
-## Do not use when
-- The request involves policy violations or spam.
+## Not a fit
+- You need advanced Graph API Ads or Marketing workflows.
+- You must use complex browser-based OAuth flows.
 
-## Core topics
-- App and Page setup, tokens, permissions.
-- Webhook verification and signature checks.
-- Message types: text, templates, attachments.
-- Ops: rate limits, retries, logging.
+## Quick orientation
+- Read `references/messenger-api-overview.md` for base URLs and core object map.
+- Read `references/webhooks.md` for verification and signature validation.
+- Read `references/messaging.md` for Send API fields and message types.
+- Read `references/permissions-and-tokens.md` for token flow and required permissions.
+- Read `references/request-templates.md` for concrete HTTP payloads.
+- Read `references/conversation-patterns.md` for UX flows (get started, menu, fallback).
+- Read `references/webhook-event-map.md` for event types and routing.
 
 ## Required inputs
-- App/Page ownership and use case.
-- Deployment model and environment.
-- Access control and compliance constraints.
+- Facebook App ID and App Secret.
+- Page ID and Page access token.
+- Webhook URL and verify token.
+- Message UX and allowed interactions.
 
 ## Expected output
-- A clear integration plan with a technical checklist.
+- A clear messaging workflow plan, permissions checklist, and operational guardrails.
 
-## Notes
-- Never expose Page access tokens.
-- Validate webhooks and handle retries safely.
+## Operational notes
+- Validate signatures on all webhook events.
+- Keep replies short and acknowledge quickly.
+- Handle rate limits and retries with backoff.
+
+## Security notes
+- Never log tokens or app secrets.
+- Use least-privilege permissions.

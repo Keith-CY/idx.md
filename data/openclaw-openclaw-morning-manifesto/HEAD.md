@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marcbickel/morning-manifesto/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:56.710Z
+retrieved_at: 2026-02-05T09:50:34.132Z
 content_sha256: e8c0929cddfcb456ccfe5451747460d0a37984d70c4e22a2e9c2809b0cfdd364
 ---

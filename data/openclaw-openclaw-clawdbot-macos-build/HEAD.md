@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manish-basargekar/clawdbot-macos-build/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:17.146Z
+retrieved_at: 2026-02-05T09:49:32.137Z
 content_sha256: b9aede843ecd362b127ee0bcf0995bd48564c8abdac85d5cc3cf42e7bd0a42aa
 ---

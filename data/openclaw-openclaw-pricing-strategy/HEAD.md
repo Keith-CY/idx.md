@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/pricing-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:12.819Z
+retrieved_at: 2026-02-05T09:50:55.304Z
 content_sha256: 44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1
 ---

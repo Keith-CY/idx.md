@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mackhendricks/dsiprouter-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:28.469Z
+retrieved_at: 2026-02-05T09:49:50.901Z
 content_sha256: eae89994cfaac4a4cf3dd95a0c0fe78ab830bca9ac70b390abda2c539f5af1d3
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jayphen/readeck/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:19.019Z
+retrieved_at: 2026-02-05T09:51:02.386Z
 content_sha256: 5864f5437d3798550ac5eebf53aa33e9a2848d4ccbbdb15b922f4611eae7aa53
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jiasenl/clawdbot-skill-homebridge/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:17.479Z
+retrieved_at: 2026-02-05T09:49:32.705Z
 content_sha256: e6cefa1e9cba28a591752a099be0e29727394edba34b3f9de65cd25fbdf1a140
 ---

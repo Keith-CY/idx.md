@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/better-notion/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:10.308Z
+retrieved_at: 2026-02-05T09:49:21.347Z
 content_sha256: 4e9c074b6f805c912867b9e20a1872e57b75bbc40eff60ce13aafcccfc351ea0
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hopyky/update-plus/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:43.651Z
+retrieved_at: 2026-02-05T09:51:32.333Z
 content_sha256: c92003a6c6dddf670bd089ef880e5598dac2b71452f9f1963326236047e5d822
 ---

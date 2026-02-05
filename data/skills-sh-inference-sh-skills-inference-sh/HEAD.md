@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/inference-sh/skills/main/skills/inference-sh/references/authentication.md
 license: ""
 upstream_ref: https://skills.sh/inference-sh/skills/inference-sh
-retrieved_at: 2026-02-05T07:24:43.154Z
+retrieved_at: 2026-02-05T09:48:46.524Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---

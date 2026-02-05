@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/louzhixian/git-crypt-backup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:37.097Z
+retrieved_at: 2026-02-05T09:50:04.801Z
 content_sha256: 6a3b8806675eb138a3c7acea2a4e2593ec03efc0e55c5d15f11b875280e4cfb7
 ---

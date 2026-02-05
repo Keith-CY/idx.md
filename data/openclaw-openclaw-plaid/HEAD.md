@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jverdi/plaid/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:10.024Z
+retrieved_at: 2026-02-05T09:50:51.996Z
 content_sha256: b974d276d94307f18001858862d8e7a58f4ebcc8df7c1c110317d9d8b66838af
 ---

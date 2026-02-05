@@ -1,7 +1,7 @@
 ---
 name: gmail
 description: |
-  Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail.
+  Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).
 compatibility: Requires network access and valid Maton API key
 metadata:
   author: maton
@@ -16,8 +16,7 @@ Access the Gmail API with managed OAuth authentication. Read, send, and manage e
 
 ```bash
 # List messages
-curl -s -X GET 'https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages?maxResults=10' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages?maxResults=10" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ## Base URL
@@ -33,7 +32,7 @@ Replace `{native-api-path}` with the actual Gmail API endpoint path. The gateway
 All requests require the Maton API key in the Authorization header:
 
 ```
-Authorization: Bearer YOUR_API_KEY
+Authorization: Bearer $MATON_API_KEY
 ```
 
 **Environment Variable:** Set your API key as `MATON_API_KEY`:
@@ -55,24 +54,19 @@ Manage your Google OAuth connections at `https://ctrl.maton.ai`.
 ### List Connections
 
 ```bash
-curl -s -X GET 'https://ctrl.maton.ai/connections?app=google-mail&status=ACTIVE' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://ctrl.maton.ai/connections?app=google-mail&status=ACTIVE" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ### Create Connection
 
 ```bash
-curl -s -X POST 'https://ctrl.maton.ai/connections' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -d '{"app": "google-mail"}'
+curl -s -X POST "https://ctrl.maton.ai/connections" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -d '{"app": "google-mail"}'
 ```
 
 ### Get Connection
 
 ```bash
-curl -s -X GET 'https://ctrl.maton.ai/connections/{connection_id}' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://ctrl.maton.ai/connections/{connection_id}" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 **Response:**
@@ -95,8 +89,7 @@ Open the returned `url` in a browser to complete OAuth authorization.
 ### Delete Connection
 
 ```bash
-curl -s -X DELETE 'https://ctrl.maton.ai/connections/{connection_id}' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X DELETE "https://ctrl.maton.ai/connections/{connection_id}" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ### Specifying Connection
@@ -104,9 +97,7 @@ curl -s -X DELETE 'https://ctrl.maton.ai/connections/{connection_id}' \
 If you have multiple Gmail connections, specify which one to use with the `Maton-Connection` header:
 
 ```bash
-curl -s -X GET 'https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -H 'Maton-Connection: 21fd90f9-5935-43cd-b6c8-bde9d915ca80'
+curl -s -X GET "https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages" -H "Authorization: Bearer $MATON_API_KEY" -H "Maton-Connection: 21fd90f9-5935-43cd-b6c8-bde9d915ca80"
 ```
 
 If omitted, the gateway uses the default (oldest) active connection.
@@ -259,6 +250,8 @@ response = requests.get(
 - Use `me` as userId for the authenticated user
 - Message body is base64url encoded in the `raw` field
 - Common labels: `INBOX`, `SENT`, `DRAFT`, `STARRED`, `UNREAD`, `TRASH`
+- IMPORTANT: When using curl commands, use `curl -g` when URLs contain brackets (`fields[]`, `sort[]`, `records[]`) to disable glob parsing
+- IMPORTANT: When piping curl output to `jq` or other commands, environment variables like `$MATON_API_KEY` may not expand correctly in some shell environments. You may get "Invalid API key" errors when piping.
 
 ## Error Handling
 

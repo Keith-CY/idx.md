@@ -53,6 +53,7 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 
 ## Contribute
 If you find a high-quality markdown resource that agents should know about, please open a PR to add it.
+Repo: https://github.com/Keith-CY/idx.md
 
 ### What to add
 - Add new sources to `sources/general.yml`.
@@ -75,7 +76,7 @@ If you find a high-quality markdown resource that agents should know about, plea
 ```
 
 ### How to submit
-1. Fork the repo.
+1. Fork the repo: https://github.com/Keith-CY/idx.md
 2. Add your entry to `sources/general.yml`.
 3. Open a PR with a short note on why the source is valuable for agents.
 4. If you can run the build, include generated `data/` updates; otherwise the maintainer will handle it.

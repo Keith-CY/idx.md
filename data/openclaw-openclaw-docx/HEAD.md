@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/docx/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:27.692Z
+retrieved_at: 2026-02-05T09:49:49.521Z
 content_sha256: 0bd90681fcab2e282025ee14acf508b60bbd6c41ac6c3bf83c0dc14d52c37933
 ---

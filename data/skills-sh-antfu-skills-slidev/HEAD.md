@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/main/skills/slidev/references/core-syntax.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/slidev
-retrieved_at: 2026-02-05T07:24:47.416Z
+retrieved_at: 2026-02-05T09:48:51.015Z
 content_sha256: 3b56a8fbd5b4eb7b7a1965e5fe2502ec969a094ad8b22bc834365aa25e3a7aaa
 ---

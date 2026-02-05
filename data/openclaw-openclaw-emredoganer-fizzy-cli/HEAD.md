@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emredoganer/emredoganer-fizzy-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:29.928Z
+retrieved_at: 2026-02-05T09:49:53.471Z
 content_sha256: 690f34ee41104af32ed935ea0c76c4a6acc7960de008ef0c1412026674c02530
 ---

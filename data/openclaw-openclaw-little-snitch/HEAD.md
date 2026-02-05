@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/little-snitch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:49.172Z
+retrieved_at: 2026-02-05T09:50:20.357Z
 content_sha256: 73eb485b3f3e35a39bc9e1fce3cc0ff86a38d9c2681adcb3657c115aa94a1815
 ---

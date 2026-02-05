@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/capevace/claw-events/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:16.366Z
+retrieved_at: 2026-02-05T09:49:30.768Z
 content_sha256: 754172d5e11397be36fbf2f88408d685269aabcb97fd133ed8d7156d9084d833
 ---

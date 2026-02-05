@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin37li/mlx-whisper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:53.423Z
+retrieved_at: 2026-02-05T09:50:30.009Z
 content_sha256: 94331ac299ca1be9f75a2239e2ace3c858097ddd3c27ca33f1a7c176df3be0e7
 ---

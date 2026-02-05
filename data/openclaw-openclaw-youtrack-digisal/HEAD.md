@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digisal/youtrack-digisal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:53.871Z
+retrieved_at: 2026-02-05T09:51:45.696Z
 content_sha256: b78b9845d4a81d71f86c58abb7d37cab54ba5406212945ed8bcb59f5486cd45a
 ---

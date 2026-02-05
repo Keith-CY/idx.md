@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/main/skills/manim-composer/references/narrative-patterns.md
 license: ""
 upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manim-composer
-retrieved_at: 2026-02-05T07:24:49.227Z
+retrieved_at: 2026-02-05T09:48:53.067Z
 content_sha256: fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656
 ---

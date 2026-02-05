@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/gitlab-address-comments/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/gitlab-address-comments/SKILL.md
-retrieved_at: 2026-02-05T07:24:42.797Z
+retrieved_at: 2026-02-05T09:48:45.984Z
 content_sha256: f421b8b9efb4bf4832e2c319a8e8af1ba3d66f7b30707af95ca9ca3508a0cadf
 ---

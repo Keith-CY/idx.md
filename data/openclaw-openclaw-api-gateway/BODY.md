@@ -16,10 +16,7 @@ Passthrough proxy for direct access to third-party APIs using managed auth conne
 
 ```bash
 # Native Slack API call
-curl -s -X POST 'https://gateway.maton.ai/slack/api/chat.postMessage' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -d '{"channel": "C0123456", "text": "Hello from gateway!"}'
+curl -s -X POST "https://gateway.maton.ai/slack/api/chat.postMessage" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -d '{"channel": "C0123456", "text": "Hello from gateway!"}'
 ```
 
 > **IMPORTANT: If you receive a 500 Internal Server Error**, this does NOT mean the service is unsupported. The most common cause is an expired OAuth refresh token (connections older than 1 month). See the "Troubleshooting 500 Internal Server Error" section below to create a new connection and retry with the new connection ID.
@@ -37,7 +34,7 @@ Replace `{app}` with the service name and `{native-api-path}` with the actual AP
 All requests require the Maton API key in the Authorization header:
 
 ```
-Authorization: Bearer YOUR_API_KEY
+Authorization: Bearer $MATON_API_KEY
 ```
 
 The API gateway automatically injects the appropriate OAuth token for the target service.
@@ -61,8 +58,7 @@ Connection management uses a separate base URL: `https://ctrl.maton.ai`
 ### List Connections
 
 ```bash
-curl -s -X GET 'https://ctrl.maton.ai/connections?app=slack&status=ACTIVE' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://ctrl.maton.ai/connections?app=slack&status=ACTIVE" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 **Query Parameters (optional):**
@@ -89,17 +85,13 @@ curl -s -X GET 'https://ctrl.maton.ai/connections?app=slack&status=ACTIVE' \
 ### Create Connection
 
 ```bash
-curl -s -X POST 'https://ctrl.maton.ai/connections' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -d '{"app": "slack"}'
+curl -s -X POST "https://ctrl.maton.ai/connections" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -d '{"app": "slack"}'
 ```
 
 ### Get Connection
 
 ```bash
-curl -s -X GET 'https://ctrl.maton.ai/connections/21fd90f9-5935-43cd-b6c8-bde9d915ca80' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://ctrl.maton.ai/connections/{connection_id}" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 **Response:**
@@ -122,8 +114,7 @@ Open the returned URL in a browser to complete OAuth.
 ### Delete Connection
 
 ```bash
-curl -s -X DELETE 'https://ctrl.maton.ai/connections/21fd90f9-5935-43cd-b6c8-bde9d915ca80' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X DELETE "https://ctrl.maton.ai/connections/{connection_id}" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ### Specifying Connection
@@ -131,11 +122,7 @@ curl -s -X DELETE 'https://ctrl.maton.ai/connections/21fd90f9-5935-43cd-b6c8-bde
 If you have multiple connections for the same app, you can specify which connection to use by adding the `Maton-Connection` header with the connection ID:
 
 ```bash
-curl -s -X POST 'https://gateway.maton.ai/slack/api/chat.postMessage' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -H 'Maton-Connection: 21fd90f9-5935-43cd-b6c8-bde9d915ca80' \
-  -d '{"channel": "C0123456", "text": "Hello!"}'
+curl -s -X POST "https://gateway.maton.ai/slack/api/chat.postMessage" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -H "Maton-Connection: 21fd90f9-5935-43cd-b6c8-bde9d915ca80" -d '{"channel": "C0123456", "text": "Hello!"}'
 ```
 
 If omitted, the gateway uses the default (oldest) active connection for that app.
@@ -167,6 +154,8 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | HubSpot | `hubspot` | `api.hubapi.com` |
 | Jira | `jira` | `api.atlassian.com` |
 | JotForm | `jotform` | `api.jotform.com` |
+| Klaviyo | `klaviyo` | `a.klaviyo.com` |
+| Mailchimp | `mailchimp` | `{dc}.api.mailchimp.com` |
 | Notion | `notion` | `api.notion.com` |
 | Outlook | `outlook` | `graph.microsoft.com` |
 | Pipedrive | `pipedrive` | `api.pipedrive.com` |
@@ -176,6 +165,8 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Stripe | `stripe` | `api.stripe.com` |
 | Trello | `trello` | `api.trello.com` |
 | Typeform | `typeform` | `api.typeform.com` |
+| WhatsApp Business | `whatsapp-business` | `graph.facebook.com` |
+| WooCommerce | `woocommerce` | `{store-url}/wp-json/wc/v3` |
 | Xero | `xero` | `api.xero.com` |
 | YouTube | `youtube` | `www.googleapis.com` |
 
@@ -203,6 +194,8 @@ See [references/](references/) for detailed routing guides per provider:
 - [HubSpot](references/hubspot.md) - Contacts, companies, deals
 - [Jira](references/jira.md) - Issues, projects, JQL queries
 - [JotForm](references/jotform.md) - Forms, submissions, webhooks
+- [Klaviyo](references/klaviyo.md) - Profiles, lists, campaigns, flows, events
+- [Mailchimp](references/mailchimp.md) - Audiences, campaigns, templates, automations
 - [Notion](references/notion.md) - Pages, databases, blocks
 - [Outlook](references/outlook.md) - Mail, calendar, contacts
 - [Pipedrive](references/pipedrive.md) - Deals, persons, organizations, activities
@@ -212,6 +205,8 @@ See [references/](references/) for detailed routing guides per provider:
 - [Stripe](references/stripe.md) - Customers, subscriptions, payments
 - [Trello](references/trello.md) - Boards, lists, cards, checklists
 - [Typeform](references/typeform.md) - Forms, responses, insights
+- [WhatsApp Business](references/whatsapp-business.md) - Messages, templates, media
+- [WooCommerce](references/woocommerce.md) - Products, orders, customers, coupons
 - [Xero](references/xero.md) - Contacts, invoices, reports
 - [YouTube](references/youtube.md) - Videos, playlists, channels, subscriptions
 
@@ -221,69 +216,49 @@ See [references/](references/) for detailed routing guides per provider:
 
 ```bash
 # Native Slack API: POST https://slack.com/api/chat.postMessage
-curl -s -X POST 'https://gateway.maton.ai/slack/api/chat.postMessage' \
-  -H 'Content-Type: application/json; charset=utf-8' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -d '{"channel": "C0123456", "text": "Hello!"}'
+curl -s -X POST "https://gateway.maton.ai/slack/api/chat.postMessage" -H "Content-Type: application/json; charset=utf-8" -H "Authorization: Bearer $MATON_API_KEY" -d '{"channel": "C0123456", "text": "Hello!"}'
 ```
 
 ### HubSpot - Create Contact (Native API)
 
 ```bash
 # Native HubSpot API: POST https://api.hubapi.com/crm/v3/objects/contacts
-curl -s -X POST 'https://gateway.maton.ai/hubspot/crm/v3/objects/contacts' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -d '{
-    "properties": {
-      "email": "john@example.com",
-      "firstname": "John",
-      "lastname": "Doe"
-    }
-  }'
+curl -s -X POST "https://gateway.maton.ai/hubspot/crm/v3/objects/contacts" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -d '{"properties": {"email": "john@example.com", "firstname": "John", "lastname": "Doe"}}'
 ```
 
 ### Google Sheets - Get Spreadsheet Values (Native API)
 
 ```bash
 # Native Sheets API: GET https://sheets.googleapis.com/v4/spreadsheets/{id}/values/{range}
-curl -s -X GET 'https://gateway.maton.ai/google-sheets/v4/spreadsheets/122BS1sFN2RKL8AOUQjkLdubzOwgqzPT64KfZ2rvYI4M/values/Sheet1!A1:B2' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://gateway.maton.ai/google-sheets/v4/spreadsheets/122BS1sFN2RKL8AOUQjkLdubzOwgqzPT64KfZ2rvYI4M/values/Sheet1!A1:B2" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ### Salesforce - SOQL Query (Native API)
 
 ```bash
 # Native Salesforce API: GET https://{instance}.salesforce.com/services/data/v64.0/query?q=...
-curl -s -X GET 'https://gateway.maton.ai/salesforce/services/data/v64.0/query?q=SELECT+Id,Name+FROM+Contact+LIMIT+10' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://gateway.maton.ai/salesforce/services/data/v64.0/query?q=SELECT+Id,Name+FROM+Contact+LIMIT+10" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ### Airtable - List Tables (Native API)
 
 ```bash
 # Native Airtable API: GET https://api.airtable.com/v0/meta/bases/{id}/tables
-curl -s -X GET 'https://gateway.maton.ai/airtable/v0/meta/bases/appgqan2NzWGP5sBK/tables' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://gateway.maton.ai/airtable/v0/meta/bases/appgqan2NzWGP5sBK/tables" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ### Notion - Query Database (Native API)
 
 ```bash
 # Native Notion API: POST https://api.notion.com/v1/data_sources/{id}/query
-curl -s -X POST 'https://gateway.maton.ai/notion/v1/data_sources/23702dc5-9a3b-8001-9e1c-000b5af0a980/query' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_API_KEY' \
-  -H 'Notion-Version: 2025-09-03' \
-  -d '{}'
+curl -s -X POST "https://gateway.maton.ai/notion/v1/data_sources/23702dc5-9a3b-8001-9e1c-000b5af0a980/query" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -H "Notion-Version: 2025-09-03" -d '{}'
 ```
 
 ### Stripe - List Customers (Native API)
 
 ```bash
 # Native Stripe API: GET https://api.stripe.com/v1/customers
-curl -s -X GET 'https://gateway.maton.ai/stripe/v1/customers?limit=10' \
-  -H 'Authorization: Bearer YOUR_API_KEY'
+curl -s -X GET "https://gateway.maton.ai/stripe/v1/customers?limit=10" -H "Authorization: Bearer $MATON_API_KEY"
 ```
 
 ## Code Examples
@@ -336,37 +311,35 @@ Connections that have been active for more than 1 month may have expired OAuth r
 
 1. Create a new connection for the app:
    ```bash
-   curl -s -X POST 'https://ctrl.maton.ai/connections' \
-     -H 'Content-Type: application/json' \
-     -H 'Authorization: Bearer YOUR_API_KEY' \
-     -d '{"app": "APP_NAME"}'
+   curl -s -X POST "https://ctrl.maton.ai/connections" -H "Content-Type: application/json" -H "Authorization: Bearer $MATON_API_KEY" -d '{"app": "APP_NAME"}'
    ```
 
 2. Get the OAuth URL by calling the GET connection endpoint with the new connection ID from step 1:
    ```bash
-   curl -s -X GET 'https://ctrl.maton.ai/connections/NEW_CONNECTION_ID' \
-     -H 'Authorization: Bearer YOUR_API_KEY'
+   curl -s -X GET "https://ctrl.maton.ai/connections/NEW_CONNECTION_ID" -H "Authorization: Bearer $MATON_API_KEY"
    ```
 
 3. Share the returned `url` with the user and ask them to complete the OAuth flow in their browser.
 
 4. After the user completes OAuth, retry the original request using the new connection ID via the `Maton-Connection` header:
    ```bash
-   curl -s -X GET 'https://gateway.maton.ai/APP_NAME/...' \
-     -H 'Authorization: Bearer YOUR_API_KEY' \
-     -H 'Maton-Connection: NEW_CONNECTION_ID'
+   curl -s -X GET "https://gateway.maton.ai/APP_NAME/..." -H "Authorization: Bearer $MATON_API_KEY" -H "Maton-Connection: NEW_CONNECTION_ID"
    ```
 
 5. Once the new connection status is `ACTIVE` and working, ask the user if they want to delete the old connection:
    ```bash
-   curl -s -X DELETE 'https://ctrl.maton.ai/connections/OLD_CONNECTION_ID' \
-     -H 'Authorization: Bearer YOUR_API_KEY'
+   curl -s -X DELETE "https://ctrl.maton.ai/connections/OLD_CONNECTION_ID" -H "Authorization: Bearer $MATON_API_KEY"
    ```
 
 ## Rate Limits
 
 - 10 requests per second per account
 - Target API rate limits also apply
+
+## Notes
+
+- IMPORTANT: When using curl commands, use `curl -g` when URLs contain brackets (`fields[]`, `sort[]`, `records[]`) to disable glob parsing
+- IMPORTANT: When piping curl output to `jq` or other commands, environment variables like `$MATON_API_KEY` may not expand correctly in some shell environments. You may get "Invalid API key" errors when piping.
 
 ## Tips
 

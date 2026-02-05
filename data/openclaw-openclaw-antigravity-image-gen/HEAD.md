@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ipedrax/antigravity-image-gen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:04.388Z
+retrieved_at: 2026-02-05T09:49:11.643Z
 content_sha256: 169d44e93dda1a813a609f24631dc198d82ed796a3acc5293a42eb357b472335
 ---

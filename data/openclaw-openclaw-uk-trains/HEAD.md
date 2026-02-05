@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jabbslad/uk-trains/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:43.221Z
+retrieved_at: 2026-02-05T09:51:31.490Z
 content_sha256: a4b562f2c6760a3ff38e546622e20ece4512c65c66c3cb0a6ebd3703d92c2356
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xaif/raycast/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:18.727Z
+retrieved_at: 2026-02-05T09:51:02.087Z
 content_sha256: 703e9242c5dcec325d00c430e87c9820e26b8ad9e37a593637c880b129631cde
 ---

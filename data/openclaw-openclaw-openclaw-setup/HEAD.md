@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/j540/openclaw-setup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:04.022Z
+retrieved_at: 2026-02-05T09:50:44.144Z
 content_sha256: a90371f9bc2b1c0c00cb2c93c725defd7906934e9dae00c87cc253ff65397b5d
 ---

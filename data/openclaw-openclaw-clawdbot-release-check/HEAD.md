@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/clawdbot-release-check/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:17.261Z
+retrieved_at: 2026-02-05T09:49:32.332Z
 content_sha256: b51a34c3b6e93b10033659e7b8b8de279a16286994be6abfaccdef1d11216afe
 ---

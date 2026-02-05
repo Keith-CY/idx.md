@@ -16,18 +16,21 @@ summary: >-
 
   ## Capabilities
 
-  ClawdBot (OpenClaw) enables AI agents to operate autonomously across multiple
-  channels and platforms with sophisticated task automation, browser control,
-  and system integration. Agents can receive messages from 15+ messaging
-  platforms, execute shell commands, control browsers, schedule tasks, manage
-  sessions with persistent memory, and coordinate with other agents—all within a
-  secure, sandboxed environment with granular permission controls.
+  OpenClaw is a comprehensive agent runtime platform that enables AI agents to
+  operate across multiple messaging channels, execute complex workflows, and
+  manage sophisticated multi-agent systems. Agents can send and receive messages
+  on WhatsApp, Telegram, Discord, Slack, Signal, iMessage, MS Teams, and many
+  other platforms. They can automate tasks through browser control, shell
+  command execution, scheduled jobs, and deterministic workflows. The platform
+  supports advanced features like sandboxed execution, multi-agent routing with
+  workspace isolation, session management with memory persistence, and
+  integration with multiple LLM providers.
 
   ## Skills
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:26:58.998Z
-content_sha256: 79ebcec4a605103261b39158e04d4ac813413cc2c9c86a0c8de8499cb4eda169
+retrieved_at: 2026-02-05T09:51:50.856Z
+content_sha256: c26cf25277457c79d56992550da40e89f639d3d61945c6efad84c18bf5b90cc8
 ---

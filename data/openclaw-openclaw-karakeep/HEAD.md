@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jayphen/karakeep/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:47.000Z
+retrieved_at: 2026-02-05T09:50:17.758Z
 content_sha256: 42ce27b816001c291a7d28dbf138560e3fb63de72457c653dda3b335d28eaf89
 ---

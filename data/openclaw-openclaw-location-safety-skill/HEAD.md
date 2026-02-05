@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sidu/location-safety-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:49.756Z
+retrieved_at: 2026-02-05T09:50:21.408Z
 content_sha256: 90c513d3d36dd6285e533cf424bdca91e65754c73c6c0feb35b8d7c451d39b62
 ---

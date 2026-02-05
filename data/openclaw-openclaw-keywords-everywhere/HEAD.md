@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sanky369/keywords-everywhere/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T07:25:47.285Z
+retrieved_at: 2026-02-05T09:50:18.132Z
 content_sha256: 075542051823706e309c06b426864eca0698c827aa70077363178f659971836a
 ---
