@@ -68,11 +68,10 @@ describe("r2 sync workflow", () => {
     expect(text.includes("steps.compare.outputs.changed")).toBe(true);
   });
 
-  test("sync workflow uploads full data tree for rewritten category indexes", async () => {
+  test("sync workflow uploads only new or changed files", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
-    expect(
-      text.includes("rewritten category index files are always refreshed"),
-    ).toBe(true);
+    expect(text.includes('cmp -s "$file" "$previous_file"')).toBe(true);
+    expect(text.includes("No new or changed files to upload.")).toBe(true);
     expect(text.includes("find data -type f -print0")).toBe(true);
   });
 
