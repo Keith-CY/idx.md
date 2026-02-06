@@ -13,7 +13,9 @@ import {
 const REPOS = [
   { owner: "ComposioHQ", repo: "awesome-claude-skills" },
   { owner: "nextlevelbuilder", repo: "ui-ux-pro-max-skill" },
+  { owner: "anthropics", repo: "knowledge-work-plugins" },
 ] as const;
+type RepoSpec = (typeof REPOS)[number];
 
 const SOURCES_DIR = resolve(repoRoot, "sources");
 const GENERAL_PATH = resolve(SOURCES_DIR, "general.yml");
@@ -108,6 +110,79 @@ function normalizeTags(value: unknown): string[] | null {
     return null;
   }
   return tags;
+}
+
+function normalizedString(value: unknown): string | null {
+  if (typeof value !== "string") {
+    return null;
+  }
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : null;
+}
+
+function inferTitleFromPath(relativePath: string): string {
+  const parts = relativePath.replace(/\\/g, "/").split("/").filter(Boolean);
+  if (parts.length === 0) {
+    return "untitled";
+  }
+  const last = parts[parts.length - 1] ?? "";
+  if (last.toUpperCase() === "SKILL.MD" && parts.length >= 2) {
+    return parts[parts.length - 2] ?? "untitled";
+  }
+  return last.replace(/\.md$/i, "") || "untitled";
+}
+
+function isKnowledgeWorkRepo(repo: RepoSpec): boolean {
+  return repo.owner === "anthropics" && repo.repo === "knowledge-work-plugins";
+}
+
+function inferKnowledgeWorkTags(relativePath: string): string[] {
+  const parts = relativePath.replace(/\\/g, "/").split("/").filter(Boolean);
+  const tags = new Set<string>(["source-knowledge-work-plugins"]);
+  if (parts[0]) {
+    tags.add(`plugin-${slugify(parts[0])}`);
+  }
+  if (parts[1]) {
+    tags.add(`plugin-component-${slugify(parts[1])}`);
+  }
+  if (parts.includes("skills")) {
+    tags.add("plugin-skill");
+  }
+  if (parts.includes("commands")) {
+    tags.add("plugin-command");
+  }
+  return [...tags];
+}
+
+function resolveMetadata(
+  frontmatter: Frontmatter,
+  repo: RepoSpec,
+  relativePath: string,
+): { title: string; summary: string; tags?: string[] } | null {
+  const title = normalizedString(frontmatter.title);
+  const name = normalizedString(frontmatter.name);
+  const summary = normalizedString(frontmatter.summary);
+  const description = normalizedString(frontmatter.description);
+  const tags = normalizeTags(frontmatter.tags);
+
+  if (title && summary && tags) {
+    return { title, summary, tags };
+  }
+
+  if (!isKnowledgeWorkRepo(repo)) {
+    return null;
+  }
+
+  const resolvedTitle = title ?? name ?? inferTitleFromPath(relativePath);
+  const resolvedSummary = summary ?? description;
+  if (!resolvedSummary) {
+    return null;
+  }
+  return {
+    title: resolvedTitle,
+    summary: resolvedSummary,
+    tags: tags ?? inferKnowledgeWorkTags(relativePath),
+  };
 }
 
 function buildSlug(repo: string, relativePath: string): string {
@@ -211,12 +286,8 @@ try {
         continue;
       }
 
-      const title = typeof frontmatter.title === "string" ? frontmatter.title : null;
-      const summary =
-        typeof frontmatter.summary === "string" ? frontmatter.summary : null;
-      const tags = normalizeTags(frontmatter.tags);
-
-      if (!title?.trim() || !summary?.trim() || !tags) {
+      const metadata = resolveMetadata(frontmatter, repo, relativePath);
+      if (!metadata) {
         continue;
       }
 
@@ -234,9 +305,9 @@ try {
         type: SOURCE_TYPE,
         slug,
         source_url: sourceUrl,
-        title: title.trim(),
-        summary: summary.trim(),
-        tags,
+        title: metadata.title,
+        summary: metadata.summary,
+        tags: metadata.tags,
         upstream_ref: upstreamRef,
       };
 
