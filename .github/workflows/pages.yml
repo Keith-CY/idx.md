@@ -45,7 +45,10 @@ jobs:
           elif [ -f sites/pages/index.md ]; then
             cp sites/pages/index.md sites/pages/out/index.md
           fi
-          if [ -d data ]; then cp -R data sites/pages/out/; fi
+          if [ -d data ]; then
+            cp -R data sites/pages/out/
+            rm -rf sites/pages/out/data/reports
+          fi
           touch sites/pages/out/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0

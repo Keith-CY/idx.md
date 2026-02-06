@@ -68,6 +68,13 @@ describe("r2 sync workflow", () => {
     expect(text.includes("steps.compare.outputs.changed")).toBe(true);
   });
 
+  test("sync workflow uploads only new or changed files", async () => {
+    const text = await readText(".github/workflows/r2-sync.yml");
+    expect(text.includes('cmp -s "$file" "$previous_file"')).toBe(true);
+    expect(text.includes("No new or changed files to upload.")).toBe(true);
+    expect(text.includes("find data -type f -print0")).toBe(true);
+  });
+
   test("sync workflow pins actions", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
     expect(/actions\/checkout@[0-9a-f]{40}/.test(text)).toBe(true);
