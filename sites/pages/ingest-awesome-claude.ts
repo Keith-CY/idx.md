@@ -11,10 +11,15 @@ import {
   writeSourcesFile,
 } from "./lib/source-migration";
 
+const KNOWLEDGE_WORK_REPO = {
+  owner: "anthropics",
+  repo: "knowledge-work-plugins",
+} as const;
+
 const REPOS = [
   { owner: "ComposioHQ", repo: "awesome-claude-skills" },
   { owner: "nextlevelbuilder", repo: "ui-ux-pro-max-skill" },
-  { owner: "anthropics", repo: "knowledge-work-plugins" },
+  KNOWLEDGE_WORK_REPO,
 ] as const;
 type RepoSpec = (typeof REPOS)[number];
 
@@ -134,7 +139,10 @@ function inferTitleFromPath(relativePath: string): string {
 }
 
 function isKnowledgeWorkRepo(repo: RepoSpec): boolean {
-  return repo.owner === "anthropics" && repo.repo === "knowledge-work-plugins";
+  return (
+    repo.owner === KNOWLEDGE_WORK_REPO.owner &&
+    repo.repo === KNOWLEDGE_WORK_REPO.repo
+  );
 }
 
 function inferKnowledgeWorkTags(relativePath: string): string[] {

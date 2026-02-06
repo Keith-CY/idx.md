@@ -84,9 +84,8 @@ describe("pages tooling paths", () => {
   test("awesome-claude ingest writes to general source", async () => {
     const text = await readText("sites/pages/ingest-awesome-claude.ts");
     expect(text.includes('resolve(SOURCES_DIR, "general.yml")')).toBe(true);
-    expect(text.includes('owner: "anthropics", repo: "knowledge-work-plugins"')).toBe(
-      true,
-    );
+    expect(text.includes("KNOWLEDGE_WORK_REPO")).toBe(true);
+    expect(text.includes("knowledge-work-plugins")).toBe(true);
   });
 
   test("agent skill onboarding mentions index and body paths", async () => {
