@@ -2,6 +2,7 @@ import { createHash } from "crypto";
 import { mkdtemp, rm } from "fs/promises";
 import { resolve } from "path";
 import { parse } from "yaml";
+import { categoryTagForKnowledgeWorkPath } from "./lib/knowledge-work-categories";
 import type { SourceEntry } from "./lib/registry";
 import { repoRoot } from "./lib/paths";
 import {
@@ -10,10 +11,17 @@ import {
   writeSourcesFile,
 } from "./lib/source-migration";
 
+const KNOWLEDGE_WORK_REPO = {
+  owner: "anthropics",
+  repo: "knowledge-work-plugins",
+} as const;
+
 const REPOS = [
   { owner: "ComposioHQ", repo: "awesome-claude-skills" },
   { owner: "nextlevelbuilder", repo: "ui-ux-pro-max-skill" },
+  KNOWLEDGE_WORK_REPO,
 ] as const;
+type RepoSpec = (typeof REPOS)[number];
 
 const SOURCES_DIR = resolve(repoRoot, "sources");
 const GENERAL_PATH = resolve(SOURCES_DIR, "general.yml");
@@ -110,6 +118,100 @@ function normalizeTags(value: unknown): string[] | null {
   return tags;
 }
 
+function normalizedString(value: unknown): string | null {
+  if (typeof value !== "string") {
+    return null;
+  }
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : null;
+}
+
+function inferTitleFromPath(relativePath: string): string {
+  const parts = relativePath.replace(/\\/g, "/").split("/").filter(Boolean);
+  if (parts.length === 0) {
+    return "untitled";
+  }
+  const last = parts[parts.length - 1]!;
+  if (last.toUpperCase() === "SKILL.MD" && parts.length >= 2) {
+    return parts[parts.length - 2]!;
+  }
+  return last.replace(/\.md$/i, "") || "untitled";
+}
+
+function isKnowledgeWorkRepo(repo: RepoSpec): boolean {
+  return (
+    repo.owner === KNOWLEDGE_WORK_REPO.owner &&
+    repo.repo === KNOWLEDGE_WORK_REPO.repo
+  );
+}
+
+function inferKnowledgeWorkTags(relativePath: string): string[] {
+  const parts = relativePath.replace(/\\/g, "/").split("/").filter(Boolean);
+  const tags = new Set<string>(["source-knowledge-work-plugins"]);
+  if (parts[0]) {
+    tags.add(`plugin-${slugify(parts[0])}`);
+  }
+  if (parts[1]) {
+    tags.add(`plugin-component-${slugify(parts[1])}`);
+  }
+  if (parts.includes("skills")) {
+    tags.add("plugin-skill");
+  }
+  if (parts.includes("commands")) {
+    tags.add("plugin-command");
+  }
+  const categoryTag = categoryTagForKnowledgeWorkPath(relativePath);
+  if (categoryTag) {
+    tags.add(categoryTag);
+  }
+  return [...tags];
+}
+
+function mergeTags(
+  existing: readonly string[] | undefined,
+  incoming: readonly string[] | undefined,
+): string[] | undefined {
+  const merged = new Set<string>();
+  for (const tag of existing ?? []) {
+    merged.add(tag);
+  }
+  for (const tag of incoming ?? []) {
+    merged.add(tag);
+  }
+  return merged.size > 0 ? [...merged] : undefined;
+}
+
+function resolveMetadata(
+  frontmatter: Frontmatter,
+  repo: RepoSpec,
+  relativePath: string,
+): { title: string; summary: string; tags?: string[] } | null {
+  const title = normalizedString(frontmatter.title);
+  const name = normalizedString(frontmatter.name);
+  const summary = normalizedString(frontmatter.summary);
+  const description = normalizedString(frontmatter.description);
+  const tags = normalizeTags(frontmatter.tags);
+
+  if (title && summary && tags) {
+    return { title, summary, tags };
+  }
+
+  if (!isKnowledgeWorkRepo(repo)) {
+    return null;
+  }
+
+  const resolvedTitle = title ?? name ?? inferTitleFromPath(relativePath);
+  const resolvedSummary = summary ?? description;
+  if (!resolvedSummary) {
+    return null;
+  }
+  return {
+    title: resolvedTitle,
+    summary: resolvedSummary,
+    tags: tags ?? inferKnowledgeWorkTags(relativePath),
+  };
+}
+
 function buildSlug(repo: string, relativePath: string): string {
   const normalizedPath = relativePath
     .replace(/\\/g, "/")
@@ -188,6 +290,10 @@ for (const entry of existingEntries) {
 }
 
 const nextEntries: SourceEntry[] = [...existingEntries];
+const entryIndexByUrl = new Map<string, number>();
+for (const [index, entry] of nextEntries.entries()) {
+  entryIndexByUrl.set(entry.source_url, index);
+}
 const tempRoot = await mkdtemp(resolve("/tmp", "awesome-claude-"));
 
 try {
@@ -211,22 +317,33 @@ try {
         continue;
       }
 
-      const title = typeof frontmatter.title === "string" ? frontmatter.title : null;
-      const summary =
-        typeof frontmatter.summary === "string" ? frontmatter.summary : null;
-      const tags = normalizeTags(frontmatter.tags);
-
-      if (!title?.trim() || !summary?.trim() || !tags) {
+      const metadata = resolveMetadata(frontmatter, repo, relativePath);
+      if (!metadata) {
         continue;
       }
 
       const pathForUrl = relativePath.replace(/\\/g, "/");
       const sourceUrl = `https://raw.githubusercontent.com/${repo.owner}/${repo.repo}/${branch}/${pathForUrl}`;
+      const upstreamRef = `https://github.com/${repo.owner}/${repo.repo}/blob/${branch}/${pathForUrl}`;
+      const existingIndex = entryIndexByUrl.get(sourceUrl);
+      if (existingIndex !== undefined) {
+        const existing = nextEntries[existingIndex];
+        if (existing) {
+          nextEntries[existingIndex] = {
+            ...existing,
+            title: existing.title ?? metadata.title,
+            summary: existing.summary ?? metadata.summary,
+            tags: mergeTags(existing.tags, metadata.tags),
+            upstream_ref: existing.upstream_ref ?? upstreamRef,
+          };
+        }
+        continue;
+      }
+
       if (existingUrls.has(sourceUrl)) {
         continue;
       }
 
-      const upstreamRef = `https://github.com/${repo.owner}/${repo.repo}/blob/${branch}/${pathForUrl}`;
       const baseSlug = buildSlug(repo.repo, pathForUrl);
       const slug = uniqueSlug(baseSlug, sourceUrl, usedSlugs);
 
@@ -234,14 +351,15 @@ try {
         type: SOURCE_TYPE,
         slug,
         source_url: sourceUrl,
-        title: title.trim(),
-        summary: summary.trim(),
-        tags,
+        title: metadata.title,
+        summary: metadata.summary,
+        tags: metadata.tags,
         upstream_ref: upstreamRef,
       };
 
       nextEntries.push(entry);
       existingUrls.add(sourceUrl);
+      entryIndexByUrl.set(sourceUrl, nextEntries.length - 1);
     }
   }
 } finally {
