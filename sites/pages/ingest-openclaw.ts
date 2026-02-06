@@ -6,6 +6,7 @@ import type { SourceEntry } from "./lib/registry";
 import { normalizeGithubRawUrl } from "./lib/source-url";
 import { DATA_ROOT } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
+import { fetchTextWithCurlFallback } from "./lib/fetch-text";
 import {
   migrateRemovedSourcesFromFiles,
   readSourcesFileResult,
@@ -17,8 +18,11 @@ import {
 
 const README_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/refs/heads/main/README.md";
+const README_FALLBACK_URL =
+  "https://github.com/VoltAgent/awesome-openclaw-skills/raw/refs/heads/main/README.md";
 const README_BASE_URL =
   "https://github.com/VoltAgent/awesome-openclaw-skills/blob/main/README.md";
+const README_PATH = process.env.OPENCLAW_README_PATH?.trim() || null;
 const SOURCES_DIR = resolve(repoRoot, "sources");
 const OUTPUT_PATH = resolve(SOURCES_DIR, "openclaw.yml");
 const GENERAL_PATH = resolve(SOURCES_DIR, "general.yml");
@@ -228,23 +232,21 @@ function formatReport(stats: {
 }
 
 async function fetchReadme(): Promise<string | null> {
-  let response: Response;
-  try {
-    response = await fetch(README_URL);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : String(error);
-    console.error(`Failed to fetch README: ${message}`);
-    return null;
+  if (README_PATH) {
+    try {
+      return await Bun.file(README_PATH).text();
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      console.error(`Failed to read README from ${README_PATH}: ${message}`);
+      return null;
+    }
+  }
+  const primary = await fetchTextWithCurlFallback(README_URL);
+  if (primary !== null) {
+    return primary;
   }
 
-  if (!response.ok) {
-    console.error(
-      `Failed to fetch README: ${response.status} ${response.statusText}`,
-    );
-    return null;
-  }
-
-  return response.text();
+  return fetchTextWithCurlFallback(README_FALLBACK_URL);
 }
 
 const previousResult = await readSourcesFileResult(OUTPUT_PATH);

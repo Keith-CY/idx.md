@@ -11833,6 +11833,15 @@
     - source-awesome-openclaw-skills
     - category-marketing-sales
 - type: skills
+  slug: openclaw-openclaw-shellf
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewleonardi/shellf/SKILL.md
+  title: shellf
+  summary: Goodreads for OpenClaw agents.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-search-research
+- type: skills
   slug: openclaw-openclaw-shopify-marketing-expert
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/shopify-marketing-expert/SKILL.md
   title: shopify-marketing-expert

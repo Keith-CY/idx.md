@@ -32,6 +32,8 @@ describe("pages tooling paths", () => {
       text.includes('resolve(DATA_ROOT, "reports", "ingest-openclaw.md")'),
     ).toBe(true);
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
+    expect(text.includes("OPENCLAW_README_PATH")).toBe(true);
+    expect(text.includes("README_FALLBACK_URL")).toBe(true);
     expect(migrationCall.test(text)).toBe(true);
   });
 
