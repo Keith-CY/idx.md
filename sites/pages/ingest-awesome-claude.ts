@@ -131,9 +131,9 @@ function inferTitleFromPath(relativePath: string): string {
   if (parts.length === 0) {
     return "untitled";
   }
-  const last = parts[parts.length - 1] ?? "";
+  const last = parts[parts.length - 1]!;
   if (last.toUpperCase() === "SKILL.MD" && parts.length >= 2) {
-    return parts[parts.length - 2] ?? "untitled";
+    return parts[parts.length - 2]!;
   }
   return last.replace(/\.md$/i, "") || "untitled";
 }
