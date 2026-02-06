@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/2mawi2/spotify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:43.069Z
+retrieved_at: 2026-02-06T04:51:02.880Z
 content_sha256: 577fe9d0b08b909b4aee6aeb6f81552850e7ee7201377fd407b5472b056cbd71
 ---

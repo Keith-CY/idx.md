@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/copey02/copey-flight-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:00:45.640Z
+retrieved_at: 2026-02-06T04:50:18.173Z
 content_sha256: f9f61f83c8e71b148674b76910ff678769fcf7f29c0c1d2103ebd79e409f09be
 ---

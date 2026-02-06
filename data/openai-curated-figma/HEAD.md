@@ -35,6 +35,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma/SKILL.md
-retrieved_at: 2026-02-06T04:00:09.678Z
+retrieved_at: 2026-02-06T04:49:46.920Z
 content_sha256: 5b11f7c8d0ce4c047b401323e7b8fe6559bd3162a3397bf5248634a5444609d5
 ---

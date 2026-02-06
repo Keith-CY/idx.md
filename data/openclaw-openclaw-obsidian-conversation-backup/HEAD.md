@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/laserducktales/obsidian-conversation-backup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:22.133Z
+retrieved_at: 2026-02-06T04:50:47.936Z
 content_sha256: 6a6d89cee920328af439d7392aad8fe0e66a40d44798efea38f372f22cb7ac9c
 ---

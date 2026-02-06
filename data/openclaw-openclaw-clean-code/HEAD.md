@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gabrielsubtil/clean-code/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:00:42.149Z
+retrieved_at: 2026-02-06T04:50:15.185Z
 content_sha256: d8619bba30789c98d2c71e6a1d60c2d399063062375168ad41cd47f3da4f4aff
 ---

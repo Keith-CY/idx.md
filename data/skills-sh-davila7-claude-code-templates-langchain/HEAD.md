@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-langchain/references/agents.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/langchain
-retrieved_at: 2026-02-06T04:00:21.259Z
+retrieved_at: 2026-02-06T04:49:56.542Z
 content_sha256: 724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555
 ---

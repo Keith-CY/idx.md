@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gbessoni/ringbot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:36.405Z
+retrieved_at: 2026-02-06T04:50:57.908Z
 content_sha256: b68c568f90ce37335a50c925b8adb729376434adc6456199164a2c2b6dacbb6c
 ---

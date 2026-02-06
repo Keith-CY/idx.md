@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dilomcfly/n8n-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:18.874Z
+retrieved_at: 2026-02-06T04:50:45.755Z
 content_sha256: 6a676c36ad2c6963b238a0f3659a08ece0b29b994656c42e3eeee746e2bc9e8a
 ---

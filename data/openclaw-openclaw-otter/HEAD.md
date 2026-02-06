@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/otter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:25.244Z
+retrieved_at: 2026-02-06T04:50:49.956Z
 content_sha256: 9a467f6d8e0b0127dbd4fd9331678dc1a038043dea2968b5ce760d8e9259c596
 ---

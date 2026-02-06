@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/conventional-commits/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:00:45.515Z
+retrieved_at: 2026-02-06T04:50:18.058Z
 content_sha256: 19f603530737f7f6077ff4e0a0f3e87c899ed910d73ab83f9daefb3ba87cb33d
 ---

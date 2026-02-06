@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/tdd-guide/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:46.812Z
+retrieved_at: 2026-02-06T04:51:05.358Z
 content_sha256: 313ee021abe325bed8497f276dcbaa983a51ee9ebf27f76cd7a5e105b587e763
 ---

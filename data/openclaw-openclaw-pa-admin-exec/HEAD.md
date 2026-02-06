@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/pa-admin-exec/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:25.683Z
+retrieved_at: 2026-02-06T04:50:50.340Z
 content_sha256: e129972ac0a321336335e237298accf0c072855b12064082340df78a50e540bf
 ---

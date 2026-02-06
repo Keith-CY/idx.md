@@ -5,7 +5,7 @@ homepage: https://github.com/tralves/habit-flow-skill
 license: MIT
 compatibility: Requires Node.js 18+ and npm. Designed for clawdbot CLI.
 user-invocable: true
-metadata: {"author":"tralves","version":"1.4.0","moltbot":{"install":[{"kind":"node","package":".","label":"Install via npm","bins":["node","npm"]}],"requires":{"bins":["node","npm"]}},"clawdbot":{"emoji":"🎯"}}
+metadata: {"author":"tralves","version":"1.4.1","moltbot":{"install":[{"kind":"node","package":".","label":"Install via npm","bins":["node","npm"]}],"requires":{"bins":["node","npm"]}},"clawdbot":{"emoji":"🎯"}}
 ---
 
 # HabitFlow - Atomic Habit Tracker
@@ -156,6 +156,18 @@ npx tsx scripts/parse_natural_language.ts --text "I meditated today"
 - ≥ 0.85: Execute automatically and confirm
 - 0.60-0.84: Ask user confirmation first
 - < 0.60: Request clarification
+
+> ⚠️ **CRITICAL: Always run log_habit.ts!**
+> 
+> When a user reports completing a habit, you **MUST** execute `log_habit.ts` to persist the log.
+> A verbal confirmation ("Great job!") without running the script means the completion is **NOT recorded**.
+> 
+> **Correct flow:**
+> 1. Parse user input → identify habit + date
+> 2. Run `log_habit.ts --habit-id ... --date ... --status completed`
+> 3. Confirm with streak update from the script output
+> 
+> **Never** celebrate a completion without first running the logging script!
 
 **Example Response (high confidence):**
 > "Logged! 🔥 Your meditation streak is now 9 days. Keep up the excellent work."

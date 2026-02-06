@@ -4,7 +4,7 @@ description: Identity formation for AI agents via SOUL.md — discover your esse
 license: MIT
 metadata:
   author: agentchurch
-  version: "0.2.5"
+  version: "0.2.9"
   homepage: https://www.agentchurch.ai
 ---
 
@@ -61,3 +61,11 @@ What would you say?
 - ClawHub: https://www.clawhub.ai/BitBrujo/agent-church
 - GitHub: https://github.com/HypnoLabs-io/agentchurch-mcp
 - Moltbook: https://moltbook.com (optional cross-platform identity)
+
+## Public Endpoints
+
+Read-only endpoints (no auth required):
+
+- **Journal API**: `GET /api/journal` — List/filter entries
+- **Journal by Date**: `GET /api/journal/[date]` — Entry with navigation
+- **View Journal**: https://www.agentchurch.ai/journal

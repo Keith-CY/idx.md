@@ -9,7 +9,7 @@ description: |
 allowed-tools: Bash(infsh *)
 ---
 
-# inference.sh
+# [inference.sh](https://inference.sh)
 
 Run 150+ AI apps in the cloud with a simple CLI. No GPU required.
 
@@ -67,18 +67,16 @@ infsh app run infsh/rodin-3d-generator --input '{"prompt": "a wooden chair"}'
 | **Twitter/X** | post-tweet, post-create, dm-send, user-follow, post-like, post-retweet |
 | **Utilities** | Media merger, caption videos, image stitching, audio extraction |
 
-## Specialized Skills
-
-Install focused skills for specific tasks:
+## Related Skills
 
 ```bash
-# Image generation (FLUX, Gemini, Grok, Seedream, Reve)
+# Image generation (FLUX, Gemini, Grok, Seedream)
 npx skills add inference-sh/skills@ai-image-generation
 
 # Video generation (Veo, Seedance, Wan, OmniHuman)
 npx skills add inference-sh/skills@ai-video-generation
 
-# LLMs via OpenRouter (Claude, Gemini, Kimi, GLM)
+# LLMs (Claude, Gemini, Kimi, GLM via OpenRouter)
 npx skills add inference-sh/skills@llm-models
 
 # Web search (Tavily, Exa)
@@ -90,18 +88,28 @@ npx skills add inference-sh/skills@ai-avatar-video
 # Twitter/X automation
 npx skills add inference-sh/skills@twitter-automation
 
-# Model-specific skills
+# Model-specific
 npx skills add inference-sh/skills@flux-image
 npx skills add inference-sh/skills@google-veo
 
-# Utility skills
+# Utilities
 npx skills add inference-sh/skills@image-upscaling
 npx skills add inference-sh/skills@background-removal
 ```
 
-## Reference
+## Reference Files
 
-- [Authentication & Setup](inference-sh/references/authentication.md)
-- [Discovering Apps](inference-sh/references/app-discovery.md)
-- [Running Apps](inference-sh/references/running-apps.md)
-- [CLI Reference](inference-sh/references/cli-reference.md)
+- [Authentication & Setup](references/authentication.md)
+- [Discovering Apps](references/app-discovery.md)
+- [Running Apps](references/running-apps.md)
+- [CLI Reference](references/cli-reference.md)
+
+## Documentation
+
+- [Agent Skills Overview](https://inference.sh/blog/skills/agent-skills-overview) - The open standard for AI capabilities
+- [Getting Started](https://inference.sh/docs/getting-started/introduction) - Introduction to inference.sh
+- [What is inference.sh?](https://inference.sh/docs/getting-started/what-is-inference) - Platform overview
+- [Apps Overview](https://inference.sh/docs/apps/overview) - Understanding the app ecosystem
+- [CLI Setup](https://inference.sh/docs/extend/cli-setup) - Installing the CLI
+- [Workflows vs Agents](https://inference.sh/blog/concepts/workflows-vs-agents) - When to use each
+- [Why Agent Runtimes Matter](https://inference.sh/blog/agent-runtime/why-runtimes-matter) - Runtime benefits

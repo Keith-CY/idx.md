@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/supabase/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:44.445Z
+retrieved_at: 2026-02-06T04:51:03.913Z
 content_sha256: 02e06c95610cdc5a2ac39b0c09dbf4f54e5e808ce6b3609399220be247a6280d
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/email-sequence/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:00:52.263Z
+retrieved_at: 2026-02-06T04:50:23.942Z
 content_sha256: 3db17b4bfcb1bbcf1487891b95391561db7f5a2ca6c397392d64c0aea7abd00e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jage9/winamp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:58.240Z
+retrieved_at: 2026-02-06T04:51:13.025Z
 content_sha256: 7151a8a0a5e546ea3a927a6b940c9dfa506e5a86b19e446dd8b826ee648ad71b
 ---

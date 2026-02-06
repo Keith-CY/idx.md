@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/pleaseprompto/notebooklm-skill/master/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/pleaseprompto/notebooklm-skill/notebooklm
-retrieved_at: 2026-02-06T04:02:02.950Z
+retrieved_at: 2026-02-06T04:51:16.823Z
 content_sha256: 8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e
 ---

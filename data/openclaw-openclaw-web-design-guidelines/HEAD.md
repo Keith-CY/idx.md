@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sharanga10/web-design-guidelines/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:01:56.552Z
+retrieved_at: 2026-02-06T04:51:11.740Z
 content_sha256: f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f
 ---

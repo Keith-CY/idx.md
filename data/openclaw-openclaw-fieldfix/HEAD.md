@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/blueprintstudioco/fieldfix/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:00:55.280Z
+retrieved_at: 2026-02-06T04:50:26.375Z
 content_sha256: 8d33bb54b3c5a0fdd5d5a0e1eb3a1598170d9954fc987d08e5d9a39ed01888b1
 ---
