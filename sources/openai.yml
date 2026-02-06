@@ -8,13 +8,6 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
-  slug: openai-curated-atlas
-  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/atlas/SKILL.md
-  tags:
-    - openai
-    - source-openai-skills
-  upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/atlas/SKILL.md
-- type: skills
   slug: openai-curated-cloudflare-deploy
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/cloudflare-deploy/SKILL.md
   tags:
