@@ -30,7 +30,7 @@ export type CategoryBuildOutput = {
 
 const CATEGORY_PREFIX = "category-";
 
-export const CATEGORY_DEFINITIONS: readonly CategoryDefinition[] = [
+const CATEGORY_DEFINITIONS: readonly CategoryDefinition[] = [
   { slug: "ai-llms", title: "AI & LLMs" },
   { slug: "apple-apps-services", title: "Apple Apps & Services" },
   { slug: "browser-automation", title: "Browser Automation" },
@@ -91,7 +91,6 @@ const CATEGORY_ALIASES = new Map<string, string>([
   ["macos", "ios-macos-development"],
   ["documents", "pdf-documents"],
   ["productivity", "productivity-tasks"],
-  ["uncategorized", "uncategorized"],
 ]);
 
 function normalizeTag(tag: string): string {
