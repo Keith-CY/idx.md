@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/elevenlabs-voices/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:23.628Z
+retrieved_at: 2026-02-06T10:23:43.212Z
 content_sha256: e2bb1052c4d6ed02f44dd5e3a22c2264ba678d694e78e43d16d802f4006bacaf
 ---

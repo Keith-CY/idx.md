@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/endurance-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:24.140Z
+retrieved_at: 2026-02-06T10:23:43.502Z
 content_sha256: 2de43176036f6682e30c9980365e13b9bda5480511cc873129aca5ae795905da
 ---

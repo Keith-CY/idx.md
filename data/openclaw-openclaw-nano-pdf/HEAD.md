@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/nano-pdf/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:46.057Z
+retrieved_at: 2026-02-06T10:23:59.862Z
 content_sha256: 4a19c3916062a0b2a303f929be2e11bc89ed8531b47fa565d7936a363f34d4ac
 ---

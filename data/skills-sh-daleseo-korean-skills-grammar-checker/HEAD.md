@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/DaleSeo/korean-skills/main/skills/grammar-checker/references/rules.md
 license: ""
 upstream_ref: https://skills.sh/daleseo/korean-skills/grammar-checker
-retrieved_at: 2026-02-06T04:49:55.430Z
+retrieved_at: 2026-02-06T10:23:24.135Z
 content_sha256: 71d816b76cf60d873892f3c953d611e6685ee127e71f12c58b005a71fa5db1f6
 ---

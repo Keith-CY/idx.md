@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/main/skills/nanobanana/references/prompts.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/nanobanana
-retrieved_at: 2026-02-06T04:49:56.147Z
+retrieved_at: 2026-02-06T10:23:24.592Z
 content_sha256: f48d19fe05684f799698b03b46178dc7f2003acc3407b6b78fe5f102de721b24
 ---

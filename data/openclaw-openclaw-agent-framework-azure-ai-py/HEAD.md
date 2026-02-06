@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/agent-framework-azure-ai-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:49:59.856Z
+retrieved_at: 2026-02-06T10:23:27.415Z
 content_sha256: 3f7a6216cbee99350d56a5cf074deb2aab421f831b2b2f813599f2d4d3942443
 ---

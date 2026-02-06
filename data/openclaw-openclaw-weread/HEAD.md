@@ -24,6 +24,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/z233/weread/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:12.223Z
+retrieved_at: 2026-02-06T10:24:23.983Z
 content_sha256: 320f2101b8bec076dc33a63d5d32d1f45540fbf468aef03542286967a392c684
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adamkristopher/endpoints/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:24.103Z
+retrieved_at: 2026-02-06T10:23:43.467Z
 content_sha256: f535b26f2862436af906ddc6747382551cae2df9001cf179b2b1465b8c0dac07
 ---

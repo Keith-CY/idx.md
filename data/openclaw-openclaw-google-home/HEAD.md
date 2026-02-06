@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mitchellbernstein/google-home/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:31.149Z
+retrieved_at: 2026-02-06T10:23:48.656Z
 content_sha256: 7d07d5a119bda2e5ca1d362f6a69eedefc7f0e6e5aa124dd25cf855d4e8072f8
 ---

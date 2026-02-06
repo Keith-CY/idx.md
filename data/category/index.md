@@ -25,7 +25,7 @@
 | PDF & Documents | 34 | /category/pdf-documents/index.md |
 | Personal Development | 36 | /category/personal-development/index.md |
 | Productivity Tasks | 92 | /category/productivity-tasks/index.md |
-| Search & Research | 140 | /category/search-research/index.md |
+| Search & Research | 141 | /category/search-research/index.md |
 | Security & Passwords | 20 | /category/security-passwords/index.md |
 | Self-Hosted Automation | 16 | /category/self-hosted-automation/index.md |
 | Shopping & E-Commerce | 32 | /category/shopping-e-commerce/index.md |

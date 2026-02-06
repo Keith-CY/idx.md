@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericxliu1990/gitea/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:29.900Z
+retrieved_at: 2026-02-06T10:23:47.855Z
 content_sha256: a50d48747d2095453c3954dbafefcbed56b5bba36fabe8088e30c4bef53069c1
 ---

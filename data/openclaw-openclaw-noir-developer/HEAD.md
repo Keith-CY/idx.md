@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jp4g/noir-developer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:47.140Z
+retrieved_at: 2026-02-06T10:24:00.975Z
 content_sha256: e87f5a3cd6dac426e7bf72d9c0a69d51584e189b797acb96b07f2b49a30f9619
 ---

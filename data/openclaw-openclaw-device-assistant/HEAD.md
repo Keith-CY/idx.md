@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/device-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:20.923Z
+retrieved_at: 2026-02-06T10:23:41.337Z
 content_sha256: 08a4168fe6f6decda57797f948996a463283684d1e44e90bdf4024e509698056
 ---

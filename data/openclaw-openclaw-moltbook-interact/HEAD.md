@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lunarcmd/moltbook-interact/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:43.748Z
+retrieved_at: 2026-02-06T10:23:58.079Z
 content_sha256: aada5ae772d8fde901501bdf5ba33b5b7b2d4771588b6a1e8664b350d1a43b74
 ---

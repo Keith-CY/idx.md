@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amruthpillai/resume-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:57.717Z
+retrieved_at: 2026-02-06T10:24:10.972Z
 content_sha256: 80005af68785dd88bd7c766671c97a7e14520908ba3742df04cf350b2eafa550
 ---

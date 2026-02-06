@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/paul-phan/crisp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:19.080Z
+retrieved_at: 2026-02-06T10:23:40.125Z
 content_sha256: 2348459691ca0c79d7cf03f341651eb0366392625dcbe0c05b9652c4d5451bbb
 ---

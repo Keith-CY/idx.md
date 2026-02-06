@@ -16,18 +16,19 @@ summary: >-
 
   ## Capabilities
 
-  OpenClaw enables AI agents to operate autonomously across messaging platforms
-  (WhatsApp, Telegram, Discord, Slack, iMessage, Signal, and 10+ others) with
-  full tool access, session management, and workflow automation. Agents can
-  execute shell commands, control browsers, capture media from devices, search
-  the web, manage long-term memory, and coordinate with other agents—all within
-  configurable security boundaries.
+  OpenClaw enables agents to operate as personal AI assistants across multiple
+  messaging platforms simultaneously. Agents can execute shell commands,
+  automate browser interactions, manage files, schedule tasks, capture media,
+  and coordinate with other agents—all while maintaining isolated sessions and
+  persistent memory per user or group. The system provides a self-hosted control
+  plane (Gateway) that routes messages from various channels to configured
+  agents with full tool access and security controls.
 
   ## Skills
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:18.929Z
-content_sha256: da61d7d19c845f252fccafba7591c5b06f30bcbf3211daee2e4e0712117336c3
+retrieved_at: 2026-02-06T10:24:29.778Z
+content_sha256: e7b80ee090f7557c49a9308098dd43886f5c536fca9ac4ea53331fa1c31c545a
 ---

@@ -28,6 +28,6 @@ tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:17.674Z
+retrieved_at: 2026-02-06T10:24:28.854Z
 content_sha256: 0ef898629f74026ce2406894cc427c18a0c56b73ebc1159c7fcf4b1c7e7bce3e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cclank/news-aggregator-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:46.519Z
+retrieved_at: 2026-02-06T10:24:00.354Z
 content_sha256: ac23cf08f189f8a588aebbfb0e90b356cfb087274e5aa545212255ac7513860d
 ---

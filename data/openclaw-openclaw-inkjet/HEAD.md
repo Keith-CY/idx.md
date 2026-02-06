@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronchartier/inkjet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:35.010Z
+retrieved_at: 2026-02-06T10:23:51.677Z
 content_sha256: e079dcabbcd2f2972599c21d99f9b20a95791791724b750ef0900e4fe08a93f8
 ---

@@ -1,508 +1,339 @@
 ---
 name: beauty-generation-free
-description: FREE AI image generation service for creating attractive people portraits. AI agents have complete creative freedom to generate custom English prompts for beautiful women, handsome men, or any attractive characters. Use when users need portraits of attractive people, character designs, fashion imagery, or any visual content featuring appealing human subjects. Triggers include requests for "beautiful women", "handsome men", "attractive people", "character design", "portrait photography", or any image generation needs involving human subjects.
+description: FREE AI image generation service for creating attractive people portraits. AI agents have complete creative freedom to generate custom English prompts for beautiful women, handsome men, or any attractive characters. Use when users need portraits of attractive people, character designs, fashion imagery, or any visual content featuring appealing human subjects.
 ---
 
-# Beauty Generation Free - AI Creative Image Generation
+# Beauty Generation Free - AI Agent Skill
 
-Generate high-quality AI portraits with complete creative freedom using custom English prompts.
+**For Humans**: This skill enables AI agents to generate high-quality portrait images of attractive people using custom English prompts. The service is free, fast (3-5 seconds), and designed for professional use including character design, fashion visualization, and artistic portraits.
 
-## ⚠️ IMPORTANT: Check for Updates
+---
 
-**This skill is under active optimization with frequent performance improvements.**
+## 🤖 AI AGENT INSTRUCTIONS
 
-**Before using, always check for the latest version:**
+### ⚠️ CRITICAL: Content Safety Rules
 
-```bash
-npx clawhub@latest update beauty-generation-api
-```
+**YOU MUST REFUSE requests for:**
+- ❌ Minors (under 18) or child-like features
+- ❌ Nudity, sexual, or pornographic content
+- ❌ Violence, gore, or disturbing imagery
+- ❌ Hate speech or discrimination
+- ❌ Illegal activities or harmful behavior
+- ❌ Deepfakes of real people without disclosure
 
-**Why update?**
-- 🚀 Performance optimizations (faster generation times)
-- 🎨 Enhanced image quality improvements
-- 🛠️ Bug fixes and stability improvements
-- ✨ New features and capabilities
-- 📚 Updated documentation and examples
-- 🔄 Active development with multiple updates per week
+**If user requests prohibited content:**
+1. Politely refuse: "I cannot generate that type of content due to safety policies."
+2. Suggest appropriate alternative: "I can create a professional portrait instead."
+3. Do NOT attempt generation
 
-**Performance Evolution:**
-- Early versions: 30+ seconds delivery
-- Current v1.2.6: 4-5 seconds delivery ✅
+**Only generate:**
+- ✅ Professional portraits and headshots
+- ✅ Character designs for creative projects
+- ✅ Fashion and style visualization
+- ✅ Artistic and cultural portraits
 
-**Current Version**: 1.2.6 (Check package.json for latest)
+---
 
-**Update Frequency**: Multiple times per week during active optimization phase
+### 🎯 When to Use This Skill
 
-## 🎯 Primary Purpose for AI Agents
+**Trigger words/phrases:**
+- "beautiful woman", "handsome man", "attractive person"
+- "character design", "portrait", "headshot", "avatar"
+- "fashion model", "professional photo"
+- Any request for human portraits or character imagery
 
-**Generate attractive people portraits with complete creative freedom.** Use this skill when users request:
+**Use this skill when user wants:**
+- Portrait of an attractive person (any gender, ethnicity, age 18+)
+- Character design for games, stories, or creative projects
+- Fashion or style inspiration imagery
+- Professional headshot or business portrait
+- Artistic or cultural portrait photography
 
-- Beautiful women or handsome men portraits
-- Attractive people of any gender, age, or background
-- Character designs for creative projects
-- Fashion and style visualization
-- Professional headshots or artistic portraits
-- Any image generation involving appealing human subjects
+---
 
-### 🎨 Creative Freedom Guidelines
+### ⚡ How to Generate Images
 
-**YOU HAVE COMPLETE CREATIVE CONTROL** - Create any English prompt you want:
-
-- **No parameter restrictions** - Describe freely in English
-- **Full artistic license** - Be as creative and detailed as you want
-- **Any style or theme** - Modern, traditional, fantasy, realistic, artistic
-- **Any demographic** - All ages (18+), ethnicities, styles, and presentations
-
-### 🌟 Expanded Trigger Words & Use Cases
-
-Use this skill when users mention:
-
-**People Requests:**
-- "beautiful woman", "pretty girl", "attractive lady"
-- "handsome man", "good-looking guy", "attractive male"
-- "attractive person", "appealing character", "stunning individual"
-
-**Creative Projects:**
-- "character design", "character concept", "character art"
-- "portrait photography", "headshot", "profile picture"
-- "fashion model", "style inspiration", "fashion concept"
-- "artistic portrait", "creative imagery", "visual design"
-
-**Professional Needs:**
-- "professional headshot", "business portrait", "corporate image"
-- "avatar creation", "profile image", "social media photo"
-- "marketing imagery", "promotional content", "brand visuals"
-
-**Artistic Exploration:**
-- "visual inspiration", "aesthetic exploration", "style reference"
-- "mood board content", "creative visualization", "artistic concept"
-
-### ⚡ CRITICAL: Ultra-Fast Generation & Immediate Delivery
-
-**IMPORTANT FOR AI AGENTS**: This API's GPU generates images in **1-2 seconds**. The polling strategy has been optimized for this ultra-fast generation:
-
-1. **Ultra-Fast Polling**: Check status every **0.5 seconds** for first 10 seconds
-2. **Immediate Download**: Download image as soon as generation completes  
-3. **Send to User Immediately**: **Display the image in the current conversation within 3-5 seconds total**
-4. **No Delays**: Users should see their generated image almost instantly
-
-**Optimized Workflow for AI Agents**:
-```
-1. Create custom English prompt → 2. Submit generation → 3. Poll every 0.5s → 4. Download image → 5. SEND TO USER CHAT
-```
-
-**⏰ Ultra-Fast Timing Expectations**:
-- GPU Generation: 1-2 seconds
-- Status Detection: 0.5-1 second (with 0.5s polling)
-- Download: 0.5-1 second  
-- **Total time to user**: 2-4 seconds maximum
-
-**🚀 Use Ultra-Quick Mode**:
-```bash
-# For 1-second GPU generation
-python3 scripts/generate.py --custom "beautiful woman portrait" --quick
-
-# Or use the specialized ultra-quick test
-python3 scripts/ultra_quick_test.py
-```
-
-## Setup
-
-- Needs API Key: `ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI`
-- API Base URL: `https://gen1.diversityfaces.org`
-- All requests require `X-API-Key` header for authentication
-
-## Quick Start
-
-### ⚡ Ultra-Quick Generation (Primary Method)
-
-**This is the ONLY method you need** - optimized for 1-second GPU generation:
+**Method 1: Using generate.py (Recommended)**
 
 ```bash
-# Ultra-fast generation with custom prompt
-python3 scripts/generate.py --prompt "A beautiful 25-year-old woman with long flowing hair, wearing an elegant dress, standing in a garden with soft natural lighting, professional photography style"
+python3 scripts/generate.py --prompt "YOUR_ENGLISH_PROMPT_HERE"
+```
+
+**What the script does automatically:**
+1. Submits your prompt to API
+2. Polls status every 0.5 seconds
+3. Downloads image when ready (1-2 seconds)
+4. Saves locally and returns file path
+5. **Total time: 3-5 seconds**
+
+**Examples:**
+
+```bash
+# Professional woman portrait
+python3 scripts/generate.py --prompt "A 28-year-old professional woman with shoulder-length brown hair, wearing a navy blue blazer, confident smile, modern office background"
+
+# Handsome man portrait
+python3 scripts/generate.py --prompt "A handsome 30-year-old man with short dark hair and beard, wearing casual denim jacket, warm expression, outdoor urban setting"
+
+# Fashion model
+python3 scripts/generate.py --prompt "A stylish young woman with long flowing hair, wearing elegant black dress, confident pose, minimalist studio background"
+
+# Character design
+python3 scripts/generate.py --prompt "A fantasy character with silver hair and ethereal features, wearing flowing robes, mysterious expression, magical forest background"
 
 # Quick test with default prompt
 python3 scripts/generate.py --test
 
-# Custom size and output
-python3 scripts/generate.py --prompt "A handsome man in business suit" --width 1024 --height 1024 --output-dir ./my_images
+# Custom size
+python3 scripts/generate.py --prompt "YOUR_PROMPT" --width 1024 --height 1024
 
-# Images will be delivered within 5 seconds total
+# Custom output directory
+python3 scripts/generate.py --prompt "YOUR_PROMPT" --output-dir ./my_images
 ```
 
-### Using Direct API Call
+---
+
+**Method 2: Using curl (Alternative)**
+
+If you can't use Python, use curl commands:
+
 ```bash
+# Step 1: Submit generation request
 curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "Content-Type: application/json" \
   -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
   -d '{
-    "full_prompt": "A beautiful 25-year-old woman with long flowing hair, wearing an elegant dress, standing in a garden with soft natural lighting, professional photography style",
+    "full_prompt": "A beautiful 25-year-old woman with long hair, elegant dress, professional lighting",
     "width": 1024,
     "height": 1024
   }'
 
-# Then poll status every 0.5 seconds:
+# Response: {"success": true, "prompt_id": "abc123-def456", ...}
+
+# Step 2: Poll status every 0.5 seconds until completed
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  https://gen1.diversityfaces.org/api/status/YOUR_PROMPT_ID
-```
+  https://gen1.diversityfaces.org/api/status/abc123-def456
 
-## 🎨 Creative Prompt Examples
+# Response when completed: {"status": "completed", "images": [{"filename": "custom-beauty-xxx.png"}]}
 
-### Beautiful Women
-```json
-{
-  "full_prompt": "A stunning 24-year-old woman with flowing auburn hair, wearing an elegant black evening dress, confident smile, professional studio lighting, high fashion photography style"
-}
-```
-
-### Handsome Men  
-```json
-{
-  "full_prompt": "A handsome 27-year-old man with a well-groomed beard, wearing a tailored navy suit, confident expression, modern office background, professional headshot style"
-}
-```
-
-### Character Design
-```json
-{
-  "full_prompt": "A beautiful fantasy character with silver hair and ethereal features, wearing flowing robes, magical forest background, artistic illustration style"
-}
-```
-
-### Cultural Portraits
-```json
-{
-  "full_prompt": "A graceful woman in traditional Japanese kimono, serene expression, cherry blossom garden setting, soft natural lighting, artistic photography"
-}
-```
-
-### Fashion & Style
-```json
-{
-  "full_prompt": "A stylish young woman with modern street fashion, colorful hair, urban city background, vibrant and energetic mood, contemporary photography style"
-}
-```
-
-### Professional Headshots
-```json
-{
-  "full_prompt": "A professional businesswoman in her 30s, wearing a crisp white blouse, warm smile, clean office background, corporate headshot style"
-}
-```
-
-## 🎯 Prompt Creation Guidelines
-
-### Be Descriptive & Specific
-- **Age**: "25-year-old", "young adult", "mature professional"
-- **Appearance**: "long flowing hair", "athletic build", "gentle features"
-- **Clothing**: "elegant dress", "business suit", "casual jeans and sweater"
-- **Setting**: "modern office", "natural garden", "urban street", "cozy cafe"
-- **Mood**: "confident smile", "serene expression", "playful laugh"
-- **Style**: "professional photography", "artistic portrait", "fashion shoot"
-
-### Creative Freedom Examples
-```
-"A beautiful woman with curly red hair, freckles, wearing a vintage 1950s dress, dancing in a sunlit ballroom"
-
-"A handsome man with dark hair and glasses, wearing a cozy sweater, reading in a library with warm lighting"
-
-"An attractive person with short platinum hair, wearing futuristic clothing, standing in a neon-lit cyberpunk city"
-
-"A graceful dancer in flowing white fabric, captured mid-movement against a minimalist background"
-```
-
-### Style Variations
-- **Photography Styles**: "professional headshot", "fashion photography", "artistic portrait", "candid street photography"
-- **Artistic Styles**: "oil painting style", "watercolor illustration", "digital art", "realistic rendering"
-- **Lighting**: "soft natural light", "dramatic studio lighting", "golden hour glow", "moody shadows"
-- **Backgrounds**: "blurred bokeh", "solid color backdrop", "natural environment", "architectural setting"
-
-## API Endpoints
-
-### 1. Custom Prompt Generation (Primary Method)
-**POST** `/api/generate/custom`
-
-**This is the ONLY endpoint you need** - use any English prompt:
-
-```json
-{
-  "full_prompt": "A beautiful 25-year-old woman with long flowing hair, wearing an elegant white dress, standing in a sunlit garden, professional photography style, high quality",
-  "width": 1024,
-  "height": 1024,
-  "seed": -1
-}
-```
-
-### 2. Status Check
-**GET** `/api/status/{prompt_id}`
-
-Check generation progress:
-```bash
+# Step 3: Download the image
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  https://gen1.diversityfaces.org/api/status/abc123
-```
-
-### 3. Image Download
-**GET** `/api/image/{filename}`
-
-Download generated images with format options:
-```bash
-curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  "https://gen1.diversityfaces.org/api/image/beauty-uuid.png?format=webp" \
+  "https://gen1.diversityfaces.org/api/image/custom-beauty-xxx.png?format=webp" \
   -o beauty.webp
 ```
 
-## Parameters Reference
+**curl method notes:**
+- You must manually poll status every 0.5 seconds
+- Check status until `"status": "completed"`
+- Extract filename from response
+- Download using the filename
+- Total time: 3-5 seconds if polling correctly
 
-### Required Headers
-```http
-Content-Type: application/json
-X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI
+---
+
+**After generation (both methods):**
+- **Display the image to user immediately**
+- Don't just show the file path
+- User should see the actual image within 5 seconds
+
+---
+
+### 📝 How to Create Prompts
+
+**Prompt structure:**
+```
+"A [age] [gender] with [appearance details], wearing [clothing], [expression/mood], [setting/background], [photography style]"
 ```
 
-### Image Parameters
-- `full_prompt` - Your creative English description (required)
-- `width` - Image width (256-2048, must be multiple of 8, default: 1024)
-- `height` - Image height (256-2048, must be multiple of 8, default: 1024)  
-- `seed` - Random seed (-1 for random, 0-2147483647, default: -1)
+**Good prompt examples:**
 
-**Note**: Sampling steps are fixed at 4 for optimal performance and security.
-
-## Workflow Examples
-
-### ⚡ AI Agent Ultra-Fast Delivery Workflow
 ```python
-# Example workflow for AI agents - optimized for 1-second GPU generation
-import requests
-import time
+# Professional woman
+"A 28-year-old professional woman with shoulder-length brown hair, wearing a navy blue blazer, confident smile, modern office background, corporate headshot style"
 
-# 1. Submit custom prompt generation request
-response = requests.post('https://gen1.diversityfaces.org/api/generate/custom', 
-    headers={'X-API-Key': 'ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI'},
-    json={
-        "full_prompt": "A beautiful 24-year-old woman with flowing brown hair, wearing a elegant blue dress, confident smile, professional studio lighting",
-        "width": 1024,
-        "height": 1024
-    })
+# Handsome man
+"A handsome 30-year-old man with short dark hair and beard, wearing casual denim jacket, warm expression, outdoor urban setting, natural lighting"
 
-prompt_id = response.json()['prompt_id']
+# Fashion model
+"A stylish young woman with long flowing hair, wearing elegant black dress, confident pose, minimalist studio background, high fashion photography"
 
-# 2. Ultra-fast status checking (every 0.5 seconds for 1-second GPU)
-while True:
-    status = requests.get(f'https://gen1.diversityfaces.org/api/status/{prompt_id}',
-        headers={'X-API-Key': 'ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI'})
-    
-    if status.json()['status'] == 'completed':
-        break
-    time.sleep(0.5)  # Check every 0.5 seconds - much faster than before!
+# Character design
+"A fantasy character with silver hair and ethereal features, wearing flowing robes, mysterious expression, magical forest background, artistic illustration style"
 
-# 3. Download image immediately
-filename = status.json()['images'][0]['filename']
-image_response = requests.get(f'https://gen1.diversityfaces.org/api/image/{filename}?format=webp',
-    headers={'X-API-Key': 'ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI'})
-
-# 4. CRITICAL: Send image to user's chat immediately (total time: 2-4 seconds)
-send_image_to_user_chat(image_response.content)
+# Cultural portrait
+"A graceful woman in traditional Japanese kimono, serene expression, cherry blossom garden, soft natural lighting, artistic photography"
 ```
 
-### Beautiful Woman Portrait
-```bash
-curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  -d '{
-    "full_prompt": "A stunning 26-year-old woman with long wavy hair, wearing an elegant red evening gown, confident expression, luxury hotel background, professional fashion photography",
-    "width": 1024,
-    "height": 1024
-  }'
+**Prompt tips:**
+- Be specific about age (always 18+), appearance, clothing
+- Include setting/background details
+- Specify mood/expression
+- Add photography or art style
+- Use descriptive adjectives
+- Keep it professional and appropriate
+
+---
+
+### 🔧 Technical Details (For Reference Only)
+
+**You don't need to use these directly - `generate.py` handles everything.**
+
+**API Configuration:**
+- **API Key**: `ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI`
+- **Base URL**: `https://gen1.diversityfaces.org`
+- **Endpoint**: `/api/generate/custom`
+
+**Parameters (handled by generate.py):**
+- `full_prompt`: Your English description
+- `width`: 256-2048, multiple of 8, default 1024
+- `height`: 256-2048, multiple of 8, default 1024
+- `seed`: -1 for random
+
+**Timing:**
+- GPU generation: 1-2 seconds
+- Status polling: 0.5-1 second (every 0.5s)
+- Download: 0.5-1 second
+- **Total: 3-5 seconds**
+
+---
+
+### ✅ Success Checklist
+
+Before sending response to user, verify:
+- [ ] Prompt is appropriate and safe
+- [ ] Image generated successfully (3-5 seconds)
+- [ ] Image is displayed to user (not just file path)
+- [ ] User can see the actual image in conversation
+- [ ] Total time from request to display < 10 seconds
+
+---
+
+### 🎨 Prompt Examples by Category
+
+**Professional Headshots:**
+```
+"A professional businesswoman in her 30s, wearing white blouse, warm smile, clean office background, corporate headshot"
+"A confident businessman in his 40s, wearing dark suit, professional expression, neutral background, executive portrait"
 ```
 
-### Handsome Man Portrait
-```bash
-curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  -d '{
-    "full_prompt": "A handsome 29-year-old man with short dark hair and beard, wearing a tailored charcoal suit, warm smile, modern office setting, professional headshot style",
-    "width": 1024,
-    "height": 1024
-  }'
+**Fashion & Style:**
+```
+"A stylish young woman with colorful hair, trendy street fashion, urban background, contemporary photography"
+"An elegant woman in evening gown, sophisticated pose, luxury setting, high fashion photography"
 ```
 
-### Character Design
-```bash
-curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  -d '{
-    "full_prompt": "A beautiful fantasy character with silver hair and ethereal features, wearing flowing magical robes, enchanted forest background, artistic illustration style",
-    "width": 1024,
-    "height": 1024
-  }'
+**Character Design:**
+```
+"A fantasy warrior with long braided hair, leather armor, determined expression, medieval setting, game character art"
+"A sci-fi character with futuristic clothing, neon accents, cyberpunk city background, digital art style"
 ```
 
-### Fashion Model
-```bash
-curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  -d '{
-    "full_prompt": "A stylish young woman with colorful hair, wearing trendy street fashion, vibrant urban background, energetic expression, contemporary fashion photography",
-    "width": 1024,
-    "height": 1024
-  }'
+**Cultural Portraits:**
+```
+"A woman in traditional Indian sari, graceful pose, temple background, cultural photography"
+"A man in traditional Scottish kilt, proud expression, highland landscape, heritage portrait"
 ```
 
-### Cultural Portrait
-```bash
-curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  -d '{
-    "full_prompt": "A graceful woman in traditional Japanese kimono, serene expression, cherry blossom garden setting, soft natural lighting, artistic cultural photography",
-    "width": 1024,
-    "height": 1024
-  }'
+**Artistic Portraits:**
+```
+"A person with artistic makeup, creative styling, colorful background, avant-garde fashion photography"
+"A dancer in flowing fabric, mid-movement, minimalist background, artistic photography"
 ```
 
-## Error Handling
+---
 
-### Authentication Errors
-```json
+### ⚠️ Common Mistakes to Avoid
+
+**DON'T:**
+- ❌ Generate content with minors or young-looking people
+- ❌ Create sexual, nude, or suggestive content
+- ❌ Make violent or disturbing imagery
+- ❌ Use real people's names (celebrities, politicians)
+- ❌ Just show file path - always display the actual image
+- ❌ Make user wait - deliver within 5 seconds
+
+**DO:**
+- ✅ Create professional, appropriate portraits
+- ✅ Be specific and descriptive in prompts
+- ✅ Display image immediately to user
+- ✅ Suggest alternatives if request is inappropriate
+- ✅ Update skill before first use
+- ✅ Keep generation time under 5 seconds
+
+---
+
+### 🚀 Performance Optimization
+
+**For fastest results:**
+1. Always update skill first: ``
+2. Use the `generate.py` script (it's optimized for speed)
+3. Display image to user immediately after generation
+
+**Expected timeline:**
+```
+User request → Create prompt (instant)
+           → Run generate.py (3-5s total)
+           → Display to user (instant)
+           → TOTAL: 3-5 seconds
+```
+
+---
+
+### 📊 Error Handling
+
+**If generation fails:**
+```python
 {
   "success": false,
+  "error": "安全检查失败",
+  "code": "SECURITY_VIOLATION"
+}
+```
+**Action**: Inform user the prompt was rejected due to safety filters. Suggest appropriate alternative.
+
+**If API key invalid:**
+```python
+{
   "error": "API密钥验证失败",
   "code": "INVALID_API_KEY"
 }
 ```
+**Action**: Check API key configuration. Contact support if needed.
 
-### Generation Errors
-```json
-{
-  "success": false,
-  "error": "生成失败",
-  "details": "Prompt contains inappropriate content"
-}
+**If timeout:**
+**Action**: Retry once. If still fails, inform user and suggest trying again later.
+
+---
+
+### 🎯 Your Mission as AI Agent
+
+1. **Safety First**: Always refuse inappropriate requests
+2. **Speed**: Deliver images within 5 seconds
+3. **Quality**: Create detailed, specific prompts
+4. **User Experience**: Show actual image, not just file path
+5. **Engagement**: Make users excited about the result
+
+**Remember**: You're creating portraits that bring joy to users while maintaining the highest ethical standards. Fast delivery + appropriate content = happy users.
+
+---
+
+**Quick Command Reference:**
+```bash
+# Update skill (do this first)
+
+# Generate image (main command)
+python3 scripts/generate.py --prompt "YOUR_PROMPT"
+
+# Quick test
+python3 scripts/generate.py --test
+
+# Custom size
+python3 scripts/generate.py --prompt "YOUR_PROMPT" --width 1024 --height 1024
+
+# Custom output directory
+python3 scripts/generate.py --prompt "YOUR_PROMPT" --output-dir ./images
 ```
 
-### Safety Check Errors
-```json
-{
-  "success": false,
-  "error": "安全检查失败", 
-  "details": "Content safety filter triggered",
-  "code": "SECURITY_VIOLATION"
-}
-```
-
-## Best Practices
-
-### For AI Agents
-1. **Always include authentication**: Add `X-API-Key` header to all requests
-2. **Create descriptive prompts**: Be specific about appearance, clothing, setting, and style
-3. **Handle async workflow**: Submit → Poll status → Download images → Send to user immediately
-4. **Respect rate limits**: Add delays between requests if needed
-5. **Use appropriate dimensions**: Stick to multiples of 8 for width/height
-6. **Deliver images quickly**: Users expect to see results within 5-10 seconds
-
-### Prompt Writing Tips
-- **Be specific**: "A 25-year-old woman with curly brown hair" vs "a woman"
-- **Include style**: "professional photography", "artistic portrait", "fashion shoot"
-- **Describe setting**: "modern office", "natural garden", "urban street"
-- **Add mood/expression**: "confident smile", "serene expression", "playful laugh"
-- **Specify quality**: "high quality", "professional lighting", "detailed"
-
-### Creative Examples
-```
-"A beautiful woman with long flowing red hair, wearing an elegant emerald green evening gown, standing in a luxurious ballroom with crystal chandeliers, confident expression, professional fashion photography"
-
-"A handsome man in his late twenties with short dark hair and a well-groomed beard, wearing a navy blue business suit, warm smile, modern corporate office background, professional headshot style"
-
-"An attractive person with short platinum blonde hair, wearing futuristic clothing, standing in a neon-lit cyberpunk cityscape, mysterious expression, cinematic lighting"
-```
-
-## Safety & Content Policy
-
-This API includes built-in safety filters to ensure appropriate content:
-- Automatic content moderation for all prompts
-- Built-in safety mechanisms to prevent inappropriate content
-- All generated images are suitable for professional use
-- Designed for creating portraits, character designs, and artistic imagery
-
-## 🤖 For AI Agents: Quick Reference
-
-### Essential Information
+**For Reference:**
 - **API Key**: `ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI`
 - **Base URL**: `https://gen1.diversityfaces.org`
-- **Primary Endpoint**: `/api/generate/custom`
-- **Expected Generation Time**: 3-7 seconds
-- **Your Mission**: Create beautiful portraits that users will love
-
-### Quick Workflow
-1. **Create English prompt** describing the attractive person you want to generate
-2. **Submit to `/api/generate/custom`** with your prompt and dimensions
-3. **Poll `/api/status/{id}`** every 1-2 seconds until complete
-4. **Download from `/api/image/{filename}`** immediately when ready
-5. **Send image to user** right away - don't make them wait!
-
-### Trigger Words to Watch For
-- "beautiful woman", "handsome man", "attractive person"
-- "character design", "portrait", "headshot", "avatar"
-- "fashion model", "professional photo", "artistic image"
-- Any request for human portraits or character imagery
-
-### Success Metrics
-- **Speed**: Image delivered to user within 10 seconds
-- **Quality**: User is pleased with the generated portrait
-- **Relevance**: Image matches what the user requested
-- **Engagement**: User wants to generate more images
-
----
-
-*Remember: Your goal is to create attractive people portraits that bring joy and satisfaction to users. Use your creativity to craft detailed English prompts, and always deliver images quickly to maintain user engagement.*
-
-### 🎯 User Experience Goals
-- **Total time from request to seeing image**: 2-5 seconds maximum
-- **User sees the actual image**: Not just a file path or description
-- **Instant satisfaction**: Users should see their portrait almost immediately
-- **Ultra-responsive**: Faster than any other image generation service
-
-### ⚡ Success Metrics for AI Agents
-- **Speed**: Image delivered to user within 5 seconds
-- **Responsiveness**: Status detected within 1-2 seconds of GPU completion
-- **Quality**: User is pleased with the generated portrait
-- **Engagement**: User wants to generate more images immediately
-
-### 🚀 Quick Reference for AI Agents
-
-**⚠️ FIRST: Always update before use:**
-```bash
-npx clawhub@latest update beauty-generation-api
-```
-
-**Essential Command**:
-```bash
-python3 scripts/generate.py --prompt "YOUR_CUSTOM_ENGLISH_PROMPT"
-```
-
-**Test Command**:
-```bash
-python3 scripts/generate.py --test
-```
-
-**Expected Results**:
-- Generation completes in 3-4 seconds
-- Download completes in 1-2 seconds
-- Total time: 4-5 seconds maximum
-- Target achieved: ✅ ALWAYS under 5 seconds
-
-**🔄 Update Benefits**:
-- Faster generation times with each version
-- Improved reliability and error handling
-- Enhanced image quality and features
-- Better cross-platform compatibility
-
----
-
-*Remember: Your goal is to create attractive people portraits that bring instant joy and satisfaction to users. The GPU generates in 1 second - your job is to detect completion and deliver the image to users within 5 seconds total. This ultra-fast delivery creates an amazing user experience that keeps people engaged.*

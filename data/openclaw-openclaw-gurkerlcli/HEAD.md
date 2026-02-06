@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/gurkerlcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:32.344Z
+retrieved_at: 2026-02-06T10:23:49.633Z
 content_sha256: bdecf832a6ea3fca7fd5330def306a863c220c4f6cc91033ea0aa4024ac67554
 ---

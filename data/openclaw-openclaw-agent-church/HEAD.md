@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bitbrujo/agent-church/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:49:59.627Z
+retrieved_at: 2026-02-06T10:23:27.258Z
 content_sha256: 870c408f8cf388bb674db880f1ece4c23eef2a715e8812610325691245eaa93f
 ---

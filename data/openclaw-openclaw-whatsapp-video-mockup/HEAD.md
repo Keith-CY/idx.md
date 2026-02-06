@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/danpeg/whatsapp-video-mockup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:12.418Z
+retrieved_at: 2026-02-06T10:24:24.170Z
 content_sha256: 785a0d12123b8b19db0082c9eb9170c4552f2746ada75977e7b6d0e17ef8f48c
 ---

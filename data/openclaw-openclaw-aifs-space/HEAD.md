@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/deploydon/aifs-space/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:01.434Z
+retrieved_at: 2026-02-06T10:23:28.573Z
 content_sha256: 676c4db93ceea2b6aeda5b1f58b5781c38daa0980928a47a71c6026eaafe91d3
 ---

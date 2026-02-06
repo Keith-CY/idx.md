@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/read-github/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:56.171Z
+retrieved_at: 2026-02-06T10:24:09.633Z
 content_sha256: 7f14ac762eaacf57264a6578c191a089a5cea8aa415e04a30944e04e2126ab9f
 ---

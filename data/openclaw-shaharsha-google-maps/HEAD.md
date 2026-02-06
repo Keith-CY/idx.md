@@ -2,21 +2,24 @@
 stable_id: skills/openclaw-shaharsha-google-maps
 type: skills
 title: openclaw-shaharsha-google-maps
-summary: |-
+summary: >-
   ---
+
   name: google-maps
-  description: The definitive Google Maps integration for OpenClaw. Search, navigate, and explore with real-time data.
-  version: 1.0.0
-  author: shaharsh
-  tags: [maps, places, location, navigation, google]
-  metadata: {"clawdbot":{"emoji":"🗺️","requires":{"env":["GOOGLE_API_KEY"]},"primaryEnv":"GOOGLE_API_KEY","install":[{"id":"pip","kind":"pip","package":"requests","label":"Install dependencies (pip)"}]}}
-  allowed-tools: [exec]
-  ---
-  # Google Maps 🗺️
+
+  description: >
+    Google Maps integration for OpenClaw with Routes API. Use for: (1) Distance/travel time calculations
+    with traffic prediction, (2) Turn-by-turn directions, (3) Distance matrix between multiple points,
+    (4) Geocoding addresses to coordinates and reverse, (5) Places search and details, (6) Transit
+    planning with arrival times. Supports future departure times, traffic models (pessimistic/optimistic),
+    avoid options (tolls/highways), and multiple travel modes (driving/walking/bicycling/transit).
+  version: 3.0.0
+
+  author: Leo 🦁
 tags: []
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shaharsha/google-maps/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:19.062Z
-content_sha256: c25459161a637490c085dacc2826bc15d3595cc9a5b1c235e6c4cf6b9604f497
+retrieved_at: 2026-02-06T10:24:29.789Z
+content_sha256: 0f43a07e93b9409a8659e409a292a675d3d4d10adc6ea109060de4ec2df721f6
 ---

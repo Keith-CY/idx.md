@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottcjn/bottube/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:07.541Z
+retrieved_at: 2026-02-06T10:23:33.505Z
 content_sha256: 4224284d79a6ea50023ea35007f4cea8cf69361e51c34923b460437df1169075
 ---

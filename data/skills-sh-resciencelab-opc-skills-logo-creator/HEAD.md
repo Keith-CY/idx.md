@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/main/skills/logo-creator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/logo-creator
-retrieved_at: 2026-02-06T04:49:55.673Z
+retrieved_at: 2026-02-06T10:23:24.315Z
 content_sha256: 3586f209bc6f7f3e0addbeb289d240f3d0b13cfae654a33512b12ba1bd2df80e
 ---

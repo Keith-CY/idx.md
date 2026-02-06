@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/urosorozel/emporia-energy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:23.998Z
+retrieved_at: 2026-02-06T10:23:43.400Z
 content_sha256: 2b73934f9c651455b83610be79bb982dba7f9c4147d3bfa238e07eb5a38ce9b9
 ---
