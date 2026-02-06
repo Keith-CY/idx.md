@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iahmadzain/youtrack/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:26.466Z
+retrieved_at: 2026-02-06T12:02:37.040Z
 content_sha256: 9840ec8f7611342f9c7a1dd58516153ddcc390578154de79abbbc2f569c98018
 ---

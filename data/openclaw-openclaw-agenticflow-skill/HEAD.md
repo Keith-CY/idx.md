@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/agenticflow-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:28.134Z
+retrieved_at: 2026-02-06T12:00:19.594Z
 content_sha256: b75b7561629885d3ea047a87169a5f048c6d2fdce94a18335b59b649a47025ec
 ---

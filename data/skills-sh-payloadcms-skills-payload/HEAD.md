@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/payloadcms/skills/main/skills/payload/reference/FIELDS.md
 license: ""
 upstream_ref: https://skills.sh/payloadcms/skills/payload
-retrieved_at: 2026-02-06T10:23:23.324Z
+retrieved_at: 2026-02-06T12:00:06.347Z
 content_sha256: 990172ff51d8958c9711a23e0857029ef2c92dfeb75112e304aa96af1704825d
 ---

@@ -36,6 +36,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/seo-audit/references/ai-writing-detection.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
-retrieved_at: 2026-02-06T10:23:19.049Z
+retrieved_at: 2026-02-06T11:59:54.672Z
 content_sha256: 586226f9b7ccdba3ad07a1d025442d294a8f0c43117b655c7231e97ed5720351
 ---

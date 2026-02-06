@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/voydz/planka/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:05.941Z
+retrieved_at: 2026-02-06T12:01:50.776Z
 content_sha256: 1ed83164f52fe0989fb2d39f85eeb5b988c320dcff8980ec2ae9ddee4f22eda6
 ---

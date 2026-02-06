@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/gdpr-dsgvo-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:46.932Z
+retrieved_at: 2026-02-06T12:01:07.580Z
 content_sha256: 0217d307bc9b0ba20cde28fc9ac0ae256c14f3f98c06c9e7ba946a09c06a211e
 ---

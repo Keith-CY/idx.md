@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/desperado991128/peft/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:04.703Z
+retrieved_at: 2026-02-06T12:01:48.079Z
 content_sha256: acdb318f94624517c8cdb3c925c7a2e8b34c65e8ca02b301777c51eea9f0f73c
 ---

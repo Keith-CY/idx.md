@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pjtf93/wallapop-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:23.227Z
+retrieved_at: 2026-02-06T12:02:29.573Z
 content_sha256: f0d6f66516b0f251a445abdae4ce84f3c0616c3e05377b2a96c8f8de3406a313
 ---

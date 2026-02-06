@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shekohex/miniflux/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:57.332Z
+retrieved_at: 2026-02-06T12:01:31.014Z
 content_sha256: 2fc80eb5f9a4e6b359cbebffe455c3bd7765e36ff233647909908304020a6edb
 ---

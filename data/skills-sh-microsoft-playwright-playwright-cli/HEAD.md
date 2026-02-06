@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/playwright/main/packages/playwright/src/skill/references/request-mocking.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/playwright/playwright-cli
-retrieved_at: 2026-02-06T10:23:22.339Z
+retrieved_at: 2026-02-06T12:00:03.423Z
 content_sha256: 54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c
 ---

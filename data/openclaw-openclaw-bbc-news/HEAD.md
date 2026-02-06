@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ddrayne/bbc-news/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:32.235Z
+retrieved_at: 2026-02-06T12:00:29.720Z
 content_sha256: 73f5bf4c9f8a3a413e7dab5156dc86fc4a8fb5251e8b5fba65eb62986ecb9dac
 ---

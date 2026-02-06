@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/react-useeffect/anti-patterns.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-useeffect
-retrieved_at: 2026-02-06T10:23:19.850Z
+retrieved_at: 2026-02-06T11:59:56.544Z
 content_sha256: 69146321260d67972646ba3cc98465d516431f543c4908cc60c2d60886a8dda9
 ---

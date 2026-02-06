@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/netatmo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:00.217Z
+retrieved_at: 2026-02-06T12:01:38.990Z
 content_sha256: 1fc2d081d9195de297941c3277b6e57e641fbb6b4558fdd1d092d684409ada83
 ---

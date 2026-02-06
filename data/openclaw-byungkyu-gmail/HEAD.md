@@ -21,6 +21,6 @@ tags: []
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byungkyu/gmail/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:29.783Z
+retrieved_at: 2026-02-06T12:04:56.208Z
 content_sha256: 21735790ba835b9a44cd57cf7b4a4865436580f8ac89cae3feaecc9ee4f2900a
 ---

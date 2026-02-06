@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewdmwalker/solar-weather/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:14.929Z
+retrieved_at: 2026-02-06T12:02:10.013Z
 content_sha256: 3f68598dc524bba9a740804cc146234e024324514f913f4b395d9dab5363500b
 ---

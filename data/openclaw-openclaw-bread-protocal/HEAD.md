@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chrissorrell/bread-protocal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:33.674Z
+retrieved_at: 2026-02-06T12:00:33.294Z
 content_sha256: 3a5bf014d5c1e939475397082795783e837c0359421fa8f5e0f5f575ba5bf151
 ---

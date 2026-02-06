@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmigone/invoice-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:52.166Z
+retrieved_at: 2026-02-06T12:01:19.323Z
 content_sha256: f5000cbc5f11f101a36a6bc7a3408b16bf5323d6c9ca54ee3743cf51963f4b8d
 ---

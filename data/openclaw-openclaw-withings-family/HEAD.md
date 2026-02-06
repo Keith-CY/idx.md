@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/withings-family/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:24.795Z
+retrieved_at: 2026-02-06T12:02:33.266Z
 content_sha256: 0343071cac4e00cfc5be9b245ae75eb19ffa9e07320b5dd2e2cb3dcff68c0b81
 ---

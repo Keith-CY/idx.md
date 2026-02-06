@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trymoinai-create/x/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:25.317Z
+retrieved_at: 2026-02-06T12:02:34.433Z
 content_sha256: 041115dcfcce9a29291dcfd9f971aadd39b297b0baa119c8b58574bdd77146bc
 ---

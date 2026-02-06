@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bgengs/todozi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.346Z
+retrieved_at: 2026-02-06T12:02:20.082Z
 content_sha256: b1a969b2671380d51671a79dc3f4694023bcd6c8e0ce0df685ede1569f9b6ea7
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickhamze/claw-me-maybe/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:35.972Z
+retrieved_at: 2026-02-06T12:00:39.209Z
 content_sha256: 8acb051635afea0ad5fdb27b0d232ac6d843aa3c087a09d4a18547e80cd3bc93
 ---

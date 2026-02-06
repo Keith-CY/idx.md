@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/mechanic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:56.402Z
+retrieved_at: 2026-02-06T12:01:29.043Z
 content_sha256: 496b46c0d36aed31bf488b61095235deae926f7675f30baaa179caf3e1591266
 ---

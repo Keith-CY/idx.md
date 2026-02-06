@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/duartemartins/microsoft-ads-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:57.141Z
+retrieved_at: 2026-02-06T12:01:30.663Z
 content_sha256: 4df210f0c0c10e7c70ff2edddde55fe4953577c504fb211cad46fdd4a5474d9b
 ---

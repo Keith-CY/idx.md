@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/frontend-design/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:46.485Z
+retrieved_at: 2026-02-06T12:01:06.237Z
 content_sha256: 8bf9905dbcd9b1edb47f2a44cadbb9bb66314f73a8e3631ec7feee913777ceb8
 ---

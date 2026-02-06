@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kdbhalala/apple-hig/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:29.951Z
+retrieved_at: 2026-02-06T12:00:24.804Z
 content_sha256: 20cbd52bc13c9a17c2a8cae6da2ea65eb183e4d8a36f5e783810a427f934eb4a
 ---

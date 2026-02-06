@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/discord/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:41.735Z
+retrieved_at: 2026-02-06T12:00:53.864Z
 content_sha256: 9ea23563b30f14bbe76f5ff93762b6eff8b42f96c8c8db4996e94eb70ddcb7b8
 ---

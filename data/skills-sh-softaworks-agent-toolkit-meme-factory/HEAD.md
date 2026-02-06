@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/meme-factory/references/markdown-memes-guide.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/meme-factory
-retrieved_at: 2026-02-06T10:23:19.462Z
+retrieved_at: 2026-02-06T11:59:55.589Z
 content_sha256: 6dd8e5fcc6d674a6abd592ef8f87455b6557fbf59d13608d2dfc5599df47d11e
 ---

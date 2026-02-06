@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/rivet-dev/skills/main/skills/sandbox-agent/references/ai/llms-txt.md
 license: ""
 upstream_ref: https://skills.sh/rivet-dev/skills/sandbox-agent
-retrieved_at: 2026-02-06T10:23:22.265Z
+retrieved_at: 2026-02-06T12:00:03.228Z
 content_sha256: df90e359d814cb04620311cd297d68efbb1c2b76512f69b02e1ebfbc3c6f2020
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/starbuck100/ecap-security-auditor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:42.890Z
+retrieved_at: 2026-02-06T12:00:56.580Z
 content_sha256: e9d5d15ce4a8d7e3c1dc57c37f0ecd4e1810e59e7cf86423c33ff84746b564d2
 ---

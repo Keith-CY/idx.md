@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/workout/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:25.078Z
+retrieved_at: 2026-02-06T12:02:33.928Z
 content_sha256: cc0ca3a882c5b18094338908f1786d60d8bfa887e9ea3b522b000f89997e8b56
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rhanbourinajd/ai-video-gen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:28.536Z
+retrieved_at: 2026-02-06T12:00:20.654Z
 content_sha256: 881cc4c65fde6ef60610a0bb20dc1243e114014e1f64006f00adad309db49e10
 ---

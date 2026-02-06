@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/evgyur/kimi-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:53.948Z
+retrieved_at: 2026-02-06T12:01:23.329Z
 content_sha256: da7e36cbc509ebf9314389eb54143008a415a4fb14147e9e344fdb6836df56f5
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/jq-json-processor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:53.131Z
+retrieved_at: 2026-02-06T12:01:21.394Z
 content_sha256: 31dc54215e3a95a06234c3defdca1ccd9f72582912dce3d47db8784c7117a6e5
 ---

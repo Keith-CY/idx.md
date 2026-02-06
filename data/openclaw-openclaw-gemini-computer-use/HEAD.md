@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/gemini-computer-use/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:47.027Z
+retrieved_at: 2026-02-06T12:01:07.820Z
 content_sha256: f3e2164371f74b57d4276e2f00c50c39cf7e3e99092a374053001d8b15ec52f2
 ---

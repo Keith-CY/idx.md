@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/inference-sh/agent-skills/main/skills/python-sdk/references/agent-patterns.md
 license: ""
 upstream_ref: https://skills.sh/inference-sh/agent-skills/python-sdk
-retrieved_at: 2026-02-06T10:23:24.405Z
+retrieved_at: 2026-02-06T12:00:09.642Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---

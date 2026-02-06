@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/main/plugins/railway/skills/new/references/railpack.md
 license: ""
 upstream_ref: https://skills.sh/railwayapp/railway-skills/new
-retrieved_at: 2026-02-06T10:24:30.114Z
+retrieved_at: 2026-02-06T12:04:57.657Z
 content_sha256: 071bee33859736c4817af20f5d3dfc7cab85043d6fa2e3fc4d67e83407127d60
 ---

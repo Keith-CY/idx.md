@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-caffeine/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:08.957Z
+retrieved_at: 2026-02-06T12:01:56.877Z
 content_sha256: b4859b8e266a82bd90682a24e966f26530c17ab2b627e7732546cbbc16e84186
 ---

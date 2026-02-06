@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/granola-notes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:49.267Z
+retrieved_at: 2026-02-06T12:01:12.937Z
 content_sha256: f22e52fbf38fff31b2a5a3c39f219cd7f15186dc40578f261fa17975462c9b28
 ---

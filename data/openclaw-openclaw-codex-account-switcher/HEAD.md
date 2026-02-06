@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-account-switcher/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:38.098Z
+retrieved_at: 2026-02-06T12:00:44.768Z
 content_sha256: bac3ec73fb998dceb8a99219d34d28d7cc5d8655093e3bb174ff6a0bf14ea366
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bmdhodl/azure-infra/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:31.840Z
+retrieved_at: 2026-02-06T12:00:28.776Z
 content_sha256: 88826b68645c881eb13a563abd0367aa6e33dd19b24b895f5e0b67ae0f8421a8
 ---

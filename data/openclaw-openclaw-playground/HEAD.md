@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/frodo-temaki/playground/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:06.071Z
+retrieved_at: 2026-02-06T12:01:51.060Z
 content_sha256: fb9bc91131d23e76a5e0ab99745cbae977dfde9955cc5feda0535a49ec6df9a3
 ---

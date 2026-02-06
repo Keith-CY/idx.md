@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/main/skills/vueuse-functions/references/createGlobalState.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
-retrieved_at: 2026-02-06T10:23:20.475Z
+retrieved_at: 2026-02-06T11:59:58.094Z
 content_sha256: 43a260724cb8610553d487a4cd59591efbc61a9876c07dbea04b07381ca7479f
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/insula-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:51.937Z
+retrieved_at: 2026-02-06T12:01:18.799Z
 content_sha256: 546f0b74cd3e8ab070a4b0b187276d6b966cb8ee3ec74077c357aacb54da4461
 ---

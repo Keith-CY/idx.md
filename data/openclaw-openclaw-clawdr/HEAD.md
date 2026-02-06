@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/olavblj/clawdr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:37.038Z
+retrieved_at: 2026-02-06T12:00:42.046Z
 content_sha256: de82e2460fa03415966568f22ac5024598e8bcef2a7a28957d4a30eb9415042b
 ---

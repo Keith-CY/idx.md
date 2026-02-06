@@ -24,6 +24,6 @@ tags:
 source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/main/plugins/railway/skills/database/references/environment-config.md
 license: ""
 upstream_ref: https://skills.sh/railwayapp/railway-skills/database
-retrieved_at: 2026-02-06T10:23:25.396Z
+retrieved_at: 2026-02-06T12:00:12.272Z
 content_sha256: e1602d30fed437ed0082a69b0956c5cbe466ec0da6ebd17aff5f2dc3e940f8e8
 ---

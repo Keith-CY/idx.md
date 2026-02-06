@@ -3,7 +3,336 @@
 | Category | Productivity Tasks |
 | --- | --- |
 | Slug | productivity-tasks |
-| Count | 92 |
+| Count | 108 |
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-commands-competitive-brief
+type: skills
+title: competitive-brief
+summary: Create a competitive analysis brief for one or more competitors or a
+  feature area
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/competitive-brief.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/competitive-brief.md
+retrieved_at: 2026-02-06T12:05:06.913Z
+content_sha256: 8173e3f76e41c821e0786a1d0473a273c0815dfa7e4fb262a047f2ed22f03688
+---
+|/data/knowledge-work-plugins-product-management-commands-competitive-brief|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-commands-metrics-review
+type: skills
+title: metrics-review
+summary: Review and analyze product metrics with trend analysis and actionable insights
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/metrics-review.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/metrics-review.md
+retrieved_at: 2026-02-06T12:05:06.649Z
+content_sha256: c19a1cb501d8a01db9db944802bbfa77468da6a758c8a6043901ddecf99549b1
+---
+|/data/knowledge-work-plugins-product-management-commands-metrics-review|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-commands-roadmap-update
+type: skills
+title: roadmap-update
+summary: Update, create, or reprioritize your product roadmap
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/roadmap-update.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/roadmap-update.md
+retrieved_at: 2026-02-06T12:05:06.826Z
+content_sha256: 4d41bfa47c0b5d35b770ea9d6be0d798ffeff270db83d0c9451e47150544bd81
+---
+|/data/knowledge-work-plugins-product-management-commands-roadmap-update|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-commands-stakeholder-update
+type: skills
+title: stakeholder-update
+summary: Generate a stakeholder update tailored to audience and cadence
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/stakeholder-update.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/stakeholder-update.md
+retrieved_at: 2026-02-06T12:05:06.736Z
+content_sha256: 5b91f9b3ffa0c5fc68010f28784a984f4041a7b3073276fe976623eb4c73a990
+---
+|/data/knowledge-work-plugins-product-management-commands-stakeholder-update|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-commands-synthesize-research
+type: skills
+title: synthesize-research
+summary: Synthesize user research from interviews, surveys, and feedback into
+  structured insights
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/synthesize-research.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/synthesize-research.md
+retrieved_at: 2026-02-06T12:05:07.002Z
+content_sha256: e34be20919331bcd6005028084844e3f08fd6c9a34ac0a623c0cb95b5efe6068
+---
+|/data/knowledge-work-plugins-product-management-commands-synthesize-research|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-commands-write-spec
+type: skills
+title: write-spec
+summary: Write a feature spec or PRD from a problem statement or feature idea
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/write-spec.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/write-spec.md
+retrieved_at: 2026-02-06T12:05:07.088Z
+content_sha256: b3472b78c78c9c9ef308b75d4ce6816a99330421decbba167b8bc3280e6ac8a7
+---
+|/data/knowledge-work-plugins-product-management-commands-write-spec|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-skills-competitive-analysis-skill
+type: skills
+title: competitive-analysis
+summary: Analyze competitors with feature comparison matrices, positioning
+  analysis, and strategic implications. Use when researching a competitor,
+  comparing product capabilities, assessing competitive positioning, or
+  preparing a competitive brief for product strategy.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/competitive-analysis/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/competitive-analysis/SKILL.md
+retrieved_at: 2026-02-06T12:05:06.304Z
+content_sha256: ac3860cec29139440a9b4e50df430378ecedebfd2f537ce1eaa6d4ce866f73be
+---
+|/data/knowledge-work-plugins-product-management-skills-competitive-analysis-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-skills-feature-spec-skill
+type: skills
+title: feature-spec
+summary: Write structured product requirements documents (PRDs) with problem
+  statements, user stories, requirements, and success metrics. Use when speccing
+  a new feature, writing a PRD, defining acceptance criteria, prioritizing
+  requirements, or documenting product decisions.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/feature-spec/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/feature-spec/SKILL.md
+retrieved_at: 2026-02-06T12:05:06.123Z
+content_sha256: f5d5d24e062b86a354b300440e5cd6a3759e0bc9078e1935b4a5f18da4f4c1f4
+---
+|/data/knowledge-work-plugins-product-management-skills-feature-spec-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-skills-metrics-tracking-skill
+type: skills
+title: metrics-tracking
+summary: Define, track, and analyze product metrics with frameworks for goal
+  setting and dashboard design. Use when setting up OKRs, building metrics
+  dashboards, running weekly metrics reviews, identifying trends, or choosing
+  the right metrics for a product area.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/metrics-tracking/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/metrics-tracking/SKILL.md
+retrieved_at: 2026-02-06T12:05:06.560Z
+content_sha256: 5ec7a51caf1368b16195ffb51024d26c7bf6724308d15700879cee247ecb89aa
+---
+|/data/knowledge-work-plugins-product-management-skills-metrics-tracking-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-skills-roadmap-management-skill
+type: skills
+title: roadmap-management
+summary: Plan and prioritize product roadmaps using frameworks like RICE,
+  MoSCoW, and ICE. Use when creating a roadmap, reprioritizing features, mapping
+  dependencies, choosing between Now/Next/Later or quarterly formats, or
+  presenting roadmap tradeoffs to stakeholders.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/roadmap-management/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/roadmap-management/SKILL.md
+retrieved_at: 2026-02-06T12:05:06.386Z
+content_sha256: 4f7355b580f77474ccbbc5a543b35a1f8463445a69553d8249b6b559d606c6fe
+---
+|/data/knowledge-work-plugins-product-management-skills-roadmap-management-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-skills-stakeholder-comms-skill
+type: skills
+title: stakeholder-comms
+summary: Draft stakeholder updates tailored to audience — executives,
+  engineering, customers, or cross-functional partners. Use when writing weekly
+  status updates, monthly reports, launch announcements, risk communications, or
+  decision documentation.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/stakeholder-comms/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/stakeholder-comms/SKILL.md
+retrieved_at: 2026-02-06T12:05:06.476Z
+content_sha256: 7a46aaa7bb2183ece264cc89504a6f736079b4e8a1014e045ef80a92bc838c2b
+---
+|/data/knowledge-work-plugins-product-management-skills-stakeholder-comms-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-product-management-skills-user-research-synthesis-skill
+type: skills
+title: user-research-synthesis
+summary: Synthesize qualitative and quantitative user research into structured
+  insights and opportunity areas. Use when analyzing interview notes, survey
+  responses, support tickets, or behavioral data to identify themes, build
+  personas, or prioritize opportunities.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-product-management
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/user-research-synthesis/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/user-research-synthesis/SKILL.md
+retrieved_at: 2026-02-06T12:05:06.215Z
+content_sha256: 968a08f0bf67a5f375d7e4ff29f3270b29d95d2af912b912bc3b87b2d848f50f
+---
+|/data/knowledge-work-plugins-product-management-skills-user-research-synthesis-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-productivity-commands-start
+type: skills
+title: start
+summary: Initialize the productivity system and open the dashboard
+tags:
+  - source-knowledge-work-plugins
+  - plugin-productivity
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/commands/start.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/commands/start.md
+retrieved_at: 2026-02-06T12:05:01.842Z
+content_sha256: 9a7ca7c70f4e365839886b1d05e25e7076319c509624a02d428fe0a64a7b6a15
+---
+|/data/knowledge-work-plugins-productivity-commands-start|
+
+---
+stable_id: skills/knowledge-work-plugins-productivity-commands-update
+type: skills
+title: update
+summary: Sync tasks and refresh memory from your current activity
+tags:
+  - source-knowledge-work-plugins
+  - plugin-productivity
+  - plugin-component-commands
+  - plugin-command
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/commands/update.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/commands/update.md
+retrieved_at: 2026-02-06T12:05:01.753Z
+content_sha256: 7d0c2cd50b6c21d3352161db5544926ba556b425b5e4af465855a43b572ffc48
+---
+|/data/knowledge-work-plugins-productivity-commands-update|
+
+---
+stable_id: skills/knowledge-work-plugins-productivity-skills-memory-management-skill
+type: skills
+title: memory-management
+summary: Two-tier memory system that makes Claude a true workplace collaborator.
+  Decodes shorthand, acronyms, nicknames, and internal language so Claude
+  understands requests like a colleague would. CLAUDE.md for working memory,
+  memory/ directory for the full knowledge base.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-productivity
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/memory-management/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/memory-management/SKILL.md
+retrieved_at: 2026-02-06T12:05:01.576Z
+content_sha256: 165c4083833a8920a461c8eee76e2164c266184670bb6c11076d4a939ae56db3
+---
+|/data/knowledge-work-plugins-productivity-skills-memory-management-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-productivity-skills-task-management-skill
+type: skills
+title: task-management
+summary: Simple task management using a shared TASKS.md file. Reference this
+  when the user asks about their tasks, wants to add/complete tasks, or needs
+  help tracking commitments.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-productivity
+  - plugin-component-skills
+  - plugin-skill
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/task-management/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/task-management/SKILL.md
+retrieved_at: 2026-02-06T12:05:01.674Z
+content_sha256: a21f43ab86af12e60793e0156b034d252ec8b0c758fcc187b7d5e2746882a264
+---
+|/data/knowledge-work-plugins-productivity-skills-task-management-skill|
 
 ---
 stable_id: skills/openclaw-openclaw-4todo
@@ -17,7 +346,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/blackstorm/4todo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:26.205Z
+retrieved_at: 2026-02-06T12:00:14.424Z
 content_sha256: 497c9d5dc2656b167bf0e25b848644cdd745d5175258b54fa359bd1bbfdec992
 ---
 |/data/openclaw-openclaw-4todo|
@@ -34,7 +363,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thisisjeron/actual-budget/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:26.498Z
+retrieved_at: 2026-02-06T12:00:15.141Z
 content_sha256: f77cb9ac69635f078b0bec63ebdd0990e066f2161d6c3aea25684224e414ca75
 ---
 |/data/openclaw-openclaw-actual-budget|
@@ -52,7 +381,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/adhd-daily-planner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:26.771Z
+retrieved_at: 2026-02-06T12:00:16.061Z
 content_sha256: 655fb17083206826da86131eecc3dcbc3baef74d284e371d4964d996f763ed92
 ---
 |/data/openclaw-openclaw-adhd-daily-planner|
@@ -70,7 +399,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/agent-chronicle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:27.223Z
+retrieved_at: 2026-02-06T12:00:17.126Z
 content_sha256: f67db0318f7e84d72872ac34c31f28cfa64a74308c9fe44644ab7e217d8b6fc8
 ---
 |/data/openclaw-openclaw-agent-chronicle|
@@ -87,7 +416,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/agent-protocol/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:27.654Z
+retrieved_at: 2026-02-06T12:00:18.272Z
 content_sha256: 92ee4c6bfc612c6241fc9821bc7f2731bfa174f4c930bf97bf6c2fd4756a61e9
 ---
 |/data/openclaw-openclaw-agent-protocol|
@@ -105,7 +434,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dobbybud/agent-task-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:27.818Z
+retrieved_at: 2026-02-06T12:00:18.707Z
 content_sha256: 21f6a86078f97ab51aeb665bdf8e465833077256d66f612534e2ab73fb8bb41c
 ---
 |/data/openclaw-openclaw-agent-task-manager|
@@ -122,7 +451,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/k0nkupa/asana/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:30.491Z
+retrieved_at: 2026-02-06T12:00:26.242Z
 content_sha256: 3f7cc4b25f22a989525f71f86cb2650f3f72a86da79a01002068f54f061c37d0
 ---
 |/data/openclaw-openclaw-asana|
@@ -140,7 +469,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rudrankriyam/asc-release-flow/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:30.532Z
+retrieved_at: 2026-02-06T12:00:26.330Z
 content_sha256: a1f8383ff0e200a1c086b6502c2f5a4abab0923ff28ea36937ad067d75dd76f3
 ---
 |/data/openclaw-openclaw-asc-release-flow|
@@ -157,7 +486,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enderfga/async-task/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:30.690Z
+retrieved_at: 2026-02-06T12:00:26.641Z
 content_sha256: 4adaf666894dcbe7ed4fa9f82b9b4cacfba79b2047d5594148e01aa755b6da59
 ---
 |/data/openclaw-openclaw-async-task|
@@ -174,7 +503,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atakanermis/atlassian-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:30.734Z
+retrieved_at: 2026-02-06T12:00:26.722Z
 content_sha256: 8052a44096cdf9de260c1e0f8bf1d24b3ed9d332acc66c6da5cee31ccf484207
 ---
 |/data/openclaw-openclaw-atlassian-mcp|
@@ -192,7 +521,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/audiopod/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:31.110Z
+retrieved_at: 2026-02-06T12:00:27.367Z
 content_sha256: 69a9bd12d3b17f43a09d0fcf4a47aad5dda7ac41244833b32eff1961feda9146
 ---
 |/data/openclaw-openclaw-audiopod|
@@ -221,7 +550,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vishnubedi3/autonomous-feature-planner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:31.207Z
+retrieved_at: 2026-02-06T12:00:27.599Z
 content_sha256: e89d55b0670c5978af903e63d6ab5fb1097aaf5cecf41e292278646371a1d0a8
 ---
 |/data/openclaw-openclaw-autonomous-feature-planner|
@@ -238,7 +567,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/basal-ganglia-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:32.140Z
+retrieved_at: 2026-02-06T12:00:29.430Z
 content_sha256: 13977bed29b4051babc9415a5e7c98ce0fcee1dfc875c3515dc7892e89755d1c
 ---
 |/data/openclaw-openclaw-basal-ganglia-memory|
@@ -256,7 +585,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbiwu/blossom-hire/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:33.140Z
+retrieved_at: 2026-02-06T12:00:31.768Z
 content_sha256: 4ddfe056ef82346b345be6453bf55eff08539cde4096e5537c4b5d0aec03eace
 ---
 |/data/openclaw-openclaw-blossom-hire|
@@ -274,7 +603,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/build-discipline/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:34.066Z
+retrieved_at: 2026-02-06T12:00:34.377Z
 content_sha256: b98c30fb9135ca590c6ca201497d7e846beec4f9d11bdc25c096c40a8adb3277
 ---
 |/data/openclaw-openclaw-build-discipline|
@@ -291,7 +620,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/redeemthedream/clankdin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:35.432Z
+retrieved_at: 2026-02-06T12:00:37.865Z
 content_sha256: e29175c5d638bad6c5d6d85704d9f7b6ddc7138f438c034340e74dd73dc8641f
 ---
 |/data/openclaw-openclaw-clankdin|
@@ -308,7 +637,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/johnsonfarmsus/claw-conductor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:35.834Z
+retrieved_at: 2026-02-06T12:00:38.952Z
 content_sha256: eada58826258e3e243e30d3c312e6d9ae3b295fa7f55ff47755715d274fa361c
 ---
 |/data/openclaw-openclaw-claw-conductor|
@@ -326,7 +655,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aranej/clawd-docs-v2/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:36.102Z
+retrieved_at: 2026-02-06T12:00:39.573Z
 content_sha256: 37cf5fba34209c864784e5fb34038c071fa4eaddcecb4d15671a90a23aa6c393
 ---
 |/data/openclaw-openclaw-clawd-docs-v2|
@@ -344,7 +673,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thestormshadow/clawgatesecure/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:37.127Z
+retrieved_at: 2026-02-06T12:00:42.262Z
 content_sha256: 1c68e5bc512902f69eca561bf83cf69731e3b4f11ec9a1ff8edd7054a063b504
 ---
 |/data/openclaw-openclaw-clawgatesecure|
@@ -362,7 +691,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/clickup-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:37.759Z
+retrieved_at: 2026-02-06T12:00:43.964Z
 content_sha256: 33242b2f681387bcee3ea03d8de8ba928fd6fdd5e5f18d6925cd93661349af69
 ---
 |/data/openclaw-openclaw-clickup-mcp|
@@ -380,7 +709,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/d3layd/clickup-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:37.790Z
+retrieved_at: 2026-02-06T12:00:44.029Z
 content_sha256: 10880fbb29d279eea7aaf1830cd25c0272bd8331785084cd79ac6b6a8cb4e89d
 ---
 |/data/openclaw-openclaw-clickup-skill|
@@ -397,7 +726,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kris-hansen/comanda/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:38.318Z
+retrieved_at: 2026-02-06T12:00:45.378Z
 content_sha256: 57c8e84f6a624ba49dc32f0e9086143ce76c5b5e375b5e59d5f333595fa3b49f
 ---
 |/data/openclaw-openclaw-comanda|
@@ -415,7 +744,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xiaozhuang0127/confirm-form/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:38.792Z
+retrieved_at: 2026-02-06T12:00:46.444Z
 content_sha256: b1f03f7bd45f1e49e4efd7d0102c9fd264c616c9adf5562d35d24e852507bcf4
 ---
 |/data/openclaw-openclaw-confirm-form|
@@ -433,7 +762,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/content-writing-thought-leadership/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:39.103Z
+retrieved_at: 2026-02-06T12:00:47.117Z
 content_sha256: 5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd
 ---
 |/data/openclaw-openclaw-content-writing-thought-leadership|
@@ -450,7 +779,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/dex/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:41.406Z
+retrieved_at: 2026-02-06T12:00:53.191Z
 content_sha256: 4829786b7b792c01f51bc479fa72e46680dfbddd8b7dbd14a1ca011c02466162
 ---
 |/data/openclaw-openclaw-dex|
@@ -467,7 +796,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chris-clem/dexcom/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:41.436Z
+retrieved_at: 2026-02-06T12:00:53.261Z
 content_sha256: ca44547b8b754a6dd78df84da35cde2ce9f1cfc86ab1e04ccf2792a3469bce3d
 ---
 |/data/openclaw-openclaw-dexcom|
@@ -485,7 +814,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/dvsa-tc-audit-readiness-operator-licence-uk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:42.669Z
+retrieved_at: 2026-02-06T12:00:56.094Z
 content_sha256: 8cdb3208a10b616cd01f164a8926acd22ad050c0ef00632ac35281bec9698cbf
 ---
 |/data/openclaw-openclaw-dvsa-tc-audit-readiness-operator-licence-uk|
@@ -502,7 +831,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/featurebase/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:44.825Z
+retrieved_at: 2026-02-06T12:01:02.404Z
 content_sha256: 61b9abccb211a45ac4424b51a58c4351855bf3231634958cb4c8d0403daf3a59
 ---
 |/data/openclaw-openclaw-featurebase|
@@ -520,7 +849,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bvinci1-design/flow/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:46.000Z
+retrieved_at: 2026-02-06T12:01:05.167Z
 content_sha256: 37e2abd0532d2fdd3491d061b810ee1b53ff097a8785367e4a86f9fffd4171cf
 ---
 |/data/openclaw-openclaw-flow|
@@ -538,7 +867,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fancygobot/flowmind/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:46.032Z
+retrieved_at: 2026-02-06T12:01:05.252Z
 content_sha256: 10e1aad4f4de37f5f438f80603e868c508330f9f648d8c0feffa6bf7b17b5e84
 ---
 |/data/openclaw-openclaw-flowmind|
@@ -556,7 +885,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/focus-deep-work/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:46.098Z
+retrieved_at: 2026-02-06T12:01:05.387Z
 content_sha256: 49210c4f52887892fb0885a009ca2c44fcfcd224764087191f8b121ff7d9647f
 ---
 |/data/openclaw-openclaw-focus-deep-work|
@@ -573,7 +902,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pepperbotts/gmail-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:48.245Z
+retrieved_at: 2026-02-06T12:01:10.745Z
 content_sha256: 725074ff68f7b5d998fc9db651204809707cc9c4e7ffd9dd98457ae1cf6600b3
 ---
 |/data/openclaw-openclaw-gmail-manager|
@@ -590,7 +919,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gmickel/gno/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:48.281Z
+retrieved_at: 2026-02-06T12:01:10.827Z
 content_sha256: 797af7004d2c8bceb4781c0e8b59d6a55adbe72e8abd647cab2379dea958c07d
 ---
 |/data/openclaw-openclaw-gno|
@@ -607,7 +936,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luccast/gogcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:48.452Z
+retrieved_at: 2026-02-06T12:01:11.225Z
 content_sha256: 8ad7e28eaaeb3576afe817be01c4f72b765e8fa6a665e552162bd7bcd1872bec
 ---
 |/data/openclaw-openclaw-gogcli|
@@ -625,7 +954,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/longmaba/google-sheet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:48.839Z
+retrieved_at: 2026-02-06T12:01:12.070Z
 content_sha256: 54d81b8b7345a6777b98546f0580c364f0d9842e0519aa98b66e40d1659c8236
 ---
 |/data/openclaw-openclaw-google-sheet|
@@ -642,7 +971,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:30.874Z
+retrieved_at: 2026-02-06T12:05:00.239Z
 content_sha256: bfe848d8a0f1375bf6c9f6f4eb94eced1566b3724231a78c15e1718194bb5ec0
 ---
 |/data/openclaw-openclaw-google-workspace-mcp|
@@ -659,7 +988,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/gratitude-journal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:49.331Z
+retrieved_at: 2026-02-06T12:01:13.102Z
 content_sha256: a0046d1ccbe42186e38bf19ce7a736d2e374da7a5445df20206c450e5aa7d1eb
 ---
 |/data/openclaw-openclaw-gratitude-journal|
@@ -676,7 +1005,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/glittercowboy/gsd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:49.504Z
+retrieved_at: 2026-02-06T12:01:13.444Z
 content_sha256: 2be7095d07ee398b705adde57a573122c7889843b669ba69da685692dec03052
 ---
 |/data/openclaw-openclaw-gsd|
@@ -694,7 +1023,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tralves/habit-flow-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:49.699Z
+retrieved_at: 2026-02-06T12:01:13.882Z
 content_sha256: b2e0ea4a29dbd463d2c0dd3e17b939fc31d5672e7a7b56468b933ec7f8487514
 ---
 |/data/openclaw-openclaw-habit-flow-skill|
@@ -711,7 +1040,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/habit-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:49.731Z
+retrieved_at: 2026-02-06T12:01:13.946Z
 content_sha256: 57692c155d1a17dac483d8d3542e32393911f0f0fd5d414ff64b6d5815d9d29b
 ---
 |/data/openclaw-openclaw-habit-tracker|
@@ -729,7 +1058,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/healthy-eating/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:49.956Z
+retrieved_at: 2026-02-06T12:01:14.454Z
 content_sha256: 52aadb2fbd0fcb2619ca54b2b14e64a76c73ae29177f2e5d43de57caf5292776
 ---
 |/data/openclaw-openclaw-healthy-eating|
@@ -746,7 +1075,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvarrieur/imap-email/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:51.409Z
+retrieved_at: 2026-02-06T12:01:17.584Z
 content_sha256: e9964d340920f33395dd4b07e80926b19b9fe00c5829890a47f3c4c2982b23d9
 ---
 |/data/openclaw-openclaw-imap-email|
@@ -763,7 +1092,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/jira/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:52.754Z
+retrieved_at: 2026-02-06T12:01:20.371Z
 content_sha256: dd370b8625677931c0619ff59b12d39d801986d8926fe6f21a5afa2582a13d69
 ---
 |/data/openclaw-openclaw-jira|
@@ -780,7 +1109,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abakermi/kanbanflow-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:53.711Z
+retrieved_at: 2026-02-06T12:01:22.769Z
 content_sha256: c18769f6f4427a6fcc4a29e8afab39ce447ce6823e664aa3d84c7a6801ac4c92
 ---
 |/data/openclaw-openclaw-kanbanflow-skill|
@@ -797,7 +1126,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/linear/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:54.652Z
+retrieved_at: 2026-02-06T12:01:25.011Z
 content_sha256: c9958bce3b7af252c6ace33b3fc6d7540f7f570ddb3c4e868eeb3bf756968605
 ---
 |/data/openclaw-openclaw-linear|
@@ -814,7 +1143,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emrekilinc/linear-issues/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:54.688Z
+retrieved_at: 2026-02-06T12:01:25.101Z
 content_sha256: 13b24a5e65222985557a4ee570b5b8ef8e8bd0dbf19692a3eb2718669df4044e
 ---
 |/data/openclaw-openclaw-linear-issues|
@@ -831,7 +1160,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/patelhiren/mastodon-scout/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:56.009Z
+retrieved_at: 2026-02-06T12:01:28.056Z
 content_sha256: d9e810a98933eb8069c6df714f23204dc51c078ff198a6eb4c446bb34ed4ec42
 ---
 |/data/openclaw-openclaw-mastodon-scout|
@@ -848,7 +1177,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leohan123123/mlti-llm-fallback/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:57.570Z
+retrieved_at: 2026-02-06T12:01:31.510Z
 content_sha256: ea7fe832af6bea0337c413f15ffecb198aa6f32cdbd4a021bfbce7ee73b1204c
 ---
 |/data/openclaw-openclaw-mlti-llm-fallback|
@@ -865,7 +1194,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/mogcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:57.774Z
+retrieved_at: 2026-02-06T12:01:32.055Z
 content_sha256: ddb07f6748bbba566b8034ae9565944fdb2dceae062a3cc41d17c72da29350ae
 ---
 |/data/openclaw-openclaw-mogcli|
@@ -882,7 +1211,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucas-riverbi/morning-briefing/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:58.801Z
+retrieved_at: 2026-02-06T12:01:36.284Z
 content_sha256: e5dd60f28323f15fc20428eba30b359c2b4d33262ab3950a336942d49a7feb66
 ---
 |/data/openclaw-openclaw-morning-briefing|
@@ -899,7 +1228,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marcbickel/morning-manifesto/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:23:58.873Z
+retrieved_at: 2026-02-06T12:01:36.440Z
 content_sha256: e8c0929cddfcb456ccfe5451747460d0a37984d70c4e22a2e9c2809b0cfdd364
 ---
 |/data/openclaw-openclaw-morning-manifesto|
@@ -916,7 +1245,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dvjn/no-nonsense-tasks/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:00.809Z
+retrieved_at: 2026-02-06T12:01:40.225Z
 content_sha256: 604e4e8b9e58c7b5eff29890d3e1e2c578f66364b31d16b8b13a9dbadadabb26
 ---
 |/data/openclaw-openclaw-no-nonsense-tasks|
@@ -933,7 +1262,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/omnifocus-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:02.025Z
+retrieved_at: 2026-02-06T12:01:42.872Z
 content_sha256: 4a35b2f581dc7fc2e70045d6fcb9a8ff5e0f77709cc69d85ef1d429459ebcb39
 ---
 |/data/openclaw-openclaw-omnifocus-automation|
@@ -950,7 +1279,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jotamed/outlook/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:03.781Z
+retrieved_at: 2026-02-06T12:01:46.334Z
 content_sha256: b50fec118666e0b8f1864795c5c9387e313d2231d7dcea5395fa24810a48e4a4
 ---
 |/data/openclaw-openclaw-outlook|
@@ -967,7 +1296,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/pa-admin-exec/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:03.891Z
+retrieved_at: 2026-02-06T12:01:46.554Z
 content_sha256: e129972ac0a321336335e237298accf0c072855b12064082340df78a50e540bf
 ---
 |/data/openclaw-openclaw-pa-admin-exec|
@@ -985,7 +1314,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/personal-analytics/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:04.957Z
+retrieved_at: 2026-02-06T12:01:48.616Z
 content_sha256: 2868b69feda344ca79edf2a3421ff6273b1384e74b893e98b9443b6b05dddc3b
 ---
 |/data/openclaw-openclaw-personal-analytics|
@@ -1003,7 +1332,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vishnubedi3/plan-executor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:05.790Z
+retrieved_at: 2026-02-06T12:01:50.499Z
 content_sha256: de9566cfca807a5bbdab6c1bceb12917a3c503474cda395ca9e34c3a327b2db9
 ---
 |/data/openclaw-openclaw-plan-executor|
@@ -1020,7 +1349,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/plan-my-day/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:05.821Z
+retrieved_at: 2026-02-06T12:01:50.563Z
 content_sha256: 0d8c7d87a3267175600ceffffd1bc2e489cc3243575451730df49c731cfdb9ee
 ---
 |/data/openclaw-openclaw-plan-my-day|
@@ -1038,7 +1367,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/voydz/planka/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:05.941Z
+retrieved_at: 2026-02-06T12:01:50.776Z
 content_sha256: 1ed83164f52fe0989fb2d39f85eeb5b988c320dcff8980ec2ae9ddee4f22eda6
 ---
 |/data/openclaw-openclaw-planka|
@@ -1055,7 +1384,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/othmanadi/planning-with-files/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:06.010Z
+retrieved_at: 2026-02-06T12:01:50.932Z
 content_sha256: 94e5791ae8b917e20581146c91c61636ae8a72f0a38b2ac0a999de773a9d0496
 ---
 |/data/openclaw-openclaw-planning-with-files|
@@ -1072,7 +1401,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/prd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:06.887Z
+retrieved_at: 2026-02-06T12:01:52.550Z
 content_sha256: 642db64091e78dd54b696292cd153ca22841c89273a359c1eb09dca0535cf8c5
 ---
 |/data/openclaw-openclaw-prd|
@@ -1089,7 +1418,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/pre-mortem-analyst/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:06.932Z
+retrieved_at: 2026-02-06T12:01:52.631Z
 content_sha256: 51be8754ad23302e92e31f2243ec95dc77326f290ac2c38bc74e4db1a5b10b67
 ---
 |/data/openclaw-openclaw-pre-mortem-analyst|
@@ -1107,7 +1436,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/halthelobster/proactive-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:07.245Z
+retrieved_at: 2026-02-06T12:01:53.285Z
 content_sha256: 571521d9f6f38b3ec9f073d7bdec47170a35e9c78556954ac7f0f860ab12873b
 ---
 |/data/openclaw-openclaw-proactive-agent|
@@ -1125,7 +1454,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/project-management-guru-adhd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:07.685Z
+retrieved_at: 2026-02-06T12:01:54.129Z
 content_sha256: eb962d7f22e8561e700246595d72c629f183899eb69cf02ac15fde9fe26256ba
 ---
 |/data/openclaw-openclaw-project-management-guru-adhd|
@@ -1142,7 +1471,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fr0ziii/project-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:07.762Z
+retrieved_at: 2026-02-06T12:01:54.288Z
 content_sha256: 5a850ea832ef5f4e9224fcf452eb836a6489be00779cc27305c41413382861ce
 ---
 |/data/openclaw-openclaw-project-manager|
@@ -1159,7 +1488,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/prowlarr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:08.117Z
+retrieved_at: 2026-02-06T12:01:55.080Z
 content_sha256: c2a2fd5159da5affcea51f1cf685d20c22dbece535a9319e85a0ac6eea049f78
 ---
 |/data/openclaw-openclaw-prowlarr|
@@ -1176,7 +1505,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/qmd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:08.601Z
+retrieved_at: 2026-02-06T12:01:56.172Z
 content_sha256: 8d0a688885a61062a655259d755d050e5a51a54d80fe1c1643756bf0dbba41cf
 ---
 |/data/openclaw-openclaw-qmd|
@@ -1194,7 +1523,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eesb99/rlm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:11.242Z
+retrieved_at: 2026-02-06T12:02:01.586Z
 content_sha256: 83817be137ec1b85acaef9bc38abcc912f97faa5a23a3c66cc19df826302120e
 ---
 |/data/openclaw-openclaw-rlm|
@@ -1211,7 +1540,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/regenrek/samsung-smartthings/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:11.837Z
+retrieved_at: 2026-02-06T12:02:02.903Z
 content_sha256: cbcb5b5947421321cb464cb7c8f5fc16cec3a129e7731766ec8703b44c7c7b1c
 ---
 |/data/openclaw-openclaw-samsung-smartthings|
@@ -1229,7 +1558,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/riyadchowdhury/skylight-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:14.403Z
+retrieved_at: 2026-02-06T12:02:08.860Z
 content_sha256: 61ee6edbc75cb9d8fe2472f65babe86c5bcc24bdf757898567d25e7c84274f6e
 ---
 |/data/openclaw-openclaw-skylight-skill|
@@ -1247,7 +1576,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/social-media-management/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:14.835Z
+retrieved_at: 2026-02-06T12:02:09.758Z
 content_sha256: 5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd
 ---
 |/data/openclaw-openclaw-social-media-management|
@@ -1264,7 +1593,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chair4ce/swarm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:16.657Z
+retrieved_at: 2026-02-06T12:02:13.824Z
 content_sha256: 08d53b5c7204cbf74fdf515a19fa1a1edb6bfb1aa2d5fc3e93194f74f2ae94d7
 ---
 |/data/openclaw-openclaw-swarm|
@@ -1281,7 +1610,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/tabussen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:17.377Z
+retrieved_at: 2026-02-06T12:02:15.257Z
 content_sha256: 54985066033061e0a02c6f8d2e9eb10ce0f6e1450e2a2173b57ae8317d1dbaf6
 ---
 |/data/openclaw-openclaw-tabussen|
@@ -1298,7 +1627,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amirbrooks/task/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:17.556Z
+retrieved_at: 2026-02-06T12:02:15.648Z
 content_sha256: 129ffe24ca5df7fc8fe5663cf8162c81fbc9c39162f6a937bb4ce9f26264dd3e
 ---
 |/data/openclaw-openclaw-task|
@@ -1315,7 +1644,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/task-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:17.632Z
+retrieved_at: 2026-02-06T12:02:15.798Z
 content_sha256: 997386f3e394e3a0e3801dc1135a0cf54c877bba89c113c159fde4f95d420915
 ---
 |/data/openclaw-openclaw-task-tracker|
@@ -1332,7 +1661,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xatter/taskleef/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:17.666Z
+retrieved_at: 2026-02-06T12:02:15.878Z
 content_sha256: 51fbe1514615925a171e54b014270d2cc6344dfc05903a8b473dc4566d861944
 ---
 |/data/openclaw-openclaw-taskleef|
@@ -1349,7 +1678,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jlwrow/taskmaster/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:17.710Z
+retrieved_at: 2026-02-06T12:02:15.946Z
 content_sha256: 6f8a7636ae8aa5bf56ce47d86c3e4ea7d3886a1e610467153797ffab3f85b554
 ---
 |/data/openclaw-openclaw-taskmaster|
@@ -1367,7 +1696,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kipasdinding6969-alt/tesy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:18.593Z
+retrieved_at: 2026-02-06T12:02:17.908Z
 content_sha256: 174c779f65765462c9cdb69fba4e1294f5e65d9d0edb3e2581863674d00d34f5
 ---
 |/data/openclaw-openclaw-tesy|
@@ -1384,7 +1713,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jackparnell/thecolony-heartbeat/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:18.728Z
+retrieved_at: 2026-02-06T12:02:18.224Z
 content_sha256: 27c8942d072ced586e6fc3a4da806a583c55870f5892cc2974d82ced02a6a280
 ---
 |/data/openclaw-openclaw-thecolony-heartbeat|
@@ -1401,7 +1730,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/things-mac/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:18.799Z
+retrieved_at: 2026-02-06T12:02:18.385Z
 content_sha256: c5cd40a9d8180fc220d7fd0f0372612ac00f92174677bdb0c47e3fd2f0bd9307
 ---
 |/data/openclaw-openclaw-things-mac|
@@ -1419,7 +1748,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/ticktick/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.024Z
+retrieved_at: 2026-02-06T12:02:19.105Z
 content_sha256: b08e30a715ddcdf1512932082afda6cc5e278b0fb8bba14d3961b8061d8e76d2
 ---
 |/data/openclaw-openclaw-ticktick|
@@ -1436,7 +1765,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianrauscha/timesheet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.083Z
+retrieved_at: 2026-02-06T12:02:19.302Z
 content_sha256: bf95e49c5242ecd68c4c02027942f57cd827c849bb82333e907080675f007dd6
 ---
 |/data/openclaw-openclaw-timesheet|
@@ -1453,7 +1782,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/todo-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.278Z
+retrieved_at: 2026-02-06T12:02:19.892Z
 content_sha256: a8f163d2665037a5f12c22ed9cacf9e5c9598950c8a203ba3fa8654c3680649e
 ---
 |/data/openclaw-openclaw-todo-tracker|
@@ -1470,7 +1799,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/todoist/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.310Z
+retrieved_at: 2026-02-06T12:02:19.994Z
 content_sha256: 56960995964fa8cf3110194b53dfbba90283a402585f89325414d2dfa72eb731
 ---
 |/data/openclaw-openclaw-todoist|
@@ -1487,7 +1816,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/clvrobj/toggl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.377Z
+retrieved_at: 2026-02-06T12:02:20.184Z
 content_sha256: b876aea2092414f4d76373e5d97dd4e1baf6e4713c26832f6ab37337263495f7
 ---
 |/data/openclaw-openclaw-toggl|
@@ -1504,7 +1833,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/topydo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:19.530Z
+retrieved_at: 2026-02-06T12:02:20.557Z
 content_sha256: 3df56f8f01f12c4ef14c1fbcf7eef7a93f09cb63fd905d5f3c3cf09a2a352cde
 ---
 |/data/openclaw-openclaw-topydo|
@@ -1521,7 +1850,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/trello/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:20.086Z
+retrieved_at: 2026-02-06T12:02:21.837Z
 content_sha256: ede0f3181af05734e178a9415295402ecfe4cb2da08d1d26515634e874ec08e1
 ---
 |/data/openclaw-openclaw-trello|
@@ -1538,7 +1867,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sergirostoll-coder/value-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:21.681Z
+retrieved_at: 2026-02-06T12:02:25.875Z
 content_sha256: c8f4f3170604a1522b85fe4965025ab5f090549a09d2a124e1f84f21e4f5657f
 ---
 |/data/openclaw-openclaw-value-tracker|
@@ -1555,7 +1884,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/vikunja/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:22.235Z
+retrieved_at: 2026-02-06T12:02:27.208Z
 content_sha256: 19f0a3dedffb5dd558a8ffe675abb72381577e038d191d75b0c1adfbfc4f8bba
 ---
 |/data/openclaw-openclaw-vikunja|
@@ -1572,7 +1901,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmigone/vikunja-fast/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:22.269Z
+retrieved_at: 2026-02-06T12:02:27.306Z
 content_sha256: 8272111d8b6e4c5d59778d2491796b94779788433f2955c638a22efe13abf12c
 ---
 |/data/openclaw-openclaw-vikunja-fast|
@@ -1589,7 +1918,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/elithrar/web-perf/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:23.583Z
+retrieved_at: 2026-02-06T12:02:30.295Z
 content_sha256: dbb0e6ab3e3565cf49de6b2c3bcd62339aafebb099514ec3c86771a096cd920b
 ---
 |/data/openclaw-openclaw-web-perf|
@@ -1607,7 +1936,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hisxo/withings-health/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T10:24:24.831Z
+retrieved_at: 2026-02-06T12:02:33.349Z
 content_sha256: 940038aadf2fac2ca826113f01b8fa7b8acff5776fc20233018dabb846003fcc
 ---
 |/data/openclaw-openclaw-withings-health|
