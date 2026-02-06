@@ -419,6 +419,7 @@
     - plugin-productivity
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/memory-management/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-productivity-skills-task-management-skill
@@ -432,6 +433,7 @@
     - plugin-productivity
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/task-management/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-productivity-commands-update
@@ -443,6 +445,7 @@
     - plugin-productivity
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/commands/update.md
 - type: skills
   slug: knowledge-work-plugins-productivity-commands-start
@@ -454,6 +457,7 @@
     - plugin-productivity
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/commands/start.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-data-validation-skill
@@ -468,6 +472,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-validation/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-statistical-analysis-skill
@@ -482,6 +487,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/statistical-analysis/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-interactive-dashboard-builder-skill
@@ -496,6 +502,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/interactive-dashboard-builder/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-data-visualization-skill
@@ -510,6 +517,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-visualization/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-sql-queries-skill
@@ -524,6 +532,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/sql-queries/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-data-context-extractor-skill
@@ -550,6 +559,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-context-extractor/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-skills-data-exploration-skill
@@ -564,6 +574,7 @@
     - plugin-data
     - plugin-component-skills
     - plugin-skill
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-exploration/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-data-commands-validate
@@ -575,6 +586,7 @@
     - plugin-data
     - plugin-component-commands
     - plugin-command
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/validate.md
 - type: skills
   slug: knowledge-work-plugins-data-commands-analyze
@@ -586,6 +598,7 @@
     - plugin-data
     - plugin-component-commands
     - plugin-command
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/analyze.md
 - type: skills
   slug: knowledge-work-plugins-data-commands-explore-data
@@ -597,6 +610,7 @@
     - plugin-data
     - plugin-component-commands
     - plugin-command
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/explore-data.md
 - type: skills
   slug: knowledge-work-plugins-data-commands-create-viz
@@ -608,6 +622,7 @@
     - plugin-data
     - plugin-component-commands
     - plugin-command
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/create-viz.md
 - type: skills
   slug: knowledge-work-plugins-data-commands-write-query
@@ -619,6 +634,7 @@
     - plugin-data
     - plugin-component-commands
     - plugin-command
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/write-query.md
 - type: skills
   slug: knowledge-work-plugins-data-commands-build-dashboard
@@ -630,6 +646,7 @@
     - plugin-data
     - plugin-component-commands
     - plugin-command
+    - category-data-analytics
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/build-dashboard.md
 - type: skills
   slug: knowledge-work-plugins-legal-skills-meeting-briefing-skill
@@ -644,6 +661,7 @@
     - plugin-legal
     - plugin-component-skills
     - plugin-skill
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/meeting-briefing/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-legal-skills-legal-risk-assessment-skill
@@ -658,6 +676,7 @@
     - plugin-legal
     - plugin-component-skills
     - plugin-skill
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/legal-risk-assessment/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-legal-skills-nda-triage-skill
@@ -672,6 +691,7 @@
     - plugin-legal
     - plugin-component-skills
     - plugin-skill
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/nda-triage/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-legal-skills-compliance-skill
@@ -686,6 +706,7 @@
     - plugin-legal
     - plugin-component-skills
     - plugin-skill
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/compliance/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-legal-skills-canned-responses-skill
@@ -700,6 +721,7 @@
     - plugin-legal
     - plugin-component-skills
     - plugin-skill
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/canned-responses/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-legal-skills-contract-review-skill
@@ -714,6 +736,7 @@
     - plugin-legal
     - plugin-component-skills
     - plugin-skill
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/contract-review/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-legal-commands-triage-nda
@@ -726,6 +749,7 @@
     - plugin-legal
     - plugin-component-commands
     - plugin-command
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/triage-nda.md
 - type: skills
   slug: knowledge-work-plugins-legal-commands-review-contract
@@ -738,6 +762,7 @@
     - plugin-legal
     - plugin-component-commands
     - plugin-command
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/review-contract.md
 - type: skills
   slug: knowledge-work-plugins-legal-commands-vendor-check
@@ -750,6 +775,7 @@
     - plugin-legal
     - plugin-component-commands
     - plugin-command
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/vendor-check.md
 - type: skills
   slug: knowledge-work-plugins-legal-commands-respond
@@ -761,6 +787,7 @@
     - plugin-legal
     - plugin-component-commands
     - plugin-command
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/respond.md
 - type: skills
   slug: knowledge-work-plugins-legal-commands-brief
@@ -773,6 +800,7 @@
     - plugin-legal
     - plugin-component-commands
     - plugin-command
+    - category-uncategorized
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/brief.md
 - type: skills
   slug: knowledge-work-plugins-finance-skills-variance-analysis-skill
@@ -787,6 +815,7 @@
     - plugin-finance
     - plugin-component-skills
     - plugin-skill
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/variance-analysis/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-finance-skills-audit-support-skill
@@ -801,6 +830,7 @@
     - plugin-finance
     - plugin-component-skills
     - plugin-skill
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/audit-support/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-finance-skills-financial-statements-skill
@@ -815,6 +845,7 @@
     - plugin-finance
     - plugin-component-skills
     - plugin-skill
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/financial-statements/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-finance-skills-close-management-skill
@@ -828,6 +859,7 @@
     - plugin-finance
     - plugin-component-skills
     - plugin-skill
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/close-management/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-finance-skills-journal-entry-prep-skill
@@ -842,6 +874,7 @@
     - plugin-finance
     - plugin-component-skills
     - plugin-skill
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/journal-entry-prep/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-finance-skills-reconciliation-skill
@@ -856,6 +889,7 @@
     - plugin-finance
     - plugin-component-skills
     - plugin-skill
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/reconciliation/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-finance-commands-journal-entry
@@ -867,6 +901,7 @@
     - plugin-finance
     - plugin-component-commands
     - plugin-command
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/journal-entry.md
 - type: skills
   slug: knowledge-work-plugins-finance-commands-sox-testing
@@ -878,6 +913,7 @@
     - plugin-finance
     - plugin-component-commands
     - plugin-command
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/sox-testing.md
 - type: skills
   slug: knowledge-work-plugins-finance-commands-reconciliation
@@ -889,6 +925,7 @@
     - plugin-finance
     - plugin-component-commands
     - plugin-command
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/reconciliation.md
 - type: skills
   slug: knowledge-work-plugins-finance-commands-income-statement
@@ -901,6 +938,7 @@
     - plugin-finance
     - plugin-component-commands
     - plugin-command
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/income-statement.md
 - type: skills
   slug: knowledge-work-plugins-finance-commands-variance-analysis
@@ -913,6 +951,7 @@
     - plugin-finance
     - plugin-component-commands
     - plugin-command
+    - category-finance
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/variance-analysis.md
 - type: skills
   slug: knowledge-work-plugins-marketing-skills-performance-analytics-skill
@@ -927,6 +966,7 @@
     - plugin-marketing
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-analytics/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-marketing-skills-competitive-analysis-skill
@@ -941,6 +981,7 @@
     - plugin-marketing
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/competitive-analysis/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-marketing-skills-campaign-planning-skill
@@ -955,6 +996,7 @@
     - plugin-marketing
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-planning/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-marketing-skills-content-creation-skill
@@ -969,6 +1011,7 @@
     - plugin-marketing
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/content-creation/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-marketing-skills-brand-voice-skill
@@ -983,6 +1026,7 @@
     - plugin-marketing
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-voice/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-email-sequence
@@ -995,6 +1039,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/email-sequence.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-performance-report
@@ -1007,6 +1052,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/performance-report.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-competitive-brief
@@ -1018,6 +1064,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/competitive-brief.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-draft-content
@@ -1030,6 +1077,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/draft-content.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-brand-review
@@ -1041,6 +1089,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/brand-review.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-campaign-plan
@@ -1053,6 +1102,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/campaign-plan.md
 - type: skills
   slug: knowledge-work-plugins-marketing-commands-seo-audit
@@ -1065,6 +1115,7 @@
     - plugin-marketing
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/seo-audit.md
 - type: skills
   slug: knowledge-work-plugins-product-management-skills-feature-spec-skill
@@ -1079,6 +1130,7 @@
     - plugin-product-management
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/feature-spec/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-product-management-skills-user-research-synthesis-skill
@@ -1093,6 +1145,7 @@
     - plugin-product-management
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/user-research-synthesis/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-product-management-skills-competitive-analysis-skill
@@ -1107,6 +1160,7 @@
     - plugin-product-management
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/competitive-analysis/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-product-management-skills-roadmap-management-skill
@@ -1121,6 +1175,7 @@
     - plugin-product-management
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/roadmap-management/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-product-management-skills-stakeholder-comms-skill
@@ -1135,6 +1190,7 @@
     - plugin-product-management
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/stakeholder-comms/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-product-management-skills-metrics-tracking-skill
@@ -1149,6 +1205,7 @@
     - plugin-product-management
     - plugin-component-skills
     - plugin-skill
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/metrics-tracking/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-product-management-commands-metrics-review
@@ -1161,6 +1218,7 @@
     - plugin-product-management
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/metrics-review.md
 - type: skills
   slug: knowledge-work-plugins-product-management-commands-stakeholder-update
@@ -1172,6 +1230,7 @@
     - plugin-product-management
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/stakeholder-update.md
 - type: skills
   slug: knowledge-work-plugins-product-management-commands-roadmap-update
@@ -1183,6 +1242,7 @@
     - plugin-product-management
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/roadmap-update.md
 - type: skills
   slug: knowledge-work-plugins-product-management-commands-competitive-brief
@@ -1195,6 +1255,7 @@
     - plugin-product-management
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/competitive-brief.md
 - type: skills
   slug: knowledge-work-plugins-product-management-commands-synthesize-research
@@ -1207,6 +1268,7 @@
     - plugin-product-management
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/synthesize-research.md
 - type: skills
   slug: knowledge-work-plugins-product-management-commands-write-spec
@@ -1218,6 +1280,7 @@
     - plugin-product-management
     - plugin-component-commands
     - plugin-command
+    - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/write-spec.md
 - type: skills
   slug: knowledge-work-plugins-bio-research-skills-instrument-data-to-allotrope-skill
@@ -1236,6 +1299,7 @@
     - plugin-bio-research
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/instrument-data-to-allotrope/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-bio-research-skills-nextflow-development-skill
@@ -1252,6 +1316,7 @@
     - plugin-bio-research
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/nextflow-development/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-bio-research-skills-scvi-tools-skill
@@ -1272,6 +1337,7 @@
     - plugin-bio-research
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/scvi-tools/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-bio-research-skills-single-cell-rna-qc-skill
@@ -1287,6 +1353,7 @@
     - plugin-bio-research
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/single-cell-rna-qc/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-bio-research-skills-scientific-problem-selection-skill
@@ -1305,6 +1372,7 @@
     - plugin-bio-research
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/scientific-problem-selection/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-bio-research-commands-start
@@ -1316,6 +1384,7 @@
     - plugin-bio-research
     - plugin-component-commands
     - plugin-command
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/commands/start.md
 - type: skills
   slug: knowledge-work-plugins-sales-skills-call-prep-skill
@@ -1331,6 +1400,7 @@
     - plugin-sales
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/call-prep/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-sales-skills-competitive-intelligence-skill
@@ -1346,6 +1416,7 @@
     - plugin-sales
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/competitive-intelligence/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-sales-skills-account-research-skill
@@ -1360,6 +1431,7 @@
     - plugin-sales
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/account-research/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-sales-skills-daily-briefing-skill
@@ -1374,6 +1446,7 @@
     - plugin-sales
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/daily-briefing/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-sales-skills-create-an-asset-skill
@@ -1387,6 +1460,7 @@
     - plugin-sales
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/create-an-asset/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-sales-skills-draft-outreach-skill
@@ -1401,6 +1475,7 @@
     - plugin-sales
     - plugin-component-skills
     - plugin-skill
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/draft-outreach/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-sales-commands-pipeline-review
@@ -1413,6 +1488,7 @@
     - plugin-sales
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/pipeline-review.md
 - type: skills
   slug: knowledge-work-plugins-sales-commands-forecast
@@ -1425,6 +1501,7 @@
     - plugin-sales
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/forecast.md
 - type: skills
   slug: knowledge-work-plugins-sales-commands-call-summary
@@ -1437,6 +1514,7 @@
     - plugin-sales
     - plugin-component-commands
     - plugin-command
+    - category-marketing-sales
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/call-summary.md
 - type: skills
   slug: knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill
@@ -1452,6 +1530,7 @@
     - plugin-cowork-plugin-management
     - plugin-component-skills
     - plugin-skill
+    - category-coding-agents-ides
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cowork-plugin-management/skills/cowork-plugin-customizer/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-enterprise-search-skills-source-management-skill
@@ -1465,6 +1544,7 @@
     - plugin-enterprise-search
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/skills/source-management/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-enterprise-search-skills-knowledge-synthesis-skill
@@ -1479,6 +1559,7 @@
     - plugin-enterprise-search
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/skills/knowledge-synthesis/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-enterprise-search-skills-search-strategy-skill
@@ -1493,6 +1574,7 @@
     - plugin-enterprise-search
     - plugin-component-skills
     - plugin-skill
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/skills/search-strategy/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-enterprise-search-commands-search
@@ -1504,6 +1586,7 @@
     - plugin-enterprise-search
     - plugin-component-commands
     - plugin-command
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/commands/search.md
 - type: skills
   slug: knowledge-work-plugins-enterprise-search-commands-digest
@@ -1515,6 +1598,7 @@
     - plugin-enterprise-search
     - plugin-component-commands
     - plugin-command
+    - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/commands/digest.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-skills-ticket-triage-skill
@@ -1529,6 +1613,7 @@
     - plugin-customer-support
     - plugin-component-skills
     - plugin-skill
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-skills-response-drafting-skill
@@ -1543,6 +1628,7 @@
     - plugin-customer-support
     - plugin-component-skills
     - plugin-skill
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/response-drafting/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-skills-escalation-skill
@@ -1557,6 +1643,7 @@
     - plugin-customer-support
     - plugin-component-skills
     - plugin-skill
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/escalation/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-skills-customer-research-skill
@@ -1572,6 +1659,7 @@
     - plugin-customer-support
     - plugin-component-skills
     - plugin-skill
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-research/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-skills-knowledge-management-skill
@@ -1586,6 +1674,7 @@
     - plugin-customer-support
     - plugin-component-skills
     - plugin-skill
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/knowledge-management/SKILL.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-commands-triage
@@ -1597,6 +1686,7 @@
     - plugin-customer-support
     - plugin-component-commands
     - plugin-command
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/triage.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-commands-escalate
@@ -1609,6 +1699,7 @@
     - plugin-customer-support
     - plugin-component-commands
     - plugin-command
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/escalate.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-commands-research
@@ -1620,6 +1711,7 @@
     - plugin-customer-support
     - plugin-component-commands
     - plugin-command
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/research.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-commands-draft-response
@@ -1632,6 +1724,7 @@
     - plugin-customer-support
     - plugin-component-commands
     - plugin-command
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/draft-response.md
 - type: skills
   slug: knowledge-work-plugins-customer-support-commands-kb-article
@@ -1643,4 +1736,5 @@
     - plugin-customer-support
     - plugin-component-commands
     - plugin-command
+    - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/kb-article.md

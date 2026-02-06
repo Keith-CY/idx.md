@@ -2,6 +2,7 @@ import { createHash } from "crypto";
 import { mkdtemp, rm } from "fs/promises";
 import { resolve } from "path";
 import { parse } from "yaml";
+import { categoryTagForKnowledgeWorkPath } from "./lib/knowledge-work-categories";
 import type { SourceEntry } from "./lib/registry";
 import { repoRoot } from "./lib/paths";
 import {
@@ -151,7 +152,25 @@ function inferKnowledgeWorkTags(relativePath: string): string[] {
   if (parts.includes("commands")) {
     tags.add("plugin-command");
   }
+  const categoryTag = categoryTagForKnowledgeWorkPath(relativePath);
+  if (categoryTag) {
+    tags.add(categoryTag);
+  }
   return [...tags];
+}
+
+function mergeTags(
+  existing: readonly string[] | undefined,
+  incoming: readonly string[] | undefined,
+): string[] | undefined {
+  const merged = new Set<string>();
+  for (const tag of existing ?? []) {
+    merged.add(tag);
+  }
+  for (const tag of incoming ?? []) {
+    merged.add(tag);
+  }
+  return merged.size > 0 ? [...merged] : undefined;
 }
 
 function resolveMetadata(
@@ -263,6 +282,10 @@ for (const entry of existingEntries) {
 }
 
 const nextEntries: SourceEntry[] = [...existingEntries];
+const entryIndexByUrl = new Map<string, number>();
+for (const [index, entry] of nextEntries.entries()) {
+  entryIndexByUrl.set(entry.source_url, index);
+}
 const tempRoot = await mkdtemp(resolve("/tmp", "awesome-claude-"));
 
 try {
@@ -293,11 +316,26 @@ try {
 
       const pathForUrl = relativePath.replace(/\\/g, "/");
       const sourceUrl = `https://raw.githubusercontent.com/${repo.owner}/${repo.repo}/${branch}/${pathForUrl}`;
+      const upstreamRef = `https://github.com/${repo.owner}/${repo.repo}/blob/${branch}/${pathForUrl}`;
+      const existingIndex = entryIndexByUrl.get(sourceUrl);
+      if (existingIndex !== undefined) {
+        const existing = nextEntries[existingIndex];
+        if (existing) {
+          nextEntries[existingIndex] = {
+            ...existing,
+            title: existing.title ?? metadata.title,
+            summary: existing.summary ?? metadata.summary,
+            tags: mergeTags(existing.tags, metadata.tags),
+            upstream_ref: existing.upstream_ref ?? upstreamRef,
+          };
+        }
+        continue;
+      }
+
       if (existingUrls.has(sourceUrl)) {
         continue;
       }
 
-      const upstreamRef = `https://github.com/${repo.owner}/${repo.repo}/blob/${branch}/${pathForUrl}`;
       const baseSlug = buildSlug(repo.repo, pathForUrl);
       const slug = uniqueSlug(baseSlug, sourceUrl, usedSlugs);
 
@@ -313,6 +351,7 @@ try {
 
       nextEntries.push(entry);
       existingUrls.add(sourceUrl);
+      entryIndexByUrl.set(sourceUrl, nextEntries.length - 1);
     }
   }
 } finally {
