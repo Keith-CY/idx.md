@@ -399,3 +399,10 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-marketing-sales
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-active-directory-attacks
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/active-directory-attacks/references/advanced-attacks.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/active-directory-attacks
