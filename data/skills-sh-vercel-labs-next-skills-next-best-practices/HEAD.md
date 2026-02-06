@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel-labs/next-skills/main/skills/next-best-practices/file-conventions.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/next-skills/next-best-practices
-retrieved_at: 2026-02-05T19:13:51.925Z
+retrieved_at: 2026-02-06T04:00:11.784Z
 content_sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
 ---

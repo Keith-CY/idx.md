@@ -5,7 +5,7 @@ title: skills-sh-inference-sh-skills-agentic-browser
 summary: >-
   # Command Reference
 
-  Complete reference for all agentic-browser functions. For quick start, see
+  Complete reference for all agent-browser functions. For quick start, see
   [SKILL.md](../SKILL.md).
 
   ## Base Command
@@ -14,7 +14,7 @@ summary: >-
 
   ```bash
 
-  infsh app run agentic-browser --function <function> --session <session_id|new>
+  infsh app run agent-browser --function <function> --session <session_id|new>
   --input '<json>'
 
   ```
@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/inference-sh/skills/main/skills/agentic-browser/references/commands.md
 license: ""
 upstream_ref: https://skills.sh/inference-sh/skills/agentic-browser
-retrieved_at: 2026-02-05T19:13:51.843Z
-content_sha256: d0c9b769472c2c1812e421f46ab86c598bd3ae6c3d64fed5fb036d43a76660c8
+retrieved_at: 2026-02-06T04:00:11.596Z
+content_sha256: b1c709ebcf54b26d957886efb8239ddb480d58ddb95fec297ffd42cfe1261c5e
 ---

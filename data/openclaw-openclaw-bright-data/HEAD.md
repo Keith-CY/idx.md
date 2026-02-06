@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/meirkad/bright-data/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.441Z
+retrieved_at: 2026-02-06T04:00:35.031Z
 content_sha256: df5317374e014561a08828822f09f3082aa609945c0775827177a0eb262d660c
 ---

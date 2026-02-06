@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/transcript/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:36.211Z
+retrieved_at: 2026-02-06T04:01:49.907Z
 content_sha256: bbc4006aba6de313dccf5c4bc786b0bfc9277acaae1a2a01bfbf50ebed104b88
 ---

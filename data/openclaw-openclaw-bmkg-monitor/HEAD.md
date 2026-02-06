@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bluemeda/bmkg-monitor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.223Z
+retrieved_at: 2026-02-06T04:00:34.178Z
 content_sha256: 0fb7529cd4d012fd05f0259e631b917bee1dead4f89c3b06f1a060da7c89d937
 ---

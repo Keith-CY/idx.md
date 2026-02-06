@@ -36,6 +36,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-installer/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-installer/SKILL.md
-retrieved_at: 2026-02-05T19:13:51.823Z
+retrieved_at: 2026-02-06T04:00:11.289Z
 content_sha256: 09df0ea7921f63d51befae9fc8f71daece5ef49d7b96e35fff8b18d15d6afda7
 ---

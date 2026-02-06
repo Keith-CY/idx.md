@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-routing/references/routing-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-routing
-retrieved_at: 2026-02-05T19:13:52.408Z
+retrieved_at: 2026-02-06T04:00:16.322Z
 content_sha256: 8005369d8fe2f045580ae46dc6b067d9fb54fb3cdd3148a583269e0557c9e91c
 ---

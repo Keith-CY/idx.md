@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/unifi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:39.421Z
+retrieved_at: 2026-02-06T04:01:52.323Z
 content_sha256: 59b21fecb91d469dc7d2dd0536a7d09713de3e8eb7ec666279fb7b70cb6997e5
 ---

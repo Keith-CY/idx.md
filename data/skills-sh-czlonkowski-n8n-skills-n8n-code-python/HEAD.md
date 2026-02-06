@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/main/skills/n8n-code-python/DATA_ACCESS.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-python
-retrieved_at: 2026-02-05T19:14:59.114Z
+retrieved_at: 2026-02-06T04:02:08.658Z
 content_sha256: a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/marketing-demand-acquisition/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:58.366Z
+retrieved_at: 2026-02-06T04:01:11.947Z
 content_sha256: 864582e41d7a0f24af0f1c0120d3492878448c8c4a1b296fa0e21fbd63d188fd
 ---

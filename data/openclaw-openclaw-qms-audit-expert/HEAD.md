@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/qms-audit-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:08.249Z
+retrieved_at: 2026-02-06T04:01:32.976Z
 content_sha256: 2cbc1e2b31afe9137fbe017dfcb36e5781aef6b84b52f4fd412f01ee6474282d
 ---

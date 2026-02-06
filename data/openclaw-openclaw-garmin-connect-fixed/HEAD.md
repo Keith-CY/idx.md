@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/godsboy/garmin-connect-fixed/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:57.510Z
+retrieved_at: 2026-02-06T04:00:57.587Z
 content_sha256: 01c29630248ee603552c5fb441bc048d09eec3f9eb5a87582e260c279bc14347
 ---

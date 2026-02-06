@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-recipes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.447Z
+retrieved_at: 2026-02-06T04:00:35.141Z
 content_sha256: a2da23f1ce096edf2a3ddb0a48396255806935e4e853c76207191f33d2d54e9c
 ---

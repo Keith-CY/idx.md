@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/guilh00009/clawdzap/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.997Z
+retrieved_at: 2026-02-06T04:00:40.970Z
 content_sha256: 9e7542ba886339860184fa1ed06edf0a7cb24365c48ca82721df87ee31bc699d
 ---

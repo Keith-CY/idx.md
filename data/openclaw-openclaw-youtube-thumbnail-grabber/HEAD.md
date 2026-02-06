@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-thumbnail-grabber/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:15:00.192Z
+retrieved_at: 2026-02-06T04:02:08.734Z
 content_sha256: 3f397a431d9c86869d7ae954c419a765da42a27d1c8b85f4e94b4d42d9ebb88e
 ---

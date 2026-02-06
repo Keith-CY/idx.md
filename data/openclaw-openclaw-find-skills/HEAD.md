@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jimliuxinghai/find-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:57.384Z
+retrieved_at: 2026-02-06T04:00:55.490Z
 content_sha256: 54b44dc9539df865fbb060f62fb062e8232e765852a0cf14c38301fe0c1eb264
 ---

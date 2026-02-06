@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/goplaces/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:57.706Z
+retrieved_at: 2026-02-06T04:01:01.201Z
 content_sha256: 65cc8f6cc76ab9b939e52c724d4cb1f7b2424c55444be599931e718e7f9bfee9
 ---

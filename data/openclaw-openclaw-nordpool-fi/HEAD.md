@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/nordpool-fi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:58.864Z
+retrieved_at: 2026-02-06T04:01:21.061Z
 content_sha256: 5dfba1d4f02f6344e67e8a2627ac6eca09c16f92b2cf10a702c7f7cc22df4bbd
 ---

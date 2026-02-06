@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/gifgrep/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:57.579Z
+retrieved_at: 2026-02-06T04:00:58.891Z
 content_sha256: 1cf64ee164ffffac317b7156d0c107cff8714abe4ae6438387cf27d4a513890c
 ---

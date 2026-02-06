@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/foontinz/linkdapi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:58.273Z
+retrieved_at: 2026-02-06T04:01:10.338Z
 content_sha256: 34a67b5284b62fe063d5f8a6e2d1e1e342eb3e12a97b7ed0c81149efef0b0cd7
 ---

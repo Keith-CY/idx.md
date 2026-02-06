@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/creative-design/draw-io/references/layout-guidelines.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/draw-io
-retrieved_at: 2026-02-05T19:13:53.736Z
+retrieved_at: 2026-02-06T04:00:22.279Z
 content_sha256: 501fbf61f47b08f578f39a03fcd655af7986277028dd92469a99ba835526d0d8
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-voicelive-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.085Z
+retrieved_at: 2026-02-06T04:00:31.879Z
 content_sha256: 05cd2c6a58ea45114a262f966fe9738015ca0f098857d097c0a4add49cce7169
 ---

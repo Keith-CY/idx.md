@@ -25,6 +25,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jezweb/claude-skills/main/skills/openai-responses/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/jezweb/claude-skills/openai-assistants
-retrieved_at: 2026-02-05T19:13:53.717Z
+retrieved_at: 2026-02-06T04:00:21.843Z
 content_sha256: df6af7b728865a1fdae77fd660f3fbfc1169243e12f31042b1230036e108fa20
 ---

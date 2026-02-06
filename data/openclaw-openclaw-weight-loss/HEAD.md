@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/weight-loss/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:45.589Z
+retrieved_at: 2026-02-06T04:01:57.112Z
 content_sha256: b73aa04daf760798c28ce7d41ef3cab6cb7741c6b5cff2fc2dd7798e2fbadf8b
 ---

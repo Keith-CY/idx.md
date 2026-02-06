@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oskarstark/paperless-ngx/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:59.138Z
+retrieved_at: 2026-02-06T04:01:26.170Z
 content_sha256: b19756e64af3855ee753a869165504f61e31f049e2aa9a549f2a1fee3f8d2971
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/marketing-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:58.372Z
+retrieved_at: 2026-02-06T04:01:12.065Z
 content_sha256: 27f1838f183c95938df215d17ddc784c0a8a07185882061774421c94a5b85f7e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pjtf93/cochesnet-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:56.524Z
+retrieved_at: 2026-02-06T04:00:42.701Z
 content_sha256: 64e6bdc8b9d78387791a92e378fef06c899df19175791d91f652565923c4b05e
 ---

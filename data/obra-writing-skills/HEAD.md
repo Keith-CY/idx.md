@@ -20,7 +20,7 @@ summary: >-
   documentation.**
 
   **Personal skills live in agent-specific directories (`~/.claude/skills` for
-  Claude Code, `~/.codex/skills` for Codex)**
+  Claude Code, `~/.agents/skills/` for Codex)**
 
   You write test cases (pressure scenarios with subagents), watch them fail
   (baseline behavior), write the skill (documentation), watch tests pass (agents
@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-retrieved_at: 2026-02-05T19:15:01.612Z
-content_sha256: 6ffe287552c1ca9c050e1226408282535611365264fa05a6da81ddc70729a37e
+retrieved_at: 2026-02-06T04:02:08.823Z
+content_sha256: d83a09d6a1c6976f6cc2f40addeae653a4a6eb5903097ebc365d90242e00e379
 ---

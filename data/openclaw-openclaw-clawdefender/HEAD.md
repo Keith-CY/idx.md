@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nukewire/clawdefender/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.886Z
+retrieved_at: 2026-02-06T04:00:40.559Z
 content_sha256: 64e2c06324cc8aaa93f6e04fdad07faf2dffb1fe3257afe78fd55c946a8088ff
 ---

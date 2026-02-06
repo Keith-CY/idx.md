@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucas-riverbi/salesforce-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:15.096Z
+retrieved_at: 2026-02-06T04:01:37.434Z
 content_sha256: c972f23013381434adb1622e7d075af81c673864a873ca40e5ea5ead80effc11
 ---

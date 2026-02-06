@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/perry-workspaces/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:59.198Z
+retrieved_at: 2026-02-06T04:01:27.164Z
 content_sha256: afabcd343b469e241331a96ad2acdff988248dce8abf3abc3f928bdc218f391b
 ---

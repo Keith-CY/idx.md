@@ -17,6 +17,6 @@ tags: []
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/zendesk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:57.135Z
+retrieved_at: 2026-02-06T04:02:08.564Z
 content_sha256: 54f9410a05f97b39ebf001a8589174fe3ca028c37fdfcd5856003eca920c5a1e
 ---

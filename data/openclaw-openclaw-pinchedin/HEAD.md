@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adamjsturrock/pinchedin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:14:00.646Z
+retrieved_at: 2026-02-06T04:01:28.035Z
 content_sha256: 51e4aaaac57111be82bd9d35d466c0d7f2f2fa0f05fa771dc58ac29b571ac65b
 ---

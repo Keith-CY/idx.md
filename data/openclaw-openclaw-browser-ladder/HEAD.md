@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ktpriyatham/browser-ladder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:55.459Z
+retrieved_at: 2026-02-06T04:00:35.370Z
 content_sha256: e7229a1f54e2954f1d35eb97d1898f28df65bb04c3b9cc151f1358bfd6380579
 ---

@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hashicorp/agent-skills/refs/heads/main/terraform/code-generation/skills/terraform-style-guide/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/hashicorp/agent-skills/refactor-module
-retrieved_at: 2026-02-05T19:13:53.724Z
+retrieved_at: 2026-02-06T04:00:22.035Z
 content_sha256: 013b0a81999aa173ce6982c1a376b8fe67c8021cf838e083cbe3e5dc217fca4e
 ---

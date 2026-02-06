@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/attio-crm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:54.989Z
+retrieved_at: 2026-02-06T04:00:30.618Z
 content_sha256: 53aa4eca1a98686fb8052127a297ca818fd34a97bdda0ac9d95ba1d3b0457994
 ---

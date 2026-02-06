@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jirispilka/apify-lead-generation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-05T19:13:54.790Z
+retrieved_at: 2026-02-06T04:00:28.929Z
 content_sha256: fa44f4782c8998ad2fae196d0942951e6dfb4caf0186cc57bd28390c5749b2f8
 ---
