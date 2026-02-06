@@ -52,4 +52,26 @@ describe("category index generation", () => {
     expect(uncategorized?.count).toBe(1);
     expect(uncategorized?.content.includes("|/data/gamma|")).toBe(true);
   });
+
+  test("deduplicates duplicate topics within a category using the latest entry", () => {
+    const entries = [
+      {
+        topic: "alpha",
+        headContent: ["---", "title: Alpha v1", "---", ""].join("\n"),
+        categories: ["coding-agents-ides"],
+      },
+      {
+        topic: "alpha",
+        headContent: ["---", "title: Alpha v2", "---", ""].join("\n"),
+        categories: ["coding-agents-ides"],
+      },
+    ] as const;
+
+    const output = buildCategoryIndexes(entries);
+    const coding = output.pages.find((page) => page.slug === "coding-agents-ides");
+    expect(coding).toBeDefined();
+    expect(coding?.count).toBe(1);
+    expect(coding?.content.includes("title: Alpha v2")).toBe(true);
+    expect(coding?.content.includes("title: Alpha v1")).toBe(false);
+  });
 });

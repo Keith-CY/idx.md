@@ -147,27 +147,32 @@ export function formatUnknownCategoryReason(unknownSlugs: readonly string[]): st
 export function buildCategoryIndexes(
   entries: readonly CategoryIndexEntry[],
 ): CategoryBuildOutput {
-  const grouped = new Map<string, Map<string, CategoryIndexEntry>>();
+  const grouped = new Map<string, CategoryIndexEntry[]>();
 
   for (const entry of entries) {
     for (const categorySlug of entry.categories) {
-      let byTopic = grouped.get(categorySlug);
-      if (!byTopic) {
-        byTopic = new Map();
-        grouped.set(categorySlug, byTopic);
+      const categoryEntries = grouped.get(categorySlug);
+      if (categoryEntries) {
+        categoryEntries.push(entry);
+      } else {
+        grouped.set(categorySlug, [entry]);
       }
-      byTopic.set(entry.topic, entry);
     }
   }
 
   const pages: CategoryPage[] = [...grouped.entries()]
-    .map(([slug, byTopic]) => {
-      const entrySections = [...byTopic.values()]
-        .sort((a, b) => a.topic.localeCompare(b.topic))
+    .map(([slug, categoryEntries]) => {
+      const entriesByTopic = new Map<string, CategoryIndexEntry>(
+        categoryEntries.map((entry) => [entry.topic, entry]),
+      );
+      const uniqueEntries = [...entriesByTopic.values()].sort((a, b) =>
+        a.topic.localeCompare(b.topic),
+      );
+      const entrySections = uniqueEntries
         .map((entry) => formatIndexEntry(entry.topic, entry.headContent).trimEnd())
         .join("\n\n");
       const title = categoryTitle(slug);
-      const count = byTopic.size;
+      const count = uniqueEntries.length;
       const content = [
         `# Category: ${title}`,
         "",
