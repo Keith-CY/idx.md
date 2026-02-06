@@ -93,6 +93,14 @@ const CATEGORY_ALIASES = new Map<string, string>([
   ["productivity", "productivity-tasks"],
 ]);
 
+for (const [alias, slug] of CATEGORY_ALIASES) {
+  if (!CATEGORY_SLUGS.has(slug)) {
+    throw new Error(
+      `Category alias "${alias}" points to unknown category slug "${slug}"`,
+    );
+  }
+}
+
 function normalizeTag(tag: string): string {
   return tag.trim().toLowerCase();
 }
