@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/voice-wake-say/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:10.986Z
+retrieved_at: 2026-02-06T05:31:15.038Z
 content_sha256: 76b1d998eecc02ecd17262264483bf07f3be93573e696e447a97a571d1fd5e5f
 ---

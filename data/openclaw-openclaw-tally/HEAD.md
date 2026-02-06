@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/tally/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:04.957Z
+retrieved_at: 2026-02-06T05:31:08.665Z
 content_sha256: 4466663a89dbc0700a9ad85c36190a55ac1353bed93e014be074bf4aaa59ff13
 ---

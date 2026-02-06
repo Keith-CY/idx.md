@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mordka/githunt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:30.048Z
+retrieved_at: 2026-02-06T05:30:32.375Z
 content_sha256: a26bc4299eb57d15d6783ca862ac61c952fbc6e3924d6a75c52fd257567175f4
 ---

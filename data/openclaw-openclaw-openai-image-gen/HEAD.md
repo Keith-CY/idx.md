@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openai-image-gen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:48.566Z
+retrieved_at: 2026-02-06T05:30:49.712Z
 content_sha256: 10e0537c59f71511225e6abeb947837d16ef2b90dfe005595309989153c4d2b9
 ---

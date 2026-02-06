@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/infantlab/god-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:30.696Z
+retrieved_at: 2026-02-06T05:30:32.921Z
 content_sha256: 2c3a37320939e3e9be7a800980c959f30f7f20ec10d3d29c8912f8fb96d78dc2
 ---

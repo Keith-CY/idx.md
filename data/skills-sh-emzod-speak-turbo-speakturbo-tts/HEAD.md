@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/emzod/speak-turbo/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/emzod/speak-turbo/speakturbo-tts
-retrieved_at: 2026-02-06T04:51:16.752Z
+retrieved_at: 2026-02-06T05:31:20.816Z
 content_sha256: 985084c37b43556cfb7adb3da95b9b4c6237230b6fb85dc9c8d99c9a82d887d5
 ---

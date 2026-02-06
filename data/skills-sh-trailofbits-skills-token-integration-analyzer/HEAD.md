@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/main/plugins/building-secure-contracts/skills/token-integration-analyzer/resources/ASSESSMENT_CATEGORIES.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/token-integration-analyzer
-retrieved_at: 2026-02-06T04:49:53.887Z
+retrieved_at: 2026-02-06T05:30:01.617Z
 content_sha256: bf1313e59c960688cc73bda5b7a98579336a277c521b9b37937aa1cda3a122a7
 ---

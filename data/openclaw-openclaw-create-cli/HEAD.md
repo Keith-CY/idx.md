@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/create-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:18.742Z
+retrieved_at: 2026-02-06T05:30:22.053Z
 content_sha256: ec6f1d4211d4f5bd5d1a1fbcff341f42f207220c225c7ae78b0d7c6d02990738
 ---

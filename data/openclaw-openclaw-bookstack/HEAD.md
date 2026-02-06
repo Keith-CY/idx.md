@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/bookstack/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:07.346Z
+retrieved_at: 2026-02-06T05:30:13.574Z
 content_sha256: 8ea0071552c65ac1ce25f97a13eb7e993439e4a62d8552cfc8621fe9eeb62669
 ---

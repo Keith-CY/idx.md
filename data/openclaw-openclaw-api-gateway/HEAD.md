@@ -24,6 +24,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byungkyu/api-gateway/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:02.732Z
-content_sha256: d266956cf47b58630947c120119fc484a61a80bac1da53a38803884bb85fc550
+retrieved_at: 2026-02-06T05:30:09.016Z
+content_sha256: 233dd6301f7fcf5929a5594a0e060fc8102ce722452fdbed95e5c9159dd698fb
 ---

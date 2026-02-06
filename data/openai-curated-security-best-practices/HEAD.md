@@ -41,6 +41,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-best-practices/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md
-retrieved_at: 2026-02-06T04:49:47.699Z
+retrieved_at: 2026-02-06T05:29:57.916Z
 content_sha256: 7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f
 ---

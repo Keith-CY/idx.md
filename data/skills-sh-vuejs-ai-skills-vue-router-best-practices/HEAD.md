@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/main/skills/vue-router-best-practices/reference/router-beforeenter-no-param-trigger.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-router-best-practices
-retrieved_at: 2026-02-06T04:49:51.380Z
+retrieved_at: 2026-02-06T05:30:00.081Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---

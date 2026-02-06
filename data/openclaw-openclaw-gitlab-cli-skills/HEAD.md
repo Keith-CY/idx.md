@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vince-winkintel/gitlab-cli-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:30.153Z
+retrieved_at: 2026-02-06T05:30:32.456Z
 content_sha256: ff4b9f66b6541bce06f2bf35b1a4d6ced6602f77cff36c653663b717869b45f0
 ---

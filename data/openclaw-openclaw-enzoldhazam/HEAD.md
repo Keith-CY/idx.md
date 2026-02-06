@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daniel-laszlo/enzoldhazam/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:24.320Z
+retrieved_at: 2026-02-06T05:30:26.852Z
 content_sha256: b397ebde9d70e0f1cfd0a692c204527e764ff5d3c46ba45b382d2118a789d9cf
 ---

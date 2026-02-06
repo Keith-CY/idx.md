@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/azade-c/bearblog/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:06.037Z
+retrieved_at: 2026-02-06T05:30:12.349Z
 content_sha256: 2844e35d72d206f2e728ea29ff27306af83f17d01a5d54d8dfb081a34c0a64dc
 ---

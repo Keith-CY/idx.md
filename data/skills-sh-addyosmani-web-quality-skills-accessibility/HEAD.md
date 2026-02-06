@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/main/skills/web-quality-audit/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/addyosmani/web-quality-skills/accessibility
-retrieved_at: 2026-02-06T04:49:53.091Z
+retrieved_at: 2026-02-06T05:30:01.137Z
 content_sha256: aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01
 ---

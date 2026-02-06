@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/curl-http/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:19.529Z
+retrieved_at: 2026-02-06T05:30:22.655Z
 content_sha256: be6d626cfcbdbc5280fc23f73bc5dcd43db1297c7e9c5a095ac9c12fc39b0e5f
 ---

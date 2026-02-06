@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/multiposting/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:45.466Z
+retrieved_at: 2026-02-06T05:30:46.309Z
 content_sha256: a5f0eefdaf584d846957943e09c4ac6ac37361ee83197568458de19a92d767c9
 ---

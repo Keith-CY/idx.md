@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dktrn9ne/fivem/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:27.057Z
+retrieved_at: 2026-02-06T05:30:29.534Z
 content_sha256: 0386ff5c744cd48f3d1705318166e5383cddc917c0ac4ca8ea756c6ef05051d3
 ---

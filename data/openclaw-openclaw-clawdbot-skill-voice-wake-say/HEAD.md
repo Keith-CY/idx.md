@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/clawdbot-skill-voice-wake-say/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:13.568Z
+retrieved_at: 2026-02-06T05:30:17.904Z
 content_sha256: 9c1d9f10369cf44d895020e4419ef6af2b8bc14d3711889566f3f3994db8bbd6
 ---

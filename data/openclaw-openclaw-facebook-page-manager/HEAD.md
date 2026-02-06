@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/longmaba/facebook-page-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:25.429Z
+retrieved_at: 2026-02-06T05:30:27.837Z
 content_sha256: 38f29dc7eea04935f667709a1f654b267dce9800791604fa94a8d9bce772f6eb
 ---

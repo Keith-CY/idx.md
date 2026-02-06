@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/language-learning/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:38.384Z
+retrieved_at: 2026-02-06T05:30:40.021Z
 content_sha256: bb9b988f3423308577acf60cbd22b7e734f64ba6960b96f0b36fce426f160fed
 ---

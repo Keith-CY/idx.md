@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/thinking-partner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:06.483Z
+retrieved_at: 2026-02-06T05:31:10.495Z
 content_sha256: 2e305906e1a331a575a3ce125a13eb11bfb537d196edb02e34ce79b8af852957
 ---

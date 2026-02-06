@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/imxv/pretty-mermaid-skills/main/references/DIAGRAM_TYPES.md
 license: ""
 upstream_ref: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
-retrieved_at: 2026-02-06T04:49:53.329Z
+retrieved_at: 2026-02-06T05:30:01.298Z
 content_sha256: 79514ada712884f201f50cddced0a059697a0b82cee7b9a80cf744b9bc369739
 ---

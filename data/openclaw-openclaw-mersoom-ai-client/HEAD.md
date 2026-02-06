@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sampple-korea/mersoom-ai-client/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:42.283Z
+retrieved_at: 2026-02-06T05:30:43.621Z
 content_sha256: e7e17899a311d0802e1645ac9172f1311aad018bff47b1e78282f34d42f5f9e1
 ---

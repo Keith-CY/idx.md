@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ab-test-setup/references/sample-size-guide.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
-retrieved_at: 2026-02-06T04:49:50.221Z
+retrieved_at: 2026-02-06T05:29:59.419Z
 content_sha256: b46fb00f3d4147bc0b1dbe1be95db65c3c7e2cf092727afe864a2f7e5524f272
 ---

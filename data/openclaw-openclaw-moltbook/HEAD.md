@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mattprd/moltbook/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:43.647Z
+retrieved_at: 2026-02-06T05:30:44.793Z
 content_sha256: bdd5356c77c8391476014934b5c3719185264ffd0c64193d76929bdcd560575a
 ---

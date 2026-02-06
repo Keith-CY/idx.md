@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/mcporter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:41.125Z
+retrieved_at: 2026-02-06T05:30:42.710Z
 content_sha256: 475253164a0cca240679819497abd35bcd708162ab0f399990468d94d55a6d15
 ---

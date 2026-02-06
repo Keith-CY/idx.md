@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jgramajo4/camelcamelcamel-alerts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:50:08.935Z
+retrieved_at: 2026-02-06T05:30:15.084Z
 content_sha256: b4aeab490f08e709bc29474743129544dcb1828904e5112a19fbe617e9efe767
 ---

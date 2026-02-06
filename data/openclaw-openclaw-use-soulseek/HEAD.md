@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/svidovich/use-soulseek/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T04:51:09.530Z
+retrieved_at: 2026-02-06T05:31:13.591Z
 content_sha256: 374492cdf729be4d27e96aa0d026be06f6fc0aa6f9251be8a09a592119ec8258
 ---
