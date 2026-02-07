@@ -28,6 +28,8 @@ jobs:
         run: bun sites/pages/ingest-awesome-claude.ts
       - name: Build data
         run: bun sites/pages/build.ts
+      - name: Validate data
+        run: bun run validate
       - name: Upload rejected report
         if: ${{ always() }}
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
@@ -44,6 +46,11 @@ jobs:
           title: "chore: update awesome claude sources"
           body: |
             Automated update of awesome-claude markdown sources with frontmatter.
+
+            Generator:
+            - Script: `sites/pages/ingest-awesome-claude.ts`
+            - Repo SHA: `${{ github.sha }}`
+            - Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           branch: automation/awesome-claude-ingest
           delete-branch: true
           add-paths: |
