@@ -111,25 +111,66 @@ bun test sites/pages/tests/data-layout.test.ts
 - Modify: `sites/pages/tests/categories.test.ts`
 - Modify: `sites/pages/tests/category-build.test.ts` (if output behavior changes)
 
-## PR Description Template (Recommended)
+## PR Description Template (Strict, Required for Agent-Authored PRs)
 
 ```md
 ## Summary
 - <what changed>
+- Scope: <ingest|category|workflow|data-only>
+
+## Change Surface
+- Files touched:
+  - `sources/...`
+  - `sites/pages/...`
+  - `.github/workflows/...`
+  - `data/...` (if committed)
+- Why each touched area is required:
+  - <one line per area>
 
 ## Category Handling
 - [ ] Existing category tags used
 - [ ] New category/alias added (if needed)
 - [ ] No unknown category warnings introduced
+- Affected category slugs:
+  - <slug-1>
+  - <slug-2>
+- Generated category outputs checked:
+  - [ ] `data/category/index.md`
+  - [ ] `data/category/<slug>/index.md` (for each affected slug)
 
 ## Validation
 - [ ] `bun run validate`
 - [ ] `bun test sites/pages/tests/pages-workflow.test.ts`
 - [ ] Category tests (if category logic changed)
+- Command evidence:
+  - `bun run validate` -> <pass/fail + key output line>
+  - `bun test sites/pages/tests/pages-workflow.test.ts` -> <N pass, 0 fail>
+  - Category tests -> <N pass, 0 fail or N/A>
 
 ## Workflow Hygiene (if ingest workflow changed)
 - [ ] `Validate data` step exists right after ingest
 - [ ] PR body includes Generator metadata (script, SHA, run URL)
+- Workflow files checked:
+  - `.github/workflows/<source>-ingest.yml`
+- `create-pull-request` body includes:
+  - [ ] Script path
+  - [ ] `${{ github.sha }}`
+  - [ ] `https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}`
+
+## Risk & Rollback
+- Risk level: <low|medium|high>
+- Primary risk:
+  - <single sentence>
+- Rollback plan:
+  - Revert commit: `<sha>`
+  - Restore affected files:
+    - <file path list>
+
+## Reviewer Quick Checks
+- [ ] Category handling is explicit and complete
+- [ ] Validation evidence is present and credible
+- [ ] Workflow changes follow PR #34 hygiene
+- [ ] No unrelated file changes
 ```
 
 ## Definition of Done
