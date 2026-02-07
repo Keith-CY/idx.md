@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/madteacher/mad-agents-skills/HEAD/flutter-adaptive-ui/references/layout-constraints.md
 license: ""
 upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-adaptive-ui
-retrieved_at: 2026-02-07T06:47:44.871Z
+retrieved_at: 2026-02-07T14:59:36.331Z
 content_sha256: 9928601ce17722835ee548fb4369b87860b037fe187b65f7048da7c927b19c52
 ---

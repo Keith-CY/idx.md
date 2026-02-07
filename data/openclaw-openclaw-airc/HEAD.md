@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vortitron/airc/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:46.587Z
+retrieved_at: 2026-02-07T14:59:37.576Z
 content_sha256: e2dba3f1521fea51a61bd870006afd7be4b4278ce2493a41f38bc1a4cdfdafa1
 ---

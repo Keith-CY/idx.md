@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-browser-clawdbot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:46.089Z
+retrieved_at: 2026-02-07T14:59:36.676Z
 content_sha256: 9643b9c65476eedd5ab353956c31a4d4ce9ad225f9a786d23376a43893f59979
 ---

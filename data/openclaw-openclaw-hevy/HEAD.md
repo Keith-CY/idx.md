@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/hevy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:53.333Z
+retrieved_at: 2026-02-07T14:59:59.221Z
 content_sha256: bb0beb3ae533db3ba072c1f8b91f26dc8acfddd140e57bbaa455865c8fc34064
 ---

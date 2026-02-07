@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesash/prompt-log/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:02.453Z
+retrieved_at: 2026-02-07T15:00:17.904Z
 content_sha256: 25a885654d90c24425a1ec7f85007f81ead428a7308157fe2b80a1eeea0b3fa2
 ---

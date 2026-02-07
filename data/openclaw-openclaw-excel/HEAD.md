@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/excel/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:51.490Z
+retrieved_at: 2026-02-07T14:59:53.320Z
 content_sha256: d4c553506f364a71bc54c2ccc1e13c4b3f619fb806f8753da3254fde2c95b0d6
 ---

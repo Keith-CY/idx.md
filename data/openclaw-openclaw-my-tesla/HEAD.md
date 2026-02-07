@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/officialpm/my-tesla/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:56.251Z
+retrieved_at: 2026-02-07T15:00:09.216Z
 content_sha256: 9d862b0c7506d65cba96dde320b1e07083c991859adec9de20cb845285a5a5b5
 ---

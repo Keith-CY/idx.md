@@ -175,36 +175,48 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Calendly | `calendly` | `api.calendly.com` |
 | Chargebee | `chargebee` | `{subdomain}.chargebee.com` |
 | ClickUp | `clickup` | `api.clickup.com` |
+| Constant Contact | `constant-contact` | `api.cc.email` |
+| Eventbrite | `eventbrite` | `www.eventbriteapi.com` |
 | Fathom | `fathom` | `api.fathom.ai` |
 | GitHub | `github` | `api.github.com` |
 | Google Ads | `google-ads` | `googleads.googleapis.com` |
 | Google Analytics Admin | `google-analytics-admin` | `analyticsadmin.googleapis.com` |
 | Google Analytics Data | `google-analytics-data` | `analyticsdata.googleapis.com` |
 | Google Calendar | `google-calendar` | `www.googleapis.com` |
+| Google Contacts | `google-contacts` | `people.googleapis.com` |
 | Google Docs | `google-docs` | `docs.googleapis.com` |
 | Google Drive | `google-drive` | `www.googleapis.com` |
 | Google Forms | `google-forms` | `forms.googleapis.com` |
 | Gmail | `google-mail` | `gmail.googleapis.com` |
+| Google Merchant | `google-merchant` | `merchantapi.googleapis.com` |
 | Google Meet | `google-meet` | `meet.googleapis.com` |
 | Google Play | `google-play` | `androidpublisher.googleapis.com` |
 | Google Search Console | `google-search-console` | `www.googleapis.com` |
 | Google Sheets | `google-sheets` | `sheets.googleapis.com` |
 | Google Slides | `google-slides` | `slides.googleapis.com` |
+| Google Tasks | `google-tasks` | `tasks.googleapis.com` |
 | Google Workspace Admin | `google-workspace-admin` | `admin.googleapis.com` |
 | HubSpot | `hubspot` | `api.hubapi.com` |
 | Jira | `jira` | `api.atlassian.com` |
+| Jobber | `jobber` | `api.getjobber.com` |
 | JotForm | `jotform` | `api.jotform.com` |
+| Kit | `kit` | `api.kit.com` |
 | Klaviyo | `klaviyo` | `a.klaviyo.com` |
 | Linear | `linear` | `api.linear.app` |
+| LinkedIn | `linkedin` | `api.linkedin.com` |
 | Mailchimp | `mailchimp` | `{dc}.api.mailchimp.com` |
+| Microsoft Excel | `microsoft-excel` | `graph.microsoft.com` |
 | Monday.com | `monday` | `api.monday.com` |
 | Notion | `notion` | `api.notion.com` |
+| OneDrive | `one-drive` | `graph.microsoft.com` |
 | Outlook | `outlook` | `graph.microsoft.com` |
 | Pipedrive | `pipedrive` | `api.pipedrive.com` |
 | QuickBooks | `quickbooks` | `quickbooks.api.intuit.com` |
 | Salesforce | `salesforce` | `{instance}.salesforce.com` |
 | Slack | `slack` | `slack.com` |
+| Square | `squareup` | `connect.squareup.com` |
 | Stripe | `stripe` | `api.stripe.com` |
+| TickTick | `ticktick` | `api.ticktick.com` |
 | Todoist | `todoist` | `api.todoist.com` |
 | Trello | `trello` | `api.trello.com` |
 | Typeform | `typeform` | `api.typeform.com` |
@@ -230,36 +242,48 @@ See [references/](references/) for detailed routing guides per provider:
 - [Calendly](references/calendly.md) - Event types, scheduled events, availability, webhooks
 - [Chargebee](references/chargebee.md) - Subscriptions, customers, invoices
 - [ClickUp](references/clickup.md) - Tasks, lists, folders, spaces, webhooks
+- [Constant Contact](references/constant-contact.md) - Contacts, email campaigns, lists, segments
+- [Eventbrite](references/eventbrite.md) - Events, venues, tickets, orders, attendees
 - [Fathom](references/fathom.md) - Meeting recordings, transcripts, summaries, webhooks
 - [GitHub](references/github.md) - Repositories, issues, pull requests, commits
 - [Google Ads](references/google-ads.md) - Campaigns, ad groups, GAQL queries
 - [Google Analytics Admin](references/google-analytics-admin.md) - Reports, dimensions, metrics
 - [Google Analytics Data](references/google-analytics-data.md) - Reports, dimensions, metrics
 - [Google Calendar](references/google-calendar.md) - Events, calendars, free/busy
+- [Google Contacts](references/google-contacts.md) - Contacts, contact groups, people search
 - [Google Docs](references/google-docs.md) - Document creation, batch updates
 - [Google Drive](references/google-drive.md) - Files, folders, permissions
 - [Google Forms](references/google-forms.md) - Forms, questions, responses
 - [Gmail](references/google-mail.md) - Messages, threads, labels
 - [Google Meet](references/google-meet.md) - Spaces, conference records, participants
+- [Google Merchant](references/google-merchant.md) - Products, inventories, promotions, reports
 - [Google Play](references/google-play.md) - In-app products, subscriptions, reviews
 - [Google Search Console](references/google-search-console.md) - Search analytics, sitemaps
 - [Google Sheets](references/google-sheets.md) - Values, ranges, formatting
 - [Google Slides](references/google-slides.md) - Presentations, slides, formatting
+- [Google Tasks](references/google-tasks.md) - Task lists, tasks, subtasks
 - [Google Workspace Admin](references/google-workspace-admin.md) - Users, groups, org units, domains, roles
 - [HubSpot](references/hubspot.md) - Contacts, companies, deals
 - [Jira](references/jira.md) - Issues, projects, JQL queries
+- [Jobber](references/jobber.md) - Clients, jobs, invoices, quotes (GraphQL)
 - [JotForm](references/jotform.md) - Forms, submissions, webhooks
+- [Kit](references/kit.md) - Subscribers, tags, forms, sequences, broadcasts
 - [Klaviyo](references/klaviyo.md) - Profiles, lists, campaigns, flows, events
 - [Linear](references/linear.md) - Issues, projects, teams, cycles (GraphQL)
+- [LinkedIn](references/linkedin.md) - Profile, posts, shares, media uploads
 - [Mailchimp](references/mailchimp.md) - Audiences, campaigns, templates, automations
+- [Microsoft Excel](references/microsoft-excel.md) - Workbooks, worksheets, ranges, tables, charts
 - [Monday.com](references/monday.md) - Boards, items, columns, groups (GraphQL)
 - [Notion](references/notion.md) - Pages, databases, blocks
+- [OneDrive](references/one-drive.md) - Files, folders, drives, sharing
 - [Outlook](references/outlook.md) - Mail, calendar, contacts
 - [Pipedrive](references/pipedrive.md) - Deals, persons, organizations, activities
 - [QuickBooks](references/quickbooks.md) - Customers, invoices, reports
 - [Salesforce](references/salesforce.md) - SOQL, sObjects, CRUD
 - [Slack](references/slack.md) - Messages, channels, users
+- [Square](references/squareup.md) - Payments, customers, orders, catalog, inventory, invoices
 - [Stripe](references/stripe.md) - Customers, subscriptions, payments
+- [TickTick](references/ticktick.md) - Tasks, projects, task lists
 - [Todoist](references/todoist.md) - Tasks, projects, sections, labels, comments
 - [Trello](references/trello.md) - Boards, lists, cards, checklists
 - [Typeform](references/typeform.md) - Forms, responses, insights

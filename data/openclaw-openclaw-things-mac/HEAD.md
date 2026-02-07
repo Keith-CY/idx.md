@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/things-mac/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:21.526Z
+retrieved_at: 2026-02-07T15:00:29.060Z
 content_sha256: c5cd40a9d8180fc220d7fd0f0372612ac00f92174677bdb0c47e3fd2f0bd9307
 ---

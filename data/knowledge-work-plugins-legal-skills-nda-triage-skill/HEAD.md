@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/nda-triage/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/nda-triage/SKILL.md
-retrieved_at: 2026-02-07T06:48:41.292Z
+retrieved_at: 2026-02-07T15:00:41.651Z
 content_sha256: 01c4636b30c6f6f0ae06f0a8bdb504a8a7b0a0763836deada48ea705a63e0710
 ---

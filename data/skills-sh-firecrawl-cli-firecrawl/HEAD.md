@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-cli/rules/install.md
 license: ""
 upstream_ref: https://skills.sh/firecrawl/cli/firecrawl
-retrieved_at: 2026-02-07T06:47:34.321Z
+retrieved_at: 2026-02-07T14:59:35.066Z
 content_sha256: 3630af5db9d137777fd8a6939aa0fe707aebf3f3a6e46276688621c061d9794c
 ---

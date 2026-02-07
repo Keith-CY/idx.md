@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fossilizedcarlos/krea-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:54.535Z
+retrieved_at: 2026-02-07T15:00:03.469Z
 content_sha256: 8c49aa4fd3787239483a41a76d11b615f6ce3ff2b298a23ff42c0ce3c5c34ae8
 ---

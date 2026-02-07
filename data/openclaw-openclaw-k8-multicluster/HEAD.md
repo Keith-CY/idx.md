@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8-multicluster/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:54.322Z
+retrieved_at: 2026-02-07T15:00:02.692Z
 content_sha256: 53986b956a528f934cda13475609985d74946bc67b32b08df411a45442d3cc44
 ---

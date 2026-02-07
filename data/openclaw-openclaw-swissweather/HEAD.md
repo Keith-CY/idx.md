@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swissweather/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:18.784Z
+retrieved_at: 2026-02-07T15:00:27.425Z
 content_sha256: aef28aca51ff51860cf265375d3d05a1a6593831a6cba283b230026c31a28ea3
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/koba42corp/i-responder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:53.603Z
+retrieved_at: 2026-02-07T14:59:59.984Z
 content_sha256: ec2af0ae3d37441e86bb106729a2569085a164bed5203ef745f6ad3a6ffe18ca
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hjanuschka/wienerlinien/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:30.946Z
+retrieved_at: 2026-02-07T15:00:34.675Z
 content_sha256: a114522c23fa5553440c44f30791045fc73b64af2bc646b96ef1282bcb0d41f2
 ---

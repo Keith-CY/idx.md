@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/testing-handbook-skills/skills/testing-handbook-generator/discovery.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/testing-handbook-generator
-retrieved_at: 2026-02-07T06:47:40.969Z
+retrieved_at: 2026-02-07T14:59:35.869Z
 content_sha256: 57520f2425e8fe344a49e410b6e62858baffbe60d6653061ccd191e20a0f1433
 ---

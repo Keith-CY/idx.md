@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leonardogrig/firecrawl-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:51.931Z
+retrieved_at: 2026-02-07T14:59:54.838Z
 content_sha256: e9f95472ea84d499add1366216d5f0ac362d3f7452b44bfa78d5698d2b8da48c
 ---

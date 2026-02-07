@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asleep123/bitwarden/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:47.866Z
+retrieved_at: 2026-02-07T14:59:41.706Z
 content_sha256: 407aa8f629c3429e5d09617acd30df974079fdfb2f475d2c2201ca6af3d3804b
 ---

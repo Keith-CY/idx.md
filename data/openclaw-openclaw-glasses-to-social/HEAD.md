@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/junebugg1214/glasses-to-social/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:52.749Z
+retrieved_at: 2026-02-07T14:59:57.442Z
 content_sha256: 5c8b080fac5289214bede2784ee7ecd954bcfc97cf047286c82a6c5a5591020e
 ---

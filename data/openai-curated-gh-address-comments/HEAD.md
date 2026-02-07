@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-address-comments/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
-retrieved_at: 2026-02-07T06:47:30.772Z
+retrieved_at: 2026-02-07T14:59:34.443Z
 content_sha256: 77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd
 ---

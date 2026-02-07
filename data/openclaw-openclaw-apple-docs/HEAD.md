@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/apple-docs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:46.988Z
+retrieved_at: 2026-02-07T14:59:38.789Z
 content_sha256: ca591367aa8a72334efb50455b870c13fc8afbd28d6a2dafdf74a0637e57a93b
 ---

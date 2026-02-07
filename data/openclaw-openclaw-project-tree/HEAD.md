@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lachlanglasgow/project-tree/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:02.133Z
+retrieved_at: 2026-02-07T15:00:17.755Z
 content_sha256: b358a44ad83aee4aa1d03c8b31c4b22443b75e6d2f5d2bbd354e35c175fc209c
 ---

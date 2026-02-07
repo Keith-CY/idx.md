@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/tsdown/references/guide-getting-started.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/tsdown
-retrieved_at: 2026-02-07T06:47:34.090Z
+retrieved_at: 2026-02-07T14:59:35.041Z
 content_sha256: 3d9f7e531b08b560cf44bf2d0ed6568394a3b9cde2641768918ea8179ad98091
 ---

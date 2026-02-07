@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/minimax-usage/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:55.601Z
+retrieved_at: 2026-02-07T15:00:07.088Z
 content_sha256: 354b61bfa69f71296a270a22176d6716c15bc7e5c6bf770dfeee6a08bd7da2ed
 ---

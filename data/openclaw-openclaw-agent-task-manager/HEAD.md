@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dobbybud/agent-task-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:46.322Z
+retrieved_at: 2026-02-07T14:59:36.853Z
 content_sha256: 21f6a86078f97ab51aeb665bdf8e465833077256d66f612534e2ab73fb8bb41c
 ---

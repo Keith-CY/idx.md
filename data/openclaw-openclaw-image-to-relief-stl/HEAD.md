@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/image-to-relief-stl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:53.680Z
+retrieved_at: 2026-02-07T15:00:00.283Z
 content_sha256: 076292d5384d26ab594e79fd3bf0f584d0d92f5c0808ad9ca017f1924038acf2
 ---

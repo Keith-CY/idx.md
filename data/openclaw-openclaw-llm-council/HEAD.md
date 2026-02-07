@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/llm-council/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:54.831Z
+retrieved_at: 2026-02-07T15:00:04.445Z
 content_sha256: 7ed82073a647bd76574acfc9e1ad7ae577f5e4f9776d67dc6bacc393bd2f6151
 ---

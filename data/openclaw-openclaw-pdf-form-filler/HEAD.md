@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/raulsimpetru/pdf-form-filler/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:57.780Z
+retrieved_at: 2026-02-07T15:00:14.494Z
 content_sha256: e4585defbc2d3a94b02cb254a6d197d378c992deff6ae979a8504f6ee6c68702
 ---

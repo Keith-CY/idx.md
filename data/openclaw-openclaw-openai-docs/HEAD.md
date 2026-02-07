@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/openai-docs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:57.060Z
+retrieved_at: 2026-02-07T15:00:11.897Z
 content_sha256: dc13e2de3141851576c4b18f2e59d1428ac6ec2ed1cc0bfcc93e3f9c9b283039
 ---

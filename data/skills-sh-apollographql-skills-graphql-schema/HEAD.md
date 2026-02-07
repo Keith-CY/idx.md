@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/graphql-schema/references/types.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/graphql-schema
-retrieved_at: 2026-02-07T06:47:41.893Z
+retrieved_at: 2026-02-07T14:59:36.013Z
 content_sha256: 7dab0e654365865feeb43547cb758a74d69a395ec4e2c755c28a2f97cc7c1e5d
 ---

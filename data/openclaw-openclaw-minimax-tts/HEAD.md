@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/doobidoo/minimax-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:55.590Z
+retrieved_at: 2026-02-07T15:00:07.037Z
 content_sha256: c09b49a6c91906491a311163610b0a04574eabc5ee1740430840170ccd2385be
 ---

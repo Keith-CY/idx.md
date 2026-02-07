@@ -27,6 +27,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmogremlin/voice-ai-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:27.919Z
+retrieved_at: 2026-02-07T15:00:32.879Z
 content_sha256: a2b27063d620114c11ebb173346a94e68dda71b3488da32522c5985c17410b69
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/plgonzalezrx8/agent-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:46.099Z
+retrieved_at: 2026-02-07T14:59:36.684Z
 content_sha256: 92794b52a1c362f2c1f9ed492485eaffc49824000aec4543aa6f9110c854287b
 ---

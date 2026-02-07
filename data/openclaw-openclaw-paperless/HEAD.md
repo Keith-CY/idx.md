@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickchristensen/paperless/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:57.645Z
+retrieved_at: 2026-02-07T15:00:14.055Z
 content_sha256: 46bcda35cad3f7c298864f530788ed5e15b564578515c777733716441a090c8f
 ---

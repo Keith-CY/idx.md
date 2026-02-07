@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resend/react-email/HEAD/skills/react-email/references/COMPONENTS.md
 license: ""
 upstream_ref: https://skills.sh/resend/react-email/react-email
-retrieved_at: 2026-02-07T06:47:34.693Z
+retrieved_at: 2026-02-07T14:59:35.105Z
 content_sha256: cb169f1ec7b73363d6fdc609de53c1a42e6743839830d6d81dd4bf44db53ea0b
 ---

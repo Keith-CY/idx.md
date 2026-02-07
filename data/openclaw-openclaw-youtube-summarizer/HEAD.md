@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abe238/youtube-summarizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:34.595Z
+retrieved_at: 2026-02-07T15:00:37.019Z
 content_sha256: 84e4b66cf730c6e60086b25ecec187a35d44761b2837aa636d7ac200c1f39ded
 ---

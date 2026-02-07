@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/ux-researcher-designer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:26.153Z
+retrieved_at: 2026-02-07T15:00:31.869Z
 content_sha256: 43a66a9c16833ecad8ca6a41ba4c8eeb50a758cc2571d43853651d524cddd723
 ---

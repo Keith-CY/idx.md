@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/content-writing-thought-leadership/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:49.914Z
+retrieved_at: 2026-02-07T14:59:48.228Z
 content_sha256: 5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd
 ---

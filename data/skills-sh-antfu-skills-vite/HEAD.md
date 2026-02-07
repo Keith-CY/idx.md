@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vite
-retrieved_at: 2026-02-07T06:47:33.202Z
+retrieved_at: 2026-02-07T14:59:34.929Z
 content_sha256: d207a85730c32eff47e343ea69644a6c7898af251098a60255efe8f1c922fb4b
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okikesolutions/plan2meal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:47:58.765Z
+retrieved_at: 2026-02-07T15:00:15.791Z
 content_sha256: caee1ce175ff8c72f7b031345a951889518f3f8ff07c00989e59d81c0d236c31
 ---

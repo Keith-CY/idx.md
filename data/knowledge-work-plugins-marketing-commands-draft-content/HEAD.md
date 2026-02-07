@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/draft-content.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/draft-content.md
-retrieved_at: 2026-02-07T06:48:42.646Z
+retrieved_at: 2026-02-07T15:00:42.640Z
 content_sha256: 3cd48c55708c9fa8bfc4917cc9cb06091059dd7409c565a49af8631fe5ab1a52
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hopyky/tts-whatsapp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T06:48:24.231Z
+retrieved_at: 2026-02-07T15:00:30.656Z
 content_sha256: 4749bfe81c04b23604c495c938067fd6e96757ab4c28eed5777602763154a804
 ---
