@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ahmetsemsettinozdemirden/hergunmac/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:50.780Z
+retrieved_at: 2026-02-07T05:25:23.103Z
 content_sha256: 992ffb9d39d4aeb3a1dcae314ac46e51a154136593937957273784e7afecae02
 ---

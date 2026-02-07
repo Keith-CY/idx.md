@@ -22,6 +22,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/editing.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/skills/pptx
-retrieved_at: 2026-02-07T03:39:37.785Z
+retrieved_at: 2026-02-07T05:23:46.762Z
 content_sha256: 6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68
 ---

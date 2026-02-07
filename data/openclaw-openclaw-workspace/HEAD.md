@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/massiveadam/workspace/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:03.567Z
+retrieved_at: 2026-02-07T05:26:52.772Z
 content_sha256: 7b3730a50731bb690a59192c5f9c20886df97df0f2c5205b542eb276b667ebec
 ---

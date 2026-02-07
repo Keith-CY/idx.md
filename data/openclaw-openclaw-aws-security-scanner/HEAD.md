@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/spclaudehome/aws-security-scanner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:43.320Z
+retrieved_at: 2026-02-07T05:24:22.537Z
 content_sha256: 81666b276d97b3ea29d817f9449eb274bb2fb6213d0d3852fae5a20b7cf173b2
 ---

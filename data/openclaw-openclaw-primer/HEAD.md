@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brucko/primer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:57.365Z
+retrieved_at: 2026-02-07T05:26:03.992Z
 content_sha256: 417d584300b208117bd90ccbff8ab565dc41c241dfa976af544db6e2fbbf9ae7
 ---

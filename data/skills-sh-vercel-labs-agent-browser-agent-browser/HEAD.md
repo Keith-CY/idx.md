@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/main/skills/agent-browser/references/commands.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
-retrieved_at: 2026-02-07T03:39:37.730Z
+retrieved_at: 2026-02-07T05:23:46.381Z
 content_sha256: 3e5e521a1e6fdd7c0304333883b16859f83b2149bed70ede10464e534c9e4740
 ---

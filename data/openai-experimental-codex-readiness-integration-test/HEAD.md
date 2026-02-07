@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/codex-readiness-integration-test/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/codex-readiness-integration-test/SKILL.md
-retrieved_at: 2026-02-07T03:39:37.622Z
+retrieved_at: 2026-02-07T05:23:45.640Z
 content_sha256: 9197a24bda6ec00cb226ee52ab14a335e2960c7d9d4184e5219d44671f4bab19
 ---

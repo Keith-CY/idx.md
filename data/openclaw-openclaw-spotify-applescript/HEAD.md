@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewjiang/spotify-applescript/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:00.330Z
+retrieved_at: 2026-02-07T05:26:27.081Z
 content_sha256: 7188bddac887fa0a509bdc69ec4cf7dbfcac18101605d08cc1929300d5e11b0d
 ---

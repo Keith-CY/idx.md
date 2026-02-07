@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lurklight/win-mouse-native/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:03.407Z
+retrieved_at: 2026-02-07T05:26:50.221Z
 content_sha256: cdd14718e486d2d66d72b4c1cae072c5f36877a96087fdfa6edd9ebf51826dc7
 ---

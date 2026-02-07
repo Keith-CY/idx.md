@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cesarus85/ms-onedrive-personal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:54.548Z
+retrieved_at: 2026-02-07T05:25:44.558Z
 content_sha256: a0ed097327595cd3720ee42420f41243ddf9bb0f65868f117a8ca6206041e6b3
 ---

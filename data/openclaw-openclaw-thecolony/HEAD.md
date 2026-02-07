@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jackparnell/thecolony/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:01.367Z
+retrieved_at: 2026-02-07T05:26:35.136Z
 content_sha256: d9a326aaf8cf4ea9990bc013012e108acdd285b3b694604326f5e5612d579df1
 ---

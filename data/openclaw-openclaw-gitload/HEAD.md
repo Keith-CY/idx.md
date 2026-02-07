@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/waldekmastykarz/gitload/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:50.088Z
+retrieved_at: 2026-02-07T05:25:18.309Z
 content_sha256: 5092a6a21d0384a5e5d7f10411c272b390ced7b4ca15f4bc3cefb4c43db26fb0
 ---

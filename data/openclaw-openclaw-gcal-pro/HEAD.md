@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bilalmohamed187-cpu/gcal-pro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:49.627Z
+retrieved_at: 2026-02-07T05:25:14.586Z
 content_sha256: 02fabcb1006fe0be170ad705468753239adbd7335837b04f52e9a3ff351e766a
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/op7418/youtube-clipper-skill/main/README.md
 license: ""
 upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
-retrieved_at: 2026-02-07T03:40:06.966Z
+retrieved_at: 2026-02-07T05:27:03.444Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---

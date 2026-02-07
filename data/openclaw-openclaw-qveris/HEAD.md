@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hqman/qveris/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:58.091Z
+retrieved_at: 2026-02-07T05:26:09.285Z
 content_sha256: 1283f6120167e1a3f3451a792a75b8f43fc8a617ef6a6d0b2c4bdd5e1eff6121
 ---

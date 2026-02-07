@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/whisper-mlx-local/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:03.310Z
+retrieved_at: 2026-02-07T05:26:49.289Z
 content_sha256: f52b551db2dacf9696a5b8d473d3e513ba2fa8a24a41431af9a9944b4085aa27
 ---

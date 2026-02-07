@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joeynyc/govee-lights/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:50.481Z
+retrieved_at: 2026-02-07T05:25:20.976Z
 content_sha256: 5919324f3cb58a9fc5cd7e8baf8052f85e09df0a31b4850d39badcea91dc7be7
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jooey/callmac/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:44.598Z
+retrieved_at: 2026-02-07T05:24:33.585Z
 content_sha256: 6db512470b5621233656edae0ae2886cfc8ba0f929ea3c345013d5ec1534bb76
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/sag/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:58.944Z
+retrieved_at: 2026-02-07T05:26:16.030Z
 content_sha256: e9a062586db13baf6088c28779bc21b0ca80f0e96628de8fe91d604a934c12bb
 ---

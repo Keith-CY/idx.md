@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dantunes-github/agentbus-relay-chat/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:41.933Z
+retrieved_at: 2026-02-07T05:24:11.507Z
 content_sha256: 6feaa5ee512484d5a5b630ffc998c633984831343e8d28b831731c60e40f155c
 ---

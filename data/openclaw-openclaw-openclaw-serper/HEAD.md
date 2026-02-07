@@ -24,6 +24,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nesdeq/openclaw-serper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:55.908Z
+retrieved_at: 2026-02-07T05:25:53.331Z
 content_sha256: 95f17801010c264f1e18a88a4927137710f54292fd4fe819080659564f6025aa
 ---

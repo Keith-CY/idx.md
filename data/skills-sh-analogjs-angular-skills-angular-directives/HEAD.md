@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-directives/references/directive-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-directives
-retrieved_at: 2026-02-07T03:39:38.905Z
+retrieved_at: 2026-02-07T05:23:53.676Z
 content_sha256: 399465cefcfea352c0a1ad709df7959298b3c2ec160cd6453cf850aaccce9f3a
 ---

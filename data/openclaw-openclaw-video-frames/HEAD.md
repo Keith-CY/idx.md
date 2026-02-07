@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/video-frames/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:02.577Z
+retrieved_at: 2026-02-07T05:26:43.852Z
 content_sha256: 7e24245498aca878d084aae61e6da9043fb52566346d3a547f6f391c9a11bde1
 ---

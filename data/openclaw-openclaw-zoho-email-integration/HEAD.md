@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/briansmith80/zoho-email-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:04.346Z
+retrieved_at: 2026-02-07T05:26:59.059Z
 content_sha256: 922235f0b2dc33f48c744758deac5261eb777367a0485b44000ab0f027e17274
 ---
