@@ -26,6 +26,8 @@ jobs:
         run: bun install --frozen-lockfile
       - name: Ingest OpenAI skills
         run: bun sites/pages/ingest-openai.ts
+      - name: Validate data
+        run: bun run validate
       - name: Upload ingest report
         if: ${{ always() }}
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
@@ -40,6 +42,11 @@ jobs:
           title: "chore: update openai skills"
           body: |
             Automated update of OpenAI skills registry.
+
+            Generator:
+            - Script: `sites/pages/ingest-openai.ts`
+            - Repo SHA: `${{ github.sha }}`
+            - Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           branch: automation/openai-ingest
           delete-branch: true
           add-paths: |
