@@ -30,6 +30,7 @@ OG image: [https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg]
 ## Contributing
 - Add sources to `sources/general.yml` or run an ingest script under `sites/pages/`
 - Rebuild with `bun sites/pages/build.ts`
+- Agent contribution checklist: `docs/agent-collaboration.md`
 
 ## Repo topics (suggested)
 `ai-agents`, `agent-skills`, `markdown`, `index`, `registry`, `cloudflare`, `r2`, `worker`, `github-actions`, `openclaw`
