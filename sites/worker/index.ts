@@ -35,7 +35,7 @@ function setVaryUserAgent(headers: Headers): Headers {
     .map((value) => value.trim().toLowerCase())
     .filter(Boolean);
 
-  if (!values.includes(VARY_USER_AGENT.toLowerCase())) {
+  if (!values.includes("user-agent")) {
     headers.set("vary", `${existing}, ${VARY_USER_AGENT}`);
   }
 
@@ -91,11 +91,12 @@ export default {
     }
 
     if (shouldServeOg(url, request.headers.get("user-agent"))) {
-      const headers = new Headers({
-        "content-type": "text/html; charset=utf-8",
-        "cache-control": "public, max-age=600",
-      });
-      setVaryUserAgent(headers);
+      const headers = setVaryUserAgent(
+        new Headers({
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=600",
+        }),
+      );
 
       return new Response(renderOgHtml(url), {
         status: 200,
@@ -106,13 +107,13 @@ export default {
 
     const object = await env.IDX_MD.get(key);
     if (!object) {
-      const headers = new Headers({
-        "content-type": "text/markdown; charset=utf-8",
-      });
-      setVaryUserAgent(headers);
       return new Response("# Not Found\n\nThe requested markdown was not found.", {
         status: 404,
-        headers,
+        headers: setVaryUserAgent(
+          new Headers({
+            "content-type": "text/markdown; charset=utf-8",
+          }),
+        ),
       });
     }
 
