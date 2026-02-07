@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dviros/wolt-orders/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:33.556Z
+retrieved_at: 2026-02-07T03:40:03.492Z
 content_sha256: 86a28276523667941aeef97208ccc66ce41b02830ddc79f965fb9c7a18a600d1
 ---

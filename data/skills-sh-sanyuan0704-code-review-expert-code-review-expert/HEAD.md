@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/sanyuan0704/code-review-expert/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/sanyuan0704/code-review-expert/code-review-expert
-retrieved_at: 2026-02-06T12:04:59.875Z
+retrieved_at: 2026-02-07T03:40:07.112Z
 content_sha256: 368a472603cfa0b0e47b69b204c4d69a07a527f53c470fac3bc7f05eb4c255be
 ---

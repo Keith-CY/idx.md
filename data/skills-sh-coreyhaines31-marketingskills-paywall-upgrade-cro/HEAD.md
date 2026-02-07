@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/paywall-upgrade-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paywall-upgrade-cro
-retrieved_at: 2026-02-06T11:59:57.311Z
+retrieved_at: 2026-02-07T03:39:38.130Z
 content_sha256: 17e6ff52c5482b07694bcdd2fc4cd28209a1b605b66520eefff474928933bdb7
 ---

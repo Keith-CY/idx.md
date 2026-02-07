@@ -36,6 +36,6 @@ tags: []
 source_url: https://raw.githubusercontent.com/github/markup/master/README.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:40.545Z
+retrieved_at: 2026-02-07T03:40:04.425Z
 content_sha256: 72cc179fe566e62aa18114513eb38e7b6188a7c76806289cdec97138f75b5b11
 ---

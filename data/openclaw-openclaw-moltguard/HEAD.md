@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thomaslwang/moltguard/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:34.229Z
-content_sha256: 1292bc42b3082fe652df8aefeb0bd6fa96d5ee693963d9f93f9d7ac4f58a73dc
+retrieved_at: 2026-02-07T03:39:54.009Z
+content_sha256: e423034334975c46cb7c991c81034b16ccf24cba5f4b6257c9d6c8854a26f7e2
 ---

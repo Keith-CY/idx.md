@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/internal-comms/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:18.945Z
+retrieved_at: 2026-02-07T03:39:51.495Z
 content_sha256: 067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475
 ---

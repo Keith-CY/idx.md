@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jcorrego/openspec/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:45.415Z
+retrieved_at: 2026-02-07T03:39:56.074Z
 content_sha256: 720f832d1879e2812f3b7a74f55a75c3fbb0ccb8e694d3024a4fa9dad9dffa22
 ---

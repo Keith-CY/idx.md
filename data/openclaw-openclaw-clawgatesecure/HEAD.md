@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thestormshadow/clawgatesecure/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:42.262Z
+retrieved_at: 2026-02-07T03:39:45.718Z
 content_sha256: 1c68e5bc512902f69eca561bf83cf69731e3b4f11ec9a1ff8edd7054a063b504
 ---

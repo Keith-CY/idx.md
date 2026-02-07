@@ -1,19 +1,17 @@
 ---
 name: personas
 version: 2.1.1
-description: Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation, create custom personas. Token-efficient, loads only active persona.
+description: Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation. Token-efficient, loads only active persona.
 metadata: {"clawdbot":{"requires":{"bins":[],"env":[]}}}
 triggers:
   - /persona <name>
   - /persona list
   - /persona exit
-  - /persona create <name>
   - /personas
   - use persona
   - switch to
   - activate
   - exit persona
-  - create persona
 categories:
   - core
   - creative
@@ -70,11 +68,6 @@ Use these commands any time for fast, explicit control.
 **Exit current persona:**
 ```
 /persona exit
-```
-
-**Create a new persona:**
-```
-/persona create "Game Master"
 ```
 
 ---
@@ -182,33 +175,14 @@ You: "What causes sudden headaches?"
 
 ---
 
-## Creating Custom Personas
-
-Say:
-```
-"Create a new persona called [name]"
-"I want a persona for [purpose]"
-```
-
-**I'll guide you through:**
-1. Name and emoji
-2. Core expertise (3-6 areas)
-3. Personality traits (3-5)
-4. Philosophy (3-5 principles)
-5. Communication style
-
-**Your custom persona will be saved to `data/` and instantly available!**
-
----
-
 ## Quick Reference
 
 | Category | Count | Examples |
 |----------|-------|----------|
 | Core | 5 | Dev, Flash, Cami |
 | Creative | 2 | Luna, Wordsmith |
+| Curator | 1 | Vibe |
 | Learning | 3 | Scholar, Lingua |
 | Lifestyle | 3 | Chef Marco, Zen, Fit |
 | Professional | 6 | Dr. Med, CyberGuard, Legal Guide |
-| Curator | 1 | Vibe |
 | **Total** | **20** | |

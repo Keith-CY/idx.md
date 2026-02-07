@@ -1,6 +1,6 @@
 ---
-name: pocketalert
-description: Send push notifications and manage Pocket Alert resources via the pocketalert CLI. Use when the user wants to send push notifications, manage applications, devices, webhooks, or API keys through Pocket Alert. Handles message sending, application management, device management, webhook creation, and API key operations.
+name: Pocket Alert – Push Notifications for iOS and Android
+description: The Pocket Alert (pocketalert.app) skill for OpenClaw enables OpenClaw agents and workflows to send push notifications to iOS and Android devices. It is used to deliver alerts and updates from automated tasks, workflows, and background processes.
 ---
 
 # Pocket Alert
@@ -104,19 +104,6 @@ pocketalert webhooks get <tid>
 
 # Delete webhook
 pocketalert webhooks delete <tid>
-```
-
-### Manage API Keys
-
-```bash
-# Create API key
-pocketalert apikeys create --name "CI Key"
-
-# List API keys
-pocketalert apikeys list
-
-# Delete API key
-pocketalert apikeys delete <tid>
 ```
 
 ## Message Template Variables

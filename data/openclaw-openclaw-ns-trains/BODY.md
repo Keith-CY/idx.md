@@ -1,7 +1,7 @@
 ---
 name: ns-trains
 description: Check Dutch train schedules, departures, disruptions, and plan journeys using the NS API. Perfect for daily commute checks.
-metadata: {"openclaw":{"emoji":"🚆","requires":{"bins":["node"],"env":["NS_API_KEY"]},"primaryEnv":"NS_API_KEY"}}
+metadata: {"openclaw":{"emoji":"🚆","requires":{"bins":["node"],"env":["NS_SUBSCRIPTION_KEY"]},"primaryEnv":"NS_SUBSCRIPTION_KEY"}}
 ---
 
 # NS Trains Skill
@@ -10,7 +10,7 @@ Check Dutch train schedules, departures, disruptions, and plan journeys using th
 
 ## Setup
 
-### 1. Get an NS API Key
+### 1. Get an NS subscription key
 
 1. Go to [NS API Portal](https://apiportal.ns.nl/)
 2. Create an account and subscribe to the **Ns-App** product (free tier available)
@@ -19,14 +19,16 @@ Check Dutch train schedules, departures, disruptions, and plan journeys using th
 ### 2. Set Environment Variables
 
 ```bash
-export NS_API_KEY="your-api-key-here"
+export NS_SUBSCRIPTION_KEY="your-subscription-key-here"   # preferred
+# Back-compat:
+export NS_API_KEY="$NS_SUBSCRIPTION_KEY"                   # legacy name still supported
 
 # Optional: Configure commute stations for quick shortcuts
 export NS_HOME_STATION="Utrecht Centraal"
 export NS_WORK_STATION="Amsterdam Zuid"
 ```
 
-Add to `~/.bashrc` or `~/.zshrc` for persistence.
+For security, prefer injecting these env vars via your runtime secret mechanism rather than committing them anywhere. Avoid printing or sharing your subscription key.
 
 ## Quick Usage
 

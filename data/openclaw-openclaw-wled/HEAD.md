@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rowbotik/wled/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:33.452Z
+retrieved_at: 2026-02-07T03:40:03.481Z
 content_sha256: 1518ccb3f162b98305497601abf0e64073ca7095cc9e0163c5d9c42e64fdabc4
 ---

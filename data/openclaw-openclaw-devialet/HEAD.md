@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jgm2025/devialet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:52.935Z
+retrieved_at: 2026-02-07T03:39:47.543Z
 content_sha256: 5dfc7a8099875917b552089c198d9f91dfac0e22977e6511512c699e4aafe4d3
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/base44/skills/main/skills/base44-cli/references/auth-login.md
 license: ""
 upstream_ref: https://skills.sh/base44/skills/base44-cli
-retrieved_at: 2026-02-06T12:00:11.191Z
+retrieved_at: 2026-02-07T03:39:40.649Z
 content_sha256: 834fed8eec8dc8bb5e8171fcdb9025de002fe25c219797dfdd422032f29da356
 ---

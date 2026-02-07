@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/draft-response.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/draft-response.md
-retrieved_at: 2026-02-06T12:05:09.953Z
+retrieved_at: 2026-02-07T03:40:08.522Z
 content_sha256: 3a81a31f65dc25cc8c8cc1093c616d480bcd351d7f0d8f6ce66bd2341283944f
 ---

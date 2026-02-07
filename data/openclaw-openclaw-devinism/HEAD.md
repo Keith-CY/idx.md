@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffreyling/devinism/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:53.102Z
+retrieved_at: 2026-02-07T03:39:47.567Z
 content_sha256: 63ad0516e597bbb7dff173ecb98a10853885062b1613dd8466156b901fe7b769
 ---

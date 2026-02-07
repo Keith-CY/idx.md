@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/github-pr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:09.817Z
+retrieved_at: 2026-02-07T03:39:50.027Z
 content_sha256: 20967e9970848c3d8fc53586a8bfae9c8cb7f466816a809538dfc8bf0f5f75a2
 ---

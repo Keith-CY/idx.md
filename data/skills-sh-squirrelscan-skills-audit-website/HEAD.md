@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/squirrelscan/skills/main/audit-website/references/OUTPUT-FORMAT.md
 license: ""
 upstream_ref: https://skills.sh/squirrelscan/skills/audit-website
-retrieved_at: 2026-02-06T11:59:54.755Z
+retrieved_at: 2026-02-07T03:39:37.755Z
 content_sha256: 4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a
 ---

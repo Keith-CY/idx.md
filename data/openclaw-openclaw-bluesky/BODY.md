@@ -1,6 +1,6 @@
 ---
 name: bluesky
-version: 1.5.2
+version: 1.5.3
 description: "Complete Bluesky CLI: post, reply, like, repost, follow, block, mute, search, threads, images. Everything you need to engage on Bluesky from the terminal."
 homepage: https://bsky.app
 metadata:

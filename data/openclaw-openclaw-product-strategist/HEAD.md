@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-strategist/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:53.756Z
+retrieved_at: 2026-02-07T03:39:57.490Z
 content_sha256: 6fb94d13b7d1d99ec1abb6d0e0ffda7319f9e593bfbe4992c44681a5ff4a4b65
 ---

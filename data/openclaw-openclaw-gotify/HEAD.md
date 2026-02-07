@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/gotify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:12.326Z
+retrieved_at: 2026-02-07T03:39:50.447Z
 content_sha256: e6356beac122235390d3915dead6d9b3c3cc303046bd61dbffe3ba9aa0ce850b
 ---

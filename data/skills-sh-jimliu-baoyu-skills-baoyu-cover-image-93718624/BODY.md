@@ -22,6 +22,7 @@
 | `vector-illustration` | `retro` | `flat-vector` |
 | `vintage` | `retro` | `hand-drawn` |
 | `warm` | `warm` | `hand-drawn` |
+| `warm-flat` | `warm` | `flat-vector` |
 | `watercolor` | `earth` | `painterly` |
 
 ## Override Examples

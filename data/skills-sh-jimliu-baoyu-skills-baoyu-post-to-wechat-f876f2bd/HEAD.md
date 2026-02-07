@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-retrieved_at: 2026-02-06T12:04:58.347Z
+retrieved_at: 2026-02-07T03:40:06.953Z
 content_sha256: 41852e22efea3db12d31d20616e084486f32a639ed4e6f1df7019b06e6e52505
 ---

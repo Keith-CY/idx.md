@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/email-sequence.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/email-sequence.md
-retrieved_at: 2026-02-06T12:05:05.530Z
+retrieved_at: 2026-02-07T03:40:07.862Z
 content_sha256: 2714b0d8cce61645c0b5cc6ce08ee0e5e399d3170e33e7dd4b1dd352f4d8a4a9
 ---

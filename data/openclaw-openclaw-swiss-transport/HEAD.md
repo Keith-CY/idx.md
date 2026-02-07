@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swiss-transport/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:14.782Z
+retrieved_at: 2026-02-07T03:40:00.861Z
 content_sha256: 903fb1a9548ff694f968bcdb4e9b4ebec834356664fbfd9bf5bd90095aa11b85
 ---

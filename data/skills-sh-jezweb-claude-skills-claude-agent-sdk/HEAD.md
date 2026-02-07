@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.34
+
+  - Updated to parity with Claude Code v2.1.34
+
   ## 0.2.33
 
   - Added `TeammateIdle` and `TaskCompleted` hook events with corresponding
@@ -20,17 +24,12 @@ summary: >-
   - Updated to parity with Claude Code v2.1.32
 
   ## 0.2.31
-
-  - Added `stop_reason` field to `SDKResultSuccess` and `SDKResultError` to
-  indicate why the model stopped generating
-
-  ## 0.2.30
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md
 license: ""
 upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
-retrieved_at: 2026-02-06T12:00:09.032Z
-content_sha256: 7e00049a6366b2ea61a5001fd2a623fdd29c08931180122d33b7126a893d90be
+retrieved_at: 2026-02-07T03:39:40.171Z
+content_sha256: f1992c004824bcaa8cc7f51c90ce9f49ce142d864690fe96db93e06144c5ad9f
 ---

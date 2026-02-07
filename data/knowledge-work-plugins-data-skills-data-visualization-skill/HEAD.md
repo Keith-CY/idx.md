@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/data-visualization/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-visualization/SKILL.md
-retrieved_at: 2026-02-06T12:05:02.194Z
+retrieved_at: 2026-02-07T03:40:07.390Z
 content_sha256: 728d3b95b9ebc744594076a2263c02b2a3f8f16a947437e66c035ef2329a12df
 ---

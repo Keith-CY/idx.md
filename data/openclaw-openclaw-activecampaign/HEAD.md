@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/activecampaign/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:15.054Z
+retrieved_at: 2026-02-07T03:39:41.360Z
 content_sha256: ead848bbd821ab7fc7a765d6b2710776f689bb0a51462203f5a1bdec946b58f0
 ---

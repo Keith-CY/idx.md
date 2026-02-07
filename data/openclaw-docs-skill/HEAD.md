@@ -16,19 +16,20 @@ summary: >-
 
   ## Capabilities
 
-  OpenClaw enables agents to operate as personal AI assistants across multiple
-  messaging platforms simultaneously. Agents can execute shell commands,
-  automate browser interactions, manage files, schedule tasks, capture media,
-  and coordinate with other agents—all while maintaining isolated sessions and
-  persistent memory per user or group. The system provides a self-hosted control
-  plane (Gateway) that routes messages from various channels to configured
-  agents with full tool access and security controls.
+  OpenClaw enables agents to operate as always-on personal AI assistants across
+  multiple messaging platforms simultaneously. Agents can execute complex
+  workflows including browser automation, shell command execution, file
+  operations, media processing, and scheduled tasks. The system supports
+  multi-agent routing with isolated workspaces, session management with memory
+  persistence, and sandboxed execution environments for security. Agents can
+  spawn sub-agents for parallel work, integrate with 15+ messaging channels, and
+  leverage multiple AI model providers with automatic failover.
 
   ## Skills
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:04:56.097Z
-content_sha256: e7b80ee090f7557c49a9308098dd43886f5c536fca9ac4ea53331fa1c31c545a
+retrieved_at: 2026-02-07T03:40:06.732Z
+content_sha256: 87ed7555b1d876e336cc15c5eb52bedc9923e4697b010ddbd8116c62fc4b2852
 ---

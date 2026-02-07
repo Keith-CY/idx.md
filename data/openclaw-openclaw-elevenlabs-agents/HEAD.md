@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pennyroyaltea/elevenlabs-agents/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:57.780Z
+retrieved_at: 2026-02-07T03:39:48.222Z
 content_sha256: dbbdc641d701d624106cefdab1b98b1a95aea3476e744c77f9b1882d26e25649
 ---

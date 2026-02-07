@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/fzf-fuzzy-finder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:06.518Z
+retrieved_at: 2026-02-07T03:39:49.488Z
 content_sha256: e339f3180cf68364ee8658ad5704456b7bb2a1d7fb98f1026211cbc44f2e3bba
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-testing/references/testing-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-testing
-retrieved_at: 2026-02-06T12:00:02.551Z
+retrieved_at: 2026-02-07T03:39:38.991Z
 content_sha256: a83bed4c16f45adf69870de283e66f2971205aec31510c21113eb3cc6628c4ec
 ---

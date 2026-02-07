@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/funkpower/efnet-social/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:56.925Z
+retrieved_at: 2026-02-07T03:39:48.174Z
 content_sha256: c5505759cda92ef7ad07ad14375107688515825e402a7bb6ad2dc9224ebef1fa
 ---
