@@ -26,6 +26,8 @@ jobs:
         run: bun install --frozen-lockfile
       - name: Ingest skills.sh
         run: bun sites/pages/ingest-skills-sh.ts
+      - name: Validate data
+        run: bun run validate
       - name: Upload ingest report
         if: ${{ always() }}
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
@@ -40,6 +42,11 @@ jobs:
           title: "chore: update skills.sh registry"
           body: |
             Automated update of skills.sh Top 1000 registry.
+
+            Generator:
+            - Script: `sites/pages/ingest-skills-sh.ts`
+            - Repo SHA: `${{ github.sha }}`
+            - Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           branch: automation/skills-sh-ingest
           delete-branch: true
           add-paths: |
