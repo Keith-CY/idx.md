@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brokemac79/webchat-audio-notifications/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:03.114Z
+retrieved_at: 2026-02-07T05:26:47.779Z
 content_sha256: b68f0ff64d6bd7be1c38cc0cc9dedb0c3bde0d118f1430242ce2f04c00aa3b6f
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mneves75/healthkit-sync/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:50.747Z
+retrieved_at: 2026-02-07T05:25:22.818Z
 content_sha256: 38a8ea444133148eaf0a670bf389bb601e701de8aec8c60fb9ec2c727045013c
 ---

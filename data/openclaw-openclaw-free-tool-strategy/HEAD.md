@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/free-tool-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:49.427Z
+retrieved_at: 2026-02-07T05:25:13.471Z
 content_sha256: afd05058a2b0a4df3f32db31f01230e97008d0838d20efb7764effa8677db541
 ---

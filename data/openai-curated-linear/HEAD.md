@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/linear/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/linear/SKILL.md
-retrieved_at: 2026-02-07T03:39:37.341Z
+retrieved_at: 2026-02-07T05:23:43.815Z
 content_sha256: ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601
 ---

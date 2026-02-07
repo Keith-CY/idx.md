@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-thumbnail-grabber/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:07.261Z
+retrieved_at: 2026-02-07T05:27:05.623Z
 content_sha256: 9e04e56f221517747ede24548627d5ddcca5b2f2f53a109bd15a59ac36b16260
 ---

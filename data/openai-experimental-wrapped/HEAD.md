@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/wrapped/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/wrapped/SKILL.md
-retrieved_at: 2026-02-07T03:39:37.676Z
+retrieved_at: 2026-02-07T05:23:45.964Z
 content_sha256: 48895aac2d878040317bb8d351f1dedcef4acc51d52e1a2531cb465eec706ad0
 ---

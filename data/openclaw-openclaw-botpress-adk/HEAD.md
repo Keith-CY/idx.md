@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yueranlu/botpress-adk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:44.181Z
+retrieved_at: 2026-02-07T05:24:28.467Z
 content_sha256: 244f081db6cc8df312e23840fe542483d9684dcb03cb23abacee49ce563afe44
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enjuguna/intelligent-budget-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:51.483Z
+retrieved_at: 2026-02-07T05:25:27.528Z
 content_sha256: e77d10143c7ceb3079ee4150d991268aa04ef7520e44b93fe3c0d7009565ea59
 ---

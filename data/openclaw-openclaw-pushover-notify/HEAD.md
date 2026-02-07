@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digitallyborn/pushover-notify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:57.817Z
+retrieved_at: 2026-02-07T05:26:07.183Z
 content_sha256: 7eaa148189b03d789585b916fa6369c692b5638020396f06a7ab5febc81c6289
 ---

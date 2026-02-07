@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/triage.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/triage.md
-retrieved_at: 2026-02-07T03:40:08.478Z
+retrieved_at: 2026-02-07T05:27:14.613Z
 content_sha256: acefe12a5b476afc405c7f3ce2ccf500c06cee95036fc7d6a5a5f70415204e9b
 ---

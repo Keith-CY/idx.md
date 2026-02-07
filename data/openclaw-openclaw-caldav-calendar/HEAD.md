@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asleep123/caldav-calendar/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:44.571Z
+retrieved_at: 2026-02-07T05:24:33.151Z
 content_sha256: 63b956dec3a22bc0207fccf258beae90c6648339b568798fe42ac3b797c4ed27
 ---

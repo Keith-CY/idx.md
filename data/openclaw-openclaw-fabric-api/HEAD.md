@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/fabric-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:48.679Z
+retrieved_at: 2026-02-07T05:25:07.903Z
 content_sha256: 27926810e911cb3044b3d012df90d3dcd492d3908d33348644133752218edd67
 ---

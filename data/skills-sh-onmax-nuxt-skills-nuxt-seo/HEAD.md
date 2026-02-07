@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/references/site-config.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-seo
-retrieved_at: 2026-02-07T03:39:39.658Z
+retrieved_at: 2026-02-07T05:23:57.761Z
 content_sha256: 5fe0f6314f21f851027e203b33e483fa94d318ec6ac82fa047124674b82a89b0
 ---

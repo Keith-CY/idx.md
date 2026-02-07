@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/realowg/openclaw-update/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:55.968Z
+retrieved_at: 2026-02-07T05:25:53.780Z
 content_sha256: a30a3af319d643beb014aa0d1f9de508f322e40cc3fb29a879a2db741d6ed23c
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/git-sync/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:49.967Z
+retrieved_at: 2026-02-07T05:25:17.386Z
 content_sha256: 9da26fac74543f3818d31ea04c5e1deb3cafc2738ed3199f730b785362464946
 ---

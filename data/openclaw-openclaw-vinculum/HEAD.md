@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/koba42corp/vinculum/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:02.642Z
+retrieved_at: 2026-02-07T05:26:44.357Z
 content_sha256: b1a325b95b7a09c91ecf1f383bab020731915584caf9e9b1c0303e585a1d40fa
 ---

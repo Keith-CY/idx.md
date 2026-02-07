@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin37li/gettr-transcribe-summarize/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:49.835Z
+retrieved_at: 2026-02-07T05:25:16.267Z
 content_sha256: 61b07a682d17f15ba4541506e6a0ffff41618846753f6da24ee80c51b65591f3
 ---

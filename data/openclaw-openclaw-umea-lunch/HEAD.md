@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/umea-lunch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:02.231Z
+retrieved_at: 2026-02-07T05:26:41.400Z
 content_sha256: cb2e79323642863782eba74525c384ae6ef8e0bab53ffe22abb9161b7040ed52
 ---

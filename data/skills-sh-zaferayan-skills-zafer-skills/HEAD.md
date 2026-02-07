@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/zaferayan/skills/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/zaferayan/skills/zafer-skills
-retrieved_at: 2026-02-07T03:40:04.620Z
+retrieved_at: 2026-02-07T05:27:00.889Z
 content_sha256: dc010b204b24e8ba93afdaebf5e3093c377918cf7b0250afb928383e48b2ac0d
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/danman60/proxy-scrap/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:57.753Z
+retrieved_at: 2026-02-07T05:26:06.813Z
 content_sha256: bd4463de909d15884f3fe093b2560605b54c1cc9932d560eca91ff0f7c8fbcfd
 ---

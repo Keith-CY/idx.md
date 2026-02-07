@@ -21,6 +21,6 @@ tags: []
 source_url: https://www.mintlify.com/docs/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:05.876Z
+retrieved_at: 2026-02-07T05:27:01.554Z
 content_sha256: 61453803e3be365bbe5c95d326258551e7fa42af1c8f369ac6dfdcd5676ba8d8
 ---

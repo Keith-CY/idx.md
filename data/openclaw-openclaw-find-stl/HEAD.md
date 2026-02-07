@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/find-stl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:49.063Z
+retrieved_at: 2026-02-07T05:25:11.062Z
 content_sha256: d2b647653141c07e9944cd372681ca4d7289fdf4fd69fe146bf13ff03d928bdb
 ---

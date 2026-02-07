@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mdealiaga/openpet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:56.043Z
+retrieved_at: 2026-02-07T05:25:54.292Z
 content_sha256: 890c8e246e68997a7583ec2afa5f85aa02082cea96579122f662eaa3a6632d13
 ---

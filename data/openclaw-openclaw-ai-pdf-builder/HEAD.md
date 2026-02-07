@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/ai-pdf-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:42.230Z
+retrieved_at: 2026-02-07T05:24:13.439Z
 content_sha256: 4c63709141c6a554e194080e06130193d3f6bb2c56da3a3dac12e57f44fa6f89
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/noblepayne/tabstack-extractor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:00.923Z
+retrieved_at: 2026-02-07T05:26:31.687Z
 content_sha256: b0ac26a0d839493ba086011114d4799fc2bcb133b4b83ad79d6fba4396ccea82
 ---

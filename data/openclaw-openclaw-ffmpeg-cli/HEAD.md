@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ascendswang/ffmpeg-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:48.964Z
+retrieved_at: 2026-02-07T05:25:10.389Z
 content_sha256: ef9ff1fb135c4919f688ae07cf9a3ba5a537ebd5e76f00edd3afad2e537a8a2d
 ---

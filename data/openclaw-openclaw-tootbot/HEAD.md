@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/behrangsa/tootbot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:01.657Z
+retrieved_at: 2026-02-07T05:26:37.285Z
 content_sha256: f3c84f81162ba181533812df1a07ba3b59decba2c36242af3ecbadfc0268639a
 ---

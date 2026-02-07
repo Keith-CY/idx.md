@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dingshuxin353/feishu-file-fetch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:48.909Z
+retrieved_at: 2026-02-07T05:25:10.006Z
 content_sha256: 39dc3750b9d9d70a41f211268f148f4b948bdb922a1ec8792f6e2bbd6f881e49
 ---

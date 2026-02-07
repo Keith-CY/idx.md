@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abhinavjp/ms-outlook-teams-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:39:54.560Z
+retrieved_at: 2026-02-07T05:25:44.643Z
 content_sha256: 806e4fde86933ec97a2f7c3887647f37f49f5e9a3895e8275b66da1a44344366
 ---

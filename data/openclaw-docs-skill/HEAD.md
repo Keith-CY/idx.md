@@ -30,6 +30,6 @@ tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T03:40:06.732Z
+retrieved_at: 2026-02-07T05:27:01.870Z
 content_sha256: 87ed7555b1d876e336cc15c5eb52bedc9923e4697b010ddbd8116c62fc4b2852
 ---
