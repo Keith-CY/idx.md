@@ -101,6 +101,7 @@ describe("worker fetch", () => {
     expect(response.headers.get("content-type")).toBe(
       "text/markdown; charset=utf-8",
     );
+    expect(response.headers.get("vary")).toBe("User-Agent");
     const body = await response.text();
     expect(body).toContain("Not Found");
   });
