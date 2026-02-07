@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fadeloo/tiangong-wps-ppt-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:18.914Z
+retrieved_at: 2026-02-07T03:40:01.465Z
 content_sha256: 8c43b01880fdf2d7e93dda63c727c3f05d7b51ae089d0f4641e1ba3197b43ae7
 ---

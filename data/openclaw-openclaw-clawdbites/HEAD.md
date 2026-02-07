@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kylelol/clawdbites/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:39.836Z
+retrieved_at: 2026-02-07T03:39:45.288Z
 content_sha256: 9b5efc429f0a7da55fb4647e57bb7cf434f60164394d9dd77349d1221be8c258
 ---

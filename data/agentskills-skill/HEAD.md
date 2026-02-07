@@ -17,17 +17,18 @@ summary: >-
   ## Capabilities
 
   Agent Skills enable AI agents to extend their capabilities with specialized
-  knowledge and workflows. Agents can discover, load, and execute skills to
-  perform domain-specific tasks more accurately and efficiently. Skills provide
-  procedural knowledge, company-specific context, and reusable workflows that
-  agents can activate on demand, allowing them to handle complex tasks across
-  multiple domains without requiring constant retraining or context expansion.
+  knowledge and workflows. Agents can discover and load skills on demand to
+  perform complex tasks more accurately and efficiently. Skills provide domain
+  expertise, new capabilities (like creating presentations or analyzing
+  datasets), repeatable workflows, and interoperability across different agent
+  products. The progressive disclosure model keeps agents fast by loading only
+  metadata at startup and full instructions when needed.
 
   ## Skills
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:42.417Z
-content_sha256: 0ef898629f74026ce2406894cc427c18a0c56b73ebc1159c7fcf4b1c7e7bce3e
+retrieved_at: 2026-02-07T03:40:05.187Z
+content_sha256: d12348bcbe119dbd97f29bb3ded1ac1c4652e559df26e5198bac4ae8ceeb7e0b
 ---

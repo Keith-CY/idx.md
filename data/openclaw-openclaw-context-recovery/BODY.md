@@ -1,6 +1,16 @@
-# Context Recovery Skill
+---
+name: context-recovery
+description: Automatically recover working context after session compaction or when continuation is implied but context is missing. Works across Discord, Slack, Telegram, Signal, and other supported channels.
+metadata: {"clawdbot":{"emoji":"🔄"}}
+---
+
+# Context Recovery
 
 Automatically recover working context after session compaction or when continuation is implied but context is missing. Works across Discord, Slack, Telegram, Signal, and other supported channels.
+
+**Use when**: Session starts with truncated context, user references prior work without specifying details, or compaction indicators appear.
+
+---
 
 ## Triggers
 
@@ -13,6 +23,8 @@ Automatically recover working context after session compaction or when continuat
 - User references "the project", "the PR", "the branch", "the issue" without specifying which
 - User implies prior work exists but context is unclear
 - User asks "do you remember...?" or "we were working on..."
+
+---
 
 ## Execution Protocol
 
@@ -166,6 +178,8 @@ Present the recovered context, then prompt:
 
 > "Context recovered. Your last request was [X]. This action [completed/did not complete]. Shall I [continue/retry/clarify]?"
 
+---
+
 ## Channel-Specific Notes
 
 ### Discord
@@ -185,6 +199,8 @@ Present the recovered context, then prompt:
 - History depth may vary by platform
 - Group vs. DM context may differ
 
+---
+
 ## Constraints
 
 - **MANDATORY:** Execute this protocol before responding "insufficient data" or asking clarifying questions when context appears missing
@@ -193,6 +209,8 @@ Present the recovered context, then prompt:
 - Session log extraction: last 3 session files maximum
 - Memory cache: append to daily file, do not overwrite
 - If recovery fails, state what was attempted and what data sources were unavailable
+
+---
 
 ## Auto-Trigger Detection
 
@@ -211,7 +229,9 @@ elif message matches continuation_patterns:
 
 **Do not wait for user to ask** — if compaction is detected, proactively recover and present context.
 
-## Example Invocation
+---
+
+## Example
 
 **Scenario:** Session starts with compaction summary
 
@@ -225,8 +245,8 @@ User message: "did this happen?"
 2. `message:read channel=discord channelId=1460342116516364533 limit=50`
 3. Calculates time span: 2.5 hours — sufficient, no expansion needed
 4. Parses messages, finds last action: "Now let me extract the key orchestration decisions..."
-5. Checks session logs — unavailable for current session
-6. Writes context summary to `memory/2026-01-25.md`
+5. Checks session logs — extracts recent user requests
+6. Writes context summary to `memory/YYYY-MM-DD.md`
 7. Responds:
 
 > "Context recovered. Your last request was to extract orchestration decisions from Nexus archived sessions for PR #137 (Skills & Agents System). This action did not complete before context was truncated.

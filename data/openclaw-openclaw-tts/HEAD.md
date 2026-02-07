@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amstko/tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:22.487Z
+retrieved_at: 2026-02-07T03:40:01.959Z
 content_sha256: a55fa4334afafc9660afe8b6f87b1aff748075d7ea1891766c660f2505061e8a
 ---

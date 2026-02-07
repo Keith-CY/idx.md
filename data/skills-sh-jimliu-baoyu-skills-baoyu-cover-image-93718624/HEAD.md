@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-cover-image/references/style-presets.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
-retrieved_at: 2026-02-06T12:04:57.999Z
-content_sha256: 429dd806af24e74fbcd93ee3f0fba2d99b4238167a2547ef95a86bfff62e23b4
+retrieved_at: 2026-02-07T03:40:06.930Z
+content_sha256: 78d4c3740c46e6bf3bffd2a07d5bddca9ec3d73688ad745df2641c4039de5d9d
 ---

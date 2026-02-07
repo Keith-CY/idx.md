@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/reconciliation/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/reconciliation/SKILL.md
-retrieved_at: 2026-02-06T12:05:04.580Z
+retrieved_at: 2026-02-07T03:40:07.724Z
 content_sha256: 3412ddd23f36ab61a2fd8b664982f127a533469f8f707e59499fa1e7380e7d5d
 ---

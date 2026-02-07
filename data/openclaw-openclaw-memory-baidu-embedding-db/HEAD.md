@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xqicxx/memory-baidu-embedding-db/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:29.481Z
+retrieved_at: 2026-02-07T03:39:53.288Z
 content_sha256: ec9424eb97c8fd1b6997b1282378ee8bcba519a19e266e088285fdfffca4f900
 ---

@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/cloudflare/skills/main/skills/building-mcp-server-on-cloudflare/references/oauth-setup.md
 license: ""
 upstream_ref: https://skills.sh/cloudflare/skills/building-mcp-server-on-cloudflare
-retrieved_at: 2026-02-06T12:00:08.600Z
+retrieved_at: 2026-02-07T03:39:40.119Z
 content_sha256: 9e57f929797d2827b71c87a6e9e4f5d1ce036b14a8c19fe52ae4eee6c1b493ab
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/mspot-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:36.808Z
+retrieved_at: 2026-02-07T03:39:54.582Z
 content_sha256: fcf85a8f139d00de627d8107f9545b0d4fa5875c595f626482fa6a618b100dc0
 ---

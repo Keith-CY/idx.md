@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/akellacom/pocketalert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:51.725Z
-content_sha256: c7ac446b5b6cba5a98a43e7d8af8be3f84a7b57faf5aca140ffab9a8e22591c1
+retrieved_at: 2026-02-07T03:39:57.146Z
+content_sha256: 2a9f91cdee4b54ab70eade42ea186708fb89a31c6152f7d49cb7efd30aadf516
 ---

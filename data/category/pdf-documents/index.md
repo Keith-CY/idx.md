@@ -18,7 +18,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/ai-pdf-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:20.554Z
+retrieved_at: 2026-02-07T03:39:42.230Z
 content_sha256: 4c63709141c6a554e194080e06130193d3f6bb2c56da3a3dac12e57f44fa6f89
 ---
 |/data/openclaw-openclaw-ai-pdf-builder|
@@ -50,7 +50,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ntlx/beautiful-mermaid/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:30.070Z
+retrieved_at: 2026-02-07T03:39:43.660Z
 content_sha256: ef2a509e69c70cd551a9ef2985e46384e614f91d46b52c423e7e20b420e96cfe
 ---
 |/data/openclaw-openclaw-beautiful-mermaid|
@@ -68,7 +68,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/christianhaberl/boggle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:32.312Z
+retrieved_at: 2026-02-07T03:39:44.005Z
 content_sha256: 0462ab5e94f20a448b9d38e8484a13ed1d83c13e070a4e8b2ca2f8a00859d13e
 ---
 |/data/openclaw-openclaw-boggle|
@@ -85,7 +85,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/confidant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:46.291Z
+retrieved_at: 2026-02-07T03:39:46.561Z
 content_sha256: 550a4fa30a4cd7de2c30e7c7d8ae02c4e0dff2fe4ba131f7a7ed5a8a9ef78584
 ---
 |/data/openclaw-openclaw-confidant|
@@ -102,7 +102,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/francisbrero/confluence/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:46.523Z
+retrieved_at: 2026-02-07T03:39:46.602Z
 content_sha256: 55f6271a72c064a4e14313c87297bc5209785e480c9e91e49e869b1b3bdbc9a6
 ---
 |/data/openclaw-openclaw-confluence|
@@ -120,7 +120,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/create-dxf/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:49.237Z
+retrieved_at: 2026-02-07T03:39:47.041Z
 content_sha256: 2c9c375cda48b0b5c3d2d2b58d014aec9f032317b4ab1f21aad87864c2ba61d5
 ---
 |/data/openclaw-openclaw-create-dxf|
@@ -147,7 +147,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/creator-rights-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:49.414Z
+retrieved_at: 2026-02-07T03:39:47.065Z
 content_sha256: d1a5a83203d815cf77048d97e00ee3ab613089a6f18e2627b442213db7caba62
 ---
 |/data/openclaw-openclaw-creator-rights-assistant|
@@ -165,7 +165,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/docx/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:54.479Z
+retrieved_at: 2026-02-07T03:39:47.794Z
 content_sha256: 0bd90681fcab2e282025ee14acf508b60bbd6c41ac6c3bf83c0dc14d52c37933
 ---
 |/data/openclaw-openclaw-docx|
@@ -182,7 +182,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/docx-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:54.543Z
+retrieved_at: 2026-02-07T03:39:47.806Z
 content_sha256: f276f5c79047cfbf4dfdaf956d181a4b05463462ef5ce19664817d4c4337853e
 ---
 |/data/openclaw-openclaw-docx-skill|
@@ -199,7 +199,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/excel/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:00.512Z
+retrieved_at: 2026-02-07T03:39:48.580Z
 content_sha256: d4c553506f364a71bc54c2ccc1e13c4b3f619fb806f8753da3254fde2c95b0d6
 ---
 |/data/openclaw-openclaw-excel|
@@ -217,7 +217,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/excel-weekly-dashboard/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:00.578Z
+retrieved_at: 2026-02-07T03:39:48.592Z
 content_sha256: 968edc39e349f48fb3365b58172f954c18182e415c2580e0e52c5e25044f3c66
 ---
 |/data/openclaw-openclaw-excel-weekly-dashboard|
@@ -234,7 +234,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-card/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:02.573Z
+retrieved_at: 2026-02-07T03:39:48.872Z
 content_sha256: b6e13b240fda08cc549e5c9b0bf45b6976b1413565ad47d6e416d669580adc1a
 ---
 |/data/openclaw-openclaw-feishu-card|
@@ -252,7 +252,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/internal-comms/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:18.945Z
+retrieved_at: 2026-02-07T03:39:51.495Z
 content_sha256: 067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475
 ---
 |/data/openclaw-openclaw-internal-comms|
@@ -269,7 +269,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rezhajulio/intomd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:19.258Z
+retrieved_at: 2026-02-07T03:39:51.554Z
 content_sha256: c145476fbae09018005c4e2cd9ce13d22e6e25e4dbbf6194789ec08ad244d907
 ---
 |/data/openclaw-openclaw-intomd|
@@ -286,7 +286,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmigone/invoice-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:19.323Z
+retrieved_at: 2026-02-07T03:39:51.573Z
 content_sha256: f5000cbc5f11f101a36a6bc7a3408b16bf5323d6c9ca54ee3743cf51963f4b8d
 ---
 |/data/openclaw-openclaw-invoice-generator|
@@ -303,7 +303,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chndranndr/japanese-tutor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:19.894Z
+retrieved_at: 2026-02-07T03:39:51.668Z
 content_sha256: c16052754c14eb63f03634adc2ac2549e06d1d752f3d0806919a18eeb0156d46
 ---
 |/data/openclaw-openclaw-japanese-tutor|
@@ -320,7 +320,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manas-io-ai/legaldoc-ai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:24.590Z
+retrieved_at: 2026-02-07T03:39:52.463Z
 content_sha256: 699d336035f34acc982f80748f0c980e4906c588d6d28a9f579f96fbd6d02a90
 ---
 |/data/openclaw-openclaw-legaldoc-ai|
@@ -337,7 +337,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/markdown-converter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:27.496Z
+retrieved_at: 2026-02-07T03:39:52.937Z
 content_sha256: 354b8335051b9037e8c23324c33f68b3abbdac5ab9cfa12935c26b53575cf488
 ---
 |/data/openclaw-openclaw-markdown-converter|
@@ -354,7 +354,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/mineru-pdf-parser-clawdbot-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:30.924Z
+retrieved_at: 2026-02-07T03:39:53.547Z
 content_sha256: ffef926bcf10f43daac41de204a9f24db10c779b0866a99201d61ffa77fa6209
 ---
 |/data/openclaw-openclaw-mineru-pdf-parser-clawdbot-skill|
@@ -371,7 +371,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chronicuser21/molt-identity/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:33.253Z
+retrieved_at: 2026-02-07T03:39:53.823Z
 content_sha256: ea0ac1cb6fea4153e129190e1a753d2ae976d4bb33133cce7924f3fb1e6be956
 ---
 |/data/openclaw-openclaw-molt-identity|
@@ -388,7 +388,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/mspot-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:36.808Z
+retrieved_at: 2026-02-07T03:39:54.582Z
 content_sha256: fcf85a8f139d00de627d8107f9545b0d4fa5875c595f626482fa6a618b100dc0
 ---
 |/data/openclaw-openclaw-mspot-generator|
@@ -405,7 +405,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/nano-pdf/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:38.169Z
+retrieved_at: 2026-02-07T03:39:54.837Z
 content_sha256: 4a19c3916062a0b2a303f929be2e11bc89ed8531b47fa565d7936a363f34d4ac
 ---
 |/data/openclaw-openclaw-nano-pdf|
@@ -422,7 +422,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/nudocs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:41.989Z
+retrieved_at: 2026-02-07T03:39:55.456Z
 content_sha256: 6412a3ae624b466af8a0883e769e973f6252232e65c77a3c0784ab7897be4949
 ---
 |/data/openclaw-openclaw-nudocs|
@@ -439,7 +439,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/raulsimpetru/pdf-form-filler/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:47.937Z
+retrieved_at: 2026-02-07T03:39:56.529Z
 content_sha256: e4585defbc2d3a94b02cb254a6d197d378c992deff6ae979a8504f6ee6c68702
 ---
 |/data/openclaw-openclaw-pdf-form-filler|
@@ -457,7 +457,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/pptx-creator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:52.416Z
+retrieved_at: 2026-02-07T03:39:57.265Z
 content_sha256: 833d050d1098aff2fb04d21c8b9f22eada37cffe9a52ddebb8d1581b84e6dc61
 ---
 |/data/openclaw-openclaw-pptx-creator|
@@ -474,8 +474,8 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vegovevo/prezentit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:52.832Z
-content_sha256: aac835026fb01d3d9210057cbbc560116fbae477faf86546a054c4923f1ee749
+retrieved_at: 2026-02-07T03:39:57.341Z
+content_sha256: 618ea60f28386f1853ff60df7938a5045aea14eba37b9bab50c794cc64021f68
 ---
 |/data/openclaw-openclaw-prezentit|
 
@@ -492,7 +492,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/pymupdf-pdf-parser-clawdbot-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:55.963Z
+retrieved_at: 2026-02-07T03:39:57.851Z
 content_sha256: 39f8b6c34d8640adbed8f90e23fd8f74393e63c3d3b0129bf1fd23e45ca191f8
 ---
 |/data/openclaw-openclaw-pymupdf-pdf-parser-clawdbot-skill|
@@ -509,7 +509,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/resume-cv-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:01.099Z
+retrieved_at: 2026-02-07T03:39:58.707Z
 content_sha256: e4c969c61dcb92f13866b1ea5014115941b857503870576b8ada07c560ae3800
 ---
 |/data/openclaw-openclaw-resume-cv-builder|
@@ -526,7 +526,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/resume-optimizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:01.187Z
+retrieved_at: 2026-02-07T03:39:58.720Z
 content_sha256: c8b53626e0da4a4c23562490842c37fb5a83244e9aee0470fd4b8c2819a07280
 ---
 |/data/openclaw-openclaw-resume-optimizer|
@@ -543,7 +543,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mve/slidespeak/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:09.008Z
+retrieved_at: 2026-02-07T03:39:59.973Z
 content_sha256: f0e378e3c78c28f5de54d8990fe9e755d86b292306eadf408b8f562408a6c79f
 ---
 |/data/openclaw-openclaw-slidespeak|
@@ -561,7 +561,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/style-guide-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:12.936Z
+retrieved_at: 2026-02-07T03:40:00.569Z
 content_sha256: bc5741056ef584ee605984bc65f9c6df28ca89d9e4a822668dae34f19e871fa6
 ---
 |/data/openclaw-openclaw-style-guide-generator|
@@ -578,7 +578,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gregm711/typetex/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:23.687Z
+retrieved_at: 2026-02-07T03:40:02.126Z
 content_sha256: 16e7e07ec4e247b23d3d68d9ec1146448980ea0913677fc6e4f876fe4927392e
 ---
 |/data/openclaw-openclaw-typetex|
@@ -596,7 +596,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/xlsx/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:36.014Z
+retrieved_at: 2026-02-07T03:40:03.858Z
 content_sha256: 020ccdb5932257b66c638ec1157ea248d57fa52c8c01f1f68b559b5970c7df35
 ---
 |/data/openclaw-openclaw-xlsx|
@@ -613,7 +613,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zonder/yboard-operator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:36.258Z
+retrieved_at: 2026-02-07T03:40:03.894Z
 content_sha256: ab97c3789fe348f5d56b77170a664c8c93da495b8e010923806985d43d28c533
 ---
 |/data/openclaw-openclaw-yboard-operator|

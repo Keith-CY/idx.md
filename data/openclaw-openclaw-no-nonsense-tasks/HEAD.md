@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dvjn/no-nonsense-tasks/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:40.225Z
+retrieved_at: 2026-02-07T03:39:55.161Z
 content_sha256: 604e4e8b9e58c7b5eff29890d3e1e2c578f66364b31d16b8b13a9dbadadabb26
 ---

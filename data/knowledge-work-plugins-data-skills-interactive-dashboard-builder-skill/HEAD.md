@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/interactive-dashboard-builder/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/interactive-dashboard-builder/SKILL.md
-retrieved_at: 2026-02-06T12:05:02.110Z
+retrieved_at: 2026-02-07T03:40:07.375Z
 content_sha256: 3756173c5802fd4f60eda76087edc778ceda155dc6404d6a2fa9ca54c0e18d9f
 ---

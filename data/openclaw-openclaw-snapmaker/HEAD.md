@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucakaufmann/snapmaker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:09.327Z
+retrieved_at: 2026-02-07T03:40:00.019Z
 content_sha256: da25b9603a7ae8ebd37d8140d36acf69009c810d9d3e2e2f7e95409b6293a61c
 ---

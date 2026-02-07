@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-meeting-intelligence/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-meeting-intelligence/SKILL.md
-retrieved_at: 2026-02-06T11:59:52.314Z
+retrieved_at: 2026-02-07T03:39:37.381Z
 content_sha256: bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332
 ---

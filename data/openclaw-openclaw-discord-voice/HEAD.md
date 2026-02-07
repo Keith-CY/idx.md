@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/avatarneil/discord-voice/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:54.016Z
+retrieved_at: 2026-02-07T03:39:47.717Z
 content_sha256: 7673577776599f2cbac7fe1be0f485cec60ed23b268e86fe698fb715e8d6d063
 ---

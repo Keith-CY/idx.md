@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/sonoscli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:10.544Z
+retrieved_at: 2026-02-07T03:40:00.213Z
 content_sha256: 0b9cf84b375cd2269aa7c295a776129c3c630b916ea66f9fd0b49feb76ba7499
 ---

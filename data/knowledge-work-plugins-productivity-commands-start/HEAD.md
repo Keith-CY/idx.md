@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/commands/start.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/commands/start.md
-retrieved_at: 2026-02-06T12:05:01.842Z
+retrieved_at: 2026-02-07T03:40:07.336Z
 content_sha256: 9a7ca7c70f4e365839886b1d05e25e7076319c509624a02d428fe0a64a7b6a15
 ---

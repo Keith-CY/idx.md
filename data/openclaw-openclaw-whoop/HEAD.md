@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/whoop/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:32.252Z
+retrieved_at: 2026-02-07T03:40:03.332Z
 content_sha256: 43a9e184cdc8c22253d2634018fd42dfea1d2ce01851362f46e3d9f9266112b2
 ---

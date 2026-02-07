@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eggressive/ns-trains/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:41.924Z
-content_sha256: 81bf9b371e61b53b91f2cc50a46ab79f649cfdf953043fac247b150b839eaa07
+retrieved_at: 2026-02-07T03:39:55.442Z
+content_sha256: 6eaca018f988dabc6e8a0d1822be28626d3c9f547f984f0da9bbe620dca1d4fc
 ---

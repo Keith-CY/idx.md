@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-http/references/http-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-http
-retrieved_at: 2026-02-06T12:00:01.200Z
+retrieved_at: 2026-02-07T03:39:38.850Z
 content_sha256: fbf54fc7b87b23e24794781e98640748306a67d28e0cc4e62a6816af2cb780ec
 ---

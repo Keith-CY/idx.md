@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericarnoldy/hass-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:14.200Z
+retrieved_at: 2026-02-07T03:39:50.717Z
 content_sha256: 10a85f27f5f1e4040370dfae3e219943eec9a8b844da2cee4ff3dc02726dc12b
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/othmanadi/planning-with-files/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:50.932Z
+retrieved_at: 2026-02-07T03:39:57.021Z
 content_sha256: 94e5791ae8b917e20581146c91c61636ae8a72f0a38b2ac0a999de773a9d0496
 ---

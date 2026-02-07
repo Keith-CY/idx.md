@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/main/skills/manimgl-best-practices/rules/scenes.md
 license: ""
 upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimgl-best-practices
-retrieved_at: 2026-02-06T12:00:02.689Z
+retrieved_at: 2026-02-07T03:39:39.003Z
 content_sha256: af4f98dc732fb9be522b2d53e7727c439258fb217cbaaa3c1360537f5cebc7ed
 ---

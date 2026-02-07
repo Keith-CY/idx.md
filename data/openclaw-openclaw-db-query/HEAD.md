@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zenixp/db-query/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:00:51.390Z
+retrieved_at: 2026-02-07T03:39:47.330Z
 content_sha256: fb74ef03428926cdc4f1b384453c9ea02efbd771067d7b3acf3e8a27dd3e0cbd
 ---

@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/competitive-brief.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/competitive-brief.md
-retrieved_at: 2026-02-06T12:05:05.710Z
+retrieved_at: 2026-02-07T03:40:07.891Z
 content_sha256: 07ac7c828dabaec69b58e81fdc0a49d6de4ae464ae953615fe9898ddc1b04efc
 ---

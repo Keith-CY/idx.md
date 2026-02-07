@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/self-love-confidence/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:04.362Z
+retrieved_at: 2026-02-07T03:39:59.281Z
 content_sha256: c766b93bfbe2b6fbc72ba07240f990781039a03b509ee3cb79a70fae0f617f8f
 ---

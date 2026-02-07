@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/michaelversus/swiftfindrefs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:02:13.970Z
+retrieved_at: 2026-02-07T03:40:00.736Z
 content_sha256: 59cc5c31977d3accc7c95ea08c56c1d2db2f006c8b47ff2a1d7272d19f4730fe
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sharanga10/pinak-frontend-guru/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:49.718Z
+retrieved_at: 2026-02-07T03:39:56.818Z
 content_sha256: 56af4b85eeefb20606650ebe9aa336c99ff8eae56a056121405533b902584071
 ---

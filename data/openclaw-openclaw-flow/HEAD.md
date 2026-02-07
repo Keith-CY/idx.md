@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bvinci1-design/flow/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:05.167Z
+retrieved_at: 2026-02-07T03:39:49.315Z
 content_sha256: 37e2abd0532d2fdd3491d061b810ee1b53ff097a8785367e4a86f9fffd4171cf
 ---

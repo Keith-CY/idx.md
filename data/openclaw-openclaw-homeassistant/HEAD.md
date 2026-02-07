@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/homeassistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-06T12:01:15.757Z
+retrieved_at: 2026-02-07T03:39:51.025Z
 content_sha256: 5fbf496886ff16538df3568f1282adc6140890e6d85170fa9a8a8f22586c8f24
 ---

@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/meeting-briefing/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/meeting-briefing/SKILL.md
-retrieved_at: 2026-02-06T12:05:03.039Z
+retrieved_at: 2026-02-07T03:40:07.528Z
 content_sha256: 4d19bc2ddb2138d1b306b150c5d0900ce0a398d5ab690b8eba8101ef33d98baa
 ---
