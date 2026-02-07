@@ -22,15 +22,18 @@ describe("worker fetch", () => {
     expect(response.headers.get("content-type")).toBe(
       "text/html; charset=utf-8",
     );
+    expect(response.headers.get("vary")).toBe("User-Agent");
     const body = await response.text();
     expect(body).toContain("Open the index. Agents learn by browsing.");
     expect(body).toContain("idx.md is an open, agent-first knowledge index");
-    expect(body).toContain(
-      "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg",
-    );
+    expect(body).toContain("https://idx.md/og.jpg");
     expect(body).toContain('property="og:title"');
     expect(body).toContain('property="og:description"');
     expect(body).toContain('property="og:image"');
+    expect(body).toContain('name="twitter:title"');
+    expect(body).toContain('name="twitter:description"');
+    expect(body).toContain('name="twitter:image"');
+    expect(body).toContain('name="twitter:url"');
   });
 
   test("returns og html when og=1 is present", async () => {
@@ -53,6 +56,38 @@ describe("worker fetch", () => {
     expect(body).toContain("Open the index. Agents learn by browsing.");
   });
 
+  test("proxies /og.jpg from upstream image source", async () => {
+    const env = {
+      IDX_MD: {
+        get: async () => ({ body: "hello" }),
+      },
+    } as any;
+
+    const originalFetch = globalThis.fetch;
+    globalThis.fetch = (async (input: string | URL | Request) => {
+      expect(input.toString()).toBe(
+        "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg",
+      );
+      return new Response("image-bytes", {
+        status: 200,
+        headers: {
+          "content-type": "image/jpeg",
+        },
+      });
+    }) as typeof fetch;
+
+    try {
+      const response = await worker.fetch(new Request("https://idx.md/og.jpg"), env);
+      expect(response.status).toBe(200);
+      expect(response.headers.get("content-type")).toBe("image/jpeg");
+      expect(response.headers.get("cache-control")).toBe("public, max-age=86400");
+      const body = await response.text();
+      expect(body).toBe("image-bytes");
+    } finally {
+      globalThis.fetch = originalFetch;
+    }
+  });
+
   test("returns markdown 404 when missing", async () => {
     const env = {
       IDX_MD: {
@@ -66,6 +101,7 @@ describe("worker fetch", () => {
     expect(response.headers.get("content-type")).toBe(
       "text/markdown; charset=utf-8",
     );
+    expect(response.headers.get("vary")).toBe("User-Agent");
     const body = await response.text();
     expect(body).toContain("Not Found");
   });
@@ -86,6 +122,7 @@ describe("worker fetch", () => {
     expect(response.headers.get("content-type")).toBe(
       "text/markdown; charset=utf-8",
     );
+    expect(response.headers.get("vary")).toBe("User-Agent");
     const body = await response.text();
     expect(body).toBe("hello");
   });
