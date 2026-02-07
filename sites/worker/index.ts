@@ -35,7 +35,7 @@ function setVaryUserAgent(headers: Headers): Headers {
     .map((value) => value.trim().toLowerCase())
     .filter(Boolean);
 
-  if (!values.includes("user-agent")) {
+  if (!values.includes(VARY_USER_AGENT.toLowerCase())) {
     headers.set("vary", `${existing}, ${VARY_USER_AGENT}`);
   }
 
