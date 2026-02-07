@@ -1738,3 +1738,17 @@
     - plugin-command
     - category-communication
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/kb-article.md
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-remotion
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/video/remotion/references/animations.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/remotion
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetration-testing
