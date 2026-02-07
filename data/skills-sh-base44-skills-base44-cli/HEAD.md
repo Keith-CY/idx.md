@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/base44/skills/main/skills/base44-cli/references/auth-login.md
+source_url: https://raw.githubusercontent.com/base44/skills/HEAD/skills/base44-cli/references/auth-login.md
 license: ""
 upstream_ref: https://skills.sh/base44/skills/base44-cli
-retrieved_at: 2026-02-07T05:24:02.431Z
+retrieved_at: 2026-02-07T06:47:43.573Z
 content_sha256: 834fed8eec8dc8bb5e8171fcdb9025de002fe25c219797dfdd422032f29da356
 ---

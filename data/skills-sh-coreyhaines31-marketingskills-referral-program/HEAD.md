@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/referral-program/references/program-examples.md
+source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/referral-program/references/program-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/referral-program
-retrieved_at: 2026-02-07T05:23:49.414Z
+retrieved_at: 2026-02-07T06:47:32.903Z
 content_sha256: 60731dc46b911849c26ffdcc9835ad352d690806e4eec0d814a52e5cf21794bc
 ---

@@ -24,6 +24,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ccapton/model-alias-append/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:41.147Z
+retrieved_at: 2026-02-07T06:47:55.666Z
 content_sha256: 772070c50826157bb05d95fdf131b40094e575e6db5a9c2935503e553c5773dc
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/omnifocus-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:51.405Z
+retrieved_at: 2026-02-07T06:47:56.992Z
 content_sha256: 4a35b2f581dc7fc2e70045d6fcb9a8ff5e0f77709cc69d85ef1d429459ebcb39
 ---

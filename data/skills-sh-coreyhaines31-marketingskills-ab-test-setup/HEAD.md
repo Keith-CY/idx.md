@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/ab-test-setup/references/sample-size-guide.md
+source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ab-test-setup/references/sample-size-guide.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
-retrieved_at: 2026-02-07T05:23:49.501Z
+retrieved_at: 2026-02-07T06:47:32.974Z
 content_sha256: b46fb00f3d4147bc0b1dbe1be95db65c3c7e2cf092727afe864a2f7e5524f272
 ---

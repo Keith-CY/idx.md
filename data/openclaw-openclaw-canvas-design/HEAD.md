@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/canvas-design/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:24:34.788Z
+retrieved_at: 2026-02-07T06:47:48.470Z
 content_sha256: a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b
 ---

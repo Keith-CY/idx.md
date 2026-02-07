@@ -28,9 +28,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/apollographql/skills/main/skills/apollo-client/references/integration-client.md
+source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-client/references/integration-client.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-client
-retrieved_at: 2026-02-07T05:23:56.338Z
+retrieved_at: 2026-02-07T06:47:38.927Z
 content_sha256: f339ad6a06907be5f66cf034cda9bd78de4e4d79315c9a93faf366974f161cc9
 ---

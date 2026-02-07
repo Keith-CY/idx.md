@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/aws-penetration-testing/references/advanced-aws-pentesting.md
+source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/aws-penetration-testing/references/advanced-aws-pentesting.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/aws-penetration-testing
-retrieved_at: 2026-02-07T05:24:04.382Z
+retrieved_at: 2026-02-07T06:47:45.643Z
 content_sha256: 41556bd893e2f1762271c819b39d072d14b6fcc16879071bc060f470b8673c2d
 ---

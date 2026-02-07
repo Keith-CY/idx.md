@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/apollographql/skills/main/skills/apollo-server/references/resolvers.md
+source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-server/references/resolvers.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-server
-retrieved_at: 2026-02-07T05:24:03.094Z
+retrieved_at: 2026-02-07T06:47:43.936Z
 content_sha256: 55a33184bb8e1d4fac044523888fa8267afe40f7557fbb508c77032e9ea32ea9
 ---

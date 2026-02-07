@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/pptx-creator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:03.222Z
+retrieved_at: 2026-02-07T06:48:00.338Z
 content_sha256: 833d050d1098aff2fb04d21c8b9f22eada37cffe9a52ddebb8d1581b84e6dc61
 ---

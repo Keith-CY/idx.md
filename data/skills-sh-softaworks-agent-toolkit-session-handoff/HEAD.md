@@ -23,9 +23,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/session-handoff/references/handoff-template.md
+source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/session-handoff/references/handoff-template.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/session-handoff
-retrieved_at: 2026-02-07T05:23:47.360Z
+retrieved_at: 2026-02-07T06:47:35.478Z
 content_sha256: 35492711db3a903cf431fe221b82b2d79e3e18aa9d9900dfc3685ee202e3e0e9
 ---

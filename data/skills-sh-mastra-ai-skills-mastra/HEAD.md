@@ -27,9 +27,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/mastra-ai/skills/main/skills/mastra/references/create-mastra.md
+source_url: https://raw.githubusercontent.com/mastra-ai/skills/HEAD/skills/mastra/references/create-mastra.md
 license: ""
 upstream_ref: https://skills.sh/mastra-ai/skills/mastra
-retrieved_at: 2026-02-07T05:23:58.562Z
+retrieved_at: 2026-02-07T06:47:38.559Z
 content_sha256: 85534f5c41c5a615b70ac368cae4b02a6ee1b9df0afb6a3288664a1a2f3c857e
 ---

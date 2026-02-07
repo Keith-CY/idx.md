@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/apollographql/skills/main/skills/apollo-connectors/references/grammar.md
+source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-connectors/references/grammar.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-connectors
-retrieved_at: 2026-02-07T05:24:04.008Z
+retrieved_at: 2026-02-07T06:47:44.623Z
 content_sha256: aea9ec3e60c9d96a95d3b0aafe0f08aa2900e5b2068db47fc0fc8dcd683eef8e
 ---

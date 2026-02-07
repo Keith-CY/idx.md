@@ -31,9 +31,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/vuejs-ai/skills/main/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md
+source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-debug-guides
-retrieved_at: 2026-02-07T05:23:52.562Z
+retrieved_at: 2026-02-07T06:47:36.152Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---

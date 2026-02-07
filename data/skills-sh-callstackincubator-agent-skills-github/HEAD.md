@@ -28,9 +28,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/main/skills/github/references/stacked-pr-workflow.md
+source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/github/references/stacked-pr-workflow.md
 license: ""
 upstream_ref: https://skills.sh/callstackincubator/agent-skills/github
-retrieved_at: 2026-02-07T05:23:54.704Z
+retrieved_at: 2026-02-07T06:47:37.658Z
 content_sha256: 9957f4dbe0703ce704f0e695ede5384bc1a9865fdc4f7ca08e0979a0db444604
 ---

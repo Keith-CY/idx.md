@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/telegram-create-bot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:33.811Z
+retrieved_at: 2026-02-07T06:48:20.454Z
 content_sha256: 8f2d5d0273993382e25d6f42b38edd1394d6adedfe6119d636a4d14e7042e289
 ---

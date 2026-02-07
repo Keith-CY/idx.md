@@ -28,9 +28,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/anthropics/claude-plugins-official/main/plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md
+source_url: https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-automation-recommender
-retrieved_at: 2026-02-07T05:23:57.146Z
+retrieved_at: 2026-02-07T06:47:39.470Z
 content_sha256: 64a12ab24618e4987ba947638fb598683635e80db92f3253e87d5b06c878174d
 ---

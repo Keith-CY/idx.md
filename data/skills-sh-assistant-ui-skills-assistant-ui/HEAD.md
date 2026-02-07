@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/assistant-ui/skills/main/assistant-ui/skills/assistant-ui/references/architecture.md
+source_url: https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md
 license: ""
 upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
-retrieved_at: 2026-02-07T05:24:03.819Z
+retrieved_at: 2026-02-07T06:47:44.152Z
 content_sha256: bfe05a0e377441892e99381bfbaaf8a80dc0de954b31668fb2528cce9755a9c3
 ---

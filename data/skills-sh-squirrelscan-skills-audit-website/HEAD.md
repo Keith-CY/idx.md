@@ -28,9 +28,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/squirrelscan/skills/main/audit-website/references/OUTPUT-FORMAT.md
+source_url: https://raw.githubusercontent.com/squirrelscan/skills/HEAD/audit-website/references/OUTPUT-FORMAT.md
 license: ""
 upstream_ref: https://skills.sh/squirrelscan/skills/audit-website
-retrieved_at: 2026-02-07T05:23:46.569Z
+retrieved_at: 2026-02-07T06:47:31.242Z
 content_sha256: 4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a
 ---

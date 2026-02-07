@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/escalate.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/escalate.md
-retrieved_at: 2026-02-07T05:27:14.710Z
+retrieved_at: 2026-02-07T06:48:44.584Z
 content_sha256: 94814e5af4e139dd72d3e1f773c1ee4a038ad7ff517ee9be5c298a4fd6b7a050
 ---

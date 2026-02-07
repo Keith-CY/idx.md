@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/apollographql/skills/main/skills/rover/references/subgraphs.md
+source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/rover/references/subgraphs.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/rover
-retrieved_at: 2026-02-07T05:24:04.198Z
+retrieved_at: 2026-02-07T06:47:45.001Z
 content_sha256: f732157ff9b42fdd8dd71280d8ba9c03886cbace4031df5b06831f52835a5c5b
 ---

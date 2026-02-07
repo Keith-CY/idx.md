@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjnpage/rankaj/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:27:04.830Z
+retrieved_at: 2026-02-07T06:48:39.791Z
 content_sha256: b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70
 ---

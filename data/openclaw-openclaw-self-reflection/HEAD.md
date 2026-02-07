@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hopyky/self-reflection/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:18.752Z
+retrieved_at: 2026-02-07T06:48:10.770Z
 content_sha256: eb35627fb6fa48fecfd62c2b4ace6e2a4e424981a5a7deb8f89cc70865551a79
 ---

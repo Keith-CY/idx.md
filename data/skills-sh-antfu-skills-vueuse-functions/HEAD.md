@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/antfu/skills/main/skills/vueuse-functions/references/createGlobalState.md
+source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vueuse-functions/references/createGlobalState.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
-retrieved_at: 2026-02-07T05:23:50.170Z
+retrieved_at: 2026-02-07T06:47:33.481Z
 content_sha256: 43a260724cb8610553d487a4cd59591efbc61a9876c07dbea04b07381ca7479f
 ---

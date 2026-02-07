@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-mail/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:24:18.359Z
+retrieved_at: 2026-02-07T06:47:47.024Z
 content_sha256: 71d753dfd40c9a1c3b8cb499cfa62f5ee6f964e4965771b4b8c83d1a3c75f499
 ---

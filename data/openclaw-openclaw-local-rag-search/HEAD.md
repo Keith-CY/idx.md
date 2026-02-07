@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nkapila6/local-rag-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:35.158Z
+retrieved_at: 2026-02-07T06:47:54.883Z
 content_sha256: c5ce423a1c1a7c7b91c77df8c14f3c1870311a9399cca8694e28474e3af1b695
 ---

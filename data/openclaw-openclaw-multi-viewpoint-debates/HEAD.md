@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/latentfreedom/multi-viewpoint-debates/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:45.009Z
+retrieved_at: 2026-02-07T06:47:56.195Z
 content_sha256: 41946f302ce6862eec3d2003a8124dab3b0f7c8d435df25f9281dc1bf76ad760
 ---

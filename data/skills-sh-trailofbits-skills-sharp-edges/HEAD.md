@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/trailofbits/skills/main/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md
+source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
-retrieved_at: 2026-02-07T05:23:55.570Z
+retrieved_at: 2026-02-07T06:47:38.626Z
 content_sha256: 1d99f2716f7bef18efe71015ce0c56e0f4961c042faa503d796d6d4d1626fdc6
 ---

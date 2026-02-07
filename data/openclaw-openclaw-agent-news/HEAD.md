@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bobrenze-bot/agent-news/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:24:10.058Z
+retrieved_at: 2026-02-07T06:47:46.210Z
 content_sha256: 65eac58a19d7f1b3512d7db73cae2794dfe0b42c3b3d97189f8cbf0094b9203e
 ---

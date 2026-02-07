@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-forms/references/form-patterns.md
+source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-forms/references/form-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
-retrieved_at: 2026-02-07T05:23:53.031Z
+retrieved_at: 2026-02-07T06:47:36.519Z
 content_sha256: 1e9b432d3dce9edf19aaa4e0275dd7538c0f21b2fe006f2b280c00072b066915
 ---

@@ -25,9 +25,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/main/skills/manimce-best-practices/rules/scenes.md
+source_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manimce-best-practices/rules/scenes.md
 license: ""
 upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimce-best-practices
-retrieved_at: 2026-02-07T05:23:52.934Z
+retrieved_at: 2026-02-07T06:47:36.683Z
 content_sha256: 7dc32c7c8bfd50d9266351f90cbfc59b2b71f610a37ea6a836af9946dc64b3ba
 ---

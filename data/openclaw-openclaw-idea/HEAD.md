@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewjiang/idea/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:25.628Z
+retrieved_at: 2026-02-07T06:47:53.636Z
 content_sha256: a5221aafdb7fdf51578f08f4355f971c2169bb9bed36d1a5028cecb6a3953708
 ---

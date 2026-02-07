@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/cloudflare/skills/main/skills/building-mcp-server-on-cloudflare/references/oauth-setup.md
+source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/building-mcp-server-on-cloudflare/references/oauth-setup.md
 license: ""
 upstream_ref: https://skills.sh/cloudflare/skills/building-mcp-server-on-cloudflare
-retrieved_at: 2026-02-07T05:24:00.013Z
+retrieved_at: 2026-02-07T06:47:41.353Z
 content_sha256: 9e57f929797d2827b71c87a6e9e4f5d1ce036b14a8c19fe52ae4eee6c1b493ab
 ---

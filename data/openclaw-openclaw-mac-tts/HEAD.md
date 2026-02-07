@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kalijason/mac-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:35.937Z
+retrieved_at: 2026-02-07T06:47:54.988Z
 content_sha256: eba20b0888c528895b868f187e84be6d6d230b7cd0d5f01f2f10b958fd5f2c74
 ---

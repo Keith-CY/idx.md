@@ -30,9 +30,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/main/skills/domain-hunter/references/registrars.md
+source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/domain-hunter/references/registrars.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
-retrieved_at: 2026-02-07T05:24:03.720Z
+retrieved_at: 2026-02-07T06:47:44.399Z
 content_sha256: 3f36d8253a88fad4526356ade419c97393b075e7c4d3a288e519525be0463078
 ---

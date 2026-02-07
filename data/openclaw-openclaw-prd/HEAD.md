@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/prd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:03.398Z
+retrieved_at: 2026-02-07T06:48:00.481Z
 content_sha256: 642db64091e78dd54b696292cd153ca22841c89273a359c1eb09dca0535cf8c5
 ---

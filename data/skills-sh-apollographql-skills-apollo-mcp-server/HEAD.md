@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/apollographql/skills/main/skills/apollo-mcp-server/references/tools.md
+source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-mcp-server/references/tools.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
-retrieved_at: 2026-02-07T05:23:58.866Z
+retrieved_at: 2026-02-07T06:47:40.825Z
 content_sha256: da0ac85b54c29fe6eca88da2730faea5fd823de08dfccb6236ac5cf85738ea35
 ---

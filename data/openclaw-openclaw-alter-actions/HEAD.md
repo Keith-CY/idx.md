@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/olivieralter/alter-actions/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:24:14.871Z
+retrieved_at: 2026-02-07T06:47:46.678Z
 content_sha256: f70bf40c4a7a7c9d29a7f207aaa4b49aaf72fe7cf279366a9ac82da90edc91d7
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xyberfactor/onlymoltsv1/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:51.728Z
+retrieved_at: 2026-02-07T06:47:57.039Z
 content_sha256: 0caadca8a22cc0693bf6df8ebeaa47a84e67cb99161d71d1b41447c382adfca2
 ---

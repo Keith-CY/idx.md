@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/payloadcms/skills/main/skills/payload/reference/FIELDS.md
+source_url: https://raw.githubusercontent.com/payloadcms/skills/HEAD/skills/payload/reference/FIELDS.md
 license: ""
 upstream_ref: https://skills.sh/payloadcms/skills/payload
-retrieved_at: 2026-02-07T05:23:57.578Z
+retrieved_at: 2026-02-07T06:47:39.769Z
 content_sha256: 990172ff51d8958c9711a23e0857029ef2c92dfeb75112e304aa96af1704825d
 ---

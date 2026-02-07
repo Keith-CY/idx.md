@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/resume-optimizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:13.986Z
+retrieved_at: 2026-02-07T06:48:08.142Z
 content_sha256: c8b53626e0da4a4c23562490842c37fb5a83244e9aee0470fd4b8c2819a07280
 ---

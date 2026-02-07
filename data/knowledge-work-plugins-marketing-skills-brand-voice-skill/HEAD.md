@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-voice/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-voice/SKILL.md
-retrieved_at: 2026-02-07T05:27:10.282Z
+retrieved_at: 2026-02-07T06:48:42.392Z
 content_sha256: e88cbe7a68826350cde2b3050b4dfd4caa1ce41dd2d80b7ed47d79c39c7e7d35
 ---

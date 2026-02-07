@@ -23,9 +23,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/main/skills/agent-browser/references/commands.md
+source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/agent-browser/references/commands.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
-retrieved_at: 2026-02-07T05:23:46.381Z
+retrieved_at: 2026-02-07T06:47:31.163Z
 content_sha256: 3e5e521a1e6fdd7c0304333883b16859f83b2149bed70ede10464e534c9e4740
 ---

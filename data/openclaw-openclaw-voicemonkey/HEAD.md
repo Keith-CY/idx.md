@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jayakumark/voicemonkey/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:45.681Z
+retrieved_at: 2026-02-07T06:48:28.226Z
 content_sha256: b81241ed69a3b3b2cb2bc19b1c3878417d938de3508d54d4cb95ec535e544fa8
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/morning-email-rollup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:44.279Z
+retrieved_at: 2026-02-07T06:47:56.106Z
 content_sha256: 6fdbac775d32bc591670e7ba89b17e5c1da3657284cbbddd96053611710fac53
 ---

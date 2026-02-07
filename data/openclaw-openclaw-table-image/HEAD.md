@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joargp/table-image/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:31.590Z
+retrieved_at: 2026-02-07T06:48:18.983Z
 content_sha256: b5ec5cb0f1837863214406b1e918608d381a2a7db6005ff59fa2dbd1b481fd5b
 ---

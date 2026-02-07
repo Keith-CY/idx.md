@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/antfu/skills/main/skills/vitest/references/core-config.md
+source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitest/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vitest
-retrieved_at: 2026-02-07T05:23:49.989Z
+retrieved_at: 2026-02-07T06:47:33.341Z
 content_sha256: 5fd3cf0983f203f14c4f4732dde0632c1d537241daa5cffea24f7e55712a6fb3
 ---

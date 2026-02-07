@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/charbeld/people-memories/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:58.042Z
+retrieved_at: 2026-02-07T06:47:57.826Z
 content_sha256: 8033c93e650a6f78f5d32d0c0ac6691e81984c051838e350dc1c0e6f20d12244
 ---

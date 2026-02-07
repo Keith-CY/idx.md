@@ -23,9 +23,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/react-dev/references/react-19-patterns.md
+source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-dev/references/react-19-patterns.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-dev
-retrieved_at: 2026-02-07T05:23:48.428Z
+retrieved_at: 2026-02-07T06:47:36.082Z
 content_sha256: 385551bdf34ca46da9241299cc3850b801e98087f8a192c872691d3209d90738
 ---

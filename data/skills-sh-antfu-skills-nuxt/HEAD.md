@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/antfu/skills/main/skills/nuxt/references/core-directory-structure.md
+source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/nuxt/references/core-directory-structure.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/nuxt
-retrieved_at: 2026-02-07T05:23:50.444Z
+retrieved_at: 2026-02-07T06:47:33.847Z
 content_sha256: 8483343d5291ce55111ba074c671549c323f63c85a806a4bf9002d576ab53a2b
 ---

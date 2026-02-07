@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-langchain/references/agents.md
+source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/ai-research/agents-langchain/references/agents.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/langchain
-retrieved_at: 2026-02-07T05:24:02.330Z
+retrieved_at: 2026-02-07T06:47:43.120Z
 content_sha256: 724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555
 ---

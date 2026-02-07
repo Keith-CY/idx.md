@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zizi-cat/spool/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:26.783Z
+retrieved_at: 2026-02-07T06:48:15.864Z
 content_sha256: 53ee39c43394815048d8e171bccd6fbccfee3346509e6188f958619de5ff21cf
 ---

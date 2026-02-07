@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/guoqiao/mlx-stt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:40.903Z
+retrieved_at: 2026-02-07T06:47:55.633Z
 content_sha256: c3ee59d7c152721c33767d15957d056eccc92d23d602f8d8315e3515c424c969
 ---

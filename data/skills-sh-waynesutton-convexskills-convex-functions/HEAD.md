@@ -30,9 +30,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/waynesutton/convexskills/main/skills/convex-best-practices/SKILL.md
+source_url: https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/waynesutton/convexskills/convex-functions
-retrieved_at: 2026-02-07T05:23:56.954Z
+retrieved_at: 2026-02-07T06:47:39.075Z
 content_sha256: 20e2298b8ebeca51e189394ec924756dfaef5fa70170ff7fd2fbdb5177718fcd
 ---

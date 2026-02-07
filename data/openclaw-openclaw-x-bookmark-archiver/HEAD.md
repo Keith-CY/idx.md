@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamadig/x-bookmark-archiver/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:54.005Z
+retrieved_at: 2026-02-07T06:48:32.387Z
 content_sha256: b6fc593899b66aee5e36ef3b79e9887395b86e13c2ca64d07dbd072e95b91f76
 ---

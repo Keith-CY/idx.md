@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xsir0/google-gemini-media/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:19.935Z
+retrieved_at: 2026-02-07T06:47:52.908Z
 content_sha256: a158cdf5e0f4e7e968beecfc13bd8f83e7380a701b3e383f43060abb65c71575
 ---

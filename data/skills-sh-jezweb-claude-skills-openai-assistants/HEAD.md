@@ -22,9 +22,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/jezweb/claude-skills/main/skills/openai-responses/SKILL.md
+source_url: https://raw.githubusercontent.com/jezweb/claude-skills/HEAD/skills/openai-responses/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/jezweb/claude-skills/openai-assistants
-retrieved_at: 2026-02-07T05:24:03.409Z
+retrieved_at: 2026-02-07T06:47:44.078Z
 content_sha256: df6af7b728865a1fdae77fd660f3fbfc1169243e12f31042b1230036e108fa20
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/op7418/humanizer-zh/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/op7418/humanizer-zh/humanizer-zh
-retrieved_at: 2026-02-07T05:26:59.739Z
+retrieved_at: 2026-02-07T06:48:35.857Z
 content_sha256: e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb
 ---

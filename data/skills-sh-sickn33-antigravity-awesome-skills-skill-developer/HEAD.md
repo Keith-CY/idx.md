@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/skill-developer/SKILL_RULES_REFERENCE.md
+source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/skill-developer/SKILL_RULES_REFERENCE.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/skill-developer
-retrieved_at: 2026-02-07T05:24:02.999Z
+retrieved_at: 2026-02-07T06:47:43.791Z
 content_sha256: 340a66dc9a527da89509459454de7c21a224ae6f0eeef70b6cbee610e7d2e16e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/boyangwang/lark-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:32.888Z
+retrieved_at: 2026-02-07T06:47:54.590Z
 content_sha256: 6f57857b989566a59cea111453d54bfba71f857a80303da03c78b67ef39c78d7
 ---

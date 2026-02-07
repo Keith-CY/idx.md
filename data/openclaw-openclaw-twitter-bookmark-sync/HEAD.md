@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/twitter-bookmark-sync/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:40.289Z
+retrieved_at: 2026-02-07T06:48:24.705Z
 content_sha256: 416c9337350e46e02eb5623a9d411da74b4c56ec44ee7c1b16319e37fd458b6f
 ---

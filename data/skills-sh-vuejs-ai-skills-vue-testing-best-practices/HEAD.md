@@ -31,9 +31,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/vuejs-ai/skills/main/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
+source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-testing-best-practices
-retrieved_at: 2026-02-07T05:23:51.825Z
+retrieved_at: 2026-02-07T06:47:34.902Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---

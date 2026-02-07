@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maddiedreese/figma/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:25:10.678Z
+retrieved_at: 2026-02-07T06:47:51.852Z
 content_sha256: c35f45d9ff33561d1cb6bede85ba73b1a825639cbbe3d835d33d12660e42cc5a
 ---

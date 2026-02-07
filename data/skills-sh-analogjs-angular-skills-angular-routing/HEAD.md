@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/analogjs/angular-skills/main/skills/angular-routing/references/routing-patterns.md
+source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-routing/references/routing-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-routing
-retrieved_at: 2026-02-07T05:23:53.132Z
+retrieved_at: 2026-02-07T06:47:36.587Z
 content_sha256: 8005369d8fe2f045580ae46dc6b067d9fb54fb3cdd3148a583269e0557c9e91c
 ---

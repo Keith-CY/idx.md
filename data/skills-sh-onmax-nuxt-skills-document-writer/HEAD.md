@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/document-writer/references/writing-style.md
+source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/document-writer/references/writing-style.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/document-writer
-retrieved_at: 2026-02-07T05:23:54.519Z
+retrieved_at: 2026-02-07T06:47:37.780Z
 content_sha256: 978b9e55ca9c992652d2b6ff28b57d75d24771b4c5b53fab1d33421c49615769
 ---

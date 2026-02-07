@@ -26,9 +26,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/meme-factory/references/markdown-memes-guide.md
+source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/meme-factory/references/markdown-memes-guide.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/meme-factory
-retrieved_at: 2026-02-07T05:23:47.456Z
+retrieved_at: 2026-02-07T06:47:35.581Z
 content_sha256: 6dd8e5fcc6d674a6abd592ef8f87455b6557fbf59d13608d2dfc5599df47d11e
 ---

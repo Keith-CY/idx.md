@@ -27,9 +27,9 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/main/skills/difficult-workplace-conversations/references/conversation-framework.md
+source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/difficult-workplace-conversations/references/conversation-framework.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/difficult-workplace-conversations
-retrieved_at: 2026-02-07T05:23:47.671Z
+retrieved_at: 2026-02-07T06:47:35.655Z
 content_sha256: 7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139
 ---

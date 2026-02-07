@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/twenty-crm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T05:26:40.181Z
+retrieved_at: 2026-02-07T06:48:24.638Z
 content_sha256: 4da47d714a33adcd57499d21e1c7276782c17d7a617ff92a12803a8dbc6df373
 ---
