@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/diegopetrucci/odds-checker-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:11.515Z
+retrieved_at: 2026-02-08T05:36:25.977Z
 content_sha256: 09730e372d9919e52d2acd66a0d9b87689e588839fc1ab85777f9faee45c98b3
 ---

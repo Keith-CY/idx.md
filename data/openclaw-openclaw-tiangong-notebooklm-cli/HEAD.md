@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fadeloo/tiangong-notebooklm-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:29.214Z
+retrieved_at: 2026-02-08T05:36:49.118Z
 content_sha256: a955524c02813fa92a4217006e66ab0e6de6054a5bee465b85eb192379ba11a3
 ---

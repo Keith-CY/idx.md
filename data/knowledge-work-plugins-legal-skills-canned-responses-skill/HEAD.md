@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/canned-responses/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/canned-responses/SKILL.md
-retrieved_at: 2026-02-07T15:00:41.718Z
+retrieved_at: 2026-02-08T05:37:06.175Z
 content_sha256: e245cfd0612604f4a8c1e060124dc72aa1db829a65250b40e22d119f02570415
 ---

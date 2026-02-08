@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jaysonsantos/bvg-route/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:43.118Z
+retrieved_at: 2026-02-08T05:35:47.942Z
 content_sha256: e997fb60e07199cbc5fbc430fbe6b8c7c8b89f7a93fab331b6491b44fc9dc6c3
 ---

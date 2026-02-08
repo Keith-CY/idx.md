@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/munger-observer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:09.163Z
+retrieved_at: 2026-02-08T05:36:22.788Z
 content_sha256: 748819dc4bd30a0e2a739d898cb4e54660e4c8760efd6f60b0eab89225e9648f
 ---

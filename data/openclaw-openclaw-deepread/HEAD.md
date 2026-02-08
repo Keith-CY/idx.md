@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/uday390/deepread/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:50.179Z
+retrieved_at: 2026-02-08T05:35:57.783Z
 content_sha256: 79c7184d94e00bed4c7d82874adbd5fc66b2a83f979c4bbb8102681bf5c6470f
 ---

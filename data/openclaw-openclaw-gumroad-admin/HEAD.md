@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abakermi/gumroad-admin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:58.675Z
+retrieved_at: 2026-02-08T05:36:09.798Z
 content_sha256: fafbd19a040a55119daf3d5be49e42ef1bcb6c87f5e80d47f2750d9256c6ee84
 ---

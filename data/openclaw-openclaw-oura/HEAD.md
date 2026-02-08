@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ruhrpotter/oura/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:13.486Z
+retrieved_at: 2026-02-08T05:36:28.373Z
 content_sha256: b149674ccedf7d75c32c51a8d4a3d876aed01a5aa4325642ffec000927c4cca7
 ---

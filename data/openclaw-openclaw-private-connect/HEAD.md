@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dantelex/private-connect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:17.089Z
+retrieved_at: 2026-02-08T05:36:33.054Z
 content_sha256: 713f8f15e031d053ad90b37bbe4ac896fcdedaeaf0813512f5c7c58ff0afd505
 ---

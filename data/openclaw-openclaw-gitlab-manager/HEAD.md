@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jorgermp/gitlab-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:57.316Z
+retrieved_at: 2026-02-08T05:36:07.802Z
 content_sha256: e888e32a22c66c413a8875b0f48250d7dbef9c66b32a267441683dcaaadb5a44
 ---

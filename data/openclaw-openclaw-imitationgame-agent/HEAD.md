@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cyberverse2/imitationgame-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:00.397Z
+retrieved_at: 2026-02-08T05:36:12.110Z
 content_sha256: 08fb2a4a694bc8cda93aff1e3e81b45a2861c1fb1ec098d77781c32e202c201a
 ---

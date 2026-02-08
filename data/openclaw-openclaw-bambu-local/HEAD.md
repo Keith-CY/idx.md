@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tanguyvans/bambu-local/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:40.951Z
+retrieved_at: 2026-02-08T05:35:45.061Z
 content_sha256: cc02fbb90003b5c2265a9118204e832fa3c11c184c039106910d544497149658
 ---

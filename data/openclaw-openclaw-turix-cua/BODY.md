@@ -44,7 +44,7 @@ skills/local/turix-mac/scripts/run_turix.sh "Open Chrome and go to github.com"
 skills/local/turix-mac/scripts/run_turix.sh --resume my-task-001
 ```
 
-> ⚠️ **Important**: The `./run_turix.sh` command does NOT automatically update the task in `config.json`. **You must manually edit `examples/config.json` and modify the `agent.task` field before running!**
+> ✅ **Note**: `run_turix.sh` updates `examples/config.json` for you (task, resume, `use_plan`, `use_skills`). If you want to keep a hand-edited config, skip passing a task and edit `examples/config.json` directly.
 
 
 ### Tips for Effective Tasks
@@ -224,10 +224,10 @@ The agent will automatically:
 ### 5. Chinese Text Support
 
 **Background:**
-Passing Chinese text to TuriX via a shell heredoc (`cat << 'EOF' > file`) can cause encoding issues because shell variable handling of UTF-8 may introduce escaping errors.
+Passing Chinese text through shell interpolation can mangle UTF-8, and interpolating untrusted text into a heredoc is unsafe.
 
 **Solution:**
-The `run_turix.sh` script uses Python to handle UTF-8 correctly:
+The `run_turix.sh` script uses Python to handle UTF-8 correctly and reads task text from environment variables:
 
 ```python
 import json
@@ -244,7 +244,7 @@ with open(config_path, 'w', encoding='utf-8') as f:
 **Key points:**
 1. Always use `encoding='utf-8'` when reading/writing files
 2. Use `ensure_ascii=False` to preserve non-ASCII text
-3. Pass task content via an inline Python script instead of a shell heredoc
+3. Pass task content via environment variables or stdin, and use a single-quoted heredoc to avoid shell interpolation
 
 ### 6. Document Creation Best Practices
 
@@ -310,7 +310,7 @@ description: When performing tasks in a web browser (search, navigate, fill form
 
 ```bash
 # Run in background (recommended)
-cd /Users/tonyyan/clawd/skills/local/turix-mac/scripts
+cd your_dir/clawd/skills/local/turix-mac/scripts
 ./run_turix.sh "Your task description" --background
 
 # Or use timeout to set a max runtime

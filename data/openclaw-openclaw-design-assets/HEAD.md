@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/design-assets/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:50.431Z
+retrieved_at: 2026-02-08T05:35:58.177Z
 content_sha256: 55f41f6afea81eb64028ba1609bd096c47e751b42718cea5091ab0573b1531ee
 ---

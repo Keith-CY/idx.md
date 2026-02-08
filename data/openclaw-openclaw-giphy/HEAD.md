@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/minbang930/giphy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:56.936Z
-content_sha256: de8cd2e8720dc67f3f77d1fb3bb046dd1766ed7443f8a0f1179d4c12253c832e
+retrieved_at: 2026-02-08T05:36:07.125Z
+content_sha256: 496e6e5e79fa5b47d81ba58b4cae7880837b02705b34dd10ef288b3089cbd394
 ---

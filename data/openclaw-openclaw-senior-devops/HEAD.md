@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-devops/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:22.719Z
+retrieved_at: 2026-02-08T05:36:40.746Z
 content_sha256: 478aed6e0ef1a629cd1e7b8d3805935ab154a15ed83a9fd928c1114d16abcaad
 ---

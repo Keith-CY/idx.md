@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fsa317/bot-bowl-party/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:42.296Z
+retrieved_at: 2026-02-08T05:35:46.819Z
 content_sha256: 1955b4e8a7921a1250315f49086f17e6937d5253b4932a485a0b070da651eed8
 ---

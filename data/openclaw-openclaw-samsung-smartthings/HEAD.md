@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/regenrek/samsung-smartthings/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:21.771Z
+retrieved_at: 2026-02-08T05:36:39.445Z
 content_sha256: cbcb5b5947421321cb464cb7c8f5fc16cec3a129e7731766ec8703b44c7c7b1c
 ---

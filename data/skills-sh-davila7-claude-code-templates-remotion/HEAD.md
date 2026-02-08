@@ -27,6 +27,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/video/remotion/references/animations.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/remotion
-retrieved_at: 2026-02-07T15:00:44.330Z
+retrieved_at: 2026-02-08T05:37:09.111Z
 content_sha256: 99a6377d64061af5f7fcd1a179c0c8f6d7bcd0a515060a46db117a757ac3387a
 ---

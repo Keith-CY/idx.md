@@ -151,7 +151,7 @@ Note: if `moved_todo_id` starts with `rec_todo_`, the API updates only the recur
 
 ## Common Error Handling (agent guidance)
 
-- `401 token_expired / token_paused / invalid_token`: stop retrying; ask the user to create a new token in 4todo settings and update OpenClaw config.
+- `401 token_expired / invalid_token`: stop retrying; ask the user to create a new token in 4todo settings and update OpenClaw config.
 - `402 WORKSPACE_RESTRICTED`: the workspace is read-only; do not retry mutations; switch workspace or prompt user to upgrade/unlock.
 - `429 rate_limited`: honor `Retry-After` / `X-RateLimit-*` and back off before retry.
 - `400 Invalid quadrant type`: ensure quadrant is one of `IU|IN|NU|NN`.

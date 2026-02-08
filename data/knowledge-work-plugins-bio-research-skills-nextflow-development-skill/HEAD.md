@@ -16,6 +16,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/nextflow-development/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/nextflow-development/SKILL.md
-retrieved_at: 2026-02-07T15:00:43.233Z
+retrieved_at: 2026-02-08T05:37:07.900Z
 content_sha256: f30017df5d499427a701ec6cedfc5c9948ca3bd04ee1a2b6a585a29cd93ad0d7
 ---

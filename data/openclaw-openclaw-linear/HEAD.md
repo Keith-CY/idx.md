@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/linear/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:04.109Z
+retrieved_at: 2026-02-08T05:36:16.411Z
 content_sha256: c9958bce3b7af252c6ace33b3fc6d7540f7f570ddb3c4e868eeb3bf756968605
 ---
