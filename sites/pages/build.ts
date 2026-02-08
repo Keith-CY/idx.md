@@ -34,6 +34,13 @@ import { repoRoot } from "./lib/paths";
 const result = await loadSources();
 
 type Rejection = { url: string; reason: string };
+type IndexEntry = {
+  topic: string;
+  headContent: string;
+  categories: string[];
+  scenarios: string[];
+  industries: string[];
+};
 
 const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
@@ -130,6 +137,48 @@ function pushUnknownTagRejections(
   });
 }
 
+function processAndAddIndexEntry(
+  entry: {
+    topic: string;
+    url: string;
+    tags: readonly string[] | undefined;
+    headContent: string;
+  },
+  rejections: Rejection[],
+  indexEntries: IndexEntry[],
+): void {
+  const parsedCategories = parseCategoriesFromTags(entry.tags);
+  pushUnknownTagRejections(rejections, {
+    url: entry.url,
+    unknownSlugs: parsedCategories.unknown,
+    formatReason: formatUnknownCategoryReason,
+  });
+
+  const parsedScenarios = parseScenarioFromTags(entry.tags);
+  pushUnknownTagRejections(rejections, {
+    url: entry.url,
+    unknownSlugs: parsedScenarios.unknown,
+    formatReason: (unknownSlugs) =>
+      formatUnknownVerticalReason("scenario", unknownSlugs),
+  });
+
+  const parsedIndustries = parseIndustryFromTags(entry.tags);
+  pushUnknownTagRejections(rejections, {
+    url: entry.url,
+    unknownSlugs: parsedIndustries.unknown,
+    formatReason: (unknownSlugs) =>
+      formatUnknownVerticalReason("industry", unknownSlugs),
+  });
+
+  indexEntries.push({
+    topic: entry.topic,
+    headContent: entry.headContent,
+    categories: parsedCategories.categories,
+    scenarios: parsedScenarios.scenarios,
+    industries: parsedIndustries.industries,
+  });
+}
+
 type IndexPage = { slug: string; content: string };
 
 async function writeIndexPages(params: {
@@ -214,13 +263,7 @@ async function fetchMarkdown(
 
 const accepted: AcceptedEntry[] = [];
 const rejected: Rejection[] = [];
-const indexEntries: Array<{
-  topic: string;
-  headContent: string;
-  categories: string[];
-  scenarios: string[];
-  industries: string[];
-}> = [];
+const indexEntries: IndexEntry[] = [];
 
 const writeRejectedReport = async () => {
   try {
@@ -252,26 +295,6 @@ try {
     }
     const { markdown, bytes, retrievedAt } = fetched;
     const topic = source.slug;
-    const parsedCategories = parseCategoriesFromTags(source.tags);
-    pushUnknownTagRejections(rejected, {
-      url: source.source_url,
-      unknownSlugs: parsedCategories.unknown,
-      formatReason: formatUnknownCategoryReason,
-    });
-    const parsedScenarios = parseScenarioFromTags(source.tags);
-    pushUnknownTagRejections(rejected, {
-      url: source.source_url,
-      unknownSlugs: parsedScenarios.unknown,
-      formatReason: (unknownSlugs) =>
-        formatUnknownVerticalReason("scenario", unknownSlugs),
-    });
-    const parsedIndustries = parseIndustryFromTags(source.tags);
-    pushUnknownTagRejections(rejected, {
-      url: source.source_url,
-      unknownSlugs: parsedIndustries.unknown,
-      formatReason: (unknownSlugs) =>
-        formatUnknownVerticalReason("industry", unknownSlugs),
-    });
     const entryDirPath = resolveTopicDir(topic);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
@@ -295,13 +318,16 @@ try {
 
     const headContent = `---\n${yaml}\n---\n`;
     await Bun.write(headPath(topic), headContent);
-    indexEntries.push({
-      topic,
-      headContent,
-      categories: parsedCategories.categories,
-      scenarios: parsedScenarios.scenarios,
-      industries: parsedIndustries.industries,
-    });
+    processAndAddIndexEntry(
+      {
+        topic,
+        url: source.source_url,
+        tags: source.tags,
+        headContent,
+      },
+      rejected,
+      indexEntries,
+    );
 
     accepted.push({ source, retrievedAt });
   }
@@ -315,34 +341,16 @@ for (const playbook of buildPilotPlaybooks(playbookRetrievedAt)) {
   await mkdir(entryDirPath, { recursive: true });
   await Bun.write(bodyPath(playbook.topic), playbook.bodyBytes);
   await Bun.write(headPath(playbook.topic), playbook.headContent);
-  const playbookCategories = parseCategoriesFromTags(playbook.tags);
-  const playbookScenarios = parseScenarioFromTags(playbook.tags);
-  const playbookIndustries = parseIndustryFromTags(playbook.tags);
-  const playbookUrl = `playbook:${playbook.topic}`;
-  pushUnknownTagRejections(rejected, {
-    url: playbookUrl,
-    unknownSlugs: playbookCategories.unknown,
-    formatReason: formatUnknownCategoryReason,
-  });
-  pushUnknownTagRejections(rejected, {
-    url: playbookUrl,
-    unknownSlugs: playbookScenarios.unknown,
-    formatReason: (unknownSlugs) =>
-      formatUnknownVerticalReason("scenario", unknownSlugs),
-  });
-  pushUnknownTagRejections(rejected, {
-    url: playbookUrl,
-    unknownSlugs: playbookIndustries.unknown,
-    formatReason: (unknownSlugs) =>
-      formatUnknownVerticalReason("industry", unknownSlugs),
-  });
-  indexEntries.push({
-    topic: playbook.topic,
-    headContent: playbook.headContent,
-    categories: playbookCategories.categories,
-    scenarios: playbookScenarios.scenarios,
-    industries: playbookIndustries.industries,
-  });
+  processAndAddIndexEntry(
+    {
+      topic: playbook.topic,
+      url: `playbook:${playbook.topic}`,
+      tags: playbook.tags,
+      headContent: playbook.headContent,
+    },
+    rejected,
+    indexEntries,
+  );
 }
 
 const INDEX_PREAMBLE =
