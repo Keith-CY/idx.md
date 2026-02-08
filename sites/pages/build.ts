@@ -112,6 +112,42 @@ function formatUnknownVerticalReason(
   return `Unknown ${kind} tag(s): ${tags}; mapped to ${kind}-uncategorized`;
 }
 
+function pushUnknownTagRejections(
+  rejections: Rejection[],
+  params: {
+    url: string;
+    unknownSlugs: readonly string[];
+    formatReason: (unknownSlugs: readonly string[]) => string;
+  },
+): void {
+  if (params.unknownSlugs.length === 0) {
+    return;
+  }
+
+  rejections.push({
+    url: params.url,
+    reason: params.formatReason(params.unknownSlugs),
+  });
+}
+
+type IndexPage = { slug: string; content: string };
+
+async function writeIndexPages(params: {
+  hubPath: string;
+  hubContent: string;
+  pages: readonly IndexPage[];
+  pagePathForSlug: (slug: string) => string;
+}): Promise<void> {
+  await mkdir(dirname(params.hubPath), { recursive: true });
+  await Bun.write(params.hubPath, params.hubContent);
+
+  for (const page of params.pages) {
+    const outputPath = params.pagePathForSlug(page.slug);
+    await mkdir(dirname(outputPath), { recursive: true });
+    await Bun.write(outputPath, page.content);
+  }
+}
+
 type FetchResult = {
   markdown: string;
   bytes: Uint8Array;
@@ -216,31 +252,26 @@ try {
     }
     const { markdown, bytes, retrievedAt } = fetched;
     const topic = source.slug;
-
     const parsedCategories = parseCategoriesFromTags(source.tags);
-    if (parsedCategories.unknown.length > 0) {
-      rejected.push({
-        url: source.source_url,
-        reason: formatUnknownCategoryReason(parsedCategories.unknown),
-      });
-    }
-
+    pushUnknownTagRejections(rejected, {
+      url: source.source_url,
+      unknownSlugs: parsedCategories.unknown,
+      formatReason: formatUnknownCategoryReason,
+    });
     const parsedScenarios = parseScenarioFromTags(source.tags);
-    if (parsedScenarios.unknown.length > 0) {
-      rejected.push({
-        url: source.source_url,
-        reason: formatUnknownVerticalReason("scenario", parsedScenarios.unknown),
-      });
-    }
-
+    pushUnknownTagRejections(rejected, {
+      url: source.source_url,
+      unknownSlugs: parsedScenarios.unknown,
+      formatReason: (unknownSlugs) =>
+        formatUnknownVerticalReason("scenario", unknownSlugs),
+    });
     const parsedIndustries = parseIndustryFromTags(source.tags);
-    if (parsedIndustries.unknown.length > 0) {
-      rejected.push({
-        url: source.source_url,
-        reason: formatUnknownVerticalReason("industry", parsedIndustries.unknown),
-      });
-    }
-
+    pushUnknownTagRejections(rejected, {
+      url: source.source_url,
+      unknownSlugs: parsedIndustries.unknown,
+      formatReason: (unknownSlugs) =>
+        formatUnknownVerticalReason("industry", unknownSlugs),
+    });
     const entryDirPath = resolveTopicDir(topic);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
@@ -287,6 +318,24 @@ for (const playbook of buildPilotPlaybooks(playbookRetrievedAt)) {
   const playbookCategories = parseCategoriesFromTags(playbook.tags);
   const playbookScenarios = parseScenarioFromTags(playbook.tags);
   const playbookIndustries = parseIndustryFromTags(playbook.tags);
+  const playbookUrl = `playbook:${playbook.topic}`;
+  pushUnknownTagRejections(rejected, {
+    url: playbookUrl,
+    unknownSlugs: playbookCategories.unknown,
+    formatReason: formatUnknownCategoryReason,
+  });
+  pushUnknownTagRejections(rejected, {
+    url: playbookUrl,
+    unknownSlugs: playbookScenarios.unknown,
+    formatReason: (unknownSlugs) =>
+      formatUnknownVerticalReason("scenario", unknownSlugs),
+  });
+  pushUnknownTagRejections(rejected, {
+    url: playbookUrl,
+    unknownSlugs: playbookIndustries.unknown,
+    formatReason: (unknownSlugs) =>
+      formatUnknownVerticalReason("industry", unknownSlugs),
+  });
   indexEntries.push({
     topic: playbook.topic,
     headContent: playbook.headContent,
@@ -309,37 +358,27 @@ const indexOutput = indexContent
   ? `${INDEX_PREAMBLE}\n${indexContent}\n`
   : `${INDEX_PREAMBLE}\n`;
 await Bun.write(INDEX_PATH, indexOutput);
-
 const categoryOutput = buildCategoryIndexes(sortedIndexEntries);
-await Bun.write(CATEGORY_INDEX_PATH, categoryOutput.hubContent);
-await Promise.all(
-  categoryOutput.pages.map(async (page) => {
-    const outputPath = categoryIndexPath(page.slug);
-    await mkdir(dirname(outputPath), { recursive: true });
-    await Bun.write(outputPath, page.content);
-  }),
-);
-
+await writeIndexPages({
+  hubPath: CATEGORY_INDEX_PATH,
+  hubContent: categoryOutput.hubContent,
+  pages: categoryOutput.pages,
+  pagePathForSlug: categoryIndexPath,
+});
 const scenarioOutput = buildScenarioIndexes(sortedIndexEntries);
-await Bun.write(SCENARIO_INDEX_PATH, scenarioOutput.hubContent);
-await Promise.all(
-  scenarioOutput.pages.map(async (page) => {
-    const outputPath = scenarioIndexPath(page.slug);
-    await mkdir(dirname(outputPath), { recursive: true });
-    await Bun.write(outputPath, page.content);
-  }),
-);
-
+await writeIndexPages({
+  hubPath: SCENARIO_INDEX_PATH,
+  hubContent: scenarioOutput.hubContent,
+  pages: scenarioOutput.pages,
+  pagePathForSlug: scenarioIndexPath,
+});
 const industryOutput = buildIndustryIndexes(sortedIndexEntries);
-await Bun.write(INDUSTRY_INDEX_PATH, industryOutput.hubContent);
-await Promise.all(
-  industryOutput.pages.map(async (page) => {
-    const outputPath = industryIndexPath(page.slug);
-    await mkdir(dirname(outputPath), { recursive: true });
-    await Bun.write(outputPath, page.content);
-  }),
-);
-
+await writeIndexPages({
+  hubPath: INDUSTRY_INDEX_PATH,
+  hubContent: industryOutput.hubContent,
+  pages: industryOutput.pages,
+  pagePathForSlug: industryIndexPath,
+});
 await writeSkillDoc();
 
 if (rejected.length > 0) {

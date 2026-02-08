@@ -121,14 +121,15 @@ if (!indexExists) {
   errors.push(`Missing data index: ${INDEX_PATH}`);
 }
 
+const RESERVED_DATA_DIRS = new Set(["reports", "category", "scenario", "industry"]);
+
 const topicDirs = await readdir(DATA_ROOT_PATH, { withFileTypes: true });
 const topics = topicDirs
   .filter(
     (dirent) =>
       dirent.isDirectory() &&
       !dirent.name.startsWith(".") &&
-      dirent.name !== "reports" &&
-      dirent.name !== "category",
+      !RESERVED_DATA_DIRS.has(dirent.name),
   )
   .map((dirent) => dirent.name);
 
