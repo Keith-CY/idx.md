@@ -218,41 +218,6 @@
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SKILL.md
 - type: skills
-  slug: openai-experimental-codex-readiness-integration-test
-  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/codex-readiness-integration-test/SKILL.md
-  tags:
-    - openai
-    - source-openai-skills
-  upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/codex-readiness-integration-test/SKILL.md
-- type: skills
-  slug: openai-experimental-codex-readiness-unit-test
-  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/codex-readiness-unit-test/SKILL.md
-  tags:
-    - openai
-    - source-openai-skills
-  upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/codex-readiness-unit-test/SKILL.md
-- type: skills
-  slug: openai-experimental-create-plan
-  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/create-plan/SKILL.md
-  tags:
-    - openai
-    - source-openai-skills
-  upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/create-plan/SKILL.md
-- type: skills
-  slug: openai-experimental-gitlab-address-comments
-  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/gitlab-address-comments/SKILL.md
-  tags:
-    - openai
-    - source-openai-skills
-  upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/gitlab-address-comments/SKILL.md
-- type: skills
-  slug: openai-experimental-wrapped
-  source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/wrapped/SKILL.md
-  tags:
-    - openai
-    - source-openai-skills
-  upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/wrapped/SKILL.md
-- type: skills
   slug: openai-system-skill-creator
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-creator/SKILL.md
   tags:
