@@ -32,6 +32,10 @@ Add to `~/.openclaw/openclaw.json`:
 }
 ```
 
+## Source / Repo
+
+- GitHub: https://github.com/minbang930/openclaw-giphy
+
 ## Usage
 
 ### Search and Send a GIF
@@ -49,8 +53,10 @@ exec("QUERY='excited'; API_KEY=$(jq -r '.skills.entries.\"giphy-gif\".apiKey // 
 # 1. Define your search query
 query="happy dance"
 
-# 2. Get GIF URL using the helper function below
-gif_url=$(exec("QUERY='$query'; API_KEY=$(jq -r '.skills.entries.\"giphy-gif\".apiKey // env.GIPHY_API_KEY' ~/.openclaw/openclaw.json 2>/dev/null || echo \"$GIPHY_API_KEY\"); curl -s \"https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=$(printf '%s' \"$QUERY\" | jq -sRr @uri)&limit=1&rating=g\" | jq -r '.data[0].url // empty'"))
+# 2. Safely pass the query into exec via base64 (prevents shell injection)
+query_b64=$(printf '%s' "$query" | base64 -w0)
+
+gif_url=$(exec("QUERY_B64='$query_b64'; QUERY=$(printf '%s' \"$QUERY_B64\" | base64 -d); API_KEY=$(jq -r '.skills.entries.\"giphy-gif\".apiKey // env.GIPHY_API_KEY' ~/.openclaw/openclaw.json 2>/dev/null || echo \"$GIPHY_API_KEY\"); curl -s \"https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=$(printf '%s' \"$QUERY\" | jq -sRr @uri)&limit=1&rating=g\" | jq -r '.data[0].url // empty'"))
 
 # 3. Send to Discord
 message(action="send", message=gif_url)

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pntrivedy/lancedb-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:03.593Z
+retrieved_at: 2026-02-08T05:36:15.883Z
 content_sha256: 9c102bea990f358b3ec7d13ebe4b37d8112f12ed1407a968da95fa134c5a6025
 ---

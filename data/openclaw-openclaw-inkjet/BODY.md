@@ -1,6 +1,6 @@
 ---
 name: inkjet
-description: "Print text, images, and QR codes to a wireless Bluetooth thermal printer from a MacOS device. Use `inkjet print` for output, `inkjet scan` to discover printers."
+description: "Print text, images, and QR codes to a cheap wireless Bluetooth thermal printer from a MacOS device. Use `inkjet print` for output, `inkjet scan` to discover printers."
 homepage: https://github.com/AaronChartier/inkjet
 metadata:
   openclaw:

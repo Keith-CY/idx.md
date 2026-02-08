@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/food-order/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:55.467Z
+retrieved_at: 2026-02-08T05:36:05.120Z
 content_sha256: dea1c9acafb64448eee8f80f0971306363c53fcfbd22ccc605f23a7e3c69670d
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/franky0617/minimax-coding-plan-usage/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:06.993Z
+retrieved_at: 2026-02-08T05:36:20.170Z
 content_sha256: 209c115b810fd08f6e375e4be9525606baf0afc039643faea65b8e62bf93a1b1
 ---

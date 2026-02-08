@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/git-essentials/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:57.004Z
+retrieved_at: 2026-02-08T05:36:07.231Z
 content_sha256: 91afbc572326eb63a249a96f7880a21d1a0288f09b7d833cc616a184ce5ca71f
 ---

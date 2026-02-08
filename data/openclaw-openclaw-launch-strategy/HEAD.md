@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/launch-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:03.870Z
+retrieved_at: 2026-02-08T05:36:16.140Z
 content_sha256: f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d
 ---

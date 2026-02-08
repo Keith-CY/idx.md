@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/difficult-workplace-conversations/references/conversation-framework.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/difficult-workplace-conversations
-retrieved_at: 2026-02-07T14:59:35.208Z
+retrieved_at: 2026-02-08T05:35:29.709Z
 content_sha256: 7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139
 ---

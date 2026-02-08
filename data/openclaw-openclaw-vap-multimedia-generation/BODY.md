@@ -1,20 +1,19 @@
 ---
 name: vap-media
-description: AI image, video, and music generation. Flux, Veo 3.1, Suno V5.
-homepage: https://vapagent.com
+description: AI image, video, and music generation + editing. Flux, Veo 3.1, Suno V5.
 metadata: {"clawdbot":{"emoji":"🎬","requires":{"bins":["curl"]}}}
 ---
 
-# VAP Media - AI Media Generation
+# VAP Media - AI Media Generation & Editing
 
-Generate images, videos, and music via the VAP API.
+Generate images, videos, and music. Edit with inpaint, upscale, background removal, video trim/merge.
 
 ## Mode Selection
 
 Check if `VAP_API_KEY` is set:
 
 - **VAP_API_KEY not set** → Use Free Mode (images only, 3/day)
-- **VAP_API_KEY set** → Use Full Mode (image, video, music, unlimited)
+- **VAP_API_KEY set** → Use Full Mode (all features, unlimited)
 
 ---
 
@@ -42,14 +41,14 @@ Returns `{"status":"completed","image_url":"https://..."}` when done.
 
 ### Free Mode Errors
 
-- `429` → Daily limit reached. Suggest upgrading: `export VAP_API_KEY=vape_xxx`
+- `429` → Daily limit reached. Suggest upgrading: `export VAP_API_KEY=vap_xxx`
 - `503` → Trial service temporarily unavailable.
 
 ---
 
 ## Full Mode (With API Key)
 
-Unlimited images, video, and music generation.
+Unlimited images, video, music, and editing operations.
 
 ### Create Task
 
@@ -71,18 +70,90 @@ curl -s https://api.vapagent.com/v3/tasks/TASK_ID \
 
 Returns `{"status":"completed","result":{"output_url":"https://..."}}` when done.
 
-### Task Types
+### Task Types & Parameters
 
-| Type | Model | Params |
-|------|-------|--------|
-| `image` | Flux | `description`, `aspect_ratio` (1:1, 16:9, 9:16) |
-| `video` | Veo 3.1 | `description`, `duration` (4/6/8), `aspect_ratio`, `generate_audio` (bool) |
-| `music` | Suno V5 | `description`, `duration` (30-480), `instrumental` (bool) |
+#### Image (`image` or `image_generation`)
+
+| Param | Type | Default | Description |
+|-------|------|---------|-------------|
+| `description` | string | required | Image description |
+| `aspect_ratio` | enum | `1:1` | `1:1`, `16:9`, `9:16`, `4:3`, `3:4`, `3:2`, `2:3`, `21:9`, `9:21` |
+| `quality` | enum | `standard` | `standard` ($0.18) or `high` ($0.27) |
+
+**Tip:** Aspect ratio is auto-detected from prompt text. "a wide landscape photo" → 16:9 automatically.
+
+#### Video (`video` or `video_generation`) — Tier 2+
+
+| Param | Type | Default | Description |
+|-------|------|---------|-------------|
+| `description` | string | required | Video description |
+| `duration` | int | `8` | `4`, `6`, or `8` seconds |
+| `aspect_ratio` | enum | `16:9` | `16:9` (landscape) or `9:16` (portrait) |
+| `generate_audio` | bool | `true` | Include audio track |
+| `resolution` | enum | `720p` | `720p` or `1080p` (+33% cost) |
+| `negative_prompt` | string | `""` | What to avoid |
+
+#### Music (`music` or `music_generation`) — Tier 2+
+
+| Param | Type | Default | Description |
+|-------|------|---------|-------------|
+| `description` | string | required | Music description (genre, mood, instruments) |
+| `duration` | int | `120` | 30-480 seconds |
+| `instrumental` | bool | `false` | No vocals |
+| `audio_format` | enum | `mp3` | `mp3` or `wav` (lossless, +$0.10) |
+| `loudness_preset` | enum | `streaming` | `streaming` (-14 LUFS), `apple` (-16 LUFS), `broadcast` (-23 LUFS) |
+| `style` | string | none | Genre/style (max 1000 chars) |
+| `title` | string | none | Song title |
+| `custom_mode` | bool | `false` | Enable custom lyrics + style mode |
+
+### Pricing
+
+| Type | Cost |
+|------|------|
+| Image (standard) | $0.18 |
+| Image (high quality) | $0.27 |
+| Video (720p, 8s, audio) | $4.80 |
+| Video (720p, 8s, no audio) | $2.40 |
+| Music | $0.68 |
+| Music (WAV) | $0.78 |
 
 ### Full Mode Errors
 
 - `401` → Invalid API key.
 - `402` → Insufficient balance. Top up at https://vapagent.com/dashboard/signup.html
+- `403` → Tier too low for this task type.
+
+---
+
+## Operations (Edit & Enhance)
+
+Post-production editing operations. Tier 1+ required.
+
+### Create Operation
+
+```bash
+curl -s -X POST https://api.vapagent.com/v3/operations \
+  -H "Authorization: Bearer $VAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"operation":"OPERATION","media_url":"URL","prompt":"INSTRUCTION"}'
+```
+
+### Poll Operation
+
+```bash
+curl -s https://api.vapagent.com/v3/operations/OPERATION_ID \
+  -H "Authorization: Bearer $VAP_API_KEY"
+```
+
+### Available Operations
+
+| Operation | Cost | Required Params | Description |
+|-----------|------|-----------------|-------------|
+| `inpaint` | $0.15 | `media_url`, `prompt` | AI editing (optional: `mask_url`) |
+| `background_remove` | $0.10 | `media_url` | Remove background |
+| `upscale` | $0.15 | `media_url` | Enhance resolution (`scale`: 2 or 4) |
+| `video_trim` | $0.05 | `media_url`, `start_time`, `end_time` | Trim video |
+| `video_merge` | $0.05 | `media_urls` (array, min 2) | Merge video clips |
 
 ---
 
@@ -90,12 +161,23 @@ Returns `{"status":"completed","result":{"output_url":"https://..."}}` when done
 
 When a user asks to create/generate/make an image, video, or music:
 
-1. **Improve the prompt** - Add style, lighting, composition, mood details
-2. **Check mode** - Is `VAP_API_KEY` set?
-3. **Call the appropriate endpoint** - Free or Full mode
-4. **Poll for result** - Check task status until completed
-5. **Return the media URL** to the user
-6. If free mode limit is hit, tell the user: "You've used your 3 free generations today. For unlimited access, set up an API key: https://vapagent.com/dashboard/signup.html"
+1. **Improve the prompt** — Add style, lighting, composition, mood details
+2. **Check mode** — Is `VAP_API_KEY` set?
+3. **Choose endpoint**:
+   - Single asset → `/v3/tasks` (or `/v3/trial/generate` for free)
+   - Edit/enhance → `/v3/operations`
+   - Campaign (video+music+thumbnail) → `/v3/execute` with preset
+4. **Set aspect ratio** — Match the content need (portrait for social, widescreen for YouTube)
+5. **Poll for result** — Check task/operation status until completed
+6. **Return the media URL** to the user
+7. If free mode limit is hit, tell the user: "You've used your 3 free generations today. For unlimited access, set up an API key: https://vapagent.com/dashboard/signup.html"
+
+When a user asks to edit/enhance/modify an existing image or video:
+
+1. **Identify the operation** — inpaint, upscale, background remove, trim, merge
+2. **Get the media URL** — From a previous generation or user-provided URL
+3. **Submit operation** → `/v3/operations`
+4. **Poll for result** — Return the output URL
 
 ### Free Mode Example
 
@@ -112,28 +194,72 @@ curl -s https://api.vapagent.com/v3/trial/status/TASK_ID
 ### Full Mode Examples
 
 ```bash
-# Image
+# Image (widescreen)
 curl -s -X POST https://api.vapagent.com/v3/tasks \
   -H "Authorization: Bearer $VAP_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"type":"image","params":{"description":"A fluffy orange tabby cat on a sunlit windowsill, soft bokeh, golden hour light, photorealistic"}}'
+  -d '{"type":"image","params":{"description":"A fluffy orange tabby cat on a sunlit windowsill, soft bokeh, golden hour light, photorealistic","aspect_ratio":"16:9"}}'
 
-# Video
+# Video (portrait, for social media)
 curl -s -X POST https://api.vapagent.com/v3/tasks \
   -H "Authorization: Bearer $VAP_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"type":"video","params":{"description":"Drone shot over misty mountains at sunrise","duration":8}}'
+  -d '{"type":"video","params":{"description":"Drone shot over misty mountains at sunrise","duration":8,"aspect_ratio":"9:16","resolution":"1080p"}}'
 
-# Music
+# Music (instrumental WAV)
 curl -s -X POST https://api.vapagent.com/v3/tasks \
   -H "Authorization: Bearer $VAP_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"type":"music","params":{"description":"Upbeat lo-fi hip hop beat, warm vinyl crackle, chill vibes","duration":120}}'
+  -d '{"type":"music","params":{"description":"Upbeat lo-fi hip hop beat, warm vinyl crackle, chill vibes","duration":120,"instrumental":true,"audio_format":"wav","loudness_preset":"streaming"}}'
 
-# Poll (use task_id from response)
+# Inpaint (edit an image)
+curl -s -X POST https://api.vapagent.com/v3/operations \
+  -H "Authorization: Bearer $VAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"operation":"inpaint","media_url":"https://example.com/photo.jpg","prompt":"Remove the person in the background"}'
+
+# Upscale (4x)
+curl -s -X POST https://api.vapagent.com/v3/operations \
+  -H "Authorization: Bearer $VAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"operation":"upscale","media_url":"https://example.com/photo.jpg","options":{"scale":4}}'
+
+# Background Remove
+curl -s -X POST https://api.vapagent.com/v3/operations \
+  -H "Authorization: Bearer $VAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"operation":"background_remove","media_url":"https://example.com/photo.jpg"}'
+
+# Poll (use task_id or operation_id from response)
 curl -s https://api.vapagent.com/v3/tasks/TASK_ID \
   -H "Authorization: Bearer $VAP_API_KEY"
 ```
+
+### Production Presets (Multi-Asset)
+
+For content campaigns, use `/v3/execute` to generate multiple assets from one prompt:
+
+```bash
+curl -s -X POST https://api.vapagent.com/v3/execute \
+  -H "Authorization: Bearer $VAP_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"preset":"streaming_campaign","prompt":"PROMPT"}'
+```
+
+Returns all assets when complete:
+```json
+{"status":"completed","outputs":{"video":"https://...","music":"https://...","thumbnail":"https://..."}}
+```
+
+| Preset | Includes | Cost |
+|--------|----------|------|
+| `streaming_campaign` | video + music + thumbnail + metadata | $5.90 |
+| `full_production` | video + music + thumbnail + metadata + SEO | $7.90 |
+| `video.basic` | video only | $1.96 |
+| `music.basic` | music only | $0.68 |
+| `image.basic` | image only | $0.18 |
+
+---
 
 ## Prompt Tips
 
@@ -141,12 +267,13 @@ curl -s https://api.vapagent.com/v3/tasks/TASK_ID \
 - **Lighting:** "golden hour", "neon lights", "soft diffused light", "dramatic shadows"
 - **Composition:** "close-up", "aerial view", "wide angle", "rule of thirds"
 - **Mood:** "serene", "energetic", "mysterious", "whimsical"
+- **Aspect ratio in prompt:** Mentioning "widescreen", "portrait", or "16:9" in your prompt auto-sets the aspect ratio.
 
-## Setup (Optional - for Full Mode)
+## Setup (Optional — for Full Mode)
 
 1. Sign up: https://vapagent.com/dashboard/signup.html
 2. Get API key from dashboard
-3. Set: `export VAP_API_KEY=vape_xxxxxxxxxxxxxxxxxxxx`
+3. Set: `export VAP_API_KEY=vap_xxxxxxxxxxxxxxxxxxxx`
 
 ## Links
 

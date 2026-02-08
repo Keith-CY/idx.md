@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abe238/adversarial-prompting/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:36.622Z
+retrieved_at: 2026-02-08T05:35:38.397Z
 content_sha256: 2eb542c320b61e30daac71835ee374cbf65c44d502b83d45c48ffa3579f0e21b
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/spuro/moltr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:08.318Z
+retrieved_at: 2026-02-08T05:36:21.842Z
 content_sha256: eec576443ca8da3a708794cc7d4f14c8cb0be7a281624d10751ec8457abbc83d
 ---

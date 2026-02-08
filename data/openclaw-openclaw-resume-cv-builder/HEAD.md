@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/resume-cv-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:20.917Z
+retrieved_at: 2026-02-08T05:36:38.306Z
 content_sha256: e4c969c61dcb92f13866b1ea5014115941b857503870576b8ada07c560ae3800
 ---

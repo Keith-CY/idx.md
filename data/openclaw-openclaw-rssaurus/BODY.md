@@ -5,7 +5,7 @@ description: "Use the RSSaurus command-line client (Go binary `rssaurus`) to int
 
 # RSSaurus CLI
 
-Use the installed `rssaurus` binary on this machine to interact with RSSaurus (prod default host: `https://rssaurus.com`).
+Use the installed `rssaurus` binary on this machine to interact with RSSaurus.
 
 ## Quick checks (when something fails)
 
@@ -16,21 +16,16 @@ which rssaurus
 rssaurus --version || true
 ```
 
-2) Confirm auth + host:
+2) Confirm auth works:
 
 ```bash
-# config lives at ~/.config/rssaurus/config.json (or $XDG_CONFIG_HOME)
-cat ~/.config/rssaurus/config.json
-
-# verify token works
 rssaurus auth whoami
 ```
 
-3) If you need to override temporarily:
+### Privacy note
 
-```bash
-RSSAURUS_HOST=https://rssaurus.com RSSAURUS_TOKEN=... rssaurus auth whoami
-```
+- Do **not** print (e.g. `cat`) the RSSaurus CLI config file contents; it can contain API tokens.
+- If auth fails, prefer re-authenticating (`rssaurus auth login`) or asking the user to paste only non-sensitive details (error output, host, etc.).
 
 ## Common tasks
 

@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-article-illustrator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
-retrieved_at: 2026-02-07T15:00:39.961Z
+retrieved_at: 2026-02-08T05:37:03.931Z
 content_sha256: d0d741a5b3cc839e18d0dd82be41de0401ce1d941f20a377997577352c65543e
 ---

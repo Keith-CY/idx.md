@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/akdeepankar/clip-it/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T14:59:46.993Z
+retrieved_at: 2026-02-08T05:35:53.438Z
 content_sha256: 0792c4331af9987d8998ac3b4a19fa6fee7f6c5e159a97b512f3d343043d32b6
 ---

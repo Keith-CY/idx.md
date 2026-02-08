@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/tesla/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:28.556Z
+retrieved_at: 2026-02-08T05:36:48.267Z
 content_sha256: 499609032eb4b99d2778d7c2d69e51fc7257088015b3d5114e21100d4a94b188
 ---

@@ -206,6 +206,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | LinkedIn | `linkedin` | `api.linkedin.com` |
 | Mailchimp | `mailchimp` | `{dc}.api.mailchimp.com` |
 | Microsoft Excel | `microsoft-excel` | `graph.microsoft.com` |
+| Microsoft To Do | `microsoft-to-do` | `graph.microsoft.com` |
 | Monday.com | `monday` | `api.monday.com` |
 | Notion | `notion` | `api.notion.com` |
 | OneDrive | `one-drive` | `graph.microsoft.com` |
@@ -216,6 +217,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Slack | `slack` | `slack.com` |
 | Square | `squareup` | `connect.squareup.com` |
 | Stripe | `stripe` | `api.stripe.com` |
+| Telegram | `telegram` | `api.telegram.org` |
 | TickTick | `ticktick` | `api.ticktick.com` |
 | Todoist | `todoist` | `api.todoist.com` |
 | Trello | `trello` | `api.trello.com` |
@@ -273,6 +275,7 @@ See [references/](references/) for detailed routing guides per provider:
 - [LinkedIn](references/linkedin.md) - Profile, posts, shares, media uploads
 - [Mailchimp](references/mailchimp.md) - Audiences, campaigns, templates, automations
 - [Microsoft Excel](references/microsoft-excel.md) - Workbooks, worksheets, ranges, tables, charts
+- [Microsoft To Do](references/microsoft-to-do.md) - Task lists, tasks, checklist items, linked resources
 - [Monday.com](references/monday.md) - Boards, items, columns, groups (GraphQL)
 - [Notion](references/notion.md) - Pages, databases, blocks
 - [OneDrive](references/one-drive.md) - Files, folders, drives, sharing
@@ -283,6 +286,7 @@ See [references/](references/) for detailed routing guides per provider:
 - [Slack](references/slack.md) - Messages, channels, users
 - [Square](references/squareup.md) - Payments, customers, orders, catalog, inventory, invoices
 - [Stripe](references/stripe.md) - Customers, subscriptions, payments
+- [Telegram](references/telegram.md) - Messages, chats, bots, updates, polls
 - [TickTick](references/ticktick.md) - Tasks, projects, task lists
 - [Todoist](references/todoist.md) - Tasks, projects, sections, labels, comments
 - [Trello](references/trello.md) - Boards, lists, cards, checklists

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/soulcraft/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:25.424Z
+retrieved_at: 2026-02-08T05:36:44.187Z
 content_sha256: bcf21e985ef67ed657226bbf230ed2609f0116916af8ccc2b4e59281dbcef2d2
 ---

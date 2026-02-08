@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-07T15:00:40.476Z
+retrieved_at: 2026-02-08T05:37:04.783Z
 content_sha256: bfe848d8a0f1375bf6c9f6f4eb94eced1566b3724231a78c15e1718194bb5ec0
 ---
