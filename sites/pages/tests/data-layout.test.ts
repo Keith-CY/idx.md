@@ -3,10 +3,14 @@ import { resolve } from "path";
 import {
   CATEGORY_INDEX_PATH,
   DATA_ROOT,
+  INDUSTRY_INDEX_PATH,
+  SCENARIO_INDEX_PATH,
   bodyPath,
   categoryIndexPath,
   formatIndexEntry,
   headPath,
+  industryIndexPath,
+  scenarioIndexPath,
 } from "../lib/data-layout";
 import { repoRoot } from "../lib/paths";
 
@@ -34,6 +38,20 @@ describe("data layout", () => {
     );
     expect(categoryIndexPath("coding-agents-ides")).toBe(
       resolve(repoRoot, "data", "category", "coding-agents-ides", "index.md"),
+    );
+  });
+
+  test("writes scenario indexes under data/scenario", () => {
+    expect(SCENARIO_INDEX_PATH).toBe(resolve(repoRoot, "data", "scenario", "index.md"));
+    expect(scenarioIndexPath("customer-support")).toBe(
+      resolve(repoRoot, "data", "scenario", "customer-support", "index.md"),
+    );
+  });
+
+  test("writes industry indexes under data/industry", () => {
+    expect(INDUSTRY_INDEX_PATH).toBe(resolve(repoRoot, "data", "industry", "index.md"));
+    expect(industryIndexPath("finance")).toBe(
+      resolve(repoRoot, "data", "industry", "finance", "index.md"),
     );
   });
 });
