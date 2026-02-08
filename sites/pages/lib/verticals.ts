@@ -1,4 +1,5 @@
 import { formatIndexEntry } from "./data-layout";
+import { getIndustryCuration, getScenarioCuration, type VerticalCuration } from "./vertical-curation";
 
 export type VerticalDefinition = {
   slug: string;
@@ -38,6 +39,34 @@ export type VerticalBuildOutput = {
   hubContent: string;
   pages: VerticalPage[];
 };
+
+function renderCurationSection(curation: VerticalCuration): string[] {
+  const fit = curation.fit.map((line) => `- ${line}`);
+  const noFit = curation.noFit.map((line) => `- ${line}`);
+  const goldPath = curation.goldPathTopics.map(
+    (topic, index) => `${index + 1}. |/data/${topic}|`,
+  );
+  const nextHops = curation.nextHops.map((path) => `- ${path}`);
+
+  return [
+    "## Fit / No Fit",
+    "",
+    "**Fit**",
+    ...fit,
+    "",
+    "**No fit**",
+    ...noFit,
+    "",
+    "## Gold Path",
+    ...goldPath,
+    "",
+    "## Playbook",
+    `|/data/${curation.playbookTopic}|`,
+    "",
+    "## Next Hops",
+    ...nextHops,
+  ];
+}
 
 const SCENARIO_PREFIX = "scenario-";
 const INDUSTRY_PREFIX = "industry-";
@@ -187,7 +216,7 @@ export function buildScenarioIndexes(
       .join("\n\n");
     const title = scenarioTitle(def.slug);
     const count = byTopic.size;
-    const content = [
+    const lines: string[] = [
       `# Scenario: ${title}`,
       "",
       `| Scenario | ${title} |`,
@@ -195,9 +224,15 @@ export function buildScenarioIndexes(
       `| Slug | ${def.slug} |`,
       `| Count | ${count} |`,
       "",
-      entrySections || "_No entries yet._",
-      "",
-    ].join("\n");
+    ];
+
+    const curation = getScenarioCuration(def.slug);
+    if (curation) {
+      lines.push(...renderCurationSection(curation), "");
+    }
+
+    lines.push("## Full Listing", "", entrySections || "_No entries yet._", "");
+    const content = lines.join("\n");
     return { slug: def.slug, title, count, content };
   });
 
@@ -241,7 +276,7 @@ export function buildIndustryIndexes(
       .join("\n\n");
     const title = industryTitle(def.slug);
     const count = byTopic.size;
-    const content = [
+    const lines: string[] = [
       `# Industry: ${title}`,
       "",
       `| Industry | ${title} |`,
@@ -249,9 +284,15 @@ export function buildIndustryIndexes(
       `| Slug | ${def.slug} |`,
       `| Count | ${count} |`,
       "",
-      entrySections || "_No entries yet._",
-      "",
-    ].join("\n");
+    ];
+
+    const curation = getIndustryCuration(def.slug);
+    if (curation) {
+      lines.push(...renderCurationSection(curation), "");
+    }
+
+    lines.push("## Full Listing", "", entrySections || "_No entries yet._", "");
+    const content = lines.join("\n");
     return { slug: def.slug, title, count, content };
   });
 
@@ -270,4 +311,3 @@ export function buildIndustryIndexes(
 
   return { hubContent, pages };
 }
-
