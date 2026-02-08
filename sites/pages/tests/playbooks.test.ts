@@ -10,6 +10,11 @@ describe("pilot playbooks", () => {
       "playbook-scenario-content-marketing",
       "playbook-scenario-customer-support",
     ]);
+    expect(playbooks.map((entry) => entry.tags)).toEqual([
+      ["playbooks", "industry-finance"],
+      ["playbooks", "scenario-content-marketing"],
+      ["playbooks", "scenario-customer-support"],
+    ]);
 
     for (const playbook of playbooks) {
       expect(playbook.headContent.startsWith("---\n")).toBe(true);
@@ -22,4 +27,3 @@ describe("pilot playbooks", () => {
     }
   });
 });
-

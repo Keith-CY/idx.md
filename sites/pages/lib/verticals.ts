@@ -40,6 +40,11 @@ export type VerticalBuildOutput = {
   pages: VerticalPage[];
 };
 
+type VerticalParseResult = {
+  slugs: string[];
+  unknown: string[];
+};
+
 function renderCurationSection(curation: VerticalCuration): string[] {
   const fit = curation.fit.map((line) => `- ${line}`);
   const noFit = curation.noFit.map((line) => `- ${line}`);
@@ -118,6 +123,45 @@ function toKnownSlug(
   return known.has(mapped) ? mapped : null;
 }
 
+function parseVerticalFromTags(
+  tags: readonly string[] | undefined,
+  params: {
+    prefix: string;
+    aliases: ReadonlyMap<string, string>;
+    known: ReadonlySet<string>;
+    uncategorizedSlug: string;
+  },
+): VerticalParseResult {
+  const known = new Set<string>();
+  const unknown = new Set<string>();
+
+  for (const tag of tags ?? []) {
+    const normalized = normalizeTag(tag);
+    if (!normalized.startsWith(params.prefix)) {
+      continue;
+    }
+    const rawSlug = normalized.slice(params.prefix.length);
+    if (!rawSlug) {
+      continue;
+    }
+    const knownSlug = toKnownSlug(rawSlug, params.aliases, params.known);
+    if (knownSlug) {
+      known.add(knownSlug);
+      continue;
+    }
+    unknown.add(rawSlug);
+  }
+
+  if (unknown.size > 0) {
+    known.add(params.uncategorizedSlug);
+  }
+
+  return {
+    slugs: [...known].sort(),
+    unknown: [...unknown].sort(),
+  };
+}
+
 function scenarioTitle(slug: string): string {
   return SCENARIO_TITLES.get(slug) ?? slug;
 }
@@ -129,185 +173,129 @@ function industryTitle(slug: string): string {
 export function parseScenarioFromTags(
   tags: readonly string[] | undefined,
 ): ScenarioParseResult {
-  const known = new Set<string>();
-  const unknown = new Set<string>();
-
-  for (const tag of tags ?? []) {
-    const normalized = normalizeTag(tag);
-    if (!normalized.startsWith(SCENARIO_PREFIX)) {
-      continue;
-    }
-    const rawSlug = normalized.slice(SCENARIO_PREFIX.length);
-    if (!rawSlug) {
-      continue;
-    }
-    const knownSlug = toKnownSlug(rawSlug, SCENARIO_ALIASES, SCENARIO_SLUGS);
-    if (knownSlug) {
-      known.add(knownSlug);
-      continue;
-    }
-    unknown.add(rawSlug);
-  }
-
-  if (unknown.size > 0) {
-    known.add("uncategorized");
-  }
+  const parsed = parseVerticalFromTags(tags, {
+    prefix: SCENARIO_PREFIX,
+    aliases: SCENARIO_ALIASES,
+    known: SCENARIO_SLUGS,
+    uncategorizedSlug: "uncategorized",
+  });
 
   return {
-    scenarios: [...known].sort(),
-    unknown: [...unknown].sort(),
+    scenarios: parsed.slugs,
+    unknown: parsed.unknown,
   };
 }
 
 export function parseIndustryFromTags(
   tags: readonly string[] | undefined,
 ): IndustryParseResult {
-  const known = new Set<string>();
-  const unknown = new Set<string>();
-
-  for (const tag of tags ?? []) {
-    const normalized = normalizeTag(tag);
-    if (!normalized.startsWith(INDUSTRY_PREFIX)) {
-      continue;
-    }
-    const rawSlug = normalized.slice(INDUSTRY_PREFIX.length);
-    if (!rawSlug) {
-      continue;
-    }
-    const knownSlug = toKnownSlug(rawSlug, INDUSTRY_ALIASES, INDUSTRY_SLUGS);
-    if (knownSlug) {
-      known.add(knownSlug);
-      continue;
-    }
-    unknown.add(rawSlug);
-  }
-
-  if (unknown.size > 0) {
-    known.add("uncategorized");
-  }
+  const parsed = parseVerticalFromTags(tags, {
+    prefix: INDUSTRY_PREFIX,
+    aliases: INDUSTRY_ALIASES,
+    known: INDUSTRY_SLUGS,
+    uncategorizedSlug: "uncategorized",
+  });
 
   return {
-    industries: [...known].sort(),
-    unknown: [...unknown].sort(),
+    industries: parsed.slugs,
+    unknown: parsed.unknown,
   };
+}
+
+function buildVerticalIndexes<Entry extends { topic: string; headContent: string }>(
+  entries: readonly Entry[],
+  params: {
+    kind: string;
+    rootPath: string;
+    definitions: readonly VerticalDefinition[];
+    knownSlugs: ReadonlySet<string>;
+    titleForSlug: (slug: string) => string;
+    slugsForEntry: (entry: Entry) => readonly string[];
+    curationForSlug: (slug: string) => VerticalCuration | undefined;
+  },
+): VerticalBuildOutput {
+  const grouped = new Map<string, Map<string, Entry>>(
+    params.definitions.map((def) => [def.slug, new Map()]),
+  );
+
+  for (const entry of entries) {
+    for (const slug of params.slugsForEntry(entry)) {
+      if (!params.knownSlugs.has(slug)) {
+        continue;
+      }
+      grouped.get(slug)?.set(entry.topic, entry);
+    }
+  }
+
+  const pages: VerticalPage[] = params.definitions.map((def) => {
+    const byTopic = grouped.get(def.slug) ?? new Map<string, Entry>();
+    const entrySections = [...byTopic.values()]
+      .sort((a, b) => a.topic.localeCompare(b.topic))
+      .map((entry) => formatIndexEntry(entry.topic, entry.headContent).trimEnd())
+      .join("\n\n");
+    const title = params.titleForSlug(def.slug);
+    const count = byTopic.size;
+    const lines: string[] = [
+      `# ${params.kind}: ${title}`,
+      "",
+      `| ${params.kind} | ${title} |`,
+      "| --- | --- |",
+      `| Slug | ${def.slug} |`,
+      `| Count | ${count} |`,
+      "",
+    ];
+
+    const curation = params.curationForSlug(def.slug);
+    if (curation) {
+      lines.push(...renderCurationSection(curation), "");
+    }
+
+    lines.push("## Full Listing", "", entrySections || "_No entries yet._", "");
+    const content = lines.join("\n");
+    return { slug: def.slug, title, count, content };
+  });
+
+  const hubRows = pages.map(
+    (page) =>
+      `| ${page.title} | ${page.count} | ${params.rootPath}/${page.slug}/index.md |`,
+  );
+
+  const hubContent = [
+    `# ${params.kind} Index`,
+    "",
+    `| ${params.kind} | Count | Path |`,
+    "| --- | ---: | --- |",
+    ...hubRows,
+    "",
+  ].join("\n");
+
+  return { hubContent, pages };
 }
 
 export function buildScenarioIndexes(
   entries: readonly ScenarioIndexEntry[],
 ): VerticalBuildOutput {
-  const grouped = new Map<string, Map<string, ScenarioIndexEntry>>(
-    SCENARIO_DEFINITIONS.map((def) => [def.slug, new Map()]),
-  );
-
-  for (const entry of entries) {
-    for (const slug of entry.scenarios) {
-      if (!SCENARIO_SLUGS.has(slug)) {
-        continue;
-      }
-      grouped.get(slug)?.set(entry.topic, entry);
-    }
-  }
-
-  const pages: VerticalPage[] = SCENARIO_DEFINITIONS.map((def) => {
-    const byTopic = grouped.get(def.slug) ?? new Map<string, ScenarioIndexEntry>();
-    const entrySections = [...byTopic.values()]
-      .sort((a, b) => a.topic.localeCompare(b.topic))
-      .map((entry) => formatIndexEntry(entry.topic, entry.headContent).trimEnd())
-      .join("\n\n");
-    const title = scenarioTitle(def.slug);
-    const count = byTopic.size;
-    const lines: string[] = [
-      `# Scenario: ${title}`,
-      "",
-      `| Scenario | ${title} |`,
-      "| --- | --- |",
-      `| Slug | ${def.slug} |`,
-      `| Count | ${count} |`,
-      "",
-    ];
-
-    const curation = getScenarioCuration(def.slug);
-    if (curation) {
-      lines.push(...renderCurationSection(curation), "");
-    }
-
-    lines.push("## Full Listing", "", entrySections || "_No entries yet._", "");
-    const content = lines.join("\n");
-    return { slug: def.slug, title, count, content };
+  return buildVerticalIndexes(entries, {
+    kind: "Scenario",
+    rootPath: "/scenario",
+    definitions: SCENARIO_DEFINITIONS,
+    knownSlugs: SCENARIO_SLUGS,
+    titleForSlug: scenarioTitle,
+    slugsForEntry: (entry) => entry.scenarios,
+    curationForSlug: (slug) => getScenarioCuration(slug),
   });
-
-  const hubRows = pages.map(
-    (page) => `| ${page.title} | ${page.count} | /scenario/${page.slug}/index.md |`,
-  );
-
-  const hubContent = [
-    "# Scenario Index",
-    "",
-    "| Scenario | Count | Path |",
-    "| --- | ---: | --- |",
-    ...hubRows,
-    "",
-  ].join("\n");
-
-  return { hubContent, pages };
 }
 
 export function buildIndustryIndexes(
   entries: readonly IndustryIndexEntry[],
 ): VerticalBuildOutput {
-  const grouped = new Map<string, Map<string, IndustryIndexEntry>>(
-    INDUSTRY_DEFINITIONS.map((def) => [def.slug, new Map()]),
-  );
-
-  for (const entry of entries) {
-    for (const slug of entry.industries) {
-      if (!INDUSTRY_SLUGS.has(slug)) {
-        continue;
-      }
-      grouped.get(slug)?.set(entry.topic, entry);
-    }
-  }
-
-  const pages: VerticalPage[] = INDUSTRY_DEFINITIONS.map((def) => {
-    const byTopic = grouped.get(def.slug) ?? new Map<string, IndustryIndexEntry>();
-    const entrySections = [...byTopic.values()]
-      .sort((a, b) => a.topic.localeCompare(b.topic))
-      .map((entry) => formatIndexEntry(entry.topic, entry.headContent).trimEnd())
-      .join("\n\n");
-    const title = industryTitle(def.slug);
-    const count = byTopic.size;
-    const lines: string[] = [
-      `# Industry: ${title}`,
-      "",
-      `| Industry | ${title} |`,
-      "| --- | --- |",
-      `| Slug | ${def.slug} |`,
-      `| Count | ${count} |`,
-      "",
-    ];
-
-    const curation = getIndustryCuration(def.slug);
-    if (curation) {
-      lines.push(...renderCurationSection(curation), "");
-    }
-
-    lines.push("## Full Listing", "", entrySections || "_No entries yet._", "");
-    const content = lines.join("\n");
-    return { slug: def.slug, title, count, content };
+  return buildVerticalIndexes(entries, {
+    kind: "Industry",
+    rootPath: "/industry",
+    definitions: INDUSTRY_DEFINITIONS,
+    knownSlugs: INDUSTRY_SLUGS,
+    titleForSlug: industryTitle,
+    slugsForEntry: (entry) => entry.industries,
+    curationForSlug: (slug) => getIndustryCuration(slug),
   });
-
-  const hubRows = pages.map(
-    (page) => `| ${page.title} | ${page.count} | /industry/${page.slug}/index.md |`,
-  );
-
-  const hubContent = [
-    "# Industry Index",
-    "",
-    "| Industry | Count | Path |",
-    "| --- | ---: | --- |",
-    ...hubRows,
-    "",
-  ].join("\n");
-
-  return { hubContent, pages };
 }

@@ -9,6 +9,7 @@ export type BuiltPlaybook = {
   headContent: string;
   bodyMarkdown: string;
   bodyBytes: Uint8Array;
+  tags: readonly string[];
 };
 
 function computeSha256(bytes: Uint8Array): string {
@@ -88,6 +89,7 @@ function buildPlaybookEntry(params: {
     headContent,
     bodyMarkdown: normalizedBody,
     bodyBytes,
+    tags: [...params.tags],
   };
 }
 

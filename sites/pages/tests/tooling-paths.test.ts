@@ -15,6 +15,9 @@ describe("pages tooling paths", () => {
     expect(text.includes("SCENARIO_INDEX_PATH")).toBe(true);
     expect(text.includes("INDUSTRY_INDEX_PATH")).toBe(true);
     expect(text.includes("buildPilotPlaybooks")).toBe(true);
+    expect(text.includes("parseCategoriesFromTags(playbook.tags)")).toBe(true);
+    expect(text.includes("parseScenarioFromTags(playbook.tags)")).toBe(true);
+    expect(text.includes("parseIndustryFromTags(playbook.tags)")).toBe(true);
     expect(text.includes("SKILL.md")).toBe(true);
   });
 
