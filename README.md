@@ -9,6 +9,8 @@ OG image: [https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg]
 ## What this repo provides
 - A markdown-only index at `https://idx.md/index.md`
 - Category indexes at `https://idx.md/category/index.md` and `https://idx.md/category/{category}/index.md`
+- Scenario indexes at `https://idx.md/scenario/index.md` and `https://idx.md/scenario/{scenario}/index.md`
+- Industry indexes at `https://idx.md/industry/index.md` and `https://idx.md/industry/{industry}/index.md`
 - One topic per directory: `https://idx.md/{topic}` (HEAD) and `https://idx.md/{topic}/BODY.md`
 - Integrity fields in HEAD frontmatter (`content_sha256`, `retrieved_at`)
 

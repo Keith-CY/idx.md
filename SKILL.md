@@ -12,6 +12,9 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 ## Index locations
 - https://idx.md/index.md
 - https://idx.md/data/index.md
+- https://idx.md/category/index.md
+- https://idx.md/scenario/index.md
+- https://idx.md/industry/index.md
 
 ## Index entry format
 - Each entry is a HEAD frontmatter block followed by a topic line.
