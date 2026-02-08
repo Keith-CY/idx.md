@@ -36,6 +36,31 @@ describe("worker fetch", () => {
     expect(body).toContain('name="twitter:url"');
   });
 
+  test("returns markdown for search engine bots", async () => {
+    const env = {
+      IDX_MD: {
+        get: async () => ({ body: "hello" }),
+      },
+    } as any;
+
+    const response = await worker.fetch(
+      new Request("https://idx.md/types", {
+        headers: {
+          "user-agent":
+            "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+        },
+      }),
+      env,
+    );
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe(
+      "text/markdown; charset=utf-8",
+    );
+    const body = await response.text();
+    expect(body).toBe("hello");
+  });
+
   test("returns og html when og=1 is present", async () => {
     const env = {
       IDX_MD: {
@@ -86,6 +111,46 @@ describe("worker fetch", () => {
     } finally {
       globalThis.fetch = originalFetch;
     }
+  });
+
+  test("serves robots.txt", async () => {
+    const env = {
+      IDX_MD: {
+        get: async () => null,
+      },
+    } as any;
+
+    const response = await worker.fetch(new Request("https://idx.md/robots.txt"), env);
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe(
+      "text/plain; charset=utf-8",
+    );
+    const body = await response.text();
+    expect(body).toContain("User-agent: *");
+    expect(body).toContain("Sitemap: https://idx.md/sitemap.xml");
+  });
+
+  test("serves sitemap.xml from R2", async () => {
+    const env = {
+      IDX_MD: {
+        get: async (key: string) => {
+          if (key === "data/sitemap.xml") {
+            return { body: "<urlset></urlset>" };
+          }
+          return null;
+        },
+      },
+    } as any;
+
+    const response = await worker.fetch(new Request("https://idx.md/sitemap.xml"), env);
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe(
+      "application/xml; charset=utf-8",
+    );
+    const body = await response.text();
+    expect(body).toContain("<urlset");
   });
 
   test("returns markdown 404 when missing", async () => {

@@ -14,6 +14,7 @@ import {
   parseScenarioFromTags,
 } from "./lib/verticals";
 import { buildPilotPlaybooks } from "./lib/playbooks";
+import { buildSitemapXml } from "./lib/sitemap";
 import { loadSources, type SourceEntry } from "./lib/registry";
 import {
   CATEGORY_INDEX_PATH,
@@ -46,6 +47,8 @@ const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
 const SKILL_SOURCE_PATH = resolve(repoRoot, "SKILL.md");
 const SKILL_TARGET_PATH = resolve(DATA_ROOT, "SKILL.md");
+
+const SITEMAP_PATH = resolve(DATA_ROOT, "sitemap.xml");
 
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const REPORT_PATH = resolve(REPORT_DIR, "rejected.md");
@@ -387,6 +390,21 @@ await writeIndexPages({
   pages: industryOutput.pages,
   pagePathForSlug: industryIndexPath,
 });
+
+const sitemapPaths = [
+  "/SKILL.md",
+  "/data/index.md",
+  "/category/index.md",
+  ...categoryOutput.pages.map((page) => `/category/${page.slug}/index.md`),
+  "/scenario/index.md",
+  ...scenarioOutput.pages.map((page) => `/scenario/${page.slug}/index.md`),
+  "/industry/index.md",
+  ...industryOutput.pages.map((page) => `/industry/${page.slug}/index.md`),
+  ...sortedIndexEntries.map((entry) => `/${entry.topic}/BODY.md`),
+];
+const sitemapXml = buildSitemapXml({ origin: "https://idx.md", paths: sitemapPaths });
+await Bun.write(SITEMAP_PATH, sitemapXml);
+
 await writeSkillDoc();
 
 if (rejected.length > 0) {
