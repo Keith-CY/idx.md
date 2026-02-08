@@ -7,15 +7,25 @@ import {
   formatUnknownCategoryReason,
   parseCategoriesFromTags,
 } from "./lib/categories";
+import {
+  buildIndustryIndexes,
+  buildScenarioIndexes,
+  parseIndustryFromTags,
+  parseScenarioFromTags,
+} from "./lib/verticals";
 import { loadSources, type SourceEntry } from "./lib/registry";
 import {
   CATEGORY_INDEX_PATH,
   DATA_ROOT,
+  INDUSTRY_INDEX_PATH,
   INDEX_PATH,
+  SCENARIO_INDEX_PATH,
   bodyPath,
   categoryIndexPath,
   formatIndexEntry,
   headPath,
+  industryIndexPath,
+  scenarioIndexPath,
   topicDir,
 } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
@@ -163,6 +173,8 @@ const indexEntries: Array<{
   topic: string;
   headContent: string;
   categories: string[];
+  scenarios: string[];
+  industries: string[];
 }> = [];
 
 const writeRejectedReport = async () => {
@@ -195,6 +207,7 @@ try {
     }
     const { markdown, bytes, retrievedAt } = fetched;
     const topic = source.slug;
+
     const parsedCategories = parseCategoriesFromTags(source.tags);
     if (parsedCategories.unknown.length > 0) {
       rejected.push({
@@ -202,6 +215,27 @@ try {
         reason: formatUnknownCategoryReason(parsedCategories.unknown),
       });
     }
+
+    const parsedScenarios = parseScenarioFromTags(source.tags);
+    if (parsedScenarios.unknown.length > 0) {
+      rejected.push({
+        url: source.source_url,
+        reason: `Unknown scenario tag(s): ${parsedScenarios.unknown
+          .map((slug) => `scenario-${slug}`)
+          .join(", ")}; mapped to scenario-uncategorized`,
+      });
+    }
+
+    const parsedIndustries = parseIndustryFromTags(source.tags);
+    if (parsedIndustries.unknown.length > 0) {
+      rejected.push({
+        url: source.source_url,
+        reason: `Unknown industry tag(s): ${parsedIndustries.unknown
+          .map((slug) => `industry-${slug}`)
+          .join(", ")}; mapped to industry-uncategorized`,
+      });
+    }
+
     const entryDirPath = resolveTopicDir(topic);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
@@ -229,6 +263,8 @@ try {
       topic,
       headContent,
       categories: parsedCategories.categories,
+      scenarios: parsedScenarios.scenarios,
+      industries: parsedIndustries.industries,
     });
 
     accepted.push({ source, retrievedAt });
@@ -250,6 +286,7 @@ const indexOutput = indexContent
   ? `${INDEX_PREAMBLE}\n${indexContent}\n`
   : `${INDEX_PREAMBLE}\n`;
 await Bun.write(INDEX_PATH, indexOutput);
+
 const categoryOutput = buildCategoryIndexes(sortedIndexEntries);
 await Bun.write(CATEGORY_INDEX_PATH, categoryOutput.hubContent);
 await Promise.all(
@@ -259,6 +296,27 @@ await Promise.all(
     await Bun.write(outputPath, page.content);
   }),
 );
+
+const scenarioOutput = buildScenarioIndexes(sortedIndexEntries);
+await Bun.write(SCENARIO_INDEX_PATH, scenarioOutput.hubContent);
+await Promise.all(
+  scenarioOutput.pages.map(async (page) => {
+    const outputPath = scenarioIndexPath(page.slug);
+    await mkdir(dirname(outputPath), { recursive: true });
+    await Bun.write(outputPath, page.content);
+  }),
+);
+
+const industryOutput = buildIndustryIndexes(sortedIndexEntries);
+await Bun.write(INDUSTRY_INDEX_PATH, industryOutput.hubContent);
+await Promise.all(
+  industryOutput.pages.map(async (page) => {
+    const outputPath = industryIndexPath(page.slug);
+    await mkdir(dirname(outputPath), { recursive: true });
+    await Bun.write(outputPath, page.content);
+  }),
+);
+
 await writeSkillDoc();
 
 if (rejected.length > 0) {
@@ -269,3 +327,4 @@ if (rejected.length > 0) {
 }
 
 console.log(`Sources: ${result.sources.length} (accepted ${accepted.length})`);
+
