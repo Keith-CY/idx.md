@@ -11,7 +11,10 @@ const OG_IMAGE_SOURCE_URL =
   "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg";
 const VARY_USER_AGENT = "User-Agent";
 
-const CRAWLER_UA = /Slackbot|Slack-ImgProxy|Discordbot|Twitterbot|facebookexternalhit|LinkedInBot|WhatsApp|TelegramBot|Googlebot|bingbot|DuckDuckBot/i;
+// Social link unfurlers should get OG/Twitter meta HTML. Search crawlers should index the
+// actual markdown instead, so keep them out of this list.
+const SOCIAL_PREVIEW_UA =
+  /Slackbot|Slack-ImgProxy|Discordbot|Twitterbot|facebookexternalhit|LinkedInBot|WhatsApp|TelegramBot/i;
 
 function shouldServeOg(url: URL, userAgent: string | null): boolean {
   if (url.searchParams.get("og") === "1") {
@@ -20,7 +23,7 @@ function shouldServeOg(url: URL, userAgent: string | null): boolean {
   if (!userAgent) {
     return false;
   }
-  return CRAWLER_UA.test(userAgent);
+  return SOCIAL_PREVIEW_UA.test(userAgent);
 }
 
 function setVaryUserAgent(headers: Headers): Headers {
@@ -83,11 +86,56 @@ function renderOgHtml(url: URL): string {
 </html>`;
 }
 
+function renderRobotsTxt(url: URL): string {
+  const origin = url.origin;
+  return [
+    "User-agent: *",
+    "Allow: /",
+    "Disallow: /data/reports/",
+    `Sitemap: ${origin}/sitemap.xml`,
+    "",
+  ].join("\n");
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/og.jpg") {
       return proxyOgImage();
+    }
+
+    if (url.pathname === "/robots.txt") {
+      return new Response(renderRobotsTxt(url), {
+        status: 200,
+        headers: {
+          "content-type": "text/plain; charset=utf-8",
+          "cache-control": "public, max-age=3600",
+        },
+      });
+    }
+
+    if (url.pathname === "/sitemap.xml") {
+      const object = await env.IDX_MD.get("data/sitemap.xml");
+      if (!object) {
+        return new Response("Not Found", {
+          status: 404,
+          headers: {
+            "content-type": "text/plain; charset=utf-8",
+            "cache-control": "public, max-age=60",
+          },
+        });
+      }
+
+      const headers = new Headers();
+      if (typeof object.writeHttpMetadata === "function") {
+        object.writeHttpMetadata(headers);
+      }
+      headers.set("content-type", "application/xml; charset=utf-8");
+      if (!headers.has("cache-control")) {
+        headers.set("cache-control", "public, max-age=3600");
+      }
+      setVaryUserAgent(headers);
+      return new Response(object.body, { status: 200, headers });
     }
 
     if (shouldServeOg(url, request.headers.get("user-agent"))) {
