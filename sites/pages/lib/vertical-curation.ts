@@ -85,11 +85,10 @@ const INDUSTRY_CURATION = new Map<string, VerticalCuration>([
   ],
 ]);
 
-export function getScenarioCuration(slug: string): VerticalCuration | null {
-  return SCENARIO_CURATION.get(slug) ?? null;
+export function getScenarioCuration(slug: string): VerticalCuration | undefined {
+  return SCENARIO_CURATION.get(slug);
 }
 
-export function getIndustryCuration(slug: string): VerticalCuration | null {
-  return INDUSTRY_CURATION.get(slug) ?? null;
+export function getIndustryCuration(slug: string): VerticalCuration | undefined {
+  return INDUSTRY_CURATION.get(slug);
 }
-
