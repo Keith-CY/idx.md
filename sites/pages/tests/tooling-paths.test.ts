@@ -95,6 +95,8 @@ describe("pages tooling paths", () => {
     const text = await readText("SKILL.md");
     expect(text.includes("https://idx.md/index.md")).toBe(true);
     expect(text.includes("https://idx.md/category/index.md")).toBe(true);
+    expect(text.includes("https://idx.md/scenario/index.md")).toBe(true);
+    expect(text.includes("https://idx.md/industry/index.md")).toBe(true);
     expect(text.includes("/{topic}/BODY.md")).toBe(true);
   });
 
