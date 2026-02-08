@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atefr/niri-ipc/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:10.894Z
+retrieved_at: 2026-02-08T16:41:34.016Z
 content_sha256: e7a49c33974b7cda4a8993d4887579a7be711d5ebdb8410741f619ec3eb4c30a
 ---

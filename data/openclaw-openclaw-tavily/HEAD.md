@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bert-builder/tavily/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:44.982Z
+retrieved_at: 2026-02-08T16:42:12.601Z
 content_sha256: b9497a534e66f1b48e36a6cb474c170f01ca73279bfd2b72819cae94dd0ec3ab
 ---

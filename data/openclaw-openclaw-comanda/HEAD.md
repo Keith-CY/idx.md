@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kris-hansen/comanda/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:24.721Z
-content_sha256: 57c8e84f6a624ba49dc32f0e9086143ce76c5b5e375b5e59d5f333595fa3b49f
+retrieved_at: 2026-02-08T16:40:46.587Z
+content_sha256: c0cbc090c5050e538667376bfbe4b5cf2f579a54cc158173c71be1f83f337469
 ---

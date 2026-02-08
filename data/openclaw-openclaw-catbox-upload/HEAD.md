@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/microck/catbox-upload/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:17.787Z
+retrieved_at: 2026-02-08T16:40:38.841Z
 content_sha256: bdedbc03ba81333c343568b91de1991a4daf3f61296f7e58c8c8d6a12a93d6b6
 ---

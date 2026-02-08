@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/grocery-list/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:49.153Z
+retrieved_at: 2026-02-08T16:41:08.570Z
 content_sha256: 185c30a3e239c7c98277e21e123b856855898f4d1526e79399d7d2d677dfa32c
 ---

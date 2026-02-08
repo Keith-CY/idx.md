@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/instrument-data-to-allotrope/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/instrument-data-to-allotrope/SKILL.md
-retrieved_at: 2026-02-08T09:09:14.456Z
+retrieved_at: 2026-02-08T16:42:56.068Z
 content_sha256: 6167bf1731e568b63110a8f27e987cfe386f44e64cd2d78d9080d5d7628a79c5
 ---

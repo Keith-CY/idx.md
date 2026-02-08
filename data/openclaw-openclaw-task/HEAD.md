@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amirbrooks/task/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:44.532Z
+retrieved_at: 2026-02-08T16:42:11.962Z
 content_sha256: 129ffe24ca5df7fc8fe5663cf8162c81fbc9c39162f6a937bb4ce9f26264dd3e
 ---

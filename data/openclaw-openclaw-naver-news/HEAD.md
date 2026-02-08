@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steamb23/naver-news/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:09.826Z
+retrieved_at: 2026-02-08T16:41:32.905Z
 content_sha256: f13e08e51da8c5cbe4b6cc6d25a792e56700e53692653b9b5ddc5b5cb70095c3
 ---

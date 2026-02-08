@@ -1,6 +1,6 @@
 ---
 name: tinman
-version: 0.6.0
+version: 0.6.1
 description: AI security scanner with active prevention - 168 detection patterns, 288 attack probes, safer/risky/yolo modes, agent self-protection via /tinman check
 author: oliveskin
 repository: https://github.com/oliveskin/openclaw-skill-tinman
@@ -15,7 +15,7 @@ requires:
 install:
   pip:
     - AgentTinman>=0.2.1
-    - tinman-openclaw-eval>=0.3.0
+    - tinman-openclaw-eval>=0.3.2
 
 permissions:
   tools:
@@ -183,17 +183,18 @@ Run proactive security sweep with 288 synthetic attack probes.
 ```
 
 **Attack Categories:**
-- `prompt_injection` (15 attacks): Jailbreaks, DAN, instruction override
-- `tool_exfil` (42 attacks): SSH keys, credentials, cloud creds, supply-chain tokens, network exfil
-- `context_bleed` (14 attacks): Cross-session leaks, memory extraction
-- `privilege_escalation` (15 attacks): Sandbox escape, elevation bypass
-- `financial` (26 attacks): Crypto wallets (BTC, ETH, SOL, Base), transactions, exchange API keys
-- `unauthorized_action` (28 attacks): Actions without consent, implicit execution
-- `mcp_attacks` (20 attacks): MCP tool abuse, server injection, cross-MCP exfil
-- `indirect_injection` (20 attacks): Injection via files, URLs, documents
-- `evasion_bypass` (30 attacks): Unicode bypass, URL/base64/hex encoding, shell injection
-- `memory_poisoning` (25 attacks): Context injection, RAG poisoning, history rewriting
-- `platform_specific` (35 attacks): Windows (mimikatz, schtasks, PowerShell IEX, certutil), macOS (LaunchAgents, keychain), Linux (systemd, cron), cloud metadata
+- `prompt_injection` (15): Jailbreaks, instruction override
+- `tool_exfil` (42): SSH keys, credentials, cloud creds, network exfil
+- `context_bleed` (14): Cross-session leaks, memory extraction
+- `privilege_escalation` (15): Sandbox escape, elevation bypass
+- `supply_chain` (18): Malicious skills, dependency/update attacks
+- `financial_transaction` (26): Wallet/seed theft, transactions, exchange API keys (alias: `financial`)
+- `unauthorized_action` (28): Actions without consent, implicit execution
+- `mcp_attack` (20): MCP tool abuse, server injection, cross-tool exfil (alias: `mcp_attacks`)
+- `indirect_injection` (20): Injection via files, URLs, documents, issues
+- `evasion_bypass` (30): Unicode/encoding bypass, obfuscation
+- `memory_poisoning` (25): Persistent instruction poisoning, fabricated history
+- `platform_specific` (35): Windows/macOS/Linux/cloud-metadata payloads
 
 **Output:** Writes sweep report to `~/.openclaw/workspace/tinman-sweep.md`
 

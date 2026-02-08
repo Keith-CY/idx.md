@@ -35,6 +35,8 @@ https://gateway.maton.ai/{app}/{native-api-path}
 
 Replace `{app}` with the service name and `{native-api-path}` with the actual API endpoint path.
 
+IMPORTANT: The URL path MUST start with the connection's app name (eg. `/google-mail/...`). This prefix tells the gateway which app connection to use. For example, the native Gmail API path starts with `gmail/v1/`, so full paths look like `/google-mail/gmail/v1/users/me/messages`.
+
 ## Authentication
 
 All requests require the Maton API key in the Authorization header:
@@ -172,6 +174,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Apollo | `apollo` | `api.apollo.io` |
 | Asana | `asana` | `app.asana.com` |
 | Attio | `attio` | `api.attio.com` |
+| Basecamp | `basecamp` | `3.basecampapi.com` |
 | Calendly | `calendly` | `api.calendly.com` |
 | Chargebee | `chargebee` | `{subdomain}.chargebee.com` |
 | ClickUp | `clickup` | `api.clickup.com` |
@@ -179,6 +182,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Eventbrite | `eventbrite` | `www.eventbriteapi.com` |
 | Fathom | `fathom` | `api.fathom.ai` |
 | GitHub | `github` | `api.github.com` |
+| Gumroad | `gumroad` | `api.gumroad.com` |
 | Google Ads | `google-ads` | `googleads.googleapis.com` |
 | Google Analytics Admin | `google-analytics-admin` | `analyticsadmin.googleapis.com` |
 | Google Analytics Data | `google-analytics-data` | `analyticsdata.googleapis.com` |
@@ -200,6 +204,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Jira | `jira` | `api.atlassian.com` |
 | Jobber | `jobber` | `api.getjobber.com` |
 | JotForm | `jotform` | `api.jotform.com` |
+| Keap | `keap` | `api.infusionsoft.com` |
 | Kit | `kit` | `api.kit.com` |
 | Klaviyo | `klaviyo` | `a.klaviyo.com` |
 | Linear | `linear` | `api.linear.app` |
@@ -241,6 +246,7 @@ See [references/](references/) for detailed routing guides per provider:
 - [Apollo](references/apollo.md) - People search, enrichment, contacts
 - [Asana](references/asana.md) - Tasks, projects, workspaces, webhooks
 - [Attio](references/attio.md) - People, companies, records, tasks
+- [Basecamp](references/basecamp.md) - Projects, to-dos, messages, schedules, documents
 - [Calendly](references/calendly.md) - Event types, scheduled events, availability, webhooks
 - [Chargebee](references/chargebee.md) - Subscriptions, customers, invoices
 - [ClickUp](references/clickup.md) - Tasks, lists, folders, spaces, webhooks
@@ -248,6 +254,7 @@ See [references/](references/) for detailed routing guides per provider:
 - [Eventbrite](references/eventbrite.md) - Events, venues, tickets, orders, attendees
 - [Fathom](references/fathom.md) - Meeting recordings, transcripts, summaries, webhooks
 - [GitHub](references/github.md) - Repositories, issues, pull requests, commits
+- [Gumroad](references/gumroad.md) - Products, sales, subscribers, licenses, webhooks
 - [Google Ads](references/google-ads.md) - Campaigns, ad groups, GAQL queries
 - [Google Analytics Admin](references/google-analytics-admin.md) - Reports, dimensions, metrics
 - [Google Analytics Data](references/google-analytics-data.md) - Reports, dimensions, metrics
@@ -269,6 +276,7 @@ See [references/](references/) for detailed routing guides per provider:
 - [Jira](references/jira.md) - Issues, projects, JQL queries
 - [Jobber](references/jobber.md) - Clients, jobs, invoices, quotes (GraphQL)
 - [JotForm](references/jotform.md) - Forms, submissions, webhooks
+- [Keap](references/keap.md) - Contacts, companies, tags, tasks, opportunities, campaigns
 - [Kit](references/kit.md) - Subscribers, tags, forms, sequences, broadcasts
 - [Klaviyo](references/klaviyo.md) - Profiles, lists, campaigns, flows, events
 - [Linear](references/linear.md) - Issues, projects, teams, cycles (GraphQL)
@@ -451,6 +459,24 @@ echo $MATON_API_KEY
 python <<'EOF'
 import urllib.request, os, json
 req = urllib.request.Request('https://ctrl.maton.ai/connections')
+req.add_header('Authorization', f'Bearer {os.environ["MATON_API_KEY"]}')
+print(json.dumps(json.load(urllib.request.urlopen(req)), indent=2))
+EOF
+```
+
+### Troubleshooting: Missing app connection for {app} or Invalid app name: {app}
+
+1. Verify your URL path starts with the correct app name. The path must begin with `/google-mail/`. For example:
+
+- Correct: `https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages`
+- Incorrect: `https://gateway.maton.ai/gmail/v1/users/me/messages`
+
+2. Ensure you have an active connection for the app. List your connections to verify:
+
+```bash
+python <<'EOF'
+import urllib.request, os, json
+req = urllib.request.Request('https://ctrl.maton.ai/connections?app=google-mail&status=ACTIVE')
 req.add_header('Authorization', f'Bearer {os.environ["MATON_API_KEY"]}')
 print(json.dumps(json.load(urllib.request.urlopen(req)), indent=2))
 EOF

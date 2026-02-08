@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/isms-audit-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:54.595Z
+retrieved_at: 2026-02-08T16:41:16.375Z
 content_sha256: 919dfc70f3af1df6f895ab4bfa7aea4bae35ad79a747d07c82a0453b9e0f81db
 ---

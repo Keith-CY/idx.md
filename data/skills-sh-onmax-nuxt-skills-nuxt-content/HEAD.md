@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-content/references/collections.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-content
-retrieved_at: 2026-02-08T09:06:51.915Z
+retrieved_at: 2026-02-08T16:40:14.304Z
 content_sha256: eb10a535052b1ecf968008adaf360e1fb130f229808e83482519b83c78aaae4c
 ---

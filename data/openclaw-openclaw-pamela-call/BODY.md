@@ -1,18 +1,19 @@
 ---
-name: pamela-calls
-description: Make AI-powered phone calls with Pamela's voice API. Create outbound calls, register custom tools for mid-call actions, handle webhooks, and build React UIs. Use when the user wants to make phone calls, integrate voice AI, build IVR systems, navigate phone menus, or automate phone tasks.
+name: pamela-call
+version: 1.1.4
+description: Make AI-powered phone calls instantly with Pamela. No lag, no phone setup, no big upfront costs—just automatic calling. Create outbound calls, register custom tools for mid-call actions, handle webhooks, and build React UIs. Use when the user wants to make phone calls, integrate voice AI, build IVR systems, navigate phone menus, or automate phone tasks.
 ---
 
-# Pamela Voice API Skill
+# Pamela Calls - make AI phone calls instantly.
 
-Make AI-powered phone calls with native phone tree navigation.
+Make AI-powered phone calls with native phone tree navigation. **[ThisIsPamela](https://thisispamela.com)** is a voice AI platform that handles outbound calls, navigates phone trees, and integrates with your apps via SDKs, webhooks, and MCP.
 
 **Jump to:** [Installation](#installation) · [Quick Start](#quick-start) · [Use Cases](#use-cases) · [SDK Reference](#sdk-reference)
 
 ## Prerequisites
 
 - API subscription (required for API access)
-- API key from your developer account
+- API key from your API account
 - Node.js 18+ (for JS/React) or Python 3.8+ (for Python)
 
 ## Installation
@@ -37,10 +38,22 @@ npm install @thisispamela/react @thisispamela/sdk
 npm install -g @thisispamela/cli
 ```
 
+**MCP (for MCP-based agents):**
+```bash
+npm install @thisispamela/mcp
+```
+
+**Widget (embeddable, no framework):**
+```bash
+npm install @thisispamela/widget
+```
+
+Latest versions: SDK / CLI / Widget / MCP / Python `1.1.3`, React `1.1.4`.
+
 ## Getting Your API Key
 
 1. Sign up for an API subscription at [developer.thisispamela.com](https://developer.thisispamela.com)
-2. Navigate to the API settings panel
+2. Navigate to Settings → API Access
 3. Set up billing through Stripe
 4. Click "Create API Key"
 5. Save immediately - the full key (starts with `pk_live_`) is only shown once
@@ -117,9 +130,12 @@ thisispamela create-call \
 
 For detailed SDK documentation:
 
-- **[JavaScript SDK](../../../sdk/javascript.md)** - Full JS/TS reference
-- **[Python SDK](../../../sdk/python.md)** - Full Python reference
-- **[React Components](../../../sdk/react.md)** - Component library guide
+- **[JavaScript SDK](https://docs.thisispamela.com/sdk/javascript)** - Full JS/TS reference
+- **[Python SDK](https://docs.thisispamela.com/sdk/python)** - Full Python reference
+- **[React Components](https://docs.thisispamela.com/sdk/react)** - Component library (v1.1.4)
+- **[Widget](https://docs.thisispamela.com/sdk/widget)** - Embeddable widget for any website
+- **[MCP Server](https://docs.thisispamela.com/sdk/mcp)** - MCP tools for AI assistants
+- **[CLI](https://docs.thisispamela.com/sdk/cli)** - Command-line reference
 
 ## Webhooks
 
@@ -155,7 +171,9 @@ Verify webhook signatures with the `X-Pamela-Signature` header.
 
 ## Resources
 
-- Docs: https://docs.thisispamela.com/
-- Demo: https://demo.thisispamela.com/
-- API: https://api.thisispamela.com
-- Support: support@thisispamela.com
+- **Website:** https://thisispamela.com
+- **Docs:** https://docs.thisispamela.com
+- **Demo:** https://demo.thisispamela.com
+- **API:** https://api.thisispamela.com
+- **Discord (live support):** https://discord.gg/cJj5CK8V
+- **Email:** support@thisispamela.com

@@ -10,7 +10,7 @@ Operate Fly.io apps safely and repeatably with `flyctl`.
 ## Defaults / safety
 
 - Prefer **read-only** commands first: `fly status`, `fly logs`, `fly config show`, `fly releases`, `fly secrets list`.
-- **Do not edit/modify Fly.io apps, machines, secrets, volumes, or databases without Justin’s explicit approval.**
+- **Do not edit/modify Fly.io apps, machines, secrets, volumes, or databases without your human’s explicit approval.**
   - Read-only actions are OK without approval.
   - Destructive actions (destroy/drop) always require explicit approval.
 - When debugging builds, capture the exact error output and determine whether it’s a:

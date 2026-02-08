@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/jtbd-analyzer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:55.900Z
+retrieved_at: 2026-02-08T16:41:17.947Z
 content_sha256: 1dffec564be835c41883010a5c6518aec34437257197be6f8198464fe9a70891
 ---

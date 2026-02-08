@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/roadmap-update.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/roadmap-update.md
-retrieved_at: 2026-02-08T09:09:14.200Z
+retrieved_at: 2026-02-08T16:42:55.789Z
 content_sha256: 4d41bfa47c0b5d35b770ea9d6be0d798ffeff270db83d0c9451e47150544bd81
 ---

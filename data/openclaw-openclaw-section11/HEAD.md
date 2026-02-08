@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crankaddict/section11/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:34.730Z
-content_sha256: b5219619ba1670685a04d56faa9cba20c0b1621e0e7d6637b23c77261f4da95d
+retrieved_at: 2026-02-08T16:41:57.953Z
+content_sha256: 6b5d2757e1e32a70f1307818ac187260aebc552ebd83b87f7e64fa7494efee47
 ---

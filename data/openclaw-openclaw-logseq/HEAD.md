@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/juanirm/logseq/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:00.170Z
+retrieved_at: 2026-02-08T16:41:23.106Z
 content_sha256: b0832d41823430f1a7c2bb64134cf6074ff228cac3b1fcdd46202d802c2fb7d3
 ---

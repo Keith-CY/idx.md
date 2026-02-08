@@ -1,5 +1,6 @@
 ---
 name: comanda
+version: 1.0.0
 description: Generate, visualize, and execute declarative AI pipelines using the comanda CLI. Use when creating LLM workflows from natural language, viewing workflow charts, editing YAML workflow files, or processing/running comanda workflows. Supports multi-model orchestration (OpenAI, Anthropic, Google, Ollama, Claude Code, Gemini CLI, Codex).
 ---
 

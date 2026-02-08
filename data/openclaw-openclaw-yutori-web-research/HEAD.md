@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/juanpin/yutori-web-research/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:09:03.047Z
+retrieved_at: 2026-02-08T16:42:36.565Z
 content_sha256: 79b06e437897636f5b4233c05128325a33fb639e7a0695d324668de7fd832293
 ---

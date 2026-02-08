@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/onboarding-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:13.348Z
+retrieved_at: 2026-02-08T16:41:36.513Z
 content_sha256: c973ee1520d800fb68c39965d6c99526489c834440d7b2c254ab059cb54dab8d
 ---

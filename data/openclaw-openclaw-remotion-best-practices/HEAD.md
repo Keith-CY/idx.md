@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/remotion-best-practices/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:31.206Z
+retrieved_at: 2026-02-08T16:41:53.613Z
 content_sha256: 94c893d93051dff9b856c4ab713ddb8065cde2070b1e7b735f190db3a060ac22
 ---

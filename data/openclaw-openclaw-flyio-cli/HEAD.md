@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/justinburdett/flyio-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:41.549Z
-content_sha256: a282e86e11fb68595d0a2e4cff6af09f9ede6780b08468882df119cf623f7112
+retrieved_at: 2026-02-08T16:41:01.393Z
+content_sha256: 3adfb6b44ec4e62b62b67f573330a5b7870dfe7db0dbac827146241401ec90e1
 ---

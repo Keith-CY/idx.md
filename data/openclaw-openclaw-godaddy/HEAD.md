@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/godaddy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:47.362Z
+retrieved_at: 2026-02-08T16:41:06.364Z
 content_sha256: 7ac5cfe889a2b21623969593154dc52b9d63b732df729473e05565055916faad
 ---

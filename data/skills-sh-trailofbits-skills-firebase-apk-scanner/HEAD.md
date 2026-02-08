@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/references/vulnerabilities.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/firebase-apk-scanner
-retrieved_at: 2026-02-08T09:06:55.986Z
+retrieved_at: 2026-02-08T16:40:18.006Z
 content_sha256: 7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa
 ---

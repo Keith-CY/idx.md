@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-calendar/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:07.139Z
+retrieved_at: 2026-02-08T16:40:28.645Z
 content_sha256: 7d95b82db94bc0404517e318192a64b5de0da6050f0565b0984ae5aebd4c17cc
 ---

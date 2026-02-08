@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/modern-python/skills/modern-python/references/prek.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/modern-python
-retrieved_at: 2026-02-08T09:06:57.486Z
+retrieved_at: 2026-02-08T16:40:19.254Z
 content_sha256: 4be1c181c71aab64ba58573242a1c451d576a5c61ceeb400bb5827f4e1f9532a
 ---

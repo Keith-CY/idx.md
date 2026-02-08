@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fatih-developer/eachlabs-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:34.775Z
+retrieved_at: 2026-02-08T16:40:54.699Z
 content_sha256: 04074154d22c22a2eb71a33dc6114e9358a760652fc8727f14e6319db9c3badd
 ---

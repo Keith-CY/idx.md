@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/xtrends/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:09:00.967Z
+retrieved_at: 2026-02-08T16:42:33.553Z
 content_sha256: 6ee4e9e4d496a71a7fff3b77ef60994ea1cfecaebfae28570ac80c067047f034
 ---

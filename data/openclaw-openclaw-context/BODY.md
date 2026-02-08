@@ -6,7 +6,7 @@ metadata: {"clawdbot":{"emoji":"📍","requires":{"env":["CAMINO_API_KEY"]},"pri
 
 ## Installation
 
-**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all 6 skills (query, places, relationship, context, route, journey) for comprehensive coverage.
+**Companion Skills**: This is part of the Camino AI location intelligence suite. Install all available skills (query, places, relationship, context, route, journey, real-estate, hotel-finder, ev-charger, school-finder, parking-finder, fitness-finder, safety-checker, travel-planner) for comprehensive coverage.
 
 ```bash
 # Install all skills from repo
@@ -29,8 +29,21 @@ Get comprehensive context about a location including nearby places, area descrip
 
 ## Setup
 
-1. Get your API key from [https://app.getcamino.ai](https://app.getcamino.ai)
-2. Add to your `~/.claude/settings.json`:
+**Instant Trial (no signup required):** Get a temporary API key with 25 calls:
+
+```bash
+curl -s -X POST -H "Content-Type: application/json" \
+  -d '{"email": "you@example.com"}' \
+  https://api.getcamino.ai/trial/start
+```
+
+Returns: `{"api_key": "camino-xxx...", "calls_remaining": 25, ...}`
+
+For 1,000 free calls/month, sign up at [https://app.getcamino.ai/skills/activate](https://app.getcamino.ai/skills/activate).
+
+**Add your key to Claude Code:**
+
+Add to your `~/.claude/settings.json`:
 
 ```json
 {
@@ -40,7 +53,7 @@ Get comprehensive context about a location including nearby places, area descrip
 }
 ```
 
-3. Restart Claude Code
+Restart Claude Code.
 
 ## Usage
 

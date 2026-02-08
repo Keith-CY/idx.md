@@ -2,7 +2,7 @@
 
 | Category | Count | Path |
 | --- | ---: | --- |
-| AI & LLMs | 154 | /category/ai-llms/index.md |
+| AI & LLMs | 155 | /category/ai-llms/index.md |
 | Apple Apps & Services | 31 | /category/apple-apps-services/index.md |
 | Browser Automation | 69 | /category/browser-automation/index.md |
 | Calendar & Scheduling | 28 | /category/calendar-scheduling/index.md |
@@ -26,7 +26,7 @@
 | Personal Development | 36 | /category/personal-development/index.md |
 | Productivity Tasks | 108 | /category/productivity-tasks/index.md |
 | Search & Research | 152 | /category/search-research/index.md |
-| Security & Passwords | 20 | /category/security-passwords/index.md |
+| Security & Passwords | 21 | /category/security-passwords/index.md |
 | Self-Hosted Automation | 16 | /category/self-hosted-automation/index.md |
 | Shopping & E-Commerce | 32 | /category/shopping-e-commerce/index.md |
 | Smart Home & IoT | 50 | /category/smart-home-iot/index.md |

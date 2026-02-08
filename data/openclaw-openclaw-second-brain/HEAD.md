@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/christinetyip/second-brain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:08:34.660Z
+retrieved_at: 2026-02-08T16:41:57.768Z
 content_sha256: 4a3f8b5572e37886f09eeb87255e89cde800ea03a62a03be762a05288c8858bc
 ---

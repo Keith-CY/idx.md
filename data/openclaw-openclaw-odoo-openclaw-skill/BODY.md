@@ -1,200 +1,121 @@
 ---
 name: odoo
-description: Use when the user asks for Odoo accounting audits, VAT/cashflow analysis, or financial reporting that should be executed directly against Odoo via RPC with reproducible, evidence-backed numbers.
+description: Use when the user asks for Odoo accounting audits, VAT/cashflow analysis, inventory valuation, or financial reporting that must come directly from Odoo via RPC with reproducible, evidence-backed numbers.
 ---
 
-# Odoo Financial Intelligence (Production-Grade RPC)
+# Odoo Financial Intelligence (Read-Only, Evidence-First)
 
-Use this skill for **verifiable financial reporting from Odoo**, not estimate-based answers.
+Use this skill for **deterministic Odoo financial reporting**.
 
-## Non-Negotiables
+## Hard Rules
 
-1. **Source of truth = Odoo RPC data**, not AI text.
-2. **Read-only by default**. Do not create/update/delete in Odoo unless user explicitly asks.
-3. **No proactive Odoo actions** unless explicitly requested in-session.
-4. **Show method + scope + assumptions** for every material number.
-5. Power mode mutating calls (`create`, `write`, `unlink`) require explicit `--allow-write`.
+1. Odoo RPC output is the source of truth; AI text is advisory.
+2. Skill is **strict read-only**. Mutating methods are blocked (`create`, `write`, `unlink`, and similar actions).
+3. No proactive Odoo actions unless explicitly requested in-session.
+4. Every material number must include method/scope assumptions.
 
----
+## Entrypoint
 
-## Entry Points
+```bash
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py
+```
 
-- CLI wrapper: `./skills/odoo/scripts/cfo-cli`
-- Engine root: `skills/odoo/assets/autonomous-cfo`
-- Connector: `skills/odoo/assets/autonomous-cfo/src/connectors/odoo_client.py`
+## Runtime/Backend Policy
 
----
-
-## API Backends (Odoo-Version Aware)
-
-`cfo-cli` supports:
-- `--rpc-backend auto` (default)
+- `--rpc-backend auto` (default): prefers JSON-2 for Odoo 19+, falls back to XML-RPC.
 - `--rpc-backend json2`
 - `--rpc-backend xmlrpc`
 
-### Backend policy
+Quick health check:
 
-- Prefer **JSON-2** for Odoo 19+.
-- Use **XML-RPC** fallback for older deployments.
-- Odoo docs indicate XML-RPC/JSON-RPC legacy endpoints are planned for removal in Odoo 20; prioritize JSON-2 readiness.
+```bash
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py doctor
+```
 
-### Quick checks
+## Required Environment
 
-- Auto health check: `./skills/odoo/scripts/cfo-cli doctor`
-- Force JSON-2: `./skills/odoo/scripts/cfo-cli --rpc-backend json2 doctor`
-- Force XML-RPC: `./skills/odoo/scripts/cfo-cli --rpc-backend xmlrpc doctor`
-
----
-
-## Credentials + Auth
-
-Required env (from `autonomous-cfo/.env`):
+From `assets/autonomous-cfo/.env`:
 - `ODOO_URL`
 - `ODOO_DB`
 - `ODOO_USER`
 - `ODOO_PASSWORD`
 
-### Best practice
+Recommended: use Odoo API key as `ODOO_PASSWORD` and least-privilege bot user.
 
-- For production integrations, use **Odoo API keys** as `ODOO_PASSWORD`.
-- Keep least privilege on integration user.
-- Prefer dedicated bot users for audit/reporting tasks.
+## Primary Workflows
 
-### AI integration
+```bash
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py summary --days 30
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py cash_flow
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py vat --date-from YYYY-MM-DD --date-to YYYY-MM-DD
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py trends --months 12 --visualize
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py anomalies
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py anomalies --ai
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py ask "..."
+python3 ./skills/odoo/assets/autonomous-cfo/src/tools/cfo_cli.py rpc-call --model <model> --method <read_method> --payload '<json>'
+```
 
-- `ask` / `anomalies --ai` use **native OpenClaw runtime** (not separate Gemini key flow).
-- AI output is advisory only and must be backed by deterministic Odoo evidence.
-
----
-
-## Standard Workflows
-
-- Summary: `./skills/odoo/scripts/cfo-cli summary --days 30`
-- Cash flow: `./skills/odoo/scripts/cfo-cli cash_flow`
-- VAT: `./skills/odoo/scripts/cfo-cli vat --date-from YYYY-MM-DD --date-to YYYY-MM-DD`
-- Trends: `./skills/odoo/scripts/cfo-cli trends --months 12 --visualize`
-- Rules anomalies: `./skills/odoo/scripts/cfo-cli anomalies`
-- AI anomalies: `./skills/odoo/scripts/cfo-cli anomalies --ai`
-- Natural query: `./skills/odoo/scripts/cfo-cli ask "..."`
-- Power mode: `./skills/odoo/scripts/cfo-cli rpc-call --model <model> --method <method> --payload '<json>'`
-
-Use context controls when needed:
-- `--company-id <id>` for multi-company isolation
-- `--lang`, `--tz` for consistent locale/time context
-- `--timeout`, `--retries` for unstable networks
-
----
+Useful controls:
+- `--company-id` for single-entity scope
+- `--lang`, `--tz` for consistent localization
+- `--timeout`, `--retries` for network stability
 
 ## Accuracy Protocol (Mandatory)
 
-Before finalizing any report:
+Before final output, always:
 
-1. **Scope declaration**
-   - exact date range
-   - move states included (default: posted)
-   - company scope (single vs multi-company)
-2. **Method declaration**
-   - models and domains used
-   - key fields and transformations
-3. **Cross-check**
-   - reconcile totals through at least one alternate slice (e.g., summary vs trends overlap)
-4. **Currency integrity**
-   - state currency and prevent mixed-currency aggregation without explicit conversion logic
-5. **Edge-case handling**
-   - refunds/credit notes, reversals, partial payments, tax-free lines
-6. **Assumptions log**
-   - document exclusions, inferred logic, and unresolved ambiguity
+1. Declare scope (date range, states, company).
+2. Declare method (models/domains/fields used).
+3. Cross-check key totals through one alternate view.
+4. State currency handling explicitly.
+5. Note assumptions and unresolved ambiguities.
 
-If any cross-check fails, mark output **provisional** and run drill-down before conclusions.
+If checks disagree, report as **provisional** and drill down.
 
----
+## VAT Protocol
 
-## VAT Protocol (Important)
-
-Minimum VAT output:
+Minimum output:
 - `output_vat`
 - `input_vat`
 - `net_vat_liability = output_vat - input_vat`
 
 Rules:
-- Use posted tax lines within period.
-- Separate sales vs purchase tax by move type.
-- Explicitly mention treatment of refunds.
-- If localization/custom tax setup exists, run a validation pass on tax tags/accounts before final claims.
+- posted tax lines only (unless user requests otherwise)
+- explicit handling for refunds/credit notes
+- mention localization caveats if custom tax setup exists
 
----
+## Edge-Case Checklist
 
-## Edge Cases Checklist
+- Multi-company leakage (must isolate when requested)
+- Timezone boundary drift (month/day close)
+- Draft contamination
+- Large dataset partial reads (use pagination)
+- Concurrent updates between calls
+- JSON-2 per-call transaction semantics
+- Custom fields/localization mismatches (`fields_get`)
+- Negative/reversal lines and null refs in anomaly logic
 
-Always check these before “final”:
+## AI Guardrails
 
-- **Multi-company leakage**: enforce `--company-id` if user asks for one entity.
-- **Timezone boundary drift**: month-end/day-end queries must use declared timezone.
-- **Draft contamination**: exclude non-posted unless requested.
-- **Large datasets**: use pagination (`search_read_all` pattern), avoid partial reads.
-- **Concurrent updates**: Odoo data can change between calls; avoid fragile multi-call logic where possible.
-- **Transaction semantics (JSON-2)**: each API call is its own transaction; prefer single method paths for atomicity.
-- **Field availability mismatch**: inspect with `fields_get` when custom modules/localization are likely.
-- **Null/empty partner or ref values** in anomaly rules.
-- **Negative values / reversals** in period summaries.
+Allowed: narrative, prioritization, risk commentary.
 
----
+Not allowed: replacing deterministic numbers or claiming audited certainty without evidence.
 
-## AI Usage Guardrails
+For AI-assisted output, include source scope + deterministic basis + confidence.
 
-Allowed:
-- anomaly narrative
-- risk commentary
-- executive wording
+## Output Contract
 
-Not allowed:
-- replacing deterministic totals
-- claiming “audited” based on AI alone
-
-When AI is used, include:
-- source dataset scope
-- deterministic numbers used
-- confidence level and limitations
-
----
-
-## Output Format (for user-facing reports)
-
-1. **Executive Summary** (2-4 bullets)
-2. **Key Numbers**
-3. **Method** (models, domains, timeframe, company)
-4. **Confidence** (high/medium/low + reason)
-5. **Actionable Next Steps**
-
----
-
-## Delivery Rules
-
-When files are generated (charts/reports/exports):
-1. Send the artifact directly (not just local paths).
-2. Format by type:
-   - Images (`png`, `jpg`) as image with summary caption.
-   - Documents (`pdf`, `xlsx`, `csv`) as document attachment.
-3. Caption must include date range, company scope, currency, and what the file proves.
-
----
+Use this structure in user-facing reports:
+1. Executive summary
+2. Key numbers
+3. Method and scope
+4. Confidence level
+5. Actionable next steps
 
 ## Failure Handling
 
-If execution fails:
-1. Return exact failure reason (auth/network/model/field mismatch).
-2. Suggest one concrete fix step.
-3. Re-run minimal `doctor` check.
-4. Do not fabricate fallback numbers.
-
----
-
-## Direct RPC Drill-Down Triggers
-
-Switch from normal report commands to targeted RPC inspection when:
-- user asks for source-record traceability
-- numbers conflict between two outputs
-- custom module/localization suspected
-- large material variance appears with no obvious driver
-
-Use connector methods with explicit domains and include record IDs in evidence where practical.
+On failure:
+1. Return exact error class and context.
+2. Suggest one concrete remediation step.
+3. Re-run `doctor` if connection/auth/model access is suspect.
+4. Never fabricate fallback financial values.

@@ -22,7 +22,16 @@ npm install @actual-app/api
 | `ACTUAL_SYNC_ID` | Yes | Budget Sync ID (Settings → Advanced → Sync ID) |
 | `ACTUAL_DATA_DIR` | No | Local cache directory for budget data (defaults to cwd) |
 | `ACTUAL_ENCRYPTION_PASSWORD` | No | E2E encryption password, if enabled |
-| `NODE_TLS_REJECT_UNAUTHORIZED` | No | Set to `0` for self-signed certs |
+| `NODE_EXTRA_CA_CERTS` | No | Path to CA certificate file for self-signed certs |
+
+### Self-Signed Certificates
+
+If your Actual Budget server uses a self-signed certificate:
+
+1. **Recommended:** Add your CA to the system trust store, or
+2. **Alternative:** Set `NODE_EXTRA_CA_CERTS=/path/to/your-ca.pem` to trust your specific CA
+
+Avoid disabling TLS verification entirely — it exposes you to man-in-the-middle attacks.
 
 ## Quick Start
 

@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/call-summary.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/call-summary.md
-retrieved_at: 2026-02-08T09:09:15.631Z
+retrieved_at: 2026-02-08T16:42:57.147Z
 content_sha256: 1ab3c6cf0c7c2e8d024fce33b1d9d90788033fa3b3e26eb11f1bf864dc20fe0f
 ---

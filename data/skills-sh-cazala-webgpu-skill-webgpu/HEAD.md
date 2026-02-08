@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/cazala/webgpu-skill/HEAD/REFERENCE.md
 license: ""
 upstream_ref: https://skills.sh/cazala/webgpu-skill/webgpu
-retrieved_at: 2026-02-08T09:06:54.080Z
+retrieved_at: 2026-02-08T16:40:16.247Z
 content_sha256: 44cd05656c416b86a9c9b023e9955feaf4eebb35e45cb99bb8a5715422cc3872
 ---

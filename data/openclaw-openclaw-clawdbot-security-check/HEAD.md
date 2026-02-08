@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/clawdbot-security-check/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:20.860Z
+retrieved_at: 2026-02-08T16:40:42.686Z
 content_sha256: c7b27a0613fb47ea5afc386f5726836f32cc5cba4b56bf1540a6d27324d65579
 ---

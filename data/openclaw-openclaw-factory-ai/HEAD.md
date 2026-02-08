@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mitchellbernstein/factory-ai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T09:07:38.100Z
+retrieved_at: 2026-02-08T16:40:58.271Z
 content_sha256: 944112339483bf24c480eda5e01f53d5f2f43cda30fa5775b720545f1f0dde86
 ---
