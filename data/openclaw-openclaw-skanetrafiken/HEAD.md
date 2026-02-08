@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rezkam/skanetrafiken/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:42.072Z
+retrieved_at: 2026-02-08T09:08:37.626Z
 content_sha256: f71b772116b1ce57282692818ba0a616290c42ca5cc50fb0c46d184e17a95409
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/confidant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:54.634Z
+retrieved_at: 2026-02-08T09:07:25.870Z
 content_sha256: 550a4fa30a4cd7de2c30e7c7d8ae02c4e0dff2fe4ba131f7a7ed5a8a9ef78584
 ---

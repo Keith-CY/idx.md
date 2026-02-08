@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amoghpurohit/job-search-mcp-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:14.093Z
+retrieved_at: 2026-02-08T09:07:55.600Z
 content_sha256: fa186acc33ab6bb72b21b5902ed9e625b46de8010c758917cc23b2b4a7e82acb
 ---

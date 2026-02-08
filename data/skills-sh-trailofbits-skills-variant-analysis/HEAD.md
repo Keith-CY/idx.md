@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/variant-analysis/skills/variant-analysis/METHODOLOGY.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/variant-analysis
-retrieved_at: 2026-02-08T05:35:32.236Z
+retrieved_at: 2026-02-08T09:06:52.828Z
 content_sha256: bbe15a7e6edf419f348564542fec22200b4f0ce30a0f801d620fbd2e406c14f3
 ---

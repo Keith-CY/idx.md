@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eijiac24/moltter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:21.983Z
+retrieved_at: 2026-02-08T09:08:07.652Z
 content_sha256: 45a65969b3d7e5ec3e59bd9a63322d484fdbef82ac411d52a80d4db22329b02b
 ---

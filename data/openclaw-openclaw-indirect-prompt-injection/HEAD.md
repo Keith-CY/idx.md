@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aviv4339/indirect-prompt-injection/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:12.270Z
+retrieved_at: 2026-02-08T09:07:53.123Z
 content_sha256: 9527344d24e0404ff9784bb3d0f3245387f79e9af178730e0b7f1f4db92a8c6c
 ---

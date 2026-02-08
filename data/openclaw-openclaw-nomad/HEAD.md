@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/danfedick/nomad/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:24.823Z
+retrieved_at: 2026-02-08T09:08:11.385Z
 content_sha256: 9f39818caa2bcf09e9f66752d3513a7c7db661badad5a234c04897e94be96a3f
 ---

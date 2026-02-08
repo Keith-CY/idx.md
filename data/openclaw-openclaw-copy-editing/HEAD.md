@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/copy-editing/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:55.864Z
+retrieved_at: 2026-02-08T09:07:28.014Z
 content_sha256: f0bf068d14ed3d5fcf13961e7e0de78374663e38255253cad13113e5e66c8bd2
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pxfeng/xiaohongshu-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:58.089Z
+retrieved_at: 2026-02-08T09:09:00.772Z
 content_sha256: bd2e89faaf3804a09426b25f93ccd9511ee699deb6e31eaace96afc50512d414
 ---

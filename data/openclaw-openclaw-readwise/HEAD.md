@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/refrigerator/readwise/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:36.506Z
+retrieved_at: 2026-02-08T09:08:29.134Z
 content_sha256: 73431be24cccd2be0187b7ba54ed89c754484431b6d5ad98a64e40f85f79cb72
 ---

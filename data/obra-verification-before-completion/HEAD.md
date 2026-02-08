@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
-retrieved_at: 2026-02-08T05:37:09.282Z
+retrieved_at: 2026-02-08T09:09:17.780Z
 content_sha256: ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c
 ---

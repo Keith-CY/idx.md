@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/oracle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:28.008Z
+retrieved_at: 2026-02-08T09:08:16.214Z
 content_sha256: 183045d445482c95a1f4b81d87650bc9438ebf396cc8a92f05f9222f41c9efc6
 ---

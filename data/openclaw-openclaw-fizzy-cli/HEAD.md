@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tobiasbischoff/fizzy-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:04.687Z
+retrieved_at: 2026-02-08T09:07:41.024Z
 content_sha256: 69ccd22353bf55fac3be27aea65ec1d71bdda37f08d9b423cbb256ed7a9ac5df
 ---

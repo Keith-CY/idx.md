@@ -27,6 +27,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-identity-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:44.765Z
+retrieved_at: 2026-02-08T09:07:11.156Z
 content_sha256: 5c0f2daed2eb05213e50eaad7deee6ac7ed2e3172f4ae5be9f9f92ea8e134b18
 ---

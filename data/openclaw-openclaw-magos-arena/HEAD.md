@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/magos-arena/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:17.687Z
+retrieved_at: 2026-02-08T09:08:00.767Z
 content_sha256: 3c83ea5b074fcb2f6bca5a28b4753a98d932627410a9feaaa05900d798711f7d
 ---

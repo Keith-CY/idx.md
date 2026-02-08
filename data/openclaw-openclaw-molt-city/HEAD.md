@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gonzih/molt-city/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:20.938Z
+retrieved_at: 2026-02-08T09:08:06.030Z
 content_sha256: 335f914f91ecf47fefec190a721fd4d4e8b24192421f671e2b61936a9701ce74
 ---

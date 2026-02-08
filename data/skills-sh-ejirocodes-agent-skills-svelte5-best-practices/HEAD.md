@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ejirocodes/agent-skills/HEAD/svelte/skills/svelte5-best-practices/references/runes.md
 license: ""
 upstream_ref: https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices
-retrieved_at: 2026-02-08T05:35:36.978Z
+retrieved_at: 2026-02-08T09:06:59.069Z
 content_sha256: 9c7b6330607aa14d90e8b686a205391067c4ca17b6a90d71ba99cc2333e32086
 ---

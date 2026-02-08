@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lekt9/foundry/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:05.221Z
+retrieved_at: 2026-02-08T09:07:41.876Z
 content_sha256: 40c9831e0a6d8e8eacc0dbc1755712dc30a8919997e461ac1dd2ee52ca0d712b
 ---

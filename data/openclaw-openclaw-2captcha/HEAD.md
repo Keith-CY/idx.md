@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adinvadim/2captcha/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:37.292Z
+retrieved_at: 2026-02-08T09:07:00.007Z
 content_sha256: 7d6899ba490797ac5207ab81674df7093366cb476b48eba0f9891120bb6e1cb2
 ---

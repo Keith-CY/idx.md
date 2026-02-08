@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/pinia
-retrieved_at: 2026-02-08T05:35:28.142Z
+retrieved_at: 2026-02-08T09:06:46.463Z
 content_sha256: 41627453eb019d1755dac787924bde52be162a3bdfc555119f88a8e59dda8f21
 ---

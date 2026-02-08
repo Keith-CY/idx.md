@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/commands/update.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/commands/update.md
-retrieved_at: 2026-02-08T05:37:05.432Z
+retrieved_at: 2026-02-08T09:09:10.390Z
 content_sha256: 7d0c2cd50b6c21d3352161db5544926ba556b425b5e4af465855a43b572ffc48
 ---

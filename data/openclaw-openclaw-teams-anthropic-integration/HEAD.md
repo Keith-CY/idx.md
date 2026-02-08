@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/teams-anthropic-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:47.888Z
+retrieved_at: 2026-02-08T09:08:45.305Z
 content_sha256: 568445be41e5b0446a48944d6a002ba9a3d5c846405716886f6e6c488985866b
 ---

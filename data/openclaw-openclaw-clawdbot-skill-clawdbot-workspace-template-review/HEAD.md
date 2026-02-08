@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/clawdbot-skill-clawdbot-workspace-template-review/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:51.450Z
+retrieved_at: 2026-02-08T09:07:21.004Z
 content_sha256: da30f61e27891bf355286da4e84937285527a0a1aa438b96881fe14831dc2864
 ---

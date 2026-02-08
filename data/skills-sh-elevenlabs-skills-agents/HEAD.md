@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/agents/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/elevenlabs/skills/agents
-retrieved_at: 2026-02-08T05:35:34.682Z
+retrieved_at: 2026-02-08T09:06:53.759Z
 content_sha256: 84ed67f8a30990488012e7e0dcdc9d1109ca29403b3b880a14445f43ecb4ac83
 ---

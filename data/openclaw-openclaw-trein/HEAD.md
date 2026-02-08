@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joehoel/trein/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:50.694Z
+retrieved_at: 2026-02-08T09:08:49.081Z
 content_sha256: 9168ad9d077764ec4a08c1f8040e010fe671664af636f43a088f287b9b75fa39
 ---

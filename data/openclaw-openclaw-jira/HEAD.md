@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/jira/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:13.728Z
+retrieved_at: 2026-02-08T09:07:55.124Z
 content_sha256: dd370b8625677931c0619ff59b12d39d801986d8926fe6f21a5afa2582a13d69
 ---

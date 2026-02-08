@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/pre-mortem-analyst/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:32.731Z
+retrieved_at: 2026-02-08T09:08:23.560Z
 content_sha256: 51be8754ad23302e92e31f2243ec95dc77326f290ac2c38bc74e4db1a5b10b67
 ---

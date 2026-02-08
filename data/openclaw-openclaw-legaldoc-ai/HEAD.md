@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manas-io-ai/legaldoc-ai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:16.234Z
+retrieved_at: 2026-02-08T09:07:58.400Z
 content_sha256: 699d336035f34acc982f80748f0c980e4906c588d6d28a9f579f96fbd6d02a90
 ---

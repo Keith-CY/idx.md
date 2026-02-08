@@ -14,6 +14,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/close-management/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/close-management/SKILL.md
-retrieved_at: 2026-02-08T05:37:06.615Z
+retrieved_at: 2026-02-08T09:09:12.303Z
 content_sha256: 7901f839cba33956be8ae121dbad175cb0fa71d1f6d461111991e634438d7c23
 ---

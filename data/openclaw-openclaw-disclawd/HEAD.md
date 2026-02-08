@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alexerm/disclawd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:58.833Z
+retrieved_at: 2026-02-08T09:07:32.683Z
 content_sha256: e9d69358cb341dfa85afb13627069d11a5ced3efba81d115d6c326d4b81b3640
 ---

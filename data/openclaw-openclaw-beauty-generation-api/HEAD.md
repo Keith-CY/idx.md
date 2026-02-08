@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luruibu/beauty-generation-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:45.515Z
+retrieved_at: 2026-02-08T09:07:12.613Z
 content_sha256: 05127462dda47d1ff3344fbae07f9ed80cdd14d4f5900ff0af6a3d432a085c99
 ---

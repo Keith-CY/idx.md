@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sltelitsyn/kallyai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:15.096Z
+retrieved_at: 2026-02-08T09:07:56.949Z
 content_sha256: 0c3eb8438e1801fb8bb327c7e5866d9e5b6496917dfdf871969e4831f9142b89
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/junwatu/r2-storage/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:35.822Z
+retrieved_at: 2026-02-08T09:08:28.118Z
 content_sha256: a5a547966b83a05af2bdc44a0a7f11b47d6483e705a68851fc57cb5be18505a8
 ---

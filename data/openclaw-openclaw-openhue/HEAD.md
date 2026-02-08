@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openhue/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:27.742Z
+retrieved_at: 2026-02-08T09:08:15.930Z
 content_sha256: 1ef85a78007c604eaff827692b83f6c5d2a40ccac8929b5c387db2ffbc6997ac
 ---

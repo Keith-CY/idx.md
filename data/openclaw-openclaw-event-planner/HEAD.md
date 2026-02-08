@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/event-planner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:01.797Z
+retrieved_at: 2026-02-08T09:07:36.694Z
 content_sha256: aecbb84fd885b3c42ae63c3ac12c603c0306c3ce9532a044d9c3f015f37336a4
 ---

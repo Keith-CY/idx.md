@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitepress/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vitepress
-retrieved_at: 2026-02-08T05:35:28.651Z
+retrieved_at: 2026-02-08T09:06:47.275Z
 content_sha256: 85c6a7ee227c47143fdc8e59b5b2e29bfbbf8499c893b7ce6589c2304f469e35
 ---

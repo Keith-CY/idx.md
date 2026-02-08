@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/domaindetails/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:59.555Z
+retrieved_at: 2026-02-08T09:07:33.733Z
 content_sha256: 118584db71a3749eff6f929e64654dc9b61879fb2af8272fb0f9bc14c6949118
 ---

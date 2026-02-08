@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azd-deployment/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:44.431Z
+retrieved_at: 2026-02-08T09:07:10.637Z
 content_sha256: 35a81c4aced27d0718c77bb87104c3b36b0fe0766c50b283efdc9f7ef85ea1f5
 ---

@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-connectors/references/grammar.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-connectors
-retrieved_at: 2026-02-08T05:35:36.454Z
+retrieved_at: 2026-02-08T09:06:58.923Z
 content_sha256: aea9ec3e60c9d96a95d3b0aafe0f08aa2900e5b2068db47fc0fc8dcd683eef8e
 ---

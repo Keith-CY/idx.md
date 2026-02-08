@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tedkaczynski-the-bot/molt-chess/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:20.889Z
+retrieved_at: 2026-02-08T09:08:05.951Z
 content_sha256: 4146430112fd755e91fec6efa68dee72068677ad9dc08759f9e808aab253543b
 ---

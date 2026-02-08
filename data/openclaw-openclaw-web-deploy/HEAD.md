@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/web-deploy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:55.062Z
+retrieved_at: 2026-02-08T09:08:56.306Z
 content_sha256: 85dddabbdce1e5a51ea825adb473f0bcd30a877832b58db2504e807d3962fb8a
 ---

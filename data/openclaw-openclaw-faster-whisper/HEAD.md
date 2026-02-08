@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/theplasmak/faster-whisper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:03.057Z
+retrieved_at: 2026-02-08T09:07:38.453Z
 content_sha256: 94bc37177104efbe18356012acc913cf64564a05d02d16df2ff3d34b29f02b02
 ---

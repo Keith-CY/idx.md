@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/apollo1234/yt-dlp-downloader-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:36:59.656Z
+retrieved_at: 2026-02-08T09:09:02.861Z
 content_sha256: d37357ff0ac8ebe080608f2a9c6c426c17058b7a4c19fbd767f0a0b6a0a2d324
 ---

@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxthub/references/wrangler-templates.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxthub
-retrieved_at: 2026-02-08T05:35:32.437Z
+retrieved_at: 2026-02-08T09:06:53.406Z
 content_sha256: 1df7576b8c23b52e21dc0dd36dc3b586257f66bdaa36acc8d8a48eec872add8f
 ---

@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/commands/sox-testing.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/sox-testing.md
-retrieved_at: 2026-02-08T05:37:06.770Z
+retrieved_at: 2026-02-08T09:09:12.551Z
 content_sha256: 026a87d7e6fae1ae6a6a371c0df453b46f4565f96c7711aef01308a9758ddb1a
 ---

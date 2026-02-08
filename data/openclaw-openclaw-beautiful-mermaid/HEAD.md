@@ -25,6 +25,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ntlx/beautiful-mermaid/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T05:35:45.467Z
+retrieved_at: 2026-02-08T09:07:12.556Z
 content_sha256: ef2a509e69c70cd551a9ef2985e46384e614f91d46b52c423e7e20b420e96cfe
 ---
