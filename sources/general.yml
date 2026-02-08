@@ -1752,3 +1752,24 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetration-testing
+- type: skills
+  slug: skills-sh-inference-sh-agent-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/inference-sh/agent-skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh/agent-skills/agent-tools
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-aws-penetration-testing
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/aws-penetration-testing/references/advanced-aws-pentesting.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/aws-penetration-testing
+- type: skills
+  slug: skills-sh-cantinaxyz-clawdstrike-clawdstrike
+  source_url: https://raw.githubusercontent.com/cantinaxyz/clawdstrike/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/cantinaxyz/clawdstrike/clawdstrike
