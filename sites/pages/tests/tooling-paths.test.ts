@@ -12,6 +12,8 @@ describe("pages tooling paths", () => {
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
     expect(text.includes('resolve(REPORT_DIR, "rejected.md")')).toBe(true);
     expect(text.includes("INDEX_PATH")).toBe(true);
+    expect(text.includes("SCENARIO_INDEX_PATH")).toBe(true);
+    expect(text.includes("INDUSTRY_INDEX_PATH")).toBe(true);
     expect(text.includes("SKILL.md")).toBe(true);
   });
 
