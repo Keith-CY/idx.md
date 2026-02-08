@@ -104,6 +104,14 @@ function formatRejectedReport(rejections: Rejection[]): string {
   return lines.join("\n");
 }
 
+function formatUnknownVerticalReason(
+  kind: "scenario" | "industry",
+  unknownSlugs: readonly string[],
+): string {
+  const tags = unknownSlugs.map((slug) => `${kind}-${slug}`).join(", ");
+  return `Unknown ${kind} tag(s): ${tags}; mapped to ${kind}-uncategorized`;
+}
+
 type FetchResult = {
   markdown: string;
   bytes: Uint8Array;
@@ -221,9 +229,7 @@ try {
     if (parsedScenarios.unknown.length > 0) {
       rejected.push({
         url: source.source_url,
-        reason: `Unknown scenario tag(s): ${parsedScenarios.unknown
-          .map((slug) => `scenario-${slug}`)
-          .join(", ")}; mapped to scenario-uncategorized`,
+        reason: formatUnknownVerticalReason("scenario", parsedScenarios.unknown),
       });
     }
 
@@ -231,9 +237,7 @@ try {
     if (parsedIndustries.unknown.length > 0) {
       rejected.push({
         url: source.source_url,
-        reason: `Unknown industry tag(s): ${parsedIndustries.unknown
-          .map((slug) => `industry-${slug}`)
-          .join(", ")}; mapped to industry-uncategorized`,
+        reason: formatUnknownVerticalReason("industry", parsedIndustries.unknown),
       });
     }
 
@@ -280,12 +284,15 @@ for (const playbook of buildPilotPlaybooks(playbookRetrievedAt)) {
   await mkdir(entryDirPath, { recursive: true });
   await Bun.write(bodyPath(playbook.topic), playbook.bodyBytes);
   await Bun.write(headPath(playbook.topic), playbook.headContent);
+  const playbookCategories = parseCategoriesFromTags(playbook.tags);
+  const playbookScenarios = parseScenarioFromTags(playbook.tags);
+  const playbookIndustries = parseIndustryFromTags(playbook.tags);
   indexEntries.push({
     topic: playbook.topic,
     headContent: playbook.headContent,
-    categories: [],
-    scenarios: [],
-    industries: [],
+    categories: playbookCategories.categories,
+    scenarios: playbookScenarios.scenarios,
+    industries: playbookIndustries.industries,
   });
 }
 
