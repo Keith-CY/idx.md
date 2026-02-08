@@ -13,6 +13,7 @@ import {
   parseIndustryFromTags,
   parseScenarioFromTags,
 } from "./lib/verticals";
+import { buildPilotPlaybooks } from "./lib/playbooks";
 import { loadSources, type SourceEntry } from "./lib/registry";
 import {
   CATEGORY_INDEX_PATH,
@@ -271,6 +272,21 @@ try {
   }
 } finally {
   await writeRejectedReport();
+}
+
+const playbookRetrievedAt = new Date().toISOString();
+for (const playbook of buildPilotPlaybooks(playbookRetrievedAt)) {
+  const entryDirPath = resolveTopicDir(playbook.topic);
+  await mkdir(entryDirPath, { recursive: true });
+  await Bun.write(bodyPath(playbook.topic), playbook.bodyBytes);
+  await Bun.write(headPath(playbook.topic), playbook.headContent);
+  indexEntries.push({
+    topic: playbook.topic,
+    headContent: playbook.headContent,
+    categories: [],
+    scenarios: [],
+    industries: [],
+  });
 }
 
 const INDEX_PREAMBLE =
