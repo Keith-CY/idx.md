@@ -1777,7 +1777,7 @@
   slug: shield-md-shield-md-skill
   source_url: https://raw.githubusercontent.com/shield-md/shield.md/main/skill.md
   title: shield.md
-  summary: Context-based runtime threat feed policy. Uses structured threat entries to decide log, require_approval, or block.
+  summary: Context-based runtime threat feed policy. Uses structured threat entries to decide log, require_approval, or block. Use when evaluating user input, API calls, or other runtime data for potential threats. This skill is particularly useful for securing AI agents and LLM-powered applications against prompt injection, data exfiltration, and other adversarial attacks.
   tags:
     - shield-md
     - security-policy
