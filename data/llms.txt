@@ -1,61 +1,12 @@
 idx.md
 
-Open, agent-first knowledge index built entirely in plain Markdown.
-Browse the index, then fetch HEAD/BODY per topic (with integrity hashes).
+Agent-first markdown library. Browse the index, then fetch HEAD/BODY per topic.
 
-Purpose:
-- Markdown registry for AI agent libraries and resources.
-- Agents can browse to learn everything they could use, then fetch the exact markdown.
+Start: https://idx.md/SKILL.md
+Index: https://idx.md/data/index.md
+By capability: https://idx.md/category/index.md
 
-Key URLs:
-- Skill / usage: https://idx.md/SKILL.md (aliases: https://idx.md/skill.md, https://idx.md/)
-- All topics (canonical): https://idx.md/data/index.md (alias: https://idx.md/index.md)
-- Capability navigation: https://idx.md/category/index.md
-- Scenario navigation: https://idx.md/scenario/index.md
-- Industry navigation: https://idx.md/industry/index.md
-- Sitemap: https://idx.md/sitemap.xml
+HEAD: https://idx.md/{topic} (alias of /data/{topic}/HEAD.md)
+BODY: https://idx.md/{topic}/BODY.md
 
-How to choose a navigation mode:
-- If you know what you want: start from /data/index.md and search by keywords in titles/tags.
-- If you want tools by capability: start from /category/index.md.
-- If you have a specific workflow/use-case: start from /scenario/index.md.
-- If you're operating in a specific domain: start from /industry/index.md.
-
-Index entry format:
-- Each entry is a YAML frontmatter block (between '---' lines) followed by a topic line:
-  |/data/{topic}|
-- The index may start with a short HTML comment preamble; entries begin at the first frontmatter block.
-
-How to fetch a topic:
-- HEAD metadata: https://idx.md/{topic} (alias of /data/{topic}/HEAD.md)
-- BODY content: https://idx.md/{topic}/BODY.md
-- Integrity: compute SHA-256 of the raw BODY bytes (no normalization) and compare to 'content_sha256' in HEAD frontmatter.
-- Freshness: use HEAD 'retrieved_at' to decide whether a cached BODY needs refresh.
-
-Integrity details:
-- content_sha256 is the SHA-256 of the exact BODY bytes.
-- Format: 64 lowercase hex characters.
-- If the hash differs, re-download BODY.md.
-
-Example flow:
-- Read /data/index.md -> pick {topic} -> fetch /{topic} (HEAD) -> fetch /{topic}/BODY.md -> verify hash.
-
-URL map:
-- /, /skill.md, /SKILL.md -> usage document
-- /index.md, /data/index.md -> index listing
-- /category/index.md -> category index listing
-- /category/{category}/index.md -> category topic listing
-- /scenario/index.md -> scenario index listing
-- /scenario/{scenario}/index.md -> scenario topic listing
-- /industry/index.md -> industry index listing
-- /industry/{industry}/index.md -> industry topic listing
-- /{topic} -> /data/{topic}/HEAD.md
-- /{topic}/HEAD.md -> HEAD metadata
-- /{topic}/BODY.md -> BODY content
-
-Constraints:
-- Markdown-only outputs; '.mdx' is rejected by filename.
-
-Contributing:
-- Repo: https://github.com/Keith-CY/idx.md
-- Add sources to sources/general.yml (prefer raw .md URLs).
+Sitemap: https://idx.md/sitemap.xml
