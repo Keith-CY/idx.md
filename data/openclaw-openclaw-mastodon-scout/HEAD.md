@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/patelhiren/mastodon-scout/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:41.912Z
+retrieved_at: 2026-02-09T15:45:48.557Z
 content_sha256: d9e810a98933eb8069c6df714f23204dc51c078ff198a6eb4c446bb34ed4ec42
 ---

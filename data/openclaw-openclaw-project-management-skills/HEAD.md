@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sedation6612/project-management-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:08.957Z
+retrieved_at: 2026-02-09T15:45:50.215Z
 content_sha256: 4d8fbe26d8501fc248eb65b1202066b9c7fc134fe30c9e83eff7b439a18f2843
 ---

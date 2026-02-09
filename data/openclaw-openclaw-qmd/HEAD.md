@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/qmd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:10.697Z
+retrieved_at: 2026-02-09T15:45:50.305Z
 content_sha256: 8d0a688885a61062a655259d755d050e5a51a54d80fe1c1643756bf0dbba41cf
 ---

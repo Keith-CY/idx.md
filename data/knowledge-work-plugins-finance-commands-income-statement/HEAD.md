@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/commands/income-statement.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/income-statement.md
-retrieved_at: 2026-02-09T07:03:58.326Z
+retrieved_at: 2026-02-09T15:45:53.875Z
 content_sha256: 72ad6f648be6bdf8d4f2bec2856a9c967490ba0b9ad569eeaf4e997caae8d2dd
 ---

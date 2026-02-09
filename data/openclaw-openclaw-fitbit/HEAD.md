@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/fitbit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:17.797Z
+retrieved_at: 2026-02-09T15:45:47.332Z
 content_sha256: 8374284e3110c0e87e2842881f017fa96049447f6723ae08eb2b5916632f7d05
 ---

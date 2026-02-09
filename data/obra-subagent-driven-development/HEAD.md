@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-retrieved_at: 2026-02-09T07:04:03.467Z
+retrieved_at: 2026-02-09T15:45:54.173Z
 content_sha256: 994b89a5d294eadd6a1611edb51377bac748d5f5fb7f4139d3c736b616b3a46a
 ---

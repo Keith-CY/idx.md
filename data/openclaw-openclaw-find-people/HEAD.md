@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tzannetosgiannis/find-people/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:16.867Z
+retrieved_at: 2026-02-09T15:45:47.267Z
 content_sha256: 08bd320de6986661595a3c6fd44169719622a896980205fd6c8268053eb726b8
 ---

@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/commands/analyze.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/analyze.md
-retrieved_at: 2026-02-09T07:03:56.288Z
+retrieved_at: 2026-02-09T15:45:53.780Z
 content_sha256: b8bac8b88a189e8d35921b1d03a765fd210eca439af0593ce112ac0428e27711
 ---

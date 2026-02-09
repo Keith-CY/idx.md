@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dannyshmueli/chart-image/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:56.982Z
+retrieved_at: 2026-02-09T15:45:45.851Z
 content_sha256: 383029fce915455c0879c1baf026df94d46aeaea717e706ef5216d4e7f2b9a8c
 ---

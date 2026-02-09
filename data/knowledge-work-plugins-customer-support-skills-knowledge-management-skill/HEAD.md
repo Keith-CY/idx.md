@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/knowledge-management/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/knowledge-management/SKILL.md
-retrieved_at: 2026-02-09T07:04:02.063Z
+retrieved_at: 2026-02-09T15:45:54.080Z
 content_sha256: 518320b80d5535d5f9ee56ae677710bc320391b011b5c22a62f5c99a447f9499
 ---

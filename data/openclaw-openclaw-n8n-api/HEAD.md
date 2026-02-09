@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/n8n-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:50.622Z
+retrieved_at: 2026-02-09T15:45:49.193Z
 content_sha256: 8c153507392f2de053f9d25dac4053adabca4a02af160cfc4f0f2e36afa409fb
 ---

@@ -16,6 +16,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/competitive-intelligence/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/competitive-intelligence/SKILL.md
-retrieved_at: 2026-02-09T07:04:00.772Z
+retrieved_at: 2026-02-09T15:45:54.017Z
 content_sha256: 1153f80c8fcadc862fbebd23caaf237eb6c81132360ac603b99640fce6c1a052
 ---

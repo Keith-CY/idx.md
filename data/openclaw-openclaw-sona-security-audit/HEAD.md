@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/virtaava/sona-security-audit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:24.572Z
+retrieved_at: 2026-02-09T15:45:51.089Z
 content_sha256: b4b2c45174b250d3af75943e338f1c4672e88d93561129bde1f85acdefca7512
 ---

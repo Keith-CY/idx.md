@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/makhatib/mcp-microsoft365/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:42.438Z
+retrieved_at: 2026-02-09T15:45:48.600Z
 content_sha256: 6bac88f07ac0c790069bf6d0f729d899cd7050701946bda967ba49153fc9e13e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/bird/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:52.332Z
+retrieved_at: 2026-02-09T15:45:45.477Z
 content_sha256: da997ce6b1360afe25bc510a8763ebad8609ec313d5a1cd91d2110f9bee914e5
 ---

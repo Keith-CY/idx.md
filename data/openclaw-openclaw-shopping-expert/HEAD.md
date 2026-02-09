@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/shopping-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:20.957Z
+retrieved_at: 2026-02-09T15:45:50.876Z
 content_sha256: 4cd0070cb497839e54e7af38a26058918066cdfc2f4691531f3aa0a4a117ea68
 ---

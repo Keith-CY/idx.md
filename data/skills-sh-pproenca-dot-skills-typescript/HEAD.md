@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/typescript/references/_sections.md
 license: ""
 upstream_ref: https://skills.sh/pproenca/dot-skills/typescript
-retrieved_at: 2026-02-09T07:01:34.401Z
+retrieved_at: 2026-02-09T15:45:44.052Z
 content_sha256: bd6767139e4f005dc79cb3d8c5dec25a25eb2b0ac6e2fa0f1571fe8595ca2ffe
 ---

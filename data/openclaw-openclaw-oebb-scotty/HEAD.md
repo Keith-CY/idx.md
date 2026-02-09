@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manmal/oebb-scotty/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:55.874Z
+retrieved_at: 2026-02-09T15:45:49.529Z
 content_sha256: 879fbc5c3735c00b53ceee90efb092d86121d296d627196102fef90cd2b7c059
 ---

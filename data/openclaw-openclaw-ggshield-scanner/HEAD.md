@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amascia-gg/ggshield-scanner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:21.742Z
+retrieved_at: 2026-02-09T15:45:47.525Z
 content_sha256: 0a45cc9eda447baf8cbe523201168bcf9dab70eba2cd121999283dab160bd828
 ---

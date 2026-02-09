@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mkoslacz/claw-face/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:58.458Z
+retrieved_at: 2026-02-09T15:45:45.939Z
 content_sha256: c3c7d7d2193c7304fb62f04f1ab100e8b3603978d323fc584e16c8528e14df7c
 ---

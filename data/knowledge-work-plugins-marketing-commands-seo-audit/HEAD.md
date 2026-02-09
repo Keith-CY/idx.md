@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/seo-audit.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/seo-audit.md
-retrieved_at: 2026-02-09T07:03:59.196Z
+retrieved_at: 2026-02-09T15:45:53.938Z
 content_sha256: 49dbc54c23c43be83f1e16195986397a4d73394b8c2bf199d97a71d212c4d311
 ---

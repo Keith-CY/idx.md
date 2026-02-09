@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/prompt-engineering-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:09.317Z
+retrieved_at: 2026-02-09T15:45:50.229Z
 content_sha256: 260c7bc82462bd43283c8a28163a9be4fbf697da3b13d698e6d742f5ae5285f0
 ---

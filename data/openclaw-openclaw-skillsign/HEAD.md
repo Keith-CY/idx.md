@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/felmonon/skillsign/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:22.935Z
+retrieved_at: 2026-02-09T15:45:50.988Z
 content_sha256: 0ab9f7d5e429e0f9613b600f772540ccb0b4189164aabea647d0269ac4f57da3
 ---

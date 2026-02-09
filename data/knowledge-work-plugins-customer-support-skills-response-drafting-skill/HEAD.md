@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/response-drafting/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/response-drafting/SKILL.md
-retrieved_at: 2026-02-09T07:04:01.855Z
+retrieved_at: 2026-02-09T15:45:54.069Z
 content_sha256: e172bf013a0c9f5d8c58ae39dd53fd0afd0e704bb0bc51206c5a145a859d0a78
 ---

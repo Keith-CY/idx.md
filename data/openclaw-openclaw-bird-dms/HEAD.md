@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/bird-dms/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:52.400Z
+retrieved_at: 2026-02-09T15:45:45.482Z
 content_sha256: d681cb0d98b8a4ad3412c8fee6bc05f23c1b95836f6a35f03687c16abf97d2a6
 ---

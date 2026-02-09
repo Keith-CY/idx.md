@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/waynesutton/convexskills/convex-functions
-retrieved_at: 2026-02-09T07:01:33.367Z
+retrieved_at: 2026-02-09T15:45:44.003Z
 content_sha256: 20e2298b8ebeca51e189394ec924756dfaef5fa70170ff7fd2fbdb5177718fcd
 ---

@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/commands/reconciliation.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/reconciliation.md
-retrieved_at: 2026-02-09T07:03:58.250Z
+retrieved_at: 2026-02-09T15:45:53.872Z
 content_sha256: 5805489942dd5ee219909c6492fbdb145da9d363db4c5cbe01701145eeafa371
 ---

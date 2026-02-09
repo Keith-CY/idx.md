@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edyyy62/adcp-advertising/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:41.887Z
+retrieved_at: 2026-02-09T15:45:44.681Z
 content_sha256: 153117c450abeee23c3ff234750cf49c18ec71e8f9a70726dbf955533d0eaaf6
 ---

@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/mrgoonie/claudekit-skills/HEAD/.claude/skills/chrome-devtools/references/cdp-domains.md
 license: ""
 upstream_ref: https://skills.sh/mrgoonie/claudekit-skills/chrome-devtools
-retrieved_at: 2026-02-09T07:01:39.325Z
+retrieved_at: 2026-02-09T15:45:44.487Z
 content_sha256: fa81fa0fda1ae94ff2c25c924cfcb16f5a6e967b6d8412ddd372dc8a1b26f601
 ---

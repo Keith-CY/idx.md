@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-sticker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:16.371Z
+retrieved_at: 2026-02-09T15:45:47.244Z
 content_sha256: 5e0ab9c04034e5b89cae0b7245b81057d9b7efff1d73f910d8fd7f0af67c836f
 ---

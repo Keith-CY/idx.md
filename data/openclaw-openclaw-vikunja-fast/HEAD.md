@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmigone/vikunja-fast/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:38.917Z
+retrieved_at: 2026-02-09T15:45:51.908Z
 content_sha256: 8272111d8b6e4c5d59778d2491796b94779788433f2955c638a22efe13abf12c
 ---

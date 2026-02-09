@@ -175,9 +175,12 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Asana | `asana` | `app.asana.com` |
 | Attio | `attio` | `api.attio.com` |
 | Basecamp | `basecamp` | `3.basecampapi.com` |
+| Box | `box` | `api.box.com` |
 | Calendly | `calendly` | `api.calendly.com` |
 | Chargebee | `chargebee` | `{subdomain}.chargebee.com` |
+| ClickFunnels | `clickfunnels` | `{subdomain}.myclickfunnels.com` |
 | ClickUp | `clickup` | `api.clickup.com` |
+| Cognito Forms | `cognito-forms` | `www.cognitoforms.com` |
 | Constant Contact | `constant-contact` | `api.cc.email` |
 | Eventbrite | `eventbrite` | `www.eventbriteapi.com` |
 | Fathom | `fathom` | `api.fathom.ai` |
@@ -210,6 +213,8 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Linear | `linear` | `api.linear.app` |
 | LinkedIn | `linkedin` | `api.linkedin.com` |
 | Mailchimp | `mailchimp` | `{dc}.api.mailchimp.com` |
+| MailerLite | `mailerlite` | `connect.mailerlite.com` |
+| ManyChat | `manychat` | `api.manychat.com` |
 | Microsoft Excel | `microsoft-excel` | `graph.microsoft.com` |
 | Microsoft To Do | `microsoft-to-do` | `graph.microsoft.com` |
 | Monday.com | `monday` | `api.monday.com` |
@@ -218,15 +223,20 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Outlook | `outlook` | `graph.microsoft.com` |
 | Pipedrive | `pipedrive` | `api.pipedrive.com` |
 | QuickBooks | `quickbooks` | `quickbooks.api.intuit.com` |
+| Quo | `quo` | `api.openphone.com` |
 | Salesforce | `salesforce` | `{instance}.salesforce.com` |
+| SignNow | `signnow` | `api.signnow.com` |
 | Slack | `slack` | `slack.com` |
 | Square | `squareup` | `connect.squareup.com` |
 | Stripe | `stripe` | `api.stripe.com` |
+| Systeme.io | `systeme` | `api.systeme.io` |
+| Tally | `tally` | `api.tally.so` |
 | Telegram | `telegram` | `api.telegram.org` |
 | TickTick | `ticktick` | `api.ticktick.com` |
 | Todoist | `todoist` | `api.todoist.com` |
 | Trello | `trello` | `api.trello.com` |
 | Typeform | `typeform` | `api.typeform.com` |
+| Vimeo | `vimeo` | `api.vimeo.com` |
 | WhatsApp Business | `whatsapp-business` | `graph.facebook.com` |
 | WooCommerce | `woocommerce` | `{store-url}/wp-json/wc/v3` |
 | Xero | `xero` | `api.xero.com` |
@@ -247,9 +257,12 @@ See [references/](references/) for detailed routing guides per provider:
 - [Asana](references/asana.md) - Tasks, projects, workspaces, webhooks
 - [Attio](references/attio.md) - People, companies, records, tasks
 - [Basecamp](references/basecamp.md) - Projects, to-dos, messages, schedules, documents
+- [Box](references/box.md) - Files, folders, collaborations, shared links
 - [Calendly](references/calendly.md) - Event types, scheduled events, availability, webhooks
 - [Chargebee](references/chargebee.md) - Subscriptions, customers, invoices
+- [ClickFunnels](references/clickfunnels.md) - Contacts, products, orders, courses, webhooks
 - [ClickUp](references/clickup.md) - Tasks, lists, folders, spaces, webhooks
+- [Cognito Forms](references/cognito-forms.md) - Forms, entries, documents, files
 - [Constant Contact](references/constant-contact.md) - Contacts, email campaigns, lists, segments
 - [Eventbrite](references/eventbrite.md) - Events, venues, tickets, orders, attendees
 - [Fathom](references/fathom.md) - Meeting recordings, transcripts, summaries, webhooks
@@ -282,6 +295,8 @@ See [references/](references/) for detailed routing guides per provider:
 - [Linear](references/linear.md) - Issues, projects, teams, cycles (GraphQL)
 - [LinkedIn](references/linkedin.md) - Profile, posts, shares, media uploads
 - [Mailchimp](references/mailchimp.md) - Audiences, campaigns, templates, automations
+- [MailerLite](references/mailerlite.md) - Subscribers, groups, campaigns, automations, forms
+- [ManyChat](references/manychat.md) - Subscribers, tags, flows, messaging
 - [Microsoft Excel](references/microsoft-excel.md) - Workbooks, worksheets, ranges, tables, charts
 - [Microsoft To Do](references/microsoft-to-do.md) - Task lists, tasks, checklist items, linked resources
 - [Monday.com](references/monday.md) - Boards, items, columns, groups (GraphQL)
@@ -290,15 +305,20 @@ See [references/](references/) for detailed routing guides per provider:
 - [Outlook](references/outlook.md) - Mail, calendar, contacts
 - [Pipedrive](references/pipedrive.md) - Deals, persons, organizations, activities
 - [QuickBooks](references/quickbooks.md) - Customers, invoices, reports
+- [Quo](references/quo.md) - Calls, messages, contacts, conversations, webhooks
 - [Salesforce](references/salesforce.md) - SOQL, sObjects, CRUD
+- [SignNow](references/signnow.md) - Documents, templates, invites, e-signatures
 - [Slack](references/slack.md) - Messages, channels, users
 - [Square](references/squareup.md) - Payments, customers, orders, catalog, inventory, invoices
 - [Stripe](references/stripe.md) - Customers, subscriptions, payments
+- [Systeme.io](references/systeme.md) - Contacts, tags, courses, communities, webhooks
+- [Tally](references/tally.md) - Forms, submissions, workspaces, webhooks
 - [Telegram](references/telegram.md) - Messages, chats, bots, updates, polls
 - [TickTick](references/ticktick.md) - Tasks, projects, task lists
 - [Todoist](references/todoist.md) - Tasks, projects, sections, labels, comments
 - [Trello](references/trello.md) - Boards, lists, cards, checklists
 - [Typeform](references/typeform.md) - Forms, responses, insights
+- [Vimeo](references/vimeo.md) - Videos, folders, albums, comments, likes
 - [WhatsApp Business](references/whatsapp-business.md) - Messages, templates, media
 - [WooCommerce](references/woocommerce.md) - Products, orders, customers, coupons
 - [Xero](references/xero.md) - Contacts, invoices, reports

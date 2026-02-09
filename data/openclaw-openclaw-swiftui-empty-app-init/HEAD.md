@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ignaciocervino/swiftui-empty-app-init/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:27.678Z
+retrieved_at: 2026-02-09T15:45:51.289Z
 content_sha256: 51817d7f4110c0dffd74dee610542c9fbbabfc8b7a8f1001ea3b7edc1128a6d0
 ---

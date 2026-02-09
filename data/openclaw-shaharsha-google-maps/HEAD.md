@@ -20,6 +20,6 @@ tags: []
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shaharsha/google-maps/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:51.971Z
+retrieved_at: 2026-02-09T15:45:53.574Z
 content_sha256: 0f43a07e93b9409a8659e409a292a675d3d4d10adc6ea109060de4ec2df721f6
 ---

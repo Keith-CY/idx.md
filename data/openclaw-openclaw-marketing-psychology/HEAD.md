@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-psychology/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:41.431Z
+retrieved_at: 2026-02-09T15:45:48.541Z
 content_sha256: 793332c9374bc4c28f23590e01bff5e5730ff5900ef2c8ffbc9ba4337a1a9f5d
 ---

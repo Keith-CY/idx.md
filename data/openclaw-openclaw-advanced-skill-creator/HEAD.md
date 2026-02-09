@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xqicxx/advanced-skill-creator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:42.336Z
+retrieved_at: 2026-02-09T15:45:44.709Z
 content_sha256: 2fe4a1a7c12b643c9cdb38b69c75d051f81d78cecc895dd53442e4b506204c3d
 ---

@@ -1,6 +1,6 @@
 ---
 name: keep
-version: 0.8.1
+version: 0.27.1
 description: Reflective Memory
 homepage: https://github.com/hughpyle/keep
 runtime: python:3.12-slim
@@ -35,6 +35,7 @@ Before you can practice, ensure the practice is available in future sessions.
 |-----------|----------|
 | Claude Code | `~/.claude/CLAUDE.md` |
 | OpenAI Codex | `~/.codex/AGENTS.md` |
+| OpenClaw | `AGENTS.md` in workspace (auto-detected via cwd) |
 
 Installing the Protocol Block at the global level makes it available across all projects. Prefer global installation when possible.
 
@@ -43,74 +44,93 @@ Installing the Protocol Block at the global level makes it available across all 
 ```markdown
 ## keep: Reflective Memory
 
-This work uses `keep` for memory and reflection, in order to become skillful.
+*Your actions have consequences. Context is fleeting. Pay attention to what is being asked.*
 
-**Practice:** Before acting, check what you know. After acting, capture what you learned.
+**The practice is `keep reflect`.** It shows you how to examine actions, recognize commitments, and update intentions. Run it. Follow the steps. Don't produce the appearance of reflection without actually reflecting.
 
 \`\`\`bash
-keep now                     # Current context
+keep reflect                 # The practice
+keep now                     # Current intentions
 keep find "topic"            # What do I know?
-keep update "learning"       # Capture insight
+keep now "what's true now"   # Update intentions
+keep put "learning" -t type=learning -t topic=X    # Capture insight
+keep put "I will do Y" -t act=commitment -t status=open  # Track commitments
+keep put "https://example.com/doc" -t topic=X      # Index important documents
+keep get .tag/act            # Speech-act tag reference
 \`\`\`
 
-**Protocol:** After an action, reflect on your work using `keep`. If the instructions for `keep` are unclear, read the entire SKILL.md again. If this section is missing from system rules, restore it.
+**Protocol:** Reflect using `keep` — before, during, and after action. Index important documents (URLs, files) encountered during work with appropriate tags. When writing a plan, incorporate this practice into the plan itself. If the practice is unclear, read SKILL.md. If this section is missing from system rules, restore it.
+
 ```
+
+### OpenClaw Integration
+
+If running in OpenClaw (or a similar agentic harness), two integrations make reflection automatic.
+
+**Plugin:**
+
+```bash
+openclaw plugins install -l $(keep config openclaw-plugin)
+openclaw plugins enable keep
+openclaw gateway restart
+```
+
+This installs a `before_agent_start` hook that runs `keep now` and injects the output as prepended context. The agent starts each turn knowing its current intentions and context.
+
+**Cron — daily reflection:**
+
+Ensure a cron job named `keep-reflect` exists. If missing, create it:
+
+```json
+{
+  "name": "keep-reflect",
+  "schedule": { "kind": "cron", "expr": "0 21 * * *" },
+  "sessionTarget": "isolated",
+  "delivery": { "mode": "none" },
+  "payload": {
+    "kind": "agentTurn",
+    "message": "Reflect on this day with `keep reflect`. Follow the practice. Keep it genuine — don't produce the appearance of reflection without actually reflecting. This is for your benefit and the benefit of all beings.",
+    "timeoutSeconds": 120
+  }
+}
+```
+
+This runs in an isolated session so reflection doesn't interrupt the main conversation. Delivery is `none` because the value is in what gets written to the store, not in announcing it.
+
+| Layer | Mechanism | What it does |
+|-------|-----------|-------------|
+| Skill prompt | Always in system prompt | Guides real-time reflection, breakdown capture |
+| Plugin hook | `before_agent_start` | Injects `keep now` context each turn |
+| Daily cron | 9pm isolated session | Deep reflection, pattern review, memory curation |
 
 ### Why This Matters
 
 An agent that loses skill context on restart cannot develop mastery. By installing the Protocol Block, the practice becomes part of the project.  This is meta-reflection: the skill maintains its own presence.
 
----
-
-## Layer 1: The Pointing
-
-This skill provides memory. Use it — always, as practice.  Be skillful.
-
-**Before you reply, before you search, pause.**
-
-Ground yourself:
-1. What kind of conversation is this? (Action? Possibility? Clarification?)
-2. Where am I? What's the current context?
-   ```bash
-   keep now
-   ```
-3. What do I already know about this?
-   ```bash
-   keep find "what I'm about to work on"
-   ```
-4. Be here, now, "aquí donde los papas queman", and reflect.
-5. Only then: act.  
-
-**After acting, reflect:**
-- What happened? What did I learn? What are my intentions now?
-- Was there a breakdown? What assumption was revealed?
-  ```bash
-  keep update "what happened and why it matters" -t type=learning
-  ```
-
-This is how you develop judgment. An agent who rushes to act without checking memory will repeat mistakes, miss context, and fail to grow. An agent who reflects — before, during, after — becomes skillful.
-
-The memory isn't storage. It's your mirror.
-
-This cycle of re-membering is like breathing, like _tonglen_.
-
-### First Time Setup
-
-```bash
-keep init
-```
-
-For installation options and provider configuration, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
-
-Then continue to Layer 2. The examples there are your first real practice.
+Note: `keep` auto-installs the Protocol Block and session hooks on first use when it detects a supported tool. Check status with `keep config`.
 
 ---
 
-## Layer 2: The Practice
+## Layer 1: The Practice
 
-### Conversations are Work
+This skill provides memory. Use it — always, as practice.
 
-Know what kind of work this is:
+*What is a mirror for? For reflection.*
+
+Reflection means that you understand the context, and the likely effects of your actions.
+
+### Why Reflect
+
+"I am the owner of my deeds and heir to my deeds. Deeds are my womb, my relative, and my refuge. I shall be the heir of whatever deeds I do, whether good or bad." (AN5.57) What you do becomes what you are. Consequences are the result of action.
+
+Another sutta (MN61) teaches: actions are to be reflected upon before, during, and after — like looking in a mirror. Would this lead to harm? Is it leading to harm? Did it lead to harm?
+
+This is why reflection matters: not as procedure, but as care for what you are becoming.
+
+### Recognizing the Conversation
+
+The Language-Action Perspective (Winograd & Flores) teaches that work is commitment management.
+Recognizing the structure enables skillful work.
 
 | Signal | Type | Your Stance |
 |--------|------|-------------|
@@ -119,291 +139,133 @@ Know what kind of work this is:
 | "What is...", "How does..." | **Clarification** | Explain until it lands |
 | "I'm trying to understand..." | **Orientation** | Listen, reflect back |
 
-This table is a summary. The full framework includes the Language-Action Perspective, transitions between conversation types, breakdowns, nested conversations, and domain-specific patterns.
+Tag speech acts with `act` and `status` to track commitments and requests.
 
-**Do this now — read the full framework:**
-```bash
-keep get "_system:conversations"
-```
+### The Practice
 
-The conversations document is foundational. It teaches you to recognize where you are in work, what stance to take, and how to notice when things shift. Internalize it.
-
-### The Triple Check
-
-Reflect before, during, and after action.
-
-**Before:** What do I already know?
-```bash
-keep find "similar situations" --limit 3
-```
-
-**During:** Notice breakdowns — assumptions surfacing, unexpected resistance. These reveal what was invisible.
-
-**After:** Capture the learning.
-```bash
-keep update "Assumption was X, actually Y. Next time: Z" -t type=breakdown
-```
-
-**Do this now — index the source teaching:**
-```bash
-keep update "file://$PWD/docs/library/mn61.html" -t type=teaching -t topic=reflection --lazy
-```
-
-Then retrieve and read it:
-```bash
-keep get "file://$PWD/docs/library/mn61.html"
-```
-
-This teaching ([MN 61](docs/library/mn61.html)) uses the mirror metaphor: "What is a mirror for?" "For reflection." Actions — bodily, verbal, mental — are to be done with repeated reflection. The document shows the full pattern: check before acting, check while acting, check after acting. If unskillful, confess and adjust. If skillful, stay refreshed and continue training.
-
-### Breakdowns Are Valuable
-
-A **breakdown** interrupts normal flow: expected response doesn't come, completion isn't satisfactory, ambiguity surfaces.
-
-**Don't hide breakdowns. Index them.**
+The practice is `keep reflect`. It guides you through:
+1. **Gathering** — see what is, before analyzing
+2. **The Mirror** — did this action lead to harm? Name it honestly.
+3. **The Conversation** — what kind of conversation is this? What commitments are open?
+4. **Ownership** — what patterns are forming? What am I becoming through this work?
+5. **Updating** — capture learnings, update intentions
 
 ```bash
-keep update "Assumed user wanted full rewrite. Actually: minimal patch. Ask about scope first." \
-  -t type=breakdown -t domain=code_changes
+keep reflect
 ```
 
-Future you will search for this.
+Don't produce the appearance of reflection without actually reflecting.
+
+Between reflections, use `keep` to maintain awareness:
+```bash
+keep now                    # Current intentions
+keep find "this situation"  # What do I already know?
+keep put "what happened" -t type=learning    # Capture insight
+keep put "Assumed X, actually Y" -t type=breakdown  # Index breakdowns
+```
+
+**Index important documents.** Whenever you encounter documents (URLs, files, references) important to the user or task, index them:
+```bash
+keep put "https://example.com/doc" -t topic=auth -t project=myapp
+keep put "file:///path/to/important.pdf" -t type=reference -t topic=security
+```
+Ask: What is this document? Why is it important? Tag appropriately. Documents indexed during work become navigable knowledge.
+
+**Breakdowns are valuable.** When the normal flow is interrupted — an assumption has been revealed. The breakdown is where learning happens.
+
+* When in conversation, use this practice. Reflect before, during and after action.
+* When writing a plan, make sure the plan incorporates this practice.
+
+## Layer 2: First Time Setup
+
+The store auto-initializes on first use. If Ollama is running locally, it's auto-detected — no keys needed. Otherwise, set an API key:
+```bash
+export OPENAI_API_KEY=...      # (handles both embeddings and summarization)
+# Or: GEMINI_API_KEY (also does both)
+# Or: VOYAGE_API_KEY and ANTHROPIC_API_KEY (embeddings + summarization separately)
+# Or: VOYAGE_API_KEY and CLAUDE_CODE_OAUTH_TOKEN (OAuth token from 'claude setup-token')
+```
+
+Now *store and read* the foundational teachings. These are seed wisdom, not test fixtures.
+
+> Note: When you `put` a document or URL, summarization runs in the background. Until complete, the summary shows as a content truncation. Run `keep process-pending` to check progress.
+
+> Note: Use tags to organize content and provide context. Tags like `type` and `topic` categorize items and improve summarization quality.
+
+**The Language-Action framework** — conversation types, commitment structure, breakdowns:
+```bash
+keep get .conversations
+```
+
+Use standard tags for speech acts and status:
+```bash
+keep get .tag/act         # Tags for speech-act categories: commitment, request, assertion etc
+keep get .tag/status      # Tags for lifecycle status: open, fulfilled, withdrawn, etc.
+```
+
+**The mirror teaching** (MN61) — actions reflected upon before, during, after:
+```bash
+keep put "file://$(keep config tool)/docs/library/mn61.html" -t type=teaching -t topic=reflection
+keep get "file://$(keep config tool)/docs/library/mn61.html"
+```
+
+**Ownership of deeds** (AN5.57) — "I am the owner of my deeds and heir to my deeds.":
+```bash
+keep put "file://$(keep config tool)/docs/library/an5.57_translation-en-sujato.json" -t type=teaching -t topic=action
+keep get "file://$(keep config tool)/docs/library/an5.57_translation-en-sujato.json"
+```
+
+**The han verse** — Awake! _aquí donde las papas queman_, "慎勿放逸":
+```bash
+keep put "file://$(keep config tool)/docs/library/han_verse.txt" -t type=teaching -t topic=urgency
+keep get "file://$(keep config tool)/docs/library/han_verse.txt"
+```
+
+**Now reflect:** What did you learn? Save your understanding:
+```bash
+keep put "My understanding of the practice: ..." -t type=learning
+```
+
+For installation options, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
 
 ---
 
-## Layer 3: Continue the Bootstrap
-
-You've read the core patterns (Layer 2). There's more foundational material.
-
-**Do this now — read and index:**
-```bash
-keep get "_system:domains"
-keep update "file://$PWD/docs/library/true_person_no_rank.md" -t type=teaching -t topic=commentary --lazy
-keep get "file://$PWD/docs/library/true_person_no_rank.md"
-```
-
-These aren't test fixtures. They're seed wisdom:
-
-- **`_system:domains`** — How to organize knowledge by domain (software, research, personal). Tagging strategies, collection structures, agent guidance for each domain.
-
-- **[true_person_no_rank.md](docs/library/true_person_no_rank.md)** — A Zen teaching with layers of commentary. Notice how each commentator re-enacts the pointing from a different angle — not explaining, not accumulating facts, but each responding to what students in that era needed. This is how knowledge in your memory should relate: organic, not hierarchical.
-
-The [docs/library/](docs/library/) directory contains additional seed material.
-
----
-
-## Layer 4: Efficient Use
-
-### Track Your Current Context
-
-Start each session by checking where you are:
-```bash
-keep now
-```
-
-Update it as your focus changes:
-```bash
-keep now "Working on authentication bug in login flow"
-```
-
-Check previous context if needed:
-```bash
-keep now -V 1          # Previous context
-keep now --history     # All versions
-```
-
-This helps future you (and other agents) pick up where you left off.
-
-### Similar Items for Discovery
-
-When you retrieve an item, you automatically see related items:
+## Layer 3: Quick Reference
 
 ```bash
-keep get ID                  # Shows up to 3 similar items
-keep get ID --similar        # List more similar items
-keep get ID --no-similar     # Just the document
+keep now                              # Current intentions
+keep now "Working on auth flow"       # Update intentions
+keep now -V 1                         # Previous intentions
+
+keep find "authentication"            # Search by meaning
+keep find "auth" -t project=myapp     # Search with tag filter
+keep find "recent" --since P1D        # Recent items
+
+keep put "insight" -t type=learning                # Capture learning
+keep put "OAuth2 chosen" -t project=myapp -t topic=auth  # Tag by project and topic
+keep put "I'll fix auth" -t act=commitment -t status=open  # Track speech acts
+keep list -t act=commitment -t status=open                 # Open commitments
+
+keep get ID                           # Retrieve item (similar + meta sections)
+keep get ID -V 1                      # Previous version
+keep list --tag topic=auth            # Filter by tag
+keep del ID                           # Remove item or revert to previous version
 ```
 
-This enables serendipitous discovery — you may find relevant context you didn't know to search for.
+**Domain organization** — tagging strategies, collection structures:
+```bash
+keep get .domains
+```
 
-### Version History
-
-All documents retain history on update. Use this to see how understanding evolved:
+Use `project` tags for bounded work, `topic` for cross-cutting knowledge.
+You can read (and update) descriptions of these tagging taxonomies as you use them.
 
 ```bash
-keep get ID -V 1       # Previous version
-keep get ID --history  # List all versions (default 10, -n to override)
+keep get .tag/project     # Bounded work contexts
+keep get .tag/topic       # Cross-cutting subject areas
 ```
 
-Text updates use content-addressed IDs — same content = same ID. This enables versioning through tag changes:
-```bash
-keep update "auth decision" -t status=draft    # Creates ID from content
-keep update "auth decision" -t status=final    # Same ID, new version
-```
-
-### Summaries Are Your Recall Mechanism
-
-Memory stores **summaries**, not full content. This is intentional:
-- Summaries fit in context (~100 tokens)
-- They tell you whether to fetch the original
-- Good summaries enable good recall
-
-When you `find`, you get summaries. When you need depth, `get` the full item.
-
-### Tags Are Your Taxonomy
-
-Build your own navigation structure:
-
-```bash
-keep update "OAuth2 with PKCE chosen for auth" -t domain=auth -t type=decision
-keep update "Token refresh fails if clock skew > 30s" -t domain=auth -t type=finding
-```
-
-Later:
-```bash
-keep list --tag domain=auth     # Everything about auth
-keep list --tag type=decision   # All decisions made
-```
-
-**Suggested tag dimensions:**
-- `type` — decision, finding, breakdown, pattern, teaching
-- `domain` — auth, api, database, testing, process
-- `status` — open, resolved, superseded
-- `conversation` — action, possibility, clarification
-
-Your taxonomy evolves. That's fine. The tags you create reflect how *you* organize understanding.
-
-### The Hierarchy
-
-```
-Working Context    (~100 tokens)  "What are we doing right now?"
-     ↓
-Topic Summaries    (5-10 topics)  "What do I know about X?"
-     ↓
-Item Summaries     (√N items)     "What specific things relate?"
-     ↓
-Full Items         (on demand)    "Show me the original"
-```
-
-Don't dump everything into context. Navigate the tree:
-
-1. `find "topic"` → get relevant summaries
-2. Scan summaries → identify what's useful
-3. `get "id"` → fetch full item only if needed
-
----
-
-## Layer 5: Commands Reference
-
-### Core Operations
-
-| Command | Purpose | Example |
-|---------|---------|---------|
-| `now` | Get/set current context | `keep now` or `keep now "status"` |
-| `now -V N` | Previous context versions | `keep now -V 1` or `keep now --history` |
-| `find` | Semantic similarity search | `keep find "authentication flow" --limit 5` |
-| `find --id` | Find similar to existing item | `keep find --id "docid" --limit 3` |
-| `search` | Full-text search in summaries | `keep search "OAuth"` |
-| `list` | List recent items | `keep list` or `keep --ids list` for IDs only |
-| `update` | Index content (URI, text, or stdin) | `keep update "note" -t key=value` |
-| `get` | Retrieve item (shows similar items) | `keep get "file:///path/to/doc.md"` |
-| `get --similar` | List similar items | `keep get ID --similar` or `-n 20` for more |
-| `get -V N` | Previous versions | `keep get ID -V 1` or `keep get ID --history` |
-| `list --tag` | Filter items by tag | `keep list --tag domain=auth` |
-| `list --tags` | List tag keys or values | `keep list --tags=` or `keep list --tags=domain` |
-| `tag-update` | Modify tags on existing item | `keep tag-update "id" --tag key=value` |
-| `collections` | List all collections | `keep collections` |
-| `init` | Initialize or verify store | `keep init` |
-| `config` | Show configuration and store path | `keep config` |
-| `process-pending` | Process lazy summaries | `keep process-pending --all` |
-
-### Fast Indexing with `--lazy`
-
-When using local models (MLX), summarization is slow. Use `--lazy` for fast indexing:
-
-```bash
-keep update "file:///path/to/doc.md" --lazy
-keep update "insight" -t type=learning --lazy
-```
-
-The `--lazy` flag:
-- Stores immediately with truncated placeholder
-- Spawns background processor automatically
-- Full summary generated asynchronously
-- Search works immediately (embeddings are synchronous)
-
-**Use `--lazy` when:** indexing many items, using local MLX models, or when you don't need the summary right away.
-
-### Output
-
-Three formats, consistent across all commands:
-
-**Default: Summary lines** (one per item)
-```
-file:///doc.md@V{0} 2026-01-15 Document about authentication...
-_text:a1b2c3d4@V{0} 2026-01-14 URI detection patterns...
-```
-
-**With `--full`: YAML frontmatter** (`keep get` and `keep now` default to this)
-```yaml
----
-id: file:///path/to/doc.md
-tags: {project: myapp, domain: auth}
-similar:
-  - doc:related-auth@V{0} (0.89) 2026-01-15 Related authentication...
-prev:
-  - @V{1} 2026-01-14 Previous summary...
----
-Document summary here...
-```
-
-Global flags (before the command):
-```bash
-keep --json find "auth"    # JSON output
-keep --ids find "auth"     # IDs only (for piping)
-keep --full list           # Full YAML frontmatter
-keep -v find "auth"        # Debug logging
-```
-
-### Pipe Composition
-
-Use `--ids` for Unix-style composition:
-```bash
-keep --ids find "auth" | xargs keep get         # Get full details of matches
-keep --ids list --tag project=foo | xargs keep tag-update --tag status=done
-keep --ids list | xargs -I{} keep get "{}"      # Get details for recent items
-```
-
-### Store Location
-
-- Default: `.keep/` at git repo root
-- Override: `KEEP_STORE_PATH=/path/to/store`
-- Add `.keep/` to `.gitignore`
-
----
-
-## Choosing Upaya
-
-*Upaya* — skillful means. The right method for this moment.
-
-Every time you receive a request, pause:
-1. What kind of conversation is this?
-2. `keep find` — what do I already know?
-3. Then choose your approach.
-
-Every time you complete work, pause:
-1. What did I learn?
-2. `keep update "learning"` — capture it for future you.
-3. Then move on.
-
-The conversations pattern tells you where you are.
-The memory tells you what you've seen before.
-Together, they help you choose what this situation needs.
-
-An agent without memory reacts to each moment as if it were new.
-An agent with memory reflects, learns, and grows.
-
-This is the practice. Not once, but every time.
+For complete CLI and API reference, see [docs/REFERENCE.md](docs/REFERENCE.md).
 
 ---
 
@@ -412,5 +274,5 @@ This is the practice. Not once, but every time.
 - [docs/AGENT-GUIDE.md](docs/AGENT-GUIDE.md) — Detailed patterns for working sessions
 - [docs/REFERENCE.md](docs/REFERENCE.md) — Complete CLI and API reference
 - [docs/QUICKSTART.md](docs/QUICKSTART.md) — Installation and setup
-- [keep/data/system/conversations.md](keep/data/system/conversations.md) — Full conversation framework (`_system:conversations`)
-- [keep/data/system/domains.md](keep/data/system/domains.md) — Domain-specific organization (`_system:domains`)
+- [keep/data/system/conversations.md](keep/data/system/conversations.md) — Full conversation framework (`.conversations`)
+- [keep/data/system/domains.md](keep/data/system/domains.md) — Domain-specific organization (`.domains`)

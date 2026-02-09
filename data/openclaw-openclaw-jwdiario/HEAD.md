@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/djismgaming/jwdiario/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:35.146Z
+retrieved_at: 2026-02-09T15:45:48.232Z
 content_sha256: 30ccd4df8c13bb8bf9cd17c0511bb9445feb94d2eebbd64ddc4036193de3c90c
 ---

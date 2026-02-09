@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8s-certs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:35.766Z
+retrieved_at: 2026-02-09T15:45:48.255Z
 content_sha256: 8a83ae50a1073469ba2539b7a65799779fc894d18e21fd5078df6be995320acf
 ---

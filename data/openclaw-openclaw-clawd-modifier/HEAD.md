@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/masonc15/clawd-modifier/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:58.829Z
+retrieved_at: 2026-02-09T15:45:45.964Z
 content_sha256: c6c77a89fa36228b836459133d2c307f04b8e778c6ec632eb4bcc015dba62aee
 ---

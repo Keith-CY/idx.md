@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/k0nkupa/asana/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:01:48.755Z
+retrieved_at: 2026-02-09T15:45:45.231Z
 content_sha256: 3f7cc4b25f22a989525f71f86cb2650f3f72a86da79a01002068f54f061c37d0
 ---

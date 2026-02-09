@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shellishack/pulse-editor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:10.132Z
+retrieved_at: 2026-02-09T15:45:50.276Z
 content_sha256: f88f03550dbb2d9c163c8da455dd857e79d3f29abdcce0b35800790ea7748dc9
 ---

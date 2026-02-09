@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjarkehs/rejseplanen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:03:13.869Z
+retrieved_at: 2026-02-09T15:45:50.488Z
 content_sha256: 0b09cdb3430edc86b68cc0085f400a80d312650ba9006ef5d67b0c23ca5e9e0d
 ---

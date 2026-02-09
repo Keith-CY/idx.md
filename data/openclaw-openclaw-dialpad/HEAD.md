@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/dialpad/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:09.469Z
+retrieved_at: 2026-02-09T15:45:46.770Z
 content_sha256: 91f6de28f0d8218bc134a45584d625ccc1d266d82be00f21f7773c14abd0de1a
 ---

@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-client/references/integration-client.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-client
-retrieved_at: 2026-02-09T07:01:33.753Z
+retrieved_at: 2026-02-09T15:45:44.026Z
 content_sha256: f339ad6a06907be5f66cf034cda9bd78de4e4d79315c9a93faf366974f161cc9
 ---

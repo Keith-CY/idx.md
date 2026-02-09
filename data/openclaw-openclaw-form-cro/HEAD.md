@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/form-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T07:02:18.761Z
+retrieved_at: 2026-02-09T15:45:47.391Z
 content_sha256: 0d41e83de9863a51e7fa420766798387556b427656a1c18bbb3505ff52b8e7bf
 ---
