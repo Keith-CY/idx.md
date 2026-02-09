@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hollaugo/chatgpt-apps/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:39.591Z
+retrieved_at: 2026-02-09T05:31:22.049Z
 content_sha256: 09add4e23f85b0f9452247326ea32c82a9bcb115b84de7dc9f903f797ea63c3d
 ---

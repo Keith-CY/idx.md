@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jamesalmeida/spaces-listener/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:06.360Z
+retrieved_at: 2026-02-09T05:32:37.560Z
 content_sha256: e00fd0f4e39b1837a9b4cabb4ad3460d1fa03d6b74a1e382fdad47e78851a9cc
 ---

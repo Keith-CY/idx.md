@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/metrics-tracking/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/metrics-tracking/SKILL.md
-retrieved_at: 2026-02-08T16:42:55.602Z
+retrieved_at: 2026-02-09T05:33:12.296Z
 content_sha256: 5ec7a51caf1368b16195ffb51024d26c7bf6724308d15700879cee247ecb89aa
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/style-guide-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:08.798Z
+retrieved_at: 2026-02-09T05:32:39.422Z
 content_sha256: bc5741056ef584ee605984bc65f9c6df28ca89d9e4a822668dae34f19e871fa6
 ---

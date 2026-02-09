@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mbjoern/erz-entsorgung-recycling-zurich/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:56.752Z
+retrieved_at: 2026-02-09T05:31:36.475Z
 content_sha256: e9d4f4a9f46c979fb294bbb102032fdb5b021356094d3486ecf7dc1328586cbe
 ---

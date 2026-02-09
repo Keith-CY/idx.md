@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/forecast.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/forecast.md
-retrieved_at: 2026-02-08T16:42:57.074Z
+retrieved_at: 2026-02-09T05:33:13.561Z
 content_sha256: 3444528d95333c361bc80999e9f16ad794cc699ba6362ee8d79f20740bb749cb
 ---

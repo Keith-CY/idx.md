@@ -25,6 +25,6 @@ tags:
 source_url: https://raw.githubusercontent.com/bahayonghang/drawio-skills/HEAD/skills/drawio/docs/design-system/README.md
 license: ""
 upstream_ref: https://skills.sh/bahayonghang/drawio-skills/drawio
-retrieved_at: 2026-02-08T16:40:20.408Z
+retrieved_at: 2026-02-09T05:31:05.055Z
 content_sha256: e6851c798f27a501305063f5737dc8372d35e8cfbe12faf41fbcab4d41b81f58
 ---

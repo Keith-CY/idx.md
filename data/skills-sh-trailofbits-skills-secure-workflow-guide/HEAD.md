@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/secure-workflow-guide/resources/WORKFLOW_STEPS.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/secure-workflow-guide
-retrieved_at: 2026-02-08T16:40:14.878Z
+retrieved_at: 2026-02-09T05:31:00.213Z
 content_sha256: 8b048011407a9a123a01ba4548b62a944f8cd5f271e4e0cdfe58b09583bd9291
 ---

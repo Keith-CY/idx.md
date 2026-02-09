@@ -68,4 +68,4 @@ Use this endpoint shape:
 
 ## Fallback Message
 
-"원하는 느낌의 GIF를 못 찾았어. 키워드를 조금 더 구체적으로 알려줘!"
+"I couldn’t find a GIF with the vibe you’re looking for. Could you give me a bit more specific keywords?"

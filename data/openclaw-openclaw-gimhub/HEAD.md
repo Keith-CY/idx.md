@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daxiongmao87/gimhub/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:04.110Z
+retrieved_at: 2026-02-09T05:31:42.511Z
 content_sha256: 81169ddde1b537a42be9cb582354f1a1c043d4828af5210e5a400e11c4b9cd50
 ---

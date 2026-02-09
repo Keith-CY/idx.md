@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/facebook/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:58.104Z
+retrieved_at: 2026-02-09T05:31:37.560Z
 content_sha256: 0de00402c01527ea2f9a0e3c8479f1274397a2b29b627a039ad72d9c02d84db9
 ---

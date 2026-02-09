@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alslrl/moltpixel/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:29.949Z
+retrieved_at: 2026-02-09T05:32:01.842Z
 content_sha256: 77e8cc2e4f60c960fbf3594cc00ad9ed0aba07b5253c42895445ccb38e4fbde1
 ---

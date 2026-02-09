@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marian2js/gitclaw/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:04.573Z
+retrieved_at: 2026-02-09T05:31:42.896Z
 content_sha256: 81d7d184e02d41082f90990f7adbd829cec3715a9274a9e069dc6ec65f914044
 ---

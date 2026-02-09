@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/commands/digest.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/commands/digest.md
-retrieved_at: 2026-02-08T16:42:57.583Z
+retrieved_at: 2026-02-09T05:33:14.036Z
 content_sha256: 124762e648adb6af23c5b2087e6f0de92c1916fb528bfcacee01321f6a00a77e
 ---

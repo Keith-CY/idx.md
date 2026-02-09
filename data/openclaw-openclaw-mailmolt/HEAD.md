@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/mailmolt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:23.690Z
+retrieved_at: 2026-02-09T05:31:56.303Z
 content_sha256: a249584777c5272749425daa062094281c5ce237633d82cb45190f69608a396d
 ---

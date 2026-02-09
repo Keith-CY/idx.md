@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/obviyus/openrouter-transcribe/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:38.702Z
+retrieved_at: 2026-02-09T05:32:11.980Z
 content_sha256: e4a13538790fa692714ca213da88138e48de17294de775eea5bd03402a5e8abe
 ---

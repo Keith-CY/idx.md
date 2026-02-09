@@ -1,0 +1,58 @@
+name: Refresh Well-Known Files
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "well-known"
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1.2.2
+        with:
+          bun-version: "1.1.14"
+      - name: Install
+        run: bun install --frozen-lockfile
+      - name: Generate llms.txt and robots.txt
+        run: bun sites/pages/generate-well-known.ts
+      - name: Upload well-known files to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          BUCKET="idx-md"
+          bunx wrangler r2 object put "$BUCKET/data/llms.txt" --file "data/llms.txt" --remote
+          bunx wrangler r2 object put "$BUCKET/data/robots.txt" --file "data/robots.txt" --remote
+      - name: Configure git
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+      - name: Commit well-known files
+        run: |
+          git add data/llms.txt data/robots.txt
+          if git diff --cached --quiet; then
+            echo "No well-known changes to commit."
+            exit 0
+          fi
+          git commit -m "data: refresh llms.txt and robots.txt"
+          git push
+

@@ -20,6 +20,9 @@ describe("pages tooling paths", () => {
     expect(text.includes("parseCategoriesFromTags(entry.tags)")).toBe(true);
     expect(text.includes("parseScenarioFromTags(entry.tags)")).toBe(true);
     expect(text.includes("parseIndustryFromTags(entry.tags)")).toBe(true);
+    expect(text.includes("sitemap.xml")).toBe(true);
+    expect(text.includes("llms.txt")).toBe(true);
+    expect(text.includes("robots.txt")).toBe(true);
     expect(text.includes("SKILL.md")).toBe(true);
   });
 

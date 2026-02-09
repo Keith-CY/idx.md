@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/recruitment-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:51.980Z
+retrieved_at: 2026-02-09T05:32:25.474Z
 content_sha256: d82376b69b882af73c22cd9549bcc9392493f352d9f52da1dbe9ecd606ef5013
 ---

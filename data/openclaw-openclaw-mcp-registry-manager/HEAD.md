@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orosha-ai/mcp-registry-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:25.119Z
+retrieved_at: 2026-02-09T05:31:57.234Z
 content_sha256: 4461c0b72c56fb5878ac98657cae3b012ab27fe728e9b8716d6ddca60b3c3091
 ---

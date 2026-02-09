@@ -1,4 +1,5 @@
 import { toR2Key } from "./lib/paths";
+import { buildLlmsTxt, buildRobotsTxt } from "../shared/well-known";
 
 type Env = {
   IDX_MD: R2Bucket;
@@ -11,7 +12,10 @@ const OG_IMAGE_SOURCE_URL =
   "https://raw.githubusercontent.com/Keith-CY/idx.md/main/assets/og.jpg";
 const VARY_USER_AGENT = "User-Agent";
 
-const CRAWLER_UA = /Slackbot|Slack-ImgProxy|Discordbot|Twitterbot|facebookexternalhit|LinkedInBot|WhatsApp|TelegramBot|Googlebot|bingbot|DuckDuckBot/i;
+// Social link unfurlers should get OG/Twitter meta HTML. Search crawlers should index the
+// actual markdown instead, so keep them out of this list.
+const SOCIAL_PREVIEW_UA =
+  /Slackbot|Slack-ImgProxy|Discordbot|Twitterbot|facebookexternalhit|LinkedInBot|WhatsApp|TelegramBot/i;
 
 function shouldServeOg(url: URL, userAgent: string | null): boolean {
   if (url.searchParams.get("og") === "1") {
@@ -20,7 +24,7 @@ function shouldServeOg(url: URL, userAgent: string | null): boolean {
   if (!userAgent) {
     return false;
   }
-  return CRAWLER_UA.test(userAgent);
+  return SOCIAL_PREVIEW_UA.test(userAgent);
 }
 
 function setVaryUserAgent(headers: Headers): Headers {
@@ -35,11 +39,103 @@ function setVaryUserAgent(headers: Headers): Headers {
     .map((value) => value.trim().toLowerCase())
     .filter(Boolean);
 
-  if (!values.includes(VARY_USER_AGENT.toLowerCase())) {
+  if (!values.includes("user-agent")) {
     headers.set("vary", `${existing}, ${VARY_USER_AGENT}`);
   }
 
   return headers;
+}
+
+async function serveFromR2(params: {
+  bucket: R2Bucket;
+  key: string;
+  contentType: string;
+  cacheControl: string;
+}): Promise<Response | null> {
+  const object = await params.bucket.get(params.key);
+  if (!object) {
+    return null;
+  }
+
+  const headers = new Headers();
+  if (typeof object.writeHttpMetadata === "function") {
+    object.writeHttpMetadata(headers);
+  }
+
+  headers.set("content-type", params.contentType);
+  if (!headers.has("cache-control")) {
+    headers.set("cache-control", params.cacheControl);
+  }
+  setVaryUserAgent(headers);
+
+  return new Response(object.body, { status: 200, headers });
+}
+
+async function r2KeyExists(bucket: R2Bucket, key: string): Promise<boolean> {
+  try {
+    const maybeBucket = bucket as unknown as { head?: (key: string) => Promise<unknown> };
+    if (typeof maybeBucket.head === "function") {
+      return Boolean(await maybeBucket.head(key));
+    }
+    return Boolean(await bucket.get(key));
+  } catch {
+    return false;
+  }
+}
+
+function serveText(params: {
+  body: string;
+  contentType: string;
+  cacheControl: string;
+}): Response {
+  return new Response(params.body, {
+    status: 200,
+    headers: setVaryUserAgent(
+      new Headers({
+        "content-type": params.contentType,
+        "cache-control": params.cacheControl,
+      }),
+    ),
+  });
+}
+
+function serveNotFound(params?: {
+  body?: string;
+  contentType?: string;
+  cacheControl?: string;
+}): Response {
+  return new Response(params?.body ?? "Not Found", {
+    status: 404,
+    headers: setVaryUserAgent(
+      new Headers({
+        "content-type": params?.contentType ?? "text/plain; charset=utf-8",
+        "cache-control": params?.cacheControl ?? "public, max-age=60",
+      }),
+    ),
+  });
+}
+
+async function serveWellKnownText(params: {
+  bucket: R2Bucket;
+  key: string;
+  origin: string;
+  build: (origin: string) => string;
+}): Promise<Response> {
+  const response = await serveFromR2({
+    bucket: params.bucket,
+    key: params.key,
+    contentType: "text/plain; charset=utf-8",
+    cacheControl: "public, max-age=3600",
+  });
+  if (response) {
+    return response;
+  }
+
+  return serveText({
+    body: params.build(params.origin),
+    contentType: "text/plain; charset=utf-8",
+    cacheControl: "public, max-age=3600",
+  });
 }
 
 async function proxyOgImage(): Promise<Response> {
@@ -90,12 +186,60 @@ export default {
       return proxyOgImage();
     }
 
-    if (shouldServeOg(url, request.headers.get("user-agent"))) {
-      const headers = new Headers({
-        "content-type": "text/html; charset=utf-8",
-        "cache-control": "public, max-age=600",
+    if (url.pathname === "/robots.txt") {
+      const sitemapExists = await r2KeyExists(env.IDX_MD, "data/sitemap.xml");
+      if (!sitemapExists) {
+        // If sitemap.xml isn't in R2 yet, serve a minimal robots.txt without the sitemap hint.
+        // This prevents advertising a URL that we know will 404, and avoids serving stale robots.txt.
+        return serveText({
+          body: buildRobotsTxt(url.origin, { includeSitemap: false }),
+          contentType: "text/plain; charset=utf-8",
+          cacheControl: "public, max-age=60",
+        });
+      }
+
+      return serveWellKnownText({
+        bucket: env.IDX_MD,
+        key: "data/robots.txt",
+        origin: url.origin,
+        build: buildRobotsTxt,
       });
-      setVaryUserAgent(headers);
+    }
+
+    if (url.pathname === "/llms.txt") {
+      return serveWellKnownText({
+        bucket: env.IDX_MD,
+        key: "data/llms.txt",
+        origin: url.origin,
+        build: buildLlmsTxt,
+      });
+    }
+
+    if (url.pathname === "/sitemap.xml") {
+      const response = await serveFromR2({
+        bucket: env.IDX_MD,
+        key: "data/sitemap.xml",
+        contentType: "application/xml; charset=utf-8",
+        cacheControl: "public, max-age=3600",
+      });
+      if (response) {
+        return response;
+      }
+
+      return serveNotFound({
+        body: "Not Found",
+        contentType: "text/plain; charset=utf-8",
+        cacheControl: "public, max-age=60",
+      });
+    }
+
+    if (shouldServeOg(url, request.headers.get("user-agent"))) {
+      const headers = setVaryUserAgent(
+        new Headers({
+          "content-type": "text/html; charset=utf-8",
+          "cache-control": "public, max-age=600",
+        }),
+      );
 
       return new Response(renderOgHtml(url), {
         status: 200,
@@ -106,13 +250,13 @@ export default {
 
     const object = await env.IDX_MD.get(key);
     if (!object) {
-      const headers = new Headers({
-        "content-type": "text/markdown; charset=utf-8",
-      });
-      setVaryUserAgent(headers);
       return new Response("# Not Found\n\nThe requested markdown was not found.", {
         status: 404,
-        headers,
+        headers: setVaryUserAgent(
+          new Headers({
+            "content-type": "text/markdown; charset=utf-8",
+          }),
+        ),
       });
     }
 

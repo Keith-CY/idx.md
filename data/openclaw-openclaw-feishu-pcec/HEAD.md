@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-pcec/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:59.462Z
+retrieved_at: 2026-02-09T05:31:38.574Z
 content_sha256: 8d142a93bcef850baaea0034f1f00dcbf37de573ec96b434d4d894ee81a38cda
 ---

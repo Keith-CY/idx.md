@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/trace-to-svg/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:17.677Z
+retrieved_at: 2026-02-09T05:32:46.288Z
 content_sha256: 76bcc84dcc9c9618ef75bdf6815e9e5e2fbbcdb21b8d933735ca94c39ec50751
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/davemorin/snow-report/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:04.409Z
+retrieved_at: 2026-02-09T05:32:35.960Z
 content_sha256: fdc70caa1d7147f6ae957d26695f00381dc6ea29496e66a778f90ebe90cb7202
 ---

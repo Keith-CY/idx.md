@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/bridle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:35.762Z
+retrieved_at: 2026-02-09T05:31:19.563Z
 content_sha256: 96c68852b0d319abd0f5215a8a26465b929ad5bdd45195e438bc1ee6a16476e6
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/theoseo/google-web-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:07.672Z
+retrieved_at: 2026-02-09T05:31:44.788Z
 content_sha256: b7989a8146f0ad48bcf38908a86b5691c1d74d88fce923ca07050402e5a9db10
 ---
