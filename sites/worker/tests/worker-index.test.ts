@@ -128,7 +128,8 @@ describe("worker fetch", () => {
     );
     const body = await response.text();
     expect(body).toContain("User-agent: *");
-    expect(body).toContain("Disallow: /data/reports/");
+    expect(body).toContain("Allow: /");
+    expect(body).not.toContain("Disallow:");
     expect(body).not.toContain("Sitemap:");
   });
 
@@ -294,6 +295,30 @@ describe("worker fetch", () => {
     expect(response.headers.get("vary")).toBe("User-Agent");
     const body = await response.text();
     expect(body).toBe("hello");
+  });
+
+  test("adds X-Robots-Tag: noindex for /data/reports/*", async () => {
+    const env = {
+      IDX_MD: {
+        get: async (key: string) => {
+          expect(key).toBe("data/reports/rejected.md");
+          return { body: "# Rejected sources\n" };
+        },
+      },
+    } as any;
+
+    const response = await worker.fetch(
+      new Request("https://idx.md/data/reports/rejected.md"),
+      env,
+    );
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe(
+      "text/markdown; charset=utf-8",
+    );
+    expect(response.headers.get("x-robots-tag")).toBe("noindex");
+    const body = await response.text();
+    expect(body).toContain("Rejected");
   });
 
   test("copies http metadata from R2 object when available", async () => {
