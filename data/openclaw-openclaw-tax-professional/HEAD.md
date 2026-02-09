@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/tax-professional/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.418Z
+retrieved_at: 2026-02-09T18:16:07.545Z
 content_sha256: dc0310ce7f96d00afd6ba4707c2cd5d300dc1739eafdcf5f62def54e594d6b25
 ---

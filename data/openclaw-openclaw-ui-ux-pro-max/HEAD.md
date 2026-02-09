@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xobi667/ui-ux-pro-max/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.768Z
+retrieved_at: 2026-02-09T18:16:14.857Z
 content_sha256: e3048deafc62fb65192f99e51a48094571de059634b8bb27f50f37af0c43ba59
 ---

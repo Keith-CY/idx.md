@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ui-audit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.754Z
+retrieved_at: 2026-02-09T18:16:14.562Z
 content_sha256: 2e887f00d42d43c5114e6f193a799f8a4fa134471f7113219f31d8dc8d885cd9
 ---

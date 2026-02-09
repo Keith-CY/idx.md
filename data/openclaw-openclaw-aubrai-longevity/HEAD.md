@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dobrinalexandru/aubrai-longevity/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:45.278Z
+retrieved_at: 2026-02-09T18:14:16.974Z
 content_sha256: 93472f4f280784bbdff033e7c5dea47442ec7c242f9c06b38718b999e7c16407
 ---

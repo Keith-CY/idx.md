@@ -1,101 +1,131 @@
 ---
 name: smtp-send
-description: Send emails via SMTP with support for plain text, HTML, and attachments. Use when the user asks to send an email, email someone, or compose and send a message. Supports single recipients and can include file attachments. Works with Gmail, Outlook, Yahoo, QQ Mail, 163 Mail, and any SMTP server.
+description: Send emails via SMTP or Resend API with support for plain text, HTML, and attachments. Use when the user asks to send an email, email someone, or compose and send a message. Supports single recipients and can include file attachments. Works with Gmail, Outlook, Yahoo, QQ Mail, 163 Mail, Resend, and any SMTP server.
 ---
 
-# SMTP Send
+# Email Send
 
-Send emails via SMTP with support for text, HTML formatting, and file attachments. Works with Gmail, Outlook, Yahoo, QQ Mail, 163 Mail, and any SMTP server.
+发送邮件，支持 SMTP 和 Resend API 两种方式。
 
-## Quick Start
-
-Send a simple email:
+## 🚀 快速使用
 
 ```bash
+# 发送简单邮件
 python3 scripts/send_email.py \
   --to recipient@example.com \
   --subject "Meeting Tomorrow" \
   --body "Hi, let's meet at 2pm tomorrow."
-```
 
-Send HTML email:
-
-```bash
+# 发送 HTML 邮件
 python3 scripts/send_email.py \
   --to recipient@example.com \
   --subject "Weekly Report" \
   --body "<h1>Report</h1><p>Here are the updates...</p>" \
   --html
-```
 
-Send with attachments:
-
-```bash
+# 发送带附件的邮件
 python3 scripts/send_email.py \
   --to recipient@example.com \
   --subject "Documents" \
   --body "Please find the attached files." \
   --attachments report.pdf,data.csv
+
+# 指定使用 Resend
+python3 scripts/send_email.py \
+  --to recipient@example.com \
+  --subject "Test" \
+  --body "Hello" \
+  --provider resend
 ```
 
-## Setup
+## ⚙️ 配置
 
-**One-time configuration required.** Create `~/.smtp_config`:
+在 `~/.smtp_config` 中配置（二选一或两个都配）：
+
+### 方式 1: Resend API（推荐，更简单）
 
 ```json
 {
-  "host": "smtp.gmail.com",
-  "port": 587,
-  "user": "your-email@gmail.com",
-  "password": "your-app-password",
-  "from": "your-email@gmail.com",
-  "use_ssl": false
+    "resend_api_key": "re_xxxxx",
+    "resend_from": "you@your-domain.com"
 }
 ```
 
-**For Gmail users:** Must use App Password (not regular password). See [setup.md](references/setup.md) for detailed instructions on generating app passwords for Gmail, Yahoo, QQ Mail, 163 Mail, and other providers.
+获取 API key: https://resend.com
 
-Alternatively, use environment variables (see [setup.md](references/setup.md)).
+**注意**：免费账户只能发给注册邮箱，要发给其他人需要验证域名。
 
-## Parameters
+### 方式 2: SMTP（163/QQ/Gmail 等）
 
-- `--to`: Recipient email address (required)
-- `--subject`: Email subject line (required)
-- `--body`: Email body content (required)
-- `--html`: Send as HTML email (optional flag)
-- `--attachments`: Comma-separated file paths (optional)
+```json
+{
+    "host": "smtp.163.com",
+    "port": 465,
+    "user": "your-email@163.com",
+    "password": "your-auth-code",
+    "from": "your-email@163.com",
+    "use_ssl": true
+}
+```
 
-## Common Patterns
+### 两个都配（自动 fallback）
 
-### User provides recipient and content
+```json
+{
+    "resend_api_key": "re_xxxxx",
+    "resend_from": "you@your-domain.com",
+    "host": "smtp.163.com",
+    "port": 465,
+    "user": "your-email@163.com",
+    "password": "your-auth-code",
+    "from": "your-email@163.com",
+    "use_ssl": true
+}
+```
 
-When the user says "email john@example.com about the meeting," extract the recipient and compose appropriate subject/body.
+配置完后设置权限：
+```bash
+chmod 600 ~/.smtp_config
+```
 
-### User provides only content
+## 📋 参数
 
-If the user says "send an email saying the report is ready" without specifying a recipient, ask who to send it to.
+| 参数 | 必填 | 说明 |
+|------|------|------|
+| `--to` | ✅ | 收件人邮箱 |
+| `--subject` | ✅ | 邮件标题 |
+| `--body` | ✅ | 邮件内容 |
+| `--html` | ❌ | 以 HTML 格式发送 |
+| `--attachments` | ❌ | 附件路径，多个用逗号分隔 |
+| `--provider` | ❌ | `auto`/`smtp`/`resend`（默认 auto） |
 
-### File attachments
+## 🔄 Provider 选择逻辑
 
-When the user mentions "attach the file" or "send the document," use `--attachments` with the file path. Multiple files can be separated by commas.
+- `auto`（默认）：优先 Resend，失败则 fallback 到 SMTP
+- `smtp`：强制使用 SMTP
+- `resend`：强制使用 Resend API
 
-### HTML formatting
+## 📧 常见 SMTP 配置
 
-Use `--html` when the user wants formatted content (headings, lists, emphasis) or explicitly asks for HTML email.
+| 邮箱 | Host | Port | SSL |
+|------|------|------|-----|
+| 163 | smtp.163.com | 465 | true |
+| QQ | smtp.qq.com | 465 | true |
+| Gmail | smtp.gmail.com | 587 | false |
+| Outlook | smtp.office365.com | 587 | false |
 
-## Error Handling
+**注意**：163/QQ/Gmail 都需要使用授权码而非登录密码。
 
-**Missing config**: If `~/.smtp_config` not found and environment variables not set, the script will print an example config and exit. Guide the user to create the config file with their SMTP settings.
+## 🔐 安全
 
-**Authentication failed**: Usually means incorrect password or need to use app password. Direct user to [setup.md](references/setup.md) for provider-specific instructions.
+- 凭据存储在 `~/.smtp_config`，权限应设为 600
+- API key 和密码不会出现在命令行参数中
+- 配置文件不应提交到版本控制
 
-**Missing attachments**: Script warns but continues sending email without that attachment.
+## 🐛 常见问题
 
-**Connection timeout**: Check SMTP host/port settings or network connectivity.
+**认证失败**：检查授权码是否正确，是否开启了 SMTP 服务
 
-## Security
+**Resend 403**：免费账户只能发给注册邮箱，需要验证域名才能发给其他人
 
-- Credentials stored in `~/.smtp_config` (file permissions should be 600)
-- Or use environment variables for better security
-- App passwords recommended over regular passwords
-- Config file should not be committed to version control
+**连接超时**：检查网络，或者端口是否被防火墙拦截

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/video-transcript-downloader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.899Z
+retrieved_at: 2026-02-09T18:16:17.370Z
 content_sha256: 07ab011788b8790c84cd6e081765543007c9da36a7cb29c4eab8b35c03b2309d
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/coloring-page/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:46.392Z
+retrieved_at: 2026-02-09T18:14:33.676Z
 content_sha256: 9ad556a3ff990a13231dccae66fef4bd2c64cf4f34e89aeab29d3644cb7e673a
 ---

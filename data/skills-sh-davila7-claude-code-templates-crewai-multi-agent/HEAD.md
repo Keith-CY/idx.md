@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-crewai/references/flows.md
 license: ""
 upstream_ref: https://skills.sh/davila7/claude-code-templates/crewai-multi-agent
-retrieved_at: 2026-02-09T15:45:53.603Z
+retrieved_at: 2026-02-09T18:16:32.846Z
 content_sha256: bb4b104c94ffa8145516d73a1d4af3809723df15d47c2d02b24715bc9a1752f2
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/plgonzalezrx8/context-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:46.499Z
+retrieved_at: 2026-02-09T18:14:35.938Z
 content_sha256: 13fbe09d62503b2db8f079184d9f16de48613b4d0e950acf0b8b41418a13799d
 ---

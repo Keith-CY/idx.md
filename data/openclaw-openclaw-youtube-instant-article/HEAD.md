@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/viticci/youtube-instant-article/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.365Z
+retrieved_at: 2026-02-09T18:16:27.089Z
 content_sha256: 388f74a382cc3a29a1dbe8fe08778bdf1dcc376897fa523fca72d0db78924853
 ---

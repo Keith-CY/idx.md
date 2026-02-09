@@ -36,6 +36,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma-implement-design/SKILL.md
-retrieved_at: 2026-02-09T15:45:43.361Z
+retrieved_at: 2026-02-09T18:13:49.826Z
 content_sha256: adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad
 ---

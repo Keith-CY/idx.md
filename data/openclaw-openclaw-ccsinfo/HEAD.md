@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/myakove/ccsinfo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:45.807Z
+retrieved_at: 2026-02-09T18:14:26.052Z
 content_sha256: 331910132c37efe7f0bc6e6836a3b2f5d6887c2a2768cd37a499e218fae8f588
 ---

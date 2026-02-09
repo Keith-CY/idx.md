@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xiwan/smtp-send/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.018Z
-content_sha256: db447086491c1b7f75ae2c5c248f05d24e3b8c407419419ec5b73d915dc96e47
+retrieved_at: 2026-02-09T18:15:59.442Z
+content_sha256: c48416fa2391de2641fb2f8f4e58b0dbb5ee726d0315a1520f2e9482c0664a0f
 ---

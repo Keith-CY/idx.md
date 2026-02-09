@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nevo-david/postiz/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.125Z
+retrieved_at: 2026-02-09T18:15:40.918Z
 content_sha256: fdd7b41af9b9502f054507f4538659ea8cdcd1ea42e0c87375e1ca028cc1b514
 ---

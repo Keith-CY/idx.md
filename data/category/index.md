@@ -32,5 +32,5 @@
 | Smart Home & IoT | 50 | /category/smart-home-iot/index.md |
 | Speech & Transcription | 43 | /category/speech-transcription/index.md |
 | Transportation | 54 | /category/transportation/index.md |
-| Uncategorized | 321 | /category/uncategorized/index.md |
+| Uncategorized | 320 | /category/uncategorized/index.md |
 | Web Frontend Development | 46 | /category/web-frontend-development/index.md |

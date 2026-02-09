@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vglafirov/wyoming-clawdbot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.210Z
+retrieved_at: 2026-02-09T18:16:23.974Z
 content_sha256: 98fb23436460f8b7f7b81b882cc5bbfd36b94c7adffff6f1d1a78c6e532d56c8
 ---

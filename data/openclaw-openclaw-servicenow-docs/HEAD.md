@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/servicenow-docs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.830Z
+retrieved_at: 2026-02-09T18:15:56.093Z
 content_sha256: 74d4cc177b5b0ff92783fd098886a989d23896b4f76db9a92737b9e431680f45
 ---

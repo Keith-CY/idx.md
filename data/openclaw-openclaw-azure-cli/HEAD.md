@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/azure-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:45.371Z
+retrieved_at: 2026-02-09T18:14:18.646Z
 content_sha256: ee338e1a26663172537c83367fa0e8e39fc5f428a49eb2208d4957400c714199
 ---

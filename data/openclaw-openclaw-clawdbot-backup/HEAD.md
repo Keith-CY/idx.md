@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/clawdbot-backup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:45.979Z
+retrieved_at: 2026-02-09T18:14:28.850Z
 content_sha256: 388b273270acfa30d711e30310e8bf1e763f9f7b69f22fcfc18efb14e6f55b7a
 ---

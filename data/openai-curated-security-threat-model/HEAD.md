@@ -38,6 +38,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-threat-model/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-threat-model/SKILL.md
-retrieved_at: 2026-02-09T15:45:43.454Z
+retrieved_at: 2026-02-09T18:13:50.772Z
 content_sha256: 1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2
 ---

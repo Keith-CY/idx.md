@@ -1,35 +1,44 @@
 ---
 name: zalo
-description: Guidance for integrating Zalo (Zalo OA/ZNS): flows, API usage, webhooks, and operational safety.
+description: OpenClaw skill for Zalo Bot API workflows (bot token) plus optional guidance on unofficial personal automation tools.
 ---
 
-# Zalo Integration Guide
+# Zalo Bot Skill (Advanced)
 
-## Goal
-Provide a practical baseline for integrating Zalo (OA/ZNS): auth, messaging, webhooks, and operational considerations.
+## Purpose
+Provide a production-oriented guide for Zalo Bot API workflows (token-based), with a separate, clearly marked branch for unofficial personal automation tools.
 
-## Use when
-- You need to design a notification flow via Zalo.
-- You need to describe webhook handling from Zalo.
-- You want a security/rate-limit checklist.
+## Best fit
+- You use the Zalo Bot Platform / bot token path.
+- You need clear webhook or long-polling handling.
+- You want professional conversation UX guidance.
 
-## Do not use when
-- The request involves bypassing policies or collecting data unlawfully.
+## Not a fit
+- You require guaranteed, officially supported personal-account automation.
+- You need rich media streaming or advanced file pipelines.
 
-## Core topics
-- Auth: tokens, refresh, scopes.
-- Messaging: payload formats by message type.
-- Webhooks: signature validation, retries, idempotency.
-- Ops: rate limits, logging, error tracking.
+## Quick orientation
+- Read `references/zalo-bot-overview.md` for platform scope and constraints.
+- Read `references/zalo-bot-token-and-setup.md` for token setup and connection flow.
+- Read `references/zalo-bot-messaging-capabilities.md` for capability checklist.
+- Read `references/zalo-bot-ux-playbook.md` for UX and conversation patterns.
+- Read `references/zalo-bot-webhook-routing.md` for webhook/polling handling.
+- Read `references/zalo-personal-zca-js.md` for the unofficial personal-account branch.
+- Read `references/zalo-n8n-automation.md` for automation notes and cautions.
 
 ## Required inputs
-- Account type (OA/ZNS).
-- Use case (alerts, CS, transactional).
-- Environment (dev/prod) and sandbox needs.
+- Bot token and bot configuration.
+- Target workflow (notify, support, broadcast).
+- Delivery model (webhook or polling).
 
 ## Expected output
-- A clear integration plan with a technical checklist.
+- A clear bot workflow plan, method checklist, and operational guardrails.
 
-## Notes
-- Never put secrets in logs.
-- Always validate webhook signatures and protect against replay.
+## Operational notes
+- Validate inbound events and handle retries safely.
+- Keep replies concise; rate-limit outgoing messages.
+- Prefer explicit allowlists for any automation flow.
+
+## Security notes
+- Never log tokens or credentials.
+- Treat all state files and cookies as secrets.

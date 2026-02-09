@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/shield-md/shield.md/main/skill.md
 license: ""
 upstream_ref: https://github.com/shield-md/shield.md/blob/main/skill.md
-retrieved_at: 2026-02-09T15:45:54.132Z
+retrieved_at: 2026-02-09T18:16:41.522Z
 content_sha256: d1a2f699123a487c205234f36c725034a6dc4250d9f3340d09aa174eb7d22458
 ---

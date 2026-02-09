@@ -23,6 +23,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/artur-zhdan/detector/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:46.741Z
+retrieved_at: 2026-02-09T18:14:40.722Z
 content_sha256: c5323052ce5591fb8f5fa59754adfc0f57e3a13fe73fdd42a1d65711c076154a
 ---

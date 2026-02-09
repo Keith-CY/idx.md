@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/patfire94/skill-flag/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.942Z
+retrieved_at: 2026-02-09T18:15:58.154Z
 content_sha256: bf20a33429afca41e5ef2d1c939489cffea6ac86849cadc8812f5630590a49f6
 ---

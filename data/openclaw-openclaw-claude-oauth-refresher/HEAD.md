@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/claude-oauth-refresher/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:45.905Z
+retrieved_at: 2026-02-09T18:14:27.612Z
 content_sha256: e38dbad31184308b35b57b7b6332554fff31e73706983eb1b23dde807eab2ff9
 ---

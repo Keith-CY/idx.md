@@ -36,6 +36,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/transcribe/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/transcribe/SKILL.md
-retrieved_at: 2026-02-09T15:45:43.473Z
+retrieved_at: 2026-02-09T18:13:51.048Z
 content_sha256: f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09
 ---

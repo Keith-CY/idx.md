@@ -17,7 +17,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-recipes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:45.672Z
+retrieved_at: 2026-02-09T18:14:23.322Z
 content_sha256: a2da23f1ce096edf2a3ddb0a48396255806935e4e853c76207191f33d2d54e9c
 ---
 |/data/openclaw-openclaw-bring-recipes|
@@ -35,7 +35,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/detox-counter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:46.745Z
+retrieved_at: 2026-02-09T18:14:40.808Z
 content_sha256: 98f20f7b5f32541bbf137f2192855396ca4d7935626961523280ce0aa684000c
 ---
 |/data/openclaw-openclaw-detox-counter|
@@ -53,7 +53,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yonghaozhao722/diet-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:46.773Z
+retrieved_at: 2026-02-09T18:14:41.361Z
 content_sha256: 819e1592bc065e20be5fc72c6999c0013bd5b22cd79f4b27d318e0f0430d9478
 ---
 |/data/openclaw-openclaw-diet-tracker|
@@ -70,7 +70,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/endurance-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.041Z
+retrieved_at: 2026-02-09T18:14:46.375Z
 content_sha256: 2de43176036f6682e30c9980365e13b9bda5480511cc873129aca5ae795905da
 ---
 |/data/openclaw-openclaw-endurance-coach|
@@ -87,7 +87,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/fasting-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.206Z
+retrieved_at: 2026-02-09T18:14:48.921Z
 content_sha256: 921941e2583ba6b03c15a0a3f3f9fef0b49966fc80e386bf9c52555ce2f5d225
 ---
 |/data/openclaw-openclaw-fasting-tracker|
@@ -104,7 +104,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/fitbit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.332Z
+retrieved_at: 2026-02-09T18:14:51.444Z
 content_sha256: 8374284e3110c0e87e2842881f017fa96049447f6723ae08eb2b5916632f7d05
 ---
 |/data/openclaw-openclaw-fitbit|
@@ -121,7 +121,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/fitbit-analytics/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.336Z
+retrieved_at: 2026-02-09T18:14:51.597Z
 content_sha256: 48fcf7e31bad31c8f1de309cf6bcfd7b66374e3ff58eb9089dc9c85c47de3bd9
 ---
 |/data/openclaw-openclaw-fitbit-analytics|
@@ -138,7 +138,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eversonl/garmin-health-analysis/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.448Z
+retrieved_at: 2026-02-09T18:14:54.235Z
 content_sha256: d04df155084d46037f3ce47f9e75bea71a5611c5dab18c5c3b8adaf3c5ad18dc
 ---
 |/data/openclaw-openclaw-garmin-health-analysis|
@@ -155,7 +155,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/gdpr-cookie-consent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.461Z
+retrieved_at: 2026-02-09T18:14:54.717Z
 content_sha256: d5b093517801f219feba86b95cc3280cfbc8ddcdd6de7da0b77b2f4705790edd
 ---
 |/data/openclaw-openclaw-gdpr-cookie-consent|
@@ -173,7 +173,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/moclippa/gevety/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.521Z
+retrieved_at: 2026-02-09T18:14:55.902Z
 content_sha256: 47c4cca2efe83be9a8e04d63a90cfe4feda6fac0747990904f2bfaeee7b64309
 ---
 |/data/openclaw-openclaw-gevety|
@@ -190,7 +190,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/hevy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.846Z
+retrieved_at: 2026-02-09T18:15:02.095Z
 content_sha256: bb0beb3ae533db3ba072c1f8b91f26dc8acfddd140e57bbaa455865c8fc34064
 ---
 |/data/openclaw-openclaw-hevy|
@@ -207,7 +207,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jayhickey/huckleberry/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:47.943Z
+retrieved_at: 2026-02-09T18:15:03.641Z
 content_sha256: b4373a94338c032b0aef33729e65e6d2d161b9099e943ffc7a51c5317cfb042a
 ---
 |/data/openclaw-openclaw-huckleberry|
@@ -224,7 +224,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pseuss/intervals-icu-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:48.077Z
+retrieved_at: 2026-02-09T18:15:06.475Z
 content_sha256: 1bd0acdd4eca11ee198b619eea0a99ab7a2393033197c04b92872abd2170488b
 ---
 |/data/openclaw-openclaw-intervals-icu-api|
@@ -241,7 +241,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/muscle-gain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:49.184Z
+retrieved_at: 2026-02-09T18:15:24.199Z
 content_sha256: 593db003757b64e064b60b9d47f6411a470764a459dc1c5d597e2ac6e7cf97f1
 ---
 |/data/openclaw-openclaw-muscle-gain|
@@ -258,7 +258,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ruhrpotter/oura/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:49.723Z
+retrieved_at: 2026-02-09T18:15:33.845Z
 content_sha256: b149674ccedf7d75c32c51a8d4a3d876aed01a5aa4325642ffec000927c4cca7
 ---
 |/data/openclaw-openclaw-oura|
@@ -275,7 +275,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/oura-analytics/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:49.731Z
+retrieved_at: 2026-02-09T18:15:33.941Z
 content_sha256: cb5a0b05b71d80bd4de5ae7716b90ee665ea3ed07276bda7f4020a8ee0182803
 ---
 |/data/openclaw-openclaw-oura-analytics|
@@ -292,7 +292,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sameerbajaj/oura-ring-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:49.735Z
+retrieved_at: 2026-02-09T18:15:34.014Z
 content_sha256: 665c859b80e3d0dd42889251c3dc1a295334c6a73f4aad5089ed3cf2ff097c04
 ---
 |/data/openclaw-openclaw-oura-ring-skill|
@@ -309,7 +309,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/pregnancy-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.142Z
+retrieved_at: 2026-02-09T18:15:41.306Z
 content_sha256: a741cdd385a515bc9a4c72c03060c88fffce8a1eb69f3e49a49bc2ef1e06e0ef
 ---
 |/data/openclaw-openclaw-pregnancy-tracker|
@@ -327,7 +327,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brucko/primer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.157Z
+retrieved_at: 2026-02-09T18:15:41.658Z
 content_sha256: 417d584300b208117bd90ccbff8ab565dc41c241dfa976af544db6e2fbbf9ae7
 ---
 |/data/openclaw-openclaw-primer|
@@ -344,7 +344,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/qms-audit-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.329Z
+retrieved_at: 2026-02-09T18:15:45.601Z
 content_sha256: 2cbc1e2b31afe9137fbe017dfcb36e5781aef6b84b52f4fd412f01ee6474282d
 ---
 |/data/openclaw-openclaw-qms-audit-expert|
@@ -361,7 +361,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/ranked-gym/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:50.390Z
+retrieved_at: 2026-02-09T18:15:46.974Z
 content_sha256: bbe1e71d83cc9013bc3512e0e200b48a51c62326670d4416fb8a923d6ce7ec50
 ---
 |/data/openclaw-openclaw-ranked-gym|
@@ -378,7 +378,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bohdanpodvirnyi/strava/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.205Z
+retrieved_at: 2026-02-09T18:16:03.162Z
 content_sha256: 139ac186dac368e8f2e54055907d002957bc5168d0f31910d69951ffe3fa1a7e
 ---
 |/data/openclaw-openclaw-strava|
@@ -395,7 +395,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericrosenberg/strava-cycling-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.209Z
+retrieved_at: 2026-02-09T18:16:03.234Z
 content_sha256: d3fff51cea53299d8b493fb638cfb2828712e4d55b0e76fb82c09128291933f7
 ---
 |/data/openclaw-openclaw-strava-cycling-coach|
@@ -412,7 +412,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/testosterone-optimization/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.490Z
+retrieved_at: 2026-02-09T18:16:09.027Z
 content_sha256: d44277cc6394adc6acc5836f01808fd33a332fcbb917b6b3c75193ccbc69c7b1
 ---
 |/data/openclaw-openclaw-testosterone-optimization|
@@ -429,7 +429,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/the-sports-db/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.502Z
+retrieved_at: 2026-02-09T18:16:09.281Z
 content_sha256: e37d5e466776019263cc5c4a11106d9ea8faf19c2b06bdeaf1193ec89800ef63
 ---
 |/data/openclaw-openclaw-the-sports-db|
@@ -446,7 +446,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/umea-lunch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:51.783Z
+retrieved_at: 2026-02-09T18:16:15.105Z
 content_sha256: cb2e79323642863782eba74525c384ae6ef8e0bab53ffe22abb9161b7040ed52
 ---
 |/data/openclaw-openclaw-umea-lunch|
@@ -463,7 +463,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/weight-loss/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.061Z
+retrieved_at: 2026-02-09T18:16:20.954Z
 content_sha256: b73aa04daf760798c28ce7d41ef3cab6cb7741c6b5cff2fc2dd7798e2fbadf8b
 ---
 |/data/openclaw-openclaw-weight-loss|
@@ -480,7 +480,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/who-growth-charts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.115Z
+retrieved_at: 2026-02-09T18:16:21.959Z
 content_sha256: 2f6956ed58b14cb5ba49e2435dda9a0fd2121df4b0f9e3e4c8a0f81836918570
 ---
 |/data/openclaw-openclaw-who-growth-charts|
@@ -497,7 +497,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/whoop/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.120Z
+retrieved_at: 2026-02-09T18:16:22.049Z
 content_sha256: 43a9e184cdc8c22253d2634018fd42dfea1d2ce01851362f46e3d9f9266112b2
 ---
 |/data/openclaw-openclaw-whoop|
@@ -514,7 +514,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rodrigouroz/whoop-health-analysis/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.124Z
+retrieved_at: 2026-02-09T18:16:22.128Z
 content_sha256: 4f9e99a32c8b5e4ad5224df190894cc885e430eec71de3ab0667beef2af133b9
 ---
 |/data/openclaw-openclaw-whoop-health-analysis|
@@ -531,7 +531,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/whoop-morning/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.128Z
+retrieved_at: 2026-02-09T18:16:22.228Z
 content_sha256: 7dbb80bfc06209d722565e0faca96341ef093ca62d906a418054595ee8fd8bea
 ---
 |/data/openclaw-openclaw-whoop-morning|
@@ -549,7 +549,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/koala73/whoopskill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.131Z
+retrieved_at: 2026-02-09T18:16:22.321Z
 content_sha256: 13da58808301f625d2457cfe19ebdb904b6e56b9ea67bc0771044a6385c20ee2
 ---
 |/data/openclaw-openclaw-whoopskill|
@@ -567,7 +567,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/withings-family/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.156Z
+retrieved_at: 2026-02-09T18:16:22.913Z
 content_sha256: 0343071cac4e00cfc5be9b245ae75eb19ffa9e07320b5dd2e2cb3dcff68c0b81
 ---
 |/data/openclaw-openclaw-withings-family|
@@ -584,7 +584,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/workout/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.191Z
+retrieved_at: 2026-02-09T18:16:23.501Z
 content_sha256: cc0ca3a882c5b18094338908f1786d60d8bfa887e9ea3b522b000f89997e8b56
 ---
 |/data/openclaw-openclaw-workout|
@@ -601,7 +601,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/workout-logger/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:52.195Z
+retrieved_at: 2026-02-09T18:16:23.638Z
 content_sha256: 967a96fa2ecc4a2f0919c717b35d38c089ea38016532e345feaf94ce9d989aaa
 ---
 |/data/openclaw-openclaw-workout-logger|

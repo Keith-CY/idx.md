@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/native-app-performance/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:49.274Z
+retrieved_at: 2026-02-09T18:15:25.420Z
 content_sha256: 54b26e5153bbcd1b961d57258dda4a1e8608361f93970e65815dd808da9d0509
 ---

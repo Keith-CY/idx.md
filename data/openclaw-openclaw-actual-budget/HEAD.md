@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thisisjeron/actual-budget/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:44.641Z
+retrieved_at: 2026-02-09T18:14:06.397Z
 content_sha256: 695f50c22f1a148d1032d081f5f322c5dbd446be8964d2fa8149806dbeec72dc
 ---

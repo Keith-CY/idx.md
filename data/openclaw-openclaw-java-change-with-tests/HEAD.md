@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tanerilyazov/java-change-with-tests/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:48.118Z
+retrieved_at: 2026-02-09T18:15:07.439Z
 content_sha256: a66c85d187ce7d7268f25da179d32f66df9bf0552c9f236bb49f581d5b55d642
 ---

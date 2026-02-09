@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/expo/fyi/main/expo-54-reanimated.md
 license: ""
 upstream_ref: https://skills.sh/jezweb/claude-skills/react-native-expo
-retrieved_at: 2026-02-09T15:45:43.969Z
+retrieved_at: 2026-02-09T18:13:58.152Z
 content_sha256: 3246b413c28f643b21bb72f2b20bda5133ab11bac124b1c6ab3427be96ec997b
 ---

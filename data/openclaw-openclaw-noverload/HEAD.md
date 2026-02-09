@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drewautomates/noverload/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T15:45:49.439Z
+retrieved_at: 2026-02-09T18:15:28.559Z
 content_sha256: 0be880cf11a396c6ccf1b855d2de30f928679359373e986d7e2bac9e5446fa55
 ---
