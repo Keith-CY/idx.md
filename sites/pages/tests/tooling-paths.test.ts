@@ -15,6 +15,8 @@ describe("pages tooling paths", () => {
     expect(text.includes("SCENARIO_INDEX_PATH")).toBe(true);
     expect(text.includes("INDUSTRY_INDEX_PATH")).toBe(true);
     expect(text.includes("sitemap.xml")).toBe(true);
+    expect(text.includes("llms.txt")).toBe(true);
+    expect(text.includes("robots.txt")).toBe(true);
     expect(text.includes("buildPilotPlaybooks")).toBe(true);
     expect(text.includes("processAndAddIndexEntry")).toBe(true);
     expect(text.includes("tags: playbook.tags")).toBe(true);
