@@ -10,9 +10,16 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 - Agents can browse to learn everything they could use, then fetch the exact markdown.
 
 ## Index locations
-- https://idx.md/index.md
-- https://idx.md/data/index.md
-- https://idx.md/category/index.md
+- All topics (full listing, alphabetical): https://idx.md/data/index.md (canonical) or https://idx.md/index.md (alias)
+- Capability navigation (browse by what the agent can do): https://idx.md/category/index.md
+- Scenario navigation (browse by workflow / use-case): https://idx.md/scenario/index.md
+- Industry navigation (browse by domain / vertical): https://idx.md/industry/index.md
+
+## How to choose a navigation mode
+- If you know what you want: start from `/data/index.md` and search by keywords in titles/tags.
+- If you want tools by capability: start from `/category/index.md`.
+- If you have a specific workflow/use-case: start from `/scenario/index.md`.
+- If you're operating in a specific domain: start from `/industry/index.md`.
 
 ## Index entry format
 - Each entry is a HEAD frontmatter block followed by a topic line.
@@ -25,7 +32,7 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 |/data/openclaw|
 
 ## How to fetch
-- Read `https://idx.md/index.md`.
+- Read `https://idx.md/data/index.md` (or `https://idx.md/index.md`).
 - Choose `{topic}` from the `|/data/{topic}|` line.
 - HEAD metadata: `https://idx.md/{topic}` (or `/data/{topic}/HEAD.md`)
 - BODY content: `https://idx.md/{topic}/BODY.md`
@@ -37,6 +44,10 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 - `/index.md`, `/data/index.md` -> index listing
 - `/category/index.md` -> category index listing
 - `/category/{category}/index.md` -> category topic listing
+- `/scenario/index.md` -> scenario index listing
+- `/scenario/{scenario}/index.md` -> scenario topic listing
+- `/industry/index.md` -> industry index listing
+- `/industry/{industry}/index.md` -> industry topic listing
 - `/{topic}` -> `/data/{topic}/HEAD.md`
 - `/{topic}/HEAD.md` -> HEAD metadata
 - `/{topic}/BODY.md` -> BODY content

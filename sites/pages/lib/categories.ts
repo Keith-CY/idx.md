@@ -30,7 +30,7 @@ export type CategoryBuildOutput = {
 
 const CATEGORY_PREFIX = "category-";
 
-const CATEGORY_DEFINITIONS: readonly CategoryDefinition[] = [
+export const CATEGORY_DEFINITIONS: readonly CategoryDefinition[] = [
   { slug: "ai-llms", title: "AI & LLMs" },
   { slug: "apple-apps-services", title: "Apple Apps & Services" },
   { slug: "browser-automation", title: "Browser Automation" },
@@ -91,6 +91,7 @@ const CATEGORY_ALIASES = new Map<string, string>([
   ["macos", "ios-macos-development"],
   ["documents", "pdf-documents"],
   ["productivity", "productivity-tasks"],
+  ["uncategorized", "uncategorized"],
 ]);
 
 for (const [alias, slug] of CATEGORY_ALIASES) {
@@ -147,7 +148,9 @@ export function parseCategoriesFromTags(
   };
 }
 
-export function formatUnknownCategoryReason(unknownSlugs: readonly string[]): string {
+export function formatUnknownCategoryReason(
+  unknownSlugs: readonly string[],
+): string {
   const tags = unknownSlugs.map((slug) => `${CATEGORY_PREFIX}${slug}`).join(", ");
   return `Unknown category tag(s): ${tags}; mapped to ${CATEGORY_PREFIX}uncategorized`;
 }
@@ -155,32 +158,30 @@ export function formatUnknownCategoryReason(unknownSlugs: readonly string[]): st
 export function buildCategoryIndexes(
   entries: readonly CategoryIndexEntry[],
 ): CategoryBuildOutput {
-  const grouped = new Map<string, CategoryIndexEntry[]>();
+  const grouped = new Map<string, Map<string, CategoryIndexEntry>>();
 
   for (const entry of entries) {
     for (const categorySlug of entry.categories) {
-      const categoryEntries = grouped.get(categorySlug);
-      if (categoryEntries) {
-        categoryEntries.push(entry);
-      } else {
-        grouped.set(categorySlug, [entry]);
+      if (!CATEGORY_SLUGS.has(categorySlug)) {
+        continue;
       }
+      let byTopic = grouped.get(categorySlug);
+      if (!byTopic) {
+        byTopic = new Map();
+        grouped.set(categorySlug, byTopic);
+      }
+      byTopic.set(entry.topic, entry);
     }
   }
 
   const pages: CategoryPage[] = [...grouped.entries()]
-    .map(([slug, categoryEntries]) => {
-      const entriesByTopic = new Map<string, CategoryIndexEntry>(
-        categoryEntries.map((entry) => [entry.topic, entry]),
-      );
-      const uniqueEntries = [...entriesByTopic.values()].sort((a, b) =>
-        a.topic.localeCompare(b.topic),
-      );
-      const entrySections = uniqueEntries
+    .map(([slug, byTopic]) => {
+      const entrySections = [...byTopic.values()]
+        .sort((a, b) => a.topic.localeCompare(b.topic))
         .map((entry) => formatIndexEntry(entry.topic, entry.headContent).trimEnd())
         .join("\n\n");
       const title = categoryTitle(slug);
-      const count = uniqueEntries.length;
+      const count = byTopic.size;
       const content = [
         `# Category: ${title}`,
         "",
@@ -196,13 +197,13 @@ export function buildCategoryIndexes(
     })
     .sort((a, b) => a.slug.localeCompare(b.slug));
 
-  const hubRows =
-    pages.length > 0
-      ? pages.map(
-          (page) =>
-            `| ${page.title} | ${page.count} | /category/${page.slug}/index.md |`,
-        )
-      : ["| None | 0 | |"];
+  const hubRows = pages.map(
+    (page) =>
+      `| ${page.title} | ${page.count} | /category/${page.slug}/index.md |`,
+  );
+  if (hubRows.length === 0) {
+    hubRows.push("| None | 0 | |");
+  }
 
   const hubContent = [
     "# Category Index",
@@ -215,3 +216,4 @@ export function buildCategoryIndexes(
 
   return { hubContent, pages };
 }
+

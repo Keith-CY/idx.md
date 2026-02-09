@@ -12,6 +12,14 @@ describe("pages tooling paths", () => {
     expect(text.includes('resolve(DATA_ROOT, "reports")')).toBe(true);
     expect(text.includes('resolve(REPORT_DIR, "rejected.md")')).toBe(true);
     expect(text.includes("INDEX_PATH")).toBe(true);
+    expect(text.includes("SCENARIO_INDEX_PATH")).toBe(true);
+    expect(text.includes("INDUSTRY_INDEX_PATH")).toBe(true);
+    expect(text.includes("buildPilotPlaybooks")).toBe(true);
+    expect(text.includes("processAndAddIndexEntry")).toBe(true);
+    expect(text.includes("tags: playbook.tags")).toBe(true);
+    expect(text.includes("parseCategoriesFromTags(entry.tags)")).toBe(true);
+    expect(text.includes("parseScenarioFromTags(entry.tags)")).toBe(true);
+    expect(text.includes("parseIndustryFromTags(entry.tags)")).toBe(true);
     expect(text.includes("sitemap.xml")).toBe(true);
     expect(text.includes("llms.txt")).toBe(true);
     expect(text.includes("robots.txt")).toBe(true);
@@ -23,7 +31,8 @@ describe("pages tooling paths", () => {
     expect(text.includes("DATA_ROOT")).toBe(true);
     expect(text.includes("HEAD.md")).toBe(true);
     expect(text.includes("BODY.md")).toBe(true);
-    expect(text.includes('dirent.name !== "category"')).toBe(true);
+    expect(text.includes("RESERVED_DATA_DIRS")).toBe(true);
+    expect(text.includes("!RESERVED_DATA_DIRS.has(dirent.name)")).toBe(true);
   });
 
   test("ingest writes to sources and data reports", async () => {
@@ -95,6 +104,8 @@ describe("pages tooling paths", () => {
     const text = await readText("SKILL.md");
     expect(text.includes("https://idx.md/index.md")).toBe(true);
     expect(text.includes("https://idx.md/category/index.md")).toBe(true);
+    expect(text.includes("https://idx.md/scenario/index.md")).toBe(true);
+    expect(text.includes("https://idx.md/industry/index.md")).toBe(true);
     expect(text.includes("/{topic}/BODY.md")).toBe(true);
   });
 

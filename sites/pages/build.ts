@@ -7,17 +7,28 @@ import {
   formatUnknownCategoryReason,
   parseCategoriesFromTags,
 } from "./lib/categories";
+import { buildPilotPlaybooks } from "./lib/playbooks";
 import { buildSitemapXml } from "./lib/sitemap";
 import { buildLlmsTxt, buildRobotsTxt } from "./lib/well-known";
+import {
+  buildIndustryIndexes,
+  buildScenarioIndexes,
+  parseIndustryFromTags,
+  parseScenarioFromTags,
+} from "./lib/verticals";
 import { loadSources, type SourceEntry } from "./lib/registry";
 import {
   CATEGORY_INDEX_PATH,
   DATA_ROOT,
+  INDUSTRY_INDEX_PATH,
   INDEX_PATH,
+  SCENARIO_INDEX_PATH,
   bodyPath,
   categoryIndexPath,
   formatIndexEntry,
   headPath,
+  industryIndexPath,
+  scenarioIndexPath,
   topicDir,
 } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
@@ -26,6 +37,13 @@ import { SITE_ORIGIN } from "./lib/site-config";
 const result = await loadSources();
 
 type Rejection = { url: string; reason: string };
+type IndexEntry = {
+  topic: string;
+  headContent: string;
+  categories: string[];
+  scenarios: string[];
+  industries: string[];
+};
 
 const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
@@ -100,6 +118,92 @@ function formatRejectedReport(rejections: Rejection[]): string {
   return lines.join("\n");
 }
 
+function formatUnknownVerticalReason(
+  kind: "scenario" | "industry",
+  unknownSlugs: readonly string[],
+): string {
+  const tags = unknownSlugs.map((slug) => `${kind}-${slug}`).join(", ");
+  return `Unknown ${kind} tag(s): ${tags}; mapped to ${kind}-uncategorized`;
+}
+
+function pushUnknownTagRejections(
+  rejections: Rejection[],
+  params: {
+    url: string;
+    unknownSlugs: readonly string[];
+    formatReason: (unknownSlugs: readonly string[]) => string;
+  },
+): void {
+  if (params.unknownSlugs.length === 0) {
+    return;
+  }
+
+  rejections.push({
+    url: params.url,
+    reason: params.formatReason(params.unknownSlugs),
+  });
+}
+
+function processAndAddIndexEntry(
+  entry: {
+    topic: string;
+    url: string;
+    tags: readonly string[] | undefined;
+    headContent: string;
+  },
+  rejections: Rejection[],
+  indexEntries: IndexEntry[],
+): void {
+  const parsedCategories = parseCategoriesFromTags(entry.tags);
+  pushUnknownTagRejections(rejections, {
+    url: entry.url,
+    unknownSlugs: parsedCategories.unknown,
+    formatReason: formatUnknownCategoryReason,
+  });
+
+  const parsedScenarios = parseScenarioFromTags(entry.tags);
+  pushUnknownTagRejections(rejections, {
+    url: entry.url,
+    unknownSlugs: parsedScenarios.unknown,
+    formatReason: (unknownSlugs) =>
+      formatUnknownVerticalReason("scenario", unknownSlugs),
+  });
+
+  const parsedIndustries = parseIndustryFromTags(entry.tags);
+  pushUnknownTagRejections(rejections, {
+    url: entry.url,
+    unknownSlugs: parsedIndustries.unknown,
+    formatReason: (unknownSlugs) =>
+      formatUnknownVerticalReason("industry", unknownSlugs),
+  });
+
+  indexEntries.push({
+    topic: entry.topic,
+    headContent: entry.headContent,
+    categories: parsedCategories.categories,
+    scenarios: parsedScenarios.scenarios,
+    industries: parsedIndustries.industries,
+  });
+}
+
+type IndexPage = { slug: string; content: string };
+
+async function writeIndexPages(params: {
+  hubPath: string;
+  hubContent: string;
+  pages: readonly IndexPage[];
+  pagePathForSlug: (slug: string) => string;
+}): Promise<void> {
+  await mkdir(dirname(params.hubPath), { recursive: true });
+  await Bun.write(params.hubPath, params.hubContent);
+
+  for (const page of params.pages) {
+    const outputPath = params.pagePathForSlug(page.slug);
+    await mkdir(dirname(outputPath), { recursive: true });
+    await Bun.write(outputPath, page.content);
+  }
+}
+
 type FetchResult = {
   markdown: string;
   bytes: Uint8Array;
@@ -166,11 +270,7 @@ async function fetchMarkdown(
 
 const accepted: AcceptedEntry[] = [];
 const rejected: Rejection[] = [];
-const indexEntries: Array<{
-  topic: string;
-  headContent: string;
-  categories: string[];
-}> = [];
+const indexEntries: IndexEntry[] = [];
 
 const writeRejectedReport = async () => {
   try {
@@ -202,13 +302,6 @@ try {
     }
     const { markdown, bytes, retrievedAt } = fetched;
     const topic = source.slug;
-    const parsedCategories = parseCategoriesFromTags(source.tags);
-    if (parsedCategories.unknown.length > 0) {
-      rejected.push({
-        url: source.source_url,
-        reason: formatUnknownCategoryReason(parsedCategories.unknown),
-      });
-    }
     const entryDirPath = resolveTopicDir(topic);
     const summaryLines = buildSummaryLines(source, markdown);
     const summaryText = summaryLines.join("\n");
@@ -232,16 +325,39 @@ try {
 
     const headContent = `---\n${yaml}\n---\n`;
     await Bun.write(headPath(topic), headContent);
-    indexEntries.push({
-      topic,
-      headContent,
-      categories: parsedCategories.categories,
-    });
+    processAndAddIndexEntry(
+      {
+        topic,
+        url: source.source_url,
+        tags: source.tags,
+        headContent,
+      },
+      rejected,
+      indexEntries,
+    );
 
     accepted.push({ source, retrievedAt });
   }
 } finally {
   await writeRejectedReport();
+}
+
+const playbookRetrievedAt = new Date().toISOString();
+for (const playbook of buildPilotPlaybooks(playbookRetrievedAt)) {
+  const entryDirPath = resolveTopicDir(playbook.topic);
+  await mkdir(entryDirPath, { recursive: true });
+  await Bun.write(bodyPath(playbook.topic), playbook.bodyBytes);
+  await Bun.write(headPath(playbook.topic), playbook.headContent);
+  processAndAddIndexEntry(
+    {
+      topic: playbook.topic,
+      url: `playbook:${playbook.topic}`,
+      tags: playbook.tags,
+      headContent: playbook.headContent,
+    },
+    rejected,
+    indexEntries,
+  );
 }
 
 const INDEX_PREAMBLE =
@@ -258,21 +374,37 @@ const indexOutput = indexContent
   : `${INDEX_PREAMBLE}\n`;
 await Bun.write(INDEX_PATH, indexOutput);
 const categoryOutput = buildCategoryIndexes(sortedIndexEntries);
-await Bun.write(CATEGORY_INDEX_PATH, categoryOutput.hubContent);
-await Promise.all(
-  categoryOutput.pages.map(async (page) => {
-    const outputPath = categoryIndexPath(page.slug);
-    await mkdir(dirname(outputPath), { recursive: true });
-    await Bun.write(outputPath, page.content);
-  }),
-);
+await writeIndexPages({
+  hubPath: CATEGORY_INDEX_PATH,
+  hubContent: categoryOutput.hubContent,
+  pages: categoryOutput.pages,
+  pagePathForSlug: categoryIndexPath,
+});
+const scenarioOutput = buildScenarioIndexes(sortedIndexEntries);
+await writeIndexPages({
+  hubPath: SCENARIO_INDEX_PATH,
+  hubContent: scenarioOutput.hubContent,
+  pages: scenarioOutput.pages,
+  pagePathForSlug: scenarioIndexPath,
+});
+const industryOutput = buildIndustryIndexes(sortedIndexEntries);
+await writeIndexPages({
+  hubPath: INDUSTRY_INDEX_PATH,
+  hubContent: industryOutput.hubContent,
+  pages: industryOutput.pages,
+  pagePathForSlug: industryIndexPath,
+});
 
 const sitemapPaths = [
   "/",
   "/SKILL.md",
   "/data/index.md",
   "/category/index.md",
+  "/scenario/index.md",
+  "/industry/index.md",
   ...categoryOutput.pages.map((page) => `/category/${page.slug}/index.md`),
+  ...scenarioOutput.pages.map((page) => `/scenario/${page.slug}/index.md`),
+  ...industryOutput.pages.map((page) => `/industry/${page.slug}/index.md`),
   ...sortedIndexEntries.map((entry) => `/${entry.topic}/BODY.md`),
 ];
 const sitemapXml = buildSitemapXml({ origin: SITE_ORIGIN, paths: sitemapPaths });
