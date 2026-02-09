@@ -1777,10 +1777,42 @@
   slug: shield-md-shield-md-skill
   source_url: https://raw.githubusercontent.com/shield-md/shield.md/main/skill.md
   title: shield.md
-  summary: Context-based runtime threat feed policy. Uses structured threat entries to decide log, require_approval, or block. Use when evaluating user input, API calls, or other runtime data for potential threats. This skill is particularly useful for securing AI agents and LLM-powered applications against prompt injection, data exfiltration, and other adversarial attacks.
+  summary: Context-based runtime threat feed policy. Uses structured threat
+    entries to decide log, require_approval, or block. Use when evaluating user
+    input, API calls, or other runtime data for potential threats. This skill is
+    particularly useful for securing AI agents and LLM-powered applications
+    against prompt injection, data exfiltration, and other adversarial attacks.
   tags:
     - shield-md
     - security-policy
     - category-security-passwords
     - category-ai-llms
   upstream_ref: https://github.com/shield-md/shield.md/blob/main/skill.md
+- type: skills
+  slug: skills-sh-inference-sh-agent-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh/agent-skills/HEAD/skills/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh/agent-skills/python-sdk
+- type: skills
+  slug: skills-sh-inference-sh-agent-skills-javascript-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh/agent-skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh/agent-skills/javascript-sdk
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-draw-io
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/creative-design/draw-io/references/layout-guidelines.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/draw-io
+- type: skills
+  slug: skills-sh-github-awesome-copilot-github-issues
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/github-issues/references/templates.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/github-issues
