@@ -131,6 +131,28 @@ describe("worker fetch", () => {
     expect(body).toContain("Sitemap: https://idx.md/sitemap.xml");
   });
 
+  test("serves llms.txt from R2", async () => {
+    const env = {
+      IDX_MD: {
+        get: async (key: string) => {
+          if (key === "data/llms.txt") {
+            return { body: "llms-content" };
+          }
+          return null;
+        },
+      },
+    } as any;
+
+    const response = await worker.fetch(new Request("https://idx.md/llms.txt"), env);
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe(
+      "text/plain; charset=utf-8",
+    );
+    const body = await response.text();
+    expect(body).toBe("llms-content");
+  });
+
   test("serves sitemap.xml from R2", async () => {
     const env = {
       IDX_MD: {
