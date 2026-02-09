@@ -84,7 +84,3 @@ idx.md stays useful by staying small, sharp, and legible to machines.
 
 - Start here: [`CONTRIBUTING.md`](CONTRIBUTING.md)
 - Agent PR hygiene: [`docs/agent-collaboration.md`](docs/agent-collaboration.md)
-
-## Repo Topics (Suggested)
-
-`ai-agents`, `agent-skills`, `markdown`, `index`, `registry`, `cloudflare`, `r2`, `worker`, `github-actions`, `openclaw`
