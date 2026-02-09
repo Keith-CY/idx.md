@@ -1,0 +1,95 @@
+name: Index request
+description: Request a Markdown entrypoint (SKILL.md / AGENT.md / INDEX.md) to be indexed by idx.md
+title: "Index request: <project or doc name>"
+labels:
+  - index-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        idx.md is an agent-first Markdown registry.
+
+        This issue template is for requesting an entry to be indexed.
+        If you can, prefer opening a PR that edits `sources/general.yml`.
+
+  - type: input
+    id: entry_url
+    attributes:
+      label: Entrypoint URL (direct .md)
+      description: A stable, public URL to SKILL.md / AGENT.md / INDEX.md (prefer raw.githubusercontent.com for GitHub).
+      placeholder: https://raw.githubusercontent.com/org/repo/main/SKILL.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: entry_type
+    attributes:
+      label: Type
+      options:
+        - skills
+        - agents
+        - tools
+        - personalities
+        - identities
+        - other
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Title (optional)
+      placeholder: "Awesome Skill"
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-line summary (optional)
+      placeholder: "What it enables for agents, in one line."
+    validations:
+      required: false
+
+  - type: textarea
+    id: tags
+    attributes:
+      label: Tags (optional)
+      description: Bullet list of tags. Include at least one category tag if you know it (e.g. category-browser-automation).
+      placeholder: |
+        - category-browser-automation
+        - web-fetch
+        - indexing
+    validations:
+      required: false
+
+  - type: input
+    id: license
+    attributes:
+      label: License (optional but helpful)
+      placeholder: MIT / Apache-2.0 / CC0-1.0 / ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be indexed?
+      description: What makes this agent-consumable and high-signal?
+      placeholder: "Clear triggers, stable entrypoint, actionable steps for agents."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Requirements
+      options:
+        - label: The entrypoint is plain Markdown (no JS-only rendering, no auth).
+          required: true
+        - label: The URL is stable and fetchable by bots.
+          required: true
+        - label: The entrypoint is a clear starting point (SKILL.md / AGENT.md / INDEX.md).
+          required: true
+        - label: This is not an SEO link farm or scraped repost dump.
+          required: true
