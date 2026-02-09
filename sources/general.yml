@@ -108,6 +108,15 @@
   slug: agentskills-skill
   source_url: https://agentskills.io/skill.md
 - type: skills
+  slug: agents-md-readme
+  source_url: https://raw.githubusercontent.com/agentsmd/agents.md/main/README.md
+  title: AGENTS.md
+  summary: AGENTS.md is a simple, open format for guiding coding agents. Think of it as a README for agents.
+  tags:
+    - agents-md
+    - category-coding-agents-ides
+  upstream_ref: https://agents.md/
+- type: skills
   slug: mintlify-skill
   source_url: https://www.mintlify.com/docs/skill.md
 - type: skills
