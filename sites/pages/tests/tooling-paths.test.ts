@@ -28,7 +28,8 @@ describe("pages tooling paths", () => {
     expect(text.includes("DATA_ROOT")).toBe(true);
     expect(text.includes("HEAD.md")).toBe(true);
     expect(text.includes("BODY.md")).toBe(true);
-    expect(text.includes('dirent.name !== "category"')).toBe(true);
+    expect(text.includes("RESERVED_DATA_DIRS")).toBe(true);
+    expect(text.includes("!RESERVED_DATA_DIRS.has(dirent.name)")).toBe(true);
   });
 
   test("ingest writes to sources and data reports", async () => {
