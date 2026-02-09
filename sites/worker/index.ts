@@ -265,6 +265,10 @@ export default {
       object.writeHttpMetadata(headers);
     }
     headers.set("content-type", "text/markdown; charset=utf-8");
+    if (key.startsWith("data/reports/")) {
+      // Allow crawling (robots.txt allows all), but keep build reports out of indexes.
+      headers.set("x-robots-tag", "noindex");
+    }
     setVaryUserAgent(headers);
     return new Response(object.body, { status: 200, headers });
   },
