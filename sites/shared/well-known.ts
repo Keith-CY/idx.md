@@ -1,12 +1,16 @@
 import { normalizeOrigin } from "./url";
 
-export function buildRobotsTxt(origin: string): string {
+export function buildRobotsTxt(
+  origin: string,
+  opts?: { includeSitemap?: boolean },
+): string {
   const base = normalizeOrigin(origin);
+  const includeSitemap = opts?.includeSitemap !== false;
   return [
     "User-agent: *",
     "Allow: /",
     "Disallow: /data/reports/",
-    `Sitemap: ${base}/sitemap.xml`,
+    ...(includeSitemap ? [`Sitemap: ${base}/sitemap.xml`] : []),
     "",
   ].join("\n");
 }

@@ -71,6 +71,18 @@ async function serveFromR2(params: {
   return new Response(object.body, { status: 200, headers });
 }
 
+async function r2KeyExists(bucket: R2Bucket, key: string): Promise<boolean> {
+  try {
+    const maybeBucket = bucket as unknown as { head?: (key: string) => Promise<unknown> };
+    if (typeof maybeBucket.head === "function") {
+      return Boolean(await maybeBucket.head(key));
+    }
+    return Boolean(await bucket.get(key));
+  } catch {
+    return false;
+  }
+}
+
 function serveText(params: {
   body: string;
   contentType: string;
@@ -175,6 +187,17 @@ export default {
     }
 
     if (url.pathname === "/robots.txt") {
+      const sitemapExists = await r2KeyExists(env.IDX_MD, "data/sitemap.xml");
+      if (!sitemapExists) {
+        // If sitemap.xml isn't in R2 yet, serve a minimal robots.txt without the sitemap hint.
+        // This prevents advertising a URL that we know will 404, and avoids serving stale robots.txt.
+        return serveText({
+          body: buildRobotsTxt(url.origin, { includeSitemap: false }),
+          contentType: "text/plain; charset=utf-8",
+          cacheControl: "public, max-age=60",
+        });
+      }
+
       return serveWellKnownText({
         bucket: env.IDX_MD,
         key: "data/robots.txt",
