@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/wolffan/security-check-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:30.943Z
+retrieved_at: 2026-02-09T06:24:14.733Z
 content_sha256: 8f92b5043527447c40b089454ab24437ef84e706827fd70abca41f503bf98e0a
 ---

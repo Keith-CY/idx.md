@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/truefoobar/easyverein-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:35.115Z
+retrieved_at: 2026-02-09T06:22:55.589Z
 content_sha256: a9d09aa99f1e07783a5e3906d1d07e4844cf60efb6090cc37b47f555024c63b5
 ---

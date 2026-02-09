@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/notebooklm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:07.666Z
+retrieved_at: 2026-02-09T06:23:45.829Z
 content_sha256: 2ca732508a27c256640bbc23f27e64b1ebeeac54fd5573f1f4044e5940aaf80f
 ---

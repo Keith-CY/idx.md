@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegdsks/glin-profanity-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:43.730Z
+retrieved_at: 2026-02-09T06:23:11.040Z
 content_sha256: e28613dacda90d3d5f8ab90acc1042320d33ff83aeb20748a012cf0769d97f10
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/excel-weekly-dashboard/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:37.058Z
+retrieved_at: 2026-02-09T06:22:58.921Z
 content_sha256: 968edc39e349f48fb3365b58172f954c18182e415c2580e0e52c5e25044f3c66
 ---

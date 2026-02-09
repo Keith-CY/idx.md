@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/onboarding-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/onboarding-cro
-retrieved_at: 2026-02-09T05:30:53.709Z
+retrieved_at: 2026-02-09T06:21:57.744Z
 content_sha256: 63c24ced8a8bd8d2ca7c9d9eb426d034e2f9235ae1c34c89aa1cd3344b9a1379
 ---

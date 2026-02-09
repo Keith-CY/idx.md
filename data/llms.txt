@@ -1,0 +1,12 @@
+idx.md
+
+Agent-first markdown library. Browse the index, then fetch HEAD/BODY per topic.
+
+Start: https://idx.md/SKILL.md
+Index: https://idx.md/data/index.md
+By capability: https://idx.md/category/index.md
+
+HEAD: https://idx.md/{topic} (alias of /data/{topic}/HEAD.md)
+BODY: https://idx.md/{topic}/BODY.md
+
+Sitemap: https://idx.md/sitemap.xml

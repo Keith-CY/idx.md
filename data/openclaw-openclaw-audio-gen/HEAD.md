@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/audio-gen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:14.200Z
+retrieved_at: 2026-02-09T06:22:23.688Z
 content_sha256: e21cd0608d8f899cc46e70db1fce3d794d0f0564f433007d4189fd9de2bb7899
 ---

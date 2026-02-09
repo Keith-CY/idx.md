@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /data/reports/
+Sitemap: https://idx.md/sitemap.xml

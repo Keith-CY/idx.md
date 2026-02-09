@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/mole-mac-cleanup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:00.225Z
+retrieved_at: 2026-02-09T06:23:37.009Z
 content_sha256: 83b78500c5c1253d121e2b236a3cfa2ae730be7e01447257a44a740cdab2256f
 ---

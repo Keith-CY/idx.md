@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manmal/a-nach-b/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:06.381Z
+retrieved_at: 2026-02-09T06:22:13.448Z
 content_sha256: 80f9a9c3d360addc50c93ac4d748aa5517cd02d150596744a0c725048779fcee
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ashutosh887/moodcast/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:02.575Z
+retrieved_at: 2026-02-09T06:23:40.130Z
 content_sha256: 98fb71e1319d52985773b9d3692304c83c7ab958d3e71b3cd5278d7672d6e879
 ---

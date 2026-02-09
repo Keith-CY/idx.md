@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vince-winkintel/sendgrid-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:31.683Z
+retrieved_at: 2026-02-09T06:24:15.679Z
 content_sha256: 99d3cae71174b84c1566beffb4aea0d96c76f68a5d90ad751a862b411d63f98c
 ---

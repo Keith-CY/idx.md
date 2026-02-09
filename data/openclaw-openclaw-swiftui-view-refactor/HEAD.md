@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-view-refactor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:40.817Z
+retrieved_at: 2026-02-09T06:24:27.048Z
 content_sha256: d722d4b9cb4fe61caa979c68975cf932701657077d55279732835c57d5ded9a5
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajstafford/jules-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:51.923Z
+retrieved_at: 2026-02-09T06:23:24.543Z
 content_sha256: 9ececa58e5885a0301ebef2ac2462b0202218adfa22c4d9c0d019c2eaf856cb6
 ---

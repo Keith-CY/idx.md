@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/style-guide/references/tone-consistency.md
 license: ""
 upstream_ref: https://skills.sh/daleseo/korean-skills/style-guide
-retrieved_at: 2026-02-09T05:31:03.571Z
+retrieved_at: 2026-02-09T06:22:09.862Z
 content_sha256: 861f5c44416b36609e36659de6a86c26af681f73ec3e2b89965039d09e0cd2d1
 ---

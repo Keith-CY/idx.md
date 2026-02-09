@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emredoganer/basecamp-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:16.187Z
+retrieved_at: 2026-02-09T06:22:26.259Z
 content_sha256: ae0ffab38354440db5ec03591d27ba0eac79f388309bf7ffee2ad065258d07c4
 ---

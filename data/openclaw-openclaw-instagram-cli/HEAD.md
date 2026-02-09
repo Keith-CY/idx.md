@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/instagram-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:49.163Z
+retrieved_at: 2026-02-09T06:23:20.935Z
 content_sha256: 017b47e308fa16885a1b2952d3ae935a99e969473bdb683c76a15a41caf1fde4
 ---

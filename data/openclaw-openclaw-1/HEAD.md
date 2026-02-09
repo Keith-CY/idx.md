@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nastrology/1/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:06.024Z
+retrieved_at: 2026-02-09T06:22:12.992Z
 content_sha256: ed52008bab2fa80d01b6ae22f1db3f9d4ee19d53833e6bec52056c574cdf4620
 ---
