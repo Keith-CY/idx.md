@@ -175,6 +175,24 @@ describe("worker fetch", () => {
     expect(body).toContain("<urlset");
   });
 
+  test("returns 404 for sitemap.xml when not in R2", async () => {
+    const env = {
+      IDX_MD: {
+        get: async () => null,
+      },
+    } as any;
+
+    const response = await worker.fetch(new Request("https://idx.md/sitemap.xml"), env);
+
+    expect(response.status).toBe(404);
+    expect(response.headers.get("content-type")).toBe(
+      "text/plain; charset=utf-8",
+    );
+    expect(response.headers.get("vary")).toBe("User-Agent");
+    const body = await response.text();
+    expect(body).toBe("Not Found");
+  });
+
   test("returns markdown 404 when missing", async () => {
     const env = {
       IDX_MD: {

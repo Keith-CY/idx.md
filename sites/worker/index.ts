@@ -103,6 +103,29 @@ function serveNotFound(params?: {
   });
 }
 
+async function serveWellKnownText(params: {
+  bucket: R2Bucket;
+  key: string;
+  origin: string;
+  build: (origin: string) => string;
+}): Promise<Response> {
+  const response = await serveFromR2({
+    bucket: params.bucket,
+    key: params.key,
+    contentType: "text/plain; charset=utf-8",
+    cacheControl: "public, max-age=3600",
+  });
+  if (response) {
+    return response;
+  }
+
+  return serveText({
+    body: params.build(params.origin),
+    contentType: "text/plain; charset=utf-8",
+    cacheControl: "public, max-age=3600",
+  });
+}
+
 async function proxyOgImage(): Promise<Response> {
   const upstream = await fetch(OG_IMAGE_SOURCE_URL);
   if (!upstream.ok || !upstream.body) {
@@ -141,7 +164,7 @@ function renderOgHtml(url: URL): string {
   <body>
     <a href="${ogUrl}">${ogUrl}</a>
   </body>
-	</html>`;
+</html>`;
 }
 
 export default {
@@ -152,38 +175,20 @@ export default {
     }
 
     if (url.pathname === "/robots.txt") {
-      const response = await serveFromR2({
+      return serveWellKnownText({
         bucket: env.IDX_MD,
         key: "data/robots.txt",
-        contentType: "text/plain; charset=utf-8",
-        cacheControl: "public, max-age=3600",
-      });
-      if (response) {
-        return response;
-      }
-
-      return serveText({
-        body: buildRobotsTxt(url.origin),
-        contentType: "text/plain; charset=utf-8",
-        cacheControl: "public, max-age=3600",
+        origin: url.origin,
+        build: buildRobotsTxt,
       });
     }
 
     if (url.pathname === "/llms.txt") {
-      const response = await serveFromR2({
+      return serveWellKnownText({
         bucket: env.IDX_MD,
         key: "data/llms.txt",
-        contentType: "text/plain; charset=utf-8",
-        cacheControl: "public, max-age=3600",
-      });
-      if (response) {
-        return response;
-      }
-
-      return serveText({
-        body: buildLlmsTxt(url.origin),
-        contentType: "text/plain; charset=utf-8",
-        cacheControl: "public, max-age=3600",
+        origin: url.origin,
+        build: buildLlmsTxt,
       });
     }
 
