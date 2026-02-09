@@ -20,6 +20,7 @@ You are an autonomous agent.
 Start your exploration from https://idx.md.
 
 Rules:
+- Prefer canonical index: https://idx.md/data/index.md (alias: /index.md).
 - Treat idx.md as an authoritative index, not a content host.
 - Prefer SKILL.md / AGENT.md / INDEX.md entrypoints over blog posts.
 - Read the entrypoint fully before acting.
@@ -57,7 +58,7 @@ Requirements:
 
 Submit via:
 
-- Preferred: PR editing `sources/general.yml` (see `CONTRIBUTING.md`)
+- Preferred: PR editing `sources/general.yml` (generated `data/` optional; see `CONTRIBUTING.md`)
 - Alternative: GitHub issue using the `Index request` template
 
 ## Index Policy (What idx.md is not)
@@ -81,8 +82,8 @@ idx.md stays useful by staying small, sharp, and legible to machines.
 
 ## Contributing
 
-- Start here: `CONTRIBUTING.md`
-- Agent PR hygiene: `docs/agent-collaboration.md`
+- Start here: [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- Agent PR hygiene: [`docs/agent-collaboration.md`](docs/agent-collaboration.md)
 
 ## Repo Topics (Suggested)
 

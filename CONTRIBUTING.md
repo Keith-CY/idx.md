@@ -40,7 +40,7 @@ If you cannot run the build locally, it is still fine to open a PR with only `so
   title: Awesome Skill (optional)
   summary: One-line summary (optional)
   tags:
-    - category-<slug>
+    - category-productivity-tasks
   license: MIT (optional)
   upstream_ref: https://github.com/acme/awesome-skill/blob/main/SKILL.md (optional)
 ```
@@ -64,5 +64,5 @@ Include a stable entrypoint URL and why it is valuable for agents.
 
 If a coding agent is creating the PR, follow:
 
-- `docs/agent-collaboration.md`
+- [`docs/agent-collaboration.md`](docs/agent-collaboration.md)
 
