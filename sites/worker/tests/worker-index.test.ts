@@ -128,7 +128,8 @@ describe("worker fetch", () => {
     );
     const body = await response.text();
     expect(body).toContain("User-agent: *");
-    expect(body).toContain("Disallow: /data/reports/");
+    expect(body).toContain("Allow: /");
+    expect(body).not.toContain("Disallow:");
     expect(body).not.toContain("Sitemap:");
   });
 
