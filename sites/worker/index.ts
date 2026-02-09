@@ -1,4 +1,5 @@
 import { toR2Key } from "./lib/paths";
+import { buildLlmsTxt, buildRobotsTxt } from "../shared/well-known";
 
 type Env = {
   IDX_MD: R2Bucket;
@@ -45,6 +46,63 @@ function setVaryUserAgent(headers: Headers): Headers {
   return headers;
 }
 
+async function serveFromR2(params: {
+  bucket: R2Bucket;
+  key: string;
+  contentType: string;
+  cacheControl: string;
+}): Promise<Response | null> {
+  const object = await params.bucket.get(params.key);
+  if (!object) {
+    return null;
+  }
+
+  const headers = new Headers();
+  if (typeof object.writeHttpMetadata === "function") {
+    object.writeHttpMetadata(headers);
+  }
+
+  headers.set("content-type", params.contentType);
+  if (!headers.has("cache-control")) {
+    headers.set("cache-control", params.cacheControl);
+  }
+  setVaryUserAgent(headers);
+
+  return new Response(object.body, { status: 200, headers });
+}
+
+function serveText(params: {
+  body: string;
+  contentType: string;
+  cacheControl: string;
+}): Response {
+  return new Response(params.body, {
+    status: 200,
+    headers: setVaryUserAgent(
+      new Headers({
+        "content-type": params.contentType,
+        "cache-control": params.cacheControl,
+      }),
+    ),
+  });
+}
+
+function serveNotFound(params?: {
+  body?: string;
+  contentType?: string;
+  cacheControl?: string;
+}): Response {
+  return new Response(params?.body ?? "Not Found", {
+    status: 404,
+    headers: setVaryUserAgent(
+      new Headers({
+        "content-type": params?.contentType ?? "text/plain; charset=utf-8",
+        "cache-control": params?.cacheControl ?? "public, max-age=60",
+      }),
+    ),
+  });
+}
+
 async function proxyOgImage(): Promise<Response> {
   const upstream = await fetch(OG_IMAGE_SOURCE_URL);
   if (!upstream.ok || !upstream.body) {
@@ -83,39 +141,7 @@ function renderOgHtml(url: URL): string {
   <body>
     <a href="${ogUrl}">${ogUrl}</a>
   </body>
-</html>`;
-}
-
-function renderRobotsTxt(url: URL): string {
-  const origin = url.origin;
-  return [
-    "User-agent: *",
-    "Allow: /",
-    "Disallow: /data/reports/",
-    `Sitemap: ${origin}/sitemap.xml`,
-    "",
-  ].join("\n");
-}
-
-function renderLlmsTxt(url: URL): string {
-  const origin = url.origin;
-  return [
-    "idx.md",
-    "",
-    "Agent-first markdown library. Browse the index, then fetch HEAD/BODY per topic.",
-    "",
-    `Start: ${origin}/SKILL.md`,
-    `Index: ${origin}/data/index.md`,
-    `By capability: ${origin}/category/index.md`,
-    `By scenario: ${origin}/scenario/index.md`,
-    `By industry: ${origin}/industry/index.md`,
-    "",
-    `HEAD: ${origin}/{topic} (alias of /data/{topic}/HEAD.md)`,
-    `BODY: ${origin}/{topic}/BODY.md`,
-    "",
-    `Sitemap: ${origin}/sitemap.xml`,
-    "",
-  ].join("\n");
+	</html>`;
 }
 
 export default {
@@ -126,79 +152,57 @@ export default {
     }
 
     if (url.pathname === "/robots.txt") {
-      const object = await env.IDX_MD.get("data/robots.txt");
-      if (object) {
-        const headers = new Headers();
-        if (typeof object.writeHttpMetadata === "function") {
-          object.writeHttpMetadata(headers);
-        }
-        headers.set("content-type", "text/plain; charset=utf-8");
-        if (!headers.has("cache-control")) {
-          headers.set("cache-control", "public, max-age=3600");
-        }
-        setVaryUserAgent(headers);
-        return new Response(object.body, { status: 200, headers });
+      const response = await serveFromR2({
+        bucket: env.IDX_MD,
+        key: "data/robots.txt",
+        contentType: "text/plain; charset=utf-8",
+        cacheControl: "public, max-age=3600",
+      });
+      if (response) {
+        return response;
       }
 
-      return new Response(renderRobotsTxt(url), {
-        status: 200,
-        headers: setVaryUserAgent(
-          new Headers({
-            "content-type": "text/plain; charset=utf-8",
-            "cache-control": "public, max-age=3600",
-          }),
-        ),
+      return serveText({
+        body: buildRobotsTxt(url.origin),
+        contentType: "text/plain; charset=utf-8",
+        cacheControl: "public, max-age=3600",
       });
     }
 
     if (url.pathname === "/llms.txt") {
-      const object = await env.IDX_MD.get("data/llms.txt");
-      if (object) {
-        const headers = new Headers();
-        if (typeof object.writeHttpMetadata === "function") {
-          object.writeHttpMetadata(headers);
-        }
-        headers.set("content-type", "text/plain; charset=utf-8");
-        if (!headers.has("cache-control")) {
-          headers.set("cache-control", "public, max-age=3600");
-        }
-        setVaryUserAgent(headers);
-        return new Response(object.body, { status: 200, headers });
+      const response = await serveFromR2({
+        bucket: env.IDX_MD,
+        key: "data/llms.txt",
+        contentType: "text/plain; charset=utf-8",
+        cacheControl: "public, max-age=3600",
+      });
+      if (response) {
+        return response;
       }
 
-      return new Response(renderLlmsTxt(url), {
-        status: 200,
-        headers: setVaryUserAgent(
-          new Headers({
-            "content-type": "text/plain; charset=utf-8",
-            "cache-control": "public, max-age=3600",
-          }),
-        ),
+      return serveText({
+        body: buildLlmsTxt(url.origin),
+        contentType: "text/plain; charset=utf-8",
+        cacheControl: "public, max-age=3600",
       });
     }
 
     if (url.pathname === "/sitemap.xml") {
-      const object = await env.IDX_MD.get("data/sitemap.xml");
-      if (!object) {
-        return new Response("Not Found", {
-          status: 404,
-          headers: {
-            "content-type": "text/plain; charset=utf-8",
-            "cache-control": "public, max-age=60",
-          },
-        });
+      const response = await serveFromR2({
+        bucket: env.IDX_MD,
+        key: "data/sitemap.xml",
+        contentType: "application/xml; charset=utf-8",
+        cacheControl: "public, max-age=3600",
+      });
+      if (response) {
+        return response;
       }
 
-      const headers = new Headers();
-      if (typeof object.writeHttpMetadata === "function") {
-        object.writeHttpMetadata(headers);
-      }
-      headers.set("content-type", "application/xml; charset=utf-8");
-      if (!headers.has("cache-control")) {
-        headers.set("cache-control", "public, max-age=3600");
-      }
-      setVaryUserAgent(headers);
-      return new Response(object.body, { status: 200, headers });
+      return serveNotFound({
+        body: "Not Found",
+        contentType: "text/plain; charset=utf-8",
+        cacheControl: "public, max-age=60",
+      });
     }
 
     if (shouldServeOg(url, request.headers.get("user-agent"))) {

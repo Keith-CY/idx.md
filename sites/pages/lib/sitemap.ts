@@ -1,7 +1,4 @@
-function normalizeOrigin(origin: string): string {
-  const trimmed = origin.trim();
-  return trimmed.replace(/\/+$/, "");
-}
+import { normalizeOrigin } from "../../shared/url";
 
 function normalizePath(path: string): string {
   const trimmed = path.trim();
@@ -46,4 +43,3 @@ export function buildSitemapXml(params: {
 
   return lines.join("\n");
 }
-

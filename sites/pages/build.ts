@@ -21,6 +21,7 @@ import {
   topicDir,
 } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
+import { SITE_ORIGIN } from "./lib/site-config";
 
 const result = await loadSources();
 
@@ -31,7 +32,6 @@ const TEXT_DECODER = new TextDecoder("utf-8");
 const SKILL_SOURCE_PATH = resolve(repoRoot, "SKILL.md");
 const SKILL_TARGET_PATH = resolve(DATA_ROOT, "SKILL.md");
 
-const SITE_ORIGIN = "https://idx.md";
 const SITEMAP_PATH = resolve(DATA_ROOT, "sitemap.xml");
 const LLMS_TXT_PATH = resolve(DATA_ROOT, "llms.txt");
 const ROBOTS_TXT_PATH = resolve(DATA_ROOT, "robots.txt");
