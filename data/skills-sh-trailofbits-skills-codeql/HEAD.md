@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/codeql
-retrieved_at: 2026-02-08T16:40:14.743Z
+retrieved_at: 2026-02-09T05:37:20.259Z
 content_sha256: a2b6485dd56aa71ae8c9ef6c06143edac4949e41c711eaf81d2c3d06320be2ca
 ---

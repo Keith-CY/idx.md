@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/charger/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:39.394Z
+retrieved_at: 2026-02-09T05:37:50.872Z
 content_sha256: 31a2f49da28714c14540343d6b85c1c98b025037a12120a6ac19ea0022bc40fe
 ---

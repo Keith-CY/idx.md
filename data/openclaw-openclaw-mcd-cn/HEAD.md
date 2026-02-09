@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanchen01/mcd-cn/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:24.800Z
+retrieved_at: 2026-02-09T05:38:45.679Z
 content_sha256: 3190444d54328d53f5db39a9315977afb0661763647dafaebef62bdf1a9270d2
 ---

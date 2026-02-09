@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gtrusler/clawdbot-filesystem/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:42.338Z
+retrieved_at: 2026-02-09T05:37:53.929Z
 content_sha256: c36367f5492e8eec4c6e0d4a977a714786f72611f8d8ddd693aa0eaef2b07149
 ---

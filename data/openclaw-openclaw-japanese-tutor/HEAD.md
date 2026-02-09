@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chndranndr/japanese-tutor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:16.610Z
+retrieved_at: 2026-02-09T05:38:36.613Z
 content_sha256: c16052754c14eb63f03634adc2ac2549e06d1d752f3d0806919a18eeb0156d46
 ---

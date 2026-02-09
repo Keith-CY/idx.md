@@ -20,6 +20,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:30.789Z
+retrieved_at: 2026-02-09T05:37:39.866Z
 content_sha256: f442eb922f8c792b051668e540814dd01340e9e0e6d26d197b6a62a1cceb5856
 ---

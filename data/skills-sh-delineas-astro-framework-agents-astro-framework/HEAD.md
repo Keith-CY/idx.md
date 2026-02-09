@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/delineas/astro-framework-agents/HEAD/skills/astro-framework/references/components.md
 license: ""
 upstream_ref: https://skills.sh/delineas/astro-framework-agents/astro-framework
-retrieved_at: 2026-02-08T16:40:19.741Z
+retrieved_at: 2026-02-09T05:37:25.023Z
 content_sha256: caab3735ec58990967f419a370f52a92dae52de84b660ecd92b807fe6003c828
 ---

@@ -29,6 +29,6 @@ tags: []
 source_url: https://pinchboard.up.railway.app/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:39.913Z
+retrieved_at: 2026-02-09T05:39:58.508Z
 content_sha256: 485db7c6fe19be083bde01ced7027103de7df5fac74a8c2c486a94685569005e
 ---

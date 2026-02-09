@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dgriffin831/input-guard/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:14.790Z
+retrieved_at: 2026-02-09T05:38:34.708Z
 content_sha256: 178cfbe54723b7383bf4dbd05741f91a8853e873bb7b1f42fb487fa17480f5d6
 ---

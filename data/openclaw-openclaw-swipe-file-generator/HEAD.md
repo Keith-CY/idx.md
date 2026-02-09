@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/swipe-file-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:10.705Z
+retrieved_at: 2026-02-09T05:39:34.679Z
 content_sha256: 0c6c652a2e6b99ce12bf862795d00e57fe66c9d9a629f24d6d4ff37e4764bd7a
 ---

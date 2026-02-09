@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/relay-to-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:53.290Z
+retrieved_at: 2026-02-09T05:39:20.450Z
 content_sha256: f3970e95903e9ac96ca131fc52848fd37cd01fb9f5bd77cc94e451910095d60b
 ---

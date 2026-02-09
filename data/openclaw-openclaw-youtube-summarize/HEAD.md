@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-summarize/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:50.697Z
+retrieved_at: 2026-02-09T05:40:01.402Z
 content_sha256: 207eeaaed4028aa084d41b9f73b73325c7926c22397db7b94b16d345dad9d1d3
 ---

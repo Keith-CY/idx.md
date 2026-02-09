@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cpojer/orf/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:39.067Z
+retrieved_at: 2026-02-09T05:39:04.279Z
 content_sha256: 1ec3b78097b4c808b372958b4b952d280e7af3211beb9683139cf07ad30fd030
 ---

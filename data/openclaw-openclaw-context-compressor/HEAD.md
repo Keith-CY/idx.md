@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maddiedreese/context-compressor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:48.156Z
+retrieved_at: 2026-02-09T05:38:02.233Z
 content_sha256: 364315e053909959edffc9499ccb9e58600432578e0b4df27ef274b800c694de
 ---

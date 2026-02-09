@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rqrqrqrq/research-idea/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:54.467Z
+retrieved_at: 2026-02-09T05:39:21.469Z
 content_sha256: ffba38a2d207a5c61a7d2eb63576f6d0b097440123e1c13d7f28e5ec00c22efe
 ---

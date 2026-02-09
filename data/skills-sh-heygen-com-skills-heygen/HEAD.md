@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/heygen-com/skills/HEAD/skills/heygen/references/prompt-optimizer.md
 license: ""
 upstream_ref: https://skills.sh/heygen-com/skills/heygen
-retrieved_at: 2026-02-08T16:40:19.451Z
+retrieved_at: 2026-02-09T05:37:25.468Z
 content_sha256: 8207fbff1464e6b1c06f389617c56d754b91daa119d56cc9ba7865c2f89ee336
 ---

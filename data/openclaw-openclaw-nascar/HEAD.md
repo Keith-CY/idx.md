@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmp343-art/nascar/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:32.770Z
+retrieved_at: 2026-02-09T05:38:55.802Z
 content_sha256: 2f3247f530d07913dd65fe9d0d8f225cd7e52a95b044c9bce572767b32655c7b
 ---

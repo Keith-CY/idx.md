@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maddiedreese/substack-formatter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:08.885Z
+retrieved_at: 2026-02-09T05:39:33.292Z
 content_sha256: cba8c378142cb891aa4f59ddaf0e6b8d9f1f865f7abda701f028d7f20063f4cd
 ---

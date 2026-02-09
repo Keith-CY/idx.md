@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/charmmm718/backend-patterns/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:32.478Z
+retrieved_at: 2026-02-09T05:37:42.250Z
 content_sha256: e418ddceb5111238a91d9c78f249e34ee1ea87079711d045ad406836f96bab48
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emrekilinc/linear-issues/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:21.512Z
+retrieved_at: 2026-02-09T05:38:42.127Z
 content_sha256: 13b24a5e65222985557a4ee570b5b8ef8e8bd0dbf19692a3eb2718669df4044e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dimillian/macos-spm-app-packaging/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:23.533Z
+retrieved_at: 2026-02-09T05:38:44.340Z
 content_sha256: 9339debc3d729a84c8d6e64384c6546a1e430516bda21b690cb763376a95370a
 ---

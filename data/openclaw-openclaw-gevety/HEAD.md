@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/moclippa/gevety/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:03.864Z
+retrieved_at: 2026-02-09T05:38:23.428Z
 content_sha256: 47c4cca2efe83be9a8e04d63a90cfe4feda6fac0747990904f2bfaeee7b64309
 ---

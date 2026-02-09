@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/jungian-psychologist/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:18.286Z
+retrieved_at: 2026-02-09T05:38:38.510Z
 content_sha256: 0f3bf6544845e990ad2d9053d46d83bed0c085f40ba04458bba91216924e6126
 ---

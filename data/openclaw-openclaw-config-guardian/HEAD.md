@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abdhilabs/config-guardian/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:47.352Z
+retrieved_at: 2026-02-09T05:38:01.056Z
 content_sha256: bb99ad85cc35f7004b85d3c1142975c3781bd4ff32a9da8a3facef5ae3faca47
 ---

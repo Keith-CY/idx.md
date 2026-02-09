@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/coding-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:46.472Z
+retrieved_at: 2026-02-09T05:37:59.627Z
 content_sha256: d85cd576c6818d0d3c9f0de9844463f77a0fe264979c6d874d159762503936f3
 ---

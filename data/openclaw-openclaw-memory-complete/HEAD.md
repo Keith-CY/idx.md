@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rosepuppy/memory-complete/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:25.936Z
+retrieved_at: 2026-02-09T05:38:47.096Z
 content_sha256: 2726c892d9de473e62ef01b60e958c9cf67aa470b1b6d5b9909b557661ac167e
 ---

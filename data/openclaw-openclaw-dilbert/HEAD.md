@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hjanuschka/dilbert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:52.666Z
+retrieved_at: 2026-02-09T05:38:08.603Z
 content_sha256: 7ff841ed46a2d558edcf1cd62615f90410aedec91afd5ff77327051c4d4617b7
 ---

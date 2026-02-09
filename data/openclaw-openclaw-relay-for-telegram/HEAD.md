@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/relayintel/relay-for-telegram/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:53.216Z
+retrieved_at: 2026-02-09T05:39:20.382Z
 content_sha256: fe1927a43f3c5076f03b3aa6e3d72b9adebc7dadf0260d1cf273aa6c13c564b8
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/terwox/zotero/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:37.301Z
+retrieved_at: 2026-02-09T05:39:55.671Z
 content_sha256: 0a3d89333753d60f9ab8ebb9e2eeca927d52523334cf634dee17810dc2056650
 ---

@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/audit-support/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/audit-support/SKILL.md
-retrieved_at: 2026-02-08T16:42:53.691Z
+retrieved_at: 2026-02-09T05:40:04.209Z
 content_sha256: 4592b5d4153a707e7ac4abdc3485a08b02a6052a8952e748d27c7e7acd962d2e
 ---

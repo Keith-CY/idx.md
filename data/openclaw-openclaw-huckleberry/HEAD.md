@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jayhickey/huckleberry/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:11.764Z
+retrieved_at: 2026-02-09T05:38:32.051Z
 content_sha256: b4373a94338c032b0aef33729e65e6d2d161b9099e943ffc7a51c5317cfb042a
 ---

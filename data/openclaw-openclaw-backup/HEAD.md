@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/backup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:32.544Z
+retrieved_at: 2026-02-09T05:37:42.342Z
 content_sha256: 09a57452062d6b6e718b5423d55763ac7ae47fa9a92fa5ac7c1d44d3676d1781
 ---

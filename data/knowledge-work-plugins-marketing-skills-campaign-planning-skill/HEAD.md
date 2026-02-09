@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/campaign-planning/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-planning/SKILL.md
-retrieved_at: 2026-02-08T16:42:54.575Z
+retrieved_at: 2026-02-09T05:40:05.451Z
 content_sha256: bd42e411831e2f1ea968d697d3765dcbc538787a7e866fb22337fedc067bc382
 ---

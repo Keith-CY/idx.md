@@ -6,7 +6,7 @@ metadata: {"clawdbot":{"emoji":"🎬","requires":{"bins":["curl"]}}}
 
 # VAP Media - AI Media Generation & Editing
 
-Generate images, videos, and music. Edit with inpaint, upscale, background removal, video trim/merge.
+Generate images, videos, and music. Edit with inpaint, ai_edit, upscale, background removal, video trim/merge.
 
 ## Mode Selection
 
@@ -150,6 +150,7 @@ curl -s https://api.vapagent.com/v3/operations/OPERATION_ID \
 | Operation | Cost | Required Params | Description |
 |-----------|------|-----------------|-------------|
 | `inpaint` | $0.15 | `media_url`, `prompt` | AI editing (optional: `mask_url`) |
+| `ai_edit` | $0.15 | `media_url`, `prompt` | AI-powered image editing with text instructions (optional: `additional_images`) |
 | `background_remove` | $0.10 | `media_url` | Remove background |
 | `upscale` | $0.15 | `media_url` | Enhance resolution (`scale`: 2 or 4) |
 | `video_trim` | $0.05 | `media_url`, `start_time`, `end_time` | Trim video |
@@ -174,7 +175,7 @@ When a user asks to create/generate/make an image, video, or music:
 
 When a user asks to edit/enhance/modify an existing image or video:
 
-1. **Identify the operation** — inpaint, upscale, background remove, trim, merge
+1. **Identify the operation** — inpaint, ai_edit, upscale, background remove, trim, merge
 2. **Get the media URL** — From a previous generation or user-provided URL
 3. **Submit operation** → `/v3/operations`
 4. **Poll for result** — Return the output URL

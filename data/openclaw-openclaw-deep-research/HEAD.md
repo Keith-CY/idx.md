@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/deep-research/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:51.402Z
+retrieved_at: 2026-02-09T05:38:06.778Z
 content_sha256: 766ddc95a55c6318b18d6823cccdc0a020241888a25bcd7e7aa26d7f80a3c45d
 ---

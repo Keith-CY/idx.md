@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openai-whisper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:36.995Z
+retrieved_at: 2026-02-09T05:39:01.653Z
 content_sha256: f9fadf134b6de49d55ffae904b2c75f5b7035f37ffa96394b19de648bdef9e0f
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eypam/pamela-calls/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:40.763Z
+retrieved_at: 2026-02-09T05:39:05.741Z
 content_sha256: 7a05023849be90bae1e43876caad108e99e338597343201ebd4c20abb9aa5b96
 ---

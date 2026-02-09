@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atlas-secint/insecure-defaults/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:14.880Z
+retrieved_at: 2026-02-09T05:38:34.797Z
 content_sha256: 6c6c54ab48dc13f2c4c514953808155433b7fa02752c5364d36a7720b758c6e9
 ---

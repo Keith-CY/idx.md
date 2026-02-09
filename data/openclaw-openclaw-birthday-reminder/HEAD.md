@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manantra/birthday-reminder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:34.060Z
+retrieved_at: 2026-02-09T05:37:44.356Z
 content_sha256: a1b58c58bccd81dc726b5a053c2904fd22a93be0333f821f7ec1f10c43ca7646
 ---

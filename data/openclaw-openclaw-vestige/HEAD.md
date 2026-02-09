@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/belkouche/vestige/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:23.806Z
+retrieved_at: 2026-02-09T05:39:45.142Z
 content_sha256: 7300df1bf6b8c8775a92a279eec2f61502f7de538fb4c9e8556cd3c3db0b8c24
 ---

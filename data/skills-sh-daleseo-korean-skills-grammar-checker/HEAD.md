@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/DaleSeo/korean-skills/HEAD/skills/grammar-checker/references/rules.md
+source_url: https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/grammar-checker/references/rules.md
 license: ""
 upstream_ref: https://skills.sh/daleseo/korean-skills/grammar-checker
-retrieved_at: 2026-02-08T16:40:17.765Z
+retrieved_at: 2026-02-09T05:37:23.449Z
 content_sha256: 71d816b76cf60d873892f3c953d611e6685ee127e71f12c58b005a71fa5db1f6
 ---

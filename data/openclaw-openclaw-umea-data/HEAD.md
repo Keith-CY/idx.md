@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/umea-data/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:21.482Z
+retrieved_at: 2026-02-09T05:39:43.248Z
 content_sha256: c954737a73f0fb8c106cca5373e700b56176efbdabfda35c7433d56d3d145682
 ---

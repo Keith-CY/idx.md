@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-manager-toolkit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:46.857Z
+retrieved_at: 2026-02-09T05:39:13.947Z
 content_sha256: 55940b94f44aaa54c2ab47f6d049ae7a6e56a966ab1c2922a1f9d3922c8ae3b8
 ---

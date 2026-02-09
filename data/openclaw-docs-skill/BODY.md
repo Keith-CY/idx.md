@@ -8,183 +8,248 @@ metadata:
 
 ## Capabilities
 
-OpenClaw enables AI agents to operate autonomously across messaging platforms, execute system commands, automate browser interactions, and coordinate complex multi-agent workflows. Agents can maintain persistent sessions with automatic memory management, access web content, control devices, schedule tasks, and operate in isolated sandboxed environments for security.
+OpenClaw enables agents to operate as always-on personal AI assistants across multiple messaging platforms. Agents can execute complex workflows including browser automation, file operations, system commands, scheduled tasks, and multi-agent coordination. The system provides deterministic tool execution, session persistence, memory management, and security controls through sandboxing and tool policies.
 
 ## Skills
 
-### Messaging & Channel Integration
-- **Multi-channel messaging**: Send and receive messages across WhatsApp, Telegram, Discord, Slack, Google Chat, Mattermost, Signal, iMessage, and MS Teams
-- **Message operations**: Send text/media, create polls, manage reactions, edit/delete messages, pin/unpin, search, create threads
-- **Channel routing**: Route inbound messages to specific agents based on channel, account, peer, guild, or team
-- **Group management**: Support for direct messages, group chats, broadcast groups, and channel-specific routing
-- **Media support**: Send and receive images, audio, documents, and location data across channels
-
-### Agent Execution & Control
-- **Agent loop**: Full agentic loop with intake, context assembly, model inference, tool execution, and streaming replies
-- **System prompt injection**: Custom system prompts assembled per run with tool lists, skills metadata, workspace context, and runtime information
-- **Tool execution**: Access to typed tools including browser, exec, file operations, web search, and more
-- **Streaming output**: Block streaming with configurable chunking (text_end or message_end), respecting channel text limits
-- **Reasoning/thinking**: Extended reasoning with visibility control (/reasoning on|off|stream) and token tracking
+### Messaging & Channels
+- **Multi-channel support**: WhatsApp, Telegram, Discord, Slack, Google Chat, Mattermost, Signal, iMessage, MS Teams, Matrix, Zalo, LINE, Feishu
+- **Message operations**: send (text + media), edit, delete, read, search
+- **Reactions**: send/read emoji reactions (Discord, Slack, Telegram, WhatsApp, Signal)
+- **Polls**: create and manage polls (WhatsApp, Discord, MS Teams)
+- **Threads**: create, list, and reply to message threads
+- **Media**: send/receive images, audio, documents, videos
+- **Channel actions**: pin/unpin messages, manage permissions, member info, role management
+- **Broadcast groups**: send to multiple recipients simultaneously
 
 ### Browser Automation
-- **Browser control**: Start/stop/navigate browser, take snapshots and screenshots, interact with UI elements
-- **UI automation**: Snapshot returns stable UI tree (AI or ARIA), act uses snapshot ref IDs for click/type/drag/select
-- **Profile support**: Named browser profiles (openclaw, chrome, remote CDP)
-- **Headless mode**: Optional headless operation for automation without visible window
-- **Login automation**: Browser-based login flows with session persistence
+- **Browser control**: start/stop/focus/close tabs, navigate to URLs
+- **UI snapshots**: get stable AI or ARIA tree representation of page
+- **Actions**: click, type, drag, select using snapshot references
+- **Screenshots**: capture full page or element screenshots, generate PDFs
+- **Browser profiles**: manage multiple isolated browser profiles (openclaw, work, remote)
+- **Login automation**: handle authentication flows with browser-based login
+- **Multi-target**: run on sandbox, host, or paired nodes
 
-### Web & Information Tools
-- **Web search**: Search via Brave Search API (default) or Perplexity Sonar with real-time results
-- **Web fetch**: HTTP fetch with readable extraction (HTML to markdown/text), Firecrawl integration, response caching
-- **Content extraction**: Readability-based main content extraction with fallback to Firecrawl
+### File Operations
+- **Read**: read file contents with encoding support
+- **Write**: create/overwrite files
+- **Edit**: modify specific lines or ranges
+- **Apply patch**: multi-file changes with structured patch format (add/update/delete)
+- **Workspace isolation**: operations scoped to agent workspace
 
-### File & Workspace Operations
-- **File operations**: read, write, edit files in workspace
-- **Patch application**: apply_patch tool for multi-file/multi-hunk edits with structured patch format
-- **Workspace access**: Configurable read-only or read-write access per agent
-- **Sandbox isolation**: Optional Docker-based sandboxing for tool execution
+### System Execution
+- **Exec tool**: run shell commands with timeout, background execution, TTY support
+- **Process management**: poll, log, write to, kill, or clear background processes
+- **Elevated mode**: run commands on host when sandboxed (with approval gates)
+- **Environment control**: set working directory, environment variables
+- **Bash shortcuts**: use `!` prefix for quick bash commands
 
-### Command Execution
-- **Shell commands**: exec tool for running shell commands with foreground/background execution
-- **Process management**: process tool for managing long-running background tasks
-- **Elevated mode**: /elevated directive to run on host when sandboxed (with approval gates)
-- **Command timeouts**: Configurable command and invoke timeouts
-
-### Session & Memory Management
-- **Session persistence**: JSONL-based session transcripts with metadata tracking
-- **Auto-compaction**: Automatic context window management with silent memory flush before compaction
-- **Manual compaction**: /compact command to manually trigger session compaction
-- **Memory files**: Durable memory storage in workspace (memory/YYYY-MM-DD.md)
-- **Session pruning**: Remove old tool results from in-memory prompt without rewriting transcript
-- **Session reset**: /new or /reset to start fresh sessions
-
-### Multi-Agent Coordination
-- **Sub-agents**: Spawn background agent runs (sessions_spawn) that announce results back to requester
-- **Agent routing**: Multiple isolated agents with separate workspaces, agentDirs, and sessions
-- **Agent send**: Direct messaging between agents (agent_send tool)
-- **Presence tracking**: Monitor agent availability and status
-- **Tool restrictions**: Per-agent tool allow/deny policies and sandbox configuration
+### Web Tools
+- **Web search**: Brave Search API (default) or Perplexity Sonar for AI-synthesized answers
+- **Web fetch**: HTTP requests with HTML-to-markdown extraction
+- **Provider flexibility**: configure custom search providers
 
 ### Scheduling & Automation
-- **Cron jobs**: Gateway-owned scheduler for precise timing, isolated sessions, optional chat delivery
-- **Webhooks**: Inbound webhook support for triggering agent runs
-- **Polling**: Poll external services for changes
-- **Gmail PubSub**: Gmail push notifications for email-triggered automation
-- **Auth monitoring**: Monitor authentication status changes
-- **Heartbeat**: Periodic agent wakeups (alternative to cron for continuous tasks)
+- **Cron jobs**: persistent scheduled tasks with cron expressions (e.g., "0 7 * * *" for 7am daily)
+- **Heartbeat**: periodic checks on main session (configurable intervals)
+- **Webhooks**: HTTP endpoints for external triggers
+- **Hooks**: event-driven automation (session-memory, auth-monitoring, etc.)
+- **Lobster workflows**: deterministic multi-step pipelines with approval gates
+- **Background execution**: long-running tasks with status polling
 
-### Media & Device Integration
-- **Camera access**: Capture images from connected devices
-- **Audio handling**: Record and process audio from nodes
-- **Voice calls**: Voice call plugin with Twilio, Telnyx, or Plivo providers
-- **Voice wake**: Wake agent on voice command from macOS companion app
-- **Location**: Send and receive location data (geo URI format)
-- **Talk mode**: Text-to-speech output with configurable providers (OpenAI, ElevenLabs)
+### Agent Coordination
+- **Sub-agents**: spawn background agent runs from existing sessions
+- **Multi-agent routing**: isolate agents by workspace, sessions, and sender
+- **Agent send**: trigger direct agent runs via CLI or RPC
+- **Session isolation**: per-agent, per-workspace, or per-sender sessions
+- **Tool policies**: per-agent tool restrictions and sandbox configurations
 
-### Model & Provider Management
-- **Multiple providers**: OpenAI, Anthropic, OpenRouter, Bedrock, Vercel AI Gateway, Moonshot, MiniMax, GLM, Qianfan, and custom providers
-- **Model failover**: Configure primary and fallback models per agent
-- **Custom providers**: Add OpenAI/Anthropic-compatible proxies via models.providers
-- **Prompt caching**: Anthropic prompt caching support (API-only)
-- **Token tracking**: Monitor token usage per run with detailed cost breakdown
+### Media & Devices
+- **Canvas**: render UI on paired nodes (present, navigate, snapshot, A2UI)
+- **Camera**: capture photos (jpg) and video clips (mp4) from nodes
+- **Audio**: transcription support with configurable providers
+- **Location**: get GPS coordinates from paired devices
+- **Screen recording**: capture screen from macOS/iOS/Android nodes
+- **Voice wake**: trigger agent from voice on macOS companion app
+
+### Session & Memory Management
+- **Sessions**: persistent conversation state per sender/workspace/agent
+- **Memory search**: vector search over saved session context
+- **Memory persistence**: disk-based memory files with unlimited storage
+- **Session compaction**: automatic context window management
+- **Session pruning**: clean up old sessions
+- **Context assembly**: intelligent context building from history and memory
+
+### Model Configuration
+- **Provider support**: Anthropic, OpenAI, OpenRouter, Bedrock, Vercel AI Gateway, Moonshot, MiniMax, OpenCode, GLM, Z.AI, Qianfan, Venice, Synthetic
+- **Model failover**: automatic fallback between models
+- **Custom providers**: OpenAI-compatible proxies, LiteLLM, local models
+- **Prompt caching**: Anthropic API prompt caching support
+- **Model selection**: per-session model override via `/model` directive
+
+### Thinking & Reasoning
+- **Streaming reasoning**: `/reasoning stream` for real-time model thinking
+- **Verbose mode**: `/verbose on|full|off` for detailed tool/system output
+- **Thinking tool**: explicit reasoning before tool execution
+- **Token tracking**: `/usage` to monitor token consumption
 
 ### Security & Sandboxing
-- **Docker sandboxing**: Optional per-agent Docker isolation (mode: off|non-main|all)
-- **Tool policy**: Global and per-agent tool allow/deny lists
-- **Elevated mode**: Escape hatch for host execution when sandboxed (with approval gates)
-- **Sender allowlists**: Restrict elevated access by sender provider
-- **Workspace access**: Configure per-agent workspace access (none|ro|rw)
-- **Approval gates**: exec approval requests with security levels (deny|allowlist|full)
+- **Docker sandboxing**: optional container isolation for tool execution
+- **Tool policies**: allow/deny lists at global, agent, and provider levels
+- **Tool groups**: shortcuts like `group:fs`, `group:runtime`, `group:ui`
+- **Elevated mode**: host execution with approval gates when sandboxed
+- **Pairing**: secure device pairing for nodes
+- **Allowlists**: sender-based access control per channel
+- **OAuth**: secure authentication flows for channels and providers
 
-### Web Interfaces & Control
-- **Control UI**: Browser-based dashboard for chat, config, sessions, and nodes
-- **Dashboard**: Local gateway dashboard at http://127.0.0.1:18789/
-- **Web chat**: Webchat interface for direct browser interaction
-- **TUI**: Terminal user interface for gateway control
-- **RPC API**: WebSocket-based RPC for programmatic control
+### Slash Commands & Directives
+- **Commands**: `/help`, `/status`, `/agent`, `/session`, `/model`, `/reset`, `/new`
+- **Directives**: `/think`, `/verbose`, `/reasoning`, `/elevated`, `/exec`, `/model`, `/queue`
+- **Custom commands**: plugins can register auto-reply commands
+- **Inline shortcuts**: quick actions within messages (authorized senders only)
 
-### Skills & Extensibility
-- **Skills system**: AgentSkills-compatible skill folders with SKILL.md metadata
-- **Skill loading**: Bundled skills plus optional local overrides, filtered by environment/config
-- **Slash commands**: Custom commands for agent control (/new, /reset, /compact, /reasoning, /elevated, etc.)
-- **Plugins**: Extensible plugin system for custom channels, tools, and RPC methods
-- **ClawHub**: Public skill discovery and sharing platform with versioning and community feedback
+### Skills & Plugins
+- **Skill system**: AgentSkills-compatible skill folders with SKILL.md
+- **ClawHub**: public skill registry with versioning, search, and downloads
+- **Plugin API**: register custom channels, commands, RPC methods, tools
+- **Plugin loading**: from extensions directory or configured paths
+- **Skill filtering**: environment and config-based skill availability
+
+### Gateway & Operations
+- **RPC protocol**: low-level method calls for automation
+- **OpenAI HTTP API**: compatible endpoint for model inference
+- **CLI backends**: local model support via CLI
+- **Health checks**: gateway diagnostics and status
+- **Logging**: structured logging with debug modes
+- **Multiple gateways**: run multiple gateway instances
+- **Remote access**: Tailscale integration for secure remote connections
 
 ## Workflows
 
-### Setting Up a Multi-Channel Agent
-1. Start the Gateway: `openclaw gateway`
-2. Run the onboarding wizard: `openclaw onboard` or access Control UI at http://127.0.0.1:18789/
-3. Add messaging channels: `openclaw channels add --channel telegram --token $TOKEN`
-4. Configure agent model: Set `agents.defaults.model.primary` in config
-5. Test with Control UI webchat or send a message to the configured channel
+### Browser-Based Automation
+1. Start browser with `browser start`
+2. Navigate to target URL with `browser navigate --url <url>`
+3. Get UI snapshot with `browser snapshot` (returns AI or ARIA tree)
+4. Perform actions using snapshot references: `browser act --action click --ref <id>`
+5. Capture verification with `browser screenshot`
+6. Close browser with `browser stop`
 
-### Automating a Scheduled Task
-1. Create a cron job: `openclaw cron add --name "daily-report" --cron "0 9 * * *" --message "Generate report"`
-2. Agent receives the message in a new session
-3. Agent executes tools and generates output
-4. Optionally deliver output back to chat: `--deliver-to channel:123`
-5. Monitor runs: `openclaw cron runs --id <id>`
+### Scheduled Task Execution
+1. Create cron job: `openclaw cron add --name "Daily task" --cron "0 9 * * *" --message "Run analysis"`
+2. Agent receives message at scheduled time
+3. Agent executes task (file operations, API calls, etc.)
+4. Results optionally delivered back to chat
+5. View history: `openclaw cron list --json`
 
-### Browser Automation Workflow
-1. Agent calls `browser snapshot` to get UI tree
-2. Agent calls `browser act` with ref IDs to interact (click, type, drag)
-3. Agent calls `browser screenshot` to capture visual state
-4. Agent calls `browser navigate` to change pages
-5. For logins: use `browser_login` tool for credential-based authentication
+### Multi-Step Workflow with Approvals
+1. Define Lobster workflow file (.lobster) with steps, conditions, and approval gates
+2. Trigger via `lobster run --pipeline <file>`
+3. Each step executes sequentially with output piped to next step
+4. Approval steps pause execution until human approves
+5. Conditional steps execute based on previous results
+6. Final results delivered to specified channel
 
-### Multi-Agent Coordination
-1. Main agent calls `sessions_spawn` with task and optional agentId
-2. Sub-agent runs in isolated session (agent:<agentId>:subagent:<uuid>)
-3. Sub-agent executes tools and completes task
-4. Sub-agent announces result back to requester chat channel
+### Sub-Agent Delegation
+1. Main agent spawns sub-agent: `agent_send --agent <id> --message "Analyze data"`
+2. Sub-agent runs in isolated session with restricted tools
+3. Sub-agent completes task and announces result
+4. Result posted back to original chat channel
 5. Main agent continues with sub-agent output
 
-### Session Compaction & Memory
-1. Session accumulates messages and tool results
-2. When approaching context window, auto-compaction triggers
-3. Silent memory flush turn prompts agent to write durable notes
-4. Agent writes to memory/YYYY-MM-DD.md
-5. Compaction summarizes session and retains recent messages
-6. Agent continues with compacted context
+### Session Memory Workflow
+1. Agent maintains conversation in session
+2. On `/new` command, session context saved to memory via hook
+3. Memory file created with timestamp and slug
+4. Future sessions can search memory: `memory_search --query "previous topic"`
+5. Relevant context pulled back into current session
 
-### Sandboxed Execution
-1. Configure `agents.defaults.sandbox.mode: "non-main"` in config
-2. Non-main sessions run tools in Docker container
-3. Agent can access workspace files (read-only or read-write)
-4. For host access: use `/elevated on` (requires approval)
-5. Tool policy further restricts available tools per agent
+### Multi-Channel Message Distribution
+1. Compose message with `message send --target <id> --message "text"`
+2. Specify channel: `--channel discord|slack|telegram|whatsapp`
+3. Include media: `--media <path>`
+4. For polls: `message poll --poll-question "Q?" --poll-option "A" --poll-option "B"`
+5. Message delivered across specified channel(s)
 
 ## Integration
 
-OpenClaw integrates with:
-- **Messaging platforms**: WhatsApp, Telegram, Discord, Slack, Google Chat, Mattermost, Signal, iMessage, MS Teams
-- **LLM providers**: OpenAI, Anthropic, OpenRouter, Bedrock, Vercel AI Gateway, and custom OpenAI-compatible servers
-- **Voice providers**: Twilio, Telnyx, Plivo for voice calls
-- **TTS providers**: OpenAI, ElevenLabs, Edge TTS for text-to-speech
-- **Web services**: Brave Search, Perplexity Sonar, Firecrawl for web content
-- **Device platforms**: iOS, Android, macOS, Linux, Windows with node pairing
-- **Deployment**: Docker, Nix, Ansible, Fly.io, Hetzner, GCP, Railway, Render, Northflank
+### Messaging Platform Integration
+OpenClaw acts as a bridge between messaging platforms and AI agents. Each channel (WhatsApp, Telegram, Discord, etc.) connects via:
+- **Direct polling**: long-polling for platforms without webhooks
+- **Webhooks**: HTTPS endpoints for real-time delivery (LINE, Slack, Zalo)
+- **OAuth**: secure authentication for platforms requiring user consent
+- **Multi-account**: handle multiple accounts per channel simultaneously
+
+### Model Provider Integration
+Agents connect to LLM providers through:
+- **API keys**: Anthropic, OpenAI, OpenRouter, etc.
+- **OAuth**: OpenAI Code (Codex) subscription
+- **Custom proxies**: OpenAI-compatible endpoints, LiteLLM
+- **Local models**: Ollama and other local inference servers
+- **Failover chains**: automatic fallback between configured models
+
+### External Service Integration
+- **HTTP webhooks**: trigger agent runs from external systems
+- **RPC methods**: programmatic gateway control
+- **CLI automation**: shell scripts calling OpenClaw commands
+- **Browser automation**: interact with web services without APIs
+- **File-based workflows**: Lobster pipelines for deterministic execution
+
+### Node/Device Integration
+- **Pairing**: secure connection to iOS/Android/macOS nodes
+- **Canvas rendering**: UI presentation on mobile devices
+- **Camera access**: photo/video capture from paired devices
+- **Location services**: GPS coordinates from nodes
+- **Voice control**: voice wake and voice calls on macOS
 
 ## Context
 
-**Agent Architecture**: OpenClaw uses a serialized agent loop per session that emits lifecycle and stream events. Each run includes context assembly (tools, skills, workspace, time, runtime metadata), model inference, tool execution, and streaming replies.
+### Session Model
+OpenClaw maintains persistent sessions per sender/workspace/agent combination. Each session tracks:
+- **Transcript**: full conversation history in JSONL format
+- **Context window**: model-specific token limits with compaction
+- **Memory**: searchable long-term storage separate from context
+- **State**: current model, reasoning level, verbose mode, etc.
 
-**Session Model**: Sessions are identified by sessionKey (derived from channel, account, peer, guild, team). Transcripts persist as JSONL files with metadata in sessions.json. Context limits are tracked per model's context window with configurable reserve tokens.
+### Security Model
+Three complementary controls:
+- **Sandbox**: Docker containers isolate tool execution (optional)
+- **Tool policy**: allow/deny lists control which tools are available
+- **Elevated mode**: escape hatch for host execution when sandboxed
 
-**Sandbox Model**: Sandboxing decides where tools run (Docker vs host). Tool policy decides which tools are available. Elevated mode is an exec-only escape hatch for host execution when sandboxed.
+Sender authorization via channel pairing/allowlists prevents unauthorized access.
 
-**Tool Execution**: Tools are typed and first-class (not shelled). Core tools (read/exec/edit/write) are always available, subject to tool policy. Optional tools like apply_patch are controlled by configuration.
+### Tool Execution Model
+Tools run through a deterministic loop:
+1. Model generates tool call with parameters
+2. Tool policy checks if tool is allowed
+3. Sandbox check determines execution location (host vs container)
+4. Approval gates may pause execution (if configured)
+5. Tool executes and returns result
+6. Result fed back to model for next iteration
 
-**Streaming**: Block streaming sends completed blocks as the model writes (text_end) or flushes at message end (message_end). Chunking respects channel text limits and avoids splitting code blocks. Telegram supports draft streaming for partial text updates.
+### Message Delivery Model
+Inbound messages route to agents via bindings (channel + account → agent). Outbound messages can:
+- Route back to originating channel (default)
+- Broadcast to multiple channels
+- Deliver to specific targets (DM, channel, thread)
+- Include media, reactions, polls, threads
 
-**Memory Management**: Sessions auto-compact when approaching context window. Pre-compaction memory flush prompts agent to write durable notes. Compaction summarizes context and retains recent messages. Manual compaction via /compact command.
+### Reasoning & Transparency
+- **Streaming reasoning**: model thinking visible in real-time (Telegram draft bubble)
+- **Verbose output**: tool parameters, URLs, and intermediate results shown
+- **Token tracking**: monitor input/output/cache token usage
+- **Typing indicators**: show agent is thinking (configurable timing)
 
-**Multi-Agent**: Multiple agents run in one Gateway with isolated workspaces and sessions. Inbound routing uses deterministic matching (peer → guild → team → accountId → default). Sub-agents spawn background runs that announce results back to requester.
+### Extensibility
+OpenClaw supports plugins for:
+- Custom messaging channels (register channel adapters)
+- Custom tools (register RPC methods)
+- Custom commands (register slash commands)
+- Custom model providers (register via models.json)
+- Event hooks (automation on session/message events)
 
-**Security**: Sandbox isolation, tool policies, sender allowlists, and approval gates control execution. Elevated mode requires explicit approval. Workspace access is configurable per agent (none/ro/rw).
-
-**Configuration**: YAML-based config at ~/.openclaw/config.yml or environment variables. Per-agent overrides via agents.list[]. Model selection via agents.defaults.model.primary (provider/model format). Skills loaded from bundled + local directories, filtered by environment/config/binary presence.
+Plugins load from extensions directory or configured paths and can be enabled/disabled without restart (most changes require restart).
 
 ---
 
