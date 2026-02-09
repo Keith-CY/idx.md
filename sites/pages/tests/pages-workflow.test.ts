@@ -58,6 +58,20 @@ describe("pages workflow", () => {
     expect(text.includes("data/reports/rejected.md")).toBe(true);
   });
 
+  test("github skill search ingest workflow uploads report", async () => {
+    const text = await readText(".github/workflows/github-skill-search-ingest.yml");
+    expect(/actions\/upload-artifact@[0-9a-f]{40}/.test(text)).toBe(true);
+    expect(text.includes("data/reports/ingest-github-skill-search.md")).toBe(true);
+  });
+
+  test("github skill search ingest workflow pins key actions by SHA", async () => {
+    const text = await readText(".github/workflows/github-skill-search-ingest.yml");
+    expect(/actions\/checkout@[0-9a-f]{40}/.test(text)).toBe(true);
+    expect(/oven-sh\/setup-bun@[0-9a-f]{40}/.test(text)).toBe(true);
+    expect(/actions\/upload-artifact@[0-9a-f]{40}/.test(text)).toBe(true);
+    expect(/peter-evans\/create-pull-request@[0-9a-f]{40}/.test(text)).toBe(true);
+  });
+
   test("pages workflow uploads rejected report", async () => {
     const text = await readText(".github/workflows/pages.yml");
     expect(/actions\/upload-artifact@/.test(text)).toBe(true);

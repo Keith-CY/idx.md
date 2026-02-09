@@ -13,9 +13,13 @@ import {
   buildGithubRawUrl,
   buildGithubSkillBaseSlug,
   classifyCategorySlug,
+  escapeMarkdownTableCell,
   ensureUniqueSlug,
   matchesSkillMarkdownFilename,
   parseRequiredSkillFrontmatter,
+  resolveRepoInfoFromSearchRepository,
+  type ResolvedRepoInfo,
+  type SearchRepositoryLike,
 } from "./lib/github-skill-search";
 
 const SOURCES_DIR = resolve(repoRoot, "sources");
@@ -31,27 +35,28 @@ const MIN_STARS_EXCLUSIVE = Number(process.env.GITHUB_SKILL_MIN_STARS ?? "500");
 const PER_PAGE = 100;
 const MAX_PAGES_PER_QUERY = 10;
 
+const DEFAULT_EXCLUDED_REPOS = ["Keith-CY/idx.md"] as const;
+const excludedRepos = (process.env.GITHUB_SKILL_EXCLUDED_REPOS ??
+  DEFAULT_EXCLUDED_REPOS.join(","))
+  .split(",")
+  .map((repo) => repo.trim())
+  .filter(Boolean);
+const excludedRepoClauses = excludedRepos
+  .map((repo) => `NOT repo:${repo}`)
+  .join(" ")
+  .trim();
+
 const QUERIES = [
-  `filename:SKILL.md NOT is:fork NOT is:archived NOT repo:Keith-CY/idx.md`,
-  `filename:SKILLS.md NOT is:fork NOT is:archived NOT repo:Keith-CY/idx.md`,
+  `filename:SKILL.md NOT is:fork NOT is:archived ${excludedRepoClauses}`.trim(),
+  `filename:SKILLS.md NOT is:fork NOT is:archived ${excludedRepoClauses}`.trim(),
 ];
 
 const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
 
-type SearchRepository = {
-  full_name?: string;
-  name?: string;
-  owner?: { login?: string };
-  default_branch?: string;
-  stargazers_count?: number;
-  archived?: boolean;
-  fork?: boolean;
-};
-
 type SearchItem = {
-  path?: string;
-  html_url?: string;
-  repository?: SearchRepository;
+  path?: string | null;
+  html_url?: string | null;
+  repository?: SearchRepositoryLike | null;
 };
 
 type SearchResponse = {
@@ -63,6 +68,41 @@ type Rejection = { url: string; reason: string };
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function exponentialBackoffMs(attempt: number): number {
+  return 500 * Math.pow(2, Math.max(0, attempt - 1));
+}
+
+function parseSeconds(value: string | null): number | null {
+  if (!value) return null;
+  const parsed = Number(value);
+  if (!Number.isFinite(parsed) || parsed <= 0) {
+    return null;
+  }
+  return parsed;
+}
+
+function rateLimitRetryDelayMs(response: Response): number | null {
+  const retryAfterSeconds = parseSeconds(response.headers.get("retry-after"));
+  if (retryAfterSeconds !== null) {
+    return retryAfterSeconds * 1000;
+  }
+
+  const remaining = response.headers.get("x-ratelimit-remaining");
+  const resetSeconds = parseSeconds(response.headers.get("x-ratelimit-reset"));
+  if (remaining === "0" && resetSeconds !== null) {
+    const resetMs = resetSeconds * 1000;
+    const now = Date.now();
+    const delta = resetMs - now;
+    if (delta <= 0) {
+      return 1000;
+    }
+    // Add a small buffer so we're past the reset boundary.
+    return delta + 1000;
+  }
+
+  return null;
 }
 
 function logJsonError(url: string, error: unknown): void {
@@ -93,16 +133,28 @@ async function fetchGitHubJson(url: string): Promise<unknown | null> {
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error);
       console.error(`Fetch failed (${url}): ${message}`);
-      await sleep(500 * attempt);
+      await sleep(exponentialBackoffMs(attempt));
       attempt += 1;
       continue;
     }
 
     if (response.status >= 500) {
       console.error(`GitHub API error (${url}): ${response.status}`);
-      await sleep(500 * attempt);
+      await sleep(exponentialBackoffMs(attempt));
       attempt += 1;
       continue;
+    }
+
+    if (response.status === 403 || response.status === 429) {
+      const delayMs = rateLimitRetryDelayMs(response);
+      if (delayMs !== null && attempt < 3) {
+        console.error(
+          `GitHub API rate limited (${url}): ${response.status} - backing off for ${Math.round(delayMs / 1000)}s`,
+        );
+        await sleep(delayMs);
+        attempt += 1;
+        continue;
+      }
     }
 
     if (!response.ok) {
@@ -178,8 +230,8 @@ function formatReport(params: {
   }
 
   for (const rejection of params.rejections.slice(0, 200)) {
-    const reason = rejection.reason.replaceAll("|", "\\|");
-    const url = rejection.url.replaceAll("|", "\\|");
+    const reason = escapeMarkdownTableCell(rejection.reason);
+    const url = escapeMarkdownTableCell(rejection.url);
     lines.push(`| ${reason} | ${url} |`);
   }
   if (params.rejections.length > 200) {
@@ -220,6 +272,30 @@ let invalidSkipped = 0;
 let fetchFailed = 0;
 let frontmatterRejected = 0;
 
+const repoInfoCache = new Map<string, ResolvedRepoInfo | null>();
+function repoCacheKey(repo: SearchRepositoryLike): string | null {
+  const apiUrl = typeof repo.url === "string" ? repo.url.trim() : "";
+  if (apiUrl) return apiUrl;
+  const fullName = typeof repo.full_name === "string" ? repo.full_name.trim() : "";
+  if (fullName) return `full:${fullName}`;
+  return null;
+}
+
+async function resolveRepoInfo(
+  repo: SearchRepositoryLike,
+): Promise<ResolvedRepoInfo | null> {
+  const key = repoCacheKey(repo);
+  if (key && repoInfoCache.has(key)) {
+    return repoInfoCache.get(key) ?? null;
+  }
+
+  const info = await resolveRepoInfoFromSearchRepository(repo, fetchGitHubJson);
+  if (key) {
+    repoInfoCache.set(key, info);
+  }
+  return info;
+}
+
 for (const query of QUERIES) {
   for (let page = 1; page <= MAX_PAGES_PER_QUERY; page += 1) {
     const response = await searchCode(query, page);
@@ -233,6 +309,7 @@ for (const query of QUERIES) {
         break;
       }
 
+      scanned += 1;
       const path = item.path ?? "";
       if (!matchesSkillMarkdownFilename(path)) {
         invalidSkipped += 1;
@@ -240,23 +317,26 @@ for (const query of QUERIES) {
       }
 
       const repo = item.repository;
-      const stars = repo?.stargazers_count ?? 0;
-      if (stars <= MIN_STARS_EXCLUSIVE) {
-        filteredStars += 1;
-        continue;
-      }
-
-      const owner = repo?.owner?.login ?? "";
-      const repoName = repo?.name ?? "";
-      const defaultBranch = repo?.default_branch ?? "";
-      const repoFullName = repo?.full_name ?? "";
-
-      if (!owner || !repoName || !defaultBranch || !repoFullName) {
+      if (!repo) {
         invalidSkipped += 1;
         continue;
       }
 
-      scanned += 1;
+      const info = await resolveRepoInfo(repo);
+      if (!info || info.archived || info.fork) {
+        invalidSkipped += 1;
+        continue;
+      }
+
+      if (info.stars <= MIN_STARS_EXCLUSIVE) {
+        filteredStars += 1;
+        continue;
+      }
+
+      const owner = info.owner;
+      const repoName = info.repo;
+      const defaultBranch = info.defaultBranch;
+      const repoFullName = info.fullName;
       const rawUrl = buildGithubRawUrl({
         owner,
         repo: repoName,
@@ -382,4 +462,3 @@ console.log(`GitHub invalid skipped: ${invalidSkipped}`);
 console.log(`GitHub fetch failed: ${fetchFailed}`);
 console.log(`GitHub frontmatter rejected: ${frontmatterRejected}`);
 console.log(`GitHub new entries written: ${newEntries.length}`);
-

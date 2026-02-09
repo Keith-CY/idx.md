@@ -243,3 +243,99 @@ export function ensureUniqueSlug(params: {
   params.seenIds.set(`${type}/${candidate}`, params.url);
   return candidate;
 }
+
+export function escapeMarkdownTableCell(value: string): string {
+  return value
+    .replaceAll("\r\n", " ")
+    .replaceAll("\n", " ")
+    .replaceAll("\r", " ")
+    .replaceAll("|", "\\|");
+}
+
+export type SearchRepositoryLike = {
+  full_name?: string | null;
+  name?: string | null;
+  owner?: { login?: string | null } | null;
+  default_branch?: string | null;
+  stargazers_count?: number | null;
+  archived?: boolean | null;
+  fork?: boolean | null;
+  url?: string | null;
+};
+
+export type ResolvedRepoInfo = {
+  owner: string;
+  repo: string;
+  fullName: string;
+  defaultBranch: string;
+  stars: number;
+  archived: boolean;
+  fork: boolean;
+  apiUrl: string;
+};
+
+function resolveRepoInfoFromRepoPayload(payload: unknown): ResolvedRepoInfo | null {
+  if (!isRecord(payload)) {
+    return null;
+  }
+
+  const apiUrl = typeof payload.url === "string" ? payload.url.trim() : "";
+  const fullName =
+    typeof payload.full_name === "string" ? payload.full_name.trim() : "";
+  const repo = typeof payload.name === "string" ? payload.name.trim() : "";
+  const owner =
+    isRecord(payload.owner) && typeof payload.owner.login === "string"
+      ? payload.owner.login.trim()
+      : "";
+
+  const defaultBranch =
+    typeof payload.default_branch === "string" ? payload.default_branch.trim() : "";
+  const stars = typeof payload.stargazers_count === "number" ? payload.stargazers_count : null;
+  const archived = typeof payload.archived === "boolean" ? payload.archived : null;
+  const fork = typeof payload.fork === "boolean" ? payload.fork : null;
+
+  if (
+    !apiUrl ||
+    !owner ||
+    !repo ||
+    !fullName ||
+    !defaultBranch ||
+    stars === null ||
+    archived === null ||
+    fork === null
+  ) {
+    return null;
+  }
+
+  return {
+    owner,
+    repo,
+    fullName,
+    defaultBranch,
+    stars,
+    archived,
+    fork,
+    apiUrl,
+  };
+}
+
+export async function resolveRepoInfoFromSearchRepository(
+  repo: SearchRepositoryLike,
+  fetchRepo: (url: string) => Promise<unknown | null>,
+): Promise<ResolvedRepoInfo | null> {
+  const resolved = resolveRepoInfoFromRepoPayload(repo);
+  if (resolved) {
+    return resolved;
+  }
+
+  const apiUrl = typeof repo?.url === "string" ? repo.url.trim() : "";
+  if (!apiUrl) {
+    return null;
+  }
+
+  const fetched = await fetchRepo(apiUrl);
+  if (!fetched) {
+    return null;
+  }
+  return resolveRepoInfoFromRepoPayload(fetched);
+}
