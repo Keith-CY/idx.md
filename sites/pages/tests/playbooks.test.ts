@@ -11,9 +11,9 @@ describe("pilot playbooks", () => {
       "playbook-scenario-customer-support",
     ]);
     expect(playbooks.map((entry) => entry.tags)).toEqual([
-      ["playbooks", "industry-finance"],
-      ["playbooks", "scenario-content-marketing"],
-      ["playbooks", "scenario-customer-support"],
+      ["playbooks", "industry-finance", "category-finance"],
+      ["playbooks", "scenario-content-marketing", "category-marketing-sales"],
+      ["playbooks", "scenario-customer-support", "category-communication"],
     ]);
 
     for (const playbook of playbooks) {
