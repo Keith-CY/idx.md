@@ -21,8 +21,6 @@ export function buildLlmsTxt(origin: string): string {
     `Start: ${base}/SKILL.md`,
     `Index: ${base}/data/index.md`,
     `By capability: ${base}/category/index.md`,
-    `By scenario: ${base}/scenario/index.md`,
-    `By industry: ${base}/industry/index.md`,
     "",
     `HEAD: ${base}/{topic} (alias of /data/{topic}/HEAD.md)`,
     `BODY: ${base}/{topic}/BODY.md`,
@@ -31,4 +29,3 @@ export function buildLlmsTxt(origin: string): string {
     "",
   ].join("\n");
 }
-

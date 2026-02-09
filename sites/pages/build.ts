@@ -268,6 +268,7 @@ await Promise.all(
 );
 
 const sitemapPaths = [
+  "/",
   "/SKILL.md",
   "/data/index.md",
   "/category/index.md",
