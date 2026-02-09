@@ -49,6 +49,15 @@ jobs:
             cp -R data sites/pages/out/
             rm -rf sites/pages/out/data/reports
           fi
+          if [ -f data/robots.txt ]; then
+            cp data/robots.txt sites/pages/out/robots.txt
+          fi
+          if [ -f data/llms.txt ]; then
+            cp data/llms.txt sites/pages/out/llms.txt
+          fi
+          if [ -f data/sitemap.xml ]; then
+            cp data/sitemap.xml sites/pages/out/sitemap.xml
+          fi
           touch sites/pages/out/.nojekyll
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0

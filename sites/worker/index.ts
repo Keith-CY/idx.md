@@ -97,6 +97,27 @@ function renderRobotsTxt(url: URL): string {
   ].join("\n");
 }
 
+function renderLlmsTxt(url: URL): string {
+  const origin = url.origin;
+  return [
+    "idx.md",
+    "",
+    "Agent-first markdown library. Browse the index, then fetch HEAD/BODY per topic.",
+    "",
+    `Start: ${origin}/SKILL.md`,
+    `Index: ${origin}/data/index.md`,
+    `By capability: ${origin}/category/index.md`,
+    `By scenario: ${origin}/scenario/index.md`,
+    `By industry: ${origin}/industry/index.md`,
+    "",
+    `HEAD: ${origin}/{topic} (alias of /data/{topic}/HEAD.md)`,
+    `BODY: ${origin}/{topic}/BODY.md`,
+    "",
+    `Sitemap: ${origin}/sitemap.xml`,
+    "",
+  ].join("\n");
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
@@ -105,12 +126,54 @@ export default {
     }
 
     if (url.pathname === "/robots.txt") {
+      const object = await env.IDX_MD.get("data/robots.txt");
+      if (object) {
+        const headers = new Headers();
+        if (typeof object.writeHttpMetadata === "function") {
+          object.writeHttpMetadata(headers);
+        }
+        headers.set("content-type", "text/plain; charset=utf-8");
+        if (!headers.has("cache-control")) {
+          headers.set("cache-control", "public, max-age=3600");
+        }
+        setVaryUserAgent(headers);
+        return new Response(object.body, { status: 200, headers });
+      }
+
       return new Response(renderRobotsTxt(url), {
         status: 200,
-        headers: {
-          "content-type": "text/plain; charset=utf-8",
-          "cache-control": "public, max-age=3600",
-        },
+        headers: setVaryUserAgent(
+          new Headers({
+            "content-type": "text/plain; charset=utf-8",
+            "cache-control": "public, max-age=3600",
+          }),
+        ),
+      });
+    }
+
+    if (url.pathname === "/llms.txt") {
+      const object = await env.IDX_MD.get("data/llms.txt");
+      if (object) {
+        const headers = new Headers();
+        if (typeof object.writeHttpMetadata === "function") {
+          object.writeHttpMetadata(headers);
+        }
+        headers.set("content-type", "text/plain; charset=utf-8");
+        if (!headers.has("cache-control")) {
+          headers.set("cache-control", "public, max-age=3600");
+        }
+        setVaryUserAgent(headers);
+        return new Response(object.body, { status: 200, headers });
+      }
+
+      return new Response(renderLlmsTxt(url), {
+        status: 200,
+        headers: setVaryUserAgent(
+          new Headers({
+            "content-type": "text/plain; charset=utf-8",
+            "cache-control": "public, max-age=3600",
+          }),
+        ),
       });
     }
 
