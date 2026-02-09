@@ -108,7 +108,7 @@ export function buildPilotPlaybooks(retrievedAt: string): BuiltPlaybook[] {
       topic: "playbook-industry-finance",
       title: "Playbook: Industry - Finance",
       summary: "A practical reading path for finance workflows (payments, reporting, reconciliation).",
-      tags: ["playbooks", "industry-finance"],
+      tags: ["playbooks", "industry-finance", "category-finance"],
       bodyMarkdown: renderPlaybookBody({
         title: "Playbook: Industry - Finance",
         indexPath: "/industry/finance/index.md",
@@ -123,7 +123,7 @@ export function buildPilotPlaybooks(retrievedAt: string): BuiltPlaybook[] {
       topic: "playbook-scenario-content-marketing",
       title: "Playbook: Scenario - Content Marketing",
       summary: "A practical reading path for creating, repurposing, and distributing content.",
-      tags: ["playbooks", "scenario-content-marketing"],
+      tags: ["playbooks", "scenario-content-marketing", "category-marketing-sales"],
       bodyMarkdown: renderPlaybookBody({
         title: "Playbook: Scenario - Content Marketing",
         indexPath: "/scenario/content-marketing/index.md",
@@ -138,7 +138,7 @@ export function buildPilotPlaybooks(retrievedAt: string): BuiltPlaybook[] {
       topic: "playbook-scenario-customer-support",
       title: "Playbook: Scenario - Customer Support",
       summary: "A practical reading path for triage, ticketing, and support ops workflows.",
-      tags: ["playbooks", "scenario-customer-support"],
+      tags: ["playbooks", "scenario-customer-support", "category-communication"],
       bodyMarkdown: renderPlaybookBody({
         title: "Playbook: Scenario - Customer Support",
         indexPath: "/scenario/customer-support/index.md",
