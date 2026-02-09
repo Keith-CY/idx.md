@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/camelsprout/duckdb-cli-ai-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:54.403Z
+retrieved_at: 2026-02-09T05:31:34.777Z
 content_sha256: abfa85cbbc2be6483990f4a73358ad5ed44fa4ae9a1bd5b89893d8f2cd135a90
 ---

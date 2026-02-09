@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/nodnarbnitram/claude-code-extensions/HEAD/.claude/skills/tauri-v2/references/capabilities-reference.md
 license: ""
 upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
-retrieved_at: 2026-02-08T16:40:19.366Z
+retrieved_at: 2026-02-09T05:31:03.840Z
 content_sha256: 8248fda5666bd149a0275c3ab104b9794406255580d59da018ba1eff3e9d58e0
 ---

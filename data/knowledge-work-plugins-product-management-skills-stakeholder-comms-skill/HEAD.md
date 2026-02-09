@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/stakeholder-comms/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/stakeholder-comms/SKILL.md
-retrieved_at: 2026-02-08T16:42:55.536Z
+retrieved_at: 2026-02-09T05:33:12.233Z
 content_sha256: 7a46aaa7bb2183ece264cc89504a6f736079b4e8a1014e045ef80a92bc838c2b
 ---

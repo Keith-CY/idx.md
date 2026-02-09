@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/ts-library/references/project-setup.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/ts-library
-retrieved_at: 2026-02-08T16:40:13.125Z
+retrieved_at: 2026-02-09T05:30:58.529Z
 content_sha256: 2c48c69f958dbc84d435513df0b8ba0d1d507b72d8eb3033c3413f70875ee18b
 ---

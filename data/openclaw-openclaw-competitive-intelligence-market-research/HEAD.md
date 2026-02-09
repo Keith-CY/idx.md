@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/competitive-intelligence-market-research/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:47.115Z
+retrieved_at: 2026-02-09T05:31:28.070Z
 content_sha256: 23633f277b20cdfba2bbf7194164b4a11a6c740ed528870e8e55247c277fe761
 ---

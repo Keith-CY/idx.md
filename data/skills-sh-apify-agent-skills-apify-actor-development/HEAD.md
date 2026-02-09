@@ -24,6 +24,6 @@ tags:
 source_url: https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actor-development/references/actor-json.md
 license: ""
 upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
-retrieved_at: 2026-02-08T16:40:18.182Z
+retrieved_at: 2026-02-09T05:31:02.834Z
 content_sha256: 668c913ae253f4e01947677d8a3d220edbdb45ce1169bee5f7e16ea751a95c79
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bobot-agent/usage-export/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:22.336Z
+retrieved_at: 2026-02-09T05:32:49.877Z
 content_sha256: dc4ce09436f2ecf3289156b548aa88bf8059b7be8fa32361759bd175f8c829a9
 ---

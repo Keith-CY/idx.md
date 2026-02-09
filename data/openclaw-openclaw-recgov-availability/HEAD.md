@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanrea/recgov-availability/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:51.720Z
+retrieved_at: 2026-02-09T05:32:25.326Z
 content_sha256: 7a1eabd1727de725ca988a3cd61419241e7375869912cd49ce333008ddb468cf
 ---

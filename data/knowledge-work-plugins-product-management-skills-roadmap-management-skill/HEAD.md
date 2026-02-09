@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/roadmap-management/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/roadmap-management/SKILL.md
-retrieved_at: 2026-02-08T16:42:55.463Z
+retrieved_at: 2026-02-09T05:33:12.160Z
 content_sha256: 4f7355b580f77474ccbbc5a543b35a1f8463445a69553d8249b6b559d606c6fe
 ---

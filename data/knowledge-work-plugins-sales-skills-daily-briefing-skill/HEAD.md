@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/daily-briefing/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/daily-briefing/SKILL.md
-retrieved_at: 2026-02-08T16:42:56.672Z
+retrieved_at: 2026-02-09T05:33:13.307Z
 content_sha256: 9f2c4976aed1326edbf6d7d9d499df63f3c178d2c14c6254c8a9c0a15eb0d04a
 ---

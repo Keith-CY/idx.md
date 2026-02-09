@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/obviyus/ynab/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:34.203Z
+retrieved_at: 2026-02-09T05:32:59.662Z
 content_sha256: 2440ad2094ccc9952419b11435d00dd7e5c9d7e53c100daa42242fb9a9d83d62
 ---

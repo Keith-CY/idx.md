@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/excalidraw-diagram/references/excalidraw-schema.md
 license: ""
 upstream_ref: https://skills.sh/axtonliu/axton-obsidian-visual-skills/excalidraw-diagram
-retrieved_at: 2026-02-08T16:40:16.497Z
+retrieved_at: 2026-02-09T05:31:01.482Z
 content_sha256: e1ac098f16f723aaf0b1fc6e511c6981cfb7cfa57a646da8eaa623f047287d5b
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ipedrax/multiple-personas/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:31.452Z
+retrieved_at: 2026-02-09T05:32:03.405Z
 content_sha256: abd005b66e73a5f75b2b8f7f74b3b48ab66c14977d7240899d054942bd15cad2
 ---

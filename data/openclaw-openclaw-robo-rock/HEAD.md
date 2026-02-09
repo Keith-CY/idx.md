@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/robo-rock/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:55.564Z
+retrieved_at: 2026-02-09T05:32:28.882Z
 content_sha256: ca0371fbb3119a1c12cc01b4d0f2aaab670442c3c1d94167832fd2eda4f6fa86
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/hetzner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:10.044Z
+retrieved_at: 2026-02-09T05:31:46.500Z
 content_sha256: cc9366ba93b9c8ebfba3a1b8ee944947ee7f30084279550a2ac80a05992f6700
 ---

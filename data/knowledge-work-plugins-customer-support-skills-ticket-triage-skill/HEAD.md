@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/ticket-triage/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/ticket-triage/SKILL.md
-retrieved_at: 2026-02-08T16:42:57.650Z
+retrieved_at: 2026-02-09T05:33:14.109Z
 content_sha256: 66519a68852578ed707bd2bbc60dbe426fb1e7d7431c18230ce03d6c43c03aa8
 ---

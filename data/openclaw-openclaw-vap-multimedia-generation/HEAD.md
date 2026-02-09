@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/elestirelbilinc-sketch/vap-multimedia-generation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:23.051Z
-content_sha256: 0621896201b818b39e0bef50e8bc30dea8096b8364151bba2dd4d18fa6b9eca8
+retrieved_at: 2026-02-09T05:32:50.396Z
+content_sha256: fb2bff60dc64d2286a0332c2246da06a27c356c409bbc4cbec810a59b1aa759c
 ---

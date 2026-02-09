@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8-autoscaling/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:18.581Z
+retrieved_at: 2026-02-09T05:31:52.242Z
 content_sha256: 3602a41aba3f0022a0f70d9fa3d4f30b11fff1052c8810682a56dafadcaf0185
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jimihford/openclaw-bitwarden/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:37.262Z
+retrieved_at: 2026-02-09T05:32:10.349Z
 content_sha256: 763c7911505760657890c604d87b3ada75ee05d799fb302193bafd04e1e10a5e
 ---

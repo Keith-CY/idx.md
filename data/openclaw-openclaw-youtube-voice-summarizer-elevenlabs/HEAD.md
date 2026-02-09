@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/franciscoandsam/youtube-voice-summarizer-elevenlabs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:35.891Z
+retrieved_at: 2026-02-09T05:33:01.085Z
 content_sha256: 9110791c7e8af46494a001f49a89271e4e048a338011577d7190f23b76d52186
 ---

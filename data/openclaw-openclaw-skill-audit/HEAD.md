@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/morozred/skill-audit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:02.067Z
+retrieved_at: 2026-02-09T05:32:34.085Z
 content_sha256: ea638bb560b72727301a49505b0444ed9e19b70c61b263a533eabe8832cf7d70
 ---

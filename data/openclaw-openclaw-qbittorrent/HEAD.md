@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/qbittorrent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:49.078Z
+retrieved_at: 2026-02-09T05:32:22.717Z
 content_sha256: 36cbb1050d36496aa6659570503f63ed57bbb32b62b44bf6cd267b690decdcd7
 ---

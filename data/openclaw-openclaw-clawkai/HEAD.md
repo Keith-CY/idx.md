@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jefftangx/clawkai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:44.521Z
+retrieved_at: 2026-02-09T05:31:25.563Z
 content_sha256: 38572172e85c362ff8d7e21f13876d554d6fec543f73b598ff5657e41611fa2e
 ---

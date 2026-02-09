@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cuba6112/tmux-agents/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:42:16.836Z
+retrieved_at: 2026-02-09T05:32:45.622Z
 content_sha256: 951d67f5ad8a11982567dacb803c9387fe1fca5ae49da74a00e3770bf586d6e0
 ---

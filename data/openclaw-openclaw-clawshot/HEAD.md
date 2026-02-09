@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bardusco/clawshot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:40:45.041Z
+retrieved_at: 2026-02-09T05:31:26.030Z
 content_sha256: 2c821c12df7181a5765e0efa1b0f77e9b01db3145377fda12a173088f76e37c3
 ---

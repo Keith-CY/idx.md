@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/page-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/page-cro
-retrieved_at: 2026-02-08T16:40:07.377Z
+retrieved_at: 2026-02-09T05:30:53.544Z
 content_sha256: 9530ca82b966f901178952bc652f71b58fd6bfdc3f21d5fed453b45df60bf929
 ---

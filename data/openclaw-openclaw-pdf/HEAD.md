@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/awspace/pdf/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:41.671Z
+retrieved_at: 2026-02-09T05:32:14.638Z
 content_sha256: 38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb
 ---

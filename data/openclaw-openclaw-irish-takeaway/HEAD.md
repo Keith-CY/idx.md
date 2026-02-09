@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cotyledonlab/irish-takeaway/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-08T16:41:16.318Z
+retrieved_at: 2026-02-09T05:31:49.956Z
 content_sha256: ee53a403083fd244c3f9535d4d257e6eb3a16ff78c43d7c239d23be453957f94
 ---
