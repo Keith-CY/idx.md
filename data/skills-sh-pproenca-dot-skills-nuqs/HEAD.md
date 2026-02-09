@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/nuqs/references/parser-use-typed-parsers.md
 license: ""
 upstream_ref: https://skills.sh/pproenca/dot-skills/nuqs
-retrieved_at: 2026-02-09T05:31:05.164Z
+retrieved_at: 2026-02-09T06:22:11.938Z
 content_sha256: b9e4443768bf511646481557c779ff23c1045b0978750577dc0699c1ce759b82
 ---

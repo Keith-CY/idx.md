@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/swiftlysingh/cursor-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:31.208Z
+retrieved_at: 2026-02-09T06:22:49.145Z
 content_sha256: 1d695760ce27e42cb27a5a989b2b1496136ae6be534766aa89673ec44b6aa93e
 ---

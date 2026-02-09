@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arein/gram/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:45.195Z
+retrieved_at: 2026-02-09T06:23:13.702Z
 content_sha256: e0f74f4f4f3ec8687a2dbaf08e63742f01bffb9af2dfae4b32d83e3f91c24c60
 ---

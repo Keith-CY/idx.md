@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/commands/search.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/commands/search.md
-retrieved_at: 2026-02-09T05:33:13.973Z
+retrieved_at: 2026-02-09T06:25:11.404Z
 content_sha256: d6f518da7d0ca6743a287690b703fafb99ab8e55d23183dd11a22b9acd111c01
 ---

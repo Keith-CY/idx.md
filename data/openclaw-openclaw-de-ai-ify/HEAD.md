@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/de-ai-ify/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:31.888Z
+retrieved_at: 2026-02-09T06:22:50.290Z
 content_sha256: d3d415df1685119efa12b7184c67c2cfe3a51e3db8696074fbc77de3d04f7092
 ---

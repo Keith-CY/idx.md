@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/janhcla/apple-docs-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:12.538Z
+retrieved_at: 2026-02-09T06:22:21.565Z
 content_sha256: 4daddcd4cd6d125f670dd516193ce7ec512e2b4bdb8528e645c9ea5a77cd86a6
 ---

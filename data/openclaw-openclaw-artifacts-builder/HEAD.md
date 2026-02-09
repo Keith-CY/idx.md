@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/artifacts-builder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:13.318Z
+retrieved_at: 2026-02-09T06:22:22.550Z
 content_sha256: 8455a64e627d203fd7b43df64c83d8870cb98907aae21edce4ec8eeef651d850
 ---

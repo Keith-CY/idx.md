@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abtdomain/domain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:34.060Z
+retrieved_at: 2026-02-09T06:22:53.848Z
 content_sha256: bc76b1452287d30329266e7920fd399ea5ee568394085009a156aaee47037c1a
 ---

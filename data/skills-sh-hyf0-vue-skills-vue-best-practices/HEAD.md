@@ -33,6 +33,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/reference/ref-value-access.md
 license: ""
 upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
-retrieved_at: 2026-02-09T05:30:53.439Z
+retrieved_at: 2026-02-09T06:21:57.355Z
 content_sha256: e797ceee03f65cd0946a2dadfca57c11ed98879f9c30b0e49d41db2e31feddb5
 ---

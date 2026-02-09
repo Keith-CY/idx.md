@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/veeky-kumar/job-auto-apply/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:50.743Z
+retrieved_at: 2026-02-09T06:23:23.617Z
 content_sha256: 1606c838e8d1fa1deea283eb74b1e17a755b9a00e82d0b120cc2b2f2a5c48aa5
 ---

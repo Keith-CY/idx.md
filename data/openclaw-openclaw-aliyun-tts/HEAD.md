@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/guang384/aliyun-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:10.811Z
+retrieved_at: 2026-02-09T06:22:19.298Z
 content_sha256: b3e5067aeacce76625f36fb3c7ee749a8ff6de70047f96486d518abaddb3902b
 ---

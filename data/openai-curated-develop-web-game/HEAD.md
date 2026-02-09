@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/develop-web-game/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
-retrieved_at: 2026-02-09T05:30:50.879Z
+retrieved_at: 2026-02-09T06:21:53.534Z
 content_sha256: 4586330e97c99581f37798c179a71c62030fc20befa6de3e3ccb96d1adead9c7
 ---

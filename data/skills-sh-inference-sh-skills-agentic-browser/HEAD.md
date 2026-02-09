@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/inference-sh/skills/HEAD/skills/agentic-browser/references/commands.md
 license: ""
 upstream_ref: https://skills.sh/inference-sh/skills/agentic-browser
-retrieved_at: 2026-02-09T05:30:58.749Z
+retrieved_at: 2026-02-09T06:22:03.490Z
 content_sha256: b1c709ebcf54b26d957886efb8239ddb480d58ddb95fec297ffd42cfe1261c5e
 ---

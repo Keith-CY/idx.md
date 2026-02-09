@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adboio/agentmail/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:31:09.792Z
+retrieved_at: 2026-02-09T06:22:17.924Z
 content_sha256: c6b8627e5dfa2d7f39774bc86020473b04f3e667d14c90cbb36d1256aaad27ff
 ---

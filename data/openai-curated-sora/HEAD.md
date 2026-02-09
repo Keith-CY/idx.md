@@ -37,6 +37,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sora/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sora/SKILL.md
-retrieved_at: 2026-02-09T05:30:52.262Z
+retrieved_at: 2026-02-09T06:21:55.476Z
 content_sha256: 13ac4711e544afc1d76cc2f7ae34ff19089be5797654afba7932d6c2424acccf
 ---

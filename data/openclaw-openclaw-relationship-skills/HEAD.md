@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/relationship-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:26.853Z
+retrieved_at: 2026-02-09T06:24:09.739Z
 content_sha256: ca844e395ff26e80c1f01b081302191ff06452d7fa997a95c0e946236c2e3240
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/milbaxter/personality-test/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T05:32:15.584Z
+retrieved_at: 2026-02-09T06:23:56.250Z
 content_sha256: a3a75d2c511cbea71692889dc29848e2efad2555e86138fce9ed3e1764b0fb8f
 ---

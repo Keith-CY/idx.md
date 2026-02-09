@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/rivet-dev/skills/HEAD/rivetkit/reference/actors/actions.md
 license: ""
 upstream_ref: https://skills.sh/rivet-dev/skills/rivetkit
-retrieved_at: 2026-02-09T05:31:00.001Z
+retrieved_at: 2026-02-09T06:22:05.134Z
 content_sha256: ed2f919374b9b5d842ae46a171ed2e8425e192c67c7004f736e4abb05dcefc44
 ---
