@@ -7,6 +7,8 @@ import {
   formatUnknownCategoryReason,
   parseCategoriesFromTags,
 } from "./lib/categories";
+import { buildSitemapXml } from "./lib/sitemap";
+import { buildLlmsTxt, buildRobotsTxt } from "./lib/well-known";
 import { loadSources, type SourceEntry } from "./lib/registry";
 import {
   CATEGORY_INDEX_PATH,
@@ -19,6 +21,7 @@ import {
   topicDir,
 } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
+import { SITE_ORIGIN } from "./lib/site-config";
 
 const result = await loadSources();
 
@@ -28,6 +31,10 @@ const SUMMARY_MAX_LINES = 10;
 const TEXT_DECODER = new TextDecoder("utf-8");
 const SKILL_SOURCE_PATH = resolve(repoRoot, "SKILL.md");
 const SKILL_TARGET_PATH = resolve(DATA_ROOT, "SKILL.md");
+
+const SITEMAP_PATH = resolve(DATA_ROOT, "sitemap.xml");
+const LLMS_TXT_PATH = resolve(DATA_ROOT, "llms.txt");
+const ROBOTS_TXT_PATH = resolve(DATA_ROOT, "robots.txt");
 
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const REPORT_PATH = resolve(REPORT_DIR, "rejected.md");
@@ -259,6 +266,19 @@ await Promise.all(
     await Bun.write(outputPath, page.content);
   }),
 );
+
+const sitemapPaths = [
+  "/",
+  "/SKILL.md",
+  "/data/index.md",
+  "/category/index.md",
+  ...categoryOutput.pages.map((page) => `/category/${page.slug}/index.md`),
+  ...sortedIndexEntries.map((entry) => `/${entry.topic}/BODY.md`),
+];
+const sitemapXml = buildSitemapXml({ origin: SITE_ORIGIN, paths: sitemapPaths });
+await Bun.write(SITEMAP_PATH, sitemapXml);
+await Bun.write(LLMS_TXT_PATH, buildLlmsTxt(SITE_ORIGIN));
+await Bun.write(ROBOTS_TXT_PATH, buildRobotsTxt(SITE_ORIGIN));
 await writeSkillDoc();
 
 if (rejected.length > 0) {
