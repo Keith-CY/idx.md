@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/gdpr-cookie-consent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:06.447Z
+retrieved_at: 2026-02-09T07:02:20.516Z
 content_sha256: d5b093517801f219feba86b95cc3280cfbc8ddcdd6de7da0b77b2f4705790edd
 ---

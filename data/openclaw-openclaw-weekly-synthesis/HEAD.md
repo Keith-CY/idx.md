@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/weekly-synthesis/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:44.772Z
+retrieved_at: 2026-02-09T07:03:41.628Z
 content_sha256: a6742cf0e7347058a6191e122075895d51721fdeac9495c9475a619e5493a78a
 ---

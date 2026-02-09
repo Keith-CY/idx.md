@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/session-handoff/references/handoff-template.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/session-handoff
-retrieved_at: 2026-02-09T06:22:00.978Z
+retrieved_at: 2026-02-09T07:01:29.983Z
 content_sha256: 35492711db3a903cf431fe221b82b2d79e3e18aa9d9900dfc3685ee202e3e0e9
 ---

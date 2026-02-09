@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/christina-de-martinez/email-best-practices/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:56.739Z
+retrieved_at: 2026-02-09T07:02:12.540Z
 content_sha256: c4e5f78f98ae1e5842ad7c7515f5519a27515de5d64547744740a3376c41f3fa
 ---

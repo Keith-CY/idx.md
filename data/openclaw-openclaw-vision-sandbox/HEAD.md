@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/johanesalxd/vision-sandbox/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:41.377Z
+retrieved_at: 2026-02-09T07:03:39.269Z
 content_sha256: 51caa35dc0f59ac92d9c171136c10159385d07636c4ad5d85eaa3d599addd354
 ---

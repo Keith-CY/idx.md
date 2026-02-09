@@ -25,6 +25,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vishnubedi3/human-optimized-frontend/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:18.269Z
+retrieved_at: 2026-02-09T07:02:29.241Z
 content_sha256: c39c8b265069d56fb1f6f9772df657f09e3b2f836482a9ee980d9038a2753415
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drbarq/pokemon-red/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:59.967Z
+retrieved_at: 2026-02-09T07:03:06.810Z
 content_sha256: fe2b40df4ebdabfa12f2eb0655d01df478f671b17aa4a4d3be178d441f9b9fc8
 ---

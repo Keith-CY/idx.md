@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/snowshadow/feishu-doc-reader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:01.213Z
+retrieved_at: 2026-02-09T07:02:16.026Z
 content_sha256: 6353a9516ec187810c997ef7d1f44e86bfb26154712292eca730c60a157dfadc
 ---

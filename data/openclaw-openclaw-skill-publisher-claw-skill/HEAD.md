@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/acastellana/skill-publisher-claw-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:19.507Z
+retrieved_at: 2026-02-09T07:03:22.436Z
 content_sha256: 7a0c0cd43dcca0c34e38bf3223d085de14346396be58c1e0423cc26990ca8d40
 ---

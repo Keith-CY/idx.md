@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/homebrew/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:17.720Z
+retrieved_at: 2026-02-09T07:02:28.716Z
 content_sha256: 78e1d86c1fdb91bca0d30576e091ffbe73ceee2272a1268d31e1ae88c29c286f
 ---

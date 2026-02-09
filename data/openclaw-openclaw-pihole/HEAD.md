@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/pihole/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:57.196Z
+retrieved_at: 2026-02-09T07:03:04.669Z
 content_sha256: ef056a1f6c809c995761be8343c370182e01cee4253afc675222fe8f12effe31
 ---

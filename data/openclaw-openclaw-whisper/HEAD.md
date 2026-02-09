@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fiddlybit/whisper/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:45.924Z
+retrieved_at: 2026-02-09T07:03:42.484Z
 content_sha256: 8ab9bbf761cdefff1cab80514b925704784dd9a01ea274b29d15227667e5575d
 ---

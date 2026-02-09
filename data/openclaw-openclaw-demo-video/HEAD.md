@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cyberfront-ai/demo-video/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:51.120Z
+retrieved_at: 2026-02-09T07:02:08.416Z
 content_sha256: cec40f9311b6748dce439d2a54e97db03c051e4d97a41518f196020d14a774f6
 ---

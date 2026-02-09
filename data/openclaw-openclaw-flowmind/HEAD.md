@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fancygobot/flowmind/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:04.073Z
+retrieved_at: 2026-02-09T07:02:18.408Z
 content_sha256: 10e1aad4f4de37f5f438f80603e868c508330f9f648d8c0feffa6bf7b17b5e84
 ---

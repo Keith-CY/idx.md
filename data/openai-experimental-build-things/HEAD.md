@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.experimental/build-things/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.experimental/build-things/SKILL.md
-retrieved_at: 2026-02-09T06:21:56.023Z
+retrieved_at: 2026-02-09T07:01:26.067Z
 content_sha256: 198ddcf3d021e46fe6c150888b4cfe71f9dd1abad3f217553a62f96f3a3c60b3
 ---

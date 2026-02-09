@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mars-arch/amiko/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:19.674Z
+retrieved_at: 2026-02-09T07:01:46.270Z
 content_sha256: 220df50515e321347c2f23576ba583219c40db5e4d16dc7dec811b4e9da77e66
 ---

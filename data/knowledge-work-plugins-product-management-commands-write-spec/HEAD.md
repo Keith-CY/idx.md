@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/write-spec.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/write-spec.md
-retrieved_at: 2026-02-09T06:25:09.506Z
+retrieved_at: 2026-02-09T07:04:00.136Z
 content_sha256: b3472b78c78c9c9ef308b75d4ce6816a99330421decbba167b8bc3280e6ac8a7
 ---

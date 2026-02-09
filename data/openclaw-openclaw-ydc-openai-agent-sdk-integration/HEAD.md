@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/ydc-openai-agent-sdk-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:50.872Z
+retrieved_at: 2026-02-09T07:03:45.938Z
 content_sha256: ec03d97ba93f42c6b71515af69144692287eaee2e396bd1e506373f6fd7ca78f
 ---

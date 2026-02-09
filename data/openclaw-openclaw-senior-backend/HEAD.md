@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-backend/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:15.829Z
+retrieved_at: 2026-02-09T07:03:18.775Z
 content_sha256: b1171953e867e76a64d6f6773de28f8d250032d8514a1c43eac913a26c0f695f
 ---

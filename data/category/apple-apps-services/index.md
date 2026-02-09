@@ -17,7 +17,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/olivieralter/alter-actions/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:19.374Z
+retrieved_at: 2026-02-09T07:01:46.045Z
 content_sha256: f70bf40c4a7a7c9d29a7f207aaa4b49aaf72fe7cf279366a9ac82da90edc91d7
 ---
 |/data/openclaw-openclaw-alter-actions|
@@ -34,7 +34,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-contacts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:21.415Z
+retrieved_at: 2026-02-09T07:01:47.674Z
 content_sha256: f4b4a9c7eaf3c627c5320e5a0e05a66450a94a491ce7812291af26ccb86ac1da
 ---
 |/data/openclaw-openclaw-apple-contacts|
@@ -51,7 +51,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mneves75/apple-mail-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:21.792Z
+retrieved_at: 2026-02-09T07:01:47.976Z
 content_sha256: 485a4b911ecb1dfb70576c7cacfc94cb1f925c5c4557b20ee991464f5798b7e9
 ---
 |/data/openclaw-openclaw-apple-mail-search|
@@ -69,7 +69,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-music/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:22.020Z
+retrieved_at: 2026-02-09T07:01:48.124Z
 content_sha256: 691319227019d546e529801a1172a71a0c52892d97593c0f886b588a6b4304a3
 ---
 |/data/openclaw-openclaw-apple-music|
@@ -86,7 +86,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-photos/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:22.173Z
+retrieved_at: 2026-02-09T07:01:48.250Z
 content_sha256: 4810415b5fce7af8a07cd58a200408634f35b88dcb60cdd50a058d68b1ab25df
 ---
 |/data/openclaw-openclaw-apple-photos|
@@ -103,7 +103,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/plgonzalezrx8/apple-remind-me/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:22.249Z
+retrieved_at: 2026-02-09T07:01:48.303Z
 content_sha256: 3b6c9d059e068afc4fe0fd546dadfd97260b303f1fcec6bcb1a917646d2048a9
 ---
 |/data/openclaw-openclaw-apple-remind-me|
@@ -120,7 +120,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucakaufmann/appletv/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:22.400Z
+retrieved_at: 2026-02-09T07:01:48.449Z
 content_sha256: 892aad2014960ca4bbeaafa41f1ebd9924abb83eb9cb4d045620df1efd86e941
 ---
 |/data/openclaw-openclaw-appletv|
@@ -137,7 +137,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bunsdev/caffeine/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:31.948Z
+retrieved_at: 2026-02-09T07:01:55.301Z
 content_sha256: 0947fd64e4e53696e1ceda9d12044dfcf756dae251dd83b51ee7b913ea2a1a48
 ---
 |/data/openclaw-openclaw-caffeine|
@@ -154,7 +154,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jooey/callmac/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:32.408Z
+retrieved_at: 2026-02-09T07:01:55.650Z
 content_sha256: 6db512470b5621233656edae0ae2886cfc8ba0f929ea3c345013d5ec1534bb76
 ---
 |/data/openclaw-openclaw-callmac|
@@ -171,7 +171,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manish-basargekar/clawdbot-macos-build/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:37.637Z
+retrieved_at: 2026-02-09T07:01:59.265Z
 content_sha256: b9aede843ecd362b127ee0bcf0995bd48564c8abdac85d5cc3cf42e7bd0a42aa
 ---
 |/data/openclaw-openclaw-clawdbot-macos-build|
@@ -189,7 +189,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/clawdbot-skill-voice-wake-say/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:38.612Z
+retrieved_at: 2026-02-09T07:01:59.738Z
 content_sha256: 9c1d9f10369cf44d895020e4419ef6af2b8bc14d3711889566f3f3994db8bbd6
 ---
 |/data/openclaw-openclaw-clawdbot-skill-voice-wake-say|
@@ -206,7 +206,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nerveband/drafts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:54.524Z
+retrieved_at: 2026-02-09T07:02:11.059Z
 content_sha256: d99a01482077b5a500872323c74756e59afe0fd164b1ecdeb5d61f296f866de1
 ---
 |/data/openclaw-openclaw-drafts|
@@ -223,7 +223,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/poiley/findmy-location/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:02.441Z
+retrieved_at: 2026-02-09T07:02:17.292Z
 content_sha256: 03d3660a2af5bf9dcc4a94f0cdd13a2c5426f9efb8dcbf2ca7cc5f2fa5bb6f9e
 ---
 |/data/openclaw-openclaw-findmy-location|
@@ -241,7 +241,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/fzf-fuzzy-finder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:05.506Z
+retrieved_at: 2026-02-09T07:02:19.283Z
 content_sha256: e339f3180cf68364ee8658ad5704456b7bb2a1d7fb98f1026211cbc44f2e3bba
 ---
 |/data/openclaw-openclaw-fzf-fuzzy-finder|
@@ -258,7 +258,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickchristensen/get-focus-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:07.428Z
+retrieved_at: 2026-02-09T07:02:21.334Z
 content_sha256: 87d559df883f9efc278fec8d829d16ba2d5c27f2ffe708b9388f0fd6721265cd
 ---
 |/data/openclaw-openclaw-get-focus-mode|
@@ -275,7 +275,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mneves75/healthkit-sync/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:15.912Z
+retrieved_at: 2026-02-09T07:02:27.194Z
 content_sha256: 38a8ea444133148eaf0a670bf389bb601e701de8aec8c60fb9ec2c727045013c
 ---
 |/data/openclaw-openclaw-healthkit-sync|
@@ -292,7 +292,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ahmetsemsettinozdemirden/hergunmac/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:16.194Z
+retrieved_at: 2026-02-09T07:02:27.413Z
 content_sha256: 992ffb9d39d4aeb3a1dcae314ac46e51a154136593937957273784e7afecae02
 ---
 |/data/openclaw-openclaw-hergunmac|
@@ -309,7 +309,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/homebrew/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:17.720Z
+retrieved_at: 2026-02-09T07:02:28.716Z
 content_sha256: 78e1d86c1fdb91bca0d30576e091ffbe73ceee2272a1268d31e1ae88c29c286f
 ---
 |/data/openclaw-openclaw-homebrew|
@@ -326,7 +326,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/liamnichols/icloud-findmy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:19.132Z
+retrieved_at: 2026-02-09T07:02:29.868Z
 content_sha256: edbb50613ef3538069d471cd5bb9d6b029d30da40b02500cc9aedc7bac91e6d8
 ---
 |/data/openclaw-openclaw-icloud-findmy|
@@ -344,7 +344,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronchartier/inkjet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:20.459Z
+retrieved_at: 2026-02-09T07:02:31.064Z
 content_sha256: 45f5cb25f32d8237f038ab0cde41a188aa514a7b2efac268c8790a92035a41c3
 ---
 |/data/openclaw-openclaw-inkjet|
@@ -361,7 +361,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kalijason/mac-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:30.586Z
+retrieved_at: 2026-02-09T07:02:40.411Z
 content_sha256: eba20b0888c528895b868f187e84be6d6d230b7cd0d5f01f2f10b958fd5f2c74
 ---
 |/data/openclaw-openclaw-mac-tts|
@@ -378,7 +378,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/media-backup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:33.242Z
+retrieved_at: 2026-02-09T07:02:43.279Z
 content_sha256: 7874c03110ef2a30447c5e61ac52a3b911f52148780af396662062ae4c8500b9
 ---
 |/data/openclaw-openclaw-media-backup|
@@ -395,7 +395,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abgohel/meow-finder/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:34.567Z
+retrieved_at: 2026-02-09T07:02:44.436Z
 content_sha256: 5a61033b896adc1a34b4bd66a228fe7252c470c3ef2c262e3303e06d7a35a8d7
 ---
 |/data/openclaw-openclaw-meow-finder|
@@ -412,7 +412,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/guoqiao/mlx-stt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:36.350Z
+retrieved_at: 2026-02-09T07:02:46.121Z
 content_sha256: 61ce52016e91e36bfd6fb06a56f6c2d510a0ac172bbce4217d2262d3354999f4
 ---
 |/data/openclaw-openclaw-mlx-stt|
@@ -430,7 +430,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/mole-mac-cleanup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:37.009Z
+retrieved_at: 2026-02-09T07:02:46.688Z
 content_sha256: 83b78500c5c1253d121e2b236a3cfa2ae730be7e01447257a44a740cdab2256f
 ---
 |/data/openclaw-openclaw-mole-mac-cleanup|
@@ -448,7 +448,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/officialpm/my-tesla/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:41.548Z
+retrieved_at: 2026-02-09T07:02:50.516Z
 content_sha256: 9d862b0c7506d65cba96dde320b1e07083c991859adec9de20cb845285a5a5b5
 ---
 |/data/openclaw-openclaw-my-tesla|
@@ -465,7 +465,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/network-scanner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:43.537Z
+retrieved_at: 2026-02-09T07:02:52.134Z
 content_sha256: 774f8055e7c6cf297428d0e0270c7dc39e02a828533af9f236888ba99d7ec083
 ---
 |/data/openclaw-openclaw-network-scanner|
@@ -482,7 +482,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/erik-agens/shortcuts-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:17.925Z
+retrieved_at: 2026-02-09T07:03:21.023Z
 content_sha256: bfb2960328f1e840e0a7a715c436158abe6c6914e83ecae1fbe6ce6f93f3d733
 ---
 |/data/openclaw-openclaw-shortcuts-skill|
@@ -499,7 +499,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/latisen/skill-email-management/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:19.093Z
+retrieved_at: 2026-02-09T07:03:22.062Z
 content_sha256: ebe41a5765d149a5c24dff579d2ff6d635cff9186a48df372dc582d630711d1f
 ---
 |/data/openclaw-openclaw-skill-email-management|
@@ -516,7 +516,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/voice-wake-say/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:42.211Z
+retrieved_at: 2026-02-09T07:03:39.875Z
 content_sha256: 76b1d998eecc02ecd17262264483bf07f3be93573e696e447a97a571d1fd5e5f
 ---
 |/data/openclaw-openclaw-voice-wake-say|
@@ -534,7 +534,7 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/worflor/working-with-lockdownd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:47.781Z
+retrieved_at: 2026-02-09T07:03:43.787Z
 content_sha256: a42b4f92311deb58d75f0ed67a220ee4729135c587219b62d8c5f7fb4e18808e
 ---
 |/data/openclaw-openclaw-working-with-lockdownd|

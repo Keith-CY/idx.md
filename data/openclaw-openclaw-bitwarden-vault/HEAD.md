@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/startupbros/bitwarden-vault/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:28.156Z
+retrieved_at: 2026-02-09T07:01:52.691Z
 content_sha256: f0138330f1238d54bd48ebcdbfd4964e1272277470b159d1d617f1c5350ba4aa
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pskoett/self-improving-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:15.206Z
+retrieved_at: 2026-02-09T07:03:18.299Z
 content_sha256: 6234697e11dba69808d105f9cf9c96879a23301a707ceb37f0a0ae50fa2e381b
 ---

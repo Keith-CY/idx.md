@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmz1/skillcraft/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:19.808Z
+retrieved_at: 2026-02-09T07:03:22.624Z
 content_sha256: d45e0e7633d208eeea5ae5b1dd1ecf7345f86ad1ae5f18d0525e3118d82b720a
 ---

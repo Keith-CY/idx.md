@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resend/resend-skills/HEAD/send-email/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/resend/resend-skills/send-email
-retrieved_at: 2026-02-09T06:22:06.498Z
+retrieved_at: 2026-02-09T07:01:35.177Z
 content_sha256: b8d795217a1d54527db3e773c51b14163c043b92e8642d8b2b600a0ff4755fc2
 ---

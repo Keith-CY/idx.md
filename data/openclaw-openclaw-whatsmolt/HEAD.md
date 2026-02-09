@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crypticdriver/whatsmolt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:45.645Z
+retrieved_at: 2026-02-09T07:03:42.271Z
 content_sha256: 7c3af6aa5c2e01ba3df9edc758d850fd5bd9a08c393b1f7e16ea6098d5708f37
 ---

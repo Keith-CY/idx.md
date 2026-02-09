@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bheemreddy181/qmd-local-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:05.548Z
+retrieved_at: 2026-02-09T07:03:10.907Z
 content_sha256: 6f8ee896ea01ec636ca367f8b4bac63d40026957886a9c11b88c97971281b7f1
 ---

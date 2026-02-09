@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/obsidian/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:23:47.282Z
+retrieved_at: 2026-02-09T07:02:55.329Z
 content_sha256: dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xiaozhuang0127/confirm-form/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:22:44.745Z
+retrieved_at: 2026-02-09T07:02:03.762Z
 content_sha256: b1f03f7bd45f1e49e4efd7d0102c9fd264c616c9adf5562d35d24e852507bcf4
 ---

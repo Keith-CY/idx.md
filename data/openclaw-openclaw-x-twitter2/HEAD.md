@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/annettemekuro30/x-twitter2/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T06:24:49.381Z
+retrieved_at: 2026-02-09T07:03:44.912Z
 content_sha256: f037eae09b3a1525625d61928d0be8dcc345e24b38e7a27abbba4ba249940021
 ---

@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/letz-ai/letzai-skill/HEAD/examples/polling_pattern.md
 license: ""
 upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
-retrieved_at: 2026-02-09T06:22:01.968Z
+retrieved_at: 2026-02-09T07:01:30.862Z
 content_sha256: dca10944dcb129ae0451aa5a116a56e569c628f2988d043c9bbe3ed558cda02c
 ---
