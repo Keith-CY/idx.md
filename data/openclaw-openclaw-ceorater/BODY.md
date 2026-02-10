@@ -1,6 +1,6 @@
 ---
 name: ceorater
-description: "Get institutional-grade CEO performance analytics for S&P 500 companies. Proprietary scores: CEORaterScore (composite), AlphaScore (market outperformance), RevenueCAGRScore (revenue growth), CompScore (compensation efficiency). Underlying data includes Total Stock Return (TSR) vs. S&P 500 (SPY), average annual returns, CEO total compensation (most recent fiscal year from proxy filings), and tenure-adjusted Revenue CAGR. Each record includes CEO name, company name, ticker, sector, industry, and tenure dates. Coverage: 516 CEOs as of February 2026, updated daily. Useful for investment research, due diligence, and executive compensation analysis."
+description: "Get institutional-grade CEO performance analytics for S&P 500 companies. Proprietary scores: CEORaterScore (composite), AlphaScore (market outperformance), RevenueCAGRScore (revenue growth), CompScore (compensation efficiency). Underlying data includes Total Stock Return (TSR) vs. S&P 500 (SPY), average annual returns, CEO total compensation (most recent fiscal year from proxy filings), and tenure-adjusted Revenue CAGR. Each record includes CEO name, company name, ticker, sector, industry, and tenure dates. Coverage: 517 CEOs as of February 2026, updated daily. Useful for investment research, due diligence, and executive compensation analysis."
 triggers:
   - "CEO performance"
   - "CEORater"
@@ -74,11 +74,6 @@ curl -H "Authorization: Bearer $CEORATER_API_KEY" \
   "https://api.ceorater.com/v1/companies?limit=100&format=raw"
 ```
 
-### Health Check (no auth required)
-```bash
-curl "https://api.ceorater.com/status"
-```
-
 ## Usage Instructions
 
 When the user asks about CEO performance, ratings, or executive compensation:
@@ -146,7 +141,7 @@ For convenience, use `{baseDir}/scripts/ceorater.sh`:
 
 ## Data Coverage
 
-- 516 CEOs as of February 2026, including all S&P 500 constituents
+- 517 CEOs as of February 2026, including all S&P 500 constituents
 - Updated daily after U.S. market close (typically by 6:30 PM EST)
 - Safe to cache responses for up to 24 hours
 

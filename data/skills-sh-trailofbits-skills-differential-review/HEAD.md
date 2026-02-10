@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/differential-review/skills/differential-review/methodology.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/differential-review
-retrieved_at: 2026-02-09T18:13:58.534Z
+retrieved_at: 2026-02-10T10:44:28.465Z
 content_sha256: 16b335d24cf2145e3dc4a37f50056550d29db2efa20e6df78fec95ec1e6fb0b4
 ---

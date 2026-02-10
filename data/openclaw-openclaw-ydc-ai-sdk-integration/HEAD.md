@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/ydc-ai-sdk-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:25.901Z
+retrieved_at: 2026-02-10T10:45:31.201Z
 content_sha256: 2d1de68234d61ec4da6a51191066f1cde7af2073196010f218f18a1a625b5515
 ---

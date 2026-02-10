@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/skills/baoyu-comic/references/partial-workflows.md
+source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-comic/references/partial-workflows.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
-retrieved_at: 2026-02-09T18:13:53.876Z
+retrieved_at: 2026-02-10T10:44:27.944Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---

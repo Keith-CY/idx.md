@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/i3130002/edge-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:44.888Z
+retrieved_at: 2026-02-10T10:44:33.048Z
 content_sha256: f313dd928f5cfb7d0b0fb477c77fd17beabccd97ee8240649fc711097f978752
 ---

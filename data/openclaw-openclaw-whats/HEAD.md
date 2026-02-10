@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/engahmedsalah358-lgtm/whats/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:21.211Z
+retrieved_at: 2026-02-10T10:45:27.790Z
 content_sha256: d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58
 ---

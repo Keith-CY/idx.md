@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shreefentsar/zoho/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:28.484Z
+retrieved_at: 2026-02-10T10:45:33.044Z
 content_sha256: e4c8df574386992bca9046a1bc445f64f3de0da5466cee78cadf1f2b0f49052c
 ---

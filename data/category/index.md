@@ -9,10 +9,10 @@
 | Clawdbot Tools | 104 | /category/clawdbot-tools/index.md |
 | CLI Utilities | 85 | /category/cli-utilities/index.md |
 | Coding Agents & IDEs | 55 | /category/coding-agents-ides/index.md |
-| Communication | 68 | /category/communication/index.md |
+| Communication | 72 | /category/communication/index.md |
 | Data & Analytics | 31 | /category/data-analytics/index.md |
 | DevOps & Cloud | 139 | /category/devops-cloud/index.md |
-| Finance | 35 | /category/finance/index.md |
+| Finance | 37 | /category/finance/index.md |
 | Gaming | 7 | /category/gaming/index.md |
 | Git & GitHub | 33 | /category/git-github/index.md |
 | Health & Fitness | 35 | /category/health-fitness/index.md |
@@ -32,5 +32,5 @@
 | Smart Home & IoT | 50 | /category/smart-home-iot/index.md |
 | Speech & Transcription | 43 | /category/speech-transcription/index.md |
 | Transportation | 54 | /category/transportation/index.md |
-| Uncategorized | 320 | /category/uncategorized/index.md |
+| Uncategorized | 359 | /category/uncategorized/index.md |
 | Web Frontend Development | 46 | /category/web-frontend-development/index.md |

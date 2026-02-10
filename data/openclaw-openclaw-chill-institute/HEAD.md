@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/chill-institute/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:26.830Z
+retrieved_at: 2026-02-10T10:44:31.307Z
 content_sha256: 6e85b52b6a60c8e7726ed12ac8ffaf81855e709529bd0356ea3d87a2552886b3
 ---

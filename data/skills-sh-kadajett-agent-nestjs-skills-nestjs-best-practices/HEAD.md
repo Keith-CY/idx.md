@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/kadajett/agent-nestjs-skills/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practices
-retrieved_at: 2026-02-09T18:16:29.358Z
+retrieved_at: 2026-02-10T10:45:33.540Z
 content_sha256: b699d2245ddc6b6cdd08d86db0a89903556dc33138acb2d34645b5c2fb319219
 ---

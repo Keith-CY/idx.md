@@ -43,7 +43,7 @@ tags:
 source_url: ""
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:42.811Z
+retrieved_at: 2026-02-10T10:45:47.248Z
 content_sha256: d71ccd45f40f23342c317548510b1eb8bbc39f4ed6d1a889b141aa8b5a036349
 ---
 |/data/playbook-scenario-content-marketing|

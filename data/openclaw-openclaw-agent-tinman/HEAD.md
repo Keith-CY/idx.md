@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oliveskin/agent-tinman/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:09.901Z
+retrieved_at: 2026-02-10T10:44:29.743Z
 content_sha256: f08e957a251ee3a7818126602a4e2acdf669c011bd86410ba58083c09d17a354
 ---

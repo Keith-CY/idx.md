@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dial481/penfield/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:36.413Z
-content_sha256: b493dc34efa404d646dc5ea546f3673ab4b305a385bb61e2ad04c3d3a73019b8
+retrieved_at: 2026-02-10T10:44:54.241Z
+content_sha256: c5d26784716f4eeb06b8ebbe88cf5b595fae3992f799d35a8c2afc92ab49f55f
 ---

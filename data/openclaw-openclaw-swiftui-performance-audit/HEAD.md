@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-performance-audit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:05.197Z
+retrieved_at: 2026-02-10T10:45:14.565Z
 content_sha256: 76bb355c9032f25e8120842fdc911668c320717380073e77e71bab90c67d7f96
 ---

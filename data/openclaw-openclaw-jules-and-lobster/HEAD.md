@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sanjacob99/jules-and-lobster/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:08.918Z
+retrieved_at: 2026-02-10T10:44:36.594Z
 content_sha256: 75c528b4a00f4300ae31477181764bfcb63b45d98dc98b12ca63730afc678b6d
 ---

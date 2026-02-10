@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-full/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:27.008Z
+retrieved_at: 2026-02-10T10:45:32.012Z
 content_sha256: d9a4d6e2137704e917dbe464f59666e0b6d087b3431ac0a8f1d4406acd474687
 ---

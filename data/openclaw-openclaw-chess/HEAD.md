@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/l-mendez/chess/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:26.747Z
+retrieved_at: 2026-02-10T10:44:31.301Z
 content_sha256: 7d0643ef1c01ce826437691b1ed38674bde22f5e3831e77d88fc558c492a28a1
 ---

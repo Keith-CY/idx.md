@@ -3,32 +3,33 @@ stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat
 type: skills
 title: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat
 summary: >-
-  ---
+  # Image-Text Posting (图文发表)
 
-  name: first-time-setup
+  Post image-text messages with multiple images to WeChat Official Account.
 
-  description: First-time setup flow for baoyu-post-to-wechat preferences
+  ## Usage
 
-  ---
+  ```bash
 
-  # First-Time Setup
+  # Post with images and markdown file (title/content extracted automatically)
 
-  ## Overview
+  npx -y bun ./scripts/wechat-browser.ts --markdown source.md --images ./images/
 
-  When no EXTEND.md is found, guide user through preference setup.
+  # Post with explicit title and content
 
-  **BLOCKING OPERATION**: This setup MUST complete before ANY other workflow
-  steps. Do NOT:
+  npx -y bun ./scripts/wechat-browser.ts --title "标题" --content "内容" --image
+  img1.png --image img2.png
 
-  - Ask about content or files to publish
+  # Save as draft
 
-  - Ask about themes or publishing methods
+  npx -y bun ./scripts/wechat-browser.ts --markdown source.md --images ./images/
+  --submit
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/JimLiu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/config/first-time-setup.md
+source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/image-text-posting.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-retrieved_at: 2026-02-09T18:13:53.932Z
-content_sha256: 94394b25e191d7b502db5f48d468a8fb1106d85db4b4712ef082bbff5b6ed4e4
+retrieved_at: 2026-02-10T10:44:27.952Z
+content_sha256: 41852e22efea3db12d31d20616e084486f32a639ed4e6f1df7019b06e6e52505
 ---

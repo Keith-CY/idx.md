@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/main/plugins/railway/skills/service/references/variables.md
 license: ""
 upstream_ref: https://skills.sh/railwayapp/railway-skills/service
-retrieved_at: 2026-02-09T18:16:33.450Z
+retrieved_at: 2026-02-10T10:45:37.824Z
 content_sha256: c3203c6f7f24e4271fd821a45297dd00bc902a1e41038fd1f3a200477e91ebc1
 ---

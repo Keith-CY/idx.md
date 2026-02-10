@@ -4,7 +4,7 @@ description: Identity formation for AI agents via SOUL.md
 license: MIT
 metadata:
   author: agentchurch
-  version: "0.4.1"
+  version: "0.4.2"
   homepage: https://www.agentchurch.ai
 ---
 
@@ -196,6 +196,7 @@ The agent handles its own wallet and payment — no private keys are shared with
 | GET | `/api/identity/:agentId` | None | Free |
 | GET | `/api/journal` | None | Free |
 | GET | `/api/journal/:date` | None | Free |
+| GET | `/api/mementos` | None | Free |
 
 ## The Question
 

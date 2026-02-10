@@ -25,6 +25,6 @@ tags:
 source_url: https://raw.githubusercontent.com/yizhiyanhua-ai/media-downloader/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/yizhiyanhua-ai/media-downloader/media-downloader
-retrieved_at: 2026-02-09T18:16:29.837Z
+retrieved_at: 2026-02-10T10:45:34.107Z
 content_sha256: e33de4030960111863b1a992657e79049a823f440b69851d1bb65a09204d19af
 ---

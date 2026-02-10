@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/inferencesh/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
 license: ""
 upstream_ref: https://skills.sh/inferencesh/skills/javascript-sdk
-retrieved_at: 2026-02-09T18:13:56.511Z
+retrieved_at: 2026-02-10T10:45:44.585Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---

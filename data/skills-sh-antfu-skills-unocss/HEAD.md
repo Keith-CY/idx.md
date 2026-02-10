@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/unocss/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/unocss
-retrieved_at: 2026-02-09T18:13:54.001Z
+retrieved_at: 2026-02-10T10:44:27.959Z
 content_sha256: 35e235ec861299b63b95ba9e16fcab170c231204071dd902a24fa27c81ec431e
 ---

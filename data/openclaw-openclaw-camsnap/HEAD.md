@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/camsnap/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:25.097Z
+retrieved_at: 2026-02-10T10:44:31.143Z
 content_sha256: 5e499af0105023f43112460f15d97ac6e741d1c185661e2215a5f8585ad68107
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/glitch003/safe-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:51.802Z
+retrieved_at: 2026-02-10T10:45:05.311Z
 content_sha256: 1a5c0077efd62b2720282054e0ddd7053e3d26e528869fd1a21c60ac83579d73
 ---

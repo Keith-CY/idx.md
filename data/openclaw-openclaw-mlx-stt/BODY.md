@@ -1,12 +1,20 @@
 ---
 name: mlx-stt
-description: Speech-To-Text with MLX (Apple Silicon) and GLM-ASR-Nano-2512 locally.
-metadata: {"openclaw":{"always":true,"emoji":"🦞","homepage":"https://github.com/guoqiao/skills/blob/main/mlx-stt/mlx-stt/SKILL.md","os":["darwin"],"tags":["latest","asr","stt","speech-to-text","audio","glm","glm-asr","glm-asr-nano-2512","glm-asr-nano-2512-8bit","macOS","MacBook","Mac mini","Apple Silicon","mlx","mlx-audio"],"requires":{"bins":["brew"]}}}
+description: Speech-To-Text with MLX (Apple Silicon) and opensource models (default GLM-ASR-Nano-2512) locally.
+version: 1.0.7
+author: guoqiao
+metadata: {"openclaw":{"always":true,"emoji":"🦞","homepage":"https://github.com/guoqiao/skills/blob/main/mlx-stt/mlx-stt/SKILL.md","os":["darwin"],"requires":{"bins":["brew"]}}}
+triggers:
+- "/mlx-stt <audio>"
+- "STT ..."
+- "ASR ..."
+- "Transcribe ..."
+- "Convert audio to text ..."
 ---
 
 # MLX STT
 
-Speech-To-Text/ASR/Transcribe with MLX (Apple Silicon) and GLM-ASR-Nano-2512 locally.
+Speech-To-Text/ASR/Transcribe with MLX (Apple Silicon) and opensource models (default GLM-ASR-Nano-2512) locally.
 
 Free and Accurate. No api key required. No server required.
 
@@ -27,11 +35,11 @@ This script will use `brew` to install these cli tools if not available:
 
 ## Usage
 
-To transcribe an audio file, run the `mlx-stt.py` script:
+To transcribe an audio file, run this script:
 
 ```bash
-uv run  ${baseDir}/mlx-stt.py <audio_file_path>
+bash  ${baseDir}/mlx-stt.sh <audio_file_path>
 ```
 
-- When first run, it will download model from Hugging Face, default: `mlx-community/GLM-ASR-Nano-2512-8bit`, 2.5GB ish.
+- First run could be a little slow, since it will need to download model.
 - The transcript result will be printed to stdout.

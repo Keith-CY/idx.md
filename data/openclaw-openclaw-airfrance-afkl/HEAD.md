@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iclems/airfrance-afkl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:11.866Z
+retrieved_at: 2026-02-10T10:44:29.933Z
 content_sha256: 3a2afe2014b41163d4cbe7551ce6c45fb3db3029961a6fd69879608d1885b334
 ---

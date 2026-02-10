@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/ydc-claude-agent-sdk-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:25.976Z
+retrieved_at: 2026-02-10T10:45:31.242Z
 content_sha256: 7756bf116df4536f4ab8a6e14242e0406bc5992cbf0590eae42ac0efb9c4067e
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-projects-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:18.410Z
+retrieved_at: 2026-02-10T10:44:30.529Z
 content_sha256: 373a87deb538810ccc155683eae3178f6bd85fb0972b222a39127255bf84b641
 ---

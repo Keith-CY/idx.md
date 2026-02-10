@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/fathom/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:48.999Z
+retrieved_at: 2026-02-10T10:44:33.449Z
 content_sha256: 881fb6fddf97920467d71ebe55a45554567bca29069f5827396420ee0ea03690
 ---

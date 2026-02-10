@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/erik-agens/shortcuts-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:56.818Z
+retrieved_at: 2026-02-10T10:45:08.661Z
 content_sha256: bfb2960328f1e840e0a7a715c436158abe6c6914e83ecae1fbe6ce6f93f3d733
 ---

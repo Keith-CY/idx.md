@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/consort-tech/organize-tg/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:33.521Z
+retrieved_at: 2026-02-10T10:44:52.306Z
 content_sha256: 9e1fbcd728a45e602dbeb63b69cf5ddd56adb74fa421a41001819c751343a1cb
 ---

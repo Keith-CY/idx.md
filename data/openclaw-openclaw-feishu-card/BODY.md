@@ -42,3 +42,21 @@ node skills/feishu-card/send_safe.js --target "ou_..." --text "Raw content with 
 
 ## Troubleshooting
 - **Missing Text**: Did you use backticks in `--text`? The shell likely ate them. Use `--text-file` instead.
+
+## 4. Persona Messaging
+Send stylized messages from different AI personas. Adds themed headers, colors, and formatting automatically.
+
+```bash
+node skills/feishu-card/send_persona.js --target "ou_..." --persona "d-guide" --text "Critical error detected."
+```
+
+### Supported Personas
+- **d-guide**: Red warning header, bold/code prefix. Snarky suffix.
+- **green-tea**: Carmine header, soft/cutesy style.
+- **mad-dog**: Grey header, raw runtime error style.
+- **default**: Standard blue header.
+
+### Usage
+- `-p, --persona <type>`: Select persona (d-guide, green-tea, mad-dog).
+- `-x, --text <string>`: Message content.
+- `-f, --text-file <path>`: Message content from file (supports markdown).

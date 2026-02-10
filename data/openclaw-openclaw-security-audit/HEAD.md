@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chandrasekar-r/security-audit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:53.230Z
+retrieved_at: 2026-02-10T10:45:06.431Z
 content_sha256: 7ed4a7bd3811fbf405703886f4ce53c4953803af3f4e3705da95a8ae83e69dd5
 ---

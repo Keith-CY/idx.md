@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.experimental/clean-architecture/references/dep-inward-only.md
 license: ""
 upstream_ref: https://skills.sh/pproenca/dot-skills/clean-architecture
-retrieved_at: 2026-02-09T18:14:04.563Z
+retrieved_at: 2026-02-10T10:44:29.299Z
 content_sha256: f7c28c5d06988ac8103107c643864bbf8fbdb4710379cc04099970ca7be1a54f
 ---

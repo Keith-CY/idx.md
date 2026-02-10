@@ -22,6 +22,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/purch-agent/agentic-commerce/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:10.421Z
+retrieved_at: 2026-02-10T10:44:29.796Z
 content_sha256: f546340b7582898739a3adacbeb923b0037965c80a261801064f1664ee172381
 ---

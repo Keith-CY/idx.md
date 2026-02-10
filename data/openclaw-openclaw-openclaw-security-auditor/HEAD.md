@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/muhammad-waleed381/openclaw-security-auditor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:31.869Z
+retrieved_at: 2026-02-10T10:44:51.268Z
 content_sha256: c2282352b932c7614f432e5171c66eab7d21a4ca4ea459ac17416edc47f216c9
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bmcalister/clawsignal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:31.927Z
+retrieved_at: 2026-02-10T10:44:31.864Z
 content_sha256: 7febe07adf998a92366fc0e77d5b32c2406c2b48bf42a1e9a309e60562f65389
 ---

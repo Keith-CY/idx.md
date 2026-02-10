@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/agent-browser/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:07.639Z
+retrieved_at: 2026-02-10T10:44:29.566Z
 content_sha256: 04afeeb53a8b6ab953974311ec7ed60e0d66c532341ca21933625320f28b01c6
 ---

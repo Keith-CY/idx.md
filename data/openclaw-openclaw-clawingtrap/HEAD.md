@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/raulvidis/clawingtrap/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:14:31.077Z
+retrieved_at: 2026-02-10T10:44:31.783Z
 content_sha256: a2813931869eed9d65351a0056fb72c23a288d9dd53d3326d6ac153ba86750fc
 ---

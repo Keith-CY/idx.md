@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xthezealot/youtube-transcript/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:16:27.474Z
+retrieved_at: 2026-02-10T10:45:32.404Z
 content_sha256: f8843aca94abffecb456a7e71fef337bd814150f215a66f7733c373488b3d43a
 ---

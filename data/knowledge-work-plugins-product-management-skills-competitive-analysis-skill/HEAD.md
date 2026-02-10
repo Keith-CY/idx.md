@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/competitive-analysis/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/competitive-analysis/SKILL.md
-retrieved_at: 2026-02-09T18:16:38.897Z
+retrieved_at: 2026-02-10T10:45:41.594Z
 content_sha256: ac3860cec29139440a9b4e50df430378ecedebfd2f537ce1eaa6d4ce866f73be
 ---

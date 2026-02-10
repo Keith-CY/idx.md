@@ -1,7 +1,7 @@
 ---
 name: krea-api
 description: Generate images via Krea.ai API (Flux, Imagen, Ideogram, Seedream, etc.)
-version: 0.1.0
+version: 0.2.0
 ---
 
 # Krea.ai Image Generation Skill
@@ -10,31 +10,58 @@ Generate images using Krea.ai's API with support for multiple models including F
 
 ## Features
 
-- Async job-based generation (POST → poll → result)
-- Support for multiple image models
-- Configurable parameters (width, height, steps, guidance, seed, etc.)
-- Webhook support for background completion
-- Stdlib-only dependencies (no `requests` required)
+- ✅ Async job-based generation (POST → poll → result)
+- ✅ Support for multiple image models
+- ✅ Configurable parameters (width, height, steps, guidance, seed)
+- ✅ Stdlib-only dependencies (no `requests` required)
+- ✅ Security-first credential handling (file-only, no subprocess)
+
+## Security
+
+This skill prioritizes security:
+
+- **No subprocess calls** - Credentials read directly from file only
+- **No webhook support** - Removed to prevent SSRF risks
+- **File-based credentials** - Single credential source
+- **Stdlib dependencies** - Minimal attack surface
 
 ## Setup
 
 1. Get your Krea.ai API credentials from https://docs.krea.ai/developers/api-keys-and-billing
-2. Configure with:
-
+2. Create the credentials file:
 ```bash
-clawdbot config set skill.krea_api.key_id YOUR_KEY_ID
-clawdbot config set skill.krea_api.secret YOUR_SECRET
+mkdir -p ~/.clawdbot/credentials
 ```
 
-3. Or pass credentials directly as arguments.
+3. Add your credentials:
+```bash
+echo '{"apiKey": "YOUR_KEY_ID:YOUR_SECRET"}' > ~/.clawdbot/credentials/krea.json
+```
+
+4. Set secure permissions:
+```bash
+chmod 600 ~/.clawdbot/credentials/krea.json
+```
 
 ## Usage
 
-### Interactive Mode
+### Command Line
 
-```
-You: Generate a sunset over the ocean with Flux
-Klawf: Creates the image and returns the URL
+```bash
+# Generate an image
+python3 krea_api.py --prompt "A sunset over the ocean"
+
+# With specific model
+python3 krea_api.py --prompt "Cyberpunk city" --model imagen-4
+
+# Custom size
+python3 krea_api.py --prompt "Portrait" --width 1024 --height 1280
+
+# List available models
+python3 krea_api.py --list-models
+
+# Check recent jobs
+python3 krea_api.py --jobs 10
 ```
 
 ### Python Script
@@ -42,10 +69,7 @@ Klawf: Creates the image and returns the URL
 ```python
 from krea_api import KreaAPI
 
-api = KreaAPI(
-    key_id="your-key-id",
-    secret="your-secret"
-)
+api = KreaAPI()  # Reads from ~/.clawdbot/credentials/krea.json
 
 # Generate and wait
 urls = api.generate_and_wait(
@@ -57,36 +81,73 @@ urls = api.generate_and_wait(
 print(urls)
 ```
 
-### Available Models (examples)
-
-| Model | Endpoint |
-|-------|----------|
-| flux | `/generate/image/bfl/flux-1-dev` |
-| flux-kontext | `/generate/image/bfl/flux-1-dev-kontext` |
-| flux-1.1-pro | `/generate/image/bfl/flux-1-1-pro` |
-| imagen-3 | `/generate/image/google/imagen-3` |
-| imagen-4 | `/generate/image/google/imagen-4` |
-| ideogram-3.0 | `/generate/image/ideogram/ideogram-3-0` |
-| seedream-4 | `/generate/image/seedream/seedream-4` |
-
-For the full list, run:
-
-```bash
-python3 krea_api.py --list-models
-```
-
-## Parameters
+### Parameters
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
 | prompt | str | required | Image description (max 1800 chars) |
-| model | str | "flux" | Model name from table above |
+| model | str | "flux" | Model name from table below |
 | width | int | 1024 | Image width (512-2368) |
 | height | int | 1024 | Image height (512-2368) |
 | steps | int | 25 | Generation steps (1-100) |
 | guidance_scale | float | 3.0 | Guidance scale (0-24) |
 | seed | str | None | Random seed for reproducibility |
-| webhook_url | str | None | URL for completion notification |
+
+### Available Models
+
+| Model | Best For |
+|-------|----------|
+| flux | General purpose, high quality |
+| imagen-4 | Latest Google model |
+| ideogram-3.0 | Text in images |
+| seedream-4 | Fast generations |
+| nano-banana | Quick previews |
+
+Run `python3 krea_api.py --list-models` for full list.
+
+## Check Usage
+
+Krea.ai doesn't provide a public usage API. Check your usage at:
+
+https://www.krea.ai/settings/usage-statistics
+
+Or list recent jobs:
+
+```bash
+python3 krea_api.py --jobs 10
+```
+
+## File Locations
+
+| Purpose | Path |
+|---------|------|
+| Credentials | `~/.clawdbot/credentials/krea.json` |
+| Script | `{skill}/krea_api.py` |
+| Skills | `{skill}/SKILL.md` |
+
+## Troubleshooting
+
+### "API credentials required"
+
+1. Check credentials file exists:
+```bash
+cat ~/.clawdbot/credentials/krea.json
+```
+
+2. Verify permissions:
+```bash
+ls -la ~/.clawdbot/credentials/krea.json
+# Should show: -rw-------
+```
+
+3. Check format (must have colon):
+```json
+{"apiKey": "KEY_ID:SECRET"}
+```
+
+### Model not found
+
+Run `python3 krea_api.py --list-models` to see available models.
 
 ## Credits
 

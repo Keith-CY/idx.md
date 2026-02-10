@@ -169,6 +169,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 
 | Service | App Name | Base URL Proxied |
 |---------|----------|------------------|
+| ActiveCampaign | `active-campaign` | `{account}.api-us1.com` |
 | Acuity Scheduling | `acuity-scheduling` | `acuityscheduling.com` |
 | Airtable | `airtable` | `api.airtable.com` |
 | Apollo | `apollo` | `api.apollo.io` |
@@ -176,12 +177,14 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Attio | `attio` | `api.attio.com` |
 | Basecamp | `basecamp` | `3.basecampapi.com` |
 | Box | `box` | `api.box.com` |
+| Brevo | `brevo` | `api.brevo.com` |
 | Calendly | `calendly` | `api.calendly.com` |
 | Chargebee | `chargebee` | `{subdomain}.chargebee.com` |
 | ClickFunnels | `clickfunnels` | `{subdomain}.myclickfunnels.com` |
 | ClickUp | `clickup` | `api.clickup.com` |
 | Cognito Forms | `cognito-forms` | `www.cognitoforms.com` |
 | Constant Contact | `constant-contact` | `api.cc.email` |
+| Dropbox | `dropbox` | `api.dropboxapi.com` |
 | Eventbrite | `eventbrite` | `www.eventbriteapi.com` |
 | Fathom | `fathom` | `api.fathom.ai` |
 | GitHub | `github` | `api.github.com` |
@@ -235,6 +238,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | TickTick | `ticktick` | `api.ticktick.com` |
 | Todoist | `todoist` | `api.todoist.com` |
 | Trello | `trello` | `api.trello.com` |
+| Twilio | `twilio` | `api.twilio.com` |
 | Typeform | `typeform` | `api.typeform.com` |
 | Vimeo | `vimeo` | `api.vimeo.com` |
 | WhatsApp Business | `whatsapp-business` | `graph.facebook.com` |
@@ -251,6 +255,7 @@ If omitted, the gateway uses the default (oldest) active connection for that app
 | Zoho Recruit | `zoho-recruit` | `recruit.zoho.com` |
 
 See [references/](references/) for detailed routing guides per provider:
+- [ActiveCampaign](references/active-campaign.md) - Contacts, deals, tags, lists, automations, campaigns
 - [Acuity Scheduling](references/acuity-scheduling.md) - Appointments, calendars, clients, availability
 - [Airtable](references/airtable.md) - Records, bases, tables
 - [Apollo](references/apollo.md) - People search, enrichment, contacts
@@ -258,12 +263,14 @@ See [references/](references/) for detailed routing guides per provider:
 - [Attio](references/attio.md) - People, companies, records, tasks
 - [Basecamp](references/basecamp.md) - Projects, to-dos, messages, schedules, documents
 - [Box](references/box.md) - Files, folders, collaborations, shared links
+- [Brevo](references/brevo.md) - Contacts, email campaigns, transactional emails, templates
 - [Calendly](references/calendly.md) - Event types, scheduled events, availability, webhooks
 - [Chargebee](references/chargebee.md) - Subscriptions, customers, invoices
 - [ClickFunnels](references/clickfunnels.md) - Contacts, products, orders, courses, webhooks
 - [ClickUp](references/clickup.md) - Tasks, lists, folders, spaces, webhooks
 - [Cognito Forms](references/cognito-forms.md) - Forms, entries, documents, files
 - [Constant Contact](references/constant-contact.md) - Contacts, email campaigns, lists, segments
+- [Dropbox](references/dropbox.md) - Files, folders, search, metadata, revisions, tags
 - [Eventbrite](references/eventbrite.md) - Events, venues, tickets, orders, attendees
 - [Fathom](references/fathom.md) - Meeting recordings, transcripts, summaries, webhooks
 - [GitHub](references/github.md) - Repositories, issues, pull requests, commits
@@ -317,6 +324,7 @@ See [references/](references/) for detailed routing guides per provider:
 - [TickTick](references/ticktick.md) - Tasks, projects, task lists
 - [Todoist](references/todoist.md) - Tasks, projects, sections, labels, comments
 - [Trello](references/trello.md) - Boards, lists, cards, checklists
+- [Twilio](references/twilio.md) - SMS, voice calls, phone numbers, messaging
 - [Typeform](references/typeform.md) - Forms, responses, insights
 - [Vimeo](references/vimeo.md) - Videos, folders, albums, comments, likes
 - [WhatsApp Business](references/whatsapp-business.md) - Messages, templates, media

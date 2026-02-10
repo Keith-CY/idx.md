@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dukbong/seoul-subway/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-09T18:15:55.495Z
+retrieved_at: 2026-02-10T10:45:07.798Z
 content_sha256: 165e98e678b0d7a4aa2c1aa2d48db036d58c8e2dcef099c505b461266b415148
 ---
