@@ -1816,3 +1816,59 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/github-issues
+- type: skills
+  slug: skills-sh-inferencesh-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/inferencesh/skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inferencesh/skills/agent-tools
+- type: skills
+  slug: skills-sh-vuejs-ai-skills-vue-router-best-practices
+  source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-router-best-practices/reference/router-beforeenter-no-param-trigger.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/vuejs-ai/skills/vue-router-best-practices
+- type: skills
+  slug: skills-sh-inferencesh-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/inferencesh/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inferencesh/skills/python-sdk
+- type: skills
+  slug: skills-sh-inferencesh-skills-javascript-sdk
+  source_url: https://raw.githubusercontent.com/inferencesh/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inferencesh/skills/javascript-sdk
+- type: skills
+  slug: skills-sh-inference-sh-skills-agentic-browser
+  source_url: https://raw.githubusercontent.com/inference-sh/skills/HEAD/skills/agentic-browser/references/commands.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh/skills/agentic-browser
+- type: skills
+  slug: skills-sh-apollographql-skills-rover
+  source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/rover/references/subgraphs.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apollographql/skills/rover
+- type: skills
+  slug: skills-sh-resciencelab-opc-skills-banner-creator
+  source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/banner-creator/references/formats.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
+- type: skills
+  slug: skills-sh-halthelobster-proactive-agent-proactive-agent
+  source_url: https://raw.githubusercontent.com/halthelobster/proactive-agent/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/halthelobster/proactive-agent/proactive-agent
