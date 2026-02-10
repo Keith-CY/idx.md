@@ -1,3 +1,4 @@
+import { createHash } from "crypto";
 import { parse } from "yaml";
 import { resolve } from "path";
 
@@ -12,14 +13,40 @@ function extractFrontmatter(text: string): string | null {
   return match[1] ?? null;
 }
 
+function stableStringify(value: unknown): string {
+  if (Array.isArray(value)) {
+    return `[${value.map((entry) => stableStringify(entry)).join(",")}]`;
+  }
+  if (typeof value === "object" && value !== null) {
+    const entries = Object.entries(value as Record<string, unknown>).sort(
+      ([left], [right]) => left.localeCompare(right),
+    );
+    const body = entries
+      .map(([key, entry]) => `${JSON.stringify(key)}:${stableStringify(entry)}`)
+      .join(",");
+    return `{${body}}`;
+  }
+  return JSON.stringify(value);
+}
+
+function computeSha256Hex(text: string): string {
+  return createHash("sha256").update(text).digest("hex");
+}
+
 function extractContentHash(text: string): string | null {
   const frontmatter = extractFrontmatter(text);
   if (!frontmatter) {
     return null;
   }
-  const data = parse(frontmatter) as { content_sha256?: string } | null;
-  const value = data?.content_sha256;
-  return typeof value === "string" && value.length > 0 ? value : null;
+  const data = parse(frontmatter) as Record<string, unknown> | null;
+  if (!data || typeof data !== "object" || Array.isArray(data)) {
+    return null;
+  }
+
+  // Ignore the volatile timestamp so sync logic only triggers on meaningful changes.
+  delete data.retrieved_at;
+  const comparable = stableStringify(data);
+  return computeSha256Hex(comparable);
 }
 
 export async function loadContentHashes(rootDir: string): Promise<Map<string, string | null>> {
