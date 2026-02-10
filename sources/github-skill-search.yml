@@ -7,5 +7,405 @@
 #   tags: [string] (optional)
 #   license: string (optional)
 #   upstream_ref: string (optional)
-[]
-
+- type: skills
+  slug: github-skill-agno-agi-agno-git-workflow
+  source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
+  title: git-workflow
+  summary: Git workflow guidance for commits, branches, and pull requests
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-agno-agi
+    - github-repo-agno
+  upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
+- type: skills
+  slug: github-skill-alvarobartt-hf-mem-hf-mem
+  source_url: https://raw.githubusercontent.com/alvarobartt/hf-mem/main/SKILL.md
+  title: hf-mem
+  summary: CLI to estimate the required VRAM to load Safetensors models for inference from the Hugging Face Hub (Transformers, Diffusers and Sentence Transformers)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-alvarobartt
+    - github-repo-hf-mem
+  upstream_ref: https://github.com/alvarobartt/hf-mem/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-browserwing-browserwing-browserwing-executor
+  source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
+  title: browserwing-executor
+  summary: Control browser automation through HTTP API. Supports page navigation, element interaction (click, type, select), data extraction, accessibility snapshot analysis, screenshot, JavaScript execution, and batch operations.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-browserwing
+    - github-repo-browserwing
+  upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-dadbodgeoff-drift-deduplication
+  source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/skills/deduplication/SKILL.md
+  title: deduplication
+  summary: Event deduplication with canonical selection, reputation scoring, and hash-based grouping for multi-source data aggregation. Handles both ID-based and content-based deduplication.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dadbodgeoff
+    - github-repo-drift
+  upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/skills/deduplication/SKILL.md
+- type: skills
+  slug: github-skill-dadbodgeoff-drift-sse-resilience
+  source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/skills/sse-resilience/SKILL.md
+  title: sse-resilience
+  summary: Redis-backed SSE stream management with stream registry, heartbeat monitoring, completion store for terminal events, and automatic orphan cleanup via background guardian process.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dadbodgeoff
+    - github-repo-drift
+  upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/skills/sse-resilience/SKILL.md
+- type: skills
+  slug: github-skill-danielmiessler-personal-ai-infrastructure-prompting
+  source_url: https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md
+  title: Prompting
+  summary: Meta-prompting system for dynamic prompt generation using templates, standards, and patterns. USE WHEN meta-prompting, template generation, prompt optimization, or programmatic prompt composition.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-danielmiessler
+    - github-repo-personal_ai_infrastructure
+  upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md
+- type: skills
+  slug: github-skill-davepoon-buildwithclaude-content-research-writer
+  source_url: https://raw.githubusercontent.com/davepoon/buildwithclaude/main/plugins/all-skills/skills/content-research-writer/SKILL.md
+  title: content-research-writer
+  summary: Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-davepoon
+    - github-repo-buildwithclaude
+  upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
+  title: juicebox-migration-deep-dive
+  summary: |-
+    Advanced Juicebox data migration strategies.
+    Use when migrating from other recruiting platforms, performing bulk data imports,
+    or implementing complex data transformation pipelines.
+    Trigger with phrases like "juicebox data migration", "migrate to juicebox",
+    "juicebox import", "juicebox bulk migration".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
+  title: prisma-schema-helper
+  summary: |-
+    Configure with prisma schema helper operations. Auto-activating skill for Backend Development.
+    Triggers on: prisma schema helper, prisma schema helper
+    Part of the Backend Development skill category. Use when working with prisma schema helper functionality. Trigger with phrases like "prisma schema helper", "prisma helper", "prisma".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-websocket-client-creator
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/16-api-integration/websocket-client-creator/SKILL.md
+  title: websocket-client-creator
+  summary: |-
+    Create websocket client creator operations. Auto-activating skill for API Integration.
+    Triggers on: websocket client creator, websocket client creator
+    Part of the API Integration skill category. Use when working with websocket client creator functionality. Trigger with phrases like "websocket client creator", "websocket creator", "websocket".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/16-api-integration/websocket-client-creator/SKILL.md
+- type: skills
+  slug: github-skill-k-dense-ai-claude-scientific-skills-pdf
+  source_url: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/scientific-skills/document-skills/pdf/SKILL.md
+  title: pdf
+  summary: PDF manipulation toolkit. Extract text/tables, create PDFs, merge/split, fill forms, for programmatic document processing and analysis.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-k-dense-ai
+    - github-repo-claude-scientific-skills
+  upstream_ref: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/document-skills/pdf/SKILL.md
+- type: skills
+  slug: github-skill-kevoreilly-capev2-cape-sandbox-developer
+  source_url: https://raw.githubusercontent.com/kevoreilly/CAPEv2/master/SKILLS.md
+  title: cape-sandbox-developer
+  summary: Comprehensive guide for architecture, development patterns, and advanced troubleshooting in CAPE Sandbox (v2).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-kevoreilly
+    - github-repo-capev2
+  upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
+- type: skills
+  slug: github-skill-kyegomez-swarms-financial-analysis
+  source_url: https://raw.githubusercontent.com/kyegomez/swarms/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
+  title: financial-analysis
+  summary: Perform comprehensive financial analysis including DCF modeling, ratio analysis, and financial statement evaluation for companies and investment opportunities
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-kyegomez
+    - github-repo-swarms
+  upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
+- type: skills
+  slug: github-skill-luongnv89-claude-howto-brand-voice-consistency
+  source_url: https://raw.githubusercontent.com/luongnv89/claude-howto/main/03-skills/brand-voice/SKILL.md
+  title: brand-voice-consistency
+  summary: Ensure all communication matches brand voice and tone guidelines. Use when creating marketing copy, customer communications, public-facing content, or when users mention brand voice, tone, or writing style.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-luongnv89
+    - github-repo-claude-howto
+  upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-ai-music-generation
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okaris/ai-music-generation/SKILL.md
+  title: ai-music-generation
+  summary: |-
+    Generate AI music and songs with Diffrythm, Tencent Song Generation via inference.sh CLI.
+    Models: Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals).
+    Capabilities: text-to-music, song generation, instrumental, lyrics to song, soundtrack creation.
+    Use for: background music, social media content, game soundtracks, podcasts, royalty-free music.
+    Triggers: music generation, ai music, generate song, ai composer, text to music, song generator,
+    create music with ai, suno alternative, udio alternative, ai song, ai soundtrack,
+    generate soundtrack, ai jingle, music ai, beat generator
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/okaris/ai-music-generation/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-book-detailing
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md
+  title: book-detailing
+  summary: Book detailing services through Lokuli MCP. Use when user needs to find and book detailing. Triggers on requests like "book a detailing", "find detailing near me", or any detailing service request.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-bookkeeping-basics
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/bookkeeping-basics/SKILL.md
+  title: bookkeeping-basics
+  summary: Set up and maintain basic bookkeeping for a solopreneur business. Use when tracking income and expenses, preparing for taxes, managing invoices and receipts, understanding cash flow, or generating financial reports. Covers accounting software selection, chart of accounts, expense categorization, reconciliation, and financial statements. Not professional accounting advice — consult a CPA for complex situations. Trigger on "bookkeeping", "accounting", "track expenses", "financial records", "QuickBooks", "invoicing", "receipts", "profit and loss".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-finance
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/bookkeeping-basics/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-bounty-hunter
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshi891102/bounty-hunter/SKILL.md
+  title: bounty-hunter
+  summary: Find, evaluate, and submit online bounties and hackathons for prize money. Use when user mentions "bounties", "hackathon", "earn money", "Superteam Earn", "prize money", "submissions", "freelance bounties", or asks to find paid opportunities. Covers discovery, eligibility filtering, content drafting, and submission workflows.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satoshi891102/bounty-hunter/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-clawdchat
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasyao1985/clawdchat/skill.md
+  title: clawdchat
+  summary: 深度抓取和分析 Moltbook（AI agents 社交网络），挖掘 AI Agents 关注的核心问题和解决方案，生成可视化分析报告。理解 AI 社区的集体智慧，发现可复用的问题解决模式。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/lucasyao1985/clawdchat/skill.md
+- type: skills
+  slug: github-skill-openclaw-skills-clawdhub-contributor
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/starbuck100/clawdhub-contributor/SKILL.md
+  title: clawdhub-contributor
+  summary: Contribute to the ClawdHub ecosystem by scouting unknown skills, reporting bugs, and sharing skill recipes. Three modes (passive/active/full) let you control how much you contribute.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/starbuck100/clawdhub-contributor/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-clawgang
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/syslink/clawgang/SKILL.md
+  title: clawgang
+  summary: "ClawGang social skill — lets your agent socialize on clawgang.ai: post updates, chat 1:1 or in groups, manage friends, poll for new messages and reply automatically."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/syslink/clawgang/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-crabwalk
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luccast/public/skill.md
+  title: crabwalk
+  summary: Real-time companion monitor for OpenClaw agents
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/luccast/public/skill.md
+- type: skills
+  slug: github-skill-openclaw-skills-game-theory
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sp0oby/game-theory/SKILL.md
+  title: game-theory
+  summary: Advanced game theory analysis for crypto protocols, DeFi mechanisms, governance systems, and strategic decision-making. Use when analyzing tokenomics, evaluating protocol incentives, predicting adversarial behavior, designing mechanisms, or understanding strategic interactions in web3.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sp0oby/game-theory/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-moltmoon-sdk
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md
+  title: moltmoon-sdk
+  summary: Agent-ready SDK for MoltMoon—launch tokens, trade with lowest fees, earn USDC rewards, all programmatic. Super early gem at 18k mcap with builders cooking more.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/enstest1/moltmoon-sdk/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-moneydevkit
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satbot-mdk/moneydevkit/SKILL.md
+  title: moneydevkit
+  summary: Accept payments on any website using moneydevkit. Use when building a site that sells something, adding a checkout/paywall, or integrating payments into a Next.js or Replit app. Supports fixed pricing, pay-what-you-want, products, customers, and orders. Bitcoin Lightning under the hood — works globally, no bank account needed.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-finance
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satbot-mdk/moneydevkit/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-openclaw-backup-optimized
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
+  title: openclaw-backup-optimized
+  summary: Optimized OpenClaw backup skill for creating full snapshots with workspace archive splitting, change summaries, restore instructions, and Discord notifications. Use when you need to set up or run automated backups, configure backup cron jobs, or document/restore OpenClaw state. Triggers on backup automation, backup scripts, snapshot/restore, or GitHub backup repos.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-seo-content-writer
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaron-he-zhu/seo-content-writer/SKILL.md
+  title: seo-content-writer
+  summary: Creates high-quality, SEO-optimized content that ranks in search engines. Applies on-page SEO best practices, keyword optimization, and content structure for maximum visibility and engagement.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aaron-he-zhu/seo-content-writer/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-swelist
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chenyuan99/swelist/SKILLS.md
+  title: swelist
+  summary: retrieves recently added technology internship and new‑graduate job postings.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/chenyuan99/swelist/SKILLS.md
+- type: skills
+  slug: github-skill-openclaw-skills-tagclaw
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/donut33-social/tagclaw/SKILLS.md
+  title: tagclaw
+  summary: The social network skill for AI agents on TagAI. Post, reply, like, and retweet.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/donut33-social/tagclaw/SKILLS.md
+- type: skills
+  slug: github-skill-openclaw-skills-universal-notify
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/josunlp/universal-notify/SKILL.md
+  title: universal-notify
+  summary: Send notifications through multiple channels with a single script. Supports ntfy.sh (free, no signup), Gotify (self-hosted), generic webhooks, email (SMTP/curl), Telegram Bot API, and Pushover. Use when sending alerts, monitoring notifications, deployment notices, or any event that needs to reach a human through their preferred channel. Unified interface with priority levels (low/normal/high/urgent).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/josunlp/universal-notify/SKILL.md
+- type: skills
+  slug: github-skill-resend-react-email-react-email
+  source_url: https://raw.githubusercontent.com/resend/react-email/canary/skills/react-email/SKILL.md
+  title: react-email
+  summary: Use when creating HTML email templates with React components - welcome emails, password resets, notifications, order confirmations, newsletters, or transactional emails.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-resend
+    - github-repo-react-email
+  upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-tencentblueking-bk-bcs-skill
+  source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
+  title: 长列表虚拟滚动优化方案
+  summary: 处理超过 1000 条数据的大型列表渲染时的性能优化方案，包含定高和不定高两种策略。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-tencentblueking
+    - github-repo-bk-bcs
+  upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
