@@ -1,8 +1,8 @@
 ---
 name: smart-followups
-version: 2.1.2
+version: 2.1.5
 description: Generate contextual follow-up suggestions after AI responses. Shows 3 clickable buttons (Quick, Deep Dive, Related) when user types "/followups".
-metadata: {"clawdbot":{"requires":{"bins":["node"],"env":["OPENROUTER_API_KEY","ANTHROPIC_API_KEY"]}}}
+metadata: {"openclaw":{"requires":{"bins":["node"],"note":"No API keys needed. Uses OpenClaw-native auth."}}}
 triggers:
   - /followups
   - followups

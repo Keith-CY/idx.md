@@ -1,7 +1,9 @@
 ---
 name: web-qa-bot
-description: AI-powered web application QA automation using accessibility-tree based testing. Smoke tests, test suites, and PDF reports.
-version: 0.1.0
+description: AI-powered automated QA for web apps. Smoke tests, accessibility, visual regression. Works with Cursor, Claude, ChatGPT, Copilot. Vibe-coding ready.
+version: 0.1.3
+author: NextFrontierBuilds
+keywords: [automated-qa, ai-testing, smoke-test, accessibility-testing, visual-regression, ci-testing, playwright-alternative, e2e-testing, qa, testing, automation, ai, ai-agent, vibe-coding, cursor, claude, chatgpt, copilot, github-copilot, mcp, llm, devtools, ai-tools, developer-tools, typescript, moltbot, openclaw]
 ---
 
 # web-qa-bot

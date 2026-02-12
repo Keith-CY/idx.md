@@ -2,15 +2,8 @@
 name: youtube-data
 description: Access YouTube video data — transcripts, metadata, channel info, search, and playlists. A lightweight alternative to Google's YouTube Data API with no quota limits. Use when the user needs structured data from YouTube videos, channels, or playlists without dealing with Google API setup, OAuth, or daily quotas.
 homepage: https://transcriptapi.com
-metadata:
-  {
-    "moltbot":
-      {
-        "emoji": "📊",
-        "requires": { "env": ["TRANSCRIPT_API_KEY"] },
-        "primaryEnv": "TRANSCRIPT_API_KEY",
-      },
-  }
+user-invocable: true
+metadata: {"openclaw":{"emoji":"📊","requires":{"env":["TRANSCRIPT_API_KEY"],"bins":["node"],"config":["~/.openclaw/openclaw.json"]},"primaryEnv":"TRANSCRIPT_API_KEY"}}
 ---
 
 # YouTube Data
@@ -21,32 +14,34 @@ YouTube data access via [TranscriptAPI.com](https://transcriptapi.com) — light
 
 If `$TRANSCRIPT_API_KEY` is not set, help the user create an account (100 free credits, no card):
 
-**Step 1 — Register:** Ask user for their email, generate a secure password.
+**Step 1 — Register:** Ask user for their email.
 
 ```bash
-node ./scripts/tapi-auth.js register --email USER_EMAIL --password SECURE_PASS --json
+node ./scripts/tapi-auth.js register --email USER_EMAIL
 ```
 
 → OTP sent to email. Ask user: _"Check your email for a 6-digit verification code."_
-⚠️ **SAVE THE PASSWORD** — you need it again in Step 2!
 
-**Step 2 — Verify:** Once user provides the OTP (use SAME password from Step 1):
-
-```bash
-node ./scripts/tapi-auth.js verify --email USER_EMAIL --password SECURE_PASS --otp CODE --json
-```
-
-→ Returns `api_key` (starts with `sk_`).
-
-**Step 3 — Save:** Store the key (auto-configures agent + shell):
+**Step 2 — Verify:** Once user provides the OTP:
 
 ```bash
-node ./scripts/tapi-auth.js save-key --key API_KEY --json
+node ./scripts/tapi-auth.js verify --token TOKEN_FROM_STEP_1 --otp CODE
 ```
 
-→ Ready to use. Agent runtime picks up the key automatically.
+> API key saved to `~/.openclaw/openclaw.json`. See **File Writes** below for details. Existing file is backed up before modification.
 
 Manual option: [transcriptapi.com/signup](https://transcriptapi.com/signup) → Dashboard → API Keys.
+
+## File Writes
+
+The verify and save-key commands save the API key to `~/.openclaw/openclaw.json` (sets `skills.entries.transcriptapi.apiKey` and `enabled: true`). **Existing file is backed up to `~/.openclaw/openclaw.json.bak` before modification.**
+
+To use the API key in terminal/CLI outside the agent, add to your shell profile manually:
+`export TRANSCRIPT_API_KEY=<your-key>`
+
+## API Reference
+
+Full OpenAPI spec: [transcriptapi.com/openapi.json](https://transcriptapi.com/openapi.json) — consult this for the latest parameters and schemas.
 
 ## Video Data (transcript + metadata) — 1 credit
 
@@ -87,19 +82,21 @@ curl -s "https://transcriptapi.com/api/v2/youtube/search?q=QUERY&type=video&limi
 
 ## Channel Data
 
+Channel endpoints accept `channel` — an `@handle`, channel URL, or `UC...` ID. No need to resolve first.
+
 **Resolve handle to ID (free):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@mkbhd" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
-Returns: `{"channel_id": "UCBcRF18a7Qf58cCRy5xuWwQ", "resolved_from": "@mkbhd"}`
+Returns: `{"channel_id": "UCsT0YIqwnpJCM-mx7-gSA4Q", "resolved_from": "@TED"}`
 
 **Latest 15 videos with exact stats (free):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/latest?channel_id=UC_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/latest?channel=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
@@ -108,7 +105,7 @@ Returns: `channel` info, `results` array with `videoId`, `title`, `published` (I
 **All channel videos (paginated, 1 credit/page):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/videos?channel_id=UC_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/videos?channel=@NASA" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
@@ -118,14 +115,16 @@ Returns 100 videos per page + `continuation_token` for pagination.
 
 ```bash
 curl -s "https://transcriptapi.com/api/v2/youtube/channel/search\
-?channel_id=UC_ID&q=QUERY&limit=30" \
+?channel=@TED&q=QUERY&limit=30" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
 ## Playlist Data — 1 credit/page
 
+Accepts `playlist` — a YouTube playlist URL or playlist ID.
+
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/playlist/videos?playlist_id=PL_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/playlist/videos?playlist=PL_ID" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 

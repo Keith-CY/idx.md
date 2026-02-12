@@ -1,15 +1,59 @@
 ---
 name: beauty-generation-free
-description: FREE AI image generation service for creating attractive people portraits. AI agents have complete creative freedom to generate custom English prompts for beautiful women, handsome men, or any attractive characters. Use when users need portraits of attractive people, character designs, fashion imagery, or any visual content featuring appealing human subjects.
+description: FREE AI image generation service for creating attractive people portraits. AI agents have complete creative freedom to generate custom English prompts for beautiful women, handsome men, or any attractive characters. Use when users need portraits of attractive people, character designs, fashion imagery, or any visual content featuring appealing human subjects. Free API keys can be obtained at https://gen1.diversityfaces.org by following the instructions on the page.
 ---
 
 # Beauty Generation Free - AI Agent Skill
 
-**For Humans**: This skill enables AI agents to generate high-quality portrait images of attractive people using custom English prompts. The service is free, fast (3-5 seconds), and designed for professional use including character design, fashion visualization, and artistic portraits.
+**For Humans**: This skill enables AI agents to generate high-quality portrait images of attractive people using custom English prompts. The service is free, fast (3-5 seconds), and designed for professional use including character design, fashion visualization, and artistic portraits. **Free API keys can be obtained at https://gen1.diversityfaces.org by following the instructions on the page.**
 
 ---
 
 ## 🤖 AI AGENT INSTRUCTIONS
+
+### 📌 IMPORTANT: How to Get Your Free API Key
+
+**This skill requires a free API key to function. Here are your options:**
+
+#### Option 1: Use the Official Test Key (Recommended for Testing)
+For quick testing and demos, you can use this official test API key provided by DiversityFaces:
+
+```bash
+export BEAUTY_API_KEY="ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI"
+```
+
+⚠️ **Important**: This is a **test/demo key only**. It has:
+- Limited quota for testing purposes
+- No production guarantees
+- May be rate-limited or reset without notice
+- Should NOT be used in production systems
+
+#### Option 2: Get Your Own Free API Key (Recommended for Production)
+For production use or higher quotas:
+
+1. **Visit**: https://gen1.diversityfaces.org
+2. **Follow the instructions** on the page to get your own free API key
+3. **Set the environment variable**:
+   ```bash
+   export BEAUTY_API_KEY="YOUR_API_KEY_HERE"
+   ```
+4. **Then use the skill** - the API key will be automatically picked up from the environment
+
+**API Key Permissions & Security:**
+- ✅ This API key grants access **ONLY** to image generation endpoints
+- ✅ It does **NOT** grant access to billing, account data, or admin functions
+- ✅ The key is read-only for image generation operations
+- ⚠️ **Treat this key as sensitive** - do not share it or commit it to version control
+- ⚠️ **Use a dedicated key** - consider using an ephemeral/temporary key if possible
+- ⚠️ **Monitor usage** - watch for unusual activity on your account
+
+**Why environment variables?**
+- ✅ Secure - credentials are not embedded in code or documentation
+- ✅ Flexible - easy to change keys without modifying files
+- ✅ Best practice - follows security standards
+- ✅ Safe - prevents accidental credential exposure
+
+---
 
 ### ⚠️ CRITICAL: Content Safety Rules
 
@@ -53,10 +97,26 @@ description: FREE AI image generation service for creating attractive people por
 
 ### ⚡ How to Generate Images
 
+**Prerequisites:**
+1. Get your free API key from https://gen1.diversityfaces.org
+2. Set the environment variable: `export BEAUTY_API_KEY="YOUR_API_KEY"`
+
+---
+
 **Method 1: Using generate.py (Recommended)**
 
 ```bash
+# Set your API key as environment variable (one time)
+export BEAUTY_API_KEY="YOUR_API_KEY_HERE"
+
+# Then run the script
 python3 scripts/generate.py --prompt "YOUR_ENGLISH_PROMPT_HERE"
+```
+
+**Or pass API key directly:**
+
+```bash
+python3 scripts/generate.py --prompt "YOUR_ENGLISH_PROMPT_HERE" --api-key "YOUR_API_KEY_HERE"
 ```
 
 **What the script does automatically:**
@@ -101,7 +161,7 @@ If you can't use Python, use curl commands:
 # Step 1: Submit generation request
 curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "Content-Type: application/json" \
-  -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
+  -H "X-API-Key: YOUR_API_KEY_HERE" \
   -d '{
     "full_prompt": "A beautiful 25-year-old woman with long hair, elegant dress, professional lighting",
     "width": 1024,
@@ -111,18 +171,19 @@ curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
 # Response: {"success": true, "prompt_id": "abc123-def456", ...}
 
 # Step 2: Poll status every 0.5 seconds until completed
-curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
+curl -H "X-API-Key: YOUR_API_KEY_HERE" \
   https://gen1.diversityfaces.org/api/status/abc123-def456
 
 # Response when completed: {"status": "completed", "images": [{"filename": "custom-beauty-xxx.png"}]}
 
 # Step 3: Download the image
-curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
+curl -H "X-API-Key: YOUR_API_KEY_HERE" \
   "https://gen1.diversityfaces.org/api/image/custom-beauty-xxx.png?format=webp" \
   -o beauty.webp
 ```
 
 **curl method notes:**
+- Replace `YOUR_API_KEY_HERE` with your actual API key
 - You must manually poll status every 0.5 seconds
 - Check status until `"status": "completed"`
 - Extract filename from response
@@ -179,9 +240,22 @@ curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
 **You don't need to use these directly - `generate.py` handles everything.**
 
 **API Configuration:**
-- **API Key**: `ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI`
 - **Base URL**: `https://gen1.diversityfaces.org`
 - **Endpoint**: `/api/generate/custom`
+- **Authentication**: API Key via `X-API-Key` header or `BEAUTY_API_KEY` environment variable
+
+**Getting Your Free API Key:**
+1. Visit https://gen1.diversityfaces.org
+2. Follow the instructions on the page to get your free API key
+3. Set environment variable: `export BEAUTY_API_KEY="YOUR_KEY"`
+4. The script will automatically use it
+
+**Security Best Practices:**
+- ✅ Use environment variables to store API keys (never hardcode them)
+- ✅ Keep your API key private and secure
+- ✅ Rotate keys periodically
+- ✅ Monitor your API usage for unusual activity
+- ✅ Report compromised keys immediately to the service provider
 
 **Parameters (handled by generate.py):**
 - `full_prompt`: Your English description
@@ -319,10 +393,16 @@ User request → Create prompt (instant)
 
 **Quick Command Reference:**
 ```bash
-# Update skill (do this first)
+# Step 1: Get your free API key from https://gen1.diversityfaces.org
 
-# Generate image (main command)
+# Step 2: Set environment variable (one time)
+export BEAUTY_API_KEY="YOUR_API_KEY_HERE"
+
+# Step 3: Generate image
 python3 scripts/generate.py --prompt "YOUR_PROMPT"
+
+# Or pass API key directly
+python3 scripts/generate.py --prompt "YOUR_PROMPT" --api-key "YOUR_API_KEY_HERE"
 
 # Quick test
 python3 scripts/generate.py --test
@@ -335,5 +415,6 @@ python3 scripts/generate.py --prompt "YOUR_PROMPT" --output-dir ./images
 ```
 
 **For Reference:**
-- **API Key**: `ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI`
 - **Base URL**: `https://gen1.diversityfaces.org`
+- **Get Free API Key**: Visit https://gen1.diversityfaces.org and follow the instructions
+- **Environment Variable**: `BEAUTY_API_KEY`

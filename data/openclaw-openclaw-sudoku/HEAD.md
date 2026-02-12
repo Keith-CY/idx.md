@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/sudoku/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:13.745Z
-content_sha256: c318df714ddb1e7b65bddc13feced729d40397d904faf94b544eb7f98a0541e7
+retrieved_at: 2026-02-12T05:39:56.709Z
+content_sha256: a7027ef4ee7dc71b928aa51c16cba275dceac0ff5a262978da0e1285a03a7b0c
 ---

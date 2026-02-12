@@ -2,125 +2,122 @@
 name: manus
 description: Create and manage AI agent tasks via Manus API. Manus is an autonomous AI agent that can browse the web, use tools, and deliver complete work products.
 homepage: https://manus.im
-metadata: {"clawdbot":{"emoji":"🤖","requires":{"env":["MANUS_API_KEY"]},"primaryEnv":"MANUS_API_KEY"}}
+user-invocable: true
+disable-model-invocation: true
+metadata:
+  clawdbot:
+    emoji: "🤖"
+    primaryEnv: MANUS_API_KEY
+    requires:
+      bins: [curl, jq]
+      env: [MANUS_API_KEY]
 ---
 
 # Manus AI Agent
 
-Use the Manus API to create autonomous AI tasks. Manus can browse the web, use tools, and deliver complete results (reports, code, presentations, etc.).
-
-## API Base
-
-`https://api.manus.ai/v1`
+Create tasks for Manus, an autonomous AI agent, and retrieve completed work products.
 
 ## Authentication
 
-Header: `API_KEY: <your-key>`
+Set `MANUS_API_KEY` env var with your key from [manus.im](https://manus.im).
 
-Set via:
-- `MANUS_API_KEY` env var
-- Or `skills.manus.apiKey` in clawdbot config
+---
 
-## Recommended Workflow
+## Commands
 
-When using Manus for tasks that produce files (slides, reports, etc.):
+All commands use `scripts/manus.sh`.
 
-1. **Create the task** with `createShareableLink: true`
-2. **Poll for completion** using the task_id
-3. **Extract output files** from the response and download them locally
-4. **Deliver to user** via direct file attachment (don't rely on manus.im share links)
-
-## Create a Task
+### Create a Task
 
 ```bash
-curl -X POST "https://api.manus.ai/v1/tasks" \
-  -H "API_KEY: $MANUS_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "prompt": "Your task description here",
-    "agentProfile": "manus-1.6",
-    "taskMode": "agent",
-    "createShareableLink": true
-  }'
+{baseDir}/scripts/manus.sh create "Your task description here"
+{baseDir}/scripts/manus.sh create "Deep research on topic" manus-1.6-max
 ```
 
-Response:
-```json
-{
-  "task_id": "abc123",
-  "task_title": "Task Title",
-  "task_url": "https://manus.im/app/abc123"
-}
-```
+Profiles: `manus-1.6` (default), `manus-1.6-lite` (fast), `manus-1.6-max` (thorough).
 
-## Agent Profiles
-
-| Profile | Description | Use for |
-|---------|-------------|---------|
-| `manus-1.6` | Standard (default) | Most tasks |
-| `manus-1.6-lite` | Faster, lighter | Quick/simple stuff |
-| `manus-1.6-max` | Complex, thorough | Deep research/analysis |
-
-**Default:** Always use `manus-1.6` unless user specifies otherwise.
-
-## Task Modes
-
-| Mode | Description |
-|------|-------------|
-| `chat` | Conversational mode |
-| `adaptive` | Auto-selects best approach |
-| `agent` | Full autonomous agent mode (recommended for file creation) |
-
-## Get Task Status & Output
+### Check Status
 
 ```bash
-curl "https://api.manus.ai/v1/tasks/{task_id}" \
-  -H "API_KEY: $MANUS_API_KEY"
+{baseDir}/scripts/manus.sh status <task_id>
 ```
 
-Status values: `pending`, `running`, `completed`, `failed`
+Returns: `pending`, `running`, `completed`, or `failed`.
 
-**Important:** When status is `completed`, check the `output` array for files:
-- Look for `type: "output_file"` entries
-- Download files from `fileUrl` directly
-- Save locally and send to user as attachments
-
-## Extracting Output Files
-
-The task response includes output like:
-```json
-{
-  "output": [
-    {
-      "content": [
-        {
-          "type": "output_file",
-          "fileUrl": "https://private-us-east-1.manuscdn.com/...",
-          "fileName": "presentation.pdf"
-        }
-      ]
-    }
-  ]
-}
-```
-
-Download these files with curl and deliver directly to the user rather than relying on share URLs.
-
-## List Tasks
+### Wait for Completion
 
 ```bash
-curl "https://api.manus.ai/v1/tasks" \
-  -H "API_KEY: $MANUS_API_KEY"
+{baseDir}/scripts/manus.sh wait <task_id>
+{baseDir}/scripts/manus.sh wait <task_id> 300  # custom timeout in seconds
 ```
 
-## Best Practices
+Polls until task completes or times out (default: 600s).
 
-1. **Always poll for completion** before telling user the task is done
-2. **Download output files locally** instead of giving manus.im links (they can be unreliable)
-3. **Use `agent` mode** for tasks that create files/documents
-4. **Set reasonable expectations** — Manus tasks can take 2-10+ minutes for complex work
+### Get Task Details
 
-## Docs
+```bash
+{baseDir}/scripts/manus.sh get <task_id>
+```
+
+Returns full task JSON including status and output.
+
+### List Output Files
+
+```bash
+{baseDir}/scripts/manus.sh files <task_id>
+```
+
+Shows filename and download URL for each output file.
+
+### Download Output Files
+
+```bash
+{baseDir}/scripts/manus.sh download <task_id>
+{baseDir}/scripts/manus.sh download <task_id> ./output-folder
+```
+
+Downloads all output files to the specified directory (default: current directory).
+
+### List Tasks
+
+```bash
+{baseDir}/scripts/manus.sh list
+```
+
+---
+
+## Typical Workflow
+
+1. **Create task**: `manus.sh create "your prompt"`
+2. **Wait for completion**: `manus.sh wait <task_id>`
+3. **Download results**: `manus.sh download <task_id>`
+
+---
+
+## Advanced API Features
+
+For file attachments, webhooks, connectors, projects, multi-turn conversations, and interactive mode, see the full Manus API documentation:
 
 - API Reference: https://open.manus.ai/docs
 - Main Docs: https://manus.im/docs
+
+---
+
+## Security & Permissions
+
+**What this skill does:**
+- Sends task prompts to the Manus API at `api.manus.ai`
+- Polls for task completion and downloads output files from Manus CDN
+- API key is sent only in the `API_KEY` header to `api.manus.ai`
+
+**What this skill does NOT do:**
+- Does not upload local files (file upload is an advanced API feature not implemented in the bundled script)
+- Does not register webhooks or connect external accounts
+- Does not send your API key to any endpoint other than `api.manus.ai`
+- Does not modify local system configuration
+- Cannot be invoked autonomously by the agent (`disable-model-invocation: true`)
+- You must explicitly trigger every Manus task
+
+**Bundled scripts:** `scripts/manus.sh` (Bash — uses `curl` and `jq`)
+
+Review `scripts/manus.sh` before first use to verify behavior.

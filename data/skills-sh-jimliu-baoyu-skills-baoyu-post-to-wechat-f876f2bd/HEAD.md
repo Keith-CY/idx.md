@@ -3,9 +3,12 @@ stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd
 type: skills
 title: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd
 summary: >-
-  # Image-Text Posting (图文发表)
+  # Image-Text Posting (贴图发表, formerly 图文)
 
   Post image-text messages with multiple images to WeChat Official Account.
+
+  > **Note**: WeChat has renamed "图文" to "贴图" in the Official Account menu (as
+  of 2026).
 
   ## Usage
 
@@ -21,15 +24,12 @@ summary: >-
   img1.png --image img2.png
 
   # Save as draft
-
-  npx -y bun ./scripts/wechat-browser.ts --markdown source.md --images ./images/
-  --submit
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-retrieved_at: 2026-02-10T10:45:37.539Z
-content_sha256: 41852e22efea3db12d31d20616e084486f32a639ed4e6f1df7019b06e6e52505
+retrieved_at: 2026-02-12T05:40:37.838Z
+content_sha256: adf46a9ee4bbea0445d096f43e2d2c20dd9c8accc29c73526d08def7ffc40b9c
 ---

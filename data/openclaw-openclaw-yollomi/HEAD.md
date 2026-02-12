@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anichikage/yollomi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:31.398Z
-content_sha256: b8129b24c4f9e0d204b7e01f58cf693c5e0f4b98b0ef7b881df7e0ddc54996ff
+retrieved_at: 2026-02-12T05:40:28.989Z
+content_sha256: dca8103a20cb2fdc8cbc84481d557c7bb7ba7eb9496b3e1bdaadac8bea9ebe4c
 ---

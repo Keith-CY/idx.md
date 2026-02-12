@@ -16,6 +16,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshi891102/bounty-hunter/SKILL.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satoshi891102/bounty-hunter/SKILL.md
-retrieved_at: 2026-02-10T10:45:46.425Z
+retrieved_at: 2026-02-12T05:40:56.747Z
 content_sha256: 015f04b2cd35640982b74e71e29422eac0636c88fb9641c5806a08ee3b07ffd6
 ---

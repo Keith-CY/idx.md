@@ -1,11 +1,14 @@
 ---
 name: deepread
-description: AI-native OCR platform that turns documents into high-accuracy data in minutes. Using multi-model consensus, DeepRead achieves 95%+ accuracy and flags only uncertain fields for review—reducing manual work from 100% to 5-10%. Zero prompt engineering required.
+description: AI-native OCR platform that turns documents into high-accuracy data in minutes. Using multi-model consensus, DeepRead achieves 97%+ accuracy and flags only uncertain fields for Human-in-the-Loop (HIL) review—reducing manual work from 100% to 5-10%. Zero prompt engineering required.
+disable-model-invocation: true
+metadata:
+  {"openclaw":{"requires":{"env":["DEEPREAD_API_KEY"]},"primaryEnv":"DEEPREAD_API_KEY","homepage":"https://www.deepread.tech"}}
 ---
 
 # DeepRead - Production OCR API
 
-DeepRead is an AI-native OCR platform that turns documents into high-accuracy data in minutes. Using multi-model consensus, DeepRead achieves 95%+ accuracy and flags only uncertain fields for review—reducing manual work from 100% to 5-10%. Zero prompt engineering required.
+DeepRead is an AI-native OCR platform that turns documents into high-accuracy data in minutes. Using multi-model consensus, DeepRead achieves 97%+ accuracy and flags only uncertain fields for Human-in-the-Loop (HIL) review—reducing manual work from 100% to 5-10%. Zero prompt engineering required.
 
 ## What This Skill Does
 
@@ -14,7 +17,7 @@ DeepRead is a production-grade document processing API that gives you high-accur
 **Core Features:**
 - **Text Extraction**: Convert PDFs and images to clean markdown
 - **Structured Data**: Extract JSON fields with confidence scores
-- **Quality Flags**: Human Review tagging for uncertain fields (`hil_flag`)
+- **HIL Interface**: Built-in Human-in-the-Loop review — uncertain fields are flagged (`hil_flag`) so only exceptions need manual review
 - **Multi-Pass Processing**: Multiple validation passes for maximum accuracy
 - **Multi-Model Consensus**: Cross-validation between models for reliability
 - **Free Tier**: 2,000 pages/month (no credit card required)
@@ -45,8 +48,9 @@ Add to your `clawdbot.config.json5`:
   skills: {
     entries: {
       "deepread": {
-        enabled: true,
-        apiKey: "sk_live_your_key_here"
+        enabled: true
+        // API key is read from DEEPREAD_API_KEY environment variable
+        // Do NOT hardcode your API key here
       }
     }
   }
@@ -279,12 +283,19 @@ The pipeline automatically handles:
 - Cross-model consensus for reliability
 - Field-level confidence scoring
 
-### Quality Review (hil_flag)
+### Human-in-the-Loop (HIL) Interface
 
-AI compares extracted text to the original image and sets `hil_flag`:
+DeepRead includes a built-in Human-in-the-Loop (HIL) review system. The AI compares extracted text to the original image and sets `hil_flag` on each field:
 
 - **`hil_flag: false`** = Clear, confident extraction → Auto-process
-- **`hil_flag: true`** = Uncertain extraction → Human review required
+- **`hil_flag: true`** = Uncertain extraction → Routed to human review
+
+**How HIL works:**
+1. Fields extracted with high confidence are auto-approved
+2. Uncertain fields are flagged with `hil_flag: true` and a `reason`
+3. Only flagged fields need human review (typically 5-10% of total fields)
+4. Review flagged fields in **DeepRead Preview** (`preview.deepread.tech`) — a dedicated HIL review interface where reviewers can see the original document side-by-side with extracted data, correct flagged fields, and approve results
+5. Or integrate with your own review queue using the `hil_flag` data in the API response
 
 **AI flags extractions when:**
 - Text is handwritten, blurry, or low quality
@@ -389,9 +400,9 @@ curl -X POST https://api.deepread.tech/v1/process \
 - Lower latency
 - Better for production workflows
 
-### 3. Public Preview URLs
+### 3. Preview (HIL Review Interface)
 
-Share OCR results without authentication:
+DeepRead Preview (`preview.deepread.tech`) is the built-in Human-in-the-Loop review interface. Reviewers can view the original document alongside extracted data, correct flagged fields, and approve results. Preview URLs can also be shared without authentication:
 
 ```bash
 # Request preview URL

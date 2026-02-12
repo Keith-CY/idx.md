@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/fd-find/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:33.457Z
+retrieved_at: 2026-02-12T05:38:12.384Z
 content_sha256: 5e69a68c9d2278da56e3e9b1f73e281839b0355ffb7b307ec519ac1a97a58040
 ---

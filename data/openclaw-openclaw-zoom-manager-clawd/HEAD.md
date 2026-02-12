@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vnagin/zoom-manager-clawd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:33.153Z
+retrieved_at: 2026-02-12T05:40:32.293Z
 content_sha256: 8aff8fafc983d74ca82e59197ee34a13e1b83b3dae647cf416c103f96bd235fb
 ---

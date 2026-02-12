@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/antfu/references/antfu-eslint-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/antfu
-retrieved_at: 2026-02-10T10:44:27.930Z
+retrieved_at: 2026-02-12T05:36:47.261Z
 content_sha256: d5a17c833786c37013a997108a7ecd78a49264098f5f3a5733c74aa1899585ed
 ---

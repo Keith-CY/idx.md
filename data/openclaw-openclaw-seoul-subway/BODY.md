@@ -2,7 +2,7 @@
 name: seoul-subway
 description: Seoul Subway assistant for real-time arrivals, route planning, and service alerts (Korean/English)
 model: sonnet
-metadata: {"moltbot":{"emoji":"🚇","requires":{"bins":["curl","jq"]}}}
+metadata: {"moltbot":{"emoji":"🚇"}}
 homepage: https://github.com/dukbong/seoul-subway
 user-invocable: true
 ---
@@ -101,15 +101,63 @@ When you first use this skill, you'll see a permission prompt for the proxy doma
 
 처음 사용 시 프록시 도메인 접근 확인 창이 뜹니다.
 
-**Select / 선택:** `Yes, and don't ask again for vercel-proxy-henna-eight.vercel.app`
+**Recommended / 권장:** Select `Yes` to allow access for this session.
 
-This only needs to be done once. / 한 번만 하면 됩니다.
+이 세션에서 접근을 허용하려면 `Yes`를 선택하세요.
+
+> **Note / 참고:** You may also select `Yes, and don't ask again` for convenience,
+> but only if you trust the proxy server. The proxy receives only station names
+> and search parameters -- never your conversation context or personal data.
+> See [Data Privacy](#data-privacy--데이터-프라이버시) below for details.
+>
+> 편의를 위해 `Yes, and don't ask again`을 선택할 수도 있지만,
+> 프록시 서버를 신뢰하는 경우에만 권장합니다.
+> 자세한 내용은 아래 [데이터 프라이버시](#data-privacy--데이터-프라이버시) 섹션을 참조하세요.
+
+---
+
+## Data Privacy / 데이터 프라이버시
+
+This skill sends requests to a proxy server at `vercel-proxy-henna-eight.vercel.app`.
+
+이 스킬은 `vercel-proxy-henna-eight.vercel.app` 프록시 서버에 요청을 보냅니다.
+
+### What is sent / 전송되는 데이터
+
+- **Station names** (Korean or English, e.g., "강남", "Gangnam")
+- **Search parameters** (departure/arrival stations for routes, line filters for alerts, pagination values)
+- Standard HTTP headers (IP address, User-Agent)
+
+역 이름, 검색 매개변수 및 표준 HTTP 헤더만 전송됩니다.
+
+### What is NOT sent / 전송되지 않는 데이터
+
+- Your conversation history or context
+- Personal information, files, or project data
+- Authentication credentials of any kind
+
+대화 내용, 개인 정보, 파일 또는 프로젝트 데이터는 전송되지 않습니다.
+
+### Proxy server protections / 프록시 서버 보호 조치
+
+- **Input validation**: Station names limited to 50 characters, Korean/English/numbers only
+- **Rate limiting**: 100 requests per minute per IP
+- **Sensitive data masking**: API keys and tokens are masked in all server logs
+- **No authentication required**: No user accounts or tracking
+- **Open source**: Proxy source code is available at [github.com/dukbong/seoul-subway](https://github.com/dukbong/seoul-subway)
+
+입력 검증, 속도 제한, 로그에서의 민감 정보 마스킹, 인증 불필요, 오픈 소스.
 
 ---
 
 ## Proxy API Reference
 
 All API calls go through the proxy server. No API keys needed for users.
+
+> **Note:** The `curl` commands below are for API reference only.
+> Claude uses `WebFetch` to call these endpoints -- no binary tools are required.
+>
+> 아래 `curl` 명령은 API 참조용입니다. Claude는 `WebFetch`를 사용하여 이 엔드포인트를 호출합니다.
 
 ### Base URL
 

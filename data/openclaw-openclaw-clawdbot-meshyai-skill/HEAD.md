@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sabatesduran/clawdbot-meshyai-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:31.608Z
+retrieved_at: 2026-02-12T05:37:43.328Z
 content_sha256: 9abf0d66fca8a51bf692f2e7107bfeb959137ef1d9aa31b2c54ccf242ef89cbc
 ---

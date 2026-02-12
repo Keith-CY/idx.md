@@ -1,6 +1,8 @@
-# Image-Text Posting (图文发表)
+# Image-Text Posting (贴图发表, formerly 图文)
 
 Post image-text messages with multiple images to WeChat Official Account.
+
+> **Note**: WeChat has renamed "图文" to "贴图" in the Official Account menu (as of 2026).
 
 ## Usage
 

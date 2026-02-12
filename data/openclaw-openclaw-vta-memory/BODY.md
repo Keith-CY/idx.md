@@ -4,7 +4,7 @@ description: "Reward and motivation system for AI agents. Dopamine-like wanting,
 metadata:
   openclaw:
     emoji: "⭐"
-    version: "1.2.1"
+    version: "1.2.0"
     author: "ImpKind"
     requires:
       os: ["darwin", "linux"]
@@ -196,6 +196,28 @@ OpenClaw automatically injects all `*.md` files from workspace into session cont
   }
 }
 ```
+
+## Event Logging
+
+Track motivation patterns over time:
+
+```bash
+# Log encoding run
+./scripts/log-event.sh encoding rewards_found=2 drive=0.65
+
+# Log decay
+./scripts/log-event.sh decay drive_before=0.6 drive_after=0.53
+
+# Log reward
+./scripts/log-event.sh reward type=accomplishment intensity=0.8
+```
+
+Events append to `~/.openclaw/workspace/memory/brain-events.jsonl`:
+```json
+{"ts":"2026-02-11T10:45:00Z","type":"vta","event":"encoding","rewards_found":2,"drive":0.65}
+```
+
+Use for analyzing motivation cycles — when does drive peak? What rewards work best?
 
 ## AI Brain Series
 

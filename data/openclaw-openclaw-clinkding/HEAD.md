@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daveonkels/clinkding/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:31.930Z
+retrieved_at: 2026-02-12T05:37:49.283Z
 content_sha256: b79b393ad59c70352e38d44ecf252812fd7e8a8d327d314914fb3228062a68ad
 ---

@@ -1,8 +1,8 @@
 ---
 name: sports-ticker
-version: 3.0.3
+version: 3.0.5
 description: Live sports alerts for Soccer, NFL, NBA, NHL, MLB, F1 and more. Real-time scoring with FREE ESPN API. Track any team from any major league worldwide.
-metadata: {"clawdbot":{"requires":{"bins":["python3"],"env":[]}}}
+metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed. Uses free ESPN API."}}}
 ---
 
 # Sports Ticker

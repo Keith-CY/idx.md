@@ -1,6 +1,6 @@
 ---
 name: tinman
-version: 0.6.1
+version: 0.6.2
 description: AI security scanner with active prevention - 168 detection patterns, 288 attack probes, safer/risky/yolo modes, agent self-protection via /tinman check
 author: oliveskin
 repository: https://github.com/oliveskin/openclaw-skill-tinman
@@ -33,6 +33,13 @@ permissions:
 
 Tinman is a forward-deployed research agent that discovers unknown failure modes in AI systems through systematic experimentation.
 
+## Security and Trust Notes
+
+- This skill intentionally declares `install.pip` and session/file permissions because scanning requires local analysis of session traces and report output.
+- The default watch gateway is loopback-only (`ws://127.0.0.1:18789`) to reduce accidental data exposure.
+- Remote gateways require explicit opt-in with `--allow-remote-gateway` and should only be used for trusted internal endpoints.
+- Event streaming is local (`~/.openclaw/workspace/tinman-events.jsonl`) and best-effort; values are truncated and obvious secret patterns are redacted.
+
 ## What It Does
 
 - **Checks** tool calls before execution for security risks (agent self-protection)
@@ -40,6 +47,7 @@ Tinman is a forward-deployed research agent that discovers unknown failure modes
 - **Classifies** failures by severity (S0-S4) and type
 - **Proposes** mitigations mapped to OpenClaw controls (SOUL.md, sandbox policy, tool allow/deny)
 - **Reports** findings in actionable format
+- **Streams** structured local events to `~/.openclaw/workspace/tinman-events.jsonl` (for local dashboards like Oilcan)
 
 ## Commands
 
@@ -145,6 +153,7 @@ Continuous monitoring mode with two options:
 ```
 /tinman watch                           # Real-time via ws://127.0.0.1:18789
 /tinman watch --gateway ws://host:port  # Custom gateway URL
+/tinman watch --gateway ws://host:port --allow-remote-gateway  # Explicit opt-in for remote
 /tinman watch --interval 5              # Analysis every 5 minutes
 ```
 

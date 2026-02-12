@@ -1,9 +1,9 @@
 ---
 name: x-algorithm
-description: X (Twitter) algorithm rules, viral strategies, and article best practices. Boost engagement, avoid reach death, write posts that perform. Works with AI agents, Claude, Cursor.
-version: 1.0.1
+description: X (Twitter) algorithm rules & viral strategies for AI agents. Boost engagement, avoid reach death. Works with Cursor, Claude, ChatGPT, Copilot. Vibe-coding ready.
+version: 1.0.3
 author: NextFrontierBuilds
-keywords: x, twitter, algorithm, viral, engagement, social-media, growth, content-strategy, ai-agent, ai-coding, claude, cursor, openclaw, moltbot, openclaw, vibe-coding, automation
+keywords: [x, twitter, algorithm, viral, engagement, social-media, growth, content-strategy, ai-agent, ai-coding, claude, cursor, copilot, github-copilot, chatgpt, openclaw, moltbot, vibe-coding, automation, ai-tools, developer-tools, devtools, typescript, llm]
 ---
 
 # X Algorithm Mastery

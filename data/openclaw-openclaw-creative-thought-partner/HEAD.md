@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/creative-thought-partner/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:32.408Z
+retrieved_at: 2026-02-12T05:37:56.836Z
 content_sha256: 04c8d798d156613174e7431cf92c3d16a599523d3cd5718f9b83a068d21829f8
 ---

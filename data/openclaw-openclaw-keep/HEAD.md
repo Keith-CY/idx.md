@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hughpyle/keep/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:37.498Z
-content_sha256: 37e293ac28f6aa4f515991e802b3bd6ef0334cd3b92a8e63f65b426157448095
+retrieved_at: 2026-02-12T05:38:42.369Z
+content_sha256: 301d5f50a163105ca4de9089f447bf00ea45fce8ecbc7330b5f2d39a36fdc2e6
 ---

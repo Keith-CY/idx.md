@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fabiensebban/helpscout/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.537Z
+retrieved_at: 2026-02-12T05:38:30.668Z
 content_sha256: ce6154bf9710373349909dedc32a7d64acd42f527fd7473da66460d7d5339829
 ---

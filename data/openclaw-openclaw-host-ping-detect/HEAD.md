@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ray-778/host-ping-detect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.684Z
+retrieved_at: 2026-02-12T05:38:32.886Z
 content_sha256: 73eff1a574081688ecf29f43540140cd0783704804d55229e708b7589173353a
 ---

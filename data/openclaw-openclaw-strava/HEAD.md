@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bohdanpodvirnyi/strava/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:13.151Z
+retrieved_at: 2026-02-12T05:39:55.625Z
 content_sha256: 139ac186dac368e8f2e54055907d002957bc5168d0f31910d69951ffe3fa1a7e
 ---

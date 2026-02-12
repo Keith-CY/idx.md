@@ -27,6 +27,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/data-context-extractor/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/data-context-extractor/SKILL.md
-retrieved_at: 2026-02-10T10:45:39.439Z
+retrieved_at: 2026-02-12T05:40:41.854Z
 content_sha256: 6d05dec52ac3667b551898b9eb943f5ee08141bc8d2fabb69a8e39bb9ce7c754
 ---

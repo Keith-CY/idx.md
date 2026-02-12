@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/regalstreak/swiggy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:14.747Z
+retrieved_at: 2026-02-12T05:39:58.479Z
 content_sha256: 2c68480728aba43e793fe33b40d02a7938d45880a71cade275044e9ad6de5822
 ---

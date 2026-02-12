@@ -16,6 +16,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
-retrieved_at: 2026-02-10T10:45:46.866Z
+retrieved_at: 2026-02-12T05:40:57.676Z
 content_sha256: caed19a938a8177bcc23e79252e904944a310f82ff25361fb81c001b0d058590
 ---

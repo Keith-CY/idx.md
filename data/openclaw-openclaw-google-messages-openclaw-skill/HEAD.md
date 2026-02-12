@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/google-messages-openclaw-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.296Z
+retrieved_at: 2026-02-12T05:38:26.660Z
 content_sha256: 11b343dea86fd5d76b3aff3003c46a5491c6c7ac9028292c3ebebc5f31e605ed
 ---

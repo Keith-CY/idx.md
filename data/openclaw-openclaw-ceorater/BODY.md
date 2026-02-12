@@ -1,35 +1,15 @@
 ---
 name: ceorater
 description: "Get institutional-grade CEO performance analytics for S&P 500 companies. Proprietary scores: CEORaterScore (composite), AlphaScore (market outperformance), RevenueCAGRScore (revenue growth), CompScore (compensation efficiency). Underlying data includes Total Stock Return (TSR) vs. S&P 500 (SPY), average annual returns, CEO total compensation (most recent fiscal year from proxy filings), and tenure-adjusted Revenue CAGR. Each record includes CEO name, company name, ticker, sector, industry, and tenure dates. Coverage: 517 CEOs as of February 2026, updated daily. Useful for investment research, due diligence, and executive compensation analysis."
-triggers:
-  - "CEO performance"
-  - "CEORater"
-  - "CEO score"
-  - "CEO rating"
-  - "executive performance"
-  - "CEO compensation"
-  - "AlphaScore"
-  - "CompScore"
-  - "TSR"
-  - "total stock return"
-metadata:
-  openclaw:
-    requires:
-      env:
-        - CEORATER_API_KEY
-    primaryEnv: CEORATER_API_KEY
-    homepage: https://www.ceorater.com
-  pricing:
-    model: subscription
-    individual: "$99/month per user for research and analysis"
-    enterprise: "Contact sales@ceorater.com for proprietary model integration, AI/ML training, or product development"
-  provider:
-    name: CEORater
-    url: https://www.ceorater.com
-    support: support@ceorater.com
-    sales: sales@ceorater.com
+homepage: https://www.ceorater.com
+disable-model-invocation: true
+requires:
+  env:
+    - CEORATER_API_KEY
+primaryEnv: CEORATER_API_KEY
+triggers: ["CEO performance", "CEORater", "CEO score", "CEO rating", "executive performance", "CEO compensation", "AlphaScore", "CompScore", "TSR", "total stock return"]
+metadata: {"openclaw":{"requires":{"env":["CEORATER_API_KEY"]},"primaryEnv":"CEORATER_API_KEY","homepage":"https://www.ceorater.com"},"pricing":{"model":"subscription","individual":"$99/month per user for research and analysis","enterprise":"Contact sales@ceorater.com for proprietary model integration, AI/ML training, or product development"},"provider":{"name":"CEORater","url":"https://www.ceorater.com","support":"support@ceorater.com","sales":"sales@ceorater.com"}}
 ---
-
 # CEORater Skill
 
 Query CEO performance data for S&P 500 and major U.S. public companies via the CEORater API.

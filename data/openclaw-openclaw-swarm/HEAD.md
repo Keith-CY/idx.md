@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chair4ce/swarm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:14.260Z
-content_sha256: 08d53b5c7204cbf74fdf515a19fa1a1edb6bfb1aa2d5fc3e93194f74f2ae94d7
+retrieved_at: 2026-02-12T05:39:57.600Z
+content_sha256: a7b741edee5c4c043fbb77f0a8fbb9c759e776fd9abe7f331ca21be1d2a5591b
 ---

@@ -2,15 +2,8 @@
 name: youtube-api
 description: YouTube API access without the official API quota hassle — transcripts, search, channels, playlists, and metadata with no Google API key needed. Use when the user needs YouTube data programmatically, wants to avoid Google API quotas, or asks for "youtube api", "get video data", "youtube without api key", "no quota youtube".
 homepage: https://transcriptapi.com
-metadata:
-  {
-    "moltbot":
-      {
-        "emoji": "⚡",
-        "requires": { "env": ["TRANSCRIPT_API_KEY"] },
-        "primaryEnv": "TRANSCRIPT_API_KEY",
-      },
-  }
+user-invocable: true
+metadata: {"openclaw":{"emoji":"⚡","requires":{"env":["TRANSCRIPT_API_KEY"],"bins":["node"],"config":["~/.openclaw/openclaw.json"]},"primaryEnv":"TRANSCRIPT_API_KEY"}}
 ---
 
 # YouTube API
@@ -21,46 +14,50 @@ YouTube data access via [TranscriptAPI.com](https://transcriptapi.com) — no Go
 
 If `$TRANSCRIPT_API_KEY` is not set, help the user create an account (100 free credits, no card):
 
-**Step 1 — Register:** Ask user for their email, generate a secure password.
+**Step 1 — Register:** Ask user for their email.
 
 ```bash
-node ./scripts/tapi-auth.js register --email USER_EMAIL --password SECURE_PASS --json
+node ./scripts/tapi-auth.js register --email USER_EMAIL
 ```
 
 → OTP sent to email. Ask user: _"Check your email for a 6-digit verification code."_
-⚠️ **SAVE THE PASSWORD** — you need it again in Step 2!
 
-**Step 2 — Verify:** Once user provides the OTP (use SAME password from Step 1):
-
-```bash
-node ./scripts/tapi-auth.js verify --email USER_EMAIL --password SECURE_PASS --otp CODE --json
-```
-
-→ Returns `api_key` (starts with `sk_`).
-
-**Step 3 — Save:** Store the key (auto-configures agent + shell):
+**Step 2 — Verify:** Once user provides the OTP:
 
 ```bash
-node ./scripts/tapi-auth.js save-key --key API_KEY --json
+node ./scripts/tapi-auth.js verify --token TOKEN_FROM_STEP_1 --otp CODE
 ```
 
-→ Ready to use. Agent runtime picks up the key automatically.
+> API key saved to `~/.openclaw/openclaw.json`. See **File Writes** below for details. Existing file is backed up before modification.
 
 Manual option: [transcriptapi.com/signup](https://transcriptapi.com/signup) → Dashboard → API Keys.
+
+## File Writes
+
+The verify and save-key commands save the API key to `~/.openclaw/openclaw.json` (sets `skills.entries.transcriptapi.apiKey` and `enabled: true`). **Existing file is backed up to `~/.openclaw/openclaw.json.bak` before modification.**
+
+To use the API key in terminal/CLI outside the agent, add to your shell profile manually:
+`export TRANSCRIPT_API_KEY=<your-key>`
+
+## API Reference
+
+Full OpenAPI spec: [transcriptapi.com/openapi.json](https://transcriptapi.com/openapi.json) — consult this for the latest parameters and schemas.
 
 ## Endpoint Reference
 
 All endpoints: `https://transcriptapi.com/api/v2/youtube/...`
 
-| Endpoint                               | Method | Cost     |
-| -------------------------------------- | ------ | -------- |
-| `/transcript?video_url=ID`             | GET    | 1        |
-| `/search?q=QUERY&type=video`           | GET    | 1        |
-| `/channel/resolve?input=@handle`       | GET    | **free** |
-| `/channel/latest?channel_id=UC_ID`     | GET    | **free** |
-| `/channel/videos?channel_id=UC_ID`     | GET    | 1/page   |
-| `/channel/search?channel_id=UC_ID&q=Q` | GET    | 1        |
-| `/playlist/videos?playlist_id=PL_ID`   | GET    | 1/page   |
+Channel endpoints accept `channel` — an `@handle`, channel URL, or `UC...` ID. Playlist endpoints accept `playlist` — a playlist URL or ID.
+
+| Endpoint                            | Method | Cost     |
+| ----------------------------------- | ------ | -------- |
+| `/transcript?video_url=ID`          | GET    | 1        |
+| `/search?q=QUERY&type=video`        | GET    | 1        |
+| `/channel/resolve?input=@handle`    | GET    | **free** |
+| `/channel/latest?channel=@handle`   | GET    | **free** |
+| `/channel/videos?channel=@handle`   | GET    | 1/page   |
+| `/channel/search?channel=@handle&q=Q` | GET  | 1        |
+| `/playlist/videos?playlist=PL_ID`   | GET    | 1/page   |
 
 ## Quick Examples
 
@@ -83,21 +80,21 @@ curl -s "https://transcriptapi.com/api/v2/youtube/transcript\
 **Resolve channel handle (free):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@mkbhd" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
 **Latest videos (free):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/latest?channel_id=UC_CHANNEL_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/latest?channel=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
 **Browse channel uploads (paginated):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/videos?channel_id=UC_CHANNEL_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/videos?channel=@NASA" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 # Use continuation token from response for next pages
 ```
@@ -105,19 +102,19 @@ curl -s "https://transcriptapi.com/api/v2/youtube/channel/videos?channel_id=UC_C
 **Browse playlist (paginated):**
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/playlist/videos?playlist_id=PL_PLAYLIST_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/playlist/videos?playlist=PL_PLAYLIST_ID" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
 ## Parameter Validation
 
-| Field          | Rule                                        |
-| -------------- | ------------------------------------------- |
-| `channel_id`   | `^UC[a-zA-Z0-9_-]{22}$` (24 chars total)    |
-| `playlist_id`  | starts with `PL`, `UU`, `LL`, `FL`, or `OL` |
-| `q` (search)   | 1-200 chars                                 |
-| `limit`        | 1-50                                        |
-| `continuation` | non-empty string                            |
+| Field          | Rule                                                    |
+| -------------- | ------------------------------------------------------- |
+| `channel`      | `@handle`, channel URL, or `UC...` ID                   |
+| `playlist`     | Playlist URL or ID (`PL`/`UU`/`LL`/`FL`/`OL` prefix)   |
+| `q` (search)   | 1-200 chars                                             |
+| `limit`        | 1-50                                                    |
+| `continuation` | non-empty string                                        |
 
 ## Why Not Google's API?
 

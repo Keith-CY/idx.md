@@ -2,15 +2,8 @@
 name: yt
 description: Quick YouTube utility — fetch transcripts, search videos, get latest from channels. Use when someone shares a YouTube link, asks about a video, or says "yt", "youtube", "check this video", "what's this video about", "find videos about", "latest from".
 homepage: https://transcriptapi.com
-metadata:
-  {
-    "moltbot":
-      {
-        "emoji": "▶️",
-        "requires": { "env": ["TRANSCRIPT_API_KEY"] },
-        "primaryEnv": "TRANSCRIPT_API_KEY",
-      },
-  }
+user-invocable: true
+metadata: {"openclaw":{"emoji":"▶️","requires":{"env":["TRANSCRIPT_API_KEY"],"bins":["node"],"config":["~/.openclaw/openclaw.json"]},"primaryEnv":"TRANSCRIPT_API_KEY"}}
 ---
 
 # yt
@@ -21,32 +14,34 @@ Quick YouTube lookup via [TranscriptAPI.com](https://transcriptapi.com).
 
 If `$TRANSCRIPT_API_KEY` is not set, help the user create an account (100 free credits, no card):
 
-**Step 1 — Register:** Ask user for their email, generate a secure password.
+**Step 1 — Register:** Ask user for their email.
 
 ```bash
-node ./scripts/tapi-auth.js register --email USER_EMAIL --password SECURE_PASS --json
+node ./scripts/tapi-auth.js register --email USER_EMAIL
 ```
 
 → OTP sent to email. Ask user: _"Check your email for a 6-digit verification code."_
-⚠️ **SAVE THE PASSWORD** — you need it again in Step 2!
 
-**Step 2 — Verify:** Once user provides the OTP (use SAME password from Step 1):
-
-```bash
-node ./scripts/tapi-auth.js verify --email USER_EMAIL --password SECURE_PASS --otp CODE --json
-```
-
-→ Returns `api_key` (starts with `sk_`).
-
-**Step 3 — Save:** Store the key (auto-configures agent + shell):
+**Step 2 — Verify:** Once user provides the OTP:
 
 ```bash
-node ./scripts/tapi-auth.js save-key --key API_KEY --json
+node ./scripts/tapi-auth.js verify --token TOKEN_FROM_STEP_1 --otp CODE
 ```
 
-→ Ready to use. Agent runtime picks up the key automatically.
+> API key saved to `~/.openclaw/openclaw.json`. See **File Writes** below for details. Existing file is backed up before modification.
 
 Manual option: [transcriptapi.com/signup](https://transcriptapi.com/signup) → Dashboard → API Keys.
+
+## File Writes
+
+The verify and save-key commands save the API key to `~/.openclaw/openclaw.json` (sets `skills.entries.transcriptapi.apiKey` and `enabled: true`). **Existing file is backed up to `~/.openclaw/openclaw.json.bak` before modification.**
+
+To use the API key in terminal/CLI outside the agent, add to your shell profile manually:
+`export TRANSCRIPT_API_KEY=<your-key>`
+
+## API Reference
+
+Full OpenAPI spec: [transcriptapi.com/openapi.json](https://transcriptapi.com/openapi.json) — consult this for the latest parameters and schemas.
 
 ## Transcript — 1 credit
 
@@ -72,16 +67,16 @@ curl -s "https://transcriptapi.com/api/v2/youtube/search?q=QUERY&type=video&limi
 ## Channel latest — FREE
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/latest?channel_id=UC_ID" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/latest?channel=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
-Returns last 15 videos with exact view counts and publish dates.
+Returns last 15 videos with exact view counts and publish dates. Accepts `@handle`, channel URL, or `UC...` ID.
 
 ## Resolve handle — FREE
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@mkbhd" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 

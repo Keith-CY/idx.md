@@ -1,8 +1,8 @@
 ---
 name: personas
-version: 2.1.1
+version: 2.2.3
 description: Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation. Token-efficient, loads only active persona.
-metadata: {"clawdbot":{"requires":{"bins":[],"env":[]}}}
+metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed."}}}
 triggers:
   - /persona <name>
   - /persona list
@@ -69,6 +69,37 @@ Use these commands any time for fast, explicit control.
 ```
 /persona exit
 ```
+
+---
+
+## CLI Handler
+
+The skill includes a Python CLI handler for programmatic access.
+
+**Location:** `scripts/persona.py`
+
+**Commands:**
+```bash
+# List all personas
+python3 scripts/persona.py --list
+
+# Show persona details
+python3 scripts/persona.py --show dev
+python3 scripts/persona.py --show "chef-marco"
+
+# Activate a persona (outputs system prompt, saves state)
+python3 scripts/persona.py --activate luna
+
+# Show currently active persona
+python3 scripts/persona.py --current
+
+# Deactivate/reset to default
+python3 scripts/persona.py --reset
+```
+
+**State Persistence:** Active persona is saved to `~/.openclaw/persona-state.json` and persists across sessions.
+
+**Aliases:** Common variations are supported (e.g., `chef` → `chef-marco`, `dr` → `dr-med`).
 
 ---
 

@@ -27,6 +27,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-transcription-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.536Z
+retrieved_at: 2026-02-12T05:37:27.666Z
 content_sha256: bb732fb987739ecdc0e1e6e02cc693a3d25a95f02abc148f9dadb59486e63813
 ---

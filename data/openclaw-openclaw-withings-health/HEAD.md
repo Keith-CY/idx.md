@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hisxo/withings-health/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:29.099Z
+retrieved_at: 2026-02-12T05:40:24.692Z
 content_sha256: 940038aadf2fac2ca826113f01b8fa7b8acff5776fc20233018dabb846003fcc
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/berkay-dune/plurum/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:56.739Z
-content_sha256: ad1275c7145db62d83c2de5c5d7bb74de41e049d2a587e5873cf0e7bfba421ee
+retrieved_at: 2026-02-12T05:39:24.382Z
+content_sha256: 7a0558e7afd7e47285aa90624cc6b9e6ad7174c04c3f8ec5eb5795dde01362b8
 ---

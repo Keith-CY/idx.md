@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/elevenlabs-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:33.097Z
+retrieved_at: 2026-02-12T05:38:07.306Z
 content_sha256: 832c7d332b357433bc85a6a81bd48e553809925460c93202e592b9102e4eb01b
 ---

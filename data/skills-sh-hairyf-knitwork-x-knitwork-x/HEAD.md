@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hairyf/knitwork-x/HEAD/skills/knitwork-x/references/core-overview.md
 license: ""
 upstream_ref: https://skills.sh/hairyf/knitwork-x/knitwork-x
-retrieved_at: 2026-02-10T10:44:29.209Z
+retrieved_at: 2026-02-12T05:37:05.925Z
 content_sha256: 14f498087b077d54f43319de2fad52747d95f44d408646d00c15fdf17be11bb7
 ---

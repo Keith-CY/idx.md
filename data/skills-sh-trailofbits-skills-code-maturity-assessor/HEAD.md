@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/code-maturity-assessor/resources/ASSESSMENT_CRITERIA.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/code-maturity-assessor
-retrieved_at: 2026-02-10T10:44:28.729Z
+retrieved_at: 2026-02-12T05:36:58.916Z
 content_sha256: 0ffe131842b209de7910cc2ac77fc1e2cdea1e16455bfba79505c8ba8179009f
 ---

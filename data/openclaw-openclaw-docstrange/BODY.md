@@ -48,14 +48,27 @@ export DOCSTRANGE_API_KEY="your_api_key_here"
 
 ### 2. OpenClaw Configuration (Optional)
 
-Add to your `~/.openclaw/openclaw.json`:
+**Recommended: Use environment variables** (most secure):
 ```json5
 {
   skills: {
     entries: {
       "docstrange": {
         enabled: true,
-        apiKey: "your_api_key_here",
+        // API key loaded from environment variable DOCSTRANGE_API_KEY
+      },
+    },
+  },
+}
+```
+
+**Alternative: Store in config file** (use with caution):
+```json5
+{
+  skills: {
+    entries: {
+      "docstrange": {
+        enabled: true,
         env: {
           DOCSTRANGE_API_KEY: "your_api_key_here",
         },
@@ -64,6 +77,12 @@ Add to your `~/.openclaw/openclaw.json`:
   },
 }
 ```
+
+**Security Note:** If storing API keys in `~/.openclaw/openclaw.json`:
+- Set file permissions: `chmod 600 ~/.openclaw/openclaw.json`
+- Never commit this file to version control
+- Prefer environment variables or your agent's secret store when possible
+- Rotate keys regularly and limit API key permissions if supported
 
 ## Common Tasks
 
@@ -256,6 +275,39 @@ Request multiple formats in one call:
 }
 ```
 
+## Security & Privacy
+
+### Data Handling
+
+**Important:** Documents uploaded to DocStrange are transmitted to `https://extraction-api.nanonets.com` and processed on external servers.
+
+**Before uploading sensitive documents:**
+- Review Nanonets' privacy policy and data retention policies: https://docstrange.nanonets.com/docs
+- Verify encryption in transit (HTTPS) and at rest
+- Confirm data deletion/retention timelines
+- Test with non-sensitive sample documents first
+
+**Best practices:**
+- Do not upload highly sensitive PII (SSNs, medical records, financial account numbers) until you've confirmed the service's security and compliance posture
+- Use API keys with limited permissions/scopes if available
+- Rotate API keys regularly (every 90 days recommended)
+- Monitor API usage logs for unauthorized access
+- Never log or commit API keys to repositories or examples
+
+### File Size Limits
+
+- **Sync endpoint:** Recommended for documents ≤5 pages
+- **Async endpoint:** Use for documents >5 pages to avoid timeouts
+- **Large files:** Consider using `file_url` with publicly accessible URLs instead of uploading large files directly
+
+### Operational Safeguards
+
+- Always use environment variables or secure secret stores for API keys
+- Never include real API keys in code examples or documentation
+- Use placeholder values like `"your_api_key_here"` in examples
+- Set appropriate file permissions on configuration files (600 for JSON configs)
+- Enable API key rotation and monitor usage through the dashboard
+
 ## Troubleshooting
 
 **400 Bad Request:**
@@ -270,7 +322,25 @@ Request multiple formats in one call:
 - Requires `json_options` (field list or schema)
 - Add `include_metadata=confidence_score`
 
+**Authentication Errors:**
+- Verify `DOCSTRANGE_API_KEY` environment variable is set
+- Check API key hasn't expired or been revoked
+- Ensure no extra whitespace in API key value
+
+## Pre-Publish Security Checklist
+
+Before publishing or updating this skill, verify:
+
+- [ ] `package.json` declares `requiredEnv` and `primaryEnv` for `DOCSTRANGE_API_KEY`
+- [ ] `package.json` lists API endpoints in `endpoints` array
+- [ ] All code examples use placeholder values (`"your_api_key_here"`) not real keys
+- [ ] No API keys or secrets are embedded in `SKILL.md` or `package.json`
+- [ ] Security & Privacy section documents data handling and risks
+- [ ] Configuration examples include security warnings for plaintext storage
+- [ ] File permission guidance is included for config files
+
 ## References
 
 - **API Docs:** https://docstrange.nanonets.com/docs
 - **Get API Key:** https://docstrange.nanonets.com/app
+- **Privacy Policy:** https://docstrange.nanonets.com/docs (check for privacy/data policy links)

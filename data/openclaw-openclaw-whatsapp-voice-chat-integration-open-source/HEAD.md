@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/syedateebulislam/whatsapp-voice-chat-integration-open-source/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:28.055Z
+retrieved_at: 2026-02-12T05:40:22.405Z
 content_sha256: b48745541164405d10f4e634af1889e92b44bffc22e4c363e49c74462d144ed9
 ---

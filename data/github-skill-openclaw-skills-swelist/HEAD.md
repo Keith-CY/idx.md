@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chenyuan99/swelist/SKILLS.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/chenyuan99/swelist/SKILLS.md
-retrieved_at: 2026-02-10T10:45:47.019Z
+retrieved_at: 2026-02-12T05:40:57.922Z
 content_sha256: 3a6c65e8d92bbbcb71789ad4fbe48bba46fa24ecd38d0bcc1ae41b94bf866ee2
 ---

@@ -31,7 +31,19 @@ node skills/imap-email/scripts/imap.js search --from "sender@example.com" --unse
 
 ## Configuration
 
-Create `.env` in the skill folder or set environment variables:
+**Quick setup (ProtonMail Bridge):**
+```bash
+cd skills/imap-email
+./setup.sh
+```
+The setup helper will prompt for Bridge credentials and test the connection.
+
+**Manual setup:**
+1. Copy `.env.example` to `.env` in the skill folder
+2. Fill in your IMAP credentials
+3. The `.env` file is automatically ignored by git
+
+**Environment variables:**
 
 ```bash
 IMAP_HOST=127.0.0.1          # Server hostname
@@ -42,6 +54,8 @@ IMAP_TLS=false               # Use TLS/SSL connection
 IMAP_REJECT_UNAUTHORIZED=false  # Set to false for self-signed certs (optional)
 IMAP_MAILBOX=INBOX           # Default mailbox
 ```
+
+**⚠️ Security:** Never commit your `.env` file! It's already in `.gitignore` to prevent accidents.
 
 **ProtonMail Bridge setup:**
 - Install and run ProtonMail Bridge
@@ -167,16 +181,15 @@ node /Users/mike/clawd/skills/imap-email/scripts/imap.js check --limit 5
 
 ## Dependencies
 
-Install in skill folder:
+**Required packages:** imap-simple, mailparser, dotenv
+
+**Installation:**
 ```bash
 cd skills/imap-email
-npm install imap-simple dotenv
+npm install
 ```
 
-Or install globally:
-```bash
-npm install -g imap-simple dotenv
-```
+This will install all dependencies listed in `package.json`.
 
 ## Security Notes
 

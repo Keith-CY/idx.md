@@ -14,9 +14,8 @@ summary: >-
   metadata:
     author: maton
     version: "1.0"
-  ---
-
-  # API Gateway
+    clawdbot:
+      emoji: 🧠
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -24,6 +23,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byungkyu/api-gateway/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.124Z
-content_sha256: 439c50e9d51e39ea35734ac46e79914dfa413b6a9caacb00ca7878f7100f5635
+retrieved_at: 2026-02-12T05:37:21.338Z
+content_sha256: 7df8cf00ae28b72e043d8971651a6fa98b1be887083ca2eae3824fc856290c67
 ---

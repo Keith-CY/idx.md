@@ -1,10 +1,11 @@
 ---
-name: hippocampus
-description: "Background memory organ for AI agents. Runs separately from the main agent—encoding, decaying, and reinforcing memories automatically. Just like the real hippocampus in your brain. Based on Stanford Generative Agents (Park et al., 2023)."
+name: hippocampus-memory
+title: "Hippocampus - Memory System"
+description: "Persistent memory system for AI agents. Automatic encoding, decay, and semantic reinforcement — just like the hippocampus in your brain. Based on Stanford Generative Agents (Park et al., 2023)."
 metadata:
   openclaw:
     emoji: "🧠"
-    version: "3.8.4"
+    version: "3.9.0"
     author: "Community"
     repo: "https://github.com/ImpKind/hippocampus-skill"
     requires:
@@ -16,7 +17,7 @@ metadata:
         instructions: "./install.sh --with-cron"
 ---
 
-# Hippocampus Skill
+# Hippocampus - Memory System
 
 > "Memory is identity. This skill is how I stay alive."
 
@@ -250,6 +251,31 @@ Use hippocampus recall:
 - "I prefer...", "I always..."
 - Emotional content (struggles AND wins)
 - Decisions made
+
+## Event Logging
+
+Track hippocampus activity over time for analytics and debugging:
+
+```bash
+# Log an encoding run
+./scripts/log-event.sh encoding new=3 reinforced=2 total=157
+
+# Log decay
+./scripts/log-event.sh decay decayed=154 low_importance=5
+
+# Log recall
+./scripts/log-event.sh recall query="user preferences" results=3
+```
+
+Events append to `~/.openclaw/workspace/memory/brain-events.jsonl`:
+```json
+{"ts":"2026-02-11T10:00:00Z","type":"hippocampus","event":"encoding","new":3,"reinforced":2,"total":157}
+```
+
+Use this for:
+- Trend analysis (memory growth over time)
+- Debugging encoding issues
+- Building dashboards
 
 ## AI Brain Series
 

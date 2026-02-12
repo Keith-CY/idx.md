@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/gifhorse/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.021Z
+retrieved_at: 2026-02-12T05:38:20.863Z
 content_sha256: 42acfc2a558ab105b1114d1b0e7ce0ca99bed85d63dee2715c56f01bbb66e60b
 ---

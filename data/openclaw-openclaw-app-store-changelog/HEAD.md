@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dimillian/app-store-changelog/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.146Z
+retrieved_at: 2026-02-12T05:37:21.664Z
 content_sha256: 4e442b2c83de3958084373885ddcd0df6607ea30496fda8389c545f8c4ffe9d9
 ---

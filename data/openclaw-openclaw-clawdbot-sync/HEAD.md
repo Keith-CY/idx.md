@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/clawdbot-sync/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:31.667Z
+retrieved_at: 2026-02-12T05:37:44.212Z
 content_sha256: 743c234dc3251e4d2f62c37af54c26f3f79bf0df89c1157617b601417b67cb0a
 ---

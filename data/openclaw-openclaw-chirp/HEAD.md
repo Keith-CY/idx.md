@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zizi-cat/chirp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:31.313Z
+retrieved_at: 2026-02-12T05:37:39.913Z
 content_sha256: 8a98f58e41267c0196e73ebca3bd7de201b889872fc1e326208bed399a4ce5ac
 ---

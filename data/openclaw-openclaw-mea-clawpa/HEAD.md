@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/attn-bot/mea-clawpa/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:41.527Z
+retrieved_at: 2026-02-12T05:38:50.669Z
 content_sha256: f2d6a5f53cf7c8f1626943a9245339c4124996e19ce8cf87d005eac710e496da
 ---

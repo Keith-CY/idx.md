@@ -2,15 +2,8 @@
 name: transcript
 description: Get transcripts from any YouTube video — for summarization, research, translation, quoting, or content analysis. Use when the user shares a video link or asks "what did they say", "get the transcript", "transcribe this video", "summarize this video", or wants to analyze spoken content.
 homepage: https://transcriptapi.com
-metadata:
-  {
-    "moltbot":
-      {
-        "emoji": "📝",
-        "requires": { "env": ["TRANSCRIPT_API_KEY"] },
-        "primaryEnv": "TRANSCRIPT_API_KEY",
-      },
-  }
+user-invocable: true
+metadata: {"openclaw":{"emoji":"📝","requires":{"env":["TRANSCRIPT_API_KEY"],"bins":["node"],"config":["~/.openclaw/openclaw.json"]},"primaryEnv":"TRANSCRIPT_API_KEY"}}
 ---
 
 # Transcript
@@ -21,32 +14,30 @@ Fetch video transcripts via [TranscriptAPI.com](https://transcriptapi.com).
 
 If `$TRANSCRIPT_API_KEY` is not set, help the user create an account (100 free credits, no card):
 
-**Step 1 — Register:** Ask user for their email, generate a secure password.
+**Step 1 — Register:** Ask user for their email.
 
 ```bash
-node ./scripts/tapi-auth.js register --email USER_EMAIL --password SECURE_PASS --json
+node ./scripts/tapi-auth.js register --email USER_EMAIL
 ```
 
 → OTP sent to email. Ask user: _"Check your email for a 6-digit verification code."_
-⚠️ **SAVE THE PASSWORD** — you need it again in Step 2!
 
-**Step 2 — Verify:** Once user provides the OTP (use SAME password from Step 1):
-
-```bash
-node ./scripts/tapi-auth.js verify --email USER_EMAIL --password SECURE_PASS --otp CODE --json
-```
-
-→ Returns `api_key` (starts with `sk_`).
-
-**Step 3 — Save:** Store the key (auto-configures agent + shell):
+**Step 2 — Verify:** Once user provides the OTP:
 
 ```bash
-node ./scripts/tapi-auth.js save-key --key API_KEY --json
+node ./scripts/tapi-auth.js verify --token TOKEN_FROM_STEP_1 --otp CODE
 ```
 
-→ Ready to use. Agent runtime picks up the key automatically.
+> API key saved to `~/.openclaw/openclaw.json`. See **File Writes** below for details. Existing file is backed up before modification.
 
 Manual option: [transcriptapi.com/signup](https://transcriptapi.com/signup) → Dashboard → API Keys.
+
+## File Writes
+
+The verify and save-key commands save the API key to `~/.openclaw/openclaw.json` (sets `skills.entries.transcriptapi.apiKey` and `enabled: true`). **Existing file is backed up to `~/.openclaw/openclaw.json.bak` before modification.**
+
+To use the API key in terminal/CLI outside the agent, add to your shell profile manually:
+`export TRANSCRIPT_API_KEY=<your-key>`
 
 ## GET /api/v2/youtube/transcript
 

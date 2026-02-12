@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/guibibeau/solana-dev-skill/main/skill/frontend-framework-kit.md
 license: ""
 upstream_ref: https://skills.sh/guibibeau/solana-dev-skill/solana-dev
-retrieved_at: 2026-02-10T10:45:37.174Z
+retrieved_at: 2026-02-12T05:40:37.100Z
 content_sha256: 00bf8288c14add0733ae35506f52d6059a5b41b10215154c45acf8c526273480
 ---

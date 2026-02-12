@@ -4,7 +4,7 @@ description: "Emotional processing layer for AI agents. Persistent emotional sta
 metadata:
   openclaw:
     emoji: "🎭"
-    version: "1.6.1"
+    version: "1.7.0"
     author: "ImpKind"
     repo: "https://github.com/ImpKind/amygdala-memory"
     requires:
@@ -258,6 +258,28 @@ Emotions naturally return to baseline over time:
 - **Effect:** Strong emotions fade, but slowly
 
 After 24 hours without updates, a valence of 0.8 would decay to ~0.65.
+
+## Event Logging
+
+Track emotional activity over time for analytics:
+
+```bash
+# Log encoding run
+./scripts/log-event.sh encoding emotions_found=2 valence=0.85 arousal=0.6
+
+# Log decay
+./scripts/log-event.sh decay valence_before=0.9 valence_after=0.85
+
+# Log emotion update
+./scripts/log-event.sh update emotion=joy intensity=0.7
+```
+
+Events append to `~/.openclaw/workspace/memory/brain-events.jsonl`:
+```json
+{"ts":"2026-02-11T09:30:00Z","type":"amygdala","event":"encoding","emotions_found":2,"valence":0.85}
+```
+
+Use for trend analysis — visualize emotional patterns over days/weeks.
 
 ## AI Brain Series
 

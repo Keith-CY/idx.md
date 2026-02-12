@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/hairy-utils/references/core-async.md
 license: ""
 upstream_ref: https://skills.sh/hairyf/skills/hairy-utils
-retrieved_at: 2026-02-10T10:44:28.977Z
+retrieved_at: 2026-02-12T05:37:02.325Z
 content_sha256: 73115192ce2234e3f3ebf6d7640b72c9ebd4f8aac137b565421255122f930899
 ---

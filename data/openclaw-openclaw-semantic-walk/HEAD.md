@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/liet-codes/semantic-walk/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:07.024Z
+retrieved_at: 2026-02-12T05:39:44.938Z
 content_sha256: b5a622942c17f9e01420159a01289adcbab13f428a1a6fa66e4e9f92f781e96a
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hexnickk/claude-optimised/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:31.387Z
+retrieved_at: 2026-02-12T05:37:41.033Z
 content_sha256: 57a64c1fc231189487d8420a07b6c75782a15dee3cf969eaa3a5e35a2132492b
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/abm-outbound/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:29.420Z
+retrieved_at: 2026-02-12T05:37:08.723Z
 content_sha256: 79a2a920c5bd9442063163891ee6280f37fcad152d4c42d60b287a118825983f
 ---

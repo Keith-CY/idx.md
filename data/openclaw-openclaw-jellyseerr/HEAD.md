@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericrosenberg/jellyseerr/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:35.633Z
+retrieved_at: 2026-02-12T05:38:38.642Z
 content_sha256: 2e2f717900ad27d473561bf2d8fe39b3b590e20e1b4c3d79bb68535232f5ddcf
 ---

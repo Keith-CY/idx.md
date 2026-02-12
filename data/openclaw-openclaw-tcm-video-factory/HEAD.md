@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xaotiensinh-abm/tcm-video-factory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:16.280Z
+retrieved_at: 2026-02-12T05:40:01.427Z
 content_sha256: d1f0abf33d17b6d05c8e34f03547850edf235ab8643922f3b8311cd875e4eddc
 ---

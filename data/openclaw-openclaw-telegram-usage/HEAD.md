@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/c-drew/telegram-usage/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:16.814Z
+retrieved_at: 2026-02-12T05:40:02.395Z
 content_sha256: dbc02d42438b0b675ebb964a7864e45488808d5a469a9654aaeed04f9f262be0
 ---

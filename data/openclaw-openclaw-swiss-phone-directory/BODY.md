@@ -60,11 +60,22 @@ Results include (when available):
 - **Name** - Business or person name
 - **Type** - Organisation or Person
 - **Address** - Street, ZIP, city, canton
-- **Phone** - Phone number(s)
-- **Fax** - Fax number
+- **Phone** - Clickable tel: link (e.g., `[055 220 88 33](tel:+41552208833)`)
+- **Fax** - Clickable tel: link
 - **Email** - Email address
 - **Website** - Website URL
 - **Categories** - Business categories
+
+### Clickable Phone Numbers 📞
+
+Phone numbers are automatically formatted as Markdown links with `tel:` protocol:
+```
+📞 [055 220 88 33](tel:+41552208833)
+```
+
+This enables **one-tap calling** on mobile devices (Telegram, Signal, WhatsApp, etc.).
+
+To disable clickable links, use `--no-clickable`.
 
 ## Configuration
 

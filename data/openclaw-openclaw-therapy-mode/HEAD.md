@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/therapy-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:19.189Z
+retrieved_at: 2026-02-12T05:40:03.928Z
 content_sha256: 1ee98efb02225ea84238d9ff8c4d1f4543c44c4becd17bfa42643c7b19052cb1
 ---
