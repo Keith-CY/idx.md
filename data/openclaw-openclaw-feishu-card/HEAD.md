@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-card/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:00.039Z
+retrieved_at: 2026-02-13T07:22:55.863Z
 content_sha256: c4dddd580fe306db0bcbda4a0da519d59d2f67d1f0e767b05fca9c370a3ac8f1
 ---

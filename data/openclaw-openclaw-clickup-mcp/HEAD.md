@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/clickup-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:38.313Z
+retrieved_at: 2026-02-13T07:22:33.430Z
 content_sha256: 33242b2f681387bcee3ea03d8de8ba928fd6fdd5e5f18d6925cd93661349af69
 ---

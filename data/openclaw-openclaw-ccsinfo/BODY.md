@@ -1,6 +1,7 @@
 ---
 name: ccsinfo
 description: Query and analyze Claude Code session data from a remote server. Use when asked to inspect Claude Code sessions, view conversation history, check tool calls, track tasks, search prompts, or view usage statistics. Requires CCSINFO_SERVER_URL to be set and a ccsinfo server running.
+metadata: {"clawdbot":{"requires":{"env":["CCSINFO_SERVER_URL"],"bins":["ccsinfo"]},"install":[{"id":"script","kind":"script","command":"bash scripts/install.sh","bins":["ccsinfo"],"label":"Install ccsinfo CLI"}]}}
 ---
 
 # ccsinfo - Claude Code Session Info

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/opencode-acp-control/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:49.923Z
+retrieved_at: 2026-02-13T07:23:53.118Z
 content_sha256: 320bff8b0137aaa94cf36a01183375a6bad4f10c20c25a5039d31fdfa5756409
 ---

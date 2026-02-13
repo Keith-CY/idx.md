@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ferreirapablo/nonopost/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:44.385Z
+retrieved_at: 2026-02-13T07:23:46.850Z
 content_sha256: fa066272ab7baad0b0a06c5a9d1b5dc3021229436bb504e1bf2f882c7f0d275b
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/barneyjm/journey/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:22.409Z
+retrieved_at: 2026-02-13T07:23:20.587Z
 content_sha256: a3ff8de488ecd2f0dc732f4da723c8048b2973ee3f1acb42639f62997849a8ad
 ---

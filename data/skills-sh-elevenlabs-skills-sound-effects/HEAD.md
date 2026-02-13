@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/sound-effects/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
-retrieved_at: 2026-02-13T06:36:02.876Z
+retrieved_at: 2026-02-13T07:21:44.677Z
 content_sha256: 236e58b118a19537b3c848a03c700e543a3ce346ab41a9f0e9ae7ce070b45342
 ---

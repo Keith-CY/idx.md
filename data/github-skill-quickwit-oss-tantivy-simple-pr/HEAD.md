@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/quickwit-oss/tantivy/main/.claude/skills/simple-pr/SKILL.md
 license: ""
 upstream_ref: https://github.com/quickwit-oss/tantivy/blob/main/.claude/skills/simple-pr/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.924Z
+retrieved_at: 2026-02-13T07:21:08.829Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---

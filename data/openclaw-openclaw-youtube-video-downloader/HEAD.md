@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-video-downloader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:35:57.949Z
+retrieved_at: 2026-02-13T07:21:20.182Z
 content_sha256: 18fe3aea23d4e5685b131a1e40387ad4755955ab9274b7692ccd43462834ca70
 ---

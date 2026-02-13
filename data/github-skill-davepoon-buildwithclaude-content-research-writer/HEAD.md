@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/davepoon/buildwithclaude/main/plugins/all-skills/skills/content-research-writer/SKILL.md
 license: ""
 upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.283Z
+retrieved_at: 2026-02-13T07:21:05.612Z
 content_sha256: 1e2e8681cf7ba31550ac69151ec3fcb427559bcd3a92dc5e3b7070b7f4e076d3
 ---

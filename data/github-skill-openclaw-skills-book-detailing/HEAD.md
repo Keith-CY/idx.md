@@ -14,6 +14,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.520Z
+retrieved_at: 2026-02-13T07:21:06.720Z
 content_sha256: 27ebdce0de5990a9ebb7282dff6a024086426c0f49ad59fe272fccfc82be86e5
 ---

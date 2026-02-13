@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jorgermp/google-photos/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:10.809Z
+retrieved_at: 2026-02-13T07:23:08.008Z
 content_sha256: 6a03cd69e2c8ef8889f9563ca7210ca50c2ec189da6ba0d4db74b7fc7d5fa400
 ---

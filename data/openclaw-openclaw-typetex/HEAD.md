@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gregm711/typetex/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:38.486Z
+retrieved_at: 2026-02-13T07:24:49.634Z
 content_sha256: 16e7e07ec4e247b23d3d68d9ec1146448980ea0913677fc6e4f876fe4927392e
 ---

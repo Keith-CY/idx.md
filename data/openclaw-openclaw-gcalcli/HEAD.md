@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gargravish/gcalcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:05.169Z
+retrieved_at: 2026-02-13T07:23:01.720Z
 content_sha256: 92224e7713932c552dfaebae20b2b7db3c48bb1fd1e104e3d6cdd95c08e82e12
 ---

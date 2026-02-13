@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/telegram-bot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:30.689Z
+retrieved_at: 2026-02-13T07:24:39.947Z
 content_sha256: 6c9a80859b06db0e9b3e4bc226dad357df7b3a1a52e8946eebdf5539f27c5e5c
 ---

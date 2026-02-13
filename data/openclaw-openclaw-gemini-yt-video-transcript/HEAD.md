@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/gemini-yt-video-transcript/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:06.129Z
+retrieved_at: 2026-02-13T07:23:02.670Z
 content_sha256: 013bdf441304ef28897b95c4bf670bf0b1c950cd68d473fe0dc4803e55bda7cd
 ---

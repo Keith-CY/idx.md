@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/text-to-speech/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/elevenlabs/skills/text-to-speech
-retrieved_at: 2026-02-13T06:36:02.409Z
+retrieved_at: 2026-02-13T07:21:42.468Z
 content_sha256: ed6f6849abd7e721b38fe8f4436f2b5acf38e0354b1788e8c4dc81375ca7fcf7
 ---

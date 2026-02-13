@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/content-creation/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/content-creation/SKILL.md
-retrieved_at: 2026-02-13T06:35:58.867Z
+retrieved_at: 2026-02-13T07:21:24.536Z
 content_sha256: e0145f84827b8529df1a028e5b7c0ec7a5c3bda3516228f8a013537a13227900
 ---

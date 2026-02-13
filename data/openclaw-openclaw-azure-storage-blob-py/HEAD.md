@@ -26,6 +26,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-storage-blob-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:22.072Z
+retrieved_at: 2026-02-13T07:22:14.321Z
 content_sha256: 5efb79936a582a76fd8e0c1bd412c0a55cef840847cf3f5486e89b1d14403f0e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jgarrison929/nextjs-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:42.924Z
+retrieved_at: 2026-02-13T07:23:45.266Z
 content_sha256: eb854ad24ffb9069e151be9006457615253687b00786a5d7ee70932ff5c046c1
 ---

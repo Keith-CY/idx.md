@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/murphykobe/agent-browser-2/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:08.037Z
+retrieved_at: 2026-02-13T07:21:59.146Z
 content_sha256: 436c61e7d7451d1c472bf1fb17d48258eca1a9c9c0ebe3d87223d9b0cac07344
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aerialcombat/agent-home/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:09.120Z
+retrieved_at: 2026-02-13T07:22:00.295Z
 content_sha256: de5e7d9dbee0b390e0c6da432f189eeecb6fdc266a13298caaa67053e12697ad
 ---

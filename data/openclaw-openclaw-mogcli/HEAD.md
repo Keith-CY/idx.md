@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/mogcli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:35.759Z
+retrieved_at: 2026-02-13T07:23:36.278Z
 content_sha256: ddb07f6748bbba566b8034ae9565944fdb2dceae062a3cc41d17c72da29350ae
 ---

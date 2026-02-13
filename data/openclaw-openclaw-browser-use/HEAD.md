@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnpana/browser-use/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:27.869Z
+retrieved_at: 2026-02-13T07:22:21.049Z
 content_sha256: c7d1038199e3417fe5a2f0ca1cbb673fa6248719965fc3ba6f79f8dcecbb554d
 ---

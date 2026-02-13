@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/kickbox-automation/SKILL.md
 license: ""
 upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/kickbox-automation/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.207Z
+retrieved_at: 2026-02-13T07:21:05.271Z
 content_sha256: af9fe0d1f5271243ae5584a05649b47db516845e350fa6609ea7289a012f76da
 ---

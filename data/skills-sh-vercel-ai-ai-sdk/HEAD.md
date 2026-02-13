@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel/ai/HEAD/skills/use-ai-sdk/references/common-errors.md
 license: ""
 upstream_ref: https://skills.sh/vercel/ai/ai-sdk
-retrieved_at: 2026-02-13T06:36:01.068Z
+retrieved_at: 2026-02-13T07:21:35.592Z
 content_sha256: 64949f0614a629733d1c47d6e5d5b953d90a696e71922695f69248a21290dcad
 ---

@@ -16,6 +16,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/cowork-plugin-management/skills/create-cowork-plugin/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cowork-plugin-management/skills/create-cowork-plugin/SKILL.md
-retrieved_at: 2026-02-13T06:36:00.510Z
+retrieved_at: 2026-02-13T07:21:32.764Z
 content_sha256: 7d2e20bfda7ed7414835227e44faf218b511cf246fadbbd74102c15a18fdb066
 ---

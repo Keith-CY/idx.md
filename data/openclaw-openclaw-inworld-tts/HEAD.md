@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gugic/inworld-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:20.219Z
+retrieved_at: 2026-02-13T07:23:18.295Z
 content_sha256: f815bdda75df59d8381bcc24c2d8309c778d262a94431bcc6b8d9cb6db518bb2
 ---

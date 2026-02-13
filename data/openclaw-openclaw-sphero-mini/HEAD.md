@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joneschi/sphero-mini/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:23.662Z
+retrieved_at: 2026-02-13T07:24:31.755Z
 content_sha256: b701adc7f0a0e8020a8f2fb93a93ee394f8238c592ab03bae824672687324b81
 ---

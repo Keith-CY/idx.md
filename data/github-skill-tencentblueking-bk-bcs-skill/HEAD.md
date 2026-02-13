@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 license: ""
 upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.965Z
+retrieved_at: 2026-02-13T07:21:09.015Z
 content_sha256: 915a6b40fc01129073647d2139d73154189768f622e1c3c4d652d10ab63526f0
 ---

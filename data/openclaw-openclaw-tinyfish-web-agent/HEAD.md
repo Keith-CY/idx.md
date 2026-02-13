@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simantak-dabhade/tinyfish-web-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:33.839Z
+retrieved_at: 2026-02-13T07:24:43.164Z
 content_sha256: 79e71269fae5efcb1a586fbe5e2f46f741239aeee57bfa344590a5b0e218743c
 ---

@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/campaign-plan.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/campaign-plan.md
-retrieved_at: 2026-02-13T06:35:59.001Z
+retrieved_at: 2026-02-13T07:21:25.181Z
 content_sha256: 8daa883be0c19804d6812c8b5ddd1d0747e0615dcf9c609448d2a2ea5e9b8d05
 ---

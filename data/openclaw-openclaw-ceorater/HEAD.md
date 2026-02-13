@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ceorater-skills/ceorater/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:30.786Z
+retrieved_at: 2026-02-13T07:22:24.267Z
 content_sha256: 73f1721e78cd50145718e68fac8d4abd1f808876913dbcbe8fb344d04286c7f9
 ---

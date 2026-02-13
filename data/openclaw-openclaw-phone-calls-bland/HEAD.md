@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/phone-calls-bland/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:55.815Z
+retrieved_at: 2026-02-13T07:23:59.349Z
 content_sha256: 90008433ad41f5fc7bc27dea73dfbd02b5b918fe1efe63b57eda580eb79fe941
 ---

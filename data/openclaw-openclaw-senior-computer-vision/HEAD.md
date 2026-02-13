@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-computer-vision/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:16.629Z
+retrieved_at: 2026-02-13T07:24:23.559Z
 content_sha256: 6fb196ef397ada04d8cdec18a9650c71121618209e40436b574da37b89e30c56
 ---

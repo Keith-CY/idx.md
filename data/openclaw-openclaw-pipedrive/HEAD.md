@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/pipedrive/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:57.019Z
+retrieved_at: 2026-02-13T07:24:00.553Z
 content_sha256: 8bd9a22df616de3b726a59f8584a949708bedb0c58e219d195827c7827400a24
 ---

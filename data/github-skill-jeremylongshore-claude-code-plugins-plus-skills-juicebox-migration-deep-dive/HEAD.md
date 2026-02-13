@@ -22,6 +22,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
 license: ""
 upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.342Z
+retrieved_at: 2026-02-13T07:21:05.873Z
 content_sha256: df1082e311e831ebf4ba31873eaa77f772f087c4ce1253ccaca6441e62a9edf5
 ---

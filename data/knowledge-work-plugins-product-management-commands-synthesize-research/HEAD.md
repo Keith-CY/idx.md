@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/synthesize-research.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/synthesize-research.md
-retrieved_at: 2026-02-13T06:35:59.232Z
+retrieved_at: 2026-02-13T07:21:26.434Z
 content_sha256: e34be20919331bcd6005028084844e3f08fd6c9a34ac0a623c0cb95b5efe6068
 ---

@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/undocs/references/core-getting-started.md
 license: ""
 upstream_ref: https://skills.sh/hairyf/skills/undocs
-retrieved_at: 2026-02-13T06:36:04.504Z
+retrieved_at: 2026-02-13T07:21:54.347Z
 content_sha256: 9bea28f87385164472dac28df9719a778a4dbe5aae4fe63f0c146ca86aeca3c5
 ---

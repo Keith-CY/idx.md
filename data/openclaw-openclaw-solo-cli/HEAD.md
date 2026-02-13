@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rursache/solo-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:22.625Z
+retrieved_at: 2026-02-13T07:24:30.536Z
 content_sha256: ccbfa6237880cecc0277a6cf69e24b4ec5425252efe22b4de851ffd1be639e65
 ---

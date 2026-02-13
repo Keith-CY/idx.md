@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mbjoern/swiss-geo-and-tourism-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:27.878Z
+retrieved_at: 2026-02-13T07:24:36.739Z
 content_sha256: c3b899153224343dfc8386722dff1687e2ea43a3a55255b89ab6224b1001d4ee
 ---

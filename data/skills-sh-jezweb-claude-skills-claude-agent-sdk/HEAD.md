@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md
 license: ""
 upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
-retrieved_at: 2026-02-13T06:36:03.809Z
+retrieved_at: 2026-02-13T07:21:49.189Z
 content_sha256: adb1a890097184a606ae744699d3309323fb43013dd4a82af7b19a5dab3c5ea9
 ---

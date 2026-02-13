@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stperic/local-websearch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:28.883Z
+retrieved_at: 2026-02-13T07:23:27.448Z
 content_sha256: b253fcd9d4742f90f3d4d9d3fdf4275156f1fc1150acdcde07e6fd566181d026
 ---

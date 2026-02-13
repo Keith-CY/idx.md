@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mfergpt/4claw/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:05.457Z
+retrieved_at: 2026-02-13T07:21:56.285Z
 content_sha256: eeeec9e81a8c8ab4e5285181fa4585c191cd19d79cce5f82e9366eb953ee4528
 ---

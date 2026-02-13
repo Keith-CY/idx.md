@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/svkozak/sfsymbol-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:17.969Z
+retrieved_at: 2026-02-13T07:24:25.117Z
 content_sha256: 40a9751d243c92c02994aa006d3f60edc1e15d6ea21f75e7f983bd9b7c892741
 ---

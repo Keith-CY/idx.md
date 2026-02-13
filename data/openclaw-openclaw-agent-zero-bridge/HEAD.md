@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dowingard/agent-zero-bridge/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:36:10.617Z
+retrieved_at: 2026-02-13T07:22:01.756Z
 content_sha256: e8a13dba2fe9e7708e940666314e9c7cd333b633792e82872c74166869f93574
 ---

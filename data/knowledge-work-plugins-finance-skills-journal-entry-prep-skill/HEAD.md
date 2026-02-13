@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/journal-entry-prep/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/journal-entry-prep/SKILL.md
-retrieved_at: 2026-02-13T06:35:58.669Z
+retrieved_at: 2026-02-13T07:21:23.618Z
 content_sha256: 40fd4cf722cb96259dfbd7c98d6b477987f975bb681052c1dc04fd183f347d73
 ---

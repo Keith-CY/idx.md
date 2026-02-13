@@ -20,6 +20,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
 license: ""
 upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.362Z
+retrieved_at: 2026-02-13T07:21:05.950Z
 content_sha256: 7c52d6502e674073ecae1cfad98d9bfec42a0ab88559e9c14b3142e65b75af4c
 ---

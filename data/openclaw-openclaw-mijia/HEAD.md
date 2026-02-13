@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hqman/mijia/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:34.194Z
+retrieved_at: 2026-02-13T07:23:33.597Z
 content_sha256: 3f86554ff39ce08ac7841563159aebb3148504fd30ddce06613393f4b9183dd8
 ---

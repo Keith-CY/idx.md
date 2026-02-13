@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darinkishore/voice-transcribe/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:44.452Z
+retrieved_at: 2026-02-13T07:24:55.258Z
 content_sha256: 4e251f37613f349671ed01c1fc00340a4acff9aedd9fb6f6d79d92bc01686170
 ---

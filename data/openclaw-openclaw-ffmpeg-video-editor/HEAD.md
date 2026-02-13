@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mahmoudadelbghany/ffmpeg-video-editor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:00.795Z
+retrieved_at: 2026-02-13T07:22:56.726Z
 content_sha256: a789eba1743a8c0f353239e8630f0ee5eb70ebbe61132f5e37f6d12c91285fd1
 ---

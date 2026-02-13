@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/callstackincubator/agent-device/HEAD/skills/agent-device/references/snapshot-refs.md
 license: ""
 upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
-retrieved_at: 2026-02-13T06:36:04.387Z
+retrieved_at: 2026-02-13T07:21:53.417Z
 content_sha256: e021e46d956ae498c29030779c12c27c00ddacebdc33433a1ecba02c411485c5
 ---

@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/commands/variance-analysis.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/commands/variance-analysis.md
-retrieved_at: 2026-02-13T06:35:58.788Z
+retrieved_at: 2026-02-13T07:21:24.158Z
 content_sha256: b2fc485c73ccffc915ef10521b76815e4a704842806bd1f3349ce0b5a8f645b1
 ---

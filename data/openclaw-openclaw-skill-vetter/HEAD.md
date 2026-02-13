@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/spclaudehome/skill-vetter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:20.427Z
+retrieved_at: 2026-02-13T07:24:27.851Z
 content_sha256: e8eb7583355c2ae78a79187dca6a1ec448d9c8360e91652871392179f7ffb8bf
 ---

@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/inferencesh/skills/HEAD/skills/agent-tools/references/authentication.md
 license: ""
 upstream_ref: https://skills.sh/inferencesh/skills/agent-tools
-retrieved_at: 2026-02-13T06:36:00.095Z
+retrieved_at: 2026-02-13T07:21:30.720Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---

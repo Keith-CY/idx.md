@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrbeandev/file-links-tool/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:01.082Z
+retrieved_at: 2026-02-13T07:22:57.067Z
 content_sha256: 36685a1e74bc44e87a39223af8e890dcd659e1f69f294a0ddf058214b5673382
 ---

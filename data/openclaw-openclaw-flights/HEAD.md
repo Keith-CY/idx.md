@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/flights/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:02.930Z
+retrieved_at: 2026-02-13T07:22:59.130Z
 content_sha256: eb0b500acf2e0432fd9c7657c92a6f1d4aeb2f2606c041e2e893e1b995e39c63
 ---

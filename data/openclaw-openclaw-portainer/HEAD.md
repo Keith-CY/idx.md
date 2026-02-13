@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asteinberger/portainer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:37:59.834Z
+retrieved_at: 2026-02-13T07:24:03.550Z
 content_sha256: 6c754c80f021384b78920a07f6543a0b73f4af6c6f4a4d5acf6c60ab7b170dac
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/tavily-ai/skills/HEAD/skills/tavily/tavily-best-practices/references/sdk.md
 license: ""
 upstream_ref: https://skills.sh/tavily-ai/skills/tavily-best-practices
-retrieved_at: 2026-02-13T06:36:03.027Z
+retrieved_at: 2026-02-13T07:21:45.411Z
 content_sha256: b0c745315f2ca16647a2c298644dc9918ea31bf732921b02841e26814da2087a
 ---

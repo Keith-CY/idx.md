@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-vaping/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:07.056Z
+retrieved_at: 2026-02-13T07:24:11.500Z
 content_sha256: 21211955137f7ba1421f50f6d566c206a6e60810a663fa403589785cc285d07c
 ---

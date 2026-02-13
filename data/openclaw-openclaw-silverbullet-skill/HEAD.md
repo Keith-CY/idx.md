@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ramonitor/silverbullet-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:18.893Z
+retrieved_at: 2026-02-13T07:24:26.207Z
 content_sha256: db226f829768be42729c9b4bcf1373908830fc84931d8a5a31d0bc1214fa5cb6
 ---

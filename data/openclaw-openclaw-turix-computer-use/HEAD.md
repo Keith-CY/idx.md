@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tongyu-yan/turix-computer-use/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T06:38:37.503Z
+retrieved_at: 2026-02-13T07:24:48.548Z
 content_sha256: 698525f9bbafd791e7529464b7fd85fbe56b31d84142d23c4e34164605f4267f
 ---

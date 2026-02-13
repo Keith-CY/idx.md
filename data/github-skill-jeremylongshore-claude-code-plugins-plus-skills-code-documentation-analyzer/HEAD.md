@@ -18,6 +18,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
 license: ""
 upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
-retrieved_at: 2026-02-13T06:35:53.322Z
+retrieved_at: 2026-02-13T07:21:05.782Z
 content_sha256: da443a5413b629360e5026125dc2d6e310ba01769e7f382e58560996b6c5f1b5
 ---
