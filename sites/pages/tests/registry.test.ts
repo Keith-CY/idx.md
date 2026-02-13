@@ -24,6 +24,53 @@ describe("loadSources url validation", () => {
     expect(result.ok).toBe(true);
   });
 
+  test("accepts optional GitHub repository metadata fields", async () => {
+    const url = await writeRegistry(
+      [
+        "- type: skills",
+        "  slug: ok",
+        "  source_url: https://raw.githubusercontent.com/org/repo/main/README.md",
+        "  github_stars: 42",
+        "  github_forks: 7",
+        "  github_is_organization: true",
+        "",
+      ].join("\n"),
+    );
+    const result = await loadSources(url);
+    expect(result.ok).toBe(true);
+    if (result.ok) {
+      expect(result.sources[0]).toMatchObject({
+        github_stars: 42,
+        github_forks: 7,
+        github_is_organization: true,
+      });
+    }
+  });
+
+  test("rejects invalid GitHub repository metadata field types", async () => {
+    const url = await writeRegistry(
+      [
+        "- type: skills",
+        "  slug: bad-meta",
+        "  source_url: https://raw.githubusercontent.com/org/repo/main/README.md",
+        "  github_stars: nope",
+        "",
+      ].join("\n"),
+    );
+    const result = await loadSources(url);
+    expect(result.ok).toBe(false);
+    if (!result.ok) {
+      expect(
+        result.errors.some(
+          (error) =>
+            error.includes("github_stars") ||
+            error.includes("github_forks") ||
+            error.includes("github_is_organization"),
+        ),
+      ).toBe(true);
+    }
+  });
+
   test("rejects non-.md URLs", async () => {
     const url = await writeRegistry(`- type: skills\n  slug: bad\n  source_url: https://example.com/docs/llms.txt\n`);
     const result = await loadSources(url);

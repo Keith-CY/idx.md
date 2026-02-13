@@ -78,6 +78,9 @@ function buildPlaybookEntry(params: {
     source_url: "",
     license: "",
     upstream_ref: "",
+    github_stars: null,
+    github_forks: null,
+    github_is_organization: null,
     retrieved_at: params.retrievedAt,
     content_sha256: computeSha256(bodyBytes),
   };

@@ -7,6 +7,11 @@ import { DATA_ROOT } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
 import { validateSourceUrl } from "./lib/source-url";
 import {
+  type GithubRepoMetadata,
+  createGithubRepoMetadataFetcher,
+  extractGithubRepoRefFromRawUrl,
+} from "./lib/github-repo-metadata";
+import {
   migrateRemovedSourcesFromFiles,
   readSourcesFileResult,
   writeSourcesFile,
@@ -30,7 +35,7 @@ const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-skills-sh.md");
 const SOURCE_TYPE = "skills";
 const BASE_TAGS = ["skills-sh", "skills-sh-all-time"] as const;
 const PROBE_TAGS = ["skills-sh", "skills-sh-probed"] as const;
-const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
+const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n#   github_stars: number (optional)\n#   github_forks: number (optional)\n#   github_is_organization: boolean (optional)\n`;
 const MAX_LINKS = 1000;
 const PROBE_BRANCHES = ["main", "master"] as const;
 const PROBE_PATHS = [
@@ -111,14 +116,21 @@ function buildEntry(params: {
   sourceUrl: string;
   upstreamRef: string;
   tags: readonly string[];
+  githubMetadata: GithubRepoMetadata | null;
 }): SourceEntry {
-  return {
+  const entry: SourceEntry = {
     type: SOURCE_TYPE,
     slug: params.slug,
     source_url: params.sourceUrl,
     tags: [...params.tags],
     upstream_ref: params.upstreamRef,
   };
+  if (params.githubMetadata) {
+    entry.github_stars = params.githubMetadata.github_stars;
+    entry.github_forks = params.githubMetadata.github_forks;
+    entry.github_is_organization = params.githubMetadata.github_is_organization;
+  }
+  return entry;
 }
 
 function validateMarkdownUrl(url: string): boolean {
@@ -276,6 +288,7 @@ const stats: ReportStats = {
   duplicatesSkipped: 0,
   invalidSkipped: 0,
 };
+const fetchRepoMetadata = createGithubRepoMetadataFetcher();
 
 for (const skillUrl of rankedLinks) {
   const parsed = parseSkillPath(skillUrl);
@@ -314,12 +327,16 @@ for (const skillUrl of rankedLinks) {
     }
     seenIds.add(id);
     seenUrls.add(sourceUrl);
+    const githubMetadata = await fetchRepoMetadata(
+      extractGithubRepoRefFromRawUrl(sourceUrl),
+    );
     skillsEntries.push(
       buildEntry({
         slug,
         sourceUrl,
         upstreamRef,
         tags: BASE_TAGS,
+        githubMetadata,
       }),
     );
     stats.directMarkdown += 1;
@@ -382,6 +399,7 @@ for (const skillUrl of rankedLinks) {
       sourceUrl: probedUrl,
       upstreamRef,
       tags: PROBE_TAGS,
+      githubMetadata: await fetchRepoMetadata(repo),
     }),
   );
 }

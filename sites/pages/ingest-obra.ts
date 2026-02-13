@@ -16,6 +16,7 @@ import {
   buildSlugParts,
   filterSkillPaths,
 } from "./lib/obra-parse";
+import { extractGithubRepoMetadata } from "./lib/github-repo-metadata";
 
 const SOURCES_DIR = resolve(repoRoot, "sources");
 const OUTPUT_PATH = resolve(SOURCES_DIR, "obra.yml");
@@ -24,7 +25,7 @@ const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-obra.md");
 const SOURCE_TYPE = "skills";
 const BASE_TAGS = ["obra", "source-obra-superpowers"] as const;
-const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
+const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n#   github_stars: number (optional)\n#   github_forks: number (optional)\n#   github_is_organization: boolean (optional)\n`;
 
 const REPO_API = "https://api.github.com/repos/obra/superpowers";
 const TREE_API = "https://api.github.com/repos/obra/superpowers/git/trees";
@@ -168,6 +169,12 @@ if (!repoJson || typeof repoJson !== "object") {
   process.exit(1);
 }
 
+const repoMetadata = extractGithubRepoMetadata(repoJson);
+if (!repoMetadata) {
+  console.error("Missing GitHub repository metadata from API response");
+  process.exit(1);
+}
+
 const defaultBranch = (repoJson as { default_branch?: string }).default_branch;
 if (!defaultBranch) {
   console.error("Missing default branch from GitHub API");
@@ -229,6 +236,7 @@ for (const path of paths) {
     source_url: rawUrl,
     tags: [...BASE_TAGS],
     upstream_ref: `${REPO_HTML}/blob/${defaultBranch}/${path}`,
+    ...repoMetadata,
   });
 }
 

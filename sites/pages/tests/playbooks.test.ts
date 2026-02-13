@@ -23,6 +23,11 @@ describe("pilot playbooks", () => {
         true,
       );
       expect(playbook.headContent.includes("content_sha256:")).toBe(true);
+      expect(playbook.headContent.includes("github_stars: null")).toBe(true);
+      expect(playbook.headContent.includes("github_forks: null")).toBe(true);
+      expect(playbook.headContent.includes("github_is_organization: null")).toBe(
+        true,
+      );
       expect(playbook.bodyMarkdown.includes("|/data/")).toBe(true);
     }
   });

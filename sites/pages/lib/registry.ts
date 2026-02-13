@@ -60,6 +60,9 @@ const SourceSchema = z
     tags: z.array(z.string().min(1)).optional(),
     license: z.string().min(1).optional(),
     upstream_ref: z.string().min(1).optional(),
+    github_stars: z.number().int().min(0).optional(),
+    github_forks: z.number().int().min(0).optional(),
+    github_is_organization: z.boolean().optional(),
   })
   .strict();
 
