@@ -21,6 +21,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/scvi-tools/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/scvi-tools/SKILL.md
-retrieved_at: 2026-02-10T10:45:42.328Z
+retrieved_at: 2026-02-13T04:46:30.689Z
 content_sha256: 03a69b32b77db86afe5f87b75db2ae4c92b03b6e9e16e2c5e66cde2d4ad9c5bc
 ---

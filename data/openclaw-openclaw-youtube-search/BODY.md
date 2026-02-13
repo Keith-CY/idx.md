@@ -2,15 +2,8 @@
 name: youtube-search
 description: Search YouTube for videos and channels, search within specific channels, then fetch transcripts. Use when the user asks to "find videos about X", "search YouTube for", "look up a channel", "who makes videos about", "find on youtube", or wants to discover YouTube content on a topic.
 homepage: https://transcriptapi.com
-metadata:
-  {
-    "moltbot":
-      {
-        "emoji": "🔍",
-        "requires": { "env": ["TRANSCRIPT_API_KEY"] },
-        "primaryEnv": "TRANSCRIPT_API_KEY",
-      },
-  }
+user-invocable: true
+metadata: {"openclaw":{"emoji":"🔍","requires":{"env":["TRANSCRIPT_API_KEY"],"bins":["node"],"config":["~/.openclaw/openclaw.json"]},"primaryEnv":"TRANSCRIPT_API_KEY"}}
 ---
 
 # YouTube Search
@@ -21,32 +14,34 @@ Search YouTube and fetch transcripts via [TranscriptAPI.com](https://transcripta
 
 If `$TRANSCRIPT_API_KEY` is not set, help the user create an account (100 free credits, no card):
 
-**Step 1 — Register:** Ask user for their email, generate a secure password.
+**Step 1 — Register:** Ask user for their email.
 
 ```bash
-node ./scripts/tapi-auth.js register --email USER_EMAIL --password SECURE_PASS --json
+node ./scripts/tapi-auth.js register --email USER_EMAIL
 ```
 
 → OTP sent to email. Ask user: _"Check your email for a 6-digit verification code."_
-⚠️ **SAVE THE PASSWORD** — you need it again in Step 2!
 
-**Step 2 — Verify:** Once user provides the OTP (use SAME password from Step 1):
-
-```bash
-node ./scripts/tapi-auth.js verify --email USER_EMAIL --password SECURE_PASS --otp CODE --json
-```
-
-→ Returns `api_key` (starts with `sk_`).
-
-**Step 3 — Save:** Store the key (auto-configures agent + shell):
+**Step 2 — Verify:** Once user provides the OTP:
 
 ```bash
-node ./scripts/tapi-auth.js save-key --key API_KEY --json
+node ./scripts/tapi-auth.js verify --token TOKEN_FROM_STEP_1 --otp CODE
 ```
 
-→ Ready to use. Agent runtime picks up the key automatically.
+> API key saved to `~/.openclaw/openclaw.json`. See **File Writes** below for details. Existing file is backed up before modification.
 
 Manual option: [transcriptapi.com/signup](https://transcriptapi.com/signup) → Dashboard → API Keys.
+
+## File Writes
+
+The verify and save-key commands save the API key to `~/.openclaw/openclaw.json` (sets `skills.entries.transcriptapi.apiKey` and `enabled: true`). **Existing file is backed up to `~/.openclaw/openclaw.json.bak` before modification.**
+
+To use the API key in terminal/CLI outside the agent, add to your shell profile manually:
+`export TRANSCRIPT_API_KEY=<your-key>`
+
+## API Reference
+
+Full OpenAPI spec: [transcriptapi.com/openapi.json](https://transcriptapi.com/openapi.json) — consult this for the latest parameters and schemas.
 
 ## GET /api/v2/youtube/search — 1 credit
 
@@ -109,28 +104,28 @@ curl -s "https://transcriptapi.com/api/v2/youtube/search?q=QUERY&type=video&limi
 
 ## GET /api/v2/youtube/channel/search — 1 credit
 
-Search videos within a specific channel.
+Search videos within a specific channel. Accepts `channel` — an `@handle`, channel URL, or `UC...` ID.
 
 ```bash
 curl -s "https://transcriptapi.com/api/v2/youtube/channel/search\
-?channel_id=UC_CHANNEL_ID&q=iphone+review&limit=30" \
+?channel=@TED&q=climate+change&limit=30" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
-| Param        | Required | Validation              |
-| ------------ | -------- | ----------------------- |
-| `channel_id` | yes      | `^UC[a-zA-Z0-9_-]{22}$` |
-| `q`          | yes      | 1-200 chars             |
-| `limit`      | no       | 1-50 (default 30)       |
+| Param     | Required | Validation                                |
+| --------- | -------- | ----------------------------------------- |
+| `channel` | yes      | `@handle`, channel URL, or `UC...` ID     |
+| `q`       | yes      | 1-200 chars                               |
+| `limit`   | no       | 1-50 (default 30)                         |
 
 Returns up to ~30 results (YouTube limit). Same video response shape as global search.
 
 ## GET /api/v2/youtube/channel/resolve — FREE
 
-Convert @handle to channel ID for channel/search:
+Convert @handle to channel ID:
 
 ```bash
-curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@mkbhd" \
+curl -s "https://transcriptapi.com/api/v2/youtube/channel/resolve?input=@TED" \
   -H "Authorization: Bearer $TRANSCRIPT_API_KEY"
 ```
 
@@ -155,6 +150,6 @@ curl -s "https://transcriptapi.com/api/v2/youtube/transcript\
 | 402  | No credits — transcriptapi.com/billing |
 | 404  | Not found                              |
 | 408  | Timeout — retry once                   |
-| 422  | Invalid channel_id format              |
+| 422  | Invalid channel identifier             |
 
 Free tier: 100 credits, 300 req/min.

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/parallel/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:53.706Z
-content_sha256: b3447053726c2017c209a1df1a2edfc7ec1a98aef3054ef2d908691ec5678bcf
+retrieved_at: 2026-02-13T04:47:17.965Z
+content_sha256: 48b868182546e60c3cb56f64fe14cb13f1ceb40af5d5a645d15cda8416686200
 ---

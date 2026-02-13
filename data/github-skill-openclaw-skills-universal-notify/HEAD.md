@@ -17,6 +17,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/josunlp/universal-notify/SKILL.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/josunlp/universal-notify/SKILL.md
-retrieved_at: 2026-02-10T10:45:47.137Z
+retrieved_at: 2026-02-13T04:46:23.708Z
 content_sha256: 077fe614ccf3309313b447e224d110f38b419888964d7d8fee96775f09108237
 ---

@@ -1,121 +1,120 @@
 ---
 name: bookstack
 description: "BookStack Wiki & Documentation API integration. Manage your knowledge base programmatically: create, read, update, and delete books, chapters, pages, and shelves. Full-text search across all content. Use when you need to: (1) Create or edit wiki pages and documentation, (2) Organize content in books and chapters, (3) Search your knowledge base, (4) Automate documentation workflows, (5) Sync content between systems. Supports both HTML and Markdown content."
+metadata:
+  openclaw:
+    requires:
+      env:
+        - BOOKSTACK_URL
+        - BOOKSTACK_TOKEN_ID
+        - BOOKSTACK_TOKEN_SECRET
 ---
 
 # BookStack Skill
 
-**BookStack** ist eine Open-Source Wiki- und Dokumentationsplattform. Mit diesem Skill kannst du deine gesamte Wissensdatenbank über die API verwalten – perfekt für Automatisierung und Integration.
+**BookStack** is an open-source wiki and documentation platform. This skill lets you manage your entire knowledge base via API – perfect for automation and integration.
 
-## Was kann dieser Skill?
+## Features
 
-- 📚 **Bücher** erstellen, bearbeiten, löschen
-- 📑 **Kapitel** innerhalb von Büchern verwalten
-- 📄 **Seiten** mit HTML oder Markdown erstellen/bearbeiten
-- 🔍 **Volltextsuche** über alle Inhalte
-- 📁 **Regale** (Shelves) zum Organisieren von Büchern
+- 📚 **Books** – create, edit, delete
+- 📑 **Chapters** – organize content within books
+- 📄 **Pages** – create/edit with HTML or Markdown
+- 🔍 **Full-text search** – search across all content
+- 📁 **Shelves** – organize books into collections
 
 ## Quick Start
 
 ```bash
-# Alle Bücher auflisten
+# List all books
 python3 scripts/bookstack.py list_books
 
-# Suche in der Wissensdatenbank
+# Search the knowledge base
 python3 scripts/bookstack.py search "Home Assistant"
 
-# Seite abrufen
+# Get a page
 python3 scripts/bookstack.py get_page 123
 
-# Neue Seite erstellen (Markdown)
-python3 scripts/bookstack.py create_page --book-id 1 --name "Meine Seite" --markdown "# Titel\n\nInhalt hier..."
+# Create a new page (Markdown)
+python3 scripts/bookstack.py create_page --book-id 1 --name "My Page" --markdown "# Title\n\nContent here..."
 ```
 
-## Alle Befehle
+## All Commands
 
-### Books (Bücher)
+### Books
 ```bash
-python3 scripts/bookstack.py list_books                    # Alle Bücher
-python3 scripts/bookstack.py get_book <id>                 # Buch-Details
-python3 scripts/bookstack.py create_book "Name" ["Desc"]   # Neues Buch
+python3 scripts/bookstack.py list_books                    # List all books
+python3 scripts/bookstack.py get_book <id>                 # Book details
+python3 scripts/bookstack.py create_book "Name" ["Desc"]   # New book
 python3 scripts/bookstack.py update_book <id> [--name] [--description]
 python3 scripts/bookstack.py delete_book <id>
 ```
 
-### Chapters (Kapitel)
+### Chapters
 ```bash
-python3 scripts/bookstack.py list_chapters                 # Alle Kapitel
-python3 scripts/bookstack.py get_chapter <id>              # Kapitel-Details
+python3 scripts/bookstack.py list_chapters                 # List all chapters
+python3 scripts/bookstack.py get_chapter <id>              # Chapter details
 python3 scripts/bookstack.py create_chapter --book-id <id> --name "Name"
 python3 scripts/bookstack.py update_chapter <id> [--name] [--description]
 python3 scripts/bookstack.py delete_chapter <id>
 ```
 
-### Pages (Seiten)
+### Pages
 ```bash
-python3 scripts/bookstack.py list_pages                    # Alle Seiten
-python3 scripts/bookstack.py get_page <id>                 # Seiten-Preview
-python3 scripts/bookstack.py get_page <id> --content       # Mit HTML-Content
-python3 scripts/bookstack.py get_page <id> --markdown      # Als Markdown
+python3 scripts/bookstack.py list_pages                    # List all pages
+python3 scripts/bookstack.py get_page <id>                 # Page preview
+python3 scripts/bookstack.py get_page <id> --content       # With HTML content
+python3 scripts/bookstack.py get_page <id> --markdown      # As Markdown
 
-# Seite erstellen (in Buch oder Kapitel)
+# Create page (in book or chapter)
 python3 scripts/bookstack.py create_page --book-id <id> --name "Name" --markdown "# Content"
 python3 scripts/bookstack.py create_page --chapter-id <id> --name "Name" --html "<p>HTML</p>"
 
-# Seite bearbeiten
+# Edit page
 python3 scripts/bookstack.py update_page <id> [--name] [--content] [--markdown]
 python3 scripts/bookstack.py delete_page <id>
 ```
 
-### Search (Suche)
+### Search
 ```bash
-python3 scripts/bookstack.py search "query"                # Alles durchsuchen
-python3 scripts/bookstack.py search "query" --type page    # Nur Seiten
-python3 scripts/bookstack.py search "query" --type book    # Nur Bücher
+python3 scripts/bookstack.py search "query"                # Search everything
+python3 scripts/bookstack.py search "query" --type page    # Pages only
+python3 scripts/bookstack.py search "query" --type book    # Books only
 ```
 
-### Shelves (Regale)
+### Shelves
 ```bash
-python3 scripts/bookstack.py list_shelves                  # Alle Regale
-python3 scripts/bookstack.py get_shelf <id>                # Regal-Details
-python3 scripts/bookstack.py create_shelf "Name" ["Desc"]  # Neues Regal
+python3 scripts/bookstack.py list_shelves                  # List all shelves
+python3 scripts/bookstack.py get_shelf <id>                # Shelf details
+python3 scripts/bookstack.py create_shelf "Name" ["Desc"]  # New shelf
 ```
 
-## Konfiguration
+## Configuration
 
-Setze die Umgebungsvariablen in `~/.clawdbot/clawdbot.json`:
+Set the following environment variables:
 
-```json
-{
-  "skills": {
-    "entries": {
-      "bookstack": {
-        "env": {
-          "BOOKSTACK_URL": "https://your-bookstack.example.com",
-          "BOOKSTACK_TOKEN_ID": "dein-token-id",
-          "BOOKSTACK_TOKEN_SECRET": "dein-token-secret"
-        }
-      }
-    }
-  }
-}
+```bash
+export BOOKSTACK_URL="https://your-bookstack.example.com"
+export BOOKSTACK_TOKEN_ID="your-token-id"
+export BOOKSTACK_TOKEN_SECRET="your-token-secret"
 ```
 
-### Token erstellen
+Or configure via your gateway config file under `skills.entries.bookstack.env`.
 
-1. In BookStack einloggen
-2. **Profil bearbeiten** → **API Tokens**
-3. **Create Token** klicken
-4. Token ID und Secret kopieren
+### Create an API Token
 
-⚠️ Der User braucht die Rolle mit **"Access System API"** Permission!
+1. Log in to your BookStack instance
+2. Go to **Edit Profile** → **API Tokens**
+3. Click **Create Token**
+4. Copy the Token ID and Secret
 
-## API Referenz
+⚠️ The user needs a role with **"Access System API"** permission!
+
+## API Reference
 
 - **Base URL**: `{BOOKSTACK_URL}/api`
 - **Auth Header**: `Authorization: Token {ID}:{SECRET}`
-- **Offizielle Docs**: https://demo.bookstackapp.com/api/docs
+- **Official Docs**: https://demo.bookstackapp.com/api/docs
 
 ---
 
-**Author**: Seal 🦭 | **Version**: 1.0.1
+**Author**: xenofex7 | **Version**: 1.0.2

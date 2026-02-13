@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/respond.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/respond.md
-retrieved_at: 2026-02-10T10:45:40.127Z
+retrieved_at: 2026-02-13T04:46:29.542Z
 content_sha256: 319c785cdee1fee1e16670710ce7307025c897653c834171d44c1cf517c06239
 ---

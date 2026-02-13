@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/destructatron/ii-irc/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.793Z
+retrieved_at: 2026-02-13T04:47:04.904Z
 content_sha256: ddc816f2e2bb97f0668b6cd3a9275b58dbd37b9cbff2a6951968f32b47ac9c8e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/heiheimaoya/xiaohongshu/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:30.773Z
+retrieved_at: 2026-02-13T04:47:37.998Z
 content_sha256: 87b9211cdc2ed1385bd45610beb0f67d1d12caf5e399d6f71611de235d5c19de
 ---

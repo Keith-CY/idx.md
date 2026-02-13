@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ricardotrevisan/voice-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:25.548Z
-content_sha256: 886c1623e1f29558377aef08af7f61d8d06578253e4d07d2dab4e44ed6f0be67
+retrieved_at: 2026-02-13T04:47:35.556Z
+content_sha256: 8d1110c380a7191a60875b032aa28a9ffeec9dc0d9266403290b1d8d4ae0b580
 ---

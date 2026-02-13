@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvarrieur/imap-email/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.809Z
-content_sha256: e9964d340920f33395dd4b07e80926b19b9fe00c5829890a47f3c4c2982b23d9
+retrieved_at: 2026-02-13T04:47:04.977Z
+content_sha256: c3cea768612ebb8a25dae07bbc5a5b4dbdf52aee31af7bc2f9c448927b0eb482
 ---

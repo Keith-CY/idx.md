@@ -5,35 +5,34 @@ title: skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer
 summary: >-
   # Connectors
 
-  > If you see unfamiliar `~~placeholders` in a skill or command file, refer to
-  this document. Each placeholder maps to a **tool category** — replace it with
-  whichever tool your organization uses.
+  > Skills use `~~category` placeholders instead of specific tool names. Replace
+  each placeholder with whichever tool your organization uses.
 
-  ## Tool Category Mapping
+  ## Tool Categories
 
-  | Category | Placeholder | Included Servers | Other Options |
+  | Category | Placeholder | Example Tools | Included Server |
 
-  |----------|-------------|-----------------|---------------|
+  |----------|-------------|---------------|-----------------|
 
-  | SEO Platform | `~~SEO tool` | — | Ahrefs, SEMrush, Moz, Sistrix, SE Ranking
-  |
+  | SEO Platform | `~~SEO tool` | Ahrefs, SEMrush, Moz, Sistrix, SE Ranking |
+  Ahrefs |
 
-  | Analytics | `~~analytics` | — | Google Analytics, Adobe Analytics,
-  Plausible, Matomo |
+  | Analytics | `~~analytics` | Google Analytics, Adobe Analytics, Plausible,
+  Matomo | Amplitude |
 
-  | Search Console | `~~search console` | — | Google Search Console, Bing
-  Webmaster Tools |
+  | Search Console | `~~search console` | Google Search Console, Bing Webmaster
+  Tools | — |
 
-  | AI Visibility | `~~AI monitor` | — | Otterly, Profound, Scrunch AI |
+  | AI Visibility | `~~AI monitor` | Otterly, Profound, Scrunch AI | — |
 
-  | Web Crawler | `~~web crawler` | — | Screaming Frog, Sitebulb, DeepCrawl,
-  Lumar |
+  | Web Crawler | `~~web crawler` | Screaming Frog, Sitebulb, DeepCrawl, Lumar |
+  — |
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/CONNECTORS.md
 license: ""
 upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer
-retrieved_at: 2026-02-10T10:44:28.116Z
-content_sha256: 03babadf27565c341f1ef81c92c70641722eb22e0a34492c96713a4e707c3b01
+retrieved_at: 2026-02-13T04:46:33.975Z
+content_sha256: a09cbb7eb5e98bb6f2563c08aed6206e6544615b24b75ca256812d56af63e37e
 ---

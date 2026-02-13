@@ -22,6 +22,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aatmaan1/communication-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:32.096Z
+retrieved_at: 2026-02-13T04:46:52.114Z
 content_sha256: 525095fce4df7732674a52dc17ff04a001a565f1aa136640441d32b8077eb1df
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/remotion-server/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:03.652Z
-content_sha256: a576e65d6e410a8c7d4914d553f1de9654eefb1b9b0ba63663cd0980014f8c86
+retrieved_at: 2026-02-13T04:47:23.795Z
+content_sha256: dff4d828eaecb014a2f3bfa0a23414a0c95ef40be764958b972081d9e3dc9180
 ---

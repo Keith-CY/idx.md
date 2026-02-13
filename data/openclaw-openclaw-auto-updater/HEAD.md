@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maximeprades/auto-updater/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:38.141Z
+retrieved_at: 2026-02-13T04:46:28.336Z
 content_sha256: 4142916e146caa90d41cd274bdea6263da1738d8ecc81777b7fc19c6bd8ef9f4
 ---

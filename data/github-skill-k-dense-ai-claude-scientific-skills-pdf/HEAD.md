@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/scientific-skills/document-skills/pdf/SKILL.md
 license: ""
 upstream_ref: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/scientific-skills/document-skills/pdf/SKILL.md
-retrieved_at: 2026-02-10T10:45:45.981Z
+retrieved_at: 2026-02-13T04:46:22.836Z
 content_sha256: aac690847982c5adb514a4f7f636c28bf51ee808dc4d56ed333e31c85c528854
 ---

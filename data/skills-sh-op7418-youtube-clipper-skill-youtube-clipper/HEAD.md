@@ -16,9 +16,9 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/op7418/Youtube-clipper-skill/HEAD/README.md
+source_url: https://raw.githubusercontent.com/op7418/youtube-clipper-skill/HEAD/README.md
 license: ""
 upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
-retrieved_at: 2026-02-10T10:44:28.169Z
+retrieved_at: 2026-02-13T04:46:34.479Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---

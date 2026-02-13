@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/unjs/references/core-h3.md
 license: ""
 upstream_ref: https://skills.sh/hairyf/skills/unjs
-retrieved_at: 2026-02-10T10:44:28.944Z
+retrieved_at: 2026-02-13T04:46:37.760Z
 content_sha256: 7768ed479085ade59cd6cda262376409822a83228748d36c03753bc90e5f2a34
 ---

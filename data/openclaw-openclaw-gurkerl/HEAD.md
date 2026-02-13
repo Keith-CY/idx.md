@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/gurkerl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.456Z
+retrieved_at: 2026-02-13T04:47:03.271Z
 content_sha256: 678060b7fe5bc2119c18b24690186bb5670a876daa67dd1b86279622b93b1259
 ---

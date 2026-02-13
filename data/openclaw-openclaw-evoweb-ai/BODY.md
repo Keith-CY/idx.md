@@ -15,11 +15,11 @@ EvoWeb automatically generates modern, responsive websites from natural language
 
 **Perfect for:** Landing pages, portfolios, online stores, blogs, business websites
 
-**API Base URL:** `https://api.web.oto.dev/openapi/api/v1`
+**API Base URL:** `https://api.evoweb.ai/openapi/api/v1`
 
 ## Authentication
 
-Get your API key at https://hub.oto.dev/app/register?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0
+Get your API key at https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0
 
 **Important:** After registration, user MUST confirm the email address (this is required). The service won't work until email confirmation is complete.
  
@@ -355,7 +355,7 @@ Use warm, inviting design with red and green accents, rustic Italian aesthetic"
 
 ## Support & Resources
 
-- **Get API Key:** https://hub.oto.dev/app/register?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0
+- **Get API Key:** https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0
 - **API Issues:** Contact EvoWeb support
 - **Account/Billing:** Visit https://evoweb.ai/
 

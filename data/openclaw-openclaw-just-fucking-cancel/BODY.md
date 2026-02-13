@@ -1,76 +1,91 @@
 ---
 name: just-fucking-cancel
-description: "Find and cancel unwanted subscriptions by analyzing bank transactions. Detects recurring charges, calculates annual waste, and helps you cancel with direct URLs and browser automation. Use when: 'cancel subscriptions', 'audit subscriptions', 'find recurring charges', 'what am I paying for', 'save money', 'subscription cleanup', 'stop wasting money'. Supports CSV import (Apple Card, Chase, Amex, Citi, Bank of America, Capital One, Mint, Copilot) OR Plaid API for automatic transaction pull. Outputs interactive HTML audit with one-click cancel workflow. Pairs with Plaid integration for real-time transaction access without CSV exports."
+version: 1.2.0
+description: Find and cancel unwanted subscriptions by analyzing bank transactions. Detects recurring charges, calculates annual waste, and provides cancel URLs. CSV-based analysis with optional Plaid integration for ClawdBot users.
+author: ClawdBot
 attribution: Originally created by rohunvora (https://github.com/rohunvora/just-fucking-cancel)
+category: finance
 tags:
   - subscriptions
   - cancel
-  - money
-  - savings
+  - money-saving
   - finance
-  - personal-finance
   - budgeting
   - recurring-charges
-  - bank-transactions
-  - csv-analysis
-  - subscription-audit
-  - subscription-management
-  - plaid
-  - fintech
-  - money-saving
-  - expense-tracking
-  - dark-patterns
-  - consumer-rights
-  - automation
-  - browser-automation
-  - apple-card
-  - chase
-  - amex
-  - mint
-  - copilot
-  - bank-of-america
-  - capital-one
-  - citi
-  - credit-card
-  - debit-card
+  - personal-finance
+env:
+  - name: PLAID_CLIENT_ID
+    description: Plaid client ID for transaction access (optional - only needed for Plaid integration)
+    required: false
+  - name: PLAID_SECRET
+    description: Plaid secret key (optional - only needed for Plaid integration)
+    required: false
+  - name: PLAID_ACCESS_TOKEN
+    description: User's Plaid access token for their connected bank account (optional)
+    required: false
+triggers:
+  - cancel subscriptions
+  - audit subscriptions
+  - find recurring charges
+  - what am I paying for
+  - subscription cleanup
+  - save money
 ---
 
-# just-fucking-cancel
+# Just Fucking Cancel
 
 Analyze transactions, categorize subscriptions, generate HTML audit, help cancel.
 
+## How It Works
+
+This skill analyzes your transaction history to find recurring charges (subscriptions), helps you categorize them, and provides direct cancel URLs. **No automated cancellation** - you control every action.
+
+```
+Transaction Data → Pattern Detection → User Categorization → HTML Audit → Cancel URLs
+```
+
 ## Triggers
+
 - "cancel subscriptions", "audit subscriptions"
 - "find recurring charges", "what am I paying for"
 - "subscription audit", "clean up subscriptions"
 
+## Data Sources
+
+### Option A: CSV Upload (Recommended - Fully Local)
+
+Upload a transaction CSV from your bank. **All processing happens locally** - no data leaves your machine.
+
+Supported formats:
+- **Apple Card**: Wallet → Card Balance → Export
+- **Chase**: Accounts → Download activity → CSV
+- **Amex**: Statements & Activity → Download → CSV
+- **Citi**: Account Details → Download Transactions
+- **Bank of America**: Activity → Download → CSV
+- **Capital One**: Transactions → Download
+- **Mint / Copilot**: Transactions → Export
+
+### Option B: Plaid Integration (ClawdBot Only)
+
+If you have ClawdBot with Plaid connected, transactions can be pulled automatically.
+
+**Important**: This requires Plaid credentials and sends data to Plaid's servers:
+- `PLAID_CLIENT_ID` - Your Plaid client ID
+- `PLAID_SECRET` - Your Plaid secret key
+- `PLAID_ACCESS_TOKEN` - Access token for the bank connection
+
+**Privacy note**: When using Plaid, transaction data is transmitted to Plaid's API. CSV analysis is fully local.
+
 ## Workflow
 
 ### 1. Get Transactions
-
-**Option A: Plaid API (recommended — no CSV needed)**
-
-If the user has Plaid connected (check for Plaid integration/API access):
-1. Pull last 6-12 months of transactions via Plaid Transactions API
-2. All accounts are automatically included — no manual export needed
-3. Skip straight to Step 2
-
-**Option B: CSV Upload**
-
-Ask user for bank/card CSV export. Common sources:
-- Apple Card: Wallet → Card Balance → Export
-- Chase: Accounts → Download activity → CSV
-- Amex: Statements & Activity → Download → CSV
-- Citi: Account Details → Download Transactions
-- Bank of America: Activity → Download → CSV
-- Capital One: Transactions → Download
-- Mint / Copilot: Transactions → Export
+- CSV: User uploads file, analyzed locally
+- Plaid: Pull last 6-12 months via API (requires credentials)
 
 ### 2. Analyze Recurring Charges
-Read CSV, identify recurring patterns:
-- Same merchant, similar amounts, monthly/annual frequency
+- Detect same merchant, similar amounts, monthly/annual patterns
 - Flag subscription-like charges (streaming, SaaS, memberships)
-- Note charge frequency and total annual cost
+- Calculate charge frequency and total annual cost
 
 ### 3. Categorize with User
 For each subscription, ask user to categorize:
@@ -81,47 +96,50 @@ For each subscription, ask user to categorize:
 Ask in batches of 5-10 to avoid overwhelming.
 
 ### 4. Generate HTML Audit
-Copy [template.html](assets/template.html) and populate:
-- Update header summary:
-  - Scope line: "found N subscriptions · N transactions"
-  - Breakdown: "Cancelled N · Keeping N"
-  - Savings: yearly amount big, monthly in parentheses
-  - Timestamp: current date
-- Add rows to appropriate sections (cancelled/investigate/keep)
-- Include notes from user responses
+Create interactive HTML report with:
+- Summary: subscriptions found, total waste, potential savings
+- Sections: Cancelled / Needs Decision / Keeping
+- Privacy toggle to blur service names
+- Dark mode support
 
-Row templates in the HTML comments show the structure.
+### 5. Provide Cancel URLs
+For each service to cancel:
+1. Look up direct cancel URL from [common-services.md](references/common-services.md)
+2. Provide URL to user - **user navigates manually**
+3. Include dark pattern warnings and tips
 
-### 5. Cancel Subscriptions
-When user checks items and copies from floating button, they'll paste:
-`Cancel these: Service1 ($XX), Service2 ($XX)...`
-
-For each service:
-1. Check [common-services.md](references/common-services.md) for cancel URL
-2. Use browser automation to navigate and cancel
-3. Update HTML row to cancelled status with date
+**No automated browser interaction** - this skill provides URLs and guidance only. You control the actual cancellation.
 
 ## HTML Structure
 
 Three sections, auto-hide when empty:
-- **Cancelled** (green badge, strikethrough) - Done items, the win
-- **Needs Decision** (orange badge) - Has checkboxes for cancel selection
-- **Keeping** (grey badge) - No checkboxes, just reference
+- **Cancelled** (green badge, strikethrough) - Done items
+- **Needs Decision** (orange badge) - Has checkboxes for selection
+- **Keeping** (grey badge) - Reference only
 
 Features:
-- Floating copy button appears when items checked
+- Floating copy button for selected items
 - Privacy toggle blurs service names
-- Collapsible sections via header click
+- Collapsible sections
 - Dark mode support
 
 ## Cancellation Tips
 
-For difficult services, see [common-services.md](references/common-services.md):
+See [common-services.md](references/common-services.md) for:
 - Direct cancel URLs for 50+ services
 - Dark pattern warnings (gym contracts, phone-only)
 - Retention script responses
 - Credit card dispute backup
 
-## Privacy
+## Privacy Summary
 
-All data stays local. Transaction CSVs are analyzed in-session only.
+| Data Source | Where Processed | Data Leaves Device? |
+|-------------|-----------------|---------------------|
+| CSV Upload | Local only | No |
+| Plaid API | Plaid servers | Yes (to Plaid) |
+
+## Related
+
+- `plaid` - Bank account connection
+- `ynab` - Budget tracking
+- `copilot` - Financial insights

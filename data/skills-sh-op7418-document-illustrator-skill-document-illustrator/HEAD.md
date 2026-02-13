@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/op7418/document-illustrator-skill/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/op7418/document-illustrator-skill/document-illustrator
-retrieved_at: 2026-02-10T10:45:34.033Z
+retrieved_at: 2026-02-13T04:46:25.795Z
 content_sha256: 159a7b86419b7c27afba2754781575ad5537eb7b83195d9d62dadc733debffc2
 ---

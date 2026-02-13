@@ -1,12 +1,22 @@
+---
+name: plan2meal
+description: Manage recipes and grocery lists from your Plan2Meal React Native app. Add recipes from URLs, search, view, and manage your grocery lists.
+---
+
 # Plan2Meal Skill
 
 A ClawdHub skill for managing recipes and grocery lists via Plan2Meal, a React Native recipe app.
+
+**Data routing disclosure**
+- By default, this skill sends authentication and recipe/grocery API traffic to:
+  `https://gallant-bass-875.convex.cloud`
+- You can override `CONVEX_URL` to use your own/self-hosted backend.
 
 ## Features
 
 - **Recipe Management**: Add recipes from URLs, search, view, and delete your recipes
 - **Grocery Lists**: Create and manage shopping lists with recipes
-- **Backend Authentication**: Secure authentication via Plan2Meal web app (no secrets in skill)
+- **Multi-Provider Auth**: Login with GitHub, Google, or Apple
 - **Recipe Extraction**: Automatically fetch recipe metadata from URLs
 - **Telegram Formatting**: Pretty-printed output for Telegram
 
@@ -23,18 +33,24 @@ A ClawdHub skill for managing recipes and grocery lists via Plan2Meal, a React N
    # Edit .env with your credentials
    ```
 
-3. Required environment variables:
-   - `PLAN2MEAL_API_URL`: Your Plan2Meal backend API URL (e.g., `https://api.plan2meal.app`)
-
-   **Optional:**
-   - `PLAN2MEAL_AUTH_URL`: Custom authentication URL (defaults to `https://app.plan2meal.com/sign-in`)
-
-   **Important**: 
-   - **Public Skill**: This skill is published on ClawdHub. No secrets are stored in the skill.
-   - **Authentication**: Users authenticate via your Plan2Meal web app, then copy a session token back to Telegram.
-   - **Backend Security**: All OAuth credentials (GitHub, Convex) are configured in your backend only, never exposed.
+3. Environment variables:
+   - `CONVEX_URL` (optional): backend URL for Plan2Meal API calls.
+     - Default: `https://gallant-bass-875.convex.cloud`
+     - Override this if you want to use your own/self-hosted backend.
+   - `AUTH_GITHUB_ID` / `AUTH_GITHUB_SECRET` (or `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET`)
+   - `AUTH_GOOGLE_ID` / `AUTH_GOOGLE_SECRET` (or `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET`)
+   - `AUTH_APPLE_ID` / `AUTH_APPLE_SECRET` (or `APPLE_CLIENT_ID` / `APPLE_CLIENT_SECRET`)
+   - `GITHUB_CALLBACK_URL`, `GOOGLE_CALLBACK_URL`, `APPLE_CALLBACK_URL`
+   - `CLAWDBOT_URL`: Your ClawdBot URL (for OAuth callback)
 
 ## Commands
+
+### Authentication
+
+| Command | Description |
+|---------|-------------|
+| `plan2meal login` | Show login options (GitHub, Google, Apple) |
+| `plan2meal logout` | Logout and clear session |
 
 ### Recipe Commands
 
@@ -63,6 +79,14 @@ A ClawdHub skill for managing recipes and grocery lists via Plan2Meal, a React N
 
 ## Usage Examples
 
+### First Login
+
+```
+plan2meal login
+```
+
+Shows login options for GitHub, Google, and Apple. Click the link to authenticate.
+
 ### Adding a Recipe
 
 ```
@@ -73,20 +97,15 @@ Output:
 ```
 ✅ Recipe added successfully!
 
-📖 Recipe Details
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Name: Classic Pasta
-Source: allrecipes.com
-Method: firecrawl-json (credit used)
-Time: 15 min prep + 20 min cook
+📖 Classic Pasta
+🔗 Source: allrecipes.com
+⚡ Method: native-fetch-json (no credits used)
+⏰ Scraped at: 3:45 PM
 
-🥘 Ingredients (4 servings)
+🥘 Ingredients (4)
 • 1 lb pasta
 • 2 cups marinara sauce
 • 1/2 cup parmesan
-
-🔪 Steps
-1. Boil water...
 ```
 
 ### Searching Recipes
@@ -101,49 +120,18 @@ plan2meal search pasta
 plan2meal list-create Weekly Shopping
 ```
 
-### Adding Recipe to List
+## Authentication
 
-```
-plan2meal list-add <listId> <recipeId>
-```
+First-time users need to authenticate. Choose:
+- **GitHub** - Requires GitHub OAuth app
+- **Google** - Requires Google OAuth client
+- **Apple** - Requires Apple Developer account
+
+Authentication is OAuth-only via provider login links.
 
 ## Recipe Limits
 
 The free tier allows up to **5 recipes**. You'll receive a warning when approaching this limit.
-
-## Authentication Architecture
-
-### How It Works
-
-**Skill Owner Setup** (one-time):
-1. Configure your Plan2Meal backend API URL in the skill
-2. Your backend handles all OAuth (GitHub credentials configured in Convex environment variables)
-3. Your backend is configured with the Convex URL (stays private)
-
-**End User Flow**:
-1. User sends a command (e.g., `plan2meal list`)
-2. Skill responds with a link to your Plan2Meal sign-in page (`app.plan2meal.com/sign-in`)
-3. User clicks the link and authenticates with GitHub via your web app
-4. Your backend (using Convex Auth) handles the GitHub OAuth flow
-5. After successful authentication, your backend shows the user a session token
-6. User copies the token and sends it back to Telegram (or types `token: <token>`)
-7. Skill validates the token with your backend and stores it securely
-
-**Backend Processing**:
-- Your Plan2Meal backend uses Convex Auth with GitHub provider
-- GitHub OAuth credentials are stored in Convex environment variables (never exposed)
-- After GitHub auth, backend generates a session token for the user
-- Skill sends session token to your backend API for all requests
-- Your backend validates the token and makes Convex API calls on behalf of the user
-- Convex URL is never exposed to users or the skill
-
-### Key Points
-
-- **Public Skill**: No secrets in the skill - safe to publish on ClawdHub
-- **Backend OAuth**: All OAuth credentials (GitHub, Convex) stay in your backend
-- **User Identification**: Your backend maps session tokens to Convex users internally
-- **Privacy**: Convex URL stays private in your backend only
-- **Security**: Session tokens are validated with your backend before use
 
 ## License
 

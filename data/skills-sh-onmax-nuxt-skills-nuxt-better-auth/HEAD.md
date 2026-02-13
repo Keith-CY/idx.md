@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-better-auth/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-better-auth
-retrieved_at: 2026-02-10T10:44:28.472Z
+retrieved_at: 2026-02-13T04:46:35.789Z
 content_sha256: 2fb4a6e8b4eae28125eef6479a7c78dbd9ebde2152c800f7b804407308ec1f17
 ---

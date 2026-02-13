@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/vta-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:26.247Z
-content_sha256: aee25b314bad13b459fe64e0856251ab66c131c9a590d14d22634e6ff039c38e
+retrieved_at: 2026-02-13T04:47:35.854Z
+content_sha256: ecf6ec3a38f5e8f0a709c7f3ab423752f710d831c4d2cb0b702638a504be1f24
 ---

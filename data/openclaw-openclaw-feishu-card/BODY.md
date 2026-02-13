@@ -2,6 +2,11 @@
 
 Send rich interactive cards to Feishu (Lark) users or groups. Supports Markdown (code blocks, tables), titles, color headers, and buttons.
 
+## Prerequisites
+
+- Install `feishu-common` first.
+- This skill depends on `../feishu-common/index.js` for token and API auth.
+
 ## Usage
 
 ### 1. Simple Text (No special characters)

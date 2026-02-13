@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zerofire03/system-monitor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:15.149Z
+retrieved_at: 2026-02-13T04:47:30.796Z
 content_sha256: 29f36e551e738525adbd9cf929c8f62f7e1dfca0fa809b32bb91b724f14f394b
 ---

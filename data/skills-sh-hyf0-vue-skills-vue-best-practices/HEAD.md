@@ -5,34 +5,33 @@ title: skills-sh-hyf0-vue-skills-vue-best-practices
 summary: >-
   ---
 
-  title: Always Use .value When Accessing ref() in JavaScript
+  title: Reactivity Core Patterns (ref, reactive, shallowRef, computed, watch)
 
-  impact: HIGH
+  impact: MEDIUM
 
-  impactDescription: Forgetting .value causes silent failures and bugs in
-  reactive state updates
+  impactDescription: Clear reactivity choices keep state predictable and reduce
+  unnecessary updates in Vue 3 apps
 
-  type: capability
+  type: efficiency
 
-  tags: [vue3, reactivity, ref, composition-api]
+  tags: [vue3, reactivity, ref, reactive, shallowRef, computed, watch,
+  watchEffect, external-state, best-practice]
 
   ---
 
-  # Always Use .value When Accessing ref() in JavaScript
+  # Reactivity Core Patterns (ref, reactive, shallowRef, computed, watch)
 
-  **Impact: HIGH** - Forgetting `.value` causes silent failures where state
-  updates don't trigger reactivity, leading to hard-to-debug issues.
+  **Impact: MEDIUM** - Choose the right reactive primitive first, derive with
+  `computed`, and use watchers only for side effects.
 
-  When using `ref()` in Vue 3's Composition API, the reactive value is wrapped
-  in an object and must be accessed via `.value` in JavaScript code. However, in
-  templates, Vue automatically unwraps refs so `.value` is not needed there.
-  This inconsistency is a common source of bugs.
+  This reference covers the core reactivity decisions for local state, external
+  data, derived values, and effects.
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/reference/ref-value-access.md
+source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/references/reactivity.md
 license: ""
 upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
-retrieved_at: 2026-02-10T10:44:27.745Z
-content_sha256: e797ceee03f65cd0946a2dadfca57c11ed98879f9c30b0e49d41db2e31feddb5
+retrieved_at: 2026-02-13T04:46:32.949Z
+content_sha256: 48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b
 ---

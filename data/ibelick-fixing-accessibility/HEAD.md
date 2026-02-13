@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-accessibility/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
-retrieved_at: 2026-02-10T10:45:45.307Z
+retrieved_at: 2026-02-13T04:46:23.890Z
 content_sha256: 94bfcccdf700a18cf63b92a9e8c1a05c10422c692b0bed6fab950611d8d4309c
 ---

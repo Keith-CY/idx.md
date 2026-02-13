@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmustier/heypocket-reader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.581Z
+retrieved_at: 2026-02-13T04:47:03.937Z
 content_sha256: 3b60525d94715cf571092af866ef180ed7cb24083e126eaefd4173b6a26b2172
 ---

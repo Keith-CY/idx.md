@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/blogwatcher/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.815Z
+retrieved_at: 2026-02-13T04:46:46.116Z
 content_sha256: c22cd0c2c61891df92e3fb18a3ec5952cbffd5d1e06455cde78753e0cc8d3e32
 ---

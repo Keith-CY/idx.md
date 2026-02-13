@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/tursodatabase/turso/HEAD/.claude/skills/async-io-model/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/tursodatabase/turso/code-quality
-retrieved_at: 2026-02-10T10:44:29.074Z
+retrieved_at: 2026-02-13T04:46:37.611Z
 content_sha256: 13b6204799f68fe315b6d49d1dead9d48cbc433f25f638cc6100e9f95b511387
 ---

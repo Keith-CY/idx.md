@@ -1,10 +1,17 @@
 ---
 name: vap-media
-description: AI image, video, and music generation + editing. Flux, Veo 3.1, Suno V5.
-metadata: {"clawdbot":{"emoji":"🎬","requires":{"bins":["curl"]}}}
+description: AI image, video, and music generation + editing via VAP API. Flux, Veo 3.1, Suno V5.
+metadata: {"openclaw":{"emoji":"🎬","requires":{"bins":["curl"]}},"source":"https://github.com/vapagentmedia/vap-showcase","homepage":"https://vapagent.com"}
 ---
 
 # VAP Media - AI Media Generation & Editing
+
+> **Integration Note:** VAP Media is an API aggregator that provides unified access to multiple AI providers:
+> - **Images:** Generated via Black Forest Labs Flux.2 Pro
+> - **Videos:** Generated via Google Veo 3.1
+> - **Music:** Generated via Suno V5
+> 
+> All generation requests go through VAP's API (`api.vapagent.com`), which routes to the appropriate backend provider.
 
 Generate images, videos, and music. Edit with inpaint, ai_edit, upscale, background removal, video trim/merge.
 
@@ -144,51 +151,6 @@ curl -s https://api.vapagent.com/v3/operations/OPERATION_ID \
 | `upscale` | `media_url` | Enhance resolution (`scale`: 2 or 4) |
 | `video_trim` | `media_url`, `start_time`, `end_time` | Trim video |
 | `video_merge` | `media_urls` (array, min 2) | Merge video clips |
-
----
-
-## Balance Transfer (Move Funds Between Agents)
-
-Transfer balance from one agent to another. Useful when a customer deposited to the wrong agent.
-
-### Self-Service Transfer
-
-Requires both agents' API keys (source = Bearer token, destination = in body).
-
-```bash
-curl -s -X POST https://api.vapagent.com/v3/agents/transfer \
-  -H "Authorization: Bearer $VAP_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"destination_api_key":"vap_DESTINATION_KEY","amount":2.30,"reason":"Wrong agent deposit fix"}'
-```
-
-Returns:
-```json
-{"transfer_id":"UUID","source_agent_id":"...","destination_agent_id":"...","amount":"2.3000","status":"completed"}
-```
-
-| Param | Type | Required | Description |
-|-------|------|----------|-------------|
-| `destination_api_key` | string | yes | API key of the receiving agent |
-| `amount` | number | yes | Amount to transfer (must be > 0, max = usable balance) |
-| `reason` | string | no | Why the transfer is being made |
-
-### Admin Transfer
-
-Requires `X-Admin-Key` header. Reason is mandatory.
-
-```bash
-curl -s -X POST https://api.vapagent.com/v3/deposits/admin/transfer \
-  -H "X-Admin-Key: $ADMIN_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"source_agent_id":"UUID","destination_agent_id":"UUID","amount":2.30,"reason":"Customer support - wrong agent deposit"}'
-```
-
-### Transfer Errors
-
-- `400` → Same source and destination agent, or amount <= 0.
-- `402` → Insufficient usable balance on source agent.
-- `404` → Source or destination agent not found.
 
 ---
 

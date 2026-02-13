@@ -1,8 +1,8 @@
 ---
 name: topic-monitor
-version: 1.2.1
+version: 1.3.4
 description: Monitor topics of interest and proactively alert when important developments occur. Use when user wants automated monitoring of specific subjects (e.g., product releases, price changes, news topics, technology updates). Supports scheduled web searches, AI-powered importance scoring, smart alerts vs weekly digests, and memory-aware contextual summaries.
-metadata: {"clawdbot":{"requires":{"bins":["python3"],"env":[]}}}
+metadata: {"openclaw":{"requires":{"bins":["python3"],"env":{"TOPIC_MONITOR_TELEGRAM_ID":"optional - Telegram chat ID for alerts","TOPIC_MONITOR_DATA_DIR":"optional - defaults to .data/ in skill dir","WEB_SEARCH_PLUS_PATH":"optional - defaults to relative path"},"note":"All env vars optional. Defaults work out of the box."}}}
 ---
 
 # Topic Monitor
@@ -423,16 +423,13 @@ Requires OpenClaw message tool:
 
 ### Discord
 
-Webhook-based:
+Agent-delivered (no webhook in skill config):
+
+`monitor.py` emits `DISCORD_ALERT` JSON payloads, and OpenClaw sends them via the message tool. This matches the Telegram alert flow (structured output, no direct HTTP in skill code).
 
 ```json
 {
-  "channels": ["discord"],
-  "discord_config": {
-    "webhook_url": "https://discord.com/api/webhooks/...",
-    "username": "Research Bot",
-    "avatar_url": "https://..."
-  }
+  "channels": ["discord"]
 }
 ```
 
@@ -509,9 +506,30 @@ Prevent alert fatigue:
 }
 ```
 
+## Environment Variables
+
+Configure these environment variables to customize topic-monitor:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `TOPIC_MONITOR_TELEGRAM_ID` | — | Your Telegram chat ID for receiving alerts |
+| `TOPIC_MONITOR_DATA_DIR` | `.data/` in skill dir | Where to store state and findings |
+| `WEB_SEARCH_PLUS_PATH` | Relative to skill | Path to web-search-plus search.py |
+| `SERPER_API_KEY` / `TAVILY_API_KEY` / `EXA_API_KEY` / `YOU_API_KEY` / `SEARXNG_INSTANCE_URL` / `WSP_CACHE_DIR` | — | Optional search-provider vars passed via subprocess env allowlist |
+
+**Example setup:**
+```bash
+# Add to ~/.bashrc or .env
+export TOPIC_MONITOR_TELEGRAM_ID="123456789"
+export TOPIC_MONITOR_DATA_DIR="/home/user/topic-monitor-data"
+export WEB_SEARCH_PLUS_PATH="/path/to/skills/web-search-plus/scripts/search.py"
+```
+
 ## State Management
 
 ### .research_state.json
+
+Stored in `TOPIC_MONITOR_DATA_DIR` (default: `.data/` in skill directory).
 
 Tracks:
 - Last check time per topic
@@ -581,12 +599,14 @@ Suggests topics based on conversation patterns:
 - **State files gitignored** - Safe to use in version-controlled workspace
 - **Memory hints optional** - You control what context is shared
 - **Learning data stays local** - Never sent to APIs
+- **Subprocess env allowlist** - monitor forwards only PATH/HOME/LANG/TERM and search-provider keys
+- **No direct HTTP in skill code** - alerts are emitted as JSON for OpenClaw delivery
 
 ## Troubleshooting
 
 **No alerts being sent:**
 - Check cron is running: `crontab -l`
-- Verify channel config (Telegram chat ID, Discord webhook)
+- Verify channel config (Telegram chat ID, topic channel list for Discord/email)
 - Run with `--dry-run --verbose` to see scoring
 
 **Too many alerts:**

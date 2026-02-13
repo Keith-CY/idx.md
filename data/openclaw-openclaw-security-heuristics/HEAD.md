@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luluf0x/security-heuristics/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:06.540Z
+retrieved_at: 2026-02-13T04:47:25.508Z
 content_sha256: 0db725c9fbff6476ef3e8a24961da9801620ff910249d8ee47c23b3adf7761ea
 ---

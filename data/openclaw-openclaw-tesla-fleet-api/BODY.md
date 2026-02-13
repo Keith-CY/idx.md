@@ -1,8 +1,16 @@
 ---
 name: tesla-fleet-api
 description: Use when integrating with Tesla's official Fleet API to read vehicle/energy device data or issue remote commands (e.g. start HVAC preconditioning, wake vehicle, charge controls). Covers onboarding (developer app registration, regions/base URLs), OAuth token flows (third-party + partner tokens, refresh rotation), required domain/public-key hosting, and using Tesla's official vehicle-command/tesla-http-proxy for signed vehicle commands.
-version: 1.1.3
-metadata: {"clawdbot":{"requires":{"bins":["python3"]}}}
+version: 1.2.0
+homepage: https://github.com/odrobnik/tesla-fleet-api-skill
+metadata:
+  openclaw:
+    emoji: "🚗"
+    requires:
+      bins: ["python3", "bash", "openssl", "git", "go"]
+      env: ["TESLA_CLIENT_ID", "TESLA_CLIENT_SECRET"]
+      optionalEnv: ["TESLA_AUDIENCE", "TESLA_REDIRECT_URI", "TESLA_DOMAIN", "TESLA_BASE_URL", "TESLA_CA_CERT", "TESLA_ACCESS_TOKEN", "TESLA_REFRESH_TOKEN", "TESLA_SCOPE", "TESLA_PROXY_DIR", "TESLA_CONFIG_DIR", "TESLA_PRIVATE_KEY", "TESLA_VEHICLE_COMMAND_VERSION"]
+
 ---
 
 # Tesla Fleet API
@@ -27,7 +35,21 @@ Setup is documented in **`SETUP.md`**:
 
 - [SETUP.md](SETUP.md)
 
-(It covers `.env`, `config.json`/`auth.json`, proxy setup, and key enrollment.)
+State directory (default): `~/.openclaw/tesla-fleet-api/` (legacy: `~/.moltbot/tesla-fleet-api/`)
+- `.env` (client id/secret and overrides)
+- `config.json` (non-secret config)
+- `auth.json` (tokens)
+- proxy TLS material under `proxy/`
+- private key path is passed to `start_proxy.sh` (or via `TESLA_PRIVATE_KEY`)
+
+Security notes:
+- Calendar automation is intentionally **not shipped** in the published skill package (it would require local calendar access).
+  On this system the local-only script lives at: `~/.openclaw/tesla-fleet-api/local-scripts/school-precondition.sh`.
+
+- `scripts/setup_proxy.sh` installs Tesla’s `tesla-http-proxy` from `github.com/teslamotors/vehicle-command` using a **pinned version** (default `v0.4.1`) via `go install ...@version`.
+  - Override with `TESLA_VEHICLE_COMMAND_VERSION` **only** if you explicitly want a different version.
+
+(It also covers proxy setup and key enrollment.)
 
 ---
 

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ruslanlanket/lightrag/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:38.845Z
+retrieved_at: 2026-02-13T04:47:08.211Z
 content_sha256: f030809f92b6034715ea647784bfc001c8fff09830c3cff1629eab104463dcd7
 ---

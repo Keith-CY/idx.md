@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/synesthesia-wav/agentmail-integration/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:29.840Z
+retrieved_at: 2026-02-13T04:46:41.108Z
 content_sha256: 1035420efdbab81fd00695bd071a4d313f4e5c3a0f6913ef6f42ddb15cc8a9b0
 ---

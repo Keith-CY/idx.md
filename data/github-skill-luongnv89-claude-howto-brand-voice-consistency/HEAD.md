@@ -14,6 +14,6 @@ tags:
 source_url: https://raw.githubusercontent.com/luongnv89/claude-howto/main/03-skills/brand-voice/SKILL.md
 license: ""
 upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
-retrieved_at: 2026-02-10T10:45:46.134Z
+retrieved_at: 2026-02-13T04:46:22.951Z
 content_sha256: bc046aafab458653f8e099866e06b904517a58aa99e69d4f116484df238fe1e9
 ---

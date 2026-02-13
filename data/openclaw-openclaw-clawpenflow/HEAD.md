@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/novirusallowed/clawpenflow/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:31.843Z
+retrieved_at: 2026-02-13T04:46:50.896Z
 content_sha256: 52cbf1d107c0c14b513a6361732cabfe784902b276dd90110b66458d88ff6599
 ---

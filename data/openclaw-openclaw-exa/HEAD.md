@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fardeenxyz/exa/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:33.267Z
+retrieved_at: 2026-02-13T04:46:57.547Z
 content_sha256: 7e25137487411fa75fe44cc5652091e02cef68eab12e2297061b924ed2546bd3
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gravyxbt/x-voice-match/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:30.531Z
+retrieved_at: 2026-02-13T04:47:37.891Z
 content_sha256: da3880d1210b3b1c2eb7a095a6b7155f792b6389974bb059d0c9a1b4d6cf6137
 ---

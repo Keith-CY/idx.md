@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitest/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vitest
-retrieved_at: 2026-02-10T10:44:27.870Z
+retrieved_at: 2026-02-13T04:46:33.351Z
 content_sha256: 5fd3cf0983f203f14c4f4732dde0632c1d537241daa5cffea24f7e55712a6fb3
 ---

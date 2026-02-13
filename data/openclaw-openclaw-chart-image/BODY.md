@@ -1,6 +1,6 @@
 ---
 name: chart-image
-version: 1.1.0
+version: 2.2.0
 description: Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
 provides:
   - capability: chart-generation
@@ -180,6 +180,13 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--volume-field` | Field for volume bars (enables dual-axis) | - |
 | `--volume-color` | Color for volume bars | #4a5568 |
 
+### Formatting Options
+| Option | Description | Default |
+|--------|-------------|---------|
+| `--y-format` | Y axis format: percent, dollar, compact, decimal4, integer, scientific, or d3-format string | auto |
+| `--subtitle` | Subtitle text below chart title | - |
+| `--hline` | Horizontal reference line: "value" or "value,color" or "value,color,label" (repeatable) | - |
+
 ### Annotation Options
 | Option | Description | Default |
 |--------|-------------|---------|
@@ -222,6 +229,39 @@ node chart.mjs --type line --x-type temporal \
 
 Use `--x-type temporal` when X values are ISO dates and you want spacing to reflect actual time gaps (not evenly spaced).
 
+## Y-Axis Formatting
+
+Format axis values for readability:
+```bash
+# Dollar amounts
+node chart.mjs --data '[...]' --y-format dollar --output revenue.png
+# → $1,234.56
+
+# Percentages (values as decimals 0-1)
+node chart.mjs --data '[...]' --y-format percent --output rates.png
+# → 45.2%
+
+# Compact large numbers
+node chart.mjs --data '[...]' --y-format compact --output users.png
+# → 1.2K, 3.4M
+
+# Crypto prices (4 decimal places)
+node chart.mjs --data '[...]' --y-format decimal4 --output molt.png
+# → 0.0004
+
+# Custom d3-format string
+node chart.mjs --data '[...]' --y-format ',.3f' --output custom.png
+```
+
+Available shortcuts: `percent`, `dollar`/`usd`, `compact`, `integer`, `decimal2`, `decimal4`, `scientific`
+
+## Chart Subtitle
+
+Add context below the title:
+```bash
+node chart.mjs --title "MOLT Price" --subtitle "20,668 MOLT held" --data '[...]' --output molt.png
+```
+
 ## Theme Selection
 
 Use `--dark` for dark mode. Auto-select based on time:
@@ -241,5 +281,24 @@ For advanced charts:
 node chart.mjs --spec my-spec.json --output custom.png
 ```
 
+## ⚠️ IMPORTANT: Always Send the Image!
+
+After generating a chart, **always send it back to the user's channel**.
+Don't just save to a file and describe it — the whole point is the visual.
+
+```bash
+# 1. Generate the chart
+node chart.mjs --type line --data '...' --output /data/clawd/tmp/my-chart.png
+
+# 2. Send it! Use message tool with filePath:
+#    action=send, target=<channel_id>, filePath=/data/clawd/tmp/my-chart.png
+```
+
+**Tips:**
+- Save to `/data/clawd/tmp/` (persistent) not `/tmp/` (may get cleaned)
+- Use `action=send` with `filePath` — `thread-reply` does NOT support file attachments
+- Include a brief caption in the message text
+- Auto-use `--dark` between 20:00-07:00 Israel time
+
 ---
-*Updated: 2026-02-02 - Added x-type temporal, documented all chart types*
+*Updated: 2026-02-04 - Added --y-format (percent/dollar/compact/decimal4) and --subtitle*

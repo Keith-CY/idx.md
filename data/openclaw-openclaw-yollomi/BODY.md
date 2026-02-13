@@ -1,6 +1,7 @@
 ---
 name: yollomi-ai-api
-description: Generate AI images and videos using Yollomi API. Use when the user wants to create images from text, remove image backgrounds, or generate AI videos. Requires YOLLOMI_API_KEY and optionally YOLLOMI_BASE_URL.
+description: AI image generator skill (image, image generation). Multi-model image generator for Yollomi to generate AI images via one unified API endpoint. Requires YOLLOMI_API_KEY.
+metadata: {"openclaw":{"requires":{"env":["YOLLOMI_API_KEY"]}}}
 ---
 
 # Yollomi AI API Skill
@@ -9,8 +10,10 @@ Generates images and videos via the Yollomi API. All models use a **single unifi
 
 ## Setup
 
-1. **API Key**: User must provide `YOLLOMI_API_KEY` (env var, .env file, or Cursor rule).
-2. **Base URL** (optional): `YOLLOMI_BASE_URL` defaults to `https://yollomi.com`.
+1. **API Key**: Set `YOLLOMI_API_KEY` (environment variable).
+
+Notes:
+- Video generation is temporarily disabled in this skill build.
 
 ## Unified Endpoint
 
@@ -65,31 +68,31 @@ curl -X POST "${YOLLOMI_BASE_URL:-https://yollomi.com}/api/v1/generate" \
 
 ## Aspect Ratio (aspectRatio)
 
-文生图类模型支持的比例参数：
+Supported aspect ratios for text-to-image models:
 
-| 比例 | 说明 |
-|------|------|
-| 1:1 | 正方形（默认） |
-| 16:9 | 横屏 |
-| 9:16 | 竖屏 |
+| ratio | description |
+|------|-------------|
+| 1:1 | Square (default) |
+| 16:9 | Landscape |
+| 9:16 | Portrait |
 
 ## Image ModelIds
 
 | modelId | Credits | Required | aspectRatio |
 |---------|---------|----------|-------------|
 | flux | 4/img | prompt | 1:1, 16:9, 9:16 |
-| flux-schnell | 2/img | prompt | 同上 |
-| flux-2-pro | 15/img | prompt | 同上 |
+| flux-schnell | 2/img | prompt | same as above |
+| flux-2-pro | 15/img | prompt | same as above |
 | remove-bg | 0 | imageUrl | - |
 | nano-banana | 4 | prompt | 1:1, 16:9, 9:16 |
-| nano-banana-pro | 15 | prompt | 同上 |
-| flux-kontext-pro | 4 | prompt | 同上 |
+| nano-banana-pro | 15 | prompt | same as above |
+| flux-kontext-pro | 4 | prompt | same as above |
 | z-image-turbo | 1 | prompt | width, height |
-| imagen-4-ultra | 6 | prompt | 同上 |
-| image-4-fast | 3 | prompt | 同上 |
-| ideogram-v3-turbo | 3 | prompt | 同上 |
-| stable-diffusion-3-5-large | 7/img | prompt | 同上 |
-| seedream-4-5 | 4 | prompt | 同上 |
+| imagen-4-ultra | 6 | prompt | same as above |
+| image-4-fast | 3 | prompt | same as above |
+| ideogram-v3-turbo | 3 | prompt | same as above |
+| stable-diffusion-3-5-large | 7/img | prompt | same as above |
+| seedream-4-5 | 4 | prompt | same as above |
 | object-remover | 3 | image, mask | - |
 | face-swap | 3 | swapImage, inputImage | - |
 | image-upscaler | 1 | imageUrl, scale | - |

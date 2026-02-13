@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/the-sports-db/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:19.025Z
+retrieved_at: 2026-02-13T04:47:32.155Z
 content_sha256: e37d5e466776019263cc5c4a11106d9ea8faf19c2b06bdeaf1193ec89800ef63
 ---

@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/sql-queries/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/sql-queries/SKILL.md
-retrieved_at: 2026-02-10T10:45:39.405Z
+retrieved_at: 2026-02-13T04:46:29.010Z
 content_sha256: dd4879f528bd904ef44b2a81b35f503e9170c87a0b65a85d508a7fe0da7bfc6d
 ---

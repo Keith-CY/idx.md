@@ -1,9 +1,9 @@
 ---
 name: withings-family
 description: Fetches health data from the Withings API for multiple family members including weight, body composition (fat, muscle, bone, water), activity, and sleep. Use this skill when the user asks about their or their family's Withings data, weight history, body metrics, daily steps, sleep quality, or any health measurement from Withings devices.
-version: 1.0.1
-homepage: https://developer.withings.com/
-metadata: {"clawdbot":{"emoji":"⚖️","requires":{"bins":["python3"],"env":["WITHINGS_CLIENT_ID","WITHINGS_CLIENT_SECRET"]}}}
+version: 1.0.4
+homepage: https://github.com/odrobnik/withings-family-skill
+metadata: {"openclaw": {"emoji": "⚖️", "requires": {"bins": ["python3"], "env": ["WITHINGS_CLIENT_ID", "WITHINGS_CLIENT_SECRET"]}}}
 ---
 
 This skill allows you to interact with Withings accounts for **multiple family members** to retrieve comprehensive health metrics from Withings devices (smart scales, sleep analyzers, activity trackers, etc.).
@@ -50,7 +50,7 @@ Before using this skill, you need to create a free Withings developer applicatio
 
 1. Navigate to **My Apps** → **Create an Application**
 2. Fill in the application details:
-   - **Application Name**: Choose a name (e.g., "My Clawdbot Health")
+   - **Application Name**: Choose a name (e.g., "My Moltbot Health")
    - **Description**: Brief description of your use case
    - **Contact Email**: Your email address
    - **Callback URL**: `http://localhost:18081` (required for OAuth)
@@ -67,13 +67,13 @@ Once your application is created:
 
 ### Step 4: Configure Environment Variables
 
-Add these to your Clawdbot environment:
+Add these to your Moltbot environment:
 ```bash
 export WITHINGS_CLIENT_ID="your_client_id_here"
 export WITHINGS_CLIENT_SECRET="your_client_secret_here"
 ```
 
-Or create a `.env` file in `~/.clawdbot/withings-family/.env`:
+Or create a `.env` file in `~/.openclaw/withings-family/.env` (legacy: `~/.moltbot/withings-family/.env`):
 ```
 WITHINGS_CLIENT_ID=your_client_id_here
 WITHINGS_CLIENT_SECRET=your_client_secret_here
@@ -85,7 +85,7 @@ The skill provides two scripts (in `scripts/`):
 - **`scripts/withings_oauth_local.py`** — Automatic OAuth with local callback server (recommended)
 - **`scripts/withings.py`** — Main CLI + manual OAuth
 
-**Credentials location:** `~/.clawdbot/withings-family/`
+**Credentials location:** `~/.openclaw/withings-family/` (legacy: `~/.moltbot/withings-family/`)
 - `.env` — Client ID/Secret (optional, can use ENV vars instead)
 - `tokens-<userId>.json` — OAuth tokens per user (mode 600)
 

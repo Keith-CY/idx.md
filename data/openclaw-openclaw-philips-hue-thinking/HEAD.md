@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jesserod329/philips-hue-thinking/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:54.912Z
+retrieved_at: 2026-02-13T04:47:18.752Z
 content_sha256: e4e842e8e6a5b7c7ddd07760a34ecf41948a219c81cc1a5afd96dee1b8ca2486
 ---

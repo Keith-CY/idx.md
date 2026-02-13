@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/motion/references/components.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/motion
-retrieved_at: 2026-02-10T10:44:28.362Z
+retrieved_at: 2026-02-13T04:46:35.295Z
 content_sha256: 739a643e263a50006fb29dce5fd1e84a704574d4bdfcda485b4951023ac02110
 ---

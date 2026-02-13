@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/brave-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.934Z
+retrieved_at: 2026-02-13T04:46:46.771Z
 content_sha256: 57ec3e0c50296df239987ac3f7819efcfd4fb89b14b884b7dec413e5cda7efcd
 ---

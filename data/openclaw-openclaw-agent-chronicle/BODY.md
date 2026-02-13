@@ -1,8 +1,8 @@
 ---
 name: agent-chronicle
-version: 0.6.0
+version: 0.6.2
 description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, and Relationship Evolution. Generates personal, emotional entries from the agent's perspective. Works best with Claude models (Haiku, Sonnet, Opus).
-metadata: {"clawdbot":{"requires":{"bins":["python3"]}}}
+metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed. Uses OpenClaw sessions_spawn."}}}
 ---
 
 # Agent Chronicle 📜

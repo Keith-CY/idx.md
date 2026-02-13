@@ -1,9 +1,9 @@
 ---
 name: who-growth-charts
 description: Generate WHO child growth charts (height, weight, BMI) with percentile curves. Downloads official WHO reference data on demand. Use when users ask about child growth tracking, percentiles, or want growth charts for their kids.
-version: 1.0.0
-homepage: https://www.who.int/tools/child-growth-standards
-metadata: {"clawdbot":{"emoji":"📈","requires":{"bins":["python3"],"python":["pandas","matplotlib","scipy","openpyxl"]}}}
+version: 1.1.0
+homepage: https://github.com/odrobnik/who-growth-charts-skill
+metadata: {"openclaw": {"emoji": "📈", "requires": {"bins": ["python3"], "python": ["pandas", "matplotlib", "scipy", "openpyxl"]}}}
 ---
 
 Generate WHO Child Growth Standards charts with percentile curves and child data overlay.
@@ -73,5 +73,11 @@ python3 ../withings-family/scripts/withings.py emma body > /tmp/withings.json
 
 ## Output
 
-Charts are saved as PNG files in `~/clawd/who-growth-charts/` by default (or specified output directory).
-Data cache and assets are stored in `~/clawd/who-growth-charts/cache/`.
+By default, charts and cache are written to:
+
+- `<workspace>/who-growth-charts/`
+- `<workspace>/who-growth-charts/cache/`
+
+Where `<workspace>` is the folder that contains your `skills/` directory (the script finds it automatically; it also prefers the current working directory if it looks like a workspace, which makes symlinked workspaces behave correctly).
+
+You can override workspace discovery with `WHO_GROWTH_CHARTS_WORKSPACE=/path/to/workspace`.

@@ -1,9 +1,15 @@
 ---
 name: sudoku
 description: Fetch Sudoku puzzles and store them as JSON in the workspace; render images on demand; reveal solutions later.
-repository: https://github.com/odrobnik/sudoku-skill
+version: 1.2.7
+homepage: https://github.com/odrobnik/sudoku-skill
 metadata:
-  clawdbot:
+  openclaw:
+    emoji: "🧩"
+    requires:
+      bins: ["python3", "node"]
+      pythonPackages: ["requests", "Pillow"]
+  moltbot:
     emoji: "🧩"
     requires:
       bins: ["python3", "node"]
@@ -27,6 +33,14 @@ For details on the saved JSON format, see [DATA_FORMAT.md](references/DATA_FORMA
 *   `medium9`: Classic 9x9 (Medium)
 *   `hard9`: Classic 9x9 (Hard)
 *   `evil9`: Classic 9x9 (Evil)
+
+## Setup / Requirements
+
+- Binaries: `python3`, `node`
+- Python libs:
+  ```bash
+  python3 -m pip install requests Pillow
+  ```
 
 ## Get a Puzzle
 

@@ -1,10 +1,14 @@
 ---
 name: comanda
-version: 1.0.0
+version: 1.0.1
 description: Generate, visualize, and execute declarative AI pipelines using the comanda CLI. Use when creating LLM workflows from natural language, viewing workflow charts, editing YAML workflow files, or processing/running comanda workflows. Supports multi-model orchestration (OpenAI, Anthropic, Google, Ollama, Claude Code, Gemini CLI, Codex).
+homepage: https://comanda.sh
+repository: https://github.com/kris-hansen/comanda
 ---
 
 # Comanda - Declarative AI Pipelines
+
+🌐 **Website:** [comanda.sh](https://comanda.sh) | 📦 **GitHub:** [kris-hansen/comanda](https://github.com/kris-hansen/comanda)
 
 Comanda defines LLM workflows in YAML and runs them from the command line. Workflows can chain multiple AI models, run steps in parallel, and pipe data through processing stages.
 

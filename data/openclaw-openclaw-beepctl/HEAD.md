@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/blqke/beepctl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.692Z
+retrieved_at: 2026-02-13T04:46:45.442Z
 content_sha256: 0a43fa4196b1e45cee972b3780878ddf04d197c004a5b3a1cb68a977f2c631eb
 ---

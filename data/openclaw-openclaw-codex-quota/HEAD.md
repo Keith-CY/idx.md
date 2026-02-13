@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-quota/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:32.015Z
-content_sha256: d6878272ee188720a10118008079d12f8698293591f22150738885bd9f15d2bb
+retrieved_at: 2026-02-13T04:46:51.700Z
+content_sha256: 8c6d8223d29e9721adccf6306625f05de3e3abf9daf83ddcef8684ede6d6d7d6
 ---

@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-ui/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-ui
-retrieved_at: 2026-02-10T10:44:28.162Z
+retrieved_at: 2026-02-13T04:46:34.503Z
 content_sha256: 3eebd995590401035dd57598ce2f6eee22e8d7ca0403044f80b5765a847e34c7
 ---

@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/199-biotechnologies/claude-deep-research-skill/HEAD/reference/methodology.md
 license: ""
 upstream_ref: https://skills.sh/199-biotechnologies/claude-deep-research-skill/deep-research
-retrieved_at: 2026-02-10T10:44:28.959Z
+retrieved_at: 2026-02-13T04:46:36.717Z
 content_sha256: 68c436d9010499cecb174935bfa14acd021f49482f5c59939616695421f03802
 ---

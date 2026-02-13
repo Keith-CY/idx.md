@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mpociot/superdesign/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:14.012Z
+retrieved_at: 2026-02-13T04:47:29.977Z
 content_sha256: 12cbb694b936cadbf025fcb2afedcbaa73553c4adc34d5d338b0c4fbc22f4abb
 ---

@@ -2,7 +2,14 @@
 name: remotion-server
 description: Headless video rendering with Remotion. Works on any Linux server - no Mac or GUI needed. Templates for chat demos, promos, and more.
 homepage: https://remotion.dev
-metadata: {"clawdbot":{"emoji":"🎬"}}
+user-invocable: true
+disable-model-invocation: true
+metadata:
+  clawdbot:
+    emoji: "🎬"
+    requires:
+      bins: [node, npx]
+    os: [linux]
 ---
 
 # Remotion Server
@@ -70,6 +77,8 @@ For Ubuntu/Debian:
 sudo apt install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libgbm1 libpango-1.0-0 libcairo2 libxcomposite1 libxdamage1 libxfixes3 libxrandr2
 ```
 
+**Note:** Remotion 4.0.418+ uses custom Chrome binaries with proprietary codecs for both Linux x64 and ARM64, improving compatibility.
+
 ## Output Formats
 
 - MP4 (h264) - default
@@ -84,9 +93,27 @@ npx remotion render MyComp out/video.gif --codec=gif
 
 ## Privacy Note
 
-⚠️ **All templates use FAKE demo data only!**
+All templates use FAKE demo data only:
 - Fake GPS coords (San Francisco: 37.7749, -122.4194)
 - Placeholder names and values
 - Never includes real user data
 
 Always review generated content before publishing.
+
+## Security & Permissions
+
+**What this skill does:**
+- Installs Chromium dependencies for headless rendering (via `scripts/setup.sh`)
+- Creates Remotion project scaffolding locally (via `scripts/create.sh`)
+- Renders video files to local disk using `npx remotion render`
+
+**What this skill does NOT do:**
+- Does not require any API keys or credentials
+- Does not upload videos or data to external services
+- Does not access network resources beyond npm package downloads during setup
+- Does not access personal data — all templates use placeholder content
+- Cannot be invoked autonomously by the agent (`disable-model-invocation: true`)
+
+**Bundled scripts:** `scripts/setup.sh` (install dependencies), `scripts/create.sh` (scaffold projects)
+
+Review scripts before first use. The setup script runs `apt install` for browser dependencies on Linux.

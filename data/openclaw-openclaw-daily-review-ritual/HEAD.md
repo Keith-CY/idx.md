@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/daily-review-ritual/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:32.544Z
+retrieved_at: 2026-02-13T04:46:54.304Z
 content_sha256: e4bddd7e66b553cb4d9d1c0f02b31f8a7299fb69ac5257e2fedf337de6f4cada
 ---

@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/openapi-specification-v3.2/references/core-openapi-object.md
 license: ""
 upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v3.2
-retrieved_at: 2026-02-10T10:44:29.201Z
+retrieved_at: 2026-02-13T04:46:32.237Z
 content_sha256: e68161c9bfbeb686afb6fd374982b4b21a13bc335079d4d6944767fc976bfd2b
 ---

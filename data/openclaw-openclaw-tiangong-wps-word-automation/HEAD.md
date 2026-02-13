@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fadeloo/tiangong-wps-word-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:19.571Z
+retrieved_at: 2026-02-13T04:47:32.529Z
 content_sha256: 63f5e5eb274d79a665692ce2cc1f75aa2b7b56fcb9f23b2b025caa817b615ceb
 ---

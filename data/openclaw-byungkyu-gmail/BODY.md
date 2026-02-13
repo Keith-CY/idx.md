@@ -6,6 +6,11 @@ compatibility: Requires network access and valid Maton API key
 metadata:
   author: maton
   version: "1.0"
+  clawdbot:
+    emoji: 🧠
+    requires:
+      env:
+        - MATON_API_KEY
 ---
 
 # Gmail
@@ -31,8 +36,6 @@ https://gateway.maton.ai/google-mail/{native-api-path}
 ```
 
 Replace `{native-api-path}` with the actual Gmail API endpoint path. The gateway proxies requests to `gmail.googleapis.com` and automatically injects your OAuth token.
-
-IMPORTANT: The URL path MUST start with the connection's app name (eg. `/google-mail/...`). This prefix tells the gateway which app connection to use. For example, the native Gmail API path starts with `gmail/v1/`, so full paths look like `/google-mail/gmail/v1/users/me/messages`.
 
 ## Authentication
 
@@ -297,9 +300,7 @@ response = requests.get(
 | 429 | Rate limited (10 req/sec per account) |
 | 4xx/5xx | Passthrough error from Gmail API |
 
-### Troubleshooting: Invalid API Key
-
-**When you receive a "Invalid API key" error, ALWAYS follow these steps before concluding there is an issue:**
+### Troubleshooting: API Key Issues
 
 1. Check that the `MATON_API_KEY` environment variable is set:
 
@@ -318,27 +319,12 @@ print(json.dumps(json.load(urllib.request.urlopen(req)), indent=2))
 EOF
 ```
 
-### Troubleshooting: Missing app connection for {app} or Invalid app name: {app}
+### Troubleshooting: Invalid App Name
 
-**When you receive a "Missing app connection for {app}" or "Invalid app name: {app}" error, check the following:**
-
-1. Verify your URL path starts with the correct app name. The path must begin with `/google-mail/`. For example:
+1. Ensure your URL path starts with `google-mail`. For example:
 
 - Correct: `https://gateway.maton.ai/google-mail/gmail/v1/users/me/messages`
 - Incorrect: `https://gateway.maton.ai/gmail/v1/users/me/messages`
-
-2. Ensure you have an active connection for the app. List your connections to verify:
-
-```bash
-python <<'EOF'
-import urllib.request, os, json
-req = urllib.request.Request('https://ctrl.maton.ai/connections?app=google-mail&status=ACTIVE')
-req.add_header('Authorization', f'Bearer {os.environ["MATON_API_KEY"]}')
-print(json.dumps(json.load(urllib.request.urlopen(req)), indent=2))
-EOF
-```
-
-3. If no active connection exists, create one and complete the OAuth flow (see [Create Connection](#create-connection)).
 
 ## Resources
 
@@ -349,3 +335,5 @@ EOF
 - [List Threads](https://developers.google.com/gmail/api/reference/rest/v1/users.threads/list)
 - [List Labels](https://developers.google.com/gmail/api/reference/rest/v1/users.labels/list)
 - [Create Draft](https://developers.google.com/gmail/api/reference/rest/v1/users.drafts/create)
+- [Maton Community](https://discord.com/invite/dBfFAcefs2)
+- [Maton Support](mailto:support@maton.ai)

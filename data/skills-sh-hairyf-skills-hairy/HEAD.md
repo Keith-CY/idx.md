@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/hairy/references/antfu-eslint-config.md
 license: ""
 upstream_ref: https://skills.sh/hairyf/skills/hairy
-retrieved_at: 2026-02-10T10:44:29.292Z
+retrieved_at: 2026-02-13T04:46:32.366Z
 content_sha256: a9ddb3bc503470d675ae1aa67a7f39fb1810a7d598d4e1b3b6313613239be8ea
 ---

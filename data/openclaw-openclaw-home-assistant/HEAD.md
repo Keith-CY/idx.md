@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iahmadzain/home-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:34.638Z
+retrieved_at: 2026-02-13T04:47:04.171Z
 content_sha256: dc73a1a85ace02acd7d126db90a4e85975a05b396298170e036eb55df7a9ab2f
 ---

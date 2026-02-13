@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adebayoabdushaheed-a11y/afame/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:29.537Z
+retrieved_at: 2026-02-13T04:46:39.586Z
 content_sha256: 08d7d70b52cebf9604d58bd4dc0a1ebb2e6e1f65c4138788304d0ba24681c65c
 ---

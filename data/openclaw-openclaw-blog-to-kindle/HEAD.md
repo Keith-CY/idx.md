@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ainekomacx/blog-to-kindle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:30.799Z
+retrieved_at: 2026-02-13T04:46:46.030Z
 content_sha256: 1f0e6292c8e983ee3bd7302e3ef841dd38f8c2106064887992e6eb41e5a3d830
 ---

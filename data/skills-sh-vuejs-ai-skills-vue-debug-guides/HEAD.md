@@ -34,6 +34,6 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-debug-guides
-retrieved_at: 2026-02-10T10:44:28.177Z
+retrieved_at: 2026-02-13T04:46:34.558Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---

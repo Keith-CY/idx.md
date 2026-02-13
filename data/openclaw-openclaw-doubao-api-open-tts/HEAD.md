@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xdrshjr/doubao-api-open-tts/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:32.910Z
+retrieved_at: 2026-02-13T04:46:55.917Z
 content_sha256: 38887c687326dac08ad29d201edb2658c4fd971447aa0d3758a7510ac0893165
 ---

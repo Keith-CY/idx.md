@@ -1,7 +1,7 @@
 ---
 name: ai-pdf-builder
 description: AI-powered PDF generator for legal docs, pitch decks, and reports. SAFEs, NDAs, term sheets, whitepapers. npx ai-pdf-builder. Works with Claude, Cursor, GPT, Copilot.
-version: 1.2.1
+version: 1.2.3
 keywords: pdf-generator, ai-pdf, legal-docs, pitch-deck, startup-docs, investor-docs, ai-writing, document-automation, ycombinator, safe-agreement, nda, term-sheet, whitepaper, ai, ai-agent, ai-coding, llm, cursor, claude, claude-code, gpt, copilot, vibe-coding, mcp, agentic, coding-agent
 ---
 
@@ -189,4 +189,4 @@ When a user asks to generate a PDF:
 
 ---
 
-Built by [@NextXFrontier](https://x.com/NextXFrontier)
+Built by [@NextXFrontier](https://x.com/NextXFrontier) & [@DLhugly](https://github.com/DLhugly)

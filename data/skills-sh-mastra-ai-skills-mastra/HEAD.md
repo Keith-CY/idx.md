@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/mastra-ai/skills/HEAD/skills/mastra/references/create-mastra.md
 license: ""
 upstream_ref: https://skills.sh/mastra-ai/skills/mastra
-retrieved_at: 2026-02-10T10:44:28.274Z
+retrieved_at: 2026-02-13T04:46:34.449Z
 content_sha256: 85534f5c41c5a615b70ac368cae4b02a6ee1b9df0afb6a3288664a1a2f3c857e
 ---

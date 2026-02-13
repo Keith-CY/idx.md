@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/music/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/elevenlabs/skills/music
-retrieved_at: 2026-02-10T10:44:28.653Z
+retrieved_at: 2026-02-13T04:46:36.013Z
 content_sha256: ea99548998847f43e417d9ffd7e87122f49c705cca0d9da43e9323eabac0f25c
 ---

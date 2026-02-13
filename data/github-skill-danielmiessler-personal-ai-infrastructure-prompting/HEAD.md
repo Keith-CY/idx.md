@@ -14,6 +14,6 @@ tags:
 source_url: https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md
 license: ""
 upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md
-retrieved_at: 2026-02-10T10:45:45.739Z
+retrieved_at: 2026-02-13T04:46:22.590Z
 content_sha256: 14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5
 ---

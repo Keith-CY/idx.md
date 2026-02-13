@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oconnell-carl/notebooklm-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:44:48.724Z
+retrieved_at: 2026-02-13T04:47:14.913Z
 content_sha256: 7eb5a3c86043a4393e80cc892b939a867232d855acec06959954f6e491f41a5b
 ---

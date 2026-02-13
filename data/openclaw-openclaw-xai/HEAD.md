@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/xai/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-10T10:45:30.584Z
-content_sha256: 18a5964dde9c4dabca86fe9a26fd999025fdaef0efd3f6de01a0debcea9232ba
+retrieved_at: 2026-02-13T04:47:37.918Z
+content_sha256: c86b6faf865833f3090ca50033e0a278b7d1547bfc5e4b29f249f43f6704be95
 ---
