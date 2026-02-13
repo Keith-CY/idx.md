@@ -30,9 +30,11 @@ import {
   industryIndexPath,
   scenarioIndexPath,
   topicDir,
+  vectorsPath,
 } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
 import { SITE_ORIGIN } from "./lib/site-config";
+import { buildHeadVectorShard, serializeVectorShard } from "./lib/vectors";
 
 const result = await loadSources();
 
@@ -328,6 +330,22 @@ try {
 
     const headContent = `---\n${yaml}\n---\n`;
     await Bun.write(headPath(topic), headContent);
+    await Bun.write(
+      vectorsPath(topic),
+      serializeVectorShard(
+        buildHeadVectorShard({
+          topic,
+          stableId: frontmatter.stable_id,
+          type: frontmatter.type,
+          title: frontmatter.title,
+          summary: frontmatter.summary,
+          tags: frontmatter.tags,
+          sourceUrl: frontmatter.source_url,
+          retrievedAt: frontmatter.retrieved_at,
+          contentSha256: frontmatter.content_sha256,
+        }),
+      ),
+    );
     processAndAddIndexEntry(
       {
         topic,
@@ -351,6 +369,22 @@ for (const playbook of buildPilotPlaybooks(playbookRetrievedAt)) {
   await mkdir(entryDirPath, { recursive: true });
   await Bun.write(bodyPath(playbook.topic), playbook.bodyBytes);
   await Bun.write(headPath(playbook.topic), playbook.headContent);
+  await Bun.write(
+    vectorsPath(playbook.topic),
+    serializeVectorShard(
+      buildHeadVectorShard({
+        topic: playbook.topic,
+        stableId: playbook.frontmatter.stable_id,
+        type: playbook.frontmatter.type,
+        title: playbook.frontmatter.title,
+        summary: playbook.frontmatter.summary,
+        tags: playbook.frontmatter.tags,
+        sourceUrl: playbook.frontmatter.source_url,
+        retrievedAt: playbook.frontmatter.retrieved_at,
+        contentSha256: playbook.frontmatter.content_sha256,
+      }),
+    ),
+  );
   processAndAddIndexEntry(
     {
       topic: playbook.topic,

@@ -18,6 +18,10 @@ export function bodyPath(topic: string): string {
   return resolve(topicDir(topic), "BODY.md");
 }
 
+export function vectorsPath(topic: string): string {
+  return resolve(topicDir(topic), "vectors.json");
+}
+
 export const INDEX_PATH = resolve(DATA_ROOT, "index.md");
 export const CATEGORY_INDEX_PATH = resolve(CATEGORY_ROOT, "index.md");
 export const SCENARIO_INDEX_PATH = resolve(SCENARIO_ROOT, "index.md");

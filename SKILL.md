@@ -35,9 +35,21 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 - Read `https://idx.md/data/index.md` (or `https://idx.md/index.md`).
 - Choose `{topic}` from the `|/data/{topic}|` line.
 - HEAD metadata: `https://idx.md/{topic}` (or `/data/{topic}/HEAD.md`)
+- Vector shard (for embedding recall): `https://idx.md/{topic}/vectors.json`
 - BODY content: `https://idx.md/{topic}/BODY.md`
 - After download, compute SHA-256 on the raw BODY bytes and compare to `content_sha256` in HEAD frontmatter.
 - Use `retrieved_at` to decide whether a cached BODY needs refresh.
+
+## Vector-based retrieval (recommended)
+- Use `/{topic}/vectors.json` as the retrieval layer, then fetch `/{topic}/BODY.md` only for top candidates.
+- Each `vectors.json` currently contains one `head` record derived from HEAD metadata.
+- Build/query embeddings on `records[].text`.
+- Use `records[].metadata.content_sha256` as your embedding cache key; only re-embed when it changes.
+- Suggested flow:
+1. Collect topic candidates from `/data/index.md` or category/scenario/industry indexes.
+2. Fetch each candidate's `/{topic}/vectors.json`.
+3. Rank by vector similarity (optionally hybrid with lexical/tag score).
+4. Fetch `/{topic}/BODY.md` for top-k and generate final answer from BODY.
 
 ## URL map
 - `/`, `/skill.md`, `/SKILL.md` -> this document
@@ -50,6 +62,7 @@ description: AgentSkill for https://idx.md. Use the index to locate AI agent lib
 - `/industry/{industry}/index.md` -> industry topic listing
 - `/{topic}` -> `/data/{topic}/HEAD.md`
 - `/{topic}/HEAD.md` -> HEAD metadata
+- `/{topic}/vectors.json` -> vector shard for embedding recall
 - `/{topic}/BODY.md` -> BODY content
 
 ## Constraints

@@ -22,7 +22,8 @@ export function toR2Key(pathname: string): string {
     return `${path}HEAD.md`;
   }
 
-  if (!path.toLowerCase().endsWith(".md")) {
+  const normalized = path.toLowerCase();
+  if (!normalized.endsWith(".md") && !normalized.endsWith(".json")) {
     return `${path}/HEAD.md`;
   }
 
