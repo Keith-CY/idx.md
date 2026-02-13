@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/programmatic-seo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:06.337Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:54.852Z
 content_sha256: f54fd1731b67cf7d3b0e2f418790c589a56c7076913df13c63c7bdd3a6bd72df
 ---

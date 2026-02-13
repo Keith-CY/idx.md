@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/igorls/fanvue/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:54.989Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:23.237Z
 content_sha256: dc74b96859f4199a4982e680de8cbe2ae04bfefb9df7817b8636b7521324cf88
 ---

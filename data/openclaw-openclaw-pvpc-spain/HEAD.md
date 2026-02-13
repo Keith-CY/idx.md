@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/didelco/pvpc-spain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:08.778Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:56.035Z
 content_sha256: c22d37569579bd2177461010d6eaa0fa0be9f9c7e244e7e689e4b44eb5bfdb3e
 ---

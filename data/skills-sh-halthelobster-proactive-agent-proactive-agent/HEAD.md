@@ -32,6 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/halthelobster/proactive-agent/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/halthelobster/proactive-agent/proactive-agent
-retrieved_at: 2026-02-13T07:21:31.335Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:43.133Z
 content_sha256: 5a61dae55820c670d23de61500aa48956b7a1b20c3f01cdc7e596b51fd854c03
 ---

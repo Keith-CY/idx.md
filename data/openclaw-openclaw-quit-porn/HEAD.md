@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-porn/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:11.267Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:56.744Z
 content_sha256: d497254391b5ad788b5ada25ecb525dd4c0b008b6e6dbaf84335851d281ad2b1
 ---

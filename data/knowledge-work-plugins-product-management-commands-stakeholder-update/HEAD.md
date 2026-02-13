@@ -12,6 +12,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/stakeholder-update.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/stakeholder-update.md
-retrieved_at: 2026-02-13T07:21:26.146Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:40.290Z
 content_sha256: 5b91f9b3ffa0c5fc68010f28784a984f4041a7b3073276fe976623eb4c73a990
 ---

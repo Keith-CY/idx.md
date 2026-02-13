@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/playwright-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:01.973Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:53.036Z
 content_sha256: f4a372bdaf2195fcc9b542b31927a2a9b2e3204f0d7a9cbe2c72ce384a6cd988
 ---

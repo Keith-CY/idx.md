@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/halthelobster/proactive-agent/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:05.341Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:54.410Z
 content_sha256: 571521d9f6f38b3ec9f073d7bdec47170a35e9c78556954ac7f0f860ab12873b
 ---

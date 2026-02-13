@@ -31,6 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/antonbabenko/terraform-skill/HEAD/references/code-patterns.md
 license: ""
 upstream_ref: https://skills.sh/antonbabenko/terraform-skill/terraform-skill
-retrieved_at: 2026-02-13T07:21:55.331Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:56.243Z
 content_sha256: 9cf4ebfa368f4f754dab14f089860da650053011a2e8e1648f79faa79808c3b0
 ---

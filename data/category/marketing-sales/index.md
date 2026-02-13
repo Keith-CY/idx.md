@@ -19,7 +19,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/brand-review.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/brand-review.md
-retrieved_at: 2026-02-13T07:21:25.092Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.756Z
 content_sha256: 1f6926624a4fe1b1761c6eb33a73b3978ca6de9eab13ef6ff40a9b348668f2de
 ---
 |/data/knowledge-work-plugins-marketing-commands-brand-review|
@@ -39,7 +42,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/campaign-plan.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/campaign-plan.md
-retrieved_at: 2026-02-13T07:21:25.181Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.807Z
 content_sha256: 8daa883be0c19804d6812c8b5ddd1d0747e0615dcf9c609448d2a2ea5e9b8d05
 ---
 |/data/knowledge-work-plugins-marketing-commands-campaign-plan|
@@ -58,7 +64,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/competitive-brief.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/competitive-brief.md
-retrieved_at: 2026-02-13T07:21:24.911Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.648Z
 content_sha256: 07ac7c828dabaec69b58e81fdc0a49d6de4ae464ae953615fe9898ddc1b04efc
 ---
 |/data/knowledge-work-plugins-marketing-commands-competitive-brief|
@@ -78,7 +87,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/draft-content.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/draft-content.md
-retrieved_at: 2026-02-13T07:21:25.001Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.700Z
 content_sha256: 3cd48c55708c9fa8bfc4917cc9cb06091059dd7409c565a49af8631fe5ab1a52
 ---
 |/data/knowledge-work-plugins-marketing-commands-draft-content|
@@ -98,7 +110,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/email-sequence.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/email-sequence.md
-retrieved_at: 2026-02-13T07:21:24.732Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.542Z
 content_sha256: 2714b0d8cce61645c0b5cc6ce08ee0e5e399d3170e33e7dd4b1dd352f4d8a4a9
 ---
 |/data/knowledge-work-plugins-marketing-commands-email-sequence|
@@ -118,7 +133,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/performance-report.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/performance-report.md
-retrieved_at: 2026-02-13T07:21:24.823Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.593Z
 content_sha256: 657186c43203a207d87a888d67c058c4597901d95b67e336a2186d8b18c63aaf
 ---
 |/data/knowledge-work-plugins-marketing-commands-performance-report|
@@ -138,7 +156,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/seo-audit.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/seo-audit.md
-retrieved_at: 2026-02-13T07:21:25.277Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.862Z
 content_sha256: 49dbc54c23c43be83f1e16195986397a4d73394b8c2bf199d97a71d212c4d311
 ---
 |/data/knowledge-work-plugins-marketing-commands-seo-audit|
@@ -160,7 +181,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-voice/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-voice/SKILL.md
-retrieved_at: 2026-02-13T07:21:24.632Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.492Z
 content_sha256: e88cbe7a68826350cde2b3050b4dfd4caa1ce41dd2d80b7ed47d79c39c7e7d35
 ---
 |/data/knowledge-work-plugins-marketing-skills-brand-voice-skill|
@@ -182,7 +206,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/campaign-planning/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-planning/SKILL.md
-retrieved_at: 2026-02-13T07:21:24.430Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.393Z
 content_sha256: bd42e411831e2f1ea968d697d3765dcbc538787a7e866fb22337fedc067bc382
 ---
 |/data/knowledge-work-plugins-marketing-skills-campaign-planning-skill|
@@ -204,7 +231,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-analysis/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/competitive-analysis/SKILL.md
-retrieved_at: 2026-02-13T07:21:24.331Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.343Z
 content_sha256: cbce9a731eac10569e20347495ae14ab980f7917bd697d24cea89f10248e20bd
 ---
 |/data/knowledge-work-plugins-marketing-skills-competitive-analysis-skill|
@@ -226,7 +256,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/content-creation/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/content-creation/SKILL.md
-retrieved_at: 2026-02-13T07:21:24.536Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.442Z
 content_sha256: e0145f84827b8529df1a028e5b7c0ec7a5c3bda3516228f8a013537a13227900
 ---
 |/data/knowledge-work-plugins-marketing-skills-content-creation-skill|
@@ -248,7 +281,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-analytics/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-analytics/SKILL.md
-retrieved_at: 2026-02-13T07:21:24.244Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:39.292Z
 content_sha256: 9b8649d5aa6739d0f92843f3c01a2614cd32757f4e9b41cc632ad912973088be
 ---
 |/data/knowledge-work-plugins-marketing-skills-performance-analytics-skill|
@@ -268,7 +304,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/call-summary.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/call-summary.md
-retrieved_at: 2026-02-13T07:21:28.019Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.359Z
 content_sha256: 1ab3c6cf0c7c2e8d024fce33b1d9d90788033fa3b3e26eb11f1bf864dc20fe0f
 ---
 |/data/knowledge-work-plugins-sales-commands-call-summary|
@@ -288,7 +327,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/forecast.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/forecast.md
-retrieved_at: 2026-02-13T07:21:27.914Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.312Z
 content_sha256: 3444528d95333c361bc80999e9f16ad794cc699ba6362ee8d79f20740bb749cb
 ---
 |/data/knowledge-work-plugins-sales-commands-forecast|
@@ -308,7 +350,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/pipeline-review.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/pipeline-review.md
-retrieved_at: 2026-02-13T07:21:27.816Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.255Z
 content_sha256: 84c289ad5e98df3532e0c41fd44596e879b8746eb12f276910e82edc9d200942
 ---
 |/data/knowledge-work-plugins-sales-commands-pipeline-review|
@@ -330,7 +375,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/account-research/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/account-research/SKILL.md
-retrieved_at: 2026-02-13T07:21:27.395Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.002Z
 content_sha256: 9b73bf462b1e96516ed7de68c628c34c5416b233ddda249d5186fdd4bbdabc17
 ---
 |/data/knowledge-work-plugins-sales-skills-account-research-skill|
@@ -353,7 +401,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/call-prep/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/call-prep/SKILL.md
-retrieved_at: 2026-02-13T07:21:27.199Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:40.894Z
 content_sha256: 51b075cf1a1cecdd1022034de5a552971917a1fea2304f564bb550bdc6dbbf72
 ---
 |/data/knowledge-work-plugins-sales-skills-call-prep-skill|
@@ -376,7 +427,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/competitive-intelligence/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/competitive-intelligence/SKILL.md
-retrieved_at: 2026-02-13T07:21:27.299Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:40.953Z
 content_sha256: 1153f80c8fcadc862fbebd23caaf237eb6c81132360ac603b99640fce6c1a052
 ---
 |/data/knowledge-work-plugins-sales-skills-competitive-intelligence-skill|
@@ -397,7 +451,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/create-an-asset/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/create-an-asset/SKILL.md
-retrieved_at: 2026-02-13T07:21:27.601Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.134Z
 content_sha256: 02857091cc9927090a7fd128c9bc906f67b29533f095a08493c320174c0f8678
 ---
 |/data/knowledge-work-plugins-sales-skills-create-an-asset-skill|
@@ -419,7 +476,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/daily-briefing/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/daily-briefing/SKILL.md
-retrieved_at: 2026-02-13T07:21:27.494Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.057Z
 content_sha256: 9f2c4976aed1326edbf6d7d9d499df63f3c178d2c14c6254c8a9c0a15eb0d04a
 ---
 |/data/knowledge-work-plugins-sales-skills-daily-briefing-skill|
@@ -440,7 +500,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/draft-outreach/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/draft-outreach/SKILL.md
-retrieved_at: 2026-02-13T07:21:27.702Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.207Z
 content_sha256: eeca7158539ae7e6f41025a099a34441e9b9bfaa130af4297e09b8c2253c8828
 ---
 |/data/knowledge-work-plugins-sales-skills-draft-outreach-skill|
@@ -457,7 +520,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aiasisbot61/4chan-reader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:55.968Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:56.546Z
 content_sha256: e325391ace93ff537e757257e8874b404c9b74c159fac0acd908c1baef62d69a
 ---
 |/data/openclaw-openclaw-4chan-reader|
@@ -474,7 +540,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/ab-test-setup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:56.729Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:56.877Z
 content_sha256: 51b1895d080bca288a6f1d8022a6a124e82338a7d88c7dd34f1f01b500286459
 ---
 |/data/openclaw-openclaw-ab-test-setup|
@@ -508,7 +577,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dowands/affiliatematic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:58.678Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:57.903Z
 content_sha256: d929f1e53048210622da6fccfb39a503897be34815f83e7b3a5f954b657f4088
 ---
 |/data/openclaw-openclaw-affiliatematic|
@@ -525,7 +597,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/apollo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:07.924Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:01.937Z
 content_sha256: 111bc021947f100d2c968518f679d16d3edf7036df7cd8492bc5c4b4dbc1f8e9
 ---
 |/data/openclaw-openclaw-apollo|
@@ -542,7 +617,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewdmwalker/attio/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:11.279Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:03.290Z
 content_sha256: ad0227b309e2a1475635e917e38fe26ad6988a0ba29e54cb0af8ddb0d38c69dc
 ---
 |/data/openclaw-openclaw-attio|
@@ -569,7 +647,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:11.486Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:03.374Z
 content_sha256: f442eb922f8c792b051668e540814dd01340e9e0e6d26d197b6a62a1cceb5856
 ---
 |/data/openclaw-openclaw-attribution-engine|
@@ -586,7 +667,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emredoganer/basecamp-cli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:15.170Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:04.947Z
 content_sha256: ae0ffab38354440db5ec03591d27ba0eac79f388309bf7ffee2ad065258d07c4
 ---
 |/data/openclaw-openclaw-basecamp-cli|
@@ -603,7 +687,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/azade-c/bearblog/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:15.716Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:05.186Z
 content_sha256: 2844e35d72d206f2e728ea29ff27306af83f17d01a5d54d8dfb081a34c0a64dc
 ---
 |/data/openclaw-openclaw-bearblog|
@@ -620,7 +707,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/bird/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:17.066Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:05.760Z
 content_sha256: da997ce6b1360afe25bc510a8763ebad8609ec313d5a1cd91d2110f9bee914e5
 ---
 |/data/openclaw-openclaw-bird|
@@ -638,7 +728,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ainekomacx/blog-to-kindle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:17.849Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:06.298Z
 content_sha256: 1f0e6292c8e983ee3bd7302e3ef841dd38f8c2106064887992e6eb41e5a3d830
 ---
 |/data/openclaw-openclaw-blog-to-kindle|
@@ -656,7 +749,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/blog-writer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:17.959Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:06.349Z
 content_sha256: 6e6391cf989d16c8ef26f6a941704664f490ff917918eb7ac96c01085bb362dc
 ---
 |/data/openclaw-openclaw-blog-writer|
@@ -673,7 +769,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/bluesky/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:18.495Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:06.817Z
 content_sha256: 3f993404829cfc176d9637cb5b282dfed09dab3eae0190bb83dcfc889d1a52f0
 ---
 |/data/openclaw-openclaw-bluesky|
@@ -691,7 +790,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/brand-guidelines/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:19.652Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:07.378Z
 content_sha256: 1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe
 ---
 |/data/openclaw-openclaw-brand-guidelines|
@@ -709,7 +811,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/brevo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:20.087Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:07.583Z
 content_sha256: 538b33c5881c6a84b6038a1690e2f34a3f9f2c7d5708898602e3352c1eb9eb96
 ---
 |/data/openclaw-openclaw-brevo|
@@ -726,7 +831,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/halthelobster/bulletproof-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:21.362Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:08.431Z
 content_sha256: b47d23cd8beb90f78259907e0e72af230306f574c50d8e250eae83397b6cb5ee
 ---
 |/data/openclaw-openclaw-bulletproof-memory|
@@ -743,7 +851,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/campaign-orchestrator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:22.756Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:09.183Z
 content_sha256: b8e9c4132525b0cf13e52c41a99c378073518690220ad763feb1313870b35846
 ---
 |/data/openclaw-openclaw-campaign-orchestrator|
@@ -760,7 +871,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/microck/catbox-upload/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:23.819Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:09.627Z
 content_sha256: bdedbc03ba81333c343568b91de1991a4daf3f61296f7e58c8c8d6a12a93d6b6
 ---
 |/data/openclaw-openclaw-catbox-upload|
@@ -777,7 +891,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/competitor-alternatives/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:36.277Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:15.392Z
 content_sha256: 50d9b99ac71d7b4bbdf168d5c28abef566a97da6f1decb2951e3d4d2574c41f4
 ---
 |/data/openclaw-openclaw-competitor-alternatives|
@@ -794,7 +911,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/content-creator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:37.077Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:15.701Z
 content_sha256: 61ad2cd9ef579e369ec018f03084cbc2115361ce47648fec564bf17bceb7cdef
 ---
 |/data/openclaw-openclaw-content-creator|
@@ -811,7 +931,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/content-draft-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:37.192Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:15.750Z
 content_sha256: 4f108b9bc0d744f0143a93c7d9cea7769a9f454530d8b0be1198dfb0845efdb1
 ---
 |/data/openclaw-openclaw-content-draft-generator|
@@ -829,7 +952,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/content-ideas-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:37.423Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:15.818Z
 content_sha256: 7c9d6c1939e1e09856de275d9b8dad9c7800e6b9f5bf8db5c175ba0f17fff3c4
 ---
 |/data/openclaw-openclaw-content-ideas-generator|
@@ -846,7 +972,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/copy-editing/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:39.130Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:16.661Z
 content_sha256: f0bf068d14ed3d5fcf13961e7e0de78374663e38255253cad13113e5e66c8bd2
 ---
 |/data/openclaw-openclaw-copy-editing|
@@ -863,7 +992,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/copywriting/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:39.265Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:16.692Z
 content_sha256: 5b3ea76961e8de82f00083569f4ef275058afb70bb301a9153dd80f73837b18e
 ---
 |/data/openclaw-openclaw-copywriting|
@@ -880,7 +1012,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/uday390/deepread/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:43.789Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:18.600Z
 content_sha256: 79c7184d94e00bed4c7d82874adbd5fc66b2a83f979c4bbb8102681bf5c6470f
 ---
 |/data/openclaw-openclaw-deepread|
@@ -897,7 +1032,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/dialpad/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:45.746Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:19.331Z
 content_sha256: 91f6de28f0d8218bc134a45584d625ccc1d266d82be00f21f7773c14abd0de1a
 ---
 |/data/openclaw-openclaw-dialpad|
@@ -914,7 +1052,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jorgermp/email-manager-lite/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:51.109Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:21.335Z
 content_sha256: cf1aa52b62ccbe480d356d5e57946f7453e4d0d5aa976c3d40f8e6974581907d
 ---
 |/data/openclaw-openclaw-email-manager-lite|
@@ -932,7 +1073,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/email-sequence/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:51.334Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:21.433Z
 content_sha256: 3db17b4bfcb1bbcf1487891b95391561db7f5a2ca6c397392d64c0aea7abd00e
 ---
 |/data/openclaw-openclaw-email-sequence|
@@ -949,7 +1093,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrinvincible29/exchange-rates/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:53.561Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:22.301Z
 content_sha256: 8687ddc77fe3154562d991a77da2d81a0941bd5b5e211fa85b31bc95678defe6
 ---
 |/data/openclaw-openclaw-exchange-rates|
@@ -967,7 +1114,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/snowshadow/feishu-doc-reader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:56.077Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:23.904Z
 content_sha256: 6353a9516ec187810c997ef7d1f44e86bfb26154712292eca730c60a157dfadc
 ---
 |/data/openclaw-openclaw-feishu-doc-reader|
@@ -984,7 +1134,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-sticker/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:56.508Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:24.063Z
 content_sha256: 5e0ab9c04034e5b89cae0b7245b81057d9b7efff1d73f910d8fd7f0af67c836f
 ---
 |/data/openclaw-openclaw-feishu-sticker|
@@ -1002,7 +1155,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/form-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:59.897Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:25.669Z
 content_sha256: 0d41e83de9863a51e7fa420766798387556b427656a1c18bbb3505ff52b8e7bf
 ---
 |/data/openclaw-openclaw-form-cro|
@@ -1019,7 +1175,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/free-tool-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:00.235Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:25.821Z
 content_sha256: afd05058a2b0a4df3f32db31f01230e97008d0838d20efb7764effa8677db541
 ---
 |/data/openclaw-openclaw-free-tool-strategy|
@@ -1036,7 +1195,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/ga4/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:00.924Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:26.186Z
 content_sha256: 69f1a424fe8a05433201450328d9f8057c10ead40802783993cef549d8ec66c4
 ---
 |/data/openclaw-openclaw-ga4|
@@ -1053,7 +1215,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewdmwalker/geo-optimization/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:02.794Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:27.014Z
 content_sha256: 9607b74f6d6128fd3c11e48c8e70bae93f22ebde9829584aced5e59ff72bb1ba
 ---
 |/data/openclaw-openclaw-geo-optimization|
@@ -1070,7 +1235,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/gong/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:07.115Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:28.848Z
 content_sha256: 7324dfe1b80c91f83ed2b1e7628ef3edff4866d7a1637c5fecbdb86fec49767a
 ---
 |/data/openclaw-openclaw-gong|
@@ -1087,7 +1255,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/google-ads/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:07.223Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:28.966Z
 content_sha256: e599050a8eee737e9706299547e2a4917b4eb4c0523f4b9cabd3a0ea8f8931ac
 ---
 |/data/openclaw-openclaw-google-ads|
@@ -1104,7 +1275,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jorgermp/google-photos/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:08.008Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:29.328Z
 content_sha256: 6a03cd69e2c8ef8889f9563ca7210ca50c2ec189da6ba0d4db74b7fc7d5fa400
 ---
 |/data/openclaw-openclaw-google-photos|
@@ -1122,7 +1296,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/gsc/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:10.059Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:30.122Z
 content_sha256: 5f6e450aeeec4c8c2c4db0a3f02fa380325a76dceedd6973a44a85bec13ec893
 ---
 |/data/openclaw-openclaw-gsc|
@@ -1139,7 +1316,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abakermi/gumroad-admin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:10.260Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:30.199Z
 content_sha256: fafbd19a040a55119daf3d5be49e42ef1bcb6c87f5e80d47f2750d9256c6ee84
 ---
 |/data/openclaw-openclaw-gumroad-admin|
@@ -1156,7 +1336,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kwall1/hubspot/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:13.927Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:31.621Z
 content_sha256: 3ac0aa89f0724111ede0a9ba63be8f949beaeaef4e889f047be7cb730a4cff32
 ---
 |/data/openclaw-openclaw-hubspot|
@@ -1173,7 +1356,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/biostartechnology/humanizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:14.300Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:31.788Z
 content_sha256: d7ce483d368e430185b707611ce82ef4206021da28cf306d75d4b64f1167416f
 ---
 |/data/openclaw-openclaw-humanizer|
@@ -1190,7 +1376,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikipalet/late-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:24.857Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:36.094Z
 content_sha256: 991f59fb26e89ec242998295ffd14c886670adeb24d5dc239eeb3e2170700b35
 ---
 |/data/openclaw-openclaw-late-api|
@@ -1207,7 +1396,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peterw/localrank-agent-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:27.662Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:37.206Z
 content_sha256: 03fba345d43bb2401629ced12a5999a3a72c701ad8e59a95521535c6f5f18a22
 ---
 |/data/openclaw-openclaw-localrank-agent-skills|
@@ -1225,7 +1417,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/marketing-demand-acquisition/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:29.197Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:37.783Z
 content_sha256: 864582e41d7a0f24af0f1c0120d3492878448c8c4a1b296fa0e21fbd63d188fd
 ---
 |/data/openclaw-openclaw-marketing-demand-acquisition|
@@ -1243,7 +1438,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/marketing-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:29.405Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:37.884Z
 content_sha256: 27f1838f183c95938df215d17ddc784c0a8a07185882061774421c94a5b85f7e
 ---
 |/data/openclaw-openclaw-marketing-mode|
@@ -1260,7 +1458,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-psychology/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:29.518Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:37.956Z
 content_sha256: 793332c9374bc4c28f23590e01bff5e5730ff5900ef2c8ffbc9ba4337a1a9f5d
 ---
 |/data/openclaw-openclaw-marketing-psychology|
@@ -1278,7 +1479,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:29.629Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:37.989Z
 content_sha256: bf35799cd93b83a7ce8bee4a2b7a48b078699c71627c5dc4f2bd06a846b9bae3
 ---
 |/data/openclaw-openclaw-marketing-skills|
@@ -1295,7 +1499,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/limone-eth/molthunt/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:38.489Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:41.720Z
 content_sha256: 83116389ece87a34b2674c719c0c00c23fb178ecc71e362abebffe3c3e3e7670
 ---
 |/data/openclaw-openclaw-molthunt|
@@ -1312,7 +1519,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/netpad/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:44.458Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:44.612Z
 content_sha256: 4b7dbe17ee359a0c5ee75ff75b52bf4ca3988c6d5049f544492ab9be9ecb0a99
 ---
 |/data/openclaw-openclaw-netpad|
@@ -1329,7 +1539,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/notebooklm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:47.271Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:45.861Z
 content_sha256: 2ca732508a27c256640bbc23f27e64b1ebeeac54fd5573f1f4044e5940aaf80f
 ---
 |/data/openclaw-openclaw-notebooklm|
@@ -1347,7 +1560,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/garrrikkotua/octolens/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:49.200Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:46.741Z
 content_sha256: 5e521fac848ee99e181da32a7850a4e09c1cf924704ba1ebb0c386f8ed21d970
 ---
 |/data/openclaw-openclaw-octolens|
@@ -1365,7 +1581,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/otter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:54.551Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:49.237Z
 content_sha256: 9a467f6d8e0b0127dbd4fd9331678dc1a038043dea2968b5ce760d8e9259c596
 ---
 |/data/openclaw-openclaw-otter|
@@ -1383,7 +1602,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/paywall-upgrade-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:57.080Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:50.353Z
 content_sha256: 8104b18390db197707ad9b44ec4e68ee8f79326cc9ebb3a143e4c57b30857ef1
 ---
 |/data/openclaw-openclaw-paywall-upgrade-cro|
@@ -1401,7 +1623,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/personal-branding-authority/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:58.608Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:51.027Z
 content_sha256: ae8bb9668b0c5c282fd46085d386b396193c6f6809e51e104298732401a93d94
 ---
 |/data/openclaw-openclaw-personal-branding-authority|
@@ -1418,7 +1643,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickhamze/pinch-to-post/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:59.979Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:52.250Z
 content_sha256: b51c21488df7ffcb2eb9d5cd093036845e448753df09933612b4c21c1964347f
 ---
 |/data/openclaw-openclaw-pinch-to-post|
@@ -1436,7 +1664,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/pipedrive/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:00.553Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:52.446Z
 content_sha256: 8bd9a22df616de3b726a59f8584a949708bedb0c58e219d195827c7827400a24
 ---
 |/data/openclaw-openclaw-pipedrive|
@@ -1453,7 +1684,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/popup-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:03.307Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:53.534Z
 content_sha256: 7284678a518ff9dedb125ce39d04732fb532e32adea6fe0913e64928ab7e8282
 ---
 |/data/openclaw-openclaw-popup-cro|
@@ -1470,7 +1704,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/pricing-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:04.778Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:54.164Z
 content_sha256: 44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1
 ---
 |/data/openclaw-openclaw-pricing-strategy|
@@ -1487,7 +1724,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/programmatic-seo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:06.337Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:54.852Z
 content_sha256: f54fd1731b67cf7d3b0e2f418790c589a56c7076913df13c63c7bdd3a6bd72df
 ---
 |/data/openclaw-openclaw-programmatic-seo|
@@ -1505,7 +1745,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/didelco/pvpc-spain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:08.778Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:56.035Z
 content_sha256: c22d37569579bd2177461010d6eaa0fa0be9f9c7e244e7e689e4b44eb5bfdb3e
 ---
 |/data/openclaw-openclaw-pvpc-spain|
@@ -1523,7 +1766,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/qlifebot-coder/ralph-loops/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:12.706Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:57.226Z
 content_sha256: c3124afa41813ae2b9462c5812349a52d513be1bdb39d7bb0eec36070a70f59f
 ---
 |/data/openclaw-openclaw-ralph-loops|
@@ -1540,7 +1786,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/recruitment-automation/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:14.069Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:57.809Z
 content_sha256: d82376b69b882af73c22cd9549bcc9392493f352d9f52da1dbe9ecd606ef5013
 ---
 |/data/openclaw-openclaw-recruitment-automation|
@@ -1557,7 +1806,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/theglove44/reddit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:14.181Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:57.872Z
 content_sha256: a0dc86ece36c4c975b5204132124db3c689fe3d1ab6860ed7def41e52ced11c5
 ---
 |/data/openclaw-openclaw-reddit|
@@ -1574,7 +1826,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/reddit-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:14.398Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:58.033Z
 content_sha256: 4ab81e79bf392c62ae4ed400f7d5c6f49ce9cb6ddac5272ad0d36c495a308b83
 ---
 |/data/openclaw-openclaw-reddit-search|
@@ -1592,7 +1847,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/referral-program/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:14.555Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:58.089Z
 content_sha256: 4ea4a7fd3bb9fd66b45e1643bc107d330038d44cc830676590117fae8a4fe710
 ---
 |/data/openclaw-openclaw-referral-program|
@@ -1609,7 +1867,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmcgirr-pl/salesforce-dx/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:20.271Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:00.663Z
 content_sha256: c132c2471551f5f69d76453940246db233ec9995a4f90e846cf6582d43752116
 ---
 |/data/openclaw-openclaw-salesforce-dx|
@@ -1626,7 +1887,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/schema-markup/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:20.719Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:00.846Z
 content_sha256: b43f80e20747a21f7b459d22d605858cf1d3586fd99388ec2941115e0e043fd8
 ---
 |/data/openclaw-openclaw-schema-markup|
@@ -1644,7 +1908,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dukbong/seoul-metro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:24.239Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:02.463Z
 content_sha256: fd8b7839f2b6c009f96c8a97b548c0bc79073938167a3217ee3aa9437a0034c2
 ---
 |/data/openclaw-openclaw-seoul-metro|
@@ -1662,7 +1929,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dukbong/seoul-subway/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:24.348Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:02.534Z
 content_sha256: 484fcc16ca9aa812c43e2efdb880b16fed3ed01223898043b5c0a472932bf3a4
 ---
 |/data/openclaw-openclaw-seoul-subway|
@@ -1679,7 +1949,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/shopify-marketing-expert/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:25.635Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:03.084Z
 content_sha256: 5d99ad42861b35f0cf0800b9b2ee884a2da7257378cbc4191905c73d84bba57c
 ---
 |/data/openclaw-openclaw-shopify-marketing-expert|
@@ -1697,7 +1970,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/signup-flow-cro/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:26.091Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:03.280Z
 content_sha256: d52fe97c2712260cbba0832e5747dcc6f189e131000be0df762abd7c85562812
 ---
 |/data/openclaw-openclaw-signup-flow-cro|
@@ -1714,7 +1990,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/social-media-analyzer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:29.671Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:05.255Z
 content_sha256: e3d4cfd78c2b25160fabec7b83e0c58e0727a736a7a345af0bba427763e815ca
 ---
 |/data/openclaw-openclaw-social-media-analyzer|
@@ -1732,7 +2011,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/humanji7/solobuddy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:30.647Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:05.719Z
 content_sha256: efe2494b245203227b3e3dc4c5b6020bbeb775018efb988f7a4d1797bbf63d2e
 ---
 |/data/openclaw-openclaw-solobuddy|
@@ -1749,7 +2031,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jamesalmeida/spaces-listener/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:31.648Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:06.179Z
 content_sha256: e00fd0f4e39b1837a9b4cabb4ad3460d1fa03d6b74a1e382fdad47e78851a9cc
 ---
 |/data/openclaw-openclaw-spaces-listener|
@@ -1766,7 +2051,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joneschi/sphero-mini/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:31.755Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:06.239Z
 content_sha256: b701adc7f0a0e8020a8f2fb93a93ee394f8238c592ab03bae824672687324b81
 ---
 |/data/openclaw-openclaw-sphero-mini|
@@ -1783,7 +2071,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/swipe-file-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:36.633Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:08.486Z
 content_sha256: 0c6c652a2e6b99ce12bf862795d00e57fe66c9d9a629f24d6d4ff37e4764bd7a
 ---
 |/data/openclaw-openclaw-swipe-file-generator|
@@ -1801,7 +2092,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/tweet-ideas-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:48.785Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:13.319Z
 content_sha256: b99aafd5889f3d59b78e2c00daf6e119478249eab90feb52776a2e448805c48e
 ---
 |/data/openclaw-openclaw-tweet-ideas-generator|
@@ -1818,7 +2112,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/twenty-crm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:49.104Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:13.481Z
 content_sha256: 4da47d714a33adcd57499d21e1c7276782c17d7a617ff92a12803a8dbc6df373
 ---
 |/data/openclaw-openclaw-twenty-crm|
@@ -1835,7 +2132,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/typefully/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:49.518Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:13.701Z
 content_sha256: 0f0f93328de946e62a789fbf748fd4276ce3cdbc76ae151a8e993987f70e2d5f
 ---
 |/data/openclaw-openclaw-typefully|
@@ -1853,7 +2153,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julian-r/vodoo/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:54.597Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:16.526Z
 content_sha256: 50cd2f692f8e5587d23cfb871081c0c19fa871219332b17329fa9fc16c1f2736
 ---
 |/data/openclaw-openclaw-vodoo|
@@ -1870,7 +2173,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cgallic/wake-up/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:56.252Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:17.800Z
 content_sha256: 2429176fbe0a4c3a2d335cfbf87ef5c9586c98f927e2ee87ed91a86d38413e66
 ---
 |/data/openclaw-openclaw-wake-up|
@@ -1887,7 +2193,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cgallic/wake-up-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:56.362Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:18.020Z
 content_sha256: 81ce265800461c2c1f60c441815974e71769259a2527ed5d10418a8e9ef4b852
 ---
 |/data/openclaw-openclaw-wake-up-skill|
@@ -1918,7 +2227,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/z233/weread/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:58.748Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:19.050Z
 content_sha256: 320f2101b8bec076dc33a63d5d32d1f45540fbf468aef03542286967a392c684
 ---
 |/data/openclaw-openclaw-weread|
@@ -1935,7 +2247,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/x-algorithm/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:02.819Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:20.673Z
 content_sha256: bfc82b4897e30bd563a2a71a19f83bdc22d356a7ea584307cdec3fb78a8b615c
 ---
 |/data/openclaw-openclaw-x-algorithm|
@@ -1952,7 +2267,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/x-article-editor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:03.036Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:20.756Z
 content_sha256: f4cb9b19e71d16da8f3e386cdf73a55cfa54702bfae9a5d749a656b68e0d31e1
 ---
 |/data/openclaw-openclaw-x-article-editor|
@@ -1970,7 +2288,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seandong/x-timeline-digest/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:03.606Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:20.917Z
 content_sha256: 902f588217d6f0cbdd38ba4efd652e037947f601b6ea370dd85275b59ca7893a
 ---
 |/data/openclaw-openclaw-x-timeline-digest|
@@ -1987,7 +2308,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digisal/youtrack-digisal/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:06.134Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:21.769Z
 content_sha256: b78b9845d4a81d71f86c58abb7d37cab54ba5406212945ed8bcb59f5486cd45a
 ---
 |/data/openclaw-openclaw-youtrack-digisal|
@@ -2004,7 +2328,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-video-downloader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:20.182Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:36.476Z
 content_sha256: 18fe3aea23d4e5685b131a1e40387ad4755955ab9274b7692ccd43462834ca70
 ---
 |/data/openclaw-openclaw-youtube-video-downloader|
@@ -2022,7 +2349,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/apollo1234/yt-dlp-downloader-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:07.952Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:22.525Z
 content_sha256: d37357ff0ac8ebe080608f2a9c6c426c17058b7a4c19fbd767f0a0b6a0a2d324
 ---
 |/data/openclaw-openclaw-yt-dlp-downloader-skill|
@@ -2039,7 +2369,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-video-downloader/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:20.510Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:36.629Z
 content_sha256: 95e4f019643e58c55fb9d15c3290405d94715e8a05bf9bcb5c348a7492d3cd06
 ---
 |/data/openclaw-openclaw-yt-video-downloader|
@@ -2056,7 +2389,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shreefentsar/zoho/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:08.646Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:22.861Z
 content_sha256: e4c8df574386992bca9046a1bc445f64f3de0da5466cee78cadf1f2b0f49052c
 ---
 |/data/openclaw-openclaw-zoho|
@@ -2073,7 +2409,10 @@ tags:
 source_url: ""
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:09.279Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:23.087Z
 content_sha256: d71ccd45f40f23342c317548510b1eb8bbc39f4ed6d1a889b141aa8b5a036349
 ---
 |/data/playbook-scenario-content-marketing|

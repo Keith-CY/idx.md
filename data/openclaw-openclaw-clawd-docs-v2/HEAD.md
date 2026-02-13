@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aranej/clawd-docs-v2/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:27.713Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:11.645Z
 content_sha256: 37cf5fba34209c864784e5fb34038c071fa4eaddcecb4d15671a90a23aa6c393
 ---

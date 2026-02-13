@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/healthy-eating/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:11.492Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:30.630Z
 content_sha256: 52aadb2fbd0fcb2619ca54b2b14e64a76c73ae29177f2e5d43de57caf5292776
 ---

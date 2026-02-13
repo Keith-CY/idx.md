@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/ticktick/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:42.835Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:11.374Z
 content_sha256: b08e30a715ddcdf1512932082afda6cc5e278b0fb8bba14d3961b8061d8e76d2
 ---

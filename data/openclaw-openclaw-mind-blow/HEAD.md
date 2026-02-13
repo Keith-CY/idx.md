@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/mind-blow/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:33.695Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:39.700Z
 content_sha256: 58dc8709be292791f9db827881e1d3e4c5b59b91cf16c905a6123284e9e1e18e
 ---

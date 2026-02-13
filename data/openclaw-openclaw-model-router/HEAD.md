@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digitaladaption/model-router/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:35.887Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:40.293Z
 content_sha256: 1bf8e6b84f060dcc6f538fbd570c476afcf5d6797d5eb4ee0aae41df8350fb6a
 ---

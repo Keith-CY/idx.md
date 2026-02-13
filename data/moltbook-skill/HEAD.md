@@ -17,6 +17,9 @@ tags: []
 source_url: https://moltbook.com/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:14.672Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:32.942Z
 content_sha256: 306275e0303d752e180d0780fc3a19f77d37eadbc7f7a7c2c9107490481d8d5b
 ---

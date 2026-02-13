@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/noritaka88ta/first-basic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:58.025Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:24.732Z
 content_sha256: 0336ec91e5a45be0cd6cfe7c189859b7bb75f5c128eb4cf368ce2ea6c4bd14fa
 ---

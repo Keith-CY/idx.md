@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/epheterson/mcp-applemusic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:30.270Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:38.265Z
 content_sha256: 06012f4b3aae8899e9cb550885d62688d21fbadf7618ad0cef2c29f559969eb1
 ---

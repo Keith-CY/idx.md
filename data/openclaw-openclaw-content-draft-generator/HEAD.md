@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/content-draft-generator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:37.192Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:15.750Z
 content_sha256: 4f108b9bc0d744f0143a93c7d9cea7769a9f454530d8b0be1198dfb0845efdb1
 ---

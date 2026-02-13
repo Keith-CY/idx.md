@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/morpheis/carapace/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:23.716Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:09.513Z
 content_sha256: 8a0c576b77efc9d5bde621f63f39fab8b22e4d39391e7736a5feb7c33f6dd2bb
 ---

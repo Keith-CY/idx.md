@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peterfzh/youbaolian/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:05.778Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:21.673Z
 content_sha256: 646ab792b4c2ff6507152142838e7914616933ddf948344b3fc1efc6001d6c29
 ---

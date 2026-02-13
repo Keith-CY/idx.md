@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/social-media-detox/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:29.790Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:05.311Z
 content_sha256: 5f2bb9ba876d193c2dd00b1ee3671b1638b103f1e4837adf8fde8318d1fd3244
 ---

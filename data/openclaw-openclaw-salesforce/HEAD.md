@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arvorco/salesforce/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:20.162Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:00.603Z
 content_sha256: 6bbd4d30995093b63c41726ab250e1332d27779afca0e295cbfaf79819965d28
 ---

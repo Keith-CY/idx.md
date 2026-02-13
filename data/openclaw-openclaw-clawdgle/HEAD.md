@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rubybrewsday/clawdgle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:30.329Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:12.770Z
 content_sha256: 9f3b26487c11d511f93391f1df5bf79fa3191af7099db76e32ea2ff58479d7c2
 ---

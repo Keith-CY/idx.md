@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/longmaba/google-sheet/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:08.220Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:29.399Z
 content_sha256: 54d81b8b7345a6777b98546f0580c364f0d9842e0519aa98b66e40d1659c8236
 ---

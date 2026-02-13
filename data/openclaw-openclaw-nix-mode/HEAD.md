@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chronicuser21/nix-mode/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:45.986Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:45.267Z
 content_sha256: 05a02072a95c97fb2b4049afda2dd928c0f9b99445ab8f125b5c370bf7dc5121
 ---

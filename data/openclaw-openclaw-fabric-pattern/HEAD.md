@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/apuryear/fabric-pattern/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:54.351Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:22.833Z
 content_sha256: ccc00f216488bfdb6bb8e1fd624491b3d980e697bea95fc1b2a97aa2a6773be9
 ---

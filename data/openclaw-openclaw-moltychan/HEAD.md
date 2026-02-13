@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rspapani/moltychan/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:39.967Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:42.477Z
 content_sha256: 8214a33ea0f58e3070bf1a3de57eb662cf46379f26b1486b7a0caa3750a47a88
 ---

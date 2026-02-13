@@ -28,6 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/google/fuzzing/master/docs/good-fuzz-target.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/address-sanitizer
-retrieved_at: 2026-02-13T07:21:47.544Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:52.900Z
 content_sha256: 27557aaef97cc5f580f247e803eea591e7f8006f55b1beb5acb2d7ebcf6c64fa
 ---

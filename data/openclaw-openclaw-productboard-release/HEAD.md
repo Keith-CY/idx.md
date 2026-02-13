@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robertoamoreno/productboard-release/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:06.125Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:54.755Z
 content_sha256: fc4195c49ed1733be0808e9895f9e6b9397cc626d99121485c07f4cea441e64c
 ---

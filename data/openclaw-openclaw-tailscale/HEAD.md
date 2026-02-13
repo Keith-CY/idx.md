@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/tailscale/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:37.848Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:09.089Z
 content_sha256: d1c3bfd4803da02223015558001ed2b2dc975baf8ff4bf3ed011b2cc08e29603
 ---

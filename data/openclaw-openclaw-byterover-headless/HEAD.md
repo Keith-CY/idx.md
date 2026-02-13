@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byteroverinc/byterover-headless/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:21.787Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:08.658Z
 content_sha256: 89e517587962dc1c5a43d786d408c727b05f2a98f0b5f220b37b5cf8958efc6e
 ---

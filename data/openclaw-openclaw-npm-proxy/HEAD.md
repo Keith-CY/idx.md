@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/weird-aftertaste/npm-proxy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:48.332Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:46.404Z
 content_sha256: bdf18e3d67de154c455d953d2d2e08990c015703d9c49d38f3ce07fd3a8d149f
 ---

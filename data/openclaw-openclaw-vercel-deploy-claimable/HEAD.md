@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sharanga10/vercel-deploy-claimable/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:52.794Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:15.242Z
 content_sha256: 31a4a5b49db791207d3e23c68cb43bb4c5e68712db9ed1454cfa0d1ba33ce261
 ---

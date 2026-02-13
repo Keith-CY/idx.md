@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/bear-notes/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:15.615Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:05.136Z
 content_sha256: d1d8b653e4d71a6450d9c3f2a9c2bf637ad8ae59a73e2a42830cff6f76977937
 ---

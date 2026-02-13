@@ -19,6 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/social-content/references/platforms.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/social-content
-retrieved_at: 2026-02-13T07:21:33.999Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:44.426Z
 content_sha256: b2c765478102c90e3516de625286de8f9d5eddfe5705f5d6affdd11456c43efe
 ---

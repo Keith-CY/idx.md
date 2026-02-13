@@ -13,6 +13,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasyao1985/clawdchat/skill.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/lucasyao1985/clawdchat/skill.md
-retrieved_at: 2026-02-13T07:21:07.145Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:28.352Z
 content_sha256: 32c9d3c6feeb9227b1022db18f1680bd9808baae00cd9d72995f6251f1d0759b
 ---

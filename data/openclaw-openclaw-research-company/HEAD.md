@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/research-company/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:17.069Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:59.353Z
 content_sha256: b82ba54a26b5119e2a4f7cd35c9b0ba203644d9f93f9c5c0329f0ddddeb56ef3
 ---

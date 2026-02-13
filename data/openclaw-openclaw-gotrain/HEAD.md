@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/gotrain/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:08.883Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:29.597Z
 content_sha256: 9aeaaa3f2e41fa22585eaccb9a419a5ed1ad8bc393b0764ef2bc6585fc5163f5
 ---

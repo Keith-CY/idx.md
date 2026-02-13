@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/whoop-morning/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:00.424Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:19.684Z
 content_sha256: 7dbb80bfc06209d722565e0faca96341ef093ca62d906a418054595ee8fd8bea
 ---

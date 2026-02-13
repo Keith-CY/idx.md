@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nsahal/nmap-recon/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:46.092Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:45.383Z
 content_sha256: 1be50ce6fe2e9e1824d556e6e206b4c244ff8ccf05ad1b3347e84628f766eb41
 ---

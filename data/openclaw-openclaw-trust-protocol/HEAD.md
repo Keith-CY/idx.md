@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/felmonon/trust-protocol/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:47.754Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:13.012Z
 content_sha256: 9ba87aa98b9c4089ee016084e958de6f31103e3b6251e9933f398d9bdacbabd6
 ---

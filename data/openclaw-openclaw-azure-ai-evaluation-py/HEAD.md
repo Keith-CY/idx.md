@@ -27,6 +27,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-evaluation-py/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:13.522Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:04.298Z
 content_sha256: 1a2ba5b607377cd8258c067fb7a8a57aac71f75f519c2fe928f868c94b3b0293
 ---

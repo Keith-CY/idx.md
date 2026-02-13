@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rainbat/notectl/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:47.599Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:46.000Z
 content_sha256: a423be2b45cb644f7ce0e11f71922fa0aa63e6a248cf264ae58c134bf07513c7
 ---

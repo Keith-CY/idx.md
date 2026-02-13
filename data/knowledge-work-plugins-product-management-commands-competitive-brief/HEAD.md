@@ -13,6 +13,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/competitive-brief.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/competitive-brief.md
-retrieved_at: 2026-02-13T07:21:26.343Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:40.397Z
 content_sha256: 8173e3f76e41c821e0786a1d0473a273c0815dfa7e4fb262a047f2ed22f03688
 ---

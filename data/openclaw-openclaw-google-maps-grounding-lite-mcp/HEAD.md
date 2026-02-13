@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanbaumann/google-maps-grounding-lite-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:07.793Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:29.224Z
 content_sha256: 7b88bba6a6ed885b1bbaf614e98acf8c8fbe9522cb61a489d23af06d8632f692
 ---

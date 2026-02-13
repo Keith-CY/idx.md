@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ashrf-in/odoo-openclaw-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:49.410Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:46.831Z
 content_sha256: 8045b42201a4752464414c05f0bdd61f96b8cda22722bda202dd176cb660939d
 ---

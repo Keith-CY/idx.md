@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mkrdiop/docker-diag/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:46.975Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:19.738Z
 content_sha256: 269ae95fa48a86a3ebf375fc69b02306a54458a14980ed8421ec35ef4006b447
 ---

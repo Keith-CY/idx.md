@@ -36,6 +36,9 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/vueuse/references/composables.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/vueuse
-retrieved_at: 2026-02-13T07:21:41.221Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:49.498Z
 content_sha256: c6d81de9900fc2d7897f89626e8c87686c2c7662e61dab51fefef6c902e02599
 ---

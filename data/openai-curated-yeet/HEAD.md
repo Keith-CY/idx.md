@@ -32,6 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SKILL.md
-retrieved_at: 2026-02-13T07:21:11.792Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:31.062Z
 content_sha256: 2b4583b296a3a043b9002cd74e3ca5407fce832598dcd428272da08a9839f64b
 ---

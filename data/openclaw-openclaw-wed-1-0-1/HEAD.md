@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gvillanueva84/wed-1-0-1/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:58.385Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:18.855Z
 content_sha256: 0b91a94edc7473e7c9cf7c70e3bdc620130ca12b8d1b25fe98151a1058f9981b
 ---

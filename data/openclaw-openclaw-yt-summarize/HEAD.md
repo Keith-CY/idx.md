@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-summarize/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:20.291Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:36.532Z
 content_sha256: 7983b6100b3a7ea6ed92c5c584a5e53e1f9bc113f74f665239c423921ddb82c3
 ---

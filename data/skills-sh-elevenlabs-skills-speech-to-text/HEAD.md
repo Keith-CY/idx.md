@@ -29,6 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/speech-to-text/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
-retrieved_at: 2026-02-13T07:21:43.592Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:50.832Z
 content_sha256: 47546e5ae53529ccde5a400747060a3ae9a5fc4b5afca7ed85cac3b315654100
 ---

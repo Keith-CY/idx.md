@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aly-joseph/jarvis-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:19.092Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:33.797Z
 content_sha256: 049eeff7c857e2afb76db1b20ba0619a115eb0508c3c8355620e06982abe1e78
 ---

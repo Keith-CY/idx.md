@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/vikunja/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:53.763Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:15.754Z
 content_sha256: 19f0a3dedffb5dd558a8ffe675abb72381577e038d191d75b0c1adfbfc4f8bba
 ---

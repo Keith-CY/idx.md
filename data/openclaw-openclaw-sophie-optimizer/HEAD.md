@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zayresz/sophie-optimizer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:31.207Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:05.982Z
 content_sha256: 26970908342b134de9893f0478dc7ff9bc342ed178fa0c627a9c5f54ee4d333b
 ---

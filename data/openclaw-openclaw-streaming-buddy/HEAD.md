@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/streaming-buddy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:34.004Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:07.197Z
 content_sha256: 06da92b5d66c595af225a283e1b1d30d83d606b6b7d7b1a42e1556096c91d89f
 ---

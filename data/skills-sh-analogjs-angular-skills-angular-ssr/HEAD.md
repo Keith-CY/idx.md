@@ -19,6 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-ssr/references/ssr-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-ssr
-retrieved_at: 2026-02-13T07:21:42.277Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:49.960Z
 content_sha256: 23aedff793dbe7c92dfd4f8bec9e48657d5f0399dae3232fc9b5a3b88a8284c5
 ---

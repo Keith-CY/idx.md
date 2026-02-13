@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mejango/juicy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:21.016Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:34.613Z
 content_sha256: e2b7326b7f2868673274950dc2b9e43a8edc710a990e80bdd4ca3a2cd4320838
 ---

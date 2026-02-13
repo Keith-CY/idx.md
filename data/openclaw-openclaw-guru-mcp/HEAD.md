@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/guru-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:10.609Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:30.322Z
 content_sha256: b83b9cbc93128b2783ae5a8f1820acd5612d0546b8dc21fcc929b980ef19448e
 ---

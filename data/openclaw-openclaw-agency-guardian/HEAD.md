@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aranej/agency-guardian/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:58.795Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:57.937Z
 content_sha256: 5e91e0f9adf41a58702956f6d9078ba22d1e72407e1ff88c0238fddc115ba3c1
 ---

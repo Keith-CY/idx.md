@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/epwhesq/claw-club/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:26.856Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:11.145Z
 content_sha256: 27b6e0d2dd6b719654784480e3464bfcad0c758a559ee046d5812b582a1318bf
 ---

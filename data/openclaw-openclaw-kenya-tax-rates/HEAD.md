@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enjuguna/kenya-tax-rates/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:23.070Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:35.402Z
 content_sha256: 09db1684b0cdc779c7fc6ade46af3118acb98fc305a91671eec8dccc27b947b1
 ---

@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/avimak/appdeploy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:08.121Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:02.016Z
 content_sha256: 1d120d3a3696e1ce2c0c47f2ec9af71b074bf7e5814194d08b3fa0c1d91fae48
 ---

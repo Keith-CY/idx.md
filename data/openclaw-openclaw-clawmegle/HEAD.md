@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tedkaczynski-the-bot/clawmegle/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:32.157Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:13.594Z
 content_sha256: 1054f9cced2c87a326c2b1233ac00f689065d31566bfc1a5b353dd06f546f1e5
 ---

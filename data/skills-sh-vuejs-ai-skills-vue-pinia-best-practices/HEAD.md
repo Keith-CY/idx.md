@@ -32,6 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-pinia-best-practices/reference/pinia-no-active-pinia-error.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices
-retrieved_at: 2026-02-13T07:21:38.074Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:47.409Z
 content_sha256: fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf
 ---

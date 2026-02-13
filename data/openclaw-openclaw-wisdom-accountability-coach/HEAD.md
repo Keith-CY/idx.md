@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/wisdom-accountability-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:01.075Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:19.959Z
 content_sha256: 0c6982f9ec20e71e5345ef81d05f0cc0971ec8a7634bc04175fcbe4f29499cad
 ---

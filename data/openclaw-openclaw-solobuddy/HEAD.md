@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/humanji7/solobuddy/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:30.647Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:05.719Z
 content_sha256: efe2494b245203227b3e3dc4c5b6020bbeb775018efb988f7a4d1797bbf63d2e
 ---

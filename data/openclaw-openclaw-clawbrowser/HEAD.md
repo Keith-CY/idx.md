@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tezatezaz/clawbrowser/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:27.492Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:11.525Z
 content_sha256: ca3ceef5a0b6ad4c9e5c0237fa0923990a535a7494dc8a8dcd51dbfaafccbed8
 ---

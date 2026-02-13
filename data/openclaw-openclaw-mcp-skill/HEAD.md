@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simlocker/mcp-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:30.690Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:38.425Z
 content_sha256: ad34eec5a647c02821d0b3e5b267c94145eff596fad11ce7e8d583575dc8e45a
 ---

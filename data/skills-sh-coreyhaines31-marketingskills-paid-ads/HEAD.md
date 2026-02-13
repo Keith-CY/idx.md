@@ -19,6 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/paid-ads/references/ad-copy-templates.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paid-ads
-retrieved_at: 2026-02-13T07:21:34.899Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:44.930Z
 content_sha256: cd83de02d8770e5bbb58769bac452f9ff7f82dd9eb13f8a922175bb9b21bc778
 ---

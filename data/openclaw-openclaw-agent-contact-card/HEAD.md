@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/davedean/agent-contact-card/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:59.847Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:58.443Z
 content_sha256: efc6048fa65c230a63718653f61e6263a7f0e4859f6d30a58730dfa0f0f3f541
 ---

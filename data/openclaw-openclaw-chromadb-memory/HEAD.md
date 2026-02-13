@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/msensintaffar/chromadb-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:25.473Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:10.331Z
 content_sha256: bb1af0e560e17f316e474672d025a46e323cd35e5ee6cfe8160360932179b800
 ---

@@ -32,6 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/google/atheris/master/native_extension_fuzzing.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/atheris
-retrieved_at: 2026-02-13T07:21:48.372Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:53.439Z
 content_sha256: a0e6d407dee1c72505af1c5349a58c29b71dfa3c092f55ecc3b6108278b1b58b
 ---

@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/morozred/chromecast-control/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:25.596Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:10.441Z
 content_sha256: 05d32cda36a8f6eee6f9259d4be44da7e9be6950212c069d16eedec8354f5853
 ---

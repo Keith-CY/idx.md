@@ -13,6 +13,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/pipeline-review.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/commands/pipeline-review.md
-retrieved_at: 2026-02-13T07:21:27.816Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:41.255Z
 content_sha256: 84c289ad5e98df3532e0c41fd44596e879b8746eb12f276910e82edc9d200942
 ---

@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/lobster-jobs/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:27.121Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:36.980Z
 content_sha256: 12345c62a9671f7787fd4a81f23ccafa4b0e337c1ed19850c24a32d928371c72
 ---

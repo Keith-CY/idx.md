@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asteinberger/home-music/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:13.284Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:31.366Z
 content_sha256: 217187023db6beda478dfaa23018261f186ec4230cf101fa72bb31fe99c624ee
 ---

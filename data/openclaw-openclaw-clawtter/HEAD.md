@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jkjx/clawtter/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:33.013Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:13.966Z
 content_sha256: ccb0c95183ee1143d6e5c2bfb32f8a43738d0197ee7d3af6a95fb0e628ad8f8d
 ---

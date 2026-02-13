@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/anterior-cingulate-memory/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:06.696Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:01.465Z
 content_sha256: d5727c8bc5df476f62046db2b29fa258a66ae6825cd267c0bf004739bde452fb
 ---

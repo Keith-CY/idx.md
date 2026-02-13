@@ -31,6 +31,9 @@ tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:15.801Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:34.359Z
 content_sha256: 938544ac09f6779c511d625dab8a4c160f44770d363ed68efc2433b83b7839a8
 ---

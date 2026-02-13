@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cgnl/nano-banana-antigravity/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:43.145Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:44.032Z
 content_sha256: 657238a9dbcbb9c577036dba26ea0445e283ff9772e0018ef636878065b918f3
 ---

@@ -19,6 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actorization/references/js-ts-actorization.md
 license: ""
 upstream_ref: https://skills.sh/apify/agent-skills/apify-actorization
-retrieved_at: 2026-02-13T07:21:51.553Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:54.527Z
 content_sha256: 60984cafaba3c7789dc210fe1fc77c37497b1e6bb0be8af2183e79cba85a0832
 ---

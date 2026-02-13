@@ -29,6 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/competitor-alternatives/references/templates.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives
-retrieved_at: 2026-02-13T07:21:34.717Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:44.834Z
 content_sha256: e658031a3df2f83168ee9f57e18f9bbd58254511f12af1602ec1c23e09ad3c0c
 ---

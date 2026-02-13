@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/docker-essentials/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:47.095Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:19.775Z
 content_sha256: bf8120febd5275b0b1d5f996a4cbed4f52b7d99895271604f87f02b58e7d96a9
 ---

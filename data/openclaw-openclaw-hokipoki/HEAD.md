@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/budjoskop/hokipoki/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:12.925Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:31.215Z
 content_sha256: 7ec9ab6044c7fb76b92c21616233f80b8c6056b7bfc3247e912c04be22b68b7a
 ---

@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ram-raghav-s/computer-use/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:36.393Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:15.442Z
 content_sha256: e4c0cba095cae1f7b960c867ce3803fb29e7480b40e8dda928f47adfd31c1dbc
 ---

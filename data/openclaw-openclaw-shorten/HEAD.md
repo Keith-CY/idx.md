@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/shorten/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:25.978Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:03.226Z
 content_sha256: 12da84f8795a2bea4afdd7db5b166214694a0fa4dc28a3f965ef0c628051018f
 ---

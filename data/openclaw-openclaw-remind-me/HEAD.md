@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/remind-me/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:16.228Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:58.889Z
 content_sha256: bab30007cc4543e721aaf354361f6336341e5385bdaaba2359a5c75cd7701664
 ---

@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/osadchiynikita/agentpixels-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:03.344Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:59.985Z
 content_sha256: f290a788bc5b1dbf26210987b10108c0cbd8f1989ed47e7282f6e0d2e7c1dcb8
 ---

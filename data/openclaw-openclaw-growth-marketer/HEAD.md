@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/growth-marketer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:09.952Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:30.063Z
 content_sha256: 4532ff5871381dc0263eebe734a174e2845fc45a07f60ab7be47dc1008bbec0c
 ---

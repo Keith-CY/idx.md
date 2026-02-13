@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/koala73/whoopskill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:00.545Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:19.716Z
 content_sha256: 13da58808301f625d2457cfe19ebdb904b6e56b9ea67bc0771044a6385c20ee2
 ---

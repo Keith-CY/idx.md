@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/captions/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:23.565Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:09.484Z
 content_sha256: ef79050e4a1ffd8e0c70ea9716ef8933605771b7a4e5bc294c69c3ee376c71f2
 ---

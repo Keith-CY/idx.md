@@ -30,6 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/madteacher/mad-agents-skills/HEAD/flutter-architecture/references/feature-first.md
 license: ""
 upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-architecture
-retrieved_at: 2026-02-13T07:21:53.040Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:55.151Z
 content_sha256: 0257900638be45745a37208b4db3f7242b075454d2e2a22a5a0dc09c07f2f7a8
 ---

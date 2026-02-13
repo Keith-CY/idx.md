@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/kesslerio-stealth-browser/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:23.169Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:35.438Z
 content_sha256: 243572efffd0b519733790af207ddbcee3cb53b806f24fc745a9ed1eaffb8b96
 ---

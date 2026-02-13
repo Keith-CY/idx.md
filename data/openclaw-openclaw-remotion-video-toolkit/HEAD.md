@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shreefentsar/remotion-video-toolkit/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:16.501Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:59.162Z
 content_sha256: 140a3e508a447954d2a87777dcca8216fb425d7a99c5d54d632506d79cb31714
 ---

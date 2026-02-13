@@ -19,6 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-mcp-tools-expert
-retrieved_at: 2026-02-13T07:21:45.034Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:51.569Z
 content_sha256: 294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0
 ---

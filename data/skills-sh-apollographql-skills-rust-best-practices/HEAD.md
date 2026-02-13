@@ -30,6 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/rust-best-practices/references/chapter_01.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/rust-best-practices
-retrieved_at: 2026-02-13T07:21:42.844Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:50.366Z
 content_sha256: 936f84f2e4606e7ae35afdb99606005a3c08e803308721a1578276760a29fcfa
 ---

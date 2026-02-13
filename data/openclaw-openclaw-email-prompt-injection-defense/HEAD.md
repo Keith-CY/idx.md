@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eltemblor/email-prompt-injection-defense/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:51.229Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:21.386Z
 content_sha256: 3e75865a48ee046bcc798971ab6b8eb2fde94c3e6b523ae18ecd48b17a8f7080
 ---

@@ -13,6 +13,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/vendor-check.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/vendor-check.md
-retrieved_at: 2026-02-13T07:21:22.972Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:38.250Z
 content_sha256: 8a594343a16719db793c31cb67910a9a4596f2bb7aa713b0ee4d5f4830b1d015
 ---

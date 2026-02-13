@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/exe-dev/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:53.683Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:22.349Z
 content_sha256: 4c2d2c4fdb01310fba7a1206e74502a11b66b58afa50df594bb3ba46709b1dbc
 ---

@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thomeksolutions/web-deploy-github/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:57.432Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:18.437Z
 content_sha256: cdbf0d0666731687cb5eb77c0357b13e40ae6d772091ae7c8ad131914dfaf690
 ---

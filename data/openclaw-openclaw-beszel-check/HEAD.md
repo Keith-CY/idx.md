@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/karakuscem/beszel-check/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:16.362Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:05.467Z
 content_sha256: 34bd3a55cad05115b7eeb231dab621b89c1cd9862a540f27c1f88cb3ed77e8b1
 ---

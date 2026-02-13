@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jneless/volcengine-tos-vectors-skills/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:55.690Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:17.339Z
 content_sha256: ad5d9564b7bbbb9389f44c8852e1d6997f33a584638df8325064374bf479be6f
 ---

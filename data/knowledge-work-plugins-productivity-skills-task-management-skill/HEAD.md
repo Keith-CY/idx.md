@@ -14,6 +14,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/task-management/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/task-management/SKILL.md
-retrieved_at: 2026-02-13T07:21:20.791Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:36.810Z
 content_sha256: a21f43ab86af12e60793e0156b034d252ec8b0c758fcc187b7d5e2746882a264
 ---

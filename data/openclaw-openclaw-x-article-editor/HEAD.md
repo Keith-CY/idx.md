@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/x-article-editor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:03.036Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:20.756Z
 content_sha256: f4cb9b19e71d16da8f3e386cdf73a55cfa54702bfae9a5d749a656b68e0d31e1
 ---

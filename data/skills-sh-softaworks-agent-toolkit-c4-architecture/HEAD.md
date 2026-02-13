@@ -30,6 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/c4-architecture/references/common-mistakes.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/c4-architecture
-retrieved_at: 2026-02-13T07:21:38.935Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:47.971Z
 content_sha256: 608b39dd6ece1c2d4367fb06f3bd7d190332291e279391bfedb82f4749ced414
 ---

@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aisa-one/openclaw-aisa/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:51.099Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:47.566Z
 content_sha256: 322086069f1f503dec5076d58c1777f805618e6d9e16658d60697fd48bf66436
 ---

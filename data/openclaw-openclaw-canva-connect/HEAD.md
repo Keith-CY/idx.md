@@ -20,6 +20,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coolmanns/canva-connect/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:23.098Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:09.299Z
 content_sha256: 564ee9172f3d1967881d104ef831e176d6b8413eb139615b2e850bb153e1587c
 ---

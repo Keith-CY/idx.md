@@ -22,6 +22,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-registry/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:01.180Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:59.074Z
 content_sha256: 6d5df8e30fb34065eccc0f2df42ab8b82d239d94460a173e761405c8df80f400
 ---

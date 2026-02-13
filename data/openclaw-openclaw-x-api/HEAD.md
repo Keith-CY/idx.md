@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lobstergeneralintelligence/x-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:02.918Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:20.725Z
 content_sha256: 0f5643478398d78c8c863f881cadbea3ca70a1e4dba5862cff955e49c8a96162
 ---

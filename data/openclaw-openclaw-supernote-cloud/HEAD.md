@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/supernote-cloud/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:35.339Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:07.908Z
 content_sha256: 57720e659486c2f5d82db14423860c91b2877f96074408ace58f62670d95a5f7
 ---

@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digitaladaption/cron-creator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:41.178Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:17.472Z
 content_sha256: dfc123d3d0c16ce0f510823c881338c07edc26d016efd098d02d9b15298d98cc
 ---

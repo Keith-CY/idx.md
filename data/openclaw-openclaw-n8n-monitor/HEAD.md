@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/smitti7971/n8n-monitor/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:42.838Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:43.907Z
 content_sha256: 15db397c6df3f1e2a492889e3608b0c5bd47ac12dc7a1130195d5bd48ffdb38c
 ---

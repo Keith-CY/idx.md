@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/azaidi94/claude-code-usage/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:26.055Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:10.741Z
 content_sha256: f7f1eda5b522993f562542b0d9eca5347bb9f347e2c02abdfc04b8880eb9b63c
 ---

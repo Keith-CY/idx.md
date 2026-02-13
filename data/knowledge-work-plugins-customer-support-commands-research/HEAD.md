@@ -12,6 +12,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/research.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/research.md
-retrieved_at: 2026-02-13T07:21:29.436Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:42.112Z
 content_sha256: 19e0cdcc2174075c1d13ce363f49fb45db80af5af9397aa6afa5333662f2d766
 ---

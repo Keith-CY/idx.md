@@ -13,6 +13,9 @@ tags:
 source_url: https://raw.githubusercontent.com/longbridge/gpui-component/main/.claude/skills/generate-component-story/SKILL.md
 license: ""
 upstream_ref: https://github.com/longbridge/gpui-component/blob/main/.claude/skills/generate-component-story/SKILL.md
-retrieved_at: 2026-02-13T07:21:06.417Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:27.964Z
 content_sha256: e2f3b32391855612eb6c3f58671f0a539f5568ed0af9283e9d03bcef88a9d7aa
 ---

@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/ordercli/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:53.994Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:49.025Z
 content_sha256: 562f5716faa528b335be627ba00feaa369d0b1a7b41c9bf4e17594864c8b01ef
 ---

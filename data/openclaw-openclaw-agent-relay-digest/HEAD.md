@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orosha-ai/agent-relay-digest/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:01.288Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:59.112Z
 content_sha256: 0abfa728b32143012d06469ecbde4ec3fe0185011a868cb9b458dcf6e8e848f1
 ---

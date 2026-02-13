@@ -31,6 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/eraserlabs/eraser-io/HEAD/skills/eraser-diagrams/references/flowchart-syntax.md
 license: ""
 upstream_ref: https://skills.sh/eraserlabs/eraser-io/eraser-diagrams
-retrieved_at: 2026-02-13T07:21:50.771Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:54.354Z
 content_sha256: 14ef890e72b0f7c063d399525ef72509973232b2de1651085ab33ec5d384d08c
 ---

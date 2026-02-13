@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mariovallereyes/luma-event-manager/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:28.193Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:37.396Z
 content_sha256: b70c0766fcf7fda7ec49921252430097c60dbc876d11634329c6c0d714829294
 ---

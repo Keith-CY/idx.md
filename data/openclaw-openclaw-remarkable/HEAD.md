@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/remarkable/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:16.030Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:58.790Z
 content_sha256: 8a8d5a7877efe3be2593c53533f661c534200ee9d8823f6cba8605fe87554b77
 ---

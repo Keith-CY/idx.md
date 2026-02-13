@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thomasansems/n8n/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:42.402Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:43.683Z
 content_sha256: fdb7645e0493a02a04944898af5af521499e33630426972a658b5b6e53fd5e75
 ---

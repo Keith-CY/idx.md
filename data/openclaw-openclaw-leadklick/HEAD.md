@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/big-roman123/leadklick/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:23:25.108Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:36.178Z
 content_sha256: 123af6dc59ad21ad1f5bbb106814cf2cbe0b324d4a77ac9edd396a562bc2959d
 ---

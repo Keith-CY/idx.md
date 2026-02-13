@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/whiteknight07/exa-web-search-free/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:53.160Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:22.143Z
 content_sha256: 878e35f9c0a0d50c314fab9f44d1c9371d840a05047b8b2d9557adbd3721b8c6
 ---

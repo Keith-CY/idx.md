@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yconst/request-approval/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:24:16.838Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:59.284Z
 content_sha256: a066e08929d30c1be26f09feb971fc3631b76c74bec672d27b0218e8252b8cfc
 ---

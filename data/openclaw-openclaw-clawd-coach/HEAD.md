@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/clawd-coach/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:27.605Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:11.594Z
 content_sha256: 6fe4ad41a92f04ac991bc3918309760051f2ba204dc9b62ccd21c200f5041ded
 ---

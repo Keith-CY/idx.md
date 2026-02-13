@@ -13,6 +13,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/brief.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/brief.md
-retrieved_at: 2026-02-13T07:21:23.152Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:38.358Z
 content_sha256: 526269db619b06cba7a389c3889a912c10f32fb4c2d7d6c402239f1fc8ba3f63
 ---

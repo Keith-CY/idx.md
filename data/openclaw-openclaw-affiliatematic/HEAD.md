@@ -27,6 +27,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dowands/affiliatematic/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:58.678Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:57.903Z
 content_sha256: d929f1e53048210622da6fccfb39a503897be34815f83e7b3a5f954b657f4088
 ---

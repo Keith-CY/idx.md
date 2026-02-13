@@ -19,6 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/existential-birds/beagle/HEAD/plugins/beagle-react/skills/tailwind-v4/references/setup.md
 license: ""
 upstream_ref: https://skills.sh/existential-birds/beagle/tailwind-v4
-retrieved_at: 2026-02-13T07:21:53.865Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:55.536Z
 content_sha256: 081fe68f4bc2ece4d63dfb9a77253eab8306a753ce470ac8c03102e69ff5e032
 ---

@@ -24,6 +24,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/adaptive-suite/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:21:57.440Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:57.224Z
 content_sha256: 13b82d4c0bd36d8bb0e939739954da7f3419d1fdd2e421dd5469be070210dca9
 ---

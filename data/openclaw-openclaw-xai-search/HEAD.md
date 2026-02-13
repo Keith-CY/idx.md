@@ -11,6 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aydencook03/xai-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:25:04.148Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T08:00:21.076Z
 content_sha256: 5847c489718ed663eb7e591e63fa97fbca79208c950396808a7d925042b2b094
 ---

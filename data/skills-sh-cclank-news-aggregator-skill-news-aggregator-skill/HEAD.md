@@ -32,6 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/cclank/news-aggregator-skill/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/cclank/news-aggregator-skill/news-aggregator-skill
-retrieved_at: 2026-02-13T07:21:13.691Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:32.360Z
 content_sha256: ac23cf08f189f8a588aebbfb0e90b356cfb087274e5aa545212255ac7513860d
 ---

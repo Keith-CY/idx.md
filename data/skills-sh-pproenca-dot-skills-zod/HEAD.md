@@ -33,6 +33,9 @@ tags:
 source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/zod/references/_sections.md
 license: ""
 upstream_ref: https://skills.sh/pproenca/dot-skills/zod
-retrieved_at: 2026-02-13T07:21:50.494Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:58:54.205Z
 content_sha256: f9518bb5e0e5dff531041fd82962a307495f034ec0259217ab4a47a1090236c2
 ---

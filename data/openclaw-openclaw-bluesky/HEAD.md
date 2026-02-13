@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/bluesky/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:18.495Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:06.817Z
 content_sha256: 3f993404829cfc176d9637cb5b282dfed09dab3eae0190bb83dcfc889d1a52f0
 ---

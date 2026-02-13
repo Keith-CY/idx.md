@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/henrikback/camera-watch/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:22.661Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:09.152Z
 content_sha256: 309dce1562783134ac716328190f818adc9b111aa23627fdaaf79bc6536b957a
 ---

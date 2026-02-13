@@ -10,6 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dimitryvin/aviation-weather/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T07:22:12.731Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-13T07:59:04.013Z
 content_sha256: 45294eac352391fe122b1c020800c8f9fe4430c9b425c9d5e72f9a4bf6971857
 ---
