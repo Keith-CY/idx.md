@@ -521,6 +521,30 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/hexiaochun/vidu-video/SKILL.md
 - type: skills
+  slug: github-skill-quickwit-oss-quickwit-simple-pr
+  source_url: https://raw.githubusercontent.com/quickwit-oss/quickwit/main/.claude/skills/simple-pr/SKILL.md
+  title: simple-pr
+  summary: Create a simple PR from staged changes with an auto-generated commit message
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-quickwit-oss
+    - github-repo-quickwit
+  upstream_ref: https://github.com/quickwit-oss/quickwit/blob/main/.claude/skills/simple-pr/SKILL.md
+- type: skills
+  slug: github-skill-quickwit-oss-tantivy-simple-pr
+  source_url: https://raw.githubusercontent.com/quickwit-oss/tantivy/main/.claude/skills/simple-pr/SKILL.md
+  title: simple-pr
+  summary: Create a simple PR from staged changes with an auto-generated commit message
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-quickwit-oss
+    - github-repo-tantivy
+  upstream_ref: https://github.com/quickwit-oss/tantivy/blob/main/.claude/skills/simple-pr/SKILL.md
+- type: skills
   slug: github-skill-resend-react-email-react-email
   source_url: https://raw.githubusercontent.com/resend/react-email/canary/skills/react-email/SKILL.md
   title: react-email
