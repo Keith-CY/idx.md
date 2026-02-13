@@ -42,10 +42,10 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         with:
-          commit-message: "data: update awesome claude sources"
+          commit-message: "sources: update awesome claude sources"
           title: "chore: update awesome claude sources"
           body: |
-            Automated update of awesome-claude markdown sources with frontmatter.
+            Automated update of awesome-claude source registry.
 
             Generator:
             - Script: `sites/pages/ingest-awesome-claude.ts`
@@ -55,4 +55,3 @@ jobs:
           delete-branch: true
           add-paths: |
             sources/general.yml
-            data/**
