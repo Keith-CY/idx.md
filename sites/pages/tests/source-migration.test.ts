@@ -17,7 +17,7 @@ const baseEntry = (overrides = {}) => ({
   ...overrides,
 });
 
-const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
+const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n#   github_stars: number (optional)\n#   github_forks: number (optional)\n#   github_is_organization: boolean (optional)\n`;
 
 describe("source migration", () => {
   test("diffRemovedByUrl returns entries missing in next set", () => {

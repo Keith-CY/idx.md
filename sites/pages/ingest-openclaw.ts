@@ -4,6 +4,10 @@ import { stringify } from "yaml";
 import { resolve } from "path";
 import type { SourceEntry } from "./lib/registry";
 import { normalizeGithubRawUrl } from "./lib/source-url";
+import {
+  type GithubRepoMetadata,
+  createGithubRepoMetadataFetcher,
+} from "./lib/github-repo-metadata";
 import { DATA_ROOT } from "./lib/data-layout";
 import { repoRoot } from "./lib/paths";
 import { fetchTextWithCurlFallback } from "./lib/fetch-text";
@@ -30,11 +34,12 @@ const REPORT_PATH = resolve(DATA_ROOT, "reports", "ingest-openclaw.md");
 const REPORT_DIR = resolve(DATA_ROOT, "reports");
 const SOURCE_TYPE = "skills";
 const BASE_TAGS = ["openclaw", "source-awesome-openclaw-skills"] as const;
-const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n`;
+const HEADER = `# Schema: list of source entries\n# - type: string\n#   slug: string\n#   source_url: string\n#   title: string (optional)\n#   summary: string (optional)\n#   tags: [string] (optional)\n#   license: string (optional)\n#   upstream_ref: string (optional)\n#   github_stars: number (optional)\n#   github_forks: number (optional)\n#   github_is_organization: boolean (optional)\n`;
 
 type ConvertedUrl = {
   rawUrl: string;
   owner: string;
+  repo: string;
   skillFolder: string;
 };
 
@@ -97,7 +102,7 @@ function convertToRawSkillUrl(value: string): ConvertedUrl | null {
     if (!owner || !skillFolder) {
       return null;
     }
-    return { rawUrl: url.toString(), owner, skillFolder };
+    return { rawUrl: url.toString(), owner, repo, skillFolder };
   }
 
   if (url.hostname !== "github.com" && url.hostname !== "www.github.com") {
@@ -143,7 +148,7 @@ function convertToRawSkillUrl(value: string): ConvertedUrl | null {
   }
 
   const rawUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/${pathParts.join("/")}`;
-  return { rawUrl, owner, skillFolder };
+  return { rawUrl, owner, repo, skillFolder };
 }
 
 function uniqueSlug(
@@ -180,6 +185,7 @@ function buildEntry(
   rawUrl: string,
   slug: string,
   categorySlug: string,
+  githubMetadata: GithubRepoMetadata | null,
 ): SourceEntry {
   const entry: SourceEntry = {
     type: SOURCE_TYPE,
@@ -198,6 +204,12 @@ function buildEntry(
   }
 
   entry.tags = [...BASE_TAGS, `category-${categorySlug}`];
+
+  if (githubMetadata) {
+    entry.github_stars = githubMetadata.github_stars;
+    entry.github_forks = githubMetadata.github_forks;
+    entry.github_is_organization = githubMetadata.github_is_organization;
+  }
 
   return entry;
 }
@@ -267,6 +279,7 @@ let totalItems = 0;
 let skipped = 0;
 let duplicates = 0;
 let slugCollisions = 0;
+const fetchRepoMetadata = createGithubRepoMetadataFetcher();
 
 for (const category of categories) {
   for (const item of category.items) {
@@ -302,6 +315,7 @@ for (const category of categories) {
       converted.rawUrl,
       unique,
       category.slug,
+      await fetchRepoMetadata({ owner: converted.owner, repo: converted.repo }),
     );
     entries.push(entry);
   }

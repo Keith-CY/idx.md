@@ -315,6 +315,9 @@ try {
       source_url: source.source_url,
       license: source.license ?? "",
       upstream_ref: source.upstream_ref ?? "",
+      github_stars: source.github_stars ?? null,
+      github_forks: source.github_forks ?? null,
+      github_is_organization: source.github_is_organization ?? null,
       retrieved_at: retrievedAt,
       content_sha256: computeSha256(bytes),
     };

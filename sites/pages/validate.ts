@@ -17,6 +17,9 @@ const REQUIRED_HEAD_FIELDS = [
   "source_url",
   "license",
   "upstream_ref",
+  "github_stars",
+  "github_forks",
+  "github_is_organization",
   "retrieved_at",
   "content_sha256",
 ];
@@ -190,6 +193,32 @@ for (const topic of topics) {
   }
   if (typeof frontmatter.upstream_ref !== "string") {
     errors.push(`HEAD.md upstream_ref must be a string for ${topic}`);
+  }
+  if (
+    frontmatter.github_stars !== null &&
+    (typeof frontmatter.github_stars !== "number" ||
+      !Number.isInteger(frontmatter.github_stars) ||
+      frontmatter.github_stars < 0)
+  ) {
+    errors.push(
+      `HEAD.md github_stars must be a non-negative integer or null for ${topic}`,
+    );
+  }
+  if (
+    frontmatter.github_forks !== null &&
+    (typeof frontmatter.github_forks !== "number" ||
+      !Number.isInteger(frontmatter.github_forks) ||
+      frontmatter.github_forks < 0)
+  ) {
+    errors.push(
+      `HEAD.md github_forks must be a non-negative integer or null for ${topic}`,
+    );
+  }
+  if (
+    frontmatter.github_is_organization !== null &&
+    typeof frontmatter.github_is_organization !== "boolean"
+  ) {
+    errors.push(`HEAD.md github_is_organization must be a boolean or null for ${topic}`);
   }
   if (typeof frontmatter.retrieved_at !== "string") {
     errors.push(`HEAD.md retrieved_at must be a string for ${topic}`);
