@@ -1872,3 +1872,94 @@
     - skills-sh
     - skills-sh-probed
   upstream_ref: https://skills.sh/halthelobster/proactive-agent/proactive-agent
+- type: skills
+  slug: skills-sh-1nf-sh-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/1nf-sh/skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/1nf-sh/skills/agent-tools
+- type: skills
+  slug: skills-sh-vuejs-ai-skills-vue-testing-best-practices
+  source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/vuejs-ai/skills/vue-testing-best-practices
+- type: skills
+  slug: skills-sh-1nf-sh-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/1nf-sh/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/1nf-sh/skills/python-sdk
+- type: skills
+  slug: skills-sh-1nf-sh-skills-javascript-sdk
+  source_url: https://raw.githubusercontent.com/1nf-sh/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/1nf-sh/skills/javascript-sdk
+- type: skills
+  slug: skills-sh-microsoft-playwright-playwright-cli
+  source_url: https://raw.githubusercontent.com/microsoft/playwright/HEAD/packages/playwright/src/skill/references/request-mocking.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/playwright/playwright-cli
+- type: skills
+  slug: skills-sh-hairyf-skills-openapi-specification-v3-2
+  source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/openapi-specification-v3.2/references/core-openapi-object.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v3.2
+- type: skills
+  slug: skills-sh-hairyf-knitwork-x-knitwork-x
+  source_url: https://raw.githubusercontent.com/hairyf/knitwork-x/HEAD/skills/knitwork-x/references/core-overview.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/knitwork-x/knitwork-x
+- type: skills
+  slug: skills-sh-hairyf-skills-openapi-specification-v2
+  source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/openapi-specification-v2/references/core-format-and-structure.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v2
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-vulnerability-scanner
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/vulnerability-scanner/checklists.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/vulnerability-scanner
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-skill-developer
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/skill-developer/SKILL_RULES_REFERENCE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/skill-developer
+- type: skills
+  slug: skills-sh-hairyf-skills-hairy
+  source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/hairy/references/antfu-eslint-config.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/skills/hairy
+- type: skills
+  slug: skills-sh-hairyf-skills-arch-tsdown-monorepo
+  source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/arch-tsdown-monorepo/references/core-overview.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/skills/arch-tsdown-monorepo
+- type: skills
+  slug: skills-sh-resciencelab-opc-skills-domain-hunter
+  source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/domain-hunter/references/registrars.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
