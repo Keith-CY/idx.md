@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/benjaminorthner/willhaben/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:37.070Z
+retrieved_at: 2026-02-13T06:38:49.147Z
 content_sha256: ee58d83f6b3db14790398b801b72c0ceadcd14dc67cd1ca4fe828fbe60655f98
 ---

@@ -13,6 +13,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/performance-report.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/commands/performance-report.md
-retrieved_at: 2026-02-13T04:46:30.116Z
+retrieved_at: 2026-02-13T06:35:58.925Z
 content_sha256: 657186c43203a207d87a888d67c058c4597901d95b67e336a2186d8b18c63aaf
 ---

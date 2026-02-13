@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/wzs/skiplagged-flights/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:27.617Z
+retrieved_at: 2026-02-13T06:38:20.963Z
 content_sha256: 632c9e725e22990e58ba2f374d29c4ff891c973416bc8ccb9c294733cf6a8d1a
 ---

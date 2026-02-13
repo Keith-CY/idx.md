@@ -20,6 +20,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/business-plan/SKILL.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/business-plan/SKILL.md
-retrieved_at: 2026-02-13T04:46:23.117Z
+retrieved_at: 2026-02-13T06:35:53.580Z
 content_sha256: 92236ce91a05cd06a791edcefba23213bb33648e67007a03d7d12a10b7a7a3a2
 ---

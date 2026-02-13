@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mneves75/apple-mail-search/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:42.822Z
+retrieved_at: 2026-02-13T06:36:16.573Z
 content_sha256: 485a4b911ecb1dfb70576c7cacfc94cb1f925c5c4557b20ee991464f5798b7e9
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rubenfb23/whatsapp-styler/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:36.644Z
+retrieved_at: 2026-02-13T06:38:47.735Z
 content_sha256: 21de25b4df16bed7f26763322fafd01249396b3309b5ef71b659379ef679c8cb
 ---

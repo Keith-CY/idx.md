@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/email-sequence/references/sequence-templates.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/email-sequence
-retrieved_at: 2026-02-13T04:46:33.093Z
+retrieved_at: 2026-02-13T06:36:00.951Z
 content_sha256: 50e84112175a248f7b2bf1f24d25c633745c8e6bf6c10d45e733f8450d9bfd26
 ---

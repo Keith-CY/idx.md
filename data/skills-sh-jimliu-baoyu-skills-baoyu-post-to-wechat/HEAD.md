@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/config/first-time-setup.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-retrieved_at: 2026-02-13T04:46:33.751Z
+retrieved_at: 2026-02-13T06:36:01.375Z
 content_sha256: 94394b25e191d7b502db5f48d468a8fb1106d85db4b4712ef082bbff5b6ed4e4
 ---

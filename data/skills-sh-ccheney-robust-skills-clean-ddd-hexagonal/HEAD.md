@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/ccheney/robust-skills/HEAD/skills/clean-ddd-hexagonal/references/LAYERS.md
 license: ""
 upstream_ref: https://skills.sh/ccheney/robust-skills/clean-ddd-hexagonal
-retrieved_at: 2026-02-13T04:46:38.203Z
+retrieved_at: 2026-02-13T06:36:04.426Z
 content_sha256: dba15a07f0f6981bb30201464edcd9a71a7b6cc5a024aaa8536fd03a152711b2
 ---

@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
-retrieved_at: 2026-02-13T04:46:32.597Z
+retrieved_at: 2026-02-13T06:36:00.612Z
 content_sha256: a96c5290cd5ec24b82b9ac1dfaebbcb7111cb9e6495d5b6d1b1a5daa6332f739
 ---

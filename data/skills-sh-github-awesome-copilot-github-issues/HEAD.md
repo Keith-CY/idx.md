@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/github-issues/references/templates.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/github-issues
-retrieved_at: 2026-02-13T04:46:31.865Z
+retrieved_at: 2026-02-13T06:36:00.076Z
 content_sha256: 8202c0277a34033acd44ed960a236f31a5b7a74d98769dffac497f2267279fed
 ---

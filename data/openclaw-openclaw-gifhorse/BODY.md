@@ -56,6 +56,9 @@ gifhorse transcribe /path/to/videos --use-subtitles
 
 # Use Whisper AI (slow but works for any video)
 gifhorse transcribe /path/to/video.mp4 --use-whisper
+
+# Re-transcribe videos already in database
+gifhorse transcribe /path/to/videos --force
 ```
 
 ### Download Subtitles Only
@@ -77,6 +80,12 @@ gifhorse search "memorable quote"
 
 # Search with surrounding context
 gifhorse search "memorable quote" --context 2
+
+# Show all results (no limit)
+gifhorse search "memorable quote" --all
+
+# Custom result limit (default: 100)
+gifhorse search "memorable quote" --limit 50
 ```
 
 ### Preview Before Creating
@@ -93,14 +102,41 @@ gifhorse preview "quote" 1 --include-before 1 --include-after 1
 Generate the GIF with subtitles:
 
 ```bash
-# Basic GIF
-gifhorse create "memorable quote" 1 --output reaction.gif
+# Basic GIF (auto-named from dialogue, saved to exports/)
+gifhorse create "memorable quote" 1
+
+# Explicit output path
+gifhorse create "memorable quote" 1 -o reaction.gif
 
 # High quality for social media
 gifhorse create "quote" 1 --width 720 --fps 24 --quality high
 
 # Include conversation context
 gifhorse create "quote" 1 --include-before 2 --include-after 1
+
+# Substitute words in subtitles (repeatable, target segments by number from preview)
+gifhorse create "the age of men" 1 --include-after 1 \
+  -s 1 "men" "standardized software" \
+  -s 2 "orc" "custom applications"
+
+# Clean replace (no strikethrough)
+gifhorse create "quote" 1 -r 1 "old word" "new word"
+
+# Create and send via iMessage
+gifhorse create "quote" 1 --send
+gifhorse create "quote" 1 --send-to "+15551234567"
+```
+
+### Manage Database
+
+```bash
+# Remove videos by path pattern (SQL LIKE wildcards)
+gifhorse remove "%Adventure Time%"
+gifhorse remove "%S01%" --yes
+
+# Check subtitle status for a directory
+gifhorse subtitle-status ~/Videos
+gifhorse subtitle-status ~/Videos --missing-only
 ```
 
 ### Check Status
@@ -111,6 +147,16 @@ gifhorse stats
 
 # List all transcribed videos
 gifhorse list
+```
+
+### Configuration
+
+```bash
+# Set phone number for iMessage sending
+gifhorse config --set-phone "+15551234567"
+
+# Show current configuration
+gifhorse config --show
 ```
 
 ## Timing Options
@@ -131,7 +177,22 @@ Control exactly what gets captured:
 - `--quality low|medium|high` - Color palette quality (affects file size)
 - `--fps N` - Frames per second (default: 15, use 24 for smooth)
 - `--width N` - Width in pixels (default: 480, use 720 for HD)
+
+## Subtitle Options
+
+- `-s, --sub NUM OLD NEW` - Substitute words in a segment (repeatable). Replaced words render struck through in red, replacements in red. Segment numbers shown by `preview`.
+- `-r, --replace NUM OLD NEW` - Replace words cleanly (no strikethrough). Repeatable.
 - `--no-subtitles` - Create GIF without subtitle overlay
+
+## Output
+
+- Default output filename is auto-derived from dialogue text (e.g., `i_dont_think_so.gif`) and saved to `exports/`
+- Use `-o PATH` to override. Collision handling appends `_2`, `_3`, etc.
+
+## iMessage
+
+- `--send` - Send created GIF to configured phone number via iMessage (macOS only)
+- `--send-to NUMBER` - Send to a specific phone number (overrides config)
 
 **Note:** All GIFs automatically include a subtle "gifhorse" watermark in the bottom-right corner.
 
@@ -141,7 +202,7 @@ Control exactly what gets captured:
 
 ```bash
 gifhorse search "perfect"
-gifhorse create "perfect" 1 --padding-after 2.0 --output perfect.gif
+gifhorse create "perfect" 1 --padding-after 2.0
 ```
 
 ### Full Conversation Exchange
@@ -152,16 +213,32 @@ gifhorse preview "key phrase" 1 --include-before 2 --include-after 1
 gifhorse create "key phrase" 1 --include-before 2 --include-after 1
 ```
 
+### Meme with Word Substitution
+
+```bash
+gifhorse preview "the age of men" 1 --include-after 1
+gifhorse create "the age of men" 1 --include-after 1 \
+  -s 1 "men" "standardized software" \
+  -s 2 "orc" "custom applications"
+```
+
 ### High Quality for Twitter/X
 
 ```bash
-gifhorse create "quote" 1 --width 720 --fps 24 --quality high --output tweet.gif
+gifhorse create "quote" 1 --width 720 --fps 24 --quality high -o tweet.gif
 ```
 
 ### Scene with Reaction After Dialogue
 
 ```bash
 gifhorse create "memorable line" 1 --padding-after 3.0
+```
+
+### Create and Send via iMessage
+
+```bash
+gifhorse config --set-phone "+15551234567"
+gifhorse create "quote" 1 --send
 ```
 
 ## Tips & Tricks
@@ -171,6 +248,8 @@ gifhorse create "memorable line" 1 --padding-after 3.0
 3. **Watch file sizes** - High quality + long duration = large files (20s can be 20+ MB)
 4. **Padding vs Include** - For reactions, use `--padding-after` not `--include-after`
 5. **Search with context** - Add `--context 2` to see surrounding dialogue
+6. **Re-transcribe with --force** - Use `--force` to update transcriptions after getting better subtitles
+7. **Check subtitle coverage** - Use `subtitle-status` to see which videos need subtitles
 
 ## File Size Guide
 
@@ -217,10 +296,13 @@ gifhorse transcribe "/Volumes/server-ip/Movies"
 Invoke gifhorse when the user wants to:
 - Search for dialogue or quotes in their video library
 - Create a reaction GIF from a movie or TV show
+- Make a meme GIF with substituted words
 - Add subtitles to a video clip
 - Transcribe videos for searchable dialogue
 - Preview what a GIF will look like before creating it
-- Add watermarks to GIFs for social media
+- Send a GIF via iMessage
+- Remove videos from the database
+- Check subtitle status for their video collection
 
 ## Learn More
 

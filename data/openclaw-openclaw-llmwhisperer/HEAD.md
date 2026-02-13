@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/llmwhisperer/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:08.612Z
+retrieved_at: 2026-02-13T06:37:28.393Z
 content_sha256: 054ff0203e9aa3331a30555b20340add0059f26037fb7a9547e60988c36a4c08
 ---

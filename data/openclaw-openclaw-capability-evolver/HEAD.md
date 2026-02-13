@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/capability-evolver/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:47.875Z
+retrieved_at: 2026-02-13T06:36:30.136Z
 content_sha256: efb00222e55955acfc693ffd5d35504d171b6cdd04614b7ebf43473377da0a7f
 ---

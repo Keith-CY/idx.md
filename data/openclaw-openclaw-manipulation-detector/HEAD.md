@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/claudio-prime/manipulation-detector/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:09.344Z
+retrieved_at: 2026-02-13T06:37:30.098Z
 content_sha256: d58725e4838b8a10c8239c7fe7df13e783f6a48eee58ea23eca46ccdf2a6ac9d
 ---

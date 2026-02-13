@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-tooling/references/tooling-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-tooling
-retrieved_at: 2026-02-13T04:46:34.921Z
+retrieved_at: 2026-02-13T06:36:02.175Z
 content_sha256: 1951fa339febba1848f178c8107f9b92392b58f0921e132b2c2509d2aecd2dfe
 ---

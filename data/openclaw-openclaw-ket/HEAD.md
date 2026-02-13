@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zhqinqin123run-lgtm/ket/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:07.413Z
+retrieved_at: 2026-02-13T06:37:24.953Z
 content_sha256: de7ae5b9a70ab5227a228bdfbc3e214485647a86995fceb14e9e3e84ca86ee4b
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoreth/moltedin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:12.049Z
+retrieved_at: 2026-02-13T06:37:37.010Z
 content_sha256: 14216c2a8e5e5533112b828af5b1d8d5cc0cd6fb1bde599ba902ca47c8d9bbdc
 ---

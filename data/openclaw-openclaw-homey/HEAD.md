@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maxsumrall/homey/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:04.331Z
+retrieved_at: 2026-02-13T06:37:15.624Z
 content_sha256: ae18bb17de18e44e9f3f301eb445c2be69c9b5f5250d8be97d9800fc8b6b463e
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/study-habits/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:29.628Z
+retrieved_at: 2026-02-13T06:38:25.842Z
 content_sha256: bec02a8e878e0fc91043af68ca33549c91a2057a043b8501d7b4a700701b766a
 ---

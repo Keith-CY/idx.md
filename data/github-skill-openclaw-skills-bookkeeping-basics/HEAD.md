@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/bookkeeping-basics/SKILL.md
 license: ""
 upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/bookkeeping-basics/SKILL.md
-retrieved_at: 2026-02-13T04:46:23.037Z
+retrieved_at: 2026-02-13T06:35:53.540Z
 content_sha256: 7fcf42d37641d113c018d11f21d8faa27655cc0aca428df9fd9d2afd15dc2e93
 ---

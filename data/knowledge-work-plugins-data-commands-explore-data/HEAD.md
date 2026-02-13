@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/commands/explore-data.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/commands/explore-data.md
-retrieved_at: 2026-02-13T04:46:29.157Z
+retrieved_at: 2026-02-13T06:35:58.301Z
 content_sha256: 8a3b5f17d07ef38d613d5c1afbe4182d6d97f08c1319ef99ef04f75b55c2e76c
 ---

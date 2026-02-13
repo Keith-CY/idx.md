@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cgallic/wake-up-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:35.977Z
+retrieved_at: 2026-02-13T06:38:45.498Z
 content_sha256: 81ce265800461c2c1f60c441815974e71769259a2527ed5d10418a8e9ef4b852
 ---

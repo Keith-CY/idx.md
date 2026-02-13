@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/resend/email-best-practices/HEAD/resources/deliverability.md
 license: ""
 upstream_ref: https://skills.sh/resend/email-best-practices/email-best-practices
-retrieved_at: 2026-02-13T04:46:33.916Z
+retrieved_at: 2026-02-13T06:36:01.491Z
 content_sha256: c1da08c2c55f7edf1844de3aa56a041fa776046cc59514e84935124c71fe94b2
 ---

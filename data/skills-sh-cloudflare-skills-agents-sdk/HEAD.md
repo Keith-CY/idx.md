@@ -31,6 +31,6 @@ tags:
 source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/agents-sdk/references/workflows.md
 license: ""
 upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
-retrieved_at: 2026-02-13T04:46:36.102Z
+retrieved_at: 2026-02-13T06:36:02.970Z
 content_sha256: 67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794
 ---

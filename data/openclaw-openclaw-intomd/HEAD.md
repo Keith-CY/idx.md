@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rezhajulio/intomd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:05.821Z
+retrieved_at: 2026-02-13T06:37:19.934Z
 content_sha256: c145476fbae09018005c4e2cd9ce13d22e6e25e4dbbf6194789ec08ad244d907
 ---

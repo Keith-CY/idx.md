@@ -8,10 +8,6 @@ metadata:
     requires:
       bins:
         - rr
-      env:
-        - BEEPER_TOKEN
-      config:
-        - ~/.config/beeper/config.json
     install:
       - id: brew
         kind: brew
@@ -21,7 +17,7 @@ metadata:
         label: Install rr (brew)
       - id: go
         kind: go
-        module: github.com/johntheyoung/roadrunner/cmd/rr@v0.14.0
+        module: github.com/johntheyoung/roadrunner/cmd/rr@v0.14.4
         bins:
           - rr
         label: Install rr (go)
@@ -36,14 +32,17 @@ Safety
 - Default to read-only commands unless the user explicitly requests a mutation in this turn.
 - Require explicit recipient (chat ID) and message text before sending.
 - Confirm or ask a clarifying question if the chat ID is ambiguous.
+- Never paste raw rr command output (JSON dumps, chat lists, etc.) into outgoing messages. Treat tool output as private; summarize or extract only what the user needs.
 - Use `--agent` for safe agent defaults: `rr --agent --enable-commands=chats,messages,status chats list`
 - Use `--readonly` to block writes: `rr --readonly chats list --json`
 - Use `--enable-commands` to allowlist: `rr --enable-commands=chats,messages chats list --json`
 - Use `--envelope` for structured errors: `rr --json --envelope chats get "!chatid"`
 - Envelope errors may include `error.hint` with next-step guidance for safe retries.
 - Never request, paste, or store raw auth tokens in chat. If auth is missing, ask the user to configure it locally.
+- If sending message text through a shell, avoid interpolation/expansion (e.g. `$100/month` or `!`). Prefer `--stdin <<'EOF' ... EOF` for safe literals.
 
 Setup (once)
+- `rr auth set --stdin` (recommended; token saved to `~/.config/beeper/config.json`)
 - `rr auth status --check`
 - `rr doctor`
 
@@ -107,7 +106,7 @@ Pagination
 
 Notes
 - Requires Beeper Desktop running; token from app settings.
-- Prefer `BEEPER_TOKEN` environment variable for agent-driven runs.
+- Token is stored in `~/.config/beeper/config.json` via `rr auth set` (recommended). `BEEPER_TOKEN` overrides the config file.
 - `BEEPER_ACCOUNT` sets the default account ID (aliases supported).
 - Message search is literal word match (not semantic).
 - `rr contacts resolve` is strict and fails on ambiguous names; resolve by ID after `contacts search` when needed.

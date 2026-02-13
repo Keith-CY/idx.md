@@ -14,18 +14,16 @@ summary: >-
 
   metadata:
       author: resend
-      version: "2.2.0"
-  ---
-
-  # Resend
-
-  ## Overview
+      version: "2.3.0"
+      homepage: https://resend.com
+      source: https://github.com/resend/resend-skills
+  inputs:
 tags:
   - skills-sh
   - skills-sh-probed
 source_url: https://raw.githubusercontent.com/resend/resend-skills/main/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/resend/resend-skills/resend
-retrieved_at: 2026-02-13T04:46:25.438Z
-content_sha256: c86c9c610ae49b7ac08357e95d5e28a945558507e7759d0189b3eaad11d31086
+retrieved_at: 2026-02-13T06:35:55.124Z
+content_sha256: 7ee4f68b3208e855809f64154f1dd9359bdae4bb82abfb02ffde1391ff48a90a
 ---

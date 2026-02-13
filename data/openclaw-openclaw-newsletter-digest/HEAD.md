@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/newsletter-digest/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:14.177Z
+retrieved_at: 2026-02-13T06:37:42.825Z
 content_sha256: c38d5eacc59eabe2ad43229b4c71adfbb09fa127525c475517867941bb6f6d93
 ---

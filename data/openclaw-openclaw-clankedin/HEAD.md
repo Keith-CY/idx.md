@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hukifl1/clankedin/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:48.708Z
+retrieved_at: 2026-02-13T06:36:32.095Z
 content_sha256: abc294bf56d278e8d03240aeb83f76ad437a75096172f6da44f5b7e595e4ba6e
 ---

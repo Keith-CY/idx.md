@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-danger-x-to-markdown/references/config/first-time-setup.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown
-retrieved_at: 2026-02-13T04:46:33.609Z
+retrieved_at: 2026-02-13T06:36:01.281Z
 content_sha256: 61db3aa0512d452163903d0b40c7d4062372e10df2053570a1a89ed656718800
 ---

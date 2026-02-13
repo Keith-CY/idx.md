@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/tesla-fleet-api/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:31.948Z
-content_sha256: 8cc3a70902b6e7e0b9b66534fac988692957fb8170276a9deedb02a8f9cf7683
+retrieved_at: 2026-02-13T06:38:31.507Z
+content_sha256: 78c9c2da4c3958c905c8a71c3b182be32e152820481dc39303d947c7859b92d6
 ---

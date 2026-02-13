@@ -19,6 +19,6 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-mcp-server/references/tools.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
-retrieved_at: 2026-02-13T04:46:36.908Z
+retrieved_at: 2026-02-13T06:36:03.556Z
 content_sha256: da0ac85b54c29fe6eca88da2730faea5fd823de08dfccb6236ac5cf85738ea35
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abgohel/canva/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:47.725Z
+retrieved_at: 2026-02-13T06:36:29.739Z
 content_sha256: e4a0cd21b196a2321d7e95236e32505f4316668208976f03d45ef3ec6e3e3ba0
 ---

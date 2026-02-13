@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-node-configuration/DEPENDENCIES.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-node-configuration
-retrieved_at: 2026-02-13T04:46:36.423Z
+retrieved_at: 2026-02-13T06:36:03.200Z
 content_sha256: 2045e0757cae39a43d18c6c8123777218f04a3acde17b3e3d75caf8d36776199
 ---

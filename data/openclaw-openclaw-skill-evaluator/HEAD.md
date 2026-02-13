@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/terwox/skill-evaluator/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:27.181Z
+retrieved_at: 2026-02-13T06:38:19.867Z
 content_sha256: 5a996a46b692b9712cf5e57436ab9746ae88c7cdf0f2f022ed8e5e11baf932e3
 ---

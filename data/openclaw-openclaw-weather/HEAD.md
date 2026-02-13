@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/weather/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:36.090Z
+retrieved_at: 2026-02-13T06:38:45.881Z
 content_sha256: 1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93
 ---

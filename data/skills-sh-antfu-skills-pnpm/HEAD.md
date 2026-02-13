@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/pnpm
-retrieved_at: 2026-02-13T04:46:33.407Z
+retrieved_at: 2026-02-13T06:36:01.145Z
 content_sha256: 44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543
 ---

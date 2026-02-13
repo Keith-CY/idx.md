@@ -29,6 +29,6 @@ tags:
 source_url: https://raw.githubusercontent.com/google/fuzzing/master/docs/structure-aware-fuzzing.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/harness-writing
-retrieved_at: 2026-02-13T04:46:36.880Z
+retrieved_at: 2026-02-13T06:36:03.536Z
 content_sha256: 8d02acadc413ae8aca770761382c32a0d468a4616ecca91bcabe171c0c89587a
 ---

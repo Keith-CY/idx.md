@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/glittercowboy/gsd/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:03.204Z
+retrieved_at: 2026-02-13T06:37:12.581Z
 content_sha256: 2be7095d07ee398b705adde57a573122c7889843b669ba69da685692dec03052
 ---

@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lextoumbourou/sharesight-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:26.522Z
+retrieved_at: 2026-02-13T06:38:18.162Z
 content_sha256: ada9b7db061b3b7c89eb9624e9317838425db7e7968eb0444251516049c89c9b
 ---

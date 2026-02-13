@@ -72,6 +72,10 @@ Default: `memory/ontology/graph.jsonl`
 
 Query via scripts or direct file ops. For complex graphs, migrate to SQLite.
 
+### Append-Only Rule
+
+When working with existing ontology data or schema, **append/merge** changes instead of overwriting files. This preserves history and avoids clobbering prior definitions.
+
 ## Workflows
 
 ### Create Entity
@@ -205,15 +209,13 @@ mkdir -p memory/ontology
 touch memory/ontology/graph.jsonl
 
 # Create schema (optional but recommended)
-cat > memory/ontology/schema.yaml << 'EOF'
-types:
-  Task:
-    required: [title, status]
-  Project:
-    required: [name]
-  Person:
-    required: [name]
-EOF
+python3 scripts/ontology.py schema-append --data '{
+  "types": {
+    "Task": { "required": ["title", "status"] },
+    "Project": { "required": ["name"] },
+    "Person": { "required": ["name"] }
+  }
+}'
 
 # Start using
 python3 scripts/ontology.py create --type Person --props '{"name":"Alice"}'
@@ -224,3 +226,7 @@ python3 scripts/ontology.py list --type Person
 
 - `references/schema.md` — Full type definitions and constraint patterns
 - `references/queries.md` — Query language and traversal examples
+
+## Instruction Scope
+
+Runtime instructions operate on local files (`memory/ontology/graph.jsonl` and `memory/ontology/schema.yaml`) and provide CLI usage for create/query/relate/validate; this is within scope. The skill reads/writes workspace files and will create the `memory/ontology` directory when used. Validation includes property/enum/forbidden checks, relation type/cardinality validation, acyclicity for relations marked `acyclic: true`, and Event `end >= start` checks; other higher-level constraints may still be documentation-only unless implemented in code.

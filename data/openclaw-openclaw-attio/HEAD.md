@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewdmwalker/attio/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:43.594Z
+retrieved_at: 2026-02-13T06:36:18.552Z
 content_sha256: ad0227b309e2a1475635e917e38fe26ad6988a0ba29e54cb0af8ddb0d38c69dc
 ---

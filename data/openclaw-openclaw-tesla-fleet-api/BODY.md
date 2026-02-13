@@ -1,15 +1,15 @@
 ---
 name: tesla-fleet-api
 description: Use when integrating with Tesla's official Fleet API to read vehicle/energy device data or issue remote commands (e.g. start HVAC preconditioning, wake vehicle, charge controls). Covers onboarding (developer app registration, regions/base URLs), OAuth token flows (third-party + partner tokens, refresh rotation), required domain/public-key hosting, and using Tesla's official vehicle-command/tesla-http-proxy for signed vehicle commands.
-version: 1.2.0
+version: 1.4.2
 homepage: https://github.com/odrobnik/tesla-fleet-api-skill
 metadata:
   openclaw:
     emoji: "🚗"
     requires:
-      bins: ["python3", "bash", "openssl", "git", "go"]
+      bins: ["python3", "openssl", "go"]
       env: ["TESLA_CLIENT_ID", "TESLA_CLIENT_SECRET"]
-      optionalEnv: ["TESLA_AUDIENCE", "TESLA_REDIRECT_URI", "TESLA_DOMAIN", "TESLA_BASE_URL", "TESLA_CA_CERT", "TESLA_ACCESS_TOKEN", "TESLA_REFRESH_TOKEN", "TESLA_SCOPE", "TESLA_PROXY_DIR", "TESLA_CONFIG_DIR", "TESLA_PRIVATE_KEY", "TESLA_VEHICLE_COMMAND_VERSION"]
+      optionalEnv: ["TESLA_AUDIENCE", "TESLA_REDIRECT_URI", "TESLA_DOMAIN", "TESLA_BASE_URL", "TESLA_CA_CERT", "TESLA_ACCESS_TOKEN", "TESLA_REFRESH_TOKEN", "TESLA_SCOPE", "TESLA_PRIVATE_KEY", "TESLA_VEHICLE_COMMAND_VERSION"]
 
 ---
 
@@ -26,6 +26,8 @@ Control Tesla vehicles via the official Fleet API.
 | `vehicles.py` | List vehicles + refresh cache |
 | `auth.py` | Authentication and configuration |
 | `tesla_oauth_local.py` | OAuth helper with local callback server |
+| `start_proxy.sh` | Start the signing proxy (for vehicle commands) |
+| `stop_proxy.sh` | Stop the signing proxy |
 
 ---
 
@@ -35,25 +37,18 @@ Setup is documented in **`SETUP.md`**:
 
 - [SETUP.md](SETUP.md)
 
-State directory (default): `~/.openclaw/tesla-fleet-api/` (legacy: `~/.moltbot/tesla-fleet-api/`)
-- `.env` (client id/secret and overrides)
-- `config.json` (non-secret config)
+State directory: `{workspace}/tesla-fleet-api/`
+- `config.json` (provider creds + non-token config)
 - `auth.json` (tokens)
-- proxy TLS material under `proxy/`
-- private key path is passed to `start_proxy.sh` (or via `TESLA_PRIVATE_KEY`)
+- `vehicles.json` (cached vehicle list)
+- `places.json` (named locations)
+- `proxy/` (TLS material for signing proxy)
 
-Security notes:
-- Calendar automation is intentionally **not shipped** in the published skill package (it would require local calendar access).
-  On this system the local-only script lives at: `~/.openclaw/tesla-fleet-api/local-scripts/school-precondition.sh`.
-
-- `scripts/setup_proxy.sh` installs Tesla’s `tesla-http-proxy` from `github.com/teslamotors/vehicle-command` using a **pinned version** (default `v0.4.1`) via `go install ...@version`.
-  - Override with `TESLA_VEHICLE_COMMAND_VERSION` **only** if you explicitly want a different version.
-
-(It also covers proxy setup and key enrollment.)
+No `.env` file loading — credentials in `config.json` or environment variables.
 
 ---
 
-## command.py — Vehicle Commands
+## command.py - Vehicle Commands
 
 Execute commands on your Tesla. Vehicle is auto-selected if you only have one.
 
@@ -63,7 +58,7 @@ Execute commands on your Tesla. Vehicle is auto-selected if you only have one.
 command.py [VEHICLE] <command> [options]
 ```
 
-- `VEHICLE` — Vehicle name or VIN (optional if single vehicle)
+- `VEHICLE` - Vehicle name or VIN (optional if single vehicle)
 - Commands can be run without specifying vehicle: `command.py honk`
 - Or with vehicle name: `command.py flash honk` (vehicle "flash", command "honk")
 
@@ -266,7 +261,7 @@ command.py flash flash            # flash lights on vehicle "flash"
 
 ---
 
-## vehicle_data.py — Read Vehicle Data
+## vehicle_data.py - Read Vehicle Data
 
 Fetch vehicle data with human-readable output by default.
 
@@ -276,7 +271,7 @@ Fetch vehicle data with human-readable output by default.
 vehicle_data.py [VEHICLE] [flags] [--json]
 ```
 
-- `VEHICLE` — Vehicle name or VIN (optional if single vehicle)
+- `VEHICLE` - Vehicle name or VIN (optional if single vehicle)
 - No flags = all data
 - `--json` = raw JSON output
 
@@ -336,7 +331,7 @@ vehicle_data.py -c --json
 
 ---
 
-## auth.py — Authentication
+## auth.py - Authentication
 
 Manage OAuth tokens and configuration.
 
@@ -364,7 +359,7 @@ Exchange authorization code for tokens (non-interactive).
 ```bash
 auth.py refresh
 ```
-Refresh access token. Note: refresh tokens rotate — the new one is saved automatically.
+Refresh access token. Note: refresh tokens rotate - the new one is saved automatically.
 
 #### Register Domain
 ```bash
@@ -413,7 +408,7 @@ auth.py config set \
 
 ---
 
-## tesla_fleet.py — List Vehicles
+## tesla_fleet.py - List Vehicles
 
 List vehicles with human-readable output.
 
@@ -463,11 +458,7 @@ command.py wake
 ```
 
 ### "command not signed" / "vehicle rejected"
-Ensure the proxy is running and configured:
-```bash
-./scripts/start_proxy.sh <private-key.pem>
-auth.py config set --base-url "https://localhost:4443" --ca-cert "<tls-cert.pem>"
-```
+Ensure the signing proxy is running and configured. See [SETUP.md](SETUP.md) § Proxy Setup.
 
 ### Token expired
 ```bash

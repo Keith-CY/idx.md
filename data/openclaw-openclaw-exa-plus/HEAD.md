@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordyvandomselaar/exa-plus/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:57.564Z
+retrieved_at: 2026-02-13T06:36:57.386Z
 content_sha256: 68782e89e94290400b1c57c73388433877051ea1739f7157817163b79a88d58f
 ---

@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8s-capi/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:07.071Z
+retrieved_at: 2026-02-13T06:37:23.915Z
 content_sha256: a8fa2b2a617d03ed97f747deaa92dc533f929d32bc17c989f1167d2caacd97d9
 ---

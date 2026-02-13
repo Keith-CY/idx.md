@@ -8,13 +8,13 @@ summary: >-
   name: telegram-compose
 
   description: |
-    Compose rich, readable Telegram messages using HTML formatting via direct Telegram API.
-    Use when: (1) Sending any Telegram message beyond a simple one-line reply,
-    (2) Creating structured messages with sections, lists, or status updates,
-    (3) Need formatting unavailable via Clawdbot's Markdown conversion (underline, spoilers, expandable blockquotes, user mentions by ID),
-    (4) Sending alerts, reports, summaries, or notifications to Telegram,
-    (5) Want professional, scannable message formatting with visual hierarchy.
-    Default to this skill for substantive Telegram communication.
+    Format and deliver rich Telegram messages with HTML formatting via direct Telegram API.
+    Auto-invoked by the main session for substantive Telegram output — no other skills need to call it.
+    Decision rule: If your Telegram reply is >3 lines or contains structured data (lists, stats, sections, reports),
+    spawn this as a Haiku sub-agent to format and send. Short replies (<3 lines) go directly via OpenClaw message tool.
+    Handles: research summaries, alerts, status updates, reports, briefings, notifications — anything with visual hierarchy.
+  metadata: |
+    {"openclaw":{
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -22,6 +22,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmchow/telegram-compose/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:31.692Z
-content_sha256: f71f761df3db2e592f15e4f9caabf11c68b9a86ea19c3e0bacd41d6adf2ce184
+retrieved_at: 2026-02-13T06:38:30.764Z
+content_sha256: 6f134a0d0e3028a58180b06bb6d7aa33d4d25380a409e4931cbc1efb66de3a17
 ---

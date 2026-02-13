@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/gamma/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:00.214Z
+retrieved_at: 2026-02-13T06:37:04.699Z
 content_sha256: ae8f1090682701e71792f7d414ff728c48562993c1b142798b38fef17ada1f13
 ---

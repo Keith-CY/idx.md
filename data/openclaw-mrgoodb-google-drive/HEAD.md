@@ -28,6 +28,6 @@ tags: []
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/google-drive/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:27.320Z
+retrieved_at: 2026-02-13T06:35:57.232Z
 content_sha256: 933c730820f32edcf0de613171eb93f310b62c8c82c1ff945cc456814d95be5c
 ---

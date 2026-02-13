@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/tabussen/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:30.913Z
+retrieved_at: 2026-02-13T06:38:28.712Z
 content_sha256: 54985066033061e0a02c6f8d2e9eb10ce0f6e1450e2a2173b57ae8317d1dbaf6
 ---

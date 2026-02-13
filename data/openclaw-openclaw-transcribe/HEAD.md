@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/javicasper/transcribe/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:33.302Z
+retrieved_at: 2026-02-13T06:38:35.648Z
 content_sha256: 49a9426be6868ae65bfc64b1fc57146708ca0f82b962d78c654964998db695ad
 ---

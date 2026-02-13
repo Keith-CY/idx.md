@@ -32,6 +32,6 @@ tags:
 source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/references/reactivity.md
 license: ""
 upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
-retrieved_at: 2026-02-13T04:46:32.949Z
+retrieved_at: 2026-02-13T06:36:00.853Z
 content_sha256: 48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b
 ---

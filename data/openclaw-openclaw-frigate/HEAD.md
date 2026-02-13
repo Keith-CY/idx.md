@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/porygonthebot/frigate/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:46:59.989Z
+retrieved_at: 2026-02-13T06:37:04.113Z
 content_sha256: 85030baba736dd14b48929d69b714f0e51a683fc617a335751b5f80599df897b
 ---

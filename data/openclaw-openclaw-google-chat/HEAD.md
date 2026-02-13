@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darconada/google-chat/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:02.327Z
+retrieved_at: 2026-02-13T06:37:10.289Z
 content_sha256: d66b038428fad2e8b085cf6efe8212d5fbb0fb65eb2eea171cbf17d34569b3bf
 ---

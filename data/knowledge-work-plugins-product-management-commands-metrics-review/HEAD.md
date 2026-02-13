@@ -12,6 +12,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/metrics-review.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/metrics-review.md
-retrieved_at: 2026-02-13T04:46:30.472Z
+retrieved_at: 2026-02-13T06:35:59.156Z
 content_sha256: c19a1cb501d8a01db9db944802bbfa77468da6a758c8a6043901ddecf99549b1
 ---

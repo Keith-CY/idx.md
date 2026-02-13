@@ -30,6 +30,6 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/programmatic-seo/references/playbooks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
-retrieved_at: 2026-02-13T04:46:32.720Z
+retrieved_at: 2026-02-13T06:36:00.693Z
 content_sha256: c258ebca8794542110ab3cc6e4d7f997878a01b17963132b7df8175bc4b9ec4a
 ---

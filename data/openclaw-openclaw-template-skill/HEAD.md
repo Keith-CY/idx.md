@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/template-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:31.810Z
+retrieved_at: 2026-02-13T06:38:31.241Z
 content_sha256: eb685d91de039ed864fbd790cddf31684b017fd4a34ee1a55760d8d7cdbadefa
 ---

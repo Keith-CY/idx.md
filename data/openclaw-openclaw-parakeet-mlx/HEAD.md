@@ -10,6 +10,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kylehowells/parakeet-mlx/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:17.895Z
+retrieved_at: 2026-02-13T06:37:53.067Z
 content_sha256: 08b4681c454ecaaec1559f8caf89b713d4e5684ab0d94447f347cbfee1ad3554
 ---

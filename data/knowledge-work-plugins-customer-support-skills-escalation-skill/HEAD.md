@@ -15,6 +15,6 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/escalation/SKILL.md
 license: ""
 upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/escalation/SKILL.md
-retrieved_at: 2026-02-13T04:46:31.264Z
+retrieved_at: 2026-02-13T06:35:59.749Z
 content_sha256: 02de95d0ddbb0b66052ef42643f90225feb9110fbc69884cfa724aedd2fa18e3
 ---

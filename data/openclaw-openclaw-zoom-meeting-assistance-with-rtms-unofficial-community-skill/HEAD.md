@@ -11,6 +11,6 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tanchunsiong/zoom-meeting-assistance-with-rtms-unofficial-community-skill/SKILL.md
 license: ""
 upstream_ref: ""
-retrieved_at: 2026-02-13T04:47:39.212Z
+retrieved_at: 2026-02-13T06:38:56.331Z
 content_sha256: 8055f197c303c43b2dcf0b248351f71c0c6251246a156a5b7e96a3ce2bf8abee
 ---

@@ -1,6 +1,18 @@
 ---
 name: veo
 description: Generate video using Google Veo (Veo 3.1 / Veo 3.0).
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🎬",
+        "requires":
+          {
+            "env": { "GEMINI_API_KEY": "" },
+            "bins": ["uv"],
+          },
+      },
+  }
 ---
 
 # Veo (Google Video Generation)
@@ -16,7 +28,6 @@ Options
 - `--duration` / `-d`: Video duration in seconds (default: 8, max varies by model)
 - `--aspect-ratio` / `-a`: Aspect ratio (16:9, 9:16, 1:1)
 - `--model`: Veo model to use (veo-2.0-generate-001, veo-3.0-generate-001, veo-3.1-generate-preview, etc.)
-- `--api-key`: Override GEMINI_API_KEY
 
 API key
 - `GEMINI_API_KEY` env var (preferred)

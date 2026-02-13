@@ -20,6 +20,6 @@ tags:
 source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/16-api-integration/websocket-client-creator/SKILL.md
 license: ""
 upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/16-api-integration/websocket-client-creator/SKILL.md
-retrieved_at: 2026-02-13T04:46:22.807Z
+retrieved_at: 2026-02-13T06:35:53.382Z
 content_sha256: ab8c99b15d77cc8fdcf284afec72cac2906494e6d9a0f04c04cf5b583451cb61
 ---
