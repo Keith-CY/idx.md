@@ -44,6 +44,54 @@
     - github-repo-browserwing
   upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
 - type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-abuselpdb-automation
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/abuselpdb-automation/SKILL.md
+  title: abuselpdb-automation
+  summary: Automate Abuselpdb tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/abuselpdb-automation/SKILL.md
+- type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-forcemanager-automation
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/forcemanager-automation/SKILL.md
+  title: forcemanager-automation
+  summary: Automate Forcemanager tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/forcemanager-automation/SKILL.md
+- type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-ip2location-io-automation
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/ip2location-io-automation/SKILL.md
+  title: ip2location-io-automation
+  summary: Automate Ip2location IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/ip2location-io-automation/SKILL.md
+- type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-kickbox-automation
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/kickbox-automation/SKILL.md
+  title: kickbox-automation
+  summary: Automate Kickbox tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/kickbox-automation/SKILL.md
+- type: skills
   slug: github-skill-dadbodgeoff-drift-deduplication
   source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/skills/deduplication/SKILL.md
   title: deduplication
@@ -91,6 +139,33 @@
     - github-owner-davepoon
     - github-repo-buildwithclaude
   upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
+- type: skills
+  slug: github-skill-jeffallan-claude-skills-websocket-engineer
+  source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
+  title: websocket-engineer
+  summary: Use when building real-time communication systems with WebSockets or Socket.IO. Invoke for bidirectional messaging, horizontal scaling with Redis, presence tracking, room management.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeffallan
+    - github-repo-claude-skills
+  upstream_ref: https://github.com/Jeffallan/claude-skills/blob/main/skills/websocket-engineer/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
+  title: code-documentation-analyzer
+  summary: |-
+    Code Documentation Analyzer - Auto-activating skill for Technical Documentation.
+    Triggers on: code documentation analyzer, code documentation analyzer
+    Part of the Technical Documentation skill category.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
@@ -175,6 +250,18 @@
     - github-repo-swarms
   upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
 - type: skills
+  slug: github-skill-longbridge-gpui-component-generate-component-story
+  source_url: https://raw.githubusercontent.com/longbridge/gpui-component/main/.claude/skills/generate-component-story/SKILL.md
+  title: generate-component-story
+  summary: Create story examples for components. Use when writing stories, creating examples, or demonstrating component usage.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-longbridge
+    - github-repo-gpui-component
+  upstream_ref: https://github.com/longbridge/gpui-component/blob/main/.claude/skills/generate-component-story/SKILL.md
+- type: skills
   slug: github-skill-luongnv89-claude-howto-brand-voice-consistency
   source_url: https://raw.githubusercontent.com/luongnv89/claude-howto/main/03-skills/brand-voice/SKILL.md
   title: brand-voice-consistency
@@ -242,6 +329,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satoshi891102/bounty-hunter/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-business-plan
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/business-plan/SKILL.md
+  title: business-plan
+  summary: Write, structure, and update a business plan for a solopreneur. Use when creating a plan from scratch, updating an existing plan after a pivot or new phase, or preparing a plan to share with investors, partners, or even just to clarify your own strategy. Covers executive summary, market analysis, competitive positioning, revenue model, operations plan, financial projections, and risk assessment — all adapted for a one-person business. Trigger on "write a business plan", "business plan", "create my plan", "business plan template", "update my business plan", "plan for my business", "investor pitch plan".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/business-plan/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-clawdchat
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasyao1985/clawdchat/skill.md
   title: clawdchat
@@ -290,6 +389,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/luccast/public/skill.md
 - type: skills
+  slug: github-skill-openclaw-skills-docusaurus
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anton-abyzov/sw-docusaurus/SKILL.md
+  title: docusaurus
+  summary: Docusaurus 3.x documentation framework - MDX authoring, theming, versioning, i18n. Use for documentation sites or spec-weave.com.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/anton-abyzov/sw-docusaurus/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-game-theory
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sp0oby/game-theory/SKILL.md
   title: game-theory
@@ -301,6 +412,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sp0oby/game-theory/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-journal
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/journal/SKILL.md
+  title: Journal
+  summary: Build a personal journaling practice with prompts, reflection, and pattern discovery.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/journal/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-moltmoon-sdk
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md
@@ -385,6 +508,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/josunlp/universal-notify/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-vidu-video
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hexiaochun/vidu-video/SKILL.md
+  title: vidu-video
+  summary: 使用 Vidu Q3 Pro 模型生成视频。当用户想要文生视频、生成带音频的视频，或提到 vidu 时使用此 skill。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/hexiaochun/vidu-video/SKILL.md
 - type: skills
   slug: github-skill-resend-react-email-react-email
   source_url: https://raw.githubusercontent.com/resend/react-email/canary/skills/react-email/SKILL.md
