@@ -20,6 +20,18 @@
     - github-repo-agno
   upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
 - type: skills
+  slug: github-skill-agno-agi-agno-git-workflow-cdbf56f5
+  source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
+  title: git-workflow
+  summary: Git workflow guidance for commits, branches, and pull requests
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-agno-agi
+    - github-repo-agno
+  upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
+- type: skills
   slug: github-skill-alvarobartt-hf-mem-hf-mem
   source_url: https://raw.githubusercontent.com/alvarobartt/hf-mem/main/SKILL.md
   title: hf-mem
@@ -92,6 +104,18 @@
     - github-repo-awesome-claude-skills
   upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/kickbox-automation/SKILL.md
 - type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-mezmo-automation
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/mezmo-automation/SKILL.md
+  title: mezmo-automation
+  summary: Automate Mezmo tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/mezmo-automation/SKILL.md
+- type: skills
   slug: github-skill-dadbodgeoff-drift-deduplication
   source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/skills/deduplication/SKILL.md
   title: deduplication
@@ -103,6 +127,18 @@
     - github-owner-dadbodgeoff
     - github-repo-drift
   upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/skills/deduplication/SKILL.md
+- type: skills
+  slug: github-skill-dadbodgeoff-drift-deduplication-1871b9dd
+  source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/drift v1 depreciated/skills/deduplication/SKILL.md
+  title: deduplication
+  summary: Event deduplication with canonical selection, reputation scoring, and hash-based grouping for multi-source data aggregation. Handles both ID-based and content-based deduplication.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dadbodgeoff
+    - github-repo-drift
+  upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1 depreciated/skills/deduplication/SKILL.md
 - type: skills
   slug: github-skill-dadbodgeoff-drift-sse-resilience
   source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/skills/sse-resilience/SKILL.md
@@ -139,6 +175,30 @@
     - github-owner-davepoon
     - github-repo-buildwithclaude
   upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
+- type: skills
+  slug: github-skill-davila7-claude-code-templates-scientific-schematics
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
+  title: scientific-schematics
+  summary: Create publication-quality scientific diagrams using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3 Pro for quality review. Only regenerates if quality is below threshold for your document type. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-davila7
+    - github-repo-claude-code-templates
+  upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
+- type: skills
+  slug: github-skill-davila7-claude-code-templates-writing-hookify-rules
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
+  title: Writing Hookify Rules
+  summary: This skill should be used when the user asks to "create a hookify rule", "write a hook rule", "configure hookify", "add a hookify rule", or needs guidance on hookify rule syntax and patterns.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-davila7
+    - github-repo-claude-code-templates
+  upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
 - type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
@@ -183,6 +243,23 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
+  title: langchain-core-workflow-a
+  summary: |-
+    Build LangChain chains and prompts for structured LLM workflows.
+    Use when creating prompt templates, building LCEL chains,
+    or implementing sequential processing pipelines.
+    Trigger with phrases like "langchain chains", "langchain prompts",
+    "LCEL workflow", "langchain pipeline", "prompt template".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
@@ -274,6 +351,18 @@
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
 - type: skills
+  slug: github-skill-openai-openai-agents-python-pr-draft-summary
+  source_url: https://raw.githubusercontent.com/openai/openai-agents-python/main/.agents/skills/pr-draft-summary/SKILL.md
+  title: pr-draft-summary
+  summary: Create a PR title and draft description after substantive code changes are finished. Trigger when wrapping up a moderate-or-larger change (runtime code, tests, build config, docs with behavior impact) and you need the PR-ready summary block with change summary plus PR draft text.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openai
+    - github-repo-openai-agents-python
+  upstream_ref: https://github.com/openai/openai-agents-python/blob/main/.agents/skills/pr-draft-summary/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-ai-music-generation
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okaris/ai-music-generation/SKILL.md
   title: ai-music-generation
@@ -292,6 +381,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/okaris/ai-music-generation/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-bagman
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zscole/openclaw/SKILL.md
+  title: bagman
+  summary: Secure key management for AI agents. Use when handling private keys, API secrets, wallet credentials, or when building systems that need agent-controlled funds. Covers secure storage, session keys, leak prevention, and prompt injection defense.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/zscole/openclaw/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-book-detailing
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md
@@ -436,6 +537,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/enstest1/moltmoon-sdk/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-moltpet
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jcheese1/moltpet/skill.md
+  title: moltpet
+  summary: Digital pets for AI agents. Register, claim your egg, and raise a pet by feeding it your daily moods.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jcheese1/moltpet/skill.md
 - type: skills
   slug: github-skill-openclaw-skills-moneydevkit
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satbot-mdk/moneydevkit/SKILL.md
