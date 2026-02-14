@@ -33,4 +33,14 @@ describe("toR2Key", () => {
   test("data topic path with slash maps to HEAD.md", () => {
     expect(toR2Key("/data/mintlify/")).toBe("data/mintlify/HEAD.md");
   });
+
+  test("data vectors path preserves json suffix", () => {
+    expect(toR2Key("/data/mintlify/vectors.json")).toBe(
+      "data/mintlify/vectors.json",
+    );
+  });
+
+  test("topic vectors path preserves json suffix", () => {
+    expect(toR2Key("/mintlify/vectors.json")).toBe("data/mintlify/vectors.json");
+  });
 });

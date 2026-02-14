@@ -10,6 +10,16 @@ export type BuiltPlaybook = {
   bodyMarkdown: string;
   bodyBytes: Uint8Array;
   tags: readonly string[];
+  frontmatter: {
+    stable_id: string;
+    type: string;
+    title: string;
+    summary: string;
+    tags: readonly string[];
+    source_url: string;
+    retrieved_at: string;
+    content_sha256: string;
+  };
 };
 
 function computeSha256(bytes: Uint8Array): string {
@@ -93,6 +103,16 @@ function buildPlaybookEntry(params: {
     bodyMarkdown: normalizedBody,
     bodyBytes,
     tags: [...params.tags],
+    frontmatter: {
+      stable_id: frontmatter.stable_id,
+      type: frontmatter.type,
+      title: frontmatter.title,
+      summary: frontmatter.summary,
+      tags: [...frontmatter.tags],
+      source_url: frontmatter.source_url,
+      retrieved_at: frontmatter.retrieved_at,
+      content_sha256: frontmatter.content_sha256,
+    },
   };
 }
 

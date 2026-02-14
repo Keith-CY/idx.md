@@ -24,6 +24,8 @@ describe("pages tooling paths", () => {
     expect(text.includes("llms.txt")).toBe(true);
     expect(text.includes("robots.txt")).toBe(true);
     expect(text.includes("SKILL.md")).toBe(true);
+    expect(text.includes("vectorsPath(topic)")).toBe(true);
+    expect(text.includes("vectorsPath(playbook.topic)")).toBe(true);
   });
 
   test("validate reads data topics", async () => {
@@ -106,6 +108,7 @@ describe("pages tooling paths", () => {
     expect(text.includes("https://idx.md/category/index.md")).toBe(true);
     expect(text.includes("https://idx.md/scenario/index.md")).toBe(true);
     expect(text.includes("https://idx.md/industry/index.md")).toBe(true);
+    expect(text.includes("/{topic}/vectors.json")).toBe(true);
     expect(text.includes("/{topic}/BODY.md")).toBe(true);
   });
 

@@ -297,6 +297,30 @@ describe("worker fetch", () => {
     expect(body).toBe("hello");
   });
 
+  test("returns json when vectors shard is found", async () => {
+    const env = {
+      IDX_MD: {
+        get: async (key: string) => {
+          expect(key).toBe("data/mintlify/vectors.json");
+          return { body: '{"ok":true}' };
+        },
+      },
+    } as any;
+
+    const response = await worker.fetch(
+      new Request("https://idx.md/data/mintlify/vectors.json"),
+      env,
+    );
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("content-type")).toBe(
+      "application/json; charset=utf-8",
+    );
+    expect(response.headers.get("vary")).toBe("User-Agent");
+    const body = await response.text();
+    expect(body).toBe('{"ok":true}');
+  });
+
   test("adds X-Robots-Tag: noindex for /data/reports/*", async () => {
     const env = {
       IDX_MD: {

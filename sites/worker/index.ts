@@ -115,6 +115,13 @@ function serveNotFound(params?: {
   });
 }
 
+function contentTypeForKey(key: string): string {
+  if (key.toLowerCase().endsWith(".json")) {
+    return "application/json; charset=utf-8";
+  }
+  return "text/markdown; charset=utf-8";
+}
+
 async function serveWellKnownText(params: {
   bucket: R2Bucket;
   key: string;
@@ -264,7 +271,7 @@ export default {
     if (typeof object.writeHttpMetadata === "function") {
       object.writeHttpMetadata(headers);
     }
-    headers.set("content-type", "text/markdown; charset=utf-8");
+    headers.set("content-type", contentTypeForKey(key));
     if (key.startsWith("data/reports/")) {
       // Allow crawling (robots.txt allows all), but keep build reports out of indexes.
       headers.set("x-robots-tag", "noindex");
