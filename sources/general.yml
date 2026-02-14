@@ -1979,3 +1979,59 @@
     - plugin-skill
     - category-coding-agents-ides
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cowork-plugin-management/skills/create-cowork-plugin/SKILL.md
+- type: skills
+  slug: skills-sh-vuejs-ai-skills-vue-debug-guides
+  source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/vuejs-ai/skills/vue-debug-guides
+- type: skills
+  slug: skills-sh-1nfsh-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/1nfsh/skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/1nfsh/skills/agent-tools
+- type: skills
+  slug: skills-sh-hairyf-skills-undocs
+  source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/undocs/references/core-getting-started.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/skills/undocs
+- type: skills
+  slug: skills-sh-tursodatabase-turso-debugging
+  source_url: https://raw.githubusercontent.com/tursodatabase/turso/HEAD/.claude/skills/debugging/references/CORRUPTION-TOOLS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/tursodatabase/turso/debugging
+- type: skills
+  slug: skills-sh-sawyerhood-dev-browser-dev-browser
+  source_url: https://raw.githubusercontent.com/sawyerhood/dev-browser/HEAD/skills/dev-browser/references/scraping.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sawyerhood/dev-browser/dev-browser
+- type: skills
+  slug: skills-sh-tursodatabase-turso-testing
+  source_url: https://raw.githubusercontent.com/tursodatabase/turso/HEAD/docs/testing.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/tursodatabase/turso/testing
+- type: skills
+  slug: skills-sh-apollographql-skills-apollo-connectors
+  source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-connectors/references/grammar.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apollographql/skills/apollo-connectors
+- type: skills
+  slug: skills-sh-magicseek-nblm-nblm
+  source_url: https://raw.githubusercontent.com/magicseek/nblm/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/magicseek/nblm/nblm
