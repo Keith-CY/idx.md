@@ -7,6 +7,9 @@
 #   tags: [string] (optional)
 #   license: string (optional)
 #   upstream_ref: string (optional)
+#   github_stars: number (optional)
+#   github_forks: number (optional)
+#   github_is_organization: boolean (optional)
 - type: skills
   slug: ibelick-baseline-ui
   source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md
@@ -14,6 +17,9 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
+  github_stars: 779
+  github_forks: 33
+  github_is_organization: false
 - type: skills
   slug: ibelick-fixing-accessibility
   source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-accessibility/SKILL.md
@@ -21,6 +27,9 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
+  github_stars: 779
+  github_forks: 33
+  github_is_organization: false
 - type: skills
   slug: ibelick-fixing-metadata
   source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md
@@ -28,6 +37,9 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
+  github_stars: 779
+  github_forks: 33
+  github_is_organization: false
 - type: skills
   slug: ibelick-fixing-motion-performance
   source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-motion-performance/SKILL.md
@@ -35,3 +47,6 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md
+  github_stars: 779
+  github_forks: 33
+  github_is_organization: false
