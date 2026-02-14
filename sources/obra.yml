@@ -7,6 +7,9 @@
 #   tags: [string] (optional)
 #   license: string (optional)
 #   upstream_ref: string (optional)
+#   github_stars: number (optional)
+#   github_forks: number (optional)
+#   github_is_organization: boolean (optional)
 - type: skills
   slug: obra-brainstorming
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md
@@ -14,6 +17,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-dispatching-parallel-agents
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/dispatching-parallel-agents/SKILL.md
@@ -21,6 +27,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-executing-plans
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/executing-plans/SKILL.md
@@ -28,6 +37,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-finishing-a-development-branch
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md
@@ -35,6 +47,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-receiving-code-review
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/receiving-code-review/SKILL.md
@@ -42,6 +57,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-requesting-code-review
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md
@@ -49,6 +67,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-subagent-driven-development
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md
@@ -56,6 +77,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-systematic-debugging
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/systematic-debugging/SKILL.md
@@ -63,6 +87,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-test-driven-development
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/test-driven-development/SKILL.md
@@ -70,6 +97,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-using-git-worktrees
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-git-worktrees/SKILL.md
@@ -77,6 +107,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-using-superpowers
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md
@@ -84,6 +117,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-verification-before-completion
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md
@@ -91,6 +127,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-writing-plans
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md
@@ -98,6 +137,9 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
 - type: skills
   slug: obra-writing-skills
   source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md
@@ -105,3 +147,6 @@
     - obra
     - source-obra-superpowers
   upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
+  github_stars: 51122
+  github_forks: 3857
+  github_is_organization: false
