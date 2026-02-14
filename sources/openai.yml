@@ -7,6 +7,9 @@
 #   tags: [string] (optional)
 #   license: string (optional)
 #   upstream_ref: string (optional)
+#   github_stars: number (optional)
+#   github_forks: number (optional)
+#   github_is_organization: boolean (optional)
 - type: skills
   slug: openai-curated-cloudflare-deploy
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/cloudflare-deploy/SKILL.md
@@ -14,6 +17,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/cloudflare-deploy/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-develop-web-game
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/develop-web-game/SKILL.md
@@ -21,6 +27,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-doc
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/doc/SKILL.md
@@ -28,6 +37,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/doc/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-figma-implement-design
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md
@@ -35,6 +47,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma-implement-design/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-figma
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma/SKILL.md
@@ -42,6 +57,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-gh-address-comments
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-address-comments/SKILL.md
@@ -49,6 +67,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-gh-fix-ci
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-fix-ci/SKILL.md
@@ -56,6 +77,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-imagegen
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/imagegen/SKILL.md
@@ -63,6 +87,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/imagegen/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-jupyter-notebook
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/jupyter-notebook/SKILL.md
@@ -70,6 +97,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/jupyter-notebook/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-linear
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/linear/SKILL.md
@@ -77,6 +107,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/linear/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-netlify-deploy
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/netlify-deploy/SKILL.md
@@ -84,6 +117,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/netlify-deploy/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-notion-knowledge-capture
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-knowledge-capture/SKILL.md
@@ -91,6 +127,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-knowledge-capture/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-notion-meeting-intelligence
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-meeting-intelligence/SKILL.md
@@ -98,6 +137,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-meeting-intelligence/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-notion-research-documentation
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-research-documentation/SKILL.md
@@ -105,6 +147,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-research-documentation/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-notion-spec-to-implementation
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-spec-to-implementation/SKILL.md
@@ -112,6 +157,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-spec-to-implementation/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-openai-docs
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/openai-docs/SKILL.md
@@ -119,6 +167,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/openai-docs/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-pdf
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/pdf/SKILL.md
@@ -126,6 +177,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/pdf/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-playwright
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/playwright/SKILL.md
@@ -133,6 +187,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-render-deploy
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/render-deploy/SKILL.md
@@ -140,6 +197,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/render-deploy/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-screenshot
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/screenshot/SKILL.md
@@ -147,6 +207,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/screenshot/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-security-best-practices
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-best-practices/SKILL.md
@@ -154,6 +217,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-security-ownership-map
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-ownership-map/SKILL.md
@@ -161,6 +227,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-ownership-map/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-security-threat-model
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-threat-model/SKILL.md
@@ -168,6 +237,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-threat-model/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-sentry
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sentry/SKILL.md
@@ -175,6 +247,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sentry/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-sora
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sora/SKILL.md
@@ -182,6 +257,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sora/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-speech
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/speech/SKILL.md
@@ -189,6 +267,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/speech/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-spreadsheet
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md
@@ -196,6 +277,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/spreadsheet/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-transcribe
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/transcribe/SKILL.md
@@ -203,6 +287,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/transcribe/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-vercel-deploy
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/vercel-deploy/SKILL.md
@@ -210,6 +297,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-deploy/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-curated-yeet
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md
@@ -217,6 +307,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-system-skill-creator
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-creator/SKILL.md
@@ -224,6 +317,9 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
 - type: skills
   slug: openai-system-skill-installer
   source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-installer/SKILL.md
@@ -231,3 +327,6 @@
     - openai
     - source-openai-skills
   upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-installer/SKILL.md
+  github_stars: 8389
+  github_forks: 466
+  github_is_organization: true
