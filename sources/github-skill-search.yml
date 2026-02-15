@@ -276,6 +276,23 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md
+  title: vercel-upgrade-migration
+  summary: |-
+    Execute analyze, plan, and execute Vercel SDK upgrades with breaking change detection.
+    Use when upgrading Vercel SDK versions, detecting deprecations,
+    or migrating to new API versions.
+    Trigger with phrases like "upgrade vercel", "vercel migration",
+    "vercel breaking changes", "update vercel SDK", "analyze vercel version".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-websocket-client-creator
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/16-api-integration/websocket-client-creator/SKILL.md
   title: websocket-client-creator
@@ -350,6 +367,18 @@
     - github-owner-luongnv89
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
+- type: skills
+  slug: github-skill-onmax-nuxt-skills-nuxt-seo
+  source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md
+  title: nuxt-seo
+  summary: Nuxt SEO meta-module with robots, sitemap, og-image, schema-org. Use when configuring SEO, generating sitemaps, creating OG images, or adding structured data.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-transportation
+    - github-owner-onmax
+    - github-repo-nuxt-skills
+  upstream_ref: https://github.com/onmax/nuxt-skills/blob/main/skills/nuxt-seo/SKILL.md
 - type: skills
   slug: github-skill-openai-openai-agents-python-pr-draft-summary
   source_url: https://raw.githubusercontent.com/openai/openai-agents-python/main/.agents/skills/pr-draft-summary/SKILL.md
