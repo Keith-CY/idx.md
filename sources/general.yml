@@ -2035,3 +2035,59 @@
     - skills-sh
     - skills-sh-probed
   upstream_ref: https://skills.sh/magicseek/nblm/nblm
+- type: skills
+  slug: skills-sh-onmax-nuxt-skills-motion
+  source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/motion/references/components.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/onmax/nuxt-skills/motion
+- type: skills
+  slug: skills-sh-davila7-claude-code-templates-langchain
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/ai-research/agents-langchain/references/agents.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/davila7/claude-code-templates/langchain
+- type: skills
+  slug: skills-sh-bahayonghang-drawio-skills-drawio
+  source_url: https://raw.githubusercontent.com/bahayonghang/drawio-skills/HEAD/skills/drawio/docs/design-system/README.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/bahayonghang/drawio-skills/drawio
+- type: skills
+  slug: skills-sh-mrgoonie-claudekit-skills-chrome-devtools
+  source_url: https://raw.githubusercontent.com/mrgoonie/claudekit-skills/HEAD/.claude/skills/chrome-devtools/references/cdp-domains.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/mrgoonie/claudekit-skills/chrome-devtools
+- type: skills
+  slug: skills-sh-heygen-com-skills-heygen
+  source_url: https://raw.githubusercontent.com/heygen-com/skills/HEAD/skills/heygen/references/prompt-optimizer.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/heygen-com/skills/heygen
+- type: skills
+  slug: skills-sh-pproenca-dot-skills-clean-architecture
+  source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.experimental/clean-architecture/references/dep-inward-only.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/pproenca/dot-skills/clean-architecture
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-app-builder
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/app-builder/templates/nextjs-fullstack/TEMPLATE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/app-builder
+- type: skills
+  slug: skills-sh-antonbabenko-terraform-skill-terraform-skill
+  source_url: https://raw.githubusercontent.com/antonbabenko/terraform-skill/HEAD/references/code-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antonbabenko/terraform-skill/terraform-skill
