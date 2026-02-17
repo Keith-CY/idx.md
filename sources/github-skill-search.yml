@@ -8,6 +8,18 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
+  slug: github-skill-actionbook-rust-skills-m04-zero-cost
+  source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
+  title: m04-zero-cost
+  summary: "CRITICAL: Use for generics, traits, zero-cost abstraction. Triggers: E0277, E0308, E0599, generic, trait, impl, dyn, where, monomorphization, static dispatch, dynamic dispatch, impl Trait, trait bound not satisfied, 泛型, 特征, 零成本抽象, 单态化"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-actionbook
+    - github-repo-rust-skills
+  upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zero-cost/SKILL.md
+- type: skills
   slug: github-skill-agno-agi-agno-git-workflow
   source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
   title: git-workflow
@@ -55,6 +67,18 @@
     - github-owner-browserwing
     - github-repo-browserwing
   upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-catlog22-claude-code-workflow-team-lifecycle
+  source_url: https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.claude/skills/team-lifecycle/SKILL.md
+  title: team-lifecycle
+  summary: Unified team skill for full lifecycle - spec/impl/test. All roles invoke this skill with --role arg for role-specific execution.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-catlog22
+    - github-repo-claude-code-workflow
+  upstream_ref: https://github.com/catlog22/Claude-Code-Workflow/blob/main/.claude/skills/team-lifecycle/SKILL.md
 - type: skills
   slug: github-skill-composiohq-awesome-claude-skills-abuselpdb-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/abuselpdb-automation/SKILL.md
@@ -164,6 +188,30 @@
     - github-repo-personal_ai_infrastructure
   upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md
 - type: skills
+  slug: github-skill-danielmiessler-personal-ai-infrastructure-prompting-22ec27f8
+  source_url: https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v3.0/.claude/skills/Prompting/SKILL.md
+  title: Prompting
+  summary: Meta-prompting system for dynamic prompt generation using templates, standards, and patterns. USE WHEN meta-prompting, template generation, prompt optimization, or programmatic prompt composition.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-danielmiessler
+    - github-repo-personal_ai_infrastructure
+  upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v3.0/.claude/skills/Prompting/SKILL.md
+- type: skills
+  slug: github-skill-darrenhinde-openagentscontrol-task-breakdown
+  source_url: https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/plugins/claude-code/skills/task-breakdown/SKILL.md
+  title: task-breakdown
+  summary: Break down complex features into atomic, verifiable subtasks with dependency tracking. Use when implementing multi-step workflows, complex features requiring multiple files, or when the user requests task planning.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-darrenhinde
+    - github-repo-openagentscontrol
+  upstream_ref: https://github.com/darrenhinde/OpenAgentsControl/blob/main/plugins/claude-code/skills/task-breakdown/SKILL.md
+- type: skills
   slug: github-skill-davepoon-buildwithclaude-content-research-writer
   source_url: https://raw.githubusercontent.com/davepoon/buildwithclaude/main/plugins/all-skills/skills/content-research-writer/SKILL.md
   title: content-research-writer
@@ -199,6 +247,18 @@
     - github-owner-davila7
     - github-repo-claude-code-templates
   upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
+- type: skills
+  slug: github-skill-elizaos-eliza-blucli
+  source_url: https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md
+  title: blucli
+  summary: BluOS CLI (blu) for discovery, playback, grouping, and volume.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-elizaos
+    - github-repo-eliza
+  upstream_ref: https://github.com/elizaOS/eliza/blob/develop/packages/skills/skills/blucli/SKILL.md
 - type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
@@ -243,6 +303,21 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md
+  title: klingai-pricing-basics
+  summary: |-
+    Manage understand Kling AI pricing, credits, and cost optimization. Use when budgeting or optimizing
+    costs for video generation. Trigger with phrases like 'kling ai pricing', 'klingai credits',
+    'kling ai cost', 'klingai budget'.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
@@ -391,6 +466,18 @@
     - github-owner-openai
     - github-repo-openai-agents-python
   upstream_ref: https://github.com/openai/openai-agents-python/blob/main/.agents/skills/pr-draft-summary/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-openclaw-gh-issues
+  source_url: https://raw.githubusercontent.com/openclaw/openclaw/main/skills/gh-issues/SKILL.md
+  title: gh-issues
+  summary: "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-openclaw
+    - github-repo-openclaw
+  upstream_ref: https://github.com/openclaw/openclaw/blob/main/skills/gh-issues/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-ai-music-generation
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okaris/ai-music-generation/SKILL.md
@@ -698,6 +785,18 @@
     - github-owner-resend
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-tencentblueking-bk-bcs-node-js
+  source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
+  title: Node.js 安全审查
+  summary: 检查 RCE、SSRF、SQL 注入、路径穿越等安全问题，支持 Express/Koa/NestJS
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-tencentblueking
+    - github-repo-bk-bcs
+  upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
 - type: skills
   slug: github-skill-tencentblueking-bk-bcs-skill
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
