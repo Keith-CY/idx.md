@@ -248,6 +248,18 @@
     - github-repo-claude-code-templates
   upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
 - type: skills
+  slug: github-skill-dlt-hub-dlt-review-pr
+  source_url: https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md
+  title: review-pr
+  summary: Analyze a GitHub pull request including diff, comments, related issues, and local code context
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-dlt-hub
+    - github-repo-dlt
+  upstream_ref: https://github.com/dlt-hub/dlt/blob/devel/.claude/skills/review-pr/SKILL.md
+- type: skills
   slug: github-skill-elizaos-eliza-blucli
   source_url: https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md
   title: blucli
@@ -442,6 +454,18 @@
     - github-owner-luongnv89
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
+- type: skills
+  slug: github-skill-novuhq-novu-react-email
+  source_url: https://raw.githubusercontent.com/novuhq/novu/next/.agents/skills/react-email/SKILL.md
+  title: react-email
+  summary: Use when creating HTML email templates with React components - welcome emails, password resets, notifications, order confirmations, newsletters, or transactional emails.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-novuhq
+    - github-repo-novu
+  upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-email/SKILL.md
 - type: skills
   slug: github-skill-onmax-nuxt-skills-nuxt-seo
   source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md
