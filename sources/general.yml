@@ -2098,3 +2098,67 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/existential-birds/beagle/tailwind-v4
+- type: skills
+  slug: skills-sh-inference-sh-0-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/inference-sh-0/skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-0/skills/agent-tools
+  github_stars: 30
+  github_forks: 6
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-onmax-nuxt-skills-nuxt-ui
+  source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-ui/references/installation.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-ui
+  github_stars: 543
+  github_forks: 23
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-inference-sh-0-skills-javascript-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh-0/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-0/skills/javascript-sdk
+  github_stars: 30
+  github_forks: 6
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-inference-sh-0-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh-0/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-0/skills/python-sdk
+  github_stars: 30
+  github_forks: 6
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-daleseo-korean-skills-style-guide
+  source_url: https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/style-guide/references/tone-consistency.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/daleseo/korean-skills/style-guide
+  github_stars: 6
+  github_forks: 0
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-pproenca-dot-skills-nuqs
+  source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/nuqs/references/parser-use-typed-parsers.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/pproenca/dot-skills/nuqs
+- type: skills
+  slug: skills-sh-404kidwiz-claude-supercode-skills-frontend-ui-ux-engineer
+  source_url: https://raw.githubusercontent.com/404kidwiz/claude-supercode-skills/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/404kidwiz/claude-supercode-skills/frontend-ui-ux-engineer
