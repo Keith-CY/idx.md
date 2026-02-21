@@ -116,6 +116,18 @@
     - github-repo-awesome-claude-skills
   upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/ip2location-io-automation/SKILL.md
 - type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-ip2location-io-automation-e171a20b
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/ip2location-io-automation/SKILL.md
+  title: ip2location-io-automation
+  summary: Automate Ip2location IO tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/ip2location-io-automation/SKILL.md
+- type: skills
   slug: github-skill-composiohq-awesome-claude-skills-kickbox-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/kickbox-automation/SKILL.md
   title: kickbox-automation
@@ -127,6 +139,18 @@
     - github-owner-composiohq
     - github-repo-awesome-claude-skills
   upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/kickbox-automation/SKILL.md
+- type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-kickbox-automation-3347ff5a
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kickbox-automation/SKILL.md
+  title: kickbox-automation
+  summary: Automate Kickbox tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/kickbox-automation/SKILL.md
 - type: skills
   slug: github-skill-composiohq-awesome-claude-skills-mezmo-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/mezmo-automation/SKILL.md
@@ -570,6 +594,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satoshi891102/bounty-hunter/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-bsc-impossible-finance
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ketiyohanneschromaway/impossible-finance/skills.md
+  title: bsc-impossible-finance
+  summary: BSC (Binance Smart Chain) trading on Impossible Finance DEX - wallet registration, swaps, discover tokens and pairs, funding.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ketiyohanneschromaway/impossible-finance/skills.md
+- type: skills
   slug: github-skill-openclaw-skills-business-plan
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/business-plan/SKILL.md
   title: business-plan
@@ -714,6 +750,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-physics
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/physics/SKILL.md
+  title: Physics
+  summary: Assist with physics from intuitive explanations to formal derivations at any level.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/physics/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-seo-content-writer
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaron-he-zhu/seo-content-writer/SKILL.md
   title: seo-content-writer
@@ -809,6 +857,30 @@
     - github-owner-resend
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
+  title: hubspot-integration
+  summary: "Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch operations, webhooks, and custom objects. Covers Node.js and Python SDKs. Use when: hubs..."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sickn33
+    - github-repo-antigravity-awesome-skills
+  upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/hubspot-integration/SKILL.md
+- type: skills
+  slug: github-skill-sickn33-antigravity-awesome-skills-outlook-calendar-automation
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/outlook-calendar-automation/SKILL.md
+  title: outlook-calendar-automation
+  summary: "Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations. Always search tools first for current schemas."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-sickn33
+    - github-repo-antigravity-awesome-skills
+  upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/outlook-calendar-automation/SKILL.md
 - type: skills
   slug: github-skill-tencentblueking-bk-bcs-node-js
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
