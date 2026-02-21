@@ -2162,3 +2162,218 @@
     - skills-sh
     - skills-sh-probed
   upstream_ref: https://skills.sh/404kidwiz/claude-supercode-skills/frontend-ui-ux-engineer
+- type: skills
+  slug: skills-sh-anthropics-skills-pptx
+  source_url: https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/pptx/editing.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/anthropics/skills/pptx
+  github_stars: 71539
+  github_forks: 7296
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-inference-sh-3-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/inference-sh-3/skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-3/skills/agent-tools
+  github_stars: 32
+  github_forks: 6
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-onboarding-cro
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/onboarding-cro/references/experiments.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/onboarding-cro
+  github_stars: 8300
+  github_forks: 1060
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-email-sequence
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/email-sequence/references/sequence-templates.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/email-sequence
+  github_stars: 8300
+  github_forks: 1060
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-hyf0-vue-skills-vue-debug-guides
+  source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hyf0/vue-skills/vue-debug-guides
+  github_stars: 1611
+  github_forks: 80
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-antfu-skills-pnpm
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/pnpm
+  github_stars: 3463
+  github_forks: 159
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-antfu-skills-antfu
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/antfu/references/antfu-eslint-config.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/antfu
+  github_stars: 3463
+  github_forks: 159
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-comic
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-comic/references/partial-workflows.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
+  github_stars: 4718
+  github_forks: 521
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-antfu-skills-tsdown
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/tsdown/references/guide-getting-started.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/tsdown
+  github_stars: 3463
+  github_forks: 159
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-nuxt-ui-nuxt-ui
+  source_url: https://raw.githubusercontent.com/nuxt/ui/HEAD/skills/nuxt-ui/references/composables.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/nuxt/ui/nuxt-ui
+  github_stars: 6254
+  github_forks: 1017
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-vuejs-ai-skills-vue-options-api-best-practices
+  source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-options-api-best-practices/reference/ts-options-api-use-definecomponent.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/vuejs-ai/skills/vue-options-api-best-practices
+  github_stars: 1611
+  github_forks: 80
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-ejirocodes-agent-skills-svelte5-best-practices
+  source_url: https://raw.githubusercontent.com/ejirocodes/agent-skills/HEAD/svelte/skills/svelte5-best-practices/references/runes.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices
+  github_stars: 2
+  github_forks: 0
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-analogjs-angular-skills-angular-routing
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-routing/references/routing-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-routing
+  github_stars: 352
+  github_forks: 40
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-analogjs-angular-skills-angular-directives
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-directives/references/directive-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-directives
+  github_stars: 352
+  github_forks: 40
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-b-mendoza-agent-skills-validate-implementation-plan
+  source_url: https://raw.githubusercontent.com/b-mendoza/agent-skills/HEAD/skills/validate-implementation-plan/examples/sample-audit.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/b-mendoza/agent-skills/validate-implementation-plan
+  github_stars: 0
+  github_forks: 0
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-adithya-s-k-manim-skill-manimgl-best-practices
+  source_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manimgl-best-practices/rules/scenes.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimgl-best-practices
+- type: skills
+  slug: skills-sh-pproenca-dot-skills-typescript
+  source_url: https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/typescript/references/_sections.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/pproenca/dot-skills/typescript
+- type: skills
+  slug: skills-sh-czlonkowski-n8n-skills-n8n-validation-expert
+  source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-validation-expert/ERROR_CATALOG.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-validation-expert
+  github_stars: 2848
+  github_forks: 501
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-ramziddin-solid-skills-solid
+  source_url: https://raw.githubusercontent.com/ramziddin/solid-skills/HEAD/skills/solid/references/tdd.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/ramziddin/solid-skills/solid
+- type: skills
+  slug: skills-sh-apollographql-skills-graphql-operations
+  source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/graphql-operations/references/queries.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apollographql/skills/graphql-operations
+  github_stars: 23
+  github_forks: 3
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-cloudflare-skills-sandbox-sdk
+  source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/sandbox-sdk/references/api-quick-ref.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/cloudflare/skills/sandbox-sdk
+- type: skills
+  slug: skills-sh-inference-sh-3-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh-3/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-3/skills/python-sdk
+  github_stars: 32
+  github_forks: 6
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-hairyf-skills-unjs
+  source_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/unjs/references/core-h3.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hairyf/skills/unjs
