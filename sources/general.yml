@@ -2377,3 +2377,75 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/hairyf/skills/unjs
+- type: skills
+  slug: skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi
+  source_url: https://raw.githubusercontent.com/pulumi/agent-skills/HEAD/migration/skills/pulumi-arm-to-pulumi/arm-import.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/pulumi/agent-skills/pulumi-arm-to-pulumi
+  github_stars: 18
+  github_forks: 1
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-boshu2-agentops-council
+  source_url: https://raw.githubusercontent.com/boshu2/agentops/HEAD/skills/council/references/personas.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/boshu2/agentops/council
+  github_stars: 151
+  github_forks: 14
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-trailofbits-skills-sharp-edges
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
+- type: skills
+  slug: skills-sh-trailofbits-skills-variant-analysis
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/variant-analysis/skills/variant-analysis/METHODOLOGY.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/variant-analysis
+- type: skills
+  slug: skills-sh-apify-agent-skills-apify-actor-development
+  source_url: https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actor-development/references/actor-json.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
+- type: skills
+  slug: skills-sh-trailofbits-skills-solana-vulnerability-scanner
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/solana-vulnerability-scanner/resources/VULNERABILITY_PATTERNS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/solana-vulnerability-scanner
+- type: skills
+  slug: skills-sh-planetscale-database-skills-postgres
+  source_url: https://raw.githubusercontent.com/planetscale/database-skills/main/skills/postgres/references/schema-design.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/planetscale/database-skills/postgres
+- type: skills
+  slug: skills-sh-trailofbits-skills-insecure-defaults
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/insecure-defaults/skills/insecure-defaults/references/examples.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/insecure-defaults
+- type: skills
+  slug: skills-sh-actionbook-actionbook-actionbook
+  source_url: https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
+  github_stars: 1186
+  github_forks: 88
+  github_is_organization: true
