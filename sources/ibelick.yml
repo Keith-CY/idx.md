@@ -17,7 +17,7 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
-  github_stars: 841
+  github_stars: 849
   github_forks: 37
   github_is_organization: false
 - type: skills
@@ -27,7 +27,7 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
-  github_stars: 841
+  github_stars: 849
   github_forks: 37
   github_is_organization: false
 - type: skills
@@ -37,7 +37,7 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
-  github_stars: 841
+  github_stars: 849
   github_forks: 37
   github_is_organization: false
 - type: skills
@@ -47,6 +47,6 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md
-  github_stars: 841
+  github_stars: 849
   github_forks: 37
   github_is_organization: false
