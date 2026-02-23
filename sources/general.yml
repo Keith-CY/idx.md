@@ -2377,3 +2377,77 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/hairyf/skills/unjs
+- type: skills
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-messaging
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-messaging/references/service-troubleshooting.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging
+  github_stars: 114
+  github_forks: 72
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-callstackincubator-agent-device-agent-device
+  source_url: https://raw.githubusercontent.com/callstackincubator/agent-device/HEAD/skills/agent-device/references/snapshot-refs.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
+- type: skills
+  slug: skills-sh-daleseo-korean-skills-grammar-checker
+  source_url: https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/grammar-checker/references/rules.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/daleseo/korean-skills/grammar-checker
+  github_stars: 7
+  github_forks: 0
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-cazala-webgpu-skill-webgpu
+  source_url: https://raw.githubusercontent.com/cazala/webgpu-skill/HEAD/REFERENCE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/cazala/webgpu-skill/webgpu
+  github_stars: 10
+  github_forks: 0
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-apollographql-skills-apollo-server
+  source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-server/references/resolvers.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apollographql/skills/apollo-server
+  github_stars: 25
+  github_forks: 3
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-assistant-ui-skills-assistant-ui
+  source_url: https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
+  github_stars: 5
+  github_forks: 2
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-insecure-defaults
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/insecure-defaults/skills/insecure-defaults/references/examples.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/insecure-defaults
+- type: skills
+  slug: skills-sh-actionbook-actionbook-actionbook
+  source_url: https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
+  github_stars: 1186
+  github_forks: 88
+  github_is_organization: true
