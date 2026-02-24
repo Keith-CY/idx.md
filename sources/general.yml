@@ -2633,3 +2633,1098 @@
     - skills-sh
     - skills-sh-probed
   upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
+- type: skills
+  slug: knowledge-work-plugins-legal-commands-compliance-check
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/compliance-check.md
+  title: compliance-check
+  summary: Run a compliance check on a proposed action, product feature, or
+    business initiative
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-commands
+    - plugin-command
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/compliance-check.md
+- type: skills
+  slug: knowledge-work-plugins-legal-commands-signature-request
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/signature-request.md
+  title: signature-request
+  summary: Prepare and route a document for e-signature
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-commands
+    - plugin-command
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/signature-request.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-design-handoff-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-handoff/SKILL.md
+  title: design-handoff
+  summary: Create comprehensive developer handoff documentation from designs.
+    Trigger with "handoff to engineering", "developer specs", "implementation
+    notes", "design specs for developers", or when a design needs to be
+    translated into detailed implementation guidance.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-handoff/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-ux-writing-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/ux-writing/SKILL.md
+  title: ux-writing
+  summary: Write effective microcopy for user interfaces. Trigger with "write copy
+    for", "help with UX copy", "what should this button say", "error message
+    for", "empty state copy", or when the user needs help with any interface
+    text.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/ux-writing/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-design-critique-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-critique/SKILL.md
+  title: design-critique
+  summary: Evaluate designs for usability, visual hierarchy, consistency, and
+    adherence to design principles. Trigger with "what do you think of this
+    design", "give me feedback on", "critique this", "review this mockup", or
+    when the user shares a design and asks for opinions.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-critique/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-design-system-management-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-system-management/SKILL.md
+  title: design-system-management
+  summary: Manage design tokens, component libraries, and pattern documentation.
+    Trigger with "design system", "component library", "design tokens", "style
+    guide", or when the user asks about maintaining consistency across designs.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-system-management/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-user-research-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/user-research/SKILL.md
+  title: user-research
+  summary: Plan, conduct, and synthesize user research. Trigger with "user
+    research plan", "interview guide", "usability test", "survey design",
+    "research questions", or when the user needs help with any aspect of
+    understanding their users through research.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/user-research/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-accessibility-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/accessibility-review/SKILL.md
+  title: accessibility-review
+  summary: Audit designs and code for WCAG 2.1 AA compliance. Trigger with "is
+    this accessible", "accessibility check", "WCAG audit", "can screen readers
+    use this", "color contrast", or when the user asks about making designs or
+    code accessible to all users.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/accessibility-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-commands-accessibility
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/accessibility.md
+  title: accessibility
+  summary: Run a WCAG accessibility audit on a design or page
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/accessibility.md
+- type: skills
+  slug: knowledge-work-plugins-design-commands-critique
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/critique.md
+  title: critique
+  summary: Get structured design feedback on usability, hierarchy, and consistency
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/critique.md
+- type: skills
+  slug: knowledge-work-plugins-design-commands-design-system
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/design-system.md
+  title: design-system
+  summary: Audit, document, or extend your design system
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/design-system.md
+- type: skills
+  slug: knowledge-work-plugins-design-commands-research-synthesis
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/research-synthesis.md
+  title: research-synthesis
+  summary: Synthesize user research into themes, insights, and recommendations
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/research-synthesis.md
+- type: skills
+  slug: knowledge-work-plugins-design-commands-handoff
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/handoff.md
+  title: handoff
+  summary: Generate developer handoff specs from a design
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/handoff.md
+- type: skills
+  slug: knowledge-work-plugins-design-commands-ux-copy
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/ux-copy.md
+  title: ux-copy
+  summary: Write or review UX copy — microcopy, error messages, empty states, CTAs
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/ux-copy.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-resource-planning-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/resource-planning/SKILL.md
+  title: resource-planning
+  summary: Plan and optimize resource allocation. Trigger with "resource
+    planning", "capacity", "utilization", "staffing plan", "who should work on
+    what", "we're stretched thin", or when the user needs help allocating
+    people, budget, or time across projects and teams.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/resource-planning/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-vendor-management-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/vendor-management/SKILL.md
+  title: vendor-management
+  summary: Evaluate, compare, and manage vendor relationships. Trigger with
+    "evaluate this vendor", "compare vendors", "vendor review", "should we
+    renew", "RFP", or when the user is making procurement or vendor decisions.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/vendor-management/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-risk-assessment-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/risk-assessment/SKILL.md
+  title: risk-assessment
+  summary: Identify, assess, and mitigate operational risks. Trigger with "what
+    are the risks", "risk assessment", "risk register", "what could go wrong",
+    or when the user is evaluating risks associated with a project, vendor,
+    process, or decision.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/risk-assessment/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-change-management-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/change-management/SKILL.md
+  title: change-management
+  summary: Plan and execute organizational or technical changes. Trigger with
+    "we're changing", "rolling out", "migration plan", "how do we communicate
+    this change", "change management plan", or when the user is planning a
+    change that affects people, processes, or systems.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/change-management/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-process-optimization-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/process-optimization/SKILL.md
+  title: process-optimization
+  summary: Analyze and improve business processes. Trigger with "this process is
+    slow", "how can we improve", "streamline this workflow", "too many steps",
+    "bottleneck", or when the user describes an inefficient process they want to
+    fix.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/process-optimization/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-compliance-tracking-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/compliance-tracking/SKILL.md
+  title: compliance-tracking
+  summary: Track compliance requirements and audit readiness. Trigger with
+    "compliance", "audit prep", "SOC 2", "ISO 27001", "GDPR", "regulatory
+    requirement", or when the user needs help tracking, preparing for, or
+    documenting compliance activities.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/compliance-tracking/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-commands-runbook
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/runbook.md
+  title: runbook
+  summary: Create or update an operational runbook
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/runbook.md
+- type: skills
+  slug: knowledge-work-plugins-operations-commands-process-doc
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/process-doc.md
+  title: process-doc
+  summary: Document a business process — flowcharts, RACI, and SOPs
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/process-doc.md
+- type: skills
+  slug: knowledge-work-plugins-operations-commands-change-request
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/change-request.md
+  title: change-request
+  summary: Create a change management request with impact analysis and rollback plan
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/change-request.md
+- type: skills
+  slug: knowledge-work-plugins-operations-commands-status-report
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/status-report.md
+  title: status-report
+  summary: Generate a status report with KPIs, risks, and action items
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/status-report.md
+- type: skills
+  slug: knowledge-work-plugins-operations-commands-vendor-review
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/vendor-review.md
+  title: vendor-review
+  summary: Evaluate a vendor — cost analysis, risk assessment, and recommendation
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/vendor-review.md
+- type: skills
+  slug: knowledge-work-plugins-operations-commands-capacity-plan
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/capacity-plan.md
+  title: capacity-plan
+  summary: Plan resource capacity — workload analysis and utilization forecasting
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/capacity-plan.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-interview-prep-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/interview-prep/SKILL.md
+  title: interview-prep
+  summary: Create structured interview plans with competency-based questions and
+    scorecards. Trigger with "interview plan for", "interview questions for",
+    "how should we interview", "scorecard for", or when the user is preparing to
+    interview candidates.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/interview-prep/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-people-analytics-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/people-analytics/SKILL.md
+  title: people-analytics
+  summary: Analyze workforce data — attrition, engagement, diversity, and
+    productivity. Trigger with "attrition rate", "turnover analysis", "diversity
+    metrics", "engagement data", "retention risk", or when the user wants to
+    understand workforce trends from HR data.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/people-analytics/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-compensation-benchmarking-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/compensation-benchmarking/SKILL.md
+  title: compensation-benchmarking
+  summary: Benchmark compensation against market data. Trigger with "what should
+    we pay", "comp benchmark", "market rate for", "salary range for", "is this
+    offer competitive", or when the user needs help evaluating or setting
+    compensation levels.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/compensation-benchmarking/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-employee-handbook-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/employee-handbook/SKILL.md
+  title: employee-handbook
+  summary: Answer questions about company policies, benefits, and procedures.
+    Trigger with "what's our policy on", "how does PTO work", "benefits
+    question", "expense policy", "remote work policy", or any question about
+    company rules, perks, or procedures.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/employee-handbook/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-org-planning-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/org-planning/SKILL.md
+  title: org-planning
+  summary: Headcount planning, org design, and team structure optimization.
+    Trigger with "org planning", "headcount plan", "team structure", "reorg",
+    "who should we hire next", or when the user is thinking about team size,
+    reporting structure, or organizational design.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/org-planning/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/recruiting-pipeline/SKILL.md
+  title: recruiting-pipeline
+  summary: Track and manage recruiting pipeline stages. Trigger with "recruiting
+    update", "candidate pipeline", "how many candidates", "hiring status", or
+    when the user discusses sourcing, screening, interviewing, or extending
+    offers.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/recruiting-pipeline/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-commands-onboarding
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/onboarding.md
+  title: onboarding
+  summary: Generate an onboarding checklist and first-week plan for a new hire
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/onboarding.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-commands-draft-offer
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/draft-offer.md
+  title: draft-offer
+  summary: Draft an offer letter with comp details and terms
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/draft-offer.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-commands-performance-review
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/performance-review.md
+  title: performance-review
+  summary: Structure a performance review with self-assessment, manager template,
+    and calibration prep
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/performance-review.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-commands-policy-lookup
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/policy-lookup.md
+  title: policy-lookup
+  summary: Find and explain company policies
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/policy-lookup.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-commands-people-report
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/people-report.md
+  title: people-report
+  summary: Generate headcount, attrition, diversity, or org health reports
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/people-report.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-commands-comp-analysis
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/comp-analysis.md
+  title: comp-analysis
+  summary: Analyze compensation — benchmarking, band placement, and equity modeling
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/comp-analysis.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-testing-strategy-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/testing-strategy/SKILL.md
+  title: testing-strategy
+  summary: Design test strategies and test plans. Trigger with "how should we
+    test", "test strategy for", "write tests for", "test plan", "what tests do
+    we need", or when the user needs help with testing approaches, coverage, or
+    test architecture.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/testing-strategy/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-code-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/code-review/SKILL.md
+  title: code-review
+  summary: Review code for bugs, security vulnerabilities, performance issues, and
+    maintainability. Trigger with "review this code", "check this PR", "look at
+    this diff", "is this code safe?", or when the user shares code and asks for
+    feedback.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/code-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-tech-debt-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/tech-debt/SKILL.md
+  title: tech-debt
+  summary: Identify, categorize, and prioritize technical debt. Trigger with "tech
+    debt", "technical debt audit", "what should we refactor", "code health", or
+    when the user asks about code quality, refactoring priorities, or
+    maintenance backlog.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/tech-debt/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-documentation-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/documentation/SKILL.md
+  title: documentation
+  summary: Write and maintain technical documentation. Trigger with "write docs
+    for", "document this", "create a README", "write a runbook", "onboarding
+    guide", or when the user needs help with any form of technical writing — API
+    docs, architecture docs, or operational runbooks.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/documentation/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-system-design-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/system-design/SKILL.md
+  title: system-design
+  summary: Design systems, services, and architectures. Trigger with "design a
+    system for", "how should we architect", "system design for", "what's the
+    right architecture for", or when the user needs help with API design, data
+    modeling, or service boundaries.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/system-design/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-incident-response-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/incident-response/SKILL.md
+  title: incident-response
+  summary: Triage and manage production incidents. Trigger with "we have an
+    incident", "production is down", "something is broken", "there's an outage",
+    "SEV1", or when the user describes a production issue needing immediate
+    response.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/incident-response/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-commands-deploy-checklist
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/deploy-checklist.md
+  title: deploy-checklist
+  summary: Pre-deployment verification checklist
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/deploy-checklist.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-commands-review
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/review.md
+  title: review
+  summary: Review code changes for security, performance, and correctness
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/review.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-commands-standup
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/standup.md
+  title: standup
+  summary: Generate a standup update from recent activity
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/standup.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-commands-architecture
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/architecture.md
+  title: architecture
+  summary: Create or evaluate an architecture decision record (ADR)
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/architecture.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-commands-debug
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/debug.md
+  title: debug
+  summary: Structured debugging session — reproduce, isolate, diagnose, and fix
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/debug.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-commands-incident
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/incident.md
+  title: incident
+  summary: Run an incident response workflow — triage, communicate, and write postmortem
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/incident.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-skills-call-prep-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/call-prep/SKILL.md
+  title: call-prep
+  summary: Prepare for a customer or prospect call using Common Room signals.
+    Triggers on 'prep me for my call with [company]', 'prepare for a meeting
+    with [company]', 'what should I know before talking to [company]', or any
+    call preparation request.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-skills-prospect-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/prospect/SKILL.md
+  title: prospect
+  summary: Build targeted account or contact lists using Common Room's Prospector.
+    Triggers on 'find companies that match [criteria]', 'build a prospect list',
+    'find contacts at [type of company]', 'show me companies hiring [role]', or
+    any list-building request.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/prospect/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-skills-account-research-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/account-research/SKILL.md
+  title: account-research
+  summary: Research a company using Common Room data. Triggers on 'research
+    [company]', 'tell me about [domain]', 'pull up signals for [account]',
+    'what's going on with [company]', or any account-level question.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/account-research/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-skills-compose-outreach-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/compose-outreach/SKILL.md
+  title: compose-outreach
+  summary: Generate personalized outreach messages using Common Room signals.
+    Triggers on 'draft outreach to [person]', 'write an email to [name]',
+    'compose a message for [contact]', or any outreach drafting request.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/compose-outreach/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/contact-research/SKILL.md
+  title: contact-research
+  summary: Research a specific person using Common Room data. Triggers on 'who is
+    [name]', 'look up [email]', 'research [contact]', 'is [name] a warm lead',
+    or any contact-level question.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/contact-research/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/weekly-prep-brief/SKILL.md
+  title: weekly-prep-brief
+  summary: Generate a comprehensive weekly briefing for all external calls in the
+    next 7 days. Triggers on 'weekly prep brief', 'prepare my week', 'what calls
+    do I have this week', 'Monday prep', or any weekly planning request.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/weekly-prep-brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-commands-generate-account-plan
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/commands/generate-account-plan.md
+  title: generate-account-plan
+  summary: Generate a comprehensive strategic account plan
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/commands/generate-account-plan.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-common-room-commands-weekly-brief
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/commands/weekly-brief.md
+  title: weekly-brief
+  summary: Generate a weekly prep briefing from your calendar and Common Room
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-common-room
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/commands/weekly-brief.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-apollo-skills-enrich-lead-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/enrich-lead/SKILL.md
+  title: enrich-lead
+  summary: Instant lead enrichment. Drop a name, company, LinkedIn URL, or email
+    and get the full contact card with email, phone, title, company intel, and
+    next actions.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-apollo
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo/skills/enrich-lead/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/sequence-load/SKILL.md
+  title: sequence-load
+  summary: Find leads matching criteria and bulk-add them to an Apollo outreach
+    sequence. Handles enrichment, contact creation, deduplication, and
+    enrollment in one flow.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-apollo
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo/skills/sequence-load/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-apollo-skills-prospect-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/prospect/SKILL.md
+  title: prospect
+  summary: Full ICP-to-leads pipeline. Describe your ideal customer in plain
+    English and get a ranked table of enriched decision-maker leads with emails
+    and phone numbers.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-apollo
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo/skills/prospect/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md
+  title: brand-voice-enforcement
+  summary: This skill applies brand guidelines to content creation. It should be
+    used when the user asks to "write an email", "draft a proposal", "create a
+    pitch deck", "write a LinkedIn post", "draft a presentation", "write a Slack
+    message", "draft sales content", or any content creation request where brand
+    voice should be applied. Also triggers on "on-brand", "brand voice",
+    "enforce voice", "apply brand guidelines", "brand-aligned content", "write
+    in our voice", "use our brand tone", "make this sound like us", "rewrite
+    this in our tone", or "this doesn't sound on-brand". Not for generating
+    guidelines from scratch (use guideline-generation) or discovering brand
+    materials (use discover-brand).
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/guideline-generation/SKILL.md
+  title: guideline-generation
+  summary: This skill generates, creates, or builds brand voice guidelines from
+    source materials. It should be used when the user asks to "generate brand
+    guidelines", "create a style guide", "extract brand voice", "create
+    guidelines from calls", "consolidate brand materials", "analyze my sales
+    calls for brand voice", "build a brand playbook from documents", "synthesize
+    a voice and tone guide", or uploads brand documents, transcripts, or meeting
+    recordings for brand analysis. Also triggers when the user has a discovery
+    report and wants to convert it into actionable guidelines.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/guideline-generation/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/discover-brand/SKILL.md
+  title: discover-brand
+  summary: This skill orchestrates autonomous discovery of brand materials across
+    enterprise platforms (Notion, Confluence, Google Drive, Box, SharePoint,
+    Figma, Gong, Granola, Slack). It should be used when the user asks to
+    "discover brand materials", "find brand documents", "search for brand
+    guidelines", "audit brand content", "what brand materials do we have", "find
+    our style guide", "where are our brand docs", "do we have a style guide",
+    "discover brand voice", "brand content audit", or "find brand assets".
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/discover-brand/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-agents-quality-assurance
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/quality-assurance.md
+  title: quality-assurance
+  summary: >-
+    Validates content and brand guidelines against brand standards. Use this
+    agent to check compliance, consistency, completeness, and open question
+    coverage before finalizing output.
+
+    <example> Context: The brand-voice-enforcement skill has generated a cold
+    email and wants to validate it against guidelines before presenting to the
+    user. user: "Check this email against our brand guidelines" assistant: "Let
+    me validate this against your brand guidelines..." <commentary> Content
+    needs validation against brand standards before delivery. The
+    quality-assurance agent performs a fast, structured compliance check.
+    </commentary> </example>
+
+    <example> Context: Brand guidelines were just generated and need validation
+    before presenting. user: "Validate these brand guidelines for completeness
+    and quality" assistant: "Let me check the guidelines for completeness,
+    consistency, and open questions..." <commentary> Generated guidelines need
+    quality validation before presenting to the user. The quality-assurance
+    agent checks completeness, open questions coverage, and PII. </commentary>
+    </example>
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/quality-assurance.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-agents-document-analysis
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/document-analysis.md
+  title: document-analysis
+  summary: >-
+    Analyzes brand documents to extract voice attributes, messaging,
+    terminology, and examples. Use this agent when processing multiple brand
+    documents or performing cross-document pattern recognition.
+
+    <example> Context: The guideline-generation skill has received 5 brand
+    documents to process. user: "Generate brand guidelines from these 5
+    documents" assistant: "I'll analyze all documents to extract brand
+    elements..." <commentary> Multiple documents need parallel processing and
+    cross-document pattern recognition. The document-analysis agent handles
+    heavy parsing efficiently. </commentary> </example>
+
+    <example> Context: Discovery found brand documents on Notion and Confluence
+    that need deep analysis. user: "Analyze the brand materials found during
+    discovery" assistant: "I'll do a deep analysis of each discovered
+    document..." <commentary> Discovery report identified key documents. The
+    document-analysis agent fetches full content from connected platforms and
+    extracts structured brand elements. </commentary> </example>
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/document-analysis.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-agents-content-generation
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/content-generation.md
+  title: content-generation
+  summary: >-
+    Generates brand-aligned sales and marketing content by applying brand
+    guidelines to specific content requests. Use this agent for long-form
+    content, batch generation, or when multiple brand constraints must be
+    balanced simultaneously.
+
+    <example> Context: The brand-voice-enforcement skill needs to generate a
+    detailed enterprise proposal. It delegates to the content-generation agent
+    for long-form, multi-constraint content creation. user: "Write a 5-page
+    proposal for our AI platform at a Fortune 500" assistant: "I'll generate a
+    brand-aligned proposal applying all guidelines..." <commentary> Long-form
+    content requiring simultaneous application of multiple brand constraints.
+    The content-generation agent handles complex generation with thorough
+    validation. </commentary> </example>
+
+    <example> Context: User needs a batch of personalized outreach emails for
+    different personas. user: "Create 5 cold emails for different buyer personas
+    using our brand voice" assistant: "I'll generate brand-aligned emails
+    tailored to each persona..." <commentary> Batch content generation requiring
+    brand consistency across multiple variations. The content-generation agent
+    balances brand constraints with persona-specific adaptation. </commentary>
+    </example>
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/content-generation.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-agents-discover-brand
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/discover-brand.md
+  title: discover-brand
+  summary: >-
+    Autonomously searches enterprise platforms to discover brand-related
+    documents, transcripts, and design assets. Use when the user wants to build
+    brand guidelines but doesn't know where materials are, or wants a
+    comprehensive brand content audit.
+
+    <example> Context: User wants to create brand guidelines but doesn't know
+    what materials exist. user: "I need brand guidelines but our stuff is
+    scattered everywhere — Notion, Confluence, Google Drive, Box..." assistant:
+    "I'll search across your connected platforms to find all brand-related
+    materials." <commentary> User has scattered brand materials across multiple
+    platforms. The discover-brand agent autonomously searches all connected MCP
+    platforms to find and triage brand content. </commentary> </example>
+
+    <example> Context: User wants a brand content audit before generating
+    guidelines. user: "What brand materials do we actually have? Can you find
+    everything?" assistant: "I'll run a comprehensive brand discovery across
+    your connected platforms." <commentary> User wants to understand what brand
+    materials exist. The discover-brand agent searches, categorizes, ranks, and
+    reports on all discovered brand content. </commentary> </example>
+
+    <example> Context: The discover-brand skill delegates deep platform search
+    to this agent. user: "Discover our brand voice" assistant: "I'll search your
+    connected platforms for brand materials..." <commentary> The discover-brand
+    skill orchestrates this agent for the heavy search and triage work.
+    </commentary> </example>
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/discover-brand.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-agents-conversation-analysis
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/conversation-analysis.md
+  title: conversation-analysis
+  summary: >-
+    Analyzes sales call transcripts to extract brand voice patterns, messaging
+    effectiveness, and tone variations. Use this agent when processing multiple
+    transcripts or performing deep pattern recognition across conversations.
+
+    <example> Context: The guideline-generation skill has 10 sales call
+    transcripts to analyze. user: "Generate brand guidelines from my last 10
+    sales calls" assistant: "I'll analyze the transcripts for voice patterns and
+    messaging..." <commentary> Multiple transcripts need deep pattern
+    recognition across conversations. The conversation-analysis agent handles
+    this heavy analysis. </commentary> </example>
+
+    <example> Context: Gong transcripts were found during brand discovery and
+    need analysis. user: "Analyze the Gong calls found during discovery"
+    assistant: "I'll pull the transcripts from Gong and analyze voice
+    patterns..." <commentary> Discovery identified relevant Gong recordings. The
+    conversation-analysis agent fetches transcripts via MCP and performs deep
+    pattern analysis. </commentary> </example>
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/conversation-analysis.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/enforce-voice.md
+  title: enforce-voice
+  summary: Apply brand guidelines to content creation
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/commands/enforce-voice.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-commands-discover-brand
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/discover-brand.md
+  title: discover-brand
+  summary: Search connected platforms for brand materials and produce a discovery report
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/commands/discover-brand.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-brand-voice-commands-generate-guidelines
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/generate-guidelines.md
+  title: generate-guidelines
+  summary: Generate brand voice guidelines from documents, transcripts, discovery
+    reports, or any combination
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-brand-voice
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/commands/generate-guidelines.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-skills-slack-search-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/skills/slack-search/SKILL.md
+  title: slack-search
+  summary: Guidance for effectively searching Slack to find messages, files,
+    channels, and people
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/skills/slack-search/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-skills-slack-messaging-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/skills/slack-messaging/SKILL.md
+  title: slack-messaging
+  summary: Guidance for composing well-formatted, effective Slack messages using
+    mrkdwn syntax
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/skills/slack-messaging/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-commands-summarize-channel
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/summarize-channel.md
+  title: summarize-channel
+  summary: Summarize recent activity in a Slack channel
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/summarize-channel.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-commands-standup
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/standup.md
+  title: standup
+  summary: Generate a standup update based on your recent Slack activity
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/standup.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-commands-find-discussions
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/find-discussions.md
+  title: find-discussions
+  summary: Find discussions about a specific topic across Slack channels
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/find-discussions.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-commands-channel-digest
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/channel-digest.md
+  title: channel-digest
+  summary: Get a digest of recent activity across multiple Slack channels
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/channel-digest.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-slack-commands-draft-announcement
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/draft-announcement.md
+  title: draft-announcement
+  summary: Draft a well-formatted Slack announcement and save it as a draft
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-slack
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/draft-announcement.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-commands-sprint-planning
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/sprint-planning.md
+  title: sprint-planning
+  summary: Plan a sprint — scope work, estimate capacity, set goals, and draft a
+    sprint plan
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-commands
+    - plugin-command
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/sprint-planning.md
