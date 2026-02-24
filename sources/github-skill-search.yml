@@ -56,6 +56,18 @@
     - github-repo-hf-mem
   upstream_ref: https://github.com/alvarobartt/hf-mem/blob/main/SKILL.md
 - type: skills
+  slug: github-skill-anthropics-knowledge-work-plugins-call-prep
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/call-prep/SKILL.md
+  title: call-prep
+  summary: Prepare for a customer or prospect call using Common Room signals. Triggers on 'prep me for my call with [company]', 'prepare for a meeting with [company]', 'what should I know before talking to [company]', or any call preparation request.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-anthropics
+    - github-repo-knowledge-work-plugins
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
+- type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
   title: browserwing-executor
@@ -200,6 +212,18 @@
     - github-repo-drift
   upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/skills/sse-resilience/SKILL.md
 - type: skills
+  slug: github-skill-dadbodgeoff-drift-sse-resilience-8c48bbc6
+  source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/drift v1 depreciated/skills/sse-resilience/SKILL.md
+  title: sse-resilience
+  summary: Redis-backed SSE stream management with stream registry, heartbeat monitoring, completion store for terminal events, and automatic orphan cleanup via background guardian process.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dadbodgeoff
+    - github-repo-drift
+  upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1 depreciated/skills/sse-resilience/SKILL.md
+- type: skills
   slug: github-skill-danielmiessler-personal-ai-infrastructure-prompting
   source_url: https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md
   title: Prompting
@@ -296,6 +320,18 @@
     - github-repo-eliza
   upstream_ref: https://github.com/elizaOS/eliza/blob/develop/packages/skills/skills/blucli/SKILL.md
 - type: skills
+  slug: github-skill-epicweb-dev-epic-stack-epic-ui-guidelines
+  source_url: https://raw.githubusercontent.com/epicweb-dev/epic-stack/main/docs/skills/epic-ui-guidelines/SKILL.md
+  title: epic-ui-guidelines
+  summary: Guide on UI/UX guidelines, accessibility, and component usage for Epic Stack
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-epicweb-dev
+    - github-repo-epic-stack
+  upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
+- type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
   title: websocket-engineer
@@ -387,6 +423,21 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
+  title: soc2-compliance-checker
+  summary: |-
+    Soc2 Compliance Checker - Auto-activating skill for Security Advanced.
+    Triggers on: soc2 compliance checker, soc2 compliance checker
+    Part of the Security Advanced skill category.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md
   title: vercel-upgrade-migration
@@ -454,6 +505,18 @@
     - github-owner-kyegomez
     - github-repo-swarms
   upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
+- type: skills
+  slug: github-skill-lobehub-lobehub-data-fetching
+  source_url: https://raw.githubusercontent.com/lobehub/lobehub/canary/.agents/skills/data-fetching/SKILL.md
+  title: data-fetching
+  summary: Data fetching architecture guide using Service layer + Zustand Store + SWR. Use when implementing data fetching, creating services, working with store hooks, or migrating from useEffect. Triggers on data loading, API calls, service creation, or store data fetching tasks.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-lobehub
+    - github-repo-lobehub
+  upstream_ref: https://github.com/lobehub/lobehub/blob/canary/.agents/skills/data-fetching/SKILL.md
 - type: skills
   slug: github-skill-longbridge-gpui-component-generate-component-story
   source_url: https://raw.githubusercontent.com/longbridge/gpui-component/main/.claude/skills/generate-component-story/SKILL.md
@@ -749,6 +812,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-origram
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matbalez/origram/SKILL.md
+  title: origram
+  summary: Bot-friendly photo sharing webservice via HTTP 402 protocol. Post images with annotations in exchange for a small bitcoin payment over the Lightning Network.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-finance
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/matbalez/origram/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-physics
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/physics/SKILL.md
