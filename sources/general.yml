@@ -2451,3 +2451,185 @@
   github_stars: 1186
   github_forks: 88
   github_is_organization: true
+- type: skills
+  slug: skills-sh-inference-sh-6-skills-agent-tools
+  source_url: https://raw.githubusercontent.com/inference-sh-6/skills/HEAD/skills/agent-tools/references/authentication.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-6/skills/agent-tools
+  github_stars: 44
+  github_forks: 7
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-competitor-alternatives
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/competitor-alternatives/references/templates.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives
+  github_stars: 8840
+  github_forks: 1172
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-ab-test-setup
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ab-test-setup/references/sample-size-guide.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
+  github_stars: 8840
+  github_forks: 1172
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-addyosmani-web-quality-skills-accessibility
+  source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/web-quality-audit/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/addyosmani/web-quality-skills/accessibility
+  github_stars: 573
+  github_forks: 61
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-elevenlabs-skills-text-to-speech
+  source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/text-to-speech/references/installation.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/elevenlabs/skills/text-to-speech
+- type: skills
+  slug: skills-sh-letz-ai-letzai-skill-letzai-api
+  source_url: https://raw.githubusercontent.com/letz-ai/letzai-skill/HEAD/examples/polling_pattern.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
+- type: skills
+  slug: skills-sh-cloudflare-skills-agents-sdk
+  source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/agents-sdk/references/workflows.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
+- type: skills
+  slug: skills-sh-elevenlabs-skills-speech-to-text
+  source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/speech-to-text/references/installation.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
+- type: skills
+  slug: skills-sh-payloadcms-skills-payload
+  source_url: https://raw.githubusercontent.com/payloadcms/skills/HEAD/skills/payload/reference/FIELDS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/payloadcms/skills/payload
+- type: skills
+  slug: skills-sh-inference-sh-6-skills-javascript-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh-6/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-6/skills/javascript-sdk
+  github_stars: 44
+  github_forks: 7
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-inference-sh-6-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/inference-sh-6/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inference-sh-6/skills/python-sdk
+  github_stars: 44
+  github_forks: 7
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-jezweb-claude-skills-react-native-expo
+  source_url: https://raw.githubusercontent.com/expo/fyi/main/expo-54-reanimated.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jezweb/claude-skills/react-native-expo
+- type: skills
+  slug: skills-sh-trailofbits-skills-differential-review
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/differential-review/skills/differential-review/methodology.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/differential-review
+- type: skills
+  slug: skills-sh-trailofbits-skills-spec-to-code-compliance
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/resources/IR_EXAMPLES.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/spec-to-code-compliance
+- type: skills
+  slug: skills-sh-ccheney-robust-skills-clean-ddd-hexagonal
+  source_url: https://raw.githubusercontent.com/ccheney/robust-skills/HEAD/skills/clean-ddd-hexagonal/references/LAYERS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/ccheney/robust-skills/clean-ddd-hexagonal
+- type: skills
+  slug: skills-sh-base44-skills-base44-sdk
+  source_url: https://raw.githubusercontent.com/base44/skills/HEAD/skills/base44-sdk/references/QUICK_REFERENCE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/base44/skills/base44-sdk
+- type: skills
+  slug: skills-sh-apify-agent-skills-apify-actorization
+  source_url: https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actorization/references/js-ts-actorization.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apify/agent-skills/apify-actorization
+- type: skills
+  slug: skills-sh-apollographql-skills-apollo-mcp-server
+  source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-mcp-server/references/tools.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
+- type: skills
+  slug: skills-sh-tursodatabase-turso-code-quality
+  source_url: https://raw.githubusercontent.com/tursodatabase/turso/HEAD/.claude/skills/async-io-model/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/tursodatabase/turso/code-quality
+- type: skills
+  slug: skills-sh-callstackincubator-agent-skills-upgrading-react-native
+  source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/upgrading-react-native/references/upgrading-react-native.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/callstackincubator/agent-skills/upgrading-react-native
+  github_stars: 914
+  github_forks: 49
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-resend-resend-skills-send-email
+  source_url: https://raw.githubusercontent.com/resend/resend-skills/HEAD/send-email/references/installation.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/resend/resend-skills/send-email
+- type: skills
+  slug: skills-sh-jezweb-claude-skills-claude-agent-sdk
+  source_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
+- type: skills
+  slug: skills-sh-letz-ai-letzai-skill-letzai-api-cd10df60
+  source_url: https://raw.githubusercontent.com/letz-ai/letzai-skill/main/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-probed
+  upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
