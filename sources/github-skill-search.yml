@@ -116,6 +116,18 @@
     - github-repo-awesome-claude-skills
   upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/forcemanager-automation/SKILL.md
 - type: skills
+  slug: github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa
+  source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/forcemanager-automation/SKILL.md
+  title: forcemanager-automation
+  summary: Automate Forcemanager tasks via Rube MCP (Composio). Always search tools first for current schemas.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-composiohq
+    - github-repo-awesome-claude-skills
+  upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/forcemanager-automation/SKILL.md
+- type: skills
   slug: github-skill-composiohq-awesome-claude-skills-ip2location-io-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/ip2location-io-automation/SKILL.md
   title: ip2location-io-automation
@@ -175,6 +187,18 @@
     - github-owner-composiohq
     - github-repo-awesome-claude-skills
   upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/mezmo-automation/SKILL.md
+- type: skills
+  slug: github-skill-coreyhaines31-marketingskills-programmatic-seo
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/programmatic-seo/SKILL.md
+  title: programmatic-seo
+  summary: When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] + [city] pages," "comparison pages," "integration pages," or "building many pages for SEO." For auditing existing SEO issues, see seo-audit.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-coreyhaines31
+    - github-repo-marketingskills
+  upstream_ref: https://github.com/coreyhaines31/marketingskills/blob/main/skills/programmatic-seo/SKILL.md
 - type: skills
   slug: github-skill-dadbodgeoff-drift-deduplication
   source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/skills/deduplication/SKILL.md
@@ -332,6 +356,18 @@
     - github-repo-epic-stack
   upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
 - type: skills
+  slug: github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+  title: copilot-instructions-blueprint-generator
+  summary: Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-github
+    - github-repo-awesome-copilot
+  upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+- type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
   title: websocket-engineer
@@ -438,6 +474,23 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/twinmind-pack/skills/twinmind-security-basics/SKILL.md
+  title: twinmind-security-basics
+  summary: |-
+    Implement security best practices for TwinMind integrations.
+    Use when securing API keys, configuring privacy settings,
+    or implementing data protection for meeting recordings.
+    Trigger with phrases like "twinmind security", "secure twinmind",
+    "twinmind privacy", "protect twinmind data", "twinmind api key security".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/twinmind-pack/skills/twinmind-security-basics/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md
   title: vercel-upgrade-migration
@@ -541,6 +594,18 @@
     - github-owner-luongnv89
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
+- type: skills
+  slug: github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns
+  source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
+  title: sadd:multi-agent-patterns
+  summary: Design multi-agent architectures for complex tasks. Use when single-agent context limits are exceeded, when tasks decompose naturally into subtasks, or when specializing agents improves quality.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-neolabhq
+    - github-repo-context-engineering-kit
+  upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
 - type: skills
   slug: github-skill-novuhq-novu-react-email
   source_url: https://raw.githubusercontent.com/novuhq/novu/next/.agents/skills/react-email/SKILL.md
@@ -765,6 +830,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/journal/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-leak
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eucalyptus-viminalis/leak/SKILL.md
+  title: leak
+  summary: Compatibility stub for migrating from the legacy mixed leak skill to split hardened skills.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/eucalyptus-viminalis/leak/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-moltmoon-sdk
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md
   title: moltmoon-sdk
@@ -801,6 +878,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satbot-mdk/moneydevkit/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-octoclaw
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peterhanily/octoclaw-print/SKILL.md
+  title: octoclaw
+  summary: Control OctoPrint 3D printer — monitor status, capture webcam snapshots, manage prints, analyze gcode, and detect errors. Use when the user asks about their 3D printer, print status, filament, temperatures, or wants to start/pause/cancel a print.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/peterhanily/octoclaw-print/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-openclaw-backup-optimized
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md
   title: openclaw-backup-optimized
@@ -836,6 +925,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/physics/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-qa-check
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/qa-check/SKILL.md
+  title: qa-check
+  summary: Mandatory quality assurance for all dev work before publishing. Use BEFORE deploying any project to production. Validates build, tests browser functionality, checks mobile responsiveness, and ensures no broken links/images.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/gizmo-dev/qa-check/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-seo-content-writer
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaron-he-zhu/seo-content-writer/SKILL.md
@@ -896,6 +997,30 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/hexiaochun/vidu-video/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-wilma-triage
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aikarjal/wilma-triage/SKILL.md
+  title: wilma-triage
+  summary: Daily triage of Wilma school notifications for Finnish parents. Fetches exams, messages, news, schedules, and homework — filters for actionable items, syncs exams to Google Calendar, and reports via chat. Requires the `wilma` skill and `gog` CLI (or `gog` skill from ClawHub) for calendar access.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-calendar-scheduling
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
+- type: skills
+  slug: github-skill-prompt-security-clawsec-claw-release
+  source_url: https://raw.githubusercontent.com/prompt-security/clawsec/main/skills/claw-release/SKILL.md
+  title: claw-release
+  summary: Release automation for Claw skills and website. Guides through version bumping, tagging, and release verification.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-prompt-security
+    - github-repo-clawsec
+  upstream_ref: https://github.com/prompt-security/clawsec/blob/main/skills/claw-release/SKILL.md
 - type: skills
   slug: github-skill-quickwit-oss-quickwit-simple-pr
   source_url: https://raw.githubusercontent.com/quickwit-oss/quickwit/main/.claude/skills/simple-pr/SKILL.md
