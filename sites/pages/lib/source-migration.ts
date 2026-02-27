@@ -156,7 +156,7 @@ export async function collectExistingUrls(
   const glob = new Bun.Glob("*.yml");
 
   try {
-    for await (const match of glob.scan({ cwd: sourcesDir })) {
+    for await (const match of glob.scan({ cwd: sourcesDir, onlyFiles: true })) {
       const filePath = resolve(sourcesDir, match);
       if (filePath === exclude) {
         continue;
