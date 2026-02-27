@@ -1,5 +1,4 @@
 import { createHash } from "crypto";
-import { readdir } from "fs/promises";
 import { resolve } from "path";
 import { stringify } from "yaml";
 import { parseSourcesText, type SourceEntry } from "./registry";
@@ -153,30 +152,26 @@ export async function collectExistingUrls(
   nextEntries: SourceEntry[],
 ): Promise<Set<string>> {
   const urls = new Set(nextEntries.map((entry) => entry.source_url));
-  let dirents: Array<{ name: string; isFile: () => boolean }> = [];
+  const exclude = resolve(excludePath);
+  const glob = new Bun.Glob("*.yml");
+
   try {
-    dirents = await readdir(sourcesDir, { withFileTypes: true });
+    for await (const match of glob.scan({ cwd: sourcesDir, onlyFiles: true })) {
+      const filePath = resolve(sourcesDir, match);
+      if (filePath === exclude) {
+        continue;
+      }
+      const entries = await readSourcesFile(filePath);
+      if (!entries) {
+        continue;
+      }
+      for (const entry of entries) {
+        urls.add(entry.source_url);
+      }
+    }
   } catch (error) {
     console.warn(`Warning: could not read sources directory '${sourcesDir}'`, error);
     return urls;
-  }
-
-  const exclude = resolve(excludePath);
-  for (const dirent of dirents) {
-    if (!dirent.isFile() || !dirent.name.endsWith(".yml")) {
-      continue;
-    }
-    const filePath = resolve(sourcesDir, dirent.name);
-    if (filePath === exclude) {
-      continue;
-    }
-    const entries = await readSourcesFile(filePath);
-    if (!entries) {
-      continue;
-    }
-    for (const entry of entries) {
-      urls.add(entry.source_url);
-    }
   }
 
   return urls;
