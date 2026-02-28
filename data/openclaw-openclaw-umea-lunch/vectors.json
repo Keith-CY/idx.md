@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-umea-lunch",
+  "generated_at": "2026-02-28T14:46:51.829Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-umea-lunch#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-umea-lunch/HEAD.md",
+      "text": "title: umea-lunch\nsummary: Get today's lunch menus from restaurants in Umeå.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/umea-lunch/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-umea-lunch",
+        "topic": "openclaw-openclaw-umea-lunch",
+        "type": "skills",
+        "title": "umea-lunch",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/umea-lunch/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:51.829Z",
+        "content_sha256": "cb2e79323642863782eba74525c384ae6ef8e0bab53ffe22abb9161b7040ed52"
+      }
+    }
+  ]
+}

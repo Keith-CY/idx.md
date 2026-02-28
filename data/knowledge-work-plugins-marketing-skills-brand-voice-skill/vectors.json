@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-marketing-skills-brand-voice-skill",
+  "generated_at": "2026-02-28T14:45:30.355Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-marketing-skills-brand-voice-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-marketing-skills-brand-voice-skill/HEAD.md",
+      "text": "title: brand-voice\nsummary: Apply and enforce brand voice, style guide, and messaging pillars across content. Use when reviewing content for brand consistency, documenting a brand voice, adapting tone for different audiences, or checking terminology and style guide compliance.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-marketing, plugin-component-skills, plugin-skill, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-voice/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-marketing-skills-brand-voice-skill",
+        "topic": "knowledge-work-plugins-marketing-skills-brand-voice-skill",
+        "type": "skills",
+        "title": "brand-voice",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-marketing",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-voice/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:30.355Z",
+        "content_sha256": "e88cbe7a68826350cde2b3050b4dfd4caa1ce41dd2d80b7ed47d79c39c7e7d35"
+      }
+    }
+  ]
+}

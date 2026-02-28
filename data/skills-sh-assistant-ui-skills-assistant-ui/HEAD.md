@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md
 license: ""
 upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.119Z
-content_sha256: bfe05a0e377441892e99381bfbaaf8a80dc0de954b31668fb2528cce9755a9c3
+github_stars: 5
+github_forks: 2
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.136Z
+content_sha256: 1e9a7f17bb617b43aa95aa0d6544d640070a5a6d104ffaedcc4b3795b489d225
 ---

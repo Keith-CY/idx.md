@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-obsidian",
+  "generated_at": "2026-02-28T14:46:28.181Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-obsidian#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-obsidian/HEAD.md",
+      "text": "title: obsidian\nsummary: Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/obsidian/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-obsidian",
+        "topic": "openclaw-openclaw-obsidian",
+        "type": "skills",
+        "title": "obsidian",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/obsidian/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:28.181Z",
+        "content_sha256": "dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2"
+      }
+    }
+  ]
+}

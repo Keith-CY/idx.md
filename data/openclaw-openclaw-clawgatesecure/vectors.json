@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawgatesecure",
+  "generated_at": "2026-02-28T14:45:57.576Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawgatesecure#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawgatesecure/HEAD.md",
+      "text": "title: clawgatesecure\nsummary: Advanced security protocol for LLM agents focusing on Prompt Injection mitigation, code auditing.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thestormshadow/clawgatesecure/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawgatesecure",
+        "topic": "openclaw-openclaw-clawgatesecure",
+        "type": "skills",
+        "title": "clawgatesecure",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thestormshadow/clawgatesecure/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:57.576Z",
+        "content_sha256": "1c68e5bc512902f69eca561bf83cf69731e3b4f11ec9a1ff8edd7054a063b504"
+      }
+    }
+  ]
+}

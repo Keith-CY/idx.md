@@ -1,15 +1,15 @@
 ---
 name: tesla-fleet-api
 description: Use when integrating with Tesla's official Fleet API to read vehicle/energy device data or issue remote commands (e.g. start HVAC preconditioning, wake vehicle, charge controls). Covers onboarding (developer app registration, regions/base URLs), OAuth token flows (third-party + partner tokens, refresh rotation), required domain/public-key hosting, and using Tesla's official vehicle-command/tesla-http-proxy for signed vehicle commands.
-version: 1.4.2
+version: 1.5.0
 homepage: https://github.com/odrobnik/tesla-fleet-api-skill
 metadata:
   openclaw:
     emoji: "🚗"
     requires:
-      bins: ["python3", "openssl", "go"]
+      bins: ["python3", "openssl"]
       env: ["TESLA_CLIENT_ID", "TESLA_CLIENT_SECRET"]
-      optionalEnv: ["TESLA_AUDIENCE", "TESLA_REDIRECT_URI", "TESLA_DOMAIN", "TESLA_BASE_URL", "TESLA_CA_CERT", "TESLA_ACCESS_TOKEN", "TESLA_REFRESH_TOKEN", "TESLA_SCOPE", "TESLA_PRIVATE_KEY", "TESLA_VEHICLE_COMMAND_VERSION"]
+      optionalEnv: ["TESLA_AUDIENCE", "TESLA_REDIRECT_URI", "TESLA_DOMAIN", "TESLA_BASE_URL", "TESLA_CA_CERT", "TESLA_ACCESS_TOKEN", "TESLA_REFRESH_TOKEN", "TESLA_SCOPE"]
 
 ---
 

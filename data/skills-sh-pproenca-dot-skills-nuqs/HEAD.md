@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/nuqs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.200Z
+retrieved_at: 2026-02-28T14:45:33.254Z
 content_sha256: b9e4443768bf511646481557c779ff23c1045b0978750577dc0699c1ce759b82
 ---

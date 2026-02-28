@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skiplagged-flights",
+  "generated_at": "2026-02-28T14:46:43.558Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skiplagged-flights#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skiplagged-flights/HEAD.md",
+      "text": "title: skiplagged-flights\nsummary: Search cheapest flights via Skiplagged.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/wzs/skiplagged-flights/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skiplagged-flights",
+        "topic": "openclaw-openclaw-skiplagged-flights",
+        "type": "skills",
+        "title": "skiplagged-flights",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/wzs/skiplagged-flights/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.558Z",
+        "content_sha256": "dfde8de8a19a19900f306d4ead66ebad8b65df603e5489db6677795608188cce"
+      }
+    }
+  ]
+}

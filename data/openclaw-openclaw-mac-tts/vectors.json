@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mac-tts",
+  "generated_at": "2026-02-28T14:46:20.668Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mac-tts#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mac-tts/HEAD.md",
+      "text": "title: mac-tts\nsummary: Text-to-speech using macOS built-in `say` command.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kalijason/mac-tts/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mac-tts",
+        "topic": "openclaw-openclaw-mac-tts",
+        "type": "skills",
+        "title": "mac-tts",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kalijason/mac-tts/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:20.668Z",
+        "content_sha256": "eba20b0888c528895b868f187e84be6d6d230b7cd0d5f01f2f10b958fd5f2c74"
+      }
+    }
+  ]
+}

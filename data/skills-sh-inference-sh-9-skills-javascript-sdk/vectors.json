@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-inference-sh-9-skills-javascript-sdk",
+  "generated_at": "2026-02-28T14:45:39.706Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-inference-sh-9-skills-javascript-sdk#head",
+      "kind": "head",
+      "path": "/data/skills-sh-inference-sh-9-skills-javascript-sdk/HEAD.md",
+      "text": "title: skills-sh-inference-sh-9-skills-javascript-sdk\nsummary: # Agent Patterns Common patterns for building agents with the JavaScript SDK. ## Multi-Agent Orchestration Delegate tasks to specialized sub-agents: ```typescript import { inference, agentTool, string } from '@inferencesh/sdk'; const client = inference({ apiKey: 'inf_...' }); // Define sub-agents as tools const researcher = agentTool('research', 'my-org/researcher@latest') .describe('Research a topic thoroughly')\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/inference-sh-9/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-inference-sh-9-skills-javascript-sdk",
+        "topic": "skills-sh-inference-sh-9-skills-javascript-sdk",
+        "type": "skills",
+        "title": "skills-sh-inference-sh-9-skills-javascript-sdk",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/inference-sh-9/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md",
+        "retrieved_at": "2026-02-28T14:45:39.706Z",
+        "content_sha256": "81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8"
+      }
+    }
+  ]
+}

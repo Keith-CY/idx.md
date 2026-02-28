@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apollo",
+  "generated_at": "2026-02-28T14:45:48.313Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apollo#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apollo/HEAD.md",
+      "text": "title: apollo\nsummary: Interact with Apollo.io REST API (people/org enrichment, search, lists).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/apollo/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apollo",
+        "topic": "openclaw-openclaw-apollo",
+        "type": "skills",
+        "title": "apollo",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/apollo/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:48.313Z",
+        "content_sha256": "111bc021947f100d2c968518f679d16d3edf7036df7cd8492bc5c4b4dbc1f8e9"
+      }
+    }
+  ]
+}

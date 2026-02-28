@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-emzod-speak-turbo-speakturbo-tts",
+  "generated_at": "2026-02-28T14:45:25.680Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-emzod-speak-turbo-speakturbo-tts#head",
+      "kind": "head",
+      "path": "/data/skills-sh-emzod-speak-turbo-speakturbo-tts/HEAD.md",
+      "text": "title: skills-sh-emzod-speak-turbo-speakturbo-tts\nsummary: --- name: speakturbo-tts description: Give your agent the ability to speak to you real-time. Talk to your Claude! Ultra-fast TTS, text-to-speech, voice synthesis, audio output with ~90ms latency. 8 built-in voices for instant voice responses. For voice cloning, use the speak skill. --- # speakturbo - Talk to your Claude! Give your agent the ability to speak to you real-time. Ultra-fast text-to-speech with ~90ms latency and 8 built-in voices. ## Quick Start ```bash # Play immediately - you should hear \"Hello world\" through your speakers speakturbo \"Hello world\"\ntype: skills\ntags: skills-sh, skills-sh-probed\nsource_url: https://raw.githubusercontent.com/emzod/speak-turbo/main/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-emzod-speak-turbo-speakturbo-tts",
+        "topic": "skills-sh-emzod-speak-turbo-speakturbo-tts",
+        "type": "skills",
+        "title": "skills-sh-emzod-speak-turbo-speakturbo-tts",
+        "tags": [
+          "skills-sh",
+          "skills-sh-probed"
+        ],
+        "source_url": "https://raw.githubusercontent.com/emzod/speak-turbo/main/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:25.680Z",
+        "content_sha256": "68b384e376e1c67a308bdb9ba5827bb15c01189a1a9db28fa1ba4e6b4c7cfb03"
+      }
+    }
+  ]
+}

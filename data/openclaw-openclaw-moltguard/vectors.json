@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-moltguard",
+  "generated_at": "2026-02-28T14:46:24.043Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-moltguard#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-moltguard/HEAD.md",
+      "text": "title: moltguard\nsummary: Guard agent for AI agents — scan emails and webpages for prompt injection, jailbreak, phishing.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thomaslwang/moltguard/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-moltguard",
+        "topic": "openclaw-openclaw-moltguard",
+        "type": "skills",
+        "title": "moltguard",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thomaslwang/moltguard/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:24.043Z",
+        "content_sha256": "643fcc1babfd1feaa7ae780d6a11a789779090280c668e267e77ad7f5e542adf"
+      }
+    }
+  ]
+}

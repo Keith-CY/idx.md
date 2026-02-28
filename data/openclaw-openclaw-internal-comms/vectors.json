@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-internal-comms",
+  "generated_at": "2026-02-28T14:46:16.159Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-internal-comms#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-internal-comms/HEAD.md",
+      "text": "title: internal-comms\nsummary: A set of resources to help me write all kinds of internal communications, using the formats that my company likes.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/internal-comms/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-internal-comms",
+        "topic": "openclaw-openclaw-internal-comms",
+        "type": "skills",
+        "title": "internal-comms",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/internal-comms/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.159Z",
+        "content_sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-technews",
+  "generated_at": "2026-02-28T14:46:48.011Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-technews#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-technews/HEAD.md",
+      "text": "title: technews\nsummary: Fetches top stories from TechMeme, summarizes linked articles, and highlights social media reactions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/technews/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-technews",
+        "topic": "openclaw-openclaw-technews",
+        "type": "skills",
+        "title": "technews",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/technews/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.011Z",
+        "content_sha256": "279e3c642137b9b48a9a534575cc4c5c7e72a6defad77dea91a634416a0ef4f3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert",
+  "generated_at": "2026-02-28T14:45:41.678Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert#head",
+      "kind": "head",
+      "path": "/data/skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert/HEAD.md",
+      "text": "title: skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert\nsummary: # Node Discovery Tools Guide Complete guide for finding and understanding n8n nodes. --- ## search_nodes (START HERE!) **Speed**: <20ms **Use when**: You know what you're looking for (keyword, service, use case) **Syntax**: ```javascript search_nodes({ query: \"slack\", // Required: search keywords\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert",
+        "topic": "skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert",
+        "type": "skills",
+        "title": "skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md",
+        "retrieved_at": "2026-02-28T14:45:41.678Z",
+        "content_sha256": "294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0"
+      }
+    }
+  ]
+}

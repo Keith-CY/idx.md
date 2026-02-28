@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gcalcli",
+  "generated_at": "2026-02-28T14:46:09.756Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gcalcli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gcalcli/HEAD.md",
+      "text": "title: gcalcli\nsummary: Interact with Google Calendar via gcalcli\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gargravish/gcalcli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gcalcli",
+        "topic": "openclaw-openclaw-gcalcli",
+        "type": "skills",
+        "title": "gcalcli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gargravish/gcalcli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.756Z",
+        "content_sha256": "92224e7713932c552dfaebae20b2b7db3c48bb1fd1e104e3d6cdd95c08e82e12"
+      }
+    }
+  ]
+}

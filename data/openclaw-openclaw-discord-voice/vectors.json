@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-discord-voice",
+  "generated_at": "2026-02-28T14:46:03.601Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-discord-voice#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-discord-voice/HEAD.md",
+      "text": "title: discord-voice\nsummary: Real-time voice conversations in Discord with Claude AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/avatarneil/discord-voice/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-discord-voice",
+        "topic": "openclaw-openclaw-discord-voice",
+        "type": "skills",
+        "title": "discord-voice",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/avatarneil/discord-voice/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:03.601Z",
+        "content_sha256": "cb946aa07567759b4f0f91cc68c9f9be69090dd0d65e571e686f2b3a2ba50029"
+      }
+    }
+  ]
+}

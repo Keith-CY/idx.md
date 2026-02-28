@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-nonopost",
+  "generated_at": "2026-02-28T14:46:27.374Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-nonopost#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-nonopost/HEAD.md",
+      "text": "title: nonopost\nsummary: A skill to interact with the Anonymous Posting API, allowing agents to create temporal posts, reply to others, rate.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ferreirapablo/nonopost/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-nonopost",
+        "topic": "openclaw-openclaw-nonopost",
+        "type": "skills",
+        "title": "nonopost",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ferreirapablo/nonopost/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:27.374Z",
+        "content_sha256": "fa066272ab7baad0b0a06c5a9d1b5dc3021229436bb504e1bf2f882c7f0d275b"
+      }
+    }
+  ]
+}

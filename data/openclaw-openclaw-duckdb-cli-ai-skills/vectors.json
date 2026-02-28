@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-duckdb-cli-ai-skills",
+  "generated_at": "2026-02-28T14:46:04.528Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-duckdb-cli-ai-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-duckdb-cli-ai-skills/HEAD.md",
+      "text": "title: duckdb-en\nsummary: DuckDB CLI specialist for SQL analysis, data processing and file conversion.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/camelsprout/duckdb-cli-ai-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-duckdb-cli-ai-skills",
+        "topic": "openclaw-openclaw-duckdb-cli-ai-skills",
+        "type": "skills",
+        "title": "duckdb-en",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/camelsprout/duckdb-cli-ai-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:04.528Z",
+        "content_sha256": "abfa85cbbc2be6483990f4a73358ad5ed44fa4ae9a1bd5b89893d8f2cd135a90"
+      }
+    }
+  ]
+}

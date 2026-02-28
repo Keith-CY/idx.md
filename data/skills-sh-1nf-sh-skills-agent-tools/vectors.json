@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-1nf-sh-skills-agent-tools",
+  "generated_at": "2026-02-28T14:45:32.282Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-1nf-sh-skills-agent-tools#head",
+      "kind": "head",
+      "path": "/data/skills-sh-1nf-sh-skills-agent-tools/HEAD.md",
+      "text": "title: skills-sh-1nf-sh-skills-agent-tools\nsummary: # Authentication & Setup ## Install the CLI ```bash curl -fsSL https://cli.inference.sh | sh ``` ## Login ```bash infsh login ``` This opens a browser for authentication. After login, credentials are stored locally.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/1nf-sh/skills/HEAD/skills/agent-tools/references/authentication.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-1nf-sh-skills-agent-tools",
+        "topic": "skills-sh-1nf-sh-skills-agent-tools",
+        "type": "skills",
+        "title": "skills-sh-1nf-sh-skills-agent-tools",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/1nf-sh/skills/HEAD/skills/agent-tools/references/authentication.md",
+        "retrieved_at": "2026-02-28T14:45:32.282Z",
+        "content_sha256": "65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e"
+      }
+    }
+  ]
+}

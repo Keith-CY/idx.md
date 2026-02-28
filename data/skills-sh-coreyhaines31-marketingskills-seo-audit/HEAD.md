@@ -14,31 +14,27 @@ summary: >-
 
   ---
 
-  ## Em Dashes: The Primary AI Tell
+  ## Contents
 
-  **The em dash (—) has become one of the most reliable markers of AI-generated
-  content.**
+  - Em Dashes: The Primary AI Tell
 
-  Em dashes are longer than hyphens (-) and are used for emphasis,
-  interruptions, or parenthetical information. While they have legitimate uses
-  in writing, AI models drastically overuse them.
+  - Overused Verbs
 
-  ### Why Em Dashes Signal AI Writing
+  - Overused Adjectives
 
-  - AI models were trained on edited books, academic papers, and style guides
-  where em dashes appear frequently
+  - Overused Transitions and Connectors
 
-  - AI uses em dashes as a shortcut for sentence variety instead of commas,
-  colons, or parentheses
+  - Phrases That Signal AI Writing (Opening Phrases, Transitional Phrases,
+  Concluding Phrases, Structural Patterns)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/seo-audit/references/ai-writing-detection.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.065Z
-content_sha256: 586226f9b7ccdba3ad07a1d025442d294a8f0c43117b655c7231e97ed5720351
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:38.858Z
+content_sha256: f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4
 ---

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-trmnl",
+  "generated_at": "2026-02-28T14:46:50.651Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-trmnl#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-trmnl/HEAD.md",
+      "text": "title: trmnl\nsummary: Generate content for TRMNL e-ink display devices using the TRMNL CSS framework.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peetzweg/trmnl/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-trmnl",
+        "topic": "openclaw-openclaw-trmnl",
+        "type": "skills",
+        "title": "trmnl",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/peetzweg/trmnl/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:50.651Z",
+        "content_sha256": "f009be05821feb6e89ce69a6a4e4a3c5e46b4ea7514ef77154e2a9e305316aa2"
+      }
+    }
+  ]
+}

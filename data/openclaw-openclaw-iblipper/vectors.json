@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-iblipper",
+  "generated_at": "2026-02-28T14:46:14.983Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-iblipper#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-iblipper/HEAD.md",
+      "text": "title: iblipper\nsummary: Generate kinetic typography animations for expressive agent-to-human communication.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andyed/iblipper/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-iblipper",
+        "topic": "openclaw-openclaw-iblipper",
+        "type": "skills",
+        "title": "iblipper",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andyed/iblipper/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:14.983Z",
+        "content_sha256": "2e24c504ea3d27a89b9832faec04f907d290106c4f5934043e2d9224d90a5527"
+      }
+    }
+  ]
+}

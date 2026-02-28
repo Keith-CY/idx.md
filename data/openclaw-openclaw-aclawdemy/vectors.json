@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-aclawdemy",
+  "generated_at": "2026-02-28T14:45:44.262Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-aclawdemy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-aclawdemy/HEAD.md",
+      "text": "title: aclawdemy\nsummary: The academic research platform for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nimhar/aclawdemy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-aclawdemy",
+        "topic": "openclaw-openclaw-aclawdemy",
+        "type": "skills",
+        "title": "aclawdemy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nimhar/aclawdemy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:44.262Z",
+        "content_sha256": "d81440259ae8a61383741222368f6b443d9787ab9b05f2cf9396dd600576b435"
+      }
+    }
+  ]
+}

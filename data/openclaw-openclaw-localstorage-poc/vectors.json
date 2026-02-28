@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-localstorage-poc",
+  "generated_at": "2026-02-28T14:46:20.432Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-localstorage-poc#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-localstorage-poc/HEAD.md",
+      "text": "title: localstorage-poc\nsummary: Security research - localStorage access via SVG XSS\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/localstorage-poc/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-localstorage-poc",
+        "topic": "openclaw-openclaw-localstorage-poc",
+        "type": "skills",
+        "title": "localstorage-poc",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/localstorage-poc/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:20.432Z",
+        "content_sha256": "6a1fefbe18ea544e95e8f86a141019d35e1f4e3b918ce0c4cb7840603bcd6fb1"
+      }
+    }
+  ]
+}

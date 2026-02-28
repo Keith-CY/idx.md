@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-human-resources-commands-policy-lookup",
+  "generated_at": "2026-02-28T14:45:35.918Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-human-resources-commands-policy-lookup#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-human-resources-commands-policy-lookup/HEAD.md",
+      "text": "title: policy-lookup\nsummary: Find and explain company policies\ntype: skills\ntags: source-knowledge-work-plugins, plugin-human-resources, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/policy-lookup.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-human-resources-commands-policy-lookup",
+        "topic": "knowledge-work-plugins-human-resources-commands-policy-lookup",
+        "type": "skills",
+        "title": "policy-lookup",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-human-resources",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/policy-lookup.md",
+        "retrieved_at": "2026-02-28T14:45:35.918Z",
+        "content_sha256": "9a5d38f2fa17381c88df51f8294cf0fd38c6b731a6ee96bc5b0b1b4860067e34"
+      }
+    }
+  ]
+}

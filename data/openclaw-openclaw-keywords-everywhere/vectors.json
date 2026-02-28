@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-keywords-everywhere",
+  "generated_at": "2026-02-28T14:46:18.530Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-keywords-everywhere#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-keywords-everywhere/HEAD.md",
+      "text": "title: keywords-everywhere\nsummary: SEO keyword research and competitor analysis via Keywords Everywhere API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sanky369/keywords-everywhere/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-keywords-everywhere",
+        "topic": "openclaw-openclaw-keywords-everywhere",
+        "type": "skills",
+        "title": "keywords-everywhere",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sanky369/keywords-everywhere/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:18.530Z",
+        "content_sha256": "075542051823706e309c06b426864eca0698c827aa70077363178f659971836a"
+      }
+    }
+  ]
+}

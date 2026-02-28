@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bat-cat",
+  "generated_at": "2026-02-28T14:45:51.269Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bat-cat#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bat-cat/HEAD.md",
+      "text": "title: bat-cat\nsummary: A cat clone with syntax highlighting, line numbers, and Git integration - a modern replacement.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/bat-cat/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bat-cat",
+        "topic": "openclaw-openclaw-bat-cat",
+        "type": "skills",
+        "title": "bat-cat",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/bat-cat/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:51.269Z",
+        "content_sha256": "3ac2879a4591a2baaddc1ba0a98f488cf35603bcf3f67c5a365688729d4e7915"
+      }
+    }
+  ]
+}

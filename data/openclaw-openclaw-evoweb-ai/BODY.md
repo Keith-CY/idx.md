@@ -13,7 +13,7 @@ Create complete websites from text descriptions using AI-powered generation.
 
 EvoWeb automatically generates modern, responsive websites from natural language prompts. Simply describe what you want, and the AI creates HTML, CSS, JavaScript, and content - delivering a complete, live website in ~4 minutes.
 
-**Perfect for:** Landing pages, portfolios, online stores, blogs, business websites
+**Perfect for:** Landing pages and business websites
 
 **API Base URL:** `https://api.evoweb.ai/openapi/api/v1`
 
@@ -22,7 +22,15 @@ EvoWeb automatically generates modern, responsive websites from natural language
 Get your API key at https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0
 
 **Important:** After registration, user MUST confirm the email address (this is required). The service won't work until email confirmation is complete.
- 
+
+### No API Key Yet?
+
+If the user doesn't have an API key, you can still help them create a website:
+1. Ask for a brief description of their website (max 250 characters)
+2. Create a registration link with the prompt, given in step 1
+3. User can create an account after clicking "Create Website" button
+
+See "Step 0: Handle Users Without API Key" in the instructions below.
 
 Include this header in all requests:
 ```
@@ -34,10 +42,10 @@ Access-Token: your-api-key-here
 The workflow is simple:
 
 1. **Create** - Submit a text prompt describing your website
-2. **Poll** - Check generation status every 15-20 seconds
+2. **Poll** - Check generation status every minute
 3. **Get Result** - Receive live URL and editor link when ready
 
-Typical generation time: **2-5 minutes**
+Typical generation time: **4-5 minutes**
 
 ## API Endpoints
 
@@ -50,7 +58,7 @@ Creates a new website generation task from a text description.
 **Request Body:**
 ```json
 {
-  "prompt": "Create a modern landing page for a coffee shop with menu section, gallery of drinks, contact form, and location map. Use warm brown tones and inviting imagery."
+  "prompt": "A local coffee shop specializing in artisanal coffee and fresh pastries. We source our beans locally and focus on creating a cozy community gathering space for local residents, remote workers, and coffee enthusiasts."
 }
 ```
 
@@ -91,8 +99,8 @@ Check the current status of website generation.
 ```json
 {
   "status": "ready",
-  "url": "https://my-site.evoweb.ai",
-  "editor_url": "https://editor.evoweb.ai/sites/abc123xyz"
+  "url": "https://website.page/my-site",
+  "editor_url": "https://web.oto.dev/ui/websites/abc123xyz/update/"
 }
 ```
 
@@ -119,7 +127,7 @@ Check the current status of website generation.
 
 **POST** `/sites/{site_id}/remake`
 
-Restart generation for a failed website. Only works for sites with `failed` status.
+Restart generation for a failed website. Works for sites with `failed` status as well as with 'ready' status.
 
 **Example:** `POST /sites/abc123xyz/remake`
 
@@ -127,7 +135,7 @@ Restart generation for a failed website. Only works for sites with `failed` stat
 ```json
 {
   "status": "queued",
-  "editor_url": "https://editor.evoweb.ai/sites/abc123xyz"
+  "editor_url": "https://web.oto.dev/ui/websites/abc123xyz/update/"
 }
 ```
 
@@ -139,19 +147,46 @@ Restart generation for a failed website. Only works for sites with `failed` stat
 
 When a user requests a website, follow this workflow:
 
-### Step 1: Enhance the Prompt
+### Step 0: Handle Users Without API Key
 
-Convert the user's request into a detailed, structured prompt that includes:
-- Purpose and type of website
-- Specific sections/pages needed (Home, About, Contact, etc.)
-- Features (forms, galleries, pricing tables, etc.)
-- Design style (modern, minimal, elegant, professional, etc.)
-- Color preferences
-- Target audience
+**Check first:** Does the user have the `EVOWEB_API_KEY` environment variable set?
+
+If **NO API key is available:**
+
+1. **Collect a brief prompt** (max 250 characters) that describes their website:
+   - Ask them to briefly describe their business/project
+   - Keep it concise and focused on the core business essence
+   
+2. **Create a pre-filled registration link:**
+   - Base URL: `https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0`
+   - Add parameter: `&prompt=[URL_ENCODED_PROMPT]`
+   - Example: `https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0&prompt=A%20local%20coffee%20shop%20specializing%20in%20artisanal%20coffee`
+
+3. **Provide the link to the user:**
+   ```
+   🌐 To create your website, visit this link:
+   [Your personalized link here]
+   
+   After clicking "Create Website" button, you'll be able to create an account and your website will be generated automatically!
+   ```
+
+**Important:** URL-encode the prompt properly (spaces become `%20`, etc.)
+
+If **API key is available:** Proceed to Step 1 below.
+
+### Step 1: Understand the Business
+
+Focus on understanding the **business essence** from the user's description:
+- What is the business/project about?
+- What does it do or offer?
+- Who is the target audience?
+- What is the main goal of the website?
+
+**Important:** Do NOT prescribe specific design details, sections, colors, or layout. The EvoWeb AI will handle all design and structure decisions automatically.
 
 **Example transformation:**
 - User: "Create a website for my yoga studio"
-- Enhanced: "Create a modern landing page for a yoga studio with class schedule section, pricing table for membership tiers, instructor bios with photos, contact form for inquiries, and location with embedded map. Use calming colors like soft blues and greens with natural imagery."
+- Enhanced prompt: "A yoga studio offering various classes for different skill levels, focused on wellness and mindfulness. Target audience is local community members interested in fitness and mental health."
 
 ### Step 2: Create the Site
 
@@ -164,7 +199,7 @@ Store the returned `site_id` - you'll need it for status checks.
 Tell them:
 - Website generation has started
 - It will take approximately 4 minutes
-- You'll check progress automatically
+- You'll check progress automatically (ONLY IF YOU CAN)
 
 Example: "✨ Creating your website now! Generation typically takes 3-5 minutes. I'll check the status and let you know when it's ready."
 
@@ -172,8 +207,8 @@ Example: "✨ Creating your website now! Generation typically takes 3-5 minutes.
 
 Call `GET /sites/{site_id}` to check progress:
 
-- **Polling interval:** Every 17 seconds (between 15-20 seconds)
-- **Maximum attempts:** 20 polls (total ~6 minutes)
+- **Polling interval:** Every 1 minute
+- **Maximum attempts:** 20 polls
 - **Between polls:** You can inform user of progress ("Still building...")
 
 Continue polling until:
@@ -201,8 +236,8 @@ When status is `ready`:
 ```
 🎉 Your website is ready!
 
-🌐 View it here: https://yoga-studio-23f4.evoweb.ai
-✏️ Customize it: https://editor.evoweb.ai/sites/abc123xyz
+🌐 View it here: https://website.page/yoga-studio-23f4
+✏️ Customize it: https://web.evoweb.ai/ui/websites/abc123xyz/update/
 
 Quick improvements you might want:
 1. Add online class booking system
@@ -231,19 +266,26 @@ If user agrees, call remake endpoint and resume polling from Step 4.
 
 ## Example Prompts & Use Cases
 
+### Example: User Without API Key
+
+```
+User: "I need a website for my yoga studio"
+
+Assistant response:
+"I'd be happy to help! To get started quickly, let me create a personalized link for you.
+
+🌐 Visit this link to create your website:
+https://evoweb.ai/?utm_source=claw&utm_medium=skill&utm_campaign=website&utm_content=v1.0&prompt=A%20yoga%20studio%20offering%20various%20classes%20for%20all%20skill%20levels%2C%20focused%20on%20wellness%20and%20mindfulness
+
+After clicking 'Create Website', you'll be able to create an account and your website will be generated automatically in about 4 minutes! ✨"
+```
+
 ### Coffee Shop Landing Page
 ```
 User request: "Create a website for my coffee shop"
 
 Enhanced prompt:
-"Create a modern landing page for 'Bean & Brew Cafe' with:
-- Hero section featuring coffee and cozy atmosphere
-- Menu section with drinks and pastries (with prices)
-- About section highlighting locally sourced beans
-- Hours and location with map
-- Contact form for catering inquiries
-- Instagram feed integration
-Use warm brown and cream colors with inviting photography style"
+"A local coffee shop called 'Bean & Brew Cafe' specializing in artisanal coffee and fresh pastries. We source our beans locally and focus on creating a cozy community gathering space. Target audience is local residents, remote workers, and coffee enthusiasts looking for quality coffee and a welcoming atmosphere."
 ```
 
 ### Photographer Portfolio
@@ -251,14 +293,7 @@ Use warm brown and cream colors with inviting photography style"
 User request: "I need a portfolio site"
 
 Enhanced prompt:
-"Create a professional portfolio website for a wedding photographer with:
-- Stunning hero image showcasing best work
-- Project gallery organized by wedding collections
-- About page with photographer bio and experience
-- Services and pricing packages
-- Contact form for booking inquiries
-- Testimonials from happy couples
-Use clean, elegant design with white space, black and white aesthetic, and large image displays"
+"A professional wedding photographer specializing in capturing authentic, emotional moments. With 10 years of experience, I focus on storytelling through images and creating timeless memories for couples. Target audience is engaged couples planning their wedding looking for a photographer who can capture the genuine emotions of their special day."
 ```
 
 ### Online Store
@@ -266,14 +301,7 @@ Use clean, elegant design with white space, black and white aesthetic, and large
 User request: "Build an e-commerce site for my jewelry"
 
 Enhanced prompt:
-"Create an online store for handmade jewelry with:
-- Product catalog with filtering by category (necklaces, earrings, rings, bracelets)
-- Individual product pages with multiple photos and descriptions
-- Shopping cart functionality
-- Checkout form with shipping options
-- About the artisan section
-- Custom order inquiry form
-Use elegant design with soft rose gold accents and luxury feel"
+"A handmade jewelry business creating unique, artisan pieces. Each item is crafted by hand using traditional techniques and high-quality materials. The business focuses on custom designs and personal connections with customers. Target audience is women aged 25-45 who appreciate handcrafted, unique accessories and value the story behind their jewelry."
 ```
 
 ### SaaS Landing Page
@@ -281,14 +309,7 @@ Use elegant design with soft rose gold accents and luxury feel"
 User request: "Landing page for my app"
 
 Enhanced prompt:
-"Create a SaaS landing page for a project management tool with:
-- Value proposition above the fold with app screenshot
-- Feature showcase with icons (task tracking, team collaboration, reporting)
-- Pricing table with 3 tiers (Free, Pro, Enterprise)
-- Customer testimonials with logos
-- Free trial CTA buttons throughout
-- FAQ section
-Use modern, professional design with blue primary color and clean interface"
+"A project management SaaS tool designed for small to medium-sized teams. The app helps teams organize tasks, collaborate effectively, and track project progress in real-time. Key value proposition is simplicity and ease of use compared to complex enterprise solutions. Target audience is startup founders, small business owners, and team leads looking for an intuitive project management solution."
 ```
 
 ### Restaurant Website
@@ -296,15 +317,7 @@ Use modern, professional design with blue primary color and clean interface"
 User request: "Website for our Italian restaurant"
 
 Enhanced prompt:
-"Create a restaurant website for an authentic Italian trattoria with:
-- Rotating hero images of signature dishes
-- Full menu with appetizers, pasta, entrees, desserts, wine list
-- Online reservation system
-- About section telling family story and traditions
-- Location with map and parking info
-- Photo gallery of dining room and dishes
-- Catering services page
-Use warm, inviting design with red and green accents, rustic Italian aesthetic"
+"An authentic Italian trattoria run by a family with three generations of culinary tradition. We specialize in traditional recipes passed down through the family, using fresh ingredients and time-honored cooking methods. The restaurant offers a warm, family-friendly atmosphere and also provides catering services for special events. Target audience is locals and tourists looking for genuine Italian cuisine and a welcoming dining experience."
 ```
 
 ## Best Practices
@@ -312,22 +325,24 @@ Use warm, inviting design with red and green accents, rustic Italian aesthetic"
 ### Writing Good Prompts
 
 ✅ **Do:**
-- Be specific about sections and features
-- Mention design style and mood
-- Include color preferences
-- Specify the purpose and audience
-- List key pages/sections needed
+- Describe the business/project essence
+- Explain what the business does or offers
+- Identify the target audience
+- Clarify the main goal/purpose
+- Include key differentiators or unique value proposition
 
 ❌ **Don't:**
-- Be too vague ("make a website")
-- Skip important details
-- Assume AI will guess preferences
+- Prescribe specific design elements (colors, layouts, styles)
+- Dictate website sections or structure
+- Specify look and feel details
+- Be too vague ("make a website") without business context
+- Make direct API requests if no API key is available (use the step 0 method instead)
 
 ### Polling Strategy
 
-- **Interval:** 15-20 seconds (recommend 17s)
+- **Interval:** 1 minute
 - **Maximum:** 20 attempts total
-- **Typical time:** 3-5 minutes (8-15 polls)
+- **Typical time:** 4 - 5 minutes
 - **Inform user:** Let them know you're checking progress
 
 ### Error Handling
@@ -338,7 +353,8 @@ Use warm, inviting design with red and green accents, rustic Italian aesthetic"
 
 ### User Experience
 
-- Set expectations (4 minute wait time)
+- **For users without API key:** Provide a pre-filled registration link (quick and easy)
+- **For users with API key:** Set expectations (4 minute wait time)
 - Provide both view and edit URLs
 - Suggest concrete improvements
 - Be concise in responses
@@ -350,7 +366,7 @@ Use warm, inviting design with red and green accents, rustic Italian aesthetic"
 - **Format:** JSON
 - **Authentication:** Header-based API key
 - **Rate limits:** Check with EvoWeb (may have per-account limits)
-- **Generation time:** Typically 2-5 minutes
+- **Generation time:** Typically 4-5 minutes
 - **Costs:** Credits per generation (see https://evoweb.ai/ for pricing)
 
 ## Support & Resources

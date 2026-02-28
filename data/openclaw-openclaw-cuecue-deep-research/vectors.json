@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-cuecue-deep-research",
+  "generated_at": "2026-02-28T14:46:01.733Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-cuecue-deep-research#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-cuecue-deep-research/HEAD.md",
+      "text": "title: cuecue-deep-research\nsummary: Conduct deep financial research using CueCue's AI-powered multi-agent system\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xfgong/cuecue-deep-research/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-cuecue-deep-research",
+        "topic": "openclaw-openclaw-cuecue-deep-research",
+        "type": "skills",
+        "title": "cuecue-deep-research",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xfgong/cuecue-deep-research/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:01.733Z",
+        "content_sha256": "7cb0225cc1e213d87c2cdcfff9c0ac6e9f1048778beafc31581d25f5e1d69a05"
+      }
+    }
+  ]
+}

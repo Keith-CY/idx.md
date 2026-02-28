@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-telegram-usage",
+  "generated_at": "2026-02-28T14:46:48.254Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-telegram-usage#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-telegram-usage/HEAD.md",
+      "text": "title: telegram-usage\nsummary: Display session usage statistics (quota, session time, tokens, context).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/c-drew/telegram-usage/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-telegram-usage",
+        "topic": "openclaw-openclaw-telegram-usage",
+        "type": "skills",
+        "title": "telegram-usage",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/c-drew/telegram-usage/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.254Z",
+        "content_sha256": "dbc02d42438b0b675ebb964a7864e45488808d5a469a9654aaeed04f9f262be0"
+      }
+    }
+  ]
+}

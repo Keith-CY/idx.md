@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-work-report",
+  "generated_at": "2026-02-28T14:46:56.422Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-work-report#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-work-report/HEAD.md",
+      "text": "title: work-report\nsummary: Write a daily or weekly work report using git commits.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leeguooooo/work-report/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-work-report",
+        "topic": "openclaw-openclaw-work-report",
+        "type": "skills",
+        "title": "work-report",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/leeguooooo/work-report/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:56.422Z",
+        "content_sha256": "c4ae62a3c07d15cf7fa916a5d90ec031f13364afe10f69990c62e7272ff13730"
+      }
+    }
+  ]
+}

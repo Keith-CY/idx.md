@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-data-skills-sql-queries-skill",
+  "generated_at": "2026-02-28T14:45:29.384Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-data-skills-sql-queries-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-data-skills-sql-queries-skill/HEAD.md",
+      "text": "title: sql-queries\nsummary: Write correct, performant SQL across all major data warehouse dialects (Snowflake, BigQuery, Databricks, PostgreSQL, etc.). Use when writing queries, optimizing slow SQL, translating between dialects, or building complex analytical queries with CTEs, window functions, or aggregations.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-data, plugin-component-skills, plugin-skill, category-data-analytics\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/sql-queries/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-data-skills-sql-queries-skill",
+        "topic": "knowledge-work-plugins-data-skills-sql-queries-skill",
+        "type": "skills",
+        "title": "sql-queries",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-data",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/sql-queries/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:29.384Z",
+        "content_sha256": "dd4879f528bd904ef44b2a81b35f503e9170c87a0b65a85d508a7fe0da7bfc6d"
+      }
+    }
+  ]
+}

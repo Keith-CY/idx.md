@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-whcli",
+  "generated_at": "2026-02-28T14:46:55.489Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-whcli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-whcli/HEAD.md",
+      "text": "title: whcli\nsummary: Willhaben CLI for searching Austria's largest classifieds marketplace.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/whcli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-whcli",
+        "topic": "openclaw-openclaw-whcli",
+        "type": "skills",
+        "title": "whcli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/whcli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:55.489Z",
+        "content_sha256": "b1eb92bab78ca180cb5e8bee80647420298a02d64c1923196528544897502c54"
+      }
+    }
+  ]
+}

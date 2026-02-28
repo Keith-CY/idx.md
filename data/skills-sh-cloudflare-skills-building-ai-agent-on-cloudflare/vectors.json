@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare",
+  "generated_at": "2026-02-28T14:45:41.777Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare#head",
+      "kind": "head",
+      "path": "/data/skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare/HEAD.md",
+      "text": "title: skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare\nsummary: # Agent Patterns Advanced patterns for building sophisticated agents. ## Tool Calling Agents can expose tools that AI models can call: ```typescript import { Agent, Connection } from \"agents\"; import { z } from \"zod\"; interface Tool { name: string; description: string;\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/building-ai-agent-on-cloudflare/references/agent-patterns.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare",
+        "topic": "skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare",
+        "type": "skills",
+        "title": "skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/building-ai-agent-on-cloudflare/references/agent-patterns.md",
+        "retrieved_at": "2026-02-28T14:45:41.777Z",
+        "content_sha256": "dc2ec307e4c8c975269fed04eff86822ecef2fca5365d732420c991fa1025f66"
+      }
+    }
+  ]
+}

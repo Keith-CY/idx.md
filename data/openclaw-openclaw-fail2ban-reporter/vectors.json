@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-fail2ban-reporter",
+  "generated_at": "2026-02-28T14:46:06.935Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-fail2ban-reporter#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-fail2ban-reporter/HEAD.md",
+      "text": "title: fail2ban-reporter\nsummary: Auto-report fail2ban banned IPs to AbuseIPDB and notify via Telegram.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jestersimpps/fail2ban-reporter/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-fail2ban-reporter",
+        "topic": "openclaw-openclaw-fail2ban-reporter",
+        "type": "skills",
+        "title": "fail2ban-reporter",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jestersimpps/fail2ban-reporter/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.935Z",
+        "content_sha256": "163628d6e9b4cf0b0e42421674a3cd2ac183440d86b7ff8c0983b7bba5708729"
+      }
+    }
+  ]
+}

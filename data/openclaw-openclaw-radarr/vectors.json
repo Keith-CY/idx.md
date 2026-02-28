@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-radarr",
+  "generated_at": "2026-02-28T14:46:37.237Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-radarr#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-radarr/HEAD.md",
+      "text": "title: radarr\nsummary: Search and add movies to Radarr.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordyvandomselaar/radarr/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-radarr",
+        "topic": "openclaw-openclaw-radarr",
+        "type": "skills",
+        "title": "radarr",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordyvandomselaar/radarr/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.237Z",
+        "content_sha256": "29a480485392f74003dc0955e5e6a0a2a6ea9d9892958675f1bf177d43822742"
+      }
+    }
+  ]
+}

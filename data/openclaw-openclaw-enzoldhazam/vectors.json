@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-enzoldhazam",
+  "generated_at": "2026-02-28T14:46:05.894Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-enzoldhazam#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-enzoldhazam/HEAD.md",
+      "text": "title: enzoldhazam\nsummary: NGBS iCON Smart Home thermostat control.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daniel-laszlo/enzoldhazam/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-enzoldhazam",
+        "topic": "openclaw-openclaw-enzoldhazam",
+        "type": "skills",
+        "title": "enzoldhazam",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/daniel-laszlo/enzoldhazam/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:05.894Z",
+        "content_sha256": "b397ebde9d70e0f1cfd0a692c204527e764ff5d3c46ba45b382d2118a789d9cf"
+      }
+    }
+  ]
+}

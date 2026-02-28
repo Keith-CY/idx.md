@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-trailofbits-skills-codeql",
+  "generated_at": "2026-02-28T14:45:37.851Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-trailofbits-skills-codeql#head",
+      "kind": "head",
+      "path": "/data/skills-sh-trailofbits-skills-codeql/HEAD.md",
+      "text": "title: skills-sh-trailofbits-skills-codeql\nsummary: # Build Database Workflow Create high-quality CodeQL databases by trying build methods in sequence until one produces good results. ## Task System Create these tasks on workflow start: ``` TaskCreate: \"Detect language and configure\" (Step 1) TaskCreate: \"Build database\" (Step 2) - blockedBy: Step 1 TaskCreate: \"Apply fixes if needed\" (Step 3) - blockedBy: Step 2 TaskCreate: \"Assess quality\" (Step 4) - blockedBy: Step 3 TaskCreate: \"Improve quality if needed\" (Step 5) - blockedBy: Step 4\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-trailofbits-skills-codeql",
+        "topic": "skills-sh-trailofbits-skills-codeql",
+        "type": "skills",
+        "title": "skills-sh-trailofbits-skills-codeql",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md",
+        "retrieved_at": "2026-02-28T14:45:37.851Z",
+        "content_sha256": "7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1"
+      }
+    }
+  ]
+}

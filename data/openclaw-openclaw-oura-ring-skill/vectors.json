@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-oura-ring-skill",
+  "generated_at": "2026-02-28T14:46:30.621Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-oura-ring-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-oura-ring-skill/HEAD.md",
+      "text": "title: oura-ring\nsummary: Oura Ring readiness, sleep scores, and 7-day trends.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sameerbajaj/oura-ring-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-oura-ring-skill",
+        "topic": "openclaw-openclaw-oura-ring-skill",
+        "type": "skills",
+        "title": "oura-ring",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sameerbajaj/oura-ring-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.621Z",
+        "content_sha256": "665c859b80e3d0dd42889251c3dc1a295334c6a73f4aad5089ed3cf2ff097c04"
+      }
+    }
+  ]
+}

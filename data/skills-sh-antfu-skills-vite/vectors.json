@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-antfu-skills-vite",
+  "generated_at": "2026-02-28T14:45:39.482Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-antfu-skills-vite#head",
+      "kind": "head",
+      "path": "/data/skills-sh-antfu-skills-vite/HEAD.md",
+      "text": "title: skills-sh-antfu-skills-vite\nsummary: --- name: vite-config description: Vite configuration patterns using vite.config.ts --- # Vite Configuration ## Basic Setup ```ts // vite.config.ts import { defineConfig } from 'vite' export default defineConfig({\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-antfu-skills-vite",
+        "topic": "skills-sh-antfu-skills-vite",
+        "type": "skills",
+        "title": "skills-sh-antfu-skills-vite",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md",
+        "retrieved_at": "2026-02-28T14:45:39.482Z",
+        "content_sha256": "d207a85730c32eff47e343ea69644a6c7898af251098a60255efe8f1c922fb4b"
+      }
+    }
+  ]
+}

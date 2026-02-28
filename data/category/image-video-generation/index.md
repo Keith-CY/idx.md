@@ -3,7 +3,7 @@
 | Category | Image & Video Generation |
 | --- | --- |
 | Slug | image-video-generation |
-| Count | 40 |
+| Count | 38 |
 
 ---
 stable_id: skills/openclaw-clawdbot-cad-agent
@@ -20,7 +20,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.362Z
+retrieved_at: 2026-02-28T14:45:43.743Z
 content_sha256: f026c6d907c7a3082a07777d66b630b4e2952e8ff56c07b864674c7fb1302aef
 ---
 |/data/openclaw-clawdbot-cad-agent|
@@ -40,7 +40,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:57.871Z
+retrieved_at: 2026-02-28T14:45:44.896Z
 content_sha256: 08d7d70b52cebf9604d58bd4dc0a1ebb2e6e1f65c4138788304d0ba24681c65c
 ---
 |/data/openclaw-openclaw-afame|
@@ -61,7 +61,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:00.312Z
+retrieved_at: 2026-02-28T14:45:46.962Z
 content_sha256: 881cc4c65fde6ef60610a0bb20dc1243e114014e1f64006f00adad309db49e10
 ---
 |/data/openclaw-openclaw-ai-video-gen|
@@ -82,31 +82,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:00.662Z
+retrieved_at: 2026-02-28T14:45:47.241Z
 content_sha256: 3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef
 ---
 |/data/openclaw-openclaw-algorithmic-art|
-
----
-stable_id: skills/openclaw-openclaw-atxp
-type: skills
-title: atxp
-summary: Access ATXP paid API tools for web search, AI image generation, music
-  creation, video generation, and X/Twitter searc.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-image-video-generation
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emilioacc/atxp/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:03.424Z
-content_sha256: 3d32c12cf0af71b9bf0e612e59077c5becf7e1b58af3e72e4d683c7f554ad6a5
----
-|/data/openclaw-openclaw-atxp|
 
 ---
 stable_id: skills/openclaw-openclaw-beauty-generation-api
@@ -124,8 +103,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:05.249Z
-content_sha256: ab4c4dde17e1e7684ab3f9b204787599f771464dc160d9577267949ba1a9cf93
+retrieved_at: 2026-02-28T14:45:51.538Z
+content_sha256: 2d774fbe34120c2c828b6352e660cfc898310831ec4e2486c805e9ad43a1db85
 ---
 |/data/openclaw-openclaw-beauty-generation-api|
 
@@ -154,7 +133,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:09.299Z
+retrieved_at: 2026-02-28T14:45:54.317Z
 content_sha256: 564ee9172f3d1967881d104ef831e176d6b8413eb139615b2e850bb153e1587c
 ---
 |/data/openclaw-openclaw-canva-connect|
@@ -174,7 +153,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:09.484Z
+retrieved_at: 2026-02-28T14:45:54.500Z
 content_sha256: ef79050e4a1ffd8e0c70ea9716ef8933605771b7a4e5bc294c69c3ee376c71f2
 ---
 |/data/openclaw-openclaw-captions|
@@ -194,8 +173,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:10.016Z
-content_sha256: f5a2f9674a47b6d2bd4aecdf0148d27c4b351afbd84dd79f9046877278121b61
+retrieved_at: 2026-02-28T14:45:54.928Z
+content_sha256: 351bc04e7e0cc2760e1df9e7be0b1714fef7f5af53a44c9490563ee58472f10c
 ---
 |/data/openclaw-openclaw-chart-image|
 
@@ -215,7 +194,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:12.091Z
+retrieved_at: 2026-02-28T14:45:56.622Z
 content_sha256: 9abf0d66fca8a51bf692f2e7107bfeb959137ef1d9aa31b2c54ccf242ef89cbc
 ---
 |/data/openclaw-openclaw-clawdbot-meshyai-skill|
@@ -235,7 +214,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:14.301Z
+retrieved_at: 2026-02-28T14:45:58.472Z
 content_sha256: b79b393ad59c70352e38d44ecf252812fd7e8a8d327d314914fb3228062a68ad
 ---
 |/data/openclaw-openclaw-clinkding|
@@ -255,7 +234,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:14.845Z
+retrieved_at: 2026-02-28T14:45:59.057Z
 content_sha256: 9ad556a3ff990a13231dccae66fef4bd2c64cf4f34e89aeab29d3644cb7e673a
 ---
 |/data/openclaw-openclaw-coloring-page|
@@ -275,7 +254,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:14.998Z
+retrieved_at: 2026-02-28T14:45:59.186Z
 content_sha256: 801c72a440eedb9d87ccde204a48f976fca782adc6df1a6e2767d654f46c7dfa
 ---
 |/data/openclaw-openclaw-comfy-cli|
@@ -295,7 +274,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:15.100Z
+retrieved_at: 2026-02-28T14:45:59.229Z
 content_sha256: 259b659b4408abd0636f9e2f6e0492d93520fba74a60252dcd1499c9d78519d6
 ---
 |/data/openclaw-openclaw-comfyui-request|
@@ -315,7 +294,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:22.197Z
+retrieved_at: 2026-02-28T14:46:06.347Z
 content_sha256: b37d0b88b68bd8b4fb0ea8018245691908b6537b7fe0fe75d64be2bc982a448c
 ---
 |/data/openclaw-openclaw-excalidraw-flowchart|
@@ -335,7 +314,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:23.195Z
+retrieved_at: 2026-02-28T14:46:06.979Z
 content_sha256: aa06d03775881fef3debcd204863d655b6f6909d490bcebe8f043a4b95feabe7
 ---
 |/data/openclaw-openclaw-fal-ai|
@@ -356,7 +335,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:24.117Z
+retrieved_at: 2026-02-28T14:46:07.738Z
 content_sha256: a789eba1743a8c0f353239e8630f0ee5eb70ebbe61132f5e37f6d12c91285fd1
 ---
 |/data/openclaw-openclaw-ffmpeg-video-editor|
@@ -376,7 +355,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:24.281Z
+retrieved_at: 2026-02-28T14:46:07.837Z
 content_sha256: c35f45d9ff33561d1cb6bede85ba73b1a825639cbbe3d835d33d12660e42cc5a
 ---
 |/data/openclaw-openclaw-figma|
@@ -397,7 +376,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:24.491Z
+retrieved_at: 2026-02-28T14:46:08.010Z
 content_sha256: d2b647653141c07e9944cd372681ca4d7289fdf4fd69fe146bf13ff03d928bdb
 ---
 |/data/openclaw-openclaw-find-stl|
@@ -418,7 +397,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:26.247Z
+retrieved_at: 2026-02-28T14:46:09.526Z
 content_sha256: ae8f1090682701e71792f7d414ff728c48562993c1b142798b38fef17ada1f13
 ---
 |/data/openclaw-openclaw-gamma|
@@ -438,7 +417,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.476Z
+retrieved_at: 2026-02-28T14:46:10.670Z
 content_sha256: 1802a1e04fa63b269f29bfe56e694d516bc339fcc90544b1bbf93197996f7d14
 ---
 |/data/openclaw-openclaw-gifhorse|
@@ -459,7 +438,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:29.118Z
+retrieved_at: 2026-02-28T14:46:12.151Z
 content_sha256: a158cdf5e0f4e7e968beecfc13bd8f83e7380a701b3e383f43060abb65c71575
 ---
 |/data/openclaw-openclaw-google-gemini-media|
@@ -480,7 +459,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:32.026Z
+retrieved_at: 2026-02-28T14:46:14.983Z
 content_sha256: 2e24c504ea3d27a89b9832faec04f907d290106c4f5934043e2d9224d90a5527
 ---
 |/data/openclaw-openclaw-iblipper|
@@ -500,8 +479,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:35.700Z
-content_sha256: 7109004633774e2425dd4a5fe814c36a0c6eed13adf8090279c0a0a68479bf2d
+retrieved_at: 2026-02-28T14:46:18.812Z
+content_sha256: 3b013f6073bab226d509875c9a96eb4aec2a5cbd2430c79dc143053c4bded54e
 ---
 |/data/openclaw-openclaw-krea-api|
 
@@ -520,8 +499,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:53.482Z
-content_sha256: 6886f91c6f40a1235640c002f5980b5b25381450e263c94aea00e1b96151c593
+retrieved_at: 2026-02-28T14:46:33.995Z
+content_sha256: d9b06e432c34e6ea44cc3ad796142cbd4533dbbea9c81c8421c5ff902977e132
 ---
 |/data/openclaw-openclaw-pollinations|
 
@@ -541,7 +520,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:59.211Z
+retrieved_at: 2026-02-28T14:46:38.949Z
 content_sha256: e324a7398fbb5d3e7c9a2a3ecda6602e2f6682621701f69f20f2c12ffa7eec9c
 ---
 |/data/openclaw-openclaw-render-stl-png|
@@ -561,7 +540,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:59.659Z
+retrieved_at: 2026-02-28T14:46:39.403Z
 content_sha256: 388c7f856ee97ff70767a86a64954b349c3203d3bc59b6c4e65e8bef4c436281
 ---
 |/data/openclaw-openclaw-reve-ai|
@@ -581,31 +560,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:00.307Z
+retrieved_at: 2026-02-28T14:46:39.919Z
 content_sha256: 9ea848f5a2c4e74032f777dfbc20b129eab8539e4444eda506182e35198656e5
 ---
 |/data/openclaw-openclaw-runware|
-
----
-stable_id: skills/openclaw-openclaw-sticker-analyzer
-type: skills
-title: sticker-analyzer
-summary: Analyze images in media/stickers using Vision API to identify and
-  filter meme/sticker content vs screenshots or docum.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-image-video-generation
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/sticker-analyzer/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T08:00:06.968Z
-content_sha256: 8132366a9c45b7bd5044f8e9108d86cb1c67c873cfa220a63eb6f66108743d97
----
-|/data/openclaw-openclaw-sticker-analyzer|
 
 ---
 stable_id: skills/openclaw-openclaw-subtitles
@@ -622,7 +580,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:07.567Z
+retrieved_at: 2026-02-28T14:46:46.038Z
 content_sha256: 00f571e9833b742c3a15708658ab88b97f13524c2e27028c692144ac0702ed39
 ---
 |/data/openclaw-openclaw-subtitles|
@@ -642,7 +600,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:07.848Z
+retrieved_at: 2026-02-28T14:46:46.257Z
 content_sha256: 12cbb694b936cadbf025fcb2afedcbaa73553c4adc34d5d338b0c4fbc22f4abb
 ---
 |/data/openclaw-openclaw-superdesign|
@@ -663,7 +621,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:13.164Z
+retrieved_at: 2026-02-28T14:46:50.927Z
 content_sha256: 662879765fe8b1b793f49ef9e5b74baaf1ea3af629294bd937dbcb8a2f784c22
 ---
 |/data/openclaw-openclaw-tube-summary|
@@ -683,7 +641,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:14.965Z
+retrieved_at: 2026-02-28T14:46:52.474Z
 content_sha256: 14222905a3ceb08989f88241da163449e37941a78224d5e7ad41fb87865398b3
 ---
 |/data/openclaw-openclaw-vap-multimedia-generation|
@@ -703,7 +661,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:15.031Z
+retrieved_at: 2026-02-28T14:46:52.516Z
 content_sha256: 63086c1d3db7b404d034bf9a62609a1de534cd83e70c4b9492676751fadee127
 ---
 |/data/openclaw-openclaw-venice-ai-media|
@@ -723,7 +681,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:15.081Z
+retrieved_at: 2026-02-28T14:46:52.544Z
 content_sha256: 4161c4c2a8c88046a9fe5b3cbe200a6aad890a09cbd7294ab0ee67d7cdbaeac0
 ---
 |/data/openclaw-openclaw-veo|
@@ -744,7 +702,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:15.141Z
+retrieved_at: 2026-02-28T14:46:52.622Z
 content_sha256: 8d1c181126c8a98c691d7eac2488ec6d1ff657a32f42e3e9f6770d64e188dc44
 ---
 |/data/openclaw-openclaw-veo3-video-gen|
@@ -764,7 +722,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:15.579Z
+retrieved_at: 2026-02-28T14:46:52.982Z
 content_sha256: 7e24245498aca878d084aae61e6da9043fb52566346d3a547f6f391c9a11bde1
 ---
 |/data/openclaw-openclaw-video-frames|
@@ -784,7 +742,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:21.628Z
+retrieved_at: 2026-02-28T14:46:57.991Z
 content_sha256: cb6d3fd9001401116f74f51d4c4390389920f659cb8fe68dc950fb03e05ad401
 ---
 |/data/openclaw-openclaw-yollomi|
@@ -804,7 +762,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:36.423Z
+retrieved_at: 2026-02-28T14:45:28.925Z
 content_sha256: 3f397a431d9c86869d7ae954c419a765da42a27d1c8b85f4e94b4d42d9ebb88e
 ---
 |/data/openclaw-openclaw-youtube-thumbnail-grabber|
@@ -824,7 +782,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:36.583Z
+retrieved_at: 2026-02-28T14:45:29.071Z
 content_sha256: 9e04e56f221517747ede24548627d5ddcca5b2f2f53a109bd15a59ac36b16260
 ---
 |/data/openclaw-openclaw-yt-thumbnail-grabber|

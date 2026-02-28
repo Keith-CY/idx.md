@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/sawyerhood/dev-browser/dev-browser
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.139Z
+retrieved_at: 2026-02-28T14:45:32.757Z
 content_sha256: 44031cea3262dbf909d3657897b0b8bb30f0760520887f64e118b8f319cadddd
 ---

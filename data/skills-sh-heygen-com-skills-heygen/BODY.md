@@ -1,564 +1,289 @@
 ---
 name: prompt-optimizer
-description: Write effective prompts for HeyGen Video Agent - from basic ideas to structured scene-by-scene scripts
+description: Write production-quality prompts for HeyGen Video Agent — from basic ideas to fully art-directed scene-by-scene scripts
 ---
 
 # Video Agent Prompt Optimizer
 
-## Table of Contents
-- [The Three Baseline Controls](#the-three-baseline-controls)
-- [Prompt Complexity Levels](#prompt-complexity-levels)
-- [Structured Output Format](#structured-output-format)
-- [Visual Style Definition](#visual-style-definition)
-- [Media Types: When to Use What](#media-types-when-to-use-what)
-- [Scene Type Classification](#scene-type-classification)
-- [Timing Guidelines](#timing-guidelines)
-- [Copy Guidelines](#copy-guidelines)
-- [Using Attachments](#using-attachments)
-- [Example: Brief to Structured Prompt](#example-brief-to-structured-prompt)
-- [Ready-to-Use Prompt Templates](#ready-to-use-prompt-templates)
-- [Workflow: Brief to Prompt](#workflow-brief-to-prompt)
-- [Optimization Checklist](#optimization-checklist)
-- [Common Mistakes](#common-mistakes)
-- [Key Principles](#key-principles)
+Write effective prompts for the HeyGen Video Agent API. Based on patterns from 40+ produced videos.
 
----
+**The core insight: Video Agent is an HTML interpreter.** It renders layouts, typography, and structured content natively. Describe B-roll as layered text motion graphics with action verbs ("slams in," "types on," "counts up") — not layout specs ("upper-left, 48pt").
 
-The difference between forgettable AI-generated content and professional, high-converting videos is how you direct the Video Agent. This guide teaches you to write prompts that consistently produce professional-quality results.
+## Reference Files
 
-## The Three Baseline Controls
-
-Before writing your prompt, set these controls in the API config:
-
-| Control | Options | Notes |
-|---------|---------|-------|
-| **Avatar** | Specific avatar_id, Auto, or none | Say "no avatar" in prompt for voice-over only |
-| **Duration** | Auto, 30s, 1min, 2min, etc. | Agent follows your prompt/script for actual length |
-| **Aspect Ratio** | Portrait, Landscape, Auto | Match your distribution channel |
-
-```typescript
-const config: VideoAgentConfig = {
-  avatar_id: "josh_lite3_20230714",  // Or omit for auto-selection
-  duration_sec: 60,
-  orientation: "landscape"
-};
-```
-
-## Prompt Complexity Levels
-
-### Level 1: Basic Prompt
-
-Minimum viable prompt - describes content only:
-
-```
-Create a product overview video for our AI scheduling app.
-Mention the key features and end with a call to action.
-```
-
-### Level 2: Context-Rich Prompt
-
-Adds intent, audience, and style:
-
-```
-Create a 60-second product demo for our AI calendar app.
-Target audience: busy professionals.
-Tone: professional but friendly.
-Highlight: smart scheduling and time zone handling.
-Call-to-action: Visit our website to start free trial.
-```
-
-### Level 3: Script-Driven Prompt (Recommended)
-
-**This is the single biggest upgrade most users miss.** Paste your full script and let Video Agent optimize flow, timing, and visuals:
-
-```
-Intro (A-roll, motion graphics overlay)
-VO: "If your work is mostly explaining things — updates, ideas, decisions —
-video usually helps, but making it takes too much time."
-
-Problem (motion-graphics B-roll)
-VO: "Traditional video production requires cameras, editing software,
-and hours of work for just a few minutes of content."
-
-Solution (A-roll + demo cut)
-VO: "Our platform turns your ideas into production-ready videos
-in minutes, not hours."
-
-Features (Motion Graphics list)
-VO: "Teams use it for internal training, product demos, sales outreach,
-and customer education."
-
-CTA (A-roll, end beat)
-VO: "Try it free today and see how easy video creation can be."
-
-End card: [Your Brand] · Make Video Easy
-```
-
-The agent may make small grammar and pacing edits — that's intentional.
-
-### Level 4: Scene-by-Scene Prompting (Maximum Control)
-
-For precise output, prompt each scene individually using this structure:
-
-```
-Scene [N]: [Scene Title]
-Scene Type: [A-roll / B-roll / Motion Graphics]
-Visual: [Specific visual description]
-VO: "[Exact voiceover script]"
-Duration: [Timestamp range or approximate length]
-```
-
-**Full example:**
-
-```
-Scene 1: Intro (Motion Graphics)
-Visual: Animated logo reveal with particle effects, brand colors sweep
-Duration: 3 seconds
-
-Scene 2: Hook (A-roll with overlay)
-Visual: Avatar on branded background, text overlay appears
-VO: "What if creating professional videos was as easy as writing an email?"
-Duration: 5 seconds
-
-Scene 3: Problem Statement (Stock Media B-roll)
-Visual: Stock footage of frustrated person at computer, clock ticking
-VO: "Traditional video production takes weeks. Coordinating schedules,
-booking studios, endless editing rounds..."
-Duration: 8 seconds
-
-Scene 4: Solution Introduction (A-roll + Motion Graphics overlay)
-Visual: Avatar speaking, animated product logo appears beside them
-VO: "Introducing a faster way to create professional video content."
-Duration: 6 seconds
-
-Scene 5: Feature Showcase (Motion Graphics B-roll)
-Visual: Animated screen recording style, showing interface with callouts
-VO: "Simply describe what you want, and watch your video come to life."
-Duration: 10 seconds
-
-Scene 6: Benefits (Motion Graphics list)
-Visual: 3 benefits animate in one by one with icons
-VO: "Save time. Maintain consistency. Scale your content."
-Duration: 8 seconds
-
-Scene 7: CTA (A-roll)
-Visual: Avatar, confident pose, CTA text overlay
-VO: "Try it free today and transform how you create videos."
-Duration: 5 seconds
-
-Scene 8: End Card (Motion Graphics)
-Visual: Logo, tagline, website URL
-Duration: 4 seconds
-```
-
-## Structured Output Format
-
-When transforming a creative brief into a Video Agent prompt, use this format:
-
-```markdown
-# Global Style & Settings
-* **Visual Style:** [Style from taxonomy]
-* **Primary Colors:** [Color name] (#HEX), [Color name] (#HEX)
-* **Font:** [Font family]
-* **Vibe:** [2-3 descriptive words]
-* **Avatar Placement:** [When to use A-roll vs B-roll]
-
----
-
-# Scene-by-Scene Script
-
-### Scene 1: [Title]
-* **Scene Type:** [A-roll / B-roll (Motion Graphics) / B-roll (Stock) / etc.]
-* **Visual:** [Specific description]
-* **VO:** "[Script]"
-* **Duration:** [Start] - [End]
-
-[... more scenes ...]
-
----
-
-**Instruction for Video Agent:** [Catch-all block with style, colors, media guidance]
-```
-
-## Visual Style Definition
-
-**Define your visual style upfront.** Without a defined style, scenes can look disconnected.
-
-### Universal Style Prompt Template
-
-Add this to almost any prompt for consistent, professional results:
-
-```
-Use minimal, clean styled visuals. [Primary color], [secondary color],
-and white as main colors. Leverage motion graphics as B-rolls and A-roll
-overlays. Use AI videos when necessary. When real-world footage is needed,
-use Stock Media. Include an intro sequence, outro sequence, and chapter
-breaks using Motion Graphics.
-```
-
-### Specifying Colors and Fonts
-
-```
-Use #1E40AF as primary blue, #F8FAFC as background white, and #0F172A
-for text. Use Inter font family throughout.
-```
-
-### Style Taxonomy
-
-| Style | Best For | Prompt Phrase |
-|-------|----------|---------------|
-| Minimalistic | Corporate, Tech, SaaS | "Use minimalistic, clean visuals with lots of white space" |
-| Cartoon/Animated | Education, Kids, Explainers | "Use cartoon-style illustrated visuals" |
-| Bold & Vibrant | Marketing, Social Ads | "Use bold, vibrant colors and dynamic visuals" |
-| Cinematic | Brand films, High-end | "Use cinematic quality visuals with dramatic lighting" |
-| Flat Design | Modern, App demos | "Use flat design style with geometric shapes" |
-| Gradient Modern | Tech/Startup | "Use gradient backgrounds with modern, sleek aesthetic" |
-| Professional | B2B, Enterprise | "Use professional, polished corporate aesthetic" |
-
-## Media Types: When to Use What
-
-### Media Type Decision Matrix
-
-| Content Type | Motion Graphics | AI Generated | Stock Media |
-|--------------|:---------------:|:------------:|:-----------:|
-| Data/Statistics | **Best** | - | - |
-| Abstract Concepts | Good | **Best** | - |
-| Real Environments | - | Can work | **Best** |
-| Brand Elements | **Best** | - | - |
-| Human Emotions | - | Uncanny | **Best** |
-| UI/Product Demos | **Best** | - | - |
-| Code/Technical | **Best** | - | - |
-| Futuristic/Conceptual | Good | **Best** | - |
-| Industry Context | - | - | **Best** |
-
-### Motion Graphics
-
-Animated graphic elements: text animations, icons, charts, shapes, transitions.
-
-| Use As | Best For |
-|--------|----------|
-| A-roll overlays | Lower thirds, bullet points alongside avatar, animated callouts |
-| B-roll scenes | Full-screen animated explanations, data visualizations |
-| Chapter cards | Section breaks, intros, outros |
-| Information display | Statistics, comparisons, timelines |
-
-**Example:**
-```
-Use motion graphics to display the 5 key benefits as animated bullet points
-appearing one by one while the avatar speaks.
-```
-
-### AI-Generated Images & Videos
-
-Created by generative AI based on your descriptions.
-
-**Best for:** Conceptual illustrations, custom scenarios stock footage won't cover, stylized visuals, product mockups in various contexts.
-
-**Example:**
-```
-Generate an AI image showing a futuristic office where humans and AI work
-together. Use this as B-roll for the 'future of work' section.
-```
-
-### Stock Media
-
-Real-world footage from stock libraries.
-
-**Best for:** Authentic scenes (offices, cities, people), industry-specific content (medical, manufacturing), emotional moments, establishing shots.
-
-**Example:**
-```
-Use stock footage of a busy corporate office for B-roll when discussing
-workplace productivity.
-```
-
-## Scene Type Classification
-
-| Scene Type | Description | When to Use |
-|------------|-------------|-------------|
-| **A-roll** | Avatar on screen speaking | Transitions, key insights, emotional beats |
-| **A-roll with overlay** | Avatar + motion graphics on top | Lower thirds, callouts, bullet points |
-| **B-roll (Motion Graphics)** | Full-screen animated graphics | Data viz, process flows, brand elements |
-| **B-roll (AI Generated)** | AI-created images/video | Abstract concepts, custom scenarios |
-| **B-roll (Stock)** | Real-world footage | Authentic scenes, emotional moments |
-| **Motion Graphics only** | No avatar, pure graphics | Chapter cards, intros, outros |
-
-## Timing Guidelines
-
-| Content Type | Recommended Duration |
-|--------------|---------------------|
-| Hook/Intro | 3-8 seconds |
-| Concept explanation | 10-15 seconds per concept |
-| Demo/Visual proof | 10-20 seconds |
-| Transitions | 2-3 seconds |
-| CTA/Outro | 5-10 seconds |
-| End Card | 3-5 seconds |
-
-**Calculating duration from script:** ~150 words/minute speaking pace.
-
-```
-Words ÷ 150 × 60 = Duration in seconds
-```
-
-## Copy Guidelines
-
-Apply these rules to VO scripts and text overlays:
-
-| Rule | Do | Don't |
-|------|-----|-------|
-| Ampersands | Spell out "and" | Use & (except known terms like L&D) |
-| Acronyms | Spell out on first use | Jump straight to acronym |
-| Numbers | Spell out below 10 | Write "1, 2, 3" |
-| Lists | Use Oxford comma | Skip final comma |
-| Headlines | Sentence case | Title Case Every Word |
-| CTAs | 3-4 words, no punctuation | Long CTAs with periods |
-
-**Length limits:**
-- Headlines: 35-55 characters max
-- Body copy: 20-30 words per section
-- CTAs: 3-4 words max
-
-## Using Attachments
-
-Upload files to help Video Agent understand your content:
-
-| Type | Use For |
-|------|---------|
-| Images | Product screenshots, diagrams, brand assets |
-| Videos | Existing footage, demo recordings |
-| PDFs | Training materials, research, product docs |
-| Photos | Your own photo to use as avatar |
-
-**Critical: Always add context** about how attachments should be used:
-
-```typescript
-{
-  prompt: `Create a product demo video showcasing our dashboard.
-
-    Use the attached product screenshots as B-roll when discussing features.
-    Reference the attached PDF for accurate technical specifications.
-    The company logo should appear in the intro and outro.`,
-  files: [
-    { asset_id: screenshotAssetId },
-    { asset_id: pdfAssetId },
-    { asset_id: logoAssetId }
-  ]
-}
-```
-
-## Example: Brief to Structured Prompt
-
-### Input (Creative Brief)
-
-```
-Product: TaskFlow - AI-powered project management
-
-Audience: Startup founders and small team leads
-
-Key Messages:
-1. AI automatically prioritizes tasks
-2. Integrates with Slack and GitHub
-3. Free tier available
-
-Tone: Professional but friendly
-Duration: 60 seconds
-```
-
-### Output (Video Agent Prompt)
-
-```markdown
-# Global Style & Settings
-* **Visual Style:** Minimalistic, clean SaaS aesthetic
-* **Primary Colors:** Deep Blue (#1E40AF), White (#F8FAFC), Slate (#0F172A)
-* **Font:** Inter (Inter Bold for headlines and CTAs)
-* **Vibe:** Modern, efficient, approachable
-* **Avatar Placement:** A-roll for intro/outro and key insights.
-  B-roll Motion Graphics for feature demonstrations.
-
----
-
-# Scene-by-Scene Script
-
-### Scene 1: Hook
-* **Scene Type:** A-roll with Motion Graphics Overlay
-* **Visual:** Avatar on clean gradient background. Animated task cards
-  floating chaotically, then organizing themselves.
-* **VO:** "What if your task list organized itself?"
-* **Duration:** 0:00 - 0:05
-
-### Scene 2: Problem
-* **Scene Type:** B-roll (Stock Media)
-* **Visual:** Stock footage of overwhelmed professional at computer,
-  multiple browser tabs, sticky notes everywhere.
-* **VO:** "Managing projects across tools is chaos. Tasks slip through
-  the cracks. Priorities get buried."
-* **Duration:** 0:05 - 0:12
-
-### Scene 3: Solution Introduction
-* **Scene Type:** A-roll
-* **Visual:** Avatar returns, confident pose. Product logo appears
-  beside them.
-* **VO:** "Meet TaskFlow. AI-powered project management that thinks
-  ahead."
-* **Duration:** 0:12 - 0:18
-
-### Scene 4: Feature One - AI Prioritization
-* **Scene Type:** B-roll (Motion Graphics)
-* **Visual:** Animated dashboard showing tasks auto-sorting by priority.
-  AI indicator pulses as items rearrange. Callout: "Smart prioritization"
-* **VO:** "Our AI analyzes deadlines, dependencies, and team capacity.
-  It automatically surfaces what matters most, right now."
-* **Duration:** 0:18 - 0:30
-
-### Scene 5: Feature Two - Integrations
-* **Scene Type:** B-roll (Motion Graphics)
-* **Visual:** Icons for Slack, GitHub, and other tools flowing into
-  TaskFlow. Connection lines animate between them.
-* **VO:** "Connect your existing tools. Slack, GitHub, and 50 more
-  integrations. Everything syncs automatically."
-* **Duration:** 0:30 - 0:40
-
-### Scene 6: Feature Three - Free Tier
-* **Scene Type:** Motion Graphics
-* **Visual:** Pricing card animating in. "Free" highlighted with subtle
-  glow. Checkmarks appear next to features.
-* **VO:** "Start free. No credit card required. Upgrade when you're ready."
-* **Duration:** 0:40 - 0:48
-
-### Scene 7: CTA
-* **Scene Type:** A-roll
-* **Visual:** Avatar, direct eye contact, CTA text overlay appears.
-* **VO:** "Stop managing chaos. Start managing progress. Try TaskFlow today."
-* **Duration:** 0:48 - 0:55
-
-### Scene 8: End Card
-* **Scene Type:** Motion Graphics
-* **Visual:** Logo centered, tagline "AI-powered project management",
-  URL taskflow.com
-* **Duration:** 0:55 - 1:00
-
----
-
-**Instruction for Video Agent:** Use minimalistic, clean visuals
-throughout. Deep Blue (#1E40AF) as primary accent on white backgrounds.
-Leverage Motion Graphics for all feature demonstrations and data
-visualization. Use Stock Media only for the problem statement scene
-to show authentic workplace frustration. Include branded intro and
-outro sequences. Maintain consistent Inter font family across all
-text overlays.
-```
-
-## Ready-to-Use Prompt Templates
-
-### Product Demo
-
-```
-Create a 90-second product demo for [product name].
-Target audience: [audience].
-Highlight: [feature 1], [feature 2], and [feature 3].
-Tone: Professional but approachable.
-
-Use minimal, clean styled visuals with [brand colors].
-Include intro sequence with logo, feature demonstrations with motion
-graphics overlays, and CTA end card.
-```
-
-### Educational Explainer (Voice-Over Only)
-
-```
-Create a 2-minute video explaining [topic].
-No avatar needed, only voice-over.
-Use minimal diagrams and visualizations.
-Cool neutrals (navy, gray, white), clean diagrams, smooth motion.
-B-roll is motion graphics and abstract illustrations.
-Include clear section breaks between concepts.
-```
-
-### Compliance/Training
-
-```
-Use a professional avatar. Create a training video explaining
-[topic] in detail. Use examples and list key points to remember.
-Leverage motion graphics as A-roll overlays and B-roll to help
-explain core concepts. Professional tone, clear structure.
-```
-
-### Social Media Ad (30 seconds)
-
-```
-Create an energetic 30-second ad for [product/service].
-Target: [audience].
-Key message: [main value prop].
-Aspect ratio: Portrait (9:16) for TikTok/Reels.
-
-Fast-paced editing, bright colors, dynamic transitions.
-Show quick cuts using stock media and motion graphics.
-End with strong call-to-action.
-```
-
-### Thought Leadership
-
-```
-Create a 2-minute video on [topic].
-Position the speaker as an industry expert.
-Tone: Authoritative but accessible.
-
-Structure:
-- Hook with surprising insight (motion graphics)
-- 3 key points (avatar + supporting visuals)
-- Actionable advice for viewers
-- Closing thought + CTA
-
-Use professional studio background. Minimal, sophisticated visual style.
-```
+| File | Load when... |
+|------|-------------|
+| [visual-styles.md](visual-styles.md) | Choosing a visual style (20 styles with full specs) |
+| [prompt-examples.md](prompt-examples.md) | Writing a prompt from scratch (full production example + templates) |
 
 ## Workflow: Brief to Prompt
 
-When given a creative brief:
+1. **Pull data** — Research the topic: web search, APIs, internal docs. Gather real quotes, stats, handles
+2. **Synthesize a thesis** — Not a list. A story. *"X is happening because Y — here's the proof."* Group into 3-5 themes with a narrative arc
+3. **Choose a style** — Match mood first, content second. Ask: *"What should the viewer FEEL?"* See [visual-styles.md](visual-styles.md)
+4. **Write the avatar** — Thematic wardrobe matching content's emotional context. Brand logos and content-specific props in the set (see Avatar Guide below)
+5. **Extract critical text** — List every number, quote, handle, and label that must appear literally
+6. **Break into scenes** — One concept per scene. Rotate scene types. Never 3+ of same type in a row. At least 2 pure B-roll scenes
+7. **Write voiceover** — Spell out numbers in VO ("one-point-eight-five million"), use figures on screen ("1.85M"). Narration on EVERY scene including B-roll
+8. **Layer each B-roll scene** — L1 background, L2 hero, L3 supporting, L4 info bar, L5 effects. Every element must MOVE
+9. **Add music direction** — Reference artists, describe energy arc
+10. **Add narration style** — How to deliver: fast/slow, where to pause, emotional register per section
 
-1. **Identify style** → Map to taxonomy or extract from brief
-2. **Extract color palette** → Use specified colors or infer from style
-3. **Break into scenes** → One concept per scene
-4. **Classify each scene** → Use media decision matrix
-5. **Write VO** → Apply copy guidelines
-6. **Calculate timing** → ~150 words/min, add buffer for visuals
-7. **Generate catch-all** → Summarize style, colors, media instructions
+## Prompt Anatomy
 
-## Optimization Checklist
+Every production-quality prompt follows this structure:
 
-Before submitting your prompt, verify:
+```
+FORMAT:    What kind of video, how long, what energy
+TONE:      Emotional register, references
+AVATAR:    Detailed physical + environment description (60-100 words)
+STYLE:     Named aesthetic with colors, typography, motion rules, transitions
+CRITICAL ON-SCREEN TEXT:  Exact strings that must appear
+SCENE-BY-SCENE:  Individual scene breakdowns with VO and layered visuals
+MUSIC:     Genre, reference artists, energy arc
+NARRATION STYLE:  How to deliver the voiceover
+```
 
-- [ ] **Purpose clear**: Video type (demo, tutorial, ad, etc.) stated
-- [ ] **Audience defined**: Who is watching and what they care about
-- [ ] **Duration specified**: Either in prompt or config
-- [ ] **Tone described**: Professional, casual, energetic, etc.
-- [ ] **Key points listed**: What must be communicated
-- [ ] **Visual style defined**: Colors, aesthetic, media types
-- [ ] **Structure provided**: Intro, body, CTA/outro
-- [ ] **Attachments contextualized**: How to use each uploaded file
+### FORMAT
 
-## Common Mistakes
+```
+FORMAT: 75-second high-energy tech daily briefing. Think: a creator who just got amazing news.
+FORMAT: Bloomberg-style strategy briefing. 100-120 seconds. CEO-delivered.
+```
 
-| Mistake | Fix |
-|---------|-----|
-| Vague prompt with no context | Add audience, purpose, and tone |
-| No visual direction | Define style, colors, media types |
-| Missing structure | Provide intro/body/outro framework |
-| Attachments without context | Explain how each file should be used |
-| Forgetting avatar preference | Specify avatar_id or "no avatar" for VO |
-| No call-to-action | Always end with what viewer should do |
-| Generic scene types | Be specific: "B-roll (Motion Graphics)" not just "B-roll" |
-| Vague timing | Use precise timestamps: "0:08 - 0:20" not "about 10 seconds" |
+### TONE
 
-## Key Principles
+```
+TONE: Confident, direct, data-backed. Highlights hit hard. Lowlights are honest — no spin.
+TONE: Edgy, punk tech commentary. Vice News meets The Face magazine — raw, confrontational.
+```
 
-| Principle | Why It Matters |
-|-----------|----------------|
-| Separate VO from Visual | Different generation tasks for the agent |
-| Be specific about scene types | Clarity improves output quality |
-| Use precise timestamps | Predictable pacing and duration |
-| Match media to content | Use decision matrix, not intuition |
-| Front-load global style | Every scene inherits the same DNA |
-| Iterate on results | Video Agent is a partner, not magic |
+### CRITICAL ON-SCREEN TEXT
 
-The more specific you are about content, style, media types, and scene structure, the closer you'll get to exactly what you envision.
+List every exact string that must appear on screen. Without this, the agent may summarize, round numbers, or rephrase quotes.
+
+```
+CRITICAL ON-SCREEN TEXT (display literally):
+- "$141M ARR — All-Time High"
+- "1.85M Signups — +28% MoM"
+- Quote: "Use technology to serve the message, not distract from it." — Shalev Hani
+- "@username" — exact social handle
+```
+
+### MUSIC & NARRATION
+
+```
+MUSIC: Driving electronic, heavy bass drops on key numbers. Run the Jewels meets
+a tech keynote. Builds relentlessly, only softens for customer stories.
+
+NARRATION STYLE: High energy throughout. Let numbers PUNCH — pause before big ones,
+then deliver hard. Customer stories get warmth. The close should feel like a mic drop.
+```
+
+## Avatar Description Guide
+
+**The avatar is NOT a fixed headshot** — design it for each video like a movie character. Think costume designer + set designer.
+
+### Thematic Wardrobe Rule
+
+The avatar's outfit and environment MUST match the content's emotional/cultural context:
+
+| Content Type | Avatar Design | NOT This |
+|---|---|---|
+| Chinese New Year | Red qipao with gold embroidery, lantern-lit courtyard | "Reporter in a blazer" |
+| Breaking tech news | Field reporter, windswept hair, earpiece, city skyline | "Anchor at a desk" |
+| Sleep science | Oversized cream knit, cross-legged on bed, warm lamp | "Analyst in a lab" |
+| Reddit community | Messy desk, Reddit alien on monitors, upvote arrows on wall | "Researcher in a studio" |
+
+### What to Specify
+
+| Element | Weak | Strong |
+|---------|------|--------|
+| Clothing | "Business casual" | "Black ribbed merino turtleneck, high collar framing jaw" |
+| Environment | "An office" | "Glass-walled conference room. Whiteboard with hand-drawn tier pyramid" |
+| Monitor content | "Computer screens" | "Monitor shows scrolling green terminal text and red security alerts" |
+| Lighting | "Well lit" | "Cool blue monitor glow from left, warm amber desk lamp from right" |
+
+### Template
+
+```
+AVATAR: [Clothing — fabric, color, fit, accessories, posture].
+[Setting — specific props, brand logos, what's on the walls].
+[Monitors/desk — content visible on screens, items on desk].
+[Lighting — direction, color temperature]. [Mood of the space].
+60-100 words. 3+ content-specific props. Brand elements visible.
+```
+
+## Scene Types
+
+| Type | Format | When to Use |
+|------|--------|-------------|
+| **A-ROLL** | Avatar speaking to camera | Intros, key insights, CTAs, emotional beats |
+| **FULL SCREEN B-ROLL** | No avatar — motion graphics only | Data visualization, information-dense content |
+| **A-ROLL + OVERLAY** | Split frame: avatar + content | Presenting data while maintaining human connection |
+
+**Rotation is mandatory.** Never 3+ of the same type in a row. Every prompt needs at least 2 pure B-roll scenes.
+
+**Voiceover on EVERY scene.** Every B-roll scene MUST include a `VOICEOVER:` line. Silent B-roll = broken video.
+
+### Scene Anatomy
+
+**A-ROLL:**
+```
+SCENE 1 — A-ROLL (10s)
+[Avatar center-frame, excited, hands gesturing]
+VOICEOVER: "The exact script for this scene."
+Lower-third: "TITLE TEXT" white on blue bar.
+```
+
+**B-ROLL with layers:**
+```
+SCENE 2 — FULL SCREEN B-ROLL (12s)
+[NO AVATAR — motion graphic only]
+VOICEOVER: "The exact script for this scene."
+LAYER 1: Dark #1a1a1a background with subtle grid lines pulsing.
+LAYER 2: "HEADLINE" SLAMS in from left in white Bold 100pt at -5 degrees.
+LAYER 3: Three data cards CASCADE from right, staggered 0.3s.
+LAYER 4: Bottom ticker SLIDES in: "supporting text scrolling continuously."
+LAYER 5: Grid lines RIPPLE outward from impact point.
+Hard cut.
+```
+
+**A-ROLL + OVERLAY:**
+```
+SCENE 3 — A-ROLL + OVERLAY (10s)
+[SPLIT — Avatar LEFT 35%. Content RIGHT 65%. NO overlap.]
+Avatar gestures toward content side.
+VOICEOVER: "The exact script for this scene."
+RIGHT SIDE: "HEADLINE" in cyan 60pt. Three stats COUNT UP below.
+```
+
+Alternate which side the avatar appears on between overlay scenes.
+
+## The Visual Layer System
+
+Break B-roll into 5 stacked layers. This is the most powerful technique for motion graphics scenes.
+
+| Layer | Purpose | Examples |
+|-------|---------|---------|
+| **L1** | Background | Textured surface, grid, gradient, color field |
+| **L2** | Hero content | Main headline/number that dominates the frame |
+| **L3** | Supporting data | Cards, stats, bullet points, secondary information |
+| **L4** | Information bar | Tickers, labels, source attributions, quotes |
+| **L5** | Effects | Particles, glitches, grid animations, ambient motion |
+
+Every B-roll: 4+ layers. Every overlay content side: 3+ layers. **Every element must MOVE.**
+
+## Motion Vocabulary
+
+### High Energy
+| Verb | Example |
+|------|---------|
+| **SLAMS** | `"$95M" SLAMS in from left at -5 degrees` |
+| **CRASHES** | `Title CRASHES in from right, screen-shake on impact` |
+| **PUNCHES** | `Quote card PUNCHES up from bottom` |
+| **STAMPS** | `Data blocks STAMP in staggered 0.4s` |
+| **SHATTERS** | `Text SHATTERS after 1.5s, revealing number underneath` |
+
+### Medium Energy
+| Verb | Example |
+|------|---------|
+| **CASCADE** | `Three cards CASCADE from top, staggered 0.3s` |
+| **SLIDES** | `Ticker SLIDES in from right — continuous scroll` |
+| **DROPS** | `"TIER 1" DROPS in with white flash` |
+| **FILLS** | `Progress bar FILLS 0 to 90% in orange` |
+| **DRAWS** | `Chart line DRAWS itself left to right` |
+
+### Low Energy
+| Verb | Example |
+|------|---------|
+| **types on** | `Quote types on word by word in italic white` |
+| **fades in** | `Logo fades in at center, held for 3 seconds` |
+| **FLOATS** | `Bokeh orbs FLOAT across frame at different speeds` |
+| **morphs** | `Number morphs from 17 to 18.9` |
+| **COUNTS UP** | `"1.85M" COUNTS UP from 0 in amber 96pt` |
+
+## Transition Types
+
+| Transition | Energy | Styles It Fits |
+|------------|--------|---------------|
+| Smash cut | Aggressive | Deconstructed, Maximalist, Carnival Surge |
+| White flash frame | Punchy | Deconstructed, Maximalist |
+| Grid wipe | Systematic | Swiss Pulse, Digital Grid |
+| Hard cut | Clean | Swiss Pulse, Shadow Cut |
+| Liquid dissolve | Elegant | Data Drift, Dream State |
+| Slow cross-dissolve | Refined | Velvet Standard |
+| Pop cut / bounce | Fun | Play Mode, Carnival Surge |
+| Snap cut | Urgent | Red Wire, Contact Sheet |
+| Soft dissolve | Warm | Soft Signal, Warm Grain, Quiet Drama |
+| Iris wipe | Nostalgic | Heritage Reel |
+
+## Timing Guidelines
+
+| Content Type | Duration |
+|--------------|----------|
+| Hook/Intro (A-roll) | 6-10 seconds |
+| Data-heavy B-roll | 10-15 seconds (NEVER ≤5s — causes black frames) |
+| A-roll + Overlay | 8-12 seconds |
+| CTA / Close (A-roll) | 6-8 seconds |
+
+**Common video lengths:** Social clip: 30-45s (5-7 scenes) | Briefing: 60-75s (7-9 scenes) | Deep dive: 90-120s (10-13 scenes)
+
+**Speaking pace:** ~150 words/minute. Calculate: `words / 150 * 60 = seconds`
+
+## What Doesn't Work
+
+Patterns that consistently produce poor results:
+
+**Layout language** — Screen coordinates cause empty/black B-roll:
+```
+❌ "UPPER-LEFT: headline in 48pt Helvetica"
+❌ "CENTER-SCREEN: display at coordinates (400, 300)"
+✅ "135K" SLAMS in from left, white Impact 120pt, fills 40% of frame.
+```
+
+**Named artists without specs** — "Ikko Tanaka style" means nothing to Video Agent. Translate to concrete rules:
+```
+❌ "Use an Ikko Tanaka style"
+✅ "Flat color blocks, maximum 3 colors per frame, 60% negative space, typography as primary element"
+```
+
+**Style examples injected into prompts** — Full example scenes from a style library confuse the agent. Use the style's **rules**, not example scenes.
+
+**Forced short B-roll (≤5 seconds)** — Too short for rendering. Every tested video with 5s B-roll had empty/black screens. Use 10-15s.
+
+**Content as a list, not a story** — "Here are 5 tweets" produces flat videos. Always synthesize: *"X is happening because Y — here's the proof."*
+
+## Production Insights
+
+### Style Performance (from 40+ videos)
+
+| Rank | Style | Strength |
+|------|-------|----------|
+| 1 | Deconstructed (Brody) | Most reliable across all topics |
+| 2 | Swiss Pulse (Müller-Brockmann) | Best for data-heavy content |
+| 3 | Digital Grid (Crouwel) | Strong for tech topics |
+| 4 | Geometric Bold (Tanaka) | Elegant and versatile |
+| 5 | Maximalist Type (Scher) | High energy, use sparingly |
+
+### Duration by Approach
+
+| Approach | Avg Duration | Quality |
+|----------|-------------|---------|
+| Natural storyboard + custom avatar | ~106s | Best |
+| Natural storyboard, no custom avatar | ~69s | Good |
+| Forced short scenes + custom avatar | ~71s | Mixed |
+| Layout language prompts | ~48s | Poor |
+
+## Quality Checklist
+
+- [ ] Thesis-driven — story, not bullet points
+- [ ] Style named with colors, typography, motion, transitions (see [visual-styles.md](visual-styles.md))
+- [ ] Avatar has thematic wardrobe + branded environment (60-100 words)
+- [ ] Critical text listed — every stat, quote, label
+- [ ] Scenes rotate types — never 3+ same type. At least 2 B-roll scenes
+- [ ] Every scene has VOICEOVER — including B-roll
+- [ ] B-roll scenes have 4+ layers, every element has motion verbs
+- [ ] B-roll scenes are 10-15 seconds (never ≤5s)
+- [ ] Brand logos appear when discussing companies
+- [ ] Every element moves — no static frames

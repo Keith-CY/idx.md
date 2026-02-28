@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-xiaohongshu",
+  "generated_at": "2026-02-28T14:46:57.471Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-xiaohongshu#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-xiaohongshu/HEAD.md",
+      "text": "title: xiaohongshu\nsummary: - Python venv: `/root/clawd/skills/xiaohongshu/venv`\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/heiheimaoya/xiaohongshu/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-xiaohongshu",
+        "topic": "openclaw-openclaw-xiaohongshu",
+        "type": "skills",
+        "title": "xiaohongshu",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/heiheimaoya/xiaohongshu/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:57.471Z",
+        "content_sha256": "87b9211cdc2ed1385bd45610beb0f67d1d12caf5e399d6f71611de235d5c19de"
+      }
+    }
+  ]
+}

@@ -7,31 +7,33 @@ summary: >-
 
   Headline formulas, page section types, and structural templates.
 
+  ## Contents
+
+  - Headline Formulas (outcome-focused, problem-focused, audience-focused,
+  differentiation-focused, proof-focused, additional formulas)
+
+  - Landing Page Section Types (core sections, supporting sections)
+
+  - Page Structure Templates (feature-heavy page, varied engaging page, compact
+  landing page, enterprise/B2B landing page, product launch page)
+
+  - Section Writing Tips (problem section, benefits section, how it works
+  section, testimonial selection)
+
   ## Headline Formulas
 
   ### Outcome-Focused
 
   **{Achieve desirable outcome} without {pain point}**
-
-  > Understand how users are really experiencing your site without drowning in
-  numbers
-
-  **{Achieve desirable outcome} by {how product makes it possible}**
-
-  > Generate more leads by seeing which companies visit your site
-
-  **Turn {input} into {outcome}**
-
-  > Turn your hard-earned sales into repeat customers
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.117Z
-content_sha256: a96c5290cd5ec24b82b9ac1dfaebbcb7111cb9e6495d5b6d1b1a5daa6332f739
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:38.948Z
+content_sha256: f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186
 ---

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-twitter-bookmark-sync",
+  "generated_at": "2026-02-28T14:46:51.257Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-twitter-bookmark-sync#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-twitter-bookmark-sync/HEAD.md",
+      "text": "title: twitter-bookmark-sync\nsummary: Automatically ranks your Twitter bookmarks daily and delivers a curated reading.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/twitter-bookmark-sync/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-twitter-bookmark-sync",
+        "topic": "openclaw-openclaw-twitter-bookmark-sync",
+        "type": "skills",
+        "title": "twitter-bookmark-sync",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/twitter-bookmark-sync/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:51.257Z",
+        "content_sha256": "416c9337350e46e02eb5623a9d411da74b4c56ec44ee7c1b16319e37fd458b6f"
+      }
+    }
+  ]
+}

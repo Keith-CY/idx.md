@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-web-deploy-github",
+  "generated_at": "2026-02-28T14:46:54.539Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-web-deploy-github#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-web-deploy-github/HEAD.md",
+      "text": "title: web-deploy-github\nsummary: Create and deploy single-page static websites to GitHub Pages with autonomous workflow.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thomeksolutions/web-deploy-github/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-web-deploy-github",
+        "topic": "openclaw-openclaw-web-deploy-github",
+        "type": "skills",
+        "title": "web-deploy-github",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thomeksolutions/web-deploy-github/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:54.539Z",
+        "content_sha256": "cdbf0d0666731687cb5eb77c0357b13e40ae6d772091ae7c8ad131914dfaf690"
+      }
+    }
+  ]
+}

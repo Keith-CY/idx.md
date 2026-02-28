@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-language-learning",
+  "generated_at": "2026-02-28T14:46:19.020Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-language-learning#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-language-learning/HEAD.md",
+      "text": "title: language-learning\nsummary: AI language tutor for learning ANY language through conversation, vocab drills, grammar lessons, flashcards.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/language-learning/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-language-learning",
+        "topic": "openclaw-openclaw-language-learning",
+        "type": "skills",
+        "title": "language-learning",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/language-learning/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:19.020Z",
+        "content_sha256": "bb9b988f3423308577acf60cbd22b7e734f64ba6960b96f0b36fce426f160fed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apple-music",
+  "generated_at": "2026-02-28T14:45:48.844Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apple-music#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apple-music/HEAD.md",
+      "text": "title: apple-music\nsummary: Search Apple Music, add songs to library, manage playlists, control playback and AirPlay.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-music/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apple-music",
+        "topic": "openclaw-openclaw-apple-music",
+        "type": "skills",
+        "title": "apple-music",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-music/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:48.844Z",
+        "content_sha256": "691319227019d546e529801a1172a71a0c52892d97593c0f886b588a6b4304a3"
+      }
+    }
+  ]
+}

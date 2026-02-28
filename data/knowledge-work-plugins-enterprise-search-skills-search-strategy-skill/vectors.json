@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-enterprise-search-skills-search-strategy-skill",
+  "generated_at": "2026-02-28T14:45:31.433Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-enterprise-search-skills-search-strategy-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-enterprise-search-skills-search-strategy-skill/HEAD.md",
+      "text": "title: search-strategy\nsummary: Query decomposition and multi-source search orchestration. Breaks natural language questions into targeted searches per source, translates queries into source-specific syntax, ranks results by relevance, and handles ambiguity and fallback strategies.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-enterprise-search, plugin-component-skills, plugin-skill, category-search-research\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/search-strategy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-enterprise-search-skills-search-strategy-skill",
+        "topic": "knowledge-work-plugins-enterprise-search-skills-search-strategy-skill",
+        "type": "skills",
+        "title": "search-strategy",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-enterprise-search",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/search-strategy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:31.433Z",
+        "content_sha256": "2b06a74db5f9c359f43c5976869ea32c934f3a1c97c688d9e3b2b5a7ebf113f2"
+      }
+    }
+  ]
+}

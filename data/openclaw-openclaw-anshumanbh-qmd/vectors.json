@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-anshumanbh-qmd",
+  "generated_at": "2026-02-28T14:45:47.742Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-anshumanbh-qmd#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-anshumanbh-qmd/HEAD.md",
+      "text": "title: anshumanbh-qmd\nsummary: Search markdown knowledge bases efficiently using.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anshumanbh/anshumanbh-qmd/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-anshumanbh-qmd",
+        "topic": "openclaw-openclaw-anshumanbh-qmd",
+        "type": "skills",
+        "title": "anshumanbh-qmd",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/anshumanbh/anshumanbh-qmd/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:47.742Z",
+        "content_sha256": "4229b98184a788281629e70f56ba5c88cbfd666f01091179ef80d8023b3d9204"
+      }
+    }
+  ]
+}

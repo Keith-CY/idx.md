@@ -27,9 +27,9 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/mermaid-diagrams/references/class-diagrams.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.526Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.124Z
 content_sha256: 5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3
 ---

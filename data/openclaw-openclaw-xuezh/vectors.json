@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-xuezh",
+  "generated_at": "2026-02-28T14:46:57.682Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-xuezh#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-xuezh/HEAD.md",
+      "text": "title: xuezh\nsummary: Teach Mandarin using the xuezh engine for review, speaking.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/local/xuezh/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-xuezh",
+        "topic": "openclaw-openclaw-xuezh",
+        "type": "skills",
+        "title": "xuezh",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/local/xuezh/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:57.682Z",
+        "content_sha256": "91e30e0c76bb86ba0a4bcabc285a783322ccf0ca5d69e617ad2f98713abf1050"
+      }
+    }
+  ]
+}

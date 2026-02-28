@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer",
+  "generated_at": "2026-02-28T14:45:21.965Z",
+  "records": [
+    {
+      "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer#head",
+      "kind": "head",
+      "path": "/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer/HEAD.md",
+      "text": "title: code-documentation-analyzer\nsummary: Code Documentation Analyzer - Auto-activating skill for Technical Documentation. Triggers on: code documentation analyzer, code documentation analyzer Part of the Technical Documentation skill category.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-jeremylongshore, github-repo-claude-code-plugins-plus-skills\nsource_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer",
+        "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer",
+        "type": "skills",
+        "title": "code-documentation-analyzer",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-jeremylongshore",
+          "github-repo-claude-code-plugins-plus-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:21.965Z",
+        "content_sha256": "da443a5413b629360e5026125dc2d6e310ba01769e7f382e58560996b6c5f1b5"
+      }
+    }
+  ]
+}

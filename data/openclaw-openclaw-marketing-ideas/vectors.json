@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-marketing-ideas",
+  "generated_at": "2026-02-28T14:46:21.058Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-marketing-ideas#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-marketing-ideas/HEAD.md",
+      "text": "title: marketing-ideas\nsummary: When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-finance\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-ideas/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-marketing-ideas",
+        "topic": "openclaw-openclaw-marketing-ideas",
+        "type": "skills",
+        "title": "marketing-ideas",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-finance"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-ideas/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:21.058Z",
+        "content_sha256": "27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983"
+      }
+    }
+  ]
+}

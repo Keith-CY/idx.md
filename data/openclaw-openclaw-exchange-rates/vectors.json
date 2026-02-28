@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-exchange-rates",
+  "generated_at": "2026-02-28T14:46:06.445Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-exchange-rates#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-exchange-rates/HEAD.md",
+      "text": "title: exchange-rates\nsummary: Fetch live exchange rates between any currency pairs from XE.com.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrinvincible29/exchange-rates/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-exchange-rates",
+        "topic": "openclaw-openclaw-exchange-rates",
+        "type": "skills",
+        "title": "exchange-rates",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrinvincible29/exchange-rates/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.445Z",
+        "content_sha256": "ebdce76f0a594e58a6178690386b007df33840f5ccc7d8cd1ac14ca0fecbd815"
+      }
+    }
+  ]
+}

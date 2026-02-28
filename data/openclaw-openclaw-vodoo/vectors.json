@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-vodoo",
+  "generated_at": "2026-02-28T14:46:53.497Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-vodoo#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-vodoo/HEAD.md",
+      "text": "title: vodoo\nsummary: Query and manage Odoo ERP data (helpdesk tickets, projects, tasks, CRM leads, knowledge articles) via the vodoo CLI\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julian-r/vodoo/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-vodoo",
+        "topic": "openclaw-openclaw-vodoo",
+        "type": "skills",
+        "title": "vodoo",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/julian-r/vodoo/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:53.497Z",
+        "content_sha256": "50cd2f692f8e5587d23cfb871081c0c19fa871219332b17329fa9fc16c1f2736"
+      }
+    }
+  ]
+}

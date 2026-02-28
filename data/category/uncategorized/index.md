@@ -3,7 +3,7 @@
 | Category | Uncategorized |
 | --- | --- |
 | Slug | uncategorized |
-| Count | 375 |
+| Count | 551 |
 
 ---
 stable_id: skills/agentskills-skill
@@ -14,24 +14,32 @@ summary: >-
 
   name: Agent
 
-  description: Documentation and capabilities reference for Agent
+  description: Use when creating, authoring, or integrating Agent Skills —
+  reusable instruction packages that extend agent capabilities. Reach for this
+  skill when building skill directories, writing SKILL.md files, bundling
+  scripts, validating skills, or adding skills support to an agent platform.
 
   metadata:
       mintlify-proj: agent
       version: "1.0"
   ---
 
-  ## Capabilities
+  # Agent Skills
 
-  Agent Skills enable AI agents to extend their capabilities with specialized
-  knowledge and workflows. Agents can discover and load skills on demand to
-  perform complex tasks more accurately and efficiently. Skills provide domain
-  expertise, new capabilities (like creating presentations or analyzing
-  datasets), repeatable workflows, and interoperability across different agent
-  products. The progressive disclosure model keeps agents fast by loading only
-  metadata at startup and full instructions when needed.
+  ## Product summary
 
-  ## Skills
+  Agent Skills is an open standard for packaging reusable instructions, scripts,
+  and resources that agents can discover and execute. A skill is a folder
+  containing a required `SKILL.md` file (with YAML frontmatter and Markdown
+  instructions) plus optional `scripts/`, `references/`, and `assets/`
+  directories. Skills enable agents to extend capabilities on demand using
+  progressive disclosure: metadata loads at startup, full instructions load when
+  activated, and bundled resources load only when needed. The primary
+  documentation is at https://agentskills.io. Key files: `SKILL.md` (required
+  frontmatter + instructions), `scripts/` (executable code), `references/`
+  (supporting docs), `assets/` (templates). Key tools: `skills-ref validate`
+  (validate skill format), `skills-ref to-prompt` (generate XML for agent
+  prompts).
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -39,8 +47,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:33.083Z
-content_sha256: d12348bcbe119dbd97f29bb3ded1ac1c4652e559df26e5198bac4ae8ceeb7e0b
+retrieved_at: 2026-02-28T14:45:26.321Z
+content_sha256: 1cae72783c9b5dc6de77a79554f5a89bb827526ba001d8f255c3df23830dadbd
 ---
 |/data/agentskills-skill|
 
@@ -85,13 +93,38 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.953Z
+retrieved_at: 2026-02-28T14:45:25.533Z
 content_sha256: 72cc179fe566e62aa18114513eb38e7b6188a7c76806289cdec97138f75b5b11
 ---
 |/data/github-markup-readme|
 
 ---
-stable_id: skills/github-skill-agno-agi-agno-git-workflow
+stable_id: skills/github-skill-actionbook-rust-skills-m04-zero-cost
+type: skills
+title: m04-zero-cost
+summary: "CRITICAL: Use for generics, traits, zero-cost abstraction. Triggers:
+  E0277, E0308, E0599, generic, trait, impl, dyn, where, monomorphization,
+  static dispatch, dynamic dispatch, impl Trait, trait bound not satisfied, 泛型,
+  特征, 零成本抽象, 单态化"
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-actionbook
+  - github-repo-rust-skills
+source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
+license: ""
+upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zero-cost/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.217Z
+content_sha256: 3a2eed8faf0a0087aa5c823d66341123cc6f43ef36d1767c3fdbcc86cf8b4b54
+---
+|/data/github-skill-actionbook-rust-skills-m04-zero-cost|
+
+---
+stable_id: skills/github-skill-agno-agi-agno-git-workflow-cdbf56f5
 type: skills
 title: git-workflow
 summary: Git workflow guidance for commits, branches, and pull requests
@@ -101,16 +134,16 @@ tags:
   - category-uncategorized
   - github-owner-agno-agi
   - github-repo-agno
-source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
+source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
 license: ""
-upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
+upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:26.947Z
+retrieved_at: 2026-02-28T14:45:21.265Z
 content_sha256: f7c93d25f3d18d937331eac825ad08147416c22992db98afe1bab170f399d732
 ---
-|/data/github-skill-agno-agi-agno-git-workflow|
+|/data/github-skill-agno-agi-agno-git-workflow-cdbf56f5|
 
 ---
 stable_id: skills/github-skill-alvarobartt-hf-mem-hf-mem
@@ -131,34 +164,62 @@ upstream_ref: https://github.com/alvarobartt/hf-mem/blob/main/SKILL.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.005Z
+retrieved_at: 2026-02-28T14:45:21.290Z
 content_sha256: d9d27a25d4367b077e7e5409d3d73a922abecc307c83bcbf8e22bd84bd2968fc
 ---
 |/data/github-skill-alvarobartt-hf-mem-hf-mem|
 
 ---
-stable_id: skills/github-skill-browserwing-browserwing-browserwing-executor
+stable_id: skills/github-skill-dadbodgeoff-drift-deduplication-1871b9dd
 type: skills
-title: browserwing-executor
-summary: Control browser automation through HTTP API. Supports page navigation,
-  element interaction (click, type, select), data extraction, accessibility
-  snapshot analysis, screenshot, JavaScript execution, and batch operations.
+title: deduplication
+summary: Event deduplication with canonical selection, reputation scoring, and
+  hash-based grouping for multi-source data aggregation. Handles both ID-based
+  and content-based deduplication.
 tags:
   - github-skill-search
   - source-github-code-search
   - category-uncategorized
-  - github-owner-browserwing
-  - github-repo-browserwing
-source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
+  - github-owner-dadbodgeoff
+  - github-repo-drift
+source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/drift v1
+  depreciated/skills/deduplication/SKILL.md
 license: ""
-upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
+upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1
+  depreciated/skills/deduplication/SKILL.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.067Z
-content_sha256: 7cf307723a69c58000aff515fdd60e8b1c72fb90b190980e9b12a4fd583c919d
+retrieved_at: 2026-02-28T14:45:21.613Z
+content_sha256: 4deb634eb2c423d4c175b0ac25cf35e595556b53a588b270acabc9677727164c
 ---
-|/data/github-skill-browserwing-browserwing-browserwing-executor|
+|/data/github-skill-dadbodgeoff-drift-deduplication-1871b9dd|
+
+---
+stable_id: skills/github-skill-dadbodgeoff-drift-sse-resilience-8c48bbc6
+type: skills
+title: sse-resilience
+summary: Redis-backed SSE stream management with stream registry, heartbeat
+  monitoring, completion store for terminal events, and automatic orphan cleanup
+  via background guardian process.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-dadbodgeoff
+  - github-repo-drift
+source_url: https://raw.githubusercontent.com/dadbodgeoff/drift/main/drift v1
+  depreciated/skills/sse-resilience/SKILL.md
+license: ""
+upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1
+  depreciated/skills/sse-resilience/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.668Z
+content_sha256: aac5d2e3719a15f8d764114ac9ccc88c8e66911735120681d88fa9237bc57c82
+---
+|/data/github-skill-dadbodgeoff-drift-sse-resilience-8c48bbc6|
 
 ---
 stable_id: skills/github-skill-danielmiessler-personal-ai-infrastructure-prompting
@@ -179,10 +240,34 @@ upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.406Z
+retrieved_at: 2026-02-28T14:45:21.691Z
 content_sha256: 14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5
 ---
 |/data/github-skill-danielmiessler-personal-ai-infrastructure-prompting|
+
+---
+stable_id: skills/github-skill-danielmiessler-personal-ai-infrastructure-prompting-22ec27f8
+type: skills
+title: Prompting
+summary: Meta-prompting system for dynamic prompt generation using templates,
+  standards, and patterns. USE WHEN meta-prompting, template generation, prompt
+  optimization, or programmatic prompt composition.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-danielmiessler
+  - github-repo-personal_ai_infrastructure
+source_url: https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v3.0/.claude/skills/Prompting/SKILL.md
+license: ""
+upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/main/Releases/v3.0/.claude/skills/Prompting/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.717Z
+content_sha256: 14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5
+---
+|/data/github-skill-danielmiessler-personal-ai-infrastructure-prompting-22ec27f8|
 
 ---
 stable_id: skills/github-skill-davepoon-buildwithclaude-content-research-writer
@@ -204,10 +289,104 @@ upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.495Z
+retrieved_at: 2026-02-28T14:45:21.769Z
 content_sha256: 1e2e8681cf7ba31550ac69151ec3fcb427559bcd3a92dc5e3b7070b7f4e076d3
 ---
 |/data/github-skill-davepoon-buildwithclaude-content-research-writer|
+
+---
+stable_id: skills/github-skill-davila7-claude-code-templates-scientific-schematics
+type: skills
+title: scientific-schematics
+summary: Create publication-quality scientific diagrams using Nano Banana Pro AI
+  with smart iterative refinement. Uses Gemini 3 Pro for quality review. Only
+  regenerates if quality is below threshold for your document type. Specialized
+  in neural network architectures, system diagrams, flowcharts, biological
+  pathways, and complex scientific visualizations.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-davila7
+  - github-repo-claude-code-templates
+source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
+license: ""
+upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.801Z
+content_sha256: 0ffbbb6c89e2a58b5d7fee718ab10db7ac663243eac22adb441722b278bd7da0
+---
+|/data/github-skill-davila7-claude-code-templates-scientific-schematics|
+
+---
+stable_id: skills/github-skill-davila7-claude-code-templates-writing-hookify-rules
+type: skills
+title: Writing Hookify Rules
+summary: This skill should be used when the user asks to "create a hookify
+  rule", "write a hook rule", "configure hookify", "add a hookify rule", or
+  needs guidance on hookify rule syntax and patterns.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-davila7
+  - github-repo-claude-code-templates
+source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
+license: ""
+upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.832Z
+content_sha256: cf7a6a0b92092f44c6532bd9af7189748a9c3b4d044005418230b08cc99ac55c
+---
+|/data/github-skill-davila7-claude-code-templates-writing-hookify-rules|
+
+---
+stable_id: skills/github-skill-elizaos-eliza-blucli
+type: skills
+title: blucli
+summary: BluOS CLI (blu) for discovery, playback, grouping, and volume.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-elizaos
+  - github-repo-eliza
+source_url: https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md
+license: ""
+upstream_ref: https://github.com/elizaOS/eliza/blob/develop/packages/skills/skills/blucli/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.884Z
+content_sha256: ff458cdfff63bc38a1764508d15b92086598c5b85ddb4f0946fb26527179e9ad
+---
+|/data/github-skill-elizaos-eliza-blucli|
+
+---
+stable_id: skills/github-skill-epicweb-dev-epic-stack-epic-ui-guidelines
+type: skills
+title: epic-ui-guidelines
+summary: Guide on UI/UX guidelines, accessibility, and component usage for Epic Stack
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-epicweb-dev
+  - github-repo-epic-stack
+source_url: https://raw.githubusercontent.com/epicweb-dev/epic-stack/main/docs/skills/epic-ui-guidelines/SKILL.md
+license: ""
+upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.909Z
+content_sha256: 74bcb9051bf6c222bb994885d81abe0c6b227bbf9913a48e6a594cfd1ff9bec9
+---
+|/data/github-skill-epicweb-dev-epic-stack-epic-ui-guidelines|
 
 ---
 stable_id: skills/github-skill-jeffallan-claude-skills-websocket-engineer
@@ -228,7 +407,7 @@ upstream_ref: https://github.com/Jeffallan/claude-skills/blob/main/skills/websoc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.544Z
+retrieved_at: 2026-02-28T14:45:21.942Z
 content_sha256: 11461f743126147b1d82358b217f69300733b9a811c9b9120fadf3c78f111f53
 ---
 |/data/github-skill-jeffallan-claude-skills-websocket-engineer|
@@ -256,7 +435,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.596Z
+retrieved_at: 2026-02-28T14:45:21.965Z
 content_sha256: da443a5413b629360e5026125dc2d6e310ba01769e7f382e58560996b6c5f1b5
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer|
@@ -288,10 +467,66 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.647Z
+retrieved_at: 2026-02-28T14:45:21.990Z
 content_sha256: df1082e311e831ebf4ba31873eaa77f772f087c4ce1253ccaca6441e62a9edf5
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive|
+
+---
+stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics
+type: skills
+title: klingai-pricing-basics
+summary: >-
+  Manage understand Kling AI pricing, credits, and cost optimization. Use when
+  budgeting or optimizing
+
+  costs for video generation. Trigger with phrases like 'kling ai pricing',
+  'klingai credits',
+
+  'kling ai cost', 'klingai budget'.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-jeremylongshore
+  - github-repo-claude-code-plugins-plus-skills
+source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md
+license: ""
+upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.014Z
+content_sha256: 766625b1a1cf0203aa7a3e02410d4fb061b280e0bc46a0a755440d068feda795
+---
+|/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics|
+
+---
+stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a
+type: skills
+title: langchain-core-workflow-a
+summary: |-
+  Build LangChain chains and prompts for structured LLM workflows.
+  Use when creating prompt templates, building LCEL chains,
+  or implementing sequential processing pipelines.
+  Trigger with phrases like "langchain chains", "langchain prompts",
+  "LCEL workflow", "langchain pipeline", "prompt template".
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-jeremylongshore
+  - github-repo-claude-code-plugins-plus-skills
+source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
+license: ""
+upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.036Z
+content_sha256: c0473fba93f5dcd029ee1d4d97cc0dc1cd5978ac93dae7472db2edad14f7c3af
+---
+|/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a|
 
 ---
 stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper
@@ -318,10 +553,94 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.701Z
+retrieved_at: 2026-02-28T14:45:22.071Z
 content_sha256: 7c52d6502e674073ecae1cfad98d9bfec42a0ab88559e9c14b3142e65b75af4c
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper|
+
+---
+stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker
+type: skills
+title: soc2-compliance-checker
+summary: |-
+  Soc2 Compliance Checker - Auto-activating skill for Security Advanced.
+  Triggers on: soc2 compliance checker, soc2 compliance checker
+  Part of the Security Advanced skill category.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-jeremylongshore
+  - github-repo-claude-code-plugins-plus-skills
+source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
+license: ""
+upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.112Z
+content_sha256: a3fc062feffc0b2a0683c9d9736f60ce293dbf649c7aeb68d9d6814756b70875
+---
+|/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker|
+
+---
+stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics
+type: skills
+title: twinmind-security-basics
+summary: |-
+  Implement security best practices for TwinMind integrations.
+  Use when securing API keys, configuring privacy settings,
+  or implementing data protection for meeting recordings.
+  Trigger with phrases like "twinmind security", "secure twinmind",
+  "twinmind privacy", "protect twinmind data", "twinmind api key security".
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-jeremylongshore
+  - github-repo-claude-code-plugins-plus-skills
+source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/twinmind-pack/skills/twinmind-security-basics/SKILL.md
+license: ""
+upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/twinmind-pack/skills/twinmind-security-basics/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.154Z
+content_sha256: 75c0b3da46c6c0ecc72ac7cb84bc7719bef72c1929cb626c38404e9be96202db
+---
+|/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics|
+
+---
+stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration
+type: skills
+title: vercel-upgrade-migration
+summary: >-
+  Execute analyze, plan, and execute Vercel SDK upgrades with breaking change
+  detection.
+
+  Use when upgrading Vercel SDK versions, detecting deprecations,
+
+  or migrating to new API versions.
+
+  Trigger with phrases like "upgrade vercel", "vercel migration",
+
+  "vercel breaking changes", "update vercel SDK", "analyze vercel version".
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-jeremylongshore
+  - github-repo-claude-code-plugins-plus-skills
+source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md
+license: ""
+upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.180Z
+content_sha256: 7780a3cba0b7e6a40ad75a4385d36755ff7a9878b7f037e130a342a0d1449211
+---
+|/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration|
 
 ---
 stable_id: skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-websocket-client-creator
@@ -348,7 +667,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.748Z
+retrieved_at: 2026-02-28T14:45:22.213Z
 content_sha256: ab8c99b15d77cc8fdcf284afec72cac2906494e6d9a0f04c04cf5b583451cb61
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-websocket-client-creator|
@@ -371,7 +690,7 @@ upstream_ref: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.805Z
+retrieved_at: 2026-02-28T14:45:22.248Z
 content_sha256: aac690847982c5adb514a4f7f636c28bf51ee808dc4d56ed333e31c85c528854
 ---
 |/data/github-skill-k-dense-ai-claude-scientific-skills-pdf|
@@ -394,7 +713,7 @@ upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.855Z
+retrieved_at: 2026-02-28T14:45:22.271Z
 content_sha256: 4e1a25951a698c4a157214082fa2e8f61d6bb3a3e87343a0e8424737b08a880e
 ---
 |/data/github-skill-kevoreilly-capev2-cape-sandbox-developer|
@@ -418,7 +737,7 @@ upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_age
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.907Z
+retrieved_at: 2026-02-28T14:45:22.300Z
 content_sha256: e166d6d628cb342ad09d3cec892f07ab29a3f3d26f8931251b3b5abf30f0260b
 ---
 |/data/github-skill-kyegomez-swarms-financial-analysis|
@@ -441,7 +760,7 @@ upstream_ref: https://github.com/longbridge/gpui-component/blob/main/.claude/ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:27.964Z
+retrieved_at: 2026-02-28T14:45:22.374Z
 content_sha256: e2f3b32391855612eb6c3f58671f0a539f5568ed0af9283e9d03bcef88a9d7aa
 ---
 |/data/github-skill-longbridge-gpui-component-generate-component-story|
@@ -465,10 +784,35 @@ upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/bran
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.031Z
+retrieved_at: 2026-02-28T14:45:22.383Z
 content_sha256: bc046aafab458653f8e099866e06b904517a58aa99e69d4f116484df238fe1e9
 ---
 |/data/github-skill-luongnv89-claude-howto-brand-voice-consistency|
+
+---
+stable_id: skills/github-skill-openai-openai-agents-python-pr-draft-summary
+type: skills
+title: pr-draft-summary
+summary: Create a PR title and draft description after substantive code changes
+  are finished. Trigger when wrapping up a moderate-or-larger change (runtime
+  code, tests, build config, docs with behavior impact) and you need the
+  PR-ready summary block with change summary plus PR draft text.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openai
+  - github-repo-openai-agents-python
+source_url: https://raw.githubusercontent.com/openai/openai-agents-python/main/.agents/skills/pr-draft-summary/SKILL.md
+license: ""
+upstream_ref: https://github.com/openai/openai-agents-python/blob/main/.agents/skills/pr-draft-summary/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.497Z
+content_sha256: 7d4da99993c8a05e9cd84885cc15831f8c1c73f621f7cf5c3f62c127eb21ba3f
+---
+|/data/github-skill-openai-openai-agents-python-pr-draft-summary|
 
 ---
 stable_id: skills/github-skill-openclaw-skills-ai-music-generation
@@ -506,10 +850,35 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/okaris/ai-musi
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.081Z
-content_sha256: b5e203cfae25fabeedb325ed7c5c2e3154addacdbd322150ceab07b117bc6304
+retrieved_at: 2026-02-28T14:45:22.597Z
+content_sha256: ae5c82e46512da4b4f969e5a7ac6e476421ce00e59e941cf04b56ce1715223ea
 ---
 |/data/github-skill-openclaw-skills-ai-music-generation|
+
+---
+stable_id: skills/github-skill-openclaw-skills-bagman
+type: skills
+title: bagman
+summary: Secure key management for AI agents. Use when handling private keys,
+  API secrets, wallet credentials, or when building systems that need
+  agent-controlled funds. Covers secure storage, session keys, leak prevention,
+  and prompt injection defense.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zscole/openclaw/SKILL.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/zscole/openclaw/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.643Z
+content_sha256: d02c176b4386f397f1ad3911728c545060479464c4042b25545b62c83499b556
+---
+|/data/github-skill-openclaw-skills-bagman|
 
 ---
 stable_id: skills/github-skill-openclaw-skills-book-detailing
@@ -530,7 +899,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/edwardrodrigue
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.131Z
+retrieved_at: 2026-02-28T14:45:22.692Z
 content_sha256: 27ebdce0de5990a9ebb7282dff6a024086426c0f49ad59fe272fccfc82be86e5
 ---
 |/data/github-skill-openclaw-skills-book-detailing|
@@ -556,10 +925,33 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satoshi891102/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.244Z
+retrieved_at: 2026-02-28T14:45:22.782Z
 content_sha256: 015f04b2cd35640982b74e71e29422eac0636c88fb9641c5806a08ee3b07ffd6
 ---
 |/data/github-skill-openclaw-skills-bounty-hunter|
+
+---
+stable_id: skills/github-skill-openclaw-skills-bsc-impossible-finance
+type: skills
+title: bsc-impossible-finance
+summary: BSC (Binance Smart Chain) trading on Impossible Finance DEX - wallet
+  registration, swaps, discover tokens and pairs, funding.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ketiyohanneschromaway/impossible-finance/skills.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ketiyohanneschromaway/impossible-finance/skills.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.834Z
+content_sha256: d24ec4fd6b781b42820bb78757254891d26ab6b0e7f65616575671bd452218b7
+---
+|/data/github-skill-openclaw-skills-bsc-impossible-finance|
 
 ---
 stable_id: skills/github-skill-openclaw-skills-business-plan
@@ -586,7 +978,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/busine
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.293Z
+retrieved_at: 2026-02-28T14:45:22.880Z
 content_sha256: 92236ce91a05cd06a791edcefba23213bb33648e67007a03d7d12a10b7a7a3a2
 ---
 |/data/github-skill-openclaw-skills-business-plan|
@@ -609,7 +1001,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/lucasyao1985/c
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.352Z
+retrieved_at: 2026-02-28T14:45:22.928Z
 content_sha256: 32c9d3c6feeb9227b1022db18f1680bd9808baae00cd9d72995f6251f1d0759b
 ---
 |/data/github-skill-openclaw-skills-clawdchat|
@@ -633,7 +1025,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/starbuck100/cl
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.407Z
+retrieved_at: 2026-02-28T14:45:22.970Z
 content_sha256: e57f59343a82ce655ea8770f809192a186f5838973f20e985c1c4dad13cf8f7a
 ---
 |/data/github-skill-openclaw-skills-clawdhub-contributor|
@@ -657,7 +1049,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/syslink/clawga
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.467Z
+retrieved_at: 2026-02-28T14:45:23.015Z
 content_sha256: c505beae8b72dbb7342e19e79f0848ed44929ef0f4990f1ddced0379c741bb87
 ---
 |/data/github-skill-openclaw-skills-clawgang|
@@ -679,33 +1071,10 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/luccast/public
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.517Z
+retrieved_at: 2026-02-28T14:45:23.059Z
 content_sha256: e417b0d19b8420973cd6010e402e1a8b593f161e66fad3aee82389ab895e54fd
 ---
 |/data/github-skill-openclaw-skills-crabwalk|
-
----
-stable_id: skills/github-skill-openclaw-skills-docusaurus
-type: skills
-title: docusaurus
-summary: Docusaurus 3.x documentation framework - MDX authoring, theming,
-  versioning, i18n. Use for documentation sites or spec-weave.com.
-tags:
-  - github-skill-search
-  - source-github-code-search
-  - category-uncategorized
-  - github-owner-openclaw
-  - github-repo-skills
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anton-abyzov/sw-docusaurus/SKILL.md
-license: ""
-upstream_ref: https://github.com/openclaw/skills/blob/main/skills/anton-abyzov/sw-docusaurus/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.570Z
-content_sha256: 3107e70cd5782b01013c1b0c8a3a45fed2241884fceb97cafa94d3944caa159e
----
-|/data/github-skill-openclaw-skills-docusaurus|
 
 ---
 stable_id: skills/github-skill-openclaw-skills-journal
@@ -725,34 +1094,129 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/jo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.665Z
+retrieved_at: 2026-02-28T14:45:23.179Z
 content_sha256: 7631d2dd175784f2c2f3b24f317bfaf6d42de61959bde2fcdb693af9edda281e
 ---
 |/data/github-skill-openclaw-skills-journal|
 
 ---
-stable_id: skills/github-skill-openclaw-skills-moltmoon-sdk
+stable_id: skills/github-skill-openclaw-skills-leak
 type: skills
-title: moltmoon-sdk
-summary: Agent-ready SDK for MoltMoon—launch tokens, trade with lowest fees,
-  earn USDC rewards, all programmatic. Super early gem at 18k mcap with builders
-  cooking more.
+title: leak
+summary: Compatibility stub for migrating from the legacy mixed leak skill to
+  split hardened skills.
 tags:
   - github-skill-search
   - source-github-code-search
   - category-uncategorized
   - github-owner-openclaw
   - github-repo-skills
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eucalyptus-viminalis/leak/SKILL.md
 license: ""
-upstream_ref: https://github.com/openclaw/skills/blob/main/skills/enstest1/moltmoon-sdk/SKILL.md
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/eucalyptus-viminalis/leak/SKILL.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.720Z
-content_sha256: 1d28da4aebf4786845122839d37738b945226b53b10db7b47f4ec8b80c9c7365
+retrieved_at: 2026-02-28T14:45:23.222Z
+content_sha256: ceb4cb66c2cb3363b3c5a7d8cbde7ce15d0cb7e6f0095e581b5fbacbafe81b9f
 ---
-|/data/github-skill-openclaw-skills-moltmoon-sdk|
+|/data/github-skill-openclaw-skills-leak|
+
+---
+stable_id: skills/github-skill-openclaw-skills-moltpet
+type: skills
+title: moltpet
+summary: Digital pets for AI agents. Register, claim your egg, and raise a pet
+  by feeding it your daily moods.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jcheese1/moltpet/skill.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jcheese1/moltpet/skill.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.293Z
+content_sha256: 1060e54b3c5e3082a961fbb4fefde314bee60aa8885af1cdae03667df2cfb116
+---
+|/data/github-skill-openclaw-skills-moltpet|
+
+---
+stable_id: skills/github-skill-openclaw-skills-octoclaw
+type: skills
+title: octoclaw
+summary: Control OctoPrint 3D printer — monitor status, capture webcam
+  snapshots, manage prints, analyze gcode, and detect errors. Use when the user
+  asks about their 3D printer, print status, filament, temperatures, or wants to
+  start/pause/cancel a print.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peterhanily/octoclaw-print/SKILL.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/peterhanily/octoclaw-print/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.383Z
+content_sha256: 435fe716ecbd98b102532d1f0fe2e19f27b4eaba0f0d19993c3e51ec6dee3628
+---
+|/data/github-skill-openclaw-skills-octoclaw|
+
+---
+stable_id: skills/github-skill-openclaw-skills-physics
+type: skills
+title: Physics
+summary: Assist with physics from intuitive explanations to formal derivations
+  at any level.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/physics/SKILL.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/physics/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.519Z
+content_sha256: 5d4872e2dab3953a5f07228365e338f6105d64d82774b275ec3a1d14f2a2637c
+---
+|/data/github-skill-openclaw-skills-physics|
+
+---
+stable_id: skills/github-skill-openclaw-skills-qa-check
+type: skills
+title: qa-check
+summary: Mandatory quality assurance for all dev work before publishing. Use
+  BEFORE deploying any project to production. Validates build, tests browser
+  functionality, checks mobile responsiveness, and ensures no broken
+  links/images.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/qa-check/SKILL.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/gizmo-dev/qa-check/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.546Z
+content_sha256: e1bf8c367727e10f770b6f72579c39076d5dc37e8df11dbd2de88ab59ccbafd1
+---
+|/data/github-skill-openclaw-skills-qa-check|
 
 ---
 stable_id: skills/github-skill-openclaw-skills-seo-content-writer
@@ -773,8 +1237,8 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aaron-he-zhu/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.871Z
-content_sha256: 3c9cc3d8de2dcd74975b55c7d0a4e1f61c25cbc9e895000ee6991c8cb49caea1
+retrieved_at: 2026-02-28T14:45:23.591Z
+content_sha256: 05ea7762fc5f79c39d8f4529a4e368be9f62d82a96b1ad433ded2948321137d9
 ---
 |/data/github-skill-openclaw-skills-seo-content-writer|
 
@@ -795,7 +1259,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/chenyuan99/swe
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.921Z
+retrieved_at: 2026-02-28T14:45:23.632Z
 content_sha256: 3a6c65e8d92bbbcb71789ad4fbe48bba46fa24ecd38d0bcc1ae41b94bf866ee2
 ---
 |/data/github-skill-openclaw-skills-swelist|
@@ -818,7 +1282,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/donut33-social
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.974Z
+retrieved_at: 2026-02-28T14:45:23.679Z
 content_sha256: 2c24e7171443eab1ac6a5810df360575aa5af06f363a765dc9b122241da1ca6a
 ---
 |/data/github-skill-openclaw-skills-tagclaw|
@@ -840,10 +1304,33 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/hexiaochun/vid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.076Z
+retrieved_at: 2026-02-28T14:45:23.790Z
 content_sha256: a768ddbecc35778fde974d963c3797a49466913f38ef4ae28c0d239417768a01
 ---
 |/data/github-skill-openclaw-skills-vidu-video|
+
+---
+stable_id: skills/github-skill-prompt-security-clawsec-claw-release
+type: skills
+title: claw-release
+summary: Release automation for Claw skills and website. Guides through version
+  bumping, tagging, and release verification.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-prompt-security
+  - github-repo-clawsec
+source_url: https://raw.githubusercontent.com/prompt-security/clawsec/main/skills/claw-release/SKILL.md
+license: ""
+upstream_ref: https://github.com/prompt-security/clawsec/blob/main/skills/claw-release/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.854Z
+content_sha256: cda9f58b3be67876ba4a543d6192af60ea155c2102202340fdfc8770a848f07e
+---
+|/data/github-skill-prompt-security-clawsec-claw-release|
 
 ---
 stable_id: skills/github-skill-quickwit-oss-quickwit-simple-pr
@@ -862,7 +1349,7 @@ upstream_ref: https://github.com/quickwit-oss/quickwit/blob/main/.claude/skills/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.125Z
+retrieved_at: 2026-02-28T14:45:23.903Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---
 |/data/github-skill-quickwit-oss-quickwit-simple-pr|
@@ -884,10 +1371,56 @@ upstream_ref: https://github.com/quickwit-oss/tantivy/blob/main/.claude/skills/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.173Z
+retrieved_at: 2026-02-28T14:45:23.928Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---
 |/data/github-skill-quickwit-oss-tantivy-simple-pr|
+
+---
+stable_id: skills/github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
+type: skills
+title: hubspot-integration
+summary: "Expert patterns for HubSpot CRM integration including OAuth
+  authentication, CRM objects, associations, batch operations, webhooks, and
+  custom objects. Covers Node.js and Python SDKs. Use when: hubs..."
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-sickn33
+  - github-repo-antigravity-awesome-skills
+source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
+license: ""
+upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/hubspot-integration/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.979Z
+content_sha256: 5bdee6583ff71931e8e3fe04183260b28ece6e93d14328e57b074747aa9f0d3d
+---
+|/data/github-skill-sickn33-antigravity-awesome-skills-hubspot-integration|
+
+---
+stable_id: skills/github-skill-tencentblueking-bk-bcs-node-js
+type: skills
+title: Node.js 安全审查
+summary: 检查 RCE、SSRF、SQL 注入、路径穿越等安全问题，支持 Express/Koa/NestJS
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-tencentblueking
+  - github-repo-bk-bcs
+source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
+license: ""
+upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:24.072Z
+content_sha256: 311c55532125c7d080151847da11210f1e63997265d2d7a3103dc8c81da72a1d
+---
+|/data/github-skill-tencentblueking-bk-bcs-node-js|
 
 ---
 stable_id: skills/github-skill-tencentblueking-bk-bcs-skill
@@ -906,10 +1439,35 @@ upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.274Z
+retrieved_at: 2026-02-28T14:45:24.079Z
 content_sha256: 915a6b40fc01129073647d2139d73154189768f622e1c3c4d652d10ab63526f0
 ---
 |/data/github-skill-tencentblueking-bk-bcs-skill|
+
+---
+stable_id: skills/github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
+type: skills
+title: vllm-ascend-model-adapter
+summary: Adapt and debug existing or new models for vLLM on Ascend NPU.
+  Implement in /vllm-workspace/vllm and /vllm-workspace/vllm-ascend, validate
+  via direct vllm serve from /workspace, and deliver one signed commit in the
+  current repo.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-uncategorized
+  - github-owner-vllm-project
+  - github-repo-vllm-ascend
+source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
+license: ""
+upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:24.119Z
+content_sha256: 0ef9f14f2e7d1fe6c6967644158504542248965d1870b1a473fb74173ad1b119
+---
+|/data/github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter|
 
 ---
 stable_id: skills/ibelick-baseline-ui
@@ -920,8 +1478,10 @@ summary: >-
 
   name: baseline-ui
 
-  description: Enforces an opinionated UI baseline to prevent AI-generated
-  interface slop.
+  description: Validates animation durations, enforces typography scale, checks
+  component accessibility, and prevents layout anti-patterns in Tailwind CSS
+  projects. Use when building UI components, reviewing CSS utilities, styling
+  React views, or enforcing design consistency.
 
   ---
 
@@ -940,11 +1500,11 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.351Z
-content_sha256: 0957eead1bb79f848e623f88e7616171d7a42e67c6d090af50a0558fc892f9da
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.154Z
+content_sha256: 9bb2f868098a9d28ce7d10383039a28169d838cea6299f9df3706ecda7932949
 ---
 |/data/ibelick-baseline-ui|
 
@@ -952,14 +1512,24 @@ content_sha256: 0957eead1bb79f848e623f88e7616171d7a42e67c6d090af50a0558fc892f9da
 stable_id: skills/ibelick-fixing-accessibility
 type: skills
 title: ibelick-fixing-accessibility
-summary: |-
+summary: >-
   ---
+
   name: fixing-accessibility
-  description: Fix accessibility issues.
+
+  description: Audit and fix HTML accessibility issues including ARIA labels,
+  keyboard navigation, focus management, color contrast, and form errors. Use
+  when adding interactive controls, forms, dialogs, or reviewing WCAG
+  compliance.
+
   ---
+
   # fixing-accessibility
+
   Fix accessibility issues.
+
   ## how to use
+
   - `/fixing-accessibility`
     Apply these constraints to any UI work in this conversation.
   - `/fixing-accessibility <file>`
@@ -969,11 +1539,11 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-accessibility/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.398Z
-content_sha256: 94bfcccdf700a18cf63b92a9e8c1a05c10422c692b0bed6fab950611d8d4309c
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.195Z
+content_sha256: 549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf
 ---
 |/data/ibelick-fixing-accessibility|
 
@@ -981,28 +1551,32 @@ content_sha256: 94bfcccdf700a18cf63b92a9e8c1a05c10422c692b0bed6fab950611d8d4309c
 stable_id: skills/ibelick-fixing-metadata
 type: skills
 title: ibelick-fixing-metadata
-summary: |-
+summary: >-
   ---
+
   name: fixing-metadata
-  description: Ship correct, complete metadata.
+
+  description: >
+    Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph
+    tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding
+    SEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical URLs,
+    or shipping new pages that need correct meta tags.
+  version: 1.0.1
+
+  license: MIT
+
   ---
-  # fixing-metadata
-  Ship correct, complete metadata.
-  ## how to use
-  - `/fixing-metadata`
-    Apply these constraints to any metadata work in this conversation.
-  - `/fixing-metadata <file>`
 tags:
   - ibelick
   - source-ibelick-ui-skills
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.445Z
-content_sha256: 08b706369e9083d536cb0bb69f69114acfa63efcad39a3efc28abc7284fc7cf4
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.225Z
+content_sha256: b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547
 ---
 |/data/ibelick-fixing-metadata|
 
@@ -1010,14 +1584,24 @@ content_sha256: 08b706369e9083d536cb0bb69f69114acfa63efcad39a3efc28abc7284fc7cf4
 stable_id: skills/ibelick-fixing-motion-performance
 type: skills
 title: ibelick-fixing-motion-performance
-summary: |-
+summary: >-
   ---
+
   name: fixing-motion-performance
-  description: Fix animation performance issues.
+
+  description: Audit and fix animation performance issues including layout
+  thrashing, compositor properties, scroll-linked motion, and blur effects. Use
+  when animations stutter, transitions jank, or reviewing CSS/JS animation
+  performance.
+
   ---
+
   # fixing-motion-performance
+
   Fix animation performance issues.
+
   ## how to use
+
   - `/fixing-motion-performance`
     Apply these constraints to any UI animation work in this conversation.
   - `/fixing-motion-performance <file>`
@@ -1027,13 +1611,821 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-motion-performance/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.250Z
+content_sha256: 0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9
+---
+|/data/ibelick-fixing-motion-performance|
+
+---
+stable_id: skills/knowledge-work-plugins-design-commands-accessibility
+type: skills
+title: accessibility
+summary: Run a WCAG accessibility audit on a design or page
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/accessibility.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/accessibility.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.494Z
-content_sha256: 03e7505ca8cea654a640eaf010eec80da860911432ffdcdc0280641f8109ec1b
+retrieved_at: 2026-02-28T14:45:35.187Z
+content_sha256: d23e6d82b1e58f0fadb995a5867752dc25a6e3cb5b3ea47342c836b930298958
 ---
-|/data/ibelick-fixing-motion-performance|
+|/data/knowledge-work-plugins-design-commands-accessibility|
+
+---
+stable_id: skills/knowledge-work-plugins-design-commands-critique
+type: skills
+title: critique
+summary: Get structured design feedback on usability, hierarchy, and consistency
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/critique.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/critique.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.210Z
+content_sha256: fa8f575a0be6fe0d47aab61706038c7925b2e50465ca037d4ea7bfab3a8ea3c5
+---
+|/data/knowledge-work-plugins-design-commands-critique|
+
+---
+stable_id: skills/knowledge-work-plugins-design-commands-design-system
+type: skills
+title: design-system
+summary: Audit, document, or extend your design system
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/design-system.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/design-system.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.235Z
+content_sha256: 8e711fff953e0c71cd3b32bdb1833d158c697802345d55618b67ba7d7fdee984
+---
+|/data/knowledge-work-plugins-design-commands-design-system|
+
+---
+stable_id: skills/knowledge-work-plugins-design-commands-handoff
+type: skills
+title: handoff
+summary: Generate developer handoff specs from a design
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/handoff.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/handoff.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.288Z
+content_sha256: 5e20f7411e88bdc1d9a70b5eda60991d328d23c40986f323bffa94885fd8ffac
+---
+|/data/knowledge-work-plugins-design-commands-handoff|
+
+---
+stable_id: skills/knowledge-work-plugins-design-commands-research-synthesis
+type: skills
+title: research-synthesis
+summary: Synthesize user research into themes, insights, and recommendations
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/research-synthesis.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/research-synthesis.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.264Z
+content_sha256: 2e171996404ab1696a72a0dd8940e34df27c71decccb7ce3b20cecbae6688201
+---
+|/data/knowledge-work-plugins-design-commands-research-synthesis|
+
+---
+stable_id: skills/knowledge-work-plugins-design-commands-ux-copy
+type: skills
+title: ux-copy
+summary: Write or review UX copy — microcopy, error messages, empty states, CTAs
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/ux-copy.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/commands/ux-copy.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.314Z
+content_sha256: f895d3d68db2bfdb148c96548a8079e5fbad322f8ede87b512aaec1e6127bf06
+---
+|/data/knowledge-work-plugins-design-commands-ux-copy|
+
+---
+stable_id: skills/knowledge-work-plugins-design-skills-accessibility-review-skill
+type: skills
+title: accessibility-review
+summary: Audit designs and code for WCAG 2.1 AA compliance. Trigger with "is
+  this accessible", "accessibility check", "WCAG audit", "can screen readers use
+  this", "color contrast", or when the user asks about making designs or code
+  accessible to all users.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/accessibility-review/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/accessibility-review/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.158Z
+content_sha256: a3f61cf61fb47ad14095965460d64a663a4c6d53df32ca040b120e6eecc889de
+---
+|/data/knowledge-work-plugins-design-skills-accessibility-review-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-design-skills-design-critique-skill
+type: skills
+title: design-critique
+summary: Evaluate designs for usability, visual hierarchy, consistency, and
+  adherence to design principles. Trigger with "what do you think of this
+  design", "give me feedback on", "critique this", "review this mockup", or when
+  the user shares a design and asks for opinions.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-critique/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-critique/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.079Z
+content_sha256: 008156c53a3bba2b8bc5893a4246c558067aa46e9f0d6d641132c64579019cb4
+---
+|/data/knowledge-work-plugins-design-skills-design-critique-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-design-skills-design-handoff-skill
+type: skills
+title: design-handoff
+summary: Create comprehensive developer handoff documentation from designs.
+  Trigger with "handoff to engineering", "developer specs", "implementation
+  notes", "design specs for developers", or when a design needs to be translated
+  into detailed implementation guidance.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-handoff/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-handoff/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.015Z
+content_sha256: f46b416c17e5808fac0c6789679283659e87f4fbc21d3d3e601347ef185c265c
+---
+|/data/knowledge-work-plugins-design-skills-design-handoff-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-design-skills-design-system-management-skill
+type: skills
+title: design-system-management
+summary: Manage design tokens, component libraries, and pattern documentation.
+  Trigger with "design system", "component library", "design tokens", "style
+  guide", or when the user asks about maintaining consistency across designs.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-system-management/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-system-management/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.103Z
+content_sha256: 2e80d05162548b27396601e8a7160206dbf8513954108777776dc8a69e5beca7
+---
+|/data/knowledge-work-plugins-design-skills-design-system-management-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-design-skills-user-research-skill
+type: skills
+title: user-research
+summary: Plan, conduct, and synthesize user research. Trigger with "user
+  research plan", "interview guide", "usability test", "survey design",
+  "research questions", or when the user needs help with any aspect of
+  understanding their users through research.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/user-research/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/user-research/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.134Z
+content_sha256: fa18fc13d0f44aa869102962ef9466417ade726d659465195a40fbcf08cee156
+---
+|/data/knowledge-work-plugins-design-skills-user-research-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-design-skills-ux-writing-skill
+type: skills
+title: ux-writing
+summary: Write effective microcopy for user interfaces. Trigger with "write copy
+  for", "help with UX copy", "what should this button say", "error message for",
+  "empty state copy", or when the user needs help with any interface text.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-design
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/ux-writing/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/ux-writing/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.039Z
+content_sha256: e7feb80fe4d66bdc4debf40afa5afefd694f7e5b3b64b8ce57d3190ee8715012
+---
+|/data/knowledge-work-plugins-design-skills-ux-writing-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-commands-architecture
+type: skills
+title: architecture
+summary: Create or evaluate an architecture decision record (ADR)
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/architecture.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/architecture.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.248Z
+content_sha256: 8ac98b1b1d5d931eb74c8ad7198513b9f03d6db59ac55465f05d5cf935d5bb3a
+---
+|/data/knowledge-work-plugins-engineering-commands-architecture|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-commands-debug
+type: skills
+title: debug
+summary: Structured debugging session — reproduce, isolate, diagnose, and fix
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/debug.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/debug.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.271Z
+content_sha256: c88e6cbfbc3400d2989a53b9d2bfa2c2e45046e0c9fbbfef166f19458309cc11
+---
+|/data/knowledge-work-plugins-engineering-commands-debug|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-commands-deploy-checklist
+type: skills
+title: deploy-checklist
+summary: Pre-deployment verification checklist
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/deploy-checklist.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/deploy-checklist.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.167Z
+content_sha256: bf3236e2506e62958f25940b2b97a95d9dcde149a94f8b5cb3ed5e26642f6558
+---
+|/data/knowledge-work-plugins-engineering-commands-deploy-checklist|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-commands-incident
+type: skills
+title: incident
+summary: Run an incident response workflow — triage, communicate, and write postmortem
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/incident.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/incident.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.297Z
+content_sha256: 480ca02f022f2acf8dedfe4a7a28a11df1805ee18c90edd70423106981d2df71
+---
+|/data/knowledge-work-plugins-engineering-commands-incident|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-commands-review
+type: skills
+title: review
+summary: Review code changes for security, performance, and correctness
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/review.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/review.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.192Z
+content_sha256: b4870206136bc78f85a93f11005a2c037883e10ab794d7dda1306cf1a217cef7
+---
+|/data/knowledge-work-plugins-engineering-commands-review|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-commands-standup
+type: skills
+title: standup
+summary: Generate a standup update from recent activity
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/standup.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/commands/standup.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.217Z
+content_sha256: 7646622d5141ce70455f543b47a517f2702920c3d277095cb4cb11c1f2b9ceed
+---
+|/data/knowledge-work-plugins-engineering-commands-standup|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-skills-code-review-skill
+type: skills
+title: code-review
+summary: Review code for bugs, security vulnerabilities, performance issues, and
+  maintainability. Trigger with "review this code", "check this PR", "look at
+  this diff", "is this code safe?", or when the user shares code and asks for
+  feedback.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/code-review/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/code-review/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.024Z
+content_sha256: 3612de8f2c897f98ad20a46f5e0c9f8c6f160873b1e7f44def0bb2ff96ee3451
+---
+|/data/knowledge-work-plugins-engineering-skills-code-review-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-skills-documentation-skill
+type: skills
+title: documentation
+summary: Write and maintain technical documentation. Trigger with "write docs
+  for", "document this", "create a README", "write a runbook", "onboarding
+  guide", or when the user needs help with any form of technical writing — API
+  docs, architecture docs, or operational runbooks.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/documentation/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/documentation/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.079Z
+content_sha256: 1d469418f786a05be83d2a05f04d68788aeed584d13863a650f5ad73c6c4cf50
+---
+|/data/knowledge-work-plugins-engineering-skills-documentation-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-skills-incident-response-skill
+type: skills
+title: incident-response
+summary: Triage and manage production incidents. Trigger with "we have an
+  incident", "production is down", "something is broken", "there's an outage",
+  "SEV1", or when the user describes a production issue needing immediate
+  response.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/incident-response/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/incident-response/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.138Z
+content_sha256: 798b5d9d56111dfbf7a908f768580a1d72f63e0d84bf8058804cb3d410aafcec
+---
+|/data/knowledge-work-plugins-engineering-skills-incident-response-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-skills-system-design-skill
+type: skills
+title: system-design
+summary: Design systems, services, and architectures. Trigger with "design a
+  system for", "how should we architect", "system design for", "what's the right
+  architecture for", or when the user needs help with API design, data modeling,
+  or service boundaries.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/system-design/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/system-design/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.110Z
+content_sha256: 8f28eca99f2208872fc2483fcc93326b628f4f73116e91309a95e05da86a0ab5
+---
+|/data/knowledge-work-plugins-engineering-skills-system-design-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-skills-tech-debt-skill
+type: skills
+title: tech-debt
+summary: Identify, categorize, and prioritize technical debt. Trigger with "tech
+  debt", "technical debt audit", "what should we refactor", "code health", or
+  when the user asks about code quality, refactoring priorities, or maintenance
+  backlog.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/tech-debt/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/tech-debt/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.050Z
+content_sha256: ed3b4b1450c0fd9b8dad17313b5a4fafd8e6947d380b79b36a2e8259f3b1df0f
+---
+|/data/knowledge-work-plugins-engineering-skills-tech-debt-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-engineering-skills-testing-strategy-skill
+type: skills
+title: testing-strategy
+summary: Design test strategies and test plans. Trigger with "how should we
+  test", "test strategy for", "write tests for", "test plan", "what tests do we
+  need", or when the user needs help with testing approaches, coverage, or test
+  architecture.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-engineering
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/testing-strategy/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/testing-strategy/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.999Z
+content_sha256: 5c5e95830754bbdd838213fa05fc8f07523f591fd558fd3c86031ffd479f7a9e
+---
+|/data/knowledge-work-plugins-engineering-skills-testing-strategy-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-commands-comp-analysis
+type: skills
+title: comp-analysis
+summary: Analyze compensation — benchmarking, band placement, and equity modeling
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/comp-analysis.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/comp-analysis.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.974Z
+content_sha256: 1e7a10b2ed7a1e7a02ac72528331f552c1bc2bbd3e17938d753f5d3d8d707726
+---
+|/data/knowledge-work-plugins-human-resources-commands-comp-analysis|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-commands-draft-offer
+type: skills
+title: draft-offer
+summary: Draft an offer letter with comp details and terms
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/draft-offer.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/draft-offer.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.860Z
+content_sha256: 4f434996e270970a3b1752f3a23afc917819451959d45e8d46125617441c9f28
+---
+|/data/knowledge-work-plugins-human-resources-commands-draft-offer|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-commands-onboarding
+type: skills
+title: onboarding
+summary: Generate an onboarding checklist and first-week plan for a new hire
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/onboarding.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/onboarding.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.833Z
+content_sha256: e9a429673d6545151c3a2aa11fc11d60486d9a21528186e7c29c3797db23826a
+---
+|/data/knowledge-work-plugins-human-resources-commands-onboarding|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-commands-people-report
+type: skills
+title: people-report
+summary: Generate headcount, attrition, diversity, or org health reports
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/people-report.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/people-report.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.944Z
+content_sha256: f6de2c402e61f79de5a510c3ba4df1fdfc7e4a20d22c5ecf9f4728c43849045e
+---
+|/data/knowledge-work-plugins-human-resources-commands-people-report|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-commands-performance-review
+type: skills
+title: performance-review
+summary: Structure a performance review with self-assessment, manager template,
+  and calibration prep
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/performance-review.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/performance-review.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.893Z
+content_sha256: da1fa885161f5408074684b567018f95188561b509577dee1b5bf40dc7f1f3ef
+---
+|/data/knowledge-work-plugins-human-resources-commands-performance-review|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-commands-policy-lookup
+type: skills
+title: policy-lookup
+summary: Find and explain company policies
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/policy-lookup.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/commands/policy-lookup.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.918Z
+content_sha256: 9a5d38f2fa17381c88df51f8294cf0fd38c6b731a6ee96bc5b0b1b4860067e34
+---
+|/data/knowledge-work-plugins-human-resources-commands-policy-lookup|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-skills-compensation-benchmarking-skill
+type: skills
+title: compensation-benchmarking
+summary: Benchmark compensation against market data. Trigger with "what should
+  we pay", "comp benchmark", "market rate for", "salary range for", "is this
+  offer competitive", or when the user needs help evaluating or setting
+  compensation levels.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/compensation-benchmarking/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/compensation-benchmarking/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.715Z
+content_sha256: 410353b37500334dbf475785f321735163c543e0ddeea705a04b47f0b3f9589a
+---
+|/data/knowledge-work-plugins-human-resources-skills-compensation-benchmarking-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-skills-employee-handbook-skill
+type: skills
+title: employee-handbook
+summary: Answer questions about company policies, benefits, and procedures.
+  Trigger with "what's our policy on", "how does PTO work", "benefits question",
+  "expense policy", "remote work policy", or any question about company rules,
+  perks, or procedures.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/employee-handbook/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/employee-handbook/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.742Z
+content_sha256: c1a6d49a2c97643e0217aa8bfc5c693dcdab39862524bc28c9d2ebf2e32f8f8e
+---
+|/data/knowledge-work-plugins-human-resources-skills-employee-handbook-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-skills-interview-prep-skill
+type: skills
+title: interview-prep
+summary: Create structured interview plans with competency-based questions and
+  scorecards. Trigger with "interview plan for", "interview questions for", "how
+  should we interview", "scorecard for", or when the user is preparing to
+  interview candidates.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/interview-prep/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/interview-prep/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.660Z
+content_sha256: c687311babdeccf086aa5f6d86dcbfc3a9d1b8bb7124f072450ffa4315d98c4c
+---
+|/data/knowledge-work-plugins-human-resources-skills-interview-prep-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-skills-org-planning-skill
+type: skills
+title: org-planning
+summary: Headcount planning, org design, and team structure optimization.
+  Trigger with "org planning", "headcount plan", "team structure", "reorg", "who
+  should we hire next", or when the user is thinking about team size, reporting
+  structure, or organizational design.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/org-planning/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/org-planning/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.765Z
+content_sha256: b3c6e33d251487225485c7fe455586f0cd490b282d7e41054273fa60820891ea
+---
+|/data/knowledge-work-plugins-human-resources-skills-org-planning-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-skills-people-analytics-skill
+type: skills
+title: people-analytics
+summary: Analyze workforce data — attrition, engagement, diversity, and
+  productivity. Trigger with "attrition rate", "turnover analysis", "diversity
+  metrics", "engagement data", "retention risk", or when the user wants to
+  understand workforce trends from HR data.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/people-analytics/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/people-analytics/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.691Z
+content_sha256: 1c802a3bc27f4f0476fd3016889ece7cd05f1a78eba9e9458f0b2e8e984d3b9e
+---
+|/data/knowledge-work-plugins-human-resources-skills-people-analytics-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill
+type: skills
+title: recruiting-pipeline
+summary: Track and manage recruiting pipeline stages. Trigger with "recruiting
+  update", "candidate pipeline", "how many candidates", "hiring status", or when
+  the user discusses sourcing, screening, interviewing, or extending offers.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-human-resources
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/recruiting-pipeline/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/recruiting-pipeline/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.804Z
+content_sha256: a00b442f701faa6eb65b8ecc8fcf375d5a33ec827b987ba8b04edaef0e90b92f
+---
+|/data/knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill|
 
 ---
 stable_id: skills/knowledge-work-plugins-legal-commands-brief
@@ -1053,10 +2445,33 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.358Z
+retrieved_at: 2026-02-28T14:45:29.910Z
 content_sha256: 526269db619b06cba7a389c3889a912c10f32fb4c2d7d6c402239f1fc8ba3f63
 ---
 |/data/knowledge-work-plugins-legal-commands-brief|
+
+---
+stable_id: skills/knowledge-work-plugins-legal-commands-compliance-check
+type: skills
+title: compliance-check
+summary: Run a compliance check on a proposed action, product feature, or
+  business initiative
+tags:
+  - source-knowledge-work-plugins
+  - plugin-legal
+  - plugin-component-commands
+  - plugin-command
+  - category-uncategorized
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/compliance-check.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/compliance-check.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:34.964Z
+content_sha256: 01327059d0f66e057b9773a68203ff3cf4e5b7681f66a2de63009d74ed657b7f
+---
+|/data/knowledge-work-plugins-legal-commands-compliance-check|
 
 ---
 stable_id: skills/knowledge-work-plugins-legal-commands-respond
@@ -1075,7 +2490,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.308Z
+retrieved_at: 2026-02-28T14:45:29.878Z
 content_sha256: 319c785cdee1fee1e16670710ce7307025c897653c834171d44c1cf517c06239
 ---
 |/data/knowledge-work-plugins-legal-commands-respond|
@@ -1098,10 +2513,32 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.199Z
-content_sha256: 5e6ab577c63a912be40f099a4d3956f86428d885660a729f80f7798301d60970
+retrieved_at: 2026-02-28T14:45:29.811Z
+content_sha256: 39e25d43938f66325a8212c4dddac98dddbb1ff3832d56f7be021cbd66ebe3d7
 ---
 |/data/knowledge-work-plugins-legal-commands-review-contract|
+
+---
+stable_id: skills/knowledge-work-plugins-legal-commands-signature-request
+type: skills
+title: signature-request
+summary: Prepare and route a document for e-signature
+tags:
+  - source-knowledge-work-plugins
+  - plugin-legal
+  - plugin-component-commands
+  - plugin-command
+  - category-uncategorized
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/signature-request.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/commands/signature-request.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:34.990Z
+content_sha256: d962c334d4dede394be2a27afb1c7fc1305547f90bb3034f584d04008d476d4b
+---
+|/data/knowledge-work-plugins-legal-commands-signature-request|
 
 ---
 stable_id: skills/knowledge-work-plugins-legal-commands-triage-nda
@@ -1121,8 +2558,8 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.140Z
-content_sha256: cd9f275f9d0f2ce212c078c4f713be5a2be4cb5e6a2ae01ef8fc1d11884d549a
+retrieved_at: 2026-02-28T14:45:29.786Z
+content_sha256: 3f0d477de2a9adfe13ead52c65ba7d15024e5360bb12eb493fa92801009b9df2
 ---
 |/data/knowledge-work-plugins-legal-commands-triage-nda|
 
@@ -1144,7 +2581,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.250Z
+retrieved_at: 2026-02-28T14:45:29.839Z
 content_sha256: 8a594343a16719db793c31cb67910a9a4596f2bb7aa713b0ee4d5f4830b1d015
 ---
 |/data/knowledge-work-plugins-legal-commands-vendor-check|
@@ -1169,7 +2606,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.041Z
+retrieved_at: 2026-02-28T14:45:29.729Z
 content_sha256: e245cfd0612604f4a8c1e060124dc72aa1db829a65250b40e22d119f02570415
 ---
 |/data/knowledge-work-plugins-legal-skills-canned-responses-skill|
@@ -1194,7 +2631,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.985Z
+retrieved_at: 2026-02-28T14:45:29.705Z
 content_sha256: e327e02605a40aacaa311eaf70a93aed19e530f6a108e8e2ed45246b4f1a4c80
 ---
 |/data/knowledge-work-plugins-legal-skills-compliance-skill|
@@ -1219,7 +2656,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:38.089Z
+retrieved_at: 2026-02-28T14:45:29.754Z
 content_sha256: a81446e3dc73c8295fc493fe5e6cb56946c57c2f4eefcaf16efe8ff0c7efca0a
 ---
 |/data/knowledge-work-plugins-legal-skills-contract-review-skill|
@@ -1244,7 +2681,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.882Z
+retrieved_at: 2026-02-28T14:45:29.646Z
 content_sha256: 9f7985e3a98ac8419b52067cdaa1b72f754fa38c20489e7f0bf9de36347d4d89
 ---
 |/data/knowledge-work-plugins-legal-skills-legal-risk-assessment-skill|
@@ -1269,7 +2706,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.825Z
+retrieved_at: 2026-02-28T14:45:29.624Z
 content_sha256: 4d19bc2ddb2138d1b306b150c5d0900ce0a398d5ab690b8eba8101ef33d98baa
 ---
 |/data/knowledge-work-plugins-legal-skills-meeting-briefing-skill|
@@ -1294,10 +2731,1025 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.936Z
+retrieved_at: 2026-02-28T14:45:29.679Z
 content_sha256: 01c4636b30c6f6f0ae06f0a8bdb504a8a7b0a0763836deada48ea705a63e0710
 ---
 |/data/knowledge-work-plugins-legal-skills-nda-triage-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-commands-capacity-plan
+type: skills
+title: capacity-plan
+summary: Plan resource capacity — workload analysis and utilization forecasting
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/capacity-plan.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/capacity-plan.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.635Z
+content_sha256: 2d5b5ac5082ec5b3581c56a33e4b7995e7d3ee3dabbb560c9b566931102afee2
+---
+|/data/knowledge-work-plugins-operations-commands-capacity-plan|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-commands-change-request
+type: skills
+title: change-request
+summary: Create a change management request with impact analysis and rollback plan
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/change-request.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/change-request.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.563Z
+content_sha256: b5a81fa004c552b2f636e93e85ceb383e23fbb8c82217f8f67c4ea9a343c7f0c
+---
+|/data/knowledge-work-plugins-operations-commands-change-request|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-commands-process-doc
+type: skills
+title: process-doc
+summary: Document a business process — flowcharts, RACI, and SOPs
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/process-doc.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/process-doc.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.538Z
+content_sha256: d2aea0b8c5e867bcabf8417838d36991d3a790947b56a7a44be52e2098987c01
+---
+|/data/knowledge-work-plugins-operations-commands-process-doc|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-commands-runbook
+type: skills
+title: runbook
+summary: Create or update an operational runbook
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/runbook.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/runbook.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.512Z
+content_sha256: d33cc0377d092f0ee0a4aafcd38946029a44bfa80fad9e93a03de35df80197d3
+---
+|/data/knowledge-work-plugins-operations-commands-runbook|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-commands-status-report
+type: skills
+title: status-report
+summary: Generate a status report with KPIs, risks, and action items
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/status-report.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/status-report.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.588Z
+content_sha256: e83c918cbf9d0ddcbb55877473d672092e8ba360a566a0e569c560441e7401ed
+---
+|/data/knowledge-work-plugins-operations-commands-status-report|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-commands-vendor-review
+type: skills
+title: vendor-review
+summary: Evaluate a vendor — cost analysis, risk assessment, and recommendation
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-commands
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/vendor-review.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/commands/vendor-review.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.611Z
+content_sha256: f69bd58fb7b34f3cbf84cf7b5ae693746230fcea4cfd42d11ce1a06ddf59809f
+---
+|/data/knowledge-work-plugins-operations-commands-vendor-review|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-skills-change-management-skill
+type: skills
+title: change-management
+summary: Plan and execute organizational or technical changes. Trigger with
+  "we're changing", "rolling out", "migration plan", "how do we communicate this
+  change", "change management plan", or when the user is planning a change that
+  affects people, processes, or systems.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/change-management/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/change-management/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.432Z
+content_sha256: 544bc14d1559ec17bd5a837c9290712df80e72389cabaf81af0e461362103472
+---
+|/data/knowledge-work-plugins-operations-skills-change-management-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-skills-compliance-tracking-skill
+type: skills
+title: compliance-tracking
+summary: Track compliance requirements and audit readiness. Trigger with
+  "compliance", "audit prep", "SOC 2", "ISO 27001", "GDPR", "regulatory
+  requirement", or when the user needs help tracking, preparing for, or
+  documenting compliance activities.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/compliance-tracking/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/compliance-tracking/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.486Z
+content_sha256: 644d393abdfddc8c37f7a7804f601e7bbd476e95571e6dcb4d916e478ba8ebd5
+---
+|/data/knowledge-work-plugins-operations-skills-compliance-tracking-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-skills-process-optimization-skill
+type: skills
+title: process-optimization
+summary: Analyze and improve business processes. Trigger with "this process is
+  slow", "how can we improve", "streamline this workflow", "too many steps",
+  "bottleneck", or when the user describes an inefficient process they want to
+  fix.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/process-optimization/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/process-optimization/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.458Z
+content_sha256: 14099838fdbfca24057e934fc22ed17f94629c5e9c9cec470f32e3063d0575f9
+---
+|/data/knowledge-work-plugins-operations-skills-process-optimization-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-skills-resource-planning-skill
+type: skills
+title: resource-planning
+summary: Plan and optimize resource allocation. Trigger with "resource
+  planning", "capacity", "utilization", "staffing plan", "who should work on
+  what", "we're stretched thin", or when the user needs help allocating people,
+  budget, or time across projects and teams.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/resource-planning/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/resource-planning/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.341Z
+content_sha256: 9b4c6d5a8b98d010d9ba5334fc3929eccef2f4ebfb067d49a181ccd93a810a57
+---
+|/data/knowledge-work-plugins-operations-skills-resource-planning-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-skills-risk-assessment-skill
+type: skills
+title: risk-assessment
+summary: Identify, assess, and mitigate operational risks. Trigger with "what
+  are the risks", "risk assessment", "risk register", "what could go wrong", or
+  when the user is evaluating risks associated with a project, vendor, process,
+  or decision.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/risk-assessment/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/risk-assessment/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.401Z
+content_sha256: 82e29810a762c396a56f92bbd5c5afd252f7a07c6be69a246c28f7b82c4086d9
+---
+|/data/knowledge-work-plugins-operations-skills-risk-assessment-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-operations-skills-vendor-management-skill
+type: skills
+title: vendor-management
+summary: Evaluate, compare, and manage vendor relationships. Trigger with
+  "evaluate this vendor", "compare vendors", "vendor review", "should we renew",
+  "RFP", or when the user is making procurement or vendor decisions.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-operations
+  - plugin-component-skills
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/vendor-management/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/vendor-management/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:35.365Z
+content_sha256: 85a5eb993452124e1d2a75fa0550906750ddc9149e16aeef031eb4f833371cde
+---
+|/data/knowledge-work-plugins-operations-skills-vendor-management-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-apollo-skills-enrich-lead-skill
+type: skills
+title: enrich-lead
+summary: Instant lead enrichment. Drop a name, company, LinkedIn URL, or email
+  and get the full contact card with email, phone, title, company intel, and
+  next actions.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-apollo
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/enrich-lead/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo/skills/enrich-lead/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.522Z
+content_sha256: 3966057f0a8faa2e1a49d6769f24beb227ad125141e746ce31c5e73dfae04463
+---
+|/data/knowledge-work-plugins-partner-built-apollo-skills-enrich-lead-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-apollo-skills-prospect-skill
+type: skills
+title: prospect
+summary: Full ICP-to-leads pipeline. Describe your ideal customer in plain
+  English and get a ranked table of enriched decision-maker leads with emails
+  and phone numbers.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-apollo
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/prospect/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo/skills/prospect/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.573Z
+content_sha256: 6ec8535206190b38599a13f2df2786626a2f6790e4d9bd40ecd0b97b2e4a8e3c
+---
+|/data/knowledge-work-plugins-partner-built-apollo-skills-prospect-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill
+type: skills
+title: sequence-load
+summary: Find leads matching criteria and bulk-add them to an Apollo outreach
+  sequence. Handles enrichment, contact creation, deduplication, and enrollment
+  in one flow.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-apollo
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/sequence-load/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/apollo/skills/sequence-load/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.549Z
+content_sha256: a536c7d818bc8bd42df0d1e116270b51ffcfc12be7472f2eb48a46e2aab5a5c6
+---
+|/data/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-agents-content-generation
+type: skills
+title: content-generation
+summary: >-
+  Generates brand-aligned sales and marketing content by applying brand
+  guidelines to specific content requests. Use this agent for long-form content,
+  batch generation, or when multiple brand constraints must be balanced
+  simultaneously.
+
+  <example> Context: The brand-voice-enforcement skill needs to generate a
+  detailed enterprise proposal. It delegates to the content-generation agent for
+  long-form, multi-constraint content creation. user: "Write a 5-page proposal
+  for our AI platform at a Fortune 500" assistant: "I'll generate a
+  brand-aligned proposal applying all guidelines..." <commentary> Long-form
+  content requiring simultaneous application of multiple brand constraints. The
+  content-generation agent handles complex generation with thorough validation.
+  </commentary> </example>
+
+  <example> Context: User needs a batch of personalized outreach emails for
+  different personas. user: "Create 5 cold emails for different buyer personas
+  using our brand voice" assistant: "I'll generate brand-aligned emails tailored
+  to each persona..." <commentary> Batch content generation requiring brand
+  consistency across multiple variations. The content-generation agent balances
+  brand constraints with persona-specific adaptation. </commentary> </example>
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/content-generation.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/content-generation.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.777Z
+content_sha256: ce35b5079520611a455590f23bc18f591c639b3da766f94f350250c32e7e145e
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-agents-content-generation|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-agents-conversation-analysis
+type: skills
+title: conversation-analysis
+summary: >-
+  Analyzes sales call transcripts to extract brand voice patterns, messaging
+  effectiveness, and tone variations. Use this agent when processing multiple
+  transcripts or performing deep pattern recognition across conversations.
+
+  <example> Context: The guideline-generation skill has 10 sales call
+  transcripts to analyze. user: "Generate brand guidelines from my last 10 sales
+  calls" assistant: "I'll analyze the transcripts for voice patterns and
+  messaging..." <commentary> Multiple transcripts need deep pattern recognition
+  across conversations. The conversation-analysis agent handles this heavy
+  analysis. </commentary> </example>
+
+  <example> Context: Gong transcripts were found during brand discovery and need
+  analysis. user: "Analyze the Gong calls found during discovery" assistant:
+  "I'll pull the transcripts from Gong and analyze voice patterns..."
+  <commentary> Discovery identified relevant Gong recordings. The
+  conversation-analysis agent fetches transcripts via MCP and performs deep
+  pattern analysis. </commentary> </example>
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/conversation-analysis.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/conversation-analysis.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.834Z
+content_sha256: 56f4372a35e6f82c1c8c837d7738d26d25cdc62c97c385c098209e924666af5e
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-agents-conversation-analysis|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-agents-discover-brand
+type: skills
+title: discover-brand
+summary: >-
+  Autonomously searches enterprise platforms to discover brand-related
+  documents, transcripts, and design assets. Use when the user wants to build
+  brand guidelines but doesn't know where materials are, or wants a
+  comprehensive brand content audit.
+
+  <example> Context: User wants to create brand guidelines but doesn't know what
+  materials exist. user: "I need brand guidelines but our stuff is scattered
+  everywhere — Notion, Confluence, Google Drive, Box..." assistant: "I'll search
+  across your connected platforms to find all brand-related materials."
+  <commentary> User has scattered brand materials across multiple platforms. The
+  discover-brand agent autonomously searches all connected MCP platforms to find
+  and triage brand content. </commentary> </example>
+
+  <example> Context: User wants a brand content audit before generating
+  guidelines. user: "What brand materials do we actually have? Can you find
+  everything?" assistant: "I'll run a comprehensive brand discovery across your
+  connected platforms." <commentary> User wants to understand what brand
+  materials exist. The discover-brand agent searches, categorizes, ranks, and
+  reports on all discovered brand content. </commentary> </example>
+
+  <example> Context: The discover-brand skill delegates deep platform search to
+  this agent. user: "Discover our brand voice" assistant: "I'll search your
+  connected platforms for brand materials..." <commentary> The discover-brand
+  skill orchestrates this agent for the heavy search and triage work.
+  </commentary> </example>
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/discover-brand.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/discover-brand.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.804Z
+content_sha256: 1fe968c860d85ec9b210eb0c213da6308675937464a8ac7f870029c092068932
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-agents-discover-brand|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-agents-document-analysis
+type: skills
+title: document-analysis
+summary: >-
+  Analyzes brand documents to extract voice attributes, messaging, terminology,
+  and examples. Use this agent when processing multiple brand documents or
+  performing cross-document pattern recognition.
+
+  <example> Context: The guideline-generation skill has received 5 brand
+  documents to process. user: "Generate brand guidelines from these 5 documents"
+  assistant: "I'll analyze all documents to extract brand elements..."
+  <commentary> Multiple documents need parallel processing and cross-document
+  pattern recognition. The document-analysis agent handles heavy parsing
+  efficiently. </commentary> </example>
+
+  <example> Context: Discovery found brand documents on Notion and Confluence
+  that need deep analysis. user: "Analyze the brand materials found during
+  discovery" assistant: "I'll do a deep analysis of each discovered document..."
+  <commentary> Discovery report identified key documents. The document-analysis
+  agent fetches full content from connected platforms and extracts structured
+  brand elements. </commentary> </example>
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/document-analysis.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/document-analysis.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.729Z
+content_sha256: 6bea19cfe763c7cd219efe02be995092699ffe3c2933f988a0922aea92d46ad4
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-agents-document-analysis|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-agents-quality-assurance
+type: skills
+title: quality-assurance
+summary: >-
+  Validates content and brand guidelines against brand standards. Use this agent
+  to check compliance, consistency, completeness, and open question coverage
+  before finalizing output.
+
+  <example> Context: The brand-voice-enforcement skill has generated a cold
+  email and wants to validate it against guidelines before presenting to the
+  user. user: "Check this email against our brand guidelines" assistant: "Let me
+  validate this against your brand guidelines..." <commentary> Content needs
+  validation against brand standards before delivery. The quality-assurance
+  agent performs a fast, structured compliance check. </commentary> </example>
+
+  <example> Context: Brand guidelines were just generated and need validation
+  before presenting. user: "Validate these brand guidelines for completeness and
+  quality" assistant: "Let me check the guidelines for completeness,
+  consistency, and open questions..." <commentary> Generated guidelines need
+  quality validation before presenting to the user. The quality-assurance agent
+  checks completeness, open questions coverage, and PII. </commentary>
+  </example>
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/quality-assurance.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/agents/quality-assurance.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.688Z
+content_sha256: 49f61dcd82f2cd7e00061b7c1fc973e83dc0f17e44b6b8156d79bbb0be798fe5
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-agents-quality-assurance|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-commands-discover-brand
+type: skills
+title: discover-brand
+summary: Search connected platforms for brand materials and produce a discovery report
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/discover-brand.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/commands/discover-brand.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.894Z
+content_sha256: 9749f7e23b0ba77f8cf8c9881b3ae9a85b0bc82210c3b54753ebf86ae7cace39
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-commands-discover-brand|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice
+type: skills
+title: enforce-voice
+summary: Apply brand guidelines to content creation
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/enforce-voice.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/commands/enforce-voice.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.863Z
+content_sha256: ab67acc3ab40ae221044595c35714aaaa52302045f57a26cc07d4b7f10310435
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-commands-generate-guidelines
+type: skills
+title: generate-guidelines
+summary: Generate brand voice guidelines from documents, transcripts, discovery
+  reports, or any combination
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/generate-guidelines.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/commands/generate-guidelines.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.920Z
+content_sha256: 86bd7b41be99ca52a092a480597d4d9b5a792d52ce9f618e7aaaf43d68b27ffa
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-commands-generate-guidelines|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill
+type: skills
+title: brand-voice-enforcement
+summary: This skill applies brand guidelines to content creation. It should be
+  used when the user asks to "write an email", "draft a proposal", "create a
+  pitch deck", "write a LinkedIn post", "draft a presentation", "write a Slack
+  message", "draft sales content", or any content creation request where brand
+  voice should be applied. Also triggers on "on-brand", "brand voice", "enforce
+  voice", "apply brand guidelines", "brand-aligned content", "write in our
+  voice", "use our brand tone", "make this sound like us", "rewrite this in our
+  tone", or "this doesn't sound on-brand". Not for generating guidelines from
+  scratch (use guideline-generation) or discovering brand materials (use
+  discover-brand).
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.600Z
+content_sha256: 3da527576a05b77669c0e3826ca909176df22358e262a69a5e4d470e770ab97a
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand-skill
+type: skills
+title: discover-brand
+summary: This skill orchestrates autonomous discovery of brand materials across
+  enterprise platforms (Notion, Confluence, Google Drive, Box, SharePoint,
+  Figma, Gong, Granola, Slack). It should be used when the user asks to
+  "discover brand materials", "find brand documents", "search for brand
+  guidelines", "audit brand content", "what brand materials do we have", "find
+  our style guide", "where are our brand docs", "do we have a style guide",
+  "discover brand voice", "brand content audit", or "find brand assets".
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/discover-brand/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/discover-brand/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.655Z
+content_sha256: 4d5d4490a1600c5277dd62cc629c14e3eddb301df63060ab1223d2a840949cb2
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation-skill
+type: skills
+title: guideline-generation
+summary: This skill generates, creates, or builds brand voice guidelines from
+  source materials. It should be used when the user asks to "generate brand
+  guidelines", "create a style guide", "extract brand voice", "create guidelines
+  from calls", "consolidate brand materials", "analyze my sales calls for brand
+  voice", "build a brand playbook from documents", "synthesize a voice and tone
+  guide", or uploads brand documents, transcripts, or meeting recordings for
+  brand analysis. Also triggers when the user has a discovery report and wants
+  to convert it into actionable guidelines.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-brand-voice
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/guideline-generation/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/brand-voice/skills/guideline-generation/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.632Z
+content_sha256: 9f5fd0e3d9ce41b02017cbbfe2663d8c788e015cd69ba71e87cbc44a8cad9be2
+---
+|/data/knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-commands-generate-account-plan
+type: skills
+title: generate-account-plan
+summary: Generate a comprehensive strategic account plan
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/commands/generate-account-plan.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/commands/generate-account-plan.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.467Z
+content_sha256: 3a8dbc4a8ae7e1a61e37552a21840d1162dfa59ccd6a4f7289355217b71ab6f9
+---
+|/data/knowledge-work-plugins-partner-built-common-room-commands-generate-account-plan|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-commands-weekly-brief
+type: skills
+title: weekly-brief
+summary: Generate a weekly prep briefing from your calendar and Common Room
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/commands/weekly-brief.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/commands/weekly-brief.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.494Z
+content_sha256: 03c64c6be28b971e9aedc870aad6b731a63bc59fe6cc332d9b2108e3ba8403d3
+---
+|/data/knowledge-work-plugins-partner-built-common-room-commands-weekly-brief|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-skills-account-research-skill
+type: skills
+title: account-research
+summary: Research a company using Common Room data. Triggers on 'research
+  [company]', 'tell me about [domain]', 'pull up signals for [account]', 'what's
+  going on with [company]', or any account-level question.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/account-research/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/account-research/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.361Z
+content_sha256: 66288f1275c427efeea6de62ca0679874195e1c01d2ff5c3b32269f53614571a
+---
+|/data/knowledge-work-plugins-partner-built-common-room-skills-account-research-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-skills-call-prep-skill
+type: skills
+title: call-prep
+summary: Prepare for a customer or prospect call using Common Room signals.
+  Triggers on 'prep me for my call with [company]', 'prepare for a meeting with
+  [company]', 'what should I know before talking to [company]', or any call
+  preparation request.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/call-prep/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.305Z
+content_sha256: 652c42776860edfa9b81c77aac0b545bb7748a708e01c001f356acc11d7e9f58
+---
+|/data/knowledge-work-plugins-partner-built-common-room-skills-call-prep-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-skills-compose-outreach-skill
+type: skills
+title: compose-outreach
+summary: Generate personalized outreach messages using Common Room signals.
+  Triggers on 'draft outreach to [person]', 'write an email to [name]', 'compose
+  a message for [contact]', or any outreach drafting request.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/compose-outreach/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/compose-outreach/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.386Z
+content_sha256: 6bba827598fce66ed3ce3672b62bb4d21e4ec7dd3dc54d7264bec8b515df0a43
+---
+|/data/knowledge-work-plugins-partner-built-common-room-skills-compose-outreach-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill
+type: skills
+title: contact-research
+summary: Research a specific person using Common Room data. Triggers on 'who is
+  [name]', 'look up [email]', 'research [contact]', 'is [name] a warm lead', or
+  any contact-level question.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/contact-research/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/contact-research/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.409Z
+content_sha256: 3c01f64652446bc82486c984287022a6410e9a1b282734332cb6a215aac0c684
+---
+|/data/knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill
+type: skills
+title: prospect
+summary: Build targeted account or contact lists using Common Room's Prospector.
+  Triggers on 'find companies that match [criteria]', 'build a prospect list',
+  'find contacts at [type of company]', 'show me companies hiring [role]', or
+  any list-building request.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/prospect/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/prospect/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.333Z
+content_sha256: 52f94d6084af91a0872a93b4d60ffda3c7578cc6d1d3246819954835d88637b5
+---
+|/data/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill
+type: skills
+title: weekly-prep-brief
+summary: Generate a comprehensive weekly briefing for all external calls in the
+  next 7 days. Triggers on 'weekly prep brief', 'prepare my week', 'what calls
+  do I have this week', 'Monday prep', or any weekly planning request.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-common-room
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/weekly-prep-brief/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/weekly-prep-brief/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.436Z
+content_sha256: 3c6a45f653a6c0a7b1b52e2f11f937236164d0c3f4df0f9f86d354dc6d16de16
+---
+|/data/knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-commands-channel-digest
+type: skills
+title: channel-digest
+summary: Get a digest of recent activity across multiple Slack channels
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/channel-digest.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/channel-digest.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:37.095Z
+content_sha256: 4445bdab04221e5d91cd5f1d986f78d314cf3391aa3b2d149989722aafc62291
+---
+|/data/knowledge-work-plugins-partner-built-slack-commands-channel-digest|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-commands-draft-announcement
+type: skills
+title: draft-announcement
+summary: Draft a well-formatted Slack announcement and save it as a draft
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/draft-announcement.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/draft-announcement.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:37.121Z
+content_sha256: bdffe9b4a5c73dc588fd730a46d8ecf152c6c617201b2fdf21a7a0e37820f333
+---
+|/data/knowledge-work-plugins-partner-built-slack-commands-draft-announcement|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-commands-find-discussions
+type: skills
+title: find-discussions
+summary: Find discussions about a specific topic across Slack channels
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/find-discussions.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/find-discussions.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:37.065Z
+content_sha256: 42e140bb804852040eb9b2d2c4917c72e102cc84c4e87042e728ea950315f6ab
+---
+|/data/knowledge-work-plugins-partner-built-slack-commands-find-discussions|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-commands-standup
+type: skills
+title: standup
+summary: Generate a standup update based on your recent Slack activity
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/standup.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/standup.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:37.036Z
+content_sha256: 2d6db206f93631b85ec88f32df8367a80f61e3107829b1cebc706d2e9c22264b
+---
+|/data/knowledge-work-plugins-partner-built-slack-commands-standup|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-commands-summarize-channel
+type: skills
+title: summarize-channel
+summary: Summarize recent activity in a Slack channel
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-command
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/summarize-channel.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/commands/summarize-channel.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:37.000Z
+content_sha256: 1719cc1abd991bac0b72947d93486219ada38895fd0e858f3c8d0e834d46d816
+---
+|/data/knowledge-work-plugins-partner-built-slack-commands-summarize-channel|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-skills-slack-messaging-skill
+type: skills
+title: slack-messaging
+summary: Guidance for composing well-formatted, effective Slack messages using
+  mrkdwn syntax
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/skills/slack-messaging/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/skills/slack-messaging/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.974Z
+content_sha256: 118ede41cbc4fa5c6be4593619b0d9f58a40d85cadfa295277c74c4b7acf1508
+---
+|/data/knowledge-work-plugins-partner-built-slack-skills-slack-messaging-skill|
+
+---
+stable_id: skills/knowledge-work-plugins-partner-built-slack-skills-slack-search-skill
+type: skills
+title: slack-search
+summary: Guidance for effectively searching Slack to find messages, files,
+  channels, and people
+tags:
+  - source-knowledge-work-plugins
+  - plugin-partner-built
+  - plugin-component-slack
+  - plugin-skill
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/skills/slack-search/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/slack/skills/slack-search/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:36.948Z
+content_sha256: 934d1c12a69d013890810a25da9f6c6a89c6b2dbd16f18a8862419e9f41e6879
+---
+|/data/knowledge-work-plugins-partner-built-slack-skills-slack-search-skill|
 
 ---
 stable_id: skills/mintlify-skill
@@ -1325,7 +3777,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:33.789Z
+retrieved_at: 2026-02-28T14:45:27.197Z
 content_sha256: c0823dd21f0b36efdb11a94f7bf3ac5d48c567c61bc2ce39603aa7154c76de57
 ---
 |/data/mintlify-skill|
@@ -1337,7 +3789,7 @@ title: moltbook-skill
 summary: |-
   ---
   name: moltbook
-  version: 1.9.0
+  version: 1.12.0
   description: The social network for AI agents. Post, comment, upvote, and create communities.
   homepage: https://www.moltbook.com
   metadata: {"moltbot":{"emoji":"🦞","category":"social","api_base":"https://www.moltbook.com/api/v1"}}
@@ -1352,8 +3804,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.942Z
-content_sha256: 306275e0303d752e180d0780fc3a19f77d37eadbc7f7a7c2c9107490481d8d5b
+retrieved_at: 2026-02-28T14:45:26.062Z
+content_sha256: bfa0055f6a4217a5c63dec8cef722726c944012616265732310a48fd4c4c6947
 ---
 |/data/moltbook-skill|
 
@@ -1395,10 +3847,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.207Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.144Z
 content_sha256: 7a238df1ebf0656c1da199aafafcc78c42f47bf4e56dd4e007a67afbb10af455
 ---
 |/data/obra-brainstorming|
@@ -1437,10 +3889,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/dispatching-parallel-agents/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.258Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.168Z
 content_sha256: c628917689ccc12ce9991615db6824d44c4fe71f8427cd959560aebe6a1a6476
 ---
 |/data/obra-dispatching-parallel-agents|
@@ -1478,10 +3930,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/executing-plans/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.299Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.193Z
 content_sha256: d099fa42fd7518f4dafa9f2d51c1c08fce970490d57682b6acd3e7a57bb55b52
 ---
 |/data/obra-executing-plans|
@@ -1521,10 +3973,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.350Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.217Z
 content_sha256: dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e
 ---
 |/data/obra-finishing-a-development-branch|
@@ -1563,10 +4015,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/receiving-code-review/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.400Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.242Z
 content_sha256: c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406
 ---
 |/data/obra-receiving-code-review|
@@ -1603,10 +4055,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.451Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.267Z
 content_sha256: 2da31af22a58938ab78f3ee6d5b4687fcca062b923b646459eb52ba72117ef97
 ---
 |/data/obra-requesting-code-review|
@@ -1644,10 +4096,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.505Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.293Z
 content_sha256: 994b89a5d294eadd6a1611edb51377bac748d5f5fb7f4139d3c736b616b3a46a
 ---
 |/data/obra-subagent-driven-development|
@@ -1685,10 +4137,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/systematic-debugging/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.541Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.324Z
 content_sha256: 4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473
 ---
 |/data/obra-systematic-debugging|
@@ -1725,10 +4177,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/test-driven-development/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.646Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.367Z
 content_sha256: 7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994
 ---
 |/data/obra-test-driven-development|
@@ -1768,10 +4220,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-git-worktrees/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.696Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.393Z
 content_sha256: de9dcde34840eee074047ec327d4ea6ca4954c5a73a6d874dc48f25fe46c9e7c
 ---
 |/data/obra-using-git-worktrees|
@@ -1810,10 +4262,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.743Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.423Z
 content_sha256: 07d73726944e38fac59b9c90d876e0f714e395308b357973ae77b1321fc75067
 ---
 |/data/obra-using-superpowers|
@@ -1851,10 +4303,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.810Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.447Z
 content_sha256: ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c
 ---
 |/data/obra-verification-before-completion|
@@ -1897,10 +4349,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.852Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.481Z
 content_sha256: 8a9198d4d9efbcad6e019b17c422c182113062c864b6154ec2a3ba2ed0b6b9d0
 ---
 |/data/obra-writing-plans|
@@ -1941,10 +4393,10 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.894Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.509Z
 content_sha256: d83a09d6a1c6976f6cc2f40addeae653a4a6eb5903097ebc365d90242e00e379
 ---
 |/data/obra-writing-skills|
@@ -1983,10 +4435,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/cloudflare-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/cloudflare-deploy/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.545Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.276Z
 content_sha256: d7632537cf19be17cf33d2c696b9d9c2ea3ee51026030e9b203d5b9255e75b15
 ---
 |/data/openai-curated-cloudflare-deploy|
@@ -2012,10 +4464,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/develop-web-game/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.587Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.314Z
 content_sha256: 4586330e97c99581f37798c179a71c62030fc20befa6de3e3ccb96d1adead9c7
 ---
 |/data/openai-curated-develop-web-game|
@@ -2053,10 +4505,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/doc/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/doc/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.633Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.323Z
 content_sha256: 0a635585817d1ac96e8e512114d08258b70f9e54ce0052078a258291ac13a8ed
 ---
 |/data/openai-curated-doc|
@@ -2098,10 +4550,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.740Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.378Z
 content_sha256: 5b11f7c8d0ce4c047b401323e7b8fe6559bd3162a3397bf5248634a5444609d5
 ---
 |/data/openai-curated-figma|
@@ -2144,10 +4596,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma-implement-design/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.687Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.351Z
 content_sha256: adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad
 ---
 |/data/openai-curated-figma-implement-design|
@@ -2186,10 +4638,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-address-comments/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.792Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.403Z
 content_sha256: 77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd
 ---
 |/data/openai-curated-gh-address-comments|
@@ -2234,10 +4686,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-fix-ci/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.844Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.428Z
 content_sha256: 7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26
 ---
 |/data/openai-curated-gh-fix-ci|
@@ -2281,10 +4733,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/imagegen/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/imagegen/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.893Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.455Z
 content_sha256: 4da06e7a1fbfaa94154dda2699e449a1f6d79e6e4299fcfeb785aad7c87f59dc
 ---
 |/data/openai-curated-imagegen|
@@ -2323,10 +4775,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/jupyter-notebook/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/jupyter-notebook/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.941Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.484Z
 content_sha256: 62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb
 ---
 |/data/openai-curated-jupyter-notebook|
@@ -2363,10 +4815,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/linear/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/linear/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.993Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.511Z
 content_sha256: ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601
 ---
 |/data/openai-curated-linear|
@@ -2404,10 +4856,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/netlify-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/netlify-deploy/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.048Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.538Z
 content_sha256: bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f
 ---
 |/data/openai-curated-netlify-deploy|
@@ -2444,10 +4896,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-knowledge-capture/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-knowledge-capture/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.106Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.562Z
 content_sha256: b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00
 ---
 |/data/openai-curated-notion-knowledge-capture|
@@ -2483,10 +4935,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-meeting-intelligence/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-meeting-intelligence/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.156Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.588Z
 content_sha256: bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332
 ---
 |/data/openai-curated-notion-meeting-intelligence|
@@ -2523,10 +4975,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-research-documentation/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-research-documentation/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.213Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.615Z
 content_sha256: e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7
 ---
 |/data/openai-curated-notion-research-documentation|
@@ -2563,10 +5015,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-spec-to-implementation/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-spec-to-implementation/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.267Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.640Z
 content_sha256: 6e22c4c6df441e849fa6b4b825371b579c9bb4896f97bedca5f8536020427a81
 ---
 |/data/openai-curated-notion-spec-to-implementation|
@@ -2612,10 +5064,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/openai-docs/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/openai-docs/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.316Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.668Z
 content_sha256: 100099568ce8887ccd961aad2aa824a6d6054d4e5e697625815cc6e1b30d54a7
 ---
 |/data/openai-curated-openai-docs|
@@ -2653,10 +5105,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/pdf/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/pdf/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.376Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.704Z
 content_sha256: d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2
 ---
 |/data/openai-curated-pdf|
@@ -2697,10 +5149,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/playwright/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.425Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.729Z
 content_sha256: 0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8
 ---
 |/data/openai-curated-playwright|
@@ -2741,10 +5193,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/render-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/render-deploy/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.490Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.770Z
 content_sha256: c17c75adeb1834ed5cee1e440a651ae476c4101cd63762fcd9a58eada917552d
 ---
 |/data/openai-curated-render-deploy|
@@ -2784,10 +5236,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/screenshot/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/screenshot/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.540Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.796Z
 content_sha256: 081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5
 ---
 |/data/openai-curated-screenshot|
@@ -2835,10 +5287,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-best-practices/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-best-practices/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.599Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.823Z
 content_sha256: 7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f
 ---
 |/data/openai-curated-security-best-practices|
@@ -2883,10 +5335,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-ownership-map/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-ownership-map/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.647Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.850Z
 content_sha256: f06c1a59247569326702c945f397af163ea96cf2ecfdf2dde280605bf89a3ec8
 ---
 |/data/openai-curated-security-ownership-map|
@@ -2931,10 +5383,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-threat-model/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/security-threat-model/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.704Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.879Z
 content_sha256: 1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2
 ---
 |/data/openai-curated-security-threat-model|
@@ -2975,10 +5427,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sentry/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sentry/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.751Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.903Z
 content_sha256: b598ea447ad6bec923f5c3879ace25e4a7f1368a7eac019b5c0e2f79a36322c6
 ---
 |/data/openai-curated-sentry|
@@ -3022,10 +5474,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sora/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sora/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.809Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.927Z
 content_sha256: 13ac4711e544afc1d76cc2f7ae34ff19089be5797654afba7932d6c2424acccf
 ---
 |/data/openai-curated-sora|
@@ -3067,10 +5519,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/speech/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/speech/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.863Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.950Z
 content_sha256: d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52
 ---
 |/data/openai-curated-speech|
@@ -3108,10 +5560,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/spreadsheet/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.909Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.973Z
 content_sha256: a9c3e61acb5e33b92760e9a1ea75b0031328095b0bb0118cacd055d749d1b73f
 ---
 |/data/openai-curated-spreadsheet|
@@ -3154,10 +5606,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/transcribe/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/transcribe/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.951Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.999Z
 content_sha256: f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09
 ---
 |/data/openai-curated-transcribe|
@@ -3184,23 +5636,24 @@ summary: >-
 
   ## Prerequisites
 
-  - When sandboxing blocks the deployment network calls, rerun with
-  `sandbox_permissions=require_escalated`.
+  - Check whether the Vercel CLI is installed **without** escalated permissions
+  (for example, `command -v vercel`).
+
+  - Only escalate the actual deploy command if sandboxing blocks the deployment
+  network calls (`sandbox_permissions=require_escalated`).
 
   - The deployment might take a few minutes. Use appropriate timeout values.
-
-  ## Quick Start
 tags:
   - openai
   - source-openai-skills
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/vercel-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-deploy/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.011Z
-content_sha256: f1f3fa3ff57f87f8f32d77ed635b63416f200a1f976a8a8d3e23d12b30df3ae4
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:25.024Z
+content_sha256: f4a6cbfbb378a320fae179a79f727a881d19677e9b3db96ed49d2dc02a74fa46
 ---
 |/data/openai-curated-vercel-deploy|
 
@@ -3238,10 +5691,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.062Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:25.054Z
 content_sha256: 2b4583b296a3a043b9002cd74e3ca5407fce832598dcd428272da08a9839f64b
 ---
 |/data/openai-curated-yeet|
@@ -3278,10 +5731,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-creator/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.113Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:25.080Z
 content_sha256: a17383bfb1448637ac1f757ad891ddb9676fa30b0eff620200f0e1cbc0cc0d50
 ---
 |/data/openai-system-skill-creator|
@@ -3324,40 +5777,13 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-installer/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-installer/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.160Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:25.115Z
 content_sha256: 09df0ea7921f63d51befae9fc8f71daece5ef49d7b96e35fff8b18d15d6afda7
 ---
 |/data/openai-system-skill-installer|
-
----
-stable_id: skills/openclaw-0xterrybit-stripe
-type: skills
-title: openclaw-0xterrybit-stripe
-summary: |-
-  ---
-  name: stripe
-  description: Stripe payment platform integration. Manage payments, subscriptions, invoices, and customers via Stripe API.
-  metadata: {"clawdbot":{"emoji":"💵","always":true,"requires":{"bins":["curl","jq"]},"primaryEnv":"STRIPE_API_KEY"}}
-  ---
-  # Stripe 💵
-  Stripe payment platform integration.
-  ## Setup
-  ```bash
-  export STRIPE_API_KEY="sk_live_..."
-tags: []
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/0xterrybit/stripe/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.712Z
-content_sha256: 9e3b621faca8e0d542e3c129676b02d503afcac8fe729efd1452586687959ef3
----
-|/data/openclaw-0xterrybit-stripe|
 
 ---
 stable_id: skills/openclaw-byungkyu-gmail
@@ -3384,7 +5810,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.407Z
+retrieved_at: 2026-02-28T14:45:27.581Z
 content_sha256: a9b948436dc3392ad3693ec91cf4ee6e390a9c38495661e3f9b6b069979f307e
 ---
 |/data/openclaw-byungkyu-gmail|
@@ -3398,26 +5824,28 @@ summary: >-
 
   name: Clawdbot
 
-  description: Self-hosted gateway that connects WhatsApp, Telegram, Discord,
-  iMessage, and more to AI coding agents. Run a single Gateway process on your
-  own machine and message your AI assistant from anywhere.
+  description: Use when setting up, configuring, or operating a self-hosted AI
+  agent gateway that connects messaging platforms (WhatsApp, Telegram, Discord,
+  iMessage, etc.) to AI agents. Reach for this skill when building agent
+  workspaces, managing channels, configuring tools and models, automating tasks
+  with cron/hooks, or troubleshooting agent behavior.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  ## Capabilities
+  # OpenClaw (clawdbot) Skill
 
-  OpenClaw enables AI agents to operate across multiple messaging platforms
-  simultaneously through a single self-hosted gateway. Agents can execute
-  complex workflows including browser automation, file operations, shell
-  commands, and inter-agent communication. The system supports persistent
-  sessions with memory management, multi-agent routing with workspace isolation,
-  and comprehensive security controls including sandboxing and elevated
-  execution modes.
+  ## Product summary
 
-  ## Skills
+  OpenClaw is a self-hosted gateway that bridges messaging apps (WhatsApp,
+  Telegram, Discord, iMessage, Slack, Signal, and more) to AI coding agents. A
+  single Gateway process runs on your machine or server and routes inbound
+  messages to an embedded agent runtime, which can use tools (browser, file I/O,
+  web search, cron jobs) to complete tasks. The agent maintains sessions per
+  conversation, reads workspace files for context (AGENTS.md, SOUL.md,
+  MEMORY.md), and streams replies back to the originating channel.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -3425,8 +5853,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.359Z
-content_sha256: 938544ac09f6779c511d625dab8a4c160f44770d363ed68efc2433b83b7839a8
+retrieved_at: 2026-02-28T14:45:27.533Z
+content_sha256: 89e22e9b12de7b87831407408c29b0a56f0880e6f70ba1c3f868adb11b76df0d
 ---
 |/data/openclaw-docs-skill|
 
@@ -3463,7 +5891,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.461Z
+retrieved_at: 2026-02-28T14:45:27.626Z
 content_sha256: 933c730820f32edcf0de613171eb93f310b62c8c82c1ff945cc456814d95be5c
 ---
 |/data/openclaw-mrgoodb-google-drive|
@@ -3501,7 +5929,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.607Z
+retrieved_at: 2026-02-28T14:45:27.782Z
 content_sha256: 236513c370ecd112822cb27a6e3bea0458a6ed74ace3ca2773530984b1f43511
 ---
 |/data/openclaw-mrgoodb-intercom|
@@ -3528,7 +5956,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.656Z
+retrieved_at: 2026-02-28T14:45:27.829Z
 content_sha256: 18ec875bfa85f598bb9aed704dc4c04092b00b47106462d48a51aced3209d4be
 ---
 |/data/openclaw-mrgoodb-shopify|
@@ -3555,7 +5983,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.763Z
+retrieved_at: 2026-02-28T14:45:27.919Z
 content_sha256: cecc1491df001a352b4afbc8e2378f6090dd3e774bfe940984c93a25f560bdcf
 ---
 |/data/openclaw-mrgoodb-twilio|
@@ -3582,7 +6010,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.555Z
+retrieved_at: 2026-02-28T14:45:27.737Z
 content_sha256: 54f9410a05f97b39ebf001a8589174fe3ca028c37fdfcd5856003eca920c5a1e
 ---
 |/data/openclaw-mrgoodb-zendesk|
@@ -3602,7 +6030,7 @@ summary: >-
     (4) Geocoding addresses to coordinates and reverse, (5) Places search and details, (6) Transit
     planning with arrival times. Supports future departure times, traffic models (pessimistic/optimistic),
     avoid options (tolls/highways), and multiple travel modes (driving/walking/bicycling/transit).
-  version: 3.0.0
+  version: 3.1.2
 
   author: Leo 🦁
 tags: []
@@ -3612,8 +6040,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.509Z
-content_sha256: 0f43a07e93b9409a8659e409a292a675d3d4d10adc6ea109060de4ec2df721f6
+retrieved_at: 2026-02-28T14:45:27.690Z
+content_sha256: 8258b1c816d9d0a9cd5eb8ad14adacb1459619a328b589cc90a98f7f47b96a4b
 ---
 |/data/openclaw-shaharsha-google-maps|
 
@@ -3651,7 +6079,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.115Z
+retrieved_at: 2026-02-28T14:45:27.427Z
 content_sha256: 485db7c6fe19be083bde01ced7027103de7df5fac74a8c2c486a94685569005e
 ---
 |/data/pinchboard-skill|
@@ -3688,10 +6116,10 @@ tags:
 source_url: https://raw.githubusercontent.com/199-biotechnologies/claude-deep-research-skill/HEAD/reference/methodology.md
 license: ""
 upstream_ref: https://skills.sh/199-biotechnologies/claude-deep-research-skill/deep-research
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.804Z
+github_stars: 70
+github_forks: 8
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.713Z
 content_sha256: 68c436d9010499cecb174935bfa14acd021f49482f5c59939616695421f03802
 ---
 |/data/skills-sh-199-biotechnologies-claude-deep-research-skill-deep-research|
@@ -3730,7 +6158,7 @@ upstream_ref: https://skills.sh/1nf-sh/skills/agent-tools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.187Z
+retrieved_at: 2026-02-28T14:45:32.282Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---
 |/data/skills-sh-1nf-sh-skills-agent-tools|
@@ -3759,7 +6187,7 @@ upstream_ref: https://skills.sh/1nf-sh/skills/javascript-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.358Z
+retrieved_at: 2026-02-28T14:45:32.376Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---
 |/data/skills-sh-1nf-sh-skills-javascript-sdk|
@@ -3788,7 +6216,7 @@ upstream_ref: https://skills.sh/1nf-sh/skills/python-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.298Z
+retrieved_at: 2026-02-28T14:45:32.342Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---
 |/data/skills-sh-1nf-sh-skills-python-sdk|
@@ -3827,10 +6255,50 @@ upstream_ref: https://skills.sh/1nfsh/skills/agent-tools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.343Z
+retrieved_at: 2026-02-28T14:45:32.684Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---
 |/data/skills-sh-1nfsh-skills-agent-tools|
+
+---
+stable_id: skills/skills-sh-404kidwiz-claude-supercode-skills-frontend-ui-ux-engineer
+type: skills
+title: skills-sh-404kidwiz-claude-supercode-skills-frontend-ui-ux-engineer
+summary: >-
+  # ML/AI Skills Conversion Project
+
+  ## Overview
+
+  This project provides comprehensive scripts and references for 11
+  ML/AI-related skills, designed for production use with best practices, error
+  handling, and configuration management.
+
+  ## Project Structure
+
+  ```
+
+  claude-skills-conversion/
+
+  ├── ai-engineer-skill/          # AI service integration, RAG, prompts
+
+  ├── llm-architect-skill/        # LLM design, fine-tuning, serving
+
+  ├── ml-engineer-skill/           # ML pipelines, scikit-learn
+
+  ├── mlops-engineer-skill/        # MLflow, deployment, monitoring
+tags:
+  - skills-sh
+  - skills-sh-probed
+source_url: https://raw.githubusercontent.com/404kidwiz/claude-supercode-skills/main/SKILL.md
+license: ""
+upstream_ref: https://skills.sh/404kidwiz/claude-supercode-skills/frontend-ui-ux-engineer
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:33.277Z
+content_sha256: 6162b10c3761ab986a5bd67906506177272da7bf08da6c7e352fa03002169a5a
+---
+|/data/skills-sh-404kidwiz-claude-supercode-skills-frontend-ui-ux-engineer|
 
 ---
 stable_id: skills/skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer
@@ -3867,13 +6335,42 @@ tags:
 source_url: https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/CONNECTORS.md
 license: ""
 upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.349Z
+github_stars: 270
+github_forks: 34
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.951Z
 content_sha256: a09cbb7eb5e98bb6f2563c08aed6206e6544615b24b75ca256812d56af63e37e
 ---
 |/data/skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer|
+
+---
+stable_id: skills/skills-sh-acedergren-oci-agent-skills-monitoring-operations
+type: skills
+title: skills-sh-acedergren-oci-agent-skills-monitoring-operations
+summary: |-
+  ### [Oracle Cloud Infrastructure Documentation](https://docs.oracle.com/iaas/Content/home.htm)
+  * * *
+  All Pages
+  [Skip to main content](https://docs.oracle.com/en-us/iaas/Content/Monitoring/Tasks/managingalarms.htm#dcoc-content-body)
+  # Managing Alarms
+  Create, update, suppress, and delete alarms. Retrieve alarm history.
+  The following pages describe how you can manage alarms:
+  - [Listing Alarms](https://docs.oracle.com/en-us/iaas/Content/Monitoring/Tasks/list-alarm.htm "List alarms in Monitoring.")
+  - [Creating an Alarm](https://docs.oracle.com/en-us/iaas/Content/Monitoring/Tasks/create-alarm.htm "Create an alarm in Monitoring to notify you when metrics meet specified triggers.")
+  - [Viewing an Alarm Metric Chart](https://docs.oracle.com/en-us/iaas/Content/Monitoring/Tasks/create-edit-alarm-chart.htm "View a metric chart for an alarm query in the Console.")
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/acedergren/oci-agent-skills/HEAD/skills/monitoring-operations/references/oci-monitoring-reference.md
+license: ""
+upstream_ref: https://skills.sh/acedergren/oci-agent-skills/monitoring-operations
+github_stars: 3
+github_forks: 1
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.444Z
+content_sha256: 873c0481f2754c71feb79e14a1c1a08d753fa1dd4fad94e5aefa9a42770693c0
+---
+|/data/skills-sh-acedergren-oci-agent-skills-monitoring-operations|
 
 ---
 stable_id: skills/skills-sh-actionbook-actionbook-actionbook
@@ -3906,10 +6403,10 @@ tags:
 source_url: https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md
 license: ""
 upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.089Z
+github_stars: 1186
+github_forks: 88
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.204Z
 content_sha256: cef0ec9c3af2e3d918965863033b049ce51b1f2d004febff0d1c2261515759b8
 ---
 |/data/skills-sh-actionbook-actionbook-actionbook|
@@ -3945,10 +6442,10 @@ tags:
 source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/web-quality-audit/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/addyosmani/web-quality-skills/accessibility
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.637Z
+github_stars: 573
+github_forks: 61
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:34.328Z
 content_sha256: aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01
 ---
 |/data/skills-sh-addyosmani-web-quality-skills-accessibility|
@@ -3984,10 +6481,10 @@ tags:
 source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/performance/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/addyosmani/web-quality-skills/core-web-vitals
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.181Z
+github_stars: 586
+github_forks: 61
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.656Z
 content_sha256: 4a480aded5001c237d9503ec3c6c6c6d5cc38bb7935912bb1c2bb9c3ee637350
 ---
 |/data/skills-sh-addyosmani-web-quality-skills-core-web-vitals|
@@ -4023,10 +6520,10 @@ tags:
 source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/addyosmani/web-quality-skills/performance
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.772Z
+github_stars: 586
+github_forks: 61
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.735Z
 content_sha256: b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c
 ---
 |/data/skills-sh-addyosmani-web-quality-skills-performance|
@@ -4055,7 +6552,7 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manim-composer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.289Z
+retrieved_at: 2026-02-28T14:45:42.514Z
 content_sha256: fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656
 ---
 |/data/skills-sh-adithya-s-k-manim-skill-manim-composer|
@@ -4093,7 +6590,7 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimce-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.685Z
+retrieved_at: 2026-02-28T14:45:41.909Z
 content_sha256: 7dc32c7c8bfd50d9266351f90cbfc59b2b71f610a37ea6a836af9946dc64b3ba
 ---
 |/data/skills-sh-adithya-s-k-manim-skill-manimce-best-practices|
@@ -4122,7 +6619,7 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimgl-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.879Z
+retrieved_at: 2026-02-28T14:45:33.780Z
 content_sha256: af4f98dc732fb9be522b2d53e7727c439258fb217cbaaa3c1360537f5cebc7ed
 ---
 |/data/skills-sh-adithya-s-k-manim-skill-manimgl-best-practices|
@@ -4148,10 +6645,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-component/references/component-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-component
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.659Z
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.054Z
 content_sha256: b283e168020ee75c443e9d53f50bfb1889f9cb932732337d67a1242af96ce112
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-component|
@@ -4177,10 +6674,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-di/references/di-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-di
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.140Z
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.880Z
 content_sha256: 82a96864d1bc95d2cadac94ad888b147edb5d66d24c76510fbd215983fdcf903
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-di|
@@ -4206,10 +6703,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-directives/references/directive-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-directives
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.196Z
+github_stars: 352
+github_forks: 40
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.713Z
 content_sha256: 399465cefcfea352c0a1ad709df7959298b3c2ec160cd6453cf850aaccce9f3a
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-directives|
@@ -4245,11 +6742,11 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-forms/references/form-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.890Z
-content_sha256: 1e9b432d3dce9edf19aaa4e0275dd7538c0f21b2fe006f2b280c00072b066915
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.761Z
+content_sha256: 8cbd30faf4fe8457e638b85f612720325b68c875860f292155ddd9a93359de93
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-forms|
 
@@ -4274,10 +6771,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-http/references/http-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-http
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.027Z
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.787Z
 content_sha256: fbf54fc7b87b23e24794781e98640748306a67d28e0cc4e62a6816af2cb780ec
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-http|
@@ -4303,10 +6800,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-routing/references/routing-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-routing
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.927Z
+github_stars: 352
+github_forks: 40
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.675Z
 content_sha256: 8005369d8fe2f045580ae46dc6b067d9fb54fb3cdd3148a583269e0557c9e91c
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-routing|
@@ -4332,10 +6829,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-signals/references/signal-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-signals
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.548Z
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.518Z
 content_sha256: c1ec67a9697f3c8f405a3fef91d774e79bd064f974d6fdad9c283f326349954a
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-signals|
@@ -4361,10 +6858,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-ssr/references/ssr-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-ssr
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.960Z
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.551Z
 content_sha256: 23aedff793dbe7c92dfd4f8bec9e48657d5f0399dae3232fc9b5a3b88a8284c5
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-ssr|
@@ -4374,27 +6871,27 @@ stable_id: skills/skills-sh-analogjs-angular-skills-angular-testing
 type: skills
 title: skills-sh-analogjs-angular-skills-angular-testing
 summary: |-
-  # Angular Testing Patterns
-  ## Table of Contents
-  - [Vitest Advanced Patterns](#vitest-advanced-patterns)
-  - [Component Harnesses](#component-harnesses)
-  - [Testing Router](#testing-router)
-  - [Testing Forms](#testing-forms)
-  - [Testing Directives](#testing-directives)
-  - [Testing Pipes](#testing-pipes)
-  - [E2E Testing Setup](#e2e-testing-setup)
-  ## Vitest Advanced Patterns
+  # Vitest Setup and Migration Guide
+  ## Vitest vs Jasmine Comparison
+  | Feature | Vitest | Jasmine/Karma |
+  |---------|--------|---------------|
+  | Speed | Faster (native ESM) | Slower |
+  | Watch mode | Instant feedback | Slower rebuilds |
+  | Mocking | `vi.fn()`, `vi.mock()` | `jasmine.createSpy()` |
+  | Assertions | `expect()` (Chai-style) | `expect()` (Jasmine) |
+  | UI | Built-in UI mode | Karma browser |
+  | Config | `angular.json` | `karma.conf.js` |
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-testing/references/testing-patterns.md
+source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-testing/references/vitest-migration.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-testing
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.552Z
-content_sha256: a83bed4c16f45adf69870de283e66f2971205aec31510c21113eb3cc6628c4ec
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.035Z
+content_sha256: edf5f9f9b473a39ff51064b41d358e81628cc469781328d3a2447b03820004e6
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-testing|
 
@@ -4419,10 +6916,10 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-tooling/references/tooling-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-tooling
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.450Z
+github_stars: 404
+github_forks: 44
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.066Z
 content_sha256: 1951fa339febba1848f178c8107f9b92392b58f0921e132b2c2509d2aecd2dfe
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-tooling|
@@ -4460,10 +6957,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/antfu/references/antfu-eslint-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/antfu
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.350Z
+github_stars: 3463
+github_forks: 159
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.459Z
 content_sha256: d5a17c833786c37013a997108a7ecd78a49264098f5f3a5733c74aa1899585ed
 ---
 |/data/skills-sh-antfu-skills-antfu|
@@ -4499,10 +6996,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/nuxt/references/core-directory-structure.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/nuxt
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.685Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.922Z
 content_sha256: 8483343d5291ce55111ba074c671549c323f63c85a806a4bf9002d576ab53a2b
 ---
 |/data/skills-sh-antfu-skills-nuxt|
@@ -4538,10 +7035,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/pinia
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.398Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.833Z
 content_sha256: 41627453eb019d1755dac787924bde52be162a3bdfc555119f88a8e59dda8f21
 ---
 |/data/skills-sh-antfu-skills-pinia|
@@ -4578,10 +7075,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/pnpm
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.252Z
+github_stars: 3463
+github_forks: 159
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.435Z
 content_sha256: 44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543
 ---
 |/data/skills-sh-antfu-skills-pnpm|
@@ -4607,10 +7104,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/slidev/references/core-syntax.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/slidev
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.151Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.300Z
 content_sha256: 3b56a8fbd5b4eb7b7a1965e5fe2502ec969a094ad8b22bc834365aa25e3a7aaa
 ---
 |/data/skills-sh-antfu-skills-slidev|
@@ -4636,10 +7133,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/tsdown/references/guide-getting-started.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/tsdown
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.105Z
+github_stars: 3463
+github_forks: 159
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.503Z
 content_sha256: 3d9f7e531b08b560cf44bf2d0ed6568394a3b9cde2641768918ea8179ad98091
 ---
 |/data/skills-sh-antfu-skills-tsdown|
@@ -4675,10 +7172,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/unocss/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/unocss
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.942Z
+github_stars: 3597
+github_forks: 169
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.286Z
 content_sha256: 35e235ec861299b63b95ba9e16fcab170c231204071dd902a24fa27c81ec431e
 ---
 |/data/skills-sh-antfu-skills-unocss|
@@ -4704,10 +7201,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vite
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.187Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.482Z
 content_sha256: d207a85730c32eff47e343ea69644a6c7898af251098a60255efe8f1c922fb4b
 ---
 |/data/skills-sh-antfu-skills-vite|
@@ -4744,10 +7241,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitepress/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vitepress
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.786Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.009Z
 content_sha256: 85c6a7ee227c47143fdc8e59b5b2e29bfbbf8499c893b7ce6589c2304f469e35
 ---
 |/data/skills-sh-antfu-skills-vitepress|
@@ -4783,10 +7280,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitest/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vitest
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.203Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.545Z
 content_sha256: 5fd3cf0983f203f14c4f4732dde0632c1d537241daa5cffea24f7e55712a6fb3
 ---
 |/data/skills-sh-antfu-skills-vitest|
@@ -4823,10 +7320,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue/references/script-setup-macros.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vue
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.085Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.595Z
 content_sha256: ad47db85f8fbda6c055cedcc1d4175cd79d414e9be3ebf1e631d0e493eb4480a
 ---
 |/data/skills-sh-antfu-skills-vue|
@@ -4865,10 +7362,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-router-best-practices/reference/router-beforeenter-no-param-trigger.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vue-router-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.299Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.099Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---
 |/data/skills-sh-antfu-skills-vue-router-best-practices|
@@ -4909,10 +7406,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vue-testing-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.799Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.407Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---
 |/data/skills-sh-antfu-skills-vue-testing-best-practices|
@@ -4938,10 +7435,10 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vueuse-functions/references/createGlobalState.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.299Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.786Z
 content_sha256: 43a260724cb8610553d487a4cd59591efbc61a9876c07dbea04b07381ca7479f
 ---
 |/data/skills-sh-antfu-skills-vueuse-functions|
@@ -4979,10 +7476,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-automation-recommender
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.869Z
+github_stars: 8532
+github_forks: 835
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:42.450Z
 content_sha256: 64a12ab24618e4987ba947638fb598683635e80db92f3253e87d5b06c878174d
 ---
 |/data/skills-sh-anthropics-claude-plugins-official-claude-automation-recommender|
@@ -5008,10 +7505,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-md-improver
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.738Z
+github_stars: 8532
+github_forks: 835
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.603Z
 content_sha256: 383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1
 ---
 |/data/skills-sh-anthropics-claude-plugins-official-claude-md-improver|
@@ -5037,10 +7534,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/mcp-builder/reference/mcp_best_practices.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/skills/mcp-builder
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.267Z
+github_stars: 78682
+github_forks: 8204
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.011Z
 content_sha256: 80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007
 ---
 |/data/skills-sh-anthropics-skills-mcp-builder|
@@ -5069,10 +7566,10 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/pptx/editing.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/skills/pptx
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.169Z
+github_stars: 71539
+github_forks: 7296
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.307Z
 content_sha256: 6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68
 ---
 |/data/skills-sh-anthropics-skills-pptx|
@@ -5113,7 +7610,7 @@ upstream_ref: https://skills.sh/antonbabenko/terraform-skill/terraform-skill
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.243Z
+retrieved_at: 2026-02-28T14:45:33.059Z
 content_sha256: 9cf4ebfa368f4f754dab14f089860da650053011a2e8e1648f79faa79808c3b0
 ---
 |/data/skills-sh-antonbabenko-terraform-skill-terraform-skill|
@@ -5147,7 +7644,7 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.013Z
+retrieved_at: 2026-02-28T14:45:42.201Z
 content_sha256: 668c913ae253f4e01947677d8a3d220edbdb45ce1169bee5f7e16ea751a95c79
 ---
 |/data/skills-sh-apify-agent-skills-apify-actor-development|
@@ -5176,7 +7673,7 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actorization
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.527Z
+retrieved_at: 2026-02-28T14:45:34.722Z
 content_sha256: 60984cafaba3c7789dc210fe1fc77c37497b1e6bb0be8af2183e79cba85a0832
 ---
 |/data/skills-sh-apify-agent-skills-apify-actorization|
@@ -5217,7 +7714,7 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-client
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.670Z
+retrieved_at: 2026-02-28T14:45:41.883Z
 content_sha256: f339ad6a06907be5f66cf034cda9bd78de4e4d79315c9a93faf366974f161cc9
 ---
 |/data/skills-sh-apollographql-skills-apollo-client|
@@ -5256,7 +7753,7 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-connectors
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.296Z
+retrieved_at: 2026-02-28T14:45:32.807Z
 content_sha256: aea9ec3e60c9d96a95d3b0aafe0f08aa2900e5b2068db47fc0fc8dcd683eef8e
 ---
 |/data/skills-sh-apollographql-skills-apollo-connectors|
@@ -5285,8 +7782,8 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.155Z
-content_sha256: da0ac85b54c29fe6eca88da2730faea5fd823de08dfccb6236ac5cf85738ea35
+retrieved_at: 2026-02-28T14:45:34.755Z
+content_sha256: 6efc864d9cb8c89936893259cc754f315278ad37b21f249ccce8aee88383c451
 ---
 |/data/skills-sh-apollographql-skills-apollo-mcp-server|
 
@@ -5311,10 +7808,10 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-server/references/resolvers.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/apollo-server
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.255Z
+github_stars: 25
+github_forks: 3
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.108Z
 content_sha256: 55a33184bb8e1d4fac044523888fa8267afe40f7557fbb508c77032e9ea32ea9
 ---
 |/data/skills-sh-apollographql-skills-apollo-server|
@@ -5340,10 +7837,10 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/graphql-operations/references/queries.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/graphql-operations
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.253Z
+github_stars: 23
+github_forks: 3
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.898Z
 content_sha256: 2c66262d754fb4c286961fdac0a115cd2e9105710be9c3d812b6b2ac135995ee
 ---
 |/data/skills-sh-apollographql-skills-graphql-operations|
@@ -5382,7 +7879,7 @@ upstream_ref: https://skills.sh/apollographql/skills/graphql-schema
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.015Z
+retrieved_at: 2026-02-28T14:45:43.335Z
 content_sha256: 7dab0e654365865feeb43547cb758a74d69a395ec4e2c755c28a2f97cc7c1e5d
 ---
 |/data/skills-sh-apollographql-skills-graphql-schema|
@@ -5411,7 +7908,7 @@ upstream_ref: https://skills.sh/apollographql/skills/rover
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.042Z
+retrieved_at: 2026-02-28T14:45:32.204Z
 content_sha256: f732157ff9b42fdd8dd71280d8ba9c03886cbace4031df5b06831f52835a5c5b
 ---
 |/data/skills-sh-apollographql-skills-rover|
@@ -5451,7 +7948,7 @@ upstream_ref: https://skills.sh/apollographql/skills/rust-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.366Z
+retrieved_at: 2026-02-28T14:45:37.778Z
 content_sha256: 936f84f2e4606e7ae35afdb99606005a3c08e803308721a1578276760a29fcfa
 ---
 |/data/skills-sh-apollographql-skills-rust-best-practices|
@@ -5487,11 +7984,11 @@ tags:
 source_url: https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md
 license: ""
 upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.119Z
-content_sha256: bfe05a0e377441892e99381bfbaaf8a80dc0de954b31668fb2528cce9755a9c3
+github_stars: 5
+github_forks: 2
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.136Z
+content_sha256: 1e9a7f17bb617b43aa95aa0d6544d640070a5a6d104ffaedcc4b3795b489d225
 ---
 |/data/skills-sh-assistant-ui-skills-assistant-ui|
 
@@ -5519,10 +8016,49 @@ upstream_ref: https://skills.sh/axtonliu/axton-obsidian-visual-skills/excalidraw
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.131Z
+retrieved_at: 2026-02-28T14:45:41.860Z
 content_sha256: e1ac098f16f723aaf0b1fc6e511c6981cfb7cfa57a646da8eaa623f047287d5b
 ---
 |/data/skills-sh-axtonliu-axton-obsidian-visual-skills-excalidraw-diagram|
+
+---
+stable_id: skills/skills-sh-b-mendoza-agent-skills-validate-implementation-plan
+type: skills
+title: skills-sh-b-mendoza-agent-skills-validate-implementation-plan
+summary: >-
+  # Sample Audit: Retry Mechanism Plan
+
+  **User's original request**: "Add a retry mechanism to the API client for
+  transient failures."
+
+  ---
+
+  ## Source Requirements
+
+  1. Add a retry mechanism to the API client
+
+  2. Target transient failures specifically
+
+  ---
+
+  ## Annotated Plan
+
+  > ## Step 1: Create RetryPolicy class
+
+  >
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/b-mendoza/agent-skills/HEAD/skills/validate-implementation-plan/examples/sample-audit.md
+license: ""
+upstream_ref: https://skills.sh/b-mendoza/agent-skills/validate-implementation-plan
+github_stars: 0
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.748Z
+content_sha256: e7538976fc26f10f67a4f8f78fb999f62f1651fc01a12681982c7f526cd0c32d
+---
+|/data/skills-sh-b-mendoza-agent-skills-validate-implementation-plan|
 
 ---
 stable_id: skills/skills-sh-bahayonghang-drawio-skills-drawio
@@ -5554,7 +8090,7 @@ upstream_ref: https://skills.sh/bahayonghang/drawio-skills/drawio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.411Z
+retrieved_at: 2026-02-28T14:45:32.918Z
 content_sha256: e6851c798f27a501305063f5737dc8372d35e8cfbe12faf41fbcab4d41b81f58
 ---
 |/data/skills-sh-bahayonghang-drawio-skills-drawio|
@@ -5583,7 +8119,7 @@ upstream_ref: https://skills.sh/base44/skills/base44-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.986Z
+retrieved_at: 2026-02-28T14:45:43.099Z
 content_sha256: 834fed8eec8dc8bb5e8171fcdb9025de002fe25c219797dfdd422032f29da356
 ---
 |/data/skills-sh-base44-skills-base44-cli|
@@ -5623,10 +8159,79 @@ upstream_ref: https://skills.sh/base44/skills/base44-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.068Z
-content_sha256: f30b89ba7dc07ca6422cd27ac89fa805b654c148f9f046adcdf9562fb4753a2a
+retrieved_at: 2026-02-28T14:45:34.686Z
+content_sha256: a19386c61209050c88d6a40da2605e200e5236a70fdb325cbc685efd82dea502
 ---
 |/data/skills-sh-base44-skills-base44-sdk|
+
+---
+stable_id: skills/skills-sh-bilalmk-todo-correct-browsing-with-playwright
+type: skills
+title: skills-sh-bilalmk-todo-correct-browsing-with-playwright
+summary: |-
+  # MCP Server Tools
+  *22 tools available*
+  ## `browser_close`
+  Close the page
+  *Flags: destructive*
+  <details>
+  <summary>Full Schema</summary>
+  ```json
+  {
+    "type": "object",
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/bilalmk/todo_correct/HEAD/.claude/skills/mjs/browsing-with-playwright/references/playwright-tools.md
+license: ""
+upstream_ref: https://skills.sh/bilalmk/todo_correct/browsing-with-playwright
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:42.377Z
+content_sha256: 465def4e7763e7b9bf55ef2b2aa67e62cef20106529520bf6aa9ab2c94ec351d
+---
+|/data/skills-sh-bilalmk-todo-correct-browsing-with-playwright|
+
+---
+stable_id: skills/skills-sh-bmad-labs-skills-typescript-e2e-testing
+type: skills
+title: skills-sh-bmad-labs-skills-typescript-e2e-testing
+summary: >-
+  ---
+
+  name: 'setup'
+
+  description: 'Set up a complete E2E testing infrastructure for a
+  TypeScript/NestJS project'
+
+  firstStepFile: './steps/step-01-init.md'
+
+  templateFile: './templates/output-template.md'
+
+  ---
+
+  # Setup E2E Test Workflow
+
+  Set up a complete E2E testing infrastructure for a TypeScript/NestJS project
+  with all necessary configuration, helpers, and Docker infrastructure.
+
+  ## When to Use
+
+  - Setting up E2E testing for a new project
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/bmad-labs/skills/HEAD/skills/typescript-e2e-testing/workflows/setup/workflow.md
+license: ""
+upstream_ref: https://skills.sh/bmad-labs/skills/typescript-e2e-testing
+github_stars: 2
+github_forks: 1
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.240Z
+content_sha256: 49277713b85b553bed78a8976f06fbbdd55d6aa675ce169ea3aa541b9ceb38f5
+---
+|/data/skills-sh-bmad-labs-skills-typescript-e2e-testing|
 
 ---
 stable_id: skills/skills-sh-bobmatnyc-claude-mpm-skills-drizzle-orm
@@ -5658,13 +8263,93 @@ tags:
 source_url: https://raw.githubusercontent.com/bobmatnyc/claude-mpm-skills/HEAD/toolchains/typescript/data/drizzle/references/advanced-schemas.md
 license: ""
 upstream_ref: https://skills.sh/bobmatnyc/claude-mpm-skills/drizzle-orm
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.847Z
+github_stars: 15
+github_forks: 5
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.800Z
 content_sha256: 420e86801c18d535ab531e6621c8a9df5247c11158b9a9f30dc44f11ea35108d
 ---
 |/data/skills-sh-bobmatnyc-claude-mpm-skills-drizzle-orm|
+
+---
+stable_id: skills/skills-sh-boshu2-agentops-council
+type: skills
+title: skills-sh-boshu2-agentops-council
+summary: >-
+  # Perspectives
+
+  ## Default: Independent Judges (No Perspectives)
+
+  When no `--preset` or `--perspectives` flag is provided, all judges get the
+  **same prompt** with no perspective label. Diversity comes from independent
+  sampling, not personality labels.
+
+  | Judge | Prompt | Assigned To |
+
+  |-------|--------|-------------|
+
+  | **Judge 1** | Independent judge — same prompt as all others | Agent 1 |
+
+  | **Judge 2** | Independent judge — same prompt as all others | Agent 2 |
+
+  | **Judge 3** | Independent judge — same prompt as all others | Agent 3
+  (--deep/--mixed) |
+
+  The default judge prompt (no perspective labels):
+
+  ```
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/boshu2/agentops/HEAD/skills/council/references/personas.md
+license: ""
+upstream_ref: https://skills.sh/boshu2/agentops/council
+github_stars: 180
+github_forks: 15
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.204Z
+content_sha256: 757054e680cde3eee163320829717ea7159c617dbe9c28c738accfe113523c3a
+---
+|/data/skills-sh-boshu2-agentops-council|
+
+---
+stable_id: skills/skills-sh-browser-use-browser-use-browser-use
+type: skills
+title: skills-sh-browser-use-browser-use-browser-use
+summary: >-
+  # Browser-Use CLI
+
+  Fast, persistent browser automation from the command line.
+
+  ## Installation
+
+  ### Prerequisites
+
+  | Platform | Requirements |
+
+  |----------|-------------|
+
+  | **macOS** | Python 3.11+ (installer will use Homebrew if needed) |
+
+  | **Linux** | Python 3.11+ (installer will use apt if needed) |
+
+  | **Windows** | [Git for Windows](https://git-scm.com/download/win), Python
+  3.11+ |
+
+  ### One-Line Install (Recommended)
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/browser-use/browser-use/main/browser_use/skill_cli/README.md
+license: ""
+upstream_ref: https://skills.sh/browser-use/browser-use/browser-use
+github_stars: 79167
+github_forks: 9366
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.818Z
+content_sha256: 60092a5a8f80389c7af6771bcc1787950535cae6797457a34d634eee6b1241b8
+---
+|/data/skills-sh-browser-use-browser-use-browser-use|
 
 ---
 stable_id: skills/skills-sh-callstackincubator-agent-device-agent-device
@@ -5678,6 +8363,8 @@ summary: >-
   Refs are useful for discovery/debugging. For deterministic scripts, use
   selectors.
 
+  For tap interactions, `press` is canonical; `click` is an equivalent alias.
+
   ## Snapshot
 
   ```bash
@@ -5689,8 +8376,6 @@ summary: >-
   Output:
 
   ```
-
-  Page: com.apple.Preferences
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -5700,8 +8385,8 @@ upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.366Z
-content_sha256: e021e46d956ae498c29030779c12c27c00ddacebdc33433a1ecba02c411485c5
+retrieved_at: 2026-02-28T14:45:34.031Z
+content_sha256: 602fed52c8802cdc36175666bd8ecbc2b8ee283b6ea0bda24a615167caec5290
 ---
 |/data/skills-sh-callstackincubator-agent-device-agent-device|
 
@@ -5738,10 +8423,10 @@ tags:
 source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/github/references/stacked-pr-workflow.md
 license: ""
 upstream_ref: https://skills.sh/callstackincubator/agent-skills/github
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.795Z
+github_stars: 937
+github_forks: 51
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.907Z
 content_sha256: 9957f4dbe0703ce704f0e695ede5384bc1a9865fdc4f7ca08e0979a0db444604
 ---
 |/data/skills-sh-callstackincubator-agent-skills-github|
@@ -5777,13 +8462,52 @@ tags:
 source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md
 license: ""
 upstream_ref: https://skills.sh/callstackincubator/agent-skills/react-native-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.980Z
+github_stars: 943
+github_forks: 51
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.570Z
 content_sha256: 9c5aa77f59d1d23072f5297a621c54092ad5ac38fe7114be7542c609c8f8f43f
 ---
 |/data/skills-sh-callstackincubator-agent-skills-react-native-best-practices|
+
+---
+stable_id: skills/skills-sh-callstackincubator-agent-skills-upgrading-react-native
+type: skills
+title: skills-sh-callstackincubator-agent-skills-upgrading-react-native
+summary: >-
+  ---
+
+  title: Upgrading React Native
+
+  impact: HIGH
+
+  tags: react-native, upgrade, routing
+
+  ---
+
+  # Skill: Upgrading React Native
+
+  Router for React Native upgrade workflows. Start with core Upgrade Helper
+  instructions, then apply focused add-ons by project shape.
+
+  ## Prerequisites (All Upgrade Paths)
+
+  - Ensure the repo is clean or on a dedicated upgrade branch.
+
+  - Know which package manager the repo uses (`npm`, `yarn`, `pnpm`, `bun`).
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/upgrading-react-native/references/upgrading-react-native.md
+license: ""
+upstream_ref: https://skills.sh/callstackincubator/agent-skills/upgrading-react-native
+github_stars: 914
+github_forks: 49
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.821Z
+content_sha256: 8a9dc3bd3d6454333f9cfa82e4f0202875850ce36a6284529294a89dde2c9385
+---
+|/data/skills-sh-callstackincubator-agent-skills-upgrading-react-native|
 
 ---
 stable_id: skills/skills-sh-cantinaxyz-clawdstrike-clawdstrike
@@ -5824,7 +8548,7 @@ upstream_ref: https://skills.sh/cantinaxyz/clawdstrike/clawdstrike
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.477Z
+retrieved_at: 2026-02-28T14:45:31.877Z
 content_sha256: 08dc42228498dd7cf289d59460f722fd23bd065f0b236e2a11715b20d293fa93
 ---
 |/data/skills-sh-cantinaxyz-clawdstrike-clawdstrike|
@@ -5850,10 +8574,10 @@ tags:
 source_url: https://raw.githubusercontent.com/cazala/webgpu-skill/HEAD/REFERENCE.md
 license: ""
 upstream_ref: https://skills.sh/cazala/webgpu-skill/webgpu
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.697Z
+github_stars: 10
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:34.079Z
 content_sha256: 44cd05656c416b86a9c9b023e9955feaf4eebb35e45cb99bb8a5715422cc3872
 ---
 |/data/skills-sh-cazala-webgpu-skill-webgpu|
@@ -5882,7 +8606,7 @@ upstream_ref: https://skills.sh/ccheney/robust-skills/clean-ddd-hexagonal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.486Z
+retrieved_at: 2026-02-28T14:45:34.658Z
 content_sha256: dba15a07f0f6981bb30201464edcd9a71a7b6cc5a024aaa8536fd03a152711b2
 ---
 |/data/skills-sh-ccheney-robust-skills-clean-ddd-hexagonal|
@@ -5908,13 +8632,14 @@ summary: >-
 
   Fetch real-time hot news from multiple sources.
 
-  ## Tools
+  ## ⚠️ Global Rules (Strict Enforcement)
 
-  ### fetch_news.py
-
-  **Usage:**
-
-  ```bash
+  1.  **Mandatory Time Display**: **EVERY** report item, regardless of the
+  source or command used (Single Source, Morning Routine, or Combinations),
+  **MUST** include the precise publication time or relative time (e.g., "10:30",
+  "2 hours ago", "2024-01-20").
+      *   **NEVER** skip the time field.
+      *   **NEVER** hallucinate the time. If it's missing in the JSON, mark it as "Unknown Time".
 tags:
   - skills-sh
   - skills-sh-probed
@@ -5924,10 +8649,46 @@ upstream_ref: https://skills.sh/cclank/news-aggregator-skill/news-aggregator-ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.360Z
-content_sha256: ac23cf08f189f8a588aebbfb0e90b356cfb087274e5aa545212255ac7513860d
+retrieved_at: 2026-02-28T14:45:25.772Z
+content_sha256: 1debce471f7433cb36472fbfcd9b6502fd14e176b15fd7c9d16d1e4d063fd96c
 ---
 |/data/skills-sh-cclank-news-aggregator-skill-news-aggregator-skill|
+
+---
+stable_id: skills/skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools
+type: skills
+title: skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools
+summary: >-
+  # Troubleshooting
+
+  ## General tips
+
+  - Run `npx chrome-devtools-mcp@latest --help` to test if the MCP server runs
+  on your machine.
+
+  - Make sure that your MCP client uses the same npm and node version as your
+  terminal.
+
+  - When configuring your MCP client, try using the `--yes` argument to `npx` to
+    auto-accept installation prompt.
+  - Find a specific error in the output of the `chrome-devtools-mcp` server.
+    Usually, if your client is an IDE, logs would be in the Output pane.
+  ## Debugging
+
+  Start the MCP server with debugging enabled and a log file:
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/docs/troubleshooting.md
+license: ""
+upstream_ref: https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtools
+github_stars: 26831
+github_forks: 1565
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.069Z
+content_sha256: 7144edbd6dc22b89303bd63cebab321c898000a9e93b538344c5fc519f7c78c9
+---
+|/data/skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools|
 
 ---
 stable_id: skills/skills-sh-cloudflare-skills-agents-sdk
@@ -5965,7 +8726,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.616Z
+retrieved_at: 2026-02-28T14:45:34.430Z
 content_sha256: 67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794
 ---
 |/data/skills-sh-cloudflare-skills-agents-sdk|
@@ -6006,7 +8767,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.311Z
+retrieved_at: 2026-02-28T14:45:28.187Z
 content_sha256: 67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794
 ---
 |/data/skills-sh-cloudflare-skills-agents-sdk-6c89c221|
@@ -6032,10 +8793,10 @@ tags:
 source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/building-ai-agent-on-cloudflare/references/agent-patterns.md
 license: ""
 upstream_ref: https://skills.sh/cloudflare/skills/building-ai-agent-on-cloudflare
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.360Z
+github_stars: 377
+github_forks: 38
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.777Z
 content_sha256: dc2ec307e4c8c975269fed04eff86822ecef2fca5365d732420c991fa1025f66
 ---
 |/data/skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare|
@@ -6071,13 +8832,89 @@ tags:
 source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/building-mcp-server-on-cloudflare/references/oauth-setup.md
 license: ""
 upstream_ref: https://skills.sh/cloudflare/skills/building-mcp-server-on-cloudflare
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.044Z
+github_stars: 377
+github_forks: 38
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:42.011Z
 content_sha256: 9e57f929797d2827b71c87a6e9e4f5d1ce036b14a8c19fe52ae4eee6c1b493ab
 ---
 |/data/skills-sh-cloudflare-skills-building-mcp-server-on-cloudflare|
+
+---
+stable_id: skills/skills-sh-cloudflare-skills-sandbox-sdk
+type: skills
+title: skills-sh-cloudflare-skills-sandbox-sdk
+summary: >-
+  # Sandbox SDK API Reference
+
+  Detailed API for `@cloudflare/sandbox`. For full docs:
+  https://developers.cloudflare.com/sandbox/api/
+
+  ## Lifecycle
+
+  ```typescript
+
+  getSandbox(binding: DurableObjectNamespace<Sandbox>, sandboxId: string,
+  options?: SandboxOptions): Sandbox
+
+  interface SandboxOptions {
+    sleepAfter?: string;     // Duration before auto-sleep (default: "10m")
+    keepAlive?: boolean;     // Prevent auto-sleep (default: false)
+    normalizeId?: boolean;   // Lowercase IDs for preview URLs (default: false)
+  }
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/sandbox-sdk/references/api-quick-ref.md
+license: ""
+upstream_ref: https://skills.sh/cloudflare/skills/sandbox-sdk
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:33.929Z
+content_sha256: c8a2bd3eca1afee7c9182b7dc7a3dceb9fdd13266c2a5e0730fd52b263b1aea3
+---
+|/data/skills-sh-cloudflare-skills-sandbox-sdk|
+
+---
+stable_id: skills/skills-sh-cloudflare-vinext-migrate-to-vinext
+type: skills
+title: skills-sh-cloudflare-vinext-migrate-to-vinext
+summary: >-
+  # Compatibility Reference
+
+  ## Supported next/* Imports
+
+  All of these resolve automatically to vinext shims. Do not rewrite imports in
+  application code.
+
+  | Import | Status | Notes |
+
+  |--------|--------|-------|
+
+  | `next/link` | Full | |
+
+  | `next/image` | Partial | Remote images via @unpic; no build-time
+  optimization |
+
+  | `next/head` | Full | |
+
+  | `next/router` | Full | Pages Router |
+
+  | `next/navigation` | Full | App Router |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/cloudflare/vinext/HEAD/.agents/skills/migrate-to-vinext/references/compatibility.md
+license: ""
+upstream_ref: https://skills.sh/cloudflare/vinext/migrate-to-vinext
+github_stars: 4002
+github_forks: 99
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.044Z
+content_sha256: 2d68e559858551e71e91f62432d8d007dbcc267090244c54d89ef60d017ff86a
+---
+|/data/skills-sh-cloudflare-vinext-migrate-to-vinext|
 
 ---
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-ab-test-setup
@@ -6088,35 +8925,119 @@ summary: >-
 
   Reference for calculating sample sizes and test duration.
 
-  ## Sample Size Fundamentals
+  ## Contents
 
-  ### Required Inputs
+  - Sample Size Fundamentals (required inputs, what these mean)
 
-  1. **Baseline conversion rate**: Your current rate
+  - Sample Size Quick Reference Tables
 
-  2. **Minimum detectable effect (MDE)**: Smallest change worth detecting
+  - Duration Calculator (formula, examples, minimum duration rules, maximum
+  duration guidelines)
 
-  3. **Statistical significance level**: Usually 95% (α = 0.05)
+  - Online Calculators
 
-  4. **Statistical power**: Usually 80% (β = 0.20)
+  - Adjusting for Multiple Variants
 
-  ### What These Mean
+  - Common Sample Size Mistakes
 
-  **Baseline conversion rate**: If your page converts at 5%, that's your
-  baseline.
+  - When Sample Size Requirements Are Too High
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ab-test-setup/references/sample-size-guide.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.133Z
-content_sha256: b46fb00f3d4147bc0b1dbe1be95db65c3c7e2cf092727afe864a2f7e5524f272
+github_stars: 8840
+github_forks: 1172
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:34.278Z
+content_sha256: 96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-ab-test-setup|
+
+---
+stable_id: skills/skills-sh-coreyhaines31-marketingskills-ad-creative
+type: skills
+title: skills-sh-coreyhaines31-marketingskills-ad-creative
+summary: >-
+  # Platform Specs Reference
+
+  Complete character limits, format requirements, and best practices for each ad
+  platform.
+
+  ---
+
+  ## Google Ads
+
+  ### Responsive Search Ads (RSAs)
+
+  | Element | Character Limit | Required | Notes |
+
+  |---------|----------------|----------|-------|
+
+  | Headline | 30 chars | 3 minimum, 15 max | Any 3 may be shown together |
+
+  | Description | 90 chars | 2 minimum, 4 max | Any 2 may be shown together |
+
+  | Display path 1 | 15 chars | Optional | Appears after domain in URL |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ad-creative/references/platform-specs.md
+license: ""
+upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ad-creative
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.432Z
+content_sha256: de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e
+---
+|/data/skills-sh-coreyhaines31-marketingskills-ad-creative|
+
+---
+stable_id: skills/skills-sh-coreyhaines31-marketingskills-ai-seo
+type: skills
+title: skills-sh-coreyhaines31-marketingskills-ai-seo
+summary: >-
+  # How Each AI Platform Picks Sources
+
+  Each AI search platform has its own search index, ranking logic, and content
+  preferences. This guide covers what matters for getting cited on each one.
+
+  Sources cited throughout: Princeton GEO study (KDD 2024), SE Ranking domain
+  authority study, ZipTie content-answer fit analysis.
+
+  ---
+
+  ## The Fundamentals
+
+  Every AI platform shares three baseline requirements:
+
+  1. **Your content must be in their index** — Each platform uses a different
+  search backend (Google, Bing, Brave, or their own). If you're not indexed, you
+  can't be cited.
+
+  2. **Your content must be crawlable** — AI bots need access via robots.txt.
+  Block the bot, lose the citation.
+
+  3. **Your content must be extractable** — AI systems pull passages, not pages.
+  Clear structure and self-contained paragraphs win.
+
+  Beyond these basics, each platform weights different signals. Here's what
+  matters and where.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ai-seo/references/platform-ranking-factors.md
+license: ""
+upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ai-seo
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.326Z
+content_sha256: 4004b3d9d562f98273a0048c48af6a46040ed800b1a1ccb958b299217860a623
+---
+|/data/skills-sh-coreyhaines31-marketingskills-ai-seo|
 
 ---
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-analytics-tracking
@@ -6127,72 +9048,146 @@ summary: >-
 
   Comprehensive list of events to track by business type and context.
 
-  ## Marketing Site Events
+  ## Contents
 
-  ### Navigation & Engagement
+  - Marketing Site Events (navigation & engagement, CTA & form interactions,
+  conversion events)
 
-  | Event Name | Description | Properties |
+  - Product/App Events (onboarding, core usage, errors & support)
 
-  |------------|-------------|------------|
+  - Monetization Events (pricing & checkout, subscription management)
 
-  | page_view | Page loaded (enhanced) | page_title, page_location,
-  content_group |
+  - E-commerce Events (browsing, cart, checkout, post-purchase)
 
-  | scroll_depth | User scrolled to threshold | depth (25, 50, 75, 100) |
+  - B2B / SaaS Specific Events (team & collaboration, integration events,
+  account events)
 
-  | outbound_link_clicked | Click to external site | link_url, link_text |
+  - Event Properties (Parameters)
 
-  | internal_link_clicked | Click within site | link_url, link_text, location |
+  - Funnel Event Sequences
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/analytics-tracking/references/event-library.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/analytics-tracking
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.628Z
-content_sha256: 94964072fa7c51f2fc261819721030ee4990292797bed7cb54c37776fc9d4e3f
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.217Z
+content_sha256: efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-analytics-tracking|
+
+---
+stable_id: skills/skills-sh-coreyhaines31-marketingskills-churn-prevention
+type: skills
+title: skills-sh-coreyhaines31-marketingskills-churn-prevention
+summary: >-
+  # Cancel Flow Patterns
+
+  Detailed cancel flow patterns by business type, billing provider, and
+  industry.
+
+  ---
+
+  ## Cancel Flow by Business Type
+
+  ### B2C / Self-Serve SaaS
+
+  High volume, low touch. The flow must work without human intervention.
+
+  **Flow structure:**
+
+  ```
+
+  Cancel button → Exit survey (1 question) → Dynamic offer → Confirm →
+  Post-cancel
+
+  ```
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/churn-prevention/references/cancel-flow-patterns.md
+license: ""
+upstream_ref: https://skills.sh/coreyhaines31/marketingskills/churn-prevention
+github_stars: 9230
+github_forks: 1250
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.672Z
+content_sha256: bd4f9eb09757189e4fe4f849c708731a307508e8765c3345639480c222378120
+---
+|/data/skills-sh-coreyhaines31-marketingskills-churn-prevention|
+
+---
+stable_id: skills/skills-sh-coreyhaines31-marketingskills-cold-email
+type: skills
+title: skills-sh-coreyhaines31-marketingskills-cold-email
+summary: >-
+  # Personalization at Scale
+
+  Personalization drives **50–250% more replies** (Lavender). The key insight:
+  **if your personalization has nothing to do with the problem you solve, it's
+  just an attention hack** (Clay).
+
+  ## Four Levels of Personalization
+
+  ### Level 1 — Basic (merge tags)
+
+  First name, company name, job title. Table stakes, no longer differentiating.
+  ~5% lift.
+
+  ### Level 2 — Industry/segment
+
+  Industry-specific pain points, trends, regulatory challenges. Scalable via
+  micro-segmentation.
+
+  > Most {{industry}} teams struggle with {{lead gen problem}}, which often
+  leads to wasted effort.
+
+  ### Level 3 — Role-level
+
+  Challenges specific to their role and seniority.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/cold-email/references/personalization.md
+license: ""
+upstream_ref: https://skills.sh/coreyhaines31/marketingskills/cold-email
+github_stars: 9230
+github_forks: 1250
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.557Z
+content_sha256: 08f18652938e14143402786fbdb8e1a6269650bb5eef9106898f1cdf31e47e36
+---
+|/data/skills-sh-coreyhaines31-marketingskills-cold-email|
 
 ---
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-competitor-alternatives
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-competitor-alternatives
-summary: >-
+summary: |-
   # Section Templates for Competitor Pages
-
   Ready-to-use templates for each section of competitor comparison pages.
-
-  ## TL;DR Summary
-
-  Start every page with a quick summary for scanners:
-
-  ```markdown
-
-  **TL;DR**: [Competitor] excels at [strength] but struggles with [weakness].
-
-  [Your product] is built for [your focus], offering [key differentiator].
-
-  Choose [Competitor] if [their ideal use case]. Choose [You] if [your ideal use
-  case].
-
-  ```
-
-  ---
+  ## Contents
+  - TL;DR Summary
+  - Paragraph Comparison (Not Just Tables)
+  - Feature Comparison Section
+  - Pricing Comparison Section
+  - Service & Support Comparison
+  - Who It's For Section
+  - Migration Section
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/competitor-alternatives/references/templates.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.834Z
-content_sha256: e658031a3df2f83168ee9f57e18f9bbd58254511f12af1602ec1c23e09ad3c0c
+github_stars: 8840
+github_forks: 1172
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:34.254Z
+content_sha256: 8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-competitor-alternatives|
 
@@ -6210,28 +9205,28 @@ summary: >-
 
   ---
 
-  ## A
+  ## Contents
 
-  | Complex | Plain Alternative |
+  - A
 
-  |---------|-------------------|
+  - B
 
-  | (an) absence of | no, none |
+  - C
 
-  | abundance | enough, plenty, many |
+  - D
 
-  | accede to | allow, agree to |
+  - E
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copy-editing/references/plain-english-alternatives.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copy-editing
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.478Z
-content_sha256: 491c34b011de82617613a558ce609ff7ba8fd92554ac90b4c5b4db2ab0aef62e
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.059Z
+content_sha256: df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-copy-editing|
 
@@ -6244,33 +9239,35 @@ summary: >-
 
   Headline formulas, page section types, and structural templates.
 
+  ## Contents
+
+  - Headline Formulas (outcome-focused, problem-focused, audience-focused,
+  differentiation-focused, proof-focused, additional formulas)
+
+  - Landing Page Section Types (core sections, supporting sections)
+
+  - Page Structure Templates (feature-heavy page, varied engaging page, compact
+  landing page, enterprise/B2B landing page, product launch page)
+
+  - Section Writing Tips (problem section, benefits section, how it works
+  section, testimonial selection)
+
   ## Headline Formulas
 
   ### Outcome-Focused
 
   **{Achieve desirable outcome} without {pain point}**
-
-  > Understand how users are really experiencing your site without drowning in
-  numbers
-
-  **{Achieve desirable outcome} by {how product makes it possible}**
-
-  > Generate more leads by seeing which companies visit your site
-
-  **Turn {input} into {outcome}**
-
-  > Turn your hard-earned sales into repeat customers
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.117Z
-content_sha256: a96c5290cd5ec24b82b9ac1dfaebbcb7111cb9e6495d5b6d1b1a5daa6332f739
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:38.948Z
+content_sha256: f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-copywriting|
 
@@ -6281,25 +9278,25 @@ title: skills-sh-coreyhaines31-marketingskills-email-sequence
 summary: |-
   # Email Sequence Templates
   Detailed templates for common email sequences.
+  ## Contents
+  - Welcome Sequence (Post-Signup)
+  - Lead Nurture Sequence (Pre-Sale)
+  - Re-Engagement Sequence
+  - Onboarding Sequence (Product Users)
   ## Welcome Sequence (Post-Signup)
   **Email 1: Welcome (Immediate)**
   - Subject: Welcome to [Product] — here's your first step
-  - Deliver what was promised (lead magnet, access, etc.)
-  - Single next action
-  - Set expectations for future emails
-  **Email 2: Quick Win (Day 1-2)**
-  - Subject: Get your first [result] in 10 minutes
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/email-sequence/references/sequence-templates.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/email-sequence
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.978Z
-content_sha256: 50e84112175a248f7b2bf1f24d25c633745c8e6bf6c10d45e733f8450d9bfd26
+github_stars: 8300
+github_forks: 1060
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.387Z
+content_sha256: d47b12e263ad52b72ab741c490bbc98d8bf8034d61faccc50b7dbb2650a9fba0
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-email-sequence|
 
@@ -6307,28 +9304,38 @@ content_sha256: 50e84112175a248f7b2bf1f24d25c633745c8e6bf6c10d45e733f8450d9bfd26
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-free-tool-strategy
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-free-tool-strategy
-summary: |-
+summary: >-
   # Free Tool Types Reference
+
   Detailed guide to each type of marketing tool you can build.
-  ## Calculators
-  **Best for**: Decisions involving numbers, comparisons, estimates
-  **Examples**:
-  - ROI calculator
-  - Savings calculator
-  - Cost comparison tool
-  - Salary calculator
-  - Tax estimator
+
+  ## Contents
+
+  - Calculators
+
+  - Generators
+
+  - Analyzers/Auditors
+
+  - Testers/Validators
+
+  - Libraries/Resources
+
+  - Interactive Educational
+
+  - Tool Concept Examples by Industry (SaaS product, agency/services,
+  e-commerce, developer tools, finance)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/free-tool-strategy/references/tool-types.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/free-tool-strategy
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.030Z
-content_sha256: e839981d512a7d6093504768292ba8d3c67ce48152ff0aa1f4b28d79bc7ef189
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.351Z
+content_sha256: 3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-free-tool-strategy|
 
@@ -6336,49 +9343,28 @@ content_sha256: e839981d512a7d6093504768292ba8d3c67ce48152ff0aa1f4b28d79bc7ef189
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-marketing-ideas
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-marketing-ideas
-summary: >-
+summary: |-
   # The 139 Marketing Ideas
-
   Complete list of proven marketing approaches organized by category.
-
-  ## Content & SEO (1-10)
-
-  1. **Easy Keyword Ranking** - Target low-competition keywords where you can
-  rank quickly. Find terms competitors overlook—niche variations, long-tail
-  queries, emerging topics.
-
-  2. **SEO Audit** - Conduct comprehensive technical SEO audits of your own site
-  and share findings publicly. Document fixes and improvements to build
-  authority.
-
-  3. **Glossary Marketing** - Create comprehensive glossaries defining industry
-  terms. Each term becomes an SEO-optimized page targeting "what is X" searches.
-
-  4. **Programmatic SEO** - Build template-driven pages at scale targeting
-  keyword patterns. Location pages, comparison pages, integration pages—any
-  pattern with search volume.
-
-  5. **Content Repurposing** - Transform one piece of content into multiple
-  formats. Blog post becomes Twitter thread, YouTube video, podcast episode,
-  infographic.
-
-  6. **Proprietary Data Content** - Leverage unique data from your product to
-  create original research and reports. Data competitors can't replicate creates
-  linkable assets.
-
-  7. **Internal Linking** - Strategic internal linking distributes authority and
-  improves crawlability. Build topical clusters connecting related content.
+  ## Contents
+  - Content & SEO (1-10)
+  - Competitor & Comparison (11-13)
+  - Free Tools & Engineering (14-22)
+  - Paid Advertising (23-34)
+  - Social Media & Community (35-44)
+  - Email Marketing (45-53)
+  - Partnerships & Programs (54-64)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/marketing-ideas/references/ideas-by-category.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.367Z
-content_sha256: 97a02c0bce46d337d6a7e50c483785858efe408e4f8be37d7d78846da525f345
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.034Z
+content_sha256: fac44ef0ea24a3035d85bd11096adef408497ea073ad156933f2d356d482dde2
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-marketing-ideas|
 
@@ -6392,32 +9378,35 @@ summary: >-
   Comprehensive list of A/B tests and experiments for user onboarding and
   activation.
 
-  ## Flow Simplification Experiments
+  ## Contents
 
-  ### Reduce Friction
+  - Flow Simplification Experiments (reduce friction, step sequencing, progress
+  & motivation)
 
-  | Test | Hypothesis |
+  - Guided Experience Experiments (product tours, CTA optimization, UI guidance)
 
-  |------|------------|
+  - Personalization Experiments (user segmentation, dynamic content)
 
-  | Email verification timing | During vs. after onboarding |
+  - Quick Wins & Engagement Experiments (time-to-value, motivation mechanics,
+  support & help)
 
-  | Empty states vs. dummy data | Pre-populated examples |
+  - Email & Multi-Channel Experiments (onboarding emails, email content,
+  feedback loops)
 
-  | Pre-filled templates | Accelerate setup with templates |
+  - Re-engagement Experiments (stalled user recovery, return experience)
 
-  | OAuth options | Faster account linking |
+  - Technical & UX Experiments (performance, mobile onboarding, accessibility)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/onboarding-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/onboarding-cro
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.783Z
-content_sha256: 63c24ced8a8bd8d2ca7c9d9eb426d034e2f9235ae1c34c89aa1cd3344b9a1379
+github_stars: 8300
+github_forks: 1060
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.359Z
+content_sha256: b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-onboarding-cro|
 
@@ -6425,28 +9414,40 @@ content_sha256: 63c24ced8a8bd8d2ca7c9d9eb426d034e2f9235ae1c34c89aa1cd3344b9a1379
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-page-cro
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-page-cro
-summary: |-
+summary: >-
   # Page CRO Experiment Ideas
+
   Comprehensive list of A/B tests and experiments organized by page type.
-  ## Homepage Experiments
-  ### Hero Section
-  | Test | Hypothesis |
-  |------|------------|
-  | Headline variations | Specific vs. abstract messaging |
-  | Subheadline clarity | Add/refine to support headline |
-  | CTA above fold | Include or exclude prominent CTA |
-  | Hero visual format | Screenshot vs. GIF vs. illustration vs. video |
+
+  ## Contents
+
+  - Homepage Experiments (Hero Section, Trust & Social Proof, Features &
+  Content, Navigation & UX)
+
+  - Pricing Page Experiments (Price Presentation, Pricing UX, Objection
+  Handling, Trust Signals)
+
+  - Demo Request Page Experiments (Form Optimization, Page Content, CTA &
+  Routing)
+
+  - Resource/Blog Page Experiments (Content CTAs, Resource Section)
+
+  - Landing Page Experiments (Message Match, Conversion Focus, Page Length)
+
+  - Feature Page Experiments (Feature Presentation, Conversion Path)
+
+  - Cross-Page Experiments (Site-Wide Tests, Navigation Tests)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/page-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/page-cro
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.574Z
-content_sha256: 9530ca82b966f901178952bc652f71b58fd6bfdc3f21d5fed453b45df60bf929
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.177Z
+content_sha256: bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-page-cro|
 
@@ -6454,28 +9455,39 @@ content_sha256: 9530ca82b966f901178952bc652f71b58fd6bfdc3f21d5fed453b45df60bf929
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-paid-ads
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-paid-ads
-summary: |-
+summary: >-
   # Ad Copy Templates Reference
+
   Detailed formulas and templates for writing high-converting ad copy.
+
+  ## Contents
+
+  - Primary Text Formulas (Problem-Agitate-Solve, Before-After-Bridge, Social
+  Proof Lead, Feature-Benefit Bridge, Direct Response)
+
+  - Headline Formulas (For Search Ads, For Social Ads)
+
+  - CTA Variations (Soft CTAs, Hard CTAs, Urgency CTAs, Action-Oriented CTAs)
+
+  - Platform-Specific Copy Guidelines (Google Search Ads, Meta Ads, LinkedIn
+  Ads)
+
+  - Copy Testing Priority
+
   ## Primary Text Formulas
+
   ### Problem-Agitate-Solve (PAS)
-  ```
-  [Problem statement]
-  [Agitate the pain]
-  [Introduce solution]
-  [CTA]
-  ```
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/paid-ads/references/ad-copy-templates.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paid-ads
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.930Z
-content_sha256: cd83de02d8770e5bbb58769bac452f9ff7f82dd9eb13f8a922175bb9b21bc778
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.287Z
+content_sha256: 853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-paid-ads|
 
@@ -6483,28 +9495,40 @@ content_sha256: cd83de02d8770e5bbb58769bac452f9ff7f82dd9eb13f8a922175bb9b21bc778
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro
-summary: |-
+summary: >-
   # Paywall Experiment Ideas
+
   Comprehensive list of A/B tests and experiments for paywall optimization.
-  ## Trigger & Timing Experiments
-  ### When to Show
-  - Test trigger timing: after aha moment vs. at feature attempt
-  - Early trial reminder (7 days) vs. late reminder (1 day before)
-  - Show after X actions completed vs. after X days
-  - Test soft prompts at different engagement thresholds
-  - Trigger based on usage patterns vs. time-based only
-  ### Trigger Type
+
+  ## Contents
+
+  - Trigger & Timing Experiments (When to Show, Trigger Type)
+
+  - Paywall Design Experiments (Layout & Format, Value Presentation, Visual
+  Elements)
+
+  - Pricing Presentation Experiments (Price Display, Plan Options, Discounts &
+  Offers)
+
+  - Copy & Messaging Experiments (Headlines, CTAs, Objection Handling)
+
+  - Trial & Conversion Experiments (Trial Structure, Trial Expiration, Upgrade
+  Path)
+
+  - Personalization Experiments (Usage-Based, Segment-Specific)
+
+  - Frequency & UX Experiments (Frequency Capping, Dismiss Behavior)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/paywall-upgrade-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paywall-upgrade-cro
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.079Z
-content_sha256: 17e6ff52c5482b07694bcdd2fc4cd28209a1b605b66520eefff474928933bdb7
+github_stars: 9230
+github_forks: 1250
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.225Z
+content_sha256: 5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro|
 
@@ -6512,28 +9536,40 @@ content_sha256: 17e6ff52c5482b07694bcdd2fc4cd28209a1b605b66520eefff474928933bdb7
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-pricing-strategy
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-pricing-strategy
-summary: |-
+summary: >-
   # Tier Structure and Packaging
+
+  ## Contents
+
+  - How Many Tiers?
+
+  - Good-Better-Best Framework
+
+  - Tier Differentiation Strategies
+
+  - Example Tier Structure
+
+  - Packaging for Personas (Identifying Pricing Personas, Persona-Based
+  Packaging)
+
+  - Freemium vs. Free Trial (When to Use Freemium, When to Use Free Trial,
+  Hybrid Approaches)
+
+  - Enterprise Pricing (When to Add Custom Pricing, Enterprise Tier Elements,
+  Enterprise Pricing Strategies)
+
   ## How Many Tiers?
-  **2 tiers:** Simple, clear choice
-  - Works for: Clear SMB vs. Enterprise split
-  - Risk: May leave money on table
-  **3 tiers:** Industry standard
-  - Good tier = Entry point
-  - Better tier = Recommended (anchor to best)
-  - Best tier = High-value customers
-  **4+ tiers:** More granularity
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/pricing-strategy/references/tier-structure.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/pricing-strategy
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.527Z
-content_sha256: dec6eb26846fcb6fa67c1daca45438b1a7f5b2a526386e62c8bf5af3a5aea81c
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.084Z
+content_sha256: b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-pricing-strategy|
 
@@ -6547,33 +9583,32 @@ summary: >-
   Beyond mixing and matching data point permutations, these are the proven
   playbooks for programmatic SEO.
 
-  ## 1. Templates
+  ## Contents
 
-  **Pattern**: "[Type] template" or "free [type] template"
+  - 1. Templates
 
-  **Example searches**: "resume template", "invoice template", "pitch deck
-  template"
+  - 2. Curation
 
-  **What it is**: Downloadable or interactive templates users can use directly.
+  - 3. Conversions
 
-  **Why it works**:
+  - 4. Comparisons
 
-  - High intent—people need it now
+  - 5. Examples
 
-  - Shareable/linkable assets
+  - 6. Locations
 
-  - Natural for product-led companies
+  - 7. Personas
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/programmatic-seo/references/playbooks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.318Z
-content_sha256: c258ebca8794542110ab3cc6e4d7f997878a01b17963132b7df8175bc4b9ec4a
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:38.985Z
+content_sha256: b2edf9b9434729630f746fec2f228e50aa5b6fe1bf753e0d4d46ecf8a3137274
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-programmatic-seo|
 
@@ -6584,25 +9619,25 @@ title: skills-sh-coreyhaines31-marketingskills-referral-program
 summary: |-
   # Referral Program Examples
   Real-world examples of successful referral programs.
-  ## Dropbox (Classic)
-  **Program:** Give 500MB storage, get 500MB storage
-  **Why it worked:**
-  - Reward directly tied to product value
-  - Low friction (just an email)
-  - Both parties benefit equally
-  - Gamified with progress tracking
-  ---
+  ## Contents
+  - Dropbox (Classic)
+  - Uber/Lyft
+  - Morning Brew
+  - Notion
+  - Incentive Types Comparison
+  - Incentive Sizing Framework
+  - Viral Coefficient & Metrics (Key Metrics, Calculating Referral Program ROI)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/referral-program/references/program-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/referral-program
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.881Z
-content_sha256: 60731dc46b911849c26ffdcc9835ad352d690806e4eec0d814a52e5cf21794bc
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.311Z
+content_sha256: 2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-referral-program|
 
@@ -6613,25 +9648,25 @@ title: skills-sh-coreyhaines31-marketingskills-schema-markup
 summary: |-
   # Schema Markup Examples
   Complete JSON-LD examples for common schema types.
-  ## Organization
-  For company/brand homepage or about page.
-  ```json
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Example Company",
-    "url": "https://example.com",
+  ## Contents
+  - Organization
+  - WebSite (with SearchAction)
+  - Article / BlogPosting
+  - Product
+  - SoftwareApplication
+  - FAQPage
+  - HowTo
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/schema-markup/references/schema-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/schema-markup
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.683Z
-content_sha256: b552944f54fde41fbf877d00913f2d53e150864ae6d8b9fbee3a17200298609c
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.264Z
+content_sha256: 5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-schema-markup|
 
@@ -6651,33 +9686,29 @@ summary: >-
 
   ---
 
-  ## Em Dashes: The Primary AI Tell
+  ## Contents
 
-  **The em dash (—) has become one of the most reliable markers of AI-generated
-  content.**
+  - Em Dashes: The Primary AI Tell
 
-  Em dashes are longer than hyphens (-) and are used for emphasis,
-  interruptions, or parenthetical information. While they have legitimate uses
-  in writing, AI models drastically overuse them.
+  - Overused Verbs
 
-  ### Why Em Dashes Signal AI Writing
+  - Overused Adjectives
 
-  - AI models were trained on edited books, academic papers, and style guides
-  where em dashes appear frequently
+  - Overused Transitions and Connectors
 
-  - AI uses em dashes as a shortcut for sentence variety instead of commas,
-  colons, or parentheses
+  - Phrases That Signal AI Writing (Opening Phrases, Transitional Phrases,
+  Concluding Phrases, Structural Patterns)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/seo-audit/references/ai-writing-detection.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.065Z
-content_sha256: 586226f9b7ccdba3ad07a1d025442d294a8f0c43117b655c7231e97ed5720351
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:38.858Z
+content_sha256: f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-seo-audit|
 
@@ -6688,27 +9719,56 @@ title: skills-sh-coreyhaines31-marketingskills-social-content
 summary: |-
   # Platform-Specific Strategy Guide
   Detailed strategies for each major social platform.
+  ## Contents
+  - LinkedIn
+  - Twitter/X
+  - Instagram
+  - TikTok
+  - Facebook
   ## LinkedIn
   **Best for:** B2B, thought leadership, professional networking, recruiting
-  **Audience:** Professionals, decision-makers, job seekers
-  **Posting frequency:** 3-5x per week
-  **Best times:** Tuesday-Thursday, 7-8am, 12pm, 5-6pm
-  **What works:**
-  - Personal stories with business lessons
-  - Contrarian takes on industry topics
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/social-content/references/platforms.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/social-content
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.426Z
-content_sha256: b2c765478102c90e3516de625286de8f9d5eddfe5705f5d6affdd11456c43efe
+github_stars: 9230
+github_forks: 1250
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.198Z
+content_sha256: 3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-social-content|
+
+---
+stable_id: skills/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices
+type: skills
+title: skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices
+summary: |-
+  # Test Organization
+  ## Table of Contents
+  1. [Configuration](#configuration)
+  2. [E2E Tests](#e2e-tests)
+  3. [Component Tests](#component-tests)
+  4. [API Tests](#api-tests)
+  5. [Visual Regression Tests](#visual-regression-tests)
+  6. [Directory Structure](#directory-structure)
+  7. [Tagging & Filtering](#tagging--filtering)
+  ### Project Setup
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/currents-dev/playwright-best-practices-skill/HEAD/references/test-organization.md
+license: ""
+upstream_ref: https://skills.sh/currents-dev/playwright-best-practices-skill/playwright-best-practices
+github_stars: 114
+github_forks: 27
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.405Z
+content_sha256: a18d03cea2d37a940392c6173030c6fdaee7de08eab297547eff0ec5a3780d80
+---
+|/data/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices|
 
 ---
 stable_id: skills/skills-sh-czlonkowski-n8n-skills-n8n-code-javascript
@@ -6745,7 +9805,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-javascript
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.515Z
+retrieved_at: 2026-02-28T14:45:37.827Z
 content_sha256: 29f361baabfc6f9d2bb213a23520a359cd9cb46073fdf03c48453ad4ac00d544
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-code-javascript|
@@ -6784,7 +9844,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-python
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.604Z
+retrieved_at: 2026-02-28T14:45:28.366Z
 content_sha256: a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-code-python|
@@ -6810,10 +9870,10 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-expression-syntax/COMMON_MISTAKES.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-expression-syntax
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.624Z
+github_stars: 3070
+github_forks: 546
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:42.867Z
 content_sha256: 31400d8b454039410ca9ce9fb4f833d3f2ea563b0732fe633a9a5f9554b9fde8
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-expression-syntax|
@@ -6839,10 +9899,10 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-mcp-tools-expert
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.569Z
+github_stars: 3070
+github_forks: 546
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.678Z
 content_sha256: 294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert|
@@ -6878,10 +9938,10 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-node-configuration/DEPENDENCIES.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-node-configuration
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.242Z
+github_stars: 3051
+github_forks: 540
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.933Z
 content_sha256: 2045e0757cae39a43d18c6c8123777218f04a3acde17b3e3d75caf8d36776199
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-node-configuration|
@@ -6907,10 +9967,10 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-validation-expert/ERROR_CATALOG.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-validation-expert
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.956Z
+github_stars: 2848
+github_forks: 501
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.850Z
 content_sha256: 74fc170e4217ad1aa0aa176bb2a0565728036d352f491443a826df6f2bb47930
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-validation-expert|
@@ -6946,10 +10006,10 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-workflow-patterns/webhook_processing.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-workflow-patterns
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.900Z
+github_stars: 3070
+github_forks: 546
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.124Z
 content_sha256: 03174d27d0e25884c3171de8dff99927932e64ed93a9520625a960800742770d
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-workflow-patterns|
@@ -6975,10 +10035,10 @@ tags:
 source_url: https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/grammar-checker/references/rules.md
 license: ""
 upstream_ref: https://skills.sh/daleseo/korean-skills/grammar-checker
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.059Z
+github_stars: 7
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:34.055Z
 content_sha256: 71d816b76cf60d873892f3c953d611e6685ee127e71f12c58b005a71fa5db1f6
 ---
 |/data/skills-sh-daleseo-korean-skills-grammar-checker|
@@ -7004,10 +10064,10 @@ tags:
 source_url: https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/style-guide/references/tone-consistency.md
 license: ""
 upstream_ref: https://skills.sh/daleseo/korean-skills/style-guide
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.034Z
+github_stars: 6
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.231Z
 content_sha256: 861f5c44416b36609e36659de6a86c26af681f73ec3e2b89965039d09e0cd2d1
 ---
 |/data/skills-sh-daleseo-korean-skills-style-guide|
@@ -7036,7 +10096,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/autogpt-agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.703Z
+retrieved_at: 2026-02-28T14:45:28.415Z
 content_sha256: e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b
 ---
 |/data/skills-sh-davila7-claude-code-templates-autogpt-agents|
@@ -7076,7 +10136,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/crewai-multi-agent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.922Z
+retrieved_at: 2026-02-28T14:45:28.010Z
 content_sha256: bb4b104c94ffa8145516d73a1d4af3809723df15d47c2d02b24715bc9a1752f2
 ---
 |/data/skills-sh-davila7-claude-code-templates-crewai-multi-agent|
@@ -7105,7 +10165,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/devops-iac-enginee
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.872Z
+retrieved_at: 2026-02-28T14:45:27.985Z
 content_sha256: 68501fa719788234dece69513181b8a7366b70c34a862bf320cf6e7765651828
 ---
 |/data/skills-sh-davila7-claude-code-templates-devops-iac-engineer|
@@ -7134,7 +10194,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/draw-io
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.682Z
+retrieved_at: 2026-02-28T14:45:31.990Z
 content_sha256: 501fbf61f47b08f578f39a03fcd655af7986277028dd92469a99ba835526d0d8
 ---
 |/data/skills-sh-davila7-claude-code-templates-draw-io|
@@ -7174,7 +10234,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/google-analytics
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.553Z
+retrieved_at: 2026-02-28T14:45:28.342Z
 content_sha256: df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8
 ---
 |/data/skills-sh-davila7-claude-code-templates-google-analytics|
@@ -7213,7 +10273,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/langchain
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.305Z
+retrieved_at: 2026-02-28T14:45:32.894Z
 content_sha256: 724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555
 ---
 |/data/skills-sh-davila7-claude-code-templates-langchain|
@@ -7242,7 +10302,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/pdf-processing-pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.750Z
+retrieved_at: 2026-02-28T14:45:28.441Z
 content_sha256: ea43f2930d53347e0cf19a205bf94315737cbb034153181ebdff6d037bac8d24
 ---
 |/data/skills-sh-davila7-claude-code-templates-pdf-processing-pro|
@@ -7282,7 +10342,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/pytorch-lightning
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.452Z
+retrieved_at: 2026-02-28T14:45:28.291Z
 content_sha256: 2940b978bdec21b6f8da54c72d1858015e5ba290f9b05f1a659d67c25860e259
 ---
 |/data/skills-sh-davila7-claude-code-templates-pytorch-lightning|
@@ -7319,7 +10379,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/remotion
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.271Z
+retrieved_at: 2026-02-28T14:45:31.771Z
 content_sha256: 99a6377d64061af5f7fcd1a179c0c8f6d7bcd0a515060a46db117a757ac3387a
 ---
 |/data/skills-sh-davila7-claude-code-templates-remotion|
@@ -7348,10 +10408,47 @@ upstream_ref: https://skills.sh/delineas/astro-framework-agents/astro-framework
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.382Z
+retrieved_at: 2026-02-28T14:45:42.348Z
 content_sha256: caab3735ec58990967f419a370f52a92dae52de84b660ecd92b807fe6003c828
 ---
 |/data/skills-sh-delineas-astro-framework-agents-astro-framework|
+
+---
+stable_id: skills/skills-sh-dotneet-claude-code-marketplace-typescript-react-reviewer
+type: skills
+title: skills-sh-dotneet-claude-code-marketplace-typescript-react-reviewer
+summary: >-
+  # React 19 Patterns Reference
+
+  ## useActionState (Forms)
+
+  Replaces manual `isLoading`, `error`, `data` state management for form
+  actions.
+
+  ```typescript
+
+  import { useActionState } from 'react';
+
+  interface FormState {
+    error: string | null;
+    success: boolean;
+  }
+
+  async function createPost(prevState: FormState, formData: FormData):
+  Promise<FormState> {
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/dotneet/claude-code-marketplace/HEAD/review-tool/skills/typescript-react-reviewer/references/react19-patterns.md
+license: ""
+upstream_ref: https://skills.sh/dotneet/claude-code-marketplace/typescript-react-reviewer
+github_stars: 0
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.966Z
+content_sha256: ccc9ea423070269e62fad0d98d6dab6ce7b244c858cac7128421c243f8ecbf85
+---
+|/data/skills-sh-dotneet-claude-code-marketplace-typescript-react-reviewer|
 
 ---
 stable_id: skills/skills-sh-ejirocodes-agent-skills-svelte5-best-practices
@@ -7374,10 +10471,10 @@ tags:
 source_url: https://raw.githubusercontent.com/ejirocodes/agent-skills/HEAD/svelte/skills/svelte5-best-practices/references/runes.md
 license: ""
 upstream_ref: https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.897Z
+github_stars: 2
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.635Z
 content_sha256: 9c7b6330607aa14d90e8b686a205391067c4ca17b6a90d71ba99cc2333e32086
 ---
 |/data/skills-sh-ejirocodes-agent-skills-svelte5-best-practices|
@@ -7406,8 +10503,8 @@ upstream_ref: https://skills.sh/elevenlabs/skills/agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.623Z
-content_sha256: 84ed67f8a30990488012e7e0dcdc9d1109ca29403b3b880a14445f43ecb4ac83
+retrieved_at: 2026-02-28T14:45:41.827Z
+content_sha256: a2f825e2de7eafd9b096d464a785c813f6e83354c5cb4f5fae6c69c26b73a61c
 ---
 |/data/skills-sh-elevenlabs-skills-agents|
 
@@ -7445,8 +10542,8 @@ upstream_ref: https://skills.sh/elevenlabs/skills/music
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.462Z
-content_sha256: ea99548998847f43e417d9ffd7e87122f49c705cca0d9da43e9323eabac0f25c
+retrieved_at: 2026-02-28T14:45:42.149Z
+content_sha256: a0765c7af5800268fdae3ff443d7306d54cf66d3461cce839d3ac9d49ff58625
 ---
 |/data/skills-sh-elevenlabs-skills-music|
 
@@ -7481,11 +10578,11 @@ tags:
 source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/sound-effects/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.380Z
-content_sha256: 236e58b118a19537b3c848a03c700e543a3ce346ab41a9f0e9ae7ce070b45342
+github_stars: 119
+github_forks: 11
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.984Z
+content_sha256: 7f76781829131f3ccac1e549b960446d8aa3ac370d34a384f425766035266725
 ---
 |/data/skills-sh-elevenlabs-skills-sound-effects|
 
@@ -7523,8 +10620,8 @@ upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.832Z
-content_sha256: 47546e5ae53529ccde5a400747060a3ae9a5fc4b5afca7ed85cac3b315654100
+retrieved_at: 2026-02-28T14:45:34.460Z
+content_sha256: f88c8285e03acdc53f26ff51ba49b8a7d7f4298a1d5456942ace182ed4ab4915
 ---
 |/data/skills-sh-elevenlabs-skills-speech-to-text|
 
@@ -7562,8 +10659,8 @@ upstream_ref: https://skills.sh/elevenlabs/skills/text-to-speech
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.072Z
-content_sha256: ed6f6849abd7e721b38fe8f4436f2b5acf38e0354b1788e8c4dc81375ca7fcf7
+retrieved_at: 2026-02-28T14:45:34.370Z
+content_sha256: 22b2794655c2c30986771476f6a261b33e61e5e6b6fd784023a2c2d52eb63588
 ---
 |/data/skills-sh-elevenlabs-skills-text-to-speech|
 
@@ -7606,7 +10703,7 @@ upstream_ref: https://skills.sh/emzod/speak/speak-tts
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.198Z
+retrieved_at: 2026-02-28T14:45:25.704Z
 content_sha256: ca405caf24ed179997aa55b0ae20b154f31c7b04c35153a5bcf98755e8ef4c8b
 ---
 |/data/skills-sh-emzod-speak-speak-tts|
@@ -7648,8 +10745,8 @@ upstream_ref: https://skills.sh/emzod/speak-turbo/speakturbo-tts
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.150Z
-content_sha256: 985084c37b43556cfb7adb3da95b9b4c6237230b6fb85dc9c8d99c9a82d887d5
+retrieved_at: 2026-02-28T14:45:25.680Z
+content_sha256: 68b384e376e1c67a308bdb9ba5827bb15c01189a1a9db28fa1ba4e6b4c7cfb03
 ---
 |/data/skills-sh-emzod-speak-turbo-speakturbo-tts|
 
@@ -7686,13 +10783,65 @@ tags:
 source_url: https://raw.githubusercontent.com/eraserlabs/eraser-io/HEAD/skills/eraser-diagrams/references/flowchart-syntax.md
 license: ""
 upstream_ref: https://skills.sh/eraserlabs/eraser-io/eraser-diagrams
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.354Z
+github_stars: 8
+github_forks: 0
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.635Z
 content_sha256: 14ef890e72b0f7c063d399525ef72509973232b2de1651085ab33ec5d384d08c
 ---
 |/data/skills-sh-eraserlabs-eraser-io-eraser-diagrams|
+
+---
+stable_id: skills/skills-sh-everyinc-compound-engineering-plugin-compound-docs
+type: skills
+title: skills-sh-everyinc-compound-engineering-plugin-compound-docs
+summary: >-
+  # YAML Frontmatter Schema
+
+  **See `.claude/skills/codify-docs/schema.yaml` for the complete schema
+  specification.**
+
+  ## Required Fields
+
+  - **module** (string): Module name (e.g., "EmailProcessing") or "System" for
+  system-wide issues
+
+  - **date** (string): ISO 8601 date (YYYY-MM-DD)
+
+  - **problem_type** (enum): One of [build_error, test_failure, runtime_error,
+  performance_issue, database_issue, security_issue, ui_bug, integration_issue,
+  logic_error, developer_experience, workflow_issue, best_practice,
+  documentation_gap]
+
+  - **component** (enum): One of [rails_model, rails_controller, rails_view,
+  service_object, background_job, database, frontend_stimulus, hotwire_turbo,
+  email_processing, brief_system, assistant, authentication, payments,
+  development_workflow, testing_framework, documentation, tooling]
+
+  - **symptoms** (array): 1-5 specific observable symptoms
+
+  - **root_cause** (enum): One of [missing_association, missing_include,
+  missing_index, wrong_api, scope_issue, thread_violation, async_timing,
+  memory_leak, config_error, logic_error, test_isolation, missing_validation,
+  missing_permission, missing_workflow_step, inadequate_documentation,
+  missing_tooling, incomplete_setup]
+
+  - **resolution_type** (enum): One of [code_fix, migration, config_change,
+  test_fix, dependency_update, environment_setup, workflow_improvement,
+  documentation_update, tooling_addition, seed_data_update]
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/everyinc/compound-engineering-plugin/HEAD/plugins/compound-engineering/skills/compound-docs/references/yaml-schema.md
+license: ""
+upstream_ref: https://skills.sh/everyinc/compound-engineering-plugin/compound-docs
+github_stars: 9663
+github_forks: 767
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.274Z
+content_sha256: 4759684eb4ee5bdce4982ec472d46a42287186bbc5b34512b4ecbea69e53e421
+---
+|/data/skills-sh-everyinc-compound-engineering-plugin-compound-docs|
 
 ---
 stable_id: skills/skills-sh-existential-birds-beagle-tailwind-v4
@@ -7718,7 +10867,7 @@ upstream_ref: https://skills.sh/existential-birds/beagle/tailwind-v4
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.536Z
+retrieved_at: 2026-02-28T14:45:33.084Z
 content_sha256: 081fe68f4bc2ece4d63dfb9a77253eab8306a753ce470ac8c03102e69ff5e032
 ---
 |/data/skills-sh-existential-birds-beagle-tailwind-v4|
@@ -7731,26 +10880,65 @@ summary: |-
   ---
   name: firecrawl-cli-installation
   description: |
-    Install the Firecrawl CLI and handle authentication errors.
+    Install the official Firecrawl CLI and handle authentication.
+    Package: https://www.npmjs.com/package/firecrawl-cli
+    Source: https://github.com/firecrawl/cli
+    Docs: https://docs.firecrawl.dev/sdks/cli
   ---
   # Firecrawl CLI Installation
-  ## Quick Install
-  ```bash
-  npm install -g firecrawl-cli
-  ```
+  ## Quick Setup (Recommended)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-cli/rules/install.md
 license: ""
 upstream_ref: https://skills.sh/firecrawl/cli/firecrawl
+github_stars: 117
+github_forks: 16
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.521Z
+content_sha256: c21e13b02aa53e9f7345db81261a5ca2a4b53adae8952a6378abb4008f2bcb60
+---
+|/data/skills-sh-firecrawl-cli-firecrawl|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-azure-deployment-preflight
+type: skills
+title: skills-sh-github-awesome-copilot-azure-deployment-preflight
+summary: >-
+  # Preflight Report Template
+
+  Use this template structure when generating `preflight-report.md` in the
+  project root.
+
+  ---
+
+  ## Template
+
+  ```markdown
+
+  # Azure Deployment Preflight Report
+
+  **Generated:** {timestamp}
+
+  **Status:** {overall-status}
+
+  ---
+
+  ## Summary
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-deployment-preflight/references/REPORT-TEMPLATE.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/azure-deployment-preflight
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.738Z
-content_sha256: 5e5a848752971466985555928404a1bffe0998fa0d27bde7cb097a9bcdf5ff89
+retrieved_at: 2026-02-28T14:45:42.322Z
+content_sha256: 685de9d8d43bfe58cfd9f20d8fa35b04e9da983f8122754400dc4b7457420197
 ---
-|/data/skills-sh-firecrawl-cli-firecrawl|
+|/data/skills-sh-github-awesome-copilot-azure-deployment-preflight|
 
 ---
 stable_id: skills/skills-sh-github-awesome-copilot-github-issues
@@ -7776,10 +10964,306 @@ upstream_ref: https://skills.sh/github/awesome-copilot/github-issues
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.729Z
+retrieved_at: 2026-02-28T14:45:32.030Z
 content_sha256: 8202c0277a34033acd44ed960a236f31a5b7a74d98769dffac497f2267279fed
 ---
 |/data/skills-sh-github-awesome-copilot-github-issues|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-legacy-circuit-mockups
+type: skills
+title: skills-sh-github-awesome-copilot-legacy-circuit-mockups
+summary: >-
+  # 555
+
+  [www.fairchildsemi.com](www.fairchildsemi.com)
+
+  The LM555/NE555/SA555 is  a highly stable controller capable of producing
+  accurate timing pulses. With a monostable operation, the time delay is
+  controlled by one external resistor and one capacitor. With an astable
+  operation, the frequency and duty cycle are accurately controlled by two
+  external resistors and one capacitor.
+
+  ## Features
+
+  - High Current Drive Capability (200mA)
+
+  - Adjustable Duty Cycle
+
+  - Temperature Stability of 0.005%/°C
+
+  - Timing From μSec to Hours
+
+  - Turn off Time Less Than 2μSec
+
+  ## Applications
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.130Z
+content_sha256: b053c8faa2db8049ccbecb6151fca496546e9a5cd846d19321bd6f80570c045f
+---
+|/data/skills-sh-github-awesome-copilot-legacy-circuit-mockups|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-make-repo-contribution
+type: skills
+title: skills-sh-github-awesome-copilot-make-repo-contribution
+summary: |-
+  # <!-- Provide a concise, descriptive title for the issue -->
+  ## Summary
+  <!-- Provide a clear, one-sentence description of the request or issue. -->
+  ## Context
+  <!-- Explain why this change is needed. Include:
+  - The problem being solved
+  - Any relevant background information
+  - Link to related issues or discussions if applicable
+  -->
+  ## Proposed Solution
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/make-repo-contribution/assets/issue-template.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/make-repo-contribution
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.473Z
+content_sha256: 82a8a9847134450248f2b2d4e7104cdb2ed764ce3407745c7c443bdb47bb5761
+---
+|/data/skills-sh-github-awesome-copilot-make-repo-contribution|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-markdown-to-html
+type: skills
+title: skills-sh-github-awesome-copilot-markdown-to-html
+summary: |-
+  # Basic Markdown to HTML
+  ## Headings
+  ### Markdown
+  ```md
+  # Basic writing and formatting syntax
+  ```
+  ### Parsed HTML
+  ```html
+  <h1>Basic writing and formatting syntax</h1>
+  ```
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/markdown-to-html/references/basic-markdown-to-html.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/markdown-to-html
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.169Z
+content_sha256: fe2c21cc2979a7ef382ea891f1ddd5138d1254c37336c9df33ba594c001a8743
+---
+|/data/skills-sh-github-awesome-copilot-markdown-to-html|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-penpot-uiux-design
+type: skills
+title: skills-sh-github-awesome-copilot-penpot-uiux-design
+summary: >-
+  # Penpot MCP Server Setup & Troubleshooting
+
+  Complete guide for installing, configuring, and troubleshooting the Penpot MCP
+  Server.
+
+  ## Architecture Overview
+
+  The Penpot MCP integration requires **three components** working together:
+
+  ```
+
+  ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+
+  │   MCP Client    │────▶│   MCP Server    │◀───▶│  Penpot Plugin  │
+
+  │ (VS Code/Claude)│     │  (port 4401)    │     │ (in browser)    │
+
+  └─────────────────┘     └────────┬────────┘     └────────┬────────┘
+                                   │                       │
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/penpot-uiux-design/references/setup-troubleshooting.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.201Z
+content_sha256: 5eceba271320c73a4ed22db14b4c02331b5768f98121eab74cd3e6440bb4f521
+---
+|/data/skills-sh-github-awesome-copilot-penpot-uiux-design|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-powerbi-modeling
+type: skills
+title: skills-sh-github-awesome-copilot-powerbi-modeling
+summary: >-
+  # Star Schema Design for Power BI
+
+  ## Overview
+
+  Star schema is the optimal design pattern for Power BI semantic models. It
+  organizes data into:
+
+  - **Dimension tables**: Enable filtering and grouping (the "one" side)
+
+  - **Fact tables**: Enable summarization (the "many" side)
+
+  ## Table Classification
+
+  ### Dimension Tables
+
+  - Contain descriptive attributes for filtering/slicing
+
+  - Have unique key columns (one row per entity)
+
+  - Examples: Customer, Product, Date, Geography, Employee
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/powerbi-modeling/references/STAR-SCHEMA.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/powerbi-modeling
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.074Z
+content_sha256: af288e11a243a090f9a2d540103d49d3b6d0d20e39a85e9b45c51175eb0028b2
+---
+|/data/skills-sh-github-awesome-copilot-powerbi-modeling|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-web-design-reviewer
+type: skills
+title: skills-sh-github-awesome-copilot-web-design-reviewer
+summary: >-
+  # Framework-specific Fix Guide
+
+  This document explains specific fix techniques for each framework and styling
+  method.
+
+  ---
+
+  ## Pure CSS / SCSS
+
+  ### Fixing Layout Overflow
+
+  ```css
+
+  /* Before: Overflow occurs */
+
+  .container {
+    width: 100%;
+  }
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-design-reviewer/references/framework-fixes.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/web-design-reviewer
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:42.234Z
+content_sha256: e678c549dd5f69094d53eb5785f0c34ae4cd150a92ac1f79785065fc835276f6
+---
+|/data/skills-sh-github-awesome-copilot-web-design-reviewer|
+
+---
+stable_id: skills/skills-sh-github-awesome-copilot-winapp-cli
+type: skills
+title: skills-sh-github-awesome-copilot-winapp-cli
+summary: >-
+  # CLI Documentation and Usage
+
+  ### init
+
+  Initialize a directory with Windows SDK, Windows App SDK, and required assets
+  for modern Windows development.
+
+  ```bash
+
+  winapp init [base-directory] [options]
+
+  ```
+
+  **Arguments:**
+
+  - `base-directory` - Base/root directory for the app/workspace (default:
+  current directory)
+
+  **Options:**
+
+  - `--config-dir <path>` - Directory to read/store configuration (default:
+  current directory)
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/WinAppCli/main/docs/usage.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.623Z
+content_sha256: af351470ceedbe3ce996f4aa6016f4c3790b2f221ca8519ab3ece6ebfc3641e9
+---
+|/data/skills-sh-github-awesome-copilot-winapp-cli|
+
+---
+stable_id: skills/skills-sh-giulioco-skills-postbridge-social-growth
+type: skills
+title: skills-sh-giulioco-skills-postbridge-social-growth
+summary: >-
+  # Post Bridge Organic Growth Methodology
+
+  Detailed reference for the 7-phase organic growth system. Source: [Post Bridge
+  Growth Guide](https://www.post-bridge.com/growth-guide).
+
+  Results achieved: 500M+ views, 132K+ downloads, $33K+ revenue from organic
+  content only.
+
+  ## Table of Contents
+
+  - [Phase 1: Account Creation (Day 1)](#phase-1-account-creation-day-1)
+
+  - [Phase 2: Account Warmup (Days 2-8)](#phase-2-account-warmup-days-2-8)
+
+  - [Phase 3: Content Market Fit (Days
+  8-30)](#phase-3-content-market-fit-days-8-30)
+
+  - [Phase 4: Riding Trends (Ongoing)](#phase-4-riding-trends-ongoing)
+
+  - [Phase 5: Views to Customers (Ongoing)](#phase-5-views-to-customers-ongoing)
+
+  - [Phase 6: Scaling System (Days 30+)](#phase-6-scaling-system-days-30)
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/giulioco/skills/HEAD/skills/postbridge-social-growth/references/methodology.md
+license: ""
+upstream_ref: https://skills.sh/giulioco/skills/postbridge-social-growth
+github_stars: 2
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.339Z
+content_sha256: a9aca976f35f235f3cad5fba2e23a44214ac273965368d45a1cce5b129edefbc
+---
+|/data/skills-sh-giulioco-skills-postbridge-social-growth|
 
 ---
 stable_id: skills/skills-sh-guibibeau-solana-dev-skill-solana-dev
@@ -7805,7 +11289,7 @@ upstream_ref: https://skills.sh/guibibeau/solana-dev-skill/solana-dev
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.816Z
+retrieved_at: 2026-02-28T14:45:27.955Z
 content_sha256: 00bf8288c14add0733ae35506f52d6059a5b41b10215154c45acf8c526273480
 ---
 |/data/skills-sh-guibibeau-solana-dev-skill-solana-dev|
@@ -7849,7 +11333,7 @@ upstream_ref: https://skills.sh/hairyf/knitwork-x/knitwork-x
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.520Z
+retrieved_at: 2026-02-28T14:45:32.464Z
 content_sha256: 14f498087b077d54f43319de2fad52747d95f44d408646d00c15fdf17be11bb7
 ---
 |/data/skills-sh-hairyf-knitwork-x-knitwork-x|
@@ -7894,7 +11378,7 @@ upstream_ref: https://skills.sh/hairyf/skills/arch-tsdown-monorepo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.760Z
+retrieved_at: 2026-02-28T14:45:32.584Z
 content_sha256: 0e08a66c2488d2e14e8c56d3258df2b5b1fba61c011bf885004de91c427ed8a9
 ---
 |/data/skills-sh-hairyf-skills-arch-tsdown-monorepo|
@@ -7933,7 +11417,7 @@ upstream_ref: https://skills.sh/hairyf/skills/hairy
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.706Z
+retrieved_at: 2026-02-28T14:45:32.559Z
 content_sha256: a9ddb3bc503470d675ae1aa67a7f39fb1810a7d598d4e1b3b6313613239be8ea
 ---
 |/data/skills-sh-hairyf-skills-hairy|
@@ -7962,7 +11446,7 @@ upstream_ref: https://skills.sh/hairyf/skills/hairy-utils
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.576Z
+retrieved_at: 2026-02-28T14:45:43.695Z
 content_sha256: 73115192ce2234e3f3ebf6d7640b72c9ebd4f8aac137b565421255122f930899
 ---
 |/data/skills-sh-hairyf-skills-hairy-utils|
@@ -8004,7 +11488,7 @@ upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.573Z
+retrieved_at: 2026-02-28T14:45:32.487Z
 content_sha256: 0f8d6b2e4e8d3b7b0c559cec5212e80600baf92b6cbca6c9156b71784ebe61f0
 ---
 |/data/skills-sh-hairyf-skills-openapi-specification-v2|
@@ -8044,7 +11528,7 @@ upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v3.2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.468Z
+retrieved_at: 2026-02-28T14:45:32.435Z
 content_sha256: e68161c9bfbeb686afb6fd374982b4b21a13bc335079d4d6944767fc976bfd2b
 ---
 |/data/skills-sh-hairyf-skills-openapi-specification-v3-2|
@@ -8085,7 +11569,7 @@ upstream_ref: https://skills.sh/hairyf/skills/undocs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.692Z
+retrieved_at: 2026-02-28T14:45:32.706Z
 content_sha256: 9bea28f87385164472dac28df9719a778a4dbe5aae4fe63f0c146ca86aeca3c5
 ---
 |/data/skills-sh-hairyf-skills-undocs|
@@ -8125,7 +11609,7 @@ upstream_ref: https://skills.sh/hairyf/skills/unjs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.678Z
+retrieved_at: 2026-02-28T14:45:33.985Z
 content_sha256: 7768ed479085ade59cd6cda262376409822a83228748d36c03753bc90e5f2a34
 ---
 |/data/skills-sh-hairyf-skills-unjs|
@@ -8167,7 +11651,7 @@ upstream_ref: https://skills.sh/halthelobster/proactive-agent/proactive-agent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.133Z
+retrieved_at: 2026-02-28T14:45:32.256Z
 content_sha256: 5a61dae55820c670d23de61500aa48956b7a1b20c3f01cdc7e596b51fd854c03
 ---
 |/data/skills-sh-halthelobster-proactive-agent-proactive-agent|
@@ -8209,10 +11693,111 @@ upstream_ref: https://skills.sh/hashicorp/agent-skills/refactor-module
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.777Z
+retrieved_at: 2026-02-28T14:45:43.387Z
 content_sha256: 9d08cde101042ff656c473b6db9e8a7bcfc0cc191441b8613be3b47f11fec060
 ---
 |/data/skills-sh-hashicorp-agent-skills-refactor-module|
+
+---
+stable_id: skills/skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo
+type: skills
+title: skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo
+summary: >-
+  # Setup Guide
+
+  ## Prerequisites
+
+  This skill requires [uv](https://docs.astral.sh/uv/) — a fast Python package
+  manager and runner.
+
+  ### Install uv
+      # macOS / Linux
+      curl -LsSf https://astral.sh/uv/install.sh | sh
+      # Windows
+      powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+      # Or via Homebrew
+      brew install uv
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/hau823823/gen-paylink-govilo/HEAD/skills/gen-paylink-govilo/references/setup-guide.md
+license: ""
+upstream_ref: https://skills.sh/hau823823/gen-paylink-govilo/gen-paylink-govilo
+github_stars: 1
+github_forks: 1
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.470Z
+content_sha256: 4b03b93077cbb4320a8611a3d141c9047a88bd5efae5844cbe4630bfcdf17b36
+---
+|/data/skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo|
+
+---
+stable_id: skills/skills-sh-heredotnow-skill-here-now
+type: skills
+title: skills-sh-heredotnow-skill-here-now
+summary: >-
+  # here.now API Reference
+
+  Base URL: `https://here.now`
+
+  ## Authentication
+
+  Two modes:
+
+  - **Authenticated**: include `Authorization: Bearer <API_KEY>` header.
+
+  - **Anonymous**: omit the header entirely. Publishes expire in 24 hours with
+  lower limits.
+
+  ### Getting an API key (agent-assisted sign-up)
+
+  Agents can trigger the sign-up flow on behalf of the user:
+
+  **1. Send magic link:**
+
+  ```bash
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/heredotnow/skill/HEAD/here-now/references/REFERENCE.md
+license: ""
+upstream_ref: https://skills.sh/heredotnow/skill/here-now
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:41.950Z
+content_sha256: 22e4f7be06558bc6ddd730dfb6030537d9fc3b8a2e6571eaa7be9e3859d64838
+---
+|/data/skills-sh-heredotnow-skill-here-now|
+
+---
+stable_id: skills/skills-sh-hexiaochun-seedance2-api-seedance2-api
+type: skills
+title: skills-sh-hexiaochun-seedance2-api-seedance2-api
+summary: |-
+  # Seedance 2.0 分镜参考手册
+  ## 提示词公式
+  ```
+  【风格】_____风格，_____秒，_____比例，_____氛围
+  【时间轴】
+  0-X秒：[镜头] + [画面] + [动作] + [特效]
+  X-Y秒：[镜头] + [画面] + [动作] + [特效]
+  ...
+  【声音】_____配乐 + _____音效 + _____对白
+  【参考】@image_file_1 _____，@video_file_1 _____
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/hexiaochun/seedance2-api/HEAD/.cursor/skills/seedance2-api/reference.md
+license: ""
+upstream_ref: https://skills.sh/hexiaochun/seedance2-api/seedance2-api
+github_stars: 28
+github_forks: 5
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.136Z
+content_sha256: 43872809c231db02f68b26802f50f82e242ffa9a79eefd2e7e3ccf665f90d6f5
+---
+|/data/skills-sh-hexiaochun-seedance2-api-seedance2-api|
 
 ---
 stable_id: skills/skills-sh-heygen-com-skills-heygen
@@ -8223,22 +11808,26 @@ summary: >-
 
   name: prompt-optimizer
 
-  description: Write effective prompts for HeyGen Video Agent - from basic ideas
-  to structured scene-by-scene scripts
+  description: Write production-quality prompts for HeyGen Video Agent — from
+  basic ideas to fully art-directed scene-by-scene scripts
 
   ---
 
   # Video Agent Prompt Optimizer
 
-  ## Table of Contents
+  Write effective prompts for the HeyGen Video Agent API. Based on patterns from
+  40+ produced videos.
 
-  - [The Three Baseline Controls](#the-three-baseline-controls)
+  **The core insight: Video Agent is an HTML interpreter.** It renders layouts,
+  typography, and structured content natively. Describe B-roll as layered text
+  motion graphics with action verbs ("slams in," "types on," "counts up") — not
+  layout specs ("upper-left, 48pt").
 
-  - [Prompt Complexity Levels](#prompt-complexity-levels)
+  ## Reference Files
 
-  - [Structured Output Format](#structured-output-format)
+  | File | Load when... |
 
-  - [Visual Style Definition](#visual-style-definition)
+  |------|-------------|
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -8248,8 +11837,8 @@ upstream_ref: https://skills.sh/heygen-com/skills/heygen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.740Z
-content_sha256: 8207fbff1464e6b1c06f389617c56d754b91daa119d56cc9ba7865c2f89ee336
+retrieved_at: 2026-02-28T14:45:32.982Z
+content_sha256: 968fec33560cbf5d4abf433fe90c5d4602020629f28d6ae63b7061ca9bfd1a34
 ---
 |/data/skills-sh-heygen-com-skills-heygen|
 
@@ -8287,13 +11876,57 @@ tags:
 source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/references/reactivity.md
 license: ""
 upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.734Z
+github_stars: 1702
+github_forks: 84
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.457Z
 content_sha256: 48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b
 ---
 |/data/skills-sh-hyf0-vue-skills-vue-best-practices|
+
+---
+stable_id: skills/skills-sh-hyf0-vue-skills-vue-debug-guides
+type: skills
+title: skills-sh-hyf0-vue-skills-vue-debug-guides
+summary: >-
+  ---
+
+  title: Use Debug Hooks to Trace Reactivity Issues
+
+  impact: MEDIUM
+
+  impactDescription: Debug hooks help identify which dependencies trigger
+  re-renders and watcher executions
+
+  type: efficiency
+
+  tags: [vue3, reactivity, debugging, computed, watch, development]
+
+  ---
+
+  # Use Debug Hooks to Trace Reactivity Issues
+
+  **Impact: MEDIUM** - Vue provides debug hooks (`onTrack`, `onTrigger`,
+  `renderTracked`, `renderTriggered`) that help identify exactly which reactive
+  dependencies are being tracked and which mutations trigger re-execution. These
+  are invaluable for debugging performance issues and unexpected re-renders.
+
+  Debug hooks only work in development mode and are stripped in production
+  builds. Use them to understand why a computed property, watcher, or component
+  is re-executing.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md
+license: ""
+upstream_ref: https://skills.sh/hyf0/vue-skills/vue-debug-guides
+github_stars: 1611
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.412Z
+content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
+---
+|/data/skills-sh-hyf0-vue-skills-vue-debug-guides|
 
 ---
 stable_id: skills/skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid
@@ -8319,10 +11952,466 @@ upstream_ref: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.965Z
+retrieved_at: 2026-02-28T14:45:42.615Z
 content_sha256: 79514ada712884f201f50cddced0a059697a0b82cee7b9a80cf744b9bc369739
 ---
 |/data/skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid|
+
+---
+stable_id: skills/skills-sh-inference-sh-0-skills-agent-tools
+type: skills
+title: skills-sh-inference-sh-0-skills-agent-tools
+summary: >-
+  # Authentication & Setup
+
+  ## Install the CLI
+
+  ```bash
+
+  curl -fsSL https://cli.inference.sh | sh
+
+  ```
+
+  ## Login
+
+  ```bash
+
+  infsh login
+
+  ```
+
+  This opens a browser for authentication. After login, credentials are stored
+  locally.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-0/skills/HEAD/skills/agent-tools/references/authentication.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-0/skills/agent-tools
+github_stars: 30
+github_forks: 6
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.113Z
+content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
+---
+|/data/skills-sh-inference-sh-0-skills-agent-tools|
+
+---
+stable_id: skills/skills-sh-inference-sh-0-skills-javascript-sdk
+type: skills
+title: skills-sh-inference-sh-0-skills-javascript-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the JavaScript SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```typescript
+  import { inference, agentTool, string } from '@inferencesh/sdk';
+  const client = inference({ apiKey: 'inf_...' });
+  // Define sub-agents as tools
+  const researcher = agentTool('research', 'my-org/researcher@latest')
+    .describe('Research a topic thoroughly')
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-0/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-0/skills/javascript-sdk
+github_stars: 30
+github_forks: 6
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.177Z
+content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
+---
+|/data/skills-sh-inference-sh-0-skills-javascript-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-0-skills-python-sdk
+type: skills
+title: skills-sh-inference-sh-0-skills-python-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the Python SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```python
+  from inferencesh import inference, agent_tool, string
+  client = inference(api_key="inf_...")
+  # Define sub-agents as tools
+  researcher = (
+      agent_tool("research", "my-org/researcher@latest")
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-0/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-0/skills/python-sdk
+github_stars: 30
+github_forks: 6
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.205Z
+content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
+---
+|/data/skills-sh-inference-sh-0-skills-python-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-3-skills-agent-tools
+type: skills
+title: skills-sh-inference-sh-3-skills-agent-tools
+summary: >-
+  # Authentication & Setup
+
+  ## Install the CLI
+
+  ```bash
+
+  curl -fsSL https://cli.inference.sh | sh
+
+  ```
+
+  ## Login
+
+  ```bash
+
+  infsh login
+
+  ```
+
+  This opens a browser for authentication. After login, credentials are stored
+  locally.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-3/skills/HEAD/skills/agent-tools/references/authentication.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-3/skills/agent-tools
+github_stars: 32
+github_forks: 6
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.334Z
+content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
+---
+|/data/skills-sh-inference-sh-3-skills-agent-tools|
+
+---
+stable_id: skills/skills-sh-inference-sh-3-skills-python-sdk
+type: skills
+title: skills-sh-inference-sh-3-skills-python-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the Python SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```python
+  from inferencesh import inference, agent_tool, string
+  client = inference(api_key="inf_...")
+  # Define sub-agents as tools
+  researcher = (
+      agent_tool("research", "my-org/researcher@latest")
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-3/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-3/skills/python-sdk
+github_stars: 32
+github_forks: 6
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.955Z
+content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
+---
+|/data/skills-sh-inference-sh-3-skills-python-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-6-skills-agent-tools
+type: skills
+title: skills-sh-inference-sh-6-skills-agent-tools
+summary: >-
+  # Authentication & Setup
+
+  ## Install the CLI
+
+  ```bash
+
+  curl -fsSL https://cli.inference.sh | sh
+
+  ```
+
+  ## Login
+
+  ```bash
+
+  infsh login
+
+  ```
+
+  This opens a browser for authentication. After login, credentials are stored
+  locally.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-6/skills/HEAD/skills/agent-tools/references/authentication.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-6/skills/agent-tools
+github_stars: 44
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.231Z
+content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
+---
+|/data/skills-sh-inference-sh-6-skills-agent-tools|
+
+---
+stable_id: skills/skills-sh-inference-sh-6-skills-javascript-sdk
+type: skills
+title: skills-sh-inference-sh-6-skills-javascript-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the JavaScript SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```typescript
+  import { inference, agentTool, string } from '@inferencesh/sdk';
+  const client = inference({ apiKey: 'inf_...' });
+  // Define sub-agents as tools
+  const researcher = agentTool('research', 'my-org/researcher@latest')
+    .describe('Research a topic thoroughly')
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-6/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-6/skills/javascript-sdk
+github_stars: 44
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.519Z
+content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
+---
+|/data/skills-sh-inference-sh-6-skills-javascript-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-6-skills-python-sdk
+type: skills
+title: skills-sh-inference-sh-6-skills-python-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the Python SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```python
+  from inferencesh import inference, agent_tool, string
+  client = inference(api_key="inf_...")
+  # Define sub-agents as tools
+  researcher = (
+      agent_tool("research", "my-org/researcher@latest")
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-6/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-6/skills/python-sdk
+github_stars: 44
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.543Z
+content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
+---
+|/data/skills-sh-inference-sh-6-skills-python-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-8-skills-agent-tools
+type: skills
+title: skills-sh-inference-sh-8-skills-agent-tools
+summary: >-
+  # Authentication & Setup
+
+  ## Install the CLI
+
+  ```bash
+
+  curl -fsSL https://cli.inference.sh | sh
+
+  ```
+
+  ## Login
+
+  ```bash
+
+  infsh login
+
+  ```
+
+  This opens a browser for authentication. After login, credentials are stored
+  locally.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-8/skills/HEAD/skills/agent-tools/references/authentication.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-8/skills/agent-tools
+github_stars: 49
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.169Z
+content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
+---
+|/data/skills-sh-inference-sh-8-skills-agent-tools|
+
+---
+stable_id: skills/skills-sh-inference-sh-8-skills-javascript-sdk
+type: skills
+title: skills-sh-inference-sh-8-skills-javascript-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the JavaScript SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```typescript
+  import { inference, agentTool, string } from '@inferencesh/sdk';
+  const client = inference({ apiKey: 'inf_...' });
+  // Define sub-agents as tools
+  const researcher = agentTool('research', 'my-org/researcher@latest')
+    .describe('Research a topic thoroughly')
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-8/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-8/skills/javascript-sdk
+github_stars: 49
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.451Z
+content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
+---
+|/data/skills-sh-inference-sh-8-skills-javascript-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-8-skills-python-sdk
+type: skills
+title: skills-sh-inference-sh-8-skills-python-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the Python SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```python
+  from inferencesh import inference, agent_tool, string
+  client = inference(api_key="inf_...")
+  # Define sub-agents as tools
+  researcher = (
+      agent_tool("research", "my-org/researcher@latest")
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-8/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-8/skills/python-sdk
+github_stars: 49
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.533Z
+content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
+---
+|/data/skills-sh-inference-sh-8-skills-python-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-9-skills-agent-tools
+type: skills
+title: skills-sh-inference-sh-9-skills-agent-tools
+summary: >-
+  # Authentication & Setup
+
+  ## Install the CLI
+
+  ```bash
+
+  curl -fsSL https://cli.inference.sh | sh
+
+  ```
+
+  ## Login
+
+  ```bash
+
+  infsh login
+
+  ```
+
+  This opens a browser for authentication. After login, credentials are stored
+  locally.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-9/skills/HEAD/skills/agent-tools/references/authentication.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-9/skills/agent-tools
+github_stars: 60
+github_forks: 9
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.776Z
+content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
+---
+|/data/skills-sh-inference-sh-9-skills-agent-tools|
+
+---
+stable_id: skills/skills-sh-inference-sh-9-skills-javascript-sdk
+type: skills
+title: skills-sh-inference-sh-9-skills-javascript-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the JavaScript SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```typescript
+  import { inference, agentTool, string } from '@inferencesh/sdk';
+  const client = inference({ apiKey: 'inf_...' });
+  // Define sub-agents as tools
+  const researcher = agentTool('research', 'my-org/researcher@latest')
+    .describe('Research a topic thoroughly')
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-9/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-9/skills/javascript-sdk
+github_stars: 60
+github_forks: 9
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.706Z
+content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
+---
+|/data/skills-sh-inference-sh-9-skills-javascript-sdk|
+
+---
+stable_id: skills/skills-sh-inference-sh-9-skills-python-sdk
+type: skills
+title: skills-sh-inference-sh-9-skills-python-sdk
+summary: |-
+  # Agent Patterns
+  Common patterns for building agents with the Python SDK.
+  ## Multi-Agent Orchestration
+  Delegate tasks to specialized sub-agents:
+  ```python
+  from inferencesh import inference, agent_tool, string
+  client = inference(api_key="inf_...")
+  # Define sub-agents as tools
+  researcher = (
+      agent_tool("research", "my-org/researcher@latest")
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh-9/skills/HEAD/skills/python-sdk/references/agent-patterns.md
+license: ""
+upstream_ref: https://skills.sh/inference-sh-9/skills/python-sdk
+github_stars: 60
+github_forks: 9
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.672Z
+content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
+---
+|/data/skills-sh-inference-sh-9-skills-python-sdk|
 
 ---
 stable_id: skills/skills-sh-inference-sh-agent-skills-agent-tools
@@ -8358,7 +12447,7 @@ upstream_ref: https://skills.sh/inference-sh/agent-skills/agent-tools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.378Z
+retrieved_at: 2026-02-28T14:45:31.826Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---
 |/data/skills-sh-inference-sh-agent-skills-agent-tools|
@@ -8387,7 +12476,7 @@ upstream_ref: https://skills.sh/inference-sh/agent-skills/javascript-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.633Z
+retrieved_at: 2026-02-28T14:45:31.964Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---
 |/data/skills-sh-inference-sh-agent-skills-javascript-sdk|
@@ -8416,7 +12505,7 @@ upstream_ref: https://skills.sh/inference-sh/agent-skills/python-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.579Z
+retrieved_at: 2026-02-28T14:45:31.929Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---
 |/data/skills-sh-inference-sh-agent-skills-python-sdk|
@@ -8457,7 +12546,7 @@ upstream_ref: https://skills.sh/inference-sh/skills/agentic-browser
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.987Z
+retrieved_at: 2026-02-28T14:45:32.171Z
 content_sha256: b1c709ebcf54b26d957886efb8239ddb480d58ddb95fec297ffd42cfe1261c5e
 ---
 |/data/skills-sh-inference-sh-skills-agentic-browser|
@@ -8496,7 +12585,7 @@ upstream_ref: https://skills.sh/inferencesh/skills/agent-tools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.776Z
+retrieved_at: 2026-02-28T14:45:32.054Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---
 |/data/skills-sh-inferencesh-skills-agent-tools|
@@ -8525,7 +12614,7 @@ upstream_ref: https://skills.sh/inferencesh/skills/javascript-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.935Z
+retrieved_at: 2026-02-28T14:45:32.138Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---
 |/data/skills-sh-inferencesh-skills-javascript-sdk|
@@ -8554,7 +12643,7 @@ upstream_ref: https://skills.sh/inferencesh/skills/python-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.883Z
+retrieved_at: 2026-02-28T14:45:32.111Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---
 |/data/skills-sh-inferencesh-skills-python-sdk|
@@ -8563,17 +12652,31 @@ content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 stable_id: skills/skills-sh-jezweb-claude-skills-claude-agent-sdk
 type: skills
 title: skills-sh-jezweb-claude-skills-claude-agent-sdk
-summary: |-
+summary: >-
   # Changelog
-  ## 0.2.41
-  - Updated to parity with Claude Code v2.1.41
-  ## 0.2.40
-  - Updated to parity with Claude Code v2.1.40
-  ## 0.2.39
-  - Updated to parity with Claude Code v2.1.39
-  ## 0.2.38
-  - Updated to parity with Claude Code v2.1.38
-  ## 0.2.37
+
+  ## 0.2.63
+
+  - SDK: Fixed `pathToClaudeCodeExecutable` failing when set to a bare command
+  name (e.g., `"claude"`) that should resolve via PATH
+
+  - Added `supportedAgents()` method to the Query interface to view available
+  subagents
+
+  - Fixed MCP replacement tools being incorrectly denied in subagents when using
+  unprefixed MCP tool names
+
+  ## 0.2.61
+
+  - Updated to parity with Claude Code v2.1.61
+
+  ## 0.2.59
+
+  - Added `getSessionMessages()` function for reading a session's conversation
+  history from its transcript file, with support for pagination via `limit` and
+  `offset` options
+
+  ## 0.2.58
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -8583,45 +12686,10 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.881Z
-content_sha256: adb1a890097184a606ae744699d3309323fb43013dd4a82af7b19a5dab3c5ea9
+retrieved_at: 2026-02-28T14:45:34.893Z
+content_sha256: 759621cd5de211580a728a57876d915a3964d85629ace8efe2db1953e062d79d
 ---
 |/data/skills-sh-jezweb-claude-skills-claude-agent-sdk|
-
----
-stable_id: skills/skills-sh-jezweb-claude-skills-openai-assistants
-type: skills
-title: skills-sh-jezweb-claude-skills-openai-assistants
-summary: >-
-  ---
-
-  name: openai-responses
-
-  description: |
-    Build agentic AI with OpenAI Responses API - stateful conversations with preserved reasoning, built-in tools (Code Interpreter, File Search, Web Search), and MCP integration. Prevents 11 documented errors.
-    Use when: building agents with persistent reasoning, using server-side tools, or migrating from Chat Completions/Assistants for better multi-turn performance.
-  user-invocable: true
-
-  ---
-
-  # OpenAI Responses API
-
-  **Status**: Production Ready
-
-  **Last Updated**: 2026-01-21
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/jezweb/claude-skills/HEAD/skills/openai-responses/SKILL.md
-license: ""
-upstream_ref: https://skills.sh/jezweb/claude-skills/openai-assistants
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.589Z
-content_sha256: df6af7b728865a1fdae77fd660f3fbfc1169243e12f31042b1230036e108fa20
----
-|/data/skills-sh-jezweb-claude-skills-openai-assistants|
 
 ---
 stable_id: skills/skills-sh-jezweb-claude-skills-react-native-expo
@@ -8647,50 +12715,10 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/react-native-expo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.416Z
+retrieved_at: 2026-02-28T14:45:34.567Z
 content_sha256: 3246b413c28f643b21bb72f2b20bda5133ab11bac124b1c6ab3427be96ec997b
 ---
 |/data/skills-sh-jezweb-claude-skills-react-native-expo|
-
----
-stable_id: skills/skills-sh-jezweb-claude-skills-zustand-state-management
-type: skills
-title: skills-sh-jezweb-claude-skills-zustand-state-management
-summary: >-
-  ---
-
-  title: Slices Pattern
-
-  nav: 14
-
-  ---
-
-  ## Slicing the store into smaller stores
-
-  Your store can become bigger and bigger and tougher to maintain as you add
-  more features.
-
-  You can divide your main store into smaller individual stores to achieve
-  modularity. This is simple to accomplish in Zustand!
-
-  The first individual store:
-
-  ```js
-
-  export const createFishSlice = (set) => ({
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/pmndrs/zustand/main/docs/guides/slices-pattern.md
-license: ""
-upstream_ref: https://skills.sh/jezweb/claude-skills/zustand-state-management
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.978Z
-content_sha256: 91fb4fcc8f81a292dcf42d7683e17b3f1cae02dfeb2926c19840ef573562cc9d
----
-|/data/skills-sh-jezweb-claude-skills-zustand-state-management|
 
 ---
 stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
@@ -8723,10 +12751,10 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-article-illustrator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.509Z
+github_stars: 5829
+github_forks: 671
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.730Z
 content_sha256: d0d741a5b3cc839e18d0dd82be41de0401ce1d941f20a377997577352c65543e
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator|
@@ -8765,7 +12793,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.020Z
+retrieved_at: 2026-02-28T14:45:28.054Z
 content_sha256: d0d741a5b3cc839e18d0dd82be41de0401ce1d941f20a377997577352c65543e
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator-f9ed6141|
@@ -8791,10 +12819,10 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-comic/references/partial-workflows.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.833Z
+github_stars: 4718
+github_forks: 521
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.481Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-comic|
@@ -8823,7 +12851,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.114Z
+retrieved_at: 2026-02-28T14:45:28.104Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4|
@@ -8859,10 +12887,10 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-cover-image/references/style-presets.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.554Z
+github_stars: 5829
+github_forks: 671
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.754Z
 content_sha256: 78d4c3740c46e6bf3bffd2a07d5bddca9ec3d73688ad745df2641c4039de5d9d
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-cover-image|
@@ -8901,7 +12929,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.067Z
+retrieved_at: 2026-02-28T14:45:28.077Z
 content_sha256: 78d4c3740c46e6bf3bffd2a07d5bddca9ec3d73688ad745df2641c4039de5d9d
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-cover-image-93718624|
@@ -8937,10 +12965,10 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-danger-x-to-markdown/references/config/first-time-setup.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.638Z
+github_stars: 5324
+github_forks: 600
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.261Z
 content_sha256: 61db3aa0512d452163903d0b40c7d4062372e10df2053570a1a89ed656718800
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown|
@@ -8976,10 +13004,10 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/config/first-time-setup.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.885Z
+github_stars: 5829
+github_forks: 671
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.863Z
 content_sha256: 94394b25e191d7b502db5f48d468a8fb1106d85db4b4712ef082bbff5b6ed4e4
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat|
@@ -9019,7 +13047,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.219Z
+retrieved_at: 2026-02-28T14:45:28.129Z
 content_sha256: adf46a9ee4bbea0445d096f43e2d2c20dd9c8accc29c73526d08def7ffc40b9c
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd|
@@ -9059,7 +13087,7 @@ upstream_ref: https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practic
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.051Z
+retrieved_at: 2026-02-28T14:45:25.595Z
 content_sha256: b699d2245ddc6b6cdd08d86db0a89903556dc33138acb2d34645b5c2fb319219
 ---
 |/data/skills-sh-kadajett-agent-nestjs-skills-nestjs-best-practices|
@@ -9101,7 +13129,7 @@ upstream_ref: https://skills.sh/kylezantos/design-engineer-auditor-package/desig
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.651Z
+retrieved_at: 2026-02-28T14:45:28.392Z
 content_sha256: 42dfa5637766c6868aea875b24b7ceab8a156ea91b79c0cf7233579992b46f4d
 ---
 |/data/skills-sh-kylezantos-design-engineer-auditor-package-design-motion-principles|
@@ -9138,10 +13166,10 @@ tags:
 source_url: https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md
 license: ""
 upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.853Z
+github_stars: 130627
+github_forks: 20343
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.693Z
 content_sha256: b67ba50627f957bce3c6f67cd96e186485d48f3c6636267fbad1e0aba8f521fa
 ---
 |/data/skills-sh-langgenius-dify-frontend-code-review|
@@ -9182,10 +13210,48 @@ upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.398Z
+retrieved_at: 2026-02-28T14:45:34.405Z
 content_sha256: dca10944dcb129ae0451aa5a116a56e569c628f2988d043c9bbe3ed558cda02c
 ---
 |/data/skills-sh-letz-ai-letzai-skill-letzai-api|
+
+---
+stable_id: skills/skills-sh-letz-ai-letzai-skill-letzai-api-cd10df60
+type: skills
+title: skills-sh-letz-ai-letzai-skill-letzai-api-cd10df60
+summary: >-
+  ---
+
+  name: letzai-api
+
+  description: "Generate AI images and videos via LetzAI API. Supports Nano
+  Banana Pro, Flux2 Max, SeeDream for images; VEO, Kling for videos. Use custom
+  trained models with @modelname. Includes context editing and upscaling. Use
+  for content creation apps and automation."
+
+  license: MIT
+
+  dependencies:
+    - node-fetch (npm)
+    - requests (pip)
+  ---
+
+  # LetzAI API Integration Skill
+
+  ## Overview
+tags:
+  - skills-sh
+  - skills-sh-probed
+source_url: https://raw.githubusercontent.com/letz-ai/letzai-skill/main/SKILL.md
+license: ""
+upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:34.937Z
+content_sha256: 08821bcc515584894006f42acde1e00e380f50ea34a30de4bccfbb3b4a8f8e24
+---
+|/data/skills-sh-letz-ai-letzai-skill-letzai-api-cd10df60|
 
 ---
 stable_id: skills/skills-sh-lwmxiaobei-yt-dlp-skill-yt-dlp
@@ -9225,7 +13291,7 @@ upstream_ref: https://skills.sh/lwmxiaobei/yt-dlp-skill/yt-dlp
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.411Z
+retrieved_at: 2026-02-28T14:45:25.828Z
 content_sha256: 678319341ac20cb79bdebf70a1e432cae9cdd5ff4901ddd3a55292d9728d141e
 ---
 |/data/skills-sh-lwmxiaobei-yt-dlp-skill-yt-dlp|
@@ -9269,7 +13335,7 @@ upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-adaptive-ui
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.951Z
+retrieved_at: 2026-02-28T14:45:42.402Z
 content_sha256: 9928601ce17722835ee548fb4369b87860b037fe187b65f7048da7c927b19c52
 ---
 |/data/skills-sh-madteacher-mad-agents-skills-flutter-adaptive-ui|
@@ -9309,10 +13375,51 @@ upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-architectur
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.151Z
+retrieved_at: 2026-02-28T14:45:42.570Z
 content_sha256: 0257900638be45745a37208b4db3f7242b075454d2e2a22a5a0dc09c07f2f7a8
 ---
 |/data/skills-sh-madteacher-mad-agents-skills-flutter-architecture|
+
+---
+stable_id: skills/skills-sh-magicseek-nblm-nblm
+type: skills
+title: skills-sh-magicseek-nblm-nblm
+summary: >-
+  ---
+
+  name: nblm
+
+  description: Use this skill to query your Google NotebookLM notebooks directly
+  from Claude Code for source-grounded, citation-backed answers from Gemini.
+  Browser automation, library management, persistent auth. Drastically reduced
+  hallucinations through document-only responses.
+
+  ---
+
+  # NotebookLM Quick Commands
+
+  Query Google NotebookLM for source-grounded, citation-backed answers.
+
+  ## Environment
+
+  All dependencies and authentication are handled automatically by `run.py`:
+
+  - First run creates `.venv` and installs Python/Node.js dependencies
+
+  - If Google auth is missing or expired, a browser window opens automatically
+tags:
+  - skills-sh
+  - skills-sh-probed
+source_url: https://raw.githubusercontent.com/magicseek/nblm/main/SKILL.md
+license: ""
+upstream_ref: https://skills.sh/magicseek/nblm/nblm
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:32.828Z
+content_sha256: 1afee54177d3db6ae83d7d76fb96293d31fd126bbd1e0a787ecfbaef6f8597f9
+---
+|/data/skills-sh-magicseek-nblm-nblm|
 
 ---
 stable_id: skills/skills-sh-mastra-ai-skills-mastra
@@ -9346,13 +13453,813 @@ tags:
 source_url: https://raw.githubusercontent.com/mastra-ai/skills/HEAD/skills/mastra/references/create-mastra.md
 license: ""
 upstream_ref: https://skills.sh/mastra-ai/skills/mastra
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.270Z
-content_sha256: 85534f5c41c5a615b70ac368cae4b02a6ee1b9df0afb6a3288664a1a2f3c857e
+github_stars: 30
+github_forks: 2
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.886Z
+content_sha256: bb4f452bbd0dc7960eccdb3fc1b2a15f709848910ca5ce081d8660c884c349e0
 ---
 |/data/skills-sh-mastra-ai-skills-mastra|
+
+---
+stable_id: skills/skills-sh-mattpocock-skills-tdd
+type: skills
+title: skills-sh-mattpocock-skills-tdd
+summary: >-
+  # Good and Bad Tests
+
+  ## Good Tests
+
+  **Integration-style**: Test through real interfaces, not mocks of internal
+  parts.
+
+  ```typescript
+
+  // GOOD: Tests observable behavior
+
+  test("user can checkout with valid cart", async () => {
+    const cart = createCart();
+    cart.add(product);
+    const result = await checkout(cart, paymentMethod);
+    expect(result.status).toBe("confirmed");
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/mattpocock/skills/HEAD/tdd/tests.md
+license: ""
+upstream_ref: https://skills.sh/mattpocock/skills/tdd
+github_stars: 722
+github_forks: 64
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.579Z
+content_sha256: e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a
+---
+|/data/skills-sh-mattpocock-skills-tdd|
+
+---
+stable_id: skills/skills-sh-mblode-agent-skills-ui-animation
+type: skills
+title: skills-sh-mblode-agent-skills-ui-animation
+summary: |-
+  # UI Animation Examples
+  Snippets and tips for the core rules in `SKILL.md`.
+  ## Table of contents
+  - [Enter and exit](#enter-and-exit)
+  - [Spatial rules and stagger](#spatial-rules-and-stagger)
+  - [Drawer (move easing)](#drawer-move-easing)
+  - [Hover transitions](#hover-transitions)
+  - [Reduced motion](#reduced-motion)
+  - [Origin-aware animations](#origin-aware-animations)
+  - [Performance recipes](#performance-recipes)
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/mblode/agent-skills/HEAD/skills/ui-animation/examples.md
+license: ""
+upstream_ref: https://skills.sh/mblode/agent-skills/ui-animation
+github_stars: 16
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.096Z
+content_sha256: 3f6fcbc710e184f4b8c49c2824730b723bf692f98f9958239a3e0c7764618f5f
+---
+|/data/skills-sh-mblode-agent-skills-ui-animation|
+
+---
+stable_id: skills/skills-sh-mcp-use-mcp-use-chatgpt-app-builder
+type: skills
+title: skills-sh-mcp-use-mcp-use-chatgpt-app-builder
+summary: >-
+  # Discovery Workflow
+
+  **Goal: Idea maturation, not speed.**
+
+  Proceed in phases. Even if the user provides details, complete each phase
+  through conversation. Do not infer or assume -- discuss and validate with
+  user. Proceed one phase at a time.
+
+  ---
+
+  ## Phase 1: Value Proposition
+
+  1. **Problem + User**: What problem does this solve? For whom?
+
+  2. **Pain**: How is it solved today? What's painful about that?
+
+  3. **Core actions**: 1-3 focused actions (not a full app port)
+
+  ---
+
+  ## Phase 2: Why LLM?
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/chatgpt-app-builder/references/discover.md
+license: ""
+upstream_ref: https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder
+github_stars: 9294
+github_forks: 1146
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.077Z
+content_sha256: da18c63e30d5d496f91c9db29da5ed3dea5ffc1d197b9b38170dc729e6281411
+---
+|/data/skills-sh-mcp-use-mcp-use-chatgpt-app-builder|
+
+---
+stable_id: skills/skills-sh-mcp-use-mcp-use-mcp-apps-builder
+type: skills
+title: skills-sh-mcp-use-mcp-use-mcp-apps-builder
+summary: >-
+  # Quick Start
+
+  Build your first MCP server tool in 5 minutes.
+
+  ## Setup
+
+  ### Scaffolding a New Project
+
+  ```bash
+
+  npx create-mcp-use-app my-server
+
+  cd my-server
+
+  npm run dev
+
+  ```
+
+  This installs dependencies, starts the server on port 3000, and opens the
+  inspector at `http://localhost:3000/inspector`.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/mcp-apps-builder/references/foundations/quickstart.md
+license: ""
+upstream_ref: https://skills.sh/mcp-use/mcp-use/mcp-apps-builder
+github_stars: 9271
+github_forks: 1142
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.424Z
+content_sha256: 80675d7718f7f2586eb9074e1411ed53b59b27d3559da95114c149cd3fb7f524
+---
+|/data/skills-sh-mcp-use-mcp-use-mcp-apps-builder|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation
+summary: |-
+  # Auto-instrument app
+  Use Azure Portal to auto-instrument a webapp hosted in Azure App Service for App Insights without making any code changes. Only the following types of app can be auto-instrumented. See [supported environments and resource providers](https://learn.microsoft.com/azure/azure-monitor/app/codeless-overview#supported-environments-languages-and-resource-providers).
+  - ASP.NET Core app hosted in Azure App Service
+  - Node.js app hosted in Azure App Service
+  Construct a url to bring the user to the Application Insights blade in Azure Portal for the App Service App.
+  ```
+  https://portal.azure.com/#resource/subscriptions/{subscription_id}/resourceGroups/{resource_group_name}/providers/Microsoft.Web/sites/{app_service_name}/monitoringSettings
+  ```
+  Use the context or ask the user to get the subscription_id, resource_group_name, and the app_service_name hosting the webapp.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/appinsights-instrumentation/references/auto.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.518Z
+content_sha256: 8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-ai
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-ai
+summary: >-
+  # Azure AI Search — Python SDK Quick Reference
+
+  > Condensed from **azure-search-documents-py**. Full patterns (agentic
+  retrieval, integrated vectorization, skillsets)
+
+  > in the **azure-search-documents-py** plugin skill if installed.
+
+  ## Install
+
+  ```bash
+
+  pip install azure-search-documents azure-identity
+
+  ```
+
+  ## Quick Start
+
+  ```python
+
+  from azure.search.documents import SearchClient
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-ai/references/sdk/azure-search-documents-py.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-ai
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.309Z
+content_sha256: d65d61fe00ed7c54d4163279da7f915613aa94a88b0613801dfb82514f89bc86
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-ai|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-aigateway
+summary: |-
+  # AI Gateway Policies
+  Complete reference for Azure API Management AI governance policies.
+  ---
+  ## Policy Placement Order
+  Recommended order in `<inbound>` section:
+  ```
+  1. Authentication (managed identity)
+  2. Semantic Cache Lookup
+  3. Token Rate Limiting
+  4. Content Safety
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-aigateway/references/policies.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.635Z
+content_sha256: 176a5bf61186a45e338dcc9ab6e9320a7b4ae3d8bb356f8613506533348b3b69
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-compliance
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-compliance
+summary: >-
+  # Azure Quick Review Compliance Assessment
+
+  This skill enables comprehensive Azure compliance assessments using Azure
+  Quick Review (azqr), analyzing findings against Azure best practices, and
+  providing actionable remediation guidance.
+
+  ## Prerequisites
+
+  - **Azure authentication** - Logged in via Azure CLI (`az login`) or using
+  Service Principal/Managed Identity
+
+  - **Reader permissions** - Minimum Reader role on target subscription or
+  management group
+
+  ## Assessment Workflow
+
+  ### Step 1: Determine Scan Scope
+
+  Ask the user or detect from context:
+
+  | Scope | Use Case | Required Info |
+
+  |-------|----------|---------------|
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compliance/references/azure-quick-review.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.575Z
+content_sha256: abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-compliance|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-compute
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-compute
+summary: |-
+  # VMSS Guide
+  Determine when to recommend a Virtual Machine Scale Set (VMSS) over a single VM, and which VMSS configuration to suggest.
+  > **Note:** This reference provides quick guidance but may become stale. Always verify VMSS features, limitations, and orchestration mode capabilities by fetching the latest documentation from:
+  > - https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview
+  > - https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-autoscale-overview
+  > - https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/orchestration-modes-api-comparison
+  ## What Is a VM Scale Set?
+  A VMSS creates and manages a group of load-balanced, identically configured VM instances. Key capabilities:
+  - **Autoscale** — automatically add/remove instances based on metrics or schedules
+  - **High availability** — spread instances across fault domains and Availability Zones
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compute/references/vmss-guide.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compute
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.109Z
+content_sha256: 506dc880e0c8dd8362a0ac8589048ed2021e07aa93d1525306c32046f4b41326
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-compute|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization
+summary: >-
+  ## Azure Redis Cost Optimization
+
+  Reference guide for identifying cost savings opportunities in Azure Redis
+  deployments through analysis and targeted scans.
+
+  ## Subscription Input Options
+
+  Accept any of these identifiers to identify subscriptions for analysis:
+
+  | Input Type | Example | Use Case |
+
+  |------------|---------|----------|
+
+  | **Subscription ID** | `a1b2c3d4-...` | Analyze specific subscription |
+
+  | **Subscription Name** | `Production-Environment` | User-friendly identifier
+  |
+
+  | **Subscription Prefix** | `CacheTeam -` | Analyze all team subscriptions |
+
+  | **Tenant ID** | `tenant-guid` | Analyze entire organization |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cost-optimization/references/azure-redis.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.363Z
+content_sha256: 51b03b4e4b4089b5c0e8a817fab8a0e854c630180f09a8ae4a23726bbc0f9f5c
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-deploy
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-deploy
+summary: >-
+  # Pre-Deployment Checklist
+
+  > **CRITICAL**: Before running ANY provisioning commands, you MUST complete
+  this checklist IN ORDER.
+
+  >
+
+  > ⛔ **DO NOT** run `azd up` until ALL steps are complete. Trial-and-error
+  wastes time and creates orphan resources.
+
+  ## Step 1: Check Current Subscription
+
+  Use the Azure MCP tool to get current subscription:
+
+  ```
+
+  mcp_azure_mcp_subscription_list
+
+  ```
+
+  **CLI fallback:**
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-deploy/references/pre-deploy-checklist.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.877Z
+content_sha256: 3990b9b082a1aaa95dd3dda9e9916889fda3a622d5f2eb1cf7128315c49391d9
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-deploy|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-diagnostics
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-diagnostics
+summary: >-
+  # Container Apps Troubleshooting
+
+  ### Common Issues Matrix
+
+  | Symptom | Likely Cause | Quick Fix |
+
+  |---------|--------------|-----------|
+
+  | Image pull failure | ACR credentials missing | `az containerapp registry set
+  --identity system` |
+
+  | ACR build fails | ACR Tasks disabled (free sub) | Build locally with Docker
+  |
+
+  | Cold start timeout | min-replicas=0 | `az containerapp update --min-replicas
+  1` |
+
+  | Port mismatch | Wrong target port | Check Dockerfile EXPOSE matches ingress
+  |
+
+  | App keeps restarting | Health probe failing | Verify `/health` endpoint |
+
+  ### Image Pull Failures
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-diagnostics/references/container-apps/README.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.412Z
+content_sha256: 8d7772007db8635af33cce1dde78f82e22f8c9df143e10a960e841cb2e479dd4
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-diagnostics|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-hosted-copilot-sdk
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-hosted-copilot-sdk
+summary: |-
+  # Integrating Copilot SDK into Existing Projects
+  Add Copilot SDK AI features to an existing application.
+  ## Project Analysis
+  Detect the project type by scanning for indicator files:
+  | Indicator | Language | Framework hints |
+  |-----------|----------|-----------------|
+  | `package.json` | Node.js | Express, Fastify, Next.js |
+  | `requirements.txt` / `pyproject.toml` | Python | Flask, FastAPI, Django |
+  | `go.mod` | Go | Gin, Echo, net/http |
+  | `*.csproj` / `*.sln` | .NET | ASP.NET, Minimal API |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-hosted-copilot-sdk/references/existing-project-integration.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.732Z
+content_sha256: b3943c725135fcf780a2a5d768ad3c7ef1ea9485b4c0585be43b788bc6ab44f5
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-hosted-copilot-sdk|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-messaging
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-messaging
+summary: >-
+  # Service-Level Troubleshooting
+
+  Covers connectivity, firewall, and network issues that apply regardless of SDK
+  language.
+
+  ## Permanent Connectivity Issues
+
+  If the client **cannot connect at all**:
+
+  1. **Verify connection string** — Get from Azure portal. For **Event Hubs
+  (Kafka endpoint)** clients, also check `producer.config` / `consumer.config`.
+
+  2. **Check service outage** — [Azure status
+  page](https://azure.status.microsoft/status)
+
+  3. **Firewall / ports** — Open AMQP 5671 and 5672, HTTPS 443. For **Event Hubs
+  (Kafka endpoint)** only, also open Kafka 9093. Use WebSockets (port 443) as
+  fallback.
+
+  4. **IP firewall** — If enabled on namespace, ensure client IP is allowed.
+
+  5. **VNet / private endpoints** — Confirm app runs in correct subnet. Check
+  service endpoint and NSG rules.
+
+  6. **Proxy / SSL** — Intercepting proxies can cause SSL handshake failures.
+  Test with proxy disabled.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-messaging/references/service-troubleshooting.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-messaging
+github_stars: 114
+github_forks: 72
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.008Z
+content_sha256: 206d243b21e22a129b68a4ba36729e18b740bffaf2dfa1aecc9fd36dc7d4df02
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-messaging|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-observability
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-observability
+summary: |-
+  # Azure Monitor OpenTelemetry — Python SDK Quick Reference
+  > Condensed from **azure-monitor-opentelemetry-py**. Full patterns
+  > (Flask/Django/FastAPI, custom metrics, sampling, live metrics)
+  > in the **azure-monitor-opentelemetry-py** plugin skill if installed.
+  ## Install
+  pip install azure-monitor-opentelemetry
+  ## Quick Start
+  ```python
+  from azure.monitor.opentelemetry import configure_azure_monitor
+  configure_azure_monitor()
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-observability/references/sdk/azure-monitor-opentelemetry-py.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-observability
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.334Z
+content_sha256: 09c3621da82b7de1ee6ee4c96e27171023df75897b113803e99a2a9851354608
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-observability|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-prepare
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-prepare
+summary: >-
+  # Azure Context (Subscription & Location)
+
+  Detect and confirm Azure subscription and location before generating
+  artifacts.
+
+  ---
+
+  ## Step 1: Check for Existing AZD Environment
+
+  If the project already uses AZD, check for an existing environment with values
+  already set:
+
+  ```bash
+
+  azd env list
+
+  ```
+
+  **If an environment is selected** (marked with `*`), check its values:
+
+  ```bash
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.601Z
+content_sha256: 10b26a7fa0defe0a41432f7a1432b50139b6a2b8074b83948728468aaa58fef5
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-prepare|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup
+summary: >-
+  # Azure Resource Graph Query Patterns
+
+  Azure Resource Graph (ARG) queries use a KQL subset against indexed Azure
+  resource metadata. Results are near real-time across all subscriptions.
+
+  ## Command Format
+
+  ```bash
+
+  az graph query -q "<KQL>" --query "data[].{col1:field1, col2:field2}" -o table
+
+  ```
+
+  | Flag | Purpose |
+
+  |------|---------|
+
+  | `-q` | KQL query string |
+
+  | `--query` | JMESPath to shape output columns |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-resource-lookup/references/azure-resource-graph.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.664Z
+content_sha256: 478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-resource-visualizer
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-resource-visualizer
+summary: >-
+  # Azure Resource Graph Queries for Resource Discovery
+
+  Azure Resource Graph (ARG) enables fast, cross-subscription resource querying
+  using KQL via `az graph query`. Use it for bulk resource discovery and
+  relationship mapping.
+
+  ## How to Query
+
+  Use the `extension_cli_generate` MCP tool to generate `az graph query`
+  commands:
+
+  ```yaml
+
+  mcp_azure_mcp_extension_cli_generate
+    intent: "query Azure Resource Graph to <describe what you want to find>"
+    cli-type: "az"
+  ```
+
+  Or construct directly:
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-resource-visualizer/references/azure-resource-graph.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.489Z
+content_sha256: fb7c11feca04a1ad967a4eb83ad823ac25d0b8e1252a39bada62d4b91159597c
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-resource-visualizer|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-storage
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-storage
+summary: |-
+  # Blob Storage — Python SDK Quick Reference
+  > Condensed from **azure-storage-blob-py**. Full patterns (SAS tokens,
+  > async client, performance tuning, blob properties/metadata)
+  > in the **azure-storage-blob-py** plugin skill if installed.
+  ## Install
+  pip install azure-storage-blob azure-identity
+  ## Quick Start
+  ```python
+  from azure.storage.blob import BlobServiceClient
+  from azure.identity import DefaultAzureCredential
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-storage/references/sdk/azure-storage-blob-py.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-storage
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.387Z
+content_sha256: afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-storage|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-azure-validate
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-azure-validate
+summary: >-
+  # Global Rules
+
+  > **MANDATORY** — These rules apply to ALL skills. Violations are
+  unacceptable.
+
+  ## Rule 1: Destructive Actions Require User Confirmation
+
+  ⛔ **ALWAYS use `ask_user`** before ANY destructive action.
+
+  ### What is Destructive?
+
+  | Category | Examples |
+
+  |----------|----------|
+
+  | **Delete** | `az group delete`, `azd down`, `rm -rf`, delete resource |
+
+  | **Overwrite** | Replace existing files, overwrite config, reset settings |
+
+  | **Irreversible** | Purge Key Vault, delete storage account, drop database |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-validate/references/global-rules.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-validate
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.550Z
+content_sha256: 81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-azure-validate|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-entra-app-registration
+summary: >-
+  # Azure CLI Commands for App Registration
+
+  This document provides a comprehensive reference for managing Microsoft Entra
+  app registrations using Azure CLI.
+
+  ## Prerequisites
+
+  ```bash
+
+  # Ensure Azure CLI is installed
+
+  az version
+
+  # Login to Azure
+
+  az login
+
+  # Set default subscription (optional)
+
+  az account set --subscription "Your Subscription Name"
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/entra-app-registration/references/cli-commands.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.467Z
+content_sha256: c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration|
+
+---
+stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry
+type: skills
+title: skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry
+summary: >-
+  # Foundry Agent Deploy
+
+  Create and manage agent deployments in Azure AI Foundry. For hosted agents,
+  this includes the full workflow from containerizing the project to starting
+  the agent container.
+
+  ## Quick Reference
+
+  | Property | Value |
+
+  |----------|-------|
+
+  | Agent types | Prompt (LLM-based), Hosted (ACA based), Hosted (vNext) |
+
+  | MCP server | `foundry-mcp` |
+
+  | Key MCP tools | `agent_update`, `agent_container_control`,
+  `agent_container_status_get` |
+
+  | CLI tools | `docker`, `az acr` (hosted agents only) |
+
+  | Container protocols | `a2a`, `responses`, `mcp` |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md
+license: ""
+upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry
+github_stars: 127
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.441Z
+content_sha256: 8673ceff0654bfd16b0a9339a8947ffb6411d41636b4704cd5e666374fa225ef
+---
+|/data/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry|
 
 ---
 stable_id: skills/skills-sh-microsoft-playwright-cli-playwright-cli
@@ -9386,53 +14293,13 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/playwright-cli/HEAD/skills/playwright-cli/references/request-mocking.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/playwright-cli/playwright-cli
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.667Z
+github_stars: 4106
+github_forks: 154
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.594Z
 content_sha256: 54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c
 ---
 |/data/skills-sh-microsoft-playwright-cli-playwright-cli|
-
----
-stable_id: skills/skills-sh-microsoft-playwright-playwright-cli
-type: skills
-title: skills-sh-microsoft-playwright-playwright-cli
-summary: >-
-  # Request Mocking
-
-  Intercept, mock, modify, and block network requests.
-
-  ## CLI Route Commands
-
-  ```bash
-
-  # Mock with custom status
-
-  playwright-cli route "**/*.jpg" --status=404
-
-  # Mock with JSON body
-
-  playwright-cli route "**/api/users" --body='[{"id":1,"name":"Alice"}]'
-  --content-type=application/json
-
-  # Mock with custom headers
-
-  playwright-cli route "**/api/data" --body='{"ok":true}' --header="X-Custom:
-  value"
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/microsoft/playwright/HEAD/packages/playwright/src/skill/references/request-mocking.md
-license: ""
-upstream_ref: https://skills.sh/microsoft/playwright/playwright-cli
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.410Z
-content_sha256: 54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c
----
-|/data/skills-sh-microsoft-playwright-playwright-cli|
 
 ---
 stable_id: skills/skills-sh-mrgoonie-claudekit-skills-chrome-devtools
@@ -9469,7 +14336,7 @@ upstream_ref: https://skills.sh/mrgoonie/claudekit-skills/chrome-devtools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.641Z
+retrieved_at: 2026-02-28T14:45:32.952Z
 content_sha256: fa81fa0fda1ae94ff2c25c924cfcb16f5a6e967b6d8412ddd372dc8a1b26f601
 ---
 |/data/skills-sh-mrgoonie-claudekit-skills-chrome-devtools|
@@ -9502,13 +14369,42 @@ tags:
 source_url: https://raw.githubusercontent.com/nodnarbnitram/claude-code-extensions/HEAD/.claude/skills/tauri-v2/references/capabilities-reference.md
 license: ""
 upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.146Z
+github_stars: 5
+github_forks: 2
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.627Z
 content_sha256: 8248fda5666bd149a0275c3ab104b9794406255580d59da018ba1eff3e9d58e0
 ---
 |/data/skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2|
+
+---
+stable_id: skills/skills-sh-nuxt-ui-nuxt-ui
+type: skills
+title: skills-sh-nuxt-ui-nuxt-ui
+summary: |-
+  # Composables
+  ## useToast
+  Show notifications. Requires `<UApp>` wrapper.
+  ```ts
+  const toast = useToast()
+  toast.add({
+    title: 'Success',
+    description: 'Item saved',
+    color: 'success',       // primary, success, error, warning, info
+    icon: 'i-lucide-check-circle',
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/nuxt/ui/HEAD/skills/nuxt-ui/references/composables.md
+license: ""
+upstream_ref: https://skills.sh/nuxt/ui/nuxt-ui
+github_stars: 6254
+github_forks: 1017
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.563Z
+content_sha256: e24b7e54fcfb8ba9e4e061f3d5f94c84e771bac41ecfb371c875219081f0c034
+---
+|/data/skills-sh-nuxt-ui-nuxt-ui|
 
 ---
 stable_id: skills/skills-sh-onmax-nuxt-skills-document-writer
@@ -9541,10 +14437,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/document-writer/references/writing-style.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/document-writer
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.514Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:42.257Z
 content_sha256: 978b9e55ca9c992652d2b6ff28b57d75d24771b4c5b53fab1d33421c49615769
 ---
 |/data/skills-sh-onmax-nuxt-skills-document-writer|
@@ -9573,7 +14469,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/motion
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.131Z
+retrieved_at: 2026-02-28T14:45:32.871Z
 content_sha256: 739a643e263a50006fb29dce5fd1e84a704574d4bdfcda485b4951023ac02110
 ---
 |/data/skills-sh-onmax-nuxt-skills-motion|
@@ -9609,10 +14505,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-better-auth/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-better-auth
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.092Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:42.790Z
 content_sha256: 2fb4a6e8b4eae28125eef6479a7c78dbd9ebde2152c800f7b804407308ec1f17
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-better-auth|
@@ -9648,10 +14544,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-content/references/collections.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-content
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.999Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:42.673Z
 content_sha256: eb10a535052b1ecf968008adaf360e1fb130f229808e83482519b83c78aaae4c
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-content|
@@ -9677,10 +14573,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-modules/references/development.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-modules
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.734Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:42.548Z
 content_sha256: 22572b0823c7d75231a6ab867e3e83bc98a3fa8758dd51645b0bede5a8d6081b
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-modules|
@@ -9706,10 +14602,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-seo/references/site-config.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-seo
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.291Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:43.009Z
 content_sha256: 5fe0f6314f21f851027e203b33e483fa94d318ec6ac82fa047124674b82a89b0
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-seo|
@@ -9735,10 +14631,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-ui/references/installation.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-ui
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.493Z
+github_stars: 543
+github_forks: 23
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.151Z
 content_sha256: 3eebd995590401035dd57598ce2f6eee22e8d7ca0403044f80b5765a847e34c7
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-ui|
@@ -9774,10 +14670,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxthub/references/wrangler-templates.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxthub
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.082Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:43.228Z
 content_sha256: 1df7576b8c23b52e21dc0dd36dc3b586257f66bdaa36acc8d8a48eec872add8f
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxthub|
@@ -9820,10 +14716,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/reka-ui/references/components.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/reka-ui
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.017Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.651Z
 content_sha256: 48e417f86ac1fc35c038d9cf6b377a5461a09032a285883cf125f4aa33180f9c
 ---
 |/data/skills-sh-onmax-nuxt-skills-reka-ui|
@@ -9849,10 +14745,10 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/ts-library/references/project-setup.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/ts-library
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.849Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.959Z
 content_sha256: 2c48c69f958dbc84d435513df0b8ba0d1d507b72d8eb3033c3413f70875ee18b
 ---
 |/data/skills-sh-onmax-nuxt-skills-ts-library|
@@ -9869,37 +14765,44 @@ summary: >-
 
   ## '@Electron'
 
-  | Composable | Description | File |
+  | Composable           |
+  Description                                                  |
+  File                                                                    |
 
-  | --- | --- | --- |
+  | -------------------- |
+  ------------------------------------------------------------ |
+  ----------------------------------------------------------------------- |
 
-  | useIpcRenderer | Provides ipcRenderer and all of its APIs with Vue
-  reactiv... | [use-ipc-renderer.md](../composables/use-ipc-renderer.md) |
+  | useIpcRenderer       | Provides ipcRenderer and all of its APIs with Vue
+  reactiv... |
+  [use-ipc-renderer.md](../composables/use-ipc-renderer.md)               |
 
   | useIpcRendererInvoke | Reactive ipcRenderer.invoke API result. Make
   asynchronous... |
   [use-ipc-renderer-invoke.md](../composables/use-ipc-renderer-invoke.md) |
 
-  | useIpcRendererOn | Use ipcRenderer.on with ease and
+  | useIpcRendererOn     | Use ipcRenderer.on with ease and
   ipcRenderer.removeListen... |
-  [use-ipc-renderer-on.md](../composables/use-ipc-renderer-on.md) |
+  [use-ipc-renderer-on.md](../composables/use-ipc-renderer-on.md)         |
 
-  | useZoomFactor | Reactive WebFrame zoom factor. |
-  [use-zoom-factor.md](../composables/use-zoom-factor.md) |
+  | useZoomFactor        | Reactive WebFrame zoom
+  factor.                               |
+  [use-zoom-factor.md](../composables/use-zoom-factor.md)                 |
 
-  | useZoomLevel | Reactive WebFrame zoom level. |
-  [use-zoom-level.md](../composables/use-zoom-level.md) |
+  | useZoomLevel         | Reactive WebFrame zoom
+  level.                                |
+  [use-zoom-level.md](../composables/use-zoom-level.md)                   |
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/vueuse/references/composables.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/vueuse
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.498Z
-content_sha256: c6d81de9900fc2d7897f89626e8c87686c2c7662e61dab51fefef6c902e02599
+github_stars: 560
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.804Z
+content_sha256: 34c04a1a4e72cf7b54140e70a11a6522d9f3166996d5eb31b00ffddf52d492f9
 ---
 |/data/skills-sh-onmax-nuxt-skills-vueuse|
 
@@ -9927,7 +14830,7 @@ upstream_ref: https://skills.sh/op7418/document-illustrator-skill/document-illus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.463Z
+retrieved_at: 2026-02-28T14:45:25.854Z
 content_sha256: 159a7b86419b7c27afba2754781575ad5537eb7b83195d9d62dadc733debffc2
 ---
 |/data/skills-sh-op7418-document-illustrator-skill-document-illustrator|
@@ -9956,7 +14859,7 @@ upstream_ref: https://skills.sh/op7418/humanizer-zh/humanizer-zh
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.007Z
+retrieved_at: 2026-02-28T14:45:25.557Z
 content_sha256: e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb
 ---
 |/data/skills-sh-op7418-humanizer-zh-humanizer-zh|
@@ -9982,10 +14885,10 @@ tags:
 source_url: https://raw.githubusercontent.com/op7418/youtube-clipper-skill/HEAD/README.md
 license: ""
 upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.382Z
+github_stars: 1428
+github_forks: 224
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.163Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---
 |/data/skills-sh-op7418-youtube-clipper-skill-youtube-clipper|
@@ -10014,10 +14917,42 @@ upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.262Z
+retrieved_at: 2026-02-28T14:45:28.155Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---
 |/data/skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db|
+
+---
+stable_id: skills/skills-sh-othmanadi-planning-with-files-pi-planning-with-files
+type: skills
+title: skills-sh-othmanadi-planning-with-files-pi-planning-with-files
+summary: >-
+  # Task Plan: [Brief Description]
+
+  <!--
+    WHAT: This is your roadmap for the entire task. Think of it as your "working memory on disk."
+    WHY: After 50+ tool calls, your original goals can get forgotten. This file keeps them fresh.
+    WHEN: Create this FIRST, before starting any work. Update after each phase completes.
+  -->
+
+  ## Goal
+
+  <!--
+    WHAT: One clear sentence describing what you're trying to achieve.
+    WHY: This is your north star. Re-reading this keeps you focused on the end state.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/.pi/skills/planning-with-files/templates/task_plan.md
+license: ""
+upstream_ref: https://skills.sh/othmanadi/planning-with-files/pi-planning-with-files
+github_stars: 14753
+github_forks: 1363
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.809Z
+content_sha256: 03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa
+---
+|/data/skills-sh-othmanadi-planning-with-files-pi-planning-with-files|
 
 ---
 stable_id: skills/skills-sh-othmanadi-planning-with-files-planning-with-files
@@ -10043,10 +14978,10 @@ tags:
 source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/skills/planning-with-files/templates/task_plan.md
 license: ""
 upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-files
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.045Z
+github_stars: 14753
+github_forks: 1363
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.973Z
 content_sha256: 03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa
 ---
 |/data/skills-sh-othmanadi-planning-with-files-planning-with-files|
@@ -10075,10 +15010,49 @@ upstream_ref: https://skills.sh/payloadcms/skills/payload
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.348Z
+retrieved_at: 2026-02-28T14:45:34.494Z
 content_sha256: 990172ff51d8958c9711a23e0857029ef2c92dfeb75112e304aa96af1704825d
 ---
 |/data/skills-sh-payloadcms-skills-payload|
+
+---
+stable_id: skills/skills-sh-planetscale-database-skills-postgres
+type: skills
+title: skills-sh-planetscale-database-skills-postgres
+summary: >-
+  ---
+
+  title: PostgreSQL Schema Design
+
+  description: Schema design guide
+
+  tags: postgres, schema, primary-keys, data-types, foreign-keys, naming
+
+  ---
+
+  # Schema Design
+
+  ## Primary Keys
+
+  Prefer `BIGINT GENERATED ALWAYS AS IDENTITY`. Avoid random UUIDs (UUIDv4) as
+  primary keys; use `uuidv7()` when you need UUIDs.
+
+  ```sql
+
+  CREATE TABLE user (
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/planetscale/database-skills/main/skills/postgres/references/schema-design.md
+license: ""
+upstream_ref: https://skills.sh/planetscale/database-skills/postgres
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:42.040Z
+content_sha256: a831161ebd0343cfb506a069e0d6d4b274c671c81d2580c544c4ffed136a04ba
+---
+|/data/skills-sh-planetscale-database-skills-postgres|
 
 ---
 stable_id: skills/skills-sh-pleaseprompto-notebooklm-skill-notebooklm
@@ -10118,7 +15092,7 @@ upstream_ref: https://skills.sh/pleaseprompto/notebooklm-skill/notebooklm
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.312Z
+retrieved_at: 2026-02-28T14:45:25.738Z
 content_sha256: 8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e
 ---
 |/data/skills-sh-pleaseprompto-notebooklm-skill-notebooklm|
@@ -10158,7 +15132,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/clean-architecture
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.978Z
+retrieved_at: 2026-02-28T14:45:33.005Z
 content_sha256: f7c28c5d06988ac8103107c643864bbf8fbdb4710379cc04099970ca7be1a54f
 ---
 |/data/skills-sh-pproenca-dot-skills-clean-architecture|
@@ -10198,7 +15172,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/nuqs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.200Z
+retrieved_at: 2026-02-28T14:45:33.254Z
 content_sha256: b9e4443768bf511646481557c779ff23c1045b0978750577dc0699c1ce759b82
 ---
 |/data/skills-sh-pproenca-dot-skills-nuqs|
@@ -10240,7 +15214,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/typescript
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.715Z
+retrieved_at: 2026-02-28T14:45:33.808Z
 content_sha256: bd6767139e4f005dc79cb3d8c5dec25a25eb2b0ac6e2fa0f1571fe8595ca2ffe
 ---
 |/data/skills-sh-pproenca-dot-skills-typescript|
@@ -10283,196 +15257,53 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/zod
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.205Z
+retrieved_at: 2026-02-28T14:45:43.408Z
 content_sha256: f9518bb5e0e5dff531041fd82962a307495f034ec0259217ab4a47a1090236c2
 ---
 |/data/skills-sh-pproenca-dot-skills-zod|
 
 ---
-stable_id: skills/skills-sh-railwayapp-railway-skills-database
+stable_id: skills/skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi
 type: skills
-title: skills-sh-railwayapp-railway-skills-database
+title: skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi
 summary: >-
-  # Environment Config Reference
+  # Importing Azure Resources into Pulumi
 
-  The `EnvironmentConfig` object is used to configure services, volumes, and
-  shared variables in Railway.
+  This document provides detailed procedures for importing existing Azure
+  resources into Pulumi state and resolving preview diffs to achieve zero-diff
+  validation.
 
-  ## Structure
+  **Key Principle**: Azure will return many default values it has set
+  dynamically that are not represented in code/state. You must systematically
+  resolve each diff type to achieve zero-diff.
 
-  ```json
+  ## IMPORT APPROACH: INLINE IMPORT IDS
 
-  {
-    "services": {
-      "<serviceId>": {
-        "source": { ... },
-        "build": { ... },
-        "deploy": { ... },
+  **ARM migration uses inline imports.** Use Pulumi's `import` resource option
+  to specify Azure Resource IDs directly in the code.
+
+  ### Example
+
+  **TypeScript:**
+
+  ```typescript
+
+  const storageAccount = new
+  azure_native.storage.StorageAccount("storageAccount", {
+      accountName: "mystorageaccount",
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/HEAD/plugins/railway/skills/database/references/environment-config.md
+source_url: https://raw.githubusercontent.com/pulumi/agent-skills/HEAD/migration/skills/pulumi-arm-to-pulumi/arm-import.md
 license: ""
-upstream_ref: https://skills.sh/railwayapp/railway-skills/database
+upstream_ref: https://skills.sh/pulumi/agent-skills/pulumi-arm-to-pulumi
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.521Z
-content_sha256: e1602d30fed437ed0082a69b0956c5cbe466ec0da6ebd17aff5f2dc3e940f8e8
+retrieved_at: 2026-02-28T14:45:37.743Z
+content_sha256: ea39de8e596c580b86a0d0e4878bd3a29acf19b65549d641c50bff203bdb24b5
 ---
-|/data/skills-sh-railwayapp-railway-skills-database|
-
----
-stable_id: skills/skills-sh-railwayapp-railway-skills-environment
-type: skills
-title: skills-sh-railwayapp-railway-skills-environment
-summary: >-
-  # Environment Config Reference
-
-  The `EnvironmentConfig` object is used to configure services, volumes, and
-  shared variables in Railway.
-
-  ## Structure
-
-  ```json
-
-  {
-    "services": {
-      "<serviceId>": {
-        "source": { ... },
-        "build": { ... },
-        "deploy": { ... },
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/HEAD/plugins/railway/skills/environment/references/environment-config.md
-license: ""
-upstream_ref: https://skills.sh/railwayapp/railway-skills/environment
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.192Z
-content_sha256: e1602d30fed437ed0082a69b0956c5cbe466ec0da6ebd17aff5f2dc3e940f8e8
----
-|/data/skills-sh-railwayapp-railway-skills-environment|
-
----
-stable_id: skills/skills-sh-railwayapp-railway-skills-new
-type: skills
-title: skills-sh-railwayapp-railway-skills-new
-summary: >-
-  # Railpack Reference
-
-  Railpack is Railway's default builder. Zero-config for most projects.
-
-  Full docs: https://railpack.com/llms.txt
-
-  ## Detection
-
-  Railpack analyzes source code to detect language, framework, and build
-  requirements automatically.
-
-  Supported: Node, Python, Go, PHP, Java, Ruby, Rust, Elixir, Gleam, Deno,
-  C/C++, static files.
-
-  ## Static Sites
-
-  ### Detection Patterns
-
-  Railpack serves static files via Caddy when it detects:
-
-  1. `Staticfile` in root (can specify `root: dist`)
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/main/plugins/railway/skills/new/references/railpack.md
-license: ""
-upstream_ref: https://skills.sh/railwayapp/railway-skills/new
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.974Z
-content_sha256: 071bee33859736c4817af20f5d3dfc7cab85043d6fa2e3fc4d67e83407127d60
----
-|/data/skills-sh-railwayapp-railway-skills-new|
-
----
-stable_id: skills/skills-sh-railwayapp-railway-skills-service
-type: skills
-title: skills-sh-railwayapp-railway-skills-service
-summary: >-
-  # Variables Reference
-
-  Variables in Railway support references to other services, shared variables,
-  and Railway-provided values.
-
-  ## Template Syntax
-
-  ```
-
-  ${{NAMESPACE.VAR}}
-
-  ```
-
-  | Namespace | Description |
-
-  |-----------|-------------|
-
-  | `shared` | Shared variables (project-wide) |
-
-  | `<serviceName>` | Variables from another service (case-sensitive) |
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/main/plugins/railway/skills/service/references/variables.md
-license: ""
-upstream_ref: https://skills.sh/railwayapp/railway-skills/service
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.504Z
-content_sha256: c3203c6f7f24e4271fd821a45297dd00bc902a1e41038fd1f3a200477e91ebc1
----
-|/data/skills-sh-railwayapp-railway-skills-service|
-
----
-stable_id: skills/skills-sh-railwayapp-railway-skills-templates
-type: skills
-title: skills-sh-railwayapp-railway-skills-templates
-summary: >-
-  # Variables Reference
-
-  Variables in Railway support references to other services, shared variables,
-  and Railway-provided values.
-
-  ## Template Syntax
-
-  ```
-
-  ${{NAMESPACE.VAR}}
-
-  ```
-
-  | Namespace | Description |
-
-  |-----------|-------------|
-
-  | `shared` | Shared variables (project-wide) |
-
-  | `<serviceName>` | Variables from another service (case-sensitive) |
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/railwayapp/railway-skills/HEAD/plugins/railway/skills/templates/references/variables.md
-license: ""
-upstream_ref: https://skills.sh/railwayapp/railway-skills/templates
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.865Z
-content_sha256: c3203c6f7f24e4271fd821a45297dd00bc902a1e41038fd1f3a200477e91ebc1
----
-|/data/skills-sh-railwayapp-railway-skills-templates|
+|/data/skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi|
 
 ---
 stable_id: skills/skills-sh-ramziddin-solid-skills-solid
@@ -10498,7 +15329,7 @@ upstream_ref: https://skills.sh/ramziddin/solid-skills/solid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.303Z
+retrieved_at: 2026-02-28T14:45:33.873Z
 content_sha256: 3d8ba447496e8cb11ef7bf06b00eb34b3a89da78cc9f02d3ac0519698086fc12
 ---
 |/data/skills-sh-ramziddin-solid-skills-solid|
@@ -10532,10 +15363,10 @@ tags:
 source_url: https://raw.githubusercontent.com/remotion-dev/skills/HEAD/skills/remotion/rules/subtitles.md
 license: ""
 upstream_ref: https://skills.sh/remotion-dev/skills/remotion-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.915Z
+github_stars: 1812
+github_forks: 219
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.281Z
 content_sha256: 9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30
 ---
 |/data/skills-sh-remotion-dev-skills-remotion-best-practices|
@@ -10564,7 +15395,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.085Z
+retrieved_at: 2026-02-28T14:45:32.228Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---
 |/data/skills-sh-resciencelab-opc-skills-banner-creator|
@@ -10593,7 +15424,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.406Z
+retrieved_at: 2026-02-28T14:45:28.264Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---
 |/data/skills-sh-resciencelab-opc-skills-banner-creator-b321459d|
@@ -10636,7 +15467,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.810Z
+retrieved_at: 2026-02-28T14:45:32.608Z
 content_sha256: 3f36d8253a88fad4526356ade419c97393b075e7c4d3a288e519525be0463078
 ---
 |/data/skills-sh-resciencelab-opc-skills-domain-hunter|
@@ -10679,7 +15510,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.356Z
+retrieved_at: 2026-02-28T14:45:28.224Z
 content_sha256: 3f36d8253a88fad4526356ade419c97393b075e7c4d3a288e519525be0463078
 ---
 |/data/skills-sh-resciencelab-opc-skills-domain-hunter-6d172174|
@@ -10713,13 +15544,13 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/HEAD/skills/logo-creator/references/styles.md
+source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/logo-creator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/logo-creator
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.963Z
+github_stars: 480
+github_forks: 47
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:42.734Z
 content_sha256: 3586f209bc6f7f3e0addbeb289d240f3d0b13cfae654a33512b12ba1bd2df80e
 ---
 |/data/skills-sh-resciencelab-opc-skills-logo-creator|
@@ -10742,13 +15573,13 @@ summary: |-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/HEAD/skills/nanobanana/references/prompts.md
+source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/nanobanana/references/prompts.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/nanobanana
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.728Z
+github_stars: 480
+github_forks: 47
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:42.815Z
 content_sha256: f48d19fe05684f799698b03b46178dc7f2003acc3407b6b78fe5f102de721b24
 ---
 |/data/skills-sh-resciencelab-opc-skills-nanobanana|
@@ -10784,10 +15615,10 @@ tags:
 source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/seo-geo/references/geo-research.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/seo-geo
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.992Z
+github_stars: 480
+github_forks: 47
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.646Z
 content_sha256: 76f781cd26f929b87d943775db223523a444ef4c66e8ee143c4d9ccdb8850457
 ---
 |/data/skills-sh-resciencelab-opc-skills-seo-geo|
@@ -10824,11 +15655,11 @@ tags:
 source_url: https://raw.githubusercontent.com/resend/email-best-practices/HEAD/resources/deliverability.md
 license: ""
 upstream_ref: https://skills.sh/resend/email-best-practices/email-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.208Z
-content_sha256: c1da08c2c55f7edf1844de3aa56a041fa776046cc59514e84935124c71fe94b2
+github_stars: 122
+github_forks: 10
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.277Z
+content_sha256: 8f17c44bc4e371cf8eda4790b79aeda6152a0a3ec8c71e08b01f2e84a9c974a7
 ---
 |/data/skills-sh-resend-email-best-practices-email-best-practices|
 
@@ -10867,10 +15698,10 @@ tags:
 source_url: https://raw.githubusercontent.com/resend/react-email/HEAD/skills/react-email/references/COMPONENTS.md
 license: ""
 upstream_ref: https://skills.sh/resend/react-email/react-email
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.461Z
+github_stars: 18106
+github_forks: 921
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.484Z
 content_sha256: cb169f1ec7b73363d6fdc609de53c1a42e6743839830d6d81dd4bf44db53ea0b
 ---
 |/data/skills-sh-resend-react-email-react-email|
@@ -10891,7 +15722,7 @@ summary: >-
 
   metadata:
       author: resend
-      version: "2.3.0"
+      version: "2.6.0"
       homepage: https://resend.com
       source: https://github.com/resend/resend-skills
   inputs:
@@ -10904,8 +15735,8 @@ upstream_ref: https://skills.sh/resend/resend-skills/resend
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.098Z
-content_sha256: 7ee4f68b3208e855809f64154f1dd9359bdae4bb82abfb02ffde1391ff48a90a
+retrieved_at: 2026-02-28T14:45:25.635Z
+content_sha256: 5602d6937b1c0cf0b014f996ca0c591fbe56fe6811b9b9cf40cef9df6791a541
 ---
 |/data/skills-sh-resend-resend-skills-resend|
 
@@ -10947,7 +15778,7 @@ upstream_ref: https://skills.sh/resend/resend-skills/send-email
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.694Z
+retrieved_at: 2026-02-28T14:45:34.860Z
 content_sha256: 7dddecf470934dbe83065c71d67759c40dae12db38f28d0ec9259ba7213a6c32
 ---
 |/data/skills-sh-resend-resend-skills-send-email|
@@ -10957,44 +15788,108 @@ stable_id: skills/skills-sh-rivet-dev-skills-rivetkit
 type: skills
 title: skills-sh-rivet-dev-skills-rivetkit
 summary: >-
-  # Actions
+  # Access Control
 
-  > Source: `src/content/docs/actors/actions.mdx`
+  > Source: `src/content/docs/actors/access-control.mdx`
 
-  > Canonical URL: https://rivet.dev/docs/actors/actions
+  > Canonical URL: https://rivet.dev/docs/actors/access-control
 
-  > Description: Actions are how your backend, frontend, or other actors can
-  communicate with actors. Actions are defined as functions in the actor
-  configuration and can be called from clients.
+  > Description: Authorize actions, queue publishes, and event subscriptions
+  with explicit hooks.
 
   ---
 
-  Actions are very lightweight. They can be called thousands of times per second
-  safely.
+  Use access control to decide what authenticated clients are allowed to do.
 
-  Actions are executed via HTTP requests or via WebSockets if [using
-  `.connect()`](/docs/actors/connections).
+  This is authorization, not authentication:
 
-  For advanced use cases that require direct access to HTTP requests or
-  WebSocket connections, see [raw HTTP and WebSocket
-  handling](/docs/actors/fetch-and-websocket-handler).
+  - Use [authentication](/docs/actors/authentication) to identify who is
+  calling.
 
-  ## Writing Actions
+  - Use access-control rules to decide what they can do after connecting.
 
-  Actions are defined in the `actions` object when creating an actor:
+  ## Permission Surfaces
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/rivet-dev/skills/HEAD/rivetkit/reference/actors/actions.md
+source_url: https://raw.githubusercontent.com/rivet-dev/skills/HEAD/rivetkit/reference/actors/access-control.md
 license: ""
 upstream_ref: https://skills.sh/rivet-dev/skills/rivetkit
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.788Z
-content_sha256: ed2f919374b9b5d842ae46a171ed2e8425e192c67c7004f736e4abb05dcefc44
+github_stars: 6
+github_forks: 2
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.298Z
+content_sha256: 4fb61230b6a2797b8fd44962034cde091523eac07882cde86e4a674a35f2d99b
 ---
 |/data/skills-sh-rivet-dev-skills-rivetkit|
+
+---
+stable_id: skills/skills-sh-rivet-dev-skills-sandbox-agent
+type: skills
+title: skills-sh-rivet-dev-skills-sandbox-agent
+summary: |-
+  # llms.txt
+  > Source: `docs/ai/llms-txt.mdx`
+  > Canonical URL: https://sandboxagent.dev/docs/ai/llms-txt
+  > Description: LLM-friendly documentation manifests.
+  ---
+  Mintlify publishes `llms.txt` and `llms-full.txt` for this documentation site.
+  Access them at:
+  ```
+  https://sandboxagent.dev/docs/llms.txt
+  https://sandboxagent.dev/docs/llms-full.txt
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/rivet-dev/skills/HEAD/skills/sandbox-agent/references/ai/llms-txt.md
+license: ""
+upstream_ref: https://skills.sh/rivet-dev/skills/sandbox-agent
+github_stars: 6
+github_forks: 2
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.706Z
+content_sha256: ff197fd6e2e1533fb0c7358e6a2259616db2bc81607ed26a68228a73476e325c
+---
+|/data/skills-sh-rivet-dev-skills-sandbox-agent|
+
+---
+stable_id: skills/skills-sh-samhvw8-dot-claude-ui-design-system
+type: skills
+title: skills-sh-samhvw8-dot-claude-ui-design-system
+summary: >-
+  # Design Token Architecture
+
+  ## Three-Tier Token System (Industry Standard)
+
+  Based on USWDS, IBM Carbon, and Shopify Polaris patterns.
+
+  ### Tier 1: Primitive Tokens (Foundation Layer)
+
+  - Raw design values without context
+
+  - Examples: `gray-50`, `gray-900`, `spacing-4`, `font-sans`
+
+  - Purpose: "The most basic form of tokens, reducing infinite possibilities to
+  a select few"
+
+  - Never reference other tokens
+
+  - Immutable across themes
+
+  ### Tier 2: Semantic Tokens (Context Layer)
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/samhvw8/dot-claude/HEAD/skills/ui-design-system/references/DESIGN_TOKENS.md
+license: ""
+upstream_ref: https://skills.sh/samhvw8/dot-claude/ui-design-system
+github_stars: 7
+github_forks: 0
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.914Z
+content_sha256: 8d12d8d26d288f383e36dabea1cda9f1a9bbd96b6d8d23b7e364403dd2cb5c8f
+---
+|/data/skills-sh-samhvw8-dot-claude-ui-design-system|
 
 ---
 stable_id: skills/skills-sh-sanyuan0704-code-review-expert-code-review-expert
@@ -11033,8 +15928,8 @@ upstream_ref: https://skills.sh/sanyuan0704/code-review-expert/code-review-exper
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:35.856Z
-content_sha256: 368a472603cfa0b0e47b69b204c4d69a07a527f53c470fac3bc7f05eb4c255be
+retrieved_at: 2026-02-28T14:45:28.471Z
+content_sha256: 976a50590858d05edea95f3b6dfac126be79ec9f88aeb11bbc50a1ecce356379
 ---
 |/data/skills-sh-sanyuan0704-code-review-expert-code-review-expert|
 
@@ -11075,10 +15970,39 @@ upstream_ref: https://skills.sh/sawyerhood/dev-browser/dev-browser
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.139Z
+retrieved_at: 2026-02-28T14:45:32.757Z
 content_sha256: 44031cea3262dbf909d3657897b0b8bb30f0760520887f64e118b8f319cadddd
 ---
 |/data/skills-sh-sawyerhood-dev-browser-dev-browser|
+
+---
+stable_id: skills/skills-sh-schpet-linear-cli-linear-cli
+type: skills
+title: skills-sh-schpet-linear-cli-linear-cli
+summary: |-
+  # auth
+  > Manage Linear authentication
+  ## Usage
+  ```
+  Usage:   linear auth
+  Version: 1.10.0
+  Description:
+    Manage Linear authentication
+  Options:
+    -h, --help               - Show this help.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/schpet/linear-cli/HEAD/skills/linear-cli/references/auth.md
+license: ""
+upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
+github_stars: 365
+github_forks: 38
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.002Z
+content_sha256: 7d542f090b4b7b5828e969c0bf814c737793f8a1ce5406c113ecffc8becda6f8
+---
+|/data/skills-sh-schpet-linear-cli-linear-cli|
 
 ---
 stable_id: skills/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert
@@ -11108,13 +16032,13 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/Shubhamsaboo/awesome-llm-apps/HEAD/awesome_agent_skills/python-expert/AGENTS.md
+source_url: https://raw.githubusercontent.com/shubhamsaboo/awesome-llm-apps/HEAD/awesome_agent_skills/python-expert/AGENTS.md
 license: ""
 upstream_ref: https://skills.sh/shubhamsaboo/awesome-llm-apps/python-expert
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.840Z
+retrieved_at: 2026-02-28T14:45:42.067Z
 content_sha256: 014a6e33d91a0645a9862723feb11d10f080ae2226ea87ec8f685291eb549cfc
 ---
 |/data/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert|
@@ -11143,7 +16067,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/active-direct
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:36.689Z
+retrieved_at: 2026-02-28T14:45:29.138Z
 content_sha256: 2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-active-directory-attacks|
@@ -11182,7 +16106,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/app-builder
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.790Z
+retrieved_at: 2026-02-28T14:45:33.036Z
 content_sha256: ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-app-builder|
@@ -11221,7 +16145,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/aws-penetrati
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.429Z
+retrieved_at: 2026-02-28T14:45:31.850Z
 content_sha256: 41556bd893e2f1762271c819b39d072d14b6fcc16879071bc060f470b8673c2d
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-aws-penetration-testing|
@@ -11257,7 +16181,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetra
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.327Z
+retrieved_at: 2026-02-28T14:45:31.798Z
 content_sha256: bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing|
@@ -11293,10 +16217,10 @@ tags:
 source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/playwright-skill/API_REFERENCE.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-skill
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.716Z
+github_stars: 16692
+github_forks: 3033
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.602Z
 content_sha256: ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-playwright-skill|
@@ -11335,7 +16259,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/skill-develop
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.661Z
+retrieved_at: 2026-02-28T14:45:32.533Z
 content_sha256: 340a66dc9a527da89509459454de7c21a224ae6f0eeef70b6cbee610e7d2e16e
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-skill-developer|
@@ -11374,7 +16298,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/vulnerability
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.615Z
+retrieved_at: 2026-02-28T14:45:32.508Z
 content_sha256: fcad8d2be67a2ef31a223f2fba9e1ed13188fcc15857a584a8fb5b55d9813e42
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-vulnerability-scanner|
@@ -11411,10 +16335,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/c4-architecture/references/common-mistakes.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/c4-architecture
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.971Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.237Z
 content_sha256: 608b39dd6ece1c2d4367fb06f3bd7d190332291e279391bfedb82f4749ced414
 ---
 |/data/skills-sh-softaworks-agent-toolkit-c4-architecture|
@@ -11451,10 +16375,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/difficult-workplace-conversations/references/conversation-framework.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/difficult-workplace-conversations
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.741Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.186Z
 content_sha256: 7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139
 ---
 |/data/skills-sh-softaworks-agent-toolkit-difficult-workplace-conversations|
@@ -11480,10 +16404,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/gepetto/references/research-protocol.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/gepetto
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.311Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.748Z
 content_sha256: d219729ce530953d53aeb0a0831567a577981ee79df4f713c01845ced6214163
 ---
 |/data/skills-sh-softaworks-agent-toolkit-gepetto|
@@ -11519,10 +16443,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/meme-factory/references/markdown-memes-guide.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/meme-factory
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.679Z
+github_stars: 672
+github_forks: 53
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.349Z
 content_sha256: 6dd8e5fcc6d674a6abd592ef8f87455b6557fbf59d13608d2dfc5599df47d11e
 ---
 |/data/skills-sh-softaworks-agent-toolkit-meme-factory|
@@ -11556,10 +16480,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/mermaid-diagrams/references/class-diagrams.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.526Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.124Z
 content_sha256: 5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3
 ---
 |/data/skills-sh-softaworks-agent-toolkit-mermaid-diagrams|
@@ -11585,10 +16509,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/qa-test-planner/references/test_case_templates.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/qa-test-planner
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.626Z
+github_stars: 672
+github_forks: 53
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.318Z
 content_sha256: 42072c5db347039476bd1d045e5f7124018d50c4fd48a0d30cb3aceeb301ff68
 ---
 |/data/skills-sh-softaworks-agent-toolkit-qa-test-planner|
@@ -11621,10 +16545,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-dev/references/react-19-patterns.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-dev
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.023Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.351Z
 content_sha256: 385551bdf34ca46da9241299cc3850b801e98087f8a192c872691d3209d90738
 ---
 |/data/skills-sh-softaworks-agent-toolkit-react-dev|
@@ -11650,10 +16574,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-useeffect/anti-patterns.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-useeffect
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.078Z
+github_stars: 672
+github_forks: 53
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.393Z
 content_sha256: 69146321260d67972646ba3cc98465d516431f543c4908cc60c2d60886a8dda9
 ---
 |/data/skills-sh-softaworks-agent-toolkit-react-useeffect|
@@ -11686,10 +16610,10 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/session-handoff/references/handoff-template.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/session-handoff
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.577Z
+github_stars: 716
+github_forks: 56
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.161Z
 content_sha256: 35492711db3a903cf431fe221b82b2d79e3e18aa9d9900dfc3685ee202e3e0e9
 ---
 |/data/skills-sh-softaworks-agent-toolkit-session-handoff|
@@ -11727,13 +16651,133 @@ tags:
 source_url: https://raw.githubusercontent.com/squirrelscan/skills/HEAD/audit-website/references/OUTPUT-FORMAT.md
 license: ""
 upstream_ref: https://skills.sh/squirrelscan/skills/audit-website
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.017Z
+github_stars: 53
+github_forks: 7
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.887Z
 content_sha256: 4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a
 ---
 |/data/skills-sh-squirrelscan-skills-audit-website|
+
+---
+stable_id: skills/skills-sh-supercent-io-skills-template-pptx-presentation-builder
+type: skills
+title: skills-sh-supercent-io-skills-template-pptx-presentation-builder
+summary: >-
+  ---
+
+  name: technical-writing
+
+  description: Write clear, comprehensive technical documentation. Use when
+  creating specs, architecture docs, runbooks, or API documentation. Handles
+  technical specifications, system design docs, operational guides, and
+  developer documentation with industry best practices.
+
+  allowed-tools: [Read, Write, Edit, Glob, Grep]
+
+  tags: [technical-writing, documentation, specs, architecture, runbooks,
+  API-docs]
+
+  platforms: [Claude, ChatGPT, Gemini]
+
+  ---
+
+  # Technical Writing
+
+  ## When to use this skill
+
+  - Writing technical specifications
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/technical-writing/SKILL.md
+license: ""
+upstream_ref: https://skills.sh/supercent-io/skills-template/pptx-presentation-builder
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:42.484Z
+content_sha256: 84f61706def15232d349b86869b03e6ef5d018552eb77da2c865234bb322c081
+---
+|/data/skills-sh-supercent-io-skills-template-pptx-presentation-builder|
+
+---
+stable_id: skills/skills-sh-supercent-io-skills-template-remotion-video-production
+type: skills
+title: skills-sh-supercent-io-skills-template-remotion-video-production
+summary: >-
+  ---
+
+  name: image-generation-mcp
+
+  description: Generate high-quality images via MCP (Gemini models or compatible
+  services) using structured prompts, ratios, and validation for marketing, UI,
+  or presentations.
+
+  tags: [image-generation, gemini, mcp, design, creative, ai-art]
+
+  platforms: [Claude, ChatGPT, Gemini, Codex]
+
+  allowed-tools:
+    - mcp__gemini-cli__ask-gemini
+    - mcp__gemini-cli__brainstorm
+    - Write
+    - Read
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md
+license: ""
+upstream_ref: https://skills.sh/supercent-io/skills-template/remotion-video-production
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:42.123Z
+content_sha256: 589fdbf6e17af1be514c4ec0b3d574ea8e1bc22dfdb58321385a5241b547d355
+---
+|/data/skills-sh-supercent-io-skills-template-remotion-video-production|
+
+---
+stable_id: skills/skills-sh-supercent-io-skills-template-web-accessibility
+type: skills
+title: skills-sh-supercent-io-skills-template-web-accessibility
+summary: >-
+  ---
+
+  name: ui-component-patterns
+
+  description: Build reusable, maintainable UI components following modern
+  design patterns. Use when creating component libraries, implementing design
+  systems, or building scalable frontend architectures. Handles React patterns,
+  composition, prop design, TypeScript, and component best practices.
+
+  tags: [UI-components, React, design-patterns, composition, TypeScript,
+  reusable]
+
+  platforms: [Claude, ChatGPT, Gemini]
+
+  ---
+
+  # UI Component Patterns
+
+  ## When to use this skill
+
+  - **컴포넌트 라이브러리 구축**: 재사용 가능한 UI 컴포넌트 제작
+
+  - **디자인 시스템 구현**: 일관된 UI 패턴 적용
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ui-component-patterns/SKILL.md
+license: ""
+upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.565Z
+content_sha256: dc00b63e9060d972b4dcbf49eb51b4676a707c390a1a3975582369059ff85194
+---
+|/data/skills-sh-supercent-io-skills-template-web-accessibility|
 
 ---
 stable_id: skills/skills-sh-tavily-ai-skills-tavily-best-practices
@@ -11756,10 +16800,10 @@ tags:
 source_url: https://raw.githubusercontent.com/tavily-ai/skills/HEAD/skills/tavily/tavily-best-practices/references/sdk.md
 license: ""
 upstream_ref: https://skills.sh/tavily-ai/skills/tavily-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.768Z
+github_stars: 34
+github_forks: 4
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.524Z
 content_sha256: b0c745315f2ca16647a2c298644dc9918ea31bf732921b02841e26814da2087a
 ---
 |/data/skills-sh-tavily-ai-skills-tavily-best-practices|
@@ -11797,7 +16841,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/address-sanitizer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.900Z
+retrieved_at: 2026-02-28T14:45:43.534Z
 content_sha256: 27557aaef97cc5f580f247e803eea591e7f8006f55b1beb5acb2d7ebcf6c64fa
 ---
 |/data/skills-sh-trailofbits-skills-address-sanitizer|
@@ -11829,11 +16873,11 @@ tags:
 source_url: https://raw.githubusercontent.com/AFLplusplus/AFLplusplus/refs/heads/stable/docs/fuzzing_in_depth.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/aflpp
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.611Z
-content_sha256: 91b47ccc7d3c7fea488a0fc21a4f933b7dc2d210cf5f57a10bda4c5e353f98ac
+github_stars: 6326
+github_forks: 1262
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.232Z
+content_sha256: 15aafcaaed9114afd456a8d980fece04be25bd24af54a14d0d76b53b59ff47e0
 ---
 |/data/skills-sh-trailofbits-skills-aflpp|
 
@@ -11871,10 +16915,10 @@ tags:
 source_url: https://raw.githubusercontent.com/google/atheris/master/native_extension_fuzzing.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/atheris
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.439Z
+github_stars: 1588
+github_forks: 119
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.205Z
 content_sha256: a0e6d407dee1c72505af1c5349a58c29b71dfa3c092f55ecc3b6108278b1b58b
 ---
 |/data/skills-sh-trailofbits-skills-atheris|
@@ -11915,7 +16959,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/audit-context-building
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.030Z
+retrieved_at: 2026-02-28T14:45:42.845Z
 content_sha256: 49024fff7893c383618ae71e969a6ac1b9d96f672348e1810383b04f8b265d7c
 ---
 |/data/skills-sh-trailofbits-skills-audit-context-building|
@@ -11955,7 +16999,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/code-maturity-assessor
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.566Z
+retrieved_at: 2026-02-28T14:45:43.266Z
 content_sha256: 0ffe131842b209de7910cc2ac77fc1e2cdea1e16455bfba79505c8ba8179009f
 ---
 |/data/skills-sh-trailofbits-skills-code-maturity-assessor|
@@ -11994,8 +17038,8 @@ upstream_ref: https://skills.sh/trailofbits/skills/codeql
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.194Z
-content_sha256: a2b6485dd56aa71ae8c9ef6c06143edac4949e41c711eaf81d2c3d06320be2ca
+retrieved_at: 2026-02-28T14:45:37.851Z
+content_sha256: 7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1
 ---
 |/data/skills-sh-trailofbits-skills-codeql|
 
@@ -12034,7 +17078,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/constant-time-analysis
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.751Z
+retrieved_at: 2026-02-28T14:45:43.441Z
 content_sha256: 7c6f69897fc9629c4f26011507685e6cb4b79f1e1881f6f3a23d8e136f1d42fb
 ---
 |/data/skills-sh-trailofbits-skills-constant-time-analysis|
@@ -12073,7 +17117,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/differential-review
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.046Z
+retrieved_at: 2026-02-28T14:45:34.600Z
 content_sha256: 16b335d24cf2145e3dc4a37f50056550d29db2efa20e6df78fec95ec1e6fb0b4
 ---
 |/data/skills-sh-trailofbits-skills-differential-review|
@@ -12110,10 +17154,10 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/references/vulnerabilities.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/firebase-apk-scanner
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.765Z
+github_stars: 2952
+github_forks: 236
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.105Z
 content_sha256: 7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa
 ---
 |/data/skills-sh-trailofbits-skills-firebase-apk-scanner|
@@ -12142,7 +17186,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/guidelines-advisor
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.816Z
+retrieved_at: 2026-02-28T14:45:42.936Z
 content_sha256: 951352a5e7c3afa717ed62770ae1b7c152c4792480e3beebefc68f9c96d2a46c
 ---
 |/data/skills-sh-trailofbits-skills-guidelines-advisor|
@@ -12181,10 +17225,50 @@ upstream_ref: https://skills.sh/trailofbits/skills/harness-writing
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.096Z
+retrieved_at: 2026-02-28T14:45:43.509Z
 content_sha256: 8d02acadc413ae8aca770761382c32a0d468a4616ecca91bcabe171c0c89587a
 ---
 |/data/skills-sh-trailofbits-skills-harness-writing|
+
+---
+stable_id: skills/skills-sh-trailofbits-skills-insecure-defaults
+type: skills
+title: skills-sh-trailofbits-skills-insecure-defaults
+summary: >-
+  # Insecure Defaults: Examples and Counter-Examples
+
+  This document provides detailed examples for each category in the Quick
+  Verification Checklist, showing both vulnerable patterns (report these) and
+  secure patterns (skip these).
+
+  ## Fallback Secrets
+
+  ### ❌ VULNERABLE - Report These
+
+  **Python: Environment variable with fallback**
+
+  ```python
+
+  # File: src/auth/jwt.py
+
+  SECRET_KEY = os.environ.get('SECRET_KEY', 'dev-secret-key-123')
+
+  # Used in security context
+
+  def create_token(user_id):
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/insecure-defaults/skills/insecure-defaults/references/examples.md
+license: ""
+upstream_ref: https://skills.sh/trailofbits/skills/insecure-defaults
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:34.178Z
+content_sha256: 1d47703f84b6c5866e299e46f7f797c6178c2896fe37e02759fec5bfbf5b8d1f
+---
+|/data/skills-sh-trailofbits-skills-insecure-defaults|
 
 ---
 stable_id: skills/skills-sh-trailofbits-skills-modern-python
@@ -12221,7 +17305,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/modern-python
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.473Z
+retrieved_at: 2026-02-28T14:45:43.308Z
 content_sha256: 4be1c181c71aab64ba58573242a1c451d576a5c61ceeb400bb5827f4e1f9532a
 ---
 |/data/skills-sh-trailofbits-skills-modern-python|
@@ -12247,10 +17331,10 @@ tags:
 source_url: https://raw.githubusercontent.com/ossf/fuzz-introspector/main/doc/CaseStudies.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/ossfuzz
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.489Z
+github_stars: 447
+github_forks: 81
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.138Z
 content_sha256: d56091780455026c0e196ef220a339b081bada399e43384d3d85578210591297
 ---
 |/data/skills-sh-trailofbits-skills-ossfuzz|
@@ -12279,10 +17363,50 @@ upstream_ref: https://skills.sh/trailofbits/skills/secure-workflow-guide
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.143Z
+retrieved_at: 2026-02-28T14:45:42.704Z
 content_sha256: 8b048011407a9a123a01ba4548b62a944f8cd5f271e4e0cdfe58b09583bd9291
 ---
 |/data/skills-sh-trailofbits-skills-secure-workflow-guide|
+
+---
+stable_id: skills/skills-sh-trailofbits-skills-semgrep
+type: skills
+title: skills-sh-trailofbits-skills-semgrep
+summary: >-
+  # Scan Modes Reference
+
+  ## Mode: Run All
+
+  Full scan with all rulesets and severity levels. Current default behavior. No
+  filtering applied — all findings are reported and triaged.
+
+  ## Mode: Important Only
+
+  Focused on high-confidence security vulnerabilities. Excludes code quality,
+  best practices, and low-confidence audit findings.
+
+  ### Pre-Filter: CLI Severity Flag
+
+  Add these flags to every `semgrep` command:
+
+  ```bash
+
+  --severity MEDIUM --severity HIGH --severity CRITICAL
+
+  ```
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/semgrep/references/scan-modes.md
+license: ""
+upstream_ref: https://skills.sh/trailofbits/skills/semgrep
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:42.294Z
+content_sha256: 76c8d41c8fc2c36daa44171db345373e169da46a69387378a31ef26061102c97
+---
+|/data/skills-sh-trailofbits-skills-semgrep|
 
 ---
 stable_id: skills/skills-sh-trailofbits-skills-sharp-edges
@@ -12305,10 +17429,10 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.282Z
+github_stars: 2952
+github_forks: 236
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.019Z
 content_sha256: 1d99f2716f7bef18efe71015ce0c56e0f4961c042faa503d796d6d4d1626fdc6
 ---
 |/data/skills-sh-trailofbits-skills-sharp-edges|
@@ -12344,7 +17468,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/solana-vulnerability-scanner
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.462Z
+retrieved_at: 2026-02-28T14:45:43.044Z
 content_sha256: 15e16aaf36eb2d8edad7586dd59968723327798848ee966baa6fef5edb2abb7e
 ---
 |/data/skills-sh-trailofbits-skills-solana-vulnerability-scanner|
@@ -12385,7 +17509,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/spec-to-code-compliance
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.411Z
+retrieved_at: 2026-02-28T14:45:34.633Z
 content_sha256: 053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec
 ---
 |/data/skills-sh-trailofbits-skills-spec-to-code-compliance|
@@ -12423,10 +17547,10 @@ tags:
 source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/substrate-vulnerability-scanner/resources/VULNERABILITY_PATTERNS.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/substrate-vulnerability-scanner
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.545Z
+github_stars: 2952
+github_forks: 236
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.179Z
 content_sha256: 680d9d93f9cc11731469489ca3579b844e0d0d1ffec6f73520dffdc1c3a8a9b7
 ---
 |/data/skills-sh-trailofbits-skills-substrate-vulnerability-scanner|
@@ -12466,8 +17590,8 @@ upstream_ref: https://skills.sh/trailofbits/skills/testing-handbook-generator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.211Z
-content_sha256: 57520f2425e8fe344a49e410b6e62858baffbe60d6653061ccd191e20a0f1433
+retrieved_at: 2026-02-28T14:45:43.664Z
+content_sha256: 2bc2412af856e91ffacefb85a9f98811fe7238c99b485c03cf206969fee9dfa1
 ---
 |/data/skills-sh-trailofbits-skills-testing-handbook-generator|
 
@@ -12506,7 +17630,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/token-integration-analyzer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.918Z
+retrieved_at: 2026-02-28T14:45:42.902Z
 content_sha256: bf1313e59c960688cc73bda5b7a98579336a277c521b9b37937aa1cda3a122a7
 ---
 |/data/skills-sh-trailofbits-skills-token-integration-analyzer|
@@ -12542,10 +17666,10 @@ tags:
 source_url: https://raw.githubusercontent.com/ton-blockchain/TEPs/master/text/0074-jettons-standard.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/ton-vulnerability-scanner
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.666Z
+github_stars: 455
+github_forks: 376
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.257Z
 content_sha256: e00a2bb5e7cf5ac448b298c192a3936a89d5dd7e6eeb3b2e7e089ad9b958de61
 ---
 |/data/skills-sh-trailofbits-skills-ton-vulnerability-scanner|
@@ -12584,7 +17708,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/variant-analysis
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.431Z
+retrieved_at: 2026-02-28T14:45:42.765Z
 content_sha256: bbe15a7e6edf419f348564542fec22200b4f0ce30a0f801d620fbd2e406c14f3
 ---
 |/data/skills-sh-trailofbits-skills-variant-analysis|
@@ -12624,7 +17748,7 @@ upstream_ref: https://skills.sh/tursodatabase/turso/code-quality
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.442Z
+retrieved_at: 2026-02-28T14:45:34.788Z
 content_sha256: 13b6204799f68fe315b6d49d1dead9d48cbc433f25f638cc6100e9f95b511387
 ---
 |/data/skills-sh-tursodatabase-turso-code-quality|
@@ -12643,7 +17767,7 @@ upstream_ref: https://skills.sh/tursodatabase/turso/debugging
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.025Z
+retrieved_at: 2026-02-28T14:45:32.731Z
 content_sha256: 035ef38c7aee378f499dc21d4f4a7893aba8a0983fff6d6d7b8b26faf649b748
 ---
 |/data/skills-sh-tursodatabase-turso-debugging|
@@ -12682,7 +17806,7 @@ upstream_ref: https://skills.sh/tursodatabase/turso/testing
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.187Z
+retrieved_at: 2026-02-28T14:45:32.781Z
 content_sha256: 553e1e5ed219556549e87ecf892930a74fff4f8fe8a74aafd6c3122cf80e4505
 ---
 |/data/skills-sh-tursodatabase-turso-testing|
@@ -12708,10 +17832,10 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel/ai/HEAD/skills/use-ai-sdk/references/common-errors.md
 license: ""
 upstream_ref: https://skills.sh/vercel/ai/ai-sdk
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.037Z
+github_stars: 22134
+github_forks: 3900
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.393Z
 content_sha256: 64949f0614a629733d1c47d6e5d5b953d90a696e71922695f69248a21290dcad
 ---
 |/data/skills-sh-vercel-ai-ai-sdk|
@@ -12744,13 +17868,53 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/agent-browser/references/commands.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.964Z
-content_sha256: 3e5e521a1e6fdd7c0304333883b16859f83b2149bed70ede10464e534c9e4740
+github_stars: 16507
+github_forks: 977
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.699Z
+content_sha256: cc6cc1780bb8632b3f7694ba454d895059235459469f0401fa251c20d4bbfd87
 ---
 |/data/skills-sh-vercel-labs-agent-browser-agent-browser|
+
+---
+stable_id: skills/skills-sh-vercel-labs-agent-browser-dogfood
+type: skills
+title: skills-sh-vercel-labs-agent-browser-dogfood
+summary: >-
+  # Issue Taxonomy
+
+  Reference for categorizing issues found during dogfooding. Read this at the
+  start of a dogfood session to calibrate what to look for.
+
+  ## Contents
+
+  - [Severity Levels](#severity-levels)
+
+  - [Categories](#categories)
+
+  - [Exploration Checklist](#exploration-checklist)
+
+  ## Severity Levels
+
+  | Severity | Definition |
+
+  |----------|------------|
+
+  | **critical** | Blocks a core workflow, causes data loss, or crashes the app
+  |
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/dogfood/references/issue-taxonomy.md
+license: ""
+upstream_ref: https://skills.sh/vercel-labs/agent-browser/dogfood
+github_stars: 16507
+github_forks: 977
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.385Z
+content_sha256: dee7e925f7fe001903de6cc14f9656bcda90d069bbf65a2273f22202efebba09
+---
+|/data/skills-sh-vercel-labs-agent-browser-dogfood|
 
 ---
 stable_id: skills/skills-sh-vercel-labs-next-skills-next-best-practices
@@ -12773,10 +17937,10 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel-labs/next-skills/HEAD/skills/next-best-practices/file-conventions.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/next-skills/next-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.219Z
+github_stars: 660
+github_forks: 41
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.912Z
 content_sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
 ---
 |/data/skills-sh-vercel-labs-next-skills-next-best-practices|
@@ -12811,11 +17975,11 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel/turborepo/HEAD/skills/turborepo/references/configuration/RULE.md
 license: ""
 upstream_ref: https://skills.sh/vercel/turborepo/turborepo
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.134Z
-content_sha256: c2febbe799e3422e4c2d45a87cb17f9bf6605ae67e861a3cbc6083f84d8cf715
+github_stars: 29897
+github_forks: 2270
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.418Z
+content_sha256: 4d6b8fdbc358556501885d46011107f0aa52ae5d0299ecb6137f4ab09a6aaeaf
 ---
 |/data/skills-sh-vercel-turborepo-turborepo|
 
@@ -12858,7 +18022,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-debug-guides
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.602Z
+retrieved_at: 2026-02-28T14:45:32.660Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-debug-guides|
@@ -12903,10 +18067,10 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-jsx-best-practices/reference/render-function-jsx-vue-vs-react.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-jsx-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.182Z
+github_stars: 1702
+github_forks: 84
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.840Z
 content_sha256: da8c635b448b23360bf1c53eea02b004bb755a712a0325c8851f9c33a072c834
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-jsx-best-practices|
@@ -12946,10 +18110,10 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-options-api-best-practices/reference/ts-options-api-use-definecomponent.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-options-api-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.132Z
+github_stars: 1611
+github_forks: 80
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.586Z
 content_sha256: 7430211d979c775b3b4578438447a1d4c4b02c3ec925908041ae4f808eb7d788
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-options-api-best-practices|
@@ -12988,10 +18152,10 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-pinia-best-practices/reference/pinia-no-active-pinia-error.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.409Z
+github_stars: 1702
+github_forks: 84
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.494Z
 content_sha256: fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-pinia-best-practices|
@@ -13033,7 +18197,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-router-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.825Z
+retrieved_at: 2026-02-28T14:45:32.083Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-router-best-practices|
@@ -13077,7 +18241,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-testing-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.242Z
+retrieved_at: 2026-02-28T14:45:32.314Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-testing-best-practices|
@@ -13117,13 +18281,82 @@ tags:
 source_url: https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/waynesutton/convexskills/convex-functions
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.470Z
+github_stars: 335
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:41.491Z
 content_sha256: 20e2298b8ebeca51e189394ec924756dfaef5fa70170ff7fd2fbdb5177718fcd
 ---
 |/data/skills-sh-waynesutton-convexskills-convex-functions|
+
+---
+stable_id: skills/skills-sh-whatevertogo-feishuskill-lark-mcp
+type: skills
+title: skills-sh-whatevertogo-feishuskill-lark-mcp
+summary: |-
+  # 多维表格 (Bitable) 操作指南
+  ## ⚠️ 关键注意事项
+  **⭐ 0. 使用用户身份创建（最重要！）**
+  ```yaml
+  # ⭐ 关键经验：始终使用 useUAT: true 创建用户可访问的资源
+  useUAT: true   # ✅ 用户身份 - 创建者=当前用户，您可以直接访问
+  useUAT: false  # ❌ 租户身份 - 创建者=飞书助手，您无法直接访问
+  # 实际测试发现：
+  # - useUAT: false 创建的 Base，创建者是"飞书助手"
+  # - 当前用户无法直接访问，权限受限
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/bitable.md
+license: ""
+upstream_ref: https://skills.sh/whatevertogo/feishuskill/lark-mcp
+github_stars: 11
+github_forks: 1
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.943Z
+content_sha256: 84fd901c39af1a131eb5de82b10034a8a364aa580ef44ea2cec9b6ec4d19a27f
+---
+|/data/skills-sh-whatevertogo-feishuskill-lark-mcp|
+
+---
+stable_id: skills/skills-sh-wshobson-agents-context-driven-development
+type: skills
+title: skills-sh-wshobson-agents-context-driven-development
+summary: >-
+  # Artifact Templates
+
+  Starter templates for each Conductor context artifact. Copy and fill in for
+  new projects.
+
+  > Contributed by [@fernandezbaptiste](https://github.com/fernandezbaptiste)
+  ([#437](https://github.com/wshobson/agents/pull/437))
+
+  ## product.md
+
+  ```markdown
+
+  # [Product Name]
+
+  > One-line description of what this product does.
+
+  ## Problem
+
+  What problem does this solve and for whom?
+
+  ## Solution
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/wshobson/agents/HEAD/plugins/conductor/skills/context-driven-development/references/artifact-templates.md
+license: ""
+upstream_ref: https://skills.sh/wshobson/agents/context-driven-development
+github_stars: 29309
+github_forks: 3212
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.506Z
+content_sha256: ebfa857d59fd603e55c3a53f29dbf0f96e0bb21429edf2a78519bce995bf37c8
+---
+|/data/skills-sh-wshobson-agents-context-driven-development|
 
 ---
 stable_id: skills/skills-sh-wshobson-agents-nextjs-app-router-patterns
@@ -13156,10 +18389,10 @@ tags:
 source_url: https://raw.githubusercontent.com/reactjs/rfcs/main/text/0188-server-components.md
 license: ""
 upstream_ref: https://skills.sh/wshobson/agents/nextjs-app-router-patterns
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.458Z
+github_stars: 5779
+github_forks: 569
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:39.617Z
 content_sha256: 69a2811dc897b66d94690243a13ab78146a998b8753087c97d14c78a38643575
 ---
 |/data/skills-sh-wshobson-agents-nextjs-app-router-patterns|
@@ -13209,7 +18442,7 @@ upstream_ref: https://skills.sh/xenitv1/claude-code-maestro/maestro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.363Z
+retrieved_at: 2026-02-28T14:45:25.802Z
 content_sha256: 9e1ecadf0c6b3ec9edc2197af88c452c974e7ce3a7876d1875e303f5bd3b10ba
 ---
 |/data/skills-sh-xenitv1-claude-code-maestro-maestro|
@@ -13244,7 +18477,7 @@ upstream_ref: https://skills.sh/yizhiyanhua-ai/media-downloader/media-downloader
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.515Z
+retrieved_at: 2026-02-28T14:45:25.878Z
 content_sha256: e33de4030960111863b1a992657e79049a823f440b69851d1bb65a09204d19af
 ---
 |/data/skills-sh-yizhiyanhua-ai-media-downloader-media-downloader|
@@ -13259,9 +18492,9 @@ summary: >-
   name: nano-banana-pro-prompts-recommend-skill
 
   description: |
-    Recommend suitable prompts from 6000+ Nano Banana Pro image generation prompts based on user needs.
+    Recommend suitable prompts from 10,000+ Nano Banana Pro image generation prompts based on user needs.
     Use this skill when users want to:
-    - Generate images with AI (Nano Banana Pro model)
+    - Generate images with AI (Nano Banana Pro / Gemini image model)
     - Find inspiration for image generation prompts
     - Get prompt recommendations for specific use cases (portraits, landscapes, product photos, etc.)
     - Create illustrations for articles, videos, podcasts, or other content
@@ -13275,8 +18508,8 @@ upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.567Z
-content_sha256: 8b5dfa1109a7b2c212462577d8e5250438309113ef515fa8407bc63497557124
+retrieved_at: 2026-02-28T14:45:25.901Z
+content_sha256: b4b1334f3b1e6eb91c6894cc50ba9cc39daa6ed33925a3dd1f8e72b2c132e74f
 ---
 |/data/skills-sh-youmind-openlab-nano-banana-pro-prompts-recommend-skill-nano-banana-pro-prompts-recommend-skill|
 
@@ -13319,7 +18552,7 @@ upstream_ref: https://skills.sh/zaferayan/skills/zafer-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.615Z
+retrieved_at: 2026-02-28T14:45:25.925Z
 content_sha256: dc010b204b24e8ba93afdaebf5e3093c377918cf7b0250afb928383e48b2ac0d
 ---
 |/data/skills-sh-zaferayan-skills-zafer-skills|

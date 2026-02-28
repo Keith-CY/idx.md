@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-claw-face",
+  "generated_at": "2026-02-28T14:45:55.967Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-claw-face#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-claw-face/HEAD.md",
+      "text": "title: claw-face\nsummary: Floating avatar widget for AI agents showing emotions, actions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mkoslacz/claw-face/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-claw-face",
+        "topic": "openclaw-openclaw-claw-face",
+        "type": "skills",
+        "title": "claw-face",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mkoslacz/claw-face/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:55.967Z",
+        "content_sha256": "c3c7d7d2193c7304fb62f04f1ab100e8b3603978d323fc584e16c8528e14df7c"
+      }
+    }
+  ]
+}

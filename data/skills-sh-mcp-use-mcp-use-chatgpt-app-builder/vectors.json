@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-mcp-use-mcp-use-chatgpt-app-builder",
+  "generated_at": "2026-02-28T14:45:40.077Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-mcp-use-mcp-use-chatgpt-app-builder#head",
+      "kind": "head",
+      "path": "/data/skills-sh-mcp-use-mcp-use-chatgpt-app-builder/HEAD.md",
+      "text": "title: skills-sh-mcp-use-mcp-use-chatgpt-app-builder\nsummary: # Discovery Workflow **Goal: Idea maturation, not speed.** Proceed in phases. Even if the user provides details, complete each phase through conversation. Do not infer or assume -- discuss and validate with user. Proceed one phase at a time. --- ## Phase 1: Value Proposition 1. **Problem + User**: What problem does this solve? For whom? 2. **Pain**: How is it solved today? What's painful about that? 3. **Core actions**: 1-3 focused actions (not a full app port) --- ## Phase 2: Why LLM?\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/chatgpt-app-builder/references/discover.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-mcp-use-mcp-use-chatgpt-app-builder",
+        "topic": "skills-sh-mcp-use-mcp-use-chatgpt-app-builder",
+        "type": "skills",
+        "title": "skills-sh-mcp-use-mcp-use-chatgpt-app-builder",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/chatgpt-app-builder/references/discover.md",
+        "retrieved_at": "2026-02-28T14:45:40.077Z",
+        "content_sha256": "da18c63e30d5d496f91c9db29da5ed3dea5ffc1d197b9b38170dc729e6281411"
+      }
+    }
+  ]
+}

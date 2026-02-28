@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-design-commands-critique",
+  "generated_at": "2026-02-28T14:45:35.210Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-design-commands-critique#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-design-commands-critique/HEAD.md",
+      "text": "title: critique\nsummary: Get structured design feedback on usability, hierarchy, and consistency\ntype: skills\ntags: source-knowledge-work-plugins, plugin-design, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/critique.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-design-commands-critique",
+        "topic": "knowledge-work-plugins-design-commands-critique",
+        "type": "skills",
+        "title": "critique",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-design",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/critique.md",
+        "retrieved_at": "2026-02-28T14:45:35.210Z",
+        "content_sha256": "fa8f575a0be6fe0d47aab61706038c7925b2e50465ca037d4ea7bfab3a8ea3c5"
+      }
+    }
+  ]
+}

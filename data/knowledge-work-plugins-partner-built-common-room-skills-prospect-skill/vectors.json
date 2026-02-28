@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-common-room-skills-prospect-skill",
+  "generated_at": "2026-02-28T14:45:36.333Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill/HEAD.md",
+      "text": "title: prospect\nsummary: Build targeted account or contact lists using Common Room's Prospector. Triggers on 'find companies that match [criteria]', 'build a prospect list', 'find contacts at [type of company]', 'show me companies hiring [role]', or any list-building request.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-common-room, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/prospect/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill",
+        "topic": "knowledge-work-plugins-partner-built-common-room-skills-prospect-skill",
+        "type": "skills",
+        "title": "prospect",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-common-room",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/prospect/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.333Z",
+        "content_sha256": "52f94d6084af91a0872a93b4d60ffda3c7578cc6d1d3246819954835d88637b5"
+      }
+    }
+  ]
+}

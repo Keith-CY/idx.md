@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youtrack-digisal",
+  "generated_at": "2026-02-28T14:46:58.167Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youtrack-digisal#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youtrack-digisal/HEAD.md",
+      "text": "title: youtrack-digisal\nsummary: Interact with YouTrack project management system via REST API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digisal/youtrack-digisal/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youtrack-digisal",
+        "topic": "openclaw-openclaw-youtrack-digisal",
+        "type": "skills",
+        "title": "youtrack-digisal",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/digisal/youtrack-digisal/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.167Z",
+        "content_sha256": "b78b9845d4a81d71f86c58abb7d37cab54ba5406212945ed8bcb59f5486cd45a"
+      }
+    }
+  ]
+}

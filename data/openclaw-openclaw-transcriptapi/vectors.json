@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-transcriptapi",
+  "generated_at": "2026-02-28T14:46:50.285Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-transcriptapi#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-transcriptapi/HEAD.md",
+      "text": "title: transcriptapi\nsummary: Full TranscriptAPI toolkit — fetch YouTube transcripts, search videos and channels, browse channel uploads, get lates.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/transcriptapi/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-transcriptapi",
+        "topic": "openclaw-openclaw-transcriptapi",
+        "type": "skills",
+        "title": "transcriptapi",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/transcriptapi/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:50.285Z",
+        "content_sha256": "68dbc17b2fc1315d125d0f9eacf04afbb840b5059484b63ebe4962ac09960d11"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pluribus",
+  "generated_at": "2026-02-28T14:46:33.628Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pluribus#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pluribus/HEAD.md",
+      "text": "title: pluribus\nsummary: A pure P2P coordination layer for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tanchunsiong/pluribus/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pluribus",
+        "topic": "openclaw-openclaw-pluribus",
+        "type": "skills",
+        "title": "pluribus",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tanchunsiong/pluribus/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:33.628Z",
+        "content_sha256": "228c1058b8f7b7f91c190729549ce2477cd9371f87eb719ba5f6f4bac47145b2"
+      }
+    }
+  ]
+}

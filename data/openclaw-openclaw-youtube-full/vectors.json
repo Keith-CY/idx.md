@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youtube-full",
+  "generated_at": "2026-02-28T14:46:58.424Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youtube-full#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youtube-full/HEAD.md",
+      "text": "title: youtube-full\nsummary: Complete YouTube toolkit — transcripts, search, channels, playlists, and metadata all in one skill.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-full/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youtube-full",
+        "topic": "openclaw-openclaw-youtube-full",
+        "type": "skills",
+        "title": "youtube-full",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-full/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.424Z",
+        "content_sha256": "44b7844bb12aeecc7a0219c88503589327d80b72aed131f67d6e407f9ffcda22"
+      }
+    }
+  ]
+}

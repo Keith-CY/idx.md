@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-comfyui-runner",
+  "generated_at": "2026-02-28T14:45:59.272Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-comfyui-runner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-comfyui-runner/HEAD.md",
+      "text": "title: comfyui-runner\nsummary: Start/stop/status for a ComfyUI instance.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-runner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-comfyui-runner",
+        "topic": "openclaw-openclaw-comfyui-runner",
+        "type": "skills",
+        "title": "comfyui-runner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-runner/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:59.272Z",
+        "content_sha256": "7ff615f292c747421905b520e1e4496e89c8d7939e5cd4fa8a04e6c8ed6acdd4"
+      }
+    }
+  ]
+}

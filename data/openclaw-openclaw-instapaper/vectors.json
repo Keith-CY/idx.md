@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-instapaper",
+  "generated_at": "2026-02-28T14:46:15.979Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-instapaper#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-instapaper/HEAD.md",
+      "text": "title: instapaper\nsummary: Use when operating the instapaper-cli (ip) tool or troubleshooting it: authenticating.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vburojevic/instapaper/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-instapaper",
+        "topic": "openclaw-openclaw-instapaper",
+        "type": "skills",
+        "title": "instapaper",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vburojevic/instapaper/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:15.979Z",
+        "content_sha256": "03b71d0007f644fd702f7c4cb4caf0154cffa98279808bcc14741f37bc5cde25"
+      }
+    }
+  ]
+}

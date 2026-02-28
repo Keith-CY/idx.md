@@ -7,22 +7,26 @@ summary: >-
 
   name: prompt-optimizer
 
-  description: Write effective prompts for HeyGen Video Agent - from basic ideas
-  to structured scene-by-scene scripts
+  description: Write production-quality prompts for HeyGen Video Agent — from
+  basic ideas to fully art-directed scene-by-scene scripts
 
   ---
 
   # Video Agent Prompt Optimizer
 
-  ## Table of Contents
+  Write effective prompts for the HeyGen Video Agent API. Based on patterns from
+  40+ produced videos.
 
-  - [The Three Baseline Controls](#the-three-baseline-controls)
+  **The core insight: Video Agent is an HTML interpreter.** It renders layouts,
+  typography, and structured content natively. Describe B-roll as layered text
+  motion graphics with action verbs ("slams in," "types on," "counts up") — not
+  layout specs ("upper-left, 48pt").
 
-  - [Prompt Complexity Levels](#prompt-complexity-levels)
+  ## Reference Files
 
-  - [Structured Output Format](#structured-output-format)
+  | File | Load when... |
 
-  - [Visual Style Definition](#visual-style-definition)
+  |------|-------------|
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +36,6 @@ upstream_ref: https://skills.sh/heygen-com/skills/heygen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.740Z
-content_sha256: 8207fbff1464e6b1c06f389617c56d754b91daa119d56cc9ba7865c2f89ee336
+retrieved_at: 2026-02-28T14:45:32.982Z
+content_sha256: 968fec33560cbf5d4abf433fe90c5d4602020629f28d6ae63b7061ca9bfd1a34
 ---

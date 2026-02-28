@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-react-email-skills",
+  "generated_at": "2026-02-28T14:46:37.610Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-react-email-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-react-email-skills/HEAD.md",
+      "text": "title: react-email-skills\nsummary: Create beautiful, responsive HTML emails using React components with React Email.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/christina-de-martinez/react-email-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-react-email-skills",
+        "topic": "openclaw-openclaw-react-email-skills",
+        "type": "skills",
+        "title": "react-email-skills",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/christina-de-martinez/react-email-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.610Z",
+        "content_sha256": "8f783ff9d4de8584047dd5f53503a1241e2b04b98fc827fcace2fb975bdfc437"
+      }
+    }
+  ]
+}

@@ -5,23 +5,23 @@ title: skills-sh-coreyhaines31-marketingskills-social-content
 summary: |-
   # Platform-Specific Strategy Guide
   Detailed strategies for each major social platform.
+  ## Contents
+  - LinkedIn
+  - Twitter/X
+  - Instagram
+  - TikTok
+  - Facebook
   ## LinkedIn
   **Best for:** B2B, thought leadership, professional networking, recruiting
-  **Audience:** Professionals, decision-makers, job seekers
-  **Posting frequency:** 3-5x per week
-  **Best times:** Tuesday-Thursday, 7-8am, 12pm, 5-6pm
-  **What works:**
-  - Personal stories with business lessons
-  - Contrarian takes on industry topics
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/social-content/references/platforms.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/social-content
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.426Z
-content_sha256: b2c765478102c90e3516de625286de8f9d5eddfe5705f5d6affdd11456c43efe
+github_stars: 9230
+github_forks: 1250
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.198Z
+content_sha256: 3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f
 ---

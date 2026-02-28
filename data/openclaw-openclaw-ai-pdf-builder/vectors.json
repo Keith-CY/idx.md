@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ai-pdf-builder",
+  "generated_at": "2026-02-28T14:45:46.910Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ai-pdf-builder#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ai-pdf-builder/HEAD.md",
+      "text": "title: ai-pdf-builder\nsummary: Generate professional PDFs from Markdown using Pandoc and LaTeX with AI-powered content generation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/ai-pdf-builder/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ai-pdf-builder",
+        "topic": "openclaw-openclaw-ai-pdf-builder",
+        "type": "skills",
+        "title": "ai-pdf-builder",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/ai-pdf-builder/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.910Z",
+        "content_sha256": "953cf79ae6ce80eeb34e5e651d911feb9208532965fb1f975aa837c2e6d99100"
+      }
+    }
+  ]
+}

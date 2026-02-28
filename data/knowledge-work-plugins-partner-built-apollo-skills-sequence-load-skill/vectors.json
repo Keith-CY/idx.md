@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill",
+  "generated_at": "2026-02-28T14:45:36.549Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill/HEAD.md",
+      "text": "title: sequence-load\nsummary: Find leads matching criteria and bulk-add them to an Apollo outreach sequence. Handles enrichment, contact creation, deduplication, and enrollment in one flow.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-apollo, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/sequence-load/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill",
+        "topic": "knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill",
+        "type": "skills",
+        "title": "sequence-load",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-apollo",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/sequence-load/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.549Z",
+        "content_sha256": "a536c7d818bc8bd42df0d1e116270b51ffcfc12be7472f2eb48a46e2aab5a5c6"
+      }
+    }
+  ]
+}

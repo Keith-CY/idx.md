@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/meme-factory/references/markdown-memes-guide.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/meme-factory
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.679Z
+github_stars: 672
+github_forks: 53
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.349Z
 content_sha256: 6dd8e5fcc6d674a6abd592ef8f87455b6557fbf59d13608d2dfc5599df47d11e
 ---

@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/graphql-operations/references/queries.md
 license: ""
 upstream_ref: https://skills.sh/apollographql/skills/graphql-operations
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:54.253Z
+github_stars: 23
+github_forks: 3
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:33.898Z
 content_sha256: 2c66262d754fb4c286961fdac0a115cd2e9105710be9c3d812b6b2ac135995ee
 ---

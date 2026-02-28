@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-quit-vaping",
+  "generated_at": "2026-02-28T14:46:37.017Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-quit-vaping#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-quit-vaping/HEAD.md",
+      "text": "title: quit-vaping\nsummary: Quit vaping with nicotine-free streak tracking, craving tools.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-vaping/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-quit-vaping",
+        "topic": "openclaw-openclaw-quit-vaping",
+        "type": "skills",
+        "title": "quit-vaping",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-vaping/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.017Z",
+        "content_sha256": "21211955137f7ba1421f50f6d566c206a6e60810a663fa403589785cc285d07c"
+      }
+    }
+  ]
+}

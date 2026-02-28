@@ -1,6 +1,6 @@
 ---
 name: chart-image
-version: 2.2.0
+version: 2.5.1
 description: Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
 provides:
   - capability: chart-generation
@@ -174,7 +174,25 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--color-value-field` | Field for heatmap intensity | value |
 | `--y-category-field` | Y axis category field | y |
 
-### Volume Overlay Options
+### Dual-Axis Options (General)
+| Option | Description | Default |
+|--------|-------------|---------|
+| `--y2-field` | Second Y axis field (independent right axis) | - |
+| `--y2-title` | Title for second Y axis | field name |
+| `--y2-color` | Color for second series | #60a5fa (dark) / #2563eb (light) |
+| `--y2-type` | Chart type for second axis: line, bar, area | line |
+
+**Example:** Revenue bars (left) + Churn area (right):
+```bash
+node chart.mjs \
+  --data '[{"month":"Jan","revenue":12000,"churn":4.2},...]' \
+  --x-field month --y-field revenue --type bar \
+  --y2-field churn --y2-type area --y2-color "#60a5fa" \
+  --y-title "Revenue ($)" --y2-title "Churn (%)" \
+  --x-sort none --dark --title "Revenue vs Churn"
+```
+
+### Volume Overlay Options (Candlestick)
 | Option | Description | Default |
 |--------|-------------|---------|
 | `--volume-field` | Field for volume bars (enables dual-axis) | - |

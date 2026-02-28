@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-vibetunnel",
+  "generated_at": "2026-02-28T14:46:52.935Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-vibetunnel#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-vibetunnel/HEAD.md",
+      "text": "title: vibetunnel\nsummary: Manage VibeTunnel terminal sessions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/basher83/vibetunnel/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-vibetunnel",
+        "topic": "openclaw-openclaw-vibetunnel",
+        "type": "skills",
+        "title": "vibetunnel",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/basher83/vibetunnel/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:52.935Z",
+        "content_sha256": "25f77871862a1ccac240afab57a7e5308a9bfdb1946638d1801512ec9545d60f"
+      }
+    }
+  ]
+}

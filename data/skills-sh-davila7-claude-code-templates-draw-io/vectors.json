@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-davila7-claude-code-templates-draw-io",
+  "generated_at": "2026-02-28T14:45:31.990Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-davila7-claude-code-templates-draw-io#head",
+      "kind": "head",
+      "path": "/data/skills-sh-davila7-claude-code-templates-draw-io/HEAD.md",
+      "text": "title: skills-sh-davila7-claude-code-templates-draw-io\nsummary: # レイアウトガイドライン ## 1. グループ化の原則 - AWS Cloud グループを最外層とする - 機能単位でサブグループを作成 - グループは横並びを基本とし、データフローに沿って配置 ### 1.1. グループの階層構造 ```text AWS Cloud (最外層) ├── VPC │ ├── Public Subnet\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/creative-design/draw-io/references/layout-guidelines.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-davila7-claude-code-templates-draw-io",
+        "topic": "skills-sh-davila7-claude-code-templates-draw-io",
+        "type": "skills",
+        "title": "skills-sh-davila7-claude-code-templates-draw-io",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/creative-design/draw-io/references/layout-guidelines.md",
+        "retrieved_at": "2026-02-28T14:45:31.990Z",
+        "content_sha256": "501fbf61f47b08f578f39a03fcd655af7986277028dd92469a99ba835526d0d8"
+      }
+    }
+  ]
+}

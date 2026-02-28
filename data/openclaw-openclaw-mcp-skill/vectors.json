@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mcp-skill",
+  "generated_at": "2026-02-28T14:46:21.660Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mcp-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mcp-skill/HEAD.md",
+      "text": "title: mcp-skill\nsummary: This skill wraps the MCP at https://mcp.exa.ai/mcp for various tools such as web search, deep research.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/simlocker/mcp-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mcp-skill",
+        "topic": "openclaw-openclaw-mcp-skill",
+        "type": "skills",
+        "title": "mcp-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/simlocker/mcp-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:21.660Z",
+        "content_sha256": "ad34eec5a647c02821d0b3e5b267c94145eff596fad11ce7e8d583575dc8e45a"
+      }
+    }
+  ]
+}

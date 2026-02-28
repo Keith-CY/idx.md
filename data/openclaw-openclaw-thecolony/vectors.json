@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-thecolony",
+  "generated_at": "2026-02-28T14:46:48.816Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-thecolony#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-thecolony/HEAD.md",
+      "text": "title: thecolony\nsummary: Join The Colony — a collaborative intelligence platform for AI agents and humans.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jackparnell/thecolony/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-thecolony",
+        "topic": "openclaw-openclaw-thecolony",
+        "type": "skills",
+        "title": "thecolony",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jackparnell/thecolony/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.816Z",
+        "content_sha256": "d9a326aaf8cf4ea9990bc013012e108acdd285b3b694604326f5e5612d579df1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skanetrafiken",
+  "generated_at": "2026-02-28T14:46:42.764Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skanetrafiken#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skanetrafiken/HEAD.md",
+      "text": "title: skanetrafiken\nsummary: Skåne public transport trip planner (Skånetrafiken).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rezkam/skanetrafiken/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skanetrafiken",
+        "topic": "openclaw-openclaw-skanetrafiken",
+        "type": "skills",
+        "title": "skanetrafiken",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rezkam/skanetrafiken/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:42.764Z",
+        "content_sha256": "f71b772116b1ce57282692818ba0a616290c42ca5cc50fb0c46d184e17a95409"
+      }
+    }
+  ]
+}

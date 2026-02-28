@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-schema-markup",
+  "generated_at": "2026-02-28T14:46:40.436Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-schema-markup#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-schema-markup/HEAD.md",
+      "text": "title: schema-markup\nsummary: When the user wants to add, fix, or optimize schema markup and structured data.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/schema-markup/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-schema-markup",
+        "topic": "openclaw-openclaw-schema-markup",
+        "type": "skills",
+        "title": "schema-markup",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/schema-markup/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.436Z",
+        "content_sha256": "b43f80e20747a21f7b459d22d605858cf1d3586fd99388ec2941115e0e043fd8"
+      }
+    }
+  ]
+}

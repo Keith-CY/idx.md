@@ -7,7 +7,7 @@ description: Master OpenClaw's timing systems. Use for scheduling reliable remin
 
 **Rule #1: Heartbeats drift. Cron is precise.**
 
-This skill provides the definitive guide for managing time in OpenClaw. It solves the "I missed my reminder" problem by enforcing a strict separation between casual checks (heartbeat) and hard schedules (cron).
+This skill provides the definitive guide for managing time in OpenClaw 2026.2.15+. It solves the "I missed my reminder" problem by enforcing a strict separation between casual checks (heartbeat) and hard schedules (cron).
 
 ## The Core Principle
 
@@ -16,50 +16,66 @@ This skill provides the definitive guide for managing time in OpenClaw. It solve
 | **Heartbeat** | "I'll check in when I can" (e.g., every 30-60m) | Email checks, casual news summaries, low-priority polling. | **Drift:** A "remind me in 10m" task will fail if the heartbeat is 30m. |
 | **Cron** | "I will run at exactly X time" | Reminders ("in 5 mins"), daily reports, system maintenance. | **Clutter:** Creates one-off jobs that need cleanup. |
 
-## 1. Setting Reliable Reminders
+## 1. Setting Reliable Reminders (2026.2.15+ Standard)
 
-**Never** use `act:wait` or internal loops for long delays (>1 min). Use `cron:add` with a one-shot `at` schedule.
+**Rule:** Never use `act:wait` or internal loops for long delays (>1 min). Use `cron:add` with a one-shot `at` schedule.
 
-### Standard Reminder Pattern (JSON)
+### Precision & The "Scheduler Tick"
+While Cron is precise, execution depends on the **Gateway Heartbeat** (typically every 10-60s). A job set for `:00` seconds will fire on the first "tick" after that time. Expect up to ~30s of variance depending on your gateway config.
 
-Use this payload structure for "remind me in X minutes" tasks:
+### Modern One-Shot Reminder Pattern
+Use this payload structure for "remind me in X minutes" tasks. 
 
+**Key Features (v2026.2.15+):**
+- **Payload Choice:** Use **AgentTurn** with **Strict Instructions** for push notifications (reminders that ping your phone). Use **systemEvent** only for silent logs or background state updates.
+- **Reliability:** `nextRunAtMs` corruption and "Add-then-Update" deadlocks are resolved.
+- **Auto-Cleanup:** One-shot jobs auto-delete after success (`deleteAfterRun: true`).
+
+**CRITICAL: Push Notifications vs. Silent Logs**
+
+- **systemEvent (Silent):** Injects text into the chat history. Great for background logs, but **WILL NOT** ping the user's phone on Telegram/WhatsApp.
+- **AgentTurn (Proactive):** Wakes an agent to deliver the message. **REQUIRED** for push notifications. Use the "Strict" prompt to avoid AI chatter.
+
+**For push-notification reminders (Reliable):**
 ```json
 {
-  "name": "Remind: Drink Water",
-  "schedule": {
-    "kind": "at",
-    "atMs": <CURRENT_MS + DELAY_MS>
-  },
+  "name": "Remind: Water",
+  "schedule": { "kind": "at", "at": "2026-02-06T01:30:00Z" },
   "payload": {
     "kind": "agentTurn",
-    "message": "⏰ Reminder: Drink water!",
-    "deliver": true
+    "message": "DELIVER THIS EXACT MESSAGE TO THE USER WITHOUT MODIFICATION OR COMMENTARY:\n\n💧 Drink water, Momo!"
   },
-```  
+  "sessionTarget": "isolated",
+  "delivery": { "mode": "announce", "channel": "telegram", "to": "1027899060" }
+}
+```
 
-*Note: Even with `wakeMode: "next-heartbeat"`, the cron system forces an event injection at `atMs`. Use `mode: "now"` in the `cron:wake` tool if you need to force an immediate wake outside of a job payload.*
+**For background logs (Silent):**
+```json
+{
+  "name": "Log: System Pulse",
+  "schedule": { "kind": "every", "everyMs": 3600000 },
+  "payload": {
+    "kind": "systemEvent",
+    "text": "[PULSE] System healthy."
+  },
+  "sessionTarget": "main"
+}
+```
 
-### ⚠️ The Delivery Rule (CRITICAL)
-When scheduling an `agentTurn` via Cron that is meant to provide an update to the user:
-- **ALWAYS** set `"deliver": true` in the payload.
-- Without `"deliver": true`, the sub-agent will run the task but the output will NEVER be seen by the human. It will be "talking in a dark room."
+### Cron Concurrency Rule (Stabilized)
+Pre-2026.2.15, the "Add-then-Update" pattern caused deadlocks. While this is now stabilized, it is still **best practice** to pass all parameters (including `wakeMode: "now"`) directly in the initial `cron.add` call for maximum efficiency.
 
-## 2. The Janitor (Auto-Cleanup)
+## 2. The Janitor (Auto-Cleanup) - LEGACY
 
-One-shot cron jobs (kind: `at`) disable themselves after running but stay in the list as "ghosts" (`enabled: false`, `lastStatus: ok`). To prevent clutter, install the **Daily Janitor**.
+**Note:** As of v2026.2.14, OpenClaw includes **maintenance recompute semantics**. The gateway now automatically cleans up stuck jobs and repairs corrupted schedules. 
 
-### Setup Instructions
+**Manual cleanup is only needed for:**
+- One-shot jobs created with `deleteAfterRun: false`.
+- Stale recurring jobs you no longer want.
 
-1.  **Check current jobs:** `cron:list` (includeDisabled: true)
-2.  **Create the Janitor:**
-    *   **Name:** `Daily Cron Cleanup`
-    *   **Schedule:** Every 24 hours (`everyMs: 86400000`)
-    *   **Payload:** An agent turn that runs a specific prompt.
-
-### The Janitor Prompt (Agent Turn)
-
-> "Time for the 24-hour cron sweep. List all cron jobs including disabled ones. If you find any jobs that are `enabled: false` and have `lastStatus: ok` (finished one-shots), delete them to keep the list clean. Do not delete active recurring jobs. Log what you deleted."
+### Why use `sessionTarget: "main"`? (CRITICAL)
+Sub-agents (`isolated`) often have restricted tool policies and cannot call `gateway` or delete other `cron` jobs. For system maintenance like the Janitor, **always** target the `main` session via `systemEvent` so the primary agent (with full tool access) performs the cleanup.
 
 ## 3. Reference: Timezone Lock
 
@@ -76,16 +92,23 @@ For cron to work, the agent **must** know its time.
 *   **Wait < 1 minute (interactive):** Only allowed if you keep the tool loop open (using `act:wait`).
 *   **Wait > 1 minute (async):** Use Cron with `wakeMode: "now"`.
 
-**Example Payload for "Checking back in 30s":**
-```json
-{
-  "schedule": { "kind": "at", "atMs": <NOW + 30000> },
-  "payload": { "kind": "agentTurn", "message": "⏱️ 30s check-in. Report status." },
-  "wakeMode": "now"
-}
-```
+## 5. Legacy Migration Guide
+
+If you have old cron jobs using these patterns, update them:
+
+| Legacy (Pre-2026.2.3) | Modern (2026.2.15+) |
+| :--- | :--- |
+| `"schedule": {"kind": "at", "atMs": 1234567890}` | `"schedule": {"kind": "at", "at": "2026-02-06T01:30:00Z"}` |
+| `"deliver": true` in payload | Not needed - `announce` mode handles delivery |
+| `"sessionTarget": "main"` | `"sessionTarget": "isolated"` (default behavior) |
+| Manual ghost cleanup required | One-shots auto-delete (`deleteAfterRun: true`) |
+| `cron.update` after `cron.add` | Single-step `cron.add` with all properties |
 
 ## Troubleshooting
 
-*   **"My reminder didn't fire":** Check `cron:list`. If the job exists but didn't fire, check the system clock vs `atMs`.
-*   **"I have 50 old jobs":** Run the Janitor manually immediately.
+*   **"My reminder didn't fire":** Check `cron:list`. Verify the `at` timestamp is in the future (ISO 8601 format). Ensure `wakeMode: "now"` is set.
+*   **"Gateway Timeout (10000ms)":** This happens if the `cron` tool takes too long (huge job list or file lock). 
+    - **Fix 1:** Manually delete `~/.openclaw/state/cron/jobs.json` and restart the gateway if it's corrupted.
+    - **Fix 2:** Run a manual sweep to reduce the job count.
+*   **"Job ran but I didn't get the message":** Ensure you are using the **Strict Instruction Pattern** with `agentTurn` + `announce` mode for proactive pings.
+*   **"The reminder message has extra commentary":** The subagent is being conversational. Use the strict prompt pattern: `"DELIVER THIS EXACT MESSAGE TO THE USER WITHOUT MODIFICATION OR COMMENTARY:\n\n💧 Your message here"`

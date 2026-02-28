@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adcp-advertising",
+  "generated_at": "2026-02-28T14:45:44.462Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adcp-advertising#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adcp-advertising/HEAD.md",
+      "text": "title: adcp-advertising\nsummary: Automate advertising campaigns with AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edyyy62/adcp-advertising/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adcp-advertising",
+        "topic": "openclaw-openclaw-adcp-advertising",
+        "type": "skills",
+        "title": "adcp-advertising",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edyyy62/adcp-advertising/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:44.462Z",
+        "content_sha256": "153117c450abeee23c3ff234750cf49c18ec71e8f9a70726dbf955533d0eaaf6"
+      }
+    }
+  ]
+}

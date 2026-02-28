@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-sales-skills-account-research-skill",
+  "generated_at": "2026-02-28T14:45:31.164Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-sales-skills-account-research-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-sales-skills-account-research-skill/HEAD.md",
+      "text": "title: account-research\nsummary: Research a company or person and get actionable sales intel. Works standalone with web search, supercharged when you connect enrichment tools or your CRM. Trigger with \"research [company]\", \"look up [person]\", \"intel on [prospect]\", \"who is [name] at [company]\", or \"tell me about [company]\".\ntype: skills\ntags: source-knowledge-work-plugins, plugin-sales, plugin-component-skills, plugin-skill, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/account-research/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-sales-skills-account-research-skill",
+        "topic": "knowledge-work-plugins-sales-skills-account-research-skill",
+        "type": "skills",
+        "title": "account-research",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-sales",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/account-research/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:31.164Z",
+        "content_sha256": "9b73bf462b1e96516ed7de68c628c34c5416b233ddda249d5186fdd4bbdabc17"
+      }
+    }
+  ]
+}

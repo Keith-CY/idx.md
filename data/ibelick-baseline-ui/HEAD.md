@@ -7,8 +7,10 @@ summary: >-
 
   name: baseline-ui
 
-  description: Enforces an opinionated UI baseline to prevent AI-generated
-  interface slop.
+  description: Validates animation durations, enforces typography scale, checks
+  component accessibility, and prevents layout anti-patterns in Tailwind CSS
+  projects. Use when building UI components, reviewing CSS utilities, styling
+  React views, or enforcing design consistency.
 
   ---
 
@@ -27,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.351Z
-content_sha256: 0957eead1bb79f848e623f88e7616171d7a42e67c6d090af50a0558fc892f9da
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.154Z
+content_sha256: 9bb2f868098a9d28ce7d10383039a28169d838cea6299f9df3706ecda7932949
 ---

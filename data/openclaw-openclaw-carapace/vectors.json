@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-carapace",
+  "generated_at": "2026-02-28T14:45:54.545Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-carapace#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-carapace/HEAD.md",
+      "text": "title: carapace\nsummary: Query and contribute structured understanding to Carapace — the shared knowledge base for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/morpheis/carapace/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-carapace",
+        "topic": "openclaw-openclaw-carapace",
+        "type": "skills",
+        "title": "carapace",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/morpheis/carapace/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:54.545Z",
+        "content_sha256": "8a0c576b77efc9d5bde621f63f39fab8b22e4d39391e7736a5feb7c33f6dd2bb"
+      }
+    }
+  ]
+}

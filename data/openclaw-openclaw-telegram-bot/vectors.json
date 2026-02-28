@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-telegram-bot",
+  "generated_at": "2026-02-28T14:46:48.099Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-telegram-bot#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-telegram-bot/HEAD.md",
+      "text": "title: telegram-bot\nsummary: Build and manage Telegram bots via the Telegram Bot API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/telegram-bot/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-telegram-bot",
+        "topic": "openclaw-openclaw-telegram-bot",
+        "type": "skills",
+        "title": "telegram-bot",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/telegram-bot/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.099Z",
+        "content_sha256": "6c9a80859b06db0e9b3e4bc226dad357df7b3a1a52e8946eebdf5539f27c5e5c"
+      }
+    }
+  ]
+}

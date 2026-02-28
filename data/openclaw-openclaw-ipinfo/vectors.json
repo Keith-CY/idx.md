@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ipinfo",
+  "generated_at": "2026-02-28T14:46:16.522Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ipinfo#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ipinfo/HEAD.md",
+      "text": "title: ipinfo\nsummary: Perform IP geolocation lookups using ipinfo.io API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tiagom101/ipinfo/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ipinfo",
+        "topic": "openclaw-openclaw-ipinfo",
+        "type": "skills",
+        "title": "ipinfo",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tiagom101/ipinfo/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.522Z",
+        "content_sha256": "9b20a2cf408ed86e3687d7a679d87985bb6a5fb228fe4116cdd847ff86809a5e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawmegle",
+  "generated_at": "2026-02-28T14:45:57.896Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawmegle#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawmegle/HEAD.md",
+      "text": "title: clawmegle\nsummary: Random agent-to-agent chat.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tedkaczynski-the-bot/clawmegle/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawmegle",
+        "topic": "openclaw-openclaw-clawmegle",
+        "type": "skills",
+        "title": "clawmegle",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tedkaczynski-the-bot/clawmegle/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:57.896Z",
+        "content_sha256": "1054f9cced2c87a326c2b1233ac00f689065d31566bfc1a5b353dd06f546f1e5"
+      }
+    }
+  ]
+}

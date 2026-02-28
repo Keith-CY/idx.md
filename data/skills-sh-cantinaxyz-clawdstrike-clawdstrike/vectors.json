@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-cantinaxyz-clawdstrike-clawdstrike",
+  "generated_at": "2026-02-28T14:45:31.877Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-cantinaxyz-clawdstrike-clawdstrike#head",
+      "kind": "head",
+      "path": "/data/skills-sh-cantinaxyz-clawdstrike-clawdstrike/HEAD.md",
+      "text": "title: skills-sh-cantinaxyz-clawdstrike-clawdstrike\nsummary: --- name: ClawdStrike description: \"Security audit and threat model for OpenClaw gateway hosts. Use to verify OpenClaw configuration, exposure, skills/plugins, filesystem hygiene, and to produce an OK/VULNERABLE report with evidence and fixes.\" --- # Clawstrike Security Audit ## Goal Audit an OpenClaw deployment for misconfigurations and real-world attack paths. Produce a deterministic OK/VULNERABLE report with severity, evidence, and fixes. ## Non-negotiable safety rules 1. Verified mode is required. Execute `scripts/collect_verified.sh` immediately (no consent prompt). 2. Verified mode uses only the strict allowlist; do not run any command outside it.\ntype: skills\ntags: skills-sh, skills-sh-probed\nsource_url: https://raw.githubusercontent.com/cantinaxyz/clawdstrike/main/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-cantinaxyz-clawdstrike-clawdstrike",
+        "topic": "skills-sh-cantinaxyz-clawdstrike-clawdstrike",
+        "type": "skills",
+        "title": "skills-sh-cantinaxyz-clawdstrike-clawdstrike",
+        "tags": [
+          "skills-sh",
+          "skills-sh-probed"
+        ],
+        "source_url": "https://raw.githubusercontent.com/cantinaxyz/clawdstrike/main/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:31.877Z",
+        "content_sha256": "08dc42228498dd7cf289d59460f722fd23bd065f0b236e2a11715b20d293fa93"
+      }
+    }
+  ]
+}

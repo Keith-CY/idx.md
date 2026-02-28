@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-whats",
+  "generated_at": "2026-02-28T14:46:55.214Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-whats#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-whats/HEAD.md",
+      "text": "title: whats\nsummary: Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/engahmedsalah358-lgtm/whats/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-whats",
+        "topic": "openclaw-openclaw-whats",
+        "type": "skills",
+        "title": "whats",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/engahmedsalah358-lgtm/whats/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:55.214Z",
+        "content_sha256": "d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58"
+      }
+    }
+  ]
+}

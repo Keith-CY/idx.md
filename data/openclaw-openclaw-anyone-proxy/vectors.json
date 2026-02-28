@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-anyone-proxy",
+  "generated_at": "2026-02-28T14:45:48.130Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-anyone-proxy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-anyone-proxy/HEAD.md",
+      "text": "title: anyone-proxy\nsummary: This skill enables IP address masking and accessing hidden services on the Anyone Network.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ra3ka/anyone-proxy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-anyone-proxy",
+        "topic": "openclaw-openclaw-anyone-proxy",
+        "type": "skills",
+        "title": "anyone-proxy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ra3ka/anyone-proxy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:48.130Z",
+        "content_sha256": "a9322a6d70f459c6e887d7551b40604d301db53c2387527a100696fcacfb7a4a"
+      }
+    }
+  ]
+}

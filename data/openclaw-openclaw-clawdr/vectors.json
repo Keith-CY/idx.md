@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdr",
+  "generated_at": "2026-02-28T14:45:57.448Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdr#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdr/HEAD.md",
+      "text": "title: clawdr\nsummary: Let your AI handle the dating app grind.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/olavblj/clawdr/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdr",
+        "topic": "openclaw-openclaw-clawdr",
+        "type": "skills",
+        "title": "clawdr",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/olavblj/clawdr/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:57.448Z",
+        "content_sha256": "de82e2460fa03415966568f22ac5024598e8bcef2a7a28957d4a30eb9415042b"
+      }
+    }
+  ]
+}

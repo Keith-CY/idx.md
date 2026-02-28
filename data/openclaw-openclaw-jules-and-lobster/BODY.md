@@ -1,6 +1,23 @@
 ---
 name: jules-api
-description: "Use the Jules REST API (v1alpha) via curl to list sources, create sessions, monitor activities, approve plans, send messages, and retrieve outputs (e.g., PR URLs). Use when the user wants to delegate coding tasks to Jules programmatically."
+description: "Use the Jules REST API (v1alpha) via curl to list sources, create sessions, monitor activities, approve plans, send messages, and retrieve outputs (e.g., PR URLs). Use when the user wants to delegate coding tasks to Jules programmatically. Requires JULES_API_KEY env var (obtain from https://jules.google.com/settings#api)."
+env:
+  JULES_API_KEY:
+    required: true
+    description: "API key for the Jules service. Obtain from https://jules.google.com/settings#api"
+dependencies:
+  - name: curl
+    required: true
+    description: "Used for all API requests to jules.googleapis.com"
+  - name: python3
+    required: true
+    description: "Used by jules_api.sh for safe JSON string escaping"
+  - name: node
+    required: false
+    description: "Required only for scripts/jules.js CLI wrapper"
+  - name: jules
+    required: false
+    description: "Jules CLI binary, required only for scripts/jules.js CLI wrapper"
 ---
 
 # Jules REST API Skill
@@ -8,19 +25,24 @@ description: "Use the Jules REST API (v1alpha) via curl to list sources, create 
 ## Quick Start
 
 ```bash
+# 0. Set your API key (required — get one at https://jules.google.com/settings#api)
+export JULES_API_KEY="your-api-key-here"
+
 # 1. Verify available sources (pre-flight check)
 ./scripts/jules_api.sh sources
 
-# 2. Create a session with auto PR creation
+# 2. Create a session with plan approval and auto PR creation
 ./scripts/jules_api.sh new-session \
   --source "sources/github/OWNER/REPO" \
   --title "Add unit tests" \
   --prompt "Add comprehensive unit tests for the authentication module" \
   --branch main \
+  --require-plan-approval \
   --auto-pr
 
-# 3. Monitor session progress
+# 3. Monitor session progress and approve the plan
 ./scripts/jules_api.sh activities --session SESSION_ID
+./scripts/jules_api.sh approve-plan --session SESSION_ID
 ```
 
 **Note:** Use your GitHub username/org, not your local system username (e.g., `sources/github/octocat/Hello-World`, not `sources/github/$USER/Hello-World`).
@@ -131,9 +153,9 @@ All requests authenticate with:
 
 ## Workflows
 
-### Option 1: Automated Session with Auto-PR (Recommended)
+### Option 1: Session with Plan Approval and Auto-PR (Recommended)
 
-Create a session that automatically creates a PR when complete:
+Create a session that requires plan approval before execution and automatically creates a PR when complete:
 
 ```bash
 ./scripts/jules_api.sh new-session \
@@ -141,34 +163,30 @@ Create a session that automatically creates a PR when complete:
   --title "Fix login bug" \
   --prompt "Fix the null pointer exception in the login handler when email is empty" \
   --branch main \
+  --require-plan-approval \
   --auto-pr
 ```
 
 **Why this is recommended:**
-- Plans are automatically approved (default behavior)
+- You review and approve the plan before Jules executes changes
 - PR is created automatically on completion
-- Minimal manual intervention required
+- Balances automation with human oversight
 
-### Option 2: Session with Plan Approval
+### Option 2: Fully Automated Session (No Plan Approval)
 
-For sensitive operations, require explicit plan approval:
+For low-risk or routine tasks in non-sensitive repos, you can skip plan approval:
 
 ```bash
-# Create session requiring plan approval
+# Create session without plan approval (use only for low-risk tasks)
 ./scripts/jules_api.sh new-session \
   --source "sources/github/octocat/Hello-World" \
-  --title "Refactor auth module" \
-  --prompt "Refactor the authentication module to use OAuth2" \
+  --title "Fix typo in README" \
+  --prompt "Fix the typo in README.md line 5" \
   --branch main \
-  --require-plan-approval \
   --auto-pr
-
-# Monitor until AWAITING_PLAN_APPROVAL state
-./scripts/jules_api.sh activities --session SESSION_ID
-
-# Review the plan, then approve
-./scripts/jules_api.sh approve-plan --session SESSION_ID
 ```
+
+**Warning:** Without `--require-plan-approval`, Jules will automatically approve its own plan and execute changes. Only use this for low-risk tasks in non-critical repos.
 
 ### Option 3: Interactive Session
 
@@ -262,7 +280,7 @@ curl -sS "https://jules.googleapis.com/v1alpha/sessions" \
         "startingBranch": "main"
       }
     },
-    "requirePlanApproval": false,
+    "requirePlanApproval": true,
     "automationMode": "AUTO_CREATE_PR"
   }'
 ```
@@ -274,7 +292,7 @@ curl -sS "https://jules.googleapis.com/v1alpha/sessions" \
 | `title` | string | No | Short title for the session |
 | `sourceContext.source` | string | Yes | Source name (e.g., `sources/github/owner/repo`) |
 | `sourceContext.githubRepoContext.startingBranch` | string | Yes | Branch to start from |
-| `requirePlanApproval` | boolean | No | If true, pause for plan approval (default: false) |
+| `requirePlanApproval` | boolean | No | If true, pause for plan approval. Recommended: true for production repos |
 | `automationMode` | string | No | Set to `AUTO_CREATE_PR` for automatic PR creation |
 
 **Response:**
@@ -467,7 +485,7 @@ The `scripts/jules_api.sh` script provides a convenient wrapper for common API o
   --prompt "..." \
   [--branch main] \
   [--auto-pr] \
-  [--require-plan-approval]
+  [--no-plan-approval]
 ```
 
 **Flags:**
@@ -479,7 +497,8 @@ The `scripts/jules_api.sh` script provides a convenient wrapper for common API o
 | `--session` | Session ID |
 | `--branch` | Starting branch (default: `main`) |
 | `--auto-pr` | Enable automatic PR creation |
-| `--require-plan-approval` | Require explicit plan approval |
+| `--require-plan-approval` | Require explicit plan approval (default) |
+| `--no-plan-approval` | Skip plan approval (use for low-risk tasks only) |
 | `--page-size` | Number of results to return |
 
 ### jules.js
@@ -568,12 +587,14 @@ export JULES_API_KEY="your-api-key"
 
 1. Never include secrets or credentials in prompts
 2. Review generated PRs before merging
-3. Use `requirePlanApproval: true` for sensitive operations
+3. Use `requirePlanApproval: true` (recommended for all repos, especially production)
+4. Only install the Jules GitHub app on repositories you intend to use with Jules — limit access scope
+5. Treat `JULES_API_KEY` as a secret: store it securely, rotate it regularly, and never paste it into untrusted places
 
 ### Performance
 
 1. Use `automationMode: AUTO_CREATE_PR` for streamlined workflows
-2. Let plans auto-approve for routine tasks
+2. Only skip plan approval (`requirePlanApproval: false`) for routine, low-risk tasks in non-critical repos
 3. Break complex tasks into smaller sessions
 
 ## Extracting Results

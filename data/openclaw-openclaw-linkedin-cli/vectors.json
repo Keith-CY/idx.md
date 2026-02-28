@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-linkedin-cli",
+  "generated_at": "2026-02-28T14:46:19.804Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-linkedin-cli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-linkedin-cli/HEAD.md",
+      "text": "title: linkedin-cli\nsummary: A bird-like LinkedIn CLI for searching profiles, checking messages.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arun-8687/linkedin-cli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-linkedin-cli",
+        "topic": "openclaw-openclaw-linkedin-cli",
+        "type": "skills",
+        "title": "linkedin-cli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arun-8687/linkedin-cli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:19.804Z",
+        "content_sha256": "44ccb317f9e26c20aa599e612d9001b5448f1899e6007b794a90cd7306c264ed"
+      }
+    }
+  ]
+}

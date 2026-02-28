@@ -1,16 +1,16 @@
 ---
 name: web-search-plus
-version: 2.6.5
-description: Unified search skill with Intelligent Auto-Routing. Uses multi-signal analysis to automatically select between Serper (Google), Tavily (Research), Exa (Neural), You.com (RAG/Real-time), and SearXNG (Privacy/Self-hosted) with confidence scoring.
-tags: [search, web-search, serper, tavily, exa, you, searxng, google, research, semantic-search, auto-routing, multi-provider, shopping, rag, free-tier, privacy, self-hosted]
-metadata: {"openclaw":{"requires":{"bins":["python3","bash"],"env":{"SERPER_API_KEY":"optional","TAVILY_API_KEY":"optional","EXA_API_KEY":"optional","YOU_API_KEY":"optional","SEARXNG_INSTANCE_URL":"optional"},"note":"Only ONE provider key needed. All are optional."}}}
+version: 2.8.1
+description: Unified search skill with Intelligent Auto-Routing. Uses multi-signal analysis to automatically select between Serper (Google), Tavily (Research), Exa (Neural), Perplexity (AI Answers), You.com (RAG/Real-time), and SearXNG (Privacy/Self-hosted) with confidence scoring.
+tags: [search, web-search, serper, tavily, exa, perplexity, you, searxng, google, research, semantic-search, auto-routing, multi-provider, shopping, rag, free-tier, privacy, self-hosted, kilo]
+metadata: {"openclaw":{"requires":{"bins":["python3","bash"],"env":{"SERPER_API_KEY":"optional","TAVILY_API_KEY":"optional","EXA_API_KEY":"optional","YOU_API_KEY":"optional","SEARXNG_INSTANCE_URL":"optional","KILOCODE_API_KEY":"optional — required for Perplexity provider (via Kilo Gateway)"},"note":"Only ONE provider key needed. All are optional."}}}
 ---
 
 # Web Search Plus
 
 **Stop choosing search providers. Let the skill do it for you.**
 
-This skill connects you to 5 search providers (Serper, Tavily, Exa, You.com, SearXNG) and automatically picks the best one for each query. Shopping question? → Google results. Research question? → Deep research engine. Want privacy? → Self-hosted option.
+This skill connects you to 6 search providers (Serper, Tavily, Exa, Perplexity, You.com, SearXNG) and automatically picks the best one for each query. Shopping question? → Google results. Research question? → Deep research engine. Need a direct answer? → AI-synthesized with citations. Want privacy? → Self-hosted option.
 
 ---
 
@@ -18,7 +18,7 @@ This skill connects you to 5 search providers (Serper, Tavily, Exa, You.com, Sea
 
 - **Just search** — No need to think about which provider to use
 - **Smart routing** — Analyzes your query and picks the best provider automatically
-- **5 providers, 1 interface** — Google results, research engines, neural search, RAG-optimized, and privacy-first all in one
+- **6 providers, 1 interface** — Google results, research engines, neural search, AI answers with citations, RAG-optimized, and privacy-first all in one
 - **Works with just 1 key** — Start with any single provider, add more later
 - **Free options available** — SearXNG is completely free (self-hosted)
 
@@ -47,6 +47,7 @@ You only need **ONE** key to get started. Add more providers later for better co
 | **Serper** | 2,500/mo | Shopping, prices, local, news | [serper.dev](https://serper.dev) |
 | **Tavily** | 1,000/mo | Research, explanations, academic | [tavily.com](https://tavily.com) |
 | **Exa** | 1,000/mo | "Similar to X", startups, papers | [exa.ai](https://exa.ai) |
+| **Perplexity** | Via Kilo | Direct answers with citations | [kilo.ai](https://kilo.ai) |
 | **You.com** | Limited | Real-time info, AI/RAG context | [api.you.com](https://api.you.com) |
 | **SearXNG** | **FREE** ✅ | Privacy, multi-source, $0 cost | Self-hosted |
 
@@ -73,6 +74,8 @@ export TAVILY_API_KEY="your-key"
 | Do deep research | **Tavily** | "climate change research 2024" |
 | Find companies like X | **Exa** | "startups similar to Notion" |
 | Find research papers | **Exa** | "transformer architecture papers" |
+| Get a direct answer with sources | **Perplexity** | "events in Berlin this weekend" |
+| Know the current status of something | **Perplexity** | "what is the status of Ethereum upgrades" |
 | Get real-time info | **You.com** | "latest AI regulation news" |
 | Search without being tracked | **SearXNG** | anything, privately |
 
@@ -88,6 +91,7 @@ The skill looks at your query and picks the best provider:
 "iPhone 16 price"              → Serper (shopping keywords)
 "how does quantum computing work" → Tavily (research question)
 "companies like stripe.com"    → Exa (URL detected, similarity)
+"events in Graz this weekend"  → Perplexity (local + direct answer)
 "latest news on AI"            → You.com (real-time intent)
 "search privately"             → SearXNG (privacy keywords)
 ```
@@ -120,7 +124,7 @@ python3 scripts/search.py -p searxng -q "linux distros" --engines "google,bing"
 
 ---
 
-## ⚙️ Configuration
+## ⚙ Configuration
 
 ```json
 {
@@ -142,17 +146,19 @@ python3 scripts/search.py -p searxng -q "linux distros" --engines "google,bing"
 
 ## 📊 Provider Comparison
 
-| Feature | Serper | Tavily | Exa | You.com | SearXNG |
-|---------|:------:|:------:|:---:|:-------:|:-------:|
-| Speed | ⚡⚡⚡ | ⚡⚡ | ⚡⚡ | ⚡⚡⚡ | ⚡⚡ |
-| Factual Accuracy | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| Semantic Understanding | ⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ |
-| Full Page Content | ✗ | ✓ | ✓ | ✓ | ✗ |
-| Shopping/Local | ✓ | ✗ | ✗ | ✗ | ✓ |
-| Find Similar Pages | ✗ | ✗ | ✓ | ✗ | ✗ |
-| RAG-Optimized | ✗ | ✓ | ✗ | ✓✓ | ✗ |
-| Privacy-First | ✗ | ✗ | ✗ | ✗ | ✓✓ |
-| API Cost | $$ | $$ | $$ | $ | **FREE** |
+| Feature | Serper | Tavily | Exa | Perplexity | You.com | SearXNG |
+|---------|:------:|:------:|:---:|:----------:|:-------:|:-------:|
+| Speed | ⚡⚡⚡ | ⚡⚡ | ⚡⚡ | ⚡⚡ | ⚡⚡⚡ | ⚡⚡ |
+| Direct Answers | ✗ | ✗ | ✗ | ✓✓ | ✗ | ✗ |
+| Citations | ✗ | ✗ | ✗ | ✓ | ✗ | ✗ |
+| Factual Accuracy | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| Semantic Understanding | ⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ | ⭐ |
+| Full Page Content | ✗ | ✓ | ✓ | ✓ | ✓ | ✗ |
+| Shopping/Local | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Find Similar Pages | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ |
+| RAG-Optimized | ✗ | ✓ | ✗ | ✗ | ✓✓ | ✗ |
+| Privacy-First | ✗ | ✗ | ✗ | ✗ | ✗ | ✓✓ |
+| API Cost | $$ | $$ | $$ | Via Kilo | $ | **FREE** |
 
 ---
 
@@ -211,7 +217,7 @@ If one provider fails (rate limit, timeout, error), the skill automatically trie
 
 ---
 
-## ⚠️ Important Note
+## ⚠ Important Note
 
 **Tavily, Serper, and Exa are NOT core OpenClaw providers.**
 
@@ -219,6 +225,14 @@ If one provider fails (rate limit, timeout, error), the skill automatically trie
 ✅ Use this skill's scripts — keys auto-load from `.env`
 
 ---
+
+## 🔒 Security
+
+**SearXNG SSRF Protection:** The SearXNG instance URL is validated with defense-in-depth:
+- Enforces `http`/`https` schemes only
+- Blocks cloud metadata endpoints (169.254.169.254, metadata.google.internal)
+- Resolves hostnames and blocks private/internal IPs (loopback, RFC1918, link-local, reserved)
+- Operators who intentionally self-host on private networks can set `SEARXNG_ALLOW_PRIVATE=1`
 
 ## 📚 More Documentation
 
@@ -233,5 +247,6 @@ If one provider fails (rate limit, timeout, error), the skill automatically trie
 - [Serper](https://serper.dev) — Google Search API
 - [Tavily](https://tavily.com) — AI Research Search
 - [Exa](https://exa.ai) — Neural Search
+- [Perplexity](https://www.perplexity.ai) — AI-Synthesized Answers (via [Kilo Gateway](https://kilo.ai))
 - [You.com](https://api.you.com) — RAG/Real-time Search
 - [SearXNG](https://docs.searxng.org) — Privacy-First Meta-Search

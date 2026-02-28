@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "obra-subagent-driven-development",
+  "generated_at": "2026-02-28T14:45:25.293Z",
+  "records": [
+    {
+      "id": "skills/obra-subagent-driven-development#head",
+      "kind": "head",
+      "path": "/data/obra-subagent-driven-development/HEAD.md",
+      "text": "title: obra-subagent-driven-development\nsummary: --- name: subagent-driven-development description: Use when executing implementation plans with independent tasks in the current session --- # Subagent-Driven Development Execute plan by dispatching fresh subagent per task, with two-stage review after each: spec compliance review first, then code quality review. **Core principle:** Fresh subagent per task + two-stage review (spec then quality) = high quality, fast iteration ## When to Use ```dot digraph when_to_use {\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/obra-subagent-driven-development",
+        "topic": "obra-subagent-driven-development",
+        "type": "skills",
+        "title": "obra-subagent-driven-development",
+        "tags": [
+          "obra",
+          "source-obra-superpowers"
+        ],
+        "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:25.293Z",
+        "content_sha256": "994b89a5d294eadd6a1611edb51377bac748d5f5fb7f4139d3c736b616b3a46a"
+      }
+    }
+  ]
+}

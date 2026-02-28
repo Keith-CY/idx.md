@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-icloud-findmy",
+  "generated_at": "2026-02-28T14:46:15.030Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-icloud-findmy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-icloud-findmy/HEAD.md",
+      "text": "title: icloud-findmy\nsummary: Query Find My locations and battery status for family devices via iCloud.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/liamnichols/icloud-findmy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-icloud-findmy",
+        "topic": "openclaw-openclaw-icloud-findmy",
+        "type": "skills",
+        "title": "icloud-findmy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/liamnichols/icloud-findmy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:15.030Z",
+        "content_sha256": "edbb50613ef3538069d471cd5bb9d6b029d30da40b02500cc9aedc7bac91e6d8"
+      }
+    }
+  ]
+}

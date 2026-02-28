@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill",
+  "generated_at": "2026-02-28T14:45:36.436Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill/HEAD.md",
+      "text": "title: weekly-prep-brief\nsummary: Generate a comprehensive weekly briefing for all external calls in the next 7 days. Triggers on 'weekly prep brief', 'prepare my week', 'what calls do I have this week', 'Monday prep', or any weekly planning request.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-common-room, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/weekly-prep-brief/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill",
+        "topic": "knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill",
+        "type": "skills",
+        "title": "weekly-prep-brief",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-common-room",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/weekly-prep-brief/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.436Z",
+        "content_sha256": "3c6a45f653a6c0a7b1b52e2f11f937236164d0c3f4df0f9f86d354dc6d16de16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adaptive-suite",
+  "generated_at": "2026-02-28T14:45:44.420Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adaptive-suite#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adaptive-suite/HEAD.md",
+      "text": "title: adaptive-suite\nsummary: --- name: adaptive-suite description: > A continuously adaptive skill suite that empowers Clawdbot to act as a versatile coder, business analyst, project manager, web developer, data analyst, and NAS metadata scraper. It intelligently discovers free resources, adapts to user context, and ensures reliable, proven guidance across multiple domains. homepage: https://docs.molt.bot/tools/skills user-invocable: true metadata:\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/adaptive-suite/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adaptive-suite",
+        "topic": "openclaw-openclaw-adaptive-suite",
+        "type": "skills",
+        "title": "adaptive-suite",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/adaptive-suite/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:44.420Z",
+        "content_sha256": "13b82d4c0bd36d8bb0e939739954da7f3419d1fdd2e421dd5469be070210dca9"
+      }
+    }
+  ]
+}

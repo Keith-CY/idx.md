@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "ibelick-fixing-metadata",
+  "generated_at": "2026-02-28T14:45:24.225Z",
+  "records": [
+    {
+      "id": "skills/ibelick-fixing-metadata#head",
+      "kind": "head",
+      "path": "/data/ibelick-fixing-metadata/HEAD.md",
+      "text": "title: ibelick-fixing-metadata\nsummary: --- name: fixing-metadata description: > Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical URLs, or shipping new pages that need correct meta tags. version: 1.0.1 license: MIT ---\ntype: skills\ntags: ibelick, source-ibelick-ui-skills\nsource_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/ibelick-fixing-metadata",
+        "topic": "ibelick-fixing-metadata",
+        "type": "skills",
+        "title": "ibelick-fixing-metadata",
+        "tags": [
+          "ibelick",
+          "source-ibelick-ui-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:24.225Z",
+        "content_sha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547"
+      }
+    }
+  ]
+}

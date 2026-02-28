@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-notebooklm",
+  "generated_at": "2026-02-28T14:46:27.521Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-notebooklm#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-notebooklm/HEAD.md",
+      "text": "title: notebooklm\nsummary: Use this skill to analyze your local files with Google NotebookLM's AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/notebooklm/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-notebooklm",
+        "topic": "openclaw-openclaw-notebooklm",
+        "type": "skills",
+        "title": "notebooklm",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/notebooklm/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:27.521Z",
+        "content_sha256": "2ca732508a27c256640bbc23f27e64b1ebeeac54fd5573f1f4044e5940aaf80f"
+      }
+    }
+  ]
+}

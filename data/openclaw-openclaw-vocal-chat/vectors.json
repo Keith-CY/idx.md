@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-vocal-chat",
+  "generated_at": "2026-02-28T14:46:53.450Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-vocal-chat#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-vocal-chat/HEAD.md",
+      "text": "title: vocal-chat\nsummary: Handles voice-to-voice conversations on WhatsApp.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rubenfb23/vocal-chat/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-vocal-chat",
+        "topic": "openclaw-openclaw-vocal-chat",
+        "type": "skills",
+        "title": "vocal-chat",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rubenfb23/vocal-chat/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:53.450Z",
+        "content_sha256": "8e62b5e1b33b63fb4f5a5a707d0e9b602745e456cf24c782d3243d1339a96965"
+      }
+    }
+  ]
+}

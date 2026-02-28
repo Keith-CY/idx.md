@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-remotion-dev-skills-remotion-best-practices",
+  "generated_at": "2026-02-28T14:45:38.281Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-remotion-dev-skills-remotion-best-practices#head",
+      "kind": "head",
+      "path": "/data/skills-sh-remotion-dev-skills-remotion-best-practices/HEAD.md",
+      "text": "title: skills-sh-remotion-dev-skills-remotion-best-practices\nsummary: --- name: subtitles description: subtitles and caption rules metadata: tags: subtitles, captions, remotion, json --- All captions must be processed in JSON. The captions must use the `Caption` type which is the following: ```ts import type { Caption } from \"@remotion/captions\"; ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/remotion-dev/skills/HEAD/skills/remotion/rules/subtitles.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-remotion-dev-skills-remotion-best-practices",
+        "topic": "skills-sh-remotion-dev-skills-remotion-best-practices",
+        "type": "skills",
+        "title": "skills-sh-remotion-dev-skills-remotion-best-practices",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/remotion-dev/skills/HEAD/skills/remotion/rules/subtitles.md",
+        "retrieved_at": "2026-02-28T14:45:38.281Z",
+        "content_sha256": "9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-event-planner",
+  "generated_at": "2026-02-28T14:46:06.048Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-event-planner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-event-planner/HEAD.md",
+      "text": "title: event-planner\nsummary: Plan events (night out, weekend, date night, team outing, meals, trips) by searching venues.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/event-planner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-event-planner",
+        "topic": "openclaw-openclaw-event-planner",
+        "type": "skills",
+        "title": "event-planner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/event-planner/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.048Z",
+        "content_sha256": "aecbb84fd885b3c42ae63c3ac12c603c0306c3ce9532a044d9c3f015f37336a4"
+      }
+    }
+  ]
+}

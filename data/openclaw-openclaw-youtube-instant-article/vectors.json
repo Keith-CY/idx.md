@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youtube-instant-article",
+  "generated_at": "2026-02-28T14:46:58.473Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youtube-instant-article#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youtube-instant-article/HEAD.md",
+      "text": "title: youtube-instant-article\nsummary: Transform YouTube videos into Telegraph Instant View articles with visual slides.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/viticci/youtube-instant-article/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youtube-instant-article",
+        "topic": "openclaw-openclaw-youtube-instant-article",
+        "type": "skills",
+        "title": "youtube-instant-article",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/viticci/youtube-instant-article/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.473Z",
+        "content_sha256": "388f74a382cc3a29a1dbe8fe08778bdf1dcc376897fa523fca72d0db78924853"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-openclaw-skills-leak",
+  "generated_at": "2026-02-28T14:45:23.222Z",
+  "records": [
+    {
+      "id": "skills/github-skill-openclaw-skills-leak#head",
+      "kind": "head",
+      "path": "/data/github-skill-openclaw-skills-leak/HEAD.md",
+      "text": "title: leak\nsummary: Compatibility stub for migrating from the legacy mixed leak skill to split hardened skills.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-openclaw, github-repo-skills\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eucalyptus-viminalis/leak/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-openclaw-skills-leak",
+        "topic": "github-skill-openclaw-skills-leak",
+        "type": "skills",
+        "title": "leak",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-openclaw",
+          "github-repo-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eucalyptus-viminalis/leak/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:23.222Z",
+        "content_sha256": "ceb4cb66c2cb3363b3c5a7d8cbde7ce15d0cb7e6f0095e581b5fbacbafe81b9f"
+      }
+    }
+  ]
+}

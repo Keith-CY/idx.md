@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-product-management-skills-feature-spec-skill",
+  "generated_at": "2026-02-28T14:45:30.578Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-product-management-skills-feature-spec-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-product-management-skills-feature-spec-skill/HEAD.md",
+      "text": "title: feature-spec\nsummary: Write structured product requirements documents (PRDs) with problem statements, user stories, requirements, and success metrics. Use when speccing a new feature, writing a PRD, defining acceptance criteria, prioritizing requirements, or documenting product decisions.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-product-management, plugin-component-skills, plugin-skill, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/feature-spec/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-product-management-skills-feature-spec-skill",
+        "topic": "knowledge-work-plugins-product-management-skills-feature-spec-skill",
+        "type": "skills",
+        "title": "feature-spec",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-product-management",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/feature-spec/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:30.578Z",
+        "content_sha256": "f5d5d24e062b86a354b300440e5cd6a3759e0bc9078e1935b4a5f18da4f4c1f4"
+      }
+    }
+  ]
+}

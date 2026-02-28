@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-engineering-commands-standup",
+  "generated_at": "2026-02-28T14:45:36.217Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-engineering-commands-standup#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-engineering-commands-standup/HEAD.md",
+      "text": "title: standup\nsummary: Generate a standup update from recent activity\ntype: skills\ntags: source-knowledge-work-plugins, plugin-engineering, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/standup.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-engineering-commands-standup",
+        "topic": "knowledge-work-plugins-engineering-commands-standup",
+        "type": "skills",
+        "title": "standup",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-engineering",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/standup.md",
+        "retrieved_at": "2026-02-28T14:45:36.217Z",
+        "content_sha256": "7646622d5141ce70455f543b47a517f2702920c3d277095cb4cb11c1f2b9ceed"
+      }
+    }
+  ]
+}

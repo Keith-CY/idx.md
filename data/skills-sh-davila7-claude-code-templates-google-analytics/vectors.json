@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-davila7-claude-code-templates-google-analytics",
+  "generated_at": "2026-02-28T14:45:28.342Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-davila7-claude-code-templates-google-analytics#head",
+      "kind": "head",
+      "path": "/data/skills-sh-davila7-claude-code-templates-google-analytics/HEAD.md",
+      "text": "title: skills-sh-davila7-claude-code-templates-google-analytics\nsummary: # Google Analytics Metrics Reference Complete reference for Google Analytics 4 (GA4) metrics and dimensions. ## Core Metrics ### User Metrics | Metric | Description | Use Case | |--------|-------------|----------| | `activeUsers` | Users who engaged with your site or app | Overall audience size | | `newUsers` | First-time users | Growth tracking | | `totalUsers` | Total number of users | Audience reach | | `userEngagementDuration` | Total time users spent engaged | Content quality |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/analytics/google-analytics/REFERENCE.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-davila7-claude-code-templates-google-analytics",
+        "topic": "skills-sh-davila7-claude-code-templates-google-analytics",
+        "type": "skills",
+        "title": "skills-sh-davila7-claude-code-templates-google-analytics",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/analytics/google-analytics/REFERENCE.md",
+        "retrieved_at": "2026-02-28T14:45:28.342Z",
+        "content_sha256": "df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8"
+      }
+    }
+  ]
+}

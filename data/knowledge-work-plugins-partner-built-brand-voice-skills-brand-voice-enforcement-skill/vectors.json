@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill",
+  "generated_at": "2026-02-28T14:45:36.600Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill/HEAD.md",
+      "text": "title: brand-voice-enforcement\nsummary: This skill applies brand guidelines to content creation. It should be used when the user asks to \"write an email\", \"draft a proposal\", \"create a pitch deck\", \"write a LinkedIn post\", \"draft a presentation\", \"write a Slack message\", \"draft sales content\", or any content creation request where brand voice should be applied. Also triggers on \"on-brand\", \"brand voice\", \"enforce voice\", \"apply brand guidelines\", \"brand-aligned content\", \"write in our voice\", \"use our brand tone\", \"make this sound like us\", \"rewrite this in our tone\", or \"this doesn't sound on-brand\". Not for generating guidelines from scratch (use guideline-generation) or discovering brand materials (use discover-brand).\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-brand-voice, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill",
+        "topic": "knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill",
+        "type": "skills",
+        "title": "brand-voice-enforcement",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-brand-voice",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/brand-voice-enforcement/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.600Z",
+        "content_sha256": "3da527576a05b77669c0e3826ca909176df22358e262a69a5e4d470e770ab97a"
+      }
+    }
+  ]
+}

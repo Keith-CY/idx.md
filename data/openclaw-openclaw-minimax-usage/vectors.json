@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-minimax-usage",
+  "generated_at": "2026-02-28T14:46:23.066Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-minimax-usage#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-minimax-usage/HEAD.md",
+      "text": "title: minimax-usage\nsummary: Monitor Minimax Coding Plan usage to stay within API limits.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/minimax-usage/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-minimax-usage",
+        "topic": "openclaw-openclaw-minimax-usage",
+        "type": "skills",
+        "title": "minimax-usage",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/minimax-usage/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:23.066Z",
+        "content_sha256": "354b61bfa69f71296a270a22176d6716c15bc7e5c6bf770dfeee6a08bd7da2ed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-tesla-commands",
+  "generated_at": "2026-02-28T14:46:48.400Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-tesla-commands#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-tesla-commands/HEAD.md",
+      "text": "title: tesla-commands\nsummary: Control your Tesla via MyTeslaMate API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/tesla-commands/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-tesla-commands",
+        "topic": "openclaw-openclaw-tesla-commands",
+        "type": "skills",
+        "title": "tesla-commands",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/tesla-commands/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.400Z",
+        "content_sha256": "d5a63bd8f05ad7367f2791b48cf41b412b83be784226d61244bbd0fb842c9b5f"
+      }
+    }
+  ]
+}

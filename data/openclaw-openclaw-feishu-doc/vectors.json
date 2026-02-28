@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-feishu-doc",
+  "generated_at": "2026-02-28T14:46:07.460Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-feishu-doc#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-feishu-doc/HEAD.md",
+      "text": "title: feishu-doc\nsummary: Fetch content from Feishu (Lark) Wiki, Docs, Sheets.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-doc/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-feishu-doc",
+        "topic": "openclaw-openclaw-feishu-doc",
+        "type": "skills",
+        "title": "feishu-doc",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-doc/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:07.460Z",
+        "content_sha256": "3880aac99a4ed644f89fd5bc42df6d54a26636578da1fad6d10efce715865072"
+      }
+    }
+  ]
+}

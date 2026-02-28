@@ -3,7 +3,56 @@
 | Category | Calendar & Scheduling |
 | --- | --- |
 | Slug | calendar-scheduling |
-| Count | 28 |
+| Count | 29 |
+
+---
+stable_id: skills/github-skill-openclaw-skills-wilma-triage
+type: skills
+title: wilma-triage
+summary: Daily triage of Wilma school notifications for Finnish parents. Fetches
+  exams, messages, news, schedules, and homework — filters for actionable items,
+  syncs exams to Google Calendar, and reports via chat. Requires the `wilma`
+  skill and `gog` CLI (or `gog` skill from ClawHub) for calendar access.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-calendar-scheduling
+  - github-owner-openclaw
+  - github-repo-skills
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aikarjal/wilma-triage/SKILL.md
+license: ""
+upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:23.846Z
+content_sha256: 1c3a3bb88dacfaf662ac7463096181c5056566662ed1f9989c7f64a300a9df2c
+---
+|/data/github-skill-openclaw-skills-wilma-triage|
+
+---
+stable_id: skills/github-skill-sickn33-antigravity-awesome-skills-upstash-qstash
+type: skills
+title: upstash-qstash
+summary: "Upstash QStash expert for serverless message queues, scheduled jobs,
+  and reliable HTTP-based task delivery without managing infrastructure. Use
+  when: qstash, upstash queue, serverless cron, schedul..."
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-calendar-scheduling
+  - github-owner-sickn33
+  - github-repo-antigravity-awesome-skills
+source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md
+license: ""
+upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/upstash-qstash/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:24.032Z
+content_sha256: e2326fed56112197d6da66b4551d4d3f6e666eb2d127d4232e0285c574d829ab
+---
+|/data/github-skill-sickn33-antigravity-awesome-skills-upstash-qstash|
 
 ---
 stable_id: skills/openclaw-openclaw-accli
@@ -20,7 +69,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.981Z
+retrieved_at: 2026-02-28T14:45:44.219Z
 content_sha256: 1b9096fee2d5fe1720045aa7b80e7a0600f0743a2b50cf7b24e46fe5b6cdf22c
 ---
 |/data/openclaw-openclaw-accli|
@@ -40,7 +89,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:57.937Z
+retrieved_at: 2026-02-28T14:45:44.985Z
 content_sha256: 5e91e0f9adf41a58702956f6d9078ba22d1e72407e1ff88c0238fddc115ba3c1
 ---
 |/data/openclaw-openclaw-agency-guardian|
@@ -61,8 +110,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:59.274Z
-content_sha256: 01dfeb35eb2d6204216b9043c43d1ea2babc3514bbfa62cee280b69f80c8a21d
+retrieved_at: 2026-02-28T14:45:46.061Z
+content_sha256: 92b29508d8d70092e510592335b79105a6eab28e13439c6f77ca0f94f6cfd236
 ---
 |/data/openclaw-openclaw-agent-tinman|
 
@@ -81,7 +130,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:02.071Z
+retrieved_at: 2026-02-28T14:45:48.440Z
 content_sha256: 7d95b82db94bc0404517e318192a64b5de0da6050f0565b0984ae5aebd4c17cc
 ---
 |/data/openclaw-openclaw-apple-calendar|
@@ -102,7 +151,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:02.684Z
+retrieved_at: 2026-02-28T14:45:49.052Z
 content_sha256: 0cbe33ba91010d54e2c53e20500ffc1fd8320b507b1ba8fcb5cf3170487a5918
 ---
 |/data/openclaw-openclaw-apple-reminders|
@@ -122,7 +171,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:08.911Z
+retrieved_at: 2026-02-28T14:45:53.923Z
 content_sha256: d8af8d5e4734b7f34859b0ae1dace5f45823eb1543dd3f8b556fbb391d9ef951
 ---
 |/data/openclaw-openclaw-calcurse|
@@ -142,7 +191,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:08.964Z
+retrieved_at: 2026-02-28T14:45:53.966Z
 content_sha256: 63b956dec3a22bc0207fccf258beae90c6648339b568798fe42ac3b797c4ed27
 ---
 |/data/openclaw-openclaw-caldav-calendar|
@@ -162,7 +211,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:14.383Z
+retrieved_at: 2026-02-28T14:45:58.551Z
 content_sha256: 8a0c915ebf85df3c3f55e1d4838072217c17ff7820dbbf1f4241639bea8dd351
 ---
 |/data/openclaw-openclaw-clippy|
@@ -182,7 +231,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:16.848Z
+retrieved_at: 2026-02-28T14:46:00.923Z
 content_sha256: cd7a4d5446bf4f75301b00ae5e0d2a6fbdd2cf7c9502ed2d07632661245eb1aa
 ---
 |/data/openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk|
@@ -203,7 +252,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:17.217Z
+retrieved_at: 2026-02-28T14:46:01.280Z
 content_sha256: 04c8d798d156613174e7431cf92c3d16a599523d3cd5718f9b83a068d21829f8
 ---
 |/data/openclaw-openclaw-creative-thought-partner|
@@ -223,7 +272,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:17.679Z
+retrieved_at: 2026-02-28T14:46:01.638Z
 content_sha256: df863e38036dc21bf681551ad47bee5712648e88b4c8c9cc06a8eb97283cc7fa
 ---
 |/data/openclaw-openclaw-cross-pollination-engine|
@@ -243,7 +292,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:26.491Z
+retrieved_at: 2026-02-28T14:46:09.717Z
 content_sha256: 02fabcb1006fe0be170ad705468753239adbd7335837b04f52e9a3ff351e766a
 ---
 |/data/openclaw-openclaw-gcal-pro|
@@ -263,7 +312,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.768Z
+retrieved_at: 2026-02-28T14:46:11.877Z
 content_sha256: 00c1af6cde01299753439088916cb6e245ce00e1672b8cd4305a66d7eac2abad
 ---
 |/data/openclaw-openclaw-gog|
@@ -284,31 +333,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:29.017Z
+retrieved_at: 2026-02-28T14:46:12.059Z
 content_sha256: 6cb85da1f07ce766532d8d3b8b583e1b9f724c6684f08d3b8cd766ea01326bfa
 ---
 |/data/openclaw-openclaw-google-calendar|
-
----
-stable_id: skills/openclaw-openclaw-holocube
-type: skills
-title: holocube
-summary: Control GeekMagic HelloCubic-Lite holographic cube display with
-  HoloClawd firmware.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-calendar-scheduling
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewjiang/holocube/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:31.278Z
-content_sha256: fc344ef234cb295400069facf900d8fc63c9265c10884ee4a4056d9eb3629e56
----
-|/data/openclaw-openclaw-holocube|
 
 ---
 stable_id: skills/openclaw-openclaw-ii-irc
@@ -326,7 +354,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:32.281Z
+retrieved_at: 2026-02-28T14:46:15.218Z
 content_sha256: ddc816f2e2bb97f0668b6cd3a9275b58dbd37b9cbff2a6951968f32b47ac9c8e
 ---
 |/data/openclaw-openclaw-ii-irc|
@@ -347,7 +375,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:34.742Z
+retrieved_at: 2026-02-28T14:46:17.686Z
 content_sha256: 0f3bf6544845e990ad2d9053d46d83bed0c085f40ba04458bba91216924e6126
 ---
 |/data/openclaw-openclaw-jungian-psychologist|
@@ -368,7 +396,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:35.592Z
+retrieved_at: 2026-02-28T14:46:18.626Z
 content_sha256: 5729cce710ac32c73e090ec1daecd5c48df2d3c6ddb5a89c10798401100c9184
 ---
 |/data/openclaw-openclaw-knhb-hockey|
@@ -389,7 +417,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:38.213Z
+retrieved_at: 2026-02-28T14:46:21.410Z
 content_sha256: 3190444d54328d53f5db39a9315977afb0661763647dafaebef62bdf1a9270d2
 ---
 |/data/openclaw-openclaw-mcd-cn|
@@ -409,7 +437,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:38.806Z
+retrieved_at: 2026-02-28T14:46:21.971Z
 content_sha256: f35e8090d8ea7e3d693fd42ef5f71bf6cf13b4af7ad69cd1bcb95825e3a4d4bb
 ---
 |/data/openclaw-openclaw-meeting-prep|
@@ -430,7 +458,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:42.770Z
+retrieved_at: 2026-02-28T14:46:24.960Z
 content_sha256: 6fdbac775d32bc591670e7ba89b17e5c1da3657284cbbddd96053611710fac53
 ---
 |/data/openclaw-openclaw-morning-email-rollup|
@@ -450,7 +478,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:46.356Z
+retrieved_at: 2026-02-28T14:46:27.917Z
 content_sha256: 441a965aeef6cdabb896efbcb9b434599c14154b731b5defe62c863ab33e0b89
 ---
 |/data/openclaw-openclaw-npkill|
@@ -471,7 +499,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:46.793Z
+retrieved_at: 2026-02-28T14:46:28.358Z
 content_sha256: 09730e372d9919e52d2acd66a0d9b87689e588839fc1ab85777f9faee45c98b3
 ---
 |/data/openclaw-openclaw-odds-checker-api|
@@ -491,7 +519,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:49.638Z
+retrieved_at: 2026-02-28T14:46:30.894Z
 content_sha256: 49eced84ea6a76631875e90f2edd79363d1fca33f5cf968512e175b07c767a0f
 ---
 |/data/openclaw-openclaw-padel|
@@ -511,7 +539,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:58.889Z
+retrieved_at: 2026-02-28T14:46:38.773Z
 content_sha256: bab30007cc4543e721aaf354361f6336341e5385bdaaba2359a5c75cd7701664
 ---
 |/data/openclaw-openclaw-remind-me|
@@ -531,8 +559,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:59.950Z
-content_sha256: 9df2ade972e2dcd606bd9984ddb41869ec09e42ff914fb5ae300be6c0bc13680
+retrieved_at: 2026-02-28T14:46:39.631Z
+content_sha256: 160c21ead67dba161ae595a6068948b94bd6883a8050141aa75768aae68f63cc
 ---
 |/data/openclaw-openclaw-roadrunner|
 
@@ -551,7 +579,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:09.199Z
+retrieved_at: 2026-02-28T14:46:47.398Z
 content_sha256: 4466663a89dbc0700a9ad85c36190a55ac1353bed93e014be074bf4aaa59ff13
 ---
 |/data/openclaw-openclaw-tally|
@@ -571,7 +599,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:11.434Z
+retrieved_at: 2026-02-28T14:46:49.310Z
 content_sha256: ccbb606f708c0aef12303d9805babf0a85de9c2c2c70fd435de43f0e885039e3
 ---
 |/data/openclaw-openclaw-timer|

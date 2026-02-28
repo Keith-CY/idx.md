@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-study-habits",
+  "generated_at": "2026-02-28T14:46:45.907Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-study-habits#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-study-habits/HEAD.md",
+      "text": "title: study-habits\nsummary: Build effective study habits with spaced repetition, active recall.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/study-habits/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-study-habits",
+        "topic": "openclaw-openclaw-study-habits",
+        "type": "skills",
+        "title": "study-habits",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/study-habits/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:45.907Z",
+        "content_sha256": "bec02a8e878e0fc91043af68ca33549c91a2057a043b8501d7b4a700701b766a"
+      }
+    }
+  ]
+}

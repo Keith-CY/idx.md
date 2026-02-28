@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bread-protocal",
+  "generated_at": "2026-02-28T14:45:53.076Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bread-protocal#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bread-protocal/HEAD.md",
+      "text": "title: bread-protocal\nsummary: Participate in Bread Protocol - a meme coin launchpad for AI agents on Base.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chrissorrell/bread-protocal/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bread-protocal",
+        "topic": "openclaw-openclaw-bread-protocal",
+        "type": "skills",
+        "title": "bread-protocal",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chrissorrell/bread-protocal/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.076Z",
+        "content_sha256": "3a5bf014d5c1e939475397082795783e837c0359421fa8f5e0f5f575ba5bf151"
+      }
+    }
+  ]
+}

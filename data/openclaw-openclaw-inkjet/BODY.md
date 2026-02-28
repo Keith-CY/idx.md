@@ -1,7 +1,7 @@
 ---
 name: inkjet
 description: "Print text, images, and QR codes to a cheap wireless Bluetooth thermal printer from a MacOS device. Use `inkjet print` for output, `inkjet scan` to discover printers."
-homepage: https://github.com/AaronChartier/inkjet
+homepage: https://pypi.org/project/inkjet/
 metadata:
   openclaw:
     emoji: "🖨️"
@@ -14,19 +14,6 @@ metadata:
 # Thermal Printer Skill
 
 Print text, images, and QR codes to a small cheap Bluetooth thermal printer like the X6h, GT01, and childrens toy cat printers using the `inkjet` CLI. Thermal paper is extremely low-cost, enabling high-frequency physical output.
-
-
-## Installation
-
-### via pip (Universal)
-```bash
-pip install inkjet
-```
-
-### via Homebrew (macOS)
-```bash
-brew install aaronchartier/tap/inkjet
-```
 
 ## Setup
 
@@ -81,7 +68,7 @@ inkjet print image ./logo.jpg --dither
 Generates and prints QR codes. Smartphone scanners (iPhone/Android) can reliably read codes down to `--size 75`.
 
 ```bash
-inkjet print qr "https://github.com/AaronChartier/inkjet"
+inkjet print qr "https://pypi.org/project/inkjet"
 inkjet print qr "WiFi:S:NetworkName;P:example123;;" --size 75
 ```
 
@@ -102,28 +89,7 @@ inkjet config set energy 12000        # Set local project darkness
 inkjet config alias kitchen <UUID>    # Save a friendly name
 ```
 
-## Multi-Printer Orchestration
-
-If the environment (e.g., `TOOLS.md`) contains multiple printer UUIDs or **aliases**, target specific hardware using the `--address` / `-a` flag. Use `-a default` to explicitly target the primary configured device.
-
-### Orchestration Strategies:
-1. **Role-Based Routing**: Route content based on hardware role (e.g., Stickers vs Receipts).
-   `inkjet print text "Label" -a stickers`
-2. **High-Throughput (Load Balancing)**: Distribute jobs across a farm of printers (Round-Robin) to maximize prints-per-minute.
-
-```bash
-# Orchestrated Print Examples
-inkjet print text "Main Status" -a office
-inkjet print text "Order #104" -a kitchen
-inkjet print qr "https://github.com/AaronChartier/inkjet" -a default
-inkjet print file ./log.txt -a "UUID_EXT_1"
-```
-
-## Configuration Tweaking (Filesystem Access)
-
-You can bypass the CLI and modify your behavior by writing directly to the configuration JSON. `inkjet` prioritizes `./.inkjet/config.json` over the global home directory (which is default).
-
-### JSON Schema
+### Default Config Schema
 ```json
 {
   "default_printer": "UUID",
@@ -139,7 +105,22 @@ You can bypass the CLI and modify your behavior by writing directly to the confi
 }
 ```
 
-Use this to adjust default margins (`padding`), alignment, or font sizes (size) for different document types without changing your command strings.
+## Multi-Printer Orchestration
+
+If the environment (e.g., `TOOLS.md`) contains multiple printer UUIDs or **aliases**, target specific hardware using the `--address` / `-a` flag. Use `-a default` to explicitly target the primary configured device.
+
+### Orchestration Strategies:
+1. **Role-Based Routing**: Route content based on hardware role (e.g., Stickers vs Receipts).
+   `inkjet print text "Label" -a stickers`
+2. **High-Throughput (Load Balancing)**: Distribute jobs across a farm of printers (Round-Robin) to maximize prints-per-minute.
+
+```bash
+# Orchestrated Print Examples
+inkjet print text "Main Status" -a office
+inkjet print text "Order #104" -a kitchen
+inkjet print qr "https://pypi.org/project/inkjet" -a default
+inkjet print file ./log.txt -a "UUID_EXT_1"
+```
 
 ## JSON Output (for scripting)
 
@@ -150,17 +131,6 @@ inkjet scan --json
 inkjet whoami --json
 ```
 
-## Piping Content (Dynamic Output)
-
-Stream data from another command's output without creating a file. Use `-` as an argument to read from standard input (stdin).
-
-```bash
-# Text Piping
-echo "Receipt line 1" | inkjet print text -
-
-# Image Piping
-curl -s "https://raw.githubusercontent.com/AaronChartier/inkjet/main/assets/logo.jpg" | inkjet print image -
-```
 ## Best Practices for Worksheets & Handwriting
 Thermal paper is narrow and low-cost. To make usable worksheets for children or manual notes:
 

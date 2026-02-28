@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-eureka-feedback",
+  "generated_at": "2026-02-28T14:46:05.986Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-eureka-feedback#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-eureka-feedback/HEAD.md",
+      "text": "title: eureka-feedback\nsummary: Request feedback or assistance from Eureka, the primary AI agent\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/eureka-feedback/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-eureka-feedback",
+        "topic": "openclaw-openclaw-eureka-feedback",
+        "type": "skills",
+        "title": "eureka-feedback",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/eureka-feedback/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:05.986Z",
+        "content_sha256": "298ed905ce1c140344621461ae07c67465519c3645bae112977d6d52aeacfc94"
+      }
+    }
+  ]
+}

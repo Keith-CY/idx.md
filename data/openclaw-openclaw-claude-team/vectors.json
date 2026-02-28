@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-claude-team",
+  "generated_at": "2026-02-28T14:45:55.756Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-claude-team#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-claude-team/HEAD.md",
+      "text": "title: claude-team\nsummary: Orchestrate multiple Claude Code workers via iTerm2 using the claude-team MCP server.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jalehman/claude-team/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-claude-team",
+        "topic": "openclaw-openclaw-claude-team",
+        "type": "skills",
+        "title": "claude-team",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jalehman/claude-team/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:55.756Z",
+        "content_sha256": "bf166e4c9732496d4f69387642aba802a5e949eec37ccaf3464e4902066e1f91"
+      }
+    }
+  ]
+}

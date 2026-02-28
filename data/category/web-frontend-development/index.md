@@ -3,7 +3,7 @@
 | Category | Web Frontend Development |
 | --- | --- |
 | Slug | web-frontend-development |
-| Count | 46 |
+| Count | 43 |
 
 ---
 stable_id: skills/openclaw-openclaw-artifacts-builder
@@ -21,7 +21,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:02.808Z
+retrieved_at: 2026-02-28T14:45:49.182Z
 content_sha256: 8455a64e627d203fd7b43df64c83d8870cb98907aae21edce4ec8eeef651d850
 ---
 |/data/openclaw-openclaw-artifacts-builder|
@@ -41,31 +41,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:11.478Z
+retrieved_at: 2026-02-28T14:45:56.068Z
 content_sha256: 032344d1ee3bc8677c835efd1ae96a21d55c59458b1611262973ae1adda9bc56
 ---
 |/data/openclaw-openclaw-claw-shell|
-
----
-stable_id: skills/openclaw-openclaw-clawdbot-zoho-email
-type: skills
-title: clawdbot-zoho-email
-summary: Complete Zoho Mail integration with OAuth2, REST API (5-10x faster),
-  HTML emails, attachments.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-web-frontend-development
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/briansmith80/clawdbot-zoho-email/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:12.594Z
-content_sha256: b20c65638542a0cb72b2215aacade7b05f2b9526710fe8ddaa80ea433b7e0fcc
----
-|/data/openclaw-openclaw-clawdbot-zoho-email|
 
 ---
 stable_id: skills/openclaw-openclaw-comfy-ai
@@ -83,7 +62,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:14.942Z
+retrieved_at: 2026-02-28T14:45:59.162Z
 content_sha256: adbb56c8a961a56f924a1078be0ab635118bf0bf676bc2e799f2f3c7c08a1d12
 ---
 |/data/openclaw-openclaw-comfy-ai|
@@ -103,7 +82,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:15.157Z
+retrieved_at: 2026-02-28T14:45:59.272Z
 content_sha256: 7ff615f292c747421905b520e1e4496e89c8d7939e5cd4fa8a04e6c8ed6acdd4
 ---
 |/data/openclaw-openclaw-comfyui-runner|
@@ -123,8 +102,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:15.442Z
-content_sha256: e4c0cba095cae1f7b960c867ce3803fb29e7480b40e8dda928f47adfd31c1dbc
+retrieved_at: 2026-02-28T14:45:59.585Z
+content_sha256: 6c5447dacdfa36a87ceed5734e75268dce6dd81046c0d14fa7150fc5506bc7d2
 ---
 |/data/openclaw-openclaw-computer-use|
 
@@ -159,7 +138,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:18.755Z
+retrieved_at: 2026-02-28T14:46:02.714Z
 content_sha256: a2713c2c271f81e133afece247a484f0e9af01238f55eba2966b83d985c84003
 ---
 |/data/openclaw-openclaw-deliberate-frontend-redesign|
@@ -180,31 +159,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:19.555Z
+retrieved_at: 2026-02-28T14:46:03.510Z
 content_sha256: 9ea23563b30f14bbe76f5ff93762b6eff8b42f96c8c8db4996e94eb70ddcb7b8
 ---
 |/data/openclaw-openclaw-discord|
-
----
-stable_id: skills/openclaw-openclaw-downloads
-type: skills
-title: downloads
-summary: Create distinctive, production-grade frontend interfaces with high
-  design quality.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-web-frontend-development
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gxsy886/downloads/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:20.263Z
-content_sha256: b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0
----
-|/data/openclaw-openclaw-downloads|
 
 ---
 stable_id: skills/openclaw-openclaw-emporia-energy
@@ -222,7 +180,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:21.470Z
+retrieved_at: 2026-02-28T14:46:05.565Z
 content_sha256: 2b73934f9c651455b83610be79bb982dba7f9c4147d3bfa238e07eb5a38ce9b9
 ---
 |/data/openclaw-openclaw-emporia-energy|
@@ -243,7 +201,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:23.237Z
+retrieved_at: 2026-02-28T14:46:07.025Z
 content_sha256: dc74b96859f4199a4982e680de8cbe2ae04bfefb9df7817b8636b7521324cf88
 ---
 |/data/openclaw-openclaw-fanvue|
@@ -264,7 +222,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:26.084Z
+retrieved_at: 2026-02-28T14:46:09.327Z
 content_sha256: 8bf9905dbcd9b1edb47f2a44cadbb9bb66314f73a8e3631ec7feee913777ceb8
 ---
 |/data/openclaw-openclaw-frontend-design|
@@ -284,7 +242,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.578Z
+retrieved_at: 2026-02-28T14:46:10.741Z
 content_sha256: c998f8ef09e2dc1f62c356909d8884591efe619c18bb6ac5ec35713d1320e818
 ---
 |/data/openclaw-openclaw-giphy|
@@ -319,7 +277,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:31.735Z
+retrieved_at: 2026-02-28T14:46:14.717Z
 content_sha256: c39c8b265069d56fb1f6f9772df657f09e3b2f836482a9ee980d9038a2753415
 ---
 |/data/openclaw-openclaw-human-optimized-frontend|
@@ -340,7 +298,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:36.736Z
+retrieved_at: 2026-02-28T14:46:19.865Z
 content_sha256: 6029658dba3841a9503d18af2c80f448dd45795ae6b90f1aa7b23f96e7daece2
 ---
 |/data/openclaw-openclaw-linux-service-triage|
@@ -360,7 +318,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:39.915Z
+retrieved_at: 2026-02-28T14:46:22.942Z
 content_sha256: 746216ffa76301891ba8878c6fdd5805e5e0c8aef3d70e65520c597b58285a6f
 ---
 |/data/openclaw-openclaw-miniflux-news|
@@ -380,7 +338,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:44.981Z
+retrieved_at: 2026-02-28T14:46:26.700Z
 content_sha256: eb854ad24ffb9069e151be9006457615253687b00786a5d7ee70932ff5c046c1
 ---
 |/data/openclaw-openclaw-nextjs-expert|
@@ -401,7 +359,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:45.240Z
+retrieved_at: 2026-02-28T14:46:26.946Z
 content_sha256: e7a49c33974b7cda4a8993d4887579a7be711d5ebdb8410741f619ec3eb4c30a
 ---
 |/data/openclaw-openclaw-niri-ipc|
@@ -422,7 +380,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:45.567Z
+retrieved_at: 2026-02-28T14:46:27.237Z
 content_sha256: a1cd3732610d9a1942846ceffe3389e5203a204ba1395c5185b7a4a3d967291e
 ---
 |/data/openclaw-openclaw-nodetool|
@@ -442,7 +400,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:52.188Z
+retrieved_at: 2026-02-28T14:46:32.699Z
 content_sha256: 56af4b85eeefb20606650ebe9aa336c99ff8eae56a056121405533b902584071
 ---
 |/data/openclaw-openclaw-pinak-frontend-guru|
@@ -463,7 +421,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:57.433Z
+retrieved_at: 2026-02-28T14:46:37.610Z
 content_sha256: 8f783ff9d4de8584047dd5f53503a1241e2b04b98fc827fcace2fb975bdfc437
 ---
 |/data/openclaw-openclaw-react-email-skills|
@@ -483,7 +441,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:58.938Z
+retrieved_at: 2026-02-28T14:46:38.816Z
 content_sha256: 94c893d93051dff9b856c4ab713ddb8065cde2070b1e7b735f190db3a060ac22
 ---
 |/data/openclaw-openclaw-remotion-best-practices|
@@ -503,7 +461,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:59.065Z
+retrieved_at: 2026-02-28T14:46:38.859Z
 content_sha256: dff4d828eaecb014a2f3bfa0a23414a0c95ef40be764958b972081d9e3dc9180
 ---
 |/data/openclaw-openclaw-remotion-server|
@@ -523,7 +481,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:59.162Z
+retrieved_at: 2026-02-28T14:46:38.903Z
 content_sha256: 140a3e508a447954d2a87777dcca8216fb425d7a99c5d54d632506d79cb31714
 ---
 |/data/openclaw-openclaw-remotion-video-toolkit|
@@ -543,7 +501,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:59.524Z
+retrieved_at: 2026-02-28T14:46:39.267Z
 content_sha256: 80005af68785dd88bd7c766671c97a7e14520908ba3742df04cf350b2eafa550
 ---
 |/data/openclaw-openclaw-resume-builder|
@@ -564,7 +522,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:02.247Z
+retrieved_at: 2026-02-28T14:46:41.585Z
 content_sha256: 49626b216897e91319bb244b303b94d683d0e9a705284d84221055609cb99904
 ---
 |/data/openclaw-openclaw-senior-fullstack|
@@ -584,7 +542,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:04.769Z
+retrieved_at: 2026-02-28T14:46:43.645Z
 content_sha256: e15de2ab67a9ee4949c4fce1e5a2685da7eb4575096c1b10bd898499fc844eb3
 ---
 |/data/openclaw-openclaw-slack|
@@ -604,7 +562,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:04.983Z
+retrieved_at: 2026-02-28T14:46:43.823Z
 content_sha256: c48416fa2391de2641fb2f8f4e58b0dbb5ee726d0315a1520f2e9482c0664a0f
 ---
 |/data/openclaw-openclaw-smtp-send|
@@ -625,31 +583,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:09.868Z
+retrieved_at: 2026-02-28T14:46:48.011Z
 content_sha256: 279e3c642137b9b48a9a534575cc4c5c7e72a6defad77dea91a634416a0ef4f3
 ---
 |/data/openclaw-openclaw-technews|
-
----
-stable_id: skills/openclaw-openclaw-telegram-reaction-prober
-type: skills
-title: telegram-reaction-prober
-summary: Probe which emoji reactions are accepted in a specific Telegram
-  chat/message, record an allow/deny list.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-web-frontend-development
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/deadlysilent/telegram-reaction-prober/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T08:00:10.109Z
-content_sha256: 265249d375ee7f3e5167daa769fe54126d198d084b2b5970ad9e5257875c031c
----
-|/data/openclaw-openclaw-telegram-reaction-prober|
 
 ---
 stable_id: skills/openclaw-openclaw-trmnl
@@ -666,7 +603,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:12.901Z
+retrieved_at: 2026-02-28T14:46:50.651Z
 content_sha256: f009be05821feb6e89ce69a6a4e4a3c5e46b4ea7514ef77154e2a9e305316aa2
 ---
 |/data/openclaw-openclaw-trmnl|
@@ -686,7 +623,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:13.798Z
+retrieved_at: 2026-02-28T14:46:51.493Z
 content_sha256: 2e887f00d42d43c5114e6f193a799f8a4fa134471f7113219f31d8dc8d885cd9
 ---
 |/data/openclaw-openclaw-ui-audit|
@@ -707,7 +644,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:13.856Z
+retrieved_at: 2026-02-28T14:46:51.545Z
 content_sha256: 0ce37ac6b0f87dbb312f125355e7e9e93273a24cd94dfab8d26194175937a7db
 ---
 |/data/openclaw-openclaw-ui-design-system|
@@ -727,7 +664,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:13.909Z
+retrieved_at: 2026-02-28T14:46:51.600Z
 content_sha256: aa18b30c0c9b2b1e7a7edf05a9c95324256da90b81d6acddecf25c41748c1f78
 ---
 |/data/openclaw-openclaw-ui-skills|
@@ -748,7 +685,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:13.964Z
+retrieved_at: 2026-02-28T14:46:51.648Z
 content_sha256: 1e432e441b6d1f12e00247c5fd8e89e4a00387b7ca3c5a0f1277dfcffc919295
 ---
 |/data/openclaw-openclaw-ui-ux-master|
@@ -769,7 +706,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:14.019Z
+retrieved_at: 2026-02-28T14:46:51.700Z
 content_sha256: e3048deafc62fb65192f99e51a48094571de059634b8bb27f50f37af0c43ba59
 ---
 |/data/openclaw-openclaw-ui-ux-pro-max|
@@ -789,7 +726,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:14.716Z
+retrieved_at: 2026-02-28T14:46:52.248Z
 content_sha256: 087ba667202dbfc4ddd06baf788f4d52372c1ba89666377ecf0957af45366dd5
 ---
 |/data/openclaw-openclaw-ux-audit|
@@ -810,7 +747,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:14.762Z
+retrieved_at: 2026-02-28T14:46:52.293Z
 content_sha256: d0cfc305ce05584a5ddcdfb8e72820cb90da33c6ddd02f142ae3f538969ae80a
 ---
 |/data/openclaw-openclaw-ux-decisions|
@@ -831,7 +768,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:14.810Z
+retrieved_at: 2026-02-28T14:46:52.347Z
 content_sha256: 43a66a9c16833ecad8ca6a41ba4c8eeb50a758cc2571d43853651d524cddd723
 ---
 |/data/openclaw-openclaw-ux-researcher-designer|
@@ -851,7 +788,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:15.305Z
+retrieved_at: 2026-02-28T14:46:52.758Z
 content_sha256: 81bad0edc74bc4969ea6abf75b0f84dd99a0557fb0d52a2f74c06cf0567833e1
 ---
 |/data/openclaw-openclaw-vercel-react-best-practices|
@@ -871,7 +808,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:16.323Z
+retrieved_at: 2026-02-28T14:46:53.397Z
 content_sha256: 51caa35dc0f59ac92d9c171136c10159385d07636c4ad5d85eaa3d599addd354
 ---
 |/data/openclaw-openclaw-vision-sandbox|
@@ -891,7 +828,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:18.478Z
+retrieved_at: 2026-02-28T14:46:54.583Z
 content_sha256: f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f
 ---
 |/data/openclaw-openclaw-web-design-guidelines|
@@ -912,7 +849,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:18.729Z
+retrieved_at: 2026-02-28T14:46:54.805Z
 content_sha256: 51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2
 ---
 |/data/openclaw-openclaw-webapp-testing|
@@ -932,7 +869,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:19.905Z
+retrieved_at: 2026-02-28T14:46:56.052Z
 content_sha256: 7151a8a0a5e546ea3a927a6b940c9dfa506e5a86b19e446dd8b826ee648ad71b
 ---
 |/data/openclaw-openclaw-winamp|
@@ -953,7 +890,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:21.132Z
+retrieved_at: 2026-02-28T14:46:57.423Z
 content_sha256: 9c32abd1b29eb8752c285ff933340076af1bd87aa693eb7eb7feb93b02ce6642
 ---
 |/data/openclaw-openclaw-xcodebuildmcp|
@@ -974,7 +911,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:22.901Z
-content_sha256: 3911b03fabc15a4f73edf91a1f65afb6ce41e63cfba3f4e83f33bef9976b6166
+retrieved_at: 2026-02-28T14:46:59.237Z
+content_sha256: 47994c8460c078f0aa288c3101737add99f47a0e9a08774222a4a43936f79ee4
 ---
 |/data/openclaw-openclaw-zoho-email-integration|

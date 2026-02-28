@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-proxmox-full",
+  "generated_at": "2026-02-28T14:46:35.932Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-proxmox-full#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-proxmox-full/HEAD.md",
+      "text": "title: proxmox-full\nsummary: Complete Proxmox VE management -.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/msarheed/proxmox-full/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-proxmox-full",
+        "topic": "openclaw-openclaw-proxmox-full",
+        "type": "skills",
+        "title": "proxmox-full",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/msarheed/proxmox-full/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.932Z",
+        "content_sha256": "b046cea25203f224c8535387f323fd8764f50b04cd6c9f215e160c673d29371c"
+      }
+    }
+  ]
+}

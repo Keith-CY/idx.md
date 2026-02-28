@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-security-heuristics",
+  "generated_at": "2026-02-28T14:46:40.963Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-security-heuristics#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-security-heuristics/HEAD.md",
+      "text": "title: security-heuristics\nsummary: **Purpose:** Mental checklist before installing ANY external skill, code.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luluf0x/security-heuristics/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-security-heuristics",
+        "topic": "openclaw-openclaw-security-heuristics",
+        "type": "skills",
+        "title": "security-heuristics",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/luluf0x/security-heuristics/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.963Z",
+        "content_sha256": "0db725c9fbff6476ef3e8a24961da9801620ff910249d8ee47c23b3adf7761ea"
+      }
+    }
+  ]
+}

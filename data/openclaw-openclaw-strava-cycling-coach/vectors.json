@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-strava-cycling-coach",
+  "generated_at": "2026-02-28T14:46:45.666Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-strava-cycling-coach#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-strava-cycling-coach/HEAD.md",
+      "text": "title: strava-cycling\nsummary: Strava cycling performance analysis and coaching insights.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericrosenberg/strava-cycling-coach/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-strava-cycling-coach",
+        "topic": "openclaw-openclaw-strava-cycling-coach",
+        "type": "skills",
+        "title": "strava-cycling",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ericrosenberg/strava-cycling-coach/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:45.666Z",
+        "content_sha256": "d3fff51cea53299d8b493fb638cfb2828712e4d55b0e76fb82c09128291933f7"
+      }
+    }
+  ]
+}

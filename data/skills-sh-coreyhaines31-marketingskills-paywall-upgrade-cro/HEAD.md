@@ -2,26 +2,38 @@
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro
-summary: |-
+summary: >-
   # Paywall Experiment Ideas
+
   Comprehensive list of A/B tests and experiments for paywall optimization.
-  ## Trigger & Timing Experiments
-  ### When to Show
-  - Test trigger timing: after aha moment vs. at feature attempt
-  - Early trial reminder (7 days) vs. late reminder (1 day before)
-  - Show after X actions completed vs. after X days
-  - Test soft prompts at different engagement thresholds
-  - Trigger based on usage patterns vs. time-based only
-  ### Trigger Type
+
+  ## Contents
+
+  - Trigger & Timing Experiments (When to Show, Trigger Type)
+
+  - Paywall Design Experiments (Layout & Format, Value Presentation, Visual
+  Elements)
+
+  - Pricing Presentation Experiments (Price Display, Plan Options, Discounts &
+  Offers)
+
+  - Copy & Messaging Experiments (Headlines, CTAs, Objection Handling)
+
+  - Trial & Conversion Experiments (Trial Structure, Trial Expiration, Upgrade
+  Path)
+
+  - Personalization Experiments (Usage-Based, Segment-Specific)
+
+  - Frequency & UX Experiments (Frequency Capping, Dismiss Behavior)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/paywall-upgrade-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paywall-upgrade-cro
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.079Z
-content_sha256: 17e6ff52c5482b07694bcdd2fc4cd28209a1b605b66520eefff474928933bdb7
+github_stars: 9230
+github_forks: 1250
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:37.225Z
+content_sha256: 5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19
 ---

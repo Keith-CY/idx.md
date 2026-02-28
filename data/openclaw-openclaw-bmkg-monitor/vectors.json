@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bmkg-monitor",
+  "generated_at": "2026-02-28T14:45:52.547Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bmkg-monitor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bmkg-monitor/HEAD.md",
+      "text": "title: bmkg-monitor\nsummary: Monitoring earthquake data in Indonesia using BMKG official data.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bluemeda/bmkg-monitor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bmkg-monitor",
+        "topic": "openclaw-openclaw-bmkg-monitor",
+        "type": "skills",
+        "title": "bmkg-monitor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bluemeda/bmkg-monitor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:52.547Z",
+        "content_sha256": "0fb7529cd4d012fd05f0259e631b917bee1dead4f89c3b06f1a060da7c89d937"
+      }
+    }
+  ]
+}

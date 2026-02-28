@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-excalidraw-flowchart",
+  "generated_at": "2026-02-28T14:46:06.347Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-excalidraw-flowchart#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-excalidraw-flowchart/HEAD.md",
+      "text": "title: Excalidraw Flowchart\nsummary: Create Excalidraw flowcharts from descriptions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/swiftlysingh/excalidraw-flowchart/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-excalidraw-flowchart",
+        "topic": "openclaw-openclaw-excalidraw-flowchart",
+        "type": "skills",
+        "title": "Excalidraw Flowchart",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/swiftlysingh/excalidraw-flowchart/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.347Z",
+        "content_sha256": "b37d0b88b68bd8b4fb0ea8018245691908b6537b7fe0fe75d64be2bc982a448c"
+      }
+    }
+  ]
+}

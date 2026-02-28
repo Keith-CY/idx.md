@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mineru-pdf-parser-clawdbot-skill",
+  "generated_at": "2026-02-28T14:46:22.848Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mineru-pdf-parser-clawdbot-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mineru-pdf-parser-clawdbot-skill/HEAD.md",
+      "text": "title: mineru-pdf\nsummary: Parse PDFs locally (CPU) into Markdown/JSON using MinerU.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/mineru-pdf-parser-clawdbot-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mineru-pdf-parser-clawdbot-skill",
+        "topic": "openclaw-openclaw-mineru-pdf-parser-clawdbot-skill",
+        "type": "skills",
+        "title": "mineru-pdf",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/mineru-pdf-parser-clawdbot-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.848Z",
+        "content_sha256": "ffef926bcf10f43daac41de204a9f24db10c779b0866a99201d61ffa77fa6209"
+      }
+    }
+  ]
+}

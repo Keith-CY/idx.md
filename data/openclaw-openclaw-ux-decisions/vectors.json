@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ux-decisions",
+  "generated_at": "2026-02-28T14:46:52.293Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ux-decisions#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ux-decisions/HEAD.md",
+      "text": "title: ux-decisions\nsummary: AI skill for the Making UX Decisions framework (uxdecisions.com) by Tommy Geoco.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ux-decisions/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ux-decisions",
+        "topic": "openclaw-openclaw-ux-decisions",
+        "type": "skills",
+        "title": "ux-decisions",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ux-decisions/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:52.293Z",
+        "content_sha256": "d0cfc305ce05584a5ddcdfb8e72820cb90da33c6ddd02f142ae3f538969ae80a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-supercent-io-skills-template-web-accessibility",
+  "generated_at": "2026-02-28T14:45:43.565Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-supercent-io-skills-template-web-accessibility#head",
+      "kind": "head",
+      "path": "/data/skills-sh-supercent-io-skills-template-web-accessibility/HEAD.md",
+      "text": "title: skills-sh-supercent-io-skills-template-web-accessibility\nsummary: --- name: ui-component-patterns description: Build reusable, maintainable UI components following modern design patterns. Use when creating component libraries, implementing design systems, or building scalable frontend architectures. Handles React patterns, composition, prop design, TypeScript, and component best practices. tags: [UI-components, React, design-patterns, composition, TypeScript, reusable] platforms: [Claude, ChatGPT, Gemini] --- # UI Component Patterns ## When to use this skill - **컴포넌트 라이브러리 구축**: 재사용 가능한 UI 컴포넌트 제작 - **디자인 시스템 구현**: 일관된 UI 패턴 적용\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ui-component-patterns/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-supercent-io-skills-template-web-accessibility",
+        "topic": "skills-sh-supercent-io-skills-template-web-accessibility",
+        "type": "skills",
+        "title": "skills-sh-supercent-io-skills-template-web-accessibility",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ui-component-patterns/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:43.565Z",
+        "content_sha256": "dc00b63e9060d972b4dcbf49eb51b4676a707c390a1a3975582369059ff85194"
+      }
+    }
+  ]
+}

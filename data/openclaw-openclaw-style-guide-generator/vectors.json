@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-style-guide-generator",
+  "generated_at": "2026-02-28T14:46:45.951Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-style-guide-generator#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-style-guide-generator/HEAD.md",
+      "text": "title: style-guide-generator\nsummary: Generate comprehensive website style guides and design systems from URLs, screenshots.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/style-guide-generator/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-style-guide-generator",
+        "topic": "openclaw-openclaw-style-guide-generator",
+        "type": "skills",
+        "title": "style-guide-generator",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/style-guide-generator/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:45.951Z",
+        "content_sha256": "bc5741056ef584ee605984bc65f9c6df28ca89d9e4a822668dae34f19e871fa6"
+      }
+    }
+  ]
+}

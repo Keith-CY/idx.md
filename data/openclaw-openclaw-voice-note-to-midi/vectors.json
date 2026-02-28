@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-voice-note-to-midi",
+  "generated_at": "2026-02-28T14:46:53.708Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-voice-note-to-midi#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-voice-note-to-midi/HEAD.md",
+      "text": "title: voice-note-to-midi\nsummary: Convert voice notes, humming, and melodic audio recordings to quantized MIDI files using ML-based pitch detection.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/danbennettuk/voice-note-to-midi/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-voice-note-to-midi",
+        "topic": "openclaw-openclaw-voice-note-to-midi",
+        "type": "skills",
+        "title": "voice-note-to-midi",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/danbennettuk/voice-note-to-midi/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:53.708Z",
+        "content_sha256": "14062c6d1386b01374f4309af35aa76cbdc5adfdde120f3679f1d3da5959f9d6"
+      }
+    }
+  ]
+}

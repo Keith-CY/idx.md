@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-qbittorrent",
+  "generated_at": "2026-02-28T14:46:36.335Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-qbittorrent#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-qbittorrent/HEAD.md",
+      "text": "title: qbittorrent\nsummary: Manage torrents with qBittorrent.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/qbittorrent/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-qbittorrent",
+        "topic": "openclaw-openclaw-qbittorrent",
+        "type": "skills",
+        "title": "qbittorrent",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/qbittorrent/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:36.335Z",
+        "content_sha256": "36cbb1050d36496aa6659570503f63ed57bbb32b62b44bf6cd267b690decdcd7"
+      }
+    }
+  ]
+}

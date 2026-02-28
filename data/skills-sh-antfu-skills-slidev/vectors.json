@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-antfu-skills-slidev",
+  "generated_at": "2026-02-28T14:45:40.300Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-antfu-skills-slidev#head",
+      "kind": "head",
+      "path": "/data/skills-sh-antfu-skills-slidev/HEAD.md",
+      "text": "title: skills-sh-antfu-skills-slidev\nsummary: --- name: syntax description: Core Markdown syntax for Slidev presentations --- # Slidev Markdown Syntax Core Markdown syntax for Slidev presentations. ## Slide Separator Use `---` with blank lines before and after: ```md # Slide 1\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/slidev/references/core-syntax.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-antfu-skills-slidev",
+        "topic": "skills-sh-antfu-skills-slidev",
+        "type": "skills",
+        "title": "skills-sh-antfu-skills-slidev",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/slidev/references/core-syntax.md",
+        "retrieved_at": "2026-02-28T14:45:40.300Z",
+        "content_sha256": "3b56a8fbd5b4eb7b7a1965e5fe2502ec969a094ad8b22bc834365aa25e3a7aaa"
+      }
+    }
+  ]
+}

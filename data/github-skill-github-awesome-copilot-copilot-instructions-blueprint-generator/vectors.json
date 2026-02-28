@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator",
+  "generated_at": "2026-02-28T14:45:21.934Z",
+  "records": [
+    {
+      "id": "skills/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator#head",
+      "kind": "head",
+      "path": "/data/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator/HEAD.md",
+      "text": "title: copilot-instructions-blueprint-generator\nsummary: Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-git-github, github-owner-github, github-repo-awesome-copilot\nsource_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator",
+        "topic": "github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator",
+        "type": "skills",
+        "title": "copilot-instructions-blueprint-generator",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-git-github",
+          "github-owner-github",
+          "github-repo-awesome-copilot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:21.934Z",
+        "content_sha256": "e53409119442128e2afbc2b48ad1b286fb23b884934de26dd088b3a375fcfb2b"
+      }
+    }
+  ]
+}

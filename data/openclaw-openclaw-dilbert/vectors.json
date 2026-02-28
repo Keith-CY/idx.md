@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-dilbert",
+  "generated_at": "2026-02-28T14:46:03.372Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-dilbert#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-dilbert/HEAD.md",
+      "text": "title: dilbert\nsummary: dilbert\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hjanuschka/dilbert/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-dilbert",
+        "topic": "openclaw-openclaw-dilbert",
+        "type": "skills",
+        "title": "dilbert",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hjanuschka/dilbert/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:03.372Z",
+        "content_sha256": "7ff841ed46a2d558edcf1cd62615f90410aedec91afd5ff77327051c4d4617b7"
+      }
+    }
+  ]
+}

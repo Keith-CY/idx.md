@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gemini-stt",
+  "generated_at": "2026-02-28T14:46:10.116Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gemini-stt#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gemini-stt/HEAD.md",
+      "text": "title: gemini-stt\nsummary: Transcribe audio files using Google's Gemini API or Vertex AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/araa47/gemini-stt/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gemini-stt",
+        "topic": "openclaw-openclaw-gemini-stt",
+        "type": "skills",
+        "title": "gemini-stt",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/araa47/gemini-stt/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.116Z",
+        "content_sha256": "8dea04a0cd1c4d5466c744aaeb204ea80857ca06f5bd0f58757d265564ee29dc"
+      }
+    }
+  ]
+}

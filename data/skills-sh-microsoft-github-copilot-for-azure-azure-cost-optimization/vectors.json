@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization",
+  "generated_at": "2026-02-28T14:45:38.363Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization#head",
+      "kind": "head",
+      "path": "/data/skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization/HEAD.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization\nsummary: ## Azure Redis Cost Optimization Reference guide for identifying cost savings opportunities in Azure Redis deployments through analysis and targeted scans. ## Subscription Input Options Accept any of these identifiers to identify subscriptions for analysis: | Input Type | Example | Use Case | |------------|---------|----------| | **Subscription ID** | `a1b2c3d4-...` | Analyze specific subscription | | **Subscription Name** | `Production-Environment` | User-friendly identifier | | **Subscription Prefix** | `CacheTeam -` | Analyze all team subscriptions | | **Tenant ID** | `tenant-guid` | Analyze entire organization |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cost-optimization/references/azure-redis.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization",
+        "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization",
+        "type": "skills",
+        "title": "skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cost-optimization/references/azure-redis.md",
+        "retrieved_at": "2026-02-28T14:45:38.363Z",
+        "content_sha256": "51b03b4e4b4089b5c0e8a817fab8a0e854c630180f09a8ae4a23726bbc0f9f5c"
+      }
+    }
+  ]
+}

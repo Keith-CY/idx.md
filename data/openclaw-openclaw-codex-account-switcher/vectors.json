@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-codex-account-switcher",
+  "generated_at": "2026-02-28T14:45:58.794Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-codex-account-switcher#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-codex-account-switcher/HEAD.md",
+      "text": "title: codex-account-switcher\nsummary: Manage multiple OpenAI Codex accounts.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-account-switcher/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-codex-account-switcher",
+        "topic": "openclaw-openclaw-codex-account-switcher",
+        "type": "skills",
+        "title": "codex-account-switcher",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-account-switcher/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:58.794Z",
+        "content_sha256": "af099a666c11d1f40ec663cfca4e097761c6f9d2903314ec8cd6766d31a37f81"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-webchat-audio-notifications",
+  "generated_at": "2026-02-28T14:46:54.874Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-webchat-audio-notifications#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-webchat-audio-notifications/HEAD.md",
+      "text": "title: webchat-audio-notifications\nsummary: Add browser audio notifications to Moltbot/Clawdbot webchat with 5 intensity levels - from whisper to impossible-to-m.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brokemac79/webchat-audio-notifications/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-webchat-audio-notifications",
+        "topic": "openclaw-openclaw-webchat-audio-notifications",
+        "type": "skills",
+        "title": "webchat-audio-notifications",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brokemac79/webchat-audio-notifications/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:54.874Z",
+        "content_sha256": "b68f0ff64d6bd7be1c38cc0cc9dedb0c3bde0d118f1430242ce2f04c00aa3b6f"
+      }
+    }
+  ]
+}

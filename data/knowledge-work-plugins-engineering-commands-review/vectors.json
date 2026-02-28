@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-engineering-commands-review",
+  "generated_at": "2026-02-28T14:45:36.192Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-engineering-commands-review#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-engineering-commands-review/HEAD.md",
+      "text": "title: review\nsummary: Review code changes for security, performance, and correctness\ntype: skills\ntags: source-knowledge-work-plugins, plugin-engineering, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/review.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-engineering-commands-review",
+        "topic": "knowledge-work-plugins-engineering-commands-review",
+        "type": "skills",
+        "title": "review",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-engineering",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/review.md",
+        "retrieved_at": "2026-02-28T14:45:36.192Z",
+        "content_sha256": "b4870206136bc78f85a93f11005a2c037883e10ab794d7dda1306cf1a217cef7"
+      }
+    }
+  ]
+}

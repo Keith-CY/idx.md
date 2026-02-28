@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-doubleword",
+  "generated_at": "2026-02-28T14:46:04.199Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-doubleword#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-doubleword/HEAD.md",
+      "text": "title: doubleword\nsummary: Create and manage batch inference jobs using the Doubleword API (api.doubleword.ai).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pjb157/doubleword/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-doubleword",
+        "topic": "openclaw-openclaw-doubleword",
+        "type": "skills",
+        "title": "doubleword",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pjb157/doubleword/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:04.199Z",
+        "content_sha256": "cc3b1ea0fb86dabaac8a5d39dd7d79f637ef418f48332a47c0110d5892e08f1a"
+      }
+    }
+  ]
+}

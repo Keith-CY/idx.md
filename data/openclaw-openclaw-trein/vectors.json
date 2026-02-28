@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-trein",
+  "generated_at": "2026-02-28T14:46:50.489Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-trein#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-trein/HEAD.md",
+      "text": "title: trein\nsummary: Dutch Railways (NS) departures, trips, disruptions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joehoel/trein/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-trein",
+        "topic": "openclaw-openclaw-trein",
+        "type": "skills",
+        "title": "trein",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joehoel/trein/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:50.489Z",
+        "content_sha256": "9168ad9d077764ec4a08c1f8040e010fe671664af636f43a088f287b9b75fa39"
+      }
+    }
+  ]
+}

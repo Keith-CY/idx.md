@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-oura-analytics",
+  "generated_at": "2026-02-28T14:46:30.578Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-oura-analytics#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-oura-analytics/HEAD.md",
+      "text": "title: oura-analytics\nsummary: Oura Ring data integration and analytics.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/oura-analytics/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-oura-analytics",
+        "topic": "openclaw-openclaw-oura-analytics",
+        "type": "skills",
+        "title": "oura-analytics",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/oura-analytics/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.578Z",
+        "content_sha256": "cb5a0b05b71d80bd4de5ae7716b90ee665ea3ed07276bda7f4020a8ee0182803"
+      }
+    }
+  ]
+}

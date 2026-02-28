@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openai-curated-notion-knowledge-capture",
+  "generated_at": "2026-02-28T14:45:24.562Z",
+  "records": [
+    {
+      "id": "skills/openai-curated-notion-knowledge-capture#head",
+      "kind": "head",
+      "path": "/data/openai-curated-notion-knowledge-capture/HEAD.md",
+      "text": "title: openai-curated-notion-knowledge-capture\nsummary: --- name: notion-knowledge-capture description: Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking. metadata: short-description: Capture conversations into structured Notion pages --- # Knowledge Capture Convert conversations and notes into structured, linkable Notion pages for easy reuse. ## Quick start 1) Clarify what to capture (decision, how-to, FAQ, learning, documentation) and target audience.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-knowledge-capture/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openai-curated-notion-knowledge-capture",
+        "topic": "openai-curated-notion-knowledge-capture",
+        "type": "skills",
+        "title": "openai-curated-notion-knowledge-capture",
+        "tags": [
+          "openai",
+          "source-openai-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-knowledge-capture/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:24.562Z",
+        "content_sha256": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00"
+      }
+    }
+  ]
+}

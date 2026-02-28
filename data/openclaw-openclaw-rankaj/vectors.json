@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-rankaj",
+  "generated_at": "2026-02-28T14:45:28.655Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-rankaj#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-rankaj/HEAD.md",
+      "text": "title: rankaj\nsummary: Fetch current weather and forecast data from a free weather API (Open-Meteo).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjnpage/rankaj/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-rankaj",
+        "topic": "openclaw-openclaw-rankaj",
+        "type": "skills",
+        "title": "rankaj",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rjnpage/rankaj/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:28.655Z",
+        "content_sha256": "b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70"
+      }
+    }
+  ]
+}

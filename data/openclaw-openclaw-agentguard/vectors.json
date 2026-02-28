@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentguard",
+  "generated_at": "2026-02-28T14:45:46.256Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentguard#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentguard/HEAD.md",
+      "text": "title: agentguard\nsummary: **Category:** Security & Monitoring\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manas-io-ai/agentguard/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentguard",
+        "topic": "openclaw-openclaw-agentguard",
+        "type": "skills",
+        "title": "agentguard",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manas-io-ai/agentguard/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.256Z",
+        "content_sha256": "76724e501a7ea5ad7e2b4507ee3f07a0992dd626020a53a3c3ed834c8b496ea3"
+      }
+    }
+  ]
+}

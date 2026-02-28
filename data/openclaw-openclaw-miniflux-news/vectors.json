@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-miniflux-news",
+  "generated_at": "2026-02-28T14:46:22.942Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-miniflux-news#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-miniflux-news/HEAD.md",
+      "text": "title: miniflux-news\nsummary: Fetch and triage the latest unread RSS/news entries from a Miniflux instance.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hartlco/miniflux-news/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-miniflux-news",
+        "topic": "openclaw-openclaw-miniflux-news",
+        "type": "skills",
+        "title": "miniflux-news",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hartlco/miniflux-news/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.942Z",
+        "content_sha256": "746216ffa76301891ba8878c6fdd5805e5e0c8aef3d70e65520c597b58285a6f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-whatdo",
+  "generated_at": "2026-02-28T14:46:55.171Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-whatdo#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-whatdo/HEAD.md",
+      "text": "title: whatdo\nsummary: Activity discovery with weather, movie times, streaming.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/whatdo/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-whatdo",
+        "topic": "openclaw-openclaw-whatdo",
+        "type": "skills",
+        "title": "whatdo",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/whatdo/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:55.171Z",
+        "content_sha256": "8510c926eb5f3d4507e25094ea3e564137d7097e1f209dce1c8846174648d3a0"
+      }
+    }
+  ]
+}

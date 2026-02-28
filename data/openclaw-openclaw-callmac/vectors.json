@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-callmac",
+  "generated_at": "2026-02-28T14:45:54.057Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-callmac#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-callmac/HEAD.md",
+      "text": "title: callmac\nsummary: Remote voice control for Mac from mobile devices using commands like /callmac.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jooey/callmac/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-callmac",
+        "topic": "openclaw-openclaw-callmac",
+        "type": "skills",
+        "title": "callmac",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jooey/callmac/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:54.057Z",
+        "content_sha256": "6db512470b5621233656edae0ae2886cfc8ba0f929ea3c345013d5ec1534bb76"
+      }
+    }
+  ]
+}

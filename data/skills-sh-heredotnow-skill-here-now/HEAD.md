@@ -1,0 +1,37 @@
+---
+stable_id: skills/skills-sh-heredotnow-skill-here-now
+type: skills
+title: skills-sh-heredotnow-skill-here-now
+summary: >-
+  # here.now API Reference
+
+  Base URL: `https://here.now`
+
+  ## Authentication
+
+  Two modes:
+
+  - **Authenticated**: include `Authorization: Bearer <API_KEY>` header.
+
+  - **Anonymous**: omit the header entirely. Publishes expire in 24 hours with
+  lower limits.
+
+  ### Getting an API key (agent-assisted sign-up)
+
+  Agents can trigger the sign-up flow on behalf of the user:
+
+  **1. Send magic link:**
+
+  ```bash
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/heredotnow/skill/HEAD/here-now/references/REFERENCE.md
+license: ""
+upstream_ref: https://skills.sh/heredotnow/skill/here-now
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:41.950Z
+content_sha256: 22e4f7be06558bc6ddd730dfb6030537d9fc3b8a2e6571eaa7be9e3859d64838
+---

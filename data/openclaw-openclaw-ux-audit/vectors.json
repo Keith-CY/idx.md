@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ux-audit",
+  "generated_at": "2026-02-28T14:46:52.248Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ux-audit#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ux-audit/HEAD.md",
+      "text": "title: ux-audit\nsummary: AI skill for automated design audits.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ux-audit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ux-audit",
+        "topic": "openclaw-openclaw-ux-audit",
+        "type": "skills",
+        "title": "ux-audit",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ux-audit/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:52.248Z",
+        "content_sha256": "087ba667202dbfc4ddd06baf788f4d52372c1ba89666377ecf0957af45366dd5"
+      }
+    }
+  ]
+}

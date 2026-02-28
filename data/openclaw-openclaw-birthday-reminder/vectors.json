@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-birthday-reminder",
+  "generated_at": "2026-02-28T14:45:51.986Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-birthday-reminder#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-birthday-reminder/HEAD.md",
+      "text": "title: birthday-reminder\nsummary: Manage birthdays with natural language.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manantra/birthday-reminder/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-birthday-reminder",
+        "topic": "openclaw-openclaw-birthday-reminder",
+        "type": "skills",
+        "title": "birthday-reminder",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manantra/birthday-reminder/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:51.986Z",
+        "content_sha256": "a1b58c58bccd81dc726b5a053c2904fd22a93be0333f821f7ec1f10c43ca7646"
+      }
+    }
+  ]
+}

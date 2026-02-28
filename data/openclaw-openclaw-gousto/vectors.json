@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gousto",
+  "generated_at": "2026-02-28T14:46:12.691Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gousto#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gousto/HEAD.md",
+      "text": "title: gousto\nsummary: Search and browse 9,000+ Gousto recipes. Get full ingredients and step-by-step cooking instructions via official API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dhruvkelawala/gousto/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gousto",
+        "topic": "openclaw-openclaw-gousto",
+        "type": "skills",
+        "title": "gousto",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dhruvkelawala/gousto/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:12.691Z",
+        "content_sha256": "a88b2535dc70d7eb3e1b84ff8d74cf8ad8c8be32261c0c1ae68cbd791f8f8fe9"
+      }
+    }
+  ]
+}

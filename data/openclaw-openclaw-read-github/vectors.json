@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-read-github",
+  "generated_at": "2026-02-28T14:46:37.669Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-read-github#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-read-github/HEAD.md",
+      "text": "title: read-github\nsummary: Read GitHub repos via gitmcp.io with semantic search and LLM-optimized output.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/read-github/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-read-github",
+        "topic": "openclaw-openclaw-read-github",
+        "type": "skills",
+        "title": "read-github",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/read-github/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.669Z",
+        "content_sha256": "7f14ac762eaacf57264a6578c191a089a5cea8aa415e04a30944e04e2126ab9f"
+      }
+    }
+  ]
+}

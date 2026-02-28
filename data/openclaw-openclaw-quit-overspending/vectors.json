@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-quit-overspending",
+  "generated_at": "2026-02-28T14:46:36.887Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-quit-overspending#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-quit-overspending/HEAD.md",
+      "text": "title: quit-overspending\nsummary: Break impulse buying habits with spending streaks, urge tracking.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-overspending/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-quit-overspending",
+        "topic": "openclaw-openclaw-quit-overspending",
+        "type": "skills",
+        "title": "quit-overspending",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-overspending/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:36.887Z",
+        "content_sha256": "7c2683af8b009eda51e08b28143110d0a2ffbd5d302b2ac3ccc0184e9954335d"
+      }
+    }
+  ]
+}

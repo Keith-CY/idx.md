@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/test-driven-development/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.646Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.367Z
 content_sha256: 7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994
 ---

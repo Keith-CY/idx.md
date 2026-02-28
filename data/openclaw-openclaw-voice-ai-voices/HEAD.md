@@ -2,24 +2,17 @@
 stable_id: skills/openclaw-openclaw-voice-ai-voices
 type: skills
 title: voice-ai-voices
-summary: >-
+summary: |-
   ---
-
   name: voice-ai-tts
-
   description: >
-    High-quality voice synthesis with 9 personas, 11 languages, streaming, and voice cloning using Voice.ai API.
-  version: 1.0.0
-
+    High-quality voice synthesis with 9 personas, 11 languages, and streaming using Voice.ai API.
+  version: 1.1.5
+  tags: [tts, voice, speech, voice-ai, audio, streaming, multilingual]
+  metadata: {"clawdbot":{"emoji":"🎙️","requires":{"bins":["node"],"env":["VOICE_AI_API_KEY"]},"primaryEnv":"VOICE_AI_API_KEY"},"openclaw":{"requires":{"bins":["node"],"env":{"VOICE_AI_API_KEY":"required"},"note":"Set VOICE_AI_API_KEY via an environment variable."}}}
   ---
-
   # Voice.ai Voices
-
   ## ✨ Features
-
-  - **9 Voice Personas** - Carefully curated voices for different use cases
-
-  - **11 Languages** - Multi-language synthesis with multilingual model
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -30,6 +23,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:16.944Z
-content_sha256: b1a20d73e4d650d50873567d2278f6b81b23c6ee82971f015decd6a7ef998a91
+retrieved_at: 2026-02-28T14:46:53.666Z
+content_sha256: a30573b28502aa4d01175283aae6f865163ee84c5ee25c1e018ecc7d6af5ce4b
 ---

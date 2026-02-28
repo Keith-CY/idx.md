@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gemini-yt-video-transcript",
+  "generated_at": "2026-02-28T14:46:10.174Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gemini-yt-video-transcript#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gemini-yt-video-transcript/HEAD.md",
+      "text": "title: gemini-yt-transcript\nsummary: YouTube transcript via Google Gemini with speaker labels.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/gemini-yt-video-transcript/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gemini-yt-video-transcript",
+        "topic": "openclaw-openclaw-gemini-yt-video-transcript",
+        "type": "skills",
+        "title": "gemini-yt-transcript",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/gemini-yt-video-transcript/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.174Z",
+        "content_sha256": "013bdf441304ef28897b95c4bf670bf0b1c950cd68d473fe0dc4803e55bda7cd"
+      }
+    }
+  ]
+}

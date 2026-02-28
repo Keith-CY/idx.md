@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-transcribe",
+  "generated_at": "2026-02-28T14:46:50.096Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-transcribe#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-transcribe/HEAD.md",
+      "text": "title: transcribe\nsummary: Transcribe audio files to text using local Whisper (Docker).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/javicasper/transcribe/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-transcribe",
+        "topic": "openclaw-openclaw-transcribe",
+        "type": "skills",
+        "title": "transcribe",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/javicasper/transcribe/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:50.096Z",
+        "content_sha256": "49a9426be6868ae65bfc64b1fc57146708ca0f82b962d78c654964998db695ad"
+      }
+    }
+  ]
+}

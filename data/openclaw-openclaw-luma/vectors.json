@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-luma",
+  "generated_at": "2026-02-28T14:46:20.597Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-luma#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-luma/HEAD.md",
+      "text": "title: luma\nsummary: Fetch upcoming events from Luma (lu.ma) for any city.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/regalstreak/luma/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-luma",
+        "topic": "openclaw-openclaw-luma",
+        "type": "skills",
+        "title": "luma",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/regalstreak/luma/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:20.597Z",
+        "content_sha256": "785613c5928425a047f3519a6301cb9a42b687e8c18afe15d752ba5d035b34d3"
+      }
+    }
+  ]
+}

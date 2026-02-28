@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-prezentit",
+  "generated_at": "2026-02-28T14:46:34.601Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-prezentit#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-prezentit/HEAD.md",
+      "text": "title: prezentit\nsummary: Generate beautiful AI-powered presentations instantly.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vegovevo/prezentit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-prezentit",
+        "topic": "openclaw-openclaw-prezentit",
+        "type": "skills",
+        "title": "prezentit",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vegovevo/prezentit/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:34.601Z",
+        "content_sha256": "10a2be2f883cd6025218fa9fb9ad533a303b3ffcffe3b6c8b90a66bb1dc7b5e0"
+      }
+    }
+  ]
+}

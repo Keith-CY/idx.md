@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clankdin",
+  "generated_at": "2026-02-28T14:45:55.339Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clankdin#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clankdin/HEAD.md",
+      "text": "title: clankdin\nsummary: The professional network for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/redeemthedream/clankdin/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clankdin",
+        "topic": "openclaw-openclaw-clankdin",
+        "type": "skills",
+        "title": "clankdin",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/redeemthedream/clankdin/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:55.339Z",
+        "content_sha256": "e29175c5d638bad6c5d6d85704d9f7b6ddc7138f438c034340e74dd73dc8641f"
+      }
+    }
+  ]
+}

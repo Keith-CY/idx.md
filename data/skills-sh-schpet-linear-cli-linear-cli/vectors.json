@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-schpet-linear-cli-linear-cli",
+  "generated_at": "2026-02-28T14:45:41.002Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-schpet-linear-cli-linear-cli#head",
+      "kind": "head",
+      "path": "/data/skills-sh-schpet-linear-cli-linear-cli/HEAD.md",
+      "text": "title: skills-sh-schpet-linear-cli-linear-cli\nsummary: # auth > Manage Linear authentication ## Usage ``` Usage: linear auth Version: 1.10.0 Description: Manage Linear authentication Options: -h, --help - Show this help.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/schpet/linear-cli/HEAD/skills/linear-cli/references/auth.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-schpet-linear-cli-linear-cli",
+        "topic": "skills-sh-schpet-linear-cli-linear-cli",
+        "type": "skills",
+        "title": "skills-sh-schpet-linear-cli-linear-cli",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/schpet/linear-cli/HEAD/skills/linear-cli/references/auth.md",
+        "retrieved_at": "2026-02-28T14:45:41.002Z",
+        "content_sha256": "7d542f090b4b7b5828e969c0bf814c737793f8a1ce5406c113ecffc8becda6f8"
+      }
+    }
+  ]
+}

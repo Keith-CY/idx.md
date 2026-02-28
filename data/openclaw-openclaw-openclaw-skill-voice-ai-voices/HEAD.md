@@ -8,18 +8,15 @@ summary: >-
   name: voice-ai-tts
 
   description: >
-    High-quality voice synthesis with 9 personas, 11 languages, streaming, and voice cloning using Voice.ai API.
-  version: 1.0.0
+    High-quality voice synthesis with 9 personas, 11 languages, and streaming using Voice.ai API.
+  version: 1.1.4
 
-  ---
+  tags: [tts, voice, speech, voice-ai, audio, streaming, multilingual]
 
-  # Voice.ai Voices
-
-  ## ✨ Features
-
-  - **9 Voice Personas** - Carefully curated voices for different use cases
-
-  - **11 Languages** - Multi-language synthesis with multilingual model
+  metadata:
+    openclaw:
+      requires:
+        bins: ["node"]
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -30,6 +27,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:48.343Z
-content_sha256: b1a20d73e4d650d50873567d2278f6b81b23c6ee82971f015decd6a7ef998a91
+retrieved_at: 2026-02-28T14:46:29.672Z
+content_sha256: f0a841489c4859f5d91bc2354745a38be95a942bc20409d1915200723d18c1d2
 ---

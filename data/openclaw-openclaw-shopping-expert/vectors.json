@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-shopping-expert",
+  "generated_at": "2026-02-28T14:46:42.411Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-shopping-expert#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-shopping-expert/HEAD.md",
+      "text": "title: shopping-expert\nsummary: Find and compare products online (Google Shopping) and locally (stores near you).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/shopping-expert/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-shopping-expert",
+        "topic": "openclaw-openclaw-shopping-expert",
+        "type": "skills",
+        "title": "shopping-expert",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/shopping-expert/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:42.411Z",
+        "content_sha256": "4cd0070cb497839e54e7af38a26058918066cdfc2f4691531f3aa0a4a117ea68"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-reflect",
+  "generated_at": "2026-02-28T14:46:38.221Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-reflect#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-reflect/HEAD.md",
+      "text": "title: reflect\nsummary: Append to daily notes and create notes in Reflect.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sergical/reflect/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-reflect",
+        "topic": "openclaw-openclaw-reflect",
+        "type": "skills",
+        "title": "reflect",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sergical/reflect/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:38.221Z",
+        "content_sha256": "3cda3f3d4374c2e703d417ebf844bdbcc876f24db83dec65c4aae24d1d450f1b"
+      }
+    }
+  ]
+}

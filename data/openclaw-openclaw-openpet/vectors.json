@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openpet",
+  "generated_at": "2026-02-28T14:46:30.023Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openpet#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openpet/HEAD.md",
+      "text": "title: openpet\nsummary: Virtual pet (Tamagotchi-style) game for chat platforms.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mdealiaga/openpet/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openpet",
+        "topic": "openclaw-openclaw-openpet",
+        "type": "skills",
+        "title": "openpet",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mdealiaga/openpet/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.023Z",
+        "content_sha256": "890c8e246e68997a7583ec2afa5f85aa02082cea96579122f662eaa3a6632d13"
+      }
+    }
+  ]
+}

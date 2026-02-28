@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-kubernetes",
+  "generated_at": "2026-02-28T14:46:18.916Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-kubernetes#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-kubernetes/HEAD.md",
+      "text": "title: kubernetes\nsummary: Comprehensive Kubernetes and OpenShift cluster management.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kcns008/kubernetes/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-kubernetes",
+        "topic": "openclaw-openclaw-kubernetes",
+        "type": "skills",
+        "title": "kubernetes",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kcns008/kubernetes/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:18.916Z",
+        "content_sha256": "abe866082230d81519757b9b25d12eb407c1b368c2f4e7760a93fd7c9683765c"
+      }
+    }
+  ]
+}

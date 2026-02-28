@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-docx",
+  "generated_at": "2026-02-28T14:46:03.845Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-docx#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-docx/HEAD.md",
+      "text": "title: docx\nsummary: Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/docx/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-docx",
+        "topic": "openclaw-openclaw-docx",
+        "type": "skills",
+        "title": "docx",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/docx/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:03.845Z",
+        "content_sha256": "0bd90681fcab2e282025ee14acf508b60bbd6c41ac6c3bf83c0dc14d52c37933"
+      }
+    }
+  ]
+}

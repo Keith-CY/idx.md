@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk",
+  "generated_at": "2026-02-28T14:46:00.923Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk/HEAD.md",
+      "text": "title: cpc-mpqc-competence-tracker-compliance-uk\nsummary: Plans CPC/MPQC competence tracking with reminders, evidence lists.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/cpc-mpqc-competence-tracker-compliance-uk/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk",
+        "topic": "openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk",
+        "type": "skills",
+        "title": "cpc-mpqc-competence-tracker-compliance-uk",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/cpc-mpqc-competence-tracker-compliance-uk/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.923Z",
+        "content_sha256": "cd7a4d5446bf4f75301b00ae5e0d2a6fbdd2cf7c9502ed2d07632661245eb1aa"
+      }
+    }
+  ]
+}

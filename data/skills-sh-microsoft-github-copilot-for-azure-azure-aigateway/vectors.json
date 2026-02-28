@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-aigateway",
+  "generated_at": "2026-02-28T14:45:38.635Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway#head",
+      "kind": "head",
+      "path": "/data/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway/HEAD.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-azure-aigateway\nsummary: # AI Gateway Policies Complete reference for Azure API Management AI governance policies. --- ## Policy Placement Order Recommended order in `<inbound>` section: ``` 1. Authentication (managed identity) 2. Semantic Cache Lookup 3. Token Rate Limiting 4. Content Safety\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-aigateway/references/policies.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway",
+        "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-aigateway",
+        "type": "skills",
+        "title": "skills-sh-microsoft-github-copilot-for-azure-azure-aigateway",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-aigateway/references/policies.md",
+        "retrieved_at": "2026-02-28T14:45:38.635Z",
+        "content_sha256": "176a5bf61186a45e338dcc9ab6e9320a7b4ae3d8bb356f8613506533348b3b69"
+      }
+    }
+  ]
+}

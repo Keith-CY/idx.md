@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-context-optimizer",
+  "generated_at": "2026-02-28T14:46:00.386Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-context-optimizer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-context-optimizer/HEAD.md",
+      "text": "title: context-optimizer\nsummary: Advanced context management with auto-compaction and dynamic context optimization for DeepSeek's 64k context window.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ad2546/context-optimizer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-context-optimizer",
+        "topic": "openclaw-openclaw-context-optimizer",
+        "type": "skills",
+        "title": "context-optimizer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ad2546/context-optimizer/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.386Z",
+        "content_sha256": "857163b8eaf7930e5a80c07938fe4983c288645d7cb90e53eadfafeb2dfa52c1"
+      }
+    }
+  ]
+}

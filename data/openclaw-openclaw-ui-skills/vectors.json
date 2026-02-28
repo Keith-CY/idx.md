@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ui-skills",
+  "generated_at": "2026-02-28T14:46:51.600Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ui-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ui-skills/HEAD.md",
+      "text": "title: ui-skills\nsummary: Opinionated constraints for building better interfaces with agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/correctroadh/ui-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ui-skills",
+        "topic": "openclaw-openclaw-ui-skills",
+        "type": "skills",
+        "title": "ui-skills",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/correctroadh/ui-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:51.600Z",
+        "content_sha256": "aa18b30c0c9b2b1e7a7edf05a9c95324256da90b81d6acddecf25c41748c1f78"
+      }
+    }
+  ]
+}

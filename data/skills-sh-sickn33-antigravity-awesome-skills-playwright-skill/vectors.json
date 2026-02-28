@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-sickn33-antigravity-awesome-skills-playwright-skill",
+  "generated_at": "2026-02-28T14:45:40.602Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-sickn33-antigravity-awesome-skills-playwright-skill#head",
+      "kind": "head",
+      "path": "/data/skills-sh-sickn33-antigravity-awesome-skills-playwright-skill/HEAD.md",
+      "text": "title: skills-sh-sickn33-antigravity-awesome-skills-playwright-skill\nsummary: # Playwright Skill - Complete API Reference This document contains the comprehensive Playwright API reference and advanced patterns. For quick-start execution patterns, see [SKILL.md](SKILL.md). ## Table of Contents - [Installation & Setup](#installation--setup) - [Core Patterns](#core-patterns) - [Selectors & Locators](#selectors--locators) - [Common Actions](#common-actions) - [Waiting Strategies](#waiting-strategies) - [Assertions](#assertions) - [Page Object Model](#page-object-model-pom)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/playwright-skill/API_REFERENCE.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-sickn33-antigravity-awesome-skills-playwright-skill",
+        "topic": "skills-sh-sickn33-antigravity-awesome-skills-playwright-skill",
+        "type": "skills",
+        "title": "skills-sh-sickn33-antigravity-awesome-skills-playwright-skill",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/playwright-skill/API_REFERENCE.md",
+        "retrieved_at": "2026-02-28T14:45:40.602Z",
+        "content_sha256": "ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b"
+      }
+    }
+  ]
+}

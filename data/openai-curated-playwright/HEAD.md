@@ -34,9 +34,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/playwright/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/playwright/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:30.425Z
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:24.729Z
 content_sha256: 0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8
 ---

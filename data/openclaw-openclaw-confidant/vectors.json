@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-confidant",
+  "generated_at": "2026-02-28T14:45:59.636Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-confidant#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-confidant/HEAD.md",
+      "text": "title: confidant\nsummary: Secure secret handoff from human to AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/confidant/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-confidant",
+        "topic": "openclaw-openclaw-confidant",
+        "type": "skills",
+        "title": "confidant",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/confidant/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:59.636Z",
+        "content_sha256": "b2241ed98273f0e5da339522c3b6fc7da4628318559ced3e9146afeca27b419a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawddocs",
+  "generated_at": "2026-02-28T14:45:57.153Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawddocs#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawddocs/HEAD.md",
+      "text": "title: clawddocs\nsummary: Clawdbot documentation expert with decision tree navigation, search scripts, doc fetching.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nicholasspisak/clawddocs/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawddocs",
+        "topic": "openclaw-openclaw-clawddocs",
+        "type": "skills",
+        "title": "clawddocs",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nicholasspisak/clawddocs/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:57.153Z",
+        "content_sha256": "114fb5408ffe9f0b037980bf7e36b31de8b26150daa26ecaf542be8240b7f2b7"
+      }
+    }
+  ]
+}

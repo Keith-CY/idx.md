@@ -3,40 +3,36 @@ stable_id: skills/skills-sh-rivet-dev-skills-rivetkit
 type: skills
 title: skills-sh-rivet-dev-skills-rivetkit
 summary: >-
-  # Actions
+  # Access Control
 
-  > Source: `src/content/docs/actors/actions.mdx`
+  > Source: `src/content/docs/actors/access-control.mdx`
 
-  > Canonical URL: https://rivet.dev/docs/actors/actions
+  > Canonical URL: https://rivet.dev/docs/actors/access-control
 
-  > Description: Actions are how your backend, frontend, or other actors can
-  communicate with actors. Actions are defined as functions in the actor
-  configuration and can be called from clients.
+  > Description: Authorize actions, queue publishes, and event subscriptions
+  with explicit hooks.
 
   ---
 
-  Actions are very lightweight. They can be called thousands of times per second
-  safely.
+  Use access control to decide what authenticated clients are allowed to do.
 
-  Actions are executed via HTTP requests or via WebSockets if [using
-  `.connect()`](/docs/actors/connections).
+  This is authorization, not authentication:
 
-  For advanced use cases that require direct access to HTTP requests or
-  WebSocket connections, see [raw HTTP and WebSocket
-  handling](/docs/actors/fetch-and-websocket-handler).
+  - Use [authentication](/docs/actors/authentication) to identify who is
+  calling.
 
-  ## Writing Actions
+  - Use access-control rules to decide what they can do after connecting.
 
-  Actions are defined in the `actions` object when creating an actor:
+  ## Permission Surfaces
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/rivet-dev/skills/HEAD/rivetkit/reference/actors/actions.md
+source_url: https://raw.githubusercontent.com/rivet-dev/skills/HEAD/rivetkit/reference/actors/access-control.md
 license: ""
 upstream_ref: https://skills.sh/rivet-dev/skills/rivetkit
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.788Z
-content_sha256: ed2f919374b9b5d842ae46a171ed2e8425e192c67c7004f736e4abb05dcefc44
+github_stars: 6
+github_forks: 2
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.298Z
+content_sha256: 4fb61230b6a2797b8fd44962034cde091523eac07882cde86e4a674a35f2d99b
 ---

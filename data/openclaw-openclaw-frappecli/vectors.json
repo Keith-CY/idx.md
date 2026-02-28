@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-frappecli",
+  "generated_at": "2026-02-28T14:46:09.115Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-frappecli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-frappecli/HEAD.md",
+      "text": "title: frappecli\nsummary: CLI for Frappe Framework / ERPNext instances.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/frappecli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-frappecli",
+        "topic": "openclaw-openclaw-frappecli",
+        "type": "skills",
+        "title": "frappecli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pasogott/frappecli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.115Z",
+        "content_sha256": "2dca7ed6947b65c5c3d23ccac05d4861bfbd14a2fbea6669d3ccc214319d28a0"
+      }
+    }
+  ]
+}

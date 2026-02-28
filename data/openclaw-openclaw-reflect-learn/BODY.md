@@ -1,15 +1,15 @@
 ---
 name: reflect
-description: Self-improvement through conversation analysis. Extracts learnings from corrections and success patterns, permanently encoding them into agent definitions. Philosophy - Correct once, never again.
-version: "2.0.0"
-user-invocable: true
-triggers:
-  - reflect
-  - self-reflect
-  - review session
-  - what did I learn
-  - extract learnings
-  - analyze corrections
+description: |
+  Self-improvement through conversation analysis. Extracts learnings from
+  corrections and success patterns, proposes updates to agent files or
+  creates new skills. Philosophy: "Correct once, never again."
+
+  Use when: (1) User explicitly corrects behavior ("never do X", "always Y"),
+  (2) Session ending or context compaction, (3) User requests /reflect,
+  (4) Successful pattern worth preserving.
+version: 2.0.0
+author: Claude Code Toolkit
 allowed-tools:
   - Read
   - Write
@@ -17,53 +17,69 @@ allowed-tools:
   - Grep
   - Glob
   - Bash
-metadata:
-  clawdbot:
-    emoji: "🪞"
-    config:
-      stateDirs: ["~/.reflect"]
 ---
 
-# Reflect - Agent Self-Improvement Skill
-
-Transform your AI assistant into a continuously improving partner. Every correction becomes a permanent improvement that persists across all future sessions.
+# Reflect - Self-Improvement Skill
 
 ## Quick Reference
 
 | Command | Action |
 |---------|--------|
-| `reflect` | Analyze conversation for learnings |
-| `reflect on` | Enable auto-reflection |
-| `reflect off` | Disable auto-reflection |
-| `reflect status` | Show state and metrics |
-| `reflect review` | Review pending learnings |
+| `/reflect` | Analyze conversation for learnings |
+| `/reflect on` | Enable auto-reflection |
+| `/reflect off` | Disable auto-reflection |
+| `/reflect status` | Show state and metrics |
+| `/reflect review` | Review low-confidence learnings |
+| `/reflect [agent]` | Focus on specific agent |
 
-## When to Use
+## Core Philosophy
 
-- After completing complex tasks
-- When user explicitly corrects behavior ("never do X", "always Y")
-- At session boundaries or before context compaction
-- When successful patterns are worth preserving
+**"Correct once, never again."**
+
+When users correct behavior, those corrections become permanent improvements encoded into the agent system - across all future sessions.
 
 ## Workflow
 
-### Step 1: Scan Conversation for Signals
+### Step 1: Initialize State
 
-Analyze the conversation for correction signals and learning opportunities.
+Check and initialize state files using the state manager:
 
-**Signal Confidence Levels:**
+```bash
+# Check for existing state
+python scripts/state_manager.py init
+
+# State directory is configurable via REFLECT_STATE_DIR env var
+# Default: ~/.reflect/ (portable) or ~/.claude/session/ (Claude Code)
+```
+
+State includes:
+- `reflect-state.yaml` - Toggle state, pending reviews
+- `reflect-metrics.yaml` - Aggregate metrics
+- `learnings.yaml` - Log of all applied learnings
+
+### Step 2: Scan Conversation for Signals
+
+Use the signal detector to identify learnings:
+
+```bash
+python scripts/signal_detector.py --input conversation.txt
+```
+
+#### Signal Confidence Levels
 
 | Confidence | Triggers | Examples |
 |------------|----------|----------|
 | **HIGH** | Explicit corrections | "never", "always", "wrong", "stop", "the rule is" |
-| **MEDIUM** | Approved approaches | "perfect", "exactly", "that's right", accepted output |
-| **LOW** | Observations | Patterns that worked but not explicitly validated |
+| **MEDIUM** | Approved approaches | "perfect", "exactly", accepted output |
+| **LOW** | Observations | Patterns that worked, not validated |
 
-See [data/signal_patterns.md](data/signal_patterns.md) for full detection rules.
+See [signal_patterns.md](references/signal_patterns.md) for full detection rules.
 
-### Step 2: Classify & Match to Target Files
+### Step 3: Classify & Match to Target Files
 
 Map each signal to the appropriate target:
+
+**Learning Categories:**
 
 | Category | Target Files |
 |----------|--------------|
@@ -72,11 +88,11 @@ Map each signal to the appropriate target:
 | Process | `CLAUDE.md`, orchestrator agents |
 | Domain | Domain-specific agents, `CLAUDE.md` |
 | Tools | `CLAUDE.md`, relevant specialists |
-| New Skill | Create new skill file |
+| New Skill | `.claude/skills/{name}/SKILL.md` |
 
-See [data/agent_mappings.md](data/agent_mappings.md) for mapping rules.
+See [agent_mappings.md](references/agent_mappings.md) for mapping rules.
 
-### Step 3: Check for Skill-Worthy Signals
+### Step 4: Check for Skill-Worthy Signals
 
 Some learnings should become new skills rather than agent updates:
 
@@ -94,9 +110,11 @@ Some learnings should become new skills rather than agent updates:
 - [ ] Verified: Solution actually worked
 - [ ] No duplication: Doesn't exist already
 
-### Step 4: Generate Proposals
+See [skill_template.md](references/skill_template.md) for skill creation guidelines.
 
-Present findings in structured format:
+### Step 5: Generate Proposals
+
+Produce output in this format:
 
 ```markdown
 # Reflection Analysis
@@ -104,75 +122,163 @@ Present findings in structured format:
 ## Session Context
 - **Date**: [timestamp]
 - **Messages Analyzed**: [count]
+- **Focus**: [all agents OR specific agent name]
 
 ## Signals Detected
 
 | # | Signal | Confidence | Source Quote | Category |
 |---|--------|------------|--------------|----------|
 | 1 | [learning] | HIGH | "[exact words]" | Code Style |
+| 2 | [learning] | MEDIUM | "[context]" | Architecture |
 
-## Proposed Changes
+## Proposed Agent Updates
 
 ### Change 1: Update [agent-name]
+
 **Target**: `[file path]`
 **Section**: [section name]
-**Confidence**: HIGH
+**Confidence**: [HIGH/MEDIUM/LOW]
+**Rationale**: [why this change]
 
 ```diff
-+ New rule from learning
+--- a/path/to/agent.md
++++ b/path/to/agent.md
+@@ -82,6 +82,7 @@
+ ## Section
+
+ * Existing rule
++* New rule from learning
+```
+
+## Proposed New Skills
+
+### Skill 1: [skill-name]
+
+**Quality Gate Check**:
+- [x] Reusable: [why]
+- [x] Non-trivial: [why]
+- [x] Specific: [trigger conditions]
+- [x] Verified: [how verified]
+- [x] No duplication: [checked against]
+
+**Will create**: `.claude/skills/[skill-name]/SKILL.md`
+
+## Conflict Check
+
+- [x] No conflicts with existing rules detected
+- OR: Warning - potential conflict with [file:line]
+
+## Commit Message
+
+```
+reflect: add learnings from session [date]
+
+Agent updates:
+- [learning 1 summary]
+
+New skills:
+- [skill-name]: [brief description]
+
+Extracted: [N] signals ([H] high, [M] medium, [L] low confidence)
 ```
 
 ## Review Prompt
-Apply these changes? (Y/N/modify/1,2,3)
+
+Apply these changes?
+- `Y` - Apply all changes and commit
+- `N` - Discard all changes
+- `modify` - Adjust specific changes
+- `1,3` - Apply only changes 1 and 3
+- `s1` - Apply only skill 1
+- `all-skills` - Apply all skills, skip agent updates
 ```
 
-### Step 5: Apply with User Approval
+### Step 6: Handle User Response
 
 **On `Y` (approve):**
 1. Apply each change using Edit tool
-2. Commit with descriptive message
-3. Update metrics
+2. Run `git add` on modified files
+3. Commit with generated message
+4. Update learnings log
+5. Update metrics
 
 **On `N` (reject):**
 1. Discard proposed changes
 2. Log rejection for analysis
+3. Ask if user wants to modify any signals
 
 **On `modify`:**
 1. Present each change individually
-2. Allow editing before applying
+2. Allow editing the proposed addition
+3. Reconfirm before applying
 
 **On selective (e.g., `1,3`):**
 1. Apply only specified changes
-2. Commit partial updates
+2. Log partial acceptance
+3. Commit only applied changes
 
-## State Management
+### Step 7: Update Metrics
 
-State is stored in `~/.reflect/` (configurable via `REFLECT_STATE_DIR`):
-
-```yaml
-# reflect-state.yaml
-auto_reflect: false
-last_reflection: "2026-01-26T10:30:00Z"
-pending_reviews: []
+```bash
+python scripts/metrics_updater.py --accepted 3 --rejected 1 --confidence high:2,medium:1
 ```
 
-### Metrics Tracking
+## Toggle Commands
 
-```yaml
-# reflect-metrics.yaml
-total_sessions_analyzed: 42
-total_signals_detected: 156
-total_changes_accepted: 89
-acceptance_rate: 78%
-confidence_breakdown:
-  high: 45
-  medium: 32
-  low: 12
-most_updated_agents:
-  code-reviewer: 23
-  backend-developer: 18
-skills_created: 5
+### Enable Auto-Reflection
+
+```bash
+/reflect on
+# Sets auto_reflect: true in state file
+# Will trigger on PreCompact hook
 ```
+
+### Disable Auto-Reflection
+
+```bash
+/reflect off
+# Sets auto_reflect: false in state file
+```
+
+### Check Status
+
+```bash
+/reflect status
+# Shows current state and metrics
+```
+
+### Review Pending
+
+```bash
+/reflect review
+# Shows low-confidence learnings awaiting validation
+```
+
+## Output Locations
+
+**Project-level (versioned with repo):**
+- `.claude/reflections/YYYY-MM-DD_HH-MM-SS.md` - Full reflection
+- `.claude/reflections/index.md` - Project summary
+- `.claude/skills/{name}/SKILL.md` - New skills
+
+**Global (user-level):**
+- `~/.claude/reflections/by-project/{project}/` - Cross-project
+- `~/.claude/reflections/by-agent/{agent}/learnings.md` - Per-agent
+- `~/.claude/reflections/index.md` - Global summary
+
+## Memory Integration
+
+Some learnings belong in **auto-memory** (`~/.claude/projects/*/memory/MEMORY.md`) rather than agent files:
+
+| Learning Type | Best Target |
+|---------------|-------------|
+| Behavioral correction ("always do X") | Agent file |
+| Project-specific pattern | MEMORY.md |
+| Recurring bug/workaround | New skill OR MEMORY.md |
+| Tool preference | CLAUDE.md |
+| Domain knowledge | MEMORY.md or compound-docs |
+
+When a signal is LOW confidence and project-specific, prefer writing to MEMORY.md over modifying agents.
 
 ## Safety Guardrails
 
@@ -180,6 +286,11 @@ skills_created: 5
 - NEVER apply changes without explicit user approval
 - Always show full diff before applying
 - Allow selective application
+
+### Git Versioning
+- All changes committed with descriptive messages
+- Easy rollback via `git revert`
+- Learning history preserved
 
 ### Incremental Updates
 - ONLY add to existing sections
@@ -191,64 +302,75 @@ skills_created: 5
 - Warn user if conflict detected
 - Suggest resolution strategy
 
-## Output Locations
+## Integration
 
-**Project-level (versioned with repo):**
-- `.claude/reflections/YYYY-MM-DD_HH-MM-SS.md` - Full reflection
-- `.claude/skills/{name}/SKILL.md` - New skills
+### With /handover
+If auto-reflection is enabled, PreCompact hook triggers reflection before handover.
 
-**Global (user-level):**
-- `~/.reflect/learnings.yaml` - Learning log
-- `~/.reflect/reflect-metrics.yaml` - Aggregate metrics
+### With Session Health
+At 70%+ context (Yellow status), reminders to run `/reflect` are injected.
 
-## Examples
+### Hook Integration (Claude Code)
 
-### Example 1: Code Style Correction
+The skill includes hook scripts for automatic integration:
 
-**User says**: "Never use `var` in TypeScript, always use `const` or `let`"
-
-**Signal detected**:
-- Confidence: HIGH (explicit "never" + "always")
-- Category: Code Style
-- Target: `frontend-developer.md`
-
-**Proposed change**:
-```diff
-## Style Guidelines
-+ * Use `const` or `let` instead of `var` in TypeScript
+```bash
+# Install hook to your Claude hooks directory
+cp hooks/precompact_reflect.py ~/.claude/hooks/
 ```
 
-### Example 2: Process Preference
+Configure in `~/.claude/settings.json`:
 
-**User says**: "Always run tests before committing"
-
-**Signal detected**:
-- Confidence: HIGH (explicit "always")
-- Category: Process
-- Target: `CLAUDE.md`
-
-**Proposed change**:
-```diff
-## Commit Hygiene
-+ * Run test suite before creating commits
+```json
+{
+  "hooks": {
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run ~/.claude/hooks/precompact_reflect.py --auto"
+          }
+        ]
+      }
+    ]
+  }
+}
 ```
 
-### Example 3: New Skill from Debugging
+See [hooks/README.md](hooks/README.md) for full configuration options.
 
-**Context**: Spent 30 minutes debugging a React hydration mismatch
+## Portability
 
-**Signal detected**:
-- Confidence: HIGH (non-trivial debugging)
-- Category: New Skill
-- Quality gates: All passed
+This skill works with any LLM tool that supports:
+- File read/write operations
+- Text pattern matching
+- Git operations (optional, for commits)
 
-**Proposed skill**: `react-hydration-fix/SKILL.md`
+### Configurable State Location
+
+```bash
+# Set custom state directory
+export REFLECT_STATE_DIR=/path/to/state
+
+# Or use default
+# ~/.reflect/ (portable default)
+# ~/.claude/session/ (Claude Code default)
+```
+
+### No Task Tool Dependency
+
+Unlike the previous agent-based approach, this skill executes directly without spawning subagents. The LLM reads SKILL.md and follows the workflow.
+
+### Git Operations Optional
+
+Commits are wrapped with availability checks - if not in a git repo, changes are still saved but not committed.
 
 ## Troubleshooting
 
 **No signals detected:**
 - Session may not have had corrections
-- Check if using natural language corrections
+- Try `/reflect review` to check pending items
 
 **Conflict warning:**
 - Review the existing rule cited
@@ -257,4 +379,28 @@ skills_created: 5
 
 **Agent file not found:**
 - Check agent name spelling
+- Use `/reflect status` to see available targets
 - May need to create agent file first
+
+## File Structure
+
+```
+reflect/
+├── SKILL.md                      # This file
+├── scripts/
+│   ├── state_manager.py          # State file CRUD
+│   ├── signal_detector.py        # Pattern matching
+│   ├── metrics_updater.py        # Metrics aggregation
+│   └── output_generator.py       # Reflection file & index generation
+├── hooks/
+│   ├── precompact_reflect.py     # PreCompact hook integration
+│   ├── settings-snippet.json     # Settings.json examples
+│   └── README.md                 # Hook configuration guide
+├── references/
+│   ├── signal_patterns.md        # Detection rules
+│   ├── agent_mappings.md         # Target mappings
+│   └── skill_template.md         # Skill generation
+└── assets/
+    ├── reflection_template.md    # Output template
+    └── learnings_schema.yaml     # Schema definition
+```

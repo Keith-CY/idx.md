@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper",
+  "generated_at": "2026-02-28T14:45:22.071Z",
+  "records": [
+    {
+      "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper#head",
+      "kind": "head",
+      "path": "/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper/HEAD.md",
+      "text": "title: prisma-schema-helper\nsummary: Configure with prisma schema helper operations. Auto-activating skill for Backend Development. Triggers on: prisma schema helper, prisma schema helper Part of the Backend Development skill category. Use when working with prisma schema helper functionality. Trigger with phrases like \"prisma schema helper\", \"prisma helper\", \"prisma\".\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-jeremylongshore, github-repo-claude-code-plugins-plus-skills\nsource_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper",
+        "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper",
+        "type": "skills",
+        "title": "prisma-schema-helper",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-jeremylongshore",
+          "github-repo-claude-code-plugins-plus-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:22.071Z",
+        "content_sha256": "7c52d6502e674073ecae1cfad98d9bfec42a0ab88559e9c14b3142e65b75af4c"
+      }
+    }
+  ]
+}

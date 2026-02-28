@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-instruments-profiling",
+  "generated_at": "2026-02-28T14:46:16.024Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-instruments-profiling#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-instruments-profiling/HEAD.md",
+      "text": "title: instruments-profiling\nsummary: Use when profiling native macOS or iOS apps.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ios-macos-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/instruments-profiling/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-instruments-profiling",
+        "topic": "openclaw-openclaw-instruments-profiling",
+        "type": "skills",
+        "title": "instruments-profiling",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ios-macos-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/instruments-profiling/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.024Z",
+        "content_sha256": "50bec926d31083d59378bcac07a4dd91a2f0098483f3b3d4067dced803a9138c"
+      }
+    }
+  ]
+}

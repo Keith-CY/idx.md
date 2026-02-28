@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-recruitment-automation",
+  "generated_at": "2026-02-28T14:46:37.999Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-recruitment-automation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-recruitment-automation/HEAD.md",
+      "text": "title: recruitment-automation\nsummary: Automated recruitment: job specs, candidate evaluation, outreach emails.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/recruitment-automation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-recruitment-automation",
+        "topic": "openclaw-openclaw-recruitment-automation",
+        "type": "skills",
+        "title": "recruitment-automation",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/recruitment-automation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.999Z",
+        "content_sha256": "d82376b69b882af73c22cd9549bcc9392493f352d9f52da1dbe9ecd606ef5013"
+      }
+    }
+  ]
+}

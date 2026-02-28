@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-engineering-skills-system-design-skill",
+  "generated_at": "2026-02-28T14:45:36.110Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-engineering-skills-system-design-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-engineering-skills-system-design-skill/HEAD.md",
+      "text": "title: system-design\nsummary: Design systems, services, and architectures. Trigger with \"design a system for\", \"how should we architect\", \"system design for\", \"what's the right architecture for\", or when the user needs help with API design, data modeling, or service boundaries.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-engineering, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/system-design/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-engineering-skills-system-design-skill",
+        "topic": "knowledge-work-plugins-engineering-skills-system-design-skill",
+        "type": "skills",
+        "title": "system-design",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-engineering",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/system-design/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.110Z",
+        "content_sha256": "8f28eca99f2208872fc2483fcc93326b628f4f73116e91309a95e05da86a0ab5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk",
+  "generated_at": "2026-02-28T14:46:04.384Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk/HEAD.md",
+      "text": "title: drivers-hours-wtd-infringement-coach-uk\nsummary: Creates a 1-page driver-facing tacho/WTD infringement note plus corrective actions and review.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/drivers-hours-wtd-infringement-coach-uk/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk",
+        "topic": "openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk",
+        "type": "skills",
+        "title": "drivers-hours-wtd-infringement-coach-uk",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/drivers-hours-wtd-infringement-coach-uk/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:04.384Z",
+        "content_sha256": "0076e6a56ba39a069430b60827f282028dd4fa38a8092bffe13bae1a71cedd04"
+      }
+    }
+  ]
+}

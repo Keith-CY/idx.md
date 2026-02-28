@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-trailofbits-skills-sharp-edges",
+  "generated_at": "2026-02-28T14:45:38.019Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-trailofbits-skills-sharp-edges#head",
+      "kind": "head",
+      "path": "/data/skills-sh-trailofbits-skills-sharp-edges/HEAD.md",
+      "text": "title: skills-sh-trailofbits-skills-sharp-edges\nsummary: # Configuration Security Patterns Dangerous configuration patterns that enable security failures. ## Zero/Empty/Null Semantics ### The Lifetime Zero Problem ```yaml # What does 0 mean? session_timeout: 0 # Infinite timeout? Immediate expiry? Disabled? token_lifetime: 0 # Never expires? Already expired? Use default? max_attempts: 0 # No attempts allowed? Unlimited attempts? ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-trailofbits-skills-sharp-edges",
+        "topic": "skills-sh-trailofbits-skills-sharp-edges",
+        "type": "skills",
+        "title": "skills-sh-trailofbits-skills-sharp-edges",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md",
+        "retrieved_at": "2026-02-28T14:45:38.019Z",
+        "content_sha256": "1d99f2716f7bef18efe71015ce0c56e0f4961c042faa503d796d6d4d1626fdc6"
+      }
+    }
+  ]
+}

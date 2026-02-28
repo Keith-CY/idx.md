@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-tesy",
+  "generated_at": "2026-02-28T14:46:48.670Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-tesy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-tesy/HEAD.md",
+      "text": "title: tesy\nsummary: > Related: [[AGENTS]], [[skills/pai-redteam/Workflows/AdversarialValidation|AdversarialValidation]].\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kipasdinding6969-alt/tesy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-tesy",
+        "topic": "openclaw-openclaw-tesy",
+        "type": "skills",
+        "title": "tesy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kipasdinding6969-alt/tesy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.670Z",
+        "content_sha256": "174c779f65765462c9cdb69fba4e1294f5e65d9d0edb3e2581863674d00d34f5"
+      }
+    }
+  ]
+}

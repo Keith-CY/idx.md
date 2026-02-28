@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-trace-to-svg",
+  "generated_at": "2026-02-28T14:46:49.963Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-trace-to-svg#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-trace-to-svg/HEAD.md",
+      "text": "title: trace-to-svg\nsummary: Trace bitmap images (PNG/JPG/WebP) into clean SVG paths using.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/trace-to-svg/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-trace-to-svg",
+        "topic": "openclaw-openclaw-trace-to-svg",
+        "type": "skills",
+        "title": "trace-to-svg",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/trace-to-svg/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:49.963Z",
+        "content_sha256": "76bcc84dcc9c9618ef75bdf6815e9e5e2fbbcdb21b8d933735ca94c39ec50751"
+      }
+    }
+  ]
+}

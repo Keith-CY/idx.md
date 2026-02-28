@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-data-reconciliation-exceptions",
+  "generated_at": "2026-02-28T14:46:02.221Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-data-reconciliation-exceptions#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-data-reconciliation-exceptions/HEAD.md",
+      "text": "title: data-reconciliation-exceptions\nsummary: Reconciles data sources using stable identifiers (Pay Number, driving licence, driver.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/data-reconciliation-exceptions/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-data-reconciliation-exceptions",
+        "topic": "openclaw-openclaw-data-reconciliation-exceptions",
+        "type": "skills",
+        "title": "data-reconciliation-exceptions",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/data-reconciliation-exceptions/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:02.221Z",
+        "content_sha256": "5adbb2326e5f77690e79fbabe57c4f2f727c4673b2594c62b256104d2c1332fb"
+      }
+    }
+  ]
+}

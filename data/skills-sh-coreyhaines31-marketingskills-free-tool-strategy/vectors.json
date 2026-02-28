@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-coreyhaines31-marketingskills-free-tool-strategy",
+  "generated_at": "2026-02-28T14:45:39.351Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-coreyhaines31-marketingskills-free-tool-strategy#head",
+      "kind": "head",
+      "path": "/data/skills-sh-coreyhaines31-marketingskills-free-tool-strategy/HEAD.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-free-tool-strategy\nsummary: # Free Tool Types Reference Detailed guide to each type of marketing tool you can build. ## Contents - Calculators - Generators - Analyzers/Auditors - Testers/Validators - Libraries/Resources - Interactive Educational - Tool Concept Examples by Industry (SaaS product, agency/services, e-commerce, developer tools, finance)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/free-tool-strategy/references/tool-types.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-free-tool-strategy",
+        "topic": "skills-sh-coreyhaines31-marketingskills-free-tool-strategy",
+        "type": "skills",
+        "title": "skills-sh-coreyhaines31-marketingskills-free-tool-strategy",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/free-tool-strategy/references/tool-types.md",
+        "retrieved_at": "2026-02-28T14:45:39.351Z",
+        "content_sha256": "3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
+      }
+    }
+  ]
+}

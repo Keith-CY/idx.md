@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-wshobson-agents-nextjs-app-router-patterns",
+  "generated_at": "2026-02-28T14:45:39.617Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-wshobson-agents-nextjs-app-router-patterns#head",
+      "kind": "head",
+      "path": "/data/skills-sh-wshobson-agents-nextjs-app-router-patterns/HEAD.md",
+      "text": "title: skills-sh-wshobson-agents-nextjs-app-router-patterns\nsummary: # RFC: React Server Components * Start Date: 2020-12-21 * RFC PR: https://github.com/reactjs/rfcs/pull/188 * React Issue: (leave this empty) > ⚠️ **NOTE: We strongly recommend [watching our talk introducing Server Components](https://reactjs.org/server-components) before reading this RFC.** # Table Of Contents * [Summary](#summary) * [Changes Since v1](#changes-since-v1) * [Basic Example](#basic-example) * [Motivation](#motivation)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/reactjs/rfcs/main/text/0188-server-components.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-wshobson-agents-nextjs-app-router-patterns",
+        "topic": "skills-sh-wshobson-agents-nextjs-app-router-patterns",
+        "type": "skills",
+        "title": "skills-sh-wshobson-agents-nextjs-app-router-patterns",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/reactjs/rfcs/main/text/0188-server-components.md",
+        "retrieved_at": "2026-02-28T14:45:39.617Z",
+        "content_sha256": "69a2811dc897b66d94690243a13ab78146a998b8753087c97d14c78a38643575"
+      }
+    }
+  ]
+}

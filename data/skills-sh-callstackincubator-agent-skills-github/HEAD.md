@@ -31,9 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/github/references/stacked-pr-workflow.md
 license: ""
 upstream_ref: https://skills.sh/callstackincubator/agent-skills/github
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.795Z
+github_stars: 937
+github_forks: 51
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.907Z
 content_sha256: 9957f4dbe0703ce704f0e695ede5384bc1a9865fdc4f7ca08e0979a0db444604
 ---

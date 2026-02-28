@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openai-curated-notion-research-documentation",
+  "generated_at": "2026-02-28T14:45:24.615Z",
+  "records": [
+    {
+      "id": "skills/openai-curated-notion-research-documentation#head",
+      "kind": "head",
+      "path": "/data/openai-curated-notion-research-documentation/HEAD.md",
+      "text": "title: openai-curated-notion-research-documentation\nsummary: --- name: notion-research-documentation description: Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations. metadata: short-description: Research Notion content and produce briefs/reports --- # Research & Documentation Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources). ## Quick start 1) Find sources with `Notion:notion-search` using targeted queries; confirm scope with the user.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-research-documentation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openai-curated-notion-research-documentation",
+        "topic": "openai-curated-notion-research-documentation",
+        "type": "skills",
+        "title": "openai-curated-notion-research-documentation",
+        "tags": [
+          "openai",
+          "source-openai-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-research-documentation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:24.615Z",
+        "content_sha256": "e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7"
+      }
+    }
+  ]
+}

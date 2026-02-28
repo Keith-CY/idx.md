@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-table-image",
+  "generated_at": "2026-02-28T14:46:47.110Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-table-image#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-table-image/HEAD.md",
+      "text": "title: table-image\nsummary: Generate images from tables for better readability in messaging apps like Telegram.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joargp/table-image/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-table-image",
+        "topic": "openclaw-openclaw-table-image",
+        "type": "skills",
+        "title": "table-image",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joargp/table-image/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:47.110Z",
+        "content_sha256": "b5ec5cb0f1837863214406b1e918608d381a2a7db6005ff59fa2dbd1b481fd5b"
+      }
+    }
+  ]
+}

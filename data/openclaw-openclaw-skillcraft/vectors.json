@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skillcraft",
+  "generated_at": "2026-02-28T14:46:43.311Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skillcraft#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skillcraft/HEAD.md",
+      "text": "title: skillcraft\nsummary: Create, design, and package Clawdbot skills.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmz1/skillcraft/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skillcraft",
+        "topic": "openclaw-openclaw-skillcraft",
+        "type": "skills",
+        "title": "skillcraft",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jmz1/skillcraft/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.311Z",
+        "content_sha256": "d2e8a417c2b53b1c2aa9dc517378975323a6b24deace108ee042824517ca3270"
+      }
+    }
+  ]
+}

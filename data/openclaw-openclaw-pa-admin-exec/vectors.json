@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pa-admin-exec",
+  "generated_at": "2026-02-28T14:46:30.852Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pa-admin-exec#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pa-admin-exec/HEAD.md",
+      "text": "title: pa-admin-exec\nsummary: Generates exec-support outputs (plan, prioritized tasks, comms drafts, meeting.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/pa-admin-exec/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pa-admin-exec",
+        "topic": "openclaw-openclaw-pa-admin-exec",
+        "type": "skills",
+        "title": "pa-admin-exec",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/pa-admin-exec/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.852Z",
+        "content_sha256": "e129972ac0a321336335e237298accf0c072855b12064082340df78a50e540bf"
+      }
+    }
+  ]
+}

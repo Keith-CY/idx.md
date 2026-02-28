@@ -7,13 +7,14 @@ metadata:
       {
         "emoji": "🦣",
         "requires": { "anyBins": ["{baseDir}/bin/mastodon-scout", "mastodon-scout"] },
+        "envVars": [{ "name": "MASTODON_TOKEN", "required": true }],
         "install":
           [
             {
               "id": "download-darwin-arm64",
               "kind": "download",
               "os": ["darwin"],
-              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.2/mastodon-scout-darwin-arm64.zip",
+              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.4/mastodon-scout-darwin-arm64.zip",
               "archive": "zip",
               "bins": ["mastodon-scout"],
               "targetDir": "{baseDir}/bin",
@@ -23,7 +24,7 @@ metadata:
               "id": "download-darwin-amd64",
               "kind": "download",
               "os": ["darwin"],
-              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.2/mastodon-scout-darwin-amd64.zip",
+              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.4/mastodon-scout-darwin-amd64.zip",
               "archive": "zip",
               "bins": ["mastodon-scout"],
               "targetDir": "{baseDir}/bin",
@@ -33,7 +34,7 @@ metadata:
               "id": "download-linux-amd64",
               "kind": "download",
               "os": ["linux"],
-              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.2/mastodon-scout-linux-amd64.zip",
+              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.4/mastodon-scout-linux-amd64.zip",
               "archive": "zip",
               "bins": ["mastodon-scout"],
               "targetDir": "{baseDir}/bin",
@@ -43,7 +44,7 @@ metadata:
               "id": "download-windows-amd64",
               "kind": "download",
               "os": ["win32"],
-              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.2/mastodon-scout-windows-amd64.zip",
+              "url": "https://github.com/patelhiren/mastodon-scout/releases/download/v1.0.4/mastodon-scout-windows-amd64.zip",
               "archive": "zip",
               "bins": ["mastodon-scout.exe"],
               "targetDir": "{baseDir}/bin",
@@ -65,8 +66,8 @@ Read-only Mastodon CLI that fetches data from the Mastodon API. Returns human-re
 ## Invocation Rules (MANDATORY)
 
 ### Binary Selection
-- **macOS / Darwin** → `dist/mastodon-scout`
-- **Linux** → `dist/mastodon-scout-linux`
+- **macOS / Darwin** → `{baseDir}/bin/mastodon-scout`
+- **Linux** → `{baseDir}/bin/mastodon-scout`
 
 ### Commands
 
@@ -202,7 +203,7 @@ export MASTODON_TOKEN="paste_token_here"
 
 **Step 5: Verify Token Works**
 ```bash
-./dist/mastodon-scout home
+{baseDir}/bin/mastodon-scout home
 ```
 
 ### Common Mastodon Instances:

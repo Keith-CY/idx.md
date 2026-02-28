@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-whoop-health-analysis",
+  "generated_at": "2026-02-28T14:46:55.768Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-whoop-health-analysis#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-whoop-health-analysis/HEAD.md",
+      "text": "title: whoop-health\nsummary: Whoop health data with interactive charts and visualizations.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rodrigouroz/whoop-health-analysis/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-whoop-health-analysis",
+        "topic": "openclaw-openclaw-whoop-health-analysis",
+        "type": "skills",
+        "title": "whoop-health",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rodrigouroz/whoop-health-analysis/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:55.768Z",
+        "content_sha256": "4f9e99a32c8b5e4ad5224df190894cc885e430eec71de3ab0667beef2af133b9"
+      }
+    }
+  ]
+}

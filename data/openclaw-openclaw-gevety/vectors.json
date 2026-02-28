@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gevety",
+  "generated_at": "2026-02-28T14:46:10.547Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gevety#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gevety/HEAD.md",
+      "text": "title: gevety\nsummary: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily action.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/moclippa/gevety/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gevety",
+        "topic": "openclaw-openclaw-gevety",
+        "type": "skills",
+        "title": "gevety",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/moclippa/gevety/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.547Z",
+        "content_sha256": "e77d3634a7cebff2428023d8425b10ae5f23b0114ae53940db3c2786b83407af"
+      }
+    }
+  ]
+}

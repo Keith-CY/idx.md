@@ -94,6 +94,28 @@ Audio playback (rodio)
 - **Quotes in text:** Use escaping: `speakturbo "She said \"hello\""`
 - **Long text:** Supported, streams as it generates
 
+## Output Path Security
+
+The `-o` flag only writes to directories that are on the allowlist. By default, these are:
+
+- `/tmp` and system temp directories
+- Your current working directory
+- `~/.speakturbo/`
+
+If you need to write elsewhere, use `--allow-dir`:
+
+```bash
+speakturbo "Hello" -o /custom/path/audio.wav --allow-dir /custom/path
+```
+
+To permanently allow a directory, add it to `~/.speakturbo/config`:
+
+```bash
+mkdir -p ~/.speakturbo && echo "/custom/path" >> ~/.speakturbo/config
+```
+
+The config file is one directory per line. Lines starting with `#` are comments.
+
 ## Exit Codes
 
 | Code | Meaning |

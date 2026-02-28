@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-checkers-sixty60",
+  "generated_at": "2026-02-28T14:45:55.069Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-checkers-sixty60#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-checkers-sixty60/HEAD.md",
+      "text": "title: checkers-sixty60\nsummary: Shop on Checkers.co.za Sixty60 delivery service via browser automation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/snopoke/checkers-sixty60/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-checkers-sixty60",
+        "topic": "openclaw-openclaw-checkers-sixty60",
+        "type": "skills",
+        "title": "checkers-sixty60",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/snopoke/checkers-sixty60/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:55.069Z",
+        "content_sha256": "38a067876156db27adc87c483295654fb900b7ad598e2c257e6160db72e4020c"
+      }
+    }
+  ]
+}

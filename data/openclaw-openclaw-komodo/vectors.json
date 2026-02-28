@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-komodo",
+  "generated_at": "2026-02-28T14:46:18.734Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-komodo#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-komodo/HEAD.md",
+      "text": "title: komodo\nsummary: Manage Komodo infrastructure - servers, Docker deployments, stacks, builds.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/weird-aftertaste/komodo/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-komodo",
+        "topic": "openclaw-openclaw-komodo",
+        "type": "skills",
+        "title": "komodo",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/weird-aftertaste/komodo/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:18.734Z",
+        "content_sha256": "e9d083c3329708d40cc8bfa9852750a8144f63cde1aea37c606d9f6a512b8b6b"
+      }
+    }
+  ]
+}

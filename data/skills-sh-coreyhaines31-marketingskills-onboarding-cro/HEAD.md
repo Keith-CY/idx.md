@@ -8,30 +8,33 @@ summary: >-
   Comprehensive list of A/B tests and experiments for user onboarding and
   activation.
 
-  ## Flow Simplification Experiments
+  ## Contents
 
-  ### Reduce Friction
+  - Flow Simplification Experiments (reduce friction, step sequencing, progress
+  & motivation)
 
-  | Test | Hypothesis |
+  - Guided Experience Experiments (product tours, CTA optimization, UI guidance)
 
-  |------|------------|
+  - Personalization Experiments (user segmentation, dynamic content)
 
-  | Email verification timing | During vs. after onboarding |
+  - Quick Wins & Engagement Experiments (time-to-value, motivation mechanics,
+  support & help)
 
-  | Empty states vs. dummy data | Pre-populated examples |
+  - Email & Multi-Channel Experiments (onboarding emails, email content,
+  feedback loops)
 
-  | Pre-filled templates | Accelerate setup with templates |
+  - Re-engagement Experiments (stalled user recovery, return experience)
 
-  | OAuth options | Faster account linking |
+  - Technical & UX Experiments (performance, mobile onboarding, accessibility)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/onboarding-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/onboarding-cro
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.783Z
-content_sha256: 63c24ced8a8bd8d2ca7c9d9eb426d034e2f9235ae1c34c89aa1cd3344b9a1379
+github_stars: 8300
+github_forks: 1060
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.359Z
+content_sha256: b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932
 ---

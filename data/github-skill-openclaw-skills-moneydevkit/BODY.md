@@ -1,6 +1,20 @@
 ---
 name: moneydevkit
 description: Accept payments on any website using moneydevkit. Use when building a site that sells something, adding a checkout/paywall, or integrating payments into a Next.js or Replit app. Supports fixed pricing, pay-what-you-want, products, customers, and orders. Bitcoin Lightning under the hood — works globally, no bank account needed.
+metadata:
+  openclaw:
+    requires:
+      env:
+        - MDK_ACCESS_TOKEN
+        - MDK_MNEMONIC
+      bins:
+        - npx
+    optional:
+      bins:
+        - mcporter
+    endpoints:
+      - https://mcp.moneydevkit.com
+      - https://docs.moneydevkit.com
 ---
 
 # moneydevkit
@@ -100,6 +114,25 @@ If the [moneydevkit MCP server](https://mcp.moneydevkit.com/mcp/account/) is con
 - `list-checkouts` / `get-checkout` — view checkout sessions
 - `list-orders` / `get-order` — view completed payments
 - `search-docs` — search moneydevkit documentation
+
+## Security
+
+⚠️ **MDK_MNEMONIC is a wallet seed phrase** — treat it like a private key.
+
+- **Never commit** it to git or share in chat messages
+- **Never log** it in application output or error handlers
+- Use **environment variables** or a **secrets manager** (Vercel env vars, Replit Secrets, AWS Secrets Manager, etc.)
+- For production: prefer **separate apps with limited-scope keys** rather than reusing one mnemonic across projects
+- The mnemonic controls the Lightning wallet that receives payments — if compromised, funds can be stolen
+- **Test with signet/testnet** credentials first before using mainnet
+
+**MDK_ACCESS_TOKEN** is an API key scoped to your app. Rotate it via the dashboard or MCP (`rotate-api-key`) if compromised.
+
+**External endpoints** used by this skill:
+- `mcp.moneydevkit.com` — MCP server for account management (HTTPS, OAuth)
+- `docs.moneydevkit.com` — documentation
+
+**Source code:** [@moneydevkit on npm](https://www.npmjs.com/org/moneydevkit) · [docs.moneydevkit.com](https://docs.moneydevkit.com)
 
 ## Docs
 

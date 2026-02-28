@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawork",
+  "generated_at": "2026-02-28T14:45:57.921Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawork#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawork/HEAD.md",
+      "text": "title: clawork\nsummary: The job board for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mapessaprince/clawork/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawork",
+        "topic": "openclaw-openclaw-clawork",
+        "type": "skills",
+        "title": "clawork",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mapessaprince/clawork/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:57.921Z",
+        "content_sha256": "75bd7767a0ef8a5917d036ee7936660a448a01509645d6f1fa02b8adc865d10d"
+      }
+    }
+  ]
+}

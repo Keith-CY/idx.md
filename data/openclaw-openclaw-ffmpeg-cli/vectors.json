@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ffmpeg-cli",
+  "generated_at": "2026-02-28T14:46:07.711Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ffmpeg-cli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ffmpeg-cli/HEAD.md",
+      "text": "title: ffmpeg-cli\nsummary: Comprehensive video/audio processing with FFmpeg.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ascendswang/ffmpeg-cli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ffmpeg-cli",
+        "topic": "openclaw-openclaw-ffmpeg-cli",
+        "type": "skills",
+        "title": "ffmpeg-cli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ascendswang/ffmpeg-cli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:07.711Z",
+        "content_sha256": "ef9ff1fb135c4919f688ae07cf9a3ba5a537ebd5e76f00edd3afad2e537a8a2d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-avito",
+  "generated_at": "2026-02-28T14:45:50.244Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-avito#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-avito/HEAD.md",
+      "text": "title: avito\nsummary: Manage Avito.ru account, items, and messenger via API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ruslanlanket/avito/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-avito",
+        "topic": "openclaw-openclaw-avito",
+        "type": "skills",
+        "title": "avito",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ruslanlanket/avito/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:50.244Z",
+        "content_sha256": "c9a26a82abdfa1d4d2f1bb64e884277eb5797d21a464c8f5db30af2b177472d8"
+      }
+    }
+  ]
+}

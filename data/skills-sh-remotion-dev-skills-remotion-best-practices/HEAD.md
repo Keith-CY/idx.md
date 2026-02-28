@@ -27,9 +27,9 @@ tags:
 source_url: https://raw.githubusercontent.com/remotion-dev/skills/HEAD/skills/remotion/rules/subtitles.md
 license: ""
 upstream_ref: https://skills.sh/remotion-dev/skills/remotion-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.915Z
+github_stars: 1812
+github_forks: 219
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.281Z
 content_sha256: 9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30
 ---

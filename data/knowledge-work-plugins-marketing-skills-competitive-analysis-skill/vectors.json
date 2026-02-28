@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-marketing-skills-competitive-analysis-skill",
+  "generated_at": "2026-02-28T14:45:30.264Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-marketing-skills-competitive-analysis-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-marketing-skills-competitive-analysis-skill/HEAD.md",
+      "text": "title: competitive-analysis\nsummary: Research competitors and compare positioning, messaging, content strategy, and market presence. Use when analyzing a competitor, building battlecards, identifying content gaps, comparing feature messaging, or preparing competitive positioning recommendations.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-marketing, plugin-component-skills, plugin-skill, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-analysis/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-marketing-skills-competitive-analysis-skill",
+        "topic": "knowledge-work-plugins-marketing-skills-competitive-analysis-skill",
+        "type": "skills",
+        "title": "competitive-analysis",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-marketing",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-analysis/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:30.264Z",
+        "content_sha256": "cbce9a731eac10569e20347495ae14ab980f7917bd697d24cea89f10248e20bd"
+      }
+    }
+  ]
+}

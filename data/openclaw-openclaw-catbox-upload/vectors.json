@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-catbox-upload",
+  "generated_at": "2026-02-28T14:45:54.569Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-catbox-upload#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-catbox-upload/HEAD.md",
+      "text": "title: catbox-upload\nsummary: Upload files to catbox.moe (permanent) or litterbox.catbox.moe (temporary).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/microck/catbox-upload/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-catbox-upload",
+        "topic": "openclaw-openclaw-catbox-upload",
+        "type": "skills",
+        "title": "catbox-upload",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/microck/catbox-upload/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:54.569Z",
+        "content_sha256": "bdedbc03ba81333c343568b91de1991a4daf3f61296f7e58c8c8d6a12a93d6b6"
+      }
+    }
+  ]
+}

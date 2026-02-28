@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-confluence",
+  "generated_at": "2026-02-28T14:45:59.765Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-confluence#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-confluence/HEAD.md",
+      "text": "title: confluence\nsummary: Search and manage Confluence pages and spaces using confluence-cli.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/francisbrero/confluence/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-confluence",
+        "topic": "openclaw-openclaw-confluence",
+        "type": "skills",
+        "title": "confluence",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/francisbrero/confluence/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:59.765Z",
+        "content_sha256": "55f6271a72c064a4e14313c87297bc5209785e480c9e91e49e869b1b3bdbc9a6"
+      }
+    }
+  ]
+}

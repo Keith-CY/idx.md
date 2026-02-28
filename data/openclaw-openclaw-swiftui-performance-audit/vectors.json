@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-swiftui-performance-audit",
+  "generated_at": "2026-02-28T14:46:46.619Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-swiftui-performance-audit#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-swiftui-performance-audit/HEAD.md",
+      "text": "title: swiftui-performance-audit\nsummary: Audit and improve SwiftUI runtime performance from code review and architecture.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ios-macos-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-performance-audit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-swiftui-performance-audit",
+        "topic": "openclaw-openclaw-swiftui-performance-audit",
+        "type": "skills",
+        "title": "swiftui-performance-audit",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ios-macos-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-performance-audit/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:46.619Z",
+        "content_sha256": "76bb355c9032f25e8120842fdc911668c320717380073e77e71bab90c67d7f96"
+      }
+    }
+  ]
+}

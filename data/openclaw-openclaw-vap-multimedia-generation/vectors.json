@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-vap-multimedia-generation",
+  "generated_at": "2026-02-28T14:46:52.474Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-vap-multimedia-generation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-vap-multimedia-generation/HEAD.md",
+      "text": "title: vap-multimedia-generation\nsummary: AI image, video.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/elestirelbilinc-sketch/vap-multimedia-generation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-vap-multimedia-generation",
+        "topic": "openclaw-openclaw-vap-multimedia-generation",
+        "type": "skills",
+        "title": "vap-multimedia-generation",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/elestirelbilinc-sketch/vap-multimedia-generation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:52.474Z",
+        "content_sha256": "14222905a3ceb08989f88241da163449e37941a78224d5e7ad41fb87865398b3"
+      }
+    }
+  ]
+}

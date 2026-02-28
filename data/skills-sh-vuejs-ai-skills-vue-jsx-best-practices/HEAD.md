@@ -38,9 +38,9 @@ tags:
 source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-jsx-best-practices/reference/render-function-jsx-vue-vs-react.md
 license: ""
 upstream_ref: https://skills.sh/vuejs-ai/skills/vue-jsx-best-practices
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.182Z
+github_stars: 1702
+github_forks: 84
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:40.840Z
 content_sha256: da8c635b448b23360bf1c53eea02b004bb755a712a0325c8851f9c33a072c834
 ---

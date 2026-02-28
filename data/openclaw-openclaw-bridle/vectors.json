@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bridle",
+  "generated_at": "2026-02-28T14:45:53.174Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bridle#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bridle/HEAD.md",
+      "text": "title: bridle\nsummary: Unified configuration manager for AI coding assistants.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/bridle/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bridle",
+        "topic": "openclaw-openclaw-bridle",
+        "type": "skills",
+        "title": "bridle",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/bridle/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.174Z",
+        "content_sha256": "96c68852b0d319abd0f5215a8a26465b929ad5bdd45195e438bc1ee6a16476e6"
+      }
+    }
+  ]
+}

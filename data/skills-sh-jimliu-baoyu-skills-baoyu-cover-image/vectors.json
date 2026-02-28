@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-jimliu-baoyu-skills-baoyu-cover-image",
+  "generated_at": "2026-02-28T14:45:39.754Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-cover-image#head",
+      "kind": "head",
+      "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-cover-image/HEAD.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-cover-image\nsummary: # Style Presets `--style X` expands to a palette + rendering combination. Users can override either dimension. | --style | Palette | Rendering | |---------|---------|-----------| | `elegant` | `elegant` | `hand-drawn` | | `blueprint` | `cool` | `digital` | | `chalkboard` | `dark` | `chalk` | | `dark-atmospheric` | `dark` | `digital` | | `editorial-infographic` | `cool` | `digital` | | `fantasy-animation` | `pastel` | `painterly` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-cover-image/references/style-presets.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-cover-image",
+        "topic": "skills-sh-jimliu-baoyu-skills-baoyu-cover-image",
+        "type": "skills",
+        "title": "skills-sh-jimliu-baoyu-skills-baoyu-cover-image",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-cover-image/references/style-presets.md",
+        "retrieved_at": "2026-02-28T14:45:39.754Z",
+        "content_sha256": "78d4c3740c46e6bf3bffd2a07d5bddca9ec3d73688ad745df2641c4039de5d9d"
+      }
+    }
+  ]
+}

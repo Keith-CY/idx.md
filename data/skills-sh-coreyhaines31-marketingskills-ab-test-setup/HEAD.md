@@ -7,31 +7,31 @@ summary: >-
 
   Reference for calculating sample sizes and test duration.
 
-  ## Sample Size Fundamentals
+  ## Contents
 
-  ### Required Inputs
+  - Sample Size Fundamentals (required inputs, what these mean)
 
-  1. **Baseline conversion rate**: Your current rate
+  - Sample Size Quick Reference Tables
 
-  2. **Minimum detectable effect (MDE)**: Smallest change worth detecting
+  - Duration Calculator (formula, examples, minimum duration rules, maximum
+  duration guidelines)
 
-  3. **Statistical significance level**: Usually 95% (α = 0.05)
+  - Online Calculators
 
-  4. **Statistical power**: Usually 80% (β = 0.20)
+  - Adjusting for Multiple Variants
 
-  ### What These Mean
+  - Common Sample Size Mistakes
 
-  **Baseline conversion rate**: If your page converts at 5%, that's your
-  baseline.
+  - When Sample Size Requirements Are Too High
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ab-test-setup/references/sample-size-guide.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:45.133Z
-content_sha256: b46fb00f3d4147bc0b1dbe1be95db65c3c7e2cf092727afe864a2f7e5524f272
+github_stars: 8840
+github_forks: 1172
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:34.278Z
+content_sha256: 96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2
 ---

@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-coreyhaines31-marketingskills-copywriting",
+  "generated_at": "2026-02-28T14:45:38.948Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-coreyhaines31-marketingskills-copywriting#head",
+      "kind": "head",
+      "path": "/data/skills-sh-coreyhaines31-marketingskills-copywriting/HEAD.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-copywriting\nsummary: # Copy Frameworks Reference Headline formulas, page section types, and structural templates. ## Contents - Headline Formulas (outcome-focused, problem-focused, audience-focused, differentiation-focused, proof-focused, additional formulas) - Landing Page Section Types (core sections, supporting sections) - Page Structure Templates (feature-heavy page, varied engaging page, compact landing page, enterprise/B2B landing page, product launch page) - Section Writing Tips (problem section, benefits section, how it works section, testimonial selection) ## Headline Formulas ### Outcome-Focused **{Achieve desirable outcome} without {pain point}**\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-copywriting",
+        "topic": "skills-sh-coreyhaines31-marketingskills-copywriting",
+        "type": "skills",
+        "title": "skills-sh-coreyhaines31-marketingskills-copywriting",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md",
+        "retrieved_at": "2026-02-28T14:45:38.948Z",
+        "content_sha256": "f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186"
+      }
+    }
+  ]
+}

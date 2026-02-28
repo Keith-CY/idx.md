@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-omnifocus-automation",
+  "generated_at": "2026-02-28T14:46:28.540Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-omnifocus-automation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-omnifocus-automation/HEAD.md",
+      "text": "title: omnifocus\nsummary: OmniFocus tasks, projects, and GTD workflows via Omni Automation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/omnifocus-automation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-omnifocus-automation",
+        "topic": "openclaw-openclaw-omnifocus-automation",
+        "type": "skills",
+        "title": "omnifocus",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/omnifocus-automation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:28.540Z",
+        "content_sha256": "4a35b2f581dc7fc2e70045d6fcb9a8ff5e0f77709cc69d85ef1d429459ebcb39"
+      }
+    }
+  ]
+}

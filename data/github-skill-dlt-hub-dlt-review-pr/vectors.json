@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-dlt-hub-dlt-review-pr",
+  "generated_at": "2026-02-28T14:45:21.858Z",
+  "records": [
+    {
+      "id": "skills/github-skill-dlt-hub-dlt-review-pr#head",
+      "kind": "head",
+      "path": "/data/github-skill-dlt-hub-dlt-review-pr/HEAD.md",
+      "text": "title: review-pr\nsummary: Analyze a GitHub pull request including diff, comments, related issues, and local code context\ntype: skills\ntags: github-skill-search, source-github-code-search, category-git-github, github-owner-dlt-hub, github-repo-dlt\nsource_url: https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-dlt-hub-dlt-review-pr",
+        "topic": "github-skill-dlt-hub-dlt-review-pr",
+        "type": "skills",
+        "title": "review-pr",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-git-github",
+          "github-owner-dlt-hub",
+          "github-repo-dlt"
+        ],
+        "source_url": "https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:21.858Z",
+        "content_sha256": "4840da2d82e0aaad3006247d17cd0b78c8634e1a4a6d6fa9f3d11927c219260d"
+      }
+    }
+  ]
+}

@@ -1,8 +1,17 @@
 ---
 name: voice-ai-tts
 description: >
-  High-quality voice synthesis with 9 personas, 11 languages, streaming, and voice cloning using Voice.ai API.
-version: 1.0.0
+  High-quality voice synthesis with 9 personas, 11 languages, and streaming using Voice.ai API.
+version: 1.1.4
+tags: [tts, voice, speech, voice-ai, audio, streaming, multilingual]
+metadata:
+  openclaw:
+    requires:
+      bins: ["node"]
+      env:
+        VOICE_AI_API_KEY: "required"
+      primary_env: "VOICE_AI_API_KEY"
+      note: "Set VOICE_AI_API_KEY via an environment variable."
 ---
 
 # Voice.ai Voices
@@ -12,7 +21,6 @@ version: 1.0.0
 - **9 Voice Personas** - Carefully curated voices for different use cases
 - **11 Languages** - Multi-language synthesis with multilingual model
 - **Streaming Mode** - Real-time audio output as it generates
-- **Voice Cloning** - Clone voices from audio samples
 - **Voice Design** - Customize with temperature and top_p parameters
 - **OpenClaw Integration** - Works with OpenClaw's built-in TTS
 
@@ -20,58 +28,47 @@ version: 1.0.0
 
 ## ⚙️ Configuration
 
-The scripts look for your API key in this order:
-
-1. `VOICE_AI_API_KEY` environment variable
-2. OpenClaw config (`~/.openclaw/openclaw.json`)
-3. Skill-local `.env` file
-
-**Get your API key:** [Voice.ai Dashboard](https://voice.ai/dashboard)
-
-### Create `.env` file (Recommended)
-
-```bash
-echo 'VOICE_AI_API_KEY=your-key-here' > .env
-```
-
-### Or export directly
+Set your API key as an environment variable:
 
 ```bash
 export VOICE_AI_API_KEY="your-api-key"
 ```
 
+**Get your API key:** [Voice.ai Dashboard](https://voice.ai/dashboard)
+
+---
+
+## 📦 Installation
+
+No install step is required. This skill bundles a Node.js CLI and SDK (no external npm dependencies).
+
+## 🧩 Key Files
+
+- [`scripts/tts.js`](scripts/tts.js) - CLI entrypoint
+- [`voice-ai-tts-sdk.js`](voice-ai-tts-sdk.js) - Node.js SDK used by the CLI
+- [`voices.json`](voices.json) - Voice definitions used by the CLI
+- [`voice-ai-tts.yaml`](voice-ai-tts.yaml) - API specification
+- [`package.json`](package.json) - Skill metadata for tooling
+
+## Security Notes
+
+See [`SECURITY.md`](SECURITY.md) for the full security and privacy overview.
+
+This skill:
+- Makes outbound HTTPS requests only to `https://dev.voice.ai`
+- Reads local files: `voices.json`
+- Writes audio output to the `--output` path (default `output.mp3`)
+- Does not execute shell commands and does not modify system configuration files
+
+## 🌐 API Endpoint
+
+The SDK and spec use `https://dev.voice.ai`, which is the official Voice.ai production API domain.
+
 ---
 
 ## 🤖 OpenClaw Integration
 
-Add this skill to your OpenClaw configuration at `~/.openclaw/openclaw.json`:
-
-```json
-{
-  "skills": {
-    "voice-ai-tts": {
-      "enabled": true,
-      "api_key": "your-voice-ai-api-key",
-      "default_voice": "ellie",
-      "default_format": "mp3"
-    }
-  },
-  "tts": {
-    "skill": "voice-ai-tts",
-    "voice_id": "d1bf0f33-8e0e-4fbf-acf8-45c3c6262513",
-    "streaming": true
-  }
-}
-```
-
-### YAML config alternative
-
-```yaml
-tts:
-  skill: voice-ai-tts
-  voice_id: d1bf0f33-8e0e-4fbf-acf8-45c3c6262513
-  streaming: true
-```
+OpenClaw can invoke the CLI script directly if your environment exposes `VOICE_AI_API_KEY`. Use the `/tts` commands as configured by your OpenClaw installation.
 
 ---
 
@@ -85,7 +82,6 @@ These chat commands work with OpenClaw:
 | `/tts --voice ellie <text>` | Generate speech with specific voice |
 | `/tts --stream <text>` | Generate with streaming mode |
 | `/voices` | List available voices |
-| `/clone <audio_url>` | Clone a voice from audio |
 
 **Examples:**
 
@@ -105,11 +101,11 @@ These chat commands work with OpenClaw:
 | oliver  | `f9e6a5eb-a7fd-4525-9e92-75125249c933` | male   | british     | Narration, tutorials       |
 | lilith  | `4388040c-8812-42f4-a264-f457a6b2b5b9` | female | soft        | ASMR, calm content         |
 | smooth  | `dbb271df-db25-4225-abb0-5200ba1426bc` | male   | deep        | Documentaries, audiobooks  |
-| corpse  | `72d2a864-b236-402e-a166-a838ccc2c273` | male   | distinctive | Gaming, entertainment      |
-| skadi   | `559d3b72-3e79-4f11-9b62-9ec702a6c057` | female | anime       | Character voices           |
-| zhongli | `ed751d4d-e633-4bb0-8f5e-b5c8ddb04402` | male   | deep        | Gaming, dramatic content   |
+| shadow  | `72d2a864-b236-402e-a166-a838ccc2c273` | male   | distinctive | Gaming, entertainment      |
+| sakura  | `559d3b72-3e79-4f11-9b62-9ec702a6c057` | female | anime       | Character voices           |
+| zenith  | `ed751d4d-e633-4bb0-8f5e-b5c8ddb04402` | male   | deep        | Gaming, dramatic content   |
 | flora   | `a931a6af-fb01-42f0-a8c0-bd14bc302bb1` | female | cheerful    | Kids content, upbeat       |
-| chief   | `bd35e4e6-6283-46b9-86b6-7cfa3dd409b9` | male   | heroic      | Gaming, action content     |
+| commander | `bd35e4e6-6283-46b9-86b6-7cfa3dd409b9` | male   | heroic      | Gaming, action content     |
 
 ---
 
@@ -213,7 +209,7 @@ See `voice-ai-tts-sdk.js` for all format options.
 
 ```bash
 # Set API key
-echo 'VOICE_AI_API_KEY=your-key-here' > .env
+export VOICE_AI_API_KEY="your-key-here"
 
 # Generate speech
 node scripts/tts.js --text "Hello world!" --voice ellie
@@ -230,47 +226,21 @@ node scripts/tts.js --help
 
 ---
 
-## 🧬 Voice Cloning
-
-Clone any voice from an audio sample:
-
-```javascript
-const VoiceAI = require('./voice-ai-tts-sdk');
-const client = new VoiceAI(process.env.VOICE_AI_API_KEY);
-
-// Clone from file
-const result = await client.cloneVoice({
-  file: './my-voice-sample.mp3',
-  name: 'My Custom Voice',
-  visibility: 'PRIVATE',
-  language: 'en'
-});
-
-console.log('Voice ID:', result.voice_id);
-console.log('Status:', result.status);
-
-// Wait for voice to be ready
-const voice = await client.waitForVoice(result.voice_id);
-console.log('Voice ready!', voice);
-```
-
-**Requirements:**
-- Audio sample: 10-30 seconds recommended
-- Clear speech, minimal background noise
-- Supported formats: MP3, WAV, M4A
-
----
-
 ## 📁 Files
 
 ```
 voice-ai-tts/
 ├── SKILL.md              # This documentation
+├── README.md             # Quick start
+├── CHANGELOG.md          # Version history
+├── LICENSE.md            # MIT license
+├── SECURITY.md           # Security & privacy notes
+├── voices.json           # Voice definitions
 ├── voice-ai-tts.yaml     # OpenAPI specification
 ├── voice-ai-tts-sdk.js   # JavaScript/Node.js SDK
+├── package.json          # OpenClaw metadata
 ├── scripts/
 │   └── tts.js            # CLI tool
-└── .env                  # API key (create this)
 ```
 
 ---
@@ -304,12 +274,31 @@ const voices = await client.listVoices();
 
 ## 📋 Changelog
 
+### v1.1.4 (2026-02-16)
+- Declare `VOICE_AI_API_KEY` as primary env var in metadata
+
+### v1.1.3 (2026-02-16)
+- Remove voice-sample upload features from the published bundle to reduce privacy risk
+- Require `VOICE_AI_API_KEY` via environment variable only
+
+### v1.1.2 (2026-02-16)
+- Added `SECURITY.md` and `LICENSE.md` for provenance and transparency
+- Restricted SDK transport to HTTPS only
+
+### v1.1.1 (2026-02-16)
+- Packaging metadata improvements for ClawHub import (bin/files metadata)
+
+### v1.1.0 (2026-02-16)
+- Declared required credentials in metadata
+- Documented the production API endpoint domain
+- Renamed voice personas for IP-safe labeling
+- Added `voices.json` for voice data
+
 ### v1.0.0 (2025-01-31)
 - Initial release
 - 9 curated voice personas
 - 11 language support
 - Streaming mode
-- Voice cloning
 - Voice design parameters
 - Full SDK with error handling
 - CLI tool
@@ -345,12 +334,6 @@ await client.generateSpeechToFile(
 const stream = await client.streamSpeech({
   text: 'Long text...',
   voice_id: 'voice-id'
-});
-
-// Clone voice
-const clone = await client.cloneVoice({
-  file: './sample.mp3',
-  name: 'My Voice'
 });
 
 // Delete voice

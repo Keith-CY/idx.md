@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-firecrawl-skills",
+  "generated_at": "2026-02-28T14:46:08.162Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-firecrawl-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-firecrawl-skills/HEAD.md",
+      "text": "title: firecrawl-skills\nsummary: --- name: firecrawl-cli description: | Firecrawl CLI for web scraping, crawling, and search. Scrape single pages or entire websites, map site URLs, and search the web with full content extraction. Returns clean markdown optimized for LLM context. Use for research, documentation extraction, competitive intelligence, and content monitoring. --- # Firecrawl CLI Use the `firecrawl` CLI to fetch and search the web. Firecrawl returns clean markdown optimized for LLM context windows, handles JavaScript rendering, bypasses common blocks, and provides structured data. ## Installation Check status, auth, and rate limits: ```bash\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leonardogrig/firecrawl-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-firecrawl-skills",
+        "topic": "openclaw-openclaw-firecrawl-skills",
+        "type": "skills",
+        "title": "firecrawl-skills",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/leonardogrig/firecrawl-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:08.162Z",
+        "content_sha256": "e9f95472ea84d499add1366216d5f0ac362d3f7452b44bfa78d5698d2b8da48c"
+      }
+    }
+  ]
+}

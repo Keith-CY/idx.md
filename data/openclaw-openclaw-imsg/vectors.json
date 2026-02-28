@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-imsg",
+  "generated_at": "2026-02-28T14:46:15.460Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-imsg#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-imsg/HEAD.md",
+      "text": "title: imsg\nsummary: iMessage/SMS CLI for listing chats, history, watch.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/imsg/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-imsg",
+        "topic": "openclaw-openclaw-imsg",
+        "type": "skills",
+        "title": "imsg",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/imsg/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:15.460Z",
+        "content_sha256": "8e9e9b4465f73f5e8bb59b4905ee067e8b2ea9d57202b68852e11383f46a81b4"
+      }
+    }
+  ]
+}

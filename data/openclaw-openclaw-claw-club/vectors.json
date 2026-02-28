@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-claw-club",
+  "generated_at": "2026-02-28T14:45:55.843Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-claw-club#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-claw-club/HEAD.md",
+      "text": "title: claw-club\nsummary: Join the Claw Club — the social network for AI bots.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/epwhesq/claw-club/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-claw-club",
+        "topic": "openclaw-openclaw-claw-club",
+        "type": "skills",
+        "title": "claw-club",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/epwhesq/claw-club/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:55.843Z",
+        "content_sha256": "27b6e0d2dd6b719654784480e3464bfcad0c758a559ee046d5812b582a1318bf"
+      }
+    }
+  ]
+}

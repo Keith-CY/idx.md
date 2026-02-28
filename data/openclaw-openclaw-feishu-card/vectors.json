@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-feishu-card",
+  "generated_at": "2026-02-28T14:46:07.415Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-feishu-card#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-feishu-card/HEAD.md",
+      "text": "title: feishu-card\nsummary: Send rich interactive cards to Feishu (Lark) users or groups.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-card/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-feishu-card",
+        "topic": "openclaw-openclaw-feishu-card",
+        "type": "skills",
+        "title": "feishu-card",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-card/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:07.415Z",
+        "content_sha256": "c4dddd580fe306db0bcbda4a0da519d59d2f67d1f0e767b05fca9c370a3ac8f1"
+      }
+    }
+  ]
+}

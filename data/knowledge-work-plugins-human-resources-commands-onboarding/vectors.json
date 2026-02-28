@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-human-resources-commands-onboarding",
+  "generated_at": "2026-02-28T14:45:35.833Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-human-resources-commands-onboarding#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-human-resources-commands-onboarding/HEAD.md",
+      "text": "title: onboarding\nsummary: Generate an onboarding checklist and first-week plan for a new hire\ntype: skills\ntags: source-knowledge-work-plugins, plugin-human-resources, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/onboarding.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-human-resources-commands-onboarding",
+        "topic": "knowledge-work-plugins-human-resources-commands-onboarding",
+        "type": "skills",
+        "title": "onboarding",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-human-resources",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/onboarding.md",
+        "retrieved_at": "2026-02-28T14:45:35.833Z",
+        "content_sha256": "e9a429673d6545151c3a2aa11fc11d60486d9a21528186e7c29c3797db23826a"
+      }
+    }
+  ]
+}

@@ -7,31 +7,32 @@ summary: >-
 
   Comprehensive list of events to track by business type and context.
 
-  ## Marketing Site Events
+  ## Contents
 
-  ### Navigation & Engagement
+  - Marketing Site Events (navigation & engagement, CTA & form interactions,
+  conversion events)
 
-  | Event Name | Description | Properties |
+  - Product/App Events (onboarding, core usage, errors & support)
 
-  |------------|-------------|------------|
+  - Monetization Events (pricing & checkout, subscription management)
 
-  | page_view | Page loaded (enhanced) | page_title, page_location,
-  content_group |
+  - E-commerce Events (browsing, cart, checkout, post-purchase)
 
-  | scroll_depth | User scrolled to threshold | depth (25, 50, 75, 100) |
+  - B2B / SaaS Specific Events (team & collaboration, integration events,
+  account events)
 
-  | outbound_link_clicked | Click to external site | link_url, link_text |
+  - Event Properties (Parameters)
 
-  | internal_link_clicked | Click within site | link_url, link_text, location |
+  - Funnel Event Sequences
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/analytics-tracking/references/event-library.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/analytics-tracking
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.628Z
-content_sha256: 94964072fa7c51f2fc261819721030ee4990292797bed7cb54c37776fc9d4e3f
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.217Z
+content_sha256: efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412
 ---

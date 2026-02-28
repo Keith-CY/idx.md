@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-marketing-skills",
+  "generated_at": "2026-02-28T14:46:21.206Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-marketing-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-marketing-skills/HEAD.md",
+      "text": "title: marketing-skills\nsummary: TL;DR: 23 marketing playbooks (CRO, SEO, copy, analytics, experiments, pricing, launches,.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-marketing-skills",
+        "topic": "openclaw-openclaw-marketing-skills",
+        "type": "skills",
+        "title": "marketing-skills",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:21.206Z",
+        "content_sha256": "bf35799cd93b83a7ce8bee4a2b7a48b078699c71627c5dc4f2bd06a846b9bae3"
+      }
+    }
+  ]
+}

@@ -25,9 +25,9 @@ tags:
 source_url: https://raw.githubusercontent.com/AFLplusplus/AFLplusplus/refs/heads/stable/docs/fuzzing_in_depth.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/aflpp
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.611Z
-content_sha256: 91b47ccc7d3c7fea488a0fc21a4f933b7dc2d210cf5f57a10bda4c5e353f98ac
+github_stars: 6326
+github_forks: 1262
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.232Z
+content_sha256: 15aafcaaed9114afd456a8d980fece04be25bd24af54a14d0d76b53b59ff47e0
 ---

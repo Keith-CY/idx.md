@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-onmax-nuxt-skills-document-writer",
+  "generated_at": "2026-02-28T14:45:42.257Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-onmax-nuxt-skills-document-writer#head",
+      "kind": "head",
+      "path": "/data/skills-sh-onmax-nuxt-skills-document-writer/HEAD.md",
+      "text": "title: skills-sh-onmax-nuxt-skills-document-writer\nsummary: # Writing Style Sentence structure, voice, tone, and paragraph patterns for Nuxt documentation. ## Sentence Patterns ### Subject-First Declarative (60%) Place subject first, verb follows. Clear and direct. ``` The useFetch composable handles data fetching automatically. Nuxt provides a powerful auto-import system. This option controls module behavior during development. ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/document-writer/references/writing-style.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-onmax-nuxt-skills-document-writer",
+        "topic": "skills-sh-onmax-nuxt-skills-document-writer",
+        "type": "skills",
+        "title": "skills-sh-onmax-nuxt-skills-document-writer",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/document-writer/references/writing-style.md",
+        "retrieved_at": "2026-02-28T14:45:42.257Z",
+        "content_sha256": "978b9e55ca9c992652d2b6ff28b57d75d24771b4c5b53fab1d33421c49615769"
+      }
+    }
+  ]
+}

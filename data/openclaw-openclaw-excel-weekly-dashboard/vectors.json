@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-excel-weekly-dashboard",
+  "generated_at": "2026-02-28T14:46:06.401Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-excel-weekly-dashboard#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-excel-weekly-dashboard/HEAD.md",
+      "text": "title: excel-weekly-dashboard\nsummary: Designs refreshable Excel dashboards (Power Query + structured tables + validation + pivot.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/excel-weekly-dashboard/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-excel-weekly-dashboard",
+        "topic": "openclaw-openclaw-excel-weekly-dashboard",
+        "type": "skills",
+        "title": "excel-weekly-dashboard",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/excel-weekly-dashboard/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.401Z",
+        "content_sha256": "968edc39e349f48fb3365b58172f954c18182e415c2580e0e52c5e25044f3c66"
+      }
+    }
+  ]
+}

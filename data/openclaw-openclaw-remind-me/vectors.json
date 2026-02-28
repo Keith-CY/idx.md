@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-remind-me",
+  "generated_at": "2026-02-28T14:46:38.773Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-remind-me#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-remind-me/HEAD.md",
+      "text": "title: remind-me\nsummary: Set reminders using natural language.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/remind-me/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-remind-me",
+        "topic": "openclaw-openclaw-remind-me",
+        "type": "skills",
+        "title": "remind-me",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/remind-me/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:38.773Z",
+        "content_sha256": "bab30007cc4543e721aaf354361f6336341e5385bdaaba2359a5c75cd7701664"
+      }
+    }
+  ]
+}

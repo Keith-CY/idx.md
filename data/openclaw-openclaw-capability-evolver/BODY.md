@@ -37,6 +37,14 @@ To run in an infinite loop (e.g., via cron or background process), use the `--lo
 node index.js --loop
 ```
 
+## Configuration
+
+| Environment Variable | Default | Description |
+|---|---|---|
+| `EVOLVE_ALLOW_SELF_MODIFY` | `false` | Allow evolution to modify evolver's own source code. **NOT recommended for production.** Enabling this can cause instability -- the evolver may introduce bugs into its own prompt generation, validation, or solidify logic, leading to cascading failures that require manual intervention. Only enable for controlled experiments. |
+| `EVOLVE_LOAD_MAX` | `2.0` | Maximum 1-minute load average before evolver backs off. |
+| `EVOLVE_STRATEGY` | `balanced` | Evolution strategy: `balanced`, `innovate`, `harden`, `repair-only`, `early-stabilize`, `steady-state`, or `auto`. |
+
 ## GEP Protocol (Auditable Evolution)
 
 This package embeds a protocol-constrained evolution prompt (GEP) and a local, structured asset store:
@@ -77,6 +85,26 @@ The script automatically detects if compatible local skills (like `skills/feishu
 - **Infinite Recursion**: Strict single-process logic.
 - **Review Mode**: Use `--review` for sensitive environments.
 - **Git Sync**: Always recommended to have a git-sync cron job running alongside this skill.
+
+## Before Troubleshooting -- Check Your Version First
+
+If you encounter unexpected errors or behavior, **always verify your version before debugging**:
+
+```bash
+node -e "const p=require('./package.json'); console.log(p.version)"
+```
+
+If you are not on the latest release, update first -- most reported issues are already fixed in newer versions:
+
+```bash
+# If installed via git
+git pull && npm install
+
+# If installed via npm (global install)
+npm install -g evolver@latest
+```
+
+Latest releases and changelog: `https://github.com/autogame-17/evolver/releases`
 
 ## License
 MIT

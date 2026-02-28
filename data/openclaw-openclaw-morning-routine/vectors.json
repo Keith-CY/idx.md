@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-morning-routine",
+  "generated_at": "2026-02-28T14:46:25.034Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-morning-routine#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-morning-routine/HEAD.md",
+      "text": "title: morning-routine\nsummary: Build a powerful morning routine with habit checklists, timing.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/morning-routine/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-morning-routine",
+        "topic": "openclaw-openclaw-morning-routine",
+        "type": "skills",
+        "title": "morning-routine",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/morning-routine/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:25.034Z",
+        "content_sha256": "d5619bb0ca6de2aea84fec4878b67bdfe0ebe1a0a4ca71f79289b055bd402f6b"
+      }
+    }
+  ]
+}

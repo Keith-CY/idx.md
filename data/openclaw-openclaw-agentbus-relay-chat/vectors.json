@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentbus-relay-chat",
+  "generated_at": "2026-02-28T14:45:46.195Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentbus-relay-chat#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentbus-relay-chat/HEAD.md",
+      "text": "title: agentbus-relay-chat\nsummary: AgentBus proof-of-concept: an IRC-like LLM agent communication bus over Nostr relays with channel+session tags, allow.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dantunes-github/agentbus-relay-chat/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentbus-relay-chat",
+        "topic": "openclaw-openclaw-agentbus-relay-chat",
+        "type": "skills",
+        "title": "agentbus-relay-chat",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dantunes-github/agentbus-relay-chat/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.195Z",
+        "content_sha256": "6feaa5ee512484d5a5b630ffc998c633984831343e8d28b831731c60e40f155c"
+      }
+    }
+  ]
+}

@@ -2,26 +2,38 @@
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-page-cro
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-page-cro
-summary: |-
+summary: >-
   # Page CRO Experiment Ideas
+
   Comprehensive list of A/B tests and experiments organized by page type.
-  ## Homepage Experiments
-  ### Hero Section
-  | Test | Hypothesis |
-  |------|------------|
-  | Headline variations | Specific vs. abstract messaging |
-  | Subheadline clarity | Add/refine to support headline |
-  | CTA above fold | Include or exclude prominent CTA |
-  | Hero visual format | Screenshot vs. GIF vs. illustration vs. video |
+
+  ## Contents
+
+  - Homepage Experiments (Hero Section, Trust & Social Proof, Features &
+  Content, Navigation & UX)
+
+  - Pricing Page Experiments (Price Presentation, Pricing UX, Objection
+  Handling, Trust Signals)
+
+  - Demo Request Page Experiments (Form Optimization, Page Content, CTA &
+  Routing)
+
+  - Resource/Blog Page Experiments (Content CTAs, Resource Section)
+
+  - Landing Page Experiments (Message Match, Conversion Focus, Page Length)
+
+  - Feature Page Experiments (Feature Presentation, Conversion Path)
+
+  - Cross-Page Experiments (Site-Wide Tests, Navigation Tests)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/page-cro/references/experiments.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/page-cro
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.574Z
-content_sha256: 9530ca82b966f901178952bc652f71b58fd6bfdc3f21d5fed453b45df60bf929
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.177Z
+content_sha256: bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca
 ---

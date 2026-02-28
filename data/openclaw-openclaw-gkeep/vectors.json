@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gkeep",
+  "generated_at": "2026-02-28T14:46:11.409Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gkeep#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gkeep/HEAD.md",
+      "text": "title: gkeep\nsummary: Google Keep notes via gkeepapi.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vacinc/gkeep/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gkeep",
+        "topic": "openclaw-openclaw-gkeep",
+        "type": "skills",
+        "title": "gkeep",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vacinc/gkeep/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:11.409Z",
+        "content_sha256": "e58f9eaeac13197c84c9d7ef79cad4004cf4f62b15d1a4fd43945993d0c8d3cd"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-inkedin-automation-that-really-works",
+  "generated_at": "2026-02-28T14:46:15.644Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-inkedin-automation-that-really-works#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-inkedin-automation-that-really-works/HEAD.md",
+      "text": "title: inkedin-automation-that-really-works\nsummary: LinkedIn automation — post, comment (with @mentions), edit/delete comments, repost, read feed, analytics.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/red777777/inkedin-automation-that-really-works/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-inkedin-automation-that-really-works",
+        "topic": "openclaw-openclaw-inkedin-automation-that-really-works",
+        "type": "skills",
+        "title": "inkedin-automation-that-really-works",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/red777777/inkedin-automation-that-really-works/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:15.644Z",
+        "content_sha256": "06f90cec54abca28cc5b2295836864a72b3a604c8264a4804bfc478b92d3b978"
+      }
+    }
+  ]
+}

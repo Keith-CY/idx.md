@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-yboard-operator",
+  "generated_at": "2026-02-28T14:46:57.730Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-yboard-operator#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-yboard-operator/HEAD.md",
+      "text": "title: yboard-operator\nsummary: Operate **yboard.online** to edit video/presentation plans.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zonder/yboard-operator/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-yboard-operator",
+        "topic": "openclaw-openclaw-yboard-operator",
+        "type": "skills",
+        "title": "yboard-operator",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zonder/yboard-operator/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:57.730Z",
+        "content_sha256": "ab97c3789fe348f5d56b77170a664c8c93da495b8e010923806985d43d28c533"
+      }
+    }
+  ]
+}

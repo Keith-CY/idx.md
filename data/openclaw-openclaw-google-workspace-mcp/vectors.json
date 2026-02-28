@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-google-workspace-mcp",
+  "generated_at": "2026-02-28T14:45:28.609Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-google-workspace-mcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-google-workspace-mcp/HEAD.md",
+      "text": "title: google-workspace\nsummary: Gmail, Calendar, Drive with simple OAuth sign-in.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-google-workspace-mcp",
+        "topic": "openclaw-openclaw-google-workspace-mcp",
+        "type": "skills",
+        "title": "google-workspace",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:28.609Z",
+        "content_sha256": "bfe848d8a0f1375bf6c9f6f4eb94eced1566b3724231a78c15e1718194bb5ec0"
+      }
+    }
+  ]
+}

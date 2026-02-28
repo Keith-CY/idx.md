@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-de-ai-ify",
+  "generated_at": "2026-02-28T14:46:02.366Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-de-ai-ify#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-de-ai-ify/HEAD.md",
+      "text": "title: de-ai-ify\nsummary: Remove AI-generated jargon and restore human voice.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/de-ai-ify/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-de-ai-ify",
+        "topic": "openclaw-openclaw-de-ai-ify",
+        "type": "skills",
+        "title": "de-ai-ify",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/de-ai-ify/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:02.366Z",
+        "content_sha256": "d3d415df1685119efa12b7184c67c2cfe3a51e3db8696074fbc77de3d04f7092"
+      }
+    }
+  ]
+}

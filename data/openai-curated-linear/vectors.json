@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openai-curated-linear",
+  "generated_at": "2026-02-28T14:45:24.511Z",
+  "records": [
+    {
+      "id": "skills/openai-curated-linear#head",
+      "kind": "head",
+      "path": "/data/openai-curated-linear/HEAD.md",
+      "text": "title: openai-curated-linear\nsummary: --- name: linear description: Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear. metadata: short-description: Manage Linear issues in Codex --- # Linear ## Overview This skill provides a structured workflow for managing issues, projects & team workflows in Linear. It ensures consistent integration with the Linear MCP server, which offers natural-language project management for issues, projects, documentation, and team collaboration. ## Prerequisites\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/linear/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openai-curated-linear",
+        "topic": "openai-curated-linear",
+        "type": "skills",
+        "title": "openai-curated-linear",
+        "tags": [
+          "openai",
+          "source-openai-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/linear/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:24.511Z",
+        "content_sha256": "ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gitclaw",
+  "generated_at": "2026-02-28T14:46:10.990Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gitclaw#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gitclaw/HEAD.md",
+      "text": "title: gitclaw\nsummary: Back up the OpenClaw agent workspace to a GitHub repo and keep it synced via a cron-driven commit/push script.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marian2js/gitclaw/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gitclaw",
+        "topic": "openclaw-openclaw-gitclaw",
+        "type": "skills",
+        "title": "gitclaw",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/marian2js/gitclaw/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.990Z",
+        "content_sha256": "81d7d184e02d41082f90990f7adbd829cec3715a9274a9e069dc6ec65f914044"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro",
+  "generated_at": "2026-02-28T14:45:37.225Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro#head",
+      "kind": "head",
+      "path": "/data/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro/HEAD.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro\nsummary: # Paywall Experiment Ideas Comprehensive list of A/B tests and experiments for paywall optimization. ## Contents - Trigger & Timing Experiments (When to Show, Trigger Type) - Paywall Design Experiments (Layout & Format, Value Presentation, Visual Elements) - Pricing Presentation Experiments (Price Display, Plan Options, Discounts & Offers) - Copy & Messaging Experiments (Headlines, CTAs, Objection Handling) - Trial & Conversion Experiments (Trial Structure, Trial Expiration, Upgrade Path) - Personalization Experiments (Usage-Based, Segment-Specific) - Frequency & UX Experiments (Frequency Capping, Dismiss Behavior)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/paywall-upgrade-cro/references/experiments.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro",
+        "topic": "skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro",
+        "type": "skills",
+        "title": "skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/paywall-upgrade-cro/references/experiments.md",
+        "retrieved_at": "2026-02-28T14:45:37.225Z",
+        "content_sha256": "5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-journal-to-post",
+  "generated_at": "2026-02-28T14:46:17.378Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-journal-to-post#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-journal-to-post/HEAD.md",
+      "text": "title: journal-to-post\nsummary: Convert personal journal entries into shareable social media posts.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/journal-to-post/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-journal-to-post",
+        "topic": "openclaw-openclaw-journal-to-post",
+        "type": "skills",
+        "title": "journal-to-post",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/journal-to-post/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:17.378Z",
+        "content_sha256": "bff752e8b1138f6ac29f2d5fd30b88528f044a2750e97a0282570c0d5f365993"
+      }
+    }
+  ]
+}

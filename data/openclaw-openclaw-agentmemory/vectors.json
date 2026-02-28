@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentmemory",
+  "generated_at": "2026-02-28T14:45:46.643Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentmemory#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentmemory/HEAD.md",
+      "text": "title: agentmemory\nsummary: End-to-end encrypted cloud memory for AI agents. 100GB free storage.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/badaramoni/agentmemory/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentmemory",
+        "topic": "openclaw-openclaw-agentmemory",
+        "type": "skills",
+        "title": "agentmemory",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/badaramoni/agentmemory/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.643Z",
+        "content_sha256": "ca32d5efbae20c7cf044eb0a65ca98ddfa89a3a9c1b81194f9c29f46db302add"
+      }
+    }
+  ]
+}

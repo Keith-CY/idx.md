@@ -1,7 +1,21 @@
 ---
 name: raindrop
 description: Search, list, and manage Raindrop.io bookmarks via CLI. Use when the user wants to find saved links, browse collections, add new bookmarks, organize with tags, move bookmarks between collections, or work with their Raindrop library. Supports reading (search, list, get, tags) and writing (add, delete, move, update, bulk operations).
-metadata: {"clawdbot":{"emoji":"🌧️","homepage":"https://raindrop.io","requires":{"bins":["bash","curl","jq","bc"]}}}
+metadata:
+  openclaw:
+    emoji: '🌧️'
+    homepage: https://developer.raindrop.io/
+    requires:
+      env:
+        - RAINDROP_TOKEN
+      bins:
+        - bash
+        - curl
+        - jq
+        - bc
+      config:
+        - ~/.config/raindrop.env
+    primaryEnv: RAINDROP_TOKEN
 ---
 
 # Raindrop.io Bookmarks
@@ -13,6 +27,9 @@ Manage bookmarks via the Raindrop.io API.
 ```bash
 # Get token from: https://app.raindrop.io/settings/integrations → "Create test token"
 echo 'RAINDROP_TOKEN="your-token"' > ~/.config/raindrop.env
+
+# Or pass token at runtime (recommended for ephemeral use)
+{baseDir}/scripts/raindrop.sh --token "your-token" whoami
 ```
 
 ## Quick Start

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-whatsmolt",
+  "generated_at": "2026-02-28T14:46:55.441Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-whatsmolt#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-whatsmolt/HEAD.md",
+      "text": "title: whatsmolt\nsummary: Async messaging platform for AI agents - independent auth, Twitter verification, JWT proofs\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crypticdriver/whatsmolt/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-whatsmolt",
+        "topic": "openclaw-openclaw-whatsmolt",
+        "type": "skills",
+        "title": "whatsmolt",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crypticdriver/whatsmolt/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:55.441Z",
+        "content_sha256": "7c3af6aa5c2e01ba3df9edc758d850fd5bd9a08c393b1f7e16ea6098d5708f37"
+      }
+    }
+  ]
+}

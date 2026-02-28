@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-yt-api-cli",
+  "generated_at": "2026-02-28T14:46:58.866Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-yt-api-cli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-yt-api-cli/HEAD.md",
+      "text": "title: yt-api-cli\nsummary: Manage your YouTube account from the command line.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nerveband/yt-api-cli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-yt-api-cli",
+        "topic": "openclaw-openclaw-yt-api-cli",
+        "type": "skills",
+        "title": "yt-api-cli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nerveband/yt-api-cli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.866Z",
+        "content_sha256": "40010d01549a344ea730c478fd34d1cac38c35c31595ec599614e92c4e850dd8"
+      }
+    }
+  ]
+}

@@ -2,14 +2,24 @@
 stable_id: skills/ibelick-fixing-accessibility
 type: skills
 title: ibelick-fixing-accessibility
-summary: |-
+summary: >-
   ---
+
   name: fixing-accessibility
-  description: Fix accessibility issues.
+
+  description: Audit and fix HTML accessibility issues including ARIA labels,
+  keyboard navigation, focus management, color contrast, and form errors. Use
+  when adding interactive controls, forms, dialogs, or reviewing WCAG
+  compliance.
+
   ---
+
   # fixing-accessibility
+
   Fix accessibility issues.
+
   ## how to use
+
   - `/fixing-accessibility`
     Apply these constraints to any UI work in this conversation.
   - `/fixing-accessibility <file>`
@@ -19,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-accessibility/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.398Z
-content_sha256: 94bfcccdf700a18cf63b92a9e8c1a05c10422c692b0bed6fab950611d8d4309c
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.195Z
+content_sha256: 549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf
 ---

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-orf",
+  "generated_at": "2026-02-28T14:46:30.295Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-orf#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-orf/HEAD.md",
+      "text": "title: orf-digest\nsummary: On-demand ORF news digest in German.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cpojer/orf/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-orf",
+        "topic": "openclaw-openclaw-orf",
+        "type": "skills",
+        "title": "orf-digest",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cpojer/orf/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.295Z",
+        "content_sha256": "1ec3b78097b4c808b372958b4b952d280e7af3211beb9683139cf07ad30fd030"
+      }
+    }
+  ]
+}

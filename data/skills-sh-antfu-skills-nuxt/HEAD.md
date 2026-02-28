@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/nuxt/references/core-directory-structure.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/nuxt
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:46.685Z
+github_stars: 3706
+github_forks: 181
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.922Z
 content_sha256: 8483343d5291ce55111ba074c671549c323f63c85a806a4bf9002d576ab53a2b
 ---

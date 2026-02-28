@@ -20,21 +20,22 @@ summary: >-
 
   ## Prerequisites
 
-  - When sandboxing blocks the deployment network calls, rerun with
-  `sandbox_permissions=require_escalated`.
+  - Check whether the Vercel CLI is installed **without** escalated permissions
+  (for example, `command -v vercel`).
+
+  - Only escalate the actual deploy command if sandboxing blocks the deployment
+  network calls (`sandbox_permissions=require_escalated`).
 
   - The deployment might take a few minutes. Use appropriate timeout values.
-
-  ## Quick Start
 tags:
   - openai
   - source-openai-skills
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/vercel-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-deploy/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.011Z
-content_sha256: f1f3fa3ff57f87f8f32d77ed635b63416f200a1f976a8a8d3e23d12b30df3ae4
+github_stars: 10080
+github_forks: 566
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:25.024Z
+content_sha256: f4a6cbfbb378a320fae179a79f727a881d19677e9b3db96ed49d2dc02a74fa46
 ---

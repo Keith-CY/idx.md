@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-byterover",
+  "generated_at": "2026-02-28T14:45:53.766Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-byterover#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-byterover/HEAD.md",
+      "text": "title: byterover\nsummary: Manages project knowledge using ByteRover context tree.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byteroverinc/byterover/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-byterover",
+        "topic": "openclaw-openclaw-byterover",
+        "type": "skills",
+        "title": "byterover",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/byteroverinc/byterover/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.766Z",
+        "content_sha256": "285f428fe69a85a1751a1a7dbbdf13abf4c0f3c02d4205d653674c47ca9b26a2"
+      }
+    }
+  ]
+}

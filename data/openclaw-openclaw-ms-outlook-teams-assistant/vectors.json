@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ms-outlook-teams-assistant",
+  "generated_at": "2026-02-28T14:46:25.118Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ms-outlook-teams-assistant#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ms-outlook-teams-assistant/HEAD.md",
+      "text": "title: ms-outlook-teams-assistant\nsummary: Track and nag about Microsoft Outlook email and (optionally) Microsoft Teams messages on a Windows machine, without.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abhinavjp/ms-outlook-teams-assistant/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ms-outlook-teams-assistant",
+        "topic": "openclaw-openclaw-ms-outlook-teams-assistant",
+        "type": "skills",
+        "title": "ms-outlook-teams-assistant",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abhinavjp/ms-outlook-teams-assistant/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:25.118Z",
+        "content_sha256": "806e4fde86933ec97a2f7c3887647f37f49f5e9a3895e8275b66da1a44344366"
+      }
+    }
+  ]
+}

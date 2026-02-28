@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-garmin-connect",
+  "generated_at": "2026-02-28T14:46:09.568Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-garmin-connect#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-garmin-connect/HEAD.md",
+      "text": "title: garmin-connect\nsummary: Garmin Connect integration for Clawdbot: sync fitness data (steps, HR, calories, workouts, sleep) every 5 minutes.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rayleigh3105/garmin-connect/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-garmin-connect",
+        "topic": "openclaw-openclaw-garmin-connect",
+        "type": "skills",
+        "title": "garmin-connect",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rayleigh3105/garmin-connect/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.568Z",
+        "content_sha256": "01c29630248ee603552c5fb441bc048d09eec3f9eb5a87582e260c279bc14347"
+      }
+    }
+  ]
+}

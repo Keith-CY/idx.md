@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-linear",
+  "generated_at": "2026-02-28T14:46:19.516Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-linear#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-linear/HEAD.md",
+      "text": "title: linear\nsummary: Query and manage Linear issues, projects.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/linear/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-linear",
+        "topic": "openclaw-openclaw-linear",
+        "type": "skills",
+        "title": "linear",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/linear/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:19.516Z",
+        "content_sha256": "c9958bce3b7af252c6ace33b3fc6d7540f7f570ddb3c4e868eeb3bf756968605"
+      }
+    }
+  ]
+}

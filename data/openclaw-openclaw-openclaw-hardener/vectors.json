@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openclaw-hardener",
+  "generated_at": "2026-02-28T14:46:29.275Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openclaw-hardener#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openclaw-hardener/HEAD.md",
+      "text": "title: openclaw-hardener\nsummary: Harden OpenClaw (workspace + ~/.openclaw): run openclaw security audit, catch prompt-injection/exfil risks, scan.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/virtaava/openclaw-hardener/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openclaw-hardener",
+        "topic": "openclaw-openclaw-openclaw-hardener",
+        "type": "skills",
+        "title": "openclaw-hardener",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/virtaava/openclaw-hardener/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:29.275Z",
+        "content_sha256": "7dad21bdbec1a292ffe30f89b66bd747c0dfac11f9060d69a1a6e0badfbd2053"
+      }
+    }
+  ]
+}

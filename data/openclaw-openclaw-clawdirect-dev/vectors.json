@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdirect-dev",
+  "generated_at": "2026-02-28T14:45:57.327Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdirect-dev#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdirect-dev/HEAD.md",
+      "text": "title: clawdirect-dev\nsummary: Build agent-facing web experiences with ATXP-based authentication, following the ClawDirect pattern.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/napoleond/clawdirect-dev/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdirect-dev",
+        "topic": "openclaw-openclaw-clawdirect-dev",
+        "type": "skills",
+        "title": "clawdirect-dev",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/napoleond/clawdirect-dev/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:57.327Z",
+        "content_sha256": "4f8af1d119393bce296e2d8adc6d546b24fc85b879ffbe76ab016725af1252df"
+      }
+    }
+  ]
+}

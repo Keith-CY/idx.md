@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.155Z
-content_sha256: da0ac85b54c29fe6eca88da2730faea5fd823de08dfccb6236ac5cf85738ea35
+retrieved_at: 2026-02-28T14:45:34.755Z
+content_sha256: 6efc864d9cb8c89936893259cc754f315278ad37b21f249ccce8aee88383c451
 ---

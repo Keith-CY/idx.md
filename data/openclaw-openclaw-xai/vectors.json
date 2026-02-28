@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-xai",
+  "generated_at": "2026-02-28T14:46:57.333Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-xai#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-xai/HEAD.md",
+      "text": "title: xai\nsummary: Chat with Grok models via xAI API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/xai/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-xai",
+        "topic": "openclaw-openclaw-xai",
+        "type": "skills",
+        "title": "xai",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/xai/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:57.333Z",
+        "content_sha256": "c86b6faf865833f3090ca50033e0a278b7d1547bfc5e4b29f249f43f6704be95"
+      }
+    }
+  ]
+}

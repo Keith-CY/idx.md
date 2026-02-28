@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-linkdapi",
+  "generated_at": "2026-02-28T14:46:19.654Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-linkdapi#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-linkdapi/HEAD.md",
+      "text": "title: linkdapi\nsummary: Work with LinkdAPI Python SDK for accessing LinkedIn professional profile and company data.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/foontinz/linkdapi/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-linkdapi",
+        "topic": "openclaw-openclaw-linkdapi",
+        "type": "skills",
+        "title": "linkdapi",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/foontinz/linkdapi/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:19.654Z",
+        "content_sha256": "34a67b5284b62fe063d5f8a6e2d1e1e342eb3e12a97b7ed0c81149efef0b0cd7"
+      }
+    }
+  ]
+}

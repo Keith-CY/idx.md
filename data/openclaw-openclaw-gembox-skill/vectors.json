@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gembox-skill",
+  "generated_at": "2026-02-28T14:46:09.922Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gembox-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gembox-skill/HEAD.md",
+      "text": "title: gembox-skill\nsummary: Coding assistance for [GemBox.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zsvedic/gembox-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gembox-skill",
+        "topic": "openclaw-openclaw-gembox-skill",
+        "type": "skills",
+        "title": "gembox-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zsvedic/gembox-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.922Z",
+        "content_sha256": "0138cfc7a83377eed97a36737f02a7f08d2412b375c17f86a53623763279969a"
+      }
+    }
+  ]
+}

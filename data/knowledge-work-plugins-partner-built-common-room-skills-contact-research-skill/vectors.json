@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill",
+  "generated_at": "2026-02-28T14:45:36.409Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill/HEAD.md",
+      "text": "title: contact-research\nsummary: Research a specific person using Common Room data. Triggers on 'who is [name]', 'look up [email]', 'research [contact]', 'is [name] a warm lead', or any contact-level question.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-common-room, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/contact-research/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill",
+        "topic": "knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill",
+        "type": "skills",
+        "title": "contact-research",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-common-room",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/contact-research/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.409Z",
+        "content_sha256": "3c01f64652446bc82486c984287022a6410e9a1b282734332cb6a215aac0c684"
+      }
+    }
+  ]
+}

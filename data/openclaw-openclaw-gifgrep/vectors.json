@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gifgrep",
+  "generated_at": "2026-02-28T14:46:10.641Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gifgrep#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gifgrep/HEAD.md",
+      "text": "title: gifgrep\nsummary: Search GIF providers with CLI/TUI, download results.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/gifgrep/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gifgrep",
+        "topic": "openclaw-openclaw-gifgrep",
+        "type": "skills",
+        "title": "gifgrep",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/gifgrep/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.641Z",
+        "content_sha256": "1cf64ee164ffffac317b7156d0c107cff8714abe4ae6438387cf27d4a513890c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "playbook-scenario-content-marketing",
+  "generated_at": "2026-02-28T14:46:59.454Z",
+  "records": [
+    {
+      "id": "playbooks/playbook-scenario-content-marketing#head",
+      "kind": "head",
+      "path": "/data/playbook-scenario-content-marketing/HEAD.md",
+      "text": "title: Playbook: Scenario - Content Marketing\nsummary: A practical reading path for creating, repurposing, and distributing content.\ntype: playbooks\ntags: playbooks, scenario-content-marketing, category-marketing-sales",
+      "metadata": {
+        "stable_id": "playbooks/playbook-scenario-content-marketing",
+        "topic": "playbook-scenario-content-marketing",
+        "type": "playbooks",
+        "title": "Playbook: Scenario - Content Marketing",
+        "tags": [
+          "playbooks",
+          "scenario-content-marketing",
+          "category-marketing-sales"
+        ],
+        "source_url": "",
+        "retrieved_at": "2026-02-28T14:46:59.454Z",
+        "content_sha256": "d71ccd45f40f23342c317548510b1eb8bbc39f4ed6d1a889b141aa8b5a036349"
+      }
+    }
+  ]
+}

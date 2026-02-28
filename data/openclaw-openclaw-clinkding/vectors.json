@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clinkding",
+  "generated_at": "2026-02-28T14:45:58.472Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clinkding#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clinkding/HEAD.md",
+      "text": "title: clinkding\nsummary: Manage linkding bookmarks - save URLs, search, tag, organize.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daveonkels/clinkding/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clinkding",
+        "topic": "openclaw-openclaw-clinkding",
+        "type": "skills",
+        "title": "clinkding",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/daveonkels/clinkding/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:58.472Z",
+        "content_sha256": "b79b393ad59c70352e38d44ecf252812fd7e8a8d327d314914fb3228062a68ad"
+      }
+    }
+  ]
+}

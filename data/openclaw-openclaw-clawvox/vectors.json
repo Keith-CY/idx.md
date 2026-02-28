@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawvox",
+  "generated_at": "2026-02-28T14:45:58.264Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawvox#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawvox/HEAD.md",
+      "text": "title: clawvox\nsummary: ClawVox - ElevenLabs voice studio for OpenClaw.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abhishek-official1/clawvox/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawvox",
+        "topic": "openclaw-openclaw-clawvox",
+        "type": "skills",
+        "title": "clawvox",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abhishek-official1/clawvox/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:58.264Z",
+        "content_sha256": "a79eaefa628ecff47f42ae8975bc2ea02546a3b2a0cfffa0b1539b2d8e0ddf8f"
+      }
+    }
+  ]
+}

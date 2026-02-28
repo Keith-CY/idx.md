@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youtube-video-downloader",
+  "generated_at": "2026-02-28T14:45:28.972Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youtube-video-downloader#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youtube-video-downloader/HEAD.md",
+      "text": "title: youtube-video-downloader\nsummary: Download YouTube videos in various formats and qualities.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-video-downloader/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youtube-video-downloader",
+        "topic": "openclaw-openclaw-youtube-video-downloader",
+        "type": "skills",
+        "title": "youtube-video-downloader",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/youtube-video-downloader/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:28.972Z",
+        "content_sha256": "18fe3aea23d4e5685b131a1e40387ad4755955ab9274b7692ccd43462834ca70"
+      }
+    }
+  ]
+}

@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md
 license: ""
 upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:56.089Z
+github_stars: 1186
+github_forks: 88
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:34.204Z
 content_sha256: cef0ec9c3af2e3d918965863033b049ce51b1f2d004febff0d1c2261515759b8
 ---

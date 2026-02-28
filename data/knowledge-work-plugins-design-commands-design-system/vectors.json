@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-design-commands-design-system",
+  "generated_at": "2026-02-28T14:45:35.235Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-design-commands-design-system#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-design-commands-design-system/HEAD.md",
+      "text": "title: design-system\nsummary: Audit, document, or extend your design system\ntype: skills\ntags: source-knowledge-work-plugins, plugin-design, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/design-system.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-design-commands-design-system",
+        "topic": "knowledge-work-plugins-design-commands-design-system",
+        "type": "skills",
+        "title": "design-system",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-design",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/design-system.md",
+        "retrieved_at": "2026-02-28T14:45:35.235Z",
+        "content_sha256": "8e711fff953e0c71cd3b32bdb1833d158c697802345d55618b67ba7d7fdee984"
+      }
+    }
+  ]
+}

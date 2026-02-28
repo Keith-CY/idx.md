@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-roku",
+  "generated_at": "2026-02-28T14:46:39.748Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-roku#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-roku/HEAD.md",
+      "text": "title: roku\nsummary: CLI interface to control Roku devices via python-roku.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/roku/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-roku",
+        "topic": "openclaw-openclaw-roku",
+        "type": "skills",
+        "title": "roku",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/roku/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:39.748Z",
+        "content_sha256": "01e8cea0c8058f0c25e0c508bacd9250e4627bd7b1993523424fdf884c66001f"
+      }
+    }
+  ]
+}

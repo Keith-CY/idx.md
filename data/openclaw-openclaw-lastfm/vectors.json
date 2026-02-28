@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-lastfm",
+  "generated_at": "2026-02-28T14:46:19.154Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-lastfm#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-lastfm/HEAD.md",
+      "text": "title: lastfm\nsummary: Access Last.fm listening history, music stats.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/lastfm/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-lastfm",
+        "topic": "openclaw-openclaw-lastfm",
+        "type": "skills",
+        "title": "lastfm",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/lastfm/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:19.154Z",
+        "content_sha256": "0a9f257c0cdba9995b178857d00a1b58f337c582cd551d2f77ec8c6a86fa8b51"
+      }
+    }
+  ]
+}

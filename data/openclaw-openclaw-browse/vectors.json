@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-browse",
+  "generated_at": "2026-02-28T14:45:53.381Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-browse#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-browse/HEAD.md",
+      "text": "title: browse\nsummary: Complete guide for creating and deploying browser automation functions using the stagehand CLI\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pkiv/browse/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-browse",
+        "topic": "openclaw-openclaw-browse",
+        "type": "skills",
+        "title": "browse",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pkiv/browse/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.381Z",
+        "content_sha256": "9891afc423023764c07308b21e10745773664f2073fac3bdfe4e42a589b8f1eb"
+      }
+    }
+  ]
+}

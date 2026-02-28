@@ -2,26 +2,30 @@
 stable_id: skills/ibelick-fixing-metadata
 type: skills
 title: ibelick-fixing-metadata
-summary: |-
+summary: >-
   ---
+
   name: fixing-metadata
-  description: Ship correct, complete metadata.
+
+  description: >
+    Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph
+    tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding
+    SEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical URLs,
+    or shipping new pages that need correct meta tags.
+  version: 1.0.1
+
+  license: MIT
+
   ---
-  # fixing-metadata
-  Ship correct, complete metadata.
-  ## how to use
-  - `/fixing-metadata`
-    Apply these constraints to any metadata work in this conversation.
-  - `/fixing-metadata <file>`
 tags:
   - ibelick
   - source-ibelick-ui-skills
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:29.445Z
-content_sha256: 08b706369e9083d536cb0bb69f69114acfa63efcad39a3efc28abc7284fc7cf4
+github_stars: 902
+github_forks: 39
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:24.225Z
+content_sha256: b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547
 ---

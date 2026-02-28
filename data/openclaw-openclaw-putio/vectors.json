@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-putio",
+  "generated_at": "2026-02-28T14:46:36.190Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-putio#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-putio/HEAD.md",
+      "text": "title: putio\nsummary: Manage a put.io account via the kaput CLI (transfers, files, search) — hoist the mainsail.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/putio/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-putio",
+        "topic": "openclaw-openclaw-putio",
+        "type": "skills",
+        "title": "putio",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/putio/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:36.190Z",
+        "content_sha256": "e79006fae037312430d101340b4b1f6dece669de408c5ee8dd2145f96379e265"
+      }
+    }
+  ]
+}

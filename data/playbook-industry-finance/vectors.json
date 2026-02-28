@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "playbook-industry-finance",
+  "generated_at": "2026-02-28T14:46:59.454Z",
+  "records": [
+    {
+      "id": "playbooks/playbook-industry-finance#head",
+      "kind": "head",
+      "path": "/data/playbook-industry-finance/HEAD.md",
+      "text": "title: Playbook: Industry - Finance\nsummary: A practical reading path for finance workflows (payments, reporting, reconciliation).\ntype: playbooks\ntags: playbooks, industry-finance, category-finance",
+      "metadata": {
+        "stable_id": "playbooks/playbook-industry-finance",
+        "topic": "playbook-industry-finance",
+        "type": "playbooks",
+        "title": "Playbook: Industry - Finance",
+        "tags": [
+          "playbooks",
+          "industry-finance",
+          "category-finance"
+        ],
+        "source_url": "",
+        "retrieved_at": "2026-02-28T14:46:59.454Z",
+        "content_sha256": "c12a553ca38e48f4325c92a94ca58b01e2399550b2c91c4b4000e8d9b6922098"
+      }
+    }
+  ]
+}

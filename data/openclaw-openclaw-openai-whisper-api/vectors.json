@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openai-whisper-api",
+  "generated_at": "2026-02-28T14:46:28.975Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openai-whisper-api#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openai-whisper-api/HEAD.md",
+      "text": "title: openai-whisper-api\nsummary: Transcribe audio via OpenAI Audio Transcriptions API (Whisper).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openai-whisper-api/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openai-whisper-api",
+        "topic": "openclaw-openclaw-openai-whisper-api",
+        "type": "skills",
+        "title": "openai-whisper-api",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openai-whisper-api/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:28.975Z",
+        "content_sha256": "4cd90ed4d059a385948ffbf2896764a7db66dfbd06010d699b269e89e3f586be"
+      }
+    }
+  ]
+}

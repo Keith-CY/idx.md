@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-human-resources-commands-draft-offer",
+  "generated_at": "2026-02-28T14:45:35.860Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-human-resources-commands-draft-offer#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-human-resources-commands-draft-offer/HEAD.md",
+      "text": "title: draft-offer\nsummary: Draft an offer letter with comp details and terms\ntype: skills\ntags: source-knowledge-work-plugins, plugin-human-resources, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/draft-offer.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-human-resources-commands-draft-offer",
+        "topic": "knowledge-work-plugins-human-resources-commands-draft-offer",
+        "type": "skills",
+        "title": "draft-offer",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-human-resources",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/draft-offer.md",
+        "retrieved_at": "2026-02-28T14:45:35.860Z",
+        "content_sha256": "4f434996e270970a3b1752f3a23afc917819451959d45e8d46125617441c9f28"
+      }
+    }
+  ]
+}

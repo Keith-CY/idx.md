@@ -1,6 +1,6 @@
 ---
 name: roadrunner
-description: Beeper Desktop CLI for chats, messages, search, and reminders.
+description: Beeper Desktop CLI for chats, messages, contacts, connect info, websocket events, search, and reminders.
 homepage: https://github.com/johntheyoung/roadrunner
 metadata:
   clawdbot:
@@ -17,7 +17,7 @@ metadata:
         label: Install rr (brew)
       - id: go
         kind: go
-        module: github.com/johntheyoung/roadrunner/cmd/rr@v0.14.4
+        module: github.com/johntheyoung/roadrunner/cmd/rr@v0.16.2
         bins:
           - rr
         label: Install rr (go)
@@ -49,6 +49,9 @@ Setup (once)
 Common commands
 - List accounts: `rr accounts list --json`
 - Capabilities: `rr capabilities --json`
+- Connect metadata: `rr connect info --json`
+- Live websocket events (experimental): `rr events tail --all --stop-after 30s --json`
+- List contacts: `rr contacts list "<account-id>" --json`
 - Search contacts: `rr contacts search "<account-id>" "Alice" --json`
 - Search contacts (flag): `rr contacts search "Alice" --account-id="<account-id>" --json`
 - Resolve contact: `rr contacts resolve "<account-id>" "Alice" --json`
@@ -61,6 +64,7 @@ Common commands
 - Resolve chat: `rr chats resolve "Jamie" --json`
 - Get chat: `rr chats get "!chatid:beeper.com" --json`
 - Get chat (bounded participants): `rr chats get "!chatid:beeper.com" --max-participant-count=50 --json`
+- Start/resolve DM from merged contact hints: `rr chats start "<account-id>" --email "alice@example.com" --full-name "Alice" --json`
 - Default account for commands: `rr --account="imessage:+123" chats list --json`
 - List messages: `rr messages list "!chatid:beeper.com" --json`
 - List messages (all pages): `rr messages list "!chatid:beeper.com" --all --max-items=1000 --json`
@@ -68,6 +72,7 @@ Common commands
 - Search messages: `rr messages search "dinner" --json`
 - Search messages (all pages): `rr messages search "dinner" --all --max-items=1000 --json`
 - Search messages (filters): `rr messages search --sender=me --date-after="2024-07-01T00:00:00Z" --media-types=image --json`
+- Add/remove reaction: `rr messages react "!chatid:beeper.com" "<message-id>" "👍" --json` / `rr messages unreact "!chatid:beeper.com" "<message-id>" "👍" --json`
 - Tail messages (polling): `rr messages tail "!chatid:beeper.com" --interval 2s --stop-after 30s --json`
 - Wait for message: `rr messages wait --chat-id="!chatid:beeper.com" --contains "deploy" --wait-timeout 2m --json`
 - Message context: `rr messages context "!chatid:beeper.com" "<sortKey>" --before 5 --after 2 --json`
@@ -87,8 +92,10 @@ Common commands
 Mutations (explicit user request only)
 - Message send: `rr messages send "!chatid:beeper.com" "Hello!"`
 - Message edit: `rr messages edit "!chatid:beeper.com" "<message-id>" "Updated text"`
+- Message react/unreact: `rr messages react "!chatid:beeper.com" "<message-id>" "👍"` / `rr messages unreact "!chatid:beeper.com" "<message-id>" "👍"`
 - Upload + send file: `rr messages send-file "!chatid:beeper.com" ./photo.jpg "See attached"`
 - Create chat: `rr chats create "<account-id>" --participant "<user-id>"`
+- Start chat from merged contact hints: `rr chats start "<account-id>" --email "alice@example.com" --full-name "Alice"`
 - Archive/unarchive: `rr chats archive "!chatid:beeper.com"` / `rr chats archive "!chatid:beeper.com" --unarchive`
 - Reminder mutations: `rr reminders set "!chatid:beeper.com" "2h"` / `rr reminders clear "!chatid:beeper.com"`
 - Asset uploads: `rr assets upload ./photo.jpg` / `rr assets upload-base64 --content-file ./photo.b64`
@@ -108,13 +115,15 @@ Notes
 - Requires Beeper Desktop running; token from app settings.
 - Token is stored in `~/.config/beeper/config.json` via `rr auth set` (recommended). `BEEPER_TOKEN` overrides the config file.
 - `BEEPER_ACCOUNT` sets the default account ID (aliases supported).
+- `rr auth status --check` prefers OAuth introspection (`/oauth/introspect`) when available and falls back to account-list validation on older builds.
 - Message search is literal word match (not semantic).
 - `rr contacts resolve` is strict and fails on ambiguous names; resolve by ID after `contacts search` when needed.
 - If a DM title shows your own Matrix ID, use `--scope=participants` to find by name.
 - JSON output includes `display_name` for single chats (derived from participants).
-- Message JSON includes `is_sender`, `is_unread`, `attachments`, and `reactions`.
+- Message JSON includes `message_type`, `linked_message_id`, `is_sender`, `is_unread`, `attachments`, and `reactions`.
 - `downloaded_attachments` is only populated when `--download-media` is used.
 - `rr messages send` returns `pending_message_id` (temporary ID).
+- Account `network` may be missing in newer API builds; `rr` falls back to `"unknown"` in summaries/search output.
 - `rr assets serve` writes raw bytes to stdout unless `--dest` is provided.
 - `--chat` does exact matching and fails on ambiguous matches.
 - Attachment overrides require `--attachment-upload-id`; set `--attachment-width` and `--attachment-height` together.
@@ -128,9 +137,10 @@ Notes
 - In bash/zsh, `!` triggers history expansion. Prefer single quotes, or disable history expansion (`set +H` in bash, `setopt NO_HIST_EXPAND` in zsh).
 - `rr version --json` returns `features` array for capability discovery.
 - `rr capabilities --json` returns full CLI capability metadata.
+- `rr events tail` depends on experimental `/v1/ws` support in Beeper Desktop; fall back to `rr messages tail` when unavailable.
 - Envelope error codes: `AUTH_ERROR`, `NOT_FOUND`, `VALIDATION_ERROR`, `CONNECTION_ERROR`, `INTERNAL_ERROR`.
 - Retry policy: retry `CONNECTION_ERROR` with backoff; do not blind-retry `AUTH_ERROR`/`VALIDATION_ERROR`; refresh IDs before retrying `NOT_FOUND`.
-- Non-idempotent writes: `messages send`, `messages send-file`, `chats create`, `assets upload`, `assets upload-base64`.
+- Non-idempotent writes: `messages send`, `messages send-file`, `chats create`, `chats start`, `assets upload`, `assets upload-base64`.
 - Use `--request-id`/`BEEPER_REQUEST_ID` to tag envelope metadata for cross-retry attempt tracing.
 - Use `--dedupe-window`/`BEEPER_DEDUPE_WINDOW` to block duplicate non-idempotent writes with repeated request IDs.
 - Local smoke check: `make test-agent-smoke`.

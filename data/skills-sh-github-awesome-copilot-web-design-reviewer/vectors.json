@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-github-awesome-copilot-web-design-reviewer",
+  "generated_at": "2026-02-28T14:45:42.234Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-github-awesome-copilot-web-design-reviewer#head",
+      "kind": "head",
+      "path": "/data/skills-sh-github-awesome-copilot-web-design-reviewer/HEAD.md",
+      "text": "title: skills-sh-github-awesome-copilot-web-design-reviewer\nsummary: # Framework-specific Fix Guide This document explains specific fix techniques for each framework and styling method. --- ## Pure CSS / SCSS ### Fixing Layout Overflow ```css /* Before: Overflow occurs */ .container { width: 100%; }\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-design-reviewer/references/framework-fixes.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-github-awesome-copilot-web-design-reviewer",
+        "topic": "skills-sh-github-awesome-copilot-web-design-reviewer",
+        "type": "skills",
+        "title": "skills-sh-github-awesome-copilot-web-design-reviewer",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-design-reviewer/references/framework-fixes.md",
+        "retrieved_at": "2026-02-28T14:45:42.234Z",
+        "content_sha256": "e678c549dd5f69094d53eb5785f0c34ae4cd150a92ac1f79785065fc835276f6"
+      }
+    }
+  ]
+}

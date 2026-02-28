@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-wled",
+  "generated_at": "2026-02-28T14:46:56.283Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-wled#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-wled/HEAD.md",
+      "text": "title: wled\nsummary: Control WLED LED controllers via HTTP API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rowbotik/wled/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-wled",
+        "topic": "openclaw-openclaw-wled",
+        "type": "skills",
+        "title": "wled",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rowbotik/wled/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:56.283Z",
+        "content_sha256": "1518ccb3f162b98305497601abf0e64073ca7095cc9e0163c5d9c42e64fdabc4"
+      }
+    }
+  ]
+}

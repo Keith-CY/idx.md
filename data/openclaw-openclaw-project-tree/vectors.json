@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-project-tree",
+  "generated_at": "2026-02-28T14:46:35.480Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-project-tree#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-project-tree/HEAD.md",
+      "text": "title: project-tree\nsummary: Generate a visual directory tree of the ~/projects folder and update MEMORY.md with the result.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lachlanglasgow/project-tree/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-project-tree",
+        "topic": "openclaw-openclaw-project-tree",
+        "type": "skills",
+        "title": "project-tree",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lachlanglasgow/project-tree/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.480Z",
+        "content_sha256": "b358a44ad83aee4aa1d03c8b31c4b22443b75e6d2f5d2bbd354e35c175fc209c"
+      }
+    }
+  ]
+}

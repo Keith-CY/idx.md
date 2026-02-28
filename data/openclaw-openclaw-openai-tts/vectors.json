@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openai-tts",
+  "generated_at": "2026-02-28T14:46:28.874Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openai-tts#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openai-tts/HEAD.md",
+      "text": "title: openai-tts\nsummary: Text-to-speech via OpenAI Audio Speech API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/openai-tts/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openai-tts",
+        "topic": "openclaw-openclaw-openai-tts",
+        "type": "skills",
+        "title": "openai-tts",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/openai-tts/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:28.874Z",
+        "content_sha256": "b9bc7aa496bfccb5ea3afa96fa4c7f1d7a7d23bfc3b7ddd04dc3be02c5db3b07"
+      }
+    }
+  ]
+}

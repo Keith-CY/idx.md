@@ -1,7 +1,7 @@
 ---
 name: computer-use
-description: Full desktop computer use for headless Linux servers and VPS. Creates a virtual display (Xvfb + XFCE) to control GUI applications without a physical monitor. Screenshots, mouse clicks, keyboard input, scrolling, dragging — all 17 standard actions. Includes flicker-free VNC setup for live remote viewing. Model-agnostic, works with any LLM.
-version: 1.2.0
+description: Full desktop computer use for headless Linux servers. Xvfb + XFCE virtual desktop with xdotool automation. 17 actions (click, type, scroll, screenshot, drag, etc). Unlike OpenClaw's browser tool, operates at the X11 level so websites cannot detect automation. Includes VNC for live viewing.
+version: 1.2.1
 ---
 
 # Computer Use Skill
@@ -151,7 +151,18 @@ xvfb → xfce-minimal → x11vnc → novnc
 
 ```bash
 export DISPLAY=:99
-google-chrome --no-sandbox &    # Chrome (recommended)
+
+# Chrome — only use --no-sandbox if the kernel lacks user namespace support.
+# Check: cat /proc/sys/kernel/unprivileged_userns_clone
+#   1 = sandbox works, do NOT use --no-sandbox
+#   0 = sandbox fails, --no-sandbox required as fallback
+# Using --no-sandbox when unnecessary causes instability and crashes.
+if [ "$(cat /proc/sys/kernel/unprivileged_userns_clone 2>/dev/null)" = "0" ]; then
+    google-chrome --no-sandbox &
+else
+    google-chrome &
+fi
+
 xfce4-terminal &                # Terminal
 thunar &                        # File manager
 ```
@@ -172,21 +183,11 @@ If you prefer manual setup instead of `setup-vnc.sh`:
 # Install packages
 sudo apt install -y xvfb xfce4 xfce4-terminal xdotool scrot imagemagick dbus-x11 x11vnc novnc websockify
 
-# Copy service files
-sudo cp systemd/*.service /etc/systemd/system/
-
-# Edit xfce-minimal.service: replace %USER% and %SCRIPT_PATH%
-sudo nano /etc/systemd/system/xfce-minimal.service
-
-# Mask xfdesktop (prevents VNC flickering)
-sudo mv /usr/bin/xfdesktop /usr/bin/xfdesktop.real
-echo -e '#!/bin/bash\nexit 0' | sudo tee /usr/bin/xfdesktop
-sudo chmod +x /usr/bin/xfdesktop
-
-# Enable and start
-sudo systemctl daemon-reload
-sudo systemctl enable --now xvfb xfce-minimal x11vnc novnc
+# Run the setup script (generates systemd services, masks xfdesktop, starts everything)
+./scripts/setup-vnc.sh
 ```
+
+If you prefer fully manual setup, the `setup-vnc.sh` script generates all systemd service files inline -- read it for the exact service definitions.
 
 ## Troubleshooting
 

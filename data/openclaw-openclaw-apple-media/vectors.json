@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apple-media",
+  "generated_at": "2026-02-28T14:45:48.797Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apple-media#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apple-media/HEAD.md",
+      "text": "title: apple-media\nsummary: Control Apple TV, HomePod, and AirPlay devices via pyatv (scan, stream, playback, volume.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronn/apple-media/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apple-media",
+        "topic": "openclaw-openclaw-apple-media",
+        "type": "skills",
+        "title": "apple-media",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronn/apple-media/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:48.797Z",
+        "content_sha256": "367bb3a98bc8eee413e21034a5c3f619852aaa9dd017949438348c07e30e19a6"
+      }
+    }
+  ]
+}

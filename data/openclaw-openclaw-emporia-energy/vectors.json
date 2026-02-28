@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-emporia-energy",
+  "generated_at": "2026-02-28T14:46:05.565Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-emporia-energy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-emporia-energy/HEAD.md",
+      "text": "title: emporia-energy\nsummary: Direct Emporia Vue energy queries via Emporia cloud (PyEmVue) or local ESPHome API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/urosorozel/emporia-energy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-emporia-energy",
+        "topic": "openclaw-openclaw-emporia-energy",
+        "type": "skills",
+        "title": "emporia-energy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/urosorozel/emporia-energy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:05.565Z",
+        "content_sha256": "2b73934f9c651455b83610be79bb982dba7f9c4147d3bfa238e07eb5a38ce9b9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdbot-skill-homebridge",
+  "generated_at": "2026-02-28T14:45:56.852Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdbot-skill-homebridge#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdbot-skill-homebridge/HEAD.md",
+      "text": "title: homebridge\nsummary: Control smart home devices via Homebridge REST API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jiasenl/clawdbot-skill-homebridge/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdbot-skill-homebridge",
+        "topic": "openclaw-openclaw-clawdbot-skill-homebridge",
+        "type": "skills",
+        "title": "homebridge",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jiasenl/clawdbot-skill-homebridge/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.852Z",
+        "content_sha256": "e6cefa1e9cba28a591752a099be0e29727394edba34b3f9de65cd25fbdf1a140"
+      }
+    }
+  ]
+}

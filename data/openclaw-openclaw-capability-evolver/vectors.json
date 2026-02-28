@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-capability-evolver",
+  "generated_at": "2026-02-28T14:45:54.456Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-capability-evolver#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-capability-evolver/HEAD.md",
+      "text": "title: capability-evolver\nsummary: A self-evolution engine for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/capability-evolver/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-capability-evolver",
+        "topic": "openclaw-openclaw-capability-evolver",
+        "type": "skills",
+        "title": "capability-evolver",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/capability-evolver/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:54.456Z",
+        "content_sha256": "4305aa15a3c11cbb2c5dcf4cdc76d68d12207e13748d00d794e3937004f125df"
+      }
+    }
+  ]
+}

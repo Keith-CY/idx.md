@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openclaw-security-auditor",
+  "generated_at": "2026-02-28T14:46:29.502Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openclaw-security-auditor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openclaw-security-auditor/HEAD.md",
+      "text": "title: openclaw-security-auditor\nsummary: Audit OpenClaw configuration for security risks and generate a remediation report using the user's configured LLM.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/muhammad-waleed381/openclaw-security-auditor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openclaw-security-auditor",
+        "topic": "openclaw-openclaw-openclaw-security-auditor",
+        "type": "skills",
+        "title": "openclaw-security-auditor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/muhammad-waleed381/openclaw-security-auditor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:29.502Z",
+        "content_sha256": "c2282352b932c7614f432e5171c66eab7d21a4ca4ea459ac17416edc47f216c9"
+      }
+    }
+  ]
+}

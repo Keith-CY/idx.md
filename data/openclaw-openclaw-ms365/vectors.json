@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ms365",
+  "generated_at": "2026-02-28T14:46:25.160Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ms365#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ms365/HEAD.md",
+      "text": "title: ms365\nsummary: ms365\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cvsloane/ms365/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ms365",
+        "topic": "openclaw-openclaw-ms365",
+        "type": "skills",
+        "title": "ms365",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cvsloane/ms365/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:25.160Z",
+        "content_sha256": "6aa3ba7a8a9df08ebedadb5bff3056e76a9458d4f6ecad21ba1291a90215009a"
+      }
+    }
+  ]
+}

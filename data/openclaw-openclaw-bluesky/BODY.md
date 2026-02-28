@@ -1,6 +1,6 @@
 ---
 name: bluesky
-version: 1.5.3
+version: 1.6.0
 description: "Complete Bluesky CLI: post, reply, like, repost, follow, block, mute, search, threads, images. Everything you need to engage on Bluesky from the terminal."
 homepage: https://bsky.app
 metadata:
@@ -64,6 +64,7 @@ bsky login --handle alice.bsky.social --password abcd-1234-efgh-5678
 | Reply | `bsky reply <url> "text"` |
 | Quote-post | `bsky quote <url> "text"` |
 | View thread | `bsky thread <url>` |
+| Create thread | `bsky create-thread "Post 1" "Post 2" "Post 3"` or `bsky ct` |
 | Like | `bsky like <url>` |
 | Repost | `bsky repost <url>` |
 | Follow | `bsky follow @handle` |
@@ -100,6 +101,14 @@ bsky quote <post-url> "Your take on this"
 bsky thread <post-url>           # View conversation
 bsky thread <url> --depth 10     # More replies
 bsky thread <url> --json         # JSON output
+```
+
+### Create Thread
+```bash
+bsky create-thread "First post" "Second post" "Third post"   # Create a thread
+bsky ct "Post 1" "Post 2" "Post 3"                           # Short alias
+bsky create-thread "Hello!" "More thoughts" --dry-run         # Preview only
+bsky create-thread "Look!" "Nice" --image pic.jpg --alt "A photo"  # Image on first post
 ```
 
 ### Engagement

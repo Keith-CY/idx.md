@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-plaud-unofficial",
+  "generated_at": "2026-02-28T14:46:33.436Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-plaud-unofficial#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-plaud-unofficial/HEAD.md",
+      "text": "title: plaud-unofficial\nsummary: Use when accessing Plaud voice recorder data (recordings, transcripts, AI summaries) - guides credential setup.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leonardsellem/plaud-unofficial/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-plaud-unofficial",
+        "topic": "openclaw-openclaw-plaud-unofficial",
+        "type": "skills",
+        "title": "plaud-unofficial",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/leonardsellem/plaud-unofficial/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:33.436Z",
+        "content_sha256": "2bbf580df73e43466334a4c47b1fbacb384b3ee44e753673bb1bfa79e97cf8b8"
+      }
+    }
+  ]
+}

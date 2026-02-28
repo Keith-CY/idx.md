@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-todozi",
+  "generated_at": "2026-02-28T14:46:49.688Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-todozi#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-todozi/HEAD.md",
+      "text": "title: todozi\nsummary: Todozi Eisenhower matrix API client + LangChain tools.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bgengs/todozi/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-todozi",
+        "topic": "openclaw-openclaw-todozi",
+        "type": "skills",
+        "title": "todozi",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bgengs/todozi/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:49.688Z",
+        "content_sha256": "b1a969b2671380d51671a79dc3f4694023bcd6c8e0ce0df685ede1569f9b6ea7"
+      }
+    }
+  ]
+}

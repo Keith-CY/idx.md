@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-memory",
+  "generated_at": "2026-02-28T14:46:22.011Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-memory#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-memory/HEAD.md",
+      "text": "title: memory\nsummary: Complete memory system for OpenClaw agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rosepuppy/memory/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-memory",
+        "topic": "openclaw-openclaw-memory",
+        "type": "skills",
+        "title": "memory",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rosepuppy/memory/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.011Z",
+        "content_sha256": "2726c892d9de473e62ef01b60e958c9cf67aa470b1b6d5b9909b557661ac167e"
+      }
+    }
+  ]
+}

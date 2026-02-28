@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-job-search-mcp",
+  "generated_at": "2026-02-28T14:46:17.295Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-job-search-mcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-job-search-mcp/HEAD.md",
+      "text": "title: job-search-mcp\nsummary: Search for jobs across LinkedIn, Indeed, Glassdoor, ZipRecruiter, Google Jobs, Bayt, Naukri.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amoghpurohit/job-search-mcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-job-search-mcp",
+        "topic": "openclaw-openclaw-job-search-mcp",
+        "type": "skills",
+        "title": "job-search-mcp",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amoghpurohit/job-search-mcp/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:17.295Z",
+        "content_sha256": "e529a6a31afcf90132758ff59a0b26c5e99f7030cdd2466167083809295d0ae4"
+      }
+    }
+  ]
+}

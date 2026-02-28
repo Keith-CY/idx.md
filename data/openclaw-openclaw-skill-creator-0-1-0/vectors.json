@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skill-creator-0-1-0",
+  "generated_at": "2026-02-28T14:46:42.910Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skill-creator-0-1-0#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skill-creator-0-1-0/HEAD.md",
+      "text": "title: skill-creator-0-1-0\nsummary: Guide for creating effective skills.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ljglover/skill-creator-0-1-0/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skill-creator-0-1-0",
+        "topic": "openclaw-openclaw-skill-creator-0-1-0",
+        "type": "skills",
+        "title": "skill-creator-0-1-0",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ljglover/skill-creator-0-1-0/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:42.910Z",
+        "content_sha256": "b2e3d83f60425c2d0b9d4162efb8f9aa322b45843497340f2289f42be422801c"
+      }
+    }
+  ]
+}

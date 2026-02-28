@@ -1,6 +1,6 @@
 ---
 name: sports-ticker
-version: 3.0.5
+version: 3.0.6
 description: Live sports alerts for Soccer, NFL, NBA, NHL, MLB, F1 and more. Real-time scoring with FREE ESPN API. Track any team from any major league worldwide.
 metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed. Uses free ESPN API."}}}
 ---
@@ -9,7 +9,7 @@ metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed
 
 Track your favorite teams across **multiple sports** with **FREE live alerts**!
 
-Supports: ⚽ Soccer • 🏈 NFL • 🏀 NBA • 🏒 NHL • ⚾ MLB • 🏎️ F1
+Supports: ⚽ Soccer • 🏈 NFL • 🏀 NBA • 🏒 NHL • ⚾ MLB • 🏎 F1
 
 ## First Run (Onboarding)
 
@@ -106,10 +106,10 @@ python3 scripts/espn.py search "Chiefs" football
 
 ## Alert Types
 
-- 🏟️ Game start (kick-off / tip-off)
+- 🏟 Game start (kick-off / tip-off)
 - ⚽🏈🏀⚾ Scoring plays (goals, touchdowns, 3-pointers, home runs)
 - 🟥 Red cards / Ejections
-- ⏸️ Halftime / Period breaks
+- ⏸ Halftime / Period breaks
 - 🏁 Final results (WIN/LOSS/DRAW)
 
 ## ESPN API (Free!)

@@ -33,9 +33,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:31.350Z
+github_stars: 64877
+github_forks: 4946
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:25.217Z
 content_sha256: dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e
 ---

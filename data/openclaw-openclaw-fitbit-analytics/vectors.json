@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-fitbit-analytics",
+  "generated_at": "2026-02-28T14:46:08.395Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-fitbit-analytics#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-fitbit-analytics/HEAD.md",
+      "text": "title: fitbit-analytics\nsummary: Fitbit health and fitness data integration.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/fitbit-analytics/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-fitbit-analytics",
+        "topic": "openclaw-openclaw-fitbit-analytics",
+        "type": "skills",
+        "title": "fitbit-analytics",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/fitbit-analytics/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:08.395Z",
+        "content_sha256": "48fcf7e31bad31c8f1de309cf6bcfd7b66374e3ff58eb9089dc9c85c47de3bd9"
+      }
+    }
+  ]
+}

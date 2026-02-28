@@ -1,67 +1,148 @@
 ---
 name: Agent
-description: Documentation and capabilities reference for Agent
+description: Use when creating, authoring, or integrating Agent Skills — reusable instruction packages that extend agent capabilities. Reach for this skill when building skill directories, writing SKILL.md files, bundling scripts, validating skills, or adding skills support to an agent platform.
 metadata:
     mintlify-proj: agent
     version: "1.0"
 ---
 
-## Capabilities
+# Agent Skills
 
-Agent Skills enable AI agents to extend their capabilities with specialized knowledge and workflows. Agents can discover and load skills on demand to perform complex tasks more accurately and efficiently. Skills provide domain expertise, new capabilities (like creating presentations or analyzing datasets), repeatable workflows, and interoperability across different agent products. The progressive disclosure model keeps agents fast by loading only metadata at startup and full instructions when needed.
+## Product summary
 
-## Skills
+Agent Skills is an open standard for packaging reusable instructions, scripts, and resources that agents can discover and execute. A skill is a folder containing a required `SKILL.md` file (with YAML frontmatter and Markdown instructions) plus optional `scripts/`, `references/`, and `assets/` directories. Skills enable agents to extend capabilities on demand using progressive disclosure: metadata loads at startup, full instructions load when activated, and bundled resources load only when needed. The primary documentation is at https://agentskills.io. Key files: `SKILL.md` (required frontmatter + instructions), `scripts/` (executable code), `references/` (supporting docs), `assets/` (templates). Key tools: `skills-ref validate` (validate skill format), `skills-ref to-prompt` (generate XML for agent prompts).
 
-### Skill Structure and Format
-- **SKILL.md File**: Every skill is a folder containing a required SKILL.md file with YAML frontmatter and Markdown instructions
-- **Folder Structure**: Skills can include optional subdirectories for scripts, references, and assets
-  - `SKILL.md` - Required metadata and instructions
-  - `scripts/` - Optional executable code (Python, Bash, JavaScript)
-  - `references/` - Optional documentation files (REFERENCE.md, FORMS.md, domain-specific files)
-  - `assets/` - Optional static resources (templates, images, data files)
+## When to use
 
-### Frontmatter Metadata
-- **Required Fields**:
-  - `name`: Short identifier (max 64 characters, lowercase letters/numbers/hyphens only)
-  - `description`: When to use the skill (max 1024 characters)
-- **Optional Fields**:
-  - `license`: License name or reference to bundled license file
-  - `compatibility`: Environment requirements (max 500 characters) - indicates intended product, required system packages, network access needs
-  - `metadata`: Arbitrary key-value mapping for additional metadata (e.g., author, version)
-  - `allowed-tools`: Space-delimited list of pre-approved tools the skill may use (experimental)
+Use this skill when:
+- **Creating a new skill**: You need to structure instructions, scripts, and metadata for agent use
+- **Authoring SKILL.md files**: Writing frontmatter (name, description, optional fields) and Markdown instructions
+- **Bundling scripts**: Adding executable code (Python, Bash, JavaScript, etc.) to a skill's `scripts/` directory
+- **Integrating skills into an agent**: Adding skill discovery, metadata loading, and activation to an agent platform
+- **Validating skills**: Checking that SKILL.md frontmatter and naming conventions are correct
+- **Generating agent prompts**: Creating XML metadata blocks for agent system prompts
+- **Designing script interfaces**: Making scripts idempotent, handling errors gracefully, and supporting agent execution patterns
 
-### Skill Discovery and Loading
-- **Filesystem-based agents**: Scan configured directories for skill folders, activate skills via shell commands like `cat /path/to/my-skill/SKILL.md`
-- **Tool-based agents**: Implement custom tools to trigger skills and access bundled assets without filesystem access
-- **Metadata parsing**: Extract only frontmatter at startup to minimize context usage (~50-100 tokens per skill)
-- **Progressive disclosure**: Load full instructions only when skill is activated, reference files on demand
+## Quick reference
 
-### Skill Content and Instructions
-- **Body content**: Markdown instructions with no format restrictions
-- **Recommended sections**: Step-by-step instructions, examples of inputs/outputs, common edge cases
-- **Size optimization**: Keep main SKILL.md under 500 lines, move detailed reference material to separate files
-- **Context efficiency**: Full instructions should be under 5000 tokens recommended
+### SKILL.md frontmatter (required)
 
-### Scripts and Executable Code
-- **Self-contained**: Scripts should be self-contained or clearly document dependencies
-- **Error handling**: Include helpful error messages and handle edge cases gracefully
-- **Language support**: Common options include Python, Bash, and JavaScript (depends on agent implementation)
-- **Tool restrictions**: Use `allowed-tools` field to pre-approve specific tools agents can execute
+```yaml
+---
+name: skill-identifier
+description: When to use this skill and what it does (max 1024 chars)
+license: MIT  # optional
+compatibility: Requires Node.js 18+  # optional
+metadata:    # optional key-value pairs
+  category: data-processing
+---
+```
 
-### Reference Materials and Assets
-- **References directory**: Additional documentation loaded on demand
-  - REFERENCE.md for detailed technical reference
-  - FORMS.md for form templates or structured data formats
-  - Domain-specific files (finance.md, legal.md, etc.)
-- **Assets directory**: Static resources including templates, images, diagrams, and data files
-- **On-demand loading**: Agents load reference files only when needed to conserve context
+**Naming rules for `name`**: max 64 characters, lowercase letters/numbers/hyphens only, no leading/trailing hyphens.
 
-## Workflows
+### Directory structure
 
-### Integrating Skills into an Agent
-1. **Discover skills**: Scan configured directories for folders containing SKILL.md files
-2. **Parse metadata**: Extract YAML frontmatter from each SKILL.md to get name, description, and other metadata
-3. **Inject into context**: Include skill metadata in system prompt using XML format:
+```
+my-skill/
+├── SKILL.md              # Required: frontmatter + instructions
+├── scripts/              # Optional: executable code
+│   ├── process.py
+│   └── validate.sh
+├── references/           # Optional: supporting documentation
+│   └── advanced-usage.md
+└── assets/               # Optional: templates, resources
+    └── template.json
+```
+
+### Common script runners
+
+| Runner | Command | Best for | Notes |
+|--------|---------|----------|-------|
+| `uv run` | `uv run scripts/extract.py` | Python | Recommended; uses PEP 723 inline dependencies |
+| `pipx run` | `pipx run scripts/extract.py` | Python | Alternative; broader OS package manager support |
+| `npx` | `npx eslint@9 --fix .` | Node.js | Bundled with npm; pin versions for reproducibility |
+| `deno run` | `deno run --allow-read npm:cheerio@1.0.0` | Deno | Self-contained; use `npm:` and `jsr:` specifiers |
+| `bash` | `bash scripts/validate.sh` | Shell | Direct execution; no dependency management |
+
+### Validation and prompt generation
+
+```bash
+# Validate a skill directory
+skills-ref validate ./my-skill
+
+# Generate <available_skills> XML for agent prompts
+skills-ref to-prompt ./my-skill ./another-skill
+```
+
+## Decision guidance
+
+| Scenario | Use bundled script | Use one-off command |
+|----------|-------------------|-------------------|
+| Simple tool invocation (1-2 flags) | No | Yes: `npx eslint@9 --fix .` |
+| Complex logic, error handling, retries | Yes | No: move to `scripts/` |
+| Reusable across multiple skills | Yes | No: bundle once, reference many times |
+| Requires environment setup or dependencies | Yes: declare in script | Maybe: if tool auto-resolves (uv, pipx, npx) |
+| Output needs pagination or filtering | Yes: add `--offset` flag | No: one-off commands are simple |
+
+| Scenario | Filesystem-based agent | Tool-based agent |
+|----------|------------------------|------------------|
+| Agent has shell/bash access | Yes | No |
+| Skills accessed via shell commands | Yes | No |
+| Skills accessed via tool interface | No | Yes |
+| Bundled resources via file paths | Yes | No |
+| Bundled resources via tool methods | No | Yes |
+
+## Workflow
+
+### Creating a new skill
+
+1. **Create the directory structure**:
+   ```bash
+   mkdir my-skill
+   cd my-skill
+   ```
+
+2. **Write SKILL.md with required frontmatter**:
+   - Set `name` (lowercase, hyphens, max 64 chars)
+   - Set `description` (what the skill does, when to use it, max 1024 chars)
+   - Add optional fields: `license`, `compatibility`, `metadata`
+   - Write Markdown instructions below frontmatter
+
+3. **Add instructions to SKILL.md body**:
+   - Include step-by-step instructions
+   - Provide examples of inputs and outputs
+   - Document common edge cases
+   - Keep under 500 lines; move detailed content to `references/`
+
+4. **Bundle scripts (if needed)**:
+   - Create `scripts/` directory
+   - Write self-contained scripts with clear `--help` output
+   - Declare dependencies inline (PEP 723 for Python, npm specifiers for Node.js)
+   - Avoid interactive prompts; use command-line flags instead
+
+5. **Validate the skill**:
+   ```bash
+   skills-ref validate ./my-skill
+   ```
+
+6. **Generate prompt XML for agent integration**:
+   ```bash
+   skills-ref to-prompt ./my-skill
+   ```
+
+### Integrating skills into an agent
+
+1. **Discover skills**: Scan configured directories for folders containing `SKILL.md`
+
+2. **Load metadata at startup**: Parse only frontmatter (`name`, `description`) from each skill to keep context usage low (~50-100 tokens per skill)
+
+3. **Match tasks to skills**: When a user task matches a skill's description, activate the skill
+
+4. **Load full instructions**: Read the complete SKILL.md body into context when the skill is activated
+
+5. **Execute scripts and resources**: Run bundled scripts or load referenced files as needed during execution
+
+6. **Inject into agent prompt**: Include skill metadata in system prompt using XML format:
    ```xml
    <available_skills>
      <skill>
@@ -71,56 +152,52 @@ Agent Skills enable AI agents to extend their capabilities with specialized know
      </skill>
    </available_skills>
    ```
-4. **Match tasks to skills**: When user provides a task, match it to relevant skills based on descriptions
-5. **Activate skill**: Load full SKILL.md content when skill is selected
-6. **Execute instructions**: Follow skill instructions, loading referenced files or executing scripts as needed
 
-### Creating and Validating Skills
-1. **Create skill folder**: Set up directory structure with SKILL.md and optional subdirectories
-2. **Write frontmatter**: Add required name and description fields, plus optional license, compatibility, and metadata
-3. **Write instructions**: Create Markdown body with clear step-by-step instructions
-4. **Add resources**: Include scripts, references, and assets as needed
-5. **Validate skill**: Use skills-ref library to validate the skill directory structure and format
-6. **Generate prompt XML**: Use `skills-ref to-prompt <path>` to generate XML for system prompts
+## Common gotchas
 
-### Using the Reference Implementation
-- **Validate skill**: `skills-ref validate <path>` - Check skill directory structure and SKILL.md format
-- **Generate prompt XML**: `skills-ref to-prompt <path>...` - Create `<available_skills>` XML for agent system prompts
-- **Library utilities**: Use Python utilities from skills-ref for programmatic skill handling
+- **Interactive prompts hang agents**: Scripts cannot use TTY prompts, password dialogs, or confirmation menus. Accept all input via command-line flags, environment variables, or stdin. If a flag is required, fail with a clear error message listing valid options.
 
-## Integration
+- **Large output gets truncated**: Agent harnesses often truncate output beyond 10-30K characters. Default to summaries or reasonable limits; support `--offset` for pagination or require `--output FILE` to opt in to full output.
 
-### Agent Integration Approaches
-- **Filesystem-based agents**: Operate in bash/unix environments with full filesystem access. Skills are activated when agents issue shell commands to read SKILL.md files. Bundled resources accessed through shell commands. Most capable option.
-- **Tool-based agents**: Function without dedicated computer environment. Implement custom tools allowing models to trigger skills and access bundled assets. Specific tool implementation is up to the developer.
+- **Scripts must be idempotent**: Agents may retry commands. Use "create if not exists" patterns instead of "create and fail on duplicate." This prevents spurious failures on retries.
 
-### Context Management
-- **Metadata injection**: Include skill name, description, and location in system prompt (50-100 tokens per skill)
-- **Progressive loading**: Load only metadata at startup, full instructions on activation, reference files on demand
-- **Token efficiency**: Keep metadata concise to minimize context overhead while maintaining agent awareness of available skills
+- **Ambiguous input causes silent failures**: Reject ambiguous input with clear errors rather than guessing. Use enums and closed sets where possible (e.g., `--format json|csv|table`).
 
-### Compatibility and Requirements
-- **Environment specification**: Use compatibility field to indicate intended product, required system packages, or network access needs
-- **Tool approval**: Use allowed-tools field to specify pre-approved tools agents can execute (experimental feature)
-- **Cross-product reuse**: Skills are portable and can be reused across different skills-compatible agent products
+- **Missing exit codes confuse agents**: Use distinct exit codes for different failure types (not found = 1, invalid args = 2, auth failure = 3). Document them in `--help` output so agents know what each code means.
 
-## Context
+- **Unstructured output is hard to parse**: Prefer JSON, CSV, or TSV over free-form text. Send structured data to stdout and diagnostics (progress, warnings) to stderr so agents can capture clean output.
 
-### Why Agent Skills Matter
-Agents are increasingly capable but often lack the context needed for reliable real-world work. Skills solve this by providing procedural knowledge and company-, team-, and user-specific context that agents can load on demand. This enables:
-- **Domain expertise**: Package specialized knowledge from legal review processes to data analysis pipelines
-- **New capabilities**: Give agents abilities like creating presentations, building MCP servers, or analyzing datasets
-- **Repeatable workflows**: Turn multi-step tasks into consistent and auditable workflows
-- **Organizational knowledge**: Capture and version-control company-specific processes in portable packages
+- **Frontmatter validation fails silently**: Ensure `name` follows naming rules (lowercase, hyphens, no leading/trailing hyphens, max 64 chars). Run `skills-ref validate` before deploying.
 
-### Skill Design Principles
-- **Self-documenting**: Skill authors and users can read SKILL.md and understand what it does, making skills easy to audit and improve
-- **Extensible**: Skills can range from simple text instructions to complex packages with executable code, assets, and templates
-- **Portable**: Skills are just files, making them easy to edit, version, and share across teams and products
-- **Efficient context usage**: Progressive disclosure keeps agents fast while providing access to detailed instructions on demand
+- **Scripts without `--help` are opaque**: Document every script's interface with a concise `--help` output including description, flags, and usage examples. This is how agents learn your script's API.
 
-### Supported Platforms
-Agent Skills are supported by leading AI development tools and are designed for interoperability across different agent products. The open format enables skill authors to build once and deploy across multiple compatible platforms.
+- **Destructive operations lack safeguards**: For operations that modify state (delete, deploy, overwrite), require explicit confirmation flags (`--confirm`, `--force`) or support `--dry-run` to preview changes.
+
+- **Relative paths break in scripts**: Use relative paths from the skill directory root (e.g., `scripts/validate.sh`, `references/guide.md`). Agents run commands from the skill root, so paths resolve automatically.
+
+## Verification checklist
+
+Before submitting a skill:
+
+- [ ] **Frontmatter is valid**: `name` is lowercase with hyphens only (max 64 chars), `description` is non-empty (max 1024 chars)
+- [ ] **SKILL.md exists and is readable**: File is at skill root with proper YAML frontmatter
+- [ ] **Instructions are clear**: Body includes step-by-step instructions, examples, and edge cases
+- [ ] **Scripts have `--help`**: Every bundled script documents its interface with flags and usage examples
+- [ ] **Scripts are non-interactive**: No TTY prompts, password dialogs, or confirmation menus
+- [ ] **Scripts use structured output**: JSON, CSV, or TSV to stdout; diagnostics to stderr
+- [ ] **Scripts are idempotent**: "Create if not exists" patterns; safe to retry
+- [ ] **Dependencies are declared**: Python scripts use PEP 723; Node.js scripts pin versions with `@version`
+- [ ] **Relative paths are used**: Scripts reference bundled files relative to skill root
+- [ ] **Validation passes**: `skills-ref validate ./my-skill` succeeds
+- [ ] **Prompt XML generates**: `skills-ref to-prompt ./my-skill` produces valid XML
+- [ ] **Size is reasonable**: SKILL.md is under 500 lines; detailed content is in `references/`
+
+## Resources
+
+- **Comprehensive navigation**: https://agentskills.io/llms.txt — page-by-page listing of all documentation
+- **Specification**: https://agentskills.io/specification — complete SKILL.md format, directory structure, validation rules
+- **Integration guide**: https://agentskills.io/integrate-skills — how to add skills support to an agent platform
+- **Script authoring**: https://agentskills.io/skill-creation/using-scripts — best practices for bundled scripts, one-off commands, error handling
 
 ---
 

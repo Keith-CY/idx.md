@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-openclaw-skills-origram",
+  "generated_at": "2026-02-28T14:45:23.471Z",
+  "records": [
+    {
+      "id": "skills/github-skill-openclaw-skills-origram#head",
+      "kind": "head",
+      "path": "/data/github-skill-openclaw-skills-origram/HEAD.md",
+      "text": "title: origram\nsummary: Bot-friendly photo sharing webservice via HTTP 402 protocol. Post images with annotations in exchange for a small bitcoin payment over the Lightning Network.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-finance, github-owner-openclaw, github-repo-skills\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matbalez/origram/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-openclaw-skills-origram",
+        "topic": "github-skill-openclaw-skills-origram",
+        "type": "skills",
+        "title": "origram",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-finance",
+          "github-owner-openclaw",
+          "github-repo-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matbalez/origram/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:23.471Z",
+        "content_sha256": "d32eca31dba25101031d2b7a3bc99ebad760ff25279675382b30f69e0111de60"
+      }
+    }
+  ]
+}

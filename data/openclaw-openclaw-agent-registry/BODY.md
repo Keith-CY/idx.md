@@ -1,12 +1,19 @@
 ---
 name: agent-registry
+version: 2.0.1
 description: |
-  MANDATORY agent discovery system for token-efficient agent loading. Claude MUST use this skill 
-  instead of loading agents directly from ~/.claude/agents/ or .claude/agents/. Provides lazy 
-  loading via search_agents and get_agent tools. Use when: (1) user task may benefit from 
-  specialized agent expertise, (2) user asks about available agents, (3) starting complex 
-  workflows that historically used agents. This skill reduces context window usage by ~95% 
+  MANDATORY agent discovery system for token-efficient agent loading. Claude MUST use this skill
+  instead of loading agents directly from ~/.claude/agents/ or .claude/agents/. Provides lazy
+  loading via search and get tools. Use when: (1) user task may benefit from
+  specialized agent expertise, (2) user asks about available agents, (3) starting complex
+  workflows that historically used agents. This skill reduces context window usage by ~95%
   compared to loading all agents upfront.
+hooks:
+  UserPromptSubmit:
+    - hooks:
+        - type: command
+          command: "bun ${CLAUDE_PLUGIN_ROOT}/hooks/user_prompt_search.js"
+          timeout: 5
 ---
 
 # Agent Registry
@@ -27,17 +34,17 @@ User Request → search_agents(intent) → select best match → get_agent(name)
 
 | Command | When to Use | Example |
 |---------|-------------|---------|
-| `list_agents.py` | User asks "what agents do I have" or needs overview | `python scripts/list_agents.py` |
-| `search_agents.py` | Find agents matching user intent (ALWAYS do this first) | `python scripts/search_agents.py "code review security"` |
-| `search_agents_paged.py` | Paged search for large registries (300+ agents) | `python scripts/search_agents_paged.py "query" --page 1 --page-size 10` |
-| `get_agent.py` | Load a specific agent's full instructions | `python scripts/get_agent.py code-reviewer` |
+| `list.js` | User asks "what agents do I have" or needs overview | `bun bin/list.js` |
+| `search.js` | Find agents matching user intent (ALWAYS do this first) | `bun bin/search.js "code review security"` |
+| `search-paged.js` | Paged search for large registries (300+ agents) | `bun bin/search-paged.js "query" --page 1 --page-size 10` |
+| `get.js` | Load a specific agent's full instructions | `bun bin/get.js code-reviewer` |
 
 ## Search First Pattern
 
 1. **Extract intent keywords** from user request
-2. **Run search**: `python scripts/search_agents.py "<keywords>"`
+2. **Run search**: `bun bin/search.js "<keywords>"`
 3. **Review results**: Check relevance scores (0.0-1.0)
-4. **Load if needed**: `python scripts/get_agent.py <agent-name>`
+4. **Load if needed**: `bun bin/get.js <agent-name>`
 5. **Execute**: Follow the loaded agent's instructions
 
 ## Example
@@ -46,7 +53,7 @@ User: "Can you review my authentication code for security issues?"
 
 ```bash
 # Step 1: Search for relevant agents
-python scripts/search_agents.py "code review security authentication"
+bun bin/search.js "code review security authentication"
 
 # Output:
 # Found 2 matching agents:
@@ -54,7 +61,7 @@ python scripts/search_agents.py "code review security authentication"
 #   2. code-reviewer (score: 0.71) - General code review and best practices
 
 # Step 2: Load the best match
-python scripts/get_agent.py security-auditor
+bun bin/get.js security-auditor
 
 # Step 3: Follow loaded agent instructions for the task
 ```
@@ -66,11 +73,14 @@ python scripts/get_agent.py security-auditor
 **Quick Install (Recommended):**
 
 ```bash
-# NPX with add-skill (recommended)
-npx add-skill MaTriXy/Agent-Registry
+# Using Skills CLI (recommended)
+npx skills add MaTriXy/Agent-Registry@agent-registry
 
-# OR npm directly
-npm install -g @claude-code/agent-registry
+# Discover skills interactively
+npx skills find
+
+# Update existing skills
+npx skills update
 ```
 
 **Traditional Install:**
@@ -81,15 +91,15 @@ npm install -g @claude-code/agent-registry
 
 # OR project-level installation
 ./install.sh --project
+
+# Optional: install enhanced interactive UI dependency
+./install.sh --install-deps
 ```
 
 **What install.sh does:**
-1. ✓ Copies skill files to `~/.claude/skills/agent-registry/`
-2. ✓ Creates empty registry structure
-3. ✓ Automatically installs `questionary` Python package (for interactive UI)
-4. ✓ Falls back gracefully if `pip3` not available
-
-**Note:** All installation methods support Python-based migration and CLI tools
+1. Copies skill files to `~/.claude/skills/agent-registry/`
+2. Creates empty registry structure
+3. Optionally installs dependencies via `--install-deps` (`@clack/prompts` for enhanced UI)
 
 ### Step 2: Migrate Your Agents
 
@@ -97,38 +107,33 @@ Run the interactive migration script:
 
 ```bash
 cd ~/.claude/skills/agent-registry
-python scripts/init_registry.py
+bun bin/init.js
+# Optional destructive mode:
+bun bin/init.js --move
 ```
 
 **Interactive selection modes:**
 
-- **With questionary** (recommended): Checkbox UI with category grouping, token indicators, and paging
-  - ↑↓ navigate, Space toggle, Enter confirm
-  - Visual indicators: 🟢 <1k tokens, 🟡 1-3k, 🔴 >3k
+- **With @clack/prompts** (default): Beautiful checkbox UI with category grouping, token indicators, and paging
+  - Arrow keys navigate, Space toggle, Enter confirm
+  - Visual indicators: [green] <1k tokens, [yellow] 1-3k, [red] >3k
   - Grouped by subdirectory
 
-- **Without questionary** (fallback): Text-based number input
+- **Fallback**: Text-based number input
   - Enter comma-separated numbers (e.g., `1,3,5`)
   - Type `all` to migrate everything
 
-**What init_registry.py does:**
+**What init.js does:**
 1. Scans `~/.claude/agents/` and `.claude/agents/` for agent files
 2. Displays available agents with metadata
 3. Lets you interactively select which to migrate
-4. Moves selected agents to the registry
+4. Copies selected agents to the registry by default (`--move` is explicit opt-in)
 5. Builds search index (`registry.json`)
 
 ## Dependencies
 
-- **Python**: 3.7 or higher
-- **questionary**: Interactive checkbox selection UI with Separator support
-
-The installer automatically installs questionary. If installation fails or pip3 is unavailable, the migration script falls back to text-based input mode.
-
-**Manual installation:**
-```bash
-pip3 install questionary
-```
+- **Bun** (ships with Claude Code) — zero additional dependencies for core functionality
+- **@clack/prompts**: Optional enhanced interactive selection UI (install via `./install.sh --install-deps`)
 
 ## Registry Location
 

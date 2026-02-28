@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-sogcli",
+  "generated_at": "2026-02-28T14:46:44.249Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-sogcli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-sogcli/HEAD.md",
+      "text": "title: sogcli\nsummary: Standards Ops Gadget — CLI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/sogcli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-sogcli",
+        "topic": "openclaw-openclaw-sogcli",
+        "type": "skills",
+        "title": "sogcli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/sogcli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:44.249Z",
+        "content_sha256": "99130838baa936ed01ee6029138ff9d139a1b89f26d21f412b3e701e5f5cd18e"
+      }
+    }
+  ]
+}

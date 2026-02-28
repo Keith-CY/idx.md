@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-google-maps-grounding-lite-mcp",
+  "generated_at": "2026-02-28T14:46:12.239Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-google-maps-grounding-lite-mcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-google-maps-grounding-lite-mcp/HEAD.md",
+      "text": "title: google-maps-grounding-lite-mcp\nsummary: Google Maps Grounding Lite MCP for location search, weather, and routes via mcporter.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanbaumann/google-maps-grounding-lite-mcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-google-maps-grounding-lite-mcp",
+        "topic": "openclaw-openclaw-google-maps-grounding-lite-mcp",
+        "type": "skills",
+        "title": "google-maps-grounding-lite-mcp",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanbaumann/google-maps-grounding-lite-mcp/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:12.239Z",
+        "content_sha256": "7b88bba6a6ed885b1bbaf614e98acf8c8fbe9522cb61a489d23af06d8632f692"
+      }
+    }
+  ]
+}

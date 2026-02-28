@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pdf",
+  "generated_at": "2026-02-28T14:46:31.657Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pdf#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pdf/HEAD.md",
+      "text": "title: pdf\nsummary: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/awspace/pdf/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pdf",
+        "topic": "openclaw-openclaw-pdf",
+        "type": "skills",
+        "title": "pdf",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/awspace/pdf/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:31.657Z",
+        "content_sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
+      }
+    }
+  ]
+}

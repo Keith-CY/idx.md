@@ -1,7 +1,10 @@
 ---
 name: skillvet
-version: 2.0.8
 description: "Security scanner for ClawHub/community skills — detects malware, credential theft, exfiltration, prompt injection, obfuscation, homograph attacks, ANSI injection, campaign-specific attack patterns, and more before you install. Use when installing skills from ClawHub or any public marketplace, reviewing third-party agent skills for safety, or vetting untrusted code before giving it to your AI agent. Triggers: install skill, audit skill, check skill, vet skill, skill security, safe install, is this skill safe."
+compatibility: "Requires bash, grep, find, and file (standard POSIX). safe-install.sh and scan-remote.sh require the clawdhub CLI. perl or ggrep (Homebrew GNU grep) recommended for full Unicode regex support on macOS."
+metadata:
+  version: "2.0.9"
+  author: oakencore
 ---
 
 # Skillvet

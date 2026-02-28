@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-protonmail",
+  "generated_at": "2026-02-28T14:46:35.799Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-protonmail#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-protonmail/HEAD.md",
+      "text": "title: protonmail\nsummary: Read, search, and scan ProtonMail via IMAP bridge (Proton Bridge or hydroxide).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/durchblick-nl/protonmail/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-protonmail",
+        "topic": "openclaw-openclaw-protonmail",
+        "type": "skills",
+        "title": "protonmail",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/durchblick-nl/protonmail/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.799Z",
+        "content_sha256": "1a421608202c81072a5cce02d769b2234321b2c54e14bdb574ccc35a84cfcc33"
+      }
+    }
+  ]
+}

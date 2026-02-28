@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-legal-commands-respond",
+  "generated_at": "2026-02-28T14:45:29.878Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-legal-commands-respond#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-legal-commands-respond/HEAD.md",
+      "text": "title: respond\nsummary: Generate a response to a common legal inquiry using configured templates\ntype: skills\ntags: source-knowledge-work-plugins, plugin-legal, plugin-component-commands, plugin-command, category-uncategorized\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/respond.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-legal-commands-respond",
+        "topic": "knowledge-work-plugins-legal-commands-respond",
+        "type": "skills",
+        "title": "respond",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-legal",
+          "plugin-component-commands",
+          "plugin-command",
+          "category-uncategorized"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/respond.md",
+        "retrieved_at": "2026-02-28T14:45:29.878Z",
+        "content_sha256": "319c785cdee1fee1e16670710ce7307025c897653c834171d44c1cf517c06239"
+      }
+    }
+  ]
+}

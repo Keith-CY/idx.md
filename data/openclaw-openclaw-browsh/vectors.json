@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-browsh",
+  "generated_at": "2026-02-28T14:45:53.563Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-browsh#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-browsh/HEAD.md",
+      "text": "title: browsh\nsummary: A modern text-based browser.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/browsh/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-browsh",
+        "topic": "openclaw-openclaw-browsh",
+        "type": "skills",
+        "title": "browsh",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/browsh/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.563Z",
+        "content_sha256": "24db613bf79de40329b5a4634cd7566f9bda17975dc2c993e23148fd8be84268"
+      }
+    }
+  ]
+}

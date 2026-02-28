@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-jira",
+  "generated_at": "2026-02-28T14:46:16.999Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-jira#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-jira/HEAD.md",
+      "text": "title: jira\nsummary: Manage Jira issues, boards, sprints, and projects via the jira-cli.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/jira/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-jira",
+        "topic": "openclaw-openclaw-jira",
+        "type": "skills",
+        "title": "jira",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/jira/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.999Z",
+        "content_sha256": "83b6e1debd54b9deb0fedf930590da03bf82f5129f4a8ddd544a003044f00ce2"
+      }
+    }
+  ]
+}

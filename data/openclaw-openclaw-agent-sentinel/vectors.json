@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-sentinel",
+  "generated_at": "2026-02-28T14:45:45.977Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-sentinel#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-sentinel/HEAD.md",
+      "text": "title: agent-sentinel\nsummary: The operational circuit breaker for this agent.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jimmystacks/agent-sentinel/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-sentinel",
+        "topic": "openclaw-openclaw-agent-sentinel",
+        "type": "skills",
+        "title": "agent-sentinel",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jimmystacks/agent-sentinel/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:45.977Z",
+        "content_sha256": "070d147ec70e72a3eceb635aa33e1af57e32e7cefb193e6b6613f026e33d7e2d"
+      }
+    }
+  ]
+}

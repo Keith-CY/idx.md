@@ -31,9 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-automation-recommender
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:51.869Z
+github_stars: 8532
+github_forks: 835
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:42.450Z
 content_sha256: 64a12ab24618e4987ba947638fb598683635e80db92f3253e87d5b06c878174d
 ---

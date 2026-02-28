@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-registry-broker-hashnet-openclaw",
+  "generated_at": "2026-02-28T14:46:38.395Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-registry-broker-hashnet-openclaw#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-registry-broker-hashnet-openclaw/HEAD.md",
+      "text": "title: registry-broker-hashnet-openclaw\nsummary: Search 72,000+ AI agents across 14 registries, chat with any agent, register.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kantorcodes/registry-broker-hashnet-openclaw/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-registry-broker-hashnet-openclaw",
+        "topic": "openclaw-openclaw-registry-broker-hashnet-openclaw",
+        "type": "skills",
+        "title": "registry-broker-hashnet-openclaw",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kantorcodes/registry-broker-hashnet-openclaw/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:38.395Z",
+        "content_sha256": "5b457a302bce5ad258208b4b136d4a0d59d6355ffd0d44fb33cf63f1ff1a71c6"
+      }
+    }
+  ]
+}

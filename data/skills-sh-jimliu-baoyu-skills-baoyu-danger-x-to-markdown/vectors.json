@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown",
+  "generated_at": "2026-02-28T14:45:37.261Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown#head",
+      "kind": "head",
+      "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown/HEAD.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown\nsummary: --- name: first-time-setup description: First-time setup flow for baoyu-danger-x-to-markdown preferences --- # First-Time Setup ## Overview When no EXTEND.md is found, guide user through preference setup. **BLOCKING OPERATION**: This setup MUST complete before ANY other workflow steps. Do NOT: - Start converting tweets or articles - Ask about URLs or output paths\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-danger-x-to-markdown/references/config/first-time-setup.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown",
+        "topic": "skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown",
+        "type": "skills",
+        "title": "skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-danger-x-to-markdown/references/config/first-time-setup.md",
+        "retrieved_at": "2026-02-28T14:45:37.261Z",
+        "content_sha256": "61db3aa0512d452163903d0b40c7d4062372e10df2053570a1a89ed656718800"
+      }
+    }
+  ]
+}

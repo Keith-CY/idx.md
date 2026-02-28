@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-4todo",
+  "generated_at": "2026-02-28T14:45:44.003Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-4todo#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-4todo/HEAD.md",
+      "text": "title: 4todo\nsummary: Manage 4todo (4to.do) from chat.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/blackstorm/4todo/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-4todo",
+        "topic": "openclaw-openclaw-4todo",
+        "type": "skills",
+        "title": "4todo",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/blackstorm/4todo/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:44.003Z",
+        "content_sha256": "d4df7be349011741e18c07a71edbf26d675ab74d98e87c1ef02f82161b90bebe"
+      }
+    }
+  ]
+}

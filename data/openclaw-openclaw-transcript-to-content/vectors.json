@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-transcript-to-content",
+  "generated_at": "2026-02-28T14:46:50.237Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-transcript-to-content#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-transcript-to-content/HEAD.md",
+      "text": "title: transcript-to-content\nsummary: This skill transforms training and onboarding meeting transcripts into structured learning materials, documentation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/transcript-to-content/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-transcript-to-content",
+        "topic": "openclaw-openclaw-transcript-to-content",
+        "type": "skills",
+        "title": "transcript-to-content",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/transcript-to-content/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:50.237Z",
+        "content_sha256": "3ec273c22ae4ff586c57be380fef3aa5a4fecb6168d4bd68ee26f86056722cfa"
+      }
+    }
+  ]
+}

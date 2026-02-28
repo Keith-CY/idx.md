@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-nano-pdf",
+  "generated_at": "2026-02-28T14:46:25.969Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-nano-pdf#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-nano-pdf/HEAD.md",
+      "text": "title: nano-pdf\nsummary: Edit PDFs with natural-language instructions using the nano-pdf.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/nano-pdf/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-nano-pdf",
+        "topic": "openclaw-openclaw-nano-pdf",
+        "type": "skills",
+        "title": "nano-pdf",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/nano-pdf/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:25.969Z",
+        "content_sha256": "4a19c3916062a0b2a303f929be2e11bc89ed8531b47fa565d7936a363f34d4ac"
+      }
+    }
+  ]
+}

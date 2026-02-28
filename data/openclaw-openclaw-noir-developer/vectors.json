@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-noir-developer",
+  "generated_at": "2026-02-28T14:46:27.280Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-noir-developer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-noir-developer/HEAD.md",
+      "text": "title: noir-developer\nsummary: Develop Noir (.nr) codebases.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jp4g/noir-developer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-noir-developer",
+        "topic": "openclaw-openclaw-noir-developer",
+        "type": "skills",
+        "title": "noir-developer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jp4g/noir-developer/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:27.280Z",
+        "content_sha256": "e87f5a3cd6dac426e7bf72d9c0a69d51584e189b797acb96b07f2b49a30f9619"
+      }
+    }
+  ]
+}

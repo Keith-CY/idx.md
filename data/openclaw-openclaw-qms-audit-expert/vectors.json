@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-qms-audit-expert",
+  "generated_at": "2026-02-28T14:46:36.714Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-qms-audit-expert#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-qms-audit-expert/HEAD.md",
+      "text": "title: qms-audit-expert\nsummary: ISO 13485 internal audit expertise for medical device.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/qms-audit-expert/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-qms-audit-expert",
+        "topic": "openclaw-openclaw-qms-audit-expert",
+        "type": "skills",
+        "title": "qms-audit-expert",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/qms-audit-expert/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:36.714Z",
+        "content_sha256": "2cbc1e2b31afe9137fbe017dfcb36e5781aef6b84b52f4fd412f01ee6474282d"
+      }
+    }
+  ]
+}

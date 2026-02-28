@@ -3,7 +3,81 @@
 | Category | Git & GitHub |
 | --- | --- |
 | Slug | git-github |
-| Count | 33 |
+| Count | 32 |
+
+---
+stable_id: skills/github-skill-dlt-hub-dlt-review-pr
+type: skills
+title: review-pr
+summary: Analyze a GitHub pull request including diff, comments, related issues,
+  and local code context
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-git-github
+  - github-owner-dlt-hub
+  - github-repo-dlt
+source_url: https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md
+license: ""
+upstream_ref: https://github.com/dlt-hub/dlt/blob/devel/.claude/skills/review-pr/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.858Z
+content_sha256: 4840da2d82e0aaad3006247d17cd0b78c8634e1a4a6d6fa9f3d11927c219260d
+---
+|/data/github-skill-dlt-hub-dlt-review-pr|
+
+---
+stable_id: skills/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
+type: skills
+title: copilot-instructions-blueprint-generator
+summary: Technology-agnostic blueprint generator for creating comprehensive
+  copilot-instructions.md files that guide GitHub Copilot to produce code
+  consistent with project standards, architecture patterns, and exact technology
+  versions by analyzing existing codebase patterns and avoiding assumptions.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-git-github
+  - github-owner-github
+  - github-repo-awesome-copilot
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+license: ""
+upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.934Z
+content_sha256: e53409119442128e2afbc2b48ad1b286fb23b884934de26dd088b3a375fcfb2b
+---
+|/data/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator|
+
+---
+stable_id: skills/github-skill-openclaw-openclaw-gh-issues
+type: skills
+title: gh-issues
+summary: "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs,
+  then monitor and address PR review comments. Usage: /gh-issues [owner/repo]
+  [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork
+  user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run]
+  [--model glm-5] [--notify-channel -1002381931352]"
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-git-github
+  - github-owner-openclaw
+  - github-repo-openclaw
+source_url: https://raw.githubusercontent.com/openclaw/openclaw/main/skills/gh-issues/SKILL.md
+license: ""
+upstream_ref: https://github.com/openclaw/openclaw/blob/main/skills/gh-issues/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:22.538Z
+content_sha256: 9cfc6732901455deeec8138df6b78bf5facd758b57e575f34bdc784bfac10c58
+---
+|/data/github-skill-openclaw-openclaw-gh-issues|
 
 ---
 stable_id: skills/openclaw-openclaw-backup
@@ -20,7 +94,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:04.708Z
+retrieved_at: 2026-02-28T14:45:50.990Z
 content_sha256: 09a57452062d6b6e718b5423d55763ac7ae47fa9a92fa5ac7c1d44d3676d1781
 ---
 |/data/openclaw-openclaw-backup|
@@ -41,7 +115,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:04.984Z
+retrieved_at: 2026-02-28T14:45:51.269Z
 content_sha256: 3ac2879a4591a2baaddc1ba0a98f488cf35603bcf3f67c5a365688729d4e7915
 ---
 |/data/openclaw-openclaw-bat-cat|
@@ -61,7 +135,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:11.868Z
+retrieved_at: 2026-02-28T14:45:56.387Z
 content_sha256: 388b273270acfa30d711e30310e8bf1e763f9f7b69f22fcfc18efb14e6f55b7a
 ---
 |/data/openclaw-openclaw-clawdbot-backup|
@@ -81,7 +155,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:15.196Z
+retrieved_at: 2026-02-28T14:45:59.316Z
 content_sha256: a7a580344e44bec14b083d6491389965476baf70485af0dcb5847720239a1ec7
 ---
 |/data/openclaw-openclaw-commit-analyzer|
@@ -101,7 +175,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:16.525Z
+retrieved_at: 2026-02-28T14:46:00.568Z
 content_sha256: 19f603530737f7f6077ff4e0a0f3e87c899ed910d73ab83f9daefb3ba87cb33d
 ---
 |/data/openclaw-openclaw-conventional-commits|
@@ -122,30 +196,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:18.680Z
+retrieved_at: 2026-02-28T14:46:02.624Z
 content_sha256: 87d079fd9c4a4bd4581f9f7761b9521b10da4cd893a0b22a837a6f03ce72f226
 ---
 |/data/openclaw-openclaw-deepwiki|
-
----
-stable_id: skills/openclaw-openclaw-deepwork-tracker
-type: skills
-title: deepwork-tracker
-summary: Track deep work sessions locally (start/stop/status)
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-git-github
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adunne09/deepwork-tracker/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:18.714Z
-content_sha256: 7ecb04afa361e0a4a5f8adb4a7b932d2991f5983e95f53e979a8b5110be06fcc
----
-|/data/openclaw-openclaw-deepwork-tracker|
 
 ---
 stable_id: skills/openclaw-openclaw-deploy-agent
@@ -162,7 +216,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:18.832Z
+retrieved_at: 2026-02-28T14:46:02.810Z
 content_sha256: e17f85869bc87169da5d9e585737c317c94fef833a89a2df8527fd0474f98628
 ---
 |/data/openclaw-openclaw-deploy-agent|
@@ -182,30 +236,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:22.143Z
+retrieved_at: 2026-02-28T14:46:06.305Z
 content_sha256: 878e35f9c0a0d50c314fab9f44d1c9371d840a05047b8b2d9557adbd3721b8c6
 ---
 |/data/openclaw-openclaw-exa-web-search-free|
-
----
-stable_id: skills/openclaw-openclaw-fabric-pattern
-type: skills
-title: fabric-pattern
-summary: Integration for the Fabric AI framework.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-git-github
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/apuryear/fabric-pattern/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:22.833Z
-content_sha256: ccc00f216488bfdb6bb8e1fd624491b3d980e697bea95fc1b2a97aa2a6773be9
----
-|/data/openclaw-openclaw-fabric-pattern|
 
 ---
 stable_id: skills/openclaw-openclaw-gimhub
@@ -222,7 +256,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.527Z
+retrieved_at: 2026-02-28T14:46:10.714Z
 content_sha256: 81169ddde1b537a42be9cb582354f1a1c043d4828af5210e5a400e11c4b9cd50
 ---
 |/data/openclaw-openclaw-gimhub|
@@ -242,7 +276,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.631Z
+retrieved_at: 2026-02-28T14:46:10.789Z
 content_sha256: 6a3b8806675eb138a3c7acea2a4e2593ec03efc0e55c5d15f11b875280e4cfb7
 ---
 |/data/openclaw-openclaw-git-crypt-backup|
@@ -262,30 +296,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.680Z
+retrieved_at: 2026-02-28T14:46:10.831Z
 content_sha256: 91afbc572326eb63a249a96f7880a21d1a0288f09b7d833cc616a184ce5ca71f
 ---
 |/data/openclaw-openclaw-git-essentials|
-
----
-stable_id: skills/openclaw-openclaw-git-sync
-type: skills
-title: git-sync
-summary: Automatically syncs local workspace changes to the remote GitHub repository.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-git-github
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/git-sync/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.781Z
-content_sha256: 9da26fac74543f3818d31ea04c5e1deb3cafc2738ed3199f730b785362464946
----
-|/data/openclaw-openclaw-git-sync|
 
 ---
 stable_id: skills/openclaw-openclaw-gitclassic
@@ -302,7 +316,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.838Z
+retrieved_at: 2026-02-28T14:46:10.964Z
 content_sha256: 74ce07c89eb92db1a04fe885e91042650681b196974bcd970989de8178405cb1
 ---
 |/data/openclaw-openclaw-gitclassic|
@@ -323,7 +337,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.887Z
+retrieved_at: 2026-02-28T14:46:10.990Z
 content_sha256: 81d7d184e02d41082f90990f7adbd829cec3715a9274a9e069dc6ec65f914044
 ---
 |/data/openclaw-openclaw-gitclaw|
@@ -343,7 +357,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.941Z
+retrieved_at: 2026-02-28T14:46:11.041Z
 content_sha256: a50d48747d2095453c3954dbafefcbed56b5bba36fabe8088e30c4bef53069c1
 ---
 |/data/openclaw-openclaw-gitea|
@@ -363,30 +377,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.972Z
+retrieved_at: 2026-02-28T14:46:11.085Z
 content_sha256: 51b28818a6f0359287d5c8244a6fdc59a4ac5504596deb193b28b81832221c86
 ---
 |/data/openclaw-openclaw-github|
-
----
-stable_id: skills/openclaw-openclaw-github-pr
-type: skills
-title: github-pr
-summary: Fetch, preview, merge, and test GitHub PRs locally.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-git-github
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbhurley/github-pr/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.021Z
-content_sha256: 20967e9970848c3d8fc53586a8bfae9c8cb7f466816a809538dfc8bf0f5f75a2
----
-|/data/openclaw-openclaw-github-pr|
 
 ---
 stable_id: skills/openclaw-openclaw-githunt
@@ -403,7 +397,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.069Z
+retrieved_at: 2026-02-28T14:46:11.159Z
 content_sha256: a26bc4299eb57d15d6783ca862ac61c952fbc6e3924d6a75c52fd257567175f4
 ---
 |/data/openclaw-openclaw-githunt|
@@ -424,7 +418,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.120Z
+retrieved_at: 2026-02-28T14:46:11.222Z
 content_sha256: ff4b9f66b6541bce06f2bf35b1a4d6ced6602f77cff36c653663b717869b45f0
 ---
 |/data/openclaw-openclaw-gitlab-ci-skills|
@@ -445,8 +439,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.156Z
-content_sha256: 20f0b3c5b54929145d02dfec36004c843b9e9e0f45273979cfe5c04ea51714fe
+retrieved_at: 2026-02-28T14:46:11.266Z
+content_sha256: c850d626e53e1002680dd6a9ef50cdc33ac9b48cf8d02d329b223e660e5f1616
 ---
 |/data/openclaw-openclaw-gitlab-cli-skills|
 
@@ -465,7 +459,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.193Z
+retrieved_at: 2026-02-28T14:46:11.312Z
 content_sha256: e888e32a22c66c413a8875b0f48250d7dbef9c66b32a267441683dcaaadb5a44
 ---
 |/data/openclaw-openclaw-gitlab-manager|
@@ -485,7 +479,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.298Z
+retrieved_at: 2026-02-28T14:46:11.362Z
 content_sha256: 5092a6a21d0384a5e5d7f10411c272b390ced7b4ca15f4bc3cefb4c43db26fb0
 ---
 |/data/openclaw-openclaw-gitload|
@@ -505,7 +499,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:28.672Z
+retrieved_at: 2026-02-28T14:46:11.787Z
 content_sha256: 2c3a37320939e3e9be7a800980c959f30f7f20ec10d3d29c8912f8fb96d78dc2
 ---
 |/data/openclaw-openclaw-god-mode|
@@ -526,7 +520,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:47.886Z
+retrieved_at: 2026-02-28T14:46:29.326Z
 content_sha256: a6abf08fd7e1e75d083b937ae239fcd72b6b00da829e175668942a80b9cc7a3a
 ---
 |/data/openclaw-openclaw-openclaw-migration|
@@ -546,7 +540,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:53.856Z
+retrieved_at: 2026-02-28T14:46:34.360Z
 content_sha256: 2301df5e0d62172ef25ac38546f5b1f7de394cce958a1f5d8613672b82860fd4
 ---
 |/data/openclaw-openclaw-pr-commit-workflow|
@@ -567,7 +561,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:54.907Z
+retrieved_at: 2026-02-28T14:46:35.278Z
 content_sha256: b63b7b1335c1250f6d94a04a1c87d2e75494ccba4d50dff96718737152bc6986
 ---
 |/data/openclaw-openclaw-project-context-sync|
@@ -587,7 +581,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:57.484Z
+retrieved_at: 2026-02-28T14:46:37.669Z
 content_sha256: 7f14ac762eaacf57264a6578c191a089a5cea8aa415e04a30944e04e2126ab9f
 ---
 |/data/openclaw-openclaw-read-github|
@@ -607,7 +601,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:04.217Z
+retrieved_at: 2026-02-28T14:46:43.193Z
 content_sha256: 7a0c0cd43dcca0c34e38bf3223d085de14346396be58c1e0423cc26990ca8d40
 ---
 |/data/openclaw-openclaw-skill-publisher-claw-skill|
@@ -627,7 +621,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:04.309Z
+retrieved_at: 2026-02-28T14:46:43.261Z
 content_sha256: e8eb7583355c2ae78a79187dca6a1ec448d9c8360e91652871392179f7ffb8bf
 ---
 |/data/openclaw-openclaw-skill-vetter|
@@ -648,7 +642,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:18.437Z
+retrieved_at: 2026-02-28T14:46:54.539Z
 content_sha256: cdbf0d0666731687cb5eb77c0357b13e40ae6d772091ae7c8ad131914dfaf690
 ---
 |/data/openclaw-openclaw-web-deploy-github|
@@ -668,7 +662,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:20.276Z
+retrieved_at: 2026-02-28T14:46:56.422Z
 content_sha256: c4ae62a3c07d15cf7fa916a5d90ec031f13364afe10f69990c62e7272ff13730
 ---
 |/data/openclaw-openclaw-work-report|

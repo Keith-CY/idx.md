@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-ejirocodes-agent-skills-svelte5-best-practices",
+  "generated_at": "2026-02-28T14:45:33.635Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-ejirocodes-agent-skills-svelte5-best-practices#head",
+      "kind": "head",
+      "path": "/data/skills-sh-ejirocodes-agent-skills-svelte5-best-practices/HEAD.md",
+      "text": "title: skills-sh-ejirocodes-agent-skills-svelte5-best-practices\nsummary: # Svelte 5 Runes Reference ## Table of Contents - [$state - Reactive State](#state---reactive-state) - [$derived - Computed Values](#derived---computed-values) - [$effect - Side Effects](#effect---side-effects) - [$props - Component Props](#props---component-props) - [$bindable - Two-Way Binding](#bindable---two-way-binding) - [$inspect - Debugging](#inspect---debugging) --- ## $state - Reactive State\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/ejirocodes/agent-skills/HEAD/svelte/skills/svelte5-best-practices/references/runes.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-ejirocodes-agent-skills-svelte5-best-practices",
+        "topic": "skills-sh-ejirocodes-agent-skills-svelte5-best-practices",
+        "type": "skills",
+        "title": "skills-sh-ejirocodes-agent-skills-svelte5-best-practices",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/ejirocodes/agent-skills/HEAD/svelte/skills/svelte5-best-practices/references/runes.md",
+        "retrieved_at": "2026-02-28T14:45:33.635Z",
+        "content_sha256": "9c7b6330607aa14d90e8b686a205391067c4ca17b6a90d71ba99cc2333e32086"
+      }
+    }
+  ]
+}

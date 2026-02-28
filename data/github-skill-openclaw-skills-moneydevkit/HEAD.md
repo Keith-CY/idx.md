@@ -19,6 +19,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satbot-mdk/mon
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:28.772Z
-content_sha256: 29e89f168e965daece9d19f6033775fb42921f7b4d6578fa8ccce55d1e41a473
+retrieved_at: 2026-02-28T14:45:23.338Z
+content_sha256: 6dfb522bb23e6b910613e471d0eb787f12a8219a3b17f9e8fda57359ad99c0fd
 ---

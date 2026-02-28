@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gurkerl",
+  "generated_at": "2026-02-28T14:46:13.225Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gurkerl#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gurkerl/HEAD.md",
+      "text": "title: gurkerl\nsummary: Gurkerl.at grocery shopping.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/gurkerl/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gurkerl",
+        "topic": "openclaw-openclaw-gurkerl",
+        "type": "skills",
+        "title": "gurkerl",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/gurkerl/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:13.225Z",
+        "content_sha256": "678060b7fe5bc2119c18b24690186bb5670a876daa67dd1b86279622b93b1259"
+      }
+    }
+  ]
+}

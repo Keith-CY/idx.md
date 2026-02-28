@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentmail",
+  "generated_at": "2026-02-28T14:45:46.548Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentmail#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentmail/HEAD.md",
+      "text": "title: agentmail\nsummary: API-first email platform designed for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adboio/agentmail/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentmail",
+        "topic": "openclaw-openclaw-agentmail",
+        "type": "skills",
+        "title": "agentmail",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adboio/agentmail/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.548Z",
+        "content_sha256": "c6b8627e5dfa2d7f39774bc86020473b04f3e667d14c90cbb36d1256aaad27ff"
+      }
+    }
+  ]
+}

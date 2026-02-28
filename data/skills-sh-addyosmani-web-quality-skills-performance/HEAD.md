@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/addyosmani/web-quality-skills/performance
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:48.772Z
+github_stars: 586
+github_forks: 61
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:40.735Z
 content_sha256: b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c
 ---

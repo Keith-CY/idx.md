@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-jarvis-skills",
+  "generated_at": "2026-02-28T14:46:16.763Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-jarvis-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-jarvis-skills/HEAD.md",
+      "text": "title: jarvis-skills\nsummary: The Robotic Control skill integrates OpenClaw for physical robotic arm and gripper manipulation through voice command.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aly-joseph/jarvis-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-jarvis-skills",
+        "topic": "openclaw-openclaw-jarvis-skills",
+        "type": "skills",
+        "title": "jarvis-skills",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aly-joseph/jarvis-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.763Z",
+        "content_sha256": "049eeff7c857e2afb76db1b20ba0619a115eb0508c3c8355620e06982abe1e78"
+      }
+    }
+  ]
+}

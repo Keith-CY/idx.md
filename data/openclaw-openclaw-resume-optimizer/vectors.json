@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-resume-optimizer",
+  "generated_at": "2026-02-28T14:46:39.359Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-resume-optimizer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-resume-optimizer/HEAD.md",
+      "text": "title: resume-optimizer\nsummary: Professional resume builder with PDF export, ATS optimization.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/resume-optimizer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-resume-optimizer",
+        "topic": "openclaw-openclaw-resume-optimizer",
+        "type": "skills",
+        "title": "resume-optimizer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/resume-optimizer/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:39.359Z",
+        "content_sha256": "c8b53626e0da4a4c23562490842c37fb5a83244e9aee0470fd4b8c2819a07280"
+      }
+    }
+  ]
+}

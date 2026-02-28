@@ -1,6 +1,29 @@
 ---
 name: sendgrid
 description: SendGrid email platform integration for sending and receiving emails. Routes to sub-skills for outbound transactional emails (send-email) and receiving via Inbound Parse Webhook (sendgrid-inbound). Use when user mentions SendGrid, transactional email, email API, inbound email parsing, or email webhooks. Triggers on SendGrid, send email, receive email, email webhook, Inbound Parse, transactional email.
+requirements:
+  env:
+    - SENDGRID_API_KEY
+  env_optional:
+    - SENDGRID_FROM
+  binaries:
+    - curl
+    - jq
+    - node
+  binaries_optional:
+    - dig
+    - nslookup
+metadata:
+  openclaw:
+    requires:
+      env:
+        - SENDGRID_API_KEY
+      bins:
+        - curl
+        - jq
+        - node
+    notes: |
+      Scripts operate on user-provided file paths (send-html-email.sh) and network endpoints (verify-inbound-setup.sh). Review scripts before executing. Use a SendGrid API key scoped to Mail Send only.
 ---
 
 # SendGrid

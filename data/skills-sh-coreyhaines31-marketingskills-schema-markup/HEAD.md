@@ -5,23 +5,23 @@ title: skills-sh-coreyhaines31-marketingskills-schema-markup
 summary: |-
   # Schema Markup Examples
   Complete JSON-LD examples for common schema types.
-  ## Organization
-  For company/brand homepage or about page.
-  ```json
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Example Company",
-    "url": "https://example.com",
+  ## Contents
+  - Organization
+  - WebSite (with SearchAction)
+  - Article / BlogPosting
+  - Product
+  - SoftwareApplication
+  - FAQPage
+  - HowTo
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/schema-markup/references/schema-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/schema-markup
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.683Z
-content_sha256: b552944f54fde41fbf877d00913f2d53e150864ae6d8b9fbee3a17200298609c
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.264Z
+content_sha256: 5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318
 ---

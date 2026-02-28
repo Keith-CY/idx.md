@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-content-id-guide",
+  "generated_at": "2026-02-28T14:45:59.919Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-content-id-guide#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-content-id-guide/HEAD.md",
+      "text": "title: content-id-guide\nsummary: A calm way for creators to understand and organize automated content claims across platforms, so nothing important.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/content-id-guide/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-content-id-guide",
+        "topic": "openclaw-openclaw-content-id-guide",
+        "type": "skills",
+        "title": "content-id-guide",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/content-id-guide/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:59.919Z",
+        "content_sha256": "a63f258a5bbb5962b56e63f1900eddc9c01cabd4ac4943f0524ded2bf16d6f76"
+      }
+    }
+  ]
+}

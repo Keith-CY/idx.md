@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-conventional-commits",
+  "generated_at": "2026-02-28T14:46:00.568Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-conventional-commits#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-conventional-commits/HEAD.md",
+      "text": "title: conventional-commits\nsummary: Format commit messages using the Conventional Commits specification.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/conventional-commits/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-conventional-commits",
+        "topic": "openclaw-openclaw-conventional-commits",
+        "type": "skills",
+        "title": "conventional-commits",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/conventional-commits/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.568Z",
+        "content_sha256": "19f603530737f7f6077ff4e0a0f3e87c899ed910d73ab83f9daefb3ba87cb33d"
+      }
+    }
+  ]
+}

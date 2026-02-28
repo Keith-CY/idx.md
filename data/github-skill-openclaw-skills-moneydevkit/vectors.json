@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-openclaw-skills-moneydevkit",
+  "generated_at": "2026-02-28T14:45:23.338Z",
+  "records": [
+    {
+      "id": "skills/github-skill-openclaw-skills-moneydevkit#head",
+      "kind": "head",
+      "path": "/data/github-skill-openclaw-skills-moneydevkit/HEAD.md",
+      "text": "title: moneydevkit\nsummary: Accept payments on any website using moneydevkit. Use when building a site that sells something, adding a checkout/paywall, or integrating payments into a Next.js or Replit app. Supports fixed pricing, pay-what-you-want, products, customers, and orders. Bitcoin Lightning under the hood — works globally, no bank account needed.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-finance, github-owner-openclaw, github-repo-skills\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satbot-mdk/moneydevkit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-openclaw-skills-moneydevkit",
+        "topic": "github-skill-openclaw-skills-moneydevkit",
+        "type": "skills",
+        "title": "moneydevkit",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-finance",
+          "github-owner-openclaw",
+          "github-repo-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satbot-mdk/moneydevkit/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:23.338Z",
+        "content_sha256": "6dfb522bb23e6b910613e471d0eb787f12a8219a3b17f9e8fda57359ad99c0fd"
+      }
+    }
+  ]
+}

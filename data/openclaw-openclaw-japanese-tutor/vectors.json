@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-japanese-tutor",
+  "generated_at": "2026-02-28T14:46:16.718Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-japanese-tutor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-japanese-tutor/HEAD.md",
+      "text": "title: japanese-tutor\nsummary: Interactive Japanese learning assistant.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chndranndr/japanese-tutor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-japanese-tutor",
+        "topic": "openclaw-openclaw-japanese-tutor",
+        "type": "skills",
+        "title": "japanese-tutor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chndranndr/japanese-tutor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.718Z",
+        "content_sha256": "c16052754c14eb63f03634adc2ac2549e06d1d752f3d0806919a18eeb0156d46"
+      }
+    }
+  ]
+}

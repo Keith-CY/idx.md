@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-blogwatcher",
+  "generated_at": "2026-02-28T14:45:52.314Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-blogwatcher#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-blogwatcher/HEAD.md",
+      "text": "title: blogwatcher\nsummary: Monitor blogs and RSS/Atom feeds for updates using the blogwatcher.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/blogwatcher/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-blogwatcher",
+        "topic": "openclaw-openclaw-blogwatcher",
+        "type": "skills",
+        "title": "blogwatcher",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/blogwatcher/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:52.314Z",
+        "content_sha256": "c22cd0c2c61891df92e3fb18a3ec5952cbffd5d1e06455cde78753e0cc8d3e32"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mindfulness-meditation",
+  "generated_at": "2026-02-28T14:46:22.807Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mindfulness-meditation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mindfulness-meditation/HEAD.md",
+      "text": "title: mindfulness-meditation\nsummary: Build a meditation practice with guided sessions, streaks, and mindfulness reminders\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/mindfulness-meditation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mindfulness-meditation",
+        "topic": "openclaw-openclaw-mindfulness-meditation",
+        "type": "skills",
+        "title": "mindfulness-meditation",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/mindfulness-meditation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.807Z",
+        "content_sha256": "7c5161e20619f7a54e70255fd9377d94946c397b8f626187ffd3e5a4071ad929"
+      }
+    }
+  ]
+}

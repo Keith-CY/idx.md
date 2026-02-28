@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-cloudflare-skills-sandbox-sdk",
+  "generated_at": "2026-02-28T14:45:33.929Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-cloudflare-skills-sandbox-sdk#head",
+      "kind": "head",
+      "path": "/data/skills-sh-cloudflare-skills-sandbox-sdk/HEAD.md",
+      "text": "title: skills-sh-cloudflare-skills-sandbox-sdk\nsummary: # Sandbox SDK API Reference Detailed API for `@cloudflare/sandbox`. For full docs: https://developers.cloudflare.com/sandbox/api/ ## Lifecycle ```typescript getSandbox(binding: DurableObjectNamespace<Sandbox>, sandboxId: string, options?: SandboxOptions): Sandbox interface SandboxOptions { sleepAfter?: string; // Duration before auto-sleep (default: \"10m\") keepAlive?: boolean; // Prevent auto-sleep (default: false) normalizeId?: boolean; // Lowercase IDs for preview URLs (default: false) }\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/sandbox-sdk/references/api-quick-ref.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-cloudflare-skills-sandbox-sdk",
+        "topic": "skills-sh-cloudflare-skills-sandbox-sdk",
+        "type": "skills",
+        "title": "skills-sh-cloudflare-skills-sandbox-sdk",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/sandbox-sdk/references/api-quick-ref.md",
+        "retrieved_at": "2026-02-28T14:45:33.929Z",
+        "content_sha256": "c8a2bd3eca1afee7c9182b7dc7a3dceb9fdd13266c2a5e0730fd52b263b1aea3"
+      }
+    }
+  ]
+}

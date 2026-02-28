@@ -19,13 +19,14 @@ summary: >-
 
   Fetch real-time hot news from multiple sources.
 
-  ## Tools
+  ## ⚠️ Global Rules (Strict Enforcement)
 
-  ### fetch_news.py
-
-  **Usage:**
-
-  ```bash
+  1.  **Mandatory Time Display**: **EVERY** report item, regardless of the
+  source or command used (Single Source, Morning Routine, or Combinations),
+  **MUST** include the precise publication time or relative time (e.g., "10:30",
+  "2 hours ago", "2024-01-20").
+      *   **NEVER** skip the time field.
+      *   **NEVER** hallucinate the time. If it's missing in the JSON, mark it as "Unknown Time".
 tags:
   - skills-sh
   - skills-sh-probed
@@ -35,6 +36,6 @@ upstream_ref: https://skills.sh/cclank/news-aggregator-skill/news-aggregator-ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.360Z
-content_sha256: ac23cf08f189f8a588aebbfb0e90b356cfb087274e5aa545212255ac7513860d
+retrieved_at: 2026-02-28T14:45:25.772Z
+content_sha256: 1debce471f7433cb36472fbfcd9b6502fd14e176b15fd7c9d16d1e4d063fd96c
 ---

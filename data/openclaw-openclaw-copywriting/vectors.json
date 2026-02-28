@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-copywriting",
+  "generated_at": "2026-02-28T14:46:00.744Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-copywriting#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-copywriting/HEAD.md",
+      "text": "title: copywriting\nsummary: When the user wants to write, rewrite.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/copywriting/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-copywriting",
+        "topic": "openclaw-openclaw-copywriting",
+        "type": "skills",
+        "title": "copywriting",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/copywriting/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.744Z",
+        "content_sha256": "5b3ea76961e8de82f00083569f4ef275058afb70bb301a9153dd80f73837b18e"
+      }
+    }
+  ]
+}

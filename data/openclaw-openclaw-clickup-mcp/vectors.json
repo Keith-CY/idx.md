@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clickup-mcp",
+  "generated_at": "2026-02-28T14:45:58.380Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clickup-mcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clickup-mcp/HEAD.md",
+      "text": "title: clickup-mcp\nsummary: Manage ClickUp tasks, docs, time tracking, comments, chat, and search via official.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/clickup-mcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clickup-mcp",
+        "topic": "openclaw-openclaw-clickup-mcp",
+        "type": "skills",
+        "title": "clickup-mcp",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/clickup-mcp/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:58.380Z",
+        "content_sha256": "33242b2f681387bcee3ea03d8de8ba928fd6fdd5e5f18d6925cd93661349af69"
+      }
+    }
+  ]
+}

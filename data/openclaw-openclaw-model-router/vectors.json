@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-model-router",
+  "generated_at": "2026-02-28T14:46:23.354Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-model-router#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-model-router/HEAD.md",
+      "text": "title: model-router\nsummary: A comprehensive AI model routing system that automatically selects the optimal model.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/digitaladaption/model-router/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-model-router",
+        "topic": "openclaw-openclaw-model-router",
+        "type": "skills",
+        "title": "model-router",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/digitaladaption/model-router/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:23.354Z",
+        "content_sha256": "1bf8e6b84f060dcc6f538fbd570c476afcf5d6797d5eb4ee0aae41df8350fb6a"
+      }
+    }
+  ]
+}

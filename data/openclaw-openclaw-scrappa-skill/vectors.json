@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-scrappa-skill",
+  "generated_at": "2026-02-28T14:46:40.504Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-scrappa-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-scrappa-skill/HEAD.md",
+      "text": "title: scrappa-skill\nsummary: Access Scrappa's MCP server for Google, YouTube, Amazon, LinkedIn, Trustpilot, flights, hotels, and more via Model.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/userlip/scrappa-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-scrappa-skill",
+        "topic": "openclaw-openclaw-scrappa-skill",
+        "type": "skills",
+        "title": "scrappa-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/userlip/scrappa-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.504Z",
+        "content_sha256": "508c1a271bd8ebdfda2b0462b1b78cc913e717ed65ade83a95caf5bbd2095b76"
+      }
+    }
+  ]
+}

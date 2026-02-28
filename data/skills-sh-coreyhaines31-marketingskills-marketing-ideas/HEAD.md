@@ -2,47 +2,26 @@
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-marketing-ideas
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-marketing-ideas
-summary: >-
+summary: |-
   # The 139 Marketing Ideas
-
   Complete list of proven marketing approaches organized by category.
-
-  ## Content & SEO (1-10)
-
-  1. **Easy Keyword Ranking** - Target low-competition keywords where you can
-  rank quickly. Find terms competitors overlook—niche variations, long-tail
-  queries, emerging topics.
-
-  2. **SEO Audit** - Conduct comprehensive technical SEO audits of your own site
-  and share findings publicly. Document fixes and improvements to build
-  authority.
-
-  3. **Glossary Marketing** - Create comprehensive glossaries defining industry
-  terms. Each term becomes an SEO-optimized page targeting "what is X" searches.
-
-  4. **Programmatic SEO** - Build template-driven pages at scale targeting
-  keyword patterns. Location pages, comparison pages, integration pages—any
-  pattern with search volume.
-
-  5. **Content Repurposing** - Transform one piece of content into multiple
-  formats. Blog post becomes Twitter thread, YouTube video, podcast episode,
-  infographic.
-
-  6. **Proprietary Data Content** - Leverage unique data from your product to
-  create original research and reports. Data competitors can't replicate creates
-  linkable assets.
-
-  7. **Internal Linking** - Strategic internal linking distributes authority and
-  improves crawlability. Build topical clusters connecting related content.
+  ## Contents
+  - Content & SEO (1-10)
+  - Competitor & Comparison (11-13)
+  - Free Tools & Engineering (14-22)
+  - Paid Advertising (23-34)
+  - Social Media & Community (35-44)
+  - Email Marketing (45-53)
+  - Partnerships & Programs (54-64)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/marketing-ideas/references/ideas-by-category.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.367Z
-content_sha256: 97a02c0bce46d337d6a7e50c483785858efe408e4f8be37d7d78846da525f345
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.034Z
+content_sha256: fac44ef0ea24a3035d85bd11096adef408497ea073ad156933f2d356d482dde2
 ---

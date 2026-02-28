@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-context-anchor",
+  "generated_at": "2026-02-28T14:46:00.144Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-context-anchor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-context-anchor/HEAD.md",
+      "text": "title: context-anchor\nsummary: Recover from context compaction by scanning memory files and surfacing where you left.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/boscoeuk/context-anchor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-context-anchor",
+        "topic": "openclaw-openclaw-context-anchor",
+        "type": "skills",
+        "title": "context-anchor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/boscoeuk/context-anchor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.144Z",
+        "content_sha256": "14454f0336f45a6f6ae9da5c4bb31618ea3d2c209594d3635df3f88249ca5a99"
+      }
+    }
+  ]
+}

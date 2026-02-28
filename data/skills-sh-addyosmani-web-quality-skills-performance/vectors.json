@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-addyosmani-web-quality-skills-performance",
+  "generated_at": "2026-02-28T14:45:40.735Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-addyosmani-web-quality-skills-performance#head",
+      "kind": "head",
+      "path": "/data/skills-sh-addyosmani-web-quality-skills-performance/HEAD.md",
+      "text": "title: skills-sh-addyosmani-web-quality-skills-performance\nsummary: --- name: core-web-vitals description: Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\". license: MIT metadata: author: web-quality-skills version: \"1.0\" --- # Core Web Vitals optimization Targeted optimization for the three Core Web Vitals metrics that affect Google Search ranking and user experience.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-addyosmani-web-quality-skills-performance",
+        "topic": "skills-sh-addyosmani-web-quality-skills-performance",
+        "type": "skills",
+        "title": "skills-sh-addyosmani-web-quality-skills-performance",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:40.735Z",
+        "content_sha256": "b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c"
+      }
+    }
+  ]
+}

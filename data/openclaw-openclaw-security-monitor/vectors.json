@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-security-monitor",
+  "generated_at": "2026-02-28T14:46:40.988Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-security-monitor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-security-monitor/HEAD.md",
+      "text": "title: security-monitor\nsummary: Real-time security monitoring for Clawdbot.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chandrasekar-r/security-monitor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-security-monitor",
+        "topic": "openclaw-openclaw-security-monitor",
+        "type": "skills",
+        "title": "security-monitor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chandrasekar-r/security-monitor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.988Z",
+        "content_sha256": "ff2c622ba0707d6d1a28c70cee77b33ee78807b8ddc52f3351892a1fcbf098b6"
+      }
+    }
+  ]
+}

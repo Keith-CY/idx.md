@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-screen-monitor",
+  "generated_at": "2026-02-28T14:46:40.553Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-screen-monitor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-screen-monitor/HEAD.md",
+      "text": "title: screen-monitor\nsummary: Dual-mode screen sharing and analysis.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emasoudy/screen-monitor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-screen-monitor",
+        "topic": "openclaw-openclaw-screen-monitor",
+        "type": "skills",
+        "title": "screen-monitor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/emasoudy/screen-monitor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.553Z",
+        "content_sha256": "e3fa4ab468d28ab38b7c4ea560d012a41d773ed113b0c654c511c2f9af43bee4"
+      }
+    }
+  ]
+}

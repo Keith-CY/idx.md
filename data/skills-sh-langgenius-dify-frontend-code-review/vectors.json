@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-langgenius-dify-frontend-code-review",
+  "generated_at": "2026-02-28T14:45:40.693Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-langgenius-dify-frontend-code-review#head",
+      "kind": "head",
+      "path": "/data/skills-sh-langgenius-dify-frontend-code-review/HEAD.md",
+      "text": "title: skills-sh-langgenius-dify-frontend-code-review\nsummary: # Rule Catalog — Code Quality ## Conditional class names use utility function IsUrgent: True Category: Code Quality ### Description Ensure conditional CSS is handled via the shared `classNames` instead of custom ternaries, string concatenation, or template strings. Centralizing class logic keeps components consistent and easier to maintain. ### Suggested Fix ```ts import { cn } from '@/utils/classnames' const classNames = cn(isActive ? 'text-primary-600' : 'text-gray-500')\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-langgenius-dify-frontend-code-review",
+        "topic": "skills-sh-langgenius-dify-frontend-code-review",
+        "type": "skills",
+        "title": "skills-sh-langgenius-dify-frontend-code-review",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md",
+        "retrieved_at": "2026-02-28T14:45:40.693Z",
+        "content_sha256": "b67ba50627f957bce3c6f67cd96e186485d48f3c6636267fbad1e0aba8f521fa"
+      }
+    }
+  ]
+}

@@ -2,26 +2,38 @@
 stable_id: skills/skills-sh-coreyhaines31-marketingskills-pricing-strategy
 type: skills
 title: skills-sh-coreyhaines31-marketingskills-pricing-strategy
-summary: |-
+summary: >-
   # Tier Structure and Packaging
+
+  ## Contents
+
+  - How Many Tiers?
+
+  - Good-Better-Best Framework
+
+  - Tier Differentiation Strategies
+
+  - Example Tier Structure
+
+  - Packaging for Personas (Identifying Pricing Personas, Persona-Based
+  Packaging)
+
+  - Freemium vs. Free Trial (When to Use Freemium, When to Use Free Trial,
+  Hybrid Approaches)
+
+  - Enterprise Pricing (When to Add Custom Pricing, Enterprise Tier Elements,
+  Enterprise Pricing Strategies)
+
   ## How Many Tiers?
-  **2 tiers:** Simple, clear choice
-  - Works for: Clear SMB vs. Enterprise split
-  - Risk: May leave money on table
-  **3 tiers:** Industry standard
-  - Good tier = Entry point
-  - Better tier = Recommended (anchor to best)
-  - Best tier = High-value customers
-  **4+ tiers:** More granularity
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/pricing-strategy/references/tier-structure.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/pricing-strategy
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.527Z
-content_sha256: dec6eb26846fcb6fa67c1daca45438b1a7f5b2a526386e62c8bf5af3a5aea81c
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.084Z
+content_sha256: b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30
 ---

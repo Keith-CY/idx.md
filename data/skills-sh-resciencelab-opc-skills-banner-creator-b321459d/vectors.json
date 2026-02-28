@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-resciencelab-opc-skills-banner-creator-b321459d",
+  "generated_at": "2026-02-28T14:45:28.264Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-resciencelab-opc-skills-banner-creator-b321459d#head",
+      "kind": "head",
+      "path": "/data/skills-sh-resciencelab-opc-skills-banner-creator-b321459d/HEAD.md",
+      "text": "title: skills-sh-resciencelab-opc-skills-banner-creator-b321459d\nsummary: # Banner Formats Reference ## Platform-Specific Sizes | Platform | Size (px) | Ratio | Notes | |----------|-----------|-------|-------| | **GitHub README** | 1280×640 | 2:1 | Most common for project banners | | **Twitter/X Header** | 1500×500 | 3:1 | Profile header image | | **LinkedIn Banner** | 1584×396 | 4:1 | Personal profile background | | **LinkedIn Company** | 1128×191 | ~6:1 | Company page banner | | **YouTube Channel** | 2560×1440 | 16:9 | Channel art (safe area: 1546×423) | | **Facebook Cover** | 820×312 | ~2.6:1 | Personal profile |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/banner-creator/references/formats.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-resciencelab-opc-skills-banner-creator-b321459d",
+        "topic": "skills-sh-resciencelab-opc-skills-banner-creator-b321459d",
+        "type": "skills",
+        "title": "skills-sh-resciencelab-opc-skills-banner-creator-b321459d",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/banner-creator/references/formats.md",
+        "retrieved_at": "2026-02-28T14:45:28.264Z",
+        "content_sha256": "71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a"
+      }
+    }
+  ]
+}

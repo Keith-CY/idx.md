@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/1nf-sh/skills/python-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.298Z
+retrieved_at: 2026-02-28T14:45:32.342Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---

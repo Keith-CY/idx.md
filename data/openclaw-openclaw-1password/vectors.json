@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-1password",
+  "generated_at": "2026-02-28T14:45:43.835Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-1password#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-1password/HEAD.md",
+      "text": "title: 1password\nsummary: Set up and use 1Password CLI (op).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/1password/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-1password",
+        "topic": "openclaw-openclaw-1password",
+        "type": "skills",
+        "title": "1password",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/1password/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:43.835Z",
+        "content_sha256": "5cc0b694c2c26264eff5edc954491bd66cc6b0729f9cdfcdd3d0f9d70d5c93cc"
+      }
+    }
+  ]
+}

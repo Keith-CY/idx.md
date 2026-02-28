@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-sanyuan0704-code-review-expert-code-review-expert",
+  "generated_at": "2026-02-28T14:45:28.471Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-sanyuan0704-code-review-expert-code-review-expert#head",
+      "kind": "head",
+      "path": "/data/skills-sh-sanyuan0704-code-review-expert-code-review-expert/HEAD.md",
+      "text": "title: skills-sh-sanyuan0704-code-review-expert-code-review-expert\nsummary: --- name: code-review-expert description: \"Expert code review of current git changes with a senior engineer lens. Detects SOLID violations, security risks, and proposes actionable improvements.\" --- # Code Review Expert ## Overview Perform a structured review of the current git changes with focus on SOLID, architecture, removal candidates, and security risks. Default to review-only output unless the user asks to implement changes. ## Severity Levels | Level | Name | Description | Action | |-------|------|-------------|--------|\ntype: skills\ntags: skills-sh, skills-sh-probed\nsource_url: https://raw.githubusercontent.com/sanyuan0704/code-review-expert/main/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-sanyuan0704-code-review-expert-code-review-expert",
+        "topic": "skills-sh-sanyuan0704-code-review-expert-code-review-expert",
+        "type": "skills",
+        "title": "skills-sh-sanyuan0704-code-review-expert-code-review-expert",
+        "tags": [
+          "skills-sh",
+          "skills-sh-probed"
+        ],
+        "source_url": "https://raw.githubusercontent.com/sanyuan0704/code-review-expert/main/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:28.471Z",
+        "content_sha256": "976a50590858d05edea95f3b6dfac126be79ec9f88aeb11bbc50a1ecce356379"
+      }
+    }
+  ]
+}

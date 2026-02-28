@@ -1,7 +1,7 @@
 ---
 name: personas
-version: 2.2.3
-description: Transform into 20 specialized AI personalities on demand - from Dev (coding) to Chef Marco (cooking) to Dr. Med (medical). Switch mid-conversation. Token-efficient, loads only active persona.
+version: 2.2.6
+description: Transform into 20 specialized AI personalities on demand. Switch mid-conversation and load only the active persona.
 metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed."}}}
 triggers:
   - /persona <name>
@@ -24,196 +24,72 @@ personas: 20
 
 # Personas 🎭
 
-Transform OpenClaw into 20 specialized personalities on demand. Each persona brings unique expertise, communication style, and approach.
+Use one of 20 built-in personas for specialized help (coding, writing, fitness, medical education, legal orientation, and more).
 
 ## Usage
 
-**Load a persona:**
-```
-"Use Dev persona"
-"Switch to Chef Marco"
-"Activate Dr. Med"
-```
+**Activate**
+- "Use Dev"
+- "Switch to Chef Marco"
+- "Activate Dr. Med"
 
-**List all personas:**
-```
-"List all personas"
-"Show persona categories"
-```
+**List personas**
+- "List all personas"
+- "/persona list"
+- "/personas"
 
-**Return to default:**
-```
-"Exit persona mode"
-"Back to normal"
-```
+**Exit persona mode**
+- "Exit persona mode"
+- "/persona exit"
 
----
+## CLI Handler (`scripts/persona.py`)
 
-## Slash Commands
+This script manages the built-in personas and local active-persona state.
 
-Use these commands any time for fast, explicit control.
-
-**Activate a persona:**
-```
-/persona dev
-/persona "Chef Marco"
-```
-
-**List personas:**
-```
-/persona list
-/personas
-```
-
-**Exit current persona:**
-```
-/persona exit
-```
-
----
-
-## CLI Handler
-
-The skill includes a Python CLI handler for programmatic access.
-
-**Location:** `scripts/persona.py`
-
-**Commands:**
 ```bash
 # List all personas
 python3 scripts/persona.py --list
 
-# Show persona details
+# Show one persona markdown file
 python3 scripts/persona.py --show dev
 python3 scripts/persona.py --show "chef-marco"
 
-# Activate a persona (outputs system prompt, saves state)
+# Activate a persona (prints persona prompt and saves active state)
 python3 scripts/persona.py --activate luna
 
-# Show currently active persona
+# Show current active persona from state file
 python3 scripts/persona.py --current
 
-# Deactivate/reset to default
+# Reset/deactivate persona mode
 python3 scripts/persona.py --reset
 ```
 
-**State Persistence:** Active persona is saved to `~/.openclaw/persona-state.json` and persists across sessions.
+- State file: `~/.openclaw/persona-state.json`
+- Alias support exists for common names (e.g., `chef` → `chef-marco`, `dr` → `dr-med`).
+- The CLI does **not** create new persona files.
 
-**Aliases:** Common variations are supported (e.g., `chef` → `chef-marco`, `dr` → `dr-med`).
+## Built-in Personas (20)
 
----
+### Core (5)
+Cami, Chameleon Agent, Professor Stein, Dev, Flash
 
-## Available Personas (20)
+### Creative (2)
+Luna, Wordsmith
 
-### 🦎 Core (5)
-Essential personas for everyday use - versatile and foundational.
+### Curator (1)
+Vibe
 
-| Persona | Emoji | Specialty |
-|---------|-------|-----------|
-| **Cami** | 🦎 | Adaptive chameleon with emotion-awareness |
-| **Chameleon Agent** | 🦎 | Power user AI for complex tasks |
-| **Professor Stein** | 🎓 | Academic depth and nuanced teaching |
-| **Dev** | 💻 | Programming partner, debugging, code |
-| **Flash** | ⚡ | Quick, precise answers, no fluff |
+### Learning (3)
+Herr Müller, Scholar, Lingua
 
-### 🎨 Creative (2)
-For brainstorming, creative projects, and ideation.
+### Lifestyle (3)
+Chef Marco, Fit, Zen
 
-| Persona | Emoji | Specialty |
-|---------|-------|-----------|
-| **Luna** | 🎨 | Divergent thinking, brainstorming |
-| **Wordsmith** | 📝 | Writing, editing, content creation |
-
-### 🎧 Curator (1)
-Personalized recommendations and taste-matching.
-
-| Persona | Emoji | Specialty |
-|---------|-------|-----------|
-| **Vibe** | 🎧 | Music, shows, books, games curator |
-
-### 📚 Learning (3)
-Education-focused personas for studying and skill development.
-
-| Persona | Emoji | Specialty |
-|---------|-------|-----------|
-| **Herr Müller** | 👨‍🏫 | ELI5 explanations, patient teaching |
-| **Scholar** | 📚 | Study partner, flashcards, quizzes |
-| **Lingua** | 🗣️ | Language learning and practice |
-
-### 🌟 Lifestyle (3)
-Health, wellness, and personal life.
-
-| Persona | Emoji | Specialty |
-|---------|-------|-----------|
-| **Chef Marco** | 👨‍🍳 | Italian cooking, recipes, techniques |
-| **Fit** | 💪 | Fitness coaching, workouts |
-| **Zen** | 🧘 | Mindfulness, meditation, stress relief |
-
-### 💼 Professional (6)
-Business, career, health, and specialized expertise.
-
-| Persona | Emoji | Specialty |
-|---------|-------|-----------|
-| **CyberGuard** | 🔒 | Cybersecurity, passwords, phishing |
-| **DataViz** | 📊 | Data analysis, visualization, insights |
-| **Career Coach** | 💼 | Job search, interviews, career planning |
-| **Legal Guide** | ⚖️ | Contracts, tenant law, consumer rights |
-| **Startup Sam** | 🚀 | Entrepreneurship, business strategy |
-| **Dr. Med** | 🩺 | Medical explanations (with disclaimers) |
-
----
-
-## How It Works
-
-When you activate a persona, I'll:
-1. **Read** the persona definition from `data/{persona}.md`
-2. **Embody** that personality, expertise, and communication style
-3. **Stay in character** until you switch or exit
-
----
-
-## Examples
-
-**Coding help:**
-```
-You: "Use Dev persona"
-Me: *becomes a senior developer*
-You: "How do I optimize this React component?"
-```
-
-**Creative writing:**
-```
-You: "Switch to Luna"
-Me: *becomes creative brainstormer*
-You: "I'm stuck on my story's plot"
-```
-
-**Medical questions:**
-```
-You: "Activate Dr. Med"
-Me: *becomes experienced doctor*
-You: "What causes sudden headaches?"
-```
-
----
+### Professional (6)
+CyberGuard, DataViz, Career Coach, Legal Guide, Startup Sam, Dr. Med
 
 ## Notes
 
-- Personas are **context-aware** - they remember your conversation
-- **IMPORTANT**: Medical, legal personas are for education only - not professional advice
-- Mix and match: switch personas mid-conversation as needed
-- Some personas speak German, some English, some mix
-
----
-
-## Quick Reference
-
-| Category | Count | Examples |
-|----------|-------|----------|
-| Core | 5 | Dev, Flash, Cami |
-| Creative | 2 | Luna, Wordsmith |
-| Curator | 1 | Vibe |
-| Learning | 3 | Scholar, Lingua |
-| Lifestyle | 3 | Chef Marco, Zen, Fit |
-| Professional | 6 | Dr. Med, CyberGuard, Legal Guide |
-| **Total** | **20** | |
+- Only the active persona is loaded when used.
+- Medical/legal personas are educational only, not professional advice.
+- Personas are bundled in `data/*.md` and can be edited manually by maintainers.

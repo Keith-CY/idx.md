@@ -13,7 +13,7 @@ summary: >-
     (4) Geocoding addresses to coordinates and reverse, (5) Places search and details, (6) Transit
     planning with arrival times. Supports future departure times, traffic models (pessimistic/optimistic),
     avoid options (tolls/highways), and multiple travel modes (driving/walking/bicycling/transit).
-  version: 3.0.0
+  version: 3.1.2
 
   author: Leo 🦁
 tags: []
@@ -23,6 +23,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:34.509Z
-content_sha256: 0f43a07e93b9409a8659e409a292a675d3d4d10adc6ea109060de4ec2df721f6
+retrieved_at: 2026-02-28T14:45:27.690Z
+content_sha256: 8258b1c816d9d0a9cd5eb8ad14adacb1459619a328b589cc90a98f7f47b96a4b
 ---

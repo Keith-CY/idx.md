@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-audio-reply-skill",
+  "generated_at": "2026-02-28T14:45:49.869Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-audio-reply-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-audio-reply-skill/HEAD.md",
+      "text": "title: audio-reply\nsummary: Generate audio replies using TTS.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/audio-reply-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-audio-reply-skill",
+        "topic": "openclaw-openclaw-audio-reply-skill",
+        "type": "skills",
+        "title": "audio-reply",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/audio-reply-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:49.869Z",
+        "content_sha256": "dd42d75099cda66b3bd8f585eeb8936a42bb06c0479d0dd706a958bbad54326c"
+      }
+    }
+  ]
+}

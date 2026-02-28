@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openrouter-transcribe",
+  "generated_at": "2026-02-28T14:46:30.057Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openrouter-transcribe#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openrouter-transcribe/HEAD.md",
+      "text": "title: openrouter-transcribe\nsummary: Transcribe audio files via OpenRouter using audio-capable models (Gemini, GPT-4o-audio, etc).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/obviyus/openrouter-transcribe/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openrouter-transcribe",
+        "topic": "openclaw-openclaw-openrouter-transcribe",
+        "type": "skills",
+        "title": "openrouter-transcribe",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/obviyus/openrouter-transcribe/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.057Z",
+        "content_sha256": "e4a13538790fa692714ca213da88138e48de17294de775eea5bd03402a5e8abe"
+      }
+    }
+  ]
+}

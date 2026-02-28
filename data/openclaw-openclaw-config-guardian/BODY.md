@@ -1,51 +1,48 @@
 ---
 name: config-guardian
-description: Validate and safeguard OpenClaw config updates (openclaw.json or openclaw config set/apply). Use this skill whenever changing gateway config, models, channels, agents, tools, sessions, or routing. Enforces backup, schema validation, and safe rollback before restarts.
+description: Safe OpenClaw config updates with automatic backup, validation, and rollback. For agent use - prevents invalid config updates.
 ---
 
 # Config Guardian
 
 ## Overview
-Use this workflow whenever editing `~/.openclaw/openclaw.json` or running `openclaw config set/apply`. It prevents invalid config, creates backups, validates against schema, and enables rollback.
+**For Agent use only.** Safe config updates with automatic backup, validation, and rollback. Prevents the agent from updating non-existent keys or invalid values.
 
-## Workflow (use every time)
+## When to Use
+Use this skill **every time** you need to update `openclaw.json`. Prevents:
+- Updating non-existent config keys
+- Using invalid values
+- Breaking the gateway with bad config
 
-1. **Preflight**
-   - Confirm the requested change and scope.
-   - Check for sensitive keys (tokens, credentials).
+## Workflow: Atomic Apply (Default)
 
-2. **Backup**
-   - Run `scripts/backup_config.sh` to create a timestamped snapshot.
+For all config changes - handles everything in one command:
 
-3. **Validate (before change)**
-   - Run `scripts/validate_config.sh`.
-   - If validation fails, stop and report.
+```bash
+./scripts/atomic_apply.sh <config_path> <new_value>
+# Example: ./scripts/atomic_apply.sh "agents.defaults.model.primary" "minimax-portal/MiniMax-M2.5"
+```
 
-4. **Apply change**
-   - Prefer `openclaw config set <path> <value>` for small changes.
-   - For complex edits, edit the file directly and keep diffs minimal.
+**What it does:**
+1. Creates timestamped backup automatically
+2. Applies change via `openclaw config set <path> <value>`
+3. Validates with `openclaw doctor --non-interactive`
+4. **Auto-rollback** if validation fails
+5. Trap ensures rollback even on crash
 
-5. **Validate (after change)**
-   - Run `scripts/validate_config.sh` again.
-   - If it fails, restore from backup with `scripts/restore_config.sh`.
-
-6. **Restart (only with explicit approval)**
-   - If change requires restart, ask for approval first.
-   - Use `openclaw gateway restart`.
+**Backup location:**
+```
+~/.openclaw/config-guardian-backups/
+```
 
 ## Guardrails
-- **Never** restart or apply config without explicit user approval.
-- **Never** remove keys or reorder blocks unless requested.
-- **Always** keep a backup before edits.
-- If unsure about schema: run `openclaw doctor --non-interactive` and stop on errors.
+- **Never** restart or apply config without explicit user approval
+- **Always** use `atomic_apply.sh`
+- If validation fails -> config auto-rolled back, don't force it
 
 ## Scripts
-- `scripts/backup_config.sh` — create timestamped backup
-- `scripts/validate_config.sh` — validate config via OpenClaw doctor
-- `scripts/diff_config.sh` — diff current config vs backup
-- `scripts/restore_config.sh` — restore backup
-
-## Validation
-- Use `openclaw doctor --non-interactive` for schema validation
-- This checks against the actual schema that the gateway uses
-- Warns about unknown keys, invalid types, and security issues
+| Script | Purpose |
+|--------|---------|
+| `atomic_apply.sh` | Default - all-in-one safe apply |
+| `validate_config.sh` | Validate via OpenClaw doctor |
+| `restore_config.sh` | Manual restore from backup |

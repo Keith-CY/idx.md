@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-communication-coach",
+  "generated_at": "2026-02-28T14:45:59.364Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-communication-coach#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-communication-coach/HEAD.md",
+      "text": "title: communication-coach\nsummary: Adaptive communication coaching that shapes speaking and writing behavior through reinforcement, scoring, and micro-i.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmoggach/communication-coach/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-communication-coach",
+        "topic": "openclaw-openclaw-communication-coach",
+        "type": "skills",
+        "title": "communication-coach",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmoggach/communication-coach/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:59.364Z",
+        "content_sha256": "6436b62fa55689ced84856c4ca712ebda8769fa49ebf893b4110c7910c3137f1"
+      }
+    }
+  ]
+}

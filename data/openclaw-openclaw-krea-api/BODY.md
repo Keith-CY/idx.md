@@ -1,7 +1,14 @@
 ---
 name: krea-api
 description: Generate images via Krea.ai API (Flux, Imagen, Ideogram, Seedream, etc.)
-version: 0.2.0
+version: 0.2.4
+metadata:
+  credentials:
+    - id: krea
+      description: Krea.ai API key (format: KEY_ID:SECRET)
+      envVar: null
+      file: ~/.openclaw/credentials/krea.json
+      required: true
 ---
 
 # Krea.ai Image Generation Skill
@@ -14,33 +21,42 @@ Generate images using Krea.ai's API with support for multiple models including F
 - ✅ Support for multiple image models
 - ✅ Configurable parameters (width, height, steps, guidance, seed)
 - ✅ Stdlib-only dependencies (no `requests` required)
-- ✅ Security-first credential handling (file-only, no subprocess)
+- ✅ Secure credential handling with file permissions
 
 ## Security
 
 This skill prioritizes security:
 
-- **No subprocess calls** - Credentials read directly from file only
 - **No webhook support** - Removed to prevent SSRF risks
-- **File-based credentials** - Single credential source
-- **Stdlib dependencies** - Minimal attack surface
+- **Stdlib dependencies** - Minimal attack surface (uses `urllib` only)
+- **File-based credentials** - Primary credential source with secure permissions
+- **Input validation** - All parameters validated before API calls
+
+### Credential Sources (in order of precedence)
+
+1. **CLI arguments**: `--key-id` and `--secret` (for one-off use)
+2. **File**: `~/.openclaw/credentials/krea.json`
+
+### Note on Subprocess
+
+The `--usage` flag uses `webbrowser.open()` (stdlib) to open the usage dashboard in a browser. No subprocess calls.
 
 ## Setup
 
 1. Get your Krea.ai API credentials from https://docs.krea.ai/developers/api-keys-and-billing
 2. Create the credentials file:
 ```bash
-mkdir -p ~/.clawdbot/credentials
+mkdir -p ~/.openclaw/credentials
 ```
 
 3. Add your credentials:
 ```bash
-echo '{"apiKey": "YOUR_KEY_ID:YOUR_SECRET"}' > ~/.clawdbot/credentials/krea.json
+echo '{"apiKey": "YOUR_KEY_ID:YOUR_SECRET"}' > ~/.openclaw/credentials/krea.json
 ```
 
 4. Set secure permissions:
 ```bash
-chmod 600 ~/.clawdbot/credentials/krea.json
+chmod 600 ~/.openclaw/credentials/krea.json
 ```
 
 ## Usage
@@ -69,7 +85,7 @@ python3 krea_api.py --jobs 10
 ```python
 from krea_api import KreaAPI
 
-api = KreaAPI()  # Reads from ~/.clawdbot/credentials/krea.json
+api = KreaAPI()  # Reads from ~/.openclaw/credentials/krea.json
 
 # Generate and wait
 urls = api.generate_and_wait(
@@ -121,9 +137,9 @@ python3 krea_api.py --jobs 10
 
 | Purpose | Path |
 |---------|------|
-| Credentials | `~/.clawdbot/credentials/krea.json` |
+| Credentials | `~/.openclaw/credentials/krea.json` |
 | Script | `{skill}/krea_api.py` |
-| Skills | `{skill}/SKILL.md` |
+| Skill docs | `{skill}/SKILL.md` |
 
 ## Troubleshooting
 
@@ -131,19 +147,16 @@ python3 krea_api.py --jobs 10
 
 1. Check credentials file exists:
 ```bash
-cat ~/.clawdbot/credentials/krea.json
-```
-
-2. Verify permissions:
-```bash
-ls -la ~/.clawdbot/credentials/krea.json
+ls -la ~/.openclaw/credentials/krea.json
 # Should show: -rw-------
 ```
 
-3. Check format (must have colon):
+2. Verify format (must have colon):
 ```json
 {"apiKey": "KEY_ID:SECRET"}
 ```
+
+⚠️ **Security**: Do NOT use `cat` to view the credentials file — it contains secrets.
 
 ### Model not found
 

@@ -1,159 +1,158 @@
 ---
 name: notnative
-description: Use Notnative MCP server (ws://127.0.0.1:8788) for note management, search, calendar, tasks, Python execution, and canvas operations. Connects to a local Notnative app instance via WebSocket. Use when you need to search or read notes from Notnative vault, create/update/append content to notes, manage calendar events and tasks, execute Python code for calculations/charts/data analysis, work with canvas diagrams, or access any Notnative app feature via MCP tools.
+description: Use Notnative MCP server for complete AI assistant integration with notes, calendar, tasks, Python, canvas, and permanent memory. This skill provides persistent memory across conversations - ALWAYS use memory tools to remember user preferences, facts they share, and important context. Connects via WebSocket to local or remote Notnative instance.
+homepage: https://github.com/k4ditano/notnative-memory
+metadata:
+  openclaw:
+    emoji: "🧠"
+    requires:
+      bins: ["node", "curl"]
 ---
 
-# Notnative
+# NotNative - Complete AI Integration
 
-Interact with a local Notnative app instance through its MCP WebSocket server. The Notnative app must be running on port 8788.
+**⚠️ CRITICAL: This skill provides PERMANENT MEMORY. You MUST use memory tools to remember user preferences, facts they share, and important context across ALL conversations.**
+
+## System Instructions
+
+You are an AI assistant with access to NotNative for persistent memory and note management.
+
+### Memory Protocol (MANDATORY)
+
+**ALWAYS follow these rules:**
+
+1. **Remember User Facts**: When user shares personal information (name, preferences, allergies, hobbies, work context), IMMEDIATELY store it using `memory_store` tool
+   - Example: User says "I'm allergic to nuts" → Store: "User is allergic to nuts"
+
+2. **Before Responding**: If user asks about something that might be in memory (preferences, past conversations, facts), ALWAYS search memory first using `memory_search`
+
+3. **User Preferences**: When user expresses a preference ("I prefer dark mode", "Call me by my name"), store it with `memory_store`
+
+4. **Context Recall**: At the start of each conversation, search memory for any relevant user context
+
+### When to Use Memory
+
+- User shares personal information
+- User expresses a preference or requirement
+- User asks about something you don't know but might be in memory
+- User mentions past conversations or context
+- Building long-term relationship with user
+
+### Memory Commands
+
+```bash
+# Store important information
+node scripts/mcp-client.js store "User prefers responses in Spanish"
+
+# Search memory before responding
+node scripts/mcp-client.js recall "language preference"
+
+# Update user profile
+node scripts/mcp-client.js profile-update "name:John"
+
+# Get full profile
+node scripts/mcp-client.js profile
+```
 
 ## Quick Start
 
-The skill provides a CLI client at `scripts/mcp-client.js` that handles MCP protocol communication.
-
-### Common Commands
-
 ```bash
-# Search notes by query
+# Search notes
 node scripts/mcp-client.js search "recipe chicken"
-node scripts/mcp-client.js search "project notnative" --limit 10
-
-# Semantic search (by meaning)
 node scripts/mcp-client.js semantic "healthy breakfast ideas"
 
-# Read a specific note
-node scripts/mcp-client.js read "Recetas/Pollo al limón"
-
-# Get currently active/open note
-node scripts/mcp-client.js active
-
-# Create a new note
-node scripts/mcp-client.js create "# New Note\n\nContent here" "Note Name" "Personal"
-
-# Append content to note (uses active note if no name specified)
+# Read/create/update notes
+node scripts/mcp-client.js read "My Notes/Project"
+node scripts/mcp-client.js create "# New Note" "Note Name" "Personal"
 node scripts/mcp-client.js append "\n- New item" "My List"
 
-# Update a note (OVERWRITES entire content)
-node scripts/mcp-client.js update "My Note" "# Updated content"
+# Memory (IMPORTANT!)
+node scripts/mcp-client.js store "User's name is John"
+node scripts/mcp-client.js recall "name"
+node scripts/mcp-client.js forget "old info"
 
-# List notes (optional folder filter)
-node scripts/mcp-client.js list-notes "Personal"
-node scripts/mcp-client.js list-notes
-
-# List folders
-node scripts/mcp-client.js list-folders
-
-# List tags
-node scripts/mcp-client.js list-tags
-
-# List tasks
+# Calendar & Tasks
 node scripts/mcp-client.js tasks
-
-# Get upcoming calendar events
 node scripts/mcp-client.js events
 
-# Get workspace statistics
-node scripts/mcp-client.js stats
+# Python execution
+node scripts/mcp-client.js run-python "print('Hello!')"
 
-# Get app documentation
-node scripts/mcp-client.js docs "vim commands"
-
-# Execute Python code
-node scripts/mcp-client.js run-python "print('Hello, World!')"
-```
-
-### Advanced Usage: Direct Tool Calls
-
-Call any MCP tool directly using `call` command with JSON args:
-
-```bash
-# Insert content into specific location
-node scripts/mcp-client.js call insert_into_note '{"name":"My Note","insertAtLine":10,"content":"New paragraph here"}'
-
-# Create a calendar event
-node scripts/mcp-client.js call create_calendar_event '{"title":"Meeting","startTime":"2026-01-26T10:00:00","duration":60}'
-
-# Add a task
-node scripts/mcp-client.js call create_task '{"text":"Call John tomorrow","dueDate":"2026-01-26"}'
-
-# Web search
-node scripts/mcp-client.js call web_search '{"query":"best JavaScript frameworks 2026"}'
-
-# Browse a webpage
-node scripts/mcp-client.js call web_browse '{"url":"https://example.com"}'
-```
-
-### List All Available Tools
-
-```bash
+# List all available tools
 node scripts/mcp-client.js list
 ```
 
-This shows all 86 available MCP tools with their input schemas.
+## Available Tools
 
-## Key Features
+### Memory (CRITICAL - ALWAYS USE)
 
-### Note Management
+- **memory_store**: Store information permanently in OpenClaw/Memory
+- **memory_search**: Search across all notes and memories
+- **memory_forget**: Delete memories by query
+- **memory_profile**: Get/update user profile
 
-- **Search**: Full-text search (`search_notes`) and semantic search (`semantic_search`)
-- **Read**: Get note content by name or active note (`read_note`, `get_active_note`)
-- **Create**: Create new notes (`create_note`, `create_daily_note`)
-- **Edit**: Insert into note (`insert_into_note`), append (`append_to_note`), or full update (`update_note`)
-- **Organize**: Rename, move, delete notes (`rename_note`, `move_note`, `delete_note`)
-- **History**: Get and restore note versions (`get_note_history`, `restore_note_from_history`)
+### Notes
+
+- **search_notes**: Full-text search
+- **semantic_search**: Search by meaning
+- **read_note**: Get note content
+- **create_note**: Create new note
+- **append_to_note**: Add to note
+- **update_note**: Update note
+- **list_notes**: List all notes
+- **list_folders**: List folders
+- **list_tags**: List tags
 
 ### Calendar & Tasks
 
-- **Events**: Create, list, update, delete calendar events (`create_calendar_event`, `list_calendar_events`, `get_upcoming_events`)
-- **Tasks**: Create, list, complete tasks (`create_task`, `list_tasks`, `complete_task`)
-- **Integration**: Convert tasks to events, find free time (`convert_task_to_event`, `find_free_time`)
+- **list_tasks**: Get pending tasks
+- **create_task**: Create task
+- **complete_task**: Complete task
+- **get_upcoming_events**: Calendar events
+- **create_calendar_event**: Create event
 
 ### Python Execution
 
-Run Python code with libraries: matplotlib, pandas, numpy, pillow, openpyxl, xlsxwriter
+- **run_python**: Execute Python code with matplotlib, pandas, numpy, pillow, openpyxl
 
-```bash
-node scripts/mcp-client.js run-python "import matplotlib.pyplot as plt; plt.plot([1,2,3],[1,4,9]); plt.savefig('plot.png')"
-```
+### Canvas
 
-Use this for calculations, data analysis, charts, and Excel files with formatting.
+- **canvas_get_state**: Get canvas diagram
+- **canvas_add_node**: Add node
+- **canvas_to_mermaid**: Convert to mermaid
 
-### Canvas Operations
+### Analysis
 
-Work with canvas diagrams: `canvas_get_state`, `canvas_add_node`, `canvas_connect_nodes`, `canvas_auto_layout`, `canvas_to_mermaid`, etc.
+- **analyze_note_structure**: Analyze note
+- **get_backlinks**: Get backlinks
+- **find_similar_notes**: Find similar notes
 
-### Tags & Folders
+### Web
 
-- **Tags**: Create, list, add/remove from notes (`create_tag`, `list_tags`, `add_tag_to_note`)
-- **Folders**: Create, list, rename, move folders (`create_folder`, `list_folders`, `rename_folder`)
+- **web_search**: Search the web
+- **web_browse**: Browse webpage
+- **get_youtube_transcript**: Get YouTube transcript
 
-### Analysis & Search
+## Installation
 
-- **Analysis**: Analyze note structure, get backlinks, find similar notes (`analyze_note_structure`, `get_backlinks`, `find_similar_notes`)
-- **Search**: Semantic search, web search, web browse (`semantic_search`, `web_search`, `web_browse`)
-- **YouTube**: Get video transcripts (`get_youtube_transcript`)
+The `install.sh` script will:
+1. Detect if NotNative is local or remote
+2. Ask for WebSocket URL if not local
+3. Install dependencies (ws package)
+4. Configure environment
 
 ## Server Requirements
 
-The Notnative MCP server must be running on `ws://127.0.0.1:8788`. Ensure:
+- NotNative app running with MCP WebSocket server
+- For local: ws://127.0.0.1:8788
+- For remote: wss://your-domain.com (or ws://IP:8788)
 
-1. Notnative app is running
-2. MCP server is enabled
-3. WebSocket is accessible on port 8788
+## Environment Variables
+
+- `NOTNATIVE_WS_URL`: WebSocket URL (default: ws://127.0.0.1:8788)
 
 ## Error Handling
 
-- **Connection timeout**: Check if Notnative app is running
+- **Connection timeout**: Check if NotNative is running
 - **Request timeout**: Tool execution exceeded 10 seconds
 - **Tool not found**: Verify tool name using `list` command
-
-## Script Details
-
-The `scripts/mcp-client.js` script:
-
-1. Connects to WebSocket server
-2. Initializes MCP session
-3. Sends JSON-RPC requests
-4. Returns structured JSON output
-
-All commands return JSON formatted output for easy parsing.

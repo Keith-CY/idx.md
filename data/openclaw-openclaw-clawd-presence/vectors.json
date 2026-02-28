@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawd-presence",
+  "generated_at": "2026-02-28T14:45:56.294Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawd-presence#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawd-presence/HEAD.md",
+      "text": "title: clawd-presence\nsummary: Physical presence display for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/voidcooks/clawd-presence/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawd-presence",
+        "topic": "openclaw-openclaw-clawd-presence",
+        "type": "skills",
+        "title": "clawd-presence",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/voidcooks/clawd-presence/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.294Z",
+        "content_sha256": "cc9a98b312f30651bed8a0ac5104cd03a9bfc54add279630cd40b043e0d4564f"
+      }
+    }
+  ]
+}

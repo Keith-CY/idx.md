@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-sports-ticker",
+  "generated_at": "2026-02-28T14:46:44.958Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-sports-ticker#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-sports-ticker/HEAD.md",
+      "text": "title: sports-ticker\nsummary: Live sports alerts for Soccer, NFL, NBA, NHL, MLB, F1.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/sports-ticker/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-sports-ticker",
+        "topic": "openclaw-openclaw-sports-ticker",
+        "type": "skills",
+        "title": "sports-ticker",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/sports-ticker/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:44.958Z",
+        "content_sha256": "3b4f7037327735a68551c3e3ae8f73f769298d7c3738ca6293aeeb3cc55dc916"
+      }
+    }
+  ]
+}

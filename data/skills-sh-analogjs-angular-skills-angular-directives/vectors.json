@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-analogjs-angular-skills-angular-directives",
+  "generated_at": "2026-02-28T14:45:33.713Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-analogjs-angular-skills-angular-directives#head",
+      "kind": "head",
+      "path": "/data/skills-sh-analogjs-angular-skills-angular-directives/HEAD.md",
+      "text": "title: skills-sh-analogjs-angular-skills-angular-directives\nsummary: # Angular Directive Patterns ## Table of Contents - [DOM Manipulation](#dom-manipulation) - [Form Directives](#form-directives) - [Intersection Observer](#intersection-observer) - [Resize Observer](#resize-observer) - [Drag and Drop](#drag-and-drop) - [Permission Directive](#permission-directive) ## DOM Manipulation ### Auto-Focus Directive\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-directives/references/directive-patterns.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-analogjs-angular-skills-angular-directives",
+        "topic": "skills-sh-analogjs-angular-skills-angular-directives",
+        "type": "skills",
+        "title": "skills-sh-analogjs-angular-skills-angular-directives",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-directives/references/directive-patterns.md",
+        "retrieved_at": "2026-02-28T14:45:33.713Z",
+        "content_sha256": "399465cefcfea352c0a1ad709df7959298b3c2ec160cd6453cf850aaccce9f3a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gitclassic",
+  "generated_at": "2026-02-28T14:46:10.964Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gitclassic#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gitclassic/HEAD.md",
+      "text": "title: gitclassic\nsummary: Fast, no-JavaScript GitHub browser optimized for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/heythisischris/gitclassic/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gitclassic",
+        "topic": "openclaw-openclaw-gitclassic",
+        "type": "skills",
+        "title": "gitclassic",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/heythisischris/gitclassic/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.964Z",
+        "content_sha256": "74ce07c89eb92db1a04fe885e91042650681b196974bcd970989de8178405cb1"
+      }
+    }
+  ]
+}

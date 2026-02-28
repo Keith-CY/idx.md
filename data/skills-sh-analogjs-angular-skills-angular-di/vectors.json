@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-analogjs-angular-skills-angular-di",
+  "generated_at": "2026-02-28T14:45:40.880Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-analogjs-angular-skills-angular-di#head",
+      "kind": "head",
+      "path": "/data/skills-sh-analogjs-angular-skills-angular-di/HEAD.md",
+      "text": "title: skills-sh-analogjs-angular-skills-angular-di\nsummary: # Angular Dependency Injection Patterns ## Table of Contents - [Service Patterns](#service-patterns) - [Abstract Classes as Tokens](#abstract-classes-as-tokens) - [Hierarchical Injection](#hierarchical-injection) - [Dynamic Providers](#dynamic-providers) - [Testing with DI](#testing-with-di) - [DestroyRef and Cleanup](#destroyref-and-cleanup) ## Service Patterns ### Facade Service\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-di/references/di-patterns.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-analogjs-angular-skills-angular-di",
+        "topic": "skills-sh-analogjs-angular-skills-angular-di",
+        "type": "skills",
+        "title": "skills-sh-analogjs-angular-skills-angular-di",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-di/references/di-patterns.md",
+        "retrieved_at": "2026-02-28T14:45:40.880Z",
+        "content_sha256": "82a96864d1bc95d2cadac94ad888b147edb5d66d24c76510fbd215983fdcf903"
+      }
+    }
+  ]
+}

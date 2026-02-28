@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skylight-skill",
+  "generated_at": "2026-02-28T14:46:43.604Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skylight-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skylight-skill/HEAD.md",
+      "text": "title: skylight-skill\nsummary: Interact with Skylight Calendar frame - manage calendar events, chores, lists, task box items.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/riyadchowdhury/skylight-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skylight-skill",
+        "topic": "openclaw-openclaw-skylight-skill",
+        "type": "skills",
+        "title": "skylight-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/riyadchowdhury/skylight-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.604Z",
+        "content_sha256": "61ee6edbc75cb9d8fe2472f65babe86c5bcc24bdf757898567d25e7c84274f6e"
+      }
+    }
+  ]
+}

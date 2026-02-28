@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-shubhamsaboo-awesome-llm-apps-python-expert",
+  "generated_at": "2026-02-28T14:45:42.067Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert#head",
+      "kind": "head",
+      "path": "/data/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert/HEAD.md",
+      "text": "title: skills-sh-shubhamsaboo-awesome-llm-apps-python-expert\nsummary: # Python Expert Guidelines **A comprehensive guide for AI agents writing and reviewing Python code**, organized by priority and impact. --- ## Table of Contents ### Correctness — **CRITICAL** 1. [Avoid Mutable Default Arguments](#avoid-mutable-default-arguments) 2. [Proper Error Handling](#proper-error-handling) ### Type Safety — **HIGH** 3. [Use Type Hints](#use-type-hints) 4. [Use Dataclasses](#use-dataclasses)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/shubhamsaboo/awesome-llm-apps/HEAD/awesome_agent_skills/python-expert/AGENTS.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert",
+        "topic": "skills-sh-shubhamsaboo-awesome-llm-apps-python-expert",
+        "type": "skills",
+        "title": "skills-sh-shubhamsaboo-awesome-llm-apps-python-expert",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/shubhamsaboo/awesome-llm-apps/HEAD/awesome_agent_skills/python-expert/AGENTS.md",
+        "retrieved_at": "2026-02-28T14:45:42.067Z",
+        "content_sha256": "014a6e33d91a0645a9862723feb11d10f080ae2226ea87ec8f685291eb549cfc"
+      }
+    }
+  ]
+}

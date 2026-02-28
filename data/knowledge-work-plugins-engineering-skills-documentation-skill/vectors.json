@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-engineering-skills-documentation-skill",
+  "generated_at": "2026-02-28T14:45:36.079Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-engineering-skills-documentation-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-engineering-skills-documentation-skill/HEAD.md",
+      "text": "title: documentation\nsummary: Write and maintain technical documentation. Trigger with \"write docs for\", \"document this\", \"create a README\", \"write a runbook\", \"onboarding guide\", or when the user needs help with any form of technical writing — API docs, architecture docs, or operational runbooks.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-engineering, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/documentation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-engineering-skills-documentation-skill",
+        "topic": "knowledge-work-plugins-engineering-skills-documentation-skill",
+        "type": "skills",
+        "title": "documentation",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-engineering",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/documentation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.079Z",
+        "content_sha256": "1d469418f786a05be83d2a05f04d68788aeed584d13863a650f5ad73c6c4cf50"
+      }
+    }
+  ]
+}

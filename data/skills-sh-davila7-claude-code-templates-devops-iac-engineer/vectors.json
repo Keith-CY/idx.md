@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-davila7-claude-code-templates-devops-iac-engineer",
+  "generated_at": "2026-02-28T14:45:27.985Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-davila7-claude-code-templates-devops-iac-engineer#head",
+      "kind": "head",
+      "path": "/data/skills-sh-davila7-claude-code-templates-devops-iac-engineer/HEAD.md",
+      "text": "title: skills-sh-davila7-claude-code-templates-devops-iac-engineer\nsummary: # Terraform Best Practices & Patterns ## Terraform Project Structure ### Standard Module Structure ``` terraform/ ├── environments/ │ ├── dev/ │ │ ├── main.tf │ │ ├── variables.tf │ │ ├── outputs.tf\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/development/devops-iac-engineer/reference/terraform.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-davila7-claude-code-templates-devops-iac-engineer",
+        "topic": "skills-sh-davila7-claude-code-templates-devops-iac-engineer",
+        "type": "skills",
+        "title": "skills-sh-davila7-claude-code-templates-devops-iac-engineer",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/development/devops-iac-engineer/reference/terraform.md",
+        "retrieved_at": "2026-02-28T14:45:27.985Z",
+        "content_sha256": "68501fa719788234dece69513181b8a7366b70c34a862bf320cf6e7765651828"
+      }
+    }
+  ]
+}

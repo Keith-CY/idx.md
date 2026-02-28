@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-yt-summarize",
+  "generated_at": "2026-02-28T14:45:29.019Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-yt-summarize#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-yt-summarize/HEAD.md",
+      "text": "title: yt-summarize\nsummary: Summarize YouTube videos by extracting transcripts and captions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-summarize/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-yt-summarize",
+        "topic": "openclaw-openclaw-yt-summarize",
+        "type": "skills",
+        "title": "yt-summarize",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-summarize/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:29.019Z",
+        "content_sha256": "7983b6100b3a7ea6ed92c5c584a5e53e1f9bc113f74f665239c423921ddb82c3"
+      }
+    }
+  ]
+}

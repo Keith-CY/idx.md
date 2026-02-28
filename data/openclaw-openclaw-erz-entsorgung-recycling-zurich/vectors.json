@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-erz-entsorgung-recycling-zurich",
+  "generated_at": "2026-02-28T14:46:05.935Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-erz-entsorgung-recycling-zurich#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-erz-entsorgung-recycling-zurich/HEAD.md",
+      "text": "title: openerz\nsummary: Abfuhrkalender für Zürich via OpenERZ API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mbjoern/erz-entsorgung-recycling-zurich/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-erz-entsorgung-recycling-zurich",
+        "topic": "openclaw-openclaw-erz-entsorgung-recycling-zurich",
+        "type": "skills",
+        "title": "openerz",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mbjoern/erz-entsorgung-recycling-zurich/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:05.935Z",
+        "content_sha256": "e9d4f4a9f46c979fb294bbb102032fdb5b021356094d3486ecf7dc1328586cbe"
+      }
+    }
+  ]
+}

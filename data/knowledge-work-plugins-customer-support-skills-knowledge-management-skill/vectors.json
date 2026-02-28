@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-customer-support-skills-knowledge-management-skill",
+  "generated_at": "2026-02-28T14:45:31.627Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-customer-support-skills-knowledge-management-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-customer-support-skills-knowledge-management-skill/HEAD.md",
+      "text": "title: knowledge-management\nsummary: Write and maintain knowledge base articles from resolved support issues. Use when a ticket has been resolved and the solution should be documented, when updating existing KB articles, or when creating how-to guides, troubleshooting docs, or FAQ entries.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-customer-support, plugin-component-skills, plugin-skill, category-communication\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/knowledge-management/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-customer-support-skills-knowledge-management-skill",
+        "topic": "knowledge-work-plugins-customer-support-skills-knowledge-management-skill",
+        "type": "skills",
+        "title": "knowledge-management",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-customer-support",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/knowledge-management/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:31.627Z",
+        "content_sha256": "518320b80d5535d5f9ee56ae677710bc320391b011b5c22a62f5c99a447f9499"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdbot-logs",
+  "generated_at": "2026-02-28T14:45:56.540Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdbot-logs#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdbot-logs/HEAD.md",
+      "text": "title: clawdbot-logs\nsummary: Analyze Clawdbot logs and diagnostics.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satriapamudji/clawdbot-logs/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdbot-logs",
+        "topic": "openclaw-openclaw-clawdbot-logs",
+        "type": "skills",
+        "title": "clawdbot-logs",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satriapamudji/clawdbot-logs/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.540Z",
+        "content_sha256": "e245b4f8919e10e6bd131e12ee1196494815a9a08356e148a47d0dc97c14d4a7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-feishu-sticker",
+  "generated_at": "2026-02-28T14:46:07.662Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-feishu-sticker#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-feishu-sticker/HEAD.md",
+      "text": "title: feishu-sticker\nsummary: Send images as native Feishu stickers.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-sticker/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-feishu-sticker",
+        "topic": "openclaw-openclaw-feishu-sticker",
+        "type": "skills",
+        "title": "feishu-sticker",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-sticker/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:07.662Z",
+        "content_sha256": "5e0ab9c04034e5b89cae0b7245b81057d9b7efff1d73f910d8fd7f0af67c836f"
+      }
+    }
+  ]
+}

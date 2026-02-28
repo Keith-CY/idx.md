@@ -1,16 +1,14 @@
 ---
 name: codex-account-switcher
-version: 1.1.2
+version: 1.2.3
+homepage: https://github.com/odrobnik/codex-account-switcher-skill
 description: >
   Manage multiple OpenAI Codex accounts. Capture current login tokens and switch
   between them instantly. ⚠️ Reads and writes ~/.codex/auth.json and
   ~/.codex/accounts/*.json (sensitive authentication tokens).
 metadata:
-  moltbot:
-    emoji: "🎭"
-    requires:
-      bins: ["python3"]
   openclaw:
+    emoji: "🎭"
     requires:
       bins: ["python3"]
 ---
@@ -76,15 +74,6 @@ All accounts:
    oliver: 100% weekly
 ```
 
-## How It Works
+## Setup
 
-- Stores `auth.json` files in `~/.codex/accounts/<name>.json`.
-- Identifies accounts by decoding the JWT `id_token` to find the email address.
-- "Switching" simply overwrites `~/.codex/auth.json` with the saved copy.
-
-## Installation
-
-Add the script to your path for easy access:
-```bash
-ln -s $(pwd)/codex-accounts.py ~/bin/codex-accounts
-```
+See [SETUP.md](SETUP.md) for prerequisites and setup instructions.

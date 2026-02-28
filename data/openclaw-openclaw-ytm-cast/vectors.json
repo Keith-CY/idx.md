@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ytm-cast",
+  "generated_at": "2026-02-28T14:46:58.954Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ytm-cast#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ytm-cast/HEAD.md",
+      "text": "title: ytm-cast\nsummary: Download music from YouTube/YouTube Music and stream to Chromecast via Home Assistant.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aidanthebandit/ytm-cast/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ytm-cast",
+        "topic": "openclaw-openclaw-ytm-cast",
+        "type": "skills",
+        "title": "ytm-cast",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aidanthebandit/ytm-cast/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.954Z",
+        "content_sha256": "42a279ae2730ab40edd22511ec558cb6cf1b10e65c11a656b37525c04f45afe1"
+      }
+    }
+  ]
+}

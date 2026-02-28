@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ringbot",
+  "generated_at": "2026-02-28T14:46:39.508Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ringbot#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ringbot/HEAD.md",
+      "text": "title: ringbot\nsummary: Make outbound AI phone calls.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gbessoni/ringbot/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ringbot",
+        "topic": "openclaw-openclaw-ringbot",
+        "type": "skills",
+        "title": "ringbot",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gbessoni/ringbot/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:39.508Z",
+        "content_sha256": "b68c568f90ce37335a50c925b8adb729376434adc6456199164a2c2b6dacbb6c"
+      }
+    }
+  ]
+}

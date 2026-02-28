@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-onmax-nuxt-skills-nuxt-modules",
+  "generated_at": "2026-02-28T14:45:42.548Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-onmax-nuxt-skills-nuxt-modules#head",
+      "kind": "head",
+      "path": "/data/skills-sh-onmax-nuxt-skills-nuxt-modules/HEAD.md",
+      "text": "title: skills-sh-onmax-nuxt-skills-nuxt-modules\nsummary: # Module Development Module anatomy, Kit utilities, and common patterns. ## defineNuxtModule ```ts import { addPlugin, createResolver, defineNuxtModule } from '@nuxt/kit' export interface ModuleOptions { apiKey?: string prefix?: string } export default defineNuxtModule<ModuleOptions>({\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-modules/references/development.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-onmax-nuxt-skills-nuxt-modules",
+        "topic": "skills-sh-onmax-nuxt-skills-nuxt-modules",
+        "type": "skills",
+        "title": "skills-sh-onmax-nuxt-skills-nuxt-modules",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-modules/references/development.md",
+        "retrieved_at": "2026-02-28T14:45:42.548Z",
+        "content_sha256": "22572b0823c7d75231a6ab867e3e83bc98a3fa8758dd51645b0bede5a8d6081b"
+      }
+    }
+  ]
+}

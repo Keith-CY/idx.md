@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-track17",
+  "generated_at": "2026-02-28T14:46:50.016Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-track17#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-track17/HEAD.md",
+      "text": "title: track17\nsummary: Track parcels via the 17TRACK API (local SQLite DB, polling + optional webhook ingestion).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/track17/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-track17",
+        "topic": "openclaw-openclaw-track17",
+        "type": "skills",
+        "title": "track17",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/track17/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:50.016Z",
+        "content_sha256": "1b8a1220ba76833a62add2b4521e87cdde696e17b749c15da119030fa949febb"
+      }
+    }
+  ]
+}

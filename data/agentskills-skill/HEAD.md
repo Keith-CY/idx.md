@@ -7,24 +7,32 @@ summary: >-
 
   name: Agent
 
-  description: Documentation and capabilities reference for Agent
+  description: Use when creating, authoring, or integrating Agent Skills —
+  reusable instruction packages that extend agent capabilities. Reach for this
+  skill when building skill directories, writing SKILL.md files, bundling
+  scripts, validating skills, or adding skills support to an agent platform.
 
   metadata:
       mintlify-proj: agent
       version: "1.0"
   ---
 
-  ## Capabilities
+  # Agent Skills
 
-  Agent Skills enable AI agents to extend their capabilities with specialized
-  knowledge and workflows. Agents can discover and load skills on demand to
-  perform complex tasks more accurately and efficiently. Skills provide domain
-  expertise, new capabilities (like creating presentations or analyzing
-  datasets), repeatable workflows, and interoperability across different agent
-  products. The progressive disclosure model keeps agents fast by loading only
-  metadata at startup and full instructions when needed.
+  ## Product summary
 
-  ## Skills
+  Agent Skills is an open standard for packaging reusable instructions, scripts,
+  and resources that agents can discover and execute. A skill is a folder
+  containing a required `SKILL.md` file (with YAML frontmatter and Markdown
+  instructions) plus optional `scripts/`, `references/`, and `assets/`
+  directories. Skills enable agents to extend capabilities on demand using
+  progressive disclosure: metadata loads at startup, full instructions load when
+  activated, and bundled resources load only when needed. The primary
+  documentation is at https://agentskills.io. Key files: `SKILL.md` (required
+  frontmatter + instructions), `scripts/` (executable code), `references/`
+  (supporting docs), `assets/` (templates). Key tools: `skills-ref validate`
+  (validate skill format), `skills-ref to-prompt` (generate XML for agent
+  prompts).
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -32,6 +40,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:33.083Z
-content_sha256: d12348bcbe119dbd97f29bb3ded1ac1c4652e559df26e5198bac4ae8ceeb7e0b
+retrieved_at: 2026-02-28T14:45:26.321Z
+content_sha256: 1cae72783c9b5dc6de77a79554f5a89bb827526ba001d8f255c3df23830dadbd
 ---

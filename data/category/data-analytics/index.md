@@ -3,7 +3,7 @@
 | Category | Data & Analytics |
 | --- | --- |
 | Slug | data-analytics |
-| Count | 31 |
+| Count | 30 |
 
 ---
 stable_id: skills/knowledge-work-plugins-data-commands-analyze
@@ -22,7 +22,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.536Z
+retrieved_at: 2026-02-28T14:45:29.494Z
 content_sha256: b8bac8b88a189e8d35921b1d03a765fd210eca439af0593ce112ac0428e27711
 ---
 |/data/knowledge-work-plugins-data-commands-analyze|
@@ -44,7 +44,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.765Z
+retrieved_at: 2026-02-28T14:45:29.599Z
 content_sha256: 7fa55d21494f780787f3f191b94872abf52fafb096de6ecf2af07dfce1a415a0
 ---
 |/data/knowledge-work-plugins-data-commands-build-dashboard|
@@ -66,7 +66,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.654Z
+retrieved_at: 2026-02-28T14:45:29.549Z
 content_sha256: 0c50831f19e5ccfdb5870e6ca0b1a49c9c64b285deda6029630855f816173ff3
 ---
 |/data/knowledge-work-plugins-data-commands-create-viz|
@@ -88,7 +88,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.595Z
+retrieved_at: 2026-02-28T14:45:29.520Z
 content_sha256: 8a3b5f17d07ef38d613d5c1afbe4182d6d97f08c1319ef99ef04f75b55c2e76c
 ---
 |/data/knowledge-work-plugins-data-commands-explore-data|
@@ -110,7 +110,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.473Z
+retrieved_at: 2026-02-28T14:45:29.463Z
 content_sha256: 4862f16199260e7781416359baab1158c41bae3a023f0296257ba1f4a5c93ebd
 ---
 |/data/knowledge-work-plugins-data-commands-validate|
@@ -132,7 +132,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.708Z
+retrieved_at: 2026-02-28T14:45:29.576Z
 content_sha256: 03e0828cbc45a7883f8219a1f585943ed32be1b4d9de50a9579bba5d9e83ace0
 ---
 |/data/knowledge-work-plugins-data-commands-write-query|
@@ -169,7 +169,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.345Z
+retrieved_at: 2026-02-28T14:45:29.411Z
 content_sha256: 6d05dec52ac3667b551898b9eb943f5ee08141bc8d2fabb69a8e39bb9ce7c754
 ---
 |/data/knowledge-work-plugins-data-skills-data-context-extractor-skill|
@@ -194,7 +194,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.414Z
+retrieved_at: 2026-02-28T14:45:29.438Z
 content_sha256: c8b1888ca08326bc4a1bef761b98846025b03c0db816a51e8fc7603e5c8c81bb
 ---
 |/data/knowledge-work-plugins-data-skills-data-exploration-skill|
@@ -219,7 +219,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:36.983Z
+retrieved_at: 2026-02-28T14:45:29.271Z
 content_sha256: 48886570df5ce7f94590b132cac0b3ca7e51a85fc27caf78f7605ae61f3f96de
 ---
 |/data/knowledge-work-plugins-data-skills-data-validation-skill|
@@ -244,7 +244,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.165Z
+retrieved_at: 2026-02-28T14:45:29.350Z
 content_sha256: 728d3b95b9ebc744594076a2263c02b2a3f8f16a947437e66c035ef2329a12df
 ---
 |/data/knowledge-work-plugins-data-skills-data-visualization-skill|
@@ -269,7 +269,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.101Z
+retrieved_at: 2026-02-28T14:45:29.327Z
 content_sha256: 3756173c5802fd4f60eda76087edc778ceda155dc6404d6a2fa9ca54c0e18d9f
 ---
 |/data/knowledge-work-plugins-data-skills-interactive-dashboard-builder-skill|
@@ -294,7 +294,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.224Z
+retrieved_at: 2026-02-28T14:45:29.384Z
 content_sha256: dd4879f528bd904ef44b2a81b35f503e9170c87a0b65a85d508a7fe0da7bfc6d
 ---
 |/data/knowledge-work-plugins-data-skills-sql-queries-skill|
@@ -319,7 +319,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:37.043Z
+retrieved_at: 2026-02-28T14:45:29.295Z
 content_sha256: bc3ba97bd77717a9a2a9defcec4f3d1bdf6921d587306754396c9a6ba40e22c2
 ---
 |/data/knowledge-work-plugins-data-skills-statistical-analysis-skill|
@@ -339,7 +339,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:09.265Z
+retrieved_at: 2026-02-28T14:45:54.270Z
 content_sha256: e4a0cd21b196a2321d7e95236e32505f4316668208976f03d45ef3ec6e3e3ba0
 ---
 |/data/openclaw-openclaw-canva|
@@ -359,8 +359,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:09.842Z
-content_sha256: 73f1721e78cd50145718e68fac8d4abd1f808876913dbcbe8fb344d04286c7f9
+retrieved_at: 2026-02-28T14:45:54.743Z
+content_sha256: 73917ed8a5c5e8616a35f99cd3b556e6f8dc6612065446bef5cfe16238c328ad
 ---
 |/data/openclaw-openclaw-ceorater|
 
@@ -379,7 +379,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:18.962Z
+retrieved_at: 2026-02-28T14:46:02.897Z
 content_sha256: 55f41f6afea81eb64028ba1609bd096c47e751b42718cea5091ab0573b1531ee
 ---
 |/data/openclaw-openclaw-design-assets|
@@ -399,7 +399,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:20.555Z
+retrieved_at: 2026-02-28T14:46:04.528Z
 content_sha256: abfa85cbbc2be6483990f4a73358ad5ed44fa4ae9a1bd5b89893d8f2cd135a90
 ---
 |/data/openclaw-openclaw-duckdb-cli-ai-skills|
@@ -419,31 +419,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:22.966Z
+retrieved_at: 2026-02-28T14:46:06.843Z
 content_sha256: 38f29dc7eea04935f667709a1f654b267dce9800791604fa94a8d9bce772f6eb
 ---
 |/data/openclaw-openclaw-facebook-page-manager|
-
----
-stable_id: skills/openclaw-openclaw-feishu-pcec
-type: skills
-title: feishu-pcec
-summary: Internal wrapper for `capability-evolver` that forces reporting via
-  Feishu Interactive Cards.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-data-analytics
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-pcec/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:59:24.012Z
-content_sha256: 8d142a93bcef850baaea0034f1f00dcbf37de573ec96b434d4d894ee81a38cda
----
-|/data/openclaw-openclaw-feishu-pcec|
 
 ---
 stable_id: skills/openclaw-openclaw-get-weather
@@ -460,7 +439,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:27.205Z
+retrieved_at: 2026-02-28T14:46:10.400Z
 content_sha256: b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70
 ---
 |/data/openclaw-openclaw-get-weather|
@@ -481,7 +460,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:31.848Z
+retrieved_at: 2026-02-28T14:46:14.807Z
 content_sha256: d2086008a10c8e907b9f0c15111fa460f3f716d817de50116dfbaea284879be7
 ---
 |/data/openclaw-openclaw-hyperliquid|
@@ -501,7 +480,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:33.535Z
+retrieved_at: 2026-02-28T14:46:16.522Z
 content_sha256: 9b20a2cf408ed86e3687d7a679d87985bb6a5fb228fe4116cdd847ff86809a5e
 ---
 |/data/openclaw-openclaw-ipinfo|
@@ -522,7 +501,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:36.545Z
+retrieved_at: 2026-02-28T14:46:19.654Z
 content_sha256: 34a67b5284b62fe063d5f8a6e2d1e1e342eb3e12a97b7ed0c81149efef0b0cd7
 ---
 |/data/openclaw-openclaw-linkdapi|
@@ -542,7 +521,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:45.514Z
+retrieved_at: 2026-02-28T14:46:27.190Z
 content_sha256: 75c28d426dd98024898f81ee0c55f6371615ebde09aeae34138e04654d3706bb
 ---
 |/data/openclaw-openclaw-nocodb|
@@ -563,7 +542,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:59:49.125Z
+retrieved_at: 2026-02-28T14:46:30.377Z
 content_sha256: c7176395e80c73f4a266f342383dc20fa5616184925f0ea21a0935deff23d7ec
 ---
 |/data/openclaw-openclaw-osint-graph-analyzer|
@@ -583,7 +562,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:36.097Z
+retrieved_at: 2026-02-28T14:45:28.655Z
 content_sha256: b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70
 ---
 |/data/openclaw-openclaw-rankaj|
@@ -603,7 +582,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:07.744Z
+retrieved_at: 2026-02-28T14:46:46.187Z
 content_sha256: 02e06c95610cdc5a2ac39b0c09dbf4f54e5e808ce6b3609399220be247a6280d
 ---
 |/data/openclaw-openclaw-supabase|
@@ -623,7 +602,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:07.942Z
+retrieved_at: 2026-02-28T14:46:46.355Z
 content_sha256: 392316064b9893241f45d9b25962bbebfa91d094495435d1895a88a1dee72006
 ---
 |/data/openclaw-openclaw-sure|
@@ -643,7 +622,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:08.938Z
+retrieved_at: 2026-02-28T14:46:47.156Z
 content_sha256: b0ac26a0d839493ba086011114d4799fc2bcb133b4b83ad79d6fba4396ccea82
 ---
 |/data/openclaw-openclaw-tabstack-extractor|
@@ -664,7 +643,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:11.027Z
+retrieved_at: 2026-02-28T14:46:49.006Z
 content_sha256: 6d967082cd8d668914ddb024863e6aa10621962f354fa55e75a161a88d6b4dd4
 ---
 |/data/openclaw-openclaw-thingsboard-skill|
@@ -685,7 +664,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T08:00:14.128Z
+retrieved_at: 2026-02-28T14:46:51.788Z
 content_sha256: c954737a73f0fb8c106cca5373e700b56176efbdabfda35c7433d56d3d145682
 ---
 |/data/openclaw-openclaw-umea-data|

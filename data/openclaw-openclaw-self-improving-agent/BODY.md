@@ -1,6 +1,7 @@
 ---
 name: self-improvement
 description: "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks."
+metadata:
 ---
 
 # Self-Improvement Skill
@@ -17,6 +18,7 @@ Log learnings and errors to markdown files for continuous improvement. Coding ag
 | API/external tool fails | Log to `.learnings/ERRORS.md` with integration details |
 | Knowledge was outdated | Log to `.learnings/LEARNINGS.md` with category `knowledge_gap` |
 | Found better approach | Log to `.learnings/LEARNINGS.md` with category `best_practice` |
+| Simplify/Harden recurring patterns | Log/update `.learnings/LEARNINGS.md` with `Source: simplify-and-harden` and a stable `Pattern-Key` |
 | Similar to existing entry | Link with `**See Also**`, consider priority bump |
 | Broadly applicable learning | Promote to `CLAUDE.md`, `AGENTS.md`, and/or `.github/copilot-instructions.md` |
 | Workflow improvements | Promote to `AGENTS.md` (OpenClaw workspace) |
@@ -38,6 +40,8 @@ clawdhub install self-improving-agent
 ```bash
 git clone https://github.com/peterskoett/self-improving-agent.git ~/.openclaw/skills/self-improving-agent
 ```
+
+Remade for openclaw from original repo : https://github.com/pskoett/pskoett-ai-skills - https://github.com/pskoett/pskoett-ai-skills/tree/main/skills/self-improvement
 
 ### Workspace Structure
 
@@ -113,6 +117,17 @@ mkdir -p .learnings
 
 Copy templates from `assets/` or create files with headers.
 
+### Add reference to agent files AGENTS.md, CLAUDE.md, or .github/copilot-instructions.md to remind yourself to log learnings. (this is an alternative to hook-based reminders)
+
+#### Self-Improvement Workflow
+
+When errors or corrections occur:
+1. Log to `.learnings/ERRORS.md`, `LEARNINGS.md`, or `FEATURE_REQUESTS.md`
+2. Review and promote broadly applicable learnings to:
+   - `CLAUDE.md` - project facts and conventions
+   - `AGENTS.md` - workflows and automation
+   - `.github/copilot-instructions.md` - Copilot context
+
 ## Logging Format
 
 ### Learning Entry
@@ -141,6 +156,10 @@ Specific fix or improvement to make
 - Related Files: path/to/file.ext
 - Tags: tag1, tag2
 - See Also: LRN-20250110-001 (if related to existing entry)
+- Pattern-Key: simplify.dead_code | harden.input_validation (optional, for recurring-pattern tracking)
+- Recurrence-Count: 1 (optional)
+- First-Seen: 2025-01-15 (optional)
+- Last-Seen: 2025-01-15 (optional)
 
 ---
 ```
@@ -303,6 +322,43 @@ If logging something similar to an existing entry:
    - Missing documentation (→ promote to CLAUDE.md or .github/copilot-instructions.md)
    - Missing automation (→ add to AGENTS.md)
    - Architectural problem (→ create tech debt ticket)
+
+## Simplify & Harden Feed
+
+Use this workflow to ingest recurring patterns from the `simplify-and-harden`
+skill and turn them into durable prompt guidance.
+
+### Ingestion Workflow
+
+1. Read `simplify_and_harden.learning_loop.candidates` from the task summary.
+2. For each candidate, use `pattern_key` as the stable dedupe key.
+3. Search `.learnings/LEARNINGS.md` for an existing entry with that key:
+   - `grep -n "Pattern-Key: <pattern_key>" .learnings/LEARNINGS.md`
+4. If found:
+   - Increment `Recurrence-Count`
+   - Update `Last-Seen`
+   - Add `See Also` links to related entries/tasks
+5. If not found:
+   - Create a new `LRN-...` entry
+   - Set `Source: simplify-and-harden`
+   - Set `Pattern-Key`, `Recurrence-Count: 1`, and `First-Seen`/`Last-Seen`
+
+### Promotion Rule (System Prompt Feedback)
+
+Promote recurring patterns into agent context/system prompt files when all are true:
+
+- `Recurrence-Count >= 3`
+- Seen across at least 2 distinct tasks
+- Occurred within a 30-day window
+
+Promotion targets:
+- `CLAUDE.md`
+- `AGENTS.md`
+- `.github/copilot-instructions.md`
+- `SOUL.md` / `TOOLS.md` for OpenClaw workspace-level guidance when applicable
+
+Write promoted rules as short prevention rules (what to do before/while coding),
+not long incident write-ups.
 
 ## Periodic Review
 

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-snowflake-mcp",
+  "generated_at": "2026-02-28T14:46:43.960Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-snowflake-mcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-snowflake-mcp/HEAD.md",
+      "text": "title: snowflake-mcp\nsummary: Connect to the Snowflake Managed MCP server with Clawdbot or other MCP clients.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vikrambalaaj/snowflake-mcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-snowflake-mcp",
+        "topic": "openclaw-openclaw-snowflake-mcp",
+        "type": "skills",
+        "title": "snowflake-mcp",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vikrambalaaj/snowflake-mcp/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.960Z",
+        "content_sha256": "a2b8c964a628e0c78cd868b402284530ca0f669f544f9d5e1b7f04a84a9fbe42"
+      }
+    }
+  ]
+}

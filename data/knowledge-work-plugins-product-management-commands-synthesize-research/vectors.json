@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-product-management-commands-synthesize-research",
+  "generated_at": "2026-02-28T14:45:30.863Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-product-management-commands-synthesize-research#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-product-management-commands-synthesize-research/HEAD.md",
+      "text": "title: synthesize-research\nsummary: Synthesize user research from interviews, surveys, and feedback into structured insights\ntype: skills\ntags: source-knowledge-work-plugins, plugin-product-management, plugin-component-commands, plugin-command, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/synthesize-research.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-product-management-commands-synthesize-research",
+        "topic": "knowledge-work-plugins-product-management-commands-synthesize-research",
+        "type": "skills",
+        "title": "synthesize-research",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-product-management",
+          "plugin-component-commands",
+          "plugin-command",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/synthesize-research.md",
+        "retrieved_at": "2026-02-28T14:45:30.863Z",
+        "content_sha256": "1afeb918b452d4649e29b903d96f8276314745c3d1fdf3c50c53f1a90aec4b2e"
+      }
+    }
+  ]
+}

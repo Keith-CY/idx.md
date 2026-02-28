@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices",
+  "generated_at": "2026-02-28T14:45:41.405Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices#head",
+      "kind": "head",
+      "path": "/data/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices/HEAD.md",
+      "text": "title: skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices\nsummary: # Test Organization ## Table of Contents 1. [Configuration](#configuration) 2. [E2E Tests](#e2e-tests) 3. [Component Tests](#component-tests) 4. [API Tests](#api-tests) 5. [Visual Regression Tests](#visual-regression-tests) 6. [Directory Structure](#directory-structure) 7. [Tagging & Filtering](#tagging--filtering) ### Project Setup\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/currents-dev/playwright-best-practices-skill/HEAD/references/test-organization.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices",
+        "topic": "skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices",
+        "type": "skills",
+        "title": "skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/currents-dev/playwright-best-practices-skill/HEAD/references/test-organization.md",
+        "retrieved_at": "2026-02-28T14:45:41.405Z",
+        "content_sha256": "a18d03cea2d37a940392c6173030c6fdaee7de08eab297547eff0ec5a3780d80"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-render-stl-png",
+  "generated_at": "2026-02-28T14:46:38.949Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-render-stl-png#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-render-stl-png/HEAD.md",
+      "text": "title: render-stl-png\nsummary: Render an STL to a PNG from a nice, consistent 3D angle (\"Blender-ish\" default perspective) with a solid color.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/render-stl-png/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-render-stl-png",
+        "topic": "openclaw-openclaw-render-stl-png",
+        "type": "skills",
+        "title": "render-stl-png",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/render-stl-png/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:38.949Z",
+        "content_sha256": "e324a7398fbb5d3e7c9a2a3ecda6602e2f6682621701f69f20f2c12ffa7eec9c"
+      }
+    }
+  ]
+}

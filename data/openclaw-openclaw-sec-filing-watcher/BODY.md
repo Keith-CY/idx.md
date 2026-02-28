@@ -16,11 +16,16 @@ cp assets/watchlist.example.json watchlist.json
 # Edit watchlist.json with your tickers
 ```
 
-### 2. Configure webhook
+### 2. Configure environment
 
-Edit `scripts/watcher.js` CONFIG section:
-- `webhookUrl`: Your Clawdbot hooks URL (default: `http://localhost:18789/hooks/agent`)
-- `webhookToken`: Your hook token (find in clawdbot.json under `hooks.token`)
+Set the following env vars (e.g. in your shell profile or OpenClaw skill config):
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `OPENCLAW_HOOKS_TOKEN` | **Yes** | Your OpenClaw hooks token |
+| `SEC_WATCHER_RECIPIENT` | **Yes** | Chat/user ID to deliver notifications to |
+| `SEC_WATCHER_CHANNEL` | No | Channel plugin to deliver via (default: `telegram`) |
+| `SEC_WATCHER_USER_AGENT` | No | SEC API User-Agent string (SEC requires contact info) |
 
 ### 3. Test run
 

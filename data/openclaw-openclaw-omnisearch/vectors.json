@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-omnisearch",
+  "generated_at": "2026-02-28T14:46:28.579Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-omnisearch#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-omnisearch/HEAD.md",
+      "text": "title: omnisearch\nsummary: --- name: omnisearch description: | MANDATORY web search tool for current information, news, prices, facts, or any data not in your training. This is THE ONLY way to search the internet in this OpenClaw environment. ALWAYS use this skill when the user asks for web searches or when you need up-to-date information. --- # OmniSearch Skill - Web Search Tool ## CRITICAL: When to Use This Skill **ALWAYS use OmniSearch when:**\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bguidolim/omnisearch/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-omnisearch",
+        "topic": "openclaw-openclaw-omnisearch",
+        "type": "skills",
+        "title": "omnisearch",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bguidolim/omnisearch/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:28.579Z",
+        "content_sha256": "9bf6408f1ad9c7357a7912f0a793c138ba2268338120204b52391555d5bfad59"
+      }
+    }
+  ]
+}

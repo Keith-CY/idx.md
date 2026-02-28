@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-premium-domains",
+  "generated_at": "2026-02-28T14:46:34.557Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-premium-domains#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-premium-domains/HEAD.md",
+      "text": "title: premium-domains\nsummary: Search for premium domains for sale across Afternic, Sedo, Atom, Dynadot, Namecheap, NameSilo.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/premium-domains/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-premium-domains",
+        "topic": "openclaw-openclaw-premium-domains",
+        "type": "skills",
+        "title": "premium-domains",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/premium-domains/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:34.557Z",
+        "content_sha256": "569e1a6e631533897a12f8b4a4852a3d332c396930cb16ac0522413d1ddc25b6"
+      }
+    }
+  ]
+}

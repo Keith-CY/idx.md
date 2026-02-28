@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-sis-skill",
+  "generated_at": "2026-02-28T14:46:42.713Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-sis-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-sis-skill/HEAD.md",
+      "text": "title: sis-skill\nsummary: **Equilibrium-Native Reasoning for OpenClaw**\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/architect-sis/sis-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-sis-skill",
+        "topic": "openclaw-openclaw-sis-skill",
+        "type": "skills",
+        "title": "sis-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/architect-sis/sis-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:42.713Z",
+        "content_sha256": "cd00f6a1bb9cae71397a825e0108e1d301752646aa199f779a8f0c363bbe52f6"
+      }
+    }
+  ]
+}

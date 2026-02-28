@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-get-you-some-britches",
+  "generated_at": "2026-02-28T14:46:10.450Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-get-you-some-britches#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-get-you-some-britches/HEAD.md",
+      "text": "title: get-you-some-britches\nsummary: Use this skill any time I start complaining about my love life, or, if I indicate I need to find some pants.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/get-you-some-britches/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-get-you-some-britches",
+        "topic": "openclaw-openclaw-get-you-some-britches",
+        "type": "skills",
+        "title": "get-you-some-britches",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/get-you-some-britches/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.450Z",
+        "content_sha256": "bbc0ef7e09d7666e18483c1c7d5b782bb89d9c25339dcf1b72ecdaa46603a749"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-web-deploy",
+  "generated_at": "2026-02-28T14:46:54.488Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-web-deploy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-web-deploy/HEAD.md",
+      "text": "title: web-deploy\nsummary: Build and deploy websites, web apps, and APIs to production.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/web-deploy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-web-deploy",
+        "topic": "openclaw-openclaw-web-deploy",
+        "type": "skills",
+        "title": "web-deploy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/web-deploy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:54.488Z",
+        "content_sha256": "85dddabbdce1e5a51ea825adb473f0bcd30a877832b58db2504e807d3962fb8a"
+      }
+    }
+  ]
+}

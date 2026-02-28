@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-design-skills-design-handoff-skill",
+  "generated_at": "2026-02-28T14:45:35.015Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-design-skills-design-handoff-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-design-skills-design-handoff-skill/HEAD.md",
+      "text": "title: design-handoff\nsummary: Create comprehensive developer handoff documentation from designs. Trigger with \"handoff to engineering\", \"developer specs\", \"implementation notes\", \"design specs for developers\", or when a design needs to be translated into detailed implementation guidance.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-design, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-handoff/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-design-skills-design-handoff-skill",
+        "topic": "knowledge-work-plugins-design-skills-design-handoff-skill",
+        "type": "skills",
+        "title": "design-handoff",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-design",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-handoff/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:35.015Z",
+        "content_sha256": "f46b416c17e5808fac0c6789679283659e87f4fbc21d3d3e601347ef185c265c"
+      }
+    }
+  ]
+}

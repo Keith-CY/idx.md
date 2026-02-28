@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-git-crypt-backup",
+  "generated_at": "2026-02-28T14:46:10.789Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-git-crypt-backup#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-git-crypt-backup/HEAD.md",
+      "text": "title: git-crypt-backup\nsummary: Backup Clawdbot workspace and config to GitHub with git-crypt encryption.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/louzhixian/git-crypt-backup/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-git-crypt-backup",
+        "topic": "openclaw-openclaw-git-crypt-backup",
+        "type": "skills",
+        "title": "git-crypt-backup",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/louzhixian/git-crypt-backup/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.789Z",
+        "content_sha256": "6a3b8806675eb138a3c7acea2a4e2593ec03efc0e55c5d15f11b875280e4cfb7"
+      }
+    }
+  ]
+}

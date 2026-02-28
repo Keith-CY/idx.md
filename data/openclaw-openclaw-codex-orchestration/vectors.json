@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-codex-orchestration",
+  "generated_at": "2026-02-28T14:45:58.882Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-codex-orchestration#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-codex-orchestration/HEAD.md",
+      "text": "title: codex-orchestration\nsummary: General-purpose orchestration for Codex.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shanelindsay/codex-orchestration/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-codex-orchestration",
+        "topic": "openclaw-openclaw-codex-orchestration",
+        "type": "skills",
+        "title": "codex-orchestration",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shanelindsay/codex-orchestration/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:58.882Z",
+        "content_sha256": "772f1d64b2819d4f366d866545149c3a5530c8e0cfa0beb957d2dd657e88fe29"
+      }
+    }
+  ]
+}

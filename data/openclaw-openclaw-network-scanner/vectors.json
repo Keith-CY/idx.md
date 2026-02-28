@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-network-scanner",
+  "generated_at": "2026-02-28T14:46:26.447Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-network-scanner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-network-scanner/HEAD.md",
+      "text": "title: network-scanner\nsummary: Scan networks to discover devices, gather MAC addresses, vendors.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/network-scanner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-network-scanner",
+        "topic": "openclaw-openclaw-network-scanner",
+        "type": "skills",
+        "title": "network-scanner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/network-scanner/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:26.447Z",
+        "content_sha256": "774f8055e7c6cf297428d0e0270c7dc39e02a828533af9f236888ba99d7ec083"
+      }
+    }
+  ]
+}

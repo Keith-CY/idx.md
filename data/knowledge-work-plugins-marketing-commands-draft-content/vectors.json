@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-marketing-commands-draft-content",
+  "generated_at": "2026-02-28T14:45:30.466Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-marketing-commands-draft-content#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-marketing-commands-draft-content/HEAD.md",
+      "text": "title: draft-content\nsummary: Draft blog posts, social media, email newsletters, landing pages, press releases, and case studies\ntype: skills\ntags: source-knowledge-work-plugins, plugin-marketing, plugin-component-commands, plugin-command, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/draft-content.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-marketing-commands-draft-content",
+        "topic": "knowledge-work-plugins-marketing-commands-draft-content",
+        "type": "skills",
+        "title": "draft-content",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-marketing",
+          "plugin-component-commands",
+          "plugin-command",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/draft-content.md",
+        "retrieved_at": "2026-02-28T14:45:30.466Z",
+        "content_sha256": "3cd48c55708c9fa8bfc4917cc9cb06091059dd7409c565a49af8631fe5ab1a52"
+      }
+    }
+  ]
+}

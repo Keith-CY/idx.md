@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-codex-quota",
+  "generated_at": "2026-02-28T14:45:58.924Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-codex-quota#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-codex-quota/HEAD.md",
+      "text": "title: codex-quota\nsummary: Check OpenAI Codex CLI rate limit status (daily/weekly quotas) using local session.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-quota/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-codex-quota",
+        "topic": "openclaw-openclaw-codex-quota",
+        "type": "skills",
+        "title": "codex-quota",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-quota/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:58.924Z",
+        "content_sha256": "1019893cc3efc1a64310c931076199546d1a4466daf37ee3262650474ccb4427"
+      }
+    }
+  ]
+}

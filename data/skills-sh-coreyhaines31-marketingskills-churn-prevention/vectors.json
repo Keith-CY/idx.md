@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-coreyhaines31-marketingskills-churn-prevention",
+  "generated_at": "2026-02-28T14:45:37.672Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-coreyhaines31-marketingskills-churn-prevention#head",
+      "kind": "head",
+      "path": "/data/skills-sh-coreyhaines31-marketingskills-churn-prevention/HEAD.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-churn-prevention\nsummary: # Cancel Flow Patterns Detailed cancel flow patterns by business type, billing provider, and industry. --- ## Cancel Flow by Business Type ### B2C / Self-Serve SaaS High volume, low touch. The flow must work without human intervention. **Flow structure:** ``` Cancel button → Exit survey (1 question) → Dynamic offer → Confirm → Post-cancel ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/churn-prevention/references/cancel-flow-patterns.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-churn-prevention",
+        "topic": "skills-sh-coreyhaines31-marketingskills-churn-prevention",
+        "type": "skills",
+        "title": "skills-sh-coreyhaines31-marketingskills-churn-prevention",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/churn-prevention/references/cancel-flow-patterns.md",
+        "retrieved_at": "2026-02-28T14:45:37.672Z",
+        "content_sha256": "bd4f9eb09757189e4fe4f849c708731a307508e8765c3345639480c222378120"
+      }
+    }
+  ]
+}

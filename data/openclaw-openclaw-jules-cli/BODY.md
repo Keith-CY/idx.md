@@ -1,6 +1,11 @@
 ---
 name: jules-cli
 description: Interact with the Jules CLI to manage asynchronous coding sessions. Use this skill sparingly for complex, isolated tasks that benefit from a remote VM.
+binaries:
+  - jules
+  - python3
+env:
+  - HOME
 ---
 
 # Jules CLI Skill
@@ -25,9 +30,26 @@ To prevent excessive and inappropriate session creation, you **must** follow the
 
 ---
 
+## Security Guidelines
+
+To ensure safe execution of CLI commands, you **must** adhere to the following security practices:
+
+1.  **Input Validation**: Before running any command, validate that:
+    *   **Repository names** follow the `owner/repo` format (alphanumeric, dots, hyphens, and underscores).
+    *   **Session IDs** are alphanumeric (typically hyphens and underscores are also allowed).
+2.  **Quoting**: Always wrap shell placeholders in double quotes (e.g., `"<repo>"`).
+3.  **No Inline Injection**: Never embed user-provided data directly into script strings (like `python3 -c`). Use environment variables to pass such data safely.
+4.  **Sanitization**: Ensure task descriptions do not contain malicious shell characters if passed directly to the shell.
+
+---
+
 ## Safety Controls
-*   **Approval Required**: If you are unsure if a task is "complex enough" for Jules, ask the user for permission before running `jules remote new`.
+*   **Approval Required (MANDATORY)**: You **must** ask for explicit user approval before running any of the following commands:
+    *   `jules remote new`: Since this creates a remote session/VM.
+    *   `jules remote pull --apply`: Since this modifies the local codebase.
+    *   `jules teleport`: Since this clones and modifies the environment.
 *   **Verification**: Always run `jules remote list --session` before creating a new one to ensure you don't already have a pending session for the same repository.
+*   **Credentials**: If `jules login` is required, explain *why* to the user and wait for their confirmation before proceeding.
 
 ---
 
@@ -46,22 +68,35 @@ jules remote list --repo
 Create a session and capture the Session ID.
 ```bash
 # Capture the output to get the ID
-jules remote new --repo <repo> --session "Detailed task description" < /dev/null
+# Replace <repo> and task description with validated inputs
+jules remote new --repo "<repo>" --session "Detailed task description" < /dev/null
 ```
 
 ### 3. Monitor Progress
 List sessions and look for your ID. Use this robust one-liner to check the status (it handles statuses with spaces like "In Progress"):
 
-**Check Status:**
+**Check Status (Safe Method):**
 ```bash
-# Extract status for a specific ID by splitting on 2+ spaces
-jules remote list --session | python3 -c "import sys, re; [print(re.split(r'\s{2,}', l.strip())[-1]) for l in sys.stdin if l.startswith('<SESSION_ID>')] "
+# Use an environment variable to pass the Session ID safely to Python
+export JULES_SESSION_ID="<SESSION_ID>"
+jules remote list --session | python3 -c "
+import sys, re, os
+session_id = os.environ.get('JULES_SESSION_ID', '')
+if not session_id: sys.exit(0)
+for line in sys.stdin:
+    line = line.strip()
+    if line.startswith(session_id):
+        # Extract status (the last column after multiple spaces)
+        print(re.split(r'\s{2,}', line)[-1])
+"
+unset JULES_SESSION_ID
 ```
 
 ### 4. Integrate Results
 Once the status is **Completed**, pull and apply the changes.
 ```bash
-jules remote pull --session <SESSION_ID> --apply < /dev/null
+# Replace <SESSION_ID> with the validated Session ID
+jules remote pull --session "<SESSION_ID>" --apply < /dev/null
 ```
 
 ---
@@ -82,4 +117,4 @@ jules remote pull --session <SESSION_ID> --apply < /dev/null
 | `jules remote list --session` | List active and past sessions to check status. |
 | `jules remote new` | Create a new coding task. |
 | `jules remote pull` | Apply changes from a completed session. |
-| `jules teleport <id>` | Clone and apply changes (useful for fresh environments). |
+| `jules teleport "<id>"` | Clone and apply changes (useful for fresh environments). |

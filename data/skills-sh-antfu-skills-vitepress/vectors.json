@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-antfu-skills-vitepress",
+  "generated_at": "2026-02-28T14:45:40.009Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-antfu-skills-vitepress#head",
+      "kind": "head",
+      "path": "/data/skills-sh-antfu-skills-vitepress/HEAD.md",
+      "text": "title: skills-sh-antfu-skills-vitepress\nsummary: --- name: vitepress-configuration description: Config file setup, defineConfig helper, site metadata, and build options --- # Configuration VitePress configuration is defined in `.vitepress/config.[js|ts|mjs|mts]`. Use `defineConfig` for TypeScript intellisense. ## Basic Config ```ts // .vitepress/config.ts import { defineConfig } from 'vitepress'\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitepress/references/core-config.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-antfu-skills-vitepress",
+        "topic": "skills-sh-antfu-skills-vitepress",
+        "type": "skills",
+        "title": "skills-sh-antfu-skills-vitepress",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitepress/references/core-config.md",
+        "retrieved_at": "2026-02-28T14:45:40.009Z",
+        "content_sha256": "85c6a7ee227c47143fdc8e59b5b2e29bfbbf8499c893b7ce6589c2304f469e35"
+      }
+    }
+  ]
+}

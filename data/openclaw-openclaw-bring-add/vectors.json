@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bring-add",
+  "generated_at": "2026-02-28T14:45:53.247Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bring-add#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bring-add/HEAD.md",
+      "text": "title: bring-add\nsummary: Use when user wants to add items to Bring! shopping lists.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-add/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bring-add",
+        "topic": "openclaw-openclaw-bring-add",
+        "type": "skills",
+        "title": "bring-add",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-add/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.247Z",
+        "content_sha256": "6e45b857673834dd5ccb5ef303de3e2dc6e29af7d02e2c7fd3047ed37decf9ee"
+      }
+    }
+  ]
+}

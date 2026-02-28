@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-file-links-tool",
+  "generated_at": "2026-02-28T14:46:07.884Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-file-links-tool#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-file-links-tool/HEAD.md",
+      "text": "title: file-links-tool\nsummary: Securely upload files from your private AI workspace and provide your owner with a direct download.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrbeandev/file-links-tool/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-file-links-tool",
+        "topic": "openclaw-openclaw-file-links-tool",
+        "type": "skills",
+        "title": "file-links-tool",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrbeandev/file-links-tool/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:07.884Z",
+        "content_sha256": "36685a1e74bc44e87a39223af8e890dcd659e1f69f294a0ddf058214b5673382"
+      }
+    }
+  ]
+}

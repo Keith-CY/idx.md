@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-plan2meal",
+  "generated_at": "2026-02-28T14:46:33.207Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-plan2meal#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-plan2meal/HEAD.md",
+      "text": "title: plan2meal\nsummary: plan2meal\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okikesolutions/plan2meal/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-plan2meal",
+        "topic": "openclaw-openclaw-plan2meal",
+        "type": "skills",
+        "title": "plan2meal",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/okikesolutions/plan2meal/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:33.207Z",
+        "content_sha256": "8284cc1ae64cb593a4854210f1e68fa6894e0926cd46bffe22cd245d0eac6088"
+      }
+    }
+  ]
+}

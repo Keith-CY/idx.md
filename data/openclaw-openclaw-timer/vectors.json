@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-timer",
+  "generated_at": "2026-02-28T14:46:49.310Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-timer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-timer/HEAD.md",
+      "text": "title: timer\nsummary: Set timers and alarms.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hisxo/timer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-timer",
+        "topic": "openclaw-openclaw-timer",
+        "type": "skills",
+        "title": "timer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hisxo/timer/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:49.310Z",
+        "content_sha256": "ccbb606f708c0aef12303d9805babf0a85de9c2c2c70fd435de43f0e885039e3"
+      }
+    }
+  ]
+}

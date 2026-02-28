@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-willhaben",
+  "generated_at": "2026-02-28T14:46:55.950Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-willhaben#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-willhaben/HEAD.md",
+      "text": "title: willhaben\nsummary: Create and manage listings on Willhaben.at (Austrian marketplace).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/benjaminorthner/willhaben/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-willhaben",
+        "topic": "openclaw-openclaw-willhaben",
+        "type": "skills",
+        "title": "willhaben",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/benjaminorthner/willhaben/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:55.950Z",
+        "content_sha256": "ee58d83f6b3db14790398b801b72c0ceadcd14dc67cd1ca4fe828fbe60655f98"
+      }
+    }
+  ]
+}

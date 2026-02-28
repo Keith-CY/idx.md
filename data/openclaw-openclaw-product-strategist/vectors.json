@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-product-strategist",
+  "generated_at": "2026-02-28T14:46:35.104Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-product-strategist#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-product-strategist/HEAD.md",
+      "text": "title: product-strategist\nsummary: Strategic product leadership toolkit for Head of Product including OKR cascade generation, market analysis, vision.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-strategist/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-product-strategist",
+        "topic": "openclaw-openclaw-product-strategist",
+        "type": "skills",
+        "title": "product-strategist",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-strategist/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.104Z",
+        "content_sha256": "6fb94d13b7d1d99ec1abb6d0e0ffda7319f9e593bfbe4992c44681a5ff4a4b65"
+      }
+    }
+  ]
+}

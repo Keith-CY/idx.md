@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-fix-life-in-1-day",
+  "generated_at": "2026-02-28T14:46:08.531Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-fix-life-in-1-day#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-fix-life-in-1-day/HEAD.md",
+      "text": "title: fix-life-in-1-day\nsummary: 10 psychological sessions based on Dan Koe's method.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/evgyur/fix-life-in-1-day/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-fix-life-in-1-day",
+        "topic": "openclaw-openclaw-fix-life-in-1-day",
+        "type": "skills",
+        "title": "fix-life-in-1-day",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/evgyur/fix-life-in-1-day/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:08.531Z",
+        "content_sha256": "9ed88f35c543b442fdfe370db5a4df01e790fdbcd18221db8e21514eeea4adb9"
+      }
+    }
+  ]
+}

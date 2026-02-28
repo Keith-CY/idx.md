@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-qveris",
+  "generated_at": "2026-02-28T14:46:37.106Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-qveris#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-qveris/HEAD.md",
+      "text": "title: qveris\nsummary: Search and execute dynamic tools via QVeris API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hqman/qveris/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-qveris",
+        "topic": "openclaw-openclaw-qveris",
+        "type": "skills",
+        "title": "qveris",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hqman/qveris/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.106Z",
+        "content_sha256": "1283f6120167e1a3f3451a792a75b8f43fc8a617ef6a6d0b2c4bdd5e1eff6121"
+      }
+    }
+  ]
+}

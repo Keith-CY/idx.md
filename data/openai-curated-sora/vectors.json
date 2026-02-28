@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openai-curated-sora",
+  "generated_at": "2026-02-28T14:45:24.927Z",
+  "records": [
+    {
+      "id": "skills/openai-curated-sora#head",
+      "kind": "head",
+      "path": "/data/openai-curated-sora/HEAD.md",
+      "text": "title: openai-curated-sora\nsummary: --- name: \"sora\" description: \"Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI\\u2019s video API using the bundled CLI (`scripts/sora.py`), including requests like \\u201cgenerate AI video,\\u201d \\u201cSora,\\u201d \\u201cvideo remix,\\u201d \\u201cdownload video/thumbnail/spritesheet,\\u201d and batch video generation; requires `OPENAI_API_KEY` and Sora API access.\" --- # Sora Video Generation Skill Creates or manages short video clips for the current project (product demos, marketing spots, cinematic shots, UI mocks). Defaults to `sora-2` and a structured prompt augmentation workflow, and prefers the bundled CLI for deterministic runs. Note: `$sora` is a skill tag in prompts, not a shell command. ## When to use - Generate a new video clip from a prompt - Remix an existing video by ID - Poll status, list jobs, or download assets (video/thumbnail/spritesheet)\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sora/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openai-curated-sora",
+        "topic": "openai-curated-sora",
+        "type": "skills",
+        "title": "openai-curated-sora",
+        "tags": [
+          "openai",
+          "source-openai-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sora/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:24.927Z",
+        "content_sha256": "13ac4711e544afc1d76cc2f7ae34ff19089be5797654afba7932d6c2424acccf"
+      }
+    }
+  ]
+}

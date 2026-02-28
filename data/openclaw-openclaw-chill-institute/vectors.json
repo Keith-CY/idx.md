@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-chill-institute",
+  "generated_at": "2026-02-28T14:45:55.153Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-chill-institute#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-chill-institute/HEAD.md",
+      "text": "title: chill-institute\nsummary: Use chill.institute (web UI) to search for content and click “send to put.io” (best paired.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/chill-institute/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-chill-institute",
+        "topic": "openclaw-openclaw-chill-institute",
+        "type": "skills",
+        "title": "chill-institute",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/chill-institute/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:55.153Z",
+        "content_sha256": "6e85b52b6a60c8e7726ed12ac8ffaf81855e709529bd0356ea3d87a2552886b3"
+      }
+    }
+  ]
+}

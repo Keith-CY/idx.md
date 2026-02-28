@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-set-reminder",
+  "generated_at": "2026-02-28T14:46:42.100Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-set-reminder#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-set-reminder/HEAD.md",
+      "text": "title: set-reminder\nsummary: Use when user wants to be reminded about something at a specific time or recurring schedule.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/onionrings29/set-reminder/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-set-reminder",
+        "topic": "openclaw-openclaw-set-reminder",
+        "type": "skills",
+        "title": "set-reminder",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/onionrings29/set-reminder/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:42.100Z",
+        "content_sha256": "dedd55f34c7c766568e5c9eac9986af0c757bd6f567064cf6dc3e544fb93a110"
+      }
+    }
+  ]
+}

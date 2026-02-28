@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-coreyhaines31-marketingskills-email-sequence",
+  "generated_at": "2026-02-28T14:45:33.387Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-coreyhaines31-marketingskills-email-sequence#head",
+      "kind": "head",
+      "path": "/data/skills-sh-coreyhaines31-marketingskills-email-sequence/HEAD.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-email-sequence\nsummary: # Email Sequence Templates Detailed templates for common email sequences. ## Contents - Welcome Sequence (Post-Signup) - Lead Nurture Sequence (Pre-Sale) - Re-Engagement Sequence - Onboarding Sequence (Product Users) ## Welcome Sequence (Post-Signup) **Email 1: Welcome (Immediate)** - Subject: Welcome to [Product] — here's your first step\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/email-sequence/references/sequence-templates.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-email-sequence",
+        "topic": "skills-sh-coreyhaines31-marketingskills-email-sequence",
+        "type": "skills",
+        "title": "skills-sh-coreyhaines31-marketingskills-email-sequence",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/email-sequence/references/sequence-templates.md",
+        "retrieved_at": "2026-02-28T14:45:33.387Z",
+        "content_sha256": "d47b12e263ad52b72ab741c490bbc98d8bf8034d61faccc50b7dbb2650a9fba0"
+      }
+    }
+  ]
+}

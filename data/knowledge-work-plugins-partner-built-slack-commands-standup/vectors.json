@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-slack-commands-standup",
+  "generated_at": "2026-02-28T14:45:37.036Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-slack-commands-standup#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-slack-commands-standup/HEAD.md",
+      "text": "title: standup\nsummary: Generate a standup update based on your recent Slack activity\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-slack, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/standup.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-slack-commands-standup",
+        "topic": "knowledge-work-plugins-partner-built-slack-commands-standup",
+        "type": "skills",
+        "title": "standup",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-slack",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/standup.md",
+        "retrieved_at": "2026-02-28T14:45:37.036Z",
+        "content_sha256": "2d6db206f93631b85ec88f32df8367a80f61e3107829b1cebc706d2e9c22264b"
+      }
+    }
+  ]
+}

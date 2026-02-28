@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-x-trends-dev",
+  "generated_at": "2026-02-28T14:45:28.753Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-x-trends-dev#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-x-trends-dev/HEAD.md",
+      "text": "title: x-trends-dev\nsummary: Fetches current top trending topics on X (Twitter) for any country using public aggregators.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anishtr4/x-trends-dev/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-x-trends-dev",
+        "topic": "openclaw-openclaw-x-trends-dev",
+        "type": "skills",
+        "title": "x-trends-dev",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/anishtr4/x-trends-dev/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:28.753Z",
+        "content_sha256": "ea92cef2e48f687f0a9cc44e098266606b807ff301a2b868d701c7c6fc89b765"
+      }
+    }
+  ]
+}

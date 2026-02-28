@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-granola-notes",
+  "generated_at": "2026-02-28T14:46:12.871Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-granola-notes#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-granola-notes/HEAD.md",
+      "text": "title: granola\nsummary: Access Granola AI meeting notes - CSV import, shared note fetching.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/granola-notes/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-granola-notes",
+        "topic": "openclaw-openclaw-granola-notes",
+        "type": "skills",
+        "title": "granola",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/granola-notes/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:12.871Z",
+        "content_sha256": "f22e52fbf38fff31b2a5a3c39f219cd7f15186dc40578f261fa17975462c9b28"
+      }
+    }
+  ]
+}

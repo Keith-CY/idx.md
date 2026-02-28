@@ -1,0 +1,23 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-byungkyu-gmail",
+  "generated_at": "2026-02-28T14:45:27.581Z",
+  "records": [
+    {
+      "id": "skills/openclaw-byungkyu-gmail#head",
+      "kind": "head",
+      "path": "/data/openclaw-byungkyu-gmail/HEAD.md",
+      "text": "title: openclaw-byungkyu-gmail\nsummary: --- name: gmail description: | Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway). compatibility: Requires network access and valid Maton API key metadata: author: maton version: \"1.0\" clawdbot: emoji: 🧠\ntype: skills\ntags: (none)\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/byungkyu/gmail/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-byungkyu-gmail",
+        "topic": "openclaw-byungkyu-gmail",
+        "type": "skills",
+        "title": "openclaw-byungkyu-gmail",
+        "tags": [],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/byungkyu/gmail/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:27.581Z",
+        "content_sha256": "a9b948436dc3392ad3693ec91cf4ee6e390a9c38495661e3f9b6b069979f307e"
+      }
+    }
+  ]
+}

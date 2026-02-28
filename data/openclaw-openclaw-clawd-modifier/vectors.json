@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawd-modifier",
+  "generated_at": "2026-02-28T14:45:56.240Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawd-modifier#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawd-modifier/HEAD.md",
+      "text": "title: clawd-modifier\nsummary: Modify Clawd, the Claude Code mascot.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/masonc15/clawd-modifier/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawd-modifier",
+        "topic": "openclaw-openclaw-clawd-modifier",
+        "type": "skills",
+        "title": "clawd-modifier",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/masonc15/clawd-modifier/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.240Z",
+        "content_sha256": "c6c77a89fa36228b836459133d2c307f04b8e778c6ec632eb4bcc015dba62aee"
+      }
+    }
+  ]
+}

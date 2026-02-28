@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pr-commit-workflow",
+  "generated_at": "2026-02-28T14:46:34.360Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pr-commit-workflow#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pr-commit-workflow/HEAD.md",
+      "text": "title: pr-commit-workflow\nsummary: This skill should be used when creating commits or pull requests.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joshp123/pr-commit-workflow/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pr-commit-workflow",
+        "topic": "openclaw-openclaw-pr-commit-workflow",
+        "type": "skills",
+        "title": "pr-commit-workflow",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joshp123/pr-commit-workflow/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:34.360Z",
+        "content_sha256": "2301df5e0d62172ef25ac38546f5b1f7de394cce958a1f5d8613672b82860fd4"
+      }
+    }
+  ]
+}

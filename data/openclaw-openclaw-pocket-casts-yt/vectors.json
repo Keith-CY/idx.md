@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pocket-casts-yt",
+  "generated_at": "2026-02-28T14:46:33.752Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pocket-casts-yt#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pocket-casts-yt/HEAD.md",
+      "text": "title: pocket-casts\nsummary: Download YouTube videos and upload them to Pocket Casts Files for offline viewing.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/pocket-casts-yt/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pocket-casts-yt",
+        "topic": "openclaw-openclaw-pocket-casts-yt",
+        "type": "skills",
+        "title": "pocket-casts",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/pocket-casts-yt/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:33.752Z",
+        "content_sha256": "17ae24972c2cf5a8e523d5c53500f46113ade24cd28bafbf854ed8835b8fc39a"
+      }
+    }
+  ]
+}

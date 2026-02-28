@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-callstackincubator-agent-skills-upgrading-react-native",
+  "generated_at": "2026-02-28T14:45:34.821Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-callstackincubator-agent-skills-upgrading-react-native#head",
+      "kind": "head",
+      "path": "/data/skills-sh-callstackincubator-agent-skills-upgrading-react-native/HEAD.md",
+      "text": "title: skills-sh-callstackincubator-agent-skills-upgrading-react-native\nsummary: --- title: Upgrading React Native impact: HIGH tags: react-native, upgrade, routing --- # Skill: Upgrading React Native Router for React Native upgrade workflows. Start with core Upgrade Helper instructions, then apply focused add-ons by project shape. ## Prerequisites (All Upgrade Paths) - Ensure the repo is clean or on a dedicated upgrade branch. - Know which package manager the repo uses (`npm`, `yarn`, `pnpm`, `bun`).\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/upgrading-react-native/references/upgrading-react-native.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-callstackincubator-agent-skills-upgrading-react-native",
+        "topic": "skills-sh-callstackincubator-agent-skills-upgrading-react-native",
+        "type": "skills",
+        "title": "skills-sh-callstackincubator-agent-skills-upgrading-react-native",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/upgrading-react-native/references/upgrading-react-native.md",
+        "retrieved_at": "2026-02-28T14:45:34.821Z",
+        "content_sha256": "8a9dc3bd3d6454333f9cfa82e4f0202875850ce36a6284529294a89dde2c9385"
+      }
+    }
+  ]
+}

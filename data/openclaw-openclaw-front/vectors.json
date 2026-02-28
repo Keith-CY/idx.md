@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-front",
+  "generated_at": "2026-02-28T14:46:09.293Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-front#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-front/HEAD.md",
+      "text": "title: front\nsummary: Front.app API for managing conversations, messages, comments.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/front/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-front",
+        "topic": "openclaw-openclaw-front",
+        "type": "skills",
+        "title": "front",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/front/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.293Z",
+        "content_sha256": "2ef40170ece04c5af9ea1342a816a3068fde937056ed2c738df54831fe1d3eee"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-senior-computer-vision",
+  "generated_at": "2026-02-28T14:46:41.498Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-senior-computer-vision#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-senior-computer-vision/HEAD.md",
+      "text": "title: senior-computer-vision\nsummary: Computer vision engineering skill for object detection, image segmentation, and visual AI systems.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-computer-vision/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-senior-computer-vision",
+        "topic": "openclaw-openclaw-senior-computer-vision",
+        "type": "skills",
+        "title": "senior-computer-vision",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-computer-vision/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:41.498Z",
+        "content_sha256": "6fb196ef397ada04d8cdec18a9650c71121618209e40436b574da37b89e30c56"
+      }
+    }
+  ]
+}

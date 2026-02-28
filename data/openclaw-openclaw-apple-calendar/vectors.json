@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apple-calendar",
+  "generated_at": "2026-02-28T14:45:48.440Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apple-calendar#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apple-calendar/HEAD.md",
+      "text": "title: apple-calendar\nsummary: Apple Calendar.app integration for macOS.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-calendar/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apple-calendar",
+        "topic": "openclaw-openclaw-apple-calendar",
+        "type": "skills",
+        "title": "apple-calendar",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-calendar/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:48.440Z",
+        "content_sha256": "7d95b82db94bc0404517e318192a64b5de0da6050f0565b0984ae5aebd4c17cc"
+      }
+    }
+  ]
+}

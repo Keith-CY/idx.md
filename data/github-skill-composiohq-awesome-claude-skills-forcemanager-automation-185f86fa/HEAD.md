@@ -1,0 +1,21 @@
+---
+stable_id: skills/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa
+type: skills
+title: forcemanager-automation
+summary: Automate Forcemanager tasks via Rube MCP (Composio). Always search
+  tools first for current schemas.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-productivity-tasks
+  - github-owner-composiohq
+  - github-repo-awesome-claude-skills
+source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/forcemanager-automation/SKILL.md
+license: ""
+upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/forcemanager-automation/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:21.432Z
+content_sha256: 2df436e1a15073c3a2dba36d4b2caa85dffb362413ee35fa0cb61fe561258849
+---

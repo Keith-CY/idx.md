@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-google-ads",
+  "generated_at": "2026-02-28T14:46:12.018Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-google-ads#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-google-ads/HEAD.md",
+      "text": "title: google-ads\nsummary: Query, audit, and optimize Google Ads campaigns.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/google-ads/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-google-ads",
+        "topic": "openclaw-openclaw-google-ads",
+        "type": "skills",
+        "title": "google-ads",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/google-ads/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:12.018Z",
+        "content_sha256": "917872794d3786f6db68fb4392bba662f79099fcf98b435cab274615d8d94553"
+      }
+    }
+  ]
+}

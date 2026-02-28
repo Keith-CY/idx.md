@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-template-skill",
+  "generated_at": "2026-02-28T14:46:48.311Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-template-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-template-skill/HEAD.md",
+      "text": "title: template-skill\nsummary: Replace with description of the skill and when Claude.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/template-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-template-skill",
+        "topic": "openclaw-openclaw-template-skill",
+        "type": "skills",
+        "title": "template-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/template-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:48.311Z",
+        "content_sha256": "eb685d91de039ed864fbd790cddf31684b017fd4a34ee1a55760d8d7cdbadefa"
+      }
+    }
+  ]
+}

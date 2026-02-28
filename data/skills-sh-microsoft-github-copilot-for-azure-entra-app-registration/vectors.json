@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-microsoft-github-copilot-for-azure-entra-app-registration",
+  "generated_at": "2026-02-28T14:45:38.467Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration#head",
+      "kind": "head",
+      "path": "/data/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration/HEAD.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-entra-app-registration\nsummary: # Azure CLI Commands for App Registration This document provides a comprehensive reference for managing Microsoft Entra app registrations using Azure CLI. ## Prerequisites ```bash # Ensure Azure CLI is installed az version # Login to Azure az login # Set default subscription (optional) az account set --subscription \"Your Subscription Name\"\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/entra-app-registration/references/cli-commands.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration",
+        "topic": "skills-sh-microsoft-github-copilot-for-azure-entra-app-registration",
+        "type": "skills",
+        "title": "skills-sh-microsoft-github-copilot-for-azure-entra-app-registration",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/entra-app-registration/references/cli-commands.md",
+        "retrieved_at": "2026-02-28T14:45:38.467Z",
+        "content_sha256": "c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-yt",
+  "generated_at": "2026-02-28T14:46:58.819Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-yt#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-yt/HEAD.md",
+      "text": "title: yt\nsummary: Quick YouTube utility — fetch transcripts, search videos, get latest from channels.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/yt/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-yt",
+        "topic": "openclaw-openclaw-yt",
+        "type": "skills",
+        "title": "yt",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/yt/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.819Z",
+        "content_sha256": "a139de0f533bf58aa347076b13474c78871fc769ae7ffebb08885a08e8c1d4b1"
+      }
+    }
+  ]
+}

@@ -1,26 +1,32 @@
 ---
 name: pamela-call
-version: 1.1.4
-description: Make AI-powered phone calls instantly with Pamela. No lag, no phone setup, no big upfront costs—just automatic calling. Create outbound calls, register custom tools for mid-call actions, handle webhooks, and build React UIs. Use when the user wants to make phone calls, integrate voice AI, build IVR systems, navigate phone menus, or automate phone tasks.
+description: Make AI phone calls instantly. No lag, no setup, unlimited scale.
+homepage: https://docs.thisispamela.com
+metadata:
+  {"openclaw":{"requires":{"env":["PAMELA_API_KEY"]},"primaryEnv":"PAMELA_API_KEY","homepage":"https://docs.thisispamela.com"}}
 ---
 
-# Pamela Calls - make AI phone calls instantly.
+# Pamela Calls
 
-Make AI-powered phone calls with native phone tree navigation. **[ThisIsPamela](https://thisispamela.com)** is a voice AI platform that handles outbound calls, navigates phone trees, and integrates with your apps via SDKs, webhooks, and MCP.
+Make AI phone calls instantly. No lag, no setup, unlimited scale. **[ThisIsPamela](https://thisispamela.com)** is a voice AI platform for outbound calls, phone tree navigation, and integration via SDKs, webhooks, and MCP.
 
-**Jump to:** [Installation](#installation) · [Quick Start](#quick-start) · [Use Cases](#use-cases) · [SDK Reference](#sdk-reference)
+**Jump to:** [Installation](#installation) · [Quick Start](#quick-start) · [Examples](#examples) · [SDK Reference](#sdk-reference)
+
+**ClawHub skill release:** `v1.1.12`
 
 ## Prerequisites
 
 - API subscription (required for API access)
 - API key from your API account
-- Node.js 18+ (for JS/React) or Python 3.8+ (for Python)
+- Node.js 18+, Bun, or Python 3.8+ (for Python)
 
 ## Installation
 
-**JavaScript/TypeScript:**
+**JavaScript/TypeScript:** (npm, yarn, or bun)
 ```bash
 npm install @thisispamela/sdk
+# or: yarn add @thisispamela/sdk
+# or: bun add @thisispamela/sdk
 ```
 
 **Python:**
@@ -28,9 +34,10 @@ npm install @thisispamela/sdk
 pip install thisispamela
 ```
 
-**React:**
+**React:** (npm, yarn, or bun)
 ```bash
 npm install @thisispamela/react @thisispamela/sdk
+# or: bun add @thisispamela/react @thisispamela/sdk
 ```
 
 **CLI:**
@@ -48,7 +55,7 @@ npm install @thisispamela/mcp
 npm install @thisispamela/widget
 ```
 
-Latest versions: SDK / CLI / Widget / MCP / Python `1.1.3`, React `1.1.4`.
+Latest versions: SDK / CLI / Widget / MCP / Python / React `1.2.0`.
 
 ## Getting Your API Key
 
@@ -57,6 +64,14 @@ Latest versions: SDK / CLI / Widget / MCP / Python `1.1.3`, React `1.1.4`.
 3. Set up billing through Stripe
 4. Click "Create API Key"
 5. Save immediately - the full key (starts with `pk_live_`) is only shown once
+
+## Trust & security
+
+- **Official packages:** npm [@thisispamela](https://www.npmjs.com/org/thisispamela), PyPI [thisispamela](https://pypi.org/project/thisispamela/) — verify these exact names to avoid typosquatting.
+- **Before going live:** Use a restricted or test API key when trying the skill; enable billing alerts in your account; do not put production keys (`pk_live_...`) in public configs or logs.
+- **Webhooks:** Always validate the `X-Pamela-Signature` header and secure your endpoint; see [SDK docs](https://docs.thisispamela.com/sdk/javascript#verifywebhooksignature) for verification.
+- **Data:** Call audio and transcripts are sent to Pamela and may be stored or forwarded to your webhooks; review [privacy and data practices](https://thisispamela.com) (or contact support@thisispamela.com).
+- **Costs:** Monitor usage and billing after enabling; only connected minutes are charged at $0.10/min.
 
 ## Quick Start
 
@@ -108,9 +123,9 @@ thisispamela create-call \
   --task "Call the pharmacy and check if my prescription is ready"
 ```
 
-## Use Cases
+## Examples
 
-| Use Case | Example Task |
+| Scenario | Example Task |
 |----------|--------------|
 | Appointment Scheduling | "Call the dentist and schedule a cleaning for next week" |
 | Order Status | "Call the pharmacy and check if my prescription is ready" |
@@ -132,7 +147,7 @@ For detailed SDK documentation:
 
 - **[JavaScript SDK](https://docs.thisispamela.com/sdk/javascript)** - Full JS/TS reference
 - **[Python SDK](https://docs.thisispamela.com/sdk/python)** - Full Python reference
-- **[React Components](https://docs.thisispamela.com/sdk/react)** - Component library (v1.1.4)
+- **[React Components](https://docs.thisispamela.com/sdk/react)** - Component library (v1.1.5)
 - **[Widget](https://docs.thisispamela.com/sdk/widget)** - Embeddable widget for any website
 - **[MCP Server](https://docs.thisispamela.com/sdk/mcp)** - MCP tools for AI assistants
 - **[CLI](https://docs.thisispamela.com/sdk/cli)** - Command-line reference
@@ -147,7 +162,7 @@ Pamela sends webhooks for call lifecycle events:
 - `call.failed` - Call failed
 - `call.transcript_update` - New transcript entries
 
-Verify webhook signatures with the `X-Pamela-Signature` header.
+Only credential required is your API key. For webhooks, always verify the `X-Pamela-Signature` header; see SDK docs for verification.
 
 ## Billing
 

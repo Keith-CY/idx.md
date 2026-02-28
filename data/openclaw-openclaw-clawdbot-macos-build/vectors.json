@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdbot-macos-build",
+  "generated_at": "2026-02-28T14:45:56.571Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdbot-macos-build#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdbot-macos-build/HEAD.md",
+      "text": "title: clawdbot-macos-build\nsummary: Build the Clawdbot macOS menu bar app from source.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manish-basargekar/clawdbot-macos-build/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdbot-macos-build",
+        "topic": "openclaw-openclaw-clawdbot-macos-build",
+        "type": "skills",
+        "title": "clawdbot-macos-build",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manish-basargekar/clawdbot-macos-build/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.571Z",
+        "content_sha256": "b9aede843ecd362b127ee0bcf0995bd48564c8abdac85d5cc3cf42e7bd0a42aa"
+      }
+    }
+  ]
+}

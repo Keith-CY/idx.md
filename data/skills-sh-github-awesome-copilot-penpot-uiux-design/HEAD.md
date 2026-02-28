@@ -1,0 +1,36 @@
+---
+stable_id: skills/skills-sh-github-awesome-copilot-penpot-uiux-design
+type: skills
+title: skills-sh-github-awesome-copilot-penpot-uiux-design
+summary: >-
+  # Penpot MCP Server Setup & Troubleshooting
+
+  Complete guide for installing, configuring, and troubleshooting the Penpot MCP
+  Server.
+
+  ## Architecture Overview
+
+  The Penpot MCP integration requires **three components** working together:
+
+  ```
+
+  ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+
+  │   MCP Client    │────▶│   MCP Server    │◀───▶│  Penpot Plugin  │
+
+  │ (VS Code/Claude)│     │  (port 4401)    │     │ (in browser)    │
+
+  └─────────────────┘     └────────┬────────┘     └────────┬────────┘
+                                   │                       │
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/penpot-uiux-design/references/setup-troubleshooting.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-02-28T14:45:43.201Z
+content_sha256: 5eceba271320c73a4ed22db14b4c02331b5768f98121eab74cd3e6440bb4f521
+---

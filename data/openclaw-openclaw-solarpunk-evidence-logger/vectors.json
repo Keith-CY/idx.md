@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-solarpunk-evidence-logger",
+  "generated_at": "2026-02-28T14:46:44.304Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-solarpunk-evidence-logger#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-solarpunk-evidence-logger/HEAD.md",
+      "text": "title: solarpunk-evidence-logger\nsummary: Create or update AgentSkills.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/meekotharaccoon/solarpunk-evidence-logger/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-solarpunk-evidence-logger",
+        "topic": "openclaw-openclaw-solarpunk-evidence-logger",
+        "type": "skills",
+        "title": "solarpunk-evidence-logger",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/meekotharaccoon/solarpunk-evidence-logger/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:44.304Z",
+        "content_sha256": "4afbad1d930d98a0610f09bbf810f8a49de7b3187a7050d7974c3b600ae83c90"
+      }
+    }
+  ]
+}

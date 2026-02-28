@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-hairyf-skills-unjs",
+  "generated_at": "2026-02-28T14:45:33.985Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-hairyf-skills-unjs#head",
+      "kind": "head",
+      "path": "/data/skills-sh-hairyf-skills-unjs/HEAD.md",
+      "text": "title: skills-sh-hairyf-skills-unjs\nsummary: --- name: h3 description: Minimal HTTP framework for high performance and portability --- # H3 Framework H3 is a minimal HTTP framework built for high performance and portability. It provides a lightweight, framework-agnostic API for handling HTTP requests and responses. ## Usage ### Basic Server Setup ```typescript import { createServer } from 'h3'\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/unjs/references/core-h3.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-hairyf-skills-unjs",
+        "topic": "skills-sh-hairyf-skills-unjs",
+        "type": "skills",
+        "title": "skills-sh-hairyf-skills-unjs",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/unjs/references/core-h3.md",
+        "retrieved_at": "2026-02-28T14:45:33.985Z",
+        "content_sha256": "7768ed479085ade59cd6cda262376409822a83228748d36c03753bc90e5f2a34"
+      }
+    }
+  ]
+}

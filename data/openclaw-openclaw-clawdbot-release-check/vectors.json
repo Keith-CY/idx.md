@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdbot-release-check",
+  "generated_at": "2026-02-28T14:45:56.673Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdbot-release-check#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdbot-release-check/HEAD.md",
+      "text": "title: clawdbot-release-check\nsummary: Check for new clawdbot releases and notify once per new version.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-finance\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/clawdbot-release-check/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdbot-release-check",
+        "topic": "openclaw-openclaw-clawdbot-release-check",
+        "type": "skills",
+        "title": "clawdbot-release-check",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-finance"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/clawdbot-release-check/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.673Z",
+        "content_sha256": "b51a34c3b6e93b10033659e7b8b8de279a16286994be6abfaccdef1d11216afe"
+      }
+    }
+  ]
+}

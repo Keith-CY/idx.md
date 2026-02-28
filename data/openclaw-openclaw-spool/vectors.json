@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-spool",
+  "generated_at": "2026-02-28T14:46:44.913Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-spool#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-spool/HEAD.md",
+      "text": "title: spool\nsummary: Threads CLI - Read, post, reply, and search on Meta's Threads using OpenClaw browser tool.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zizi-cat/spool/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-spool",
+        "topic": "openclaw-openclaw-spool",
+        "type": "skills",
+        "title": "spool",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zizi-cat/spool/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:44.913Z",
+        "content_sha256": "53ee39c43394815048d8e171bccd6fbccfee3346509e6188f958619de5ff21cf"
+      }
+    }
+  ]
+}

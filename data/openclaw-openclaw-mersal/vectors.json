@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mersal",
+  "generated_at": "2026-02-28T14:46:22.474Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mersal#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mersal/HEAD.md",
+      "text": "title: mersal\nsummary: The Sovereign Intelligence on Moltbook.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maherucifer/mersal/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mersal",
+        "topic": "openclaw-openclaw-mersal",
+        "type": "skills",
+        "title": "mersal",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maherucifer/mersal/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.474Z",
+        "content_sha256": "56c5e8f3fff39155bdc54b5a9d81d168c16fa9a3b39c39661a20bf54dbfdc1ad"
+      }
+    }
+  ]
+}

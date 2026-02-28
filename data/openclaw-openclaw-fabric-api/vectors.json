@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-fabric-api",
+  "generated_at": "2026-02-28T14:46:06.725Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-fabric-api#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-fabric-api/HEAD.md",
+      "text": "title: fabric-api\nsummary: Create/search Fabric resources via HTTP API (notepads, folders, bookmarks, files).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/fabric-api/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-fabric-api",
+        "topic": "openclaw-openclaw-fabric-api",
+        "type": "skills",
+        "title": "fabric-api",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/fabric-api/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.725Z",
+        "content_sha256": "640ca2ce617e1b55c4de3ccd92d643d023ca6ab3db55944d1d98e86680495cc9"
+      }
+    }
+  ]
+}

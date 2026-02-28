@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agenticflow-skill",
+  "generated_at": "2026-02-28T14:45:46.438Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agenticflow-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agenticflow-skill/HEAD.md",
+      "text": "title: agenticflow-skill\nsummary: Comprehensive guide for building AI workflows, agents, and workforce systems with AgenticFlow.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/agenticflow-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agenticflow-skill",
+        "topic": "openclaw-openclaw-agenticflow-skill",
+        "type": "skills",
+        "title": "agenticflow-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/agenticflow-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.438Z",
+        "content_sha256": "b75b7561629885d3ea047a87169a5f048c6d2fdce94a18335b59b649a47025ec"
+      }
+    }
+  ]
+}

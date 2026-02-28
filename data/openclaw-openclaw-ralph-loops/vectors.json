@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ralph-loops",
+  "generated_at": "2026-02-28T14:46:37.415Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ralph-loops#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ralph-loops/HEAD.md",
+      "text": "title: ralph-loops\nsummary: > **First time?** Read [SETUP.md](./SETUP.md) first to install dependencies and verify your setup.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/qlifebot-coder/ralph-loops/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ralph-loops",
+        "topic": "openclaw-openclaw-ralph-loops",
+        "type": "skills",
+        "title": "ralph-loops",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/qlifebot-coder/ralph-loops/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.415Z",
+        "content_sha256": "c3124afa41813ae2b9462c5812349a52d513be1bdb39d7bb0eec36070a70f59f"
+      }
+    }
+  ]
+}

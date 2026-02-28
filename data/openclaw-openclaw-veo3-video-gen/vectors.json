@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-veo3-video-gen",
+  "generated_at": "2026-02-28T14:46:52.622Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-veo3-video-gen#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-veo3-video-gen/HEAD.md",
+      "text": "title: veo3-video-gen\nsummary: Generate and stitch short videos via Google Veo 3.x using the Gemini API (google-genai).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bluelyw/veo3-video-gen/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-veo3-video-gen",
+        "topic": "openclaw-openclaw-veo3-video-gen",
+        "type": "skills",
+        "title": "veo3-video-gen",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bluelyw/veo3-video-gen/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:52.622Z",
+        "content_sha256": "8d1c181126c8a98c691d7eac2488ec6d1ff657a32f42e3e9f6770d64e188dc44"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youtube-api",
+  "generated_at": "2026-02-28T14:46:58.249Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youtube-api#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youtube-api/HEAD.md",
+      "text": "title: youtube-api\nsummary: YouTube API access without the official API quota hassle — transcripts, search, channels, playlists.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-api/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youtube-api",
+        "topic": "openclaw-openclaw-youtube-api",
+        "type": "skills",
+        "title": "youtube-api",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-api/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.249Z",
+        "content_sha256": "7c3cc24078999a779e5002955f15bbfc6046b4d4bfe8128f14a2ea6861c98981"
+      }
+    }
+  ]
+}

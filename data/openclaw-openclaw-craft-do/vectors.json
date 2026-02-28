@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-craft-do",
+  "generated_at": "2026-02-28T14:46:01.105Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-craft-do#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-craft-do/HEAD.md",
+      "text": "title: craft-do\nsummary: Complete REST API integration for Craft.do - the beautiful note-taking and document.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atomtanstudio/craft-do/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-craft-do",
+        "topic": "openclaw-openclaw-craft-do",
+        "type": "skills",
+        "title": "craft-do",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/atomtanstudio/craft-do/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:01.105Z",
+        "content_sha256": "42345febf7a06f141ec9d90bf3d12e874c99ec8cdf5d80fb8ab4db7ad4aaf6ab"
+      }
+    }
+  ]
+}

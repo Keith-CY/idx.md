@@ -22,9 +22,9 @@ tags:
 source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/skills/planning-with-files/templates/task_plan.md
 license: ""
 upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-files
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.045Z
+github_stars: 14753
+github_forks: 1363
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.973Z
 content_sha256: 03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa
 ---

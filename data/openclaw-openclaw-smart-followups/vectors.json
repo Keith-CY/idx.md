@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-smart-followups",
+  "generated_at": "2026-02-28T14:46:43.780Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-smart-followups#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-smart-followups/HEAD.md",
+      "text": "title: smart-followups\nsummary: Generate contextual follow-up suggestions after AI responses.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/smart-followups/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-smart-followups",
+        "topic": "openclaw-openclaw-smart-followups",
+        "type": "skills",
+        "title": "smart-followups",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/smart-followups/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.780Z",
+        "content_sha256": "3dab2bd313b898c1fc382004e98a0b0017b219211d5e5f9ed53bd860daed4135"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-npm-proxy",
+  "generated_at": "2026-02-28T14:46:27.960Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-npm-proxy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-npm-proxy/HEAD.md",
+      "text": "title: npm-proxy\nsummary: Manage Nginx Proxy Manager (NPM) hosts, certificates.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/weird-aftertaste/npm-proxy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-npm-proxy",
+        "topic": "openclaw-openclaw-npm-proxy",
+        "type": "skills",
+        "title": "npm-proxy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/weird-aftertaste/npm-proxy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:27.960Z",
+        "content_sha256": "bdf18e3d67de154c455d953d2d2e08990c015703d9c49d38f3ce07fd3a8d149f"
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 ---
 name: apple-mail-search
-description: Fast & safe Apple Mail search with body content support.
+description: "Apple Mail search on macOS with fast metadata and full body lookup. Use for finding messages in Mail.app by subject/sender/recipient/date, opening messages, and reading full body text. "
 homepage: https://clawdhub.com/gumadeiras/apple-mail-search-safe
-repository: https://github.com/gumadeiras/apple-mail-search-cli
+repository: https://github.com/gumadeiras/fruitmail-cli
 metadata: {"clawdbot":{"emoji":"📧","requires":{"bins":["fruitmail"]},"install":[{"id":"node","kind":"node","package":"apple-mail-search-cli","bins":["fruitmail"],"label":"Install fruitmail CLI (npm)"}]}}
 ---
 
@@ -94,4 +94,4 @@ fruitmail sender "@amazon.com" --limit 50
 
 ## Source
 
-https://github.com/gumadeiras/apple-mail-search-cli
+https://github.com/gumadeiras/fruitmail-cli

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-xcodebuildmcp",
+  "generated_at": "2026-02-28T14:46:57.423Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-xcodebuildmcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-xcodebuildmcp/HEAD.md",
+      "text": "title: xcodebuildmcp\nsummary: Use when the user needs Xcode build/test/run workflows, simulator or device control, UI automation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ipavlidakis/xcodebuildmcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-xcodebuildmcp",
+        "topic": "openclaw-openclaw-xcodebuildmcp",
+        "type": "skills",
+        "title": "xcodebuildmcp",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ipavlidakis/xcodebuildmcp/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:57.423Z",
+        "content_sha256": "9c32abd1b29eb8752c285ff933340076af1bd87aa693eb7eb7feb93b02ce6642"
+      }
+    }
+  ]
+}

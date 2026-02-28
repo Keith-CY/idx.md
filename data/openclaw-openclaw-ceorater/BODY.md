@@ -1,6 +1,6 @@
 ---
 name: ceorater
-description: "Get institutional-grade CEO performance analytics for S&P 500 companies. Proprietary scores: CEORaterScore (composite), AlphaScore (market outperformance), RevenueCAGRScore (revenue growth), CompScore (compensation efficiency). Underlying data includes Total Stock Return (TSR) vs. S&P 500 (SPY), average annual returns, CEO total compensation (most recent fiscal year from proxy filings), and tenure-adjusted Revenue CAGR. Each record includes CEO name, company name, ticker, sector, industry, and tenure dates. Coverage: 517 CEOs as of February 2026, updated daily. Useful for investment research, due diligence, and executive compensation analysis."
+description: "Get institutional-grade CEO performance analytics for S&P 500 companies. Proprietary scores: CEORaterScore (composite), AlphaScore (market outperformance), RevenueCAGRScore (revenue growth), CompScore (compensation efficiency). Underlying data includes Total Stock Return (TSR) vs. S&P 500 (SPY), average annual returns, CEO total compensation (most recent fiscal year from proxy filings), and tenure-adjusted Revenue CAGR. Each record includes CEO name, company name, ticker, sector, industry, and tenure dates. Coverage: 500+ CEOs, updated daily. For live record count and last refresh timestamp, call GET /v1/meta. Useful for investment research, due diligence, and executive compensation analysis."
 homepage: https://www.ceorater.com
 disable-model-invocation: true
 requires:
@@ -36,40 +36,46 @@ Query CEO performance data for S&P 500 and major U.S. public companies via the C
 
 ## API Endpoints
 
-### Get Company by Ticker
+### Get CEO by Ticker
 ```bash
 curl -H "Authorization: Bearer $CEORATER_API_KEY" \
-  "https://api.ceorater.com/v1/company/AAPL?format=raw"
+  "https://api.ceorater.com/v1/ceo/AAPL?format=raw"
 ```
 
-### Search Companies
+### Search CEOs
 ```bash
 curl -H "Authorization: Bearer $CEORATER_API_KEY" \
   "https://api.ceorater.com/v1/search?q=technology&format=raw"
 ```
 
-### List All Companies
+### List All CEOs
 ```bash
 curl -H "Authorization: Bearer $CEORATER_API_KEY" \
-  "https://api.ceorater.com/v1/companies?limit=100&format=raw"
+  "https://api.ceorater.com/v1/ceos?limit=100&format=raw"
+```
+
+### Get Metadata (live record count + last refresh timestamp)
+```bash
+curl -H "Authorization: Bearer $CEORATER_API_KEY" \
+  "https://api.ceorater.com/v1/meta"
 ```
 
 ## Usage Instructions
 
 When the user asks about CEO performance, ratings, or executive compensation:
 
-1. **Single company lookup:** Use the `/v1/company/{ticker}` endpoint
+1. **Single CEO lookup:** Use the `/v1/ceo/{ticker}` endpoint
 2. **Sector/industry analysis:** Use `/v1/search?q={query}` 
-3. **Bulk data:** Use `/v1/companies?limit=N`
+3. **Bulk data:** Use `/v1/ceos?limit=N`
 
 Always use `format=raw` for numeric values suitable for calculations.
 
 ### Example Queries
 
-- "What's the CEORaterScore for Apple?" → GET /v1/company/AAPL
+- "What's the CEORaterScore for Tim Cook?" → GET /v1/ceo/AAPL
 - "Show me technology sector CEOs" → GET /v1/search?q=technology
-- "Who are the top-rated CEOs?" → GET /v1/companies, sort by ceoraterScore
-- "Compare Tim Cook vs Satya Nadella" → GET /v1/company/AAPL and /v1/company/MSFT
+- "Who are the top-rated CEOs?" → GET /v1/ceos, sort by ceoraterScore
+- "Compare Tim Cook vs Satya Nadella" → GET /v1/ceo/AAPL and /v1/ceo/MSFT
 
 ## Response Format (raw)
 
@@ -102,14 +108,15 @@ Always use `format=raw` for numeric values suitable for calculations.
 |------|---------|
 | 401 | Missing or invalid API key |
 | 404 | Ticker not found |
-| 400 | Bad request parameters |
+| 400 | Bad request parameters (for example, missing `q` on search) |
+| 429 | Rate limited, retry with backoff |
 
 ## Helper Script
 
 For convenience, use `{baseDir}/scripts/ceorater.sh`:
 
 ```bash
-# Get single company
+# Get single CEO
 {baseDir}/scripts/ceorater.sh get AAPL
 
 # Search
@@ -121,8 +128,9 @@ For convenience, use `{baseDir}/scripts/ceorater.sh`:
 
 ## Data Coverage
 
-- 517 CEOs as of February 2026, including all S&P 500 constituents
-- Updated daily after U.S. market close (typically by 6:30 PM EST)
+- 500+ CEOs, including S&P 500 constituents
+- Live record count and refresh timestamp are available via `GET /v1/meta`
+- Updated daily on weekdays after U.S. market close
 - Safe to cache responses for up to 24 hours
 
 ## More Information

@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-operations-commands-change-request",
+  "generated_at": "2026-02-28T14:45:35.563Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-operations-commands-change-request#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-operations-commands-change-request/HEAD.md",
+      "text": "title: change-request\nsummary: Create a change management request with impact analysis and rollback plan\ntype: skills\ntags: source-knowledge-work-plugins, plugin-operations, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/change-request.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-operations-commands-change-request",
+        "topic": "knowledge-work-plugins-operations-commands-change-request",
+        "type": "skills",
+        "title": "change-request",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-operations",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/change-request.md",
+        "retrieved_at": "2026-02-28T14:45:35.563Z",
+        "content_sha256": "b5a81fa004c552b2f636e93e85ceb383e23fbb8c82217f8f67c4ea9a343c7f0c"
+      }
+    }
+  ]
+}

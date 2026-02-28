@@ -10,6 +10,8 @@ summary: >-
   Refs are useful for discovery/debugging. For deterministic scripts, use
   selectors.
 
+  For tap interactions, `press` is canonical; `click` is an equivalent alias.
+
   ## Snapshot
 
   ```bash
@@ -21,8 +23,6 @@ summary: >-
   Output:
 
   ```
-
-  Page: com.apple.Preferences
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:55.366Z
-content_sha256: e021e46d956ae498c29030779c12c27c00ddacebdc33433a1ecba02c411485c5
+retrieved_at: 2026-02-28T14:45:34.031Z
+content_sha256: 602fed52c8802cdc36175666bd8ecbc2b8ee283b6ea0bda24a615167caec5290
 ---

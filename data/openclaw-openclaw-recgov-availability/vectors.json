@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-recgov-availability",
+  "generated_at": "2026-02-28T14:46:37.903Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-recgov-availability#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-recgov-availability/HEAD.md",
+      "text": "title: recgov-availability\nsummary: Check campsite availability on recreation.gov for federal campgrounds (National Parks, USFS, BLM).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanrea/recgov-availability/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-recgov-availability",
+        "topic": "openclaw-openclaw-recgov-availability",
+        "type": "skills",
+        "title": "recgov-availability",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanrea/recgov-availability/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.903Z",
+        "content_sha256": "7a1eabd1727de725ca988a3cd61419241e7375869912cd49ce333008ddb468cf"
+      }
+    }
+  ]
+}

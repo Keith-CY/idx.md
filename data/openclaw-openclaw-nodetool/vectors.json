@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-nodetool",
+  "generated_at": "2026-02-28T14:46:27.237Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-nodetool#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-nodetool/HEAD.md",
+      "text": "title: nodetool\nsummary: Visual AI workflow builder - ComfyUI meets n8n for LLM agents, RAG pipelines, and multimodal data flows.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/georgi/nodetool/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-nodetool",
+        "topic": "openclaw-openclaw-nodetool",
+        "type": "skills",
+        "title": "nodetool",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/georgi/nodetool/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:27.237Z",
+        "content_sha256": "a1cd3732610d9a1942846ceffe3389e5203a204ba1395c5185b7a4a3d967291e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-topic-monitor",
+  "generated_at": "2026-02-28T14:46:49.871Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-topic-monitor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-topic-monitor/HEAD.md",
+      "text": "title: topic-monitor\nsummary: Monitor topics of interest and proactively alert when important developments occur.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/topic-monitor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-topic-monitor",
+        "topic": "openclaw-openclaw-topic-monitor",
+        "type": "skills",
+        "title": "topic-monitor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/topic-monitor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:49.871Z",
+        "content_sha256": "453aea7deb16157ea6dee992012c6b28e75bd387fbefdb7e7b824a7fbc1579b9"
+      }
+    }
+  ]
+}

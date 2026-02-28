@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-adithya-s-k-manim-skill-manimce-best-practices",
+  "generated_at": "2026-02-28T14:45:41.909Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-adithya-s-k-manim-skill-manimce-best-practices#head",
+      "kind": "head",
+      "path": "/data/skills-sh-adithya-s-k-manim-skill-manimce-best-practices/HEAD.md",
+      "text": "title: skills-sh-adithya-s-k-manim-skill-manimce-best-practices\nsummary: --- name: scenes description: Scene structure, construct method, and scene types in Manim metadata: tags: scene, construct, setup, render, ThreeDScene, MovingCameraScene --- # Scenes in Manim A Scene is the canvas where all animations take place. Every Manim animation is defined within a Scene class. ## Basic Scene Structure All animation code resides within the `construct()` method of a Scene subclass.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manimce-best-practices/rules/scenes.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-adithya-s-k-manim-skill-manimce-best-practices",
+        "topic": "skills-sh-adithya-s-k-manim-skill-manimce-best-practices",
+        "type": "skills",
+        "title": "skills-sh-adithya-s-k-manim-skill-manimce-best-practices",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manimce-best-practices/rules/scenes.md",
+        "retrieved_at": "2026-02-28T14:45:41.909Z",
+        "content_sha256": "7dc32c7c8bfd50d9266351f90cbfc59b2b71f610a37ea6a836af9946dc64b3ba"
+      }
+    }
+  ]
+}

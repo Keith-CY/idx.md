@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-memory-manager",
+  "generated_at": "2026-02-28T14:46:22.268Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-memory-manager#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-memory-manager/HEAD.md",
+      "text": "title: memory-manager\nsummary: Local memory management for agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marmikcfc/memory-manager/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-memory-manager",
+        "topic": "openclaw-openclaw-memory-manager",
+        "type": "skills",
+        "title": "memory-manager",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/marmikcfc/memory-manager/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.268Z",
+        "content_sha256": "0d9c21898ec63b4738b66a55ee41d2e7ac2ce752d5593d4462dab158207c6cb1"
+      }
+    }
+  ]
+}

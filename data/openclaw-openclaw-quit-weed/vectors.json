@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-quit-weed",
+  "generated_at": "2026-02-28T14:46:37.062Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-quit-weed#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-quit-weed/HEAD.md",
+      "text": "title: quit-weed\nsummary: Take a tolerance break or quit cannabis with streak tracking and craving support.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-weed/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-quit-weed",
+        "topic": "openclaw-openclaw-quit-weed",
+        "type": "skills",
+        "title": "quit-weed",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-weed/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.062Z",
+        "content_sha256": "144911797e32c580e865f79f8ba64eae2e769d03a38f46e76b880ec3e609d789"
+      }
+    }
+  ]
+}

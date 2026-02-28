@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-resend",
+  "generated_at": "2026-02-28T14:46:39.209Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-resend#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-resend/HEAD.md",
+      "text": "title: resend\nsummary: Manage received (inbound) emails and attachments via Resend API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/resend/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-resend",
+        "topic": "openclaw-openclaw-resend",
+        "type": "skills",
+        "title": "resend",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/resend/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:39.209Z",
+        "content_sha256": "4da9e1e45cd1c32afa5743e80a5070688593c0e6ace35292118d86798b07887b"
+      }
+    }
+  ]
+}

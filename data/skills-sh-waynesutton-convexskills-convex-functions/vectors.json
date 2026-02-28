@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-waynesutton-convexskills-convex-functions",
+  "generated_at": "2026-02-28T14:45:41.491Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-waynesutton-convexskills-convex-functions#head",
+      "kind": "head",
+      "path": "/data/skills-sh-waynesutton-convexskills-convex-functions/HEAD.md",
+      "text": "title: skills-sh-waynesutton-convexskills-convex-functions\nsummary: --- name: convex-best-practices description: Guidelines for building production-ready Convex apps covering function organization, query patterns, validation, TypeScript usage, error handling, and the Zen of Convex design philosophy --- # Convex Best Practices Build production-ready Convex applications by following established patterns for function organization, query optimization, validation, TypeScript usage, and error handling. ## Code Quality All patterns in this skill comply with `@convex-dev/eslint-plugin`. Install it for build-time validation: ```bash npm i @convex-dev/eslint-plugin --save-dev\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-waynesutton-convexskills-convex-functions",
+        "topic": "skills-sh-waynesutton-convexskills-convex-functions",
+        "type": "skills",
+        "title": "skills-sh-waynesutton-convexskills-convex-functions",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:41.491Z",
+        "content_sha256": "20e2298b8ebeca51e189394ec924756dfaef5fa70170ff7fd2fbdb5177718fcd"
+      }
+    }
+  ]
+}

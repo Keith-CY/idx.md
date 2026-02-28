@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-depression-support",
+  "generated_at": "2026-02-28T14:46:02.853Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-depression-support#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-depression-support/HEAD.md",
+      "text": "title: depression-support\nsummary: Daily support for depression with mood tracking, behavioral activation, and self-care\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/depression-support/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-depression-support",
+        "topic": "openclaw-openclaw-depression-support",
+        "type": "skills",
+        "title": "depression-support",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/depression-support/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:02.853Z",
+        "content_sha256": "773918919f7dc561ae0eeeff45ed5a58a272d5aff6df7c09c36a884763698528"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 ---
 name: tinman
-version: 0.6.2
-description: AI security scanner with active prevention - 168 detection patterns, 288 attack probes, safer/risky/yolo modes, agent self-protection via /tinman check
+version: 0.6.3
+description: AI security scanner with active prevention - 168 detection patterns, 288 attack probes, safer/risky/yolo modes, agent self-protection via /tinman check, local Oilcan event streaming, and plain-language dashboard setup via /tinman oilcan
 author: oliveskin
 repository: https://github.com/oliveskin/openclaw-skill-tinman
 license: Apache-2.0
@@ -33,12 +33,14 @@ permissions:
 
 Tinman is a forward-deployed research agent that discovers unknown failure modes in AI systems through systematic experimentation.
 
+
 ## Security and Trust Notes
 
 - This skill intentionally declares `install.pip` and session/file permissions because scanning requires local analysis of session traces and report output.
 - The default watch gateway is loopback-only (`ws://127.0.0.1:18789`) to reduce accidental data exposure.
 - Remote gateways require explicit opt-in with `--allow-remote-gateway` and should only be used for trusted internal endpoints.
 - Event streaming is local (`~/.openclaw/workspace/tinman-events.jsonl`) and best-effort; values are truncated and obvious secret patterns are redacted.
+- Oilcan bridge should stay loopback by default; only allow LAN access when explicitly needed.
 
 ## What It Does
 
@@ -48,6 +50,7 @@ Tinman is a forward-deployed research agent that discovers unknown failure modes
 - **Proposes** mitigations mapped to OpenClaw controls (SOUL.md, sandbox policy, tool allow/deny)
 - **Reports** findings in actionable format
 - **Streams** structured local events to `~/.openclaw/workspace/tinman-events.jsonl` (for local dashboards like Oilcan)
+- **Guides** local Oilcan setup with plain-language status via `/tinman oilcan`
 
 ## Commands
 
@@ -178,6 +181,19 @@ heartbeat:
       command: /tinman scan --hours 1
 ```
 
+### `/tinman oilcan`
+
+Show local Oilcan setup/status in plain language.
+
+```
+/tinman oilcan                    # Human-readable status + setup steps
+/tinman oilcan --json             # Machine-readable status payload
+/tinman oilcan --bridge-port 18128
+```
+
+This command helps users connect Tinman event output to Oilcan and reminds them that
+the bridge may auto-select a different port if the preferred one is already in use.
+
 ### `/tinman sweep`
 
 Run proactive security sweep with 288 synthetic attack probes.
@@ -276,3 +292,7 @@ report_channel: null    # Optional: send alerts to channel
 - No session data sent externally
 - Findings stored in your workspace only
 - Respects OpenClaw's session isolation
+
+## Feedback / Contact
+[twitter](https://x.com/cantshutup_)
+[Github](https://github.com/oliveskin/)

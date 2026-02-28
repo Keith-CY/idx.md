@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-notebook",
+  "generated_at": "2026-02-28T14:46:27.495Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-notebook#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-notebook/HEAD.md",
+      "text": "title: Notebook\nsummary: Local-first personal knowledge base for tracking ideas, projects, tasks, habits.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/notebook/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-notebook",
+        "topic": "openclaw-openclaw-notebook",
+        "type": "skills",
+        "title": "Notebook",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/notebook/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:27.495Z",
+        "content_sha256": "f0a8b1f476252fc285a77212a94b23b6b707f1c62a63ef932af6f2635013b410"
+      }
+    }
+  ]
+}

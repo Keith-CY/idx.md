@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-trailofbits-skills-spec-to-code-compliance",
+  "generated_at": "2026-02-28T14:45:34.633Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-trailofbits-skills-spec-to-code-compliance#head",
+      "kind": "head",
+      "path": "/data/skills-sh-trailofbits-skills-spec-to-code-compliance/HEAD.md",
+      "text": "title: skills-sh-trailofbits-skills-spec-to-code-compliance\nsummary: # Intermediate Representation Examples The following examples demonstrate the complete IR workflow using realistic DEX swap patterns. --- ## Example 1: Spec-IR Record **Scenario:** Extracting a security requirement from a DEX protocol whitepaper. ```yaml id: SPEC-001 spec_excerpt: \"All swaps MUST enforce maximum slippage of 1% to protect users from sandwich attacks\" source_section: \"Whitepaper §4.1 - Trading Mechanism & User Protection\" source_document: \"dex-protocol-whitepaper-v3.pdf\"\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/resources/IR_EXAMPLES.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-trailofbits-skills-spec-to-code-compliance",
+        "topic": "skills-sh-trailofbits-skills-spec-to-code-compliance",
+        "type": "skills",
+        "title": "skills-sh-trailofbits-skills-spec-to-code-compliance",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/resources/IR_EXAMPLES.md",
+        "retrieved_at": "2026-02-28T14:45:34.633Z",
+        "content_sha256": "053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec"
+      }
+    }
+  ]
+}

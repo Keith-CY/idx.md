@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/1nf-sh/skills/agent-tools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:43.187Z
+retrieved_at: 2026-02-28T14:45:32.282Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---

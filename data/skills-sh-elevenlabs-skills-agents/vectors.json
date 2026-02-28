@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-elevenlabs-skills-agents",
+  "generated_at": "2026-02-28T14:45:41.827Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-elevenlabs-skills-agents#head",
+      "kind": "head",
+      "path": "/data/skills-sh-elevenlabs-skills-agents/HEAD.md",
+      "text": "title: skills-sh-elevenlabs-skills-agents\nsummary: # Installation ## CLI (Recommended) The ElevenLabs CLI is the recommended way to create and manage agents: ```bash npm install -g @elevenlabs/cli # or pnpm add -g @elevenlabs/cli # or yarn global add @elevenlabs/cli ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/agents/references/installation.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-elevenlabs-skills-agents",
+        "topic": "skills-sh-elevenlabs-skills-agents",
+        "type": "skills",
+        "title": "skills-sh-elevenlabs-skills-agents",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/agents/references/installation.md",
+        "retrieved_at": "2026-02-28T14:45:41.827Z",
+        "content_sha256": "a2f825e2de7eafd9b096d464a785c813f6e83354c5cb4f5fae6c69c26b73a61c"
+      }
+    }
+  ]
+}

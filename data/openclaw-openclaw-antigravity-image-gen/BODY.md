@@ -4,7 +4,7 @@ description: Generate images using the internal Google Antigravity API (Gemini 3
 read_when:
   - User asks to generate an image
   - User wants to create visual content
-metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":["node"]}}}
+metadata: {"clawdbot":{"emoji":"🎨","requires":{"bins":["node"],"config":["auth.profiles"]},"description":"Generates images via internal Google API using local OAuth credentials."}}
 ---
 
 # Antigravity Image Generation
@@ -13,8 +13,9 @@ Generate high-quality images using the internal Google Antigravity API (Gemini 3
 
 ## Prerequisites
 
-- **Google Antigravity OAuth Profile**: Must be present in `~/.clawdbot/agents/main/agent/auth-profiles.json`.
+- **Google Antigravity OAuth Profile**: Must be present in your OpenClaw auth-profiles.json.
 - **Node.js**: Available in the environment.
+- **Security Note**: This skill reads local OAuth tokens from your profile to authenticate with Google's API. This is expected behavior for internal tool use.
 
 ## Usage
 

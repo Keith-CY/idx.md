@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentmail-integration",
+  "generated_at": "2026-02-28T14:45:46.598Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentmail-integration#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentmail-integration/HEAD.md",
+      "text": "title: agentmail-integration\nsummary: Integrate AgentMail API for AI agent email automation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/synesthesia-wav/agentmail-integration/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentmail-integration",
+        "topic": "openclaw-openclaw-agentmail-integration",
+        "type": "skills",
+        "title": "agentmail-integration",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/synesthesia-wav/agentmail-integration/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.598Z",
+        "content_sha256": "1035420efdbab81fd00695bd071a4d313f4e5c3a0f6913ef6f42ddb15cc8a9b0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ggshield-scanner",
+  "generated_at": "2026-02-28T14:46:10.593Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ggshield-scanner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ggshield-scanner/HEAD.md",
+      "text": "title: ggshield-scanner\nsummary: Detect 500+ types of hardcoded secrets (API keys, credentials, tokens) before they leak into git.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/amascia-gg/ggshield-scanner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ggshield-scanner",
+        "topic": "openclaw-openclaw-ggshield-scanner",
+        "type": "skills",
+        "title": "ggshield-scanner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amascia-gg/ggshield-scanner/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.593Z",
+        "content_sha256": "0a45cc9eda447baf8cbe523201168bcf9dab70eba2cd121999283dab160bd828"
+      }
+    }
+  ]
+}

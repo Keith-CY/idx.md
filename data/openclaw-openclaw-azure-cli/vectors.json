@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-azure-cli",
+  "generated_at": "2026-02-28T14:45:50.742Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-azure-cli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-azure-cli/HEAD.md",
+      "text": "title: Azure CLI\nsummary: Comprehensive Azure Cloud Platform management via command-line interface.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/azure-cli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-azure-cli",
+        "topic": "openclaw-openclaw-azure-cli",
+        "type": "skills",
+        "title": "Azure CLI",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/azure-cli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:50.742Z",
+        "content_sha256": "ee338e1a26663172537c83367fa0e8e39fc5f428a49eb2208d4957400c714199"
+      }
+    }
+  ]
+}

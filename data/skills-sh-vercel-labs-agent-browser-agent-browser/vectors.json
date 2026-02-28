@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-vercel-labs-agent-browser-agent-browser",
+  "generated_at": "2026-02-28T14:45:38.699Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-vercel-labs-agent-browser-agent-browser#head",
+      "kind": "head",
+      "path": "/data/skills-sh-vercel-labs-agent-browser-agent-browser/HEAD.md",
+      "text": "title: skills-sh-vercel-labs-agent-browser-agent-browser\nsummary: # Command Reference Complete reference for all agent-browser commands. For quick start and common patterns, see SKILL.md. ## Navigation ```bash agent-browser open <url> # Navigate to URL (aliases: goto, navigate) # Supports: https://, http://, file://, about:, data:// # Auto-prepends https:// if no protocol given agent-browser back # Go back agent-browser forward # Go forward agent-browser reload # Reload page\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/agent-browser/references/commands.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-vercel-labs-agent-browser-agent-browser",
+        "topic": "skills-sh-vercel-labs-agent-browser-agent-browser",
+        "type": "skills",
+        "title": "skills-sh-vercel-labs-agent-browser-agent-browser",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/agent-browser/references/commands.md",
+        "retrieved_at": "2026-02-28T14:45:38.699Z",
+        "content_sha256": "cc6cc1780bb8632b3f7694ba454d895059235459469f0401fa251c20d4bbfd87"
+      }
+    }
+  ]
+}

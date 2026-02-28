@@ -1,6 +1,6 @@
 ---
 name: keep
-version: 0.31.0
+version: 0.43.5
 description: Reflective Memory
 homepage: https://github.com/hughpyle/keep
 runtime: python:3.12-slim
@@ -114,6 +114,13 @@ keep put "file:///path/to/important.pdf" -t type=reference -t topic=security
 ```
 Ask: What is this document? Why is it important? Tag appropriately. Documents indexed during work become navigable knowledge.
 
+**Move when pivoting.** When a string of work is complete, or the conversation shifts topic, move the now history before moving on:
+```bash
+keep move "auth-string" -t project=myapp     # Archive matching versions
+keep move "design-log" --only                # Move just the tip version
+```
+Moving clears matched versions from now, making room for what's next. Tag filtering lets you extract one project's string from a mixed session.
+
 **Breakdowns are valuable.** When the normal flow is interrupted — an assumption has been revealed. The breakdown is where learning happens.
 
 * When in conversation, use this practice. Reflect before, during and after action.
@@ -121,7 +128,7 @@ Ask: What is this document? Why is it important? Tag appropriately. Documents in
 
 ## Layer 2: First Time Setup
 
-The store auto-initializes on first use. For provider configuration, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
+The store auto-initializes on first use. For provider configuration, see [docs/QUICKSTART.md](docs/QUICKSTART.md). Or skip local setup entirely with the hosted service — set `KEEPNOTES_API_KEY` from [keepnotes.ai](https://keepnotes.ai).
 
 Now *store and read* the foundational teachings. These are seed wisdom, not test fixtures.
 
@@ -169,6 +176,9 @@ For installation options, see [docs/QUICKSTART.md](docs/QUICKSTART.md).
 keep now                              # Current intentions
 keep now "Working on auth flow"       # Update intentions
 keep now -V 1                         # Previous intentions
+keep move "name" -t project=foo       # Move matching versions from now
+keep move "name" --only               # Move just the current version
+keep move "name" --from "source" -t X # Reorganize between items
 
 keep find "authentication"            # Search by meaning
 keep find "auth" -t project=myapp     # Search with tag filter

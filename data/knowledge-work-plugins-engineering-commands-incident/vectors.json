@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-engineering-commands-incident",
+  "generated_at": "2026-02-28T14:45:36.297Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-engineering-commands-incident#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-engineering-commands-incident/HEAD.md",
+      "text": "title: incident\nsummary: Run an incident response workflow — triage, communicate, and write postmortem\ntype: skills\ntags: source-knowledge-work-plugins, plugin-engineering, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/incident.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-engineering-commands-incident",
+        "topic": "knowledge-work-plugins-engineering-commands-incident",
+        "type": "skills",
+        "title": "incident",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-engineering",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/incident.md",
+        "retrieved_at": "2026-02-28T14:45:36.297Z",
+        "content_sha256": "480ca02f022f2acf8dedfe4a7a28a11df1805ee18c90edd70423106981d2df71"
+      }
+    }
+  ]
+}

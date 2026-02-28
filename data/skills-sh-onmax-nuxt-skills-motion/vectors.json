@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-onmax-nuxt-skills-motion",
+  "generated_at": "2026-02-28T14:45:32.871Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-onmax-nuxt-skills-motion#head",
+      "kind": "head",
+      "path": "/data/skills-sh-onmax-nuxt-skills-motion/HEAD.md",
+      "text": "title: skills-sh-onmax-nuxt-skills-motion\nsummary: # Motion Component API ## Import Patterns ### motion (lowercase) - Standard pattern The standard way to use motion-v with dot notation: ```vue <script setup> import { motion } from 'motion-v' </script> <template> <motion.div />\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/motion/references/components.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-onmax-nuxt-skills-motion",
+        "topic": "skills-sh-onmax-nuxt-skills-motion",
+        "type": "skills",
+        "title": "skills-sh-onmax-nuxt-skills-motion",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/motion/references/components.md",
+        "retrieved_at": "2026-02-28T14:45:32.871Z",
+        "content_sha256": "739a643e263a50006fb29dce5fd1e84a704574d4bdfcda485b4951023ac02110"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-nas-master",
+  "generated_at": "2026-02-28T14:46:26.103Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-nas-master#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-nas-master/HEAD.md",
+      "text": "title: nas-master\nsummary: --- name: asustor-pro-adaptive-suite description: > A hardware-aware, hybrid (SMB + SSH) suite for ASUSTOR NAS metadata scraping. Functions as a versatile Coder, Project Manager, and System Architect while maintaining strict read-only safety and i3-10th Gen resource throttling. homepage: https://docs.molt.bot/tools/skills user-invocable: true metadata: moltbot:\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/nas-master/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-nas-master",
+        "topic": "openclaw-openclaw-nas-master",
+        "type": "skills",
+        "title": "nas-master",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/nas-master/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:26.103Z",
+        "content_sha256": "2a4fcc49a0cd45464261951cb4cdb533ea3a9890c330ab976a0f90e154d155b4"
+      }
+    }
+  ]
+}

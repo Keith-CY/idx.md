@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-govee-lights",
+  "generated_at": "2026-02-28T14:46:12.731Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-govee-lights#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-govee-lights/HEAD.md",
+      "text": "title: govee-lights\nsummary: Control Govee smart lights via the Govee API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joeynyc/govee-lights/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-govee-lights",
+        "topic": "openclaw-openclaw-govee-lights",
+        "type": "skills",
+        "title": "govee-lights",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joeynyc/govee-lights/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:12.731Z",
+        "content_sha256": "5919324f3cb58a9fc5cd7e8baf8052f85e09df0a31b4850d39badcea91dc7be7"
+      }
+    }
+  ]
+}

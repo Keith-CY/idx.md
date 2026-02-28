@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-davila7-claude-code-templates-langchain",
+  "generated_at": "2026-02-28T14:45:32.894Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-davila7-claude-code-templates-langchain#head",
+      "kind": "head",
+      "path": "/data/skills-sh-davila7-claude-code-templates-langchain/HEAD.md",
+      "text": "title: skills-sh-davila7-claude-code-templates-langchain\nsummary: # LangChain Agents Guide Complete guide to building agents with ReAct, tool calling, and streaming. ## What are agents? Agents combine language models with tools to solve complex tasks through reasoning and action: 1. **Reasoning**: LLM decides what to do 2. **Acting**: Execute tools based on reasoning 3. **Observation**: Receive tool results 4. **Loop**: Repeat until task complete This is the **ReAct pattern** (Reasoning + Acting). ## Basic agent creation\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/ai-research/agents-langchain/references/agents.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-davila7-claude-code-templates-langchain",
+        "topic": "skills-sh-davila7-claude-code-templates-langchain",
+        "type": "skills",
+        "title": "skills-sh-davila7-claude-code-templates-langchain",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/HEAD/cli-tool/components/skills/ai-research/agents-langchain/references/agents.md",
+        "retrieved_at": "2026-02-28T14:45:32.894Z",
+        "content_sha256": "724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555"
+      }
+    }
+  ]
+}

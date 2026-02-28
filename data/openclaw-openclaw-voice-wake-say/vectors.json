@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-voice-wake-say",
+  "generated_at": "2026-02-28T14:46:53.803Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-voice-wake-say#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-voice-wake-say/HEAD.md",
+      "text": "title: voice-wake-say\nsummary: Speak responses aloud on macOS via the say command.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/voice-wake-say/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-voice-wake-say",
+        "topic": "openclaw-openclaw-voice-wake-say",
+        "type": "skills",
+        "title": "voice-wake-say",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/voice-wake-say/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:53.803Z",
+        "content_sha256": "76b1d998eecc02ecd17262264483bf07f3be93573e696e447a97a571d1fd5e5f"
+      }
+    }
+  ]
+}

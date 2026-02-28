@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-host-ping-detect",
+  "generated_at": "2026-02-28T14:46:14.571Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-host-ping-detect#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-host-ping-detect/HEAD.md",
+      "text": "title: host-ping-detect\nsummary: Detect if a host (IP: 39.106.7.8) is online by sending ping requests.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ray-778/host-ping-detect/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-host-ping-detect",
+        "topic": "openclaw-openclaw-host-ping-detect",
+        "type": "skills",
+        "title": "host-ping-detect",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ray-778/host-ping-detect/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:14.571Z",
+        "content_sha256": "73eff1a574081688ecf29f43540140cd0783704804d55229e708b7589173353a"
+      }
+    }
+  ]
+}

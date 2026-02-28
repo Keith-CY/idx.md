@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-validation-expert/ERROR_CATALOG.md
 license: ""
 upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-validation-expert
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:52.956Z
+github_stars: 2848
+github_forks: 501
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:33.850Z
 content_sha256: 74fc170e4217ad1aa0aa176bb2a0565728036d352f491443a826df6f2bb47930
 ---

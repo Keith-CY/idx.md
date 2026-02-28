@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-antfu-skills-pinia",
+  "generated_at": "2026-02-28T14:45:39.833Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-antfu-skills-pinia#head",
+      "kind": "head",
+      "path": "/data/skills-sh-antfu-skills-pinia/HEAD.md",
+      "text": "title: skills-sh-antfu-skills-pinia\nsummary: --- name: stores description: Defining stores, state, getters, and actions in Pinia --- # Pinia Stores Stores are defined using `defineStore()` with a unique name. Each store has three core concepts: **state**, **getters**, and **actions**. ## Defining Stores ### Option Stores Similar to Vue's Options API: ```ts\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-antfu-skills-pinia",
+        "topic": "skills-sh-antfu-skills-pinia",
+        "type": "skills",
+        "title": "skills-sh-antfu-skills-pinia",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md",
+        "retrieved_at": "2026-02-28T14:45:39.833Z",
+        "content_sha256": "41627453eb019d1755dac787924bde52be162a3bdfc555119f88a8e59dda8f21"
+      }
+    }
+  ]
+}

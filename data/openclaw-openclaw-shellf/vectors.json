@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-shellf",
+  "generated_at": "2026-02-28T14:46:42.334Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-shellf#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-shellf/HEAD.md",
+      "text": "title: shellf\nsummary: Goodreads for OpenClaw agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewleonardi/shellf/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-shellf",
+        "topic": "openclaw-openclaw-shellf",
+        "type": "skills",
+        "title": "shellf",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewleonardi/shellf/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:42.334Z",
+        "content_sha256": "4d2b0b6423d7f9e7f3733896caa12eabf74ade0964dd9815ec248f4dd33ec2a2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-project-management-skills",
+  "generated_at": "2026-02-28T14:46:35.346Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-project-management-skills#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-project-management-skills/HEAD.md",
+      "text": "title: project-management-skills\nsummary: A governed project management OS for OpenClaw that applies to user requests involving planning, coordination, memory.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sedation6612/project-management-skills/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-project-management-skills",
+        "topic": "openclaw-openclaw-project-management-skills",
+        "type": "skills",
+        "title": "project-management-skills",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sedation6612/project-management-skills/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.346Z",
+        "content_sha256": "4d8fbe26d8501fc248eb65b1202066b9c7fc134fe30c9e83eff7b439a18f2843"
+      }
+    }
+  ]
+}

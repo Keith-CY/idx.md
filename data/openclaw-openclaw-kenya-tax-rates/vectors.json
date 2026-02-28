@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-kenya-tax-rates",
+  "generated_at": "2026-02-28T14:46:18.397Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-kenya-tax-rates#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-kenya-tax-rates/HEAD.md",
+      "text": "title: kenya-tax-rates\nsummary: Calculate Kenya payroll deductions - PAYE, SHIF, NSSF, Housing Levy with accurate 2024/2025 rates\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enjuguna/kenya-tax-rates/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-kenya-tax-rates",
+        "topic": "openclaw-openclaw-kenya-tax-rates",
+        "type": "skills",
+        "title": "kenya-tax-rates",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/enjuguna/kenya-tax-rates/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:18.397Z",
+        "content_sha256": "09db1684b0cdc779c7fc6ade46af3118acb98fc305a91671eec8dccc27b947b1"
+      }
+    }
+  ]
+}

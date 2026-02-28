@@ -1,18 +1,14 @@
 ---
 name: sudoku
 description: Fetch Sudoku puzzles and store them as JSON in the workspace; render images on demand; reveal solutions later.
-version: 1.2.7
+version: 2.4.0
 homepage: https://github.com/odrobnik/sudoku-skill
 metadata:
   openclaw:
     emoji: "🧩"
     requires:
-      bins: ["python3", "node"]
-      pythonPackages: ["requests", "Pillow"]
-  moltbot:
-    emoji: "🧩"
-    requires:
-      bins: ["python3", "node"]
+      bins: ["python3"]
+      python: ["requests", "Pillow", "lzstring"]
 ---
 
 # Sudoku
@@ -36,19 +32,28 @@ For details on the saved JSON format, see [DATA_FORMAT.md](references/DATA_FORMA
 
 ## Setup / Requirements
 
-- Binaries: `python3`, `node`
+- Binaries: `python3`
 - Python libs:
   ```bash
-  python3 -m pip install requests Pillow
+  python3 -m pip install requests Pillow lzstring
   ```
 
 ## Get a Puzzle
 
 Fetches a new puzzle and stores it as JSON. Output is JSON by default (use `--text` for human-readable output).
 
+Use `--count N` to fetch/store multiple puzzles in one call. If a batch does not contain enough unseen puzzles, the command will fetch additional batches until it has enough.
+
+Use `--id <fragment>` to select a specific source puzzle by matching any unique part of its UUID. If multiple IDs match, the command errors and lists candidates.
+
 **Get a Classic Easy puzzle:**
 ```bash
 ./scripts/sudoku.py get easy9
+```
+
+**Get multiple new puzzles at once (e.g. 4 easy 9x9):**
+```bash
+./scripts/sudoku.py get easy9 --count 4
 ```
 
 **Get a Kids 6x6 puzzle:**
@@ -58,7 +63,7 @@ Fetches a new puzzle and stores it as JSON. Output is JSON by default (use `--te
 
 ## Render Puzzle
 
-Render a puzzle as an image or PDF.
+Render a puzzle as an image, PDF, or minimal HTML.
 
 **Render latest puzzle as A4 PDF (for printing):**
 ```bash
@@ -73,6 +78,11 @@ Render a puzzle as an image or PDF.
 **Render a specific previous puzzle by short ID:**
 ```bash
 ./scripts/sudoku.py render --id a09f3680
+```
+
+**Render minimal HTML (square cells + bold box lines):**
+```bash
+./scripts/sudoku.py html --id a09f3680
 ```
 
 ## Reveal Solution

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-calendly",
+  "generated_at": "2026-02-28T14:45:54.009Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-calendly#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-calendly/HEAD.md",
+      "text": "title: calendly\nsummary: Calendly scheduling integration.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/calendly/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-calendly",
+        "topic": "openclaw-openclaw-calendly",
+        "type": "skills",
+        "title": "calendly",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/calendly/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:54.009Z",
+        "content_sha256": "e151fa66cd6c5f0deb02bb8cdf6a8058607becad8857e7496e115ec078692db5"
+      }
+    }
+  ]
+}

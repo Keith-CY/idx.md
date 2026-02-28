@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-resend-react-email-react-email",
+  "generated_at": "2026-02-28T14:45:23.955Z",
+  "records": [
+    {
+      "id": "skills/github-skill-resend-react-email-react-email#head",
+      "kind": "head",
+      "path": "/data/github-skill-resend-react-email-react-email/HEAD.md",
+      "text": "title: react-email\nsummary: Use when creating HTML email templates with React components - welcome emails, password resets, notifications, order confirmations, newsletters, or transactional emails.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-communication, github-owner-resend, github-repo-react-email\nsource_url: https://raw.githubusercontent.com/resend/react-email/canary/skills/react-email/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-resend-react-email-react-email",
+        "topic": "github-skill-resend-react-email-react-email",
+        "type": "skills",
+        "title": "react-email",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-communication",
+          "github-owner-resend",
+          "github-repo-react-email"
+        ],
+        "source_url": "https://raw.githubusercontent.com/resend/react-email/canary/skills/react-email/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:23.955Z",
+        "content_sha256": "3e1c597c4292eaf8555211ba75d7afc57552e21a6657a470ca0e3ef6b934dcae"
+      }
+    }
+  ]
+}

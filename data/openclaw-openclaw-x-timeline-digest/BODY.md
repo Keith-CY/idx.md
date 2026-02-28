@@ -1,5 +1,6 @@
 ---
 name: x-timeline-digest
+version: 1.0.2
 description: Build a deduplicated digest from X (Twitter) For You and Following timelines using bird. Outputs a payload for upstream delivery.
 homepage: https://github.com/seandong
 metadata: {"openclaw":{"emoji":"🐦","requires":{"bins":["bird"]}}}
@@ -81,7 +82,11 @@ State is persisted to statePath.
 3. Hard deduplication by tweet id
 4. Near-duplicate merge using text similarity
 5. Rank and trim to maxItemsPerDigest
-6. Summarize into Chinese digest
+6. **Generate a Categorized Chinese Digest** (via PROMPT.md + LLM)
+   - Categories: 🤖 AI & Tech, 💰 Crypto & Markets, 💡 Insights, 🗞️ Other
+   - Language: Simplified Chinese
+   - Format: [Author](URL): Summary
+   - Denoising: Remove ads and low-value content
 ---
 ## Output
 The skill returns one JSON object:

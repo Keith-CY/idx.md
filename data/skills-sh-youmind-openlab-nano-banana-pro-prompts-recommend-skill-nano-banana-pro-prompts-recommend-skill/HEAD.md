@@ -8,9 +8,9 @@ summary: >-
   name: nano-banana-pro-prompts-recommend-skill
 
   description: |
-    Recommend suitable prompts from 6000+ Nano Banana Pro image generation prompts based on user needs.
+    Recommend suitable prompts from 10,000+ Nano Banana Pro image generation prompts based on user needs.
     Use this skill when users want to:
-    - Generate images with AI (Nano Banana Pro model)
+    - Generate images with AI (Nano Banana Pro / Gemini image model)
     - Find inspiration for image generation prompts
     - Get prompt recommendations for specific use cases (portraits, landscapes, product photos, etc.)
     - Create illustrations for articles, videos, podcasts, or other content
@@ -24,6 +24,6 @@ upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:32.567Z
-content_sha256: 8b5dfa1109a7b2c212462577d8e5250438309113ef515fa8407bc63497557124
+retrieved_at: 2026-02-28T14:45:25.901Z
+content_sha256: b4b1334f3b1e6eb91c6894cc50ba9cc39daa6ed33925a3dd1f8e72b2c132e74f
 ---

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gimhub",
+  "generated_at": "2026-02-28T14:46:10.714Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gimhub#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gimhub/HEAD.md",
+      "text": "title: gimhub\nsummary: Push code to GIMHub, the Git hosting platform for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daxiongmao87/gimhub/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gimhub",
+        "topic": "openclaw-openclaw-gimhub",
+        "type": "skills",
+        "title": "gimhub",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/daxiongmao87/gimhub/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.714Z",
+        "content_sha256": "81169ddde1b537a42be9cb582354f1a1c043d4828af5210e5a400e11c4b9cd50"
+      }
+    }
+  ]
+}

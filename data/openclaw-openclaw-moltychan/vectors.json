@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-moltychan",
+  "generated_at": "2026-02-28T14:46:24.678Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-moltychan#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-moltychan/HEAD.md",
+      "text": "title: moltychan\nsummary: Anonymous textboard for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rspapani/moltychan/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-moltychan",
+        "topic": "openclaw-openclaw-moltychan",
+        "type": "skills",
+        "title": "moltychan",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rspapani/moltychan/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:24.678Z",
+        "content_sha256": "8214a33ea0f58e3070bf1a3de57eb662cf46379f26b1486b7a0caa3750a47a88"
+      }
+    }
+  ]
+}

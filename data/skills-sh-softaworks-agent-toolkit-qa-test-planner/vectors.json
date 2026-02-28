@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-softaworks-agent-toolkit-qa-test-planner",
+  "generated_at": "2026-02-28T14:45:37.318Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-softaworks-agent-toolkit-qa-test-planner#head",
+      "kind": "head",
+      "path": "/data/skills-sh-softaworks-agent-toolkit-qa-test-planner/HEAD.md",
+      "text": "title: skills-sh-softaworks-agent-toolkit-qa-test-planner\nsummary: # Test Case Templates Standard templates for creating consistent, comprehensive test cases. --- ## Standard Test Case Template ```markdown ## TC-[ID]: [Test Case Title] **Priority:** P0 (Critical) | P1 (High) | P2 (Medium) | P3 (Low) **Type:** Functional | UI | Integration | Regression | Performance | Security **Status:** Not Run | Pass | Fail | Blocked | Skipped **Estimated Time:** X minutes\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/qa-test-planner/references/test_case_templates.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-softaworks-agent-toolkit-qa-test-planner",
+        "topic": "skills-sh-softaworks-agent-toolkit-qa-test-planner",
+        "type": "skills",
+        "title": "skills-sh-softaworks-agent-toolkit-qa-test-planner",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/qa-test-planner/references/test_case_templates.md",
+        "retrieved_at": "2026-02-28T14:45:37.318Z",
+        "content_sha256": "42072c5db347039476bd1d045e5f7124018d50c4fd48a0d30cb3aceeb301ff68"
+      }
+    }
+  ]
+}

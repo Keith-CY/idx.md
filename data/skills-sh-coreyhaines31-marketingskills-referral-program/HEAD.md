@@ -5,23 +5,23 @@ title: skills-sh-coreyhaines31-marketingskills-referral-program
 summary: |-
   # Referral Program Examples
   Real-world examples of successful referral programs.
-  ## Dropbox (Classic)
-  **Program:** Give 500MB storage, get 500MB storage
-  **Why it worked:**
-  - Reward directly tied to product value
-  - Low friction (just an email)
-  - Both parties benefit equally
-  - Gamified with progress tracking
-  ---
+  ## Contents
+  - Dropbox (Classic)
+  - Uber/Lyft
+  - Morning Brew
+  - Notion
+  - Incentive Types Comparison
+  - Incentive Sizing Framework
+  - Viral Coefficient & Metrics (Key Metrics, Calculating Referral Program ROI)
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/referral-program/references/program-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/referral-program
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.881Z
-content_sha256: 60731dc46b911849c26ffdcc9835ad352d690806e4eec0d814a52e5cf21794bc
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:39.311Z
+content_sha256: 2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a
 ---

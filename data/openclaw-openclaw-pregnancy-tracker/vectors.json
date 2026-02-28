@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pregnancy-tracker",
+  "generated_at": "2026-02-28T14:46:34.510Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pregnancy-tracker#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pregnancy-tracker/HEAD.md",
+      "text": "title: pregnancy-tracker\nsummary: Track pregnancy journey with weekly updates, symptom logging.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/pregnancy-tracker/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pregnancy-tracker",
+        "topic": "openclaw-openclaw-pregnancy-tracker",
+        "type": "skills",
+        "title": "pregnancy-tracker",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/pregnancy-tracker/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:34.510Z",
+        "content_sha256": "a741cdd385a515bc9a4c72c03060c88fffce8a1eb69f3e49a49bc2ef1e06e0ef"
+      }
+    }
+  ]
+}

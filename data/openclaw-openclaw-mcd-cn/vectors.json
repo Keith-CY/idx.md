@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mcd-cn",
+  "generated_at": "2026-02-28T14:46:21.410Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mcd-cn#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mcd-cn/HEAD.md",
+      "text": "title: mcd-cn\nsummary: Query McDonald's China MCP server via the mcd-cn CLI for campaign calendars, coupons.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanchen01/mcd-cn/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mcd-cn",
+        "topic": "openclaw-openclaw-mcd-cn",
+        "type": "skills",
+        "title": "mcd-cn",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanchen01/mcd-cn/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:21.410Z",
+        "content_sha256": "3190444d54328d53f5db39a9315977afb0661763647dafaebef62bdf1a9270d2"
+      }
+    }
+  ]
+}

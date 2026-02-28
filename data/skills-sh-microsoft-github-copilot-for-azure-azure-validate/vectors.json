@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-validate",
+  "generated_at": "2026-02-28T14:45:38.550Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-validate#head",
+      "kind": "head",
+      "path": "/data/skills-sh-microsoft-github-copilot-for-azure-azure-validate/HEAD.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-azure-validate\nsummary: # Global Rules > **MANDATORY** — These rules apply to ALL skills. Violations are unacceptable. ## Rule 1: Destructive Actions Require User Confirmation ⛔ **ALWAYS use `ask_user`** before ANY destructive action. ### What is Destructive? | Category | Examples | |----------|----------| | **Delete** | `az group delete`, `azd down`, `rm -rf`, delete resource | | **Overwrite** | Replace existing files, overwrite config, reset settings | | **Irreversible** | Purge Key Vault, delete storage account, drop database |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-validate/references/global-rules.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-validate",
+        "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-validate",
+        "type": "skills",
+        "title": "skills-sh-microsoft-github-copilot-for-azure-azure-validate",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-validate/references/global-rules.md",
+        "retrieved_at": "2026-02-28T14:45:38.550Z",
+        "content_sha256": "81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4"
+      }
+    }
+  ]
+}

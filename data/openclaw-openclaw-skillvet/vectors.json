@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skillvet",
+  "generated_at": "2026-02-28T14:46:43.513Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skillvet#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skillvet/HEAD.md",
+      "text": "title: skillvet\nsummary: Security scanner for ClawHub/community skills — detects malware, credential theft, exfiltration, prompt injection,.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oakencore/skillvet/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skillvet",
+        "topic": "openclaw-openclaw-skillvet",
+        "type": "skills",
+        "title": "skillvet",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/oakencore/skillvet/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.513Z",
+        "content_sha256": "d580c508d3ff53121c2974f9b754215118f9133aaaff9ac0082c348228979fcc"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gamma",
+  "generated_at": "2026-02-28T14:46:09.526Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gamma#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gamma/HEAD.md",
+      "text": "title: gamma\nsummary: Generate AI-powered presentations, documents, and social posts using Gamma.app API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/gamma/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gamma",
+        "topic": "openclaw-openclaw-gamma",
+        "type": "skills",
+        "title": "gamma",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/gamma/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.526Z",
+        "content_sha256": "ae8f1090682701e71792f7d414ff728c48562993c1b142798b38fef17ada1f13"
+      }
+    }
+  ]
+}

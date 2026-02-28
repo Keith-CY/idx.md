@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-registry",
+  "generated_at": "2026-02-28T14:45:45.876Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-registry#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-registry/HEAD.md",
+      "text": "title: agent-registry\nsummary: --- name: agent-registry version: 2.0.1 description: | MANDATORY agent discovery system for token-efficient agent loading. Claude MUST use this skill instead of loading agents directly from ~/.claude/agents/ or .claude/agents/. Provides lazy loading via search and get tools. Use when: (1) user task may benefit from specialized agent expertise, (2) user asks about available agents, (3) starting complex workflows that historically used agents. This skill reduces context window usage by ~95% compared to loading all agents upfront.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-registry/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-registry",
+        "topic": "openclaw-openclaw-agent-registry",
+        "type": "skills",
+        "title": "agent-registry",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-registry/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:45.876Z",
+        "content_sha256": "54dcea9b30ad2d53ebc0b2c7061f374cfc9c9e93cb1445bd1852d34a2414be58"
+      }
+    }
+  ]
+}

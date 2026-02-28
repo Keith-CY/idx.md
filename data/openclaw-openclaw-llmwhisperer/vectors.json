@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-llmwhisperer",
+  "generated_at": "2026-02-28T14:46:20.038Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-llmwhisperer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-llmwhisperer/HEAD.md",
+      "text": "title: llmwhisperer\nsummary: Extract text and layout from images and PDFs using LLMWhisperer API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/llmwhisperer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-llmwhisperer",
+        "topic": "openclaw-openclaw-llmwhisperer",
+        "type": "skills",
+        "title": "llmwhisperer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/llmwhisperer/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:20.038Z",
+        "content_sha256": "054ff0203e9aa3331a30555b20340add0059f26037fb7a9547e60988c36a4c08"
+      }
+    }
+  ]
+}

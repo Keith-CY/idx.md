@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-attribution-engine",
+  "generated_at": "2026-02-28T14:45:49.703Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-attribution-engine#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-attribution-engine/HEAD.md",
+      "text": "title: attribution-engine\nsummary: --- name: Attribution Engine slug: attribution-engine version: 1.2 description: >- Helps creators clearly credit collaborators, tools, and partners in a way platforms understand. Reduces confusion, missed disclosures, and avoidable issues before content goes live. metadata: creator:\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-attribution-engine",
+        "topic": "openclaw-openclaw-attribution-engine",
+        "type": "skills",
+        "title": "attribution-engine",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:49.703Z",
+        "content_sha256": "f442eb922f8c792b051668e540814dd01340e9e0e6d26d197b6a62a1cceb5856"
+      }
+    }
+  ]
+}

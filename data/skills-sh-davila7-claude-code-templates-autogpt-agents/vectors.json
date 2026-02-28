@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-davila7-claude-code-templates-autogpt-agents",
+  "generated_at": "2026-02-28T14:45:28.415Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-davila7-claude-code-templates-autogpt-agents#head",
+      "kind": "head",
+      "path": "/data/skills-sh-davila7-claude-code-templates-autogpt-agents/HEAD.md",
+      "text": "title: skills-sh-davila7-claude-code-templates-autogpt-agents\nsummary: # AutoGPT Advanced Usage Guide ## Custom Block Development ### Block structure ```python from backend.data.block import Block, BlockSchema, BlockType from pydantic import BaseModel class MyBlockInput(BaseModel): \"\"\"Input schema for the block.\"\"\" query: str max_results: int = 10\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-autogpt/references/advanced-usage.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-davila7-claude-code-templates-autogpt-agents",
+        "topic": "skills-sh-davila7-claude-code-templates-autogpt-agents",
+        "type": "skills",
+        "title": "skills-sh-davila7-claude-code-templates-autogpt-agents",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-autogpt/references/advanced-usage.md",
+        "retrieved_at": "2026-02-28T14:45:28.415Z",
+        "content_sha256": "e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-i-responder",
+  "generated_at": "2026-02-28T14:46:14.938Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-i-responder#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-i-responder/HEAD.md",
+      "text": "title: i-responder\nsummary: Monitor iMessage/SMS conversations and auto-respond based on configurable rules, AI prompts, and rate-limiting condit.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/koba42corp/i-responder/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-i-responder",
+        "topic": "openclaw-openclaw-i-responder",
+        "type": "skills",
+        "title": "i-responder",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/koba42corp/i-responder/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:14.938Z",
+        "content_sha256": "ec2af0ae3d37441e86bb106729a2569085a164bed5203ef745f6ad3a6ffe18ca"
+      }
+    }
+  ]
+}

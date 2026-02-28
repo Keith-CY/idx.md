@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-afame",
+  "generated_at": "2026-02-28T14:45:44.896Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-afame#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-afame/HEAD.md",
+      "text": "title: afame\nsummary: Generate diverse creative illustrations via OpenAI Images API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adebayoabdushaheed-a11y/afame/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-afame",
+        "topic": "openclaw-openclaw-afame",
+        "type": "skills",
+        "title": "afame",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adebayoabdushaheed-a11y/afame/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:44.896Z",
+        "content_sha256": "08d7d70b52cebf9604d58bd4dc0a1ebb2e6e1f65c4138788304d0ba24681c65c"
+      }
+    }
+  ]
+}

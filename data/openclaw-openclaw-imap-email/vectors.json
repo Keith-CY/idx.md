@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-imap-email",
+  "generated_at": "2026-02-28T14:46:15.325Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-imap-email#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-imap-email/HEAD.md",
+      "text": "title: imap-email\nsummary: Read and manage email via IMAP (ProtonMail, Gmail, etc.).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvarrieur/imap-email/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-imap-email",
+        "topic": "openclaw-openclaw-imap-email",
+        "type": "skills",
+        "title": "imap-email",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvarrieur/imap-email/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:15.325Z",
+        "content_sha256": "c3cea768612ebb8a25dae07bbc5a5b4dbdf52aee31af7bc2f9c448927b0eb482"
+      }
+    }
+  ]
+}

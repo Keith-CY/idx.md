@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-project-management-guru-adhd",
+  "generated_at": "2026-02-28T14:46:35.303Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-project-management-guru-adhd#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-project-management-guru-adhd/HEAD.md",
+      "text": "title: project-management-guru-adhd\nsummary: Expert project manager for ADHD engineers managing multiple concurrent projects.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/project-management-guru-adhd/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-project-management-guru-adhd",
+        "topic": "openclaw-openclaw-project-management-guru-adhd",
+        "type": "skills",
+        "title": "project-management-guru-adhd",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/project-management-guru-adhd/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.303Z",
+        "content_sha256": "eb962d7f22e8561e700246595d72c629f183899eb69cf02ac15fde9fe26256ba"
+      }
+    }
+  ]
+}

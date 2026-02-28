@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-camsnap",
+  "generated_at": "2026-02-28T14:45:54.227Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-camsnap#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-camsnap/HEAD.md",
+      "text": "title: camsnap\nsummary: Capture frames or clips from RTSP/ONVIF cameras.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/camsnap/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-camsnap",
+        "topic": "openclaw-openclaw-camsnap",
+        "type": "skills",
+        "title": "camsnap",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/camsnap/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:54.227Z",
+        "content_sha256": "5e499af0105023f43112460f15d97ac6e741d1c185661e2215a5f8585ad68107"
+      }
+    }
+  ]
+}

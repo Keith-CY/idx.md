@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-homey",
+  "generated_at": "2026-02-28T14:46:14.485Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-homey#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-homey/HEAD.md",
+      "text": "title: homey\nsummary: Control Athom Homey smart home devices via local (LAN/VPN) or cloud.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maxsumrall/homey/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-homey",
+        "topic": "openclaw-openclaw-homey",
+        "type": "skills",
+        "title": "homey",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maxsumrall/homey/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:14.485Z",
+        "content_sha256": "ae18bb17de18e44e9f3f301eb445c2be69c9b5f5250d8be97d9800fc8b6b463e"
+      }
+    }
+  ]
+}

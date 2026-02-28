@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-content-moderation",
+  "generated_at": "2026-02-28T14:46:00.007Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-content-moderation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-content-moderation/HEAD.md",
+      "text": "title: content-moderation\nsummary: Moderate text, images, and video using Vettly's content moderation API via MCP server.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/code-with-brian/content-moderation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-content-moderation",
+        "topic": "openclaw-openclaw-content-moderation",
+        "type": "skills",
+        "title": "content-moderation",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/code-with-brian/content-moderation/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.007Z",
+        "content_sha256": "5655003f59ae1320bb1c8070c8f4cbec7bd1f62e8dccf693c3a5a8e4d01cdef2"
+      }
+    }
+  ]
+}

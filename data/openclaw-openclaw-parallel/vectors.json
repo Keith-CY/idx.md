@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-parallel",
+  "generated_at": "2026-02-28T14:46:31.481Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-parallel#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-parallel/HEAD.md",
+      "text": "title: parallel\nsummary: High-accuracy web search and research via Parallel.ai API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/parallel/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-parallel",
+        "topic": "openclaw-openclaw-parallel",
+        "type": "skills",
+        "title": "parallel",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/parallel/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:31.481Z",
+        "content_sha256": "48b868182546e60c3cb56f64fe14cb13f1ceb40af5d5a645d15cda8416686200"
+      }
+    }
+  ]
+}

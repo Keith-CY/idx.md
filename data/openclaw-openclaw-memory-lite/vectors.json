@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-memory-lite",
+  "generated_at": "2026-02-28T14:46:22.232Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-memory-lite#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-memory-lite/HEAD.md",
+      "text": "title: memory-lite\nsummary: Lightweight memory management for OpenClaw without embeddings or vector search.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vellis59/memory-lite/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-memory-lite",
+        "topic": "openclaw-openclaw-memory-lite",
+        "type": "skills",
+        "title": "memory-lite",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vellis59/memory-lite/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:22.232Z",
+        "content_sha256": "513f60ee1fc459ccc2f954b440d7b0fec14f809b160bf5defcb37a050d949495"
+      }
+    }
+  ]
+}

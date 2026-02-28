@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-system-monitor",
+  "generated_at": "2026-02-28T14:46:47.065Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-system-monitor#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-system-monitor/HEAD.md",
+      "text": "title: system-monitor\nsummary: Check the current CPU, RAM, and GPU status of the local server.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zerofire03/system-monitor/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-system-monitor",
+        "topic": "openclaw-openclaw-system-monitor",
+        "type": "skills",
+        "title": "system-monitor",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zerofire03/system-monitor/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:47.065Z",
+        "content_sha256": "29f36e551e738525adbd9cf929c8f62f7e1dfca0fa809b32bb91b724f14f394b"
+      }
+    }
+  ]
+}

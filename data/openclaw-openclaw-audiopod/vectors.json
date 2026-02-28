@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-audiopod",
+  "generated_at": "2026-02-28T14:45:49.921Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-audiopod#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-audiopod/HEAD.md",
+      "text": "title: audiopod\nsummary: Use AudioPod AI's API for audio processing tasks including AI music generation (text-to-music, text-to-rap, instrumen.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/audiopod/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-audiopod",
+        "topic": "openclaw-openclaw-audiopod",
+        "type": "skills",
+        "title": "audiopod",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/audiopod/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:49.921Z",
+        "content_sha256": "69a9bd12d3b17f43a09d0fcf4a47aad5dda7ac41244833b32eff1961feda9146"
+      }
+    }
+  ]
+}

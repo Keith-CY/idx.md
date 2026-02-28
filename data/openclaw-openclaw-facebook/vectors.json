@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-facebook",
+  "generated_at": "2026-02-28T14:46:06.798Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-facebook#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-facebook/HEAD.md",
+      "text": "title: facebook\nsummary: Guidance for Meta/Facebook Graph API integrations: app setup, auth, webhooks.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/facebook/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-facebook",
+        "topic": "openclaw-openclaw-facebook",
+        "type": "skills",
+        "title": "facebook",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/facebook/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:06.798Z",
+        "content_sha256": "0de00402c01527ea2f9a0e3c8479f1274397a2b29b627a039ad72d9c02d84db9"
+      }
+    }
+  ]
+}

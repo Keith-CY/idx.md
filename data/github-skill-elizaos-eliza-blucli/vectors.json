@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-elizaos-eliza-blucli",
+  "generated_at": "2026-02-28T14:45:21.884Z",
+  "records": [
+    {
+      "id": "skills/github-skill-elizaos-eliza-blucli#head",
+      "kind": "head",
+      "path": "/data/github-skill-elizaos-eliza-blucli/HEAD.md",
+      "text": "title: blucli\nsummary: BluOS CLI (blu) for discovery, playback, grouping, and volume.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-elizaos, github-repo-eliza\nsource_url: https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-elizaos-eliza-blucli",
+        "topic": "github-skill-elizaos-eliza-blucli",
+        "type": "skills",
+        "title": "blucli",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-elizaos",
+          "github-repo-eliza"
+        ],
+        "source_url": "https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:21.884Z",
+        "content_sha256": "ff458cdfff63bc38a1764508d15b92086598c5b85ddb4f0946fb26527179e9ad"
+      }
+    }
+  ]
+}

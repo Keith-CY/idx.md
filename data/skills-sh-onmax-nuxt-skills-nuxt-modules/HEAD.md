@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-modules/references/development.md
 license: ""
 upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-modules
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:50.734Z
+github_stars: 564
+github_forks: 27
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:42.548Z
 content_sha256: 22572b0823c7d75231a6ab867e3e83bc98a3fa8758dd51645b0bede5a8d6081b
 ---

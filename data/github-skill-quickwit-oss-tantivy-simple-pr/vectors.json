@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-quickwit-oss-tantivy-simple-pr",
+  "generated_at": "2026-02-28T14:45:23.928Z",
+  "records": [
+    {
+      "id": "skills/github-skill-quickwit-oss-tantivy-simple-pr#head",
+      "kind": "head",
+      "path": "/data/github-skill-quickwit-oss-tantivy-simple-pr/HEAD.md",
+      "text": "title: simple-pr\nsummary: Create a simple PR from staged changes with an auto-generated commit message\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-quickwit-oss, github-repo-tantivy\nsource_url: https://raw.githubusercontent.com/quickwit-oss/tantivy/main/.claude/skills/simple-pr/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-quickwit-oss-tantivy-simple-pr",
+        "topic": "github-skill-quickwit-oss-tantivy-simple-pr",
+        "type": "skills",
+        "title": "simple-pr",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-quickwit-oss",
+          "github-repo-tantivy"
+        ],
+        "source_url": "https://raw.githubusercontent.com/quickwit-oss/tantivy/main/.claude/skills/simple-pr/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:23.928Z",
+        "content_sha256": "1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390"
+      }
+    }
+  ]
+}

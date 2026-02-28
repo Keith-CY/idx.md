@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-research",
+  "generated_at": "2026-02-28T14:46:39.069Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-research#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-research/HEAD.md",
+      "text": "title: research\nsummary: Deep research via Gemini CLI — runs in background sub-agent so you don't burn your Claude tokens.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/research/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-research",
+        "topic": "openclaw-openclaw-research",
+        "type": "skills",
+        "title": "research",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/research/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:39.069Z",
+        "content_sha256": "4fd9a7399a2727801914ad8b1df77485a6586e45f8c970b2c5e6b52d3414990a"
+      }
+    }
+  ]
+}

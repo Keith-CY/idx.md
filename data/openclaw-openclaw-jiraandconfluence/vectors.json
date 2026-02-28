@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-jiraandconfluence",
+  "generated_at": "2026-02-28T14:46:17.050Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-jiraandconfluence#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-jiraandconfluence/HEAD.md",
+      "text": "title: jiraandconfluence\nsummary: CLI tool for interacting with Atlassian Jira and Confluence\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/festoinc/jiraandconfluence/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-jiraandconfluence",
+        "topic": "openclaw-openclaw-jiraandconfluence",
+        "type": "skills",
+        "title": "jiraandconfluence",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/festoinc/jiraandconfluence/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:17.050Z",
+        "content_sha256": "1b1ea53447c7b6ef9b75bd36e0d53f69232b39661dae1c87f5b50768c114bc2a"
+      }
+    }
+  ]
+}

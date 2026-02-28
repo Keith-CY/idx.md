@@ -1,7 +1,7 @@
 ---
 name: gevety
-version: 1.5.0
-description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, and upcoming tests
+version: 1.6.0
+description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, upcoming tests, lab reports, and health content
 homepage: https://gevety.com
 user-invocable: true
 command: gevety
@@ -324,6 +324,82 @@ Each test includes:
 - `last_tested_at`: When this was last tested (if applicable)
 - `biomarkers`: List of biomarkers included (for panels)
 
+### 12. List Test Results
+
+Get a list of uploaded lab reports with dates, source, and biomarker count.
+
+```
+GET /api/v1/mcp/tools/list_test_results?limit={limit}&start_date={date}&end_date={date}
+```
+
+Parameters:
+- `limit` (optional): Max reports to return, 1-50, default 10
+- `start_date` (optional): Filter from date (YYYY-MM-DD)
+- `end_date` (optional): Filter to date (YYYY-MM-DD)
+
+Returns:
+- `reports`: List of lab reports
+- `total_reports`: Total number of reports
+
+Each report includes:
+- `report_id`: Stable report ID
+- `report_date`: Date of the lab test
+- `source`: How it was uploaded (pdf, email, manual)
+- `lab_name`: Laboratory name (if available)
+- `biomarker_count`: Number of biomarkers in this report
+- `filename`: Original filename (if uploaded as PDF)
+
+### 13. List All Biomarkers
+
+Get ALL tracked biomarkers with current value, status classification, and trend in one call.
+
+```
+GET /api/v1/mcp/tools/list_all_biomarkers?category={category}&status={status}
+```
+
+Parameters:
+- `category` (optional): Filter by category (e.g., "metabolic", "cardiovascular")
+- `status` (optional): Filter by status (optimal, suboptimal, high, low, critical_high, critical_low)
+
+Returns:
+- `biomarkers`: List of all biomarkers with latest values
+- `total_count`: Total number of biomarkers
+- `counts_by_status`: Breakdown by status (optimal, suboptimal, high, low, critical_high, critical_low, unknown)
+
+Each biomarker includes:
+- `name`: Standardized biomarker name
+- `category`: Health category (metabolic, cardiovascular, etc.)
+- `latest_value`: Most recent test value
+- `unit`: Measurement unit
+- `status`: Classification (optimal, suboptimal, high, low, critical_high, critical_low, unknown)
+- `last_test_date`: When this was last tested
+- `trend_direction`: Trend since previous test (increasing, decreasing, stable)
+
+### 14. Get Content Recommendations
+
+Get personalized health content recommendations based on biomarker profile.
+
+```
+GET /api/v1/mcp/tools/get_content_recommendations?limit={limit}&category={category}
+```
+
+Parameters:
+- `limit` (optional): Max recommendations, 1-20, default 5
+- `category` (optional): Filter by content category
+
+Returns:
+- `recommendations`: List of recommended articles
+- `total_available`: Total recommendations available
+
+Each recommendation includes:
+- `content_id`: Stable content ID
+- `title`: Article title
+- `summary`: Brief summary
+- `category`: Content category
+- `relevance_reason`: Why this is relevant to the user
+- `quality_score`: Evidence quality score (only high-quality content is shown)
+- `url`: Link to the article
+
 ## Interpreting Scores
 
 ### Healthspan Score (0-100)
@@ -418,6 +494,23 @@ Each health dimension is scored independently:
 4. Mention AI-recommended tests for optimization
 5. Note which biomarkers each panel covers
 
+### "Show me my lab reports" / "When was my last blood test?"
+1. Call `list_test_results?limit=10`
+2. Show reports with dates, lab names, and biomarker counts
+3. Note the source (PDF upload, email, manual entry)
+
+### "Give me a full overview of all my biomarkers"
+1. Call `list_all_biomarkers`
+2. Group by category (metabolic, cardiovascular, etc.)
+3. Highlight any critical or high/low values
+4. Show status counts (e.g., "12 optimal, 3 suboptimal, 1 high")
+5. Note trends (increasing/decreasing/stable)
+
+### "What should I read about?" / "Any health articles for me?"
+1. Call `get_content_recommendations?limit=5`
+2. Present articles with titles and relevance reasons
+3. Explain why each is relevant to the user's biomarker profile
+
 ## Example API Call
 
 ```javascript
@@ -469,12 +562,12 @@ No authentication required. If the request fails or times out, skip the check an
 Response (when successful):
 ```json
 {
-  "clawdbot_skill": { "latest": "1.4.0", "update_command": "clawdhub update gevety" },
+  "clawdbot_skill": { "latest": "1.6.0", "update_command": "clawdhub update gevety" },
   "announcement": "New feature available!"
 }
 ```
 
-**If `clawdbot_skill.latest` > 1.4.0** (this skill's version), tell the user:
+**If `clawdbot_skill.latest` > 1.6.0** (this skill's version), tell the user:
 > "A Gevety skill update is available. Run: `clawdhub update gevety`"
 
 **If `announcement` is present**, mention it once per session.

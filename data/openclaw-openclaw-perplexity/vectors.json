@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-perplexity",
+  "generated_at": "2026-02-28T14:46:31.965Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-perplexity#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-perplexity/HEAD.md",
+      "text": "title: perplexity\nsummary: Search the web with AI-powered answers via Perplexity API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zats/perplexity/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-perplexity",
+        "topic": "openclaw-openclaw-perplexity",
+        "type": "skills",
+        "title": "perplexity",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zats/perplexity/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:31.965Z",
+        "content_sha256": "f593e23b0c365a98818ae563dc8563e51ba9fe0a885c03aa19d23716b2eb40e0"
+      }
+    }
+  ]
+}

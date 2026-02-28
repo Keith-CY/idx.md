@@ -1,6 +1,6 @@
 ---
 name: codexmonitor
-version: 0.1.3
+version: 0.2.1
 description: >
   List/inspect/watch local OpenAI Codex sessions (CLI + VS Code) using the
   CodexMonitor Homebrew formula. Reads sessions from ~/.codex/sessions by default
@@ -34,21 +34,9 @@ metadata:
 
 Use `codexmonitor` to browse local OpenAI Codex sessions.
 
-Default sessions directory: `~/.codex/sessions`.
-Overrides:
-- `CODEX_SESSIONS_DIR` → absolute sessions directory
-- `CODEX_HOME` → uses `$CODEX_HOME/sessions`
+## Setup
 
-## Requirements
-- macOS
-- Codex installed and producing sessions (CLI and/or VS Code extension)
-
-## Install (Homebrew)
-
-```sh
-brew tap cocoanetics/tap
-brew install codexmonitor
-```
+See [SETUP.md](SETUP.md) for prerequisites and setup instructions.
 
 ## Common commands
 

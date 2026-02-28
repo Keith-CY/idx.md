@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-philips-hue-thinking",
+  "generated_at": "2026-02-28T14:46:32.392Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-philips-hue-thinking#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-philips-hue-thinking/HEAD.md",
+      "text": "title: philips-hue-thinking\nsummary: Visual AI activity indicator using Philips Hue lights.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jesserod329/philips-hue-thinking/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-philips-hue-thinking",
+        "topic": "openclaw-openclaw-philips-hue-thinking",
+        "type": "skills",
+        "title": "philips-hue-thinking",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jesserod329/philips-hue-thinking/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:32.392Z",
+        "content_sha256": "e4e842e8e6a5b7c7ddd07760a34ecf41948a219c81cc1a5afd96dee1b8ca2486"
+      }
+    }
+  ]
+}

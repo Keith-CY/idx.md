@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/ossf/fuzz-introspector/main/doc/CaseStudies.md
 license: ""
 upstream_ref: https://skills.sh/trailofbits/skills/ossfuzz
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.489Z
+github_stars: 447
+github_forks: 81
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:38.138Z
 content_sha256: d56091780455026c0e196ef220a339b081bada399e43384d3d85578210591297
 ---

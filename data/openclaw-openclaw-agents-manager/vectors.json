@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agents-manager",
+  "generated_at": "2026-02-28T14:45:46.734Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agents-manager#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agents-manager/HEAD.md",
+      "text": "title: agents-manager\nsummary: Manage Clawdbot agents: discover, profile, track capabilities, define routing hierarchy.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/agentandbot-design/agents-manager/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agents-manager",
+        "topic": "openclaw-openclaw-agents-manager",
+        "type": "skills",
+        "title": "agents-manager",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/agentandbot-design/agents-manager/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:46.734Z",
+        "content_sha256": "99be0ada113fd0af29c3c45a06f37258240ba26eeb56eb7b07915de49517c7f5"
+      }
+    }
+  ]
+}

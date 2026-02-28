@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-common-room-skills-account-research-skill",
+  "generated_at": "2026-02-28T14:45:36.361Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-common-room-skills-account-research-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-common-room-skills-account-research-skill/HEAD.md",
+      "text": "title: account-research\nsummary: Research a company using Common Room data. Triggers on 'research [company]', 'tell me about [domain]', 'pull up signals for [account]', 'what's going on with [company]', or any account-level question.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-common-room, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/account-research/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-common-room-skills-account-research-skill",
+        "topic": "knowledge-work-plugins-partner-built-common-room-skills-account-research-skill",
+        "type": "skills",
+        "title": "account-research",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-common-room",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/account-research/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:36.361Z",
+        "content_sha256": "66288f1275c427efeea6de62ca0679874195e1c01d2ff5c3b32269f53614571a"
+      }
+    }
+  ]
+}

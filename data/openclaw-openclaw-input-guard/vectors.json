@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-input-guard",
+  "generated_at": "2026-02-28T14:46:15.790Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-input-guard#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-input-guard/HEAD.md",
+      "text": "title: input-guard\nsummary: Scan untrusted external text (web pages, tweets, search results, API responses) for prompt injection attacks.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dgriffin831/input-guard/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-input-guard",
+        "topic": "openclaw-openclaw-input-guard",
+        "type": "skills",
+        "title": "input-guard",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dgriffin831/input-guard/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:15.790Z",
+        "content_sha256": "178cfbe54723b7383bf4dbd05741f91a8853e873bb7b1f42fb487fa17480f5d6"
+      }
+    }
+  ]
+}

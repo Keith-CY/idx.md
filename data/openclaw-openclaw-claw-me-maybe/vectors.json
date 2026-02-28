@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-claw-me-maybe",
+  "generated_at": "2026-02-28T14:45:56.013Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-claw-me-maybe#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-claw-me-maybe/HEAD.md",
+      "text": "title: claw-me-maybe\nsummary: Beeper integration: WhatsApp, Telegram, Signal, Discord, Slack, iMessage, LinkedIn.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickhamze/claw-me-maybe/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-claw-me-maybe",
+        "topic": "openclaw-openclaw-claw-me-maybe",
+        "type": "skills",
+        "title": "claw-me-maybe",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nickhamze/claw-me-maybe/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:56.013Z",
+        "content_sha256": "8acb051635afea0ad5fdb27b0d232ac6d843aa3c087a09d4a18547e80cd3bc93"
+      }
+    }
+  ]
+}

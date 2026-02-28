@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-sr1",
+  "generated_at": "2026-02-28T14:46:45.286Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-sr1#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-sr1/HEAD.md",
+      "text": "title: sr1\nsummary: Order food, groceries, and book restaurants in India via Swiggy's MCP servers.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aditya4206360-prog/sr1/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-sr1",
+        "topic": "openclaw-openclaw-sr1",
+        "type": "skills",
+        "title": "sr1",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aditya4206360-prog/sr1/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:45.286Z",
+        "content_sha256": "2c68480728aba43e793fe33b40d02a7938d45880a71cade275044e9ad6de5822"
+      }
+    }
+  ]
+}

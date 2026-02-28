@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bvg-route",
+  "generated_at": "2026-02-28T14:45:53.722Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bvg-route#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bvg-route/HEAD.md",
+      "text": "title: bvg-route\nsummary: Route planning for Berlin public transport (BVG) using the v6.bvg.transport.rest API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jaysonsantos/bvg-route/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bvg-route",
+        "topic": "openclaw-openclaw-bvg-route",
+        "type": "skills",
+        "title": "bvg-route",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jaysonsantos/bvg-route/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:53.722Z",
+        "content_sha256": "e997fb60e07199cbc5fbc430fbe6b8c7c8b89f7a93fab331b6491b44fc9dc6c3"
+      }
+    }
+  ]
+}

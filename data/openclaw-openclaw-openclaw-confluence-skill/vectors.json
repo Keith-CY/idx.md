@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-openclaw-confluence-skill",
+  "generated_at": "2026-02-28T14:46:29.143Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-openclaw-confluence-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-openclaw-confluence-skill/HEAD.md",
+      "text": "title: openclaw-confluence-skill\nsummary: Full Confluence Cloud REST API v2 skill (pages, spaces, folders, databases, whiteboards, comments, labels, tasks,.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pangin/openclaw-confluence-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-openclaw-confluence-skill",
+        "topic": "openclaw-openclaw-openclaw-confluence-skill",
+        "type": "skills",
+        "title": "openclaw-confluence-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pangin/openclaw-confluence-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:29.143Z",
+        "content_sha256": "67641b51bd1371385086952d23c1879f84e60cc467d22ba95b0f10398d674523"
+      }
+    }
+  ]
+}

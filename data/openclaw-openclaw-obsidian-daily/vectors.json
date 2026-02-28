@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-obsidian-daily",
+  "generated_at": "2026-02-28T14:46:28.289Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-obsidian-daily#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-obsidian-daily/HEAD.md",
+      "text": "title: obsidian-daily\nsummary: Manage Obsidian Daily Notes via obsidian-cli.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/obsidian-daily/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-obsidian-daily",
+        "topic": "openclaw-openclaw-obsidian-daily",
+        "type": "skills",
+        "title": "obsidian-daily",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bastos/obsidian-daily/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:28.289Z",
+        "content_sha256": "dac31a9b2816521a52fd2aadf57ba815e1e6ce50d9abb11775d765edb3beddcd"
+      }
+    }
+  ]
+}

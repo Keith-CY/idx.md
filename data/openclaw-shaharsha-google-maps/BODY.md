@@ -6,10 +6,10 @@ description: >
   (4) Geocoding addresses to coordinates and reverse, (5) Places search and details, (6) Transit 
   planning with arrival times. Supports future departure times, traffic models (pessimistic/optimistic), 
   avoid options (tolls/highways), and multiple travel modes (driving/walking/bicycling/transit).
-version: 3.0.0
+version: 3.1.2
 author: Leo 🦁
 tags: [maps, places, location, navigation, google, traffic, directions, geocoding, routes-api]
-metadata: {"clawdbot":{"emoji":"🗺️","requires":{"env":["GOOGLE_API_KEY"]},"primaryEnv":"GOOGLE_API_KEY","install":[{"id":"pip","kind":"pip","package":"requests","label":"Install dependencies (pip)"}]}}
+metadata: {"clawdbot":{"emoji":"🗺️","requires":{"env":["GOOGLE_API_KEY"]},"primaryEnv":"GOOGLE_API_KEY","secondaryEnv":["GOOGLE_MAPS_API_KEY"],"install":[{"id":"pip","kind":"pip","package":"requests","label":"Install requests library"}]}}
 allowed-tools: [exec]
 ---
 
@@ -27,6 +27,7 @@ Google Maps integration powered by the Routes API.
 | Env Variable | Default | Description |
 |--------------|---------|-------------|
 | `GOOGLE_API_KEY` | - | Required. Your Google Maps API key |
+| `GOOGLE_MAPS_API_KEY` | - | Alternative to `GOOGLE_API_KEY` (fallback) |
 | `GOOGLE_MAPS_LANG` | `en` | Response language (en, he, ja, etc.) |
 
 Set in OpenClaw config:

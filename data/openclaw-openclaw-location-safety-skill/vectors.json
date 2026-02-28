@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-location-safety-skill",
+  "generated_at": "2026-02-28T14:46:20.481Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-location-safety-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-location-safety-skill/HEAD.md",
+      "text": "title: location-safety-skill\nsummary: Location-based safety monitoring with automatic alerts and escalation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sidu/location-safety-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-location-safety-skill",
+        "topic": "openclaw-openclaw-location-safety-skill",
+        "type": "skills",
+        "title": "location-safety-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sidu/location-safety-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:20.481Z",
+        "content_sha256": "90c513d3d36dd6285e533cf424bdca91e65754c73c6c0feb35b8d7c451d39b62"
+      }
+    }
+  ]
+}

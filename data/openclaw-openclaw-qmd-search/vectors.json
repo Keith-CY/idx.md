@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-qmd-search",
+  "generated_at": "2026-02-28T14:46:36.630Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-qmd-search#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-qmd-search/HEAD.md",
+      "text": "title: qmd-search\nsummary: Fast local search for markdown files, notes, and docs using qmd.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bheemreddy181/qmd-search/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-qmd-search",
+        "topic": "openclaw-openclaw-qmd-search",
+        "type": "skills",
+        "title": "qmd-search",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bheemreddy181/qmd-search/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:36.630Z",
+        "content_sha256": "6f8ee896ea01ec636ca367f8b4bac63d40026957886a9c11b88c97971281b7f1"
+      }
+    }
+  ]
+}

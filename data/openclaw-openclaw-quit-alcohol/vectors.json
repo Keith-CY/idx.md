@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-quit-alcohol",
+  "generated_at": "2026-02-28T14:46:36.794Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-quit-alcohol#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-quit-alcohol/HEAD.md",
+      "text": "title: quit-alcohol\nsummary: Track sobriety with alcohol-free streaks, craving management.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-alcohol/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-quit-alcohol",
+        "topic": "openclaw-openclaw-quit-alcohol",
+        "type": "skills",
+        "title": "quit-alcohol",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-alcohol/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:36.794Z",
+        "content_sha256": "59f86a700d02edf0f4b3ce417c559f36e2abf3645f2a061f1260ae4158627675"
+      }
+    }
+  ]
+}

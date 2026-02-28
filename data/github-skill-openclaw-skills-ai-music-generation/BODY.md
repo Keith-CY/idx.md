@@ -1,19 +1,14 @@
 ---
 name: ai-music-generation
-description: |
-  Generate AI music and songs with Diffrythm, Tencent Song Generation via inference.sh CLI.
-  Models: Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals).
-  Capabilities: text-to-music, song generation, instrumental, lyrics to song, soundtrack creation.
-  Use for: background music, social media content, game soundtracks, podcasts, royalty-free music.
-  Triggers: music generation, ai music, generate song, ai composer, text to music, song generator,
-  create music with ai, suno alternative, udio alternative, ai song, ai soundtrack,
-  generate soundtrack, ai jingle, music ai, beat generator
+description: "Generate AI music and songs with Diffrythm, Tencent Song Generation via inference.sh CLI. Models: Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals). Capabilities: text-to-music, song generation, instrumental, lyrics to song, soundtrack creation. Use for: background music, social media content, game soundtracks, podcasts, royalty-free music. Triggers: music generation, ai music, generate song, ai composer, text to music, song generator, create music with ai, suno alternative, udio alternative, ai song, ai soundtrack, generate soundtrack, ai jingle, music ai, beat generator"
 allowed-tools: Bash(infsh *)
 ---
 
 # AI Music Generation
 
 Generate music and songs via [inference.sh](https://inference.sh) CLI.
+
+![AI Music Generation](https://cloud.inference.sh/u/4mg21r6ta37mpaz6ktzwtt8krr/01jz01qvx0gdcyvhvhpfjjb6s4.png)
 
 ## Quick Start
 
@@ -24,6 +19,8 @@ curl -fsSL https://cli.inference.sh | sh && infsh login
 # Generate a song
 infsh app run infsh/diffrythm --input '{"prompt": "upbeat electronic dance track"}'
 ```
+
+> **Install note:** The [install script](https://cli.inference.sh) only detects your OS/architecture, downloads the matching binary from `dist.inference.sh`, and verifies its SHA-256 checksum. No elevated permissions or background processes. [Manual install & verification](https://dist.inference.sh/cli/checksums.txt) available.
 
 ## Available Models
 
@@ -109,16 +106,16 @@ infsh app run infsh/diffrythm --input '{
 
 ```bash
 # Full platform skill (all 150+ apps)
-npx skills add inference-sh/agent-skills@inference-sh
+npx skills add inference-sh/skills@inference-sh
 
 # Text-to-speech
-npx skills add inference-sh/agent-skills@text-to-speech
+npx skills add inference-sh/skills@text-to-speech
 
 # Video generation (add music to videos)
-npx skills add inference-sh/agent-skills@ai-video-generation
+npx skills add inference-sh/skills@ai-video-generation
 
 # Speech-to-text
-npx skills add inference-sh/agent-skills@speech-to-text
+npx skills add inference-sh/skills@speech-to-text
 ```
 
 Browse all apps: `infsh app list`

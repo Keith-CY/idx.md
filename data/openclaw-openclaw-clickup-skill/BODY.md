@@ -1,6 +1,13 @@
 ---
 name: clickup
-description: "Enterprise-grade ClickUp project management integration with advanced reporting, multi-workspace support, and client/project tracking. Core capabilities: (1) Multi-workspace task management with automatic workspace switching, (2) Advanced analytics & reporting (task counts, assignee breakdowns, status/priority analysis, daily standup reports) with automatic subtask inclusion and pagination, (3) Client folder organization with project tracking (📋 Client Overview, 📁 Completed Work, active project lists), (4) Full CRUD operations for spaces, folders, lists, tasks, and custom fields, (5) Time tracking & timer management with billing support, (6) Document creation and page management (API v3), (7) Task dependencies, linking, and relationship mapping, (8) Sales pipeline tracking with prospect/project status, (9) Retainer & recurring billing management. Built for agencies managing multiple clients across complex workspace hierarchies."
+description: "Enterprise-grade ClickUp project management integration with advanced reporting, multi-workspace support, and client/project tracking. Core capabilities: (1) Multi-workspace task management with automatic workspace switching, (2) Advanced analytics & reporting (task counts, assignee breakdowns, status/priority analysis, daily standup reports) with automatic subtask inclusion and pagination, (3) Client folder organization with project tracking, (4) Full CRUD operations for spaces, folders, lists, tasks, and custom fields, (5) Time tracking & timer management with billing support, (6) Document creation and page management (API v3), (7) Task dependencies, linking, and relationship mapping, (8) Sales pipeline tracking with prospect/project status, (9) Retainer & recurring billing management. Built for agencies managing multiple clients across complex workspace hierarchies."
+env:
+  - name: CLICKUP_API_TOKEN
+    description: "ClickUp personal API token. Generate at: ClickUp Settings → Apps → Generate API Token"
+    required: true
+dependencies:
+  - python3
+  - pip:requests
 ---
 
 # ClickUp Skill
@@ -13,7 +20,7 @@ description: "Enterprise-grade ClickUp project management integration with advan
 |---------|----------------|
 | **🔍 Always includes subtasks** | Never miss 70%+ of actual work — subtasks included automatically |
 | **📊 Advanced reporting** | Task counts, workload distribution, status breakdowns, standup reports |
-| **🏢 Multi-workspace** | Seamlessly switch between Client Work, Product Development, Personal Projects, and more |
+| **🏢 Multi-workspace** | Seamlessly switch between Elevated, Atrium, Winch Life, and more |
 | **👥 Client organization** | Structured folders: 📋 Client Overview, 📁 Completed Work, active projects |
 | **📈 Sales pipeline** | Track proposals, negotiations, and project lifecycles |
 | **⏱️ Time tracking** | Built-in timers and manual entries with billing support |
@@ -34,17 +41,17 @@ Get your token from: ClickUp Settings → Apps → Generate API Token
 
 **List all workspaces:**
 ```bash
-python skills/clickup/scripts/clickup_client.py get_teams
+python scripts/clickup_client.py get_teams
 ```
 
 **Create a task:**
 ```bash
-python skills/clickup/scripts/clickup_client.py create_task list_id="123" name="New Task" status="to do"
+python scripts/clickup_client.py create_task list_id="123" name="New Task" status="to do"
 ```
 
 **Update a task:**
 ```bash
-python skills/clickup/scripts/clickup_client.py update_task task_id="abc" status="in progress"
+python scripts/clickup_client.py update_task task_id="abc" status="in progress"
 ```
 
 ## Workspace Hierarchy
@@ -89,7 +96,7 @@ See [API Reference](references/api_reference.md) for status configuration format
 
 **Option A - Manual Entry:**
 ```bash
-python skills/clickup_client.py create_time_entry \
+python scripts/clickup_client.py create_time_entry \
   team_id="xxx" \
   task_id="yyy" \
   duration=3600000 \
@@ -99,10 +106,10 @@ python skills/clickup_client.py create_time_entry \
 **Option B - Timer:**
 ```bash
 # Start timer
-python skills/clickup/scripts/clickup_client.py start_timer team_id="xxx" task_id="yyy"
+python scripts/clickup_client.py start_timer team_id="xxx" task_id="yyy"
 
 # Stop timer (stops current running timer for user)
-python skills/clickup/scripts/clickup_client.py stop_timer team_id="xxx"
+python scripts/clickup_client.py stop_timer team_id="xxx"
 ```
 
 ### Workflow: Create Document Structure
@@ -116,53 +123,53 @@ Note: Documents use ClickUp API v3 (workspace_id instead of team_id).
 
 **Get task counts (with parent/subtask breakdown):**
 ```bash
-python skills/clickup/scripts/clickup_client.py task_counts team_id="xxx"
+python scripts/clickup_client.py task_counts team_id="xxx"
 # Returns: {"total": 50, "parents": 20, "subtasks": 30, "unassigned": 5}
 ```
 
 **Get workload by assignee:**
 ```bash
-python skills/clickup/scripts/clickup_client.py assignee_breakdown team_id="xxx"
+python scripts/clickup_client.py assignee_breakdown team_id="xxx"
 # Returns: {"John Doe": 15, "Jane Smith": 12, "Unassigned": 8}
 ```
 
 **Get tasks by status:**
 ```bash
-python skills/clickup/scripts/clickup_client.py status_breakdown team_id="xxx"
+python scripts/clickup_client.py status_breakdown team_id="xxx"
 # Returns: {"to do": 20, "in progress": 10, "complete": 15}
 ```
 
 **Get tasks by priority:**
 ```bash
-python skills/clickup/scripts/clickup_client.py priority_breakdown team_id="xxx"
+python scripts/clickup_client.py priority_breakdown team_id="xxx"
 # Returns: {"urgent": 2, "high": 5, "normal": 15, "low": 8, "none": 20}
 ```
 
 **Daily standup report (grouped by status):**
 ```bash
 # All team members
-python skills/clickup/scripts/clickup_client.py standup_report team_id="xxx"
+python scripts/clickup_client.py standup_report team_id="xxx"
 
 # Specific person (use user ID)
-python skills/clickup/scripts/clickup_client.py standup_report team_id="xxx" assignee_id="12345"
+python scripts/clickup_client.py standup_report team_id="xxx" assignee_id="12345"
 ```
 
 **Get all tasks with pagination (auto-handled):**
 ```bash
-python skills/clickup/scripts/clickup_client.py get_all_tasks team_id="xxx"
+python scripts/clickup_client.py get_all_tasks team_id="xxx"
 # Always includes subtasks automatically (critical!)
 ```
 
 **Filter reports by space or assignee:**
 ```bash
 # Specific space
-python skills/clickup/scripts/clickup_client.py task_counts team_id="xxx" space_ids='["SPACE_ID_HERE"]'
+python scripts/clickup_client.py task_counts team_id="xxx" space_ids='["90172290075"]'
 
 # Specific assignee
-python skills/clickup/scripts/clickup_client.py get_all_tasks team_id="xxx" assignees='["12345"]'
+python scripts/clickup_client.py get_all_tasks team_id="xxx" assignees='["12345"]'
 
 # Include closed tasks
-python skills/clickup/scripts/clickup_client.py task_counts team_id="xxx" include_closed="true"
+python scripts/clickup_client.py task_counts team_id="xxx" include_closed="true"
 ```
 
 **Critical Rules for Reporting:**
@@ -175,14 +182,14 @@ python skills/clickup/scripts/clickup_client.py task_counts team_id="xxx" includ
 
 **Option A - Add as attachment:**
 ```bash
-python skills/clickup/scripts/clickup_client.py link_doc_to_task \
+python scripts/clickup_client.py link_doc_to_task \
   task_id="xxx" \
   doc_id="yyy"
 ```
 
 **Option B - Mention in description:**
 ```bash
-python skills/clickup/scripts/clickup_client.py mention_doc_in_task \
+python scripts/clickup_client.py mention_doc_in_task \
   task_id="xxx" \
   doc_id="yyy"
 ```
@@ -194,16 +201,16 @@ Both create clickable links to the document from the task.
 **Set up blocking relationship:**
 ```bash
 # Task B is blocked by/waiting on Task A
-python skills/clickup/scripts/clickup_client.py add_dependency \
+python scripts/clickup_client.py add_dependency \
   task_id="TASK_B_ID" \
   depends_on="TASK_A_ID"
 
 # Check dependencies
-python skills/clickup/scripts/clickup_client.py get_dependencies \
+python scripts/clickup_client.py get_dependencies \
   task_id="TASK_B_ID"
 
 # Remove dependency
-python skills/clickup/scripts/clickup_client.py remove_dependency \
+python scripts/clickup_client.py remove_dependency \
   task_id="TASK_B_ID" \
   depends_on="TASK_A_ID"
 ```
@@ -211,7 +218,7 @@ python skills/clickup/scripts/clickup_client.py remove_dependency \
 **Set up reverse dependency (task is blocking another):**
 ```bash
 # Task A is blocking Task B
-python skills/clickup/scripts/clickup_client.py add_dependency \
+python scripts/clickup_client.py add_dependency \
   task_id="TASK_A_ID" \
   waiting_on="TASK_B_ID"
 ```
@@ -222,12 +229,12 @@ For related tasks that aren't blocking each other:
 
 ```bash
 # Link Task A to Task B (arbitrary relationship)
-python skills/clickup/scripts/clickup_client.py link_tasks \
+python scripts/clickup_client.py link_tasks \
   task_id="TASK_A_ID" \
   links_to="TASK_B_ID"
 
 # Remove link
-python skills/clickup/scripts/clickup_client.py unlink_tasks \
+python scripts/clickup_client.py unlink_tasks \
   task_id="TASK_A_ID" \
   links_to="TASK_B_ID"
 ```
@@ -239,7 +246,7 @@ Note: `link_tasks` creates a "linked task" relationship (appears in task's "Link
 For bulk operations, loop through tasks:
 ```bash
 # Get tasks
-TASKS=$(python skills/clickup/scripts/clickup_client.py get_tasks list_id="xxx")
+TASKS=$(python scripts/clickup_client.py get_tasks list_id="xxx")
 
 # Process each (parse JSON and loop)
 ```
@@ -329,7 +336,7 @@ To work with custom fields:
 1. Get field definitions: `GET /list/{list_id}/field` (see API Reference)
 2. Set values when creating/updating tasks:
    ```bash
-   python skills/clickup/scripts/clickup_client.py update_task \
+   python scripts/clickup_client.py update_task \
      task_id="xxx" \
      'custom_fields=[{"id":"field_id","value":"value"}]'
    ```
@@ -339,7 +346,7 @@ To work with custom fields:
 When creating/updating spaces or lists:
 
 ```bash
-python skills/clickup/scripts/clickup_client.py update_space \
+python scripts/clickup_client.py update_space \
   space_id="xxx" \
   'statuses=[{"status":"To Do","type":"open"},{"status":"Done","type":"closed"}]'
 ```
@@ -367,7 +374,7 @@ Common errors and solutions:
 For complex operations, import the client directly:
 
 ```python
-from skills.clickup.scripts.clickup_client import ClickUpClient
+from scripts.clickup_client import ClickUpClient
 
 client = ClickUpClient()
 

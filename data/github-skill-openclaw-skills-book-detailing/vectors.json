@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-openclaw-skills-book-detailing",
+  "generated_at": "2026-02-28T14:45:22.692Z",
+  "records": [
+    {
+      "id": "skills/github-skill-openclaw-skills-book-detailing#head",
+      "kind": "head",
+      "path": "/data/github-skill-openclaw-skills-book-detailing/HEAD.md",
+      "text": "title: book-detailing\nsummary: Book detailing services through Lokuli MCP. Use when user needs to find and book detailing. Triggers on requests like \"book a detailing\", \"find detailing near me\", or any detailing service request.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-openclaw, github-repo-skills\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-openclaw-skills-book-detailing",
+        "topic": "github-skill-openclaw-skills-book-detailing",
+        "type": "skills",
+        "title": "book-detailing",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-openclaw",
+          "github-repo-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardrodriguez703-design/book-detailing/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:22.692Z",
+        "content_sha256": "27ebdce0de5990a9ebb7282dff6a024086426c0f49ad59fe272fccfc82be86e5"
+      }
+    }
+  ]
+}

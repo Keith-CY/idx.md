@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-swiss-transport",
+  "generated_at": "2026-02-28T14:46:46.926Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-swiss-transport#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-swiss-transport/HEAD.md",
+      "text": "title: swiss-transport\nsummary: Swiss Public Transport real-time information.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swiss-transport/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-swiss-transport",
+        "topic": "openclaw-openclaw-swiss-transport",
+        "type": "skills",
+        "title": "swiss-transport",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swiss-transport/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:46.926Z",
+        "content_sha256": "903fb1a9548ff694f968bcdb4e9b4ebec834356664fbfd9bf5bd90095aa11b85"
+      }
+    }
+  ]
+}

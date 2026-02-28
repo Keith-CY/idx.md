@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gifhorse",
+  "generated_at": "2026-02-28T14:46:10.670Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gifhorse#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gifhorse/HEAD.md",
+      "text": "title: gifhorse\nsummary: Search video dialogue and create reaction GIFs with subtitles.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/gifhorse/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gifhorse",
+        "topic": "openclaw-openclaw-gifhorse",
+        "type": "skills",
+        "title": "gifhorse",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/coyote-git/gifhorse/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:10.670Z",
+        "content_sha256": "1802a1e04fa63b269f29bfe56e694d516bc339fcc90544b1bbf93197996f7d14"
+      }
+    }
+  ]
+}

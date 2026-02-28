@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
+  "generated_at": "2026-02-28T14:45:38.441Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry#head",
+      "kind": "head",
+      "path": "/data/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry/HEAD.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry\nsummary: # Foundry Agent Deploy Create and manage agent deployments in Azure AI Foundry. For hosted agents, this includes the full workflow from containerizing the project to starting the agent container. ## Quick Reference | Property | Value | |----------|-------| | Agent types | Prompt (LLM-based), Hosted (ACA based), Hosted (vNext) | | MCP server | `foundry-mcp` | | Key MCP tools | `agent_update`, `agent_container_control`, `agent_container_status_get` | | CLI tools | `docker`, `az acr` (hosted agents only) | | Container protocols | `a2a`, `responses`, `mcp` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
+        "topic": "skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
+        "type": "skills",
+        "title": "skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md",
+        "retrieved_at": "2026-02-28T14:45:38.441Z",
+        "content_sha256": "8673ceff0654bfd16b0a9339a8947ffb6411d41636b4704cd5e666374fa225ef"
+      }
+    }
+  ]
+}

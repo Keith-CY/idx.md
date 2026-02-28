@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-azure-ai-agents-py",
+  "generated_at": "2026-02-28T14:45:50.479Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-azure-ai-agents-py#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-azure-ai-agents-py/HEAD.md",
+      "text": "title: azure-ai-agents-py\nsummary: Build AI agents using the Azure AI Agents Python SDK (azure-ai-agents).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-agents-py/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-azure-ai-agents-py",
+        "topic": "openclaw-openclaw-azure-ai-agents-py",
+        "type": "skills",
+        "title": "azure-ai-agents-py",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-agents-py/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:50.479Z",
+        "content_sha256": "c6b8086cdd9f42c060eb5dd5c81f6592b046f3fb77890090abb16b5ca547a3de"
+      }
+    }
+  ]
+}

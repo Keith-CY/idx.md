@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-pet",
+  "generated_at": "2026-02-28T14:46:32.311Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-pet#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-pet/HEAD.md",
+      "text": "title: pet\nsummary: Simple command-line snippet manager.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/pet/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-pet",
+        "topic": "openclaw-openclaw-pet",
+        "type": "skills",
+        "title": "pet",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/pet/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:32.311Z",
+        "content_sha256": "9818694ee30dfd6d76ff4f5813e11eac37d7e20693f4f396ab20feccbea562d6"
+      }
+    }
+  ]
+}

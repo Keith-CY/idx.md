@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-product-manager-toolkit",
+  "generated_at": "2026-02-28T14:46:35.054Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-product-manager-toolkit#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-product-manager-toolkit/HEAD.md",
+      "text": "title: product-manager-toolkit\nsummary: Comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-manager-toolkit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-product-manager-toolkit",
+        "topic": "openclaw-openclaw-product-manager-toolkit",
+        "type": "skills",
+        "title": "product-manager-toolkit",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-manager-toolkit/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:35.054Z",
+        "content_sha256": "55940b94f44aaa54c2ab47f6d049ae7a6e56a966ab1c2922a1f9d3922c8ae3b8"
+      }
+    }
+  ]
+}

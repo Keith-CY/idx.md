@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-salesforce-dx",
+  "generated_at": "2026-02-28T14:46:40.261Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-salesforce-dx#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-salesforce-dx/HEAD.md",
+      "text": "title: salesforce-dx\nsummary: Query Salesforce data and manage sales pipelines using the `sf`.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmcgirr-pl/salesforce-dx/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-salesforce-dx",
+        "topic": "openclaw-openclaw-salesforce-dx",
+        "type": "skills",
+        "title": "salesforce-dx",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmcgirr-pl/salesforce-dx/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.261Z",
+        "content_sha256": "c132c2471551f5f69d76453940246db233ec9995a4f90e846cf6582d43752116"
+      }
+    }
+  ]
+}

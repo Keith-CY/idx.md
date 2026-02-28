@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-antfu-skills-tsdown",
+  "generated_at": "2026-02-28T14:45:33.503Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-antfu-skills-tsdown#head",
+      "kind": "head",
+      "path": "/data/skills-sh-antfu-skills-tsdown/HEAD.md",
+      "text": "title: skills-sh-antfu-skills-tsdown\nsummary: # Getting Started Quick guide to installing and using tsdown for the first time. ## Installation Install tsdown as a development dependency: ```bash pnpm add -D tsdown # Optionally install TypeScript if not using isolatedDeclarations pnpm add -D typescript ``` **Requirements:**\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/tsdown/references/guide-getting-started.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-antfu-skills-tsdown",
+        "topic": "skills-sh-antfu-skills-tsdown",
+        "type": "skills",
+        "title": "skills-sh-antfu-skills-tsdown",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/tsdown/references/guide-getting-started.md",
+        "retrieved_at": "2026-02-28T14:45:33.503Z",
+        "content_sha256": "3d9f7e531b08b560cf44bf2d0ed6568394a3b9cde2641768918ea8179ad98091"
+      }
+    }
+  ]
+}

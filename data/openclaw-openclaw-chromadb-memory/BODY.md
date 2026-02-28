@@ -1,7 +1,7 @@
 ---
 name: chromadb-memory
 description: Long-term memory via ChromaDB with local Ollama embeddings. Auto-recall injects relevant context every turn. No cloud APIs required — fully self-hosted.
-version: 1.0.0
+version: 1.2.0
 author: matts
 homepage: https://github.com/openclaw/openclaw
 metadata:
@@ -52,10 +52,7 @@ mkdir -p ~/.openclaw/extensions/chromadb-memory
 cp {baseDir}/scripts/index.ts ~/.openclaw/extensions/chromadb-memory/
 cp {baseDir}/scripts/openclaw.plugin.json ~/.openclaw/extensions/chromadb-memory/
 
-# 2. Get your collection ID
-curl -s http://localhost:8100/api/v2/tenants/default_tenant/databases/default_database/collections | python3 -c "import json,sys; [print(f'{c[\"id\"]}  {c[\"name\"]}') for c in json.load(sys.stdin)]"
-
-# 3. Add to your OpenClaw config (~/.openclaw/openclaw.json):
+# 2. Add to your OpenClaw config (~/.openclaw/openclaw.json):
 ```
 
 ```json
@@ -66,7 +63,7 @@ curl -s http://localhost:8100/api/v2/tenants/default_tenant/databases/default_da
         "enabled": true,
         "config": {
           "chromaUrl": "http://localhost:8100",
-          "collectionId": "YOUR_COLLECTION_ID",
+          "collectionName": "longterm_memory",
           "ollamaUrl": "http://localhost:11434",
           "embeddingModel": "nomic-embed-text",
           "autoRecall": true,
@@ -89,7 +86,8 @@ openclaw gateway restart
 | Option | Default | Description |
 |--------|---------|-------------|
 | `chromaUrl` | `http://localhost:8100` | ChromaDB server URL |
-| `collectionId` | *required* | ChromaDB collection UUID |
+| `collectionName` | `longterm_memory` | Collection name (auto-resolves UUID, survives reindexing) |
+| `collectionId` | — | Collection UUID (optional fallback) |
 | `ollamaUrl` | `http://localhost:11434` | Ollama API URL |
 | `embeddingModel` | `nomic-embed-text` | Ollama embedding model |
 | `autoRecall` | `true` | Auto-inject relevant memories each turn |

@@ -1,0 +1,23 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-mrgoodb-intercom",
+  "generated_at": "2026-02-28T14:45:27.782Z",
+  "records": [
+    {
+      "id": "skills/openclaw-mrgoodb-intercom#head",
+      "kind": "head",
+      "path": "/data/openclaw-mrgoodb-intercom/HEAD.md",
+      "text": "title: openclaw-mrgoodb-intercom\nsummary: --- name: intercom description: Manage customer conversations, contacts, and help articles via Intercom API. Send messages and manage support inbox. metadata: {\"clawdbot\":{\"emoji\":\"💬\",\"requires\":{\"env\":[\"INTERCOM_ACCESS_TOKEN\"]}}} --- # Intercom Customer messaging platform. ## Environment ```bash export INTERCOM_ACCESS_TOKEN=\"dG9rOxxxxxxxxxx\"\ntype: skills\ntags: (none)\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/intercom/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-mrgoodb-intercom",
+        "topic": "openclaw-mrgoodb-intercom",
+        "type": "skills",
+        "title": "openclaw-mrgoodb-intercom",
+        "tags": [],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrgoodb/intercom/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:27.782Z",
+        "content_sha256": "236513c370ecd112822cb27a6e3bea0458a6ed74ace3ca2773530984b1f43511"
+      }
+    }
+  ]
+}

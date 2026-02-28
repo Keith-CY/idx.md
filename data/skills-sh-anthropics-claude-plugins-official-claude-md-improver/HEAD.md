@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-md-improver
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:49.738Z
+github_stars: 8532
+github_forks: 835
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:41.603Z
 content_sha256: 383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1
 ---

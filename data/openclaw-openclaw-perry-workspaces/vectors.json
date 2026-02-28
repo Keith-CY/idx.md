@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-perry-workspaces",
+  "generated_at": "2026-02-28T14:46:32.086Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-perry-workspaces#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-perry-workspaces/HEAD.md",
+      "text": "title: perry-workspaces\nsummary: Create and manage isolated Docker workspaces on your tailnet with Claude.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/perry-workspaces/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-perry-workspaces",
+        "topic": "openclaw-openclaw-perry-workspaces",
+        "type": "skills",
+        "title": "perry-workspaces",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/perry-workspaces/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:32.086Z",
+        "content_sha256": "afabcd343b469e241331a96ad2acdff988248dce8abf3abc3f928bdc218f391b"
+      }
+    }
+  ]
+}

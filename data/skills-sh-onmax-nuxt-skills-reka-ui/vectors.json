@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-onmax-nuxt-skills-reka-ui",
+  "generated_at": "2026-02-28T14:45:40.651Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-onmax-nuxt-skills-reka-ui#head",
+      "kind": "head",
+      "path": "/data/skills-sh-onmax-nuxt-skills-reka-ui/HEAD.md",
+      "text": "title: skills-sh-onmax-nuxt-skills-reka-ui\nsummary: # Components > Auto-generated. Run `npx tsx skills/reka-ui/scripts/generate-components.ts` to update. ## Form | Component | Description | File | | --------------- | ------------------------------------------- | ---------------------------- | | **checkbox** | Selection control with indeterminate state | `components/checkbox.md` | | **combobox** | Searchable dropdown with filtering | `components/combobox.md` | | **editable** | Inline text editing with preview/edit modes | `components/editable.md` | | **label** | Accessible form label | `components/label.md` | | **listbox** | Accessible list selection | `components/listbox.md` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/reka-ui/references/components.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-onmax-nuxt-skills-reka-ui",
+        "topic": "skills-sh-onmax-nuxt-skills-reka-ui",
+        "type": "skills",
+        "title": "skills-sh-onmax-nuxt-skills-reka-ui",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/reka-ui/references/components.md",
+        "retrieved_at": "2026-02-28T14:45:40.651Z",
+        "content_sha256": "48e417f86ac1fc35c038d9cf6b377a5461a09032a285883cf125f4aa33180f9c"
+      }
+    }
+  ]
+}

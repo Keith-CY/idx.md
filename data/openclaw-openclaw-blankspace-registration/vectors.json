@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-blankspace-registration",
+  "generated_at": "2026-02-28T14:45:52.153Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-blankspace-registration#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-blankspace-registration/HEAD.md",
+      "text": "title: blankspace-registration\nsummary: Register your AI agent on Farcaster via Blankspace.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/willyogo/blankspace-registration/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-blankspace-registration",
+        "topic": "openclaw-openclaw-blankspace-registration",
+        "type": "skills",
+        "title": "blankspace-registration",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/willyogo/blankspace-registration/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:52.153Z",
+        "content_sha256": "dae7311ff45fada1567e490b7b15269d798b37121ac0cb46693dcb025c96de5f"
+      }
+    }
+  ]
+}

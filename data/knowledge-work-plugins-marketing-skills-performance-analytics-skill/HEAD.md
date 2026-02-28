@@ -18,6 +18,6 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:39.292Z
+retrieved_at: 2026-02-28T14:45:30.230Z
 content_sha256: 9b8649d5aa6739d0f92843f3c01a2614cd32757f4e9b41cc632ad912973088be
 ---

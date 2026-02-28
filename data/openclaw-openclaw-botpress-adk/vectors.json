@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-botpress-adk",
+  "generated_at": "2026-02-28T14:45:52.756Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-botpress-adk#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-botpress-adk/HEAD.md",
+      "text": "title: botpress-adk\nsummary: A guide to build AI bots with Botpress's Agent Development Kit (ADK)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yueranlu/botpress-adk/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-botpress-adk",
+        "topic": "openclaw-openclaw-botpress-adk",
+        "type": "skills",
+        "title": "botpress-adk",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yueranlu/botpress-adk/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:52.756Z",
+        "content_sha256": "244f081db6cc8df312e23840fe542483d9684dcb03cb23abacee49ce563afe44"
+      }
+    }
+  ]
+}

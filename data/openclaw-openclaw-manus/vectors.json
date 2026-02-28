@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-manus",
+  "generated_at": "2026-02-28T14:46:20.936Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-manus#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-manus/HEAD.md",
+      "text": "title: manus\nsummary: Create and manage AI agent tasks via Manus API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/manus/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-manus",
+        "topic": "openclaw-openclaw-manus",
+        "type": "skills",
+        "title": "manus",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/manus/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:20.936Z",
+        "content_sha256": "4afb1c30f7fda5d51c71da94222768fc002f195a49677b49c758c860053245e9"
+      }
+    }
+  ]
+}

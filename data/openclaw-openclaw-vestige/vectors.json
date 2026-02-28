@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-vestige",
+  "generated_at": "2026-02-28T14:46:52.845Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-vestige#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-vestige/HEAD.md",
+      "text": "title: vestige\nsummary: Cognitive memory system using FSRS-6 spaced repetition.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/belkouche/vestige/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-vestige",
+        "topic": "openclaw-openclaw-vestige",
+        "type": "skills",
+        "title": "vestige",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/belkouche/vestige/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:52.845Z",
+        "content_sha256": "7300df1bf6b8c8775a92a279eec2f61502f7de538fb4c9e8556cd3c3db0b8c24"
+      }
+    }
+  ]
+}

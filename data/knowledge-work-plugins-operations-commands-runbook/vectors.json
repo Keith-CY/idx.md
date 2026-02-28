@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-operations-commands-runbook",
+  "generated_at": "2026-02-28T14:45:35.512Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-operations-commands-runbook#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-operations-commands-runbook/HEAD.md",
+      "text": "title: runbook\nsummary: Create or update an operational runbook\ntype: skills\ntags: source-knowledge-work-plugins, plugin-operations, plugin-component-commands, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/runbook.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-operations-commands-runbook",
+        "topic": "knowledge-work-plugins-operations-commands-runbook",
+        "type": "skills",
+        "title": "runbook",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-operations",
+          "plugin-component-commands",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/commands/runbook.md",
+        "retrieved_at": "2026-02-28T14:45:35.512Z",
+        "content_sha256": "d33cc0377d092f0ee0a4aafcd38946029a44bfa80fad9e93a03de35df80197d3"
+      }
+    }
+  ]
+}

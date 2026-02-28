@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-fanvue",
+  "generated_at": "2026-02-28T14:46:07.025Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-fanvue#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-fanvue/HEAD.md",
+      "text": "title: fanvue\nsummary: Manage content, chats, subscribers, and earnings on the Fanvue creator platform via OAuth 2.0 API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/igorls/fanvue/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-fanvue",
+        "topic": "openclaw-openclaw-fanvue",
+        "type": "skills",
+        "title": "fanvue",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/igorls/fanvue/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:07.025Z",
+        "content_sha256": "dc74b96859f4199a4982e680de8cbe2ae04bfefb9df7817b8636b7521324cf88"
+      }
+    }
+  ]
+}

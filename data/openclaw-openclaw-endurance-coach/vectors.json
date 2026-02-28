@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-endurance-coach",
+  "generated_at": "2026-02-28T14:46:05.722Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-endurance-coach#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-endurance-coach/HEAD.md",
+      "text": "title: endurance-coach\nsummary: Create personalized triathlon, marathon, and ultra-endurance training plans.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/endurance-coach/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-endurance-coach",
+        "topic": "openclaw-openclaw-endurance-coach",
+        "type": "skills",
+        "title": "endurance-coach",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/endurance-coach/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:05.722Z",
+        "content_sha256": "164b54510ee98efdb1fa16257df121764cd0f8d678911d1018bee27df50719ad"
+      }
+    }
+  ]
+}

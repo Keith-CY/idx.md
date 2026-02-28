@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-discord",
+  "generated_at": "2026-02-28T14:46:03.510Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-discord#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-discord/HEAD.md",
+      "text": "title: discord\nsummary: Use when you need to control Discord from Clawdbot via the discord tool: send messages, react.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/discord/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-discord",
+        "topic": "openclaw-openclaw-discord",
+        "type": "skills",
+        "title": "discord",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/discord/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:03.510Z",
+        "content_sha256": "9ea23563b30f14bbe76f5ff93762b6eff8b42f96c8c8db4996e94eb70ddcb7b8"
+      }
+    }
+  ]
+}

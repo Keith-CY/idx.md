@@ -27,12 +27,12 @@ summary: >-
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/ReScienceLab/opc-skills/HEAD/skills/logo-creator/references/styles.md
+source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/logo-creator/references/styles.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/logo-creator
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.963Z
+github_stars: 480
+github_forks: 47
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:42.734Z
 content_sha256: 3586f209bc6f7f3e0addbeb289d240f3d0b13cfae654a33512b12ba1bd2df80e
 ---

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-section11",
+  "generated_at": "2026-02-28T14:46:40.845Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-section11#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-section11/HEAD.md",
+      "text": "title: section11\nsummary: Evidence-based endurance cycling coaching protocol.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crankaddict/section11/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-section11",
+        "topic": "openclaw-openclaw-section11",
+        "type": "skills",
+        "title": "section11",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crankaddict/section11/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.845Z",
+        "content_sha256": "a46c57bf98a1390786443d24321b8ca27840d2a5f41b58c4a0be266e426722d8"
+      }
+    }
+  ]
+}

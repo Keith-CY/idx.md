@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-gcal-pro",
+  "generated_at": "2026-02-28T14:46:09.717Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-gcal-pro#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-gcal-pro/HEAD.md",
+      "text": "title: gcal-pro\nsummary: Google Calendar: view, create, manage events with natural language.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bilalmohamed187-cpu/gcal-pro/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-gcal-pro",
+        "topic": "openclaw-openclaw-gcal-pro",
+        "type": "skills",
+        "title": "gcal-pro",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bilalmohamed187-cpu/gcal-pro/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:09.717Z",
+        "content_sha256": "02fabcb1006fe0be170ad705468753239adbd7335837b04f52e9a3ff351e766a"
+      }
+    }
+  ]
+}

@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/inference-sh/skills/agentic-browser
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:42.987Z
+retrieved_at: 2026-02-28T14:45:32.171Z
 content_sha256: b1c709ebcf54b26d957886efb8239ddb480d58ddb95fec297ffd42cfe1261c5e
 ---

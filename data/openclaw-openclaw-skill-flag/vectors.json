@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skill-flag",
+  "generated_at": "2026-02-28T14:46:43.148Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skill-flag#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skill-flag/HEAD.md",
+      "text": "title: skill-flag\nsummary: Scan Clawdbot/OpenClaw skills for malicious patterns, backdoors.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/patfire94/skill-flag/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skill-flag",
+        "topic": "openclaw-openclaw-skill-flag",
+        "type": "skills",
+        "title": "skill-flag",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/patfire94/skill-flag/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.148Z",
+        "content_sha256": "bf20a33429afca41e5ef2d1c939489cffea6ac86849cadc8812f5630590a49f6"
+      }
+    }
+  ]
+}

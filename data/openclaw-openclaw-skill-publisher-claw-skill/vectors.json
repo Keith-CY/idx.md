@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-skill-publisher-claw-skill",
+  "generated_at": "2026-02-28T14:46:43.193Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-skill-publisher-claw-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-skill-publisher-claw-skill/HEAD.md",
+      "text": "title: skill-publisher-claw-skill\nsummary: Prepare Claw skills for public release.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/acastellana/skill-publisher-claw-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-skill-publisher-claw-skill",
+        "topic": "openclaw-openclaw-skill-publisher-claw-skill",
+        "type": "skills",
+        "title": "skill-publisher-claw-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/acastellana/skill-publisher-claw-skill/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.193Z",
+        "content_sha256": "7a0c0cd43dcca0c34e38bf3223d085de14346396be58c1e0423cc26990ca8d40"
+      }
+    }
+  ]
+}

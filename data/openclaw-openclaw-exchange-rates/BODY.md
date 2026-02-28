@@ -1,6 +1,10 @@
 ---
 name: exchange-rates
-description: Fetch live exchange rates between any currency pairs from XE.com. Use when user asks about currency conversion, exchange rates, forex rates, or converting amounts between currencies (e.g., "USD to INR", "100 EUR in GBP", "what's the dollar rate").
+description: >
+  Fetch live exchange rates between any currency pairs from XE.com.
+  Use when: user asks about currency conversion, exchange rates, forex rates, or converting amounts between currencies (e.g., "USD to INR", "100 EUR in GBP", "what's the dollar rate", "how much is 500 euros").
+  Don't use when: user asks about stock prices, crypto prices, or financial markets — those are web searches, not currency conversions.
+  Output: JSON with rate, converted amount, and source. Present cleanly with unit rate and total.
 ---
 
 # Exchange Rates (XE.com)

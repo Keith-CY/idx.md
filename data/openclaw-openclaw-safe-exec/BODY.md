@@ -1,10 +1,27 @@
 ---
 name: safe-exec
 description: Safe command execution for OpenClaw Agents with automatic danger pattern detection, risk assessment, user approval workflow, and audit logging. Use when agents need to execute shell commands that may be dangerous (rm -rf, dd, fork bombs, system directory modifications) or require human oversight. Provides multi-level risk assessment (CRITICAL/HIGH/MEDIUM/LOW), in-session notifications, pending request management, and non-interactive environment support for agent automation.
-
-Quick Install: Say "Help me install SafeExec skill from ClawdHub" in your OpenClaw chat to automatically install and enable this safety layer.
-
-Report Issues: https://github.com/OTTTTTO/safe-exec/issues - Community feedback and bug reports welcome!
+metadata:
+  {
+    "openclaw":
+      {
+        "env": ["SAFE_EXEC_DISABLE", "OPENCLAW_AGENT_CALL", "SAFE_EXEC_AUTO_CONFIRM"],
+        "writes": ["~/.openclaw/safe-exec/", "~/.openclaw/safe-exec-audit.log"],
+        "network": false,
+        "monitoring": false,
+        "credentials": []
+      },
+      "requires": { "bins": ["jq"] },
+      "install":
+        [
+          {
+            "id": "git",
+            "kind": "git",
+            "url": "https://github.com/OTTTTTO/safe-exec.git",
+            "label": "Clone from GitHub",
+          },
+        ],
+  }
 ---
 
 # SafeExec - Safe Command Execution
@@ -19,7 +36,23 @@ Provides secure command execution capabilities for OpenClaw Agents with automati
 - ✅ **User approval workflow** - Commands wait for explicit confirmation
 - 📊 **Complete audit logging** - Full traceability of all operations
 - 🤖 **Agent-friendly** - Non-interactive mode support for automated workflows
-- 🔧 **Platform-agnostic** - Works independently of communication tools (Feishu, Telegram, etc.)
+- 🔧 **Platform-agnostic** - Works independently of communication tools (webchat, Feishu, Telegram, etc.)
+- 🔐 **Security-focused** - No monitoring, no external notifications, no network calls
+
+## Agent Mode
+
+When called by OpenClaw agents in non-interactive environments:
+
+- **Automatic bypass of confirmation prompts** - Prevents agent hanging
+- **Full audit logging** - All executions recorded with mode label (agent_auto vs user_approved)
+- **Safety preserved** - Danger pattern detection and risk assessment remain active
+- **Intended use case** - Automated workflows with human oversight via audit logs
+
+**Environment variables:**
+- `OPENCLAW_AGENT_CALL` - Set by OpenClaw when agent executes commands
+- `SAFE_EXEC_AUTO_CONFIRM` - Manual override to auto-approve LOW/MEDIUM risk commands
+
+**Security Note:** Agent mode does not disable safety checks. CRITICAL and HIGH risk commands are still intercepted, logged, and can be reviewed in audit trail.
 
 ## Quick Start
 
@@ -39,13 +72,15 @@ OpenClaw will automatically download, install, and configure SafeExec for you!
 If you prefer manual installation:
 
 ```bash
-# Using ClawdHub CLI
-export CLAWDHUB_REGISTRY=https://www.clawhub.ai
-clawdhub install safe-exec
-
-# Or download directly from GitHub
+# Clone from GitHub
 git clone https://github.com/OTTTTTO/safe-exec.git ~/.openclaw/skills/safe-exec
+
+# Make scripts executable
 chmod +x ~/.openclaw/skills/safe-exec/safe-exec*.sh
+
+# Create symlinks to PATH (optional)
+ln -s ~/.openclaw/skills/safe-exec/safe-exec.sh ~/.local/bin/safe-exec
+ln -s ~/.openclaw/skills/safe-exec/safe-exec-*.sh ~/.local/bin/
 ```
 
 ### Enable SafeExec
@@ -65,6 +100,8 @@ Once enabled, SafeExec automatically monitors all shell command executions. When
 - Requests stored in: `~/.openclaw/safe-exec/pending/`
 - Audit log: `~/.openclaw/safe-exec-audit.log`
 - Rules config: `~/.openclaw/safe-exec-rules.json`
+- No external network calls
+- No background monitoring processes
 
 ## Usage
 
@@ -95,9 +132,9 @@ SafeExec detects the risk level and displays an in-session prompt for approval.
 
 ## Risk Levels
 
-**CRITICAL**: System-destructive commands (rm -rf /, dd, mkfs, etc.)
-**HIGH**: User data deletion or significant system changes
-**MEDIUM**: Service operations or configuration changes
+**CRITICAL**: System-destructive commands (rm -rf /, dd, mkfs, fork bombs)
+**HIGH**: User data deletion or significant system changes (chmod 777, curl | bash)
+**MEDIUM**: Service operations or configuration changes (sudo, firewall modifications)
 **LOW**: Read operations and safe file manipulations
 
 ## Approval Workflow
@@ -204,11 +241,29 @@ All command executions are logged with:
 - Timestamp
 - Command executed
 - Risk level
+- Execution mode (user_approved / agent_auto)
 - Approval status
 - Execution result
 - Request ID for traceability
 
 Log location: `~/.openclaw/safe-exec-audit.log`
+
+## Security & Privacy
+
+**What SafeExec does:**
+- ✅ Intercepts shell commands before execution
+- ✅ Detects dangerous patterns using regex matching
+- ✅ Requests user approval for risky commands
+- ✅ Logs all executions to local audit file
+- ✅ Works entirely locally on your machine
+
+**What SafeExec does NOT do:**
+- ❌ No monitoring of chat sessions or conversation history
+- ❌ No reading of OpenClaw session data
+- ❌ No external network requests (except git clone during installation)
+- ❌ No sending data to external services
+- ❌ No background monitoring processes or cron jobs
+- ❌ No integration with external notification services (Feishu, webhooks, etc.)
 
 ## Integration
 

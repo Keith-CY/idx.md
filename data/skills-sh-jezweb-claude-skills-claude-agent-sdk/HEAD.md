@@ -2,17 +2,31 @@
 stable_id: skills/skills-sh-jezweb-claude-skills-claude-agent-sdk
 type: skills
 title: skills-sh-jezweb-claude-skills-claude-agent-sdk
-summary: |-
+summary: >-
   # Changelog
-  ## 0.2.41
-  - Updated to parity with Claude Code v2.1.41
-  ## 0.2.40
-  - Updated to parity with Claude Code v2.1.40
-  ## 0.2.39
-  - Updated to parity with Claude Code v2.1.39
-  ## 0.2.38
-  - Updated to parity with Claude Code v2.1.38
-  ## 0.2.37
+
+  ## 0.2.63
+
+  - SDK: Fixed `pathToClaudeCodeExecutable` failing when set to a bare command
+  name (e.g., `"claude"`) that should resolve via PATH
+
+  - Added `supportedAgents()` method to the Query interface to view available
+  subagents
+
+  - Fixed MCP replacement tools being incorrectly denied in subagents when using
+  unprefixed MCP tool names
+
+  ## 0.2.61
+
+  - Updated to parity with Claude Code v2.1.61
+
+  ## 0.2.59
+
+  - Added `getSessionMessages()` function for reading a session's conversation
+  history from its transcript file, with support for pagination via `limit` and
+  `offset` options
+
+  ## 0.2.58
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-13T07:58:53.881Z
-content_sha256: adb1a890097184a606ae744699d3309323fb43013dd4a82af7b19a5dab3c5ea9
+retrieved_at: 2026-02-28T14:45:34.893Z
+content_sha256: 759621cd5de211580a728a57876d915a3964d85629ace8efe2db1953e062d79d
 ---

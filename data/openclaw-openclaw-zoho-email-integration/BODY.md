@@ -16,9 +16,32 @@ metadata:
 
 # Zoho Email Integration
 
-**v2.2.4** - Complete Zoho Mail integration with OAuth2 authentication, REST API backend (5-10x faster than IMAP/SMTP), and **Clawdbot extension with /email commands for Telegram/Discord**. **Security-hardened** against path traversal and command injection. Supports HTML emails, attachments, batch operations, and advanced automation workflows.
+**v2.2.6** - Complete Zoho Mail integration with OAuth2 authentication, REST API backend (5-10x faster than IMAP/SMTP), and **Clawdbot extension with /email commands for Telegram/Discord**. **Security-hardened** against path traversal and command injection. Supports HTML emails, attachments, batch operations, and advanced automation workflows.
 
 Choose your authentication: OAuth2 (recommended, secure) or app password (simple setup).
+
+## 🔄 Update to Latest Version
+
+```bash
+clawhub install zoho-email-integration --force
+```
+
+Or update all skills:
+```bash
+clawhub update
+```
+
+## 🔒 Security Notice (v2.2.5+)
+
+**CRITICAL FIX:** Removed vulnerable JavaScript command handler. If you deployed `email-command.js` from the examples folder, update immediately:
+
+```bash
+# Re-download the secure handler
+clawhub install zoho-email-integration --force
+cp ~/.openclaw/skills/zoho-email-integration/examples/clawdbot-extension/email-command.js /your/deployment/path/
+```
+
+The vulnerable version used `execSync` with shell interpolation. The new version uses `spawn` with argument arrays to prevent command injection.
 
 ## ✨ Features
 

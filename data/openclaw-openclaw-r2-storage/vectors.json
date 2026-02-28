@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-r2-storage",
+  "generated_at": "2026-02-28T14:46:37.148Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-r2-storage#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-r2-storage/HEAD.md",
+      "text": "title: r2-storage\nsummary: Cloudflare R2 Storage management — setup, upload, download, sync via rclone\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/junwatu/r2-storage/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-r2-storage",
+        "topic": "openclaw-openclaw-r2-storage",
+        "type": "skills",
+        "title": "r2-storage",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/junwatu/r2-storage/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:37.148Z",
+        "content_sha256": "a5a547966b83a05af2bdc44a0a7f11b47d6483e705a68851fc57cb5be18505a8"
+      }
+    }
+  ]
+}

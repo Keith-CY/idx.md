@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youdotcom-cli",
+  "generated_at": "2026-02-28T14:46:58.081Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youdotcom-cli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youdotcom-cli/HEAD.md",
+      "text": "title: youdotcom-cli\nsummary: Search the web, get fast AI answers with verifiable references, and extract web content using You.com's schema-driven.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/youdotcom-cli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youdotcom-cli",
+        "topic": "openclaw-openclaw-youdotcom-cli",
+        "type": "skills",
+        "title": "youdotcom-cli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/youdotcom-cli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.081Z",
+        "content_sha256": "cd78a9393a9cf55079a68a242977768ad1cbc4ad412bdb3722b72d4a4dd7e69c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ouracli",
+  "generated_at": "2026-02-28T14:46:30.668Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ouracli#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ouracli/HEAD.md",
+      "text": "title: ouracli\nsummary: Access Oura Ring health data using the ouracli CLI tool.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/ouracli/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ouracli",
+        "topic": "openclaw-openclaw-ouracli",
+        "type": "skills",
+        "title": "ouracli",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/ouracli/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:30.668Z",
+        "content_sha256": "27c3508bd5a26b66813fb86605735e16f263d2cdce899a6cca5a5136493c6340"
+      }
+    }
+  ]
+}

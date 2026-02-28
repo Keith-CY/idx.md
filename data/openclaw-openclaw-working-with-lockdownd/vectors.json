@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-working-with-lockdownd",
+  "generated_at": "2026-02-28T14:46:56.467Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-working-with-lockdownd#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-working-with-lockdownd/HEAD.md",
+      "text": "title: working-with-lockdownd\nsummary: Comprehensive toolkit for interacting with iOS devices over WiFi using the Apple Lockdown Protocol (port 62078).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/worflor/working-with-lockdownd/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-working-with-lockdownd",
+        "topic": "openclaw-openclaw-working-with-lockdownd",
+        "type": "skills",
+        "title": "working-with-lockdownd",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/worflor/working-with-lockdownd/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:56.467Z",
+        "content_sha256": "a42b4f92311deb58d75f0ed67a220ee4729135c587219b62d8c5f7fb4e18808e"
+      }
+    }
+  ]
+}

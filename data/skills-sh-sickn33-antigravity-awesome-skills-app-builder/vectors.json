@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-sickn33-antigravity-awesome-skills-app-builder",
+  "generated_at": "2026-02-28T14:45:33.036Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-sickn33-antigravity-awesome-skills-app-builder#head",
+      "kind": "head",
+      "path": "/data/skills-sh-sickn33-antigravity-awesome-skills-app-builder/HEAD.md",
+      "text": "title: skills-sh-sickn33-antigravity-awesome-skills-app-builder\nsummary: --- name: nextjs-fullstack description: Next.js full-stack template principles. App Router, Prisma, Tailwind. --- # Next.js Full-Stack Template ## Tech Stack | Component | Technology | |-----------|------------| | Framework | Next.js 14 (App Router) | | Language | TypeScript |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/app-builder/templates/nextjs-fullstack/TEMPLATE.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-sickn33-antigravity-awesome-skills-app-builder",
+        "topic": "skills-sh-sickn33-antigravity-awesome-skills-app-builder",
+        "type": "skills",
+        "title": "skills-sh-sickn33-antigravity-awesome-skills-app-builder",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/app-builder/templates/nextjs-fullstack/TEMPLATE.md",
+        "retrieved_at": "2026-02-28T14:45:33.036Z",
+        "content_sha256": "ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c"
+      }
+    }
+  ]
+}

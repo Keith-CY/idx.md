@@ -1,5 +1,92 @@
 # Changelog
 
+## 0.2.63
+
+- SDK: Fixed `pathToClaudeCodeExecutable` failing when set to a bare command name (e.g., `"claude"`) that should resolve via PATH
+- Added `supportedAgents()` method to the Query interface to view available subagents
+- Fixed MCP replacement tools being incorrectly denied in subagents when using unprefixed MCP tool names
+
+## 0.2.61
+
+- Updated to parity with Claude Code v2.1.61
+
+## 0.2.59
+
+- Added `getSessionMessages()` function for reading a session's conversation history from its transcript file, with support for pagination via `limit` and `offset` options
+
+## 0.2.58
+
+- Updated to parity with Claude Code v2.1.58
+
+## 0.2.56
+
+- Updated to parity with Claude Code v2.1.56
+
+## 0.2.55
+
+- Updated to parity with Claude Code v2.1.55
+
+## 0.2.54
+
+- Updated to parity with Claude Code v2.1.54
+
+## 0.2.53
+
+- Added `listSessions()` for discovering and listing past sessions with light metadata
+
+## 0.2.52
+
+- Updated to parity with Claude Code v2.1.52
+
+## 0.2.51
+
+- Updated to parity with Claude Code v2.1.51
+- Fixed SDK crashing with `ReferenceError` when used inside compiled Bun binaries (`bun build --compile`)
+- Fixed unbounded memory growth in long-running SDK sessions caused by message UUID tracking never evicting old entries
+- Fixed local slash command output not being returned to SDK clients
+- Added `task_progress` events for real-time background agent progress reporting with cumulative usage metrics, tool counts, and duration
+- Fixed `session.close()` in the v2 session API killing the subprocess before it could persist session data, which broke `resumeSession()`
+
+## 0.2.50
+
+- Updated to parity with Claude Code v2.1.50
+
+## 0.2.49
+
+- Updated to parity with Claude Code v2.1.49
+- SDK model info now includes `supportsEffort`, `supportedEffortLevels`, and `supportsAdaptiveThinking` fields so consumers can discover model capabilities.
+- Permission suggestions are now populated when safety checks trigger an ask response, enabling SDK consumers to display permission options.
+- Added `ConfigChange` hook event that fires when configuration files change during a session, enabling enterprise security auditing and optional blocking of settings changes.
+
+## 0.2.47
+
+- Updated to parity with Claude Code v2.1.47
+- Added `promptSuggestion()` method on `Query` to request prompt suggestions based on the current conversation context
+- Added `tool_use_id` field to `task_notification` events for correlating task completions with originating tool calls
+
+## 0.2.46
+
+- Updated to parity with Claude Code v2.1.46
+
+## 0.2.45
+
+- Added support for Claude Sonnet 4.6
+- Added `task_started` system message to the SDK stream, emitted when subagent tasks are registered
+- Fixed `Session.stream()` returning prematurely when background subagents are still running, by holding back intermediate result messages until all tasks complete
+- Improved memory usage for shell commands that produce large output — RSS no longer grows unboundedly with command output size
+
+## 0.2.44
+
+- Updated to parity with Claude Code v2.1.44
+
+## 0.2.43
+
+- Updated to parity with Claude Code v2.1.43
+
+## 0.2.42
+
+- Updated to parity with Claude Code v2.1.42
+
 ## 0.2.41
 
 - Updated to parity with Claude Code v2.1.41

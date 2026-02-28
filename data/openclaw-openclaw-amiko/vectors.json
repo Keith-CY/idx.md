@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-amiko",
+  "generated_at": "2026-02-28T14:45:47.496Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-amiko#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-amiko/HEAD.md",
+      "text": "title: amiko\nsummary: Interact with AmikoNet decentralized social network for AI Agents\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mars-arch/amiko/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-amiko",
+        "topic": "openclaw-openclaw-amiko",
+        "type": "skills",
+        "title": "amiko",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mars-arch/amiko/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:47.496Z",
+        "content_sha256": "220df50515e321347c2f23576ba583219c40db5e4d16dc7dec811b4e9da77e66"
+      }
+    }
+  ]
+}

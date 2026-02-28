@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-subtitles",
+  "generated_at": "2026-02-28T14:46:46.038Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-subtitles#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-subtitles/HEAD.md",
+      "text": "title: subtitles\nsummary: Get subtitles from YouTube videos for translation, language learning.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/subtitles/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-subtitles",
+        "topic": "openclaw-openclaw-subtitles",
+        "type": "skills",
+        "title": "subtitles",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/subtitles/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:46.038Z",
+        "content_sha256": "00f571e9833b742c3a15708658ab88b97f13524c2e27028c692144ac0702ed39"
+      }
+    }
+  ]
+}

@@ -7,6 +7,18 @@ description: "Comprehensive news aggregator that fetches, filters, and deeply an
 
 Fetch real-time hot news from multiple sources.
 
+## ⚠️ Global Rules (Strict Enforcement)
+
+1.  **Mandatory Time Display**: **EVERY** report item, regardless of the source or command used (Single Source, Morning Routine, or Combinations), **MUST** include the precise publication time or relative time (e.g., "10:30", "2 hours ago", "2024-01-20").
+    *   **NEVER** skip the time field.
+    *   **NEVER** hallucinate the time. If it's missing in the JSON, mark it as "Unknown Time".
+    *   For "Real-time" or "Trending" lists (e.g., Weibo, GitHub), preserve the "Real-time" or "Today" tag.
+
+2.  **Logical Integrity (Anti-Hallucination)**:
+    *   **NO INVENTED CAUSALITY**: Do not use "Because", "Although", "Due to", or "However" unless the source text EXPLICITLY supports this relationship.
+    *   **SVO Preference**: Use simple Subject-Verb-Object sentences. Avoid complex compound sentences that force you to invent logical bridges.
+    *   **Fact Check**: If you fix grammar, you arguably make a claim. If you change "A, B" to "A caused B", you MUST be 100% sure. When in doubt, leave it as two separate sentences.
+
 ## Tools
 
 ### fetch_news.py
@@ -54,18 +66,37 @@ python3 scripts/fetch_news.py --source all --limit 10 --keyword "DeepSeek" --dee
 **Output:**
 JSON array. If `--deep` is used, items will contain a `content` field associated with the article text.
 
+### daily_briefing.py (Unified Morning Routine)
+Run this single script to fetch all necessary data for the morning briefing.
+
+```bash
+python3 scripts/daily_briefing.py --profile [general|finance|tech|social] > briefing_data.json
+```
+
+**Workflow:**
+1.  **Execute** `scripts/daily_briefing.py` with the desired profile.
+2.  **READ** the corresponding instruction file in `instructions/`:
+    *   `general` -> `instructions/briefing_general.md`
+    *   `finance` -> `instructions/briefing_finance.md`
+    *   `tech` -> `instructions/briefing_tech.md`
+    *   `social` -> `instructions/briefing_social.md`
+3.  **Generate** the report strictly satisfying the volume constraints in the instruction file.
+
+
+
 ## Interactive Menu
 
 When the user says **"news-aggregator-skill 如意如意"** (or similar "menu/help" triggers):
 1.  **READ** the content of `templates.md` in the skill directory.
 2.  **DISPLAY** the list of available commands to the user exactly as they appear in the file.
 3.  **GUIDE** the user to select a number or copy the command to execute.
+4.  **Morning Routine (Recommended)**: For the best quality, guide the user to run the "Three-Course Morning Routine" (Options 12, 13, 14) **sequentially**, rather than combining them into one request. This ensures each report gets full AI Context attention.
 
 ### Smart Time Filtering & Reporting (CRITICAL)
 If the user requests a specific time window (e.g., "past X hours") and the results are sparse (< 5 items):
 1.  **Prioritize User Window**: First, list all items that strictly fall within the user's requested time (Time < X).
 2.  **Smart Fill**: If the list is short, you MUST include high-value/high-heat items from a wider range (e.g. past 24h) to ensure the report provides at least 5 meaningful insights.
-2.  **Annotation**: Clearly mark these older items (e.g., "⚠️ 18h ago", "🔥 24h Hot") so the user knows they are supplementary.
+    *   **Annotation**: Clearly mark these older items (e.g., "⚠️ 18h ago", "🔥 24h Hot") so the user knows they are supplementary.
 3.  **High Value**: Always prioritize "SOTA", "Major Release", or "High Heat" items even if they slightly exceed the time window.
 4.  **GitHub Trending Exception**: For purely list-based sources like **GitHub Trending**, strictly return the valid items from the fetched list (e.g. Top 10). **List ALL fetched items**. Do **NOT** perform "Smart Fill".
     *   **Deep Analysis (Required)**: For EACH item, you **MUST** leverage your AI capabilities to analyze:
@@ -76,20 +107,35 @@ If the user requests a specific time window (e.g., "past X hours") and the resul
 ### 6. Response Guidelines (CRITICAL)
 
 **Format & Style:**
-- **Language**: Simplified Chinese (简体中文).
+- **Language**: Simplified Chinese (简体中文). **(IMPORTANT: Translate Title, Summary, and Analysis into Chinese)**
 - **Style**: Magazine/Newsletter style (e.g., "The Economist" or "Morning Brew" vibe). Professional, concise, yet engaging.
 - **Structure**:
-    - **Global Headlines**: Top 3-5 most critical stories across all domains.
+    - **Global Headlines**: **Top 15-20** critical stories across all domains. (For Global Scan, aim for comprehensive coverage, not just a few highlights).
     - **Tech & AI**: Specific section for AI, LLM, and Tech items.
     - **Finance / Social**: Other strong categories if relevant.
-- **Item Format**:
-    - **Title**: **MUST be a Markdown Link** to the original URL.
-        - ✅ Correct: `### 1. [OpenAI Releases GPT-5](https://...)`
-        - ❌ Incorrect: `### 1. OpenAI Releases GPT-5`
-    - **Metadata Line**: Must include Source, **Time/Date**, and Heat/Score.
-    - **1-Liner Summary**: A punchy, "so what?" summary.
+- **Item Format Template (STRICT)**:
+    *Switching to List Format for better rendering. Do NOT use Blockquotes (>).*
+    ```markdown
+    #### 1. [Title (Translated)](https://original-url.com)
+    - **Source**: SourceName | **Time**: X hours ago | **Heat**: 🔥 999
+    - **Summary**: [Hacker News Discussion](hn_url) (if valid) + One sentence summary in Chinese.
+    - **Deep Dive**: 💡 **Insight**: Deep analysis, market impact, or technical context.
+    ```
+    - **Zero Hallucination & Diligence (CRITICAL)**:
+        - **Truth**: You must **ONLY** use data present in the provided JSON. **NEVER** invent news items.
+        - **Diligence**: Do NOT use "No significant updates" as an excuse to skip analysis. You MUST exhaustively review the JSON.
+        - **Fallback**: Only state "No significant updates" if the fetching script truly returned 0 relevant items. **If the source is empty, state so clearly (e.g., "Source returned 0 items"). DO NOT fabricate news to fill the space.**
+- **Key Rules**:
+    - **Hacker News (HN)**: For HN items, you **MUST** provide the link to the HN discussion page (comments) in addition to the original article link.
+    - **Translation**: Translate titles, summaries, and deep dive analysis into **Simplified Chinese**.
+    - **Title**: MUST be a clickable link. Do NOT use plain text titles.
+    - **Metadata**: Source, Time, and Heat MUST be visible immediately below the title.
+    - **Time**: **MANDATORY FIELD**. You MUST include the time provided in the JSON (e.g., "2 hours ago", "2024-01-20", "Real-time", "Today").
+        - If the JSON says "Real-time", "Today", or "Hot", display it exactly as is.
+        - **DO NOT SKIP THIS FIELD**.
     - **Deep Interpretation (Bulleted)**: 2-3 bullet points explaining *why* this matters, technical details, or context. (Required for "Deep Scan").
 
 **Output Artifact:**
-- Always save the full report to `reports/` directory with a timestamped filename (e.g., `reports/hn_news_YYYYMMDD_HHMM.md`).
+- Always save the full report to a date-based subdirectory in `reports/` (e.g., `reports/YYYY-MM-DD/filename_HHMM.md`). If the directory does not exist, you MUST create it first.
+- **IMPORTANT**: The Agent (You) are responsible for formatting the JSON output into Markdown. **Do not rely on external scripts for summarization.**
 - Present the full report content to the user in the chat.

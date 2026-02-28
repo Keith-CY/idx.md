@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-youtube-transcript",
+  "generated_at": "2026-02-28T14:46:58.696Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-youtube-transcript#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-youtube-transcript/HEAD.md",
+      "text": "title: youtube-transcript\nsummary: Fetch and summarize YouTube video transcripts.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xthezealot/youtube-transcript/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-youtube-transcript",
+        "topic": "openclaw-openclaw-youtube-transcript",
+        "type": "skills",
+        "title": "youtube-transcript",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xthezealot/youtube-transcript/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:58.696Z",
+        "content_sha256": "f8843aca94abffecb456a7e71fef337bd814150f215a66f7733c373488b3d43a"
+      }
+    }
+  ]
+}

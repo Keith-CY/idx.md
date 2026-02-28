@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-twenty-crm",
+  "generated_at": "2026-02-28T14:46:51.190Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-twenty-crm#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-twenty-crm/HEAD.md",
+      "text": "title: twenty-crm\nsummary: Interact with Twenty CRM (self-hosted).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/twenty-crm/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-twenty-crm",
+        "topic": "openclaw-openclaw-twenty-crm",
+        "type": "skills",
+        "title": "twenty-crm",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/twenty-crm/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:51.190Z",
+        "content_sha256": "4da47d714a33adcd57499d21e1c7276782c17d7a617ff92a12803a8dbc6df373"
+      }
+    }
+  ]
+}

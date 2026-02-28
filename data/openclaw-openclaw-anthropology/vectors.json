@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-anthropology",
+  "generated_at": "2026-02-28T14:45:47.936Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-anthropology#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-anthropology/HEAD.md",
+      "text": "title: anthropology\nsummary: summary: Comprehensive AI instructor skill covering cultural, biological, archaeological.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/networktheoryappliedresearchinstitute/anthropology/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-anthropology",
+        "topic": "openclaw-openclaw-anthropology",
+        "type": "skills",
+        "title": "anthropology",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/networktheoryappliedresearchinstitute/anthropology/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:47.936Z",
+        "content_sha256": "0185dfcaceee1495d68e92b8c0d229a1776ae1621df77d759dee8b90df3f2c37"
+      }
+    }
+  ]
+}

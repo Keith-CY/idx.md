@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adhd-daily-planner",
+  "generated_at": "2026-02-28T14:45:44.712Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adhd-daily-planner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adhd-daily-planner/HEAD.md",
+      "text": "title: adhd-daily-planner\nsummary: Time-blind friendly planning, executive function support, and daily structure for ADHD brains.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/adhd-daily-planner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adhd-daily-planner",
+        "topic": "openclaw-openclaw-adhd-daily-planner",
+        "type": "skills",
+        "title": "adhd-daily-planner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/adhd-daily-planner/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:44.712Z",
+        "content_sha256": "655fb17083206826da86131eecc3dcbc3baef74d284e371d4964d996f763ed92"
+      }
+    }
+  ]
+}

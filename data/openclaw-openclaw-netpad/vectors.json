@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-netpad",
+  "generated_at": "2026-02-28T14:46:26.405Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-netpad#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-netpad/HEAD.md",
+      "text": "title: netpad\nsummary: Manage NetPad forms, submissions, users.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/netpad/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-netpad",
+        "topic": "openclaw-openclaw-netpad",
+        "type": "skills",
+        "title": "netpad",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/netpad/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:26.405Z",
+        "content_sha256": "4b7dbe17ee359a0c5ee75ff75b52bf4ca3988c6d5049f544492ab9be9ecb0a99"
+      }
+    }
+  ]
+}

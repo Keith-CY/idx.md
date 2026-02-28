@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-vercel-labs-next-skills-next-best-practices",
+  "generated_at": "2026-02-28T14:45:38.912Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-vercel-labs-next-skills-next-best-practices#head",
+      "kind": "head",
+      "path": "/data/skills-sh-vercel-labs-next-skills-next-best-practices/HEAD.md",
+      "text": "title: skills-sh-vercel-labs-next-skills-next-best-practices\nsummary: # File Conventions Next.js App Router uses file-based routing with special file conventions. ## Project Structure Reference: https://nextjs.org/docs/app/getting-started/project-structure ``` app/ ├── layout.tsx # Root layout (required) ├── page.tsx # Home page (/) ├── loading.tsx # Loading UI ├── error.tsx # Error UI\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/vercel-labs/next-skills/HEAD/skills/next-best-practices/file-conventions.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-vercel-labs-next-skills-next-best-practices",
+        "topic": "skills-sh-vercel-labs-next-skills-next-best-practices",
+        "type": "skills",
+        "title": "skills-sh-vercel-labs-next-skills-next-best-practices",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/vercel-labs/next-skills/HEAD/skills/next-best-practices/file-conventions.md",
+        "retrieved_at": "2026-02-28T14:45:38.912Z",
+        "content_sha256": "95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3"
+      }
+    }
+  ]
+}

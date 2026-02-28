@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-pleaseprompto-notebooklm-skill-notebooklm",
+  "generated_at": "2026-02-28T14:45:25.738Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-pleaseprompto-notebooklm-skill-notebooklm#head",
+      "kind": "head",
+      "path": "/data/skills-sh-pleaseprompto-notebooklm-skill-notebooklm/HEAD.md",
+      "text": "title: skills-sh-pleaseprompto-notebooklm-skill-notebooklm\nsummary: --- name: notebooklm description: Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations through document-only responses. --- # NotebookLM Research Assistant Skill Interact with Google NotebookLM to query documentation with Gemini's source-grounded answers. Each question opens a fresh browser session, retrieves the answer exclusively from your uploaded documents, and closes. ## When to Use This Skill Trigger when user: - Mentions NotebookLM explicitly - Shares NotebookLM URL (`https://notebooklm.google.com/notebook/...`)\ntype: skills\ntags: skills-sh, skills-sh-probed\nsource_url: https://raw.githubusercontent.com/pleaseprompto/notebooklm-skill/master/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-pleaseprompto-notebooklm-skill-notebooklm",
+        "topic": "skills-sh-pleaseprompto-notebooklm-skill-notebooklm",
+        "type": "skills",
+        "title": "skills-sh-pleaseprompto-notebooklm-skill-notebooklm",
+        "tags": [
+          "skills-sh",
+          "skills-sh-probed"
+        ],
+        "source_url": "https://raw.githubusercontent.com/pleaseprompto/notebooklm-skill/master/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:25.738Z",
+        "content_sha256": "8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e"
+      }
+    }
+  ]
+}

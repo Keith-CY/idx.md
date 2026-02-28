@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-antfu-skills-pnpm",
+  "generated_at": "2026-02-28T14:45:33.435Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-antfu-skills-pnpm#head",
+      "kind": "head",
+      "path": "/data/skills-sh-antfu-skills-pnpm/HEAD.md",
+      "text": "title: skills-sh-antfu-skills-pnpm\nsummary: --- name: pnpm-cli-commands description: Essential pnpm commands for package management, running scripts, and workspace operations --- # pnpm CLI Commands pnpm provides a comprehensive CLI for package management with commands similar to npm/yarn but with unique features. ## Installation Commands ### Install all dependencies ```bash pnpm install\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-antfu-skills-pnpm",
+        "topic": "skills-sh-antfu-skills-pnpm",
+        "type": "skills",
+        "title": "skills-sh-antfu-skills-pnpm",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md",
+        "retrieved_at": "2026-02-28T14:45:33.435Z",
+        "content_sha256": "44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543"
+      }
+    }
+  ]
+}

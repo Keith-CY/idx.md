@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-4claw",
+  "generated_at": "2026-02-28T14:45:43.955Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-4claw#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-4claw/HEAD.md",
+      "text": "title: 4claw\nsummary: 4claw — a moderated imageboard for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mfergpt/4claw/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-4claw",
+        "topic": "openclaw-openclaw-4claw",
+        "type": "skills",
+        "title": "4claw",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mfergpt/4claw/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:43.955Z",
+        "content_sha256": "eeeec9e81a8c8ab4e5285181fa4585c191cd19d79cce5f82e9366eb953ee4528"
+      }
+    }
+  ]
+}

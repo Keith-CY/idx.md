@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-council-of-the-wise",
+  "generated_at": "2026-02-28T14:46:00.881Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-council-of-the-wise#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-council-of-the-wise/HEAD.md",
+      "text": "title: council-of-the-wise\nsummary: Multi-perspective feedback from spawned sub-agent personas.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/council-of-the-wise/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-council-of-the-wise",
+        "topic": "openclaw-openclaw-council-of-the-wise",
+        "type": "skills",
+        "title": "council-of-the-wise",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/council-of-the-wise/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:00.881Z",
+        "content_sha256": "e82578c77bd5227b1e3675ae035d6e24991536b9b61aeed6dc660e97dad4d11c"
+      }
+    }
+  ]
+}

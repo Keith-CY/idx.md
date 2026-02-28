@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-appdeploy",
+  "generated_at": "2026-02-28T14:45:48.396Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-appdeploy#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-appdeploy/HEAD.md",
+      "text": "title: appdeploy\nsummary: Deploy web apps with backend APIs, database.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/avimak/appdeploy/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-appdeploy",
+        "topic": "openclaw-openclaw-appdeploy",
+        "type": "skills",
+        "title": "appdeploy",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/avimak/appdeploy/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:48.396Z",
+        "content_sha256": "1d120d3a3696e1ce2c0c47f2ec9af71b074bf7e5814194d08b3fa0c1d91fae48"
+      }
+    }
+  ]
+}

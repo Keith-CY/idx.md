@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-xtrends",
+  "generated_at": "2026-02-28T14:46:57.641Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-xtrends#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-xtrends/HEAD.md",
+      "text": "title: xtrends\nsummary: Search and analyze trending topics on X (Twitter).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/xtrends/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-xtrends",
+        "topic": "openclaw-openclaw-xtrends",
+        "type": "skills",
+        "title": "xtrends",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/xtrends/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:57.641Z",
+        "content_sha256": "6ee4e9e4d496a71a7fff3b77ef60994ea1cfecaebfae28570ac80c067047f034"
+      }
+    }
+  ]
+}

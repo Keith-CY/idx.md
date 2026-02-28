@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/qa-test-planner/references/test_case_templates.md
 license: ""
 upstream_ref: https://skills.sh/softaworks/agent-toolkit/qa-test-planner
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:47.626Z
+github_stars: 672
+github_forks: 53
+github_is_organization: true
+retrieved_at: 2026-02-28T14:45:37.318Z
 content_sha256: 42072c5db347039476bd1d045e5f7124018d50c4fd48a0d30cb3aceeb301ff68
 ---

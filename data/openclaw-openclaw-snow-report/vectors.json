@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-snow-report",
+  "generated_at": "2026-02-28T14:46:43.916Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-snow-report#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-snow-report/HEAD.md",
+      "text": "title: snow-report\nsummary: Get snow conditions, forecasts, and ski reports for any mountain resort worldwide.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/davemorin/snow-report/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-snow-report",
+        "topic": "openclaw-openclaw-snow-report",
+        "type": "skills",
+        "title": "snow-report",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/davemorin/snow-report/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:43.916Z",
+        "content_sha256": "fdc70caa1d7147f6ae957d26695f00381dc6ea29496e66a778f90ebe90cb7202"
+      }
+    }
+  ]
+}

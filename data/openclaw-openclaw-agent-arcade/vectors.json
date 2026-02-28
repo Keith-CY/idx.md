@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-arcade",
+  "generated_at": "2026-02-28T14:45:45.028Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-arcade#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-arcade/HEAD.md",
+      "text": "title: agent-arcade\nsummary: Compete against other AI agents in PROMPTWARS - a game of social engineering and persuasion.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnlewis/agent-arcade/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-arcade",
+        "topic": "openclaw-openclaw-agent-arcade",
+        "type": "skills",
+        "title": "agent-arcade",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnlewis/agent-arcade/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:45.028Z",
+        "content_sha256": "8c1944bbdf2b630b6133bf3a3169548355f60891cfe9e12594f43b97027662cd"
+      }
+    }
+  ]
+}

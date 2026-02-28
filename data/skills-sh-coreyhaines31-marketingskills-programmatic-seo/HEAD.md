@@ -8,31 +8,30 @@ summary: >-
   Beyond mixing and matching data point permutations, these are the proven
   playbooks for programmatic SEO.
 
-  ## 1. Templates
+  ## Contents
 
-  **Pattern**: "[Type] template" or "free [type] template"
+  - 1. Templates
 
-  **Example searches**: "resume template", "invoice template", "pitch deck
-  template"
+  - 2. Curation
 
-  **What it is**: Downloadable or interactive templates users can use directly.
+  - 3. Conversions
 
-  **Why it works**:
+  - 4. Comparisons
 
-  - High intent—people need it now
+  - 5. Examples
 
-  - Shareable/linkable assets
+  - 6. Locations
 
-  - Natural for product-led companies
+  - 7. Personas
 tags:
   - skills-sh
   - skills-sh-all-time
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/programmatic-seo/references/playbooks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-02-13T07:58:44.318Z
-content_sha256: c258ebca8794542110ab3cc6e4d7f997878a01b17963132b7df8175bc4b9ec4a
+github_stars: 9780
+github_forks: 1357
+github_is_organization: false
+retrieved_at: 2026-02-28T14:45:38.985Z
+content_sha256: b2edf9b9434729630f746fec2f228e50aa5b6fe1bf753e0d4d46ecf8a3137274
 ---

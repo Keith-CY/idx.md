@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-lancedb-memory",
+  "generated_at": "2026-02-28T14:46:18.969Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-lancedb-memory#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-lancedb-memory/HEAD.md",
+      "text": "title: lancedb-memory\nsummary: LanceDB integration for long-term memory management.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pntrivedy/lancedb-memory/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-lancedb-memory",
+        "topic": "openclaw-openclaw-lancedb-memory",
+        "type": "skills",
+        "title": "lancedb-memory",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pntrivedy/lancedb-memory/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:18.969Z",
+        "content_sha256": "9c102bea990f358b3ec7d13ebe4b37d8112f12ed1407a968da95fa134c5a6025"
+      }
+    }
+  ]
+}

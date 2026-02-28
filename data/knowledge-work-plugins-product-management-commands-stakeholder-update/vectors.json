@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-product-management-commands-stakeholder-update",
+  "generated_at": "2026-02-28T14:45:30.779Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-product-management-commands-stakeholder-update#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-product-management-commands-stakeholder-update/HEAD.md",
+      "text": "title: stakeholder-update\nsummary: Generate a stakeholder update tailored to audience and cadence\ntype: skills\ntags: source-knowledge-work-plugins, plugin-product-management, plugin-component-commands, plugin-command, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/stakeholder-update.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-product-management-commands-stakeholder-update",
+        "topic": "knowledge-work-plugins-product-management-commands-stakeholder-update",
+        "type": "skills",
+        "title": "stakeholder-update",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-product-management",
+          "plugin-component-commands",
+          "plugin-command",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/stakeholder-update.md",
+        "retrieved_at": "2026-02-28T14:45:30.779Z",
+        "content_sha256": "916de3d5e5d9b06761579d83aa840fc30a2b763492724ade47353073d7115b6d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice",
+  "generated_at": "2026-02-28T14:45:36.863Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice/HEAD.md",
+      "text": "title: enforce-voice\nsummary: Apply brand guidelines to content creation\ntype: skills\ntags: source-knowledge-work-plugins, plugin-partner-built, plugin-component-brand-voice, plugin-command\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/enforce-voice.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice",
+        "topic": "knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice",
+        "type": "skills",
+        "title": "enforce-voice",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-partner-built",
+          "plugin-component-brand-voice",
+          "plugin-command"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/enforce-voice.md",
+        "retrieved_at": "2026-02-28T14:45:36.863Z",
+        "content_sha256": "ab67acc3ab40ae221044595c35714aaaa52302045f57a26cc07d4b7f10310435"
+      }
+    }
+  ]
+}

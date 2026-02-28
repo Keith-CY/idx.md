@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-intervals-icu-api",
+  "generated_at": "2026-02-28T14:46:16.259Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-intervals-icu-api#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-intervals-icu-api/HEAD.md",
+      "text": "title: intervals-icu\nsummary: Intervals.icu training data: activities, workouts, wellness.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pseuss/intervals-icu-api/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-intervals-icu-api",
+        "topic": "openclaw-openclaw-intervals-icu-api",
+        "type": "skills",
+        "title": "intervals-icu",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pseuss/intervals-icu-api/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:16.259Z",
+        "content_sha256": "1bd0acdd4eca11ee198b619eea0a99ab7a2393033197c04b92872abd2170488b"
+      }
+    }
+  ]
+}

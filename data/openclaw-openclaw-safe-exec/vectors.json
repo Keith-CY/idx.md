@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-safe-exec",
+  "generated_at": "2026-02-28T14:46:40.020Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-safe-exec#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-safe-exec/HEAD.md",
+      "text": "title: safe-exec\nsummary: Safe command execution for OpenClaw Agents with automatic danger pattern detection, risk assessment, user approval.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ottttto/safe-exec/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-safe-exec",
+        "topic": "openclaw-openclaw-safe-exec",
+        "type": "skills",
+        "title": "safe-exec",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ottttto/safe-exec/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:40.020Z",
+        "content_sha256": "a6fa8df7eebee389c215f2ebf4488b7cc420e450708406bda4a2a3524fdde816"
+      }
+    }
+  ]
+}

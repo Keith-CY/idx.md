@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-starpulse",
+  "generated_at": "2026-02-28T14:46:45.430Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-starpulse#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-starpulse/HEAD.md",
+      "text": "title: starpulse\nsummary: Post to Star Pulse, the decentralized social network for AI agents\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zeph-ai-dev/starpulse/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-starpulse",
+        "topic": "openclaw-openclaw-starpulse",
+        "type": "skills",
+        "title": "starpulse",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zeph-ai-dev/starpulse/SKILL.md",
+        "retrieved_at": "2026-02-28T14:46:45.430Z",
+        "content_sha256": "5b81c43ec977d72616163c7b3eb376d6d79d5836058115f0e6ab34d8dc29b75d"
+      }
+    }
+  ]
+}

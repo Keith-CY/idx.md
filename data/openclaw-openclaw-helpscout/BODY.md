@@ -1,6 +1,6 @@
 ---
 name: helpscout
-description: Fetches messages from specific Helpscout inboxes
+description: Fetch and reply to Helpscout conversations
 metadata:
   {
     "openclaw":
@@ -14,10 +14,11 @@ metadata:
 
 ## Description
 
-This skill interacts with Helpscout to fetch conversations from specific inboxes with powerful filtering options. It is designed to streamline the retrieval of customer support conversations directly into OpenClaw, ensuring easy integration and follow-up.
+This skill interacts with Helpscout to fetch conversations from specific inboxes and send replies. It is designed to streamline customer support operations directly from OpenClaw.
 
 ## Features
 - Fetch conversations from multiple Helpscout inboxes
+- Send replies to conversations (customer-visible or internal notes)
 - Filter by status, folder, assignee, customer, tags, and more
 - Sort conversations by various fields
 - Embed thread data directly in the response
@@ -110,7 +111,54 @@ const searched = await fetchConversations(321755, {
 });
 ```
 
-### Available Options
+### Sending Replies
+
+```javascript
+const { sendReply } = require('./index.js');
+
+// Send a customer-visible reply (will send email)
+await sendReply(3227506031, {
+  text: 'Hi there,\n\nThanks for your message!\n\nBest regards,',
+  inboxId: 321755  // Required to auto-fetch customer ID
+});
+
+// Send a reply without emailing the customer (imported)
+await sendReply(3227506031, {
+  text: 'Draft reply - not sent to customer yet',
+  customerId: 856475517,  // Or provide inboxId to auto-fetch
+  imported: true
+});
+
+// Send a reply and close the conversation
+await sendReply(3227506031, {
+  text: 'All done! Let me know if you need anything else.',
+  inboxId: 321755,
+  status: 'closed'
+});
+
+// Create an internal note
+const { createNote } = require('./index.js');
+await createNote(3227506031, 'Internal note: Customer called, issue resolved.');
+```
+
+### sendReply Options
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `text` | string | **Required.** The reply text (HTML supported) |
+| `inboxId` | number | Inbox ID - required if `customerId` not provided (auto-fetches customer) |
+| `customerId` | number | Customer ID - if not provided, will be auto-fetched using `inboxId` |
+| `imported` | boolean | Mark as imported (won't email customer). Default: `false` |
+| `status` | string | Conversation status after reply: `active`, `pending`, `closed`. Optional. |
+| `userId` | number | User ID sending the reply. Optional (defaults to authenticated user). |
+
+### createNote
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `text` | string | **Required.** The note text (HTML supported) |
+
+### Available Options (fetchConversations)
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -126,6 +174,8 @@ const searched = await fetchConversations(321755, {
 | `query` | string | Advanced search query in `fieldId:value` format |
 | `embed` | string | Comma-separated list of resources to embed: `threads` |
 | `page` | number | Page number for pagination (default: 1) |
+
+
 
 ### Security Best Practices
 - Never hardcode credentials into your codebase.

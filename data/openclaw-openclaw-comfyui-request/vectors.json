@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-comfyui-request",
+  "generated_at": "2026-02-28T14:45:59.229Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-comfyui-request#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-comfyui-request/HEAD.md",
+      "text": "title: comfyui\nsummary: Send workflow requests to ComfyUI and get image results.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-request/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-comfyui-request",
+        "topic": "openclaw-openclaw-comfyui-request",
+        "type": "skills",
+        "title": "comfyui",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-request/SKILL.md",
+        "retrieved_at": "2026-02-28T14:45:59.229Z",
+        "content_sha256": "259b659b4408abd0636f9e2f6e0492d93520fba74a60252dcd1499c9d78519d6"
+      }
+    }
+  ]
+}
