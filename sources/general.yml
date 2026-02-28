@@ -3946,3 +3946,143 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/trailofbits/skills/codeql
+- type: skills
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-deploy
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-deploy/references/pre-deploy-checklist.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy
+  github_stars: 127
+  github_forks: 80
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-callstackincubator-agent-skills-github
+  source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/github/references/stacked-pr-workflow.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/callstackincubator/agent-skills/github
+  github_stars: 937
+  github_forks: 51
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-czlonkowski-n8n-skills-n8n-node-configuration
+  source_url: https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-node-configuration/DEPENDENCIES.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-node-configuration
+  github_stars: 3051
+  github_forks: 540
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-onmax-nuxt-skills-ts-library
+  source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/ts-library/references/project-setup.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/onmax/nuxt-skills/ts-library
+  github_stars: 564
+  github_forks: 27
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-elevenlabs-skills-sound-effects
+  source_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/sound-effects/references/installation.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
+  github_stars: 119
+  github_forks: 11
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-sharp-edges
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/sharp-edges/skills/sharp-edges/references/config-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
+  github_stars: 2952
+  github_forks: 236
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-cloudflare-vinext-migrate-to-vinext
+  source_url: https://raw.githubusercontent.com/cloudflare/vinext/HEAD/.agents/skills/migrate-to-vinext/references/compatibility.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/cloudflare/vinext/migrate-to-vinext
+  github_stars: 4002
+  github_forks: 99
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools
+  source_url: https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/docs/troubleshooting.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtools
+  github_stars: 26831
+  github_forks: 1565
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-firebase-apk-scanner
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/references/vulnerabilities.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/firebase-apk-scanner
+  github_stars: 2952
+  github_forks: 236
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-ossfuzz
+  source_url: https://raw.githubusercontent.com/ossf/fuzz-introspector/main/doc/CaseStudies.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/ossfuzz
+  github_stars: 447
+  github_forks: 81
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-substrate-vulnerability-scanner
+  source_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/substrate-vulnerability-scanner/resources/VULNERABILITY_PATTERNS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/substrate-vulnerability-scanner
+  github_stars: 2952
+  github_forks: 236
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-atheris
+  source_url: https://raw.githubusercontent.com/google/atheris/master/native_extension_fuzzing.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/atheris
+  github_stars: 1588
+  github_forks: 119
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-aflpp
+  source_url: https://raw.githubusercontent.com/AFLplusplus/AFLplusplus/refs/heads/stable/docs/fuzzing_in_depth.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/aflpp
+  github_stars: 6326
+  github_forks: 1262
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-trailofbits-skills-ton-vulnerability-scanner
+  source_url: https://raw.githubusercontent.com/ton-blockchain/TEPs/master/text/0074-jettons-standard.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/trailofbits/skills/ton-vulnerability-scanner
+  github_stars: 455
+  github_forks: 376
+  github_is_organization: true
