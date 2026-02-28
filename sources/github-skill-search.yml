@@ -1082,6 +1082,18 @@
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/outlook-calendar-automation/SKILL.md
 - type: skills
+  slug: github-skill-sickn33-antigravity-awesome-skills-upstash-qstash
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md
+  title: upstash-qstash
+  summary: "Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, schedul..."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-calendar-scheduling
+    - github-owner-sickn33
+    - github-repo-antigravity-awesome-skills
+  upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/upstash-qstash/SKILL.md
+- type: skills
   slug: github-skill-tencentblueking-bk-bcs-node-js
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
   title: Node.js 安全审查
@@ -1105,3 +1117,15 @@
     - github-owner-tencentblueking
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
+- type: skills
+  slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
+  source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
+  title: vllm-ascend-model-adapter
+  summary: Adapt and debug existing or new models for vLLM on Ascend NPU. Implement in /vllm-workspace/vllm and /vllm-workspace/vllm-ascend, validate via direct vllm serve from /workspace, and deliver one signed commit in the current repo.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-vllm-project
+    - github-repo-vllm-ascend
+  upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
