@@ -56,9 +56,9 @@ describe("r2 sync workflow", () => {
     expect(text.includes("git push")).toBe(true);
   });
 
-  test("sync workflow caps runtime to 30 minutes", async () => {
+  test("sync workflow allows a 120-minute runtime cap", async () => {
     const text = await readText(".github/workflows/r2-sync.yml");
-    expect(text.includes("timeout-minutes: 30")).toBe(true);
+    expect(text.includes("timeout-minutes: 120")).toBe(true);
   });
 
   test("sync workflow checks content hash changes", async () => {
