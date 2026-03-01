@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-proactive-agent",
-  "generated_at": "2026-02-28T14:46:34.833Z",
+  "generated_at": "2026-03-01T07:15:23.222Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-proactive-agent#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/halthelobster/proactive-agent/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:34.833Z",
+        "retrieved_at": "2026-03-01T07:15:23.222Z",
         "content_sha256": "571521d9f6f38b3ec9f073d7bdec47170a35e9c78556954ac7f0f860ab12873b"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-identity-anchor",
-  "generated_at": "2026-02-28T14:46:15.170Z",
+  "generated_at": "2026-03-01T07:14:52.003Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-identity-anchor#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zeph-ai-dev/identity-anchor/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:15.170Z",
+        "retrieved_at": "2026-03-01T07:14:52.003Z",
         "content_sha256": "d82d68d0c4dc7870001a33fa5b3b9de457166163e05e6e5eaf0853119a2253a6"
       }
     }

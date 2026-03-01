@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/difficult-workplace-con
 github_stars: 716
 github_forks: 56
 github_is_organization: true
-retrieved_at: 2026-02-28T14:45:40.186Z
+retrieved_at: 2026-03-01T07:13:55.682Z
 content_sha256: 7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139
 ---

@@ -28,6 +28,6 @@ upstream_ref: https://skills.sh/bahayonghang/drawio-skills/drawio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-28T14:45:32.918Z
+retrieved_at: 2026-03-01T07:13:42.199Z
 content_sha256: e6851c798f27a501305063f5737dc8372d35e8cfbe12faf41fbcab4d41b81f58
 ---

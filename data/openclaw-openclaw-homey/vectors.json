@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-homey",
-  "generated_at": "2026-02-28T14:46:14.485Z",
+  "generated_at": "2026-03-01T07:14:50.971Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-homey#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maxsumrall/homey/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:14.485Z",
+        "retrieved_at": "2026-03-01T07:14:50.971Z",
         "content_sha256": "ae18bb17de18e44e9f3f301eb445c2be69c9b5f5250d8be97d9800fc8b6b463e"
       }
     }

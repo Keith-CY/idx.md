@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration",
-  "generated_at": "2026-02-28T14:45:22.180Z",
+  "generated_at": "2026-03-01T07:13:22.713Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/vercel-pack/skills/vercel-upgrade-migration/SKILL.md",
-        "retrieved_at": "2026-02-28T14:45:22.180Z",
+        "retrieved_at": "2026-03-01T07:13:22.713Z",
         "content_sha256": "7780a3cba0b7e6a40ad75a4385d36755ff7a9878b7f037e130a342a0d1449211"
       }
     }

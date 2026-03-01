@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-adithya-s-k-manim-skill-manimgl-best-practices",
-  "generated_at": "2026-02-28T14:45:33.780Z",
+  "generated_at": "2026-03-01T07:13:43.750Z",
   "records": [
     {
       "id": "skills/skills-sh-adithya-s-k-manim-skill-manimgl-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manimgl-best-practices/rules/scenes.md",
-        "retrieved_at": "2026-02-28T14:45:33.780Z",
+        "retrieved_at": "2026-03-01T07:13:43.750Z",
         "content_sha256": "af4f98dc732fb9be522b2d53e7727c439258fb217cbaaa3c1360537f5cebc7ed"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-commands-brand-review",
-  "generated_at": "2026-02-28T14:45:30.492Z",
+  "generated_at": "2026-03-01T07:13:36.327Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-commands-brand-review#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/commands/brand-review.md",
-        "retrieved_at": "2026-02-28T14:45:30.492Z",
+        "retrieved_at": "2026-03-01T07:13:36.327Z",
         "content_sha256": "1f6926624a4fe1b1761c6eb33a73b3978ca6de9eab13ef6ff40a9b348668f2de"
       }
     }

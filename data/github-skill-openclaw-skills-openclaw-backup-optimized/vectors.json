@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-openclaw-backup-optimized",
-  "generated_at": "2026-02-28T14:45:23.424Z",
+  "generated_at": "2026-03-01T07:13:24.784Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-openclaw-backup-optimized#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cccarv82/openclaw-backup-optimized/SKILL.md",
-        "retrieved_at": "2026-02-28T14:45:23.424Z",
+        "retrieved_at": "2026-03-01T07:13:24.784Z",
         "content_sha256": "caed19a938a8177bcc23e79252e904944a310f82ff25361fb81c001b0d058590"
       }
     }

@@ -37,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sentry/
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-02-28T14:45:24.903Z
+retrieved_at: 2026-03-01T07:13:27.339Z
 content_sha256: b598ea447ad6bec923f5c3879ace25e4a7f1368a7eac019b5c0e2f79a36322c6
 ---

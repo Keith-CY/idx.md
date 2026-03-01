@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-a-nach-b",
-  "generated_at": "2026-02-28T14:45:44.026Z",
+  "generated_at": "2026-03-01T07:14:02.846Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-a-nach-b#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manmal/a-nach-b/SKILL.md",
-        "retrieved_at": "2026-02-28T14:45:44.026Z",
+        "retrieved_at": "2026-03-01T07:14:02.846Z",
         "content_sha256": "80f9a9c3d360addc50c93ac4d748aa5517cd02d150596744a0c725048779fcee"
       }
     }

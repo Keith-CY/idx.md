@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-molt-radio",
-  "generated_at": "2026-02-28T14:46:23.758Z",
+  "generated_at": "2026-03-01T07:15:05.328Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-molt-radio#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/fciaf420/molt-radio/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:23.758Z",
+        "retrieved_at": "2026-03-01T07:15:05.328Z",
         "content_sha256": "8a0e5d59520d216693672279bd2d010eb6f96e8ce9c3e539682df584d308e179"
       }
     }

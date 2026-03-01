@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-todozi",
-  "generated_at": "2026-02-28T14:46:49.688Z",
+  "generated_at": "2026-03-01T07:15:47.574Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-todozi#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bgengs/todozi/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:49.688Z",
+        "retrieved_at": "2026-03-01T07:15:47.574Z",
         "content_sha256": "b1a969b2671380d51671a79dc3f4694023bcd6c8e0ce0df685ede1569f9b6ea7"
       }
     }

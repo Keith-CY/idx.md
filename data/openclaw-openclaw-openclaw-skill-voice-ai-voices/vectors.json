@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaw-skill-voice-ai-voices",
-  "generated_at": "2026-02-28T14:46:29.672Z",
+  "generated_at": "2026-03-01T07:15:14.540Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaw-skill-voice-ai-voices#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmogremlin/openclaw-skill-voice-ai-voices/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:29.672Z",
+        "retrieved_at": "2026-03-01T07:15:14.540Z",
         "content_sha256": "f0a841489c4859f5d91bc2354745a38be95a942bc20409d1915200723d18c1d2"
       }
     }

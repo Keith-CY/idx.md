@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-vercel-react-best-practices",
-  "generated_at": "2026-02-28T14:46:52.758Z",
+  "generated_at": "2026-03-01T07:15:52.794Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-vercel-react-best-practices#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sharanga10/vercel-react-best-practices/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:52.758Z",
+        "retrieved_at": "2026-03-01T07:15:52.794Z",
         "content_sha256": "81bad0edc74bc4969ea6abf75b0f84dd99a0557fb0d52a2f74c06cf0567833e1"
       }
     }

@@ -17,6 +17,6 @@ upstream_ref: https://github.com/Jeffallan/claude-skills/blob/main/skills/websoc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-28T14:45:21.942Z
+retrieved_at: 2026-03-01T07:13:22.166Z
 content_sha256: 11461f743126147b1d82358b217f69300733b9a811c9b9120fadf3c78f111f53
 ---

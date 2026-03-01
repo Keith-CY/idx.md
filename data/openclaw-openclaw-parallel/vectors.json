@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-parallel",
-  "generated_at": "2026-02-28T14:46:31.481Z",
+  "generated_at": "2026-03-01T07:15:17.732Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-parallel#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/parallel/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:31.481Z",
+        "retrieved_at": "2026-03-01T07:15:17.732Z",
         "content_sha256": "48b868182546e60c3cb56f64fe14cb13f1ceb40af5d5a645d15cda8416686200"
       }
     }

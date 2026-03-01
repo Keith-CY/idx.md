@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gembox-skill",
-  "generated_at": "2026-02-28T14:46:09.922Z",
+  "generated_at": "2026-03-01T07:14:43.425Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gembox-skill#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zsvedic/gembox-skill/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:09.922Z",
+        "retrieved_at": "2026-03-01T07:14:43.425Z",
         "content_sha256": "0138cfc7a83377eed97a36737f02a7f08d2412b375c17f86a53623763279969a"
       }
     }

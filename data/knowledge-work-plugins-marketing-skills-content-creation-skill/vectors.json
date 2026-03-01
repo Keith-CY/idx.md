@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-content-creation-skill",
-  "generated_at": "2026-02-28T14:45:30.328Z",
+  "generated_at": "2026-03-01T07:13:35.962Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-content-creation-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/content-creation/SKILL.md",
-        "retrieved_at": "2026-02-28T14:45:30.328Z",
+        "retrieved_at": "2026-03-01T07:13:35.962Z",
         "content_sha256": "e0145f84827b8529df1a028e5b7c0ec7a5c3bda3516228f8a013537a13227900"
       }
     }

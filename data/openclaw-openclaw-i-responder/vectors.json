@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-i-responder",
-  "generated_at": "2026-02-28T14:46:14.938Z",
+  "generated_at": "2026-03-01T07:14:51.667Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-i-responder#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/koba42corp/i-responder/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:14.938Z",
+        "retrieved_at": "2026-03-01T07:14:51.667Z",
         "content_sha256": "ec2af0ae3d37441e86bb106729a2569085a164bed5203ef745f6ad3a6ffe18ca"
       }
     }

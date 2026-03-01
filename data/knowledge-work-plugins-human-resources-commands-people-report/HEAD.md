@@ -14,6 +14,6 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-02-28T14:45:35.944Z
+retrieved_at: 2026-03-01T07:13:47.610Z
 content_sha256: f6de2c402e61f79de5a510c3ba4df1fdfc7e4a20d22c5ecf9f4728c43849045e
 ---

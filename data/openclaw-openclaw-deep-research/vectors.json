@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-deep-research",
-  "generated_at": "2026-02-28T14:46:02.513Z",
+  "generated_at": "2026-03-01T07:14:31.926Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-deep-research#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/deep-research/SKILL.md",
-        "retrieved_at": "2026-02-28T14:46:02.513Z",
+        "retrieved_at": "2026-03-01T07:14:31.926Z",
         "content_sha256": "766ddc95a55c6318b18d6823cccdc0a020241888a25bcd7e7aa26d7f80a3c45d"
       }
     }

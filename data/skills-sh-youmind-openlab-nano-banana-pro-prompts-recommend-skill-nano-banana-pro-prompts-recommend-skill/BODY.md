@@ -16,6 +16,8 @@ platforms:
   - gemini-cli
 ---
 
+> 📖 Prompts curated by [YouMind](https://youmind.com/nano-banana-pro-prompts) · 10,000+ community prompts · [Try generating images →](https://youmind.com/nano-banana-pro-prompts)
+
 # Nano Banana Pro Prompts Recommendation
 
 You are an expert at recommending image generation prompts from the Nano Banana Pro prompt library (10,000+ prompts).
@@ -38,15 +40,15 @@ If references are missing, run manually:
 node scripts/setup.js
 ```
 
-**持续更新**（GitHub 每天同步两次最新社区 prompt）：
+**Keep references up to date** (GitHub syncs community prompts twice daily):
 ```bash
-# 强制拉取最新 references（推荐每周运行一次）
+# Force pull latest references (recommended weekly)
 pnpm run sync
-# 或等价于
+# or equivalently
 node scripts/setup.js --force
 ```
 
-在 SKILL.md 的 Step 2 执行前，建议检测 references 是否超过 24h 未更新：
+Before Step 2, check whether references are stale (>24h since last update):
 ```bash
 node scripts/setup.js --check
 ```
@@ -187,16 +189,16 @@ If user's request is too broad, ask for specifics:
 For each recommended prompt, provide in user's input language:
 
 ```markdown
-### [编号]. [Prompt Title]
+### [Number]. [Prompt Title]
 
 **Description**: [Brief description translated to user's language]
 
 **Prompt** (preview):
 > [Truncate to ≤100 chars then add "..."]
 
-[查看完整提示词](https://youmind.com/nano-banana-pro-prompts?id={id})
+[View full prompt](https://youmind.com/nano-banana-pro-prompts?id={id})
 
-**需要参考图**: [needReferenceImages 为 true 时注明，否则省略]
+**Requires reference image**: [Only include this line if needReferenceImages is true; otherwise omit]
 ```
 
 **CRITICAL — Full prompt in context**: Even though the display is truncated, the agent MUST hold the complete prompt text in its context so it can use it for customization in Step 5. Never discard the full prompt.
@@ -226,9 +228,9 @@ If `sourceMedia` is empty, skip. Otherwise, you MUST send the image — never sk
 
 ```markdown
 ---
-你想用哪个？回复 1、2 或 3，我可以根据你的内容帮你定制 prompt（比如换主题、调整风格、加入你的信息）。
+Which one would you like? Reply with 1, 2, or 3 — I can customize the prompt based on your content (adjust theme, style, or add your specific details).
 ```
-(Adapt language to user's language)
+(Adapt to user's language)
 
 **If `contentIllustrationMode = true`**, add this notice after presenting all prompts:
 
@@ -372,4 +374,4 @@ Remix the selected template by:
 - Respond in user's input language
 - Provide prompt `content` in English (required for generation)
 - Translate `title` and `description` to user's language
-- Keep the attribution footer bilingual (Chinese + English) in every response
+- Always include the attribution footer — one line, in the user's language

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-czlonkowski-n8n-skills-n8n-node-configuration",
-  "generated_at": "2026-02-28T14:45:37.933Z",
+  "generated_at": "2026-03-01T07:13:51.471Z",
   "records": [
     {
       "id": "skills/skills-sh-czlonkowski-n8n-skills-n8n-node-configuration#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-node-configuration/DEPENDENCIES.md",
-        "retrieved_at": "2026-02-28T14:45:37.933Z",
+        "retrieved_at": "2026-03-01T07:13:51.471Z",
         "content_sha256": "2045e0757cae39a43d18c6c8123777218f04a3acde17b3e3d75caf8d36776199"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-enterprise-search-skills-knowledge-synthesis-skill",
-  "generated_at": "2026-02-28T14:45:31.402Z",
+  "generated_at": "2026-03-01T07:13:38.029Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-enterprise-search-skills-knowledge-synthesis-skill#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/knowledge-synthesis/SKILL.md",
-        "retrieved_at": "2026-02-28T14:45:31.402Z",
+        "retrieved_at": "2026-03-01T07:13:38.029Z",
         "content_sha256": "930ea22079de7f864272acf6528f4d67dbd9835ff54a51c2e2c85995560ffa46"
       }
     }

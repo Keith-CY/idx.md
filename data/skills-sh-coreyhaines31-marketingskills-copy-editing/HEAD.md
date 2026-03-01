@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copy-editing
 github_stars: 9780
 github_forks: 1357
 github_is_organization: false
-retrieved_at: 2026-02-28T14:45:39.059Z
+retrieved_at: 2026-03-01T07:13:53.698Z
 content_sha256: df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775
 ---

@@ -32,6 +32,6 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-acces
 github_stars: 902
 github_forks: 39
 github_is_organization: false
-retrieved_at: 2026-02-28T14:45:24.195Z
+retrieved_at: 2026-03-01T07:13:26.014Z
 content_sha256: 549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf
 ---

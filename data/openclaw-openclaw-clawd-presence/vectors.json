@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawd-presence",
-  "generated_at": "2026-02-28T14:45:56.294Z",
+  "generated_at": "2026-03-01T07:14:22.536Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawd-presence#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/voidcooks/clawd-presence/SKILL.md",
-        "retrieved_at": "2026-02-28T14:45:56.294Z",
+        "retrieved_at": "2026-03-01T07:14:22.536Z",
         "content_sha256": "cc9a98b312f30651bed8a0ac5104cd03a9bfc54add279630cd40b043e0d4564f"
       }
     }

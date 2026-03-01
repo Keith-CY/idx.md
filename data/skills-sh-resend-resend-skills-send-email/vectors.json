@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-resend-resend-skills-send-email",
-  "generated_at": "2026-02-28T14:45:34.860Z",
+  "generated_at": "2026-03-01T07:13:45.645Z",
   "records": [
     {
       "id": "skills/skills-sh-resend-resend-skills-send-email#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/resend/resend-skills/HEAD/send-email/references/installation.md",
-        "retrieved_at": "2026-02-28T14:45:34.860Z",
+        "retrieved_at": "2026-03-01T07:13:45.645Z",
         "content_sha256": "7dddecf470934dbe83065c71d67759c40dae12db38f28d0ec9259ba7213a6c32"
       }
     }
