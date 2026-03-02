@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-zoho-email-integration",
-  "generated_at": "2026-03-01T07:16:03.313Z",
+  "generated_at": "2026-03-02T07:22:51.406Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-zoho-email-integration#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/briansmith80/zoho-email-integration/SKILL.md",
-        "retrieved_at": "2026-03-01T07:16:03.313Z",
+        "retrieved_at": "2026-03-02T07:22:51.406Z",
         "content_sha256": "47994c8460c078f0aa288c3101737add99f47a0e9a08774222a4a43936f79ee4"
       }
     }

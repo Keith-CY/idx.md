@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-remotion-server",
-  "generated_at": "2026-03-01T07:15:29.697Z",
+  "generated_at": "2026-03-02T07:22:21.366Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-remotion-server#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/remotion-server/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:29.697Z",
+        "retrieved_at": "2026-03-02T07:22:21.366Z",
         "content_sha256": "dff4d828eaecb014a2f3bfa0a23414a0c95ef40be764958b972081d9e3dc9180"
       }
     }

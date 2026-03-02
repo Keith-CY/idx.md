@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-productboard-release",
-  "generated_at": "2026-03-01T07:15:23.737Z",
+  "generated_at": "2026-03-02T07:22:16.130Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-productboard-release#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robertoamoreno/productboard-release/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:23.737Z",
+        "retrieved_at": "2026-03-02T07:22:16.130Z",
         "content_sha256": "fc4195c49ed1733be0808e9895f9e6b9397cc626d99121485c07f4cea441e64c"
       }
     }

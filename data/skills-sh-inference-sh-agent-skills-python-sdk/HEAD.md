@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/inference-sh/agent-skills/python-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-01T07:13:39.320Z
+retrieved_at: 2026-03-02T07:20:32.502Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---

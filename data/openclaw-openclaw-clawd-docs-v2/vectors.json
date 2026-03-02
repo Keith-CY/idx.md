@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawd-docs-v2",
-  "generated_at": "2026-03-01T07:14:22.405Z",
+  "generated_at": "2026-03-02T07:21:16.339Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawd-docs-v2#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aranej/clawd-docs-v2/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:22.405Z",
+        "retrieved_at": "2026-03-02T07:21:16.339Z",
         "content_sha256": "37cf5fba34209c864784e5fb34038c071fa4eaddcecb4d15671a90a23aa6c393"
       }
     }

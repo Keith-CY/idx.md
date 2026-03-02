@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-moltpet",
-  "generated_at": "2026-03-01T07:13:24.567Z",
+  "generated_at": "2026-03-02T07:20:16.532Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-moltpet#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jcheese1/moltpet/skill.md",
-        "retrieved_at": "2026-03-01T07:13:24.567Z",
+        "retrieved_at": "2026-03-02T07:20:16.532Z",
         "content_sha256": "1060e54b3c5e3082a961fbb4fefde314bee60aa8885af1cdae03667df2cfb116"
       }
     }

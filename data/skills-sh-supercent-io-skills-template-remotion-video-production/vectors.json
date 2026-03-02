@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-remotion-video-production",
-  "generated_at": "2026-03-01T07:13:59.211Z",
+  "generated_at": "2026-03-02T07:20:53.713Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-remotion-video-production#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md",
-        "retrieved_at": "2026-03-01T07:13:59.211Z",
+        "retrieved_at": "2026-03-02T07:20:53.713Z",
         "content_sha256": "589fdbf6e17af1be514c4ec0b3d574ea8e1bc22dfdb58321385a5241b547d355"
       }
     }

@@ -1,7 +1,15 @@
 ---
 name: context-recovery
 description: Automatically recover working context after session compaction or when continuation is implied but context is missing. Works across Discord, Slack, Telegram, Signal, and other supported channels.
-metadata: {"clawdbot":{"emoji":"🔄"}}
+homepage: https://github.com/PSPDFKit-labs/agent-skills
+repository: https://github.com/PSPDFKit-labs/agent-skills
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🔄",
+      },
+  }
 ---
 
 # Context Recovery
@@ -12,6 +20,14 @@ Automatically recover working context after session compaction or when continuat
 
 ---
 
+
+
+## Safety Boundaries
+
+- This skill prioritizes channel/session API history to recover context.
+- It does NOT perform broad filesystem scans or shell glob searches by default.
+- It does NOT send recovered context to external services.
+- It does NOT write to disk unless the user explicitly asks to persist recovered state.
 ## Triggers
 
 ### Automatic Triggers
@@ -75,34 +91,28 @@ message:read
 - Incomplete actions (promises made but not fulfilled)
 - Project identifiers and working directories
 
-### Step 3: Fetch Session Logs (if available)
+### Step 3: Fetch Session Context (safe mode)
 
-```bash
-# Find most recent session files for this agent
-SESSION_DIR=$(ls -d ~/.clawdbot-*/agents/*/sessions 2>/dev/null | head -1)
-SESSIONS=$(ls -t "$SESSION_DIR"/*.jsonl 2>/dev/null | head -3)
+Use platform/session APIs only (no shell filesystem scans):
 
-for SESSION in $SESSIONS; do
-  echo "=== Session: $SESSION ==="
-  
-  # Extract user requests
-  jq -r 'select(.message.role == "user") | .message.content[0].text // empty' "$SESSION" | tail -20
-  
-  # Extract assistant actions (look for tool calls and responses)
-  jq -r 'select(.message.role == "assistant") | .message.content[]? | select(.type == "text") | .text // empty' "$SESSION" | tail -50
-done
+```yaml
+# List recent sessions (if tool exists)
+sessions_list:
+  limit: 5
+
+# Pull last messages from likely matching session
+sessions_history:
+  sessionKey: <candidate-session-key>
+  limit: 80
+  includeTools: true
 ```
 
-### Step 4: Check Shared Memory
+If session APIs are unavailable, skip this step and proceed with channel-only evidence.
 
-```bash
-# Extract keywords from channel history (project names, PR numbers, branch names)
-# Search memory for relevant entries
-grep -ri "<keyword>" ~/clawd-*/memory/ 2>/dev/null | head -10
+### Step 4: Optional Memory Check (explicitly scoped)
 
-# Check for recent daily logs
-ls -t ~/clawd-*/memory/202*.md 2>/dev/null | head -3 | xargs grep -l "<keyword>" 2>/dev/null
-```
+Only inspect memory if the agent runtime already provides a scoped memory tool/path.
+Do **not** run shell glob scans across home directories.
 
 ### Step 5: Synthesize Context
 
@@ -129,48 +139,15 @@ Compile a structured summary:
 - ⏳ "<quoted incomplete action>"
 - ⏳ "<another incomplete item>"
 
-### Key References
-| Type | Value |
-|------|-------|
-| PR | #<number> |
-| Branch | <name> |
-| Files | <paths> |
-| URLs | <links> |
-
 ### Last User Request
 > "<quoted request that may not have been completed>"
-
-### Confidence Level
-- Channel context: <high/medium/low>
-- Session logs: <available/partial/unavailable>
-- Memory entries: <found/none>
 ```
 
-### Step 6: Cache Recovered Context
+### Step 6: Optional Persistence (consent-first)
 
-**Persist to memory for future reference:**
+Do not write to disk by default. If persistence is useful, ask first:
 
-```bash
-# Write to daily memory file
-MEMORY_FILE=~/clawd-*/memory/$(date +%Y-%m-%d).md
-
-cat >> "$MEMORY_FILE" << EOF
-
-## Context Recovery — $(date +%H:%M)
-
-**Channel:** #<channel-name>
-**Recovered context for:** <project/task summary>
-
-### Key State
-- <bullet points of critical context>
-
-### Pending Items
-- <incomplete actions>
-
-EOF
-```
-
-This ensures context survives future compactions.
+> "I can cache this recovered context to memory for later continuity. Should I save it?"
 
 ### Step 7: Respond with Context
 
@@ -203,12 +180,11 @@ Present the recovered context, then prompt:
 
 ## Constraints
 
-- **MANDATORY:** Execute this protocol before responding "insufficient data" or asking clarifying questions when context appears missing
+- Prefer this protocol before declaring "insufficient data" when context appears missing
 - Adaptive depth: start with 50, expand to 100 max
 - Time-based goal: capture at least 2 hours of context when possible
-- Session log extraction: last 3 session files maximum
-- Memory cache: append to daily file, do not overwrite
 - If recovery fails, state what was attempted and what data sources were unavailable
+- Avoid broad filesystem scans or writes without explicit user consent
 
 ---
 
@@ -245,15 +221,13 @@ User message: "did this happen?"
 2. `message:read channel=discord channelId=1460342116516364533 limit=50`
 3. Calculates time span: 2.5 hours — sufficient, no expansion needed
 4. Parses messages, finds last action: "Now let me extract the key orchestration decisions..."
-5. Checks session logs — extracts recent user requests
-6. Writes context summary to `memory/YYYY-MM-DD.md`
-7. Responds:
+5. Checks session context APIs — extracts recent user requests
+6. Responds:
 
 > "Context recovered. Your last request was to extract orchestration decisions from Nexus archived sessions for PR #137 (Skills & Agents System). This action did not complete before context was truncated.
 >
 > **Recovered state:**
 > - PR #137: 15,053 additions, 91 files, CONFLICTING merge state
 > - Spec location: `content/spec-skills-agents-system.md` (2,067 lines)
-> - Nexus sessions: `~/.clawdbot-duke-leto/archive/nexus-sessions/` (96 files)
 >
 > Shall I proceed with the extraction?"

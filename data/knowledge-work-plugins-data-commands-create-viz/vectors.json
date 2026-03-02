@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-commands-create-viz",
-  "generated_at": "2026-03-01T07:13:34.616Z",
+  "generated_at": "2026-03-02T07:20:27.147Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-commands-create-viz#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/commands/create-viz.md",
-        "retrieved_at": "2026-03-01T07:13:34.616Z",
+        "retrieved_at": "2026-03-02T07:20:27.147Z",
         "content_sha256": "0c50831f19e5ccfdb5870e6ca0b1a49c9c64b285deda6029630855f816173ff3"
       }
     }

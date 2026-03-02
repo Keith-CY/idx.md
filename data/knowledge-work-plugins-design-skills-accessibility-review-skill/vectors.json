@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-design-skills-accessibility-review-skill",
-  "generated_at": "2026-03-01T07:13:46.140Z",
+  "generated_at": "2026-03-02T07:20:39.687Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-design-skills-accessibility-review-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/accessibility-review/SKILL.md",
-        "retrieved_at": "2026-03-01T07:13:46.140Z",
+        "retrieved_at": "2026-03-02T07:20:39.687Z",
         "content_sha256": "a3f61cf61fb47ad14095965460d64a663a4c6d53df32ca040b120e6eecc889de"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mailmolt",
-  "generated_at": "2026-03-01T07:15:00.437Z",
+  "generated_at": "2026-03-02T07:21:54.306Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mailmolt#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/mailmolt/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:00.437Z",
+        "retrieved_at": "2026-03-02T07:21:54.306Z",
         "content_sha256": "a249584777c5272749425daa062094281c5ce237633d82cb45190f69608a396d"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-primer",
-  "generated_at": "2026-03-01T07:15:22.836Z",
+  "generated_at": "2026-03-02T07:22:15.405Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-primer#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brucko/primer/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:22.836Z",
+        "retrieved_at": "2026-03-02T07:22:15.405Z",
         "content_sha256": "417d584300b208117bd90ccbff8ab565dc41c241dfa976af544db6e2fbbf9ae7"
       }
     }

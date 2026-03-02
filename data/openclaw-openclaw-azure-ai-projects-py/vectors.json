@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azure-ai-projects-py",
-  "generated_at": "2026-03-01T07:14:13.729Z",
+  "generated_at": "2026-03-02T07:21:07.542Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azure-ai-projects-py#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-projects-py/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:13.729Z",
+        "retrieved_at": "2026-03-02T07:21:07.542Z",
         "content_sha256": "373a87deb538810ccc155683eae3178f6bd85fb0972b222a39127255bf84b641"
       }
     }

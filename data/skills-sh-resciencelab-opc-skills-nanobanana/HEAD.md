@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/nanobanana
 github_stars: 480
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-03-01T07:14:00.647Z
+retrieved_at: 2026-03-02T07:20:55.412Z
 content_sha256: f48d19fe05684f799698b03b46178dc7f2003acc3407b6b78fe5f102de721b24
 ---

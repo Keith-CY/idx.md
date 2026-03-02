@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-craft-do",
-  "generated_at": "2026-03-01T07:14:29.884Z",
+  "generated_at": "2026-03-02T07:21:24.014Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-craft-do#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/atomtanstudio/craft-do/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:29.884Z",
+        "retrieved_at": "2026-03-02T07:21:24.014Z",
         "content_sha256": "42345febf7a06f141ec9d90bf3d12e874c99ec8cdf5d80fb8ab4db7ad4aaf6ab"
       }
     }

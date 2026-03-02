@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/resend/resend-skills/resend
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-01T07:13:28.573Z
+retrieved_at: 2026-03-02T07:20:20.667Z
 content_sha256: 5602d6937b1c0cf0b014f996ca0c591fbe56fe6811b9b9cf40cef9df6791a541
 ---

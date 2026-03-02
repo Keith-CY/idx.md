@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-github-issues",
-  "generated_at": "2026-03-01T07:13:39.480Z",
+  "generated_at": "2026-03-02T07:20:32.698Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-github-issues#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/github-issues/references/templates.md",
-        "retrieved_at": "2026-03-01T07:13:39.480Z",
+        "retrieved_at": "2026-03-02T07:20:32.698Z",
         "content_sha256": "8202c0277a34033acd44ed960a236f31a5b7a74d98769dffac497f2267279fed"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltychan",
-  "generated_at": "2026-03-01T07:15:06.773Z",
+  "generated_at": "2026-03-02T07:21:59.960Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltychan#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rspapani/moltychan/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:06.773Z",
+        "retrieved_at": "2026-03-02T07:21:59.960Z",
         "content_sha256": "8214a33ea0f58e3070bf1a3de57eb662cf46379f26b1486b7a0caa3750a47a88"
       }
     }

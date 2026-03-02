@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-inference-sh-agent-skills-agent-tools",
-  "generated_at": "2026-03-01T07:13:39.110Z",
+  "generated_at": "2026-03-02T07:20:32.248Z",
   "records": [
     {
       "id": "skills/skills-sh-inference-sh-agent-skills-agent-tools#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/inference-sh/agent-skills/HEAD/skills/agent-tools/references/authentication.md",
-        "retrieved_at": "2026-03-01T07:13:39.110Z",
+        "retrieved_at": "2026-03-02T07:20:32.248Z",
         "content_sha256": "65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e"
       }
     }

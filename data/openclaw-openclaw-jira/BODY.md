@@ -1,17 +1,32 @@
 ---
 name: jira
 description: Use when the user mentions Jira issues (e.g., "PROJ-123"), asks about tickets, wants to create/view/update issues, check sprint status, or manage their Jira workflow. Triggers on keywords like "jira", "issue", "ticket", "sprint", "backlog", or issue key patterns.
+homepage: https://github.com/ankitpokhrel/jira-cli
+repository: https://github.com/PSPDFKit-labs/agent-skills
 metadata:
   {
     "openclaw":
       {
         "emoji": "🎫",
-        "requires":
-          {
-            "anyBins": ["jira"],
-            "env": ["JIRA_API_TOKEN"],
-          },
       },
+    "envVars":
+      [
+        {
+          "name": "JIRA_API_TOKEN",
+          "required": false,
+          "description": "Needed for REST/curl fallback; not required for jira CLI or MCP backends",
+        },
+        {
+          "name": "JIRA_USER",
+          "required": false,
+          "description": "Needed for REST/curl fallback; not required for jira CLI or MCP backends",
+        },
+        {
+          "name": "JIRA_BASE_URL",
+          "required": false,
+          "description": "Needed for REST/curl fallback; not required for jira CLI or MCP backends",
+        },
+      ],
   }
 ---
 

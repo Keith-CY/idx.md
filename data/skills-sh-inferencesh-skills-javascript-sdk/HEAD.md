@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/inferencesh/skills/javascript-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-01T07:13:39.751Z
+retrieved_at: 2026-03-02T07:20:32.933Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---

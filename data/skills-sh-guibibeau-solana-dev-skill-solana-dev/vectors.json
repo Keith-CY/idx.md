@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-guibibeau-solana-dev-skill-solana-dev",
-  "generated_at": "2026-03-01T07:13:31.283Z",
+  "generated_at": "2026-03-02T07:20:23.436Z",
   "records": [
     {
       "id": "skills/skills-sh-guibibeau-solana-dev-skill-solana-dev#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/guibibeau/solana-dev-skill/main/skill/frontend-framework-kit.md",
-        "retrieved_at": "2026-03-01T07:13:31.283Z",
+        "retrieved_at": "2026-03-02T07:20:23.436Z",
         "content_sha256": "00bf8288c14add0733ae35506f52d6059a5b41b10215154c45acf8c526273480"
       }
     }

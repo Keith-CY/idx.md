@@ -113,9 +113,9 @@ hzl task list -P <project> --available     # What's ready?
 hzl task stuck                             # Any expired leases?
 
 # If stuck tasks exist, read their state before claiming
-hzl task show <stuck-id> --json
+hzl task show <stuck-id> --view standard --json
 hzl task steal <stuck-id> --if-expired --agent <agent-id>
-hzl task show <stuck-id> --json | jq '.checkpoints[-1]'
+hzl task show <stuck-id> --view standard --json | jq '.checkpoints[-1]'
 
 # Otherwise claim next available
 hzl task claim --next -P <project> --agent <agent-id>
@@ -158,7 +158,7 @@ Statuses: `backlog` → `ready` → `in_progress` → `done` (or `blocked`)
 
 ```bash
 hzl task complete <subtask-id>
-hzl task show <parent-id> --json             # Any subtasks remaining?
+hzl task show <parent-id> --view summary --json   # Any subtasks remaining?
 hzl task complete <parent-id>               # Complete parent if all done
 ```
 
@@ -274,7 +274,7 @@ hzl task claim <id> --agent <agent-id> --lease 30       # 30-minute lease
 hzl task stuck
 
 # Recover an abandoned task
-hzl task show <stuck-id> --json                          # Read last checkpoint first
+hzl task show <stuck-id> --view standard --json         # Read last checkpoint first
 hzl task steal <stuck-id> --if-expired --agent <agent-id>
 ```
 

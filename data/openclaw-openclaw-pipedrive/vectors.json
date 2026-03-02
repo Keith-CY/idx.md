@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pipedrive",
-  "generated_at": "2026-03-01T07:15:20.170Z",
+  "generated_at": "2026-03-02T07:22:12.758Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pipedrive#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/pipedrive/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:20.170Z",
+        "retrieved_at": "2026-03-02T07:22:12.758Z",
         "content_sha256": "8bd9a22df616de3b726a59f8584a949708bedb0c58e219d195827c7827400a24"
       }
     }

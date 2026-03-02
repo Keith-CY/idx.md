@@ -1,7 +1,19 @@
 ---
 name: ga4
 description: Query Google Analytics 4 (GA4) data via the Analytics Data API. Use when you need to pull website analytics like top pages, traffic sources, user counts, sessions, conversions, or any GA4 metrics/dimensions. Supports custom date ranges and filtering.
-metadata: {"clawdbot":{"emoji":"📊","requires":{"bins":["python3"]}}}
+homepage: https://developers.google.com/analytics
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "📊",
+        "requires":
+          {
+            "anyBins": ["python3", "python"],
+            "env": ["GA4_PROPERTY_ID", "GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET", "GOOGLE_REFRESH_TOKEN"],
+          },
+      },
+  }
 ---
 
 # GA4 - Google Analytics 4 Data API
@@ -18,6 +30,14 @@ Query GA4 properties for analytics data: page views, sessions, users, traffic so
    - `GOOGLE_CLIENT_SECRET` - OAuth client secret
    - `GOOGLE_REFRESH_TOKEN` - OAuth refresh token (from initial auth flow)
 
+
+
+## Safety Boundaries
+
+- This skill only connects to Google Analytics Data API endpoints.
+- It does NOT write to or modify your GA4 property — read-only queries only.
+- It does NOT store or transmit credentials beyond the current session.
+- It requires OAuth credentials (client ID, secret, refresh token) set as environment variables.
 ## Common Queries
 
 ### Top Pages (by pageviews)

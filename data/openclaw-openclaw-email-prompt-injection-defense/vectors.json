@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-email-prompt-injection-defense",
-  "generated_at": "2026-03-01T07:14:36.318Z",
+  "generated_at": "2026-03-02T07:21:30.384Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-email-prompt-injection-defense#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eltemblor/email-prompt-injection-defense/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:36.318Z",
+        "retrieved_at": "2026-03-02T07:21:30.384Z",
         "content_sha256": "3e75865a48ee046bcc798971ab6b8eb2fde94c3e6b523ae18ecd48b17a8f7080"
       }
     }

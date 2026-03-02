@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-design-commands-critique",
-  "generated_at": "2026-03-01T07:13:46.242Z",
+  "generated_at": "2026-03-02T07:20:39.798Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-design-commands-critique#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/critique.md",
-        "retrieved_at": "2026-03-01T07:13:46.242Z",
+        "retrieved_at": "2026-03-02T07:20:39.798Z",
         "content_sha256": "fa8f575a0be6fe0d47aab61706038c7925b2e50465ca037d4ea7bfab3a8ea3c5"
       }
     }

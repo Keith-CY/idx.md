@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-codex-account-switcher",
-  "generated_at": "2026-03-01T07:14:26.301Z",
+  "generated_at": "2026-03-02T07:21:20.387Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-codex-account-switcher#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-account-switcher/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:26.301Z",
+        "retrieved_at": "2026-03-02T07:21:20.387Z",
         "content_sha256": "af099a666c11d1f40ec663cfca4e097761c6f9d2903314ec8cd6766d31a37f81"
       }
     }

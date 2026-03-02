@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-amiko",
-  "generated_at": "2026-03-01T07:14:08.813Z",
+  "generated_at": "2026-03-02T07:21:03.216Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-amiko#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mars-arch/amiko/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:08.813Z",
+        "retrieved_at": "2026-03-02T07:21:03.216Z",
         "content_sha256": "220df50515e321347c2f23576ba583219c40db5e4d16dc7dec811b4e9da77e66"
       }
     }

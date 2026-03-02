@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/antfu/skills/vue-testing-best-practices
 github_stars: 3706
 github_forks: 181
 github_is_organization: false
-retrieved_at: 2026-03-01T07:13:56.059Z
+retrieved_at: 2026-03-02T07:20:50.348Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---

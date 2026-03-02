@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-commands-stakeholder-update",
-  "generated_at": "2026-03-01T07:13:36.823Z",
+  "generated_at": "2026-03-02T07:20:29.845Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-commands-stakeholder-update#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/stakeholder-update.md",
-        "retrieved_at": "2026-03-01T07:13:36.823Z",
+        "retrieved_at": "2026-03-02T07:20:29.845Z",
         "content_sha256": "916de3d5e5d9b06761579d83aa840fc30a2b763492724ade47353073d7115b6d"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-starpulse",
-  "generated_at": "2026-03-01T07:15:40.568Z",
+  "generated_at": "2026-03-02T07:22:30.623Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-starpulse#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zeph-ai-dev/starpulse/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:40.568Z",
+        "retrieved_at": "2026-03-02T07:22:30.623Z",
         "content_sha256": "5b81c43ec977d72616163c7b3eb376d6d79d5836058115f0e6ab34d8dc29b75d"
       }
     }

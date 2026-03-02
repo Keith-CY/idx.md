@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-exa-plus",
-  "generated_at": "2026-03-01T07:14:37.368Z",
+  "generated_at": "2026-03-02T07:21:31.483Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-exa-plus#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordyvandomselaar/exa-plus/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:37.368Z",
+        "retrieved_at": "2026-03-02T07:21:31.483Z",
         "content_sha256": "68782e89e94290400b1c57c73388433877051ea1739f7157817163b79a88d58f"
       }
     }

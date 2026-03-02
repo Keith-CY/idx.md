@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-inferencesh-skills-javascript-sdk",
-  "generated_at": "2026-03-01T07:13:39.751Z",
+  "generated_at": "2026-03-02T07:20:32.933Z",
   "records": [
     {
       "id": "skills/skills-sh-inferencesh-skills-javascript-sdk#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/inferencesh/skills/HEAD/skills/javascript-sdk/references/agent-patterns.md",
-        "retrieved_at": "2026-03-01T07:13:39.751Z",
+        "retrieved_at": "2026-03-02T07:20:32.933Z",
         "content_sha256": "81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8"
       }
     }

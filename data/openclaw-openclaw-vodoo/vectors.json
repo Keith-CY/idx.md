@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-vodoo",
-  "generated_at": "2026-03-01T07:15:53.906Z",
+  "generated_at": "2026-03-02T07:22:42.138Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-vodoo#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/julian-r/vodoo/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:53.906Z",
+        "retrieved_at": "2026-03-02T07:22:42.138Z",
         "content_sha256": "50cd2f692f8e5587d23cfb871081c0c19fa871219332b17329fa9fc16c1f2736"
       }
     }

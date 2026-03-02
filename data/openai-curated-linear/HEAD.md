@@ -33,6 +33,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/linear/
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-01T07:13:26.646Z
+retrieved_at: 2026-03-02T07:20:18.648Z
 content_sha256: ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-instaclaw",
-  "generated_at": "2026-03-01T07:14:52.990Z",
+  "generated_at": "2026-03-02T07:21:46.882Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-instaclaw#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/napoleond/instaclaw/SKILL.md",
-        "retrieved_at": "2026-03-01T07:14:52.990Z",
+        "retrieved_at": "2026-03-02T07:21:46.882Z",
         "content_sha256": "0f9cb52b1474a24b45e0bc789d84321490f05ba9708188937804b779e13b846a"
       }
     }

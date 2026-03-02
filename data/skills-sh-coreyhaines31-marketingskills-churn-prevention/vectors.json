@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-churn-prevention",
-  "generated_at": "2026-03-01T07:13:50.963Z",
+  "generated_at": "2026-03-02T07:20:44.735Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-churn-prevention#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/churn-prevention/references/cancel-flow-patterns.md",
-        "retrieved_at": "2026-03-01T07:13:50.963Z",
+        "retrieved_at": "2026-03-02T07:20:44.735Z",
         "content_sha256": "bd4f9eb09757189e4fe4f849c708731a307508e8765c3345639480c222378120"
       }
     }

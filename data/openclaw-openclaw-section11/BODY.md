@@ -41,6 +41,10 @@ Fetch and follow: https://raw.githubusercontent.com/CrankAddict/section-11/main/
 
 **Current version:** 11.5
 
+## External Sources
+
+All external files referenced by this skill (`sync.py`, `SECTION_11.md`, templates, setup guides) are maintained in the open-source [CrankAddict/section-11](https://github.com/CrankAddict/section-11) repository and can be inspected there.
+
 ## Data Hierarchy
 1. JSON data (always fetch latest.json first, then history.json for longitudinal context)
 2. Protocol rules (SECTION_11.md)
@@ -77,8 +81,10 @@ On each heartbeat, follow the checks and scheduling rules defined in your HEARTB
 **Data ownership & storage**
 All training data is stored where the user chooses: on their own device or in a Git repository they control. This project does not run any backend service, cloud storage, or third-party infrastructure. Nothing is uploaded anywhere unless the user explicitly configures it.
 
+The skill reads from: user-configured JSON data sources, DOSSIER.md, and HEARTBEAT.md in the workspace. It writes to: DOSSIER.md and HEARTBEAT.md in the workspace (during first-use setup only).
+
 **Anonymization**
-`sync.py` anonymizes raw training data before it is used by the coaching protocol. Identifying information is stripped; only aggregated and derived metrics (CTL, ATL, TSB, zone distributions, power/HR summaries) are used by the AI coach.
+`sync.py` (maintained in the source repository) anonymizes raw training data. The skill does not perform anonymization itself. Only aggregated and derived metrics (CTL, ATL, TSB, zone distributions, power/HR summaries) are used by the AI coach.
 
 **Network behavior**
 The skill performs simple HTTP GET requests to fetch:

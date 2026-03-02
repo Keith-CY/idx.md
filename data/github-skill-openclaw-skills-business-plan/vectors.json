@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-business-plan",
-  "generated_at": "2026-03-01T07:13:23.906Z",
+  "generated_at": "2026-03-02T07:20:15.786Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-business-plan#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/business-plan/SKILL.md",
-        "retrieved_at": "2026-03-01T07:13:23.906Z",
+        "retrieved_at": "2026-03-02T07:20:15.786Z",
         "content_sha256": "92236ce91a05cd06a791edcefba23213bb33648e67007a03d7d12a10b7a7a3a2"
       }
     }

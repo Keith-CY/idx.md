@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/hexiaochun/seedance2-api/seedance2-api
 github_stars: 28
 github_forks: 5
 github_is_organization: false
-retrieved_at: 2026-03-01T07:13:53.839Z
+retrieved_at: 2026-03-02T07:20:47.881Z
 content_sha256: 43872809c231db02f68b26802f50f82e242ffa9a79eefd2e7e3ccf665f90d6f5
 ---

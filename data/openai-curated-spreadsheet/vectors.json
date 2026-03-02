@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-spreadsheet",
-  "generated_at": "2026-03-01T07:13:27.488Z",
+  "generated_at": "2026-03-02T07:20:19.566Z",
   "records": [
     {
       "id": "skills/openai-curated-spreadsheet#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md",
-        "retrieved_at": "2026-03-01T07:13:27.488Z",
+        "retrieved_at": "2026-03-02T07:20:19.566Z",
         "content_sha256": "a9c3e61acb5e33b92760e9a1ea75b0031328095b0bb0118cacd055d749d1b73f"
       }
     }

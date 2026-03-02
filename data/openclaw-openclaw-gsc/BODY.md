@@ -1,15 +1,36 @@
 ---
 name: gsc
 description: Query Google Search Console for SEO data - search queries, top pages, CTR opportunities, URL inspection, and sitemaps. Use when analyzing search performance, finding optimization opportunities, or checking indexing status.
+homepage: https://developers.google.com/webmaster-tools
+metadata:
+  {
+    "openclaw":
+      {
+        "emoji": "🔍",
+        "requires":
+          {
+            "anyBins": ["python3", "python"],
+            "env": ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET", "GOOGLE_REFRESH_TOKEN"],
+          },
+      },
+  }
 ---
 
 # Google Search Console Skill
 
 Query GSC for search analytics, indexing status, and SEO insights.
 
+
+
+## Safety Boundaries
+
+- This skill only connects to Google Search Console API endpoints.
+- It does NOT modify your Search Console property — read-only queries only.
+- It does NOT store or transmit credentials beyond the current session.
+- It requires OAuth credentials set as environment variables.
 ## Setup
 
-1. **Credentials**: Uses same OAuth credentials as GA4 skill (stored in `.env`)
+1. **Credentials**: Set OAuth credentials in environment variables (or a local `.env` loaded by your shell)
 2. **Scopes**: Requires `webmasters.readonly` scope on your Google Cloud OAuth consent screen
 3. **Access**: Your Google account must have access to the Search Console properties
 
@@ -17,14 +38,12 @@ Query GSC for search analytics, indexing status, and SEO insights.
 
 ### List Available Sites
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py sites
+python scripts/gsc_query.py sites
 ```
 
 ### Top Search Queries
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py top-queries \
+python scripts/gsc_query.py top-queries \
   --site "https://www.nutrient.io" \
   --days 28 \
   --limit 20
@@ -32,8 +51,7 @@ python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py top-queries \
 
 ### Top Pages by Traffic
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py top-pages \
+python scripts/gsc_query.py top-pages \
   --site "https://www.nutrient.io" \
   --days 28 \
   --limit 20
@@ -42,8 +60,7 @@ python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py top-pages \
 ### Find Low-CTR Opportunities
 High impressions but low click-through rate = optimization opportunities:
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py opportunities \
+python scripts/gsc_query.py opportunities \
   --site "https://www.nutrient.io" \
   --days 28 \
   --min-impressions 100
@@ -51,23 +68,20 @@ python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py opportunities \
 
 ### Inspect URL Indexing Status
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py inspect-url \
+python scripts/gsc_query.py inspect-url \
   --site "https://www.nutrient.io" \
   --url "/sdk/web"
 ```
 
 ### List Sitemaps
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py sitemaps \
+python scripts/gsc_query.py sitemaps \
   --site "https://www.nutrient.io"
 ```
 
 ### Raw Search Analytics (JSON)
 ```bash
-source /Users/admin/clawd/skills/gsc/.env && \
-python /Users/admin/clawd/skills/gsc/scripts/gsc_query.py search-analytics \
+python scripts/gsc_query.py search-analytics \
   --site "https://www.nutrient.io" \
   --days 28 \
   --dimensions query page \

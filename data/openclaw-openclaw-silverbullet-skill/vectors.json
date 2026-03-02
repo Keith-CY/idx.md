@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-silverbullet-skill",
-  "generated_at": "2026-03-01T07:15:36.069Z",
+  "generated_at": "2026-03-02T07:22:26.526Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-silverbullet-skill#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ramonitor/silverbullet-skill/SKILL.md",
-        "retrieved_at": "2026-03-01T07:15:36.069Z",
+        "retrieved_at": "2026-03-02T07:22:26.526Z",
         "content_sha256": "db226f829768be42729c9b4bcf1373908830fc84931d8a5a31d0bc1214fa5cb6"
       }
     }
