@@ -68,6 +68,10 @@ Creates a new publish with a random slug. Works with or without authentication.
 {
   "slug": "bright-canvas-a7k2",
   "siteUrl": "https://bright-canvas-a7k2.here.now/",
+  "status": "pending",
+  "isLive": false,
+  "requiresFinalize": true,
+  "note": "Publish created, but this slug is not live yet. Upload all files to upload.uploads[], then POST upload.finalizeUrl with {\"versionId\":\"...\"}.",
   "upload": {
     "versionId": "01J...",
     "uploads": [
@@ -83,6 +87,13 @@ Creates a new publish with a random slug. Works with or without authentication.
   }
 }
 ```
+
+**This step only creates a pending publish. It is not complete yet.**
+
+- You **must upload every file** in `upload.uploads[]`.
+- Then you **must finalize** with `POST upload.finalizeUrl` and body `{ "versionId": "..." }`.
+- For brand-new slugs, `siteUrl` may return 404 until finalize succeeds.
+- For updates to an existing slug, the previous version can stay live until finalize switches to the new version.
 
 **Response (anonymous), additional fields:**
 
@@ -151,6 +162,7 @@ Makes the publish live by flipping the slug pointer to the new version.
 `PUT /api/v1/publish/:slug`
 
 Same request body as create. Returns new presigned upload URLs and a new `finalizeUrl`.
+The update response also includes `status: "pending"` and `isLive: false` to indicate the new version is not live until finalize.
 
 **Auth for owned publishes:** requires `Authorization: Bearer <API_KEY>` matching the owner.
 

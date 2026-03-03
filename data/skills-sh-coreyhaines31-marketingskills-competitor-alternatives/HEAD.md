@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/competitor-alterna
 github_stars: 8840
 github_forks: 1172
 github_is_organization: false
-retrieved_at: 2026-03-02T07:20:37.647Z
+retrieved_at: 2026-03-03T07:17:38.027Z
 content_sha256: 8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046
 ---

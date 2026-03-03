@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-design-skills-design-critique-skill",
-  "generated_at": "2026-03-02T07:20:39.454Z",
+  "generated_at": "2026-03-03T07:17:40.901Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-design-skills-design-critique-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-critique/SKILL.md",
-        "retrieved_at": "2026-03-02T07:20:39.454Z",
+        "retrieved_at": "2026-03-03T07:17:40.901Z",
         "content_sha256": "008156c53a3bba2b8bc5893a4246c558067aa46e9f0d6d641132c64579019cb4"
       }
     }

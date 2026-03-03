@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bluebubbles",
-  "generated_at": "2026-03-02T07:21:10.175Z",
+  "generated_at": "2026-03-03T07:18:33.189Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bluebubbles#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin19830331/bluebubbles/SKILL.md",
-        "retrieved_at": "2026-03-02T07:21:10.175Z",
+        "retrieved_at": "2026-03-03T07:18:33.189Z",
         "content_sha256": "705ee84bf350451c5b6b63f757020ee76ff91eb449a13324c6a6a6cd2c378546"
       }
     }

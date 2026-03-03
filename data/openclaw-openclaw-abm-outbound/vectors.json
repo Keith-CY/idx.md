@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-abm-outbound",
-  "generated_at": "2026-03-02T07:20:58.011Z",
+  "generated_at": "2026-03-03T07:18:12.028Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-abm-outbound#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/abm-outbound/SKILL.md",
-        "retrieved_at": "2026-03-02T07:20:58.011Z",
+        "retrieved_at": "2026-03-03T07:18:12.028Z",
         "content_sha256": "79a2a920c5bd9442063163891ee6280f37fcad152d4c42d60b287a118825983f"
       }
     }

@@ -17,6 +17,6 @@ upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_age
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:20:14.738Z
+retrieved_at: 2026-03-03T07:17:01.546Z
 content_sha256: e166d6d628cb342ad09d3cec892f07ab29a3f3d26f8931251b3b5abf30f0260b
 ---

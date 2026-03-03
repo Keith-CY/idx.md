@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics",
-  "generated_at": "2026-03-02T07:20:14.534Z",
+  "generated_at": "2026-03-03T07:17:01.124Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/twinmind-pack/skills/twinmind-security-basics/SKILL.md",
-        "retrieved_at": "2026-03-02T07:20:14.534Z",
+        "retrieved_at": "2026-03-03T07:17:01.124Z",
         "content_sha256": "75c0b3da46c6c0ecc72ac7cb84bc7719bef72c1929cb626c38404e9be96202db"
       }
     }

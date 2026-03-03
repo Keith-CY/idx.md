@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/inference-sh-3/skills/python-sdk
 github_stars: 32
 github_forks: 6
 github_is_organization: true
-retrieved_at: 2026-03-02T07:20:36.971Z
+retrieved_at: 2026-03-03T07:17:36.681Z
 content_sha256: 85c91b4d772be3d2d10d017f83892b00940941174989adccc5a8752f56f44ec4
 ---

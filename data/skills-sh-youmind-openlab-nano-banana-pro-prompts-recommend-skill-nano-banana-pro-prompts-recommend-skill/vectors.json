@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-youmind-openlab-nano-banana-pro-prompts-recommend-skill-nano-banana-pro-prompts-recommend-skill",
-  "generated_at": "2026-03-02T07:20:21.054Z",
+  "generated_at": "2026-03-03T07:17:11.511Z",
   "records": [
     {
       "id": "skills/skills-sh-youmind-openlab-nano-banana-pro-prompts-recommend-skill-nano-banana-pro-prompts-recommend-skill#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/youmind-openlab/nano-banana-pro-prompts-recommend-skill/main/SKILL.md",
-        "retrieved_at": "2026-03-02T07:20:21.054Z",
+        "retrieved_at": "2026-03-03T07:17:11.511Z",
         "content_sha256": "4767646582a762510325dceba8aaa6c4a2bbd2473b94f2619d67b34554577e32"
       }
     }

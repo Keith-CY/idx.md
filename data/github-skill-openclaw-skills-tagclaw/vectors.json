@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-tagclaw",
-  "generated_at": "2026-03-02T07:20:17.216Z",
+  "generated_at": "2026-03-03T07:17:05.021Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-tagclaw#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/donut33-social/tagclaw/SKILLS.md",
-        "retrieved_at": "2026-03-02T07:20:17.216Z",
+        "retrieved_at": "2026-03-03T07:17:05.021Z",
         "content_sha256": "2c24e7171443eab1ac6a5810df360575aa5af06f363a765dc9b122241da1ca6a"
       }
     }

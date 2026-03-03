@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-observability",
-  "generated_at": "2026-03-02T07:20:46.319Z",
+  "generated_at": "2026-03-03T07:17:53.548Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-observability#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-observability/references/sdk/azure-monitor-opentelemetry-py.md",
-        "retrieved_at": "2026-03-02T07:20:46.319Z",
+        "retrieved_at": "2026-03-03T07:17:53.548Z",
         "content_sha256": "09c3621da82b7de1ee6ee4c96e27171023df75897b113803e99a2a9851354608"
       }
     }

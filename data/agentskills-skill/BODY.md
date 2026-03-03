@@ -1,6 +1,6 @@
 ---
 name: Agent
-description: Use when creating, authoring, or integrating Agent Skills — reusable instruction packages that extend agent capabilities. Reach for this skill when building skill directories, writing SKILL.md files, bundling scripts, validating skills, or adding skills support to an agent platform.
+description: Use when creating reusable skill packages for AI agents, integrating skills into agent platforms, or authoring SKILL.md files that extend agent capabilities with specialized workflows, scripts, and domain expertise.
 metadata:
     mintlify-proj: agent
     version: "1.0"
@@ -10,18 +10,18 @@ metadata:
 
 ## Product summary
 
-Agent Skills is an open standard for packaging reusable instructions, scripts, and resources that agents can discover and execute. A skill is a folder containing a required `SKILL.md` file (with YAML frontmatter and Markdown instructions) plus optional `scripts/`, `references/`, and `assets/` directories. Skills enable agents to extend capabilities on demand using progressive disclosure: metadata loads at startup, full instructions load when activated, and bundled resources load only when needed. The primary documentation is at https://agentskills.io. Key files: `SKILL.md` (required frontmatter + instructions), `scripts/` (executable code), `references/` (supporting docs), `assets/` (templates). Key tools: `skills-ref validate` (validate skill format), `skills-ref to-prompt` (generate XML for agent prompts).
+Agent Skills is a lightweight, open format for packaging specialized knowledge, workflows, and executable code into reusable skill directories that AI agents can discover and activate. A skill is a folder containing a required `SKILL.md` file (with YAML frontmatter and Markdown instructions) plus optional `scripts/`, `references/`, and `assets/` directories. Agents load only skill metadata (name and description) at startup, then read full instructions when a task matches the skill's purpose. This progressive disclosure keeps agents fast while giving them access to detailed context on demand. Use skills to package domain expertise, repeatable workflows, and new capabilities that agents can reuse across different compatible platforms. Primary documentation: https://agentskills.io
 
 ## When to use
 
-Use this skill when:
-- **Creating a new skill**: You need to structure instructions, scripts, and metadata for agent use
-- **Authoring SKILL.md files**: Writing frontmatter (name, description, optional fields) and Markdown instructions
-- **Bundling scripts**: Adding executable code (Python, Bash, JavaScript, etc.) to a skill's `scripts/` directory
-- **Integrating skills into an agent**: Adding skill discovery, metadata loading, and activation to an agent platform
-- **Validating skills**: Checking that SKILL.md frontmatter and naming conventions are correct
-- **Generating agent prompts**: Creating XML metadata blocks for agent system prompts
-- **Designing script interfaces**: Making scripts idempotent, handling errors gracefully, and supporting agent execution patterns
+Reach for this skill when:
+
+- **Creating a new skill**: You need to package instructions, scripts, and resources into a reusable SKILL.md file that agents can discover and execute.
+- **Authoring skill instructions**: You're writing the Markdown body of a SKILL.md file with step-by-step workflows, examples, and edge cases.
+- **Bundling executable code**: You're creating scripts (Python, Bash, JavaScript, etc.) that agents will run as part of a skill workflow.
+- **Integrating skills into an agent platform**: You're adding skills support to an AI agent, including skill discovery, metadata loading, and execution.
+- **Validating skill format**: You need to check that a SKILL.md file meets the specification (valid frontmatter, naming conventions, structure).
+- **Generating prompt XML**: You're preparing skill metadata for injection into an agent's system prompt.
 
 ## Quick reference
 
@@ -30,174 +30,243 @@ Use this skill when:
 ```yaml
 ---
 name: skill-identifier
-description: When to use this skill and what it does (max 1024 chars)
+description: What this skill does and when to use it (max 1024 chars)
 license: MIT  # optional
-compatibility: Requires Node.js 18+  # optional
-metadata:    # optional key-value pairs
+compatibility: Requires Node.js 18+  # optional; max 500 chars
+metadata:  # optional; arbitrary key-value pairs
   category: data-processing
+  version: 1.0.0
+allowed-tools: Bash(git:*) Bash(jq:*)  # optional; experimental
 ---
 ```
 
-**Naming rules for `name`**: max 64 characters, lowercase letters/numbers/hyphens only, no leading/trailing hyphens.
+**Constraints:**
+- `name`: Max 64 chars, lowercase letters/numbers/hyphens only, no leading/trailing hyphens
+- `description`: Max 1024 chars, non-empty, describes what and when
+- `license`: Optional; license name or path to bundled license file
+- `compatibility`: Optional; environment requirements (system packages, Node.js version, network access)
 
 ### Directory structure
 
 ```
 my-skill/
-├── SKILL.md              # Required: frontmatter + instructions
-├── scripts/              # Optional: executable code
-│   ├── process.py
-│   └── validate.sh
-├── references/           # Optional: supporting documentation
-│   └── advanced-usage.md
-└── assets/               # Optional: templates, resources
-    └── template.json
+├── SKILL.md          # Required: frontmatter + instructions
+├── scripts/          # Optional: executable code (Python, Bash, JS, etc.)
+├── references/       # Optional: supporting documentation
+└── assets/           # Optional: templates, resources, data files
 ```
 
-### Common script runners
+### Script execution commands (one-off)
 
-| Runner | Command | Best for | Notes |
-|--------|---------|----------|-------|
-| `uv run` | `uv run scripts/extract.py` | Python | Recommended; uses PEP 723 inline dependencies |
-| `pipx run` | `pipx run scripts/extract.py` | Python | Alternative; broader OS package manager support |
-| `npx` | `npx eslint@9 --fix .` | Node.js | Bundled with npm; pin versions for reproducibility |
-| `deno run` | `deno run --allow-read npm:cheerio@1.0.0` | Deno | Self-contained; use `npm:` and `jsr:` specifiers |
-| `bash` | `bash scripts/validate.sh` | Shell | Direct execution; no dependency management |
+| Tool | Command | When to use |
+|------|---------|------------|
+| `uvx` | `uvx ruff@0.8.0 check .` | Python packages; fast caching; requires uv install |
+| `pipx` | `pipx run 'black==24.10.0' .` | Python packages; broader OS availability |
+| `npx` | `npx eslint@9 --fix .` | npm packages; ships with Node.js |
+| `bunx` | `bunx create-vite@6 my-app` | npm packages in Bun environments only |
+| `deno run` | `deno run --allow-read npm:eslint@9 -- --fix .` | Deno scripts; requires permission flags |
+| `go run` | `go run golang.org/x/tools/cmd/goimports@v0.28.0 .` | Go packages; built into Go |
 
-### Validation and prompt generation
+**Key rule:** Pin versions (e.g., `npx eslint@9.0.0`) for reproducibility. State prerequisites in SKILL.md (e.g., "Requires Node.js 18+") rather than assuming the agent's environment.
 
-```bash
-# Validate a skill directory
-skills-ref validate ./my-skill
+### Self-contained script patterns
 
-# Generate <available_skills> XML for agent prompts
-skills-ref to-prompt ./my-skill ./another-skill
+**Python (PEP 723):**
+```python
+#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = [
+#   "beautifulsoup4>=4.12,<5",
+#   "requests>=2.31",
+# ]
+# ///
+
+import requests
+from bs4 import BeautifulSoup
+# ... script code
 ```
+Run with: `uv run scripts/extract.py` or `pipx run scripts/extract.py`
+
+**Deno:**
+```typescript
+#!/usr/bin/env -S deno run
+
+import * as cheerio from "npm:cheerio@1.0.0";
+
+const html = `<html><body><h1>Welcome</h1></body></html>`;
+const $ = cheerio.load(html);
+console.log($("h1").text());
+```
+Run with: `deno run scripts/extract.ts`
+
+**Bun:**
+```typescript
+import { parse } from "npm:csv-parse@5.5.0";
+
+const data = await Bun.file("data.csv").text();
+// ... script code
+```
+Run with: `bun scripts/extract.ts` (auto-installs dependencies)
+
+### Skill discovery and activation (for agent implementors)
+
+1. **Discovery**: Scan configured directories for folders containing `SKILL.md`
+2. **Load metadata**: Parse YAML frontmatter only (name, description, location)
+3. **Inject into prompt**: Include skill metadata in system prompt as XML
+4. **Activation**: When task matches skill description, read full SKILL.md into context
+5. **Execution**: Agent runs scripts via shell commands or tool calls
 
 ## Decision guidance
 
-| Scenario | Use bundled script | Use one-off command |
-|----------|-------------------|-------------------|
-| Simple tool invocation (1-2 flags) | No | Yes: `npx eslint@9 --fix .` |
-| Complex logic, error handling, retries | Yes | No: move to `scripts/` |
-| Reusable across multiple skills | Yes | No: bundle once, reference many times |
-| Requires environment setup or dependencies | Yes: declare in script | Maybe: if tool auto-resolves (uv, pipx, npx) |
-| Output needs pagination or filtering | Yes: add `--offset` flag | No: one-off commands are simple |
+### When to use scripts/ vs one-off commands
 
-| Scenario | Filesystem-based agent | Tool-based agent |
-|----------|------------------------|------------------|
-| Agent has shell/bash access | Yes | No |
-| Skills accessed via shell commands | Yes | No |
-| Skills accessed via tool interface | No | Yes |
-| Bundled resources via file paths | Yes | No |
-| Bundled resources via tool methods | No | Yes |
+| Scenario | Use scripts/ | Use one-off command |
+|----------|-------------|-------------------|
+| Simple tool invocation with few flags | ❌ | ✅ `npx eslint@9 --fix .` |
+| Complex logic, error handling, or multiple steps | ✅ | ❌ |
+| Reusable logic across multiple skills | ✅ | ❌ |
+| Tool already exists and does exactly what you need | ❌ | ✅ |
+| Needs custom argument parsing or validation | ✅ | ❌ |
+
+### When to use filesystem-based vs tool-based integration
+
+| Aspect | Filesystem-based | Tool-based |
+|--------|------------------|-----------|
+| **Environment** | Bash/Unix shell | No shell; agent platform provides tools |
+| **Skill activation** | `cat /path/to/skill/SKILL.md` | Tool call (platform-specific) |
+| **Script execution** | Shell commands (`bash scripts/...`) | Tool call with output capture |
+| **Capability** | Most capable; full filesystem access | Limited by tool implementation |
+| **Use case** | Local development, CLI agents | Cloud agents, sandboxed environments |
 
 ## Workflow
 
 ### Creating a new skill
 
-1. **Create the directory structure**:
+1. **Create the directory structure:**
    ```bash
    mkdir my-skill
    cd my-skill
    ```
 
-2. **Write SKILL.md with required frontmatter**:
-   - Set `name` (lowercase, hyphens, max 64 chars)
-   - Set `description` (what the skill does, when to use it, max 1024 chars)
-   - Add optional fields: `license`, `compatibility`, `metadata`
-   - Write Markdown instructions below frontmatter
+2. **Write SKILL.md with frontmatter and instructions:**
+   ```markdown
+   ---
+   name: my-skill
+   description: Validates and processes CSV files, generates summary reports
+   compatibility: Requires Python 3.10+
+   ---
 
-3. **Add instructions to SKILL.md body**:
-   - Include step-by-step instructions
-   - Provide examples of inputs and outputs
-   - Document common edge cases
-   - Keep under 500 lines; move detailed content to `references/`
+   ## Workflow
 
-4. **Bundle scripts (if needed)**:
-   - Create `scripts/` directory
-   - Write self-contained scripts with clear `--help` output
-   - Declare dependencies inline (PEP 723 for Python, npm specifiers for Node.js)
-   - Avoid interactive prompts; use command-line flags instead
+   1. Validate the CSV file:
+      ```bash
+      python3 scripts/validate.py "$INPUT_FILE"
+      ```
 
-5. **Validate the skill**:
+   2. Generate a report:
+      ```bash
+      python3 scripts/report.py --input "$INPUT_FILE" --format json
+      ```
+
+   ## Examples
+
+   Input: `data.csv` with columns: name, age, email
+   Output: JSON report with validation errors and summary statistics
+   ```
+
+3. **Create scripts/ directory and add executable code:**
+   ```bash
+   mkdir scripts
+   # Add validate.py, report.py, etc.
+   ```
+
+4. **Add optional supporting files:**
+   ```bash
+   mkdir references assets
+   # Add documentation, templates, sample data
+   ```
+
+5. **Validate the skill:**
    ```bash
    skills-ref validate ./my-skill
    ```
 
-6. **Generate prompt XML for agent integration**:
+6. **Generate prompt XML for agent injection:**
    ```bash
    skills-ref to-prompt ./my-skill
    ```
 
 ### Integrating skills into an agent
 
-1. **Discover skills**: Scan configured directories for folders containing `SKILL.md`
+1. **Configure skill directories** in your agent's config (e.g., `~/.agent/skills/`)
 
-2. **Load metadata at startup**: Parse only frontmatter (`name`, `description`) from each skill to keep context usage low (~50-100 tokens per skill)
+2. **At startup, scan and load metadata:**
+   - Read all `SKILL.md` files in configured directories
+   - Extract only frontmatter (name, description, location)
+   - Keep in memory for quick matching
 
-3. **Match tasks to skills**: When a user task matches a skill's description, activate the skill
-
-4. **Load full instructions**: Read the complete SKILL.md body into context when the skill is activated
-
-5. **Execute scripts and resources**: Run bundled scripts or load referenced files as needed during execution
-
-6. **Inject into agent prompt**: Include skill metadata in system prompt using XML format:
+3. **Inject into system prompt:**
    ```xml
    <available_skills>
      <skill>
-       <name>pdf-processing</name>
-       <description>Extracts text and tables from PDF files, fills forms, merges documents.</description>
-       <location>/path/to/skills/pdf-processing/SKILL.md</location>
+       <name>csv-processor</name>
+       <description>Validates and processes CSV files, generates summary reports</description>
+       <location>/home/user/.agent/skills/csv-processor/SKILL.md</location>
      </skill>
    </available_skills>
    ```
 
+4. **When agent activates a skill:**
+   - Read full SKILL.md into context
+   - Agent follows instructions and runs referenced scripts
+   - Scripts execute via shell commands (filesystem) or tool calls (tool-based)
+
 ## Common gotchas
 
-- **Interactive prompts hang agents**: Scripts cannot use TTY prompts, password dialogs, or confirmation menus. Accept all input via command-line flags, environment variables, or stdin. If a flag is required, fail with a clear error message listing valid options.
+- **Interactive prompts hang indefinitely.** Agents run in non-interactive shells and cannot respond to TTY prompts, password dialogs, or confirmation menus. Always accept input via command-line flags, environment variables, or stdin. Bad: `python scripts/deploy.py` (waits for "Target environment: "). Good: `python scripts/deploy.py --env staging --tag v1.2.3` with clear error messages.
 
-- **Large output gets truncated**: Agent harnesses often truncate output beyond 10-30K characters. Default to summaries or reasonable limits; support `--offset` for pagination or require `--output FILE` to opt in to full output.
+- **Unpinned versions cause inconsistency.** Use exact versions in one-off commands: `npx eslint@9.0.0` not `npx eslint`. Without pinning, the agent may get different behavior on different runs.
 
-- **Scripts must be idempotent**: Agents may retry commands. Use "create if not exists" patterns instead of "create and fail on duplicate." This prevents spurious failures on retries.
+- **Large output gets truncated.** Agent harnesses often truncate output beyond 10-30K characters. If your script produces large output, default to a summary and support pagination flags like `--offset` or `--output` to let agents request more.
 
-- **Ambiguous input causes silent failures**: Reject ambiguous input with clear errors rather than guessing. Use enums and closed sets where possible (e.g., `--format json|csv|table`).
+- **Ambiguous input causes wasted turns.** Reject invalid input with clear, actionable error messages. Bad: "Error: invalid input". Good: "Error: --format must be one of: json, csv, table. Received: 'xml'."
 
-- **Missing exit codes confuse agents**: Use distinct exit codes for different failure types (not found = 1, invalid args = 2, auth failure = 3). Document them in `--help` output so agents know what each code means.
+- **Missing exit code documentation.** Use distinct exit codes for different failure types (not found, invalid arguments, auth failure) and document them in `--help` output so agents know what each code means.
 
-- **Unstructured output is hard to parse**: Prefer JSON, CSV, or TSV over free-form text. Send structured data to stdout and diagnostics (progress, warnings) to stderr so agents can capture clean output.
+- **Idempotency not guaranteed.** Agents may retry commands. Use "create if not exists" patterns instead of "create and fail on duplicate." For destructive operations, support `--dry-run` flags so agents can preview changes.
 
-- **Frontmatter validation fails silently**: Ensure `name` follows naming rules (lowercase, hyphens, no leading/trailing hyphens, max 64 chars). Run `skills-ref validate` before deploying.
+- **Frontmatter constraints ignored.** Skill names must be lowercase letters, numbers, and hyphens only; max 64 chars; no leading/trailing hyphens. Descriptions must be non-empty and max 1024 chars. Validation catches these, but they're easy to miss.
 
-- **Scripts without `--help` are opaque**: Document every script's interface with a concise `--help` output including description, flags, and usage examples. This is how agents learn your script's API.
+- **Scripts assume dependencies are installed.** If a script requires external packages, declare them inline (PEP 723 for Python, npm: for Deno, bundler/inline for Ruby) or use one-off commands. Don't assume the agent's environment has them pre-installed.
 
-- **Destructive operations lack safeguards**: For operations that modify state (delete, deploy, overwrite), require explicit confirmation flags (`--confirm`, `--force`) or support `--dry-run` to preview changes.
+- **Relative paths from wrong directory.** Reference bundled files with paths relative to the skill directory root (e.g., `scripts/validate.sh`). Agents run commands from the skill directory, so paths are resolved automatically.
 
-- **Relative paths break in scripts**: Use relative paths from the skill directory root (e.g., `scripts/validate.sh`, `references/guide.md`). Agents run commands from the skill root, so paths resolve automatically.
+- **Skill metadata not injected into prompt.** If agents don't know a skill exists, they won't use it. Always inject skill metadata (name, description, location) into the system prompt using the XML format.
 
 ## Verification checklist
 
 Before submitting a skill:
 
-- [ ] **Frontmatter is valid**: `name` is lowercase with hyphens only (max 64 chars), `description` is non-empty (max 1024 chars)
-- [ ] **SKILL.md exists and is readable**: File is at skill root with proper YAML frontmatter
-- [ ] **Instructions are clear**: Body includes step-by-step instructions, examples, and edge cases
-- [ ] **Scripts have `--help`**: Every bundled script documents its interface with flags and usage examples
-- [ ] **Scripts are non-interactive**: No TTY prompts, password dialogs, or confirmation menus
-- [ ] **Scripts use structured output**: JSON, CSV, or TSV to stdout; diagnostics to stderr
-- [ ] **Scripts are idempotent**: "Create if not exists" patterns; safe to retry
-- [ ] **Dependencies are declared**: Python scripts use PEP 723; Node.js scripts pin versions with `@version`
-- [ ] **Relative paths are used**: Scripts reference bundled files relative to skill root
-- [ ] **Validation passes**: `skills-ref validate ./my-skill` succeeds
-- [ ] **Prompt XML generates**: `skills-ref to-prompt ./my-skill` produces valid XML
-- [ ] **Size is reasonable**: SKILL.md is under 500 lines; detailed content is in `references/`
+- [ ] **Frontmatter is valid:** `name` (max 64 chars, lowercase/hyphens only), `description` (max 1024 chars, non-empty)
+- [ ] **Directory structure is correct:** `SKILL.md` at root; optional `scripts/`, `references/`, `assets/` subdirectories
+- [ ] **Scripts are non-interactive:** No TTY prompts, password dialogs, or confirmation menus; all input via flags/env vars
+- [ ] **Scripts have clear error messages:** Errors explain what went wrong, what was expected, and what to try
+- [ ] **Versions are pinned:** One-off commands use exact versions (e.g., `npx eslint@9.0.0`)
+- [ ] **Prerequisites are documented:** SKILL.md states environment requirements (Node.js version, system packages, etc.)
+- [ ] **Scripts are self-contained or dependencies are declared:** Use PEP 723, npm:, bundler/inline, or one-off commands
+- [ ] **Relative paths are correct:** Scripts and assets referenced relative to skill directory root
+- [ ] **Skill validates:** Run `skills-ref validate ./my-skill` with no errors
+- [ ] **Prompt XML generates:** Run `skills-ref to-prompt ./my-skill` and review output
+- [ ] **Instructions are clear:** Step-by-step workflow, examples, and edge cases are documented
+- [ ] **Output size is predictable:** Large outputs support pagination or `--output` flags
 
 ## Resources
 
-- **Comprehensive navigation**: https://agentskills.io/llms.txt — page-by-page listing of all documentation
-- **Specification**: https://agentskills.io/specification — complete SKILL.md format, directory structure, validation rules
-- **Integration guide**: https://agentskills.io/integrate-skills — how to add skills support to an agent platform
-- **Script authoring**: https://agentskills.io/skill-creation/using-scripts — best practices for bundled scripts, one-off commands, error handling
+- **Comprehensive page navigation:** https://agentskills.io/llms.txt
+- **Specification (full format details):** https://agentskills.io/specification
+- **Integration guide (for agent platforms):** https://agentskills.io/integrate-skills
+- **Script authoring best practices:** https://agentskills.io/skill-creation/using-scripts
 
 ---
 

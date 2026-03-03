@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:20:57.048Z
+retrieved_at: 2026-03-03T07:18:09.921Z
 content_sha256: dc00b63e9060d972b4dcbf49eb51b4676a707c390a1a3975582369059ff85194
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd",
-  "generated_at": "2026-03-02T07:20:23.982Z",
+  "generated_at": "2026-03-03T07:17:16.375Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md",
-        "retrieved_at": "2026-03-02T07:20:23.982Z",
+        "retrieved_at": "2026-03-03T07:17:16.375Z",
         "content_sha256": "adf46a9ee4bbea0445d096f43e2d2c20dd9c8accc29c73526d08def7ffc40b9c"
       }
     }

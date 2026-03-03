@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/delineas/astro-framework-agents/astro-framework
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:20:54.215Z
+retrieved_at: 2026-03-03T07:18:05.897Z
 content_sha256: caab3735ec58990967f419a370f52a92dae52de84b660ecd92b807fe6003c828
 ---

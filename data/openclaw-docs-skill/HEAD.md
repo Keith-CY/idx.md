@@ -7,12 +7,11 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when building, configuring, or troubleshooting a self-hosted
-  AI agent gateway that connects messaging platforms (WhatsApp, Telegram,
-  Discord, iMessage, etc.) to coding agents. Reach for this skill when agents
-  need to understand agent configuration, workspace setup, tool management,
-  channel integration, multi-agent routing, automation workflows, or gateway
-  operations.
+  description: Use when setting up, configuring, or managing an AI agent gateway
+  that connects messaging platforms (WhatsApp, Telegram, Discord, Slack,
+  iMessage, etc.) to LLM-powered agents. Reach for this skill when building
+  agent workspaces, configuring channels, managing sessions, creating skills,
+  automating tasks with cron/webhooks, or troubleshooting agent behavior.
 
   metadata:
       mintlify-proj: clawdbot
@@ -23,16 +22,16 @@ summary: >-
 
   ## Product summary
 
-  OpenClaw is a self-hosted gateway that bridges messaging platforms (WhatsApp,
-  Telegram, Discord, iMessage, Slack, Signal, and more) to AI coding agents. A
-  single Gateway process runs on your hardware and routes inbound messages to
-  agents with tool access, session memory, and multi-agent routing. The agent
-  runtime is embedded (derived from pi-mono) and executes within the Gateway
-  process. Key files: `~/.openclaw/` (config, credentials, sessions),
-  `~/.openclaw/workspace/` (agent instructions and memory),
-  `gateway/configuration-reference.md` for all config options. Primary CLI:
-  `openclaw` with subcommands for agents, channels, models, cron, and gateway
-  operations. See https://docs.openclaw.ai for full documentation.
+  OpenClaw is a self-hosted AI agent gateway that bridges messaging platforms
+  (WhatsApp, Telegram, Discord, Slack, iMessage, Signal, Mattermost, and more)
+  to LLM-powered agents. The Gateway runs as a single process on your machine or
+  server, routing inbound messages to an agent that can execute tools, manage
+  sessions, and automate tasks. The agent is built on the pi SDK and uses a
+  workspace directory (`~/.openclaw/workspace` by default) to store operating
+  instructions, memory, and configuration. Key files:
+  `~/.openclaw/openclaw.json` (config), `~/.openclaw/agents/<agentId>/sessions/`
+  (chat history), workspace files (`AGENTS.md`, `SOUL.md`, `TOOLS.md`,
+  `MEMORY.md`). Primary docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -40,6 +39,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:20:22.778Z
-content_sha256: 15deb7c5df59e5e3f1e879a206ee108f06c80f358cfdbd14d9aa0a38a9c6340c
+retrieved_at: 2026-03-03T07:17:14.503Z
+content_sha256: 724e4fc8aa2d990c4576a639b52f54ef99d1d275391dd55e130a12e497346c04
 ---

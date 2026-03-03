@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-content-creator",
-  "generated_at": "2026-03-02T07:21:22.021Z",
+  "generated_at": "2026-03-03T07:18:51.248Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-content-creator#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/content-creator/SKILL.md",
-        "retrieved_at": "2026-03-02T07:21:22.021Z",
+        "retrieved_at": "2026-03-03T07:18:51.248Z",
         "content_sha256": "61ad2cd9ef579e369ec018f03084cbc2115361ce47648fec564bf17bceb7cdef"
       }
     }

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/inference-sh-3/skills/agent-tools
 github_stars: 32
 github_forks: 6
 github_is_organization: true
-retrieved_at: 2026-03-02T07:20:35.549Z
+retrieved_at: 2026-03-03T07:17:33.976Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---

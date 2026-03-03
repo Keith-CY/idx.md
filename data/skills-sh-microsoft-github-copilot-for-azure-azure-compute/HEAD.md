@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compute
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-02T07:20:47.833Z
+retrieved_at: 2026-03-03T07:17:56.722Z
 content_sha256: 506dc880e0c8dd8362a0ac8589048ed2021e07aa93d1525306c32046f4b41326
 ---

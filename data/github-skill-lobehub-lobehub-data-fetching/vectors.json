@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-lobehub-lobehub-data-fetching",
-  "generated_at": "2026-03-02T07:20:14.813Z",
+  "generated_at": "2026-03-03T07:17:01.639Z",
   "records": [
     {
       "id": "skills/github-skill-lobehub-lobehub-data-fetching#head",
@@ -21,7 +21,7 @@
           "github-repo-lobehub"
         ],
         "source_url": "https://raw.githubusercontent.com/lobehub/lobehub/canary/.agents/skills/data-fetching/SKILL.md",
-        "retrieved_at": "2026-03-02T07:20:14.813Z",
+        "retrieved_at": "2026-03-03T07:17:01.639Z",
         "content_sha256": "001c135990eca9924a03c8c9e8330f8d18393151827d5ddef5074f23eb6fb6de"
       }
     }

@@ -24,7 +24,7 @@ upstream_ref: https://github.com/onmax/nuxt-skills/blob/main/skills/nuxt-seo/SKI
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:20:15.109Z
+retrieved_at: 2026-03-03T07:17:02.115Z
 content_sha256: 254b902fbdd467b08ff7c2556f02dec2afc99fcd47583e02d1f31f9c30e8fbb3
 ---
 |/data/github-skill-onmax-nuxt-skills-nuxt-seo|
@@ -44,7 +44,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:20:57.840Z
+retrieved_at: 2026-03-03T07:18:11.611Z
 content_sha256: 80f9a9c3d360addc50c93ac4d748aa5517cd02d150596744a0c725048779fcee
 ---
 |/data/openclaw-openclaw-a-nach-b|
@@ -65,7 +65,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:02.639Z
+retrieved_at: 2026-03-03T07:18:19.373Z
 content_sha256: 3a2afe2014b41163d4cbe7551ce6c45fb3db3029961a6fd69879608d1885b334
 ---
 |/data/openclaw-openclaw-airfrance-afkl|
@@ -86,7 +86,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:04.075Z
+retrieved_at: 2026-03-03T07:18:22.008Z
 content_sha256: a9322a6d70f459c6e887d7551b40604d301db53c2387527a100696fcacfb7a4a
 ---
 |/data/openclaw-openclaw-anyone-proxy|
@@ -106,7 +106,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:06.994Z
+retrieved_at: 2026-03-03T07:18:27.304Z
 content_sha256: 45294eac352391fe122b1c020800c8f9fe4430c9b425c9d5e72f9a4bf6971857
 ---
 |/data/openclaw-openclaw-aviation-weather|
@@ -126,7 +126,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:08.247Z
+retrieved_at: 2026-03-03T07:18:29.607Z
 content_sha256: 9370297b799ca6a6c3c69b215d3c79be6a6229581d1ee915b1f4b878822d0dbd
 ---
 |/data/openclaw-openclaw-bahn|
@@ -147,7 +147,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:09.377Z
+retrieved_at: 2026-03-03T07:18:31.637Z
 content_sha256: b0d98b20c3907aa19da7c732f1b1a0a690999181a37b75c6178f16936f9ebefa
 ---
 |/data/openclaw-openclaw-bexio|
@@ -167,7 +167,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:10.760Z
+retrieved_at: 2026-03-03T07:18:34.163Z
 content_sha256: 1f8676022f99227d8b6d159a766497c68bdfb1ed4de0702c5222a6664c2ebba2
 ---
 |/data/openclaw-openclaw-brainstorming-studio|
@@ -188,7 +188,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:12.181Z
+retrieved_at: 2026-03-03T07:18:36.187Z
 content_sha256: e997fb60e07199cbc5fbc430fbe6b8c7c8b89f7a93fab331b6491b44fc9dc6c3
 ---
 |/data/openclaw-openclaw-bvg-route|
@@ -208,7 +208,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:14.339Z
+retrieved_at: 2026-03-03T07:18:39.198Z
 content_sha256: 31a2f49da28714c14540343d6b85c1c98b025037a12120a6ac19ea0022bc40fe
 ---
 |/data/openclaw-openclaw-charger|
@@ -228,7 +228,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:23.309Z
+retrieved_at: 2026-03-03T07:18:53.195Z
 content_sha256: f9f61f83c8e71b148674b76910ff678769fcf7f29c0c1d2103ebd79e409f09be
 ---
 |/data/openclaw-openclaw-copey-flight-tracker|
@@ -248,7 +248,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:31.007Z
+retrieved_at: 2026-03-03T07:19:06.022Z
 content_sha256: e9d4f4a9f46c979fb294bbb102032fdb5b021356094d3486ecf7dc1328586cbe
 ---
 |/data/openclaw-openclaw-erz-entsorgung-recycling-zurich|
@@ -268,7 +268,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:35.482Z
+retrieved_at: 2026-03-03T07:19:12.393Z
 content_sha256: 83dfec0c4695eb1b9326955fe76e4e7d8888df18d1ef19339ba289f7d2ea3052
 ---
 |/data/openclaw-openclaw-flight-tracker|
@@ -288,7 +288,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:41.994Z
+retrieved_at: 2026-03-03T07:19:22.187Z
 content_sha256: 9aeaaa3f2e41fa22585eaccb9a419a5ed1ad8bc393b0764ef2bc6585fc5163f5
 ---
 |/data/openclaw-openclaw-gotrain|
@@ -309,7 +309,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:45.813Z
+retrieved_at: 2026-03-03T07:19:28.523Z
 content_sha256: 076292d5384d26ab594e79fd3bf0f584d0d92f5c0808ad9ca017f1924038acf2
 ---
 |/data/openclaw-openclaw-image-to-relief-stl|
@@ -330,7 +330,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:46.152Z
+retrieved_at: 2026-03-03T07:19:29.015Z
 content_sha256: a9703fda72a47f359809626adb27bd6ac029f56f19075e1dda9e4c52d20159dc
 ---
 |/data/openclaw-openclaw-incident-pcn-evidence-appeal-corrective-actions-uk|
@@ -351,7 +351,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:49.946Z
+retrieved_at: 2026-03-03T07:19:34.499Z
 content_sha256: 54e4ef3874acfb72b8b4b92f110802a6253afcb3639c51d2dcd462500536994f
 ---
 |/data/openclaw-openclaw-jwdiario|
@@ -372,7 +372,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:50.563Z
+retrieved_at: 2026-03-03T07:19:35.615Z
 content_sha256: 2d6c180a0d475282fc6218327f72455b6c50a5723b467365bf409b7d1d6b2c89
 ---
 |/data/openclaw-openclaw-kallyai|
@@ -392,7 +392,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:21:55.736Z
+retrieved_at: 2026-03-03T07:19:44.242Z
 content_sha256: 496b46c0d36aed31bf488b61095235deae926f7675f30baaa179caf3e1591266
 ---
 |/data/openclaw-openclaw-mechanic|
@@ -412,7 +412,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:03.426Z
+retrieved_at: 2026-03-03T07:19:56.604Z
 content_sha256: 1be50ce6fe2e9e1824d556e6e206b4c244ff8ccf05ad1b3347e84628f766eb41
 ---
 |/data/openclaw-openclaw-nmap-recon|
@@ -433,7 +433,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:04.907Z
+retrieved_at: 2026-03-03T07:19:58.909Z
 content_sha256: 6eaca018f988dabc6e8a0d1822be28626d3c9f547f984f0da9bbe620dca1d4fc
 ---
 |/data/openclaw-openclaw-ns-trains|
@@ -453,7 +453,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:05.457Z
+retrieved_at: 2026-03-03T07:19:59.806Z
 content_sha256: 879fbc5c3735c00b53ceee90efb092d86121d296d627196102fef90cd2b7c059
 ---
 |/data/openclaw-openclaw-oebb-scotty|
@@ -474,7 +474,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:08.468Z
+retrieved_at: 2026-03-03T07:20:04.470Z
 content_sha256: 6fdf03af4861ef09e611171e64b3665d6d81c2e58b42e10986b9d4a7b0d92f0a
 ---
 |/data/openclaw-openclaw-otp-challenger|
@@ -494,7 +494,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:16.130Z
+retrieved_at: 2026-03-03T07:20:16.415Z
 content_sha256: fc4195c49ed1733be0808e9895f9e6b9397cc626d99121485c07f4cea441e64c
 ---
 |/data/openclaw-openclaw-productboard-release|
@@ -514,7 +514,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:19.181Z
+retrieved_at: 2026-03-03T07:20:21.755Z
 content_sha256: fbd5bcd6a8c515a188980079ff3eaf4c96eb8379c2b1b74b96048ac14f8d443c
 ---
 |/data/openclaw-openclaw-railil|
@@ -535,7 +535,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:20.041Z
+retrieved_at: 2026-03-03T07:20:23.089Z
 content_sha256: 7a1eabd1727de725ca988a3cd61419241e7375869912cd49ce333008ddb468cf
 ---
 |/data/openclaw-openclaw-recgov-availability|
@@ -555,7 +555,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:22.470Z
+retrieved_at: 2026-03-03T07:20:26.790Z
 content_sha256: b68c568f90ce37335a50c925b8adb729376434adc6456199164a2c2b6dacbb6c
 ---
 |/data/openclaw-openclaw-ringbot|
@@ -575,7 +575,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:24.156Z
+retrieved_at: 2026-03-03T07:20:29.596Z
 content_sha256: f9f5b89a9f7579f44032d53423cf5f1ceb45e7c0fd78a871c163b8f56247d02d
 ---
 |/data/openclaw-openclaw-section11|
@@ -596,7 +596,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:24.947Z
+retrieved_at: 2026-03-03T07:20:31.315Z
 content_sha256: 7808cc4003922346e2622700d1ba14055b3e62a5307261c4dfc5db8a68246461
 ---
 |/data/openclaw-openclaw-sendgrid-skills|
@@ -616,7 +616,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:26.731Z
+retrieved_at: 2026-03-03T07:20:34.980Z
 content_sha256: f71b772116b1ce57282692818ba0a616290c42ca5cc50fb0c46d184e17a95409
 ---
 |/data/openclaw-openclaw-skanetrafiken|
@@ -636,7 +636,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:32.061Z
+retrieved_at: 2026-03-03T07:20:43.423Z
 content_sha256: bd53242ee1d7971c8ba431fb4f54dc2f6857f0e3cd72340bede0c350b7e7d97e
 ---
 |/data/openclaw-openclaw-surfline|
@@ -656,7 +656,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:32.698Z
+retrieved_at: 2026-03-03T07:20:44.985Z
 content_sha256: c3b899153224343dfc8386722dff1687e2ea43a3a55255b89ab6224b1001d4ee
 ---
 |/data/openclaw-openclaw-swiss-geo-and-tourism-assistant|
@@ -676,7 +676,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:32.762Z
+retrieved_at: 2026-03-03T07:20:45.080Z
 content_sha256: cc800325028a89f850db4f8df15d644bfab89f95d3024301cbbadd3d66ee5744
 ---
 |/data/openclaw-openclaw-swiss-phone-directory|
@@ -696,7 +696,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:32.853Z
+retrieved_at: 2026-03-03T07:20:45.170Z
 content_sha256: 903fb1a9548ff694f968bcdb4e9b4ebec834356664fbfd9bf5bd90095aa11b85
 ---
 |/data/openclaw-openclaw-swiss-transport|
@@ -716,7 +716,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:33.319Z
+retrieved_at: 2026-03-03T07:20:46.128Z
 content_sha256: 4967de49a3e63268fb509fab95acc886410a42b9df060ecb72e8f6537df4e82a
 ---
 |/data/openclaw-openclaw-tachograph-infringement-triage-root-cause-uk|
@@ -736,7 +736,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:34.867Z
+retrieved_at: 2026-03-03T07:20:48.898Z
 content_sha256: a500c6a0c81bb49a43c29693225bf73328801b8fa27e0dbcbbbbdb8540dba1bc
 ---
 |/data/openclaw-openclaw-tesla|
@@ -756,7 +756,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:34.935Z
+retrieved_at: 2026-03-03T07:20:48.998Z
 content_sha256: d5a63bd8f05ad7367f2791b48cf41b412b83be784226d61244bbd0fb842c9b5f
 ---
 |/data/openclaw-openclaw-tesla-commands|
@@ -776,7 +776,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:35.054Z
+retrieved_at: 2026-03-03T07:20:49.200Z
 content_sha256: ab586f8a99ded38278c47427ae109bce9db3c606abb655ae229eef19c4dd7dbd
 ---
 |/data/openclaw-openclaw-tessie|
@@ -796,7 +796,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.104Z
+retrieved_at: 2026-03-03T07:20:53.206Z
 content_sha256: 76bcc84dcc9c9618ef75bdf6815e9e5e2fbbcdb21b8d933735ca94c39ec50751
 ---
 |/data/openclaw-openclaw-trace-to-svg|
@@ -817,7 +817,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.487Z
+retrieved_at: 2026-03-03T07:20:53.787Z
 content_sha256: 3ec273c22ae4ff586c57be380fef3aa5a4fecb6168d4bd68ee26f86056722cfa
 ---
 |/data/openclaw-openclaw-transcript-to-content|
@@ -837,7 +837,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.602Z
+retrieved_at: 2026-03-03T07:20:53.985Z
 content_sha256: 9d1910f3c00686b51e1c80433e60d0c27fc98ee43c6d6407b764e0dda6ec97b2
 ---
 |/data/openclaw-openclaw-transport-for-london-journey-disruption|
@@ -857,7 +857,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.673Z
+retrieved_at: 2026-03-03T07:20:54.204Z
 content_sha256: 7b360361dc2b7a9d08ea69e355e24c19f7323418d6a73a5f324418c6cb8c131d
 ---
 |/data/openclaw-openclaw-transport-investigation-acas-aligned-pack|
@@ -877,7 +877,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.749Z
+retrieved_at: 2026-03-03T07:20:54.366Z
 content_sha256: bdf32c660e56debbb50ee937b8a88e5c318f5f3949ececc1b87d045bd0c19679
 ---
 |/data/openclaw-openclaw-travel-concierge|
@@ -897,7 +897,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.817Z
+retrieved_at: 2026-03-03T07:20:54.462Z
 content_sha256: 9168ad9d077764ec4a08c1f8040e010fe671664af636f43a088f287b9b75fa39
 ---
 |/data/openclaw-openclaw-trein|
@@ -917,7 +917,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:37.973Z
+retrieved_at: 2026-03-03T07:20:54.655Z
 content_sha256: dd995a6707e61fd576eaf1f7ea34fb20d9a6645bd4c78b85778cd4f4f1623d16
 ---
 |/data/openclaw-openclaw-trimet|
@@ -937,7 +937,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:39.601Z
+retrieved_at: 2026-03-03T07:20:57.271Z
 content_sha256: a4b562f2c6760a3ff38e546622e20ece4512c65c66c3cb0a6ebd3703d92c2356
 ---
 |/data/openclaw-openclaw-uk-trains|
@@ -957,7 +957,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:41.921Z
+retrieved_at: 2026-03-03T07:21:00.784Z
 content_sha256: 398176aa06444720274d39ec6292e5f21ddeb0108a5ecc8fec7ceb8306ec8e5d
 ---
 |/data/openclaw-openclaw-virus-monitor|
@@ -977,7 +977,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:44.843Z
+retrieved_at: 2026-03-03T07:21:04.473Z
 content_sha256: 0b91a94edc7473e7c9cf7c70e3bdc620130ca12b8d1b25fe98151a1058f9981b
 ---
 |/data/openclaw-openclaw-wed-1-0-1|
@@ -997,7 +997,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:45.808Z
+retrieved_at: 2026-03-03T07:21:06.070Z
 content_sha256: 0ee441593fc7a03d9ae3a42d3ab8a1947fca4ceff418d56413d594b820942099
 ---
 |/data/openclaw-openclaw-wheels-router|
@@ -1017,7 +1017,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-02T07:22:46.273Z
+retrieved_at: 2026-03-03T07:21:07.221Z
 content_sha256: a114522c23fa5553440c44f30791045fc73b64af2bc646b96ef1282bcb0d41f2
 ---
 |/data/openclaw-openclaw-wienerlinien|
