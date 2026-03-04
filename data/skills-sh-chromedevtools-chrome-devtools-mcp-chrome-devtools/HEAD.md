@@ -17,9 +17,11 @@ summary: >-
     auto-accept installation prompt.
   - Find a specific error in the output of the `chrome-devtools-mcp` server.
     Usually, if your client is an IDE, logs would be in the Output pane.
-  ## Debugging
+  - Search the [GitHub repository issues and
+  discussions](https://github.com/ChromeDevTools/chrome-devtools-mcp) for help
+  or existing similar problems.
 
-  Start the MCP server with debugging enabled and a log file:
+  ## Debugging
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -29,6 +31,6 @@ upstream_ref: https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtoo
 github_stars: 26831
 github_forks: 1565
 github_is_organization: true
-retrieved_at: 2026-03-03T07:17:52.699Z
-content_sha256: 7144edbd6dc22b89303bd63cebab321c898000a9e93b538344c5fc519f7c78c9
+retrieved_at: 2026-03-04T07:15:29.628Z
+content_sha256: 570de80c847ce68c39f797c4bba23b62df9f92ea82f13faa07d03673b62e6971
 ---

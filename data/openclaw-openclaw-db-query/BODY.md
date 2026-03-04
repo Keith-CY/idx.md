@@ -9,6 +9,14 @@ description: Query project databases with automatic SSH tunnel management. Use w
 
 Query databases through a centralized configuration file with automatic SSH tunnel management. Handles connection details, SSH tunnel setup/teardown, and query execution.
 
+## Security
+
+**Passwords are never exposed in process lists.** The skill uses environment variables for credentials:
+- `MYSQL_PWD` for database passwords (passed to mysql client)
+- `SSHPASS` for SSH tunnel passwords (passed to sshpass)
+
+**Recommended:** Store credentials in environment variables instead of the config file for better security.
+
 ## Configuration
 
 ### Setup
@@ -26,7 +34,7 @@ Query databases through a centralized configuration file with automatic SSH tunn
    - `port`: Database port (default: 3306)
    - `database`: Database name (required)
    - `user`: Database user (required)
-   - `password`: Database password (required)
+   - `password`: Database password (optional, can use env var)
    - `ssh_tunnel`: Optional SSH tunnel configuration
 
 3. **SSH tunnel configuration** (if needed):
@@ -38,18 +46,30 @@ Query databases through a centralized configuration file with automatic SSH tunn
    - `remote_host`: Remote database host behind SSH (default: localhost)
    - `remote_port`: Remote database port (default: 3306)
 
+### Environment Variables (Recommended)
+
+Instead of storing passwords in the config file, use environment variables:
+
+```bash
+# Format: DB_PASSWORD_<DATABASE_NAME> (spaces replaced with underscores, uppercase)
+export DB_PASSWORD_PRODUCTION_USER_DB="your_db_password"
+
+# Format: SSH_PASSWORD_<DATABASE_NAME> for SSH tunnel password
+export SSH_PASSWORD_PRODUCTION_USER_DB="your_ssh_password"
+```
+
 ### Example Config
 
 ```json
 {
   "databases": [
     {
-      "name": "生产用户库",
+      "name": "Production User DB",
       "host": "localhost",
       "port": 3306,
       "database": "user_db",
       "user": "db_user",
-      "password": "secret",
+      "password": "",
       "ssh_tunnel": {
         "enabled": true,
         "ssh_host": "prod.example.com",
@@ -59,6 +79,12 @@ Query databases through a centralized configuration file with automatic SSH tunn
     }
   ]
 }
+```
+
+Set environment variables (recommended):
+```bash
+export DB_PASSWORD_PRODUCTION_USER_DB="your_db_password"
+export SSH_PASSWORD_PRODUCTION_USER_DB="your_ssh_password"
 ```
 
 ## Usage
@@ -73,7 +99,7 @@ python3 /usr/lib/node_modules/clawdbot/skills/db-query/scripts/db_query.py --lis
 
 ```bash
 python3 /usr/lib/node_modules/clawdbot/skills/db-query/scripts/db_query.py \
-  --database "生产用户库" \
+  --database "Production User DB" \
   --query "SELECT * FROM users LIMIT 10"
 ```
 

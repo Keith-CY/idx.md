@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-multiposting",
-  "generated_at": "2026-03-03T07:19:52.700Z",
+  "generated_at": "2026-03-04T07:17:01.924Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-multiposting#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/multiposting/SKILL.md",
-        "retrieved_at": "2026-03-03T07:19:52.700Z",
+        "retrieved_at": "2026-03-04T07:17:01.924Z",
         "content_sha256": "a5f0eefdaf584d846957943e09c4ac6ac37361ee83197568458de19a92d767c9"
       }
     }

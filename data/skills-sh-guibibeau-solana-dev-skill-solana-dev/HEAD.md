@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/guibibeau/solana-dev-skill/solana-dev
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:15.586Z
+retrieved_at: 2026-03-04T07:15:01.729Z
 content_sha256: 00bf8288c14add0733ae35506f52d6059a5b41b10215154c45acf8c526273480
 ---

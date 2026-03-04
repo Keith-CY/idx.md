@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brave-images",
-  "generated_at": "2026-03-03T07:18:34.360Z",
+  "generated_at": "2026-03-04T07:16:00.513Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brave-images#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zats/brave-images/SKILL.md",
-        "retrieved_at": "2026-03-03T07:18:34.360Z",
+        "retrieved_at": "2026-03-04T07:16:00.513Z",
         "content_sha256": "549dd7f98a19d883aaf5ee3427fa102c276e4945c86ba52ebb8c64c37f02d71c"
       }
     }

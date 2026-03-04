@@ -92,7 +92,20 @@ hzl task add "Research competitor pricing" -P research -s ready
 hzl task claim --next -P research --agent kenji
 ```
 
-Only use `--agent` when you specifically want one person. Use `--project` when any eligible agent should pick it up.
+**Agent routing:** when `--agent` is set at task creation, only that agent (or agents with no assignment) can claim it via `--next`. Tasks with no agent are available to everyone.
+
+```bash
+# Pre-route a task to a specific agent
+hzl task add "Review Clara's PR" -P coding -s ready --agent kenji
+
+# Kenji claims it (matches agent)
+hzl task claim --next -P coding --agent kenji   # ✓ returns it
+
+# Ada tries — skipped because it's assigned to kenji
+hzl task claim --next -P coding --agent ada     # ✗ skips it
+```
+
+Use `--agent` on task creation when you specifically want one person. Omit it when any eligible agent in the pool should pick it up.
 
 ---
 
@@ -104,17 +117,21 @@ Only use `--agent` when you specifically want one person. Use `--project` when a
 hzl workflow run start --agent <agent-id> --project <project> --json
 ```
 
-This handles expired-lease recovery and new-task claiming in one command. If a task is returned, work on it. If nothing is returned, the queue is empty.
+`--project` is required — agents must scope to their assigned pool. Use `--any-project` to intentionally scan all projects (e.g. coordination agents).
+
+This handles expired-lease recovery and new-task claiming in one command. If a task is returned, work on it. If nothing is returned, the queue is empty. Agent routing applies: tasks assigned to other agents are skipped.
 
 ### Without workflow commands (fallback)
 
 ```bash
+hzl agent status                           # Who's active? What's running?
 hzl task list -P <project> --available     # What's ready?
 hzl task stuck                             # Any expired leases?
+hzl task stuck --stale                     # Also check for stale tasks (no checkpoints)
 
 # If stuck tasks exist, read their state before claiming
 hzl task show <stuck-id> --view standard --json
-hzl task steal <stuck-id> --if-expired --agent <agent-id>
+hzl task steal <stuck-id> --if-expired --agent <agent-id> --lease 30
 hzl task show <stuck-id> --view standard --json | jq '.checkpoints[-1]'
 
 # Otherwise claim next available
@@ -236,31 +253,16 @@ hzl task progress <id> 75          # Set progress without a checkpoint
 
 ---
 
-## Hook delivery
+## Lifecycle hooks
 
-When a task transitions to `done`, HZL enqueues a callback to your configured endpoint. The drain command delivers queued callbacks.
+HZL sends targeted notifications for high-value transitions — currently only `on_done`. Other lifecycle events (stuck detection, blocking, progress) require polling. This is deliberate: hooks signal when something meaningful happens, agents and orchestrators poll for everything else.
 
-```bash
-hzl hook drain                     # Deliver all queued callbacks (run on a schedule)
-hzl hook drain --dry-run           # Preview what would be delivered
-```
+Hooks are configured during installation (see docs-site for setup). As an agent, here's what you need to know operationally:
 
-Configure in `~/.config/hzl/config.json` (create if missing):
-
-```json
-{
-  "hooks": {
-    "on_done": {
-      "url": "<OPENCLAW_GATEWAY_URL>/events/inject",
-      "headers": {
-        "Authorization": "Bearer <YOUR_GATEWAY_TOKEN>"
-      }
-    }
-  }
-}
-```
-
-HZL uses a host-process model — no built-in daemon. In OpenClaw, run `hzl hook drain` as a recurring cron job every 2 minutes. Without a scheduler, callbacks queue but never fire.
+- **Only `on_done` fires.** When you `task complete`, HZL queues a webhook. For stuck detection, stale detection, blocking changes, or progress — poll with `hzl task stuck --stale` or `hzl task list`.
+- **Delivery is not instant.** `hzl hook drain` runs on a cron schedule (typically every 2–5 minutes). Your completion is recorded immediately, but the notification reaches the gateway on the next drain cycle.
+- **Payloads include context.** Each notification carries `agent`, `project`, and full event details. The gateway handles per-agent routing — HZL sends the same payload to one URL regardless of which agent completed the task.
+- **If hooks seem broken**, check `hzl hook drain --json` for delivery failures and `last_error` details.
 
 ---
 
@@ -270,12 +272,24 @@ HZL uses a host-process model — no built-in daemon. In OpenClaw, run `hzl hook
 # Claim with lease (prevents orphaned work)
 hzl task claim <id> --agent <agent-id> --lease 30       # 30-minute lease
 
+# Fleet status: who's active, what they're working on, how long
+hzl agent status                                        # All agents
+hzl agent status --agent <name>                         # Single agent
+hzl agent status --stats                                # Include task count breakdowns
+
+# Agent activity history
+hzl agent log <agent>                                   # Recent events for an agent
+
 # Monitor for stuck tasks
 hzl task stuck
 
-# Recover an abandoned task
+# Monitor for stuck AND stale tasks (no checkpoints for 10+ min)
+hzl task stuck --stale
+hzl task stuck --stale --stale-threshold 15               # Custom threshold
+
+# Recover an abandoned task (steal + set new lease atomically)
 hzl task show <stuck-id> --view standard --json         # Read last checkpoint first
-hzl task steal <stuck-id> --if-expired --agent <agent-id>
+hzl task steal <stuck-id> --if-expired --agent <agent-id> --lease 30
 ```
 
 Use distinct `--agent` IDs per agent (e.g. `henry`, `clara`, `kenji`) so authorship is traceable.
@@ -318,6 +332,12 @@ hzl task list -P <project> --tags <csv>       # Filter by tags
 # Create with options
 hzl task add "<title>" -P <project> --priority 2 --tags backend,auth
 hzl task add "<title>" -P <project> -s in_progress --agent <name>
+
+# Agent fleet status
+hzl agent status                              # Active/idle agents, current tasks, lease state
+hzl agent status --agent <name>               # Single agent
+hzl agent status --stats                      # With task count breakdowns
+hzl agent log <agent>                         # Activity history for an agent
 
 # Web dashboard
 hzl serve                                     # Start on port 3456

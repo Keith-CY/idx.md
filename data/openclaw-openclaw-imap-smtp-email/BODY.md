@@ -1,6 +1,21 @@
 ---
 name: imap-smtp-email
 description: Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Works with any IMAP/SMTP server including Gmail, Outlook, 163.com, vip.163.com, 126.com, vip.126.com, 188.com, and vip.188.com.
+metadata:
+  openclaw:
+    emoji: "📧"
+    requires:
+      env:
+        - IMAP_HOST
+        - IMAP_USER
+        - IMAP_PASS
+        - SMTP_HOST
+        - SMTP_USER
+        - SMTP_PASS
+      bins:
+        - node
+        - npm
+    primaryEnv: SMTP_PASS
 ---
 
 # IMAP/SMTP Email Tool
@@ -45,6 +60,12 @@ SMTP_REJECT_UNAUTHORIZED=true     # Set to false for self-signed certs
 | Gmail | imap.gmail.com | 993 | smtp.gmail.com | 587 |
 | Outlook | outlook.office365.com | 993 | smtp.office365.com | 587 |
 | QQ Mail | imap.qq.com | 993 | smtp.qq.com | 587 |
+
+**Important for Gmail:**
+- Gmail does **not** accept your regular account password
+- You must generate an **App Password**: https://myaccount.google.com/apppasswords
+- Use the generated 16-character App Password as `IMAP_PASS` / `SMTP_PASS`
+- Requires Google Account with 2-Step Verification enabled
 
 **Important for 163.com:**
 - Use **authorization code** (授权码), not account password
@@ -170,7 +191,7 @@ npm install
 ## Security Notes
 
 - Store credentials in `.env` (add to `.gitignore`)
-- For Gmail: use App Password if 2FA is enabled
+- **Gmail**: regular password is rejected — generate an App Password at https://myaccount.google.com/apppasswords
 - For 163.com: use authorization code (授权码), not account password
 
 ## Troubleshooting
@@ -183,7 +204,7 @@ npm install
 - Verify username (usually full email address)
 - Check password is correct
 - For 163.com: use authorization code, not account password
-- For Gmail: use App Password if 2FA enabled
+- For Gmail: regular password won't work — generate an App Password at https://myaccount.google.com/apppasswords
 
 **TLS/SSL errors:**
 - Match `IMAP_TLS`/`SMTP_SECURE` setting to server requirements

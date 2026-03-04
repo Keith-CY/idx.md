@@ -9,29 +9,63 @@ Two modes:
 - **Authenticated**: include `Authorization: Bearer <API_KEY>` header.
 - **Anonymous**: omit the header entirely. Publishes expire in 24 hours with lower limits.
 
+### Optional client attribution header
+
+You can include an optional header on publish calls:
+
+- `X-HereNow-Client: <agent>/<tool>`
+
+Examples:
+
+- `X-HereNow-Client: cursor/publish-sh`
+- `X-HereNow-Client: claude-code/publish-sh`
+- `X-HereNow-Client: codex/cli`
+- `X-HereNow-Client: openclaw/direct-api`
+
+This helps here.now debug publish reliability by client. Missing or invalid values are ignored; publishes are never rejected because this header is absent.
+
 ### Getting an API key (agent-assisted sign-up)
 
-Agents can trigger the sign-up flow on behalf of the user:
+Agents can complete sign-up without requiring the user to open the dashboard:
 
-**1. Send magic link:**
+**1. Request a one-time code by email:**
 
 ```bash
-curl -sS https://here.now/api/auth/login \
+curl -sS https://here.now/api/auth/agent/request-code \
   -H "content-type: application/json" \
   -d '{"email": "user@example.com"}'
 ```
 
-Response: `{"success": true}`
+Response:
 
-No account needed beforehand. If the email is new, an account is created automatically when the user clicks the link.
+```json
+{ "success": true, "requiresCodeEntry": true, "expiresAt": "2026-03-01T12:34:56.000Z" }
+```
 
-**2. User clicks the link in their email.** They land on the here.now dashboard, signed in.
+**2. User copies the code from email** and pastes it into the agent.
 
-**3. User copies their API key** from the dashboard (API key tab) and provides it to the agent.
+**3. Verify code and receive API key:**
 
-The agent cannot retrieve the API key programmatically (it requires a browser session). The user must copy it manually.
+```bash
+curl -sS https://here.now/api/auth/agent/verify-code \
+  -H "content-type: application/json" \
+  -d '{"email":"user@example.com","code":"ABCD-2345"}'
+```
 
-The login endpoint also accepts an optional `returnTo` field (a path like `"/"`), which controls where the user lands after clicking the magic link.
+Response:
+
+```json
+{
+  "success": true,
+  "email": "user@example.com",
+  "apiKey": "<API_KEY>",
+  "isNewUser": true
+}
+```
+
+If the code is invalid or expired, verify returns `400`.
+
+The browser sign-in flow (`POST /api/auth/login`) remains available for normal web sessions.
 
 ## Endpoints
 

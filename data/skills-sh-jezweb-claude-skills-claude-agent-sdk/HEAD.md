@@ -5,28 +5,30 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.2.63
+  ## 0.2.66
 
-  - SDK: Fixed `pathToClaudeCodeExecutable` failing when set to a bare command
-  name (e.g., `"claude"`) that should resolve via PATH
+  - Updated to parity with Claude Code v2.1.66
 
-  - Added `supportedAgents()` method to the Query interface to view available
-  subagents
+  ## 0.2.65
 
-  - Fixed MCP replacement tools being incorrectly denied in subagents when using
-  unprefixed MCP tool names
+  - Updated to parity with Claude Code v2.1.65
 
-  ## 0.2.61
+  ## 0.2.64
 
-  - Updated to parity with Claude Code v2.1.61
+  - Added `DirectConnectTransport` — connect the SDK to a running `claude
+  server` instance over WebSocket. Supports stable session keys for persistent
+  multi-turn conversations across reconnects.
 
-  ## 0.2.59
+  - Added `agent_id` (for subagents) and `agent_type` (for subagents and
+  `--agent`) fields to hook events
 
-  - Added `getSessionMessages()` function for reading a session's conversation
-  history from its transcript file, with support for pagination via `limit` and
-  `offset` options
+  - Added optional `blobSavedTo` field to `ReadMcpResourceToolOutput` indicating
+  where binary blob content was saved to disk
 
-  ## 0.2.58
+  - Fixed breaking change: `system:init` and `result` events now emit `'Task'`
+  as the Agent tool name again (reverted from `'Agent'`, which was an
+  unintentional breaking change in a patch release). The wire name will migrate
+  to `'Agent'` in the next minor release.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:40.242Z
-content_sha256: 759621cd5de211580a728a57876d915a3964d85629ace8efe2db1953e062d79d
+retrieved_at: 2026-03-04T07:15:20.734Z
+content_sha256: cf68eef49664271e1a3d5d63a1714712d83df3a15b28f4d171e8c3dcbe80ac37
 ---

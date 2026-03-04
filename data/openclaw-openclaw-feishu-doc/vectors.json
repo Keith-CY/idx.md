@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-feishu-doc",
-  "generated_at": "2026-03-03T07:19:09.519Z",
+  "generated_at": "2026-03-04T07:16:27.656Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-feishu-doc#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-doc/SKILL.md",
-        "retrieved_at": "2026-03-03T07:19:09.519Z",
+        "retrieved_at": "2026-03-04T07:16:27.656Z",
         "content_sha256": "3880aac99a4ed644f89fd5bc42df6d54a26636578da1fad6d10efce715865072"
       }
     }

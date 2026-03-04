@@ -10,6 +10,25 @@ requirements:
     Requires GitLab authentication via 'glab auth login' (stores token in ~/.config/glab-cli/config.yml).
     Some features may access sensitive files: SSH keys (~/.ssh/id_rsa for DPoP), Docker config (~/.docker/config.json for registry auth).
     Review auth workflows and script contents before autonomous use.
+openclaw:
+  requires:
+    credentials:
+      - name: GITLAB_TOKEN
+        description: >
+          GitLab personal access token with 'api' scope. Used by automation
+          scripts (e.g. post-inline-comment.py) to post MR comments via the
+          REST API. If not set, scripts fall back to reading the token from
+          glab CLI config (~/.config/glab-cli/config.yml).
+        required: false
+        fallback: glab config (set via glab auth login)
+    network:
+      - description: Outbound HTTPS to your GitLab instance (default https://gitlab.com)
+        scope: authenticated API calls only; HTTPS enforced; token never sent over HTTP
+    write_access:
+      - description: >
+          Scripts in this skill can post comments, resolve threads, and approve
+          merge requests on your behalf. Review scripts/post-inline-comment.py
+          before use in automated or agentic contexts.
 ---
 
 # GitLab CLI Skills
@@ -57,12 +76,14 @@ This skill routes to specialized sub-skills by GitLab domain:
 - `glab-schedule` - Scheduled pipelines and cron jobs
 - `glab-variable` - CI/CD variables and secrets
 - `glab-securefile` - Secure files for pipelines
+- `glab-runner` - Runner management: list, pause, delete (added v1.87.0)
 - `glab-runner-controller` - Runner controller and token management (EXPERIMENTAL, admin-only)
 
 **Collaboration:**
 - `glab-user` - User profiles and information
 - `glab-snippet` - Code snippets (GitLab gists)
 - `glab-incident` - Incident management
+- `glab-workitems` - Work items: tasks, OKRs, key results, next-gen epics (added v1.87.0)
 
 **Advanced:**
 - `glab-api` - Direct REST API calls

@@ -16,6 +16,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/eucalyptus-vim
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:03.966Z
+retrieved_at: 2026-03-04T07:14:52.993Z
 content_sha256: ceb4cb66c2cb3363b3c5a7d8cbde7ce15d0cb7e6f0095e581b5fbacbafe81b9f
 ---

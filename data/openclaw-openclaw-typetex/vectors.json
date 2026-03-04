@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-typetex",
-  "generated_at": "2026-03-03T07:20:56.684Z",
+  "generated_at": "2026-03-04T07:17:51.495Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-typetex#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gregm711/typetex/SKILL.md",
-        "retrieved_at": "2026-03-03T07:20:56.684Z",
+        "retrieved_at": "2026-03-04T07:17:51.495Z",
         "content_sha256": "16e7e07ec4e247b23d3d68d9ec1146448980ea0913677fc6e4f876fe4927392e"
       }
     }

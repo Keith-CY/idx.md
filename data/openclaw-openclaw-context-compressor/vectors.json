@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-context-compressor",
-  "generated_at": "2026-03-03T07:18:52.236Z",
+  "generated_at": "2026-03-04T07:16:14.849Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-context-compressor#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maddiedreese/context-compressor/SKILL.md",
-        "retrieved_at": "2026-03-03T07:18:52.236Z",
+        "retrieved_at": "2026-03-04T07:16:14.849Z",
         "content_sha256": "364315e053909959edffc9499ccb9e58600432578e0b4df27ef274b800c694de"
       }
     }

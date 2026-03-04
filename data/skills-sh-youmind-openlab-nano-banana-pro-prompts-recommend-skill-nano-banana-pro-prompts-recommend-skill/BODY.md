@@ -2,12 +2,18 @@
 name: nano-banana-pro-prompts-recommend-skill
 description: |
   Recommend suitable prompts from 10,000+ Nano Banana Pro image generation prompts based on user needs.
+  Optimized for Nano Banana Pro (Gemini), but prompts also work with Nano Banana 2, Seedream 5.0,
+  GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and any text-to-image AI model.
+
   Use this skill when users want to:
-  - Generate images with AI (Nano Banana Pro / Gemini image model)
-  - Find inspiration for image generation prompts
-  - Get prompt recommendations for specific use cases (portraits, landscapes, product photos, etc.)
-  - Create illustrations for articles, videos, podcasts, or other content
+  - Generate images with AI (any model — Nano Banana Pro, Gemini, GPT Image, Seedream, etc.)
+  - Find proven AI image generation prompts and prompt templates
+  - Get prompt recommendations for specific use cases (portraits, products, social media, posters, etc.)
+  - Create illustrations for articles, videos, podcasts, or marketing content
+  - Browse a curated prompt library with sample images
   - Translate and understand prompt techniques
+
+  Also available: "ai-image-prompts" skill — a model-agnostic version of this library for universal image generation.
 platforms:
   - openclaw
   - claude-code
@@ -17,14 +23,24 @@ platforms:
 ---
 
 > 📖 Prompts curated by [YouMind](https://youmind.com/nano-banana-pro-prompts) · 10,000+ community prompts · [Try generating images →](https://youmind.com/nano-banana-pro-prompts)
+>
+> 🔗 Looking for a model-agnostic version? Try [ai-image-prompts](https://clawhub.com/skill/ai-image-prompts) — same library, universal positioning.
 
 # Nano Banana Pro Prompts Recommendation
 
-You are an expert at recommending image generation prompts from the Nano Banana Pro prompt library (10,000+ prompts).
+You are an expert at recommending image generation prompts from the Nano Banana Pro prompt library (10,000+ prompts). These prompts are optimized for Nano Banana Pro (Google Gemini) but work with any text-to-image model including Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E 3, Flux, and Stable Diffusion.
+
+## ⚠️ CRITICAL: Sample Images Are MANDATORY
+
+**Every prompt recommendation MUST include its sample image.** This is not optional — images are the core value of this skill. Users need to SEE what each prompt produces before choosing.
+
+- Each prompt has `sourceMedia[]` — always send `sourceMedia[0]` as an image
+- If `sourceMedia` is empty, skip that prompt entirely
+- **Never present a prompt as text-only** — always attach the image
 
 ## Quick Start
 
-User provides image generation need → You recommend matching prompts with sample images → User selects a prompt → (If content provided) Remix to create customized prompt.
+User provides image generation need → You recommend matching prompts **with sample images** → User selects a prompt → (If content provided) Remix to create customized prompt.
 
 ### Two Usage Modes
 
@@ -204,25 +220,30 @@ For each recommended prompt, provide in user's input language:
 **CRITICAL — Full prompt in context**: Even though the display is truncated, the agent MUST hold the complete prompt text in its context so it can use it for customization in Step 5. Never discard the full prompt.
 
 **⚠️ MANDATORY: ALWAYS send the sample image for every prompt recommendation.**
-If `sourceMedia` is empty, skip. Otherwise, you MUST send the image — never skip this step.
+If `sourceMedia` is empty, skip that prompt. Otherwise, you MUST send the image — never skip this step.
 
-**How to send the image (choose based on platform):**
+**How to send the image — download then send (works on all platforms):**
 
-- **OpenClaw / Telegram**: External CDN URLs are blocked. Must download first:
-  ```
-  1. exec: curl -fsSL --retry 2 "{sourceMedia[0]}" -o ~/clawd/tmp_nb_img.jpg
-  2. message tool: action=send, channel=telegram, media=~/clawd/tmp_nb_img.jpg
-     caption: "[Prompt Title]"  ← plain title only, no \n, no markdown
-  3. exec: rm ~/clawd/tmp_nb_img.jpg
-  ```
+The `sourceMedia` URLs are hosted on YouMind CDN (`cms-assets.youmind.com`). Telegram cannot load these URLs directly — you must download the file first, then send it as a local file.
 
-- **Other platforms** (Discord, Slack, web chat, etc.): Send the image URL directly:
-  ```
-  message tool: action=send, media="{sourceMedia[0]}", caption: "[Prompt Title]"
-  ```
-  If `message` tool unavailable, embed in response: `![preview]({sourceMedia[0]})`
+**For each prompt, run these 3 steps in sequence:**
 
-**One image per prompt is enough** (use `sourceMedia[0]`). Do NOT skip image sending because of platform uncertainty — always try.
+```
+Step A — Download:
+exec: curl -fsSL "{sourceMedia[0]}" -o /tmp/prompt_img.jpg
+
+Step B — Send:
+message tool: action=send, media=/tmp/prompt_img.jpg, caption="[Prompt Title]"
+
+Step C — Cleanup:
+exec: rm /tmp/prompt_img.jpg
+```
+
+Do this for **each** of the 3 recommended prompts — one image per prompt.
+
+If `message` tool is unavailable, embed in your response: `![preview]({sourceMedia[0]})`
+
+**One image per prompt** (use `sourceMedia[0]`). Never skip this — images are the core value of the skill.
 
 **After presenting all prompts**, always ask the user to choose and offer customization:
 

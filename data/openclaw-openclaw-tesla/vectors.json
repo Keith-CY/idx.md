@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tesla",
-  "generated_at": "2026-03-03T07:20:48.898Z",
+  "generated_at": "2026-03-04T07:17:45.586Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tesla#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/tesla/SKILL.md",
-        "retrieved_at": "2026-03-03T07:20:48.898Z",
+        "retrieved_at": "2026-03-04T07:17:45.586Z",
         "content_sha256": "a500c6a0c81bb49a43c29693225bf73328801b8fa27e0dbcbbbbdb8540dba1bc"
       }
     }

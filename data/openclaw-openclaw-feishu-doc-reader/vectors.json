@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-feishu-doc-reader",
-  "generated_at": "2026-03-03T07:19:09.618Z",
+  "generated_at": "2026-03-04T07:16:27.729Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-feishu-doc-reader#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/snowshadow/feishu-doc-reader/SKILL.md",
-        "retrieved_at": "2026-03-03T07:19:09.618Z",
+        "retrieved_at": "2026-03-04T07:16:27.729Z",
         "content_sha256": "6353a9516ec187810c997ef7d1f44e86bfb26154712292eca730c60a157dfadc"
       }
     }

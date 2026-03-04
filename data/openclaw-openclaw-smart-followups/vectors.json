@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-smart-followups",
-  "generated_at": "2026-03-03T07:20:37.470Z",
+  "generated_at": "2026-03-04T07:17:36.688Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-smart-followups#head",
@@ -19,8 +19,8 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/smart-followups/SKILL.md",
-        "retrieved_at": "2026-03-03T07:20:37.470Z",
-        "content_sha256": "3dab2bd313b898c1fc382004e98a0b0017b219211d5e5f9ed53bd860daed4135"
+        "retrieved_at": "2026-03-04T07:17:36.688Z",
+        "content_sha256": "8865705fd24e3c6397fea4de26e9488bbcf51f239f5ea8848610e85e8999cae7"
       }
     }
   ]

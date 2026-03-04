@@ -14,7 +14,7 @@ summary: >-
 
   metadata:
       author: resend
-      version: "2.6.0"
+      version: "2.7.0"
       homepage: https://resend.com
       source: https://github.com/resend/resend-skills
   inputs:
@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/resend/resend-skills/resend
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:10.756Z
-content_sha256: 5602d6937b1c0cf0b014f996ca0c591fbe56fe6811b9b9cf40cef9df6791a541
+retrieved_at: 2026-03-04T07:14:57.971Z
+content_sha256: 1d804cc70bd63f2b6e25be4acb2c62c7a8a4a18a7d0a6a6f9043789b5619f841
 ---

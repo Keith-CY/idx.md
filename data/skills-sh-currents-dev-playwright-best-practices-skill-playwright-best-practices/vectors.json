@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices",
-  "generated_at": "2026-03-03T07:18:03.089Z",
+  "generated_at": "2026-03-04T07:15:38.079Z",
   "records": [
     {
       "id": "skills/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/currents-dev/playwright-best-practices-skill/HEAD/references/test-organization.md",
-        "retrieved_at": "2026-03-03T07:18:03.089Z",
+        "retrieved_at": "2026-03-04T07:15:38.079Z",
         "content_sha256": "a18d03cea2d37a940392c6173030c6fdaee7de08eab297547eff0ec5a3780d80"
       }
     }

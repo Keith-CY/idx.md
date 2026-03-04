@@ -16,6 +16,6 @@ upstream_ref: https://github.com/K-Dense-AI/claude-scientific-skills/blob/main/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:01.368Z
-content_sha256: aac690847982c5adb514a4f7f636c28bf51ee808dc4d56ed333e31c85c528854
+retrieved_at: 2026-03-04T07:14:50.937Z
+content_sha256: 95765975a5c644d70d0437c73beb9c3ffa0566be34f0bdac7dda0bb3d7b50d6e
 ---

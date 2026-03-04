@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-qa-check",
-  "generated_at": "2026-03-03T07:17:04.725Z",
+  "generated_at": "2026-03-04T07:14:53.653Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-qa-check#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/qa-check/SKILL.md",
-        "retrieved_at": "2026-03-03T07:17:04.725Z",
+        "retrieved_at": "2026-03-04T07:14:53.653Z",
         "content_sha256": "e1bf8c367727e10f770b6f72579c39076d5dc37e8df11dbd2de88ab59ccbafd1"
       }
     }

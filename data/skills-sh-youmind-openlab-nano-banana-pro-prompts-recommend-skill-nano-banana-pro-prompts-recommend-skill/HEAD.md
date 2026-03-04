@@ -9,12 +9,12 @@ summary: >-
 
   description: |
     Recommend suitable prompts from 10,000+ Nano Banana Pro image generation prompts based on user needs.
+    Optimized for Nano Banana Pro (Gemini), but prompts also work with Nano Banana 2, Seedream 5.0,
+    GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and any text-to-image AI model.
     Use this skill when users want to:
-    - Generate images with AI (Nano Banana Pro / Gemini image model)
-    - Find inspiration for image generation prompts
-    - Get prompt recommendations for specific use cases (portraits, landscapes, product photos, etc.)
-    - Create illustrations for articles, videos, podcasts, or other content
-    - Translate and understand prompt techniques
+    - Generate images with AI (any model — Nano Banana Pro, Gemini, GPT Image, Seedream, etc.)
+    - Find proven AI image generation prompts and prompt templates
+    - Get prompt recommendations for specific use cases (portraits, products, social media, posters, etc.)
 tags:
   - skills-sh
   - skills-sh-probed
@@ -24,6 +24,6 @@ upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:11.511Z
-content_sha256: 4767646582a762510325dceba8aaa6c4a2bbd2473b94f2619d67b34554577e32
+retrieved_at: 2026-03-04T07:14:58.476Z
+content_sha256: 668abbedcda5f863c80cd60fe89f388d72bde09ee6ec2f8b68797f1b63557884
 ---

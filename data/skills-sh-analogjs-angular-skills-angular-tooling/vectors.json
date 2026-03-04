@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-tooling",
-  "generated_at": "2026-03-03T07:18:02.198Z",
+  "generated_at": "2026-03-04T07:15:37.444Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-tooling#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-tooling/references/tooling-patterns.md",
-        "retrieved_at": "2026-03-03T07:18:02.198Z",
+        "retrieved_at": "2026-03-04T07:15:37.444Z",
         "content_sha256": "1951fa339febba1848f178c8107f9b92392b58f0921e132b2c2509d2aecd2dfe"
       }
     }

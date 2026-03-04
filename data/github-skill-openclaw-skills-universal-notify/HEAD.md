@@ -20,6 +20,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/josunlp/univer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:17:05.141Z
+retrieved_at: 2026-03-04T07:14:53.993Z
 content_sha256: 077fe614ccf3309313b447e224d110f38b419888964d7d8fee96775f09108237
 ---

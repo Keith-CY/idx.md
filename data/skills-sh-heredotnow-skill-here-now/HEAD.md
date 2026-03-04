@@ -16,13 +16,13 @@ summary: >-
   - **Anonymous**: omit the header entirely. Publishes expire in 24 hours with
   lower limits.
 
-  ### Getting an API key (agent-assisted sign-up)
+  ### Optional client attribution header
 
-  Agents can trigger the sign-up flow on behalf of the user:
+  You can include an optional header on publish calls:
 
-  **1. Send magic link:**
+  - `X-HereNow-Client: <agent>/<tool>`
 
-  ```bash
+  Examples:
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/heredotnow/skill/here-now
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-03T07:18:04.767Z
-content_sha256: fafb21795bb5076ce9d511dad2a9dab9d33f4fef5bce48e9e97fc714a6cf791f
+retrieved_at: 2026-03-04T07:15:39.498Z
+content_sha256: c049c4b0e8449b09e5596c65f7f3422d09f4f40153abf46beb7c57ed19cc0b85
 ---

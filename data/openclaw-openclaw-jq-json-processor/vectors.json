@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-jq-json-processor",
-  "generated_at": "2026-03-03T07:19:33.540Z",
+  "generated_at": "2026-03-04T07:16:47.065Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-jq-json-processor#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/jq-json-processor/SKILL.md",
-        "retrieved_at": "2026-03-03T07:19:33.540Z",
+        "retrieved_at": "2026-03-04T07:16:47.065Z",
         "content_sha256": "31dc54215e3a95a06234c3defdca1ccd9f72582912dce3d47db8784c7117a6e5"
       }
     }

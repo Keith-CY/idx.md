@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-file-links-tool",
-  "generated_at": "2026-03-03T07:19:10.608Z",
+  "generated_at": "2026-03-04T07:16:28.438Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-file-links-tool#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrbeandev/file-links-tool/SKILL.md",
-        "retrieved_at": "2026-03-03T07:19:10.608Z",
+        "retrieved_at": "2026-03-04T07:16:28.438Z",
         "content_sha256": "36685a1e74bc44e87a39223af8e890dcd659e1f69f294a0ddf058214b5673382"
       }
     }

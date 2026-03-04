@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-markdown-converter",
-  "generated_at": "2026-03-03T07:19:42.358Z",
+  "generated_at": "2026-03-04T07:16:53.382Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-markdown-converter#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/markdown-converter/SKILL.md",
-        "retrieved_at": "2026-03-03T07:19:42.358Z",
+        "retrieved_at": "2026-03-04T07:16:53.382Z",
         "content_sha256": "354b8335051b9037e8c23324c33f68b3abbdac5ab9cfa12935c26b53575cf488"
       }
     }

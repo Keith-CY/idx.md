@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-competitor-alternatives",
-  "generated_at": "2026-03-03T07:18:50.531Z",
+  "generated_at": "2026-03-04T07:16:13.410Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-competitor-alternatives#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/competitor-alternatives/SKILL.md",
-        "retrieved_at": "2026-03-03T07:18:50.531Z",
+        "retrieved_at": "2026-03-04T07:16:13.410Z",
         "content_sha256": "50d9b99ac71d7b4bbdf168d5c28abef566a97da6f1decb2951e3d4d2574c41f4"
       }
     }

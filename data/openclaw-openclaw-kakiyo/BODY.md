@@ -1,6 +1,15 @@
 ---
 name: kakiyo
 description: Official Kakiyo skill from Kakiyo.com for managing LinkedIn automation campaigns, prospects, and AI agents via Kakiyo MCP server. Use when users want to create outreach campaigns, add prospects, monitor performance, manage AI agents, or automate LinkedIn messaging. Includes 42 tools for campaigns, prospects, agents, analytics, workspaces, webhooks, and DNC management.
+homepage: https://kakiyo.com
+metadata:
+  clawdbot:
+    requires:
+      bins:
+        - mcporter
+      env:
+        - KAKIYO_API_KEY
+    primaryEnv: KAKIYO_API_KEY
 ---
 
 # Kakiyo LinkedIn Automation
