@@ -19,6 +19,6 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cow
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-04T07:15:14.983Z
+retrieved_at: 2026-03-05T07:17:18.215Z
 content_sha256: 7d2e20bfda7ed7414835227e44faf218b511cf246fadbbd74102c15a18fdb066
 ---

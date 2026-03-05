@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-catlog22-claude-code-workflow-team-lifecycle",
+  "generated_at": "2026-03-05T07:17:02.478Z",
+  "records": [
+    {
+      "id": "skills/github-skill-catlog22-claude-code-workflow-team-lifecycle#head",
+      "kind": "head",
+      "path": "/data/github-skill-catlog22-claude-code-workflow-team-lifecycle/HEAD.md",
+      "text": "title: team-lifecycle\nsummary: Unified team skill for full lifecycle - spec/impl/test. All roles invoke this skill with --role arg for role-specific execution.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-catlog22, github-repo-claude-code-workflow\nsource_url: https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.claude/skills/team-lifecycle/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-catlog22-claude-code-workflow-team-lifecycle",
+        "topic": "github-skill-catlog22-claude-code-workflow-team-lifecycle",
+        "type": "skills",
+        "title": "team-lifecycle",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-catlog22",
+          "github-repo-claude-code-workflow"
+        ],
+        "source_url": "https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.claude/skills/team-lifecycle/SKILL.md",
+        "retrieved_at": "2026-03-05T07:17:02.478Z",
+        "content_sha256": "33fb2e349d62afb3a9817c364e6797e884a300629c5547b6b33c684a30a994d7"
+      }
+    }
+  ]
+}

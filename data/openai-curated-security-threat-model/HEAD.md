@@ -41,6 +41,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/securit
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-04T07:14:56.329Z
+retrieved_at: 2026-03-05T07:17:07.727Z
 content_sha256: 1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2
 ---

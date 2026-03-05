@@ -1,6 +1,6 @@
 ---
 name: elevenlabs-voices
-version: 2.1.5
+version: 2.1.6
 description: High-quality voice synthesis with 18 personas, 32 languages, sound effects, batch processing, and voice design using ElevenLabs API.
 tags: [tts, voice, speech, elevenlabs, audio, sound-effects, voice-design, multilingual]
 metadata: {"openclaw":{"requires":{"bins":["python3"],"env":{"ELEVEN_API_KEY":"required","ELEVENLABS_API_KEY":"optional"},"note":"Set ELEVEN_API_KEY. ELEVENLABS_API_KEY is an accepted alias."}}}
@@ -46,7 +46,7 @@ To reconfigure at any time, simply run the setup wizard again.
 
 ---
 
-## 🎙️ Available Voices
+## 🎙 Available Voices
 
 | Voice | Accent | Gender | Persona | Best For |
 |-------|--------|--------|---------|----------|
@@ -348,22 +348,23 @@ exec python3 /path/to/skills/elevenlabs-voices/scripts/tts.py --text "Hello" --v
 
 ---
 
-## ⚙️ Configuration
+## ⚙ Configuration
 
 The scripts look for API key in this order:
 
 1. `ELEVEN_API_KEY` or `ELEVENLABS_API_KEY` environment variable
-2. OpenClaw config (`~/.openclaw/openclaw.json` → tts.elevenlabs.apiKey)
-3. Skill-local `.env` file
+2. Skill-local `.env` file (in the skill directory)
 
 **Create .env file:**
 ```bash
 echo 'ELEVEN_API_KEY=your-key-here' > .env
 ```
 
+> **Note:** The skill no longer reads from `~/.openclaw/openclaw.json`. Use environment variables or the skill-local `.env` file.
+
 ---
 
-## 🎛️ Voice Settings
+## 🎛 Voice Settings
 
 Each voice has tuned settings for optimal output:
 

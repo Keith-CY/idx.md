@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cclank-news-aggregator-skill-news-aggregator-skill",
-  "generated_at": "2026-03-04T07:14:58.183Z",
+  "generated_at": "2026-03-05T07:17:08.896Z",
   "records": [
     {
       "id": "skills/skills-sh-cclank-news-aggregator-skill-news-aggregator-skill#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/cclank/news-aggregator-skill/main/SKILL.md",
-        "retrieved_at": "2026-03-04T07:14:58.183Z",
+        "retrieved_at": "2026-03-05T07:17:08.896Z",
         "content_sha256": "1debce471f7433cb36472fbfcd9b6502fd14e176b15fd7c9d16d1e4d063fd96c"
       }
     }

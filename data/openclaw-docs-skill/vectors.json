@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-docs-skill",
-  "generated_at": "2026-03-04T07:15:00.946Z",
+  "generated_at": "2026-03-05T07:17:10.493Z",
   "records": [
     {
       "id": "skills/openclaw-docs-skill#head",
       "kind": "head",
       "path": "/data/openclaw-docs-skill/HEAD.md",
-      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when configuring, deploying, or troubleshooting a self-hosted AI agent gateway that connects messaging platforms (WhatsApp, Telegram, Discord, Slack, Signal, iMessage) to LLM-powered agents. Reach for this skill when setting up channels, managing agent workspaces, configuring tools and permissions, creating skills, or debugging agent behavior. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill Reference ## Product summary OpenClaw is a self-hosted gateway that connects messaging platforms (WhatsApp, Telegram, Discord, Slack, Signal, iMessage, and others) to AI agents. It runs a single Gateway process on your hardware that routes inbound messages to agents, manages sessions, executes tools, and delivers replies back to channels. The agent is the product; the Gateway is the control plane.\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
+      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when building, configuring, or troubleshooting a self-hosted AI agent gateway that connects messaging platforms (WhatsApp, Telegram, Discord, Slack, iMessage, etc.) to LLM providers. Reach for this skill when setting up channels, managing agent workspaces, configuring tools and permissions, handling multi-agent routing, or debugging session/memory issues. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw (clawdbot) Skill ## Product summary OpenClaw is a self-hosted gateway that bridges messaging apps (WhatsApp, Telegram, Discord, Slack, Signal, iMessage, Google Chat, Mattermost, MS Teams, and more) to AI agents powered by LLM providers (Anthropic, OpenAI, Mistral, etc.). The Gateway is the always-on control plane; agents run inside it with isolated workspaces, sessions, and memory. Key files: `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, USER.md, MEMORY.md), `~/.openclaw/agents/<agentId>/sessions/` (chat history). Primary CLI: `openclaw` (gateway, channels, agents, models, skills, sessions, etc.). See [https://docs.openclaw.ai](https://docs.openclaw.ai) for full documentation.\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
       "metadata": {
         "stable_id": "skills/openclaw-docs-skill",
         "topic": "openclaw-docs-skill",
@@ -15,8 +15,8 @@
         "title": "openclaw-docs-skill",
         "tags": [],
         "source_url": "https://docs.openclaw.ai/skill.md",
-        "retrieved_at": "2026-03-04T07:15:00.946Z",
-        "content_sha256": "ef5da3ae3439ac33052713bf78a662a0c77cf2979e3a5a04877e7e4f5937be5f"
+        "retrieved_at": "2026-03-05T07:17:10.493Z",
+        "content_sha256": "1aac030876592510b23b6be89e196913ca19c38df4ac0365a284554e5ca23d7e"
       }
     }
   ]

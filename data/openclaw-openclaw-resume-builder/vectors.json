@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-resume-builder",
-  "generated_at": "2026-03-04T07:17:28.666Z",
+  "generated_at": "2026-03-05T07:18:51.478Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-resume-builder#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amruthpillai/resume-builder/SKILL.md",
-        "retrieved_at": "2026-03-04T07:17:28.666Z",
+        "retrieved_at": "2026-03-05T07:18:51.478Z",
         "content_sha256": "80005af68785dd88bd7c766671c97a7e14520908ba3742df04cf350b2eafa550"
       }
     }

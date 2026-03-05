@@ -1,412 +1,161 @@
 ---
-name: browse
-description: Complete guide for creating and deploying browser automation functions using the stagehand CLI
-homepage: https://browserbase.com
-metadata: {"moltbot":{"emoji":"🌐","requires":{"bins":["stagehand"],"env":["BROWSERBASE_API_KEY","BROWSERBASE_PROJECT_ID"]},"primaryEnv":"BROWSERBASE_API_KEY"}}
+name: browser
+description: Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications. Supports remote Browserbase sessions with automatic CAPTCHA solving, anti-bot stealth mode, and residential proxies — ideal for scraping protected websites, bypassing bot detection, and interacting with JavaScript-heavy pages.
+compatibility: "Requires the browse CLI (`npm install -g @browserbasehq/browse-cli`). Optional: set BROWSERBASE_API_KEY and BROWSERBASE_PROJECT_ID for remote Browserbase sessions; falls back to local Chrome otherwise."
+license: MIT
+allowed-tools: Bash
+metadata:
+  openclaw:
+    requires:
+      bins:
+        - browse
+    install:
+      - kind: node
+        package: "@browserbasehq/browse-cli"
+        bins: [browse]
+    homepage: https://github.com/browserbase/skills
 ---
 
-# Browser Automation & Functions Skill
+# Browser Automation
 
-Complete guide for creating and deploying browser automation functions using the `stagehand` CLI.
+Automate browser interactions using the browse CLI with Claude.
 
-## When to Use
+## Setup check
 
-- User wants to automate a website task
-- User needs to scrape data from a site
-- User wants to create a Browserbase Function
-- User wants to deploy automation to run on a schedule or via webhook
-
-## Prerequisites
-
-### Set Up Credentials
+Before running any browser commands, verify the CLI is available:
 
 ```bash
-stagehand fn auth status  # Check if configured
-stagehand fn auth login   # If needed - get credentials from https://browserbase.com/settings
+which browse || npm install -g @browserbasehq/browse-cli
 ```
 
-## Complete Workflow
+## Environment Selection (Local vs Remote)
 
-### Step 1: Explore the Site Interactively
+The CLI automatically selects between local and remote browser environments based on available configuration:
 
-Start a local browser session to understand the site structure:
+### Local mode (default)
+- Uses local Chrome — no API keys needed
+- Best for: development, simple pages, trusted sites with no bot protection
+
+### Remote mode (Browserbase)
+- Activated when `BROWSERBASE_API_KEY` and `BROWSERBASE_PROJECT_ID` are set
+- Provides: anti-bot stealth, automatic CAPTCHA solving, residential proxies, session persistence
+- **Use remote mode when:** the target site has bot detection, CAPTCHAs, IP rate limiting, Cloudflare protection, or requires geo-specific access
+- Get credentials at https://browserbase.com/settings
+
+### When to choose which
+- **Simple browsing** (docs, wikis, public APIs): local mode is fine
+- **Protected sites** (login walls, CAPTCHAs, anti-scraping): use remote mode
+- **If local mode fails** with bot detection or access denied: switch to remote mode
+
+## Commands
+
+All commands work identically in both modes. The daemon auto-starts on first command.
+
+### Navigation
+```bash
+browse open <url>                        # Go to URL (aliases: goto)
+browse reload                            # Reload current page
+browse back                              # Go back in history
+browse forward                           # Go forward in history
+```
+
+### Page state (prefer snapshot over screenshot)
+```bash
+browse snapshot                          # Get accessibility tree with element refs (fast, structured)
+browse screenshot [path]                 # Take visual screenshot (slow, uses vision tokens)
+browse get url                           # Get current URL
+browse get title                         # Get page title
+browse get text <selector>               # Get text content (use "body" for all text)
+browse get html <selector>               # Get HTML content of element
+browse get value <selector>              # Get form field value
+```
+
+Use `browse snapshot` as your default for understanding page state — it returns the accessibility tree with element refs you can use to interact. Only use `browse screenshot` when you need visual context (layout, images, debugging).
+
+### Interaction
+```bash
+browse click <ref>                       # Click element by ref from snapshot (e.g., @0-5)
+browse type <text>                       # Type text into focused element
+browse fill <selector> <value>           # Fill input and press Enter
+browse select <selector> <values...>     # Select dropdown option(s)
+browse press <key>                       # Press key (Enter, Tab, Escape, Cmd+A, etc.)
+browse drag <fromX> <fromY> <toX> <toY>  # Drag from one point to another
+browse scroll <x> <y> <deltaX> <deltaY> # Scroll at coordinates
+browse highlight <selector>              # Highlight element on page
+browse is visible <selector>             # Check if element is visible
+browse is checked <selector>             # Check if element is checked
+browse wait <type> [arg]                 # Wait for: load, selector, timeout
+```
+
+### Session management
+```bash
+browse stop                              # Stop the browser daemon
+browse status                            # Check daemon status (includes env)
+browse env                               # Show current environment (local or remote)
+browse env local                         # Switch to local Chrome
+browse env remote                        # Switch to Browserbase (requires API keys)
+browse pages                             # List all open tabs
+browse tab_switch <index>                # Switch to tab by index
+browse tab_close [index]                 # Close tab
+```
+
+### Typical workflow
+1. `browse open <url>` — navigate to the page
+2. `browse snapshot` — read the accessibility tree to understand page structure and get element refs
+3. `browse click <ref>` / `browse type <text>` / `browse fill <selector> <value>` — interact using refs from snapshot
+4. `browse snapshot` — confirm the action worked
+5. Repeat 3-4 as needed
+6. `browse stop` — close the browser when done
+
+## Quick Example
 
 ```bash
-stagehand session create --local
-stagehand goto https://example.com
-stagehand snapshot                    # Get DOM structure with refs
-stagehand screenshot -o page.png      # Visual inspection
+browse open https://example.com
+browse snapshot                          # see page structure + element refs
+browse click @0-5                        # click element with ref 0-5
+browse get title
+browse stop
 ```
 
-Test interactions manually:
-```bash
-stagehand click @0-5
-stagehand fill @0-6 "value"
-stagehand eval "document.querySelector('.price').textContent"
-stagehand session end  # When done exploring
-```
-
-### Step 2: Initialize Function Project
-
-```bash
-stagehand fn init my-automation
-cd my-automation
-```
-
-Creates:
-- `package.json` - Dependencies
-- `.env` - Credentials (from `~/.stagehand/config.json`)
-- `index.ts` - Function template
-- `tsconfig.json` - TypeScript config
-
-### Step 3: ⚠️ FIX package.json IMMEDIATELY
-
-**CRITICAL BUG**: `stagehand fn init` generates incomplete `package.json` that causes deployment to fail with "No functions were built."
-
-**REQUIRED FIX** - Update `package.json` before doing anything else:
-
-```json
-{
-  "name": "my-automation",
-  "version": "1.0.0",
-  "description": "My automation description",
-  "main": "index.js",
-  "type": "module",
-  "packageManager": "pnpm@10.14.0",
-  "scripts": {
-    "dev": "pnpm bb dev index.ts",
-    "publish": "pnpm bb publish index.ts"
-  },
-  "dependencies": {
-    "@browserbasehq/sdk-functions": "^0.0.5",
-    "playwright-core": "^1.58.0"
-  },
-  "devDependencies": {
-    "@types/node": "^25.0.10",
-    "typescript": "^5.9.3"
-  }
-}
-```
-
-**Key changes from generated file:**
-- ✅ Add `description` and `main` fields
-- ✅ Add `packageManager` field
-- ✅ Change `"latest"` to pinned versions like `"^0.0.5"`
-- ✅ Add `devDependencies` with TypeScript and types
-
-Then install:
-```bash
-pnpm install
-```
-
-### Step 4: Write Automation Code
-
-Edit `index.ts`:
-
-```typescript
-import { defineFn } from "@browserbasehq/sdk-functions";
-import { chromium } from "playwright-core";
-
-defineFn("my-automation", async (context) => {
-  const { session, params } = context;
-  console.log("Connecting to browser session:", session.id);
-
-  const browser = await chromium.connectOverCDP(session.connectUrl);
-  const page = browser.contexts()[0]!.pages()[0]!;
-
-  // Your automation here
-  await page.goto("https://example.com");
-  await page.waitForLoadState("domcontentloaded");
-
-  // Extract data
-  const data = await page.evaluate(() => {
-    // Complex extraction logic
-    return Array.from(document.querySelectorAll('.item')).map(el => ({
-      title: el.querySelector('.title')?.textContent,
-      value: el.querySelector('.value')?.textContent,
-    }));
-  });
-
-  // Return results (must be JSON-serializable)
-  return {
-    success: true,
-    count: data.length,
-    data,
-    timestamp: new Date().toISOString(),
-  };
-});
-```
-
-**Key Concepts:**
-- `context.session` - Browser session info (id, connectUrl)
-- `context.params` - Input parameters from invocation
-- Return JSON-serializable data
-- 15 minute max execution time
-
-### Step 5: Test Locally
-
-Start dev server:
-```bash
-pnpm bb dev index.ts
-```
-
-Server runs at `http://127.0.0.1:14113`
-
-Invoke with curl:
-```bash
-curl -X POST http://127.0.0.1:14113/v1/functions/my-automation/invoke \
-  -H "Content-Type: application/json" \
-  -d '{"params": {"url": "https://example.com"}}'
-```
-
-Dev server auto-reloads on file changes. Check terminal for logs.
-
-### Step 6: Deploy to Browserbase
-
-```bash
-pnpm bb publish index.ts
-# or: stagehand fn publish index.ts
-```
-
-**Expected output:**
-```
-✓ Build completed successfully
-Build ID: xxx-xxx-xxx
-Function ID: yyy-yyy-yyy  ← Save this!
-```
-
-**If you see "No functions were built"** → Your package.json is incomplete (see Step 3).
-
-### Step 7: Test Production
-
-```bash
-stagehand fn invoke <function-id> -p '{"param": "value"}'
-```
-
-Or via API:
-```bash
-curl -X POST https://api.browserbase.com/v1/functions/<function-id>/invoke \
-  -H "Content-Type: application/json" \
-  -H "x-bb-api-key: $BROWSERBASE_API_KEY" \
-  -d '{"params": {}}'
-```
-
-## Complete Working Example: Hacker News Scraper
-
-```typescript
-import { defineFn } from "@browserbasehq/sdk-functions";
-import { chromium } from "playwright-core";
-
-defineFn("hn-scraper", async (context) => {
-  const { session } = context;
-  console.log("Connecting to browser session:", session.id);
-
-  const browser = await chromium.connectOverCDP(session.connectUrl);
-  const page = browser.contexts()[0]!.pages()[0]!;
-
-  await page.goto("https://news.ycombinator.com");
-  await page.waitForLoadState("domcontentloaded");
-
-  // Extract top 10 stories
-  const stories = await page.evaluate(() => {
-    const storyRows = Array.from(document.querySelectorAll('.athing')).slice(0, 10);
-
-    return storyRows.map((row) => {
-      const titleLine = row.querySelector('.titleline a');
-      const subtext = row.nextElementSibling?.querySelector('.subtext');
-      const commentsLink = Array.from(subtext?.querySelectorAll('a') || []).pop();
-
-      return {
-        rank: row.querySelector('.rank')?.textContent?.replace('.', '') || '',
-        title: titleLine?.textContent || '',
-        url: titleLine?.getAttribute('href') || '',
-        points: subtext?.querySelector('.score')?.textContent?.replace(' points', '') || '0',
-        author: subtext?.querySelector('.hnuser')?.textContent || '',
-        time: subtext?.querySelector('.age')?.textContent || '',
-        comments: commentsLink?.textContent?.replace(/\u00a0comments?/, '').trim() || '0',
-        id: row.id,
-      };
-    });
-  });
-
-  return {
-    success: true,
-    count: stories.length,
-    stories,
-    timestamp: new Date().toISOString(),
-  };
-});
-```
-
-## Common Patterns
-
-### Parameterized Scraping
-```typescript
-defineFn("scrape", async (context) => {
-  const { session, params } = context;
-  const { url, selector } = params;  // Accept params from invocation
-
-  const browser = await chromium.connectOverCDP(session.connectUrl);
-  const page = browser.contexts()[0]!.pages()[0]!;
-
-  await page.goto(url);
-  const data = await page.$$eval(selector, els =>
-    els.map(el => el.textContent)
-  );
-
-  return { url, data };
-});
-```
-
-### Authentication
-```typescript
-defineFn("auth-action", async (context) => {
-  const { session, params } = context;
-  const { username, password } = params;
-
-  const browser = await chromium.connectOverCDP(session.connectUrl);
-  const page = browser.contexts()[0]!.pages()[0]!;
-
-  await page.goto("https://example.com/login");
-  await page.fill('input[name="email"]', username);
-  await page.fill('input[name="password"]', password);
-  await page.click('button[type="submit"]');
-  await page.waitForURL("**/dashboard");
-
-  const data = await page.textContent('.user-data');
-  return { success: true, data };
-});
-```
-
-### Multi-Page Workflow
-```typescript
-defineFn("multi-page", async (context) => {
-  const { session, params } = context;
-  const browser = await chromium.connectOverCDP(session.connectUrl);
-  const page = browser.contexts()[0]!.pages()[0]!;
-
-  const results = [];
-  for (const url of params.urls) {
-    await page.goto(url);
-    await page.waitForLoadState("domcontentloaded");
-
-    const title = await page.title();
-    results.push({ url, title });
-  }
-
-  return { results };
-});
-```
-
-## Troubleshooting
-
-### 🔴 "No functions were built. Please check your entrypoint and function exports."
-
-**This is the #1 error!**
-
-**Cause:** Generated `package.json` from `stagehand fn init` is incomplete.
-
-**Fix:**
-1. Update `package.json` (see Step 3 above)
-2. Add all required fields: `description`, `main`, `packageManager`
-3. Change `"latest"` to pinned versions like `"^0.0.5"`
-4. Add `devDependencies` section with TypeScript and types
-5. Run `pnpm install`
-6. Try deploying again
-
-**Quick check:** Compare your `package.json` to `bitcoin-functions/package.json` in the codebase.
-
-### Local dev server won't start
-
-```bash
-# Check credentials
-stagehand fn auth status
-
-# Re-login if needed
-stagehand fn auth login
-
-# Install SDK globally
-pnpm add -g @browserbasehq/sdk-functions
-```
-
-### Function works locally but fails on deploy
-
-**Common causes:**
-1. Missing `devDependencies` (TypeScript won't compile)
-2. Using `"latest"` instead of pinned versions
-3. Missing required fields in `package.json`
-
-**Solution:** Fix package.json as described in Step 3.
-
-### Cannot extract data from page
-
-1. Take screenshot: `stagehand screenshot -o debug.png`
-2. Get snapshot: `stagehand snapshot`
-3. Use `page.evaluate()` to log what's in the DOM
-4. Check if selectors match actual HTML structure
-
-### "Invocation timed out"
-
-- Functions have 15 minute max
-- Use specific waits instead of long sleeps
-- Check if page is actually loading
+## Mode Comparison
+
+| Feature | Local | Browserbase |
+|---------|-------|-------------|
+| Speed | Faster | Slightly slower |
+| Setup | Chrome required | API key required |
+| Stealth mode | No | Yes (custom Chromium, anti-bot fingerprinting) |
+| CAPTCHA solving | No | Yes (automatic reCAPTCHA/hCaptcha) |
+| Residential proxies | No | Yes (201 countries, geo-targeting) |
+| Session persistence | No | Yes (cookies/auth persist across sessions) |
+| Best for | Development/simple pages | Protected sites, bot detection, production scraping |
 
 ## Best Practices
 
-1. ✅ **Fix package.json immediately** after `stagehand fn init`
-2. ✅ **Explore interactively first** - Use local browser session to understand site
-3. ✅ **Test manually** - Verify each step works before writing code
-4. ✅ **Test locally** - Use dev server before deploying
-5. ✅ **Return meaningful data** - Include timestamps, counts, URLs
-6. ✅ **Handle errors gracefully** - Try/catch around risky operations
-7. ✅ **Use specific selectors** - Prefer data attributes over CSS classes
-8. ✅ **Add logging** - `console.log()` helps debug deployed functions
-9. ✅ **Validate parameters** - Check `params` before using
-10. ✅ **Set reasonable timeouts** - Don't wait forever
+1. **Always `browse open` first** before interacting
+2. **Use `browse snapshot`** to check page state — it's fast and gives you element refs
+3. **Only screenshot when visual context is needed** (layout checks, images, debugging)
+4. **Use refs from snapshot** to click/interact — e.g., `browse click @0-5`
+5. **`browse stop`** when done to clean up the browser session
 
-## Quick Checklist
+## Troubleshooting
 
-- [ ] Explore site with `stagehand session create --local`
-- [ ] Test interactions manually
-- [ ] Create project: `stagehand fn init <name>`
-- [ ] **Fix package.json immediately** (Step 3)
-- [ ] Run `pnpm install`
-- [ ] Write automation in `index.ts`
-- [ ] Test locally: `pnpm bb dev index.ts`
-- [ ] Verify with curl
-- [ ] Deploy: `pnpm bb publish index.ts`
-- [ ] Test production: `stagehand fn invoke <function-id>`
-- [ ] Save function ID
+- **"No active page"**: Run `browse stop`, then check `browse status`. If it still says running, kill the zombie daemon with `pkill -f "browse.*daemon"`, then retry `browse open`
+- **Chrome not found**: Install Chrome or use `browse env remote`
+- **Action fails**: Run `browse snapshot` to see available elements and their refs
+- **Browserbase fails**: Verify API key and project ID are set
 
-## Code Fix Needed (For Maintainers)
+## Switching to Remote Mode
 
-**File:** `/src/commands/functions.ts`
-**Lines:** 146-158
-**Function:** `initFunction()`
+Switch to remote when you detect: CAPTCHAs (reCAPTCHA, hCaptcha, Turnstile), bot detection pages ("Checking your browser..."), HTTP 403/429, empty pages on sites that should have content, or the user asks for it.
 
-Replace the current `packageJson` object with:
+Don't switch for simple sites (docs, wikis, public APIs, localhost).
 
-```typescript
-const packageJson = {
-  name,
-  version: '1.0.0',
-  description: `${name} function`,
-  main: 'index.js',
-  type: 'module',
-  packageManager: 'pnpm@10.14.0',
-  scripts: {
-    dev: 'pnpm bb dev index.ts',
-    publish: 'pnpm bb publish index.ts',
-  },
-  dependencies: {
-    '@browserbasehq/sdk-functions': '^0.0.5',
-    'playwright-core': '^1.58.0',
-  },
-  devDependencies: {
-    '@types/node': '^25.0.10',
-    'typescript': '^5.9.3',
-  },
-};
+```bash
+browse env remote            # switch to Browserbase
+browse env local             # switch back to local Chrome
 ```
 
-This will eliminate the "No functions were built" error for all new projects.
+The switch is sticky until you run `browse stop` or switch again.
+
+For detailed examples, see [EXAMPLES.md](EXAMPLES.md).
+For API reference, see [REFERENCE.md](REFERENCE.md).

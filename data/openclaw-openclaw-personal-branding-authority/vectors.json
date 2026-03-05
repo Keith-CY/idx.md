@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-personal-branding-authority",
-  "generated_at": "2026-03-04T07:17:15.505Z",
+  "generated_at": "2026-03-05T07:18:41.479Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-personal-branding-authority#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/personal-branding-authority/SKILL.md",
-        "retrieved_at": "2026-03-04T07:17:15.505Z",
+        "retrieved_at": "2026-03-05T07:18:41.479Z",
         "content_sha256": "ae8bb9668b0c5c282fd46085d386b396193c6f6809e51e104298732401a93d94"
       }
     }

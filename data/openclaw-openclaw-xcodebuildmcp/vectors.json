@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-xcodebuildmcp",
-  "generated_at": "2026-03-04T07:18:02.428Z",
+  "generated_at": "2026-03-05T07:19:15.569Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-xcodebuildmcp#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ipavlidakis/xcodebuildmcp/SKILL.md",
-        "retrieved_at": "2026-03-04T07:18:02.428Z",
+        "retrieved_at": "2026-03-05T07:19:15.569Z",
         "content_sha256": "9c32abd1b29eb8752c285ff933340076af1bd87aa693eb7eb7feb93b02ce6642"
       }
     }

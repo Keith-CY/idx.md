@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-observa
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-04T07:15:30.313Z
+retrieved_at: 2026-03-05T07:17:26.733Z
 content_sha256: 09c3621da82b7de1ee6ee4c96e27171023df75897b113803e99a2a9851354608
 ---

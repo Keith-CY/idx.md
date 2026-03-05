@@ -29,6 +29,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/session-handoff
 github_stars: 716
 github_forks: 56
 github_is_organization: true
-retrieved_at: 2026-03-04T07:15:35.028Z
+retrieved_at: 2026-03-05T07:17:29.370Z
 content_sha256: 35492711db3a903cf431fe221b82b2d79e3e18aa9d9900dfc3685ee202e3e0e9
 ---

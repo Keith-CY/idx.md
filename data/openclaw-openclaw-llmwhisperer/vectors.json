@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-llmwhisperer",
-  "generated_at": "2026-03-04T07:16:51.772Z",
+  "generated_at": "2026-03-05T07:18:24.050Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-llmwhisperer#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/llmwhisperer/SKILL.md",
-        "retrieved_at": "2026-03-04T07:16:51.772Z",
+        "retrieved_at": "2026-03-05T07:18:24.050Z",
         "content_sha256": "054ff0203e9aa3331a30555b20340add0059f26037fb7a9547e60988c36a4c08"
       }
     }

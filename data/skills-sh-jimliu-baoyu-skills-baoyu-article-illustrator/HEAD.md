@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: 5829
 github_forks: 671
 github_is_organization: false
-retrieved_at: 2026-03-04T07:15:34.087Z
+retrieved_at: 2026-03-05T07:17:28.695Z
 content_sha256: d0d741a5b3cc839e18d0dd82be41de0401ce1d941f20a377997577352c65543e
 ---

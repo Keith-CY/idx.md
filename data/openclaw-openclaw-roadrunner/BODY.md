@@ -17,7 +17,7 @@ metadata:
         label: Install rr (brew)
       - id: go
         kind: go
-        module: github.com/johntheyoung/roadrunner/cmd/rr@v0.16.2
+        module: github.com/johntheyoung/roadrunner/cmd/rr@v0.17.0
         bins:
           - rr
         label: Install rr (go)
@@ -49,6 +49,7 @@ Setup (once)
 Common commands
 - List accounts: `rr accounts list --json`
 - Capabilities: `rr capabilities --json`
+- Describe command/flags: `rr describe messages send --json`
 - Connect metadata: `rr connect info --json`
 - Live websocket events (experimental): `rr events tail --all --stop-after 30s --json`
 - List contacts: `rr contacts list "<account-id>" --json`
@@ -57,6 +58,7 @@ Common commands
 - Resolve contact: `rr contacts resolve "<account-id>" "Alice" --json`
 - Resolve contact (flag): `rr contacts resolve "Alice" --account-id="<account-id>" --json`
 - List chats: `rr chats list --json`
+- List chats (JSON Lines): `rr chats list --jsonl`
 - Search chats: `rr chats search "John" --json`
 - Search chats (filters): `rr chats search --inbox=primary --unread-only --json`
 - Search chats (activity): `rr chats search --last-activity-after="2024-07-01T00:00:00Z" --json`
@@ -70,6 +72,7 @@ Common commands
 - List messages (all pages): `rr messages list "!chatid:beeper.com" --all --max-items=1000 --json`
 - List messages (download media): `rr messages list "!chatid:beeper.com" --download-media --download-dir ./media --json`
 - Search messages: `rr messages search "dinner" --json`
+- Search messages (JSON Lines): `rr messages search "dinner" --jsonl`
 - Search messages (all pages): `rr messages search "dinner" --all --max-items=1000 --json`
 - Search messages (filters): `rr messages search --sender=me --date-after="2024-07-01T00:00:00Z" --media-types=image --json`
 - Add/remove reaction: `rr messages react "!chatid:beeper.com" "<message-id>" "👍" --json` / `rr messages unreact "!chatid:beeper.com" "<message-id>" "👍" --json`
@@ -100,6 +103,7 @@ Mutations (explicit user request only)
 - Reminder mutations: `rr reminders set "!chatid:beeper.com" "2h"` / `rr reminders clear "!chatid:beeper.com"`
 - Asset uploads: `rr assets upload ./photo.jpg` / `rr assets upload-base64 --content-file ./photo.b64`
 - For retries on non-idempotent writes, use `--request-id` and prefer `--dedupe-window`.
+- Use `--dry-run` to validate mutating requests without API write side effects.
 
 Pagination
 - Auto-page chats list/search: `rr chats list --all --max-items=1000 --json` / `rr chats search "alice" --all --max-items=1000 --json`
@@ -128,7 +132,9 @@ Notes
 - `--chat` does exact matching and fails on ambiguous matches.
 - Attachment overrides require `--attachment-upload-id`; set `--attachment-width` and `--attachment-height` together.
 - `--all` has a safety cap (default 500 items, max 5000); use `--max-items` to tune it.
-- Prefer `--json` (and `--no-input`) for automation.
+- Prefer `--json` or `--jsonl` (and `--no-input`) for automation.
+- `--jsonl` emits one JSON object per line and is supported on high-volume list/search commands.
+- `--dry-run`/`BEEPER_DRY_RUN` validates mutating command inputs and prints preview output without sending write API requests.
 - `BEEPER_URL` overrides API base URL; `BEEPER_TIMEOUT` sets timeout in seconds.
 - JSON/Plain output goes to stdout; errors/hints go to stderr.
 - Destructive commands prompt unless `--force`; `--no-input`/`BEEPER_NO_INPUT` fails without `--force`.

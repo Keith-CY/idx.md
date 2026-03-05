@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-find-people",
-  "generated_at": "2026-03-04T07:16:28.513Z",
+  "generated_at": "2026-03-05T07:18:07.456Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-find-people#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tzannetosgiannis/find-people/SKILL.md",
-        "retrieved_at": "2026-03-04T07:16:28.513Z",
+        "retrieved_at": "2026-03-05T07:18:07.456Z",
         "content_sha256": "08bd320de6986661595a3c6fd44169719622a896980205fd6c8268053eb726b8"
       }
     }

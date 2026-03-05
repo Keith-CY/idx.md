@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-upload-post",
-  "generated_at": "2026-03-04T07:17:52.532Z",
+  "generated_at": "2026-03-05T07:19:08.608Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-upload-post#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/victorcavero14/upload-post/SKILL.md",
-        "retrieved_at": "2026-03-04T07:17:52.532Z",
+        "retrieved_at": "2026-03-05T07:19:08.608Z",
         "content_sha256": "ea3c2ea404d406252628a860af995912029b0a5082f9622a3400cb3b3d7ef3af"
       }
     }

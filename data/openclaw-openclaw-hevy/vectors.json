@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-hevy",
-  "generated_at": "2026-03-04T07:16:40.055Z",
+  "generated_at": "2026-03-05T07:18:15.561Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-hevy#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/hevy/SKILL.md",
-        "retrieved_at": "2026-03-04T07:16:40.055Z",
+        "retrieved_at": "2026-03-05T07:18:15.561Z",
         "content_sha256": "bb0beb3ae533db3ba072c1f8b91f26dc8acfddd140e57bbaa455865c8fc34064"
       }
     }

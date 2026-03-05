@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-inworld-tts",
-  "generated_at": "2026-03-04T07:16:45.078Z",
+  "generated_at": "2026-03-05T07:18:18.985Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-inworld-tts#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gugic/inworld-tts/SKILL.md",
-        "retrieved_at": "2026-03-04T07:16:45.078Z",
+        "retrieved_at": "2026-03-05T07:18:18.985Z",
         "content_sha256": "f815bdda75df59d8381bcc24c2d8309c778d262a94431bcc6b8d9cb6db518bb2"
       }
     }

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/browser-use/browser-use/browser-use
 github_stars: 79167
 github_forks: 9366
 github_is_organization: true
-retrieved_at: 2026-03-04T07:15:31.655Z
+retrieved_at: 2026-03-05T07:17:27.417Z
 content_sha256: 60092a5a8f80389c7af6771bcc1787950535cae6797457a34d634eee6b1241b8
 ---

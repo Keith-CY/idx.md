@@ -1,7 +1,7 @@
 ---
 name: who-growth-charts
 description: Generate WHO child growth charts (height, weight, BMI) with percentile curves. Downloads official WHO reference data on demand. Use when users ask about child growth tracking, percentiles, or want growth charts for their kids.
-version: 1.2.1
+version: 1.2.2
 homepage: https://github.com/odrobnik/who-growth-charts-skill
 metadata: {"openclaw": {"emoji": "📈", "requires": {"bins": ["python3"], "python": ["pandas", "matplotlib", "scipy", "openpyxl"]}}}
 ---
@@ -78,6 +78,4 @@ By default, charts and cache are written to:
 - `<workspace>/who-growth-charts/`
 - `<workspace>/who-growth-charts/cache/`
 
-Where `<workspace>` is the folder that contains your `skills/` directory (the script finds it automatically; it also prefers the current working directory if it looks like a workspace, which makes symlinked workspaces behave correctly).
-
-You can override workspace discovery with `WHO_GROWTH_CHARTS_WORKSPACE=/path/to/workspace`.
+Where `<workspace>` is the folder that contains your `skills/` directory (auto-detected from CWD or script location).

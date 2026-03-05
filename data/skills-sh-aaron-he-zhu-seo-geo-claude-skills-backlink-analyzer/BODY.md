@@ -75,3 +75,14 @@ Skills are designed to work at three levels of tool integration:
 | **Tier 3** | Full integration | ~~SEO tool + ~~analytics + ~~search console + ~~web crawler for fully automated workflows. |
 
 Every skill works without any tool integration (paste data manually). Connecting tools via MCP automates data retrieval but is never required.
+
+## Environment Variables
+
+Some skills declare a `primaryEnv` in their `metadata.openclaw` block for ClawHub discovery. These are **soft dependencies** — skills work without them.
+
+| Variable | MCP Server | Skills Using It |
+|----------|------------|-----------------|
+| `AHREFS_API_KEY` | Ahrefs | keyword-research, competitor-analysis, serp-analysis, content-gap-analysis, backlink-analyzer, rank-tracker, internal-linking-optimizer |
+| `AMPLITUDE_API_KEY` | Amplitude | performance-reporter, alert-manager |
+
+No other skills require environment variables. All 20 skills function at Tier 1 (no integrations) by accepting manually provided data.

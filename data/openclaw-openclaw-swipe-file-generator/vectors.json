@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swipe-file-generator",
-  "generated_at": "2026-03-04T07:17:42.457Z",
+  "generated_at": "2026-03-05T07:19:01.604Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swipe-file-generator#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/swipe-file-generator/SKILL.md",
-        "retrieved_at": "2026-03-04T07:17:42.457Z",
+        "retrieved_at": "2026-03-05T07:19:01.604Z",
         "content_sha256": "0c6c652a2e6b99ce12bf862795d00e57fe66c9d9a629f24d6d4ff37e4764bd7a"
       }
     }

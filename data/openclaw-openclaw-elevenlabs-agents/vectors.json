@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-elevenlabs-agents",
-  "generated_at": "2026-03-04T07:16:23.802Z",
+  "generated_at": "2026-03-05T07:18:03.955Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-elevenlabs-agents#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pennyroyaltea/elevenlabs-agents/SKILL.md",
-        "retrieved_at": "2026-03-04T07:16:23.802Z",
+        "retrieved_at": "2026-03-05T07:18:03.955Z",
         "content_sha256": "dbbdc641d701d624106cefdab1b98b1a95aea3476e744c77f9b1882d26e25649"
       }
     }

@@ -1,6 +1,6 @@
 ---
 name: codexmonitor
-version: 0.2.1
+version: 0.2.2
 description: >
   List/inspect/watch local OpenAI Codex sessions (CLI + VS Code) using the
   CodexMonitor Homebrew formula. Reads sessions from ~/.codex/sessions by default

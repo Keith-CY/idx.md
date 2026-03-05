@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/pricing-strategy
 github_stars: 9780
 github_forks: 1357
 github_is_organization: false
-retrieved_at: 2026-03-04T07:15:32.285Z
+retrieved_at: 2026-03-05T07:17:27.831Z
 content_sha256: b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30
 ---
