@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gevety",
-  "generated_at": "2026-03-05T07:18:10.963Z",
+  "generated_at": "2026-03-06T07:19:04.918Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gevety#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/moclippa/gevety/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:10.963Z",
+        "retrieved_at": "2026-03-06T07:19:04.918Z",
         "content_sha256": "e77d3634a7cebff2428023d8425b10ae5f23b0114ae53940db3c2786b83407af"
       }
     }

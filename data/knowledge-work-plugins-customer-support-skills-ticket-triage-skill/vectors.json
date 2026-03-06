@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-customer-support-skills-ticket-triage-skill",
-  "generated_at": "2026-03-05T07:17:16.563Z",
+  "generated_at": "2026-03-06T07:16:21.234Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-customer-support-skills-ticket-triage-skill#head",
@@ -21,7 +21,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/ticket-triage/SKILL.md",
-        "retrieved_at": "2026-03-05T07:17:16.563Z",
+        "retrieved_at": "2026-03-06T07:16:21.234Z",
         "content_sha256": "66519a68852578ed707bd2bbc60dbe426fb1e7d7431c18230ce03d6c43c03aa8"
       }
     }

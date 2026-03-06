@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-spreadsheet",
-  "generated_at": "2026-03-05T07:17:07.846Z",
+  "generated_at": "2026-03-06T07:15:56.486Z",
   "records": [
     {
       "id": "skills/openai-curated-spreadsheet#head",
       "kind": "head",
       "path": "/data/openai-curated-spreadsheet/HEAD.md",
-      "text": "title: openai-curated-spreadsheet\nsummary: --- name: \"spreadsheet\" description: \"Use when tasks involve creating, editing, analyzing, or formatting spreadsheets (`.xlsx`, `.csv`, `.tsv`) using Python (`openpyxl`, `pandas`), especially when formulas, references, and formatting need to be preserved and verified.\" --- # Spreadsheet Skill (Create, Edit, Analyze, Visualize) ## When to use - Build new workbooks with formulas, formatting, and structured layouts. - Read or analyze tabular data (filter, aggregate, pivot, compute metrics). - Modify existing workbooks without breaking formulas or references. - Visualize data with charts/tables and sensible formatting.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md",
+      "text": "title: openai-curated-spreadsheet\nsummary: --- name: \"spreadsheet\" description: \"Use when tasks involve creating, editing, analyzing, or formatting spreadsheets (`.xlsx`, `.csv`, `.tsv`) with formula-aware workflows, cached recalculation, and visual review.\" --- # Spreadsheet Skill ## When to use - Create new workbooks with formulas, formatting, and structured layouts. - Read or analyze tabular data (filter, aggregate, pivot, compute metrics). - Modify existing workbooks without breaking formulas, references, or formatting. - Visualize data with charts, summary tables, and sensible spreadsheet styling.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md",
       "metadata": {
         "stable_id": "skills/openai-curated-spreadsheet",
         "topic": "openai-curated-spreadsheet",
@@ -18,8 +18,8 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md",
-        "retrieved_at": "2026-03-05T07:17:07.846Z",
-        "content_sha256": "a9c3e61acb5e33b92760e9a1ea75b0031328095b0bb0118cacd055d749d1b73f"
+        "retrieved_at": "2026-03-06T07:15:56.486Z",
+        "content_sha256": "36baea99e96c77c13d15d24f9d53cd072ccbc120e810bf4e68049edb5b0f1d65"
       }
     }
   ]

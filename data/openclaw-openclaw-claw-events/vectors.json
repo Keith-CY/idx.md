@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claw-events",
-  "generated_at": "2026-03-05T07:17:51.648Z",
+  "generated_at": "2026-03-06T07:18:11.354Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claw-events#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/capevace/claw-events/SKILL.md",
-        "retrieved_at": "2026-03-05T07:17:51.648Z",
+        "retrieved_at": "2026-03-06T07:18:11.354Z",
         "content_sha256": "754172d5e11397be36fbf2f88408d685269aabcb97fd133ed8d7156d9084d833"
       }
     }

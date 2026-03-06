@@ -1,6 +1,6 @@
 ---
 name: section-11
-description: Evidence-based endurance cycling coaching protocol (v11.5). Use when analyzing training data, reviewing sessions, generating pre/post-workout reports, planning workouts, answering training questions, or giving cycling coaching advice. Always fetch athlete JSON data before responding to any training question.
+description: Evidence-based endurance cycling coaching protocol (v11.10). Use when analyzing training data, reviewing sessions, generating pre/post-workout reports, planning workouts, answering training questions, or giving cycling coaching advice. Always fetch athlete JSON data before responding to any training question.
 ---
 
 # Section 11 — AI Coaching Protocol
@@ -57,6 +57,20 @@ All external files referenced by this skill (`sync.py`, `SECTION_11.md`, templat
 - No virtual math on pre-computed metrics — use fetched values for CTL, ATL, TSB, ACWR, RI, zones, etc. Custom analysis from raw data is fine when pre-computed values don't cover the question.
 - Follow Section 11 C validation checklist before generating recommendations
 - Cite frameworks per protocol (checklist item #10)
+
+## Write Capabilities
+
+If `push.py` is available in the data repo, the skill can manage the athlete's Intervals.icu calendar and training data:
+- **push** — write planned workouts to calendar
+- **list** — show planned workouts for a date range
+- **move** — reschedule a workout to a different date
+- **delete** — remove a workout from the calendar
+- **set-threshold** — update sport-specific thresholds (FTP, indoor FTP, LTHR, max HR, threshold pace). Only after validated test results, never from estimates
+- **annotate** — add notes to completed activities (description by default, `--chat` for messages panel) or planned workouts (`NOTE:` prepended to description)
+
+All write operations default to preview mode — nothing is written without `--confirm`. Execution via GitHub Actions dispatch (uses existing repository secrets configured by the athlete) or local CLI. See `examples/agentic/README.md` for full usage, workout syntax, and template ID mappings.
+
+Only available on platforms that can execute code or trigger GitHub Actions (OpenClaw, Claude Code, Cowork, etc.). Web chat users cannot use this.
 
 ## Report Templates
 

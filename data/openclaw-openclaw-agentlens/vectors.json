@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentlens",
-  "generated_at": "2026-03-05T07:17:38.777Z",
+  "generated_at": "2026-03-06T07:17:36.558Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentlens#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nguyenphutrong/agentlens/SKILL.md",
-        "retrieved_at": "2026-03-05T07:17:38.777Z",
+        "retrieved_at": "2026-03-06T07:17:36.558Z",
         "content_sha256": "8ae5646d7324e37ec915c7d39e950095939993879bce8339d816230845dda547"
       }
     }

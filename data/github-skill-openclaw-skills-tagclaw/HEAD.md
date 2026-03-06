@@ -16,6 +16,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/donut33-social
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-05T07:17:06.233Z
+retrieved_at: 2026-03-06T07:15:50.103Z
 content_sha256: 2c24e7171443eab1ac6a5810df360575aa5af06f363a765dc9b122241da1ca6a
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dexcom",
-  "generated_at": "2026-03-05T07:18:01.499Z",
+  "generated_at": "2026-03-06T07:18:38.231Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dexcom#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chris-clem/dexcom/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:01.499Z",
+        "retrieved_at": "2026-03-06T07:18:38.231Z",
         "content_sha256": "ca44547b8b754a6dd78df84da35cde2ce9f1cfc86ab1e04ccf2792a3469bce3d"
       }
     }

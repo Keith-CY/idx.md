@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-schpet-linear-cli-linear-cli",
-  "generated_at": "2026-03-05T07:17:30.577Z",
+  "generated_at": "2026-03-06T07:17:13.276Z",
   "records": [
     {
       "id": "skills/skills-sh-schpet-linear-cli-linear-cli#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/schpet/linear-cli/HEAD/skills/linear-cli/references/auth.md",
-        "retrieved_at": "2026-03-05T07:17:30.577Z",
+        "retrieved_at": "2026-03-06T07:17:13.276Z",
         "content_sha256": "246c1622106da8bc456d260423cf6d8b7ea05a7ec281f21e63696a258fd09fcc"
       }
     }

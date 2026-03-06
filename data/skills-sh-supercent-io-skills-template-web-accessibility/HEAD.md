@@ -12,11 +12,9 @@ summary: >-
   systems, or building scalable frontend architectures. Handles React patterns,
   composition, prop design, TypeScript, and component best practices.
 
-  tags: [UI-components, React, design-patterns, composition, TypeScript,
-  reusable]
-
-  platforms: [Claude, ChatGPT, Gemini]
-
+  metadata:
+    tags: UI-components, React, design-patterns, composition, TypeScript, reusable
+    platforms: Claude, ChatGPT, Gemini
   ---
 
   # UI Component Patterns
@@ -24,8 +22,6 @@ summary: >-
   ## When to use this skill
 
   - **컴포넌트 라이브러리 구축**: 재사용 가능한 UI 컴포넌트 제작
-
-  - **디자인 시스템 구현**: 일관된 UI 패턴 적용
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-05T07:17:34.546Z
-content_sha256: dc00b63e9060d972b4dcbf49eb51b4676a707c390a1a3975582369059ff85194
+retrieved_at: 2026-03-06T07:17:25.585Z
+content_sha256: 9825234bbe3b5a88ae727f2a45c3daf206bac9178de230ebf651238089db4b6e
 ---

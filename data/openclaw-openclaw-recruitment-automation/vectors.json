@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-recruitment-automation",
-  "generated_at": "2026-03-05T07:18:49.767Z",
+  "generated_at": "2026-03-06T07:20:44.243Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-recruitment-automation#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/recruitment-automation/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:49.767Z",
+        "retrieved_at": "2026-03-06T07:20:44.243Z",
         "content_sha256": "d82376b69b882af73c22cd9549bcc9392493f352d9f52da1dbe9ecd606ef5013"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mogcli",
-  "generated_at": "2026-03-05T07:18:28.882Z",
+  "generated_at": "2026-03-06T07:19:50.941Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mogcli#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/mogcli/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:28.882Z",
+        "retrieved_at": "2026-03-06T07:19:50.941Z",
         "content_sha256": "ddb07f6748bbba566b8034ae9565944fdb2dceae062a3cc41d17c72da29350ae"
       }
     }

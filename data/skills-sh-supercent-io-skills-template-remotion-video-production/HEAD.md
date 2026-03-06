@@ -5,21 +5,23 @@ title: skills-sh-supercent-io-skills-template-remotion-video-production
 summary: >-
   ---
 
-  name: image-generation-mcp
+  name: image-generation
 
   description: Generate high-quality images via MCP (Gemini models or compatible
   services) using structured prompts, ratios, and validation for marketing, UI,
   or presentations.
 
-  tags: [image-generation, gemini, mcp, design, creative, ai-art]
+  metadata:
+    tags: image-generation, gemini, mcp, design, creative, ai-art
+    platforms: Claude, ChatGPT, Gemini, Codex
+  ---
 
-  platforms: [Claude, ChatGPT, Gemini, Codex]
+  # Image Generation via MCP
 
-  allowed-tools:
-    - mcp__gemini-cli__ask-gemini
-    - mcp__gemini-cli__brainstorm
-    - Write
-    - Read
+  MCP를 통한 AI 이미지 생성 스킬입니다. Gemini 모델 또는 호환 서비스를 사용하여 마케팅, UI, 프레젠테이션용 고품질 이미지를
+  생성합니다.
+
+  ## When to use this skill
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -29,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/remotion-video-prod
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-05T07:17:32.060Z
-content_sha256: 589fdbf6e17af1be514c4ec0b3d574ea8e1bc22dfdb58321385a5241b547d355
+retrieved_at: 2026-03-06T07:17:18.247Z
+content_sha256: f235bd3058b3c746339db88c7e22ba1109ba7fadf74e370a7b04a9e10d0cf1ff
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-inner-light-framework",
-  "generated_at": "2026-03-05T07:18:18.099Z",
+  "generated_at": "2026-03-06T07:19:23.406Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-inner-light-framework#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/unity-hallie/inner-light-framework/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:18.099Z",
+        "retrieved_at": "2026-03-06T07:19:23.406Z",
         "content_sha256": "dda16a6ab5589fe03afc843c6b28053fc2e0b95750981ef727033a90427d7828"
       }
     }

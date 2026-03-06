@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-xai",
-  "generated_at": "2026-03-05T07:19:15.446Z",
+  "generated_at": "2026-03-06T07:21:53.899Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-xai#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/xai/SKILL.md",
-        "retrieved_at": "2026-03-05T07:19:15.446Z",
+        "retrieved_at": "2026-03-06T07:21:53.899Z",
         "content_sha256": "c86b6faf865833f3090ca50033e0a278b7d1547bfc5e4b29f249f43f6704be95"
       }
     }

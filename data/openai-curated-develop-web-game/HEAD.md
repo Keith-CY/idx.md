@@ -22,6 +22,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/develop
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-05T07:17:07.096Z
+retrieved_at: 2026-03-06T07:15:52.873Z
 content_sha256: 4586330e97c99581f37798c179a71c62030fc20befa6de3e3ccb96d1adead9c7
 ---

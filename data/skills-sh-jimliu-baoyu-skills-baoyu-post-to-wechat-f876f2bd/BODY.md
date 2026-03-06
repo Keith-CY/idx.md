@@ -8,13 +8,13 @@ Post image-text messages with multiple images to WeChat Official Account.
 
 ```bash
 # Post with images and markdown file (title/content extracted automatically)
-npx -y bun ./scripts/wechat-browser.ts --markdown source.md --images ./images/
+${BUN_X} ./scripts/wechat-browser.ts --markdown source.md --images ./images/
 
 # Post with explicit title and content
-npx -y bun ./scripts/wechat-browser.ts --title "标题" --content "内容" --image img1.png --image img2.png
+${BUN_X} ./scripts/wechat-browser.ts --title "标题" --content "内容" --image img1.png --image img2.png
 
 # Save as draft
-npx -y bun ./scripts/wechat-browser.ts --markdown source.md --images ./images/ --submit
+${BUN_X} ./scripts/wechat-browser.ts --markdown source.md --images ./images/ --submit
 ```
 
 ## Parameters

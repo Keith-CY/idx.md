@@ -12,20 +12,16 @@ summary: >-
   technical specifications, system design docs, operational guides, and
   developer documentation with industry best practices.
 
-  allowed-tools: [Read, Write, Edit, Glob, Grep]
+  allowed-tools: Read Write Edit Glob Grep
 
-  tags: [technical-writing, documentation, specs, architecture, runbooks,
-  API-docs]
-
-  platforms: [Claude, ChatGPT, Gemini]
-
+  metadata:
+    tags: technical-writing, documentation, specs, architecture, runbooks, API-docs
+    platforms: Claude, ChatGPT, Gemini
   ---
 
   # Technical Writing
 
   ## When to use this skill
-
-  - Writing technical specifications
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/pptx-presentation-b
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-05T07:17:32.635Z
-content_sha256: 84f61706def15232d349b86869b03e6ef5d018552eb77da2c865234bb322c081
+retrieved_at: 2026-03-06T07:17:20.119Z
+content_sha256: 2180a954009ac80e04f67bdf213bbb5c0882905fe1de536108d8d6810ea73f7c
 ---

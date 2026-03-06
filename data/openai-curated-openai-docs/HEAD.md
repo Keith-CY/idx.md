@@ -8,10 +8,11 @@ summary: >-
   name: "openai-docs"
 
   description: "Use when the user asks how to build with OpenAI products or APIs
-  and needs up-to-date official documentation with citations (for example:
-  Codex, Responses API, Chat Completions, Apps SDK, Agents SDK, Realtime, model
-  capabilities or limits); prioritize OpenAI docs MCP tools and restrict any
-  fallback browsing to official OpenAI domains."
+  and needs up-to-date official documentation with citations, help choosing the
+  latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade
+  guidance; prioritize OpenAI docs MCP tools, use bundled references only as
+  helper context, and restrict any fallback browsing to official OpenAI
+  domains."
 
   ---
 
@@ -19,8 +20,10 @@ summary: >-
 
   Provide authoritative, current guidance from OpenAI developer docs using the
   developers.openai.com MCP server. Always prioritize the developer docs MCP
-  tools over web.run for OpenAI-related questions. Only if the MCP server is
-  installed and returns no meaningful results should you fall back to web
+  tools over web.run for OpenAI-related questions. This skill may also load
+  targeted files from `references/` for model-selection and GPT-5.4-specific
+  requests, but current OpenAI docs remain authoritative. Only if the MCP server
+  is installed and returns no meaningful results should you fall back to web
   search.
 
   ## Quick start
@@ -42,6 +45,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/openai-
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-05T07:17:07.550Z
-content_sha256: 100099568ce8887ccd961aad2aa824a6d6054d4e5e697625815cc6e1b30d54a7
+retrieved_at: 2026-03-06T07:15:54.864Z
+content_sha256: 8d8ed6246315074b8fe51e1251dd3e2ef42e54d8e9dff892c70acf88ab0e4235
 ---

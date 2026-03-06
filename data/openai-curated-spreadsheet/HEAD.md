@@ -8,23 +8,24 @@ summary: >-
   name: "spreadsheet"
 
   description: "Use when tasks involve creating, editing, analyzing, or
-  formatting spreadsheets (`.xlsx`, `.csv`, `.tsv`) using Python (`openpyxl`,
-  `pandas`), especially when formulas, references, and formatting need to be
-  preserved and verified."
+  formatting spreadsheets (`.xlsx`, `.csv`, `.tsv`) with formula-aware
+  workflows, cached recalculation, and visual review."
 
   ---
 
-  # Spreadsheet Skill (Create, Edit, Analyze, Visualize)
+  # Spreadsheet Skill
 
   ## When to use
 
-  - Build new workbooks with formulas, formatting, and structured layouts.
+  - Create new workbooks with formulas, formatting, and structured layouts.
 
   - Read or analyze tabular data (filter, aggregate, pivot, compute metrics).
 
-  - Modify existing workbooks without breaking formulas or references.
+  - Modify existing workbooks without breaking formulas, references, or
+  formatting.
 
-  - Visualize data with charts/tables and sensible formatting.
+  - Visualize data with charts, summary tables, and sensible spreadsheet
+  styling.
 tags:
   - openai
   - source-openai-skills
@@ -34,6 +35,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/spreads
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-05T07:17:07.846Z
-content_sha256: a9c3e61acb5e33b92760e9a1ea75b0031328095b0bb0118cacd055d749d1b73f
+retrieved_at: 2026-03-06T07:15:56.486Z
+content_sha256: 36baea99e96c77c13d15d24f9d53cd072ccbc120e810bf4e68049edb5b0f1d65
 ---

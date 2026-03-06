@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-firecrawl-skills",
-  "generated_at": "2026-03-05T07:18:07.812Z",
+  "generated_at": "2026-03-06T07:18:56.291Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-firecrawl-skills#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/leonardogrig/firecrawl-skills/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:07.812Z",
+        "retrieved_at": "2026-03-06T07:18:56.291Z",
         "content_sha256": "e9f95472ea84d499add1366216d5f0ac362d3f7452b44bfa78d5698d2b8da48c"
       }
     }

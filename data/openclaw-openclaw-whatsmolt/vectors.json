@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-whatsmolt",
-  "generated_at": "2026-03-05T07:19:13.050Z",
+  "generated_at": "2026-03-06T07:21:47.265Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-whatsmolt#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crypticdriver/whatsmolt/SKILL.md",
-        "retrieved_at": "2026-03-05T07:19:13.050Z",
+        "retrieved_at": "2026-03-06T07:21:47.265Z",
         "content_sha256": "7c3af6aa5c2e01ba3df9edc758d850fd5bd9a08c393b1f7e16ea6098d5708f37"
       }
     }

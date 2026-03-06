@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-qms-audit-expert",
-  "generated_at": "2026-03-05T07:18:47.798Z",
+  "generated_at": "2026-03-06T07:20:39.664Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-qms-audit-expert#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/qms-audit-expert/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:47.798Z",
+        "retrieved_at": "2026-03-06T07:20:39.664Z",
         "content_sha256": "2cbc1e2b31afe9137fbe017dfcb36e5781aef6b84b52f4fd412f01ee6474282d"
       }
     }

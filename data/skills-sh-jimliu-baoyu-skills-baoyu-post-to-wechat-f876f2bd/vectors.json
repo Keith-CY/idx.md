@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd",
-  "generated_at": "2026-03-05T07:17:11.429Z",
+  "generated_at": "2026-03-06T07:16:05.099Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd#head",
       "kind": "head",
       "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd/HEAD.md",
-      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd\nsummary: # Image-Text Posting (贴图发表, formerly 图文) Post image-text messages with multiple images to WeChat Official Account. > **Note**: WeChat has renamed \"图文\" to \"贴图\" in the Official Account menu (as of 2026). ## Usage ```bash # Post with images and markdown file (title/content extracted automatically) npx -y bun ./scripts/wechat-browser.ts --markdown source.md --images ./images/ # Post with explicit title and content npx -y bun ./scripts/wechat-browser.ts --title \"标题\" --content \"内容\" --image img1.png --image img2.png # Save as draft\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd\nsummary: # Image-Text Posting (贴图发表, formerly 图文) Post image-text messages with multiple images to WeChat Official Account. > **Note**: WeChat has renamed \"图文\" to \"贴图\" in the Official Account menu (as of 2026). ## Usage ```bash # Post with images and markdown file (title/content extracted automatically) ${BUN_X} ./scripts/wechat-browser.ts --markdown source.md --images ./images/ # Post with explicit title and content ${BUN_X} ./scripts/wechat-browser.ts --title \"标题\" --content \"内容\" --image img1.png --image img2.png # Save as draft\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd",
         "topic": "skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-post-to-wechat/references/image-text-posting.md",
-        "retrieved_at": "2026-03-05T07:17:11.429Z",
-        "content_sha256": "adf46a9ee4bbea0445d096f43e2d2c20dd9c8accc29c73526d08def7ffc40b9c"
+        "retrieved_at": "2026-03-06T07:16:05.099Z",
+        "content_sha256": "790000e305128340e64f6b4c17c1a146a2fee6c3e130400242cd61628388f751"
       }
     }
   ]

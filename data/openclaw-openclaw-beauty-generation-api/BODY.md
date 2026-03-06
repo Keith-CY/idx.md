@@ -1,7 +1,7 @@
 ---
 name: beauty-generation-free
 description: FREE AI image generation service for creating professional portrait images of attractive people with diverse customization options. Supports 140+ nationalities, multiple styles, and comprehensive character customization. Fast generation (3-5 seconds) with built-in content safety filters.
-version: 1.2.28
+version: 1.2.29
 metadata:
   openclaw:
     requires:
@@ -29,9 +29,10 @@ curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
   -d '{"full_prompt": "A beautiful woman with long hair", "width": 1024, "height": 1024}'
 
-# Step 2: Poll status (replace PROMPT_ID with the ID from step 1)
+
+# Step 2: Poll status - use the "prompt_id" from step 1
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  https://gen1.diversityfaces.org/api/status/PROMPT_ID
+  https://gen1.diversityfaces.org/api/status/14a9b7d2-4bfd-469b-8bcb-65bba2396147
 
 # Step 3: Download image (replace FILENAME with the filename from step 2)
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
@@ -116,9 +117,12 @@ curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
     "height": 1024
   }'
 
-# Response: {"success": true, "prompt_id": "abc123-def456", ...}
+# Response: {"success": true, "prompt_id": "abc123-def456", "task_id": "xyz789-uvw012", ...}
+# ⚠️ CRITICAL: The response contains TWO IDs:
+#    - "prompt_id": Use THIS for status checks ✅
+#    - "task_id": Do NOT use this for status checks ❌
 
-# Step 2: Poll status every 0.5 seconds until completed
+# Step 2: Poll status every 0.5 seconds using "prompt_id" (NOT "task_id")
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
   https://gen1.diversityfaces.org/api/status/abc123-def456
 
@@ -133,6 +137,7 @@ curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
 **curl method notes:**
 - The API key is already included in the examples
 - You must manually poll status every 0.5 seconds
+- **IMPORTANT**: Use `prompt_id` for status checks, NOT `task_id`
 - Check status until `"status": "completed"`
 - Extract filename from response
 - Download using the filename
@@ -296,7 +301,7 @@ User request → Create prompt (instant)
 ```python
 {
   "success": false,
-  "error": "安全检查失败",
+  "error": "SECURITY_VIOLATION",
   "code": "SECURITY_VIOLATION"
 }
 ```
@@ -305,7 +310,7 @@ User request → Create prompt (instant)
 **If API key invalid:**
 ```python
 {
-  "error": "API密钥验证失败",
+  "error": "INVALID_API_KEY",
   "code": "INVALID_API_KEY"
 }
 ```
@@ -336,9 +341,11 @@ curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
   -d '{"full_prompt": "YOUR_PROMPT", "width": 1024, "height": 1024}'
 
-# Step 2: Check status (replace PROMPT_ID)
+# Response: {"success": true, "prompt_id": "YOUR_PROMPT_ID", "task_id": "...", ...}
+
+# Step 2: Check status using "prompt_id" (NOT "task_id")
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \
-  https://gen1.diversityfaces.org/api/status/PROMPT_ID
+  https://gen1.diversityfaces.org/api/status/YOUR_PROMPT_ID
 
 # Step 3: Download image (replace FILENAME)
 curl -H "X-API-Key: ak_OymjErKQRs-brINJuHFxKwIbxbZHq2KRiEzYthnwxMI" \

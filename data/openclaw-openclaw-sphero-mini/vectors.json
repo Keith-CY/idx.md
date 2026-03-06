@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-sphero-mini",
-  "generated_at": "2026-03-05T07:18:58.902Z",
+  "generated_at": "2026-03-06T07:21:08.538Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-sphero-mini#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joneschi/sphero-mini/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:58.902Z",
+        "retrieved_at": "2026-03-06T07:21:08.538Z",
         "content_sha256": "b701adc7f0a0e8020a8f2fb93a93ee394f8238c592ab03bae824672687324b81"
       }
     }

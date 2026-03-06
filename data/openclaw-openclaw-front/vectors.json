@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-front",
-  "generated_at": "2026-03-05T07:18:09.286Z",
+  "generated_at": "2026-03-06T07:19:00.421Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-front#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/front/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:09.286Z",
+        "retrieved_at": "2026-03-06T07:19:00.421Z",
         "content_sha256": "2ef40170ece04c5af9ea1342a816a3068fde937056ed2c738df54831fe1d3eee"
       }
     }

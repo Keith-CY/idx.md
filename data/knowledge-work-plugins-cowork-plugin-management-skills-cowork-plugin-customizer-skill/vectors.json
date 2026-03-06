@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill",
-  "generated_at": "2026-03-05T07:17:16.298Z",
+  "generated_at": "2026-03-06T07:16:20.338Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill#head",
@@ -21,7 +21,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/cowork-plugin-management/skills/cowork-plugin-customizer/SKILL.md",
-        "retrieved_at": "2026-03-05T07:17:16.298Z",
+        "retrieved_at": "2026-03-06T07:16:20.338Z",
         "content_sha256": "3bb611c582fa020bf0a42bf2afb9fbf3f5a778e396c0cf1030a4de4b18caed19"
       }
     }

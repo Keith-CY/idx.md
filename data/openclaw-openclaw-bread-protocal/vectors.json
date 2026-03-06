@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bread-protocal",
-  "generated_at": "2026-03-05T07:17:47.745Z",
+  "generated_at": "2026-03-06T07:18:01.148Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bread-protocal#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chrissorrell/bread-protocal/SKILL.md",
-        "retrieved_at": "2026-03-05T07:17:47.745Z",
+        "retrieved_at": "2026-03-06T07:18:01.148Z",
         "content_sha256": "3a5bf014d5c1e939475397082795783e837c0359421fa8f5e0f5f575ba5bf151"
       }
     }

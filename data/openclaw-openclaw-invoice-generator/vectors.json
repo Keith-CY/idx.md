@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-invoice-generator",
-  "generated_at": "2026-03-05T07:18:18.949Z",
+  "generated_at": "2026-03-06T07:19:25.686Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-invoice-generator#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tmigone/invoice-generator/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:18.949Z",
+        "retrieved_at": "2026-03-06T07:19:25.686Z",
         "content_sha256": "f5000cbc5f11f101a36a6bc7a3408b16bf5323d6c9ca54ee3743cf51963f4b8d"
       }
     }

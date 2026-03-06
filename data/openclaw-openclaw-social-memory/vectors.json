@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-social-memory",
-  "generated_at": "2026-03-05T07:18:58.014Z",
+  "generated_at": "2026-03-06T07:21:06.063Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-social-memory#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/luluf0x/social-memory/SKILL.md",
-        "retrieved_at": "2026-03-05T07:18:58.014Z",
+        "retrieved_at": "2026-03-06T07:21:06.063Z",
         "content_sha256": "e388afa7aef46da41b82f81005bbbec6bbc4bfa6f7c77577b51f9e3b46610d68"
       }
     }

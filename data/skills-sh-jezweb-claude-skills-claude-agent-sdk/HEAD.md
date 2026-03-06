@@ -5,6 +5,17 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.70
+
+  - Fixed `type: "http"` MCP servers failing with HTTP 406 "Not Acceptable" on
+  Streamable HTTP servers that strictly enforce the `Accept: application/json,
+  text/event-stream` header
+
+  - Changed `AgentToolInput.subagent_type` to optional — defaults to the
+  `general-purpose` agent when omitted
+
+  - Updated to parity with Claude Code v2.1.70
+
   ## 0.2.69
 
   - Added `toolConfig.askUserQuestion.previewFormat` option to configure the
@@ -21,20 +32,6 @@ summary: >-
   - Fixed SDK-mode MCP servers (registered via `sdkMcpServers` in the
   `initialize` control request) getting disconnected when background plugin
   installation refreshes project MCP config
-
-  - Fixed breaking change: `system:init` and `result` events now emit `'Task'`
-  as the Agent tool name again (reverted from `'Agent'`, which was an
-  unintentional breaking change in a patch release). The wire name will migrate
-  to `'Agent'` in the next minor release.
-
-  - Fixed control responses with malformed `updatedPermissions` from SDK hosts
-  blocking tool calls with a ZodError; the invalid field is now stripped and a
-  warning is logged instead.
-
-  - Improved memory usage of `getSessionMessages()` for large sessions with
-  compacted history
-
-  ## 0.2.68
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-05T07:17:21.532Z
-content_sha256: 0d2222fcb2ff69d323e5e25e830f7c16d02f9e155a806a2e61ed39a25df3f1eb
+retrieved_at: 2026-03-06T07:16:37.860Z
+content_sha256: 4eddcd83aec00db68ba4e33aa44bef6dd4a2088442c1d7930bd1f07861dfa966
 ---
