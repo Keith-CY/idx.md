@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-operations-skills-change-management-skill",
-  "generated_at": "2026-03-06T07:16:40.673Z",
+  "generated_at": "2026-03-07T07:09:35.378Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-operations-skills-change-management-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/change-management/SKILL.md",
-        "retrieved_at": "2026-03-06T07:16:40.673Z",
+        "retrieved_at": "2026-03-07T07:09:35.378Z",
         "content_sha256": "544bc14d1559ec17bd5a837c9290712df80e72389cabaf81af0e461362103472"
       }
     }

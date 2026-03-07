@@ -34,6 +34,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/pdf/SKI
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-06T07:15:54.973Z
+retrieved_at: 2026-03-07T07:09:01.960Z
 content_sha256: d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2
 ---

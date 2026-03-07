@@ -1,9 +1,9 @@
 ---
 name: standard-agentic-commerce-engine
-version: 1.5.0
+version: 1.6.2
 description: A production-ready universal engine for Agentic Commerce. This tool enables autonomous agents to interact with any compatible headless e-commerce backend through a standardized protocol. It provides out-of-the-box support for discovery, cart operations, and secure user management.
 tags: [ecommerce, shopping-agent, commerce-engine, standard-protocol, headless-commerce, agentic-web]
-metadata: {"clawdbot":{"emoji":"🛒","requires":{"bins":["python3"],"tools":[],"env":["COMMERCE_URL","COMMERCE_BRAND_ID"],"paths":["~/.clawdbot/credentials/agent-commerce-engine/"]},"install":[{"id":"python-deps","kind":"pip","package":"requests","label":"Install Python dependencies"}]}}
+metadata: {"clawdbot":{"emoji":"🛒","homepage":"https://github.com/NowLoadY/agent-commerce-engine","source":"https://github.com/NowLoadY/agent-commerce-engine","requires":{"bins":["python3"],"tools":[],"env":[],"optionalEnv":["COMMERCE_URL","COMMERCE_BRAND_ID","COMMERCE_BRAND_NAME"],"paths":["~/.clawdbot/credentials/agent-commerce-engine/"]},"install":[{"id":"python-deps","kind":"pip","package":"requests","label":"Install Python dependencies"}]}}
 ---
 
 # Standard Agentic Commerce Engine
@@ -46,7 +46,7 @@ To ensure transparency and protect user data, the Standard Agentic Commerce Engi
 
 To provide the most accurate and efficient experience, follow this priority sequence:
 
-1.  **API First (Primary)**: Always attempt to use the `commerce.py` script first. It provides structured, high-precision data. Configure it via environment variables (`COMMERCE_URL`).
+1.  **API First (Primary)**: Always attempt to use the `commerce.py` script first. It provides structured, high-precision data. Target a store via `--store <url>` argument.
 2.  **Stateless Headers**: Rely on the engine's built-in header management (`x-user-account`, `x-visitor-id`) to maintain session integrity without cookies.
 3.  **Self-Correction**: If the API returns a 404 for a specific slug discovered via browser, prioritize the API's `search` results as the source of truth for the backend.
 
@@ -59,8 +59,8 @@ Follow these logical flows to ensure a high-quality user experience:
 ### 1. Product Discovery & Validation
 **Goal**: Ensure the item exists and find the correct specifications before taking action.
 - **Action**: Always run `search` or `list` before adding to cart.
-- **Logic**: Use the API to discover the correct `slug` and valid `variant` specs.
-- **Refinement**: If multiple results are found, ask the user to specify based on the returned attributes.
+- **Logic**: Use the API to discover the correct `slug` and valid `variant` specs. Use `--page` and `--limit` arguments to safely navigate large catalogs without overwhelming the context limit.
+- **Refinement**: If multiple results are found, ask the user to specify based on the returned attributes. If `totalPages > page` in the results, consider fetching the next page or refining the search.
 
 ### 2. Authentication & Profile Flow
 **Goal**: Manage user privacy and session data.
@@ -99,7 +99,7 @@ Follow these logical flows to ensure a high-quality user experience:
 
 ## 🚀 Capabilities Summary
 
-- **`search` / `list`**: Product discovery and inventory scan.
+- **`search` / `list`**: Product discovery and inventory scan. Use `--page <N>` and `--limit <N>` to safely paginate through large catalogs.
 - **`get`**: Deep dive into product specifications, variants, and pricing.
 - **`promotions`**: Current business rules, shipping thresholds, and active offers.
 - **`cart`**: Complete session summary including VIP discounts and tax/shipping estimates.
@@ -114,22 +114,25 @@ Follow these logical flows to ensure a high-quality user experience:
 ## 💻 CLI Configuration & Examples
 
 ```bash
-# Setup
-export COMMERCE_URL="https://api.yourbrand.com/v1"
-export COMMERCE_BRAND_ID="brand_slug"
+# Target a store directly via --store (preferred)
+python3 scripts/commerce.py --store https://api.yourbrand.com/v1 list --page 1 --limit 20
+python3 scripts/commerce.py --store https://api.yourbrand.com/v1 search "item"
+python3 scripts/commerce.py --store https://api.yourbrand.com/v1 add-cart <slug> --variant <variant_id>
 
-# Actions
+# Or use environment variable (deprecated, will be removed in a future version)
+export COMMERCE_URL="https://api.yourbrand.com/v1"
 python3 scripts/commerce.py list
-python3 scripts/commerce.py search "item"
-python3 scripts/commerce.py get <slug>
-python3 scripts/commerce.py add-cart <slug> --variant <variant_id>
-python3 scripts/commerce.py create-order --name "John" --phone "555-0100" --province "State" --city "City" --address "123 St"
 ```
+
+Credentials are automatically stored per-domain under `~/.clawdbot/credentials/agent-commerce-engine/<domain>/`.
 
 ---
 
 ## 🤖 Troubleshooting & Debugging
 
-- **Status Code 401**: Credentials missing or expired. Recommend `login`.
-- **Status Code 404**: Resource not found. Verify `slug` via `search`.
-- **Connection Error**: Verify `COMMERCE_URL` environment variable is correct and the endpoint is reachable.
+- **`AUTH_REQUIRED`**: Token missing or expired. Run `login` to obtain a new token.
+- **`AUTH_INVALID`**: Wrong credentials. Verify account and password.
+- **`PRODUCT_NOT_FOUND`**: Resource not found. Verify `slug` via `search`.
+- **`VARIANT_UNAVAILABLE`**: The requested variant is invalid or out of stock. Check the `instruction` field for available alternatives.
+- **`CART_EMPTY`**: Attempted checkout with no items. Add items first.
+- **Connection Error**: Verify the `--store` URL is correct and the endpoint is reachable.

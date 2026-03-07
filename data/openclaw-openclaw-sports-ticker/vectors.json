@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-sports-ticker",
-  "generated_at": "2026-03-06T07:21:08.880Z",
+  "generated_at": "2026-03-07T07:12:31.098Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-sports-ticker#head",
@@ -19,8 +19,8 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/sports-ticker/SKILL.md",
-        "retrieved_at": "2026-03-06T07:21:08.880Z",
-        "content_sha256": "3b4f7037327735a68551c3e3ae8f73f769298d7c3738ca6293aeeb3cc55dc916"
+        "retrieved_at": "2026-03-07T07:12:31.098Z",
+        "content_sha256": "8fc5c757e08ed74370ce6363d900bf51a11bcd6849e198f5fccd33853805adcb"
       }
     }
   ]

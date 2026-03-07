@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-md-imp
 github_stars: 8532
 github_forks: 835
 github_is_organization: true
-retrieved_at: 2026-03-06T07:17:15.750Z
+retrieved_at: 2026-03-07T07:09:54.911Z
 content_sha256: 383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1
 ---

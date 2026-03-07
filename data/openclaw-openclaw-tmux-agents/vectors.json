@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tmux-agents",
-  "generated_at": "2026-03-06T07:21:26.497Z",
+  "generated_at": "2026-03-07T07:12:41.739Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tmux-agents#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cuba6112/tmux-agents/SKILL.md",
-        "retrieved_at": "2026-03-06T07:21:26.497Z",
+        "retrieved_at": "2026-03-07T07:12:41.739Z",
         "content_sha256": "951d67f5ad8a11982567dacb803c9387fe1fca5ae49da74a00e3770bf586d6e0"
       }
     }

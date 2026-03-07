@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/mblode/agent-skills/ui-animation
 github_stars: 16
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-06T07:17:13.707Z
+retrieved_at: 2026-03-07T07:09:53.163Z
 content_sha256: 3f6fcbc710e184f4b8c49c2824730b723bf692f98f9958239a3e0c7764618f5f
 ---

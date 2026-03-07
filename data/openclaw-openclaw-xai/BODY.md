@@ -1,20 +1,28 @@
 ---
 name: xai
-description: Chat with Grok models via xAI API. Supports Grok-3, Grok-3-mini, vision, and more.
+version: "1.1.0"
+description: Chat with Grok models via xAI API. Supports Grok-4, Grok-4.20, Grok-3, Grok-3-mini, vision, and real-time X search.
+author: mvanhorn
+license: MIT
+repository: https://github.com/mvanhorn/clawdbot-skill-xai
 homepage: https://docs.x.ai
-user-invocable: true
-disable-model-invocation: true
 triggers:
   - grok
   - xai
   - ask grok
 metadata:
-  clawdbot:
+  openclaw:
     emoji: "🤖"
-    primaryEnv: XAI_API_KEY
     requires:
-      bins: [node]
-      env: [XAI_API_KEY]
+      env:
+        - XAI_API_KEY
+    primaryEnv: XAI_API_KEY
+    tags:
+      - xai
+      - grok
+      - llm
+      - vision
+      - x-search
 ---
 
 # xAI / Grok
@@ -23,7 +31,13 @@ Chat with xAI's Grok models. Supports text and vision.
 
 ## Setup
 
+Set your API key in the skill config:
+
 ```bash
+# Via openclaw config
+openclaw config set skills.entries.xai.apiKey "xai-YOUR-KEY"
+
+# Or environment variable
 export XAI_API_KEY="xai-YOUR-KEY"
 ```
 
@@ -86,21 +100,3 @@ xAI API Docs: https://docs.x.ai/api
 
 - `XAI_API_KEY` - Your xAI API key (required)
 - `XAI_MODEL` - Default model (optional, defaults to grok-3)
-
-## Security & Permissions
-
-**What this skill does:**
-- Sends chat prompts to xAI's API at `api.x.ai`
-- Vision mode sends images to xAI for analysis
-- `scripts/models.js` lists available models (read-only)
-
-**What this skill does NOT do:**
-- Does not read arbitrary local files — `--image` only accepts files with image extensions (`.jpg`, `.jpeg`, `.png`, `.gif`, `.webp`)
-- Does not read config files or access the filesystem beyond the specified image path
-- Does not store conversation history or logs
-- Does not send credentials to any endpoint other than `api.x.ai`
-- Cannot be invoked autonomously by the agent (`disable-model-invocation: true`)
-
-**Bundled scripts:** `scripts/chat.js` (chat), `scripts/models.js` (list models), `scripts/search-x.js` (X search)
-
-Review scripts before first use to verify behavior.

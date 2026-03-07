@@ -8,7 +8,7 @@ summary: |-
   ## Usage
   ```
   Usage:   linear auth
-  Version: 1.11.0
+  Version: 1.11.1
   Description:
     Manage Linear authentication
   Options:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
 github_stars: 365
 github_forks: 38
 github_is_organization: false
-retrieved_at: 2026-03-06T07:17:13.276Z
-content_sha256: 246c1622106da8bc456d260423cf6d8b7ea05a7ec281f21e63696a258fd09fcc
+retrieved_at: 2026-03-07T07:09:52.898Z
+content_sha256: 0fd4d9c488770b3b19ef0cf8f24c0f8a2b821c03c64acb20582a3d268d482996
 ---

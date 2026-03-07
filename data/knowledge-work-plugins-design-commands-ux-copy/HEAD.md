@@ -14,6 +14,6 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:16:40.108Z
+retrieved_at: 2026-03-07T07:09:35.011Z
 content_sha256: f895d3d68db2bfdb148c96548a8079e5fbad322f8ede87b512aaec1e6127bf06
 ---

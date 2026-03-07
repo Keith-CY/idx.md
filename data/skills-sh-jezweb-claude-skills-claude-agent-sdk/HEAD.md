@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.71
+
+  - Updated to parity with Claude Code v2.1.71
+
   ## 0.2.70
 
   - Fixed `type: "http"` MCP servers failing with HTTP 406 "Not Acceptable" on
@@ -25,13 +29,6 @@ summary: >-
 
   - Added `supportsFastMode` field to `ModelInfo` indicating whether a model
   supports fast mode
-
-  - Added `agent_id` (for subagents) and `agent_type` (for subagents and
-  `--agent`) fields to hook events
-
-  - Fixed SDK-mode MCP servers (registered via `sdkMcpServers` in the
-  `initialize` control request) getting disconnected when background plugin
-  installation refreshes project MCP config
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:16:37.860Z
-content_sha256: 4eddcd83aec00db68ba4e33aa44bef6dd4a2088442c1d7930bd1f07861dfa966
+retrieved_at: 2026-03-07T07:09:33.616Z
+content_sha256: d1fc6e094352ecd92d0db1a963fe2fc5da8b4be9353ba604ed37e30efc5d2737
 ---

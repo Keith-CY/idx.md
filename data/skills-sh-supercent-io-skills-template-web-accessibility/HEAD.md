@@ -21,7 +21,7 @@ summary: >-
 
   ## When to use this skill
 
-  - **컴포넌트 라이브러리 구축**: 재사용 가능한 UI 컴포넌트 제작
+  - **Building Component Libraries**: Creating reusable UI components
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:17:25.585Z
-content_sha256: 9825234bbe3b5a88ae727f2a45c3daf206bac9178de230ebf651238089db4b6e
+retrieved_at: 2026-03-07T07:10:04.751Z
+content_sha256: c710ffc6971487f29e0925d10e5f08365998b5d0aea38ffeefc0cd9bfc98182d
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-macbook-optimizer",
-  "generated_at": "2026-03-06T07:19:40.542Z",
+  "generated_at": "2026-03-07T07:11:30.008Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-macbook-optimizer#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/drg3nz0/macbook-optimizer/SKILL.md",
-        "retrieved_at": "2026-03-06T07:19:40.542Z",
+        "retrieved_at": "2026-03-07T07:11:30.008Z",
         "content_sha256": "adde35b568dd4bf7296162b5b9c818ea4098c12050fa470c792e8a884aefa21d"
       }
     }

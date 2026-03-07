@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/op7418/humanizer-zh/humanizer-zh
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:15:59.456Z
+retrieved_at: 2026-03-07T07:09:04.430Z
 content_sha256: e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb
 ---

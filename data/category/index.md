@@ -24,7 +24,7 @@
 | Notes & PKM | 59 | /category/notes-pkm/index.md |
 | PDF & Documents | 31 | /category/pdf-documents/index.md |
 | Personal Development | 35 | /category/personal-development/index.md |
-| Productivity Tasks | 113 | /category/productivity-tasks/index.md |
+| Productivity Tasks | 112 | /category/productivity-tasks/index.md |
 | Search & Research | 139 | /category/search-research/index.md |
 | Security & Passwords | 19 | /category/security-passwords/index.md |
 | Self-Hosted Automation | 16 | /category/self-hosted-automation/index.md |
@@ -32,5 +32,5 @@
 | Smart Home & IoT | 47 | /category/smart-home-iot/index.md |
 | Speech & Transcription | 38 | /category/speech-transcription/index.md |
 | Transportation | 50 | /category/transportation/index.md |
-| Uncategorized | 521 | /category/uncategorized/index.md |
+| Uncategorized | 520 | /category/uncategorized/index.md |
 | Web Frontend Development | 42 | /category/web-frontend-development/index.md |

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-blankspace-registration",
-  "generated_at": "2026-03-06T07:17:57.972Z",
+  "generated_at": "2026-03-07T07:10:23.544Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-blankspace-registration#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/willyogo/blankspace-registration/SKILL.md",
-        "retrieved_at": "2026-03-06T07:17:57.972Z",
+        "retrieved_at": "2026-03-07T07:10:23.544Z",
         "content_sha256": "dae7311ff45fada1567e490b7b15269d798b37121ac0cb46693dcb025c96de5f"
       }
     }

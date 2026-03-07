@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/base44/skills/base44-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:17:23.201Z
+retrieved_at: 2026-03-07T07:10:02.553Z
 content_sha256: 834fed8eec8dc8bb5e8171fcdb9025de002fe25c219797dfdd422032f29da356
 ---

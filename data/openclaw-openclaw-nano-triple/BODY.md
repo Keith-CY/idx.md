@@ -1,13 +1,25 @@
 ---
 name: nano-triple
-description: Generate 3 images with Nano Banana Pro using the same prompt. Pick the best, or give feedback on any option to get 3 refined versions.
+version: "1.0.0"
+description: "3 images, one prompt, instant A/B/C. Nano Banana Pro's natural randomness gives you three distinct takes on any image idea — generated in parallel. Pick the winner or give feedback on any version to spin 3 more. The fastest way to find the right image."
+author: mvanhorn
+license: MIT
+repository: https://github.com/mvanhorn/nano-triple
+homepage: https://aistudio.google.com
 triggers:
   - make me an image
   - generate an image
   - create an image
+  - make an image
 metadata:
-  clawdbot:
+  openclaw:
     emoji: "🎨"
+    tags:
+      - image-generation
+      - nano-banana-pro
+      - creative
+      - parallel
+      - ai-art
 ---
 
 # Nano Triple: 3 Images, Same Prompt, You Pick
@@ -82,4 +94,4 @@ Send each image with just the number:
 
 ## API Key
 
-Uses `GEMINI_API_KEY` from environment or clawdbot config.
+Uses `GEMINI_API_KEY` from environment or openclaw config.

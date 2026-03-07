@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:16:33.892Z
+retrieved_at: 2026-03-07T07:09:30.978Z
 content_sha256: 28c74f36439fc41852a19f9ede75b7318b9f4fa6382be5b227e4487e502307d4
 ---

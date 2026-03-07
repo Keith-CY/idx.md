@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns",
-  "generated_at": "2026-03-06T07:15:45.449Z",
+  "generated_at": "2026-03-07T07:08:55.891Z",
   "records": [
     {
       "id": "skills/github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns#head",
@@ -21,7 +21,7 @@
           "github-repo-context-engineering-kit"
         ],
         "source_url": "https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md",
-        "retrieved_at": "2026-03-06T07:15:45.449Z",
+        "retrieved_at": "2026-03-07T07:08:55.891Z",
         "content_sha256": "c4b84601d18a609d5e8225d575cddd06515dc17ada9a0965fcc5bdf9ba341676"
       }
     }

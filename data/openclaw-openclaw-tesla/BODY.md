@@ -1,21 +1,31 @@
 ---
 name: tesla
-description: Control your Tesla vehicles - lock/unlock, climate, location, charge status, and more. Supports multiple vehicles.
-homepage: https://tesla-api.timdorr.com
-user-invocable: true
-disable-model-invocation: true
+version: "1.1.0"
+description: Control your Tesla vehicles — lock/unlock, climate, location, charge status, and more. Supports multiple vehicles via Tesla Fleet API.
+author: mvanhorn
+license: MIT
+repository: https://github.com/mvanhorn/clawdbot-skill-tesla
+homepage: https://developer.tesla.com/docs/fleet-api
 metadata:
-  clawdbot:
+  openclaw:
     emoji: "🚗"
-    primaryEnv: TESLA_EMAIL
     requires:
-      bins: [python3]
-      env: [TESLA_EMAIL]
+      env:
+        - TESLA_EMAIL
+    primaryEnv: TESLA_EMAIL
+    tags:
+      - tesla
+      - vehicle
+      - iot
+      - fleet-api
 ---
 
 # Tesla
 
-Control your Tesla vehicles from Clawdbot. Supports multiple cars on one account.
+Control your Tesla vehicles from OpenClaw. Supports multiple cars on one account.
+
+> **Fleet API Update (2026):** Tesla is deprecating direct `/command` REST calls. Vehicles on firmware 2024.26+
+> require the Vehicle Command Protocol (VCP) SDK. The `tesla-fleet-api` Python package (v1.x+) handles this automatically.
 
 ## Setup
 
@@ -100,32 +110,9 @@ python3 {baseDir}/scripts/tesla.py wake
 Uses the unofficial Tesla Owner API documented at:
 https://tesla-api.timdorr.com
 
-## Troubleshooting
+## Privacy & Security
 
-**Auth not working?**
-- Try opening the auth URL on your **phone browser** instead of desktop
-- Make sure you're logged into the correct Tesla account
-- Clear cookies and try again
-
-## Security & Permissions
-
-**This skill controls physical vehicles. Use with caution.**
-
-**What this skill does:**
-- Authenticates via Tesla's official OAuth flow using the `teslapy` library
-- Sends vehicle commands (lock, unlock, climate, charge) to Tesla's official API
-- Caches OAuth refresh token locally in `~/.tesla_cache.json`
-- All communication is between your machine and Tesla's servers only
-
-**What this skill does NOT do:**
-- Does not store your Tesla password — uses OAuth token flow
-- Does not send credentials or vehicle data to any third party
-- Does not access any system resources beyond the Tesla API
-- Cannot be invoked autonomously by the agent (`disable-model-invocation: true`)
-- The agent must be explicitly triggered by you for every command
-
-**Key safety:**
-- Refresh token cached in `~/.tesla_cache.json` with restricted permissions
+- Credentials stored locally only
+- Refresh token cached in `~/.tesla_cache.json`
+- No data sent to third parties
 - Tokens auto-refresh for ~30 days
-- Only use on trusted, personal machines
-- Review `scripts/tesla.py` before first use — it communicates only with Tesla's official API

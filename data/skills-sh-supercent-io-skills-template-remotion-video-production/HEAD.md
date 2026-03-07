@@ -18,8 +18,8 @@ summary: >-
 
   # Image Generation via MCP
 
-  MCP를 통한 AI 이미지 생성 스킬입니다. Gemini 모델 또는 호환 서비스를 사용하여 마케팅, UI, 프레젠테이션용 고품질 이미지를
-  생성합니다.
+  AI image generation skill via MCP. Use Gemini models or compatible services to
+  generate high-quality images for marketing, UI, and presentations.
 
   ## When to use this skill
 tags:
@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/remotion-video-prod
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:17:18.247Z
-content_sha256: f235bd3058b3c746339db88c7e22ba1109ba7fadf74e370a7b04a9e10d0cf1ff
+retrieved_at: 2026-03-07T07:09:57.211Z
+content_sha256: c359992ae0932444cb0e8ad2be55236b574b8ba38129db570175492e52cab1a4
 ---

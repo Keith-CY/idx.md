@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-commands-roadmap-update",
-  "generated_at": "2026-03-06T07:16:17.581Z",
+  "generated_at": "2026-03-07T07:09:19.083Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-commands-roadmap-update#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/roadmap-update.md",
-        "retrieved_at": "2026-03-06T07:16:17.581Z",
+        "retrieved_at": "2026-03-07T07:09:19.083Z",
         "content_sha256": "7dbd09a65d0ed2747f699c577187a7fa077b9c1a1a09d9015745c731bfc54f20"
       }
     }

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/callstackincubator/agent-skills/upgrading-react-
 github_stars: 914
 github_forks: 49
 github_is_organization: true
-retrieved_at: 2026-03-06T07:16:37.607Z
+retrieved_at: 2026-03-07T07:09:33.425Z
 content_sha256: 8a9dc3bd3d6454333f9cfa82e4f0202875850ce36a6284529294a89dde2c9385
 ---

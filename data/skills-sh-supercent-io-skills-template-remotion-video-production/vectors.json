@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-remotion-video-production",
-  "generated_at": "2026-03-06T07:17:18.247Z",
+  "generated_at": "2026-03-07T07:09:57.211Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-remotion-video-production#head",
       "kind": "head",
       "path": "/data/skills-sh-supercent-io-skills-template-remotion-video-production/HEAD.md",
-      "text": "title: skills-sh-supercent-io-skills-template-remotion-video-production\nsummary: --- name: image-generation description: Generate high-quality images via MCP (Gemini models or compatible services) using structured prompts, ratios, and validation for marketing, UI, or presentations. metadata: tags: image-generation, gemini, mcp, design, creative, ai-art platforms: Claude, ChatGPT, Gemini, Codex --- # Image Generation via MCP MCP를 통한 AI 이미지 생성 스킬입니다. Gemini 모델 또는 호환 서비스를 사용하여 마케팅, UI, 프레젠테이션용 고품질 이미지를 생성합니다. ## When to use this skill\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md",
+      "text": "title: skills-sh-supercent-io-skills-template-remotion-video-production\nsummary: --- name: image-generation description: Generate high-quality images via MCP (Gemini models or compatible services) using structured prompts, ratios, and validation for marketing, UI, or presentations. metadata: tags: image-generation, gemini, mcp, design, creative, ai-art platforms: Claude, ChatGPT, Gemini, Codex --- # Image Generation via MCP AI image generation skill via MCP. Use Gemini models or compatible services to generate high-quality images for marketing, UI, and presentations. ## When to use this skill\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-supercent-io-skills-template-remotion-video-production",
         "topic": "skills-sh-supercent-io-skills-template-remotion-video-production",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md",
-        "retrieved_at": "2026-03-06T07:17:18.247Z",
-        "content_sha256": "f235bd3058b3c746339db88c7e22ba1109ba7fadf74e370a7b04a9e10d0cf1ff"
+        "retrieved_at": "2026-03-07T07:09:57.211Z",
+        "content_sha256": "c359992ae0932444cb0e8ad2be55236b574b8ba38129db570175492e52cab1a4"
       }
     }
   ]

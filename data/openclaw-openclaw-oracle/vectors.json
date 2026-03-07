@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-oracle",
-  "generated_at": "2026-03-06T07:20:16.113Z",
+  "generated_at": "2026-03-07T07:11:54.410Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-oracle#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/oracle/SKILL.md",
-        "retrieved_at": "2026-03-06T07:20:16.113Z",
+        "retrieved_at": "2026-03-07T07:11:54.410Z",
         "content_sha256": "183045d445482c95a1f4b81d87650bc9438ebf396cc8a92f05f9222f41c9efc6"
       }
     }

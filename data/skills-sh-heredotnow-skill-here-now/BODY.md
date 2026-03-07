@@ -370,7 +370,7 @@ Use when presigned URLs expire mid-upload (they're valid for 1 hour).
 
 Registers your handle for `handle.here.now`.
 
-**Requires:** `Authorization: Bearer <API_KEY>` and a paid plan.
+**Requires:** `Authorization: Bearer <API_KEY>`
 
 **Request body:**
 
@@ -390,8 +390,6 @@ Registers your handle for `handle.here.now`.
 
 Handle rules: 2-30 chars, lowercase letters/numbers/hyphens, no leading/trailing hyphen, reserved names blocked.
 
-Free plan users receive a `403` response. To upgrade, sign in at https://here.now and go to the Plan tab in the dashboard.
-
 ---
 
 ### Get current handle
@@ -410,7 +408,7 @@ Returns your current handle and links.
 
 Changes an existing handle to a new one.
 
-**Requires:** `Authorization: Bearer <API_KEY>` and a paid plan.
+**Requires:** `Authorization: Bearer <API_KEY>`
 
 **Request body:**
 
@@ -436,7 +434,7 @@ Deletes your handle and all links under it.
 
 Links an artifact slug to a location under your handle.
 
-**Requires:** `Authorization: Bearer <API_KEY>` and a paid plan.
+**Requires:** `Authorization: Bearer <API_KEY>`
 
 **Request body:**
 
@@ -477,7 +475,7 @@ Gets a single link by location. Use `__root__` for the root location.
 
 Changes which artifact slug a location points to.
 
-**Requires:** `Authorization: Bearer <API_KEY>` and a paid plan.
+**Requires:** `Authorization: Bearer <API_KEY>`
 
 **Request body:**
 
@@ -493,7 +491,7 @@ Changes which artifact slug a location points to.
 
 Removes a link by location. Use `__root__` for the root location.
 
-**Requires:** `Authorization: Bearer <API_KEY>` and a paid plan.
+**Requires:** `Authorization: Bearer <API_KEY>`
 
 ---
 

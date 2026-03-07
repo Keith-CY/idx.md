@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/pulumi/agent-skills/pulumi-arm-to-pulumi
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-06T07:16:54.884Z
+retrieved_at: 2026-03-07T07:09:42.793Z
 content_sha256: ea39de8e596c580b86a0d0e4878bd3a29acf19b65549d641c50bff203bdb24b5
 ---

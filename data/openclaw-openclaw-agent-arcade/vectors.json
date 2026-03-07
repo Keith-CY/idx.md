@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-arcade",
-  "generated_at": "2026-03-06T07:17:30.905Z",
+  "generated_at": "2026-03-07T07:10:08.141Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-arcade#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnlewis/agent-arcade/SKILL.md",
-        "retrieved_at": "2026-03-06T07:17:30.905Z",
+        "retrieved_at": "2026-03-07T07:10:08.141Z",
         "content_sha256": "8c1944bbdf2b630b6133bf3a3169548355f60891cfe9e12594f43b97027662cd"
       }
     }

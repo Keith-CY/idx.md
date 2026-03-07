@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-weather-pollen",
-  "generated_at": "2026-03-06T07:21:43.674Z",
+  "generated_at": "2026-03-07T07:12:53.110Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-weather-pollen#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/weather-pollen/SKILL.md",
-        "retrieved_at": "2026-03-06T07:21:43.674Z",
+        "retrieved_at": "2026-03-07T07:12:53.110Z",
         "content_sha256": "75849b8edc2e0c35a9fdd46311beea7cf94c0d3310cd5da57c0c02fb1762e0b5"
       }
     }
