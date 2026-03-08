@@ -20,6 +20,18 @@
     - github-repo-rust-skills
   upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zero-cost/SKILL.md
 - type: skills
+  slug: github-skill-affaan-m-everything-claude-code-nutrient-document-processing
+  source_url: https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/docs/zh-CN/skills/nutrient-document-processing/SKILL.md
+  title: nutrient-document-processing
+  summary: 使用Nutrient DWS API处理、转换、OCR识别、提取、编辑、签名和填写文档。支持PDF、DOCX、XLSX、PPTX、HTML和图像格式。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-affaan-m
+    - github-repo-everything-claude-code
+  upstream_ref: https://github.com/affaan-m/everything-claude-code/blob/main/docs/zh-CN/skills/nutrient-document-processing/SKILL.md
+- type: skills
   slug: github-skill-agno-agi-agno-git-workflow
   source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
   title: git-workflow
@@ -43,6 +55,18 @@
     - github-owner-agno-agi
     - github-repo-agno
   upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
+- type: skills
+  slug: github-skill-alirezarezvani-claude-code-skill-factory-codex-cli-bridge
+  source_url: https://raw.githubusercontent.com/alirezarezvani/claude-code-skill-factory/dev/generated-skills/codex-cli-bridge/SKILL.md
+  title: codex-cli-bridge
+  summary: Bridge between Claude Code and OpenAI Codex CLI - generates AGENTS.md from CLAUDE.md, provides Codex CLI execution helpers, and enables seamless interoperability between both tools
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-alirezarezvani
+    - github-repo-claude-code-skill-factory
+  upstream_ref: https://github.com/alirezarezvani/claude-code-skill-factory/blob/dev/generated-skills/codex-cli-bridge/SKILL.md
 - type: skills
   slug: github-skill-alvarobartt-hf-mem-hf-mem
   source_url: https://raw.githubusercontent.com/alvarobartt/hf-mem/main/SKILL.md
@@ -320,6 +344,21 @@
     - github-repo-claude-code-templates
   upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
 - type: skills
+  slug: github-skill-dicklesworthstone-pi-agent-rust-websocket-client-creator
+  source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/skills/16-api-integration/websocket-client-creator/SKILL.md
+  title: websocket-client-creator
+  summary: |-
+    Create websocket client creator operations. Auto-activating skill for API Integration.
+    Triggers on: websocket client creator, websocket client creator
+    Part of the API Integration skill category. Use when working with websocket client creator functionality. Trigger with phrases like "websocket client creator", "websocket creator", "websocket".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dicklesworthstone
+    - github-repo-pi_agent_rust
+  upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests/ext_conformance/artifacts/plugins-community/skills/16-api-integration/websocket-client-creator/SKILL.md
+- type: skills
   slug: github-skill-dlt-hub-dlt-review-pr
   source_url: https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md
   title: review-pr
@@ -355,6 +394,18 @@
     - github-owner-epicweb-dev
     - github-repo-epic-stack
   upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
+- type: skills
+  slug: github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer
+  source_url: https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md
+  title: rtk-optimizer
+  summary: Optimize command outputs with RTK (Rust Token Killer) for 70% token reduction
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-florianbruniaux
+    - github-repo-claude-code-ultimate-guide
+  upstream_ref: https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/examples/skills/rtk-optimizer/SKILL.md
 - type: skills
   slug: github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
@@ -655,6 +706,18 @@
     - github-repo-openclaw
   upstream_ref: https://github.com/openclaw/openclaw/blob/main/skills/gh-issues/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-agenticmail
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ope-olatunji/agenticmail/SKILL.md
+  title: agenticmail
+  summary: 🎀 AgenticMail — Full email, SMS, storage & multi-agent coordination for AI agents. 63 tools.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ope-olatunji/agenticmail/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-ai-music-generation
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okaris/ai-music-generation/SKILL.md
   title: ai-music-generation
@@ -782,6 +845,42 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/syslink/clawgang/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-clawhub-auto-publisher
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sasamittrrr/clawhub-auto-publisher/SKILL.md
+  title: clawhub-auto-publisher
+  summary: Automatically package and publish local skills to ClawHub marketplace with pricing optimization.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sasamittrrr/clawhub-auto-publisher/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-clawshop
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/qsgy/clawshop/SKILL.md
+  title: clawshop
+  summary: Operate the ClawShop Web API for Taobao/Goofish product posts. Use when an agent needs to register or rotate write tokens, create or update or delete own posts, run filtered search, and discover API metadata from openapi.yaml or ad.json.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/qsgy/clawshop/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-compliance-checker
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-compliance-checker/SKILL.md
+  title: compliance-checker
+  summary: Policy-based compliance assessment for OpenClaw skills. Define security policies, assess skills against them, track violations, and generate compliance reports. Maps findings to frameworks like CIS Controls and OWASP. Integrates with arc-skill-scanner and arc-trust-verifier.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-transportation
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/trypto1019/arc-compliance-checker/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-crabwalk
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/luccast/public/skill.md
   title: crabwalk
@@ -806,6 +905,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/anton-abyzov/sw-docusaurus/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-eodhd
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oscraters/eodhd/SKILL.md
+  title: eodhd
+  summary: Plan, build, review, or extend a stateless Bash CLI wrapper for the publicly documented EODHD API, intended for OpenClaw agents and Clawhub.ai distribution. Use when Codex needs to define command structure, auth handling, error semantics, redaction rules, CI, packaging, or skill metadata for an open source EODHD integration that must follow OpenClaw secrets management and avoid leaking sensitive data to stdout, stderr, logs, examples, or repo artifacts.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/oscraters/eodhd/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-game-theory
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sp0oby/game-theory/SKILL.md
   title: game-theory
@@ -817,6 +928,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sp0oby/game-theory/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-healthie
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aiwithabidi/healthie/SKILL.md
+  title: healthie
+  summary: Healthie — manage patients, appointments, goals, and documents via GraphQL API
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aiwithabidi/healthie/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-journal
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/journal/SKILL.md
@@ -841,6 +964,22 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/eucalyptus-viminalis/leak/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-listenhub
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/boxingyi/listenhub/SKILL.md
+  title: listenhub
+  summary: |-
+    Explain anything — turn ideas into podcasts, explainer videos, or voice narration.
+    Use when the user wants to "make a podcast", "create an explainer video",
+    "read this aloud", "generate an image", or share knowledge in audio/visual form.
+    Supports: topic descriptions, YouTube links, article URLs, plain text, and image prompts.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/boxingyi/listenhub/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-moltmoon-sdk
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md
@@ -1129,3 +1268,15 @@
     - github-owner-vllm-project
     - github-repo-vllm-ascend
   upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
+- type: skills
+  slug: github-skill-wavetermdev-waveterm-electron-api
+  source_url: https://raw.githubusercontent.com/wavetermdev/waveterm/main/.kilocode/skills/electron-api/SKILL.md
+  title: electron-api
+  summary: Guide for adding new Electron APIs to Wave Terminal. Use when implementing new frontend-to-electron communications via preload/IPC.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wavetermdev
+    - github-repo-waveterm
+  upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
