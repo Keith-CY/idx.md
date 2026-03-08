@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-competitive-analysis-skill",
-  "generated_at": "2026-03-07T07:09:17.313Z",
+  "generated_at": "2026-03-08T07:11:50.563Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-competitive-analysis-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-analysis/SKILL.md",
-        "retrieved_at": "2026-03-07T07:09:17.313Z",
+        "retrieved_at": "2026-03-08T07:11:50.563Z",
         "content_sha256": "cbce9a731eac10569e20347495ae14ab980f7917bd697d24cea89f10248e20bd"
       }
     }

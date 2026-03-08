@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/antfu/skills/vitepress
 github_stars: 3706
 github_forks: 181
 github_is_organization: false
-retrieved_at: 2026-03-07T07:09:49.834Z
+retrieved_at: 2026-03-08T07:12:35.808Z
 content_sha256: 85c6a7ee227c47143fdc8e59b5b2e29bfbbf8499c893b7ce6589c2304f469e35
 ---

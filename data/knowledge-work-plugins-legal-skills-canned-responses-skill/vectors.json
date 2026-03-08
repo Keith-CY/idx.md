@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-legal-skills-canned-responses-skill",
-  "generated_at": "2026-03-07T07:09:15.479Z",
+  "generated_at": "2026-03-08T07:11:48.119Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-legal-skills-canned-responses-skill#head",
@@ -21,7 +21,7 @@
           "category-uncategorized"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/canned-responses/SKILL.md",
-        "retrieved_at": "2026-03-07T07:09:15.479Z",
+        "retrieved_at": "2026-03-08T07:11:48.119Z",
         "content_sha256": "e245cfd0612604f4a8c1e060124dc72aa1db829a65250b40e22d119f02570415"
       }
     }

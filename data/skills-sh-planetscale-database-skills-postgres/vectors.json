@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-planetscale-database-skills-postgres",
-  "generated_at": "2026-03-07T07:09:56.843Z",
+  "generated_at": "2026-03-08T07:12:44.778Z",
   "records": [
     {
       "id": "skills/skills-sh-planetscale-database-skills-postgres#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/planetscale/database-skills/main/skills/postgres/references/schema-design.md",
-        "retrieved_at": "2026-03-07T07:09:56.843Z",
+        "retrieved_at": "2026-03-08T07:12:44.778Z",
         "content_sha256": "a831161ebd0343cfb506a069e0d6d4b274c671c81d2580c544c4ffed136a04ba"
       }
     }

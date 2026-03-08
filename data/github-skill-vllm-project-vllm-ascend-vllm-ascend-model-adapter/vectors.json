@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter",
-  "generated_at": "2026-03-07T07:09:00.215Z",
+  "generated_at": "2026-03-08T07:11:29.286Z",
   "records": [
     {
       "id": "skills/github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter#head",
@@ -21,7 +21,7 @@
           "github-repo-vllm-ascend"
         ],
         "source_url": "https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md",
-        "retrieved_at": "2026-03-07T07:09:00.215Z",
+        "retrieved_at": "2026-03-08T07:11:29.286Z",
         "content_sha256": "0ef9f14f2e7d1fe6c6967644158504542248965d1870b1a473fb74173ad1b119"
       }
     }

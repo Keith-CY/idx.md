@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-sentinel",
-  "generated_at": "2026-03-07T07:10:10.273Z",
+  "generated_at": "2026-03-08T07:13:01.290Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-sentinel#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jimmystacks/agent-sentinel/SKILL.md",
-        "retrieved_at": "2026-03-07T07:10:10.273Z",
+        "retrieved_at": "2026-03-08T07:13:01.290Z",
         "content_sha256": "070d147ec70e72a3eceb635aa33e1af57e32e7cefb193e6b6613f026e33d7e2d"
       }
     }

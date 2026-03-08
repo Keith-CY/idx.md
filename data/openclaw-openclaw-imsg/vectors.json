@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-imsg",
-  "generated_at": "2026-03-07T07:11:17.962Z",
+  "generated_at": "2026-03-08T07:14:38.913Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-imsg#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/imsg/SKILL.md",
-        "retrieved_at": "2026-03-07T07:11:17.962Z",
+        "retrieved_at": "2026-03-08T07:14:38.913Z",
         "content_sha256": "8e9e9b4465f73f5e8bb59b4905ee067e8b2ea9d57202b68852e11383f46a81b4"
       }
     }

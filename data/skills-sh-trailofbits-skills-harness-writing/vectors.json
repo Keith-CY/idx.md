@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-harness-writing",
-  "generated_at": "2026-03-07T07:10:04.562Z",
+  "generated_at": "2026-03-08T07:12:52.901Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-harness-writing#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/google/fuzzing/master/docs/structure-aware-fuzzing.md",
-        "retrieved_at": "2026-03-07T07:10:04.562Z",
+        "retrieved_at": "2026-03-08T07:12:52.901Z",
         "content_sha256": "8d02acadc413ae8aca770761382c32a0d468a4616ecca91bcabe171c0c89587a"
       }
     }

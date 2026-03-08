@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-reddit-search",
-  "generated_at": "2026-03-07T07:12:12.917Z",
+  "generated_at": "2026-03-08T07:15:54.834Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-reddit-search#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/reddit-search/SKILL.md",
-        "retrieved_at": "2026-03-07T07:12:12.917Z",
+        "retrieved_at": "2026-03-08T07:15:54.834Z",
         "content_sha256": "4ab81e79bf392c62ae4ed400f7d5c6f49ce9cb6ddac5272ad0d36c495a308b83"
       }
     }

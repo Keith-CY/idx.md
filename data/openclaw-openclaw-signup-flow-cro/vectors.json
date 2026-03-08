@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-signup-flow-cro",
-  "generated_at": "2026-03-07T07:12:25.571Z",
+  "generated_at": "2026-03-08T07:16:09.290Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-signup-flow-cro#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/signup-flow-cro/SKILL.md",
-        "retrieved_at": "2026-03-07T07:12:25.571Z",
+        "retrieved_at": "2026-03-08T07:16:09.290Z",
         "content_sha256": "d52fe97c2712260cbba0832e5747dcc6f189e131000be0df762abd7c85562812"
       }
     }

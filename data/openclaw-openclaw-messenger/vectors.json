@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-messenger",
-  "generated_at": "2026-03-07T07:11:34.865Z",
+  "generated_at": "2026-03-08T07:15:02.474Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-messenger#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/messenger/SKILL.md",
-        "retrieved_at": "2026-03-07T07:11:34.865Z",
+        "retrieved_at": "2026-03-08T07:15:02.474Z",
         "content_sha256": "6694053d44fb2f0af9a886a15f97e5bc1df130bb826b6018d96bd4f91bdbc915"
       }
     }

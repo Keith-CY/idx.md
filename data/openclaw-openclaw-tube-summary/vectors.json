@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tube-summary",
-  "generated_at": "2026-03-07T07:12:45.057Z",
+  "generated_at": "2026-03-08T07:16:37.442Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tube-summary#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dillera/tube-summary/SKILL.md",
-        "retrieved_at": "2026-03-07T07:12:45.057Z",
+        "retrieved_at": "2026-03-08T07:16:37.442Z",
         "content_sha256": "662879765fe8b1b793f49ef9e5b74baaf1ea3af629294bd937dbcb8a2f784c22"
       }
     }

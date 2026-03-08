@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-samsung-smartthings",
-  "generated_at": "2026-03-07T07:12:19.090Z",
+  "generated_at": "2026-03-08T07:16:02.120Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-samsung-smartthings#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/regenrek/samsung-smartthings/SKILL.md",
-        "retrieved_at": "2026-03-07T07:12:19.090Z",
+        "retrieved_at": "2026-03-08T07:16:02.120Z",
         "content_sha256": "cbcb5b5947421321cb464cb7c8f5fc16cec3a129e7731766ec8703b44c7c7b1c"
       }
     }

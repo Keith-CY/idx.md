@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/remotion-video-prod
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-07T07:09:57.211Z
+retrieved_at: 2026-03-08T07:12:45.191Z
 content_sha256: c359992ae0932444cb0e8ad2be55236b574b8ba38129db570175492e52cab1a4
 ---

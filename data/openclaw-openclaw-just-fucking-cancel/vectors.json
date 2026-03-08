@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-just-fucking-cancel",
-  "generated_at": "2026-03-07T07:11:23.499Z",
+  "generated_at": "2026-03-08T07:14:46.523Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-just-fucking-cancel#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/just-fucking-cancel/SKILL.md",
-        "retrieved_at": "2026-03-07T07:11:23.499Z",
+        "retrieved_at": "2026-03-08T07:14:46.523Z",
         "content_sha256": "8dc96ecab8ac87e8ec01d884e79bfea5a5b2cb36d3cf8ae7aabe984cee21e7d5"
       }
     }

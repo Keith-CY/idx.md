@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-operations-skills-process-optimization-skill",
-  "generated_at": "2026-03-07T07:09:35.468Z",
+  "generated_at": "2026-03-08T07:12:15.117Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-operations-skills-process-optimization-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/process-optimization/SKILL.md",
-        "retrieved_at": "2026-03-07T07:09:35.468Z",
+        "retrieved_at": "2026-03-08T07:12:15.117Z",
         "content_sha256": "14099838fdbfca24057e934fc22ed17f94629c5e9c9cec470f32e3063d0575f9"
       }
     }

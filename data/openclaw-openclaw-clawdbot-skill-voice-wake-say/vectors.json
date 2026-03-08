@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-skill-voice-wake-say",
-  "generated_at": "2026-03-07T07:10:34.561Z",
+  "generated_at": "2026-03-08T07:13:38.061Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-skill-voice-wake-say#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xadenryan/clawdbot-skill-voice-wake-say/SKILL.md",
-        "retrieved_at": "2026-03-07T07:10:34.561Z",
+        "retrieved_at": "2026-03-08T07:13:38.061Z",
         "content_sha256": "9c1d9f10369cf44d895020e4419ef6af2b8bc14d3711889566f3f3994db8bbd6"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-heredotnow-skill-here-now",
-  "generated_at": "2026-03-07T07:09:56.398Z",
+  "generated_at": "2026-03-08T07:12:44.415Z",
   "records": [
     {
       "id": "skills/skills-sh-heredotnow-skill-here-now#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/heredotnow/skill/HEAD/here-now/references/REFERENCE.md",
-        "retrieved_at": "2026-03-07T07:09:56.398Z",
+        "retrieved_at": "2026-03-08T07:12:44.415Z",
         "content_sha256": "407d0c89d03b25d32cab1c5d6492b8a9d759e956da7aa3bcdfdb7f4d86788f7f"
       }
     }
