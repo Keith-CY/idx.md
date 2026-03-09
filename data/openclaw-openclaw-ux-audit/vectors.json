@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ux-audit",
-  "generated_at": "2026-03-08T07:16:41.822Z",
+  "generated_at": "2026-03-09T07:24:27.696Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ux-audit#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ux-audit/SKILL.md",
-        "retrieved_at": "2026-03-08T07:16:41.822Z",
+        "retrieved_at": "2026-03-09T07:24:27.696Z",
         "content_sha256": "087ba667202dbfc4ddd06baf788f4d52372c1ba89666377ecf0957af45366dd5"
       }
     }

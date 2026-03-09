@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-fou
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-08T07:12:29.062Z
+retrieved_at: 2026-03-09T07:22:11.951Z
 content_sha256: bad5c8917b88b21ae3079c2403e4d451718de228b16f098e394a19dd496ea439
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-legal-commands-compliance-check",
-  "generated_at": "2026-03-08T07:12:12.567Z",
+  "generated_at": "2026-03-09T07:22:04.546Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-legal-commands-compliance-check#head",
@@ -21,7 +21,7 @@
           "category-uncategorized"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/commands/compliance-check.md",
-        "retrieved_at": "2026-03-08T07:12:12.567Z",
+        "retrieved_at": "2026-03-09T07:22:04.546Z",
         "content_sha256": "01327059d0f66e057b9773a68203ff3cf4e5b7681f66a2de63009d74ed657b7f"
       }
     }

@@ -428,11 +428,11 @@ Deletes your handle and all links under it.
 
 ---
 
-### Create a link under your handle
+### Create a link under your handle or custom domain
 
 `POST /api/v1/links`
 
-Links an artifact slug to a location under your handle.
+Links an artifact slug to a location under your handle or a custom domain.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -446,6 +446,18 @@ Links an artifact slug to a location under your handle.
 ```
 
 Use an empty `location` to link at root (`https://yourname.here.now/`).
+
+To link to a custom domain instead of your handle, add the `domain` parameter:
+
+```json
+{
+  "location": "",
+  "slug": "bright-canvas-a7k2",
+  "domain": "example.com"
+}
+```
+
+This makes `https://example.com/` serve the artifact. The domain must be active (verified).
 
 ---
 
@@ -492,6 +504,100 @@ Changes which artifact slug a location points to.
 Removes a link by location. Use `__root__` for the root location.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
+
+To delete a link from a custom domain (instead of your handle), add `?domain=example.com` as a query parameter.
+
+---
+
+### Add a custom domain
+
+`POST /api/v1/domains`
+
+Registers a custom domain for your account. Free plan: 1 domain. Hobby plan: up to 5 domains.
+
+**Requires:** `Authorization: Bearer <API_KEY>`
+
+**Request body:**
+
+```json
+{ "domain": "example.com" }
+```
+
+**Response:**
+
+```json
+{
+  "domain": "example.com",
+  "namespace_id": "uuid",
+  "status": "pending",
+  "dns_instructions": {
+    "type": "ALIAS",
+    "name": "example.com",
+    "target": "fallback.here.now",
+    "note": "Add an ALIAS record pointing to fallback.here.now. For subdomains, a CNAME record also works."
+  }
+}
+```
+
+After adding, configure DNS: add an ALIAS record (or CNAME for subdomains) pointing to `fallback.here.now`. SSL is provisioned automatically by Cloudflare once DNS is verified.
+
+---
+
+### List custom domains
+
+`GET /api/v1/domains`
+
+Returns all custom domains for the authenticated user, including their status and links.
+
+**Requires:** `Authorization: Bearer <API_KEY>`
+
+**Response:**
+
+```json
+{
+  "domains": [
+    {
+      "domain": "example.com",
+      "namespace_id": "uuid",
+      "status": "active",
+      "ssl_status": "active",
+      "created_at": "2026-03-09T...",
+      "verified_at": "2026-03-09T...",
+      "mounts": [
+        { "mount_path": "", "slug": "bright-canvas-a7k2" }
+      ]
+    }
+  ]
+}
+```
+
+For pending domains, this endpoint also polls Cloudflare for SSL verification status and updates automatically.
+
+---
+
+### Get custom domain status
+
+`GET /api/v1/domains/:domain`
+
+Returns details for a specific custom domain. Triggers on-demand verification for pending domains.
+
+**Requires:** `Authorization: Bearer <API_KEY>`
+
+---
+
+### Remove a custom domain
+
+`DELETE /api/v1/domains/:domain`
+
+Removes a custom domain and all links under it.
+
+**Requires:** `Authorization: Bearer <API_KEY>`
+
+**Response:**
+
+```json
+{ "deleted": true }
+```
 
 ---
 

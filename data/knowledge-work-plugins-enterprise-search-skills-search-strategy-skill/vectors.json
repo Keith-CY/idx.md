@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-enterprise-search-skills-search-strategy-skill",
-  "generated_at": "2026-03-08T07:11:56.107Z",
+  "generated_at": "2026-03-09T07:21:57.182Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-enterprise-search-skills-search-strategy-skill#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/search-strategy/SKILL.md",
-        "retrieved_at": "2026-03-08T07:11:56.107Z",
+        "retrieved_at": "2026-03-09T07:21:57.182Z",
         "content_sha256": "2b06a74db5f9c359f43c5976869ea32c934f3a1c97c688d9e3b2b5a7ebf113f2"
       }
     }

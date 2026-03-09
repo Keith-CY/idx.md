@@ -37,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/playwri
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-08T07:11:32.197Z
+retrieved_at: 2026-03-09T07:21:45.488Z
 content_sha256: 0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8
 ---

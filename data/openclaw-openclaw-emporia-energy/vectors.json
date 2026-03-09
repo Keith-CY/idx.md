@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-emporia-energy",
-  "generated_at": "2026-03-08T07:14:06.306Z",
+  "generated_at": "2026-03-09T07:23:03.359Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-emporia-energy#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/urosorozel/emporia-energy/SKILL.md",
-        "retrieved_at": "2026-03-08T07:14:06.306Z",
+        "retrieved_at": "2026-03-09T07:23:03.359Z",
         "content_sha256": "2b73934f9c651455b83610be79bb982dba7f9c4147d3bfa238e07eb5a38ce9b9"
       }
     }

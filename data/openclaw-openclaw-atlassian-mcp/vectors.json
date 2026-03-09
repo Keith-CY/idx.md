@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-atlassian-mcp",
-  "generated_at": "2026-03-08T07:13:13.420Z",
+  "generated_at": "2026-03-09T07:22:34.242Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-atlassian-mcp#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/atakanermis/atlassian-mcp/SKILL.md",
-        "retrieved_at": "2026-03-08T07:13:13.420Z",
+        "retrieved_at": "2026-03-09T07:22:34.242Z",
         "content_sha256": "8052a44096cdf9de260c1e0f8bf1d24b3ed9d332acc66c6da5cee31ccf484207"
       }
     }

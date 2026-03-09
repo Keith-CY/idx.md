@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azure-ai-transcription-py",
-  "generated_at": "2026-03-08T07:13:16.648Z",
+  "generated_at": "2026-03-09T07:22:36.140Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azure-ai-transcription-py#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-ai-transcription-py/SKILL.md",
-        "retrieved_at": "2026-03-08T07:13:16.648Z",
+        "retrieved_at": "2026-03-09T07:22:36.140Z",
         "content_sha256": "bb732fb987739ecdc0e1e6e02cc693a3d25a95f02abc148f9dadb59486e63813"
       }
     }

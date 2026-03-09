@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-notectl",
-  "generated_at": "2026-03-08T07:15:19.230Z",
+  "generated_at": "2026-03-09T07:23:43.262Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-notectl#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rainbat/notectl/SKILL.md",
-        "retrieved_at": "2026-03-08T07:15:19.230Z",
+        "retrieved_at": "2026-03-09T07:23:43.262Z",
         "content_sha256": "a423be2b45cb644f7ce0e11f71922fa0aa63e6a248cf264ae58c134bf07513c7"
       }
     }

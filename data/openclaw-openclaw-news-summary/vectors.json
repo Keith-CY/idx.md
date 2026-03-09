@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-news-summary",
-  "generated_at": "2026-03-08T07:15:15.664Z",
+  "generated_at": "2026-03-09T07:23:41.325Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-news-summary#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joargp/news-summary/SKILL.md",
-        "retrieved_at": "2026-03-08T07:15:15.664Z",
+        "retrieved_at": "2026-03-09T07:23:41.325Z",
         "content_sha256": "1b4c45b56f5675670df484445f9b021b05ba1b2e688c202ac962f22c9812f23b"
       }
     }

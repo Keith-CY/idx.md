@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-exchange-rates",
-  "generated_at": "2026-03-08T07:14:09.034Z",
+  "generated_at": "2026-03-09T07:23:04.794Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-exchange-rates#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrinvincible29/exchange-rates/SKILL.md",
-        "retrieved_at": "2026-03-08T07:14:09.034Z",
+        "retrieved_at": "2026-03-09T07:23:04.794Z",
         "content_sha256": "ebdce76f0a594e58a6178690386b007df33840f5ccc7d8cd1ac14ca0fecbd815"
       }
     }

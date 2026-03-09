@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/cloudflare/vinext/migrate-to-vinext
 github_stars: 4002
 github_forks: 99
 github_is_organization: true
-retrieved_at: 2026-03-08T07:12:27.101Z
+retrieved_at: 2026-03-09T07:22:11.039Z
 content_sha256: 2d68e559858551e71e91f62432d8d007dbcc267090244c54d89ef60d017ff86a
 ---

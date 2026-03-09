@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltter",
-  "generated_at": "2026-03-08T07:15:09.329Z",
+  "generated_at": "2026-03-09T07:23:37.876Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltter#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eijiac24/moltter/SKILL.md",
-        "retrieved_at": "2026-03-08T07:15:09.329Z",
+        "retrieved_at": "2026-03-09T07:23:37.876Z",
         "content_sha256": "349fc2283d972403247eef125a56a2d396263f0b345a9c444f896ffa24058357"
       }
     }

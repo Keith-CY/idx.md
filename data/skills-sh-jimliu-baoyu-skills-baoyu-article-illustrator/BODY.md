@@ -12,6 +12,7 @@ Simplified style tier for quick selection:
 | `hand-drawn` | sketch/warm | Relaxed, reflective, casual content |
 | `editorial` | editorial | Processes, data, journalism |
 | `scene` | warm/watercolor | Narratives, emotional, lifestyle |
+| `poster` | screen-print | Opinion, editorial, cultural, cinematic |
 
 Use Core Styles for most cases. See full Style Gallery below for granular control.
 
@@ -40,6 +41,7 @@ Use Core Styles for most cases. See full Style Gallery below for granular contro
 | `playful` | Whimsical pastel doodles | Fun, casual, educational |
 | `retro` | 80s/90s neon geometric | 80s/90s nostalgic, bold |
 | `sketch` | Raw pencil notebook style | Brainstorming, creative exploration |
+| `screen-print` | Bold poster art, halftone textures, limited colors | Opinion, editorial, cultural, cinematic |
 | `sketch-notes` | Soft hand-drawn warm notes | Educational, warm notes |
 | `vintage` | Aged parchment historical | Historical, heritage |
 
@@ -47,14 +49,14 @@ Full specifications: `references/styles/<style>.md`
 
 ## Type × Style Compatibility Matrix
 
-| | vector-illustration | notion | warm | minimal | blueprint | watercolor | elegant | editorial | scientific |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| infographic | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓✓ |
-| scene | ✓ | ✓ | ✓✓ | ✓ | ✗ | ✓✓ | ✓ | ✓ | ✗ |
-| flowchart | ✓✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✗ | ✓ | ✓✓ | ✓ |
-| comparison | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓ |
-| framework | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✗ | ✓✓ | ✓ | ✓✓ |
-| timeline | ✓ | ✓✓ | ✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ |
+| | vector-illustration | notion | warm | minimal | blueprint | watercolor | elegant | editorial | scientific | screen-print |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| infographic | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ |
+| scene | ✓ | ✓ | ✓✓ | ✓ | ✗ | ✓✓ | ✓ | ✓ | ✗ | ✓✓ |
+| flowchart | ✓✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✗ | ✓ | ✓✓ | ✓ | ✗ |
+| comparison | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓ |
+| framework | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✓ |
+| timeline | ✓ | ✓✓ | ✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓ |
 
 ✓✓ = highly recommended | ✓ = compatible | ✗ = not recommended
 
@@ -83,6 +85,7 @@ Full specifications: `references/styles/<style>.md`
 | History, timeline, progress, evolution | timeline | elegant, warm |
 | Productivity, SaaS, tool, app, software | infographic | notion, vector-illustration |
 | Business, professional, strategy, corporate | framework | elegant |
+| Opinion, editorial, culture, philosophy, cinematic, dramatic, poster | scene | screen-print |
 | Biology, chemistry, medical, scientific | infographic | scientific |
 | Explainer, journalism, magazine, investigation | infographic | editorial |
 
@@ -172,3 +175,22 @@ Full specifications: `references/styles/<style>.md`
 - Organic flow
 - Personal journey feel
 - Growth narratives
+
+### scene + screen-print
+- Bold silhouettes, symbolic compositions
+- 2-5 flat colors with halftone textures
+- Figure-ground inversion (negative space tells secondary story)
+- Vintage poster aesthetic, conceptual not literal
+- Great for opinion pieces and cultural commentary
+
+### comparison + screen-print
+- Split duotone composition (one color per side)
+- Bold geometric dividers
+- Symbolic icons over detailed rendering
+- High contrast, immediate visual impact
+
+### framework + screen-print
+- Geometric node representations with stencil-cut edges
+- Limited color coding (one color per concept level)
+- Clean silhouette-based iconography
+- Poster-style hierarchy with bold typography

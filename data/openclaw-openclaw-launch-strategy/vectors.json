@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-launch-strategy",
-  "generated_at": "2026-03-08T07:14:51.202Z",
+  "generated_at": "2026-03-09T07:23:28.203Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-launch-strategy#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/launch-strategy/SKILL.md",
-        "retrieved_at": "2026-03-08T07:14:51.202Z",
+        "retrieved_at": "2026-03-09T07:23:28.203Z",
         "content_sha256": "f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d"
       }
     }

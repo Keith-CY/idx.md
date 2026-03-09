@@ -33,6 +33,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-cr
 github_stars: 10080
 github_forks: 566
 github_is_organization: true
-retrieved_at: 2026-03-08T07:11:33.928Z
+retrieved_at: 2026-03-09T07:21:46.178Z
 content_sha256: a17383bfb1448637ac1f757ad891ddb9676fa30b0eff620200f0e1cbc0cc0d50
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-commerce-engine",
-  "generated_at": "2026-03-08T07:12:59.155Z",
+  "generated_at": "2026-03-09T07:22:26.611Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-commerce-engine#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nowloady/agent-commerce-engine/SKILL.md",
-        "retrieved_at": "2026-03-08T07:12:59.155Z",
+        "retrieved_at": "2026-03-09T07:22:26.611Z",
         "content_sha256": "de4186d36f59b7e0ba71151369e5351edc149bdd04009b94f853f9eff383927f"
       }
     }

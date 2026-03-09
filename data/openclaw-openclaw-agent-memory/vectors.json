@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-memory",
-  "generated_at": "2026-03-08T07:13:00.032Z",
+  "generated_at": "2026-03-09T07:22:27.182Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-memory#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dennis-da-menace/agent-memory/SKILL.md",
-        "retrieved_at": "2026-03-08T07:13:00.032Z",
+        "retrieved_at": "2026-03-09T07:22:27.182Z",
         "content_sha256": "7de6c27f611b9abf3928eaeeda14b850fcc852831db9e0087516e5612bd5aa72"
       }
     }

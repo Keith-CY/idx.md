@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-x-kindle",
-  "generated_at": "2026-03-08T07:16:57.443Z",
+  "generated_at": "2026-03-09T07:24:36.388Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-x-kindle#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brianlu365ai/x-kindle/SKILL.md",
-        "retrieved_at": "2026-03-08T07:16:57.443Z",
+        "retrieved_at": "2026-03-09T07:24:36.388Z",
         "content_sha256": "1369d98422498c581af1572e69379af2755bce1a946fa44acd0ae8f2c5cc6ad7"
       }
     }

@@ -21,6 +21,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/appinsights-i
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-08T07:12:29.475Z
+retrieved_at: 2026-03-09T07:22:12.211Z
 content_sha256: 8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732
 ---

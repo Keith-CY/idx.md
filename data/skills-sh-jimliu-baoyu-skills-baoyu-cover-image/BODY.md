@@ -24,6 +24,11 @@
 | `warm` | `warm` | `hand-drawn` |
 | `warm-flat` | `warm` | `flat-vector` |
 | `watercolor` | `earth` | `painterly` |
+| `poster-art` | `retro` | `screen-print` |
+| `mondo` | `mono` | `screen-print` |
+| `art-deco` | `elegant` | `screen-print` |
+| `propaganda` | `vivid` | `screen-print` |
+| `cinematic` | `duotone` | `screen-print` |
 
 ## Override Examples
 

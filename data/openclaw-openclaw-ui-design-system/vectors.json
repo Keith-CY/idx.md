@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ui-design-system",
-  "generated_at": "2026-03-08T07:16:39.380Z",
+  "generated_at": "2026-03-09T07:24:26.441Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ui-design-system#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/ui-design-system/SKILL.md",
-        "retrieved_at": "2026-03-08T07:16:39.380Z",
+        "retrieved_at": "2026-03-09T07:24:26.441Z",
         "content_sha256": "0ce37ac6b0f87dbb312f125355e7e9e93273a24cd94dfab8d26194175937a7db"
       }
     }
