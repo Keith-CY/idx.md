@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cloudflare-skills-agents-sdk-6c89c221",
-  "generated_at": "2026-03-09T07:21:50.466Z",
+  "generated_at": "2026-03-09T22:23:03.333Z",
   "records": [
     {
       "id": "skills/skills-sh-cloudflare-skills-agents-sdk-6c89c221#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/cloudflare/skills/main/skills/agents-sdk/references/workflows.md",
-        "retrieved_at": "2026-03-09T07:21:50.466Z",
+        "retrieved_at": "2026-03-09T22:23:03.333Z",
         "content_sha256": "67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794"
       }
     }

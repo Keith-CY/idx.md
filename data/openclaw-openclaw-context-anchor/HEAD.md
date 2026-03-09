@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-context-anchor
 type: skills
 title: context-anchor
-summary: Recover from context compaction by scanning memory files and surfacing
-  where you left.
+summary: Recover from context compaction by scanning memory files.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/boscoeuk/context-anchor/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:54.032Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:01.157Z
 content_sha256: 14454f0336f45a6f6ae9da5c4bb31618ea3d2c209594d3635df3f88249ca5a99
 ---

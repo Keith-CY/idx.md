@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brand-guidelines",
-  "generated_at": "2026-03-09T07:22:40.210Z",
+  "generated_at": "2026-03-09T22:27:43.512Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brand-guidelines#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-brand-guidelines/HEAD.md",
-      "text": "title: brand-guidelines\nsummary: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/brand-guidelines/SKILL.md",
+      "text": "title: brand-guidelines\nsummary: Applies Anthropic's official brand colors and typography.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/brand-guidelines/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-brand-guidelines",
         "topic": "openclaw-openclaw-brand-guidelines",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/brand-guidelines/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:40.210Z",
+        "retrieved_at": "2026-03-09T22:27:43.512Z",
         "content_sha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
       }
     }

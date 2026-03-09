@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-calendar",
-  "generated_at": "2026-03-09T07:23:14.533Z",
+  "generated_at": "2026-03-09T22:28:18.119Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-calendar#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-google-calendar/HEAD.md",
-      "text": "title: google-calendar\nsummary: Interact with Google Calendar via the Google Calendar API – list upcoming events, create new events, update or delete.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adrianmiller99/google-calendar/SKILL.md",
+      "text": "title: google-calendar\nsummary: Interact with Google Calendar via the Google Calendar.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adrianmiller99/google-calendar/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-google-calendar",
         "topic": "openclaw-openclaw-google-calendar",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adrianmiller99/google-calendar/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:14.533Z",
+        "retrieved_at": "2026-03-09T22:28:18.119Z",
         "content_sha256": "6cb85da1f07ce766532d8d3b8b583e1b9f724c6684f08d3b8cd766ea01326bfa"
       }
     }

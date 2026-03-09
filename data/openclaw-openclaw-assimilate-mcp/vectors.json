@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-assimilate-mcp",
+  "generated_at": "2026-03-09T22:27:31.352Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-assimilate-mcp#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-assimilate-mcp/HEAD.md",
+      "text": "title: assimilate-mcp\nsummary: Control Assimilate Live FX / SCRATCH — professional color grading, compositing, and virtual production software.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ergopooka/assimilate-mcp/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-assimilate-mcp",
+        "topic": "openclaw-openclaw-assimilate-mcp",
+        "type": "skills",
+        "title": "assimilate-mcp",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-clawdbot-tools"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ergopooka/assimilate-mcp/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:31.352Z",
+        "content_sha256": "0c4c851343a97195025ff5a605d62cdc4787933ecbd63c80c5ac13053201bd56"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-kradleverse-cleanup",
+  "generated_at": "2026-03-09T22:28:22.031Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-kradleverse-cleanup#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-kradleverse-cleanup/HEAD.md",
+      "text": "title: kradleverse-cleanup\nsummary: Remove all stored Kradleverse sessions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/themrzz/kradleverse-cleanup/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-kradleverse-cleanup",
+        "topic": "openclaw-openclaw-kradleverse-cleanup",
+        "type": "skills",
+        "title": "kradleverse-cleanup",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/themrzz/kradleverse-cleanup/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:22.031Z",
+        "content_sha256": "d941d61aa90d0a806484b92219101058eb1f660ca344394fa2f8e6808df5fdc7"
+      }
+    }
+  ]
+}

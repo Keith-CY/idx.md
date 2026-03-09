@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-efka-api-integration",
+  "generated_at": "2026-03-09T22:28:10.747Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-efka-api-integration#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-efka-api-integration/HEAD.md",
+      "text": "title: efka-api-integration\nsummary: Greek social security (EFKA) integration — employee records, contribution calculations, APD declarations.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/efka-api-integration/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-efka-api-integration",
+        "topic": "openclaw-openclaw-efka-api-integration",
+        "type": "skills",
+        "title": "efka-api-integration",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/efka-api-integration/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:10.747Z",
+        "content_sha256": "4f18679984d419bf5d3aee6779309728de958dfcc7a26d256a093538001ce1df"
+      }
+    }
+  ]
+}

@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-pagerkit
 type: skills
 title: PagerKit
-summary: Expert guidance on PagerKit, a SwiftUI library for advanced,
-  customizable page-based navigation.
+summary: Expert guidance on PagerKit, a SwiftUI library for advanced.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/szpakkamil/pagerkit/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:49.119Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:29.721Z
 content_sha256: 6ff30372c7098afe90ac26981f4a6aa27eba2d3cb4e20a8c24abd5b6a52099c0
 ---

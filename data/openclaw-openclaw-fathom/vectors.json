@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fathom",
-  "generated_at": "2026-03-09T07:23:06.206Z",
+  "generated_at": "2026-03-09T22:28:14.575Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fathom#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-fathom/HEAD.md",
-      "text": "title: fathom\nsummary: Connect to Fathom AI to fetch call recordings, transcripts.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/fathom/SKILL.md",
+      "text": "title: fathom\nsummary: Connect to Fathom AI to fetch call recordings, transcripts, and summaries.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/fathom/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-fathom",
         "topic": "openclaw-openclaw-fathom",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/fathom/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:06.206Z",
+        "retrieved_at": "2026-03-09T22:28:14.575Z",
         "content_sha256": "881fb6fddf97920467d71ebe55a45554567bca29069f5827396420ee0ea03690"
       }
     }

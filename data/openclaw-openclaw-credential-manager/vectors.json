@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-credential-manager",
+  "generated_at": "2026-03-09T22:28:02.448Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-credential-manager#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-credential-manager/HEAD.md",
+      "text": "title: credential-manager\nsummary: MANDATORY security foundation for OpenClaw.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/callmedas69/credential-manager/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-credential-manager",
+        "topic": "openclaw-openclaw-credential-manager",
+        "type": "skills",
+        "title": "credential-manager",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/callmedas69/credential-manager/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:02.448Z",
+        "content_sha256": "bfbee7fed897c850244e2175281d22c6d47d7713284532e608af0688b0cc5aff"
+      }
+    }
+  ]
+}

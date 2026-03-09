@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-doubao-api-open-tts
 type: skills
 title: doubao-api-open-tts
-summary: Text-to-Speech service using Doubao (Volcano Engine) API with 200+
-  voices, interactive voice selection.
+summary: Text-to-Speech service using Doubao (Volcano Engine)
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xdrshjr/doubao-api-open-tts/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:01.008Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:09.258Z
 content_sha256: 38887c687326dac08ad29d201edb2658c4fd971447aa0d3758a7510ac0893165
 ---

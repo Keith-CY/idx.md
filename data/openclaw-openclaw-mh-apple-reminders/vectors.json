@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mh-apple-reminders",
+  "generated_at": "2026-03-09T22:28:24.610Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mh-apple-reminders#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mh-apple-reminders/HEAD.md",
+      "text": "title: mh-apple-reminders\nsummary: Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mohdalhashemi98-hue/mh-apple-reminders/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mh-apple-reminders",
+        "topic": "openclaw-openclaw-mh-apple-reminders",
+        "type": "skills",
+        "title": "mh-apple-reminders",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mohdalhashemi98-hue/mh-apple-reminders/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:24.610Z",
+        "content_sha256": "75f6b4bbe4eb91ab563f597a5b83442fec1969d6fb4ddae069b5bac74fe2b0b8"
+      }
+    }
+  ]
+}

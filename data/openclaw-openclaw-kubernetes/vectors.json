@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kubernetes",
-  "generated_at": "2026-03-09T07:23:27.628Z",
+  "generated_at": "2026-03-09T22:24:36.748Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kubernetes#head",
@@ -19,8 +19,8 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kcns008/kubernetes/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:27.628Z",
-        "content_sha256": "abe866082230d81519757b9b25d12eb407c1b368c2f4e7760a93fd7c9683765c"
+        "retrieved_at": "2026-03-09T22:24:36.748Z",
+        "content_sha256": "56daddfb8a68bbde2ee8f79b5053b4b35db9199f7ec448ef41e5911cd8dc5747"
       }
     }
   ]

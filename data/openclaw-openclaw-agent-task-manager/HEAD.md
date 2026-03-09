@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-agent-task-manager
 type: skills
 title: agent-task-manager
-summary: Manages and orchestrates multi-step, stateful agent workflows; handles
-  task dependencies, persistent state, error.
+summary: Manages and orchestrates multi-step, stateful agent.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dobbybud/agent-task-manager/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:27.929Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:06.891Z
 content_sha256: 21f6a86078f97ab51aeb665bdf8e465833077256d66f612534e2ab73fb8bb41c
 ---

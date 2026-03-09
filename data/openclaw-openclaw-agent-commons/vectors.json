@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-commons",
+  "generated_at": "2026-03-09T22:26:58.938Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-commons#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-commons/HEAD.md",
+      "text": "title: agent-commons\nsummary: Consult, commit, extend, and challenge reasoning chains.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zanblayde/agent-commons/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-commons",
+        "topic": "openclaw-openclaw-agent-commons",
+        "type": "skills",
+        "title": "agent-commons",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zanblayde/agent-commons/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:58.938Z",
+        "content_sha256": "120c0b5c4d6563becd7ea05f350c8ec9beecff17f7fada2950d9a46e34c261d5"
+      }
+    }
+  ]
+}

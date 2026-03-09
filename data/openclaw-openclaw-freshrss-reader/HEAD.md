@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-freshrss-reader
 type: skills
 title: freshrss-reader
-summary: Query headlines and articles from a self-hosted FreshRSS instance.
+summary: Query headlines and articles from a self-hosted FreshRSS.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/freshrss-reader/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:09.578Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:16.217Z
 content_sha256: b0ccb0ab035331ed6837a2d9ced2af5c7acc87bc5da5876e02e04877dcf60608
 ---

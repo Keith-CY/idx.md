@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-arena",
+  "generated_at": "2026-03-09T22:27:29.884Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-arena#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-arena/HEAD.md",
+      "text": "title: arena\nsummary: OpenClaw Arena — live AI app-building competitions with on-chain rewards.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-gaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sscottdev/arena/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-arena",
+        "topic": "openclaw-openclaw-arena",
+        "type": "skills",
+        "title": "arena",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-gaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sscottdev/arena/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:29.884Z",
+        "content_sha256": "8a889d3d8c3a44b39b205cba9f36ce627790f6ff239dd226accae3595662709d"
+      }
+    }
+  ]
+}

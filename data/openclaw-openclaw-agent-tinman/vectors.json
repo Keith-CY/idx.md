@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-tinman",
-  "generated_at": "2026-03-09T07:22:28.009Z",
+  "generated_at": "2026-03-09T22:27:07.491Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-tinman#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-agent-tinman/HEAD.md",
-      "text": "title: agent-tinman\nsummary: AI security scanner with active prevention - 168 detection patterns, 288 attack probes, safer/risky/yolo modes, agent.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oliveskin/agent-tinman/SKILL.md",
+      "text": "title: agent-tinman\nsummary: AI security scanner with active prevention - 168 detection.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oliveskin/agent-tinman/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-agent-tinman",
         "topic": "openclaw-openclaw-agent-tinman",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/oliveskin/agent-tinman/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:28.009Z",
+        "retrieved_at": "2026-03-09T22:27:07.491Z",
         "content_sha256": "92b29508d8d70092e510592335b79105a6eab28e13439c6f77ca0f94f6cfd236"
       }
     }

@@ -125,15 +125,15 @@ ops:
   incident-response: {name: Oncall}  "When this breaks at 3am, what do we need? What's our runbook?"
 
 code-review:
-  error-paths:      {name: Pathfinder}  "Trace every error handling path. What's uncaught? What fails silently?"
-  api-surface:      {name: Surface}     "Review every public interface. Is the contract clear? Breaking changes?"
-  spec-compliance:  {name: Spec}        "Compare implementation against the spec/bead. What's missing? What diverges?"
+  error-paths:      {name: Pathfinder}  "Trace every error handling path. What's uncaught? What fails silently? For classifiers: generate 5 realistic false-positive inputs per pattern. For enums parsed from wire: check allowlist validation. For struct fields: verify every code path (including synthesized/summary instances) populates all fields."
+  api-surface:      {name: Surface}     "Review every public interface. Is the contract clear? Breaking changes? For structs with new fields: grep all literal constructors, verify completeness. For sorted data with index fields: verify index refers to original position, not post-sort. For default/fallback cases: verify semantic distinction (execution_error vs unknown)."
+  spec-compliance:  {name: Spec}        "Compare implementation against the spec/bead. What's missing? What diverges? Check test quality: assertions must use exact expected values (== Y), never negations (!= X). Negation assertions silently pass when results drift to a third wrong value."
   # Note: spec-compliance gracefully degrades to general correctness review when no spec
   # is present in context.spec. The judge reviews code on its own merits.
 
 plan-review:
   missing-requirements: {name: Gaps}         "What's not in the spec that should be? What questions haven't been asked?"
-  feasibility:          {name: Reality}       "What's technically hard or impossible here? What will take 3x longer than estimated?"
+  feasibility:          {name: Reality}       "What's technically hard or impossible here? What will take 3x longer than estimated? For classification/pattern-matching work: does the plan specify false-positive testing strategy and taxonomy completeness criteria? For struct changes: does the plan account for all construction sites and synthesized instances?"
   scope:                {name: Scope}         "What's unnecessary? What's missing? Where will scope creep?"
   spec-completeness:    {name: Completeness}  "Are boundaries defined (Always/Ask First/Never)? Do conformance checks cover all acceptance criteria? Can every acceptance criterion be mechanically verified? Are schema enum values and field names domain-neutral (meaningful in ANY codebase, not just this repo)? Also enforce lifecycle contract completeness: canonical mutation+ack sequence, crash-safe consume protocol with atomic boundary + restart recovery, field-level precedence truth table with anomaly codes, and boundary failpoint conformance tests. Missing/contradictory checklist items are WARN minimum; critical non-mechanically-verifiable invariants are FAIL."
 

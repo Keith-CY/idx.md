@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-anxiety-relief
 type: skills
 title: anxiety-relief
-summary: Manage anxiety with grounding exercises, breathing techniques, and
-  thought reframing
+summary: Manage anxiety with grounding exercises, breathing techniques.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/anxiety-relief/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:31.619Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:24.413Z
 content_sha256: 163e985645b4c288c02dd9f733745e8f9b7df4bb50989f7ea82b9ff72155edc3
 ---

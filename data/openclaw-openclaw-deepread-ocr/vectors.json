@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-deepread-ocr",
-  "generated_at": "2026-03-09T07:22:58.377Z",
+  "generated_at": "2026-03-09T22:24:03.460Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-deepread-ocr#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/uday390/deepread-ocr/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:58.377Z",
+        "retrieved_at": "2026-03-09T22:24:03.460Z",
         "content_sha256": "d3bd3798501c582a746400400905deb3e2893faa319e4d1f9b508c685771796c"
       }
     }

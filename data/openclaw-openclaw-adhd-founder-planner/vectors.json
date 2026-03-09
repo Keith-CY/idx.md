@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adhd-founder-planner",
+  "generated_at": "2026-03-09T22:26:51.424Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adhd-founder-planner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adhd-founder-planner/HEAD.md",
+      "text": "title: adhd-founder-planner\nsummary: This skill should be used when the user asks to 'plan my day', 'help me plan today', 'morning planning', 'what.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-founder-planner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adhd-founder-planner",
+        "topic": "openclaw-openclaw-adhd-founder-planner",
+        "type": "skills",
+        "title": "adhd-founder-planner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-founder-planner/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:51.424Z",
+        "content_sha256": "626535665e4afe19b9f5a9540fdfae716b6347178bb90a938e48c2d8807f5303"
+      }
+    }
+  ]
+}

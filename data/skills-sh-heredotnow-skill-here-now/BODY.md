@@ -109,8 +109,8 @@ Creates a new artifact with a random slug. Works with or without authentication.
 ```json
 {
   "files": [
-    { "path": "index.html", "size": 1234, "contentType": "text/html; charset=utf-8" },
-    { "path": "assets/app.js", "size": 999, "contentType": "text/javascript; charset=utf-8" }
+    { "path": "index.html", "size": 1234, "contentType": "text/html; charset=utf-8", "hash": "a1b2c3d4..." },
+    { "path": "assets/app.js", "size": 999, "contentType": "text/javascript; charset=utf-8", "hash": "e5f6a7b8..." }
   ],
   "ttlSeconds": null,
   "viewer": {
@@ -121,7 +121,8 @@ Creates a new artifact with a random slug. Works with or without authentication.
 }
 ```
 
-- `files` (required): array of `{ path, size, contentType }`. At least one file. Paths should be relative to the artifact root (e.g. `index.html`, `assets/style.css`) — don't include a parent directory name like `my-project/index.html`.
+- `files` (required): array of `{ path, size, contentType, hash }`. At least one file. Paths should be relative to the artifact root (e.g. `index.html`, `assets/style.css`) — don't include a parent directory name like `my-project/index.html`.
+- `hash` (optional): SHA-256 hex digest (64 lowercase chars) of the file contents. When updating an existing artifact, files whose hash matches the previous version are skipped from `upload.uploads[]` and listed in `upload.skipped[]` instead. The server copies them automatically at finalize. Omitting `hash` gives the default behavior (all files require upload).
 - `ttlSeconds` (optional): expiry in seconds. Ignored for anonymous artifacts (always 24h).
 - `viewer` (optional): metadata for auto-viewer pages (only used when no `index.html`).
 
@@ -145,6 +146,7 @@ Creates a new artifact with a random slug. Works with or without authentication.
         "headers": { "Content-Type": "text/html; charset=utf-8" }
       }
     ],
+    "skipped": ["assets/app.js"],
     "finalizeUrl": "https://here.now/api/v1/artifact/bright-canvas-a7k2/finalize",
     "expiresInSeconds": 3600
   }
@@ -154,6 +156,7 @@ Creates a new artifact with a random slug. Works with or without authentication.
 **This step only creates a pending artifact. It is not complete yet.**
 
 - You **must upload every file** in `upload.uploads[]`.
+- Files in `upload.skipped[]` are unchanged from the previous version and will be copied server-side at finalize. Do not upload them.
 - Then you **must finalize** with `POST upload.finalizeUrl` and body `{ "versionId": "..." }`.
 - For brand-new slugs, `siteUrl` may return 404 until finalize succeeds.
 - For updates to an existing slug, the previous version can stay live until finalize switches to the new version.
@@ -226,6 +229,8 @@ Makes the artifact live by flipping the slug pointer to the new version.
 
 Same request body as create. Returns new presigned upload URLs and a new `finalizeUrl`.
 The update response also includes `status: "pending"` and `isLive: false` to indicate the new version is not live until finalize.
+
+**Incremental deploys:** Include `hash` (SHA-256 hex) on each file. Files whose hash matches the previous version appear in `upload.skipped[]` instead of `upload.uploads[]` — no upload needed. The server copies them at finalize. This is the recommended approach for iterative development.
 
 **Auth for owned artifacts:** requires `Authorization: Bearer <API_KEY>` matching the owner.
 
@@ -349,6 +354,37 @@ Returns all artifacts owned by the authenticated user.
   ]
 }
 ```
+
+---
+
+### Get artifact details
+
+`GET /api/v1/artifact/:slug` (alias: `GET /api/v1/publish/:slug`)
+
+Returns metadata and the full file manifest for an artifact you own.
+
+**Requires:** `Authorization: Bearer <API_KEY>` (owner only)
+
+**Response:**
+
+```json
+{
+  "slug": "bright-canvas-a7k2",
+  "siteUrl": "https://bright-canvas-a7k2.here.now/",
+  "status": "active",
+  "createdAt": "2026-02-18T...",
+  "updatedAt": "2026-02-18T...",
+  "expiresAt": null,
+  "currentVersionId": "01J...",
+  "pendingVersionId": null,
+  "manifest": [
+    { "path": "index.html", "size": 1234, "contentType": "text/html; charset=utf-8", "hash": "a1b2c3d4..." },
+    { "path": "assets/app.js", "size": 999, "contentType": "text/javascript; charset=utf-8", "hash": "e5f6a7b8..." }
+  ]
+}
+```
+
+The `manifest` array lists all files in the current live version with their paths, sizes, content types, and hashes (if available). File contents can be fetched from the live `siteUrl` (e.g. `https://bright-canvas-a7k2.here.now/index.html`).
 
 ---
 

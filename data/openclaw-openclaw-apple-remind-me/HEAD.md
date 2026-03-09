@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-apple-remind-me
 type: skills
 title: apple-remind-me
-summary: Natural language reminders via Apple Reminders.app.
+summary: Natural language reminders that create actual Apple.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/plgonzalezrx8/apple-remind-me/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:33.210Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:27.687Z
 content_sha256: 3b6c9d059e068afc4fe0fd546dadfd97260b303f1fcec6bcb1a917646d2048a9
 ---

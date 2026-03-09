@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-argus-edge",
+  "generated_at": "2026-03-09T22:27:30.083Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-argus-edge#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-argus-edge/HEAD.md",
+      "text": "title: argus-edge\nsummary: Argus-style prediction market edge detection and betting strategy.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jamierossouw/argus-edge/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-argus-edge",
+        "topic": "openclaw-openclaw-argus-edge",
+        "type": "skills",
+        "title": "argus-edge",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jamierossouw/argus-edge/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:30.083Z",
+        "content_sha256": "ae5a0790180d759bfa952b0a7ed8bd14651656688424bb01e414999f85cba16c"
+      }
+    }
+  ]
+}

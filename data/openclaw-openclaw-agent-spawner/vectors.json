@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-spawner",
+  "generated_at": "2026-03-09T22:27:06.256Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-spawner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-spawner/HEAD.md",
+      "text": "title: agent-spawner\nsummary: Spawn a new OpenClaw agent through conversation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/austineral/agent-spawner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-spawner",
+        "topic": "openclaw-openclaw-agent-spawner",
+        "type": "skills",
+        "title": "agent-spawner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/austineral/agent-spawner/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:06.256Z",
+        "content_sha256": "a1f102f99107e2538770c31e3bada42a52b21eed9fa3cfbff854fa7ce34c2984"
+      }
+    }
+  ]
+}

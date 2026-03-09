@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-mattpocock-skills-tdd",
-  "generated_at": "2026-03-09T07:22:16.790Z",
+  "generated_at": "2026-03-09T22:26:27.984Z",
   "records": [
     {
       "id": "skills/skills-sh-mattpocock-skills-tdd#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/mattpocock/skills/HEAD/tdd/tests.md",
-        "retrieved_at": "2026-03-09T07:22:16.790Z",
+        "retrieved_at": "2026-03-09T22:26:27.984Z",
         "content_sha256": "e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a"
       }
     }

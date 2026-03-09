@@ -18,6 +18,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/gizmo-dev/qa-c
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:43.051Z
+retrieved_at: 2026-03-09T22:22:51.123Z
 content_sha256: e1bf8c367727e10f770b6f72579c39076d5dc37e8df11dbd2de88ab59ccbafd1
 ---

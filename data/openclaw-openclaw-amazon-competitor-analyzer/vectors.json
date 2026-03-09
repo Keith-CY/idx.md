@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-amazon-competitor-analyzer",
+  "generated_at": "2026-03-09T22:27:21.525Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-amazon-competitor-analyzer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-amazon-competitor-analyzer/HEAD.md",
+      "text": "title: amazon-competitor-analyzer\nsummary: Scrapes Amazon product data from ASINs.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/phheng/amazon-competitor-analyzer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-amazon-competitor-analyzer",
+        "topic": "openclaw-openclaw-amazon-competitor-analyzer",
+        "type": "skills",
+        "title": "amazon-competitor-analyzer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/phheng/amazon-competitor-analyzer/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:21.525Z",
+        "content_sha256": "daecda566786c6ba68a4ccdf17ce2cec8659d6944322d44ea46d58b12f97e543"
+      }
+    }
+  ]
+}

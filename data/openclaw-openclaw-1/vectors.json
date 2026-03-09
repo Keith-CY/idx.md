@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-1",
-  "generated_at": "2026-03-09T07:22:23.930Z",
+  "generated_at": "2026-03-09T22:26:38.836Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-1#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-1/HEAD.md",
-      "text": "title: 1\nsummary: Personal knowledge base powered by Ensue for capturing and retrieving understanding.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nastrology/1/SKILL.md",
+      "text": "title: 1\nsummary: Personal knowledge base powered by Ensue for capturing and retrieving.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nastrology/1/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-1",
         "topic": "openclaw-openclaw-1",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nastrology/1/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:23.930Z",
+        "retrieved_at": "2026-03-09T22:26:38.836Z",
         "content_sha256": "ed52008bab2fa80d01b6ae22f1db3f9d4ee19d53833e6bec52056c574cdf4620"
       }
     }

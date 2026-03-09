@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-device-assistant
 type: skills
 title: device-assistant
-summary: Personal device and appliance manager with error code lookup and
-  troubleshooting.
+summary: Personal device and appliance manager with error code.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/device-assistant/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.138Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:07.648Z
 content_sha256: 08a4168fe6f6decda57797f948996a463283684d1e44e90bdf4024e509698056
 ---

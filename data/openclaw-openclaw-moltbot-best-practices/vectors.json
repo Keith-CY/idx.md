@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-moltbot-best-practices",
+  "generated_at": "2026-03-09T22:28:27.007Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-moltbot-best-practices#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-moltbot-best-practices/HEAD.md",
+      "text": "title: moltbot-best-practices\nsummary: Best practices for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/moltbot-best-practices/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-moltbot-best-practices",
+        "topic": "openclaw-openclaw-moltbot-best-practices",
+        "type": "skills",
+        "title": "moltbot-best-practices",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/moltbot-best-practices/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:27.007Z",
+        "content_sha256": "584f40fbf5c2d766429f19037927409b28084aa9352149462fcf96462af9b2dc"
+      }
+    }
+  ]
+}

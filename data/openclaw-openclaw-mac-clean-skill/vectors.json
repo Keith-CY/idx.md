@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-mac-clean-skill",
+  "generated_at": "2026-03-09T22:28:23.040Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-mac-clean-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-mac-clean-skill/HEAD.md",
+      "text": "title: mac-clean-skill\nsummary: Cleans up system caches, trash, and old downloads on macOS.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ios-macos-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/mac-clean-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-mac-clean-skill",
+        "topic": "openclaw-openclaw-mac-clean-skill",
+        "type": "skills",
+        "title": "mac-clean-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ios-macos-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/mac-clean-skill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:23.040Z",
+        "content_sha256": "878d7aefe75e4044914a2037cec6e30cbe10531c99cf9c037596d1e0707c2e6b"
+      }
+    }
+  ]
+}

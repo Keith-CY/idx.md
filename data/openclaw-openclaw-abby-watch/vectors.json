@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-abby-watch",
+  "generated_at": "2026-03-09T22:26:45.166Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-abby-watch#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-abby-watch/HEAD.md",
+      "text": "title: abby-watch\nsummary: Simple time display for Abby.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-gaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/earnabitmore365/abby-watch/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-abby-watch",
+        "topic": "openclaw-openclaw-abby-watch",
+        "type": "skills",
+        "title": "abby-watch",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-gaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/earnabitmore365/abby-watch/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:45.166Z",
+        "content_sha256": "9850a90b5f4e2c5a5ab5bfc2e0ba26275909331d1a569e7b919ae226d7915e6e"
+      }
+    }
+  ]
+}

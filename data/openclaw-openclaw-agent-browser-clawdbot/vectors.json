@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-browser-clawdbot",
-  "generated_at": "2026-03-09T07:22:26.293Z",
+  "generated_at": "2026-03-09T22:26:57.495Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-browser-clawdbot#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-agent-browser-clawdbot/HEAD.md",
-      "text": "title: agent-browser\nsummary: Headless browser automation CLI optimized for AI agents with accessibility tree snapshots.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-browser-clawdbot/SKILL.md",
+      "text": "title: agent-browser\nsummary: Headless browser automation CLI optimized for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-browser-clawdbot/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-agent-browser-clawdbot",
         "topic": "openclaw-openclaw-agent-browser-clawdbot",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-browser-clawdbot/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:26.293Z",
+        "retrieved_at": "2026-03-09T22:26:57.495Z",
         "content_sha256": "9643b9c65476eedd5ab353956c31a4d4ce9ad225f9a786d23376a43893f59979"
       }
     }

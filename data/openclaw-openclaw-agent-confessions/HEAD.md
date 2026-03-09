@@ -1,0 +1,18 @@
+---
+stable_id: skills/openclaw-openclaw-agent-confessions
+type: skills
+title: agent-confessions
+summary: Anonymous confessions from AI siblings.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-gaming
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ultimatebos/agent-confessions/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:59.062Z
+content_sha256: 19775bad8079873cd763623362ab6679ab2d4f71d0c01110dcb837ba07fc9fc5
+---

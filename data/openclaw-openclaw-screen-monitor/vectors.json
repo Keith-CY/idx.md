@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-screen-monitor",
-  "generated_at": "2026-03-09T07:24:06.804Z",
+  "generated_at": "2026-03-09T22:25:28.076Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-screen-monitor#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/emasoudy/screen-monitor/SKILL.md",
-        "retrieved_at": "2026-03-09T07:24:06.804Z",
+        "retrieved_at": "2026-03-09T22:25:28.076Z",
         "content_sha256": "e3fa4ab468d28ab38b7c4ea560d012a41d773ed113b0c654c511c2f9af43bee4"
       }
     }

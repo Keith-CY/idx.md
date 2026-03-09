@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-macos-native-automation",
+  "generated_at": "2026-03-09T22:28:23.525Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-macos-native-automation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-macos-native-automation/HEAD.md",
+      "text": "title: macos-native-automation\nsummary: Hardware-level mouse, keyboard & dialog automation on macOS via CGEvent + AppleScript.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/theagentwire/macos-native-automation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-macos-native-automation",
+        "topic": "openclaw-openclaw-macos-native-automation",
+        "type": "skills",
+        "title": "macos-native-automation",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theagentwire/macos-native-automation/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:23.525Z",
+        "content_sha256": "8e4663852466da5f996773e1ea49c6e609ee2d6b6340413a7be606b91dc733ac"
+      }
+    }
+  ]
+}

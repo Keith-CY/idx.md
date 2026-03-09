@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-agentguard
 type: skills
 title: agentguard
-summary: "**Category:** Security & Monitoring"
+summary: "**Category:** Security & Monitoring."
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manas-io-ai/agentguard/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:28.505Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:10.611Z
 content_sha256: 76724e501a7ea5ad7e2b4507ee3f07a0992dd626020a53a3c3ed834c8b496ea3
 ---

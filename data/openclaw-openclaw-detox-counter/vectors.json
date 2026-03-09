@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-detox-counter",
-  "generated_at": "2026-03-09T07:22:58.982Z",
+  "generated_at": "2026-03-09T22:28:07.405Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-detox-counter#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-detox-counter/HEAD.md",
-      "text": "title: detox-counter\nsummary: Track any detox with customizable counters, symptom logging, and progress milestones\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/detox-counter/SKILL.md",
+      "text": "title: detox-counter\nsummary: Track any detox with customizable counters, symptom logging.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/detox-counter/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-detox-counter",
         "topic": "openclaw-openclaw-detox-counter",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/detox-counter/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:58.982Z",
+        "retrieved_at": "2026-03-09T22:28:07.405Z",
         "content_sha256": "98f20f7b5f32541bbf137f2192855396ca4d7935626961523280ce0aa684000c"
       }
     }

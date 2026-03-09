@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-aiml-llm-reasoning",
+  "generated_at": "2026-03-09T22:27:17.844Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-aiml-llm-reasoning#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-aiml-llm-reasoning/HEAD.md",
+      "text": "title: aiml-llm-reasoning\nsummary: Run AIMLAPI LLM and reasoning workflows through chat completions with retries, structured outputs, and explicit.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aimlapihello/aiml-llm-reasoning/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-aiml-llm-reasoning",
+        "topic": "openclaw-openclaw-aiml-llm-reasoning",
+        "type": "skills",
+        "title": "aiml-llm-reasoning",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aimlapihello/aiml-llm-reasoning/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:17.844Z",
+        "content_sha256": "3facea6a3dc50be722e8bf30168d9a3789ecb535c4cda187bf1f2e88b03e605a"
+      }
+    }
+  ]
+}

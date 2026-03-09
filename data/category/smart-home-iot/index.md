@@ -3,14 +3,13 @@
 | Category | Smart Home & IoT |
 | --- | --- |
 | Slug | smart-home-iot |
-| Count | 47 |
+| Count | 55 |
 
 ---
 stable_id: skills/openclaw-openclaw-anova-skill
 type: skills
 title: anova-oven
-summary: Control Anova Precision Ovens and Precision Cookers (sous vide) via
-  WiFi WebSocket API.
+summary: Control Anova Precision Ovens and Precision Cookers (sous vide)
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -18,10 +17,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dodeja/anova-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:31.020Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:23.888Z
 content_sha256: ff324581400911a293b537afedd5946151fe63abf52ce743d612dbce10c9e964
 ---
 |/data/openclaw-openclaw-anova-skill|
@@ -30,8 +29,7 @@ content_sha256: ff324581400911a293b537afedd5946151fe63abf52ce743d612dbce10c9e964
 stable_id: skills/openclaw-openclaw-anthropology
 type: skills
 title: anthropology
-summary: "summary: Comprehensive AI instructor skill covering cultural,
-  biological, archaeological."
+summary: A comprehensive AI skill for teaching.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -39,13 +37,34 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/networktheoryappliedresearchinstitute/anthropology/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:31.411Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:24.153Z
 content_sha256: 0185dfcaceee1495d68e92b8c0d229a1776ae1621df77d759dee8b90df3f2c37
 ---
 |/data/openclaw-openclaw-anthropology|
+
+---
+stable_id: skills/openclaw-openclaw-arccos-golf
+type: skills
+title: arccos-golf
+summary: Analyze Arccos Golf performance data including club distances, strokes
+  gained metrics, scoring patterns.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pfrederiksen/arccos-golf/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:29.773Z
+content_sha256: febe44fd60ef541c0caf1ae3980b31d9d2320684769827ec70257c3c245a7ddf
+---
+|/data/openclaw-openclaw-arccos-golf|
 
 ---
 stable_id: skills/openclaw-openclaw-bambu-cli
@@ -59,10 +78,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tobiasbischoff/bambu-cli/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.011Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:35.227Z
 content_sha256: b9bc9d176226b95a31010372ae3d9164b047b67dc4923fdf8cf0c3128b0c2f5d
 ---
 |/data/openclaw-openclaw-bambu-cli|
@@ -79,10 +98,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tanguyvans/bambu-local/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.094Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:35.318Z
 content_sha256: cc02fbb90003b5c2265a9118204e832fa3c11c184c039106910d544497149658
 ---
 |/data/openclaw-openclaw-bambu-local|
@@ -91,8 +110,7 @@ content_sha256: cc02fbb90003b5c2265a9118204e832fa3c11c184c039106910d544497149658
 stable_id: skills/openclaw-openclaw-beestat
 type: skills
 title: beestat
-summary: Query ecobee thermostat data via Beestat API including temperature,
-  humidity, air quality (CO2.
+summary: Query ecobee thermostat data via Beestat API including temperature.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -100,10 +118,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/beestat/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:38.059Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:37.368Z
 content_sha256: 5b977fcbcbde5f1432ff35a4f9abe05b88e9ba2b15c79369a688ba6eab0ad7f1
 ---
 |/data/openclaw-openclaw-beestat|
@@ -112,7 +130,7 @@ content_sha256: 5b977fcbcbde5f1432ff35a4f9abe05b88e9ba2b15c79369a688ba6eab0ad7f1
 stable_id: skills/openclaw-openclaw-bring-add
 type: skills
 title: bring-add
-summary: Use when user wants to add items to Bring! shopping lists.
+summary: Use when user wants to add items to Bring!
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -120,10 +138,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-add/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:40.789Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:45.304Z
 content_sha256: 6e45b857673834dd5ccb5ef303de3e2dc6e29af7d02e2c7fd3047ed37decf9ee
 ---
 |/data/openclaw-openclaw-bring-add|
@@ -143,7 +161,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:47.696Z
+retrieved_at: 2026-03-09T22:23:52.812Z
 content_sha256: e6cefa1e9cba28a591752a099be0e29727394edba34b3f9de65cd25fbdf1a140
 ---
 |/data/openclaw-openclaw-clawdbot-skill-homebridge|
@@ -152,8 +170,7 @@ content_sha256: e6cefa1e9cba28a591752a099be0e29727394edba34b3f9de65cd25fbdf1a140
 stable_id: skills/openclaw-openclaw-communication-coach
 type: skills
 title: communication-coach
-summary: Adaptive communication coaching that shapes speaking and writing
-  behavior through reinforcement, scoring, and micro-i.
+summary: Adaptive communication coaching that shapes.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -161,10 +178,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmoggach/communication-coach/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:52.706Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:00.553Z
 content_sha256: 6436b62fa55689ced84856c4ca712ebda8769fa49ebf893b4110c7910c3137f1
 ---
 |/data/openclaw-openclaw-communication-coach|
@@ -173,8 +190,7 @@ content_sha256: 6436b62fa55689ced84856c4ca712ebda8769fa49ebf893b4110c7910c3137f1
 stable_id: skills/openclaw-openclaw-context-engineering
 type: skills
 title: context-engineering
-summary: This skill should be used when the user asks to "compress context",
-  "summarize conversation history", "implement.
+summary: This skill should be used when the user asks.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -182,13 +198,33 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leoyessi10-tech/context-engineering/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:54.264Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:01.290Z
 content_sha256: 1699984e76312757c6b9744fb68d09d6729a5f1cdb2e0bb17dfa98433e194a0b
 ---
 |/data/openclaw-openclaw-context-engineering|
+
+---
+stable_id: skills/openclaw-openclaw-control-ikea-lightbulb
+type: skills
+title: control-ikea-lightbulb
+summary: Control IKEA/TP-Link Kasa smart bulbs.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/antgly/control-ikea-lightbulb/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:01.676Z
+content_sha256: 9724e42c1991d40488abe5e18fe3e6f40bd8e623dc91fdddd2ac2685dba57971
+---
+|/data/openclaw-openclaw-control-ikea-lightbulb|
 
 ---
 stable_id: skills/openclaw-openclaw-crabnet
@@ -202,13 +238,33 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/spclaudehome/crabnet/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:55.439Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:02.067Z
 content_sha256: 91c7e28e99d3c48960b12138d685d7fd0e6e94daec9d61a9afac8f60e8a7ed47
 ---
 |/data/openclaw-openclaw-crabnet|
+
+---
+stable_id: skills/openclaw-openclaw-dellight-cfo-financial-ops
+type: skills
+title: dellight-cfo-financial-ops
+summary: CFO reports to CEO (Arthur Dell), dotted line to CRO (Reign).
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cfo-financial-ops/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:06.942Z
+content_sha256: d7abc6ab6b27922846ccc59bb902f4957ad90fba87c8733870a886420dc2f1a4
+---
+|/data/openclaw-openclaw-dellight-cfo-financial-ops|
 
 ---
 stable_id: skills/openclaw-openclaw-devialet
@@ -222,20 +278,39 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jgm2025/devialet/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.058Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:07.525Z
 content_sha256: 5dfc7a8099875917b552089c198d9f91dfac0e22977e6511512c699e4aafe4d3
 ---
 |/data/openclaw-openclaw-devialet|
 
 ---
+stable_id: skills/openclaw-openclaw-dht11-temp
+type: skills
+title: dht11-temp
+summary: Read temperature and humidity from DHT11 sensor.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/noahseeger/dht11-temp/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:08.010Z
+content_sha256: fa1a688fd2df902aad1170463945920c392527692a73ef8dc33febace9721ca5
+---
+|/data/openclaw-openclaw-dht11-temp|
+
+---
 stable_id: skills/openclaw-openclaw-dirigera-control
 type: skills
 title: dirigera-control
-summary: Control IKEA Dirigera smart home devices (lights, outlets, scenes,
-  controllers).
+summary: Control IKEA Dirigera smart home devices.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -243,10 +318,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/falderebet/dirigera-control/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.726Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:08.251Z
 content_sha256: ba100e5d3f78c05baf15b3390ae0d1eff9b533edaf29eea9c9e5121ca7a58c15
 ---
 |/data/openclaw-openclaw-dirigera-control|
@@ -263,13 +338,53 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tmustier/dyson-cli/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:01.961Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:09.888Z
 content_sha256: b3f9cb8b85c030d097bd46ba9f42474a5b257610f6c0ae2b25e1cd705171823b
 ---
 |/data/openclaw-openclaw-dyson-cli|
+
+---
+stable_id: skills/openclaw-openclaw-echodecks
+type: skills
+title: echodecks
+summary: Integrates with EchoDecks for flashcard management, study sessions, and AI.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drgeld/echodecks/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:10.496Z
+content_sha256: e35887a8ffc768104302f04e8d594bfe0eb8aa08ecec8da86fb162f0e1c5f1e3
+---
+|/data/openclaw-openclaw-echodecks|
+
+---
+stable_id: skills/openclaw-openclaw-echodecks-ultimate
+type: skills
+title: echodecks-ultimate
+summary: AI-powered flashcard management with automated podcast.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drgeld/echodecks-ultimate/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:10.623Z
+content_sha256: 67da566c7a35799a5e1b63e9d1a0d62f341171f300e142bbd37d3013fa1e61df
+---
+|/data/openclaw-openclaw-echodecks-ultimate|
 
 ---
 stable_id: skills/openclaw-openclaw-eightctl
@@ -283,10 +398,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/eightctl/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.557Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:10.995Z
 content_sha256: 1b9f4a871415be4d9d2bffbe454604359291bf528b07f202d4c1925786054028
 ---
 |/data/openclaw-openclaw-eightctl|
@@ -303,13 +418,33 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/daniel-laszlo/enzoldhazam/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:03.771Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:12.504Z
 content_sha256: b397ebde9d70e0f1cfd0a692c204527e764ff5d3c46ba45b382d2118a789d9cf
 ---
 |/data/openclaw-openclaw-enzoldhazam|
+
+---
+stable_id: skills/openclaw-openclaw-farmos-weather
+type: skills
+title: farmos-weather
+summary: Query weather data and forecasts for farm fields via the Agronomy module.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brianppetty/farmos-weather/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:13.938Z
+content_sha256: 6cea5868f89e5b0359947aa071e76c761999d27b13a855b5b370bc390272305f
+---
+|/data/openclaw-openclaw-farmos-weather|
 
 ---
 stable_id: skills/openclaw-openclaw-fivem-dev
@@ -323,10 +458,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dktrn9ne/fivem-dev/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:08.316Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:15.602Z
 content_sha256: 8c7303ec012dfa1855349982d0b5516f7326c6c90bc9b11f212e5c853e319044
 ---
 |/data/openclaw-openclaw-fivem-dev|
@@ -343,19 +478,39 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/porygonthebot/frigate/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:09.658Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:16.361Z
 content_sha256: 85030baba736dd14b48929d69b714f0e51a683fc617a335751b5f80599df897b
 ---
 |/data/openclaw-openclaw-frigate|
 
 ---
+stable_id: skills/openclaw-openclaw-glitch-homeassistant
+type: skills
+title: glitch-homeassistant
+summary: Control smart home devices via Home Assistant API.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-smart-home-iot
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chris6970barbarian-hue/glitch-homeassistant/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:17.354Z
+content_sha256: 39486e9866c696ceb48f61e8c324d6b3288624cee674ea2068c90bfa4b898136
+---
+|/data/openclaw-openclaw-glitch-homeassistant|
+
+---
 stable_id: skills/openclaw-openclaw-google-home
 type: skills
 title: google-home
-summary: Control Google Nest devices (thermostats, cameras, doorbells)
+summary: Control Google Nest devices.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -363,10 +518,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mitchellbernstein/google-home/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:14.774Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:18.265Z
 content_sha256: 7d07d5a119bda2e5ca1d362f6a69eedefc7f0e6e5aa124dd25cf855d4e8072f8
 ---
 |/data/openclaw-openclaw-google-home|
@@ -383,10 +538,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/joeynyc/govee-lights/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:15.656Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:18.522Z
 content_sha256: 5919324f3cb58a9fc5cd7e8baf8052f85e09df0a31b4850d39badcea91dc7be7
 ---
 |/data/openclaw-openclaw-govee-lights|
@@ -395,8 +550,7 @@ content_sha256: 5919324f3cb58a9fc5cd7e8baf8052f85e09df0a31b4850d39badcea91dc7be7
 stable_id: skills/openclaw-openclaw-govpredict
 type: skills
 title: govpredict
-summary: Smarter Government Procurement - Streamline compliance, tendering, and
-  strategic alignment for UAE and Saudi Arabia.
+summary: Smarter Government Procurement - Streamline compliance, tendering.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -404,10 +558,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seyhunak/govpredict/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:15.744Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:18.637Z
 content_sha256: b06f97adb3625fe1bdbe2a6799148a675cd3cb26a1f564f297e0f122d6c80a73
 ---
 |/data/openclaw-openclaw-govpredict|
@@ -416,7 +570,7 @@ content_sha256: b06f97adb3625fe1bdbe2a6799148a675cd3cb26a1f564f297e0f122d6c80a73
 stable_id: skills/openclaw-openclaw-home-music
 type: skills
 title: home-music
-summary: Whole-house music scenes with Spotify + Airfoil speakers.
+summary: Control whole-house music scenes combining Spotify playback.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -424,10 +578,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asteinberger/home-music/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:18.549Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:19.730Z
 content_sha256: 217187023db6beda478dfaa23018261f186ec4230cf101fa72bb31fe99c624ee
 ---
 |/data/openclaw-openclaw-home-music|
@@ -447,7 +601,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:18.762Z
+retrieved_at: 2026-03-09T22:24:26.592Z
 content_sha256: ae18bb17de18e44e9f3f301eb445c2be69c9b5f5250d8be97d9800fc8b6b463e
 ---
 |/data/openclaw-openclaw-homey|
@@ -467,7 +621,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:18.838Z
+retrieved_at: 2026-03-09T22:24:26.707Z
 content_sha256: 29a86b070019fe8697a63133eb1aa97f11bea86b59b7c00e0341131706669ddb
 ---
 |/data/openclaw-openclaw-homey-cli|
@@ -487,7 +641,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:21.843Z
+retrieved_at: 2026-03-09T22:24:30.260Z
 content_sha256: a1290332b22c3eda78d0e10aa492ac164a71d49ea860007c8515f0732ccbb71e
 ---
 |/data/openclaw-openclaw-internet-lookup-verifier|
@@ -507,7 +661,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:28.579Z
+retrieved_at: 2026-03-09T22:24:37.997Z
 content_sha256: bb08c94fc1b9e1c0bcc1d25670ca412deb667bce676ba59b60c74f1f19e5209a
 ---
 |/data/openclaw-openclaw-lg-thinq|
@@ -527,7 +681,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:29.588Z
+retrieved_at: 2026-03-09T22:24:39.205Z
 content_sha256: 73eb485b3f3e35a39bc9e1fce3cc0ff86a38d9c2681adcb3657c115aa94a1815
 ---
 |/data/openclaw-openclaw-little-snitch|
@@ -547,7 +701,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:34.534Z
+retrieved_at: 2026-03-09T22:24:45.122Z
 content_sha256: 3f86554ff39ce08ac7841563159aebb3148504fd30ddce06613393f4b9183dd8
 ---
 |/data/openclaw-openclaw-mijia|
@@ -567,7 +721,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:40.350Z
+retrieved_at: 2026-03-09T22:24:51.825Z
 content_sha256: 6fccf9e0c1489a77f2b9a1d47fce7a15d48f5f2cdd55306af7ce947399868fea
 ---
 |/data/openclaw-openclaw-nanoleaf|
@@ -588,7 +742,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:40.841Z
+retrieved_at: 2026-03-09T22:24:52.442Z
 content_sha256: b88ee29b111bbc4fffd3866c6ac1c674675978b7f2083fe2d307535d6f3b2da2
 ---
 |/data/openclaw-openclaw-nest-devices|
@@ -608,7 +762,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:40.952Z
+retrieved_at: 2026-03-09T22:24:52.561Z
 content_sha256: 1fc2d081d9195de297941c3277b6e57e641fbb6b4558fdd1d092d684409ada83
 ---
 |/data/openclaw-openclaw-netatmo|
@@ -628,7 +782,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:47.362Z
+retrieved_at: 2026-03-09T22:25:02.585Z
 content_sha256: 1ef85a78007c604eaff827692b83f6c5d2a40ccac8929b5c387db2ffbc6997ac
 ---
 |/data/openclaw-openclaw-openhue|
@@ -648,7 +802,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:51.729Z
+retrieved_at: 2026-03-09T22:25:08.107Z
 content_sha256: e4e842e8e6a5b7c7ddd07760a34ecf41948a219c81cc1a5afd96dee1b8ca2486
 ---
 |/data/openclaw-openclaw-philips-hue-thinking|
@@ -668,7 +822,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:52.187Z
+retrieved_at: 2026-03-09T22:25:08.686Z
 content_sha256: ef056a1f6c809c995761be8343c370182e01cee4253afc675222fe8f12effe31
 ---
 |/data/openclaw-openclaw-pihole|
@@ -688,7 +842,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:55.694Z
+retrieved_at: 2026-03-09T22:25:13.406Z
 content_sha256: 26dcfee26ba889bacffdf38c0ab59a17d65e263a93a4192b3492ea403de18627
 ---
 |/data/openclaw-openclaw-printer|
@@ -708,7 +862,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:05.303Z
+retrieved_at: 2026-03-09T22:25:26.055Z
 content_sha256: ca0371fbb3119a1c12cc01b4d0f2aaab670442c3c1d94167832fd2eda4f6fa86
 ---
 |/data/openclaw-openclaw-robo-rock|
@@ -729,7 +883,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:08.496Z
+retrieved_at: 2026-03-09T22:25:30.757Z
 content_sha256: 6fb196ef397ada04d8cdec18a9650c71121618209e40436b574da37b89e30c56
 ---
 |/data/openclaw-openclaw-senior-computer-vision|
@@ -750,7 +904,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:09.556Z
+retrieved_at: 2026-03-09T22:25:32.219Z
 content_sha256: dedd55f34c7c766568e5c9eac9986af0c757bd6f567064cf6dc3e544fb93a110
 ---
 |/data/openclaw-openclaw-set-reminder|
@@ -770,7 +924,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:11.966Z
+retrieved_at: 2026-03-09T22:25:36.001Z
 content_sha256: 0ab9f7d5e429e0f9613b600f772540ccb0b4189164aabea647d0269ac4f57da3
 ---
 |/data/openclaw-openclaw-skillsign|
@@ -791,7 +945,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:12.729Z
+retrieved_at: 2026-03-09T22:25:37.418Z
 content_sha256: fdc70caa1d7147f6ae957d26695f00381dc6ea29496e66a778f90ebe90cb7202
 ---
 |/data/openclaw-openclaw-snow-report|
@@ -811,7 +965,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:13.493Z
+retrieved_at: 2026-03-09T22:25:38.618Z
 content_sha256: 4afbad1d930d98a0610f09bbf810f8a49de7b3187a7050d7974c3b600ae83c90
 ---
 |/data/openclaw-openclaw-solarpunk-evidence-logger|
@@ -831,7 +985,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:15.275Z
+retrieved_at: 2026-03-09T22:25:41.515Z
 content_sha256: e1dd9378c801279d98d6a8ba12edb015153a2a89805604d57ebab2603766e102
 ---
 |/data/openclaw-openclaw-starlink|
@@ -851,7 +1005,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:20.845Z
+retrieved_at: 2026-03-09T22:25:49.505Z
 content_sha256: 50755d4cd1c940e6033d1cbddf8d42771d3e8bf40e930445148e5a1c6e03ca3e
 ---
 |/data/openclaw-openclaw-tesla-fleet-api|
@@ -872,7 +1026,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:30.279Z
+retrieved_at: 2026-03-09T22:26:04.725Z
 content_sha256: b81241ed69a3b3b2cb2bc19b1c3878417d938de3508d54d4cb95ec535e544fa8
 ---
 |/data/openclaw-openclaw-voicemonkey|
@@ -892,7 +1046,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:31.128Z
+retrieved_at: 2026-03-09T22:26:06.803Z
 content_sha256: 1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93
 ---
 |/data/openclaw-openclaw-weather|
@@ -912,7 +1066,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:31.212Z
+retrieved_at: 2026-03-09T22:26:06.928Z
 content_sha256: 75849b8edc2e0c35a9fdd46311beea7cf94c0d3310cd5da57c0c02fb1762e0b5
 ---
 |/data/openclaw-openclaw-weather-pollen|
@@ -932,7 +1086,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:31.297Z
+retrieved_at: 2026-03-09T22:26:07.064Z
 content_sha256: f00ba5ea644402239cbbb4e7785f486f48dfe8ab22d6dca1864aa8f78d8e86f2
 ---
 |/data/openclaw-openclaw-weathercli|
@@ -952,7 +1106,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:34.918Z
+retrieved_at: 2026-03-09T22:26:12.091Z
 content_sha256: 1518ccb3f162b98305497601abf0e64073ca7095cc9e0163c5d9c42e64fdabc4
 ---
 |/data/openclaw-openclaw-wled|

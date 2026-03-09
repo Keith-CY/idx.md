@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-diet-tracker
 type: skills
 title: diet-tracker
-summary: Tracks daily diet and calculates nutrition information to help achieve
-  weight loss goals.
+summary: Tracks daily diet and calculates nutrition information.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yonghaozhao722/diet-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.526Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:08.129Z
 content_sha256: 1eca50eab6dad9d896fb665c167bb92a2df5606438b9dbdf748d29bb018cd528
 ---

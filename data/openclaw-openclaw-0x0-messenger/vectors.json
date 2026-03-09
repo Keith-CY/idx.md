@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-0x0-messenger",
+  "generated_at": "2026-03-09T22:26:38.610Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-0x0-messenger#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-0x0-messenger/HEAD.md",
+      "text": "title: 0x0-messenger\nsummary: Send and receive P2P messages using disposable numbers and PINs.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eijiac24/0x0-messenger/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-0x0-messenger",
+        "topic": "openclaw-openclaw-0x0-messenger",
+        "type": "skills",
+        "title": "0x0-messenger",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eijiac24/0x0-messenger/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:38.610Z",
+        "content_sha256": "8f7382feb2661352ec7285efb02b4059770b38e35c37d037722426538b92489c"
+      }
+    }
+  ]
+}

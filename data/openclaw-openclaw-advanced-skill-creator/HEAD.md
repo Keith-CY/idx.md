@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-advanced-skill-creator
 type: skills
 title: advanced-skill-creator
-summary: Advanced OpenClaw skill creation handler that executes the official
-  5-step research flow with comprehensive analysis.
+summary: Advanced OpenClaw skill creation handler.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xqicxx/advanced-skill-creator/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:25.762Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:52.310Z
 content_sha256: 2fe4a1a7c12b643c9cdb38b69c75d051f81d78cecc895dd53442e4b506204c3d
 ---

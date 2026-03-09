@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bandwidth-income",
+  "generated_at": "2026-03-09T22:27:35.568Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bandwidth-income#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bandwidth-income/HEAD.md",
+      "text": "title: bandwidth-income\nsummary: Turn your unused internet bandwidth into passive crypto income.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mariusfit/bandwidth-income/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bandwidth-income",
+        "topic": "openclaw-openclaw-bandwidth-income",
+        "type": "skills",
+        "title": "bandwidth-income",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mariusfit/bandwidth-income/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:35.568Z",
+        "content_sha256": "66396b92b882aed134bd72565a8617fcc87f60d9eabb81fee811941409aef99c"
+      }
+    }
+  ]
+}

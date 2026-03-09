@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-inkjet",
-  "generated_at": "2026-03-09T07:23:20.946Z",
+  "generated_at": "2026-03-09T22:28:21.045Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-inkjet#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-inkjet/HEAD.md",
-      "text": "title: inkjet\nsummary: Print text, images, and QR codes to a wireless Bluetooth thermal printer from a MacOS device.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronchartier/inkjet/SKILL.md",
+      "text": "title: inkjet\nsummary: Print text, images, and QR codes to a wireless Bluetooth thermal printer.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronchartier/inkjet/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-inkjet",
         "topic": "openclaw-openclaw-inkjet",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronchartier/inkjet/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:20.946Z",
+        "retrieved_at": "2026-03-09T22:28:21.045Z",
         "content_sha256": "e04e0ff6e95539d8de0aee0824ff29a4cdacc31290dbc2912be609789de54369"
       }
     }

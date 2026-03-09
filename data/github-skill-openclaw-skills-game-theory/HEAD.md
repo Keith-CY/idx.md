@@ -18,6 +18,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sp0oby/game-th
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:42.322Z
+retrieved_at: 2026-03-09T22:22:49.931Z
 content_sha256: a9a7a91375219e6863e305baf9b0aef1e0123e8ca92e7cd16a37ffe6f95ba706
 ---

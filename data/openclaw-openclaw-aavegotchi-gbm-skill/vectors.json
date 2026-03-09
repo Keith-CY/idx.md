@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-aavegotchi-gbm-skill",
+  "generated_at": "2026-03-09T22:26:44.317Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-aavegotchi-gbm-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-aavegotchi-gbm-skill/HEAD.md",
+      "text": "title: aavegotchi-gbm-skill\nsummary: View, create, cancel, bid, and claim Aavegotchi GBM auctions on Base mainnet (8453)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-gbm-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-aavegotchi-gbm-skill",
+        "topic": "openclaw-openclaw-aavegotchi-gbm-skill",
+        "type": "skills",
+        "title": "aavegotchi-gbm-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-gbm-skill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:44.317Z",
+        "content_sha256": "a31632508bde4732652807632c7a26e82defcecf680932c2ca5863a0cc35198b"
+      }
+    }
+  ]
+}

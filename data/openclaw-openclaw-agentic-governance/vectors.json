@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentic-governance",
+  "generated_at": "2026-03-09T22:27:11.451Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentic-governance#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentic-governance/HEAD.md",
+      "text": "title: agentic-governance\nsummary: Keep your constraints healthy — lifecycle management with automatic staleness detection.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leegitw/agentic-governance/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentic-governance",
+        "topic": "openclaw-openclaw-agentic-governance",
+        "type": "skills",
+        "title": "agentic-governance",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/leegitw/agentic-governance/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:11.451Z",
+        "content_sha256": "6b5bb9d4b559fb0782c282895bc18737a4fadbd660f4e19c01d38a198445e0da"
+      }
+    }
+  ]
+}

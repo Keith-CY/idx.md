@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-abstract-searcher",
+  "generated_at": "2026-03-09T22:26:45.513Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-abstract-searcher#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-abstract-searcher/HEAD.md",
+      "text": "title: abstract-searcher\nsummary: Add abstracts to .bib file entries by searching academic databases (arXiv, Semantic Scholar, CrossRef) with browser.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/easonc13/abstract-searcher/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-abstract-searcher",
+        "topic": "openclaw-openclaw-abstract-searcher",
+        "type": "skills",
+        "title": "abstract-searcher",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/easonc13/abstract-searcher/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:45.513Z",
+        "content_sha256": "53c34d878e31f1341e6ec1ff1e7997d8f6f51200b1c4555900ee4ccf3efe312f"
+      }
+    }
+  ]
+}

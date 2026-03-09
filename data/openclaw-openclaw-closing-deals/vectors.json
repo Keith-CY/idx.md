@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-closing-deals",
+  "generated_at": "2026-03-09T22:28:00.313Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-closing-deals#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-closing-deals/HEAD.md",
+      "text": "title: closing-deals\nsummary: Close sales deals consistently as a solopreneur.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/closing-deals/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-closing-deals",
+        "topic": "openclaw-openclaw-closing-deals",
+        "type": "skills",
+        "title": "closing-deals",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/closing-deals/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:00.313Z",
+        "content_sha256": "10d3cea4c577fedc873761570497eb5fae2586e344d0478475f1eda308d28701"
+      }
+    }
+  ]
+}

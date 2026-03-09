@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claude-connect",
-  "generated_at": "2026-03-09T07:22:44.995Z",
+  "generated_at": "2026-03-09T22:27:53.812Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claude-connect#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-claude-connect/HEAD.md",
-      "text": "title: claude-connect\nsummary: Connect Claude to Clawdbot instantly and keep it connected.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/claude-connect/SKILL.md",
+      "text": "title: claude-connect\nsummary: Connect Claude to Clawdbot instantly and keep.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/claude-connect/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-claude-connect",
         "topic": "openclaw-openclaw-claude-connect",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/claude-connect/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:44.995Z",
+        "retrieved_at": "2026-03-09T22:27:53.812Z",
         "content_sha256": "8aff0d354b97a8f2c0e4eec210c7ae65ab8a9d520214229af723f9569cc3f87e"
       }
     }

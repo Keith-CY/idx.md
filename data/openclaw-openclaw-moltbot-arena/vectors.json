@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-moltbot-arena",
+  "generated_at": "2026-03-09T22:28:26.678Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-moltbot-arena#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-moltbot-arena/HEAD.md",
+      "text": "title: moltbot-arena\nsummary: AI agent skill for Moltbot Arena - a Screeps-like.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/giulianomlodi/moltbot-arena/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-moltbot-arena",
+        "topic": "openclaw-openclaw-moltbot-arena",
+        "type": "skills",
+        "title": "moltbot-arena",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/giulianomlodi/moltbot-arena/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:26.678Z",
+        "content_sha256": "3c5689416fb8d588bd4097eee63131399ae3f57601586016d761adf501776c70"
+      }
+    }
+  ]
+}

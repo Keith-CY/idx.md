@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agenthire",
+  "generated_at": "2026-03-09T22:27:10.891Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agenthire#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agenthire/HEAD.md",
+      "text": "title: agenthire\nsummary: AgentHire — Agent-to-Agent Marketplace.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lngdao/agenthire/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agenthire",
+        "topic": "openclaw-openclaw-agenthire",
+        "type": "skills",
+        "title": "agenthire",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lngdao/agenthire/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:10.891Z",
+        "content_sha256": "58d75b913679429469e470924172c591735f07d3e0694425205a86869d2f4497"
+      }
+    }
+  ]
+}

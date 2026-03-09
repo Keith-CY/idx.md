@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-endurance-coach
 type: skills
 title: endurance-coach
-summary: Create personalized triathlon, marathon, and ultra-endurance training plans.
+summary: Create personalized triathlon, marathon, and ultra-endurance.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/endurance-coach/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:03.534Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:12.108Z
 content_sha256: 164b54510ee98efdb1fa16257df121764cd0f8d678911d1018bee27df50719ad
 ---

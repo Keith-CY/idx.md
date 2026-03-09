@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-arena-skill",
+  "generated_at": "2026-03-09T22:26:56.358Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-arena-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-arena-skill/HEAD.md",
+      "text": "title: agent-arena-skill\nsummary: Discover, register, and hire ERC-8004 autonomous agents across 16 blockchains.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/neeeophytee/agent-arena-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-arena-skill",
+        "topic": "openclaw-openclaw-agent-arena-skill",
+        "type": "skills",
+        "title": "agent-arena-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/neeeophytee/agent-arena-skill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:56.358Z",
+        "content_sha256": "51ecffa80d6760a9aeb7990b859d2e8cdc7a54369c7fdad42590669507487c68"
+      }
+    }
+  ]
+}

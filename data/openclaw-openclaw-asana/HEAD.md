@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-asana
 type: skills
 title: asana
-summary: Asana tasks, projects, and workspaces via REST API.
+summary: Integrate Asana with Clawdbot via the Asana REST API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/k0nkupa/asana/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:33.709Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:30.631Z
 content_sha256: 3f7cc4b25f22a989525f71f86cb2650f3f72a86da79a01002068f54f061c37d0
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-slidev",
-  "generated_at": "2026-03-09T07:22:16.112Z",
+  "generated_at": "2026-03-09T22:26:26.712Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-slidev#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/slidev/references/core-syntax.md",
-        "retrieved_at": "2026-03-09T07:22:16.112Z",
+        "retrieved_at": "2026-03-09T22:26:26.712Z",
         "content_sha256": "3b56a8fbd5b4eb7b7a1965e5fe2502ec969a094ad8b22bc834365aa25e3a7aaa"
       }
     }

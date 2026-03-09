@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-solo-cli
 type: skills
 title: solo-cli
-summary: Monitor and interact with SOLO.ro accounting platform.
+summary: Monitor and interact with SOLO.ro accounting platform via CLI or TUI.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rursache/solo-cli/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:13.575Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:31.190Z
 content_sha256: ccbfa6237880cecc0277a6cf69e24b4ec5425252efe22b4de851ffd1be639e65
 ---

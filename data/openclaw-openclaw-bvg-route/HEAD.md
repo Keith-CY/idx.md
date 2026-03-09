@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-bvg-route
 type: skills
 title: bvg-route
-summary: Route planning for Berlin public transport (BVG) using the
-  v6.bvg.transport.rest API.
+summary: Route planning for Berlin public transport (BVG)
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jaysonsantos/bvg-route/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:41.693Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:46.766Z
 content_sha256: e997fb60e07199cbc5fbc430fbe6b8c7c8b89f7a93fab331b6491b44fc9dc6c3
 ---

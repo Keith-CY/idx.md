@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-alter-actions
 type: skills
 title: alter-actions
-summary: Trigger 84+ Alter macOS app actions via x-callback-urls.
+summary: Trigger Alter macOS app actions via x-callback-urls.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/olivieralter/alter-actions/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:30.438Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:20.910Z
 content_sha256: f70bf40c4a7a7c9d29a7f207aaa4b49aaf72fe7cf279366a9ac82da90edc91d7
 ---

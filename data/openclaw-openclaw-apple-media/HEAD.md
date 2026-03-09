@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-apple-media
 type: skills
 title: apple-media
-summary: Control Apple TV, HomePod, and AirPlay devices via pyatv (scan, stream,
-  playback, volume.
+summary: Control Apple TV, HomePod, and AirPlay devices via pyatv.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronn/apple-media/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:32.933Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:27.202Z
 content_sha256: 367bb3a98bc8eee413e21034a5c3f619852aaa9dd017949438348c07e30e19a6
 ---

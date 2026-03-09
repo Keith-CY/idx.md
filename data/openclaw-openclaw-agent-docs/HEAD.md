@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tylervovan/agent-docs/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:26.930Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:00.515Z
 content_sha256: 9e263f1ec3d7ce4f770e5e1109dffe21311f73e228297ce2d7c640cc7e2fb5fb
 ---

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-elevenlabs-tts",
+  "generated_at": "2026-03-09T22:28:11.863Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-elevenlabs-tts#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-elevenlabs-tts/HEAD.md",
+      "text": "title: elevenlabs-tts\nsummary: ElevenLabs TTS - the best ElevenLabs integration for OpenClaw.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shaharsha/elevenlabs-tts/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-elevenlabs-tts",
+        "topic": "openclaw-openclaw-elevenlabs-tts",
+        "type": "skills",
+        "title": "elevenlabs-tts",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shaharsha/elevenlabs-tts/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:11.863Z",
+        "content_sha256": "52eab4d4a38910bceb12d703058eab2f792d269e99944934f1daa5e01c62fd8d"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-device",
+  "generated_at": "2026-03-09T22:27:00.140Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-device#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-device/HEAD.md",
+      "text": "title: agent-device\nsummary: Automates interactions for iOS simulators/devices and Android emulators/devices.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okwasniewski/agent-device/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-device",
+        "topic": "openclaw-openclaw-agent-device",
+        "type": "skills",
+        "title": "agent-device",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/okwasniewski/agent-device/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:00.140Z",
+        "content_sha256": "03063b8e5be921a1f12a967d928d35b0f65ca6b82e203c39161df227818ee7f8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-local-approvals",
+  "generated_at": "2026-03-09T22:28:22.675Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-local-approvals#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-local-approvals/HEAD.md",
+      "text": "title: local-approvals\nsummary: Local approval system for managing agent permissions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-agent-to-agent-protocols\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shaiss/local-approvals/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-local-approvals",
+        "topic": "openclaw-openclaw-local-approvals",
+        "type": "skills",
+        "title": "local-approvals",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-agent-to-agent-protocols"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shaiss/local-approvals/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:22.675Z",
+        "content_sha256": "58ae7caa2a019f3f1b4099e4f9a3f1d1c6fb8ccb869f348c7a6d8fb597e42a36"
+      }
+    }
+  ]
+}

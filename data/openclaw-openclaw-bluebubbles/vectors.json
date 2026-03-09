@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bluebubbles",
-  "generated_at": "2026-03-09T07:22:39.421Z",
+  "generated_at": "2026-03-09T22:27:40.797Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bluebubbles#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-bluebubbles/HEAD.md",
-      "text": "title: bluebubbles\nsummary: Build or update the BlueBubbles external channel plugin for Clawdbot (extension package, REST send/probe, webhook.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin19830331/bluebubbles/SKILL.md",
+      "text": "title: bluebubbles\nsummary: Build or update the BlueBubbles external channel plugin.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin19830331/bluebubbles/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-bluebubbles",
         "topic": "openclaw-openclaw-bluebubbles",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin19830331/bluebubbles/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:39.421Z",
+        "retrieved_at": "2026-03-09T22:27:40.797Z",
         "content_sha256": "705ee84bf350451c5b6b63f757020ee76ff91eb449a13324c6a6a6cd2c378546"
       }
     }

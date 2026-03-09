@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-elevenlabs-skill",
-  "generated_at": "2026-03-09T07:23:02.827Z",
+  "generated_at": "2026-03-09T22:28:11.516Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-elevenlabs-skill#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-elevenlabs-skill/HEAD.md",
-      "text": "title: elevenlabs-skill\nsummary: Text-to-speech, sound effects, music generation, voice management, and quota checks via the ElevenLabs API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/elevenlabs-skill/SKILL.md",
+      "text": "title: elevenlabs-skill\nsummary: Text-to-speech, sound effects, music generation, voice.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/elevenlabs-skill/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-elevenlabs-skill",
         "topic": "openclaw-openclaw-elevenlabs-skill",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/elevenlabs-skill/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:02.827Z",
+        "retrieved_at": "2026-03-09T22:28:11.516Z",
         "content_sha256": "832c7d332b357433bc85a6a81bd48e553809925460c93202e592b9102e4eb01b"
       }
     }

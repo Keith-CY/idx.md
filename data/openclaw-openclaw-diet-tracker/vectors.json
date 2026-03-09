@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-diet-tracker",
-  "generated_at": "2026-03-09T07:22:59.526Z",
+  "generated_at": "2026-03-09T22:28:08.129Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-diet-tracker#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-diet-tracker/HEAD.md",
-      "text": "title: diet-tracker\nsummary: Tracks daily diet and calculates nutrition information to help achieve weight loss goals.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yonghaozhao722/diet-tracker/SKILL.md",
+      "text": "title: diet-tracker\nsummary: Tracks daily diet and calculates nutrition information.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yonghaozhao722/diet-tracker/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-diet-tracker",
         "topic": "openclaw-openclaw-diet-tracker",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yonghaozhao722/diet-tracker/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:59.526Z",
+        "retrieved_at": "2026-03-09T22:28:08.129Z",
         "content_sha256": "1eca50eab6dad9d896fb665c167bb92a2df5606438b9dbdf748d29bb018cd528"
       }
     }

@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-agent-home
 type: skills
 title: agent-home
-summary: Get your own home on the internet - a profile page with a public inbox
-  at home.ctxly.app
+summary: Get your own home on the internet - a profile page with a public.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aerialcombat/agent-home/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:27.109Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:01.712Z
 content_sha256: de5e7d9dbee0b390e0c6da432f189eeecb6fdc266a13298caaa67053e12697ad
 ---

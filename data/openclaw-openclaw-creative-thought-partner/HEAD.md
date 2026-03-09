@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-creative-thought-partner
 type: skills
 title: creative-thought-partner
-summary: A conversational creative thought partner that reveals hidden
-  brilliance in your ideas through critical observations.
+summary: A conversational creative thought.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/creative-thought-partner/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:56.025Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:02.331Z
 content_sha256: 04c8d798d156613174e7431cf92c3d16a599523d3cd5718f9b83a068d21829f8
 ---

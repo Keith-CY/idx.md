@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-open-persona",
+  "generated_at": "2026-03-09T22:28:29.239Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-open-persona#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-open-persona/HEAD.md",
+      "text": "title: open-persona\nsummary: Meta-skill for building and managing agent persona skill packs.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/neiljo-gy/open-persona/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-open-persona",
+        "topic": "openclaw-openclaw-open-persona",
+        "type": "skills",
+        "title": "open-persona",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/neiljo-gy/open-persona/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:29.239Z",
+        "content_sha256": "db6d05b9eea54c779f9d8a36a7babf1abd71e6af80f2a651a61cef57efbf64ec"
+      }
+    }
+  ]
+}

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tobiasbischoff/bambu-cli/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.011Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:35.227Z
 content_sha256: b9bc9d176226b95a31010372ae3d9164b047b67dc4923fdf8cf0c3128b0c2f5d
 ---

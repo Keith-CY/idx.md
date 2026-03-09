@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawdstrike-test",
+  "generated_at": "2026-03-09T22:27:58.077Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawdstrike-test#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawdstrike-test/HEAD.md",
+      "text": "title: clawdstrike-test\nsummary: Security audit and threat model for OpenClaw gateway hosts.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/misirov/clawdstrike-test/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawdstrike-test",
+        "topic": "openclaw-openclaw-clawdstrike-test",
+        "type": "skills",
+        "title": "clawdstrike-test",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/misirov/clawdstrike-test/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:58.077Z",
+        "content_sha256": "6dc105c4882188861bb62a32067ea4704852ae9011d9b5e786d0ce416d97e7dd"
+      }
+    }
+  ]
+}

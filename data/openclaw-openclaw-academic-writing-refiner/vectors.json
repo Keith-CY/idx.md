@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-academic-writing-refiner",
+  "generated_at": "2026-03-09T22:26:46.233Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-academic-writing-refiner#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-academic-writing-refiner/HEAD.md",
+      "text": "title: academic-writing-refiner\nsummary: Refine academic writing for computer science research papers targeting top-tier venues (NeurIPS, ICLR, ICML, AAAI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zihan-zhu/academic-writing-refiner/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-academic-writing-refiner",
+        "topic": "openclaw-openclaw-academic-writing-refiner",
+        "type": "skills",
+        "title": "academic-writing-refiner",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zihan-zhu/academic-writing-refiner/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:46.233Z",
+        "content_sha256": "e546cd1a531c44879c868afc651834ef112bb9d0520d364a2e91f2da1abce1f8"
+      }
+    }
+  ]
+}

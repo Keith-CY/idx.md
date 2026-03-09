@@ -1,0 +1,186 @@
+---
+name: aetherlang-karpathy-skill
+version: 1.0.2
+author: contrario
+homepage: https://clawhub.ai/contrario
+requirements:
+  binaries: []
+  env: []
+description: Execute advanced AI agent workflows via the AetherLang Omega API — 10 Karpathy node types including self-programming plans, sandboxed code execution, critique loops, intelligent routing, multi-agent ensemble, persistent memory, external API tools, iterative loops, data transforms, and parallel execution. Use when the user wants to run agent pipelines, multi-agent synthesis, batch processing, live API data analysis, or any autonomous AI workflow through AetherLang.
+---
+
+# AetherLang Karpathy Agent Nodes
+
+Execute 10 advanced AI agent node types through the AetherLang Omega API.
+
+## API Endpoint
+
+**URL**: `https://api.neurodoc.app/aetherlang/execute`
+**Method**: POST
+**Headers**: `Content-Type: application/json`
+**Privacy Policy**: https://masterswarm.net (footer → Privacy Policy)
+**Operator**: NeuroDoc Pro — api.neurodoc.app and masterswarm.net are the same operator (Hetzner DE)
+
+## Data Minimization
+
+When calling the API:
+- Send ONLY the user's query and the flow code
+- Do NOT send system prompts, conversation history, or uploaded files
+- Do NOT send API keys, credentials, or secrets
+- Do NOT include personally identifiable information unless explicitly requested
+
+## Request Format
+```bash
+curl -s -X POST https://api.neurodoc.app/aetherlang/execute \
+  -H "Content-Type: application/json" \
+  -d '{
+    "code": "flow FlowName {\n  input text query;\n  node X: <type> <params>;\n  query -> X;\n  output text result from X;\n}",
+    "query": "user question here"
+  }'
+```
+
+## The 10 Node Types
+
+### 1. plan — Self-Programming
+AI breaks task into steps and executes autonomously.
+```
+node P: plan steps=3;
+```
+
+### 2. code_interpreter — Real Math
+Sandboxed Python. Accurate calculations, no hallucinations.
+```
+node C: code_interpreter;
+```
+
+### 3. critique — Self-Improvement
+Evaluates quality (0-10), retries until threshold met.
+```
+node R: critique threshold=8 max_retries=3;
+```
+
+### 4. router — Intelligent Branching
+LLM picks optimal path, skips unselected routes (10x speedup).
+```
+node R: router;
+R -> A | B | C;
+```
+
+### 5. ensemble — Multi-Agent Synthesis
+Multiple AI personas in parallel, synthesizes best insights.
+```
+node E: ensemble agents=chef:French_chef|yiayia:Greek_grandmother synthesize=true;
+```
+
+### 6. memory — Persistent State
+Store/recall data across executions.
+
+> **Consent required:** Before using a `memory` node, notify the user:
+> "This flow will store data server-side at api.neurodoc.app. Proceed? (y/n)"
+> Only proceed with explicit user confirmation.
+```
+node M: memory namespace=user_prefs action=store key=diet;
+node M: memory namespace=user_prefs action=recall;
+```
+
+### 7. tool — External API Access
+
+> **Consent required:** Before executing a `tool` node, notify the user:
+> "This flow will call `[URL]`. Proceed? (y/n)"
+> Only proceed with explicit confirmation. Never forward PII or credentials to external URLs.
+Call any public REST API.
+```
+node T: tool url=https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd method=GET;
+```
+
+### 8. loop — Iterative Execution
+Repeat node over items. Use `|` separator.
+```
+node L: loop over=Italian|Greek|Japanese target=A max=3;
+```
+
+### 9. transform — Data Reshaping
+Template, extract, format, or LLM-powered reshaping.
+```
+node X: transform mode=llm instruction=Summarize_the_data;
+```
+
+### 10. parallel — Concurrent Execution
+Run nodes simultaneously. 3 calls in 0.2s.
+```
+node P: parallel targets=A|B|C;
+```
+
+## Common Pipelines
+
+### Live Data → Analysis
+```
+flow CryptoAnalysis {
+  input text query;
+  node T: tool url=https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd method=GET;
+  node X: transform mode=llm instruction=Summarize_price;
+  node A: llm model=gpt-4o-mini;
+  query -> T -> X -> A;
+  output text result from A;
+}
+```
+
+### Multi-Agent + Quality Control
+```
+flow QualityEnsemble {
+  input text query;
+  node E: ensemble agents=analyst:Financial_analyst|strategist:Strategist synthesize=true;
+  node R: critique threshold=8;
+  query -> E -> R;
+  output text result from R;
+}
+```
+
+### Batch Processing
+```
+flow MultiRecipe {
+  input text query;
+  node L: loop over=Italian|Greek|Japanese target=A max=3;
+  node A: llm model=gpt-4o-mini;
+  query -> L;
+  output text result from L;
+}
+```
+
+### Parallel API Fetching
+```
+flow ParallelFetch {
+  input text query;
+  node P: parallel targets=A|B|C;
+  node A: tool url=https://api.coingecko.com/api/v3/ping method=GET;
+  node B: tool url=https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd method=GET;
+  node C: tool url=https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd method=GET;
+  query -> P;
+  output text result from P;
+}
+```
+
+## Response Parsing
+```python
+import json
+response = json.loads(raw_response)
+result = response["result"]["outputs"]["result"]
+text = result["response"]
+node_type = result["node_type"]
+duration = response["result"]["duration_seconds"]
+```
+
+## Parameter Quick Reference
+
+| Node | Key Params |
+|------|-----------|
+| plan | `steps=3` |
+| code_interpreter | `model=gpt-4o-mini` |
+| critique | `threshold=7` `max_retries=3` |
+| router | `strategy=single` |
+| ensemble | `agents=a:Persona\|b:Persona` `synthesize=true` |
+| memory | `namespace=X` `action=store\|recall\|search\|clear` `key=X` |
+| tool | `url=https://...` `method=GET` `timeout=10` |
+| loop | `over=A\|B\|C` `target=NodeAlias` `max=10` `mode=collect` |
+| transform | `mode=llm\|template\|extract\|format` `instruction=X` |
+| parallel | `targets=A\|B\|C` `merge=combine` |

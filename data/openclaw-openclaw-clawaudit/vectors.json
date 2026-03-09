@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawaudit",
+  "generated_at": "2026-03-09T22:27:55.119Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawaudit#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawaudit/HEAD.md",
+      "text": "title: clawaudit\nsummary: Official repo for clawaudit, coming soon as an automated security.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tezatezaz/clawaudit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawaudit",
+        "topic": "openclaw-openclaw-clawaudit",
+        "type": "skills",
+        "title": "clawaudit",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tezatezaz/clawaudit/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:55.119Z",
+        "content_sha256": "09cdc1926340a1923be4e6ed681347db22a40580eb2ac1c003f8119633d7410a"
+      }
+    }
+  ]
+}

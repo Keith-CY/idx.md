@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-metrics-osiris",
+  "generated_at": "2026-03-09T22:27:03.038Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-metrics-osiris#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-metrics-osiris/HEAD.md",
+      "text": "title: agent-metrics-osiris\nsummary: Observability and metrics for AI agents - track calls, errors, latency.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nantes/agent-metrics-osiris/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-metrics-osiris",
+        "topic": "openclaw-openclaw-agent-metrics-osiris",
+        "type": "skills",
+        "title": "agent-metrics-osiris",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nantes/agent-metrics-osiris/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:03.038Z",
+        "content_sha256": "aba743092fb607aba7813482ed7c1294d27ca77df28be29d6ca91b28a1be7106"
+      }
+    }
+  ]
+}

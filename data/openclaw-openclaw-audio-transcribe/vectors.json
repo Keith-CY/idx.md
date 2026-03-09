@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-audio-transcribe",
+  "generated_at": "2026-03-09T22:27:32.909Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-audio-transcribe#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-audio-transcribe/HEAD.md",
+      "text": "title: audio-transcribe\nsummary: Auto-transcribe voice messages using faster-whisper (local, no API key needed).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aktheknight/audio-transcribe/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-audio-transcribe",
+        "topic": "openclaw-openclaw-audio-transcribe",
+        "type": "skills",
+        "title": "audio-transcribe",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aktheknight/audio-transcribe/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:32.909Z",
+        "content_sha256": "7e56ac6b9cbf8fdaf15f17e6c7b224cd32569d520e8050fc647e4f5024e6292d"
+      }
+    }
+  ]
+}

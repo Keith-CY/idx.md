@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-expense-tracker-pro",
-  "generated_at": "2026-03-09T07:23:05.166Z",
+  "generated_at": "2026-03-09T22:28:13.139Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-expense-tracker-pro#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-expense-tracker-pro/HEAD.md",
-      "text": "title: expense-tracker-pro\nsummary: Track expenses via natural language with budget summaries.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-finance\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/expense-tracker-pro/SKILL.md",
+      "text": "title: expense-tracker-pro\nsummary: Track expenses via natural language, get spending.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-finance\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/expense-tracker-pro/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-expense-tracker-pro",
         "topic": "openclaw-openclaw-expense-tracker-pro",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/expense-tracker-pro/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:05.166Z",
+        "retrieved_at": "2026-03-09T22:28:13.139Z",
         "content_sha256": "d30f200ff8ba229a003b8f9dfc18680ec425bb5a4d9670a88f860c785792b8b5"
       }
     }

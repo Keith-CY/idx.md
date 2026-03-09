@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-data-lineage-tracker",
+  "generated_at": "2026-03-09T22:28:06.023Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-data-lineage-tracker#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-data-lineage-tracker/HEAD.md",
+      "text": "title: data-lineage-tracker\nsummary: Track data origin, transformations.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/datadrivenconstruction/data-lineage-tracker/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-data-lineage-tracker",
+        "topic": "openclaw-openclaw-data-lineage-tracker",
+        "type": "skills",
+        "title": "data-lineage-tracker",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/datadrivenconstruction/data-lineage-tracker/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:06.023Z",
+        "content_sha256": "45474ee7cbaacf1827512478be134dbd19a4545ff295bd9c3f89dfca6dff2f95"
+      }
+    }
+  ]
+}

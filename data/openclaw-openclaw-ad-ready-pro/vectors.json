@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ad-ready-pro",
+  "generated_at": "2026-03-09T22:26:49.340Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ad-ready-pro#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ad-ready-pro/HEAD.md",
+      "text": "title: ad-ready-pro\nsummary: Generate professional advertising images from product URLs.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pauldelavallaz/ad-ready-pro/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ad-ready-pro",
+        "topic": "openclaw-openclaw-ad-ready-pro",
+        "type": "skills",
+        "title": "ad-ready-pro",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pauldelavallaz/ad-ready-pro/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:49.340Z",
+        "content_sha256": "62e923474848086964910d65bdc38d0a1a92ed3f9e4f80a692d3a2a80a9ccabd"
+      }
+    }
+  ]
+}

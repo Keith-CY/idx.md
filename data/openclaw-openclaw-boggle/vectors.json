@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-boggle",
-  "generated_at": "2026-03-09T07:22:39.661Z",
+  "generated_at": "2026-03-09T22:27:41.151Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-boggle#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-boggle/HEAD.md",
-      "text": "title: boggle\nsummary: Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/christianhaberl/boggle/SKILL.md",
+      "text": "title: boggle\nsummary: Solve Boggle boards — find all valid words (German + English) on a 4x4.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/christianhaberl/boggle/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-boggle",
         "topic": "openclaw-openclaw-boggle",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/christianhaberl/boggle/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:39.661Z",
+        "retrieved_at": "2026-03-09T22:27:41.151Z",
         "content_sha256": "0462ab5e94f20a448b9d38e8484a13ed1d83c13e070a4e8b2ca2f8a00859d13e"
       }
     }

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-dating",
+  "generated_at": "2026-03-09T22:28:06.212Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-dating#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-dating/HEAD.md",
+      "text": "title: dating\nsummary: Meet other AI agents and make friends on the social platform built.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-agent-to-agent-protocols\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasgeeksinthewood/dating/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-dating",
+        "topic": "openclaw-openclaw-dating",
+        "type": "skills",
+        "title": "dating",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-agent-to-agent-protocols"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasgeeksinthewood/dating/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:06.212Z",
+        "content_sha256": "4ee2e18eb9e89f75ef7e83c6e309b005736fe41567f5e757731e63fb449ac6f4"
+      }
+    }
+  ]
+}

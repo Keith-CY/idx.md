@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/cloudflare-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/cloudflare-deploy/SKILL.md
-github_stars: 10080
-github_forks: 566
+github_stars: 13365
+github_forks: 747
 github_is_organization: true
-retrieved_at: 2026-03-09T07:21:44.522Z
+retrieved_at: 2026-03-09T22:22:53.505Z
 content_sha256: d7632537cf19be17cf33d2c696b9d9c2ea3ee51026030e9b203d5b9255e75b15
 ---

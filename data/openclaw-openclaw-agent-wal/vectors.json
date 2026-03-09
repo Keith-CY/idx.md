@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-wal",
+  "generated_at": "2026-03-09T22:27:07.851Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-wal#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-wal/HEAD.md",
+      "text": "title: agent-wal\nsummary: Write-Ahead Log protocol for agent state persistence.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bowen31337/agent-wal/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-wal",
+        "topic": "openclaw-openclaw-agent-wal",
+        "type": "skills",
+        "title": "agent-wal",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bowen31337/agent-wal/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:07.851Z",
+        "content_sha256": "b7811f7835a0df57abdbc8840acc1f400a330f392782854ffb51dae285e2e556"
+      }
+    }
+  ]
+}

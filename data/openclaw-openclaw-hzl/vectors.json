@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-hzl",
-  "generated_at": "2026-03-09T07:23:19.598Z",
+  "generated_at": "2026-03-09T22:24:27.438Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-hzl#head",
@@ -19,8 +19,8 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tmchow/hzl/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:19.598Z",
-        "content_sha256": "b2b09d163ad2ab949eff0778d272001075d17c94eb15cbce8ae2ffa0f78980aa"
+        "retrieved_at": "2026-03-09T22:24:27.438Z",
+        "content_sha256": "52ed05e05b4da0ef3f4bfef0a7b3e4cbb0ab9adfd4e37654db26c74d14040ee5"
       }
     }
   ]

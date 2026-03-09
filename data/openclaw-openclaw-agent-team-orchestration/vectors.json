@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-team-orchestration",
+  "generated_at": "2026-03-09T22:27:07.231Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-team-orchestration#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-team-orchestration/HEAD.md",
+      "text": "title: agent-team-orchestration\nsummary: Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arminnaimi/agent-team-orchestration/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-team-orchestration",
+        "topic": "openclaw-openclaw-agent-team-orchestration",
+        "type": "skills",
+        "title": "agent-team-orchestration",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arminnaimi/agent-team-orchestration/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:07.231Z",
+        "content_sha256": "ee8204c92884c727eae1c8c4007df5bc7aaa36595859cd462112982b5ffe1b4c"
+      }
+    }
+  ]
+}

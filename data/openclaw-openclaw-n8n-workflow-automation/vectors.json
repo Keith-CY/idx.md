@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-n8n-workflow-automation",
-  "generated_at": "2026-03-09T07:23:39.930Z",
+  "generated_at": "2026-03-09T22:28:28.276Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-n8n-workflow-automation#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-n8n-workflow-automation/HEAD.md",
-      "text": "title: n8n-workflow-automation\nsummary: Designs and outputs n8n workflow JSON with robust triggers, idempotency, error handling, logging.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/n8n-workflow-automation/SKILL.md",
+      "text": "title: n8n-workflow-automation\nsummary: Designs and outputs n8n workflow JSON.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/n8n-workflow-automation/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-n8n-workflow-automation",
         "topic": "openclaw-openclaw-n8n-workflow-automation",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/n8n-workflow-automation/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:39.930Z",
+        "retrieved_at": "2026-03-09T22:28:28.276Z",
         "content_sha256": "b82537f81d728a19cff51137588e95211c229e5c342cf0d008cbe971f004c1d9"
       }
     }

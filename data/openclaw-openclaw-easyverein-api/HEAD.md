@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-easyverein-api
 type: skills
 title: easyverein-api
-summary: Work with the easyVerein v2.0 REST API (members, contacts, events,
-  invoices, bookings, custom fields, etc.).
+summary: Work with the easyVerein v2.0 REST API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/truefoobar/easyverein-api/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.112Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:10.377Z
 content_sha256: a9d09aa99f1e07783a5e3906d1d07e4844cf60efb6090cc37b47f555024c63b5
 ---

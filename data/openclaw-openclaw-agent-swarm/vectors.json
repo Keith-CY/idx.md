@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-swarm",
+  "generated_at": "2026-03-09T22:27:06.646Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-swarm#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-swarm/HEAD.md",
+      "text": "title: agent-swarm\nsummary: IMPORTANT: OpenRouter is required.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/runeweaverstudios/agent-swarm/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-swarm",
+        "topic": "openclaw-openclaw-agent-swarm",
+        "type": "skills",
+        "title": "agent-swarm",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/runeweaverstudios/agent-swarm/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:06.646Z",
+        "content_sha256": "0100aa9939c50b9d96212f27227f6ce7aa4b986b371c6eaca01a610da375ed16"
+      }
+    }
+  ]
+}

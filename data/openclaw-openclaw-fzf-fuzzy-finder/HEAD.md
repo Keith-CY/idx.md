@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-fzf-fuzzy-finder
 type: skills
 title: fzf-fuzzy-finder
-summary: Command-line fuzzy finder for interactive filtering and selection -
-  integrates with shell, vim.
+summary: Command-line fuzzy finder for interactive filtering.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/fzf-fuzzy-finder/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:09.897Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:16.481Z
 content_sha256: e339f3180cf68364ee8658ad5704456b7bb2a1d7fb98f1026211cbc44f2e3bba
 ---

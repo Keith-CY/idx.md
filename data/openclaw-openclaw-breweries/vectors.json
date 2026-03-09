@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-breweries",
+  "generated_at": "2026-03-09T22:27:44.782Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-breweries#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-breweries/HEAD.md",
+      "text": "title: breweries\nsummary: CLI for AI agents to find breweries for their humans.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/breweries/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-breweries",
+        "topic": "openclaw-openclaw-breweries",
+        "type": "skills",
+        "title": "breweries",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/breweries/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:44.782Z",
+        "content_sha256": "1aa9aadd91cca2835b1342ea1a29ef31d9991367a359bcab9d2e7954617c7165"
+      }
+    }
+  ]
+}

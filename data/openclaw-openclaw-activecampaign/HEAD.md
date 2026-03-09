@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-activecampaign
 type: skills
 title: activecampaign
-summary: ActiveCampaign CRM integration for lead management, deal tracking.
+summary: ActiveCampaign CRM integration for lead management, deal.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/activecampaign/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:24.869Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:48.853Z
 content_sha256: ead848bbd821ab7fc7a765d6b2710776f689bb0a51462203f5a1bdec946b58f0
 ---

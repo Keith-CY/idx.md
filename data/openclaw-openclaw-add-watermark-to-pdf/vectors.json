@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-add-watermark-to-pdf",
+  "generated_at": "2026-03-09T22:26:50.541Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-add-watermark-to-pdf#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-add-watermark-to-pdf/HEAD.md",
+      "text": "title: add-watermark-to-pdf\nsummary: Add a text watermark to one or multiple PDFs by uploading them to the Solutions API, polling until completion.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crossservicesolutions/add-watermark-to-pdf/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-add-watermark-to-pdf",
+        "topic": "openclaw-openclaw-add-watermark-to-pdf",
+        "type": "skills",
+        "title": "add-watermark-to-pdf",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crossservicesolutions/add-watermark-to-pdf/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:50.541Z",
+        "content_sha256": "6573ba8542d32b39914cbd12f7cb0fb114466db8f042cb439e56aaf01234ce6f"
+      }
+    }
+  ]
+}

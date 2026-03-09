@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-dupe",
+  "generated_at": "2026-03-09T22:28:09.753Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-dupe#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-dupe/HEAD.md",
+      "text": "title: dupe\nsummary: Uses dupe.com APIs in order to find similar products for the product found in the input URL given by the user.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crisanmm/dupe/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-dupe",
+        "topic": "openclaw-openclaw-dupe",
+        "type": "skills",
+        "title": "dupe",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crisanmm/dupe/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:09.753Z",
+        "content_sha256": "a115ed8edd86ef0a17c872ade663e8bc96a111c2ea7b72d0fa90a6cd1c2e9290"
+      }
+    }
+  ]
+}

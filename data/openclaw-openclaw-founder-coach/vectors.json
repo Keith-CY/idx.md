@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-founder-coach",
+  "generated_at": "2026-03-09T22:28:15.843Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-founder-coach#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-founder-coach/HEAD.md",
+      "text": "title: founder-coach\nsummary: AI-powered startup mindset coach that helps founders upgrade.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/goforu/founder-coach/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-founder-coach",
+        "topic": "openclaw-openclaw-founder-coach",
+        "type": "skills",
+        "title": "founder-coach",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/goforu/founder-coach/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:15.843Z",
+        "content_sha256": "0fbc9f53d04914c913a4893b0acaee668c9aab8d76a2f2c363a801b763926207"
+      }
+    }
+  ]
+}

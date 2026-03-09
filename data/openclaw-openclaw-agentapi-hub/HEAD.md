@@ -1,0 +1,19 @@
+---
+stable_id: skills/openclaw-openclaw-agentapi-hub
+type: skills
+title: agentapi-hub
+summary: Browse and search the AgentAPI directory - a curated database of APIs
+  designed for AI agents.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-browser-automation
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/agentapi-hub/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:08.478Z
+content_sha256: f7429706db25b1abeccc251563ee056fa35f7fc951c12cb9d259e18d7397a007
+---

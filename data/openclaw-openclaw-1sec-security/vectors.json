@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-1sec-security",
+  "generated_at": "2026-03-09T22:26:39.457Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-1sec-security#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-1sec-security/HEAD.md",
+      "text": "title: 1sec-security\nsummary: Install, configure, and manage 1-SEC — an open-source, all-in-one cybersecurity platform (16 modules, single binary)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cutmob/1sec-security/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-1sec-security",
+        "topic": "openclaw-openclaw-1sec-security",
+        "type": "skills",
+        "title": "1sec-security",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cutmob/1sec-security/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:39.457Z",
+        "content_sha256": "d180ff8032033a51d9dcd52b983723cc68bab6cdb7062f723c7733534507fcf3"
+      }
+    }
+  ]
+}

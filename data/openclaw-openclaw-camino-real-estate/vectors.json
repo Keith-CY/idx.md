@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-camino-real-estate",
+  "generated_at": "2026-03-09T22:27:48.616Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-camino-real-estate#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-camino-real-estate/HEAD.md",
+      "text": "title: camino-real-estate\nsummary: Evaluate any address for home buyers and renters.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/james-southendsolutions/camino-real-estate/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-camino-real-estate",
+        "topic": "openclaw-openclaw-camino-real-estate",
+        "type": "skills",
+        "title": "camino-real-estate",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/james-southendsolutions/camino-real-estate/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:48.616Z",
+        "content_sha256": "787316773c8faf661e21f89dc0184a7c5732dbf9e49fcf71f8bbfc21126d9a5c"
+      }
+    }
+  ]
+}

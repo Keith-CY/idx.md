@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agenticmail",
+  "generated_at": "2026-03-09T22:27:12.083Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agenticmail#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agenticmail/HEAD.md",
+      "text": "title: agenticmail\nsummary: 🎀 AgenticMail — Full email, SMS, storage & multi-agent coordination for AI agents. 63 tools.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ope-olatunji/agenticmail/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agenticmail",
+        "topic": "openclaw-openclaw-agenticmail",
+        "type": "skills",
+        "title": "agenticmail",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ope-olatunji/agenticmail/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:12.083Z",
+        "content_sha256": "be24a02f732243a750f9672e09edb1f7f2c6449204036788abcda12ba18a9fd0"
+      }
+    }
+  ]
+}

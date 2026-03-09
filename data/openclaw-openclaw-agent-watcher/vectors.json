@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-watcher",
+  "generated_at": "2026-03-09T22:27:07.981Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-watcher#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-watcher/HEAD.md",
+      "text": "title: agent-watcher\nsummary: A skill for monitoring Moltbook feed, detecting new agents, and tracking interesting posts.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-devops-cloud\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nantes/agent-watcher/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-watcher",
+        "topic": "openclaw-openclaw-agent-watcher",
+        "type": "skills",
+        "title": "agent-watcher",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-devops-cloud"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nantes/agent-watcher/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:07.981Z",
+        "content_sha256": "0d8d97d2653adceddef404645a0146d25e6bd1fdf5e991c2cf4dd3c4435a8e3e"
+      }
+    }
+  ]
+}

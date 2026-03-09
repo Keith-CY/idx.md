@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-btc15-prediction-market",
+  "generated_at": "2026-03-09T22:27:46.220Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-btc15-prediction-market#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-btc15-prediction-market/HEAD.md",
+      "text": "title: btc15-prediction-market\nsummary: BTC15 Autonomous Prediction Market.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kamal-sutra/btc15-prediction-market/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-btc15-prediction-market",
+        "topic": "openclaw-openclaw-btc15-prediction-market",
+        "type": "skills",
+        "title": "btc15-prediction-market",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kamal-sutra/btc15-prediction-market/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:46.220Z",
+        "content_sha256": "dda092c562ffc1ea25c1109d2f6ad8a6d47c1dbe555caf47c09340dd9ab4bebb"
+      }
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-browser",
-  "generated_at": "2026-03-09T07:22:26.163Z",
+  "generated_at": "2026-03-09T22:26:57.229Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-browser#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-agent-browser/HEAD.md",
-      "text": "title: Agent Browser\nsummary: A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/agent-browser/SKILL.md",
+      "text": "title: Agent Browser\nsummary: A fast Rust-based headless browser automation CLI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/agent-browser/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-agent-browser",
         "topic": "openclaw-openclaw-agent-browser",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/agent-browser/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:26.163Z",
+        "retrieved_at": "2026-03-09T22:26:57.229Z",
         "content_sha256": "04afeeb53a8b6ab953974311ec7ed60e0d66c532341ca21933625320f28b01c6"
       }
     }

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-eachlabs-music",
+  "generated_at": "2026-03-09T22:28:10.017Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-eachlabs-music#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-eachlabs-music/HEAD.md",
+      "text": "title: eachlabs-music\nsummary: Generate songs, instrumentals, lyrics, podcasts using Mureka AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/eachlabs-music/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-eachlabs-music",
+        "topic": "openclaw-openclaw-eachlabs-music",
+        "type": "skills",
+        "title": "eachlabs-music",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/eachlabs-music/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:10.017Z",
+        "content_sha256": "004c82ceebabcc81dd46f53ecb0c2578a3c2e0d02b9e0c1038a7ae3a4512325c"
+      }
+    }
+  ]
+}

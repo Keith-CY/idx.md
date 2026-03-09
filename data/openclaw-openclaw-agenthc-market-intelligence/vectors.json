@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agenthc-market-intelligence",
+  "generated_at": "2026-03-09T22:27:10.765Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agenthc-market-intelligence#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agenthc-market-intelligence/HEAD.md",
+      "text": "title: agenthc-market-intelligence\nsummary: Real-time stock market data and trading intelligence API. 85 intelligence modules, 40 encoded intelligence skills.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/traderhc123/agenthc-market-intelligence/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agenthc-market-intelligence",
+        "topic": "openclaw-openclaw-agenthc-market-intelligence",
+        "type": "skills",
+        "title": "agenthc-market-intelligence",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/traderhc123/agenthc-market-intelligence/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:10.765Z",
+        "content_sha256": "d4255a84871ee59f41c0b3596b9e399e75c07c42b97708f082843bad1c9c145c"
+      }
+    }
+  ]
+}

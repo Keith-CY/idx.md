@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-aegis-security",
+  "generated_at": "2026-03-09T22:26:53.046Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-aegis-security#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-aegis-security/HEAD.md",
+      "text": "title: aegis-security\nsummary: Blockchain security API for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/swiftadviser/aegis-security/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-aegis-security",
+        "topic": "openclaw-openclaw-aegis-security",
+        "type": "skills",
+        "title": "aegis-security",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/swiftadviser/aegis-security/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:53.046Z",
+        "content_sha256": "c0520bf04d4394ac00820d3a9f1e930c857b8987321c1cd2ce6bf331831f6e71"
+      }
+    }
+  ]
+}

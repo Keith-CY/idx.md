@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-molt-trust",
+  "generated_at": "2026-03-09T22:28:25.189Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-molt-trust#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-molt-trust/HEAD.md",
+      "text": "title: molt-trust\nsummary: The Analytics Engine for Moltbook.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/molt-trust/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-molt-trust",
+        "topic": "openclaw-openclaw-molt-trust",
+        "type": "skills",
+        "title": "molt-trust",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/molt-trust/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:25.189Z",
+        "content_sha256": "38670f91d3d7cfaa2811aeac1640b270461a7ca7644332047a023279b69688a5"
+      }
+    }
+  ]
+}

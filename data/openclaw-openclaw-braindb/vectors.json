@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-braindb",
+  "generated_at": "2026-03-09T22:27:42.869Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-braindb#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-braindb/HEAD.md",
+      "text": "title: braindb\nsummary: Persistent, semantic memory for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chair4ce/braindb/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-braindb",
+        "topic": "openclaw-openclaw-braindb",
+        "type": "skills",
+        "title": "braindb",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chair4ce/braindb/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:42.869Z",
+        "content_sha256": "a42ce0ab0320d3fec5356d255a76bef7ef10cb2174d26e58f2e8fcb323aab3db"
+      }
+    }
+  ]
+}

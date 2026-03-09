@@ -1,9 +1,9 @@
 ---
 name: standard-agentic-commerce-engine
-version: 1.6.2
+version: 1.6.4
 description: A production-ready universal engine for Agentic Commerce. This tool enables autonomous agents to interact with any compatible headless e-commerce backend through a standardized protocol. It provides out-of-the-box support for discovery, cart operations, and secure user management.
 tags: [ecommerce, shopping-agent, commerce-engine, standard-protocol, headless-commerce, agentic-web]
-metadata: {"clawdbot":{"emoji":"🛒","homepage":"https://github.com/NowLoadY/agent-commerce-engine","source":"https://github.com/NowLoadY/agent-commerce-engine","requires":{"bins":["python3"],"tools":[],"env":[],"optionalEnv":["COMMERCE_URL","COMMERCE_BRAND_ID","COMMERCE_BRAND_NAME"],"paths":["~/.clawdbot/credentials/agent-commerce-engine/"]},"install":[{"id":"python-deps","kind":"pip","package":"requests","label":"Install Python dependencies"}]}}
+metadata: {"openclaw":{"emoji":"🛒","homepage":"https://github.com/NowLoadY/agent-commerce-engine","source":"https://github.com/NowLoadY/agent-commerce-engine","requires":{"bins":["python3"],"tools":[],"env":[],"optionalEnv":["COMMERCE_URL","COMMERCE_BRAND_ID","COMMERCE_BRAND_NAME"],"paths":["~/.openclaw/credentials/agent-commerce-engine/"]},"install":[{"id":"python-deps","kind":"pip","package":"requests","label":"Install Python dependencies"}]}}
 ---
 
 # Standard Agentic Commerce Engine
@@ -26,7 +26,7 @@ For a production-grade implementation example using this engine, see the [Lafeit
 To ensure transparency and protect user data, the Standard Agentic Commerce Engine follows these security protocols:
 
 ### 1. Local Credential Persistence
-- **Storage Location**: `~/.clawdbot/credentials/agent-commerce-engine/`
+- **Storage Location**: `~/.openclaw/credentials/agent-commerce-engine/`
 - **Mechanism**: Account and session **Token** information is stored locally in JSON format with `0600` (user-only) permissions.
 - **Security Upgrade**: Since version 1.4.0, raw passwords are never stored after the initial login. The engine exchanges the password for a signed cryptographic token.
 - **Scope**: Data is only accessible to the local system user and the running agent instance.
@@ -124,7 +124,7 @@ export COMMERCE_URL="https://api.yourbrand.com/v1"
 python3 scripts/commerce.py list
 ```
 
-Credentials are automatically stored per-domain under `~/.clawdbot/credentials/agent-commerce-engine/<domain>/`.
+Credentials are automatically stored per-domain under `~/.openclaw/credentials/agent-commerce-engine/<domain>/`.
 
 ---
 

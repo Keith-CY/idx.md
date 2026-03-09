@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-sonarqube-analyzer",
+  "generated_at": "2026-03-09T22:28:31.266Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-sonarqube-analyzer#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-sonarqube-analyzer/HEAD.md",
+      "text": "title: sonarqube-analyzer\nsummary: Analisa projetos no SonarQube self-hosted, obtém issues e sugere soluções automatizadas.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/felipeoff/sonarqube-analyzer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-sonarqube-analyzer",
+        "topic": "openclaw-openclaw-sonarqube-analyzer",
+        "type": "skills",
+        "title": "sonarqube-analyzer",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/felipeoff/sonarqube-analyzer/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:31.266Z",
+        "content_sha256": "f7b4e6851b1b0c5f51d0ba2597f98d65e5fe7cdfd61b6d077d8a65b8de9c4d12"
+      }
+    }
+  ]
+}

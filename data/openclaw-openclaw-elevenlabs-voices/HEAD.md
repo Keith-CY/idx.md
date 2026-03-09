@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-elevenlabs-voices
 type: skills
 title: elevenlabs-voices
-summary: "ElevenLabs voice synthesis: 18 personas, 32 languages, sound effects."
+summary: High-quality voice synthesis with 18 personas, 32.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/elevenlabs-voices/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.914Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:11.982Z
 content_sha256: bbf60447e28644fdd3b5d79ab26a95b8a1b71ea7fb6f7d82dcf76adcd67f2936
 ---

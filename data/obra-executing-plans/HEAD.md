@@ -31,9 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/executing-plans/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md
-github_stars: 64877
-github_forks: 4946
+github_stars: 74053
+github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T07:21:46.469Z
+retrieved_at: 2026-03-09T22:22:57.219Z
 content_sha256: d099fa42fd7518f4dafa9f2d51c1c08fce970490d57682b6acd3e7a57bb55b52
 ---

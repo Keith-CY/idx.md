@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-best-image-generation",
+  "generated_at": "2026-03-09T22:27:37.894Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-best-image-generation#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-best-image-generation/HEAD.md",
+      "text": "title: best-image-generation\nsummary: Best quality AI image generation (~$0.12-0.20/image)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/evolinkai/best-image-generation/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-best-image-generation",
+        "topic": "openclaw-openclaw-best-image-generation",
+        "type": "skills",
+        "title": "best-image-generation",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/evolinkai/best-image-generation/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:37.894Z",
+        "content_sha256": "473ebcf07d3f1311536219514140f42d89b60d5ff699c8e89609002f6f7589b5"
+      }
+    }
+  ]
+}

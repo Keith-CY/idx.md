@@ -3,7 +3,7 @@
 | Category | Data & Analytics |
 | --- | --- |
 | Slug | data-analytics |
-| Count | 30 |
+| Count | 45 |
 
 ---
 stable_id: skills/knowledge-work-plugins-data-commands-analyze
@@ -22,7 +22,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:53.065Z
+retrieved_at: 2026-03-09T22:23:07.333Z
 content_sha256: b8bac8b88a189e8d35921b1d03a765fd210eca439af0593ce112ac0428e27711
 ---
 |/data/knowledge-work-plugins-data-commands-analyze|
@@ -44,7 +44,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:53.281Z
+retrieved_at: 2026-03-09T22:23:07.697Z
 content_sha256: 7fa55d21494f780787f3f191b94872abf52fafb096de6ecf2af07dfce1a415a0
 ---
 |/data/knowledge-work-plugins-data-commands-build-dashboard|
@@ -66,7 +66,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:53.173Z
+retrieved_at: 2026-03-09T22:23:07.517Z
 content_sha256: 0c50831f19e5ccfdb5870e6ca0b1a49c9c64b285deda6029630855f816173ff3
 ---
 |/data/knowledge-work-plugins-data-commands-create-viz|
@@ -88,7 +88,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:53.125Z
+retrieved_at: 2026-03-09T22:23:07.422Z
 content_sha256: 8a3b5f17d07ef38d613d5c1afbe4182d6d97f08c1319ef99ef04f75b55c2e76c
 ---
 |/data/knowledge-work-plugins-data-commands-explore-data|
@@ -110,7 +110,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.961Z
+retrieved_at: 2026-03-09T22:23:07.239Z
 content_sha256: 4862f16199260e7781416359baab1158c41bae3a023f0296257ba1f4a5c93ebd
 ---
 |/data/knowledge-work-plugins-data-commands-validate|
@@ -132,7 +132,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:53.229Z
+retrieved_at: 2026-03-09T22:23:07.607Z
 content_sha256: 03e0828cbc45a7883f8219a1f585943ed32be1b4d9de50a9579bba5d9e83ace0
 ---
 |/data/knowledge-work-plugins-data-commands-write-query|
@@ -169,7 +169,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.862Z
+retrieved_at: 2026-03-09T22:23:07.048Z
 content_sha256: 6d05dec52ac3667b551898b9eb943f5ee08141bc8d2fabb69a8e39bb9ce7c754
 ---
 |/data/knowledge-work-plugins-data-skills-data-context-extractor-skill|
@@ -194,7 +194,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.909Z
+retrieved_at: 2026-03-09T22:23:07.140Z
 content_sha256: c8b1888ca08326bc4a1bef761b98846025b03c0db816a51e8fc7603e5c8c81bb
 ---
 |/data/knowledge-work-plugins-data-skills-data-exploration-skill|
@@ -219,7 +219,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.566Z
+retrieved_at: 2026-03-09T22:23:06.558Z
 content_sha256: 48886570df5ce7f94590b132cac0b3ca7e51a85fc27caf78f7605ae61f3f96de
 ---
 |/data/knowledge-work-plugins-data-skills-data-validation-skill|
@@ -244,7 +244,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.754Z
+retrieved_at: 2026-03-09T22:23:06.849Z
 content_sha256: 728d3b95b9ebc744594076a2263c02b2a3f8f16a947437e66c035ef2329a12df
 ---
 |/data/knowledge-work-plugins-data-skills-data-visualization-skill|
@@ -269,7 +269,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.699Z
+retrieved_at: 2026-03-09T22:23:06.752Z
 content_sha256: 3756173c5802fd4f60eda76087edc778ceda155dc6404d6a2fa9ca54c0e18d9f
 ---
 |/data/knowledge-work-plugins-data-skills-interactive-dashboard-builder-skill|
@@ -294,7 +294,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.809Z
+retrieved_at: 2026-03-09T22:23:06.940Z
 content_sha256: dd4879f528bd904ef44b2a81b35f503e9170c87a0b65a85d508a7fe0da7bfc6d
 ---
 |/data/knowledge-work-plugins-data-skills-sql-queries-skill|
@@ -319,10 +319,50 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.615Z
+retrieved_at: 2026-03-09T22:23:06.656Z
 content_sha256: bc3ba97bd77717a9a2a9defcec4f3d1bdf6921d587306754396c9a6ba40e22c2
 ---
 |/data/knowledge-work-plugins-data-skills-statistical-analysis-skill|
+
+---
+stable_id: skills/openclaw-openclaw-add-analytics
+type: skills
+title: add-analytics
+summary: Add Google Analytics 4 tracking to any project.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeftekhari/add-analytics/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:50.325Z
+content_sha256: 9c2201c5e5c108ecdc88deaeda6ca535b6723a6a071463d28bcc9c639fe84658
+---
+|/data/openclaw-openclaw-add-analytics|
+
+---
+stable_id: skills/openclaw-openclaw-amplitude-automation
+type: skills
+title: amplitude-automation
+summary: Automate Amplitude tasks via Rube MCP.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sohamganatra/amplitude-automation/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:22.368Z
+content_sha256: 45fb403deecf7bb34816ce67b31f7fee60add0b7a59b5c186d65f97c2bbf1ca0
+---
+|/data/openclaw-openclaw-amplitude-automation|
 
 ---
 stable_id: skills/openclaw-openclaw-canva
@@ -336,10 +376,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/abgohel/canva/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:42.668Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:48.967Z
 content_sha256: e4a0cd21b196a2321d7e95236e32505f4316668208976f03d45ef3ec6e3e3ba0
 ---
 |/data/openclaw-openclaw-canva|
@@ -348,7 +388,7 @@ content_sha256: e4a0cd21b196a2321d7e95236e32505f4316668208976f03d45ef3ec6e3e3ba0
 stable_id: skills/openclaw-openclaw-ceorater
 type: skills
 title: ceorater
-summary: Get institutional-grade CEO performance analytics for S&P 500 companies.
+summary: Get institutional-grade CEO performance analytics for S&P 500.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -356,13 +396,233 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ceorater-skills/ceorater/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:43.540Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:50.947Z
 content_sha256: 73917ed8a5c5e8616a35f99cd3b556e6f8dc6612065446bef5cfe16238c328ad
 ---
 |/data/openclaw-openclaw-ceorater|
+
+---
+stable_id: skills/openclaw-openclaw-check-analytics
+type: skills
+title: check-analytics
+summary: Audit existing Google Analytics implementation.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeftekhari/check-analytics/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:51.873Z
+content_sha256: 6691b589d6808251d17152f262572c6ca83ce4860395b7e1206a7e78f8e19ccd
+---
+|/data/openclaw-openclaw-check-analytics|
+
+---
+stable_id: skills/openclaw-openclaw-cicd-pipeline
+type: skills
+title: cicd-pipeline
+summary: Create, debug, and manage CI/CD pipelines with GitHub.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gitgoodordietrying/cicd-pipeline/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:52.794Z
+content_sha256: b78f9e933d2a7d64b6270da2b08315d18e094e6a610eefb5b2196a4bce1bddab
+---
+|/data/openclaw-openclaw-cicd-pipeline|
+
+---
+stable_id: skills/openclaw-openclaw-clawver-store-analytics
+type: skills
+title: clawver-store-analytics
+summary: Monitor Clawver store performance.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nwang783/clawver-store-analytics/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:59.492Z
+content_sha256: 78f37eaee699807bb4e6cb50150a26114eceee13001ffcf7af2bb93c0adf5cdf
+---
+|/data/openclaw-openclaw-clawver-store-analytics|
+
+---
+stable_id: skills/openclaw-openclaw-clean-skill-1
+type: skills
+title: clean-skill-1
+summary: A friendly greeting skill for testing.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/clean-skill-1/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:59.732Z
+content_sha256: 9752f743866055a5f925bd85bea2b7c18e2c553d872dd1b4fbf6a8efe324585f
+---
+|/data/openclaw-openclaw-clean-skill-1|
+
+---
+stable_id: skills/openclaw-openclaw-cleanboi-00002
+type: skills
+title: cleanboi-00002
+summary: A friendly greeting skill for testing.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/cleanboi-00002/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:59.862Z
+content_sha256: 9752f743866055a5f925bd85bea2b7c18e2c553d872dd1b4fbf6a8efe324585f
+---
+|/data/openclaw-openclaw-cleanboi-00002|
+
+---
+stable_id: skills/openclaw-openclaw-cleanup
+type: skills
+title: cleanup
+summary: Remove all stored Kradleverse sessions.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/themrzz/cleanup/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:59.979Z
+content_sha256: d941d61aa90d0a806484b92219101058eb1f660ca344394fa2f8e6808df5fdc7
+---
+|/data/openclaw-openclaw-cleanup|
+
+---
+stable_id: skills/openclaw-openclaw-csv-pipeline
+type: skills
+title: csv-pipeline
+summary: Process, transform, analyze, and report on CSV and JSON.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gitgoodordietrying/csv-pipeline/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:04.086Z
+content_sha256: 8d9d259c5d2da4da89a6da125c2522181b5d3f1507abfe3174ca0397d40abe90
+---
+|/data/openclaw-openclaw-csv-pipeline|
+
+---
+stable_id: skills/openclaw-openclaw-daily-report
+type: skills
+title: daily-report
+summary: Track progress, report metrics, manage memory.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visualdeptcreative/daily-report/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:05.309Z
+content_sha256: 8221b27c4375065999aa1112b43f61287bf25ee56b64210837a48e0140c282bd
+---
+|/data/openclaw-openclaw-daily-report|
+
+---
+stable_id: skills/openclaw-openclaw-data-analyst
+type: skills
+title: data-analyst
+summary: Data visualization, report generation, SQL queries, and spreadsheet.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oyi77/data-analyst/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:05.802Z
+content_sha256: 90a1ca28d63ca04ff4ec6b518b28f07db6e24ffb25eab9ba7ec3437e82c4abef
+---
+|/data/openclaw-openclaw-data-analyst|
+
+---
+stable_id: skills/openclaw-openclaw-data-enricher
+type: skills
+title: data-enricher
+summary: Enrich leads with email addresses and format data.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visualdeptcreative/data-enricher/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:05.932Z
+content_sha256: 3897a88ec829be2cdaf47318ebd4fb488c5643e25b713a2705c8c21de0714373
+---
+|/data/openclaw-openclaw-data-enricher|
+
+---
+stable_id: skills/openclaw-openclaw-data-lineage-tracker
+type: skills
+title: data-lineage-tracker
+summary: Track data origin, transformations.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/datadrivenconstruction/data-lineage-tracker/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:06.023Z
+content_sha256: 45474ee7cbaacf1827512478be134dbd19a4545ff295bd9c3f89dfca6dff2f95
+---
+|/data/openclaw-openclaw-data-lineage-tracker|
 
 ---
 stable_id: skills/openclaw-openclaw-design-assets
@@ -376,10 +636,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/design-assets/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:58.852Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:07.283Z
 content_sha256: 55f41f6afea81eb64028ba1609bd096c47e751b42718cea5091ab0573b1531ee
 ---
 |/data/openclaw-openclaw-design-assets|
@@ -388,7 +648,7 @@ content_sha256: 55f41f6afea81eb64028ba1609bd096c47e751b42718cea5091ab0573b1531ee
 stable_id: skills/openclaw-openclaw-duckdb-cli-ai-skills
 type: skills
 title: duckdb-en
-summary: DuckDB CLI specialist for SQL analysis, data processing and file conversion.
+summary: DuckDB CLI specialist for SQL analysis, data processing.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -396,10 +656,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/camelsprout/duckdb-cli-ai-skills/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:01.732Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:09.628Z
 content_sha256: abfa85cbbc2be6483990f4a73358ad5ed44fa4ae9a1bd5b89893d8f2cd135a90
 ---
 |/data/openclaw-openclaw-duckdb-cli-ai-skills|
@@ -416,10 +676,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/longmaba/facebook-page-manager/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:05.577Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:13.645Z
 content_sha256: 38f29dc7eea04935f667709a1f654b267dce9800791604fa94a8d9bce772f6eb
 ---
 |/data/openclaw-openclaw-facebook-page-manager|
@@ -428,7 +688,7 @@ content_sha256: 38f29dc7eea04935f667709a1f654b267dce9800791604fa94a8d9bce772f6eb
 stable_id: skills/openclaw-openclaw-get-weather
 type: skills
 title: get-weather
-summary: Fetch current weather and forecast data from a free weather API (Open-Meteo).
+summary: Fetch current weather and forecast data from a free weather API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -436,20 +696,39 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/noypearl/get-weather/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:11.710Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:17.108Z
 content_sha256: b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70
 ---
 |/data/openclaw-openclaw-get-weather|
+
+---
+stable_id: skills/openclaw-openclaw-google-analytics-api
+type: skills
+title: google-analytics-api
+summary: Google Analytics API integration with managed.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rich-song/google-analytics-api/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:17.993Z
+content_sha256: 332ec30fd24e99aaa351f73d9b9e3474c176d4fb38eebefda58925a6588d8ebb
+---
+|/data/openclaw-openclaw-google-analytics-api|
 
 ---
 stable_id: skills/openclaw-openclaw-hyperliquid
 type: skills
 title: hyperliquid
 summary: Read-only Hyperliquid market data assistant (perps + spot optional)
-  with support for natural-language requests.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -457,10 +736,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/k0nkupa/hyperliquid/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:19.411Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:20.090Z
 content_sha256: d2086008a10c8e907b9f0c15111fa460f3f716d817de50116dfbaea284879be7
 ---
 |/data/openclaw-openclaw-hyperliquid|
@@ -477,20 +756,39 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tiagom101/ipinfo/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:22.760Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:21.426Z
 content_sha256: 9b20a2cf408ed86e3687d7a679d87985bb6a5fb228fe4116cdd847ff86809a5e
 ---
 |/data/openclaw-openclaw-ipinfo|
 
 ---
+stable_id: skills/openclaw-openclaw-kradleverse-cleanup
+type: skills
+title: kradleverse-cleanup
+summary: Remove all stored Kradleverse sessions.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-data-analytics
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/themrzz/kradleverse-cleanup/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:22.031Z
+content_sha256: d941d61aa90d0a806484b92219101058eb1f660ca344394fa2f8e6808df5fdc7
+---
+|/data/openclaw-openclaw-kradleverse-cleanup|
+
+---
 stable_id: skills/openclaw-openclaw-linkdapi
 type: skills
 title: linkdapi
-summary: Work with LinkdAPI Python SDK for accessing LinkedIn professional
-  profile and company data.
+summary: Work with LinkdAPI Python SDK for accessing LinkedIn professional profile.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -498,10 +796,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/foontinz/linkdapi/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:29.067Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:22.534Z
 content_sha256: 34a67b5284b62fe063d5f8a6e2d1e1e342eb3e12a97b7ed0c81149efef0b0cd7
 ---
 |/data/openclaw-openclaw-linkdapi|
@@ -521,7 +819,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:42.422Z
+retrieved_at: 2026-03-09T22:24:54.607Z
 content_sha256: 75c28d426dd98024898f81ee0c55f6371615ebde09aeae34138e04654d3706bb
 ---
 |/data/openclaw-openclaw-nocodb|
@@ -542,7 +840,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:48.032Z
+retrieved_at: 2026-03-09T22:25:03.409Z
 content_sha256: c7176395e80c73f4a266f342383dc20fa5616184925f0ea21a0935deff23d7ec
 ---
 |/data/openclaw-openclaw-osint-graph-analyzer|
@@ -562,7 +860,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:51.399Z
+retrieved_at: 2026-03-09T22:23:04.827Z
 content_sha256: b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70
 ---
 |/data/openclaw-openclaw-rankaj|
@@ -582,7 +880,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:16.702Z
+retrieved_at: 2026-03-09T22:25:44.058Z
 content_sha256: 02e06c95610cdc5a2ac39b0c09dbf4f54e5e808ce6b3609399220be247a6280d
 ---
 |/data/openclaw-openclaw-supabase|
@@ -602,7 +900,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:17.009Z
+retrieved_at: 2026-03-09T22:25:44.527Z
 content_sha256: 392316064b9893241f45d9b25962bbebfa91d094495435d1895a88a1dee72006
 ---
 |/data/openclaw-openclaw-sure|
@@ -622,7 +920,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:18.621Z
+retrieved_at: 2026-03-09T22:25:46.127Z
 content_sha256: b0ac26a0d839493ba086011114d4799fc2bcb133b4b83ad79d6fba4396ccea82
 ---
 |/data/openclaw-openclaw-tabstack-extractor|
@@ -643,7 +941,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:21.764Z
+retrieved_at: 2026-03-09T22:25:50.930Z
 content_sha256: 6d967082cd8d668914ddb024863e6aa10621962f354fa55e75a161a88d6b4dd4
 ---
 |/data/openclaw-openclaw-thingsboard-skill|
@@ -664,7 +962,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:26.843Z
+retrieved_at: 2026-03-09T22:25:59.068Z
 content_sha256: c954737a73f0fb8c106cca5373e700b56176efbdabfda35c7433d56d3d145682
 ---
 |/data/openclaw-openclaw-umea-data|

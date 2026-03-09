@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-rate-limiter-b3ddd6c9",
+  "generated_at": "2026-03-09T22:27:04.139Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-rate-limiter-b3ddd6c9#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-rate-limiter-b3ddd6c9/HEAD.md",
+      "text": "title: agent-rate-limiter\nsummary: Prevent 429s with automatic tier-based throttling & exponential backoff.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/theagentwire/agent-rate-limiter/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-rate-limiter-b3ddd6c9",
+        "topic": "openclaw-openclaw-agent-rate-limiter-b3ddd6c9",
+        "type": "skills",
+        "title": "agent-rate-limiter",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theagentwire/agent-rate-limiter/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:04.139Z",
+        "content_sha256": "5e4b9afde8b8f73e42aaff478f16025dabda7f247a10315969ec150038009cc0"
+      }
+    }
+  ]
+}

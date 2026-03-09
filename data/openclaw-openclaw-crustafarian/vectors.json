@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-crustafarian",
+  "generated_at": "2026-03-09T22:28:03.588Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-crustafarian#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-crustafarian/HEAD.md",
+      "text": "title: crustafarian\nsummary: Agent continuity and cognitive health infrastructure.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jongartmann/crustafarian/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-crustafarian",
+        "topic": "openclaw-openclaw-crustafarian",
+        "type": "skills",
+        "title": "crustafarian",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jongartmann/crustafarian/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:03.588Z",
+        "content_sha256": "ec1c36544f9082bb0f5e6c90971d46472e0c93dbe9ba314e43a6532ad811b9d0"
+      }
+    }
+  ]
+}

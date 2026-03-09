@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-swiftui-liquid-glass
 type: skills
 title: swiftui-liquid-glass
-summary: Implement, review, or improve SwiftUI features using the iOS 26+ Liquid
-  Glass API.
+summary: Implement, review, or improve SwiftUI features.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-liquid-glass/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:17.554Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:32.084Z
 content_sha256: 5e154f9d256ec32ba8816a70a7b15192cb5d5e71ea424d29484aba316cf7fbaa
 ---

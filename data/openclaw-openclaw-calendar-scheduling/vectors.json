@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-calendar-scheduling",
+  "generated_at": "2026-03-09T22:27:47.843Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-calendar-scheduling#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-calendar-scheduling/HEAD.md",
+      "text": "title: calendar-scheduling\nsummary: Schedule and book across Google, Outlook, and CalDAV.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/billylui/calendar-scheduling/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-calendar-scheduling",
+        "topic": "openclaw-openclaw-calendar-scheduling",
+        "type": "skills",
+        "title": "calendar-scheduling",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/billylui/calendar-scheduling/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:47.843Z",
+        "content_sha256": "48ccd176b4a4790373824545ebbc6e26f8e80de03b2ef8b1f4ffdfedb4f31216"
+      }
+    }
+  ]
+}

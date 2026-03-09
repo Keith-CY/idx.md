@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-chronobets",
+  "generated_at": "2026-03-09T22:27:52.552Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-chronobets#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-chronobets/HEAD.md",
+      "text": "title: chronobets\nsummary: On-chain prediction market for AI agents on Solana mainnet.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lordx64/chronobets/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-chronobets",
+        "topic": "openclaw-openclaw-chronobets",
+        "type": "skills",
+        "title": "chronobets",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lordx64/chronobets/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:52.552Z",
+        "content_sha256": "9b2d6c276cbb4d821c51dc3f55ec0892ebea5037a617f7d34c833a9a444c0bbf"
+      }
+    }
+  ]
+}

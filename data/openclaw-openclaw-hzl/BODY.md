@@ -332,6 +332,9 @@ hzl task list -P <project> --tags <csv>       # Filter by tags
 # Create with options
 hzl task add "<title>" -P <project> --priority 2 --tags backend,auth
 hzl task add "<title>" -P <project> -s in_progress --agent <name>
+hzl task add "<title>" -P <project> --stale-after 2h
+hzl task update <id> --stale-after 30m
+hzl task update <id> --clear-stale-after
 
 # Agent fleet status
 hzl agent status                              # Active/idle agents, current tasks, lease state
@@ -344,6 +347,12 @@ hzl serve                                     # Start on port 3456
 hzl serve --host 127.0.0.1                    # Restrict to localhost
 hzl serve --background                        # Fork to background
 hzl serve --status / --stop
+
+# Raw reporting surfaces
+hzl events                                    # NDJSON event feed
+hzl events --follow
+hzl events --from 0 > events.jsonl
+hzl stats --window 1h
 
 # Authorship
 hzl task claim <id> --agent alice

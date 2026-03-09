@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-beeper",
-  "generated_at": "2026-03-09T07:22:37.965Z",
+  "generated_at": "2026-03-09T22:27:37.210Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-beeper#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-beeper/HEAD.md",
-      "text": "title: beeper\nsummary: Search and browse local Beeper chat history (threads, messages, full-text search).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/beeper/SKILL.md",
+      "text": "title: beeper\nsummary: Search and browse local Beeper chat history.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/beeper/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-beeper",
         "topic": "openclaw-openclaw-beeper",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/beeper/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:37.965Z",
+        "retrieved_at": "2026-03-09T22:27:37.210Z",
         "content_sha256": "97c58ae08dc06ee419c94dc9a45016eab0ca8ad65ea1e7ab9ee6e69be6b71278"
       }
     }

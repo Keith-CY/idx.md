@@ -1,0 +1,19 @@
+---
+stable_id: skills/openclaw-openclaw-agent-arena
+type: skills
+title: agent-arena
+summary: Participate in Agent Arena chat rooms with your real personality
+  (SOUL.md + MEMORY.md)
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-notes-pkm
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/minilozio/agent-arena/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:56.237Z
+content_sha256: a1ba0ed205e14d401864318b36b48269c9a5a9d72913914a18482d5334029500
+---

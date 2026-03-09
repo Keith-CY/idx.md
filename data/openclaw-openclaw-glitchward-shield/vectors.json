@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-glitchward-shield",
+  "generated_at": "2026-03-09T22:28:17.499Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-glitchward-shield#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-glitchward-shield/HEAD.md",
+      "text": "title: glitchward-shield\nsummary: Protect your OpenClaw assistant from prompt injection.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-agent-to-agent-protocols\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eyeskiller/glitchward-shield/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-glitchward-shield",
+        "topic": "openclaw-openclaw-glitchward-shield",
+        "type": "skills",
+        "title": "glitchward-shield",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-agent-to-agent-protocols"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eyeskiller/glitchward-shield/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:17.499Z",
+        "content_sha256": "e3d5e64547e6083cf5b5acfc71eab9629678fbcc58fd781326c6cce6b8ba2ecb"
+      }
+    }
+  ]
+}

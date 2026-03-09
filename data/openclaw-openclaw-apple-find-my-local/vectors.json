@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apple-find-my-local",
+  "generated_at": "2026-03-09T22:27:26.536Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apple-find-my-local#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apple-find-my-local/HEAD.md",
+      "text": "title: apple-find-my-local\nsummary: Control Apple Find My app via Peekaboo to locate people, devices, and items (AirTags)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/loganprit/apple-find-my-local/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apple-find-my-local",
+        "topic": "openclaw-openclaw-apple-find-my-local",
+        "type": "skills",
+        "title": "apple-find-my-local",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/loganprit/apple-find-my-local/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:26.536Z",
+        "content_sha256": "54a8a5f860d7991b53c730cafc673657304ea7a77293b20e5f0b77383751a5d5"
+      }
+    }
+  ]
+}

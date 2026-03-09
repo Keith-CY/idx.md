@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-blogburst",
+  "generated_at": "2026-03-09T22:27:40.395Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-blogburst#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-blogburst/HEAD.md",
+      "text": "title: blogburst\nsummary: Turn any article into 10+ social media posts in seconds.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shensi8312/blogburst/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-blogburst",
+        "topic": "openclaw-openclaw-blogburst",
+        "type": "skills",
+        "title": "blogburst",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shensi8312/blogburst/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:40.395Z",
+        "content_sha256": "7cda22ffbe9a9e65a2a4d43f600565b80fc47d7e165faf3d6a589b907a843df9"
+      }
+    }
+  ]
+}

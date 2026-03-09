@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swiftui-liquid-glass",
-  "generated_at": "2026-03-09T07:24:17.554Z",
+  "generated_at": "2026-03-09T22:28:32.084Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swiftui-liquid-glass#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-swiftui-liquid-glass/HEAD.md",
-      "text": "title: swiftui-liquid-glass\nsummary: Implement, review, or improve SwiftUI features using the iOS 26+ Liquid Glass API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ios-macos-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-liquid-glass/SKILL.md",
+      "text": "title: swiftui-liquid-glass\nsummary: Implement, review, or improve SwiftUI features.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ios-macos-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-liquid-glass/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-swiftui-liquid-glass",
         "topic": "openclaw-openclaw-swiftui-liquid-glass",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-liquid-glass/SKILL.md",
-        "retrieved_at": "2026-03-09T07:24:17.554Z",
+        "retrieved_at": "2026-03-09T22:28:32.084Z",
         "content_sha256": "5e154f9d256ec32ba8816a70a7b15192cb5d5e71ea424d29484aba316cf7fbaa"
       }
     }

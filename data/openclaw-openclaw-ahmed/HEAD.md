@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-ahmed
 type: skills
 title: ahmed
-summary: Terminal Spotify playback/search via spogo (preferred) or spotify_player.
+summary: Terminal Spotify playback/search via spogo (preferred)
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/engahmedsalah358-lgtm/ahmed/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:29.492Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:14.722Z
 content_sha256: 4a7a735fe86c25c51c589f1c59890b8ae8d83ed6663bef57e8b0252e4ab0b1fc
 ---

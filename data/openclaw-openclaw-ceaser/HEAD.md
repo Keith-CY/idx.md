@@ -1,0 +1,19 @@
+---
+stable_id: skills/openclaw-openclaw-ceaser
+type: skills
+title: ceaser
+summary: Interact with the Ceaser privacy protocol on Base L2 using the
+  ceaser-mcp MCP tools.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-notes-pkm
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zyra-v21/ceaser/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:50.485Z
+content_sha256: 0de86694920a1447e311533c9ea6f06d0a6ab5fc3bb17992dd2c5a135b9bcbc8
+---

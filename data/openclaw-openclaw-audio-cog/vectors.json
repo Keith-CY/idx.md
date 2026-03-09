@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-audio-cog",
+  "generated_at": "2026-03-09T22:27:32.502Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-audio-cog#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-audio-cog/HEAD.md",
+      "text": "title: audio-cog\nsummary: AI audio generation powered by CellCog.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/audio-cog/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-audio-cog",
+        "topic": "openclaw-openclaw-audio-cog",
+        "type": "skills",
+        "title": "audio-cog",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/audio-cog/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:32.502Z",
+        "content_sha256": "0432c435eeefef395ab219984f329f00e9030cab7157399f1669d3b52c4a2cf7"
+      }
+    }
+  ]
+}

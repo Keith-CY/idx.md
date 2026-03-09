@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-card-provisioning",
+  "generated_at": "2026-03-09T22:26:57.766Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-card-provisioning#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-card-provisioning/HEAD.md",
+      "text": "title: agent-card-provisioning\nsummary: Provision virtual payment cards for AI agents on-demand.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-transportation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/proxyhq/agent-card-provisioning/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-card-provisioning",
+        "topic": "openclaw-openclaw-agent-card-provisioning",
+        "type": "skills",
+        "title": "agent-card-provisioning",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-transportation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/proxyhq/agent-card-provisioning/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:57.766Z",
+        "content_sha256": "5fbe05796b79165b686938c29cfb0e2e1b9b536eb4c0763b57141828f990ab18"
+      }
+    }
+  ]
+}

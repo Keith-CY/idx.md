@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-donotify-voice-call-reminder",
+  "generated_at": "2026-03-09T22:28:09.027Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-donotify-voice-call-reminder#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-donotify-voice-call-reminder/HEAD.md",
+      "text": "title: donotify-voice-call-reminder\nsummary: Send immediate voice call reminders or schedule future calls via DoNotify.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/micahele/donotify-voice-call-reminder/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-donotify-voice-call-reminder",
+        "topic": "openclaw-openclaw-donotify-voice-call-reminder",
+        "type": "skills",
+        "title": "donotify-voice-call-reminder",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/micahele/donotify-voice-call-reminder/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:09.027Z",
+        "content_sha256": "edc184652365dc343715f72494e95b0eeddc3eb05c4dabf5285af0bf6b3ccf33"
+      }
+    }
+  ]
+}

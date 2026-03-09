@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-swift-concurrency-expert
 type: skills
 title: swift-concurrency-expert
-summary: Swift Concurrency review and remediation for Swift 6.2+.
+summary: Swift Concurrency review and remediation.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swift-concurrency-expert/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:17.283Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:31.743Z
 content_sha256: 717b8cc2ace6e26f1143f2961761ff91d23bd37e8fa06060ec369fda591ec4b2
 ---

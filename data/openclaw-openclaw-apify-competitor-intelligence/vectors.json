@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apify-competitor-intelligence",
+  "generated_at": "2026-03-09T22:27:25.220Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apify-competitor-intelligence#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apify-competitor-intelligence/HEAD.md",
+      "text": "title: apify-competitor-intelligence\nsummary: Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-media-streaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/protoss70/apify-competitor-intelligence/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apify-competitor-intelligence",
+        "topic": "openclaw-openclaw-apify-competitor-intelligence",
+        "type": "skills",
+        "title": "apify-competitor-intelligence",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-media-streaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/protoss70/apify-competitor-intelligence/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:25.220Z",
+        "content_sha256": "5bee0052c57a011fa585c7e197299afefc3f6df9cf9fa937b20c5dc783cde581"
+      }
+    }
+  ]
+}

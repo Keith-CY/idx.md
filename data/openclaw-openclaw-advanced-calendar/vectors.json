@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-advanced-calendar",
+  "generated_at": "2026-03-09T22:26:52.178Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-advanced-calendar#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-advanced-calendar/HEAD.md",
+      "text": "title: advanced-calendar\nsummary: Advanced calendar skill with natural language.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/toughworm/advanced-calendar/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-advanced-calendar",
+        "topic": "openclaw-openclaw-advanced-calendar",
+        "type": "skills",
+        "title": "advanced-calendar",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/toughworm/advanced-calendar/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:52.178Z",
+        "content_sha256": "370411df6be91c04b565081e5c9f6f1d36af4a7849de567e858a4498a4f7900a"
+      }
+    }
+  ]
+}

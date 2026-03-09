@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-farmos-weather",
+  "generated_at": "2026-03-09T22:28:13.938Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-farmos-weather#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-farmos-weather/HEAD.md",
+      "text": "title: farmos-weather\nsummary: Query weather data and forecasts for farm fields via the Agronomy module.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brianppetty/farmos-weather/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-farmos-weather",
+        "topic": "openclaw-openclaw-farmos-weather",
+        "type": "skills",
+        "title": "farmos-weather",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brianppetty/farmos-weather/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:13.938Z",
+        "content_sha256": "6cea5868f89e5b0359947aa071e76c761999d27b13a855b5b370bc390272305f"
+      }
+    }
+  ]
+}

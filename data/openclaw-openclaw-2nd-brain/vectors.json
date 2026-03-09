@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-2nd-brain",
+  "generated_at": "2026-03-09T22:26:39.696Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-2nd-brain#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-2nd-brain/HEAD.md",
+      "text": "title: 2nd-brain\nsummary: Personal knowledge base for capturing and retrieving information about people, places, restaurants, games, tech.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coderaven/2nd-brain/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-2nd-brain",
+        "topic": "openclaw-openclaw-2nd-brain",
+        "type": "skills",
+        "title": "2nd-brain",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/coderaven/2nd-brain/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:39.696Z",
+        "content_sha256": "1278142ef1c724d8373fe7d111acf93ebfaa4f8388de76d4291116db2e72c6ac"
+      }
+    }
+  ]
+}

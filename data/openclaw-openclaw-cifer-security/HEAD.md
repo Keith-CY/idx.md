@@ -1,0 +1,19 @@
+---
+stable_id: skills/openclaw-openclaw-cifer-security
+type: skills
+title: cifer-security
+summary: Implement quantum-resistant encryption using the CIFER SDK (cifer-sdk
+  npm package)
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-security-passwords
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tip-citron/cifer-security/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:52.997Z
+content_sha256: 395a33a230d09e2f06c21159af7ea660b0b9f4f11d497e3a282939ef8e2ace5e
+---

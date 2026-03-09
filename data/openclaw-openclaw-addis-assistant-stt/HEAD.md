@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-addis-assistant-stt
 type: skills
 title: addis-assistant-stt
-summary: Provides Speech-to-Text (STT) and text Translation using the Addis
-  Assistant API (api.addisassistant.com).
+summary: Provides Speech-to-Text (STT) and text.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dagmawibabi/addis-assistant-stt/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:25.252Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:50.780Z
 content_sha256: d186a458e1ed4d4b5accf8135a01ed8c0eaf645cbd00c6a63fe372914a4f7615
 ---

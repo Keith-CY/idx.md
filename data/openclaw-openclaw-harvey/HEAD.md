@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-harvey
 type: skills
 title: harvey
-summary: Harvey is an imaginary friend and conversation companion.
+summary: Harvey is an imaginary friend and conversation companion - a large white.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/harvey/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:17.007Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:18.869Z
 content_sha256: f062a3bff708fea3e95e3dd0ca359400192b22acb01443523134e92e5c0bfd5b
 ---

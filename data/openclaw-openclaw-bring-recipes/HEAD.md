@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-bring-recipes
 type: skills
 title: bring-recipes
-summary: Use when user wants to browse recipe inspirations from Bring! shopping app.
+summary: Use when user wants to browse recipe inspirations.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-recipes/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:40.931Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:45.425Z
 content_sha256: a2da23f1ce096edf2a3ddb0a48396255806935e4e853c76207191f33d2d54e9c
 ---

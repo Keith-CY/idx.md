@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-device-assistant",
-  "generated_at": "2026-03-09T07:22:59.138Z",
+  "generated_at": "2026-03-09T22:28:07.648Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-device-assistant#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-device-assistant/HEAD.md",
-      "text": "title: device-assistant\nsummary: Personal device and appliance manager with error code lookup and troubleshooting.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/device-assistant/SKILL.md",
+      "text": "title: device-assistant\nsummary: Personal device and appliance manager with error code.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/device-assistant/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-device-assistant",
         "topic": "openclaw-openclaw-device-assistant",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/device-assistant/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:59.138Z",
+        "retrieved_at": "2026-03-09T22:28:07.648Z",
         "content_sha256": "08a4168fe6f6decda57797f948996a463283684d1e44e90bdf4024e509698056"
       }
     }

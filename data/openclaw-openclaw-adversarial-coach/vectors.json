@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adversarial-coach",
+  "generated_at": "2026-03-09T22:26:52.431Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adversarial-coach#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adversarial-coach/HEAD.md",
+      "text": "title: adversarial-coach\nsummary: Adversarial implementation review based on Block's g3.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/killerapp/adversarial-coach/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adversarial-coach",
+        "topic": "openclaw-openclaw-adversarial-coach",
+        "type": "skills",
+        "title": "adversarial-coach",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/killerapp/adversarial-coach/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:52.431Z",
+        "content_sha256": "8c41456d4a345610206663306d562411ff54711b502b7e4bfcd4046140137854"
+      }
+    }
+  ]
+}

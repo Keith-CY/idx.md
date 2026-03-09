@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ace-music",
+  "generated_at": "2026-03-09T22:26:47.006Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ace-music#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ace-music/HEAD.md",
+      "text": "title: ace-music\nsummary: Generate AI music using ACE-Step 1.5 via ACE Music's free API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fspecii/ace-music/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ace-music",
+        "topic": "openclaw-openclaw-ace-music",
+        "type": "skills",
+        "title": "ace-music",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-image-video-generation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/fspecii/ace-music/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:47.006Z",
+        "content_sha256": "99320ff9374e567cc8dd4edaa105e69da55d0622a92474fcaba3316f4f07c8fd"
+      }
+    }
+  ]
+}

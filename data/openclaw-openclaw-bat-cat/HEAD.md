@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-bat-cat
 type: skills
 title: bat-cat
-summary: A cat clone with syntax highlighting, line numbers, and Git integration
-  - a modern replacement.
+summary: A cat clone with syntax highlighting, line numbers, and Git integration.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/bat-cat/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.323Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:35.770Z
 content_sha256: 3ac2879a4591a2baaddc1ba0a98f488cf35603bcf3f67c5a365688729d4e7915
 ---

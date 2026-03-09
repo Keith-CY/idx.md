@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-cron-scheduling",
+  "generated_at": "2026-03-09T22:28:03.201Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-cron-scheduling#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-cron-scheduling/HEAD.md",
+      "text": "title: cron-scheduling\nsummary: Schedule and manage recurring tasks with cron.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gitgoodordietrying/cron-scheduling/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-cron-scheduling",
+        "topic": "openclaw-openclaw-cron-scheduling",
+        "type": "skills",
+        "title": "cron-scheduling",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gitgoodordietrying/cron-scheduling/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:03.201Z",
+        "content_sha256": "01f3cd349c39a1943bdde367b07ec97a4c66df23f3e06b7e6888170b9c21f868"
+      }
+    }
+  ]
+}

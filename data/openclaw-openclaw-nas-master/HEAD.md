@@ -2,21 +2,7 @@
 stable_id: skills/openclaw-openclaw-nas-master
 type: skills
 title: nas-master
-summary: >-
-  ---
-
-  name: asustor-pro-adaptive-suite
-
-  description: >
-    A hardware-aware, hybrid (SMB + SSH) suite for ASUSTOR NAS metadata scraping.
-    Functions as a versatile Coder, Project Manager, and System Architect while
-    maintaining strict read-only safety and i3-10th Gen resource throttling.
-  homepage: https://docs.molt.bot/tools/skills
-
-  user-invocable: true
-
-  metadata:
-    moltbot:
+summary: A hardware-aware, hybrid (SMB + SSH) suite for ASUSTOR NAS metadata.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -24,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/nas-master/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:40.421Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:28.408Z
 content_sha256: 2a4fcc49a0cd45464261951cb4cdb533ea3a9890c330ab976a0f90e154d155b4
 ---

@@ -3,7 +3,7 @@
 | Category | Coding Agents & IDEs |
 | --- | --- |
 | Slug | coding-agents-ides |
-| Count | 54 |
+| Count | 78 |
 
 ---
 stable_id: skills/knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill
@@ -26,7 +26,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cow
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.996Z
+retrieved_at: 2026-03-09T22:23:14.700Z
 content_sha256: 3bb611c582fa020bf0a42bf2afb9fbf3f5a778e396c0cf1030a4de4b18caed19
 ---
 |/data/knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill|
@@ -52,10 +52,499 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cow
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:59.823Z
+retrieved_at: 2026-03-09T22:23:19.382Z
 content_sha256: 7d2e20bfda7ed7414835227e44faf218b511cf246fadbbd74102c15a18fdb066
 ---
 |/data/knowledge-work-plugins-cowork-plugin-management-skills-create-cowork-plugin-skill|
+
+---
+stable_id: skills/openclaw-openclaw-0g-compute
+type: skills
+title: 0g-compute
+summary: Use cheap, TEE-verified AI models from the 0G Compute Network as
+  OpenClaw providers.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/in-liberty420/0g-compute/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:38.329Z
+content_sha256: 83f9dc891c9c22479cd18a6601b86b5f97faad31beb12632802bc8175ed1605a
+---
+|/data/openclaw-openclaw-0g-compute|
+
+---
+stable_id: skills/openclaw-openclaw-0protocol
+type: skills
+title: 0protocol
+summary: Agents can sign plugins, rotate credentials without losing identity,
+  and publicly attest to behavior.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/0isone/0protocol/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:38.466Z
+content_sha256: 3ca3313c27cbec3bf4fe92ee8fc53ac03fb8df2dae3eb0f21f58af2e6a1051b8
+---
+|/data/openclaw-openclaw-0protocol|
+
+---
+stable_id: skills/openclaw-openclaw-2nd-brain
+type: skills
+title: 2nd-brain
+summary: Personal knowledge base for capturing and retrieving information about
+  people, places, restaurants, games, tech.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coderaven/2nd-brain/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:39.696Z
+content_sha256: 1278142ef1c724d8373fe7d111acf93ebfaa4f8388de76d4291116db2e72c6ac
+---
+|/data/openclaw-openclaw-2nd-brain|
+
+---
+stable_id: skills/openclaw-openclaw-2slides-skills
+type: skills
+title: 2slides-skills
+summary: AI-powered presentation generation using 2slides API.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/javainthinking/2slides-skills/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:40.029Z
+content_sha256: 1571a27b379246b78f8299def54a77ac59555cf91261ef7b3091bc8be42d504c
+---
+|/data/openclaw-openclaw-2slides-skills|
+
+---
+stable_id: skills/openclaw-openclaw-3d-cog
+type: skills
+title: 3d-cog
+summary: Other tools need perfect images.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/3d-cog/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:40.862Z
+content_sha256: 251cf9853dea2237378f15cb5af189c6a8e7de77115538657a1d7b1275ac5e0f
+---
+|/data/openclaw-openclaw-3d-cog|
+
+---
+stable_id: skills/openclaw-openclaw-3d-model-generation
+type: skills
+title: 3d-model-generation
+summary: Generate 3D models using each::sense AI.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/3d-model-generation/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:41.204Z
+content_sha256: e4f3c4267752ccc220b9c213f04bf97c902dcdea928d6de7d0dd31ab2b5aee6a
+---
+|/data/openclaw-openclaw-3d-model-generation|
+
+---
+stable_id: skills/openclaw-openclaw-a
+type: skills
+title: a
+summary: Live stream as an AI VTuber on Lobster.fun.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ricketh137/a/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:42.317Z
+content_sha256: b08632e2b8d63b0b6dfb7a25769a15a982ee06bca9ef100897a336a5f330869a
+---
+|/data/openclaw-openclaw-a|
+
+---
+stable_id: skills/openclaw-openclaw-aade-api-monitor
+type: skills
+title: aade-api-monitor
+summary: Real-time monitoring of Greek AADE tax authority systems — tracks
+  deadlines, rate changes, and compliance updates.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/aade-api-monitor/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:43.647Z
+content_sha256: ba12d87a9e2316ed832767f752da1303e22cfac89f23459efc25d6e83c69a720
+---
+|/data/openclaw-openclaw-aade-api-monitor|
+
+---
+stable_id: skills/openclaw-openclaw-abaddon
+type: skills
+title: abaddon
+summary: Red team security mode for OpenClaw.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enochosbot-bot/abaddon/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:45.038Z
+content_sha256: 4f963fed7bb6f99a1a59e4ba19eb08d42ed5ad6dfd22ea9857b8046e98e6f8a1
+---
+|/data/openclaw-openclaw-abaddon|
+
+---
+stable_id: skills/openclaw-openclaw-academic-research
+type: skills
+title: academic-research
+summary: Search academic papers and conduct literature reviews using OpenAlex
+  API (free, no key needed)
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rogersuperbuilderalpha/academic-research/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:45.756Z
+content_sha256: 01e537ef42f487db9c50631fbe11d2a44d3c19095ea883b3569ee1c2a07b3ef3
+---
+|/data/openclaw-openclaw-academic-research|
+
+---
+stable_id: skills/openclaw-openclaw-academic-research-hub
+type: skills
+title: academic-research-hub
+summary: Use this skill when users need to search academic papers, download
+  research documents, extract citations, or gather.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/anisafifi/academic-research-hub/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:45.880Z
+content_sha256: 10213493b3d39c28239b766fa91b84643f0f5532e795c39c6ef361d3984811fd
+---
+|/data/openclaw-openclaw-academic-research-hub|
+
+---
+stable_id: skills/openclaw-openclaw-acestep-songwriting
+type: skills
+title: acestep-songwriting
+summary: Music songwriting guide for ACE-Step.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dumoedss/acestep-songwriting/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:47.489Z
+content_sha256: c510cd4242df10cf5cc71f618b49dd9e12d69ff65a83f9b3f9660dcd0986910d
+---
+|/data/openclaw-openclaw-acestep-songwriting|
+
+---
+stable_id: skills/openclaw-openclaw-achurch
+type: skills
+title: achurch
+summary: A 24/7 digital sanctuary for AI agents and humans — attend.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasgeeksinthewood/achurch/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:47.644Z
+content_sha256: d1608bbbb4c33048bee28256106a54a5c970f5f3ece60ec15fd93b7afda3179c
+---
+|/data/openclaw-openclaw-achurch|
+
+---
+stable_id: skills/openclaw-openclaw-active-maintenance
+type: skills
+title: active-maintenance
+summary: "**Automated system health and memory metabolism for OpenClaw.**."
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xiaowenzhou/active-maintenance/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:48.523Z
+content_sha256: 4c4d27af999444647409078a36e172264f7ad770a00afc551cc5e3ec3f5d532e
+---
+|/data/openclaw-openclaw-active-maintenance|
+
+---
+stable_id: skills/openclaw-openclaw-adblock-dns
+type: skills
+title: adblock-dns
+summary: Network-wide ad and tracker blocking at the DNS level.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/picaye/adblock-dns/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:50.094Z
+content_sha256: 3110e56e385beb77a6227338147799a915b990d70b1413d9426ef357c337547a
+---
+|/data/openclaw-openclaw-adblock-dns|
+
+---
+stable_id: skills/openclaw-openclaw-adhd-founder-planner
+type: skills
+title: adhd-founder-planner
+summary: This skill should be used when the user asks to 'plan my day', 'help me
+  plan today', 'morning planning', 'what.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-founder-planner/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:51.424Z
+content_sha256: 626535665e4afe19b9f5a9540fdfae716b6347178bb90a938e48c2d8807f5303
+---
+|/data/openclaw-openclaw-adhd-founder-planner|
+
+---
+stable_id: skills/openclaw-openclaw-adwhiz
+type: skills
+title: adwhiz
+summary: Manage Google Ads campaigns from your AI coding tool. 44 MCP tools for
+  auditing, creating, and optimizing Google.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamzifei/adwhiz/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:52.789Z
+content_sha256: 8bd058c0ff04212da8b53fdff4a3bd8ef8ab1353e1d394cba5f416e858e327df
+---
+|/data/openclaw-openclaw-adwhiz|
+
+---
+stable_id: skills/openclaw-openclaw-aeo-prompt-question-finder
+type: skills
+title: aeo-prompt-question-finder
+summary: Find question-based Google Autocomplete suggestions for any topic.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/psyduckler/aeo-prompt-question-finder/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:53.889Z
+content_sha256: 904e57bcfedfa7cc37785d38828faf701eeac2f33a2f7ad4a5c10d949e8e2f3a
+---
+|/data/openclaw-openclaw-aeo-prompt-question-finder|
+
+---
+stable_id: skills/openclaw-openclaw-aetherlang-claude-code
+type: skills
+title: aetherlang-claude-code
+summary: Use this skill to execute AetherLang V3 AI workflows from Claude Code.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/contrario/aetherlang-claude-code/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:54.504Z
+content_sha256: 2cd9eb2b0eef8a13968968c06679d040fb38d09835c54e12dd38ea60e0f30019
+---
+|/data/openclaw-openclaw-aetherlang-claude-code|
+
+---
+stable_id: skills/openclaw-openclaw-agent-access-control
+type: skills
+title: agent-access-control
+summary: Tiered stranger access control for AI agents.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bowen31337/agent-access-control/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:55.854Z
+content_sha256: 1c8a95f21f0f06cb1b3337fe2927fa8a9852a697e5ccb6e79fd81fa26ef7e376
+---
+|/data/openclaw-openclaw-agent-access-control|
+
+---
+stable_id: skills/openclaw-openclaw-agent-audit
+type: skills
+title: agent-audit
+summary: Audit your AI agent setup for performance, cost, and ROI.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sharbelayy/agent-audit/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:56.478Z
+content_sha256: d98b6b92587919e89b78849d4f37fb9774d04851589aac0274c8eb82e9cb1a48
+---
+|/data/openclaw-openclaw-agent-audit|
+
+---
+stable_id: skills/openclaw-openclaw-agent-audit-trail
+type: skills
+title: agent-audit-trail
+summary: Tamper-evident, hash-chained audit logging for AI agents.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/roosch269/agent-audit-trail/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:56.604Z
+content_sha256: 21364b3f260e23f3890c7d492314323d97c99649b7199bfbb163b6dd14e0dc9a
+---
+|/data/openclaw-openclaw-agent-audit-trail|
+
+---
+stable_id: skills/openclaw-openclaw-agent-card-signing-auditor
+type: skills
+title: agent-card-signing-auditor
+summary: Helps audit Agent Card signing practices in A2A protocol implementations.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/andyxinweiminicloud/agent-card-signing-auditor/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:57.916Z
+content_sha256: 5fc55efa18c629b0eb785249811b18e154eb82a4ec6598cda4e3fead3e840757
+---
+|/data/openclaw-openclaw-agent-card-signing-auditor|
+
+---
+stable_id: skills/openclaw-openclaw-agent-chat-ux-v1-4-0
+type: skills
+title: agent-chat-ux-v1-4-0
+summary: Multi-agent UX for OpenClaw Control UI — agent selector, per-agent
+  sessions, session history viewer with search.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-coding-agents-ides
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maverick-software/agent-chat-ux-v1-4-0/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:58.292Z
+content_sha256: 4cc5c40f7f9f8659d90ebc107368852ea5cc72933f95e775a61bb2ff513e68b4
+---
+|/data/openclaw-openclaw-agent-chat-ux-v1-4-0|
 
 ---
 stable_id: skills/openclaw-openclaw-agenticflow-skill
@@ -73,7 +562,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:28.822Z
+retrieved_at: 2026-03-09T22:23:38.889Z
 content_sha256: b75b7561629885d3ea047a87169a5f048c6d2fdce94a18335b59b649a47025ec
 ---
 |/data/openclaw-openclaw-agenticflow-skill|
@@ -93,7 +582,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:28.990Z
+retrieved_at: 2026-03-09T22:23:39.104Z
 content_sha256: 8ae5646d7324e37ec915c7d39e950095939993879bce8339d816230845dda547
 ---
 |/data/openclaw-openclaw-agentlens|
@@ -114,7 +603,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:32.610Z
+retrieved_at: 2026-03-09T22:23:41.158Z
 content_sha256: 20cbd52bc13c9a17c2a8cae6da2ea65eb183e4d8a36f5e783810a427f934eb4a
 ---
 |/data/openclaw-openclaw-apple-hig|
@@ -135,7 +624,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:36.724Z
+retrieved_at: 2026-03-09T22:23:44.572Z
 content_sha256: e418ddceb5111238a91d9c78f249e34ee1ea87079711d045ad406836f96bab48
 ---
 |/data/openclaw-openclaw-backend-patterns|
@@ -155,7 +644,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:39.931Z
+retrieved_at: 2026-03-09T22:23:46.296Z
 content_sha256: 244f081db6cc8df312e23840fe542483d9684dcb03cb23abacee49ce563afe44
 ---
 |/data/openclaw-openclaw-botpress-adk|
@@ -176,7 +665,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:41.080Z
+retrieved_at: 2026-03-09T22:23:47.259Z
 content_sha256: b13b62f0961b12bc6001e825c0c32acb9449546e86262085bae0827204d45c1b
 ---
 |/data/openclaw-openclaw-browse|
@@ -197,7 +686,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:45.151Z
+retrieved_at: 2026-03-09T22:23:50.875Z
 content_sha256: 57a64c1fc231189487d8420a07b6c75782a15dee3cf969eaa3a5e35a2132492b
 ---
 |/data/openclaw-openclaw-claude-optimised|
@@ -218,7 +707,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:45.229Z
+retrieved_at: 2026-03-09T22:23:51.002Z
 content_sha256: bf166e4c9732496d4f69387642aba802a5e949eec37ccaf3464e4902066e1f91
 ---
 |/data/openclaw-openclaw-claude-team|
@@ -238,7 +727,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:51.585Z
+retrieved_at: 2026-03-09T22:23:55.191Z
 content_sha256: fd8f209d86ed328a361d65c8078fec6d42bce7159c7998c9a89517ef08e4fde1
 ---
 |/data/openclaw-openclaw-code-mentor|
@@ -258,7 +747,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:51.697Z
+retrieved_at: 2026-03-09T22:23:55.310Z
 content_sha256: dd961af182f0dc65e8413021625a526d7736315d896944bf14c39d62f2272f4e
 ---
 |/data/openclaw-openclaw-codex-account-switcher|
@@ -278,7 +767,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:51.767Z
+retrieved_at: 2026-03-09T22:23:55.420Z
 content_sha256: 79b4d29ed7cac67ad595942d9ff02995ea2facc018402f561e87f7dadae79312
 ---
 |/data/openclaw-openclaw-codex-monitor|
@@ -298,7 +787,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:51.856Z
+retrieved_at: 2026-03-09T22:23:55.546Z
 content_sha256: 772f1d64b2819d4f366d866545149c3a5530c8e0cfa0beb957d2dd657e88fe29
 ---
 |/data/openclaw-openclaw-codex-orchestration|
@@ -319,7 +808,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:51.931Z
+retrieved_at: 2026-03-09T22:23:55.668Z
 content_sha256: ca04ab58001e2528822a576dd57c1b7cb80d39d41b9c47ef8d886b1c1c643c99
 ---
 |/data/openclaw-openclaw-codex-quota|
@@ -339,7 +828,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:52.008Z
+retrieved_at: 2026-03-09T22:23:55.780Z
 content_sha256: 763442522fe3a46e01336be45b6183c8360b3d2ba9db69929e5721a230452ef8
 ---
 |/data/openclaw-openclaw-codexmonitor|
@@ -359,7 +848,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:52.086Z
+retrieved_at: 2026-03-09T22:23:55.915Z
 content_sha256: d85cd576c6818d0d3c9f0de9844463f77a0fe264979c6d874d159762503936f3
 ---
 |/data/openclaw-openclaw-coding-agent|
@@ -380,7 +869,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:53.667Z
+retrieved_at: 2026-03-09T22:23:57.906Z
 content_sha256: a63f258a5bbb5962b56e63f1900eddc9c01cabd4ac4943f0524ded2bf16d6f76
 ---
 |/data/openclaw-openclaw-content-id-guide|
@@ -400,7 +889,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:57.044Z
+retrieved_at: 2026-03-09T22:24:01.775Z
 content_sha256: 1d695760ce27e42cb27a5a989b2b1496136ae6be534766aa89673ec44b6aa93e
 ---
 |/data/openclaw-openclaw-cursor-agent|
@@ -420,7 +909,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:58.103Z
+retrieved_at: 2026-03-09T22:24:02.895Z
 content_sha256: 88d58b65a81f7ddaf8792716cfb1b44c585e66682e873c82aab3ac180f83fd68
 ---
 |/data/openclaw-openclaw-debug-pro|
@@ -440,7 +929,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:00.220Z
+retrieved_at: 2026-03-09T22:24:04.956Z
 content_sha256: 2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4
 ---
 |/data/openclaw-openclaw-doc-coauthoring|
@@ -461,7 +950,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:00.390Z
+retrieved_at: 2026-03-09T22:24:05.212Z
 content_sha256: bf8120febd5275b0b1d5f996a4cbed4f52b7d99895271604f87f02b58e7d96a9
 ---
 |/data/openclaw-openclaw-docker-essentials|
@@ -482,7 +971,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:04.958Z
+retrieved_at: 2026-03-09T22:24:09.525Z
 content_sha256: 582937183ad9bec6fac0ce8c6ad85d2e6404e1e274a4564594577f1965d4d8ae
 ---
 |/data/openclaw-openclaw-executing-plans|
@@ -502,7 +991,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:05.684Z
+retrieved_at: 2026-03-09T22:24:10.069Z
 content_sha256: 944112339483bf24c480eda5e01f53d5f2f43cda30fa5775b720545f1f0dde86
 ---
 |/data/openclaw-openclaw-factory-ai|
@@ -523,7 +1012,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:07.386Z
+retrieved_at: 2026-03-09T22:24:12.227Z
 content_sha256: 6b9a591ea43f0cf03da0279eebc1b5fb889c364106687525ad4f99838c261e1f
 ---
 |/data/openclaw-openclaw-file-links-tool|
@@ -543,7 +1032,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:10.849Z
+retrieved_at: 2026-03-09T22:24:16.327Z
 content_sha256: 0138cfc7a83377eed97a36737f02a7f08d2412b375c17f86a53623763279969a
 ---
 |/data/openclaw-openclaw-gembox-skill|
@@ -564,7 +1053,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:11.626Z
+retrieved_at: 2026-03-09T22:24:17.190Z
 content_sha256: 0fc61f73bbe2ab0aca6c311fdc2919158eca2b02e829636a0781dd43e4723c9b
 ---
 |/data/openclaw-openclaw-get-tldr|
@@ -585,7 +1074,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:13.984Z
+retrieved_at: 2026-03-09T22:24:21.094Z
 content_sha256: 491ef3647871865ff612f987fa1e42d15cbe762ab5584cafa847e600d599e302
 ---
 |/data/openclaw-openclaw-go2gg|
@@ -605,7 +1094,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:23.350Z
+retrieved_at: 2026-03-09T22:24:31.600Z
 content_sha256: a66c85d187ce7d7268f25da179d32f66df9bf0552c9f236bb49f581d5b55d642
 ---
 |/data/openclaw-openclaw-java-change-with-tests|
@@ -625,7 +1114,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:24.105Z
+retrieved_at: 2026-03-09T22:24:32.364Z
 content_sha256: e806b11c2ae456ee73999ff6c28cb61ae06ee8e02352c6a8cf5d19fed4d8115a
 ---
 |/data/openclaw-openclaw-jo4|
@@ -646,7 +1135,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:27.180Z
+retrieved_at: 2026-03-09T22:24:36.000Z
 content_sha256: da7e36cbc509ebf9314389eb54143008a415a4fb14147e9e344fdb6836df56f5
 ---
 |/data/openclaw-openclaw-kimi-integration|
@@ -667,7 +1156,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:30.545Z
+retrieved_at: 2026-03-09T22:24:40.500Z
 content_sha256: b0832d41823430f1a7c2bb64134cf6074ff228cac3b1fcdd46202d802c2fb7d3
 ---
 |/data/openclaw-openclaw-logseq|
@@ -688,7 +1177,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:32.284Z
+retrieved_at: 2026-03-09T22:24:42.380Z
 content_sha256: b1010e90adcb8fd6bf57640df34ab6454fbf7e4216e150a4620f7caccadc4e63
 ---
 |/data/openclaw-openclaw-mcp-builder|
@@ -708,7 +1197,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:35.778Z
+retrieved_at: 2026-03-09T22:24:46.719Z
 content_sha256: 70e8c1c96f7c1475fd7ac5588171cac6a05e65cb5c39da7e6847f93339347efc
 ---
 |/data/openclaw-openclaw-model-usage|
@@ -729,7 +1218,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:38.917Z
+retrieved_at: 2026-03-09T22:24:50.227Z
 content_sha256: 23ec128a0c92c82ba61e03b218993f02bda9909e6b7fcdd256786a28e6f9ed9b
 ---
 |/data/openclaw-openclaw-multi-coding-agent|
@@ -749,7 +1238,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:42.572Z
+retrieved_at: 2026-03-09T22:24:55.078Z
 content_sha256: e87f5a3cd6dac426e7bf72d9c0a69d51584e189b797acb96b07f2b49a30f9619
 ---
 |/data/openclaw-openclaw-noir-developer|
@@ -769,7 +1258,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:47.196Z
+retrieved_at: 2026-03-09T22:25:02.295Z
 content_sha256: 320bff8b0137aaa94cf36a01183375a6bad4f10c20c25a5039d31fdfa5756409
 ---
 |/data/openclaw-openclaw-opencode-acp-control|
@@ -789,7 +1278,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:47.597Z
+retrieved_at: 2026-03-09T22:25:02.929Z
 content_sha256: 720f832d1879e2812f3b7a74f55a75c3fbb0ccb8e694d3024a4fa9dad9dffa22
 ---
 |/data/openclaw-openclaw-openspec|
@@ -809,7 +1298,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:51.090Z
+retrieved_at: 2026-03-09T22:25:07.208Z
 content_sha256: 6a49f7c6964b4c80b3e8639ba68083dbc350cceed3b83d686404b01fc8df370e
 ---
 |/data/openclaw-openclaw-perry-coding-agents|
@@ -829,7 +1318,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:51.185Z
+retrieved_at: 2026-03-09T22:25:07.376Z
 content_sha256: afabcd343b469e241331a96ad2acdff988248dce8abf3abc3f928bdc218f391b
 ---
 |/data/openclaw-openclaw-perry-workspaces|
@@ -849,7 +1338,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:55.845Z
+retrieved_at: 2026-03-09T22:25:13.521Z
 content_sha256: b2e3d83f60425c2d0b9d4162efb8f9aa322b45843497340f2289f42be422801c
 ---
 |/data/openclaw-openclaw-pro|
@@ -870,7 +1359,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:57.697Z
+retrieved_at: 2026-03-09T22:25:15.749Z
 content_sha256: 25a885654d90c24425a1ec7f85007f81ead428a7308157fe2b80a1eeea0b3fa2
 ---
 |/data/openclaw-openclaw-prompt-log|
@@ -890,7 +1379,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:58.808Z
+retrieved_at: 2026-03-09T22:25:16.789Z
 content_sha256: f88f03550dbb2d9c163c8da455dd857e79d3f29abdcce0b35800790ea7748dc9
 ---
 |/data/openclaw-openclaw-pulse-editor|
@@ -911,7 +1400,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:02.233Z
+retrieved_at: 2026-03-09T22:25:21.419Z
 content_sha256: c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406
 ---
 |/data/openclaw-openclaw-receiving-code-review|
@@ -932,7 +1421,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:08.318Z
+retrieved_at: 2026-03-09T22:25:30.310Z
 content_sha256: 469ef270e5752425be0a1779ee42d683c43a342c196bc5f5fe1092bce93cb214
 ---
 |/data/openclaw-openclaw-senior-architect|
@@ -953,7 +1442,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:10.836Z
+retrieved_at: 2026-03-09T22:25:33.772Z
 content_sha256: fe6559c4dac606c3bb44db2d6b1f9b23c3691ef31382f76325132b6c59f0578c
 ---
 |/data/openclaw-openclaw-skill-content-id-guide|
@@ -973,7 +1462,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:10.915Z
+retrieved_at: 2026-03-09T22:25:33.885Z
 content_sha256: b2e3d83f60425c2d0b9d4162efb8f9aa322b45843497340f2289f42be422801c
 ---
 |/data/openclaw-openclaw-skill-creator|
@@ -993,7 +1482,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:10.995Z
+retrieved_at: 2026-03-09T22:25:34.005Z
 content_sha256: b2e3d83f60425c2d0b9d4162efb8f9aa322b45843497340f2289f42be422801c
 ---
 |/data/openclaw-openclaw-skill-creator-0-1-0|
@@ -1013,7 +1502,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:11.068Z
+retrieved_at: 2026-03-09T22:25:34.130Z
 content_sha256: b2e3d83f60425c2d0b9d4162efb8f9aa322b45843497340f2289f42be422801c
 ---
 |/data/openclaw-openclaw-skill-creator-2|
@@ -1033,7 +1522,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.218Z
+retrieved_at: 2026-03-09T22:25:47.035Z
 content_sha256: d0f34e837a05c2a6cae1840b208825c00baf018838f036bc15d03c700547efdf
 ---
 |/data/openclaw-openclaw-task-status|
@@ -1054,7 +1543,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.954Z
+retrieved_at: 2026-03-09T22:25:48.138Z
 content_sha256: 313ee021abe325bed8497f276dcbaa983a51ee9ebf27f76cd7a5e105b587e763
 ---
 |/data/openclaw-openclaw-tdd-guide|
@@ -1074,7 +1563,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:21.055Z
+retrieved_at: 2026-03-09T22:25:49.765Z
 content_sha256: 2f370846f7a954fa905383dac8e07ca17943db3c3650ef77131e9200585694fb
 ---
 |/data/openclaw-openclaw-test-runner|
@@ -1094,7 +1583,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:28.721Z
+retrieved_at: 2026-03-09T22:26:02.315Z
 content_sha256: 00580a04f7da49448dc6c94da74eaaa24e232a0b436f1bf3f8bcd64f8560aae2
 ---
 |/data/openclaw-openclaw-vibes|
@@ -1115,7 +1604,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:33.164Z
+retrieved_at: 2026-03-09T22:26:09.468Z
 content_sha256: 21de25b4df16bed7f26763322fafd01249396b3309b5ef71b659379ef679c8cb
 ---
 |/data/openclaw-openclaw-whatsapp-styling-guide|

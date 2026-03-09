@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-moneydevkit",
-  "generated_at": "2026-03-09T07:21:42.684Z",
+  "generated_at": "2026-03-09T22:22:50.508Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-moneydevkit#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satbot-mdk/moneydevkit/SKILL.md",
-        "retrieved_at": "2026-03-09T07:21:42.684Z",
+        "retrieved_at": "2026-03-09T22:22:50.508Z",
         "content_sha256": "6dfb522bb23e6b910613e471d0eb787f12a8219a3b17f9e8fda57359ad99c0fd"
       }
     }

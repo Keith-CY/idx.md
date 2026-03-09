@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-amazon-orders",
+  "generated_at": "2026-03-09T22:27:21.660Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-amazon-orders#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-amazon-orders/HEAD.md",
+      "text": "title: amazon-orders\nsummary: Download and query your Amazon order history via an unofficial Python API and CLI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-shopping-e-commerce\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pfernandez98/amazon-orders/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-amazon-orders",
+        "topic": "openclaw-openclaw-amazon-orders",
+        "type": "skills",
+        "title": "amazon-orders",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-shopping-e-commerce"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pfernandez98/amazon-orders/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:21.660Z",
+        "content_sha256": "bba2d086804480610d3cffb8c64c9bb2cb5fa5fb8653da8f92566d62f8258433"
+      }
+    }
+  ]
+}

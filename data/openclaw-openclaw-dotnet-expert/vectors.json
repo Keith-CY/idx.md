@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-dotnet-expert",
+  "generated_at": "2026-03-09T22:28:09.143Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-dotnet-expert#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-dotnet-expert/HEAD.md",
+      "text": "title: dotnet-expert\nsummary: Use when building .NET 8/9 applications, ASP.NET Core APIs.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-security-passwords\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jgarrison929/dotnet-expert/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-dotnet-expert",
+        "topic": "openclaw-openclaw-dotnet-expert",
+        "type": "skills",
+        "title": "dotnet-expert",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-security-passwords"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jgarrison929/dotnet-expert/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:09.143Z",
+        "content_sha256": "fe52afa06543b8b565bf7bf0061ee5740ca76c5743262a6ece57340f5896dce8"
+      }
+    }
+  ]
+}

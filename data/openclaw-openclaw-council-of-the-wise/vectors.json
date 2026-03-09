@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-council-of-the-wise",
-  "generated_at": "2026-03-09T07:22:55.276Z",
+  "generated_at": "2026-03-09T22:23:59.945Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-council-of-the-wise#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/council-of-the-wise/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:55.276Z",
+        "retrieved_at": "2026-03-09T22:23:59.945Z",
         "content_sha256": "e82578c77bd5227b1e3675ae035d6e24991536b9b61aeed6dc660e97dad4d11c"
       }
     }

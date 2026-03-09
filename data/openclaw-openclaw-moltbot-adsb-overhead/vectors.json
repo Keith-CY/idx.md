@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-moltbot-adsb-overhead",
+  "generated_at": "2026-03-09T22:28:26.550Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-moltbot-adsb-overhead#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-moltbot-adsb-overhead/HEAD.md",
+      "text": "title: moltbot-adsb-overhead\nsummary: Notify when aircraft are overhead.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/davestarling/moltbot-adsb-overhead/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-moltbot-adsb-overhead",
+        "topic": "openclaw-openclaw-moltbot-adsb-overhead",
+        "type": "skills",
+        "title": "moltbot-adsb-overhead",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/davestarling/moltbot-adsb-overhead/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:26.550Z",
+        "content_sha256": "68e69dbd12ad56062657de24a233e388601712a40450a7256446b55b722041d9"
+      }
+    }
+  ]
+}

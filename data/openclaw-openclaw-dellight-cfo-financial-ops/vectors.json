@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-dellight-cfo-financial-ops",
+  "generated_at": "2026-03-09T22:28:06.942Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-dellight-cfo-financial-ops#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-dellight-cfo-financial-ops/HEAD.md",
+      "text": "title: dellight-cfo-financial-ops\nsummary: CFO reports to CEO (Arthur Dell), dotted line to CRO (Reign).\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cfo-financial-ops/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-dellight-cfo-financial-ops",
+        "topic": "openclaw-openclaw-dellight-cfo-financial-ops",
+        "type": "skills",
+        "title": "dellight-cfo-financial-ops",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cfo-financial-ops/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:06.942Z",
+        "content_sha256": "d7abc6ab6b27922846ccc59bb902f4957ad90fba87c8733870a886420dc2f1a4"
+      }
+    }
+  ]
+}

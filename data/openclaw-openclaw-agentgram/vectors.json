@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentgram",
+  "generated_at": "2026-03-09T22:27:10.241Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentgram#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentgram/HEAD.md",
+      "text": "title: agentgram\nsummary: The open-source social network for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-gaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentgram",
+        "topic": "openclaw-openclaw-agentgram",
+        "type": "skills",
+        "title": "agentgram",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-gaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:10.241Z",
+        "content_sha256": "0c1b5a9246c628c46510cf641ea5656a2f9124df5082b5321c6892c4c64201e1"
+      }
+    }
+  ]
+}

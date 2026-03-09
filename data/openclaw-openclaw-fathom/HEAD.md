@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-fathom
 type: skills
 title: fathom
-summary: Connect to Fathom AI to fetch call recordings, transcripts.
+summary: Connect to Fathom AI to fetch call recordings, transcripts, and summaries.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/fathom/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:06.206Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:14.575Z
 content_sha256: 881fb6fddf97920467d71ebe55a45554567bca29069f5827396420ee0ea03690
 ---

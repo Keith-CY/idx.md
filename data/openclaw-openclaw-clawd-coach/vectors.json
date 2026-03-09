@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawd-coach",
-  "generated_at": "2026-03-09T07:22:46.002Z",
+  "generated_at": "2026-03-09T22:27:55.594Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawd-coach#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-clawd-coach/HEAD.md",
-      "text": "title: clawd-coach\nsummary: Create personalized triathlon, marathon, and ultra-endurance training plans.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/clawd-coach/SKILL.md",
+      "text": "title: clawd-coach\nsummary: Create personalized triathlon, marathon, and ultra-endurance training.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-clawdbot-tools\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/clawd-coach/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-clawd-coach",
         "topic": "openclaw-openclaw-clawd-coach",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/clawd-coach/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:46.002Z",
+        "retrieved_at": "2026-03-09T22:27:55.594Z",
         "content_sha256": "6fe4ad41a92f04ac991bc3918309760051f2ba204dc9b62ccd21c200f5041ded"
       }
     }

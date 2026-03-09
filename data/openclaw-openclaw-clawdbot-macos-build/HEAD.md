@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-clawdbot-macos-build
 type: skills
 title: clawdbot-macos-build
-summary: Build the Clawdbot macOS menu bar app from source.
+summary: Build the Clawdbot macOS menu bar app.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/manish-basargekar/clawdbot-macos-build/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:46.824Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:56.090Z
 content_sha256: b9aede843ecd362b127ee0bcf0995bd48564c8abdac85d5cc3cf42e7bd0a42aa
 ---

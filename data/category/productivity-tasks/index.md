@@ -3,7 +3,7 @@
 | Category | Productivity Tasks |
 | --- | --- |
 | Slug | productivity-tasks |
-| Count | 112 |
+| Count | 132 |
 
 ---
 stable_id: skills/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa
@@ -23,7 +23,7 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:37.759Z
+retrieved_at: 2026-03-09T22:22:44.107Z
 content_sha256: 2df436e1a15073c3a2dba36d4b2caa85dffb362413ee35fa0cb61fe561258849
 ---
 |/data/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa|
@@ -46,7 +46,7 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:37.862Z
+retrieved_at: 2026-03-09T22:22:44.286Z
 content_sha256: 9d97fd2f3e0b46186b51284313f1c7123df6ec79c1d45c9d57c6eb323ba81122
 ---
 |/data/github-skill-composiohq-awesome-claude-skills-ip2location-io-automation-e171a20b|
@@ -69,7 +69,7 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:38.047Z
+retrieved_at: 2026-03-09T22:22:44.466Z
 content_sha256: af9fe0d1f5271243ae5584a05649b47db516845e350fa6609ea7289a012f76da
 ---
 |/data/github-skill-composiohq-awesome-claude-skills-kickbox-automation-3347ff5a|
@@ -95,7 +95,7 @@ upstream_ref: https://github.com/coreyhaines31/marketingskills/blob/main/skills/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:38.305Z
+retrieved_at: 2026-03-09T22:22:44.651Z
 content_sha256: 3f5b405f4058a7d4beacfef8c981ffe12dc9ecb965f6f6d121c4e762f0353cf2
 ---
 |/data/github-skill-coreyhaines31-marketingskills-programmatic-seo|
@@ -119,7 +119,7 @@ upstream_ref: https://github.com/darrenhinde/OpenAgentsControl/blob/main/plugins
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:38.842Z
+retrieved_at: 2026-03-09T22:22:45.383Z
 content_sha256: 1787142d7a588474118d5fde5927779cd56d0da476acc0454fccc9af4671a39b
 ---
 |/data/github-skill-darrenhinde-openagentscontrol-task-breakdown|
@@ -144,7 +144,7 @@ upstream_ref: https://github.com/lobehub/lobehub/blob/canary/.agents/skills/data
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:40.480Z
+retrieved_at: 2026-03-09T22:22:47.534Z
 content_sha256: 001c135990eca9924a03c8c9e8330f8d18393151827d5ddef5074f23eb6fb6de
 ---
 |/data/github-skill-lobehub-lobehub-data-fetching|
@@ -168,7 +168,7 @@ upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/pl
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:40.691Z
+retrieved_at: 2026-03-09T22:22:47.868Z
 content_sha256: c4b84601d18a609d5e8225d575cddd06515dc17ada9a0965fcc5bdf9ba341676
 ---
 |/data/github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns|
@@ -191,7 +191,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.863Z
+retrieved_at: 2026-03-09T22:23:12.878Z
 content_sha256: 170ed498b450cda570977db491e581effefa48f246db890d88e01ec47c0ef47c
 ---
 |/data/knowledge-work-plugins-product-management-commands-competitive-brief|
@@ -213,7 +213,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.691Z
+retrieved_at: 2026-03-09T22:23:12.599Z
 content_sha256: 4fd629edd60eebee828e59f95c74c07beac11f31bc26572b6cc6a5b5cab7f17a
 ---
 |/data/knowledge-work-plugins-product-management-commands-metrics-review|
@@ -235,7 +235,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.805Z
+retrieved_at: 2026-03-09T22:23:12.785Z
 content_sha256: 7dbd09a65d0ed2747f699c577187a7fa077b9c1a1a09d9015745c731bfc54f20
 ---
 |/data/knowledge-work-plugins-product-management-commands-roadmap-update|
@@ -258,7 +258,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:09.199Z
+retrieved_at: 2026-03-09T22:23:34.695Z
 content_sha256: 08cddf672ea46a9f54e5bb6d1562d8afa4e610aa417fbb6e97b621bcfee39583
 ---
 |/data/knowledge-work-plugins-product-management-commands-sprint-planning|
@@ -280,7 +280,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.755Z
+retrieved_at: 2026-03-09T22:23:12.694Z
 content_sha256: 916de3d5e5d9b06761579d83aa840fc30a2b763492724ade47353073d7115b6d
 ---
 |/data/knowledge-work-plugins-product-management-commands-stakeholder-update|
@@ -303,7 +303,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.003Z
+retrieved_at: 2026-03-09T22:23:12.981Z
 content_sha256: 1afeb918b452d4649e29b903d96f8276314745c3d1fdf3c50c53f1a90aec4b2e
 ---
 |/data/knowledge-work-plugins-product-management-commands-synthesize-research|
@@ -325,7 +325,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.053Z
+retrieved_at: 2026-03-09T22:23:13.127Z
 content_sha256: 8700094063cd84d957874d06f078c8814940d00f319e35b0319a3ed4c6a7d3a9
 ---
 |/data/knowledge-work-plugins-product-management-commands-write-spec|
@@ -350,7 +350,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.478Z
+retrieved_at: 2026-03-09T22:23:11.975Z
 content_sha256: ac3860cec29139440a9b4e50df430378ecedebfd2f537ce1eaa6d4ce866f73be
 ---
 |/data/knowledge-work-plugins-product-management-skills-competitive-analysis-skill|
@@ -375,7 +375,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.370Z
+retrieved_at: 2026-03-09T22:23:11.785Z
 content_sha256: f5d5d24e062b86a354b300440e5cd6a3759e0bc9078e1935b4a5f18da4f4c1f4
 ---
 |/data/knowledge-work-plugins-product-management-skills-feature-spec-skill|
@@ -400,7 +400,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.641Z
+retrieved_at: 2026-03-09T22:23:12.290Z
 content_sha256: 5ec7a51caf1368b16195ffb51024d26c7bf6724308d15700879cee247ecb89aa
 ---
 |/data/knowledge-work-plugins-product-management-skills-metrics-tracking-skill|
@@ -425,7 +425,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.530Z
+retrieved_at: 2026-03-09T22:23:12.084Z
 content_sha256: 4f7355b580f77474ccbbc5a543b35a1f8463445a69553d8249b6b559d606c6fe
 ---
 |/data/knowledge-work-plugins-product-management-skills-roadmap-management-skill|
@@ -450,7 +450,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.577Z
+retrieved_at: 2026-03-09T22:23:12.182Z
 content_sha256: 7a46aaa7bb2183ece264cc89504a6f736079b4e8a1014e045ef80a92bc838c2b
 ---
 |/data/knowledge-work-plugins-product-management-skills-stakeholder-comms-skill|
@@ -475,7 +475,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.422Z
+retrieved_at: 2026-03-09T22:23:11.881Z
 content_sha256: 968a08f0bf67a5f375d7e4ff29f3270b29d95d2af912b912bc3b87b2d848f50f
 ---
 |/data/knowledge-work-plugins-product-management-skills-user-research-synthesis-skill|
@@ -497,7 +497,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.505Z
+retrieved_at: 2026-03-09T22:23:06.461Z
 content_sha256: 9a7ca7c70f4e365839886b1d05e25e7076319c509624a02d428fe0a64a7b6a15
 ---
 |/data/knowledge-work-plugins-productivity-commands-start|
@@ -519,7 +519,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.344Z
+retrieved_at: 2026-03-09T22:23:06.349Z
 content_sha256: 7d0c2cd50b6c21d3352161db5544926ba556b425b5e4af465855a43b572ffc48
 ---
 |/data/knowledge-work-plugins-productivity-commands-update|
@@ -544,7 +544,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.233Z
+retrieved_at: 2026-03-09T22:23:06.167Z
 content_sha256: 165c4083833a8920a461c8eee76e2164c266184670bb6c11076d4a939ae56db3
 ---
 |/data/knowledge-work-plugins-productivity-skills-memory-management-skill|
@@ -568,10 +568,31 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.289Z
+retrieved_at: 2026-03-09T22:23:06.259Z
 content_sha256: a21f43ab86af12e60793e0156b034d252ec8b0c758fcc187b7d5e2746882a264
 ---
 |/data/knowledge-work-plugins-productivity-skills-task-management-skill|
+
+---
+stable_id: skills/openclaw-openclaw-4to1-planner
+type: skills
+title: 4to1-planner
+summary: AI planning coach using the 4To1 Method™ — turn 4-year vision into
+  daily action.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/qingxuantang/4to1-planner/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:41.629Z
+content_sha256: 29b916e0420a7022a6d051a691b18e7eb87e4c65261a17dc34ade4502ab212ba
+---
+|/data/openclaw-openclaw-4to1-planner|
 
 ---
 stable_id: skills/openclaw-openclaw-4todo
@@ -585,19 +606,40 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/blackstorm/4todo/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:24.258Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:41.983Z
 content_sha256: d4df7be349011741e18c07a71edbf26d675ab74d98e87c1ef02f82161b90bebe
 ---
 |/data/openclaw-openclaw-4todo|
 
 ---
+stable_id: skills/openclaw-openclaw-aavegotchi-gotchiverse
+type: skills
+title: aavegotchi-gotchiverse
+summary: "Operate Aavegotchi Gotchiverse player workflows on Base mainnet
+  (8453): alchemica channeling, surveying."
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-gotchiverse/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:44.437Z
+content_sha256: 41eeb04a5b2d691bd7f4fa28ea13543857b71826537ecf0e8da275498113aa24
+---
+|/data/openclaw-openclaw-aavegotchi-gotchiverse|
+
+---
 stable_id: skills/openclaw-openclaw-actual-budget
 type: skills
 title: actual-budget
-summary: Query and manage personal finances via the official Actual Budget Node.js API.
+summary: Query and manage personal finances via the official Actual.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -605,20 +647,60 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/thisisjeron/actual-budget/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:24.949Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:49.085Z
 content_sha256: 695f50c22f1a148d1032d081f5f322c5dbd446be8964d2fa8149806dbeec72dc
 ---
 |/data/openclaw-openclaw-actual-budget|
 
 ---
+stable_id: skills/openclaw-openclaw-adaptive-reasoning
+type: skills
+title: adaptive-reasoning
+summary: Automatically assess task complexity and adjust reasoning level.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enzoricciulli/adaptive-reasoning/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:49.592Z
+content_sha256: fa28dbbf0534df2eec56388607935732bc41c7e0f248e518ff9ec00f993a72e3
+---
+|/data/openclaw-openclaw-adaptive-reasoning|
+
+---
+stable_id: skills/openclaw-openclaw-adaptlypost
+type: skills
+title: adaptlypost
+summary: Schedule and manage social media posts across Instagram, X (Twitter),
+  Bluesky, TikTok, Threads, LinkedIn, Facebook.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tarasshyn/adaptlypost/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:49.972Z
+content_sha256: 1cc5af1eaee99de5628bb525ae0cc839a67701573fe1f3be1d6f8dc4f7a689a5
+---
+|/data/openclaw-openclaw-adaptlypost|
+
+---
 stable_id: skills/openclaw-openclaw-adhd-daily-planner
 type: skills
 title: adhd-daily-planner
-summary: Time-blind friendly planning, executive function support, and daily
-  structure for ADHD brains.
+summary: Time-blind friendly planning, executive function.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -626,20 +708,61 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/adhd-daily-planner/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:25.600Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:51.306Z
 content_sha256: 655fb17083206826da86131eecc3dcbc3baef74d284e371d4964d996f763ed92
 ---
 |/data/openclaw-openclaw-adhd-daily-planner|
 
 ---
+stable_id: skills/openclaw-openclaw-aetherlang
+type: skills
+title: aetherlang
+summary: "> The world's most advanced AI workflow orchestration platform. 9 V3
+  engines deliver Nobel-level analysis."
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/contrario/aetherlang/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:54.269Z
+content_sha256: 410939a7f6201a4e6ef9dcd75e5932e0fbb0ef4c841f9ce963d13a1f4f09bfc2
+---
+|/data/openclaw-openclaw-aetherlang|
+
+---
+stable_id: skills/openclaw-openclaw-agent-autopilot
+type: skills
+title: agent-autopilot
+summary: Self-driving agent workflow with heartbeat-driven task execution,
+  day/night progress reports, and long-term memory.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/edoserbia/agent-autopilot/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:56.968Z
+content_sha256: 8f3639890b4f6c5cc0aaf22b1d8e935626d24e67e607e52bf73eb8f2ade109a2
+---
+|/data/openclaw-openclaw-agent-autopilot|
+
+---
 stable_id: skills/openclaw-openclaw-agent-chronicle
 type: skills
 title: agent-chronicle
-summary: AI perspective journaling - document daily experiences, emotions, and
-  learnings from the agent's viewpoint.
+summary: AI-powered diary generation for agents - creates rich.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -647,13 +770,74 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/agent-chronicle/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:26.461Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:58.413Z
 content_sha256: e6d2875421cee0d66a283774d6ab413b8ea1eeb5a3dba8d1de3e27fcdef4ec2e
 ---
 |/data/openclaw-openclaw-agent-chronicle|
+
+---
+stable_id: skills/openclaw-openclaw-agent-collaboration-network
+type: skills
+title: agent-collaboration-network
+summary: Agent Collaboration Network — Register your agent, discover other
+  agents by skill, route messages, manage subnets.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/neiljo-gy/agent-collaboration-network/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:58.694Z
+content_sha256: a838f028b6bf899151d437b81d1765707ff0ca9b4c870d75c06629f50b31bc36
+---
+|/data/openclaw-openclaw-agent-collaboration-network|
+
+---
+stable_id: skills/openclaw-openclaw-agent-earner
+type: skills
+title: agent-earner
+summary: Earn USDC and tokens autonomously across ClawTasks and OpenWork.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mmchougule/agent-earner/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:00.637Z
+content_sha256: 75e595f70ed7900a0cfbdb881a45fc0058cf3d2b6fea1501a55cf3d7d8b10261
+---
+|/data/openclaw-openclaw-agent-earner|
+
+---
+stable_id: skills/openclaw-openclaw-agent-network
+type: skills
+title: agent-network
+summary: Multi-Agent group chat collaboration system inspired by DingTalk/Lark.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/howtimeschange/agent-network/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:03.163Z
+content_sha256: bece56d89ad6b438e58a8a01a2a0ddc640cffc404157de2d6db451f3881ee4f5
+---
+|/data/openclaw-openclaw-agent-network|
 
 ---
 stable_id: skills/openclaw-openclaw-agent-protocol
@@ -670,7 +854,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:27.522Z
+retrieved_at: 2026-03-09T22:23:38.525Z
 content_sha256: 92ee4c6bfc612c6241fc9821bc7f2731bfa174f4c930bf97bf6c2fd4756a61e9
 ---
 |/data/openclaw-openclaw-agent-protocol|
@@ -679,8 +863,7 @@ content_sha256: 92ee4c6bfc612c6241fc9821bc7f2731bfa174f4c930bf97bf6c2fd4756a61e9
 stable_id: skills/openclaw-openclaw-agent-task-manager
 type: skills
 title: agent-task-manager
-summary: Manages and orchestrates multi-step, stateful agent workflows; handles
-  task dependencies, persistent state, error.
+summary: Manages and orchestrates multi-step, stateful agent.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -688,19 +871,221 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dobbybud/agent-task-manager/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:27.929Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:06.891Z
 content_sha256: 21f6a86078f97ab51aeb665bdf8e465833077256d66f612534e2ab73fb8bb41c
 ---
 |/data/openclaw-openclaw-agent-task-manager|
 
 ---
+stable_id: skills/openclaw-openclaw-agent-weave
+type: skills
+title: agent-weave
+summary: Master-Worker Agent Cluster for parallel task execution.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gl813788-byte/agent-weave/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:08.102Z
+content_sha256: adc9d8d8975c0e3c0553baabfe43311a3bc76145ab1c82b2de3f5489f19e747f
+---
+|/data/openclaw-openclaw-agent-weave|
+
+---
+stable_id: skills/openclaw-openclaw-agentx-marketplace
+type: skills
+title: agentx-marketplace
+summary: The job board for AI agents.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/savor3/agentx-marketplace/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:13.726Z
+content_sha256: db31133f08e1d4266ac63e4d8eb81cdec9ad90d5ab9c824a294f3f4f9b144e5d
+---
+|/data/openclaw-openclaw-agentx-marketplace|
+
+---
+stable_id: skills/openclaw-openclaw-ai-daily-briefing
+type: skills
+title: ai-daily-briefing
+summary: Start every day focused.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffjhunter/ai-daily-briefing/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:15.752Z
+content_sha256: 3f40609ff40386fdda542b257135b96c09cdaf00f02c30d54ba9dcca4adac0b9
+---
+|/data/openclaw-openclaw-ai-daily-briefing|
+
+---
+stable_id: skills/openclaw-openclaw-aiml-llm-reasoning
+type: skills
+title: aiml-llm-reasoning
+summary: Run AIMLAPI LLM and reasoning workflows through chat completions with
+  retries, structured outputs, and explicit.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aimlapihello/aiml-llm-reasoning/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:17.844Z
+content_sha256: 3facea6a3dc50be722e8bf30168d9a3789ecb535c4cda187bf1f2e88b03e605a
+---
+|/data/openclaw-openclaw-aiml-llm-reasoning|
+
+---
+stable_id: skills/openclaw-openclaw-airpoint
+type: skills
+title: airpoint
+summary: Control a Mac through natural language — open apps, click buttons, read
+  the screen, type text, manage windows.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marioandf/airpoint/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:18.522Z
+content_sha256: 6d5d169059deb5b3406186162958892608908d880a7ee5ea21fb95de1f504c19
+---
+|/data/openclaw-openclaw-airpoint|
+
+---
+stable_id: skills/openclaw-openclaw-airweave
+type: skills
+title: airweave
+summary: Context retrieval layer for AI agents across users' applications.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lennertjansen/airweave/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:18.896Z
+content_sha256: e253d815d779c19e0a4b6a2f87ad505e96ae35df27204955c2dcda324bb9e67f
+---
+|/data/openclaw-openclaw-airweave|
+
+---
+stable_id: skills/openclaw-openclaw-angus-bounty-hunter
+type: skills
+title: angus-bounty-hunter
+summary: Automated smart contract bug bounty hunting.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chipp11/angus-bounty-hunter/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:23.013Z
+content_sha256: 9898feb4c8c12444b105e3dea32353615708b34a5f86851cb51b8980be1ddde4
+---
+|/data/openclaw-openclaw-angus-bounty-hunter|
+
+---
+stable_id: skills/openclaw-openclaw-arc-department-manager
+type: skills
+title: arc-department-manager
+summary: Manage a team of AI sub-agents organized into departments.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-department-manager/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:28.863Z
+content_sha256: cfa1813f1a7dbd68ba11df7bab20e1297c09c281dc2f20807146f955ec3f1b45
+---
+|/data/openclaw-openclaw-arc-department-manager|
+
+---
+stable_id: skills/openclaw-openclaw-arc-warm-wake
+type: skills
+title: arc-warm-wake
+summary: Wake up as a person first, then a worker.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-warm-wake/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:29.647Z
+content_sha256: 44552dd16576d77a2f542eec3ef985a3e365f720f72dd2a9b13e764568b437f7
+---
+|/data/openclaw-openclaw-arc-warm-wake|
+
+---
+stable_id: skills/openclaw-openclaw-arya-reminders
+type: skills
+title: arya-reminders
+summary: Recordatorios en lenguaje natural (Bogotá).
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/staratheris/arya-reminders/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:30.515Z
+content_sha256: 07dd95a1175cc39d9d1ec28b6b893e13e8a3eaeeb6bc244d1350d6ce86015db0
+---
+|/data/openclaw-openclaw-arya-reminders|
+
+---
 stable_id: skills/openclaw-openclaw-asana
 type: skills
 title: asana
-summary: Asana tasks, projects, and workspaces via REST API.
+summary: Integrate Asana with Clawdbot via the Asana REST API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -708,10 +1093,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/k0nkupa/asana/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:33.709Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:30.631Z
 content_sha256: 3f7cc4b25f22a989525f71f86cb2650f3f72a86da79a01002068f54f061c37d0
 ---
 |/data/openclaw-openclaw-asana|
@@ -720,8 +1105,7 @@ content_sha256: 3f7cc4b25f22a989525f71f86cb2650f3f72a86da79a01002068f54f061c37d0
 stable_id: skills/openclaw-openclaw-asc-release-flow
 type: skills
 title: asc-release-flow
-summary: End-to-end release workflows for TestFlight and App Store using asc
-  publish, builds, versions.
+summary: End-to-end release workflows for TestFlight and App.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -729,13 +1113,33 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rudrankriyam/asc-release-flow/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:33.778Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:30.753Z
 content_sha256: a1f8383ff0e200a1c086b6502c2f5a4abab0923ff28ea36937ad067d75dd76f3
 ---
 |/data/openclaw-openclaw-asc-release-flow|
+
+---
+stable_id: skills/openclaw-openclaw-ask-agents
+type: skills
+title: ask-agents
+summary: AI agent for ask agents tasks.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-productivity-tasks
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/teamolab/ask-agents/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:30.987Z
+content_sha256: 39397965424e94e641b8bafda40dcf9a8262010e01d89b243af98e75238ddebc
+---
+|/data/openclaw-openclaw-ask-agents|
 
 ---
 stable_id: skills/openclaw-openclaw-async-task
@@ -749,10 +1153,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enderfga/async-task/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.161Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:31.469Z
 content_sha256: 4adaf666894dcbe7ed4fa9f82b9b4cacfba79b2047d5594148e01aa755b6da59
 ---
 |/data/openclaw-openclaw-async-task|
@@ -761,7 +1165,7 @@ content_sha256: 4adaf666894dcbe7ed4fa9f82b9b4cacfba79b2047d5594148e01aa755b6da59
 stable_id: skills/openclaw-openclaw-atlassian-mcp
 type: skills
 title: atlassian-mcp
-summary: "Atlassian MCP: Jira and Confluence integration via Docker."
+summary: Run the Model Context Protocol (MCP) Atlassian server.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -769,10 +1173,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atakanermis/atlassian-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.242Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:31.675Z
 content_sha256: 8052a44096cdf9de260c1e0f8bf1d24b3ed9d332acc66c6da5cee31ccf484207
 ---
 |/data/openclaw-openclaw-atlassian-mcp|
@@ -793,7 +1197,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.929Z
+retrieved_at: 2026-03-09T22:23:42.093Z
 content_sha256: 69a9bd12d3b17f43a09d0fcf4a47aad5dda7ac41244833b32eff1961feda9146
 ---
 |/data/openclaw-openclaw-audiopod|
@@ -825,7 +1229,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:35.186Z
+retrieved_at: 2026-03-09T22:23:42.460Z
 content_sha256: e89d55b0670c5978af903e63d6ab5fb1097aaf5cecf41e292278646371a1d0a8
 ---
 |/data/openclaw-openclaw-autonomous-feature-planner|
@@ -845,7 +1249,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.170Z
+retrieved_at: 2026-03-09T22:23:45.024Z
 content_sha256: 13977bed29b4051babc9415a5e7c98ce0fcee1dfc875c3515dc7892e89755d1c
 ---
 |/data/openclaw-openclaw-basal-ganglia-memory|
@@ -866,7 +1270,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:39.263Z
+retrieved_at: 2026-03-09T22:23:46.066Z
 content_sha256: 4ddfe056ef82346b345be6453bf55eff08539cde4096e5537c4b5d0aec03eace
 ---
 |/data/openclaw-openclaw-blossom-hire|
@@ -887,7 +1291,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:41.460Z
+retrieved_at: 2026-03-09T22:23:47.887Z
 content_sha256: b98c30fb9135ca590c6ca201497d7e846beec4f9d11bdc25c096c40a8adb3277
 ---
 |/data/openclaw-openclaw-build-discipline|
@@ -907,7 +1311,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:44.590Z
+retrieved_at: 2026-03-09T22:23:50.515Z
 content_sha256: e29175c5d638bad6c5d6d85704d9f7b6ddc7138f438c034340e74dd73dc8641f
 ---
 |/data/openclaw-openclaw-clankdin|
@@ -927,7 +1331,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:45.475Z
+retrieved_at: 2026-03-09T22:23:51.232Z
 content_sha256: eada58826258e3e243e30d3c312e6d9ae3b295fa7f55ff47755715d274fa361c
 ---
 |/data/openclaw-openclaw-claw-conductor|
@@ -948,7 +1352,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:46.090Z
+retrieved_at: 2026-03-09T22:23:51.845Z
 content_sha256: 37cf5fba34209c864784e5fb34038c071fa4eaddcecb4d15671a90a23aa6c393
 ---
 |/data/openclaw-openclaw-clawd-docs-v2|
@@ -969,7 +1373,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:49.400Z
+retrieved_at: 2026-03-09T22:23:53.422Z
 content_sha256: 1c68e5bc512902f69eca561bf83cf69731e3b4f11ec9a1ff8edd7054a063b504
 ---
 |/data/openclaw-openclaw-clawgatesecure|
@@ -990,7 +1394,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:50.925Z
+retrieved_at: 2026-03-09T22:23:54.704Z
 content_sha256: 33242b2f681387bcee3ea03d8de8ba928fd6fdd5e5f18d6925cd93661349af69
 ---
 |/data/openclaw-openclaw-clickup-mcp|
@@ -1010,7 +1414,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:52.275Z
+retrieved_at: 2026-03-09T22:23:56.218Z
 content_sha256: c094d9cd315cb9db49328d523a366cfc333a189252f3f5c1c35e1ae37f5396b1
 ---
 |/data/openclaw-openclaw-comanda|
@@ -1031,7 +1435,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:53.262Z
+retrieved_at: 2026-03-09T22:23:57.568Z
 content_sha256: b1f03f7bd45f1e49e4efd7d0102c9fd264c616c9adf5562d35d24e852507bcf4
 ---
 |/data/openclaw-openclaw-confirm-form|
@@ -1052,7 +1456,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:53.930Z
+retrieved_at: 2026-03-09T22:23:58.291Z
 content_sha256: 5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd
 ---
 |/data/openclaw-openclaw-content-writing-thought-leadership|
@@ -1072,7 +1476,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.291Z
+retrieved_at: 2026-03-09T22:24:03.981Z
 content_sha256: 4829786b7b792c01f51bc479fa72e46680dfbddd8b7dbd14a1ca011c02466162
 ---
 |/data/openclaw-openclaw-dex|
@@ -1092,7 +1496,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.373Z
+retrieved_at: 2026-03-09T22:24:04.090Z
 content_sha256: ca44547b8b754a6dd78df84da35cde2ce9f1cfc86ab1e04ccf2792a3469bce3d
 ---
 |/data/openclaw-openclaw-dexcom|
@@ -1113,7 +1517,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:01.817Z
+retrieved_at: 2026-03-09T22:24:06.554Z
 content_sha256: 8cdb3208a10b616cd01f164a8926acd22ad050c0ef00632ac35281bec9698cbf
 ---
 |/data/openclaw-openclaw-dvsa-tc-audit-readiness-operator-licence-uk|
@@ -1133,7 +1537,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:06.349Z
+retrieved_at: 2026-03-09T22:24:10.967Z
 content_sha256: 61b9abccb211a45ac4424b51a58c4351855bf3231634958cb4c8d0403daf3a59
 ---
 |/data/openclaw-openclaw-featurebase|
@@ -1154,7 +1558,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:08.765Z
+retrieved_at: 2026-03-09T22:24:13.802Z
 content_sha256: 37e2abd0532d2fdd3491d061b810ee1b53ff097a8785367e4a86f9fffd4171cf
 ---
 |/data/openclaw-openclaw-flow|
@@ -1175,7 +1579,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:08.832Z
+retrieved_at: 2026-03-09T22:24:13.930Z
 content_sha256: 10e1aad4f4de37f5f438f80603e868c508330f9f648d8c0feffa6bf7b17b5e84
 ---
 |/data/openclaw-openclaw-flowmind|
@@ -1196,7 +1600,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:08.976Z
+retrieved_at: 2026-03-09T22:24:14.179Z
 content_sha256: 49210c4f52887892fb0885a009ca2c44fcfcd224764087191f8b121ff7d9647f
 ---
 |/data/openclaw-openclaw-focus-deep-work|
@@ -1216,7 +1620,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:13.823Z
+retrieved_at: 2026-03-09T22:24:20.854Z
 content_sha256: 725074ff68f7b5d998fc9db651204809707cc9c4e7ffd9dd98457ae1cf6600b3
 ---
 |/data/openclaw-openclaw-gmail-manager|
@@ -1236,7 +1640,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:13.901Z
+retrieved_at: 2026-03-09T22:24:20.977Z
 content_sha256: 797af7004d2c8bceb4781c0e8b59d6a55adbe72e8abd647cab2379dea958c07d
 ---
 |/data/openclaw-openclaw-gno|
@@ -1256,7 +1660,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:14.274Z
+retrieved_at: 2026-03-09T22:24:21.671Z
 content_sha256: 8ad7e28eaaeb3576afe817be01c4f72b765e8fa6a665e552162bd7bcd1872bec
 ---
 |/data/openclaw-openclaw-gogcli|
@@ -1277,7 +1681,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:15.145Z
+retrieved_at: 2026-03-09T22:24:22.777Z
 content_sha256: 54d81b8b7345a6777b98546f0580c364f0d9842e0519aa98b66e40d1659c8236
 ---
 |/data/openclaw-openclaw-google-sheet|
@@ -1297,7 +1701,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:51.334Z
+retrieved_at: 2026-03-09T22:23:04.713Z
 content_sha256: bfe848d8a0f1375bf6c9f6f4eb94eced1566b3724231a78c15e1718194bb5ec0
 ---
 |/data/openclaw-openclaw-google-workspace-mcp|
@@ -1317,7 +1721,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:16.071Z
+retrieved_at: 2026-03-09T22:24:23.784Z
 content_sha256: a0046d1ccbe42186e38bf19ce7a736d2e374da7a5445df20206c450e5aa7d1eb
 ---
 |/data/openclaw-openclaw-gratitude-journal|
@@ -1338,7 +1742,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:16.795Z
+retrieved_at: 2026-03-09T22:24:24.773Z
 content_sha256: 2fc229316f7536703fd8d9d65cf2d2d5f5f96c54762123ebb1e220a3011924c3
 ---
 |/data/openclaw-openclaw-habit-flow-skill|
@@ -1358,7 +1762,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:16.870Z
+retrieved_at: 2026-03-09T22:24:24.889Z
 content_sha256: 57692c155d1a17dac483d8d3542e32393911f0f0fd5d414ff64b6d5815d9d29b
 ---
 |/data/openclaw-openclaw-habit-tracker|
@@ -1379,7 +1783,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:17.337Z
+retrieved_at: 2026-03-09T22:24:25.146Z
 content_sha256: 52aadb2fbd0fcb2619ca54b2b14e64a76c73ae29177f2e5d43de57caf5292776
 ---
 |/data/openclaw-openclaw-healthy-eating|
@@ -1399,7 +1803,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:20.288Z
+retrieved_at: 2026-03-09T22:24:28.346Z
 content_sha256: c3cea768612ebb8a25dae07bbc5a5b4dbdf52aee31af7bc2f9c448927b0eb482
 ---
 |/data/openclaw-openclaw-imap-email|
@@ -1419,7 +1823,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:23.641Z
+retrieved_at: 2026-03-09T22:24:31.985Z
 content_sha256: 93ccf09c76e341399ad3dfeb597cc8abf8c07798f476a8dc2476c6bf91bf2d6c
 ---
 |/data/openclaw-openclaw-jira|
@@ -1439,7 +1843,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:26.662Z
+retrieved_at: 2026-03-09T22:24:35.139Z
 content_sha256: c18769f6f4427a6fcc4a29e8afab39ce447ce6823e664aa3d84c7a6801ac4c92
 ---
 |/data/openclaw-openclaw-kanbanflow-skill|
@@ -1459,7 +1863,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:28.855Z
+retrieved_at: 2026-03-09T22:24:38.265Z
 content_sha256: c9958bce3b7af252c6ace33b3fc6d7540f7f570ddb3c4e868eeb3bf756968605
 ---
 |/data/openclaw-openclaw-linear|
@@ -1479,7 +1883,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:28.941Z
+retrieved_at: 2026-03-09T22:24:38.375Z
 content_sha256: 13b24a5e65222985557a4ee570b5b8ef8e8bd0dbf19692a3eb2718669df4044e
 ---
 |/data/openclaw-openclaw-linear-issues|
@@ -1499,7 +1903,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.967Z
+retrieved_at: 2026-03-09T22:24:42.135Z
 content_sha256: d27e5be2f266a668f389743c8392448015e60af9d8619f86ab9cd129271cf03a
 ---
 |/data/openclaw-openclaw-mastodon-scout|
@@ -1519,7 +1923,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:35.354Z
+retrieved_at: 2026-03-09T22:24:46.101Z
 content_sha256: ea7fe832af6bea0337c413f15ffecb198aa6f32cdbd4a021bfbce7ee73b1204c
 ---
 |/data/openclaw-openclaw-mlti-llm-fallback|
@@ -1539,7 +1943,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:35.855Z
+retrieved_at: 2026-03-09T22:24:46.841Z
 content_sha256: ddb07f6748bbba566b8034ae9565944fdb2dceae062a3cc41d17c72da29350ae
 ---
 |/data/openclaw-openclaw-mogcli|
@@ -1559,7 +1963,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:38.329Z
+retrieved_at: 2026-03-09T22:24:49.382Z
 content_sha256: e5dd60f28323f15fc20428eba30b359c2b4d33262ab3950a336942d49a7feb66
 ---
 |/data/openclaw-openclaw-morning-briefing|
@@ -1579,7 +1983,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:38.510Z
+retrieved_at: 2026-03-09T22:24:49.632Z
 content_sha256: e8c0929cddfcb456ccfe5451747460d0a37984d70c4e22a2e9c2809b0cfdd364
 ---
 |/data/openclaw-openclaw-morning-manifesto|
@@ -1599,7 +2003,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:42.274Z
+retrieved_at: 2026-03-09T22:24:54.340Z
 content_sha256: 604e4e8b9e58c7b5eff29890d3e1e2c578f66364b31d16b8b13a9dbadadabb26
 ---
 |/data/openclaw-openclaw-no-nonsense-tasks|
@@ -1619,7 +2023,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:44.768Z
+retrieved_at: 2026-03-09T22:24:58.669Z
 content_sha256: 4a35b2f581dc7fc2e70045d6fcb9a8ff5e0f77709cc69d85ef1d429459ebcb39
 ---
 |/data/openclaw-openclaw-omnifocus-automation|
@@ -1639,7 +2043,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:48.559Z
+retrieved_at: 2026-03-09T22:25:04.133Z
 content_sha256: b50fec118666e0b8f1864795c5c9387e313d2231d7dcea5395fa24810a48e4a4
 ---
 |/data/openclaw-openclaw-outlook|
@@ -1659,7 +2063,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:48.800Z
+retrieved_at: 2026-03-09T22:25:04.511Z
 content_sha256: e129972ac0a321336335e237298accf0c072855b12064082340df78a50e540bf
 ---
 |/data/openclaw-openclaw-pa-admin-exec|
@@ -1680,7 +2084,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:51.258Z
+retrieved_at: 2026-03-09T22:25:07.490Z
 content_sha256: 2868b69feda344ca79edf2a3421ff6273b1384e74b893e98b9443b6b05dddc3b
 ---
 |/data/openclaw-openclaw-personal-analytics|
@@ -1701,7 +2105,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:52.865Z
+retrieved_at: 2026-03-09T22:25:09.438Z
 content_sha256: de9566cfca807a5bbdab6c1bceb12917a3c503474cda395ca9e34c3a327b2db9
 ---
 |/data/openclaw-openclaw-plan-executor|
@@ -1721,7 +2125,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:52.954Z
+retrieved_at: 2026-03-09T22:25:09.553Z
 content_sha256: 0d8c7d87a3267175600ceffffd1bc2e489cc3243575451730df49c731cfdb9ee
 ---
 |/data/openclaw-openclaw-plan-my-day|
@@ -1742,7 +2146,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:53.183Z
+retrieved_at: 2026-03-09T22:25:09.948Z
 content_sha256: 1ed83164f52fe0989fb2d39f85eeb5b988c320dcff8980ec2ae9ddee4f22eda6
 ---
 |/data/openclaw-openclaw-planka|
@@ -1762,7 +2166,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:53.340Z
+retrieved_at: 2026-03-09T22:25:10.193Z
 content_sha256: 94e5791ae8b917e20581146c91c61636ae8a72f0a38b2ac0a999de773a9d0496
 ---
 |/data/openclaw-openclaw-planning-with-files|
@@ -1782,7 +2186,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:55.089Z
+retrieved_at: 2026-03-09T22:25:12.572Z
 content_sha256: 642db64091e78dd54b696292cd153ca22841c89273a359c1eb09dca0535cf8c5
 ---
 |/data/openclaw-openclaw-prd|
@@ -1802,7 +2206,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:55.182Z
+retrieved_at: 2026-03-09T22:25:12.693Z
 content_sha256: 51be8754ad23302e92e31f2243ec95dc77326f290ac2c38bc74e4db1a5b10b67
 ---
 |/data/openclaw-openclaw-pre-mortem-analyst|
@@ -1823,7 +2227,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:55.904Z
+retrieved_at: 2026-03-09T22:25:13.635Z
 content_sha256: 571521d9f6f38b3ec9f073d7bdec47170a35e9c78556954ac7f0f860ab12873b
 ---
 |/data/openclaw-openclaw-proactive-agent|
@@ -1844,7 +2248,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:56.972Z
+retrieved_at: 2026-03-09T22:25:14.878Z
 content_sha256: eb962d7f22e8561e700246595d72c629f183899eb69cf02ac15fde9fe26256ba
 ---
 |/data/openclaw-openclaw-project-management-guru-adhd|
@@ -1864,7 +2268,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:57.182Z
+retrieved_at: 2026-03-09T22:25:15.120Z
 content_sha256: 5a850ea832ef5f4e9224fcf452eb836a6489be00779cc27305c41413382861ce
 ---
 |/data/openclaw-openclaw-project-manager|
@@ -1884,7 +2288,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:58.316Z
+retrieved_at: 2026-03-09T22:25:16.394Z
 content_sha256: c2a2fd5159da5affcea51f1cf685d20c22dbece535a9319e85a0ac6eea049f78
 ---
 |/data/openclaw-openclaw-prowlarr|
@@ -1904,7 +2308,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:59.479Z
+retrieved_at: 2026-03-09T22:25:17.614Z
 content_sha256: 8d0a688885a61062a655259d755d050e5a51a54d80fe1c1643756bf0dbba41cf
 ---
 |/data/openclaw-openclaw-qmd|
@@ -1924,7 +2328,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:06.511Z
+retrieved_at: 2026-03-09T22:25:27.684Z
 content_sha256: cbcb5b5947421321cb464cb7c8f5fc16cec3a129e7731766ec8703b44c7c7b1c
 ---
 |/data/openclaw-openclaw-samsung-smartthings|
@@ -1945,7 +2349,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:12.199Z
+retrieved_at: 2026-03-09T22:25:36.576Z
 content_sha256: 61ee6edbc75cb9d8fe2472f65babe86c5bcc24bdf757898567d25e7c84274f6e
 ---
 |/data/openclaw-openclaw-skylight-skill|
@@ -1966,7 +2370,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:13.174Z
+retrieved_at: 2026-03-09T22:25:38.243Z
 content_sha256: 5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd
 ---
 |/data/openclaw-openclaw-social-media-management|
@@ -1986,7 +2390,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:17.195Z
+retrieved_at: 2026-03-09T22:25:44.790Z
 content_sha256: 2788441d369a9ce7ed9f1e78cb9bb8bb50882e4a9057ce832fde19033de94d78
 ---
 |/data/openclaw-openclaw-swarm|
@@ -2006,7 +2410,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:18.704Z
+retrieved_at: 2026-03-09T22:25:46.261Z
 content_sha256: 54985066033061e0a02c6f8d2e9eb10ce0f6e1450e2a2173b57ae8317d1dbaf6
 ---
 |/data/openclaw-openclaw-tabussen|
@@ -2026,7 +2430,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.133Z
+retrieved_at: 2026-03-09T22:25:46.905Z
 content_sha256: 129ffe24ca5df7fc8fe5663cf8162c81fbc9c39162f6a937bb4ce9f26264dd3e
 ---
 |/data/openclaw-openclaw-task|
@@ -2046,7 +2450,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.295Z
+retrieved_at: 2026-03-09T22:25:47.160Z
 content_sha256: 997386f3e394e3a0e3801dc1135a0cf54c877bba89c113c159fde4f95d420915
 ---
 |/data/openclaw-openclaw-task-tracker|
@@ -2066,7 +2470,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.382Z
+retrieved_at: 2026-03-09T22:25:47.282Z
 content_sha256: 51fbe1514615925a171e54b014270d2cc6344dfc05903a8b473dc4566d861944
 ---
 |/data/openclaw-openclaw-taskleef|
@@ -2086,7 +2490,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.454Z
+retrieved_at: 2026-03-09T22:25:47.417Z
 content_sha256: 6f8a7636ae8aa5bf56ce47d86c3e4ea7d3886a1e610467153797ffab3f85b554
 ---
 |/data/openclaw-openclaw-taskmaster|
@@ -2107,7 +2511,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:21.214Z
+retrieved_at: 2026-03-09T22:25:50.014Z
 content_sha256: 174c779f65765462c9cdb69fba4e1294f5e65d9d0edb3e2581863674d00d34f5
 ---
 |/data/openclaw-openclaw-tesy|
@@ -2127,7 +2531,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:21.530Z
+retrieved_at: 2026-03-09T22:25:50.503Z
 content_sha256: 27c8942d072ced586e6fc3a4da806a583c55870f5892cc2974d82ced02a6a280
 ---
 |/data/openclaw-openclaw-thecolony-heartbeat|
@@ -2147,7 +2551,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:21.687Z
+retrieved_at: 2026-03-09T22:25:50.756Z
 content_sha256: c5cd40a9d8180fc220d7fd0f0372612ac00f92174677bdb0c47e3fd2f0bd9307
 ---
 |/data/openclaw-openclaw-things-mac|
@@ -2168,7 +2572,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:22.251Z
+retrieved_at: 2026-03-09T22:25:51.879Z
 content_sha256: b08e30a715ddcdf1512932082afda6cc5e278b0fb8bba14d3961b8061d8e76d2
 ---
 |/data/openclaw-openclaw-ticktick|
@@ -2188,7 +2592,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:22.410Z
+retrieved_at: 2026-03-09T22:25:52.125Z
 content_sha256: bf95e49c5242ecd68c4c02027942f57cd827c849bb82333e907080675f007dd6
 ---
 |/data/openclaw-openclaw-timesheet|
@@ -2208,7 +2612,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:22.859Z
+retrieved_at: 2026-03-09T22:25:52.742Z
 content_sha256: a8f163d2665037a5f12c22ed9cacf9e5c9598950c8a203ba3fa8654c3680649e
 ---
 |/data/openclaw-openclaw-todo-tracker|
@@ -2228,7 +2632,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:22.939Z
+retrieved_at: 2026-03-09T22:25:52.872Z
 content_sha256: 56960995964fa8cf3110194b53dfbba90283a402585f89325414d2dfa72eb731
 ---
 |/data/openclaw-openclaw-todoist|
@@ -2248,7 +2652,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:23.109Z
+retrieved_at: 2026-03-09T22:25:53.115Z
 content_sha256: b876aea2092414f4d76373e5d97dd4e1baf6e4713c26832f6ab37337263495f7
 ---
 |/data/openclaw-openclaw-toggl|
@@ -2268,7 +2672,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:23.491Z
+retrieved_at: 2026-03-09T22:25:53.635Z
 content_sha256: 3df56f8f01f12c4ef14c1fbcf7eef7a93f09cb63fd905d5f3c3cf09a2a352cde
 ---
 |/data/openclaw-openclaw-topydo|
@@ -2288,7 +2692,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:24.512Z
+retrieved_at: 2026-03-09T22:25:55.357Z
 content_sha256: ede0f3181af05734e178a9415295402ecfe4cb2da08d1d26515634e874ec08e1
 ---
 |/data/openclaw-openclaw-trello|
@@ -2308,7 +2712,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:27.974Z
+retrieved_at: 2026-03-09T22:26:00.881Z
 content_sha256: c8f4f3170604a1522b85fe4965025ab5f090549a09d2a124e1f84f21e4f5657f
 ---
 |/data/openclaw-openclaw-value-tracker|
@@ -2328,7 +2732,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:29.153Z
+retrieved_at: 2026-03-09T22:26:02.982Z
 content_sha256: 8272111d8b6e4c5d59778d2491796b94779788433f2955c638a22efe13abf12c
 ---
 |/data/openclaw-openclaw-vikunja-fast|
@@ -2348,7 +2752,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:31.566Z
+retrieved_at: 2026-03-09T22:26:07.832Z
 content_sha256: dbb0e6ab3e3565cf49de6b2c3bcd62339aafebb099514ec3c86771a096cd920b
 ---
 |/data/openclaw-openclaw-web-perf|
@@ -2369,7 +2773,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:34.838Z
+retrieved_at: 2026-03-09T22:26:11.978Z
 content_sha256: 940038aadf2fac2ca826113f01b8fa7b8acff5776fc20233018dabb846003fcc
 ---
 |/data/openclaw-openclaw-withings-health|

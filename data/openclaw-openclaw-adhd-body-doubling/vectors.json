@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adhd-body-doubling",
-  "generated_at": "2026-03-09T07:22:25.514Z",
+  "generated_at": "2026-03-09T22:26:51.164Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adhd-body-doubling#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-adhd-body-doubling/HEAD.md",
-      "text": "title: adhd-body-doubling\nsummary: Punk-style ADHD body doubling for founders with focus sessions.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-body-doubling/SKILL.md",
+      "text": "title: adhd-body-doubling\nsummary: Punk-style ADHD body doubling for founders.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-body-doubling/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-adhd-body-doubling",
         "topic": "openclaw-openclaw-adhd-body-doubling",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-body-doubling/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:25.514Z",
+        "retrieved_at": "2026-03-09T22:26:51.164Z",
         "content_sha256": "e81f4b482d60315b9d992f00837082270869652d010552c2c86233adff8e7321"
       }
     }

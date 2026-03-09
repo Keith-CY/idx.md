@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-add-analytics",
+  "generated_at": "2026-03-09T22:26:50.325Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-add-analytics#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-add-analytics/HEAD.md",
+      "text": "title: add-analytics\nsummary: Add Google Analytics 4 tracking to any project.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-data-analytics\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeftekhari/add-analytics/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-add-analytics",
+        "topic": "openclaw-openclaw-add-analytics",
+        "type": "skills",
+        "title": "add-analytics",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jeftekhari/add-analytics/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:50.325Z",
+        "content_sha256": "9c2201c5e5c108ecdc88deaeda6ca535b6723a6a071463d28bcc9c639fe84658"
+      }
+    }
+  ]
+}

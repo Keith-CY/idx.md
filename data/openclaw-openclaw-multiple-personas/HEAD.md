@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-multiple-personas
 type: skills
 title: multiple-personas
-summary: Create and manage AI subagent personas with distinct personalities.
+summary: Create and manage AI subagent personas with distinct.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ipedrax/multiple-personas/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:39.082Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:27.810Z
 content_sha256: abd005b66e73a5f75b2b8f7f74b3b48ab66c14977d7240899d054942bd15cad2
 ---

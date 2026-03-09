@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-beestat
 type: skills
 title: beestat
-summary: Query ecobee thermostat data via Beestat API including temperature,
-  humidity, air quality (CO2.
+summary: Query ecobee thermostat data via Beestat API including temperature.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/beestat/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:38.059Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:37.368Z
 content_sha256: 5b977fcbcbde5f1432ff35a4f9abe05b88e9ba2b15c79369a688ba6eab0ad7f1
 ---

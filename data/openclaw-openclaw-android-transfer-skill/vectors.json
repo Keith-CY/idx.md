@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-android-transfer-skill",
+  "generated_at": "2026-03-09T22:27:22.899Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-android-transfer-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-android-transfer-skill/HEAD.md",
+      "text": "title: android-transfer-skill\nsummary: Securely transfers files from macOS to Android with checksum verification and path validation.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ios-macos-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/android-transfer-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-android-transfer-skill",
+        "topic": "openclaw-openclaw-android-transfer-skill",
+        "type": "skills",
+        "title": "android-transfer-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ios-macos-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/android-transfer-skill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:22.899Z",
+        "content_sha256": "5d413dbd1d79b625a837a4ad21c941fdec58382d1352b3e977807c416f76839e"
+      }
+    }
+  ]
+}

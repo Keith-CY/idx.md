@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adaptlypost",
+  "generated_at": "2026-03-09T22:26:49.972Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adaptlypost#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adaptlypost/HEAD.md",
+      "text": "title: adaptlypost\nsummary: Schedule and manage social media posts across Instagram, X (Twitter), Bluesky, TikTok, Threads, LinkedIn, Facebook.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tarasshyn/adaptlypost/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adaptlypost",
+        "topic": "openclaw-openclaw-adaptlypost",
+        "type": "skills",
+        "title": "adaptlypost",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tarasshyn/adaptlypost/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:49.972Z",
+        "content_sha256": "1cc5af1eaee99de5628bb525ae0cc839a67701573fe1f3be1d6f8dc4f7a689a5"
+      }
+    }
+  ]
+}

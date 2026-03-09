@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-doc-accurate-codegen",
+  "generated_at": "2026-03-09T22:28:08.512Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-doc-accurate-codegen#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-doc-accurate-codegen/HEAD.md",
+      "text": "title: doc-accurate-codegen\nsummary: Generate code that references actual documentation, preventing hallucination bugs.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-calendar-scheduling\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tobisamaa/doc-accurate-codegen/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-doc-accurate-codegen",
+        "topic": "openclaw-openclaw-doc-accurate-codegen",
+        "type": "skills",
+        "title": "doc-accurate-codegen",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-calendar-scheduling"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tobisamaa/doc-accurate-codegen/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:08.512Z",
+        "content_sha256": "aa5e6fbaa29a2eb35702059329223bbd82ddfe97cc56d0218e9fb8742e651ea1"
+      }
+    }
+  ]
+}

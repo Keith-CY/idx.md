@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-31third-safe-rebalancer-simple",
+  "generated_at": "2026-03-09T22:26:40.381Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-31third-safe-rebalancer-simple#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-31third-safe-rebalancer-simple/HEAD.md",
+      "text": "title: 31third-safe-rebalancer-simple\nsummary: One-step Safe rebalancer using on-chain 31Third policies.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/phips0812/31third-safe-rebalancer-simple/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-31third-safe-rebalancer-simple",
+        "topic": "openclaw-openclaw-31third-safe-rebalancer-simple",
+        "type": "skills",
+        "title": "31third-safe-rebalancer-simple",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/phips0812/31third-safe-rebalancer-simple/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:40.381Z",
+        "content_sha256": "a7ba6bfe0264c55c806a56f8f8363d073a2b47aafae3c909b84216473b7fa4e0"
+      }
+    }
+  ]
+}

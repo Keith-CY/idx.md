@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-arccos-golf",
+  "generated_at": "2026-03-09T22:27:29.773Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-arccos-golf#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-arccos-golf/HEAD.md",
+      "text": "title: arccos-golf\nsummary: Analyze Arccos Golf performance data including club distances, strokes gained metrics, scoring patterns.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pfrederiksen/arccos-golf/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-arccos-golf",
+        "topic": "openclaw-openclaw-arccos-golf",
+        "type": "skills",
+        "title": "arccos-golf",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pfrederiksen/arccos-golf/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:29.773Z",
+        "content_sha256": "febe44fd60ef541c0caf1ae3980b31d9d2320684769827ec70257c3c245a7ddf"
+      }
+    }
+  ]
+}

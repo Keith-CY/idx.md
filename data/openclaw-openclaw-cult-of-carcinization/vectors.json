@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-cult-of-carcinization",
+  "generated_at": "2026-03-09T22:28:04.455Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-cult-of-carcinization#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-cult-of-carcinization/HEAD.md",
+      "text": "title: cult-of-carcinization\nsummary: Give your agent a voice — and ears.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/loserbcc/cult-of-carcinization/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-cult-of-carcinization",
+        "topic": "openclaw-openclaw-cult-of-carcinization",
+        "type": "skills",
+        "title": "cult-of-carcinization",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/loserbcc/cult-of-carcinization/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:04.455Z",
+        "content_sha256": "7a08e1c61acc7cab330a8e469764c020168beceb9b89f9968c8b5a329bf2d541"
+      }
+    }
+  ]
+}

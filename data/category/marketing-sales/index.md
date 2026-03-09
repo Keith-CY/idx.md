@@ -3,7 +3,7 @@
 | Category | Marketing & Sales |
 | --- | --- |
 | Slug | marketing-sales |
-| Count | 106 |
+| Count | 119 |
 
 ---
 stable_id: skills/knowledge-work-plugins-marketing-commands-brand-review
@@ -22,7 +22,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.191Z
+retrieved_at: 2026-03-09T22:23:11.491Z
 content_sha256: 1f6926624a4fe1b1761c6eb33a73b3978ca6de9eab13ef6ff40a9b348668f2de
 ---
 |/data/knowledge-work-plugins-marketing-commands-brand-review|
@@ -45,7 +45,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.245Z
+retrieved_at: 2026-03-09T22:23:11.586Z
 content_sha256: 8daa883be0c19804d6812c8b5ddd1d0747e0615dcf9c609448d2a2ea5e9b8d05
 ---
 |/data/knowledge-work-plugins-marketing-commands-campaign-plan|
@@ -67,7 +67,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.088Z
+retrieved_at: 2026-03-09T22:23:11.287Z
 content_sha256: 07ac7c828dabaec69b58e81fdc0a49d6de4ae464ae953615fe9898ddc1b04efc
 ---
 |/data/knowledge-work-plugins-marketing-commands-competitive-brief|
@@ -90,7 +90,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.142Z
+retrieved_at: 2026-03-09T22:23:11.376Z
 content_sha256: 3cd48c55708c9fa8bfc4917cc9cb06091059dd7409c565a49af8631fe5ab1a52
 ---
 |/data/knowledge-work-plugins-marketing-commands-draft-content|
@@ -113,7 +113,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.974Z
+retrieved_at: 2026-03-09T22:23:11.087Z
 content_sha256: 2714b0d8cce61645c0b5cc6ce08ee0e5e399d3170e33e7dd4b1dd352f4d8a4a9
 ---
 |/data/knowledge-work-plugins-marketing-commands-email-sequence|
@@ -136,7 +136,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.036Z
+retrieved_at: 2026-03-09T22:23:11.185Z
 content_sha256: 657186c43203a207d87a888d67c058c4597901d95b67e336a2186d8b18c63aaf
 ---
 |/data/knowledge-work-plugins-marketing-commands-performance-report|
@@ -159,7 +159,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:55.297Z
+retrieved_at: 2026-03-09T22:23:11.684Z
 content_sha256: 49dbc54c23c43be83f1e16195986397a4d73394b8c2bf199d97a71d212c4d311
 ---
 |/data/knowledge-work-plugins-marketing-commands-seo-audit|
@@ -184,7 +184,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.922Z
+retrieved_at: 2026-03-09T22:23:10.968Z
 content_sha256: e88cbe7a68826350cde2b3050b4dfd4caa1ce41dd2d80b7ed47d79c39c7e7d35
 ---
 |/data/knowledge-work-plugins-marketing-skills-brand-voice-skill|
@@ -209,7 +209,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.802Z
+retrieved_at: 2026-03-09T22:23:10.766Z
 content_sha256: bd42e411831e2f1ea968d697d3765dcbc538787a7e866fb22337fedc067bc382
 ---
 |/data/knowledge-work-plugins-marketing-skills-campaign-planning-skill|
@@ -234,7 +234,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.701Z
+retrieved_at: 2026-03-09T22:23:10.669Z
 content_sha256: cbce9a731eac10569e20347495ae14ab980f7917bd697d24cea89f10248e20bd
 ---
 |/data/knowledge-work-plugins-marketing-skills-competitive-analysis-skill|
@@ -259,7 +259,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.855Z
+retrieved_at: 2026-03-09T22:23:10.859Z
 content_sha256: e0145f84827b8529df1a028e5b7c0ec7a5c3bda3516228f8a013537a13227900
 ---
 |/data/knowledge-work-plugins-marketing-skills-content-creation-skill|
@@ -284,7 +284,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.652Z
+retrieved_at: 2026-03-09T22:23:10.581Z
 content_sha256: 9b8649d5aa6739d0f92843f3c01a2614cd32757f4e9b41cc632ad912973088be
 ---
 |/data/knowledge-work-plugins-marketing-skills-performance-analytics-skill|
@@ -307,7 +307,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.947Z
+retrieved_at: 2026-03-09T22:23:14.601Z
 content_sha256: 93dae4f2eef60a3155ab2e6ba03570ba2e693e3b99278eeb4ae6f24889c0d8e1
 ---
 |/data/knowledge-work-plugins-sales-commands-call-summary|
@@ -330,7 +330,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.896Z
+retrieved_at: 2026-03-09T22:23:14.504Z
 content_sha256: 68be241e4049fcb6796abb2443b2cfcd108362fe3c2c0ccb15b96ffbdc673a8d
 ---
 |/data/knowledge-work-plugins-sales-commands-forecast|
@@ -353,7 +353,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.839Z
+retrieved_at: 2026-03-09T22:23:14.411Z
 content_sha256: 314ea28094dfe682e0913c7f4b1d4349e72be4ce404ae88d62cf6bceab08659d
 ---
 |/data/knowledge-work-plugins-sales-commands-pipeline-review|
@@ -378,7 +378,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.626Z
+retrieved_at: 2026-03-09T22:23:14.032Z
 content_sha256: 9b73bf462b1e96516ed7de68c628c34c5416b233ddda249d5186fdd4bbdabc17
 ---
 |/data/knowledge-work-plugins-sales-skills-account-research-skill|
@@ -404,7 +404,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.522Z
+retrieved_at: 2026-03-09T22:23:13.849Z
 content_sha256: 51b075cf1a1cecdd1022034de5a552971917a1fea2304f564bb550bdc6dbbf72
 ---
 |/data/knowledge-work-plugins-sales-skills-call-prep-skill|
@@ -430,7 +430,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.575Z
+retrieved_at: 2026-03-09T22:23:13.941Z
 content_sha256: 1153f80c8fcadc862fbebd23caaf237eb6c81132360ac603b99640fce6c1a052
 ---
 |/data/knowledge-work-plugins-sales-skills-competitive-intelligence-skill|
@@ -454,7 +454,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.730Z
+retrieved_at: 2026-03-09T22:23:14.215Z
 content_sha256: 02857091cc9927090a7fd128c9bc906f67b29533f095a08493c320174c0f8678
 ---
 |/data/knowledge-work-plugins-sales-skills-create-an-asset-skill|
@@ -479,7 +479,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.674Z
+retrieved_at: 2026-03-09T22:23:14.124Z
 content_sha256: 9f2c4976aed1326edbf6d7d9d499df63f3c178d2c14c6254c8a9c0a15eb0d04a
 ---
 |/data/knowledge-work-plugins-sales-skills-daily-briefing-skill|
@@ -503,7 +503,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:56.784Z
+retrieved_at: 2026-03-09T22:23:14.320Z
 content_sha256: eeca7158539ae7e6f41025a099a34441e9b9bfaa130af4297e09b8c2253c8828
 ---
 |/data/knowledge-work-plugins-sales-skills-draft-outreach-skill|
@@ -512,7 +512,7 @@ content_sha256: eeca7158539ae7e6f41025a099a34441e9b9bfaa130af4297e09b8c2253c8828
 stable_id: skills/openclaw-openclaw-4chan-reader
 type: skills
 title: 4chan-reader
-summary: Browse 4chan boards and extract thread discussions into structured text files.
+summary: Browse 4chan boards and extract thread discussions.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -520,10 +520,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aiasisbot61/4chan-reader/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:24.098Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:41.340Z
 content_sha256: e325391ace93ff537e757257e8874b404c9b74c159fac0acd908c1baef62d69a
 ---
 |/data/openclaw-openclaw-4chan-reader|
@@ -532,7 +532,7 @@ content_sha256: e325391ace93ff537e757257e8874b404c9b74c159fac0acd908c1baef62d69a
 stable_id: skills/openclaw-openclaw-ab-test-setup
 type: skills
 title: ab-test-setup
-summary: When the user wants to plan, design, or implement an A/B test or experiment.
+summary: When the user wants to plan.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -540,36 +540,79 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/ab-test-setup/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:24.500Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:44.925Z
 content_sha256: 51b1895d080bca288a6f1d8022a6a124e82338a7d88c7dd34f1f01b500286459
 ---
 |/data/openclaw-openclaw-ab-test-setup|
 
 ---
+stable_id: skills/openclaw-openclaw-ad-ready
+type: skills
+title: ad-ready
+summary: Generate professional advertising images from product URLs.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pauldelavallaz/ad-ready/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:49.214Z
+content_sha256: 83a83818dac28437895ec04fa16e67567b8dd65ea837afc5c8b9e96fdcbd23ab
+---
+|/data/openclaw-openclaw-ad-ready|
+
+---
+stable_id: skills/openclaw-openclaw-ad-ready-pro
+type: skills
+title: ad-ready-pro
+summary: Generate professional advertising images from product URLs.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pauldelavallaz/ad-ready-pro/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:49.340Z
+content_sha256: 62e923474848086964910d65bdc38d0a1a92ed3f9e4f80a692d3a2a80a9ccabd
+---
+|/data/openclaw-openclaw-ad-ready-pro|
+
+---
+stable_id: skills/openclaw-openclaw-affiliate-master
+type: skills
+title: affiliate-master
+summary: Full-stack affiliate marketing automation.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/michael-laffin/affiliate-master/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:55.127Z
+content_sha256: aeffee2fb5cb0558c7911103947d6196cf2589c3d11b7c97582236e6d5ed064f
+---
+|/data/openclaw-openclaw-affiliate-master|
+
+---
 stable_id: skills/openclaw-openclaw-affiliatematic
 type: skills
 title: affiliatematic
-summary: >-
-  ---
-
-  name: affiliatematic
-
-  description: |
-    Integrate AI-powered Amazon affiliate product recommendations into websites using affiliatematic.com.
-    Use when you need to: (1) Add Amazon affiliate widgets to a website, (2) Set up automated product recommendations based on page content, (3) Optimize affiliate revenue with AI-powered product matching, (4) Configure affiliate marketing automation.
-    Triggers: amazon affiliate, affiliate marketing, product recommendations, affiliate widget, amazon associates integration, monetize website with amazon.
-  ---
-
-  # Affiliatematic - Amazon Affiliate Automation
-
-  AI-powered system that automatically analyzes webpage content and displays
-  relevant Amazon product recommendations. Zero manual product selection
-  required.
-
-  ## How It Works
+summary: Integrate AI-powered Amazon affiliate product recommendations.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -577,13 +620,94 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dowands/affiliatematic/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:25.982Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:55.249Z
 content_sha256: d929f1e53048210622da6fccfb39a503897be34815f83e7b3a5f954b657f4088
 ---
 |/data/openclaw-openclaw-affiliatematic|
+
+---
+stable_id: skills/openclaw-openclaw-agenticcreed-signup-lead
+type: skills
+title: agenticcreed-signup-lead
+summary: Create a signup lead in the AgenticCreed system using the public HTTP endpoint.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/waqas-orcalo/agenticcreed-signup-lead/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:11.965Z
+content_sha256: 247a7ea4f3f371b28a5c225ba61db69780863b97ef77f32bedb4827977151074
+---
+|/data/openclaw-openclaw-agenticcreed-signup-lead|
+
+---
+stable_id: skills/openclaw-openclaw-alibaba-supplier-outreach
+type: skills
+title: alibaba-supplier-outreach
+summary: Find Alibaba suppliers via LaunchFast, contact them with optimized
+  outreach messages, check their replies.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/blockchainhb/alibaba-supplier-outreach/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:20.540Z
+content_sha256: a0175bded4a106cc1388c49a0aff032aff91e82a321040eea0798079e4e2556a
+---
+|/data/openclaw-openclaw-alibaba-supplier-outreach|
+
+---
+stable_id: skills/openclaw-openclaw-alura
+type: skills
+title: alura
+summary: Integrate with Alura Trading backend API.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/evilboyajay/alura/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:21.002Z
+content_sha256: 46088eb5af7c0d4b3e1a5e07ddb18fb5574661397eddb7678d37d5c70b17a12d
+---
+|/data/openclaw-openclaw-alura|
+
+---
+stable_id: skills/openclaw-openclaw-analytics-and-advisory-intelligence
+type: skills
+title: analytics-and-advisory-intelligence
+summary: Cross-client analytics for Greek accounting firms.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/analytics-and-advisory-intelligence/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:22.520Z
+content_sha256: 588291efe6a95c468da163573637a570fe9ee2613e6670cb11dd92e8de0393de
+---
+|/data/openclaw-openclaw-analytics-and-advisory-intelligence|
 
 ---
 stable_id: skills/openclaw-openclaw-apollo
@@ -597,10 +721,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/apollo/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:32.075Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:25.718Z
 content_sha256: 111bc021947f100d2c968518f679d16d3edf7036df7cd8492bc5c4b4dbc1f8e9
 ---
 |/data/openclaw-openclaw-apollo|
@@ -609,17 +733,7 @@ content_sha256: 111bc021947f100d2c968518f679d16d3edf7036df7cd8492bc5c4b4dbc1f8e9
 stable_id: skills/openclaw-openclaw-attribution-engine
 type: skills
 title: attribution-engine
-summary: |-
-  ---
-  name: Attribution Engine
-  slug: attribution-engine
-  version: 1.2
-  description: >-
-    Helps creators clearly credit collaborators, tools, and partners in a way
-    platforms understand. Reduces confusion, missed disclosures, and avoidable
-    issues before content goes live.
-  metadata:
-    creator:
+summary: Helps creators clearly credit collaborators, tools.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -627,19 +741,60 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.514Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:32.191Z
 content_sha256: f442eb922f8c792b051668e540814dd01340e9e0e6d26d197b6a62a1cceb5856
 ---
 |/data/openclaw-openclaw-attribution-engine|
 
 ---
+stable_id: skills/openclaw-openclaw-auto-skill-hunter
+type: skills
+title: auto-skill-hunter
+summary: Proactively discovers, ranks, and installs high-value ClawHub skills by
+  mining unresolved user needs and agent.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/wanng-ide/auto-skill-hunter/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:33.862Z
+content_sha256: 900b8bb4dbe3a668712f72f447a56ac7486c7e16d94174cd9b367963e0e0d4d9
+---
+|/data/openclaw-openclaw-auto-skill-hunter|
+
+---
+stable_id: skills/openclaw-openclaw-b2c-marketing
+type: skills
+title: b2c-marketing
+summary: The organic growth playbook behind 300K+ app downloads.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jackfriks/b2c-marketing/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:34.876Z
+content_sha256: 18e3cc5ee280f9e74e80938d13eeb6e7f53984aca3121467ce49fa83c6f59701
+---
+|/data/openclaw-openclaw-b2c-marketing|
+
+---
 stable_id: skills/openclaw-openclaw-basecamp-cli
 type: skills
 title: basecamp-cli
-summary: Manage Basecamp (via bc3 API / 37signals Launchpad) projects, to-dos, messages.
+summary: Manage Basecamp (via bc3 API / 37signals Launchpad) projects.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -647,13 +802,33 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/emredoganer/basecamp-cli/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.249Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:35.680Z
 content_sha256: ae0ffab38354440db5ec03591d27ba0eac79f388309bf7ffee2ad065258d07c4
 ---
 |/data/openclaw-openclaw-basecamp-cli|
+
+---
+stable_id: skills/openclaw-openclaw-beads
+type: skills
+title: beads
+summary: Git-backed issue tracker for AI agents.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rnijhara/beads/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:36.402Z
+content_sha256: e3c63cc3dc0d0dcd981bb419c197592d8d6da41ba3807c5e06aadef546f6a5ce
+---
+|/data/openclaw-openclaw-beads|
 
 ---
 stable_id: skills/openclaw-openclaw-bearblog
@@ -667,10 +842,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/azade-c/bearblog/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:37.645Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:36.662Z
 content_sha256: 2844e35d72d206f2e728ea29ff27306af83f17d01a5d54d8dfb081a34c0a64dc
 ---
 |/data/openclaw-openclaw-bearblog|
@@ -687,10 +862,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/bird/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:38.445Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:38.673Z
 content_sha256: da997ce6b1360afe25bc510a8763ebad8609ec313d5a1cd91d2110f9bee914e5
 ---
 |/data/openclaw-openclaw-bird|
@@ -699,8 +874,7 @@ content_sha256: da997ce6b1360afe25bc510a8763ebad8609ec313d5a1cd91d2110f9bee914e5
 stable_id: skills/openclaw-openclaw-blog-to-kindle
 type: skills
 title: blog-to-kindle
-summary: Scrape blogs/essay sites and compile into Kindle-friendly EPUB with
-  AI-generated cover.
+summary: Scrape blogs/essay sites and compile into Kindle-friendly.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -708,10 +882,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ainekomacx/blog-to-kindle/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:38.970Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:40.156Z
 content_sha256: 1f0e6292c8e983ee3bd7302e3ef841dd38f8c2106064887992e6eb41e5a3d830
 ---
 |/data/openclaw-openclaw-blog-to-kindle|
@@ -720,8 +894,7 @@ content_sha256: 1f0e6292c8e983ee3bd7302e3ef841dd38f8c2106064887992e6eb41e5a3d830
 stable_id: skills/openclaw-openclaw-blog-writer
 type: skills
 title: blog-writer
-summary: This skill should be used when writing blog posts, articles, or
-  long-form content in the writer's distinctive writing.
+summary: This skill should be used when writing blog posts, articles.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -729,10 +902,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/blog-writer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:39.039Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:40.275Z
 content_sha256: 6e6391cf989d16c8ef26f6a941704664f490ff917918eb7ac96c01085bb362dc
 ---
 |/data/openclaw-openclaw-blog-writer|
@@ -741,7 +914,8 @@ content_sha256: 6e6391cf989d16c8ef26f6a941704664f490ff917918eb7ac96c01085bb362dc
 stable_id: skills/openclaw-openclaw-bluesky
 type: skills
 title: bluesky
-summary: Read, post, and interact with Bluesky (AT Protocol).
+summary: "Complete Bluesky CLI: post, reply, like, repost, follow, block, mute,
+  search,."
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -749,20 +923,59 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/bluesky/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:39.517Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:40.915Z
 content_sha256: a64cc9b5f14f9c12ad9c457c1d031c01db7f084a2e44c5c5e846ec21e0721cbb
 ---
 |/data/openclaw-openclaw-bluesky|
 
 ---
+stable_id: skills/openclaw-openclaw-botsee
+type: skills
+title: botsee
+summary: Monitor your brand's AI visibility via BotSee API.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/grahac/botsee/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:42.274Z
+content_sha256: 7434f80adc562555f7129b46c975f90393e01b22efb2d584546f6e654baea761
+---
+|/data/openclaw-openclaw-botsee|
+
+---
+stable_id: skills/openclaw-openclaw-brand-cog
+type: skills
+title: brand-cog
+summary: Other tools make logos.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/brand-cog/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:43.392Z
+content_sha256: cfc260f719b875aa74c91e58a8e69540f8017cbb8298b4e3d91225fa2f5451f1
+---
+|/data/openclaw-openclaw-brand-cog|
+
+---
 stable_id: skills/openclaw-openclaw-brand-guidelines
 type: skills
 title: brand-guidelines
-summary: Applies Anthropic's official brand colors and typography to any sort of
-  artifact that may benefit from having Anthrop.
+summary: Applies Anthropic's official brand colors and typography.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -770,20 +983,39 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/brand-guidelines/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:40.210Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:43.512Z
 content_sha256: 1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe
 ---
 |/data/openclaw-openclaw-brand-guidelines|
 
 ---
+stable_id: skills/openclaw-openclaw-brand-voice-profile
+type: skills
+title: brand-voice-profile
+summary: Define and store your brand voice profile for consistent content generation.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dimitripantzos/brand-voice-profile/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:43.630Z
+content_sha256: f9aa1e8c97ff4e019040c9781ee673cd4105856c7954a3ad795ee58fb7b8f065
+---
+|/data/openclaw-openclaw-brand-voice-profile|
+
+---
 stable_id: skills/openclaw-openclaw-brevo
 type: skills
 title: brevo
-summary: Brevo (formerly Sendinblue) email marketing API for managing contacts,
-  lists, sending transactional emails.
+summary: Brevo (formerly Sendinblue) email marketing API for managing contacts, lists,.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -791,10 +1023,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/brevo/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:40.532Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:44.381Z
 content_sha256: 538b33c5881c6a84b6038a1690e2f34a3f9f2c7d5708898602e3352c1eb9eb96
 ---
 |/data/openclaw-openclaw-brevo|
@@ -814,7 +1046,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:42.540Z
+retrieved_at: 2026-03-09T22:23:48.611Z
 content_sha256: b8e9c4132525b0cf13e52c41a99c378073518690220ad763feb1313870b35846
 ---
 |/data/openclaw-openclaw-campaign-orchestrator|
@@ -834,7 +1066,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:43.222Z
+retrieved_at: 2026-03-09T22:23:49.082Z
 content_sha256: bdedbc03ba81333c343568b91de1991a4daf3f61296f7e58c8c8d6a12a93d6b6
 ---
 |/data/openclaw-openclaw-catbox-upload|
@@ -854,7 +1086,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:52.996Z
+retrieved_at: 2026-03-09T22:23:57.215Z
 content_sha256: 50d9b99ac71d7b4bbdf168d5c28abef566a97da6f1decb2951e3d4d2574c41f4
 ---
 |/data/openclaw-openclaw-competitor-alternatives|
@@ -874,8 +1106,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:53.474Z
-content_sha256: 61ad2cd9ef579e369ec018f03084cbc2115361ce47648fec564bf17bceb7cdef
+retrieved_at: 2026-03-09T22:23:57.677Z
+content_sha256: 0f548f6236783d8cf0dcc3d4f793ea6072e67bfd4eba36f773137fcd810e4a00
 ---
 |/data/openclaw-openclaw-content-creator|
 
@@ -894,7 +1126,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:53.569Z
+retrieved_at: 2026-03-09T22:23:57.793Z
 content_sha256: b6b8c12309904f313021efc7aae6e0f5b4e091c0419064cdf1a26873ad5b44fd
 ---
 |/data/openclaw-openclaw-content-draft-generator|
@@ -915,7 +1147,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:53.755Z
+retrieved_at: 2026-03-09T22:23:58.039Z
 content_sha256: 7c9d6c1939e1e09856de275d9b8dad9c7800e6b9f5bf8db5c175ba0f17fff3c4
 ---
 |/data/openclaw-openclaw-content-ideas-generator|
@@ -935,7 +1167,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:54.973Z
+retrieved_at: 2026-03-09T22:23:59.595Z
 content_sha256: f0bf068d14ed3d5fcf13961e7e0de78374663e38255253cad13113e5e66c8bd2
 ---
 |/data/openclaw-openclaw-copy-editing|
@@ -955,7 +1187,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:55.067Z
+retrieved_at: 2026-03-09T22:23:59.724Z
 content_sha256: 5b3ea76961e8de82f00083569f4ef275058afb70bb301a9153dd80f73837b18e
 ---
 |/data/openclaw-openclaw-copywriting|
@@ -975,7 +1207,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:58.315Z
+retrieved_at: 2026-03-09T22:24:03.308Z
 content_sha256: 79c7184d94e00bed4c7d82874adbd5fc66b2a83f979c4bbb8102681bf5c6470f
 ---
 |/data/openclaw-openclaw-deepread|
@@ -995,7 +1227,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.448Z
+retrieved_at: 2026-03-09T22:24:04.213Z
 content_sha256: 91f6de28f0d8218bc134a45584d625ccc1d266d82be00f21f7773c14abd0de1a
 ---
 |/data/openclaw-openclaw-dialpad|
@@ -1015,7 +1247,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:03.074Z
+retrieved_at: 2026-03-09T22:24:07.450Z
 content_sha256: cf1aa52b62ccbe480d356d5e57946f7453e4d0d5aa976c3d40f8e6974581907d
 ---
 |/data/openclaw-openclaw-email-manager-lite|
@@ -1036,7 +1268,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:03.266Z
+retrieved_at: 2026-03-09T22:24:07.706Z
 content_sha256: 3db17b4bfcb1bbcf1487891b95391561db7f5a2ca6c397392d64c0aea7abd00e
 ---
 |/data/openclaw-openclaw-email-sequence|
@@ -1056,7 +1288,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:04.794Z
+retrieved_at: 2026-03-09T22:24:09.285Z
 content_sha256: ebdce76f0a594e58a6178690386b007df33840f5ccc7d8cd1ac14ca0fecbd815
 ---
 |/data/openclaw-openclaw-exchange-rates|
@@ -1077,7 +1309,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:06.703Z
+retrieved_at: 2026-03-09T22:24:11.390Z
 content_sha256: 6353a9516ec187810c997ef7d1f44e86bfb26154712292eca730c60a157dfadc
 ---
 |/data/openclaw-openclaw-feishu-doc-reader|
@@ -1097,7 +1329,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:06.964Z
+retrieved_at: 2026-03-09T22:24:11.607Z
 content_sha256: 5e0ab9c04034e5b89cae0b7245b81057d9b7efff1d73f910d8fd7f0af67c836f
 ---
 |/data/openclaw-openclaw-feishu-sticker|
@@ -1118,7 +1350,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:09.228Z
+retrieved_at: 2026-03-09T22:24:14.509Z
 content_sha256: 0d41e83de9863a51e7fa420766798387556b427656a1c18bbb3505ff52b8e7bf
 ---
 |/data/openclaw-openclaw-form-cro|
@@ -1138,7 +1370,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:09.489Z
+retrieved_at: 2026-03-09T22:24:14.749Z
 content_sha256: afd05058a2b0a4df3f32db31f01230e97008d0838d20efb7764effa8677db541
 ---
 |/data/openclaw-openclaw-free-tool-strategy|
@@ -1158,7 +1390,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:09.982Z
+retrieved_at: 2026-03-09T22:24:15.103Z
 content_sha256: 867f3d7231f23846bcd11c9ea6cf1fe65cecdfd2e2a78cbca9c27461617f3930
 ---
 |/data/openclaw-openclaw-ga4|
@@ -1178,7 +1410,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:14.358Z
+retrieved_at: 2026-03-09T22:24:21.788Z
 content_sha256: 7876f8e26183dcd6d5b1070b83eb34bdd3a87d4581e4a68cb77251e304d44b73
 ---
 |/data/openclaw-openclaw-gong|
@@ -1198,7 +1430,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:14.469Z
+retrieved_at: 2026-03-09T22:24:21.902Z
 content_sha256: 917872794d3786f6db68fb4392bba662f79099fcf98b435cab274615d8d94553
 ---
 |/data/openclaw-openclaw-google-ads|
@@ -1218,7 +1450,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:14.987Z
+retrieved_at: 2026-03-09T22:24:22.535Z
 content_sha256: 6a03cd69e2c8ef8889f9563ca7210ca50c2ec189da6ba0d4db74b7fc7d5fa400
 ---
 |/data/openclaw-openclaw-google-photos|
@@ -1239,7 +1471,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:16.354Z
+retrieved_at: 2026-03-09T22:24:24.167Z
 content_sha256: c80eb73f0ae5391e2595b6bf2306b0323cd2cf2d25bdc41cd49d63953e96beee
 ---
 |/data/openclaw-openclaw-gsc|
@@ -1259,7 +1491,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:16.476Z
+retrieved_at: 2026-03-09T22:24:24.293Z
 content_sha256: fafbd19a040a55119daf3d5be49e42ef1bcb6c87f5e80d47f2750d9256c6ee84
 ---
 |/data/openclaw-openclaw-gumroad-admin|
@@ -1279,7 +1511,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:18.994Z
+retrieved_at: 2026-03-09T22:24:26.956Z
 content_sha256: 8222c27c3906b42eaeb93ab9935192c01fba9c0f97216055578773c060529056
 ---
 |/data/openclaw-openclaw-hubspot|
@@ -1299,7 +1531,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:19.327Z
+retrieved_at: 2026-03-09T22:24:27.320Z
 content_sha256: d7ce483d368e430185b707611ce82ef4206021da28cf306d75d4b64f1167416f
 ---
 |/data/openclaw-openclaw-humanizer|
@@ -1319,7 +1551,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:28.126Z
+retrieved_at: 2026-03-09T22:24:37.498Z
 content_sha256: 991f59fb26e89ec242998295ffd14c886670adeb24d5dc239eeb3e2170700b35
 ---
 |/data/openclaw-openclaw-late-api|
@@ -1339,7 +1571,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:30.325Z
+retrieved_at: 2026-03-09T22:24:40.147Z
 content_sha256: 03fba345d43bb2401629ced12a5999a3a72c701ad8e59a95521535c6f5f18a22
 ---
 |/data/openclaw-openclaw-localrank-agent-skills|
@@ -1360,7 +1592,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.362Z
+retrieved_at: 2026-03-09T22:24:41.524Z
 content_sha256: 864582e41d7a0f24af0f1c0120d3492878448c8c4a1b296fa0e21fbd63d188fd
 ---
 |/data/openclaw-openclaw-marketing-demand-acquisition|
@@ -1381,7 +1613,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.546Z
+retrieved_at: 2026-03-09T22:24:41.669Z
 content_sha256: 27f1838f183c95938df215d17ddc784c0a8a07185882061774421c94a5b85f7e
 ---
 |/data/openclaw-openclaw-marketing-mode|
@@ -1401,7 +1633,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.653Z
+retrieved_at: 2026-03-09T22:24:41.806Z
 content_sha256: 793332c9374bc4c28f23590e01bff5e5730ff5900ef2c8ffbc9ba4337a1a9f5d
 ---
 |/data/openclaw-openclaw-marketing-psychology|
@@ -1422,7 +1654,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.813Z
+retrieved_at: 2026-03-09T22:24:41.924Z
 content_sha256: bf35799cd93b83a7ce8bee4a2b7a48b078699c71627c5dc4f2bd06a846b9bae3
 ---
 |/data/openclaw-openclaw-marketing-skills|
@@ -1442,7 +1674,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:37.067Z
+retrieved_at: 2026-03-09T22:24:48.165Z
 content_sha256: 83116389ece87a34b2674c719c0c00c23fb178ecc71e362abebffe3c3e3e7670
 ---
 |/data/openclaw-openclaw-molthunt|
@@ -1462,7 +1694,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:41.023Z
+retrieved_at: 2026-03-09T22:24:52.680Z
 content_sha256: 4b7dbe17ee359a0c5ee75ff75b52bf4ca3988c6d5049f544492ab9be9ecb0a99
 ---
 |/data/openclaw-openclaw-netpad|
@@ -1482,7 +1714,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:43.027Z
+retrieved_at: 2026-03-09T22:24:55.766Z
 content_sha256: 2ca732508a27c256640bbc23f27e64b1ebeeac54fd5573f1f4044e5940aaf80f
 ---
 |/data/openclaw-openclaw-notebooklm|
@@ -1503,7 +1735,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:44.392Z
+retrieved_at: 2026-03-09T22:24:58.083Z
 content_sha256: 5e521fac848ee99e181da32a7850a4e09c1cf924704ba1ebb0c386f8ed21d970
 ---
 |/data/openclaw-openclaw-octolens|
@@ -1524,7 +1756,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:50.187Z
+retrieved_at: 2026-03-09T22:25:05.997Z
 content_sha256: 8104b18390db197707ad9b44ec4e68ee8f79326cc9ebb3a143e4c57b30857ef1
 ---
 |/data/openclaw-openclaw-paywall-upgrade-cro|
@@ -1545,7 +1777,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:51.357Z
+retrieved_at: 2026-03-09T22:25:07.612Z
 content_sha256: ae8bb9668b0c5c282fd46085d386b396193c6f6809e51e104298732401a93d94
 ---
 |/data/openclaw-openclaw-personal-branding-authority|
@@ -1565,7 +1797,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:52.325Z
+retrieved_at: 2026-03-09T22:25:08.929Z
 content_sha256: a536760bea8966eb06cba6ffaa763ec9197fd6360e1c31baf7075352209d22a2
 ---
 |/data/openclaw-openclaw-pinch-to-post|
@@ -1586,7 +1818,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:52.600Z
+retrieved_at: 2026-03-09T22:25:09.310Z
 content_sha256: 8bd9a22df616de3b726a59f8584a949708bedb0c58e219d195827c7827400a24
 ---
 |/data/openclaw-openclaw-pipedrive|
@@ -1606,7 +1838,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:54.499Z
+retrieved_at: 2026-03-09T22:25:11.749Z
 content_sha256: 7284678a518ff9dedb125ce39d04732fb532e32adea6fe0913e64928ab7e8282
 ---
 |/data/openclaw-openclaw-popup-cro|
@@ -1626,7 +1858,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:55.524Z
+retrieved_at: 2026-03-09T22:25:13.193Z
 content_sha256: 44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1
 ---
 |/data/openclaw-openclaw-pricing-strategy|
@@ -1646,7 +1878,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:56.751Z
+retrieved_at: 2026-03-09T22:25:14.623Z
 content_sha256: f54fd1731b67cf7d3b0e2f418790c589a56c7076913df13c63c7bdd3a6bd72df
 ---
 |/data/openclaw-openclaw-programmatic-seo|
@@ -1667,7 +1899,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:59.190Z
+retrieved_at: 2026-03-09T22:25:17.137Z
 content_sha256: c22d37569579bd2177461010d6eaa0fa0be9f9c7e244e7e689e4b44eb5bfdb3e
 ---
 |/data/openclaw-openclaw-pvpc-spain|
@@ -1688,7 +1920,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:01.467Z
+retrieved_at: 2026-03-09T22:25:20.289Z
 content_sha256: c3124afa41813ae2b9462c5812349a52d513be1bdb39d7bb0eec36070a70f59f
 ---
 |/data/openclaw-openclaw-ralph-loops|
@@ -1708,7 +1940,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:02.454Z
+retrieved_at: 2026-03-09T22:25:21.820Z
 content_sha256: d82376b69b882af73c22cd9549bcc9392493f352d9f52da1dbe9ecd606ef5013
 ---
 |/data/openclaw-openclaw-recruitment-automation|
@@ -1728,7 +1960,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:02.524Z
+retrieved_at: 2026-03-09T22:25:21.945Z
 content_sha256: a0dc86ece36c4c975b5204132124db3c689fe3d1ab6860ed7def41e52ced11c5
 ---
 |/data/openclaw-openclaw-reddit|
@@ -1748,7 +1980,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:02.664Z
+retrieved_at: 2026-03-09T22:25:22.194Z
 content_sha256: 4ab81e79bf392c62ae4ed400f7d5c6f49ce9cb6ddac5272ad0d36c495a308b83
 ---
 |/data/openclaw-openclaw-reddit-search|
@@ -1769,7 +2001,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:02.749Z
+retrieved_at: 2026-03-09T22:25:22.343Z
 content_sha256: 4ea4a7fd3bb9fd66b45e1643bc107d330038d44cc830676590117fae8a4fe710
 ---
 |/data/openclaw-openclaw-referral-program|
@@ -1789,7 +2021,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:06.355Z
+retrieved_at: 2026-03-09T22:25:27.449Z
 content_sha256: c132c2471551f5f69d76453940246db233ec9995a4f90e846cf6582d43752116
 ---
 |/data/openclaw-openclaw-salesforce-dx|
@@ -1809,7 +2041,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:06.643Z
+retrieved_at: 2026-03-09T22:25:27.822Z
 content_sha256: b43f80e20747a21f7b459d22d605858cf1d3586fd99388ec2941115e0e043fd8
 ---
 |/data/openclaw-openclaw-schema-markup|
@@ -1830,7 +2062,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:09.006Z
+retrieved_at: 2026-03-09T22:25:31.483Z
 content_sha256: 484fcc16ca9aa812c43e2efdb880b16fed3ed01223898043b5c0a472932bf3a4
 ---
 |/data/openclaw-openclaw-seoul-subway|
@@ -1850,7 +2082,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:10.031Z
+retrieved_at: 2026-03-09T22:25:32.603Z
 content_sha256: 5d99ad42861b35f0cf0800b9b2ee884a2da7257378cbc4191905c73d84bba57c
 ---
 |/data/openclaw-openclaw-shopify-marketing-expert|
@@ -1871,7 +2103,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:10.325Z
+retrieved_at: 2026-03-09T22:25:33.063Z
 content_sha256: d52fe97c2712260cbba0832e5747dcc6f189e131000be0df762abd7c85562812
 ---
 |/data/openclaw-openclaw-signup-flow-cro|
@@ -1891,7 +2123,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:12.984Z
+retrieved_at: 2026-03-09T22:25:37.782Z
 content_sha256: e3d4cfd78c2b25160fabec7b83e0c58e0727a736a7a345af0bba427763e815ca
 ---
 |/data/openclaw-openclaw-social-media-analyzer|
@@ -1912,7 +2144,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:13.656Z
+retrieved_at: 2026-03-09T22:25:38.741Z
 content_sha256: efe2494b245203227b3e3dc4c5b6020bbeb775018efb988f7a4d1797bbf63d2e
 ---
 |/data/openclaw-openclaw-solobuddy|
@@ -1932,7 +2164,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:14.367Z
+retrieved_at: 2026-03-09T22:25:39.838Z
 content_sha256: e00fd0f4e39b1837a9b4cabb4ad3460d1fa03d6b74a1e382fdad47e78851a9cc
 ---
 |/data/openclaw-openclaw-spaces-listener|
@@ -1952,7 +2184,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:14.442Z
+retrieved_at: 2026-03-09T22:25:39.976Z
 content_sha256: b701adc7f0a0e8020a8f2fb93a93ee394f8238c592ab03bae824672687324b81
 ---
 |/data/openclaw-openclaw-sphero-mini|
@@ -1972,7 +2204,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:17.983Z
+retrieved_at: 2026-03-09T22:25:45.042Z
 content_sha256: 0c6c652a2e6b99ce12bf862795d00e57fe66c9d9a629f24d6d4ff37e4764bd7a
 ---
 |/data/openclaw-openclaw-swipe-file-generator|
@@ -1993,7 +2225,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:25.552Z
+retrieved_at: 2026-03-09T22:25:56.935Z
 content_sha256: b99aafd5889f3d59b78e2c00daf6e119478249eab90feb52776a2e448805c48e
 ---
 |/data/openclaw-openclaw-tweet-ideas-generator|
@@ -2013,7 +2245,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:25.818Z
+retrieved_at: 2026-03-09T22:25:57.342Z
 content_sha256: 4da47d714a33adcd57499d21e1c7276782c17d7a617ff92a12803a8dbc6df373
 ---
 |/data/openclaw-openclaw-twenty-crm|
@@ -2033,7 +2265,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:26.189Z
+retrieved_at: 2026-03-09T22:25:57.998Z
 content_sha256: 0f0f93328de946e62a789fbf748fd4276ce3cdbc76ae151a8e993987f70e2d5f
 ---
 |/data/openclaw-openclaw-typefully|
@@ -2054,7 +2286,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:29.692Z
+retrieved_at: 2026-03-09T22:26:03.946Z
 content_sha256: 50cd2f692f8e5587d23cfb871081c0c19fa871219332b17329fa9fc16c1f2736
 ---
 |/data/openclaw-openclaw-vodoo|
@@ -2088,7 +2320,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:32.826Z
+retrieved_at: 2026-03-09T22:26:08.943Z
 content_sha256: 320f2101b8bec076dc33a63d5d32d1f45540fbf468aef03542286967a392c684
 ---
 |/data/openclaw-openclaw-weread|
@@ -2108,7 +2340,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:35.893Z
+retrieved_at: 2026-03-09T22:26:13.519Z
 content_sha256: bfc82b4897e30bd563a2a71a19f83bdc22d356a7ea584307cdec3fb78a8b615c
 ---
 |/data/openclaw-openclaw-x-algorithm|
@@ -2128,7 +2360,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:36.045Z
+retrieved_at: 2026-03-09T22:26:13.748Z
 content_sha256: f4cb9b19e71d16da8f3e386cdf73a55cfa54702bfae9a5d749a656b68e0d31e1
 ---
 |/data/openclaw-openclaw-x-article-editor|
@@ -2149,7 +2381,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:36.536Z
+retrieved_at: 2026-03-09T22:26:14.358Z
 content_sha256: e0c991852539dc84c4dc4ff98673a97656a55f80be60c1401bc6b2a923149df9
 ---
 |/data/openclaw-openclaw-x-timeline-digest|
@@ -2169,7 +2401,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:38.524Z
+retrieved_at: 2026-03-09T22:26:16.558Z
 content_sha256: b78b9845d4a81d71f86c58abb7d37cab54ba5406212945ed8bcb59f5486cd45a
 ---
 |/data/openclaw-openclaw-youtrack-digisal|
@@ -2189,7 +2421,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:51.873Z
+retrieved_at: 2026-03-09T22:23:05.551Z
 content_sha256: 18fe3aea23d4e5685b131a1e40387ad4755955ab9274b7692ccd43462834ca70
 ---
 |/data/openclaw-openclaw-youtube-video-downloader|
@@ -2210,7 +2442,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:39.760Z
+retrieved_at: 2026-03-09T22:26:18.492Z
 content_sha256: d37357ff0ac8ebe080608f2a9c6c426c17058b7a4c19fbd767f0a0b6a0a2d324
 ---
 |/data/openclaw-openclaw-yt-dlp-downloader-skill|
@@ -2230,7 +2462,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:52.087Z
+retrieved_at: 2026-03-09T22:23:05.986Z
 content_sha256: 95e4f019643e58c55fb9d15c3290405d94715e8a05bf9bcb5c348a7492d3cd06
 ---
 |/data/openclaw-openclaw-yt-video-downloader|
@@ -2250,7 +2482,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:40.284Z
+retrieved_at: 2026-03-09T22:26:19.198Z
 content_sha256: e4c8df574386992bca9046a1bc445f64f3de0da5466cee78cadf1f2b0f49052c
 ---
 |/data/openclaw-openclaw-zoho|
@@ -2270,7 +2502,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:40.690Z
+retrieved_at: 2026-03-09T22:28:33.877Z
 content_sha256: d71ccd45f40f23342c317548510b1eb8bbc39f4ed6d1a889b141aa8b5a036349
 ---
 |/data/playbook-scenario-content-marketing|

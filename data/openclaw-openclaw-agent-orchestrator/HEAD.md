@@ -2,24 +2,7 @@
 stable_id: skills/openclaw-openclaw-agent-orchestrator
 type: skills
 title: agent-orchestrator
-summary: >-
-  ---
-
-  name: agent-orchestrator
-
-  description: |
-    Meta-agent skill for orchestrating complex tasks through autonomous sub-agents. Decomposes macro tasks into subtasks, spawns specialized sub-agents with dynamically generated SKILL.md files, coordinates file-based communication, consolidates results, and dissolves agents upon completion.
-    MANDATORY TRIGGERS: orchestrate, multi-agent, decompose task, spawn agents, sub-agents, parallel agents, agent coordination, task breakdown, meta-agent, agent factory, delegate tasks
-  ---
-
-  # Agent Orchestrator
-
-  Orchestrate complex tasks by decomposing them into subtasks, spawning
-  autonomous sub-agents, and consolidating their work.
-
-  ## Core Workflow
-
-  ### Phase 1: Task Decomposition
+summary: Meta-agent skill for orchestrating complex tasks.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -27,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aatmaan1/agent-orchestrator/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:27.442Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:03.479Z
 content_sha256: 19cef316516993c79afe7154e71278e64394714df3146c6d91b0bd6f3913777b
 ---

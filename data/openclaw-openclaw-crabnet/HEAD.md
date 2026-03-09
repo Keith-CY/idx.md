@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/spclaudehome/crabnet/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:55.439Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:02.067Z
 content_sha256: 91c7e28e99d3c48960b12138d685d7fd0e6e94daec9d61a9afac8f60e8a7ed47
 ---

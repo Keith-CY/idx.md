@@ -29,7 +29,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/bookke
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:41.558Z
+retrieved_at: 2026-03-09T22:22:48.821Z
 content_sha256: 7fcf42d37641d113c018d11f21d8faa27655cc0aca428df9fd9d2afd15dc2e93
 ---
 |/data/github-skill-openclaw-skills-bookkeeping-basics|
@@ -55,7 +55,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satbot-mdk/mon
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:42.684Z
+retrieved_at: 2026-03-09T22:22:50.508Z
 content_sha256: 6dfb522bb23e6b910613e471d0eb787f12a8219a3b17f9e8fda57359ad99c0fd
 ---
 |/data/github-skill-openclaw-skills-moneydevkit|
@@ -79,7 +79,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/matbalez/origr
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:42.898Z
+retrieved_at: 2026-03-09T22:22:50.883Z
 content_sha256: d32eca31dba25101031d2b7a3bc99ebad760ff25279675382b30f69e0111de60
 ---
 |/data/github-skill-openclaw-skills-origram|
@@ -102,7 +102,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.536Z
+retrieved_at: 2026-03-09T22:23:09.949Z
 content_sha256: 72ad6f648be6bdf8d4f2bec2856a9c967490ba0b9ad569eeaf4e997caae8d2dd
 ---
 |/data/knowledge-work-plugins-finance-commands-income-statement|
@@ -124,7 +124,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.342Z
+retrieved_at: 2026-03-09T22:23:09.452Z
 content_sha256: 07ab16f353486a29516467fb771000f28b35f06c00e8df28e724906590f34f14
 ---
 |/data/knowledge-work-plugins-finance-commands-journal-entry|
@@ -146,7 +146,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.479Z
+retrieved_at: 2026-03-09T22:23:09.640Z
 content_sha256: 5805489942dd5ee219909c6492fbdb145da9d363db4c5cbe01701145eeafa371
 ---
 |/data/knowledge-work-plugins-finance-commands-reconciliation|
@@ -168,7 +168,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.402Z
+retrieved_at: 2026-03-09T22:23:09.544Z
 content_sha256: 026a87d7e6fae1ae6a6a371c0df453b46f4565f96c7711aef01308a9758ddb1a
 ---
 |/data/knowledge-work-plugins-finance-commands-sox-testing|
@@ -191,7 +191,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.595Z
+retrieved_at: 2026-03-09T22:23:10.269Z
 content_sha256: b2fc485c73ccffc915ef10521b76815e4a704842806bd1f3349ce0b5a8f645b1
 ---
 |/data/knowledge-work-plugins-finance-commands-variance-analysis|
@@ -216,7 +216,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.052Z
+retrieved_at: 2026-03-09T22:23:08.952Z
 content_sha256: 4592b5d4153a707e7ac4abdc3485a08b02a6052a8952e748d27c7e7acd962d2e
 ---
 |/data/knowledge-work-plugins-finance-skills-audit-support-skill|
@@ -240,7 +240,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.180Z
+retrieved_at: 2026-03-09T22:23:09.165Z
 content_sha256: 7901f839cba33956be8ae121dbad175cb0fa71d1f6d461111991e634438d7c23
 ---
 |/data/knowledge-work-plugins-finance-skills-close-management-skill|
@@ -265,7 +265,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.112Z
+retrieved_at: 2026-03-09T22:23:09.058Z
 content_sha256: 430a41aeec6d283987058290394681e4563a8f472679a0a665fc614afe5f7d19
 ---
 |/data/knowledge-work-plugins-finance-skills-financial-statements-skill|
@@ -290,7 +290,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.236Z
+retrieved_at: 2026-03-09T22:23:09.264Z
 content_sha256: 40fd4cf722cb96259dfbd7c98d6b477987f975bb681052c1dc04fd183f347d73
 ---
 |/data/knowledge-work-plugins-finance-skills-journal-entry-prep-skill|
@@ -315,7 +315,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:54.289Z
+retrieved_at: 2026-03-09T22:23:09.360Z
 content_sha256: 3412ddd23f36ab61a2fd8b664982f127a533469f8f707e59499fa1e7380e7d5d
 ---
 |/data/knowledge-work-plugins-finance-skills-reconciliation-skill|
@@ -340,7 +340,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:53.993Z
+retrieved_at: 2026-03-09T22:23:08.859Z
 content_sha256: ebfe7448e7c0c2eb6a67eeb943c3f588bfb95122c5926f6ecc31759b66a56de9
 ---
 |/data/knowledge-work-plugins-finance-skills-variance-analysis-skill|
@@ -349,8 +349,7 @@ content_sha256: ebfe7448e7c0c2eb6a67eeb943c3f588bfb95122c5926f6ecc31759b66a56de9
 stable_id: skills/openclaw-openclaw-analytics-tracking
 type: skills
 title: analytics-tracking
-summary: When the user wants to set up, improve, or audit analytics tracking and
-  measurement.
+summary: When the user wants.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -358,10 +357,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/analytics-tracking/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:30.862Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:22.635Z
 content_sha256: d3619b093a80a814821d87f40e230e165918800820738af9d6087975d765ccff
 ---
 |/data/openclaw-openclaw-analytics-tracking|
@@ -370,8 +369,7 @@ content_sha256: d3619b093a80a814821d87f40e230e165918800820738af9d6087975d765ccff
 stable_id: skills/openclaw-openclaw-api-credentials-hygiene
 type: skills
 title: api-credentials-hygiene
-summary: Audits and hardens API credential handling (env vars, separation,
-  rotation plan, least privilege.
+summary: Audits and hardens API credential handling.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -379,10 +377,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/api-credentials-hygiene/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:31.835Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:25.013Z
 content_sha256: 8852d382d53f1446f5fe2db478a809d718aa073b31d831d54682d394b2effbef
 ---
 |/data/openclaw-openclaw-api-credentials-hygiene|
@@ -391,7 +389,7 @@ content_sha256: 8852d382d53f1446f5fe2db478a809d718aa073b31d831d54682d394b2effbef
 stable_id: skills/openclaw-openclaw-app-store-changelog
 type: skills
 title: app-store-changelog
-summary: Create user-facing App Store release notes by collecting.
+summary: Create user-facing App Store release notes.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -399,10 +397,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dimillian/app-store-changelog/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:32.167Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:25.830Z
 content_sha256: 4e442b2c83de3958084373885ddcd0df6607ea30496fda8389c545f8c4ffe9d9
 ---
 |/data/openclaw-openclaw-app-store-changelog|
@@ -411,7 +409,7 @@ content_sha256: 4e442b2c83de3958084373885ddcd0df6607ea30496fda8389c545f8c4ffe9d9
 stable_id: skills/openclaw-openclaw-clawdbot-release-check
 type: skills
 title: clawdbot-release-check
-summary: Check for new clawdbot releases and notify once per new version.
+summary: Check for new clawdbot releases and notify once.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -419,10 +417,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/clawdbot-release-check/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:47.121Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:56.224Z
 content_sha256: b51a34c3b6e93b10033659e7b8b8de279a16286994be6abfaccdef1d11216afe
 ---
 |/data/openclaw-openclaw-clawdbot-release-check|
@@ -431,7 +429,7 @@ content_sha256: b51a34c3b6e93b10033659e7b8b8de279a16286994be6abfaccdef1d11216afe
 stable_id: skills/openclaw-openclaw-create-content
 type: skills
 title: create-content
-summary: Thinking partner that transforms ideas into platform-optimized content.
+summary: Thinking partner that transforms ideas into platform-optimized.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -439,10 +437,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/create-content/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:55.843Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:02.202Z
 content_sha256: d2a5e8b08c5a05f87dbaf4b4dc2b20815f3866a437cbfc1f65c777ceb462f4b3
 ---
 |/data/openclaw-openclaw-create-content|
@@ -451,7 +449,7 @@ content_sha256: d2a5e8b08c5a05f87dbaf4b4dc2b20815f3866a437cbfc1f65c777ceb462f4b3
 stable_id: skills/openclaw-openclaw-expense-tracker-pro
 type: skills
 title: expense-tracker-pro
-summary: Track expenses via natural language with budget summaries.
+summary: Track expenses via natural language, get spending.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -459,10 +457,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/expense-tracker-pro/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:05.166Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:13.139Z
 content_sha256: d30f200ff8ba229a003b8f9dfc18680ec425bb5a4d9670a88f860c785792b8b5
 ---
 |/data/openclaw-openclaw-expense-tracker-pro|
@@ -471,7 +469,7 @@ content_sha256: d30f200ff8ba229a003b8f9dfc18680ec425bb5a4d9670a88f860c785792b8b5
 stable_id: skills/openclaw-openclaw-harvey
 type: skills
 title: harvey
-summary: Harvey is an imaginary friend and conversation companion.
+summary: Harvey is an imaginary friend and conversation companion - a large white.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -479,10 +477,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/harvey/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:17.007Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:18.869Z
 content_sha256: f062a3bff708fea3e95e3dd0ca359400192b22acb01443523134e92e5c0bfd5b
 ---
 |/data/openclaw-openclaw-harvey|
@@ -491,8 +489,7 @@ content_sha256: f062a3bff708fea3e95e3dd0ca359400192b22acb01443523134e92e5c0bfd5b
 stable_id: skills/openclaw-openclaw-just-fucking-cancel
 type: skills
 title: just-fucking-cancel
-summary: Analyze bank transaction CSVs to find recurring charges, categorize
-  subscriptions.
+summary: Find and cancel unwanted subscriptions.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -500,10 +497,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/just-fucking-cancel/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:25.716Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:21.782Z
 content_sha256: 8dc96ecab8ac87e8ec01d884e79bfea5a5b2cb36d3cf8ae7aabe984cee21e7d5
 ---
 |/data/openclaw-openclaw-just-fucking-cancel|
@@ -512,7 +509,7 @@ content_sha256: 8dc96ecab8ac87e8ec01d884e79bfea5a5b2cb36d3cf8ae7aabe984cee21e7d5
 stable_id: skills/openclaw-openclaw-launch-strategy
 type: skills
 title: launch-strategy
-summary: When the user wants to plan a product launch, feature announcement.
+summary: When the user wants to plan.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -520,10 +517,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/launch-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:28.203Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:22.169Z
 content_sha256: f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d
 ---
 |/data/openclaw-openclaw-launch-strategy|
@@ -532,8 +529,7 @@ content_sha256: f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d
 stable_id: skills/openclaw-openclaw-marketing-ideas
 type: skills
 title: marketing-ideas
-summary: When the user needs marketing ideas, inspiration, or strategies for
-  their SaaS or software product.
+summary: When the user needs marketing.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -541,10 +537,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-ideas/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.446Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:24.011Z
 content_sha256: 27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983
 ---
 |/data/openclaw-openclaw-marketing-ideas|
@@ -553,8 +549,7 @@ content_sha256: 27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983
 stable_id: skills/openclaw-openclaw-nordpool-fi
 type: skills
 title: nordpool-fi
-summary: Hourly electricity prices for Finland with optimal EV charging window
-  calculation (3h, 4h.
+summary: Hourly electricity prices for Finland with optimal EV charging window.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -562,10 +557,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/nordpool-fi/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:42.840Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:28.757Z
 content_sha256: 5dfba1d4f02f6344e67e8a2627ac6eca09c16f92b2cf10a702c7f7cc22df4bbd
 ---
 |/data/openclaw-openclaw-nordpool-fi|
@@ -574,8 +569,7 @@ content_sha256: 5dfba1d4f02f6344e67e8a2627ac6eca09c16f92b2cf10a702c7f7cc22df4bbd
 stable_id: skills/openclaw-openclaw-openssl
 type: skills
 title: openssl
-summary: Generate secure random strings, passwords, and cryptographic tokens
-  using OpenSSL.
+summary: Generate secure random strings, passwords, and cryptographic tokens.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -583,10 +577,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/asleep123/openssl/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:47.665Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:29.373Z
 content_sha256: 1330f5f3da8bfb2e19f6e91d2b593b055aa47bbf7a864aec5375c010ed756924
 ---
 |/data/openclaw-openclaw-openssl|
@@ -595,8 +589,7 @@ content_sha256: 1330f5f3da8bfb2e19f6e91d2b593b055aa47bbf7a864aec5375c010ed756924
 stable_id: skills/openclaw-openclaw-page-cro
 type: skills
 title: page-cro
-summary: When the user wants to optimize, improve, or increase conversions on
-  any marketing page —.
+summary: When the user wants to optimize, improve.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -604,10 +597,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/page-cro/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:49.045Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:29.605Z
 content_sha256: ea4ac2ac8400f1853ae386785f63a0a9c445e1c08c981a9f6b734bc7c810cfc9
 ---
 |/data/openclaw-openclaw-page-cro|
@@ -624,10 +617,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jverdi/plaid/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:52.790Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:30.289Z
 content_sha256: b974d276d94307f18001858862d8e7a58f4ebcc8df7c1c110317d9d8b66838af
 ---
 |/data/openclaw-openclaw-plaid|
@@ -644,10 +637,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/publisher/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:58.653Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:30.419Z
 content_sha256: 0737e7f1df8b517403af778884096c8d96cf5a827864686ee61f46a142e81cd7
 ---
 |/data/openclaw-openclaw-publisher|
@@ -656,7 +649,7 @@ content_sha256: 0737e7f1df8b517403af778884096c8d96cf5a827864686ee61f46a142e81cd7
 stable_id: skills/openclaw-openclaw-relationship-skills
 type: skills
 title: relationship-skills
-summary: Improve relationships with communication tools, conflict resolution.
+summary: Improve relationships with communication tools.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -664,10 +657,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/relationship-skills/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:03.329Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:30.550Z
 content_sha256: ca844e395ff26e80c1f01b081302191ff06452d7fa997a95c0e946236c2e3240
 ---
 |/data/openclaw-openclaw-relationship-skills|
@@ -676,7 +669,7 @@ content_sha256: ca844e395ff26e80c1f01b081302191ff06452d7fa997a95c0e946236c2e3240
 stable_id: skills/openclaw-openclaw-sharesight-skill
 type: skills
 title: sharesight-skill
-summary: Manage Sharesight portfolios, holdings, trades, and custom investments.
+summary: Manage Sharesight portfolios, holdings, and custom.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -684,10 +677,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lextoumbourou/sharesight-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:09.776Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:30.962Z
 content_sha256: ada9b7db061b3b7c89eb9624e9317838425db7e7968eb0444251516049c89c9b
 ---
 |/data/openclaw-openclaw-sharesight-skill|
@@ -696,7 +689,7 @@ content_sha256: ada9b7db061b3b7c89eb9624e9317838425db7e7968eb0444251516049c89c9b
 stable_id: skills/openclaw-openclaw-solo-cli
 type: skills
 title: solo-cli
-summary: Monitor and interact with SOLO.ro accounting platform.
+summary: Monitor and interact with SOLO.ro accounting platform via CLI or TUI.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -704,10 +697,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rursache/solo-cli/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:13.575Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:31.190Z
 content_sha256: ccbfa6237880cecc0277a6cf69e24b4ec5425252efe22b4de851ffd1be639e65
 ---
 |/data/openclaw-openclaw-solo-cli|
@@ -716,8 +709,7 @@ content_sha256: ccbfa6237880cecc0277a6cf69e24b4ec5425252efe22b4de851ffd1be639e65
 stable_id: skills/openclaw-openclaw-swissweather
 type: skills
 title: swissweather
-summary: Get current weather and forecasts from MeteoSwiss (official Swiss
-  weather service).
+summary: Get current weather and forecasts from MeteoSwiss.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -725,10 +717,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swissweather/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:18.278Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:32.562Z
 content_sha256: aef28aca51ff51860cf265375d3d05a1a6593831a6cba283b230026c31a28ea3
 ---
 |/data/openclaw-openclaw-swissweather|
@@ -745,10 +737,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/tax-professional/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:19.814Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:32.908Z
 content_sha256: dc0310ce7f96d00afd6ba4707c2cd5d300dc1739eafdcf5f62def54e594d6b25
 ---
 |/data/openclaw-openclaw-tax-professional|
@@ -768,7 +760,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:21:51.662Z
+retrieved_at: 2026-03-09T22:23:05.194Z
 content_sha256: ee459f2b634cf904b14826fa7920b2e5f8d93648219399a67275fa1b9989fdfe
 ---
 |/data/openclaw-openclaw-yahoo-finance|
@@ -785,10 +777,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/obviyus/ynab/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:24:37.981Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:33.771Z
 content_sha256: 2440ad2094ccc9952419b11435d00dd7e5c9d7e53c100daa42242fb9a9d83d62
 ---
 |/data/openclaw-openclaw-ynab|
@@ -809,7 +801,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:40.690Z
+retrieved_at: 2026-03-09T22:28:33.877Z
 content_sha256: c12a553ca38e48f4325c92a94ca58b01e2399550b2c91c4b4000e8d9b6922098
 ---
 |/data/playbook-industry-finance|

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-beacon",
+  "generated_at": "2026-03-09T22:27:36.261Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-beacon#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-beacon/HEAD.md",
+      "text": "title: beacon\nsummary: Agent-to-agent protocol for social coordination, crypto payments, and P2P mesh.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottcjn/beacon/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-beacon",
+        "topic": "openclaw-openclaw-beacon",
+        "type": "skills",
+        "title": "beacon",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/scottcjn/beacon/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:36.261Z",
+        "content_sha256": "1e6448d364ccb11b1c69b0cfd1320a92bcd108f3130a8756be1076ceefc8926a"
+      }
+    }
+  ]
+}

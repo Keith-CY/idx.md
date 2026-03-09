@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-meeting-prep",
-  "generated_at": "2026-03-09T07:23:33.150Z",
+  "generated_at": "2026-03-09T22:24:43.215Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-meeting-prep#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hougangdev/meeting-prep/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:33.150Z",
+        "retrieved_at": "2026-03-09T22:24:43.215Z",
         "content_sha256": "f35e8090d8ea7e3d693fd42ef5f71bf6cf13b4af7ad69cd1bcb95825e3a4d4bb"
       }
     }

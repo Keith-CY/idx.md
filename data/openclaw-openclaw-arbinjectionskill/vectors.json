@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-arbinjectionskill",
+  "generated_at": "2026-03-09T22:27:28.519Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-arbinjectionskill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-arbinjectionskill/HEAD.md",
+      "text": "title: arbinjectionskill\nsummary: BYOCB ArbInjectionSkill: Scan EVM smart contracts for arbitrary call injection vulnerabilities.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cryptotooldev/arbinjectionskill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-arbinjectionskill",
+        "topic": "openclaw-openclaw-arbinjectionskill",
+        "type": "skills",
+        "title": "arbinjectionskill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cryptotooldev/arbinjectionskill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:28.519Z",
+        "content_sha256": "034f39b67bf3b30da1d57a4d2a65fa89fbb077a4c5073f4615a2249b87eca470"
+      }
+    }
+  ]
+}

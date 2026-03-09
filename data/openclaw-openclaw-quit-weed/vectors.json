@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-quit-weed",
-  "generated_at": "2026-03-09T07:24:00.733Z",
+  "generated_at": "2026-03-09T22:25:19.308Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-quit-weed#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-weed/SKILL.md",
-        "retrieved_at": "2026-03-09T07:24:00.733Z",
+        "retrieved_at": "2026-03-09T22:25:19.308Z",
         "content_sha256": "144911797e32c580e865f79f8ba64eae2e769d03a38f46e76b880ec3e609d789"
       }
     }

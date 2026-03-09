@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-assemblyai-transcribe
 type: skills
 title: assemblyai-transcribe
-summary: Transcribe audio/video with AssemblyAI (local upload.
+summary: Transcribe audio/video with AssemblyAI.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/assemblyai-transcribe/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.085Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:31.228Z
 content_sha256: 5d41e275be9cab2c33c4a89465c7266a6b43893a8ce2ae78cc9de02e1889458c
 ---

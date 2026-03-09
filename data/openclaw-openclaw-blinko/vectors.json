@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-blinko",
+  "generated_at": "2026-03-09T22:27:40.037Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-blinko#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-blinko/HEAD.md",
+      "text": "title: blinko\nsummary: Play Blinko (on-chain Plinko) headlessly on Abstract chain.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/blinko/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-blinko",
+        "topic": "openclaw-openclaw-blinko",
+        "type": "skills",
+        "title": "blinko",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/blinko/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:40.037Z",
+        "content_sha256": "5576022a97a87910018c44a4cf090c214f39be33d86b79c4ab7a6e6ecc63a879"
+      }
+    }
+  ]
+}

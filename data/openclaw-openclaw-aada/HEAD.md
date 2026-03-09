@@ -1,0 +1,19 @@
+---
+stable_id: skills/openclaw-openclaw-aada
+type: skills
+title: aada
+summary: Create and send fun, personality-rich promotional messages from one
+  agent to the Moltbook audience.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-image-video-generation
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rylena/aada/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:43.517Z
+content_sha256: ca1cec7cf610ddc5c6dff9185f38bacc48349205aa4de8c5d755436778f52533
+---

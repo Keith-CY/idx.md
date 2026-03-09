@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-claudia-agent-rms",
+  "generated_at": "2026-03-09T22:27:53.938Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-claudia-agent-rms#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-claudia-agent-rms/HEAD.md",
+      "text": "title: claudia-agent-rms\nsummary: Remember every agent you interact with on Moltbook.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kbanc85/claudia-agent-rms/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-claudia-agent-rms",
+        "topic": "openclaw-openclaw-claudia-agent-rms",
+        "type": "skills",
+        "title": "claudia-agent-rms",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kbanc85/claudia-agent-rms/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:53.938Z",
+        "content_sha256": "b98e34d0784ed3c637fc449783baace464e8fc84acad4a2bc28f4744f1a47427"
+      }
+    }
+  ]
+}

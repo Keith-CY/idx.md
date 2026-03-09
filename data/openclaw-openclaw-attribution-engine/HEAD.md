@@ -2,17 +2,7 @@
 stable_id: skills/openclaw-openclaw-attribution-engine
 type: skills
 title: attribution-engine
-summary: |-
-  ---
-  name: Attribution Engine
-  slug: attribution-engine
-  version: 1.2
-  description: >-
-    Helps creators clearly credit collaborators, tools, and partners in a way
-    platforms understand. Reduces confusion, missed disclosures, and avoidable
-    issues before content goes live.
-  metadata:
-    creator:
+summary: Helps creators clearly credit collaborators, tools.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -20,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.514Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:32.191Z
 content_sha256: f442eb922f8c792b051668e540814dd01340e9e0e6d26d197b6a62a1cceb5856
 ---

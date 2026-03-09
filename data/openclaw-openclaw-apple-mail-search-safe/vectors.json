@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apple-mail-search-safe",
-  "generated_at": "2026-03-09T07:22:32.849Z",
+  "generated_at": "2026-03-09T22:27:27.063Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apple-mail-search-safe#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-apple-mail-search-safe/HEAD.md",
-      "text": "title: apple-mail-search-safe\nsummary: Fast & safe Apple Mail search with body content support.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/apple-mail-search-safe/SKILL.md",
+      "text": "title: apple-mail-search-safe\nsummary: Fast & safe Apple Mail search with body.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/apple-mail-search-safe/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-apple-mail-search-safe",
         "topic": "openclaw-openclaw-apple-mail-search-safe",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/apple-mail-search-safe/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:32.849Z",
+        "retrieved_at": "2026-03-09T22:27:27.063Z",
         "content_sha256": "c01a401ff94641dc5323b0b0edb436fd8518efcc1b2ae1d1386a27b58b537a07"
       }
     }

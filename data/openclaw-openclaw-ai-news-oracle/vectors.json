@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ai-news-oracle",
+  "generated_at": "2026-03-09T22:27:16.410Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ai-news-oracle#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ai-news-oracle/HEAD.md",
+      "text": "title: ai-news-oracle\nsummary: Fetch real-time AI news briefings from the AI News Oracle API (Hacker News, TechCrunch, The Verge)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/swimmingkiim/ai-news-oracle/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ai-news-oracle",
+        "topic": "openclaw-openclaw-ai-news-oracle",
+        "type": "skills",
+        "title": "ai-news-oracle",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/swimmingkiim/ai-news-oracle/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:16.410Z",
+        "content_sha256": "a672d4bb2665604a4e604887803e077042f61e73f0f7363012519a0a15ba298f"
+      }
+    }
+  ]
+}

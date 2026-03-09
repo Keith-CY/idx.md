@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-ethos",
+  "generated_at": "2026-03-09T22:27:00.766Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-ethos#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-ethos/HEAD.md",
+      "text": "title: agent-ethos\nsummary: Extended ethos and mental models for Clanky.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrclanky/agent-ethos/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-ethos",
+        "topic": "openclaw-openclaw-agent-ethos",
+        "type": "skills",
+        "title": "agent-ethos",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrclanky/agent-ethos/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:00.766Z",
+        "content_sha256": "6778c843705c4048160491af39a509b031d8f2abaf938808d314d5e794b0fca1"
+      }
+    }
+  ]
+}

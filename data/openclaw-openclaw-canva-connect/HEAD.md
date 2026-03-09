@@ -2,17 +2,7 @@
 stable_id: skills/openclaw-openclaw-canva-connect
 type: skills
 title: canva-connect
-summary: |-
-  ---
-  name: canva
-  version: 1.0.0
-  description: |
-    Manage Canva designs, assets, and folders via the Connect API.
-    WHAT IT CAN DO:
-    - List/search/organize designs and folders
-    - Export finished designs (PNG/PDF/JPG)
-    - Upload images to asset library
-    - Autofill brand templates with data
+summary: Manage Canva designs, assets, and folders via the Connect API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -20,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/coolmanns/canva-connect/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:42.754Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:49.085Z
 content_sha256: 564ee9172f3d1967881d104ef831e176d6b8413eb139615b2e850bb153e1587c
 ---

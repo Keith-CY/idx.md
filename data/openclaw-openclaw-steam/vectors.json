@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-steam",
-  "generated_at": "2026-03-09T07:24:15.545Z",
+  "generated_at": "2026-03-09T22:25:42.010Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-steam#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/steam/SKILL.md",
-        "retrieved_at": "2026-03-09T07:24:15.545Z",
+        "retrieved_at": "2026-03-09T22:25:42.010Z",
         "content_sha256": "0396e8d5f9e4fc0dbd11ec29ed0dc573adfebd19e841ac66a149c60c05ca7a24"
       }
     }

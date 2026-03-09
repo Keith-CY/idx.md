@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/receiving-code-review/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md
-github_stars: 64877
-github_forks: 4946
+github_stars: 74053
+github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T07:21:46.558Z
+retrieved_at: 2026-03-09T22:22:57.422Z
 content_sha256: c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406
 ---

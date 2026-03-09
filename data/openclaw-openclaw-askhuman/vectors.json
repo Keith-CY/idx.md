@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-askhuman",
+  "generated_at": "2026-03-09T22:27:31.099Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-askhuman#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-askhuman/HEAD.md",
+      "text": "title: askhuman\nsummary: Human Judgment as a Service for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hagiss/askhuman/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-askhuman",
+        "topic": "openclaw-openclaw-askhuman",
+        "type": "skills",
+        "title": "askhuman",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hagiss/askhuman/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:31.099Z",
+        "content_sha256": "440102448dd8671a9c119391349ea90b6f29b172201a3602891ba8f76e94601a"
+      }
+    }
+  ]
+}

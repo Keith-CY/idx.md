@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-findmy-location",
-  "generated_at": "2026-03-09T07:23:07.651Z",
+  "generated_at": "2026-03-09T22:28:15.352Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-findmy-location#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-findmy-location/HEAD.md",
-      "text": "title: findmy-location\nsummary: Track a shared contact's location via Apple Find My with street-level accuracy.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/poiley/findmy-location/SKILL.md",
+      "text": "title: findmy-location\nsummary: Track a shared contact's location via Apple Find.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/poiley/findmy-location/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-findmy-location",
         "topic": "openclaw-openclaw-findmy-location",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/poiley/findmy-location/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:07.651Z",
+        "retrieved_at": "2026-03-09T22:28:15.352Z",
         "content_sha256": "03d3660a2af5bf9dcc4a94f0cdd13a2c5426f9efb8dcbf2ca7cc5f2fa5bb6f9e"
       }
     }

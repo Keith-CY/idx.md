@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-atlassian-mcp
 type: skills
 title: atlassian-mcp
-summary: "Atlassian MCP: Jira and Confluence integration via Docker."
+summary: Run the Model Context Protocol (MCP) Atlassian server.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/atakanermis/atlassian-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.242Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:31.675Z
 content_sha256: 8052a44096cdf9de260c1e0f8bf1d24b3ed9d332acc66c6da5cee31ccf484207
 ---

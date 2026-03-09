@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-paperless-ngx
 type: skills
 title: paperless-ngx
-summary: "Paperless-ngx document management: search, upload, tag, organize."
+summary: Interact with Paperless-ngx document management system.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oskarstark/paperless-ngx/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:49.614Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:29.954Z
 content_sha256: b19756e64af3855ee753a869165504f61e31f049e2aa9a549f2a1fee3f8d2971
 ---

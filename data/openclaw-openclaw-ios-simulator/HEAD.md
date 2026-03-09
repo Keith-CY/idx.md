@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-ios-simulator
 type: skills
 title: ios-simulator
-summary: "Automate iOS Simulator workflows (simctl + idb): create/boot/erase devices."
+summary: Automate iOS Simulator workflows (simctl + idb)
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/ios-simulator/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:22.689Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:21.301Z
 content_sha256: 9a875940fbc8a855031078cbc7222fd9280b320c2e91cfa89310e759fffb82ce
 ---

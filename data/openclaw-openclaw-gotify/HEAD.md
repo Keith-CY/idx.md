@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-gotify
 type: skills
 title: gotify
-summary: Send push notifications via Gotify when long-running tasks complete or
-  important events occur.
+summary: Send push notifications via Gotify when long-running tasks complete.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/gotify/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:15.368Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:18.408Z
 content_sha256: e6356beac122235390d3915dead6d9b3c3cc303046bd61dbffe3ba9aa0ce850b
 ---

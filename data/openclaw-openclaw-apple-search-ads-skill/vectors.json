@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-apple-search-ads-skill",
+  "generated_at": "2026-03-09T22:27:27.923Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-apple-search-ads-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-apple-search-ads-skill/HEAD.md",
+      "text": "title: apple-search-ads-skill\nsummary: Manage Apple Search Ads campaigns, ad groups, keywords, and reports via the asa-cli tool.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-apple-apps-services\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trebuhs/apple-search-ads-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-apple-search-ads-skill",
+        "topic": "openclaw-openclaw-apple-search-ads-skill",
+        "type": "skills",
+        "title": "apple-search-ads-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-apple-apps-services"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/trebuhs/apple-search-ads-skill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:27.923Z",
+        "content_sha256": "316f41e7386f50d48196f299f32c240d0dff8db7cce31bff8447af85bf7c4fe9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-anki-connect",
+  "generated_at": "2026-03-09T22:27:23.610Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-anki-connect#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-anki-connect/HEAD.md",
+      "text": "title: anki-connect\nsummary: Interact with Anki flashcard decks via the AnkiConnect REST API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gyroninja/anki-connect/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-anki-connect",
+        "topic": "openclaw-openclaw-anki-connect",
+        "type": "skills",
+        "title": "anki-connect",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-notes-pkm"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gyroninja/anki-connect/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:23.610Z",
+        "content_sha256": "99e76607782909410001f40616fcaaa5d87649dad5cefe2a60c5821999b3d5c5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-0xwork",
+  "generated_at": "2026-03-09T22:26:38.718Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-0xwork#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-0xwork/HEAD.md",
+      "text": "title: 0xwork\nsummary: Find and complete paid tasks on the 0xWork decentralized marketplace (Base chain, USDC escrow)\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jkillr/0xwork/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-0xwork",
+        "topic": "openclaw-openclaw-0xwork",
+        "type": "skills",
+        "title": "0xwork",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jkillr/0xwork/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:38.718Z",
+        "content_sha256": "ad614f066ce8a616885877d0d6a05b67e277a26cb0703a674fc03ef117d9434d"
+      }
+    }
+  ]
+}

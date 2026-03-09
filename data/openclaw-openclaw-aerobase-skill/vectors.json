@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-aerobase-skill",
+  "generated_at": "2026-03-09T22:26:54.134Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-aerobase-skill#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-aerobase-skill/HEAD.md",
+      "text": "title: aerobase-skill\nsummary: Search, score, and compare flights with jetlag impact analysis.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-search-research\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kurosh87/aerobase-skill/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-aerobase-skill",
+        "topic": "openclaw-openclaw-aerobase-skill",
+        "type": "skills",
+        "title": "aerobase-skill",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kurosh87/aerobase-skill/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:54.134Z",
+        "content_sha256": "f8a17fdcfc18924199e76d9669fefe4c352bc6ed34f827f04821383576daf274"
+      }
+    }
+  ]
+}

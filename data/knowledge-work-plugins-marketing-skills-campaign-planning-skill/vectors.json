@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-campaign-planning-skill",
-  "generated_at": "2026-03-09T07:21:54.802Z",
+  "generated_at": "2026-03-09T22:23:10.766Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-campaign-planning-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/campaign-planning/SKILL.md",
-        "retrieved_at": "2026-03-09T07:21:54.802Z",
+        "retrieved_at": "2026-03-09T22:23:10.766Z",
         "content_sha256": "bd42e411831e2f1ea968d697d3765dcbc538787a7e866fb22337fedc067bc382"
       }
     }

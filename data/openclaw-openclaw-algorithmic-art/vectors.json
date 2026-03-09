@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-algorithmic-art",
-  "generated_at": "2026-03-09T07:22:30.220Z",
+  "generated_at": "2026-03-09T22:27:20.411Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-algorithmic-art#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-algorithmic-art/HEAD.md",
-      "text": "title: algorithmic-art\nsummary: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/algorithmic-art/SKILL.md",
+      "text": "title: algorithmic-art\nsummary: Creating algorithmic art using p5.js with seeded randomness.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-image-video-generation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/algorithmic-art/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-algorithmic-art",
         "topic": "openclaw-openclaw-algorithmic-art",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/algorithmic-art/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:30.220Z",
+        "retrieved_at": "2026-03-09T22:27:20.411Z",
         "content_sha256": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
       }
     }

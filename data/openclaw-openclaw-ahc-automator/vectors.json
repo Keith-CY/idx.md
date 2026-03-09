@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-ahc-automator",
+  "generated_at": "2026-03-09T22:27:14.602Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-ahc-automator#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-ahc-automator/HEAD.md",
+      "text": "title: ahc-automator\nsummary: Custom automation workflows for Alan Harper Composites.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-cli-utilities\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jamesbot-agnt/ahc-automator/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-ahc-automator",
+        "topic": "openclaw-openclaw-ahc-automator",
+        "type": "skills",
+        "title": "ahc-automator",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-cli-utilities"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jamesbot-agnt/ahc-automator/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:14.602Z",
+        "content_sha256": "2fb0360c700d796da85b4e86e8d8ca867f1a12efc38d247d59e997b6639b6120"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claude-optimised",
-  "generated_at": "2026-03-09T07:22:45.151Z",
+  "generated_at": "2026-03-09T22:23:50.875Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claude-optimised#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hexnickk/claude-optimised/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:45.151Z",
+        "retrieved_at": "2026-03-09T22:23:50.875Z",
         "content_sha256": "57a64c1fc231189487d8420a07b6c75782a15dee3cf969eaa3a5e35a2132492b"
       }
     }

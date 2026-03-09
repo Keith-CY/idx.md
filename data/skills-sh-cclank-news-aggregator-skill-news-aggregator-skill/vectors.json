@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cclank-news-aggregator-skill-news-aggregator-skill",
-  "generated_at": "2026-03-09T07:21:47.436Z",
+  "generated_at": "2026-03-09T22:22:59.333Z",
   "records": [
     {
       "id": "skills/skills-sh-cclank-news-aggregator-skill-news-aggregator-skill#head",
       "kind": "head",
       "path": "/data/skills-sh-cclank-news-aggregator-skill-news-aggregator-skill/HEAD.md",
-      "text": "title: skills-sh-cclank-news-aggregator-skill-news-aggregator-skill\nsummary: --- name: news-aggregator-skill description: \"Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 8 major sources: Hacker News, GitHub Trending, Product Hunt, 36Kr, Tencent News, WallStreetCN, V2EX, and Weibo. Best for 'daily scans', 'tech news briefings', 'finance updates', and 'deep interpretations' of hot topics.\" --- # News Aggregator Skill Fetch real-time hot news from multiple sources. ## ⚠️ Global Rules (Strict Enforcement) 1. **Mandatory Time Display**: **EVERY** report item, regardless of the source or command used (Single Source, Morning Routine, or Combinations), **MUST** include the precise publication time or relative time (e.g., \"10:30\", \"2 hours ago\", \"2024-01-20\"). * **NEVER** skip the time field. * **NEVER** hallucinate the time. If it's missing in the JSON, mark it as \"Unknown Time\".\ntype: skills\ntags: skills-sh, skills-sh-probed\nsource_url: https://raw.githubusercontent.com/cclank/news-aggregator-skill/main/SKILL.md",
+      "text": "title: skills-sh-cclank-news-aggregator-skill-news-aggregator-skill\nsummary: --- name: news-aggregator-skill description: \"Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 28 sources including Hacker News, GitHub, Hugging Face Papers, AI Newsletters, WallStreetCN, Weibo, and Podcasts. Use when user requests 'daily scans', 'tech news', 'finance updates', 'AI briefings', 'deep analysis', or says '如意如意' to open the interactive menu.\" --- # News Aggregator Skill Fetch real-time hot news from 28 sources, generate deep analysis reports in Chinese. --- ## 🔄 Universal Workflow (3 Steps) **Every** news request follows the same workflow, regardless of source or combination: ### Step 1: Fetch Data\ntype: skills\ntags: skills-sh, skills-sh-probed\nsource_url: https://raw.githubusercontent.com/cclank/news-aggregator-skill/main/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-cclank-news-aggregator-skill-news-aggregator-skill",
         "topic": "skills-sh-cclank-news-aggregator-skill-news-aggregator-skill",
@@ -18,8 +18,8 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/cclank/news-aggregator-skill/main/SKILL.md",
-        "retrieved_at": "2026-03-09T07:21:47.436Z",
-        "content_sha256": "1debce471f7433cb36472fbfcd9b6502fd14e176b15fd7c9d16d1e4d063fd96c"
+        "retrieved_at": "2026-03-09T22:22:59.333Z",
+        "content_sha256": "62decab2ad9fbd5966958f01a0de25d2f25d8ccadc0bbf83762a28fc739bbe8d"
       }
     }
   ]

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-eth24",
+  "generated_at": "2026-03-09T22:28:12.619Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-eth24#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-eth24/HEAD.md",
+      "text": "title: eth24\nsummary: You are running ETH24, a daily digest tool that surfaces the top tweets for a configured topic.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-health-fitness\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/patmilkgallon/eth24/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-eth24",
+        "topic": "openclaw-openclaw-eth24",
+        "type": "skills",
+        "title": "eth24",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-health-fitness"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/patmilkgallon/eth24/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:12.619Z",
+        "content_sha256": "cdab18f2113b90aaca4db5cfa941bf6dfb10133ecd8cc426cb5e4a691d40f3ca"
+      }
+    }
+  ]
+}

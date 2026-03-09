@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-orchestration-multi-agent-optimize",
+  "generated_at": "2026-03-09T22:27:03.363Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-orchestration-multi-agent-optimize#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-orchestration-multi-agent-optimize/HEAD.md",
+      "text": "title: agent-orchestration-multi-agent-optimize\nsummary: Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-ai-llms\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rustyorb/agent-orchestration-multi-agent-optimize/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-orchestration-multi-agent-optimize",
+        "topic": "openclaw-openclaw-agent-orchestration-multi-agent-optimize",
+        "type": "skills",
+        "title": "agent-orchestration-multi-agent-optimize",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-ai-llms"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rustyorb/agent-orchestration-multi-agent-optimize/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:03.363Z",
+        "content_sha256": "07e8ae8527830021cbe7c8892dbcd4dfa038f9fb755122417bbf85a0d3744c6c"
+      }
+    }
+  ]
+}

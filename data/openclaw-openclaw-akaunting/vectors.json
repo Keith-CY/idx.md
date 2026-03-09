@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-akaunting",
+  "generated_at": "2026-03-09T22:27:19.404Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-akaunting#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-akaunting/HEAD.md",
+      "text": "title: akaunting\nsummary: Interact with Akaunting open-source accounting software via REST API.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-speech-transcription\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/liekzejaws/akaunting/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-akaunting",
+        "topic": "openclaw-openclaw-akaunting",
+        "type": "skills",
+        "title": "akaunting",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-speech-transcription"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/liekzejaws/akaunting/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:19.404Z",
+        "content_sha256": "3d5d386a0eb5da5aa4df5ebefe68f6112e8a20ab5920622afe3d9c399d560b4c"
+      }
+    }
+  ]
+}

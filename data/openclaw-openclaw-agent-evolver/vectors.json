@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-evolver",
+  "generated_at": "2026-03-09T22:27:01.267Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-evolver#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-evolver/HEAD.md",
+      "text": "title: agent-evolver\nsummary: AI Agent self-evolution engine that enables agents to learn from experience, detect problems, extract insights.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-personal-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lilei0311/agent-evolver/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-evolver",
+        "topic": "openclaw-openclaw-agent-evolver",
+        "type": "skills",
+        "title": "agent-evolver",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-personal-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lilei0311/agent-evolver/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:01.267Z",
+        "content_sha256": "b5c4167190af0d92072f1c5bd9c180ebe2530fe206d278261c57651333063a74"
+      }
+    }
+  ]
+}

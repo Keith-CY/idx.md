@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-adwhiz",
+  "generated_at": "2026-03-09T22:26:52.789Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-adwhiz#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-adwhiz/HEAD.md",
+      "text": "title: adwhiz\nsummary: Manage Google Ads campaigns from your AI coding tool. 44 MCP tools for auditing, creating, and optimizing Google.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-coding-agents-ides\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamzifei/adwhiz/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-adwhiz",
+        "topic": "openclaw-openclaw-adwhiz",
+        "type": "skills",
+        "title": "adwhiz",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-coding-agents-ides"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iamzifei/adwhiz/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:52.789Z",
+        "content_sha256": "8bd058c0ff04212da8b53fdff4a3bd8ef8ab1353e1d394cba5f416e858e327df"
+      }
+    }
+  ]
+}

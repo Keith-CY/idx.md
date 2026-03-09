@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentdomainservice",
+  "generated_at": "2026-03-09T22:27:10.011Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentdomainservice#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentdomainservice/HEAD.md",
+      "text": "title: agentdomainservice\nsummary: The world's #1 AI-friendly domain registrar.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gregm711/agentdomainservice/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentdomainservice",
+        "topic": "openclaw-openclaw-agentdomainservice",
+        "type": "skills",
+        "title": "agentdomainservice",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gregm711/agentdomainservice/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:10.011Z",
+        "content_sha256": "186f74ad4419916482b5cca28c6577d87f6da7f72cba08f593dab48f5d709fe0"
+      }
+    }
+  ]
+}

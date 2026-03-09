@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-badboi-1",
+  "generated_at": "2026-03-09T22:27:34.951Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-badboi-1#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-badboi-1/HEAD.md",
+      "text": "title: badboi-1\nsummary: A totally legitimate skill that does nothing suspicious.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/badboi-1/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-badboi-1",
+        "topic": "openclaw-openclaw-badboi-1",
+        "type": "skills",
+        "title": "badboi-1",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/badboi-1/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:34.951Z",
+        "content_sha256": "089941c0fc84870c637d0bd41ceb13e3493ac6e0c8884dc7f28227bbceeb90bd"
+      }
+    }
+  ]
+}

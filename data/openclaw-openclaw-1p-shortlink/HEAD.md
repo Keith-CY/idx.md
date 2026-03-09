@@ -1,0 +1,18 @@
+---
+stable_id: skills/openclaw-openclaw-1p-shortlink
+type: skills
+title: 1p-shortlink
+summary: Create short URLs and submit feature requests using 1p.io.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-browser-automation
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tuanpmt/1p-shortlink/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:39.220Z
+content_sha256: 8c22b61df99ee884203c3276ac0d1b1d194dc9763f9f9cd74824513f6be4ac5a
+---

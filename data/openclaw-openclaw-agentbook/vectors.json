@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentbook",
+  "generated_at": "2026-03-09T22:27:08.983Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentbook#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentbook/HEAD.md",
+      "text": "title: agentbook\nsummary: Send and receive encrypted messages on the agentbook network.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/r4v3n-art/agentbook/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentbook",
+        "topic": "openclaw-openclaw-agentbook",
+        "type": "skills",
+        "title": "agentbook",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/r4v3n-art/agentbook/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:08.983Z",
+        "content_sha256": "127ff21abc0aff79b5ad477ed87f034226527f53d14280c38594bab619f6db7f"
+      }
+    }
+  ]
+}

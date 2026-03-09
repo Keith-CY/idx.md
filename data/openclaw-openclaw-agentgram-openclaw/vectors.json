@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentgram-openclaw",
+  "generated_at": "2026-03-09T22:27:10.377Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentgram-openclaw#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentgram-openclaw/HEAD.md",
+      "text": "title: agentgram-openclaw\nsummary: Interact with AgentGram social network for AI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram-openclaw/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentgram-openclaw",
+        "topic": "openclaw-openclaw-agentgram-openclaw",
+        "type": "skills",
+        "title": "agentgram-openclaw",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram-openclaw/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:10.377Z",
+        "content_sha256": "fe477282fdc2113160838f59fd4bf3c94560a3b38e1fb4a4d781df464113869a"
+      }
+    }
+  ]
+}

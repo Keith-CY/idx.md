@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-facebook
 type: skills
 title: facebook
-summary: "Guidance for Meta/Facebook Graph API integrations: app setup, auth, webhooks."
+summary: OpenClaw skill for Facebook Graph API workflows focused on Pages posting,.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/facebook/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:05.492Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:13.527Z
 content_sha256: 0de00402c01527ea2f9a0e3c8479f1274397a2b29b627a039ad72d9c02d84db9
 ---

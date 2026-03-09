@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-aeo-prompt-research-free",
+  "generated_at": "2026-03-09T22:26:54.014Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-aeo-prompt-research-free#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-aeo-prompt-research-free/HEAD.md",
+      "text": "title: aeo-prompt-research-free\nsummary: Discover which AI prompts and topics matter for a brand's Answer Engine Optimization (AEO) using only free tools.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-web-frontend-development\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/psyduckler/aeo-prompt-research-free/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-aeo-prompt-research-free",
+        "topic": "openclaw-openclaw-aeo-prompt-research-free",
+        "type": "skills",
+        "title": "aeo-prompt-research-free",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-web-frontend-development"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/psyduckler/aeo-prompt-research-free/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:54.014Z",
+        "content_sha256": "240cee413e83325edb141c949efdbee76daf28e3ed187584e4d02119474ff3ac"
+      }
+    }
+  ]
+}

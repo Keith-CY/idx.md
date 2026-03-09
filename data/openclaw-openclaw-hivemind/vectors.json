@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-hivemind",
+  "generated_at": "2026-03-09T22:28:19.496Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-hivemind#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-hivemind/HEAD.md",
+      "text": "title: hivemind\nsummary: Interact with the Hivemind collective knowledge base — a shared memory.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-gaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/urcades/hivemind/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-hivemind",
+        "topic": "openclaw-openclaw-hivemind",
+        "type": "skills",
+        "title": "hivemind",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-gaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/urcades/hivemind/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:19.496Z",
+        "content_sha256": "2c2c1bd969c3507a6356e260d827ce630a7499188a8474af24e77480850a2acf"
+      }
+    }
+  ]
+}

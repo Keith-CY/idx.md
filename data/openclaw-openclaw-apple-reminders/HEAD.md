@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-apple-reminders
 type: skills
 title: apple-reminders
-summary: Manage Apple Reminders via the `remindctl` CLI on macOS (list, add,
-  edit, complete, delete).
+summary: Manage Apple Reminders via the `remindctl` CLI on macOS.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/apple-reminders/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:33.267Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:27.804Z
 content_sha256: 0cbe33ba91010d54e2c53e20500ffc1fd8320b507b1ba8fcb5cf3170487a5918
 ---

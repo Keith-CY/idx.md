@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-commands-explore-data",
-  "generated_at": "2026-03-09T07:21:53.125Z",
+  "generated_at": "2026-03-09T22:23:07.422Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-commands-explore-data#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/commands/explore-data.md",
-        "retrieved_at": "2026-03-09T07:21:53.125Z",
+        "retrieved_at": "2026-03-09T22:23:07.422Z",
         "content_sha256": "8a3b5f17d07ef38d613d5c1afbe4182d6d97f08c1319ef99ef04f75b55c2e76c"
       }
     }

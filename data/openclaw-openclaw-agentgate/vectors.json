@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agentgate",
+  "generated_at": "2026-03-09T22:27:10.100Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agentgate#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agentgate/HEAD.md",
+      "text": "title: agentgate\nsummary: API gateway for personal data with human-in-the-loop write approval.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-git-github\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/monteslu/agentgate/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agentgate",
+        "topic": "openclaw-openclaw-agentgate",
+        "type": "skills",
+        "title": "agentgate",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-git-github"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/monteslu/agentgate/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:10.100Z",
+        "content_sha256": "4d942cf3bfd88d91dbf05ac58f3feada9739138c77edf6550bac323719bdff68"
+      }
+    }
+  ]
+}

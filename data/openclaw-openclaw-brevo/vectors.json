@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brevo",
-  "generated_at": "2026-03-09T07:22:40.532Z",
+  "generated_at": "2026-03-09T22:27:44.381Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brevo#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-brevo/HEAD.md",
-      "text": "title: brevo\nsummary: Brevo (formerly Sendinblue) email marketing API for managing contacts, lists, sending transactional emails.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/brevo/SKILL.md",
+      "text": "title: brevo\nsummary: Brevo (formerly Sendinblue) email marketing API for managing contacts, lists,.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/brevo/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-brevo",
         "topic": "openclaw-openclaw-brevo",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/brevo/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:40.532Z",
+        "retrieved_at": "2026-03-09T22:27:44.381Z",
         "content_sha256": "538b33c5881c6a84b6038a1690e2f34a3f9f2c7d5708898602e3352c1eb9eb96"
       }
     }

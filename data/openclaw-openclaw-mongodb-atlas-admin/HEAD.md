@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-mongodb-atlas-admin
 type: skills
 title: mongodb-atlas-admin
-summary: Manage MongoDB Atlas clusters, projects, users, backups, and alerts via
-  the Atlas Admin API.
+summary: Manage MongoDB Atlas clusters, projects, users.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/mongodb-atlas-admin/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:38.165Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:27.586Z
 content_sha256: f1b06b0288e3453c907e8628fe550c2b395b349a4fc420286f4f3ca73b7ab00e
 ---

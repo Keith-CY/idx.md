@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-critical-article-writer
 type: skills
 title: critical-article-writer
-summary: Generate draft articles, outlines, and editorial content matching a
-  distinctive analytical, skeptical voice.
+summary: Generate draft articles, outlines.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/critical-article-writer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:56.359Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:02.567Z
 content_sha256: 9a3291bcfefb763b05dcd85b9edaf80b148434934d612712d496ab64639018c7
 ---

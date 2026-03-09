@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-airpoint",
+  "generated_at": "2026-03-09T22:27:18.522Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-airpoint#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-airpoint/HEAD.md",
+      "text": "title: airpoint\nsummary: Control a Mac through natural language — open apps, click buttons, read the screen, type text, manage windows.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-productivity-tasks\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/marioandf/airpoint/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-airpoint",
+        "topic": "openclaw-openclaw-airpoint",
+        "type": "skills",
+        "title": "airpoint",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-productivity-tasks"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/marioandf/airpoint/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:18.522Z",
+        "content_sha256": "6d5d169059deb5b3406186162958892608908d880a7ee5ea21fb95de1f504c19"
+      }
+    }
+  ]
+}

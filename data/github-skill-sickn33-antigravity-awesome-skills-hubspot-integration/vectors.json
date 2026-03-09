@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-sickn33-antigravity-awesome-skills-hubspot-integration",
-  "generated_at": "2026-03-09T07:21:43.844Z",
+  "generated_at": "2026-03-09T22:22:52.359Z",
   "records": [
     {
       "id": "skills/github-skill-sickn33-antigravity-awesome-skills-hubspot-integration#head",
@@ -21,7 +21,7 @@
           "github-repo-antigravity-awesome-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md",
-        "retrieved_at": "2026-03-09T07:21:43.844Z",
+        "retrieved_at": "2026-03-09T22:22:52.359Z",
         "content_sha256": "5bdee6583ff71931e8e3fe04183260b28ece6e93d14328e57b074747aa9f0d3d"
       }
     }

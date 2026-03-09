@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-abixus-core-v1",
+  "generated_at": "2026-03-09T22:26:45.266Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-abixus-core-v1#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-abixus-core-v1/HEAD.md",
+      "text": "title: abixus-core-v1\nsummary: A high-performance validation layer for autonomous agent consistency on Polygon PoS.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/taofisio/abixus-core-v1/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-abixus-core-v1",
+        "topic": "openclaw-openclaw-abixus-core-v1",
+        "type": "skills",
+        "title": "abixus-core-v1",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/taofisio/abixus-core-v1/SKILL.md",
+        "retrieved_at": "2026-03-09T22:26:45.266Z",
+        "content_sha256": "1007c4f6487a534474c74a0aa5cbcdf008f812760a5dc49631b8f9155b1ce216"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-brand-cog",
+  "generated_at": "2026-03-09T22:27:43.392Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-brand-cog#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-brand-cog/HEAD.md",
+      "text": "title: brand-cog\nsummary: Other tools make logos.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/brand-cog/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-brand-cog",
+        "topic": "openclaw-openclaw-brand-cog",
+        "type": "skills",
+        "title": "brand-cog",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/brand-cog/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:43.392Z",
+        "content_sha256": "cfc260f719b875aa74c91e58a8e69540f8017cbb8298b4e3d91225fa2f5451f1"
+      }
+    }
+  ]
+}

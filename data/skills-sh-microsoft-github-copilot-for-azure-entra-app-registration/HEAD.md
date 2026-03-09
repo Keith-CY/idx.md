@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/entra-app-reg
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-09T07:22:12.075Z
+retrieved_at: 2026-03-09T22:26:20.604Z
 content_sha256: c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24
 ---

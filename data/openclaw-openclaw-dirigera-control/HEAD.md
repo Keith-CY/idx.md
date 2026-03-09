@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-dirigera-control
 type: skills
 title: dirigera-control
-summary: Control IKEA Dirigera smart home devices (lights, outlets, scenes,
-  controllers).
+summary: Control IKEA Dirigera smart home devices.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/falderebet/dirigera-control/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:59.726Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:08.251Z
 content_sha256: ba100e5d3f78c05baf15b3390ae0d1eff9b533edaf29eea9c9e5121ca7a58c15
 ---

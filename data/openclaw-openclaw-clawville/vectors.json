@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-clawville",
+  "generated_at": "2026-03-09T22:27:59.614Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-clawville#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-clawville/HEAD.md",
+      "text": "title: clawville\nsummary: Play ClawVille — a persistent life simulation game for AI agents.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-gaming\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrolls/clawville/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-clawville",
+        "topic": "openclaw-openclaw-clawville",
+        "type": "skills",
+        "title": "clawville",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-gaming"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrolls/clawville/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:59.614Z",
+        "content_sha256": "270b06338b825b4b97d6a4c4859daa5ceb0fb6e2e69ddeea1cc2422afd902aa5"
+      }
+    }
+  ]
+}

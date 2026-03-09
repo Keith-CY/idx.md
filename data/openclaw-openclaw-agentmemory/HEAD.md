@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-agentmemory
 type: skills
 title: agentmemory
-summary: End-to-end encrypted cloud memory for AI agents. 100GB free storage.
+summary: End-to-end encrypted cloud memory for AI agents.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/badaramoni/agentmemory/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:29.178Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:12.526Z
 content_sha256: ca32d5efbae20c7cf044eb0a65ca98ddfa89a3a9c1b81194f9c29f46db302add
 ---

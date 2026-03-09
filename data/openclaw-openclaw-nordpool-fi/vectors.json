@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nordpool-fi",
-  "generated_at": "2026-03-09T07:23:42.840Z",
+  "generated_at": "2026-03-09T22:28:28.757Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nordpool-fi#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-nordpool-fi/HEAD.md",
-      "text": "title: nordpool-fi\nsummary: Hourly electricity prices for Finland with optimal EV charging window calculation (3h, 4h.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-finance\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/nordpool-fi/SKILL.md",
+      "text": "title: nordpool-fi\nsummary: Hourly electricity prices for Finland with optimal EV charging window.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-finance\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/nordpool-fi/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-nordpool-fi",
         "topic": "openclaw-openclaw-nordpool-fi",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/nordpool-fi/SKILL.md",
-        "retrieved_at": "2026-03-09T07:23:42.840Z",
+        "retrieved_at": "2026-03-09T22:28:28.757Z",
         "content_sha256": "5dfba1d4f02f6344e67e8a2627ac6eca09c16f92b2cf10a702c7f7cc22df4bbd"
       }
     }

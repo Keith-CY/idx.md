@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-echodecks-ultimate",
+  "generated_at": "2026-03-09T22:28:10.623Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-echodecks-ultimate#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-echodecks-ultimate/HEAD.md",
+      "text": "title: echodecks-ultimate\nsummary: AI-powered flashcard management with automated podcast.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-smart-home-iot\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drgeld/echodecks-ultimate/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-echodecks-ultimate",
+        "topic": "openclaw-openclaw-echodecks-ultimate",
+        "type": "skills",
+        "title": "echodecks-ultimate",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-smart-home-iot"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/drgeld/echodecks-ultimate/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:10.623Z",
+        "content_sha256": "67da566c7a35799a5e1b63e9d1a0d62f341171f300e142bbd37d3013fa1e61df"
+      }
+    }
+  ]
+}

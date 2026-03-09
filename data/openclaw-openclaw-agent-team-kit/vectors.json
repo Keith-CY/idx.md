@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-team-kit",
+  "generated_at": "2026-03-09T22:27:07.138Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-team-kit#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-team-kit/HEAD.md",
+      "text": "title: agent-team-kit\nsummary: *A framework for self-sustaining AI agent teams.*.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-communication\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ryancampbell/agent-team-kit/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-team-kit",
+        "topic": "openclaw-openclaw-agent-team-kit",
+        "type": "skills",
+        "title": "agent-team-kit",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-communication"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryancampbell/agent-team-kit/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:07.138Z",
+        "content_sha256": "02577824f35e5cf52e69b9c42e32d7e70aff7164614ed7053da5b4a3462c3970"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-moltbot-ha",
+  "generated_at": "2026-03-09T22:28:27.255Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-moltbot-ha#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-moltbot-ha/HEAD.md",
+      "text": "title: moltbot-ha\nsummary: Control Home Assistant smart home devices, lights, scenes.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamvaleriofantozzi/moltbot-ha/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-moltbot-ha",
+        "topic": "openclaw-openclaw-moltbot-ha",
+        "type": "skills",
+        "title": "moltbot-ha",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iamvaleriofantozzi/moltbot-ha/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:27.255Z",
+        "content_sha256": "02dc76c6a8192b1a5d8ae70ff345561b8473378f04b329e85f31af5c042dfddf"
+      }
+    }
+  ]
+}

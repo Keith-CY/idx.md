@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-alexandrie",
-  "generated_at": "2026-03-09T07:22:30.137Z",
+  "generated_at": "2026-03-09T22:27:20.068Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-alexandrie#head",
       "kind": "head",
       "path": "/data/openclaw-openclaw-alexandrie/HEAD.md",
-      "text": "title: alexandrie\nsummary: Interact with Alexandrie note-taking app at https://notes.eth3rnit3.org\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eth3rnit3/alexandrie/SKILL.md",
+      "text": "title: alexandrie\nsummary: Interact with Alexandrie note-taking app.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-notes-pkm\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eth3rnit3/alexandrie/SKILL.md",
       "metadata": {
         "stable_id": "skills/openclaw-openclaw-alexandrie",
         "topic": "openclaw-openclaw-alexandrie",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eth3rnit3/alexandrie/SKILL.md",
-        "retrieved_at": "2026-03-09T07:22:30.137Z",
+        "retrieved_at": "2026-03-09T22:27:20.068Z",
         "content_sha256": "f79ee92610eadd8c50bcf6cfbc7805483ebfa1ee81ac9a8460259ffc711312a2"
       }
     }

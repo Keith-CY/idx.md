@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-agent-task-tracker",
+  "generated_at": "2026-03-09T22:27:07.023Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-agent-task-tracker#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-agent-task-tracker/HEAD.md",
+      "text": "title: agent-task-tracker\nsummary: Proactive task state management.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-browser-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rikouu/agent-task-tracker/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-agent-task-tracker",
+        "topic": "openclaw-openclaw-agent-task-tracker",
+        "type": "skills",
+        "title": "agent-task-tracker",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-browser-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rikouu/agent-task-tracker/SKILL.md",
+        "retrieved_at": "2026-03-09T22:27:07.023Z",
+        "content_sha256": "a97d321b21aa7fa3cad6612ef9015caec1a5556fe4328f90f19e49645fc778ed"
+      }
+    }
+  ]
+}

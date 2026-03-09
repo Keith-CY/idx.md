@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-icloud-findmy
 type: skills
 title: icloud-findmy
-summary: Query Find My locations and battery status for family devices via iCloud.
+summary: Query Find My locations and battery status for family devices.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/liamnichols/icloud-findmy/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:19.840Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:20.333Z
 content_sha256: edbb50613ef3538069d471cd5bb9d6b029d30da40b02500cc9aedc7bac91e6d8
 ---

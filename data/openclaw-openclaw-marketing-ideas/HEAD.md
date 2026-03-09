@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-marketing-ideas
 type: skills
 title: marketing-ideas
-summary: When the user needs marketing ideas, inspiration, or strategies for
-  their SaaS or software product.
+summary: When the user needs marketing.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-ideas/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:31.446Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:24.011Z
 content_sha256: 27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983
 ---

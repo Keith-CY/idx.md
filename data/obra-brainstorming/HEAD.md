@@ -36,9 +36,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md
-github_stars: 64877
-github_forks: 4946
+github_stars: 74053
+github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T07:21:46.352Z
+retrieved_at: 2026-03-09T22:22:57.036Z
 content_sha256: 7a238df1ebf0656c1da199aafafcc78c42f47bf4e56dd4e007a67afbb10af455
 ---

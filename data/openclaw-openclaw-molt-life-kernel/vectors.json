@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-molt-life-kernel",
+  "generated_at": "2026-03-09T22:28:24.828Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-molt-life-kernel#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-molt-life-kernel/HEAD.md",
+      "text": "title: molt-life-kernel\nsummary: Agent continuity and cognitive health infrastructure.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-moltbook\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jongartmann/molt-life-kernel/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-molt-life-kernel",
+        "topic": "openclaw-openclaw-molt-life-kernel",
+        "type": "skills",
+        "title": "molt-life-kernel",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-moltbook"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jongartmann/molt-life-kernel/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:24.828Z",
+        "content_sha256": "ec1c36544f9082bb0f5e6c90971d46472e0c93dbe9ba314e43a6532ad811b9d0"
+      }
+    }
+  ]
+}

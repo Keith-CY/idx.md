@@ -3,14 +3,13 @@
 | Category | Speech & Transcription |
 | --- | --- |
 | Slug | speech-transcription |
-| Count | 38 |
+| Count | 52 |
 
 ---
 stable_id: skills/openclaw-openclaw-addis-assistant-stt
 type: skills
 title: addis-assistant-stt
-summary: Provides Speech-to-Text (STT) and text Translation using the Addis
-  Assistant API (api.addisassistant.com).
+summary: Provides Speech-to-Text (STT) and text.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -18,19 +17,79 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dagmawibabi/addis-assistant-stt/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:25.252Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:26:50.780Z
 content_sha256: d186a458e1ed4d4b5accf8135a01ed8c0eaf645cbd00c6a63fe372914a4f7615
 ---
 |/data/openclaw-openclaw-addis-assistant-stt|
 
 ---
+stable_id: skills/openclaw-openclaw-agent-voice
+type: skills
+title: agent-voice
+summary: Command-line blogging platform for AI agents.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nerdsnipe/agent-voice/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:07.738Z
+content_sha256: 0ec6e1df9ab766a2e55505e03af5f5d2b4a26d031e414ed16d65fb1f30ed4754
+---
+|/data/openclaw-openclaw-agent-voice|
+
+---
+stable_id: skills/openclaw-openclaw-akaunting
+type: skills
+title: akaunting
+summary: Interact with Akaunting open-source accounting software via REST API.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/liekzejaws/akaunting/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:19.404Z
+content_sha256: 3d5d386a0eb5da5aa4df5ebefe68f6112e8a20ab5920622afe3d9c399d560b4c
+---
+|/data/openclaw-openclaw-akaunting|
+
+---
+stable_id: skills/openclaw-openclaw-announcer
+type: skills
+title: announcer
+summary: Announce text throughout the house via AirPlay speakers using Airfoil +.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/announcer/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:23.754Z
+content_sha256: 6942f51da95e3991773ea9679555091415b054283c662108e34b6194dca6a635
+---
+|/data/openclaw-openclaw-announcer|
+
+---
 stable_id: skills/openclaw-openclaw-assemblyai-transcribe
 type: skills
 title: assemblyai-transcribe
-summary: Transcribe audio/video with AssemblyAI (local upload.
+summary: Transcribe audio/video with AssemblyAI.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -38,10 +97,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/assemblyai-transcribe/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.085Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:31.228Z
 content_sha256: 5d41e275be9cab2c33c4a89465c7266a6b43893a8ce2ae78cc9de02e1889458c
 ---
 |/data/openclaw-openclaw-assemblyai-transcribe|
@@ -50,7 +109,7 @@ content_sha256: 5d41e275be9cab2c33c4a89465c7266a6b43893a8ce2ae78cc9de02e1889458c
 stable_id: skills/openclaw-openclaw-audio-gen
 type: skills
 title: audio-gen
-summary: Generate audiobooks, podcasts, or educational audio content on demand.
+summary: Generate audiobooks, podcasts, or educational audio content.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -58,10 +117,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/audio-gen/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.746Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:32.632Z
 content_sha256: e21cd0608d8f899cc46e70db1fce3d794d0f0564f433007d4189fd9de2bb7899
 ---
 |/data/openclaw-openclaw-audio-gen|
@@ -78,20 +137,80 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/audio-reply-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:34.842Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:32.776Z
 content_sha256: dd42d75099cda66b3bd8f585eeb8936a42bb06c0479d0dd706a958bbad54326c
 ---
 |/data/openclaw-openclaw-audio-reply-skill|
 
 ---
+stable_id: skills/openclaw-openclaw-auto-whisper-safe
+type: skills
+title: auto-whisper-safe
+summary: RAM-safe voice transcription with auto-chunking — works on 16GB
+  machines without crashes.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/neal-collab/auto-whisper-safe/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:33.999Z
+content_sha256: 1e0cde4c959229de605c96e29e15916a2322ede9f5d9114037be6f051b6f165e
+---
+|/data/openclaw-openclaw-auto-whisper-safe|
+
+---
+stable_id: skills/openclaw-openclaw-chichi-speech
+type: skills
+title: chichi-speech
+summary: A RESTful service for high-quality text-to-speech using Qwen3.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hudeven/chichi-speech/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:52.138Z
+content_sha256: 27a22bc16dc9aa2e2bb8f0b01146be5a337775df86981b64187b3f0d596a413d
+---
+|/data/openclaw-openclaw-chichi-speech|
+
+---
+stable_id: skills/openclaw-openclaw-clonev
+type: skills
+title: clonev
+summary: Clone any voice and generate speech using Coqui XTTS v2.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/instant-picture/clonev/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:00.201Z
+content_sha256: 831f07e1ac677c30066c40454f26a7eed11fd1b0a3c9d2048c7facbde8679572
+---
+|/data/openclaw-openclaw-clonev|
+
+---
 stable_id: skills/openclaw-openclaw-critical-article-writer
 type: skills
 title: critical-article-writer
-summary: Generate draft articles, outlines, and editorial content matching a
-  distinctive analytical, skeptical voice.
+summary: Generate draft articles, outlines.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -99,20 +218,119 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/critical-article-writer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:56.359Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:02.567Z
 content_sha256: 9a3291bcfefb763b05dcd85b9edaf80b148434934d612712d496ab64639018c7
 ---
 |/data/openclaw-openclaw-critical-article-writer|
 
 ---
+stable_id: skills/openclaw-openclaw-cult-of-carcinization
+type: skills
+title: cult-of-carcinization
+summary: Give your agent a voice — and ears.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/loserbcc/cult-of-carcinization/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:04.455Z
+content_sha256: 7a08e1c61acc7cab330a8e469764c020168beceb9b89f9968c8b5a329bf2d541
+---
+|/data/openclaw-openclaw-cult-of-carcinization|
+
+---
+stable_id: skills/openclaw-openclaw-deepdub-tts
+type: skills
+title: deepdub-tts
+summary: Generate speech audio using Deepdub and attach it as a MEDIA.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/yuval-deepdub/deepdub-tts/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:06.519Z
+content_sha256: 3909989da759e9573f1203a363db3415834503422c3d5b211015826c98970dfd
+---
+|/data/openclaw-openclaw-deepdub-tts|
+
+---
+stable_id: skills/openclaw-openclaw-deepgram
+type: skills
+title: deepgram
+summary: — command-line interface for Deepgram speech-to-text.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nerkn/deepgram/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:06.673Z
+content_sha256: dba3336645b36054f4fa0353811d7098a48676527840853081ef71586df25f9c
+---
+|/data/openclaw-openclaw-deepgram|
+
+---
+stable_id: skills/openclaw-openclaw-dellight-cro-revenue-ops
+type: skills
+title: dellight-cro-revenue-ops
+summary: DELLIGHT.AI is an AI startup in DIFC, Dubai.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cro-revenue-ops/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:07.072Z
+content_sha256: 8d1754c85655c9e5f03d0ceab52bf1e7b33cb66721d11f4d52b9edb96e2a6bef
+---
+|/data/openclaw-openclaw-dellight-cro-revenue-ops|
+
+---
+stable_id: skills/openclaw-openclaw-documents-ai
+type: skills
+title: documents-ai
+summary: Real-time OCR and data extraction API by Veryfi.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dbirulia/documents-ai/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:08.747Z
+content_sha256: baa273a30f50c6bdd0fe252c93cbda35b4a3e330bb0cbf8a41bee727e0c898d8
+---
+|/data/openclaw-openclaw-documents-ai|
+
+---
 stable_id: skills/openclaw-openclaw-doubao-api-open-tts
 type: skills
 title: doubao-api-open-tts
-summary: Text-to-Speech service using Doubao (Volcano Engine) API with 200+
-  voices, interactive voice selection.
+summary: Text-to-Speech service using Doubao (Volcano Engine)
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -120,20 +338,39 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xdrshjr/doubao-api-open-tts/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:01.008Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:09.258Z
 content_sha256: 38887c687326dac08ad29d201edb2658c4fd971447aa0d3758a7510ac0893165
 ---
 |/data/openclaw-openclaw-doubao-api-open-tts|
 
 ---
+stable_id: skills/openclaw-openclaw-eachlabs-voice-audio
+type: skills
+title: eachlabs-voice-audio
+summary: TTS, STT, voice conversion using ElevenLabs, Whisper, RVC.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/eachlabs-voice-audio/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:10.252Z
+content_sha256: 33cfcdb006a70335fae260723989b9e88a8dc5d11066582e7ee3070297e90c73
+---
+|/data/openclaw-openclaw-eachlabs-voice-audio|
+
+---
 stable_id: skills/openclaw-openclaw-easyverein-api
 type: skills
 title: easyverein-api
-summary: Work with the easyVerein v2.0 REST API (members, contacts, events,
-  invoices, bookings, custom fields, etc.).
+summary: Work with the easyVerein v2.0 REST API.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -141,10 +378,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/truefoobar/easyverein-api/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.112Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:10.377Z
 content_sha256: a9d09aa99f1e07783a5e3906d1d07e4844cf60efb6090cc37b47f555024c63b5
 ---
 |/data/openclaw-openclaw-easyverein-api|
@@ -164,7 +401,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.382Z
+retrieved_at: 2026-03-09T22:24:07.061Z
 content_sha256: f313dd928f5cfb7d0b0fb477c77fd17beabccd97ee8240649fc711097f978752
 ---
 |/data/openclaw-openclaw-edge-tts|
@@ -173,7 +410,7 @@ content_sha256: f313dd928f5cfb7d0b0fb477c77fd17beabccd97ee8240649fc711097f978752
 stable_id: skills/openclaw-openclaw-elevenlabs-agents
 type: skills
 title: elevenlabs-agents
-summary: Create and manage ElevenLabs conversational AI agents.
+summary: Create, manage, and deploy ElevenLabs.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -181,19 +418,59 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/pennyroyaltea/elevenlabs-agents/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.747Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:11.130Z
 content_sha256: dbbdc641d701d624106cefdab1b98b1a95aea3476e744c77f9b1882d26e25649
 ---
 |/data/openclaw-openclaw-elevenlabs-agents|
 
 ---
+stable_id: skills/openclaw-openclaw-elevenlabs-transcribe
+type: skills
+title: elevenlabs-transcribe
+summary: Transcribe audio to text using ElevenLabs.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/paulasjes/elevenlabs-transcribe/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:11.741Z
+content_sha256: c1ecb6d4b2c6c8de1b3dc3b40c24a46759adfe27a04fb386c95a14326bbd73f3
+---
+|/data/openclaw-openclaw-elevenlabs-transcribe|
+
+---
+stable_id: skills/openclaw-openclaw-elevenlabs-tts
+type: skills
+title: elevenlabs-tts
+summary: ElevenLabs TTS - the best ElevenLabs integration for OpenClaw.
+tags:
+  - openclaw
+  - source-awesome-openclaw-skills
+  - category-speech-transcription
+source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/shaharsha/elevenlabs-tts/SKILL.md
+license: ""
+upstream_ref: ""
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:11.863Z
+content_sha256: 52eab4d4a38910bceb12d703058eab2f792d269e99944934f1daa5e01c62fd8d
+---
+|/data/openclaw-openclaw-elevenlabs-tts|
+
+---
 stable_id: skills/openclaw-openclaw-elevenlabs-voices
 type: skills
 title: elevenlabs-voices
-summary: "ElevenLabs voice synthesis: 18 personas, 32 languages, sound effects."
+summary: High-quality voice synthesis with 18 personas, 32.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -201,10 +478,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/elevenlabs-voices/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:02.914Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:11.982Z
 content_sha256: bbf60447e28644fdd3b5d79ab26a95b8a1b71ea7fb6f7d82dcf76adcd67f2936
 ---
 |/data/openclaw-openclaw-elevenlabs-voices|
@@ -225,7 +502,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:06.039Z
+retrieved_at: 2026-03-09T22:24:10.718Z
 content_sha256: 970204a5eac1b70195b2f1835b1d3bacb4341e327968549e7753f16a9e0653bf
 ---
 |/data/openclaw-openclaw-faster-whisper|
@@ -245,7 +522,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:11.885Z
+retrieved_at: 2026-03-09T22:24:17.412Z
 content_sha256: 61b07a682d17f15ba4541506e6a0ffff41618846753f6da24ee80c51b65591f3
 ---
 |/data/openclaw-openclaw-gettr-transcribe-summarize|
@@ -266,7 +543,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:17.871Z
+retrieved_at: 2026-03-09T22:24:25.754Z
 content_sha256: 3b60525d94715cf571092af866ef180ed7cb24083e126eaefd4173b6a26b2172
 ---
 |/data/openclaw-openclaw-heypocket-reader|
@@ -286,7 +563,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:22.516Z
+retrieved_at: 2026-03-09T22:24:30.886Z
 content_sha256: f815bdda75df59d8381bcc24c2d8309c778d262a94431bcc6b8d9cb6db518bb2
 ---
 |/data/openclaw-openclaw-inworld-tts|
@@ -306,7 +583,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:27.323Z
+retrieved_at: 2026-03-09T22:24:36.252Z
 content_sha256: 79fac3c48e8008b9ab69338da7d3827931ef1a5cd32d31e8cf0940988fb9a711
 ---
 |/data/openclaw-openclaw-kokoro-tts|
@@ -326,7 +603,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:29.722Z
+retrieved_at: 2026-03-09T22:24:39.324Z
 content_sha256: 054ff0203e9aa3331a30555b20340add0059f26037fb7a9547e60988c36a4c08
 ---
 |/data/openclaw-openclaw-llmwhisperer|
@@ -346,7 +623,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:30.239Z
+retrieved_at: 2026-03-09T22:24:40.025Z
 content_sha256: bb27c6bcee9c5bbc1f3467b1112e89afe5bd4cb1050b50e89fa4badf721e1622
 ---
 |/data/openclaw-openclaw-local-whisper|
@@ -366,7 +643,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:35.564Z
+retrieved_at: 2026-03-09T22:24:46.344Z
 content_sha256: 94331ac299ca1be9f75a2239e2ace3c858097ddd3c27ca33f1a7c176df3be0e7
 ---
 |/data/openclaw-openclaw-mlx-whisper|
@@ -387,7 +664,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:38.250Z
+retrieved_at: 2026-03-09T22:24:49.252Z
 content_sha256: 98fb71e1319d52985773b9d3692304c83c7ab958d3e71b3cd5278d7672d6e879
 ---
 |/data/openclaw-openclaw-moodcast|
@@ -407,7 +684,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:45.534Z
+retrieved_at: 2026-03-09T22:24:59.696Z
 content_sha256: f9fadf134b6de49d55ffae904b2c75f5b7035f37ffa96394b19de648bdef9e0f
 ---
 |/data/openclaw-openclaw-openai-whisper|
@@ -427,7 +704,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:45.613Z
+retrieved_at: 2026-03-09T22:24:59.823Z
 content_sha256: 4cd90ed4d059a385948ffbf2896764a7db66dfbd06010d699b269e89e3f586be
 ---
 |/data/openclaw-openclaw-openai-whisper-api|
@@ -447,7 +724,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:49.850Z
+retrieved_at: 2026-03-09T22:25:05.517Z
 content_sha256: 08b4681c454ecaaec1559f8caf89b713d4e5684ab0d94447f347cbfee1ad3554
 ---
 |/data/openclaw-openclaw-parakeet-mlx|
@@ -467,7 +744,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:49.930Z
+retrieved_at: 2026-03-09T22:25:05.636Z
 content_sha256: b7e010a68292d4bfbf8c418a3f822a79c32418e11b398368111a6095f87b93ab
 ---
 |/data/openclaw-openclaw-parakeet-stt|
@@ -488,7 +765,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:53.422Z
+retrieved_at: 2026-03-09T22:25:10.331Z
 content_sha256: 2bbf580df73e43466334a4c47b1fbacb384b3ee44e753673bb1bfa79e97cf8b8
 ---
 |/data/openclaw-openclaw-plaud-unofficial|
@@ -508,7 +785,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:23:54.085Z
+retrieved_at: 2026-03-09T22:25:11.145Z
 content_sha256: 0da2b37c636862a90dd615e6432e959548c33e60d616b5fb7e2dbb1f3171666d
 ---
 |/data/openclaw-openclaw-pocket-tts|
@@ -528,7 +805,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:14.215Z
+retrieved_at: 2026-03-09T22:25:39.594Z
 content_sha256: 930f97510b5c1b7050884443335b8182e8febe9eabaa9ea983e5d46a3f317cba
 ---
 |/data/openclaw-openclaw-sound-fx|
@@ -548,7 +825,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:14.290Z
+retrieved_at: 2026-03-09T22:25:39.713Z
 content_sha256: 4d4f094004fafdd5ef14bf3b25a5b4d4fe057d001811725ace91e9fa15d302da
 ---
 |/data/openclaw-openclaw-spaces|
@@ -568,7 +845,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:23.774Z
+retrieved_at: 2026-03-09T22:25:54.145Z
 content_sha256: 49a9426be6868ae65bfc64b1fc57146708ca0f82b962d78c654964998db695ad
 ---
 |/data/openclaw-openclaw-transcribe|
@@ -588,7 +865,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:25.142Z
+retrieved_at: 2026-03-09T22:25:56.238Z
 content_sha256: a55fa4334afafc9660afe8b6f87b1aff748075d7ea1891766c660f2505061e8a
 ---
 |/data/openclaw-openclaw-tts|
@@ -609,7 +886,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:25.219Z
+retrieved_at: 2026-03-09T22:25:56.373Z
 content_sha256: 4749bfe81c04b23604c495c938067fd6e96757ab4c28eed5777602763154a804
 ---
 |/data/openclaw-openclaw-tts-whatsapp|
@@ -629,7 +906,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:28.944Z
+retrieved_at: 2026-03-09T22:26:02.719Z
 content_sha256: 308d80f1bea43b7f1d43f667e7770bd0fa2fd02a8d43a1403cb855899304b0e4
 ---
 |/data/openclaw-openclaw-video-subtitles|
@@ -649,7 +926,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:29.754Z
+retrieved_at: 2026-03-09T22:26:04.070Z
 content_sha256: 8d1110c380a7191a60875b032aa28a9ffeec9dc0d9266403290b1d8d4ae0b580
 ---
 |/data/openclaw-openclaw-voice-agent|
@@ -679,7 +956,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:29.953Z
+retrieved_at: 2026-03-09T22:26:04.212Z
 content_sha256: a30573b28502aa4d01175283aae6f865163ee84c5ee25c1e018ecc7d6af5ce4b
 ---
 |/data/openclaw-openclaw-voice-ai-voices|
@@ -700,7 +977,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:30.115Z
+retrieved_at: 2026-03-09T22:26:04.467Z
 content_sha256: 4e251f37613f349671ed01c1fc00340a4acff9aedd9fb6f6d79d92bc01686170
 ---
 |/data/openclaw-openclaw-voice-transcribe|
@@ -721,7 +998,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:32.165Z
+retrieved_at: 2026-03-09T22:26:08.314Z
 content_sha256: b68f0ff64d6bd7be1c38cc0cc9dedb0c3bde0d118f1430242ce2f04c00aa3b6f
 ---
 |/data/openclaw-openclaw-webchat-audio-notifications|
@@ -741,7 +1018,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:33.439Z
+retrieved_at: 2026-03-09T22:26:09.712Z
 content_sha256: b48745541164405d10f4e634af1889e92b44bffc22e4c363e49c74462d144ed9
 ---
 |/data/openclaw-openclaw-whatsapp-voice-chat-integration-open-source|
@@ -762,7 +1039,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:33.821Z
+retrieved_at: 2026-03-09T22:26:10.359Z
 content_sha256: f52b551db2dacf9696a5b8d473d3e513ba2fa8a24a41431af9a9944b4085aa27
 ---
 |/data/openclaw-openclaw-whisper-mlx-local|
@@ -783,7 +1060,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T07:24:36.760Z
+retrieved_at: 2026-03-09T22:26:14.577Z
 content_sha256: da3880d1210b3b1c2eb7a095a6b7155f792b6389974bb059d0c9a1b4d6cf6137
 ---
 |/data/openclaw-openclaw-x-voice-match|

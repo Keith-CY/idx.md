@@ -2,7 +2,7 @@
 stable_id: skills/openclaw-openclaw-hergunmac
 type: skills
 title: hergunmac
-summary: Access AI-powered football match predictions from hergunmac.com.
+summary: Access AI-powered football match predictions.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ahmetsemsettinozdemirden/hergunmac/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:23:17.500Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:28:19.356Z
 content_sha256: 992ffb9d39d4aeb3a1dcae314ac46e51a154136593937957273784e7afecae02
 ---

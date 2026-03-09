@@ -2,8 +2,7 @@
 stable_id: skills/openclaw-openclaw-brand-guidelines
 type: skills
 title: brand-guidelines
-summary: Applies Anthropic's official brand colors and typography to any sort of
-  artifact that may benefit from having Anthrop.
+summary: Applies Anthropic's official brand colors and typography.
 tags:
   - openclaw
   - source-awesome-openclaw-skills
@@ -11,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/brand-guidelines/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-09T07:22:40.210Z
+github_stars: 2294
+github_forks: 685
+github_is_organization: true
+retrieved_at: 2026-03-09T22:27:43.512Z
 content_sha256: 1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe
 ---

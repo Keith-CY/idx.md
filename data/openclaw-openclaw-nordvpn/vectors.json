@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-nordvpn",
+  "generated_at": "2026-03-09T22:28:28.869Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-nordvpn#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-nordvpn/HEAD.md",
+      "text": "title: nordvpn\nsummary: Control NordVPN on Linux via the `nordvpn` CLI.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-self-hosted-automation\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maciekish/nordvpn/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-nordvpn",
+        "topic": "openclaw-openclaw-nordvpn",
+        "type": "skills",
+        "title": "nordvpn",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-self-hosted-automation"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maciekish/nordvpn/SKILL.md",
+        "retrieved_at": "2026-03-09T22:28:28.869Z",
+        "content_sha256": "389776b96056e4eb4ac667ab1cb7582e76ab364d1ee25094dafebb91352b59cf"
+      }
+    }
+  ]
+}
