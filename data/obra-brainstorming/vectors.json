@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-brainstorming",
-  "generated_at": "2026-03-09T22:22:57.036Z",
+  "generated_at": "2026-03-10T07:16:31.744Z",
   "records": [
     {
       "id": "skills/obra-brainstorming#head",
       "kind": "head",
       "path": "/data/obra-brainstorming/HEAD.md",
-      "text": "title: obra-brainstorming\nsummary: --- name: brainstorming description: \"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\" --- # Brainstorming Ideas Into Designs ## Overview Help turn ideas into fully formed designs and specs through natural collaborative dialogue. Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design and get user approval. <HARD-GATE> Do NOT invoke any implementation skill, write any code, scaffold any project, or take any implementation action until you have presented a design and the user has approved it. This applies to EVERY project regardless of perceived simplicity.\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md",
+      "text": "title: obra-brainstorming\nsummary: --- name: brainstorming description: \"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\" --- # Brainstorming Ideas Into Designs Help turn ideas into fully formed designs and specs through natural collaborative dialogue. Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design and get user approval. <HARD-GATE> Do NOT invoke any implementation skill, write any code, scaffold any project, or take any implementation action until you have presented a design and the user has approved it. This applies to EVERY project regardless of perceived simplicity. </HARD-GATE>\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md",
       "metadata": {
         "stable_id": "skills/obra-brainstorming",
         "topic": "obra-brainstorming",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md",
-        "retrieved_at": "2026-03-09T22:22:57.036Z",
-        "content_sha256": "7a238df1ebf0656c1da199aafafcc78c42f47bf4e56dd4e007a67afbb10af455"
+        "retrieved_at": "2026-03-10T07:16:31.744Z",
+        "content_sha256": "b3c4258ef82ace5729a46367750bd967707d3a03ff4ec7ce7b588abbd637cb38"
       }
     }
   ]

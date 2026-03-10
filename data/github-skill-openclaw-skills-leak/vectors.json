@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-leak",
-  "generated_at": "2026-03-09T22:22:50.146Z",
+  "generated_at": "2026-03-10T07:16:24.803Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-leak#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eucalyptus-viminalis/leak/SKILL.md",
-        "retrieved_at": "2026-03-09T22:22:50.146Z",
+        "retrieved_at": "2026-03-10T07:16:24.803Z",
         "content_sha256": "ceb4cb66c2cb3363b3c5a7d8cbde7ce15d0cb7e6f0095e581b5fbacbafe81b9f"
       }
     }

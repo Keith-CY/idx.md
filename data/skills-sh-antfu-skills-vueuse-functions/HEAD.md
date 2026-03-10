@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
 github_stars: 3706
 github_forks: 181
 github_is_organization: false
-retrieved_at: 2026-03-09T22:26:25.226Z
+retrieved_at: 2026-03-10T07:19:40.287Z
 content_sha256: 43a260724cb8610553d487a4cd59591efbc61a9876c07dbea04b07381ca7479f
 ---

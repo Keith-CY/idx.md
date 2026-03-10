@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-voice-transcribe",
-  "generated_at": "2026-03-09T22:26:04.467Z",
+  "generated_at": "2026-03-10T07:19:22.626Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-voice-transcribe#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/darinkishore/voice-transcribe/SKILL.md",
-        "retrieved_at": "2026-03-09T22:26:04.467Z",
+        "retrieved_at": "2026-03-10T07:19:22.626Z",
         "content_sha256": "4e251f37613f349671ed01c1fc00340a4acff9aedd9fb6f6d79d92bc01686170"
       }
     }

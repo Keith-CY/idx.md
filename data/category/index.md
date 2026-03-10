@@ -8,7 +8,7 @@
 | Calendar & Scheduling | 43 | /category/calendar-scheduling/index.md |
 | Clawdbot Tools | 101 | /category/clawdbot-tools/index.md |
 | CLI Utilities | 97 | /category/cli-utilities/index.md |
-| Coding Agents & IDEs | 78 | /category/coding-agents-ides/index.md |
+| Coding Agents & IDEs | 77 | /category/coding-agents-ides/index.md |
 | Communication | 94 | /category/communication/index.md |
 | Data & Analytics | 45 | /category/data-analytics/index.md |
 | DevOps & Cloud | 150 | /category/devops-cloud/index.md |
@@ -32,5 +32,5 @@
 | Smart Home & IoT | 55 | /category/smart-home-iot/index.md |
 | Speech & Transcription | 52 | /category/speech-transcription/index.md |
 | Transportation | 67 | /category/transportation/index.md |
-| Uncategorized | 538 | /category/uncategorized/index.md |
+| Uncategorized | 537 | /category/uncategorized/index.md |
 | Web Frontend Development | 70 | /category/web-frontend-development/index.md |

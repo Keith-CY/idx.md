@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pamela-calls",
-  "generated_at": "2026-03-09T22:25:05.012Z",
+  "generated_at": "2026-03-10T07:18:29.126Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pamela-calls#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eypam/pamela-calls/SKILL.md",
-        "retrieved_at": "2026-03-09T22:25:05.012Z",
+        "retrieved_at": "2026-03-10T07:18:29.126Z",
         "content_sha256": "7a05023849be90bae1e43876caad108e99e338597343201ebd4c20abb9aa5b96"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fast-browser-use",
-  "generated_at": "2026-03-09T22:24:10.607Z",
+  "generated_at": "2026-03-10T07:17:40.951Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fast-browser-use#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rknoche6/fast-browser-use/SKILL.md",
-        "retrieved_at": "2026-03-09T22:24:10.607Z",
+        "retrieved_at": "2026-03-10T07:17:40.951Z",
         "content_sha256": "061b020471e915f5b8326c50b63f277f9df2944751719c1bef571a0196b2abb3"
       }
     }

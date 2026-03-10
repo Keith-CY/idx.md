@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-device-assistant",
-  "generated_at": "2026-03-09T22:28:07.648Z",
+  "generated_at": "2026-03-10T07:21:06.786Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-device-assistant#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/device-assistant/SKILL.md",
-        "retrieved_at": "2026-03-09T22:28:07.648Z",
+        "retrieved_at": "2026-03-10T07:21:06.786Z",
         "content_sha256": "08a4168fe6f6decda57797f948996a463283684d1e44e90bdf4024e509698056"
       }
     }

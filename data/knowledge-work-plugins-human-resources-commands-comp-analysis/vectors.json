@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-commands-comp-analysis",
-  "generated_at": "2026-03-09T22:23:30.740Z",
+  "generated_at": "2026-03-10T07:17:04.981Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-commands-comp-analysis#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/commands/comp-analysis.md",
-        "retrieved_at": "2026-03-09T22:23:30.740Z",
+        "retrieved_at": "2026-03-10T07:17:04.981Z",
         "content_sha256": "1e7a10b2ed7a1e7a02ac72528331f552c1bc2bbd3e17938d753f5d3d8d707726"
       }
     }

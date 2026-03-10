@@ -1,293 +1,96 @@
 ---
 name: arccos-golf
+license: MIT
 description: Analyze Arccos Golf performance data including club distances, strokes gained metrics, scoring patterns, and round-by-round performance. Use when the user asks about golf statistics, club recommendations, performance trends, or wants detailed analysis from their Arccos Golf sensors.
 ---
 
 # Arccos Golf Performance Analyzer
 
-Comprehensive analysis tool for Arccos Golf performance data including club distances, strokes gained metrics, scoring patterns, putting analysis, and performance trends.
+Fetches live data from the Arccos Golf API and generates performance analysis: strokes gained, club distances, scoring, putting, pace of play, and recent rounds.
 
-## Description
+## ⚠️ Privacy & Security Notice
 
-This skill provides detailed analysis of golf performance data from Arccos Golf sensors. It processes pre-collected Arccos data and generates insights into:
+This skill makes authenticated network requests to Arccos Golf API servers using your account credentials:
 
-- **Strokes Gained Analysis**: Performance vs. PGA Tour averages across driving, approach, short game, and putting
-- **Club Distance Tracking**: Average distances, shot counts, and longest shots for each club
-- **Scoring Patterns**: Performance on different par values and score distribution analysis
-- **Putting Performance**: Putts per round, GIR putting, and distance-based performance
-- **Approach Shot Analysis**: Greens in regulation, miss patterns, and performance by distance/terrain
-- **Round-by-Round Tracking**: Recent performance trends and course-specific analysis
+- **Credentials**: Your Arccos email and password are used to authenticate. A session token is cached at `~/.arccos_creds.json` (mode 0600, readable only by your user).
+- **Network**: The script calls `authentication.arccosgolf.com` (login) and `api.arccosgolf.com` (data). No other endpoints are contacted.
+- **No data leaves your machine** beyond the API calls needed to fetch your own golf data.
+- **External dependency**: Requires the `arccos` library from `github.com/pfrederiksen/arccos-api` (MIT licensed, authored by the same user who published this skill).
 
-**Key Features:**
-- Comprehensive strokes gained breakdown with improvement recommendations
-- Club distance analysis with filtering capabilities
-- Scoring tendency analysis (birdie %, par %, bogey+ %)
-- Putting performance metrics including three-putt frequency
-- Approach shot miss pattern analysis
-- Recent round performance tracking
-- Multiple output formats (human-readable text and machine-readable JSON)
+Review the `arccos` library source before installing if you have concerns: <https://github.com/pfrederiksen/arccos-api>
 
-## System Access
+## Prerequisites
 
-**File System:**
-- **READ**: Single Arccos data JSON file (path provided as command-line argument)
+```bash
+# 1. Install the arccos library
+git clone https://github.com/pfrederiksen/arccos-api
+pip install -e arccos-api/
 
-**Network Access:** None
+# 2. Authenticate — opens a prompt for email + password
+#    Credentials cached to ~/.arccos_creds.json (0600)
+arccos login
+```
 
-**Subprocess/Shell:** None
-
-## What It Does NOT Do
-
-This skill is designed for **data analysis only** and explicitly does NOT:
-
-- **No network access**: Does not connect to Arccos Golf services or any external APIs
-- **No web scraping**: Does not perform browser automation or web requests to Arccos dashboard
-- **No subprocess execution**: Does not run external commands or shell scripts
-- **No file writes**: Does not create, modify, or delete any files (read-only operation)
-- **No credential handling**: Does not store, read, or manage login credentials
-- **No data collection**: Does not gather data from Arccos sensors or dashboard
-
-**Data Collection**: Arccos does not offer a public API. Data collection requires separate browser automation tooling (not included in this skill). See the README for guidance on how to populate the data file.
-
-## Resources
-
-### Scripts
-
-- `scripts/arccos_golf.py` - Main analysis script (Python 3.8+ required)
+Alternatively, pass credentials directly at runtime (see Usage below).
 
 ## Usage
 
-### Basic Analysis (Full Report)
-
+### Full report (uses cached credentials)
 ```bash
-python3 scripts/arccos_golf.py /path/to/arccos-data.json
+python3 scripts/arccos_golf.py
 ```
 
-### Summary Statistics Only
-
+### Pass credentials explicitly (no cached creds required)
 ```bash
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --summary
+python3 scripts/arccos_golf.py --email you@example.com --password secret
 ```
 
-### Strokes Gained Analysis
-
+### Specific sections
 ```bash
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --strokes-gained
+python3 scripts/arccos_golf.py --summary
+python3 scripts/arccos_golf.py --strokes-gained
+python3 scripts/arccos_golf.py --clubs           # all clubs
+python3 scripts/arccos_golf.py --clubs iron       # filter by type
+python3 scripts/arccos_golf.py --pace
+python3 scripts/arccos_golf.py --recent-rounds 10
 ```
 
-### Club Distance Analysis
-
+### JSON output
 ```bash
-# All clubs
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --clubs all
-
-# Filter by club type
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --clubs iron
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --clubs wedge
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --clubs wood
+python3 scripts/arccos_golf.py --format json
 ```
 
-### JSON Output
-
+### Offline / no credentials (cached JSON file)
 ```bash
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --format json
+python3 scripts/arccos_golf.py --file /path/to/arccos-data.json
 ```
 
-### Recent Rounds Analysis
+## System Access
 
-```bash
-# Last 10 rounds
-python3 scripts/arccos_golf.py /path/to/arccos-data.json --recent-rounds 10
-```
+| Resource | Details |
+|----------|---------|
+| **Network** | `authentication.arccosgolf.com` — login/token refresh |
+| **Network** | `api.arccosgolf.com` — rounds, handicap, clubs, stats, courses |
+| **File read** | `~/.arccos_creds.json` — cached session token (created by `arccos login`) |
+| **File read** | Optional `--file` path for offline JSON analysis |
+| **File write** | `~/.arccos_creds.json` — updated on token refresh |
+| **Subprocess** | None |
+| **Shell exec** | None |
 
-## Expected Data Format
+## API Calls Made
 
-The script expects a JSON file with the following structure:
+| Data | Endpoint |
+|------|----------|
+| Rounds list | `GET /users/{userId}/rounds` |
+| Course names | `GET /courses/{courseId}` |
+| Handicap | `GET /users/{userId}/handicaps/latest` |
+| Club distances | `GET /v4/clubs/user/{userId}/smart-distances` |
+| Strokes gained | `GET /v2/sga/shots/{roundIds}` |
 
-```json
-{
-  "golfer": "Player Name",
-  "last_fetched": "2026-02-22",
-  "total_shots": 7057,
-  "total_rounds": 75,
-  "longest_shot": 308,
-  "strokes_gained": {
-    "overall": -12.0,
-    "driving": -3.3,
-    "approach": -5.0,
-    "short_game": -2.7,
-    "putting": -1.1
-  },
-  "scoring": {
-    "par3_avg": 3.8,
-    "par4_avg": 5.4,
-    "par5_avg": 6.3,
-    "birdies_pct": 2.0,
-    "pars_pct": 17.8,
-    "bogeys_pct": 41.8,
-    "double_plus_pct": 38.4
-  },
-  "clubs": [
-    {
-      "club": "Driver",
-      "avg_distance": 234,
-      "smart_distance": null,
-      "longest": 281,
-      "total_shots": 533
-    }
-  ],
-  "recent_rounds": [
-    {
-      "date": "2026-02-01",
-      "course": "Las Vegas GC",
-      "score": 82,
-      "over_par": 10
-    }
-  ]
-}
-```
-
-## Example Output (Text Format)
-
-```
-🏌️ Arccos Golf Performance Report
-========================================
-Golfer: Paul Frederiksen
-Last Updated: 2026-02-22
-Total Shots Tracked: 7,057
-Total Rounds: 75
-Longest Drive: 308 yards
-
-📊 STROKES GAINED ANALYSIS
-------------------------------
-Overall: -12.0
-Driving: -3.3
-Approach: -5.0
-Short Game: -2.7
-Putting: -1.1
-
-⚠️ Areas for Improvement:
-  • Approach: -5.0
-  • Driving: -3.3
-  • Short Game: -2.7
-  • Putting: -1.1
-
-🎯 Priority Areas:
-  1. Approach
-  2. Driving
-  3. Short Game
-
-🏌️ CLUB DISTANCES
---------------------
-Driver: 234 yds avg (533 shots, longest: 281)
-3 Wood: 204 yds avg (57 shots, longest: 320)
-5 Wood: 182 yds avg (322 shots, longest: 206)
-4 Iron: 149 yds avg (32 shots, longest: 171)
-
-⛳ SCORING ANALYSIS
---------------------
-Par 3 Average: 3.8
-Par 4 Average: 5.4
-Par 5 Average: 6.3
-
-Score Distribution:
-  Birdies+: 2.0%
-  Pars: 17.8%
-  Bogeys: 41.8%
-  Double+: 38.4%
-
-⛳ PUTTING ANALYSIS
---------------------
-Putts per Round: 35.9
-GIR Putts: 2.2
-One-Putts: 15.8%
-Three-Putts+: 15.1%
-
-📈 RECENT ROUNDS
---------------------
-2026-02-01: 82 (+10) at Las Vegas GC
-2026-01-25: 93 (+21) at Stallion Mountain CC
-2026-01-17: 95 (+23) at Coyote Springs GC
-2026-01-10: 98 (+26) at Boulder Creek GC
-```
-
-## Analysis Categories
-
-### Strokes Gained
-- **Overall**: Total strokes gained/lost vs. PGA Tour average
-- **Driving**: Performance from tee to landing position
-- **Approach**: Performance from fairway/rough to green
-- **Short Game**: Chipping and pitching performance
-- **Putting**: Performance on the green
-
-### Club Analysis
-- Average carry distances for each club
-- Shot count and consistency metrics
-- Longest recorded shots
-- Smart distance recommendations (when available)
-
-### Scoring Patterns
-- Performance on different par values (3, 4, 5)
-- Score distribution (birdies, pars, bogeys, doubles+)
-- Scoring tendencies and consistency metrics
-
-### Putting Metrics
-- Putts per round and per hole
-- Performance on greens in regulation
-- One-putt and three-putt+ percentages
-- Distance-based putting performance
+All calls are authenticated with a Bearer JWT. The JWT is obtained from and refreshed against `authentication.arccosgolf.com` using your `arccos` session credentials.
 
 ## Dependencies
 
-- Python 3.8+
-- Standard library only (json, sys, argparse, statistics, datetime, pathlib, typing)
-
-## Installation
-
-This skill can be installed via ClawHub:
-
-```bash
-clawhub install arccos-golf
-```
-
-Or manually by cloning the repository and placing it in your OpenClaw skills directory.
-
-## Error Handling
-
-The script provides specific error handling for:
-- `FileNotFoundError`: When the specified JSON file doesn't exist
-- `json.JSONDecodeError`: When the JSON file is malformed
-- `KeyboardInterrupt`: Graceful handling of user interruption
-- Graceful handling of missing or malformed data fields with appropriate defaults
-
-## Output Formats
-
-- **Text (default)**: Human-readable formatted report with emojis and clear sections
-- **JSON**: Machine-readable structured data for further processing
-
-## Privacy & Security
-
-- All processing is done locally on the provided data file
-- No external network connections are made
-- No credentials or sensitive data are stored or transmitted
-- Data is processed in memory only with no persistent storage
-- Uses only Python standard library modules for security compliance
-- No subprocess calls or shell execution
-
-## Performance Insights
-
-The analyzer provides actionable insights including:
-
-1. **Improvement Priority**: Ranks weakest areas by strokes gained impact
-2. **Club Recommendations**: Distance gaps and consistency analysis
-3. **Scoring Patterns**: Identifies holes types where performance suffers
-4. **Putting Analysis**: Short game improvement opportunities
-5. **Round Trends**: Performance consistency and course-specific insights
-
-## Golf Terminology
-
-- **Strokes Gained**: Measures performance vs. statistical baseline (PGA Tour average)
-- **GIR**: Greens in Regulation (reaching green in regulation strokes)
-- **Smart Distance**: Arccos recommendation for club selection
-- **Carry Distance**: Distance ball travels in air before landing
-- **Up and Down**: Getting ball in hole within 2 strokes from off-green position
+- Python ≥ 3.11
+- `arccos` library: `github.com/pfrederiksen/arccos-api` (MIT) — wraps `requests`, `click`, `rich`
+- Standard library only in the analysis script itself

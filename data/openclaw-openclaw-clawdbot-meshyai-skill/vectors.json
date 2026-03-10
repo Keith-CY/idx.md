@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-meshyai-skill",
-  "generated_at": "2026-03-09T22:23:52.472Z",
+  "generated_at": "2026-03-10T07:17:24.641Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-meshyai-skill#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sabatesduran/clawdbot-meshyai-skill/SKILL.md",
-        "retrieved_at": "2026-03-09T22:23:52.472Z",
+        "retrieved_at": "2026-03-10T07:17:24.641Z",
         "content_sha256": "9abf0d66fca8a51bf692f2e7107bfeb959137ef1d9aa31b2c54ccf242ef89cbc"
       }
     }

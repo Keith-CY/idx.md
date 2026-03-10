@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-http
 github_stars: 404
 github_forks: 44
 github_is_organization: true
-retrieved_at: 2026-03-09T22:26:28.728Z
+retrieved_at: 2026-03-10T07:19:43.396Z
 content_sha256: fbf54fc7b87b23e24794781e98640748306a67d28e0cc4e62a6816af2cb780ec
 ---

@@ -35,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/dispatching-p
 github_stars: 74053
 github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T22:22:57.124Z
+retrieved_at: 2026-03-10T07:16:31.825Z
 content_sha256: c628917689ccc12ce9991615db6824d44c4fe71f8427cd959560aebe6a1a6476
 ---

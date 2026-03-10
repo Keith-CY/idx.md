@@ -34,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/verification-
 github_stars: 74053
 github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T22:22:58.044Z
+retrieved_at: 2026-03-10T07:16:32.572Z
 content_sha256: ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c
 ---

@@ -7,31 +7,30 @@ summary: >-
 
   name: Agent
 
-  description: Use when creating reusable skill packages for agents,
-  implementing skills support in an agent or tool, evaluating and iterating on
-  skill quality, or authoring SKILL.md files that bundle instructions, scripts,
-  and resources for agent tasks.
+  description: Use when creating, evaluating, or integrating skills for AI
+  agents. Reach for this skill when you need to author SKILL.md files, test
+  skill descriptions for proper triggering, evaluate skill output quality, add
+  skills support to an agent client, or optimize skill performance.
 
   metadata:
       mintlify-proj: agent
       version: "1.0"
   ---
 
-  # Agent Skills
+  # Product summary
 
-  ## Product summary
+  Agent Skills is a portable format for packaging procedural knowledge and
+  task-specific instructions that AI agents can load on demand. A skill is a
+  directory containing a SKILL.md file (required metadata and instructions in
+  YAML frontmatter + Markdown) plus optional supporting files: scripts/
+  (executable code), references/ (documentation), and assets/ (templates and
+  data). Skills use progressive disclosure — agents load only name and
+  description at startup, then read full instructions when a task matches. This
+  keeps context efficient while giving agents access to specialized knowledge.
+  Primary docs: https://agentskills.io. Key files: SKILL.md (frontmatter +
+  body), scripts/ (bundled code), evals/evals.json (test cases).
 
-  Agent Skills is a portable format for packaging procedural knowledge, scripts,
-  and context that agents can discover and load on demand. A skill is a folder
-  containing a `SKILL.md` file (with YAML frontmatter and Markdown instructions)
-  plus optional supporting files: `scripts/` for executable code, `references/`
-  for documentation, and `assets/` for templates. Skills enable agents to extend
-  their capabilities without bloating the base context — the agent sees a
-  compact catalog at startup, loads full instructions only when a skill is
-  relevant, and fetches supporting files as needed. Use skills to capture
-  organizational knowledge, build capabilities once and deploy across multiple
-  agent products, or give end users the ability to extend agents with custom
-  instructions and tools.
+  # When to use
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -39,6 +38,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T22:23:00.800Z
-content_sha256: 8f72b2ded839bcdd0f2f29c38e276cd0f640042d19510cf840ddcbd2bc8c1219
+retrieved_at: 2026-03-10T07:16:35.137Z
+content_sha256: f234ec2f7891f2ad56deb5f8351699793186cfd385ca24bddea385da92162827
 ---

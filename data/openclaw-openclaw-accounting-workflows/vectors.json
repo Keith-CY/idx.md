@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-accounting-workflows",
-  "generated_at": "2026-03-09T22:26:46.764Z",
+  "generated_at": "2026-03-10T07:19:59.698Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-accounting-workflows#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/accounting-workflows/SKILL.md",
-        "retrieved_at": "2026-03-09T22:26:46.764Z",
+        "retrieved_at": "2026-03-10T07:19:59.698Z",
         "content_sha256": "f29b6b70b46fb1a3358a82c26b71ba88805c26b01f3d4bcfcb1584a0a7bfbd03"
       }
     }

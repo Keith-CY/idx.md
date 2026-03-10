@@ -5,6 +5,20 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.72
+
+  - Added `agentProgressSummaries` option to enable periodic AI-generated
+  progress summaries for running subagents (foreground and background), emitted
+  on `task_progress` events via the new `summary` field
+
+  - Added `getSettings()` `applied` section with runtime-resolved `model` and
+  `effort` values
+
+  - Fixed `toggleMcpServer` and `reconnectMcpServer` failing with "Server not
+  found" for servers passed via `query({mcpServers})`
+
+  - Updated to parity with Claude Code v2.1.72
+
   ## 0.2.71
 
   - Updated to parity with Claude Code v2.1.71
@@ -14,21 +28,6 @@ summary: >-
   - Fixed `type: "http"` MCP servers failing with HTTP 406 "Not Acceptable" on
   Streamable HTTP servers that strictly enforce the `Accept: application/json,
   text/event-stream` header
-
-  - Changed `AgentToolInput.subagent_type` to optional — defaults to the
-  `general-purpose` agent when omitted
-
-  - Updated to parity with Claude Code v2.1.70
-
-  ## 0.2.69
-
-  - Added `toolConfig.askUserQuestion.previewFormat` option to configure the
-  content format (`'markdown'` or `'html'`) for the `preview` field on
-  AskUserQuestion tool options. The `preview` field and `annotations` output are
-  now exposed in the public SDK types.
-
-  - Added `supportsFastMode` field to `ModelInfo` indicating whether a model
-  supports fast mode
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T22:23:26.968Z
-content_sha256: d1fc6e094352ecd92d0db1a963fe2fc5da8b4be9353ba604ed37e30efc5d2737
+retrieved_at: 2026-03-10T07:17:00.999Z
+content_sha256: 0094cc4616192c57a2dca76b87bfa4813dfd5b0cf79455241f7714fd459cb148
 ---

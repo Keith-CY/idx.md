@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bridle",
-  "generated_at": "2026-03-09T22:27:45.029Z",
+  "generated_at": "2026-03-10T07:20:47.544Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bridle#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/bridle/SKILL.md",
-        "retrieved_at": "2026-03-09T22:27:45.029Z",
+        "retrieved_at": "2026-03-10T07:20:47.544Z",
         "content_sha256": "96c68852b0d319abd0f5215a8a26465b929ad5bdd45195e438bc1ee6a16476e6"
       }
     }

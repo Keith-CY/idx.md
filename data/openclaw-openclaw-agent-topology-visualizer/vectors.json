@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-topology-visualizer",
-  "generated_at": "2026-03-09T22:27:07.613Z",
+  "generated_at": "2026-03-10T07:20:16.708Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-topology-visualizer#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gavinnn-m/agent-topology-visualizer/SKILL.md",
-        "retrieved_at": "2026-03-09T22:27:07.613Z",
+        "retrieved_at": "2026-03-10T07:20:16.708Z",
         "content_sha256": "d37b05b1f9706b55a5c9719cd5b4311b7660a81947911cfb701a5fc4c138d840"
       }
     }

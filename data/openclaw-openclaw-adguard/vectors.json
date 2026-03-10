@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adguard",
-  "generated_at": "2026-03-09T22:26:50.900Z",
+  "generated_at": "2026-03-10T07:20:03.261Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adguard#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rowbotik/adguard/SKILL.md",
-        "retrieved_at": "2026-03-09T22:26:50.900Z",
+        "retrieved_at": "2026-03-10T07:20:03.261Z",
         "content_sha256": "2d6bece6416bde2e39dad819e9cf9f14730f1e2c1b3adb1bc3bacb25eb17bd06"
       }
     }

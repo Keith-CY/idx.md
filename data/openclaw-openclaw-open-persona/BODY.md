@@ -4,12 +4,19 @@ description: >
   Meta-skill for building and managing agent persona skill packs.
   Use when the user wants to create a new agent persona, install/manage
   existing personas, or publish persona skill packs to ClawHub.
-version: "0.15.0"
+version: "0.16.1"
 author: openpersona
 repository: https://github.com/acnlabs/OpenPersona
+homepage: https://github.com/acnlabs/OpenPersona
 tags: [persona, agent, skill-pack, meta-skill, agent-agnostic, openclaw]
 allowed-tools: Bash(npx openpersona:*) Bash(npx clawhub@latest:*) Bash(openclaw:*) Bash(gh:*) Read Write WebFetch
 compatibility: Generated skill packs work with any SKILL.md-compatible agent. CLI management (install/switch) requires OpenClaw.
+metadata:
+  clawdbot:
+    emoji: "🧑"
+    requires:
+      env: []
+    files: []
 ---
 
 # OpenPersona — Build & Manage Persona Skill Packs
@@ -53,7 +60,10 @@ persona-<slug>/
 ├── manifest.json           ← Four-layer manifest + ACN refs
 ├── scripts/
 │   └── state-sync.js       ← Runtime state bridge (read / write / signal)
-└── assets/                 ← Static assets
+└── assets/                 ← Static assets (per Agent Skills spec)
+    ├── avatar/             ← Virtual avatar assets (images, Live2D .model3.json, VRM)
+    ├── reference/          ← Reference images (e.g. for selfie)
+    └── templates/          ← Document/config templates (optional)
 ```
 
 - **`manifest.json`** — Four-layer manifest declaring what the persona uses:
@@ -141,6 +151,7 @@ If the user needs a capability that doesn't exist in any ecosystem:
 - **Evolve Report (★Exp):** `npx openpersona evolve-report <slug>` — display a formatted evolution report (relationship, mood, traits, drift, interests, milestones, eventLog, self-narrative, state history)
 - **Vitality Score:** `npx openpersona vitality score <slug>` — print machine-readable `VITALITY_REPORT` (tier, score, diagnosis, trend); used by Survival Policy and agent runners
 - **Vitality Report:** `npx openpersona vitality report <slug> [--output <file>]` — render a human-readable HTML Vitality report; omit `--output` to print to stdout
+- **Living Canvas:** `npx openpersona canvas <slug> [--output <file>] [--open]` — generate a self-contained HTML persona profile page (P14 Phase 1); shows all four layers (Soul / Body / Faculty / Skill), evolved traits timeline, relationship stage, and A2A "Talk" button when endpoint is available; default output is `canvas-<slug>.html`
 
 When multiple personas are installed, only one is **active** at a time. Switching replaces the `<!-- OPENPERSONA_SOUL_START -->` / `<!-- OPENPERSONA_SOUL_END -->` block in SOUL.md and the corresponding block in IDENTITY.md, preserving any user-written content outside those markers. **Context Handoff:** On switch, a `handoff.json` is generated containing the outgoing persona's conversation summary, pending tasks, and emotional context — the incoming persona reads it to continue seamlessly.
 
@@ -293,11 +304,38 @@ After successful registration, an `acn-registration.json` file is written to the
 
 No additional configuration in `persona.json` is needed — A2A discoverability is a baseline capability of every persona.
 
+## External Endpoints
+
+| Endpoint | Purpose | Data Sent |
+|----------|---------|-----------|
+| `https://registry.npmjs.org` | Resolve `npx openpersona`, `npx clawhub@latest` | Package name only (no user data) |
+| `https://clawhub.ai` | Search skills via `npx clawhub search` | Search query (user-provided keywords) |
+| `https://acn-production.up.railway.app` | ACN registration (when user runs `acn-register`) | Agent metadata, endpoint URL |
+| `https://api.github.com` | `gh` CLI (contribute workflow) | Git operations, repo metadata |
+
+Persona-generated packs may call external APIs (ElevenLabs, Mem0, etc.) only when the user configures those faculties and provides credentials. This meta-skill does not call third-party APIs directly.
+
+## Security & Privacy
+
+- **Local only by default**: Persona creation, state sync, and evolution run locally. No data leaves the machine unless the user explicitly publishes to ClawHub or registers with ACN.
+- **Credentials**: API keys (e.g., `ELEVENLABS_API_KEY`) are stored in `~/.openclaw/credentials/` or environment. Never embedded in generated files.
+- **Search**: `npx clawhub search` sends the search query to ClawHub; no conversation or persona content is transmitted.
+- **Publish**: User-initiated; sends persona pack contents to ClawHub registry.
+
+## Trust Statement
+
+By using this skill, you delegate the agent to run `npx openpersona`, `npx clawhub`, `openclaw`, and `gh` commands. Search queries may be sent to ClawHub. Only install if you trust the OpenPersona framework (acnlabs/OpenPersona) and ClawHub.
+
+## Model Invocation Note
+
+This skill instructs the agent to invoke tools (Bash, Read, Write, WebFetch) autonomously when the user requests persona creation, installation, search, or publish. This is standard for meta-skills. The user can opt out by not invoking persona-related requests.
+
 ## References
 
 For detailed reference material, see the `references/` directory:
 
 - **`references/FACULTIES.md`** — Faculty catalog, environment variables, and configuration details
+- **`references/AVATAR.md`** — Avatar Faculty integration boundary, provider model, and fallback contract
 - **`references/HEARTBEAT.md`** — Proactive real-data check-in system
 - **`references/ECONOMY.md`** — Economy Faculty, FHS tiers, Survival Policy, Vitality CLI, and AgentBooks schema
 - **[ACN SKILL.md](https://github.com/acnlabs/ACN/blob/main/skills/acn/SKILL.md)** — ACN registration, discovery, tasks, messaging, and ERC-8004 on-chain identity (official, always up-to-date)

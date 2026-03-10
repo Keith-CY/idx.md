@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-checkers-sixty60",
-  "generated_at": "2026-03-09T22:27:52.005Z",
+  "generated_at": "2026-03-10T07:20:53.133Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-checkers-sixty60#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/snopoke/checkers-sixty60/SKILL.md",
-        "retrieved_at": "2026-03-09T22:27:52.005Z",
+        "retrieved_at": "2026-03-10T07:20:53.133Z",
         "content_sha256": "38a067876156db27adc87c483295654fb900b7ad598e2c257e6160db72e4020c"
       }
     }

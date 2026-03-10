@@ -16,13 +16,16 @@ summary: >-
 
   ## Overview
 
-  Load plan, review critically, execute tasks in batches, report for review
-  between batches.
-
-  **Core principle:** Batch execution with checkpoints for architect review.
+  Load plan, review critically, execute all tasks, report when complete.
 
   **Announce at start:** "I'm using the executing-plans skill to implement this
   plan."
+
+  **Note:** Tell your human partner that Superpowers works much better with
+  access to subagents. The quality of its work will be significantly higher if
+  run on a platform with subagent support (such as Claude Code or Codex). If
+  subagents are available, use superpowers:subagent-driven-development instead
+  of this skill.
 
   ## The Process
 tags:
@@ -34,6 +37,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-pla
 github_stars: 74053
 github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T22:22:57.219Z
-content_sha256: d099fa42fd7518f4dafa9f2d51c1c08fce970490d57682b6acd3e7a57bb55b52
+retrieved_at: 2026-03-10T07:16:31.887Z
+content_sha256: a711f83fb762e2ea0fa151f598893da9911a408895c91cc7a7e0770dd59a27b3
 ---

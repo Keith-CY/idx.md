@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paid-ads
 github_stars: 9780
 github_forks: 1357
 github_is_organization: false
-retrieved_at: 2026-03-09T22:26:23.582Z
+retrieved_at: 2026-03-10T07:19:38.214Z
 content_sha256: 853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206
 ---

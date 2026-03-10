@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/draw-io
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-09T22:23:17.084Z
+retrieved_at: 2026-03-10T07:16:51.772Z
 content_sha256: 501fbf61f47b08f578f39a03fcd655af7986277028dd92469a99ba835526d0d8
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tcm-video-factory",
-  "generated_at": "2026-03-09T22:25:48.010Z",
+  "generated_at": "2026-03-10T07:19:08.217Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tcm-video-factory#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xaotiensinh-abm/tcm-video-factory/SKILL.md",
-        "retrieved_at": "2026-03-09T22:25:48.010Z",
+        "retrieved_at": "2026-03-10T07:19:08.217Z",
         "content_sha256": "d1f0abf33d17b6d05c8e34f03547850edf235ab8643922f3b8311cd875e4eddc"
       }
     }

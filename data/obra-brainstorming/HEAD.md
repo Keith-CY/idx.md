@@ -15,8 +15,6 @@ summary: >-
 
   # Brainstorming Ideas Into Designs
 
-  ## Overview
-
   Help turn ideas into fully formed designs and specs through natural
   collaborative dialogue.
 
@@ -30,6 +28,8 @@ summary: >-
   or take any implementation action until you have presented a design and the
   user has approved it. This applies to EVERY project regardless of perceived
   simplicity.
+
+  </HARD-GATE>
 tags:
   - obra
   - source-obra-superpowers
@@ -39,6 +39,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming
 github_stars: 74053
 github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-09T22:22:57.036Z
-content_sha256: 7a238df1ebf0656c1da199aafafcc78c42f47bf4e56dd4e007a67afbb10af455
+retrieved_at: 2026-03-10T07:16:31.744Z
+content_sha256: b3c4258ef82ace5729a46367750bd967707d3a03ff4ec7ce7b588abbd637cb38
 ---

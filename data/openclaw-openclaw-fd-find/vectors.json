@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fd-find",
-  "generated_at": "2026-03-09T22:24:10.851Z",
+  "generated_at": "2026-03-10T07:17:41.151Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fd-find#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/fd-find/SKILL.md",
-        "retrieved_at": "2026-03-09T22:24:10.851Z",
+        "retrieved_at": "2026-03-10T07:17:41.151Z",
         "content_sha256": "5e69a68c9d2278da56e3e9b1f73e281839b0355ffb7b307ec519ac1a97a58040"
       }
     }

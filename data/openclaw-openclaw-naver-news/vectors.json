@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-naver-news",
-  "generated_at": "2026-03-09T22:24:52.188Z",
+  "generated_at": "2026-03-10T07:18:18.744Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-naver-news#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steamb23/naver-news/SKILL.md",
-        "retrieved_at": "2026-03-09T22:24:52.188Z",
+        "retrieved_at": "2026-03-10T07:18:18.744Z",
         "content_sha256": "f13e08e51da8c5cbe4b6cc6d25a792e56700e53692653b9b5ddc5b5cb70095c3"
       }
     }

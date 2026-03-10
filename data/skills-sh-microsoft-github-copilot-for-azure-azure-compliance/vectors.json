@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-compliance",
-  "generated_at": "2026-03-09T22:26:21.112Z",
+  "generated_at": "2026-03-10T07:19:36.081Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-compliance#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compliance/references/azure-quick-review.md",
-        "retrieved_at": "2026-03-09T22:26:21.112Z",
+        "retrieved_at": "2026-03-10T07:19:36.081Z",
         "content_sha256": "abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63"
       }
     }

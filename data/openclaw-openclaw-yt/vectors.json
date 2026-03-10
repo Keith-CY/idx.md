@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yt",
-  "generated_at": "2026-03-09T22:26:18.263Z",
+  "generated_at": "2026-03-10T07:19:33.473Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yt#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/yt/SKILL.md",
-        "retrieved_at": "2026-03-09T22:26:18.263Z",
+        "retrieved_at": "2026-03-10T07:19:33.473Z",
         "content_sha256": "a139de0f533bf58aa347076b13474c78871fc769ae7ffebb08885a08e8c1d4b1"
       }
     }
