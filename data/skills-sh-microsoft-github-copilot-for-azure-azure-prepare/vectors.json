@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-prepare",
-  "generated_at": "2026-03-10T07:19:36.174Z",
+  "generated_at": "2026-03-11T07:19:52.242Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-prepare#head",
       "kind": "head",
       "path": "/data/skills-sh-microsoft-github-copilot-for-azure-azure-prepare/HEAD.md",
-      "text": "title: skills-sh-microsoft-github-copilot-for-azure-azure-prepare\nsummary: # Azure Context (Subscription & Location) Detect and confirm Azure subscription and location before generating artifacts. --- ## Step 1: Check for Existing AZD Environment If the project already uses AZD, check for an existing environment with values already set: ```bash azd env list ``` **If an environment is selected** (marked with `*`), check its values: ```bash\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-azure-prepare\nsummary: # Azure Context (Subscription & Location) Detect and confirm Azure subscription and location before generating artifacts. Run region capacity check for customer selected location --- ## Step 1: Check for Existing AZD Environment If the project already uses AZD, check for an existing environment with values already set: ```bash azd env list ``` **If an environment is selected** (marked with `*`), check its values: ```bash\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md",
       "metadata": {
         "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-prepare",
         "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-prepare",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md",
-        "retrieved_at": "2026-03-10T07:19:36.174Z",
-        "content_sha256": "10b26a7fa0defe0a41432f7a1432b50139b6a2b8074b83948728468aaa58fef5"
+        "retrieved_at": "2026-03-11T07:19:52.242Z",
+        "content_sha256": "80dce2a24b8956959be4e50e90b69c109fb1b25fc1f2029ad9fc2c35e591731d"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mac-power-tools",
-  "generated_at": "2026-03-10T07:21:20.132Z",
+  "generated_at": "2026-03-11T07:21:12.637Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mac-power-tools#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/mac-power-tools/SKILL.md",
-        "retrieved_at": "2026-03-10T07:21:20.132Z",
+        "retrieved_at": "2026-03-11T07:21:12.637Z",
         "content_sha256": "d2b804d9f80b370b1fd770e77c94784291e47ec9b32e0e35ada65b132e26afcf"
       }
     }

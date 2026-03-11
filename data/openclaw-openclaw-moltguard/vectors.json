@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltguard",
-  "generated_at": "2026-03-10T07:18:14.845Z",
+  "generated_at": "2026-03-11T07:18:48.369Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltguard#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thomaslwang/moltguard/SKILL.md",
-        "retrieved_at": "2026-03-10T07:18:14.845Z",
+        "retrieved_at": "2026-03-11T07:18:48.369Z",
         "content_sha256": "518182fb2fab6b51735c5b72925028bcfb4dd73a3f9fa9c0ef9717074b1fae4d"
       }
     }

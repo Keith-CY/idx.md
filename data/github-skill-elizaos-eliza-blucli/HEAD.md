@@ -15,6 +15,6 @@ upstream_ref: https://github.com/elizaOS/eliza/blob/develop/packages/skills/skil
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-10T07:16:20.525Z
+retrieved_at: 2026-03-11T07:17:24.100Z
 content_sha256: ff458cdfff63bc38a1764508d15b92086598c5b85ddb4f0946fb26527179e9ad
 ---

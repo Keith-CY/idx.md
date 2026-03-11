@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ez-google",
-  "generated_at": "2026-03-10T07:17:40.133Z",
+  "generated_at": "2026-03-11T07:18:22.226Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ez-google#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/araa47/ez-google/SKILL.md",
-        "retrieved_at": "2026-03-10T07:17:40.133Z",
+        "retrieved_at": "2026-03-11T07:18:22.226Z",
         "content_sha256": "677f94e2d0083d4c7a57dff3196c78655275c71eaa3722b945ef595e7ba51b0b"
       }
     }

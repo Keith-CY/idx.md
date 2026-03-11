@@ -10,8 +10,8 @@ allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(git:*)
 version: 1.0.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
+compatible-with: claude-code, codex, openclaw
 ---
-
 # Vercel Upgrade Migration
 
 ## Prerequisites
@@ -21,7 +21,7 @@ author: Jeremy Longshore <jeremy@intentsolutions.io>
 - Staging environment
 
 
-See `{baseDir}/references/implementation.md` for detailed implementation guide.
+See `${CLAUDE_SKILL_DIR}/references/implementation.md` for detailed implementation guide.
 
 ## Output
 - Updated SDK version
@@ -31,12 +31,24 @@ See `{baseDir}/references/implementation.md` for detailed implementation guide.
 
 ## Error Handling
 
-See `{baseDir}/references/errors.md` for comprehensive error handling.
+See `${CLAUDE_SKILL_DIR}/references/errors.md` for comprehensive error handling.
 
 ## Examples
 
-See `{baseDir}/references/examples.md` for detailed examples.
+See `${CLAUDE_SKILL_DIR}/references/examples.md` for detailed examples.
 
 ## Resources
 - [Vercel Changelog](https://github.com/vercel/vercel/releases)
 - [Vercel Migration Guide](https://vercel.com/docs/migration)
+
+## Overview
+
+Execute analyze, plan, and execute Vercel SDK upgrades with breaking change detection.
+
+## Instructions
+
+1. Assess the current state of the migration configuration
+2. Identify the specific requirements and constraints
+3. Apply the recommended patterns from this skill
+4. Validate the changes against expected behavior
+5. Document the configuration for team reference

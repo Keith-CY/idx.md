@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-compensation-benchmarking-skill",
-  "generated_at": "2026-03-10T07:17:03.947Z",
+  "generated_at": "2026-03-11T07:17:53.630Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-compensation-benchmarking-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/compensation-benchmarking/SKILL.md",
-        "retrieved_at": "2026-03-10T07:17:03.947Z",
+        "retrieved_at": "2026-03-11T07:17:53.630Z",
         "content_sha256": "410353b37500334dbf475785f321735163c543e0ddeea705a04b47f0b3f9589a"
       }
     }

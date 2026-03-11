@@ -8,11 +8,11 @@ summary: |-
   ## Usage
   ```
   Usage:   linear auth
-  Version: 1.11.1
   Description:
     Manage Linear authentication
   Options:
     -h, --help               - Show this help.
+    -w, --workspace  <slug>  - Target workspace (uses credentials)
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
 github_stars: 365
 github_forks: 38
 github_is_organization: false
-retrieved_at: 2026-03-10T07:19:44.068Z
-content_sha256: 0fd4d9c488770b3b19ef0cf8f24c0f8a2b821c03c64acb20582a3d268d482996
+retrieved_at: 2026-03-11T07:19:57.255Z
+content_sha256: 2106078af9182b688dadbe49784f45c77e60247cf9cd37f47122a27f8c37e71c
 ---

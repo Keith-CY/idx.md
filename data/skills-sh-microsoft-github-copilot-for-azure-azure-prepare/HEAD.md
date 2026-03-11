@@ -6,7 +6,7 @@ summary: >-
   # Azure Context (Subscription & Location)
 
   Detect and confirm Azure subscription and location before generating
-  artifacts.
+  artifacts. Run region capacity check for customer selected location
 
   ---
 
@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-10T07:19:36.174Z
-content_sha256: 10b26a7fa0defe0a41432f7a1432b50139b6a2b8074b83948728468aaa58fef5
+retrieved_at: 2026-03-11T07:19:52.242Z
+content_sha256: 80dce2a24b8956959be4e50e90b69c109fb1b25fc1f2029ad9fc2c35e591731d
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-searxng",
-  "generated_at": "2026-03-10T07:18:51.895Z",
+  "generated_at": "2026-03-11T07:19:17.253Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-searxng#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abk234/searxng/SKILL.md",
-        "retrieved_at": "2026-03-10T07:18:51.895Z",
+        "retrieved_at": "2026-03-11T07:19:17.253Z",
         "content_sha256": "6ab813a3ef5aab6393bf71516af27db40e5066c4e4a33093d3ea1dc6d0704b91"
       }
     }

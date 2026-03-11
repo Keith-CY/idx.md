@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-local-approvals",
-  "generated_at": "2026-03-10T07:21:19.511Z",
+  "generated_at": "2026-03-11T07:21:12.203Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-local-approvals#head",
@@ -19,7 +19,7 @@
           "category-agent-to-agent-protocols"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shaiss/local-approvals/SKILL.md",
-        "retrieved_at": "2026-03-10T07:21:19.511Z",
+        "retrieved_at": "2026-03-11T07:21:12.203Z",
         "content_sha256": "58ae7caa2a019f3f1b4099e4f9a3f1d1c6fb8ccb869f348c7a6d8fb597e42a36"
       }
     }

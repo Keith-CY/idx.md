@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-bio-research-commands-start",
-  "generated_at": "2026-03-10T07:16:48.560Z",
+  "generated_at": "2026-03-11T07:17:43.326Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-bio-research-commands-start#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/commands/start.md",
-        "retrieved_at": "2026-03-10T07:16:48.560Z",
+        "retrieved_at": "2026-03-11T07:17:43.326Z",
         "content_sha256": "34272a37b73043ad550fccb25c5a7dddf21e90c091a5016957066ecc1da6cd04"
       }
     }

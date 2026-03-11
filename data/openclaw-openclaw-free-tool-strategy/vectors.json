@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-free-tool-strategy",
-  "generated_at": "2026-03-10T07:17:44.701Z",
+  "generated_at": "2026-03-11T07:18:25.841Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-free-tool-strategy#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/free-tool-strategy/SKILL.md",
-        "retrieved_at": "2026-03-10T07:17:44.701Z",
+        "retrieved_at": "2026-03-11T07:18:25.841Z",
         "content_sha256": "afd05058a2b0a4df3f32db31f01230e97008d0838d20efb7764effa8677db541"
       }
     }

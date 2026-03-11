@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-eachlabs-voice-audio",
-  "generated_at": "2026-03-10T07:21:08.984Z",
+  "generated_at": "2026-03-11T07:21:03.550Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-eachlabs-voice-audio#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/eachlabs-voice-audio/SKILL.md",
-        "retrieved_at": "2026-03-10T07:21:08.984Z",
+        "retrieved_at": "2026-03-11T07:21:03.550Z",
         "content_sha256": "33cfcdb006a70335fae260723989b9e88a8dc5d11066582e7ee3070297e90c73"
       }
     }

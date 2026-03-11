@@ -7,30 +7,31 @@ summary: >-
 
   name: Agent
 
-  description: Use when creating, evaluating, or integrating skills for AI
-  agents. Reach for this skill when you need to author SKILL.md files, test
-  skill descriptions for proper triggering, evaluate skill output quality, add
-  skills support to an agent client, or optimize skill performance.
+  description: Use when creating, optimizing, or integrating skills for AI
+  agents. Reach for this skill when you need to author a SKILL.md file, test
+  whether a skill triggers correctly, optimize a skill's description, bundle
+  scripts with a skill, or add skills support to an agent platform.
 
   metadata:
       mintlify-proj: agent
       version: "1.0"
   ---
 
-  # Product summary
+  # Agent Skills
 
-  Agent Skills is a portable format for packaging procedural knowledge and
-  task-specific instructions that AI agents can load on demand. A skill is a
-  directory containing a SKILL.md file (required metadata and instructions in
-  YAML frontmatter + Markdown) plus optional supporting files: scripts/
-  (executable code), references/ (documentation), and assets/ (templates and
-  data). Skills use progressive disclosure — agents load only name and
-  description at startup, then read full instructions when a task matches. This
-  keeps context efficient while giving agents access to specialized knowledge.
-  Primary docs: https://agentskills.io. Key files: SKILL.md (frontmatter +
-  body), scripts/ (bundled code), evals/evals.json (test cases).
+  ## Product summary
 
-  # When to use
+  Agent Skills is a standard format for packaging reusable instructions,
+  scripts, and resources that AI agents can discover and activate. Every skill
+  is a folder containing a `SKILL.md` file with YAML frontmatter (name and
+  description) and Markdown instructions, optionally bundled with executable
+  scripts in `scripts/`, reference documentation in `references/`, and assets in
+  `assets/`. Agents use progressive disclosure: they load only the name and
+  description at startup to decide when a skill is relevant, then read the full
+  SKILL.md into context when activated. The format is portable (just files),
+  self-documenting (readable by humans and agents), and extensible (from text
+  instructions to complex workflows with code). Primary documentation:
+  https://agentskills.io
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -38,6 +39,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-10T07:16:35.137Z
-content_sha256: f234ec2f7891f2ad56deb5f8351699793186cfd385ca24bddea385da92162827
+retrieved_at: 2026-03-11T07:17:34.366Z
+content_sha256: d3ede087587c0a601a2634ad60b42850dcf028bb4d7489a9b6b34bac1b498df5
 ---

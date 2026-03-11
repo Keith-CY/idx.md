@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bring-recipes",
-  "generated_at": "2026-03-10T07:20:47.877Z",
+  "generated_at": "2026-03-11T07:20:46.911Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bring-recipes#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/darkdevelopers/bring-recipes/SKILL.md",
-        "retrieved_at": "2026-03-10T07:20:47.877Z",
+        "retrieved_at": "2026-03-11T07:20:46.911Z",
         "content_sha256": "a2da23f1ce096edf2a3ddb0a48396255806935e4e853c76207191f33d2d54e9c"
       }
     }

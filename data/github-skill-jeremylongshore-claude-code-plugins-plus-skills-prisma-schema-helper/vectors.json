@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper",
-  "generated_at": "2026-03-10T07:16:21.326Z",
+  "generated_at": "2026-03-11T07:17:24.592Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md",
-        "retrieved_at": "2026-03-10T07:16:21.326Z",
+        "retrieved_at": "2026-03-11T07:17:24.592Z",
         "content_sha256": "7c52d6502e674073ecae1cfad98d9bfec42a0ab88559e9c14b3142e65b75af4c"
       }
     }

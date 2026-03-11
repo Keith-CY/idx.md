@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-resend-resend-skills-resend",
-  "generated_at": "2026-03-10T07:16:33.141Z",
+  "generated_at": "2026-03-11T07:17:32.104Z",
   "records": [
     {
       "id": "skills/skills-sh-resend-resend-skills-resend#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/resend/resend-skills/main/SKILL.md",
-        "retrieved_at": "2026-03-10T07:16:33.141Z",
+        "retrieved_at": "2026-03-11T07:17:32.104Z",
         "content_sha256": "87c427e3be52c470ea3ffa384b027036de83c157375617f83899abde539cd4cc"
       }
     }

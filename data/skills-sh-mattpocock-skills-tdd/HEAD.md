@@ -28,6 +28,6 @@ upstream_ref: https://skills.sh/mattpocock/skills/tdd
 github_stars: 722
 github_forks: 64
 github_is_organization: false
-retrieved_at: 2026-03-10T07:19:42.704Z
+retrieved_at: 2026-03-11T07:19:56.241Z
 content_sha256: e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a
 ---

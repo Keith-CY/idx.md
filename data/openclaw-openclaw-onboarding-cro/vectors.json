@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-onboarding-cro",
-  "generated_at": "2026-03-10T07:18:23.702Z",
+  "generated_at": "2026-03-11T07:18:55.811Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-onboarding-cro#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/onboarding-cro/SKILL.md",
-        "retrieved_at": "2026-03-10T07:18:23.702Z",
+        "retrieved_at": "2026-03-11T07:18:55.811Z",
         "content_sha256": "c973ee1520d800fb68c39965d6c99526489c834440d7b2c254ab059cb54dab8d"
       }
     }

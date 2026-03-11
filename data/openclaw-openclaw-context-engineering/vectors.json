@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-context-engineering",
-  "generated_at": "2026-03-10T07:21:01.023Z",
+  "generated_at": "2026-03-11T07:20:57.310Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-context-engineering#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/leoyessi10-tech/context-engineering/SKILL.md",
-        "retrieved_at": "2026-03-10T07:21:01.023Z",
+        "retrieved_at": "2026-03-11T07:20:57.310Z",
         "content_sha256": "1699984e76312757c6b9744fb68d09d6729a5f1cdb2e0bb17dfa98433e194a0b"
       }
     }

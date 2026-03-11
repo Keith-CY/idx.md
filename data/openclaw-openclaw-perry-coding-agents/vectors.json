@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-perry-coding-agents",
-  "generated_at": "2026-03-10T07:18:31.301Z",
+  "generated_at": "2026-03-11T07:19:01.677Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-perry-coding-agents#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/perry-coding-agents/SKILL.md",
-        "retrieved_at": "2026-03-10T07:18:31.301Z",
+        "retrieved_at": "2026-03-11T07:19:01.677Z",
         "content_sha256": "6a49f7c6964b4c80b3e8639ba68083dbc350cceed3b83d686404b01fc8df370e"
       }
     }

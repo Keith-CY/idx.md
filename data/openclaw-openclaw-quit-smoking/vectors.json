@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-quit-smoking",
-  "generated_at": "2026-03-10T07:18:43.168Z",
+  "generated_at": "2026-03-11T07:19:10.201Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-quit-smoking#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-smoking/SKILL.md",
-        "retrieved_at": "2026-03-10T07:18:43.168Z",
+        "retrieved_at": "2026-03-11T07:19:10.201Z",
         "content_sha256": "493ee30a1f880b1c5f254555f2f65041a517f6147cf0dcaafe4595d9cdda70d8"
       }
     }

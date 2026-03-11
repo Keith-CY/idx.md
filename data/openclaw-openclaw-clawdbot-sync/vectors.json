@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-sync",
-  "generated_at": "2026-03-10T07:20:56.679Z",
+  "generated_at": "2026-03-11T07:20:53.878Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-sync#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/clawdbot-sync/SKILL.md",
-        "retrieved_at": "2026-03-10T07:20:56.679Z",
+        "retrieved_at": "2026-03-11T07:20:53.878Z",
         "content_sha256": "743c234dc3251e4d2f62c37af54c26f3f79bf0df89c1157617b601417b67cb0a"
       }
     }

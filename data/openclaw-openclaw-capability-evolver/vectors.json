@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-capability-evolver",
-  "generated_at": "2026-03-10T07:17:21.255Z",
+  "generated_at": "2026-03-11T07:18:06.527Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-capability-evolver#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/capability-evolver/SKILL.md",
-        "retrieved_at": "2026-03-10T07:17:21.255Z",
+        "retrieved_at": "2026-03-11T07:18:06.527Z",
         "content_sha256": "92e2fec08d90a6b51bcb4fef99db6831c42510f20306ddf2d7069778d3679e51"
       }
     }
