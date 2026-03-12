@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-auto-pr-merger",
-  "generated_at": "2026-03-11T07:20:38.876Z",
+  "generated_at": "2026-03-12T07:20:17.780Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-auto-pr-merger#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/auto-pr-merger/SKILL.md",
-        "retrieved_at": "2026-03-11T07:20:38.876Z",
+        "retrieved_at": "2026-03-12T07:20:17.780Z",
         "content_sha256": "df713b437b323c146aac46da01571c4207e3ea1da72d157cd3bf5e464f97991d"
       }
     }

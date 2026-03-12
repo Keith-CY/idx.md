@@ -45,6 +45,6 @@ upstream_ref: https://skills.sh/everyinc/compound-engineering-plugin/compound-do
 github_stars: 9663
 github_forks: 767
 github_is_organization: true
-retrieved_at: 2026-03-11T07:19:57.810Z
+retrieved_at: 2026-03-12T07:19:49.194Z
 content_sha256: 4759684eb4ee5bdce4982ec472d46a42287186bbc5b34512b4ecbea69e53e421
 ---

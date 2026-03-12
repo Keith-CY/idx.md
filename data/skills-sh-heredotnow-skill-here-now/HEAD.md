@@ -13,12 +13,12 @@ summary: >-
 
   - **Authenticated**: include `Authorization: Bearer <API_KEY>` header.
 
-  - **Anonymous**: omit the header entirely. Artifacts expire in 24 hours with
-  lower limits.
+  - **Anonymous**: omit the header entirely. Sites expire in 24 hours with lower
+  limits.
 
   ### Optional client attribution header
 
-  You can include an optional header on artifact API calls:
+  You can include an optional header on site API calls:
 
   - `X-HereNow-Client: <agent>/<tool>`
 
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/heredotnow/skill/here-now
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-11T07:19:59.242Z
-content_sha256: 5531c78c096fc574882bfde165475e175ee2725e1391449c4e9cb15b7f296d46
+retrieved_at: 2026-03-12T07:19:50.176Z
+content_sha256: 9f8917df4a453dcd4736f0be8890812d6c949c579bc1b568bdfaae6d00ded4fc
 ---

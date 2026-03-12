@@ -16,6 +16,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jcheese1/moltp
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-11T07:17:26.963Z
+retrieved_at: 2026-03-12T07:18:07.409Z
 content_sha256: 1060e54b3c5e3082a961fbb4fefde314bee60aa8885af1cdae03667df2cfb116
 ---

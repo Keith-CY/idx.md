@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-academic-writing-refiner",
-  "generated_at": "2026-03-11T07:20:08.371Z",
+  "generated_at": "2026-03-12T07:19:56.231Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-academic-writing-refiner#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zihan-zhu/academic-writing-refiner/SKILL.md",
-        "retrieved_at": "2026-03-11T07:20:08.371Z",
+        "retrieved_at": "2026-03-12T07:19:56.231Z",
         "content_sha256": "e546cd1a531c44879c868afc651834ef112bb9d0520d364a2e91f2da1abce1f8"
       }
     }

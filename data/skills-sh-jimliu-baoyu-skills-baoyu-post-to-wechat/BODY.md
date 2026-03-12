@@ -152,6 +152,8 @@ options:
 
 ## EXTEND.md Template
 
+### Single Account (Default)
+
 ```md
 default_theme: [default/grace/simple/modern]
 default_color: [preset name, hex, or empty for theme default]
@@ -161,6 +163,40 @@ need_open_comment: [1/0]
 only_fans_can_comment: [1/0]
 chrome_profile_path:
 ```
+
+### Multi-Account
+
+```md
+default_theme: [default/grace/simple/modern]
+default_color: [preset name, hex, or empty for theme default]
+
+accounts:
+  - name: [display name]
+    alias: [short key, e.g. "baoyu"]
+    default: true
+    default_publish_method: [api/browser]
+    default_author: [author name]
+    need_open_comment: [1/0]
+    only_fans_can_comment: [1/0]
+    app_id: [WeChat App ID, optional]
+    app_secret: [WeChat App Secret, optional]
+  - name: [second account name]
+    alias: [short key, e.g. "ai-tools"]
+    default_publish_method: [api/browser]
+    default_author: [author name]
+    need_open_comment: [1/0]
+    only_fans_can_comment: [1/0]
+```
+
+## Adding More Accounts Later
+
+After initial setup, users can add accounts by editing EXTEND.md:
+
+1. Add an `accounts:` block with list items
+2. Move per-account settings (author, publish method, comments) into each account entry
+3. Keep global settings (theme, color) at the top level
+4. Each account needs a unique `alias` (used for CLI `--account` arg and Chrome profile naming)
+5. Set `default: true` on the primary account
 
 ## Modifying Preferences Later
 

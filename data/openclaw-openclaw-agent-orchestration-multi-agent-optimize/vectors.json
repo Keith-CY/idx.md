@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-orchestration-multi-agent-optimize",
-  "generated_at": "2026-03-11T07:20:19.266Z",
+  "generated_at": "2026-03-12T07:20:03.953Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-orchestration-multi-agent-optimize#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rustyorb/agent-orchestration-multi-agent-optimize/SKILL.md",
-        "retrieved_at": "2026-03-11T07:20:19.266Z",
+        "retrieved_at": "2026-03-12T07:20:03.953Z",
         "content_sha256": "07e8ae8527830021cbe7c8892dbcd4dfa038f9fb755122417bbf85a0d3744c6c"
       }
     }

@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/c4-architecture
 github_stars: 716
 github_forks: 56
 github_is_organization: true
-retrieved_at: 2026-03-11T07:19:55.516Z
+retrieved_at: 2026-03-12T07:19:45.901Z
 content_sha256: 608b39dd6ece1c2d4367fb06f3bd7d190332291e279391bfedb82f4749ced414
 ---

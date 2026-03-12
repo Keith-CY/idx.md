@@ -15,7 +15,9 @@ summary: >-
   # Requesting Code Review
 
   Dispatch superpowers:code-reviewer subagent to catch issues before they
-  cascade.
+  cascade. The reviewer gets precisely crafted context for evaluation — never
+  your session's history. This keeps the reviewer focused on the work product,
+  not your thought process, and preserves your own context for continued work.
 
   **Core principle:** Review early, review often.
 
@@ -33,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-co
 github_stars: 74053
 github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-11T07:17:31.330Z
-content_sha256: 1c9e975642c859c407bc4bbc9c06a171bf9ff88267300def1e02f46047ca5ad9
+retrieved_at: 2026-03-12T07:18:10.083Z
+content_sha256: a5ff68586ccf62d1803cedeb71d60fd96ec05591d29c8d123196117eefd34cd0
 ---

@@ -5,29 +5,28 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.74
+
+  - Added `renameSession(sessionId, title, opts?)` for renaming session files
+
+  - Fixed `import type` from `@anthropic-ai/claude-agent-sdk/sdk-tools` failing
+  under NodeNext/Bundler module resolution (missing exports map entry since
+  v0.2.69)
+
+  - Fixed skills with `user-invocable: false` being included in
+  `supportedCommands()` and the `system:init` message's `slash_commands` /
+  `skills` lists
+
+  - Updated to parity with Claude Code v2.1.74
+
+  ## 0.2.73
+
+  - Fixed `options.env` being overridden by the `~/.claude/settings.json` env
+  block when not using `user` as a `settingSources` option
+
+  - Updated to parity with Claude Code v2.1.73
+
   ## 0.2.72
-
-  - Added `agentProgressSummaries` option to enable periodic AI-generated
-  progress summaries for running subagents (foreground and background), emitted
-  on `task_progress` events via the new `summary` field
-
-  - Added `getSettings()` `applied` section with runtime-resolved `model` and
-  `effort` values
-
-  - Fixed `toggleMcpServer` and `reconnectMcpServer` failing with "Server not
-  found" for servers passed via `query({mcpServers})`
-
-  - Updated to parity with Claude Code v2.1.72
-
-  ## 0.2.71
-
-  - Updated to parity with Claude Code v2.1.71
-
-  ## 0.2.70
-
-  - Fixed `type: "http"` MCP servers failing with HTTP 406 "Not Acceptable" on
-  Streamable HTTP servers that strictly enforce the `Accept: application/json,
-  text/event-stream` header
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-11T07:17:51.471Z
-content_sha256: 0094cc4616192c57a2dca76b87bfa4813dfd5b0cf79455241f7714fd459cb148
+retrieved_at: 2026-03-12T07:18:22.002Z
+content_sha256: 73a67ceb690ec10b1a40c4ca3da2f7a8f59c982c44ba9b13540599a83f0d54a8
 ---

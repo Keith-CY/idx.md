@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-intelligent-budget-tracker",
-  "generated_at": "2026-03-11T07:18:35.729Z",
+  "generated_at": "2026-03-12T07:18:50.658Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-intelligent-budget-tracker#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/enjuguna/intelligent-budget-tracker/SKILL.md",
-        "retrieved_at": "2026-03-11T07:18:35.729Z",
+        "retrieved_at": "2026-03-12T07:18:50.658Z",
         "content_sha256": "e77d10143c7ceb3079ee4150d991268aa04ef7520e44b93fe3c0d7009565ea59"
       }
     }

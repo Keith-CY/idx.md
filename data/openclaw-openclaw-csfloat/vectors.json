@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-csfloat",
-  "generated_at": "2026-03-11T07:20:59.205Z",
+  "generated_at": "2026-03-12T07:20:31.083Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-csfloat#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bluesyparty-src/csfloat/SKILL.md",
-        "retrieved_at": "2026-03-11T07:20:59.205Z",
+        "retrieved_at": "2026-03-12T07:20:31.083Z",
         "content_sha256": "db06930d95c3206b2ca8bc02ef0911fea61db7f2399a313fedd34c38d9f4b17c"
       }
     }

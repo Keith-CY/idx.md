@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fastio-skills",
-  "generated_at": "2026-03-11T07:21:06.553Z",
+  "generated_at": "2026-03-12T07:20:35.775Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fastio-skills#head",
@@ -19,8 +19,8 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dbalve/fastio-skills/SKILL.md",
-        "retrieved_at": "2026-03-11T07:21:06.553Z",
-        "content_sha256": "39c5b4acc9ed5972e4b813227f5a1304af051623b7ed5008c179220001adaf68"
+        "retrieved_at": "2026-03-12T07:20:35.775Z",
+        "content_sha256": "44953915a1340b95faa62cada194a385b124ff467a9a582222bbbcbf05a1c6b2"
       }
     }
   ]

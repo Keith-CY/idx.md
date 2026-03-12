@@ -30,6 +30,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams
 github_stars: 716
 github_forks: 56
 github_is_organization: true
-retrieved_at: 2026-03-11T07:19:55.352Z
+retrieved_at: 2026-03-12T07:19:45.815Z
 content_sha256: 5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3
 ---

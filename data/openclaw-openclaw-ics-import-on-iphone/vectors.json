@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ics-import-on-iphone",
-  "generated_at": "2026-03-11T07:21:10.691Z",
+  "generated_at": "2026-03-12T07:20:38.619Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ics-import-on-iphone#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sbhhbs/ics-import-on-iphone/SKILL.md",
-        "retrieved_at": "2026-03-11T07:21:10.691Z",
+        "retrieved_at": "2026-03-12T07:20:38.619Z",
         "content_sha256": "9270f4ff8af02d66e6a339523ca6d9f526bd333681793bb46401e829e6a36c4f"
       }
     }

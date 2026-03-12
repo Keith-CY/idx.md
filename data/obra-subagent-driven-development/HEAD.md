@@ -17,14 +17,18 @@ summary: >-
   Execute plan by dispatching fresh subagent per task, with two-stage review
   after each: spec compliance review first, then code quality review.
 
+  **Why subagents:** You delegate tasks to specialized agents with isolated
+  context. By precisely crafting their instructions and context, you ensure they
+  stay focused and succeed at their task. They should never inherit your
+  session's context or history — you construct exactly what they need. This also
+  preserves your own context for coordination work.
+
   **Core principle:** Fresh subagent per task + two-stage review (spec then
   quality) = high quality, fast iteration
 
   ## When to Use
 
   ```dot
-
-  digraph when_to_use {
 tags:
   - obra
   - source-obra-superpowers
@@ -34,6 +38,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driv
 github_stars: 74053
 github_forks: 5701
 github_is_organization: false
-retrieved_at: 2026-03-11T07:17:31.376Z
-content_sha256: bb09d067ab620b7f4e5024f2ea8e3cfd7c9fefb29e37b29790e735a3ed3b59ea
+retrieved_at: 2026-03-12T07:18:10.113Z
+content_sha256: 081ad3869e55c80bf8f890b4768a90c0e8057daf94b1b6fadebfc85ea5b8304a
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-krea-api",
-  "generated_at": "2026-03-11T07:18:40.474Z",
+  "generated_at": "2026-03-12T07:18:53.830Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-krea-api#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/fossilizedcarlos/krea-api/SKILL.md",
-        "retrieved_at": "2026-03-11T07:18:40.474Z",
+        "retrieved_at": "2026-03-12T07:18:53.830Z",
         "content_sha256": "3b013f6073bab226d509875c9a96eb4aec2a5cbd2430c79dc143053c4bded54e"
       }
     }

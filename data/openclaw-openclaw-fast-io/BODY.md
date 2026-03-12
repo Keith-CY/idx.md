@@ -15,14 +15,14 @@ compatibility: >-
   via Streamable HTTP (/mcp) or SSE (/sse).
 metadata:
   author: fast-io
-  version: "1.105.0"
+  version: "1.121.0"
 homepage: "https://fast.io"
 ---
 
 # Fast.io MCP Server -- AI Agent Guide
 
-**Version:** 1.104
-**Last Updated:** 2026-02-26
+**Version:** 1.121
+**Last Updated:** 2026-03-06
 
 The definitive guide for AI agents using the Fast.io MCP server. Covers why and how to use the platform: product capabilities, the free agent plan, authentication, core concepts (workspaces, shares, intelligence, previews, comments, URL import, metadata, workflow, ownership transfer), 12 end-to-end workflows, interactive MCP App widgets, and all 19 consolidated tools with action-based routing.
 
@@ -81,7 +81,7 @@ The server exposes static MCP resources, widget resources, and file download res
 |-----|------|-------------|-----------|
 | `skill://guide` | skill-guide | Full agent guide (this document) with all 19 tools, workflows, and platform documentation | `text/markdown` |
 | `session://status` | session-status | Current authentication state: `authenticated` boolean, `user_id`, `user_email`, `token_expires_at` (Unix epoch), `token_expires_at_iso` (ISO 8601), `scopes` (raw scope string or null), `scopes_detail` (array of hydrated scope objects with entity names/domains/parents, or null), `agent_name` (string or null) | `application/json` |
-| `widget://*` | Widget HTML | Interactive HTML5 widgets (5 total) -- use the `apps` tool to discover and launch | `text/html` |
+| `widget://*` | Widget HTML | Interactive HTML5 widgets (6 total) -- use the `apps` tool to discover and launch | `text/html` |
 
 **File download resource templates** -- read file content directly through MCP without needing external HTTP access:
 
@@ -104,6 +104,7 @@ The server registers MCP prompts that appear in the client's "Add From" / "+" me
 | `App: Choose Workspace or Org` | Launch the Workspace Picker to browse orgs, select workspaces, and manage shares |
 | `App: Pick a File` | Launch the File Picker with built-in workspace navigator for browsing, searching, and selecting files |
 | `App: Open Workflow` | Launch the Workflow Manager (auto-selects workspace if only one, otherwise opens Workspace Picker first) |
+| `App: Upload Files` | Launch the Uploader to upload files with drag-and-drop, progress tracking, and text file creation |
 | `App: Available Apps` | List all available MCP App widgets with descriptions and launch instructions |
 
 ### HTTP File Pass-Through
@@ -227,6 +228,22 @@ When creating a new account (Options 1 and 3 above), agents **MUST** use `auth` 
 3. Call `auth` action `2fa-verify` with the 2FA `code` (TOTP, SMS, or WhatsApp).
 4. The server replaces the limited-scope token with a full-scope token automatically.
 
+### Inline 2FA for Sensitive Operations
+
+Some API endpoints require per-request 2FA verification when the account has 2FA enabled. These operations require a valid 2FA `token` parameter (6-digit TOTP or SMS/call/WhatsApp code) in addition to normal authentication:
+
+- **`api-key-create`** — creating a new API key
+- **`api-key-delete`** — revoking an API key
+
+If the account does not have 2FA enabled, these operations work normally without a token. If 2FA is enabled and the token is missing or invalid, the request fails.
+
+**Workflow:**
+1. Check 2FA status: `auth` action `2fa-status` — if `state` is `"enabled"`, inline 2FA is required.
+2. Prompt the user for a TOTP code from their authenticator app, or send a code via `auth` action `2fa-send`.
+3. Pass the code as the `token` parameter to `api-key-create` or `api-key-delete`.
+
+**Tip:** API key authentication (`auth` action `set-api-key`) bypasses inline 2FA checks entirely. If the agent is already authenticated via API key, no token is needed for these operations.
+
 ### Browser Login (PKCE) Flow
 
 1. Call `auth` action `pkce-login` (optionally with `email` to pre-fill the sign-in form, `scope_type` to request scoped access, and `agent_name` to identify the agent).
@@ -303,22 +320,24 @@ Workspaces are identified by a 19-digit numeric profile ID.
 
 #### Intelligence: On or Off
 
-Workspaces have an **intelligence** toggle that controls whether AI features are active:
+Workspaces have an **intelligence** toggle that controls whether AI features are active.
 
-**Intelligence OFF** -- the workspace is pure file storage. You can still attach files directly to an AI chat conversation (up to 20 files, 200 MB total), but files are not persistently indexed. This is fine for simple storage and sharing where you do not need to query your content.
+> **⚠️ COST WARNING:** Intelligence incurs significant ingestion costs (10 credits per page for every uploaded document). For a workspace with hundreds or thousands of pages, this adds up quickly. **Do NOT enable intelligence unless the user specifically needs RAG queries across many documents or AI-powered semantic search.** Most workflows (file storage, sharing, collaboration, one-off file analysis) work perfectly without it.
 
-**Intelligence ON** -- the workspace becomes an AI-powered knowledge base. Every document and code file uploaded is automatically ingested, summarized, and indexed for RAG. This enables:
+**Intelligence OFF (recommended default)** -- the workspace is pure file storage. You can still attach files directly to an AI chat conversation (up to 20 files, 200 MB total) and ask questions about them -- no ingestion cost. This is the right choice for most use cases: file storage, sharing, collaboration, project coordination, and analyzing a small number of specific files.
 
-- **RAG (retrieval-augmented generation)** -- scope AI chat to entire folders or the full workspace and ask questions across your indexed documents and code. The AI retrieves relevant passages and answers with citations.
-- **Semantic search** -- find files by meaning, not just keywords. "Show me contracts with indemnity clauses" works even if those exact words do not appear in the filename.
-- **Auto-summarization** -- short and long summaries generated for every indexed document and code file, searchable and visible in the UI.
-- **Metadata extraction** -- AI pulls key metadata from documents automatically.
+**Intelligence ON (only when needed)** -- the workspace becomes an AI-powered knowledge base. Every document and code file uploaded is automatically ingested, summarized, and indexed. **Only enable this when the user needs one of these two capabilities:**
+
+1. **RAG queries across many documents** -- scope AI chat to entire folders or the full workspace and ask questions across all indexed content. The AI retrieves relevant passages and answers with citations. This is useful when you have a large volume of documents and need to search across all of them.
+2. **AI-powered semantic search** -- find files by meaning, not just keywords. "Show me contracts with indemnity clauses" works even if those exact words do not appear in the filename.
+
+Intelligence also enables auto-summarization and automatic metadata extraction, but these alone do not justify the ingestion cost.
 
 > **Coming soon:** RAG indexing support for images, video, and audio files. Currently only documents and code are indexed.
 
-Intelligence defaults to ON for workspaces created via the API by agent accounts. If the workspace is only used for file storage and sharing, disable it to conserve credits. If you need to query your content, leave it enabled.
+**Default behavior:** Intelligence defaults to ON for workspaces created via the API by agent accounts. **You should explicitly set `intelligence` to `"false"` when creating workspaces unless the user has asked for RAG or AI search capabilities.** Do not enable it speculatively "just in case" -- it can always be enabled later, but ingestion costs are incurred immediately and are non-refundable.
 
-**Agent use case:** Create a workspace per project or client. Enable intelligence if you need to query the content later. Upload reports, datasets, and deliverables. Invite other agents and human stakeholders. Everything is organized, searchable, and versioned.
+**Agent use case:** Create a workspace per project or client. Keep intelligence OFF for storage and collaboration. Only enable it when users need to query across a large document set. Upload reports, datasets, and deliverables. Invite other agents and human stakeholders. Everything is organized, searchable, and versioned.
 
 For full details on AI chat types, file context modes, AI state, and how intelligence affects them, see the **AI Chat** section below.
 
@@ -501,9 +520,9 @@ File nodes in storage list/details responses include an `ai` object with three f
 
 This flag is independent of the workspace intelligence setting — a file can have `ai.attach: true` even when intelligence is off.
 
-**When to enable intelligence:** You need scoped RAG queries, cross-file search, auto-summarization, or a persistent knowledge base.
+**When to enable intelligence:** You need RAG queries across many documents (scoped to folders or the full workspace) or AI-powered semantic search. Do NOT enable just for auto-summarization or metadata extraction alone -- the ingestion cost (10 credits/page) is significant.
 
-**When to disable intelligence:** The workspace is for storage/sharing only, or you only need to analyze specific files via attachments. Saves credits (ingestion costs 10 credits/page).
+**When to disable intelligence (recommended default):** The workspace is for storage, sharing, collaboration, or you only need to analyze specific files via attachments. This covers most use cases. Saves significant credits. Intelligence can always be enabled later if needed.
 
 Even with intelligence off, `chat_with_files` with file attachments still works for files with `ai.attach: true`.
 
@@ -597,7 +616,7 @@ Most endpoints also accept custom names as identifiers:
 
 ### QuickShares
 
-QuickShares are temporary public download links for individual files in workspaces (not available for shares). They can be accessed without authentication. Expires in seconds from creation (default 10,800 = 3 hours, max 86,400 = 24 hours). Max file size: 1 GB. Each quickshare has an opaque identifier used to retrieve metadata and download the file.
+QuickShares are temporary public download links for individual files in workspaces (not available for shares). They can be accessed without authentication. Expires in seconds from creation (default 10,800 = 3 hours, max 604,800 = 7 days) or as an ISO 8601 datetime via `expires_at`. Max file size: 1 GB. Each quickshare has an opaque identifier used to retrieve metadata and download the file.
 
 ### File Preview
 
@@ -624,6 +643,7 @@ Humans and agents can leave feedback directly on files, anchored to specific con
 - **Video comments** -- anchored to timestamps with spatial region selection
 - **Audio comments** -- anchored to timestamps or time ranges
 - **PDF comments** -- anchored to specific pages with optional text snippet selection
+- **Text-anchored comments** -- anchored to selected text in markdown/notes using `exact`, `prefix`, `suffix`, `start_offset`, and `end_offset` fields (use `type: "document"` or `type: "text"`)
 - **Threaded replies** -- single-level threading only; replies to replies are auto-flattened to the parent
 - **Emoji reactions** -- one reaction per user per comment; adding a new reaction replaces the previous one
 - **Mention tags** -- reference users and files inline using bracket syntax: `@[profile:id]`, `@[user:opaqueId:Display Name]`, `@[file:fileId:filename.ext]`. Get IDs from member lists, user details, or storage listings. The display name segment is optional for profile tags but recommended for user and file tags
@@ -653,6 +673,35 @@ Share: `https://go.fast.io/shared/{custom_name}/{title-slug}/preview/{file_opaqu
 Parameters can be combined -- e.g. `?comment={id}&t=45.5` to deep link to a video comment at a specific timestamp. In shares, the comments sidebar only opens if the share has comments enabled.
 
 **Agent use case:** You generate a design mockup. The human comments "Change the header color" on a specific region of the image. You read the comment, see exactly what region they are referring to via the `reference.region` coordinates, and regenerate.
+
+**Text-anchored comments (markdown/notes):** To anchor a comment to specific text in a markdown or notes file, use the `reference` parameter with `type: "document"` (or `"text"`, which is an alias) and the text selection fields:
+
+- `exact` (string, max 500 chars) -- the selected text verbatim
+- `prefix` (string, max 100 chars) -- ~30-50 characters of context before the selection for disambiguation
+- `suffix` (string, max 100 chars) -- ~30-50 characters of context after the selection for disambiguation
+- `start_offset` (integer) -- character offset from document start (hint for resolving ambiguous matches)
+- `end_offset` (integer) -- character offset for end of selection (hint for resolving ambiguous matches)
+
+At minimum, provide `exact`. The `prefix`/`suffix` fields help locate the selection when the same text appears multiple times. The `start_offset`/`end_offset` fields are optional hints that may not survive document edits.
+
+Example -- text-anchored comment on a markdown file:
+```json
+{
+  "action": "add",
+  "profile_type": "workspace",
+  "profile_id": "1234567890123456789",
+  "node_id": "abc123-def456-ghi789",
+  "text": "This section needs a citation",
+  "reference": {
+    "type": "document",
+    "exact": "Studies show a 40% improvement",
+    "prefix": "In the results section, ",
+    "suffix": " compared to the baseline.",
+    "start_offset": 1250,
+    "end_offset": 1280
+  }
+}
+```
 
 ### URL Import
 
@@ -722,7 +771,7 @@ The primary way agents deliver value: build something, then give it to a human. 
 
 ### Workflow (Tasks, Worklogs, Approvals, Todos)
 
-Workspaces and shares support an optional workflow layer that adds structured task management, activity logging, approval gates, and simple checklists. Workflow features are controlled by a toggle -- they must be explicitly enabled before use.
+Workspaces and shares support an optional workflow layer that adds structured task management, activity logging, approval gates, and simple checklists. Workflow features are controlled by a toggle -- they must be explicitly enabled before use. On shares, workflow access requires admin or named member role -- guests and view-only users cannot access workflow features.
 
 #### Enabling Workflow
 
@@ -839,7 +888,7 @@ All profile fields are validated server-side. Requests that violate these constr
 
 | Entity | Field | API Key | Min | Max | Pattern | Required | Nullable |
 |--------|-------|---------|-----|-----|---------|----------|----------|
-| Org | domain | `domain` | 2 | 80 | `^[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])?$` | Yes (create) | No |
+| Org | domain | `domain` | 2 | 63 | `^[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])?$` | Yes (create) | No |
 | Org | name | `name` | 3 | 100 | No control chars | Yes | No |
 | Org | description | `description` | 10 | 1000 | No control chars | No | Yes |
 | Workspace | folder_name | `folder_name` | 4 | 80 | `^[\p{L}\p{N}-]+$` (letters, digits, hyphens) | Yes (create) | No |
@@ -974,7 +1023,7 @@ AI-powered chat with RAG, semantic search, and document analysis in workspaces a
 
 ### comment
 
-Comments are scoped to `{entity_type}/{parent_id}/{node_id}` where entity_type is `workspace` or `share`, parent_id is the 19-digit profile ID, and node_id is the storage node opaque ID. List comments on files (per-node and profile-wide with sort/limit/offset/filter params), add comments with optional reference anchoring (image regions, video/audio timestamps, PDF pages with text selection), single-level threaded replies, recursive single delete, non-recursive bulk delete, get comment details, emoji reactions (one per user per comment), and workflow linking (link/unlink comments to tasks or approvals, reverse lookup). Comments use JSON request bodies.
+Comments are scoped to `{entity_type}/{parent_id}/{node_id}` where entity_type is `workspace` or `share`, parent_id is the 19-digit profile ID, and node_id is the storage node opaque ID. List comments on files (per-node and profile-wide with sort/limit/offset/filter params), add comments with optional reference anchoring (image regions, video/audio timestamps, PDF pages with text selection, text selections in markdown/notes), single-level threaded replies, recursive single delete, non-recursive bulk delete, get comment details, emoji reactions (one per user per comment), and workflow linking (link/unlink comments to tasks or approvals, reverse lookup). Comments use JSON request bodies.
 
 **Actions:** list, list-all, add, delete, bulk-delete, details, reaction-add, reaction-remove, link, unlink, linked
 
@@ -1076,17 +1125,50 @@ See **Choosing the Right Approach** in section 2 for which option fits your scen
 
 ### 3. Upload a File to a Workspace
 
-**Text files (recommended):** Use `upload` action `text-file` with `profile_type: "workspace"`, `profile_id`, `parent_node_id`, `filename`, and `content` (plain text). This single action creates the session, uploads, finalizes, and polls until stored — returns `new_file_id` on success. Use this for code, markdown, CSV, JSON, config files, and any other text content.
+**Text files (recommended):** Use `upload` action `text-file` with `profile_type: "workspace"`, `profile_id`, `parent_node_id`, `filename`, and `content` (plain text). This single action uploads the file and returns `new_file_id` on success. Internally it uses the Fast.io single-request upload pattern (one multipart POST with the file data), so there is no separate chunking, finalization, or polling step. Use this for code, markdown, CSV, JSON, config files, and any other text content.
 
-**Binary or large files (chunked flow):**
+**Binary files (choose the right approach):**
 
-1. `upload` action `create-session` with `profile_type: "workspace"`, `profile_id` (the workspace ID), `parent_node_id` (target folder or `"root"`), `filename`, and `filesize` in bytes. Returns an `upload_id`, `recommended_mcp_chunk_bytes` (default 24576), and `total_chunks` — use these to split the file.
-2. `upload` action `chunk` with `upload_id`, `chunk_number` (1-indexed), and chunk data. **Split files into pieces of `recommended_mcp_chunk_bytes`** (24 KB binary / ~32 KB base64) — even small files. Three options for passing data (provide exactly one):
-   - **`content`** — for text (strings, code, JSON, etc.). Do NOT use `data` for text.
-   - **`data`** — base64-encoded binary (**≤32 KB per call**). The simplest approach for binary uploads through MCP tool calls. Split the file and send each piece as a separate chunk.
-   - **`blob_ref`** — blob ID from `upload` action `stage-blob` or `POST /blob`. Useful when pre-staging data or when using the HTTP blob endpoint from non-MCP clients. Blobs expire after 5 minutes and are consumed (deleted) on use.
-   Repeat for each chunk. Wait for each chunk to return success before sending the next.
-3. `upload` action `finalize` with `upload_id` -- triggers file assembly and polls until stored. Returns the final session state with `status: "stored"` or `"complete"` on success (including `new_file_id`), or throws on assembly failure. The file is automatically added to the target workspace and folder specified in step 1 -- no separate add-file call is needed.
+> **Understanding upload constraints.** The Fast.io API requires each chunk to be **≥ 1 MB** (except the last chunk of a session, which may be smaller). MCP tool calls have a practical transport limit of **~64 KB of raw binary** per call (~96 KB base64). This means multi-chunk binary uploads through MCP tool calls alone will fail for files larger than ~64 KB — each MCP-sized chunk is far below the 1 MB API minimum. Use `upload` action `limits` to check your plan's exact chunk size and file size limits.
+
+**Option A: `web-import` (preferred for URL-accessible files)**
+If the file has a URL (HTTP/HTTPS, Google Drive, OneDrive, Box, Dropbox), use `upload` action `web-import`. Single call, no chunking, no base64. See Workflow 4 below.
+
+**Option B: Single-chunk upload for small binary files (≤ ~64 KB)**
+Small files that fit in one MCP tool call can be uploaded as a single chunk:
+1. `upload` action `create-session` with `profile_type`, `profile_id`, `parent_node_id`, `filename`, and `filesize` in bytes.
+2. `upload` action `chunk` with `upload_id`, `chunk_number: 1`, and `data` (base64-encoded file, ≤96 KB base64 / ~64 KB binary). Since this is the only chunk, the API's "1 small chunk allowed" rule permits it.
+3. `upload` action `finalize` with `upload_id`.
+
+**Option C: `POST /blob` sidecar endpoint for larger binary files**
+For files > ~64 KB, use the HTTP blob endpoint to bypass MCP transport limits. The `POST /blob` endpoint accepts raw binary via HTTP (no base64, no size splitting within MCP). Stage blobs of **≥ 1 MB each** (except the last), then reference them in chunk calls:
+1. `upload` action `create-session` with `profile_type`, `profile_id`, `parent_node_id`, `filename`, and `filesize`.
+2. For each chunk: `POST /blob` with raw binary (≥ 1 MB, ≤ 100 MB). Returns `blob_id`.
+3. `upload` action `chunk` with `upload_id`, `chunk_number`, and `blob_ref: "<blob_id>"`.
+4. `upload` action `finalize` with `upload_id`.
+
+**Option D: External upload tooling**
+For reliable binary uploads of any size, use an external HTTP client (Python requests, curl, etc.) to call the Fast.io REST API upload endpoints directly, bypassing MCP transport constraints entirely. Use MCP for control-plane tasks (session creation, finalization, status) and the external client for the data plane (chunk uploads).
+
+Three options for passing chunk data (provide exactly one):
+- **`content`** — for text (strings, code, JSON, etc.). Do NOT use `data` for text.
+- **`data`** — base64-encoded binary. Limited by MCP transport to **~96 KB base64 (~64 KB binary) per call**. Only practical for single-chunk small files.
+- **`blob_ref`** — blob ID from `upload` action `stage-blob` or `POST /blob`. The `POST /blob` approach is recommended for larger files since it bypasses MCP transport limits.
+
+`upload` action `finalize` with `upload_id` triggers file assembly and polls until stored. Returns the final session state with `status: "stored"` or `"complete"` on success (including `new_file_id`), or throws on failure. Terminal failure states: `assembly_failed` (chunks could not be assembled) and `store_failed` (assembled file could not be stored — check `status_message` for details). The file is automatically added to the target workspace and folder specified during session creation -- no separate add-file call is needed.
+
+**Upload status states:**
+
+| Status | Meaning | Terminal? |
+|--------|---------|-----------|
+| `ready` | Session created, awaiting chunks | No |
+| `uploading` | Chunks being received | No |
+| `assembling` | Assembly in progress | No |
+| `complete` | Assembled, awaiting storage import | No |
+| `storing` | Being imported to storage | No |
+| `stored` | Done — file is in storage, `new_file_id` available | Yes (success) |
+| `assembly_failed` | Assembly error | Yes (failure) |
+| `store_failed` | Storage import failed | Yes (failure) |
 
 **Note:** `storage` action `add-file` is only needed if you want to link the upload to a *different* location than the one specified during session creation.
 
@@ -1132,7 +1214,7 @@ Create a Receive share so humans can upload files directly to you -- no email at
 
 Create an intelligent workspace that auto-indexes all content for RAG queries.
 
-1. `org` action `create-workspace` with `org_id` and `name`. Intelligence is enabled by default.
+1. `org` action `create-workspace` with `org_id`, `name`, and `intelligence: "true"` (this workflow specifically requires intelligence for RAG).
 2. Upload reference documents (see workflow 3 or 4). AI auto-indexes and summarizes everything on upload.
 3. `ai` action `chat-create` with `context_type: "workspace"`, `context_id` (workspace ID), `query_text`, `type: "chat_with_files"`, and `folders_scope` (comma-separated `nodeId:depth` pairs) to query across folders or the entire workspace.
 4. `ai` action `message-read` with `context_type: "workspace"`, `context_id`, `chat_id`, and `message_id` -- polls until the AI response is complete. Returns `response_text` and `citations` pointing to specific files, pages, and snippets.
@@ -1235,7 +1317,11 @@ MCP tools return download URLs -- they never stream binary content directly. `do
 
 Three approaches for uploading binary data as chunks, each suited to different situations.
 
+> **Prefer `web-import` for URL-accessible files.** If the binary file is accessible via any URL (HTTP/HTTPS, Google Drive, OneDrive, Box, Dropbox), use `upload` action `web-import` instead of chunked upload. It's a single tool call — no chunking, no base64, no session management. Only use chunked upload when you have local binary data with no URL available.
+
 > **Chunk size limit for MCP agents.** MCP tool parameters pass through the AI model's output, which limits how much data you can include in a single tool call. **Keep each chunk's base64 `data` under 32 KB** (~24 KB of binary). For example, a 145 KB PDF needs at least 6 chunks, and even a 17 KB file should be split into 1-2 chunks rather than assumed to fit in one call. The `create-session` response includes a `recommended_mcp_chunk_bytes` hint (default 24576) — use it to calculate the number of chunks: `ceil(filesize / recommended_mcp_chunk_bytes)`. Always split files into multiple chunks when using `data` or `stage-blob` through MCP tool calls.
+
+> **Common pitfall: do NOT pre-process binary data into intermediate formats.** Pass base64 data directly in the `data` parameter of `chunk` or `stage-blob` tool calls. Do NOT read binary files into Python/JSON variables, pickle them, or save to temp files hoping to reference them later — the MCP tool can only receive data through its own parameters. If you have local binary files, base64-encode them in ≤32 KB segments and pass each segment directly as the `data` parameter in sequential `stage-blob` → `chunk` calls. Create upload sessions immediately before uploading — sessions expire, so do not debug between creating a session and uploading chunks.
 
 **1. `data` parameter (base64) — simplest for MCP agents**
 
@@ -1528,6 +1614,25 @@ Fast.io MCP Server includes interactive HTML5 widgets that render rich UIs direc
 | File Viewer | `widget://file-viewer` | Unified file preview (image, PDF, video, audio, code, spreadsheet) with info panel (details, versions, AI summary, metadata) |
 | Workflow Manager | `widget://workflow` | Task board, task detail, approvals panel, todos checklist, worklog viewer |
 | Comments Panel | `widget://comments` | Threaded comments, reactions, anchored comments (image regions, timestamps) |
+| Uploader | `widget://uploader` | Upload files to a workspace or share with drag-and-drop, chunked binary uploads, single-step text file creation, and web URL imports with real-time progress tracking |
+
+### Uploader Widget
+
+The Uploader widget provides a 4-step file upload flow:
+
+1. **Choose destination** -- select an organization, then a workspace or share, then optionally navigate to a subfolder
+2. **Select files** -- drag-and-drop files onto the widget or use the file picker button to browse local files
+3. **Upload with progress** -- files upload automatically with real-time progress bars. Binary files use chunked uploads (create-session, stage-blob, chunk, finalize). Text files use single-step text-file upload. Web URLs use web-import
+4. **Reference in chat** -- after upload completes, click "Reference in Chat" to attach the uploaded files to the agent conversation for further discussion or AI analysis
+
+The widget uses the `upload` tool (actions: create-session, chunk, finalize, stage-blob, text-file, web-import, status, cancel, limits, extensions) and the `storage` tool (action: list) via the MCP bridge.
+
+**Launch via prompt:** Use the `App: Upload Files` prompt in desktop MCP clients.
+
+**Launch via tool:**
+```
+apps action launch app_id uploader context_type workspace context_id <workspace_id>
+```
 
 ### Using the Apps Tool
 
@@ -1599,7 +1704,7 @@ All 19 tools with their actions organized by functional area. Each entry shows t
 
 **pkce-complete** -- Complete a PKCE login flow by exchanging the authorization code for an access token. Call this after the user has approved access in the browser and copied the code from the screen. The token is stored in the session automatically. If scoped access was granted, the response includes `scopes` (JSON array of granted scope strings like `"org:123:rw"`) and `agent_name`.
 
-**api-key-create** -- Create a new persistent API key. The full key value is only returned once at creation time -- store it securely. Optional parameters: `name` (memo/label), `scopes` (JSON array of scope strings like `["org:123:rw", "workspace:456:r"]` for restricted access -- omit for full access), `agent_name` (agent/application name, max 128 chars), `key_expires` (ISO 8601 expiration datetime -- omit for no expiration). Scoped keys use the same scope system as v2.0 JWT tokens.
+**api-key-create** -- Create a new persistent API key. The full key value is only returned once at creation time -- store it securely. Optional parameters: `name` (memo/label), `scopes` (JSON array of scope strings like `["org:123:rw", "workspace:456:r"]` for restricted access -- omit for full access), `agent_name` (agent/application name, max 128 chars), `key_expires` (ISO 8601 expiration datetime -- omit for no expiration), `token` (2FA code -- required when account has 2FA enabled, not needed with API key auth). Scoped keys use the same scope system as v2.0 JWT tokens.
 
 **api-key-update** -- Update an existing API key's metadata. Requires `key_id`. Optional parameters: `name` (memo/label), `scopes` (JSON scope array -- send empty string to clear and restore full access), `agent_name` (send empty string to clear), `key_expires` (send empty string to clear expiration). Only specified fields are updated.
 
@@ -1607,7 +1712,7 @@ All 19 tools with their actions organized by functional area. Each entry shows t
 
 **api-key-get** -- Get details of a specific API key. The key value is masked. Response includes `scopes`, `agent_name`, and `expires` fields.
 
-**api-key-delete** -- Revoke (delete) an API key. This action cannot be undone.
+**api-key-delete** -- Revoke (delete) an API key. This action cannot be undone. Optional parameter: `token` (2FA code -- required when account has 2FA enabled, not needed with API key auth).
 
 **2fa-status** -- Get the current two-factor authentication configuration status (enabled, unverified, or disabled).
 
@@ -1681,7 +1786,7 @@ All 19 tools with their actions organized by functional area. Each entry shows t
 
 **list-shares** -- List shares accessible to the current user. Each share includes `web_url`. Returns all shares including parent org and workspace info. Use parent_org in the response to identify shares belonging to a specific organization.
 
-**create** -- Create a new organization on the "agent" billing plan. The authenticated user becomes the owner. A storage instance and agent-plan subscription (free, 50 GB, 5,000 credits/month) are created automatically. Returns the new org and trial status.
+**create** -- Create a new organization on the "agent" billing plan. Requires `domain` (2-63 chars, lowercase alphanumeric + hyphens) and `name` (3-100 chars, no control characters). The authenticated user becomes the owner. A storage instance and agent-plan subscription (free, 50 GB, 5,000 credits/month) are created automatically. Returns the new org and trial status.
 
 **update** -- Update organization details. Returns `web_url`. Only provided fields are changed. Supports identity, branding, social links, permissions, and billing email. Requires admin or owner role.
 
@@ -1845,7 +1950,7 @@ All 19 tools with their actions organized by functional area. Each entry shows t
 
 **check-name** -- Check if a share custom name (URL name) is available.
 
-**quickshare-create** -- Create a temporary QuickShare link for a file in a workspace.
+**quickshare-create** -- Create a temporary QuickShare link for a file in a workspace. Optional `expires` (seconds, default 10,800, max 604,800 = 7 days) or `expires_at` (ISO 8601 datetime).
 
 **enable-workflow** -- Enable workflow features (tasks, worklogs, approvals, todos) on a share. Must be called before using workflow tools on the share.
 
@@ -1883,7 +1988,7 @@ All storage actions require `context_type` parameter (`workspace` or `share`) an
 
 **add-link** -- Add a share reference link node to storage.
 
-**transfer** -- Copy a node to another workspace or share storage instance.
+**transfer** -- Copy or move a node to another workspace or share storage instance. Default mode is 'copy' (keeps source). Use transfer_mode='move' to copy then trash the source (cannot move root). When mode=move, response includes source_trashed (boolean) indicating whether the source was successfully trashed.
 
 **version-list** -- List version history for a file. Returns `web_url` for the file (workspace only).
 
@@ -1921,7 +2026,7 @@ All storage actions require `context_type` parameter (`workspace` or `share`) an
 
 **stage-blob** -- Stage base64-encoded binary data as a blob for later use with the `chunk` action's `blob_ref` parameter. Pass `data` (base64 string). Returns `{ blob_id, size }`. Blobs expire after 5 minutes and are consumed on first use. Alternative to passing `data` directly in the chunk call.
 
-**text-file** -- Upload a text file in a single step. Creates an upload session, uploads the content, finalizes, and polls until stored. Returns the new file ID. Use for text-based files (code, markdown, CSV, JSON, config) instead of the multi-step chunked flow.
+**text-file** -- Upload a text file in a single step using the Fast.io single-request upload pattern. Sends the file in one multipart POST and returns the new file ID directly. Use for text-based files (code, markdown, CSV, JSON, config) instead of the multi-step chunked flow.
 
 **web-import** -- Import a file from an external URL into a workspace or share.
 
@@ -1983,7 +2088,7 @@ All comment endpoints use the path pattern `/comments/{entity_type}/{parent_id}/
 
 **list-all** -- List all comments across a workspace or share (not node-specific). Same listing params as list.
 
-**add** -- Add a comment to a specific file. Body: text (max 8,192 chars total, max 2,048 chars display text with `@[...]` mention tags stripped). Supports mention tags: `@[profile:id]`, `@[user:opaqueId:Name]`, `@[file:fileId:name.ext]`. Optional parent_comment_id (single-level threading, replies to replies auto-flatten), optional reference (type, timestamp, page, region, text_snippet for content anchoring), optional linked_entity_type (`task` or `approval`) and linked_entity_id to link the comment to a workflow entity at creation time. Uses JSON body.
+**add** -- Add a comment to a specific file. Body: text (max 8,192 chars total, max 2,048 chars display text with `@[...]` mention tags stripped). Supports mention tags: `@[profile:id]`, `@[user:opaqueId:Name]`, `@[file:fileId:name.ext]`. Optional parent_comment_id (single-level threading, replies to replies auto-flatten), optional reference (type, timestamp, page, region, text_snippet for content anchoring; exact, prefix, suffix, start_offset, end_offset for text anchoring on markdown/notes -- use type `"document"` or `"text"`), optional linked_entity_type (`task` or `approval`) and linked_entity_id to link the comment to a workflow entity at creation time. Uses JSON body.
 
 **delete** -- Delete a comment. Recursive: deleting a parent also removes all its replies.
 
@@ -2164,7 +2269,7 @@ When connecting from a headless agent (Claude Code, Cursor, Continue, etc.), the
 | `auth` | Authentication (signin, signup, API keys, PKCE, 2FA) |
 | `upload` | File uploads (chunked, text, web-import) |
 | `search` | Discover API endpoints by keyword, tag, or concept |
-| `execute` | Run JavaScript against the Fast.io API |
+| `execute` | Make authenticated API calls to Fast.io |
 
 Clients with MCP Apps support (Claude Desktop, Cline) continue to receive the full 19-tool set plus 12 app-* widget tools. Unknown clients default to the full tool set.
 
@@ -2186,35 +2291,53 @@ Parameters:
 
 ### execute Tool
 
-Write JavaScript code that uses the `fastio` object for authenticated API calls:
+Make authenticated API calls to the Fast.io REST API. Use `search` first to discover endpoints.
 
-- `fastio.get(path, params?)` -- GET request with optional query parameters
-- `fastio.post(path, body?, params?)` -- POST with form-encoded body (default API format)
-- `fastio.postJson(path, body?, params?)` -- POST with JSON body
-- `fastio.delete(path, params?)` -- DELETE request
-- `fastio.put(path, body?, params?)` -- PUT with form-encoded body
+Methods:
+- `get` -- GET request with optional query parameters
+- `post` -- POST with form-encoded body (default API format)
+- `postJson` -- POST with JSON body
+- `delete` -- DELETE request
+- `put` -- PUT with form-encoded body
 
-The auth token is injected automatically. Path parameters must be filled by the caller (replace `{workspace_id}` with the actual ID). Return a value to include it in the response. `console.log()` output is captured and returned.
+The auth token is injected automatically. Path parameters must be filled by the caller (replace `{workspace_id}` with the actual ID). For multi-step operations, make multiple sequential execute calls.
 
-```javascript
-// Example: List workspaces in an org
-return await fastio.get('/org/1234567890123456789/list/workspaces/');
+```
+execute method="get" path="/org/1234567890123456789/list/workspaces/"
 ```
 
-```javascript
-// Example: Create a folder and upload a note
-const folder = await fastio.post('/workspace/1234567890123456789/storage/root/createfolder/', {
-  name: 'reports'
-});
-const folderId = folder.node.opaque_id;
-const note = await fastio.post(`/workspace/1234567890123456789/storage/${folderId}/createnote/`, {
-  name: 'summary.md',
-  content: '# Summary\n\nKey findings from the analysis.'
-});
-return { folder: folder.node, note: note.node };
+```
+execute method="post" path="/workspace/1234567890123456789/storage/root/createfolder/" body={"name": "reports"}
+```
+
+```
+execute method="postJson" path="/workspace/1234567890123456789/storage/root/createnote/" body={"name": "summary.md", "content": "# Summary"}
 ```
 
 Parameters:
-- `code` (string, required) -- JavaScript code (async function body). Use `return` to include a value in the response.
+- `method` (enum, required) -- HTTP method: "get", "post", "postJson", "delete", "put"
+- `path` (string, required) -- API endpoint path (e.g., '/orgs/list/', '/workspace/{workspace_id}')
+- `body` (object, optional) -- Request body (form-encoded for post/put, JSON for postJson)
+- `params` (object, optional) -- Query parameters appended to the URL
 - `timeout_ms` (number, optional) -- Timeout in ms (default 30000, max 60000)
+
+#### Response Handling
+
+The execute tool handles three response types automatically:
+- **JSON** (most endpoints) -- parsed as standard Fast.io API envelope
+- **Text** (markdown, plain text, etc.) -- returned as `{ content, content_type, http_status }`
+- **Binary** (images, PDFs, etc.) -- returns metadata with guidance to use `download://` MCP resource
+
+#### Reading Notes in Code Mode
+
+Use `/readnote/` (returns JSON) instead of `/read/` (returns raw binary):
+
+```
+execute method="get" path="/workspace/{workspace_id}/storage/{node_id}/readnote/"
+```
+
+For reading uploaded files (non-notes), use the `download://` MCP resource:
+```
+resources/read uri="download://workspace/{workspace_id}/{node_id}"
+```
 

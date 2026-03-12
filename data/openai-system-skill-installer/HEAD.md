@@ -20,9 +20,7 @@ summary: >-
 
   Helps install skills. By default these are from
   https://github.com/openai/skills/tree/main/skills/.curated, but users can also
-  provide other locations. Experimental skills live in
-  https://github.com/openai/skills/tree/main/skills/.experimental and can be
-  installed the same way.
+  provide other locations.
 
   Use the helper scripts based on the task:
 
@@ -39,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-in
 github_stars: 13365
 github_forks: 747
 github_is_organization: true
-retrieved_at: 2026-03-11T07:17:31.025Z
-content_sha256: 09df0ea7921f63d51befae9fc8f71daece5ef49d7b96e35fff8b18d15d6afda7
+retrieved_at: 2026-03-12T07:18:09.951Z
+content_sha256: df58efeb75a6001d733701e7d73e24dd71b94a2a0016971f0bcfe097217888a5
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-video-frames",
-  "generated_at": "2026-03-11T07:19:39.369Z",
+  "generated_at": "2026-03-12T07:19:34.773Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-video-frames#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/video-frames/SKILL.md",
-        "retrieved_at": "2026-03-11T07:19:39.369Z",
+        "retrieved_at": "2026-03-12T07:19:34.773Z",
         "content_sha256": "7e24245498aca878d084aae61e6da9043fb52566346d3a547f6f391c9a11bde1"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-vuejs-ai-skills-vue-jsx-best-practices",
-  "generated_at": "2026-03-11T07:19:56.889Z",
+  "generated_at": "2026-03-12T07:19:48.629Z",
   "records": [
     {
       "id": "skills/skills-sh-vuejs-ai-skills-vue-jsx-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-jsx-best-practices/reference/render-function-jsx-vue-vs-react.md",
-        "retrieved_at": "2026-03-11T07:19:56.889Z",
+        "retrieved_at": "2026-03-12T07:19:48.629Z",
         "content_sha256": "da8c635b448b23360bf1c53eea02b004bb755a712a0325c8851f9c33a072c834"
       }
     }

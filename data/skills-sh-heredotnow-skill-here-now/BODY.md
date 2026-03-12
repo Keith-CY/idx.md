@@ -7,11 +7,11 @@ Base URL: `https://here.now`
 Two modes:
 
 - **Authenticated**: include `Authorization: Bearer <API_KEY>` header.
-- **Anonymous**: omit the header entirely. Artifacts expire in 24 hours with lower limits.
+- **Anonymous**: omit the header entirely. Sites expire in 24 hours with lower limits.
 
 ### Optional client attribution header
 
-You can include an optional header on artifact API calls:
+You can include an optional header on site API calls:
 
 - `X-HereNow-Client: <agent>/<tool>`
 
@@ -71,38 +71,26 @@ The browser sign-in flow (`POST /api/auth/login`) remains available for normal w
 
 ### Naming transition (backward compatibility)
 
-The API is moving to new terminology:
+The preferred API terms are:
 
-- `publish` -> `artifact`
-- `username` -> `handle`
-- `mount` -> `link`
+- `site` for published content
+- `handle` for your subdomain namespace
+- `link` for connecting a site to a handle location
 
-Backward compatibility is preserved:
+Two route families exist and are fully equivalent:
 
-- Existing routes continue to work (`/api/v1/publish`, `/api/v1/publishes`, `/api/v1/username`, `/api/v1/mounts`, etc.).
-- New alias routes are available (`/api/v1/artifact`, `/api/v1/artifacts`, `/api/v1/handle`, `/api/v1/links`).
-- New routes accept old and new request field names where applicable.
+- **Primary:** `/api/v1/publish`, `/api/v1/publishes`, `/api/v1/handle`, `/api/v1/links`
+- **Aliases:** `/api/v1/artifact`, `/api/v1/artifacts`, `/api/v1/username`, `/api/v1/mounts`
 
-Preferred aliases:
-
-- `POST /api/v1/artifact` (alias of `POST /api/v1/publish`)
-- `GET /api/v1/artifacts` (alias of `GET /api/v1/publishes`)
-- `PUT /api/v1/artifact/:slug` (alias of `PUT /api/v1/publish/:slug`)
-- `POST /api/v1/artifact/:slug/finalize` (alias of `POST /api/v1/publish/:slug/finalize`)
-- `POST /api/v1/artifact/:slug/claim` (alias of `POST /api/v1/publish/:slug/claim`)
-- `PATCH /api/v1/artifact/:slug/metadata` (alias of `PATCH /api/v1/publish/:slug/metadata`)
-- `DELETE /api/v1/artifact/:slug` (alias of `DELETE /api/v1/publish/:slug`)
-- `POST /api/v1/artifact/:slug/uploads/refresh` (alias of `POST /api/v1/publish/:slug/uploads/refresh`)
-- `POST /api/v1/handle` / `GET /api/v1/handle` / `PATCH /api/v1/handle` / `DELETE /api/v1/handle`
-- `POST /api/v1/links` / `GET /api/v1/links` / `GET|PATCH|DELETE /api/v1/links/:location`
+Both route families accept the same request bodies and return the same response shapes.
 
 ---
 
-### Create a new artifact
+### Create a new site
 
-`POST /api/v1/artifact` (alias: `POST /api/v1/publish`)
+`POST /api/v1/publish` (alias: `POST /api/v1/artifact`)
 
-Creates a new artifact with a random slug. Works with or without authentication.
+Creates a new site with a random slug. Works with or without authentication.
 
 **Request body:**
 
@@ -121,9 +109,9 @@ Creates a new artifact with a random slug. Works with or without authentication.
 }
 ```
 
-- `files` (required): array of `{ path, size, contentType, hash }`. At least one file. Paths should be relative to the artifact root (e.g. `index.html`, `assets/style.css`) — don't include a parent directory name like `my-project/index.html`.
-- `hash` (optional): SHA-256 hex digest (64 lowercase chars) of the file contents. When updating an existing artifact, files whose hash matches the previous version are skipped from `upload.uploads[]` and listed in `upload.skipped[]` instead. The server copies them automatically at finalize. Omitting `hash` gives the default behavior (all files require upload).
-- `ttlSeconds` (optional): expiry in seconds. Ignored for anonymous artifacts (always 24h).
+- `files` (required): array of `{ path, size, contentType, hash }`. At least one file. Paths should be relative to the site root (e.g. `index.html`, `assets/style.css`) — don't include a parent directory name like `my-project/index.html`.
+- `hash` (optional): SHA-256 hex digest (64 lowercase chars) of the file contents. When updating an existing site, files whose hash matches the previous version are skipped from `upload.uploads[]` and listed in `upload.skipped[]` instead. The server copies them automatically at finalize. Omitting `hash` gives the default behavior (all files require upload).
+- `ttlSeconds` (optional): expiry in seconds. Ignored for anonymous sites (always 24h).
 - `viewer` (optional): metadata for auto-viewer pages (only used when no `index.html`).
 
 **Response (authenticated):**
@@ -135,7 +123,7 @@ Creates a new artifact with a random slug. Works with or without authentication.
   "status": "pending",
   "isLive": false,
   "requiresFinalize": true,
-  "note": "Artifact created, but this slug is not live yet. Upload all files to upload.uploads[], then POST upload.finalizeUrl with {\"versionId\":\"...\"}.",
+  "note": "Site created, but this slug is not live yet. Upload all files to upload.uploads[], then POST upload.finalizeUrl with {\"versionId\":\"...\"}.",
   "upload": {
     "versionId": "01J...",
     "uploads": [
@@ -147,13 +135,13 @@ Creates a new artifact with a random slug. Works with or without authentication.
       }
     ],
     "skipped": ["assets/app.js"],
-    "finalizeUrl": "https://here.now/api/v1/artifact/bright-canvas-a7k2/finalize",
+    "finalizeUrl": "https://here.now/api/v1/publish/bright-canvas-a7k2/finalize",
     "expiresInSeconds": 3600
   }
 }
 ```
 
-**This step only creates a pending artifact. It is not complete yet.**
+**This step only creates a pending site. It is not complete yet.**
 
 - You **must upload every file** in `upload.uploads[]`.
 - Files in `upload.skipped[]` are unchanged from the previous version and will be copied server-side at finalize. Do not upload them.
@@ -169,13 +157,13 @@ Creates a new artifact with a random slug. Works with or without authentication.
   "claimUrl": "https://here.now/claim?slug=bright-canvas-a7k2&token=abc123...",
   "expiresAt": "2026-02-19T01:00:00.000Z",
   "anonymous": true,
-  "warning": "IMPORTANT: Save the claimToken and claimUrl. They are returned only once and cannot be recovered. Share the claimUrl with the user so they can keep the artifact permanently."
+  "warning": "IMPORTANT: Save the claimToken and claimUrl. They are returned only once and cannot be recovered. Share the claimUrl with the user so they can keep the site permanently."
 }
 ```
 
-**IMPORTANT: The `claimToken` and `claimUrl` are returned only once and cannot be recovered. Always save the `claimToken` and share the `claimUrl` with the user so they can claim the artifact and keep it permanently. If you lose the claim token, the artifact will expire in 24 hours with no way to save it.**
+**IMPORTANT: The `claimToken` and `claimUrl` are returned only once and cannot be recovered. Always save the `claimToken` and share the `claimUrl` with the user so they can claim the site and keep it permanently. If you lose the claim token, the site will expire in 24 hours with no way to save it.**
 
-`claimToken`, `claimUrl`, and `expiresAt` are only present for anonymous artifacts. Authenticated artifacts do not include these fields.
+`claimToken`, `claimUrl`, and `expiresAt` are only present for anonymous sites. Authenticated sites do not include these fields.
 
 ---
 
@@ -193,11 +181,11 @@ Uploads can run in parallel. Presigned URLs are valid for 1 hour.
 
 ---
 
-### Finalize an artifact
+### Finalize a site
 
-`POST /api/v1/artifact/:slug/finalize` (alias: `POST /api/v1/publish/:slug/finalize`)
+`POST /api/v1/publish/:slug/finalize` (alias: `POST /api/v1/artifact/:slug/finalize`)
 
-Makes the artifact live by flipping the slug pointer to the new version.
+Makes the site live by flipping the slug pointer to the new version.
 
 **Request body:**
 
@@ -206,8 +194,8 @@ Makes the artifact live by flipping the slug pointer to the new version.
 ```
 
 **Auth:**
-- Owned artifacts: requires `Authorization: Bearer <API_KEY>`.
-- Anonymous artifacts: no auth required for finalize.
+- Owned sites: requires `Authorization: Bearer <API_KEY>`.
+- Anonymous sites: no auth required for finalize.
 
 **Response:**
 
@@ -223,18 +211,18 @@ Makes the artifact live by flipping the slug pointer to the new version.
 
 ---
 
-### Update an existing artifact
+### Update an existing site
 
-`PUT /api/v1/artifact/:slug` (alias: `PUT /api/v1/publish/:slug`)
+`PUT /api/v1/publish/:slug` (alias: `PUT /api/v1/artifact/:slug`)
 
 Same request body as create. Returns new presigned upload URLs and a new `finalizeUrl`.
 The update response also includes `status: "pending"` and `isLive: false` to indicate the new version is not live until finalize.
 
 **Incremental deploys:** Include `hash` (SHA-256 hex) on each file. Files whose hash matches the previous version appear in `upload.skipped[]` instead of `upload.uploads[]` — no upload needed. The server copies them at finalize. This is the recommended approach for iterative development.
 
-**Auth for owned artifacts:** requires `Authorization: Bearer <API_KEY>` matching the owner.
+**Auth for owned sites:** requires `Authorization: Bearer <API_KEY>` matching the owner.
 
-**Auth for anonymous artifacts:** include `claimToken` in the request body:
+**Auth for anonymous sites:** include `claimToken` in the request body:
 
 ```json
 {
@@ -247,9 +235,9 @@ Anonymous updates do not extend the original expiration timer. Returns `410 Gone
 
 ---
 
-### Claim an anonymous artifact
+### Claim an anonymous site
 
-`POST /api/v1/artifact/:slug/claim` (alias: `POST /api/v1/publish/:slug/claim`)
+`POST /api/v1/publish/:slug/claim` (alias: `POST /api/v1/artifact/:slug/claim`)
 
 Transfers ownership to an authenticated user and removes the expiration.
 
@@ -276,11 +264,21 @@ Users can also claim by visiting the `claimUrl` in a browser and signing in.
 
 ---
 
-### Patch viewer metadata
+### Password protection
 
-`PATCH /api/v1/artifact/:slug/metadata` (alias: `PATCH /api/v1/publish/:slug/metadata`)
+Add a password to any site so visitors must authenticate before viewing. This is server-side enforcement — content is never sent to the browser until the password is verified. All files under the site are protected, not just the index page.
 
-Update title, description, og:image, or TTL without re-uploading files.
+Set or change a password via `PATCH /api/v1/publish/:slug/metadata` with `{"password": "secret"}`. Remove it with `{"password": null}`. You can also manage passwords from the dashboard via the `⋯` menu on each site.
+
+Password protection survives redeploys — it's metadata, not content. Changing or removing a password immediately invalidates all existing sessions. Requires an authenticated site (anonymous sites cannot be password-protected).
+
+---
+
+### Patch metadata
+
+`PATCH /api/v1/publish/:slug/metadata` (alias: `PATCH /api/v1/artifact/:slug/metadata`)
+
+Update title, description, og:image, TTL, or password without re-uploading files.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -293,11 +291,14 @@ Update title, description, og:image, or TTL without re-uploading files.
     "title": "Updated title",
     "description": "New description",
     "ogImagePath": "assets/cover.png"
-  }
+  },
+  "password": "secret123"
 }
 ```
 
-All fields optional. `ogImagePath` must reference an image file within the current artifact.
+All fields optional. `ogImagePath` must reference an image file within the current site.
+
+- `password`: string to set or change, `null` to remove, omit for no change. When set, visitors must enter the password before any content is served. Server-side enforcement — content is never sent to the browser without verification. Changing or removing the password immediately invalidates all existing sessions.
 
 **Response:**
 
@@ -305,19 +306,20 @@ All fields optional. `ogImagePath` must reference an image file within the curre
 {
   "success": true,
   "effectiveForRootDocument": true,
-  "note": "Viewer metadata applies because this artifact has no index.html."
+  "note": "Viewer metadata applies because this site has no index.html.",
+  "passwordProtected": true
 }
 ```
 
-If the artifact has an `index.html`, viewer metadata is stored but the site's own HTML controls what browsers see.
+If the site has an `index.html`, viewer metadata is stored but the site's own HTML controls what browsers see. `passwordProtected` is included when the `password` field was provided.
 
 ---
 
-### Delete an artifact
+### Delete a site
 
-`DELETE /api/v1/artifact/:slug` (alias: `DELETE /api/v1/publish/:slug`)
+`DELETE /api/v1/publish/:slug` (alias: `DELETE /api/v1/artifact/:slug`)
 
-Hard deletes the artifact, all versions, and the slug-index entry.
+Hard deletes the site, all versions, and the slug-index entry.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -329,11 +331,11 @@ Hard deletes the artifact, all versions, and the slug-index entry.
 
 ---
 
-### List artifacts
+### List sites
 
-`GET /api/v1/artifacts` (alias: `GET /api/v1/publishes`)
+`GET /api/v1/publishes` (alias: `GET /api/v1/artifacts`)
 
-Returns all artifacts owned by the authenticated user.
+Returns all sites owned by the authenticated user.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -341,7 +343,7 @@ Returns all artifacts owned by the authenticated user.
 
 ```json
 {
-  "artifacts": [
+  "publishes": [
     {
       "slug": "bright-canvas-a7k2",
       "siteUrl": "https://bright-canvas-a7k2.here.now/",
@@ -357,11 +359,11 @@ Returns all artifacts owned by the authenticated user.
 
 ---
 
-### Get artifact details
+### Get site details
 
-`GET /api/v1/artifact/:slug` (alias: `GET /api/v1/publish/:slug`)
+`GET /api/v1/publish/:slug` (alias: `GET /api/v1/artifact/:slug`)
 
-Returns metadata and the full file manifest for an artifact you own.
+Returns metadata and the full file manifest for a site you own.
 
 **Requires:** `Authorization: Bearer <API_KEY>` (owner only)
 
@@ -390,7 +392,7 @@ The `manifest` array lists all files in the current live version with their path
 
 ### Refresh upload URLs
 
-`POST /api/v1/artifact/:slug/uploads/refresh` (alias: `POST /api/v1/publish/:slug/uploads/refresh`)
+`POST /api/v1/publish/:slug/uploads/refresh` (alias: `POST /api/v1/artifact/:slug/uploads/refresh`)
 
 Returns fresh presigned URLs for a pending upload (same version, no new version created).
 
@@ -468,7 +470,7 @@ Deletes your handle and all links under it.
 
 `POST /api/v1/links`
 
-Links an artifact slug to a location under your handle or a custom domain.
+Links a site slug to a location under your handle or a custom domain.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -493,7 +495,7 @@ To link to a custom domain instead of your handle, add the `domain` parameter:
 }
 ```
 
-This makes `https://example.com/` serve the artifact. The domain must be active (verified).
+This makes `https://example.com/` serve the site. The domain must be active (verified).
 
 ---
 
@@ -521,7 +523,7 @@ Gets a single link by location. Use `__root__` for the root location.
 
 `PATCH /api/v1/links/:location`
 
-Changes which artifact slug a location points to.
+Changes which site slug a location points to.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -675,7 +677,7 @@ Handle and link changes are written to Cloudflare KV and may take up to 60 secon
 
 ## URL Structure
 
-Each artifact gets its own subdomain: `https://<slug>.here.now/`
+Each site gets its own subdomain: `https://<slug>.here.now/`
 
 Asset paths work naturally from the subdomain root:
 - `/styles.css`, `/images/a.jpg` resolve as expected
@@ -684,7 +686,7 @@ Asset paths work naturally from the subdomain root:
 ### Serving rules
 
 1. If `index.html` exists at root → serve it as the document.
-2. Else if exactly one file in the entire artifact → serve an auto-viewer page (images, PDF, video, audio get rich viewers; everything else gets a download page).
+2. Else if exactly one file in the entire site → serve an auto-viewer page (images, PDF, video, audio get rich viewers; everything else gets a download page).
 3. Else if an `index.html` exists in any subdirectory → serve the first one found.
 4. Otherwise → serve an auto-generated directory listing. Folders are clickable, images render as a gallery, and other files are listed with sizes. No `index.html` required.
 

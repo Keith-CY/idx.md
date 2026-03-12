@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-team-kit",
-  "generated_at": "2026-03-11T07:20:22.118Z",
+  "generated_at": "2026-03-12T07:20:05.846Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-team-kit#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryancampbell/agent-team-kit/SKILL.md",
-        "retrieved_at": "2026-03-11T07:20:22.118Z",
+        "retrieved_at": "2026-03-12T07:20:05.846Z",
         "content_sha256": "02577824f35e5cf52e69b9c42e32d7e70aff7164614ed7053da5b4a3462c3970"
       }
     }

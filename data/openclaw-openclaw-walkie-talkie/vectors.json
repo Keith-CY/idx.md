@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-walkie-talkie",
-  "generated_at": "2026-03-11T07:19:41.362Z",
+  "generated_at": "2026-03-12T07:19:36.177Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-walkie-talkie#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rubenfb23/walkie-talkie/SKILL.md",
-        "retrieved_at": "2026-03-11T07:19:41.362Z",
+        "retrieved_at": "2026-03-12T07:19:36.177Z",
         "content_sha256": "8e62b5e1b33b63fb4f5a5a707d0e9b602745e456cf24c782d3243d1339a96965"
       }
     }

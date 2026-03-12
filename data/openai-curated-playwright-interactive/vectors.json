@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-playwright-interactive",
-  "generated_at": "2026-03-11T07:17:30.019Z",
+  "generated_at": "2026-03-12T07:18:09.499Z",
   "records": [
     {
       "id": "skills/openai-curated-playwright-interactive#head",
@@ -18,8 +18,8 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/playwright-interactive/SKILL.md",
-        "retrieved_at": "2026-03-11T07:17:30.019Z",
-        "content_sha256": "92a0882bc34be10451c7b077f20bb915a2711e68e1baa9ccb10f6915b5568881"
+        "retrieved_at": "2026-03-12T07:18:09.499Z",
+        "content_sha256": "f6c1155d923e6ae3ccc12abfef2266f119f8e9546df2ddeee1f5eb369845a0a1"
       }
     }
   ]

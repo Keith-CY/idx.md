@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-design-commands-design-system",
-  "generated_at": "2026-03-11T07:17:52.335Z",
+  "generated_at": "2026-03-12T07:18:22.466Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-design-commands-design-system#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/commands/design-system.md",
-        "retrieved_at": "2026-03-11T07:17:52.335Z",
+        "retrieved_at": "2026-03-12T07:18:22.466Z",
         "content_sha256": "8e711fff953e0c71cd3b32bdb1833d158c697802345d55618b67ba7d7fdee984"
       }
     }

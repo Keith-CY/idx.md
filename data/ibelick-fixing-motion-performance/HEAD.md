@@ -32,6 +32,6 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motio
 github_stars: 942
 github_forks: 42
 github_is_organization: false
-retrieved_at: 2026-03-11T07:17:28.828Z
+retrieved_at: 2026-03-12T07:18:08.804Z
 content_sha256: 0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9
 ---

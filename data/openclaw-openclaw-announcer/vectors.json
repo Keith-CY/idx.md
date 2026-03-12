@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-announcer",
-  "generated_at": "2026-03-11T07:20:32.208Z",
+  "generated_at": "2026-03-12T07:20:12.930Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-announcer#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/announcer/SKILL.md",
-        "retrieved_at": "2026-03-11T07:20:32.208Z",
+        "retrieved_at": "2026-03-12T07:20:12.930Z",
         "content_sha256": "6942f51da95e3991773ea9679555091415b054283c662108e34b6194dca6a635"
       }
     }

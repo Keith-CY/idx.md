@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aws-security-scanner",
-  "generated_at": "2026-03-11T07:18:03.080Z",
+  "generated_at": "2026-03-12T07:18:28.764Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aws-security-scanner#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/spclaudehome/aws-security-scanner/SKILL.md",
-        "retrieved_at": "2026-03-11T07:18:03.080Z",
+        "retrieved_at": "2026-03-12T07:18:28.764Z",
         "content_sha256": "81666b276d97b3ea29d817f9449eb274bb2fb6213d0d3852fae5a20b7cf173b2"
       }
     }

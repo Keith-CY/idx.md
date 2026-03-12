@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-post-at",
-  "generated_at": "2026-03-11T07:19:05.114Z",
+  "generated_at": "2026-03-12T07:19:11.265Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-post-at#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/post-at/SKILL.md",
-        "retrieved_at": "2026-03-11T07:19:05.114Z",
+        "retrieved_at": "2026-03-12T07:19:11.265Z",
         "content_sha256": "d93e507270af700f1aa080e887d37ffbc83cb59bcdf11b8bf2347da0096ac60f"
       }
     }
