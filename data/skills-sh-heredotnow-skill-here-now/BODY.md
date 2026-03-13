@@ -24,9 +24,13 @@ Examples:
 
 This helps here.now debug publish reliability by client. Missing or invalid values are ignored; publishes are never rejected because this header is absent.
 
-### Getting an API key (agent-assisted sign-up)
+### Getting an API key
 
-Agents can complete sign-up without requiring the user to open the dashboard:
+There are two ways to obtain an API key:
+
+#### Option A: Agent-assisted sign-up
+
+The sign-up flow can be completed entirely within the agent, without requiring the user to open a browser.
 
 **1. Request a one-time code by email:**
 
@@ -65,26 +69,27 @@ Response:
 
 If the code is invalid or expired, verify returns `400`.
 
-The browser sign-in flow (`POST /api/auth/login`) remains available for normal web sessions.
+**4. Save the API key to the credentials file:**
+
+```bash
+mkdir -p ~/.herenow && echo "<API_KEY>" > ~/.herenow/credentials && chmod 600 ~/.herenow/credentials
+```
+
+#### Option B: Dashboard sign-up
+
+Users can also sign in at [here.now](https://here.now) and copy their API key from the dashboard. The key should then be saved to the credentials file using the same command as step 4 above.
+
+### Storing the API key
+
+The publish script reads the API key from these sources (first match wins):
+
+1. `--api-key {key}` flag (CI/scripting only — avoid in interactive use)
+2. `$HERENOW_API_KEY` environment variable
+3. `~/.herenow/credentials` file (recommended)
+
+The credentials file is the recommended storage method. Avoid passing the key via CLI flags in interactive sessions.
 
 ## Endpoints
-
-### Naming transition (backward compatibility)
-
-The preferred API terms are:
-
-- `site` for published content
-- `handle` for your subdomain namespace
-- `link` for connecting a site to a handle location
-
-Two route families exist and are fully equivalent:
-
-- **Primary:** `/api/v1/publish`, `/api/v1/publishes`, `/api/v1/handle`, `/api/v1/links`
-- **Aliases:** `/api/v1/artifact`, `/api/v1/artifacts`, `/api/v1/username`, `/api/v1/mounts`
-
-Both route families accept the same request bodies and return the same response shapes.
-
----
 
 ### Create a new site
 
@@ -274,6 +279,52 @@ Password protection survives redeploys — it's metadata, not content. Changing 
 
 ---
 
+### Duplicate a site
+
+`POST /api/v1/publish/:slug/duplicate`
+
+Creates a complete server-side copy of the site under a new slug. All files are copied server-side — no client upload or finalize step needed. The new site is immediately live.
+
+Copies all files and viewer metadata. Does not copy password protection, handle/domain links, or TTL.
+
+**Requires:** `Authorization: Bearer <API_KEY>` (must own the source site)
+
+**Request body:** (optional)
+
+```json
+{
+  "viewer": {
+    "title": "My Copy",
+    "description": "Copy of bright-canvas-a7k2"
+  }
+}
+```
+
+- `viewer` (optional): Shallow-merged with the source site's viewer metadata. Only provided fields are overridden; omitted fields are preserved from the source. If `viewer` is omitted entirely, the source's metadata is copied as-is.
+
+**Response:**
+
+```json
+{
+  "slug": "warm-lake-f3k9",
+  "siteUrl": "https://warm-lake-f3k9.here.now/",
+  "sourceSlug": "bright-canvas-a7k2",
+  "status": "active",
+  "currentVersionId": "01J...",
+  "filesCount": 36
+}
+```
+
+| Status | Condition |
+|--------|-----------|
+| 401 | Missing or invalid API key |
+| 403 | API key doesn't match the source site's owner |
+| 404 | Source slug doesn't exist or is deleted |
+| 409 | Source site is in `pending` status (not yet finalized) |
+| 429 | Rate limit exceeded |
+
+---
+
 ### Patch metadata
 
 `PATCH /api/v1/publish/:slug/metadata` (alias: `PATCH /api/v1/artifact/:slug/metadata`)
@@ -406,7 +457,7 @@ Use when presigned URLs expire mid-upload (they're valid for 1 hour).
 
 `POST /api/v1/handle`
 
-Registers your handle for `handle.here.now`.
+Registers your handle for `handle.here.now`. Requires a paid plan (Hobby or above). Returns 403 with `upgrade_url` on the free plan.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -444,7 +495,7 @@ Returns your current handle and links.
 
 `PATCH /api/v1/handle`
 
-Changes an existing handle to a new one.
+Changes an existing handle to a new one. Requires a paid plan (Hobby or above). Returns 403 with `upgrade_url` on the free plan.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 

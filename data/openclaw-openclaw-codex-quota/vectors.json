@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-codex-quota",
-  "generated_at": "2026-03-12T07:18:33.919Z",
+  "generated_at": "2026-03-13T07:18:44.678Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-codex-quota#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/codex-quota/SKILL.md",
-        "retrieved_at": "2026-03-12T07:18:33.919Z",
+        "retrieved_at": "2026-03-13T07:18:44.678Z",
         "content_sha256": "ca04ab58001e2528822a576dd57c1b7cb80d39d41b9c47ef8d886b1c1c643c99"
       }
     }

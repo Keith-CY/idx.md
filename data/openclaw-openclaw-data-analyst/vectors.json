@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-data-analyst",
-  "generated_at": "2026-03-12T07:20:31.856Z",
+  "generated_at": "2026-03-13T07:21:30.463Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-data-analyst#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/oyi77/data-analyst/SKILL.md",
-        "retrieved_at": "2026-03-12T07:20:31.856Z",
+        "retrieved_at": "2026-03-13T07:21:30.463Z",
         "content_sha256": "90a1ca28d63ca04ff4ec6b518b28f07db6e24ffb25eab9ba7ec3437e82c4abef"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-behavioral-invariant-monitor",
-  "generated_at": "2026-03-12T07:20:19.587Z",
+  "generated_at": "2026-03-13T07:21:12.012Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-behavioral-invariant-monitor#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andyxinweiminicloud/behavioral-invariant-monitor/SKILL.md",
-        "retrieved_at": "2026-03-12T07:20:19.587Z",
+        "retrieved_at": "2026-03-13T07:21:12.012Z",
         "content_sha256": "b15a58a4860745f6b17c81127f56f8d16aa7a9650eabc4d9d91fc6620e3fc436"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nb",
-  "generated_at": "2026-03-12T07:19:01.636Z",
+  "generated_at": "2026-03-13T07:19:23.406Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nb#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bjesuiter/nb/SKILL.md",
-        "retrieved_at": "2026-03-12T07:19:01.636Z",
+        "retrieved_at": "2026-03-13T07:19:23.406Z",
         "content_sha256": "15e931e15ca5ca8bcfad0ac7df5e0c24897952528184702e4dd7b58da9c22b94"
       }
     }

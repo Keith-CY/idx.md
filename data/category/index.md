@@ -6,7 +6,7 @@
 | Apple Apps & Services | 38 | /category/apple-apps-services/index.md |
 | Browser Automation | 83 | /category/browser-automation/index.md |
 | Calendar & Scheduling | 43 | /category/calendar-scheduling/index.md |
-| Clawdbot Tools | 101 | /category/clawdbot-tools/index.md |
+| Clawdbot Tools | 100 | /category/clawdbot-tools/index.md |
 | CLI Utilities | 96 | /category/cli-utilities/index.md |
 | Coding Agents & IDEs | 77 | /category/coding-agents-ides/index.md |
 | Communication | 94 | /category/communication/index.md |
@@ -21,7 +21,7 @@
 | Marketing & Sales | 119 | /category/marketing-sales/index.md |
 | Media & Streaming | 59 | /category/media-streaming/index.md |
 | Moltbook | 34 | /category/moltbook/index.md |
-| Notes & PKM | 77 | /category/notes-pkm/index.md |
+| Notes & PKM | 76 | /category/notes-pkm/index.md |
 | PDF & Documents | 53 | /category/pdf-documents/index.md |
 | Personal Development | 53 | /category/personal-development/index.md |
 | Productivity Tasks | 132 | /category/productivity-tasks/index.md |
@@ -32,5 +32,5 @@
 | Smart Home & IoT | 55 | /category/smart-home-iot/index.md |
 | Speech & Transcription | 52 | /category/speech-transcription/index.md |
 | Transportation | 67 | /category/transportation/index.md |
-| Uncategorized | 535 | /category/uncategorized/index.md |
-| Web Frontend Development | 70 | /category/web-frontend-development/index.md |
+| Uncategorized | 534 | /category/uncategorized/index.md |
+| Web Frontend Development | 69 | /category/web-frontend-development/index.md |

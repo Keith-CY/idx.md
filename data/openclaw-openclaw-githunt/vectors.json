@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-githunt",
-  "generated_at": "2026-03-12T07:18:45.631Z",
+  "generated_at": "2026-03-13T07:19:01.251Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-githunt#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mordka/githunt/SKILL.md",
-        "retrieved_at": "2026-03-12T07:18:45.631Z",
+        "retrieved_at": "2026-03-13T07:19:01.251Z",
         "content_sha256": "a26bc4299eb57d15d6783ca862ac61c952fbc6e3924d6a75c52fd257567175f4"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-find-stl",
-  "generated_at": "2026-03-12T07:18:42.277Z",
+  "generated_at": "2026-03-13T07:18:56.716Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-find-stl#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/find-stl/SKILL.md",
-        "retrieved_at": "2026-03-12T07:18:42.277Z",
+        "retrieved_at": "2026-03-13T07:18:56.716Z",
         "content_sha256": "d2b647653141c07e9944cd372681ca4d7289fdf4fd69fe146bf13ff03d928bdb"
       }
     }

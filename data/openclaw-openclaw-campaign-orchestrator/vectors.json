@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-campaign-orchestrator",
-  "generated_at": "2026-03-12T07:18:30.839Z",
+  "generated_at": "2026-03-13T07:18:39.548Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-campaign-orchestrator#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/campaign-orchestrator/SKILL.md",
-        "retrieved_at": "2026-03-12T07:18:30.839Z",
+        "retrieved_at": "2026-03-13T07:18:39.548Z",
         "content_sha256": "b8e9c4132525b0cf13e52c41a99c378073518690220ad763feb1313870b35846"
       }
     }

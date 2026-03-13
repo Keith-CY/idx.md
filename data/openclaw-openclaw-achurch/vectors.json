@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-achurch",
-  "generated_at": "2026-03-12T07:19:56.893Z",
+  "generated_at": "2026-03-13T07:20:39.267Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-achurch#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasgeeksinthewood/achurch/SKILL.md",
-        "retrieved_at": "2026-03-12T07:19:56.893Z",
+        "retrieved_at": "2026-03-13T07:20:39.267Z",
         "content_sha256": "d1608bbbb4c33048bee28256106a54a5c970f5f3ece60ec15fd93b7afda3179c"
       }
     }

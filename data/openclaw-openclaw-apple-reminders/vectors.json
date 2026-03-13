@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apple-reminders",
-  "generated_at": "2026-03-12T07:20:14.691Z",
+  "generated_at": "2026-03-13T07:21:05.089Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apple-reminders#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/apple-reminders/SKILL.md",
-        "retrieved_at": "2026-03-12T07:20:14.691Z",
+        "retrieved_at": "2026-03-13T07:21:05.089Z",
         "content_sha256": "0cbe33ba91010d54e2c53e20500ffc1fd8320b507b1ba8fcb5cf3170487a5918"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-commands-pipeline-review",
-  "generated_at": "2026-03-12T07:18:17.186Z",
+  "generated_at": "2026-03-13T07:18:16.732Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-commands-pipeline-review#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/commands/pipeline-review.md",
-        "retrieved_at": "2026-03-12T07:18:17.186Z",
+        "retrieved_at": "2026-03-13T07:18:16.732Z",
         "content_sha256": "314ea28094dfe682e0913c7f4b1d4349e72be4ce404ae88d62cf6bceab08659d"
       }
     }

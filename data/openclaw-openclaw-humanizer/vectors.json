@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-humanizer",
-  "generated_at": "2026-03-12T07:18:49.338Z",
+  "generated_at": "2026-03-13T07:19:06.345Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-humanizer#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/biostartechnology/humanizer/SKILL.md",
-        "retrieved_at": "2026-03-12T07:18:49.338Z",
+        "retrieved_at": "2026-03-13T07:19:06.345Z",
         "content_sha256": "d7ce483d368e430185b707611ce82ef4206021da28cf306d75d4b64f1167416f"
       }
     }

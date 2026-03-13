@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tailscale",
-  "generated_at": "2026-03-12T07:19:27.425Z",
+  "generated_at": "2026-03-13T07:19:59.040Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tailscale#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/tailscale/SKILL.md",
-        "retrieved_at": "2026-03-12T07:19:27.425Z",
+        "retrieved_at": "2026-03-13T07:19:59.040Z",
         "content_sha256": "d1c3bfd4803da02223015558001ed2b2dc975baf8ff4bf3ed011b2cc08e29603"
       }
     }

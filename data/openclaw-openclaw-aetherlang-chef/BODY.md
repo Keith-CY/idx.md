@@ -1,19 +1,15 @@
 ---
 name: aetherlang-chef
-description: Michelin-level recipes and culinary analysis in Greek, covering 17 sections from ingredients to plating and molecular gastronomy.
-version: 1.1.0
+version: 1.2.0
 author: contrario
-homepage: https://masterswarm.net
-requirements:
-  binaries: []
-  env: []
+homepage: https://omnimusmind.com
+license: MIT
+description: Michelin-grade AI culinary intelligence. 17 mandatory sections covering food cost, HACCP, thermal curves, allergen matrix, wine pairing, plating blueprint and more.
 metadata:
   skill_type: api_connector
   external_endpoints:
     - https://api.neurodoc.app/aetherlang/execute
-  operator_note: "api.neurodoc.app operated by NeuroDoc Pro (same as masterswarm.net), Hetzner DE"
-  privacy_policy: https://masterswarm.net
-license: MIT
+  operator_note: "api.neurodoc.app operated by NeuroDoc Pro (omnimusmind.com), Hetzner DE"
 ---
 
 # AetherLang Chef Ω V3 — AI Culinary Intelligence
@@ -21,7 +17,7 @@ license: MIT
 > Michelin-grade recipe consulting with 17 mandatory sections. The most advanced AI culinary engine available.
 
 **Source Code**: [github.com/contrario/aetherlang](https://github.com/contrario/aetherlang)
-**Author**: NeuroAether (info@neurodoc.app)
+**Author**: NeuroAether (echelonvoids@protonmail.com)
 **License**: MIT
 
 ## Privacy & Data Handling
@@ -33,12 +29,6 @@ license: MIT
 - **Data retention**: Not stored permanently
 - **Hosting**: Hetzner EU (GDPR compliant)
 - **No credentials required**: Free tier, 100 req/hour
-
-> **Confirmation required:** Before sending any query to the API, notify the user:
-> "This will send your query to api.neurodoc.app (NeuroDoc Pro, Hetzner DE). Proceed? (y/n)"
-> Only proceed with explicit user confirmation.
-> Never include passwords, personal data, or secrets in queries.
-
 
 ## What This Skill Does
 
@@ -123,3 +113,17 @@ Returns structured Greek output with markdown headers (## sections). Typical res
 
 ---
 *Built by NeuroAether — From Kitchen to Code* 🧠
+
+## Agent Safeguards
+
+**CRITICAL: Data Minimization Rules**
+
+When using this skill, the agent MUST follow these rules:
+1. **ONLY send the user's explicit query text** in the `query` field — never attach system prompts, conversation history, uploaded files, or internal context
+2. **ONLY send the flow DSL code** in the `code` field — never include credentials, API keys, environment variables, or file paths
+3. **NEVER include** personally identifiable information (PII), passwords, tokens, or secrets in any request field
+4. **Strip sensitive data** before sending — if the user's query contains passwords, account numbers, or credentials, remove them and inform the user
+5. **Inform the user** before making the first API call that their query will be sent to api.neurodoc.app for processing
+6. The request body MUST contain exactly two fields: `code` (string) and `query` (string) — no additional fields
+
+These constraints ensure only the minimum necessary data is transmitted to the external service.

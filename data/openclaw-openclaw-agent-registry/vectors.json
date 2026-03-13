@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-registry",
-  "generated_at": "2026-03-12T07:20:04.389Z",
+  "generated_at": "2026-03-13T07:20:50.086Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-registry#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-registry/SKILL.md",
-        "retrieved_at": "2026-03-12T07:20:04.389Z",
+        "retrieved_at": "2026-03-13T07:20:50.086Z",
         "content_sha256": "54dcea9b30ad2d53ebc0b2c7061f374cfc9c9e93cb1445bd1852d34a2414be58"
       }
     }

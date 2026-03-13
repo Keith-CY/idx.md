@@ -35,6 +35,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/jupyter
 github_stars: 13365
 github_forks: 747
 github_is_organization: true
-retrieved_at: 2026-03-12T07:18:09.198Z
+retrieved_at: 2026-03-13T07:17:59.453Z
 content_sha256: 62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb
 ---

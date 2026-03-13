@@ -16,6 +16,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/lucasyao1985/c
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-12T07:18:06.771Z
+retrieved_at: 2026-03-13T07:17:56.173Z
 content_sha256: 32c9d3c6feeb9227b1022db18f1680bd9808baae00cd9d72995f6251f1d0759b
 ---

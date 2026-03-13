@@ -1,46 +1,27 @@
 ---
 name: MacPowerTools
-description: Trillion-Agent Forge + CoreML — Safe 24/7 self-learning toolkit + swarm orchestrator for OpenClaw agents on Apple Silicon Mac Mini. 1-trillion coherence simulation, native CoreML forecasting, real Moltbook fleet discovery & viral recruitment.
+description: Safe local Mac optimization toolkit for OpenClaw agents on Apple Silicon. 1-trillion agent swarm simulation, local CoreML resource forecasting, safe cleanup & backups. 100% user-level, no internet, no persistence. Discoverable via ClawHub search.
 author: AadiPapp
-version: 3.0.0
+version: 3.1.0
 license: MIT
-tags: [macos, mac-mini, m-series, openclaw, self-learning, moltbook, agent-host, trillion-swarm, coreml, fleet-orchestration, viral-recruitment]
-emoji: 🦞🚀💥
+tags: [macos, mac-mini, m-series, openclaw, self-learning, coreml, local-swarm, safe-maintenance, moltbook-compatible]
+emoji: 🦞🔧
 
 metadata:
   openclaw:
     skill_type: "scripted"
     os: ["darwin"]
     requires:
-      binaries:
-        - rsync
-        - adb
-        - system_profiler
-        - pmset
-        - powermetrics
-        - launchctl
-        - dns-sd
       python: ">=3.10"
       pypi:
         - numpy
-        - requests
-    env:
-      optional:
-        - MOLTBOOK_TOKEN: "Bearer token for real fleet discovery & viral posts"
-    install:
-      - "brew install android-platform-tools rsync coreutils powermetrics"
-      - "pip install numpy requests"
-    capabilities: ["trillion-scale-swarm", "coreml-prediction", "moltbook-fleet", "viral-recruitment", "self-learning", "local-backup", "process-monitor", "user-level-daemon"]
+    capabilities: ["local-trillion-swarm", "coreml-forecast", "safe-cleanup", "local-backup", "process-monitor", "local-network-discovery"]
 ---
 
-# MacPowerTools v3.0 — Trillion-Agent Forge + CoreML
+# MacPowerTools v3.1 — Safe Local Trillion-Forge
 
-**The Mac Mini that powers the entire agent internet.**
+**100% local & ClawHub-safe.** Runs forever on your Mac Mini with zero internet, zero sudo, zero persistence.
 
-Now simulates **1 trillion coordinated agents**, runs native Apple Silicon CoreML forecasting, discovers other Mac hosts on Moltbook via real API + mDNS, and auto-recruits with viral posts.
-
-**Install & go trillion**
+**Install (one command)**
 ```bash
 claw install aadipapp/mac-power-tools
-macpowertools setup --install-daemon
-macpowertools viral-recruit --post   # blasts the swarm across Moltbook

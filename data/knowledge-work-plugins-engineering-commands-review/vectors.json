@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-commands-review",
-  "generated_at": "2026-03-12T07:18:23.861Z",
+  "generated_at": "2026-03-13T07:18:28.655Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-commands-review#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/commands/review.md",
-        "retrieved_at": "2026-03-12T07:18:23.861Z",
+        "retrieved_at": "2026-03-13T07:18:28.655Z",
         "content_sha256": "b4870206136bc78f85a93f11005a2c037883e10ab794d7dda1306cf1a217cef7"
       }
     }
