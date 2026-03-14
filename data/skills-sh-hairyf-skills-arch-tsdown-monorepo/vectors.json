@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-hairyf-skills-arch-tsdown-monorepo",
-  "generated_at": "2026-03-13T07:18:19.855Z",
+  "generated_at": "2026-03-14T07:14:49.503Z",
   "records": [
     {
       "id": "skills/skills-sh-hairyf-skills-arch-tsdown-monorepo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/arch-tsdown-monorepo/references/core-overview.md",
-        "retrieved_at": "2026-03-13T07:18:19.855Z",
+        "retrieved_at": "2026-03-14T07:14:49.503Z",
         "content_sha256": "0e08a66c2488d2e14e8c56d3258df2b5b1fba61c011bf885004de91c427ed8a9"
       }
     }

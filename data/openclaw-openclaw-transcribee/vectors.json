@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-transcribee",
-  "generated_at": "2026-03-13T07:20:04.789Z",
+  "generated_at": "2026-03-14T07:17:02.553Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-transcribee#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsfabioroma/transcribee/SKILL.md",
-        "retrieved_at": "2026-03-13T07:20:04.789Z",
+        "retrieved_at": "2026-03-14T07:17:02.553Z",
         "content_sha256": "a9d564f7c0e9979fcc65a9782db99a20ddbb32fc71a8139e3d79961dbf75b021"
       }
     }

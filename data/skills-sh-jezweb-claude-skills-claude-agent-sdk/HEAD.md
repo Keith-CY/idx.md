@@ -5,28 +5,27 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.2.74
+  ## 0.2.76
 
-  - Added `renameSession(sessionId, title, opts?)` for renaming session files
+  - Added `forkSession(sessionId, opts?)` for branching conversations from a
+  point
 
-  - Fixed `import type` from `@anthropic-ai/claude-agent-sdk/sdk-tools` failing
-  under NodeNext/Bundler module resolution (missing exports map entry since
-  v0.2.69)
+  - Added `cancel_async_message` control subtype to drop a queued user message
+  by UUID before execution
 
-  - Fixed skills with `user-invocable: false` being included in
-  `supportedCommands()` and the `system:init` message's `slash_commands` /
-  `skills` lists
+  - Added `planFilePath` field to `ExitPlanMode` tool input for hooks and SDK
+  consumers
 
-  - Updated to parity with Claude Code v2.1.74
+  - Added MCP elicitation hook types and `SDKElicitationCompleteMessage` system
+  message for handling MCP server input requests programmatically
 
-  ## 0.2.73
+  - Updated to parity with Claude Code v2.1.76
 
-  - Fixed `options.env` being overridden by the `~/.claude/settings.json` env
-  block when not using `user` as a `settingSources` option
+  ## 0.2.75
 
-  - Updated to parity with Claude Code v2.1.73
+  - Added `tag` and `createdAt` fields to `SDKSessionInfo`
 
-  ## 0.2.72
+  - Added `getSessionInfo(sessionId, opts?)` for single-session metadata lookup
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +35,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:25.470Z
-content_sha256: 73a67ceb690ec10b1a40c4ca3da2f7a8f59c982c44ba9b13540599a83f0d54a8
+retrieved_at: 2026-03-14T07:14:56.052Z
+content_sha256: 2c2e4e5e0a22198adb75c5cf08a8877ec5450761577802af0aa1f677a4a79b98
 ---

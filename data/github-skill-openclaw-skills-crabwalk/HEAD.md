@@ -15,6 +15,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/luccast/public
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:56.459Z
+retrieved_at: 2026-03-14T07:14:24.689Z
 content_sha256: e417b0d19b8420973cd6010e402e1a8b593f161e66fad3aee82389ab895e54fd
 ---

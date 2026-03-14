@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-recipe-to-list",
-  "generated_at": "2026-03-13T07:19:43.494Z",
+  "generated_at": "2026-03-14T07:16:36.433Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-recipe-to-list#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/recipe-to-list/SKILL.md",
-        "retrieved_at": "2026-03-13T07:19:43.494Z",
+        "retrieved_at": "2026-03-14T07:16:36.433Z",
         "content_sha256": "1e6e636ba1ab9e6004b86dd84a265799f0de23b3728184d2994a01a5704435a0"
       }
     }

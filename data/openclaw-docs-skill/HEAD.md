@@ -7,27 +7,31 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying and managing a self-hosted AI agent gateway,
-  configuring multi-channel messaging (WhatsApp, Telegram, Discord, iMessage,
-  etc.), setting up agent workspaces and sessions, creating custom skills,
-  automating workflows with cron jobs and webhooks, or troubleshooting
-  gateway/channel connectivity issues.
+  description: Use when deploying, configuring, or troubleshooting OpenClaw — a
+  self-hosted multi-channel AI gateway. Reach for this skill when agents need to
+  set up channels (WhatsApp, Telegram, Discord, etc.), configure models and
+  authentication, manage sessions and memory, create custom skills, or debug
+  gateway/channel issues.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill Reference
+  # OpenClaw Skill
 
-  ## Product Summary
+  ## Product summary
 
-  OpenClaw is a self-hosted WebSocket gateway that connects AI agents to
-  multiple messaging platforms (WhatsApp, Telegram, Discord, iMessage, Slack,
-  Signal, and more) simultaneously. It runs on any OS and manages sessions,
-  routing, authentication, and tool execution for coding agents. The primary
-  config file is `~/.openclaw/openclaw.json` (JSON5 format). Key CLI entry
-  point: `openclaw` command. Primary docs: https://docs.openclaw.ai
+  OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp,
+  Telegram, Discord, iMessage, Slack, Signal, and more) to embedded AI agents.
+  It runs on any OS (macOS, Linux, Windows) and uses the pi-mono SDK for agent
+  runtime. The primary config file is `~/.openclaw/openclaw.json` (JSON5
+  format). Key CLI entry point: `openclaw` (install via `npm install -g
+  openclaw@latest` or the install script). The gateway runs as a service or
+  foreground process and exposes a WebSocket API plus a browser Control UI at
+  `http://127.0.0.1:18789/` by default. Sessions are stored as JSONL transcripts
+  under `~/.openclaw/agents/<agentId>/sessions/`. See the full docs at
+  https://docs.openclaw.ai.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -35,6 +39,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:04.384Z
-content_sha256: 0379db933bfa3c77283b1cad3d8e233ea9fa2634d7886b9e4c2b89058275a8b7
+retrieved_at: 2026-03-14T07:14:35.037Z
+content_sha256: dfa5686cf1c8ed05489fc2d6b8a5ab40b1798e496ac22707dd6596af0de5ae16
 ---

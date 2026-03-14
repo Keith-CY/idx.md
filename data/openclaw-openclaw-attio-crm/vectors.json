@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-attio-crm",
-  "generated_at": "2026-03-13T07:18:35.695Z",
+  "generated_at": "2026-03-14T07:15:08.233Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-attio-crm#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/attio-crm/SKILL.md",
-        "retrieved_at": "2026-03-13T07:18:35.695Z",
+        "retrieved_at": "2026-03-14T07:15:08.233Z",
         "content_sha256": "53aa4eca1a98686fb8052127a297ca818fd34a97bdda0ac9d95ba1d3b0457994"
       }
     }

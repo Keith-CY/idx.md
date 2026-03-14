@@ -37,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/render-
 github_stars: 13365
 github_forks: 747
 github_is_organization: true
-retrieved_at: 2026-03-13T07:18:00.102Z
+retrieved_at: 2026-03-14T07:14:29.603Z
 content_sha256: c17c75adeb1834ed5cee1e440a651ae476c4101cd63762fcd9a58eada917552d
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-finance-skills-reconciliation-skill",
-  "generated_at": "2026-03-13T07:18:12.546Z",
+  "generated_at": "2026-03-14T07:14:42.117Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-finance-skills-reconciliation-skill#head",
@@ -21,8 +21,8 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/reconciliation/SKILL.md",
-        "retrieved_at": "2026-03-13T07:18:12.546Z",
-        "content_sha256": "3412ddd23f36ab61a2fd8b664982f127a533469f8f707e59499fa1e7380e7d5d"
+        "retrieved_at": "2026-03-14T07:14:42.117Z",
+        "content_sha256": "aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6"
       }
     }
   ]

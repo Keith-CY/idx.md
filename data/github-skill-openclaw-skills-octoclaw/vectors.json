@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-octoclaw",
-  "generated_at": "2026-03-13T07:17:57.182Z",
+  "generated_at": "2026-03-14T07:14:25.516Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-octoclaw#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/peterhanily/octoclaw-print/SKILL.md",
-        "retrieved_at": "2026-03-13T07:17:57.182Z",
+        "retrieved_at": "2026-03-14T07:14:25.516Z",
         "content_sha256": "435fe716ecbd98b102532d1f0fe2e19f27b4eaba0f0d19993c3e51ec6dee3628"
       }
     }

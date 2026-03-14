@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-blogburst",
-  "generated_at": "2026-03-13T07:21:14.452Z",
+  "generated_at": "2026-03-14T07:18:28.618Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-blogburst#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shensi8312/blogburst/SKILL.md",
-        "retrieved_at": "2026-03-13T07:21:14.452Z",
+        "retrieved_at": "2026-03-14T07:18:28.618Z",
         "content_sha256": "566dd63703414600acfd02a6ba13fc062ee5c7117774ca44f164219ba0b49e7d"
       }
     }

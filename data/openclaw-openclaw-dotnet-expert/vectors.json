@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dotnet-expert",
-  "generated_at": "2026-03-13T07:21:32.703Z",
+  "generated_at": "2026-03-14T07:18:52.129Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dotnet-expert#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jgarrison929/dotnet-expert/SKILL.md",
-        "retrieved_at": "2026-03-13T07:21:32.703Z",
+        "retrieved_at": "2026-03-14T07:18:52.129Z",
         "content_sha256": "fe52afa06543b8b565bf7bf0061ee5740ca76c5743262a6ece57340f5896dce8"
       }
     }

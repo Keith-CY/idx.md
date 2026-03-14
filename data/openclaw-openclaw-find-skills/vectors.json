@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-find-skills",
-  "generated_at": "2026-03-13T07:18:56.628Z",
+  "generated_at": "2026-03-14T07:15:35.458Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-find-skills#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jimliuxinghai/find-skills/SKILL.md",
-        "retrieved_at": "2026-03-13T07:18:56.628Z",
+        "retrieved_at": "2026-03-14T07:15:35.458Z",
         "content_sha256": "54b44dc9539df865fbb060f62fb062e8232e765852a0cf14c38301fe0c1eb264"
       }
     }

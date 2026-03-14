@@ -39,7 +39,6 @@
   <url><loc>https://idx.md/github-markup-readme/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-actionbook-rust-skills-m04-zero-cost/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-agno-agi-agno-git-workflow-cdbf56f5/BODY.md</loc></url>
-  <url><loc>https://idx.md/github-skill-alvarobartt-hf-mem-hf-mem/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-anthropics-knowledge-work-plugins-call-prep/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-composiohq-awesome-claude-skills-ip2location-io-automation-e171a20b/BODY.md</loc></url>
@@ -118,7 +117,6 @@
   <url><loc>https://idx.md/industry/finance/index.md</loc></url>
   <url><loc>https://idx.md/industry/index.md</loc></url>
   <url><loc>https://idx.md/industry/uncategorized/index.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-bio-research-commands-start/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-bio-research-skills-instrument-data-to-allotrope-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-bio-research-skills-nextflow-development-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-bio-research-skills-scientific-problem-selection-skill/BODY.md</loc></url>
@@ -126,118 +124,40 @@
   <url><loc>https://idx.md/knowledge-work-plugins-bio-research-skills-single-cell-rna-qc-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-cowork-plugin-management-skills-create-cowork-plugin-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-commands-draft-response/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-commands-escalate/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-commands-kb-article/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-commands-research/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-commands-triage/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-customer-support-skills-customer-research-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-skills-escalation-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-skills-knowledge-management-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-customer-support-skills-response-drafting-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-customer-support-skills-ticket-triage-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-commands-analyze/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-commands-build-dashboard/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-commands-create-viz/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-commands-explore-data/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-commands-validate/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-commands-write-query/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-data-skills-data-context-extractor-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-skills-data-exploration-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-skills-data-validation-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-data-skills-data-visualization-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-data-skills-interactive-dashboard-builder-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-data-skills-sql-queries-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-data-skills-statistical-analysis-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-commands-accessibility/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-commands-critique/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-commands-design-system/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-commands-handoff/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-commands-research-synthesis/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-commands-ux-copy/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-design-skills-accessibility-review-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-design-skills-design-critique-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-design-skills-design-handoff-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-skills-design-system-management-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-design-skills-user-research-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-design-skills-ux-writing-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-engineering-commands-architecture/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-engineering-commands-debug/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-engineering-commands-deploy-checklist/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-engineering-commands-incident/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-engineering-commands-review/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-engineering-commands-standup/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-engineering-skills-code-review-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-engineering-skills-documentation-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-engineering-skills-incident-response-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-engineering-skills-system-design-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-engineering-skills-tech-debt-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-engineering-skills-testing-strategy-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-enterprise-search-commands-digest/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-enterprise-search-commands-search/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-enterprise-search-skills-knowledge-synthesis-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-enterprise-search-skills-search-strategy-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-enterprise-search-skills-source-management-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-finance-commands-income-statement/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-finance-commands-journal-entry/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-finance-commands-reconciliation/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-finance-commands-sox-testing/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-finance-commands-variance-analysis/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-finance-skills-audit-support-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-finance-skills-close-management-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-finance-skills-financial-statements-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-finance-skills-journal-entry-prep-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-finance-skills-reconciliation-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-finance-skills-variance-analysis-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-commands-comp-analysis/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-commands-draft-offer/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-commands-onboarding/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-commands-people-report/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-commands-performance-review/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-commands-policy-lookup/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-skills-compensation-benchmarking-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-skills-employee-handbook-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-human-resources-skills-interview-prep-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-human-resources-skills-org-planning-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-human-resources-skills-people-analytics-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-brief/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-compliance-check/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-respond/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-review-contract/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-signature-request/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-triage-nda/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-commands-vendor-check/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-skills-canned-responses-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-skills-compliance-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-skills-contract-review-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-legal-skills-legal-risk-assessment-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-legal-skills-meeting-briefing-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-legal-skills-nda-triage-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-brand-review/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-campaign-plan/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-competitive-brief/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-draft-content/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-email-sequence/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-performance-report/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-commands-seo-audit/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-skills-brand-voice-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-skills-campaign-planning-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-skills-competitive-analysis-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-marketing-skills-content-creation-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-marketing-skills-performance-analytics-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-commands-capacity-plan/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-commands-change-request/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-commands-process-doc/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-commands-runbook/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-commands-status-report/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-commands-vendor-review/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-skills-change-management-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-operations-skills-compliance-tracking-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-operations-skills-process-optimization-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-skills-resource-planning-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-operations-skills-risk-assessment-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-operations-skills-vendor-management-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-partner-built-apollo-skills-enrich-lead-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-partner-built-apollo-skills-prospect-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill/BODY.md</loc></url>
@@ -267,26 +187,8 @@
   <url><loc>https://idx.md/knowledge-work-plugins-partner-built-slack-commands-summarize-channel/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-partner-built-slack-skills-slack-messaging-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-partner-built-slack-skills-slack-search-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-competitive-brief/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-metrics-review/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-roadmap-update/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-sprint-planning/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-stakeholder-update/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-synthesize-research/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-commands-write-spec/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-skills-competitive-analysis-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-skills-feature-spec-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-skills-metrics-tracking-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-skills-roadmap-management-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-skills-stakeholder-comms-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-product-management-skills-user-research-synthesis-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-productivity-commands-start/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-productivity-commands-update/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-productivity-skills-memory-management-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-productivity-skills-task-management-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-sales-commands-call-summary/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-sales-commands-forecast/BODY.md</loc></url>
-  <url><loc>https://idx.md/knowledge-work-plugins-sales-commands-pipeline-review/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-sales-skills-account-research-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-sales-skills-call-prep-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-sales-skills-competitive-intelligence-skill/BODY.md</loc></url>
@@ -2539,7 +2441,6 @@
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-schema-markup/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-seo-audit/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-social-content/BODY.md</loc></url>
-  <url><loc>https://idx.md/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-czlonkowski-n8n-skills-n8n-code-javascript/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-czlonkowski-n8n-skills-n8n-code-python/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-czlonkowski-n8n-skills-n8n-expression-syntax/BODY.md</loc></url>

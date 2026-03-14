@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ms365",
-  "generated_at": "2026-03-13T07:19:21.854Z",
+  "generated_at": "2026-03-14T07:16:08.194Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ms365#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cvsloane/ms365/SKILL.md",
-        "retrieved_at": "2026-03-13T07:19:21.854Z",
+        "retrieved_at": "2026-03-14T07:16:08.194Z",
         "content_sha256": "6aa3ba7a8a9df08ebedadb5bff3056e76a9458d4f6ecad21ba1291a90215009a"
       }
     }

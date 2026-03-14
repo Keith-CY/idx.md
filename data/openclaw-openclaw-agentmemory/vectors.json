@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentmemory",
-  "generated_at": "2026-03-13T07:20:55.582Z",
+  "generated_at": "2026-03-14T07:18:04.994Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentmemory#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/badaramoni/agentmemory/SKILL.md",
-        "retrieved_at": "2026-03-13T07:20:55.582Z",
+        "retrieved_at": "2026-03-14T07:18:04.994Z",
         "content_sha256": "ca32d5efbae20c7cf044eb0a65ca98ddfa89a3a9c1b81194f9c29f46db302add"
       }
     }

@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.2.76
+
+- Added `forkSession(sessionId, opts?)` for branching conversations from a point
+- Added `cancel_async_message` control subtype to drop a queued user message by UUID before execution
+- Added `planFilePath` field to `ExitPlanMode` tool input for hooks and SDK consumers
+- Added MCP elicitation hook types and `SDKElicitationCompleteMessage` system message for handling MCP server input requests programmatically
+- Updated to parity with Claude Code v2.1.76
+
+## 0.2.75
+
+- Added `tag` and `createdAt` fields to `SDKSessionInfo`
+- Added `getSessionInfo(sessionId, opts?)` for single-session metadata lookup
+- Added `offset` option to `listSessions` for pagination
+- Added `tagSession(sessionId, tag, opts?)` for tagging session files
+- Added `queued_to_running` status to `AgentToolOutput` — returned when `Agent({resume})` targets a still-running agent
+- Improved error messages when the Claude Code subprocess returns an error result — the SDK now surfaces the actual error text instead of a generic "process exited with code 1"
+- Updated to parity with Claude Code v2.1.75
+
 ## 0.2.74
 
 - Added `renameSession(sessionId, title, opts?)` for renaming session files

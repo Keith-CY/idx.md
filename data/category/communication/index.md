@@ -3,7 +3,7 @@
 | Category | Communication |
 | --- | --- |
 | Slug | communication |
-| Count | 94 |
+| Count | 86 |
 
 ---
 stable_id: skills/github-skill-anthropics-knowledge-work-plugins-call-prep
@@ -25,7 +25,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:52.469Z
+retrieved_at: 2026-03-14T07:14:19.943Z
 content_sha256: 652c42776860edfa9b81c77aac0b545bb7748a708e01c001f356acc11d7e9f58
 ---
 |/data/github-skill-anthropics-knowledge-work-plugins-call-prep|
@@ -49,7 +49,7 @@ upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-emai
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:55.230Z
+retrieved_at: 2026-03-14T07:14:23.334Z
 content_sha256: 188d1556f5601bd3dbd9f0e57f9cbba9cbd7fad1ff75a1597fa7cbe7f15a73c6
 ---
 |/data/github-skill-novuhq-novu-react-email|
@@ -74,7 +74,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sp0oby/game-th
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:56.655Z
+retrieved_at: 2026-03-14T07:14:24.890Z
 content_sha256: a9a7a91375219e6863e305baf9b0aef1e0123e8ca92e7cd16a37ffe6f95ba706
 ---
 |/data/github-skill-openclaw-skills-game-theory|
@@ -100,7 +100,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/cccarv82/openc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:57.267Z
+retrieved_at: 2026-03-14T07:14:25.625Z
 content_sha256: caed19a938a8177bcc23e79252e904944a310f82ff25361fb81c001b0d058590
 ---
 |/data/github-skill-openclaw-skills-openclaw-backup-optimized|
@@ -127,7 +127,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/josunlp/univer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:57.797Z
+retrieved_at: 2026-03-14T07:14:26.277Z
 content_sha256: 077fe614ccf3309313b447e224d110f38b419888964d7d8fee96775f09108237
 ---
 |/data/github-skill-openclaw-skills-universal-notify|
@@ -151,7 +151,7 @@ upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-ema
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:58.192Z
+retrieved_at: 2026-03-14T07:14:26.839Z
 content_sha256: 3e1c597c4292eaf8555211ba75d7afc57552e21a6657a470ca0e3ef6b934dcae
 ---
 |/data/github-skill-resend-react-email-react-email|
@@ -175,121 +175,10 @@ upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/sk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:17:58.326Z
+retrieved_at: 2026-03-14T07:14:27.003Z
 content_sha256: 441ba572357adfc4e4fc59ba75c08729f8480bc7c5ae9dc1161597e2c797000c
 ---
 |/data/github-skill-sickn33-antigravity-awesome-skills-outlook-calendar-automation|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-commands-draft-response
-type: skills
-title: draft-response
-summary: Draft a professional customer-facing response tailored to the situation
-  and relationship
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-commands
-  - plugin-command
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/draft-response.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/draft-response.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:18.009Z
-content_sha256: 3a81a31f65dc25cc8c8cc1093c616d480bcd351d7f0d8f6ce66bd2341283944f
----
-|/data/knowledge-work-plugins-customer-support-commands-draft-response|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-commands-escalate
-type: skills
-title: escalate
-summary: Package an escalation for engineering, product, or leadership with full context
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-commands
-  - plugin-command
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/escalate.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/escalate.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.884Z
-content_sha256: 94814e5af4e139dd72d3e1f773c1ee4a038ad7ff517ee9be5c298a4fd6b7a050
----
-|/data/knowledge-work-plugins-customer-support-commands-escalate|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-commands-kb-article
-type: skills
-title: kb-article
-summary: Draft a knowledge base article from a resolved issue or common question
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-commands
-  - plugin-command
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/kb-article.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/kb-article.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:18.080Z
-content_sha256: fd0522e164a8bc8fbbdd560bd78dbf8591cbf68aecf6242b733923bc74f2fe7a
----
-|/data/knowledge-work-plugins-customer-support-commands-kb-article|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-commands-research
-type: skills
-title: research
-summary: Multi-source research on a customer question or topic with source attribution
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-commands
-  - plugin-command
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/research.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/research.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.955Z
-content_sha256: 19e0cdcc2174075c1d13ce363f49fb45db80af5af9397aa6afa5333662f2d766
----
-|/data/knowledge-work-plugins-customer-support-commands-research|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-commands-triage
-type: skills
-title: triage
-summary: Triage and prioritize a support ticket or customer issue
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-commands
-  - plugin-command
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/commands/triage.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/commands/triage.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.823Z
-content_sha256: acefe12a5b476afc405c7f3ce2ccf500c06cee95036fc7d6a5a5f70415204e9b
----
-|/data/knowledge-work-plugins-customer-support-commands-triage|
 
 ---
 stable_id: skills/knowledge-work-plugins-customer-support-skills-customer-research-skill
@@ -311,85 +200,10 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.685Z
-content_sha256: 65b3e82447e8bb649849b8064daf6808a59192afe726713ea40b27ce5187b34e
+retrieved_at: 2026-03-14T07:14:46.612Z
+content_sha256: 9c504672d26dbb01ad4bb527a5352399760503aea0edf83bd3695e6bc346a128
 ---
 |/data/knowledge-work-plugins-customer-support-skills-customer-research-skill|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-skills-escalation-skill
-type: skills
-title: escalation
-summary: Structure and package support escalations for engineering, product, or
-  leadership with full context, reproduction steps, and business impact. Use
-  when an issue needs to go beyond support, when writing an escalation brief, or
-  when assessing whether an issue warrants escalation.
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-skills
-  - plugin-skill
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/escalation/SKILL.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/escalation/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.606Z
-content_sha256: 02de95d0ddbb0b66052ef42643f90225feb9110fbc69884cfa724aedd2fa18e3
----
-|/data/knowledge-work-plugins-customer-support-skills-escalation-skill|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-skills-knowledge-management-skill
-type: skills
-title: knowledge-management
-summary: Write and maintain knowledge base articles from resolved support
-  issues. Use when a ticket has been resolved and the solution should be
-  documented, when updating existing KB articles, or when creating how-to
-  guides, troubleshooting docs, or FAQ entries.
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-skills
-  - plugin-skill
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/knowledge-management/SKILL.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/knowledge-management/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.752Z
-content_sha256: 518320b80d5535d5f9ee56ae677710bc320391b011b5c22a62f5c99a447f9499
----
-|/data/knowledge-work-plugins-customer-support-skills-knowledge-management-skill|
-
----
-stable_id: skills/knowledge-work-plugins-customer-support-skills-response-drafting-skill
-type: skills
-title: response-drafting
-summary: Draft professional, empathetic customer-facing responses adapted to the
-  situation, urgency, and channel. Use when responding to customer tickets,
-  escalations, outage notifications, bug reports, feature requests, or any
-  customer-facing communication.
-tags:
-  - source-knowledge-work-plugins
-  - plugin-customer-support
-  - plugin-component-skills
-  - plugin-skill
-  - category-communication
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/response-drafting/SKILL.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/response-drafting/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.541Z
-content_sha256: e172bf013a0c9f5d8c58ae39dd53fd0afd0e704bb0bc51206c5a145a859d0a78
----
-|/data/knowledge-work-plugins-customer-support-skills-response-drafting-skill|
 
 ---
 stable_id: skills/knowledge-work-plugins-customer-support-skills-ticket-triage-skill
@@ -411,8 +225,8 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:17.478Z
-content_sha256: 66519a68852578ed707bd2bbc60dbe426fb1e7d7431c18230ce03d6c43c03aa8
+retrieved_at: 2026-03-14T07:14:46.395Z
+content_sha256: d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294
 ---
 |/data/knowledge-work-plugins-customer-support-skills-ticket-triage-skill|
 
@@ -432,7 +246,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:35.775Z
+retrieved_at: 2026-03-14T07:17:42.482Z
 content_sha256: 579786fee3e9da7d7a4a877ed4d4deb3ac213515e2b7c2f78646123ff020f417
 ---
 |/data/openclaw-openclaw-aa|
@@ -452,7 +266,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:48.875Z
+retrieved_at: 2026-03-14T07:17:57.116Z
 content_sha256: 3537d981b8b11943111cd755b4bcd262f75272a62a58e65679d517896ce03408
 ---
 |/data/openclaw-openclaw-agent-mail|
@@ -472,7 +286,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:48.950Z
+retrieved_at: 2026-03-14T07:17:57.210Z
 content_sha256: 3537d981b8b11943111cd755b4bcd262f75272a62a58e65679d517896ce03408
 ---
 |/data/openclaw-openclaw-agent-mail-cli|
@@ -492,7 +306,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:51.051Z
+retrieved_at: 2026-03-14T07:17:59.742Z
 content_sha256: 6024d87bbcb1e7338429d9d2f46204c7dff83e5cbfac48ca2a69b58385e9d068
 ---
 |/data/openclaw-openclaw-agent-social|
@@ -512,7 +326,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:51.958Z
+retrieved_at: 2026-03-14T07:18:00.777Z
 content_sha256: 02577824f35e5cf52e69b9c42e32d7e70aff7164614ed7053da5b4a3462c3970
 ---
 |/data/openclaw-openclaw-agent-team-kit|
@@ -532,7 +346,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:53.206Z
+retrieved_at: 2026-03-14T07:18:02.242Z
 content_sha256: 127ff21abc0aff79b5ad477ed87f034226527f53d14280c38594bab619f6db7f
 ---
 |/data/openclaw-openclaw-agentbook|
@@ -553,7 +367,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:54.315Z
+retrieved_at: 2026-03-14T07:18:03.462Z
 content_sha256: 3428e99d8c68c97656de02a59a63464f7ce20dab0f88399b4273d41fbef3dcb5
 ---
 |/data/openclaw-openclaw-agenthc-market-intelligence|
@@ -573,7 +387,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:55.632Z
+retrieved_at: 2026-03-14T07:18:05.091Z
 content_sha256: 1797fe1b5cee07d18b369f76fff84aaa8e3263f3d959169d289ae7f78388fcdc
 ---
 |/data/openclaw-openclaw-agentmesh|
@@ -593,7 +407,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:20:58.603Z
+retrieved_at: 2026-03-14T07:18:08.826Z
 content_sha256: e2dba3f1521fea51a61bd870006afd7be4b4278ce2493a41f38bc1a4cdfdafa1
 ---
 |/data/openclaw-openclaw-airc|
@@ -614,7 +428,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:00.106Z
+retrieved_at: 2026-03-14T07:18:10.948Z
 content_sha256: 930fff475bd5c59228a4b6d53946fe4cac84c05b0a912402e4254eda530a5a01
 ---
 |/data/openclaw-openclaw-aliyun-asr|
@@ -634,7 +448,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:01.323Z
+retrieved_at: 2026-03-14T07:18:13.005Z
 content_sha256: 07090b67e452b9ba9cd3280faa0915981d0fc1fbff67774cccd59864f2a0fa06
 ---
 |/data/openclaw-openclaw-among-clawds|
@@ -655,7 +469,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:03.529Z
+retrieved_at: 2026-03-14T07:18:15.810Z
 content_sha256: d5970f5956ba4253c550bd4b7582b13e4fa03e9a50ca2bae0627eb39d1b6cc03
 ---
 |/data/openclaw-openclaw-apipick-telegram-phone-check|
@@ -675,7 +489,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:04.589Z
+retrieved_at: 2026-03-14T07:18:17.170Z
 content_sha256: c01a401ff94641dc5323b0b0edb436fd8518efcc1b2ae1d1386a27b58b537a07
 ---
 |/data/openclaw-openclaw-apple-mail-search-safe|
@@ -696,7 +510,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:05.487Z
+retrieved_at: 2026-03-14T07:18:18.338Z
 content_sha256: 034f39b67bf3b30da1d57a4d2a65fa89fbb077a4c5073f4615a2249b87eca470
 ---
 |/data/openclaw-openclaw-arb-injection|
@@ -717,7 +531,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:05.571Z
+retrieved_at: 2026-03-14T07:18:18.438Z
 content_sha256: 034f39b67bf3b30da1d57a4d2a65fa89fbb077a4c5073f4615a2249b87eca470
 ---
 |/data/openclaw-openclaw-arbinjectionskill|
@@ -737,7 +551,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:05.762Z
+retrieved_at: 2026-03-14T07:18:18.636Z
 content_sha256: 3c36ba18c3d2db98b7af6f6724e16621b243061eb8ace39d9869f584d6c66d01
 ---
 |/data/openclaw-openclaw-arc-budget-tracker|
@@ -757,7 +571,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:09.143Z
+retrieved_at: 2026-03-14T07:18:22.752Z
 content_sha256: 1a25b2f3216f107631e7d724480a4465307297f872f37c018fce7ca395c0fb10
 ---
 |/data/openclaw-openclaw-aulifox|
@@ -777,7 +591,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:09.889Z
+retrieved_at: 2026-03-14T07:18:23.755Z
 content_sha256: c9a26a82abdfa1d4d2f1bb64e884277eb5797d21a464c8f5db30af2b177472d8
 ---
 |/data/openclaw-openclaw-avito|
@@ -797,7 +611,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:10.569Z
+retrieved_at: 2026-03-14T07:18:24.551Z
 content_sha256: 75244d2243a8571b681d70a5dcb3d737ce9bdd19287acb394da6bc3350651843
 ---
 |/data/openclaw-openclaw-banana-farmer|
@@ -817,7 +631,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:11.837Z
+retrieved_at: 2026-03-14T07:18:26.034Z
 content_sha256: 97c58ae08dc06ee419c94dc9a45016eab0ca8ad65ea1e7ab9ee6e69be6b71278
 ---
 |/data/openclaw-openclaw-beeper|
@@ -837,7 +651,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:12.953Z
+retrieved_at: 2026-03-14T07:18:27.237Z
 content_sha256: d681cb0d98b8a4ad3412c8fee6bc05f23c1b95836f6a35f03687c16abf97d2a6
 ---
 |/data/openclaw-openclaw-bird-dms|
@@ -857,7 +671,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:13.222Z
+retrieved_at: 2026-03-14T07:18:27.521Z
 content_sha256: 6338a6063e9ea7cf140d81d971b0146ea4e5cdd8a21252bca0644a8b0dbf3abc
 ---
 |/data/openclaw-openclaw-bitkit-cli|
@@ -877,7 +691,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:14.452Z
+retrieved_at: 2026-03-14T07:18:28.618Z
 content_sha256: 566dd63703414600acfd02a6ba13fc062ee5c7117774ca44f164219ba0b49e7d
 ---
 |/data/openclaw-openclaw-blogburst|
@@ -897,7 +711,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:15.183Z
+retrieved_at: 2026-03-14T07:18:29.426Z
 content_sha256: 71771ecaa37c632dff73025610a3c3ff68cef8ec353e48c8a089c6f9d8cafe4b
 ---
 |/data/openclaw-openclaw-boltzpay|
@@ -917,7 +731,7 @@ upstream_ref: ""
 github_stars: 2294
 github_forks: 685
 github_is_organization: true
-retrieved_at: 2026-03-13T07:21:16.113Z
+retrieved_at: 2026-03-14T07:18:30.380Z
 content_sha256: a47ae974bac62071d45d8b6c932b6cdaa45aa2463791fca383e5d4bda47e2ce2
 ---
 |/data/openclaw-openclaw-botworld|
@@ -937,7 +751,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:39.372Z
+retrieved_at: 2026-03-14T07:15:13.126Z
 content_sha256: e151fa66cd6c5f0deb02bb8cdf6a8058607becad8857e7496e115ec078692db5
 ---
 |/data/openclaw-openclaw-calendly|
@@ -958,7 +772,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:39.466Z
+retrieved_at: 2026-03-14T07:15:13.333Z
 content_sha256: b4aeab490f08e709bc29474743129544dcb1828904e5112a19fbe617e9efe767
 ---
 |/data/openclaw-openclaw-camelcamelcamel-alerts|
@@ -978,7 +792,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:41.378Z
+retrieved_at: 2026-03-14T07:15:16.058Z
 content_sha256: 27b6e0d2dd6b719654784480e3464bfcad0c758a559ee046d5812b582a1318bf
 ---
 |/data/openclaw-openclaw-claw-club|
@@ -999,7 +813,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:41.655Z
+retrieved_at: 2026-03-14T07:15:16.685Z
 content_sha256: 8acb051635afea0ad5fdb27b0d232ac6d843aa3c087a09d4a18547e80cd3bc93
 ---
 |/data/openclaw-openclaw-claw-me-maybe|
@@ -1019,7 +833,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:43.190Z
+retrieved_at: 2026-03-14T07:15:19.111Z
 content_sha256: 3edc80b544666d6df17336f390bfcaa727aca65c5fc1c0d0481bdac04973d730
 ---
 |/data/openclaw-openclaw-clawlink|
@@ -1051,7 +865,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:45.495Z
+retrieved_at: 2026-03-14T07:15:22.461Z
 content_sha256: 525095fce4df7732674a52dc17ff04a001a565f1aa136640441d32b8077eb1df
 ---
 |/data/openclaw-openclaw-communication-skill|
@@ -1072,7 +886,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:49.105Z
+retrieved_at: 2026-03-14T07:15:26.849Z
 content_sha256: 188ae37095d5400d0c547796a6716892746827053725915d220aececb054bf45
 ---
 |/data/openclaw-openclaw-daily-devotion|
@@ -1093,7 +907,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:51.321Z
+retrieved_at: 2026-03-14T07:15:29.078Z
 content_sha256: 468e996c26e40e7c57ee9bdd3347da1fef9b659611a0703716094b962325931c
 ---
 |/data/openclaw-openclaw-discord-doctor|
@@ -1113,7 +927,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:51.403Z
+retrieved_at: 2026-03-14T07:15:29.167Z
 content_sha256: cb946aa07567759b4f0f91cc68c9f9be69090dd0d65e571e686f2b3a2ba50029
 ---
 |/data/openclaw-openclaw-discord-voice|
@@ -1134,7 +948,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:53.032Z
+retrieved_at: 2026-03-14T07:15:31.263Z
 content_sha256: c4e5f78f98ae1e5842ad7c7515f5519a27515de5d64547744740a3376c41f3fa
 ---
 |/data/openclaw-openclaw-email-best-practices|
@@ -1154,7 +968,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:55.958Z
+retrieved_at: 2026-03-14T07:15:34.692Z
 content_sha256: 356f2dd09b9653da64f35b452eaf6d49708b9f1e7367a6f6899ccc2e98630b95
 ---
 |/data/openclaw-openclaw-feishu-leave-request|
@@ -1174,7 +988,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:18:58.403Z
+retrieved_at: 2026-03-14T07:15:37.463Z
 content_sha256: 2ef40170ece04c5af9ea1342a816a3068fde937056ed2c738df54831fe1d3eee
 ---
 |/data/openclaw-openclaw-front|
@@ -1194,7 +1008,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:02.659Z
+retrieved_at: 2026-03-14T07:15:42.934Z
 content_sha256: d66b038428fad2e8b085cf6efe8212d5fbb0fb65eb2eea171cbf17d34569b3bf
 ---
 |/data/openclaw-openclaw-google-chat|
@@ -1214,7 +1028,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:03.658Z
+retrieved_at: 2026-03-14T07:15:44.019Z
 content_sha256: e0f74f4f4f3ec8687a2dbaf08e63742f01bffb9af2dfae4b32d83e3f91c24c60
 ---
 |/data/openclaw-openclaw-gram|
@@ -1235,7 +1049,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:04.873Z
+retrieved_at: 2026-03-14T07:15:45.467Z
 content_sha256: 0e70e98e3733b03aa2ed9203e7f8c2987e5bdbbe26506af083af8111920bfa27
 ---
 |/data/openclaw-openclaw-helpscout|
@@ -1255,7 +1069,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:05.298Z
+retrieved_at: 2026-03-14T07:15:46.137Z
 content_sha256: 2265054da976a3d9ec3d55b66888233cb39509ea4703abed8066382e5b4fc14f
 ---
 |/data/openclaw-openclaw-himalaya|
@@ -1275,7 +1089,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:07.202Z
+retrieved_at: 2026-03-14T07:15:48.292Z
 content_sha256: 8e9e9b4465f73f5e8bb59b4905ee067e8b2ea9d57202b68852e11383f46a81b4
 ---
 |/data/openclaw-openclaw-imsg|
@@ -1296,7 +1110,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:09.099Z
+retrieved_at: 2026-03-14T07:15:50.919Z
 content_sha256: 99fddd2db9f85167eeb47474bf3b30eea28062377c8e14dc2f188c2607062e8e
 ---
 |/data/openclaw-openclaw-isms-audit-expert|
@@ -1317,7 +1131,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:14.339Z
+retrieved_at: 2026-03-14T07:15:58.686Z
 content_sha256: 95e31d22d52207dd72c44ebe6ca6f7dc8ae44329ba6c04229c9ed1fd43cec702
 ---
 |/data/openclaw-openclaw-linkedin|
@@ -1337,7 +1151,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:14.419Z
+retrieved_at: 2026-03-14T07:15:58.785Z
 content_sha256: 44ccb317f9e26c20aa599e612d9001b5448f1899e6007b794a90cd7306c264ed
 ---
 |/data/openclaw-openclaw-linkedin-cli|
@@ -1357,7 +1171,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:15.609Z
+retrieved_at: 2026-03-14T07:16:00.307Z
 content_sha256: 785613c5928425a047f3519a6301cb9a42b687e8c18afe15d752ba5d035b34d3
 ---
 |/data/openclaw-openclaw-luma|
@@ -1377,7 +1191,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:18.253Z
+retrieved_at: 2026-03-14T07:16:03.687Z
 content_sha256: 56c5e8f3fff39155bdc54b5a9d81d168c16fa9a3b39c39661a20bf54dbfdc1ad
 ---
 |/data/openclaw-openclaw-mersal-orem|
@@ -1398,7 +1212,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:18.402Z
+retrieved_at: 2026-03-14T07:16:03.888Z
 content_sha256: 6694053d44fb2f0af9a886a15f97e5bc1df130bb826b6018d96bd4f91bdbc915
 ---
 |/data/openclaw-openclaw-messenger|
@@ -1419,7 +1233,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:21.769Z
+retrieved_at: 2026-03-14T07:16:08.099Z
 content_sha256: 806e4fde86933ec97a2f7c3887647f37f49f5e9a3895e8275b66da1a44344366
 ---
 |/data/openclaw-openclaw-ms-outlook-teams-assistant|
@@ -1439,7 +1253,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:21.854Z
+retrieved_at: 2026-03-14T07:16:08.194Z
 content_sha256: 6aa3ba7a8a9df08ebedadb5bff3056e76a9458d4f6ecad21ba1291a90215009a
 ---
 |/data/openclaw-openclaw-ms365|
@@ -1459,7 +1273,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:30.519Z
+retrieved_at: 2026-03-14T07:16:18.441Z
 content_sha256: 890c8e246e68997a7583ec2afa5f85aa02082cea96579122f662eaa3a6632d13
 ---
 |/data/openclaw-openclaw-openpet|
@@ -1480,7 +1294,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:31.972Z
+retrieved_at: 2026-03-14T07:16:20.139Z
 content_sha256: 0d00d270771f28b74f6243389f73f413fa539612215595757680fa5c95f25b53
 ---
 |/data/openclaw-openclaw-paid-ads|
@@ -1500,7 +1314,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:34.290Z
+retrieved_at: 2026-03-14T07:16:23.484Z
 content_sha256: c1c57a4c8cd260d1d854fef5416305530b320d5cc4f05652053afeec9b112687
 ---
 |/data/openclaw-openclaw-phone-agent|
@@ -1521,7 +1335,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:34.361Z
+retrieved_at: 2026-03-14T07:16:23.581Z
 content_sha256: 90008433ad41f5fc7bc27dea73dfbd02b5b918fe1efe63b57eda580eb79fe941
 ---
 |/data/openclaw-openclaw-phone-calls-bland|
@@ -1541,7 +1355,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:36.372Z
+retrieved_at: 2026-03-14T07:16:26.518Z
 content_sha256: 2a9f91cdee4b54ab70eade42ea186708fb89a31c6152f7d49cb7efd30aadf516
 ---
 |/data/openclaw-openclaw-pocketalert|
@@ -1561,7 +1375,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:37.144Z
+retrieved_at: 2026-03-14T07:16:27.735Z
 content_sha256: a0adfe03fab4eb177c071b21df33849b1f053d7ad2a74aae8e75bc84efcd11fe
 ---
 |/data/openclaw-openclaw-postiz|
@@ -1581,7 +1395,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:39.875Z
+retrieved_at: 2026-03-14T07:16:31.719Z
 content_sha256: 1a421608202c81072a5cce02d769b2234321b2c54e14bdb574ccc35a84cfcc33
 ---
 |/data/openclaw-openclaw-protonmail|
@@ -1601,7 +1415,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:40.298Z
+retrieved_at: 2026-03-14T07:16:32.332Z
 content_sha256: 7eaa148189b03d789585b916fa6369c692b5638020396f06a7ab5febc81c6289
 ---
 |/data/openclaw-openclaw-pushover-notify|
@@ -1621,7 +1435,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:43.755Z
+retrieved_at: 2026-03-14T07:16:36.732Z
 content_sha256: 7175d1a98ec150cca0a241c2a226d29dfe99c7f6309208311b3b04554065c73e
 ---
 |/data/openclaw-openclaw-reddit-cli|
@@ -1642,7 +1456,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:53.828Z
+retrieved_at: 2026-03-14T07:16:49.156Z
 content_sha256: 9c40b9ceda9094b3ce256d62ca8a33e8f82f323cff357da294e14262ed429b69
 ---
 |/data/openclaw-openclaw-social-content|
@@ -1663,7 +1477,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:19:58.515Z
+retrieved_at: 2026-03-14T07:16:54.885Z
 content_sha256: b5ec5cb0f1837863214406b1e918608d381a2a7db6005ff59fa2dbd1b481fd5b
 ---
 |/data/openclaw-openclaw-table-image|
@@ -1683,7 +1497,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:00.771Z
+retrieved_at: 2026-03-14T07:16:57.310Z
 content_sha256: 6c9a80859b06db0e9b3e4bc226dad357df7b3a1a52e8946eebdf5539f27c5e5c
 ---
 |/data/openclaw-openclaw-telegram-bot|
@@ -1715,7 +1529,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:00.847Z
+retrieved_at: 2026-03-14T07:16:57.414Z
 content_sha256: 6f134a0d0e3028a58180b06bb6d7aa33d4d25380a409e4931cbc1efb66de3a17
 ---
 |/data/openclaw-openclaw-telegram-compose|
@@ -1735,7 +1549,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:00.929Z
+retrieved_at: 2026-03-14T07:16:57.525Z
 content_sha256: 8f2d5d0273993382e25d6f42b38edd1394d6adedfe6119d636a4d14e7042e289
 ---
 |/data/openclaw-openclaw-telegram-create-bot|
@@ -1755,7 +1569,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:01.006Z
+retrieved_at: 2026-03-14T07:16:57.617Z
 content_sha256: dbc02d42438b0b675ebb964a7864e45488808d5a469a9654aaeed04f9f262be0
 ---
 |/data/openclaw-openclaw-telegram-usage|
@@ -1775,7 +1589,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:03.998Z
+retrieved_at: 2026-03-14T07:17:01.712Z
 content_sha256: f3c84f81162ba181533812df1a07ba3b59decba2c36242af3ecbadfc0268639a
 ---
 |/data/openclaw-openclaw-tootbot|
@@ -1795,7 +1609,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:08.337Z
+retrieved_at: 2026-03-14T07:17:07.297Z
 content_sha256: ea3c2ea404d406252628a860af995912029b0a5082f9622a3400cb3b3d7ef3af
 ---
 |/data/openclaw-openclaw-upload-post|
@@ -1815,7 +1629,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:08.592Z
+retrieved_at: 2026-03-14T07:17:07.610Z
 content_sha256: 374492cdf729be4d27e96aa0d026be06f6fc0aa6f9251be8a09a592119ec8258
 ---
 |/data/openclaw-openclaw-use-soulseek|
@@ -1836,7 +1650,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:11.727Z
+retrieved_at: 2026-03-14T07:17:11.452Z
 content_sha256: 21de25b4df16bed7f26763322fafd01249396b3309b5ef71b659379ef679c8cb
 ---
 |/data/openclaw-openclaw-wa-styler|
@@ -1856,7 +1670,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:11.809Z
+retrieved_at: 2026-03-14T07:17:11.559Z
 content_sha256: d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58
 ---
 |/data/openclaw-openclaw-wacli|
@@ -1876,7 +1690,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:11.957Z
+retrieved_at: 2026-03-14T07:17:11.653Z
 content_sha256: 8e62b5e1b33b63fb4f5a5a707d0e9b602745e456cf24c782d3243d1339a96965
 ---
 |/data/openclaw-openclaw-walkie-talkie|
@@ -1897,7 +1711,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:13.779Z
+retrieved_at: 2026-03-14T07:17:13.780Z
 content_sha256: 21de25b4df16bed7f26763322fafd01249396b3309b5ef71b659379ef679c8cb
 ---
 |/data/openclaw-openclaw-whatsapp-styler|
@@ -1917,7 +1731,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:14.006Z
+retrieved_at: 2026-03-14T07:17:13.980Z
 content_sha256: 785a0d12123b8b19db0082c9eb9170c4552f2746ada75977e7b6d0e17ef8f48c
 ---
 |/data/openclaw-openclaw-whatsapp-video-mockup|
@@ -1937,7 +1751,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:20.695Z
+retrieved_at: 2026-03-14T07:17:22.109Z
 content_sha256: 631a8ce6649f823e7dc33b4970038fccebd0294ca55bf5a3f84a22a423d2d0af
 ---
 |/data/openclaw-openclaw-zalo|
@@ -1958,7 +1772,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:21.037Z
+retrieved_at: 2026-03-14T07:17:22.517Z
 content_sha256: 8055f197c303c43b2dcf0b248351f71c0c6251246a156a5b7e96a3ce2bf8abee
 ---
 |/data/openclaw-openclaw-zoom-meeting-assistance-with-rtms-unofficial-community-skill|
@@ -1978,7 +1792,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:20:21.109Z
+retrieved_at: 2026-03-14T07:17:22.608Z
 content_sha256: 0ec9ed084bf30fa8688fc648b3abbe77a852d2ac15dbf8c9f903b46fe2ec5179
 ---
 |/data/openclaw-openclaw-zoom-unofficial-community-skill|
@@ -1998,7 +1812,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-13T07:21:48.145Z
+retrieved_at: 2026-03-14T07:19:10.462Z
 content_sha256: 8a7e47ed81e19552b8d5e08b8ee37c9aab87a82ca8b7120ac287e53134b293f9
 ---
 |/data/playbook-scenario-customer-support|
