@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaw-migration",
-  "generated_at": "2026-03-14T07:16:16.841Z",
+  "generated_at": "2026-03-15T07:19:41.052Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaw-migration#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chenyuan99/openclaw-migration/SKILL.md",
-        "retrieved_at": "2026-03-14T07:16:16.841Z",
+        "retrieved_at": "2026-03-15T07:19:41.052Z",
         "content_sha256": "a6abf08fd7e1e75d083b937ae239fcd72b6b00da829e175668942a80b9cc7a3a"
       }
     }

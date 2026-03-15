@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-chart-image",
-  "generated_at": "2026-03-14T07:15:14.616Z",
+  "generated_at": "2026-03-15T07:19:07.117Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-chart-image#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dannyshmueli/chart-image/SKILL.md",
-        "retrieved_at": "2026-03-14T07:15:14.616Z",
+        "retrieved_at": "2026-03-15T07:19:07.117Z",
         "content_sha256": "351bc04e7e0cc2760e1df9e7be0b1714fef7f5af53a44c9490563ee58472f10c"
       }
     }

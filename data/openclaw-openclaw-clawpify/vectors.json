@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawpify",
-  "generated_at": "2026-03-14T07:18:41.894Z",
+  "generated_at": "2026-03-15T07:21:01.289Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawpify#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alhwyn/clawpify/SKILL.md",
-        "retrieved_at": "2026-03-14T07:18:41.894Z",
+        "retrieved_at": "2026-03-15T07:21:01.289Z",
         "content_sha256": "d96b7e837a1910bb4f5615d91269307401c54c98d71588baa7452504da548b20"
       }
     }

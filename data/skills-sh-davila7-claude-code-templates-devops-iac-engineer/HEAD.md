@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/devops-iac-enginee
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-14T07:14:36.118Z
+retrieved_at: 2026-03-15T07:18:47.896Z
 content_sha256: 68501fa719788234dece69513181b8a7366b70c34a862bf320cf6e7765651828
 ---

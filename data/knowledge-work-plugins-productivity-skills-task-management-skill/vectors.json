@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-productivity-skills-task-management-skill",
-  "generated_at": "2026-03-14T07:14:39.147Z",
+  "generated_at": "2026-03-15T07:18:49.523Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-productivity-skills-task-management-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/task-management/SKILL.md",
-        "retrieved_at": "2026-03-14T07:14:39.147Z",
+        "retrieved_at": "2026-03-15T07:18:49.523Z",
         "content_sha256": "db1320873d68caab09cdbc1788e78d81e3b9b7cc6b499e2c4b975f25e873049f"
       }
     }

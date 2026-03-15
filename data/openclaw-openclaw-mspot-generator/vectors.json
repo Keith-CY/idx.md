@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mspot-generator",
-  "generated_at": "2026-03-14T07:16:08.295Z",
+  "generated_at": "2026-03-15T07:19:36.246Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mspot-generator#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/mspot-generator/SKILL.md",
-        "retrieved_at": "2026-03-14T07:16:08.295Z",
+        "retrieved_at": "2026-03-15T07:19:36.246Z",
         "content_sha256": "fcf85a8f139d00de627d8107f9545b0d4fa5875c595f626482fa6a618b100dc0"
       }
     }

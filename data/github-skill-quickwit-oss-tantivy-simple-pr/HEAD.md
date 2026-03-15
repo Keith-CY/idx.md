@@ -15,6 +15,6 @@ upstream_ref: https://github.com/quickwit-oss/tantivy/blob/main/.claude/skills/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-14T07:14:26.710Z
+retrieved_at: 2026-03-15T07:18:43.331Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---

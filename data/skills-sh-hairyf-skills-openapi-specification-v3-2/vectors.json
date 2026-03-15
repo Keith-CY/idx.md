@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-hairyf-skills-openapi-specification-v3-2",
-  "generated_at": "2026-03-14T07:14:48.892Z",
+  "generated_at": "2026-03-15T07:18:52.936Z",
   "records": [
     {
       "id": "skills/skills-sh-hairyf-skills-openapi-specification-v3-2#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/openapi-specification-v3.2/references/core-openapi-object.md",
-        "retrieved_at": "2026-03-14T07:14:48.892Z",
+        "retrieved_at": "2026-03-15T07:18:52.936Z",
         "content_sha256": "e68161c9bfbeb686afb6fd374982b4b21a13bc335079d4d6944767fc976bfd2b"
       }
     }

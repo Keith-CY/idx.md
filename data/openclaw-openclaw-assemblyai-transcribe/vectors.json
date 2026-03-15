@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-assemblyai-transcribe",
-  "generated_at": "2026-03-14T07:18:20.951Z",
+  "generated_at": "2026-03-15T07:20:49.163Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-assemblyai-transcribe#head",
@@ -19,8 +19,8 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/assemblyai-transcribe/SKILL.md",
-        "retrieved_at": "2026-03-14T07:18:20.951Z",
-        "content_sha256": "5d41e275be9cab2c33c4a89465c7266a6b43893a8ce2ae78cc9de02e1889458c"
+        "retrieved_at": "2026-03-15T07:20:49.163Z",
+        "content_sha256": "0bb939a8686f083f5b92627aaff0f907ef5bebac2c2b7b8062acde92ef1ae3e4"
       }
     }
   ]

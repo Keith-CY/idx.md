@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/b-mendoza/agent-skills/validate-implementation-p
 github_stars: 0
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-14T07:14:52.840Z
+retrieved_at: 2026-03-15T07:18:56.436Z
 content_sha256: e7538976fc26f10f67a4f8f78fb999f62f1651fc01a12681982c7f526cd0c32d
 ---

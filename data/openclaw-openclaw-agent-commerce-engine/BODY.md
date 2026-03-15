@@ -1,24 +1,24 @@
 ---
-name: standard-agentic-commerce-engine
-version: 1.6.4
+name: agent-commerce-engine
+version: 1.7.1
 description: A production-ready universal engine for Agentic Commerce. This tool enables autonomous agents to interact with any compatible headless e-commerce backend through a standardized protocol. It provides out-of-the-box support for discovery, cart operations, and secure user management.
 tags: [ecommerce, shopping-agent, commerce-engine, standard-protocol, headless-commerce, agentic-web]
-metadata: {"openclaw":{"emoji":"🛒","homepage":"https://github.com/NowLoadY/agent-commerce-engine","source":"https://github.com/NowLoadY/agent-commerce-engine","requires":{"bins":["python3"],"tools":[],"env":[],"optionalEnv":["COMMERCE_URL","COMMERCE_BRAND_ID","COMMERCE_BRAND_NAME"],"paths":["~/.openclaw/credentials/agent-commerce-engine/"]},"install":[{"id":"python-deps","kind":"pip","package":"requests","label":"Install Python dependencies"}]}}
+metadata: {"openclaw":{"emoji":"🛒","homepage":"https://github.com/NowLoadY/agent-commerce-engine","source":"https://github.com/NowLoadY/agent-commerce-engine","requires":{"bins":["python3"],"tools":[],"env":[],"optionalEnv":["COMMERCE_URL","COMMERCE_BRAND_ID"],"paths":["~/.openclaw/credentials/agent-commerce-engine/"]},"install":[{"id":"python-deps","kind":"pip","package":"requests","label":"Install Python dependencies"}]}}
 ---
 
 # Standard Agentic Commerce Engine
 
-The **Standard Agentic Commerce Engine** is a production-ready bridge connecting autonomous agents with modern e-commerce backends. By providing a unified, high-precision interface, it allows any digital storefront to become "Agent-Native" instantly.
+The **Standard Agentic Commerce Engine** is a standard client and protocol guide for connecting agents to compatible e-commerce backends. It gives agents a consistent way to search products, manage carts, access account data, create orders, and hand payment back to the user.
 
 GitHub Repository: https://github.com/NowLoadY/agent-commerce-engine
 
-## Quick Start: Out-of-the-Box Backend Setup
+## Quick Start: Backend Integration
 
-The `agent-commerce-engine` provides a standard specification (`SERVER_SPEC.md`) designed to instantly render any existing website "Agent-Ready". By reviewing and reproducing the provided minimum viable Python/FastAPI server template, developers can establish a compliant Agent-Native backend interface in a matter of minutes.
+The `agent-commerce-engine` includes a server specification in `SERVER_SPEC.md` for sites that want to expose a compatible commerce API. By implementing the documented endpoints, an existing storefront can support agent-driven product discovery, cart actions, account flows, and order creation without requiring a custom tool for each brand.
 
 ## Reference Case: Lafeitu
 
-For a production-grade implementation example using this engine, see the [Lafeitu Gourmet Skill](https://clawdhub.com/NowLoadY/agentic-spicy-food). It demonstrates the engine specialized for a real-world artisanal food brand.
+For a production-grade implementation example using this engine, see the [Lafeitu Gourmet Skill](https://clawhub.com/NowLoadY/agentic-spicy-food). It demonstrates the engine specialized for a real-world artisanal food brand.
 
 ---
 ## 🔒 Security & Privacy
@@ -27,15 +27,15 @@ To ensure transparency and protect user data, the Standard Agentic Commerce Engi
 
 ### 1. Local Credential Persistence
 - **Storage Location**: `~/.openclaw/credentials/agent-commerce-engine/`
-- **Mechanism**: Account and session **Token** information is stored locally in JSON format with `0600` (user-only) permissions.
+- **Mechanism**: Account and session **Token** information is stored locally in JSON format. The credential file is written with `0600` (user-only) permissions.
 - **Security Upgrade**: Since version 1.4.0, raw passwords are never stored after the initial login. The engine exchanges the password for a signed cryptographic token.
-- **Scope**: Data is only accessible to the local system user and the running agent instance.
+- **Scope**: Credentials are stored on the local machine for reuse by the current user environment.
 - **Lifecycle**: Credentials can be purged at any time by running the `logout` command.
 
 ### 2. Secure Transmission
 - **Token-based Auth**: Uses `x-api-token` headers for authentication. Raw passwords are only transmitted once during the `login` or `register` phase to exchange for a token.
-- **HTTPS Enforcement**: As of v1.4.7, the engine strictly enforces HTTPS for all remote communication to prevent credential interception.
-- **Encrypted Transport**: All communication with the backend MUST be over HTTPS to ensure tokens are protected in transit.
+- **HTTPS Enforcement**: The client rejects non-HTTPS remote endpoints. `localhost` and `127.0.0.1` remain available for local development.
+- **Encrypted Transport**: Production traffic is expected to run over HTTPS so tokens are not sent over plain HTTP.
 
 ### 3. Anonymous Tracking (Visitor ID)
 - To support shopping carts for unauthenticated users, a unique, non-identifiable `Visitor ID` (UUID v4) is generated and stored locally. This ID contains no personal information.
@@ -72,8 +72,8 @@ Follow these logical flows to ensure a high-quality user experience:
 
 ### 3. Registration Flow
 **Goal**: Handle new users.
-- **Trigger**: When an action returns "User Not Found".
-- **Instruction**: Guide the user to the store's registration URL (often found in brand metadata).
+- **Trigger**: When the user needs a new account or the backend returns "User Not Found".
+- **Instruction**: Prefer the built-in `send-code` and `register` commands when the backend supports them. If a backend only returns a registration URL, hand the user to that flow.
 
 ### 4. Shopping Cart Management
 **Goal**: Precise modification of the user's shopping session.

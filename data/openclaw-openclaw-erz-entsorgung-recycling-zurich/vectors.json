@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-erz-entsorgung-recycling-zurich",
-  "generated_at": "2026-03-14T07:15:31.942Z",
+  "generated_at": "2026-03-15T07:19:16.245Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-erz-entsorgung-recycling-zurich#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mbjoern/erz-entsorgung-recycling-zurich/SKILL.md",
-        "retrieved_at": "2026-03-14T07:15:31.942Z",
+        "retrieved_at": "2026-03-15T07:19:16.245Z",
         "content_sha256": "e9d4f4a9f46c979fb294bbb102032fdb5b021356094d3486ecf7dc1328586cbe"
       }
     }

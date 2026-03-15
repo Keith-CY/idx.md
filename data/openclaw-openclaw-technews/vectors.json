@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-technews",
-  "generated_at": "2026-03-14T07:16:57.118Z",
+  "generated_at": "2026-03-15T07:20:03.427Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-technews#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/technews/SKILL.md",
-        "retrieved_at": "2026-03-14T07:16:57.118Z",
+        "retrieved_at": "2026-03-15T07:20:03.427Z",
         "content_sha256": "279e3c642137b9b48a9a534575cc4c5c7e72a6defad77dea91a634416a0ef4f3"
       }
     }

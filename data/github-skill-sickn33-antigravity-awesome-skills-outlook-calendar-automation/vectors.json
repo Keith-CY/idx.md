@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-sickn33-antigravity-awesome-skills-outlook-calendar-automation",
-  "generated_at": "2026-03-14T07:14:27.003Z",
+  "generated_at": "2026-03-15T07:18:43.455Z",
   "records": [
     {
       "id": "skills/github-skill-sickn33-antigravity-awesome-skills-outlook-calendar-automation#head",
@@ -21,7 +21,7 @@
           "github-repo-antigravity-awesome-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/outlook-calendar-automation/SKILL.md",
-        "retrieved_at": "2026-03-14T07:14:27.003Z",
+        "retrieved_at": "2026-03-15T07:18:43.455Z",
         "content_sha256": "441ba572357adfc4e4fc59ba75c08729f8480bc7c5ae9dc1161597e2c797000c"
       }
     }

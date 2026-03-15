@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-efka-api-integration",
-  "generated_at": "2026-03-14T07:18:53.564Z",
+  "generated_at": "2026-03-15T07:21:06.938Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-efka-api-integration#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/efka-api-integration/SKILL.md",
-        "retrieved_at": "2026-03-14T07:18:53.564Z",
+        "retrieved_at": "2026-03-15T07:21:06.938Z",
         "content_sha256": "4f18679984d419bf5d3aee6779309728de958dfcc7a26d256a093538001ce1df"
       }
     }

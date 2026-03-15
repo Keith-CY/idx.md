@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-overseerr",
-  "generated_at": "2026-03-14T07:16:19.826Z",
+  "generated_at": "2026-03-15T07:19:42.807Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-overseerr#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/j1philli/overseerr/SKILL.md",
-        "retrieved_at": "2026-03-14T07:16:19.826Z",
+        "retrieved_at": "2026-03-15T07:19:42.807Z",
         "content_sha256": "07f6095bd6f5626d46361d37eb37db669c0966f5a0a892920106859f4d09b2ac"
       }
     }

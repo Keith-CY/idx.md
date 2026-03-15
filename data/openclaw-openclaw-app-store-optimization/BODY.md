@@ -1,6 +1,6 @@
 ---
-name: app-store-optimization
-description: App Store Optimization toolkit for researching keywords, optimizing metadata, and tracking mobile app performance on Apple App Store and Google Play Store.
+name: "app-store-optimization"
+description: App Store Optimization (ASO) toolkit for researching keywords, analyzing competitor rankings, generating metadata suggestions, and improving app visibility on Apple App Store and Google Play Store. Use when the user asks about ASO, app store rankings, app metadata, app titles and descriptions, app store listings, app visibility, or mobile app marketing on iOS or Android. Supports keyword research and scoring, competitor keyword analysis, metadata optimization, A/B test planning, launch checklists, and tracking ranking changes.
 triggers:
   - ASO
   - app store optimization
@@ -17,20 +17,6 @@ triggers:
 ---
 
 # App Store Optimization (ASO)
-
-ASO tools for researching keywords, optimizing metadata, analyzing competitors, and improving app store visibility on Apple App Store and Google Play Store.
-
----
-
-## Table of Contents
-
-- [Keyword Research Workflow](#keyword-research-workflow)
-- [Metadata Optimization Workflow](#metadata-optimization-workflow)
-- [Competitor Analysis Workflow](#competitor-analysis-workflow)
-- [App Launch Workflow](#app-launch-workflow)
-- [A/B Testing Workflow](#ab-testing-workflow)
-- [Before/After Examples](#beforeafter-examples)
-- [Tools and References](#tools-and-references)
 
 ---
 
@@ -75,13 +61,13 @@ Discover and evaluate keywords that drive app store visibility.
 
 ### Keyword Placement Priority
 
-| Location | Search Weight | Character Limit |
-|----------|---------------|-----------------|
-| App Title | Highest | 30 (iOS) / 50 (Android) |
-| Subtitle (iOS) | High | 30 |
-| Keyword Field (iOS) | High | 100 |
-| Short Description (Android) | High | 80 |
-| Full Description | Medium | 4,000 |
+| Location | Search Weight |
+|----------|---------------|
+| App Title | Highest |
+| Subtitle (iOS) | High |
+| Keyword Field (iOS) | High |
+| Short Description (Android) | High |
+| Full Description | Medium |
 
 See: [references/keyword-research-guide.md](references/keyword-research-guide.md)
 
@@ -454,35 +440,18 @@ Trusted by 500,000+ professionals.
 
 ---
 
-## Platform Limitations
+## Platform Notes
 
-### Data Constraints
+| Platform / Constraint | Behavior / Impact |
+|-----------------------|-------------------|
+| iOS keyword changes | Require app submission |
+| iOS promotional text | Editable without an app update |
+| Android metadata changes | Index in 1-2 hours |
+| Android keyword field | None — use description instead |
+| Keyword volume data | Estimates only; no official source |
+| Competitor data | Public listings only |
 
-| Constraint | Impact |
-|------------|--------|
-| No official keyword volume data | Estimates based on third-party tools |
-| Competitor data limited to public info | Cannot see internal metrics |
-| Review access limited to public reviews | No access to private feedback |
-| Historical data unavailable for new apps | Cannot compare to past performance |
-
-### Platform Behavior
-
-| Platform | Behavior |
-|----------|----------|
-| iOS | Keyword changes require app submission |
-| iOS | Promotional text editable without update |
-| Android | Metadata changes index in 1-2 hours |
-| Android | No separate keyword field (use description) |
-| Both | Algorithm changes without notice |
-
-### When Not to Use This Skill
-
-| Scenario | Alternative |
-|----------|-------------|
-| Web apps | Use web SEO skills |
-| Enterprise apps (not public) | Internal distribution tools |
-| Beta/TestFlight only | Focus on feedback, not ASO |
-| Paid advertising strategy | Use paid acquisition skills |
+**When not to use this skill:** web apps (use web SEO), enterprise/internal apps, TestFlight-only betas, or paid advertising strategy.
 
 ---
 
@@ -493,3 +462,25 @@ Trusted by 500,000+ professionals.
 | [content-creator](../content-creator/) | App description copywriting |
 | [marketing-demand-acquisition](../marketing-demand-acquisition/) | Launch promotion campaigns |
 | [marketing-strategy-pmm](../marketing-strategy-pmm/) | Go-to-market planning |
+
+## Proactive Triggers
+
+- **No keyword optimization in title** → App title is the #1 ranking factor. Include top keyword.
+- **Screenshots don't show value** → Screenshots should tell a story, not show UI.
+- **No ratings strategy** → Below 4.0 stars kills conversion. Implement in-app rating prompts.
+- **Description keyword-stuffed** → Natural language with keywords beats keyword stuffing.
+
+## Output Artifacts
+
+| When you ask for... | You get... |
+|---------------------|------------|
+| "ASO audit" | Full app store listing audit with prioritized fixes |
+| "Keyword research" | Keyword list with search volume and difficulty scores |
+| "Optimize my listing" | Rewritten title, subtitle, description, keyword field |
+
+## Communication
+
+All output passes quality verification:
+- Self-verify: source attribution, assumption audit, confidence scoring
+- Output format: Bottom Line → What (with confidence) → Why → How to Act
+- Results only. Every finding tagged: 🟢 verified, 🟡 medium, 🔴 assumed.

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-academic-research-hub",
-  "generated_at": "2026-03-14T07:17:44.442Z",
+  "generated_at": "2026-03-15T07:20:28.422Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-academic-research-hub#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/anisafifi/academic-research-hub/SKILL.md",
-        "retrieved_at": "2026-03-14T07:17:44.442Z",
+        "retrieved_at": "2026-03-15T07:20:28.422Z",
         "content_sha256": "10213493b3d39c28239b766fa91b84643f0f5532e795c39c6ef361d3984811fd"
       }
     }

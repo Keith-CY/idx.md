@@ -40,6 +40,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sora/SK
 github_stars: 13365
 github_forks: 747
 github_is_organization: true
-retrieved_at: 2026-03-14T07:14:30.143Z
+retrieved_at: 2026-03-15T07:18:44.736Z
 content_sha256: 13ac4711e544afc1d76cc2f7ae34ff19089be5797654afba7932d6c2424acccf
 ---

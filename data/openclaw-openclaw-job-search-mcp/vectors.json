@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-job-search-mcp",
-  "generated_at": "2026-03-14T07:15:52.743Z",
+  "generated_at": "2026-03-15T07:19:27.922Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-job-search-mcp#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amoghpurohit/job-search-mcp/SKILL.md",
-        "retrieved_at": "2026-03-14T07:15:52.743Z",
+        "retrieved_at": "2026-03-15T07:19:27.922Z",
         "content_sha256": "e529a6a31afcf90132758ff59a0b26c5e99f7030cdd2466167083809295d0ae4"
       }
     }

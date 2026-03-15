@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-blinko",
-  "generated_at": "2026-03-14T07:18:28.333Z",
+  "generated_at": "2026-03-15T07:20:53.620Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-blinko#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/blinko/SKILL.md",
-        "retrieved_at": "2026-03-14T07:18:28.333Z",
+        "retrieved_at": "2026-03-15T07:20:53.620Z",
         "content_sha256": "5576022a97a87910018c44a4cf090c214f39be33d86b79c4ab7a6e6ecc63a879"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tdd-guide",
-  "generated_at": "2026-03-14T07:16:56.924Z",
+  "generated_at": "2026-03-15T07:20:03.303Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tdd-guide#head",
@@ -19,8 +19,8 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/tdd-guide/SKILL.md",
-        "retrieved_at": "2026-03-14T07:16:56.924Z",
-        "content_sha256": "313ee021abe325bed8497f276dcbaa983a51ee9ebf27f76cd7a5e105b587e763"
+        "retrieved_at": "2026-03-15T07:20:03.303Z",
+        "content_sha256": "af695cf083568165356e1de870310885a978f4831d25abbf0c894e9f548b84e4"
       }
     }
   ]

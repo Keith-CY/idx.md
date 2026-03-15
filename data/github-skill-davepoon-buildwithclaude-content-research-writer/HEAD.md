@@ -18,6 +18,6 @@ upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-14T07:14:21.443Z
+retrieved_at: 2026-03-15T07:18:40.404Z
 content_sha256: 1e2e8681cf7ba31550ac69151ec3fcb427559bcd3a92dc5e3b7070b7f4e076d3
 ---

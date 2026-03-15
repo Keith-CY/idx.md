@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/lwmxiaobei/yt-dlp-skill/yt-dlp
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-14T07:14:32.701Z
+retrieved_at: 2026-03-15T07:18:45.863Z
 content_sha256: 678319341ac20cb79bdebf70a1e432cae9cdd5ff4901ddd3a55292d9728d141e
 ---
