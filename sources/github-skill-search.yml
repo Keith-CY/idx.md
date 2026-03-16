@@ -44,6 +44,18 @@
     - github-repo-agno
   upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
 - type: skills
+  slug: github-skill-alirezarezvani-claude-skills-confluence-expert
+  source_url: https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/project-management/confluence-expert/SKILL.md
+  title: confluence-expert
+  summary: Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies, creates page templates with macros, sets up documentation taxonomies, designs page layouts, and manages content governance. Use when users need to build or restructure a Confluence space, design page hierarchies with permission structures, author or standardise documentation templates, embed Jira reports in pages, run knowledge base audits, or establish documentation standards and collaborative workflows.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-alirezarezvani
+    - github-repo-claude-skills
+  upstream_ref: https://github.com/alirezarezvani/claude-skills/blob/main/project-management/confluence-expert/SKILL.md
+- type: skills
   slug: github-skill-alvarobartt-hf-mem-hf-mem
   source_url: https://raw.githubusercontent.com/alvarobartt/hf-mem/main/SKILL.md
   title: hf-mem
@@ -320,6 +332,62 @@
     - github-repo-claude-code-templates
   upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/productivity/writing-rules/SKILL.md
 - type: skills
+  slug: github-skill-deanpeters-product-manager-skills-pestel-analysis
+  source_url: https://raw.githubusercontent.com/deanpeters/Product-Manager-Skills/main/skills/pestel-analysis/SKILL.md
+  title: pestel-analysis
+  summary: Analyze political, economic, social, technological, environmental, and legal forces. Use when external market shifts could materially affect a product, roadmap, or strategy.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-deanpeters
+    - github-repo-product-manager-skills
+  upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
+- type: skills
+  slug: github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks
+  source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
+  title: deploying-monitoring-stacks
+  summary: Monitor use when deploying monitoring stacks including Prometheus, Grafana, and Datadog. Trigger with phrases like "deploy monitoring stack", "setup prometheus", "configure grafana", or "install datadog agent". Generates production-ready configurations with metric collection, visualization dashboards, and alerting rules.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dicklesworthstone
+    - github-repo-pi_agent_rust
+  upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
+- type: skills
+  slug: github-skill-dicklesworthstone-pi-agent-rust-websocket-client-creator
+  source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/skills/16-api-integration/websocket-client-creator/SKILL.md
+  title: websocket-client-creator
+  summary: |-
+    Create websocket client creator operations. Auto-activating skill for API Integration.
+    Triggers on: websocket client creator, websocket client creator
+    Part of the API Integration skill category. Use when working with websocket client creator functionality. Trigger with phrases like "websocket client creator", "websocket creator", "websocket".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dicklesworthstone
+    - github-repo-pi_agent_rust
+  upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests/ext_conformance/artifacts/plugins-community/skills/16-api-integration/websocket-client-creator/SKILL.md
+- type: skills
+  slug: github-skill-dicklesworthstone-pi-agent-rust-windsurf-common-errors
+  source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/windsurf-pack/skills/windsurf-common-errors/SKILL.md
+  title: windsurf-common-errors
+  summary: |-
+    Diagnose and fix Windsurf common errors and exceptions.
+    Use when encountering Windsurf errors, debugging failed requests,
+    or troubleshooting integration issues.
+    Trigger with phrases like "windsurf error", "fix windsurf",
+    "windsurf not working", "debug windsurf".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dicklesworthstone
+    - github-repo-pi_agent_rust
+  upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests/ext_conformance/artifacts/plugins-community/plugins/saas-packs/windsurf-pack/skills/windsurf-common-errors/SKILL.md
+- type: skills
   slug: github-skill-dlt-hub-dlt-review-pr
   source_url: https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md
   title: review-pr
@@ -355,6 +423,18 @@
     - github-owner-epicweb-dev
     - github-repo-epic-stack
   upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
+- type: skills
+  slug: github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer
+  source_url: https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md
+  title: rtk-optimizer
+  summary: Optimize command outputs with RTK (Rust Token Killer) for 70% token reduction
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-florianbruniaux
+    - github-repo-claude-code-ultimate-guide
+  upstream_ref: https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/examples/skills/rtk-optimizer/SKILL.md
 - type: skills
   slug: github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
@@ -394,6 +474,23 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md
+  title: ideogram-common-errors
+  summary: |-
+    Diagnose and fix Ideogram common errors and exceptions.
+    Use when encountering Ideogram errors, debugging failed requests,
+    or troubleshooting integration issues.
+    Trigger with phrases like "ideogram error", "fix ideogram",
+    "ideogram not working", "debug ideogram".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
@@ -842,6 +939,22 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/eucalyptus-viminalis/leak/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-listenhub
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/boxingyi/listenhub/SKILL.md
+  title: listenhub
+  summary: |-
+    Explain anything — turn ideas into podcasts, explainer videos, or voice narration.
+    Use when the user wants to "make a podcast", "create an explainer video",
+    "read this aloud", "generate an image", or share knowledge in audio/visual form.
+    Supports: topic descriptions, YouTube links, article URLs, plain text, and image prompts.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/boxingyi/listenhub/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-moltmoon-sdk
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/enstest1/moltmoon-sdk/SKILL.md
   title: moltmoon-sdk
@@ -1010,6 +1123,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
 - type: skills
+  slug: github-skill-pbakaus-impeccable-colorize
+  source_url: https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md
+  title: colorize
+  summary: Add strategic color to features that are too monochromatic or lack visual interest. Makes interfaces more engaging and expressive.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-pbakaus
+    - github-repo-impeccable
+  upstream_ref: https://github.com/pbakaus/impeccable/blob/main/source/skills/colorize/SKILL.md
+- type: skills
   slug: github-skill-prompt-security-clawsec-claw-release
   source_url: https://raw.githubusercontent.com/prompt-security/clawsec/main/skills/claw-release/SKILL.md
   title: claw-release
@@ -1129,3 +1254,15 @@
     - github-owner-vllm-project
     - github-repo-vllm-ascend
   upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
+- type: skills
+  slug: github-skill-wavetermdev-waveterm-electron-api
+  source_url: https://raw.githubusercontent.com/wavetermdev/waveterm/main/.kilocode/skills/electron-api/SKILL.md
+  title: electron-api
+  summary: Guide for adding new Electron APIs to Wave Terminal. Use when implementing new frontend-to-electron communications via preload/IPC.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wavetermdev
+    - github-repo-waveterm
+  upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
