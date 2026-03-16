@@ -16706,3 +16706,29 @@
     - plugin-skill
     - category-search-research
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/skills/digest/SKILL.md
+- type: skills
+  slug: openclaw-openclaw-arb-injection
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cryptotooldev/arb-injection/SKILL.md
+  title: arb-injection
+  summary: "BYOCB ArbInjectionSkill: Scan EVM smart contracts for arbitrary call
+    injection vulnerabilities."
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-communication
+  github_stars: 2898
+  github_forks: 848
+  github_is_organization: true
+- type: skills
+  slug: openclaw-openclaw-arbinjectionskill
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cryptotooldev/arbinjectionskill/SKILL.md
+  title: arbinjectionskill
+  summary: "BYOCB ArbInjectionSkill: Scan EVM smart contracts for arbitrary call
+    injection vulnerabilities."
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-communication
+  github_stars: 2898
+  github_forks: 848
+  github_is_organization: true
