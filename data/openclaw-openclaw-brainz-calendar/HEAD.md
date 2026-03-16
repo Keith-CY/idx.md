@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xejrax/brainz-calendar/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:32.042Z
+retrieved_at: 2026-03-16T17:33:04.842Z
 content_sha256: 9c474c4d7442bbcbe3fb65d05c215b267b29382d7cad08984ad18d330520316c
 ---

@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-gbm-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:03.456Z
+retrieved_at: 2026-03-16T17:31:52.002Z
 content_sha256: a31632508bde4732652807632c7a26e82defcecf680932c2ca5863a0cc35198b
 ---

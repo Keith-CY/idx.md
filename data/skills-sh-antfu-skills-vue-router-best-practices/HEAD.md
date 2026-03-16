@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-router-best-practices/reference/router-beforeenter-no-param-trigger.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vue-router-best-practices
-github_stars: 3706
-github_forks: 181
+github_stars: 4081
+github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:55.690Z
+retrieved_at: 2026-03-16T17:31:39.846Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---

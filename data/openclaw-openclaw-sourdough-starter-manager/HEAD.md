@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/akhmittra/sourdough-starter-manager/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:54.056Z
+retrieved_at: 2026-03-16T17:34:01.075Z
 content_sha256: 6f8cf5c2a18026e211560e041e6f6f23256000d4bf529a028aba94a733f22f13
 ---

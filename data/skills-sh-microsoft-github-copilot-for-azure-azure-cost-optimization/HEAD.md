@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cost-optimization/references/azure-redis.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization
-github_stars: 127
-github_forks: 80
+github_stars: 155
+github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:53.245Z
+retrieved_at: 2026-03-16T17:31:22.109Z
 content_sha256: 51b03b4e4b4089b5c0e8a817fab8a0e854c630180f09a8ae4a23726bbc0f9f5c
 ---

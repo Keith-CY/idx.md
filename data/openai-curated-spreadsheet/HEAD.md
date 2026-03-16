@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/spreadsheet/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/spreadsheet/SKILL.md
-github_stars: 13365
-github_forks: 747
+github_stars: 14288
+github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T07:30:17.945Z
+retrieved_at: 2026-03-16T17:26:55.957Z
 content_sha256: 36baea99e96c77c13d15d24f9d53cd072ccbc120e810bf4e68049edb5b0f1d65
 ---

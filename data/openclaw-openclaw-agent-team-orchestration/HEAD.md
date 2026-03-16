@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arminnaimi/agent-team-orchestration/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:14.323Z
+retrieved_at: 2026-03-16T17:32:19.562Z
 content_sha256: ee8204c92884c727eae1c8c4007df5bc7aaa36595859cd462112982b5ffe1b4c
 ---

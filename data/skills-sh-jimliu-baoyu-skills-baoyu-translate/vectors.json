@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-jimliu-baoyu-skills-baoyu-translate",
+  "generated_at": "2026-03-16T17:31:40.226Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-translate#head",
+      "kind": "head",
+      "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-translate/HEAD.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-translate\nsummary: # EXTEND.md Schema for baoyu-translate ## Format EXTEND.md uses YAML format: ```yaml # Default target language (ISO code or common name) target_language: zh-CN # Default translation mode default_mode: normal # quick | normal | refined # Target audience (affects annotation depth and register) audience: general # general | technical | academic | business | or custom string\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-translate",
+        "topic": "skills-sh-jimliu-baoyu-skills-baoyu-translate",
+        "type": "skills",
+        "title": "skills-sh-jimliu-baoyu-skills-baoyu-translate",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md",
+        "retrieved_at": "2026-03-16T17:31:40.226Z",
+        "content_sha256": "ba3677cf40bb5063f450927b4fcde2f361a832e6a8632604a270df8372884593"
+      }
+    }
+  ]
+}

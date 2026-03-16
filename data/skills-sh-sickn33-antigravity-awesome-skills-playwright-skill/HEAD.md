@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/playwright-skill/API_REFERENCE.md
 license: ""
 upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-skill
-github_stars: 16692
-github_forks: 3033
+github_stars: 24669
+github_forks: 4233
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:56.469Z
+retrieved_at: 2026-03-16T17:31:45.290Z
 content_sha256: ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b
 ---

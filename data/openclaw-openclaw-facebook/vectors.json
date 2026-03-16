@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-facebook",
-  "generated_at": "2026-03-16T07:32:45.909Z",
+  "generated_at": "2026-03-16T17:33:40.753Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-facebook#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/facebook/SKILL.md",
-        "retrieved_at": "2026-03-16T07:32:45.909Z",
+        "retrieved_at": "2026-03-16T17:33:40.753Z",
         "content_sha256": "0de00402c01527ea2f9a0e3c8479f1274397a2b29b627a039ad72d9c02d84db9"
       }
     }

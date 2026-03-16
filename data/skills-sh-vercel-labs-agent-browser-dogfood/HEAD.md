@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/dogfood/references/issue-taxonomy.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/agent-browser/dogfood
-github_stars: 16507
-github_forks: 977
+github_stars: 22462
+github_forks: 1319
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:56.080Z
+retrieved_at: 2026-03-16T17:31:31.323Z
 content_sha256: dee7e925f7fe001903de6cc14f9656bcda90d069bbf65a2273f22202efebba09
 ---

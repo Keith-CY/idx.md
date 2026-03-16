@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/academic-deep-research/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:04.126Z
+retrieved_at: 2026-03-16T17:31:53.823Z
 content_sha256: 4408f1cb3fce2c9194ac7f796bb2fd7e6e8e59fd883757f8e7ed26b851ae236f
 ---

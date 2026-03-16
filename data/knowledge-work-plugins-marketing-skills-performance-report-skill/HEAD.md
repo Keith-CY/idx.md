@@ -1,0 +1,24 @@
+---
+stable_id: skills/knowledge-work-plugins-marketing-skills-performance-report-skill
+type: skills
+title: performance-report
+summary: Build a marketing performance report with key metrics, trend analysis,
+  wins and misses, and prioritized optimization recommendations. Use when
+  wrapping a campaign, when preparing weekly, monthly, or quarterly channel
+  summaries for stakeholders, or when you need data translated into an executive
+  summary with next-period priorities.
+tags:
+  - source-knowledge-work-plugins
+  - plugin-marketing
+  - plugin-component-skills
+  - plugin-skill
+  - category-marketing-sales
+source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md
+license: ""
+upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-03-16T17:31:09.236Z
+content_sha256: fa2bd747ab891426b33fe1e56bf6f6f6daa081a3c905138627d82da76e5b5e98
+---

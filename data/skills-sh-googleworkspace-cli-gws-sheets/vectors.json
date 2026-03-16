@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-googleworkspace-cli-gws-sheets",
+  "generated_at": "2026-03-16T17:31:38.858Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-googleworkspace-cli-gws-sheets#head",
+      "kind": "head",
+      "path": "/data/skills-sh-googleworkspace-cli-gws-sheets/HEAD.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-sheets\nsummary: --- name: gws-sheets-append version: 1.0.0 description: \"Google Sheets: Append a row to a spreadsheet.\" metadata: openclaw: category: \"productivity\" requires: bins: [\"gws\"] cliHelp: \"gws sheets +append --help\"\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-sheets-append/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-googleworkspace-cli-gws-sheets",
+        "topic": "skills-sh-googleworkspace-cli-gws-sheets",
+        "type": "skills",
+        "title": "skills-sh-googleworkspace-cli-gws-sheets",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-sheets-append/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:38.858Z",
+        "content_sha256": "475aa1201991d6d4b604b785a1dbd404294741bd4a2e32a20b5353a161a4ef0f"
+      }
+    }
+  ]
+}

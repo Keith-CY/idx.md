@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dagmawibabi/addis-assistant-stt/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:06.595Z
+retrieved_at: 2026-03-16T17:32:00.141Z
 content_sha256: d186a458e1ed4d4b5accf8135a01ed8c0eaf645cbd00c6a63fe372914a4f7615
 ---

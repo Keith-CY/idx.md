@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/the-timebeing/elevenlabs-open-account/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.857Z
+retrieved_at: 2026-03-16T17:33:38.205Z
 content_sha256: b1233ab7f0642270f2d5c593ec87da76cc0826c8b98615d33c636c6fdd7f7e1b
 ---

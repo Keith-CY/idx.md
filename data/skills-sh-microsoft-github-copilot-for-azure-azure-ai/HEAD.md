@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-ai/references/sdk/azure-search-documents-py.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-ai
-github_stars: 127
-github_forks: 80
+github_stars: 155
+github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:53.140Z
+retrieved_at: 2026-03-16T17:31:21.766Z
 content_sha256: d65d61fe00ed7c54d4163279da7f915613aa94a88b0613801dfb82514f89bc86
 ---

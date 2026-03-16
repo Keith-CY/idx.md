@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/n8n-workflow-automation/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.455Z
+retrieved_at: 2026-03-16T17:33:56.722Z
 content_sha256: b82537f81d728a19cff51137588e95211c229e5c342cf0d008cbe971f004c1d9
 ---

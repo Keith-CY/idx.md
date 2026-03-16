@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamzifei/adwhiz/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:07.599Z
+retrieved_at: 2026-03-16T17:32:02.797Z
 content_sha256: 8bd058c0ff04212da8b53fdff4a3bd8ef8ab1353e1d394cba5f416e858e327df
 ---

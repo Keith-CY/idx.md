@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dannyshmueli/agent-analytics/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:09.179Z
+retrieved_at: 2026-03-16T17:32:06.690Z
 content_sha256: bfef648a838e15919ca5e1031f598a1ba3fd0e74b36279753de0cb55fbdec8e3
 ---

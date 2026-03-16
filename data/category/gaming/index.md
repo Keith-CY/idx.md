@@ -17,10 +17,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/earnabitmore365/abby-watch/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:03.878Z
+retrieved_at: 2026-03-16T17:31:53.091Z
 content_sha256: 9850a90b5f4e2c5a5ab5bfc2e0ba26275909331d1a569e7b919ae226d7915e6e
 ---
 |/data/openclaw-openclaw-abby-watch|
@@ -37,10 +37,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ultimatebos/agent-confessions/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:10.655Z
+retrieved_at: 2026-03-16T17:32:10.482Z
 content_sha256: 19775bad8079873cd763623362ab6679ab2d4f71d0c01110dcb837ba07fc9fc5
 ---
 |/data/openclaw-openclaw-agent-confessions|
@@ -57,10 +57,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:15.705Z
+retrieved_at: 2026-03-16T17:32:23.193Z
 content_sha256: 0c1b5a9246c628c46510cf641ea5656a2f9124df5082b5321c6892c4c64201e1
 ---
 |/data/openclaw-openclaw-agentgram|
@@ -77,10 +77,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram-social/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:15.822Z
+retrieved_at: 2026-03-16T17:32:23.468Z
 content_sha256: 794631f641e2a7f0bc934dad7dbec8452d4f730a97e652ec4596f0fe715b06a7
 ---
 |/data/openclaw-openclaw-agentgram-social|
@@ -97,10 +97,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rivera-daniel/agora-flow/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:17.768Z
+retrieved_at: 2026-03-16T17:32:28.094Z
 content_sha256: 812784b46a413d232ab5990213d7c9c73e6cae2b64a6d77df1cb92292509619d
 ---
 |/data/openclaw-openclaw-agora-flow|
@@ -117,10 +117,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rivera-daniel/agoraflow/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:17.842Z
+retrieved_at: 2026-03-16T17:32:28.273Z
 content_sha256: 812784b46a413d232ab5990213d7c9c73e6cae2b64a6d77df1cb92292509619d
 ---
 |/data/openclaw-openclaw-agoraflow|
@@ -138,10 +138,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tippyentertainment/android-3d-developer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:21.433Z
+retrieved_at: 2026-03-16T17:32:37.435Z
 content_sha256: ab0340213a8fd433a4f3f8dd3e4a462c5e1e537847c946360ca079c72a68e403
 ---
 |/data/openclaw-openclaw-android-3d-developer|
@@ -158,10 +158,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sscottdev/arena/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:25.062Z
+retrieved_at: 2026-03-16T17:32:46.254Z
 content_sha256: 8a889d3d8c3a44b39b205cba9f36ce627790f6ff239dd226accae3595662709d
 ---
 |/data/openclaw-openclaw-arena|
@@ -178,10 +178,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sikey53/brawlnet/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:32.272Z
+retrieved_at: 2026-03-16T17:33:05.525Z
 content_sha256: fdbf135cf2353a168e62e31a7ae71c9549c867f278ead69b6d3d4abe0427cc6d
 ---
 |/data/openclaw-openclaw-brawlnet|
@@ -198,10 +198,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/raulvidis/clawingtrap/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:38.490Z
+retrieved_at: 2026-03-16T17:33:21.627Z
 content_sha256: a2813931869eed9d65351a0056fb72c23a288d9dd53d3326d6ac153ba86750fc
 ---
 |/data/openclaw-openclaw-clawingtrap|
@@ -218,10 +218,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/alfrescian/clawtopia/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:38.821Z
+retrieved_at: 2026-03-16T17:33:22.374Z
 content_sha256: a4aaca44c093e35e3de3fa175a491eabfe664384ee7d51b63be2675f339a6588
 ---
 |/data/openclaw-openclaw-clawtopia|
@@ -238,10 +238,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrolls/clawville/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.168Z
+retrieved_at: 2026-03-16T17:33:23.267Z
 content_sha256: 270b06338b825b4b97d6a4c4859daa5ceb0fb6e2e69ddeea1cc2422afd902aa5
 ---
 |/data/openclaw-openclaw-clawville|
@@ -258,10 +258,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/krisclarkdev/dakboard/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:42.004Z
+retrieved_at: 2026-03-16T17:33:31.028Z
 content_sha256: 9d6587c9b2cf298723f1253b6f86fefe2795b7cbef804daa5d8236d7997d91ae
 ---
 |/data/openclaw-openclaw-dakboard|
@@ -278,10 +278,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/antibitcoin/deepclaw/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:42.352Z
+retrieved_at: 2026-03-16T17:33:31.981Z
 content_sha256: 48cdb603b154d48bea47f4d500c7556fac46a91337201f51ea9bba13ef26146d
 ---
 |/data/openclaw-openclaw-deepclaw|
@@ -298,10 +298,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/urcades/hivemind/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:48.677Z
+retrieved_at: 2026-03-16T17:33:47.985Z
 content_sha256: 2c2c1bd969c3507a6356e260d827ce630a7499188a8474af24e77480850a2acf
 ---
 |/data/openclaw-openclaw-hivemind|
@@ -318,10 +318,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/newcastlegeek/hytale/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.068Z
+retrieved_at: 2026-03-16T17:33:48.859Z
 content_sha256: a7a6a989738d102785e307f6b667485834dcf39aca8e4af806f6567f924fd760
 ---
 |/data/openclaw-openclaw-hytale|
@@ -338,10 +338,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cyberverse2/imitationgame-agent/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.497Z
+retrieved_at: 2026-03-16T17:33:49.682Z
 content_sha256: 08fb2a4a694bc8cda93aff1e3e81b45a2861c1fb1ec098d77781c32e202c201a
 ---
 |/data/openclaw-openclaw-imitationgame-agent|
@@ -358,10 +358,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/themrzz/init/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.563Z
+retrieved_at: 2026-03-16T17:33:49.831Z
 content_sha256: ffa64b32e03202ff98d4f3ebd261a98253bc1b48eb5dfb43e8e5c0088486712d
 ---
 |/data/openclaw-openclaw-init|
@@ -381,7 +381,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:08.837Z
+retrieved_at: 2026-03-16T17:29:13.550Z
 content_sha256: 4146430112fd755e91fec6efa68dee72068677ad9dc08759f9e808aab253543b
 ---
 |/data/openclaw-openclaw-molt-chess|
@@ -401,7 +401,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:35.155Z
+retrieved_at: 2026-03-16T17:30:20.720Z
 content_sha256: 0396e8d5f9e4fc0dbd11ec29ed0dc573adfebd19e841ac66a149c60c05ca7a24
 ---
 |/data/openclaw-openclaw-steam|
@@ -422,7 +422,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:35.865Z
+retrieved_at: 2026-03-16T17:30:22.560Z
 content_sha256: 9dc49f6106c3e108dfb5c25a42b49eab8fd66f5fc544a38c6190e633585285ff
 ---
 |/data/openclaw-openclaw-sudoku|

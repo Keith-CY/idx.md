@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xhrisfu/agent-rpg/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:13.091Z
+retrieved_at: 2026-03-16T17:32:16.673Z
 content_sha256: 7883aed304ceb65a4714a6ae23e8e63f8b81918331cba5932d62004a829d45ed
 ---

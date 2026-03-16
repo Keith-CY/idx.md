@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitest/references/core-config.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vitest
-github_stars: 3706
-github_forks: 181
+github_stars: 4081
+github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:54.894Z
+retrieved_at: 2026-03-16T17:31:31.440Z
 content_sha256: 5fd3cf0983f203f14c4f4732dde0632c1d537241daa5cffea24f7e55712a6fb3
 ---

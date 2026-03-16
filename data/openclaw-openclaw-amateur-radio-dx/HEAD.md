@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/capt-marbles/amateur-radio-dx/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:20.829Z
+retrieved_at: 2026-03-16T17:32:35.655Z
 content_sha256: bb05b43a93aec9aa985bca0d4e8640176d7917deeceab35734e6d88348053972
 ---

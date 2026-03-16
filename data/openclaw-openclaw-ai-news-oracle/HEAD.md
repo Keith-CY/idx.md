@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/swimmingkiim/ai-news-oracle/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:18.592Z
+retrieved_at: 2026-03-16T17:32:29.981Z
 content_sha256: a672d4bb2665604a4e604887803e077042f61e73f0f7363012519a0a15ba298f
 ---

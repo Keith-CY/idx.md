@@ -1,0 +1,40 @@
+---
+stable_id: skills/skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-agents
+type: skills
+title: skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-agents
+summary: >-
+  # 🤖 Custom Agents
+
+  Custom agents for GitHub Copilot, making it easy for users and organizations
+  to "specialize" their Copilot coding agent (CCA) through simple file-based
+  configuration.
+
+  ### How to Contribute
+
+  See [CONTRIBUTING.md](../CONTRIBUTING.md#adding-agents) for guidelines on how
+  to contribute new agents, improve existing ones, and share your use cases.
+
+  ### How to Use Custom Agents
+
+  **To Install:**
+
+  - Click the **VS Code** or **VS Code Insiders** install button for the agent
+  you want to use
+
+  - Download the `*.agent.md` file and add it to your repository
+
+  **MCP Server Setup:**
+
+  - Each agent may require one or more MCP servers to function
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/docs/README.agents.md
+license: ""
+upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-agents
+github_stars: 25290
+github_forks: 2902
+github_is_organization: true
+retrieved_at: 2026-03-16T17:31:36.362Z
+content_sha256: f75a4975cf2b8db781cfe60fa636e12ee11d9e4704f5da569c59dcf054d8e9dc
+---

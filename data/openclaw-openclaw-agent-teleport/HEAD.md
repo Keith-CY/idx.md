@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lilyjazz/agent-teleport/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:14.394Z
+retrieved_at: 2026-03-16T17:32:19.707Z
 content_sha256: e6a83202a5d004bd1ec09f026b4c8ba57837ab551952b401c14972310953b7d9
 ---

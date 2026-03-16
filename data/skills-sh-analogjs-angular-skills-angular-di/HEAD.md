@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-di/references/di-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-di
-github_stars: 404
-github_forks: 44
+github_stars: 530
+github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:56.856Z
+retrieved_at: 2026-03-16T17:31:43.997Z
 content_sha256: 82a96864d1bc95d2cadac94ad888b147edb5d66d24c76510fbd215983fdcf903
 ---

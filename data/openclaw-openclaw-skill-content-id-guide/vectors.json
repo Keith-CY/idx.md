@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-skill-content-id-guide",
-  "generated_at": "2026-03-16T07:31:31.832Z",
+  "generated_at": "2026-03-16T17:30:11.909Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-skill-content-id-guide#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/skill-content-id-guide/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:31.832Z",
+        "retrieved_at": "2026-03-16T17:30:11.909Z",
         "content_sha256": "fe6559c4dac606c3bb44db2d6b1f9b23c3691ef31382f76325132b6c59f0578c"
       }
     }

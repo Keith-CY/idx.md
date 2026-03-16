@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/picaye/adblock-dns/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:06.252Z
+retrieved_at: 2026-03-16T17:31:59.234Z
 content_sha256: 3110e56e385beb77a6227338147799a915b990d70b1413d9426ef357c337547a
 ---

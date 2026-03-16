@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/michael-laffin/content-recycler/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.961Z
+retrieved_at: 2026-03-16T17:33:25.182Z
 content_sha256: 41ebb4e8f6a754abdcd5454e30cc5412a64fc95c5edca2d13b51d63e18765f5b
 ---

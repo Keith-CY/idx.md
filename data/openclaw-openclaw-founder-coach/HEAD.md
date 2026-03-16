@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/goforu/founder-coach/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:47.015Z
+retrieved_at: 2026-03-16T17:33:43.554Z
 content_sha256: 0fbc9f53d04914c913a4893b0acaee668c9aab8d76a2f2c363a801b763926207
 ---

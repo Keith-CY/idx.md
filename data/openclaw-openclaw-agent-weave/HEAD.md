@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gl813788-byte/agent-weave/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:14.746Z
+retrieved_at: 2026-03-16T17:32:20.561Z
 content_sha256: adc9d8d8975c0e3c0553baabfe43311a3bc76145ab1c82b2de3f5489f19e747f
 ---

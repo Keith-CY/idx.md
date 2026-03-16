@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/amadeus-hotels/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:20.765Z
+retrieved_at: 2026-03-16T17:32:35.525Z
 content_sha256: 83f2600982100992bab33f28ae9b759fde47643b230fa2f2f7d19bd9eada14e4
 ---

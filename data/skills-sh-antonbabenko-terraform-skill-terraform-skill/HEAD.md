@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/antonbabenko/terraform-skill/terraform-skill
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:30:28.199Z
+retrieved_at: 2026-03-16T17:27:24.794Z
 content_sha256: 9cf4ebfa368f4f754dab14f089860da650053011a2e8e1648f79faa79808c3b0
 ---

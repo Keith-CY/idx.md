@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/api-credentials-hygiene/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:22.417Z
+retrieved_at: 2026-03-16T17:32:39.964Z
 content_sha256: 8852d382d53f1446f5fe2db478a809d718aa073b31d831d54682d394b2effbef
 ---

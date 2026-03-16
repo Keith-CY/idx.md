@@ -1,0 +1,27 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "openclaw-openclaw-bluente-translate",
+  "generated_at": "2026-03-16T17:33:01.330Z",
+  "records": [
+    {
+      "id": "skills/openclaw-openclaw-bluente-translate#head",
+      "kind": "head",
+      "path": "/data/openclaw-openclaw-bluente-translate/HEAD.md",
+      "text": "title: bluente-translate\nsummary: Translate your documents with formatting intact in 2 minutes.\ntype: skills\ntags: openclaw, source-awesome-openclaw-skills, category-pdf-documents\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/varsmallrookie/bluente-translate/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/openclaw-openclaw-bluente-translate",
+        "topic": "openclaw-openclaw-bluente-translate",
+        "type": "skills",
+        "title": "bluente-translate",
+        "tags": [
+          "openclaw",
+          "source-awesome-openclaw-skills",
+          "category-pdf-documents"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/varsmallrookie/bluente-translate/SKILL.md",
+        "retrieved_at": "2026-03-16T17:33:01.330Z",
+        "content_sha256": "27769f4d507d651bfd84a25d7b38742d3482e26d295dd0d3aa88ce2213e73c9d"
+      }
+    }
+  ]
+}

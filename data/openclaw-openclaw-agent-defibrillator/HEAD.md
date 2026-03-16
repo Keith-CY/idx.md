@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hazy2go/agent-defibrillator/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:11.050Z
+retrieved_at: 2026-03-16T17:32:11.508Z
 content_sha256: a834ad6ab9a24240a07c8e6baf7655d82d2405c66d1f956f9409172b8c2eaf4a
 ---

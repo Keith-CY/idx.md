@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-github-awesome-copilot-azure-pricing",
+  "generated_at": "2026-03-16T17:31:43.083Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-github-awesome-copilot-azure-pricing#head",
+      "kind": "head",
+      "path": "/data/skills-sh-github-awesome-copilot-azure-pricing/HEAD.md",
+      "text": "title: skills-sh-github-awesome-copilot-azure-pricing\nsummary: # Azure Region Names Reference The Azure Retail Prices API requires `armRegionName` values in lowercase with no spaces. Use this table to map common region names to their API values. ## Region Mapping | Display Name | armRegionName | |-------------|---------------| | East US | `eastus` | | East US 2 | `eastus2` | | Central US | `centralus` | | North Central US | `northcentralus` | | South Central US | `southcentralus` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-pricing/references/REGIONS.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-github-awesome-copilot-azure-pricing",
+        "topic": "skills-sh-github-awesome-copilot-azure-pricing",
+        "type": "skills",
+        "title": "skills-sh-github-awesome-copilot-azure-pricing",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-pricing/references/REGIONS.md",
+        "retrieved_at": "2026-03-16T17:31:43.083Z",
+        "content_sha256": "c0125df101ab525177a7c84fc49f11ae78cde538599c10b07df1de894946dfff"
+      }
+    }
+  ]
+}

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/badaramoni/agentmemory/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:16.870Z
+retrieved_at: 2026-03-16T17:32:26.006Z
 content_sha256: ca32d5efbae20c7cf044eb0a65ca98ddfa89a3a9c1b81194f9c29f46db302add
 ---

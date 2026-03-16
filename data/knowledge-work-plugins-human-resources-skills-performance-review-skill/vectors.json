@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-human-resources-skills-performance-review-skill",
+  "generated_at": "2026-03-16T17:31:06.894Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-human-resources-skills-performance-review-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-human-resources-skills-performance-review-skill/HEAD.md",
+      "text": "title: performance-review\nsummary: Structure a performance review with self-assessment, manager template, and calibration prep. Use when review season kicks off and you need a self-assessment template, writing a manager review for a direct report, prepping rating distributions and promotion cases for calibration, or turning vague feedback into specific behavioral examples.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-human-resources, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/performance-review/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-human-resources-skills-performance-review-skill",
+        "topic": "knowledge-work-plugins-human-resources-skills-performance-review-skill",
+        "type": "skills",
+        "title": "performance-review",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-human-resources",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/performance-review/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:06.894Z",
+        "content_sha256": "a34e3f49e7c8619f07fd218cb2b6a6d57572dd7a0a78c72977dcd1739578e588"
+      }
+    }
+  ]
+}

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
 github_stars: 8840
 github_forks: 1172
 github_is_organization: false
-retrieved_at: 2026-03-16T07:30:29.870Z
+retrieved_at: 2026-03-16T17:27:30.290Z
 content_sha256: 96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2
 ---

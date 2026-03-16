@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zyra-v21/ceaser/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:35.324Z
+retrieved_at: 2026-03-16T17:33:13.462Z
 content_sha256: 0de86694920a1447e311533c9ea6f06d0a6ab5fc3bb17992dd2c5a135b9bcbc8
 ---

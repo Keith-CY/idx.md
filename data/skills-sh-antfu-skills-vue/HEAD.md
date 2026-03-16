@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue/references/script-setup-macros.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vue
-github_stars: 3706
-github_forks: 181
+github_stars: 4081
+github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:54.980Z
+retrieved_at: 2026-03-16T17:31:31.688Z
 content_sha256: ad47db85f8fbda6c055cedcc1d4175cd79d414e9be3ebf1e631d0e493eb4480a
 ---

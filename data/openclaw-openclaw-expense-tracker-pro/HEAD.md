@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/expense-tracker-pro/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:45.708Z
+retrieved_at: 2026-03-16T17:33:40.303Z
 content_sha256: d30f200ff8ba229a003b8f9dfc18680ec425bb5a4d9670a88f860c785792b8b5
 ---

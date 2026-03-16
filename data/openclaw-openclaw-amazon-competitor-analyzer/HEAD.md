@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/phheng/amazon-competitor-analyzer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:20.892Z
+retrieved_at: 2026-03-16T17:32:35.868Z
 content_sha256: daecda566786c6ba68a4ccdf17ce2cec8659d6944322d44ea46d58b12f97e543
 ---

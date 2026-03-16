@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ctsolutionsdev/egvert-health-guardian/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.613Z
+retrieved_at: 2026-03-16T17:33:37.599Z
 content_sha256: 076ab0e2718391af0de61afefddaa7d70731034dc5467dbe2bdef7cdcfe33a59
 ---

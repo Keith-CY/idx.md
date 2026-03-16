@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trebuhs/apple-search-ads-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:24.002Z
+retrieved_at: 2026-03-16T17:32:43.919Z
 content_sha256: 316f41e7386f50d48196f299f32c240d0dff8db7cce31bff8447af85bf7c4fe9
 ---

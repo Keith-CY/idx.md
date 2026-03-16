@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rylena/aada/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:03.069Z
+retrieved_at: 2026-03-16T17:31:51.054Z
 content_sha256: ca1cec7cf610ddc5c6dff9185f38bacc48349205aa4de8c5d755436778f52533
 ---

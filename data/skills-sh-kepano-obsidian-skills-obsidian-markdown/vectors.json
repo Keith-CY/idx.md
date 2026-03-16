@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-kepano-obsidian-skills-obsidian-markdown",
+  "generated_at": "2026-03-16T17:31:38.064Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-kepano-obsidian-skills-obsidian-markdown#head",
+      "kind": "head",
+      "path": "/data/skills-sh-kepano-obsidian-skills-obsidian-markdown/HEAD.md",
+      "text": "title: skills-sh-kepano-obsidian-skills-obsidian-markdown\nsummary: # Properties (Frontmatter) Reference Properties use YAML frontmatter at the start of a note: ```yaml --- title: My Note Title date: 2024-01-15 tags: - project - important aliases:\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-markdown/references/PROPERTIES.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-kepano-obsidian-skills-obsidian-markdown",
+        "topic": "skills-sh-kepano-obsidian-skills-obsidian-markdown",
+        "type": "skills",
+        "title": "skills-sh-kepano-obsidian-skills-obsidian-markdown",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-markdown/references/PROPERTIES.md",
+        "retrieved_at": "2026-03-16T17:31:38.064Z",
+        "content_sha256": "392953b5838c3ab3df135b5a914f100ae7b95e4501b6a2e5c8dc63da3ac7558b"
+      }
+    }
+  ]
+}

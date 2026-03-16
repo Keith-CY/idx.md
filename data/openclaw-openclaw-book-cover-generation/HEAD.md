@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/book-cover-generation/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:31.215Z
+retrieved_at: 2026-03-16T17:33:02.322Z
 content_sha256: 228b3f4b9d084688e1d59209523a879fe45df4ce9a22098787738990b28db2a7
 ---

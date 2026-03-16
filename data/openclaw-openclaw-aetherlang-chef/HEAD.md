@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/contrario/aetherlang-chef/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:08.344Z
+retrieved_at: 2026-03-16T17:32:04.685Z
 content_sha256: 6060375d43f22576beafb14a60386c370a9e0d37187fab36d9be77b86298352f
 ---

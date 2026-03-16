@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentns",
-  "generated_at": "2026-03-16T07:32:16.997Z",
+  "generated_at": "2026-03-16T17:32:26.281Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentns#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vibrant/agentns/SKILL.md",
-        "retrieved_at": "2026-03-16T07:32:16.997Z",
+        "retrieved_at": "2026-03-16T17:32:26.281Z",
         "content_sha256": "b52145b9bd5f2729c1c86f4344dafebc260e3f33ce6d10d4eb78144183a93d64"
       }
     }

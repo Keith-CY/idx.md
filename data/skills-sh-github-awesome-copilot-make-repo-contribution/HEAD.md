@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/make-repo-contribution/assets/issue-template.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/make-repo-contribution
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-16T07:32:00.828Z
+github_stars: 25290
+github_forks: 2902
+github_is_organization: true
+retrieved_at: 2026-03-16T17:31:34.421Z
 content_sha256: 82a8a9847134450248f2b2d4e7104cdb2ed764ce3407745c7c443bdb47bb5761
 ---

@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/contrario/aetherlang-strategy/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:08.541Z
+retrieved_at: 2026-03-16T17:32:05.238Z
 content_sha256: 54a313c2c0d29d861bf6c0db4fbe5f8fd13b94c8e460778df8bf7e8e75bcdbd1
 ---

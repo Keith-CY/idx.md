@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-photos/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:23.810Z
+retrieved_at: 2026-03-16T17:32:43.391Z
 content_sha256: 4810415b5fce7af8a07cd58a200408634f35b88dcb60cdd50a058d68b1ab25df
 ---

@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-human-resources-skills-comp-analysis-skill",
+  "generated_at": "2026-03-16T17:31:06.655Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-human-resources-skills-comp-analysis-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-human-resources-skills-comp-analysis-skill/HEAD.md",
+      "text": "title: comp-analysis\nsummary: Analyze compensation — benchmarking, band placement, and equity modeling. Trigger with \"what should we pay a [role]\", \"is this offer competitive\", \"model this equity grant\", or when uploading comp data to find outliers and retention risks.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-human-resources, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/comp-analysis/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-human-resources-skills-comp-analysis-skill",
+        "topic": "knowledge-work-plugins-human-resources-skills-comp-analysis-skill",
+        "type": "skills",
+        "title": "comp-analysis",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-human-resources",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/comp-analysis/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:06.655Z",
+        "content_sha256": "1af196cd1c38cdb96565eadebcf13fa25e979469b3e06f4791e18baa7f2534a6"
+      }
+    }
+  ]
+}

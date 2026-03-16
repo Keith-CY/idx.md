@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/in-liberty420/0g-compute/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:01.304Z
+retrieved_at: 2026-03-16T17:31:46.893Z
 content_sha256: 83f9dc891c9c22479cd18a6601b86b5f97faad31beb12632802bc8175ed1605a
 ---

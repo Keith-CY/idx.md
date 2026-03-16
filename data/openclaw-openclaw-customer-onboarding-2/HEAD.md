@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/customer-onboarding-2/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:41.712Z
+retrieved_at: 2026-03-16T17:33:30.185Z
 content_sha256: b2c07cdb4c0c7fc2d411449d6051e059f9563a501776ac56f1dbb0c546eceffd
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zfanmy/cron-backup/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:40.802Z
+retrieved_at: 2026-03-16T17:33:27.350Z
 content_sha256: ce3154edc872edd47f79b00aedb30906014188809e79ffd3d042fd42b529df43
 ---

@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/h4gen/bookkeeper/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:31.406Z
+retrieved_at: 2026-03-16T17:33:02.743Z
 content_sha256: 2e6a24d76d38140fe3fa8a6879fdf738cefa1413eec5e4cecd5d6c5b38fbacdf
 ---

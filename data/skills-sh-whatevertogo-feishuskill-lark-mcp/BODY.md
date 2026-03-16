@@ -1,148 +1,115 @@
-# 多维表格 (Bitable)
+# 安装配置
 
-## 核心规则
+## 快速配置
 
-```yaml
-# 创建资源用用户身份
-useUAT: true
-
-# 过滤条件 value 必须是数组
-✅ value: ["已完成"]
-❌ value: "已完成"
-
-# 使用 field_name 而非 field_id
-field_name: "状态"
+```json
+{
+  "mcpServers": {
+    "lark-mcp": {
+      "command": "npx",
+      "args": ["-y", "@larksuiteoapi/lark-mcp", "mcp", "-a", "<app_id>", "-s", "<app_secret>"]
+    }
+  }
+}
 ```
 
-## URL 解析
+**注意**: 不要使用 `-t` 限制工具，否则只会加载指定工具。
 
-```
-https://xxx.feishu.cn/base/bascnxxxxxx?table=tblxxxxxx
-                         ↑app_token         ↑table_id
-```
+## 参数
 
-## 工作流
+| 参数 | 必需 | 说明 |
+|------|:----:|------|
+| `-a` | ✅ | App ID |
+| `-s` | ✅ | App Secret |
+| `--oauth` | ❌ | 启用用户身份认证 |
+| `--token-mode` | ❌ | `user_access_token` |
+| `--domain` | ❌ | 国际版用 `https://open.larksuite.com` |
 
-### 1. 创建 Base
+## OAuth 配置
 
-```yaml
-工具: mcp__lark-mcp__bitable_v1_app_create
-data:
-  name: "Base名称"
-useUAT: true
-```
+以下工具需要用户令牌：
+- `docx_builtin_search`（搜索文档）
+- `wiki_v1_node_search`（搜索知识库）
 
-返回 `app_token` 和 `default_table_id`。
+### ⚠️ 常见坑
 
-### 2. 创建数据表
+**只加 `--oauth` 不够，必须同时加 `--token-mode user_access_token`**：
 
-```yaml
-工具: mcp__lark-mcp__bitable_v1_appTable_create
-path:
-  app_token: "bascnxxxxxx"
-data:
-  table:
-    name: "表名"
-    fields:
-      - field_name: "文本"
-        ui_type: "Text"
-      - field_name: "单选"
-        ui_type: "SingleSelect"
-        property:
-          options:
-            - name: "选项1"
-      - field_name: "日期"
-        ui_type: "DateTime"
-useUAT: true
+```json
+// ❌ 错误：只加 --oauth，仍返回 99991663
+{"args": ["-y", "@larksuiteoapi/lark-mcp", "mcp", "-a", "cli_xxx", "-s", "xxx", "--oauth"]}
+
+// ✅ 正确：必须同时添加
+{"args": ["-y", "@larksuiteoapi/lark-mcp", "mcp", "-a", "cli_xxx", "-s", "xxx", "--oauth", "--token-mode", "user_access_token"]}
 ```
 
-### 3. 查询记录
+**弄好之后需要重启agent工具**
 
-```yaml
-工具: mcp__lark-mcp__bitable_v1_appTableRecord_search
-path:
-  app_token: "bascnxxxxxx"
-  table_id: "tblxxxxxx"
-data:
-  filter:
-    conjunction: "and"
-    conditions:
-      - field_name: "状态"
-        operator: "is"
-        value: ["已完成"]
+### 配置步骤
+
+**1. 终端登录**
+```bash
+npx -y @larksuiteoapi/lark-mcp login -a cli_xxx -s xxx
 ```
 
-### 4. 创建记录
-
-```yaml
-工具: mcp__lark-mcp__bitable_v1_appTableRecord_create
-path:
-  app_token: "bascnxxxxxx"
-  table_id: "tblxxxxxx"
-data:
-  fields:
-    文本字段: "值"
-    单选字段: "选项名"
-    日期字段: 1705276800000
-useUAT: true
+**2. 更新配置**
+```json
+{
+  "mcpServers": {
+    "lark-mcp": {
+      "args": [
+        "-y", "@larksuiteoapi/lark-mcp", "mcp",
+        "-a", "cli_xxx", "-s", "xxx",
+        "--oauth",
+        "--token-mode", "user_access_token"
+      ]
+    }
+  }
+}
 ```
 
-### 5. 更新记录
+**3. 配置重定向 URL**
 
-```yaml
-工具: mcp__lark-mcp__bitable_v1_appTableRecord_update
-path:
-  app_token: "bascnxxxxxx"
-  table_id: "tblxxxxxx"
-  record_id: "recxxxxxx"
-data:
-  fields:
-    状态: "已完成"
-useUAT: true
+飞书开放平台 → 应用 → 安全设置 → 添加：
+```
+http://localhost:3000/callback
 ```
 
-## 字段类型
+**4. 重启 Claude Code**
 
-| ui_type | 说明 | 示例值 |
-|---------|------|--------|
-| Text | 文本 | `"内容"` |
-| Number | 数字 | `123` |
-| SingleSelect | 单选 | `"选项名"` |
-| MultiSelect | 多选 | `["选项1", "选项2"]` |
-| DateTime | 日期 | `1705276800000` (毫秒) |
-| User | 人员 | `"ou_xxxxx"` |
-| Checkbox | 复选框 | `true`/`false` |
+## OAuth 效果
 
-## 操作符
+| 场景 | 无 OAuth | 有 OAuth |
+|------|---------|---------|
+| 创建资源 | 创建者=飞书助手 | 创建者=当前用户 |
+| 搜索文档/知识库 | ❌ | ✅ |
+| 访问私有资源 | ❌ | ✅ |
 
-| operator | 说明 |
-|----------|------|
-| `is` | 等于 |
-| `isNot` | 不等于 |
-| `contains` | 包含 |
-| `isEmpty` | 为空 |
-| `isGreater` | 大于 |
-| `isLess` | 小于 |
+## 常见问题
 
-## 辅助工具
+| 问题 | 原因 | 解决 |
+|------|------|------|
+| 只有 3 个工具 | 使用了 `-t` | 移除 `-t` 参数 |
+| 99991663 错误 | OAuth 不完整 | 同时添加 `--oauth` 和 `--token-mode user_access_token` |
+| redirect_uri_mismatch | 未配置重定向 | 添加 `http://localhost:3000/callback` |
 
-```yaml
-# 获取数据表列表
-工具: mcp__lark-mcp__bitable_v1_appTable_list
-path:
-  app_token: "bascnxxxxxx"
+## 预设工具集
 
-# 获取字段列表
-工具: mcp__lark-mcp__bitable_v1_appTableField_list
-path:
-  app_token: "bascnxxxxxx"
-  table_id: "tblxxxxxx"
-```
-
-## 常见错误
-
-| 错误 | 解决 |
+| 预设 | 用途 |
 |------|------|
-| field not found | 用 `appTableField_list` 确认字段名 |
-| invalid filter | value 使用数组格式 `["值"]` |
-| 创建后无法访问 | 使用 `useUAT: true` |
+| `preset.default` | 默认，常用功能 |
+| `preset.im.default` | 即时消息 |
+| `preset.base.default` | 多维表格 |
+| `preset.doc.default` | 文档操作 |
+
+## 获取凭证
+
+1. 访问 [飞书开放平台](https://open.feishu.cn/app)
+2. 创建企业自建应用
+3. 获取 App ID 和 App Secret
+4. 添加所需权限
+
+## 相关链接
+
+- [飞书开放平台](https://open.feishu.cn/)
+- [MCP 集成文档](https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/mcp_integration/mcp_installation)

@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-engineering-skills-standup-skill",
+  "generated_at": "2026-03-16T17:31:08.627Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-engineering-skills-standup-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-engineering-skills-standup-skill/HEAD.md",
+      "text": "title: standup\nsummary: Generate a standup update from recent activity. Use when preparing for daily standup, summarizing yesterday's commits and PRs and ticket moves, formatting work into yesterday/today/blockers, or structuring a few rough notes into a shareable update.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-engineering, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/standup/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-engineering-skills-standup-skill",
+        "topic": "knowledge-work-plugins-engineering-skills-standup-skill",
+        "type": "skills",
+        "title": "standup",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-engineering",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/standup/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:08.627Z",
+        "content_sha256": "598d9082631326ee810056c787188ee021c6325f990989732ba178ea111adf45"
+      }
+    }
+  ]
+}

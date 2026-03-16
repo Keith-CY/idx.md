@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/datadrivenconstruction/data-lineage-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:42.241Z
+retrieved_at: 2026-03-16T17:33:31.660Z
 content_sha256: 45474ee7cbaacf1827512478be134dbd19a4545ff295bd9c3f89dfca6dff2f95
 ---

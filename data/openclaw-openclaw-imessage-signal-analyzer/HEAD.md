@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/terellison/imessage-signal-analyzer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.442Z
+retrieved_at: 2026-03-16T17:33:49.479Z
 content_sha256: 2e2d2b89f84e4d0f948d65a3606d23f96555b7e5297da32de5fbf2a65350cca0
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/plgonzalezrx8/apple-remind-me/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:23.868Z
+retrieved_at: 2026-03-16T17:32:43.539Z
 content_sha256: 3b6c9d059e068afc4fe0fd546dadfd97260b303f1fcec6bcb1a917646d2048a9
 ---

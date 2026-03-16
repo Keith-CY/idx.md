@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/brianppetty/agresource/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:17.909Z
+retrieved_at: 2026-03-16T17:32:28.425Z
 content_sha256: 683a610fad2215c5790997b92b7344bd2d27b042aecc0bc294bccc315598070c
 ---

@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lilei0311/agent-evolver/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:11.540Z
+retrieved_at: 2026-03-16T17:32:12.720Z
 content_sha256: b5c4167190af0d92072f1c5bd9c180ebe2530fe206d278261c57651333063a74
 ---

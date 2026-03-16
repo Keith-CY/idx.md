@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-quit-porn",
-  "generated_at": "2026-03-16T07:31:24.414Z",
+  "generated_at": "2026-03-16T17:29:53.043Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-quit-porn#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-porn/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:24.414Z",
+        "retrieved_at": "2026-03-16T17:29:53.043Z",
         "content_sha256": "d497254391b5ad788b5ada25ecb525dd4c0b008b6e6dbaf84335851d281ad2b1"
       }
     }

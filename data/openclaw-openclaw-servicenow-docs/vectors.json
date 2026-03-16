@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-servicenow-docs",
-  "generated_at": "2026-03-16T07:31:30.941Z",
+  "generated_at": "2026-03-16T17:30:09.771Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-servicenow-docs#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/servicenow-docs/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:30.941Z",
+        "retrieved_at": "2026-03-16T17:30:09.771Z",
         "content_sha256": "74d4cc177b5b0ff92783fd098886a989d23896b4f76db9a92737b9e431680f45"
       }
     }

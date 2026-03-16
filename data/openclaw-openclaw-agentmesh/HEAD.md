@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cerbug45/agentmesh/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:16.939Z
+retrieved_at: 2026-03-16T17:32:26.148Z
 content_sha256: 1797fe1b5cee07d18b369f76fff84aaa8e3263f3d959169d289ae7f78388fcdc
 ---

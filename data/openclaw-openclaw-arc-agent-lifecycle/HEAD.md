@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-agent-lifecycle/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:24.357Z
+retrieved_at: 2026-03-16T17:32:44.578Z
 content_sha256: 8acf0a758ec08a615a28a3c2b1c73cd335625337f4f2535e2352955737fb346a
 ---

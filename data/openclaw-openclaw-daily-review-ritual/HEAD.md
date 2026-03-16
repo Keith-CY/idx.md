@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/daily-review-ritual/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:41.943Z
+retrieved_at: 2026-03-16T17:33:30.861Z
 content_sha256: e4bddd7e66b553cb4d9d1c0f02b31f8a7299fb69ac5257e2fedf337de6f4cada
 ---

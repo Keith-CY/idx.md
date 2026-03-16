@@ -1,0 +1,28 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-design-skills-research-synthesis-skill",
+  "generated_at": "2026-03-16T17:31:12.574Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-design-skills-research-synthesis-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-design-skills-research-synthesis-skill/HEAD.md",
+      "text": "title: research-synthesis\nsummary: Synthesize user research into themes, insights, and recommendations. Use when you have interview transcripts, survey results, usability test notes, support tickets, or NPS responses that need to be distilled into patterns, user segments, and prioritized next steps.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-design, plugin-component-skills, plugin-skill\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/research-synthesis/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-design-skills-research-synthesis-skill",
+        "topic": "knowledge-work-plugins-design-skills-research-synthesis-skill",
+        "type": "skills",
+        "title": "research-synthesis",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-design",
+          "plugin-component-skills",
+          "plugin-skill"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/research-synthesis/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:12.574Z",
+        "content_sha256": "40048615dc81fc8b9b06104769498214d61a35ae4518a0995a12bbbd0ab945a1"
+      }
+    }
+  ]
+}

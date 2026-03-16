@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-storage/references/sdk/azure-storage-blob-py.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-storage
-github_stars: 127
-github_forks: 80
+github_stars: 155
+github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:53.293Z
+retrieved_at: 2026-03-16T17:31:21.978Z
 content_sha256: afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8
 ---

@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/easonc13/abstract-searcher/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:04.061Z
+retrieved_at: 2026-03-16T17:31:53.706Z
 content_sha256: 53c34d878e31f1341e6ec1ff1e7997d8f6f51200b1c4555900ee4ccf3efe312f
 ---

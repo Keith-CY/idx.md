@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kbanc85/claudia-agent-rms/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:36.680Z
+retrieved_at: 2026-03-16T17:33:16.950Z
 content_sha256: b98e34d0784ed3c637fc449783baace464e8fc84acad4a2bc28f4744f1a47427
 ---

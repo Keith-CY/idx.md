@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/sp0oby/cabin-sol/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:33.667Z
+retrieved_at: 2026-03-16T17:33:09.344Z
 content_sha256: b2ba2c1ffcc7af672ee05c83bb90455d1e03db10c38e59e4a5a06363415055b8
 ---

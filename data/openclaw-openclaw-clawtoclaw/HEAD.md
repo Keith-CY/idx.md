@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tonacy/clawtoclaw/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:38.761Z
+retrieved_at: 2026-03-16T17:33:22.208Z
 content_sha256: 666ece696422f4697f96df3a25f2d2ed1d5af93657d31c27102c6375d9f3d8fc
 ---

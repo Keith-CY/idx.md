@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-enterprise-search-skills-digest-skill",
+  "generated_at": "2026-03-16T17:31:12.980Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-enterprise-search-skills-digest-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-enterprise-search-skills-digest-skill/HEAD.md",
+      "text": "title: digest\nsummary: Generate a daily or weekly digest of activity across all connected sources. Use when catching up after time away, starting the day and wanting a summary of mentions and action items, or reviewing a week's decisions and document updates grouped by project.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-enterprise-search, plugin-component-skills, plugin-skill, category-search-research\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/digest/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-enterprise-search-skills-digest-skill",
+        "topic": "knowledge-work-plugins-enterprise-search-skills-digest-skill",
+        "type": "skills",
+        "title": "digest",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-enterprise-search",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-search-research"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/digest/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:12.980Z",
+        "content_sha256": "d711d49b898eb303b74488dce75308e8737786d87210f1dca13ec325bc7f5737"
+      }
+    }
+  ]
+}

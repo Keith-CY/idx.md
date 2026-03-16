@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/confidant/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.827Z
+retrieved_at: 2026-03-16T17:33:24.866Z
 content_sha256: b2241ed98273f0e5da339522c3b6fc7da4628318559ced3e9146afeca27b419a
 ---

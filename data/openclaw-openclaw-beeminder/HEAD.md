@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ruigomeseu/beeminder/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:28.998Z
+retrieved_at: 2026-03-16T17:32:56.235Z
 content_sha256: 5879550f77680cc9599ab33909948e46e15de60bb34a023b5566ed20cbfc4be2
 ---

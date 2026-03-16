@@ -3,35 +3,39 @@ stable_id: skills/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
 type: skills
 title: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
 summary: >-
-  # Style Reference
+  # Style Presets
 
-  ## Core Styles
+  `--preset X` expands to a type + style combination. Users can override either
+  dimension.
 
-  Simplified style tier for quick selection:
+  ## By Category
 
-  | Core Style | Maps To | Best For |
+  ### Technical & Engineering
 
-  |------------|---------|----------|
+  | --preset | Type | Style | Best For |
 
-  | `vector` | vector-illustration | Knowledge articles, tutorials, tech content
-  |
+  |----------|------|-------|----------|
 
-  | `minimal-flat` | notion | General, knowledge sharing, SaaS |
+  | `tech-explainer` | `infographic` | `blueprint` | API docs, system metrics,
+  technical deep-dives |
 
-  | `sci-fi` | blueprint | AI, frontier tech, system design |
+  | `system-design` | `framework` | `blueprint` | Architecture diagrams, system
+  design |
 
-  | `hand-drawn` | sketch/warm | Relaxed, reflective, casual content |
+  | `architecture` | `framework` | `vector-illustration` | Component
+  relationships, module structure |
 
-  | `editorial` | editorial | Processes, data, journalism |
+  | `science-paper` | `infographic` | `scientific` | Research findings, lab
+  results, academic |
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-article-illustrator/references/styles.md
+source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-article-illustrator/references/style-presets.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
-github_stars: 5829
-github_forks: 671
+github_stars: 9050
+github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:55.171Z
-content_sha256: 16295c68e71159f275e989e60003d1ba49f84d078bf2db8b3591ac119122db8f
+retrieved_at: 2026-03-16T17:31:29.327Z
+content_sha256: 83728770a2047532a38adb28c1457ea6dbcd93dbb472089bea23f561ca5da3f6
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rainbat/calctl/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:33.991Z
+retrieved_at: 2026-03-16T17:33:10.082Z
 content_sha256: 2cc34c9b1c7c9fcd4f593a64334ac4e2f40eca543ee12039d04c013e74090108
 ---

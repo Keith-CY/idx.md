@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasgeeksinthewood/achurch/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:05.129Z
+retrieved_at: 2026-03-16T17:31:56.499Z
 content_sha256: d1608bbbb4c33048bee28256106a54a5c970f5f3ece60ec15fd93b7afda3179c
 ---

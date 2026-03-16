@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/okwasniewski/agent-device/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:11.115Z
+retrieved_at: 2026-03-16T17:32:11.638Z
 content_sha256: 03063b8e5be921a1f12a967d928d35b0f65ca6b82e203c39161df227818ee7f8
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/myboxstorage/brainstorming-studio/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:31.984Z
+retrieved_at: 2026-03-16T17:33:04.663Z
 content_sha256: 1f8676022f99227d8b6d159a766497c68bdfb1ed4de0702c5222a6664c2ebba2
 ---

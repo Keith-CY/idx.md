@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/analytics-and-advisory-intelligence/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:21.304Z
+retrieved_at: 2026-03-16T17:32:37.055Z
 content_sha256: 588291efe6a95c468da163573637a570fe9ee2613e6670cb11dd92e8de0393de
 ---

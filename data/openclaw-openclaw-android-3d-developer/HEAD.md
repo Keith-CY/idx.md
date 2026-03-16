@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tippyentertainment/android-3d-developer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:21.433Z
+retrieved_at: 2026-03-16T17:32:37.435Z
 content_sha256: ab0340213a8fd433a4f3f8dd3e4a462c5e1e537847c946360ca079c72a68e403
 ---

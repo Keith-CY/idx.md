@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/samhvw8/dot-claude/HEAD/skills/ui-design-system/references/DESIGN_TOKENS.md
 license: ""
 upstream_ref: https://skills.sh/samhvw8/dot-claude/ui-design-system
-github_stars: 7
-github_forks: 0
-github_is_organization: false
-retrieved_at: 2026-03-16T07:31:56.898Z
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-03-16T17:31:46.423Z
 content_sha256: 8d12d8d26d288f383e36dabea1cda9f1a9bbd96b6d8d23b7e364403dd2cb5c8f
 ---

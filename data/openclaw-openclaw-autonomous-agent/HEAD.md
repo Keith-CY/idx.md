@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/josephrp/autonomous-agent/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:27.377Z
+retrieved_at: 2026-03-16T17:32:52.159Z
 content_sha256: d2293dd35aeabed1d2610351fcd4ae86bca6e53adb5327bd1d10e346b9d3d4c2
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/michael-laffin/affiliate-master/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:08.751Z
+retrieved_at: 2026-03-16T17:32:05.664Z
 content_sha256: aeffee2fb5cb0558c7911103947d6196cf2589c3d11b7c97582236e6d5ed064f
 ---

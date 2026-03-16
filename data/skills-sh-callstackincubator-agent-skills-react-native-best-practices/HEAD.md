@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md
 license: ""
 upstream_ref: https://skills.sh/callstackincubator/agent-skills/react-native-best-practices
-github_stars: 943
-github_forks: 51
+github_stars: 1023
+github_forks: 57
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:54.925Z
+retrieved_at: 2026-03-16T17:31:32.991Z
 content_sha256: 9c5aa77f59d1d23072f5297a621c54092ad5ac38fe7114be7542c609c8f8f43f
 ---

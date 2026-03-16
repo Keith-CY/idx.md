@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-googleworkspace-cli-gws-modelarmor",
+  "generated_at": "2026-03-16T17:31:41.532Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-googleworkspace-cli-gws-modelarmor#head",
+      "kind": "head",
+      "path": "/data/skills-sh-googleworkspace-cli-gws-modelarmor/HEAD.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-modelarmor\nsummary: --- name: gws-modelarmor-sanitize-prompt version: 1.0.0 description: \"Google Model Armor: Sanitize a user prompt through a Model Armor template.\" metadata: openclaw: category: \"security\" requires: bins: [\"gws\"] cliHelp: \"gws modelarmor +sanitize-prompt --help\"\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-modelarmor-sanitize-prompt/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-googleworkspace-cli-gws-modelarmor",
+        "topic": "skills-sh-googleworkspace-cli-gws-modelarmor",
+        "type": "skills",
+        "title": "skills-sh-googleworkspace-cli-gws-modelarmor",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-modelarmor-sanitize-prompt/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:41.532Z",
+        "content_sha256": "e87b824d1a71122c9c3fb26f2fd93b42f508d23222cfc2184bf2a51e57752b03"
+      }
+    }
+  ]
+}

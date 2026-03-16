@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-heygen-com-skills-heygen",
-  "generated_at": "2026-03-16T07:30:28.074Z",
+  "generated_at": "2026-03-16T17:27:24.422Z",
   "records": [
     {
       "id": "skills/skills-sh-heygen-com-skills-heygen#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/heygen-com/skills/HEAD/skills/heygen/references/prompt-optimizer.md",
-        "retrieved_at": "2026-03-16T07:30:28.074Z",
+        "retrieved_at": "2026-03-16T17:27:24.422Z",
         "content_sha256": "968fec33560cbf5d4abf433fe90c5d4602020629f28d6ae63b7061ca9bfd1a34"
       }
     }

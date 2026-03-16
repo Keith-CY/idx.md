@@ -17,10 +17,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/orosha-ai/agent-relay-digest/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:12.971Z
+retrieved_at: 2026-03-16T17:32:16.336Z
 content_sha256: 0abfa728b32143012d06469ecbde4ec3fe0185011a868cb9b458dcf6e8e848f1
 ---
 |/data/openclaw-openclaw-agent-relay-digest|
@@ -37,10 +37,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tjamescouch/agentchat/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:15.427Z
+retrieved_at: 2026-03-16T17:32:22.409Z
 content_sha256: 582946d09c60e29aeaf466e35e99c123b7ad497e9b603d0ecf598bd48b9ae3e1
 ---
 |/data/openclaw-openclaw-agentchat|
@@ -57,10 +57,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram-openclaw/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:15.761Z
+retrieved_at: 2026-03-16T17:32:23.331Z
 content_sha256: fe477282fdc2113160838f59fd4bf3c94560a3b38e1fb4a4d781df464113869a
 ---
 |/data/openclaw-openclaw-agentgram-openclaw|
@@ -77,10 +77,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/chrissorrell/bread-protocal/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:32.329Z
+retrieved_at: 2026-03-16T17:33:05.693Z
 content_sha256: 3a5bf014d5c1e939475397082795783e837c0359421fa8f5e0f5f575ba5bf151
 ---
 |/data/openclaw-openclaw-bread-protocal|
@@ -97,10 +97,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/hukifl1/clankedin/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:36.432Z
+retrieved_at: 2026-03-16T17:33:16.342Z
 content_sha256: abc294bf56d278e8d03240aeb83f76ad437a75096172f6da44f5b7e595e4ba6e
 ---
 |/data/openclaw-openclaw-clankedin|
@@ -117,10 +117,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kbanc85/claudia-agent-rms/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:36.680Z
+retrieved_at: 2026-03-16T17:33:16.950Z
 content_sha256: b98e34d0784ed3c637fc449783baace464e8fc84acad4a2bc28f4744f1a47427
 ---
 |/data/openclaw-openclaw-claudia-agent-rms|
@@ -137,10 +137,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mapessaprince/clawork/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:38.569Z
+retrieved_at: 2026-03-16T17:33:21.776Z
 content_sha256: 75bd7767a0ef8a5917d036ee7936660a448a01509645d6f1fa02b8adc865d10d
 ---
 |/data/openclaw-openclaw-clawork|
@@ -157,10 +157,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jongartmann/crustafarian/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:41.143Z
+retrieved_at: 2026-03-16T17:33:28.341Z
 content_sha256: ec1c36544f9082bb0f5e6c90971d46472e0c93dbe9ba314e43a6532ad811b9d0
 ---
 |/data/openclaw-openclaw-crustafarian|
@@ -177,10 +177,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/the-timebeing/elevenlabs-open-account/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.857Z
+retrieved_at: 2026-03-16T17:33:38.205Z
 content_sha256: b1233ab7f0642270f2d5c593ec87da76cc0826c8b98615d33c636c6fdd7f7e1b
 ---
 |/data/openclaw-openclaw-elevenlabs-open-account|
@@ -197,10 +197,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/promadgenius/ez-cronjob/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:45.785Z
+retrieved_at: 2026-03-16T17:33:40.448Z
 content_sha256: 1cee460650d0352ad1566f54b3a0cad64fd02866e2cbf3864045f19e026a824e
 ---
 |/data/openclaw-openclaw-ez-cronjob|
@@ -217,10 +217,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mrzilvis/fieldy-ai-webhook/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:46.631Z
+retrieved_at: 2026-03-16T17:33:42.595Z
 content_sha256: 3fb2d4da07b86fb5298d6f1c33e64c0d16bc0d70e1668c1ce3aefcf5392f01a7
 ---
 |/data/openclaw-openclaw-fieldy-ai-webhook|
@@ -237,10 +237,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/the-timebeing/ghl-open-account/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:47.579Z
+retrieved_at: 2026-03-16T17:33:45.056Z
 content_sha256: ce237abbd4750777e10362a8dc8493357f914cd34e5ea6908c58bc1c6a679b08
 ---
 |/data/openclaw-openclaw-ghl-open-account|
@@ -257,10 +257,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/local/gohome/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:47.856Z
+retrieved_at: 2026-03-16T17:33:45.817Z
 content_sha256: 923d5c316202209c042f0754f90c50cf363f4543e1e7ced753db1c92d3df8dcf
 ---
 |/data/openclaw-openclaw-gohome|
@@ -277,10 +277,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/imagemagick/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.375Z
+retrieved_at: 2026-03-16T17:33:49.335Z
 content_sha256: 58a5d8623430a5e8a4fd564ea7a356fb362a074b0e1d045a27594535fc583019
 ---
 |/data/openclaw-openclaw-imagemagick|
@@ -297,10 +297,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/oyi77/joko-moltbook/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.911Z
+retrieved_at: 2026-03-16T17:33:50.572Z
 content_sha256: 2f095b194e150e2a1467d483aa97280269b37e1d263bc1f9beccbf0a26168157
 ---
 |/data/openclaw-openclaw-joko-moltbook|
@@ -317,10 +317,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ttulttul/mailchannels/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.017Z
+retrieved_at: 2026-03-16T17:33:53.419Z
 content_sha256: c40e33cefeda00066d37f3a489cc74e006931dff5e05c06f9b54b17f156f9477
 ---
 |/data/openclaw-openclaw-mailchannels|
@@ -337,10 +337,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/maherucifer/mersal/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.395Z
+retrieved_at: 2026-03-16T17:33:54.313Z
 content_sha256: 56c5e8f3fff39155bdc54b5a9d81d168c16fa9a3b39c39661a20bf54dbfdc1ad
 ---
 |/data/openclaw-openclaw-mersal|
@@ -357,10 +357,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jongartmann/molt-life-kernel/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.558Z
+retrieved_at: 2026-03-16T17:33:54.601Z
 content_sha256: ec1c36544f9082bb0f5e6c90971d46472e0c93dbe9ba314e43a6532ad811b9d0
 ---
 |/data/openclaw-openclaw-molt-life-kernel|
@@ -377,10 +377,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/molt-trust/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.626Z
+retrieved_at: 2026-03-16T17:33:54.752Z
 content_sha256: 38670f91d3d7cfaa2811aeac1640b270461a7ca7644332047a023279b69688a5
 ---
 |/data/openclaw-openclaw-molt-trust|
@@ -397,10 +397,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mattprd/moltbook/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.686Z
+retrieved_at: 2026-03-16T17:33:54.897Z
 content_sha256: bdd5356c77c8391476014934b5c3719185264ffd0c64193d76929bdcd560575a
 ---
 |/data/openclaw-openclaw-moltbook|
@@ -417,10 +417,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lunarcmd/moltbook-interact/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.741Z
+retrieved_at: 2026-03-16T17:33:55.075Z
 content_sha256: aada5ae772d8fde901501bdf5ba33b5b7b2d4771588b6a1e8664b350d1a43b74
 ---
 |/data/openclaw-openclaw-moltbook-interact|
@@ -437,10 +437,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/moltbook-registry/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.809Z
+retrieved_at: 2026-03-16T17:33:55.209Z
 content_sha256: 7ffbb54e871a49ac07bab9bfd336fbae3aa05901c2c0374fda98807fdb49bb4f
 ---
 |/data/openclaw-openclaw-moltbook-registry|
@@ -457,10 +457,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/davestarling/moltbot-adsb-overhead/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.863Z
+retrieved_at: 2026-03-16T17:33:55.342Z
 content_sha256: 68e69dbd12ad56062657de24a233e388601712a40450a7256446b55b722041d9
 ---
 |/data/openclaw-openclaw-moltbot-adsb-overhead|
@@ -477,10 +477,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/giulianomlodi/moltbot-arena/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.927Z
+retrieved_at: 2026-03-16T17:33:55.490Z
 content_sha256: 3c5689416fb8d588bd4097eee63131399ae3f57601586016d761adf501776c70
 ---
 |/data/openclaw-openclaw-moltbot-arena|
@@ -497,10 +497,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/moltbot-best-practices/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.013Z
+retrieved_at: 2026-03-16T17:33:55.634Z
 content_sha256: 584f40fbf5c2d766429f19037927409b28084aa9352149462fcf96462af9b2dc
 ---
 |/data/openclaw-openclaw-moltbot-best-practices|
@@ -517,10 +517,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mkrdiop/moltbot-docker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.076Z
+retrieved_at: 2026-03-16T17:33:55.818Z
 content_sha256: 9c39514e511318af4c8d35314cfe50d613d9d7d5cd5ec39e46fd289208e6d52c
 ---
 |/data/openclaw-openclaw-moltbot-docker|
@@ -537,10 +537,10 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamvaleriofantozzi/moltbot-ha/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.148Z
+retrieved_at: 2026-03-16T17:33:55.981Z
 content_sha256: 02dc76c6a8192b1a5d8ae70ff345561b8473378f04b329e85f31af5c042dfddf
 ---
 |/data/openclaw-openclaw-moltbot-ha|
@@ -560,7 +560,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:09.255Z
+retrieved_at: 2026-03-16T17:29:14.692Z
 content_sha256: efbdbc49936eda8aea62adee36b5c5298cdf2d7f45bfa1b73d104527e88248c2
 ---
 |/data/openclaw-openclaw-moltguess|
@@ -580,7 +580,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:09.374Z
+retrieved_at: 2026-03-16T17:29:15.013Z
 content_sha256: 796707d46e3c7fbd4bca6dceafd2db188149f2ba845de2c4e9fcc647b1fddd6c
 ---
 |/data/openclaw-openclaw-moltlang|
@@ -600,7 +600,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:09.740Z
+retrieved_at: 2026-03-16T17:29:15.916Z
 content_sha256: c8adad35b52d89bf97f31c1154a25deaaf7afe87d445a952f492a6d112123821
 ---
 |/data/openclaw-openclaw-moltysmind|
@@ -620,7 +620,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:12.451Z
+retrieved_at: 2026-03-16T17:29:23.122Z
 content_sha256: 33617db18876f90f52fd2c50ee4a710f696936034c913a8fa16e607553d47dbc
 ---
 |/data/openclaw-openclaw-nobot|
@@ -641,7 +641,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:12.750Z
+retrieved_at: 2026-03-16T17:29:23.781Z
 content_sha256: fa066272ab7baad0b0a06c5a9d1b5dc3021229436bb504e1bf2f882c7f0d275b
 ---
 |/data/openclaw-openclaw-nonopost|
@@ -661,7 +661,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:20.943Z
+retrieved_at: 2026-03-16T17:29:44.574Z
 content_sha256: 44f68560ac44e2ab562ddf72ffdbe3d8aa8b7e71a50dc0b43be99da5844f8498
 ---
 |/data/openclaw-openclaw-post-queue|
@@ -681,7 +681,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:31:47.997Z
+retrieved_at: 2026-03-16T17:30:52.618Z
 content_sha256: 8ab9bbf761cdefff1cab80514b925704784dd9a01ea274b29d15227667e5575d
 ---
 |/data/openclaw-openclaw-whisper|

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drgeld/echodecks-ultimate/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.481Z
+retrieved_at: 2026-03-16T17:33:37.296Z
 content_sha256: 67da566c7a35799a5e1b63e9d1a0d62f341171f300e142bbd37d3013fa1e61df
 ---

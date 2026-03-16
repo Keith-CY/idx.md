@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-r2-upload",
-  "generated_at": "2026-03-16T07:31:24.775Z",
+  "generated_at": "2026-03-16T17:29:54.036Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-r2-upload#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/r2-upload/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:24.775Z",
+        "retrieved_at": "2026-03-16T17:29:54.036Z",
         "content_sha256": "06f8bd2c231fe826daf654c358167688c2094f4bcca773f0f0852409a0d03068"
       }
     }

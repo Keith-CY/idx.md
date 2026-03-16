@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/claw-skill-guard/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:36.981Z
+retrieved_at: 2026-03-16T17:33:17.850Z
 content_sha256: 90662b922d641b2ff4b96086fb0a44bbe2d96af2ebe2db6af239e7d43a0e346d
 ---

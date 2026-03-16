@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-personal-analytics",
-  "generated_at": "2026-03-16T07:31:18.499Z",
+  "generated_at": "2026-03-16T17:29:38.678Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-personal-analytics#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/personal-analytics/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:18.499Z",
+        "retrieved_at": "2026-03-16T17:29:38.678Z",
         "content_sha256": "2868b69feda344ca79edf2a3421ff6273b1384e74b893e98b9443b6b05dddc3b"
       }
     }

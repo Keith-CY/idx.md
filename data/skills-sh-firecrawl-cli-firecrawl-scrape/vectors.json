@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-firecrawl-cli-firecrawl-scrape",
+  "generated_at": "2026-03-16T17:31:44.121Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-firecrawl-cli-firecrawl-scrape#head",
+      "kind": "head",
+      "path": "/data/skills-sh-firecrawl-cli-firecrawl-scrape/HEAD.md",
+      "text": "title: skills-sh-firecrawl-cli-firecrawl-scrape\nsummary: --- name: firecrawl-search description: | Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says \"search for\", \"find me\", \"look up\", \"what are people saying about\", or \"find articles about\". Returns real search results with optional full-page markdown — not just snippets. Provides capabilities beyond Claude's built-in WebSearch. allowed-tools: - Bash(firecrawl *) - Bash(npx firecrawl *) --- # firecrawl search Web search with optional content scraping. Returns search results as JSON, optionally with full page content.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-firecrawl-cli-firecrawl-scrape",
+        "topic": "skills-sh-firecrawl-cli-firecrawl-scrape",
+        "type": "skills",
+        "title": "skills-sh-firecrawl-cli-firecrawl-scrape",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:44.121Z",
+        "content_sha256": "f30a672fa56276976c6cd86925c14cb87ad29b20cdfaccdb13fb92633f87d09e"
+      }
+    }
+  ]
+}

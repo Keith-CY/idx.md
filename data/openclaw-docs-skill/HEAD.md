@@ -7,10 +7,11 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying, configuring, or troubleshooting OpenClaw — a
-  self-hosted multi-channel AI agent gateway. Reach for this skill when agents
-  need to understand how to set up channels, manage sessions, configure models,
-  use tools, create skills, or debug gateway issues.
+  description: Use when building, configuring, or troubleshooting a self-hosted
+  AI agent gateway that connects messaging apps (WhatsApp, Telegram, Discord,
+  iMessage, etc.) to coding agents. Reach for this skill when agents need to set
+  up channels, manage sessions, configure models, create custom skills, or debug
+  agent behavior.
 
   metadata:
       mintlify-proj: clawdbot
@@ -22,14 +23,10 @@ summary: >-
   ## Product summary
 
   OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp,
-  Telegram, Discord, Slack, Signal, iMessage, and more) to an embedded AI agent
-  (Pi). It runs on any OS (macOS, Linux, Windows, iOS, Android) and manages
-  sessions, routing, tools, and multi-agent isolation in a single process. The
-  primary config file is `~/.openclaw/openclaw.json` (JSON5 format). Key CLI
-  commands: `openclaw onboard` (setup wizard), `openclaw gateway` (run the
-  service), `openclaw configure` (config wizard), `openclaw message send` (send
-  messages), `openclaw agent` (run a single turn). The main documentation site
-  is https://docs.openclaw.ai.
+  Telegram, Discord, iMessage, Slack, Signal, and more) to an embedded AI coding
+  agent. It runs as a single daemon process on your machine or server, manages
+  multi-channel routing, handles sessions and memory, and provides a web Control
+  UI for chat and configuration.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -37,6 +34,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T07:30:20.440Z
-content_sha256: aa4a126f774b452d44cef88237c6ffa2548214d6829b410e8bed4118a9392fe5
+retrieved_at: 2026-03-16T17:27:00.920Z
+content_sha256: 7cba6a8232809598490dec68b77c248b25164cd8dbeb812b20958d5971b77d5e
 ---

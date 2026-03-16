@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/theagentwire/agent-rate-limiter/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:12.786Z
+retrieved_at: 2026-03-16T17:32:15.877Z
 content_sha256: 5e4b9afde8b8f73e42aaff478f16025dabda7f247a10315969ec150038009cc0
 ---

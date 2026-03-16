@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/moltbot-best-practices/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.013Z
+retrieved_at: 2026-03-16T17:33:55.634Z
 content_sha256: 584f40fbf5c2d766429f19037927409b28084aa9352149462fcf96462af9b2dc
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/networktheoryappliedresearchinstitute/anthropology/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:22.000Z
+retrieved_at: 2026-03-16T17:32:38.899Z
 content_sha256: 0185dfcaceee1495d68e92b8c0d229a1776ae1621df77d759dee8b90df3f2c37
 ---

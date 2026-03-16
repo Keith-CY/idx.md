@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/galizki/13-day-sprint-method/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:01.720Z
+retrieved_at: 2026-03-16T17:31:47.808Z
 content_sha256: 7ed528bd31a1cc9105e1afe792cc83e7e5acc48e2898f3b4259789a2c75b02c7
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/foeken/clippy/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.421Z
+retrieved_at: 2026-03-16T17:33:23.915Z
 content_sha256: 8a0c915ebf85df3c3f55e1d4838072217c17ff7820dbbf1f4241639bea8dd351
 ---

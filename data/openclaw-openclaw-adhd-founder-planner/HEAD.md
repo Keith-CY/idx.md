@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-founder-planner/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:06.878Z
+retrieved_at: 2026-03-16T17:32:01.051Z
 content_sha256: 626535665e4afe19b9f5a9540fdfae716b6347178bb90a938e48c2d8807f5303
 ---

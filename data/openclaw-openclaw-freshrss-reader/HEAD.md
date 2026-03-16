@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/freshrss-reader/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:47.189Z
+retrieved_at: 2026-03-16T17:33:43.989Z
 content_sha256: b0ccb0ab035331ed6837a2d9ced2af5c7acc87bc5da5876e02e04877dcf60608
 ---

@@ -31,9 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry
-github_stars: 127
-github_forks: 80
+github_stars: 155
+github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:53.399Z
+retrieved_at: 2026-03-16T17:31:23.584Z
 content_sha256: 7798647a6ae6d10c8ed6b482f0e2fa741fd4e38396a516312ff0ec2fbef80ae8
 ---

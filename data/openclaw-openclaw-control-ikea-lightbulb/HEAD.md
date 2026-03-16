@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/antgly/control-ikea-lightbulb/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:40.273Z
+retrieved_at: 2026-03-16T17:33:25.982Z
 content_sha256: 9724e42c1991d40488abe5e18fe3e6f40bd8e623dc91fdddd2ac2685dba57971
 ---

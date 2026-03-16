@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-data-skills-validate-data-skill",
+  "generated_at": "2026-03-16T17:31:07.636Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-data-skills-validate-data-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-data-skills-validate-data-skill/HEAD.md",
+      "text": "title: validate-data\nsummary: QA an analysis before sharing -- methodology, accuracy, and bias checks. Use when reviewing an analysis before a stakeholder presentation, spot-checking calculations and aggregation logic, verifying a SQL query's results look right, or assessing whether conclusions are actually supported by the data.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-data, plugin-component-skills, plugin-skill, category-data-analytics\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/validate-data/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-data-skills-validate-data-skill",
+        "topic": "knowledge-work-plugins-data-skills-validate-data-skill",
+        "type": "skills",
+        "title": "validate-data",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-data",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-data-analytics"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/validate-data/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:07.636Z",
+        "content_sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b"
+      }
+    }
+  ]
+}

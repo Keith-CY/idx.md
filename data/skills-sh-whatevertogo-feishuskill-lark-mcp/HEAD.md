@@ -2,26 +2,29 @@
 stable_id: skills/skills-sh-whatevertogo-feishuskill-lark-mcp
 type: skills
 title: skills-sh-whatevertogo-feishuskill-lark-mcp
-summary: |-
-  # 多维表格 (Bitable)
-  ## 核心规则
-  ```yaml
-  # 创建资源用用户身份
-  useUAT: true
-  # 过滤条件 value 必须是数组
-  ✅ value: ["已完成"]
-  ❌ value: "已完成"
-  # 使用 field_name 而非 field_id
-  field_name: "状态"
+summary: >-
+  # 安装配置
+
+  ## 快速配置
+
+  ```json
+
+  {
+    "mcpServers": {
+      "lark-mcp": {
+        "command": "npx",
+        "args": ["-y", "@larksuiteoapi/lark-mcp", "mcp", "-a", "<app_id>", "-s", "<app_secret>"]
+      }
+    }
 tags:
   - skills-sh
   - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/bitable.md
+source_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/installation.md
 license: ""
 upstream_ref: https://skills.sh/whatevertogo/feishuskill/lark-mcp
-github_stars: 11
-github_forks: 1
+github_stars: 25
+github_forks: 4
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:56.945Z
-content_sha256: ea63d51981a033bb57b0569ee00db13450b151c1fe8c82ffdd4ee72991c06eb3
+retrieved_at: 2026-03-16T17:31:43.862Z
+content_sha256: eab1c2aaacb473c9019f6de85c0a230afb265d5554a3e4edad122c11c64a6cd8
 ---

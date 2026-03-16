@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/traderhc123/agenthc-market-intelligence/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:15.960Z
+retrieved_at: 2026-03-16T17:32:23.786Z
 content_sha256: 3428e99d8c68c97656de02a59a63464f7ce20dab0f88399b4273d41fbef3dcb5
 ---

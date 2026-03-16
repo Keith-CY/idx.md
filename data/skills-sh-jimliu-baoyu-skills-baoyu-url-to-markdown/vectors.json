@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
+  "generated_at": "2026-03-16T17:31:30.887Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown#head",
+      "kind": "head",
+      "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown/HEAD.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown\nsummary: --- name: first-time-setup description: First-time setup flow for baoyu-url-to-markdown preferences --- # First-Time Setup ## Overview When no EXTEND.md is found, guide user through preference setup. **BLOCKING OPERATION**: This setup MUST complete before ANY other workflow steps. Do NOT: - Start converting URLs - Ask about URLs or output paths\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
+        "topic": "skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
+        "type": "skills",
+        "title": "skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md",
+        "retrieved_at": "2026-03-16T17:31:30.887Z",
+        "content_sha256": "571620de72538e8b4f247a63e6db27ce5a27495d1283015ec16c1076d91811cc"
+      }
+    }
+  ]
+}

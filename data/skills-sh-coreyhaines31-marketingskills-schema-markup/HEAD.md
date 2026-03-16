@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/schema-markup/references/schema-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/schema-markup
-github_stars: 9780
-github_forks: 1357
+github_stars: 13702
+github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:54.492Z
+retrieved_at: 2026-03-16T17:31:26.653Z
 content_sha256: 5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318
 ---

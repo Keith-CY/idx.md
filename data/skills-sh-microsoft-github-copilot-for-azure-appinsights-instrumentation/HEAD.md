@@ -18,9 +18,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/appinsights-instrumentation/references/auto.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation
-github_stars: 127
-github_forks: 80
+github_stars: 155
+github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:53.552Z
+retrieved_at: 2026-03-16T17:31:22.495Z
 content_sha256: 8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732
 ---

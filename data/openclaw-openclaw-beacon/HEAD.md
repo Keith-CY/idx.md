@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/scottcjn/beacon/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:28.558Z
+retrieved_at: 2026-03-16T17:32:55.136Z
 content_sha256: 1e6448d364ccb11b1c69b0cfd1320a92bcd108f3130a8756be1076ceefc8926a
 ---

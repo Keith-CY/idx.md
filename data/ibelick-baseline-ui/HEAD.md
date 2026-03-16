@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md
 license: ""
 upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
-github_stars: 942
-github_forks: 42
+github_stars: 973
+github_forks: 45
 github_is_organization: false
-retrieved_at: 2026-03-16T07:30:16.925Z
+retrieved_at: 2026-03-16T17:26:51.298Z
 content_sha256: 9bb2f868098a9d28ce7d10383039a28169d838cea6299f9df3706ecda7932949
 ---

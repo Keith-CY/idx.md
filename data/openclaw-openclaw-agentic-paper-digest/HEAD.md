@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/matanle51/agentic-paper-digest/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:16.363Z
+retrieved_at: 2026-03-16T17:32:24.906Z
 content_sha256: c645b2c88b25720a21c8cda29c1aa481b1d137d2c501e811077b286b2bd80602
 ---

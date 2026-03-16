@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/xiaowenzhou/active-maintenance/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:05.573Z
+retrieved_at: 2026-03-16T17:31:57.516Z
 content_sha256: 4c4d27af999444647409078a36e172264f7ad770a00afc551cc5e3ec3f5d532e
 ---

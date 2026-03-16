@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/agentapi/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:14.866Z
+retrieved_at: 2026-03-16T17:32:20.877Z
 content_sha256: 03cac69f4438bd0b9deae69515ccb970ff258856ba0e88df66e7c1e6ea9bb406
 ---

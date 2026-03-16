@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-supercent-io-skills-template-testing-strategies",
+  "generated_at": "2026-03-16T17:31:29.088Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-supercent-io-skills-template-testing-strategies#head",
+      "kind": "head",
+      "path": "/data/skills-sh-supercent-io-skills-template-testing-strategies/HEAD.md",
+      "text": "title: skills-sh-supercent-io-skills-template-testing-strategies\nsummary: --- name: backend-testing description: Write comprehensive backend tests including unit tests, integration tests, and API tests. Use when testing REST APIs, database operations, authentication flows, or business logic. Handles Jest, Pytest, Mocha, testing strategies, mocking, and test coverage. metadata: tags: testing, backend, unit-test, integration-test, API-test, Jest, Pytest, TDD platforms: Claude, ChatGPT, Gemini --- # Backend Testing ## When to use this skill Specific situations that should trigger this skill:\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/backend-testing/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-supercent-io-skills-template-testing-strategies",
+        "topic": "skills-sh-supercent-io-skills-template-testing-strategies",
+        "type": "skills",
+        "title": "skills-sh-supercent-io-skills-template-testing-strategies",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/backend-testing/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:29.088Z",
+        "content_sha256": "91eb6da411be4897aafa9c97f7ec5ce98a1d753b8ca9ed2f0dda4997be9c0113"
+      }
+    }
+  ]
+}

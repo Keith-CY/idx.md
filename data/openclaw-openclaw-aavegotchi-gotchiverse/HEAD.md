@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-gotchiverse/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:03.525Z
+retrieved_at: 2026-03-16T17:31:52.171Z
 content_sha256: 41eeb04a5b2d691bd7f4fa28ea13543857b71826537ecf0e8da275498113aa24
 ---

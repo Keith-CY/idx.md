@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-jimliu-baoyu-skills-baoyu-xhs-images",
+  "generated_at": "2026-03-16T17:31:29.445Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-xhs-images#head",
+      "kind": "head",
+      "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-xhs-images/HEAD.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-xhs-images\nsummary: # Style Presets `--preset X` expands to a style + layout combination. Users can override either dimension. | --preset | Style | Layout | |----------|-------|--------| | `knowledge-card` | `notion` | `dense` | | `checklist` | `notion` | `list` | | `concept-map` | `notion` | `mindmap` | | `swot` | `notion` | `quadrant` | | `tutorial` | `chalkboard` | `flow` | | `classroom` | `chalkboard` | `balanced` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-xhs-images/references/style-presets.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-xhs-images",
+        "topic": "skills-sh-jimliu-baoyu-skills-baoyu-xhs-images",
+        "type": "skills",
+        "title": "skills-sh-jimliu-baoyu-skills-baoyu-xhs-images",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-xhs-images/references/style-presets.md",
+        "retrieved_at": "2026-03-16T17:31:29.445Z",
+        "content_sha256": "0620ce34347d83247c0502f5386437f1ef8229710a6e46690ac35ccaed65e255"
+      }
+    }
+  ]
+}

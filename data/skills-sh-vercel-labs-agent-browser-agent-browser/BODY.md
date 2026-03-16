@@ -1,266 +1,303 @@
-# Command Reference
+# Authentication Patterns
 
-Complete reference for all agent-browser commands. For quick start and common patterns, see SKILL.md.
+Login flows, session persistence, OAuth, 2FA, and authenticated browsing.
 
-## Navigation
+**Related**: [session-management.md](session-management.md) for state persistence details, [SKILL.md](../SKILL.md) for quick start.
 
-```bash
-agent-browser open <url>      # Navigate to URL (aliases: goto, navigate)
-                              # Supports: https://, http://, file://, about:, data://
-                              # Auto-prepends https:// if no protocol given
-agent-browser back            # Go back
-agent-browser forward         # Go forward
-agent-browser reload          # Reload page
-agent-browser close           # Close browser (aliases: quit, exit)
-agent-browser connect 9222    # Connect to browser via CDP port
-```
+## Contents
 
-## Snapshot (page analysis)
+- [Import Auth from Your Browser](#import-auth-from-your-browser)
+- [Persistent Profiles](#persistent-profiles)
+- [Session Persistence](#session-persistence)
+- [Basic Login Flow](#basic-login-flow)
+- [Saving Authentication State](#saving-authentication-state)
+- [Restoring Authentication](#restoring-authentication)
+- [OAuth / SSO Flows](#oauth--sso-flows)
+- [Two-Factor Authentication](#two-factor-authentication)
+- [HTTP Basic Auth](#http-basic-auth)
+- [Cookie-Based Auth](#cookie-based-auth)
+- [Token Refresh Handling](#token-refresh-handling)
+- [Security Best Practices](#security-best-practices)
 
-```bash
-agent-browser snapshot            # Full accessibility tree
-agent-browser snapshot -i         # Interactive elements only (recommended)
-agent-browser snapshot -c         # Compact output
-agent-browser snapshot -d 3       # Limit depth to 3
-agent-browser snapshot -s "#main" # Scope to CSS selector
-```
+## Import Auth from Your Browser
 
-## Interactions (use @refs from snapshot)
+The fastest way to authenticate is to reuse cookies from a Chrome session you are already logged into.
+
+**Step 1: Start Chrome with remote debugging**
 
 ```bash
-agent-browser click @e1           # Click
-agent-browser click @e1 --new-tab # Click and open in new tab
-agent-browser dblclick @e1        # Double-click
-agent-browser focus @e1           # Focus element
-agent-browser fill @e2 "text"     # Clear and type
-agent-browser type @e2 "text"     # Type without clearing
-agent-browser press Enter         # Press key (alias: key)
-agent-browser press Control+a     # Key combination
-agent-browser keydown Shift       # Hold key down
-agent-browser keyup Shift         # Release key
-agent-browser hover @e1           # Hover
-agent-browser check @e1           # Check checkbox
-agent-browser uncheck @e1         # Uncheck checkbox
-agent-browser select @e1 "value"  # Select dropdown option
-agent-browser select @e1 "a" "b"  # Select multiple options
-agent-browser scroll down 500     # Scroll page (default: down 300px)
-agent-browser scrollintoview @e1  # Scroll element into view (alias: scrollinto)
-agent-browser drag @e1 @e2        # Drag and drop
-agent-browser upload @e1 file.pdf # Upload files
+# macOS
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --remote-debugging-port=9222
+
+# Linux
+google-chrome --remote-debugging-port=9222
+
+# Windows
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
 ```
 
-## Get Information
+Log in to your target site(s) in this Chrome window as you normally would.
+
+> **Security note:** `--remote-debugging-port` exposes full browser control on localhost. Any local process can connect and read cookies, execute JS, etc. Only use on trusted machines and close Chrome when done.
+
+**Step 2: Grab the auth state**
 
 ```bash
-agent-browser get text @e1        # Get element text
-agent-browser get html @e1        # Get innerHTML
-agent-browser get value @e1       # Get input value
-agent-browser get attr @e1 href   # Get attribute
-agent-browser get title           # Get page title
-agent-browser get url             # Get current URL
-agent-browser get cdp-url         # Get CDP WebSocket URL
-agent-browser get count ".item"   # Count matching elements
-agent-browser get box @e1         # Get bounding box
-agent-browser get styles @e1      # Get computed styles (font, color, bg, etc.)
+# Auto-discover the running Chrome and save its cookies + localStorage
+agent-browser --auto-connect state save ./my-auth.json
 ```
 
-## Check State
+**Step 3: Reuse in automation**
 
 ```bash
-agent-browser is visible @e1      # Check if visible
-agent-browser is enabled @e1      # Check if enabled
-agent-browser is checked @e1      # Check if checked
+# Load auth at launch
+agent-browser --state ./my-auth.json open https://app.example.com/dashboard
+
+# Or load into an existing session
+agent-browser state load ./my-auth.json
+agent-browser open https://app.example.com/dashboard
 ```
 
-## Screenshots and PDF
+This works for any site, including those with complex OAuth flows, SSO, or 2FA -- as long as Chrome already has valid session cookies.
+
+> **Security note:** State files contain session tokens in plaintext. Add them to `.gitignore`, delete when no longer needed, and set `AGENT_BROWSER_ENCRYPTION_KEY` for encryption at rest. See [Security Best Practices](#security-best-practices).
+
+**Tip:** Combine with `--session-name` so the imported auth auto-persists across restarts:
 
 ```bash
-agent-browser screenshot          # Save to temporary directory
-agent-browser screenshot path.png # Save to specific path
-agent-browser screenshot --full   # Full page
-agent-browser pdf output.pdf      # Save as PDF
+agent-browser --session-name myapp state load ./my-auth.json
+# From now on, state is auto-saved/restored for "myapp"
 ```
 
-## Video Recording
+## Persistent Profiles
+
+Use `--profile` to point agent-browser at a Chrome user data directory. This persists everything (cookies, IndexedDB, service workers, cache) across browser restarts without explicit save/load:
 
 ```bash
-agent-browser record start ./demo.webm    # Start recording
-agent-browser click @e1                   # Perform actions
-agent-browser record stop                 # Stop and save video
-agent-browser record restart ./take2.webm # Stop current + start new
+# First run: login once
+agent-browser --profile ~/.myapp-profile open https://app.example.com/login
+# ... complete login flow ...
+
+# All subsequent runs: already authenticated
+agent-browser --profile ~/.myapp-profile open https://app.example.com/dashboard
 ```
 
-## Wait
+Use different paths for different projects or test users:
 
 ```bash
-agent-browser wait @e1                     # Wait for element
-agent-browser wait 2000                    # Wait milliseconds
-agent-browser wait --text "Success"        # Wait for text (or -t)
-agent-browser wait --url "**/dashboard"    # Wait for URL pattern (or -u)
-agent-browser wait --load networkidle      # Wait for network idle (or -l)
-agent-browser wait --fn "window.ready"     # Wait for JS condition (or -f)
+agent-browser --profile ~/.profiles/admin open https://app.example.com
+agent-browser --profile ~/.profiles/viewer open https://app.example.com
 ```
 
-## Mouse Control
+Or set via environment variable:
 
 ```bash
-agent-browser mouse move 100 200      # Move mouse
-agent-browser mouse down left         # Press button
-agent-browser mouse up left           # Release button
-agent-browser mouse wheel 100         # Scroll wheel
+export AGENT_BROWSER_PROFILE=~/.myapp-profile
+agent-browser open https://app.example.com/dashboard
 ```
 
-## Semantic Locators (alternative to refs)
+## Session Persistence
+
+Use `--session-name` to auto-save and restore cookies + localStorage by name, without managing files:
 
 ```bash
-agent-browser find role button click --name "Submit"
-agent-browser find text "Sign In" click
-agent-browser find text "Sign In" click --exact      # Exact match only
-agent-browser find label "Email" fill "user@test.com"
-agent-browser find placeholder "Search" type "query"
-agent-browser find alt "Logo" click
-agent-browser find title "Close" click
-agent-browser find testid "submit-btn" click
-agent-browser find first ".item" click
-agent-browser find last ".item" click
-agent-browser find nth 2 "a" hover
+# Auto-saves state on close, auto-restores on next launch
+agent-browser --session-name twitter open https://twitter.com
+# ... login flow ...
+agent-browser close  # state saved to ~/.agent-browser/sessions/
+
+# Next time: state is automatically restored
+agent-browser --session-name twitter open https://twitter.com
 ```
 
-## Browser Settings
+Encrypt state at rest:
 
 ```bash
-agent-browser set viewport 1920 1080          # Set viewport size
-agent-browser set viewport 1920 1080 2        # 2x retina (same CSS size, higher res screenshots)
-agent-browser set device "iPhone 14"          # Emulate device
-agent-browser set geo 37.7749 -122.4194       # Set geolocation (alias: geolocation)
-agent-browser set offline on                  # Toggle offline mode
-agent-browser set headers '{"X-Key":"v"}'     # Extra HTTP headers
-agent-browser set credentials user pass       # HTTP basic auth (alias: auth)
-agent-browser set media dark                  # Emulate color scheme
-agent-browser set media light reduced-motion  # Light mode + reduced motion
+export AGENT_BROWSER_ENCRYPTION_KEY=$(openssl rand -hex 32)
+agent-browser --session-name secure open https://app.example.com
 ```
 
-## Cookies and Storage
+## Basic Login Flow
 
 ```bash
-agent-browser cookies                     # Get all cookies
-agent-browser cookies set name value      # Set cookie
-agent-browser cookies clear               # Clear cookies
-agent-browser storage local               # Get all localStorage
-agent-browser storage local key           # Get specific key
-agent-browser storage local set k v       # Set value
-agent-browser storage local clear         # Clear all
+# Navigate to login page
+agent-browser open https://app.example.com/login
+agent-browser wait --load networkidle
+
+# Get form elements
+agent-browser snapshot -i
+# Output: @e1 [input type="email"], @e2 [input type="password"], @e3 [button] "Sign In"
+
+# Fill credentials
+agent-browser fill @e1 "user@example.com"
+agent-browser fill @e2 "password123"
+
+# Submit
+agent-browser click @e3
+agent-browser wait --load networkidle
+
+# Verify login succeeded
+agent-browser get url  # Should be dashboard, not login
 ```
 
-## Network
+## Saving Authentication State
+
+After logging in, save state for reuse:
 
 ```bash
-agent-browser network route <url>              # Intercept requests
-agent-browser network route <url> --abort      # Block requests
-agent-browser network route <url> --body '{}'  # Mock response
-agent-browser network unroute [url]            # Remove routes
-agent-browser network requests                 # View tracked requests
-agent-browser network requests --filter api    # Filter requests
+# Login first (see above)
+agent-browser open https://app.example.com/login
+agent-browser snapshot -i
+agent-browser fill @e1 "user@example.com"
+agent-browser fill @e2 "password123"
+agent-browser click @e3
+agent-browser wait --url "**/dashboard"
+
+# Save authenticated state
+agent-browser state save ./auth-state.json
 ```
 
-## Tabs and Windows
+## Restoring Authentication
+
+Skip login by loading saved state:
 
 ```bash
-agent-browser tab                 # List tabs
-agent-browser tab new [url]       # New tab
-agent-browser tab 2               # Switch to tab by index
-agent-browser tab close           # Close current tab
-agent-browser tab close 2         # Close tab by index
-agent-browser window new          # New window
+# Load saved auth state
+agent-browser state load ./auth-state.json
+
+# Navigate directly to protected page
+agent-browser open https://app.example.com/dashboard
+
+# Verify authenticated
+agent-browser snapshot -i
 ```
 
-## Frames
+## OAuth / SSO Flows
+
+For OAuth redirects:
 
 ```bash
-agent-browser frame "#iframe"     # Switch to iframe
-agent-browser frame main          # Back to main frame
+# Start OAuth flow
+agent-browser open https://app.example.com/auth/google
+
+# Handle redirects automatically
+agent-browser wait --url "**/accounts.google.com**"
+agent-browser snapshot -i
+
+# Fill Google credentials
+agent-browser fill @e1 "user@gmail.com"
+agent-browser click @e2  # Next button
+agent-browser wait 2000
+agent-browser snapshot -i
+agent-browser fill @e3 "password"
+agent-browser click @e4  # Sign in
+
+# Wait for redirect back
+agent-browser wait --url "**/app.example.com**"
+agent-browser state save ./oauth-state.json
 ```
 
-## Dialogs
+## Two-Factor Authentication
+
+Handle 2FA with manual intervention:
 
 ```bash
-agent-browser dialog accept [text]  # Accept dialog
-agent-browser dialog dismiss        # Dismiss dialog
+# Login with credentials
+agent-browser open https://app.example.com/login --headed  # Show browser
+agent-browser snapshot -i
+agent-browser fill @e1 "user@example.com"
+agent-browser fill @e2 "password123"
+agent-browser click @e3
+
+# Wait for user to complete 2FA manually
+echo "Complete 2FA in the browser window..."
+agent-browser wait --url "**/dashboard" --timeout 120000
+
+# Save state after 2FA
+agent-browser state save ./2fa-state.json
 ```
 
-## JavaScript
+## HTTP Basic Auth
+
+For sites using HTTP Basic Authentication:
 
 ```bash
-agent-browser eval "document.title"          # Simple expressions only
-agent-browser eval -b "<base64>"             # Any JavaScript (base64 encoded)
-agent-browser eval --stdin                   # Read script from stdin
+# Set credentials before navigation
+agent-browser set credentials username password
+
+# Navigate to protected resource
+agent-browser open https://protected.example.com/api
 ```
 
-Use `-b`/`--base64` or `--stdin` for reliable execution. Shell escaping with nested quotes and special characters is error-prone.
+## Cookie-Based Auth
+
+Manually set authentication cookies:
 
 ```bash
-# Base64 encode your script, then:
-agent-browser eval -b "ZG9jdW1lbnQucXVlcnlTZWxlY3RvcignW3NyYyo9Il9uZXh0Il0nKQ=="
+# Set auth cookie
+agent-browser cookies set session_token "abc123xyz"
 
-# Or use stdin with heredoc for multiline scripts:
-cat <<'EOF' | agent-browser eval --stdin
-const links = document.querySelectorAll('a');
-Array.from(links).map(a => a.href);
-EOF
+# Navigate to protected page
+agent-browser open https://app.example.com/dashboard
 ```
 
-## State Management
+## Token Refresh Handling
+
+For sessions with expiring tokens:
 
 ```bash
-agent-browser state save auth.json    # Save cookies, storage, auth state
-agent-browser state load auth.json    # Restore saved state
+#!/bin/bash
+# Wrapper that handles token refresh
+
+STATE_FILE="./auth-state.json"
+
+# Try loading existing state
+if [[ -f "$STATE_FILE" ]]; then
+    agent-browser state load "$STATE_FILE"
+    agent-browser open https://app.example.com/dashboard
+
+    # Check if session is still valid
+    URL=$(agent-browser get url)
+    if [[ "$URL" == *"/login"* ]]; then
+        echo "Session expired, re-authenticating..."
+        # Perform fresh login
+        agent-browser snapshot -i
+        agent-browser fill @e1 "$USERNAME"
+        agent-browser fill @e2 "$PASSWORD"
+        agent-browser click @e3
+        agent-browser wait --url "**/dashboard"
+        agent-browser state save "$STATE_FILE"
+    fi
+else
+    # First-time login
+    agent-browser open https://app.example.com/login
+    # ... login flow ...
+fi
 ```
 
-## Global Options
+## Security Best Practices
 
-```bash
-agent-browser --session <name> ...    # Isolated browser session
-agent-browser --json ...              # JSON output for parsing
-agent-browser --headed ...            # Show browser window (not headless)
-agent-browser --full ...              # Full page screenshot (-f)
-agent-browser --cdp <port> ...        # Connect via Chrome DevTools Protocol
-agent-browser -p <provider> ...       # Cloud browser provider (--provider)
-agent-browser --proxy <url> ...       # Use proxy server
-agent-browser --proxy-bypass <hosts>  # Hosts to bypass proxy
-agent-browser --headers <json> ...    # HTTP headers scoped to URL's origin
-agent-browser --executable-path <p>   # Custom browser executable
-agent-browser --extension <path> ...  # Load browser extension (repeatable)
-agent-browser --ignore-https-errors   # Ignore SSL certificate errors
-agent-browser --help                  # Show help (-h)
-agent-browser --version               # Show version (-V)
-agent-browser <command> --help        # Show detailed help for a command
-```
+1. **Never commit state files** - They contain session tokens
+   ```bash
+   echo "*.auth-state.json" >> .gitignore
+   ```
 
-## Debugging
+2. **Use environment variables for credentials**
+   ```bash
+   agent-browser fill @e1 "$APP_USERNAME"
+   agent-browser fill @e2 "$APP_PASSWORD"
+   ```
 
-```bash
-agent-browser --headed open example.com   # Show browser window
-agent-browser --cdp 9222 snapshot         # Connect via CDP port
-agent-browser connect 9222                # Alternative: connect command
-agent-browser console                     # View console messages
-agent-browser console --clear             # Clear console
-agent-browser errors                      # View page errors
-agent-browser errors --clear              # Clear errors
-agent-browser highlight @e1               # Highlight element
-agent-browser inspect                     # Open Chrome DevTools for this session
-agent-browser trace start                 # Start recording trace
-agent-browser trace stop trace.zip        # Stop and save trace
-agent-browser profiler start              # Start Chrome DevTools profiling
-agent-browser profiler stop trace.json    # Stop and save profile
-```
+3. **Clean up after automation**
+   ```bash
+   agent-browser cookies clear
+   rm -f ./auth-state.json
+   ```
 
-## Environment Variables
-
-```bash
-AGENT_BROWSER_SESSION="mysession"            # Default session name
-AGENT_BROWSER_EXECUTABLE_PATH="/path/chrome" # Custom browser path
-AGENT_BROWSER_EXTENSIONS="/ext1,/ext2"       # Comma-separated extension paths
-AGENT_BROWSER_PROVIDER="browserbase"         # Cloud browser provider
-AGENT_BROWSER_STREAM_PORT="9223"             # WebSocket streaming port
-AGENT_BROWSER_HOME="/path/to/agent-browser"  # Custom install location
-```
+4. **Use short-lived sessions for CI/CD**
+   ```bash
+   # Don't persist state in CI
+   agent-browser open https://app.example.com/login
+   # ... login and perform actions ...
+   agent-browser close  # Session ends, nothing persisted
+   ```

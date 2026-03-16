@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-content-moderation",
-  "generated_at": "2026-03-16T07:30:44.949Z",
+  "generated_at": "2026-03-16T17:28:11.665Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-content-moderation#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/code-with-brian/content-moderation/SKILL.md",
-        "retrieved_at": "2026-03-16T07:30:44.949Z",
+        "retrieved_at": "2026-03-16T17:28:11.665Z",
         "content_sha256": "5655003f59ae1320bb1c8070c8f4cbec7bd1f62e8dccf693c3a5a8e4d01cdef2"
       }
     }

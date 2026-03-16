@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/captchasco/captchas-openclaw/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:35.134Z
+retrieved_at: 2026-03-16T17:33:12.913Z
 content_sha256: 5ea7d0010ee0bc19d63166027c9a008ab85479d41fc0fb3994a664342162ce4d
 ---

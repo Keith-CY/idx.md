@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/francisbrero/confluence/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.897Z
+retrieved_at: 2026-03-16T17:33:25.020Z
 content_sha256: 55f6271a72c064a4e14313c87297bc5209785e480c9e91e49e869b1b3bdbc9a6
 ---

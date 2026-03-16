@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kingrubic/agentic-security-audit/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:16.517Z
+retrieved_at: 2026-03-16T17:32:25.189Z
 content_sha256: 0e32bfd51f62bed5bb0c37b37e146e76105116a467385ef8fcb307aa9013e8fd
 ---

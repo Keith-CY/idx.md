@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/x1xhlol/agent-hardening/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:11.651Z
+retrieved_at: 2026-03-16T17:32:12.991Z
 content_sha256: cc8afc44464cb13957a8c01eebd9d798982bfd75424cc9981cd478bb10973f2a
 ---

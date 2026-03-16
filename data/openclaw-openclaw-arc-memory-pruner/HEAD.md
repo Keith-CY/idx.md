@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-memory-pruner/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:24.552Z
+retrieved_at: 2026-03-16T17:32:45.071Z
 content_sha256: 33d5b4c3c075e014c04067809767e5903d6637bccb5c63164e2958a5f7798d34
 ---

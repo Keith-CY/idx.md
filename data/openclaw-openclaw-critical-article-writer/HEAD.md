@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/critical-article-writer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:40.685Z
+retrieved_at: 2026-03-16T17:33:27.025Z
 content_sha256: 9a3291bcfefb763b05dcd85b9edaf80b148434934d612712d496ab64639018c7
 ---

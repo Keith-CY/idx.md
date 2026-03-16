@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/crisanmm/dupe/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.010Z
+retrieved_at: 2026-03-16T17:33:36.202Z
 content_sha256: a115ed8edd86ef0a17c872ade663e8bc96a111c2ea7b72d0fa90a6cd1c2e9290
 ---

@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-deployment-preflight/references/REPORT-TEMPLATE.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/azure-deployment-preflight
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-16T07:31:58.951Z
+github_stars: 25290
+github_forks: 2902
+github_is_organization: true
+retrieved_at: 2026-03-16T17:31:33.403Z
 content_sha256: 685de9d8d43bfe58cfd9f20d8fa35b04e9da983f8122754400dc4b7457420197
 ---

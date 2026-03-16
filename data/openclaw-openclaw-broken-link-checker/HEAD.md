@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/wanng-ide/broken-link-checker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:33.081Z
+retrieved_at: 2026-03-16T17:33:07.694Z
 content_sha256: 4e256bd88964dac16d6855f00521467db10982bbfb5ff1c32e0946ecf1b78d68
 ---

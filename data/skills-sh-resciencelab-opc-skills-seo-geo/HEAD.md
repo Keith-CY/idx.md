@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/seo-geo/references/geo-research.md
 license: ""
 upstream_ref: https://skills.sh/resciencelab/opc-skills/seo-geo
-github_stars: 480
-github_forks: 47
+github_stars: 580
+github_forks: 58
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:55.102Z
+retrieved_at: 2026-03-16T17:31:31.586Z
 content_sha256: 76f781cd26f929b87d943775db223523a444ef4c66e8ee143c4d9ccdb8850457
 ---

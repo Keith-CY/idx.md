@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-whatevertogo-feishuskill-lark-mcp",
-  "generated_at": "2026-03-16T07:31:56.945Z",
+  "generated_at": "2026-03-16T17:31:43.862Z",
   "records": [
     {
       "id": "skills/skills-sh-whatevertogo-feishuskill-lark-mcp#head",
       "kind": "head",
       "path": "/data/skills-sh-whatevertogo-feishuskill-lark-mcp/HEAD.md",
-      "text": "title: skills-sh-whatevertogo-feishuskill-lark-mcp\nsummary: # 多维表格 (Bitable) ## 核心规则 ```yaml # 创建资源用用户身份 useUAT: true # 过滤条件 value 必须是数组 ✅ value: [\"已完成\"] ❌ value: \"已完成\" # 使用 field_name 而非 field_id field_name: \"状态\"\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/bitable.md",
+      "text": "title: skills-sh-whatevertogo-feishuskill-lark-mcp\nsummary: # 安装配置 ## 快速配置 ```json { \"mcpServers\": { \"lark-mcp\": { \"command\": \"npx\", \"args\": [\"-y\", \"@larksuiteoapi/lark-mcp\", \"mcp\", \"-a\", \"<app_id>\", \"-s\", \"<app_secret>\"] } }\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/installation.md",
       "metadata": {
         "stable_id": "skills/skills-sh-whatevertogo-feishuskill-lark-mcp",
         "topic": "skills-sh-whatevertogo-feishuskill-lark-mcp",
@@ -17,9 +17,9 @@
           "skills-sh",
           "skills-sh-all-time"
         ],
-        "source_url": "https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/bitable.md",
-        "retrieved_at": "2026-03-16T07:31:56.945Z",
-        "content_sha256": "ea63d51981a033bb57b0569ee00db13450b151c1fe8c82ffdd4ee72991c06eb3"
+        "source_url": "https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/installation.md",
+        "retrieved_at": "2026-03-16T17:31:43.862Z",
+        "content_sha256": "eab1c2aaacb473c9019f6de85c0a230afb265d5554a3e4edad122c11c64a6cd8"
       }
     }
   ]

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/antibitcoin/deepclaw/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:42.352Z
+retrieved_at: 2026-03-16T17:33:31.981Z
 content_sha256: 48cdb603b154d48bea47f4d500c7556fac46a91337201f51ea9bba13ef26146d
 ---

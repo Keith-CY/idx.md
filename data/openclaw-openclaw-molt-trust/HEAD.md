@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/molt-trust/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:51.626Z
+retrieved_at: 2026-03-16T17:33:54.752Z
 content_sha256: 38670f91d3d7cfaa2811aeac1640b270461a7ca7644332047a023279b69688a5
 ---

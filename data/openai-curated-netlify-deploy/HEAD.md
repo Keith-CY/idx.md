@@ -31,9 +31,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/netlify-deploy/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/netlify-deploy/SKILL.md
-github_stars: 13365
-github_forks: 747
+github_stars: 14288
+github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T07:30:17.384Z
+retrieved_at: 2026-03-16T17:26:53.523Z
 content_sha256: bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f
 ---

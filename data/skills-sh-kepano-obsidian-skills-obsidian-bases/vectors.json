@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-kepano-obsidian-skills-obsidian-bases",
+  "generated_at": "2026-03-16T17:31:37.320Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-kepano-obsidian-skills-obsidian-bases#head",
+      "kind": "head",
+      "path": "/data/skills-sh-kepano-obsidian-skills-obsidian-bases/HEAD.md",
+      "text": "title: skills-sh-kepano-obsidian-skills-obsidian-bases\nsummary: # Functions Reference ## Global Functions | Function | Signature | Description | |----------|-----------|-------------| | `date()` | `date(string): date` | Parse string to date. Format: `YYYY-MM-DD HH:mm:ss` | | `duration()` | `duration(string): duration` | Parse duration string | | `now()` | `now(): date` | Current date and time | | `today()` | `today(): date` | Current date (time = 00:00:00) | | `if()` | `if(condition, trueResult, falseResult?)` | Conditional | | `min()` | `min(n1, n2, ...): number` | Smallest number |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-kepano-obsidian-skills-obsidian-bases",
+        "topic": "skills-sh-kepano-obsidian-skills-obsidian-bases",
+        "type": "skills",
+        "title": "skills-sh-kepano-obsidian-skills-obsidian-bases",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+        "retrieved_at": "2026-03-16T17:31:37.320Z",
+        "content_sha256": "208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b"
+      }
+    }
+  ]
+}

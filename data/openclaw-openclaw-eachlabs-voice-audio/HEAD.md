@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/eachlabs-voice-audio/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.299Z
+retrieved_at: 2026-03-16T17:33:36.839Z
 content_sha256: 33cfcdb006a70335fae260723989b9e88a8dc5d11066582e7ee3070297e90c73
 ---

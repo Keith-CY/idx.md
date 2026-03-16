@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dumoedss/acestep/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:04.925Z
+retrieved_at: 2026-03-16T17:31:55.905Z
 content_sha256: 0440bc12f508661d8fa2b21122be6281c17bb79c3ac1a4fd4cc962bc4826e5bf
 ---

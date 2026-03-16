@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ustc-yxw/ascii-art-generator/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:25.631Z
+retrieved_at: 2026-03-16T17:32:47.825Z
 content_sha256: a7f669fb89dc7a770be29a1185cd6ec48259ab94cdb4c9e31dfa3256f207ad57
 ---

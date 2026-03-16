@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/referral-program/references/program-examples.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/referral-program
-github_stars: 9780
-github_forks: 1357
+github_stars: 13702
+github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:54.555Z
+retrieved_at: 2026-03-16T17:31:26.891Z
 content_sha256: 2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a
 ---

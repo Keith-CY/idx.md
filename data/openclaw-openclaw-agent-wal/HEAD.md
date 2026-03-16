@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/bowen31337/agent-wal/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:14.616Z
+retrieved_at: 2026-03-16T17:32:20.283Z
 content_sha256: b7811f7835a0df57abdbc8840acc1f400a330f392782854ffb51dae285e2e556
 ---

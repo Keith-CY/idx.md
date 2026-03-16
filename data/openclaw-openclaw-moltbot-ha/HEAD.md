@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/iamvaleriofantozzi/moltbot-ha/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.148Z
+retrieved_at: 2026-03-16T17:33:55.981Z
 content_sha256: 02dc76c6a8192b1a5d8ae70ff345561b8473378f04b329e85f31af5c042dfddf
 ---

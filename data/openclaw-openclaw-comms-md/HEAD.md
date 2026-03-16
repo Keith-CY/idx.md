@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/stedmanhalliday/comms-md/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.651Z
+retrieved_at: 2026-03-16T17:33:24.372Z
 content_sha256: d24e414d6de7a8e67fbaf8258c0755a131c062d7c729b1b8bacc6b073f0fe1af
 ---

@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/efka-api-integration/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:44.549Z
+retrieved_at: 2026-03-16T17:33:37.441Z
 content_sha256: 4f18679984d419bf5d3aee6779309728de958dfcc7a26d256a093538001ce1df
 ---

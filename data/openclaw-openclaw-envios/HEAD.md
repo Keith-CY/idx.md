@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jalfargentina/envios/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:45.288Z
+retrieved_at: 2026-03-16T17:33:39.345Z
 content_sha256: 71084a72d01bcb67ef510d577b4eda9f637a5efde529ff6b37e2d4e202f15760
 ---

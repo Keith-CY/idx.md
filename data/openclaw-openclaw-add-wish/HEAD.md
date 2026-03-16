@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/leebellon/add-wish/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:06.531Z
+retrieved_at: 2026-03-16T17:31:59.950Z
 content_sha256: 665448c379bb27f31e2578f3fe3b90719fe9b83c4cdb53da8000555d12c28c55
 ---

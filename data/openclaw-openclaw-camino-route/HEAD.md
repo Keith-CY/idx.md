@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/james-southendsolutions/camino-route/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:34.653Z
+retrieved_at: 2026-03-16T17:33:11.669Z
 content_sha256: 5f8895526f05e08a691bc6d2c0c9e3c5cf126fffe27db8c13bbee21512d96ed5
 ---

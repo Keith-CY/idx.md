@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mkrdiop/moltbot-docker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:52.076Z
+retrieved_at: 2026-03-16T17:33:55.818Z
 content_sha256: 9c39514e511318af4c8d35314cfe50d613d9d7d5cd5ec39e46fd289208e6d52c
 ---

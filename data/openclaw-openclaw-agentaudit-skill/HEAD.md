@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/starbuck100/agentaudit-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:15.108Z
+retrieved_at: 2026-03-16T17:32:21.512Z
 content_sha256: 52ce95471dd21b28725739936d6cf63b5c1ba4339b2613e107f0d34eef693920
 ---

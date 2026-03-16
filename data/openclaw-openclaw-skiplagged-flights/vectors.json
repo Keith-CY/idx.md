@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-skiplagged-flights",
-  "generated_at": "2026-03-16T07:31:32.688Z",
+  "generated_at": "2026-03-16T17:30:14.286Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-skiplagged-flights#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/wzs/skiplagged-flights/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:32.688Z",
+        "retrieved_at": "2026-03-16T17:30:14.286Z",
         "content_sha256": "dfde8de8a19a19900f306d4ead66ebad8b65df603e5489db6677795608188cce"
       }
     }

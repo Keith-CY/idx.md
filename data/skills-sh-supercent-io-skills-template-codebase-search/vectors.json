@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-supercent-io-skills-template-codebase-search",
+  "generated_at": "2026-03-16T17:31:29.674Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-supercent-io-skills-template-codebase-search#head",
+      "kind": "head",
+      "path": "/data/skills-sh-supercent-io-skills-template-codebase-search/HEAD.md",
+      "text": "title: skills-sh-supercent-io-skills-template-codebase-search\nsummary: ## User Guide This guide is intended to give an elementary description of ripgrep and an overview of its capabilities. This guide assumes that ripgrep is [installed](README.md#installation) and that readers have passing familiarity with using command line tools. This also assumes a Unix-like system, although most commands are probably easily translatable to any command line shell environment. ### Table of Contents * [Basics](#basics) * [Recursive search](#recursive-search)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/BurntSushi/ripgrep/master/GUIDE.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-supercent-io-skills-template-codebase-search",
+        "topic": "skills-sh-supercent-io-skills-template-codebase-search",
+        "type": "skills",
+        "title": "skills-sh-supercent-io-skills-template-codebase-search",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/BurntSushi/ripgrep/master/GUIDE.md",
+        "retrieved_at": "2026-03-16T17:31:29.674Z",
+        "content_sha256": "f79e4aa0bc39fb5b88e612b459ef2bf57455cbb87a7c600a244f08bef323ba32"
+      }
+    }
+  ]
+}

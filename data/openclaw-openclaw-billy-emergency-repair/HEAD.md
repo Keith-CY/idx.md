@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/highlander89/billy-emergency-repair/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:29.667Z
+retrieved_at: 2026-03-16T17:32:58.128Z
 content_sha256: 92d937c5d52244e25d6e20665e131a11bf5f681d3d1563b88d18646e97c892f8
 ---

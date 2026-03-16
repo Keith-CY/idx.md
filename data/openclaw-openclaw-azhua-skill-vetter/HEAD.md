@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/fatfingererr/azhua-skill-vetter/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:27.651Z
+retrieved_at: 2026-03-16T17:32:52.887Z
 content_sha256: e8eb7583355c2ae78a79187dca6a1ec448d9c8360e91652871392179f7ffb8bf
 ---

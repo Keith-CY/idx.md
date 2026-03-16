@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/algorithmic-art/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:20.325Z
+retrieved_at: 2026-03-16T17:32:34.384Z
 content_sha256: 3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef
 ---

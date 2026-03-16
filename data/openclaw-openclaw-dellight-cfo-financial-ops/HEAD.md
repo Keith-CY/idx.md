@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cfo-financial-ops/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:42.636Z
+retrieved_at: 2026-03-16T17:33:32.562Z
 content_sha256: d7abc6ab6b27922846ccc59bb902f4957ad90fba87c8733870a886420dc2f1a4
 ---

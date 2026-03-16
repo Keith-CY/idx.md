@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claw-skill-guard",
-  "generated_at": "2026-03-16T07:32:36.981Z",
+  "generated_at": "2026-03-16T17:33:17.850Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claw-skill-guard#head",
@@ -19,7 +19,7 @@
           "category-agent-to-agent-protocols"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentchan/claw-skill-guard/SKILL.md",
-        "retrieved_at": "2026-03-16T07:32:36.981Z",
+        "retrieved_at": "2026-03-16T17:33:17.850Z",
         "content_sha256": "90662b922d641b2ff4b96086fb0a44bbe2d96af2ebe2db6af239e7d43a0e346d"
       }
     }

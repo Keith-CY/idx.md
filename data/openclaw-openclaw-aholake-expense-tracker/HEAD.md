@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aholake/aholake-expense-tracker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:18.119Z
+retrieved_at: 2026-03-16T17:32:28.943Z
 content_sha256: 5d82faec0046c7a7a7976cb2a125200e33b03b3f3527d7860e5ad61289e7f4da
 ---

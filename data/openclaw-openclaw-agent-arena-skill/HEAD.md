@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/neeeophytee/agent-arena-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:09.365Z
+retrieved_at: 2026-03-16T17:32:07.156Z
 content_sha256: 51ecffa80d6760a9aeb7990b859d2e8cdc7a54369c7fdad42590669507487c68
 ---

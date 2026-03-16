@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tkuehnl/agentic-devops/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:16.243Z
+retrieved_at: 2026-03-16T17:32:24.579Z
 content_sha256: fd57d109ff9f421a386f0c112ffe7e056a8e8b12d07b7e227c174bf8a0f7f10b
 ---

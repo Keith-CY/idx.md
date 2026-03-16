@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/bexio/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:29.614Z
+retrieved_at: 2026-03-16T17:32:57.964Z
 content_sha256: b0d98b20c3907aa19da7c732f1b1a0a690999181a37b75c6178f16936f9ebefa
 ---

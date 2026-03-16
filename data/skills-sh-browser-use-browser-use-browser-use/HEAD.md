@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/browser-use/browser-use/main/browser_use/skill_cli/README.md
 license: ""
 upstream_ref: https://skills.sh/browser-use/browser-use/browser-use
-github_stars: 79167
-github_forks: 9366
+github_stars: 80883
+github_forks: 9558
 github_is_organization: true
-retrieved_at: 2026-03-16T07:31:53.968Z
+retrieved_at: 2026-03-16T17:31:24.467Z
 content_sha256: 60092a5a8f80389c7af6771bcc1787950535cae6797457a34d634eee6b1241b8
 ---

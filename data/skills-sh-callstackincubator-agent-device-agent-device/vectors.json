@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-callstackincubator-agent-device-agent-device",
-  "generated_at": "2026-03-16T07:30:29.473Z",
+  "generated_at": "2026-03-16T17:27:28.992Z",
   "records": [
     {
       "id": "skills/skills-sh-callstackincubator-agent-device-agent-device#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/callstackincubator/agent-device/HEAD/skills/agent-device/references/snapshot-refs.md",
-        "retrieved_at": "2026-03-16T07:30:29.473Z",
+        "retrieved_at": "2026-03-16T17:27:28.992Z",
         "content_sha256": "28c74f36439fc41852a19f9ede75b7318b9f4fa6382be5b227e4487e502307d4"
       }
     }

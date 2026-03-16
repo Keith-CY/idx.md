@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronn/apple-media/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:23.625Z
+retrieved_at: 2026-03-16T17:32:42.908Z
 content_sha256: 367bb3a98bc8eee413e21034a5c3f619852aaa9dd017949438348c07e30e19a6
 ---

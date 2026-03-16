@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lopushok9/airadar/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:19.139Z
+retrieved_at: 2026-03-16T17:32:31.328Z
 content_sha256: f87b197f8b98f5dc7f0035379295350d42440f70be0ff86e3c8116e36ec113ab
 ---

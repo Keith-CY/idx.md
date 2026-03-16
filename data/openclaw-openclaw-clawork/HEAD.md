@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/mapessaprince/clawork/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:38.569Z
+retrieved_at: 2026-03-16T17:33:21.776Z
 content_sha256: 75bd7767a0ef8a5917d036ee7936660a448a01509645d6f1fa02b8adc865d10d
 ---

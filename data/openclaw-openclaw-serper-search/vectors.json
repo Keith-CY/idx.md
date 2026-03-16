@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-serper-search",
-  "generated_at": "2026-03-16T07:31:30.801Z",
+  "generated_at": "2026-03-16T17:30:09.397Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-serper-search#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/samoppakiks/serper-search/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:30.801Z",
+        "retrieved_at": "2026-03-16T17:30:09.397Z",
         "content_sha256": "edf281fabcad63e3dac131a40efea2bfd905594481420b66b54bfe60322e0e07"
       }
     }

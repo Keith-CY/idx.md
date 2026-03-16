@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/visualdeptcreative/daily-report/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:41.889Z
+retrieved_at: 2026-03-16T17:33:30.697Z
 content_sha256: 8221b27c4375065999aa1112b43f61287bf25ee56b64210837a48e0140c282bd
 ---

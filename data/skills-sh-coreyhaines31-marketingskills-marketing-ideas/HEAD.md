@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/marketing-ideas/references/ideas-by-category.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
-github_stars: 9780
-github_forks: 1357
+github_stars: 13702
+github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T07:31:54.235Z
+retrieved_at: 2026-03-16T17:31:25.889Z
 content_sha256: fac44ef0ea24a3035d85bd11096adef408497ea073ad156933f2d356d482dde2
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/instant-picture/clonev/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.518Z
+retrieved_at: 2026-03-16T17:33:24.052Z
 content_sha256: 831f07e1ac677c30066c40454f26a7eed11fd1b0a3c9d2048c7facbde8679572
 ---

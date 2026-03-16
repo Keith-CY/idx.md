@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/psyduckler/aeo-prompt-frequency-analyzer/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:08.034Z
+retrieved_at: 2026-03-16T17:32:03.947Z
 content_sha256: ed2e30c127d530dd43b3f9e27b71e16f5adafe41c5b8b3689f851812be14e423
 ---

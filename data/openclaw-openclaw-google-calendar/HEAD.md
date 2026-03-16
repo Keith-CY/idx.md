@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/adrianmiller99/google-calendar/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:47.974Z
+retrieved_at: 2026-03-16T17:33:46.125Z
 content_sha256: 6cb85da1f07ce766532d8d3b8b583e1b9f724c6684f08d3b8cd766ea01326bfa
 ---

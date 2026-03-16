@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-finance-skills-journal-entry-skill",
+  "generated_at": "2026-03-16T17:31:08.757Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-finance-skills-journal-entry-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-finance-skills-journal-entry-skill/HEAD.md",
+      "text": "title: journal-entry\nsummary: Prepare journal entries with proper debits, credits, and supporting detail. Use when booking month-end accruals (AP, payroll, prepaid), recording depreciation or amortization, posting revenue recognition or deferred revenue adjustments, or documenting an entry for audit review.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-finance, plugin-component-skills, plugin-skill, category-finance\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/journal-entry/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-finance-skills-journal-entry-skill",
+        "topic": "knowledge-work-plugins-finance-skills-journal-entry-skill",
+        "type": "skills",
+        "title": "journal-entry",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-finance",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-finance"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/journal-entry/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:08.757Z",
+        "content_sha256": "c085de41feb0b8c74771cdd631fff1f668ec253938c69fee47b6a953fc03a266"
+      }
+    }
+  ]
+}

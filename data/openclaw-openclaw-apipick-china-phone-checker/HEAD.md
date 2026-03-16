@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/javainthinking/apipick-china-phone-checker/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:22.675Z
+retrieved_at: 2026-03-16T17:32:40.682Z
 content_sha256: daaaff077aecbc6785617ac01a044366f79b9ce27496c3e627f60f2fdc3dc3f2
 ---

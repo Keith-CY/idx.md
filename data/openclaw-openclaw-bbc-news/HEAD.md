@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ddrayne/bbc-news/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:28.439Z
+retrieved_at: 2026-03-16T17:32:54.818Z
 content_sha256: 73f5bf4c9f8a3a413e7dab5156dc86fc4a8fb5251e8b5fba65eb62986ecb9dac
 ---

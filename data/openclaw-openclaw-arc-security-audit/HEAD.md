@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-security-audit/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:24.627Z
+retrieved_at: 2026-03-16T17:32:45.232Z
 content_sha256: e4d79dbe19e9cb7ec698aeaae49259970276dbbe58de637c96697c6f212b7c7b
 ---

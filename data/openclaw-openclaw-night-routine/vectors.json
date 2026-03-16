@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-night-routine",
-  "generated_at": "2026-03-16T07:31:12.147Z",
+  "generated_at": "2026-03-16T17:29:22.117Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-night-routine#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/night-routine/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:12.147Z",
+        "retrieved_at": "2026-03-16T17:29:22.117Z",
         "content_sha256": "e4d4c1b1bef7fbe8069ce1ee6a3c5ef13c6efa0d5ebac2f838a048f26069a5d1"
       }
     }

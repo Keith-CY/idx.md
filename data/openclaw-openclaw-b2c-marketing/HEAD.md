@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jackfriks/b2c-marketing/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:27.787Z
+retrieved_at: 2026-03-16T17:32:53.183Z
 content_sha256: 18e3cc5ee280f9e74e80938d13eeb6e7f53984aca3121467ce49fa83c6f59701
 ---

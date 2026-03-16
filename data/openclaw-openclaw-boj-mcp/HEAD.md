@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ajtgjmdjp/boj-mcp/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:31.095Z
+retrieved_at: 2026-03-16T17:33:01.996Z
 content_sha256: 2d23b379d2b1cc5f36e6c4b71449a217c8f1b899c8438164298042d032f830e3
 ---

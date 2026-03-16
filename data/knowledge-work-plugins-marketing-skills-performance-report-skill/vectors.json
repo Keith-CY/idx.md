@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "knowledge-work-plugins-marketing-skills-performance-report-skill",
+  "generated_at": "2026-03-16T17:31:09.236Z",
+  "records": [
+    {
+      "id": "skills/knowledge-work-plugins-marketing-skills-performance-report-skill#head",
+      "kind": "head",
+      "path": "/data/knowledge-work-plugins-marketing-skills-performance-report-skill/HEAD.md",
+      "text": "title: performance-report\nsummary: Build a marketing performance report with key metrics, trend analysis, wins and misses, and prioritized optimization recommendations. Use when wrapping a campaign, when preparing weekly, monthly, or quarterly channel summaries for stakeholders, or when you need data translated into an executive summary with next-period priorities.\ntype: skills\ntags: source-knowledge-work-plugins, plugin-marketing, plugin-component-skills, plugin-skill, category-marketing-sales\nsource_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/knowledge-work-plugins-marketing-skills-performance-report-skill",
+        "topic": "knowledge-work-plugins-marketing-skills-performance-report-skill",
+        "type": "skills",
+        "title": "performance-report",
+        "tags": [
+          "source-knowledge-work-plugins",
+          "plugin-marketing",
+          "plugin-component-skills",
+          "plugin-skill",
+          "category-marketing-sales"
+        ],
+        "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
+        "retrieved_at": "2026-03-16T17:31:09.236Z",
+        "content_sha256": "fa2bd747ab891426b33fe1e56bf6f6f6daa081a3c905138627d82da76e5b5e98"
+      }
+    }
+  ]
+}

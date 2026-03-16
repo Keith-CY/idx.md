@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-jules-cli",
-  "generated_at": "2026-03-16T07:31:01.929Z",
+  "generated_at": "2026-03-16T17:28:56.197Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-jules-cli#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajstafford/jules-cli/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:01.929Z",
+        "retrieved_at": "2026-03-16T17:28:56.197Z",
         "content_sha256": "584def5e78bf0b1cef3b784084b7d5a64ac57c5af3e09dcc02c8d7de5cf226b0"
       }
     }

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ls18166407597-design/ag-model-usage/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:08.894Z
+retrieved_at: 2026-03-16T17:32:05.973Z
 content_sha256: 1498898d3ce0937e5c8f3b8dacebb972c0697bffd12e2cd1dda29813929132b8
 ---

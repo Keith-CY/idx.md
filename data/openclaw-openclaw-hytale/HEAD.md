@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/newcastlegeek/hytale/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:49.068Z
+retrieved_at: 2026-03-16T17:33:48.859Z
 content_sha256: a7a6a989738d102785e307f6b667485834dcf39aca8e4af806f6567f924fd760
 ---

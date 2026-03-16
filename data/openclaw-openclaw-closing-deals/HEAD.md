@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/closing-deals/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:39.588Z
+retrieved_at: 2026-03-16T17:33:24.204Z
 content_sha256: 10d3cea4c577fedc873761570497eb5fae2586e344d0478475f1eda308d28701
 ---

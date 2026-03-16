@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/ai-avatar-generation/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:18.186Z
+retrieved_at: 2026-03-16T17:32:29.074Z
 content_sha256: fea150facfe44f8f0f0ceed0d8288f029a010b78df8c371ac89b2417bf7d2b11
 ---

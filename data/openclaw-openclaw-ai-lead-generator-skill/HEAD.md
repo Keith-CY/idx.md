@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/highlander89/ai-lead-generator-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:18.449Z
+retrieved_at: 2026-03-16T17:32:29.654Z
 content_sha256: 34e1ef43491d26565385835c3871278198fdd2815f51cae8e905c0c948451fd1
 ---

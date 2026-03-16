@@ -36,9 +36,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/aspnet-core/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/aspnet-core/SKILL.md
-github_stars: 13365
-github_forks: 747
+github_stars: 14288
+github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T07:30:16.974Z
+retrieved_at: 2026-03-16T17:26:51.801Z
 content_sha256: 1f487ef3565e5ac1ee6c93cbeb9ac666292b30285877c82ddb0a77c9777fe92f
 ---

@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/apple-mail-search-safe/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:23.558Z
+retrieved_at: 2026-03-16T17:32:42.730Z
 content_sha256: c01a401ff94641dc5323b0b0edb436fd8518efcc1b2ae1d1386a27b58b537a07
 ---

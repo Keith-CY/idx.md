@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/teamolab/ask-agents/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:25.688Z
+retrieved_at: 2026-03-16T17:32:47.971Z
 content_sha256: 39397965424e94e641b8bafda40dcf9a8262010e01d89b243af98e75238ddebc
 ---

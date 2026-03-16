@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks",
+  "generated_at": "2026-03-16T17:26:40.809Z",
+  "records": [
+    {
+      "id": "skills/github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks#head",
+      "kind": "head",
+      "path": "/data/github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks/HEAD.md",
+      "text": "title: deploying-monitoring-stacks\nsummary: Monitor use when deploying monitoring stacks including Prometheus, Grafana, and Datadog. Trigger with phrases like \"deploy monitoring stack\", \"setup prometheus\", \"configure grafana\", or \"install datadog agent\". Generates production-ready configurations with metric collection, visualization dashboards, and alerting rules.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-dicklesworthstone, github-repo-pi_agent_rust\nsource_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks",
+        "topic": "github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks",
+        "type": "skills",
+        "title": "deploying-monitoring-stacks",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-dicklesworthstone",
+          "github-repo-pi_agent_rust"
+        ],
+        "source_url": "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md",
+        "retrieved_at": "2026-03-16T17:26:40.809Z",
+        "content_sha256": "3f2a4dcade9871009e99d23342a686cd1b5079e27feb1be20d32a0fb7932bf89"
+      }
+    }
+  ]
+}

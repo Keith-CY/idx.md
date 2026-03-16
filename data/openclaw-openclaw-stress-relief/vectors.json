@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-stress-relief",
-  "generated_at": "2026-03-16T07:31:35.549Z",
+  "generated_at": "2026-03-16T17:30:21.766Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-stress-relief#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/stress-relief/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:35.549Z",
+        "retrieved_at": "2026-03-16T17:30:21.766Z",
         "content_sha256": "138770866502de0139e7bc9f2380eded4751eb12e64f9a0c16501834bcccc642"
       }
     }

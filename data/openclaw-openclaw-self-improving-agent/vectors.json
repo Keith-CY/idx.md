@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-self-improving-agent",
-  "generated_at": "2026-03-16T07:31:29.763Z",
+  "generated_at": "2026-03-16T17:30:06.494Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-self-improving-agent#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pskoett/self-improving-agent/SKILL.md",
-        "retrieved_at": "2026-03-16T07:31:29.763Z",
+        "retrieved_at": "2026-03-16T17:30:06.494Z",
         "content_sha256": "cec6d90543ea51c1ae2dfe09b7c0ac640b0a295101d34ba14c9deedc6607ce0c"
       }
     }

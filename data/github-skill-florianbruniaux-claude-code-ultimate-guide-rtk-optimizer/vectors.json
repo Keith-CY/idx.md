@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer",
+  "generated_at": "2026-03-16T17:26:41.652Z",
+  "records": [
+    {
+      "id": "skills/github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer#head",
+      "kind": "head",
+      "path": "/data/github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer/HEAD.md",
+      "text": "title: rtk-optimizer\nsummary: Optimize command outputs with RTK (Rust Token Killer) for 70% token reduction\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-florianbruniaux, github-repo-claude-code-ultimate-guide\nsource_url: https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer",
+        "topic": "github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer",
+        "type": "skills",
+        "title": "rtk-optimizer",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-florianbruniaux",
+          "github-repo-claude-code-ultimate-guide"
+        ],
+        "source_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md",
+        "retrieved_at": "2026-03-16T17:26:41.652Z",
+        "content_sha256": "10d0a1d460809d30e35f1139c2bd37ff190231ebc668014ccd20683e32956b3a"
+      }
+    }
+  ]
+}

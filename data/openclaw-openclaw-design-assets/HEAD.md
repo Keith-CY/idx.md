@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/design-assets/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:42.798Z
+retrieved_at: 2026-03-16T17:33:33.027Z
 content_sha256: 55f41f6afea81eb64028ba1609bd096c47e751b42718cea5091ab0573b1531ee
 ---

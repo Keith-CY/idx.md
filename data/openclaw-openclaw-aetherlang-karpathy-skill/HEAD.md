@@ -11,9 +11,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/contrario/aetherlang-karpathy-skill/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2294
-github_forks: 685
+github_stars: 2898
+github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T07:32:08.465Z
+retrieved_at: 2026-03-16T17:32:04.985Z
 content_sha256: 59f79af731570987a286d9f5fa1445ed747404c8bee466086368ae1f6fcf43d8
 ---
