@@ -18,6 +18,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-15T07:18:43.219Z
+retrieved_at: 2026-03-16T07:30:16.555Z
 content_sha256: 1c3a3bb88dacfaf662ac7463096181c5056566662ed1f9989c7f64a300a9df2c
 ---

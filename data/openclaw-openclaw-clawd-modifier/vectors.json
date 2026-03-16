@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawd-modifier",
-  "generated_at": "2026-03-15T07:21:00.185Z",
+  "generated_at": "2026-03-16T07:32:37.396Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawd-modifier#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/masonc15/clawd-modifier/SKILL.md",
-        "retrieved_at": "2026-03-15T07:21:00.185Z",
+        "retrieved_at": "2026-03-16T07:32:37.396Z",
         "content_sha256": "c6c77a89fa36228b836459133d2c307f04b8e778c6ec632eb4bcc015dba62aee"
       }
     }

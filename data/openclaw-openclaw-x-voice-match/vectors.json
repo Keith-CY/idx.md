@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-x-voice-match",
-  "generated_at": "2026-03-15T07:20:15.141Z",
+  "generated_at": "2026-03-16T07:31:50.346Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-x-voice-match#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gravyxbt/x-voice-match/SKILL.md",
-        "retrieved_at": "2026-03-15T07:20:15.141Z",
+        "retrieved_at": "2026-03-16T07:31:50.346Z",
         "content_sha256": "da3880d1210b3b1c2eb7a095a6b7155f792b6389974bb059d0c9a1b4d6cf6137"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-remotion-video-toolkit",
-  "generated_at": "2026-03-15T07:19:52.446Z",
+  "generated_at": "2026-03-16T07:31:26.944Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-remotion-video-toolkit#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shreefentsar/remotion-video-toolkit/SKILL.md",
-        "retrieved_at": "2026-03-15T07:19:52.446Z",
+        "retrieved_at": "2026-03-16T07:31:26.944Z",
         "content_sha256": "140a3e508a447954d2a87777dcca8216fb425d7a99c5d54d632506d79cb31714"
       }
     }

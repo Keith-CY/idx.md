@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-vueuse",
-  "generated_at": "2026-03-15T07:19:01.205Z",
+  "generated_at": "2026-03-16T07:30:34.509Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-vueuse#head",
       "kind": "head",
       "path": "/data/skills-sh-onmax-nuxt-skills-vueuse/HEAD.md",
-      "text": "title: skills-sh-onmax-nuxt-skills-vueuse\nsummary: # VueUse Composables > Auto-generated. Run `npx tsx skills/vueuse/scripts/generate-composables.ts` to update. ## '@Electron' | Composable | Description | File | | -------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- | | useIpcRenderer | Provides ipcRenderer and all of its APIs with Vue reactiv... | [use-ipc-renderer.md](../composables/use-ipc-renderer.md) | | useIpcRendererInvoke | Reactive ipcRenderer.invoke API result. Make asynchronous... | [use-ipc-renderer-invoke.md](../composables/use-ipc-renderer-invoke.md) | | useIpcRendererOn | Use ipcRenderer.on with ease and ipcRenderer.removeListen... | [use-ipc-renderer-on.md](../composables/use-ipc-renderer-on.md) | | useZoomFactor | Reactive WebFrame zoom factor. | [use-zoom-factor.md](../composables/use-zoom-factor.md) | | useZoomLevel | Reactive WebFrame zoom level. | [use-zoom-level.md](../composables/use-zoom-level.md) |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/vueuse/references/composables.md",
+      "text": "title: skills-sh-onmax-nuxt-skills-vueuse\nsummary: # VueUse Composables > Auto-generated. Run `npx tsx skills/vueuse/scripts/generate-composables.ts` to update. ## '@Electron' | Composable | Description | File | | --- | --- | --- | | useIpcRenderer | Provides ipcRenderer and all of its APIs with Vue reactiv... | [use-ipc-renderer.md](../composables/use-ipc-renderer.md) | | useIpcRendererInvoke | Reactive ipcRenderer.invoke API result. Make asynchronous... | [use-ipc-renderer-invoke.md](../composables/use-ipc-renderer-invoke.md) | | useIpcRendererOn | Use ipcRenderer.on with ease and ipcRenderer.removeListen... | [use-ipc-renderer-on.md](../composables/use-ipc-renderer-on.md) | | useZoomFactor | Reactive WebFrame zoom factor. | [use-zoom-factor.md](../composables/use-zoom-factor.md) | | useZoomLevel | Reactive WebFrame zoom level. | [use-zoom-level.md](../composables/use-zoom-level.md) |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/vueuse/references/composables.md",
       "metadata": {
         "stable_id": "skills/skills-sh-onmax-nuxt-skills-vueuse",
         "topic": "skills-sh-onmax-nuxt-skills-vueuse",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/vueuse/references/composables.md",
-        "retrieved_at": "2026-03-15T07:19:01.205Z",
-        "content_sha256": "34c04a1a4e72cf7b54140e70a11a6522d9f3166996d5eb31b00ffddf52d492f9"
+        "retrieved_at": "2026-03-16T07:30:34.509Z",
+        "content_sha256": "c6d81de9900fc2d7897f89626e8c87686c2c7662e61dab51fefef6c902e02599"
       }
     }
   ]

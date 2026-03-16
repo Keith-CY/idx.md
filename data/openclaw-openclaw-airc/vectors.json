@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-airc",
-  "generated_at": "2026-03-15T07:20:43.025Z",
+  "generated_at": "2026-03-16T07:32:19.278Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-airc#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vortitron/airc/SKILL.md",
-        "retrieved_at": "2026-03-15T07:20:43.025Z",
+        "retrieved_at": "2026-03-16T07:32:19.278Z",
         "content_sha256": "e2dba3f1521fea51a61bd870006afd7be4b4278ce2493a41f38bc1a4cdfdafa1"
       }
     }

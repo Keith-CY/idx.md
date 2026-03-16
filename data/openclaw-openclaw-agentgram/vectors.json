@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentgram",
-  "generated_at": "2026-03-15T07:20:39.693Z",
+  "generated_at": "2026-03-16T07:32:15.705Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentgram#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agentgram/SKILL.md",
-        "retrieved_at": "2026-03-15T07:20:39.693Z",
+        "retrieved_at": "2026-03-16T07:32:15.705Z",
         "content_sha256": "0c1b5a9246c628c46510cf641ea5656a2f9124df5082b5321c6892c4c64201e1"
       }
     }

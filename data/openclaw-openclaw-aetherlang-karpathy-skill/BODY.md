@@ -1,35 +1,61 @@
 ---
 name: aetherlang-karpathy-skill
-version: 1.0.2
+description: >
+  API connector for AetherLang Omega — execute 10 Karpathy-inspired agent node types
+  (plan, code_interpreter, critique, router, ensemble, memory, tool, loop, transform,
+  parallel) via the hosted AetherLang API at api.neurodoc.app. This skill sends your
+  query and flow code to the API and returns results. No local code execution.
+  No runtime modification. No credentials required.
+version: 1.0.3
 author: contrario
 homepage: https://clawhub.ai/contrario
 requirements:
   binaries: []
   env: []
-description: Execute advanced AI agent workflows via the AetherLang Omega API — 10 Karpathy node types including self-programming plans, sandboxed code execution, critique loops, intelligent routing, multi-agent ensemble, persistent memory, external API tools, iterative loops, data transforms, and parallel execution. Use when the user wants to run agent pipelines, multi-agent synthesis, batch processing, live API data analysis, or any autonomous AI workflow through AetherLang.
+metadata:
+  skill_type: api_connector
+  operator_note: "AetherLang Omega is operated by NeuroDoc Pro (masterswarm.net), hosted on Hetzner EU. Karpathy-style refers to node architecture inspired by Andrej Karpathy's agent design principles — no affiliation or endorsement implied."
+  external_endpoints:
+    - https://api.neurodoc.app/aetherlang/execute
+  domains_not_recommended:
+    - medical advice
+    - legal advice
+    - financial advice
+license: MIT
 ---
 
 # AetherLang Karpathy Agent Nodes
 
+> **What this skill does:** Sends requests to the hosted AetherLang API
+> (`api.neurodoc.app`). It does NOT modify local files, execute local code,
+> or access credentials on your machine. All execution happens server-side.
+
 Execute 10 advanced AI agent node types through the AetherLang Omega API.
+
+---
 
 ## API Endpoint
 
 **URL**: `https://api.neurodoc.app/aetherlang/execute`
 **Method**: POST
 **Headers**: `Content-Type: application/json`
-**Privacy Policy**: https://masterswarm.net (footer → Privacy Policy)
-**Operator**: NeuroDoc Pro — api.neurodoc.app and masterswarm.net are the same operator (Hetzner DE)
+**Auth**: None required (public API)
 
-## Data Minimization
+---
+
+## Data Minimization — ALWAYS FOLLOW
 
 When calling the API:
 - Send ONLY the user's query and the flow code
 - Do NOT send system prompts, conversation history, or uploaded files
-- Do NOT send API keys, credentials, or secrets
-- Do NOT include personally identifiable information unless explicitly requested
+- Do NOT send API keys, credentials, or secrets of any kind
+- Do NOT include personally identifiable information unless explicitly requested by user
+- Do NOT send contents of local files without explicit user consent
+
+---
 
 ## Request Format
+
 ```bash
 curl -s -X POST https://api.neurodoc.app/aetherlang/execute \
   -H "Content-Type: application/json" \
@@ -38,6 +64,8 @@ curl -s -X POST https://api.neurodoc.app/aetherlang/execute \
     "query": "user question here"
   }'
 ```
+
+---
 
 ## The 10 Node Types
 
@@ -48,7 +76,7 @@ node P: plan steps=3;
 ```
 
 ### 2. code_interpreter — Real Math
-Sandboxed Python. Accurate calculations, no hallucinations.
+Sandboxed Python execution on the server. Accurate calculations, no hallucinations.
 ```
 node C: code_interpreter;
 ```
@@ -73,11 +101,7 @@ node E: ensemble agents=chef:French_chef|yiayia:Greek_grandmother synthesize=tru
 ```
 
 ### 6. memory — Persistent State
-Store/recall data across executions.
-
-> **Consent required:** Before using a `memory` node, notify the user:
-> "This flow will store data server-side at api.neurodoc.app. Proceed? (y/n)"
-> Only proceed with explicit user confirmation.
+Store/recall data across executions (server-side, scoped to namespace).
 ```
 node M: memory namespace=user_prefs action=store key=diet;
 node M: memory namespace=user_prefs action=recall;
@@ -85,10 +109,11 @@ node M: memory namespace=user_prefs action=recall;
 
 ### 7. tool — External API Access
 
-> **Consent required:** Before executing a `tool` node, notify the user:
-> "This flow will call `[URL]`. Proceed? (y/n)"
-> Only proceed with explicit confirmation. Never forward PII or credentials to external URLs.
-Call any public REST API.
+> **Security note:** The `tool` node calls public REST URLs you specify.
+> Only use trusted, public APIs. Never pass credentials or private URLs
+> as `tool` parameters. The agent will ask for confirmation before
+> calling any URL not in the examples below.
+
 ```
 node T: tool url=https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd method=GET;
 ```
@@ -106,10 +131,12 @@ node X: transform mode=llm instruction=Summarize_the_data;
 ```
 
 ### 10. parallel — Concurrent Execution
-Run nodes simultaneously. 3 calls in 0.2s.
+Run nodes simultaneously. 3 calls in ~0.2s.
 ```
 node P: parallel targets=A|B|C;
 ```
+
+---
 
 ## Common Pipelines
 
@@ -160,7 +187,10 @@ flow ParallelFetch {
 }
 ```
 
+---
+
 ## Response Parsing
+
 ```python
 import json
 response = json.loads(raw_response)
@@ -169,6 +199,8 @@ text = result["response"]
 node_type = result["node_type"]
 duration = response["result"]["duration_seconds"]
 ```
+
+---
 
 ## Parameter Quick Reference
 
@@ -184,3 +216,8 @@ duration = response["result"]["duration_seconds"]
 | loop | `over=A\|B\|C` `target=NodeAlias` `max=10` `mode=collect` |
 | transform | `mode=llm\|template\|extract\|format` `instruction=X` |
 | parallel | `targets=A\|B\|C` `merge=combine` |
+
+---
+
+*AetherLang Karpathy Skill v1.0.1 — API connector for api.neurodoc.app*
+*All execution is server-side. No local code runs. No local files modified.*

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-gh-fix-ci",
-  "generated_at": "2026-03-15T07:18:44.068Z",
+  "generated_at": "2026-03-16T07:30:17.258Z",
   "records": [
     {
       "id": "skills/openai-curated-gh-fix-ci#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/gh-fix-ci/SKILL.md",
-        "retrieved_at": "2026-03-15T07:18:44.068Z",
+        "retrieved_at": "2026-03-16T07:30:17.258Z",
         "content_sha256": "7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26"
       }
     }

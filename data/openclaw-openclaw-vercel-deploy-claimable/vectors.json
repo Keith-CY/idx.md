@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-vercel-deploy-claimable",
-  "generated_at": "2026-03-15T07:20:09.460Z",
+  "generated_at": "2026-03-16T07:31:44.323Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-vercel-deploy-claimable#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sharanga10/vercel-deploy-claimable/SKILL.md",
-        "retrieved_at": "2026-03-15T07:20:09.460Z",
+        "retrieved_at": "2026-03-16T07:31:44.323Z",
         "content_sha256": "31a4a5b49db791207d3e23c68cb43bb4c5e68712db9ed1454cfa0d1ba33ce261"
       }
     }

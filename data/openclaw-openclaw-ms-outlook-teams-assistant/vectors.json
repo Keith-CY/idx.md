@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ms-outlook-teams-assistant",
-  "generated_at": "2026-03-15T07:19:36.129Z",
+  "generated_at": "2026-03-16T07:31:10.141Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ms-outlook-teams-assistant#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abhinavjp/ms-outlook-teams-assistant/SKILL.md",
-        "retrieved_at": "2026-03-15T07:19:36.129Z",
+        "retrieved_at": "2026-03-16T07:31:10.141Z",
         "content_sha256": "806e4fde86933ec97a2f7c3887647f37f49f5e9a3895e8275b66da1a44344366"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gcloud",
-  "generated_at": "2026-03-15T07:19:20.111Z",
+  "generated_at": "2026-03-16T07:30:53.592Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gcloud#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jortega0033/gcloud/SKILL.md",
-        "retrieved_at": "2026-03-15T07:19:20.111Z",
+        "retrieved_at": "2026-03-16T07:30:53.592Z",
         "content_sha256": "2d13388ec821f72ed431cc91cd46900e5037c08b50a346013c5943648f7d8cba"
       }
     }

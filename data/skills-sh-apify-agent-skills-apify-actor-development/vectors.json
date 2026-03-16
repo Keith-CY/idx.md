@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apify-agent-skills-apify-actor-development",
-  "generated_at": "2026-03-15T07:20:23.281Z",
+  "generated_at": "2026-03-16T07:31:58.762Z",
   "records": [
     {
       "id": "skills/skills-sh-apify-agent-skills-apify-actor-development#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actor-development/references/actor-json.md",
-        "retrieved_at": "2026-03-15T07:20:23.281Z",
+        "retrieved_at": "2026-03-16T07:31:58.762Z",
         "content_sha256": "668c913ae253f4e01947677d8a3d220edbdb45ce1169bee5f7e16ea751a95c79"
       }
     }

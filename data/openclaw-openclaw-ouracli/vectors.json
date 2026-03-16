@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ouracli",
-  "generated_at": "2026-03-15T07:19:42.633Z",
+  "generated_at": "2026-03-16T07:31:16.773Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ouracli#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/visionik/ouracli/SKILL.md",
-        "retrieved_at": "2026-03-15T07:19:42.633Z",
+        "retrieved_at": "2026-03-16T07:31:16.773Z",
         "content_sha256": "27c3508bd5a26b66813fb86605735e16f263d2cdce899a6cca5a5136493c6340"
       }
     }

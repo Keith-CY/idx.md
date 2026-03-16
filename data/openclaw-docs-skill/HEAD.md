@@ -7,11 +7,10 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up, configuring, or managing a self-hosted AI
-  agent gateway that connects messaging apps (WhatsApp, Telegram, Discord,
-  iMessage, etc.) to AI agents. Use for agent workspace setup, channel
-  configuration, session management, tool/skill creation, multi-agent routing,
-  and automation workflows.
+  description: Use when deploying, configuring, or troubleshooting OpenClaw — a
+  self-hosted multi-channel AI agent gateway. Reach for this skill when agents
+  need to understand how to set up channels, manage sessions, configure models,
+  use tools, create skills, or debug gateway issues.
 
   metadata:
       mintlify-proj: clawdbot
@@ -20,18 +19,17 @@ summary: >-
 
   # OpenClaw Skill
 
-  ## Product Summary
+  ## Product summary
 
   OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp,
-  Telegram, Discord, iMessage, Signal, Slack, and more) to AI agents. It runs a
-  single Gateway process on your machine or server, bridging chat apps to an
-  always-available agent with tool use, sessions, memory, and multi-agent
-  routing. Install via `npm install -g openclaw@latest`. Key files:
-  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent
-  workspace), `~/.openclaw/agents/<agentId>/sessions/` (session store). Primary
-  CLI: `openclaw` with subcommands for setup, config, channels, agents, models,
-  and automation. See [https://docs.openclaw.ai](https://docs.openclaw.ai) for
-  full documentation.
+  Telegram, Discord, Slack, Signal, iMessage, and more) to an embedded AI agent
+  (Pi). It runs on any OS (macOS, Linux, Windows, iOS, Android) and manages
+  sessions, routing, tools, and multi-agent isolation in a single process. The
+  primary config file is `~/.openclaw/openclaw.json` (JSON5 format). Key CLI
+  commands: `openclaw onboard` (setup wizard), `openclaw gateway` (run the
+  service), `openclaw configure` (config wizard), `openclaw message send` (send
+  messages), `openclaw agent` (run a single turn). The main documentation site
+  is https://docs.openclaw.ai.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -39,6 +37,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-15T07:18:47.336Z
-content_sha256: 7da55b0f06075b53b5aa53251ecece51f04dda92e411e7caf805c2567329219d
+retrieved_at: 2026-03-16T07:30:20.440Z
+content_sha256: aa4a126f774b452d44cef88237c6ffa2548214d6829b410e8bed4118a9392fe5
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-granola-notes",
-  "generated_at": "2026-03-15T07:19:23.390Z",
+  "generated_at": "2026-03-16T07:30:56.932Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-granola-notes#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/granola-notes/SKILL.md",
-        "retrieved_at": "2026-03-15T07:19:23.390Z",
+        "retrieved_at": "2026-03-16T07:30:56.932Z",
         "content_sha256": "f22e52fbf38fff31b2a5a3c39f219cd7f15186dc40578f261fa17975462c9b28"
       }
     }

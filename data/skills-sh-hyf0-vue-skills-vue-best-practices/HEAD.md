@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
 github_stars: 1702
 github_forks: 84
 github_is_organization: true
-retrieved_at: 2026-03-15T07:20:19.510Z
+retrieved_at: 2026-03-16T07:31:54.766Z
 content_sha256: 48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b
 ---

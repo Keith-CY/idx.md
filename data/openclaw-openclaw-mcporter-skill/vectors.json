@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mcporter-skill",
-  "generated_at": "2026-03-15T07:19:32.874Z",
+  "generated_at": "2026-03-16T07:31:06.575Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mcporter-skill#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/livvux/mcporter-skill/SKILL.md",
-        "retrieved_at": "2026-03-15T07:19:32.874Z",
+        "retrieved_at": "2026-03-16T07:31:06.575Z",
         "content_sha256": "a275e4d94bbdbed0e68f8d1f1368b771d68cd194a7968753833247005ee237a5"
       }
     }

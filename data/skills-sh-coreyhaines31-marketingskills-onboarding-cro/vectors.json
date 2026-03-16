@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-onboarding-cro",
-  "generated_at": "2026-03-15T07:18:56.008Z",
+  "generated_at": "2026-03-16T07:30:28.558Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-onboarding-cro#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/onboarding-cro/references/experiments.md",
-        "retrieved_at": "2026-03-15T07:18:56.008Z",
+        "retrieved_at": "2026-03-16T07:30:28.558Z",
         "content_sha256": "b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932"
       }
     }

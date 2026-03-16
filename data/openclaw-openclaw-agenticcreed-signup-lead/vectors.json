@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agenticcreed-signup-lead",
-  "generated_at": "2026-03-15T07:20:40.555Z",
+  "generated_at": "2026-03-16T07:32:16.573Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agenticcreed-signup-lead#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/waqas-orcalo/agenticcreed-signup-lead/SKILL.md",
-        "retrieved_at": "2026-03-15T07:20:40.555Z",
+        "retrieved_at": "2026-03-16T07:32:16.573Z",
         "content_sha256": "247a7ea4f3f371b28a5c225ba61db69780863b97ef77f32bedb4827977151074"
       }
     }

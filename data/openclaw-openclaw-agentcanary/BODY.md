@@ -1,113 +1,127 @@
 ---
 name: agentcanary
-description: Market intelligence API for AI agents. Macro regime detection, risk scoring, trading signals (IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION), whale alerts, funding arbitrage, orderbook analytics, 29 technical indicators, RSI screening (606 coins), breaking news with FinBERT sentiment, economic calendar, treasury tracking, and Polymarket odds. 33 endpoints, 1181 assets, 250+ sources. Use when an agent needs macro regime context, risk assessment, position sizing guidance, market structure data, whale activity monitoring, or news sentiment. API-only — no local execution, no filesystem access, no secrets in prompt.
+description: Cross-asset market intelligence API for AI agents. 130+ endpoints across macro regime detection, risk scoring, trading signals (IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION), whale alerts, funding arbitrage, orderbook analytics, DeFi yields/PE ratios, BTC options (max pain, skew), central bank balance sheets, narrative crowding scores, sector rotation, Hindenburg omen, CAPE ratio, scenario probabilities, BTC ETF flows, geopolitical risk, mean reversion signals, institutional positioning (13F, short interest, CFTC COT), Reddit/X sentiment, and 4× daily AI market briefs. Wallet-based auth, USDC/USDT on any major EVM chain (Base, Ethereum, Arbitrum, Optimism, Polygon). Use when an agent needs macro regime context, risk assessment, position sizing guidance, market structure data, whale monitoring, news sentiment, DeFi intelligence, options flow, or institutional positioning. API-only — no local execution, no filesystem access, no secrets in prompt.
 ---
 
 # AgentCanary
 
-Market intelligence for AI agents. 33 API endpoints. Not raw data — intelligence.
+Cross-asset market intelligence for AI agents. 130+ endpoints. Not raw data — intelligence.
 
-**Status:** Preview. API access opening soon. Free tier: real-time prices (50 calls/day).
-**Live proof:** [@AgentCanary on Telegram](https://t.me/AgentCanary) — 3x/day auto-generated market intelligence from the same API.
+**Base URL:** `https://api.agentcanary.ai/api`
+**Auth:** Wallet-based API keys. Create key → deposit USDC/USDT on any supported EVM chain → use key as query param.
+**Briefs:** 4× daily auto-generated intelligence — Radar (04:15), Signal (10:15), Pulse (16:15), Wrap (22:15 UTC).
+**Telegram:** [@AgentCanary](https://t.me/AgentCanary) — live briefs.
+**App:** [app.agentcanary.ai](https://app.agentcanary.ai) — dashboard, billing, API key management.
+**Docs:** [api.agentcanary.ai/api/docs](https://api.agentcanary.ai/api/docs) — interactive Swagger UI.
 **Website:** [agentcanary.ai](https://agentcanary.ai)
-**Waitlist:** Sign up at [agentcanary.ai](https://agentcanary.ai) to get notified when API access opens.
-
-> This API powers Proximity, a crypto intelligence iOS app with 6 months of daily usage across 20+ countries.
 
 ---
 
 ## Security
 
-- **API-only** — HTTP GET calls returning JSON. No local code, no binaries, no shell commands.
-- **No secrets in the prompt** — wallet-based auth when billing is live.
+- **API-only** — HTTP GET/POST returning JSON. No local code, no binaries, no shell commands.
+- **No secrets in prompt** — wallet-based auth. No API keys pass through the LLM context window.
 - **Read-only** — fetches data. Cannot write, modify, or access your filesystem.
+- **No filesystem access** — no file reads, no file writes, no directory listing.
+- **Security headers** — Helmet.js (X-Powered-By removed, XSS protection, content-type sniffing prevention, strict transport security).
+- **Rate limiting** — per-tier rate limits enforced server-side. Key creation: 5 attempts per 15 min per IP.
+- **Body size limit** — 1MB max request body. Rejects oversized payloads.
+- **Error isolation** — global uncaughtException/unhandledRejection handlers. Express error middleware. No stack traces in responses.
+- **Multi-chain deposits** — USDC/USDT accepted on Base, Ethereum, Arbitrum, Optimism, Polygon. Same deposit address on all chains.
+- **VirusTotal verified** — [0/62 detections](https://www.virustotal.com/gui/file/1bc6c1e0d5f339451281a3667d17ce8e761ab53ca98f490edfe25f15702b5d68/detection).
 
-824 malicious skills were found on ClawHub. Crypto and finance is the #1 target category. AgentCanary is the finance skill that can't steal from you.
+---
+
+## Getting Started
+
+```
+1. POST /api/keys/create  { walletAddress: "0x..." }  → returns apiKey
+2. Send USDC/USDT to the receiving address shown at agentcanary.ai (Base, Ethereum, Arbitrum, Optimism, Polygon)
+3. POST /api/billing/check  { apiKey: "..." }  → auto-detects payment, credits account
+4. Use endpoints:  GET /api/data/realtime-prices?apikey=YOUR_KEY
+```
+
+Minimum deposit: $5. Credits never expire. No subscriptions. No KYC.
+
+---
+
+## Pricing
+
+| Tier | Cumulative Deposit | Per Call | Rate Limit | Access |
+|------|-------------------|----------|------------|--------|
+| Explorer | Free | $0.02 | 10/min, 50/day | Prices, news, whale alerts, Fear & Greed, regime |
+| Builder | $50+ | $0.02 | 60/min, 5K/day | + macro, signals, calendar, volumes, newsletters |
+| Signal | $150+ | $0.015 | 120/min, 20K/day | All 130+ endpoints. AI reports. Orderbook. DeFi. Options. |
+| Institutional | $500+ | $0.01 | 300/min, unlimited | White-label. SLA. Custom integrations. |
 
 ---
 
 ## Default Agent Pattern
 
 ```
-1. Call /macro-snapshot/regime every 4–6 hours
+1. GET /api/macro/regime every 4–6 hours → classify risk environment
 2. If Risk-Off → suppress trading, reduce exposure
-3. If Risk-On → allow strategy execution
-4. Use severity alerts as interrupts, not drivers
-5. Call /signal-state before entering positions for confirmation
+3. If Risk-On → allow strategy execution, check signals
+4. GET /api/data/whale-alerts every 15–30 min → event-driven interrupts
+5. GET /api/signals/decision-engine before entries → multi-factor confirmation
 ```
 
 AgentCanary is risk intelligence middleware. It tells your agent **when conditions are favorable** — your agent decides what to do.
 
 ---
 
-## What It Does Not Do
+## Endpoint Categories
 
-- Does not predict prices — classifies regimes and states
-- Does not guarantee returns
-- Does not place orders or replace execution logic
-- Does not provide financial advice
+Full endpoint documentation with response examples: [references/endpoints.md](references/endpoints.md)
 
----
+### Proprietary AC Endpoints (`/api/...`)
 
-## Capabilities (33 Endpoints)
+| Category | Key Endpoints | Tier |
+|----------|--------------|------|
+| **Indicators** | `/indicators`, `/indicators/summary`, `/indicators/:name` | Explorer–Builder |
+| **Scenarios** | `/scenarios/current`, `/scenarios/history`, `/scenarios/signals` | Signal |
+| **Briefs** | `/briefs/latest`, `/briefs/feed`, `/briefs/archive`, `/briefs/:type` | Explorer–Signal |
+| **Macro** | `/macro/regime`, `/macro/snapshot`, `/macro/signals`, `/macro/global-liquidity`, `/macro/us-m2`, `/macro/central-banks`, `/macro/supply-chain` | Explorer–Builder |
+| **Regime** | `/regime`, `/regime/matrix`, `/regime/history` | Signal |
+| **Signals** | `/signals/correlations`, `/signals/sector-rotation`, `/signals/btc-etf-flows`, `/signals/fear-greed`, `/signals/whale-alerts`, `/signals/decision-engine` + 27 more | Signal |
+| **Narratives** | `/narratives`, `/narratives/history`, `/narratives/:name` | Signal |
+| **Expectations** | `/expectations`, `/expectations/rotation`, `/expectations/crowded`, `/expectations/early` | Signal |
+| **DeFi** | `/defi/intelligence`, `/defi/pe-ratios`, `/defi/yields`, `/defi/perps`, `/defi/stablecoins`, `/defi/chains`, `/defi/unlocks`, `/defi/signals` | Signal |
+| **BTC Options** | `/btc-options`, `/btc-options/maxpain`, `/btc-options/skew` | Signal |
+| **Central Banks** | `/central-banks`, `/central-banks/balance-sheets`, `/central-banks/btc`, `/central-banks/stablecoins`, `/central-banks/gold`, `/central-banks/reserves`, `/central-banks/tic` | Signal |
+| **Premiums** | `/premiums`, `/premiums/coinbase`, `/premiums/kimchi` | Signal |
+| **Predictions** | `/predictions`, `/predictions/movers`, `/predictions/:slug` | Signal |
+| **Sentiment** | `/sentiment/reddit` | Signal |
+| **Mean Reversion** | `/mr/signals`, `/mr/trades`, `/mr/stats` | Signal |
+| **Hindenburg** | `/hindenburg`, `/hindenburg/history` | Signal |
+| **CAPE** | `/cape` | Signal |
+| **Kill Conditions** | `/kill-conditions` | Signal |
+| **Crypto Re-entry** | `/crypto-reentry`, `/crypto-reentry/history` | Signal |
+| **Institutional** | `/institutional/13f` | Signal |
+| **News** | `/news/trending`, `/news/stats`, `/news/market-analysis`, `/news/xtg-analysis` | Signal |
 
-For full endpoint documentation with real response examples, read [references/endpoints.md](references/endpoints.md).
+### Data Endpoints (`/api/data/...`)
 
-### Macro & Regime
-| Endpoint | What it returns |
-|----------|----------------|
-| `/macro-snapshot` | Regime, business cycle, risk gauge, z-scores on 26 FRED indicators |
-| `/macro-snapshot/regime` | Regime label, flags, composite scores, explanation |
-| `/market-analysis/latest` | AI-generated daily report: sentiment, fear & greed, narratives, alerts |
+Cached datasets refreshed on schedule. 26 datasets covering prices, macro, crypto, news, institutional, calendar.
 
-### Signals & Technicals
-| Endpoint | What it returns |
-|----------|----------------|
-| `/signal-state` | 100 coins, IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION on 1d + 4h |
-| `/cointa?id={coinId}` | 29 technical indicators, composite buy/sell signal, 365 data points |
-| `/coin-rsi/statistics` | 606 coins RSI screening, overbought/oversold ranked lists |
-| `/coin-rsi/multi?coinids={id}` | 6-timeframe RSI (5m to 1w) per coin |
-| `/roc/{coinId}` | 90-day rate of change, acceleration, volatility, percentile bands |
+| Dataset | Tier | Description |
+|---------|------|-------------|
+| `realtime-prices` | Explorer | 100+ crypto tokens, 24h change |
+| `yahoo-quotes` | Builder | SPY, QQQ, VIX, TLT, DXY, Oil, 16 sector ETFs, stocks |
+| `whale-alerts` | Explorer | Large crypto transactions |
+| `breaking-news` | Explorer | Financial news with FinBERT sentiment |
+| `fear-greed` | Explorer | Crypto Fear & Greed Index |
+| `macro-snapshot` | Builder | 30+ FRED series, regime, risk gauge, z-scores |
+| `funding-rates` | Builder | Perpetual funding rates across exchanges |
+| `financial-calendar` | Builder | High-impact economic events |
+| `newsletters` | Builder | Curated newsletter intelligence |
+| `narrative-scores` | Signal | 21 narrative themes, crowding 1–5 |
+| `btc-etf-flows` | Signal | Bitcoin ETF daily flows |
+| `reddit-sentiment` | Signal | 14 subreddit sentiment analysis |
+| `decision-engine` | Signal | Multi-factor crypto re-entry scoring |
+| `scenario-probs` | Signal | 6 macro scenario probabilities |
 
-### Market Structure & Orderbook
-| Endpoint | What it returns |
-|----------|----------------|
-| `/market-structure` | BTC funding, liquidations, OI, crowding scores, signal |
-| `/orderbook/depth` | 8 liquidity bands, top bid/ask walls, notional USD |
-| `/orderbook/wall-persistence` | Wall persistence tracking over time |
-| `/orderbook/liquidity-change` | Liquidity shift detection |
-
-### Whales & Funding
-| Endpoint | What it returns |
-|----------|----------------|
-| `/whale-alerts` | On-chain whale transactions with symbol, amount, USD value |
-| `/hyperliquid-whale-alerts` | HL whale position changes with entry/liq prices |
-| `/hyperliquid-whale-positions` | Current whale positions: leverage, margin, unrealized PnL |
-| `/fundingrate/arbitrage/top` | Top 10 cross-exchange arb opportunities by APR |
-
-### News & Social
-| Endpoint | What it returns |
-|----------|----------------|
-| `/news/breaking` | Real-time news, FinBERT sentiment + confidence, auto-extracted tickers |
-| `/newsletters` | 50+ newsletters daily, full-text parsed, tickers, categories |
-| `/xtg-messages` | 300+ messages/day from 200+ X & Telegram channels, FinBERT scored |
-
-### Prices & Data
-| Endpoint | What it returns |
-|----------|----------------|
-| `/realtime-prices` | 1,181 assets (941 crypto, 195 stocks, 34 FX, 10 commodities) |
-| `/chartdata` | OHLCV candles, configurable resolution (1m to 1d), date range |
-| `/usdt-dominance` | USDT dominance as risk-on/risk-off signal |
-| `/usdc-dominance` | USDC dominance |
-| `/exchange-volumes` | Aggregated exchange trading volumes |
-| `/exchange-assets` | 39+ exchange wallets, balance + USD value per exchange |
-
-### Calendar, Treasury & Prediction
-| Endpoint | What it returns |
-|----------|----------------|
-| `/financial-calendar/high-impact` | Global macro events, impact scoring, forecast/previous values |
-| `/treasury/stats` | 209 entities, 35 countries, $137B+ tracked crypto treasuries |
-| `/polymarket/events/current` | FOMC decision odds from Polymarket |
+Plus 12 more datasets. Full list in [references/endpoints.md](references/endpoints.md).
 
 ---
 
@@ -117,31 +131,21 @@ For full endpoint documentation with real response examples, read [references/en
 |--------|-----------------|-------------------|
 | Macro regime | Every 6h | Every 4–6 hours |
 | Signal states (1d) | Daily close | Every 4–6 hours |
-| Signal states (4h) | Every 4h | Every 1–2 hours |
 | Whale alerts | Real-time | Every 15–30 min |
 | Funding rates | Every 8h | Every 4–8 hours |
 | Breaking news | Real-time | Every 15–30 min |
-| Prices | Near real-time | As needed |
+| Briefs | 4× daily | After each brief window |
+| DeFi yields | Every 4h | Every 4–6 hours |
+| BTC options | Daily | Every 4–6 hours |
 
 ---
 
-## Pricing (Coming Soon)
+## What It Does Not Do
 
-| Tier | Deposit | Per Call | Access |
-|------|---------|---------|--------|
-| Explorer | Free | — | Real-time prices only. 50 calls/day. |
-| Builder | $50 USDC | $0.005 | Prices + macro + regime + signals + news |
-| Signal | $150 USDC | $0.003 | All 33 endpoints. AI reports. Orderbook. |
-| Institutional | $500 USDC | $0.002 | Unlimited. White-label. SLA. |
-
-Deposit USDC, EURC, USDT, or SOL on Base, Solana, or Ethereum. Credits never expire. No subscriptions. No KYC.
-
----
-
-## Links
-
-- **Telegram:** [t.me/AgentCanary](https://t.me/AgentCanary) — live market intelligence 3x/day
-- **Website:** [agentcanary.ai](https://agentcanary.ai)
+- Does not predict prices — classifies regimes and states
+- Does not place orders or replace execution logic
+- Does not provide financial advice
+- Does not guarantee returns
 
 ---
 

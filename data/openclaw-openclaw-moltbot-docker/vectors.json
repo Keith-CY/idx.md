@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltbot-docker",
-  "generated_at": "2026-03-15T07:21:13.967Z",
+  "generated_at": "2026-03-16T07:32:52.076Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltbot-docker#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mkrdiop/moltbot-docker/SKILL.md",
-        "retrieved_at": "2026-03-15T07:21:13.967Z",
+        "retrieved_at": "2026-03-16T07:32:52.076Z",
         "content_sha256": "9c39514e511318af4c8d35314cfe50d613d9d7d5cd5ec39e46fd289208e6d52c"
       }
     }
