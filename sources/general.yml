@@ -15813,3 +15813,896 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-search-research
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-metrics-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/metrics-review/SKILL.md
+  title: metrics-review
+  summary: Review and analyze product metrics with trend analysis and actionable
+    insights. Use when running a weekly, monthly, or quarterly metrics review,
+    investigating a sudden spike or drop, comparing performance against targets,
+    or turning raw numbers into a scorecard with recommended actions.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/metrics-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-roadmap-update-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/roadmap-update/SKILL.md
+  title: roadmap-update
+  summary: Update, create, or reprioritize your product roadmap. Use when adding a
+    new initiative and deciding what moves to make room, shifting priorities
+    after new information comes in, moving timelines due to a dependency slip,
+    or building a Now/Next/Later view from scratch.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/roadmap-update/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-synthesize-research-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/synthesize-research/SKILL.md
+  title: synthesize-research
+  summary: Synthesize user research from interviews, surveys, and feedback into
+    structured insights. Use when you have a pile of interview notes, survey
+    responses, or support tickets to make sense of, need to extract themes and
+    rank findings by frequency and impact, or want to turn raw feedback into
+    roadmap recommendations.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/synthesize-research/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-write-spec-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/write-spec/SKILL.md
+  title: write-spec
+  summary: Write a feature spec or PRD from a problem statement or feature idea.
+    Use when turning a vague idea or user request into a structured document,
+    scoping a feature with goals and non-goals, defining success metrics and
+    acceptance criteria, or breaking a big ask into a phased spec.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/write-spec/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-stakeholder-update-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/stakeholder-update/SKILL.md
+  title: stakeholder-update
+  summary: Generate a stakeholder update tailored to audience and cadence. Use
+    when writing a weekly or monthly status for leadership, announcing a launch,
+    escalating a risk or blocker, or translating the same progress into
+    exec-brief, engineering-detail, or customer-facing versions.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/stakeholder-update/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-competitive-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/competitive-brief/SKILL.md
+  title: competitive-brief
+  summary: Create a competitive analysis brief for one or more competitors or a
+    feature area. Use when informing product strategy or feature prioritization,
+    building sales battle cards, prepping board or investor materials, or
+    deciding where to differentiate vs. achieve parity.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/competitive-brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-sprint-planning-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/sprint-planning/SKILL.md
+  title: sprint-planning
+  summary: Plan a sprint — scope work, estimate capacity, set goals, and draft a
+    sprint plan. Use when kicking off a new sprint, sizing a backlog against
+    team availability (accounting for PTO and meetings), deciding what's P0 vs.
+    stretch, or handling carryover from the last sprint.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/sprint-planning/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-bio-research-skills-start-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/start/SKILL.md
+  title: start
+  summary: Set up your bio-research environment and explore available tools. Use
+    when first getting oriented with the plugin, checking which literature,
+    drug-discovery, or visualization MCP servers are connected, or surveying
+    available analysis skills before starting a new project.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-bio-research
+    - plugin-component-skills
+    - plugin-skill
+    - category-search-research
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio-research/skills/start/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-customer-support-skills-kb-article-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/kb-article/SKILL.md
+  title: kb-article
+  summary: Draft a knowledge base article from a resolved issue or common
+    question. Use when a ticket resolution is worth documenting for
+    self-service, the same question keeps coming up, a workaround needs to be
+    published, or a known issue should be communicated to customers.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-customer-support
+    - plugin-component-skills
+    - plugin-skill
+    - category-communication
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/kb-article/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-customer-support-skills-customer-escalation-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-escalation/SKILL.md
+  title: customer-escalation
+  summary: Package an escalation for engineering, product, or leadership with full
+    context. Use when a bug needs engineering attention beyond normal support,
+    multiple customers report the same issue, a customer is threatening to
+    churn, or an issue has sat unresolved past its SLA.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-customer-support
+    - plugin-component-skills
+    - plugin-skill
+    - category-communication
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/customer-escalation/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-customer-support-skills-draft-response-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/draft-response/SKILL.md
+  title: draft-response
+  summary: Draft a professional customer-facing response tailored to the situation
+    and relationship. Use when answering a product question, responding to an
+    escalation or outage, delivering bad news like a delay or won't-fix,
+    declining a feature request, or replying to a billing issue.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-customer-support
+    - plugin-component-skills
+    - plugin-skill
+    - category-communication
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/customer-support/skills/draft-response/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-comp-analysis-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/comp-analysis/SKILL.md
+  title: comp-analysis
+  summary: Analyze compensation — benchmarking, band placement, and equity
+    modeling. Trigger with "what should we pay a [role]", "is this offer
+    competitive", "model this equity grant", or when uploading comp data to find
+    outliers and retention risks.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/comp-analysis/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-onboarding-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/onboarding/SKILL.md
+  title: onboarding
+  summary: Generate an onboarding checklist and first-week plan for a new hire.
+    Use when someone has a start date coming up, building the pre-start task
+    list (accounts, equipment, buddy), scheduling Day 1 and Week 1, or setting
+    30/60/90-day goals for a new team member.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/onboarding/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-performance-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/performance-review/SKILL.md
+  title: performance-review
+  summary: Structure a performance review with self-assessment, manager template,
+    and calibration prep. Use when review season kicks off and you need a
+    self-assessment template, writing a manager review for a direct report,
+    prepping rating distributions and promotion cases for calibration, or
+    turning vague feedback into specific behavioral examples.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/performance-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-draft-offer-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/draft-offer/SKILL.md
+  title: draft-offer
+  summary: Draft an offer letter with comp details and terms. Use when a candidate
+    is ready for an offer, assembling a total comp package (base, equity,
+    signing bonus), writing the offer letter text itself, or prepping
+    negotiation guidance for the hiring manager.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/draft-offer/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-people-report-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/people-report/SKILL.md
+  title: people-report
+  summary: Generate headcount, attrition, diversity, or org health reports. Use
+    when pulling a headcount snapshot for leadership, analyzing turnover trends
+    by team, preparing diversity representation metrics, or assessing span of
+    control and flight risk across the org.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/people-report/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-human-resources-skills-policy-lookup-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/policy-lookup/SKILL.md
+  title: policy-lookup
+  summary: Find and explain company policies in plain language. Trigger with
+    "what's our PTO policy", "can I work remotely from another country", "how do
+    expenses work", or any plain-language question about benefits, travel,
+    leave, or handbook rules.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-human-resources
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/human-resources/skills/policy-lookup/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-data-skills-write-query-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/write-query/SKILL.md
+  title: write-query
+  summary: Write optimized SQL for your dialect with best practices. Use when
+    translating a natural-language data need into SQL, building a multi-CTE
+    query with joins and aggregations, optimizing a query against a large
+    partitioned table, or getting dialect-specific syntax for Snowflake,
+    BigQuery, Postgres, etc.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-data
+    - plugin-component-skills
+    - plugin-skill
+    - category-data-analytics
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/write-query/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-data-skills-analyze-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/analyze/SKILL.md
+  title: analyze
+  summary: Answer data questions -- from quick lookups to full analyses. Use when
+    looking up a single metric, investigating what's driving a trend or drop,
+    comparing segments over time, or preparing a formal data report for
+    stakeholders.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-data
+    - plugin-component-skills
+    - plugin-skill
+    - category-data-analytics
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/analyze/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-data-skills-validate-data-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/validate-data/SKILL.md
+  title: validate-data
+  summary: QA an analysis before sharing -- methodology, accuracy, and bias
+    checks. Use when reviewing an analysis before a stakeholder presentation,
+    spot-checking calculations and aggregation logic, verifying a SQL query's
+    results look right, or assessing whether conclusions are actually supported
+    by the data.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-data
+    - plugin-component-skills
+    - plugin-skill
+    - category-data-analytics
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/validate-data/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-data-skills-build-dashboard-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/build-dashboard/SKILL.md
+  title: build-dashboard
+  summary: Build an interactive HTML dashboard with charts, filters, and tables.
+    Use when creating an executive overview with KPI cards, turning query
+    results into a shareable self-contained report, building a team monitoring
+    snapshot, or needing multiple charts with filters in one browser-openable
+    file.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-data
+    - plugin-component-skills
+    - plugin-skill
+    - category-data-analytics
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/build-dashboard/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-data-skills-create-viz-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/create-viz/SKILL.md
+  title: create-viz
+  summary: Create publication-quality visualizations with Python. Use when turning
+    query results or a DataFrame into a chart, selecting the right chart type
+    for a trend or comparison, generating a plot for a report or presentation,
+    or needing an interactive chart with hover and zoom.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-data
+    - plugin-component-skills
+    - plugin-skill
+    - category-data-analytics
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/create-viz/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-data-skills-explore-data-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/explore-data/SKILL.md
+  title: explore-data
+  summary: Profile and explore a dataset to understand its shape, quality, and
+    patterns. Use when encountering a new table or file, checking null rates and
+    column distributions, spotting data quality issues like duplicates or
+    suspicious values, or deciding which dimensions and metrics to analyze.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-data
+    - plugin-component-skills
+    - plugin-skill
+    - category-data-analytics
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/data/skills/explore-data/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-deploy-checklist-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/deploy-checklist/SKILL.md
+  title: deploy-checklist
+  summary: Pre-deployment verification checklist. Use when about to ship a
+    release, deploying a change with database migrations or feature flags,
+    verifying CI status and approvals before going to production, or documenting
+    rollback triggers ahead of time.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/deploy-checklist/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-architecture-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/architecture/SKILL.md
+  title: architecture
+  summary: Create or evaluate an architecture decision record (ADR). Use when
+    choosing between technologies (e.g., Kafka vs SQS), documenting a design
+    decision with trade-offs and consequences, reviewing a system design
+    proposal, or designing a new component from requirements and constraints.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/architecture/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-debug-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/debug/SKILL.md
+  title: debug
+  summary: Structured debugging session — reproduce, isolate, diagnose, and fix.
+    Trigger with an error message or stack trace, "this works in staging but not
+    prod", "something broke after the deploy", or when behavior diverges from
+    expected and the cause isn't obvious.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/debug/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-engineering-skills-standup-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/standup/SKILL.md
+  title: standup
+  summary: Generate a standup update from recent activity. Use when preparing for
+    daily standup, summarizing yesterday's commits and PRs and ticket moves,
+    formatting work into yesterday/today/blockers, or structuring a few rough
+    notes into a shareable update.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-engineering
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/engineering/skills/standup/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-finance-skills-journal-entry-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/journal-entry/SKILL.md
+  title: journal-entry
+  summary: Prepare journal entries with proper debits, credits, and supporting
+    detail. Use when booking month-end accruals (AP, payroll, prepaid),
+    recording depreciation or amortization, posting revenue recognition or
+    deferred revenue adjustments, or documenting an entry for audit review.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-finance
+    - plugin-component-skills
+    - plugin-skill
+    - category-finance
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/journal-entry/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-finance-skills-sox-testing-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/sox-testing/SKILL.md
+  title: sox-testing
+  summary: Generate SOX sample selections, testing workpapers, and control
+    assessments. Use when planning quarterly or annual SOX 404 testing, pulling
+    a sample for a control (revenue, P2P, ITGC, close), building a testing
+    workpaper template, or evaluating and classifying a control deficiency.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-finance
+    - plugin-component-skills
+    - plugin-skill
+    - category-finance
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/finance/skills/sox-testing/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-brand-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-review/SKILL.md
+  title: brand-review
+  summary: Review content against your brand voice, style guide, and messaging
+    pillars, flagging deviations by severity with specific before/after fixes.
+    Use when checking a draft before it ships, when auditing copy for voice
+    consistency and terminology, or when screening for unsubstantiated claims,
+    missing disclaimers, and other legal flags.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/brand-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-performance-report-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md
+  title: performance-report
+  summary: Build a marketing performance report with key metrics, trend analysis,
+    wins and misses, and prioritized optimization recommendations. Use when
+    wrapping a campaign, when preparing weekly, monthly, or quarterly channel
+    summaries for stakeholders, or when you need data translated into an
+    executive summary with next-period priorities.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/performance-report/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-email-sequence-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/email-sequence/SKILL.md
+  title: email-sequence
+  summary: Design and draft multi-email sequences with full copy, timing,
+    branching logic, exit conditions, and performance benchmarks. Use when
+    building onboarding, lead nurture, re-engagement, win-back, or product
+    launch flows, when you need a complete drip campaign with A/B test
+    suggestions, or when mapping a sequence end-to-end with a flow diagram.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/email-sequence/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-draft-content-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/draft-content/SKILL.md
+  title: draft-content
+  summary: Draft blog posts, social media, email newsletters, landing pages, press
+    releases, and case studies with channel-specific formatting and SEO
+    recommendations. Use when writing any marketing content, when you need
+    headline or subject line options, or when adapting a message for a specific
+    platform, audience, and brand voice.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/draft-content/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-competitive-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-brief/SKILL.md
+  title: competitive-brief
+  summary: Research competitors and generate a positioning and messaging
+    comparison with content gaps, opportunities, and threats. Use when building
+    sales battlecards, when finding positioning gaps and messaging angles
+    competitors haven't claimed, or when a competitor makes a move and you need
+    to assess the impact.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/competitive-brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-seo-audit-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/seo-audit/SKILL.md
+  title: seo-audit
+  summary: Run a comprehensive SEO audit — keyword research, on-page analysis,
+    content gaps, technical checks, and competitor comparison. Use when
+    assessing a site's SEO health, when finding keyword opportunities and
+    content gaps competitors own, or when you need a prioritized action plan
+    split into quick wins and strategic investments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/seo-audit/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-marketing-skills-campaign-plan-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/campaign-plan/SKILL.md
+  title: campaign-plan
+  summary: Generate a full campaign brief with objectives, audience, messaging,
+    channel strategy, content calendar, and success metrics. Use when planning a
+    product launch, lead-gen push, or awareness campaign, when you need a
+    week-by-week content calendar with dependencies, or when translating a
+    marketing goal into a structured, executable plan.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-marketing
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/marketing/skills/campaign-plan/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-status-report-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/status-report/SKILL.md
+  title: status-report
+  summary: Generate a status report with KPIs, risks, and action items. Use when
+    writing a weekly or monthly update for leadership, summarizing project
+    health with green/yellow/red status, surfacing risks and decisions that need
+    stakeholder attention, or turning a pile of project tracker activity into a
+    readable narrative.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/status-report/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-runbook-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/runbook/SKILL.md
+  title: runbook
+  summary: Create or update an operational runbook for a recurring task or
+    procedure. Use when documenting a task that on-call or ops needs to run
+    repeatably, turning tribal knowledge into exact step-by-step commands,
+    adding troubleshooting and rollback steps to an existing procedure, or
+    writing escalation paths for when things go wrong.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/runbook/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-capacity-plan-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/capacity-plan/SKILL.md
+  title: capacity-plan
+  summary: Plan resource capacity — workload analysis and utilization forecasting.
+    Use when heading into quarterly planning, the team feels overallocated and
+    you need the numbers, deciding whether to hire or deprioritize, or
+    stress-testing whether upcoming projects fit the people you have.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/capacity-plan/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-vendor-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/vendor-review/SKILL.md
+  title: vendor-review
+  summary: Evaluate a vendor — cost analysis, risk assessment, and recommendation.
+    Use when reviewing a new vendor proposal, deciding whether to renew or
+    replace a contract, comparing two vendors side-by-side, or building a TCO
+    breakdown and negotiation points before procurement sign-off.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/vendor-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-process-doc-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/process-doc/SKILL.md
+  title: process-doc
+  summary: Document a business process — flowcharts, RACI, and SOPs. Use when
+    formalizing a process that lives in someone's head, building a RACI to
+    clarify who owns what, writing an SOP for a handoff or audit, or capturing
+    the exceptions and edge cases of how work actually gets done.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/process-doc/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-operations-skills-change-request-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/change-request/SKILL.md
+  title: change-request
+  summary: Create a change management request with impact analysis and rollback
+    plan. Use when proposing a system or process change that needs approval,
+    preparing a change record for CAB review, documenting risk and rollback
+    steps before a deployment, or planning stakeholder communications for a
+    rollout.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-operations
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/operations/skills/change-request/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-sales-skills-call-summary-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/call-summary/SKILL.md
+  title: call-summary
+  summary: Process call notes or a transcript — extract action items, draft
+    follow-up email, generate internal summary. Use when pasting rough notes or
+    a transcript after a discovery, demo, or negotiation call, drafting a
+    customer follow-up, logging the activity for your CRM, or capturing
+    objections and next steps for your team.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-sales
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/call-summary/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-sales-skills-pipeline-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/pipeline-review/SKILL.md
+  title: pipeline-review
+  summary: Analyze pipeline health — prioritize deals, flag risks, get a weekly
+    action plan. Use when running a weekly pipeline review, deciding which deals
+    to focus on this week, spotting stale or stuck opportunities, auditing for
+    hygiene issues like bad close dates, or identifying single-threaded deals.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-sales
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/pipeline-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-sales-skills-forecast-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/forecast/SKILL.md
+  title: forecast
+  summary: Generate a weighted sales forecast with best/likely/worst scenarios,
+    commit vs. upside breakdown, and gap analysis. Use when preparing a
+    quarterly forecast call, assessing gap-to-quota from a pipeline CSV,
+    deciding which deals to commit vs. call upside, or checking pipeline
+    coverage against your number.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-sales
+    - plugin-component-skills
+    - plugin-skill
+    - category-marketing-sales
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sales/skills/forecast/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-vendor-check-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/vendor-check/SKILL.md
+  title: vendor-check
+  summary: Check the status of existing agreements with a vendor across all
+    connected systems — CLM, CRM, email, and document storage — with gap
+    analysis and upcoming deadlines. Use when onboarding or renewing a vendor,
+    when you need a consolidated view of what's signed and what's missing (MSA,
+    DPA, SOW), or when checking for approaching expirations and surviving
+    obligations.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/vendor-check/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-signature-request-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/signature-request/SKILL.md
+  title: signature-request
+  summary: Prepare and route a document for e-signature — run a pre-signature
+    checklist, configure signing order, and send for execution. Use when a
+    contract is finalized and ready to sign, when verifying entity names,
+    exhibits, and signature blocks before sending, or when setting up an
+    envelope with sequential or parallel signers.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/signature-request/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-legal-response-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/legal-response/SKILL.md
+  title: legal-response
+  summary: Generate a response to a common legal inquiry using configured
+    templates, with built-in escalation checks for situations that shouldn't use
+    a templated reply. Use when responding to data subject requests, litigation
+    hold notices, vendor legal questions, NDA requests from business teams, or
+    subpoenas.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/legal-response/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-review-contract-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/review-contract/SKILL.md
+  title: review-contract
+  summary: Review a contract against your organization's negotiation playbook —
+    flag deviations, generate redlines, provide business impact analysis. Use
+    when reviewing vendor or customer agreements, when you need clause-by-clause
+    analysis against standard positions, or when preparing a negotiation
+    strategy with prioritized redlines and fallback positions.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/review-contract/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-triage-nda-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/triage-nda/SKILL.md
+  title: triage-nda
+  summary: Rapidly triage an incoming NDA and classify it as GREEN (standard
+    approval), YELLOW (counsel review), or RED (full legal review). Use when a
+    new NDA arrives from sales or business development, when screening for
+    embedded non-solicits, non-competes, or missing carveouts, or when deciding
+    whether an NDA can be signed under standard delegation.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/triage-nda/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-compliance-check-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/compliance-check/SKILL.md
+  title: compliance-check
+  summary: Run a compliance check on a proposed action, product feature, or
+    business initiative, surfacing applicable regulations, required approvals,
+    and risk areas. Use when launching a feature that touches personal data,
+    when marketing or product proposes something with regulatory implications,
+    or when you need to know which approvals and jurisdictional requirements
+    apply before proceeding.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/compliance-check/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-legal-skills-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/brief/SKILL.md
+  title: brief
+  summary: Generate contextual briefings for legal work — daily summary, topic
+    research, or incident response. Use when starting your day and need a scan
+    of legal-relevant items across email, calendar, and contracts, when
+    researching a specific legal question across internal sources, or when a
+    developing situation (data breach, litigation threat, regulatory inquiry)
+    needs rapid context.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-legal
+    - plugin-component-skills
+    - plugin-skill
+    - category-uncategorized
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/legal/skills/brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-productivity-skills-update-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/update/SKILL.md
+  title: update
+  summary: Sync tasks and refresh memory from your current activity. Use when
+    pulling new assignments from your project tracker into TASKS.md, triaging
+    stale or overdue tasks, filling memory gaps for unknown people or projects,
+    or running a comprehensive scan to catch todos buried in chat and email.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-productivity
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/update/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-productivity-skills-start-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/start/SKILL.md
+  title: start
+  summary: Initialize the productivity system and open the dashboard. Use when
+    setting up the plugin for the first time, bootstrapping working memory from
+    your existing task list, or decoding the shorthand (nicknames, acronyms,
+    project codenames) you use in your todos.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-productivity
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/start/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-ux-copy-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/ux-copy/SKILL.md
+  title: ux-copy
+  summary: Write or review UX copy — microcopy, error messages, empty states,
+    CTAs. Trigger with "write copy for", "what should this button say?", "review
+    this error message", or when naming a CTA, wording a confirmation dialog,
+    filling an empty state, or writing onboarding text.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/ux-copy/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-research-synthesis-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/research-synthesis/SKILL.md
+  title: research-synthesis
+  summary: Synthesize user research into themes, insights, and recommendations.
+    Use when you have interview transcripts, survey results, usability test
+    notes, support tickets, or NPS responses that need to be distilled into
+    patterns, user segments, and prioritized next steps.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/research-synthesis/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-design-skills-design-system-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-system/SKILL.md
+  title: design-system
+  summary: Audit, document, or extend your design system. Use when checking for
+    naming inconsistencies or hardcoded values across components, writing
+    documentation for a component's variants, states, and accessibility notes,
+    or designing a new pattern that fits the existing system.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-design
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/design/skills/design-system/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-enterprise-search-skills-search-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/search/SKILL.md
+  title: search
+  summary: Search across all connected sources in one query. Trigger with "find
+    that doc about...", "what did we decide on...", "where was the conversation
+    about...", or when looking for a decision, document, or discussion that
+    could live in chat, email, cloud storage, or a project tracker.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-enterprise-search
+    - plugin-component-skills
+    - plugin-skill
+    - category-search-research
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/skills/search/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-enterprise-search-skills-digest-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/digest/SKILL.md
+  title: digest
+  summary: Generate a daily or weekly digest of activity across all connected
+    sources. Use when catching up after time away, starting the day and wanting
+    a summary of mentions and action items, or reviewing a week's decisions and
+    document updates grouped by project.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-enterprise-search
+    - plugin-component-skills
+    - plugin-skill
+    - category-search-research
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/enterprise-search/skills/digest/SKILL.md
