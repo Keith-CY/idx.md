@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nix-mode",
-  "generated_at": "2026-03-17T07:24:13.820Z",
+  "generated_at": "2026-03-17T17:26:14.673Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nix-mode#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chronicuser21/nix-mode/SKILL.md",
-        "retrieved_at": "2026-03-17T07:24:13.820Z",
+        "retrieved_at": "2026-03-17T17:26:14.673Z",
         "content_sha256": "05a02072a95c97fb2b4049afda2dd928c0f9b99445ab8f125b5c370bf7dc5121"
       }
     }

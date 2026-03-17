@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-auditing-appstore-readiness",
-  "generated_at": "2026-03-17T07:26:50.140Z",
+  "generated_at": "2026-03-17T17:28:39.048Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-auditing-appstore-readiness#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tristanmanchester/auditing-appstore-readiness/SKILL.md",
-        "retrieved_at": "2026-03-17T07:26:50.140Z",
+        "retrieved_at": "2026-03-17T17:28:39.048Z",
         "content_sha256": "f07337d6fab83c050e6fc2e528681de6ba0b85026d35a6698eec9c61c6432d49"
       }
     }

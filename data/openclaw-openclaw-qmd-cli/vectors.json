@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-qmd-cli",
-  "generated_at": "2026-03-17T07:24:34.906Z",
+  "generated_at": "2026-03-17T17:26:34.367Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-qmd-cli#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dpaluy/qmd-cli/SKILL.md",
-        "retrieved_at": "2026-03-17T07:24:34.906Z",
+        "retrieved_at": "2026-03-17T17:26:34.367Z",
         "content_sha256": "3b82879b60c956d569147ec674bd54485616f9e31ef71e882f9c32161ed4d6f5"
       }
     }

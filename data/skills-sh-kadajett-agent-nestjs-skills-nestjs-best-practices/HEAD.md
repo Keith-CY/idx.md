@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practic
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-17T07:22:26.054Z
+retrieved_at: 2026-03-17T17:24:42.877Z
 content_sha256: b699d2245ddc6b6cdd08d86db0a89903556dc33138acb2d34645b5c2fb319219
 ---

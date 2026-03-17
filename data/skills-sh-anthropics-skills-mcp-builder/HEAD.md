@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/anthropics/skills/mcp-builder
 github_stars: 94307
 github_forks: 10106
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:46.131Z
+retrieved_at: 2026-03-17T17:27:41.458Z
 content_sha256: 80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007
 ---

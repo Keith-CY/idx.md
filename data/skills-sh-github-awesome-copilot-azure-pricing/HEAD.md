@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/azure-pricing
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:59.576Z
+retrieved_at: 2026-03-17T17:27:54.310Z
 content_sha256: c0125df101ab525177a7c84fc49f11ae78cde538599c10b07df1de894946dfff
 ---

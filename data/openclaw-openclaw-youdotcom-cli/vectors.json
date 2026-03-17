@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-youdotcom-cli",
-  "generated_at": "2026-03-17T07:25:26.994Z",
+  "generated_at": "2026-03-17T17:27:20.660Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-youdotcom-cli#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/youdotcom-cli/SKILL.md",
-        "retrieved_at": "2026-03-17T07:25:26.994Z",
+        "retrieved_at": "2026-03-17T17:27:20.660Z",
         "content_sha256": "c8bd4f898c6580b23682703198feb02d6ee9230c7a8fd68d7a81b747b2118611"
       }
     }

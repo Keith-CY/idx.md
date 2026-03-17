@@ -1,0 +1,23 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "carmahhawwari-ui-design-brain-skill",
+  "generated_at": "2026-03-17T17:27:38.420Z",
+  "records": [
+    {
+      "id": "skills/carmahhawwari-ui-design-brain-skill#head",
+      "kind": "head",
+      "path": "/data/carmahhawwari-ui-design-brain-skill/HEAD.md",
+      "text": "title: carmahhawwari-ui-design-brain-skill\nsummary: --- name: ui-design-brain description: Generate production-grade UI using real component patterns and best practices from 60+ documented interface components. Use when the user asks to build web interfaces, pages, dashboards, forms, navigation, or any UI — ensures modern, minimal, SaaS-quality output grounded in design system conventions rather than generic AI patterns. license: Complete terms in LICENSE.txt --- # UI Design Brain This skill provides a curated knowledge base of 60+ UI component patterns sourced from [component.gallery](https://component.gallery) and enriched with best practices, layout guidance, and usage rules. It replaces generic guessing with real design-system knowledge when generating interfaces. **Before writing any UI code**, consult this skill to select the right components and follow their best practices. Read [components.md](components.md) for the full reference. ## When to Use This Skill Apply whenever the user asks to build, design, or generate:\ntype: skills\ntags: (none)\nsource_url: https://raw.githubusercontent.com/carmahhawwari/ui-design-brain/main/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/carmahhawwari-ui-design-brain-skill",
+        "topic": "carmahhawwari-ui-design-brain-skill",
+        "type": "skills",
+        "title": "carmahhawwari-ui-design-brain-skill",
+        "tags": [],
+        "source_url": "https://raw.githubusercontent.com/carmahhawwari/ui-design-brain/main/SKILL.md",
+        "retrieved_at": "2026-03-17T17:27:38.420Z",
+        "content_sha256": "89e6ee68cef797d2b5c822043c478972db0dfda1ccef534f87c1687f4c3f6ec0"
+      }
+    }
+  ]
+}

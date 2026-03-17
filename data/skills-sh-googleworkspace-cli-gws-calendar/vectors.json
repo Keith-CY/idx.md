@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-calendar",
-  "generated_at": "2026-03-17T07:25:56.285Z",
+  "generated_at": "2026-03-17T17:27:50.698Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-calendar#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-calendar-insert/SKILL.md",
-        "retrieved_at": "2026-03-17T07:25:56.285Z",
+        "retrieved_at": "2026-03-17T17:27:50.698Z",
         "content_sha256": "5aa3daea300bf53d48ad22c638ba9b8e4095dff95e7c16781fc8540859c084f9"
       }
     }

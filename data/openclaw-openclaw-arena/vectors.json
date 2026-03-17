@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-arena",
-  "generated_at": "2026-03-17T07:26:46.067Z",
+  "generated_at": "2026-03-17T17:28:36.175Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-arena#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sscottdev/arena/SKILL.md",
-        "retrieved_at": "2026-03-17T07:26:46.067Z",
+        "retrieved_at": "2026-03-17T17:28:36.175Z",
         "content_sha256": "8a889d3d8c3a44b39b205cba9f36ce627790f6ff239dd226accae3595662709d"
       }
     }

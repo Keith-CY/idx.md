@@ -10,7 +10,7 @@ summary: >-
 
   **Official documentation: [mastra.ai/docs](https://mastra.ai/docs)**
 
-  ## Getting Started
+  ## Get started
 
   Ask: **"How would you like to create your Mastra project?"**
 
@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/mastra-ai/skills/mastra
 github_stars: 33
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:55.264Z
-content_sha256: bb4f452bbd0dc7960eccdb3fc1b2a15f709848910ca5ce081d8660c884c349e0
+retrieved_at: 2026-03-17T17:27:49.797Z
+content_sha256: 0dbb4fb695f461405e6cc83c3a78fe1d14786761a87e3048f4c6fed8317a7fc0
 ---

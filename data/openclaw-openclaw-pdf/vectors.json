@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pdf",
-  "generated_at": "2026-03-17T07:24:23.939Z",
+  "generated_at": "2026-03-17T17:26:23.842Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pdf#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/awspace/pdf/SKILL.md",
-        "retrieved_at": "2026-03-17T07:24:23.939Z",
+        "retrieved_at": "2026-03-17T17:26:23.842Z",
         "content_sha256": "38d8559d4899602f82f3560052132aa0c40cfca80203037729756bdb4fb8e0cb"
       }
     }

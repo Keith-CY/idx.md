@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-superdesign",
-  "generated_at": "2026-03-17T07:24:57.642Z",
+  "generated_at": "2026-03-17T17:26:54.888Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-superdesign#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mpociot/superdesign/SKILL.md",
-        "retrieved_at": "2026-03-17T07:24:57.642Z",
+        "retrieved_at": "2026-03-17T17:26:54.888Z",
         "content_sha256": "12cbb694b936cadbf025fcb2afedcbaa73553c4adc34d5d338b0c4fbc22f4abb"
       }
     }

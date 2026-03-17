@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/fluentui-blazor
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:54.034Z
+retrieved_at: 2026-03-17T17:27:48.567Z
 content_sha256: 297ae2f3ceade5e6c79d03b9739150cd2ee687714e78e0b0ffbe94ff6f20e062
 ---

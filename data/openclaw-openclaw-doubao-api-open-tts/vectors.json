@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-doubao-api-open-tts",
-  "generated_at": "2026-03-17T07:27:22.243Z",
+  "generated_at": "2026-03-17T17:29:05.672Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-doubao-api-open-tts#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xdrshjr/doubao-api-open-tts/SKILL.md",
-        "retrieved_at": "2026-03-17T07:27:22.243Z",
+        "retrieved_at": "2026-03-17T17:29:05.672Z",
         "content_sha256": "38887c687326dac08ad29d201edb2658c4fd971447aa0d3758a7510ac0893165"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-comms-md",
-  "generated_at": "2026-03-17T07:27:14.560Z",
+  "generated_at": "2026-03-17T17:28:59.221Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-comms-md#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stedmanhalliday/comms-md/SKILL.md",
-        "retrieved_at": "2026-03-17T07:27:14.560Z",
+        "retrieved_at": "2026-03-17T17:28:59.221Z",
         "content_sha256": "d24e414d6de7a8e67fbaf8258c0755a131c062d7c729b1b8bacc6b073f0fe1af"
       }
     }

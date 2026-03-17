@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azure-cli",
-  "generated_at": "2026-03-17T07:23:07.952Z",
+  "generated_at": "2026-03-17T17:25:23.098Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azure-cli#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ddevaal/azure-cli/SKILL.md",
-        "retrieved_at": "2026-03-17T07:23:07.952Z",
+        "retrieved_at": "2026-03-17T17:25:23.098Z",
         "content_sha256": "ee338e1a26663172537c83367fa0e8e39fc5f428a49eb2208d4957400c714199"
       }
     }

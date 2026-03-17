@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-arxiv-search-collector",
-  "generated_at": "2026-03-17T07:26:46.706Z",
+  "generated_at": "2026-03-17T17:28:36.652Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-arxiv-search-collector#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xukp20/arxiv-search-collector/SKILL.md",
-        "retrieved_at": "2026-03-17T07:26:46.706Z",
+        "retrieved_at": "2026-03-17T17:28:36.652Z",
         "content_sha256": "8b921d29de9fdddb9348ff84a2a01ba176d822751907b180daea6e47ad67e982"
       }
     }

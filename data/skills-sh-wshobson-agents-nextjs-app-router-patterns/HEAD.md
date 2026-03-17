@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/wshobson/agents/nextjs-app-router-patterns
 github_stars: 5779
 github_forks: 569
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:36.193Z
+retrieved_at: 2026-03-17T17:27:30.753Z
 content_sha256: 69a2811dc897b66d94690243a13ab78146a998b8753087c97d14c78a38643575
 ---

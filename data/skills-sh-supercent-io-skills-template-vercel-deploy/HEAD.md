@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/vercel-deploy
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:49.832Z
+retrieved_at: 2026-03-17T17:27:44.990Z
 content_sha256: 542d86db666473699645cd921ddc37f0e9927de839af0401968be0d0a254e9b4
 ---

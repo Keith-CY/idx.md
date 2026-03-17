@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-carrier-relationship-management",
-  "generated_at": "2026-03-17T07:27:06.681Z",
+  "generated_at": "2026-03-17T17:28:52.071Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-carrier-relationship-management#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nocodemf/carrier-relationship-management/SKILL.md",
-        "retrieved_at": "2026-03-17T07:27:06.681Z",
+        "retrieved_at": "2026-03-17T17:28:52.071Z",
         "content_sha256": "af15d0d1b8223774768e8b4b16165e66b91693d7c45a55a7702db62c9f5b39f3"
       }
     }

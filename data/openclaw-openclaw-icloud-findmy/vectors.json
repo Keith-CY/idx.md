@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-icloud-findmy",
-  "generated_at": "2026-03-17T07:27:32.612Z",
+  "generated_at": "2026-03-17T17:29:14.322Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-icloud-findmy#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/liamnichols/icloud-findmy/SKILL.md",
-        "retrieved_at": "2026-03-17T07:27:32.612Z",
+        "retrieved_at": "2026-03-17T17:29:14.322Z",
         "content_sha256": "edbb50613ef3538069d471cd5bb9d6b029d30da40b02500cc9aedc7bac91e6d8"
       }
     }

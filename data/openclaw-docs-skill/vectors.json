@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-docs-skill",
-  "generated_at": "2026-03-17T07:22:28.726Z",
+  "generated_at": "2026-03-17T17:24:45.298Z",
   "records": [
     {
       "id": "skills/openclaw-docs-skill#head",
       "kind": "head",
       "path": "/data/openclaw-docs-skill/HEAD.md",
-      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when setting up, configuring, or operating OpenClaw — a self-hosted multi-channel AI agent gateway. Reach for this skill when building agent workspaces, managing channels (WhatsApp, Telegram, Discord, etc.), configuring models and tools, setting up multi-agent routing, creating skills, or troubleshooting gateway operations. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill Reference ## Product summary OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp, Telegram, Discord, iMessage, Signal, and more) to AI agents. A single Gateway process runs on your machine or server and routes inbound messages to agents, manages sessions, handles tool execution, and streams responses back to channels. Key files: `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md), `~/.openclaw/agents/<agentId>/sessions/` (session transcripts). Primary CLI: `openclaw` with subcommands for setup, configuration, channels, agents, models, and gateway control. See https://docs.openclaw.ai for comprehensive documentation.\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
+      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when deploying a self-hosted AI agent gateway, configuring multi-channel messaging (WhatsApp, Telegram, Discord, iMessage), managing agent workspaces and sessions, setting up skills and tools, or troubleshooting gateway/channel connectivity issues. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill Reference ## Product summary OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp, Telegram, Discord, iMessage, Signal, Slack, Mattermost, and more) to AI agents. It runs on any OS (macOS, Linux, Windows via WSL2) and manages sessions, routing, media, and tool execution. Agents use a workspace directory (`~/.openclaw/workspace`) containing bootstrap files (AGENTS.md, SOUL.md, TOOLS.md, IDENTITY.md, USER.md) that inject context on every turn. Configuration lives in `~/.openclaw/openclaw.json` (JSON5 format). Key CLI: `openclaw onboard`, `openclaw gateway`, `openclaw config`, `openclaw channels`, `openclaw agent`, `openclaw message`. Primary docs: https://docs.openclaw.ai\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
       "metadata": {
         "stable_id": "skills/openclaw-docs-skill",
         "topic": "openclaw-docs-skill",
@@ -15,8 +15,8 @@
         "title": "openclaw-docs-skill",
         "tags": [],
         "source_url": "https://docs.openclaw.ai/skill.md",
-        "retrieved_at": "2026-03-17T07:22:28.726Z",
-        "content_sha256": "e2682b727c0e6b9a5bdd0063875038f47bf999fe75cfe5e71395aaf8133ed0d1"
+        "retrieved_at": "2026-03-17T17:24:45.298Z",
+        "content_sha256": "e02f4967427507dfce9094cff93d6c0c47b87a477f63ba3f1e0119128d3984f4"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-confidant",
-  "generated_at": "2026-03-17T07:27:14.911Z",
+  "generated_at": "2026-03-17T17:28:59.520Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-confidant#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ericsantos/confidant/SKILL.md",
-        "retrieved_at": "2026-03-17T07:27:14.911Z",
+        "retrieved_at": "2026-03-17T17:28:59.520Z",
         "content_sha256": "b2241ed98273f0e5da339522c3b6fc7da4628318559ced3e9146afeca27b419a"
       }
     }

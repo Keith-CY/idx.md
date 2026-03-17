@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-workflow
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-17T07:25:57.696Z
+retrieved_at: 2026-03-17T17:27:52.232Z
 content_sha256: 72a1b9974fb029ed543ce249ba9930f2b9f4afea2636bd6423db1ce31d794b00
 ---
