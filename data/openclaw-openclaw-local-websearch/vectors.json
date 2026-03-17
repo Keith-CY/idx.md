@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-local-websearch",
-  "generated_at": "2026-03-16T17:29:04.264Z",
+  "generated_at": "2026-03-17T07:24:00.530Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-local-websearch#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stperic/local-websearch/SKILL.md",
-        "retrieved_at": "2026-03-16T17:29:04.264Z",
+        "retrieved_at": "2026-03-17T07:24:00.530Z",
         "content_sha256": "b253fcd9d4742f90f3d4d9d3fdf4275156f1fc1150acdcde07e6fd566181d026"
       }
     }

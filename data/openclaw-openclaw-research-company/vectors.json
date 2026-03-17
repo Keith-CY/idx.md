@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-research-company",
-  "generated_at": "2026-03-16T17:29:59.791Z",
+  "generated_at": "2026-03-17T07:24:41.392Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-research-company#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/research-company/SKILL.md",
-        "retrieved_at": "2026-03-16T17:29:59.791Z",
+        "retrieved_at": "2026-03-17T07:24:41.392Z",
         "content_sha256": "b82ba54a26b5119e2a4f7cd35c9b0ba203644d9f93f9c5c0329f0ddddeb56ef3"
       }
     }

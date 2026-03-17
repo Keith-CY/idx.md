@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-intervals-icu-api",
-  "generated_at": "2026-03-16T17:28:52.004Z",
+  "generated_at": "2026-03-17T07:23:51.175Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-intervals-icu-api#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pseuss/intervals-icu-api/SKILL.md",
-        "retrieved_at": "2026-03-16T17:28:52.004Z",
+        "retrieved_at": "2026-03-17T07:23:51.175Z",
         "content_sha256": "1bd0acdd4eca11ee198b619eea0a99ab7a2393033197c04b92872abd2170488b"
       }
     }

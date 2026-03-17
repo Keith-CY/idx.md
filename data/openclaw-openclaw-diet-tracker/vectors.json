@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-diet-tracker",
-  "generated_at": "2026-03-16T17:33:34.142Z",
+  "generated_at": "2026-03-17T07:27:21.283Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-diet-tracker#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yonghaozhao722/diet-tracker/SKILL.md",
-        "retrieved_at": "2026-03-16T17:33:34.142Z",
+        "retrieved_at": "2026-03-17T07:27:21.283Z",
         "content_sha256": "1eca50eab6dad9d896fb665c167bb92a2df5606438b9dbdf748d29bb018cd528"
       }
     }

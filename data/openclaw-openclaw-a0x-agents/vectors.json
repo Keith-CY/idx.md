@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-a0x-agents",
-  "generated_at": "2026-03-16T17:31:50.764Z",
+  "generated_at": "2026-03-17T07:26:05.044Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-a0x-agents#head",
@@ -19,7 +19,7 @@
           "category-agent-to-agent-protocols"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/claucondor/a0x-agents/SKILL.md",
-        "retrieved_at": "2026-03-16T17:31:50.764Z",
+        "retrieved_at": "2026-03-17T07:26:05.044Z",
         "content_sha256": "d34c635314cc3160a94d06ad0bf6450bdfa560c20e17fe9cb04125fb6e78bf52"
       }
     }

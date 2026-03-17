@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnos
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.241Z
+retrieved_at: 2026-03-17T07:25:43.409Z
 content_sha256: 8d7772007db8635af33cce1dde78f82e22f8c9df143e10a960e841cb2e479dd4
 ---

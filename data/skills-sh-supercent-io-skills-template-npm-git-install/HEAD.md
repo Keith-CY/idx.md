@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/npm-git-install
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:30.481Z
+retrieved_at: 2026-03-17T07:25:50.261Z
 content_sha256: ca3c98837189b1d87c0ee6cdc9e6bf49b75b137b5a700c5ee74d3c00391e5445
 ---

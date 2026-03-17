@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive",
-  "generated_at": "2026-03-16T17:26:42.223Z",
+  "generated_at": "2026-03-17T07:22:14.110Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md",
-        "retrieved_at": "2026-03-16T17:26:42.223Z",
+        "retrieved_at": "2026-03-17T07:22:14.110Z",
         "content_sha256": "787a0685e0ec081a2b0434a075428ae3f8132d9afcb05bc830db3fdb3343e494"
       }
     }

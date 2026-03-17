@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tts",
-  "generated_at": "2026-03-16T17:30:37.300Z",
+  "generated_at": "2026-03-17T07:25:10.111Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tts#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amstko/tts/SKILL.md",
-        "retrieved_at": "2026-03-16T17:30:37.300Z",
+        "retrieved_at": "2026-03-17T07:25:10.111Z",
         "content_sha256": "a55fa4334afafc9660afe8b6f87b1aff748075d7ea1891766c660f2505061e8a"
       }
     }

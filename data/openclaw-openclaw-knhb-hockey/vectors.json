@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-knhb-hockey",
-  "generated_at": "2026-03-16T17:28:59.333Z",
+  "generated_at": "2026-03-17T07:23:56.976Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-knhb-hockey#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tader/knhb-hockey/SKILL.md",
-        "retrieved_at": "2026-03-16T17:28:59.333Z",
+        "retrieved_at": "2026-03-17T07:23:56.976Z",
         "content_sha256": "5729cce710ac32c73e090ec1daecd5c48df2d3c6ddb5a89c10798401100c9184"
       }
     }

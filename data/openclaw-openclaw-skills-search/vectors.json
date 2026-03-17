@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-skills-search",
-  "generated_at": "2026-03-16T17:30:13.804Z",
+  "generated_at": "2026-03-17T07:24:51.229Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-skills-search#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/skills-search/SKILL.md",
-        "retrieved_at": "2026-03-16T17:30:13.804Z",
+        "retrieved_at": "2026-03-17T07:24:51.229Z",
         "content_sha256": "9e1bc5989af8f68aa4430b11f782f24f6ca0abad15112d46d253bf2c54da659b"
       }
     }

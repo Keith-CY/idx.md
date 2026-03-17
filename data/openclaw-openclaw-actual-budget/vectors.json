@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-actual-budget",
-  "generated_at": "2026-03-16T17:31:57.993Z",
+  "generated_at": "2026-03-17T07:26:10.274Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-actual-budget#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thisisjeron/actual-budget/SKILL.md",
-        "retrieved_at": "2026-03-16T17:31:57.993Z",
+        "retrieved_at": "2026-03-17T07:26:10.274Z",
         "content_sha256": "695f50c22f1a148d1032d081f5f322c5dbd446be8964d2fa8149806dbeec72dc"
       }
     }

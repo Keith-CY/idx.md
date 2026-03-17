@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-looker-studio-bigquery",
-  "generated_at": "2026-03-16T17:31:30.327Z",
+  "generated_at": "2026-03-17T07:25:50.180Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-looker-studio-bigquery#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/monitoring-observability/SKILL.md",
-        "retrieved_at": "2026-03-16T17:31:30.327Z",
+        "retrieved_at": "2026-03-17T07:25:50.180Z",
         "content_sha256": "19332680187528c26a466d33743506fd200ccf152a26468eb52aa34b60ca642a"
       }
     }

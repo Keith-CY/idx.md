@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aegis-shield",
-  "generated_at": "2026-03-16T17:32:03.436Z",
+  "generated_at": "2026-03-17T07:26:14.961Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aegis-shield#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/deegerwalker/aegis-shield/SKILL.md",
-        "retrieved_at": "2026-03-16T17:32:03.436Z",
+        "retrieved_at": "2026-03-17T07:26:14.961Z",
         "content_sha256": "c2e5621305477c7b22a06c2b9ffeb9632f2ab8086c27ae211fd6c84ea2a82192"
       }
     }

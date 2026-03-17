@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gotify",
-  "generated_at": "2026-03-16T17:33:46.561Z",
+  "generated_at": "2026-03-17T07:27:31.005Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gotify#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jmagar/gotify/SKILL.md",
-        "retrieved_at": "2026-03-16T17:33:46.561Z",
+        "retrieved_at": "2026-03-17T07:27:31.005Z",
         "content_sha256": "e6356beac122235390d3915dead6d9b3c3cc303046bd61dbffe3ba9aa0ce850b"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-team-orchestration",
-  "generated_at": "2026-03-16T17:32:19.562Z",
+  "generated_at": "2026-03-17T07:26:27.233Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-team-orchestration#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arminnaimi/agent-team-orchestration/SKILL.md",
-        "retrieved_at": "2026-03-16T17:32:19.562Z",
+        "retrieved_at": "2026-03-17T07:26:27.233Z",
         "content_sha256": "ee8204c92884c727eae1c8c4007df5bc7aaa36595859cd462112982b5ffe1b4c"
       }
     }

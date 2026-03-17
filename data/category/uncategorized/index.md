@@ -3,7 +3,7 @@
 | Category | Uncategorized |
 | --- | --- |
 | Slug | uncategorized |
-| Count | 596 |
+| Count | 593 |
 
 ---
 stable_id: skills/agentskills-skill
@@ -41,7 +41,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.420Z
+retrieved_at: 2026-03-17T07:22:27.486Z
 content_sha256: f356adb5492890ee42191e9603d087985940eb72e412e75e483e7b2ea131ae59
 ---
 |/data/agentskills-skill|
@@ -87,7 +87,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:58.604Z
+retrieved_at: 2026-03-17T07:22:25.852Z
 content_sha256: 72cc179fe566e62aa18114513eb38e7b6188a7c76806289cdec97138f75b5b11
 ---
 |/data/github-markup-readme|
@@ -112,7 +112,7 @@ upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:37.134Z
+retrieved_at: 2026-03-17T07:22:10.536Z
 content_sha256: 3a2eed8faf0a0087aa5c823d66341123cc6f43ef36d1767c3fdbcc86cf8b4b54
 ---
 |/data/github-skill-actionbook-rust-skills-m04-zero-cost|
@@ -134,7 +134,7 @@ upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:37.423Z
+retrieved_at: 2026-03-17T07:22:10.719Z
 content_sha256: f7c93d25f3d18d937331eac825ad08147416c22992db98afe1bab170f399d732
 ---
 |/data/github-skill-agno-agi-agno-git-workflow-cdbf56f5|
@@ -160,7 +160,7 @@ upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:39.501Z
+retrieved_at: 2026-03-17T07:22:12.053Z
 content_sha256: 4deb634eb2c423d4c175b0ac25cf35e595556b53a588b270acabc9677727164c
 ---
 |/data/github-skill-dadbodgeoff-drift-deduplication-1871b9dd|
@@ -186,7 +186,7 @@ upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:39.760Z
+retrieved_at: 2026-03-17T07:22:12.219Z
 content_sha256: aac5d2e3719a15f8d764114ac9ccc88c8e66911735120681d88fa9237bc57c82
 ---
 |/data/github-skill-dadbodgeoff-drift-sse-resilience-8c48bbc6|
@@ -210,7 +210,7 @@ upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:39.883Z
+retrieved_at: 2026-03-17T07:22:12.302Z
 content_sha256: 14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5
 ---
 |/data/github-skill-danielmiessler-personal-ai-infrastructure-prompting|
@@ -234,7 +234,7 @@ upstream_ref: https://github.com/danielmiessler/Personal_AI_Infrastructure/blob/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.004Z
+retrieved_at: 2026-03-17T07:22:12.408Z
 content_sha256: 14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5
 ---
 |/data/github-skill-danielmiessler-personal-ai-infrastructure-prompting-22ec27f8|
@@ -259,7 +259,7 @@ upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.263Z
+retrieved_at: 2026-03-17T07:22:12.643Z
 content_sha256: 1e2e8681cf7ba31550ac69151ec3fcb427559bcd3a92dc5e3b7070b7f4e076d3
 ---
 |/data/github-skill-davepoon-buildwithclaude-content-research-writer|
@@ -285,7 +285,7 @@ upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-too
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.392Z
+retrieved_at: 2026-03-17T07:22:12.730Z
 content_sha256: 0ffbbb6c89e2a58b5d7fee718ab10db7ac663243eac22adb441722b278bd7da0
 ---
 |/data/github-skill-davila7-claude-code-templates-scientific-schematics|
@@ -309,7 +309,7 @@ upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-too
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.552Z
+retrieved_at: 2026-03-17T07:22:12.806Z
 content_sha256: cf7a6a0b92092f44c6532bd9af7189748a9c3b4d044005418230b08cc99ac55c
 ---
 |/data/github-skill-davila7-claude-code-templates-writing-hookify-rules|
@@ -333,7 +333,7 @@ upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.670Z
+retrieved_at: 2026-03-17T07:22:12.925Z
 content_sha256: 9999e7418eb72cce4a2c42261fd726075fb9ae0868c4a64b17e9ee918cd112b0
 ---
 |/data/github-skill-deanpeters-product-manager-skills-pestel-analysis|
@@ -359,7 +359,7 @@ upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.809Z
+retrieved_at: 2026-03-17T07:22:13.041Z
 content_sha256: 3f2a4dcade9871009e99d23342a686cd1b5079e27feb1be20d32a0fb7932bf89
 ---
 |/data/github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks|
@@ -389,7 +389,7 @@ upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:40.913Z
+retrieved_at: 2026-03-17T07:22:13.146Z
 content_sha256: ab8c99b15d77cc8fdcf284afec72cac2906494e6d9a0f04c04cf5b583451cb61
 ---
 |/data/github-skill-dicklesworthstone-pi-agent-rust-websocket-client-creator|
@@ -416,7 +416,7 @@ upstream_ref: https://github.com/Dicklesworthstone/pi_agent_rust/blob/main/tests
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:41.087Z
+retrieved_at: 2026-03-17T07:22:13.271Z
 content_sha256: 3554dc2f0ca6550c01f71a3ea7c5a72899fc18bb3f3534e2593966a16be5f46a
 ---
 |/data/github-skill-dicklesworthstone-pi-agent-rust-windsurf-common-errors|
@@ -438,8 +438,8 @@ upstream_ref: https://github.com/elizaOS/eliza/blob/develop/packages/skills/skil
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:41.372Z
-content_sha256: ff458cdfff63bc38a1764508d15b92086598c5b85ddb4f0946fb26527179e9ad
+retrieved_at: 2026-03-17T07:22:13.480Z
+content_sha256: bbf1c0acde2756f06d8663bc9d4de4f8c87f784e65556de8c78d7f27fd3a5d00
 ---
 |/data/github-skill-elizaos-eliza-blucli|
 
@@ -460,7 +460,7 @@ upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/ep
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:41.545Z
+retrieved_at: 2026-03-17T07:22:13.607Z
 content_sha256: 74bcb9051bf6c222bb994885d81abe0c6b227bbf9913a48e6a594cfd1ff9bec9
 ---
 |/data/github-skill-epicweb-dev-epic-stack-epic-ui-guidelines|
@@ -482,7 +482,7 @@ upstream_ref: https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:41.652Z
+retrieved_at: 2026-03-17T07:22:13.705Z
 content_sha256: 10d0a1d460809d30e35f1139c2bd37ff190231ebc668014ccd20683e32956b3a
 ---
 |/data/github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer|
@@ -506,7 +506,7 @@ upstream_ref: https://github.com/Jeffallan/claude-skills/blob/main/skills/websoc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:41.856Z
+retrieved_at: 2026-03-17T07:22:13.868Z
 content_sha256: 4cae3c84e6c84e09b8ca5b1d630422fb663710a5014d27a2764002c6e5e4afcb
 ---
 |/data/github-skill-jeffallan-claude-skills-websocket-engineer|
@@ -534,7 +534,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:41.982Z
+retrieved_at: 2026-03-17T07:22:13.945Z
 content_sha256: da443a5413b629360e5026125dc2d6e310ba01769e7f382e58560996b6c5f1b5
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer|
@@ -561,7 +561,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.100Z
+retrieved_at: 2026-03-17T07:22:14.032Z
 content_sha256: ec384e2228a05a32e32cced863a43a17b99ee32c80e7ffde83fc9855be16b08b
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors|
@@ -593,7 +593,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.223Z
+retrieved_at: 2026-03-17T07:22:14.110Z
 content_sha256: 787a0685e0ec081a2b0434a075428ae3f8132d9afcb05bc830db3fdb3343e494
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive|
@@ -622,7 +622,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.374Z
+retrieved_at: 2026-03-17T07:22:14.298Z
 content_sha256: b6f24b85c112ebcdd87ec93d532d7d36586b50587536ea1672afd37a78149f39
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics|
@@ -649,7 +649,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.505Z
+retrieved_at: 2026-03-17T07:22:14.374Z
 content_sha256: 62bb8cc5650e9ce580ac7b09e1797dcd770dc17c67b8d38f75a6a6bc099f08f5
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a|
@@ -679,7 +679,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.684Z
+retrieved_at: 2026-03-17T07:22:14.459Z
 content_sha256: 7c52d6502e674073ecae1cfad98d9bfec42a0ab88559e9c14b3142e65b75af4c
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper|
@@ -704,7 +704,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.801Z
+retrieved_at: 2026-03-17T07:22:14.541Z
 content_sha256: a3fc062feffc0b2a0683c9d9736f60ce293dbf649c7aeb68d9d6814756b70875
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker|
@@ -731,7 +731,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:42.918Z
+retrieved_at: 2026-03-17T07:22:14.633Z
 content_sha256: c0b49e8a27aa39af265317d0a40e7beb2cb5761ae5af26dc26e88fe6bd644f35
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics|
@@ -763,7 +763,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:43.058Z
+retrieved_at: 2026-03-17T07:22:14.823Z
 content_sha256: 3aceac033c95b3bf3da4135e91fb3d863ff51b997bbfb29e1eaf1adce97b8ddc
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration|
@@ -793,7 +793,7 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:43.170Z
+retrieved_at: 2026-03-17T07:22:15.031Z
 content_sha256: ab8c99b15d77cc8fdcf284afec72cac2906494e6d9a0f04c04cf5b583451cb61
 ---
 |/data/github-skill-jeremylongshore-claude-code-plugins-plus-skills-websocket-client-creator|
@@ -816,7 +816,7 @@ upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:43.446Z
+retrieved_at: 2026-03-17T07:22:15.300Z
 content_sha256: 4e1a25951a698c4a157214082fa2e8f61d6bb3a3e87343a0e8424737b08a880e
 ---
 |/data/github-skill-kevoreilly-capev2-cape-sandbox-developer|
@@ -840,7 +840,7 @@ upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_age
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:43.560Z
+retrieved_at: 2026-03-17T07:22:15.512Z
 content_sha256: e166d6d628cb342ad09d3cec892f07ab29a3f3d26f8931251b3b5abf30f0260b
 ---
 |/data/github-skill-kyegomez-swarms-financial-analysis|
@@ -863,7 +863,7 @@ upstream_ref: https://github.com/longbridge/gpui-component/blob/main/.claude/ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:43.835Z
+retrieved_at: 2026-03-17T07:22:15.835Z
 content_sha256: e2f3b32391855612eb6c3f58671f0a539f5568ed0af9283e9d03bcef88a9d7aa
 ---
 |/data/github-skill-longbridge-gpui-component-generate-component-story|
@@ -887,7 +887,7 @@ upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/bran
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:43.970Z
+retrieved_at: 2026-03-17T07:22:16.049Z
 content_sha256: bc046aafab458653f8e099866e06b904517a58aa99e69d4f116484df238fe1e9
 ---
 |/data/github-skill-luongnv89-claude-howto-brand-voice-consistency|
@@ -912,7 +912,7 @@ upstream_ref: https://github.com/openai/openai-agents-python/blob/main/.agents/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:44.611Z
+retrieved_at: 2026-03-17T07:22:16.544Z
 content_sha256: 789797896a7bbd3392bca3c0088aa5451fba8b71345a44b76017588b9490f345
 ---
 |/data/github-skill-openai-openai-agents-python-pr-draft-summary|
@@ -953,7 +953,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/okaris/ai-musi
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:44.962Z
+retrieved_at: 2026-03-17T07:22:16.796Z
 content_sha256: ae5c82e46512da4b4f969e5a7ac6e476421ce00e59e941cf04b56ce1715223ea
 ---
 |/data/github-skill-openclaw-skills-ai-music-generation|
@@ -978,7 +978,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/zscole/opencla
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:45.108Z
+retrieved_at: 2026-03-17T07:22:17.003Z
 content_sha256: d02c176b4386f397f1ad3911728c545060479464c4042b25545b62c83499b556
 ---
 |/data/github-skill-openclaw-skills-bagman|
@@ -1002,7 +1002,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/edwardrodrigue
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:45.278Z
+retrieved_at: 2026-03-17T07:22:17.116Z
 content_sha256: 27ebdce0de5990a9ebb7282dff6a024086426c0f49ad59fe272fccfc82be86e5
 ---
 |/data/github-skill-openclaw-skills-book-detailing|
@@ -1028,7 +1028,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satoshi891102/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:45.615Z
+retrieved_at: 2026-03-17T07:22:17.345Z
 content_sha256: 015f04b2cd35640982b74e71e29422eac0636c88fb9641c5806a08ee3b07ffd6
 ---
 |/data/github-skill-openclaw-skills-bounty-hunter|
@@ -1051,7 +1051,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ketiyohannesch
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:45.777Z
+retrieved_at: 2026-03-17T07:22:17.450Z
 content_sha256: d24ec4fd6b781b42820bb78757254891d26ab6b0e7f65616575671bd452218b7
 ---
 |/data/github-skill-openclaw-skills-bsc-impossible-finance|
@@ -1081,7 +1081,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/busine
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:45.937Z
+retrieved_at: 2026-03-17T07:22:17.561Z
 content_sha256: 92236ce91a05cd06a791edcefba23213bb33648e67007a03d7d12a10b7a7a3a2
 ---
 |/data/github-skill-openclaw-skills-business-plan|
@@ -1104,7 +1104,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/lucasyao1985/c
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:46.082Z
+retrieved_at: 2026-03-17T07:22:17.669Z
 content_sha256: 32c9d3c6feeb9227b1022db18f1680bd9808baae00cd9d72995f6251f1d0759b
 ---
 |/data/github-skill-openclaw-skills-clawdchat|
@@ -1128,7 +1128,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/starbuck100/cl
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:46.252Z
+retrieved_at: 2026-03-17T07:22:17.882Z
 content_sha256: e57f59343a82ce655ea8770f809192a186f5838973f20e985c1c4dad13cf8f7a
 ---
 |/data/github-skill-openclaw-skills-clawdhub-contributor|
@@ -1152,7 +1152,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/syslink/clawga
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:46.397Z
+retrieved_at: 2026-03-17T07:22:17.990Z
 content_sha256: c505beae8b72dbb7342e19e79f0848ed44929ef0f4990f1ddced0379c741bb87
 ---
 |/data/github-skill-openclaw-skills-clawgang|
@@ -1174,7 +1174,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/luccast/public
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:46.568Z
+retrieved_at: 2026-03-17T07:22:18.095Z
 content_sha256: e417b0d19b8420973cd6010e402e1a8b593f161e66fad3aee82389ab895e54fd
 ---
 |/data/github-skill-openclaw-skills-crabwalk|
@@ -1197,7 +1197,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/jo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:47.024Z
+retrieved_at: 2026-03-17T07:22:18.402Z
 content_sha256: 7631d2dd175784f2c2f3b24f317bfaf6d42de61959bde2fcdb693af9edda281e
 ---
 |/data/github-skill-openclaw-skills-journal|
@@ -1229,7 +1229,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/boxingyi/liste
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:47.266Z
+retrieved_at: 2026-03-17T07:22:18.600Z
 content_sha256: e229582acfaa15327d5400c6bccc614d46d729a3609e0acb4479b41bb8e42d0a
 ---
 |/data/github-skill-openclaw-skills-listenhub|
@@ -1252,7 +1252,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jcheese1/moltp
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:47.543Z
+retrieved_at: 2026-03-17T07:22:18.799Z
 content_sha256: 1060e54b3c5e3082a961fbb4fefde314bee60aa8885af1cdae03667df2cfb116
 ---
 |/data/github-skill-openclaw-skills-moltpet|
@@ -1277,7 +1277,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/peterhanily/oc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:47.890Z
+retrieved_at: 2026-03-17T07:22:19.007Z
 content_sha256: 435fe716ecbd98b102532d1f0fe2e19f27b4eaba0f0d19993c3e51ec6dee3628
 ---
 |/data/github-skill-openclaw-skills-octoclaw|
@@ -1300,7 +1300,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/ph
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:48.330Z
+retrieved_at: 2026-03-17T07:22:19.442Z
 content_sha256: 5d4872e2dab3953a5f07228365e338f6105d64d82774b275ec3a1d14f2a2637c
 ---
 |/data/github-skill-openclaw-skills-physics|
@@ -1324,7 +1324,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aaron-he-zhu/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:48.628Z
+retrieved_at: 2026-03-17T07:22:19.637Z
 content_sha256: 158b04db7f21e6e22262690554b9a0cdc83142dbc1ba920ec5985c8bd98c989f
 ---
 |/data/github-skill-openclaw-skills-seo-content-writer|
@@ -1346,7 +1346,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/chenyuan99/swe
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:48.815Z
+retrieved_at: 2026-03-17T07:22:19.733Z
 content_sha256: 3a6c65e8d92bbbcb71789ad4fbe48bba46fa24ecd38d0bcc1ae41b94bf866ee2
 ---
 |/data/github-skill-openclaw-skills-swelist|
@@ -1368,7 +1368,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/hexiaochun/vid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:49.276Z
+retrieved_at: 2026-03-17T07:22:20.102Z
 content_sha256: a768ddbecc35778fde974d963c3797a49466913f38ef4ae28c0d239417768a01
 ---
 |/data/github-skill-openclaw-skills-vidu-video|
@@ -1391,7 +1391,7 @@ upstream_ref: https://github.com/pbakaus/impeccable/blob/main/source/skills/colo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:49.552Z
+retrieved_at: 2026-03-17T07:22:20.387Z
 content_sha256: b667acb06ac18a222bbd43799e7d2af92cbfb4b1795b10ae3e2ad5f422eee857
 ---
 |/data/github-skill-pbakaus-impeccable-colorize|
@@ -1414,7 +1414,7 @@ upstream_ref: https://github.com/prompt-security/clawsec/blob/main/skills/claw-r
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:49.660Z
+retrieved_at: 2026-03-17T07:22:20.462Z
 content_sha256: cda9f58b3be67876ba4a543d6192af60ea155c2102202340fdfc8770a848f07e
 ---
 |/data/github-skill-prompt-security-clawsec-claw-release|
@@ -1436,7 +1436,7 @@ upstream_ref: https://github.com/quickwit-oss/quickwit/blob/main/.claude/skills/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:49.820Z
+retrieved_at: 2026-03-17T07:22:20.549Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---
 |/data/github-skill-quickwit-oss-quickwit-simple-pr|
@@ -1458,7 +1458,7 @@ upstream_ref: https://github.com/quickwit-oss/tantivy/blob/main/.claude/skills/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:49.927Z
+retrieved_at: 2026-03-17T07:22:20.641Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---
 |/data/github-skill-quickwit-oss-tantivy-simple-pr|
@@ -1482,7 +1482,7 @@ upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/sk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:50.229Z
+retrieved_at: 2026-03-17T07:22:20.800Z
 content_sha256: 5bdee6583ff71931e8e3fe04183260b28ece6e93d14328e57b074747aa9f0d3d
 ---
 |/data/github-skill-sickn33-antigravity-awesome-skills-hubspot-integration|
@@ -1504,7 +1504,7 @@ upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:50.762Z
+retrieved_at: 2026-03-17T07:22:21.060Z
 content_sha256: 311c55532125c7d080151847da11210f1e63997265d2d7a3103dc8c81da72a1d
 ---
 |/data/github-skill-tencentblueking-bk-bcs-node-js|
@@ -1526,7 +1526,7 @@ upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:50.875Z
+retrieved_at: 2026-03-17T07:22:21.164Z
 content_sha256: 915a6b40fc01129073647d2139d73154189768f622e1c3c4d652d10ab63526f0
 ---
 |/data/github-skill-tencentblueking-bk-bcs-skill|
@@ -1551,7 +1551,7 @@ upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skil
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:51.020Z
+retrieved_at: 2026-03-17T07:22:21.252Z
 content_sha256: 0ef9f14f2e7d1fe6c6967644158504542248965d1870b1a473fb74173ad1b119
 ---
 |/data/github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter|
@@ -1574,7 +1574,7 @@ upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:51.168Z
+retrieved_at: 2026-03-17T07:22:21.349Z
 content_sha256: 53b5f9666ec2ac61b8f3cf08e554ddf611b751e28795a84dd34f91fd20939203
 ---
 |/data/github-skill-wavetermdev-waveterm-electron-api|
@@ -1613,7 +1613,7 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/
 github_stars: 973
 github_forks: 45
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:51.298Z
+retrieved_at: 2026-03-17T07:22:21.421Z
 content_sha256: 9bb2f868098a9d28ce7d10383039a28169d838cea6299f9df3706ecda7932949
 ---
 |/data/ibelick-baseline-ui|
@@ -1652,7 +1652,7 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-acces
 github_stars: 973
 github_forks: 45
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:51.416Z
+retrieved_at: 2026-03-17T07:22:21.501Z
 content_sha256: 549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf
 ---
 |/data/ibelick-fixing-accessibility|
@@ -1685,7 +1685,7 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metad
 github_stars: 973
 github_forks: 45
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:51.520Z
+retrieved_at: 2026-03-17T07:22:21.590Z
 content_sha256: b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547
 ---
 |/data/ibelick-fixing-metadata|
@@ -1724,7 +1724,7 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motio
 github_stars: 973
 github_forks: 45
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:51.676Z
+retrieved_at: 2026-03-17T07:22:21.665Z
 content_sha256: 0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9
 ---
 |/data/ibelick-fixing-motion-performance|
@@ -1748,7 +1748,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:33.775Z
+retrieved_at: 2026-03-17T07:22:53.160Z
 content_sha256: ef42982af0d51238dda2ab16d08626712891bdd41864876c32d1e7b13fb3124f
 ---
 |/data/knowledge-work-plugins-design-skills-accessibility-review-skill|
@@ -1772,7 +1772,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:33.391Z
+retrieved_at: 2026-03-17T07:22:52.927Z
 content_sha256: 3a4f260eb9f60b431782bf6d90f22afb480c0c67860267a032df58a3e1bd19cd
 ---
 |/data/knowledge-work-plugins-design-skills-design-critique-skill|
@@ -1796,7 +1796,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:33.180Z
+retrieved_at: 2026-03-17T07:22:52.787Z
 content_sha256: 38f1efc807928030654218443ad07f6a37ac82de6b4d627a03113a3568d787b7
 ---
 |/data/knowledge-work-plugins-design-skills-design-handoff-skill|
@@ -1820,7 +1820,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:12.733Z
+retrieved_at: 2026-03-17T07:25:35.711Z
 content_sha256: fb31bd0144c43955106f01927126ae9fd2d4148be44c8d5887b3391f40c31445
 ---
 |/data/knowledge-work-plugins-design-skills-design-system-skill|
@@ -1844,7 +1844,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:12.574Z
+retrieved_at: 2026-03-17T07:25:35.635Z
 content_sha256: 40048615dc81fc8b9b06104769498214d61a35ae4518a0995a12bbbd0ab945a1
 ---
 |/data/knowledge-work-plugins-design-skills-research-synthesis-skill|
@@ -1868,7 +1868,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:33.652Z
+retrieved_at: 2026-03-17T07:22:53.083Z
 content_sha256: fa18fc13d0f44aa869102962ef9466417ade726d659465195a40fbcf08cee156
 ---
 |/data/knowledge-work-plugins-design-skills-user-research-skill|
@@ -1892,7 +1892,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/des
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:12.448Z
+retrieved_at: 2026-03-17T07:25:35.555Z
 content_sha256: d46a00a62ec637e9ca9d5f7823ea3e0a4ec26dffc53bb5035f59b48ebfcdcde7
 ---
 |/data/knowledge-work-plugins-design-skills-ux-copy-skill|
@@ -1916,7 +1916,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:08.276Z
+retrieved_at: 2026-03-17T07:25:32.765Z
 content_sha256: de7db3170a3ae1a894c70ef6cb555fe15618ed9b9674d20895eda3d2a0a5f9a2
 ---
 |/data/knowledge-work-plugins-engineering-skills-architecture-skill|
@@ -1940,7 +1940,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:37.648Z
+retrieved_at: 2026-03-17T07:22:55.565Z
 content_sha256: 6303932f1b301c614a6f5a0099cd87a19e1cd1b7cbfa1a1e11e996edbca6426b
 ---
 |/data/knowledge-work-plugins-engineering-skills-code-review-skill|
@@ -1964,7 +1964,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:08.431Z
+retrieved_at: 2026-03-17T07:25:32.946Z
 content_sha256: e50bb92cbcb2715139f3a3cb9ff282a8f0f9ae794f8f35d81338654e2601d32a
 ---
 |/data/knowledge-work-plugins-engineering-skills-debug-skill|
@@ -1988,7 +1988,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:08.154Z
+retrieved_at: 2026-03-17T07:25:32.689Z
 content_sha256: 85ca53dc471970e3e12c36ec814ebf5f6cb9419016c55adb05ff34789bae3be9
 ---
 |/data/knowledge-work-plugins-engineering-skills-deploy-checklist-skill|
@@ -2012,7 +2012,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:37.944Z
+retrieved_at: 2026-03-17T07:22:55.717Z
 content_sha256: 1d469418f786a05be83d2a05f04d68788aeed584d13863a650f5ad73c6c4cf50
 ---
 |/data/knowledge-work-plugins-engineering-skills-documentation-skill|
@@ -2036,7 +2036,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:38.187Z
+retrieved_at: 2026-03-17T07:22:55.882Z
 content_sha256: 9eaa7a974c90395ac7116e82710f74546f38e69f735d78f684ee13fd79646e9a
 ---
 |/data/knowledge-work-plugins-engineering-skills-incident-response-skill|
@@ -2060,7 +2060,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:08.627Z
+retrieved_at: 2026-03-17T07:25:33.022Z
 content_sha256: 598d9082631326ee810056c787188ee021c6325f990989732ba178ea111adf45
 ---
 |/data/knowledge-work-plugins-engineering-skills-standup-skill|
@@ -2084,7 +2084,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:38.050Z
+retrieved_at: 2026-03-17T07:22:55.802Z
 content_sha256: 8f28eca99f2208872fc2483fcc93326b628f4f73116e91309a95e05da86a0ab5
 ---
 |/data/knowledge-work-plugins-engineering-skills-system-design-skill|
@@ -2108,7 +2108,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:37.795Z
+retrieved_at: 2026-03-17T07:22:55.643Z
 content_sha256: ed3b4b1450c0fd9b8dad17313b5a4fafd8e6947d380b79b36a2e8259f3b1df0f
 ---
 |/data/knowledge-work-plugins-engineering-skills-tech-debt-skill|
@@ -2132,7 +2132,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/eng
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:37.525Z
+retrieved_at: 2026-03-17T07:22:55.474Z
 content_sha256: 5c5e95830754bbdd838213fa05fc8f07523f591fd558fd3c86031ffd479f7a9e
 ---
 |/data/knowledge-work-plugins-engineering-skills-testing-strategy-skill|
@@ -2156,7 +2156,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:06.655Z
+retrieved_at: 2026-03-17T07:25:31.390Z
 content_sha256: 1af196cd1c38cdb96565eadebcf13fa25e979469b3e06f4791e18baa7f2534a6
 ---
 |/data/knowledge-work-plugins-human-resources-skills-comp-analysis-skill|
@@ -2180,7 +2180,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:06.994Z
+retrieved_at: 2026-03-17T07:25:31.780Z
 content_sha256: b50f677f4c8fb769b9cd0be51cd250e0e21a4530d579d5f400b7d7b1b1a63ea9
 ---
 |/data/knowledge-work-plugins-human-resources-skills-draft-offer-skill|
@@ -2204,7 +2204,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:36.103Z
+retrieved_at: 2026-03-17T07:22:54.607Z
 content_sha256: c687311babdeccf086aa5f6d86dcbfc3a9d1b8bb7124f072450ffa4315d98c4c
 ---
 |/data/knowledge-work-plugins-human-resources-skills-interview-prep-skill|
@@ -2228,7 +2228,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:06.780Z
+retrieved_at: 2026-03-17T07:25:31.469Z
 content_sha256: c9210cdd00f8c2998a01c6d1310a8742aafa82a5861fb7c1c18686b72a56da97
 ---
 |/data/knowledge-work-plugins-human-resources-skills-onboarding-skill|
@@ -2252,7 +2252,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:36.578Z
+retrieved_at: 2026-03-17T07:22:54.904Z
 content_sha256: b3c6e33d251487225485c7fe455586f0cd490b282d7e41054273fa60820891ea
 ---
 |/data/knowledge-work-plugins-human-resources-skills-org-planning-skill|
@@ -2276,7 +2276,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:07.131Z
+retrieved_at: 2026-03-17T07:25:31.864Z
 content_sha256: e68d00be15a681da288e6023df095a952add099db2c14873c47a69e3ab3634b8
 ---
 |/data/knowledge-work-plugins-human-resources-skills-people-report-skill|
@@ -2301,7 +2301,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:06.894Z
+retrieved_at: 2026-03-17T07:25:31.665Z
 content_sha256: a34e3f49e7c8619f07fd218cb2b6a6d57572dd7a0a78c72977dcd1739578e588
 ---
 |/data/knowledge-work-plugins-human-resources-skills-performance-review-skill|
@@ -2325,7 +2325,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:07.260Z
+retrieved_at: 2026-03-17T07:25:31.945Z
 content_sha256: 5fc79b5e81922431b5665d33552dcce7de499e2680b4a81720cb4e2a68015edf
 ---
 |/data/knowledge-work-plugins-human-resources-skills-policy-lookup-skill|
@@ -2348,7 +2348,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/hum
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:36.693Z
+retrieved_at: 2026-03-17T07:22:54.988Z
 content_sha256: a00b442f701faa6eb65b8ecc8fcf375d5a33ec827b987ba8b04edaef0e90b92f
 ---
 |/data/knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill|
@@ -2375,7 +2375,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:12.023Z
+retrieved_at: 2026-03-17T07:25:35.249Z
 content_sha256: 7f1d6d63a74e14e76729d161bf76f2f624b1441d7e4655708e493083a0b93bd2
 ---
 |/data/knowledge-work-plugins-legal-skills-brief-skill|
@@ -2402,7 +2402,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:11.895Z
+retrieved_at: 2026-03-17T07:25:35.154Z
 content_sha256: 8dff8ebe7eda9ad5e38f3faf1016a7fc1eeba65bcdb7f5ae45ea507824bbc1c2
 ---
 |/data/knowledge-work-plugins-legal-skills-compliance-check-skill|
@@ -2428,7 +2428,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:11.410Z
+retrieved_at: 2026-03-17T07:25:34.866Z
 content_sha256: b3a0585ee00a53ccb159fbf5b7dd4d4b45c39e5e65cc8f4f39cbb134fef493db
 ---
 |/data/knowledge-work-plugins-legal-skills-legal-response-skill|
@@ -2453,7 +2453,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:09.194Z
+retrieved_at: 2026-03-17T07:22:34.477Z
 content_sha256: 9f7985e3a98ac8419b52067cdaa1b72f754fa38c20489e7f0bf9de36347d4d89
 ---
 |/data/knowledge-work-plugins-legal-skills-legal-risk-assessment-skill|
@@ -2478,7 +2478,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:09.078Z
+retrieved_at: 2026-03-17T07:22:34.396Z
 content_sha256: 4d19bc2ddb2138d1b306b150c5d0900ce0a398d5ab690b8eba8101ef33d98baa
 ---
 |/data/knowledge-work-plugins-legal-skills-meeting-briefing-skill|
@@ -2504,7 +2504,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:11.570Z
+retrieved_at: 2026-03-17T07:25:34.957Z
 content_sha256: 3a6413475f51adedbff130f4d5aabbeeacfb2abd323e0338bc91c21937fbfb76
 ---
 |/data/knowledge-work-plugins-legal-skills-review-contract-skill|
@@ -2530,7 +2530,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:11.288Z
+retrieved_at: 2026-03-17T07:25:34.771Z
 content_sha256: bf702fbe7d21073c3e6952ee2c72f66bf6c56fc806b3abb7e44d7863d7534682
 ---
 |/data/knowledge-work-plugins-legal-skills-signature-request-skill|
@@ -2556,7 +2556,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:11.703Z
+retrieved_at: 2026-03-17T07:25:35.048Z
 content_sha256: 767a8f6759268e003ee882af8dfb56579aca2121b9dc49a2c65c4e77de93f768
 ---
 |/data/knowledge-work-plugins-legal-skills-triage-nda-skill|
@@ -2582,7 +2582,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:11.156Z
+retrieved_at: 2026-03-17T07:25:34.655Z
 content_sha256: 38be57a5e9e959874d2cb78e8493211664bc452e6225cb5bdbb8b12e6f444d2e
 ---
 |/data/knowledge-work-plugins-legal-skills-vendor-check-skill|
@@ -2606,7 +2606,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:10.245Z
+retrieved_at: 2026-03-17T07:25:34.037Z
 content_sha256: 3b8f1379471eae19e5be26c750681ad0c6054f4c8cdbf79c94309fcf46957ea8
 ---
 |/data/knowledge-work-plugins-operations-skills-capacity-plan-skill|
@@ -2630,7 +2630,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:10.648Z
+retrieved_at: 2026-03-17T07:25:34.303Z
 content_sha256: b1ee71cc1fecb22c7d27e2e00171f5d62fb54c405095b51098dacfea0447d8d7
 ---
 |/data/knowledge-work-plugins-operations-skills-change-request-skill|
@@ -2654,7 +2654,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:35.273Z
+retrieved_at: 2026-03-17T07:22:54.103Z
 content_sha256: 644d393abdfddc8c37f7a7804f601e7bbd476e95571e6dcb4d916e478ba8ebd5
 ---
 |/data/knowledge-work-plugins-operations-skills-compliance-tracking-skill|
@@ -2678,7 +2678,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:10.496Z
+retrieved_at: 2026-03-17T07:25:34.210Z
 content_sha256: fceeeddb363e813ba831f9f2de1adb4c7e45ad179366bbb9ea9e40377abe96a9
 ---
 |/data/knowledge-work-plugins-operations-skills-process-doc-skill|
@@ -2702,7 +2702,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:35.137Z
+retrieved_at: 2026-03-17T07:22:53.921Z
 content_sha256: 14099838fdbfca24057e934fc22ed17f94629c5e9c9cec470f32e3063d0575f9
 ---
 |/data/knowledge-work-plugins-operations-skills-process-optimization-skill|
@@ -2726,7 +2726,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:34.905Z
+retrieved_at: 2026-03-17T07:22:53.771Z
 content_sha256: 82e29810a762c396a56f92bbd5c5afd252f7a07c6be69a246c28f7b82c4086d9
 ---
 |/data/knowledge-work-plugins-operations-skills-risk-assessment-skill|
@@ -2751,7 +2751,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:10.112Z
+retrieved_at: 2026-03-17T07:25:33.938Z
 content_sha256: c5c3eaa4c22fff96ec7239ce67eb3e100661b20a2818749e2f7ee21787233185
 ---
 |/data/knowledge-work-plugins-operations-skills-runbook-skill|
@@ -2776,7 +2776,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:09.963Z
+retrieved_at: 2026-03-17T07:25:33.856Z
 content_sha256: 8c3a21075294a5c5b7a1a7930613e53f0afbdbc12cf9e05d4bd08e6950c0a0d9
 ---
 |/data/knowledge-work-plugins-operations-skills-status-report-skill|
@@ -2800,7 +2800,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ope
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:10.376Z
+retrieved_at: 2026-03-17T07:25:34.122Z
 content_sha256: c2a959a7ed068e34a83984cf223754062e6819deb0ba1ca33eb747b4cc808d5e
 ---
 |/data/knowledge-work-plugins-operations-skills-vendor-review-skill|
@@ -2823,7 +2823,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.939Z
+retrieved_at: 2026-03-17T07:22:57.131Z
 content_sha256: 3966057f0a8faa2e1a49d6769f24beb227ad125141e746ce31c5e73dfae04463
 ---
 |/data/knowledge-work-plugins-partner-built-apollo-skills-enrich-lead-skill|
@@ -2846,7 +2846,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.202Z
+retrieved_at: 2026-03-17T07:22:57.393Z
 content_sha256: 6ec8535206190b38599a13f2df2786626a2f6790e4d9bd40ecd0b97b2e4a8e3c
 ---
 |/data/knowledge-work-plugins-partner-built-apollo-skills-prospect-skill|
@@ -2869,7 +2869,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.072Z
+retrieved_at: 2026-03-17T07:22:57.306Z
 content_sha256: a536c7d818bc8bd42df0d1e116270b51ffcfc12be7472f2eb48a46e2aab5a5c6
 ---
 |/data/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill|
@@ -2909,7 +2909,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.950Z
+retrieved_at: 2026-03-17T07:22:57.889Z
 content_sha256: ce35b5079520611a455590f23bc18f591c639b3da766f94f350250c32e7e145e
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-agents-content-generation|
@@ -2946,7 +2946,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.176Z
+retrieved_at: 2026-03-17T07:22:58.054Z
 content_sha256: 56f4372a35e6f82c1c8c837d7738d26d25cdc62c97c385c098209e924666af5e
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-agents-conversation-analysis|
@@ -2991,7 +2991,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.058Z
+retrieved_at: 2026-03-17T07:22:57.975Z
 content_sha256: 1fe968c860d85ec9b210eb0c213da6308675937464a8ac7f870029c092068932
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-agents-discover-brand|
@@ -3028,7 +3028,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.834Z
+retrieved_at: 2026-03-17T07:22:57.813Z
 content_sha256: 6bea19cfe763c7cd219efe02be995092699ffe3c2933f988a0922aea92d46ad4
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-agents-document-analysis|
@@ -3066,7 +3066,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.696Z
+retrieved_at: 2026-03-17T07:22:57.721Z
 content_sha256: 49f61dcd82f2cd7e00061b7c1fc973e83dc0f17e44b6b8156d79bbb0be798fe5
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-agents-quality-assurance|
@@ -3087,7 +3087,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.404Z
+retrieved_at: 2026-03-17T07:22:58.238Z
 content_sha256: 9749f7e23b0ba77f8cf8c9881b3ae9a85b0bc82210c3b54753ebf86ae7cace39
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-commands-discover-brand|
@@ -3108,7 +3108,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.283Z
+retrieved_at: 2026-03-17T07:22:58.152Z
 content_sha256: ab67acc3ab40ae221044595c35714aaaa52302045f57a26cc07d4b7f10310435
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice|
@@ -3130,7 +3130,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.529Z
+retrieved_at: 2026-03-17T07:22:58.317Z
 content_sha256: 86bd7b41be99ca52a092a480597d4d9b5a792d52ce9f618e7aaaf43d68b27ffa
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-commands-generate-guidelines|
@@ -3160,7 +3160,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.352Z
+retrieved_at: 2026-03-17T07:22:57.471Z
 content_sha256: 3da527576a05b77669c0e3826ca909176df22358e262a69a5e4d470e770ab97a
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-skills-brand-voice-enforcement-skill|
@@ -3187,7 +3187,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.586Z
+retrieved_at: 2026-03-17T07:22:57.645Z
 content_sha256: 4d5d4490a1600c5277dd62cc629c14e3eddb301df63060ab1223d2a840949cb2
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand-skill|
@@ -3215,7 +3215,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:40.474Z
+retrieved_at: 2026-03-17T07:22:57.569Z
 content_sha256: 9f5fd0e3d9ce41b02017cbbfe2663d8c788e015cd69ba71e87cbc44a8cad9be2
 ---
 |/data/knowledge-work-plugins-partner-built-brand-voice-skills-guideline-generation-skill|
@@ -3236,7 +3236,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.699Z
+retrieved_at: 2026-03-17T07:22:56.951Z
 content_sha256: 3a8dbc4a8ae7e1a61e37552a21840d1162dfa59ccd6a4f7289355217b71ab6f9
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-commands-generate-account-plan|
@@ -3257,7 +3257,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.816Z
+retrieved_at: 2026-03-17T07:22:57.048Z
 content_sha256: 03c64c6be28b971e9aedc870aad6b731a63bc59fe6cc332d9b2108e3ba8403d3
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-commands-weekly-brief|
@@ -3280,7 +3280,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.203Z
+retrieved_at: 2026-03-17T07:22:56.607Z
 content_sha256: 66288f1275c427efeea6de62ca0679874195e1c01d2ff5c3b32269f53614571a
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-skills-account-research-skill|
@@ -3304,7 +3304,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:38.949Z
+retrieved_at: 2026-03-17T07:22:56.304Z
 content_sha256: 652c42776860edfa9b81c77aac0b545bb7748a708e01c001f356acc11d7e9f58
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-skills-call-prep-skill|
@@ -3327,7 +3327,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.317Z
+retrieved_at: 2026-03-17T07:22:56.686Z
 content_sha256: 6bba827598fce66ed3ce3672b62bb4d21e4ec7dd3dc54d7264bec8b515df0a43
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-skills-compose-outreach-skill|
@@ -3350,7 +3350,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.456Z
+retrieved_at: 2026-03-17T07:22:56.766Z
 content_sha256: 3c01f64652446bc82486c984287022a6410e9a1b282734332cb6a215aac0c684
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-skills-contact-research-skill|
@@ -3374,7 +3374,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.062Z
+retrieved_at: 2026-03-17T07:22:56.395Z
 content_sha256: 52f94d6084af91a0872a93b4d60ffda3c7578cc6d1d3246819954835d88637b5
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill|
@@ -3397,7 +3397,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:39.581Z
+retrieved_at: 2026-03-17T07:22:56.855Z
 content_sha256: 3c6a45f653a6c0a7b1b52e2f11f937236164d0c3f4df0f9f86d354dc6d16de16
 ---
 |/data/knowledge-work-plugins-partner-built-common-room-skills-weekly-prep-brief-skill|
@@ -3418,7 +3418,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:42.363Z
+retrieved_at: 2026-03-17T07:22:58.849Z
 content_sha256: 4445bdab04221e5d91cd5f1d986f78d314cf3391aa3b2d149989722aafc62291
 ---
 |/data/knowledge-work-plugins-partner-built-slack-commands-channel-digest|
@@ -3439,7 +3439,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:42.477Z
+retrieved_at: 2026-03-17T07:22:58.936Z
 content_sha256: bdffe9b4a5c73dc588fd730a46d8ecf152c6c617201b2fdf21a7a0e37820f333
 ---
 |/data/knowledge-work-plugins-partner-built-slack-commands-draft-announcement|
@@ -3460,7 +3460,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:42.254Z
+retrieved_at: 2026-03-17T07:22:58.758Z
 content_sha256: 42e140bb804852040eb9b2d2c4917c72e102cc84c4e87042e728ea950315f6ab
 ---
 |/data/knowledge-work-plugins-partner-built-slack-commands-find-discussions|
@@ -3481,7 +3481,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:42.099Z
+retrieved_at: 2026-03-17T07:22:58.675Z
 content_sha256: 2d6db206f93631b85ec88f32df8367a80f61e3107829b1cebc706d2e9c22264b
 ---
 |/data/knowledge-work-plugins-partner-built-slack-commands-standup|
@@ -3502,7 +3502,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.988Z
+retrieved_at: 2026-03-17T07:22:58.589Z
 content_sha256: 1719cc1abd991bac0b72947d93486219ada38895fd0e858f3c8d0e834d46d816
 ---
 |/data/knowledge-work-plugins-partner-built-slack-commands-summarize-channel|
@@ -3524,7 +3524,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.823Z
+retrieved_at: 2026-03-17T07:22:58.510Z
 content_sha256: 118ede41cbc4fa5c6be4593619b0d9f58a40d85cadfa295277c74c4b7acf1508
 ---
 |/data/knowledge-work-plugins-partner-built-slack-skills-slack-messaging-skill|
@@ -3546,7 +3546,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:41.665Z
+retrieved_at: 2026-03-17T07:22:58.419Z
 content_sha256: 934d1c12a69d013890810a25da9f6c6a89c6b2dbd16f18a8862419e9f41e6879
 ---
 |/data/knowledge-work-plugins-partner-built-slack-skills-slack-search-skill|
@@ -3577,7 +3577,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.767Z
+retrieved_at: 2026-03-17T07:22:27.957Z
 content_sha256: c0823dd21f0b36efdb11a94f7bf3ac5d48c567c61bc2ce39603aa7154c76de57
 ---
 |/data/mintlify-skill|
@@ -3604,7 +3604,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.362Z
+retrieved_at: 2026-03-17T07:22:27.301Z
 content_sha256: 9f91d501b432b0961ffd1ba932f23a2b48ed33f3b9cb3754aeeab91b4f70b712
 ---
 |/data/moltbook-skill|
@@ -3650,8 +3650,8 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:56.967Z
-content_sha256: 108ec2f11ec511b4438d9d4f7b3db88cbf9646d9706bd1008cb342d8d46e6241
+retrieved_at: 2026-03-17T07:22:24.789Z
+content_sha256: 58353e42ac33396a4b3cc62e69df35f3d3f1d18e60877bf39d492c77dc6a928d
 ---
 |/data/obra-brainstorming|
 
@@ -3696,7 +3696,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/dispatching-p
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.108Z
+retrieved_at: 2026-03-17T07:22:24.881Z
 content_sha256: 76806091c7f923ba2596546b19cccd98a08e57a68745df77c3a7b998fe838e2b
 ---
 |/data/obra-dispatching-parallel-agents|
@@ -3740,7 +3740,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-pla
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.221Z
+retrieved_at: 2026-03-17T07:22:24.951Z
 content_sha256: a711f83fb762e2ea0fa151f598893da9911a408895c91cc7a7e0770dd59a27b3
 ---
 |/data/obra-executing-plans|
@@ -3783,7 +3783,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/finishing-a-d
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.342Z
+retrieved_at: 2026-03-17T07:22:25.013Z
 content_sha256: dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e
 ---
 |/data/obra-finishing-a-development-branch|
@@ -3825,7 +3825,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/receiving-cod
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.444Z
+retrieved_at: 2026-03-17T07:22:25.084Z
 content_sha256: c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406
 ---
 |/data/obra-receiving-code-review|
@@ -3867,7 +3867,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-co
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.574Z
+retrieved_at: 2026-03-17T07:22:25.162Z
 content_sha256: a5ff68586ccf62d1803cedeb71d60fd96ec05591d29c8d123196117eefd34cd0
 ---
 |/data/obra-requesting-code-review|
@@ -3912,7 +3912,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driv
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.700Z
+retrieved_at: 2026-03-17T07:22:25.236Z
 content_sha256: 081ad3869e55c80bf8f890b4768a90c0e8057daf94b1b6fadebfc85ea5b8304a
 ---
 |/data/obra-subagent-driven-development|
@@ -3953,7 +3953,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/systematic-de
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.801Z
+retrieved_at: 2026-03-17T07:22:25.290Z
 content_sha256: 4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473
 ---
 |/data/obra-systematic-debugging|
@@ -3993,7 +3993,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/test-driven-d
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:57.942Z
+retrieved_at: 2026-03-17T07:22:25.361Z
 content_sha256: 7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994
 ---
 |/data/obra-test-driven-development|
@@ -4036,7 +4036,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-git-wor
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:58.046Z
+retrieved_at: 2026-03-17T07:22:25.443Z
 content_sha256: de9dcde34840eee074047ec327d4ea6ca4954c5a73a6d874dc48f25fe46c9e7c
 ---
 |/data/obra-using-git-worktrees|
@@ -4078,7 +4078,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpo
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:58.162Z
+retrieved_at: 2026-03-17T07:22:25.496Z
 content_sha256: 5fa548a85ce639dc6a2ea53607f9d405363c9b935004d0d95dc16e9629752d00
 ---
 |/data/obra-using-superpowers|
@@ -4119,7 +4119,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/verification-
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:58.253Z
+retrieved_at: 2026-03-17T07:22:25.557Z
 content_sha256: ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c
 ---
 |/data/obra-verification-before-completion|
@@ -4165,8 +4165,8 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:58.372Z
-content_sha256: 4a079ecfc750c5afa98e6d1b82bc9ac0b6521bde56ed476fcf6b7e168e31946f
+retrieved_at: 2026-03-17T07:22:25.640Z
+content_sha256: 2c86f3d6798e2e803d195872b9ba7972e98b6697f9b25c9202db7cebb770721f
 ---
 |/data/obra-writing-plans|
 
@@ -4209,7 +4209,7 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skill
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-16T17:26:58.491Z
+retrieved_at: 2026-03-17T07:22:25.767Z
 content_sha256: d83a09d6a1c6976f6cc2f40addeae653a4a6eb5903097ebc365d90242e00e379
 ---
 |/data/obra-writing-skills|
@@ -4255,7 +4255,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/aspnet-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:51.801Z
+retrieved_at: 2026-03-17T07:22:21.746Z
 content_sha256: 1f487ef3565e5ac1ee6c93cbeb9ac666292b30285877c82ddb0a77c9777fe92f
 ---
 |/data/openai-curated-aspnet-core|
@@ -4301,7 +4301,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/chatgpt
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:51.933Z
+retrieved_at: 2026-03-17T07:22:21.841Z
 content_sha256: c3a13a659ce26e9d067b5a97c321e8abec6d8e878afce31b7e841dfcf2635c3a
 ---
 |/data/openai-curated-chatgpt-apps|
@@ -4343,7 +4343,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/cloudfl
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.069Z
+retrieved_at: 2026-03-17T07:22:21.923Z
 content_sha256: d7632537cf19be17cf33d2c696b9d9c2ea3ee51026030e9b203d5b9255e75b15
 ---
 |/data/openai-curated-cloudflare-deploy|
@@ -4372,7 +4372,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/develop
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.183Z
+retrieved_at: 2026-03-17T07:22:21.992Z
 content_sha256: 4586330e97c99581f37798c179a71c62030fc20befa6de3e3ccb96d1adead9c7
 ---
 |/data/openai-curated-develop-web-game|
@@ -4413,7 +4413,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/doc/SKI
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.352Z
+retrieved_at: 2026-03-17T07:22:22.067Z
 content_sha256: 0a635585817d1ac96e8e512114d08258b70f9e54ce0052078a258291ac13a8ed
 ---
 |/data/openai-curated-doc|
@@ -4458,7 +4458,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma/S
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.623Z
+retrieved_at: 2026-03-17T07:22:22.292Z
 content_sha256: 5b11f7c8d0ce4c047b401323e7b8fe6559bd3162a3397bf5248634a5444609d5
 ---
 |/data/openai-curated-figma|
@@ -4504,7 +4504,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma-i
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.491Z
+retrieved_at: 2026-03-17T07:22:22.141Z
 content_sha256: adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad
 ---
 |/data/openai-curated-figma-implement-design|
@@ -4546,7 +4546,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-addr
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.757Z
+retrieved_at: 2026-03-17T07:22:22.362Z
 content_sha256: 77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd
 ---
 |/data/openai-curated-gh-address-comments|
@@ -4594,7 +4594,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.869Z
+retrieved_at: 2026-03-17T07:22:22.430Z
 content_sha256: 7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26
 ---
 |/data/openai-curated-gh-fix-ci|
@@ -4641,7 +4641,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/imagege
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:52.991Z
+retrieved_at: 2026-03-17T07:22:22.515Z
 content_sha256: 4da06e7a1fbfaa94154dda2699e449a1f6d79e6e4299fcfeb785aad7c87f59dc
 ---
 |/data/openai-curated-imagegen|
@@ -4683,7 +4683,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/jupyter
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:53.123Z
+retrieved_at: 2026-03-17T07:22:22.571Z
 content_sha256: 62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb
 ---
 |/data/openai-curated-jupyter-notebook|
@@ -4723,7 +4723,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/linear/
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:53.383Z
+retrieved_at: 2026-03-17T07:22:22.651Z
 content_sha256: ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601
 ---
 |/data/openai-curated-linear|
@@ -4764,7 +4764,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/netlify
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:53.523Z
+retrieved_at: 2026-03-17T07:22:22.730Z
 content_sha256: bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f
 ---
 |/data/openai-curated-netlify-deploy|
@@ -4804,7 +4804,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:53.653Z
+retrieved_at: 2026-03-17T07:22:22.796Z
 content_sha256: b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00
 ---
 |/data/openai-curated-notion-knowledge-capture|
@@ -4843,7 +4843,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:53.791Z
+retrieved_at: 2026-03-17T07:22:22.866Z
 content_sha256: bad61faccbbe0f2cab53bcfbc4cb22f847ba8593ef14c2e37fea5b9b03346332
 ---
 |/data/openai-curated-notion-meeting-intelligence|
@@ -4883,7 +4883,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:53.896Z
+retrieved_at: 2026-03-17T07:22:22.922Z
 content_sha256: e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7
 ---
 |/data/openai-curated-notion-research-documentation|
@@ -4923,7 +4923,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.034Z
+retrieved_at: 2026-03-17T07:22:22.991Z
 content_sha256: 6e22c4c6df441e849fa6b4b825371b579c9bb4896f97bedca5f8536020427a81
 ---
 |/data/openai-curated-notion-spec-to-implementation|
@@ -4975,7 +4975,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/openai-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.141Z
+retrieved_at: 2026-03-17T07:22:23.160Z
 content_sha256: 8d8ed6246315074b8fe51e1251dd3e2ef42e54d8e9dff892c70acf88ab0e4235
 ---
 |/data/openai-curated-openai-docs|
@@ -5016,7 +5016,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/pdf/SKI
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.232Z
+retrieved_at: 2026-03-17T07:22:23.207Z
 content_sha256: d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2
 ---
 |/data/openai-curated-pdf|
@@ -5060,7 +5060,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/playwri
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.529Z
+retrieved_at: 2026-03-17T07:22:23.357Z
 content_sha256: 0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8
 ---
 |/data/openai-curated-playwright|
@@ -5102,7 +5102,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/playwri
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.384Z
+retrieved_at: 2026-03-17T07:22:23.279Z
 content_sha256: f6c1155d923e6ae3ccc12abfef2266f119f8e9546df2ddeee1f5eb369845a0a1
 ---
 |/data/openai-curated-playwright-interactive|
@@ -5146,7 +5146,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/render-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.684Z
+retrieved_at: 2026-03-17T07:22:23.433Z
 content_sha256: c17c75adeb1834ed5cee1e440a651ae476c4101cd63762fcd9a58eada917552d
 ---
 |/data/openai-curated-render-deploy|
@@ -5189,7 +5189,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/screens
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.791Z
+retrieved_at: 2026-03-17T07:22:23.533Z
 content_sha256: 081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5
 ---
 |/data/openai-curated-screenshot|
@@ -5240,7 +5240,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/securit
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:54.905Z
+retrieved_at: 2026-03-17T07:22:23.585Z
 content_sha256: 7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f
 ---
 |/data/openai-curated-security-best-practices|
@@ -5288,7 +5288,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/securit
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.040Z
+retrieved_at: 2026-03-17T07:22:23.759Z
 content_sha256: f06c1a59247569326702c945f397af163ea96cf2ecfdf2dde280605bf89a3ec8
 ---
 |/data/openai-curated-security-ownership-map|
@@ -5336,7 +5336,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/securit
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.274Z
+retrieved_at: 2026-03-17T07:22:23.834Z
 content_sha256: 1283c0dd62a8104d9edda4583569b5d8510b4ddaa45120687c999250fd96bad2
 ---
 |/data/openai-curated-security-threat-model|
@@ -5380,7 +5380,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sentry/
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.377Z
+retrieved_at: 2026-03-17T07:22:23.908Z
 content_sha256: b598ea447ad6bec923f5c3879ace25e4a7f1368a7eac019b5c0e2f79a36322c6
 ---
 |/data/openai-curated-sentry|
@@ -5427,7 +5427,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/slides/
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.525Z
+retrieved_at: 2026-03-17T07:22:23.979Z
 content_sha256: 57ee0941f872546029bc45b5b0bd58d4a02d88b84d4e8e4275c466da5451efa6
 ---
 |/data/openai-curated-slides|
@@ -5474,7 +5474,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sora/SK
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.635Z
+retrieved_at: 2026-03-17T07:22:24.055Z
 content_sha256: 13ac4711e544afc1d76cc2f7ae34ff19089be5797654afba7932d6c2424acccf
 ---
 |/data/openai-curated-sora|
@@ -5519,7 +5519,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/speech/
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.726Z
+retrieved_at: 2026-03-17T07:22:24.107Z
 content_sha256: d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52
 ---
 |/data/openai-curated-speech|
@@ -5561,7 +5561,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/spreads
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:55.957Z
+retrieved_at: 2026-03-17T07:22:24.162Z
 content_sha256: 36baea99e96c77c13d15d24f9d53cd072ccbc120e810bf4e68049edb5b0f1d65
 ---
 |/data/openai-curated-spreadsheet|
@@ -5607,7 +5607,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/transcr
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.093Z
+retrieved_at: 2026-03-17T07:22:24.255Z
 content_sha256: f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09
 ---
 |/data/openai-curated-transcribe|
@@ -5650,7 +5650,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.224Z
+retrieved_at: 2026-03-17T07:22:24.336Z
 content_sha256: f4a6cbfbb378a320fae179a79f727a881d19677e9b3db96ed49d2dc02a74fa46
 ---
 |/data/openai-curated-vercel-deploy|
@@ -5699,7 +5699,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/winui-a
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.369Z
+retrieved_at: 2026-03-17T07:22:24.412Z
 content_sha256: 917341ec9eb688d73e21362910a7178a92b2ae49544b7d8f17ee9e19adfe2ea8
 ---
 |/data/openai-curated-winui-app|
@@ -5741,7 +5741,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SK
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.493Z
+retrieved_at: 2026-03-17T07:22:24.493Z
 content_sha256: 2b4583b296a3a043b9002cd74e3ca5407fce832598dcd428272da08a9839f64b
 ---
 |/data/openai-curated-yeet|
@@ -5793,7 +5793,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/openai-d
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.625Z
+retrieved_at: 2026-03-17T07:22:24.570Z
 content_sha256: 8d8ed6246315074b8fe51e1251dd3e2ef42e54d8e9dff892c70acf88ab0e4235
 ---
 |/data/openai-system-openai-docs|
@@ -5833,7 +5833,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-cr
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.736Z
+retrieved_at: 2026-03-17T07:22:24.658Z
 content_sha256: a17383bfb1448637ac1f757ad891ddb9676fa30b0eff620200f0e1cbc0cc0d50
 ---
 |/data/openai-system-skill-creator|
@@ -5877,7 +5877,7 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-in
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-16T17:26:56.845Z
+retrieved_at: 2026-03-17T07:22:24.736Z
 content_sha256: df58efeb75a6001d733701e7d73e24dd71b94a2a0016971f0bcfe097217888a5
 ---
 |/data/openai-system-skill-installer|
@@ -5907,7 +5907,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:01.034Z
+retrieved_at: 2026-03-17T07:22:28.833Z
 content_sha256: a9b948436dc3392ad3693ec91cf4ee6e390a9c38495661e3f9b6b069979f307e
 ---
 |/data/openclaw-byungkyu-gmail|
@@ -5921,26 +5921,31 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when building, configuring, or troubleshooting a self-hosted
-  AI agent gateway that connects messaging apps (WhatsApp, Telegram, Discord,
-  iMessage, etc.) to coding agents. Reach for this skill when agents need to set
-  up channels, manage sessions, configure models, create custom skills, or debug
-  agent behavior.
+  description: Use when setting up, configuring, or operating OpenClaw — a
+  self-hosted multi-channel AI agent gateway. Reach for this skill when building
+  agent workspaces, managing channels (WhatsApp, Telegram, Discord, etc.),
+  configuring models and tools, setting up multi-agent routing, creating skills,
+  or troubleshooting gateway operations.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill
+  # OpenClaw Skill Reference
 
   ## Product summary
 
   OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp,
-  Telegram, Discord, iMessage, Slack, Signal, and more) to an embedded AI coding
-  agent. It runs as a single daemon process on your machine or server, manages
-  multi-channel routing, handles sessions and memory, and provides a web Control
-  UI for chat and configuration.
+  Telegram, Discord, iMessage, Signal, and more) to AI agents. A single Gateway
+  process runs on your machine or server and routes inbound messages to agents,
+  manages sessions, handles tool execution, and streams responses back to
+  channels. Key files: `~/.openclaw/openclaw.json` (config),
+  `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md),
+  `~/.openclaw/agents/<agentId>/sessions/` (session transcripts). Primary CLI:
+  `openclaw` with subcommands for setup, configuration, channels, agents,
+  models, and gateway control. See https://docs.openclaw.ai for comprehensive
+  documentation.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -5948,8 +5953,8 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.920Z
-content_sha256: 7cba6a8232809598490dec68b77c248b25164cd8dbeb812b20958d5971b77d5e
+retrieved_at: 2026-03-17T07:22:28.726Z
+content_sha256: e2682b727c0e6b9a5bdd0063875038f47bf999fe75cfe5e71395aaf8133ed0d1
 ---
 |/data/openclaw-docs-skill|
 
@@ -5986,7 +5991,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:01.219Z
+retrieved_at: 2026-03-17T07:22:28.957Z
 content_sha256: 933c730820f32edcf0de613171eb93f310b62c8c82c1ff945cc456814d95be5c
 ---
 |/data/openclaw-mrgoodb-google-drive|
@@ -6024,7 +6029,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:01.722Z
+retrieved_at: 2026-03-17T07:22:29.270Z
 content_sha256: 236513c370ecd112822cb27a6e3bea0458a6ed74ace3ca2773530984b1f43511
 ---
 |/data/openclaw-mrgoodb-intercom|
@@ -6051,7 +6056,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:01.894Z
+retrieved_at: 2026-03-17T07:22:29.374Z
 content_sha256: 18ec875bfa85f598bb9aed704dc4c04092b00b47106462d48a51aced3209d4be
 ---
 |/data/openclaw-mrgoodb-shopify|
@@ -6078,7 +6083,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:02.188Z
+retrieved_at: 2026-03-17T07:22:29.673Z
 content_sha256: cecc1491df001a352b4afbc8e2378f6090dd3e774bfe940984c93a25f560bdcf
 ---
 |/data/openclaw-mrgoodb-twilio|
@@ -6105,7 +6110,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:01.555Z
+retrieved_at: 2026-03-17T07:22:29.157Z
 content_sha256: 54f9410a05f97b39ebf001a8589174fe3ca028c37fdfcd5856003eca920c5a1e
 ---
 |/data/openclaw-mrgoodb-zendesk|
@@ -6125,7 +6130,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:50.764Z
+retrieved_at: 2026-03-17T07:26:05.044Z
 content_sha256: d34c635314cc3160a94d06ad0bf6450bdfa560c20e17fe9cb04125fb6e78bf52
 ---
 |/data/openclaw-openclaw-a0x-agents|
@@ -6145,7 +6150,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:32:13.472Z
+retrieved_at: 2026-03-17T07:26:22.760Z
 content_sha256: 8a9bba0e541aeda6c812151a1a057e7bcd5267e78791c0fb73f30d2a3d6feb8f
 ---
 |/data/openclaw-openclaw-agent-im|
@@ -6165,7 +6170,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:16.183Z
+retrieved_at: 2026-03-17T07:27:08.813Z
 content_sha256: 922383e53bc0ba2f0b50d8fe6ac9ba17c5096ba244c31c08375f8497ee5f3de9
 ---
 |/data/openclaw-openclaw-civic-nexus|
@@ -6185,7 +6190,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:17.850Z
+retrieved_at: 2026-03-17T07:27:10.014Z
 content_sha256: 90662b922d641b2ff4b96086fb0a44bbe2d96af2ebe2db6af239e7d43a0e346d
 ---
 |/data/openclaw-openclaw-claw-skill-guard|
@@ -6205,7 +6210,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:18.162Z
+retrieved_at: 2026-03-17T07:27:10.251Z
 content_sha256: 41791da180c2b3cd9b3bed0cd8247c897dd71e45ca977eb07600ef7312d713e5
 ---
 |/data/openclaw-openclaw-claw-to-claw|
@@ -6225,7 +6230,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:22.208Z
+retrieved_at: 2026-03-17T07:27:13.051Z
 content_sha256: 666ece696422f4697f96df3a25f2d2ed1d5af93657d31c27102c6375d9f3d8fc
 ---
 |/data/openclaw-openclaw-clawtoclaw|
@@ -6245,7 +6250,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:31.814Z
+retrieved_at: 2026-03-17T07:27:19.528Z
 content_sha256: 4ee2e18eb9e89f75ef7e83c6e309b005736fe41567f5e757731e63fb449ac6f4
 ---
 |/data/openclaw-openclaw-dating|
@@ -6265,7 +6270,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:45.377Z
+retrieved_at: 2026-03-17T07:27:30.320Z
 content_sha256: e3d5e64547e6083cf5b5acfc71eab9629678fbcc58fd781326c6cce6b8ba2ecb
 ---
 |/data/openclaw-openclaw-glitchward-shield|
@@ -6285,7 +6290,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:47.554Z
+retrieved_at: 2026-03-17T07:27:31.589Z
 content_sha256: 6f45c7d92bc6aedeecd17006fb95638a49b39fa00a8c2c67c5a99626b51ad0e2
 ---
 |/data/openclaw-openclaw-heimdall|
@@ -6305,7 +6310,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:52.083Z
+retrieved_at: 2026-03-17T07:27:34.979Z
 content_sha256: 58ae7caa2a019f3f1b4099e4f9a3f1d1c6fb8ccb869f348c7a6d8fb597e42a36
 ---
 |/data/openclaw-openclaw-local-approvals|
@@ -6325,7 +6330,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:33:57.737Z
+retrieved_at: 2026-03-17T07:27:39.523Z
 content_sha256: 5b23a1541cb220536b9a2267e014ddeb7d077e1746eb4f3c74577bb7fdceadfe
 ---
 |/data/openclaw-openclaw-og-openclawguard|
@@ -6345,7 +6350,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:34:03.418Z
+retrieved_at: 2026-03-17T07:27:43.854Z
 content_sha256: 1138e68c03bb148203f2a23e8b94f4983d77147f9d56f6258878489511615108
 ---
 |/data/openclaw-openclaw-towns-protocol|
@@ -6365,7 +6370,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-16T17:34:03.580Z
+retrieved_at: 2026-03-17T07:27:44.062Z
 content_sha256: df61890ba4455303d78ce3c7876d46381caac1a5fb12cffe6441f2392a2e0b57
 ---
 |/data/openclaw-openclaw-udau|
@@ -6395,7 +6400,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:01.415Z
+retrieved_at: 2026-03-17T07:22:29.058Z
 content_sha256: 8258b1c816d9d0a9cd5eb8ad14adacb1459619a328b589cc90a98f7f47b96a4b
 ---
 |/data/openclaw-shaharsha-google-maps|
@@ -6435,7 +6440,7 @@ upstream_ref: https://skills.sh/199-biotechnologies/claude-deep-research-skill/d
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:45.802Z
+retrieved_at: 2026-03-17T07:26:01.380Z
 content_sha256: 68c436d9010499cecb174935bfa14acd021f49482f5c59939616695421f03802
 ---
 |/data/skills-sh-199-biotechnologies-claude-deep-research-skill-deep-research|
@@ -6475,7 +6480,7 @@ upstream_ref: https://skills.sh/404kidwiz/claude-supercode-skills/frontend-ui-ux
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:25.751Z
+retrieved_at: 2026-03-17T07:22:47.023Z
 content_sha256: 6162b10c3761ab986a5bd67906506177272da7bf08da6c7e352fa03002169a5a
 ---
 |/data/skills-sh-404kidwiz-claude-supercode-skills-frontend-ui-ux-engineer|
@@ -6518,7 +6523,7 @@ upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-anal
 github_stars: 397
 github_forks: 52
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:37.935Z
+retrieved_at: 2026-03-17T07:25:55.952Z
 content_sha256: e8c53b1e0715199cac2fadf6ec4df61b375df22a2b752b180ceea81c188ca888
 ---
 |/data/skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer|
@@ -6547,7 +6552,7 @@ upstream_ref: https://skills.sh/acedergren/oci-agent-skills/monitoring-operation
 github_stars: 3
 github_forks: 1
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:14.712Z
+retrieved_at: 2026-03-17T07:25:37.143Z
 content_sha256: 873c0481f2754c71feb79e14a1c1a08d753fa1dd4fad94e5aefa9a42770693c0
 ---
 |/data/skills-sh-acedergren-oci-agent-skills-monitoring-operations|
@@ -6586,7 +6591,7 @@ upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
 github_stars: 1186
 github_forks: 88
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:29.895Z
+retrieved_at: 2026-03-17T07:22:50.252Z
 content_sha256: cef0ec9c3af2e3d918965863033b049ce51b1f2d004febff0d1c2261515759b8
 ---
 |/data/skills-sh-actionbook-actionbook-actionbook|
@@ -6625,7 +6630,7 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/accessibility
 github_stars: 573
 github_forks: 61
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:30.432Z
+retrieved_at: 2026-03-17T07:22:50.590Z
 content_sha256: aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01
 ---
 |/data/skills-sh-addyosmani-web-quality-skills-accessibility|
@@ -6664,7 +6669,7 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/core-web-vitals
 github_stars: 1416
 github_forks: 126
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:42.652Z
+retrieved_at: 2026-03-17T07:25:59.316Z
 content_sha256: 4a480aded5001c237d9503ec3c6c6c6d5cc38bb7935912bb1c2bb9c3ee637350
 ---
 |/data/skills-sh-addyosmani-web-quality-skills-core-web-vitals|
@@ -6703,7 +6708,7 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/performance
 github_stars: 1416
 github_forks: 126
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:39.976Z
+retrieved_at: 2026-03-17T07:25:57.319Z
 content_sha256: b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c
 ---
 |/data/skills-sh-addyosmani-web-quality-skills-performance|
@@ -6732,7 +6737,7 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manim-composer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.630Z
+retrieved_at: 2026-03-17T07:25:39.674Z
 content_sha256: fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656
 ---
 |/data/skills-sh-adithya-s-k-manim-skill-manim-composer|
@@ -6770,7 +6775,7 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimce-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:16.268Z
+retrieved_at: 2026-03-17T07:25:38.366Z
 content_sha256: 7dc32c7c8bfd50d9266351f90cbfc59b2b71f610a37ea6a836af9946dc64b3ba
 ---
 |/data/skills-sh-adithya-s-k-manim-skill-manimce-best-practices|
@@ -6799,7 +6804,7 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimgl-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:27.821Z
+retrieved_at: 2026-03-17T07:22:48.644Z
 content_sha256: af4f98dc732fb9be522b2d53e7727c439258fb217cbaaa3c1360537f5cebc7ed
 ---
 |/data/skills-sh-adithya-s-k-manim-skill-manimgl-best-practices|
@@ -6828,7 +6833,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-component
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:39.352Z
+retrieved_at: 2026-03-17T07:25:56.890Z
 content_sha256: b283e168020ee75c443e9d53f50bfb1889f9cb932732337d67a1242af96ce112
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-component|
@@ -6857,7 +6862,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-di
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:43.997Z
+retrieved_at: 2026-03-17T07:26:00.053Z
 content_sha256: 82a96864d1bc95d2cadac94ad888b147edb5d66d24c76510fbd215983fdcf903
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-di|
@@ -6886,7 +6891,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-directives
 github_stars: 352
 github_forks: 40
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:27.585Z
+retrieved_at: 2026-03-17T07:22:48.338Z
 content_sha256: 399465cefcfea352c0a1ad709df7959298b3c2ec160cd6453cf850aaccce9f3a
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-directives|
@@ -6925,7 +6930,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:42.958Z
+retrieved_at: 2026-03-17T07:25:59.479Z
 content_sha256: 8cbd30faf4fe8457e638b85f612720325b68c875860f292155ddd9a93359de93
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-forms|
@@ -6954,7 +6959,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-http
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:43.729Z
+retrieved_at: 2026-03-17T07:25:59.886Z
 content_sha256: fbf54fc7b87b23e24794781e98640748306a67d28e0cc4e62a6816af2cb780ec
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-http|
@@ -6983,7 +6988,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-routing
 github_stars: 352
 github_forks: 40
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:27.446Z
+retrieved_at: 2026-03-17T07:22:48.264Z
 content_sha256: 8005369d8fe2f045580ae46dc6b067d9fb54fb3cdd3148a583269e0557c9e91c
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-routing|
@@ -7012,7 +7017,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-signals
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:42.010Z
+retrieved_at: 2026-03-17T07:25:58.886Z
 content_sha256: c1ec67a9697f3c8f405a3fef91d774e79bd064f974d6fdad9c283f326349954a
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-signals|
@@ -7041,7 +7046,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-ssr
 github_stars: 404
 github_forks: 44
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:14.980Z
+retrieved_at: 2026-03-17T07:25:37.322Z
 content_sha256: 23aedff793dbe7c92dfd4f8bec9e48657d5f0399dae3232fc9b5a3b88a8284c5
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-ssr|
@@ -7070,7 +7075,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-testing
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:44.794Z
+retrieved_at: 2026-03-17T07:26:00.585Z
 content_sha256: edf5f9f9b473a39ff51064b41d358e81628cc469781328d3a2447b03820004e6
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-testing|
@@ -7099,7 +7104,7 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-tooling
 github_stars: 530
 github_forks: 55
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:45.024Z
+retrieved_at: 2026-03-17T07:26:00.745Z
 content_sha256: 1951fa339febba1848f178c8107f9b92392b58f0921e132b2c2509d2aecd2dfe
 ---
 |/data/skills-sh-analogjs-angular-skills-angular-tooling|
@@ -7140,7 +7145,7 @@ upstream_ref: https://skills.sh/antfu/skills/antfu
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:26.572Z
+retrieved_at: 2026-03-17T07:22:47.673Z
 content_sha256: d5a17c833786c37013a997108a7ecd78a49264098f5f3a5733c74aa1899585ed
 ---
 |/data/skills-sh-antfu-skills-antfu|
@@ -7179,7 +7184,7 @@ upstream_ref: https://skills.sh/antfu/skills/nuxt
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:38.990Z
+retrieved_at: 2026-03-17T07:25:56.623Z
 content_sha256: 8483343d5291ce55111ba074c671549c323f63c85a806a4bf9002d576ab53a2b
 ---
 |/data/skills-sh-antfu-skills-nuxt|
@@ -7218,7 +7223,7 @@ upstream_ref: https://skills.sh/antfu/skills/pinia
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:38.594Z
+retrieved_at: 2026-03-17T07:25:56.363Z
 content_sha256: 41627453eb019d1755dac787924bde52be162a3bdfc555119f88a8e59dda8f21
 ---
 |/data/skills-sh-antfu-skills-pinia|
@@ -7258,7 +7263,7 @@ upstream_ref: https://skills.sh/antfu/skills/pnpm
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:26.465Z
+retrieved_at: 2026-03-17T07:22:47.504Z
 content_sha256: 44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543
 ---
 |/data/skills-sh-antfu-skills-pnpm|
@@ -7287,7 +7292,7 @@ upstream_ref: https://skills.sh/antfu/skills/slidev
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:40.854Z
+retrieved_at: 2026-03-17T07:25:57.947Z
 content_sha256: cd4ef071b1ad40f3fb8ab5ed7c5f4743628456dd8e0bcfc25f246be64992726b
 ---
 |/data/skills-sh-antfu-skills-slidev|
@@ -7316,7 +7321,7 @@ upstream_ref: https://skills.sh/antfu/skills/tsdown
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:26.892Z
+retrieved_at: 2026-03-17T07:22:47.875Z
 content_sha256: 3d9f7e531b08b560cf44bf2d0ed6568394a3b9cde2641768918ea8179ad98091
 ---
 |/data/skills-sh-antfu-skills-tsdown|
@@ -7355,7 +7360,7 @@ upstream_ref: https://skills.sh/antfu/skills/unocss
 github_stars: 3597
 github_forks: 169
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:43.204Z
+retrieved_at: 2026-03-17T07:22:59.459Z
 content_sha256: 35e235ec861299b63b95ba9e16fcab170c231204071dd902a24fa27c81ec431e
 ---
 |/data/skills-sh-antfu-skills-unocss|
@@ -7384,7 +7389,7 @@ upstream_ref: https://skills.sh/antfu/skills/vite
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:31.007Z
+retrieved_at: 2026-03-17T07:25:50.732Z
 content_sha256: d207a85730c32eff47e343ea69644a6c7898af251098a60255efe8f1c922fb4b
 ---
 |/data/skills-sh-antfu-skills-vite|
@@ -7424,7 +7429,7 @@ upstream_ref: https://skills.sh/antfu/skills/vitepress
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:39.742Z
+retrieved_at: 2026-03-17T07:25:57.148Z
 content_sha256: 85c6a7ee227c47143fdc8e59b5b2e29bfbbf8499c893b7ce6589c2304f469e35
 ---
 |/data/skills-sh-antfu-skills-vitepress|
@@ -7463,7 +7468,7 @@ upstream_ref: https://skills.sh/antfu/skills/vitest
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:31.440Z
+retrieved_at: 2026-03-17T07:25:50.999Z
 content_sha256: 5fd3cf0983f203f14c4f4732dde0632c1d537241daa5cffea24f7e55712a6fb3
 ---
 |/data/skills-sh-antfu-skills-vitest|
@@ -7503,7 +7508,7 @@ upstream_ref: https://skills.sh/antfu/skills/vue
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:31.688Z
+retrieved_at: 2026-03-17T07:25:51.306Z
 content_sha256: ad47db85f8fbda6c055cedcc1d4175cd79d414e9be3ebf1e631d0e493eb4480a
 ---
 |/data/skills-sh-antfu-skills-vue|
@@ -7545,7 +7550,7 @@ upstream_ref: https://skills.sh/antfu/skills/vue-router-best-practices
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:39.846Z
+retrieved_at: 2026-03-17T07:25:57.225Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---
 |/data/skills-sh-antfu-skills-vue-router-best-practices|
@@ -7589,7 +7594,7 @@ upstream_ref: https://skills.sh/antfu/skills/vue-testing-best-practices
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:40.739Z
+retrieved_at: 2026-03-17T07:25:57.871Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---
 |/data/skills-sh-antfu-skills-vue-testing-best-practices|
@@ -7618,7 +7623,7 @@ upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:38.184Z
+retrieved_at: 2026-03-17T07:25:56.111Z
 content_sha256: 43a260724cb8610553d487a4cd59591efbc61a9876c07dbea04b07381ca7479f
 ---
 |/data/skills-sh-antfu-skills-vueuse-functions|
@@ -7659,7 +7664,7 @@ upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-automa
 github_stars: 8532
 github_forks: 835
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:17.525Z
+retrieved_at: 2026-03-17T07:25:39.594Z
 content_sha256: 64a12ab24618e4987ba947638fb598683635e80db92f3253e87d5b06c878174d
 ---
 |/data/skills-sh-anthropics-claude-plugins-official-claude-automation-recommender|
@@ -7688,7 +7693,7 @@ upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-md-imp
 github_stars: 8532
 github_forks: 835
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:15.153Z
+retrieved_at: 2026-03-17T07:25:37.528Z
 content_sha256: 383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1
 ---
 |/data/skills-sh-anthropics-claude-plugins-official-claude-md-improver|
@@ -7717,7 +7722,7 @@ upstream_ref: https://skills.sh/anthropics/skills/mcp-builder
 github_stars: 94307
 github_forks: 10106
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:25.768Z
+retrieved_at: 2026-03-17T07:25:46.131Z
 content_sha256: 80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007
 ---
 |/data/skills-sh-anthropics-skills-mcp-builder|
@@ -7749,7 +7754,7 @@ upstream_ref: https://skills.sh/anthropics/skills/pptx
 github_stars: 71539
 github_forks: 7296
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:25.860Z
+retrieved_at: 2026-03-17T07:22:47.115Z
 content_sha256: 6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68
 ---
 |/data/skills-sh-anthropics-skills-pptx|
@@ -7790,7 +7795,7 @@ upstream_ref: https://skills.sh/antonbabenko/terraform-skill/terraform-skill
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.794Z
+retrieved_at: 2026-03-17T07:22:46.006Z
 content_sha256: 9cf4ebfa368f4f754dab14f089860da650053011a2e8e1648f79faa79808c3b0
 ---
 |/data/skills-sh-antonbabenko-terraform-skill-terraform-skill|
@@ -7824,7 +7829,7 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:46.192Z
+retrieved_at: 2026-03-17T07:26:01.646Z
 content_sha256: 668c913ae253f4e01947677d8a3d220edbdb45ce1169bee5f7e16ea751a95c79
 ---
 |/data/skills-sh-apify-agent-skills-apify-actor-development|
@@ -7853,7 +7858,7 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actorization
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.081Z
+retrieved_at: 2026-03-17T07:22:51.950Z
 content_sha256: 60984cafaba3c7789dc210fe1fc77c37497b1e6bb0be8af2183e79cba85a0832
 ---
 |/data/skills-sh-apify-agent-skills-apify-actorization|
@@ -7894,7 +7899,7 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-client
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:16.135Z
+retrieved_at: 2026-03-17T07:25:38.278Z
 content_sha256: f339ad6a06907be5f66cf034cda9bd78de4e4d79315c9a93faf366974f161cc9
 ---
 |/data/skills-sh-apollographql-skills-apollo-client|
@@ -7933,7 +7938,7 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-connectors
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.694Z
+retrieved_at: 2026-03-17T07:22:44.789Z
 content_sha256: aea9ec3e60c9d96a95d3b0aafe0f08aa2900e5b2068db47fc0fc8dcd683eef8e
 ---
 |/data/skills-sh-apollographql-skills-apollo-connectors|
@@ -7962,7 +7967,7 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.203Z
+retrieved_at: 2026-03-17T07:22:52.031Z
 content_sha256: 6efc864d9cb8c89936893259cc754f315278ad37b21f249ccce8aee88383c451
 ---
 |/data/skills-sh-apollographql-skills-apollo-mcp-server|
@@ -7991,7 +7996,7 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-server
 github_stars: 25
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:29.474Z
+retrieved_at: 2026-03-17T07:22:49.847Z
 content_sha256: 55a33184bb8e1d4fac044523888fa8267afe40f7557fbb508c77032e9ea32ea9
 ---
 |/data/skills-sh-apollographql-skills-apollo-server|
@@ -8020,7 +8025,7 @@ upstream_ref: https://skills.sh/apollographql/skills/graphql-operations
 github_stars: 23
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:28.347Z
+retrieved_at: 2026-03-17T07:22:49.167Z
 content_sha256: 2c66262d754fb4c286961fdac0a115cd2e9105710be9c3d812b6b2ac135995ee
 ---
 |/data/skills-sh-apollographql-skills-graphql-operations|
@@ -8059,7 +8064,7 @@ upstream_ref: https://skills.sh/apollographql/skills/graphql-schema
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.168Z
+retrieved_at: 2026-03-17T07:25:41.920Z
 content_sha256: 7dab0e654365865feeb43547cb758a74d69a395ec4e2c755c28a2f97cc7c1e5d
 ---
 |/data/skills-sh-apollographql-skills-graphql-schema|
@@ -8088,7 +8093,7 @@ upstream_ref: https://skills.sh/apollographql/skills/rover
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:20.747Z
+retrieved_at: 2026-03-17T07:22:42.220Z
 content_sha256: f732157ff9b42fdd8dd71280d8ba9c03886cbace4031df5b06831f52835a5c5b
 ---
 |/data/skills-sh-apollographql-skills-rover|
@@ -8128,7 +8133,7 @@ upstream_ref: https://skills.sh/apollographql/skills/rust-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:45.189Z
+retrieved_at: 2026-03-17T07:23:01.003Z
 content_sha256: 96130f7b81a525f16824b0fc319d9e7ad3e913e8dcd75cc03e85d3ae83947df4
 ---
 |/data/skills-sh-apollographql-skills-rust-best-practices|
@@ -8167,7 +8172,7 @@ upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
 github_stars: 5
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:29.615Z
+retrieved_at: 2026-03-17T07:22:49.929Z
 content_sha256: 1e9a7f17bb617b43aa95aa0d6544d640070a5a6d104ffaedcc4b3795b489d225
 ---
 |/data/skills-sh-assistant-ui-skills-assistant-ui|
@@ -8196,7 +8201,7 @@ upstream_ref: https://skills.sh/axtonliu/axton-obsidian-visual-skills/excalidraw
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:16.004Z
+retrieved_at: 2026-03-17T07:25:38.073Z
 content_sha256: e1ac098f16f723aaf0b1fc6e511c6981cfb7cfa57a646da8eaa623f047287d5b
 ---
 |/data/skills-sh-axtonliu-axton-obsidian-visual-skills-excalidraw-diagram|
@@ -8235,7 +8240,7 @@ upstream_ref: https://skills.sh/b-mendoza/agent-skills/validate-implementation-p
 github_stars: 0
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:27.700Z
+retrieved_at: 2026-03-17T07:22:48.540Z
 content_sha256: e7538976fc26f10f67a4f8f78fb999f62f1651fc01a12681982c7f526cd0c32d
 ---
 |/data/skills-sh-b-mendoza-agent-skills-validate-implementation-plan|
@@ -8264,7 +8269,7 @@ upstream_ref: https://skills.sh/base44/skills/base44-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:19.708Z
+retrieved_at: 2026-03-17T07:25:41.503Z
 content_sha256: 834fed8eec8dc8bb5e8171fcdb9025de002fe25c219797dfdd422032f29da356
 ---
 |/data/skills-sh-base44-skills-base44-cli|
@@ -8304,7 +8309,7 @@ upstream_ref: https://skills.sh/base44/skills/base44-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:31.942Z
+retrieved_at: 2026-03-17T07:22:51.634Z
 content_sha256: 49906040dc613470e8c460e38af069a4c51054348454fd223edc90c87528d8f8
 ---
 |/data/skills-sh-base44-skills-base44-sdk|
@@ -8333,7 +8338,7 @@ upstream_ref: https://skills.sh/bilalmk/todo_correct/browsing-with-playwright
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.276Z
+retrieved_at: 2026-03-17T07:25:39.264Z
 content_sha256: 465def4e7763e7b9bf55ef2b2aa67e62cef20106529520bf6aa9ab2c94ec351d
 ---
 |/data/skills-sh-bilalmk-todo-correct-browsing-with-playwright|
@@ -8373,7 +8378,7 @@ upstream_ref: https://skills.sh/bmad-labs/skills/typescript-e2e-testing
 github_stars: 2
 github_forks: 1
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:14.065Z
+retrieved_at: 2026-03-17T07:25:36.534Z
 content_sha256: 49277713b85b553bed78a8976f06fbbdd55d6aa675ce169ea3aa541b9ceb38f5
 ---
 |/data/skills-sh-bmad-labs-skills-typescript-e2e-testing|
@@ -8411,7 +8416,7 @@ upstream_ref: https://skills.sh/bobmatnyc/claude-mpm-skills/drizzle-orm
 github_stars: 15
 github_forks: 5
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:15.699Z
+retrieved_at: 2026-03-17T07:25:37.912Z
 content_sha256: 420e86801c18d535ab531e6621c8a9df5247c11158b9a9f30dc44f11ea35108d
 ---
 |/data/skills-sh-bobmatnyc-claude-mpm-skills-drizzle-orm|
@@ -8452,7 +8457,7 @@ upstream_ref: https://skills.sh/boshu2/agentops/council
 github_stars: 180
 github_forks: 15
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:13.833Z
+retrieved_at: 2026-03-17T07:25:36.447Z
 content_sha256: fdcb36c512dcbe16e078fcc46378b39de063fd8aa613c1052575b7dcd1d0aa3d
 ---
 |/data/skills-sh-boshu2-agentops-council|
@@ -8491,7 +8496,7 @@ upstream_ref: https://skills.sh/browser-use/browser-use/browser-use
 github_stars: 80883
 github_forks: 9558
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:24.467Z
+retrieved_at: 2026-03-17T07:25:44.912Z
 content_sha256: 60092a5a8f80389c7af6771bcc1787950535cae6797457a34d634eee6b1241b8
 ---
 |/data/skills-sh-browser-use-browser-use-browser-use|
@@ -8530,7 +8535,7 @@ upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:28.992Z
+retrieved_at: 2026-03-17T07:22:49.582Z
 content_sha256: 28c74f36439fc41852a19f9ede75b7318b9f4fa6382be5b227e4487e502307d4
 ---
 |/data/skills-sh-callstackincubator-agent-device-agent-device|
@@ -8571,7 +8576,7 @@ upstream_ref: https://skills.sh/callstackincubator/agent-skills/github
 github_stars: 937
 github_forks: 51
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:45.853Z
+retrieved_at: 2026-03-17T07:23:01.540Z
 content_sha256: 9957f4dbe0703ce704f0e695ede5384bc1a9865fdc4f7ca08e0979a0db444604
 ---
 |/data/skills-sh-callstackincubator-agent-skills-github|
@@ -8610,7 +8615,7 @@ upstream_ref: https://skills.sh/callstackincubator/agent-skills/react-native-bes
 github_stars: 1023
 github_forks: 57
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:32.991Z
+retrieved_at: 2026-03-17T07:25:52.276Z
 content_sha256: 9c5aa77f59d1d23072f5297a621c54092ad5ac38fe7114be7542c609c8f8f43f
 ---
 |/data/skills-sh-callstackincubator-agent-skills-react-native-best-practices|
@@ -8649,7 +8654,7 @@ upstream_ref: https://skills.sh/callstackincubator/agent-skills/upgrading-react-
 github_stars: 914
 github_forks: 49
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:32.479Z
+retrieved_at: 2026-03-17T07:22:52.194Z
 content_sha256: 8a9dc3bd3d6454333f9cfa82e4f0202875850ce36a6284529294a89dde2c9385
 ---
 |/data/skills-sh-callstackincubator-agent-skills-upgrading-react-native|
@@ -8693,7 +8698,7 @@ upstream_ref: https://skills.sh/cantinaxyz/clawdstrike/clawdstrike
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:19.298Z
+retrieved_at: 2026-03-17T07:22:41.224Z
 content_sha256: 08dc42228498dd7cf289d59460f722fd23bd065f0b236e2a11715b20d293fa93
 ---
 |/data/skills-sh-cantinaxyz-clawdstrike-clawdstrike|
@@ -8722,7 +8727,7 @@ upstream_ref: https://skills.sh/cazala/webgpu-skill/webgpu
 github_stars: 10
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:29.265Z
+retrieved_at: 2026-03-17T07:22:49.760Z
 content_sha256: 44cd05656c416b86a9c9b023e9955feaf4eebb35e45cb99bb8a5715422cc3872
 ---
 |/data/skills-sh-cazala-webgpu-skill-webgpu|
@@ -8751,7 +8756,7 @@ upstream_ref: https://skills.sh/ccheney/robust-skills/clean-ddd-hexagonal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:31.827Z
+retrieved_at: 2026-03-17T07:22:51.535Z
 content_sha256: dba15a07f0f6981bb30201464edcd9a71a7b6cc5a024aaa8536fd03a152711b2
 ---
 |/data/skills-sh-ccheney-robust-skills-clean-ddd-hexagonal|
@@ -8795,7 +8800,7 @@ upstream_ref: https://skills.sh/cclank/news-aggregator-skill/news-aggregator-ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.487Z
+retrieved_at: 2026-03-17T07:22:26.441Z
 content_sha256: 62decab2ad9fbd5966958f01a0de25d2f25d8ccadc0bbf83762a28fc739bbe8d
 ---
 |/data/skills-sh-cclank-news-aggregator-skill-news-aggregator-skill|
@@ -8833,7 +8838,7 @@ upstream_ref: https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtoo
 github_stars: 26831
 github_forks: 1565
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:46.653Z
+retrieved_at: 2026-03-17T07:23:02.094Z
 content_sha256: 872bce4824ef0d9881c89c62aa818cd421bcaf4fa05a7e2c5b7c63403d9eca68
 ---
 |/data/skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools|
@@ -8874,7 +8879,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:30.849Z
+retrieved_at: 2026-03-17T07:22:50.852Z
 content_sha256: 67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794
 ---
 |/data/skills-sh-cloudflare-skills-agents-sdk|
@@ -8915,7 +8920,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.454Z
+retrieved_at: 2026-03-17T07:22:30.569Z
 content_sha256: 67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794
 ---
 |/data/skills-sh-cloudflare-skills-agents-sdk-6c89c221|
@@ -8944,7 +8949,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/building-ai-agent-on-cloudflar
 github_stars: 377
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:15.564Z
+retrieved_at: 2026-03-17T07:25:37.821Z
 content_sha256: dc2ec307e4c8c975269fed04eff86822ecef2fca5365d732420c991fa1025f66
 ---
 |/data/skills-sh-cloudflare-skills-building-ai-agent-on-cloudflare|
@@ -8983,7 +8988,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/building-mcp-server-on-cloudfl
 github_stars: 377
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:16.377Z
+retrieved_at: 2026-03-17T07:25:38.449Z
 content_sha256: 9e57f929797d2827b71c87a6e9e4f5d1ce036b14a8c19fe52ae4eee6c1b493ab
 ---
 |/data/skills-sh-cloudflare-skills-building-mcp-server-on-cloudflare|
@@ -9019,7 +9024,7 @@ upstream_ref: https://skills.sh/cloudflare/skills/sandbox-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:28.451Z
+retrieved_at: 2026-03-17T07:22:49.255Z
 content_sha256: c8a2bd3eca1afee7c9182b7dc7a3dceb9fdd13266c2a5e0730fd52b263b1aea3
 ---
 |/data/skills-sh-cloudflare-skills-sandbox-sdk|
@@ -9065,7 +9070,7 @@ upstream_ref: https://skills.sh/cloudflare/vinext/migrate-to-vinext
 github_stars: 4002
 github_forks: 99
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:46.510Z
+retrieved_at: 2026-03-17T07:23:01.990Z
 content_sha256: 1c146a17bd070d9ea7aa6f6e032b8b597939faef78f011ac520aed49511e5ffc
 ---
 |/data/skills-sh-cloudflare-vinext-migrate-to-vinext|
@@ -9104,7 +9109,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ab-test-setup
 github_stars: 8840
 github_forks: 1172
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:30.290Z
+retrieved_at: 2026-03-17T07:22:50.494Z
 content_sha256: 96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-ab-test-setup|
@@ -9143,7 +9148,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ad-creative
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:30.716Z
+retrieved_at: 2026-03-17T07:25:50.550Z
 content_sha256: de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-ad-creative|
@@ -9188,7 +9193,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ai-seo
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:28.557Z
+retrieved_at: 2026-03-17T07:25:48.476Z
 content_sha256: 4004b3d9d562f98273a0048c48af6a46040ed800b1a1ccb958b299217860a623
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-ai-seo|
@@ -9228,7 +9233,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/analytics-tracking
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.540Z
+retrieved_at: 2026-03-17T07:25:46.796Z
 content_sha256: efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-analytics-tracking|
@@ -9268,7 +9273,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/churn-prevention
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:44.866Z
+retrieved_at: 2026-03-17T07:23:00.556Z
 content_sha256: bd4f9eb09757189e4fe4f849c708731a307508e8765c3345639480c222378120
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-churn-prevention|
@@ -9311,7 +9316,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/cold-email
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:44.501Z
+retrieved_at: 2026-03-17T07:23:00.277Z
 content_sha256: 08f18652938e14143402786fbdb8e1a6269650bb5eef9106898f1cdf31e47e36
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-cold-email|
@@ -9340,7 +9345,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/competitor-alterna
 github_stars: 8840
 github_forks: 1172
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:30.148Z
+retrieved_at: 2026-03-17T07:22:50.402Z
 content_sha256: 8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-competitor-alternatives|
@@ -9382,7 +9387,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/content-strategy
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:25.647Z
+retrieved_at: 2026-03-17T07:25:46.036Z
 content_sha256: 5434e226fd593a2e1174264c37b7cba589e60a82739deec0c29107b48f1ffae5
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-content-strategy|
@@ -9421,7 +9426,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copy-editing
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.007Z
+retrieved_at: 2026-03-17T07:25:46.429Z
 content_sha256: df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-copy-editing|
@@ -9462,7 +9467,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:24.954Z
+retrieved_at: 2026-03-17T07:25:45.617Z
 content_sha256: f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-copywriting|
@@ -9491,7 +9496,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/email-sequence
 github_stars: 8300
 github_forks: 1060
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:26.212Z
+retrieved_at: 2026-03-17T07:22:47.340Z
 content_sha256: d47b12e263ad52b72ab741c490bbc98d8bf8034d61faccc50b7dbb2650a9fba0
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-email-sequence|
@@ -9530,7 +9535,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/free-tool-strategy
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:27.058Z
+retrieved_at: 2026-03-17T07:25:47.129Z
 content_sha256: 3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-free-tool-strategy|
@@ -9559,7 +9564,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:25.889Z
+retrieved_at: 2026-03-17T07:25:46.221Z
 content_sha256: fac44ef0ea24a3035d85bd11096adef408497ea073ad156933f2d356d482dde2
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-marketing-ideas|
@@ -9601,7 +9606,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/onboarding-cro
 github_stars: 8300
 github_forks: 1060
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:26.082Z
+retrieved_at: 2026-03-17T07:22:47.262Z
 content_sha256: b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-onboarding-cro|
@@ -9642,7 +9647,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/page-cro
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.415Z
+retrieved_at: 2026-03-17T07:25:46.709Z
 content_sha256: bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-page-cro|
@@ -9682,7 +9687,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paid-ads
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.793Z
+retrieved_at: 2026-03-17T07:25:46.959Z
 content_sha256: 853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-paid-ads|
@@ -9723,7 +9728,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paywall-upgrade-cr
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:42.961Z
+retrieved_at: 2026-03-17T07:22:59.250Z
 content_sha256: 5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-paywall-upgrade-cro|
@@ -9764,7 +9769,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/pricing-strategy
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.137Z
+retrieved_at: 2026-03-17T07:25:46.519Z
 content_sha256: b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-pricing-strategy|
@@ -9803,7 +9808,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:25.487Z
+retrieved_at: 2026-03-17T07:25:45.960Z
 content_sha256: b2edf9b9434729630f746fec2f228e50aa5b6fe1bf753e0d4d46ecf8a3137274
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-programmatic-seo|
@@ -9832,7 +9837,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/referral-program
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.891Z
+retrieved_at: 2026-03-17T07:25:47.042Z
 content_sha256: 2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-referral-program|
@@ -9871,7 +9876,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/revops
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:33.806Z
+retrieved_at: 2026-03-17T07:25:52.794Z
 content_sha256: 210c730e815b82f6c06d67482e667c40f9ae2179886e318ccb25f1e31e09ca1f
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-revops|
@@ -9914,7 +9919,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/sales-enablement
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:33.258Z
+retrieved_at: 2026-03-17T07:25:52.424Z
 content_sha256: 265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-sales-enablement|
@@ -9943,7 +9948,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/schema-markup
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:26.653Z
+retrieved_at: 2026-03-17T07:25:46.883Z
 content_sha256: 5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-schema-markup|
@@ -9985,7 +9990,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:24.576Z
+retrieved_at: 2026-03-17T07:25:44.989Z
 content_sha256: f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-seo-audit|
@@ -10024,7 +10029,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/site-architecture
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:32.684Z
+retrieved_at: 2026-03-17T07:25:52.005Z
 content_sha256: 3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-site-architecture|
@@ -10053,7 +10058,7 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/social-content
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:42.845Z
+retrieved_at: 2026-03-17T07:22:59.170Z
 content_sha256: 3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f
 ---
 |/data/skills-sh-coreyhaines31-marketingskills-social-content|
@@ -10082,7 +10087,7 @@ upstream_ref: https://skills.sh/currents-dev/playwright-best-practices-skill/pla
 github_stars: 143
 github_forks: 32
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:29.802Z
+retrieved_at: 2026-03-17T07:25:49.510Z
 content_sha256: 638a72c8d01826a842096ca2a90bd6108d27a31a0d28d209833d14379abac9ee
 ---
 |/data/skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices|
@@ -10122,7 +10127,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-javascript
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:45.444Z
+retrieved_at: 2026-03-17T07:23:01.269Z
 content_sha256: 29f361baabfc6f9d2bb213a23520a359cd9cb46073fdf03c48453ad4ac00d544
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-code-javascript|
@@ -10161,7 +10166,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-python
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:04.237Z
+retrieved_at: 2026-03-17T07:22:31.110Z
 content_sha256: a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-code-python|
@@ -10190,7 +10195,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-expression-syntax
 github_stars: 3070
 github_forks: 546
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:19.077Z
+retrieved_at: 2026-03-17T07:25:40.860Z
 content_sha256: 31400d8b454039410ca9ce9fb4f833d3f2ea563b0732fe633a9a5f9554b9fde8
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-expression-syntax|
@@ -10219,7 +10224,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-mcp-tools-expert
 github_stars: 3070
 github_forks: 546
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:15.314Z
+retrieved_at: 2026-03-17T07:25:37.623Z
 content_sha256: 294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert|
@@ -10258,7 +10263,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-node-configuration
 github_stars: 3051
 github_forks: 540
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:45.957Z
+retrieved_at: 2026-03-17T07:23:01.628Z
 content_sha256: 2045e0757cae39a43d18c6c8123777218f04a3acde17b3e3d75caf8d36776199
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-node-configuration|
@@ -10287,7 +10292,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-validation-expert
 github_stars: 2848
 github_forks: 501
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:28.103Z
+retrieved_at: 2026-03-17T07:22:48.985Z
 content_sha256: 74fc170e4217ad1aa0aa176bb2a0565728036d352f491443a826df6f2bb47930
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-validation-expert|
@@ -10326,7 +10331,7 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-workflow-patterns
 github_stars: 3479
 github_forks: 611
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:44.903Z
+retrieved_at: 2026-03-17T07:26:00.667Z
 content_sha256: 03174d27d0e25884c3171de8dff99927932e64ed93a9520625a960800742770d
 ---
 |/data/skills-sh-czlonkowski-n8n-skills-n8n-workflow-patterns|
@@ -10355,7 +10360,7 @@ upstream_ref: https://skills.sh/daleseo/korean-skills/grammar-checker
 github_stars: 7
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:29.122Z
+retrieved_at: 2026-03-17T07:22:49.661Z
 content_sha256: 71d816b76cf60d873892f3c953d611e6685ee127e71f12c58b005a71fa5db1f6
 ---
 |/data/skills-sh-daleseo-korean-skills-grammar-checker|
@@ -10384,7 +10389,7 @@ upstream_ref: https://skills.sh/daleseo/korean-skills/style-guide
 github_stars: 6
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:25.510Z
+retrieved_at: 2026-03-17T07:22:46.842Z
 content_sha256: 861f5c44416b36609e36659de6a86c26af681f73ec3e2b89965039d09e0cd2d1
 ---
 |/data/skills-sh-daleseo-korean-skills-style-guide|
@@ -10413,7 +10418,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/autogpt-agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:04.503Z
+retrieved_at: 2026-03-17T07:22:31.347Z
 content_sha256: e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b
 ---
 |/data/skills-sh-davila7-claude-code-templates-autogpt-agents|
@@ -10453,7 +10458,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/crewai-multi-agent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:02.552Z
+retrieved_at: 2026-03-17T07:22:29.930Z
 content_sha256: bb4b104c94ffa8145516d73a1d4af3809723df15d47c2d02b24715bc9a1752f2
 ---
 |/data/skills-sh-davila7-claude-code-templates-crewai-multi-agent|
@@ -10482,7 +10487,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/devops-iac-enginee
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:02.447Z
+retrieved_at: 2026-03-17T07:22:29.844Z
 content_sha256: 68501fa719788234dece69513181b8a7366b70c34a862bf320cf6e7765651828
 ---
 |/data/skills-sh-davila7-claude-code-templates-devops-iac-engineer|
@@ -10511,7 +10516,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/draw-io
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:19.788Z
+retrieved_at: 2026-03-17T07:22:41.635Z
 content_sha256: 501fbf61f47b08f578f39a03fcd655af7986277028dd92469a99ba835526d0d8
 ---
 |/data/skills-sh-davila7-claude-code-templates-draw-io|
@@ -10551,7 +10556,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/google-analytics
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:04.102Z
+retrieved_at: 2026-03-17T07:22:30.998Z
 content_sha256: df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8
 ---
 |/data/skills-sh-davila7-claude-code-templates-google-analytics|
@@ -10590,7 +10595,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/langchain
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.050Z
+retrieved_at: 2026-03-17T07:22:45.344Z
 content_sha256: 724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555
 ---
 |/data/skills-sh-davila7-claude-code-templates-langchain|
@@ -10619,7 +10624,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/pdf-processing-pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:04.638Z
+retrieved_at: 2026-03-17T07:22:31.487Z
 content_sha256: ea43f2930d53347e0cf19a205bf94315737cbb034153181ebdff6d037bac8d24
 ---
 |/data/skills-sh-davila7-claude-code-templates-pdf-processing-pro|
@@ -10659,7 +10664,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/pytorch-lightning
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.858Z
+retrieved_at: 2026-03-17T07:22:30.846Z
 content_sha256: 2940b978bdec21b6f8da54c72d1858015e5ba290f9b05f1a659d67c25860e259
 ---
 |/data/skills-sh-davila7-claude-code-templates-pytorch-lightning|
@@ -10696,7 +10701,7 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/remotion
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:18.799Z
+retrieved_at: 2026-03-17T07:22:40.709Z
 content_sha256: 99a6377d64061af5f7fcd1a179c0c8f6d7bcd0a515060a46db117a757ac3387a
 ---
 |/data/skills-sh-davila7-claude-code-templates-remotion|
@@ -10725,7 +10730,7 @@ upstream_ref: https://skills.sh/delineas/astro-framework-agents/astro-framework
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.148Z
+retrieved_at: 2026-03-17T07:25:39.187Z
 content_sha256: caab3735ec58990967f419a370f52a92dae52de84b660ecd92b807fe6003c828
 ---
 |/data/skills-sh-delineas-astro-framework-agents-astro-framework|
@@ -10762,7 +10767,7 @@ upstream_ref: https://skills.sh/dotneet/claude-code-marketplace/typescript-react
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:46.325Z
+retrieved_at: 2026-03-17T07:26:01.737Z
 content_sha256: ccc9ea423070269e62fad0d98d6dab6ce7b244c858cac7128421c243f8ecbf85
 ---
 |/data/skills-sh-dotneet-claude-code-marketplace-typescript-react-reviewer|
@@ -10791,7 +10796,7 @@ upstream_ref: https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices
 github_stars: 2
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:27.326Z
+retrieved_at: 2026-03-17T07:22:48.179Z
 content_sha256: 9c7b6330607aa14d90e8b686a205391067c4ca17b6a90d71ba99cc2333e32086
 ---
 |/data/skills-sh-ejirocodes-agent-skills-svelte5-best-practices|
@@ -10820,7 +10825,7 @@ upstream_ref: https://skills.sh/elevenlabs/skills/agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:15.863Z
+retrieved_at: 2026-03-17T07:25:37.994Z
 content_sha256: a2f825e2de7eafd9b096d464a785c813f6e83354c5cb4f5fae6c69c26b73a61c
 ---
 |/data/skills-sh-elevenlabs-skills-agents|
@@ -10859,7 +10864,7 @@ upstream_ref: https://skills.sh/elevenlabs/skills/music
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:16.768Z
+retrieved_at: 2026-03-17T07:25:38.934Z
 content_sha256: a0765c7af5800268fdae3ff443d7306d54cf66d3461cce839d3ac9d49ff58625
 ---
 |/data/skills-sh-elevenlabs-skills-music|
@@ -10898,7 +10903,7 @@ upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
 github_stars: 119
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:46.217Z
+retrieved_at: 2026-03-17T07:23:01.788Z
 content_sha256: 7f76781829131f3ccac1e549b960446d8aa3ac370d34a384f425766035266725
 ---
 |/data/skills-sh-elevenlabs-skills-sound-effects|
@@ -10937,7 +10942,7 @@ upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:30.964Z
+retrieved_at: 2026-03-17T07:22:50.927Z
 content_sha256: f88c8285e03acdc53f26ff51ba49b8a7d7f4298a1d5456942ace182ed4ab4915
 ---
 |/data/skills-sh-elevenlabs-skills-speech-to-text|
@@ -10976,7 +10981,7 @@ upstream_ref: https://skills.sh/elevenlabs/skills/text-to-speech
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:30.587Z
+retrieved_at: 2026-03-17T07:22:50.689Z
 content_sha256: 22b2794655c2c30986771476f6a261b33e61e5e6b6fd784023a2c2d52eb63588
 ---
 |/data/skills-sh-elevenlabs-skills-text-to-speech|
@@ -11020,7 +11025,7 @@ upstream_ref: https://skills.sh/emzod/speak/speak-tts
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.243Z
+retrieved_at: 2026-03-17T07:22:26.274Z
 content_sha256: ca405caf24ed179997aa55b0ae20b154f31c7b04c35153a5bcf98755e8ef4c8b
 ---
 |/data/skills-sh-emzod-speak-speak-tts|
@@ -11062,7 +11067,7 @@ upstream_ref: https://skills.sh/emzod/speak-turbo/speakturbo-tts
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.133Z
+retrieved_at: 2026-03-17T07:22:26.199Z
 content_sha256: 68b384e376e1c67a308bdb9ba5827bb15c01189a1a9db28fa1ba4e6b4c7cfb03
 ---
 |/data/skills-sh-emzod-speak-turbo-speakturbo-tts|
@@ -11103,7 +11108,7 @@ upstream_ref: https://skills.sh/eraserlabs/eraser-io/eraser-diagrams
 github_stars: 8
 github_forks: 0
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:44.724Z
+retrieved_at: 2026-03-17T07:23:00.468Z
 content_sha256: 14ef890e72b0f7c063d399525ef72509973232b2de1651085ab33ec5d384d08c
 ---
 |/data/skills-sh-eraserlabs-eraser-io-eraser-diagrams|
@@ -11155,7 +11160,7 @@ upstream_ref: https://skills.sh/everyinc/compound-engineering-plugin/compound-do
 github_stars: 9663
 github_forks: 767
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:14.272Z
+retrieved_at: 2026-03-17T07:25:36.637Z
 content_sha256: 4759684eb4ee5bdce4982ec472d46a42287186bbc5b34512b4ecbea69e53e421
 ---
 |/data/skills-sh-everyinc-compound-engineering-plugin-compound-docs|
@@ -11184,7 +11189,7 @@ upstream_ref: https://skills.sh/existential-birds/beagle/tailwind-v4
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.923Z
+retrieved_at: 2026-03-17T07:22:46.096Z
 content_sha256: 081fe68f4bc2ece4d63dfb9a77253eab8306a753ce470ac8c03102e69ff5e032
 ---
 |/data/skills-sh-existential-birds-beagle-tailwind-v4|
@@ -11213,7 +11218,7 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl
 github_stars: 186
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:27.372Z
+retrieved_at: 2026-03-17T07:25:47.417Z
 content_sha256: acf9e2e26929b5ccebd111f5777517ced42bf83e86766c1a01370f0e9f811681
 ---
 |/data/skills-sh-firecrawl-cli-firecrawl|
@@ -11247,7 +11252,7 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-download
 github_stars: 186
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:44.534Z
+retrieved_at: 2026-03-17T07:26:00.380Z
 content_sha256: 1ed4d07f8424246fd12cdf1c1523e21a31a17b8f9fb6789d9390cbd202ac55ed
 ---
 |/data/skills-sh-firecrawl-cli-firecrawl-download|
@@ -11281,7 +11286,7 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
 github_stars: 186
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:44.121Z
+retrieved_at: 2026-03-17T07:26:00.136Z
 content_sha256: f30a672fa56276976c6cd86925c14cb87ad29b20cdfaccdb13fb92633f87d09e
 ---
 |/data/skills-sh-firecrawl-cli-firecrawl-scrape|
@@ -11315,7 +11320,7 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-search
 github_stars: 186
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:44.421Z
+retrieved_at: 2026-03-17T07:26:00.291Z
 content_sha256: 7b0782d7ab3257437a893bde0cbca97828d7c673c79ecf057ea3590b3f137c66
 ---
 |/data/skills-sh-firecrawl-cli-firecrawl-search|
@@ -11355,7 +11360,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/aspire
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.934Z
+retrieved_at: 2026-03-17T07:25:53.693Z
 content_sha256: 224e09146fa0a8af3f661c8538e1fee660f9288d4eccf80985c47e2f732136c9
 ---
 |/data/skills-sh-github-awesome-copilot-aspire|
@@ -11394,7 +11399,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/azure-deployment-prefligh
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:33.403Z
+retrieved_at: 2026-03-17T07:25:52.529Z
 content_sha256: 685de9d8d43bfe58cfd9f20d8fa35b04e9da983f8122754400dc4b7457420197
 ---
 |/data/skills-sh-github-awesome-copilot-azure-deployment-preflight|
@@ -11433,7 +11438,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/azure-pricing
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:43.083Z
+retrieved_at: 2026-03-17T07:25:59.576Z
 content_sha256: c0125df101ab525177a7c84fc49f11ae78cde538599c10b07df1de894946dfff
 ---
 |/data/skills-sh-github-awesome-copilot-azure-pricing|
@@ -11468,7 +11473,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/containerize-aspnet-frame
 github_stars: 761
 github_forks: 351
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:36.852Z
+retrieved_at: 2026-03-17T07:25:55.180Z
 content_sha256: 6f9f44262077bcae79e8c5753b49855a959db675f3d6e65c84b0ebc4ebeaee64
 ---
 |/data/skills-sh-github-awesome-copilot-containerize-aspnet-framework|
@@ -11497,7 +11502,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/containerize-aspnetcore
 github_stars: 4838
 github_forks: 1957
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:36.496Z
+retrieved_at: 2026-03-17T07:25:54.829Z
 content_sha256: 238ead2fc45bca98cb9482c501f8c7895782a15041b6d90b21a52da2d723d02b
 ---
 |/data/skills-sh-github-awesome-copilot-containerize-aspnetcore|
@@ -11526,7 +11531,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/create-readme
 github_stars: 856
 github_forks: 483
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:32.544Z
+retrieved_at: 2026-03-17T07:25:51.930Z
 content_sha256: c94501dd4e1635ecbd1e59401803b27ccfec287683fa855eb19841fe24e959f8
 ---
 |/data/skills-sh-github-awesome-copilot-create-readme|
@@ -11565,7 +11570,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/create-tldr-page
 github_stars: 0
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:36.614Z
+retrieved_at: 2026-03-17T07:25:54.921Z
 content_sha256: 5cc833305da2df33386f2085fa907385d5d29d82d8f7f2dc87476d760c9e5b25
 ---
 |/data/skills-sh-github-awesome-copilot-create-tldr-page|
@@ -11594,7 +11599,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/fabric-lakehouse
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:36.082Z
+retrieved_at: 2026-03-17T07:25:54.446Z
 content_sha256: 417e001196a12281c910bcd113ab55ffe47ad0e31ad53e18914bbd103ace0296
 ---
 |/data/skills-sh-github-awesome-copilot-fabric-lakehouse|
@@ -11627,7 +11632,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/finnish-humanizer
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:35.072Z
+retrieved_at: 2026-03-17T07:25:53.779Z
 content_sha256: 048028753dff8810aff9266586244157cbc952b06ffe87510683e2aad49a40f9
 ---
 |/data/skills-sh-github-awesome-copilot-finnish-humanizer|
@@ -11656,7 +11661,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/flowstudio-power-automate
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:44.679Z
+retrieved_at: 2026-03-17T07:26:00.495Z
 content_sha256: 1c069fb0b4532e8e81ab4e89348f5650ef77ece3d99cbf9bda32522cb93938eb
 ---
 |/data/skills-sh-github-awesome-copilot-flowstudio-power-automate-mcp|
@@ -11699,7 +11704,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/fluentui-blazor
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:35.384Z
+retrieved_at: 2026-03-17T07:25:54.034Z
 content_sha256: 297ae2f3ceade5e6c79d03b9739150cd2ee687714e78e0b0ffbe94ff6f20e062
 ---
 |/data/skills-sh-github-awesome-copilot-fluentui-blazor|
@@ -11743,7 +11748,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/github-copilot-starter
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:35.812Z
+retrieved_at: 2026-03-17T07:25:54.276Z
 content_sha256: f291b758bfaf747457a6337c2b83f939c6cf0cb24117d680d2cecee8cadc188a
 ---
 |/data/skills-sh-github-awesome-copilot-github-copilot-starter|
@@ -11772,7 +11777,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/github-issues
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:19.932Z
+retrieved_at: 2026-03-17T07:22:41.734Z
 content_sha256: 8202c0277a34033acd44ed960a236f31a5b7a74d98769dffac497f2267279fed
 ---
 |/data/skills-sh-github-awesome-copilot-github-issues|
@@ -11814,7 +11819,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.118Z
+retrieved_at: 2026-03-17T07:25:53.019Z
 content_sha256: b053c8faa2db8049ccbecb6151fca496546e9a5cd846d19321bd6f80570c045f
 ---
 |/data/skills-sh-github-awesome-copilot-legacy-circuit-mockups|
@@ -11843,7 +11848,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/make-repo-contribution
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.421Z
+retrieved_at: 2026-03-17T07:25:53.221Z
 content_sha256: 82a8a9847134450248f2b2d4e7104cdb2ed764ce3407745c7c443bdb47bb5761
 ---
 |/data/skills-sh-github-awesome-copilot-make-repo-contribution|
@@ -11872,7 +11877,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/markdown-to-html
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:33.526Z
+retrieved_at: 2026-03-17T07:25:52.625Z
 content_sha256: fe2c21cc2979a7ef382ea891f1ddd5138d1254c37336c9df33ba594c001a8743
 ---
 |/data/skills-sh-github-awesome-copilot-markdown-to-html|
@@ -11914,7 +11919,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/microsoft-skill-creator
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.546Z
+retrieved_at: 2026-03-17T07:25:53.303Z
 content_sha256: ff30f0b66e3d4ce70fa97fb764491fd33728a2b47baf9c37f892bc2b64fe73f6
 ---
 |/data/skills-sh-github-awesome-copilot-microsoft-skill-creator|
@@ -11955,7 +11960,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/pdftk-server
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.262Z
+retrieved_at: 2026-03-17T07:25:53.131Z
 content_sha256: 2af43f0330b9e1e1b33c239261c7f5c092c7331f4e50013f1d42d6d41b3bd2a5
 ---
 |/data/skills-sh-github-awesome-copilot-pdftk-server|
@@ -11993,7 +11998,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:32.817Z
+retrieved_at: 2026-03-17T07:25:52.094Z
 content_sha256: 5eceba271320c73a4ed22db14b4c02331b5768f98121eab74cd3e6440bb4f521
 ---
 |/data/skills-sh-github-awesome-copilot-penpot-uiux-design|
@@ -12038,7 +12043,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/polyglot-test-agent
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:35.687Z
+retrieved_at: 2026-03-17T07:25:54.209Z
 content_sha256: 51fb84668d78fcc1ef305b83fa24aa4382bd2ceda8f251bd1f377f355d90a24a
 ---
 |/data/skills-sh-github-awesome-copilot-polyglot-test-agent|
@@ -12077,7 +12082,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/powerbi-modeling
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:33.668Z
+retrieved_at: 2026-03-17T07:25:52.716Z
 content_sha256: af288e11a243a090f9a2d540103d49d3b6d0d20e39a85e9b45c51175eb0028b2
 ---
 |/data/skills-sh-github-awesome-copilot-powerbi-modeling|
@@ -12119,8 +12124,8 @@ upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-co
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:36.362Z
-content_sha256: f75a4975cf2b8db781cfe60fa636e12ee11d9e4704f5da569c59dcf054d8e9dc
+retrieved_at: 2026-03-17T07:25:54.703Z
+content_sha256: 2fd5968b0f30d8df8eaafdf23a1d1770fbb54dfe57622f5c929306a5f98896d1
 ---
 |/data/skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-agents|
 
@@ -12165,8 +12170,8 @@ upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-co
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:35.940Z
-content_sha256: 06a1a8a0bc14debfe54d4c90ea85eda113e376b1d1e831e5602cc17021cd45b9
+retrieved_at: 2026-03-17T07:25:54.345Z
+content_sha256: 4da66b926ca67970401ce0d6836d96599b1fbfa9e91c97cd370f13d13d6ae111
 ---
 |/data/skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-skills|
 
@@ -12207,7 +12212,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/terraform-azurerm-set-dif
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.684Z
+retrieved_at: 2026-03-17T07:25:53.406Z
 content_sha256: fcabc67e277dbbc3d46b81edce7aae50e71da4f93dc0b1358e4c45737570e82c
 ---
 |/data/skills-sh-github-awesome-copilot-terraform-azurerm-set-diff-analyzer|
@@ -12246,7 +12251,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/web-coder
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:42.548Z
+retrieved_at: 2026-03-17T07:25:59.231Z
 content_sha256: e3b9ff6b24c0de4a7b48169ff4f69ed827cd74c4a7c13620825eaf62d04d1801
 ---
 |/data/skills-sh-github-awesome-copilot-web-coder|
@@ -12283,7 +12288,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/web-design-reviewer
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:32.125Z
+retrieved_at: 2026-03-17T07:25:51.627Z
 content_sha256: e678c549dd5f69094d53eb5785f0c34ae4cd150a92ac1f79785065fc835276f6
 ---
 |/data/skills-sh-github-awesome-copilot-web-design-reviewer|
@@ -12324,7 +12329,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
 github_stars: 920
 github_forks: 37
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:34.794Z
+retrieved_at: 2026-03-17T07:25:53.519Z
 content_sha256: b0783dc4d3774e38ea19b9fd97e85e3c3f17e63ac3ec2b83b6ff51b73cfae914
 ---
 |/data/skills-sh-github-awesome-copilot-winapp-cli|
@@ -12363,7 +12368,7 @@ upstream_ref: https://skills.sh/github/awesome-copilot/write-coding-standards-fr
 github_stars: 487
 github_forks: 128
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:33.974Z
+retrieved_at: 2026-03-17T07:25:52.884Z
 content_sha256: 57869e2f133aa0db840c9562134cbbfaef457137c4a72f5bbf9ec44b6e672170
 ---
 |/data/skills-sh-github-awesome-copilot-write-coding-standards-from-file|
@@ -12404,7 +12409,7 @@ upstream_ref: https://skills.sh/giulioco/skills/postbridge-social-growth
 github_stars: 2
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:14.580Z
+retrieved_at: 2026-03-17T07:25:36.835Z
 content_sha256: a9aca976f35f235f3cad5fba2e23a44214ac273965368d45a1cce5b129edefbc
 ---
 |/data/skills-sh-giulioco-skills-postbridge-social-growth|
@@ -12433,7 +12438,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-calendar
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:38.463Z
+retrieved_at: 2026-03-17T07:25:56.285Z
 content_sha256: 5aa3daea300bf53d48ad22c638ba9b8e4095dff95e7c16781fc8540859c084f9
 ---
 |/data/skills-sh-googleworkspace-cli-gws-calendar|
@@ -12462,7 +12467,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-chat
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:40.616Z
+retrieved_at: 2026-03-17T07:25:57.796Z
 content_sha256: 0ddfcaf734149378651b683146a225f6797dc0b28317d84f5ffdb8959ec97d37
 ---
 |/data/skills-sh-googleworkspace-cli-gws-chat|
@@ -12491,7 +12496,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:38.736Z
+retrieved_at: 2026-03-17T07:25:56.453Z
 content_sha256: beed0deac0bf543bf4a05f124461cbcb48d5e488a114d7b6be38574c3aa7d819
 ---
 |/data/skills-sh-googleworkspace-cli-gws-docs|
@@ -12525,7 +12530,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs-write
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:39.116Z
+retrieved_at: 2026-03-17T07:25:56.713Z
 content_sha256: b22a7817480a48ac03e1d086cdb5047e1f55c7299a028192dd6138c82fb5d569
 ---
 |/data/skills-sh-googleworkspace-cli-gws-docs-write|
@@ -12554,7 +12559,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-drive
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:37.486Z
+retrieved_at: 2026-03-17T07:25:55.641Z
 content_sha256: 56ec54d1f24c5b9e2b56396bd9515300c7ff4366728a65a5d5c11355c6a8fec7
 ---
 |/data/skills-sh-googleworkspace-cli-gws-drive|
@@ -12588,7 +12593,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-events
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:40.984Z
+retrieved_at: 2026-03-17T07:25:58.036Z
 content_sha256: 4dc74e5357b1fa59242aaedd9ec0d0cdd999f57fad9bcaf9cf5b80153e12a35d
 ---
 |/data/skills-sh-googleworkspace-cli-gws-events|
@@ -12617,7 +12622,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-gmail
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:37.080Z
+retrieved_at: 2026-03-17T07:25:55.387Z
 content_sha256: 0353988c19017088309436f71e18d40a97506fb8aa185f9bd25f3eb5f90ef5d2
 ---
 |/data/skills-sh-googleworkspace-cli-gws-gmail|
@@ -12651,7 +12656,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-modelarmor
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.532Z
+retrieved_at: 2026-03-17T07:25:58.425Z
 content_sha256: e87b824d1a71122c9c3fb26f2fd93b42f508d23222cfc2184bf2a51e57752b03
 ---
 |/data/skills-sh-googleworkspace-cli-gws-modelarmor|
@@ -12680,7 +12685,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-sheets
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:38.858Z
+retrieved_at: 2026-03-17T07:25:56.541Z
 content_sha256: 475aa1201991d6d4b604b785a1dbd404294741bd4a2e32a20b5353a161a4ef0f
 ---
 |/data/skills-sh-googleworkspace-cli-gws-sheets|
@@ -12714,7 +12719,7 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-workflow
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:40.488Z
+retrieved_at: 2026-03-17T07:25:57.696Z
 content_sha256: 72a1b9974fb029ed543ce249ba9930f2b9f4afea2636bd6423db1ce31d794b00
 ---
 |/data/skills-sh-googleworkspace-cli-gws-workflow|
@@ -12758,7 +12763,7 @@ upstream_ref: https://skills.sh/hairyf/knitwork-x/knitwork-x
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:21.997Z
+retrieved_at: 2026-03-17T07:22:43.251Z
 content_sha256: 14f498087b077d54f43319de2fad52747d95f44d408646d00c15fdf17be11bb7
 ---
 |/data/skills-sh-hairyf-knitwork-x-knitwork-x|
@@ -12803,7 +12808,7 @@ upstream_ref: https://skills.sh/hairyf/skills/arch-tsdown-monorepo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.616Z
+retrieved_at: 2026-03-17T07:22:43.795Z
 content_sha256: 0e08a66c2488d2e14e8c56d3258df2b5b1fba61c011bf885004de91c427ed8a9
 ---
 |/data/skills-sh-hairyf-skills-arch-tsdown-monorepo|
@@ -12842,7 +12847,7 @@ upstream_ref: https://skills.sh/hairyf/skills/hairy
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.504Z
+retrieved_at: 2026-03-17T07:22:43.721Z
 content_sha256: a9ddb3bc503470d675ae1aa67a7f39fb1810a7d598d4e1b3b6313613239be8ea
 ---
 |/data/skills-sh-hairyf-skills-hairy|
@@ -12871,7 +12876,7 @@ upstream_ref: https://skills.sh/hairyf/skills/hairy-utils
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:21.085Z
+retrieved_at: 2026-03-17T07:25:42.683Z
 content_sha256: 73115192ce2234e3f3ebf6d7640b72c9ebd4f8aac137b565421255122f930899
 ---
 |/data/skills-sh-hairyf-skills-hairy-utils|
@@ -12913,7 +12918,7 @@ upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.118Z
+retrieved_at: 2026-03-17T07:22:43.337Z
 content_sha256: 0f8d6b2e4e8d3b7b0c559cec5212e80600baf92b6cbca6c9156b71784ebe61f0
 ---
 |/data/skills-sh-hairyf-skills-openapi-specification-v2|
@@ -12953,7 +12958,7 @@ upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v3.2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:21.871Z
+retrieved_at: 2026-03-17T07:22:43.169Z
 content_sha256: e68161c9bfbeb686afb6fd374982b4b21a13bc335079d4d6944767fc976bfd2b
 ---
 |/data/skills-sh-hairyf-skills-openapi-specification-v3-2|
@@ -12994,7 +12999,7 @@ upstream_ref: https://skills.sh/hairyf/skills/undocs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.201Z
+retrieved_at: 2026-03-17T07:22:44.224Z
 content_sha256: 9bea28f87385164472dac28df9719a778a4dbe5aae4fe63f0c146ca86aeca3c5
 ---
 |/data/skills-sh-hairyf-skills-undocs|
@@ -13034,7 +13039,7 @@ upstream_ref: https://skills.sh/hairyf/skills/unjs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:28.671Z
+retrieved_at: 2026-03-17T07:22:49.398Z
 content_sha256: 7768ed479085ade59cd6cda262376409822a83228748d36c03753bc90e5f2a34
 ---
 |/data/skills-sh-hairyf-skills-unjs|
@@ -13076,7 +13081,7 @@ upstream_ref: https://skills.sh/halthelobster/proactive-agent/proactive-agent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:20.977Z
+retrieved_at: 2026-03-17T07:22:42.529Z
 content_sha256: 5a61dae55820c670d23de61500aa48956b7a1b20c3f01cdc7e596b51fd854c03
 ---
 |/data/skills-sh-halthelobster-proactive-agent-proactive-agent|
@@ -13118,7 +13123,7 @@ upstream_ref: https://skills.sh/hashicorp/agent-skills/refactor-module
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.334Z
+retrieved_at: 2026-03-17T07:25:42.000Z
 content_sha256: 9d08cde101042ff656c473b6db9e8a7bcfc0cc191441b8613be3b47f11fec060
 ---
 |/data/skills-sh-hashicorp-agent-skills-refactor-module|
@@ -13151,7 +13156,7 @@ upstream_ref: https://skills.sh/hau823823/gen-paylink-govilo/gen-paylink-govilo
 github_stars: 1
 github_forks: 1
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:42.802Z
+retrieved_at: 2026-03-17T07:25:59.398Z
 content_sha256: 4b03b93077cbb4320a8611a3d141c9047a88bd5efae5844cbe4630bfcdf17b36
 ---
 |/data/skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo|
@@ -13190,7 +13195,7 @@ upstream_ref: https://skills.sh/heredotnow/skill/here-now
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:45.662Z
+retrieved_at: 2026-03-17T07:26:01.262Z
 content_sha256: 4828d7cd4ff32abb1b49051d26ceae23974aadde2f2c4dcee6b110f4fc8b6bff
 ---
 |/data/skills-sh-heredotnow-skill-here-now|
@@ -13233,7 +13238,7 @@ upstream_ref: https://skills.sh/heygen-com/skills/heygen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.422Z
+retrieved_at: 2026-03-17T07:22:45.608Z
 content_sha256: 968fec33560cbf5d4abf433fe90c5d4602020629f28d6ae63b7061ca9bfd1a34
 ---
 |/data/skills-sh-heygen-com-skills-heygen|
@@ -13275,7 +13280,7 @@ upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
 github_stars: 1911
 github_forks: 100
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:31.137Z
+retrieved_at: 2026-03-17T07:25:50.829Z
 content_sha256: 48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b
 ---
 |/data/skills-sh-hyf0-vue-skills-vue-best-practices|
@@ -13319,7 +13324,7 @@ upstream_ref: https://skills.sh/hyf0/vue-skills/vue-debug-guides
 github_stars: 1611
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:26.343Z
+retrieved_at: 2026-03-17T07:22:47.414Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---
 |/data/skills-sh-hyf0-vue-skills-vue-debug-guides|
@@ -13348,7 +13353,7 @@ upstream_ref: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.978Z
+retrieved_at: 2026-03-17T07:25:39.941Z
 content_sha256: 79514ada712884f201f50cddced0a059697a0b82cee7b9a80cf744b9bc369739
 ---
 |/data/skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid|
@@ -13387,7 +13392,7 @@ upstream_ref: https://skills.sh/inferen-sh/skills/agent-tools
 github_stars: 153
 github_forks: 21
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:24.712Z
+retrieved_at: 2026-03-17T07:25:45.203Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---
 |/data/skills-sh-inferen-sh-skills-agent-tools|
@@ -13426,7 +13431,7 @@ upstream_ref: https://skills.sh/inferen-sh/skills/infsh-cli
 github_stars: 153
 github_forks: 21
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:24.843Z
+retrieved_at: 2026-03-17T07:25:45.382Z
 content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
 ---
 |/data/skills-sh-inferen-sh-skills-infsh-cli|
@@ -13455,7 +13460,7 @@ upstream_ref: https://skills.sh/inferen-sh/skills/javascript-sdk
 github_stars: 153
 github_forks: 21
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:39.614Z
+retrieved_at: 2026-03-17T07:25:57.064Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---
 |/data/skills-sh-inferen-sh-skills-javascript-sdk|
@@ -13484,7 +13489,7 @@ upstream_ref: https://skills.sh/inferen-sh/skills/python-sdk
 github_stars: 153
 github_forks: 21
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:39.476Z
+retrieved_at: 2026-03-17T07:25:56.973Z
 content_sha256: da24fe3d637d13163a570db4f0a25d840b7e61076662500826a10f80b4d4db4e
 ---
 |/data/skills-sh-inferen-sh-skills-python-sdk|
@@ -13495,6 +13500,13 @@ type: skills
 title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
+
+  ## 0.2.77
+
+  - Added `api_retry` system messages when retrying transient API errors,
+  exposing attempt count, max retries, delay, and error status
+
+  - Updated to parity with Claude Code v2.1.77
 
   ## 0.2.76
 
@@ -13511,12 +13523,6 @@ summary: >-
   message for handling MCP server input requests programmatically
 
   - Updated to parity with Claude Code v2.1.76
-
-  ## 0.2.75
-
-  - Added `tag` and `createdAt` fields to `SDKSessionInfo`
-
-  - Added `getSessionInfo(sessionId, opts?)` for single-session metadata lookup
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -13526,8 +13532,8 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.736Z
-content_sha256: 2c2e4e5e0a22198adb75c5cf08a8877ec5450761577802af0aa1f677a4a79b98
+retrieved_at: 2026-03-17T07:22:52.380Z
+content_sha256: fdbe504f349449b9b18a76b4135bf6be156d8245b3da6ecc5064b10632a449ce
 ---
 |/data/skills-sh-jezweb-claude-skills-claude-agent-sdk|
 
@@ -13555,7 +13561,7 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/react-native-expo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:31.443Z
+retrieved_at: 2026-03-17T07:22:51.240Z
 content_sha256: 3246b413c28f643b21bb72f2b20bda5133ab11bac124b1c6ab3427be96ec997b
 ---
 |/data/skills-sh-jezweb-claude-skills-react-native-expo|
@@ -13598,7 +13604,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:29.327Z
+retrieved_at: 2026-03-17T07:25:49.147Z
 content_sha256: 83728770a2047532a38adb28c1457ea6dbcd93dbb472089bea23f561ca5da3f6
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator|
@@ -13637,7 +13643,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:02.822Z
+retrieved_at: 2026-03-17T07:22:30.066Z
 content_sha256: 16295c68e71159f275e989e60003d1ba49f84d078bf2db8b3591ac119122db8f
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator-f9ed6141|
@@ -13666,7 +13672,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
 github_stars: 4718
 github_forks: 521
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:26.755Z
+retrieved_at: 2026-03-17T07:22:47.781Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-comic|
@@ -13695,7 +13701,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.074Z
+retrieved_at: 2026-03-17T07:22:30.251Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4|
@@ -13734,7 +13740,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:29.198Z
+retrieved_at: 2026-03-17T07:25:49.059Z
 content_sha256: 333cf3775fce8a24daeeb5a5a910a6d68202603fbf4e20d574dc50d1bbff0cdd
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-cover-image|
@@ -13773,7 +13779,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:02.954Z
+retrieved_at: 2026-03-17T07:22:30.163Z
 content_sha256: 333cf3775fce8a24daeeb5a5a910a6d68202603fbf4e20d574dc50d1bbff0cdd
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-cover-image-93718624|
@@ -13812,7 +13818,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown
 github_stars: 5324
 github_forks: 600
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:43.088Z
+retrieved_at: 2026-03-17T07:22:59.363Z
 content_sha256: 61db3aa0512d452163903d0b40c7d4062372e10df2053570a1a89ed656718800
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown|
@@ -13852,7 +13858,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:27.784Z
+retrieved_at: 2026-03-17T07:25:47.843Z
 content_sha256: f84f2c5984b715e68609c126a6972ff9fdd56fb8c9f927e80bc3279571fb88c6
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-image-gen|
@@ -13891,7 +13897,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:27.656Z
+retrieved_at: 2026-03-17T07:25:47.626Z
 content_sha256: 55a58fc07db8425e45f9943f8b05045c2168ad44acc4206b64a218507b74532a
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat|
@@ -13931,7 +13937,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.208Z
+retrieved_at: 2026-03-17T07:22:30.352Z
 content_sha256: 790000e305128340e64f6b4c17c1a146a2fee6c3e130400242cd61628388f751
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat-f876f2bd|
@@ -13970,7 +13976,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-translate
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:40.226Z
+retrieved_at: 2026-03-17T07:25:57.525Z
 content_sha256: ba3677cf40bb5063f450927b4fcde2f361a832e6a8632604a270df8372884593
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-translate|
@@ -14009,7 +14015,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:30.887Z
+retrieved_at: 2026-03-17T07:25:50.651Z
 content_sha256: 571620de72538e8b4f247a63e6db27ce5a27495d1283015ec16c1076d91811cc
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown|
@@ -14048,7 +14054,7 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images
 github_stars: 9050
 github_forks: 1021
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:29.445Z
+retrieved_at: 2026-03-17T07:25:49.232Z
 content_sha256: 0620ce34347d83247c0502f5386437f1ef8229710a6e46690ac35ccaed65e255
 ---
 |/data/skills-sh-jimliu-baoyu-skills-baoyu-xhs-images|
@@ -14088,7 +14094,7 @@ upstream_ref: https://skills.sh/kadajett/agent-nestjs-skills/nestjs-best-practic
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:58.858Z
+retrieved_at: 2026-03-17T07:22:26.054Z
 content_sha256: b699d2245ddc6b6cdd08d86db0a89903556dc33138acb2d34645b5c2fb319219
 ---
 |/data/skills-sh-kadajett-agent-nestjs-skills-nestjs-best-practices|
@@ -14117,7 +14123,7 @@ upstream_ref: https://skills.sh/kepano/obsidian-skills/json-canvas
 github_stars: 14111
 github_forks: 779
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:40.352Z
+retrieved_at: 2026-03-17T07:25:57.602Z
 content_sha256: f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
 ---
 |/data/skills-sh-kepano-obsidian-skills-json-canvas|
@@ -14156,7 +14162,7 @@ upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-bases
 github_stars: 14111
 github_forks: 779
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:37.320Z
+retrieved_at: 2026-03-17T07:25:55.547Z
 content_sha256: 208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b
 ---
 |/data/skills-sh-kepano-obsidian-skills-obsidian-bases|
@@ -14185,7 +14191,7 @@ upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-markdown
 github_stars: 14111
 github_forks: 779
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:38.064Z
+retrieved_at: 2026-03-17T07:25:56.028Z
 content_sha256: 392953b5838c3ab3df135b5a914f100ae7b95e4501b6a2e5c8dc63da3ac7558b
 ---
 |/data/skills-sh-kepano-obsidian-skills-obsidian-markdown|
@@ -14227,7 +14233,7 @@ upstream_ref: https://skills.sh/kylezantos/design-engineer-auditor-package/desig
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:04.397Z
+retrieved_at: 2026-03-17T07:22:31.232Z
 content_sha256: 42dfa5637766c6868aea875b24b7ceab8a156ea91b79c0cf7233579992b46f4d
 ---
 |/data/skills-sh-kylezantos-design-engineer-auditor-package-design-motion-principles|
@@ -14267,7 +14273,7 @@ upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
 github_stars: 132941
 github_forks: 20711
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:45.164Z
+retrieved_at: 2026-03-17T07:26:00.847Z
 content_sha256: b67ba50627f957bce3c6f67cd96e186485d48f3c6636267fbad1e0aba8f521fa
 ---
 |/data/skills-sh-langgenius-dify-frontend-code-review|
@@ -14308,7 +14314,7 @@ upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:30.712Z
+retrieved_at: 2026-03-17T07:22:50.778Z
 content_sha256: dca10944dcb129ae0451aa5a116a56e569c628f2988d043c9bbe3ed558cda02c
 ---
 |/data/skills-sh-letz-ai-letzai-skill-letzai-api|
@@ -14346,7 +14352,7 @@ upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.851Z
+retrieved_at: 2026-03-17T07:22:52.562Z
 content_sha256: 08821bcc515584894006f42acde1e00e380f50ea34a30de4bccfbb3b4a8f8e24
 ---
 |/data/skills-sh-letz-ai-letzai-skill-letzai-api-cd10df60|
@@ -14389,7 +14395,7 @@ upstream_ref: https://skills.sh/lwmxiaobei/yt-dlp-skill/yt-dlp
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.730Z
+retrieved_at: 2026-03-17T07:22:26.602Z
 content_sha256: 678319341ac20cb79bdebf70a1e432cae9cdd5ff4901ddd3a55292d9728d141e
 ---
 |/data/skills-sh-lwmxiaobei-yt-dlp-skill-yt-dlp|
@@ -14433,7 +14439,7 @@ upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-adaptive-ui
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.388Z
+retrieved_at: 2026-03-17T07:25:39.492Z
 content_sha256: 9928601ce17722835ee548fb4369b87860b037fe187b65f7048da7c927b19c52
 ---
 |/data/skills-sh-madteacher-mad-agents-skills-flutter-adaptive-ui|
@@ -14473,7 +14479,7 @@ upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-architectur
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.835Z
+retrieved_at: 2026-03-17T07:25:39.858Z
 content_sha256: 0257900638be45745a37208b4db3f7242b075454d2e2a22a5a0dc09c07f2f7a8
 ---
 |/data/skills-sh-madteacher-mad-agents-skills-flutter-architecture|
@@ -14514,7 +14520,7 @@ upstream_ref: https://skills.sh/magicseek/nblm/nblm
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.812Z
+retrieved_at: 2026-03-17T07:22:45.067Z
 content_sha256: 1afee54177d3db6ae83d7d76fb96293d31fd126bbd1e0a787ecfbaef6f8597f9
 ---
 |/data/skills-sh-magicseek-nblm-nblm|
@@ -14554,7 +14560,7 @@ upstream_ref: https://skills.sh/mastra-ai/skills/mastra
 github_stars: 33
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:36.956Z
+retrieved_at: 2026-03-17T07:25:55.264Z
 content_sha256: bb4f452bbd0dc7960eccdb3fc1b2a15f709848910ca5ce081d8660c884c349e0
 ---
 |/data/skills-sh-mastra-ai-skills-mastra|
@@ -14589,7 +14595,7 @@ upstream_ref: https://skills.sh/mattpocock/skills/tdd
 github_stars: 1069
 github_forks: 80
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:42.145Z
+retrieved_at: 2026-03-17T07:25:58.973Z
 content_sha256: e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a
 ---
 |/data/skills-sh-mattpocock-skills-tdd|
@@ -14618,7 +14624,7 @@ upstream_ref: https://skills.sh/mblode/agent-skills/ui-animation
 github_stars: 16
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:13.564Z
+retrieved_at: 2026-03-17T07:25:36.276Z
 content_sha256: 3f6fcbc710e184f4b8c49c2824730b723bf692f98f9958239a3e0c7764618f5f
 ---
 |/data/skills-sh-mblode-agent-skills-ui-animation|
@@ -14658,7 +14664,7 @@ upstream_ref: https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder
 github_stars: 9440
 github_forks: 1161
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:39.229Z
+retrieved_at: 2026-03-17T07:25:56.810Z
 content_sha256: da18c63e30d5d496f91c9db29da5ed3dea5ffc1d197b9b38170dc729e6281411
 ---
 |/data/skills-sh-mcp-use-mcp-use-chatgpt-app-builder|
@@ -14697,7 +14703,7 @@ upstream_ref: https://skills.sh/mcp-use/mcp-use/mcp-apps-builder
 github_stars: 9271
 github_forks: 1142
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:43.825Z
+retrieved_at: 2026-03-17T07:22:59.876Z
 content_sha256: 80675d7718f7f2586eb9074e1411ed53b59b27d3559da95114c149cd3fb7f524
 ---
 |/data/skills-sh-mcp-use-mcp-use-mcp-apps-builder|
@@ -14736,7 +14742,7 @@ upstream_ref: https://skills.sh/microsoft/azure-skills/azure-quotas
 github_stars: 369
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:27.232Z
+retrieved_at: 2026-03-17T07:25:47.220Z
 content_sha256: 8c5d3df832a20322ed8e94be757ef2fe49fdd39a781aaddd69fe5b6867a3a627
 ---
 |/data/skills-sh-microsoft-azure-skills-azure-quotas|
@@ -14775,7 +14781,7 @@ upstream_ref: https://skills.sh/microsoft/azure-skills/azure-upgrade
 github_stars: 369
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:40.101Z
+retrieved_at: 2026-03-17T07:25:57.425Z
 content_sha256: 42e0a4b593b20cf4cba43509f19d781053e31c690e47f8dfef70e3748f7f0fb8
 ---
 |/data/skills-sh-microsoft-azure-skills-azure-upgrade|
@@ -14803,7 +14809,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/appinsights-i
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.495Z
+retrieved_at: 2026-03-17T07:25:43.635Z
 content_sha256: 8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation|
@@ -14842,7 +14848,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-ai
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:21.766Z
+retrieved_at: 2026-03-17T07:25:43.126Z
 content_sha256: d65d61fe00ed7c54d4163279da7f915613aa94a88b0613801dfb82514f89bc86
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-ai|
@@ -14871,7 +14877,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-aigatew
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.750Z
+retrieved_at: 2026-03-17T07:25:43.824Z
 content_sha256: 176a5bf61186a45e338dcc9ab6e9320a7b4ae3d8bb356f8613506533348b3b69
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway|
@@ -14910,7 +14916,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-m
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:24.336Z
+retrieved_at: 2026-03-17T07:25:44.818Z
 content_sha256: 2811f9a08ce21f2cbc24c0da2abaa142bda66de5d17ce75dd706c5ecc6a763d8
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-cloud-migrate|
@@ -14952,7 +14958,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-complia
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.626Z
+retrieved_at: 2026-03-17T07:25:43.737Z
 content_sha256: abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-compliance|
@@ -14981,7 +14987,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compute
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:24.173Z
+retrieved_at: 2026-03-17T07:25:44.708Z
 content_sha256: dc71cfc7809c72f95ef36a37d086ed8f55d59d977a23eaba41423ae473da7c1a
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-compute|
@@ -15021,7 +15027,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-op
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.109Z
+retrieved_at: 2026-03-17T07:25:43.328Z
 content_sha256: 51b03b4e4b4089b5c0e8a817fab8a0e854c630180f09a8ae4a23726bbc0f9f5c
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization|
@@ -15061,7 +15067,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:45.719Z
+retrieved_at: 2026-03-17T07:23:01.463Z
 content_sha256: d63351e8f5a317d84acb28ec64f724ce50efee752043b81b3b380ee7a0db1211
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-deploy|
@@ -15103,7 +15109,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnos
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.241Z
+retrieved_at: 2026-03-17T07:25:43.409Z
 content_sha256: 8d7772007db8635af33cce1dde78f82e22f8c9df143e10a960e841cb2e479dd4
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-diagnostics|
@@ -15132,7 +15138,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:23.883Z
+retrieved_at: 2026-03-17T07:25:44.497Z
 content_sha256: b3943c725135fcf780a2a5d768ad3c7ef1ea9485b4c0585be43b788bc6ab44f5
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-hosted-copilot-sdk|
@@ -15177,7 +15183,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-messagi
 github_stars: 114
 github_forks: 72
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:28.855Z
+retrieved_at: 2026-03-17T07:22:49.497Z
 content_sha256: 206d243b21e22a129b68a4ba36729e18b740bffaf2dfa1aecc9fd36dc7d4df02
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-messaging|
@@ -15217,7 +15223,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.894Z
+retrieved_at: 2026-03-17T07:25:43.915Z
 content_sha256: 80dce2a24b8956959be4e50e90b69c109fb1b25fc1f2029ad9fc2c35e591731d
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-prepare|
@@ -15256,7 +15262,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resourc
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:23.420Z
+retrieved_at: 2026-03-17T07:25:44.200Z
 content_sha256: 478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup|
@@ -15294,7 +15300,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resourc
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:23.065Z
+retrieved_at: 2026-03-17T07:25:44.015Z
 content_sha256: fb7c11feca04a1ad967a4eb83ad823ac25d0b8e1252a39bada62d4b91159597c
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-resource-visualizer|
@@ -15323,7 +15329,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-storage
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:21.978Z
+retrieved_at: 2026-03-17T07:25:43.228Z
 content_sha256: afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-storage|
@@ -15362,7 +15368,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-validat
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:23.249Z
+retrieved_at: 2026-03-17T07:25:44.107Z
 content_sha256: 81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-azure-validate|
@@ -15401,7 +15407,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/entra-app-reg
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:22.375Z
+retrieved_at: 2026-03-17T07:25:43.546Z
 content_sha256: c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration|
@@ -15442,7 +15448,7 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-fou
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:23.584Z
+retrieved_at: 2026-03-17T07:25:44.332Z
 content_sha256: 7798647a6ae6d10c8ed6b482f0e2fa741fd4e38396a516312ff0ec2fbef80ae8
 ---
 |/data/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry|
@@ -15482,7 +15488,7 @@ upstream_ref: https://skills.sh/microsoft/playwright-cli/playwright-cli
 github_stars: 4106
 github_forks: 154
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:44.617Z
+retrieved_at: 2026-03-17T07:23:00.357Z
 content_sha256: 54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c
 ---
 |/data/skills-sh-microsoft-playwright-cli-playwright-cli|
@@ -15511,7 +15517,7 @@ upstream_ref: https://skills.sh/molezzz/openclaw-stock-skill/akshare-stock
 github_stars: 3
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:21.499Z
+retrieved_at: 2026-03-17T07:25:42.918Z
 content_sha256: 235be18f969784adbbeb19470e245ad55469c5abb909a7948213dc8c1073cbeb
 ---
 |/data/skills-sh-molezzz-openclaw-stock-skill-akshare-stock|
@@ -15551,7 +15557,7 @@ upstream_ref: https://skills.sh/mrgoonie/claudekit-skills/chrome-devtools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.321Z
+retrieved_at: 2026-03-17T07:22:45.514Z
 content_sha256: fa81fa0fda1ae94ff2c25c924cfcb16f5a6e967b6d8412ddd372dc8a1b26f601
 ---
 |/data/skills-sh-mrgoonie-claudekit-skills-chrome-devtools|
@@ -15587,7 +15593,7 @@ upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
 github_stars: 5
 github_forks: 3
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:45.410Z
+retrieved_at: 2026-03-17T07:26:01.066Z
 content_sha256: 8248fda5666bd149a0275c3ab104b9794406255580d59da018ba1eff3e9d58e0
 ---
 |/data/skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2|
@@ -15616,7 +15622,7 @@ upstream_ref: https://skills.sh/nuxt/ui/nuxt-ui
 github_stars: 6254
 github_forks: 1017
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:27.046Z
+retrieved_at: 2026-03-17T07:22:47.978Z
 content_sha256: e24b7e54fcfb8ba9e4e061f3d5f94c84e771bac41ecfb371c875219081f0c034
 ---
 |/data/skills-sh-nuxt-ui-nuxt-ui|
@@ -15655,7 +15661,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/document-writer
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:16.896Z
+retrieved_at: 2026-03-17T07:25:39.025Z
 content_sha256: 978b9e55ca9c992652d2b6ff28b57d75d24771b4c5b53fab1d33421c49615769
 ---
 |/data/skills-sh-onmax-nuxt-skills-document-writer|
@@ -15684,7 +15690,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/motion
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.933Z
+retrieved_at: 2026-03-17T07:22:45.155Z
 content_sha256: 739a643e263a50006fb29dce5fd1e84a704574d4bdfcda485b4951023ac02110
 ---
 |/data/skills-sh-onmax-nuxt-skills-motion|
@@ -15723,7 +15729,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-better-auth
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:18.625Z
+retrieved_at: 2026-03-17T07:25:40.546Z
 content_sha256: 2fb4a6e8b4eae28125eef6479a7c78dbd9ebde2152c800f7b804407308ec1f17
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-better-auth|
@@ -15762,7 +15768,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-content
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:18.103Z
+retrieved_at: 2026-03-17T07:25:40.032Z
 content_sha256: eb10a535052b1ecf968008adaf360e1fb130f229808e83482519b83c78aaae4c
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-content|
@@ -15791,7 +15797,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-modules
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:17.732Z
+retrieved_at: 2026-03-17T07:25:39.772Z
 content_sha256: 22572b0823c7d75231a6ab867e3e83bc98a3fa8758dd51645b0bede5a8d6081b
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-modules|
@@ -15820,7 +15826,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-seo
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:19.471Z
+retrieved_at: 2026-03-17T07:25:41.232Z
 content_sha256: 5fe0f6314f21f851027e203b33e483fa94d318ec6ac82fa047124674b82a89b0
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-seo|
@@ -15849,7 +15855,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-ui
 github_stars: 543
 github_forks: 23
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:25.138Z
+retrieved_at: 2026-03-17T07:22:46.500Z
 content_sha256: 3eebd995590401035dd57598ce2f6eee22e8d7ca0403044f80b5765a847e34c7
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxt-ui|
@@ -15888,7 +15894,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxthub
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:19.841Z
+retrieved_at: 2026-03-17T07:25:41.588Z
 content_sha256: 1df7576b8c23b52e21dc0dd36dc3b586257f66bdaa36acc8d8a48eec872add8f
 ---
 |/data/skills-sh-onmax-nuxt-skills-nuxthub|
@@ -15934,7 +15940,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/reka-ui
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:45.927Z
+retrieved_at: 2026-03-17T07:26:01.462Z
 content_sha256: 48e417f86ac1fc35c038d9cf6b377a5461a09032a285883cf125f4aa33180f9c
 ---
 |/data/skills-sh-onmax-nuxt-skills-reka-ui|
@@ -15963,7 +15969,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/ts-library
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:46.073Z
+retrieved_at: 2026-03-17T07:23:01.703Z
 content_sha256: 2c48c69f958dbc84d435513df0b8ba0d1d507b72d8eb3033c3413f70875ee18b
 ---
 |/data/skills-sh-onmax-nuxt-skills-ts-library|
@@ -16009,7 +16015,7 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/vueuse
 github_stars: 560
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:45.327Z
+retrieved_at: 2026-03-17T07:23:01.145Z
 content_sha256: c6d81de9900fc2d7897f89626e8c87686c2c7662e61dab51fefef6c902e02599
 ---
 |/data/skills-sh-onmax-nuxt-skills-vueuse|
@@ -16038,7 +16044,7 @@ upstream_ref: https://skills.sh/op7418/document-illustrator-skill/document-illus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.894Z
+retrieved_at: 2026-03-17T07:22:26.697Z
 content_sha256: 159a7b86419b7c27afba2754781575ad5537eb7b83195d9d62dadc733debffc2
 ---
 |/data/skills-sh-op7418-document-illustrator-skill-document-illustrator|
@@ -16067,7 +16073,7 @@ upstream_ref: https://skills.sh/op7418/humanizer-zh/humanizer-zh
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:58.731Z
+retrieved_at: 2026-03-17T07:22:25.972Z
 content_sha256: e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb
 ---
 |/data/skills-sh-op7418-humanizer-zh-humanizer-zh|
@@ -16096,7 +16102,7 @@ upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
 github_stars: 1428
 github_forks: 224
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:13.707Z
+retrieved_at: 2026-03-17T07:25:36.357Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---
 |/data/skills-sh-op7418-youtube-clipper-skill-youtube-clipper|
@@ -16125,7 +16131,7 @@ upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.345Z
+retrieved_at: 2026-03-17T07:22:30.462Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---
 |/data/skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db|
@@ -16157,7 +16163,7 @@ upstream_ref: https://skills.sh/othmanadi/planning-with-files/pi-planning-with-f
 github_stars: 16135
 github_forks: 1482
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:45.539Z
+retrieved_at: 2026-03-17T07:26:01.164Z
 content_sha256: 03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa
 ---
 |/data/skills-sh-othmanadi-planning-with-files-pi-planning-with-files|
@@ -16189,7 +16195,7 @@ upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-file
 github_stars: 16135
 github_forks: 1482
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:35.538Z
+retrieved_at: 2026-03-17T07:25:54.121Z
 content_sha256: 03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa
 ---
 |/data/skills-sh-othmanadi-planning-with-files-planning-with-files|
@@ -16218,7 +16224,7 @@ upstream_ref: https://skills.sh/payloadcms/skills/payload
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:31.107Z
+retrieved_at: 2026-03-17T07:22:51.020Z
 content_sha256: 990172ff51d8958c9711a23e0857029ef2c92dfeb75112e304aa96af1704825d
 ---
 |/data/skills-sh-payloadcms-skills-payload|
@@ -16263,7 +16269,7 @@ upstream_ref: https://skills.sh/pexoai/pexo-skills/videoagent-video-studio
 github_stars: 194
 github_forks: 10
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:31.823Z
+retrieved_at: 2026-03-17T07:25:51.408Z
 content_sha256: c18c3b7a89765b6c1292e074c22ed56a6334b71e91ef192fb86de60dcd754f74
 ---
 |/data/skills-sh-pexoai-pexo-skills-videoagent-video-studio|
@@ -16302,7 +16308,7 @@ upstream_ref: https://skills.sh/planetscale/database-skills/postgres
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:16.513Z
+retrieved_at: 2026-03-17T07:25:38.679Z
 content_sha256: a831161ebd0343cfb506a069e0d6d4b274c671c81d2580c544c4ffed136a04ba
 ---
 |/data/skills-sh-planetscale-database-skills-postgres|
@@ -16345,7 +16351,7 @@ upstream_ref: https://skills.sh/pleaseprompto/notebooklm-skill/notebooklm
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.373Z
+retrieved_at: 2026-03-17T07:22:26.359Z
 content_sha256: 8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e
 ---
 |/data/skills-sh-pleaseprompto-notebooklm-skill-notebooklm|
@@ -16385,7 +16391,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/clean-architecture
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.539Z
+retrieved_at: 2026-03-17T07:22:45.702Z
 content_sha256: f7c28c5d06988ac8103107c643864bbf8fbdb4710379cc04099970ca7be1a54f
 ---
 |/data/skills-sh-pproenca-dot-skills-clean-architecture|
@@ -16425,7 +16431,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/nuqs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:25.643Z
+retrieved_at: 2026-03-17T07:22:46.937Z
 content_sha256: b9e4443768bf511646481557c779ff23c1045b0978750577dc0699c1ce759b82
 ---
 |/data/skills-sh-pproenca-dot-skills-nuqs|
@@ -16467,7 +16473,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/typescript
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:27.986Z
+retrieved_at: 2026-03-17T07:22:48.738Z
 content_sha256: bd6767139e4f005dc79cb3d8c5dec25a25eb2b0ac6e2fa0f1571fe8595ca2ffe
 ---
 |/data/skills-sh-pproenca-dot-skills-typescript|
@@ -16510,7 +16516,7 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/zod
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.452Z
+retrieved_at: 2026-03-17T07:25:42.088Z
 content_sha256: f9518bb5e0e5dff531041fd82962a307495f034ec0259217ab4a47a1090236c2
 ---
 |/data/skills-sh-pproenca-dot-skills-zod|
@@ -16555,7 +16561,7 @@ upstream_ref: https://skills.sh/pskoett/self-improving-agent/self-improvement
 github_stars: 5
 github_forks: 2
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:21.209Z
+retrieved_at: 2026-03-17T07:25:42.749Z
 content_sha256: 6234697e11dba69808d105f9cf9c96879a23301a707ceb37f0a0ae50fa2e381b
 ---
 |/data/skills-sh-pskoett-self-improving-agent-self-improvement|
@@ -16598,7 +16604,7 @@ upstream_ref: https://skills.sh/pulumi/agent-skills/pulumi-arm-to-pulumi
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:45.085Z
+retrieved_at: 2026-03-17T07:23:00.779Z
 content_sha256: ea39de8e596c580b86a0d0e4878bd3a29acf19b65549d641c50bff203bdb24b5
 ---
 |/data/skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi|
@@ -16627,7 +16633,7 @@ upstream_ref: https://skills.sh/ramziddin/solid-skills/solid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:28.218Z
+retrieved_at: 2026-03-17T07:22:49.081Z
 content_sha256: 3d8ba447496e8cb11ef7bf06b00eb34b3a89da78cc9f02d3ac0519698086fc12
 ---
 |/data/skills-sh-ramziddin-solid-skills-solid|
@@ -16664,7 +16670,7 @@ upstream_ref: https://skills.sh/remotion-dev/skills/remotion-best-practices
 github_stars: 2143
 github_forks: 261
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:21.636Z
+retrieved_at: 2026-03-17T07:25:43.028Z
 content_sha256: 9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30
 ---
 |/data/skills-sh-remotion-dev-skills-remotion-best-practices|
@@ -16693,7 +16699,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:20.854Z
+retrieved_at: 2026-03-17T07:22:42.315Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---
 |/data/skills-sh-resciencelab-opc-skills-banner-creator|
@@ -16722,7 +16728,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.736Z
+retrieved_at: 2026-03-17T07:22:30.766Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---
 |/data/skills-sh-resciencelab-opc-skills-banner-creator-b321459d|
@@ -16765,7 +16771,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.720Z
+retrieved_at: 2026-03-17T07:22:43.892Z
 content_sha256: 3f36d8253a88fad4526356ade419c97393b075e7c4d3a288e519525be0463078
 ---
 |/data/skills-sh-resciencelab-opc-skills-domain-hunter|
@@ -16808,7 +16814,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/domain-hunter
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:03.602Z
+retrieved_at: 2026-03-17T07:22:30.672Z
 content_sha256: 3f36d8253a88fad4526356ade419c97393b075e7c4d3a288e519525be0463078
 ---
 |/data/skills-sh-resciencelab-opc-skills-domain-hunter-6d172174|
@@ -16848,7 +16854,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/logo-creator
 github_stars: 480
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:18.360Z
+retrieved_at: 2026-03-17T07:25:40.245Z
 content_sha256: 3586f209bc6f7f3e0addbeb289d240f3d0b13cfae654a33512b12ba1bd2df80e
 ---
 |/data/skills-sh-resciencelab-opc-skills-logo-creator|
@@ -16877,7 +16883,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/nanobanana
 github_stars: 480
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:18.806Z
+retrieved_at: 2026-03-17T07:25:40.656Z
 content_sha256: f48d19fe05684f799698b03b46178dc7f2003acc3407b6b78fe5f102de721b24
 ---
 |/data/skills-sh-resciencelab-opc-skills-nanobanana|
@@ -16916,7 +16922,7 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/seo-geo
 github_stars: 580
 github_forks: 58
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:31.586Z
+retrieved_at: 2026-03-17T07:25:51.224Z
 content_sha256: 76f781cd26f929b87d943775db223523a444ef4c66e8ee143c4d9ccdb8850457
 ---
 |/data/skills-sh-resciencelab-opc-skills-seo-geo|
@@ -16956,7 +16962,7 @@ upstream_ref: https://skills.sh/resend/email-best-practices/email-best-practices
 github_stars: 125
 github_forks: 10
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.267Z
+retrieved_at: 2026-03-17T07:25:58.231Z
 content_sha256: 8f17c44bc4e371cf8eda4790b79aeda6152a0a3ec8c71e08b01f2e84a9c974a7
 ---
 |/data/skills-sh-resend-email-best-practices-email-best-practices|
@@ -16999,87 +17005,10 @@ upstream_ref: https://skills.sh/resend/react-email/react-email
 github_stars: 18106
 github_forks: 921
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:44.102Z
+retrieved_at: 2026-03-17T07:23:00.049Z
 content_sha256: cb169f1ec7b73363d6fdc609de53c1a42e6743839830d6d81dd4bf44db53ea0b
 ---
 |/data/skills-sh-resend-react-email-react-email|
-
----
-stable_id: skills/skills-sh-resend-resend-skills-resend
-type: skills
-title: skills-sh-resend-resend-skills-resend
-summary: >-
-  ---
-
-  name: resend
-
-  description: Use when working with Resend email platform - routes to specific
-  sub-skills for sending, receiving, audiences, or broadcasts.
-
-  license: MIT
-
-  metadata:
-      author: resend
-      version: "2.7.1"
-      homepage: https://resend.com
-      source: https://github.com/resend/resend-skills
-  inputs:
-tags:
-  - skills-sh
-  - skills-sh-probed
-source_url: https://raw.githubusercontent.com/resend/resend-skills/main/SKILL.md
-license: ""
-upstream_ref: https://skills.sh/resend/resend-skills/resend
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.016Z
-content_sha256: 87c427e3be52c470ea3ffa384b027036de83c157375617f83899abde539cd4cc
----
-|/data/skills-sh-resend-resend-skills-resend|
-
----
-stable_id: skills/skills-sh-resend-resend-skills-send-email
-type: skills
-title: skills-sh-resend-resend-skills-send-email
-summary: >-
-  # Resend SDK Installation Guide
-
-  Always install the latest SDK version to ensure you have support for all
-  features including webhook verification (`webhooks.verify()`) and email
-  receiving (`emails.receiving.get()`). Older versions may not include these
-  methods.
-
-  ## Minimum SDK Versions
-
-  These are the minimum versions required for full functionality (sending,
-  receiving, and webhook verification). Always prefer the latest version when
-  possible.
-
-  | Language | Package | Min Version | Install |
-
-  |----------|---------|-------------|---------|
-
-  | Node.js | `resend` | >= 6.9.2 | `npm install resend` |
-
-  | Python | `resend` | >= 2.21.0 | `pip install resend` |
-
-  | Go | `resend-go/v3` | >= 3.1.0 | `go get github.com/resend/resend-go/v3` |
-
-  | Ruby | `resend` | >= 1.0.0 | `gem install resend` |
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/resend/resend-skills/HEAD/send-email/references/installation.md
-license: ""
-upstream_ref: https://skills.sh/resend/resend-skills/send-email
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.603Z
-content_sha256: 7dddecf470934dbe83065c71d67759c40dae12db38f28d0ec9259ba7213a6c32
----
-|/data/skills-sh-resend-resend-skills-send-email|
 
 ---
 stable_id: skills/skills-sh-rivet-dev-skills-rivetkit
@@ -17116,7 +17045,7 @@ upstream_ref: https://skills.sh/rivet-dev/skills/rivetkit
 github_stars: 6
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:14.440Z
+retrieved_at: 2026-03-17T07:25:36.731Z
 content_sha256: 4fb61230b6a2797b8fd44962034cde091523eac07882cde86e4a674a35f2d99b
 ---
 |/data/skills-sh-rivet-dev-skills-rivetkit|
@@ -17145,7 +17074,7 @@ upstream_ref: https://skills.sh/rivet-dev/skills/sandbox-agent
 github_stars: 6
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:44.983Z
+retrieved_at: 2026-03-17T07:23:00.645Z
 content_sha256: ff197fd6e2e1533fb0c7358e6a2259616db2bc81607ed26a68228a73476e325c
 ---
 |/data/skills-sh-rivet-dev-skills-sandbox-agent|
@@ -17184,7 +17113,7 @@ upstream_ref: https://skills.sh/samhvw8/dot-claude/ui-design-system
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:46.423Z
+retrieved_at: 2026-03-17T07:26:01.833Z
 content_sha256: 8d12d8d26d288f383e36dabea1cda9f1a9bbd96b6d8d23b7e364403dd2cb5c8f
 ---
 |/data/skills-sh-samhvw8-dot-claude-ui-design-system|
@@ -17226,7 +17155,7 @@ upstream_ref: https://skills.sh/sawyerhood/dev-browser/dev-browser
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.479Z
+retrieved_at: 2026-03-17T07:22:44.503Z
 content_sha256: 44031cea3262dbf909d3657897b0b8bb30f0760520887f64e118b8f319cadddd
 ---
 |/data/skills-sh-sawyerhood-dev-browser-dev-browser|
@@ -17255,7 +17184,7 @@ upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:46.556Z
+retrieved_at: 2026-03-17T07:26:01.920Z
 content_sha256: 2106078af9182b688dadbe49784f45c77e60247cf9cd37f47122a27f8c37e71c
 ---
 |/data/skills-sh-schpet-linear-cli-linear-cli|
@@ -17294,7 +17223,7 @@ upstream_ref: https://skills.sh/shadcn/ui/shadcn
 github_stars: 109652
 github_forks: 8196
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:26.296Z
+retrieved_at: 2026-03-17T07:25:46.629Z
 content_sha256: 4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7
 ---
 |/data/skills-sh-shadcn-ui-shadcn|
@@ -17333,7 +17262,7 @@ upstream_ref: https://skills.sh/shubhamsaboo/awesome-llm-apps/python-expert
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:16.644Z
+retrieved_at: 2026-03-17T07:25:38.845Z
 content_sha256: 014a6e33d91a0645a9862723feb11d10f080ae2226ea87ec8f685291eb549cfc
 ---
 |/data/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert|
@@ -17362,7 +17291,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/active-direct
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:06.953Z
+retrieved_at: 2026-03-17T07:22:33.007Z
 content_sha256: 2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-active-directory-attacks|
@@ -17401,7 +17330,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/app-builder
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:24.659Z
+retrieved_at: 2026-03-17T07:22:45.888Z
 content_sha256: ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-app-builder|
@@ -17440,7 +17369,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/aws-penetrati
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:19.172Z
+retrieved_at: 2026-03-17T07:22:41.051Z
 content_sha256: 41556bd893e2f1762271c819b39d072d14b6fcc16879071bc060f470b8673c2d
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-aws-penetration-testing|
@@ -17476,7 +17405,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetra
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:18.956Z
+retrieved_at: 2026-03-17T07:22:40.815Z
 content_sha256: bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing|
@@ -17515,7 +17444,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-sk
 github_stars: 24669
 github_forks: 4233
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:45.290Z
+retrieved_at: 2026-03-17T07:26:00.979Z
 content_sha256: ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-playwright-skill|
@@ -17554,7 +17483,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/skill-develop
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.382Z
+retrieved_at: 2026-03-17T07:22:43.608Z
 content_sha256: 340a66dc9a527da89509459454de7c21a224ae6f0eeef70b6cbee610e7d2e16e
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-skill-developer|
@@ -17593,7 +17522,7 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/vulnerability
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.271Z
+retrieved_at: 2026-03-17T07:22:43.523Z
 content_sha256: fcad8d2be67a2ef31a223f2fba9e1ed13188fcc15857a584a8fb5b55d9813e42
 ---
 |/data/skills-sh-sickn33-antigravity-awesome-skills-vulnerability-scanner|
@@ -17633,7 +17562,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/c4-architecture
 github_stars: 1062
 github_forks: 78
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.761Z
+retrieved_at: 2026-03-17T07:25:58.608Z
 content_sha256: 608b39dd6ece1c2d4367fb06f3bd7d190332291e279391bfedb82f4749ced414
 ---
 |/data/skills-sh-softaworks-agent-toolkit-c4-architecture|
@@ -17673,7 +17602,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/difficult-workplace-con
 github_stars: 1062
 github_forks: 78
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.895Z
+retrieved_at: 2026-03-17T07:25:58.784Z
 content_sha256: 7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139
 ---
 |/data/skills-sh-softaworks-agent-toolkit-difficult-workplace-conversations|
@@ -17702,7 +17631,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/gepetto
 github_stars: 716
 github_forks: 56
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:15.457Z
+retrieved_at: 2026-03-17T07:25:37.737Z
 content_sha256: d219729ce530953d53aeb0a0831567a577981ee79df4f713c01845ced6214163
 ---
 |/data/skills-sh-softaworks-agent-toolkit-gepetto|
@@ -17741,7 +17670,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/meme-factory
 github_stars: 672
 github_forks: 53
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:43.500Z
+retrieved_at: 2026-03-17T07:22:59.681Z
 content_sha256: 6dd8e5fcc6d674a6abd592ef8f87455b6557fbf59d13608d2dfc5599df47d11e
 ---
 |/data/skills-sh-softaworks-agent-toolkit-meme-factory|
@@ -17778,7 +17707,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams
 github_stars: 1062
 github_forks: 78
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.382Z
+retrieved_at: 2026-03-17T07:25:58.318Z
 content_sha256: 5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3
 ---
 |/data/skills-sh-softaworks-agent-toolkit-mermaid-diagrams|
@@ -17807,7 +17736,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/qa-test-planner
 github_stars: 672
 github_forks: 53
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:43.357Z
+retrieved_at: 2026-03-17T07:22:59.568Z
 content_sha256: 42072c5db347039476bd1d045e5f7124018d50c4fd48a0d30cb3aceeb301ff68
 ---
 |/data/skills-sh-softaworks-agent-toolkit-qa-test-planner|
@@ -17843,7 +17772,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-dev
 github_stars: 1062
 github_forks: 78
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:42.260Z
+retrieved_at: 2026-03-17T07:25:59.066Z
 content_sha256: 385551bdf34ca46da9241299cc3850b801e98087f8a192c872691d3209d90738
 ---
 |/data/skills-sh-softaworks-agent-toolkit-react-dev|
@@ -17872,7 +17801,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-useeffect
 github_stars: 672
 github_forks: 53
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:43.696Z
+retrieved_at: 2026-03-17T07:22:59.786Z
 content_sha256: 69146321260d67972646ba3cc98465d516431f543c4908cc60c2d60886a8dda9
 ---
 |/data/skills-sh-softaworks-agent-toolkit-react-useeffect|
@@ -17908,7 +17837,7 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/session-handoff
 github_stars: 1062
 github_forks: 78
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.655Z
+retrieved_at: 2026-03-17T07:25:58.528Z
 content_sha256: 35492711db3a903cf431fe221b82b2d79e3e18aa9d9900dfc3685ee202e3e0e9
 ---
 |/data/skills-sh-softaworks-agent-toolkit-session-handoff|
@@ -17949,7 +17878,7 @@ upstream_ref: https://skills.sh/squirrelscan/skills/audit-website
 github_stars: 65
 github_forks: 7
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:25.075Z
+retrieved_at: 2026-03-17T07:25:45.703Z
 content_sha256: 4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a
 ---
 |/data/skills-sh-squirrelscan-skills-audit-website|
@@ -17984,7 +17913,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/ai-tool-compliance
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:38.331Z
+retrieved_at: 2026-03-17T07:25:56.195Z
 content_sha256: c4ce97a7e81a436e518e65f4777dcdd67b370eca74a4a1b32e46cebbea2d4724
 ---
 |/data/skills-sh-supercent-io-skills-template-ai-tool-compliance|
@@ -18022,7 +17951,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/code-refactoring
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:28.690Z
+retrieved_at: 2026-03-17T07:25:48.695Z
 content_sha256: 95b1d9c73416f671f2b98f21533ed0541ef58794276990d65f0824bccce683e9
 ---
 |/data/skills-sh-supercent-io-skills-template-code-refactoring|
@@ -18051,7 +17980,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/codebase-search
 github_stars: 60967
 github_forks: 2429
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:29.674Z
+retrieved_at: 2026-03-17T07:25:49.417Z
 content_sha256: f79e4aa0bc39fb5b88e612b459ef2bf57455cbb87a7c600a244f08bef323ba32
 ---
 |/data/skills-sh-supercent-io-skills-template-codebase-search|
@@ -18087,7 +18016,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/database-schema-des
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:28.279Z
+retrieved_at: 2026-03-17T07:25:48.284Z
 content_sha256: ff98cf20b0832240cdff4c84bf4da769e10431b36a344933b66760dae0c61ea8
 ---
 |/data/skills-sh-supercent-io-skills-template-database-schema-design|
@@ -18128,7 +18057,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/llm-monitoring-dash
 github_stars: 128
 github_forks: 3
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:37.797Z
+retrieved_at: 2026-03-17T07:25:55.726Z
 content_sha256: 1975b4cb7f02dafe3cbd299b52918bcf4cfb37e5823d59ea7f8720a52d001922
 ---
 |/data/skills-sh-supercent-io-skills-template-llm-monitoring-dashboard|
@@ -18166,7 +18095,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/looker-studio-bigqu
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:30.327Z
+retrieved_at: 2026-03-17T07:25:50.180Z
 content_sha256: 19332680187528c26a466d33743506fd200ccf152a26468eb52aa34b60ca642a
 ---
 |/data/skills-sh-supercent-io-skills-template-looker-studio-bigquery|
@@ -18204,7 +18133,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/npm-git-install
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:30.481Z
+retrieved_at: 2026-03-17T07:25:50.261Z
 content_sha256: ca3c98837189b1d87c0ee6cdc9e6bf49b75b137b5a700c5ee74d3c00391e5445
 ---
 |/data/skills-sh-supercent-io-skills-template-npm-git-install|
@@ -18242,7 +18171,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/performance-optimiz
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:28.842Z
+retrieved_at: 2026-03-17T07:25:48.778Z
 content_sha256: 19e359c21cc43cda372c892070131305858b15a443e81ba68a3cfd5d540b5533
 ---
 |/data/skills-sh-supercent-io-skills-template-performance-optimization|
@@ -18271,7 +18200,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/plannotator
 github_stars: 3151
 github_forks: 182
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:30.608Z
+retrieved_at: 2026-03-17T07:25:50.347Z
 content_sha256: 6364394057d7b3bb2963ed2b373cdb9ee7c20c173cfe1a7cc635ee0306025172
 ---
 |/data/skills-sh-supercent-io-skills-template-plannotator|
@@ -18309,7 +18238,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/pptx-presentation-b
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:31.958Z
+retrieved_at: 2026-03-17T07:25:51.529Z
 content_sha256: 2180a954009ac80e04f67bdf213bbb5c0882905fe1de536108d8d6810ea73f7c
 ---
 |/data/skills-sh-supercent-io-skills-template-pptx-presentation-builder|
@@ -18348,7 +18277,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/ralphmode
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:43.374Z
+retrieved_at: 2026-03-17T07:25:59.746Z
 content_sha256: 34ee8e1fa13bacb2fad5a9215874981731947136fa53abb790d0f0a343240eca
 ---
 |/data/skills-sh-supercent-io-skills-template-ralphmode|
@@ -18386,7 +18315,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/react-best-practice
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:43.225Z
+retrieved_at: 2026-03-17T07:25:59.654Z
 content_sha256: f50ae83a4b001635e8a12c94dd71078099d89c5c548a8707adf299779bef47c5
 ---
 |/data/skills-sh-supercent-io-skills-template-react-best-practices|
@@ -18424,7 +18353,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/security-best-pract
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:27.534Z
+retrieved_at: 2026-03-17T07:25:47.530Z
 content_sha256: 3c612477d65b62b853fa6a44d7a540928e4e00d047f7b4b97665db04c4485d4c
 ---
 |/data/skills-sh-supercent-io-skills-template-security-best-practices|
@@ -18462,7 +18391,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/testing-strategies
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:29.088Z
+retrieved_at: 2026-03-17T07:25:48.966Z
 content_sha256: 91eb6da411be4897aafa9c97f7ec5ce98a1d753b8ca9ed2f0dda4997be9c0113
 ---
 |/data/skills-sh-supercent-io-skills-template-testing-strategies|
@@ -18500,7 +18429,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/ui-component-patter
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:29.945Z
+retrieved_at: 2026-03-17T07:25:49.623Z
 content_sha256: 21aa528bc67c0821df33ab4e45a1634ae1a9b336f89f8d227e21ac712d8474ea
 ---
 |/data/skills-sh-supercent-io-skills-template-ui-component-patterns|
@@ -18538,7 +18467,7 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/vercel-deploy
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:30.071Z
+retrieved_at: 2026-03-17T07:25:49.832Z
 content_sha256: 542d86db666473699645cd921ddc37f0e9927de839af0401968be0d0a254e9b4
 ---
 |/data/skills-sh-supercent-io-skills-template-vercel-deploy|
@@ -18576,39 +18505,10 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:28.144Z
+retrieved_at: 2026-03-17T07:25:48.204Z
 content_sha256: c710ffc6971487f29e0925d10e5f08365998b5d0aea38ffeefc0cd9bfc98182d
 ---
 |/data/skills-sh-supercent-io-skills-template-web-accessibility|
-
----
-stable_id: skills/skills-sh-tavily-ai-skills-tavily-best-practices
-type: skills
-title: skills-sh-tavily-ai-skills-tavily-best-practices
-summary: |-
-  # SDK Reference
-  ## Table of Contents
-  - [Python SDK](#python-sdk)
-  - [JavaScript SDK](#javascript-sdk)
-  - [Async Patterns](#async-patterns)
-  - [Hybrid RAG](#hybrid-rag)
-  ---
-  ## Python SDK
-  ### Installation
-  ```bash
-tags:
-  - skills-sh
-  - skills-sh-all-time
-source_url: https://raw.githubusercontent.com/tavily-ai/skills/HEAD/skills/tavily/tavily-best-practices/references/sdk.md
-license: ""
-upstream_ref: https://skills.sh/tavily-ai/skills/tavily-best-practices
-github_stars: 87
-github_forks: 8
-github_is_organization: true
-retrieved_at: 2026-03-16T17:31:42.404Z
-content_sha256: b0c745315f2ca16647a2c298644dc9918ea31bf732921b02841e26814da2087a
----
-|/data/skills-sh-tavily-ai-skills-tavily-best-practices|
 
 ---
 stable_id: skills/skills-sh-trailofbits-skills-address-sanitizer
@@ -18643,7 +18543,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/address-sanitizer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.856Z
+retrieved_at: 2026-03-17T07:25:42.485Z
 content_sha256: 27557aaef97cc5f580f247e803eea591e7f8006f55b1beb5acb2d7ebcf6c64fa
 ---
 |/data/skills-sh-trailofbits-skills-address-sanitizer|
@@ -18678,7 +18578,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/aflpp
 github_stars: 6326
 github_forks: 1262
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:47.350Z
+retrieved_at: 2026-03-17T07:23:02.629Z
 content_sha256: 15aafcaaed9114afd456a8d980fece04be25bd24af54a14d0d76b53b59ff47e0
 ---
 |/data/skills-sh-trailofbits-skills-aflpp|
@@ -18720,7 +18620,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/atheris
 github_stars: 1588
 github_forks: 119
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:47.207Z
+retrieved_at: 2026-03-17T07:23:02.465Z
 content_sha256: a0e6d407dee1c72505af1c5349a58c29b71dfa3c092f55ecc3b6108278b1b58b
 ---
 |/data/skills-sh-trailofbits-skills-atheris|
@@ -18761,7 +18661,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/audit-context-building
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:18.941Z
+retrieved_at: 2026-03-17T07:25:40.766Z
 content_sha256: 49024fff7893c383618ae71e969a6ac1b9d96f672348e1810383b04f8b265d7c
 ---
 |/data/skills-sh-trailofbits-skills-audit-context-building|
@@ -18801,7 +18701,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/code-maturity-assessor
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:19.948Z
+retrieved_at: 2026-03-17T07:25:41.774Z
 content_sha256: 0ffe131842b209de7910cc2ac77fc1e2cdea1e16455bfba79505c8ba8179009f
 ---
 |/data/skills-sh-trailofbits-skills-code-maturity-assessor|
@@ -18840,7 +18740,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/codeql
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:45.569Z
+retrieved_at: 2026-03-17T07:23:01.369Z
 content_sha256: 7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1
 ---
 |/data/skills-sh-trailofbits-skills-codeql|
@@ -18880,7 +18780,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/constant-time-analysis
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.564Z
+retrieved_at: 2026-03-17T07:25:42.276Z
 content_sha256: 7c6f69897fc9629c4f26011507685e6cb4b79f1e1881f6f3a23d8e136f1d42fb
 ---
 |/data/skills-sh-trailofbits-skills-constant-time-analysis|
@@ -18919,7 +18819,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/differential-review
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:31.557Z
+retrieved_at: 2026-03-17T07:22:51.331Z
 content_sha256: 16b335d24cf2145e3dc4a37f50056550d29db2efa20e6df78fec95ec1e6fb0b4
 ---
 |/data/skills-sh-trailofbits-skills-differential-review|
@@ -18959,7 +18859,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/firebase-apk-scanner
 github_stars: 2952
 github_forks: 236
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:46.788Z
+retrieved_at: 2026-03-17T07:23:02.218Z
 content_sha256: 7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa
 ---
 |/data/skills-sh-trailofbits-skills-firebase-apk-scanner|
@@ -18988,7 +18888,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/guidelines-advisor
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:19.334Z
+retrieved_at: 2026-03-17T07:25:41.136Z
 content_sha256: 951352a5e7c3afa717ed62770ae1b7c152c4792480e3beebefc68f9c96d2a46c
 ---
 |/data/skills-sh-trailofbits-skills-guidelines-advisor|
@@ -19027,7 +18927,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/harness-writing
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.714Z
+retrieved_at: 2026-03-17T07:25:42.393Z
 content_sha256: 8d02acadc413ae8aca770761382c32a0d468a4616ecca91bcabe171c0c89587a
 ---
 |/data/skills-sh-trailofbits-skills-harness-writing|
@@ -19067,7 +18967,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/insecure-defaults
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:29.749Z
+retrieved_at: 2026-03-17T07:22:50.026Z
 content_sha256: 1d47703f84b6c5866e299e46f7f797c6178c2896fe37e02759fec5bfbf5b8d1f
 ---
 |/data/skills-sh-trailofbits-skills-insecure-defaults|
@@ -19107,7 +19007,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/modern-python
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.053Z
+retrieved_at: 2026-03-17T07:25:41.844Z
 content_sha256: 4be1c181c71aab64ba58573242a1c451d576a5c61ceeb400bb5827f4e1f9532a
 ---
 |/data/skills-sh-trailofbits-skills-modern-python|
@@ -19136,7 +19036,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/ossfuzz
 github_stars: 447
 github_forks: 81
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:46.902Z
+retrieved_at: 2026-03-17T07:23:02.296Z
 content_sha256: d56091780455026c0e196ef220a339b081bada399e43384d3d85578210591297
 ---
 |/data/skills-sh-trailofbits-skills-ossfuzz|
@@ -19165,7 +19065,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/secure-workflow-guide
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:18.242Z
+retrieved_at: 2026-03-17T07:25:40.127Z
 content_sha256: 8b048011407a9a123a01ba4548b62a944f8cd5f271e4e0cdfe58b09583bd9291
 ---
 |/data/skills-sh-trailofbits-skills-secure-workflow-guide|
@@ -19205,7 +19105,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/semgrep
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:17.016Z
+retrieved_at: 2026-03-17T07:25:39.109Z
 content_sha256: 76c8d41c8fc2c36daa44171db345373e169da46a69387378a31ef26061102c97
 ---
 |/data/skills-sh-trailofbits-skills-semgrep|
@@ -19234,7 +19134,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
 github_stars: 2952
 github_forks: 236
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:46.347Z
+retrieved_at: 2026-03-17T07:23:01.881Z
 content_sha256: 1d99f2716f7bef18efe71015ce0c56e0f4961c042faa503d796d6d4d1626fdc6
 ---
 |/data/skills-sh-trailofbits-skills-sharp-edges|
@@ -19270,7 +19170,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/solana-vulnerability-scanner
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:19.597Z
+retrieved_at: 2026-03-17T07:25:41.328Z
 content_sha256: 15e16aaf36eb2d8edad7586dd59968723327798848ee966baa6fef5edb2abb7e
 ---
 |/data/skills-sh-trailofbits-skills-solana-vulnerability-scanner|
@@ -19311,7 +19211,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/spec-to-code-compliance
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:31.676Z
+retrieved_at: 2026-03-17T07:22:51.452Z
 content_sha256: 053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec
 ---
 |/data/skills-sh-trailofbits-skills-spec-to-code-compliance|
@@ -19352,7 +19252,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/substrate-vulnerability-scann
 github_stars: 2952
 github_forks: 236
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:47.010Z
+retrieved_at: 2026-03-17T07:23:02.372Z
 content_sha256: 680d9d93f9cc11731469489ca3579b844e0d0d1ffec6f73520dffdc1c3a8a9b7
 ---
 |/data/skills-sh-trailofbits-skills-substrate-vulnerability-scanner|
@@ -19392,7 +19292,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/testing-handbook-generator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:20.978Z
+retrieved_at: 2026-03-17T07:25:42.568Z
 content_sha256: 2bc2412af856e91ffacefb85a9f98811fe7238c99b485c03cf206969fee9dfa1
 ---
 |/data/skills-sh-trailofbits-skills-testing-handbook-generator|
@@ -19432,7 +19332,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/token-integration-analyzer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:19.215Z
+retrieved_at: 2026-03-17T07:25:41.050Z
 content_sha256: bf1313e59c960688cc73bda5b7a98579336a277c521b9b37937aa1cda3a122a7
 ---
 |/data/skills-sh-trailofbits-skills-token-integration-analyzer|
@@ -19471,7 +19371,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/ton-vulnerability-scanner
 github_stars: 455
 github_forks: 376
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:47.462Z
+retrieved_at: 2026-03-17T07:23:02.706Z
 content_sha256: e00a2bb5e7cf5ac448b298c192a3936a89d5dd7e6eeb3b2e7e089ad9b958de61
 ---
 |/data/skills-sh-trailofbits-skills-ton-vulnerability-scanner|
@@ -19510,7 +19410,7 @@ upstream_ref: https://skills.sh/trailofbits/skills/variant-analysis
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:18.512Z
+retrieved_at: 2026-03-17T07:25:40.451Z
 content_sha256: bbe15a7e6edf419f348564542fec22200b4f0ce30a0f801d620fbd2e406c14f3
 ---
 |/data/skills-sh-trailofbits-skills-variant-analysis|
@@ -19550,7 +19450,7 @@ upstream_ref: https://skills.sh/tursodatabase/turso/code-quality
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.342Z
+retrieved_at: 2026-03-17T07:22:52.108Z
 content_sha256: 13b6204799f68fe315b6d49d1dead9d48cbc433f25f638cc6100e9f95b511387
 ---
 |/data/skills-sh-tursodatabase-turso-code-quality|
@@ -19569,7 +19469,7 @@ upstream_ref: https://skills.sh/tursodatabase/turso/debugging
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.354Z
+retrieved_at: 2026-03-17T07:22:44.305Z
 content_sha256: 035ef38c7aee378f499dc21d4f4a7893aba8a0983fff6d6d7b8b26faf649b748
 ---
 |/data/skills-sh-tursodatabase-turso-debugging|
@@ -19608,7 +19508,7 @@ upstream_ref: https://skills.sh/tursodatabase/turso/testing
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:23.595Z
+retrieved_at: 2026-03-17T07:22:44.589Z
 content_sha256: 553e1e5ed219556549e87ecf892930a74fff4f8fe8a74aafd6c3122cf80e4505
 ---
 |/data/skills-sh-tursodatabase-turso-testing|
@@ -19637,7 +19537,7 @@ upstream_ref: https://skills.sh/vercel/ai/ai-sdk
 github_stars: 22654
 github_forks: 3992
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:28.027Z
+retrieved_at: 2026-03-17T07:25:48.110Z
 content_sha256: 64949f0614a629733d1c47d6e5d5b953d90a696e71922695f69248a21290dcad
 ---
 |/data/skills-sh-vercel-ai-ai-sdk|
@@ -19676,7 +19576,7 @@ upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
 github_stars: 22462
 github_forks: 1319
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:24.012Z
+retrieved_at: 2026-03-17T07:25:44.607Z
 content_sha256: 8ccc30f2613523630cf3771a07d71339676d93c63623631a4206521c6d78d2e5
 ---
 |/data/skills-sh-vercel-labs-agent-browser-agent-browser|
@@ -19716,7 +19616,7 @@ upstream_ref: https://skills.sh/vercel-labs/agent-browser/dogfood
 github_stars: 22462
 github_forks: 1319
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:31.323Z
+retrieved_at: 2026-03-17T07:25:50.918Z
 content_sha256: dee7e925f7fe001903de6cc14f9656bcda90d069bbf65a2273f22202efebba09
 ---
 |/data/skills-sh-vercel-labs-agent-browser-dogfood|
@@ -19745,7 +19645,7 @@ upstream_ref: https://skills.sh/vercel-labs/next-skills/next-best-practices
 github_stars: 721
 github_forks: 44
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:25.331Z
+retrieved_at: 2026-03-17T07:25:45.864Z
 content_sha256: 95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3
 ---
 |/data/skills-sh-vercel-labs-next-skills-next-best-practices|
@@ -19783,8 +19683,8 @@ upstream_ref: https://skills.sh/vercel/turborepo/turborepo
 github_stars: 30012
 github_forks: 2290
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:28.407Z
-content_sha256: 6127e06a055b555b23d4b31af12fe1bdbc77797b0ddbbceb9aee838896bd2109
+retrieved_at: 2026-03-17T07:25:48.383Z
+content_sha256: 54e8a99e06ef132276fcdf02d49792f31991c9a85a5291741227fa7a5073aeef
 ---
 |/data/skills-sh-vercel-turborepo-turborepo|
 
@@ -19827,7 +19727,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-debug-guides
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:22.969Z
+retrieved_at: 2026-03-17T07:22:44.051Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-debug-guides|
@@ -19875,7 +19775,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-jsx-best-practices
 github_stars: 1911
 github_forks: 100
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:44.244Z
+retrieved_at: 2026-03-17T07:26:00.210Z
 content_sha256: da8c635b448b23360bf1c53eea02b004bb755a712a0325c8851f9c33a072c834
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-jsx-best-practices|
@@ -19918,7 +19818,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-options-api-best-practices
 github_stars: 1611
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-03-16T17:27:27.171Z
+retrieved_at: 2026-03-17T07:22:48.058Z
 content_sha256: 7430211d979c775b3b4578438447a1d4c4b02c3ec925908041ae4f808eb7d788
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-options-api-best-practices|
@@ -19960,7 +19860,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices
 github_stars: 1911
 github_forks: 100
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:41.106Z
+retrieved_at: 2026-03-17T07:25:58.119Z
 content_sha256: fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-pinia-best-practices|
@@ -20002,7 +19902,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-router-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:20.167Z
+retrieved_at: 2026-03-17T07:22:41.896Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-router-best-practices|
@@ -20046,7 +19946,7 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-testing-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:21.255Z
+retrieved_at: 2026-03-17T07:22:42.671Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---
 |/data/skills-sh-vuejs-ai-skills-vue-testing-best-practices|
@@ -20089,7 +19989,7 @@ upstream_ref: https://skills.sh/waynesutton/convexskills/convex-functions
 github_stars: 335
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:14.860Z
+retrieved_at: 2026-03-17T07:25:37.237Z
 content_sha256: 20e2298b8ebeca51e189394ec924756dfaef5fa70170ff7fd2fbdb5177718fcd
 ---
 |/data/skills-sh-waynesutton-convexskills-convex-functions|
@@ -20121,7 +20021,7 @@ upstream_ref: https://skills.sh/whatevertogo/feishuskill/lark-mcp
 github_stars: 25
 github_forks: 4
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:43.862Z
+retrieved_at: 2026-03-17T07:25:59.972Z
 content_sha256: eab1c2aaacb473c9019f6de85c0a230afb265d5554a3e4edad122c11c64a6cd8
 ---
 |/data/skills-sh-whatevertogo-feishuskill-lark-mcp|
@@ -20161,7 +20061,7 @@ upstream_ref: https://skills.sh/wshobson/agents/context-driven-development
 github_stars: 29309
 github_forks: 3212
 github_is_organization: false
-retrieved_at: 2026-03-16T17:27:44.226Z
+retrieved_at: 2026-03-17T07:23:00.122Z
 content_sha256: ebfa857d59fd603e55c3a53f29dbf0f96e0bb21429edf2a78519bce995bf37c8
 ---
 |/data/skills-sh-wshobson-agents-context-driven-development|
@@ -20200,7 +20100,7 @@ upstream_ref: https://skills.sh/wshobson/agents/nextjs-app-router-patterns
 github_stars: 5779
 github_forks: 569
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:13.435Z
+retrieved_at: 2026-03-17T07:25:36.193Z
 content_sha256: 69a2811dc897b66d94690243a13ab78146a998b8753087c97d14c78a38643575
 ---
 |/data/skills-sh-wshobson-agents-nextjs-app-router-patterns|
@@ -20250,7 +20150,7 @@ upstream_ref: https://skills.sh/xenitv1/claude-code-maestro/maestro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:26:59.587Z
+retrieved_at: 2026-03-17T07:22:26.521Z
 content_sha256: 9e1ecadf0c6b3ec9edc2197af88c452c974e7ce3a7876d1875e303f5bd3b10ba
 ---
 |/data/skills-sh-xenitv1-claude-code-maestro-maestro|
@@ -20285,7 +20185,7 @@ upstream_ref: https://skills.sh/yizhiyanhua-ai/media-downloader/media-downloader
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.020Z
+retrieved_at: 2026-03-17T07:22:26.801Z
 content_sha256: e33de4030960111863b1a992657e79049a823f440b69851d1bb65a09204d19af
 ---
 |/data/skills-sh-yizhiyanhua-ai-media-downloader-media-downloader|
@@ -20316,7 +20216,7 @@ upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.135Z
+retrieved_at: 2026-03-17T07:22:26.903Z
 content_sha256: 668abbedcda5f863c80cd60fe89f388d72bde09ee6ec2f8b68797f1b63557884
 ---
 |/data/skills-sh-youmind-openlab-nano-banana-pro-prompts-recommend-skill-nano-banana-pro-prompts-recommend-skill|
@@ -20355,7 +20255,7 @@ upstream_ref: https://skills.sh/zaddy6/agent-email-skill/agent-email-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:31:46.055Z
+retrieved_at: 2026-03-17T07:26:01.558Z
 content_sha256: 31cb0325dc81ca6522fe0b64c3ddae01c1d1a1a31d80b79ff9c4207e9c5d7c2b
 ---
 |/data/skills-sh-zaddy6-agent-email-skill-agent-email-cli|
@@ -20399,7 +20299,7 @@ upstream_ref: https://skills.sh/zaferayan/skills/zafer-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:00.269Z
+retrieved_at: 2026-03-17T07:22:26.981Z
 content_sha256: dc010b204b24e8ba93afdaebf5e3093c377918cf7b0250afb928383e48b2ac0d
 ---
 |/data/skills-sh-zaferayan-skills-zafer-skills|
@@ -20428,7 +20328,7 @@ upstream_ref: https://skills.sh/zhjiang22/openclaw-xhs/xiaohongshu
 github_stars: 66
 github_forks: 10
 github_is_organization: false
-retrieved_at: 2026-03-16T17:31:21.334Z
+retrieved_at: 2026-03-17T07:25:42.833Z
 content_sha256: 54e65dc79c7cf4e4285ee563ff3a96cbab427bf2f257c7e20f18b922046b6f01
 ---
 |/data/skills-sh-zhjiang22-openclaw-xhs-xiaohongshu|

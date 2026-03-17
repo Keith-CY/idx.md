@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-03-16T17:27:32.736Z",
+  "generated_at": "2026-03-17T07:22:52.380Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.2.76 - Added `forkSession(sessionId, opts?)` for branching conversations from a point - Added `cancel_async_message` control subtype to drop a queued user message by UUID before execution - Added `planFilePath` field to `ExitPlanMode` tool input for hooks and SDK consumers - Added MCP elicitation hook types and `SDKElicitationCompleteMessage` system message for handling MCP server input requests programmatically - Updated to parity with Claude Code v2.1.76 ## 0.2.75 - Added `tag` and `createdAt` fields to `SDKSessionInfo` - Added `getSessionInfo(sessionId, opts?)` for single-session metadata lookup\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.2.77 - Added `api_retry` system messages when retrying transient API errors, exposing attempt count, max retries, delay, and error status - Updated to parity with Claude Code v2.1.77 ## 0.2.76 - Added `forkSession(sessionId, opts?)` for branching conversations from a point - Added `cancel_async_message` control subtype to drop a queued user message by UUID before execution - Added `planFilePath` field to `ExitPlanMode` tool input for hooks and SDK consumers - Added MCP elicitation hook types and `SDKElicitationCompleteMessage` system message for handling MCP server input requests programmatically - Updated to parity with Claude Code v2.1.76\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-03-16T17:27:32.736Z",
-        "content_sha256": "2c2e4e5e0a22198adb75c5cf08a8877ec5450761577802af0aa1f677a4a79b98"
+        "retrieved_at": "2026-03-17T07:22:52.380Z",
+        "content_sha256": "fdbe504f349449b9b18a76b4135bf6be156d8245b3da6ecc5064b10632a449ce"
       }
     }
   ]

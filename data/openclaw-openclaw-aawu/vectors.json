@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aawu",
-  "generated_at": "2026-03-16T17:31:52.664Z",
+  "generated_at": "2026-03-17T07:26:06.417Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aawu#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theonlydaleking/aawu/SKILL.md",
-        "retrieved_at": "2026-03-16T17:31:52.664Z",
+        "retrieved_at": "2026-03-17T07:26:06.417Z",
         "content_sha256": "98bd14298c546678f1f973815e24d478f1713a818033ddd38b19446db76ac764"
       }
     }

@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/security-best-pract
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-16T17:31:27.534Z
+retrieved_at: 2026-03-17T07:25:47.530Z
 content_sha256: 3c612477d65b62b853fa6a44d7a540928e4e00d047f7b4b97665db04c4485d4c
 ---

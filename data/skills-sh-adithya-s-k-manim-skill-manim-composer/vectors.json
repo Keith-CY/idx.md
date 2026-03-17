@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-adithya-s-k-manim-skill-manim-composer",
-  "generated_at": "2026-03-16T17:31:17.630Z",
+  "generated_at": "2026-03-17T07:25:39.674Z",
   "records": [
     {
       "id": "skills/skills-sh-adithya-s-k-manim-skill-manim-composer#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manim-composer/references/narrative-patterns.md",
-        "retrieved_at": "2026-03-16T17:31:17.630Z",
+        "retrieved_at": "2026-03-17T07:25:39.674Z",
         "content_sha256": "fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656"
       }
     }

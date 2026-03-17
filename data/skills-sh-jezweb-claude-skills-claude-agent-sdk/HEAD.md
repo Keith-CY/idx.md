@@ -5,6 +5,13 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.77
+
+  - Added `api_retry` system messages when retrying transient API errors,
+  exposing attempt count, max retries, delay, and error status
+
+  - Updated to parity with Claude Code v2.1.77
+
   ## 0.2.76
 
   - Added `forkSession(sessionId, opts?)` for branching conversations from a
@@ -20,12 +27,6 @@ summary: >-
   message for handling MCP server input requests programmatically
 
   - Updated to parity with Claude Code v2.1.76
-
-  ## 0.2.75
-
-  - Added `tag` and `createdAt` fields to `SDKSessionInfo`
-
-  - Added `getSessionInfo(sessionId, opts?)` for single-session metadata lookup
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-16T17:27:32.736Z
-content_sha256: 2c2e4e5e0a22198adb75c5cf08a8877ec5450761577802af0aa1f677a4a79b98
+retrieved_at: 2026-03-17T07:22:52.380Z
+content_sha256: fdbe504f349449b9b18a76b4135bf6be156d8245b3da6ecc5064b10632a449ce
 ---

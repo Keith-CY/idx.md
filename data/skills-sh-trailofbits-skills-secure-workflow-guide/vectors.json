@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-secure-workflow-guide",
-  "generated_at": "2026-03-16T17:31:18.242Z",
+  "generated_at": "2026-03-17T07:25:40.127Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-secure-workflow-guide#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/secure-workflow-guide/resources/WORKFLOW_STEPS.md",
-        "retrieved_at": "2026-03-16T17:31:18.242Z",
+        "retrieved_at": "2026-03-17T07:25:40.127Z",
         "content_sha256": "8b048011407a9a123a01ba4548b62a944f8cd5f271e4e0cdfe58b09583bd9291"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-al-khanjry-bus",
-  "generated_at": "2026-03-16T17:32:33.432Z",
+  "generated_at": "2026-03-17T07:26:37.343Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-al-khanjry-bus#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mohammedfarish/al-khanjry-bus/SKILL.md",
-        "retrieved_at": "2026-03-16T17:32:33.432Z",
+        "retrieved_at": "2026-03-17T07:26:37.343Z",
         "content_sha256": "c6256e3dcc0008a6e35625644e1a576a2c36624c4bb6a8abdeb96a443b2143f7"
       }
     }
