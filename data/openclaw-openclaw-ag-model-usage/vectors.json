@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ag-model-usage",
-  "generated_at": "2026-03-17T17:28:09.146Z",
+  "generated_at": "2026-03-18T07:25:07.799Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ag-model-usage#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ls18166407597-design/ag-model-usage/SKILL.md",
-        "retrieved_at": "2026-03-17T17:28:09.146Z",
+        "retrieved_at": "2026-03-18T07:25:07.799Z",
         "content_sha256": "1498898d3ce0937e5c8f3b8dacebb972c0697bffd12e2cd1dda29813929132b8"
       }
     }

@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-gmail
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-17T17:27:49.878Z
-content_sha256: 0353988c19017088309436f71e18d40a97506fb8aa185f9bd25f3eb5f90ef5d2
+retrieved_at: 2026-03-18T07:24:52.394Z
+content_sha256: 0bb349e740e2adcb13a9d8d9cdd9de5ac33ac4366211f764eb44200c70bd8111
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-peft",
-  "generated_at": "2026-03-17T17:26:24.268Z",
+  "generated_at": "2026-03-18T07:23:47.372Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-peft#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/desperado991128/peft/SKILL.md",
-        "retrieved_at": "2026-03-17T17:26:24.268Z",
+        "retrieved_at": "2026-03-18T07:23:47.372Z",
         "content_sha256": "acdb318f94624517c8cdb3c925c7a2e8b34c65e8ca02b301777c51eea9f0f73c"
       }
     }

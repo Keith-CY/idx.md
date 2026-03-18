@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-focus-deep-work",
-  "generated_at": "2026-03-17T17:25:45.338Z",
+  "generated_at": "2026-03-18T07:23:11.306Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-focus-deep-work#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/focus-deep-work/SKILL.md",
-        "retrieved_at": "2026-03-17T17:25:45.338Z",
+        "retrieved_at": "2026-03-18T07:23:11.306Z",
         "content_sha256": "49210c4f52887892fb0885a009ca2c44fcfcd224764087191f8b121ff7d9647f"
       }
     }

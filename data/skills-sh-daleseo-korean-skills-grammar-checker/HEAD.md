@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/daleseo/korean-skills/grammar-checker
 github_stars: 7
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-03-17T17:25:04.846Z
+retrieved_at: 2026-03-18T07:22:38.111Z
 content_sha256: 71d816b76cf60d873892f3c953d611e6685ee127e71f12c58b005a71fa5db1f6
 ---

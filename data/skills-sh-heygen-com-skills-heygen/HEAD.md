@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/heygen-com/skills/heygen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-17T17:25:00.405Z
+retrieved_at: 2026-03-18T07:22:35.918Z
 content_sha256: 968fec33560cbf5d4abf433fe90c5d4602020629f28d6ae63b7061ca9bfd1a34
 ---

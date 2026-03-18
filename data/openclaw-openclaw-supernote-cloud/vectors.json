@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-supernote-cloud",
-  "generated_at": "2026-03-17T17:26:54.978Z",
+  "generated_at": "2026-03-18T07:24:12.940Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-supernote-cloud#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/supernote-cloud/SKILL.md",
-        "retrieved_at": "2026-03-17T17:26:54.978Z",
+        "retrieved_at": "2026-03-18T07:24:12.940Z",
         "content_sha256": "57720e659486c2f5d82db14423860c91b2877f96074408ace58f62670d95a5f7"
       }
     }

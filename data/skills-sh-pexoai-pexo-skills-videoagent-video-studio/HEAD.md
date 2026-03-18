@@ -38,6 +38,6 @@ upstream_ref: https://skills.sh/pexoai/pexo-skills/videoagent-video-studio
 github_stars: 194
 github_forks: 10
 github_is_organization: false
-retrieved_at: 2026-03-17T17:27:46.219Z
+retrieved_at: 2026-03-18T07:24:49.690Z
 content_sha256: c18c3b7a89765b6c1292e074c22ed56a6334b71e91ef192fb86de60dcd754f74
 ---

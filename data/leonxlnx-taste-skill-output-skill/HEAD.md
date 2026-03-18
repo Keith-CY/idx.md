@@ -36,6 +36,6 @@ upstream_ref: https://github.com/Leonxlnx/taste-skill/tree/main/output-skill
 github_stars: 3662
 github_forks: 283
 github_is_organization: false
-retrieved_at: 2026-03-17T17:27:37.859Z
+retrieved_at: 2026-03-18T07:24:44.669Z
 content_sha256: e5bf48b1ae561511439cf71672209a10a88cee0968cc925909ff861dfa0a96a7
 ---

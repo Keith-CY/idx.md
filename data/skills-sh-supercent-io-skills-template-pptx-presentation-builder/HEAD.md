@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/pptx-presentation-b
 github_stars: 50
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-03-17T17:27:46.327Z
+retrieved_at: 2026-03-18T07:24:49.746Z
 content_sha256: 2180a954009ac80e04f67bdf213bbb5c0882905fe1de536108d8d6810ea73f7c
 ---

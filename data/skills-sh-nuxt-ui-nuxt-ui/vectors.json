@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-nuxt-ui-nuxt-ui",
-  "generated_at": "2026-03-17T17:25:03.306Z",
+  "generated_at": "2026-03-18T07:22:37.105Z",
   "records": [
     {
       "id": "skills/skills-sh-nuxt-ui-nuxt-ui#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/nuxt/ui/HEAD/skills/nuxt-ui/references/composables.md",
-        "retrieved_at": "2026-03-17T17:25:03.306Z",
+        "retrieved_at": "2026-03-18T07:22:37.105Z",
         "content_sha256": "e24b7e54fcfb8ba9e4e061f3d5f94c84e771bac41ecfb371c875219081f0c034"
       }
     }

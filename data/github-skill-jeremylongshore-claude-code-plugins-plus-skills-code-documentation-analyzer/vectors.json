@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer",
-  "generated_at": "2026-03-17T17:24:27.420Z",
+  "generated_at": "2026-03-18T07:22:11.060Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md",
-        "retrieved_at": "2026-03-17T17:24:27.420Z",
+        "retrieved_at": "2026-03-18T07:22:11.060Z",
         "content_sha256": "da443a5413b629360e5026125dc2d6e310ba01769e7f382e58560996b6c5f1b5"
       }
     }

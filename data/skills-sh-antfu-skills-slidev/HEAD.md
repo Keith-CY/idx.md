@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/antfu/skills/slidev
 github_stars: 4081
 github_forks: 203
 github_is_organization: false
-retrieved_at: 2026-03-17T17:27:52.505Z
+retrieved_at: 2026-03-18T07:24:54.237Z
 content_sha256: cd4ef071b1ad40f3fb8ab5ed7c5f4743628456dd8e0bcfc25f246be64992726b
 ---

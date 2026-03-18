@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-ralphmode",
-  "generated_at": "2026-03-17T17:27:54.473Z",
+  "generated_at": "2026-03-18T07:24:55.391Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-ralphmode#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ralphmode/references/permission-profiles.md",
-        "retrieved_at": "2026-03-17T17:27:54.473Z",
+        "retrieved_at": "2026-03-18T07:24:55.391Z",
         "content_sha256": "34ee8e1fa13bacb2fad5a9215874981731947136fa53abb790d0f0a343240eca"
       }
     }

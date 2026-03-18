@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawville",
-  "generated_at": "2026-03-17T17:28:58.509Z",
+  "generated_at": "2026-03-18T07:25:49.201Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawville#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrolls/clawville/SKILL.md",
-        "retrieved_at": "2026-03-17T17:28:58.509Z",
+        "retrieved_at": "2026-03-18T07:25:49.201Z",
         "content_sha256": "270b06338b825b4b97d6a4c4859daa5ceb0fb6e2e69ddeea1cc2422afd902aa5"
       }
     }

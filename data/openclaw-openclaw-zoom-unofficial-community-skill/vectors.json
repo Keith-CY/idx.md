@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-zoom-unofficial-community-skill",
-  "generated_at": "2026-03-17T17:27:23.462Z",
+  "generated_at": "2026-03-18T07:24:36.107Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-zoom-unofficial-community-skill#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tanchunsiong/zoom-unofficial-community-skill/SKILL.md",
-        "retrieved_at": "2026-03-17T17:27:23.462Z",
+        "retrieved_at": "2026-03-18T07:24:36.107Z",
         "content_sha256": "0ec9ed084bf30fa8688fc648b3abbe77a852d2ac15dbf8c9f903b46fe2ec5179"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-odoo-openclaw-skill",
-  "generated_at": "2026-03-17T17:26:17.663Z",
+  "generated_at": "2026-03-18T07:23:41.369Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-odoo-openclaw-skill#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ashrf-in/odoo-openclaw-skill/SKILL.md",
-        "retrieved_at": "2026-03-17T17:26:17.663Z",
+        "retrieved_at": "2026-03-18T07:23:41.369Z",
         "content_sha256": "8045b42201a4752464414c05f0bdd61f96b8cda22722bda202dd176cb660939d"
       }
     }

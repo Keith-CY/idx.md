@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-memory-lite",
-  "generated_at": "2026-03-17T17:26:07.300Z",
+  "generated_at": "2026-03-18T07:23:31.774Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-memory-lite#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vellis59/memory-lite/SKILL.md",
-        "retrieved_at": "2026-03-17T17:26:07.300Z",
+        "retrieved_at": "2026-03-18T07:23:31.774Z",
         "content_sha256": "513f60ee1fc459ccc2f954b440d7b0fec14f809b160bf5defcb37a050d949495"
       }
     }
