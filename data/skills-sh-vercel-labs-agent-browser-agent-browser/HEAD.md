@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
 github_stars: 22462
 github_forks: 1319
 github_is_organization: true
-retrieved_at: 2026-03-18T07:24:46.010Z
+retrieved_at: 2026-03-19T07:25:28.672Z
 content_sha256: 8ccc30f2613523630cf3771a07d71339676d93c63623631a4206521c6d78d2e5
 ---

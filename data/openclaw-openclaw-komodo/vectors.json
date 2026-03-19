@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-komodo",
-  "generated_at": "2026-03-18T07:23:26.399Z",
+  "generated_at": "2026-03-19T07:22:50.942Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-komodo#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/weird-aftertaste/komodo/SKILL.md",
-        "retrieved_at": "2026-03-18T07:23:26.399Z",
+        "retrieved_at": "2026-03-19T07:22:50.942Z",
         "content_sha256": "e9d083c3329708d40cc8bfa9852750a8144f63cde1aea37c606d9f6a512b8b6b"
       }
     }

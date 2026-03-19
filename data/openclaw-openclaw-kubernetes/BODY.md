@@ -32,9 +32,68 @@ metadata:
     - jq
     - curl
     - git
+  credentials:
+    - kubeconfig: "Required for cluster access (KUBECONFIG env var or ~/.kube/config)"
+    - aws_credentials: "Required for EKS/ROSA - AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN (if using MFA)"
+    - azure_credentials: "Required for AKS/ARO - az CLI authenticated or service principal"
+    - gcp_credentials: "Required for GKE - gcloud authenticated or service account key"
+    - argocd_credentials: "Required for GitOps agent - ArgoCD server URL and auth token"
+    - vault_credentials: "Optional for secrets - Vault token or Kubernetes auth"
+    - github_token: "Optional for git operations - GITHUB_TOKEN or git credentials"
+  integrations:
+    - argocd: "ArgoCD server for GitOps operations"
+    - prometheus: "Prometheus/Grafana for metrics queries"
+    - loki: "Loki/Elasticsearch for log aggregation"
+    - vault: "HashiCorp Vault for secrets management"
+    - registry: "Container registry ( Quay, ECR, ACR, GCR, Docker Hub)"
 ---
 
 # Cluster Agent Swarm — Complete Platform Operations
+
+## ⚠️ Runtime Requirements & Credentials Required Before Use
+
+This skill package provides powerful Kubernetes/OpenShift cluster management capabilities but **requires specific credentials and runtime configurations** before it can function. Installers must configure these prerequisites:
+
+### Cluster Access
+| Requirement | Description | Environment Variable |
+|-------------|-------------|---------------------|
+| **Kubeconfig** | Valid kubeconfig file with cluster access | `KUBECONFIG` or `~/.kube/config` |
+| **kubectl** | Kubernetes CLI installed and configured | Must be in PATH |
+| **oc** | OpenShift CLI (for OpenShift clusters) | Must be in PATH |
+
+### Cloud Provider Credentials
+| Platform | Required Credentials | Notes |
+|----------|---------------------|-------|
+| **AWS/EKS/ROSA** | AWS credentials with EKS/ROSA access | `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, optionally `AWS_SESSION_TOKEN` |
+| **Azure/ARO** | Azure authentication | `az login` or `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`, `AZURE_TENANT_ID` |
+| **GCP/GKE** | GCP authentication | `gcloud auth application-default login` or `GOOGLE_APPLICATION_CREDENTIALS` |
+
+### External Service Integrations
+| Service | Required | Description |
+|---------|----------|-------------|
+| **ArgoCD** | Recommended | Server URL + auth token for GitOps sync/management |
+| **Prometheus** | Recommended | URL for metric queries |
+| **Loki/Elasticsearch** | Optional | URL for log queries |
+| **HashiCorp Vault** | Optional | Token or Kubernetes auth for secrets |
+| **Container Registry** | Optional | Auth for image scanning/promotion |
+
+### Session Setup
+Before using the agents, you **MUST** set up a session context:
+```bash
+# Set up session context for your environment
+bash skills/orchestrator/scripts/setup-session.sh <environment> [context-name]
+
+# Environments: dev, qa, staging, prod
+# Note: prod requires human approval for all modifications
+```
+
+### Security Considerations
+- Agents operate with **least privilege** by default
+- All credential access is logged
+- Production modifications require human approval
+- Secrets are never logged or stored in code
+
+---
 
 This is the complete cluster-agent-swarm skill package. When you add this skill, you get 
 access to ALL 7 specialized agents working together as a coordinated swarm.
@@ -66,6 +125,7 @@ npx skills add https://github.com/kcns008/cluster-agent-swarm-skills --skill orc
 # - observability (Pulse - metrics, alerts)
 # - artifacts     (Cache - registries, SBOM)
 # - developer-experience (Desk - namespaces, onboarding)
+# - qmd           (Local hybrid search for markdown notes/docs)
 ```
 npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/gitops
 
@@ -80,6 +140,9 @@ npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/arti
 
 # Developer Experience - Desk (namespaces, onboarding)
 npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/developer-experience
+
+# QMD - Local Markdown Search (notes, docs, knowledge bases)
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/qmd
 ```
 
 ---
@@ -263,6 +326,8 @@ cluster-agent-swarm-skills/
 │   │   └── SKILL.md
 │   └── developer-experience/   # Desk - DevEx
 │       └── SKILL.md
+│   └── qmd/                    # Local markdown search
+│       └── SKILL.md
 ├── scripts/                    # Shared scripts
 └── references/                 # Shared documentation
 ```
@@ -279,3 +344,4 @@ For detailed capabilities of each agent, refer to individual SKILL.md files:
 - `skills/observability/SKILL.md` - Full Observability documentation
 - `skills/artifacts/SKILL.md` - Full Artifacts documentation
 - `skills/developer-experience/SKILL.md` - Full Developer Experience documentation
+- `skills/qmd/SKILL.md` - QMD local markdown search documentation

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/azure-skills/azure-quotas
 github_stars: 369
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-03-18T07:24:47.497Z
+retrieved_at: 2026-03-19T07:25:32.312Z
 content_sha256: 8c5d3df832a20322ed8e94be757ef2fe49fdd39a781aaddd69fe5b6867a3a627
 ---

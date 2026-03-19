@@ -40,6 +40,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/slides/
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-18T07:22:17.164Z
+retrieved_at: 2026-03-19T07:20:36.995Z
 content_sha256: 57ee0941f872546029bc45b5b0bd58d4a02d88b84d4e8e4275c466da5451efa6
 ---

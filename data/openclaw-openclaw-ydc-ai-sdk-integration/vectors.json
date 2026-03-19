@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ydc-ai-sdk-integration",
-  "generated_at": "2026-03-18T07:24:33.325Z",
+  "generated_at": "2026-03-19T07:25:01.659Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ydc-ai-sdk-integration#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/ydc-ai-sdk-integration/SKILL.md",
-        "retrieved_at": "2026-03-18T07:24:33.325Z",
+        "retrieved_at": "2026-03-19T07:25:01.659Z",
         "content_sha256": "2d1de68234d61ec4da6a51191066f1cde7af2073196010f218f18a1a625b5515"
       }
     }

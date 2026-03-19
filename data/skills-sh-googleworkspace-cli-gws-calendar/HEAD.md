@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-calendar
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-18T07:24:53.011Z
+retrieved_at: 2026-03-19T07:25:44.271Z
 content_sha256: 8fdafd3c08e11482170973534c106338391c7d44a0f595054774f2ae71c79cd7
 ---

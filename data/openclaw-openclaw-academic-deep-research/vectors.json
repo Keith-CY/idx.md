@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-academic-deep-research",
-  "generated_at": "2026-03-18T07:25:00.945Z",
+  "generated_at": "2026-03-19T07:26:00.577Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-academic-deep-research#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/academic-deep-research/SKILL.md",
-        "retrieved_at": "2026-03-18T07:25:00.945Z",
+        "retrieved_at": "2026-03-19T07:26:00.577Z",
         "content_sha256": "4408f1cb3fce2c9194ac7f796bb2fd7e6e8e59fd883757f8e7ed26b851ae236f"
       }
     }

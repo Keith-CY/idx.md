@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-chat
 github_stars: 20648
 github_forks: 954
 github_is_organization: true
-retrieved_at: 2026-03-18T07:24:54.123Z
+retrieved_at: 2026-03-19T07:25:46.732Z
 content_sha256: 0ddfcaf734149378651b683146a225f6797dc0b28317d84f5ffdb8959ec97d37
 ---

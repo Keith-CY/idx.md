@@ -1,6 +1,6 @@
 ---
 name: chart-image
-version: 2.5.1
+version: 2.6.14
 description: Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
 provides:
   - capability: chart-generation
@@ -129,7 +129,9 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--x-title` | X axis label | field name |
 | `--y-title` | Y axis label | field name |
 | `--x-type` | X axis type: ordinal, temporal, quantitative | ordinal |
+| `--x-sort` | X axis order: ascending, descending, or none (preserve input order) | auto |
 | `--y-domain` | Y scale as "min,max" | auto |
+| `--y-pad` | Add vertical padding as a fraction of range (e.g. `0.1` = 10%) | 0 |
 
 ### Visual Options
 | Option | Description | Default |
@@ -137,6 +139,10 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--color` | Line/bar color | #e63946 |
 | `--dark` | Dark mode theme | false |
 | `--svg` | Output SVG instead of PNG | false |
+| `--no-points` | Hide point markers on line charts | false |
+| `--line-width N` | Set line thickness in pixels for line charts | 2 |
+| `--point-size N` | Set point marker size for line/point charts | 60 |
+| `--bar-radius N` | Round bar corners in pixels for bar-based charts | 0 |
 | `--color-scheme` | Vega color scheme (category10, viridis, etc.) | - |
 
 ### Alert/Monitor Options
@@ -146,6 +152,7 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--focus-change` | Zoom Y-axis to 2x data range | false |
 | `--focus-recent N` | Show only last N data points | all |
 | `--show-values` | Label min/max peak points | false |
+| `--last-value` | Label the final data point value | false |
 
 ### Multi-Series/Stacked Options
 | Option | Description | Default |
@@ -286,6 +293,20 @@ Use `--dark` for dark mode. Auto-select based on time:
 - **Night (20:00-07:00 local)**: `--dark`
 - **Day (07:00-20:00 local)**: light mode (default)
 
+## Social Size Presets
+
+Use `--output-size` when the chart is meant for a specific surface:
+
+```bash
+# Bluesky / OG-style landscape post
+node chart.mjs --type line --data '[...]' --output-size bluesky --output bluesky-chart.png
+
+# Instagram / Threads portrait post
+node chart.mjs --type line --data '[...]' --output-size portrait --output portrait-chart.png
+```
+
+Available presets include `twitter`, `discord`, `slack`, `linkedin`, `bluesky` (`bsky` alias), `youtube`, `instagram`, `portrait`, `story`, `thumbnail`, `wide`, and `square`.
+
 ## Piping Data
 
 ```bash
@@ -319,4 +340,4 @@ node chart.mjs --type line --data '...' --output /data/clawd/tmp/my-chart.png
 - Auto-use `--dark` between 20:00-07:00 Israel time
 
 ---
-*Updated: 2026-02-04 - Added --y-format (percent/dollar/compact/decimal4) and --subtitle*
+*Updated: 2026-03-17 - Added `--bar-radius` for rounded corners on bar-based charts (including stacked/volume/double-axis bar uses); version bumped to 2.6.14*

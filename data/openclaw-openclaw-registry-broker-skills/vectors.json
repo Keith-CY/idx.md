@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-registry-broker-skills",
-  "generated_at": "2026-03-18T07:23:59.392Z",
+  "generated_at": "2026-03-19T07:23:54.828Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-registry-broker-skills#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kantorcodes/registry-broker-skills/SKILL.md",
-        "retrieved_at": "2026-03-18T07:23:59.392Z",
+        "retrieved_at": "2026-03-19T07:23:54.828Z",
         "content_sha256": "d1339963298f72e111e7e0ee9aa4511a5a3807e5a6566744d09445e386ac0361"
       }
     }

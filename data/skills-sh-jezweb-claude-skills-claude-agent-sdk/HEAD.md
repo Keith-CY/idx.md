@@ -5,6 +5,17 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.79
+
+  - Added `'resume'` to the `ExitReason` type for distinguishing
+  resume-triggered session ends in hooks
+
+  - Updated to parity with Claude Code v2.1.79
+
+  ## 0.2.78
+
+  - Updated to parity with Claude Code v2.1.78
+
   ## 0.2.77
 
   - Added `api_retry` system messages when retrying transient API errors,
@@ -13,20 +24,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.77
 
   ## 0.2.76
-
-  - Added `forkSession(sessionId, opts?)` for branching conversations from a
-  point
-
-  - Added `cancel_async_message` control subtype to drop a queued user message
-  by UUID before execution
-
-  - Added `planFilePath` field to `ExitPlanMode` tool input for hooks and SDK
-  consumers
-
-  - Added MCP elicitation hook types and `SDKElicitationCompleteMessage` system
-  message for handling MCP server input requests programmatically
-
-  - Updated to parity with Claude Code v2.1.76
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +33,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-18T07:22:39.715Z
-content_sha256: fdbe504f349449b9b18a76b4135bf6be156d8245b3da6ecc5064b10632a449ce
+retrieved_at: 2026-03-19T07:21:18.648Z
+content_sha256: 5a123431a40b8fa7a92442a8ec2af7c95c461b6a58a797e7b2f20528f92c9e26
 ---

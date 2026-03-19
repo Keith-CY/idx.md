@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/mcp-use/mcp-use/mcp-apps-builder
 github_stars: 9271
 github_forks: 1142
 github_is_organization: true
-retrieved_at: 2026-03-18T07:22:44.663Z
+retrieved_at: 2026-03-19T07:21:30.386Z
 content_sha256: 80675d7718f7f2586eb9074e1411ed53b59b27d3559da95114c149cd3fb7f524
 ---

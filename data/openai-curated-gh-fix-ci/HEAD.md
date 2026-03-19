@@ -41,6 +41,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-18T07:22:16.313Z
+retrieved_at: 2026-03-19T07:20:34.997Z
 content_sha256: 7b326b4a2f0f5f85122144628ec02077e48841e0e0e82efce88b3415bcfb7c26
 ---

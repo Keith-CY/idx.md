@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-social",
-  "generated_at": "2026-03-18T07:25:14.413Z",
+  "generated_at": "2026-03-19T07:26:23.787Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-social#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iisweetheartii/agent-social/SKILL.md",
-        "retrieved_at": "2026-03-18T07:25:14.413Z",
+        "retrieved_at": "2026-03-19T07:26:23.787Z",
         "content_sha256": "6024d87bbcb1e7338429d9d2f46204c7dff83e5cbfac48ca2a69b58385e9d068"
       }
     }

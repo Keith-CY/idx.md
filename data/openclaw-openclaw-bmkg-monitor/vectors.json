@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bmkg-monitor",
-  "generated_at": "2026-03-18T07:22:51.465Z",
+  "generated_at": "2026-03-19T07:21:44.405Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bmkg-monitor#head",
@@ -19,8 +19,8 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bluemeda/bmkg-monitor/SKILL.md",
-        "retrieved_at": "2026-03-18T07:22:51.465Z",
-        "content_sha256": "0fb7529cd4d012fd05f0259e631b917bee1dead4f89c3b06f1a060da7c89d937"
+        "retrieved_at": "2026-03-19T07:21:44.405Z",
+        "content_sha256": "b2c0074bed1e767cfd76960024477e95e0e09a19a022020bec9cee68120c441d"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-lg-thinq",
-  "generated_at": "2026-03-18T07:23:27.498Z",
+  "generated_at": "2026-03-19T07:22:53.026Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-lg-thinq#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kaiofreitas/lg-thinq/SKILL.md",
-        "retrieved_at": "2026-03-18T07:23:27.498Z",
+        "retrieved_at": "2026-03-19T07:22:53.026Z",
         "content_sha256": "bb08c94fc1b9e1c0bcc1d25670ca412deb667bce676ba59b60c74f1f19e5209a"
       }
     }

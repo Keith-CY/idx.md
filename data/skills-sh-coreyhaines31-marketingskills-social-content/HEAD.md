@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/social-content
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-03-18T07:22:44.244Z
+retrieved_at: 2026-03-19T07:21:29.365Z
 content_sha256: 3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f
 ---

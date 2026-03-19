@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-frontend-design",
-  "generated_at": "2026-03-18T07:23:11.864Z",
+  "generated_at": "2026-03-19T07:22:23.367Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-frontend-design#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/frontend-design/SKILL.md",
-        "retrieved_at": "2026-03-18T07:23:11.864Z",
+        "retrieved_at": "2026-03-19T07:22:23.367Z",
         "content_sha256": "8bf9905dbcd9b1edb47f2a44cadbb9bb66314f73a8e3631ec7feee913777ceb8"
       }
     }

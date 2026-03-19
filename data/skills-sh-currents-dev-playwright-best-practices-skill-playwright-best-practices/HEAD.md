@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/currents-dev/playwright-best-practices-skill/pla
 github_stars: 143
 github_forks: 32
 github_is_organization: true
-retrieved_at: 2026-03-18T07:24:48.624Z
+retrieved_at: 2026-03-19T07:25:35.161Z
 content_sha256: 638a72c8d01826a842096ca2a90bd6108d27a31a0d28d209833d14379abac9ee
 ---

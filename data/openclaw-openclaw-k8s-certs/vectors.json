@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-k8s-certs",
-  "generated_at": "2026-03-18T07:23:25.144Z",
+  "generated_at": "2026-03-19T07:22:48.614Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-k8s-certs#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8s-certs/SKILL.md",
-        "retrieved_at": "2026-03-18T07:23:25.144Z",
+        "retrieved_at": "2026-03-19T07:22:48.614Z",
         "content_sha256": "8a83ae50a1073469ba2539b7a65799779fc894d18e21fd5078df6be995320acf"
       }
     }

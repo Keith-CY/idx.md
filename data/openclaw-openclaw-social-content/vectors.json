@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-social-content",
-  "generated_at": "2026-03-18T07:24:09.109Z",
+  "generated_at": "2026-03-19T07:24:13.554Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-social-content#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/social-content/SKILL.md",
-        "retrieved_at": "2026-03-18T07:24:09.109Z",
+        "retrieved_at": "2026-03-19T07:24:13.554Z",
         "content_sha256": "9c40b9ceda9094b3ce256d62ca8a33e8f82f323cff357da294e14262ed429b69"
       }
     }

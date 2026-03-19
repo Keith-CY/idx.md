@@ -1,21 +1,13 @@
 ---
 name: imap-smtp-email
-description: Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Works with any IMAP/SMTP server including Gmail, Outlook, 163.com, vip.163.com, 126.com, vip.126.com, 188.com, and vip.188.com.
+description: Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Supports multiple accounts. Works with any IMAP/SMTP server including Gmail, Outlook, 163.com, vip.163.com, 126.com, vip.126.com, 188.com, and vip.188.com.
 metadata:
   openclaw:
     emoji: "📧"
     requires:
-      env:
-        - IMAP_HOST
-        - IMAP_USER
-        - IMAP_PASS
-        - SMTP_HOST
-        - SMTP_USER
-        - SMTP_PASS
       bins:
         - node
         - npm
-    primaryEnv: SMTP_PASS
 ---
 
 # IMAP/SMTP Email Tool
@@ -24,27 +16,88 @@ Read, search, and manage email via IMAP protocol. Send email via SMTP. Supports 
 
 ## Configuration
 
-Create `.env` in the skill folder or set environment variables:
+Run the setup script to configure your email account:
 
 ```bash
-# IMAP Configuration (receiving email)
-IMAP_HOST=imap.gmail.com          # Server hostname
-IMAP_PORT=993                     # Server port
+bash setup.sh
+```
+
+Configuration is stored at `~/.config/imap-smtp-email/.env` (survives skill updates). If no config is found there, the skill falls back to a `.env` file in the skill directory (for backward compatibility).
+
+### Config file format
+
+```bash
+# Default account (no prefix)
+IMAP_HOST=imap.gmail.com
+IMAP_PORT=993
 IMAP_USER=your@email.com
 IMAP_PASS=your_password
-IMAP_TLS=true                     # Use TLS/SSL connection
-IMAP_REJECT_UNAUTHORIZED=true     # Set to false for self-signed certs
-IMAP_MAILBOX=INBOX                # Default mailbox
+IMAP_TLS=true
+IMAP_REJECT_UNAUTHORIZED=true
+IMAP_MAILBOX=INBOX
 
-# SMTP Configuration (sending email)
-SMTP_HOST=smtp.gmail.com          # SMTP server hostname
-SMTP_PORT=587                     # SMTP port (587 for STARTTLS, 465 for SSL)
-SMTP_SECURE=false                 # true for SSL (465), false for STARTTLS (587)
-SMTP_USER=your@gmail.com          # Your email address
-SMTP_PASS=your_password           # Your password or app password
-SMTP_FROM=your@gmail.com          # Default sender email (optional)
-SMTP_REJECT_UNAUTHORIZED=true     # Set to false for self-signed certs
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your@email.com
+SMTP_PASS=your_password
+SMTP_FROM=your@email.com
+SMTP_REJECT_UNAUTHORIZED=true
+
+# File access whitelist (security)
+ALLOWED_READ_DIRS=~/Downloads,~/Documents
+ALLOWED_WRITE_DIRS=~/Downloads
 ```
+
+## Multi-Account
+
+You can configure additional email accounts in the same config file. Each account uses a name prefix (uppercase) on all variables.
+
+### Adding an account
+
+Run the setup script and choose "Add a new account":
+
+```bash
+bash setup.sh
+```
+
+Or manually add prefixed variables to `~/.config/imap-smtp-email/.env`:
+
+```bash
+# Work account (WORK_ prefix)
+WORK_IMAP_HOST=imap.company.com
+WORK_IMAP_PORT=993
+WORK_IMAP_USER=me@company.com
+WORK_IMAP_PASS=password
+WORK_IMAP_TLS=true
+WORK_IMAP_REJECT_UNAUTHORIZED=true
+WORK_IMAP_MAILBOX=INBOX
+WORK_SMTP_HOST=smtp.company.com
+WORK_SMTP_PORT=587
+WORK_SMTP_SECURE=false
+WORK_SMTP_USER=me@company.com
+WORK_SMTP_PASS=password
+WORK_SMTP_FROM=me@company.com
+WORK_SMTP_REJECT_UNAUTHORIZED=true
+```
+
+### Using a named account
+
+Add `--account <name>` before the command:
+
+```bash
+node scripts/imap.js --account work check
+node scripts/smtp.js --account work send --to foo@bar.com --subject Hi --body Hello
+```
+
+Without `--account`, the default (unprefixed) account is used.
+
+### Account name rules
+
+- Letters and digits only (e.g., `work`, `163`, `personal2`)
+- Case-insensitive: `work` and `WORK` refer to the same account
+- The prefix in `.env` is always uppercase (e.g., `WORK_IMAP_HOST`)
+- `ALLOWED_READ_DIRS` and `ALLOWED_WRITE_DIRS` are shared across all accounts (always unprefixed)
 
 ## Common Email Servers
 
@@ -77,7 +130,7 @@ SMTP_REJECT_UNAUTHORIZED=true     # Set to false for self-signed certs
 Check for new/unread emails.
 
 ```bash
-node scripts/imap.js check [--limit 10] [--mailbox INBOX] [--recent 2h]
+node scripts/imap.js [--account <name>] check [--limit 10] [--mailbox INBOX] [--recent 2h]
 ```
 
 Options:
@@ -89,14 +142,14 @@ Options:
 Fetch full email content by UID.
 
 ```bash
-node scripts/imap.js fetch <uid> [--mailbox INBOX]
+node scripts/imap.js [--account <name>] fetch <uid> [--mailbox INBOX]
 ```
 
 ### download
 Download all attachments from an email, or a specific attachment.
 
 ```bash
-node scripts/imap.js download <uid> [--mailbox INBOX] [--dir <path>] [--file <filename>]
+node scripts/imap.js [--account <name>] download <uid> [--mailbox INBOX] [--dir <path>] [--file <filename>]
 ```
 
 Options:
@@ -108,7 +161,7 @@ Options:
 Search emails with filters.
 
 ```bash
-node scripts/imap.js search [options]
+node scripts/imap.js [--account <name>] search [options]
 
 Options:
   --unseen           Only unread messages
@@ -126,16 +179,26 @@ Options:
 Mark message(s) as read or unread.
 
 ```bash
-node scripts/imap.js mark-read <uid> [uid2 uid3...]
-node scripts/imap.js mark-unread <uid> [uid2 uid3...]
+node scripts/imap.js [--account <name>] mark-read <uid> [uid2 uid3...]
+node scripts/imap.js [--account <name>] mark-unread <uid> [uid2 uid3...]
 ```
 
 ### list-mailboxes
 List all available mailboxes/folders.
 
 ```bash
-node scripts/imap.js list-mailboxes
+node scripts/imap.js [--account <name>] list-mailboxes
 ```
+
+### list-accounts
+List all configured email accounts.
+
+```bash
+node scripts/imap.js list-accounts
+node scripts/smtp.js list-accounts
+```
+
+Shows account name, email address, server addresses, and configuration status.
 
 ## SMTP Commands (Sending Email)
 
@@ -143,7 +206,7 @@ node scripts/imap.js list-mailboxes
 Send email via SMTP.
 
 ```bash
-node scripts/smtp.js send --to <email> --subject <text> [options]
+node scripts/smtp.js [--account <name>] send --to <email> --subject <text> [options]
 ```
 
 **Required:**
@@ -179,7 +242,7 @@ node scripts/smtp.js send --to "a@example.com,b@example.com" --cc "c@example.com
 Test SMTP connection by sending a test email to yourself.
 
 ```bash
-node scripts/smtp.js test
+node scripts/smtp.js [--account <name>] test
 ```
 
 ## Dependencies
@@ -190,7 +253,7 @@ npm install
 
 ## Security Notes
 
-- Store credentials in `.env` (add to `.gitignore`)
+- Configuration is stored at `~/.config/imap-smtp-email/.env` with `600` permissions (owner read/write only)
 - **Gmail**: regular password is rejected — generate an App Password at https://myaccount.google.com/apppasswords
 - For 163.com: use authorization code (授权码), not account password
 

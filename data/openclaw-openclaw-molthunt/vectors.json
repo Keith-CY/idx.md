@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-molthunt",
-  "generated_at": "2026-03-18T07:23:34.596Z",
+  "generated_at": "2026-03-19T07:23:06.934Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-molthunt#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/limone-eth/molthunt/SKILL.md",
-        "retrieved_at": "2026-03-18T07:23:34.596Z",
+        "retrieved_at": "2026-03-19T07:23:06.934Z",
         "content_sha256": "83116389ece87a34b2674c719c0c00c23fb178ecc71e362abebffe3c3e3e7670"
       }
     }

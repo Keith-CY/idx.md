@@ -29,6 +29,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-dev
 github_stars: 1062
 github_forks: 78
 github_is_organization: true
-retrieved_at: 2026-03-18T07:24:54.921Z
+retrieved_at: 2026-03-19T07:25:48.771Z
 content_sha256: 385551bdf34ca46da9241299cc3850b801e98087f8a192c872691d3209d90738
 ---
