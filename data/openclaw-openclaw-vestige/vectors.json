@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-vestige",
-  "generated_at": "2026-03-19T07:24:44.154Z",
+  "generated_at": "2026-03-20T07:20:36.182Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-vestige#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/belkouche/vestige/SKILL.md",
-        "retrieved_at": "2026-03-19T07:24:44.154Z",
+        "retrieved_at": "2026-03-20T07:20:36.182Z",
         "content_sha256": "7300df1bf6b8c8775a92a279eec2f61502f7de538fb4c9e8556cd3c3db0b8c24"
       }
     }

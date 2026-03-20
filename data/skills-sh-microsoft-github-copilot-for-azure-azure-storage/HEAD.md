@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-storage
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-19T07:25:26.493Z
+retrieved_at: 2026-03-20T07:20:55.910Z
 content_sha256: afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8
 ---

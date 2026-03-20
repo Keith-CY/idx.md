@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-promptify",
-  "generated_at": "2026-03-19T07:23:45.393Z",
+  "generated_at": "2026-03-20T07:20:06.385Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-promptify#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/promptify/SKILL.md",
-        "retrieved_at": "2026-03-19T07:23:45.393Z",
+        "retrieved_at": "2026-03-20T07:20:06.385Z",
         "content_sha256": "e43a975e2499ca856bf04971326e2c5685394d69c255e7267731d10e882b5fa9"
       }
     }

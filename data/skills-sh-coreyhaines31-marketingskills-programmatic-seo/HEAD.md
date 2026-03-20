@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-19T07:25:30.332Z
+retrieved_at: 2026-03-20T07:20:57.944Z
 content_sha256: b2edf9b9434729630f746fec2f228e50aa5b6fe1bf753e0d4d46ecf8a3137274
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-web-search",
-  "generated_at": "2026-03-19T07:22:32.838Z",
+  "generated_at": "2026-03-20T07:19:30.335Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-web-search#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theoseo/google-web-search/SKILL.md",
-        "retrieved_at": "2026-03-19T07:22:32.838Z",
+        "retrieved_at": "2026-03-20T07:19:30.335Z",
         "content_sha256": "4a1707d390e05b7250dec11bcef5adb0a2caa0b1b0ae13a1f8569107cf22e7b6"
       }
     }

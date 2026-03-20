@@ -37,6 +37,6 @@ upstream_ref: https://github.com/Leonxlnx/taste-skill/tree/main/minimalist-skill
 github_stars: 3662
 github_forks: 283
 github_is_organization: false
-retrieved_at: 2026-03-19T07:25:25.352Z
+retrieved_at: 2026-03-20T07:20:55.155Z
 content_sha256: 36bc7328f085405f43b476938e62460fa573bf7e984e949e072bcf014831a44c
 ---

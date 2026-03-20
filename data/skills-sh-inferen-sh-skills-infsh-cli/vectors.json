@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-inferen-sh-skills-infsh-cli",
-  "generated_at": "2026-03-19T07:25:29.578Z",
+  "generated_at": "2026-03-20T07:20:57.655Z",
   "records": [
     {
       "id": "skills/skills-sh-inferen-sh-skills-infsh-cli#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/inferen-sh/skills/HEAD/tools/infsh-cli/references/authentication.md",
-        "retrieved_at": "2026-03-19T07:25:29.578Z",
+        "retrieved_at": "2026-03-20T07:20:57.655Z",
         "content_sha256": "65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e"
       }
     }

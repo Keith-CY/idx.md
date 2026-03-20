@@ -35,6 +35,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/cloudfl
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-19T07:20:34.308Z
+retrieved_at: 2026-03-20T07:18:30.881Z
 content_sha256: d7632537cf19be17cf33d2c696b9d9c2ea3ee51026030e9b203d5b9255e75b15
 ---

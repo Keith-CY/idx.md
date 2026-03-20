@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-pdf-builder",
-  "generated_at": "2026-03-19T07:26:35.194Z",
+  "generated_at": "2026-03-20T07:21:32.978Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-pdf-builder#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/ai-pdf-builder/SKILL.md",
-        "retrieved_at": "2026-03-19T07:26:35.194Z",
+        "retrieved_at": "2026-03-20T07:21:32.978Z",
         "content_sha256": "953cf79ae6ce80eeb34e5e651d911feb9208532965fb1f975aa837c2e6d99100"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-testing-strategies",
-  "generated_at": "2026-03-19T07:25:34.320Z",
+  "generated_at": "2026-03-20T07:20:59.551Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-testing-strategies#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/backend-testing/SKILL.md",
-        "retrieved_at": "2026-03-19T07:25:34.320Z",
+        "retrieved_at": "2026-03-20T07:20:59.551Z",
         "content_sha256": "91eb6da411be4897aafa9c97f7ec5ce98a1d753b8ca9ed2f0dda4997be9c0113"
       }
     }

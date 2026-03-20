@@ -37,6 +37,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skill
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-19T07:20:40.062Z
+retrieved_at: 2026-03-20T07:18:33.146Z
 content_sha256: d83a09d6a1c6976f6cc2f40addeae653a4a6eb5903097ebc365d90242e00e379
 ---

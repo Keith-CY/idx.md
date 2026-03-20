@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-opencode-controller",
-  "generated_at": "2026-03-19T07:23:26.795Z",
+  "generated_at": "2026-03-20T07:19:56.566Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-opencode-controller#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/karatla/opencode-controller/SKILL.md",
-        "retrieved_at": "2026-03-19T07:23:26.795Z",
+        "retrieved_at": "2026-03-20T07:19:56.566Z",
         "content_sha256": "6535df08ba8b0bbc3bfe383a5a975d1b1d9c0a998488fe63c1060c8cddf813fc"
       }
     }

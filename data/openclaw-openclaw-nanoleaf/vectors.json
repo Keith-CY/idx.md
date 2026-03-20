@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nanoleaf",
-  "generated_at": "2026-03-19T07:23:12.592Z",
+  "generated_at": "2026-03-20T07:19:49.673Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nanoleaf#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rstierli/nanoleaf/SKILL.md",
-        "retrieved_at": "2026-03-19T07:23:12.592Z",
+        "retrieved_at": "2026-03-20T07:19:49.673Z",
         "content_sha256": "6fccf9e0c1489a77f2b9a1d47fce7a15d48f5f2cdd55306af7ce947399868fea"
       }
     }

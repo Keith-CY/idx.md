@@ -17,7 +17,7 @@ summary: >-
 
   | Agent types | Prompt (LLM-based), Hosted (ACA based), Hosted (vNext) |
 
-  | MCP server | `foundry-mcp` |
+  | MCP server | `azure` |
 
   | Key MCP tools | `agent_update`, `agent_container_control`,
   `agent_container_status_get` |
@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-fou
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-03-19T07:25:28.201Z
-content_sha256: 7798647a6ae6d10c8ed6b482f0e2fa741fd4e38396a516312ff0ec2fbef80ae8
+retrieved_at: 2026-03-20T07:20:57.123Z
+content_sha256: 89b621da066c7816345edfd21c77fdc8de3d897be85ef3f6e1f4d7694b57c6ed
 ---

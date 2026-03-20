@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/insecure-defaults
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-19T07:21:15.528Z
+retrieved_at: 2026-03-20T07:18:51.442Z
 content_sha256: 1d47703f84b6c5866e299e46f7f797c6178c2896fe37e02759fec5bfbf5b8d1f
 ---

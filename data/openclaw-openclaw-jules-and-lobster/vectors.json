@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-jules-and-lobster",
-  "generated_at": "2026-03-19T07:22:47.151Z",
+  "generated_at": "2026-03-20T07:19:37.346Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-jules-and-lobster#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sanjacob99/jules-and-lobster/SKILL.md",
-        "retrieved_at": "2026-03-19T07:22:47.151Z",
+        "retrieved_at": "2026-03-20T07:19:37.346Z",
         "content_sha256": "07c2e0dd943fcf39089dd85dfa814401fcb8c7583a271fbc3395ca0224df743f"
       }
     }

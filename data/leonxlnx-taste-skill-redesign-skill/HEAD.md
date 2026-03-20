@@ -35,6 +35,6 @@ upstream_ref: https://github.com/Leonxlnx/taste-skill/tree/main/redesign-skill
 github_stars: 3662
 github_forks: 283
 github_is_organization: false
-retrieved_at: 2026-03-19T07:25:25.622Z
+retrieved_at: 2026-03-20T07:20:55.287Z
 content_sha256: 98ad3e5b051bfb71b2795f7e8a6aa0d32b51ee095606c098a4b2822ac07926c9
 ---

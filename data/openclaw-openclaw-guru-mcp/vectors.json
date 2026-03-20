@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-guru-mcp",
-  "generated_at": "2026-03-19T07:22:35.216Z",
+  "generated_at": "2026-03-20T07:19:31.487Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-guru-mcp#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/guru-mcp/SKILL.md",
-        "retrieved_at": "2026-03-19T07:22:35.216Z",
+        "retrieved_at": "2026-03-20T07:19:31.487Z",
         "content_sha256": "b83b9cbc93128b2783ae5a8f1820acd5612d0546b8dc21fcc929b980ef19448e"
       }
     }

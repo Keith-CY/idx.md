@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-isms-audit-expert",
-  "generated_at": "2026-03-19T07:22:44.009Z",
+  "generated_at": "2026-03-20T07:19:35.806Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-isms-audit-expert#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/isms-audit-expert/SKILL.md",
-        "retrieved_at": "2026-03-19T07:22:44.009Z",
+        "retrieved_at": "2026-03-20T07:19:35.806Z",
         "content_sha256": "99fddd2db9f85167eeb47474bf3b30eea28062377c8e14dc2f188c2607062e8e"
       }
     }

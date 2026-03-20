@@ -33,6 +33,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/test-driven-d
 github_stars: 86266
 github_forks: 6797
 github_is_organization: false
-retrieved_at: 2026-03-19T07:20:39.436Z
+retrieved_at: 2026-03-20T07:18:32.960Z
 content_sha256: 7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994
 ---

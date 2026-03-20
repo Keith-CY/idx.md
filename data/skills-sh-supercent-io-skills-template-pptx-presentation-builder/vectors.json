@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-pptx-presentation-builder",
-  "generated_at": "2026-03-19T07:25:37.540Z",
+  "generated_at": "2026-03-20T07:21:00.990Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-pptx-presentation-builder#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/technical-writing/SKILL.md",
-        "retrieved_at": "2026-03-19T07:25:37.540Z",
+        "retrieved_at": "2026-03-20T07:21:00.990Z",
         "content_sha256": "2180a954009ac80e04f67bdf213bbb5c0882905fe1de536108d8d6810ea73f7c"
       }
     }

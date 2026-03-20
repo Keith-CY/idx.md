@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-artifacts-builder",
-  "generated_at": "2026-03-19T07:21:38.726Z",
+  "generated_at": "2026-03-20T07:19:02.390Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-artifacts-builder#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/artifacts-builder/SKILL.md",
-        "retrieved_at": "2026-03-19T07:21:38.726Z",
+        "retrieved_at": "2026-03-20T07:19:02.390Z",
         "content_sha256": "8455a64e627d203fd7b43df64c83d8870cb98907aae21edce4ec8eeef651d850"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-argus-edge",
-  "generated_at": "2026-03-19T07:26:49.583Z",
+  "generated_at": "2026-03-20T07:21:41.667Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-argus-edge#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jamierossouw/argus-edge/SKILL.md",
-        "retrieved_at": "2026-03-19T07:26:49.583Z",
+        "retrieved_at": "2026-03-20T07:21:41.667Z",
         "content_sha256": "ae5a0790180d759bfa952b0a7ed8bd14651656688424bb01e414999f85cba16c"
       }
     }

@@ -33,6 +33,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-19T07:20:35.875Z
+retrieved_at: 2026-03-20T07:18:31.457Z
 content_sha256: e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7
 ---

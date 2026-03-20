@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/fabric-lakehouse
 github_stars: 25290
 github_forks: 2902
 github_is_organization: true
-retrieved_at: 2026-03-19T07:25:41.810Z
+retrieved_at: 2026-03-20T07:21:03.239Z
 content_sha256: 417e001196a12281c910bcd113ab55ffe47ad0e31ad53e18914bbd103ace0296
 ---

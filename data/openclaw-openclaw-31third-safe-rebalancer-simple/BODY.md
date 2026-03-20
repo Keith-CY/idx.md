@@ -62,10 +62,10 @@ CHAIN_ID=8453
 
 Safety checks:
 
-- Fails if `scheduler != registry`.
-- Fails if executor wallet is not equal to `registry`.
+- Fails if executor wallet is not equal to `ExecutorModule.executor`.
 - Fails if required policies are missing.
 - Loads `driftThresholdBps` from StaticAllocation and skips execution when drift is below threshold.
+- Uses `StaticAllocation.priceOracle` / `Slippage.priceOracle` for pricing.
 - Loads `maxSlippageBps` from SlippagePolicy and uses:
   - `maxSlippage = policySlippage - 0.1%`
   - `maxPriceImpact = policySlippage - 0.1%`
@@ -102,9 +102,9 @@ Copy the troubleshooting info from the Safe Policy Deployer (Step 4 or Step 5). 
 ```
 Safe=0x123...456
 ExecutorModule=0x123...456 | Deployed
-Scheduler=0x123...456
-Registry=0x123...456
+Executor=0x123...456
 BatchTrade=0xD20c024560ccA40288C05BAB650ac087ae9b0f6e
+PriceOracle=0x123...456
 FeedRegistry=0x1d4999242A24C8588c4f5dB7dFF1D74Df6bC746A
 CooldownSec=3600
 

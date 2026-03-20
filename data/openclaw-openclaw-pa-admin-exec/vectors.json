@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pa-admin-exec",
-  "generated_at": "2026-03-19T07:23:29.642Z",
+  "generated_at": "2026-03-20T07:19:57.986Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pa-admin-exec#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/pa-admin-exec/SKILL.md",
-        "retrieved_at": "2026-03-19T07:23:29.642Z",
+        "retrieved_at": "2026-03-20T07:19:57.986Z",
         "content_sha256": "e129972ac0a321336335e237298accf0c072855b12064082340df78a50e540bf"
       }
     }

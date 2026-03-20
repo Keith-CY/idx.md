@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltbot-best-practices",
-  "generated_at": "2026-03-19T07:27:51.770Z",
+  "generated_at": "2026-03-20T07:22:17.290Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltbot-best-practices#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nextfrontierbuilds/moltbot-best-practices/SKILL.md",
-        "retrieved_at": "2026-03-19T07:27:51.770Z",
+        "retrieved_at": "2026-03-20T07:22:17.290Z",
         "content_sha256": "584f40fbf5c2d766429f19037927409b28084aa9352149462fcf96462af9b2dc"
       }
     }

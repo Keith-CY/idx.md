@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ez-cronjob",
-  "generated_at": "2026-03-19T07:27:37.573Z",
+  "generated_at": "2026-03-20T07:22:09.391Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ez-cronjob#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/promadgenius/ez-cronjob/SKILL.md",
-        "retrieved_at": "2026-03-19T07:27:37.573Z",
+        "retrieved_at": "2026-03-20T07:22:09.391Z",
         "content_sha256": "1cee460650d0352ad1566f54b3a0cad64fd02866e2cbf3864045f19e026a824e"
       }
     }

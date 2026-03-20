@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-paprika",
-  "generated_at": "2026-03-19T07:23:30.692Z",
+  "generated_at": "2026-03-20T07:19:58.450Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-paprika#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/paprika/SKILL.md",
-        "retrieved_at": "2026-03-19T07:23:30.692Z",
+        "retrieved_at": "2026-03-20T07:19:58.450Z",
         "content_sha256": "131d43c05e9101f296d9897fe575d40abc72fcc27db519ff97df28b0b8348859"
       }
     }

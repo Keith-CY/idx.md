@@ -5,6 +5,13 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.80
+
+  - Fixed `getSessionMessages()` dropping parallel tool results — sessions with
+  parallel tool calls now return all tool_use/tool_result pairs
+
+  - Updated to parity with Claude Code v2.1.80
+
   ## 0.2.79
 
   - Added `'resume'` to the `ExitReason` type for distinguishing
@@ -17,13 +24,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.78
 
   ## 0.2.77
-
-  - Added `api_retry` system messages when retrying transient API errors,
-  exposing attempt count, max retries, delay, and error status
-
-  - Updated to parity with Claude Code v2.1.77
-
-  ## 0.2.76
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-19T07:21:18.648Z
-content_sha256: 5a123431a40b8fa7a92442a8ec2af7c95c461b6a58a797e7b2f20528f92c9e26
+retrieved_at: 2026-03-20T07:18:53.176Z
+content_sha256: ed70c9ebb918f050e4470802c4f19fe3d682f20f835f225de4f8fbe6ceaef219
 ---

@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/page-cro
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-19T07:25:31.400Z
+retrieved_at: 2026-03-20T07:20:58.360Z
 content_sha256: bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca
 ---

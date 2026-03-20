@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-lead-generator-skill",
-  "generated_at": "2026-03-19T07:26:34.763Z",
+  "generated_at": "2026-03-20T07:21:32.664Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-lead-generator-skill#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/highlander89/ai-lead-generator-skill/SKILL.md",
-        "retrieved_at": "2026-03-19T07:26:34.763Z",
+        "retrieved_at": "2026-03-20T07:21:32.664Z",
         "content_sha256": "34e1ef43491d26565385835c3871278198fdd2815f51cae8e905c0c948451fd1"
       }
     }

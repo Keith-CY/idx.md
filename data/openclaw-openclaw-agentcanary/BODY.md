@@ -78,7 +78,7 @@ Full endpoint documentation with response examples: [references/endpoints.md](re
 
 | Category | Key Endpoints | Tier |
 |----------|--------------|------|
-| **Indicators** | `/indicators`, `/indicators/summary`, `/indicators/:name` | Explorer–Builder |
+| **Indicators (36)** | `/indicators`, `/indicators/summary`, `/indicators/:name`, `/indicators/:name/history` — includes Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, Composite Risk Score, and 31 more | Explorer–Signal |
 | **Scenarios** | `/scenarios/current`, `/scenarios/history`, `/scenarios/signals` | Signal |
 | **Briefs** | `/briefs/latest`, `/briefs/feed`, `/briefs/archive`, `/briefs/:type` | Explorer–Signal |
 | **Macro** | `/macro/regime`, `/macro/snapshot`, `/macro/signals`, `/macro/global-liquidity`, `/macro/us-m2`, `/macro/central-banks`, `/macro/supply-chain` | Explorer–Builder |

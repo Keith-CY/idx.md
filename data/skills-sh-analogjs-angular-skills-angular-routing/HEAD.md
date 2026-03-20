@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-routing
 github_stars: 352
 github_forks: 40
 github_is_organization: true
-retrieved_at: 2026-03-19T07:21:13.084Z
+retrieved_at: 2026-03-20T07:18:50.484Z
 content_sha256: 8005369d8fe2f045580ae46dc6b067d9fb54fb3cdd3148a583269e0557c9e91c
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-intomd",
-  "generated_at": "2026-03-19T07:22:43.322Z",
+  "generated_at": "2026-03-20T07:19:35.493Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-intomd#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rezhajulio/intomd/SKILL.md",
-        "retrieved_at": "2026-03-19T07:22:43.322Z",
+        "retrieved_at": "2026-03-20T07:19:35.493Z",
         "content_sha256": "c145476fbae09018005c4e2cd9ce13d22e6e25e4dbbf6194789ec08ad244d907"
       }
     }

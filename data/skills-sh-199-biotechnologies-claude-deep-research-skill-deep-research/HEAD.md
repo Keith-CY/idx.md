@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/199-biotechnologies/claude-deep-research-skill/d
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-19T07:25:52.584Z
-content_sha256: 68c436d9010499cecb174935bfa14acd021f49482f5c59939616695421f03802
+retrieved_at: 2026-03-20T07:21:09.261Z
+content_sha256: 1b9dad2ae6d3ac9972de811c414394946b7f249419a45393b3c9f062ef7b0d4d
 ---

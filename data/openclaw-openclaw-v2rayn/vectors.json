@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-v2rayn",
-  "generated_at": "2026-03-19T07:27:59.124Z",
+  "generated_at": "2026-03-20T07:22:21.348Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-v2rayn#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/qiangwang375-wq/v2rayn/SKILL.md",
-        "retrieved_at": "2026-03-19T07:27:59.124Z",
+        "retrieved_at": "2026-03-20T07:22:21.348Z",
         "content_sha256": "fbdabddad6fbb10964bf14a1f309c67139fdcd40e453c4f51a792f81efaaa2a2"
       }
     }

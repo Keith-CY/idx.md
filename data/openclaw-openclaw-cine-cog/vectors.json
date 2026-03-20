@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cine-cog",
-  "generated_at": "2026-03-19T07:27:16.068Z",
+  "generated_at": "2026-03-20T07:21:56.796Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cine-cog#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/cine-cog/SKILL.md",
-        "retrieved_at": "2026-03-19T07:27:16.068Z",
+        "retrieved_at": "2026-03-20T07:21:56.796Z",
         "content_sha256": "519169fb6c0c43143b418f77150de4919699a7b2016f672b5de748f160315779"
       }
     }

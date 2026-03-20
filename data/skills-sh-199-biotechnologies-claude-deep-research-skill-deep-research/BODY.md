@@ -53,7 +53,7 @@ Before launching searches, decompose the research question into 5-10 independent
 
 1. **Core topic (semantic search)** - Meaning-based exploration of main concept
 2. **Technical details (keyword search)** - Specific terms, APIs, implementations
-3. **Recent developments (date-filtered)** - What's new in 2024-2025
+3. **Recent developments (date-filtered)** - What's new in last 12-18 months (use current date from Step 0)
 4. **Academic sources (domain-specific)** - Papers, research, formal analysis
 5. **Alternative perspectives (comparison)** - Competing approaches, criticisms
 6. **Statistical/data sources** - Quantitative evidence, metrics, benchmarks
@@ -61,6 +61,11 @@ Before launching searches, decompose the research question into 5-10 independent
 8. **Critical analysis/limitations** - Known problems, failure modes, edge cases
 
 ### Parallel Execution Protocol
+
+**Step 0: Get the current date**
+
+Before ANY searches, retrieve today's date using Bash: `date +%Y-%m-%d`
+Use the returned year for all date-filtered queries and recency checks. Do NOT assume a year from training data.
 
 **Step 1: Launch ALL searches concurrently (single message)**
 
@@ -80,6 +85,17 @@ Choose ONE search approach per research session:
 - Parameters: `query` (required), `type` (auto/neural/keyword), `num_results`, `start_published_date`, `include_domains`
 - Example: `mcp__Exa__exa_search(query="quantum computing", type="neural", num_results=10)`
 
+**Option C: Use search-cli (if installed, multi-provider)**
+- Unified CLI aggregating Brave, Serper, Exa, Jina, and Firecrawl
+- Install: `brew tap 199-biotechnologies/tap && brew install search-cli`
+- Requires API keys: `search config set keys.[provider] YOUR_KEY`
+- Auto-detects best provider per query type (academic, news, general, people)
+- JSON output for structured processing: `search "query" --json`
+- Modes: general, news, academic, scholar, patents, people, images, extract, scrape
+- Example: `search "quantum computing 2025" -m academic --json -c 15`
+- **First-time setup:** Ask user if they want to install search-cli and configure API keys
+
+
 **NEVER mix parameter styles** - this causes "Invalid tool parameters" errors.
 
 **Step 2: Spawn parallel deep-dive agents**
@@ -90,15 +106,21 @@ Use Task tool with general-purpose agents (3-5 agents) for:
 - Repository analysis (code examples, implementations)
 - Specialized domain research (requires multi-step investigation)
 
+**Sub-agent output format:** Require all sub-agents to return structured evidence, not free text:
+```json
+{"claim": "specific claim text", "evidence_quote": "exact quote from source", "source_url": "https://...", "source_title": "...", "confidence": 0.85}
+```
+This prevents synthesis fatigue when merging results from 3-5 agents.
+
 **Example parallel execution (using WebSearch):**
 ```
 [Single message with multiple tool calls]
 - WebSearch(query="quantum computing 2025 state of the art")
 - WebSearch(query="quantum computing limitations challenges")
-- WebSearch(query="quantum computing commercial applications 2024-2025")
+- WebSearch(query="quantum computing commercial applications [CURRENT_YEAR]")
 - WebSearch(query="quantum computing vs classical comparison")
 - WebSearch(query="quantum error correction research", allowed_domains=["arxiv.org", "scholar.google.com"])
-- Task(subagent_type="general-purpose", description="Analyze quantum computing papers", prompt="Deep dive into quantum computing academic papers from 2024-2025, extract key findings and methodologies")
+- Task(subagent_type="general-purpose", description="Analyze quantum computing papers", prompt="Deep dive into quantum computing academic papers from [CURRENT_YEAR], extract key findings and methodologies")
 - Task(subagent_type="general-purpose", description="Industry analysis", prompt="Analyze quantum computing industry reports and market data, identify commercial applications")
 - Task(subagent_type="general-purpose", description="Technical challenges", prompt="Extract technical limitations and challenges from quantum computing research")
 ```
@@ -106,9 +128,9 @@ Use Task tool with general-purpose agents (3-5 agents) for:
 **Example parallel execution (using Exa MCP - if available):**
 ```
 [Single message with multiple tool calls]
-- mcp__Exa__exa_search(query="quantum computing state of the art", type="neural", num_results=10, start_published_date="2024-01-01")
+- mcp__Exa__exa_search(query="quantum computing state of the art", type="neural", num_results=10, start_published_date="[use current year from Step 0]")
 - mcp__Exa__exa_search(query="quantum computing limitations", type="keyword", num_results=10)
-- mcp__Exa__exa_search(query="quantum computing commercial", type="auto", num_results=10, start_published_date="2024-01-01")
+- mcp__Exa__exa_search(query="quantum computing commercial", type="auto", num_results=10, start_published_date="[use current year from Step 0]")
 - mcp__Exa__exa_search(query="quantum error correction", type="neural", num_results=10, include_domains=["arxiv.org"])
 - Task(subagent_type="general-purpose", description="Academic analysis", prompt="Analyze quantum computing academic papers")
 ```
@@ -141,7 +163,7 @@ As results arrive:
 
 **Source diversity requirements:**
 - Minimum 3 source types (academic, industry, news, technical docs)
-- Temporal diversity (mix of recent 2024-2025 + foundational older sources)
+- Temporal diversity (mix of recent 12-18 months + foundational older sources)
 - Perspective diversity (proponents + critics + neutral analysis)
 - Geographic diversity (not just US sources)
 
@@ -152,6 +174,7 @@ As results arrive:
 
 **Techniques:**
 - Use WebSearch for current information (primary tool)
+- Use search-cli for multi-provider aggregated search (if installed)
 - Use WebFetch for deep dives into specific sources (secondary)
 - Use Exa search (via WebSearch with type="neural") for semantic exploration
 - Use Grep/Read for local documentation
@@ -311,6 +334,15 @@ As results arrive:
 - What alternative explanations exist?
 - What biases might be present?
 - What counterfactuals should be considered?
+
+**Persona-Based Critique (Deep/UltraDeep only):**
+Simulate 2-3 specific critic personas relevant to the topic:
+- "Skeptical Practitioner" — Would someone doing this daily trust these findings?
+- "Adversarial Reviewer" — What would a peer reviewer reject?
+- "Implementation Engineer" — Can these recommendations actually be executed?
+
+**Critical Gap Loop-Back:**
+If critique identifies a critical knowledge gap (not just a writing issue), return to Phase 3 with targeted "delta-queries" before proceeding to Phase 7. Time-box to 3-5 minutes. This prevents publishing reports with known blind spots.
 
 **Output:** Critique report with improvement recommendations
 

@@ -39,6 +39,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/transcr
 github_stars: 14288
 github_forks: 821
 github_is_organization: true
-retrieved_at: 2026-03-19T07:20:37.460Z
+retrieved_at: 2026-03-20T07:18:32.196Z
 content_sha256: f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09
 ---

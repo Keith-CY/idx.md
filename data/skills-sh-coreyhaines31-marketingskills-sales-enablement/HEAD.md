@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/sales-enablement
 github_stars: 13702
 github_forks: 2004
 github_is_organization: false
-retrieved_at: 2026-03-19T07:25:38.808Z
+retrieved_at: 2026-03-20T07:21:01.579Z
 content_sha256: 265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336
 ---

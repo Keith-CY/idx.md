@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openhue",
-  "generated_at": "2026-03-19T07:23:26.942Z",
+  "generated_at": "2026-03-20T07:19:56.651Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openhue#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openhue/SKILL.md",
-        "retrieved_at": "2026-03-19T07:23:26.942Z",
+        "retrieved_at": "2026-03-20T07:19:56.651Z",
         "content_sha256": "1ef85a78007c604eaff827692b83f6c5d2a40ccac8929b5c387db2ffbc6997ac"
       }
     }
