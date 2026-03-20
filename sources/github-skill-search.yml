@@ -571,6 +571,21 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-testing-load-balancers
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/testing/load-balancer-tester/skills/testing-load-balancers/SKILL.md
+  title: testing-load-balancers
+  summary: |-
+    Validate load balancer behavior, failover, and traffic distribution.
+    Use when performing specialized testing.
+    Trigger with phrases like "test load balancer", "validate failover", or "check traffic distribution".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/testing/load-balancer-tester/skills/testing-load-balancers/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/twinmind-pack/skills/twinmind-security-basics/SKILL.md
   title: twinmind-security-basics
@@ -644,6 +659,18 @@
     - github-repo-capev2
   upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
 - type: skills
+  slug: github-skill-kurtosis-tech-kurtosis-cluster-manage
+  source_url: https://raw.githubusercontent.com/kurtosis-tech/kurtosis/main/skills/cluster-manage/SKILL.md
+  title: cluster-manage
+  summary: Manage Kurtosis cluster settings. Switch between Docker and Kubernetes backends, list available clusters, and configure which cluster Kurtosis uses. Use when you need to change where Kurtosis runs enclaves.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-kurtosis-tech
+    - github-repo-kurtosis
+  upstream_ref: https://github.com/kurtosis-tech/kurtosis/blob/main/skills/cluster-manage/SKILL.md
+- type: skills
   slug: github-skill-kyegomez-swarms-financial-analysis
   source_url: https://raw.githubusercontent.com/kyegomez/swarms/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
   title: financial-analysis
@@ -691,6 +718,18 @@
     - github-owner-luongnv89
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
+- type: skills
+  slug: github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence
+  source_url: https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
+  title: analyzing-ransomware-leak-site-intelligence
+  summary: Monitor and analyze ransomware group data leak sites (DLS) to track victim postings, extract threat intelligence on group tactics, and assess sector-specific ransomware risk for proactive defense.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-mukul975
+    - github-repo-anthropic-cybersecurity-skills
+  upstream_ref: https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
 - type: skills
   slug: github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns
   source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
@@ -991,6 +1030,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satbot-mdk/moneydevkit/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-mysearch
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/skernelx/mysearch/SKILL.md
+  title: mysearch
+  summary: DEFAULT search skill for OpenClaw. Aggregates Tavily, Firecrawl, Exa, and optional X/social search behind one search path. Use for ANY external lookup that needs current web results, docs, GitHub, changelog, pricing, URL extraction, or X discussion. Prefer this over legacy Tavily-only skill or raw web_search when MySearch is healthy.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/skernelx/mysearch/SKILL.md
+- type: skills
   slug: github-skill-openclaw-skills-octoclaw
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/peterhanily/octoclaw-print/SKILL.md
   title: octoclaw
@@ -1266,3 +1317,27 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
+  source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
+  title: ultraqa
+  summary: QA cycling workflow - test, verify, fix, repeat until goal met
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-yeachan-heo
+    - github-repo-oh-my-claudecode
+  upstream_ref: https://github.com/Yeachan-Heo/oh-my-claudecode/blob/main/skills/ultraqa/SKILL.md
+- type: skills
+  slug: github-skill-zjunlp-skillnet-webshop-query-parser
+  source_url: https://raw.githubusercontent.com/zjunlp/SkillNet/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md
+  title: webshop-query-parser
+  summary: This skill extracts key constraints and product requirements from a user's shopping query. It should be triggered when the agent receives a new shopping instruction, to identify product attributes (e.g., 'gluten free'), price limits (e.g., 'lower than 140.00 dollars'), and other specifications. The skill outputs a structured set of search criteria to guide subsequent product discovery.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-zjunlp
+    - github-repo-skillnet
+  upstream_ref: https://github.com/zjunlp/SkillNet/blob/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md
