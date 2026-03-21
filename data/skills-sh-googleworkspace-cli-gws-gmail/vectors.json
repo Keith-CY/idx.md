@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-gmail",
-  "generated_at": "2026-03-21T06:20:39.556Z",
+  "generated_at": "2026-03-21T07:15:35.980Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-gmail#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-gmail-send/SKILL.md",
-        "retrieved_at": "2026-03-21T06:20:39.556Z",
+        "retrieved_at": "2026-03-21T07:15:35.980Z",
         "content_sha256": "3d18b655bb85006a85139b63a6d0f7279fa34be576e1cf64ec44959ff4e3ffc9"
       }
     }

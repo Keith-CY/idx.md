@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-documents-ai",
-  "generated_at": "2026-03-21T06:20:18.581Z",
+  "generated_at": "2026-03-21T07:15:21.937Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-documents-ai#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dbirulia/documents-ai/SKILL.md",
-        "retrieved_at": "2026-03-21T06:20:18.581Z",
+        "retrieved_at": "2026-03-21T07:15:21.937Z",
         "content_sha256": "baa273a30f50c6bdd0fe252c93cbda35b4a3e330bb0cbf8a41bee727e0c898d8"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-newsletter-creation-curation",
-  "generated_at": "2026-03-21T06:18:28.894Z",
+  "generated_at": "2026-03-21T07:13:59.977Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-newsletter-creation-curation#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/newsletter-creation-curation/SKILL.md",
-        "retrieved_at": "2026-03-21T06:18:28.894Z",
+        "retrieved_at": "2026-03-21T07:13:59.977Z",
         "content_sha256": "074e92c2c01befb78cb7dd05aeb8be7d7a30155c6f7f250d06a010bbc0d9bcef"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-docs-skill",
-  "generated_at": "2026-03-21T06:17:18.836Z",
+  "generated_at": "2026-03-21T07:13:12.899Z",
   "records": [
     {
       "id": "skills/openclaw-docs-skill#head",
@@ -15,7 +15,7 @@
         "title": "openclaw-docs-skill",
         "tags": [],
         "source_url": "https://docs.openclaw.ai/skill.md",
-        "retrieved_at": "2026-03-21T06:17:18.836Z",
+        "retrieved_at": "2026-03-21T07:13:12.899Z",
         "content_sha256": "cec82ee2b5514d678e5dea1ef82b0d95db2a536b9100888e2b970d58583deb27"
       }
     }

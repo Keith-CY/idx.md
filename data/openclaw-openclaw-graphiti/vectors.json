@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-graphiti",
-  "generated_at": "2026-03-21T06:18:10.354Z",
+  "generated_at": "2026-03-21T07:13:45.235Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-graphiti#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/emasoudy/graphiti/SKILL.md",
-        "retrieved_at": "2026-03-21T06:18:10.354Z",
+        "retrieved_at": "2026-03-21T07:13:45.235Z",
         "content_sha256": "3fafeaa23f126d6830edbd9d2fc5c9620ff807e4e2ea9152bad0ba2ffacfcd29"
       }
     }

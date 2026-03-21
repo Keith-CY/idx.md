@@ -40,6 +40,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/imagege
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-21T06:17:13.803Z
+retrieved_at: 2026-03-21T07:13:09.953Z
 content_sha256: 4da06e7a1fbfaa94154dda2699e449a1f6d79e6e4299fcfeb785aad7c87f59dc
 ---

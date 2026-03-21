@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bring-shopping",
-  "generated_at": "2026-03-21T06:17:48.335Z",
+  "generated_at": "2026-03-21T07:13:28.080Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bring-shopping#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cutzenfriend/bring-shopping/SKILL.md",
-        "retrieved_at": "2026-03-21T06:17:48.335Z",
+        "retrieved_at": "2026-03-21T07:13:28.080Z",
         "content_sha256": "aecbb9976d60b435901ba732762b5a806d81509dacefba6d59ab0a0ceef0d538"
       }
     }

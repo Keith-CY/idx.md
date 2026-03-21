@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-axtonliu-axton-obsidian-visual-skills-excalidraw-diagram",
-  "generated_at": "2026-03-21T06:19:25.179Z",
+  "generated_at": "2026-03-21T07:14:41.828Z",
   "records": [
     {
       "id": "skills/skills-sh-axtonliu-axton-obsidian-visual-skills-excalidraw-diagram#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/axtonliu/axton-obsidian-visual-skills/HEAD/excalidraw-diagram/references/excalidraw-schema.md",
-        "retrieved_at": "2026-03-21T06:19:25.179Z",
+        "retrieved_at": "2026-03-21T07:14:41.828Z",
         "content_sha256": "e1ac098f16f723aaf0b1fc6e511c6981cfb7cfa57a646da8eaa623f047287d5b"
       }
     }

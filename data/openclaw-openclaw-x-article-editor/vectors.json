@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-x-article-editor",
-  "generated_at": "2026-03-21T06:19:14.869Z",
+  "generated_at": "2026-03-21T07:14:36.380Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-x-article-editor#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/x-article-editor/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:14.869Z",
+        "retrieved_at": "2026-03-21T07:14:36.380Z",
         "content_sha256": "f4cb9b19e71d16da8f3e386cdf73a55cfa54702bfae9a5d749a656b68e0d31e1"
       }
     }

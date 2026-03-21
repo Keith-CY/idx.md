@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/code-refactoring
 github_stars: 75
 github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-21T06:20:37.997Z
+retrieved_at: 2026-03-21T07:15:35.214Z
 content_sha256: 95b1d9c73416f671f2b98f21533ed0541ef58794276990d65f0824bccce683e9
 ---

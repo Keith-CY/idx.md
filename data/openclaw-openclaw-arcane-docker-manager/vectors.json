@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-arcane-docker-manager",
-  "generated_at": "2026-03-21T06:17:45.043Z",
+  "generated_at": "2026-03-21T07:13:25.588Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-arcane-docker-manager#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cougz/arcane-docker-manager/SKILL.md",
-        "retrieved_at": "2026-03-21T06:17:45.043Z",
+        "retrieved_at": "2026-03-21T07:13:25.588Z",
         "content_sha256": "8287f45e460ec857a9d1e2b0b0b9c825583c55b73dfaf4fe9643f5c4b0d119d7"
       }
     }

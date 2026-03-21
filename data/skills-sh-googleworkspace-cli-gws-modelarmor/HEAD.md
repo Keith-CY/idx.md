@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-modelarmor
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-21T06:20:44.132Z
+retrieved_at: 2026-03-21T07:15:38.178Z
 content_sha256: e87b824d1a71122c9c3fb26f2fd93b42f508d23222cfc2184bf2a51e57752b03
 ---

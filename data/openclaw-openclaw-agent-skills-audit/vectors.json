@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-skills-audit",
-  "generated_at": "2026-03-21T06:19:42.334Z",
+  "generated_at": "2026-03-21T07:14:55.101Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-skills-audit#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/swader/agent-skills-audit/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:42.334Z",
+        "retrieved_at": "2026-03-21T07:14:55.101Z",
         "content_sha256": "a494a288a9191fce91578d6698e7199a74df43fca21197c8267ec36f00e56dd1"
       }
     }

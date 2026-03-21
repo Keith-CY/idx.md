@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-idealista",
-  "generated_at": "2026-03-21T06:18:13.172Z",
+  "generated_at": "2026-03-21T07:13:47.226Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-idealista#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/quifago/idealista/SKILL.md",
-        "retrieved_at": "2026-03-21T06:18:13.172Z",
+        "retrieved_at": "2026-03-21T07:13:47.226Z",
         "content_sha256": "0952926b9b3a2b777d0992808feb24782700eb4179a287919265dc4f9268f9a5"
       }
     }

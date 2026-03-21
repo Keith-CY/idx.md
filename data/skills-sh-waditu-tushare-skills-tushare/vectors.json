@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-waditu-tushare-skills-tushare",
-  "generated_at": "2026-03-21T06:20:47.013Z",
+  "generated_at": "2026-03-21T07:15:39.602Z",
   "records": [
     {
       "id": "skills/skills-sh-waditu-tushare-skills-tushare#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/waditu-tushare/skills/HEAD/tushare/references/ETF%E4%B8%93%E9%A2%98/ETF%E5%AE%9E%E6%97%B6%E5%88%86%E9%92%9F.md",
-        "retrieved_at": "2026-03-21T06:20:47.013Z",
+        "retrieved_at": "2026-03-21T07:15:39.602Z",
         "content_sha256": "0e74e6e279187ca6936f4d131eb221fb87e31f0b53e457fd3581a31731628e3a"
       }
     }

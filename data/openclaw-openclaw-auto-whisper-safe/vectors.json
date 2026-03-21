@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-auto-whisper-safe",
-  "generated_at": "2026-03-21T06:19:57.710Z",
+  "generated_at": "2026-03-21T07:15:07.406Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-auto-whisper-safe#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/neal-collab/auto-whisper-safe/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:57.710Z",
+        "retrieved_at": "2026-03-21T07:15:07.406Z",
         "content_sha256": "1e0cde4c959229de605c96e29e15916a2322ede9f5d9114037be6f051b6f165e"
       }
     }

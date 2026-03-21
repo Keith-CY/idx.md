@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ffmpeg-cli",
-  "generated_at": "2026-03-21T06:18:03.031Z",
+  "generated_at": "2026-03-21T07:13:39.763Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ffmpeg-cli#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ascendswang/ffmpeg-cli/SKILL.md",
-        "retrieved_at": "2026-03-21T06:18:03.031Z",
+        "retrieved_at": "2026-03-21T07:13:39.763Z",
         "content_sha256": "ef9ff1fb135c4919f688ae07cf9a3ba5a537ebd5e76f00edd3afad2e537a8a2d"
       }
     }

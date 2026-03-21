@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ui-skills",
-  "generated_at": "2026-03-21T06:19:06.539Z",
+  "generated_at": "2026-03-21T07:14:30.017Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ui-skills#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/correctroadh/ui-skills/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:06.539Z",
+        "retrieved_at": "2026-03-21T07:14:30.017Z",
         "content_sha256": "aa18b30c0c9b2b1e7a7edf05a9c95324256da90b81d6acddecf25c41748c1f78"
       }
     }

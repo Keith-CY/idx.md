@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentic-compass",
-  "generated_at": "2026-03-21T06:17:43.577Z",
+  "generated_at": "2026-03-21T07:13:24.329Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentic-compass#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/orosha-ai/agentic-compass/SKILL.md",
-        "retrieved_at": "2026-03-21T06:17:43.577Z",
+        "retrieved_at": "2026-03-21T07:13:24.329Z",
         "content_sha256": "67d2c9b1a35d0eee23eeaea23cd7b028b7c0f7e24468583f3d59dbfd342d238d"
       }
     }

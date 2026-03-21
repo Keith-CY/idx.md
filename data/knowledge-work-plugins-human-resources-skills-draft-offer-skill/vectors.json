@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-draft-offer-skill",
-  "generated_at": "2026-03-21T06:19:19.674Z",
+  "generated_at": "2026-03-21T07:14:39.598Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-draft-offer-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/draft-offer/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:19.674Z",
+        "retrieved_at": "2026-03-21T07:14:39.598Z",
         "content_sha256": "b50f677f4c8fb769b9cd0be51cd250e0e21a4530d579d5f400b7d7b1b1a63ea9"
       }
     }

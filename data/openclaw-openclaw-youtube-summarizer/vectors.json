@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-youtube-summarizer",
-  "generated_at": "2026-03-21T06:19:17.313Z",
+  "generated_at": "2026-03-21T07:14:38.276Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-youtube-summarizer#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abe238/youtube-summarizer/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:17.313Z",
+        "retrieved_at": "2026-03-21T07:14:38.276Z",
         "content_sha256": "84e4b66cf730c6e60086b25ecec187a35d44761b2837aa636d7ac200c1f39ded"
       }
     }

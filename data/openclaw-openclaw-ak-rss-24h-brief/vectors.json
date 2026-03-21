@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ak-rss-24h-brief",
-  "generated_at": "2026-03-21T06:19:49.166Z",
+  "generated_at": "2026-03-21T07:15:00.758Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ak-rss-24h-brief#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seandong/ak-rss-24h-brief/SKILL.md",
-        "retrieved_at": "2026-03-21T06:19:49.166Z",
+        "retrieved_at": "2026-03-21T07:15:00.758Z",
         "content_sha256": "54b8784d66ef4eed5a339bba6d2d7fec757f1e206b48bb43e7c5f385ffebecbf"
       }
     }

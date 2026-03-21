@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-web-coder",
-  "generated_at": "2026-03-21T06:20:44.897Z",
+  "generated_at": "2026-03-21T07:15:38.565Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-web-coder#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-coder/references/html-markup.md",
-        "retrieved_at": "2026-03-21T06:20:44.897Z",
+        "retrieved_at": "2026-03-21T07:15:38.565Z",
         "content_sha256": "e3b9ff6b24c0de4a7b48169ff4f69ed827cd74c4a7c13620825eaf62d04d1801"
       }
     }

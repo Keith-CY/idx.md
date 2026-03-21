@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brand-voice-profile",
-  "generated_at": "2026-03-21T06:20:04.023Z",
+  "generated_at": "2026-03-21T07:15:11.874Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brand-voice-profile#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dimitripantzos/brand-voice-profile/SKILL.md",
-        "retrieved_at": "2026-03-21T06:20:04.023Z",
+        "retrieved_at": "2026-03-21T07:15:11.874Z",
         "content_sha256": "f9aa1e8c97ff4e019040c9781ee673cd4105856c7954a3ad795ee58fb7b8f065"
       }
     }

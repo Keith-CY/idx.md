@@ -37,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/fronten
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-21T06:17:13.636Z
+retrieved_at: 2026-03-21T07:13:09.856Z
 content_sha256: d367b2d22825d74c169475507e7ff109b81c1e9c20b2de3421fb19fcfbe3329b
 ---

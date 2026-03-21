@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-199-biotechnologies-claude-deep-research-skill-deep-research",
-  "generated_at": "2026-03-21T06:20:46.420Z",
+  "generated_at": "2026-03-21T07:15:39.365Z",
   "records": [
     {
       "id": "skills/skills-sh-199-biotechnologies-claude-deep-research-skill-deep-research#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/199-biotechnologies/claude-deep-research-skill/HEAD/reference/methodology.md",
-        "retrieved_at": "2026-03-21T06:20:46.420Z",
+        "retrieved_at": "2026-03-21T07:15:39.365Z",
         "content_sha256": "1b9dad2ae6d3ac9972de811c414394946b7f249419a45393b3c9f062ef7b0d4d"
       }
     }

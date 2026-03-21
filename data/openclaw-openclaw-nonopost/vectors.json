@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nonopost",
-  "generated_at": "2026-03-21T06:18:30.030Z",
+  "generated_at": "2026-03-21T07:14:00.963Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nonopost#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ferreirapablo/nonopost/SKILL.md",
-        "retrieved_at": "2026-03-21T06:18:30.030Z",
+        "retrieved_at": "2026-03-21T07:14:00.963Z",
         "content_sha256": "fa066272ab7baad0b0a06c5a9d1b5dc3021229436bb504e1bf2f882c7f0d275b"
       }
     }
