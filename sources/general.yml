@@ -27215,3 +27215,32 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
+- type: skills
+  slug: knowledge-work-plugins-product-management-skills-product-brainstorming-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/product-brainstorming/SKILL.md
+  title: product-brainstorming
+  summary: Brainstorm product ideas, explore problem spaces, and challenge
+    assumptions as a thinking partner. Use when exploring a new opportunity,
+    generating solutions to a product problem, stress-testing an idea, or when a
+    PM needs to think out loud with a sharp sparring partner before converging
+    on a direction.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-skills
+    - plugin-skill
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/skills/product-brainstorming/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-product-management-commands-brainstorm
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/brainstorm.md
+  title: brainstorm
+  summary: Brainstorm a product idea, problem space, or strategic question with a
+    sharp thinking partner
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-product-management
+    - plugin-component-commands
+    - plugin-command
+    - category-productivity-tasks
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/brainstorm.md
