@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/plannotator
-github_stars: 3151
-github_forks: 182
+github_stars: 3402
+github_forks: 204
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:00.264Z
+retrieved_at: 2026-03-21T04:39:11.036Z
 content_sha256: 916fc75d8dafe304abbc0dfd0093020c3c1e53ca65fb7118e728bc74a6a45c03
 ---

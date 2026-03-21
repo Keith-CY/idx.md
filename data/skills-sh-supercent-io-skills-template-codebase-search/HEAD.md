@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/BurntSushi/ripgrep/master/GUIDE.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/codebase-search
-github_stars: 60967
-github_forks: 2429
+github_stars: 61172
+github_forks: 2438
 github_is_organization: false
-retrieved_at: 2026-03-20T07:20:59.866Z
+retrieved_at: 2026-03-21T04:39:09.898Z
 content_sha256: f79e4aa0bc39fb5b88e612b459ef2bf57455cbb87a7c600a244f08bef323ba32
 ---

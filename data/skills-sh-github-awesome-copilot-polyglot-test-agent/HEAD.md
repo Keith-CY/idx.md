@@ -35,9 +35,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/polyglot-test-agent/unit-test-generation.prompt.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/polyglot-test-agent
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:02.943Z
+retrieved_at: 2026-03-21T04:39:15.533Z
 content_sha256: 51fb84668d78fcc1ef305b83fa24aa4382bd2ceda8f251bd1f377f355d90a24a
 ---

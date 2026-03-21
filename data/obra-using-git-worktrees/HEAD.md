@@ -33,9 +33,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-git-worktrees/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md
-github_stars: 86266
-github_forks: 6797
+github_stars: 101712
+github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-03-20T07:18:32.987Z
+retrieved_at: 2026-03-21T04:33:18.503Z
 content_sha256: de9dcde34840eee074047ec327d4ea6ca4954c5a73a6d874dc48f25fe46c9e7c
 ---

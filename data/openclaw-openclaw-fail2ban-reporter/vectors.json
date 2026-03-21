@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fail2ban-reporter",
-  "generated_at": "2026-03-20T07:19:21.995Z",
+  "generated_at": "2026-03-21T04:34:32.457Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fail2ban-reporter#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jestersimpps/fail2ban-reporter/SKILL.md",
-        "retrieved_at": "2026-03-20T07:19:21.995Z",
+        "retrieved_at": "2026-03-21T04:34:32.457Z",
         "content_sha256": "163628d6e9b4cf0b0e42421674a3cd2ac183440d86b7ff8c0983b7bba5708729"
       }
     }

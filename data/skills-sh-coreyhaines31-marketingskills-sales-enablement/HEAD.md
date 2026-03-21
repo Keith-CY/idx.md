@@ -33,9 +33,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/sales-enablement/references/deck-frameworks.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/sales-enablement
-github_stars: 13702
-github_forks: 2004
+github_stars: 15070
+github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:01.579Z
+retrieved_at: 2026-03-21T04:39:10.544Z
 content_sha256: 265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336
 ---

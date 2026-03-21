@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/markdown-to-html/references/basic-markdown-to-html.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/markdown-to-html
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:01.781Z
+retrieved_at: 2026-03-21T04:39:13.868Z
 content_sha256: fe2c21cc2979a7ef382ea891f1ddd5138d1254c37336c9df33ba594c001a8743
 ---

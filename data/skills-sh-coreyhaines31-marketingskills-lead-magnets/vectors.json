@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-coreyhaines31-marketingskills-lead-magnets",
+  "generated_at": "2026-03-21T04:39:19.768Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-coreyhaines31-marketingskills-lead-magnets#head",
+      "kind": "head",
+      "path": "/data/skills-sh-coreyhaines31-marketingskills-lead-magnets/HEAD.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-lead-magnets\nsummary: # Lead Magnet Format Guide Detailed creation guidance for each lead magnet format. ## Contents - Ebooks & Guides - Checklists - Cheat Sheets - Templates & Spreadsheets - Swipe Files - Mini-Courses - Quizzes & Assessments\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/lead-magnets/references/format-guide.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-lead-magnets",
+        "topic": "skills-sh-coreyhaines31-marketingskills-lead-magnets",
+        "type": "skills",
+        "title": "skills-sh-coreyhaines31-marketingskills-lead-magnets",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/lead-magnets/references/format-guide.md",
+        "retrieved_at": "2026-03-21T04:39:19.768Z",
+        "content_sha256": "160b34c4c0d19e67fcc032181fdfbf1d5cae6dac94937f2333e8e21815ce9732"
+      }
+    }
+  ]
+}

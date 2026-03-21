@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawtopia",
-  "generated_at": "2026-03-20T07:22:00.086Z",
+  "generated_at": "2026-03-21T04:38:29.058Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawtopia#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alfrescian/clawtopia/SKILL.md",
-        "retrieved_at": "2026-03-20T07:22:00.086Z",
+        "retrieved_at": "2026-03-21T04:38:29.058Z",
         "content_sha256": "a4aaca44c093e35e3de3fa175a491eabfe664384ee7d51b63be2675f339a6588"
       }
     }

@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/mcp-builder/reference/mcp_best_practices.md
 license: ""
 upstream_ref: https://skills.sh/anthropics/skills/mcp-builder
-github_stars: 94307
-github_forks: 10106
+github_stars: 98731
+github_forks: 10714
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:58.067Z
+retrieved_at: 2026-03-21T04:39:05.441Z
 content_sha256: 80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007
 ---

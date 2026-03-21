@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-upgrade/references/global-rules.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/azure-skills/azure-upgrade
-github_stars: 369
-github_forks: 47
+github_stars: 461
+github_forks: 57
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:05.836Z
+retrieved_at: 2026-03-21T04:39:04.624Z
 content_sha256: 42e0a4b593b20cf4cba43509f19d781053e31c690e47f8dfef70e3748f7f0fb8
 ---

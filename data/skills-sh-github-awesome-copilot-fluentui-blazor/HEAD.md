@@ -33,9 +33,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/fluentui-blazor/references/SETUP.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/fluentui-blazor
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:02.805Z
+retrieved_at: 2026-03-21T04:39:15.400Z
 content_sha256: 297ae2f3ceade5e6c79d03b9739150cd2ee687714e78e0b0ffbe94ff6f20e062
 ---

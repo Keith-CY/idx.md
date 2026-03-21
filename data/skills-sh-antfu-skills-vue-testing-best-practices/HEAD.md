@@ -34,9 +34,9 @@ tags:
 source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
 license: ""
 upstream_ref: https://skills.sh/antfu/skills/vue-testing-best-practices
-github_stars: 4081
-github_forks: 203
+github_stars: 4218
+github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:06.154Z
+retrieved_at: 2026-03-21T04:39:17.913Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---

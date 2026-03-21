@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/content-strategy/references/headless-cms.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/content-strategy
-github_stars: 13702
-github_forks: 2004
+github_stars: 15070
+github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-03-20T07:20:57.999Z
+retrieved_at: 2026-03-21T04:39:04.941Z
 content_sha256: 5434e226fd593a2e1174264c37b7cba589e60a82739deec0c29107b48f1ffae5
 ---

@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
-github_stars: 155
-github_forks: 101
+github_stars: 160
+github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:56.717Z
+retrieved_at: 2026-03-21T04:39:02.077Z
 content_sha256: 80dce2a24b8956959be4e50e90b69c109fb1b25fc1f2029ad9fc2c35e591731d
 ---

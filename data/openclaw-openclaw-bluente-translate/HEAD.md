@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/varsmallrookie/bluente-translate/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2898
-github_forks: 848
+github_stars: 3179
+github_forks: 905
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:49.082Z
+retrieved_at: 2026-03-21T04:39:24.450Z
 content_sha256: 27769f4d507d651bfd84a25d7b38742d3482e26d295dd0d3aa88ce2213e73c9d
 ---

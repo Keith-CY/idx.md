@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-forms/references/form-patterns.md
 license: ""
 upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
-github_stars: 530
-github_forks: 55
+github_stars: 558
+github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:07.417Z
+retrieved_at: 2026-03-21T04:39:21.099Z
 content_sha256: 8cbd30faf4fe8457e638b85f612720325b68c875860f292155ddd9a93359de93
 ---

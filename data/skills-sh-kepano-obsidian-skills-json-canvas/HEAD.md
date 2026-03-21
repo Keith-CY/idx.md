@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/json-canvas/references/EXAMPLES.md
 license: ""
 upstream_ref: https://skills.sh/kepano/obsidian-skills/json-canvas
-github_stars: 14111
-github_forks: 779
+github_stars: 15199
+github_forks: 846
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:05.955Z
+retrieved_at: 2026-03-21T04:39:18.196Z
 content_sha256: f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
 ---

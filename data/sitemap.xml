@@ -71,14 +71,17 @@
   <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker/BODY.md</loc></url>
+  <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-testing-load-balancers/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-twinmind-security-basics/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-vercel-upgrade-migration/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-jeremylongshore-claude-code-plugins-plus-skills-websocket-client-creator/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-kevoreilly-capev2-cape-sandbox-developer/BODY.md</loc></url>
+  <url><loc>https://idx.md/github-skill-kurtosis-tech-kurtosis-cluster-manage/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-kyegomez-swarms-financial-analysis/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-lobehub-lobehub-data-fetching/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-longbridge-gpui-component-generate-component-story/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-luongnv89-claude-howto-brand-voice-consistency/BODY.md</loc></url>
+  <url><loc>https://idx.md/github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-novuhq-novu-react-email/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-onmax-nuxt-skills-nuxt-seo/BODY.md</loc></url>
@@ -100,6 +103,7 @@
   <url><loc>https://idx.md/github-skill-openclaw-skills-listenhub/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-openclaw-skills-moltpet/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-openclaw-skills-moneydevkit/BODY.md</loc></url>
+  <url><loc>https://idx.md/github-skill-openclaw-skills-mysearch/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-openclaw-skills-octoclaw/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-openclaw-skills-openclaw-backup-optimized/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-openclaw-skills-origram/BODY.md</loc></url>
@@ -121,6 +125,8 @@
   <url><loc>https://idx.md/github-skill-tencentblueking-bk-bcs-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter/BODY.md</loc></url>
   <url><loc>https://idx.md/github-skill-wavetermdev-waveterm-electron-api/BODY.md</loc></url>
+  <url><loc>https://idx.md/github-skill-yeachan-heo-oh-my-claudecode-ultraqa/BODY.md</loc></url>
+  <url><loc>https://idx.md/github-skill-zjunlp-skillnet-webshop-query-parser/BODY.md</loc></url>
   <url><loc>https://idx.md/ibelick-baseline-ui/BODY.md</loc></url>
   <url><loc>https://idx.md/ibelick-fixing-accessibility/BODY.md</loc></url>
   <url><loc>https://idx.md/ibelick-fixing-metadata/BODY.md</loc></url>
@@ -265,11 +271,6 @@
   <url><loc>https://idx.md/knowledge-work-plugins-sales-skills-draft-outreach-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-sales-skills-forecast-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/knowledge-work-plugins-sales-skills-pipeline-review-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/leonxlnx-taste-skill-minimalist-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/leonxlnx-taste-skill-output-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/leonxlnx-taste-skill-redesign-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/leonxlnx-taste-skill-soft-skill/BODY.md</loc></url>
-  <url><loc>https://idx.md/leonxlnx-taste-skill-taste-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/mintlify-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/moltbook-skill/BODY.md</loc></url>
   <url><loc>https://idx.md/obra-brainstorming/BODY.md</loc></url>
@@ -850,7 +851,6 @@
   <url><loc>https://idx.md/openclaw-openclaw-book-cover-generation/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-book-reader/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-bookkeeper/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-bookkeeping-basics/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-bookstack/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-botpress-adk/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-botsee/BODY.md</loc></url>
@@ -892,7 +892,6 @@
   <url><loc>https://idx.md/openclaw-openclaw-build-discipline/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-bun-runtime/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-business-card-generation/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-business-plan/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-buy-anything/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-bvg-route/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-byterover-headless/BODY.md</loc></url>
@@ -1006,7 +1005,6 @@
   <url><loc>https://idx.md/openclaw-openclaw-clawddocs/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-clawdefender/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-clawdgle/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-clawdhub-contributor/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-clawdirect-dev/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-clawdirect/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-clawdr/BODY.md</loc></url>
@@ -2512,6 +2510,7 @@
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-copywriting/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-email-sequence/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-free-tool-strategy/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-lead-magnets/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-marketing-ideas/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-onboarding-cro/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-coreyhaines31-marketingskills-page-cro/BODY.md</loc></url>
@@ -2558,9 +2557,10 @@
   <url><loc>https://idx.md/skills-sh-eraserlabs-eraser-io-eraser-diagrams/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-everyinc-compound-engineering-plugin-compound-docs/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-existential-birds-beagle-tailwind-v4/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-firebase-agent-skills-firebase-basics/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-firecrawl-cli-firecrawl-browser/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-firecrawl-cli-firecrawl-download/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-firecrawl-cli-firecrawl-scrape/BODY.md</loc></url>
-  <url><loc>https://idx.md/skills-sh-firecrawl-cli-firecrawl-search/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-firecrawl-cli-firecrawl/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-github-awesome-copilot-aspire/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-github-awesome-copilot-azure-deployment-preflight/BODY.md</loc></url>
@@ -2591,6 +2591,7 @@
   <url><loc>https://idx.md/skills-sh-github-awesome-copilot-winapp-cli/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-github-awesome-copilot-write-coding-standards-from-file/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-giulioco-skills-postbridge-social-growth/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-google-labs-code-stitch-skills-stitch-design/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-googleworkspace-cli-gws-calendar/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-googleworkspace-cli-gws-chat/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-googleworkspace-cli-gws-docs-write/BODY.md</loc></url>
@@ -2618,6 +2619,7 @@
   <url><loc>https://idx.md/skills-sh-hyf0-vue-skills-vue-debug-guides/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-inferen-sh-skills-agent-tools/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-inferen-sh-skills-ai-image-generation/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-inferen-sh-skills-infsh-cli/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-inferen-sh-skills-javascript-sdk/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-inferen-sh-skills-python-sdk/BODY.md</loc></url>
@@ -2649,9 +2651,11 @@
   <url><loc>https://idx.md/skills-sh-madteacher-mad-agents-skills-flutter-architecture/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-magicseek-nblm-nblm/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-mastra-ai-skills-mastra/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-mattpocock-skills-improve-codebase-architecture/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-mattpocock-skills-tdd/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-mcp-use-mcp-use-chatgpt-app-builder/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-mcp-use-mcp-use-mcp-apps-builder/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-microsoft-azure-skills-azure-cloud-migrate/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-microsoft-azure-skills-azure-quotas/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-microsoft-azure-skills-azure-upgrade/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation/BODY.md</loc></url>
@@ -2738,6 +2742,7 @@
   <url><loc>https://idx.md/skills-sh-softaworks-agent-toolkit-react-useeffect/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-softaworks-agent-toolkit-session-handoff/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-squirrelscan-skills-audit-website/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-stripe-ai-stripe-best-practices/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-supercent-io-skills-template-ai-tool-compliance/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-supercent-io-skills-template-code-refactoring/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-supercent-io-skills-template-codebase-search/BODY.md</loc></url>
@@ -2755,6 +2760,7 @@
   <url><loc>https://idx.md/skills-sh-supercent-io-skills-template-ui-component-patterns/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-supercent-io-skills-template-vercel-deploy/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-supercent-io-skills-template-web-accessibility/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-tavily-ai-skills-tavily-best-practices/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-trailofbits-skills-address-sanitizer/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-trailofbits-skills-aflpp/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-trailofbits-skills-atheris/BODY.md</loc></url>
@@ -2793,6 +2799,7 @@
   <url><loc>https://idx.md/skills-sh-vuejs-ai-skills-vue-pinia-best-practices/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-vuejs-ai-skills-vue-router-best-practices/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-vuejs-ai-skills-vue-testing-best-practices/BODY.md</loc></url>
+  <url><loc>https://idx.md/skills-sh-waditu-tushare-skills-tushare/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-waynesutton-convexskills-convex-functions/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-whatevertogo-feishuskill-lark-mcp/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-wshobson-agents-context-driven-development/BODY.md</loc></url>

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-shortcuts-skill",
-  "generated_at": "2026-03-20T07:20:17.900Z",
+  "generated_at": "2026-03-21T04:36:11.585Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-shortcuts-skill#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/erik-agens/shortcuts-skill/SKILL.md",
-        "retrieved_at": "2026-03-20T07:20:17.900Z",
+        "retrieved_at": "2026-03-21T04:36:11.585Z",
         "content_sha256": "bfb2960328f1e840e0a7a715c436158abe6c6914e83ecae1fbe6ce6f93f3d733"
       }
     }

@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-chat-send/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/googleworkspace/cli/gws-chat
-github_stars: 20648
-github_forks: 954
+github_stars: 21821
+github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:06.085Z
+retrieved_at: 2026-03-21T04:39:18.596Z
 content_sha256: 0ddfcaf734149378651b683146a225f6797dc0b28317d84f5ffdb8959ec97d37
 ---

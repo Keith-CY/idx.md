@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-resource-lookup/references/azure-resource-graph.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup
-github_stars: 155
-github_forks: 101
+github_stars: 160
+github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:56.974Z
+retrieved_at: 2026-03-21T04:39:02.362Z
 content_sha256: 478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea
 ---

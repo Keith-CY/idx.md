@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/backend-testing/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/testing-strategies
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:59.551Z
+retrieved_at: 2026-03-21T04:39:09.438Z
 content_sha256: 91eb6da411be4897aafa9c97f7ec5ce98a1d753b8ca9ed2f0dda4997be9c0113
 ---

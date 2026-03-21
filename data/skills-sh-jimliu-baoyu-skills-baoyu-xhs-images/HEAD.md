@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-xhs-images/references/style-presets.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images
-github_stars: 9050
-github_forks: 1021
+github_stars: 9795
+github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-03-20T07:20:59.757Z
+retrieved_at: 2026-03-21T04:39:08.603Z
 content_sha256: 0620ce34347d83247c0502f5386437f1ef8229710a6e46690ac35ccaed65e255
 ---

@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/performance-optimization/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/react-best-practices
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:07.590Z
+retrieved_at: 2026-03-21T04:39:21.661Z
 content_sha256: f50ae83a4b001635e8a12c94dd71078099d89c5c548a8707adf299779bef47c5
 ---

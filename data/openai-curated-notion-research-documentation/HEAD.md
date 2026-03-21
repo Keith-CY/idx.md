@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-research-documentation/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/notion-research-documentation/SKILL.md
-github_stars: 14288
-github_forks: 821
+github_stars: 14678
+github_forks: 858
 github_is_organization: true
-retrieved_at: 2026-03-20T07:18:31.457Z
+retrieved_at: 2026-03-21T04:33:14.337Z
 content_sha256: e88a46da978cf6f088a788fa92ee736df699a355a72f41f14bdc258bf3ef57e7
 ---

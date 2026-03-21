@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-airweave",
-  "generated_at": "2026-03-20T07:21:34.390Z",
+  "generated_at": "2026-03-21T04:37:51.043Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-airweave#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lennertjansen/airweave/SKILL.md",
-        "retrieved_at": "2026-03-20T07:21:34.390Z",
+        "retrieved_at": "2026-03-21T04:37:51.043Z",
         "content_sha256": "e253d815d779c19e0a4b6a2f87ad505e96ae35df27204955c2dcda324bb9e67f"
       }
     }

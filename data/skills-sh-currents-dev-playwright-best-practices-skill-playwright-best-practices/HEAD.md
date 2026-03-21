@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/currents-dev/playwright-best-practices-skill/HEAD/core/test-suite-structure.md
 license: ""
 upstream_ref: https://skills.sh/currents-dev/playwright-best-practices-skill/playwright-best-practices
-github_stars: 143
-github_forks: 32
+github_stars: 155
+github_forks: 34
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:59.914Z
+retrieved_at: 2026-03-21T04:39:06.840Z
 content_sha256: 638a72c8d01826a842096ca2a90bd6108d27a31a0d28d209833d14379abac9ee
 ---

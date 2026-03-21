@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-openclaw-skills-mysearch",
+  "generated_at": "2026-03-21T04:33:09.296Z",
+  "records": [
+    {
+      "id": "skills/github-skill-openclaw-skills-mysearch#head",
+      "kind": "head",
+      "path": "/data/github-skill-openclaw-skills-mysearch/HEAD.md",
+      "text": "title: mysearch\nsummary: DEFAULT search skill for OpenClaw. Aggregates Tavily, Firecrawl, Exa, and optional X/social search behind one search path. Use for ANY external lookup that needs current web results, docs, GitHub, changelog, pricing, URL extraction, or X discussion. Prefer this over legacy Tavily-only skill or raw web_search when MySearch is healthy.\ntype: skills\ntags: github-skill-search, source-github-code-search, category-git-github, github-owner-openclaw, github-repo-skills\nsource_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/skernelx/mysearch/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-openclaw-skills-mysearch",
+        "topic": "github-skill-openclaw-skills-mysearch",
+        "type": "skills",
+        "title": "mysearch",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-git-github",
+          "github-owner-openclaw",
+          "github-repo-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/skernelx/mysearch/SKILL.md",
+        "retrieved_at": "2026-03-21T04:33:09.296Z",
+        "content_sha256": "e5de6513c1b78150ba5fbf33b3bce2bf8ae3653dc9df51c55a9600aa1ef7c718"
+      }
+    }
+  ]
+}

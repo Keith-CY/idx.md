@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/inferen-sh/skills/HEAD/sdk/python-sdk/references/agent-patterns.md
 license: ""
 upstream_ref: https://skills.sh/inferen-sh/skills/python-sdk
-github_stars: 153
-github_forks: 21
+github_stars: 169
+github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:05.426Z
+retrieved_at: 2026-03-21T04:39:09.562Z
 content_sha256: da24fe3d637d13163a570db4f0a25d840b7e61076662500826a10f80b4d4db4e
 ---

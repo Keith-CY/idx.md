@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gemini-computer-use",
-  "generated_at": "2026-03-20T07:19:26.512Z",
+  "generated_at": "2026-03-21T04:34:40.336Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gemini-computer-use#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/gemini-computer-use/SKILL.md",
-        "retrieved_at": "2026-03-20T07:19:26.512Z",
+        "retrieved_at": "2026-03-21T04:34:40.336Z",
         "content_sha256": "f3e2164371f74b57d4276e2f00c50c39cf7e3e99092a374053001d8b15ec52f2"
       }
     }

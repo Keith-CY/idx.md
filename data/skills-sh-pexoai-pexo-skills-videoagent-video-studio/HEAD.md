@@ -35,9 +35,9 @@ tags:
 source_url: https://raw.githubusercontent.com/pexoai/pexo-skills/HEAD/skills/videoagent-video-studio/references/models.md
 license: ""
 upstream_ref: https://skills.sh/pexoai/pexo-skills/videoagent-video-studio
-github_stars: 194
-github_forks: 10
+github_stars: 299
+github_forks: 14
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:00.908Z
+retrieved_at: 2026-03-21T04:39:11.803Z
 content_sha256: c18c3b7a89765b6c1292e074c22ed56a6334b71e91ef192fb86de60dcd754f74
 ---

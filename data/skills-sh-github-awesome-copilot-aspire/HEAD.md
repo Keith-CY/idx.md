@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/aspire/references/cli-reference.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/aspire
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:02.613Z
+retrieved_at: 2026-03-21T04:39:15.165Z
 content_sha256: 224e09146fa0a8af3f661c8538e1fee660f9288d4eccf80985c47e2f732136c9
 ---

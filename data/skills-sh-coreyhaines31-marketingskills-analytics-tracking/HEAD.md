@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/analytics-tracking/references/event-library.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/analytics-tracking
-github_stars: 13702
-github_forks: 2004
+github_stars: 15070
+github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-03-20T07:20:58.412Z
+retrieved_at: 2026-03-21T04:39:05.817Z
 content_sha256: efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412
 ---

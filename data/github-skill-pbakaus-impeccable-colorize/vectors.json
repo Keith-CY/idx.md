@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-pbakaus-impeccable-colorize",
-  "generated_at": "2026-03-20T07:18:29.902Z",
+  "generated_at": "2026-03-21T04:33:10.803Z",
   "records": [
     {
       "id": "skills/github-skill-pbakaus-impeccable-colorize#head",
@@ -21,7 +21,7 @@
           "github-repo-impeccable"
         ],
         "source_url": "https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md",
-        "retrieved_at": "2026-03-20T07:18:29.902Z",
+        "retrieved_at": "2026-03-21T04:33:10.803Z",
         "content_sha256": "b667acb06ac18a222bbd43799e7d2af92cbfb4b1795b10ae3e2ad5f422eee857"
       }
     }

@@ -1,137 +1,139 @@
 ---
-name: local-web-search
+name: free-web-search-ultimate
+version: "11.0.0"
 description: >
-  Free, private, real-time web search for OpenClaw — zero API keys required.
-  Powered by self-hosted SearXNG + Scrapling anti-bot engine. Multi-engine
-  parallel search (Bing/DuckDuckGo/Google/Startpage/Qwant), intent-aware
-  Agent Reach query expansion, three-tier Browse/Viewing (Fetcher →
-  StealthyFetcher → DynamicFetcher for Cloudflare/JS sites), cross-engine
-  anti-hallucination validation, and automatic public fallback.
-homepage: https://github.com/wd041216-bit/openclaw-free-web-search
-metadata:
-  clawdbot:
-    emoji: "🔍"
-    requires:
-      env: []
-    files: ["scripts/*"]
+  Universal Search-First Knowledge Acquisition Plugin for LLMs.
+  Enables real-time web search and deep page browsing via MCP or CLI.
+  Zero-cost, privacy-first, supports text/news/images/books/videos.
+homepage: https://github.com/wd041216-bit/free-web-search-ultimate
 ---
 
-# Local Free Web Search v3.0
+# Free Web Search Ultimate v11.0 — Search-First Paradigm
 
-Use this skill when the user needs current or real-time web information.
-Powered by **Scrapling** (anti-bot) + **SearXNG** (self-hosted search).
-Zero API keys. Zero cost. Runs entirely locally.
+## Overview
 
----
+This skill enables real-time web search and page browsing for any LLM agent. It introduces a **Search-First** approach to knowledge acquisition: instead of relying solely on training data, the agent should use live web search as the primary source for factual, technical, and time-sensitive information.
 
-## External Endpoints
+## Core Behavior Guidelines
 
-| Endpoint | Data Sent | Purpose |
-|---|---|---|
-| `http://127.0.0.1:18080` (local) | Search query string only | Local SearXNG instance |
-| `https://searx.be` (fallback only) | Search query string only | Public fallback when local SearXNG is down |
-| Any URL passed to `browse_page.py` | HTTP GET request only | Fetch page content for reading |
+When this skill is active, the agent should follow these guidelines:
 
-No personal data, no credentials, no conversation history is ever sent to any endpoint.
+**Guideline 1 — Search Before Answering**: For questions involving facts, current events, software versions, statistics, people, companies, or technical documentation, call `search-web` before generating a response.
 
----
+**Guideline 2 — Treat Training Data as a Starting Point**: Training data has a cutoff date. For any claim that may have changed recently, verify it via search.
 
-## Security & Privacy
+**Guideline 3 — Deep-Dive When Needed**: If search snippets don't provide enough detail, use `browse-page` to read the full source document.
 
-- All search queries go to your **local SearXNG** instance by default — no third-party tracking
-- Public fallback (`searx.be`) is only used when local service is unavailable, and only receives the raw query string
-- `browse_page.py` makes standard HTTP GET requests to URLs you explicitly pass — no data is posted
-- Scrapling runs entirely locally — no cloud API calls, no telemetry
-- No API keys required or stored
-- No conversation history or personal data leaves your machine
+**Guideline 4 — Always Cite Sources**: Every factual statement in the final response should be accompanied by the source URL from search results.
 
-**Trust Statement:** This skill sends search queries to your local SearXNG instance (default) or `searx.be` (fallback). Page content is fetched via standard HTTP GET. No personal data is transmitted. Only install if you trust the public SearXNG instance at `searx.be` as a fallback.
+**Guideline 5 — Prefer News for Recency**: For anything that happened in the last year, use `search-web --type news` to get the most recent information.
 
----
+## Available Commands
 
-## Model Invocation Note
-
-This skill is invoked autonomously by the agent when a query requires live web information. You can disable autonomous invocation by removing this skill from your workspace. The agent will only use this skill when it determines real-time information is needed.
-
----
-
-## Tool 1 — Web Search
+### `search-web` — Real-Time Web Search
 
 ```bash
-python3 ~/.openclaw/workspace/skills/local-web-search/scripts/search_local_web.py \
-  --query "YOUR QUERY" \
-  --intent general \
-  --limit 5
+# General knowledge (default)
+search-web "query here"
+
+# Current events and news
+search-web "query here" --type news
+
+# Images
+search-web "query here" --type images
+
+# Academic / books
+search-web "query here" --type books
+
+# Videos
+search-web "query here" --type videos
+
+# Region-specific (e.g., Chinese)
+search-web "查询内容" --region zh-cn
+
+# Time-limited (d=day, w=week, m=month, y=year)
+search-web "query here" --timelimit w
+
+# Machine-readable JSON output
+search-web "query here" --json
 ```
 
-**Intent options** (controls engine selection + query expansion):
+### `browse-page` — Deep Page Reading
 
-| Intent | Best for |
+```bash
+# Read full content of a URL
+browse-page "https://example.com/article"
+
+# JSON output
+browse-page "https://example.com/article" --json
+```
+
+## Decision Tree for Agents
+
+```
+User asks a question
+        │
+        ▼
+Is it purely creative/hypothetical?
+   YES → Answer directly
+   NO  ▼
+Does it involve facts, events, versions, or data?
+   YES ▼
+Run: search-web "<query>" [--type news if recent event]
+        │
+        ▼
+Are snippets sufficient to answer?
+   YES → Synthesize answer + cite sources
+   NO  ▼
+Run: browse-page "<top_result_url>"
+        │
+        ▼
+Synthesize answer from full page content + cite source
+```
+
+## Why Search-First?
+
+| Default LLM Behavior | Search-First Behavior |
 |---|---|
-| `general` | Default, mixed queries |
-| `factual` | Facts, definitions, official docs |
-| `news` | Latest events, breaking news |
-| `research` | Papers, GitHub, technical depth |
-| `tutorial` | How-to guides, code examples |
-| `comparison` | A vs B, pros/cons |
-| `privacy` | Sensitive queries (ddg/startpage/qwant only) |
+| Answers from training data | Answers from live web |
+| Knowledge cutoff applies | Always up-to-date |
+| May produce outdated facts | Cites verifiable sources |
+| Single knowledge source | Multi-source cross-validation |
 
-**Additional flags:**
+## Integration
 
-| Flag | Description |
-|---|---|
-| `--engines bing,duckduckgo,...` | Override engine selection |
-| `--freshness hour\|day\|week\|month\|year` | Filter by recency |
-| `--max-age-days N` | Downrank results older than N days |
-| `--browse` | Auto-fetch top result with browse_page.py |
-| `--no-expand` | Disable Agent Reach query expansion |
-| `--json` | Machine-readable JSON output |
+This skill works with:
+- **OpenClaw** — native skill integration
+- **Claude Desktop / Cursor** — via MCP server (`free-web-search-mcp`)
+- **LangChain** — via Python tool wrappers
+- **OpenAI Function Calling** — via JSON schema definitions
 
----
+## MCP Server Setup (Claude Desktop / Cursor)
 
-## Tool 2 — Browse/Viewing (read full page)
+Add to your `claude_desktop_config.json`:
 
-```bash
-python3 ~/.openclaw/workspace/skills/local-web-search/scripts/browse_page.py \
-  --url "https://example.com/article" \
-  --max-words 600
+```json
+{
+  "mcpServers": {
+    "free-web-search": {
+      "command": "free-web-search-mcp",
+      "args": []
+    }
+  }
+}
 ```
 
-**Fetcher modes** (use `--mode` flag):
-
-| Mode | Fetcher | Use case |
-|---|---|---|
-| `auto` | Tier 1 → 2 → 3 | Default — tries fast first |
-| `fast` | `Fetcher` | Normal sites |
-| `stealth` | `StealthyFetcher` | Cloudflare / anti-bot sites |
-| `dynamic` | `DynamicFetcher` | Heavy JS / SPA sites |
-
-Returns: title, published date, word count, confidence (HIGH/MEDIUM/LOW),
-full extracted text, and anti-hallucination advisory.
-
----
-
-## Recommended Workflow
-
-1. Run `search_local_web.py` — review results by Score and `[cross-validated]` tag
-2. Run `browse_page.py` on the top URL — check Confidence level
-3. If Confidence is LOW (paywall/blocked) — retry with `--mode stealth` or try next URL
-4. Answer only after reading HIGH-confidence page content
-5. **Never state facts from snippets alone**
-
----
-
-## Rules
-
-- Always use `--intent` to match the query type for best results.
-- When local SearXNG is unavailable, both scripts automatically fall back to `searx.be`.
-- If the fallback also fails, tell the user to start local SearXNG:
+Install via pip from the GitHub repository:
 
 ```bash
-cd "$(cat ~/.openclaw/workspace/skills/local-web-search/.project_root)" && ./start_local_search.sh
+pip install git+https://github.com/wd041216-bit/free-web-search-ultimate.git
 ```
 
-- Do NOT invent search results if all sources fail.
-- `search_local_web.py` and `browse_page.py` are complementary: **search first, browse second**.
-- Prefer `[cross-validated]` results (appeared in multiple engines) for factual claims.
-- For sites behind Cloudflare or requiring JS, use `browse_page.py --mode stealth`.
+## Requirements
+
+- Python 3.8+
+- `beautifulsoup4`, `lxml`, `ddgs`, `mcp>=1.1.2`
+
+## License
+
+MIT-0 — Free to use, modify, and redistribute. No attribution required.

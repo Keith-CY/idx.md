@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-performance-optimization",
-  "generated_at": "2026-03-20T07:20:59.449Z",
+  "generated_at": "2026-03-21T04:39:09.091Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-performance-optimization#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/database-schema-design/SKILL.md",
-        "retrieved_at": "2026-03-20T07:20:59.449Z",
+        "retrieved_at": "2026-03-21T04:39:09.091Z",
         "content_sha256": "19e359c21cc43cda372c892070131305858b15a443e81ba68a3cfd5d540b5533"
       }
     }

@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md
 license: ""
 upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md
-github_stars: 86266
-github_forks: 6797
+github_stars: 101712
+github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-03-20T07:18:33.018Z
+retrieved_at: 2026-03-21T04:33:18.590Z
 content_sha256: 5fa548a85ce639dc6a2ea53607f9d405363c9b935004d0d95dc16e9629752d00
 ---

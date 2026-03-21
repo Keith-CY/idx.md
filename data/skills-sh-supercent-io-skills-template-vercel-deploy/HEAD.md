@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/deployment-automation/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/vercel-deploy
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:00.026Z
+retrieved_at: 2026-03-21T04:39:10.663Z
 content_sha256: 542d86db666473699645cd921ddc37f0e9927de839af0401968be0d0a254e9b4
 ---

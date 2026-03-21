@@ -1,0 +1,27 @@
+---
+stable_id: skills/skills-sh-stripe-ai-stripe-best-practices
+type: skills
+title: skills-sh-stripe-ai-stripe-best-practices
+summary: |-
+  ---
+  title: Payments
+  ---
+  # Payments
+  ## Table of contents
+  - API hierarchy
+  - Integration surfaces
+  - Payment Element guidance
+  - Saving payment methods
+  - Dynamic payment methods
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/stripe/ai/HEAD/skills/stripe-best-practices/references/payments.md
+license: ""
+upstream_ref: https://skills.sh/stripe/ai/stripe-best-practices
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-03-21T04:39:23.767Z
+content_sha256: 966d0b88930f9bb0a76fe5819683946b4fb7d31bdd9d900381c1a44b0fa7cb4a
+---

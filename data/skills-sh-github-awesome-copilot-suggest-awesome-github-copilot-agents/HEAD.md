@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/docs/README.agents.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-agents
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:03.420Z
+retrieved_at: 2026-03-21T04:39:16.050Z
 content_sha256: 75da76f2b709eb16f084929416cc1479ae738d6b96cbebe53bff076489921075
 ---

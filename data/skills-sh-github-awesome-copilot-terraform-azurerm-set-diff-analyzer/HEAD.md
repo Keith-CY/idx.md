@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/terraform-azurerm-set-diff-analyzer/scripts/README.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/terraform-azurerm-set-diff-analyzer
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:02.459Z
+retrieved_at: 2026-03-21T04:39:14.858Z
 content_sha256: fcabc67e277dbbc3d46b81edce7aae50e71da4f93dc0b1358e4c45737570e82c
 ---

@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:02.178Z
+retrieved_at: 2026-03-21T04:39:14.524Z
 content_sha256: b053c8faa2db8049ccbecb6151fca496546e9a5cd846d19321bd6f80570c045f
 ---

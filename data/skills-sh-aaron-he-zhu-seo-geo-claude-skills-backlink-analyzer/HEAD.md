@@ -33,9 +33,9 @@ tags:
 source_url: https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/CONNECTORS.md
 license: ""
 upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer
-github_stars: 397
-github_forks: 52
+github_stars: 457
+github_forks: 61
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:04.086Z
+retrieved_at: 2026-03-21T04:39:08.960Z
 content_sha256: e8c53b1e0715199cac2fadf6ec4df61b375df22a2b752b180ceea81c188ca888
 ---

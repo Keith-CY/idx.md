@@ -25,9 +25,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/bmad-orchestrator/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/ai-tool-compliance
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:04.524Z
+retrieved_at: 2026-03-21T04:39:17.358Z
 content_sha256: c4ce97a7e81a436e518e65f4777dcdd67b370eca74a4a1b32e46cebbea2d4724
 ---

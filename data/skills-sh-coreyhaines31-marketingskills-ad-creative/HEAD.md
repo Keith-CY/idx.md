@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ad-creative/references/platform-specs.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ad-creative
-github_stars: 13702
-github_forks: 2004
+github_stars: 15070
+github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-03-20T07:21:00.322Z
+retrieved_at: 2026-03-21T04:39:07.169Z
 content_sha256: de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e
 ---

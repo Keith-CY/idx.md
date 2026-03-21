@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/Azure-Samples/serverless-chat-langchainjs/refs/heads/main/README.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/create-readme
-github_stars: 856
-github_forks: 483
+github_stars: 857
+github_forks: 486
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:01.232Z
+retrieved_at: 2026-03-21T04:39:12.803Z
 content_sha256: c94501dd4e1635ecbd1e59401803b27ccfec287683fa855eb19841fe24e959f8
 ---

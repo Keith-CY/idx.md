@@ -24,9 +24,9 @@ tags:
 source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
-github_stars: 186
+github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:07.928Z
+retrieved_at: 2026-03-21T04:39:18.922Z
 content_sha256: f30a672fa56276976c6cd86925c14cb87ad29b20cdfaccdb13fb92633f87d09e
 ---

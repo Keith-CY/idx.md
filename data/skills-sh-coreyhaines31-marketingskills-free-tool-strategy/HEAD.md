@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/free-tool-strategy/references/tool-types.md
 license: ""
 upstream_ref: https://skills.sh/coreyhaines31/marketingskills/free-tool-strategy
-github_stars: 13702
-github_forks: 2004
+github_stars: 15070
+github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-03-20T07:20:58.622Z
+retrieved_at: 2026-03-21T04:39:06.259Z
 content_sha256: 3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f
 ---

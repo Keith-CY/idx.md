@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel/turborepo/HEAD/skills/turborepo/references/configuration/RULE.md
 license: ""
 upstream_ref: https://skills.sh/vercel/turborepo/turborepo
-github_stars: 30012
-github_forks: 2290
+github_stars: 30048
+github_forks: 2301
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:59.220Z
-content_sha256: 051409447746e0ec57fe797499f0970217c5b6deef09b7fd9b3d22dd10bd489a
+retrieved_at: 2026-03-21T04:39:07.954Z
+content_sha256: bd38438c1393cd5c6eca2bd61f95cc69445a3f5f7088bbf1cef862ab1697e6cf
 ---

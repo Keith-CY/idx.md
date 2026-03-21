@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/shadcn/ui/HEAD/skills/shadcn/rules/styling.md
 license: ""
 upstream_ref: https://skills.sh/shadcn/ui/shadcn
-github_stars: 109652
-github_forks: 8196
+github_stars: 110214
+github_forks: 8267
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:58.303Z
+retrieved_at: 2026-03-21T04:39:04.831Z
 content_sha256: 4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7
 ---

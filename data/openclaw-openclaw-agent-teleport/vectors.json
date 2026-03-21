@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-teleport",
-  "generated_at": "2026-03-20T07:21:26.982Z",
+  "generated_at": "2026-03-21T04:37:41.356Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-teleport#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lilyjazz/agent-teleport/SKILL.md",
-        "retrieved_at": "2026-03-20T07:21:26.982Z",
+        "retrieved_at": "2026-03-21T04:37:41.356Z",
         "content_sha256": "e6a83202a5d004bd1ec09f026b4c8ba57837ab551952b401c14972310953b7d9"
       }
     }

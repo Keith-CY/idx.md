@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/vercel-labs/agent-browser/HEAD/skills/agent-browser/references/authentication.md
 license: ""
 upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
-github_stars: 22462
-github_forks: 1319
+github_stars: 23871
+github_forks: 1407
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:57.309Z
+retrieved_at: 2026-03-21T04:39:02.720Z
 content_sha256: 8ccc30f2613523630cf3771a07d71339676d93c63623631a4206521c6d78d2e5
 ---

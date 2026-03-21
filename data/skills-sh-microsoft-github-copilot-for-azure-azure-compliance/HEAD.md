@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compliance/references/azure-quick-review.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance
-github_stars: 155
-github_forks: 101
+github_stars: 160
+github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:56.546Z
+retrieved_at: 2026-03-21T04:39:01.656Z
 content_sha256: abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63
 ---

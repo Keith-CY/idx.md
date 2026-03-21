@@ -34,9 +34,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/docs/README.instructions.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/github-copilot-starter
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:03.071Z
+retrieved_at: 2026-03-21T04:39:15.647Z
 content_sha256: f291b758bfaf747457a6337c2b83f939c6cf0cb24117d680d2cecee8cadc188a
 ---

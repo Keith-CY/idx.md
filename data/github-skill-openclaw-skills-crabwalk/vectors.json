@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-crabwalk",
-  "generated_at": "2026-03-20T07:18:28.329Z",
+  "generated_at": "2026-03-21T04:33:08.200Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-crabwalk#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/luccast/public/skill.md",
-        "retrieved_at": "2026-03-20T07:18:28.329Z",
+        "retrieved_at": "2026-03-21T04:33:08.200Z",
         "content_sha256": "e417b0d19b8420973cd6010e402e1a8b593f161e66fad3aee82389ab895e54fd"
       }
     }

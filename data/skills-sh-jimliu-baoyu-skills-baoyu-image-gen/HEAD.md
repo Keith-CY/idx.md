@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-image-gen/references/config/first-time-setup.md
 license: ""
 upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen
-github_stars: 9050
-github_forks: 1021
+github_stars: 9795
+github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-03-20T07:20:58.954Z
+retrieved_at: 2026-03-21T04:39:07.315Z
 content_sha256: f84f2c5984b715e68609c126a6972ff9fdd56fb8c9f927e80bc3279571fb88c6
 ---

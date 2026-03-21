@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yt-video-downloader",
-  "generated_at": "2026-03-20T07:18:38.205Z",
+  "generated_at": "2026-03-21T04:33:25.893Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yt-video-downloader#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sakaen736jih/yt-video-downloader/SKILL.md",
-        "retrieved_at": "2026-03-20T07:18:38.205Z",
+        "retrieved_at": "2026-03-21T04:33:25.893Z",
         "content_sha256": "95e4f019643e58c55fb9d15c3290405d94715e8a05bf9bcb5c348a7492d3cd06"
       }
     }

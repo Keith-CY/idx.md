@@ -29,9 +29,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/entra-app-registration/references/cli-commands.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration
-github_stars: 155
-github_forks: 101
+github_stars: 160
+github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:56.379Z
+retrieved_at: 2026-03-21T04:39:01.265Z
 content_sha256: c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24
 ---

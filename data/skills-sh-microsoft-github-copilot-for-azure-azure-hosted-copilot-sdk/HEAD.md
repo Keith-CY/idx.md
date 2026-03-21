@@ -19,9 +19,9 @@ tags:
 source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-hosted-copilot-sdk/references/existing-project-integration.md
 license: ""
 upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk
-github_stars: 155
-github_forks: 101
+github_stars: 160
+github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:57.239Z
+retrieved_at: 2026-03-21T04:39:02.977Z
 content_sha256: b3943c725135fcf780a2a5d768ad3c7ef1ea9485b4c0585be43b788bc6ab44f5
 ---

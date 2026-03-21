@@ -1,0 +1,26 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "skills-sh-firebase-agent-skills-firebase-basics",
+  "generated_at": "2026-03-21T04:39:24.156Z",
+  "records": [
+    {
+      "id": "skills/skills-sh-firebase-agent-skills-firebase-basics#head",
+      "kind": "head",
+      "path": "/data/skills-sh-firebase-agent-skills-firebase-basics/HEAD.md",
+      "text": "title: skills-sh-firebase-agent-skills-firebase-basics\nsummary: # Creating a Project To create a new Firebase project from the CLI: ```bash npx -y firebase-tools@latest projects:create ``` You will be prompted to: 1. Enter a **Project ID** (must be 6-30 chars, lowercase, digits, and hyphens; must be unique globally). 2. Enter a **display name**.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/firebase/agent-skills/HEAD/skills/firebase-basics/references/firebase-project-create.md",
+      "metadata": {
+        "stable_id": "skills/skills-sh-firebase-agent-skills-firebase-basics",
+        "topic": "skills-sh-firebase-agent-skills-firebase-basics",
+        "type": "skills",
+        "title": "skills-sh-firebase-agent-skills-firebase-basics",
+        "tags": [
+          "skills-sh",
+          "skills-sh-all-time"
+        ],
+        "source_url": "https://raw.githubusercontent.com/firebase/agent-skills/HEAD/skills/firebase-basics/references/firebase-project-create.md",
+        "retrieved_at": "2026-03-21T04:39:24.156Z",
+        "content_sha256": "458b37d31c47e024a0310948dca61ec956c530efbab9b77af571e368c103ecba"
+      }
+    }
+  ]
+}

@@ -27,9 +27,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-design-reviewer/references/framework-fixes.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/web-design-reviewer
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:01.061Z
+retrieved_at: 2026-03-21T04:39:12.676Z
 content_sha256: e678c549dd5f69094d53eb5785f0c34ae4cd150a92ac1f79785065fc835276f6
 ---

@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/monitoring-observability/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/looker-studio-bigquery
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:00.130Z
+retrieved_at: 2026-03-21T04:39:10.783Z
 content_sha256: 19332680187528c26a466d33743506fd200ccf152a26468eb52aa34b60ca642a
 ---

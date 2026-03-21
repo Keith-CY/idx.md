@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/environment-setup/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/npm-git-install
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:00.201Z
+retrieved_at: 2026-03-21T04:39:10.905Z
 content_sha256: ca3c98837189b1d87c0ee6cdc9e6bf49b75b137b5a700c5ee74d3c00391e5445
 ---

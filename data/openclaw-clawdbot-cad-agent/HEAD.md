@@ -10,9 +10,9 @@ tags:
 source_url: https://raw.githubusercontent.com/clawdbot/skills/main/skills/clawd-maf/cad-agent/SKILL.md
 license: ""
 upstream_ref: ""
-github_stars: 2898
-github_forks: 848
+github_stars: 3179
+github_forks: 905
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:09.758Z
+retrieved_at: 2026-03-21T04:39:24.297Z
 content_sha256: f026c6d907c7a3082a07777d66b630b4e2952e8ff56c07b864674c7fb1302aef
 ---

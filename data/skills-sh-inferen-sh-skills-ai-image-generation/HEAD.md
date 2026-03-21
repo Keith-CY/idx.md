@@ -1,0 +1,34 @@
+---
+stable_id: skills/skills-sh-inferen-sh-skills-ai-image-generation
+type: skills
+title: skills-sh-inferen-sh-skills-ai-image-generation
+summary: >-
+  # Install CLI
+
+  ```sh
+
+  curl -fsSL https://cli.inference.sh | sh
+
+  infsh login
+
+  ```
+
+  ## What does the installer do?
+
+  The install script detects your OS and architecture, downloads the correct
+  binary from dist.inference.sh, verifies its SHA-256 checksum, and places it in
+  your PATH. That's it — no elevated permissions, no background processes, no
+  telemetry. If you have cosign installed, the installer also verifies the
+  Sigstore signature automatically.
+tags:
+  - skills-sh
+  - skills-sh-all-time
+source_url: https://raw.githubusercontent.com/inference-sh/skills/refs/heads/main/cli-install.md
+license: ""
+upstream_ref: https://skills.sh/inferen-sh/skills/ai-image-generation
+github_stars: 169
+github_forks: 24
+github_is_organization: true
+retrieved_at: 2026-03-21T04:39:03.103Z
+content_sha256: 1db16252b21ac0a43f2736edc572f290a5d251795706972a0cced0f8615c0e17
+---

@@ -5,6 +5,13 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.81
+
+  - Fixed `canUseTool` not providing a working `addRules` suggestion when a
+  write under `.claude/skills/{name}/` hits the bypass-immune safety check
+
+  - Updated to parity with Claude Code v2.1.81
+
   ## 0.2.80
 
   - Fixed `getSessionMessages()` dropping parallel tool results — sessions with
@@ -18,12 +25,6 @@ summary: >-
   resume-triggered session ends in hooks
 
   - Updated to parity with Claude Code v2.1.79
-
-  ## 0.2.78
-
-  - Updated to parity with Claude Code v2.1.78
-
-  ## 0.2.77
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +34,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-20T07:18:53.176Z
-content_sha256: ed70c9ebb918f050e4470802c4f19fe3d682f20f835f225de4f8fbe6ceaef219
+retrieved_at: 2026-03-21T04:33:45.978Z
+content_sha256: d1c6f4922e61f72cf6d22345f5cd79b6f1c507af2966822893aa16696c31fb65
 ---

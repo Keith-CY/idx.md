@@ -28,9 +28,9 @@ tags:
 source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/penpot-uiux-design/references/setup-troubleshooting.md
 license: ""
 upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
-github_stars: 25290
-github_forks: 2902
+github_stars: 26261
+github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-20T07:21:01.383Z
+retrieved_at: 2026-03-21T04:39:13.268Z
 content_sha256: 5eceba271320c73a4ed22db14b4c02331b5768f98121eab74cd3e6440bb4f521
 ---

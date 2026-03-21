@@ -26,9 +26,9 @@ tags:
 source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/api-design/SKILL.md
 license: ""
 upstream_ref: https://skills.sh/supercent-io/skills-template/database-schema-design
-github_stars: 50
-github_forks: 11
+github_stars: 75
+github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-20T07:20:59.168Z
+retrieved_at: 2026-03-21T04:39:08.093Z
 content_sha256: ff98cf20b0832240cdff4c84bf4da769e10431b36a344933b66760dae0c61ea8
 ---
