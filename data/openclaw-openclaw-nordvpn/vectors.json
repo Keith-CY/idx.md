@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nordvpn",
-  "generated_at": "2026-03-21T04:38:55.944Z",
+  "generated_at": "2026-03-21T06:20:29.930Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nordvpn#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maciekish/nordvpn/SKILL.md",
-        "retrieved_at": "2026-03-21T04:38:55.944Z",
+        "retrieved_at": "2026-03-21T06:20:29.930Z",
         "content_sha256": "389776b96056e4eb4ac667ab1cb7582e76ab364d1ee25094dafebb91352b59cf"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tg",
-  "generated_at": "2026-03-21T04:36:27.798Z",
+  "generated_at": "2026-03-21T06:19:01.798Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tg#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arein/tg/SKILL.md",
-        "retrieved_at": "2026-03-21T04:36:27.798Z",
+        "retrieved_at": "2026-03-21T06:19:01.798Z",
         "content_sha256": "6b1ce1f48a670e141539ca547cd259edc66f5e1be7d6793a345041c4c42fef04"
       }
     }

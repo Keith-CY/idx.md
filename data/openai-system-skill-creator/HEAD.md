@@ -30,9 +30,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-creator/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md
-github_stars: 14678
-github_forks: 858
+github_stars: 14772
+github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-21T04:33:17.056Z
+retrieved_at: 2026-03-21T06:17:15.370Z
 content_sha256: a17383bfb1448637ac1f757ad891ddb9676fa30b0eff620200f0e1cbc0cc0d50
 ---

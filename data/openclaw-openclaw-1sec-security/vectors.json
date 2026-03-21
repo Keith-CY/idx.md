@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-1sec-security",
-  "generated_at": "2026-03-21T04:37:15.826Z",
+  "generated_at": "2026-03-21T06:19:30.631Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-1sec-security#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cutmob/1sec-security/SKILL.md",
-        "retrieved_at": "2026-03-21T04:37:15.826Z",
+        "retrieved_at": "2026-03-21T06:19:30.631Z",
         "content_sha256": "d180ff8032033a51d9dcd52b983723cc68bab6cdb7062f723c7733534507fcf3"
       }
     }

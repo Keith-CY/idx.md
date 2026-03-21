@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltlist-marketplace",
-  "generated_at": "2026-03-21T04:35:18.322Z",
+  "generated_at": "2026-03-21T06:18:25.909Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltlist-marketplace#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/koriyoshi2041/moltlist-marketplace/SKILL.md",
-        "retrieved_at": "2026-03-21T04:35:18.322Z",
+        "retrieved_at": "2026-03-21T06:18:25.909Z",
         "content_sha256": "ab1f8d0096a6fa3e3e4fc6bb101011fdec832e3c42d49f36e6fccfbffd4d927e"
       }
     }

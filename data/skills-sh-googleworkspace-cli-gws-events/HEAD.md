@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-events
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-21T04:39:18.816Z
+retrieved_at: 2026-03-21T06:20:43.876Z
 content_sha256: 4dc74e5357b1fa59242aaedd9ec0d0cdd999f57fad9bcaf9cf5b80153e12a35d
 ---

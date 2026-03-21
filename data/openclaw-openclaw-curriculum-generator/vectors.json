@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-curriculum-generator",
-  "generated_at": "2026-03-21T04:38:35.229Z",
+  "generated_at": "2026-03-21T06:20:16.412Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-curriculum-generator#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tarasinghrajput/curriculum-generator/SKILL.md",
-        "retrieved_at": "2026-03-21T04:38:35.229Z",
+        "retrieved_at": "2026-03-21T06:20:16.412Z",
         "content_sha256": "da461ca62c84fbaa35331abc73f10281d09b62084e4fe636293ac00003d69705"
       }
     }

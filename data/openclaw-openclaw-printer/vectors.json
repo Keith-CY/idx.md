@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-printer",
-  "generated_at": "2026-03-21T04:35:48.234Z",
+  "generated_at": "2026-03-21T06:18:41.146Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-printer#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dhvanilpatel/printer/SKILL.md",
-        "retrieved_at": "2026-03-21T04:35:48.234Z",
+        "retrieved_at": "2026-03-21T06:18:41.146Z",
         "content_sha256": "26dcfee26ba889bacffdf38c0ab59a17d65e263a93a4192b3492ea403de18627"
       }
     }

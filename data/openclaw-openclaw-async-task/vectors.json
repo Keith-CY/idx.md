@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-async-task",
-  "generated_at": "2026-03-21T04:38:03.313Z",
+  "generated_at": "2026-03-21T06:19:56.093Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-async-task#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/enderfga/async-task/SKILL.md",
-        "retrieved_at": "2026-03-21T04:38:03.313Z",
+        "retrieved_at": "2026-03-21T06:19:56.093Z",
         "content_sha256": "4adaf666894dcbe7ed4fa9f82b9b4cacfba79b2047d5594148e01aa755b6da59"
       }
     }

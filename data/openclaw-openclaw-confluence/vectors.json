@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-confluence",
-  "generated_at": "2026-03-21T04:38:31.290Z",
+  "generated_at": "2026-03-21T06:20:13.866Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-confluence#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/francisbrero/confluence/SKILL.md",
-        "retrieved_at": "2026-03-21T04:38:31.290Z",
+        "retrieved_at": "2026-03-21T06:20:13.866Z",
         "content_sha256": "55f6271a72c064a4e14313c87297bc5209785e480c9e91e49e869b1b3bdbc9a6"
       }
     }

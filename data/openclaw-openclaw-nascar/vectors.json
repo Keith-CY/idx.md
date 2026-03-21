@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nascar",
-  "generated_at": "2026-03-21T04:35:22.745Z",
+  "generated_at": "2026-03-21T06:18:28.006Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nascar#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cmp343-art/nascar/SKILL.md",
-        "retrieved_at": "2026-03-21T04:35:22.745Z",
+        "retrieved_at": "2026-03-21T06:18:28.006Z",
         "content_sha256": "2f3247f530d07913dd65fe9d0d8f225cd7e52a95b044c9bce572767b32655c7b"
       }
     }

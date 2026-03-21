@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltysmind",
-  "generated_at": "2026-03-21T04:35:19.046Z",
+  "generated_at": "2026-03-21T06:18:26.263Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltysmind#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ahmedthegeek/moltysmind/SKILL.md",
-        "retrieved_at": "2026-03-21T04:35:19.046Z",
+        "retrieved_at": "2026-03-21T06:18:26.263Z",
         "content_sha256": "c8adad35b52d89bf97f31c1154a25deaaf7afe87d445a952f492a6d112123821"
       }
     }

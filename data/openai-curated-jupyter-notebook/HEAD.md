@@ -32,9 +32,9 @@ tags:
 source_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/jupyter-notebook/SKILL.md
 license: ""
 upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/jupyter-notebook/SKILL.md
-github_stars: 14678
-github_forks: 858
+github_stars: 14772
+github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-21T04:33:13.880Z
+retrieved_at: 2026-03-21T06:17:13.878Z
 content_sha256: 62f102e8554b25716dccef0ffab4572d4e3eaf05ccc76562d33a065bc9c521fb
 ---

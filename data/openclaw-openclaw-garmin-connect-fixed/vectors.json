@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-garmin-connect-fixed",
-  "generated_at": "2026-03-21T04:34:39.184Z",
+  "generated_at": "2026-03-21T06:18:05.414Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-garmin-connect-fixed#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/godsboy/garmin-connect-fixed/SKILL.md",
-        "retrieved_at": "2026-03-21T04:34:39.184Z",
+        "retrieved_at": "2026-03-21T06:18:05.414Z",
         "content_sha256": "01c29630248ee603552c5fb441bc048d09eec3f9eb5a87582e260c279bc14347"
       }
     }

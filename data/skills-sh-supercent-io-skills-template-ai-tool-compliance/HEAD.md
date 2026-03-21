@@ -28,6 +28,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/ai-tool-compliance
 github_stars: 75
 github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-21T04:39:17.358Z
+retrieved_at: 2026-03-21T06:20:43.058Z
 content_sha256: c4ce97a7e81a436e518e65f4777dcdd67b370eca74a4a1b32e46cebbea2d4724
 ---

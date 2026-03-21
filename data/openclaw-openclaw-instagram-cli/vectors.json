@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-instagram-cli",
-  "generated_at": "2026-03-21T04:34:55.093Z",
+  "generated_at": "2026-03-21T06:18:14.277Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-instagram-cli#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordanprater/instagram-cli/SKILL.md",
-        "retrieved_at": "2026-03-21T04:34:55.093Z",
+        "retrieved_at": "2026-03-21T06:18:14.277Z",
         "content_sha256": "017b47e308fa16885a1b2952d3ae935a99e969473bdb683c76a15a41caf1fde4"
       }
     }

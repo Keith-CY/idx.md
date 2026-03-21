@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "ibelick-fixing-motion-performance",
-  "generated_at": "2026-03-21T04:33:12.764Z",
+  "generated_at": "2026-03-21T06:17:13.193Z",
   "records": [
     {
       "id": "skills/ibelick-fixing-motion-performance#head",
@@ -18,7 +18,7 @@
           "source-ibelick-ui-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-motion-performance/SKILL.md",
-        "retrieved_at": "2026-03-21T04:33:12.764Z",
+        "retrieved_at": "2026-03-21T06:17:13.193Z",
         "content_sha256": "0a2d654902bc04263ce68c8c02967ef03f17b482e855360a5463211d99d7baa9"
       }
     }

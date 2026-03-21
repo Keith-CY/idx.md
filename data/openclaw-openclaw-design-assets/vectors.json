@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-design-assets",
-  "generated_at": "2026-03-21T04:38:37.730Z",
+  "generated_at": "2026-03-21T06:20:17.696Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-design-assets#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cmanfre7/design-assets/SKILL.md",
-        "retrieved_at": "2026-03-21T04:38:37.730Z",
+        "retrieved_at": "2026-03-21T06:20:17.696Z",
         "content_sha256": "55f41f6afea81eb64028ba1609bd096c47e751b42718cea5091ab0573b1531ee"
       }
     }

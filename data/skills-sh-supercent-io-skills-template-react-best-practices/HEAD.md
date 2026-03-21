@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/react-best-practice
 github_stars: 75
 github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-21T04:39:21.661Z
+retrieved_at: 2026-03-21T06:20:45.503Z
 content_sha256: f50ae83a4b001635e8a12c94dd71078099d89c5c548a8707adf299779bef47c5
 ---
