@@ -17,8 +17,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/remotion-dev/skills/remotion-best-practices
-  github_stars: 2143
-  github_forks: 261
+  github_stars: 2283
+  github_forks: 273
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-ai
@@ -27,8 +27,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-ai
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-storage
@@ -37,8 +37,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-storage
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-cost-optimization
@@ -47,8 +47,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-diagnostics
@@ -57,8 +57,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-diagnostics
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-entra-app-registration
@@ -67,8 +67,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/entra-app-registration
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation
@@ -77,8 +77,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/appinsights-instrumentation
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-compliance
@@ -87,28 +87,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compliance
-  github_stars: 155
-  github_forks: 101
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-microsoft-github-copilot-for-azure-azure-aigateway
-  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-aigateway/references/policies.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway
-  github_stars: 155
-  github_forks: 101
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-microsoft-github-copilot-for-azure-azure-prepare
-  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-resource-visualizer
@@ -117,8 +97,28 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-visualizer
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-aigateway
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-aigateway/references/policies.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-aigateway
+  github_stars: 160
+  github_forks: 103
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-prepare
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-validate
@@ -127,8 +127,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-validate
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup
@@ -137,8 +137,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry
@@ -147,28 +147,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry
-  github_stars: 155
-  github_forks: 101
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-microsoft-github-copilot-for-azure-azure-observability
-  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-observability/references/sdk/azure-monitor-opentelemetry-py.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-observability
-  github_stars: 155
-  github_forks: 101
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-microsoft-github-copilot-for-azure-azure-hosted-copilot-sdk
-  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-hosted-copilot-sdk/references/existing-project-integration.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
   slug: skills-sh-vercel-labs-agent-browser-agent-browser
@@ -177,49 +157,39 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/vercel-labs/agent-browser/agent-browser
-  github_stars: 22462
-  github_forks: 1319
+  github_stars: 23871
+  github_forks: 1407
   github_is_organization: true
 - type: skills
-  slug: skills-sh-microsoft-github-copilot-for-azure-azure-compute
-  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compute/references/vmss-guide.md
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-observability
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-observability/references/sdk/azure-monitor-opentelemetry-py.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compute
-  github_stars: 155
-  github_forks: 101
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-observability
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
-  slug: skills-sh-microsoft-github-copilot-for-azure-azure-cloud-migrate
-  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cloud-migrate/references/services/functions/global-rules.md
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-hosted-copilot-sdk
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-hosted-copilot-sdk/references/existing-project-integration.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate
-  github_stars: 155
-  github_forks: 101
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-copilot-sdk
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
-  slug: skills-sh-browser-use-browser-use-browser-use
-  source_url: https://raw.githubusercontent.com/browser-use/browser-use/main/browser_use/skill_cli/README.md
+  slug: skills-sh-inferen-sh-skills-ai-image-generation
+  source_url: https://raw.githubusercontent.com/inference-sh/skills/refs/heads/main/cli-install.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/browser-use/browser-use/browser-use
-  github_stars: 80883
-  github_forks: 9558
+  upstream_ref: https://skills.sh/inferen-sh/skills/ai-image-generation
+  github_stars: 169
+  github_forks: 24
   github_is_organization: true
-- type: skills
-  slug: skills-sh-coreyhaines31-marketingskills-seo-audit
-  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/seo-audit/references/ai-writing-detection.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
-  github_stars: 13702
-  github_forks: 2004
-  github_is_organization: false
 - type: skills
   slug: skills-sh-inferen-sh-skills-agent-tools
   source_url: https://raw.githubusercontent.com/inferen-sh/skills/HEAD/tools/agent-tools/references/authentication.md
@@ -227,8 +197,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/inferen-sh/skills/agent-tools
-  github_stars: 153
-  github_forks: 21
+  github_stars: 169
+  github_forks: 24
   github_is_organization: true
 - type: skills
   slug: skills-sh-inferen-sh-skills-infsh-cli
@@ -237,8 +207,58 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/inferen-sh/skills/infsh-cli
-  github_stars: 153
-  github_forks: 21
+  github_stars: 169
+  github_forks: 24
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-compute
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compute/references/vmss-guide.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-compute
+  github_stars: 160
+  github_forks: 103
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-microsoft-azure-skills-azure-cloud-migrate
+  source_url: https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-cloud-migrate/references/services/functions/global-rules.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/azure-skills/azure-cloud-migrate
+  github_stars: 461
+  github_forks: 57
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-browser-use-browser-use-browser-use
+  source_url: https://raw.githubusercontent.com/browser-use/browser-use/main/browser_use/skill_cli/README.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/browser-use/browser-use/browser-use
+  github_stars: 81478
+  github_forks: 9619
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-seo-audit
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/seo-audit/references/ai-writing-detection.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
+  github_stars: 15070
+  github_forks: 2250
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-microsoft-azure-skills-azure-quotas
+  source_url: https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-quotas/references/commands.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/azure-skills/azure-quotas
+  github_stars: 461
+  github_forks: 57
   github_is_organization: true
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-copywriting
@@ -247,9 +267,19 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
+- type: skills
+  slug: skills-sh-vercel-labs-next-skills-next-best-practices
+  source_url: https://raw.githubusercontent.com/vercel-labs/next-skills/HEAD/skills/next-best-practices/file-conventions.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/vercel-labs/next-skills/next-best-practices
+  github_stars: 745
+  github_forks: 47
+  github_is_organization: true
 - type: skills
   slug: skills-sh-squirrelscan-skills-audit-website
   source_url: https://raw.githubusercontent.com/squirrelscan/skills/HEAD/audit-website/references/OUTPUT-FORMAT.md
@@ -267,29 +297,29 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-postgres
-  github_stars: 155
-  github_forks: 101
+  github_stars: 160
+  github_forks: 103
   github_is_organization: true
 - type: skills
-  slug: skills-sh-vercel-labs-next-skills-next-best-practices
-  source_url: https://raw.githubusercontent.com/vercel-labs/next-skills/HEAD/skills/next-best-practices/file-conventions.md
+  slug: skills-sh-microsoft-azure-skills-azure-upgrade
+  source_url: https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-upgrade/references/global-rules.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/vercel-labs/next-skills/next-best-practices
-  github_stars: 721
-  github_forks: 44
+  upstream_ref: https://skills.sh/microsoft/azure-skills/azure-upgrade
+  github_stars: 461
+  github_forks: 57
   github_is_organization: true
 - type: skills
-  slug: skills-sh-coreyhaines31-marketingskills-programmatic-seo
-  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/programmatic-seo/references/playbooks.md
+  slug: skills-sh-shadcn-ui-shadcn
+  source_url: https://raw.githubusercontent.com/shadcn/ui/HEAD/skills/shadcn/rules/styling.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
-  github_stars: 13702
-  github_forks: 2004
-  github_is_organization: false
+  upstream_ref: https://skills.sh/shadcn/ui/shadcn
+  github_stars: 110214
+  github_forks: 8267
+  github_is_organization: true
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-content-strategy
   source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/content-strategy/references/headless-cms.md
@@ -297,19 +327,19 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/content-strategy
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
-  slug: skills-sh-anthropics-skills-mcp-builder
-  source_url: https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/mcp-builder/reference/mcp_best_practices.md
+  slug: skills-sh-coreyhaines31-marketingskills-programmatic-seo
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/programmatic-seo/references/playbooks.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/anthropics/skills/mcp-builder
-  github_stars: 94307
-  github_forks: 10106
-  github_is_organization: true
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/programmatic-seo
+  github_stars: 15070
+  github_forks: 2250
+  github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-marketing-ideas
   source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/marketing-ideas/references/ideas-by-category.md
@@ -317,18 +347,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
-  github_stars: 13702
-  github_forks: 2004
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-coreyhaines31-marketingskills-copy-editing
-  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copy-editing/references/plain-english-alternatives.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copy-editing
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-pricing-strategy
@@ -337,19 +357,29 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/pricing-strategy
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
-  slug: skills-sh-shadcn-ui-shadcn
-  source_url: https://raw.githubusercontent.com/shadcn/ui/HEAD/skills/shadcn/rules/styling.md
+  slug: skills-sh-anthropics-skills-mcp-builder
+  source_url: https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/mcp-builder/reference/mcp_best_practices.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/shadcn/ui/shadcn
-  github_stars: 109652
-  github_forks: 8196
+  upstream_ref: https://skills.sh/anthropics/skills/mcp-builder
+  github_stars: 98731
+  github_forks: 10714
   github_is_organization: true
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-copy-editing
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copy-editing/references/plain-english-alternatives.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copy-editing
+  github_stars: 15070
+  github_forks: 2250
+  github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-page-cro
   source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/page-cro/references/experiments.md
@@ -357,8 +387,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/page-cro
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-analytics-tracking
@@ -367,8 +397,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/analytics-tracking
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-schema-markup
@@ -377,8 +407,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/schema-markup
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-paid-ads
@@ -387,8 +417,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paid-ads
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-referral-program
@@ -397,8 +427,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/referral-program
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-free-tool-strategy
@@ -407,19 +437,9 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/free-tool-strategy
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
-- type: skills
-  slug: skills-sh-microsoft-azure-skills-azure-quotas
-  source_url: https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-quotas/references/commands.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/azure-skills/azure-quotas
-  github_stars: 369
-  github_forks: 47
-  github_is_organization: true
 - type: skills
   slug: skills-sh-firecrawl-cli-firecrawl
   source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-cli/rules/install.md
@@ -427,85 +447,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/firecrawl/cli/firecrawl
-  github_stars: 186
+  github_stars: 197
   github_forks: 28
   github_is_organization: true
 - type: skills
-  slug: skills-sh-supercent-io-skills-template-security-best-practices
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/authentication-setup/SKILL.md
+  slug: skills-sh-resciencelab-opc-skills-seo-geo
+  source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/seo-geo/references/geo-research.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/security-best-practices
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/config/first-time-setup.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
-  github_stars: 9050
-  github_forks: 1021
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-image-gen
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-image-gen/references/config/first-time-setup.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen
-  github_stars: 9050
-  github_forks: 1021
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-hexiaochun-seedance2-api-seedance2-api
-  source_url: https://raw.githubusercontent.com/hexiaochun/seedance2-api/HEAD/.cursor/skills/seedance2-api/reference.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/hexiaochun/seedance2-api/seedance2-api
-- type: skills
-  slug: skills-sh-vercel-ai-ai-sdk
-  source_url: https://raw.githubusercontent.com/vercel/ai/HEAD/skills/use-ai-sdk/references/common-errors.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/vercel/ai/ai-sdk
-  github_stars: 22654
-  github_forks: 3992
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-web-accessibility
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ui-component-patterns/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-database-schema-design
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/api-design/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/database-schema-design
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-vercel-turborepo-turborepo
-  source_url: https://raw.githubusercontent.com/vercel/turborepo/HEAD/skills/turborepo/references/configuration/RULE.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/vercel/turborepo/turborepo
-  github_stars: 30012
-  github_forks: 2290
+  upstream_ref: https://skills.sh/resciencelab/opc-skills/seo-geo
+  github_stars: 606
+  github_forks: 62
   github_is_organization: true
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-ai-seo
@@ -514,99 +467,19 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ai-seo
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
-  slug: skills-sh-supercent-io-skills-template-code-refactoring
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/code-review/SKILL.md
+  slug: skills-sh-supercent-io-skills-template-security-best-practices
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/authentication-setup/SKILL.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/code-refactoring
-  github_stars: 50
-  github_forks: 11
+  upstream_ref: https://skills.sh/supercent-io/skills-template/security-best-practices
+  github_stars: 75
+  github_forks: 13
   github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-performance-optimization
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/database-schema-design/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/performance-optimization
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-deployment-automation
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/monitoring/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/deployment-automation
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-testing-strategies
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/backend-testing/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/testing-strategies
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-cover-image
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-cover-image/references/style-presets.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
-  github_stars: 9050
-  github_forks: 1021
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-article-illustrator/references/style-presets.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
-  github_stars: 9050
-  github_forks: 1021
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-xhs-images
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-xhs-images/references/style-presets.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images
-  github_stars: 9050
-  github_forks: 1021
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-monitoring-observability
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/deployment/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/monitoring-observability
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-codebase-search
-  source_url: https://raw.githubusercontent.com/BurntSushi/ripgrep/master/GUIDE.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/codebase-search
-  github_stars: 60967
-  github_forks: 2429
-  github_is_organization: false
 - type: skills
   slug: skills-sh-currents-dev-playwright-best-practices-skill-playwright-best-practices
   source_url: https://raw.githubusercontent.com/currents-dev/playwright-best-practices-skill/HEAD/core/test-suite-structure.md
@@ -614,68 +487,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/currents-dev/playwright-best-practices-skill/playwright-best-practices
-  github_stars: 143
-  github_forks: 32
+  github_stars: 155
+  github_forks: 34
   github_is_organization: true
 - type: skills
-  slug: skills-sh-supercent-io-skills-template-ui-component-patterns
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/web-accessibility/SKILL.md
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/config/first-time-setup.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/ui-component-patterns
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-vercel-deploy
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/deployment-automation/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/vercel-deploy
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-pollinations-ai
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/pollinations-ai
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-looker-studio-bigquery
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/monitoring-observability/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/looker-studio-bigquery
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-npm-git-install
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/environment-setup/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/npm-git-install
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-plannotator
-  source_url: https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/plannotator
-  github_stars: 3151
-  github_forks: 182
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
+  github_stars: 9795
+  github_forks: 1111
   github_is_organization: false
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-ad-creative
@@ -684,29 +507,39 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ad-creative
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-image-gen
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-image-gen/references/config/first-time-setup.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown
-  github_stars: 9050
-  github_forks: 1021
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen
+  github_stars: 9795
+  github_forks: 1111
   github_is_organization: false
 - type: skills
-  slug: skills-sh-antfu-skills-vite
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md
+  slug: skills-sh-vercel-ai-ai-sdk
+  source_url: https://raw.githubusercontent.com/vercel/ai/HEAD/skills/use-ai-sdk/references/common-errors.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/vite
-  github_stars: 4081
-  github_forks: 203
-  github_is_organization: false
+  upstream_ref: https://skills.sh/vercel/ai/ai-sdk
+  github_stars: 22851
+  github_forks: 4028
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-web-accessibility
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ui-component-patterns/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/web-accessibility
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
 - type: skills
   slug: skills-sh-hyf0-vue-skills-vue-best-practices
   source_url: https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/references/reactivity.md
@@ -714,8 +547,28 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/hyf0/vue-skills/vue-best-practices
-  github_stars: 1911
-  github_forks: 100
+  github_stars: 1988
+  github_forks: 104
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-vercel-turborepo-turborepo
+  source_url: https://raw.githubusercontent.com/vercel/turborepo/HEAD/skills/turborepo/references/configuration/RULE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/vercel/turborepo/turborepo
+  github_stars: 30048
+  github_forks: 2301
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-database-schema-design
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/api-design/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/database-schema-design
+  github_stars: 75
+  github_forks: 13
   github_is_organization: true
 - type: skills
   slug: skills-sh-vercel-labs-agent-browser-dogfood
@@ -724,28 +577,75 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/vercel-labs/agent-browser/dogfood
-  github_stars: 22462
-  github_forks: 1319
+  github_stars: 23871
+  github_forks: 1407
   github_is_organization: true
 - type: skills
-  slug: skills-sh-antfu-skills-vitest
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitest/references/core-config.md
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-cover-image
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-cover-image/references/style-presets.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/vitest
-  github_stars: 4081
-  github_forks: 203
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
+  github_stars: 9795
+  github_forks: 1111
   github_is_organization: false
 - type: skills
-  slug: skills-sh-resciencelab-opc-skills-seo-geo
-  source_url: https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/seo-geo/references/geo-research.md
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-article-illustrator/references/style-presets.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/resciencelab/opc-skills/seo-geo
-  github_stars: 580
-  github_forks: 58
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
+  github_stars: 9795
+  github_forks: 1111
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-xhs-images
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-xhs-images/references/style-presets.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images
+  github_stars: 9795
+  github_forks: 1111
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-code-refactoring
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/code-review/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/code-refactoring
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-hexiaochun-seedance2-api-seedance2-api
+  source_url: https://raw.githubusercontent.com/hexiaochun/seedance2-api/HEAD/.cursor/skills/seedance2-api/reference.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/hexiaochun/seedance2-api/seedance2-api
+- type: skills
+  slug: skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer
+  source_url: https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/CONNECTORS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer
+  github_stars: 457
+  github_forks: 61
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-performance-optimization
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/database-schema-design/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/performance-optimization
+  github_stars: 75
+  github_forks: 13
   github_is_organization: true
 - type: skills
   slug: skills-sh-antfu-skills-vue
@@ -754,69 +654,69 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/antfu/skills/vue
-  github_stars: 4081
-  github_forks: 203
+  github_stars: 4218
+  github_forks: 211
   github_is_organization: false
 - type: skills
-  slug: skills-sh-pexoai-pexo-skills-videoagent-video-studio
-  source_url: https://raw.githubusercontent.com/pexoai/pexo-skills/HEAD/skills/videoagent-video-studio/references/models.md
+  slug: skills-sh-supercent-io-skills-template-deployment-automation
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/monitoring/SKILL.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/pexoai/pexo-skills/videoagent-video-studio
-  github_stars: 194
-  github_forks: 10
+  upstream_ref: https://skills.sh/supercent-io/skills-template/deployment-automation
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-testing-strategies
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/backend-testing/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/testing-strategies
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-inferen-sh-skills-python-sdk
+  source_url: https://raw.githubusercontent.com/inferen-sh/skills/HEAD/sdk/python-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inferen-sh/skills/python-sdk
+  github_stars: 169
+  github_forks: 24
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-inferen-sh-skills-javascript-sdk
+  source_url: https://raw.githubusercontent.com/inferen-sh/skills/HEAD/sdk/javascript-sdk/references/agent-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/inferen-sh/skills/javascript-sdk
+  github_stars: 169
+  github_forks: 24
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-monitoring-observability
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/deployment/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/monitoring-observability
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-codebase-search
+  source_url: https://raw.githubusercontent.com/BurntSushi/ripgrep/master/GUIDE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/codebase-search
+  github_stars: 61172
+  github_forks: 2438
   github_is_organization: false
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-pptx-presentation-builder
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/technical-writing/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/pptx-presentation-builder
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-web-design-reviewer
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-design-reviewer/references/framework-fixes.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/web-design-reviewer
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-marketing-skills-collection
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/documentation/presentation-builder/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/marketing-skills-collection
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-image-generation-mcp
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/frontend/design-system/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/image-generation-mcp
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-create-readme
-  source_url: https://raw.githubusercontent.com/Azure-Samples/serverless-chat-langchainjs/refs/heads/main/README.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/create-readme
-  github_stars: 856
-  github_forks: 483
-  github_is_organization: true
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-site-architecture
   source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/site-architecture/references/site-type-templates.md
@@ -824,38 +724,38 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/site-architecture
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
 - type: skills
-  slug: skills-sh-github-awesome-copilot-penpot-uiux-design
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/penpot-uiux-design/references/setup-troubleshooting.md
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown
+  github_stars: 9795
+  github_forks: 1111
+  github_is_organization: false
 - type: skills
-  slug: skills-sh-callstackincubator-agent-skills-react-native-best-practices
-  source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md
+  slug: skills-sh-antfu-skills-vite
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/callstackincubator/agent-skills/react-native-best-practices
-  github_stars: 1023
-  github_forks: 57
-  github_is_organization: true
+  upstream_ref: https://skills.sh/antfu/skills/vite
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
 - type: skills
-  slug: skills-sh-github-awesome-copilot-copilot-sdk
-  source_url: https://raw.githubusercontent.com/github/copilot-sdk/main/docs/tutorials/first-app.md
+  slug: skills-sh-supercent-io-skills-template-ui-component-patterns
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/web-accessibility/SKILL.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/copilot-sdk
-  github_stars: 7843
-  github_forks: 980
+  upstream_ref: https://skills.sh/supercent-io/skills-template/ui-component-patterns
+  github_stars: 75
+  github_forks: 13
   github_is_organization: true
 - type: skills
   slug: skills-sh-coreyhaines31-marketingskills-sales-enablement
@@ -864,9 +764,249 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/coreyhaines31/marketingskills/sales-enablement
-  github_stars: 13702
-  github_forks: 2004
+  github_stars: 15070
+  github_forks: 2250
   github_is_organization: false
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-vercel-deploy
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/deployment-automation/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/vercel-deploy
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-looker-studio-bigquery
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/monitoring-observability/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/looker-studio-bigquery
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-npm-git-install
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/environment-setup/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/npm-git-install
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-plannotator
+  source_url: https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/plannotator
+  github_stars: 3402
+  github_forks: 204
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-revops
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/revops/references/lifecycle-definitions.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/revops
+  github_stars: 15070
+  github_forks: 2250
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-pollinations-ai
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/image-generation/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/pollinations-ai
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-antfu-skills-vitest
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitest/references/core-config.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/vitest
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-gmail
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-gmail-send/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-gmail
+  github_stars: 21821
+  github_forks: 1033
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-drive
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-drive-upload/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-drive
+  github_stars: 21821
+  github_forks: 1033
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-othmanadi-planning-with-files-planning-with-files
+  source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/skills/planning-with-files/templates/task_plan.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-files
+  github_stars: 16661
+  github_forks: 1525
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-pexoai-pexo-skills-videoagent-video-studio
+  source_url: https://raw.githubusercontent.com/pexoai/pexo-skills/HEAD/skills/videoagent-video-studio/references/models.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/pexoai/pexo-skills/videoagent-video-studio
+  github_stars: 299
+  github_forks: 14
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-calendar
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-calendar-insert/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-calendar
+  github_stars: 21821
+  github_forks: 1033
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-docs
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-docs-write/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs
+  github_stars: 21821
+  github_forks: 1033
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-kepano-obsidian-skills-obsidian-bases
+  source_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-bases
+  github_stars: 15199
+  github_forks: 846
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-antfu-skills-vueuse-functions
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vueuse-functions/references/createGlobalState.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-sheets
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-sheets-append/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-sheets
+  github_stars: 21821
+  github_forks: 1033
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-kepano-obsidian-skills-obsidian-markdown
+  source_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-markdown/references/PROPERTIES.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-markdown
+  github_stars: 15199
+  github_forks: 846
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-github-awesome-copilot-web-design-reviewer
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-design-reviewer/references/framework-fixes.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/web-design-reviewer
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-create-readme
+  source_url: https://raw.githubusercontent.com/Azure-Samples/serverless-chat-langchainjs/refs/heads/main/README.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/create-readme
+  github_stars: 857
+  github_forks: 486
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-antfu-skills-nuxt
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/nuxt/references/core-directory-structure.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/nuxt
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-callstackincubator-agent-skills-react-native-best-practices
+  source_url: https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/callstackincubator/agent-skills/react-native-best-practices
+  github_stars: 1047
+  github_forks: 61
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-marketing-skills-collection
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/documentation/presentation-builder/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/marketing-skills-collection
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-penpot-uiux-design
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/penpot-uiux-design/references/setup-troubleshooting.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-mastra-ai-skills-mastra
+  source_url: https://raw.githubusercontent.com/mastra-ai/skills/HEAD/skills/mastra/references/create-mastra.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/mastra-ai/skills/mastra
+  github_stars: 35
+  github_forks: 3
+  github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-azure-deployment-preflight
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-deployment-preflight/references/REPORT-TEMPLATE.md
@@ -874,8 +1014,28 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/azure-deployment-preflight
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-copilot-sdk
+  source_url: https://raw.githubusercontent.com/github/copilot-sdk/main/docs/tutorials/first-app.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/copilot-sdk
+  github_stars: 7936
+  github_forks: 1004
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-image-generation-mcp
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/frontend/design-system/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/image-generation-mcp
+  github_stars: 75
+  github_forks: 13
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-markdown-to-html
@@ -884,29 +1044,9 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/markdown-to-html
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-powerbi-modeling
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/powerbi-modeling/references/STAR-SCHEMA.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/powerbi-modeling
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-coreyhaines31-marketingskills-revops
-  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/revops/references/lifecycle-definitions.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/revops
-  github_stars: 13702
-  github_forks: 2004
-  github_is_organization: false
 - type: skills
   slug: skills-sh-github-awesome-copilot-write-coding-standards-from-file
   source_url: https://raw.githubusercontent.com/lowRISC/style-guides/master/VerilogCodingStyle.md
@@ -918,14 +1058,24 @@
   github_forks: 128
   github_is_organization: true
 - type: skills
-  slug: skills-sh-github-awesome-copilot-legacy-circuit-mockups
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md
+  slug: skills-sh-github-awesome-copilot-powerbi-modeling
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/powerbi-modeling/references/STAR-SCHEMA.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
-  github_stars: 25290
-  github_forks: 2902
+  upstream_ref: https://skills.sh/github/awesome-copilot/powerbi-modeling
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-docs-write
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-shared/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs-write
+  github_stars: 21821
+  github_forks: 1033
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-pdftk-server
@@ -934,18 +1084,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/pdftk-server
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
-  slug: skills-sh-github-awesome-copilot-make-repo-contribution
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/make-repo-contribution/assets/issue-template.md
+  slug: skills-sh-github-awesome-copilot-legacy-circuit-mockups
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/make-repo-contribution
-  github_stars: 25290
-  github_forks: 2902
+  upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-microsoft-skill-creator
@@ -954,8 +1104,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/microsoft-skill-creator
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-make-repo-contribution
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/make-repo-contribution/assets/issue-template.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/make-repo-contribution
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-terraform-azurerm-set-diff-analyzer
@@ -964,38 +1124,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/terraform-azurerm-set-diff-analyzer
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-winapp-cli
-  source_url: https://raw.githubusercontent.com/microsoft/WinAppCli/main/docs/usage.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
-  github_stars: 920
-  github_forks: 37
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-aspire
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/aspire/references/cli-reference.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/aspire
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-finnish-humanizer
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/finnish-humanizer/references/patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/finnish-humanizer
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-create-spring-boot-java-project
@@ -1004,8 +1134,38 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/create-spring-boot-java-project
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-winapp-cli
+  source_url: https://raw.githubusercontent.com/microsoft/WinAppCli/main/docs/usage.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
+  github_stars: 932
+  github_forks: 38
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-aspire
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/aspire/references/cli-reference.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/aspire
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-finnish-humanizer
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/finnish-humanizer/references/patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/finnish-humanizer
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-fluentui-blazor
@@ -1014,19 +1174,9 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/fluentui-blazor
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
-- type: skills
-  slug: skills-sh-othmanadi-planning-with-files-planning-with-files
-  source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/skills/planning-with-files/templates/task_plan.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-files
-  github_stars: 16135
-  github_forks: 1482
-  github_is_organization: false
 - type: skills
   slug: skills-sh-github-awesome-copilot-polyglot-test-agent
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/polyglot-test-agent/unit-test-generation.prompt.md
@@ -1034,8 +1184,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/polyglot-test-agent
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-github-copilot-starter
@@ -1044,8 +1194,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/github-copilot-starter
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-skills
@@ -1054,8 +1204,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-skills
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-fabric-lakehouse
@@ -1064,18 +1214,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/fabric-lakehouse
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-tldr-prompt
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/refs/heads/main/prompts/java-junit.prompt.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/tldr-prompt
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-agents
@@ -1084,8 +1224,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-agents
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-containerize-aspnetcore
@@ -1095,7 +1235,17 @@
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/containerize-aspnetcore
   github_stars: 4838
-  github_forks: 1957
+  github_forks: 1954
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-tldr-prompt
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/refs/heads/main/prompts/java-junit.prompt.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/tldr-prompt
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-create-tldr-page
@@ -1114,8 +1264,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/github/awesome-copilot/create-spring-boot-kotlin-project
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-github-awesome-copilot-containerize-aspnet-framework
@@ -1128,55 +1278,25 @@
   github_forks: 351
   github_is_organization: true
 - type: skills
-  slug: skills-sh-mastra-ai-skills-mastra
-  source_url: https://raw.githubusercontent.com/mastra-ai/skills/HEAD/skills/mastra/references/create-mastra.md
+  slug: skills-sh-pbakaus-impeccable-arrange
+  source_url: https://raw.githubusercontent.com/pbakaus/impeccable/HEAD/.claude/skills/arrange/reference/spatial-design.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/mastra-ai/skills/mastra
-  github_stars: 33
-  github_forks: 3
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-googleworkspace-cli-gws-gmail
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-gmail-send/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-gmail
-  github_stars: 20648
-  github_forks: 954
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-prompts
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/docs/README.prompts.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-prompts
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-kepano-obsidian-skills-obsidian-bases
-  source_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-bases
-  github_stars: 14111
-  github_forks: 779
+  upstream_ref: https://skills.sh/pbakaus/impeccable/arrange
+  github_stars: 11387
+  github_forks: 442
   github_is_organization: false
 - type: skills
-  slug: skills-sh-googleworkspace-cli-gws-drive
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-drive-upload/SKILL.md
+  slug: skills-sh-antfu-skills-pinia
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-drive
-  github_stars: 20648
-  github_forks: 954
-  github_is_organization: true
+  upstream_ref: https://skills.sh/antfu/skills/pinia
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
 - type: skills
   slug: skills-sh-supercent-io-skills-template-llm-monitoring-dashboard
   source_url: https://raw.githubusercontent.com/nooscraft/tokuin/main/ADDING_MODELS_GUIDE.md
@@ -1184,38 +1304,28 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/supercent-io/skills-template/llm-monitoring-dashboard
-  github_stars: 128
+  github_stars: 129
   github_forks: 3
   github_is_organization: false
 - type: skills
-  slug: skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer
-  source_url: https://raw.githubusercontent.com/aaron-he-zhu/seo-geo-claude-skills/HEAD/CONNECTORS.md
+  slug: skills-sh-github-awesome-copilot-suggest-awesome-github-copilot-prompts
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/docs/README.prompts.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer
-  github_stars: 397
-  github_forks: 52
-  github_is_organization: false
+  upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-copilot-prompts
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
 - type: skills
-  slug: skills-sh-kepano-obsidian-skills-obsidian-markdown
-  source_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-markdown/references/PROPERTIES.md
+  slug: skills-sh-pbakaus-impeccable-typeset
+  source_url: https://raw.githubusercontent.com/pbakaus/impeccable/HEAD/.claude/skills/typeset/reference/typography.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-markdown
-  github_stars: 14111
-  github_forks: 779
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-antfu-skills-vueuse-functions
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vueuse-functions/references/createGlobalState.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/vueuse-functions
-  github_stars: 4081
-  github_forks: 203
+  upstream_ref: https://skills.sh/pbakaus/impeccable/typeset
+  github_stars: 11387
+  github_forks: 442
   github_is_organization: false
 - type: skills
   slug: skills-sh-supercent-io-skills-template-ai-tool-compliance
@@ -1224,119 +1334,9 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/supercent-io/skills-template/ai-tool-compliance
-  github_stars: 50
-  github_forks: 11
+  github_stars: 75
+  github_forks: 13
   github_is_organization: true
-- type: skills
-  slug: skills-sh-googleworkspace-cli-gws-calendar
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-calendar-insert/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-calendar
-  github_stars: 20648
-  github_forks: 954
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-antfu-skills-pinia
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/pinia
-  github_stars: 4081
-  github_forks: 203
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-googleworkspace-cli-gws-docs
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-docs-write/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs
-  github_stars: 20648
-  github_forks: 954
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-googleworkspace-cli-gws-sheets
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-sheets-append/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-sheets
-  github_stars: 20648
-  github_forks: 954
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-antfu-skills-nuxt
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/nuxt/references/core-directory-structure.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/nuxt
-  github_stars: 4081
-  github_forks: 203
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-googleworkspace-cli-gws-docs-write
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-shared/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs-write
-  github_stars: 20648
-  github_forks: 954
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-mcp-use-mcp-use-chatgpt-app-builder
-  source_url: https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/chatgpt-app-builder/references/discover.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder
-  github_stars: 9440
-  github_forks: 1161
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-analogjs-angular-skills-angular-component
-  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-component/references/component-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-component
-  github_stars: 530
-  github_forks: 55
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-inferen-sh-skills-python-sdk
-  source_url: https://raw.githubusercontent.com/inferen-sh/skills/HEAD/sdk/python-sdk/references/agent-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/inferen-sh/skills/python-sdk
-  github_stars: 153
-  github_forks: 21
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-inferen-sh-skills-javascript-sdk
-  source_url: https://raw.githubusercontent.com/inferen-sh/skills/HEAD/sdk/javascript-sdk/references/agent-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/inferen-sh/skills/javascript-sdk
-  github_stars: 153
-  github_forks: 21
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-antfu-skills-vitepress
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitepress/references/core-config.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/vitepress
-  github_stars: 4081
-  github_forks: 203
-  github_is_organization: false
 - type: skills
   slug: skills-sh-antfu-skills-vue-router-best-practices
   source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-router-best-practices/reference/router-beforeenter-no-param-trigger.md
@@ -1344,8 +1344,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/antfu/skills/vue-router-best-practices
-  github_stars: 4081
-  github_forks: 203
+  github_stars: 4218
+  github_forks: 211
   github_is_organization: false
 - type: skills
   slug: skills-sh-addyosmani-web-quality-skills-performance
@@ -1354,29 +1354,49 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/addyosmani/web-quality-skills/performance
-  github_stars: 1416
-  github_forks: 126
+  github_stars: 1464
+  github_forks: 132
   github_is_organization: false
 - type: skills
-  slug: skills-sh-microsoft-azure-skills-azure-upgrade
-  source_url: https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-upgrade/references/global-rules.md
+  slug: skills-sh-mcp-use-mcp-use-chatgpt-app-builder
+  source_url: https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/chatgpt-app-builder/references/discover.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/microsoft/azure-skills/azure-upgrade
-  github_stars: 369
-  github_forks: 47
+  upstream_ref: https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder
+  github_stars: 9471
+  github_forks: 1165
   github_is_organization: true
 - type: skills
-  slug: skills-sh-jimliu-baoyu-skills-baoyu-translate
-  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md
+  slug: skills-sh-mattpocock-skills-tdd
+  source_url: https://raw.githubusercontent.com/mattpocock/skills/HEAD/tdd/tests.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-translate
-  github_stars: 9050
-  github_forks: 1021
+  upstream_ref: https://skills.sh/mattpocock/skills/tdd
+  github_stars: 8203
+  github_forks: 659
   github_is_organization: false
+- type: skills
+  slug: skills-sh-antfu-skills-vue-testing-best-practices
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/vue-testing-best-practices
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-analogjs-angular-skills-angular-component
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-component/references/component-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-component
+  github_stars: 558
+  github_forks: 59
+  github_is_organization: true
 - type: skills
   slug: skills-sh-kepano-obsidian-skills-json-canvas
   source_url: https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/json-canvas/references/EXAMPLES.md
@@ -1384,8 +1404,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/kepano/obsidian-skills/json-canvas
-  github_stars: 14111
-  github_forks: 779
+  github_stars: 15199
+  github_forks: 846
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-jimliu-baoyu-skills-baoyu-translate
+  source_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-translate
+  github_stars: 9795
+  github_forks: 1111
   github_is_organization: false
 - type: skills
   slug: skills-sh-googleworkspace-cli-gws-workflow
@@ -1394,8 +1424,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/googleworkspace/cli/gws-workflow
-  github_stars: 20648
-  github_forks: 954
+  github_stars: 21821
+  github_forks: 1033
   github_is_organization: true
 - type: skills
   slug: skills-sh-googleworkspace-cli-gws-chat
@@ -1404,28 +1434,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/googleworkspace/cli/gws-chat
-  github_stars: 20648
-  github_forks: 954
+  github_stars: 21821
+  github_forks: 1033
   github_is_organization: true
 - type: skills
-  slug: skills-sh-antfu-skills-vue-testing-best-practices
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md
+  slug: skills-sh-antfu-skills-vitepress
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vitepress/references/core-config.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/vue-testing-best-practices
-  github_stars: 4081
-  github_forks: 203
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-antfu-skills-slidev
-  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/slidev/references/core-syntax.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/antfu/skills/slidev
-  github_stars: 4081
-  github_forks: 203
+  upstream_ref: https://skills.sh/antfu/skills/vitepress
+  github_stars: 4218
+  github_forks: 211
   github_is_organization: false
 - type: skills
   slug: skills-sh-googleworkspace-cli-gws-events
@@ -1434,9 +1454,59 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/googleworkspace/cli/gws-events
-  github_stars: 20648
-  github_forks: 954
+  github_stars: 21821
+  github_forks: 1033
   github_is_organization: true
+- type: skills
+  slug: skills-sh-firecrawl-cli-firecrawl-scrape
+  source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
+  github_stars: 197
+  github_forks: 28
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-firecrawl-cli-firecrawl-browser
+  source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-scrape/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-browser
+  github_stars: 197
+  github_forks: 28
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-firecrawl-cli-firecrawl-download
+  source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-map/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-download
+  github_stars: 197
+  github_forks: 28
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-googleworkspace-cli-gws-modelarmor
+  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-modelarmor-sanitize-prompt/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/googleworkspace/cli/gws-modelarmor
+  github_stars: 21821
+  github_forks: 1033
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-antfu-skills-slidev
+  source_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/slidev/references/core-syntax.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/antfu/skills/slidev
+  github_stars: 4218
+  github_forks: 211
+  github_is_organization: false
 - type: skills
   slug: skills-sh-vuejs-ai-skills-vue-pinia-best-practices
   source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-pinia-best-practices/reference/pinia-no-active-pinia-error.md
@@ -1444,8 +1514,48 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices
-  github_stars: 1911
-  github_forks: 100
+  github_stars: 1988
+  github_forks: 104
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-tavily-ai-skills-tavily-best-practices
+  source_url: https://raw.githubusercontent.com/tavily-ai/skills/HEAD/skills/tavily-best-practices/references/sdk.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/tavily-ai/skills/tavily-best-practices
+  github_stars: 118
+  github_forks: 11
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-coreyhaines31-marketingskills-lead-magnets
+  source_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/lead-magnets/references/format-guide.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/coreyhaines31/marketingskills/lead-magnets
+  github_stars: 15070
+  github_forks: 2250
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-analogjs-angular-skills-angular-signals
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-signals/references/signal-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-signals
+  github_stars: 558
+  github_forks: 59
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-langgenius-dify-frontend-code-review
+  source_url: https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
+  github_stars: 133762
+  github_forks: 20840
   github_is_organization: true
 - type: skills
   slug: skills-sh-resend-email-best-practices-email-best-practices
@@ -1464,18 +1574,38 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/softaworks/agent-toolkit/mermaid-diagrams
-  github_stars: 1062
-  github_forks: 78
+  github_stars: 1144
+  github_forks: 86
   github_is_organization: true
 - type: skills
-  slug: skills-sh-googleworkspace-cli-gws-modelarmor
-  source_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-modelarmor-sanitize-prompt/SKILL.md
+  slug: skills-sh-onmax-nuxt-skills-reka-ui
+  source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/reka-ui/references/components.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/googleworkspace/cli/gws-modelarmor
-  github_stars: 20648
-  github_forks: 954
+  upstream_ref: https://skills.sh/onmax/nuxt-skills/reka-ui
+  github_stars: 599
+  github_forks: 27
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-dotneet-claude-code-marketplace-typescript-react-reviewer
+  source_url: https://raw.githubusercontent.com/dotneet/claude-code-marketplace/HEAD/review-tool/skills/typescript-react-reviewer/references/react19-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/dotneet/claude-code-marketplace/typescript-react-reviewer
+  github_stars: 0
+  github_forks: 0
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-github-awesome-copilot-web-coder
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-coder/references/html-markup.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/web-coder
+  github_stars: 26261
+  github_forks: 3023
   github_is_organization: true
 - type: skills
   slug: skills-sh-softaworks-agent-toolkit-session-handoff
@@ -1484,8 +1614,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/softaworks/agent-toolkit/session-handoff
-  github_stars: 1062
-  github_forks: 78
+  github_stars: 1144
+  github_forks: 86
   github_is_organization: true
 - type: skills
   slug: skills-sh-softaworks-agent-toolkit-c4-architecture
@@ -1494,8 +1624,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/softaworks/agent-toolkit/c4-architecture
-  github_stars: 1062
-  github_forks: 78
+  github_stars: 1144
+  github_forks: 86
   github_is_organization: true
 - type: skills
   slug: skills-sh-softaworks-agent-toolkit-difficult-workplace-conversations
@@ -1504,58 +1634,18 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/softaworks/agent-toolkit/difficult-workplace-conversations
-  github_stars: 1062
-  github_forks: 78
+  github_stars: 1144
+  github_forks: 86
   github_is_organization: true
 - type: skills
-  slug: skills-sh-analogjs-angular-skills-angular-signals
-  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-signals/references/signal-patterns.md
+  slug: skills-sh-analogjs-angular-skills-angular-forms
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-forms/references/form-patterns.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-signals
-  github_stars: 530
-  github_forks: 55
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-mattpocock-skills-tdd
-  source_url: https://raw.githubusercontent.com/mattpocock/skills/HEAD/tdd/tests.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/mattpocock/skills/tdd
-  github_stars: 1069
-  github_forks: 80
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-softaworks-agent-toolkit-react-dev
-  source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-dev/references/react-19-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-dev
-  github_stars: 1062
-  github_forks: 78
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-tavily-ai-skills-tavily-best-practices
-  source_url: https://raw.githubusercontent.com/tavily-ai/skills/HEAD/skills/tavily/tavily-best-practices/references/sdk.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/tavily-ai/skills/tavily-best-practices
-  github_stars: 87
-  github_forks: 8
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-web-coder
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/web-coder/references/html-markup.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/web-coder
-  github_stars: 25290
-  github_forks: 2902
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
+  github_stars: 558
+  github_forks: 59
   github_is_organization: true
 - type: skills
   slug: skills-sh-addyosmani-web-quality-skills-core-web-vitals
@@ -1564,8 +1654,78 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/addyosmani/web-quality-skills/core-web-vitals
-  github_stars: 1416
-  github_forks: 126
+  github_stars: 1464
+  github_forks: 132
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-softaworks-agent-toolkit-react-dev
+  source_url: https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-dev/references/react-19-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-dev
+  github_stars: 1144
+  github_forks: 86
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-analogjs-angular-skills-angular-http
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-http/references/http-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-http
+  github_stars: 558
+  github_forks: 59
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-github-awesome-copilot-azure-pricing
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-pricing/references/REGIONS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/azure-pricing
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-react-best-practices
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/performance-optimization/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/react-best-practices
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-ralphmode
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ralphmode/references/permission-profiles.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/ralphmode
+  github_stars: 75
+  github_forks: 13
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-analogjs-angular-skills-angular-di
+  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-di/references/di-patterns.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-di
+  github_stars: 558
+  github_forks: 59
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-wshobson-agents-sast-configuration
+  source_url: https://raw.githubusercontent.com/wshobson/agents/HEAD/plugins/security-scanning/skills/sast-configuration/references/semgrep-rules.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/wshobson/agents/sast-configuration
+  github_stars: 31856
+  github_forks: 3480
   github_is_organization: false
 - type: skills
   slug: skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo
@@ -1578,134 +1738,14 @@
   github_forks: 1
   github_is_organization: false
 - type: skills
-  slug: skills-sh-analogjs-angular-skills-angular-forms
-  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-forms/references/form-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
-  github_stars: 530
-  github_forks: 55
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-azure-pricing
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-pricing/references/REGIONS.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/azure-pricing
-  github_stars: 25290
-  github_forks: 2902
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-react-best-practices
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/performance-optimization/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/react-best-practices
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-supercent-io-skills-template-ralphmode
-  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/ralphmode/references/permission-profiles.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/supercent-io/skills-template/ralphmode
-  github_stars: 50
-  github_forks: 11
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-wshobson-agents-sast-configuration
-  source_url: https://raw.githubusercontent.com/wshobson/agents/HEAD/plugins/security-scanning/skills/sast-configuration/references/semgrep-rules.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/wshobson/agents/sast-configuration
-  github_stars: 31333
-  github_forks: 3436
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-analogjs-angular-skills-angular-http
-  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-http/references/http-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-http
-  github_stars: 530
-  github_forks: 55
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-whatevertogo-feishuskill-lark-mcp
-  source_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/installation.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/whatevertogo/feishuskill/lark-mcp
-  github_stars: 25
-  github_forks: 4
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-analogjs-angular-skills-angular-di
-  source_url: https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-di/references/di-patterns.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/analogjs/angular-skills/angular-di
-  github_stars: 530
-  github_forks: 55
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-firecrawl-cli-firecrawl-scrape
-  source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
-  github_stars: 186
-  github_forks: 28
-  github_is_organization: true
-- type: skills
   slug: skills-sh-vuejs-ai-skills-vue-jsx-best-practices
   source_url: https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-jsx-best-practices/reference/render-function-jsx-vue-vs-react.md
   tags:
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/vuejs-ai/skills/vue-jsx-best-practices
-  github_stars: 1911
-  github_forks: 100
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-firecrawl-cli-firecrawl-search
-  source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-scrape/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-search
-  github_stars: 186
-  github_forks: 28
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-firecrawl-cli-firecrawl-download
-  source_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-map/SKILL.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-download
-  github_stars: 186
-  github_forks: 28
-  github_is_organization: true
-- type: skills
-  slug: skills-sh-github-awesome-copilot-flowstudio-power-automate-mcp
-  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/flowstudio-power-automate-mcp/references/MCP-BOOTSTRAP.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/github/awesome-copilot/flowstudio-power-automate-mcp
-  github_stars: 25290
-  github_forks: 2902
+  github_stars: 1988
+  github_forks: 104
   github_is_organization: true
 - type: skills
   slug: skills-sh-analogjs-angular-skills-angular-testing
@@ -1714,8 +1754,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/analogjs/angular-skills/angular-testing
-  github_stars: 530
-  github_forks: 55
+  github_stars: 558
+  github_forks: 59
   github_is_organization: true
 - type: skills
   slug: skills-sh-czlonkowski-n8n-skills-n8n-workflow-patterns
@@ -1724,8 +1764,8 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-workflow-patterns
-  github_stars: 3479
-  github_forks: 611
+  github_stars: 3640
+  github_forks: 635
   github_is_organization: false
 - type: skills
   slug: skills-sh-analogjs-angular-skills-angular-tooling
@@ -1734,49 +1774,29 @@
     - skills-sh
     - skills-sh-all-time
   upstream_ref: https://skills.sh/analogjs/angular-skills/angular-tooling
-  github_stars: 530
-  github_forks: 55
+  github_stars: 558
+  github_forks: 59
   github_is_organization: true
 - type: skills
-  slug: skills-sh-langgenius-dify-frontend-code-review
-  source_url: https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md
+  slug: skills-sh-whatevertogo-feishuskill-lark-mcp
+  source_url: https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/installation.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
-  github_stars: 132941
-  github_forks: 20711
+  upstream_ref: https://skills.sh/whatevertogo/feishuskill/lark-mcp
+  github_stars: 30
+  github_forks: 4
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-google-labs-code-stitch-skills-stitch-design
+  source_url: https://raw.githubusercontent.com/google-labs-code/stitch-skills/HEAD/skills/stitch-design/workflows/text-to-design.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/google-labs-code/stitch-skills/stitch-design
+  github_stars: 2823
+  github_forks: 315
   github_is_organization: true
-- type: skills
-  slug: skills-sh-sickn33-antigravity-awesome-skills-playwright-skill
-  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/playwright-skill/API_REFERENCE.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-skill
-  github_stars: 24669
-  github_forks: 4233
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2
-  source_url: https://raw.githubusercontent.com/nodnarbnitram/claude-code-extensions/HEAD/.claude/skills/tauri-v2/references/capabilities-reference.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
-  github_stars: 5
-  github_forks: 3
-  github_is_organization: false
-- type: skills
-  slug: skills-sh-othmanadi-planning-with-files-pi-planning-with-files
-  source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/.pi/skills/planning-with-files/templates/task_plan.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/othmanadi/planning-with-files/pi-planning-with-files
-  github_stars: 16135
-  github_forks: 1482
-  github_is_organization: false
 - type: skills
   slug: skills-sh-heredotnow-skill-here-now
   source_url: https://raw.githubusercontent.com/heredotnow/skill/HEAD/here-now/references/REFERENCE.md
@@ -1785,6 +1805,16 @@
     - skills-sh-all-time
   upstream_ref: https://skills.sh/heredotnow/skill/here-now
 - type: skills
+  slug: skills-sh-github-awesome-copilot-flowstudio-power-automate-mcp
+  source_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/flowstudio-power-automate-mcp/references/MCP-BOOTSTRAP.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/github/awesome-copilot/flowstudio-power-automate-mcp
+  github_stars: 26261
+  github_forks: 3023
+  github_is_organization: true
+- type: skills
   slug: skills-sh-199-biotechnologies-claude-deep-research-skill-deep-research
   source_url: https://raw.githubusercontent.com/199-biotechnologies/claude-deep-research-skill/HEAD/reference/methodology.md
   tags:
@@ -1792,19 +1822,46 @@
     - skills-sh-all-time
   upstream_ref: https://skills.sh/199-biotechnologies/claude-deep-research-skill/deep-research
 - type: skills
-  slug: skills-sh-onmax-nuxt-skills-reka-ui
-  source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/reka-ui/references/components.md
+  slug: skills-sh-othmanadi-planning-with-files-pi-planning-with-files
+  source_url: https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/.pi/skills/planning-with-files/templates/task_plan.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/onmax/nuxt-skills/reka-ui
+  upstream_ref: https://skills.sh/othmanadi/planning-with-files/pi-planning-with-files
+  github_stars: 16661
+  github_forks: 1525
+  github_is_organization: false
 - type: skills
-  slug: skills-sh-zaddy6-agent-email-skill-agent-email-cli
-  source_url: https://raw.githubusercontent.com/zaddy6/agent-email-skill/HEAD/skills/agent-email-cli/references/commands.md
+  slug: skills-sh-mattpocock-skills-improve-codebase-architecture
+  source_url: https://raw.githubusercontent.com/mattpocock/skills/HEAD/improve-codebase-architecture/REFERENCE.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/zaddy6/agent-email-skill/agent-email-cli
+  upstream_ref: https://skills.sh/mattpocock/skills/improve-codebase-architecture
+  github_stars: 8203
+  github_forks: 659
+  github_is_organization: false
+- type: skills
+  slug: skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2
+  source_url: https://raw.githubusercontent.com/nodnarbnitram/claude-code-extensions/HEAD/.claude/skills/tauri-v2/references/capabilities-reference.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
+- type: skills
+  slug: skills-sh-sickn33-antigravity-awesome-skills-playwright-skill
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/playwright-skill/API_REFERENCE.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-skill
+- type: skills
+  slug: skills-sh-stripe-ai-stripe-best-practices
+  source_url: https://raw.githubusercontent.com/stripe/ai/HEAD/skills/stripe-best-practices/references/payments.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/stripe/ai/stripe-best-practices
 - type: skills
   slug: skills-sh-apify-agent-skills-apify-actor-development
   source_url: https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actor-development/references/actor-json.md
@@ -1813,23 +1870,16 @@
     - skills-sh-all-time
   upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
 - type: skills
-  slug: skills-sh-dotneet-claude-code-marketplace-typescript-react-reviewer
-  source_url: https://raw.githubusercontent.com/dotneet/claude-code-marketplace/HEAD/review-tool/skills/typescript-react-reviewer/references/react19-patterns.md
+  slug: skills-sh-waditu-tushare-skills-tushare
+  source_url: https://raw.githubusercontent.com/waditu-tushare/skills/HEAD/tushare/references/ETF%E4%B8%93%E9%A2%98/ETF%E5%AE%9E%E6%97%B6%E5%88%86%E9%92%9F.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/dotneet/claude-code-marketplace/typescript-react-reviewer
+  upstream_ref: https://skills.sh/waditu-tushare/skills/tushare
 - type: skills
-  slug: skills-sh-samhvw8-dot-claude-ui-design-system
-  source_url: https://raw.githubusercontent.com/samhvw8/dot-claude/HEAD/skills/ui-design-system/references/DESIGN_TOKENS.md
+  slug: skills-sh-firebase-agent-skills-firebase-basics
+  source_url: https://raw.githubusercontent.com/firebase/agent-skills/HEAD/skills/firebase-basics/references/firebase-project-create.md
   tags:
     - skills-sh
     - skills-sh-all-time
-  upstream_ref: https://skills.sh/samhvw8/dot-claude/ui-design-system
-- type: skills
-  slug: skills-sh-schpet-linear-cli-linear-cli
-  source_url: https://raw.githubusercontent.com/schpet/linear-cli/HEAD/skills/linear-cli/references/auth.md
-  tags:
-    - skills-sh
-    - skills-sh-all-time
-  upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
+  upstream_ref: https://skills.sh/firebase/agent-skills/firebase-basics
