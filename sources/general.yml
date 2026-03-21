@@ -27174,3 +27174,44 @@
   github_stars: 2898
   github_forks: 848
   github_is_organization: true
+- type: skills
+  slug: skills-sh-microsoft-github-copilot-for-azure-azure-cloud-migrate
+  source_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cloud-migrate/references/services/functions/global-rules.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-migrate
+  github_stars: 155
+  github_forks: 101
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-supercent-io-skills-template-pptx-presentation-builder
+  source_url: https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/technical-writing/SKILL.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/supercent-io/skills-template/pptx-presentation-builder
+  github_stars: 50
+  github_forks: 11
+  github_is_organization: true
+- type: skills
+  slug: skills-sh-zaddy6-agent-email-skill-agent-email-cli
+  source_url: https://raw.githubusercontent.com/zaddy6/agent-email-skill/HEAD/skills/agent-email-cli/references/commands.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/zaddy6/agent-email-skill/agent-email-cli
+- type: skills
+  slug: skills-sh-samhvw8-dot-claude-ui-design-system
+  source_url: https://raw.githubusercontent.com/samhvw8/dot-claude/HEAD/skills/ui-design-system/references/DESIGN_TOKENS.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/samhvw8/dot-claude/ui-design-system
+- type: skills
+  slug: skills-sh-schpet-linear-cli-linear-cli
+  source_url: https://raw.githubusercontent.com/schpet/linear-cli/HEAD/skills/linear-cli/references/auth.md
+  tags:
+    - skills-sh
+    - skills-sh-all-time
+  upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
