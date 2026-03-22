@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bookkeeper",
-  "generated_at": "2026-03-21T07:15:11.127Z",
+  "generated_at": "2026-03-22T07:20:28.991Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bookkeeper#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/h4gen/bookkeeper/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:11.127Z",
+        "retrieved_at": "2026-03-22T07:20:28.991Z",
         "content_sha256": "2e6a24d76d38140fe3fa8a6879fdf738cefa1413eec5e4cecd5d6c5b38fbacdf"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dirigera-control",
-  "generated_at": "2026-03-21T07:15:21.739Z",
+  "generated_at": "2026-03-22T07:20:49.440Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dirigera-control#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/falderebet/dirigera-control/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:21.739Z",
+        "retrieved_at": "2026-03-22T07:20:49.440Z",
         "content_sha256": "ba100e5d3f78c05baf15b3390ae0d1eff9b533edaf29eea9c9e5121ca7a58c15"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-social-media-management",
-  "generated_at": "2026-03-21T07:14:21.129Z",
+  "generated_at": "2026-03-22T07:18:40.881Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-social-media-management#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/social-media-management/SKILL.md",
-        "retrieved_at": "2026-03-21T07:14:21.129Z",
+        "retrieved_at": "2026-03-22T07:18:40.881Z",
         "content_sha256": "5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd"
       }
     }

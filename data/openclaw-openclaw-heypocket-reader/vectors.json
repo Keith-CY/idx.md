@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-heypocket-reader",
-  "generated_at": "2026-03-21T07:13:46.219Z",
+  "generated_at": "2026-03-22T07:17:17.367Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-heypocket-reader#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tmustier/heypocket-reader/SKILL.md",
-        "retrieved_at": "2026-03-21T07:13:46.219Z",
+        "retrieved_at": "2026-03-22T07:17:17.367Z",
         "content_sha256": "3b60525d94715cf571092af866ef180ed7cb24083e126eaefd4173b6a26b2172"
       }
     }

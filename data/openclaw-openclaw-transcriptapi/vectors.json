@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-transcriptapi",
-  "generated_at": "2026-03-21T07:14:28.373Z",
+  "generated_at": "2026-03-22T07:18:56.389Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-transcriptapi#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/transcriptapi/SKILL.md",
-        "retrieved_at": "2026-03-21T07:14:28.373Z",
+        "retrieved_at": "2026-03-22T07:18:56.389Z",
         "content_sha256": "68dbc17b2fc1315d125d0f9eacf04afbb840b5059484b63ebe4962ac09960d11"
       }
     }

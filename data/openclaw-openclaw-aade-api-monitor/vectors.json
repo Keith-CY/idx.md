@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aade-api-monitor",
-  "generated_at": "2026-03-21T07:14:45.697Z",
+  "generated_at": "2026-03-22T07:19:35.842Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aade-api-monitor#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/satoshistackalotto/aade-api-monitor/SKILL.md",
-        "retrieved_at": "2026-03-21T07:14:45.697Z",
+        "retrieved_at": "2026-03-22T07:19:35.842Z",
         "content_sha256": "ba12d87a9e2316ed832767f752da1303e22cfac89f23459efc25d6e83c69a720"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-modelarmor",
-  "generated_at": "2026-03-21T07:15:38.178Z",
+  "generated_at": "2026-03-22T07:21:29.639Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-modelarmor#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-modelarmor-sanitize-prompt/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:38.178Z",
+        "retrieved_at": "2026-03-22T07:21:29.639Z",
         "content_sha256": "e87b824d1a71122c9c3fb26f2fd93b42f508d23222cfc2184bf2a51e57752b03"
       }
     }

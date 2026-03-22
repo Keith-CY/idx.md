@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-code-refactoring",
-  "generated_at": "2026-03-21T07:15:35.214Z",
+  "generated_at": "2026-03-22T07:21:18.059Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-code-refactoring#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/supercent-io/skills-template/HEAD/.agent-skills/code-review/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:35.214Z",
+        "retrieved_at": "2026-03-22T07:21:18.059Z",
         "content_sha256": "95b1d9c73416f671f2b98f21533ed0541ef58794276990d65f0824bccce683e9"
       }
     }

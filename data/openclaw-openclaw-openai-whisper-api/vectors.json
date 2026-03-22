@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openai-whisper-api",
-  "generated_at": "2026-03-21T07:14:02.946Z",
+  "generated_at": "2026-03-22T07:18:01.138Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openai-whisper-api#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/openai-whisper-api/SKILL.md",
-        "retrieved_at": "2026-03-21T07:14:02.946Z",
+        "retrieved_at": "2026-03-22T07:18:01.138Z",
         "content_sha256": "4cd90ed4d059a385948ffbf2896764a7db66dfbd06010d699b269e89e3f586be"
       }
     }

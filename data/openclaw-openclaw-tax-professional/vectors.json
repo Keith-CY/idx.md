@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tax-professional",
-  "generated_at": "2026-03-21T07:15:32.367Z",
+  "generated_at": "2026-03-22T07:21:10.930Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tax-professional#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/tax-professional/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:32.367Z",
+        "retrieved_at": "2026-03-22T07:21:10.930Z",
         "content_sha256": "dc0310ce7f96d00afd6ba4707c2cd5d300dc1739eafdcf5f62def54e594d6b25"
       }
     }

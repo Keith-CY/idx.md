@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-chat",
-  "generated_at": "2026-03-21T07:13:44.464Z",
+  "generated_at": "2026-03-22T07:17:12.492Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-chat#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/darconada/google-chat/SKILL.md",
-        "retrieved_at": "2026-03-21T07:13:44.464Z",
+        "retrieved_at": "2026-03-22T07:17:12.492Z",
         "content_sha256": "d66b038428fad2e8b085cf6efe8212d5fbb0fb65eb2eea171cbf17d34569b3bf"
       }
     }

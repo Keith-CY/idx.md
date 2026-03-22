@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaw-free-web-search",
-  "generated_at": "2026-03-21T07:15:30.759Z",
+  "generated_at": "2026-03-22T07:21:07.642Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaw-free-web-search#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/wd041216-bit/openclaw-free-web-search/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:30.759Z",
+        "retrieved_at": "2026-03-22T07:21:07.642Z",
         "content_sha256": "312c2b0835758f90221d9fb32436b6cc5354e48b7aecd5c0d64c20e24003335c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-audio-reply-skill",
-  "generated_at": "2026-03-21T07:15:06.757Z",
+  "generated_at": "2026-03-22T07:20:20.396Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-audio-reply-skill#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/audio-reply-skill/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:06.757Z",
+        "retrieved_at": "2026-03-22T07:20:20.396Z",
         "content_sha256": "dd42d75099cda66b3bd8f585eeb8936a42bb06c0479d0dd706a958bbad54326c"
       }
     }

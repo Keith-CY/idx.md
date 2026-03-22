@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/resend/email-best-practices/email-best-practices
 github_stars: 125
 github_forks: 10
 github_is_organization: true
-retrieved_at: 2026-03-21T07:15:38.423Z
+retrieved_at: 2026-03-22T07:21:30.325Z
 content_sha256: 8f17c44bc4e371cf8eda4790b79aeda6152a0a3ec8c71e08b01f2e84a9c974a7
 ---

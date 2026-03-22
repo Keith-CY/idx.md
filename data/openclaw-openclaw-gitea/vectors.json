@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gitea",
-  "generated_at": "2026-03-21T07:13:43.329Z",
+  "generated_at": "2026-03-22T07:17:09.376Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gitea#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ericxliu1990/gitea/SKILL.md",
-        "retrieved_at": "2026-03-21T07:13:43.329Z",
+        "retrieved_at": "2026-03-22T07:17:09.376Z",
         "content_sha256": "a50d48747d2095453c3954dbafefcbed56b5bba36fabe8088e30c4bef53069c1"
       }
     }

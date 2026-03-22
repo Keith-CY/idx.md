@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-eightctl",
-  "generated_at": "2026-03-21T07:15:23.037Z",
+  "generated_at": "2026-03-22T07:20:51.892Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-eightctl#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/eightctl/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:23.037Z",
+        "retrieved_at": "2026-03-22T07:20:51.892Z",
         "content_sha256": "1b9f4a871415be4d9d2bffbe454604359291bf528b07f202d4c1925786054028"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-actionbook",
-  "generated_at": "2026-03-21T07:14:47.840Z",
+  "generated_at": "2026-03-22T07:19:40.053Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-actionbook#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adcentury/actionbook/SKILL.md",
-        "retrieved_at": "2026-03-21T07:14:47.840Z",
+        "retrieved_at": "2026-03-22T07:19:40.053Z",
         "content_sha256": "2dbdb1cebd255fe00b6f5450c5c8eb8b74524a2acdb49d9918d2a5c9dee7fcba"
       }
     }

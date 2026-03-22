@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-noverload",
-  "generated_at": "2026-03-21T07:14:01.499Z",
+  "generated_at": "2026-03-22T07:17:57.319Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-noverload#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/drewautomates/noverload/SKILL.md",
-        "retrieved_at": "2026-03-21T07:14:01.499Z",
+        "retrieved_at": "2026-03-22T07:17:57.319Z",
         "content_sha256": "0be880cf11a396c6ccf1b855d2de30f928679359373e986d7e2bac9e5446fa55"
       }
     }

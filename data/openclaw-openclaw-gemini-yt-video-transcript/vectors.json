@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gemini-yt-video-transcript",
-  "generated_at": "2026-03-21T07:13:42.415Z",
+  "generated_at": "2026-03-22T07:17:06.811Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gemini-yt-video-transcript#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/gemini-yt-video-transcript/SKILL.md",
-        "retrieved_at": "2026-03-21T07:13:42.415Z",
+        "retrieved_at": "2026-03-22T07:17:06.811Z",
         "content_sha256": "013bdf441304ef28897b95c4bf670bf0b1c950cd68d473fe0dc4803e55bda7cd"
       }
     }

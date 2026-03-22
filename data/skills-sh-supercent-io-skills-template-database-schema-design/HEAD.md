@@ -29,6 +29,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/database-schema-des
 github_stars: 75
 github_forks: 13
 github_is_organization: true
-retrieved_at: 2026-03-21T07:15:35.045Z
+retrieved_at: 2026-03-22T07:21:17.572Z
 content_sha256: ff98cf20b0832240cdff4c84bf4da769e10431b36a344933b66760dae0c61ea8
 ---

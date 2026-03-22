@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-critpt-solver",
-  "generated_at": "2026-03-21T07:15:19.261Z",
+  "generated_at": "2026-03-22T07:20:44.819Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-critpt-solver#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/wanng-ide/critpt-solver/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:19.261Z",
+        "retrieved_at": "2026-03-22T07:20:44.819Z",
         "content_sha256": "9fcdf189408dfd2709da61d2b16d2455d409e76436224f663e198570755ccfb2"
       }
     }

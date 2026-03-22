@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swiftui-performance-audit",
-  "generated_at": "2026-03-21T07:15:31.986Z",
+  "generated_at": "2026-03-22T07:21:10.204Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swiftui-performance-audit#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-performance-audit/SKILL.md",
-        "retrieved_at": "2026-03-21T07:15:31.986Z",
+        "retrieved_at": "2026-03-22T07:21:10.204Z",
         "content_sha256": "76bb355c9032f25e8120842fdc911668c320717380073e77e71bab90c67d7f96"
       }
     }
