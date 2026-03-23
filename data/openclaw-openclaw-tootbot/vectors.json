@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tootbot",
-  "generated_at": "2026-03-22T07:18:54.974Z",
+  "generated_at": "2026-03-23T07:31:45.543Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tootbot#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/behrangsa/tootbot/SKILL.md",
-        "retrieved_at": "2026-03-22T07:18:54.974Z",
+        "retrieved_at": "2026-03-23T07:31:45.543Z",
         "content_sha256": "f3c84f81162ba181533812df1a07ba3b59decba2c36242af3ecbadfc0268639a"
       }
     }

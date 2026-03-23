@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentic-paper-digest-skill",
-  "generated_at": "2026-03-22T07:20:01.978Z",
+  "generated_at": "2026-03-23T07:33:01.627Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentic-paper-digest-skill#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matanle51/agentic-paper-digest-skill/SKILL.md",
-        "retrieved_at": "2026-03-22T07:20:01.978Z",
+        "retrieved_at": "2026-03-23T07:33:01.627Z",
         "content_sha256": "194376c6dd3a61e5e7b750b7ae34f14309600277c4adef330bfe62f08de335a3"
       }
     }

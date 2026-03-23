@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-teams-anthropic-integration",
-  "generated_at": "2026-03-22T07:18:50.344Z",
+  "generated_at": "2026-03-23T07:31:39.296Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-teams-anthropic-integration#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edwardirby/teams-anthropic-integration/SKILL.md",
-        "retrieved_at": "2026-03-22T07:18:50.344Z",
+        "retrieved_at": "2026-03-23T07:31:39.296Z",
         "content_sha256": "568445be41e5b0446a48944d6a002ba9a3d5c846405716886f6e6c488985866b"
       }
     }

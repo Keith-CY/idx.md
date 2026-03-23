@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-component",
-  "generated_at": "2026-03-22T07:21:28.534Z",
+  "generated_at": "2026-03-23T07:34:43.177Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-component#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-component/references/component-patterns.md",
-        "retrieved_at": "2026-03-22T07:21:28.534Z",
+        "retrieved_at": "2026-03-23T07:34:43.177Z",
         "content_sha256": "b283e168020ee75c443e9d53f50bfb1889f9cb932732337d67a1242af96ce112"
       }
     }

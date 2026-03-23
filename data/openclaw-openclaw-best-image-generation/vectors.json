@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-best-image-generation",
-  "generated_at": "2026-03-22T07:20:25.531Z",
+  "generated_at": "2026-03-23T07:33:29.118Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-best-image-generation#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/evolinkai/best-image-generation/SKILL.md",
-        "retrieved_at": "2026-03-22T07:20:25.531Z",
+        "retrieved_at": "2026-03-23T07:33:29.118Z",
         "content_sha256": "473ebcf07d3f1311536219514140f42d89b60d5ff699c8e89609002f6f7589b5"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-context-optimizer",
-  "generated_at": "2026-03-22T07:16:46.681Z",
+  "generated_at": "2026-03-23T07:29:39.302Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-context-optimizer#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ad2546/context-optimizer/SKILL.md",
-        "retrieved_at": "2026-03-22T07:16:46.681Z",
+        "retrieved_at": "2026-03-23T07:29:39.302Z",
         "content_sha256": "857163b8eaf7930e5a80c07938fe4983c288645d7cb90e53eadfafeb2dfa52c1"
       }
     }

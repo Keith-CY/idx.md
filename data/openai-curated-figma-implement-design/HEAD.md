@@ -39,6 +39,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma-i
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-22T07:15:44.210Z
+retrieved_at: 2026-03-23T07:28:23.789Z
 content_sha256: adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad
 ---

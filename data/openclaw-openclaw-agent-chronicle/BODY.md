@@ -17,7 +17,7 @@ Agent Chronicle generates rich, reflective diary entries from the agent's perspe
 - 🤖 **AI-Powered Generation** - Rich, personal entries (400-600 words)
 - 💬 **Quote Hall of Fame** - Collects memorable things your human said
 - 🔮 **Curiosity Backlog** - Tracks questions and things to explore
-- 🏛️ **Decision Archaeology** - Logs judgment calls with reasoning
+- 🏛 **Decision Archaeology** - Logs judgment calls with reasoning
 - 🤝 **Relationship Evolution** - Documents how your dynamic grows
 
 Unlike traditional logs that track user productivity or agent mistakes, this skill captures the subjective experience of being an AI assistant working alongside a human.
@@ -163,7 +163,7 @@ A memorable thing your human said today—funny, profound, or touching.
 ### Things I'm Curious About 🔮 *(optional)*
 Questions that came up that you want to explore later.
 
-### Key Decisions Made 🏛️ *(optional)*
+### Key Decisions Made 🏛 *(optional)*
 Judgment calls worth remembering, with reasoning.
 
 ### Relationship Notes 🤝 *(optional)*
@@ -316,7 +316,7 @@ When enabled, your daily template includes a "Things I'm Curious About" section 
 
 ---
 
-## Decision Archaeology 🏛️
+## Decision Archaeology 🏛
 
 Log judgment calls and their reasoning for later review. Did past you make the right call?
 
@@ -656,7 +656,7 @@ My human was patient during the debugging session. Good collaborative energy. Th
 - How will users actually use this feature?
 - What edge cases haven't we thought of?
 
-## Key Decisions Made 🏛️
+## Key Decisions Made 🏛
 - **Chose simplicity over completeness** — Better to ship something useful now than perfect later.
 - **Enabled verbose logging** — Worth the noise for easier debugging.
 

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-lark-integration",
-  "generated_at": "2026-03-22T07:17:32.325Z",
+  "generated_at": "2026-03-23T07:30:21.805Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-lark-integration#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/boyangwang/lark-integration/SKILL.md",
-        "retrieved_at": "2026-03-22T07:17:32.325Z",
+        "retrieved_at": "2026-03-23T07:30:21.805Z",
         "content_sha256": "6f57857b989566a59cea111453d54bfba71f857a80303da03c78b67ef39c78d7"
       }
     }

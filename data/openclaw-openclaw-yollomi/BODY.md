@@ -11,9 +11,7 @@ Generates images and videos via the Yollomi API. All models use a **single unifi
 ## Setup
 
 1. **API Key**: Set `YOLLOMI_API_KEY` (environment variable).
-
-Notes:
-- Video generation is temporarily disabled in this skill build.
+2. **Base URL** (optional): Set `YOLLOMI_BASE_URL` to override API host (default: `https://yollomi.com`).
 
 ## Unified Endpoint
 
@@ -110,7 +108,6 @@ Supported aspect ratios for text-to-image models:
 | google-veo-3 | 10 |
 | google-veo-3-fast | 9 |
 | google-veo-3-1 | 10 |
-| google-veo-3-2 | 10 |
 | google-veo-3-1-fast | 9 |
 | kling-2-1 | 9 |
 | kling-v2-6-motion-control | 7/sec |
@@ -124,11 +121,18 @@ Supported aspect ratios for text-to-image models:
 | wan-2-6-i2v | 29 |
 | wan-2-6-t2v | 29 |
 
+## OpenClaw Tools
+
+| Tool | Description |
+|------|-------------|
+| `yollomi.generate` | Generate image or video. Params: `type`, `modelId`, `prompt`, `imageUrl`, `aspectRatio`, `numOutputs`, `inputs` (video) |
+| `yollomi.listModels` | List all available image and video models with credit costs. No auth required. |
+
 ## Workflow
 
-1. **Generate image** → POST /api/v1/generate with `type: "image"`, `modelId`, and model params
-2. **Generate video** → POST /api/v1/generate with `type: "video"`, `modelId`, `prompt`, optional `inputs`
-3. **List models** → GET /api/v1/models
+1. **List models** → `yollomi.listModels()` or GET /api/v1/models
+2. **Generate image** → `yollomi.generate({ type: "image", modelId, prompt, ... })`
+3. **Generate video** → `yollomi.generate({ type: "video", modelId, prompt, inputs: { ... } })`
 4. **401/402** → Check API key and credits
 
 ## Reference

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-0protocol",
-  "generated_at": "2026-03-22T07:19:32.462Z",
+  "generated_at": "2026-03-23T07:32:29.042Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-0protocol#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/0isone/0protocol/SKILL.md",
-        "retrieved_at": "2026-03-22T07:19:32.462Z",
+        "retrieved_at": "2026-03-23T07:32:29.042Z",
         "content_sha256": "3ca3313c27cbec3bf4fe92ee8fc53ac03fb8df2dae3eb0f21f58af2e6a1051b8"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agents-skill-podcastifier",
-  "generated_at": "2026-03-22T07:20:03.573Z",
+  "generated_at": "2026-03-23T07:33:03.480Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agents-skill-podcastifier#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cerbug45/agents-skill-podcastifier/SKILL.md",
-        "retrieved_at": "2026-03-22T07:20:03.573Z",
+        "retrieved_at": "2026-03-23T07:33:03.480Z",
         "content_sha256": "57a043c73199081c0dc7f57df7dcee77163e0a7b7e517e7d7aaa2f9cffc1c027"
       }
     }

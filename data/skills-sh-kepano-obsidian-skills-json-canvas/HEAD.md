@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/kepano/obsidian-skills/json-canvas
 github_stars: 15199
 github_forks: 846
 github_is_organization: false
-retrieved_at: 2026-03-22T07:21:28.624Z
+retrieved_at: 2026-03-23T07:34:43.279Z
 content_sha256: f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb
 ---

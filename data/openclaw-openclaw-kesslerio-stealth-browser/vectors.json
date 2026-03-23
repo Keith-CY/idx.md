@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kesslerio-stealth-browser",
-  "generated_at": "2026-03-22T07:17:30.423Z",
+  "generated_at": "2026-03-23T07:30:20.157Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kesslerio-stealth-browser#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/kesslerio-stealth-browser/SKILL.md",
-        "retrieved_at": "2026-03-22T07:17:30.423Z",
+        "retrieved_at": "2026-03-23T07:30:20.157Z",
         "content_sha256": "243572efffd0b519733790af207ddbcee3cb53b806f24fc745a9ed1eaffb8b96"
       }
     }

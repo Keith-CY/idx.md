@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-skanetrafiken",
-  "generated_at": "2026-03-22T07:18:37.406Z",
+  "generated_at": "2026-03-23T07:31:25.142Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-skanetrafiken#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rezkam/skanetrafiken/SKILL.md",
-        "retrieved_at": "2026-03-22T07:18:37.406Z",
+        "retrieved_at": "2026-03-23T07:31:25.142Z",
         "content_sha256": "f71b772116b1ce57282692818ba0a616290c42ca5cc50fb0c46d184e17a95409"
       }
     }

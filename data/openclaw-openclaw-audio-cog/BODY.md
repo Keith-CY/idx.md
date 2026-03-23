@@ -1,6 +1,6 @@
 ---
 name: audio-cog
-description: AI audio generation powered by CellCog. Text-to-speech, voice synthesis, voiceovers, podcast audio, narration, music generation, background music, sound design. Professional audio creation with AI.
+description: AI audio generation powered by CellCog. Three voice providers (OpenAI, ElevenLabs, MiniMax), avatar cloned voices, sound effects, music generation up to 10 minutes. Professional audio creation with AI.
 metadata:
   openclaw:
     emoji: "🎵"
@@ -10,7 +10,17 @@ dependencies: [cellcog]
 
 # Audio Cog - AI Audio Generation Powered by CellCog
 
-Create professional audio with AI - from voiceovers and narration to background music and sound design.
+Create professional audio with AI — voiceovers, music, sound effects, and personalized avatar voices.
+
+CellCog provides **three voice providers**, each with different strengths. Choose based on your needs:
+
+| Scenario | Provider | Why |
+|----------|----------|-----|
+| Standard narration/voiceover | OpenAI | Best voice style control, consistent quality |
+| Emotional/dramatic delivery | ElevenLabs | Richest emotional range, supports emotion tags |
+| Cloned voice (avatar) | MiniMax | Only provider with voice cloning support |
+| Character voice with specific accent | ElevenLabs | 100+ diverse pre-made voices |
+| Fine pitch/speed/volume control | MiniMax | Granular voice settings |
 
 ---
 
@@ -24,189 +34,147 @@ clawhub install cellcog
 
 **Read the cellcog skill first** for SDK setup. This skill shows you what's possible.
 
-**Quick pattern (v1.0+):**
-```python
-# Fire-and-forget - returns immediately
-result = client.create_chat(
-    prompt="[your audio request]",
-    notify_session_key="agent:main:main",
-    task_label="audio-task",
-    chat_mode="agent"  # Agent mode is optimal for all audio tasks
-)
-# Daemon notifies you when complete - do NOT poll
-```
+---
+
+## Voice Providers
+
+### OpenAI (Default)
+
+Best for standard narration, voiceovers, and single-speaker content with precise delivery control.
+
+**Key strength**: Natural-language style instructions — describe the accent, tone, pacing, and emotion you want.
+
+**8 built-in voices:**
+
+| Voice | Gender | Characteristics |
+|-------|--------|----------------|
+| **cedar** | Male | Warm, resonant, authoritative, trustworthy |
+| **marin** | Female | Bright, articulate, emotionally agile, professional |
+| **ballad** | Male | Smooth, melodic, musical quality |
+| **coral** | Female | Vibrant, lively, dynamic, spirited |
+| **echo** | Male | Calm, measured, thoughtful, deliberate |
+| **sage** | Female | Wise, contemplative, reflective |
+| **shimmer** | Female | Soft, gentle, soothing, approachable |
+| **verse** | Male | Poetic, rhythmic, artistic, expressive |
+
+Best quality: **cedar** (male), **marin** (female).
+
+**Style customization examples:**
+- "Warm conversational tone, medium pace, slight enthusiasm when mentioning features. American accent."
+- "Deep, hushed, enigmatic, with a slow deliberate cadence — true crime narrator style."
+- "Heavy French accent, sophisticated yet friendly, moderate pacing with deliberate pauses."
 
 ---
 
-## What Audio You Can Create
+### ElevenLabs
 
-### Text-to-Speech / Voiceover
+Best for emotional delivery, dramatic content, character voices, and audiobook narration.
 
-Convert text to natural-sounding speech:
+**Key strength**: Emotion tags embedded directly in text — `[laughs]`, `[sighs]`, `[whispers]`, `[excited]`, `[sarcastic]`. Plus 100+ diverse pre-made voices.
 
-- **Narration**: "Generate a professional male voiceover for this product video script"
-- **Audiobook Style**: "Create an engaging narration of this short story with emotional delivery"
-- **Podcast Intros**: "Generate a warm, friendly podcast intro: 'Welcome to The Daily Tech...'"
-- **E-Learning**: "Create clear, instructional voiceover for this training module"
-- **IVR/Phone Systems**: "Generate professional phone menu prompts"
+**Emotion tags (use sparingly — 1-2 per paragraph):**
+
+| Tag | Effect |
+|-----|--------|
+| `[laughs]` | Natural laughter |
+| `[chuckles]` | Soft/brief laughter |
+| `[sighs]` | Sighing |
+| `[gasps]` | Surprise/shock |
+| `[whispers]` | Whispering delivery |
+| `[pause]` | Natural pause/beat |
+| `[sad]`, `[happy]`, `[excited]`, `[angry]`, `[sarcastic]` | Emotional delivery |
+
+**Example prompt:**
+> "Generate speech using ElevenLabs with a warm British male voice:
+> 'And then, just when everyone thought it was over... [pause] [whispers] it wasn't.'"
 
 ---
 
-## Available Voices
+### MiniMax
 
-CellCog provides 8 high-quality voices with distinct characteristics:
+Best for cloned voices (avatars) and fine-grained voice control.
 
-| Voice | Gender | Best For | Characteristics |
-|-------|--------|----------|-----------------|
-| **cedar** | Male | Product videos, announcements | Warm, resonant, authoritative, trustworthy |
-| **marin** | Female | Professional content, tutorials | Bright, articulate, emotionally agile |
-| **ballad** | Male | Storytelling, flowing narratives | Smooth, melodic, musical quality |
-| **coral** | Female | Energetic content, ads | Vibrant, lively, dynamic, spirited |
-| **echo** | Male | Thoughtful content, documentaries | Calm, measured, deliberate |
-| **sage** | Female | Educational, knowledge content | Wise, contemplative, reflective |
-| **shimmer** | Female | Gentle content, wellness | Soft, gentle, soothing, approachable |
-| **verse** | Male | Creative, artistic content | Poetic, rhythmic, expressive |
+**Key strength**: MiniMax Speech 2.8 HD — studio-grade audio quality. Supports avatar cloned voice IDs for personalized content, plus 17+ standard pre-made voices with granular speed, pitch, and volume control.
 
-### Voice Recommendations by Use Case
+**Standard voices include:** `Deep_Voice_Man`, `Calm_Woman`, `Casual_Guy`, `Lively_Girl`, `Wise_Woman`, `Friendly_Person`, `Young_Knight`, `Elegant_Man`, and more.
 
-**For product videos and announcements:**
-> Use **cedar** (male) or **marin** (female) - both project confidence and professionalism.
+**Voice settings:** emotion (happy/sad/angry/neutral/etc.), speed (0.5–2.0), volume (0–10), pitch (-12 to 12).
 
-**For storytelling and audiobooks:**
-> Use **ballad** (male) or **sage** (female) - designed for engaging, flowing narratives.
+---
 
-**For high-energy content:**
-> Use **coral** (female) - vibrant and dynamic, perfect for ads and exciting announcements.
+## Avatar / Cloned Voice
 
-**For calm, educational content:**
-> Use **echo** (male) or **shimmer** (female) - measured pacing ideal for learning.
+Users can create avatars on CellCog with their own cloned voice. When an avatar has a cloned voice, CellCog uses the MiniMax provider to generate speech that sounds like that person.
 
-### Voice Style Customization
+**How it works:**
+- The user creates an avatar on cellcog.ai and uploads voice samples
+- CellCog clones their voice using MiniMax Speech 2.8 HD
+- Any audio request referencing that avatar uses their cloned voice
 
-Beyond selecting a voice, you can fine-tune delivery with style instructions:
+**Example prompt:**
+> "Generate a voiceover using my avatar Luna's voice: 'Welcome to our quarterly update. I'm excited to share some incredible results with you today.'"
 
-- **Accent & dialect**: American, British, Australian, Indian, etc.
-- **Emotional range**: Excited, serious, warm, mysterious, dramatic
-- **Pacing**: Slow and deliberate, conversational, fast and energetic
-- **Special effects**: Whispering, character impressions
+This is powerful for creating consistent, personalized content — marketing videos, podcast intros, course narration — all in the user's own voice.
 
-**Example with style instructions:**
-> "Generate voiceover using cedar voice with a warm, conversational tone. Speak at medium pace with slight enthusiasm when mentioning features. American accent."
+---
+
+## Sound Effects (SFX)
+
+CellCog generates standalone sound effects from text descriptions. Royalty-free, 0.1 to 30 seconds.
+
+**Example prompts:**
+- "Generate a sound effect of heavy rain hitting a metal roof with occasional thunder, 10 seconds"
+- "Create a crispy footsteps-on-fresh-snow sound effect, 5 seconds"
+- "Generate an echoing door slam in a large empty warehouse"
+
+**Tips for better SFX:**
+- Be specific about textures and environment
+- Specify duration when exact length matters
+- For ambient audio longer than 30 seconds, generate a short loopable segment and extend with ffmpeg
 
 ---
 
 ## Music Generation
 
-Create original background music and soundtracks:
+Create original music from text descriptions. 3 seconds to 10 minutes. Royalty-free.
 
-- **Background Music**: "Create calm lo-fi background music for a study video, 2 minutes"
-- **Podcast Music**: "Generate an upbeat intro jingle for a tech podcast, 15 seconds"
-- **Video Soundtracks**: "Create cinematic orchestral music for a product launch video"
-- **Ambient/Mood**: "Generate peaceful ambient sounds for a meditation app"
-- **Genre-Specific**: "Create energetic electronic music for a fitness video"
+**Capabilities:**
+- Any genre or genre fusion
+- Instrumental and vocal tracks (specify if you want vocals)
+- Complex arrangements, mood transitions, and energy dynamics
+- Describe what you want — the model handles music theory
 
-### Music Specifications
+**Example prompts:**
+- "Create 2 minutes of calm lo-fi hip-hop background music with soft piano and mellow beats, 75 BPM"
+- "Generate a 15-second upbeat tech podcast intro jingle"
+- "Create 90 seconds of cinematic orchestral music — start soft and inspiring, build to a confident crescendo"
+- "Generate a 3-minute pop song about summer adventures with female vocals"
 
-| Parameter | Options |
-|-----------|---------|
-| **Duration** | 15 seconds to 5+ minutes |
-| **Genre** | Electronic, rock, classical, jazz, ambient, lo-fi, cinematic, pop, hip-hop |
-| **Tempo** | 60 BPM (slow) to 180+ BPM (fast) |
-| **Mood** | Upbeat, calm, dramatic, mysterious, inspiring, melancholic |
-| **Instruments** | Piano, guitar, synth, strings, drums, brass, etc. |
+For precise section-by-section control (exact timing per section), describe your composition plan in detail — CellCog handles the structure.
 
-### Music Licensing
-
-**All AI-generated music from CellCog is royalty-free and fully yours to use commercially.**
-
-You have complete rights to use the generated music for:
-- YouTube videos (including monetized content)
-- Commercial projects and advertisements
-- Podcasts and streaming
-- Apps and games
-- Any other commercial or personal use
-
-No attribution required. No licensing fees. The music is generated uniquely for you.
-
----
-
-## Audio Output Formats
-
-| Format | Best For |
-|--------|----------|
-| **MP3** | Standard audio delivery, voiceovers, music |
-| Combined with video | Background music for video-cog outputs |
-
----
-
-## Chat Mode for Audio
-
-**Use `chat_mode="agent"`** for all audio generation tasks.
-
-Audio generation—whether voiceovers, music, or sound design—executes efficiently in agent mode. CellCog's audio capabilities don't require multi-angle deliberation; they require precise execution, which agent mode excels at.
-
-There's no scenario where agent team mode provides meaningfully better audio output. Save agent team for research and complex creative work that benefits from multiple reasoning passes.
-
----
-
-## Example Audio Prompts
-
-**Professional voiceover with specific voice:**
-> "Generate a professional voiceover using the **marin** voice for this script:
-> 
-> 'Introducing TaskFlow - the project management tool that actually works. With intelligent automation, seamless collaboration, and powerful analytics, TaskFlow helps teams do their best work.'
-> 
-> Style: Confident and friendly, medium pace. Suitable for a product launch video."
-
-**Podcast intro with voice selection:**
-> "Create a podcast intro voiceover using **cedar** voice:
-> 
-> 'Welcome to Future Forward, the podcast where we explore the technologies shaping tomorrow. I'm your host, and today we're diving into...'
-> 
-> Style: Warm and engaging, conversational tone. Also generate a 10-second upbeat intro music bed to go underneath."
-
-**Background music:**
-> "Generate 2 minutes of calm, lo-fi hip-hop style background music. Should be chill and unobtrusive, good for studying or working. Include soft piano, mellow beats, and gentle vinyl crackle. 75 BPM."
-
-**Audiobook narration:**
-> "Create an audiobook-style narration using **ballad** voice for this passage:
-> 
-> [passage text]
-> 
-> Style: Warm storytelling quality, measured pace with appropriate pauses for drama."
-
-**Cinematic music:**
-> "Generate 90 seconds of cinematic orchestral music for a tech company's 'About Us' video. Start soft and inspiring, build to a confident crescendo, then resolve to a hopeful ending."
+**All generated music is royalty-free** — use commercially without attribution or licensing fees.
 
 ---
 
 ## Multi-Language Support
 
-CellCog can generate speech in 50+ languages:
+All three voice providers support 40+ languages. Provide speech text in the target language:
 
-- English (multiple accents)
-- Spanish, French, German, Italian, Portuguese
-- Chinese (Mandarin, Cantonese)
-- Japanese, Korean
-- Hindi, Arabic
-- Russian, Polish, Dutch
-- And many more
+English, Spanish, French, German, Italian, Portuguese, Chinese (Mandarin/Cantonese), Japanese, Korean, Hindi, Arabic, Russian, Polish, Dutch, Turkish, and many more.
 
-Specify the language in your prompt:
-> "Generate this text in Japanese with a native female speaker using shimmer voice: 'いらっしゃいませ...'"
+---
+
+## Chat Mode
+
+**Use `chat_mode="agent"`** for all audio tasks. Audio generation executes efficiently in agent mode — no need for agent team.
 
 ---
 
 ## Tips for Better Audio
 
-1. **Choose the right voice**: Match the voice to your content type. Cedar/marin for professional, ballad/sage for storytelling, coral for energy.
-
-2. **Provide the complete script**: Don't say "something about our product" - write out exactly what should be said.
-
-3. **Include style instructions**: "Confident but warm", "slow and deliberate", "with slight excitement" helps shape delivery.
-
-4. **For music**: Specify duration, tempo (BPM if you know it), mood, and genre.
-
+1. **Choose the right provider**: OpenAI for standard narration, ElevenLabs for emotional/dramatic, MiniMax for cloned voices
+2. **Provide the complete script**: Write out exactly what should be spoken — don't say "something about our product"
+3. **Include style instructions**: "Confident but warm", "slow and deliberate", "with slight excitement"
+4. **For music**: Specify duration, mood, genre, and tempo (BPM if you know it)
 5. **Pronunciation guidance**: For names or technical terms, add hints: "CellCog (pronounced SELL-kog)"
-
-6. **Emotional beats**: For longer voiceovers, indicate tone shifts: "[excited] And now for the big reveal... [serious] But there's a catch."
+6. **For ElevenLabs emotion tags**: Use sparingly — 1-2 per paragraph. Tags affect all subsequent text until a new tag.

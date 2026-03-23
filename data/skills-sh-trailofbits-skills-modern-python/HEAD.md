@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/modern-python
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-22T07:19:30.713Z
+retrieved_at: 2026-03-23T07:32:27.034Z
 content_sha256: 4be1c181c71aab64ba58573242a1c451d576a5c61ceeb400bb5827f4e1f9532a
 ---

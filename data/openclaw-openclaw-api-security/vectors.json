@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-api-security",
-  "generated_at": "2026-03-22T07:20:13.327Z",
+  "generated_at": "2026-03-23T07:33:14.868Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-api-security#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brandonwise/api-security/SKILL.md",
-        "retrieved_at": "2026-03-22T07:20:13.327Z",
+        "retrieved_at": "2026-03-23T07:33:14.868Z",
         "content_sha256": "6d80d7c4640841dcd3d6afadf84e6e1dddbfac859abca886cb9ea197b8863742"
       }
     }

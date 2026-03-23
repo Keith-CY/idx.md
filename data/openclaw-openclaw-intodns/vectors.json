@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-intodns",
-  "generated_at": "2026-03-22T07:17:23.805Z",
+  "generated_at": "2026-03-23T07:30:14.343Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-intodns#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rosconl/intodns/SKILL.md",
-        "retrieved_at": "2026-03-22T07:17:23.805Z",
+        "retrieved_at": "2026-03-23T07:30:14.343Z",
         "content_sha256": "3507558da6c61a05d03c641a52621e491f8b83c202279b9c11ec840c28b538a4"
       }
     }

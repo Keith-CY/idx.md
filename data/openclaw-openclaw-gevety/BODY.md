@@ -1,7 +1,7 @@
 ---
 name: gevety
-version: 1.6.0
-description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, activities, daily actions, 90-day health protocol, upcoming tests, lab reports, and health content
+version: 1.8.0
+description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, medications, medical profile, activities, strength training, erg results, daily actions, 90-day health protocol, upcoming tests, lab reports, health documents, and health content
 homepage: https://gevety.com
 user-invocable: true
 command: gevety
@@ -241,7 +241,21 @@ Each activity includes:
 - `distance_km`: Distance (if applicable)
 - `calories`: Calories burned
 - `avg_hr` / `max_hr`: Heart rate data
-- `source`: Where the data came from (garmin, strava, etc.)
+- `source`: Where the data came from (garmin, strava, hevy, concept2, etc.)
+- `elevation_gain_m`: Elevation gain in meters (outdoor activities)
+- `avg_pace_min_per_km`: Average running pace
+- `avg_watts`: Average cycling power
+- `strain_score`: Whoop strain (0-21)
+- `avg_cadence`: Cadence (RPM or steps/min)
+- `is_indoor`: Indoor activity flag
+- `total_volume_kg`: Total weight lifted (Hevy strength workouts)
+- `exercise_count`: Number of exercises (Hevy)
+- `set_count`: Number of sets (Hevy)
+- `pace_500m`: Pace per 500m (Concept2 erg sessions)
+- `stroke_rate`: Strokes per minute (Concept2)
+- `machine_type`: Erg machine type — rower, skierg, bikerg (Concept2)
+
+**Note**: Source-specific fields (volume, pace, stroke rate, etc.) are only populated for the relevant source. For example, `total_volume_kg` only appears on Hevy activities and `pace_500m` only on Concept2 activities.
 
 ### 9. Get Today's Actions
 
@@ -400,6 +414,150 @@ Each recommendation includes:
 - `quality_score`: Evidence quality score (only high-quality content is shown)
 - `url`: Link to the article
 
+### 15. Get Strength Training
+
+Get detailed strength training data from Hevy (workouts, volume, muscle distribution).
+
+```
+GET /api/v1/mcp/tools/get_strength_training?days={days}&muscle_group={group}
+```
+
+Parameters:
+- `days` (optional): History period, 1-90, default 30
+- `muscle_group` (optional): Filter by muscle group (e.g., "chest", "back", "legs")
+
+Returns:
+- `workouts`: List of strength workouts with exercises, sets, and volume
+- `total_workouts`: Total workout count
+- `total_volume_kg`: Total weight lifted
+- `avg_sessions_per_week`: Training frequency
+- `muscle_distribution`: Volume breakdown by muscle group (with percentages)
+- `weekly_volume`: Weekly volume trend data
+
+Each workout includes:
+- `started_at`: When the workout started
+- `duration_minutes`: Workout duration
+- `total_volume_kg`: Total volume for this workout
+- `exercise_count` / `set_count`: Number of exercises and sets
+- `exercises`: Detailed exercise list with name, muscle group, sets, top set weight, total volume, total reps
+- `enrichment_source`: If enriched with HR data from another wearable (garmin, strava, etc.)
+- `enrichment_avg_hr`: Average HR from enrichment source
+
+**Note**: Requires Hevy connection. Returns error if user has no Hevy integration.
+
+### 16. Get Erg Results
+
+Get Concept2 ergometer results (rowing, skiing, biking).
+
+```
+GET /api/v1/mcp/tools/get_erg_results?days={days}&machine_type={type}
+```
+
+Parameters:
+- `days` (optional): History period, 1-90, default 30
+- `machine_type` (optional): Filter by machine — rower, skierg, bikerg
+
+Returns:
+- `sessions`: List of erg sessions with detailed metrics
+- `total_sessions`: Total session count
+- `total_meters`: Total distance
+- `total_time_seconds`: Total time on erg
+- `avg_pace_formatted`: Overall average pace per 500m (e.g., "2:05.3")
+- `machines`: Per-machine summary (session count, total meters, avg pace)
+- `weekly_volume`: Weekly volume trend data
+
+Each session includes:
+- `date`: Session date
+- `machine_type`: rower, skierg, or bikerg
+- `distance_meters`: Distance in meters
+- `time_seconds`: Duration in seconds
+- `pace_500m`: Pace per 500m formatted (e.g., "2:05.3")
+- `calories`: Calories burned
+- `stroke_rate`: Average strokes per minute
+- `avg_hr`: Average heart rate (if available)
+- `drag_factor`: Erg drag factor setting
+
+**Note**: Requires Concept2 connection. Returns error if user has no Concept2 integration.
+
+### 17. List Medications
+
+Get the user's prescription medications.
+
+```
+GET /api/v1/mcp/tools/list_medications?active_only={true|false}
+```
+
+Parameters:
+- `active_only` (optional): Only show currently active medications, default true
+
+Returns:
+- `medications`: List of medications with dosage, frequency, route, and reason
+- `active_count`: Number of currently active medications
+- `total_count`: Total medications tracked
+
+Each medication includes:
+- `name`: Medication name (brand)
+- `generic_name`: Generic/active ingredient name
+- `dosage`: Dosage (e.g., "500mg")
+- `frequency`: How often taken (e.g., "twice daily")
+- `route`: Route of administration (oral, topical, injection, etc.)
+- `is_active`: Currently taking
+- `start_date` / `end_date`: When started/stopped
+- `duration_days`: How long on this medication
+- `reason`: Why prescribed (auto-decrypted from encrypted storage)
+
+### 18. Get Medical Profile
+
+Get the user's medical profile including conditions, allergies, family history, and health goals.
+
+```
+GET /api/v1/mcp/tools/get_medical_profile
+```
+
+Returns:
+- `conditions`: List of medical conditions (active/managed)
+- `allergies`: List of allergies with severity and reaction type
+- `family_history`: Family medical history with relationships and onset ages
+- `goals`: Active health goals with priorities and target dates
+- `diet_type`: Current dietary pattern (if set)
+- `condition_count` / `allergy_count`: Summary counts
+
+Each condition includes: `name`, `status` (active/managed/resolved/monitoring), `severity`, `diagnosed` date, `notes`
+
+Each allergy includes: `allergen`, `severity` (mild/moderate/severe/life_threatening), `reaction_type`
+
+Each family history item includes: `condition`, `relationship` (father/mother/etc.), `age_at_onset`, `notes`
+
+### 19. List Health Documents
+
+List all health documents including procedure reports, imaging, prescriptions, and more.
+
+```
+GET /api/v1/mcp/tools/list_health_documents?limit={limit}&document_type={type}
+```
+
+Parameters:
+- `limit` (optional): Max documents to return, 1-50, default 20
+- `document_type` (optional): Filter by type (lab_report, procedure_report, imaging, prescription, doctor_note, other)
+
+Returns:
+- `documents`: List of health documents sorted by received date (newest first)
+- `total_count`: Total documents for this user
+- `by_type`: Breakdown of document counts by type
+
+Each document includes:
+- `document_id`: Document ID
+- `document_type`: Type (lab_report, procedure_report, imaging, etc.)
+- `document_subtype`: Subtype (cac, dexa, colonoscopy, mammogram, etc.)
+- `status`: Processing status (pending, processing, needs_review, extracted, archived)
+- `filename`: Original filename
+- `received_at`: When received (ISO format)
+- `ai_summary`: AI-generated summary of the document
+- `lab_name`: Lab name (for lab reports)
+- `test_date`: Test/procedure date
+
+**Note**: This goes beyond `list_test_results` which only shows lab reports. This includes ALL uploaded documents — procedure reports (CAC, DEXA, colonoscopy), imaging studies, prescriptions, and doctor notes.
+
 ## Interpreting Scores
 
 ### Healthspan Score (0-100)
@@ -506,6 +664,37 @@ Each health dimension is scored independently:
 4. Show status counts (e.g., "12 optimal, 3 suboptimal, 1 high")
 5. Note trends (increasing/decreasing/stable)
 
+### "Show me my strength training" / "How's my lifting?"
+1. Call `get_strength_training?days=30`
+2. Summarize workout frequency and total volume
+3. Show muscle group distribution (highlight any imbalances)
+4. List recent workouts with top exercises
+
+### "Show me my rowing results" / "How are my erg sessions?"
+1. Call `get_erg_results?days=30`
+2. Summarize total sessions, distance, and average pace
+3. Show per-machine breakdown if using multiple ergs
+4. Highlight pace trends (improving/declining)
+
+### "What medications am I on?" / "What prescriptions do I take?"
+1. Call `list_medications?active_only=true`
+2. List active medications with dosage and frequency
+3. Note route and reason if available
+4. To see historical medications too, use `active_only=false`
+
+### "What are my medical conditions?" / "Do I have any allergies?"
+1. Call `get_medical_profile`
+2. Present conditions with status and severity
+3. List allergies with severity levels
+4. Show family history (relevant for risk assessment)
+5. Note active health goals
+
+### "Show me all my health documents" / "What procedure reports do I have?"
+1. Call `list_health_documents?limit=20`
+2. Show type breakdown (lab reports, procedures, imaging, etc.)
+3. List documents with AI summaries
+4. Filter by type if user asks about specific category: `document_type=procedure_report`
+
 ### "What should I read about?" / "Any health articles for me?"
 1. Call `get_content_recommendations?limit=5`
 2. Present articles with titles and relevance reasons
@@ -562,12 +751,12 @@ No authentication required. If the request fails or times out, skip the check an
 Response (when successful):
 ```json
 {
-  "clawdbot_skill": { "latest": "1.6.0", "update_command": "clawdhub update gevety" },
+  "clawdbot_skill": { "latest": "1.8.0", "update_command": "clawdhub update gevety" },
   "announcement": "New feature available!"
 }
 ```
 
-**If `clawdbot_skill.latest` > 1.6.0** (this skill's version), tell the user:
+**If `clawdbot_skill.latest` > 1.8.0** (this skill's version), tell the user:
 > "A Gevety skill update is available. Run: `clawdhub update gevety`"
 
 **If `announcement` is present**, mention it once per session.

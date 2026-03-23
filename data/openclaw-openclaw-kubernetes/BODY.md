@@ -19,19 +19,43 @@ metadata:
     - gke
     - rosa
     - aro
-  tools:
-    - kubectl
-    - oc
-    - argocd
-    - helm
-    - kustomize
-    - az
-    - aws
-    - gcloud
-    - rosa
-    - jq
-    - curl
-    - git
+  install_source: "https://github.com/kcns008/cluster-agent-swarm-skills"
+  install_type: "scripted"
+  always: false
+  model_invocation: true
+  requires:
+    env:
+      - KUBECONFIG
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN
+      - AZURE_CLIENT_ID
+      - AZURE_CLIENT_SECRET
+      - AZURE_TENANT_ID
+      - GOOGLE_APPLICATION_CREDENTIALS
+      - ARGOCD_AUTH_TOKEN
+      - ARGOCD_SERVER
+      - VAULT_TOKEN
+      - GITHUB_TOKEN
+      - QUAY_PASSWORD
+      - DOCKER_CONFIG
+    binaries:
+      - kubectl
+      - oc
+      - helm
+      - kustomize
+      - argocd
+      - jq
+      - curl
+      - git
+      - aws
+      - az
+      - gcloud
+      - rosa
+      - trivy
+      - cosign
+      - crane
+      - syft
   credentials:
     - kubeconfig: "Required for cluster access (KUBECONFIG env var or ~/.kube/config)"
     - aws_credentials: "Required for EKS/ROSA - AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN (if using MFA)"
@@ -92,6 +116,59 @@ bash skills/orchestrator/scripts/setup-session.sh <environment> [context-name]
 - All credential access is logged
 - Production modifications require human approval
 - Secrets are never logged or stored in code
+
+---
+
+## ⚠️ Security & Risk Considerations - Read Before Installing
+
+### Source Verification
+- This skill installs code from a third-party GitHub repository
+- **Always verify the source**: Confirm `https://github.com/kcns008/cluster-agent-swarm-skills` is the intended repository
+- Prefer installing from a **pinned commit hash** or verified release tag
+- Review commit history and authors before installing
+
+### Install Mechanism Warning
+- This is a **scripted skill** (not instruction-only) - it will write executable code to disk
+- Installing via `npx skills add` pulls and executes code from GitHub
+- Review scripts before running - some scripts perform destructive operations (deletions, cleanup, promotion)
+- Consider using offline/cached toolchains where possible
+
+### Persistence & Blast Radius
+- Agents maintain **persistent state** across sessions via:
+  - `WORKING.md` - session progress tracking
+  - `LOGS.md` - action audit trail
+  - `MEMORY.md` - long-term learnings
+- Agents are configured to **commit changes** to these files as part of normal operation
+- This persistence increases blast radius if misused - limit repository write access if concerned
+
+### Human Approval Enforcement
+- The skill documentation **claims** human approval required for production changes
+- **This is a procedural control, NOT a technical enforcement**
+- Your platform **MUST enforce** an approval gate before allowing production operations
+- Do not rely on agent self-restriction for production safety
+
+### Principle of Least Privilege - Required
+- **DO NOT** provide owner/root-level cloud credentials
+- Create dedicated, minimal-permission service accounts for:
+  - Kubernetes namespace-level access (not cluster-admin)
+  - AWS IAM roles with limited EKS permissions
+  - Azure service principals with limited subscription access
+  - GCP service accounts with limited project permissions
+- **Never provide production credentials** until you have audited the code in non-production
+
+### Sandbox Before Production
+1. Run this skill in an **isolated/non-production environment first**
+2. Manually step through scripts to understand their behavior
+3. Pay special attention to:
+   - `*-cleanup.sh` scripts - may delete resources
+   - `*-promote.sh` scripts - may promote artifacts
+   - `*-delete.sh` scripts - explicitly destructive
+4. Verify no unexpected network calls to external endpoints
+
+### Supply Chain Tools
+- Scripts may download binaries (syft, cosign, trivy, etc.)
+- **Only allow downloads from trusted release sources** (official GitHub releases, package managers)
+- Consider curating offline toolchains if your environment requires it
 
 ---
 

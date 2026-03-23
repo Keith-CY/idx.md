@@ -25,12 +25,12 @@
 | PDF & Documents | 53 | /category/pdf-documents/index.md |
 | Personal Development | 53 | /category/personal-development/index.md |
 | Productivity Tasks | 129 | /category/productivity-tasks/index.md |
-| Search & Research | 163 | /category/search-research/index.md |
+| Search & Research | 162 | /category/search-research/index.md |
 | Security & Passwords | 37 | /category/security-passwords/index.md |
 | Self-Hosted Automation | 32 | /category/self-hosted-automation/index.md |
 | Shopping & E-Commerce | 51 | /category/shopping-e-commerce/index.md |
 | Smart Home & IoT | 55 | /category/smart-home-iot/index.md |
 | Speech & Transcription | 52 | /category/speech-transcription/index.md |
 | Transportation | 66 | /category/transportation/index.md |
-| Uncategorized | 606 | /category/uncategorized/index.md |
+| Uncategorized | 592 | /category/uncategorized/index.md |
 | Web Frontend Development | 69 | /category/web-frontend-development/index.md |

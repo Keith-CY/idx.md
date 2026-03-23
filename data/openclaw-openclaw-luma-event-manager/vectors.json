@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-luma-event-manager",
-  "generated_at": "2026-03-22T07:17:37.086Z",
+  "generated_at": "2026-03-23T07:30:26.103Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-luma-event-manager#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mariovallereyes/luma-event-manager/SKILL.md",
-        "retrieved_at": "2026-03-22T07:17:37.086Z",
+        "retrieved_at": "2026-03-23T07:30:26.103Z",
         "content_sha256": "b70c0766fcf7fda7ec49921252430097c60dbc876d11634329c6c0d714829294"
       }
     }

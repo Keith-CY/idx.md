@@ -1,10 +1,6 @@
 ---
 name: chart-image
-version: 2.6.14
 description: Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
-provides:
-  - capability: chart-generation
-    methods: [lineChart, barChart, areaChart, pieChart, candlestickChart, heatmap]
 ---
 
 # Chart Image Generator
@@ -129,7 +125,10 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--x-title` | X axis label | field name |
 | `--y-title` | Y axis label | field name |
 | `--x-type` | X axis type: ordinal, temporal, quantitative | ordinal |
+| `--x-format` | Temporal X axis label format (d3-time-format, e.g. `%b %d`, `%H:%M`) | auto |
 | `--x-sort` | X axis order: ascending, descending, or none (preserve input order) | auto |
+| `--x-label-limit PX` | Max pixel width for X axis labels before Vega truncates them | auto |
+| `--y-label-limit PX` | Max pixel width for Y axis labels before Vega truncates them | auto |
 | `--y-domain` | Y scale as "min,max" | auto |
 | `--y-pad` | Add vertical padding as a fraction of range (e.g. `0.1` = 10%) | 0 |
 
@@ -188,13 +187,14 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--y2-title` | Title for second Y axis | field name |
 | `--y2-color` | Color for second series | #60a5fa (dark) / #2563eb (light) |
 | `--y2-type` | Chart type for second axis: line, bar, area | line |
+| `--y2-format` | Right-axis format: percent, dollar, compact, integer, decimal4, or d3-format string | auto |
 
 **Example:** Revenue bars (left) + Churn area (right):
 ```bash
 node chart.mjs \
   --data '[{"month":"Jan","revenue":12000,"churn":4.2},...]' \
   --x-field month --y-field revenue --type bar \
-  --y2-field churn --y2-type area --y2-color "#60a5fa" \
+  --y2-field churn --y2-type area --y2-color "#60a5fa" --y2-format ".1f" \
   --y-title "Revenue ($)" --y2-title "Churn (%)" \
   --x-sort none --dark --title "Revenue vs Churn"
 ```
@@ -340,4 +340,4 @@ node chart.mjs --type line --data '...' --output /data/clawd/tmp/my-chart.png
 - Auto-use `--dark` between 20:00-07:00 Israel time
 
 ---
-*Updated: 2026-03-17 - Added `--bar-radius` for rounded corners on bar-based charts (including stacked/volume/double-axis bar uses); version bumped to 2.6.14*
+*Updated: 2026-03-20 - Added `--y2-format` so dual-axis and volume-overlay charts can format the right axis independently (percent, dollar, compact, custom d3-format); version bumped to 2.6.17*
