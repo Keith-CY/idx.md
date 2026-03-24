@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-reve-ai",
-  "generated_at": "2026-03-23T07:31:16.090Z",
+  "generated_at": "2026-03-24T07:23:52.204Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-reve-ai#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dpaluy/reve-ai/SKILL.md",
-        "retrieved_at": "2026-03-23T07:31:16.090Z",
+        "retrieved_at": "2026-03-24T07:23:52.204Z",
         "content_sha256": "388c7f856ee97ff70767a86a64954b349c3203d3bc59b6c4e65e8bef4c436281"
       }
     }

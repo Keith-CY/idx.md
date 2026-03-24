@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-network-scanner",
-  "generated_at": "2026-03-23T07:30:40.324Z",
+  "generated_at": "2026-03-24T07:23:33.707Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-network-scanner#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/network-scanner/SKILL.md",
-        "retrieved_at": "2026-03-23T07:30:40.324Z",
+        "retrieved_at": "2026-03-24T07:23:33.707Z",
         "content_sha256": "774f8055e7c6cf297428d0e0270c7dc39e02a828533af9f236888ba99d7ec083"
       }
     }

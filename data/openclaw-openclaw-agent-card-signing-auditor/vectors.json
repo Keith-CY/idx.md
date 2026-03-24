@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-card-signing-auditor",
-  "generated_at": "2026-03-23T07:32:47.444Z",
+  "generated_at": "2026-03-24T07:24:36.824Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-card-signing-auditor#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andyxinweiminicloud/agent-card-signing-auditor/SKILL.md",
-        "retrieved_at": "2026-03-23T07:32:47.444Z",
+        "retrieved_at": "2026-03-24T07:24:36.824Z",
         "content_sha256": "5fc55efa18c629b0eb785249811b18e154eb82a4ec6598cda4e3fead3e840757"
       }
     }

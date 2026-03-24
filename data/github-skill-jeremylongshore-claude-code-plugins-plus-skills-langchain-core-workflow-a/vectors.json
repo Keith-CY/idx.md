@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a",
-  "generated_at": "2026-03-23T07:28:14.849Z",
+  "generated_at": "2026-03-24T07:22:29.868Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-langchain-core-workflow-a#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md",
-        "retrieved_at": "2026-03-23T07:28:14.849Z",
+        "retrieved_at": "2026-03-24T07:22:29.868Z",
         "content_sha256": "6fd711225fa0ea3aaf5cef7ec23c23f4b79593b7cad8bdf65a07c38701b3db6a"
       }
     }

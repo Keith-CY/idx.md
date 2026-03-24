@@ -11,8 +11,8 @@ summary: |-
     openclaw:
       category: "productivity"
       requires:
-        bins: ["gws"]
-      cliHelp: "gws drive +upload --help"
+        bins:
+          - gws
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-drive
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:37.217Z
-content_sha256: 56ec54d1f24c5b9e2b56396bd9515300c7ff4366728a65a5d5c11355c6a8fec7
+retrieved_at: 2026-03-24T07:25:30.924Z
+content_sha256: 3db3fdaca3eeedb5ba17e4527a5a2848ece99ef8d18327b660f1019ff61797d8
 ---

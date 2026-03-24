@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-google-labs-code-stitch-skills-stitch-design",
-  "generated_at": "2026-03-23T07:34:47.865Z",
+  "generated_at": "2026-03-24T07:25:35.390Z",
   "records": [
     {
       "id": "skills/skills-sh-google-labs-code-stitch-skills-stitch-design#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/google-labs-code/stitch-skills/HEAD/skills/stitch-design/workflows/text-to-design.md",
-        "retrieved_at": "2026-03-23T07:34:47.865Z",
+        "retrieved_at": "2026-03-24T07:25:35.390Z",
         "content_sha256": "86d50627174a1e907fecc58565e68273b9ca8117406f9c0195567fa5d1b81d96"
       }
     }

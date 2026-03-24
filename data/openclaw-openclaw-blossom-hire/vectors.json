@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-blossom-hire",
-  "generated_at": "2026-03-23T07:29:24.137Z",
+  "generated_at": "2026-03-24T07:22:55.307Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-blossom-hire#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbiwu/blossom-hire/SKILL.md",
-        "retrieved_at": "2026-03-23T07:29:24.137Z",
+        "retrieved_at": "2026-03-24T07:22:55.307Z",
         "content_sha256": "4ddfe056ef82346b345be6453bf55eff08539cde4096e5537c4b5d0aec03eace"
       }
     }

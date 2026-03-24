@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cabin-sol",
-  "generated_at": "2026-03-23T07:33:37.321Z",
+  "generated_at": "2026-03-24T07:25:02.676Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cabin-sol#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sp0oby/cabin-sol/SKILL.md",
-        "retrieved_at": "2026-03-23T07:33:37.321Z",
+        "retrieved_at": "2026-03-24T07:25:02.676Z",
         "content_sha256": "b2ba2c1ffcc7af672ee05c83bb90455d1e03db10c38e59e4a5a06363415055b8"
       }
     }

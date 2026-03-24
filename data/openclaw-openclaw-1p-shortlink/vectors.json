@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-1p-shortlink",
-  "generated_at": "2026-03-23T07:32:29.985Z",
+  "generated_at": "2026-03-24T07:24:27.368Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-1p-shortlink#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tuanpmt/1p-shortlink/SKILL.md",
-        "retrieved_at": "2026-03-23T07:32:29.985Z",
+        "retrieved_at": "2026-03-24T07:24:27.368Z",
         "content_sha256": "8c22b61df99ee884203c3276ac0d1b1d194dc9763f9f9cd74824513f6be4ac5a"
       }
     }

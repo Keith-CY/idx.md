@@ -3,7 +3,7 @@ stable_id: skills/skills-sh-callstackincubator-agent-device-agent-device
 type: skills
 title: skills-sh-callstackincubator-agent-device-agent-device
 summary: >-
-  # Snapshot Refs and Selectors (Mobile)
+  # Snapshot Refs and Selectors
 
   ## Purpose
 
@@ -11,6 +11,10 @@ summary: >-
   selectors.
 
   For tap interactions, `press` is canonical; `click` is an equivalent alias.
+
+  For host Mac desktop apps, pair this reference with
+  [macos-desktop.md](macos-desktop.md) because context menus and native
+  list/table structures need desktop-specific handling.
 
   ## Snapshot
 
@@ -21,8 +25,6 @@ summary: >-
   ```
 
   Output:
-
-  ```
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +34,6 @@ upstream_ref: https://skills.sh/callstackincubator/agent-device/agent-device
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-23T07:28:58.482Z
-content_sha256: b8936211955d778e05f72a1f5c16d6abccef327d19c444624db7740940ccfdea
+retrieved_at: 2026-03-24T07:22:45.452Z
+content_sha256: 057dd44ef820a27db3bde3060141f962454077f2d9b468db9eaadc6533a41424
 ---

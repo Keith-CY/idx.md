@@ -3,9 +3,6 @@ stable_id: skills/skills-sh-stripe-ai-stripe-best-practices
 type: skills
 title: skills-sh-stripe-ai-stripe-best-practices
 summary: |-
-  ---
-  title: Payments
-  ---
   # Payments
   ## Table of contents
   - API hierarchy
@@ -13,6 +10,9 @@ summary: |-
   - Payment Element guidance
   - Saving payment methods
   - Dynamic payment methods
+  - Deprecated APIs and migration paths
+  - PCI compliance
+  ## API hierarchy
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/stripe/ai/stripe-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-23T07:34:48.753Z
-content_sha256: 966d0b88930f9bb0a76fe5819683946b4fb7d31bdd9d900381c1a44b0fa7cb4a
+retrieved_at: 2026-03-24T07:25:35.744Z
+content_sha256: 87881816f8c3cb9e90c47f8e9c1a79848f29ae70af7ddb09c45da6f3345c64e7
 ---

@@ -11,8 +11,8 @@ summary: |-
     openclaw:
       category: "productivity"
       requires:
-        bins: ["gws"]
-      cliHelp: "gws calendar +insert --help"
+        bins:
+          - gws
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-calendar
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:37.554Z
-content_sha256: 8fdafd3c08e11482170973534c106338391c7d44a0f595054774f2ae71c79cd7
+retrieved_at: 2026-03-24T07:25:31.106Z
+content_sha256: 2ae8bb08f01c05d7177d5c814aed139b5d154499f831ce807bb09add007aab13
 ---

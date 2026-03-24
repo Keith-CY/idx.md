@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-calendar",
-  "generated_at": "2026-03-23T07:34:37.554Z",
+  "generated_at": "2026-03-24T07:25:31.106Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-calendar#head",
       "kind": "head",
       "path": "/data/skills-sh-googleworkspace-cli-gws-calendar/HEAD.md",
-      "text": "title: skills-sh-googleworkspace-cli-gws-calendar\nsummary: --- name: gws-calendar-insert version: 1.0.0 description: \"Google Calendar: Create a new event.\" metadata: openclaw: category: \"productivity\" requires: bins: [\"gws\"] cliHelp: \"gws calendar +insert --help\"\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-calendar-insert/SKILL.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-calendar\nsummary: --- name: gws-calendar-insert version: 1.0.0 description: \"Google Calendar: Create a new event.\" metadata: openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-calendar-insert/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-googleworkspace-cli-gws-calendar",
         "topic": "skills-sh-googleworkspace-cli-gws-calendar",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-calendar-insert/SKILL.md",
-        "retrieved_at": "2026-03-23T07:34:37.554Z",
-        "content_sha256": "8fdafd3c08e11482170973534c106338391c7d44a0f595054774f2ae71c79cd7"
+        "retrieved_at": "2026-03-24T07:25:31.106Z",
+        "content_sha256": "2ae8bb08f01c05d7177d5c814aed139b5d154499f831ce807bb09add007aab13"
       }
     }
   ]

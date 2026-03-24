@@ -11,8 +11,8 @@ summary: |-
     openclaw:
       category: "productivity"
       requires:
-        bins: ["gws"]
-      cliHelp: "gws gmail +send --help"
+        bins:
+          - gws
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-gmail
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:37.085Z
-content_sha256: 3d18b655bb85006a85139b63a6d0f7279fa34be576e1cf64ec44959ff4e3ffc9
+retrieved_at: 2026-03-24T07:25:30.879Z
+content_sha256: d80aa4c1b9632555c570ee74690d81ea436cf2733f81c9947c9d1dc79e50a68a
 ---

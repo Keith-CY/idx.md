@@ -17,6 +17,6 @@ upstream_ref: https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/ma
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-23T07:28:16.477Z
+retrieved_at: 2026-03-24T07:22:30.490Z
 content_sha256: 0a638b320cbd6e55d00fdf76c784a38cf7f9fc019717c883bee5b8a94c1d718c
 ---

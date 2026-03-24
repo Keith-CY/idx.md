@@ -7,30 +7,32 @@ summary: >-
 
   name: "imagegen"
 
-  description: "Use when the user asks to generate or edit images via the OpenAI
-  Image API (for example: generate image, edit/inpaint/mask, background removal
-  or replacement, transparent background, product shots, concept art, covers, or
-  batch variants); run the bundled CLI (`scripts/image_gen.py`) and require
-  `OPENAI_API_KEY` for live calls."
+  description: "Generate or edit raster images when the task benefits from
+  AI-created bitmap visuals such as photos, illustrations, textures, sprites,
+  mockups, or transparent-background cutouts. Use when Codex should create a
+  brand-new image, transform an existing image, or derive visual variants from
+  references, and the output should be a bitmap asset rather than repo-native
+  code or vector. Do not use when the task is better handled by editing existing
+  SVG/vector/code-native assets, extending an established icon or logo system,
+  or building the visual directly in HTML/CSS/canvas."
 
   ---
 
   # Image Generation Skill
 
-  Generates or edits images for the current project (e.g., website assets, game
-  assets, UI mockups, product mockups, wireframes, logo design, photorealistic
-  images, infographics). Defaults to `gpt-image-1.5` and the OpenAI Image API,
-  and prefers the bundled CLI for deterministic, reproducible runs.
+  Generates or edits images for the current project (for example website assets,
+  game assets, UI mockups, product mockups, wireframes, logo design,
+  photorealistic images, or infographics).
 
-  ## When to use
+  ## Top-level modes and rules
 
-  - Generate a new image (concept art, product shot, cover, website hero)
+  This skill has exactly two top-level modes:
 
-  - Edit an existing image (inpainting, masked edits, lighting or weather
-  transformations, background replacement, object removal, compositing,
-  transparent background)
+  - **Default built-in tool mode (preferred):** built-in `image_gen` tool for
+  normal image generation and editing. Does not require `OPENAI_API_KEY`.
 
-  - Batch runs (many prompts, or many variants across prompts)
+  - **Fallback CLI mode (explicit-only):** `scripts/image_gen.py` CLI. Use only
+  when the user explicitly asks for the CLI path. Requires `OPENAI_API_KEY`.
 tags:
   - openai
   - source-openai-skills
@@ -40,6 +42,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/imagege
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-23T07:28:24.229Z
-content_sha256: 4da06e7a1fbfaa94154dda2699e449a1f6d79e6e4299fcfeb785aad7c87f59dc
+retrieved_at: 2026-03-24T07:22:33.825Z
+content_sha256: 826d05b806d51fa81cd650f1c0854b0a1f7fbccd1b152c588ded1797a2e7218f
 ---

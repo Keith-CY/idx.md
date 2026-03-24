@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-catbox-upload",
-  "generated_at": "2026-03-23T07:29:27.428Z",
+  "generated_at": "2026-03-24T07:22:56.889Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-catbox-upload#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/microck/catbox-upload/SKILL.md",
-        "retrieved_at": "2026-03-23T07:29:27.428Z",
+        "retrieved_at": "2026-03-24T07:22:56.889Z",
         "content_sha256": "bdedbc03ba81333c343568b91de1991a4daf3f61296f7e58c8c8d6a12a93d6b6"
       }
     }

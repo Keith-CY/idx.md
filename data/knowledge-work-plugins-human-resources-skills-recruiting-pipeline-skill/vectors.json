@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill",
-  "generated_at": "2026-03-23T07:29:06.406Z",
+  "generated_at": "2026-03-24T07:22:47.786Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-recruiting-pipeline-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/recruiting-pipeline/SKILL.md",
-        "retrieved_at": "2026-03-23T07:29:06.406Z",
+        "retrieved_at": "2026-03-24T07:22:47.786Z",
         "content_sha256": "a00b442f701faa6eb65b8ecc8fcf375d5a33ec827b987ba8b04edaef0e90b92f"
       }
     }

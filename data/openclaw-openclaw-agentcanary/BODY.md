@@ -1,5 +1,6 @@
 ---
-name: agentcanary
+slug: agentcanary
+name: AgentCanary
 description: Cross-asset market intelligence API for AI agents. 130+ endpoints across macro regime detection, risk scoring, trading signals (IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION), whale alerts, funding arbitrage, orderbook analytics, DeFi yields/PE ratios, BTC options (max pain, skew), central bank balance sheets, narrative crowding scores, sector rotation, Hindenburg omen, CAPE ratio, scenario probabilities, BTC ETF flows, geopolitical risk, mean reversion signals, institutional positioning (13F, short interest, CFTC COT), Reddit/X sentiment, and 4× daily AI market briefs. Wallet-based auth, USDC/USDT on any major EVM chain (Base, Ethereum, Arbitrum, Optimism, Polygon). Use when an agent needs macro regime context, risk assessment, position sizing guidance, market structure data, whale monitoring, news sentiment, DeFi intelligence, options flow, or institutional positioning. API-only — no local execution, no filesystem access, no secrets in prompt.
 ---
 
@@ -28,7 +29,7 @@ Cross-asset market intelligence for AI agents. 130+ endpoints. Not raw data — 
 - **Body size limit** — 1MB max request body. Rejects oversized payloads.
 - **Error isolation** — global uncaughtException/unhandledRejection handlers. Express error middleware. No stack traces in responses.
 - **Multi-chain deposits** — USDC/USDT accepted on Base, Ethereum, Arbitrum, Optimism, Polygon. Same deposit address on all chains.
-- **VirusTotal verified** — [0/62 detections](https://www.virustotal.com/gui/file/1bc6c1e0d5f339451281a3667d17ce8e761ab53ca98f490edfe25f15702b5d68/detection).
+- **VirusTotal verified** — [0/62 detections](https://www.virustotal.com/gui/file/4e0f571c854a308dd641e9b6e06299413735e10a32b54e9b3d23df77715ec314/detection).
 
 ---
 
@@ -83,7 +84,7 @@ Full endpoint documentation with response examples: [references/endpoints.md](re
 | **Briefs** | `/briefs/latest`, `/briefs/feed`, `/briefs/archive`, `/briefs/:type` | Explorer–Signal |
 | **Macro** | `/macro/regime`, `/macro/snapshot`, `/macro/signals`, `/macro/global-liquidity`, `/macro/us-m2`, `/macro/central-banks`, `/macro/supply-chain` | Explorer–Builder |
 | **Regime** | `/regime`, `/regime/matrix`, `/regime/history` | Signal |
-| **Signals** | `/signals/correlations`, `/signals/sector-rotation`, `/signals/btc-etf-flows`, `/signals/fear-greed`, `/signals/whale-alerts`, `/signals/decision-engine` + 27 more | Signal |
+| **Signals** | `/signals/correlations`, `/signals/sector-rotation`, `/signals/btc-etf-flows`, `/signals/fear-greed`, `/signals/whale-alerts`, `/signals/geopolitical-risk`, `/signals/decision-engine` + 26 more | Signal |
 | **Narratives** | `/narratives`, `/narratives/history`, `/narratives/:name` | Signal |
 | **Expectations** | `/expectations`, `/expectations/rotation`, `/expectations/crowded`, `/expectations/early` | Signal |
 | **DeFi** | `/defi/intelligence`, `/defi/pe-ratios`, `/defi/yields`, `/defi/perps`, `/defi/stablecoins`, `/defi/chains`, `/defi/unlocks`, `/defi/signals` | Signal |

@@ -16,8 +16,8 @@ summary: >-
     openclaw:
       category: "productivity"
       requires:
-        bins: ["gws"]
-      cliHelp: "gws workflow +standup-report --help"
+        bins:
+          - gws
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-workflow
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:43.494Z
-content_sha256: 72a1b9974fb029ed543ce249ba9930f2b9f4afea2636bd6423db1ce31d794b00
+retrieved_at: 2026-03-24T07:25:33.705Z
+content_sha256: 7c285d37ef11be8056366648cbed333c8432fce9e704252cca33741c44df2da9
 ---

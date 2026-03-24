@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mcp-microsoft365",
-  "generated_at": "2026-03-23T07:30:28.029Z",
+  "generated_at": "2026-03-24T07:23:27.875Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mcp-microsoft365#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/makhatib/mcp-microsoft365/SKILL.md",
-        "retrieved_at": "2026-03-23T07:30:28.029Z",
+        "retrieved_at": "2026-03-24T07:23:27.875Z",
         "content_sha256": "6bac88f07ac0c790069bf6d0f729d899cd7050701946bda967ba49153fc9e13e"
       }
     }

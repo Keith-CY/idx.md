@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-everyinc-compound-engineering-plugin-compound-docs",
-  "generated_at": "2026-03-23T07:32:21.940Z",
+  "generated_at": "2026-03-24T07:24:23.777Z",
   "records": [
     {
       "id": "skills/skills-sh-everyinc-compound-engineering-plugin-compound-docs#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/everyinc/compound-engineering-plugin/HEAD/plugins/compound-engineering/skills/compound-docs/references/yaml-schema.md",
-        "retrieved_at": "2026-03-23T07:32:21.940Z",
+        "retrieved_at": "2026-03-24T07:24:23.777Z",
         "content_sha256": "4759684eb4ee5bdce4982ec472d46a42287186bbc5b34512b4ecbea69e53e421"
       }
     }

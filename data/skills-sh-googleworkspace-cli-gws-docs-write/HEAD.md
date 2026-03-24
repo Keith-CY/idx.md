@@ -16,8 +16,8 @@ summary: >-
     openclaw:
       category: "productivity"
       requires:
-        bins: ["gws"]
-  ---
+        bins:
+          - gws
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs-write
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:39.652Z
-content_sha256: b22a7817480a48ac03e1d086cdb5047e1f55c7299a028192dd6138c82fb5d569
+retrieved_at: 2026-03-24T07:25:31.960Z
+content_sha256: 627b9393aed5e750346193f006587d0c2944c346e60a6f21e44a9f851f59b28f
 ---

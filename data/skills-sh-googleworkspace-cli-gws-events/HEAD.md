@@ -16,8 +16,8 @@ summary: >-
     openclaw:
       category: "productivity"
       requires:
-        bins: ["gws"]
-      cliHelp: "gws events +subscribe --help"
+        bins:
+          - gws
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-events
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:43.855Z
-content_sha256: 4dc74e5357b1fa59242aaedd9ec0d0cdd999f57fad9bcaf9cf5b80153e12a35d
+retrieved_at: 2026-03-24T07:25:33.856Z
+content_sha256: ae215a8f866da375ac4740227764a0bac2450e74797043b1e98a219ec40f044a
 ---

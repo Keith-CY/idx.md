@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-executing-plans",
-  "generated_at": "2026-03-23T07:28:27.420Z",
+  "generated_at": "2026-03-24T07:22:34.822Z",
   "records": [
     {
       "id": "skills/obra-executing-plans#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/executing-plans/SKILL.md",
-        "retrieved_at": "2026-03-23T07:28:27.420Z",
+        "retrieved_at": "2026-03-24T07:22:34.822Z",
         "content_sha256": "a711f83fb762e2ea0fa151f598893da9911a408895c91cc7a7e0770dd59a27b3"
       }
     }

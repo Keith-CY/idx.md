@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-validat
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:25.017Z
+retrieved_at: 2026-03-24T07:25:27.642Z
 content_sha256: 81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4
 ---

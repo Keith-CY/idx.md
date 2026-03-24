@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-signals
 github_stars: 558
 github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-03-23T07:34:44.888Z
+retrieved_at: 2026-03-24T07:25:34.262Z
 content_sha256: c1ec67a9697f3c8f405a3fef91d774e79bd064f974d6fdad9c283f326349954a
 ---

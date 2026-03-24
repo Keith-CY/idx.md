@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cloudflare-skills-sandbox-sdk",
-  "generated_at": "2026-03-23T07:28:58.066Z",
+  "generated_at": "2026-03-24T07:22:45.220Z",
   "records": [
     {
       "id": "skills/skills-sh-cloudflare-skills-sandbox-sdk#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/sandbox-sdk/references/api-quick-ref.md",
-        "retrieved_at": "2026-03-23T07:28:58.066Z",
+        "retrieved_at": "2026-03-24T07:22:45.220Z",
         "content_sha256": "c8a2bd3eca1afee7c9182b7dc7a3dceb9fdd13266c2a5e0730fd52b263b1aea3"
       }
     }

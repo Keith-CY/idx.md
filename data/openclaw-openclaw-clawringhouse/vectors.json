@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawringhouse",
-  "generated_at": "2026-03-23T07:33:47.801Z",
+  "generated_at": "2026-03-24T07:25:08.472Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawringhouse#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/francoisjosephlacroix/clawringhouse/SKILL.md",
-        "retrieved_at": "2026-03-23T07:33:47.801Z",
+        "retrieved_at": "2026-03-24T07:25:08.472Z",
         "content_sha256": "0c81dddf6fcdbb4862f4cdfb584fce23f40ce85049fe142213c9dfc502ec0771"
       }
     }

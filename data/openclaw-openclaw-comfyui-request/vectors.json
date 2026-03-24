@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-comfyui-request",
-  "generated_at": "2026-03-23T07:29:36.146Z",
+  "generated_at": "2026-03-24T07:23:01.613Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-comfyui-request#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-request/SKILL.md",
-        "retrieved_at": "2026-03-23T07:29:36.146Z",
+        "retrieved_at": "2026-03-24T07:23:01.613Z",
         "content_sha256": "259b659b4408abd0636f9e2f6e0492d93520fba74a60252dcd1499c9d78519d6"
       }
     }

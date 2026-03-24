@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-wa-styler",
-  "generated_at": "2026-03-23T07:31:58.045Z",
+  "generated_at": "2026-03-24T07:24:12.948Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-wa-styler#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rubenfb23/wa-styler/SKILL.md",
-        "retrieved_at": "2026-03-23T07:31:58.045Z",
+        "retrieved_at": "2026-03-24T07:24:12.948Z",
         "content_sha256": "21de25b4df16bed7f26763322fafd01249396b3309b5ef71b659379ef679c8cb"
       }
     }

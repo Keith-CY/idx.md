@@ -25,6 +25,6 @@ upstream_ref: https://skills.sh/anthropics/skills/pptx
 github_stars: 71539
 github_forks: 7296
 github_is_organization: true
-retrieved_at: 2026-03-23T07:28:55.130Z
+retrieved_at: 2026-03-24T07:22:44.304Z
 content_sha256: 6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68
 ---

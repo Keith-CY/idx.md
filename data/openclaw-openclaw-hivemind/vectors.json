@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-hivemind",
-  "generated_at": "2026-03-23T07:34:09.542Z",
+  "generated_at": "2026-03-24T07:25:19.761Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-hivemind#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/urcades/hivemind/SKILL.md",
-        "retrieved_at": "2026-03-23T07:34:09.542Z",
+        "retrieved_at": "2026-03-24T07:25:19.761Z",
         "content_sha256": "2c2c1bd969c3507a6356e260d827ce630a7499188a8474af24e77480850a2acf"
       }
     }
