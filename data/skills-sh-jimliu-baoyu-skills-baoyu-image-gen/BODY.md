@@ -47,6 +47,8 @@ options:
     description: "Gemini multimodal - high quality, reference images, flexible sizes"
   - label: "OpenAI"
     description: "GPT Image - consistent quality, reliable output"
+  - label: "Azure OpenAI"
+    description: "Azure-hosted GPT Image deployments with resource-specific routing"
   - label: "OpenRouter"
     description: "Router for Gemini/FLUX/OpenAI-compatible image models"
   - label: "DashScope"
@@ -85,6 +87,20 @@ options:
     description: "Fast Gemini preview model on OpenRouter"
   - label: "black-forest-labs/flux.2-pro"
     description: "Strong text-to-image quality through OpenRouter"
+```
+
+### Question 2c: Default Azure Deployment
+
+Only show if user selected Azure OpenAI.
+
+```yaml
+header: "Azure Deploy"
+question: "Default Azure image deployment name?"
+options:
+  - label: "gpt-image-1.5 (Recommended)"
+    description: "Best default if your Azure deployment uses the same name"
+  - label: "gpt-image-1"
+    description: "Previous GPT Image deployment name"
 ```
 
 ### Question 3: Default Quality
@@ -130,6 +146,7 @@ default_image_size: null
 default_model:
   google: [selected google model or null]
   openai: null
+  azure: [selected azure deployment or null]
   openrouter: [selected openrouter model or null]
   dashscope: null
   replicate: null
@@ -165,6 +182,23 @@ options:
   - label: "gpt-image-1"
     description: "Previous generation GPT Image model"
 ```
+
+### Azure Deployment Selection
+
+```yaml
+header: "Azure Deploy"
+question: "Choose a default Azure image deployment name?"
+options:
+  - label: "gpt-image-1.5 (Recommended)"
+    description: "Use when your Azure deployment name matches the GPT-image-1.5 model"
+  - label: "gpt-image-1"
+    description: "Use when your Azure deployment name matches GPT-image-1"
+```
+
+Notes for Azure setup:
+
+- In `baoyu-image-gen`, Azure `--model` / `default_model.azure` should be the Azure deployment name, not just the underlying model family.
+- If the deployment name is custom, save that exact deployment name in `default_model.azure`.
 
 ### OpenRouter Model Selection
 
@@ -230,6 +264,7 @@ After user selects a model:
 default_model:
   google: [value or null]
   openai: [value or null]
+  azure: [value or null]
   openrouter: [value or null]
   dashscope: [value or null]
   replicate: [value or null]

@@ -5,13 +5,13 @@ title: openai-curated-figma-implement-design
 summary: >-
   ---
 
-  name: "figma-implement-design"
+  name: figma-implement-design
 
-  description: "Translate Figma nodes into production-ready code with 1:1 visual
-  fidelity using the Figma MCP workflow (design context, screenshots, assets,
-  and project-convention translation). Trigger when the user provides Figma URLs
-  or node IDs, or asks to implement designs or components that must match Figma
-  specs. Requires a working Figma MCP server connection."
+  description: Translates Figma designs into production-ready application code
+  with 1:1 visual fidelity. Use when implementing UI code from Figma files, when
+  user mentions "implement design", "generate code", "implement component",
+  provides Figma URLs, or asks to build components matching Figma specs. For
+  Figma canvas writes via `use_figma`, use `figma-use`.
 
   ---
 
@@ -24,12 +24,12 @@ summary: >-
   integration with the Figma MCP server, proper use of design tokens, and 1:1
   visual parity with designs.
 
-  ## Prerequisites
+  ## Skill Boundaries
 
-  - Figma MCP server must be connected and accessible
+  - Use this skill when the deliverable is code in the user's repository.
 
-  - User must provide a Figma URL in the format:
-  `https://figma.com/design/:fileKey/:fileName?node-id=1-2`
+  - If the user asks to create/edit/delete nodes inside Figma itself, switch to
+  [figma-use](../figma-use/SKILL.md).
 tags:
   - openai
   - source-openai-skills
@@ -39,6 +39,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/figma-i
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-03-24T07:22:33.695Z
-content_sha256: adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad
+retrieved_at: 2026-03-25T07:22:06.345Z
+content_sha256: 63f3d12d444547bbf68c10a12982b1f42e0f6e26fc074324564a13184d4b15ad
 ---

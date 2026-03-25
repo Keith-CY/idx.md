@@ -28,6 +28,6 @@ upstream_ref: https://skills.sh/firebase/agent-skills/firebase-basics
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-24T07:25:39.732Z
+retrieved_at: 2026-03-25T07:27:33.521Z
 content_sha256: 458b37d31c47e024a0310948dca61ec956c530efbab9b77af571e368c103ecba
 ---

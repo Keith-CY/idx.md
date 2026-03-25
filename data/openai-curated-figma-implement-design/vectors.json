@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-figma-implement-design",
-  "generated_at": "2026-03-24T07:22:33.695Z",
+  "generated_at": "2026-03-25T07:22:06.345Z",
   "records": [
     {
       "id": "skills/openai-curated-figma-implement-design#head",
       "kind": "head",
       "path": "/data/openai-curated-figma-implement-design/HEAD.md",
-      "text": "title: openai-curated-figma-implement-design\nsummary: --- name: \"figma-implement-design\" description: \"Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP workflow (design context, screenshots, assets, and project-convention translation). Trigger when the user provides Figma URLs or node IDs, or asks to implement designs or components that must match Figma specs. Requires a working Figma MCP server connection.\" --- # Implement Design ## Overview This skill provides a structured workflow for translating Figma designs into production-ready code with pixel-perfect accuracy. It ensures consistent integration with the Figma MCP server, proper use of design tokens, and 1:1 visual parity with designs. ## Prerequisites - Figma MCP server must be connected and accessible - User must provide a Figma URL in the format: `https://figma.com/design/:fileKey/:fileName?node-id=1-2`\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md",
+      "text": "title: openai-curated-figma-implement-design\nsummary: --- name: figma-implement-design description: Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use `figma-use`. --- # Implement Design ## Overview This skill provides a structured workflow for translating Figma designs into production-ready code with pixel-perfect accuracy. It ensures consistent integration with the Figma MCP server, proper use of design tokens, and 1:1 visual parity with designs. ## Skill Boundaries - Use this skill when the deliverable is code in the user's repository. - If the user asks to create/edit/delete nodes inside Figma itself, switch to [figma-use](../figma-use/SKILL.md).\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md",
       "metadata": {
         "stable_id": "skills/openai-curated-figma-implement-design",
         "topic": "openai-curated-figma-implement-design",
@@ -18,8 +18,8 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma-implement-design/SKILL.md",
-        "retrieved_at": "2026-03-24T07:22:33.695Z",
-        "content_sha256": "adea0fa5ed0b77a75112f64737f4aa562fcc231d242370f8cbdb25d050be19ad"
+        "retrieved_at": "2026-03-25T07:22:06.345Z",
+        "content_sha256": "63f3d12d444547bbf68c10a12982b1f42e0f6e26fc074324564a13184d4b15ad"
       }
     }
   ]

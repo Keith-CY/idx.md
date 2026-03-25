@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aria2-json-rpc",
-  "generated_at": "2026-03-24T07:24:53.513Z",
+  "generated_at": "2026-03-25T07:26:17.115Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aria2-json-rpc#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/azzgo/aria2-json-rpc/SKILL.md",
-        "retrieved_at": "2026-03-24T07:24:53.513Z",
+        "retrieved_at": "2026-03-25T07:26:17.115Z",
         "content_sha256": "5488810aa99f32dc90bf758cb65eb6b0da664acc250230b00a03a75f3fdf1b31"
       }
     }

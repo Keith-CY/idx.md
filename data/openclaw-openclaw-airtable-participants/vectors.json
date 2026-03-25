@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-airtable-participants",
-  "generated_at": "2026-03-24T07:24:47.521Z",
+  "generated_at": "2026-03-25T07:26:06.717Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-airtable-participants#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/austinmao/airtable-participants/SKILL.md",
-        "retrieved_at": "2026-03-24T07:24:47.521Z",
+        "retrieved_at": "2026-03-25T07:26:06.717Z",
         "content_sha256": "39ebe2f9eb1ba6b2904704124163fb3f31b8200dea5597c229cc72560a99f4ca"
       }
     }

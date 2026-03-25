@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-memory-system-v2",
-  "generated_at": "2026-03-24T07:23:28.974Z",
+  "generated_at": "2026-03-25T07:23:54.038Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-memory-system-v2#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kellyclaudeai/memory-system-v2/SKILL.md",
-        "retrieved_at": "2026-03-24T07:23:28.974Z",
+        "retrieved_at": "2026-03-25T07:23:54.038Z",
         "content_sha256": "2c8540f6c3149d951ee43a50f08d827495d230c39a3f910bdbdef4bbe865f303"
       }
     }

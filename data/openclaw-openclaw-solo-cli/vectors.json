@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-solo-cli",
-  "generated_at": "2026-03-24T07:25:25.249Z",
+  "generated_at": "2026-03-25T07:27:09.344Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-solo-cli#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rursache/solo-cli/SKILL.md",
-        "retrieved_at": "2026-03-24T07:25:25.249Z",
+        "retrieved_at": "2026-03-25T07:27:09.344Z",
         "content_sha256": "ccbfa6237880cecc0277a6cf69e24b4ec5425252efe22b4de851ffd1be639e65"
       }
     }

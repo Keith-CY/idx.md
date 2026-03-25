@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claudia-agent-rms",
-  "generated_at": "2026-03-24T07:25:06.218Z",
+  "generated_at": "2026-03-25T07:26:38.444Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claudia-agent-rms#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kbanc85/claudia-agent-rms/SKILL.md",
-        "retrieved_at": "2026-03-24T07:25:06.218Z",
+        "retrieved_at": "2026-03-25T07:26:38.444Z",
         "content_sha256": "b98e34d0784ed3c637fc449783baace464e8fc84acad4a2bc28f4744f1a47427"
       }
     }

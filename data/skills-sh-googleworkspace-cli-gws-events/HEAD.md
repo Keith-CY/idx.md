@@ -7,12 +7,11 @@ summary: >-
 
   name: gws-events-subscribe
 
-  version: 1.0.0
-
   description: "Google Workspace Events: Subscribe to Workspace events and
   stream them as NDJSON."
 
   metadata:
+    version: 0.22.0
     openclaw:
       category: "productivity"
       requires:
@@ -27,6 +26,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-events
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-24T07:25:33.856Z
-content_sha256: ae215a8f866da375ac4740227764a0bac2450e74797043b1e98a219ec40f044a
+retrieved_at: 2026-03-25T07:27:26.618Z
+content_sha256: ed7dd3c50a79181d867fd464cbf596a035a79001ff5662989a5f7944a2751700
 ---

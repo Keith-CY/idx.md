@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-gmail",
-  "generated_at": "2026-03-24T07:25:30.879Z",
+  "generated_at": "2026-03-25T07:27:20.237Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-gmail#head",
       "kind": "head",
       "path": "/data/skills-sh-googleworkspace-cli-gws-gmail/HEAD.md",
-      "text": "title: skills-sh-googleworkspace-cli-gws-gmail\nsummary: --- name: gws-gmail-send version: 1.0.0 description: \"Gmail: Send an email.\" metadata: openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-gmail-send/SKILL.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-gmail\nsummary: --- name: gws-gmail-send description: \"Gmail: Send an email.\" metadata: version: 0.22.0 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-gmail-send/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-googleworkspace-cli-gws-gmail",
         "topic": "skills-sh-googleworkspace-cli-gws-gmail",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-gmail-send/SKILL.md",
-        "retrieved_at": "2026-03-24T07:25:30.879Z",
-        "content_sha256": "d80aa4c1b9632555c570ee74690d81ea436cf2733f81c9947c9d1dc79e50a68a"
+        "retrieved_at": "2026-03-25T07:27:20.237Z",
+        "content_sha256": "b8faef3ed4a035b6887c650090ca4747a6ad16222db440ed5e39698c21a80b62"
       }
     }
   ]

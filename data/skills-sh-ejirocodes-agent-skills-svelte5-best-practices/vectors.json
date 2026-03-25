@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-ejirocodes-agent-skills-svelte5-best-practices",
-  "generated_at": "2026-03-24T07:22:44.773Z",
+  "generated_at": "2026-03-25T07:22:30.814Z",
   "records": [
     {
       "id": "skills/skills-sh-ejirocodes-agent-skills-svelte5-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/ejirocodes/agent-skills/HEAD/svelte/skills/svelte5-best-practices/references/runes.md",
-        "retrieved_at": "2026-03-24T07:22:44.773Z",
+        "retrieved_at": "2026-03-25T07:22:30.814Z",
         "content_sha256": "9c7b6330607aa14d90e8b686a205391067c4ca17b6a90d71ba99cc2333e32086"
       }
     }

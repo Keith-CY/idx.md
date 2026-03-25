@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-keepmyclaw",
-  "generated_at": "2026-03-24T07:25:21.069Z",
+  "generated_at": "2026-03-25T07:27:01.643Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-keepmyclaw#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryce/keepmyclaw/SKILL.md",
-        "retrieved_at": "2026-03-24T07:25:21.069Z",
+        "retrieved_at": "2026-03-25T07:27:01.643Z",
         "content_sha256": "6b2ecd95814b2f1b29bf7896a7988a4ae3f00c052bb1e89001c7edddf74b89d8"
       }
     }

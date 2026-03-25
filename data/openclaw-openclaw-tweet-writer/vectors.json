@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tweet-writer",
-  "generated_at": "2026-03-24T07:24:08.645Z",
+  "generated_at": "2026-03-25T07:25:01.866Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tweet-writer#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sanky369/tweet-writer/SKILL.md",
-        "retrieved_at": "2026-03-24T07:24:08.645Z",
+        "retrieved_at": "2026-03-25T07:25:01.866Z",
         "content_sha256": "003391a0fa3c44116e5054332bd5c2780e61a0a5abffa1fdb711e2d40b02869d"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bear-notes",
-  "generated_at": "2026-03-24T07:24:57.284Z",
+  "generated_at": "2026-03-25T07:26:23.372Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bear-notes#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/bear-notes/SKILL.md",
-        "retrieved_at": "2026-03-24T07:24:57.284Z",
+        "retrieved_at": "2026-03-25T07:26:23.372Z",
         "content_sha256": "d1d8b653e4d71a6450d9c3f2a9c2bf637ad8ae59a73e2a42830cff6f76977937"
       }
     }

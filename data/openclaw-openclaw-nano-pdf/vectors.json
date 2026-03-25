@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nano-pdf",
-  "generated_at": "2026-03-24T07:23:32.995Z",
+  "generated_at": "2026-03-25T07:24:00.818Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nano-pdf#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/nano-pdf/SKILL.md",
-        "retrieved_at": "2026-03-24T07:23:32.995Z",
+        "retrieved_at": "2026-03-25T07:24:00.818Z",
         "content_sha256": "4a19c3916062a0b2a303f929be2e11bc89ed8531b47fa565d7936a363f34d4ac"
       }
     }

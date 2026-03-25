@@ -5,9 +5,9 @@ title: skills-sh-googleworkspace-cli-gws-sheets
 summary: |-
   ---
   name: gws-sheets-append
-  version: 1.0.0
   description: "Google Sheets: Append a row to a spreadsheet."
   metadata:
+    version: 0.22.0
     openclaw:
       category: "productivity"
       requires:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-sheets
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-24T07:25:31.292Z
-content_sha256: e9b4e9ada8e468d9469e2b8b5a7bd9e9a27635dedc5889c6f14c1bb0861d010d
+retrieved_at: 2026-03-25T07:27:20.937Z
+content_sha256: dc50edce40c06bc894c9b93eddb29469f3ecffb2b0cad6efd35ad92f194164c3
 ---

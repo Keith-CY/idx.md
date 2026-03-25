@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claw-conductor",
-  "generated_at": "2026-03-24T07:22:58.446Z",
+  "generated_at": "2026-03-25T07:23:01.610Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claw-conductor#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/johnsonfarmsus/claw-conductor/SKILL.md",
-        "retrieved_at": "2026-03-24T07:22:58.446Z",
+        "retrieved_at": "2026-03-25T07:23:01.610Z",
         "content_sha256": "eada58826258e3e243e30d3c312e6d9ae3b295fa7f55ff47755715d274fa361c"
       }
     }

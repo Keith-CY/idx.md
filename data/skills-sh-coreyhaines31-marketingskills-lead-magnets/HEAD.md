@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/lead-magnets
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-03-24T07:25:34.223Z
+retrieved_at: 2026-03-25T07:27:27.272Z
 content_sha256: 160b34c4c0d19e67fcc032181fdfbf1d5cae6dac94937f2333e8e21815ce9732
 ---

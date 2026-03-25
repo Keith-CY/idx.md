@@ -277,6 +277,96 @@ Set or change a password via `PATCH /api/v1/publish/:slug/metadata` with `{"pass
 
 Password protection survives redeploys — it's metadata, not content. Changing or removing a password immediately invalidates all existing sessions. Requires an authenticated site (anonymous sites cannot be password-protected).
 
+Payment gating and password protection are mutually exclusive. Setting a price removes the password, and setting a password removes the price.
+
+---
+
+### Payment gating
+
+Require visitors to pay with stablecoins on the Tempo network before accessing your site. Payments go directly from the visitor's wallet to yours.
+
+**Setup:**
+
+1. Set your Tempo wallet address: `PATCH /api/v1/wallet` with `{"address": "0x..."}`.
+2. Set a price on any site: `PATCH /api/v1/publish/:slug/metadata` with `{"price": {"amount": "0.50", "currency": "USD"}}`.
+
+Visitors see a payment page with a QR code and deposit address. After paying, access is granted permanently.
+
+Payment gating survives redeploys. Changing or removing the price immediately invalidates all existing access sessions. Requires an authenticated site with a wallet address configured.
+
+#### 402 response for agents
+
+When a programmatic client (non-browser) hits a paid site, the response includes the MPP `WWW-Authenticate: Payment` challenge header plus a JSON body with session URLs for agents that don't have mppx installed:
+
+```json
+{
+  "price": {
+    "amount": "0.10",
+    "currency": "USD",
+    "recipientAddress": "0xe661..."
+  },
+  "paymentSession": {
+    "createUrl": "https://here.now/api/pay/<slug>/session",
+    "pollUrl": "https://here.now/api/pay/<slug>/poll",
+    "grantUrl": "https://here.now/api/pay/<slug>/grant"
+  },
+  "walletUrl": "https://wallet.tempo.xyz/"
+}
+```
+
+**Session flow (for agents without mppx):**
+
+1. `POST <createUrl>` with `{}` to create a payment session. Returns `{ sessionId, address, amount, currency, expiresAt }`.
+2. Show the user the deposit address and amount. The address is unique to this session.
+3. `POST <pollUrl>` with `{ "sessionId": "<id>" }` every few seconds. Returns `{ found: true, txHash }` when payment is detected.
+4. `POST <grantUrl>` with `{ "sessionId": "<id>", "txHash": "<hash>" }`. Returns `{ token }`.
+5. Fetch the original URL with `?__hn_grant=<token>` to retrieve the content.
+
+Sessions expire after 30 minutes. Create a new session if the current one expires.
+
+---
+
+### Wallet management
+
+`GET /api/v1/wallet`
+
+Returns the Tempo wallet address for the authenticated user.
+
+**Requires:** `Authorization: Bearer <API_KEY>`
+
+**Response:**
+
+```json
+{
+  "address": "0xe66178B0D33807f5efb2069f9252eD02c13bbF59"
+}
+```
+
+`PATCH /api/v1/wallet`
+
+Set, change, or remove the wallet address.
+
+**Requires:** `Authorization: Bearer <API_KEY>`
+
+**Request body:**
+
+```json
+{
+  "address": "0xe66178B0D33807f5efb2069f9252eD02c13bbF59"
+}
+```
+
+Set `address` to `null` to remove. Must be a valid `0x`-prefixed 40-character hex address.
+
+**Response:**
+
+```json
+{
+  "success": true,
+  "address": "0xe66178B0D33807f5efb2069f9252eD02c13bbF59"
+}
+```
+
 ---
 
 ### Duplicate a site
@@ -329,7 +419,7 @@ Copies all files and viewer metadata. Does not copy password protection, handle/
 
 `PATCH /api/v1/publish/:slug/metadata` (alias: `PATCH /api/v1/artifact/:slug/metadata`)
 
-Update title, description, og:image, TTL, or password without re-uploading files.
+Update title, description, og:image, TTL, password, or price without re-uploading files.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -343,13 +433,22 @@ Update title, description, og:image, TTL, or password without re-uploading files
     "description": "New description",
     "ogImagePath": "assets/cover.png"
   },
-  "password": "secret123"
+  "password": "secret123",
+  "price": {
+    "amount": "0.50",
+    "currency": "USD"
+  }
 }
 ```
 
 All fields optional. `ogImagePath` must reference an image file within the current site.
 
-- `password`: string to set or change, `null` to remove, omit for no change. When set, visitors must enter the password before any content is served. Server-side enforcement — content is never sent to the browser without verification. Changing or removing the password immediately invalidates all existing sessions.
+- `password`: string to set or change, `null` to remove, omit for no change. When set, visitors must enter the password before any content is served. Server-side enforcement. Changing or removing the password immediately invalidates all existing sessions.
+- `price`: object to set, change, or remove. `null` removes the price, omit for no change. To change the price, set it again with the new amount (existing access sessions are invalidated). Requires a wallet address on the account (see Wallet management). Fields:
+  - `amount` (required): price in USD as a string (e.g. `"0.50"`, `".25"`, `"5"`)
+  - `currency` (required): `"USD"`
+  - `recipientAddress` (optional): per-site wallet override. If omitted, uses the account-level wallet address.
+- Password and price are mutually exclusive. Setting one removes the other. The response includes `passwordRemoved: true` or `priceRemoved: true` when this happens.
 
 **Response:**
 
@@ -357,12 +456,12 @@ All fields optional. `ogImagePath` must reference an image file within the curre
 {
   "success": true,
   "effectiveForRootDocument": true,
-  "note": "Viewer metadata applies because this site has no index.html.",
-  "passwordProtected": true
+  "priced": true,
+  "recipientAddress": "0xe66178B0D33807f5efb2069f9252eD02c13bbF59"
 }
 ```
 
-If the site has an `index.html`, viewer metadata is stored but the site's own HTML controls what browsers see. `passwordProtected` is included when the `password` field was provided.
+If the site has an `index.html`, viewer metadata is stored but the site's own HTML controls what browsers see.
 
 ---
 

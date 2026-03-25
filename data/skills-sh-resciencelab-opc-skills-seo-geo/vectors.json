@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-resciencelab-opc-skills-seo-geo",
-  "generated_at": "2026-03-24T07:25:29.251Z",
+  "generated_at": "2026-03-25T07:27:16.881Z",
   "records": [
     {
       "id": "skills/skills-sh-resciencelab-opc-skills-seo-geo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/seo-geo/references/geo-research.md",
-        "retrieved_at": "2026-03-24T07:25:29.251Z",
+        "retrieved_at": "2026-03-25T07:27:16.881Z",
         "content_sha256": "76f781cd26f929b87d943775db223523a444ef4c66e8ee143c4d9ccdb8850457"
       }
     }

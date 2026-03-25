@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk",
-  "generated_at": "2026-03-24T07:23:07.190Z",
+  "generated_at": "2026-03-25T07:23:16.556Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/drivers-hours-wtd-infringement-coach-uk/SKILL.md",
-        "retrieved_at": "2026-03-24T07:23:07.190Z",
+        "retrieved_at": "2026-03-25T07:23:16.556Z",
         "content_sha256": "0076e6a56ba39a069430b60827f282028dd4fa38a8092bffe13bae1a71cedd04"
       }
     }

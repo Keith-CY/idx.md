@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-deepwiki",
-  "generated_at": "2026-03-24T07:23:05.724Z",
+  "generated_at": "2026-03-25T07:23:14.191Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-deepwiki#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arun-8687/deepwiki/SKILL.md",
-        "retrieved_at": "2026-03-24T07:23:05.724Z",
+        "retrieved_at": "2026-03-25T07:23:14.191Z",
         "content_sha256": "87d079fd9c4a4bd4581f9f7761b9521b10da4cd893a0b22a837a6f03ce72f226"
       }
     }

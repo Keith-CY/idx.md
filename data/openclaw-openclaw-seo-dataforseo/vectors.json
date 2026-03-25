@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-seo-dataforseo",
-  "generated_at": "2026-03-24T07:23:55.488Z",
+  "generated_at": "2026-03-25T07:24:39.296Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-seo-dataforseo#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adamkristopher/seo-dataforseo/SKILL.md",
-        "retrieved_at": "2026-03-24T07:23:55.488Z",
+        "retrieved_at": "2026-03-25T07:24:39.296Z",
         "content_sha256": "09398575a2ec6d811233f4ddc49466a55bf2f504dbebf7f3a0621765fc8a7a47"
       }
     }
