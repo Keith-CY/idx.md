@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pocket-tts",
-  "generated_at": "2026-03-25T07:24:20.468Z",
+  "generated_at": "2026-03-26T07:29:48.495Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pocket-tts#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sherajdev/pocket-tts/SKILL.md",
-        "retrieved_at": "2026-03-25T07:24:20.468Z",
+        "retrieved_at": "2026-03-26T07:29:48.495Z",
         "content_sha256": "0da2b37c636862a90dd615e6432e959548c33e60d616b5fb7e2dbb1f3171666d"
       }
     }

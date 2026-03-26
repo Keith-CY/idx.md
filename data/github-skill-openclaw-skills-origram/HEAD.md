@@ -17,6 +17,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/matbalez/origr
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-25T07:22:03.476Z
+retrieved_at: 2026-03-26T07:27:08.911Z
 content_sha256: d32eca31dba25101031d2b7a3bc99ebad760ff25279675382b30f69e0111de60
 ---

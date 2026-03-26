@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swiss-transport",
-  "generated_at": "2026-03-25T07:24:51.650Z",
+  "generated_at": "2026-03-26T07:30:14.925Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swiss-transport#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swiss-transport/SKILL.md",
-        "retrieved_at": "2026-03-25T07:24:51.650Z",
+        "retrieved_at": "2026-03-26T07:30:14.925Z",
         "content_sha256": "903fb1a9548ff694f968bcdb4e9b4ebec834356664fbfd9bf5bd90095aa11b85"
       }
     }

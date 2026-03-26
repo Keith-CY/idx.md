@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gemini-stt",
-  "generated_at": "2026-03-25T07:23:26.935Z",
+  "generated_at": "2026-03-26T07:29:05.275Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gemini-stt#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/araa47/gemini-stt/SKILL.md",
-        "retrieved_at": "2026-03-25T07:23:26.935Z",
+        "retrieved_at": "2026-03-26T07:29:05.275Z",
         "content_sha256": "8dea04a0cd1c4d5466c744aaeb204ea80857ca06f5bd0f58757d265564ee29dc"
       }
     }

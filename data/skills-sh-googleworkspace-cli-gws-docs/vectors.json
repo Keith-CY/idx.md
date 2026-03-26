@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-docs",
-  "generated_at": "2026-03-25T07:27:20.671Z",
+  "generated_at": "2026-03-26T07:33:52.414Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-docs#head",
       "kind": "head",
       "path": "/data/skills-sh-googleworkspace-cli-gws-docs/HEAD.md",
-      "text": "title: skills-sh-googleworkspace-cli-gws-docs\nsummary: --- name: gws-docs-write description: \"Google Docs: Append text to a document.\" metadata: version: 0.22.0 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-docs-write/SKILL.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-docs\nsummary: --- name: gws-docs-write description: \"Google Docs: Append text to a document.\" metadata: version: 0.22.1 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-docs-write/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-googleworkspace-cli-gws-docs",
         "topic": "skills-sh-googleworkspace-cli-gws-docs",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-docs-write/SKILL.md",
-        "retrieved_at": "2026-03-25T07:27:20.671Z",
-        "content_sha256": "e4ac1309db927c16f3496177af42f80e53a339a86b323ed4ac0a5c44d27bfdc4"
+        "retrieved_at": "2026-03-26T07:33:52.414Z",
+        "content_sha256": "6067ab82ce03153df297d1e18bb9f8511a172f9f9025439dc00b1a3bc02bc6fe"
       }
     }
   ]

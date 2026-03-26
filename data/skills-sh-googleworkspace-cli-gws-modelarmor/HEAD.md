@@ -11,7 +11,7 @@ summary: >-
   template."
 
   metadata:
-    version: 0.22.0
+    version: 0.22.1
     openclaw:
       category: "security"
       requires:
@@ -26,6 +26,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-modelarmor
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-25T07:27:26.938Z
-content_sha256: a8cdde8aaf34b7436bd5f7c11b7ad907af0dfccff3910467ec5b94e18121d20c
+retrieved_at: 2026-03-26T07:33:56.956Z
+content_sha256: 8d2859fd3b512ce8ebf866c2a67ae9609707c203bf6f0a97a003dd86620899f8
 ---

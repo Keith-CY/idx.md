@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-figma",
-  "generated_at": "2026-03-25T07:22:06.395Z",
+  "generated_at": "2026-03-26T07:27:11.541Z",
   "records": [
     {
       "id": "skills/openai-curated-figma#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/figma/SKILL.md",
-        "retrieved_at": "2026-03-25T07:22:06.395Z",
+        "retrieved_at": "2026-03-26T07:27:11.541Z",
         "content_sha256": "5b11f7c8d0ce4c047b401323e7b8fe6559bd3162a3397bf5248634a5444609d5"
       }
     }

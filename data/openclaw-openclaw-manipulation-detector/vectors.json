@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-manipulation-detector",
-  "generated_at": "2026-03-25T07:23:50.745Z",
+  "generated_at": "2026-03-26T07:29:24.982Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-manipulation-detector#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/claudio-prime/manipulation-detector/SKILL.md",
-        "retrieved_at": "2026-03-25T07:23:50.745Z",
+        "retrieved_at": "2026-03-26T07:29:24.982Z",
         "content_sha256": "d58725e4838b8a10c8239c7fe7df13e783f6a48eee58ea23eca46ccdf2a6ac9d"
       }
     }

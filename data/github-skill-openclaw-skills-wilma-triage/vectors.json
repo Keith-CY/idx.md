@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-wilma-triage",
-  "generated_at": "2026-03-25T07:22:04.322Z",
+  "generated_at": "2026-03-26T07:27:09.620Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-wilma-triage#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aikarjal/wilma-triage/SKILL.md",
-        "retrieved_at": "2026-03-25T07:22:04.322Z",
+        "retrieved_at": "2026-03-26T07:27:09.620Z",
         "content_sha256": "1c3a3bb88dacfaf662ac7463096181c5056566662ed1f9989c7f64a300a9df2c"
       }
     }

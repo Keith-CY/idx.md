@@ -34,6 +34,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/okaris/ai-musi
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-25T07:22:00.858Z
+retrieved_at: 2026-03-26T07:27:06.871Z
 content_sha256: ae5c82e46512da4b4f969e5a7ac6e476421ce00e59e941cf04b56ce1715223ea
 ---

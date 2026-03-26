@@ -7,7 +7,7 @@ summary: |-
   name: gws-docs-write
   description: "Google Docs: Append text to a document."
   metadata:
-    version: 0.22.0
+    version: 0.22.1
     openclaw:
       category: "productivity"
       requires:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-docs
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-25T07:27:20.671Z
-content_sha256: e4ac1309db927c16f3496177af42f80e53a339a86b323ed4ac0a5c44d27bfdc4
+retrieved_at: 2026-03-26T07:33:52.414Z
+content_sha256: 6067ab82ce03153df297d1e18bb9f8511a172f9f9025439dc00b1a3bc02bc6fe
 ---

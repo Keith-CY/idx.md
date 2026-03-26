@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-autonomy-primitives",
-  "generated_at": "2026-03-25T07:25:47.781Z",
+  "generated_at": "2026-03-26T07:32:32.233Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-autonomy-primitives#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/g9pedro/agent-autonomy-primitives/SKILL.md",
-        "retrieved_at": "2026-03-25T07:25:47.781Z",
+        "retrieved_at": "2026-03-26T07:32:32.233Z",
         "content_sha256": "729fa5db440bdf18ba3de0d84cd656ccf87ccab28730773ff59b0915f8585105"
       }
     }

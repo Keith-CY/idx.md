@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/antfu/skills/vue-router-best-practices
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-03-25T07:27:25.110Z
+retrieved_at: 2026-03-26T07:33:55.782Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---

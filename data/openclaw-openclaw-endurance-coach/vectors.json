@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-endurance-coach",
-  "generated_at": "2026-03-25T07:26:53.845Z",
+  "generated_at": "2026-03-26T07:33:31.521Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-endurance-coach#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/endurance-coach/SKILL.md",
-        "retrieved_at": "2026-03-25T07:26:53.845Z",
+        "retrieved_at": "2026-03-26T07:33:31.521Z",
         "content_sha256": "164b54510ee98efdb1fa16257df121764cd0f8d678911d1018bee27df50719ad"
       }
     }

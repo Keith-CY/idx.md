@@ -7,7 +7,7 @@ summary: |-
   name: gws-gmail-send
   description: "Gmail: Send an email."
   metadata:
-    version: 0.22.0
+    version: 0.22.1
     openclaw:
       category: "productivity"
       requires:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-gmail
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-25T07:27:20.237Z
-content_sha256: b8faef3ed4a035b6887c650090ca4747a6ad16222db440ed5e39698c21a80b62
+retrieved_at: 2026-03-26T07:33:52.058Z
+content_sha256: 1783b48b59909ae429f01eaf4de3b8bd794ea9bd31b59207f1f09428b2f3c944
 ---

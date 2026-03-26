@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-form-cro",
-  "generated_at": "2026-03-25T07:23:24.766Z",
+  "generated_at": "2026-03-26T07:29:03.437Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-form-cro#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/form-cro/SKILL.md",
-        "retrieved_at": "2026-03-25T07:23:24.766Z",
+        "retrieved_at": "2026-03-26T07:29:03.437Z",
         "content_sha256": "0d41e83de9863a51e7fa420766798387556b427656a1c18bbb3505ff52b8e7bf"
       }
     }

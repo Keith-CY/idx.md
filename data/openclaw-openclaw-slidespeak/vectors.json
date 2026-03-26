@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-slidespeak",
-  "generated_at": "2026-03-25T07:24:43.895Z",
+  "generated_at": "2026-03-26T07:30:08.695Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-slidespeak#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mve/slidespeak/SKILL.md",
-        "retrieved_at": "2026-03-25T07:24:43.895Z",
+        "retrieved_at": "2026-03-26T07:30:08.695Z",
         "content_sha256": "f0e378e3c78c28f5de54d8990fe9e755d86b292306eadf408b8f562408a6c79f"
       }
     }

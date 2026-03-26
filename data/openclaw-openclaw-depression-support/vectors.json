@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-depression-support",
-  "generated_at": "2026-03-25T07:26:49.422Z",
+  "generated_at": "2026-03-26T07:33:27.567Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-depression-support#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/depression-support/SKILL.md",
-        "retrieved_at": "2026-03-25T07:26:49.422Z",
+        "retrieved_at": "2026-03-26T07:33:27.567Z",
         "content_sha256": "773918919f7dc561ae0eeeff45ed5a58a272d5aff6df7c09c36a884763698528"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-performance-review-skill",
-  "generated_at": "2026-03-25T07:25:21.117Z",
+  "generated_at": "2026-03-26T07:30:41.444Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-performance-review-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/performance-review/SKILL.md",
-        "retrieved_at": "2026-03-25T07:25:21.117Z",
+        "retrieved_at": "2026-03-26T07:30:41.444Z",
         "content_sha256": "a34e3f49e7c8619f07fd218cb2b6a6d57572dd7a0a78c72977dcd1739578e588"
       }
     }

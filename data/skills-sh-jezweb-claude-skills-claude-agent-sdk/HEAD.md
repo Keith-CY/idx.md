@@ -5,6 +5,22 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.84
+
+  - Added `taskBudget` option for API-side token budget awareness, allowing the
+  model to pace tool use within a token limit
+
+  - Added `enableChannel()` method and `capabilities` field on `McpServerStatus`
+  for SDK-driven MCP channel activation
+
+  - Exported `EffortLevel` type (`'low' | 'medium' | 'high' | 'max'`) for
+  consumers to reference effort values directly
+
+  - Fixed showing "[Request interrupted by user]" for errors that were not
+  caused by user interruption
+
+  - Updated to parity with Claude Code v2.1.84
+
   ## 0.2.83
 
   - Added `seed_read_state` control subtype to seed `readFileState` with `{path,
@@ -12,19 +28,6 @@ summary: >-
 
   - Changed `session_state_changed` events to opt-in: set
   `CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS=1` to receive them
-
-  - Updated to parity with Claude Code v2.1.83
-
-  ## 0.2.82
-
-  - Updated to parity with Claude Code v2.1.82
-
-  ## 0.2.81
-
-  - Fixed `canUseTool` not providing a working `addRules` suggestion when a
-  write under `.claude/skills/{name}/` hits the bypass-immune safety check
-
-  - Updated to parity with Claude Code v2.1.81
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-25T07:22:35.572Z
-content_sha256: 5a14303a619d670061618648c38eaafff980bcea1e96872b536fa4fbf75b1f8a
+retrieved_at: 2026-03-26T07:27:34.924Z
+content_sha256: 7cb77295eb3694039412ac51975e827356b8e4847d1198c4e145372cc5d9e687
 ---

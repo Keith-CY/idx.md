@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup",
-  "generated_at": "2026-03-25T07:27:13.840Z",
+  "generated_at": "2026-03-26T07:33:47.409Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-resource-lookup#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-resource-lookup/references/azure-resource-graph.md",
-        "retrieved_at": "2026-03-25T07:27:13.840Z",
+        "retrieved_at": "2026-03-26T07:33:47.409Z",
         "content_sha256": "478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea"
       }
     }

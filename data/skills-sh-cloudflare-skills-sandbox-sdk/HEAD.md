@@ -29,6 +29,6 @@ upstream_ref: https://skills.sh/cloudflare/skills/sandbox-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-25T07:22:31.674Z
+retrieved_at: 2026-03-26T07:27:32.609Z
 content_sha256: c8a2bd3eca1afee7c9182b7dc7a3dceb9fdd13266c2a5e0730fd52b263b1aea3
 ---

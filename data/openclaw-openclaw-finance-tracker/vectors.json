@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-finance-tracker",
-  "generated_at": "2026-03-25T07:26:56.372Z",
+  "generated_at": "2026-03-26T07:33:33.992Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-finance-tracker#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/salen-project/finance-tracker/SKILL.md",
-        "retrieved_at": "2026-03-25T07:26:56.372Z",
+        "retrieved_at": "2026-03-26T07:33:33.992Z",
         "content_sha256": "61dd9e1f423795be300fefab600a5cba69e385f7b60961bd6bbd09d3b5b5849c"
       }
     }

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-drive",
-  "generated_at": "2026-03-25T07:27:20.317Z",
+  "generated_at": "2026-03-26T07:33:52.127Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-drive#head",
       "kind": "head",
       "path": "/data/skills-sh-googleworkspace-cli-gws-drive/HEAD.md",
-      "text": "title: skills-sh-googleworkspace-cli-gws-drive\nsummary: --- name: gws-drive-upload description: \"Google Drive: Upload a file with automatic metadata.\" metadata: version: 0.22.0 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-drive-upload/SKILL.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-drive\nsummary: --- name: gws-drive-upload description: \"Google Drive: Upload a file with automatic metadata.\" metadata: version: 0.22.1 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-drive-upload/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-googleworkspace-cli-gws-drive",
         "topic": "skills-sh-googleworkspace-cli-gws-drive",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-drive-upload/SKILL.md",
-        "retrieved_at": "2026-03-25T07:27:20.317Z",
-        "content_sha256": "3894a728015cadbab37d1bda344a95746aa35e49a251ba378e6c7ed8bb1639a9"
+        "retrieved_at": "2026-03-26T07:33:52.127Z",
+        "content_sha256": "ef3d2727e881dc855502cce54f08542fb2a9c89f16078006c511b0e50a47df59"
       }
     }
   ]

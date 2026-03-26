@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-paid-ads",
-  "generated_at": "2026-03-25T07:24:13.318Z",
+  "generated_at": "2026-03-26T07:29:43.351Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-paid-ads#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/paid-ads/SKILL.md",
-        "retrieved_at": "2026-03-25T07:24:13.318Z",
+        "retrieved_at": "2026-03-26T07:29:43.351Z",
         "content_sha256": "0d00d270771f28b74f6243389f73f413fa539612215595757680fa5c95f25b53"
       }
     }

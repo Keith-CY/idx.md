@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-premium-domains",
-  "generated_at": "2026-03-25T07:24:22.139Z",
+  "generated_at": "2026-03-26T07:29:49.955Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-premium-domains#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/julianengel/premium-domains/SKILL.md",
-        "retrieved_at": "2026-03-25T07:24:22.139Z",
+        "retrieved_at": "2026-03-26T07:29:49.955Z",
         "content_sha256": "569e1a6e631533897a12f8b4a4852a3d332c396930cb16ac0522413d1ddc25b6"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawcierge",
-  "generated_at": "2026-03-25T07:26:39.409Z",
+  "generated_at": "2026-03-26T07:33:19.465Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawcierge#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tmansmann0/clawcierge/SKILL.md",
-        "retrieved_at": "2026-03-25T07:26:39.409Z",
+        "retrieved_at": "2026-03-26T07:33:19.465Z",
         "content_sha256": "26c1f4f3b03607e84832e3001fcb35b93c0aa9ab3483baa97b28b976787c796b"
       }
     }

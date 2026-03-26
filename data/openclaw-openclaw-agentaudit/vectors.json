@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentaudit",
-  "generated_at": "2026-03-25T07:25:57.968Z",
+  "generated_at": "2026-03-26T07:32:42.020Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentaudit#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/starbuck100/agentaudit/SKILL.md",
-        "retrieved_at": "2026-03-25T07:25:57.968Z",
+        "retrieved_at": "2026-03-26T07:32:42.020Z",
         "content_sha256": "52ce95471dd21b28725739936d6cf63b5c1ba4339b2613e107f0d34eef693920"
       }
     }

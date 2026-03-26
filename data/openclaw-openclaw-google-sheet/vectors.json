@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-sheet",
-  "generated_at": "2026-03-25T07:23:31.964Z",
+  "generated_at": "2026-03-26T07:29:09.516Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-sheet#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/longmaba/google-sheet/SKILL.md",
-        "retrieved_at": "2026-03-25T07:23:31.964Z",
+        "retrieved_at": "2026-03-26T07:29:09.516Z",
         "content_sha256": "54d81b8b7345a6777b98546f0580c364f0d9842e0519aa98b66e40d1659c8236"
       }
     }
