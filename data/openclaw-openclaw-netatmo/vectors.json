@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-netatmo",
-  "generated_at": "2026-03-26T07:29:34.755Z",
+  "generated_at": "2026-03-27T07:26:33.852Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-netatmo#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/florianbeer/netatmo/SKILL.md",
-        "retrieved_at": "2026-03-26T07:29:34.755Z",
+        "retrieved_at": "2026-03-27T07:26:33.852Z",
         "content_sha256": "1fc2d081d9195de297941c3277b6e57e641fbb6b4558fdd1d092d684409ada83"
       }
     }

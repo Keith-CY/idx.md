@@ -1,0 +1,21 @@
+---
+stable_id: skills/github-skill-composiohq-awesome-claude-skills-kickbox-automation-3347ff5a
+type: skills
+title: kickbox-automation
+summary: Automate Kickbox tasks via Rube MCP (Composio). Always search tools
+  first for current schemas.
+tags:
+  - github-skill-search
+  - source-github-code-search
+  - category-productivity-tasks
+  - github-owner-composiohq
+  - github-repo-awesome-claude-skills
+source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kickbox-automation/SKILL.md
+license: ""
+upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/composio-skills/kickbox-automation/SKILL.md
+github_stars: null
+github_forks: null
+github_is_organization: null
+retrieved_at: 2026-03-27T07:25:24.262Z
+content_sha256: af9fe0d1f5271243ae5584a05649b47db516845e350fa6609ea7289a012f76da
+---

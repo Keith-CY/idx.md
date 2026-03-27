@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yutori-web-research",
-  "generated_at": "2026-03-26T07:30:39.638Z",
+  "generated_at": "2026-03-27T07:27:17.573Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yutori-web-research#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/juanpin/yutori-web-research/SKILL.md",
-        "retrieved_at": "2026-03-26T07:30:39.638Z",
+        "retrieved_at": "2026-03-27T07:27:17.573Z",
         "content_sha256": "79b06e437897636f5b4233c05128325a33fb639e7a0695d324668de7fd832293"
       }
     }

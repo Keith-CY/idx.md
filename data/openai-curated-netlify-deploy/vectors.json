@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-netlify-deploy",
-  "generated_at": "2026-03-26T07:27:12.004Z",
+  "generated_at": "2026-03-27T07:25:22.597Z",
   "records": [
     {
       "id": "skills/openai-curated-netlify-deploy#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/netlify-deploy/SKILL.md",
-        "retrieved_at": "2026-03-26T07:27:12.004Z",
+        "retrieved_at": "2026-03-27T07:25:22.597Z",
         "content_sha256": "bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f"
       }
     }

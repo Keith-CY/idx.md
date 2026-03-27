@@ -7,25 +7,31 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up, configuring, or troubleshooting a
-  self-hosted AI agent gateway that connects messaging apps (WhatsApp, Telegram,
-  Discord, iMessage) to LLM models. Reach for this skill when agents need to
-  manage channels, configure models, create skills, handle sessions, or debug
-  gateway issues.
+  description: Use when configuring, deploying, or troubleshooting OpenClaw — an
+  agentic AI assistant platform that runs locally or remotely, connects to
+  messaging channels (WhatsApp, Telegram, Discord, etc.), manages sessions and
+  memory, and executes tools via a WebSocket Gateway. Reach for this skill when
+  agents need to set up the Gateway, configure channels, manage skills/plugins,
+  handle authentication, or debug agent behavior.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill
-
-  OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp,
-  Telegram, Discord, iMessage, and more) to AI agents. It runs a single embedded
-  agent runtime with multi-channel support, session management, and extensible
-  tools.
+  # OpenClaw (clawdbot) Skill
 
   ## Product summary
+
+  OpenClaw is an agentic AI assistant platform that runs a local or remote
+  WebSocket Gateway, connects to messaging channels (WhatsApp, Telegram,
+  Discord, Slack, Signal, iMessage, etc.), manages agent sessions with memory
+  and compaction, and executes tools (browser, exec, web search, file I/O,
+  messaging, and more). The core config file is `~/.openclaw/openclaw.json`
+  (JSON5 format). Key CLI commands: `openclaw setup`, `openclaw onboard`,
+  `openclaw gateway status`, `openclaw config get/set`, `openclaw agent`,
+  `openclaw channels`, `openclaw skills`. The primary docs site is
+  https://docs.openclaw.ai.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -33,6 +39,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-26T07:27:16.806Z
-content_sha256: cec82ee2b5514d678e5dea1ef82b0d95db2a536b9100888e2b970d58583deb27
+retrieved_at: 2026-03-27T07:25:38.486Z
+content_sha256: 14f29444c12b7b890a21007eb7497f590b4cfc0d0e65f52c8235c69487b8033d
 ---

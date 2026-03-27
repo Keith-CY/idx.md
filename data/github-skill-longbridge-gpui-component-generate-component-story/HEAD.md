@@ -16,6 +16,6 @@ upstream_ref: https://github.com/longbridge/gpui-component/blob/main/.claude/ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-26T07:27:06.229Z
+retrieved_at: 2026-03-27T07:25:25.767Z
 content_sha256: e2f3b32391855612eb6c3f58671f0a539f5568ed0af9283e9d03bcef88a9d7aa
 ---

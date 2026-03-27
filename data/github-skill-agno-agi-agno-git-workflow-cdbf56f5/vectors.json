@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-agno-agi-agno-git-workflow-cdbf56f5",
+  "generated_at": "2026-03-27T07:25:23.821Z",
+  "records": [
+    {
+      "id": "skills/github-skill-agno-agi-agno-git-workflow-cdbf56f5#head",
+      "kind": "head",
+      "path": "/data/github-skill-agno-agi-agno-git-workflow-cdbf56f5/HEAD.md",
+      "text": "title: git-workflow\nsummary: Git workflow guidance for commits, branches, and pull requests\ntype: skills\ntags: github-skill-search, source-github-code-search, category-uncategorized, github-owner-agno-agi, github-repo-agno\nsource_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-agno-agi-agno-git-workflow-cdbf56f5",
+        "topic": "github-skill-agno-agi-agno-git-workflow-cdbf56f5",
+        "type": "skills",
+        "title": "git-workflow",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-uncategorized",
+          "github-owner-agno-agi",
+          "github-repo-agno"
+        ],
+        "source_url": "https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md",
+        "retrieved_at": "2026-03-27T07:25:23.821Z",
+        "content_sha256": "f7c93d25f3d18d937331eac825ad08147416c22992db98afe1bab170f399d732"
+      }
+    }
+  ]
+}

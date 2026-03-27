@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-self-reflection",
-  "generated_at": "2026-03-26T07:32:39.102Z",
+  "generated_at": "2026-03-27T07:27:35.582Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-self-reflection#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brennerspear/agent-self-reflection/SKILL.md",
-        "retrieved_at": "2026-03-26T07:32:39.102Z",
+        "retrieved_at": "2026-03-27T07:27:35.582Z",
         "content_sha256": "45177fdfac44d70e23d3418007b7151e72472eaffbeafdac422d3f8e02e7d9c0"
       }
     }

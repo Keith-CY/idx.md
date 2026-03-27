@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-events",
-  "generated_at": "2026-03-26T07:33:56.645Z",
+  "generated_at": "2026-03-27T07:25:35.019Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-events#head",
       "kind": "head",
       "path": "/data/skills-sh-googleworkspace-cli-gws-events/HEAD.md",
-      "text": "title: skills-sh-googleworkspace-cli-gws-events\nsummary: --- name: gws-events-subscribe description: \"Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.\" metadata: version: 0.22.1 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-events-subscribe/SKILL.md",
+      "text": "title: skills-sh-googleworkspace-cli-gws-events\nsummary: --- name: gws-events-subscribe description: \"Google Workspace Events: Subscribe to Workspace events and stream them as NDJSON.\" metadata: version: 0.22.3 openclaw: category: \"productivity\" requires: bins: - gws\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-events-subscribe/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-googleworkspace-cli-gws-events",
         "topic": "skills-sh-googleworkspace-cli-gws-events",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-events-subscribe/SKILL.md",
-        "retrieved_at": "2026-03-26T07:33:56.645Z",
-        "content_sha256": "b20eb1ef959ba8d5a92ea18dfa8c268b299fee240dd78e16177444fddde96ee4"
+        "retrieved_at": "2026-03-27T07:25:35.019Z",
+        "content_sha256": "5da8dbb52cb00df992191989572d84ae2ca90025b33834cb4f61ece43829feee"
       }
     }
   ]

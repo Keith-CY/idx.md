@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-japanese-tutor",
-  "generated_at": "2026-03-26T07:29:16.683Z",
+  "generated_at": "2026-03-27T07:26:21.262Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-japanese-tutor#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chndranndr/japanese-tutor/SKILL.md",
-        "retrieved_at": "2026-03-26T07:29:16.683Z",
+        "retrieved_at": "2026-03-27T07:26:21.262Z",
         "content_sha256": "c16052754c14eb63f03634adc2ac2549e06d1d752f3d0806919a18eeb0156d46"
       }
     }

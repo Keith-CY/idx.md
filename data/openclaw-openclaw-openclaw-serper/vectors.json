@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaw-serper",
-  "generated_at": "2026-03-26T07:29:40.509Z",
+  "generated_at": "2026-03-27T07:26:38.150Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaw-serper#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nesdeq/openclaw-serper/SKILL.md",
-        "retrieved_at": "2026-03-26T07:29:40.509Z",
+        "retrieved_at": "2026-03-27T07:26:38.150Z",
         "content_sha256": "95f17801010c264f1e18a88a4927137710f54292fd4fe819080659564f6025aa"
       }
     }

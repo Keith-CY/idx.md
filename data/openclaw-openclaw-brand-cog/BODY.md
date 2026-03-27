@@ -4,7 +4,9 @@ description: "Other tools make logos. CellCog builds brands. #1 on DeepResearch 
 metadata:
   openclaw:
     emoji: "🏷️"
+    os: [darwin, linux, windows]
 author: CellCog
+homepage: https://cellcog.ai
 dependencies: [cellcog]
 ---
 

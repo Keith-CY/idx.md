@@ -17,6 +17,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/starbuck100/cl
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-26T07:27:07.710Z
+retrieved_at: 2026-03-27T07:25:26.668Z
 content_sha256: e57f59343a82ce655ea8770f809192a186f5838973f20e985c1c4dad13cf8f7a
 ---

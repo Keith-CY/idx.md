@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/email-sequence
 github_stars: 8300
 github_forks: 1060
 github_is_organization: false
-retrieved_at: 2026-03-26T07:27:31.163Z
+retrieved_at: 2026-03-27T07:25:45.772Z
 content_sha256: d47b12e263ad52b72ab741c490bbc98d8bf8034d61faccc50b7dbb2650a9fba0
 ---

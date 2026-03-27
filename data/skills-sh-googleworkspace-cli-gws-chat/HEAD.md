@@ -7,7 +7,7 @@ summary: |-
   name: gws-chat-send
   description: "Google Chat: Send a message to a space."
   metadata:
-    version: 0.22.1
+    version: 0.22.3
     openclaw:
       category: "productivity"
       requires:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-chat
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-26T07:33:56.493Z
-content_sha256: cde3339c128eb1740a9cffba169912fd2f12ecab0fb805223c45686e05ca4282
+retrieved_at: 2026-03-27T07:25:34.933Z
+content_sha256: 6968183c32d077d39d1ac6e356bae8ad65869840b46145d8ca34cc327410e43d
 ---

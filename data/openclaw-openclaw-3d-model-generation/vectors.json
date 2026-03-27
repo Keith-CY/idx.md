@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-3d-model-generation",
-  "generated_at": "2026-03-26T07:32:20.519Z",
+  "generated_at": "2026-03-27T07:27:24.490Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-3d-model-generation#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/3d-model-generation/SKILL.md",
-        "retrieved_at": "2026-03-26T07:32:20.519Z",
+        "retrieved_at": "2026-03-27T07:27:24.490Z",
         "content_sha256": "e4f3c4267752ccc220b9c213f04bf97c902dcdea928d6de7d0dd31ab2b5aee6a"
       }
     }

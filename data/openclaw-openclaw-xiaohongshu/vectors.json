@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-xiaohongshu",
-  "generated_at": "2026-03-26T07:30:36.554Z",
+  "generated_at": "2026-03-27T07:27:15.437Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-xiaohongshu#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/heiheimaoya/xiaohongshu/SKILL.md",
-        "retrieved_at": "2026-03-26T07:30:36.554Z",
+        "retrieved_at": "2026-03-27T07:27:15.437Z",
         "content_sha256": "87b9211cdc2ed1385bd45610beb0f67d1d12caf5e399d6f71611de235d5c19de"
       }
     }

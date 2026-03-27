@@ -16,6 +16,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/jo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-26T07:27:08.119Z
+retrieved_at: 2026-03-27T07:25:26.975Z
 content_sha256: 7631d2dd175784f2c2f3b24f317bfaf6d42de61959bde2fcdb693af9edda281e
 ---

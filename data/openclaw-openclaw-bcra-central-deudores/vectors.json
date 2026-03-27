@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bcra-central-deudores",
-  "generated_at": "2026-03-26T07:33:06.498Z",
+  "generated_at": "2026-03-27T07:27:52.106Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bcra-central-deudores#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ferminrp/bcra-central-deudores/SKILL.md",
-        "retrieved_at": "2026-03-26T07:33:06.498Z",
+        "retrieved_at": "2026-03-27T07:27:52.106Z",
         "content_sha256": "e2fe968a107ec1cba4a172fe0491b0ca05e5dd9d43952f2fe28e9fc4f1f5dfc0"
       }
     }

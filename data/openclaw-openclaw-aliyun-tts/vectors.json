@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aliyun-tts",
-  "generated_at": "2026-03-26T07:28:16.635Z",
+  "generated_at": "2026-03-27T07:25:53.586Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aliyun-tts#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/guang384/aliyun-tts/SKILL.md",
-        "retrieved_at": "2026-03-26T07:28:16.635Z",
+        "retrieved_at": "2026-03-27T07:25:53.586Z",
         "content_sha256": "b3e5067aeacce76625f36fb3c7ee749a8ff6de70047f96486d518abaddb3902b"
       }
     }

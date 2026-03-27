@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-amazon-product-api-skill",
-  "generated_at": "2026-03-26T07:32:55.600Z",
+  "generated_at": "2026-03-27T07:27:44.801Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-amazon-product-api-skill#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/phheng/amazon-product-api-skill/SKILL.md",
-        "retrieved_at": "2026-03-26T07:32:55.600Z",
+        "retrieved_at": "2026-03-27T07:27:44.801Z",
         "content_sha256": "76bf147945a6d4614fe3563a5b3f6503409c81b8dc7b104d344bbcda8701ed9d"
       }
     }

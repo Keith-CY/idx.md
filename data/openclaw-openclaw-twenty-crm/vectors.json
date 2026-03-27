@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-twenty-crm",
-  "generated_at": "2026-03-26T07:30:23.750Z",
+  "generated_at": "2026-03-27T07:27:06.826Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-twenty-crm#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhumanj/twenty-crm/SKILL.md",
-        "retrieved_at": "2026-03-26T07:30:23.750Z",
+        "retrieved_at": "2026-03-27T07:27:06.826Z",
         "content_sha256": "4da47d714a33adcd57499d21e1c7276782c17d7a617ff92a12803a8dbc6df373"
       }
     }

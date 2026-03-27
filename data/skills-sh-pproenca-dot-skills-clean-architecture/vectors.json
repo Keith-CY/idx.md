@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pproenca-dot-skills-clean-architecture",
-  "generated_at": "2026-03-26T07:27:30.235Z",
+  "generated_at": "2026-03-27T07:25:45.246Z",
   "records": [
     {
       "id": "skills/skills-sh-pproenca-dot-skills-clean-architecture#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.experimental/clean-architecture/references/dep-inward-only.md",
-        "retrieved_at": "2026-03-26T07:27:30.235Z",
+        "retrieved_at": "2026-03-27T07:25:45.246Z",
         "content_sha256": "f7c28c5d06988ac8103107c643864bbf8fbdb4710379cc04099970ca7be1a54f"
       }
     }

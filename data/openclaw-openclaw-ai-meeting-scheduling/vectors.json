@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-meeting-scheduling",
-  "generated_at": "2026-03-26T07:32:50.020Z",
+  "generated_at": "2026-03-27T07:27:42.287Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-meeting-scheduling#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dheerg/ai-meeting-scheduling/SKILL.md",
-        "retrieved_at": "2026-03-26T07:32:50.020Z",
+        "retrieved_at": "2026-03-27T07:27:42.287Z",
         "content_sha256": "fe24616ace0535239b89ae9101be7e7d8c1fe594e213e2ff996ea62fd7ad3831"
       }
     }
