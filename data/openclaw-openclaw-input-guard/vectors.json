@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-input-guard",
-  "generated_at": "2026-03-27T07:26:20.116Z",
+  "generated_at": "2026-03-28T07:19:49.581Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-input-guard#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dgriffin831/input-guard/SKILL.md",
-        "retrieved_at": "2026-03-27T07:26:20.116Z",
+        "retrieved_at": "2026-03-28T07:19:49.581Z",
         "content_sha256": "178cfbe54723b7383bf4dbd05741f91a8853e873bb7b1f42fb487fa17480f5d6"
       }
     }

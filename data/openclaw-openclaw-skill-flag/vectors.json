@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-skill-flag",
-  "generated_at": "2026-03-27T07:26:55.895Z",
+  "generated_at": "2026-03-28T07:20:23.184Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-skill-flag#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/patfire94/skill-flag/SKILL.md",
-        "retrieved_at": "2026-03-27T07:26:55.895Z",
+        "retrieved_at": "2026-03-28T07:20:23.184Z",
         "content_sha256": "bf20a33429afca41e5ef2d1c939489cffea6ac86849cadc8812f5630590a49f6"
       }
     }

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
 github_stars: 1186
 github_forks: 88
 github_is_organization: true
-retrieved_at: 2026-03-27T07:25:46.960Z
-content_sha256: 5ca1e2625c89817c747eb2f0a65b2bbc2ba04beccc7b3c38c070d162afa0b608
+retrieved_at: 2026-03-28T07:19:19.858Z
+content_sha256: 52eb12b93cd100e2d15e919712468a03bac3041fd4d516cc8ef45ce9960f4dc1
 ---

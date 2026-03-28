@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-airtable-automation",
-  "generated_at": "2026-03-27T07:27:43.320Z",
+  "generated_at": "2026-03-28T07:21:05.696Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-airtable-automation#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sohamganatra/airtable-automation/SKILL.md",
-        "retrieved_at": "2026-03-27T07:27:43.320Z",
+        "retrieved_at": "2026-03-28T07:21:05.696Z",
         "content_sha256": "527da0f95e4eb15bd0cb0c1b67b9f36aa285247df8b6384d6c4151a239775ffb"
       }
     }

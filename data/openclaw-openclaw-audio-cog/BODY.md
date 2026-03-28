@@ -1,10 +1,12 @@
 ---
 name: audio-cog
-description: AI audio generation powered by CellCog. Three voice providers (OpenAI, ElevenLabs, MiniMax), avatar cloned voices, sound effects, music generation up to 10 minutes. Professional audio creation with AI.
+description: "AI audio generation and text-to-speech powered by CellCog. Three voice providers (OpenAI, ElevenLabs, MiniMax), voice cloning, avatar voices, sound effects generation, music creation up to 10 minutes. Professional voiceover, narration, and audio production with AI."
 metadata:
   openclaw:
     emoji: "🎵"
+    os: [darwin, linux, windows]
 author: CellCog
+homepage: https://cellcog.ai
 dependencies: [cellcog]
 ---
 

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-1password",
-  "generated_at": "2026-03-27T07:27:23.967Z",
+  "generated_at": "2026-03-28T07:20:48.728Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-1password#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/1password/SKILL.md",
-        "retrieved_at": "2026-03-27T07:27:23.967Z",
+        "retrieved_at": "2026-03-28T07:20:48.728Z",
         "content_sha256": "5cc0b694c2c26264eff5edc954491bd66cc6b0729f9cdfcdd3d0f9d70d5c93cc"
       }
     }

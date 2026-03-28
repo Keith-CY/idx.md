@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-serper",
-  "generated_at": "2026-03-27T07:26:54.279Z",
+  "generated_at": "2026-03-28T07:20:21.646Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-serper#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nesdeq/serper/SKILL.md",
-        "retrieved_at": "2026-03-27T07:26:54.279Z",
+        "retrieved_at": "2026-03-28T07:20:21.646Z",
         "content_sha256": "c91fbed68e25d2134d4b0f0f7192afc85c4b9d536ad2e158eaea86e2e31121b6"
       }
     }

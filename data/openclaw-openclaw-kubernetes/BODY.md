@@ -6,7 +6,7 @@ description: >
   Security (Shield), Observability (Pulse), Artifacts (Cache), and Developer Experience (Desk).
 metadata:
   author: cluster-agent-swarm
-  version: 1.0.0
+  version: 1.0.1
   agent_name: Swarm
   agent_role: Platform Agent Swarm (All Agents)
   session_key: "agent:platform:swarm"
@@ -26,80 +26,57 @@ metadata:
   requires:
     env:
       - KUBECONFIG
-      - AWS_ACCESS_KEY_ID
-      - AWS_SECRET_ACCESS_KEY
-      - AWS_SESSION_TOKEN
-      - AZURE_CLIENT_ID
-      - AZURE_CLIENT_SECRET
-      - AZURE_TENANT_ID
-      - GOOGLE_APPLICATION_CREDENTIALS
-      - ARGOCD_AUTH_TOKEN
-      - ARGOCD_SERVER
-      - VAULT_TOKEN
-      - GITHUB_TOKEN
-      - QUAY_PASSWORD
-      - DOCKER_CONFIG
     binaries:
       - kubectl
       - oc
       - helm
       - kustomize
-      - argocd
       - jq
       - curl
       - git
-      - aws
-      - az
-      - gcloud
-      - rosa
-      - trivy
-      - cosign
-      - crane
-      - syft
   credentials:
-    - kubeconfig: "Required for cluster access (KUBECONFIG env var or ~/.kube/config)"
-    - aws_credentials: "Required for EKS/ROSA - AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_SESSION_TOKEN (if using MFA)"
-    - azure_credentials: "Required for AKS/ARO - az CLI authenticated or service principal"
-    - gcp_credentials: "Required for GKE - gcloud authenticated or service account key"
-    - argocd_credentials: "Required for GitOps agent - ArgoCD server URL and auth token"
-    - vault_credentials: "Optional for secrets - Vault token or Kubernetes auth"
-    - github_token: "Optional for git operations - GITHUB_TOKEN or git credentials"
-  integrations:
-    - argocd: "ArgoCD server for GitOps operations"
-    - prometheus: "Prometheus/Grafana for metrics queries"
-    - loki: "Loki/Elasticsearch for log aggregation"
-    - vault: "HashiCorp Vault for secrets management"
-    - registry: "Container registry ( Quay, ECR, ACR, GCR, Docker Hub)"
+    - kubeconfig: "Cluster access (KUBECONFIG env var or ~/.kube/config)"
+    - cloud_credentials: "Optional - only if using specific cloud provider (AWS/Azure/GCP)"
+    - service_tokens: "Optional - for integrations (ArgoCD, Vault, GitHub)"
+  conditions: |
+    ### Credential Requirements
+    
+    **Minimum required:**
+    - `KUBECONFIG` - Access to target Kubernetes/OpenShift cluster
+    
+    **Optional - only enable what you need:**
+    - AWS credentials: Only if managing EKS or ROSA clusters
+    - Azure credentials: Only if managing AKS or ARO clusters  
+    - GCP credentials: Only if managing GKE clusters
+    - ArgoCD token: Only if using GitOps agent
+    - Vault token: Only if using secrets management
+    - GitHub token: Only if pushing changes to repositories
+    
+    **Principle:** Only grant the minimum credentials required for your specific use case.
 ---
 
 # Cluster Agent Swarm — Complete Platform Operations
 
-## ⚠️ Runtime Requirements & Credentials Required Before Use
+## Runtime Requirements
 
-This skill package provides powerful Kubernetes/OpenShift cluster management capabilities but **requires specific credentials and runtime configurations** before it can function. Installers must configure these prerequisites:
+This skill package provides Kubernetes/OpenShift cluster management capabilities. Credentials are **modular** - only configure what you need for your specific use case.
 
-### Cluster Access
+### Always Required
 | Requirement | Description | Environment Variable |
 |-------------|-------------|---------------------|
-| **Kubeconfig** | Valid kubeconfig file with cluster access | `KUBECONFIG` or `~/.kube/config` |
-| **kubectl** | Kubernetes CLI installed and configured | Must be in PATH |
-| **oc** | OpenShift CLI (for OpenShift clusters) | Must be in PATH |
+| **Kubeconfig** | Valid kubeconfig with cluster access | `KUBECONFIG` or `~/.kube/config` |
+| **kubectl** | Kubernetes CLI | Must be in PATH |
 
-### Cloud Provider Credentials
-| Platform | Required Credentials | Notes |
-|----------|---------------------|-------|
-| **AWS/EKS/ROSA** | AWS credentials with EKS/ROSA access | `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, optionally `AWS_SESSION_TOKEN` |
-| **Azure/ARO** | Azure authentication | `az login` or `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`, `AZURE_TENANT_ID` |
-| **GCP/GKE** | GCP authentication | `gcloud auth application-default login` or `GOOGLE_APPLICATION_CREDENTIALS` |
+### Conditional - Enable Only As Needed
 
-### External Service Integrations
-| Service | Required | Description |
-|---------|----------|-------------|
-| **ArgoCD** | Recommended | Server URL + auth token for GitOps sync/management |
-| **Prometheus** | Recommended | URL for metric queries |
-| **Loki/Elasticsearch** | Optional | URL for log queries |
-| **HashiCorp Vault** | Optional | Token or Kubernetes auth for secrets |
-| **Container Registry** | Optional | Auth for image scanning/promotion |
+| Platform | Enable If... | Credentials |
+|----------|--------------|-------------|
+| **AWS/EKS/ROSA** | Managing AWS-hosted Kubernetes | `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` |
+| **Azure/ARO** | Managing Azure-hosted Kubernetes | `AZURE_CLIENT_ID`, `AZURE_CLIENT_SECRET`, `AZURE_TENANT_ID` |
+| **GCP/GKE** | Managing GCP-hosted Kubernetes | `GOOGLE_APPLICATION_CREDENTIALS` |
+| **ArgoCD** | Using GitOps agent | `ARGOCD_AUTH_TOKEN`, `ARGOCD_SERVER` |
+| **Vault** | Using secrets management | `VAULT_TOKEN` |
+| **GitHub** | Pushing to git repositories | `GITHUB_TOKEN` |
 
 ### Session Setup
 Before using the agents, you **MUST** set up a session context:
@@ -119,19 +96,32 @@ bash skills/orchestrator/scripts/setup-session.sh <environment> [context-name]
 
 ---
 
-## ⚠️ Security & Risk Considerations - Read Before Installing
+## Security Assessment - Read Before Installing
 
 ### Source Verification
-- This skill installs code from a third-party GitHub repository
-- **Always verify the source**: Confirm `https://github.com/kcns008/cluster-agent-swarm-skills` is the intended repository
-- Prefer installing from a **pinned commit hash** or verified release tag
-- Review commit history and authors before installing
+- This skill pulls code from a **third-party GitHub repository**
+- **Verify the source URL** before installing: `https://github.com/kcns008/cluster-agent-swarm-skills`
+- **Pin to a specific version** - never use `main` branch in production:
+  ```bash
+  git clone https://github.com/kcns008/cluster-agent-swarm-skills.git
+  cd cluster-agent-swarm-skills
+  git fetch --tags
+  git checkout v1.0.0  # Use verified release tag or commit hash
+  ```
 
-### Install Mechanism Warning
-- This is a **scripted skill** (not instruction-only) - it will write executable code to disk
-- Installing via `npx skills add` pulls and executes code from GitHub
-- Review scripts before running - some scripts perform destructive operations (deletions, cleanup, promotion)
-- Consider using offline/cached toolchains where possible
+### Third-Party Script Execution Warning
+- This is a **scripted skill** - it will write executable bash scripts to disk
+- Scripts perform cluster operations including: deployments, scaling, scanning, configuration
+- **Some scripts can be destructive** - review before running:
+  - Scripts with `-delete`, `-cleanup` in name may remove resources
+  - Scripts with `-promote`, `-deploy` modify cluster state
+- Always test in non-production first
+
+### Install Mechanism
+- Installing via `npx skills add` downloads and executes code from GitHub
+- The skill cannot verify integrity of external scripts
+- **Audit all scripts locally** before running in production
+- Consider maintaining a verified, offline copy of trusted scripts
 
 ### Persistence & Blast Radius
 - Agents maintain **persistent state** across sessions via:
@@ -175,7 +165,7 @@ bash skills/orchestrator/scripts/setup-session.sh <environment> [context-name]
 This is the complete cluster-agent-swarm skill package. When you add this skill, you get 
 access to ALL 7 specialized agents working together as a coordinated swarm.
 
-## Installation Options
+## Installation
 
 ### Install All Skills (Recommended)
 ```bash
@@ -185,42 +175,33 @@ npx skills add https://github.com/kcns008/cluster-agent-swarm-skills
 This installs all 7 agents as a single combined skill with access to all capabilities.
 
 ### Install Individual Skills
-Each agent can also be installed separately using GitHub tree path or --skill flag:
+
+Each agent can be installed separately using GitHub tree paths:
 
 ```bash
-# Using GitHub tree path (recommended)
+# Orchestrator - Jarvis (task routing, coordination)
 npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/orchestrator
 
-# Using --skill flag (if supported by your skills tool)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills --skill orchestrator
+# Cluster Ops - Atlas (cluster lifecycle, nodes, upgrades)
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/cluster-ops
 
-# Available individual skills:
-# - orchestrator  (Jarvis - task routing)
-# - cluster-ops   (Atlas - cluster operations)
-# - gitops        (Flow - ArgoCD, Helm, Kustomize)
-# - security      (Shield - RBAC, policies)
-# - observability (Pulse - metrics, alerts)
-# - artifacts     (Cache - registries, SBOM)
-# - developer-experience (Desk - namespaces, onboarding)
-# - qmd           (Local hybrid search for markdown notes/docs)
-```
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/gitops
+# GitOps - Flow (ArgoCD, Helm, Kustomize)
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/gitops
 
 # Security - Shield (RBAC, policies, CVEs)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/security
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/security
 
 # Observability - Pulse (metrics, alerts, incidents)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/observability
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/observability
 
 # Artifacts - Cache (registries, SBOM, promotions)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/artifacts
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/artifacts
 
 # Developer Experience - Desk (namespaces, onboarding)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/developer-experience
-
-# QMD - Local Markdown Search (notes, docs, knowledge bases)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/skills/qmd
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/developer-experience
 ```
+
+> **Note:** Always pin to a specific tag/commit in production. See Security Assessment section.
 
 ---
 
@@ -403,8 +384,7 @@ cluster-agent-swarm-skills/
 │   │   └── SKILL.md
 │   └── developer-experience/   # Desk - DevEx
 │       └── SKILL.md
-│   └── qmd/                    # Local markdown search
-│       └── SKILL.md
+
 ├── scripts/                    # Shared scripts
 └── references/                 # Shared documentation
 ```
@@ -421,4 +401,3 @@ For detailed capabilities of each agent, refer to individual SKILL.md files:
 - `skills/observability/SKILL.md` - Full Observability documentation
 - `skills/artifacts/SKILL.md` - Full Artifacts documentation
 - `skills/developer-experience/SKILL.md` - Full Developer Experience documentation
-- `skills/qmd/SKILL.md` - QMD local markdown search documentation

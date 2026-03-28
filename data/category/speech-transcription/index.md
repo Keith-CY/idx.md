@@ -20,7 +20,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:28.760Z
+retrieved_at: 2026-03-28T07:20:53.201Z
 content_sha256: d186a458e1ed4d4b5accf8135a01ed8c0eaf645cbd00c6a63fe372914a4f7615
 ---
 |/data/openclaw-openclaw-addis-assistant-stt|
@@ -40,7 +40,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:36.834Z
+retrieved_at: 2026-03-28T07:21:00.895Z
 content_sha256: 0ec6e1df9ab766a2e55505e03af5f5d2b4a26d031e414ed16d65fb1f30ed4754
 ---
 |/data/openclaw-openclaw-agent-voice|
@@ -60,7 +60,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:43.710Z
+retrieved_at: 2026-03-28T07:21:06.088Z
 content_sha256: 3d5d386a0eb5da5aa4df5ebefe68f6112e8a20ab5920622afe3d9c399d560b4c
 ---
 |/data/openclaw-openclaw-akaunting|
@@ -80,7 +80,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:45.542Z
+retrieved_at: 2026-03-28T07:21:07.725Z
 content_sha256: 6942f51da95e3991773ea9679555091415b054283c662108e34b6194dca6a635
 ---
 |/data/openclaw-openclaw-announcer|
@@ -100,7 +100,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:49.462Z
+retrieved_at: 2026-03-28T07:21:11.432Z
 content_sha256: 0bb939a8686f083f5b92627aaff0f907ef5bebac2c2b7b8062acde92ef1ae3e4
 ---
 |/data/openclaw-openclaw-assemblyai-transcribe|
@@ -120,7 +120,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:50.067Z
+retrieved_at: 2026-03-28T07:21:12.003Z
 content_sha256: e21cd0608d8f899cc46e70db1fce3d794d0f0564f433007d4189fd9de2bb7899
 ---
 |/data/openclaw-openclaw-audio-gen|
@@ -140,7 +140,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:50.137Z
+retrieved_at: 2026-03-28T07:21:12.064Z
 content_sha256: dd42d75099cda66b3bd8f585eeb8936a42bb06c0479d0dd706a958bbad54326c
 ---
 |/data/openclaw-openclaw-audio-reply-skill|
@@ -161,7 +161,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:27:50.806Z
+retrieved_at: 2026-03-28T07:21:12.706Z
 content_sha256: 1e0cde4c959229de605c96e29e15916a2322ede9f5d9114037be6f051b6f165e
 ---
 |/data/openclaw-openclaw-auto-whisper-safe|
@@ -181,7 +181,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:00.257Z
+retrieved_at: 2026-03-28T07:21:20.781Z
 content_sha256: 27a22bc16dc9aa2e2bb8f0b01146be5a337775df86981b64187b3f0d596a413d
 ---
 |/data/openclaw-openclaw-chichi-speech|
@@ -201,7 +201,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:04.106Z
+retrieved_at: 2026-03-28T07:21:24.222Z
 content_sha256: 831f07e1ac677c30066c40454f26a7eed11fd1b0a3c9d2048c7facbde8679572
 ---
 |/data/openclaw-openclaw-clonev|
@@ -221,7 +221,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:05.341Z
+retrieved_at: 2026-03-28T07:21:25.448Z
 content_sha256: 9a3291bcfefb763b05dcd85b9edaf80b148434934d612712d496ab64639018c7
 ---
 |/data/openclaw-openclaw-critical-article-writer|
@@ -241,7 +241,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:06.281Z
+retrieved_at: 2026-03-28T07:21:26.385Z
 content_sha256: 7a08e1c61acc7cab330a8e469764c020168beceb9b89f9968c8b5a329bf2d541
 ---
 |/data/openclaw-openclaw-cult-of-carcinization|
@@ -261,7 +261,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:07.100Z
+retrieved_at: 2026-03-28T07:21:27.188Z
 content_sha256: 3909989da759e9573f1203a363db3415834503422c3d5b211015826c98970dfd
 ---
 |/data/openclaw-openclaw-deepdub-tts|
@@ -281,7 +281,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:07.165Z
+retrieved_at: 2026-03-28T07:21:27.258Z
 content_sha256: dba3336645b36054f4fa0353811d7098a48676527840853081ef71586df25f9c
 ---
 |/data/openclaw-openclaw-deepgram|
@@ -301,7 +301,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:07.359Z
+retrieved_at: 2026-03-28T07:21:27.426Z
 content_sha256: 8d1754c85655c9e5f03d0ceab52bf1e7b33cb66721d11f4d52b9edb96e2a6bef
 ---
 |/data/openclaw-openclaw-dellight-cro-revenue-ops|
@@ -321,7 +321,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:08.192Z
+retrieved_at: 2026-03-28T07:21:28.222Z
 content_sha256: baa273a30f50c6bdd0fe252c93cbda35b4a3e330bb0cbf8a41bee727e0c898d8
 ---
 |/data/openclaw-openclaw-documents-ai|
@@ -341,7 +341,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:08.453Z
+retrieved_at: 2026-03-28T07:21:28.476Z
 content_sha256: 38887c687326dac08ad29d201edb2658c4fd971447aa0d3758a7510ac0893165
 ---
 |/data/openclaw-openclaw-doubao-api-open-tts|
@@ -361,7 +361,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:08.951Z
+retrieved_at: 2026-03-28T07:21:28.988Z
 content_sha256: 33cfcdb006a70335fae260723989b9e88a8dc5d11066582e7ee3070297e90c73
 ---
 |/data/openclaw-openclaw-eachlabs-voice-audio|
@@ -381,7 +381,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:09.009Z
+retrieved_at: 2026-03-28T07:21:29.057Z
 content_sha256: a9d09aa99f1e07783a5e3906d1d07e4844cf60efb6090cc37b47f555024c63b5
 ---
 |/data/openclaw-openclaw-easyverein-api|
@@ -401,7 +401,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:08.518Z
+retrieved_at: 2026-03-28T07:19:38.496Z
 content_sha256: f313dd928f5cfb7d0b0fb477c77fd17beabccd97ee8240649fc711097f978752
 ---
 |/data/openclaw-openclaw-edge-tts|
@@ -421,7 +421,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:09.432Z
+retrieved_at: 2026-03-28T07:21:29.477Z
 content_sha256: dbbdc641d701d624106cefdab1b98b1a95aea3476e744c77f9b1882d26e25649
 ---
 |/data/openclaw-openclaw-elevenlabs-agents|
@@ -441,7 +441,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:09.679Z
+retrieved_at: 2026-03-28T07:21:29.740Z
 content_sha256: c1ecb6d4b2c6c8de1b3dc3b40c24a46759adfe27a04fb386c95a14326bbd73f3
 ---
 |/data/openclaw-openclaw-elevenlabs-transcribe|
@@ -461,8 +461,8 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:09.750Z
-content_sha256: 52eab4d4a38910bceb12d703058eab2f792d269e99944934f1daa5e01c62fd8d
+retrieved_at: 2026-03-28T07:21:29.800Z
+content_sha256: dcffbc0fb572988738ae87b149f0b57abb347f695052a0d877a2709b104392d9
 ---
 |/data/openclaw-openclaw-elevenlabs-tts|
 
@@ -481,7 +481,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-03-27T07:28:09.820Z
+retrieved_at: 2026-03-28T07:21:29.873Z
 content_sha256: bbf60447e28644fdd3b5d79ab26a95b8a1b71ea7fb6f7d82dcf76adcd67f2936
 ---
 |/data/openclaw-openclaw-elevenlabs-voices|
@@ -502,7 +502,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:10.366Z
+retrieved_at: 2026-03-28T07:19:40.350Z
 content_sha256: 970204a5eac1b70195b2f1835b1d3bacb4341e327968549e7753f16a9e0653bf
 ---
 |/data/openclaw-openclaw-faster-whisper|
@@ -522,7 +522,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:14.166Z
+retrieved_at: 2026-03-28T07:19:43.867Z
 content_sha256: 61b07a682d17f15ba4541506e6a0ffff41618846753f6da24ee80c51b65591f3
 ---
 |/data/openclaw-openclaw-gettr-transcribe-summarize|
@@ -543,7 +543,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:18.250Z
+retrieved_at: 2026-03-28T07:19:47.772Z
 content_sha256: 3b60525d94715cf571092af866ef180ed7cb24083e126eaefd4173b6a26b2172
 ---
 |/data/openclaw-openclaw-heypocket-reader|
@@ -563,7 +563,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:21.016Z
+retrieved_at: 2026-03-28T07:19:50.407Z
 content_sha256: f815bdda75df59d8381bcc24c2d8309c778d262a94431bcc6b8d9cb6db518bb2
 ---
 |/data/openclaw-openclaw-inworld-tts|
@@ -583,7 +583,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:23.928Z
+retrieved_at: 2026-03-28T07:19:53.026Z
 content_sha256: 79fac3c48e8008b9ab69338da7d3827931ef1a5cd32d31e8cf0940988fb9a711
 ---
 |/data/openclaw-openclaw-kokoro-tts|
@@ -603,7 +603,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:25.642Z
+retrieved_at: 2026-03-28T07:19:54.541Z
 content_sha256: 054ff0203e9aa3331a30555b20340add0059f26037fb7a9547e60988c36a4c08
 ---
 |/data/openclaw-openclaw-llmwhisperer|
@@ -623,7 +623,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:26.055Z
+retrieved_at: 2026-03-28T07:19:54.928Z
 content_sha256: bb27c6bcee9c5bbc1f3467b1112e89afe5bd4cb1050b50e89fa4badf721e1622
 ---
 |/data/openclaw-openclaw-local-whisper|
@@ -643,7 +643,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:30.440Z
+retrieved_at: 2026-03-28T07:19:58.212Z
 content_sha256: 94331ac299ca1be9f75a2239e2ace3c858097ddd3c27ca33f1a7c176df3be0e7
 ---
 |/data/openclaw-openclaw-mlx-whisper|
@@ -664,7 +664,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:32.097Z
+retrieved_at: 2026-03-28T07:19:59.710Z
 content_sha256: 98fb71e1319d52985773b9d3692304c83c7ab958d3e71b3cd5278d7672d6e879
 ---
 |/data/openclaw-openclaw-moodcast|
@@ -684,7 +684,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:37.293Z
+retrieved_at: 2026-03-28T07:20:04.876Z
 content_sha256: f9fadf134b6de49d55ffae904b2c75f5b7035f37ffa96394b19de648bdef9e0f
 ---
 |/data/openclaw-openclaw-openai-whisper|
@@ -704,7 +704,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:37.361Z
+retrieved_at: 2026-03-28T07:20:04.943Z
 content_sha256: 4cd90ed4d059a385948ffbf2896764a7db66dfbd06010d699b269e89e3f586be
 ---
 |/data/openclaw-openclaw-openai-whisper-api|
@@ -724,7 +724,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:40.311Z
+retrieved_at: 2026-03-28T07:20:07.858Z
 content_sha256: 08b4681c454ecaaec1559f8caf89b713d4e5684ab0d94447f347cbfee1ad3554
 ---
 |/data/openclaw-openclaw-parakeet-mlx|
@@ -744,7 +744,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:40.366Z
+retrieved_at: 2026-03-28T07:20:07.916Z
 content_sha256: b7e010a68292d4bfbf8c418a3f822a79c32418e11b398368111a6095f87b93ab
 ---
 |/data/openclaw-openclaw-parakeet-stt|
@@ -765,7 +765,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:42.832Z
+retrieved_at: 2026-03-28T07:20:10.350Z
 content_sha256: 2bbf580df73e43466334a4c47b1fbacb384b3ee44e753673bb1bfa79e97cf8b8
 ---
 |/data/openclaw-openclaw-plaud-unofficial|
@@ -785,7 +785,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:43.297Z
+retrieved_at: 2026-03-28T07:20:10.816Z
 content_sha256: 0da2b37c636862a90dd615e6432e959548c33e60d616b5fb7e2dbb1f3171666d
 ---
 |/data/openclaw-openclaw-pocket-tts|
@@ -805,7 +805,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:57.946Z
+retrieved_at: 2026-03-28T07:20:25.177Z
 content_sha256: 930f97510b5c1b7050884443335b8182e8febe9eabaa9ea983e5d46a3f317cba
 ---
 |/data/openclaw-openclaw-sound-fx|
@@ -825,7 +825,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:26:58.011Z
+retrieved_at: 2026-03-28T07:20:25.234Z
 content_sha256: 4d4f094004fafdd5ef14bf3b25a5b4d4fe057d001811725ace91e9fa15d302da
 ---
 |/data/openclaw-openclaw-spaces|
@@ -845,7 +845,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:05.242Z
+retrieved_at: 2026-03-28T07:20:31.858Z
 content_sha256: 49a9426be6868ae65bfc64b1fc57146708ca0f82b962d78c654964998db695ad
 ---
 |/data/openclaw-openclaw-transcribe|
@@ -865,7 +865,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:06.316Z
+retrieved_at: 2026-03-28T07:20:32.853Z
 content_sha256: a55fa4334afafc9660afe8b6f87b1aff748075d7ea1891766c660f2505061e8a
 ---
 |/data/openclaw-openclaw-tts|
@@ -886,7 +886,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:06.394Z
+retrieved_at: 2026-03-28T07:20:32.914Z
 content_sha256: 4749bfe81c04b23604c495c938067fd6e96757ab4c28eed5777602763154a804
 ---
 |/data/openclaw-openclaw-tts-whatsapp|
@@ -906,7 +906,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:09.362Z
+retrieved_at: 2026-03-28T07:20:35.693Z
 content_sha256: 308d80f1bea43b7f1d43f667e7770bd0fa2fd02a8d43a1403cb855899304b0e4
 ---
 |/data/openclaw-openclaw-video-subtitles|
@@ -926,7 +926,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:10.035Z
+retrieved_at: 2026-03-28T07:20:36.327Z
 content_sha256: 8d1110c380a7191a60875b032aa28a9ffeec9dc0d9266403290b1d8d4ae0b580
 ---
 |/data/openclaw-openclaw-voice-agent|
@@ -956,7 +956,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:10.110Z
+retrieved_at: 2026-03-28T07:20:36.386Z
 content_sha256: a30573b28502aa4d01175283aae6f865163ee84c5ee25c1e018ecc7d6af5ce4b
 ---
 |/data/openclaw-openclaw-voice-ai-voices|
@@ -977,7 +977,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:10.253Z
+retrieved_at: 2026-03-28T07:20:36.515Z
 content_sha256: 4e251f37613f349671ed01c1fc00340a4acff9aedd9fb6f6d79d92bc01686170
 ---
 |/data/openclaw-openclaw-voice-transcribe|
@@ -998,7 +998,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:11.750Z
+retrieved_at: 2026-03-28T07:20:37.904Z
 content_sha256: b68f0ff64d6bd7be1c38cc0cc9dedb0c3bde0d118f1430242ce2f04c00aa3b6f
 ---
 |/data/openclaw-openclaw-webchat-audio-notifications|
@@ -1018,7 +1018,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:12.495Z
+retrieved_at: 2026-03-28T07:20:38.574Z
 content_sha256: b48745541164405d10f4e634af1889e92b44bffc22e4c363e49c74462d144ed9
 ---
 |/data/openclaw-openclaw-whatsapp-voice-chat-integration-open-source|
@@ -1039,7 +1039,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:12.811Z
+retrieved_at: 2026-03-28T07:20:38.846Z
 content_sha256: f52b551db2dacf9696a5b8d473d3e513ba2fa8a24a41431af9a9944b4085aa27
 ---
 |/data/openclaw-openclaw-whisper-mlx-local|
@@ -1060,7 +1060,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:27:15.154Z
+retrieved_at: 2026-03-28T07:20:41.002Z
 content_sha256: da3880d1210b3b1c2eb7a095a6b7155f792b6389974bb059d0c9a1b4d6cf6137
 ---
 |/data/openclaw-openclaw-x-voice-match|

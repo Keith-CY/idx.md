@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdirect-dev",
-  "generated_at": "2026-03-27T07:28:02.684Z",
+  "generated_at": "2026-03-28T07:21:23.110Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdirect-dev#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/napoleond/clawdirect-dev/SKILL.md",
-        "retrieved_at": "2026-03-27T07:28:02.684Z",
+        "retrieved_at": "2026-03-28T07:21:23.110Z",
         "content_sha256": "4f8af1d119393bce296e2d8adc6d546b24fc85b879ffbe76ab016725af1252df"
       }
     }

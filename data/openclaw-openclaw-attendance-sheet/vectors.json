@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-attendance-sheet",
-  "generated_at": "2026-03-27T07:27:49.786Z",
+  "generated_at": "2026-03-28T07:21:11.748Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-attendance-sheet#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gykdly/attendance-sheet/SKILL.md",
-        "retrieved_at": "2026-03-27T07:27:49.786Z",
+        "retrieved_at": "2026-03-28T07:21:11.748Z",
         "content_sha256": "2d6703337af8d19946217da8731ab00cb0747ca7906841dbc1df06cd8037fb02"
       }
     }

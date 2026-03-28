@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawtributor",
-  "generated_at": "2026-03-27T07:28:03.433Z",
+  "generated_at": "2026-03-28T07:21:23.600Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawtributor#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/davida-ps/clawtributor/SKILL.md",
-        "retrieved_at": "2026-03-27T07:28:03.433Z",
+        "retrieved_at": "2026-03-28T07:21:23.600Z",
         "content_sha256": "e4c2d4e1e805d757430d1759e62fa5c6c96748a4260373d808b96eeafe4a1da5"
       }
     }

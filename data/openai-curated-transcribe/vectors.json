@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-transcribe",
-  "generated_at": "2026-03-27T07:25:23.236Z",
+  "generated_at": "2026-03-28T07:18:58.078Z",
   "records": [
     {
       "id": "skills/openai-curated-transcribe#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/transcribe/SKILL.md",
-        "retrieved_at": "2026-03-27T07:25:23.236Z",
+        "retrieved_at": "2026-03-28T07:18:58.078Z",
         "content_sha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09"
       }
     }

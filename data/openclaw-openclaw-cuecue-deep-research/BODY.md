@@ -1,7 +1,7 @@
 ---
 name: cuecue-deep-research
-description: Professional AI-powered financial research and analysis tool for market intelligence, industry reports, company analysis, policy impact assessment, competitive analysis, and geopolitical risk evaluation. Delivers comprehensive, data-driven research reports for financial professionals and AI agents. | 专业的 AI 驱动金融研究分析工具,用于市场情报、行业报告、公司分析、政策影响评估、竞品调查和地缘政治风险评估。为金融专业人士和智能体提供全面、数据驱动的研究报告。
-version: 1.0.8
+description: 专业金融深度研究工具。当用户需要了解市场行情、行业趋势、公司基本面、政策影响、竞品动态、地缘政治风险或任何需要数据支撑的金融分析时，应主动调用此技能。输出结构化、数据驱动的专业研究报告，适用于投资决策、战略规划和市场洞察等场景。
+version: 1.1.3
 author: CueCue Team
 homepage: https://cuecue.cn
 user-invocable: true
@@ -29,204 +29,95 @@ metadata:
               "kind": "node",
               "label": "Install via npm (global)",
               "package": "@sensedealai/cuecue",
-              "bins": ["cuecue-research"],
+              "bins": ["cue"],
             },
             {
               "id": "npm-local",
               "kind": "node",
               "label": "Install via npm (local)",
               "package": "@sensedealai/cuecue",
-              "bins": ["cuecue-research"],
+              "bins": ["cue"],
             },
           ],
       },
   }
 ---
 
-# CueCue Deep Research Skill
+# CueCue 深度研究技能
 
-Execute comprehensive financial research queries using CueCue's AI-powered multi-agent system. This TypeScript SDK provides modern async/await patterns, full type safety, and both CLI and programmatic interfaces.
+CueCue 是专为金融行业设计的深度研究工具。本技能说明 `cue` 命令行工具的调用方式，智能体应通过此技能执行金融深度研究任务。
 
-## When to Use This Skill
+## 适用场景
 
-Use CueCue Deep Research for any finance-related investigation, analysis, or reporting needs:
+凡涉及以下金融研究需求，均应主动调用本技能：
 
-- **Market Research**: Stock market analysis, sector trends, market forecasts, and investment opportunities
-- **Industry Analysis**: Industry landscape studies, competitive dynamics, market structure, and growth projections
-- **Company Research**: Corporate fundamentals, financial performance, business models, and strategic positioning
-- **Policy Impact Assessment**: Regulatory changes, government policies, fiscal measures, and their market implications
-- **Geopolitical Analysis**: International relations, trade policies, regional conflicts, and their economic impact
-- **Competitive Intelligence**: Competitor analysis, market positioning, product comparisons, and strategic benchmarking
-- **Sentiment Analysis**: Public opinion tracking, media coverage analysis, and stakeholder perception studies
-- **Regional Studies**: Geographic market analysis, local economic conditions, and regional investment opportunities
+- **市场调研**：股票市场分析、行业趋势研判、市场预测与投资机会识别
+- **行业分析**：行业格局梳理、竞争动态追踪、市场结构与增长预测
+- **公司研究**：企业基本面分析、财务表现评估、商业模式与战略定位研究
+- **政策影响评估**：监管政策解读、政府措施分析及其对市场的影响评估
+- **地缘政治分析**：国际关系、贸易政策、区域冲突及其经济影响研判
+- **竞品情报**：竞争对手分析、市场定位对比、产品差异化与战略基准研究
+- **舆情分析**：公众舆论监测、媒体报道分析与利益相关方认知研究
+- **区域市场研究**：地理市场分析、区域经济状况与投资机会评估
 
-This tool delivers accurate, comprehensive research reports that serve as reliable references for AI agents and financial professionals making data-driven decisions.
+本工具输出结构化、数据驱动的专业研究报告，为智能体和金融专业人士的决策提供可靠依据。
 
-## 何时使用此技能
+## 调用说明
 
-CueCue 深度研究适用于任何金融相关的调研、分析或报告需求:
+本技能通过 `cue` 命令行工具执行研究任务。智能体应使用 `exec` 直接调用 `cue` 命令，**不得**使用 `sessions_spawn` 方式调用。
 
-- **市场调研**: 股市分析、行业趋势、市场预测和投资机会
-- **行业分析**: 行业格局研究、竞争动态、市场结构和增长预测
-- **公司研究**: 企业基本面、财务表现、商业模式和战略定位
-- **政策影响评估**: 监管变化、政府政策、财政措施及其市场影响
-- **地缘政治分析**: 国际关系、贸易政策、区域冲突及其经济影响
-- **竞品情报**: 竞争对手分析、市场定位、产品对比和战略基准
-- **舆情分析**: 公众舆论追踪、媒体报道分析和利益相关方认知研究
-- **区域研究**: 地理市场分析、地方经济状况和区域投资机会
+## 命令行参考
 
-本工具提供准确、全面的研究报告,为智能体和金融专业人士的数据驱动决策提供可靠参考。
+CLI 命令为 `cue`，使用 `cue research <query>`（或 `cue r <query>`）执行研究查询。
 
-## What This Skill Does
+### 全局选项
 
-CueCue Deep Research orchestrates multiple AI agents to:
+| 选项 | 说明 |
+|------|------|
+| `--api-key KEY` | CueCue API 密钥（默认读取 `CUECUE_API_KEY` 环境变量） |
+| `--base-url URL` | CueCue API 基础地址（默认为 `https://cuecue.cn`） |
 
-1. **Analyze** your research question and break it down into actionable tasks
-2. **Research** using web crawling, financial databases, and knowledge retrieval
-3. **Synthesize** findings into a comprehensive markdown report
-4. **Generate** a shareable report URL
+### `cue research <query>` 选项
 
-The skill filters the verbose agent workflow to show only:
-- 📋 Task titles (from the supervisor agent)
-- 📝 Final research report (from the reporter agent)
-- 🔗 Report URL for web viewing
+| 选项 | 必填 | 说明 |
+|------|------|------|
+| `query` | Y | 研究问题或主题 |
+| `--conversation-id ID` | N | 继续已有对话 |
+| `--template-id ID` | N | 使用预定义研究模板（不可与 `--mimic-url` 同时使用） |
+| `--mimic-url URL` | N | 模仿指定 URL 的写作风格（不可与 `--template-id` 同时使用） |
+| `--output`, `-o FILE` | Y | 将报告保存为文件（Markdown 格式）。推荐格式：`~/cue-reports/YYYY-MM-DD-HH-MM-描述性名称.md`（例如 `~/cue-reports/2026-01-30-12-41-tesla-analysis.md`），`~` 会自动展开为主目录。 |
+| `--verbose`, `-v` | N | 启用详细日志 |
+| `--foreground` | N | 在前台运行（默认：后台运行） |
+| `--openclaw-channel CHANNEL` | Y | OpenClaw 通知渠道名称（如 `feishu`） |
+| `--openclaw-channel-id ID` | Y | OpenClaw 通知渠道 ID，**必须使用当前对话的 channel-id** |
+| `--help`, `-h` | N | 显示帮助信息 |
 
-⏱️ **Execution Time**: Depending on the complexity of your research question, the process may take **5-30 minutes**. The system performs comprehensive research including web crawling, data analysis, and report generation. Please be patient and wait for the complete results.
+### `cue config <subcommand>` 选项
 
-## For AI Assistants
+| 子命令 | 说明 |
+|--------|------|
+| `cue config set <key> <value>` | 保存配置项（如 `cue config set api_key YOUR_KEY`） |
+| `cue config get [key]` | 获取配置项，不指定 key 则列出所有配置 |
 
-**Important**: When using this skill, you MUST monitor the research progress by checking the command output:
+## 故障排查
 
-1. **Progress Monitoring**: The research process outputs progress information in real-time. You should check the output **every 5 minutes** to:
-   - Verify the research is still running
-   - Report task progress to the user (📋 Task updates)
-   - Detect any errors or issues
-   - Inform the user when report generation begins (📝 Generating Report...)
+### 401 未授权
+- 确认 API 密钥填写正确
+- 检查 API 密钥是否已过期
+- 确认账号具有相应访问权限
 
-2. **Progress URL**: The command will output a URL like "Research begin. You can view progress at: https://cuecue.cn/c/..." - this URL is for **human users** to view the web interface, NOT for you to fetch. You should monitor progress through the command's stdout output.
+### 连接超时
+- 确认 base URL 配置正确
+- 检查本地网络连接状态
+- 超时不代表任务失败，研究任务可能仍在服务端处理中，可通过网页界面查看进度
 
-3. **User Communication**: Keep the user informed about:
-   - When research begins
-   - Each major task that starts
-   - When report generation begins
-   - When research completes
-   - Any errors or timeouts
+### 报告内容为空
+- 确保研究问题表述清晰、具体
+- 查看服务端日志中的错误信息
+- 尝试简化查询以排查连接问题
 
-4. **Timeout Handling**: If the command appears to hang or timeout, inform the user that the research may still be processing on the server, and they can check the web interface URL.
+## 支持
 
-5. **User-Facing Communication Style**: When informing users about progress monitoring:
-   - ✅ **DO SAY**: "我会每 5 分钟自动检查进度并汇报" / "I'll check progress every 5 minutes and update you"
-   - ✅ **DO SAY**: "研究完成后我会总结关键发现" / "I'll summarize key findings when complete"
-   - ❌ **DON'T SAY**: "我创建了一个 cron 任务" / "I created a cron job"
-   - ❌ **DON'T SAY**: "完成后会删除 cron" / "Will delete the cron when done"
-   - ❌ **DON'T SAY**: Technical implementation details (session IDs, job IDs, internal mechanisms)
-   
-   **Why**: Users care about *what* you'll do, not *how* you do it. Keep communication focused on outcomes and user value, not internal plumbing.
-#### Advanced Options
-
-```typescript
-import { CueCueDeepResearch } from '@sensedealai/cuecue';
-
-const client = new CueCueDeepResearch('your-api-key', 'https://cuecue.cn');
-
-const result = await client.research('Company analysis', {
-  // Continue existing conversation
-  conversationId: 'existing-conversation-id',
-  
-  // Use a predefined template
-  templateId: 'template-id',
-  
-  // Mimic writing style from URL
-  mimicUrl: 'https://example.com/article',
-  
-  // Enable verbose logging
-  verbose: true,
-});
-```
-
-#### Type Definitions
-
-The SDK exports TypeScript types for all interfaces:
-
-```typescript
-import type {
-  ResearchOptions,
-  ResearchResult,
-  SSEEvent,
-  RequestPayload,
-  AgentStartEvent,
-  AgentEndEvent,
-  MessageEvent,
-  FinalSessionStateEvent,
-} from '@sensedealai/cuecue';
-```
-
-
-## Command-Line Options
-
-| Option | Required | Description |
-|--------|----------|-------------|
-| `query` | ✅ | Research question or topic |
-| `--api-key` | ❌ | Your CueCue API key (defaults to `CUECUE_API_KEY` env var) |
-| `--base-url` | ❌ | CueCue API base URL (defaults to `CUECUE_BASE_URL` env var or https://cuecue.cn) |
-| `--conversation-id` | ❌ | Continue an existing conversation |
-| `--template-id` | ❌ | Use a predefined research template (cannot be used with `--mimic-url`) |
-| `--mimic-url` | ❌ | URL to mimic the writing style from (cannot be used with `--template-id`) |
-| `--output`, `-o` | ❌ | Save report to file (markdown format). Recommended format: `~/clawd/cuecue-reports/clawd/cuecue-reports/YYYY-MM-DD-HH-MM-descriptive-name.md` (e.g., `~/clawd/2026-01-30-12-41-tesla-analysis.md`). The `~` will be expanded to your home directory. |
-| `--verbose`, `-v` | ❌ | Enable verbose logging |
-| `--help`, `-h` | ❌ | Show help message |
-
-## Output Format
-
-The skill provides real-time streaming output:
-
-```
-Starting Deep Research: Tesla Q3 2024 Financial Analysis
-
-Check Progress: https://cuecue.cn/c/12345678-1234-1234-1234-123456789abc
-
-📋 Task: Search for Tesla Q3 2024 financial data
-
-📋 Task: Analyze revenue and profit trends
-
-📝 Generating Report...
-
-# Tesla Q3 2024 Financial Analysis
-
-## Executive Summary
-[Report content streams here in real-time...]
-
-✅ Research complete
-
-============================================================
-📊 Research Summary
-============================================================
-Conversation ID: 12345678-1234-1234-1234-123456789abc
-Tasks completed: 2
-Report URL: https://cuecue.cn/c/12345678-1234-1234-1234-123456789abc
-✅ Report saved to: ~/clawd/cuecue-reports/2026-01-30-10-15-tesla-q3-analysis.md
-```
-
-## Troubleshooting
-
-### 401 Unauthorized
-- Verify your API key is correct
-- Check if the API key has expired
-- Ensure you have necessary permissions
-
-### Connection Timeout
-- Verify the base URL is correct
-- Check network connectivity
-- Research queries typically take 5-30 minutes depending on complexity - this is normal
-- If you see a timeout, the research may still be processing on the server - check the web interface
-
-### Empty Report
-- Ensure your research question is clear and specific
-- Check server logs for errors
-- Try a different query to test connectivity
-
-## Support
-
-For issues or questions:
-- [CueCue Website](https://cuecue.cn)
-- Email: cue-admin@sensedeal.ai
+如有问题或疑问：
+- [CueCue 官网](https://cuecue.cn)
+- 邮箱：cue-admin@sensedeal.ai

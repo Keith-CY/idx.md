@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cuecue-deep-research",
-  "generated_at": "2026-03-27T07:26:05.440Z",
+  "generated_at": "2026-03-28T07:19:35.737Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cuecue-deep-research#head",
@@ -19,8 +19,8 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xfgong/cuecue-deep-research/SKILL.md",
-        "retrieved_at": "2026-03-27T07:26:05.440Z",
-        "content_sha256": "7cb0225cc1e213d87c2cdcfff9c0ac6e9f1048778beafc31581d25f5e1d69a05"
+        "retrieved_at": "2026-03-28T07:19:35.737Z",
+        "content_sha256": "94718ec222528fd975dd008b5180596b6fbe3a3eb2e6acb829bc9c0e450cb56a"
       }
     }
   ]

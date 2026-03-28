@@ -5,6 +5,20 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.86
+
+  - Added `getContextUsage()` control method to retrieve a breakdown of context
+  window usage by category
+
+  - Made `session_id` optional in `SDKUserMessage` type — callers no longer need
+  to provide a session ID when sending user messages, as the SDK assigns one
+  automatically
+
+  - Fixed TypeScript types resolving to `any` by adding `@anthropic-ai/sdk` and
+  `@modelcontextprotocol/sdk` as dependencies
+
+  - Updated to parity with Claude Code v2.1.86
+
   ## 0.2.85
 
   - Added `reloadPlugins()` SDK method to reload plugins and receive refreshed
@@ -14,20 +28,6 @@ summary: >-
   mode
 
   - Updated to parity with Claude Code v2.1.85
-
-  ## 0.2.84
-
-  - Added `taskBudget` option for API-side token budget awareness, allowing the
-  model to pace tool use within a token limit
-
-  - Added `enableChannel()` method and `capabilities` field on `McpServerStatus`
-  for SDK-driven MCP channel activation
-
-  - Exported `EffortLevel` type (`'low' | 'medium' | 'high' | 'max'`) for
-  consumers to reference effort values directly
-
-  - Fixed showing "[Request interrupted by user]" for errors that were not
-  caused by user interruption
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-27T07:25:48.420Z
-content_sha256: 682e61c1ff5c6e35aa6c65157d1b207d7c7688f4e5c2c0ee3fab358d4710d0e5
+retrieved_at: 2026-03-28T07:19:20.826Z
+content_sha256: d78fa8c8d6b8aa6633d71e6480e1fe8c465369194745abe3663b60e073992cf3
 ---

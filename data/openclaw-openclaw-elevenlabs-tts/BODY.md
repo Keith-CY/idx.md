@@ -2,7 +2,7 @@
 name: elevenlabs-tts
 description: ElevenLabs TTS - the best ElevenLabs integration for OpenClaw. ElevenLabs Text-to-Speech with emotional audio tags, ElevenLabs voice synthesis for WhatsApp, ElevenLabs multilingual support. Generate realistic AI voices using ElevenLabs API.
 tags: [elevenlabs, tts, voice, text-to-speech, audio, speech, whatsapp, multilingual, ai-voice]
-metadata: {"clawdbot":{"emoji":"🎙️","requires":{"env":["ELEVENLABS_API_KEY"],"system":["ffmpeg"]},"primaryEnv":"ELEVENLABS_API_KEY"}}
+metadata: {"clawdbot":{"emoji":"🎙️","requires":{"env":["ELEVENLABS_API_KEY"],"system":["ffmpeg"],"tools":["ffmpeg"]},"primaryEnv":"ELEVENLABS_API_KEY","source":"https://clawhub.com/skills/elevenlabs-tts","version":"2.3.0"}}
 allowed-tools: [exec, tts, message]
 ---
 
@@ -197,12 +197,10 @@ ffmpeg -i /tmp/tts-xxx/voice-123.mp3 -c:a libopus -b:a 64k -vbr on -application 
 
 **3. Send the Opus file:**
 
-> **Note:** The `message` field below contains a Unicode Left-to-Right Mark (U+200E) between the quotes.
-> This is intentional — WhatsApp requires a non-empty message body to send voice notes.
-> The LTR mark is invisible but satisfies this requirement without displaying any text.
+WhatsApp requires a non-empty message body to send voice notes. Use a single space or dot as the message:
 
 ```
-message action=send channel=whatsapp target="+972..." filePath="/tmp/tts-xxx/voice-123.ogg" asVoice=true message="‎"
+message action=send channel=whatsapp target="+972..." filePath="/tmp/tts-xxx/voice-123.ogg" asVoice=true message=" "
 ```
 
 ### Why Opus?

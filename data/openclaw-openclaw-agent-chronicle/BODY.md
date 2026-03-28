@@ -1,7 +1,7 @@
 ---
 name: agent-chronicle
-version: 0.6.2
-description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, and Relationship Evolution. Generates personal, emotional entries from the agent's perspective. Works best with Claude models (Haiku, Sonnet, Opus).
+version: 0.7.1
+description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, Relationship Evolution, mood analytics, weekly digests, "On This Day" resurfacing, and cron auto-generation. Works best with Claude models (Haiku, Sonnet, Opus).
 metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed. Uses OpenClaw sessions_spawn."}}}
 ---
 
@@ -13,12 +13,16 @@ Agent Chronicle generates rich, reflective diary entries from the agent's perspe
 
 > **Note:** Works with any capable model. For best results, we recommend Claude models (Haiku, Sonnet, or Opus).
 
-**v0.4.0 Features:**
+**v0.7.0 Features:**
 - 🤖 **AI-Powered Generation** - Rich, personal entries (400-600 words)
 - 💬 **Quote Hall of Fame** - Collects memorable things your human said
 - 🔮 **Curiosity Backlog** - Tracks questions and things to explore
 - 🏛 **Decision Archaeology** - Logs judgment calls with reasoning
 - 🤝 **Relationship Evolution** - Documents how your dynamic grows
+- 🔙 **"On This Day" Resurfacing** - Surfaces entries from 7, 30, and 365 days ago
+- 📊 **Mood & Pattern Analytics** - Emotional trends, topic tracking, win/frustration analysis
+- ⏰ **Cron Auto-Generation** - Automated daily diary generation via `--auto`
+- 📋 **Weekly Digest** - Synthesized weekly summaries with quotes, wins, and mood trends
 
 Unlike traditional logs that track user productivity or agent mistakes, this skill captures the subjective experience of being an AI assistant working alongside a human.
 
@@ -428,6 +432,190 @@ During onboarding, you'll be asked:
 
 ---
 
+---
+
+## "On This Day" Resurfacing 🔙
+
+When generating a new diary entry, Agent Chronicle automatically checks for entries from **7 days**, **30 days**, and **365 days ago**. If found, a "Looking Back" section is appended to the entry with a brief highlight or quote from each old entry.
+
+### How It Works
+
+- Runs automatically during `generate.py --today`, `--from-stdin`, or `--from-file`
+- Reads old entries from the configured `diary_path`
+- Extracts the Summary or first meaningful paragraph as a highlight
+- Adds a `## 🔙 Looking Back` section at the end of the new entry
+
+### Disable
+
+```bash
+python3 scripts/generate.py --today --no-looking-back
+```
+
+---
+
+## Mood & Pattern Analytics 📊
+
+Analyze your diary entries for emotional trends, recurring topics, wins, and frustrations.
+
+### Commands
+
+**Analyze all entries:**
+```bash
+python3 scripts/analyze.py
+```
+
+**Analyze last 7 days:**
+```bash
+python3 scripts/analyze.py --days 7
+```
+
+**Analyze last 30 days:**
+```bash
+python3 scripts/analyze.py --days 30
+```
+
+**Save report to file:**
+```bash
+python3 scripts/analyze.py --output mood-report.md
+```
+
+**JSON output (for programmatic use):**
+```bash
+python3 scripts/analyze.py --json
+```
+
+### What It Shows
+
+- **Mood Timeline** — Sparkline + emoji timeline of daily mood scores
+- **Mood Distribution** — Breakdown of joyful/happy/calm/mixed/frustrated/sad days
+- **Recurring Topics** — Most mentioned technical topics and themes
+- **Wins Compilation** — All recent wins extracted from entries
+- **Recurring Frustrations** — Common pain points
+- **Insights** — Trend detection, best/worst days, win/frustration ratio
+
+### Agent Command
+```
+@diary mood
+@diary topics
+@diary wins
+```
+
+---
+
+## Auto-Generation via Cron ⏰
+
+Generate diary entries automatically on a schedule using OpenClaw cron.
+
+### Usage
+
+```bash
+# Auto-generate: emits task JSON for sub-agent spawning
+python3 scripts/generate.py --auto
+```
+
+The `--auto` flag:
+- Uses today's date automatically
+- Skips generation if an entry already exists for today
+- Emits a sub-agent task JSON (for `sessions_spawn`)
+- Requires no user interaction
+
+### Configuration
+
+Enable in `config.json`:
+```json
+{
+  "auto_generate": true
+}
+```
+
+### OpenClaw Cron Setup
+
+Add to your OpenClaw config (`~/.openclaw/config.yaml` or similar):
+
+```yaml
+cron:
+  - id: daily-diary
+    schedule: "0 23 * * *"       # Every day at 11 PM
+    task: |
+      Generate today's diary entry using agent-chronicle.
+      Run: python3 /path/to/skills/agent-chronicle/scripts/generate.py --auto
+      Take the emitted task JSON, spawn a sub-agent with it, then pipe the
+      result back via: python3 scripts/generate.py --today --from-stdin
+    channel: telegram             # Optional: notify channel on completion
+```
+
+Or use the two-step flow in a shell script:
+```bash
+#!/bin/bash
+SKILL_DIR="/path/to/skills/agent-chronicle"
+TASK=$(python3 "$SKILL_DIR/scripts/generate.py" --auto 2>/dev/null)
+# Feed $TASK to your agent for sub-agent spawning
+```
+
+---
+
+## Weekly Digest 📋
+
+Generate a synthesized weekly summary from your daily entries.
+
+### Usage
+
+**Generate digest for current week:**
+```bash
+python3 scripts/digest.py
+```
+
+**Generate for a specific week (by any date in that week):**
+```bash
+python3 scripts/digest.py --date 2026-03-20
+```
+
+**Emit sub-agent task for AI-powered digest:**
+```bash
+python3 scripts/digest.py --emit-task
+```
+
+**Read AI-generated digest from stdin:**
+```bash
+python3 scripts/digest.py --from-stdin
+```
+
+**Preview without saving:**
+```bash
+python3 scripts/digest.py --dry-run
+```
+
+### Output
+
+Saved as `YYYY-WXX-weekly.md` in the diary directory (e.g., `2026-W13-weekly.md`).
+
+### What's Included
+
+- **Week at a Glance** — Overall arc summary
+- **Top Quotes** — Best quotes from the week
+- **Biggest Wins** — Most significant achievements
+- **Resolved Curiosities** — Questions that got answered
+- **Mood Trend** — Emotional arc with sparkline
+- **Key Decisions** — Important judgment calls
+- **Patterns & Observations** — Recurring themes
+
+### Agent Command
+```
+@diary weekly
+```
+
+### Cron Setup for Weekly Digest
+```yaml
+cron:
+  - id: weekly-digest
+    schedule: "0 22 * * 0"       # Every Sunday at 10 PM
+    task: |
+      Generate this week's diary digest using agent-chronicle.
+      Run: python3 /path/to/skills/agent-chronicle/scripts/digest.py
+```
+
+---
+
 ## Configuration
 
 ### config.json
@@ -564,6 +752,7 @@ memory/
 │   ├── 2026-01-29.md      # Daily entry
 │   ├── 2026-01-30.md      # Daily entry
 │   ├── 2026-01-31.md      # Daily entry
+│   ├── 2026-W05-weekly.md # Weekly digest
 │   ├── quotes.md          # Quote Hall of Fame
 │   ├── curiosity.md       # Curiosity Backlog
 │   ├── decisions.md       # Decision Archaeology
@@ -589,14 +778,52 @@ python3 scripts/setup.py --check
 # From today's sessions
 python3 scripts/generate.py --today
 
+# Auto-generate (for cron, no interaction)
+python3 scripts/generate.py --auto
+
 # From date range
 python3 scripts/generate.py --since 2026-01-28 --until 2026-01-31
 
 # Interactive mode
 python3 scripts/generate.py --interactive
 
+# Skip "Looking Back" section
+python3 scripts/generate.py --today --no-looking-back
+
 # Dry run (preview only)
 python3 scripts/generate.py --today --dry-run
+```
+
+### analyze.py
+
+```bash
+# Mood analytics for all entries
+python3 scripts/analyze.py
+
+# Last 7 days
+python3 scripts/analyze.py --days 7
+
+# Save report
+python3 scripts/analyze.py --output mood-report.md
+
+# JSON output
+python3 scripts/analyze.py --json
+```
+
+### digest.py
+
+```bash
+# Weekly digest for current week
+python3 scripts/digest.py
+
+# For a specific week
+python3 scripts/digest.py --date 2026-03-20
+
+# Emit sub-agent task
+python3 scripts/digest.py --emit-task
+
+# Dry run
+python3 scripts/digest.py --dry-run
 ```
 
 ### export.py
@@ -704,6 +931,13 @@ My human was patient during the debugging session. Good collaborative energy. Th
 - Run `python3 scripts/setup.py` again
 
 ## Changelog
+
+### v0.7.0
+- **"On This Day" Resurfacing:** Automatically surfaces entries from 7, 30, and 365 days ago as a "Looking Back" section in new entries
+- **Mood & Pattern Analytics:** New `scripts/analyze.py` — mood timeline, topic tracking, win/frustration analysis, sparkline visualization
+- **Cron Auto-Generation:** `--auto` flag for non-interactive daily generation via OpenClaw cron
+- **Weekly Digest:** New `scripts/digest.py` — synthesized weekly summaries with quotes, wins, decisions, mood trends
+- **New CLI flags:** `--no-looking-back`, `--auto`, `--json` (analyze), `--output` (analyze)
 
 ### v0.5.0
 - **Privacy Cleanup:** Removed all hardcoded personal references from prompts

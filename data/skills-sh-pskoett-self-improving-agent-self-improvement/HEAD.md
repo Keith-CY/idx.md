@@ -38,6 +38,6 @@ upstream_ref: https://skills.sh/pskoett/self-improving-agent/self-improvement
 github_stars: 5
 github_forks: 2
 github_is_organization: false
-retrieved_at: 2026-03-27T07:27:23.040Z
+retrieved_at: 2026-03-28T07:20:47.892Z
 content_sha256: 6234697e11dba69808d105f9cf9c96879a23301a707ceb37f0a0ae50fa2e381b
 ---

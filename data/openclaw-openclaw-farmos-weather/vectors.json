@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-farmos-weather",
-  "generated_at": "2026-03-27T07:28:10.790Z",
+  "generated_at": "2026-03-28T07:21:30.811Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-farmos-weather#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brianppetty/farmos-weather/SKILL.md",
-        "retrieved_at": "2026-03-27T07:28:10.790Z",
+        "retrieved_at": "2026-03-28T07:21:30.811Z",
         "content_sha256": "6cea5868f89e5b0359947aa071e76c761999d27b13a855b5b370bc390272305f"
       }
     }

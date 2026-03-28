@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-card-provisioning",
-  "generated_at": "2026-03-27T07:27:32.244Z",
+  "generated_at": "2026-03-28T07:20:56.414Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-card-provisioning#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/proxyhq/agent-card-provisioning/SKILL.md",
-        "retrieved_at": "2026-03-27T07:27:32.244Z",
+        "retrieved_at": "2026-03-28T07:20:56.414Z",
         "content_sha256": "5fbe05796b79165b686938c29cfb0e2e1b9b536eb4c0763b57141828f990ab18"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-notion-knowledge-capture",
-  "generated_at": "2026-03-27T07:25:22.604Z",
+  "generated_at": "2026-03-28T07:18:57.675Z",
   "records": [
     {
       "id": "skills/openai-curated-notion-knowledge-capture#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/notion-knowledge-capture/SKILL.md",
-        "retrieved_at": "2026-03-27T07:25:22.604Z",
+        "retrieved_at": "2026-03-28T07:18:57.675Z",
         "content_sha256": "b49383b229bc766190ea22bb58502cfcf7e08449f5fce55a104eef1e54e27f00"
       }
     }

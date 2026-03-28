@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/flowstudio-power-automate
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-03-27T07:25:36.475Z
+retrieved_at: 2026-03-28T07:19:10.018Z
 content_sha256: 1c069fb0b4532e8e81ab4e89348f5650ef77ece3d99cbf9bda32522cb93938eb
 ---

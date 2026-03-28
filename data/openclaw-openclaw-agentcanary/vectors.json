@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentcanary",
-  "generated_at": "2026-03-27T07:27:38.071Z",
+  "generated_at": "2026-03-28T07:21:01.632Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentcanary#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrcerq/agentcanary/SKILL.md",
-        "retrieved_at": "2026-03-27T07:27:38.071Z",
+        "retrieved_at": "2026-03-28T07:21:01.632Z",
         "content_sha256": "cb772b786ac2db69d1674f731a959c11b23fa2be210ca133e9054af096a8e6c0"
       }
     }
