@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-anime-lookup",
-  "generated_at": "2026-03-28T07:21:07.610Z",
+  "generated_at": "2026-03-29T07:24:31.798Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-anime-lookup#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffaf/anime-lookup/SKILL.md",
-        "retrieved_at": "2026-03-28T07:21:07.610Z",
+        "retrieved_at": "2026-03-29T07:24:31.798Z",
         "content_sha256": "033c2c281244ca5bc0bb2981c57b36c0e318b940c06d077e0760bed01fba0dfa"
       }
     }

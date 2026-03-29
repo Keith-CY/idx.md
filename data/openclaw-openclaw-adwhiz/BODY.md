@@ -1,7 +1,7 @@
 ---
 name: adwhiz
 description: >
-  Manage Google Ads & Meta (Facebook) Ads from your AI coding tool. 99 MCP
+  Manage Google Ads & Meta (Facebook) Ads from your AI coding tool. 102 MCP
   tools for auditing, creating, and optimizing ad accounts using natural language.
 metadata:
   openclaw:
@@ -18,7 +18,7 @@ metadata:
 
 AdWhiz is a hosted MCP server that connects your AI coding tool to the
 Google Ads API and Meta (Facebook) Graph API through a secure, authenticated
-proxy. It exposes **99 tools** across 7 categories so you can audit, create,
+proxy. It exposes **102 tools** across 7 categories so you can audit, create,
 and manage ad campaigns across both platforms using plain English.
 
 All API calls are authenticated via your personal `ADWHIZ_API_KEY` and routed
@@ -37,7 +37,7 @@ after you link your ad accounts at https://adwhiz.ai/connect.
   status by default. Meta write tools require explicit status parameters.
 - **Mutation logging**: Every mutation is recorded in the `get_operation_log`
   tool for full auditability.
-- **Read-only by default**: 36 of 99 tools are strictly read-only and cannot
+- **Read-only by default**: 39 of 102 tools are strictly read-only and cannot
   modify your accounts.
 - **Confirmation required**: Write tools require user confirmation before
   executing via the agent's standard permission flow.
@@ -137,15 +137,15 @@ after you link your ad accounts at https://adwhiz.ai/connect.
 |------|-------------|
 | `run_gaql_query` | Execute a read-only GAQL query against your account (max 1,000 rows, SELECT only) |
 
-## Meta (Facebook) Ads Tools (29)
+## Meta (Facebook) Ads Tools (32)
 
-### Meta Read (13 tools) — Read-only
+### Meta Read (15 tools) — Read-only
 | Tool | Description |
 |------|-------------|
 | `meta_list_ad_accounts` | List all connected Meta ad accounts |
 | `meta_list_campaigns` | List campaigns with status, objective, budget |
 | `meta_get_campaign_insights` | Per-campaign metrics: spend, clicks, CTR, CPA, frequency (with optional breakdowns) |
-| `meta_list_ad_sets` | List ad sets with targeting, status, budget |
+| `meta_list_ad_sets` | List ad sets with targeting, status, budget, and promoted_object |
 | `meta_list_ads` | List ads with creative details (title, body, image URL) |
 | `meta_get_account_insights` | Account-level aggregated metrics with daily breakdown |
 | `meta_get_ad_set_insights` | Per-ad-set performance metrics: spend, clicks, CPA, frequency |
@@ -155,8 +155,10 @@ after you link your ad accounts at https://adwhiz.ai/connect.
 | `meta_search_geo_locations` | Search geographic locations for targeting |
 | `meta_estimate_audience_size` | Estimate reach of a targeting spec |
 | `meta_get_account_pages` | List Facebook pages available for running ads |
+| `meta_get_change_history` | View recent changes (audit log) — who changed what and when |
+| `meta_get_instagram_media` | List Instagram media with Media V2 IDs for partnership/branded content ads |
 
-### Meta Write (15 tools) — Requires user confirmation
+### Meta Write (16 tools) — Requires user confirmation
 | Tool | Description |
 |------|-------------|
 | `meta_set_campaign_status` | Pause or activate a Meta campaign |
@@ -165,7 +167,7 @@ after you link your ad accounts at https://adwhiz.ai/connect.
 | `meta_set_ad_status` | Pause or activate a Meta ad |
 | `meta_create_campaign` | Create a new Meta campaign with objective and budget |
 | `meta_create_ad_set` | Create an ad set with targeting, budget, optimization goal |
-| `meta_create_ad_creative` | Create ad creative with image/video, link, CTA |
+| `meta_create_ad_creative` | Create ad creative with image/video, link, CTA. Supports partnership ads via `source_instagram_media_id` or `object_story_id` |
 | `meta_create_ad` | Create an ad linking an ad set to a creative |
 | `meta_update_campaign` | Update campaign name, budget, end time, spend cap |
 | `meta_update_ad_set` | Update ad set name, budget, targeting, schedule |
@@ -173,6 +175,7 @@ after you link your ad accounts at https://adwhiz.ai/connect.
 | `meta_create_custom_audience` | Create custom audience from customer lists or website visitors |
 | `meta_create_lookalike_audience` | Create lookalike audience from source audience |
 | `meta_upload_ad_image` | Upload image from URL for ad creatives |
+| `meta_upload_partnership_video` | Upload Instagram creator video via partnership ad code for branded content ads |
 | `meta_duplicate_campaign` | Duplicate campaign with all ad sets and ads |
 
 ### Meta Audit (1 tool) — Read-only analysis
@@ -202,7 +205,7 @@ packages are downloaded or executed at runtime.
 ## REST API (Alternative to MCP)
 
 For platforms that cannot use the MCP protocol (GPT Actions, Dify, Coze, or
-any HTTP-based workflow), AdWhiz also exposes all 99 tools as a standard
+any HTTP-based workflow), AdWhiz also exposes all 102 tools as a standard
 REST API with an OpenAPI 3.1.0 spec:
 
 - **OpenAPI spec**: https://mcp.adwhiz.ai/api/v1/openapi.json
@@ -218,7 +221,7 @@ curl -X POST https://mcp.adwhiz.ai/api/v1/tools/list_campaigns \
 ```
 
 Import the OpenAPI spec URL into any platform that supports OpenAPI actions
-to auto-discover all 99 tools.
+to auto-discover all 102 tools.
 
 ## Quick Install
 

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pet",
-  "generated_at": "2026-03-28T07:20:09.150Z",
+  "generated_at": "2026-03-29T07:23:26.639Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pet#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/pet/SKILL.md",
-        "retrieved_at": "2026-03-28T07:20:09.150Z",
+        "retrieved_at": "2026-03-29T07:23:26.639Z",
         "content_sha256": "9818694ee30dfd6d76ff4f5813e11eac37d7e20693f4f396ab20feccbea562d6"
       }
     }

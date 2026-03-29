@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-n8n-api",
-  "generated_at": "2026-03-28T07:20:00.626Z",
+  "generated_at": "2026-03-29T07:23:17.305Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-n8n-api#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/codedao12/n8n-api/SKILL.md",
-        "retrieved_at": "2026-03-28T07:20:00.626Z",
+        "retrieved_at": "2026-03-29T07:23:17.305Z",
         "content_sha256": "8c153507392f2de053f9d25dac4053adabca4a02af160cfc4f0f2e36afa409fb"
       }
     }

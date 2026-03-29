@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-beauty-generation-api",
-  "generated_at": "2026-03-28T07:21:14.247Z",
+  "generated_at": "2026-03-29T07:24:39.557Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-beauty-generation-api#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/luruibu/beauty-generation-api/SKILL.md",
-        "retrieved_at": "2026-03-28T07:21:14.247Z",
+        "retrieved_at": "2026-03-29T07:24:39.557Z",
         "content_sha256": "b42010a9a232b9e540e39a2665138cecf8e8a927dc6ddb380f2d510a656e83d9"
       }
     }

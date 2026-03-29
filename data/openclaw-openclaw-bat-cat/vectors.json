@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bat-cat",
-  "generated_at": "2026-03-28T07:21:13.677Z",
+  "generated_at": "2026-03-29T07:24:38.951Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bat-cat#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/bat-cat/SKILL.md",
-        "retrieved_at": "2026-03-28T07:21:13.677Z",
+        "retrieved_at": "2026-03-29T07:24:38.951Z",
         "content_sha256": "3ac2879a4591a2baaddc1ba0a98f488cf35603bcf3f67c5a365688729d4e7915"
       }
     }

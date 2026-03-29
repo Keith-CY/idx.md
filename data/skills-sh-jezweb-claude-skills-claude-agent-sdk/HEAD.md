@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.87
+
+  - Updated to parity with Claude Code v2.1.87
+
   ## 0.2.86
 
   - Added `getContextUsage()` control method to retrieve a breakdown of context
@@ -23,11 +27,6 @@ summary: >-
 
   - Added `reloadPlugins()` SDK method to reload plugins and receive refreshed
   commands, agents, and MCP server status
-
-  - Fixed PreToolUse hooks with `permissionDecision: "ask"` being ignored in SDK
-  mode
-
-  - Updated to parity with Claude Code v2.1.85
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-28T07:19:20.826Z
-content_sha256: d78fa8c8d6b8aa6633d71e6480e1fe8c465369194745abe3663b60e073992cf3
+retrieved_at: 2026-03-29T07:22:32.555Z
+content_sha256: b9a203fd38ec049e1bcaec33e248b1ec4dfe6fec2ad0a022ef48fc536fd67ff5
 ---

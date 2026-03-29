@@ -22,13 +22,14 @@ summary: >-
   agents can later process these into fixes, and important learnings get
   promoted to project memory.
 
-  ## Quick Reference
+  ## First-Use Initialisation
 
-  | Situation | Action |
+  Before logging anything, ensure the `.learnings/` directory and files exist in
+  the project or workspace root. If any are missing, create them:
 
-  |-----------|--------|
+  ```bash
 
-  | Command/operation fails | Log to `.learnings/ERRORS.md` |
+  mkdir -p .learnings
 tags:
   - skills-sh
   - skills-sh-probed
@@ -38,6 +39,6 @@ upstream_ref: https://skills.sh/pskoett/self-improving-agent/self-improvement
 github_stars: 5
 github_forks: 2
 github_is_organization: false
-retrieved_at: 2026-03-28T07:20:47.892Z
-content_sha256: 6234697e11dba69808d105f9cf9c96879a23301a707ceb37f0a0ae50fa2e381b
+retrieved_at: 2026-03-29T07:24:09.277Z
+content_sha256: a34d1c3407dbaa9a23fdf20f43f4f65c88f07f396cfbf8034c98bf518b8a2d69
 ---

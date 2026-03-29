@@ -22,6 +22,6 @@ upstream_ref: https://github.com/alirezarezvani/claude-skills/blob/main/project-
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-28T07:18:58.620Z
+retrieved_at: 2026-03-29T07:22:08.158Z
 content_sha256: 10ae44b6042d828abd4b7e00629fd20e22b8ee88e2daa7584cb8e96a359fa859
 ---

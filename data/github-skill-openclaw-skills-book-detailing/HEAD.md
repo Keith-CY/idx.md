@@ -17,6 +17,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/edwardrodrigue
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-28T07:19:00.720Z
+retrieved_at: 2026-03-29T07:22:10.749Z
 content_sha256: 27ebdce0de5990a9ebb7282dff6a024086426c0f49ad59fe272fccfc82be86e5
 ---

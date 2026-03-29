@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-niri-ipc",
-  "generated_at": "2026-03-28T07:20:02.310Z",
+  "generated_at": "2026-03-29T07:23:19.036Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-niri-ipc#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/atefr/niri-ipc/SKILL.md",
-        "retrieved_at": "2026-03-28T07:20:02.310Z",
+        "retrieved_at": "2026-03-29T07:23:19.036Z",
         "content_sha256": "e7a49c33974b7cda4a8993d4887579a7be711d5ebdb8410741f619ec3eb4c30a"
       }
     }

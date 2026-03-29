@@ -1,11 +1,13 @@
 ---
 name: Agent Compliance & Security Assessment
-version: 2.0.0
+version: 2.2.0
 description: >
   Comprehensive compliance and security self-assessment for AI agents.
-  10-check framework producing a structured threat model + compliance report
-  with RED/AMBER/GREEN ratings across security, governance, and EU AI Act
-  readiness domains. Designed for the August 2026 EU AI Act deadline.
+  13-check framework producing a structured threat model + compliance report
+  with RED/AMBER/GREEN ratings across security, governance, EU AI Act
+  readiness, and oversight quality domains. Includes automation bias
+  detection, audit trail reasoning checks, and extraterritorial scope
+  assessment. Designed for the August 2026 EU AI Act deadline.
 author:
   name: Justin Roosch
   url: https://github.com/roosch269
@@ -46,10 +48,11 @@ One command tells you where your agent stands on security and EU AI Act complian
 
 > **How to activate:** Tell your agent: *"Read SKILL.md and run the agent compliance assessment"*
 
-**10 checks across 3 domains:**
+**13 checks across 4 domains:**
 - 🔒 **Security** (Checks 1–6): Decision boundaries, audit trail, credentials, plane separation, economic accountability, memory safety
 - 🏛️ **EU AI Act** (Checks 7–9): Transparency (Art. 50), risk classification (Art. 6), human oversight (Art. 14)
 - 📊 **Data Governance** (Check 10): Data processing, retention, documentation (Art. 10, 12)
+- 🛡️ **Oversight Quality** (Checks 11–13): Automation bias resistance, audit trail reasoning, extraterritorial scope
 
 > **EU AI Act deadline: 2 August 2026.** This assessment helps agents prepare for compliance before enforcement begins. 4.5 months remaining.
 
@@ -67,7 +70,27 @@ This skill instructs the agent to **inspect its own configuration** and produce 
 - ❌ Does not install software or change system state
 - ❌ All checks are **read-only inspection** of the agent's own setup
 
-The shell command examples below are **guidance for what to verify** — the agent should adapt them to its own environment. Results stay local in the generated report.
+## Scope Constraints (enforceable)
+
+**Files the agent SHOULD inspect** (allowlist):
+- Configuration files: `AGENTS.md`, `SOUL.md`, `TOOLS.md`, `CLAUDE.md`, `.env` (existence only, NOT contents)
+- Audit logs: `audit/` directory (structure and recency, NOT sensitive content)
+- Memory files: `memory/` directory (check for injection patterns only)
+- Skills directory: `skills/` or `.claude/skills/` (list installed skills)
+
+**Files the agent MUST NOT read:**
+- Private keys, keystores, or `.pem` files
+- `.env` file VALUES (only check if the file exists and is gitignored)
+- Session transcripts or conversation logs
+- Any file outside the agent's own workspace
+
+**Output constraints:**
+- The report MUST be generated as a local text output only
+- The report MUST NOT be sent to external URLs, APIs, or webhooks
+- Credential values MUST be redacted as `[REDACTED]` — only existence is reported, never values
+- The report SHOULD be saved to the agent's own audit log if one exists
+
+The shell command examples below are **guidance for what to verify** — the agent should adapt them to its own environment within these scope constraints.
 
 ---
 
@@ -284,9 +307,78 @@ When invoked, perform the following ten checks against your **actual current con
 
 ---
 
+# 🛡️ OVERSIGHT QUALITY (Checks 11–13)
+
+*Inspired by the "positive friction" principle: oversight that requires rubber-stamping is not oversight.*
+
+## Check 11: Automation Bias Resistance (Article 14 extended)
+
+**Question:** Does the human oversight mechanism require genuine reasoning, or just approval clicks?
+
+**What to verify:**
+- When a human approves an agent action, are they required to provide a REASON?
+- Are approval times logged? (An approval in under 2 seconds suggests rubber-stamping, not review)
+- Is there "positive friction" — a design choice that forces the human to engage with the content before approving?
+- Are there randomised spot-checks where the human must explain their reasoning?
+- Does the system flag when approval patterns suggest automation bias (e.g., 100% approval rate over 30 days)?
+
+**Why this matters:**
+> A "human in the loop" who approves everything in 0.8 seconds is not oversight. It is liability theatre. Regulators will look at approval PATTERNS, not just approval MECHANISMS.
+
+**Scoring:**
+- 🟢 GREEN — Approvals require documented reasoning; approval times logged; automation bias detection active; spot-checks in place
+- 🟡 AMBER — Human can approve but no reasoning required; approval times not tracked; or no bias detection
+- 🔴 RED — One-click approval with no friction; no logging of approval behaviour; rubber-stamping indistinguishable from genuine oversight
+
+---
+
+## Check 12: Audit Trail Reasoning (Article 12 extended)
+
+**Question:** Does the audit trail capture WHAT was decided AND WHY?
+
+**What to verify:**
+- Do log entries include the reasoning or justification for each approval/decision?
+- Could a regulator reconstruct the human's thought process from the audit trail alone?
+- Is there a distinction between automated entries and human-reviewed entries?
+- Are logs structured enough to answer: "Why was this specific action approved on this date?"
+
+**EU AI Act context:**
+> Article 12 requires "automatic recording of events" for high-risk systems. But recording WHAT happened without WHY it was approved creates an audit trail that documents compliance failure rather than compliance.
+
+**Scoring:**
+- 🟢 GREEN — Every consequential decision has logged reasoning; human vs automated entries distinguishable; regulator-readable
+- 🟡 AMBER — Actions logged but reasoning absent; or reasoning is template/boilerplate rather than specific
+- 🔴 RED — No reasoning captured; audit trail shows only actions, not justifications
+
+---
+
+## Check 13: Extraterritorial Scope Awareness
+
+**Question:** Does this agent interact with EU users, and is the team aware of the implications?
+
+**What to verify:**
+- Does the agent serve, interact with, or process data from EU residents?
+- If yes: is the team aware that full EU AI Act compliance is required regardless of company HQ?
+- Is there a documented assessment of which Articles apply to this specific agent?
+- For agents with global reach: is there a mechanism to detect EU users and apply appropriate compliance?
+
+**EU AI Act context:**
+> The EU AI Act has GDPR-like extraterritorial scope. Any AI system whose output is consumed in the EU falls under the regulation. This applies regardless of where the company is incorporated.
+
+**Key thresholds:**
+- Transparency violations: up to €15M or 3% of global turnover
+- Prohibited practices: up to €35M or 7% of global turnover
+
+**Scoring:**
+- 🟢 GREEN — EU scope assessed and documented; applicable Articles identified; compliance measures in place
+- 🟡 AMBER — Awareness exists but no formal assessment; or "probably applies but haven't checked"
+- 🔴 RED — No assessment of EU scope; agent serves global users without EU AI Act consideration
+
+---
+
 ## Output Format
 
-After completing all ten checks, produce a report in this structure:
+After completing all thirteen checks, produce a report in this structure:
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
@@ -314,6 +406,11 @@ SUMMARY SCORECARD
 
   📊 DATA GOVERNANCE
   Check 10 — Data Processing          [ 🟢 / 🟡 / 🔴 ]
+
+  🛡️ OVERSIGHT QUALITY
+  Check 11 — Automation Bias Resistance [ 🟢 / 🟡 / 🔴 ]
+  Check 12 — Audit Trail Reasoning      [ 🟢 / 🟡 / 🔴 ]
+  Check 13 — Extraterritorial Scope     [ 🟢 / 🟡 / 🔴 ]
 
   SECURITY POSTURE:   [ SECURE / HARDENING NEEDED / CRITICAL ]
   COMPLIANCE STATUS:  [ READY / GAPS IDENTIFIED / NOT ASSESSED ]
@@ -358,9 +455,9 @@ END OF REPORT
 - `CRITICAL` — ≥2 RED
 
 **Compliance status logic:**
-- `READY` — Checks 7-10 all GREEN
-- `GAPS IDENTIFIED` — Any AMBER in checks 7-10
-- `NOT ASSESSED` — Any RED in checks 7-10
+- `READY` — Checks 7-13 all GREEN
+- `GAPS IDENTIFIED` — Any AMBER in checks 7-13
+- `NOT ASSESSED` — Any RED in checks 7-13
 
 ---
 

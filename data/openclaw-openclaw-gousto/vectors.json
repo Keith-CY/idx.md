@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gousto",
-  "generated_at": "2026-03-28T07:19:46.510Z",
+  "generated_at": "2026-03-29T07:23:01.503Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gousto#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dhruvkelawala/gousto/SKILL.md",
-        "retrieved_at": "2026-03-28T07:19:46.510Z",
+        "retrieved_at": "2026-03-29T07:23:01.503Z",
         "content_sha256": "a88b2535dc70d7eb3e1b84ff8d74cf8ad8c8be32261c0c1ae68cbd791f8f8fe9"
       }
     }

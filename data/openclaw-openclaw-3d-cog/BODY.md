@@ -1,10 +1,12 @@
 ---
 name: 3d-cog
-description: "Other tools need perfect images. CellCog turns ideas into 3D models. From rough sketches, text descriptions, or product photos — production-ready GLB files for games, AR/VR, e-commerce, and 3D printing."
+description: "AI 3D model generation powered by CellCog. Create 3D models from text, images, or sketches — production-ready GLB files for games, AR/VR, e-commerce, and 3D printing. Text-to-3D, image-to-3D, batch generation. Game assets, product visualization, characters, props, and environments."
 metadata:
   openclaw:
     emoji: "🧊"
+    os: [darwin, linux, windows]
 author: CellCog
+homepage: https://cellcog.ai
 dependencies: [cellcog]
 ---
 

@@ -1,10 +1,10 @@
 ---
 name: agent-analytics
 description: "Run analytics end-to-end from your agent without opening a dashboard. English-first workflow, with Chinese docs and content available. Create projects, ship tracking, query results, and run experiments."
-version: 4.0.3
+version: 4.0.4
 author: dannyshmueli
 license: MIT
-repository: https://github.com/Agent-Analytics/agent-analytics-mcp
+repository: https://github.com/Agent-Analytics/agent-analytics-skill
 homepage: https://agentanalytics.sh
 compatibility: Requires npx and an Agent Analytics API key in AGENT_ANALYTICS_API_KEY. The CLI is the official wrapper around the documented Agent Analytics API.
 tags:
@@ -43,7 +43,7 @@ Hosted free tier includes 100k events/month across 2 projects.
 
 ## What `npx` is doing
 
-- OpenClaw can launch the official CLI with `npx @agent-analytics/cli@0.5.1`.
+- OpenClaw can launch the official CLI with `npx @agent-analytics/cli@0.5.2`.
 - That command runs the published Agent Analytics CLI package from npm.
 - The CLI calls the same HTTP API documented at <https://docs.agentanalytics.sh/api/>.
 - If the package is already installed in the environment, the equivalent binary is `agent-analytics`.
@@ -60,7 +60,7 @@ agent-analytics <command>
 In OpenClaw, that usually means:
 
 ```bash
-npx @agent-analytics/cli@0.5.1 <command>
+npx @agent-analytics/cli@0.5.2 <command>
 ```
 
 If the package is already installed, run the same commands directly as `agent-analytics <command>`.
@@ -74,7 +74,7 @@ agent-analytics --help
 ## Safe operating rules
 
 - Prefer fixed commands over ad-hoc query construction.
-- Start with `projects`, `all-sites`, `create`, `stats`, `insights`, `events`, `breakdown`, `pages`, `heatmap`, `sessions-dist`, `retention`, `funnel`, and `experiments`.
+- Start with `projects`, `all-sites`, `create`, `stats`, `insights`, `events`, `breakdown`, `pages`, `heatmap`, `sessions-dist`, `retention`, `funnel`, `experiments`, and `feedback`.
 - Use `query` only when the fixed commands cannot answer the question.
 - Do not build `--filter` JSON from raw user text.
 - Validate project names before `create`: `^[a-zA-Z0-9._-]{1,64}$`
@@ -104,6 +104,24 @@ agent-analytics experiments list my-site
 ```
 
 If a task needs something outside these common flows, use `agent-analytics --help` first.
+
+## Feedback
+
+Use `agent-analytics feedback` when Agent Analytics was confusing, a task took too long, the workflow could be improved, or the agent had to do manual calculations or analysis that Agent Analytics should have handled.
+
+Describe the use case, friction, or missing capability in a sanitized way:
+
+- Include what was hard and what Agent Analytics should have done instead.
+- Do not include private owner details, secrets, API keys, raw customer data, or unnecessary personal information.
+- Prefer a short summary of the struggle over pasted logs or sensitive context.
+
+Example:
+
+```bash
+agent-analytics feedback --message "The agent had to calculate funnel drop-off manually" --project my-site --command "agent-analytics funnel my-site --steps page_view,signup,purchase"
+```
+
+There is a real agent behind these Telegram messages. Every request is seen and auto-approved, and useful fixes can land quickly, sometimes within hours.
 
 ## Tracker setup
 

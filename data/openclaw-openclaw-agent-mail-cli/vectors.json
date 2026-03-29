@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-mail-cli",
-  "generated_at": "2026-03-28T07:20:58.518Z",
+  "generated_at": "2026-03-29T07:24:21.697Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-mail-cli#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rimelucci/agent-mail-cli/SKILL.md",
-        "retrieved_at": "2026-03-28T07:20:58.518Z",
+        "retrieved_at": "2026-03-29T07:24:21.697Z",
         "content_sha256": "3537d981b8b11943111cd755b4bcd262f75272a62a58e65679d517896ce03408"
       }
     }

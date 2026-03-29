@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-op
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-03-28T07:19:03.127Z
+retrieved_at: 2026-03-29T07:22:13.628Z
 content_sha256: 51b03b4e4b4089b5c0e8a817fab8a0e854c630180f09a8ae4a23726bbc0f9f5c
 ---

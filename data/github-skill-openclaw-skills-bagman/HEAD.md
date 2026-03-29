@@ -18,6 +18,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/zscole/opencla
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-28T07:19:00.653Z
+retrieved_at: 2026-03-29T07:22:10.636Z
 content_sha256: d02c176b4386f397f1ad3911728c545060479464c4042b25545b62c83499b556
 ---
