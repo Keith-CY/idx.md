@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-portainer",
-  "generated_at": "2026-03-29T07:23:28.883Z",
+  "generated_at": "2026-03-30T07:33:05.409Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-portainer#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/asteinberger/portainer/SKILL.md",
-        "retrieved_at": "2026-03-29T07:23:28.883Z",
+        "retrieved_at": "2026-03-30T07:33:05.409Z",
         "content_sha256": "6c754c80f021384b78920a07f6543a0b73f4af6c6f4a4d5acf6c60ab7b170dac"
       }
     }

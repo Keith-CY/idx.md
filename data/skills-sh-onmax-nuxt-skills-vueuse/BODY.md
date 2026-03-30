@@ -194,7 +194,7 @@
 | useElementBounding | Reactive bounding box of an HTML element | [use-element-bounding.md](../composables/use-element-bounding.md) |
 | useElementSize | Reactive size of an HTML element. ResizeObserver MDN | [use-element-size.md](../composables/use-element-size.md) |
 | useElementVisibility | Tracks the visibility of an element within the viewport. | [use-element-visibility.md](../composables/use-element-visibility.md) |
-| useIntersectionObserver | Detects that a target element's visibility. | [use-intersection-observer.md](../composables/use-intersection-observer.md) |
+| useIntersectionObserver | Detects changes to a target element's visibility. | [use-intersection-observer.md](../composables/use-intersection-observer.md) |
 | useMouseInElement | Reactive mouse position related to an element | [use-mouse-in-element.md](../composables/use-mouse-in-element.md) |
 | useMutationObserver | Watch for changes being made to the DOM tree. MutationObs... | [use-mutation-observer.md](../composables/use-mutation-observer.md) |
 | useParentElement | Get parent element of the given element | [use-parent-element.md](../composables/use-parent-element.md) |
@@ -255,7 +255,7 @@
 | useElementByPoint | Reactive element by point. | [use-element-by-point.md](../composables/use-element-by-point.md) |
 | useElementHover | Reactive element's hover state. | [use-element-hover.md](../composables/use-element-hover.md) |
 | useFocus | Reactive utility to track or set the focus state of a DOM... | [use-focus.md](../composables/use-focus.md) |
-| useFocusWithin | Reactive utility to track if an element or one of its dec... | [use-focus-within.md](../composables/use-focus-within.md) |
+| useFocusWithin | Reactive utility to track if an element or one of its des... | [use-focus-within.md](../composables/use-focus-within.md) |
 | useFps | Reactive FPS (frames per second). | [use-fps.md](../composables/use-fps.md) |
 | useGeolocation | Reactive Geolocation API. It allows the user to provide t... | [use-geolocation.md](../composables/use-geolocation.md) |
 | useIdle | Tracks whether the user is being inactive. | [use-idle.md](../composables/use-idle.md) |
@@ -293,11 +293,11 @@
 | useDebouncedRefHistory | Shorthand for with debounced filter. | [use-debounced-ref-history.md](../composables/use-debounced-ref-history.md) |
 | useLastChanged | Records the timestamp of the last change | [use-last-changed.md](../composables/use-last-changed.md) |
 | useLocalStorage | Reactive LocalStorage. | [use-local-storage.md](../composables/use-local-storage.md) |
-| useManualRefHistory | Manually track the change history of a ref when the using... | [use-manual-ref-history.md](../composables/use-manual-ref-history.md) |
+| useManualRefHistory | Manually track the change history of a ref when the user ... | [use-manual-ref-history.md](../composables/use-manual-ref-history.md) |
 | useRefHistory | Track the change history of a ref, also provides undo and... | [use-ref-history.md](../composables/use-ref-history.md) |
 | useSessionStorage | Reactive SessionStorage. | [use-session-storage.md](../composables/use-session-storage.md) |
 | useStorage | Create a reactive ref that can be used to access & modify... | [use-storage.md](../composables/use-storage.md) |
-| useStorageAsync | Reactive Storage in with async support. | [use-storage-async.md](../composables/use-storage-async.md) |
+| useStorageAsync | Reactive Storage with async support. | [use-storage-async.md](../composables/use-storage-async.md) |
 | useThrottledRefHistory | Shorthand for with throttled filter. | [use-throttled-ref-history.md](../composables/use-throttled-ref-history.md) |
 
 ## Time

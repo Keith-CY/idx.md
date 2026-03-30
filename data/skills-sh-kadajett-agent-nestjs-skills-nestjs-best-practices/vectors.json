@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-kadajett-agent-nestjs-skills-nestjs-best-practices",
-  "generated_at": "2026-03-29T07:22:21.740Z",
+  "generated_at": "2026-03-30T07:31:26.851Z",
   "records": [
     {
       "id": "skills/skills-sh-kadajett-agent-nestjs-skills-nestjs-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/kadajett/agent-nestjs-skills/main/SKILL.md",
-        "retrieved_at": "2026-03-29T07:22:21.740Z",
+        "retrieved_at": "2026-03-30T07:31:26.851Z",
         "content_sha256": "b699d2245ddc6b6cdd08d86db0a89903556dc33138acb2d34645b5c2fb319219"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bitbucket-automation",
-  "generated_at": "2026-03-29T07:24:40.629Z",
+  "generated_at": "2026-03-30T07:35:05.533Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bitbucket-automation#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sohamganatra/bitbucket-automation/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:40.629Z",
+        "retrieved_at": "2026-03-30T07:35:05.533Z",
         "content_sha256": "95410a40df4c6a94d7e82475214a3608a0afab35031809e103b6324101b3b413"
       }
     }

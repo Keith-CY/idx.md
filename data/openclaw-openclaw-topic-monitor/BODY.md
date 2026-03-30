@@ -1,6 +1,6 @@
 ---
 name: topic-monitor
-version: 1.5.0
+version: 1.5.2
 description: Monitor topics of interest and proactively alert when important developments occur. Use when the user wants automated monitoring of specific subjects like product releases, news topics, technology updates, RSS/Atom feeds, or GitHub releases. Supports scheduled web search plus feed polling, boolean topic filters, AI importance scoring with sentiment tracking, smart alerts vs weekly digests, and memory-aware contextual summaries.
 metadata: {"openclaw":{"requires":{"bins":["python3"],"env":{"TOPIC_MONITOR_TELEGRAM_ID":"optional - Telegram chat ID for alerts","TOPIC_MONITOR_DATA_DIR":"optional - defaults to .data/ in skill dir","WEB_SEARCH_PLUS_PATH":"optional - defaults to relative path"},"note":"All env vars optional. Defaults work out of the box."}}}
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-origram",
-  "generated_at": "2026-03-29T07:22:12.128Z",
+  "generated_at": "2026-03-30T07:31:14.676Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-origram#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matbalez/origram/SKILL.md",
-        "retrieved_at": "2026-03-29T07:22:12.128Z",
+        "retrieved_at": "2026-03-30T07:31:14.676Z",
         "content_sha256": "d32eca31dba25101031d2b7a3bc99ebad760ff25279675382b30f69e0111de60"
       }
     }

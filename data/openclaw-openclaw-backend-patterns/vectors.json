@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-backend-patterns",
-  "generated_at": "2026-03-29T07:22:40.514Z",
+  "generated_at": "2026-03-30T07:31:49.251Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-backend-patterns#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/charmmm718/backend-patterns/SKILL.md",
-        "retrieved_at": "2026-03-29T07:22:40.514Z",
+        "retrieved_at": "2026-03-30T07:31:49.251Z",
         "content_sha256": "e418ddceb5111238a91d9c78f249e34ee1ea87079711d045ad406836f96bab48"
       }
     }

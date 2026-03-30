@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agenthc-market-intelligence",
-  "generated_at": "2026-03-29T07:24:25.877Z",
+  "generated_at": "2026-03-30T07:34:49.393Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agenthc-market-intelligence#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/traderhc123/agenthc-market-intelligence/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:25.877Z",
+        "retrieved_at": "2026-03-30T07:34:49.393Z",
         "content_sha256": "3428e99d8c68c97656de02a59a63464f7ce20dab0f88399b4273d41fbef3dcb5"
       }
     }

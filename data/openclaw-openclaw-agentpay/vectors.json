@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentpay",
-  "generated_at": "2026-03-29T07:24:27.095Z",
+  "generated_at": "2026-03-30T07:34:50.730Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentpay#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kar69-96/agentpay/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:27.095Z",
+        "retrieved_at": "2026-03-30T07:34:50.730Z",
         "content_sha256": "5c875b5426fef5403a08df4248508f6f76fd3cfc2260888dbd6ee5841c1ab2d3"
       }
     }

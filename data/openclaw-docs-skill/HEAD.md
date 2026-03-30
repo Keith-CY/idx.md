@@ -7,10 +7,10 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying and managing a self-hosted AI agent gateway,
-  configuring messaging channels (WhatsApp, Telegram, Discord, iMessage, etc.),
-  setting up multi-agent routing, creating skills and plugins, or automating
-  agent workflows with cron jobs and webhooks.
+  description: Use when deploying a self-hosted AI agent gateway, configuring
+  multi-channel messaging (WhatsApp, Telegram, Discord, iMessage, etc.),
+  managing agent workspaces and sessions, setting up tools and skills, or
+  troubleshooting gateway operations and channel connectivity.
 
   metadata:
       mintlify-proj: clawdbot
@@ -19,15 +19,17 @@ summary: >-
 
   # OpenClaw Skill Reference
 
-  ## Product Summary
+  ## Product summary
 
   OpenClaw is a self-hosted WebSocket gateway that connects AI agents to
-  multiple messaging platforms (WhatsApp, Telegram, Discord, iMessage, Slack,
-  Signal, and more) in a single process. Agents run on your hardware with full
-  control over data, tools, and configuration. The Gateway manages sessions,
-  channels, routing, and automation. Key files: `~/.openclaw/openclaw.json`
-  (config), `~/.openclaw/workspace/` (agent files), CLI: `openclaw` command.
-  Primary docs: https://docs.openclaw.ai
+  multiple messaging channels (WhatsApp, Telegram, Discord, iMessage, Signal,
+  Slack, and more) simultaneously. Agents run in isolated workspaces with
+  persistent sessions, tools, and memory. The Gateway is the single source of
+  truth for routing, channel connections, and session management. Key files:
+  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent
+  workspace), `~/.openclaw/agents/` (session storage). Primary CLI: `openclaw`
+  with subcommands for setup, configuration, messaging, and gateway management.
+  Full docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -35,6 +37,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-29T07:22:23.016Z
-content_sha256: fae61b0de8469d5e2d57348f9266978da97f7ad99e22d5523d49f674351c29ff
+retrieved_at: 2026-03-30T07:31:29.118Z
+content_sha256: c89c19f67f0dbe5cf918db4c4fc2579e2067c3e985bff12f03ca9a578f3cb641
 ---

@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-tooling
 github_stars: 558
 github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-03-29T07:22:20.772Z
+retrieved_at: 2026-03-30T07:31:25.627Z
 content_sha256: 1951fa339febba1848f178c8107f9b92392b58f0921e132b2c2509d2aecd2dfe
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-birthday-reminder",
-  "generated_at": "2026-03-29T07:24:40.562Z",
+  "generated_at": "2026-03-30T07:35:05.451Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-birthday-reminder#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manantra/birthday-reminder/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:40.562Z",
+        "retrieved_at": "2026-03-30T07:35:05.451Z",
         "content_sha256": "a1b58c58bccd81dc726b5a053c2904fd22a93be0333f821f7ec1f10c43ca7646"
       }
     }

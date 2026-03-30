@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-events",
-  "generated_at": "2026-03-29T07:22:19.450Z",
+  "generated_at": "2026-03-30T07:31:23.841Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-events#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-events-subscribe/SKILL.md",
-        "retrieved_at": "2026-03-29T07:22:19.450Z",
+        "retrieved_at": "2026-03-30T07:31:23.841Z",
         "content_sha256": "5da8dbb52cb00df992191989572d84ae2ca90025b33834cb4f61ece43829feee"
       }
     }

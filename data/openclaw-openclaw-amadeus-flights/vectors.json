@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-amadeus-flights",
-  "generated_at": "2026-03-29T07:24:30.782Z",
+  "generated_at": "2026-03-30T07:34:54.900Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-amadeus-flights#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kirorab/amadeus-flights/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:30.782Z",
+        "retrieved_at": "2026-03-30T07:34:54.900Z",
         "content_sha256": "6e7cc07ad55b862c478b95d26b7c492594a295db31d3c2e05699effb1046757d"
       }
     }

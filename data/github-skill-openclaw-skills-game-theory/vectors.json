@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-game-theory",
-  "generated_at": "2026-03-29T07:22:11.445Z",
+  "generated_at": "2026-03-30T07:31:13.848Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-game-theory#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sp0oby/game-theory/SKILL.md",
-        "retrieved_at": "2026-03-29T07:22:11.445Z",
+        "retrieved_at": "2026-03-30T07:31:13.848Z",
         "content_sha256": "a9a7a91375219e6863e305baf9b0aef1e0123e8ca92e7cd16a37ffe6f95ba706"
       }
     }

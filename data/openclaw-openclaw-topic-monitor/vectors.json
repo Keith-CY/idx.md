@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-topic-monitor",
-  "generated_at": "2026-03-29T07:23:50.469Z",
+  "generated_at": "2026-03-30T07:33:52.798Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-topic-monitor#head",
@@ -19,8 +19,8 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/topic-monitor/SKILL.md",
-        "retrieved_at": "2026-03-29T07:23:50.469Z",
-        "content_sha256": "f1807101aaa93072d2d3278540042ab393410ce1545dbd641e7af42d490abfde"
+        "retrieved_at": "2026-03-30T07:33:52.798Z",
+        "content_sha256": "f0c69ababcea77799560191d4f78fcfee7e69fb553fbbb7c0259975aed564651"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-linkedin-cli",
-  "generated_at": "2026-03-29T07:23:10.223Z",
+  "generated_at": "2026-03-30T07:32:23.048Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-linkedin-cli#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arun-8687/linkedin-cli/SKILL.md",
-        "retrieved_at": "2026-03-29T07:23:10.223Z",
+        "retrieved_at": "2026-03-30T07:32:23.048Z",
         "content_sha256": "44ccb317f9e26c20aa599e612d9001b5448f1899e6007b794a90cd7306c264ed"
       }
     }

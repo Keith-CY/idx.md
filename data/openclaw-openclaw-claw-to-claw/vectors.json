@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claw-to-claw",
-  "generated_at": "2026-03-29T07:24:48.347Z",
+  "generated_at": "2026-03-30T07:35:14.530Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claw-to-claw#head",
@@ -19,7 +19,7 @@
           "category-agent-to-agent-protocols"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tonacy/claw-to-claw/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:48.347Z",
+        "retrieved_at": "2026-03-30T07:35:14.530Z",
         "content_sha256": "41791da180c2b3cd9b3bed0cd8247c897dd71e45ca977eb07600ef7312d713e5"
       }
     }

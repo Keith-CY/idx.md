@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-arc-trust-verifier",
-  "generated_at": "2026-03-29T07:24:35.191Z",
+  "generated_at": "2026-03-30T07:34:59.488Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-arc-trust-verifier#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-trust-verifier/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:35.191Z",
+        "retrieved_at": "2026-03-30T07:34:59.488Z",
         "content_sha256": "dc39432c4baebed89e3beee8b54eb97ca7c732b12b38dedc01dea6b08594a9a5"
       }
     }

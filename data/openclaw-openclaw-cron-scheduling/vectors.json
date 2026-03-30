@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cron-scheduling",
-  "generated_at": "2026-03-29T07:24:52.396Z",
+  "generated_at": "2026-03-30T07:35:19.355Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cron-scheduling#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gitgoodordietrying/cron-scheduling/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:52.396Z",
+        "retrieved_at": "2026-03-30T07:35:19.355Z",
         "content_sha256": "01f3cd349c39a1943bdde367b07ec97a4c66df23f3e06b7e6888170b9c21f868"
       }
     }

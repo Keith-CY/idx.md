@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-0g-compute",
-  "generated_at": "2026-03-29T07:24:09.582Z",
+  "generated_at": "2026-03-30T07:34:20.678Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-0g-compute#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/in-liberty420/0g-compute/SKILL.md",
-        "retrieved_at": "2026-03-29T07:24:09.582Z",
+        "retrieved_at": "2026-03-30T07:34:20.678Z",
         "content_sha256": "83f9dc891c9c22479cd18a6601b86b5f97faad31beb12632802bc8175ed1605a"
       }
     }

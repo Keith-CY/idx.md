@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-firebase-apk-scanner",
-  "generated_at": "2026-03-29T07:22:36.652Z",
+  "generated_at": "2026-03-30T07:31:45.041Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-firebase-apk-scanner#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/references/vulnerabilities.md",
-        "retrieved_at": "2026-03-29T07:22:36.652Z",
+        "retrieved_at": "2026-03-30T07:31:45.041Z",
         "content_sha256": "7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa"
       }
     }

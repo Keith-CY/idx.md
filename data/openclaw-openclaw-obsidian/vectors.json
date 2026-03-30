@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-obsidian",
-  "generated_at": "2026-03-29T07:23:20.634Z",
+  "generated_at": "2026-03-30T07:32:54.174Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-obsidian#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/obsidian/SKILL.md",
-        "retrieved_at": "2026-03-29T07:23:20.634Z",
+        "retrieved_at": "2026-03-30T07:32:54.174Z",
         "content_sha256": "dc45b522a0f08fa11762b330b5355ccaca789bd645b0c450fe75026f69d728b2"
       }
     }
