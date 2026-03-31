@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-softaworks-agent-toolkit-difficult-workplace-conversations",
-  "generated_at": "2026-03-30T07:31:24.787Z",
+  "generated_at": "2026-03-31T07:30:52.450Z",
   "records": [
     {
       "id": "skills/skills-sh-softaworks-agent-toolkit-difficult-workplace-conversations#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/difficult-workplace-conversations/references/conversation-framework.md",
-        "retrieved_at": "2026-03-30T07:31:24.787Z",
+        "retrieved_at": "2026-03-31T07:30:52.450Z",
         "content_sha256": "7bde1cefd202a596a383e612c8bbe9746ff38fe60fbb982b087ce98b244b3139"
       }
     }

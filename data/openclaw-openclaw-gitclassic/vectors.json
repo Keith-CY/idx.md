@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gitclassic",
-  "generated_at": "2026-03-30T07:32:10.754Z",
+  "generated_at": "2026-03-31T07:31:55.980Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gitclassic#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/heythisischris/gitclassic/SKILL.md",
-        "retrieved_at": "2026-03-30T07:32:10.754Z",
+        "retrieved_at": "2026-03-31T07:31:55.980Z",
         "content_sha256": "74ce07c89eb92db1a04fe885e91042650681b196974bcd970989de8178405cb1"
       }
     }

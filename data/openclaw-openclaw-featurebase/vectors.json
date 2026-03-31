@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-featurebase",
-  "generated_at": "2026-03-30T07:32:05.553Z",
+  "generated_at": "2026-03-31T07:31:49.761Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-featurebase#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rdewolff/featurebase/SKILL.md",
-        "retrieved_at": "2026-03-30T07:32:05.553Z",
+        "retrieved_at": "2026-03-31T07:31:49.761Z",
         "content_sha256": "61b9abccb211a45ac4424b51a58c4351855bf3231634958cb4c8d0403daf3a59"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-boshu2-agentops-council",
-  "generated_at": "2026-03-30T07:34:17.365Z",
+  "generated_at": "2026-03-31T07:34:17.620Z",
   "records": [
     {
       "id": "skills/skills-sh-boshu2-agentops-council#head",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/boshu2/agentops/HEAD/skills/council/references/personas.md",
-        "retrieved_at": "2026-03-30T07:34:17.365Z",
-        "content_sha256": "fdcb36c512dcbe16e078fcc46378b39de063fd8aa613c1052575b7dcd1d0aa3d"
+        "retrieved_at": "2026-03-31T07:34:17.620Z",
+        "content_sha256": "789dd22d5bb29ecbc8f2bbc1f81af4f50c6d762fd58f622cdcb4bcb5c5237d8f"
       }
     }
   ]

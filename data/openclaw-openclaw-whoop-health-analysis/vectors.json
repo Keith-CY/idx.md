@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-whoop-health-analysis",
-  "generated_at": "2026-03-30T07:34:07.411Z",
+  "generated_at": "2026-03-31T07:33:59.813Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-whoop-health-analysis#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rodrigouroz/whoop-health-analysis/SKILL.md",
-        "retrieved_at": "2026-03-30T07:34:07.411Z",
+        "retrieved_at": "2026-03-31T07:33:59.813Z",
         "content_sha256": "4f9e99a32c8b5e4ad5224df190894cc885e430eec71de3ab0667beef2af133b9"
       }
     }

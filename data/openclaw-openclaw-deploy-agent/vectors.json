@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-deploy-agent",
-  "generated_at": "2026-03-30T07:32:00.984Z",
+  "generated_at": "2026-03-31T07:31:43.982Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-deploy-agent#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sherajdev/deploy-agent/SKILL.md",
-        "retrieved_at": "2026-03-30T07:32:00.984Z",
+        "retrieved_at": "2026-03-31T07:31:43.982Z",
         "content_sha256": "e17f85869bc87169da5d9e585737c317c94fef833a89a2df8527fd0474f98628"
       }
     }

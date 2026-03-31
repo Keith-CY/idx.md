@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-context-anchor",
-  "generated_at": "2026-03-30T07:35:18.139Z",
+  "generated_at": "2026-03-31T07:35:36.986Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-context-anchor#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/boscoeuk/context-anchor/SKILL.md",
-        "retrieved_at": "2026-03-30T07:35:18.139Z",
+        "retrieved_at": "2026-03-31T07:35:36.986Z",
         "content_sha256": "14454f0336f45a6f6ae9da5c4bb31618ea3d2c209594d3635df3f88249ca5a99"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer",
-  "generated_at": "2026-03-30T07:31:11.516Z",
+  "generated_at": "2026-03-31T07:30:09.051Z",
   "records": [
     {
       "id": "skills/github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-ultimate-guide"
         ],
         "source_url": "https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md",
-        "retrieved_at": "2026-03-30T07:31:11.516Z",
+        "retrieved_at": "2026-03-31T07:30:09.051Z",
         "content_sha256": "28e2abc333417568fb82cb89d8dcf8774ad1ccdf843e8c35512b8aad0b27b89a"
       }
     }

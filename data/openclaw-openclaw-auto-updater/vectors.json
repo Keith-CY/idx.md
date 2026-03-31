@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-auto-updater",
-  "generated_at": "2026-03-30T07:31:30.701Z",
+  "generated_at": "2026-03-31T07:31:00.508Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-auto-updater#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maximeprades/auto-updater/SKILL.md",
-        "retrieved_at": "2026-03-30T07:31:30.701Z",
+        "retrieved_at": "2026-03-31T07:31:00.508Z",
         "content_sha256": "4142916e146caa90d41cd274bdea6263da1738d8ecc81777b7fc19c6bd8ef9f4"
       }
     }

@@ -5,28 +5,32 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.2.87
+  ## 0.2.88
 
-  - Updated to parity with Claude Code v2.1.87
+  - Added `includeSystemMessages` option to `getSessionMessages()` to optionally
+  include system messages in session history
 
-  ## 0.2.86
+  - Added `includeHookEvents` option to enable hook lifecycle messages
+  (`hook_started`, `hook_progress`, `hook_response`) for all hook event types
 
-  - Added `getContextUsage()` control method to retrieve a breakdown of context
-  window usage by category
+  - Fixed error result messages (`error_during_execution`, `error_max_turns`,
+  `error_max_budget_usd`) to correctly set `is_error: true` with descriptive
+  messages
 
-  - Made `session_id` optional in `SDKUserMessage` type — callers no longer need
-  to provide a session ID when sending user messages, as the SDK assigns one
-  automatically
+  - Fixed `side_question` returning null on resume before the first turn
+  completes
 
-  - Fixed TypeScript types resolving to `any` by adding `@anthropic-ai/sdk` and
-  `@modelcontextprotocol/sdk` as dependencies
+  - Fixed MCP servers getting permanently stuck in a failed state after a
+  connection race — they now retry on the next message
 
-  - Updated to parity with Claude Code v2.1.86
+  - Fixed `StructuredOutput` schema cache bug causing ~50% failure rate in
+  workflows with multiple schemas
 
-  ## 0.2.85
+  - Fixed `ERR_STREAM_WRITE_AFTER_END` errors when single-turn queries with MCP
+  servers or hooks have control responses arriving after the result message
 
-  - Added `reloadPlugins()` SDK method to reload plugins and receive refreshed
-  commands, agents, and MCP server status
+  - Fixed Zod v4 field `.describe()` metadata being dropped from
+  `createSdkMcpServer` tool schemas
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-03-30T07:31:40.400Z
-content_sha256: b9a203fd38ec049e1bcaec33e248b1ec4dfe6fec2ad0a022ef48fc536fd67ff5
+retrieved_at: 2026-03-31T07:31:14.795Z
+content_sha256: ccdf086e199677b3bb554b6c671c9dc21f2823cf96dca835b5a7ac83e5be4af7
 ---

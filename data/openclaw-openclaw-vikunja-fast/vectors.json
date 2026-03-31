@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-vikunja-fast",
-  "generated_at": "2026-03-30T07:34:03.315Z",
+  "generated_at": "2026-03-31T07:33:51.845Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-vikunja-fast#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tmigone/vikunja-fast/SKILL.md",
-        "retrieved_at": "2026-03-30T07:34:03.315Z",
+        "retrieved_at": "2026-03-31T07:33:51.845Z",
         "content_sha256": "8272111d8b6e4c5d59778d2491796b94779788433f2955c638a22efe13abf12c"
       }
     }

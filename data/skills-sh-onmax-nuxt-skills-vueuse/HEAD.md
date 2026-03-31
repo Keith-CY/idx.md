@@ -10,26 +10,33 @@ summary: >-
 
   ## '@Electron'
 
-  | Composable | Description | File |
+  | Composable           |
+  Description                                                  |
+  File                                                                    |
 
-  | --- | --- | --- |
+  | -------------------- |
+  ------------------------------------------------------------ |
+  ----------------------------------------------------------------------- |
 
-  | useIpcRenderer | Provides ipcRenderer and all of its APIs with Vue
-  reactiv... | [use-ipc-renderer.md](../composables/use-ipc-renderer.md) |
+  | useIpcRenderer       | Provides ipcRenderer and all of its APIs with Vue
+  reactiv... |
+  [use-ipc-renderer.md](../composables/use-ipc-renderer.md)               |
 
   | useIpcRendererInvoke | Reactive ipcRenderer.invoke API result. Make
   asynchronous... |
   [use-ipc-renderer-invoke.md](../composables/use-ipc-renderer-invoke.md) |
 
-  | useIpcRendererOn | Use ipcRenderer.on with ease and
+  | useIpcRendererOn     | Use ipcRenderer.on with ease and
   ipcRenderer.removeListen... |
-  [use-ipc-renderer-on.md](../composables/use-ipc-renderer-on.md) |
+  [use-ipc-renderer-on.md](../composables/use-ipc-renderer-on.md)         |
 
-  | useZoomFactor | Reactive WebFrame zoom factor. |
-  [use-zoom-factor.md](../composables/use-zoom-factor.md) |
+  | useZoomFactor        | Reactive WebFrame zoom
+  factor.                               |
+  [use-zoom-factor.md](../composables/use-zoom-factor.md)                 |
 
-  | useZoomLevel | Reactive WebFrame zoom level. |
-  [use-zoom-level.md](../composables/use-zoom-level.md) |
+  | useZoomLevel         | Reactive WebFrame zoom
+  level.                                |
+  [use-zoom-level.md](../composables/use-zoom-level.md)                   |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +46,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/vueuse
 github_stars: 560
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-03-30T07:31:44.565Z
-content_sha256: e2d3185576c25cb29ffdc92d337cc37e63ad8c1889e6b1fc09875bfaaa1f934b
+retrieved_at: 2026-03-31T07:31:22.516Z
+content_sha256: 114c0d66be66904926227b5187c0b7e843704fcdf1c752122e198c41ae8c0bc6
 ---

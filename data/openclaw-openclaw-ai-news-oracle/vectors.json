@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-news-oracle",
-  "generated_at": "2026-03-30T07:34:52.454Z",
+  "generated_at": "2026-03-31T07:34:56.400Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-news-oracle#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/swimmingkiim/ai-news-oracle/SKILL.md",
-        "retrieved_at": "2026-03-30T07:34:52.454Z",
+        "retrieved_at": "2026-03-31T07:34:56.400Z",
         "content_sha256": "a672d4bb2665604a4e604887803e077042f61e73f0f7363012519a0a15ba298f"
       }
     }

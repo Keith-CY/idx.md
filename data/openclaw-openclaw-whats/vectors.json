@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-whats",
-  "generated_at": "2026-03-30T07:34:06.430Z",
+  "generated_at": "2026-03-31T07:33:58.153Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-whats#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/engahmedsalah358-lgtm/whats/SKILL.md",
-        "retrieved_at": "2026-03-30T07:34:06.430Z",
+        "retrieved_at": "2026-03-31T07:33:58.153Z",
         "content_sha256": "d8ff72763ed7841766840a6f80d013db5e20bc47cb6819e2c0ba8f5af3f88a58"
       }
     }

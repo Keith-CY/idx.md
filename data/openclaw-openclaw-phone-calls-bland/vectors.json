@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-phone-calls-bland",
-  "generated_at": "2026-03-30T07:33:02.988Z",
+  "generated_at": "2026-03-31T07:32:37.183Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-phone-calls-bland#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/phone-calls-bland/SKILL.md",
-        "retrieved_at": "2026-03-30T07:33:02.988Z",
+        "retrieved_at": "2026-03-31T07:32:37.183Z",
         "content_sha256": "90008433ad41f5fc7bc27dea73dfbd02b5b918fe1efe63b57eda580eb79fe941"
       }
     }

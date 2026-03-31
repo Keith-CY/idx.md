@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kradleverse-cleanup",
-  "generated_at": "2026-03-30T07:35:30.535Z",
+  "generated_at": "2026-03-31T07:35:52.848Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kradleverse-cleanup#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/themrzz/kradleverse-cleanup/SKILL.md",
-        "retrieved_at": "2026-03-30T07:35:30.535Z",
+        "retrieved_at": "2026-03-31T07:35:52.848Z",
         "content_sha256": "d941d61aa90d0a806484b92219101058eb1f660ca344394fa2f8e6808df5fdc7"
       }
     }

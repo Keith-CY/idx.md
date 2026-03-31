@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-analytics-tracking",
-  "generated_at": "2026-03-30T07:31:18.745Z",
+  "generated_at": "2026-03-31T07:30:25.562Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-analytics-tracking#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/analytics-tracking/references/event-library.md",
-        "retrieved_at": "2026-03-30T07:31:18.745Z",
+        "retrieved_at": "2026-03-31T07:30:25.562Z",
         "content_sha256": "efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412"
       }
     }

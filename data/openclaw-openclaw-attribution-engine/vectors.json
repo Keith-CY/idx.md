@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-attribution-engine",
-  "generated_at": "2026-03-30T07:35:01.263Z",
+  "generated_at": "2026-03-31T07:35:13.499Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-attribution-engine#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/attribution-engine/SKILL.md",
-        "retrieved_at": "2026-03-30T07:35:01.263Z",
+        "retrieved_at": "2026-03-31T07:35:13.499Z",
         "content_sha256": "f442eb922f8c792b051668e540814dd01340e9e0e6d26d197b6a62a1cceb5856"
       }
     }

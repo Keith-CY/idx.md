@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-seo-content-writer",
-  "generated_at": "2026-03-30T07:31:14.886Z",
+  "generated_at": "2026-03-31T07:30:14.220Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-seo-content-writer#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aaron-he-zhu/seo-content-writer/SKILL.md",
-        "retrieved_at": "2026-03-30T07:31:14.886Z",
+        "retrieved_at": "2026-03-31T07:30:14.220Z",
         "content_sha256": "047e668874e8ea17cdc2008732e7f83659171d5d0f59529ffdeb0bff76184945"
       }
     }
