@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/boshu2/agentops/council
 github_stars: 180
 github_forks: 15
 github_is_organization: false
-retrieved_at: 2026-03-31T07:34:17.620Z
+retrieved_at: 2026-04-01T07:34:01.841Z
 content_sha256: 789dd22d5bb29ecbc8f2bbc1f81af4f50c6d762fd58f622cdcb4bcb5c5237d8f
 ---

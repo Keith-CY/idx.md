@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ytm-cast",
-  "generated_at": "2026-03-31T07:34:11.711Z",
+  "generated_at": "2026-04-01T07:33:54.321Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ytm-cast#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aidanthebandit/ytm-cast/SKILL.md",
-        "retrieved_at": "2026-03-31T07:34:11.711Z",
+        "retrieved_at": "2026-04-01T07:33:54.321Z",
         "content_sha256": "42a279ae2730ab40edd22511ec558cb6cf1b10e65c11a656b37525c04f45afe1"
       }
     }

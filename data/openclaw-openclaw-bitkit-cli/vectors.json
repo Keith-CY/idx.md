@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bitkit-cli",
-  "generated_at": "2026-03-31T07:35:20.299Z",
+  "generated_at": "2026-04-01T07:34:48.924Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bitkit-cli#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ovitrif/bitkit-cli/SKILL.md",
-        "retrieved_at": "2026-03-31T07:35:20.299Z",
+        "retrieved_at": "2026-04-01T07:34:48.924Z",
         "content_sha256": "6338a6063e9ea7cf140d81d971b0146ea4e5cdd8a21252bca0644a8b0dbf3abc"
       }
     }

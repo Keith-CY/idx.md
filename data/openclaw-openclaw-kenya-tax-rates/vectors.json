@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kenya-tax-rates",
-  "generated_at": "2026-03-31T07:32:08.874Z",
+  "generated_at": "2026-04-01T07:32:16.894Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kenya-tax-rates#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/enjuguna/kenya-tax-rates/SKILL.md",
-        "retrieved_at": "2026-03-31T07:32:08.874Z",
+        "retrieved_at": "2026-04-01T07:32:16.894Z",
         "content_sha256": "09db1684b0cdc779c7fc6ade46af3118acb98fc305a91671eec8dccc27b947b1"
       }
     }

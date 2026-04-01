@@ -11,7 +11,7 @@ summary: >-
   stream them as NDJSON."
 
   metadata:
-    version: 0.22.3
+    version: 0.22.5
     openclaw:
       category: "productivity"
       requires:
@@ -26,6 +26,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-events
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-31T07:30:51.041Z
-content_sha256: 5da8dbb52cb00df992191989572d84ae2ca90025b33834cb4f61ece43829feee
+retrieved_at: 2026-04-01T07:31:10.011Z
+content_sha256: 98dc0ba1aac5d8e1b0368d897593352892ab02797e600ccd8f39971361a6884b
 ---

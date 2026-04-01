@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-planka-cli",
-  "generated_at": "2026-03-31T07:32:38.654Z",
+  "generated_at": "2026-04-01T07:32:44.869Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-planka-cli#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/voydz/planka-cli/SKILL.md",
-        "retrieved_at": "2026-03-31T07:32:38.654Z",
+        "retrieved_at": "2026-04-01T07:32:44.869Z",
         "content_sha256": "bc555fcb1c4ce08bd43698ac01e1baf310bbd743d2d263bba47d7afa616df070"
       }
     }

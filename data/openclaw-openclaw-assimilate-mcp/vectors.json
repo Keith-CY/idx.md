@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-assimilate-mcp",
-  "generated_at": "2026-03-31T07:35:13.019Z",
+  "generated_at": "2026-04-01T07:34:43.001Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-assimilate-mcp#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ergopooka/assimilate-mcp/SKILL.md",
-        "retrieved_at": "2026-03-31T07:35:13.019Z",
+        "retrieved_at": "2026-04-01T07:34:43.001Z",
         "content_sha256": "0c4c851343a97195025ff5a605d62cdc4787933ecbd63c80c5ac13053201bd56"
       }
     }

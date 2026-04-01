@@ -7,7 +7,7 @@ summary: |-
   name: gws-drive-upload
   description: "Google Drive: Upload a file with automatic metadata."
   metadata:
-    version: 0.22.3
+    version: 0.22.5
     openclaw:
       category: "productivity"
       requires:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-drive
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-31T07:30:28.511Z
-content_sha256: 2b2a23df31ed76889cfd997ebbcf514dc212d567a00dc8c38ef232d553043c25
+retrieved_at: 2026-04-01T07:31:06.527Z
+content_sha256: 7ffd4bdffab870e3aab8b9081b60d485dc5d0bb7f6e6524ee84100a630f84595
 ---

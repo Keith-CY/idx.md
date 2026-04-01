@@ -118,6 +118,7 @@ Creates a new site with a random slug. Works with or without authentication.
 - `hash` (optional): SHA-256 hex digest (64 lowercase chars) of the file contents. When updating an existing site, files whose hash matches the previous version are skipped from `upload.uploads[]` and listed in `upload.skipped[]` instead. The server copies them automatically at finalize. Omitting `hash` gives the default behavior (all files require upload).
 - `ttlSeconds` (optional): expiry in seconds. Ignored for anonymous sites (always 24h).
 - `viewer` (optional): metadata for auto-viewer pages (only used when no `index.html`).
+- `spaMode` (optional): when `true`, unknown paths serve `index.html` instead of 404. Required for React/Vue/Svelte apps with client-side routing.
 
 **Response (authenticated):**
 
@@ -567,6 +568,7 @@ All fields optional. `ogImagePath` must reference an image file within the curre
   - `currency` (required): `"USD"`
   - `recipientAddress` (optional): per-site wallet override. If omitted, uses the account-level wallet address.
 - Password and price are mutually exclusive. Setting one removes the other. The response includes `passwordRemoved: true` or `priceRemoved: true` when this happens.
+- `spaMode`: `true` to enable, `false` to disable, `null` to remove, omit for no change. When enabled, requests for paths that don't match any file serve `index.html` instead of 404. Required for single-page applications with client-side routing.
 
 **Response:**
 

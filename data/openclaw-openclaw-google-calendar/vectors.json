@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-calendar",
-  "generated_at": "2026-03-31T07:35:49.861Z",
+  "generated_at": "2026-04-01T07:35:15.496Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-calendar#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adrianmiller99/google-calendar/SKILL.md",
-        "retrieved_at": "2026-03-31T07:35:49.861Z",
+        "retrieved_at": "2026-04-01T07:35:15.496Z",
         "content_sha256": "6cb85da1f07ce766532d8d3b8b583e1b9f724c6684f08d3b8cd766ea01326bfa"
       }
     }

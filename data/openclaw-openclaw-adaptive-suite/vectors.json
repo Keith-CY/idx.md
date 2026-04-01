@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adaptive-suite",
-  "generated_at": "2026-03-31T07:34:37.088Z",
+  "generated_at": "2026-04-01T07:34:13.115Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adaptive-suite#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/adaptive-suite/SKILL.md",
-        "retrieved_at": "2026-03-31T07:34:37.088Z",
+        "retrieved_at": "2026-04-01T07:34:13.115Z",
         "content_sha256": "13b82d4c0bd36d8bb0e939739954da7f3419d1fdd2e421dd5469be070210dca9"
       }
     }

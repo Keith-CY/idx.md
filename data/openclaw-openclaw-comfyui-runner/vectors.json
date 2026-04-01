@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-comfyui-runner",
-  "generated_at": "2026-03-31T07:31:37.984Z",
+  "generated_at": "2026-04-01T07:31:50.100Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-comfyui-runner#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xtopher86/comfyui-runner/SKILL.md",
-        "retrieved_at": "2026-03-31T07:31:37.984Z",
+        "retrieved_at": "2026-04-01T07:31:50.100Z",
         "content_sha256": "7ff615f292c747421905b520e1e4496e89c8d7939e5cd4fa8a04e6c8ed6acdd4"
       }
     }

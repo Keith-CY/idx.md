@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand-skill",
-  "generated_at": "2026-03-31T07:31:18.678Z",
+  "generated_at": "2026-04-01T07:31:30.937Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-brand-voice-skills-discover-brand-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/skills/discover-brand/SKILL.md",
-        "retrieved_at": "2026-03-31T07:31:18.678Z",
+        "retrieved_at": "2026-04-01T07:31:30.937Z",
         "content_sha256": "4d5d4490a1600c5277dd62cc629c14e3eddb301df63060ab1223d2a840949cb2"
       }
     }

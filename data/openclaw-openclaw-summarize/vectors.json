@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-summarize",
-  "generated_at": "2026-03-31T07:33:08.176Z",
+  "generated_at": "2026-04-01T07:33:16.112Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-summarize#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/summarize/SKILL.md",
-        "retrieved_at": "2026-03-31T07:33:08.176Z",
+        "retrieved_at": "2026-04-01T07:33:16.112Z",
         "content_sha256": "e7cdf499cee3e4ffefdbdca842b4716796cdd983b1f11e1314f295895eeb8161"
       }
     }

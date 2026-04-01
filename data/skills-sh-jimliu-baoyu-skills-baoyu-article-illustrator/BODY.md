@@ -21,6 +21,7 @@
 | `saas-guide` | `infographic` | `notion` | Product guides, SaaS docs, tool walkthroughs |
 | `tutorial` | `flowchart` | `vector-illustration` | Step-by-step tutorials, setup guides |
 | `process-flow` | `flowchart` | `notion` | Workflow documentation, onboarding flows |
+| `warm-knowledge` | `infographic` | `vector-illustration` (warm palette) | Product showcases, team intros, feature cards, brand content |
 
 ### Data & Analysis
 
@@ -62,7 +63,7 @@ Use this table during Step 3 to recommend presets based on Step 2 content analys
 | Opinion / Editorial | `opinion-piece` | `cinematic`, `editorial-poster` |
 | Historical / Timeline | `history` | `evolution` |
 | Academic / Research | `science-paper` | `tech-explainer`, `data-report` |
-| SaaS / Product | `saas-guide` | `knowledge-base`, `process-flow` |
+| SaaS / Product | `saas-guide` | `knowledge-base`, `process-flow`, `warm-knowledge` |
 
 ## Override Examples
 

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-marktplaats",
-  "generated_at": "2026-03-31T07:32:14.920Z",
+  "generated_at": "2026-04-01T07:32:21.681Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-marktplaats#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pvoo/marktplaats/SKILL.md",
-        "retrieved_at": "2026-03-31T07:32:14.920Z",
+        "retrieved_at": "2026-04-01T07:32:21.681Z",
         "content_sha256": "6eea74f2dd6210dc70cee823d04b5eea27b268399068355e84a3410bd7b4354b"
       }
     }

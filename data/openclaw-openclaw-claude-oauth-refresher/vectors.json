@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claude-oauth-refresher",
-  "generated_at": "2026-03-31T07:31:33.183Z",
+  "generated_at": "2026-04-01T07:31:45.863Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claude-oauth-refresher#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/claude-oauth-refresher/SKILL.md",
-        "retrieved_at": "2026-03-31T07:31:33.183Z",
+        "retrieved_at": "2026-04-01T07:31:45.863Z",
         "content_sha256": "e38dbad31184308b35b57b7b6332554fff31e73706983eb1b23dde807eab2ff9"
       }
     }

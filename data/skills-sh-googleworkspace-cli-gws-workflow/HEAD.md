@@ -11,7 +11,7 @@ summary: >-
   summary."
 
   metadata:
-    version: 0.22.3
+    version: 0.22.5
     openclaw:
       category: "productivity"
       requires:
@@ -26,6 +26,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-workflow
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-31T07:30:50.852Z
-content_sha256: b8d958487f0f5a20caaf6b9f63af98842e62935ec091c16c8632dba7cee335c8
+retrieved_at: 2026-04-01T07:31:09.901Z
+content_sha256: 678cacadf6459205b2459ef79cca9a96ef1c68be1130c03f32ee26f6b9d4da66
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawmail",
-  "generated_at": "2026-03-31T07:31:35.564Z",
+  "generated_at": "2026-04-01T07:31:48.138Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawmail#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/heyarviind/clawmail/SKILL.md",
-        "retrieved_at": "2026-03-31T07:31:35.564Z",
+        "retrieved_at": "2026-04-01T07:31:48.138Z",
         "content_sha256": "a0dfff6f71ecfb8865e6e042ba4f75f24e84b998007473953cc1fe120ae2a8fa"
       }
     }

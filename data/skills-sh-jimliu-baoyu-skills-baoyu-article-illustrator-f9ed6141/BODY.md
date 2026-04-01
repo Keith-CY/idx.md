@@ -98,6 +98,12 @@ Full specifications: `references/styles/<style>.md`
 - Modern, professional, highly readable
 - Perfect for knowledge articles and tutorials
 
+### infographic + vector-illustration (warm palette)
+- Same rendering: flat vector, black outlines, geometric simplification
+- Warm-only palette: terracotta, gold, brown tones on soft peach
+- Modern-retro feel, approachable and brand-friendly
+- Best for product showcases, team intros, feature grids, brand content
+
 ### flowchart + vector-illustration
 - Bold arrows and connectors
 - Distinct step containers with icons

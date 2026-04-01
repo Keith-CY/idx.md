@@ -7,7 +7,7 @@ summary: |-
   name: gws-calendar-insert
   description: "Google Calendar: Create a new event."
   metadata:
-    version: 0.22.3
+    version: 0.22.5
     openclaw:
       category: "productivity"
       requires:
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-calendar
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-03-31T07:30:28.719Z
-content_sha256: ace8e4b3b5b53bba67f0bfb4f044d13ffe51b82110cd3222b9a21e3ff2ed3703
+retrieved_at: 2026-04-01T07:31:06.808Z
+content_sha256: 5c54f18a615b9706a364815f9e3c0ef8c83bba8a67adf217e25dd7c829e2119e
 ---

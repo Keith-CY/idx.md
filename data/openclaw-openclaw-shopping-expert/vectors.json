@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-shopping-expert",
-  "generated_at": "2026-03-31T07:32:57.817Z",
+  "generated_at": "2026-04-01T07:33:06.129Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-shopping-expert#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/shopping-expert/SKILL.md",
-        "retrieved_at": "2026-03-31T07:32:57.817Z",
+        "retrieved_at": "2026-04-01T07:33:06.129Z",
         "content_sha256": "4cd0070cb497839e54e7af38a26058918066cdfc2f4691531f3aa0a4a117ea68"
       }
     }

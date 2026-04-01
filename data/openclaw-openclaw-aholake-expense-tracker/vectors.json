@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aholake-expense-tracker",
-  "generated_at": "2026-03-31T07:34:55.703Z",
+  "generated_at": "2026-04-01T07:34:32.028Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aholake-expense-tracker#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aholake/aholake-expense-tracker/SKILL.md",
-        "retrieved_at": "2026-03-31T07:34:55.703Z",
+        "retrieved_at": "2026-04-01T07:34:32.028Z",
         "content_sha256": "5d82faec0046c7a7a7976cb2a125200e33b03b3f3527d7860e5ad61289e7f4da"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-xhs-images",
-  "generated_at": "2026-03-31T07:30:26.959Z",
+  "generated_at": "2026-04-01T07:31:05.322Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-xhs-images#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-xhs-images/references/style-presets.md",
-        "retrieved_at": "2026-03-31T07:30:26.959Z",
+        "retrieved_at": "2026-04-01T07:31:05.322Z",
         "content_sha256": "0620ce34347d83247c0502f5386437f1ef8229710a6e46690ac35ccaed65e255"
       }
     }
