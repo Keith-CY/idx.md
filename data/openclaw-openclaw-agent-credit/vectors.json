@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-credit",
-  "generated_at": "2026-04-01T07:34:20.901Z",
+  "generated_at": "2026-04-02T07:31:53.716Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-credit#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronjmars/agent-credit/SKILL.md",
-        "retrieved_at": "2026-04-01T07:34:20.901Z",
+        "retrieved_at": "2026-04-02T07:31:53.716Z",
         "content_sha256": "c9696070b2337d01e47b33a421152650434d38d0ef8975cde4662f23af54938e"
       }
     }

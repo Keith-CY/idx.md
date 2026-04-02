@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-first-principles-decomposer",
-  "generated_at": "2026-04-01T07:32:00.861Z",
+  "generated_at": "2026-04-02T07:30:05.589Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-first-principles-decomposer#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/first-principles-decomposer/SKILL.md",
-        "retrieved_at": "2026-04-01T07:32:00.861Z",
+        "retrieved_at": "2026-04-02T07:30:05.589Z",
         "content_sha256": "0482fe6979ff37597309058d6e97b28436c6dec71c19feccd46397fe2c9777f2"
       }
     }

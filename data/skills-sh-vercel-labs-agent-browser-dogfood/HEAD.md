@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/vercel-labs/agent-browser/dogfood
 github_stars: 23871
 github_forks: 1407
 github_is_organization: true
-retrieved_at: 2026-04-01T07:31:05.095Z
+retrieved_at: 2026-04-02T07:29:09.566Z
 content_sha256: dee7e925f7fe001903de6cc14f9656bcda90d069bbf65a2273f22202efebba09
 ---

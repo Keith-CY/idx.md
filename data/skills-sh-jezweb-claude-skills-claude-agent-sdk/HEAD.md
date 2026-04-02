@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.90
+
+  - Updated to parity with Claude Code v2.1.90
+
   ## 0.2.89
 
   - Added `startup()` to pre-warm the CLI subprocess before `query()`, making
@@ -24,12 +28,6 @@ summary: >-
 
   - Fixed Zod v4 field `.describe()` metadata being dropped from
   `createSdkMcpServer` tool schemas
-
-  - Fixed `side_question` returning null on resume before the first turn
-  completes
-
-  - Fixed `settingSources` empty array causing `--setting-sources ""` to consume
-  the next CLI flag
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-01T07:31:28.245Z
-content_sha256: 805fca5c6aa684245f284a9247d18e12d125e9e4e974a5af0735f63ed78845bd
+retrieved_at: 2026-04-02T07:29:35.244Z
+content_sha256: 3941c5f5f65f9dbf697ad0b7a75934d9e6e78940df72d722b000cb4531f3cab6
 ---

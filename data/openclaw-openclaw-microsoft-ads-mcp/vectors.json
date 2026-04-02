@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-microsoft-ads-mcp",
-  "generated_at": "2026-04-01T07:32:23.834Z",
+  "generated_at": "2026-04-02T07:30:27.666Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-microsoft-ads-mcp#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/duartemartins/microsoft-ads-mcp/SKILL.md",
-        "retrieved_at": "2026-04-01T07:32:23.834Z",
+        "retrieved_at": "2026-04-02T07:30:27.666Z",
         "content_sha256": "4df210f0c0c10e7c70ff2edddde55fe4953577c504fb211cad46fdd4a5474d9b"
       }
     }

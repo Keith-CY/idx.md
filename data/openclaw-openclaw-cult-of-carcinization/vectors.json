@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cult-of-carcinization",
-  "generated_at": "2026-04-01T07:35:06.040Z",
+  "generated_at": "2026-04-02T07:32:34.996Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cult-of-carcinization#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/loserbcc/cult-of-carcinization/SKILL.md",
-        "retrieved_at": "2026-04-01T07:35:06.040Z",
+        "retrieved_at": "2026-04-02T07:32:34.996Z",
         "content_sha256": "7a08e1c61acc7cab330a8e469764c020168beceb9b89f9968c8b5a329bf2d541"
       }
     }

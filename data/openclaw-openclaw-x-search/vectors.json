@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-x-search",
-  "generated_at": "2026-04-01T07:33:49.871Z",
+  "generated_at": "2026-04-02T07:31:28.702Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-x-search#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tzannetosgiannis/x-search/SKILL.md",
-        "retrieved_at": "2026-04-01T07:33:49.871Z",
+        "retrieved_at": "2026-04-02T07:31:28.702Z",
         "content_sha256": "9bb2eee5afb4386d672014972ee5fe005fec152c83e3710a5f6abba94211afb5"
       }
     }

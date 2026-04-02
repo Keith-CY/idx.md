@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nordpool-fi",
-  "generated_at": "2026-04-01T07:35:22.110Z",
+  "generated_at": "2026-04-02T07:32:49.778Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nordpool-fi#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ovaris/nordpool-fi/SKILL.md",
-        "retrieved_at": "2026-04-01T07:35:22.110Z",
+        "retrieved_at": "2026-04-02T07:32:49.778Z",
         "content_sha256": "5dfba1d4f02f6344e67e8a2627ac6eca09c16f92b2cf10a702c7f7cc22df4bbd"
       }
     }

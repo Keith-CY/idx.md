@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pinchedin",
-  "generated_at": "2026-04-01T07:32:43.955Z",
+  "generated_at": "2026-04-02T07:30:45.288Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pinchedin#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adamjsturrock/pinchedin/SKILL.md",
-        "retrieved_at": "2026-04-01T07:32:43.955Z",
+        "retrieved_at": "2026-04-02T07:30:45.288Z",
         "content_sha256": "51e4aaaac57111be82bd9d35d466c0d7f2f2fa0f05fa771dc58ac29b571ac65b"
       }
     }

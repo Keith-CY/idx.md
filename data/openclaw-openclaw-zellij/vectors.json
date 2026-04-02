@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-zellij",
-  "generated_at": "2026-04-01T07:33:54.674Z",
+  "generated_at": "2026-04-02T07:31:32.837Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-zellij#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jivvei/zellij/SKILL.md",
-        "retrieved_at": "2026-04-01T07:33:54.674Z",
+        "retrieved_at": "2026-04-02T07:31:32.837Z",
         "content_sha256": "59eb6403c7e63ca4f4f6cb8dae97afe29efa6a4e5d83b68f2ea5a43b04290ed1"
       }
     }

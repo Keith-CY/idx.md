@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-calorie-counter",
-  "generated_at": "2026-04-01T07:34:54.999Z",
+  "generated_at": "2026-04-02T07:32:24.474Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-calorie-counter#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cnqso/calorie-counter/SKILL.md",
-        "retrieved_at": "2026-04-01T07:34:54.999Z",
+        "retrieved_at": "2026-04-02T07:32:24.474Z",
         "content_sha256": "245af397115e41be43b935306141235312643a10ee8dda679ab7cf72bf52dcf8"
       }
     }

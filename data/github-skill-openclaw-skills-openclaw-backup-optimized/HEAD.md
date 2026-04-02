@@ -19,6 +19,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/cccarv82/openc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-01T07:30:59.674Z
+retrieved_at: 2026-04-02T07:29:04.439Z
 content_sha256: caed19a938a8177bcc23e79252e904944a310f82ff25361fb81c001b0d058590
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-chaos-mind",
-  "generated_at": "2026-04-01T07:34:56.847Z",
+  "generated_at": "2026-04-02T07:32:26.282Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-chaos-mind#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hargabyte/chaos-mind/SKILL.md",
-        "retrieved_at": "2026-04-01T07:34:56.847Z",
+        "retrieved_at": "2026-04-02T07:32:26.282Z",
         "content_sha256": "5de4ed0739da858ac117c48513780cb9f100f0cf3389be16bbb0cadf38b99730"
       }
     }

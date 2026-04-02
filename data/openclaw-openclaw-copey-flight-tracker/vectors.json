@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-copey-flight-tracker",
-  "generated_at": "2026-04-01T07:31:52.271Z",
+  "generated_at": "2026-04-02T07:29:55.517Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-copey-flight-tracker#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/copey02/copey-flight-tracker/SKILL.md",
-        "retrieved_at": "2026-04-01T07:31:52.271Z",
+        "retrieved_at": "2026-04-02T07:29:55.517Z",
         "content_sha256": "f9f61f83c8e71b148674b76910ff678769fcf7f29c0c1d2103ebd79e409f09be"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kallyai",
-  "generated_at": "2026-04-01T07:32:16.559Z",
+  "generated_at": "2026-04-02T07:30:20.746Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kallyai#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sltelitsyn/kallyai/SKILL.md",
-        "retrieved_at": "2026-04-01T07:32:16.559Z",
+        "retrieved_at": "2026-04-02T07:30:20.746Z",
         "content_sha256": "2d6c180a0d475282fc6218327f72455b6c50a5723b467365bf409b7d1d6b2c89"
       }
     }

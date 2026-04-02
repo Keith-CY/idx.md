@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-heimdall",
-  "generated_at": "2026-04-01T07:35:16.180Z",
+  "generated_at": "2026-04-02T07:32:44.431Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-heimdall#head",
@@ -19,7 +19,7 @@
           "category-agent-to-agent-protocols"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/henrino3/heimdall/SKILL.md",
-        "retrieved_at": "2026-04-01T07:35:16.180Z",
+        "retrieved_at": "2026-04-02T07:32:44.431Z",
         "content_sha256": "6f45c7d92bc6aedeecd17006fb95638a49b39fa00a8c2c67c5a99626b51ad0e2"
       }
     }

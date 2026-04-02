@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cron-mastery",
-  "generated_at": "2026-04-01T07:31:53.438Z",
+  "generated_at": "2026-04-02T07:29:56.774Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cron-mastery#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/i-mw/cron-mastery/SKILL.md",
-        "retrieved_at": "2026-04-01T07:31:53.438Z",
+        "retrieved_at": "2026-04-02T07:29:56.774Z",
         "content_sha256": "f7a7d3dd5f1817d566c804072eac93c6a699f1db5417a07c76ca5af1287e5743"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-docker-diag",
-  "generated_at": "2026-04-01T07:31:55.697Z",
+  "generated_at": "2026-04-02T07:29:59.788Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-docker-diag#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mkrdiop/docker-diag/SKILL.md",
-        "retrieved_at": "2026-04-01T07:31:55.697Z",
+        "retrieved_at": "2026-04-02T07:29:59.788Z",
         "content_sha256": "269ae95fa48a86a3ebf375fc69b02306a54458a14980ed8421ec35ef4006b447"
       }
     }
