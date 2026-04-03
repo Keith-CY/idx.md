@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ad-ready",
-  "generated_at": "2026-04-02T07:31:46.811Z",
+  "generated_at": "2026-04-03T07:30:52.886Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ad-ready#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pauldelavallaz/ad-ready/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:46.811Z",
+        "retrieved_at": "2026-04-03T07:30:52.886Z",
         "content_sha256": "83a83818dac28437895ec04fa16e67567b8dd65ea837afc5c8b9e96fdcbd23ab"
       }
     }

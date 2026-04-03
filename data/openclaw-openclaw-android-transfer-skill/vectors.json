@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-android-transfer-skill",
-  "generated_at": "2026-04-02T07:32:07.869Z",
+  "generated_at": "2026-04-03T07:31:26.197Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-android-transfer-skill#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/android-transfer-skill/SKILL.md",
-        "retrieved_at": "2026-04-02T07:32:07.869Z",
+        "retrieved_at": "2026-04-03T07:31:26.197Z",
         "content_sha256": "5d413dbd1d79b625a837a4ad21c941fdec58382d1352b3e977807c416f76839e"
       }
     }

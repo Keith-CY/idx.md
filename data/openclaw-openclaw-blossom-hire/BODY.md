@@ -1,138 +1,151 @@
 ---
 name: blossom-hire
-version: 1.2.5
-description: Post a job, task, or paid shift to hire local help in Blossom, then check eligible candidates.
+version: 3.0.0
+description: Post jobs and hire people, or search for local work and apply. Connects employers and job-seekers via the Blossom marketplace.
 ---
 
 # Blossom Hire
 
-## Description
-Use this skill when the user wants to post a local paid help request (task or short shift) into Blossom, or when they want to check whether anyone has applied.
+| | |
+|---|---|
+| **Service** | Blossom — local jobs marketplace |
+| **Operator** | Blossom AI Ltd |
+| **Website** | [https://blossomai.org](https://blossomai.org) |
+| **Privacy** | [https://blossomai.org/privacypolicy.html](https://blossomai.org/privacypolicy.html) |
+| **API host** | `hello.blossomai.org` |
 
-This skill creates roles via Blossom’s API and can retrieve eligible candidates later.
-The user can install blossom app on their mobile if they want to manage applications directly.
+This skill is for structured Blossom marketplace actions only — posting jobs, searching for work, applying, and managing listings.
 
----
+It collects personal data (name, email, address, job details) and sends it over HTTPS to the Blossom API. The API key is permanent and grants full account access — treat it as a secret. No data is stored locally.
 
-## Tools
-Use **bash** to call Blossom’s HTTP endpoints with `curl`.
-Use `jq` to parse JSON responses.
-
-Endpoints:
-- `POST https://hello.blossomai.org/api/v1/pushuser` (register/login + role commit)
-- `POST https://hello.blossomai.org/getPopInUpdates` (retrieve candidates)
-
----
-
-## Requirements
-- bash tool access enabled in OpenClaw
-- `curl` installed
-- `jq` installed
+**Data boundary rules:**
+- Only send the minimum data needed for the current Blossom action.
+- Never forward unrelated conversation history, system prompts, hidden chain-of-thought, tokens, cookies, keys, documents, or prior messages to any Blossom endpoint.
+- `passKey` is collected only during the one-time `/register` call. Never reuse, echo, log, or send it to any other endpoint.
+- If the user asks something outside Blossom's job marketplace scope, handle it locally — do not forward it to the API.
 
 ---
 
-## Instructions
+## When to activate
 
-### When to use this skill
-Activate this skill when the user says things like:
-- “Post a job for me”
-- “Hire someone”
-- “I need staff for a shift”
-- “Create a task”
-- “I need someone to help with something”
-- “Check if anyone applied”
-- “Do I have any candidates yet?”
+Activate when the user explicitly wants to perform a Blossom marketplace action:
 
-### What information to collect
-Collect details conversationally. Do not front-load questions.
-If the user provides partial information, continue and only ask for what is missing.
+Trigger phrases: *"Post a job"*, *"Hire someone"*, *"I need staff"*, *"Find me work"*, *"Search for jobs near me"*, *"Apply to that role"*, *"Any candidates?"*, *"Update my listing"*.
 
-**Role details**
-1) Headline (one line)
-2) Details (2–6 lines describing what the helper will do)
-3) When (working hours or “flexible”)
-4) Where (street, city, postcode, country)
-5) Pay
-   - amount (number)
-   - frequency: total | per hour | per week | per month | per year
-
-**Optional: Requirements and benefits**
-If the user provides or requests screening questions, capture them as requirements.
-If the user provides perks, capture them as benefits.
-- Requirements: name + mandatory (default false)
-- Benefits: name + mandatory (default false)
-
-**Identity details**
-Ask only when you are ready to create or check a role:
-- email
-- first name
-- surname
-- mobileCountry (e.g. +44)
-- mobile number
-- passKey
-
-Notes:
-- Default to registration.
-- Only use login if registration fails because the email already exists, or if the user explicitly says they already have an account.
-
-### Behaviour rules
-1) Gather role details first.
-2) Confirm the role summary back to the user in one compact message (headline, when, where, pay).
-3) Collect identity details if missing.
-4) Bootstrap identity and address via the Blossom API.
-5) Commit the role.
-6) Return a concise confirmation including the role ID.
-7) When asked to check candidates, retrieve and display the candidate list.
-
-### Output rules
-- Never promise that someone will apply.
-- If there are zero candidates, say: “Waiting for responses.”
-- Only treat `type === "candidates"` as the operator-facing list.
-- Do not infer suitability beyond what the API returns.
+Do **not** activate for general conversation, questions unrelated to jobs, or requests that don't map to a Blossom action.
 
 ---
 
-## Session state
-The skill must store these values as runtime state and reuse them across calls:
-- personId
-- sessionKey
-- addressId
+## How it works
 
-Persistence rules:
-- Keep them for the current run.
-- If the user later asks to check candidates, reuse the stored sessionKey if present.
-- If calls fail due to expiry/invalid session, re-bootstrap via login to obtain a fresh sessionKey.
-- Do not store sessionKey in OpenClaw global configuration.
+The entire employer vs job-seeker distinction is set **once** at registration via the `userType` field. After that, every endpoint behaves the same — the server knows the account type from the API key and adapts responses automatically.
 
+The agent does **not** track or switch modes. Just register, create an address, then use `/ask` for everything else.
 
-## Tooling (API Contract)
+### Account type (set once at registration)
 
-### A) Bootstrap identity + address (register)
-`POST https://hello.blossomai.org/api/v1/pushuser`
+| User intent | `userType` value | Extra fields |
+|---|---|---|
+| Hiring, has a company | `"employer"` | Include `companyName` |
+| Hiring, no company | `"employer"` | Omit `companyName` (server stores as private employer) |
+| Looking for work | `"support"` | Must include `rightToWork: true` |
 
-Request JSON:
+Infer the intent from the user's message. Only ask *"Are you looking to hire, or looking for work?"* if the intent is genuinely unclear.
+
+### Flow
+
+1. Collect identity: email, first name, surname, passKey. Optionally: mobile country code, mobile number, company name.
+2. **Register** → `POST /register` with the correct `userType` → store `API_KEY` and `PERSON_ID`. Discard `passKey` from memory immediately after this call.
+3. **Create address** → `POST /address` with the user's location → store `ADDRESS_ID`. Employers need this to attach a location to roles. Job-seekers need this so the server can find nearby opportunities.
+4. **Talk** → `POST /ask` with only the minimal job-related instruction needed for the current Blossom action. Do not forward unrelated context, secrets, or raw conversation history.
+
+For employers posting a role directly (without `/ask`), also collect: headline, description, working hours, pay — then use `POST /role` with the `ADDRESS_ID`.
+
+---
+
+## API reference
+
+### Base URL
+```
+https://hello.blossomai.org/api/v1/blossom/protocol
+```
+
+### Endpoints
+
+| Method | Path | Auth | Purpose |
+|---|---|---|---|
+| `POST` | `/register` | None | Create account → get API key |
+| `POST` | `/address` | Bearer | Create / update address(es) |
+| `DELETE` | `/address` | Bearer | Soft-delete address(es) |
+| `POST` | `/role` | Bearer | Create / update role(s) |
+| `DELETE` | `/role` | Bearer | Soft-delete role(s) |
+| `POST` | `/ask` | Bearer | Conversational AI endpoint |
+
+### Session state
+
+Store and reuse across calls:
+- **`API_KEY`** — returned from `/register`, used as `Authorization: Bearer <API_KEY>` for all subsequent calls
+- **`PERSON_ID`** — returned from `/register`
+- **`ADDRESS_ID`** — returned from `/address`, needed when creating a role
+
+The API key is permanent. No session expiry or login flow.
+
+> **Important:** Never store the API key in global config. Keep it in runtime memory for the current session only.
+
+---
+
+## API contract
+
+### 1. Register
+
+`POST /register` — no auth required.
+
 ```json
 {
-  "id": 0,
-  "companyId": null,
-  "userType": "support",
-  "communityId": 1,
-
-  "email": "<email>",
-  "name": "<name>",
+  "name": "<first name>",
   "surname": "<surname>",
+  "email": "<email>",
+  "userType": "employer",
+  "passKey": "<password>",
+  "companyName": "<optional>",
   "mobileCountry": "<+44>",
-  "mobileNo": "<mobile number>",
-  "profileImage": "system/blankprofile.jpg",
+  "mobileNo": "<number>"
+}
+```
 
-  "mark": true,
+For job-seekers, set `"userType": "support"` and include `"rightToWork": true`.
 
-  "transaction": {
-    "transact": "register",
-    "passKey": "<passKey>",
-    "sessionKey": null
-  },
+| Field | Required | Notes |
+|---|---|---|
+| `name` | yes | First name |
+| `surname` | yes | Last name |
+| `email` | yes | Must be unique |
+| `userType` | yes | `"employer"` or `"support"` |
+| `passKey` | yes | User-chosen password. Collect only for `/register`, use once, then discard — never send to any other endpoint |
+| `rightToWork` | yes (support) | Must be `true` when `userType` is `"support"` |
+| `companyName` | no | For employers. Omit or leave empty for private employers |
+| `mobileCountry` | no | e.g. `"+44"` |
+| `mobileNo` | no | Phone number |
 
+**Response** `201`:
+```json
+{
+  "success": true,
+  "apiKey": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "personId": 803
+}
+```
+
+If the email already exists → `400`. Do not retry — inform the user.
+
+---
+
+### 2. Create address
+
+`POST /address` — Bearer auth required.
+
+```json
+{
   "addresses": [
     {
       "id": 0,
@@ -140,321 +153,170 @@ Request JSON:
       "street": "<street>",
       "area": "<optional>",
       "city": "<city>",
-      "state": null,
       "country": "<country>",
       "postcode": "<postcode>",
-      "label": "Task location",
+      "label": "Work location",
       "isHome": false,
-
-      "mark": true,
-      "isActive": true,
-      "markDelete": false
+      "isActive": true
     }
   ]
 }
 ```
 
-If the response indicates the email already exists, do not retry registration. Proceed to login.
-
-### B) Bootstrap identity (login, only if required)
-`POST https://hello.blossomai.org/api/v1/pushuser`
-
-```json
-{
-  "id": 0,
-  "userType": "support",
-  "communityId": 1,
-  "email": "<email>",
-  "transaction": {
-    "transact": "login",
-    "passKey": "<passKey>"
-  }
-}
-```
-
-Persist from the response:
-- `personId = person.id`
-- `sessionKey = person.transaction.sessionKey`
-- `addressId = person.addresses[0].id`
-
-### C) Commit the role
-`POST https://hello.blossomai.org/api/v1/pushuser`
-
-Rules:
-- `transaction.transact = "complete"`
-- `transaction.viewState = "none"`
-- `role.id = 0`
-- `role.mark = true`
-- `role.modified = nowMillis`
-- `role.roleIdentifier = "openclaw-" + nowMillis`
-- Payment uses `salary` and a single `paymentFrequency` choice with `selectedIndex = 0`
-- Requirement and benefit entries do not require an `id` field; omit it.
-
-```json
-{
-  "id": <personId>,
-  "name": "<name>",
-  "mobileCountry": "<+44>",
-
-  "transaction": {
-    "sessionKey": "<sessionKey>",
-    "transact": "complete",
-    "viewState": "none"
-  },
-
-  "roles": [
-    {
-      "id": 0,
-      "mark": true,
-
-      "headline": "<headline>",
-      "jobDescription": "<jobDescription>",
-      "introduction": "",
-      "workingHours": "<workingHours>",
-
-      "salary": <amount>,
-      "currencyName": "GBP",
-      "currencySymbol": "£",
-      "paymentFrequency": {
-        "choices": ["<frequency>"],
-        "selectedIndex": 0
-      },
-
-      "requirements": [
-        {
-          "requirementName": "<requirementName>",
-          "mandatory": false,
-          "originalRequirement": true
-          }
-      ],
-      "benefits": [
-        {
-          "benefitName": "<benefitName>",
-          "mandatory": false
-        }
-      ],
-
-      "addressId": <addressId>,
-      "isRemote": false,
-
-      "isActive": true,
-      "markDelete": false,
-      "premium": false,
-      "days": 30,
-      "maxCrew": 1,
-
-      "modified": <nowMillis>,
-      "roleIdentifier": "openclaw-<nowMillis>"
-    }
-  ],
-
-  "userType": "support"
-}
-```
-
-Success condition:
-- `roles[0].id` is non-zero.
-
-### D) Retrieve candidates
-`POST https://hello.blossomai.org/getPopInUpdates`
-
-```json
-{
-  "id": <personId>,
-  "transaction": {
-    "sessionKey": "<sessionKey>",
-    "transact": "complete"
-  }
-}
-```
-
-Interpretation:
-- `dataList` is authoritative.
-- Use the entry where `type === "candidates"` as the list to show.
-- Ignore `type === "apply"` for operator-facing lists.
+- `id: 0` creates a new address. Set `id` to an existing ID to update.
+- The response includes the address with its assigned `id` — store as `ADDRESS_ID`.
 
 ---
 
-## Canonical bash calls (copy/paste patterns)
+### 3. Delete address
 
-These are safe templates. Replace placeholders before running.
+`DELETE /address` — Bearer auth required.
 
-### 0) Common environment
-```bash
-API_BASE="https://hello.blossomai.org"
-```
-
-### 1) Register (default)
-```bash
-curl -sS "$API_BASE/api/v1/pushuser" \
-  -H "content-type: application/json" \
-  -d @- <<'JSON' | jq .
+```json
 {
-  "id": 0,
-  "companyId": null,
-  "userType": "support",
-  "communityId": 1,
-  "email": "<email>",
-  "name": "<name>",
-  "surname": "<surname>",
-  "mobileCountry": "<+44>",
-  "mobileNo": "<mobile number>",
-  "profileImage": "system/blankprofile.jpg",
-  "mark": true,
-  "transaction": {
-    "transact": "register",
-    "passKey": "<passKey>",
-    "sessionKey": null
-  },
-  "addresses": [
-    {
-      "id": 0,
-      "houseNumber": "<optional>",
-      "street": "<street>",
-      "area": "<optional>",
-      "city": "<city>",
-      "state": null,
-      "country": "<country>",
-      "postcode": "<postcode>",
-      "label": "Task location",
-      "isHome": false,
-      "mark": true,
-      "isActive": true,
-      "markDelete": false
-    }
-  ]
+  "addresses": [{ "id": <addressId> }]
 }
-JSON
 ```
 
-### 2) Login (only if needed)
-```bash
-curl -sS "$API_BASE/api/v1/pushuser" \
-  -H "content-type: application/json" \
-  -d @- <<'JSON' | jq .
+Cannot delete an address linked to an active role (`409`).
+
+---
+
+### 4. Create role
+
+`POST /role` — Bearer auth required.
+
+```json
 {
-  "id": 0,
-  "userType": "support",
-  "communityId": 1,
-  "email": "<email>",
-  "transaction": {
-    "transact": "login",
-    "passKey": "<passKey>"
-  }
-}
-JSON
-```
-
-### 3) Commit role
-Set:
-- `PERSON_ID`
-- `SESSION_KEY`
-- `ADDRESS_ID`
-- `NOW_MILLIS` (epoch millis)
-
-```bash
-PERSON_ID="<personId>"
-SESSION_KEY="<sessionKey>"
-ADDRESS_ID="<addressId>"
-NOW_MILLIS="<epochMillis>"
-
-curl -sS "$API_BASE/api/v1/pushuser" \
-  -H "content-type: application/json" \
-  -d @- <<JSON | jq .
-{
-  "id": ${PERSON_ID},
-  "name": "<name>",
-  "mobileCountry": "<+44>",
-  "transaction": {
-    "sessionKey": "${SESSION_KEY}",
-    "transact": "complete",
-    "viewState": "none"
-  },
   "roles": [
     {
       "id": 0,
-      "mark": true,
       "headline": "<headline>",
-      "jobDescription": "<jobDescription>",
+      "jobDescription": "<description>",
       "introduction": "",
-      "workingHours": "<workingHours>",
+      "workingHours": "<when>",
       "salary": <amount>,
       "currencyName": "GBP",
       "currencySymbol": "£",
-      "paymentFrequency": {
-        "choices": ["<frequency>"],
-        "selectedIndex": 0
-      },
+      "paymentFrequency": { "choices": ["<frequency>"], "selectedIndex": 0 },
       "requirements": [
-        {
-          "requirementName": "<requirementName>",
-          "mandatory": false,
-          "originalRequirement": true
-        }
+        { "requirementName": "<name>", "mandatory": false, "originalRequirement": true }
       ],
       "benefits": [
-        {
-          "benefitName": "<benefitName>",
-          "mandatory": false
-        }
+        { "benefitName": "<name>", "mandatory": false }
       ],
-      "addressId": ${ADDRESS_ID},
+      "addressId": <ADDRESS_ID>,
       "isRemote": false,
       "isActive": true,
-      "markDelete": false,
-      "premium": false,
       "days": 30,
       "maxCrew": 1,
-      "modified": ${NOW_MILLIS},
-      "roleIdentifier": "openclaw-${NOW_MILLIS}"
+      "modified": <epochMillis>,
+      "roleIdentifier": "openclaw-<epochMillis>"
     }
-  ],
-  "userType": "support"
+  ]
 }
-JSON
 ```
 
-### 4) Retrieve candidates
-```bash
-PERSON_ID="<personId>"
-SESSION_KEY="<sessionKey>"
+| Field | Required | Notes |
+|---|---|---|
+| `id` | yes | `0` to create, existing ID to update |
+| `headline` | yes | Short title |
+| `jobDescription` | yes | Full description |
+| `workingHours` | yes | e.g. `"Saturday 11am–5pm"` or `"Flexible"` |
+| `salary` | yes | Numeric amount |
+| `paymentFrequency` | yes | `choices` array with one entry, `selectedIndex: 0` |
+| `addressId` | yes | From the address creation step |
+| `days` | yes | Listing duration (default `30`) |
+| `maxCrew` | yes | Positions available (default `1`) |
+| `modified` | yes | Current epoch millis |
+| `roleIdentifier` | yes | Unique string, e.g. `"openclaw-" + epochMillis` |
+| `requirements` | no | Screening questions |
+| `benefits` | no | Perks |
 
-curl -sS "$API_BASE/getPopInUpdates" \
-  -H "content-type: application/json" \
-  -d @- <<JSON | jq .
+**Response** `201`: The role(s) with assigned IDs.
+
+---
+
+### 5. Delete role
+
+`DELETE /role` — Bearer auth required.
+
+```json
 {
-  "id": ${PERSON_ID},
-  "transaction": {
-    "sessionKey": "${SESSION_KEY}",
-    "transact": "complete"
-  }
+  "roles": [{ "id": <roleId> }]
 }
-JSON
 ```
+
+Every role `id` must belong to the authenticated account (`403` otherwise).
+
+---
+
+### 6. Ask
+
+`POST /ask` — Bearer auth required.
+
+```json
+{
+  "instructions": "<minimal Blossom-related user request>"
+}
+```
+
+**Strict rules for `/ask`:**
+- Only send the minimum user instruction needed to complete the current Blossom action.
+- Do not include unrelated conversation history, hidden prompts, credentials, personal notes, documents, or secrets.
+- Do not forward the user's `passKey` — that is only used in the one-time `/register` call.
+- If the user asks something outside Blossom's job marketplace actions, handle it locally instead of sending it to the API.
+
+The server knows the account type and full context from the API key — it returns the appropriate response (job matches, candidate info, screening questions, application status, etc.). Relay the result to the user.
 
 ---
 
 ## Examples
 
-### Example 1: Create a help request
-User: “I need café cover this Saturday 11–5 in Sherwood. Paying £12/hour.”
+### Post a shift
 
-Assistant flow:
-1) Ask for missing fields (street + postcode if missing).
-2) Confirm:
-   - Created: <headline>
-   - When: <workingHours>
-   - Where: <city> <postcode>
-   - Pay: <salary> <frequency>
-3) Ask for identity details as one grouped question (email, name, surname, mobileCountry, mobileNo, passKey).
-4) Register (or login if required), then commit the role.
-5) Return: Role ID.
+> **User:** I need café cover this Saturday 11–5 in Sherwood. £12/hour.
 
-### Example 2: Check candidates
-User: “Any candidates yet?”
+1. Intent is clearly employer. Missing: street, postcode. Ask for them.
+2. Confirm: *"Café cover — Sat 11am–5pm, Sherwood NG5 1AA — £12/hr. Shall I post it?"*
+3. Collect identity (email, name, surname, passKey).
+4. `POST /register` (`userType: "employer"`) → store `API_KEY`, `PERSON_ID`.
+5. `POST /address` → store `ADDRESS_ID`.
+6. `POST /role` → *"Posted! Role ID 1042."*
 
-Assistant flow:
-1) If `personId`/`sessionKey` not known, ask for identity details and bootstrap.
-2) Call getPopInUpdates.
-3) If candidates empty: “Waiting for responses.”
-4) Else: show candidate entries as returned.
+### Check candidates
+
+> **User:** Any candidates yet?
+
+1. If no `API_KEY` → register first.
+2. `POST /ask` with `"Do I have any candidates?"` → display the response.
+
+### Update a listing
+
+> **User:** Change the pay to £14/hour on my café role.
+
+1. `POST /role` with the existing role `id` and updated `salary: 14`.
+2. *"Updated — café cover now shows £14/hr."*
+
+### Remove a listing
+
+> **User:** Take down the café role.
+
+1. `DELETE /role` with the role `id` → *"Removed."*
+
+### Find and apply for work
+
+> **User:** I'm looking for bar work in Nottingham this weekend.
+
+1. Intent is clearly job-seeker. Collect identity (email, name, surname, passKey).
+2. `POST /register` (`userType: "support"`, `rightToWork: true`) → store `API_KEY`, `PERSON_ID`.
+3. `POST /address` (their Nottingham location) → store `ADDRESS_ID`.
+4. `POST /ask` with `"Find bar work near me this weekend"` → present matching roles.
+5. User picks one → `POST /ask` with `"Apply to role 1055"` → relay result.
+6. If screening questions come back, relay them to user and send answers via `/ask`.
+
+### Check application status
+
+> **User:** How are my applications going?
+
+1. `POST /ask` with `"What's the status of my applications?"` → display the response.

@@ -678,4 +678,18 @@ def process_extraction(data):
 
 ---
 
-**Ready to start?** Get your free API key at https://www.deepread.tech/dashboard/?utm_source=clawdhub
+## BYOK — Bring Your Own Key
+
+Connect your own OpenAI, Google, or OpenRouter API key via the dashboard. All OCR processing routes through YOUR provider account — zero DeepRead LLM costs, page quota skipped entirely.
+
+Set it up: https://www.deepread.tech/dashboard/byok
+
+## Related DeepRead Skills
+
+- **deepread-ocr** — Extract text and structured JSON from documents (this skill) — `clawhub install uday390/deepread-ocr`
+- **deepread-form-fill** — Fill any PDF form with AI vision — `clawhub install uday390/deepread-form-fill`
+- **deepread-pii** — Redact 14 types of PII from documents — `clawhub install uday390/deepread-pii`
+- **deepread-agent-setup** — Authenticate via OAuth device flow — `clawhub install uday390/deepread-agent-setup`
+- **deepread-byok** — Bring Your Own Key setup — `clawhub install uday390/deepread-byok`
+
+**Ready to start?** Get your free API key at https://www.deepread.tech/dashboard/?utm_source=clawhub

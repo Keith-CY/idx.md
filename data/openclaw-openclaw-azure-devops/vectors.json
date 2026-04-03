@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azure-devops",
-  "generated_at": "2026-04-02T07:32:15.569Z",
+  "generated_at": "2026-04-03T07:31:40.488Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azure-devops#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pals-software/azure-devops/SKILL.md",
-        "retrieved_at": "2026-04-02T07:32:15.569Z",
+        "retrieved_at": "2026-04-03T07:31:40.488Z",
         "content_sha256": "241e936da7ace0b40dc6bb51e1d6ca7a004313ecb24696a8f73e20a2c83080a8"
       }
     }

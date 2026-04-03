@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-smalltalk",
-  "generated_at": "2026-04-02T07:31:04.385Z",
+  "generated_at": "2026-04-03T07:29:48.405Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-smalltalk#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/johnmci/smalltalk/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:04.385Z",
+        "retrieved_at": "2026-04-03T07:29:48.405Z",
         "content_sha256": "9b9e9ec724f17663b410d98cf8f375be17d8a8be834c4fa0eda5f857889c9e3d"
       }
     }

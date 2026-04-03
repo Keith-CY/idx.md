@@ -1,7 +1,18 @@
 ---
 name: beauty-generation-free
 description: FREE AI portrait generation with 140+ nationalities, diverse styles, professional headshots, character design, and fashion visualization. Fast generation (3-5 seconds), built-in content safety, API key authentication, daily quota management. Perfect for creative projects, character design, professional portraits, and diverse representation.
-version: 1.2.42
+version: 1.2.47
+powered_by: diversityfaces.org
+provider: DiversityFaces.org
+homepage: https://gen1.diversityfaces.org
+env_vars:
+  - BEAUTY_API_KEY
+primary_credential: BEAUTY_API_KEY
+requires:
+  bins:
+    - curl
+  env:
+    - BEAUTY_API_KEY
 keywords:
   - ai-portrait-generation
   - beauty-generation
@@ -24,10 +35,33 @@ keywords:
   - cultural-portraits
   - ai-character-design
 metadata:
+  clawdis:
+    skillKey: beauty-generation-free
+    primaryEnv: BEAUTY_API_KEY
+    homepage: https://gen1.diversityfaces.org
+    emoji: "🎨"
+    requires:
+      bins:
+        - curl
+      env:
+        - BEAUTY_API_KEY
+  clawdbot:
+    skillKey: beauty-generation-free
+    primaryEnv: BEAUTY_API_KEY
+    homepage: https://gen1.diversityfaces.org
+    emoji: "🎨"
+    requires:
+      bins:
+        - curl
+      env:
+        - BEAUTY_API_KEY
   openclaw:
     requires:
       bins:
         - curl
+      env:
+        - BEAUTY_API_KEY
+    primary_credential: BEAUTY_API_KEY
     emoji: "🎨"
     homepage: https://gen1.diversityfaces.org
     privacy_policy: https://gen1.diversityfaces.org
@@ -115,7 +149,7 @@ curl -H "X-API-Key: YOUR_API_KEY" \
     "key_name": "My API Key",
     "total_calls": 45,
     "remaining_calls": 955,
-    "daily_limit": 1000,
+    "daily_limit": 100,
     "daily_calls_today": 45,
     "note": "remaining_calls: -1 means unlimited, daily_limit: -1 means unlimited"
   }
@@ -138,7 +172,7 @@ Once you have your API key and confirmed your quota, use curl to generate images
 curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "Content-Type: application/json" \
   -H "X-API-Key: YOUR_API_KEY" \
-  -d '{"full_prompt": "A beautiful woman with long hair", "width": 1024, "height": 1024}'
+  -d '{"full_prompt": "A beautiful woman with long hair", "width": 1536, "height": 1536}'
 
 # Step 2: Poll status - use the "prompt_id" from step 1
 curl -H "X-API-Key: YOUR_API_KEY" \
@@ -237,13 +271,13 @@ python generate_beauty.py your_api_key_here "Your prompt"
 **API Key Features:**
 - ✅ 500 API calls per key
 - ✅ Valid for 1 year
-- ✅ Daily quota limits (default 1000 calls/day)
+- ✅ Daily quota limits (default 100 calls/day)
 - ✅ Secure authentication
 - ✅ Usage tracking
 - ✅ Rate limiting protection
 
 **Daily Quota Management:**
-- Each API key has a daily limit (default: 1000 calls/day)
+- Each API key has a daily limit (default: 100 calls/day)
 - Counter resets every 24 hours
 - Check quota before making calls: `GET /api/quota`
 - If daily limit reached, wait until next day
@@ -396,8 +430,8 @@ def main():
             headers=headers,
             json={
                 "full_prompt": prompt,
-                "width": 1024,
-                "height": 1024
+                "width": 1536,
+                "height": 1536
             }
         )
         gen_data = gen_resp.json()
@@ -437,7 +471,7 @@ def main():
                     f.write(img_resp.content)
                 
                 print(f"✅ Image saved as {output_file}")
-                print(f"� File size: {Path(output_file).stat().st_size / 1024:.1f} KB")
+                print(f"File size: {Path(output_file).stat().st_size / 1536:.1f} KB")
                 return 0
             
             elif status_data['status'] == 'processing':
@@ -510,8 +544,8 @@ curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "X-API-Key: YOUR_API_KEY" \
   -d '{
     "full_prompt": "A beautiful 25-year-old woman with long hair, elegant dress, professional lighting",
-    "width": 1024,
-    "height": 1024
+    "width": 1536,
+    "height": 1536
   }'
 
 # Response: {"success": true, "prompt_id": "abc123-def456", "task_id": "xyz789-uvw012", ...}
@@ -604,8 +638,8 @@ curl -H "X-API-Key: YOUR_API_KEY" \
 
 **Parameters:**
 - `full_prompt`: Your English description
-- `width`: 256-2048, multiple of 8, default 1024
-- `height`: 256-2048, multiple of 8, default 1024
+- `width`: 256-2048, multiple of 8, default 1536
+- `height`: 256-2048, multiple of 8, default 1536
 - `seed`: -1 for random
 
 **Timing:**
@@ -745,7 +779,7 @@ User request → Check quota (instant)
 ```python
 {
   "error": "API Key Validation Failed",
-  "message": "Daily quota exhausted (1000/1000)",
+  "message": "Daily quota exhausted (100/100)",
   "code": "INVALID_API_KEY"
 }
 ```
@@ -783,7 +817,7 @@ curl -H "X-API-Key: YOUR_API_KEY" \
 curl -X POST https://gen1.diversityfaces.org/api/generate/custom \
   -H "Content-Type: application/json" \
   -H "X-API-Key: YOUR_API_KEY" \
-  -d '{"full_prompt": "YOUR_PROMPT", "width": 1024, "height": 1024}'
+  -d '{"full_prompt": "YOUR_PROMPT", "width": 1536, "height": 1536}'
 
 # Response: {"success": true, "prompt_id": "YOUR_PROMPT_ID", "task_id": "...", ...}
 

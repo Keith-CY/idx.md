@@ -122,6 +122,8 @@ bash skills/orchestrator/scripts/setup-session.sh <environment> [context-name]
 - The skill cannot verify integrity of external scripts
 - **Audit all scripts locally** before running in production
 - Consider maintaining a verified, offline copy of trusted scripts
+- **ALWAYS PIN TO VERIFIED COMMIT HASH** for production - NEVER use floating URLs like `tree/main` or untagged branches
+- Use manual git clone with verified checkout for highest security
 
 ### Persistence & Blast Radius
 - Agents maintain **persistent state** across sessions via:
@@ -160,6 +162,10 @@ bash skills/orchestrator/scripts/setup-session.sh <environment> [context-name]
 - **Only allow downloads from trusted release sources** (official GitHub releases, package managers)
 - Consider curating offline toolchains if your environment requires it
 
+### Additional Documentation
+- **[OPERATIONAL_RISKS.md](OPERATIONAL_RISKS.md)** - Complete documentation of operational risks, inconsistencies, and mitigations
+- **[SECURITY.md](SECURITY.md)** - Security policy, external dependencies, and verification requirements
+
 ---
 
 This is the complete cluster-agent-swarm skill package. When you add this skill, you get 
@@ -167,41 +173,98 @@ access to ALL 7 specialized agents working together as a coordinated swarm.
 
 ## Installation
 
-### Install All Skills (Recommended)
+### Security Warning - Read Before Installing
+
+> ⚠️ **CRITICAL SECURITY WARNING**
+>
+> The installation commands below use GitHub URLs that fetch and execute code on your system.
+> This is a **supply chain risk** - you must verify the repository and commit before use.
+>
+> **For production deployments:**
+> 1. **ALWAYS** pin to a specific, verified commit hash
+> 2. Review the commit: `git show <commit-hash>`
+> 3. Verify GPG signatures if available: `git verify-commit <commit-hash>`
+> 4. Use the manual clone method below for highest security
+>
+> **NEVER** use floating URLs (`tree/main`, `main` branch) in production.
+
+### Install All Skills (Development Only)
+
+> ⚠️ **NOT FOR PRODUCTION**: Uses floating URL without commit pinning.
+
 ```bash
 npx skills add https://github.com/kcns008/cluster-agent-swarm-skills
 ```
 
-This installs all 7 agents as a single combined skill with access to all capabilities.
+### Install All Skills (Production - Pinned)
+
+> ✅ **RECOMMENDED**: Pins to verified commit hash.
+
+```bash
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e
+```
+
+**Verification steps:**
+```bash
+# Verify the commit before installing
+git clone https://github.com/kcns008/cluster-agent-swarm-skills
+cd cluster-agent-swarm-skills
+git checkout 91c362dba2911f7523f179e7dcc374cf4335814e
+git show --stat  # Review what changed
+# Then install using the pinned URL above
+```
 
 ### Install Individual Skills
 
-Each agent can be installed separately using GitHub tree paths:
+> ⚠️ **ALWAYS PIN TO VERIFIED COMMIT** - Do not use `tree/main` in production.
 
 ```bash
 # Orchestrator - Jarvis (task routing, coordination)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/orchestrator
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/orchestrator
 
 # Cluster Ops - Atlas (cluster lifecycle, nodes, upgrades)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/cluster-ops
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/cluster-ops
 
 # GitOps - Flow (ArgoCD, Helm, Kustomize)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/gitops
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/gitops
 
 # Security - Shield (RBAC, policies, CVEs)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/security
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/security
 
 # Observability - Pulse (metrics, alerts, incidents)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/observability
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/observability
 
 # Artifacts - Cache (registries, SBOM, promotions)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/artifacts
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/artifacts
 
 # Developer Experience - Desk (namespaces, onboarding)
-npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/main/skills/developer-experience
+npx skills add https://github.com/kcns008/cluster-agent-swarm-skills/tree/91c362dba2911f7523f179e7dcc374cf4335814e/skills/developer-experience
 ```
 
-> **Note:** Always pin to a specific tag/commit in production. See Security Assessment section.
+### Manual Installation (Highest Security)
+
+> ✅ **MOST SECURE**: No remote code execution, full audit trail.
+
+```bash
+# Clone and verify
+git clone https://github.com/kcns008/cluster-agent-swarm-skills
+cd cluster-agent-swarm-skills
+
+# Checkout verified commit
+git checkout 91c362dba2911f7523f179e7dcc374cf4335814e
+
+# Verify (optional, if GPG signed)
+git verify-commit 91c362dba2911f7523f179e7dcc374cf4335814e
+
+# Review scripts BEFORE copying
+# ls skills/*/scripts/
+# cat skills/*/scripts/*.sh
+
+# Copy manually reviewed scripts
+cp -r skills/orchestrator ~/.claude/skills/
+cp -r skills/cluster-ops ~/.claude/skills/
+# ... add other skills as needed
+```
 
 ---
 

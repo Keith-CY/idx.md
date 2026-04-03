@@ -178,9 +178,10 @@ Combine tags + punctuation for maximum effect:
 
 ### Complete Workflow
 
-1. **Generate** with `tts` tool (returns MP3)
-2. **Convert** to Opus (required for Android!)
+1. **Generate** with `tts` tool (returns Opus in `/tmp/openclaw/tts-*/`)
+2. **Copy** to workspace (message tool only allows workspace paths)
 3. **Send** with `message` tool
+4. **Cleanup** - delete the workspace copy
 
 ### Step-by-Step
 
@@ -188,20 +189,34 @@ Combine tags + punctuation for maximum effect:
 ```
 tts text="[excited] This is amazing! [pause]" channel=whatsapp
 ```
-Returns: `MEDIA:/tmp/tts-xxx/voice-123.mp3`
 
-**2. Convert MP3 → Opus:**
+**2. Find the LATEST file (⚠️ CRITICAL - always use the newest file!):**
 ```bash
-ffmpeg -i /tmp/tts-xxx/voice-123.mp3 -c:a libopus -b:a 64k -vbr on -application voip /tmp/tts-xxx/voice-123.ogg
+find /tmp/openclaw/tts-* /tmp/tts-* -name "*.opus" -o -name "*.mp3" -o -name "*.ogg" 2>/dev/null | xargs ls -t | head -1
+```
+The `tts` tool now outputs to `/tmp/openclaw/tts-*/` (NOT `/tmp/tts-*/`).
+Old files may exist in `/tmp/tts-*/` from previous sessions - **never use those!**
+
+**3. If file is MP3, convert to Opus:**
+```bash
+ffmpeg -i /path/to/voice.mp3 -c:a libopus -b:a 64k -vbr on -application voip /path/to/voice.ogg
+```
+If already `.opus`, skip this step.
+
+**4. Copy to workspace and send:**
+```bash
+cp /tmp/openclaw/tts-xxx/voice.opus ~/. openclaw/workspace/voice-temp.ogg
+```
+```
+message action=send channel=whatsapp target="+972..." filePath="/root/.openclaw/workspace/voice-temp.ogg" asVoice=true message=" "
 ```
 
-**3. Send the Opus file:**
-
-WhatsApp requires a non-empty message body to send voice notes. Use a single space or dot as the message:
-
+**5. Cleanup:**
+```bash
+rm /root/.openclaw/workspace/voice-temp.ogg
 ```
-message action=send channel=whatsapp target="+972..." filePath="/tmp/tts-xxx/voice-123.ogg" asVoice=true message=" "
-```
+
+WhatsApp requires a non-empty message body to send voice notes. Use a single space as the message.
 
 ### Why Opus?
 

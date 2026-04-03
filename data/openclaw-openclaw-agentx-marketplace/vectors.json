@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentx-marketplace",
-  "generated_at": "2026-04-02T07:32:02.325Z",
+  "generated_at": "2026-04-03T07:31:18.706Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentx-marketplace#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/savor3/agentx-marketplace/SKILL.md",
-        "retrieved_at": "2026-04-02T07:32:02.325Z",
+        "retrieved_at": "2026-04-03T07:31:18.706Z",
         "content_sha256": "db31133f08e1d4266ac63e4d8eb81cdec9ad90d5ab9c824a294f3f4f9b144e5d"
       }
     }

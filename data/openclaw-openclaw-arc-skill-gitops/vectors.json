@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-arc-skill-gitops",
-  "generated_at": "2026-04-02T07:32:11.982Z",
+  "generated_at": "2026-04-03T07:31:33.144Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-arc-skill-gitops#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-skill-gitops/SKILL.md",
-        "retrieved_at": "2026-04-02T07:32:11.982Z",
+        "retrieved_at": "2026-04-03T07:31:33.144Z",
         "content_sha256": "de4fe0467632d6d0130477cc80cea18a8ae31c90b851d6a505fecc0527e204db"
       }
     }

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-actionbook-actionbook-actionbook",
-  "generated_at": "2026-04-02T07:29:34.091Z",
+  "generated_at": "2026-04-03T07:27:43.963Z",
   "records": [
     {
       "id": "skills/skills-sh-actionbook-actionbook-actionbook#head",
       "kind": "head",
       "path": "/data/skills-sh-actionbook-actionbook-actionbook/HEAD.md",
-      "text": "title: skills-sh-actionbook-actionbook-actionbook\nsummary: # actionbook Command Reference Complete reference for all `actionbook` CLI commands. ## Action Search & Retrieval ### search - Search for action manuals ```bash actionbook search \"<query>\" # Basic keyword search actionbook search \"<query>\" --domain site.com # Filter by domain actionbook search \"<query>\" --url <url> # Filter by specific URL actionbook search \"<query>\" -p 2 # Page 2 (default: 1) actionbook search \"<query>\" -s 20 # 20 results per page (default: 10, max: 100)\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md",
+      "text": "title: skills-sh-actionbook-actionbook-actionbook\nsummary: # actionbook Command Reference Complete reference for all `actionbook` CLI commands. Every browser command requires `--session <SID>`. Most also require `--tab <TID>`. Session-level commands (start, close, restart, status, list-sessions) need only `--session` or nothing. Selectors accept CSS, XPath, or snapshot refs (`@eN` from `snapshot` output). ## Global Flags ``` --json Output as JSON envelope --timeout <ms> Command timeout in milliseconds ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md",
       "metadata": {
         "stable_id": "skills/skills-sh-actionbook-actionbook-actionbook",
         "topic": "skills-sh-actionbook-actionbook-actionbook",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md",
-        "retrieved_at": "2026-04-02T07:29:34.091Z",
-        "content_sha256": "52eb12b93cd100e2d15e919712468a03bac3041fd4d516cc8ef45ce9960f4dc1"
+        "retrieved_at": "2026-04-03T07:27:43.963Z",
+        "content_sha256": "15ea5a17db0c65ab0f8b5213a8a14a8d3e64456e4af6acb7938530889906e13b"
       }
     }
   ]

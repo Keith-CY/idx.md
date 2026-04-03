@@ -7,22 +7,23 @@ summary: >-
 
   Complete reference for all `actionbook` CLI commands.
 
-  ## Action Search & Retrieval
+  Every browser command requires `--session <SID>`. Most also require `--tab
+  <TID>`.
 
-  ### search - Search for action manuals
+  Session-level commands (start, close, restart, status, list-sessions) need
+  only `--session` or nothing.
 
-  ```bash
+  Selectors accept CSS, XPath, or snapshot refs (`@eN` from `snapshot` output).
 
-  actionbook search "<query>"                    # Basic keyword search
+  ## Global Flags
 
-  actionbook search "<query>" --domain site.com  # Filter by domain
+  ```
 
-  actionbook search "<query>" --url <url>        # Filter by specific URL
+  --json            Output as JSON envelope
 
-  actionbook search "<query>" -p 2               # Page 2 (default: 1)
+  --timeout <ms>    Command timeout in milliseconds
 
-  actionbook search "<query>" -s 20              # 20 results per page (default:
-  10, max: 100)
+  ```
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +33,6 @@ upstream_ref: https://skills.sh/actionbook/actionbook/actionbook
 github_stars: 1186
 github_forks: 88
 github_is_organization: true
-retrieved_at: 2026-04-02T07:29:34.091Z
-content_sha256: 52eb12b93cd100e2d15e919712468a03bac3041fd4d516cc8ef45ce9960f4dc1
+retrieved_at: 2026-04-03T07:27:43.963Z
+content_sha256: 15ea5a17db0c65ab0f8b5213a8a14a8d3e64456e4af6acb7938530889906e13b
 ---

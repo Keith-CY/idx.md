@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-table-image",
-  "generated_at": "2026-04-02T07:31:10.415Z",
+  "generated_at": "2026-04-03T07:29:55.326Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-table-image#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joargp/table-image/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:10.415Z",
+        "retrieved_at": "2026-04-03T07:29:55.326Z",
         "content_sha256": "b5ec5cb0f1837863214406b1e918608d381a2a7db6005ff59fa2dbd1b481fd5b"
       }
     }

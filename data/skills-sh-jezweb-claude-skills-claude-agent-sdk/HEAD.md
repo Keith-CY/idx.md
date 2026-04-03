@@ -5,6 +5,21 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.91
+
+  - Added optional `terminal_reason` field to result messages, exposing why the
+  query loop terminated (`completed`, `aborted_tools`, `max_turns`,
+  `blocking_limit`, etc.)
+
+  - Added `'auto'` to the public `PermissionMode` type
+
+  - Changed `sandbox` option to default `failIfUnavailable` to `true` when
+  `enabled: true` is passed — `query()` will emit an error result and exit if
+  sandbox dependencies are missing, instead of silently running unsandboxed. Set
+  `failIfUnavailable: false` to allow graceful degradation.
+
+  - Updated to parity with Claude Code v2.1.91
+
   ## 0.2.90
 
   - Updated to parity with Claude Code v2.1.90
@@ -13,21 +28,6 @@ summary: >-
 
   - Added `startup()` to pre-warm the CLI subprocess before `query()`, making
   the first query ~20x faster when startup cost can be paid upfront
-
-  - Added `includeSystemMessages` option to `getSessionMessages()` to optionally
-  include system messages in session history
-
-  - Added `listSubagents()` and `getSubagentMessages()` functions to retrieve
-  subagent conversation history from sessions
-
-  - Added `includeHookEvents` option to enable hook lifecycle messages
-  (`hook_started`, `hook_progress`, `hook_response`) for all hook event types
-
-  - Fixed `ERR_STREAM_WRITE_AFTER_END` errors when single-turn queries with SDK
-  MCP servers or hooks have control responses arriving after the result message
-
-  - Fixed Zod v4 field `.describe()` metadata being dropped from
-  `createSdkMcpServer` tool schemas
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-02T07:29:35.244Z
-content_sha256: 3941c5f5f65f9dbf697ad0b7a75934d9e6e78940df72d722b000cb4531f3cab6
+retrieved_at: 2026-04-03T07:27:47.268Z
+content_sha256: 67ac78c1181f178fe0bb7ceb37c55b354149ea0610fa7ebc0e2cc7cb59b321dd
 ---

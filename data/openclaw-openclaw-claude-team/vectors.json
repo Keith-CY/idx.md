@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claude-team",
-  "generated_at": "2026-04-02T07:29:49.495Z",
+  "generated_at": "2026-04-03T07:28:11.940Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claude-team#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jalehman/claude-team/SKILL.md",
-        "retrieved_at": "2026-04-02T07:29:49.495Z",
+        "retrieved_at": "2026-04-03T07:28:11.940Z",
         "content_sha256": "bf166e4c9732496d4f69387642aba802a5e949eec37ccaf3464e4902066e1f91"
       }
     }

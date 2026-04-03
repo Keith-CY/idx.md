@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aa",
-  "generated_at": "2026-04-02T07:31:43.385Z",
+  "generated_at": "2026-04-03T07:30:49.149Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aa#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/azvast/aa/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:43.385Z",
+        "retrieved_at": "2026-04-03T07:30:49.149Z",
         "content_sha256": "579786fee3e9da7d7a4a877ed4d4deb3ac213515e2b7c2f78646123ff020f417"
       }
     }

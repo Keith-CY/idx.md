@@ -33,7 +33,7 @@ export GURKERL_EMAIL="your@email.com"
 export GURKERL_PASS="your-password"
 ```
 
-For persistent access, add to `~/.config/systemd/user/clawdbot-gateway.service.d/gurkerl.conf`:
+For persistent access, add to `~/.config/systemd/user/openclaw-gateway.service.d/gurkerl.conf`:
 ```ini
 [Service]
 Environment="GURKERL_EMAIL=your@email.com"
@@ -43,9 +43,12 @@ Environment="GURKERL_PASS=your-password"
 ## CLI Usage
 
 ```bash
-# Search products (German keywords)
-gurkerl search_products '{"keyword":"Milch"}'
-gurkerl search_products '{"keyword":"Bio Eier","sort_type":"orderPriceAsc"}'
+# Search products (German keywords) — use batch_search_products with queries array
+gurkerl batch_search_products '{"queries":[{"keyword":"Milch"}]}'
+gurkerl batch_search_products '{"queries":[{"keyword":"Bio Eier","sort_type":"orderPriceAsc"}]}'
+
+# Search multiple products at once (more efficient)
+gurkerl batch_search_products '{"queries":[{"keyword":"Milch"},{"keyword":"Brot"},{"keyword":"Eier"}]}'
 
 # Get cart
 gurkerl get_cart
@@ -66,12 +69,9 @@ gurkerl search_recipes_by_vector_similarity '{"query":"vegetarisch schnell"}'
 ### Products & Search
 | Tool | Description |
 |------|-------------|
-| `search_products` | Search by keyword, filters, sort. Use German keywords. |
+| `batch_search_products` | Search by keyword(s). Takes `{"queries":[{"keyword":"..."}]}`. Each query can include `sort_type`, filters. Use German keywords. |
 | `get_products_details_batch` | Get details for multiple product IDs |
-| `get_product_composition` | Nutritional info, allergens, ingredients |
-| `get_category_products` | Browse products in a category |
-| `get_main_categories` | List store categories |
-| `get_brands_navigation` | List available brands |
+| `get_products_composition_batch` | Nutritional info, allergens, ingredients for multiple products |
 
 ### Cart
 | Tool | Description |
@@ -82,14 +82,25 @@ gurkerl search_recipes_by_vector_similarity '{"query":"vegetarisch schnell"}'
 | `remove_cart_item` | Remove item: `{"product_id":123}` |
 | `clear_cart` | Empty entire cart |
 
+### Checkout
+| Tool | Description |
+|------|-------------|
+| `get_checkout` | View checkout state |
+| `get_timeslots_checkout` | Available delivery timeslots |
+| `change_timeslot_checkout` | Select a delivery timeslot |
+| `change_checkout_packaging` | Change packaging options |
+| `update_payment_method_checkout` | Change payment method |
+| `submit_checkout` | Submit the order |
+
 ### Orders
 | Tool | Description |
 |------|-------------|
 | `fetch_orders` | Get order history. Params: `limit`, `order_type` (delivered/upcoming/both), `date_from`, `date_to` |
 | `repeat_order` | Reorder: `{"order_id":12345678}` |
 | `cancel_order` | Cancel upcoming order (two-step: first `customer_confirmed:false`, then `true`) |
-| `get_alternative_timeslots` | Get available delivery times |
-| `change_order_timeslot` | Change delivery slot |
+| `get_alternative_timeslots` | Get available delivery times for existing order |
+| `change_order_timeslot` | Change delivery slot for existing order |
+| `remove_order_items` | Remove items from an upcoming order |
 
 ### Recipes
 | Tool | Description |
@@ -97,53 +108,61 @@ gurkerl search_recipes_by_vector_similarity '{"query":"vegetarisch schnell"}'
 | `search_recipes_by_vector_similarity` | Semantic recipe search |
 | `get_recipe_detail` | Full recipe with ingredients mapped to products |
 | `generate_recipe_with_ingredients_search` | AI-generated recipes with product matches |
-| `get_recipes_navigation` | Browse recipe categories |
 
 ### User & Favorites
 | Tool | Description |
 |------|-------------|
 | `get_user_info` | Account profile |
 | `get_user_credits` | Available credits/vouchers |
-| `get_user_addresses` | Saved delivery addresses |
 | `get_all_user_favorites` | All favorited products |
 | `get_user_shopping_lists_preview` | List all shopping lists |
 | `get_user_shopping_list_detail` | View list contents |
 | `create_shopping_list` | Create new list |
-| `add_products_to_shopping_list` | Add product to list |
+| `add_products_to_shopping_list` | Add products to a list |
+| `remove_products_from_shopping_list` | Remove products from a list |
+| `delete_shopping_list` | Delete a shopping list |
 
 ### Customer Care
 | Tool | Description |
 |------|-------------|
 | `submit_claim` | File warranty claim for missing/damaged items |
+| `submit_credit_compensation` | Request credit compensation |
 | `get_customer_support_contact_info` | Phone, email, WhatsApp |
 | `get_user_reusable_bags_info` | Check bag deposit status |
 | `adjust_user_reusable_bags` | Correct bag count |
+| `credit_customer_returnables` | Credit returnable deposits |
+| `get_customer_care_workflow_prompt` | Internal workflow guidance |
 
-### Other
+### Analytics & Other
 | Tool | Description |
 |------|-------------|
 | `calculate_average_user_order` | Generate typical order from history |
+| `analyze_spending` | Spending analysis and insights |
+| `add_feedback` | Submit product/service feedback |
+| `add_karma_rating` | Rate delivery/service |
 | `get_faq_content` | FAQ for: general, xtra_general, xtra_price, baby_club, christmas |
+| `get_url_content` | Fetch content from a URL |
+| `email_support_on_user_behalf` | Send support email |
 | `fetch_all_job_listings` | Career opportunities |
 
 ## Search Tips
 
 - Use **German** keywords for Austrian Gurkerl: "Milch", "Brot", "Eier", "Käse"
-- Filters available: `news` (new products), `sales` (on sale)
+- Batch multiple searches in one call for efficiency: `{"queries":[{"keyword":"A"},{"keyword":"B"}]}`
+- Each query object supports: `keyword`, `sort_type`, filters
 - Sort: `orderPriceAsc`, `orderPriceDesc`, `recommended` (default)
-- Include nutrition: `"include_nutritions":true`
-- Include allergens: `"include_allergens":true`
+- Filters available: `news` (new products), `sales` (on sale)
+- Include nutrition/allergens via `get_products_composition_batch` after getting product IDs
 
 ## Example Workflows
 
 ### Weekly Shopping
 ```bash
-# Check what's on sale
-gurkerl search_products '{"filters":[{"filterSlug":"sales","valueSlug":"sales"}]}'
+# Search multiple items at once
+gurkerl batch_search_products '{"queries":[{"keyword":"Milch"},{"keyword":"Brot"},{"keyword":"Eier"}]}'
 
-# Add milk to cart
-gurkerl search_products '{"keyword":"Milch"}'  # Get product ID
-gurkerl add_items_to_cart '{"items":[{"productId":MILK_ID,"quantity":2}]}'
+# Add to cart
+gurkerl add_items_to_cart '{"items":[{"productId":MILK_ID,"quantity":2},{"productId":BREAD_ID,"quantity":1}]}'
 
 # Review cart
 gurkerl get_cart
@@ -161,3 +180,4 @@ gurkerl search_recipes_by_vector_similarity '{"query":"schnelles Abendessen"}'
 gurkerl get_recipe_detail '{"recipe_id":RECIPE_ID,"include_product_mapping":true}'
 # Add matched products to cart
 ```
+

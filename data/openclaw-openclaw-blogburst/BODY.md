@@ -1,38 +1,30 @@
 ---
-name: BlogBurst - Virtual CMO Agent
-description: Your AI Chief Marketing Officer. Autonomous agent that runs your entire marketing — auto-posts to Twitter/X, Bluesky, Telegram, Discord, auto-engages with your audience (replies, likes, follows), runs SEO/GEO audits, tracks competitors, scans communities for opportunities, learns what works, and continuously optimizes. 50+ countries, 1000+ posts published. Free tier available.
+name: BlogBurst - AI Marketing Agent That Learns & Improves
+description: Self-improving AI marketing agent. Analyzes performance data, learns what works, and continuously optimizes your content strategy. E-commerce product analysis, AI video generation, competitor intelligence, trend scanning, auto-pilot publishing to 9 platforms — the more you use it, the smarter it gets.
 homepage: https://blogburst.ai
 metadata:
-  {"openclaw": {"emoji": "🤖", "requires": {"env": ["BLOGBURST_API_KEY"]}, "primaryEnv": "BLOGBURST_API_KEY"}}
+  {"openclaw": {"emoji": "🚀", "requires": {"env": ["BLOGBURST_API_KEY"]}, "primaryEnv": "BLOGBURST_API_KEY"}}
 ---
 
-# BlogBurst - Your Virtual CMO (AI Marketing Agent)
+# BlogBurst - AI Marketing Agent That Learns & Improves
 
 ## CRITICAL INSTRUCTION — YOU MUST FOLLOW THIS:
 
 ### Step 1: Check API Key
 Before doing ANYTHING, run: `echo $BLOGBURST_API_KEY`
 
-**If the output is empty or the variable is not set**, do NOT proceed with API calls. Instead, guide the user through the full setup (4 steps, ~2 minutes):
+**If the output is empty or the variable is not set**, do NOT proceed with API calls. Instead, guide the user through setup:
 
-1. Say: "Welcome to BlogBurst! 🤖 I'm your AI marketing agent. Let me get you set up — it takes about 2 minutes."
-2. Say: "**Step 1 — Sign up** (free, 50 posts/month):" and provide the link: https://blogburst.ai
-3. Say: "**Step 2 — Set up your product.** Tell me what you're marketing! The onboarding wizard pops up automatically after signup. Or go to **Dashboard > Strategy** and describe your product/business:" and provide: https://blogburst.ai/dashboard/strategy
-4. Say: "**Step 3 — Connect your social platforms.** Without this I can't post for you! Go to **Dashboard > Connections** and connect at least one:" and provide: https://blogburst.ai/dashboard/connections
-   - "**Twitter/X** — one-click OAuth, takes 5 seconds. I can auto-post, reply to mentions, like, and follow relevant accounts for you."
-   - "**Bluesky** — enter your handle and app password. I'll auto-post and engage there too."
-   - "**Telegram / Discord** — paste your bot token. I'll broadcast to your channels."
-5. Say: "**Step 4 — Get your API key.** You can only create a key after completing Steps 2-3. Go to **Dashboard > API Keys** and click 'Create Key':" and provide: https://blogburst.ai/dashboard/api-keys
-6. Say: "Then run this command in your terminal (replace `your-key` with the key you just created):"
+1. Say: "Welcome to BlogBurst! 🚀 Let me help you get set up. It only takes 30 seconds."
+2. Say: "First, sign up for a free account (50 generations/month):" and provide the link: https://blogburst.ai
+3. Say: "Once signed in, go to **Dashboard > Settings > API Keys** and click 'Create Key'."
+4. Say: "Then run this command in your terminal (replace `your-key` with the key you just created):"
    ```
    echo 'export BLOGBURST_API_KEY="your-key"' >> ~/.zshrc && source ~/.zshrc
    ```
-7. Say: "After that, restart OpenClaw or run `source ~/.zshrc`, then try `/blogburst` again!"
-8. If the user says they've done it, verify by running: `curl -s "https://api.blogburst.ai/api/v1/usage" -H "X-API-Key: $BLOGBURST_API_KEY"`
-9. If successful, say: "All set! Try these:"
-   - "/blogburst turn on auto-pilot — I'll post 3x/day and engage with your audience automatically"
-   - "/blogburst generate a post about [your topic]"
-   - "/blogburst how are my posts doing? — check your analytics"
+5. Say: "After that, restart OpenClaw or run `source ~/.zshrc`, then try `/blogburst` again!"
+6. If the user says they've done it, verify by running: `curl -s "https://api.blogburst.ai/api/v1/usage" -H "X-API-Key: $BLOGBURST_API_KEY"`
+7. If successful, say: "All set! Try: /blogburst generate a post about [topic]"
 
 ### Step 2: Make API Calls
 When `$BLOGBURST_API_KEY` is set, you MUST use the `exec` tool to run `curl` commands against the BlogBurst API. Do NOT use web_search or any other tool as a substitute. The API returns real user-specific data (their posts, their analytics, their auto-pilot status). Web search cannot provide this.
@@ -41,13 +33,16 @@ When `$BLOGBURST_API_KEY` is set, you MUST use the `exec` tool to run `curl` com
 
 ---
 
-Your autonomous AI marketing agent. Talk naturally — it generates content, publishes to 9 platforms, runs auto-pilot daily posting, tracks analytics, and learns what works.
+Your self-improving AI marketing agent. It analyzes performance data, learns from every post, and continuously optimizes your content strategy. Supports e-commerce product analysis, AI video generation (FFmpeg/Kling/Runway), competitor intelligence, trend scanning, and auto-pilot publishing to 9 platforms. The more you use it, the smarter it gets.
 
 **One message to do anything:**
 - "Post about my product launch on Twitter and LinkedIn"
 - "Turn on auto-pilot, 3 posts per day"
 - "How did my posts perform this week?"
 - "Repurpose this article: https://myblog.com/post"
+- "Add my product and analyze it for TikTok content"
+- "Find my competitors and show me insights"
+- "Generate a product video for TikTok"
 
 ## Setup (Manual)
 
@@ -65,7 +60,7 @@ Base URL: `https://api.blogburst.ai/api/v1`
 
 ## API 1: Agent Chat (Recommended — does everything)
 
-Chat with your AI marketing agent. It can generate content, check analytics, manage auto-pilot, view trending topics, and more — all through natural conversation. The agent has tools and will execute actions automatically.
+Chat with your self-improving AI marketing agent. It generates content, checks analytics, manages auto-pilot, scans trends, analyzes competitors, manages e-commerce products, and continuously learns from your feedback and performance data. The agent has tools and executes actions automatically — the more you use it, the smarter it gets.
 
 **Endpoint**: `POST /assistant/agent-chat-v2`
 
@@ -120,8 +115,9 @@ Multi-turn conversation — send the full message history each time:
 - "How are my posts doing this week?"
 - "Turn on auto-pilot" / "Pause auto-pilot"
 - "What did you post today?"
-- "What platforms do I have connected?"
-- "Show me my recent activity"
+- "Add my product and create a TikTok video"
+- "Who are my competitors? Show me insights"
+- "What has the AI learned about my audience?"
 
 **When to use**: This is the PRIMARY API. Use it for any user request about social media content, analytics, automation, or marketing. It handles everything through conversation.
 
@@ -327,166 +323,107 @@ Generate a full blog article from a topic.
 
 ---
 
-## API 8: SEO Audit (NEW in v3.0)
+## API 8: E-commerce Products
 
-Get a comprehensive SEO analysis for your product — technical issues, keyword gaps, content recommendations.
+Manage your product catalog. Upload products, run AI Vision analysis, and generate TikTok-ready videos.
 
-**Endpoint**: `GET /assistant/seo-audit?product_id=1`
+**List products**: `GET /ecommerce/products`
 
-**Response**:
+**Create product**: `POST /ecommerce/products`
+
 ```json
 {
-  "score": 72,
-  "audit_type": "seo",
-  "findings": {
-    "technical": [{"issue": "Missing meta descriptions on 3 pages", "severity": "high"}],
-    "content_gaps": ["No content targeting 'AI marketing automation' keyword"],
-    "backlink_opportunities": ["Guest post on IndieHackers"]
-  },
-  "recommendations": [
-    {"title": "Create comparison page: BlogBurst vs Buffer", "impact": "high", "type": "content"}
-  ]
+  "name": "Wireless Earbuds Pro",
+  "price": 29.99,
+  "currency": "USD",
+  "category": "electronics",
+  "description": "Noise-cancelling wireless earbuds",
+  "purchase_url": "https://amazon.com/dp/..."
 }
 ```
 
-**When to use**: When user asks "How's my SEO?", "What should I write about for Google?", or "Run an SEO check".
+**AI Vision analysis**: `POST /ecommerce/products/{id}/analyze`
+
+```json
+{ "language": "en" }
+```
+
+Response includes: product type, selling points, target audience, visual features, and content angle suggestions — all extracted by Gemini Vision from your product images.
+
+**Generate product video**: `POST /ecommerce/products/{id}/video`
+
+```json
+{ "provider": "ffmpeg" }
+```
+
+Video providers:
+- `ffmpeg` — Free slideshow video (product images + transitions + text overlay)
+- `kling` — Kling AI motion video (~$0.15/5sec, Pro plan)
+- `runway` — Runway Gen-3 cinematic video (Team plan)
+
+**When to use**: When user wants to add products, analyze them with AI, or create TikTok videos.
 
 ---
 
-## API 9: GEO Audit — AI Search Optimization (NEW in v3.0)
+## API 9: Competitor Intelligence
 
-Optimize your content for AI search engines (ChatGPT, Perplexity, Google AI Overviews). GEO = Generative Engine Optimization.
+AI-powered competitor discovery and analysis. Automatically finds competitors, analyzes their content strategy, and generates actionable insights.
 
-**Endpoint**: `GET /assistant/geo-audit?product_id=1`
+**Discover competitors**: `POST /competitors/discover`
 
-**Response**:
 ```json
-{
-  "score": 58,
-  "audit_type": "geo",
-  "findings": {
-    "ai_visibility": {"score": 45, "key_queries": ["best AI marketing tool"], "missing_queries": ["AI social media agent"]},
-    "citation_readiness": {"score": 60, "issues": ["No structured FAQ page", "Missing expert quotes"]},
-    "question_coverage": [
-      {"question": "What is the best AI marketing tool?", "current_coverage": "none", "priority": "high"}
-    ]
-  },
-  "recommendations": [
-    {"title": "Create FAQ with 20 common questions", "impact": "high", "type": "structural"}
-  ]
-}
+{ "language": "en" }
 ```
 
-**When to use**: When user asks "How do I show up in ChatGPT results?", "Optimize for AI search", or "GEO audit".
+AI uses Google Search to find your top competitors based on your product category.
+
+**List competitors**: `GET /competitors`
+
+Response includes: competitor name, website, threat level, content strategy analysis, posting frequency, engagement metrics.
+
+**Get insights**: `GET /competitors/insights?language=en`
+
+Returns competitive landscape analysis with:
+- Opportunities your competitors are missing
+- Threats to watch out for
+- Priority actions ranked by impact
+- Content gaps you can exploit
+
+Competitor data is automatically refreshed weekly.
+
+**When to use**: When user asks about competitors, market position, or content strategy gaps.
 
 ---
 
-## API 10: Competitor Intelligence (NEW in v3.0)
+## API 10: Content Feedback (Continuous Learning)
 
-Track and analyze competitors' social media strategies.
+Rate agent-generated content to train the AI. The agent learns from your thumbs up/down feedback and adjusts future content accordingly — the more feedback you give, the better it gets.
 
-**Endpoint**: `GET /assistant/competitors?product_id=1`
+**Submit feedback**: `POST /feedback/content`
 
-**Response**:
 ```json
 {
-  "competitors": [
-    {
-      "name": "Buffer",
-      "platforms": ["twitter", "linkedin"],
-      "posting_frequency": "3x/day",
-      "top_content_themes": ["social media tips", "remote work"],
-      "engagement_rate": "2.3%",
-      "insights": "Heavy use of carousel posts on LinkedIn"
-    }
-  ],
-  "opportunities": ["Competitor X doesn't post on Bluesky — you can own that space"]
+  "target_type": "post",
+  "target_id": "post_123",
+  "rating": "thumbs_up",
+  "comment": "Great hook, more like this",
+  "content_type": "product_showcase"
 }
 ```
 
-**When to use**: When user asks "What are my competitors doing?", "Analyze competitor X", or "Find content gaps".
+Parameters:
+- `target_type`: post | opportunity | suggestion | content_type
+- `rating`: thumbs_up | thumbs_down
+- `comment` (optional): Explain what you liked/disliked
+- `content_type` (optional): e.g. product_showcase, lifestyle, comparison, trending_challenge
 
----
+**Get feedback summary**: `GET /feedback/content/summary`
 
-## API 11: Community Opportunities (NEW in v3.0)
+Shows aggregated scores by content type so you can see what the AI has learned about your preferences.
 
-Scan HackerNews, Reddit, and forums for engagement opportunities relevant to your product.
+**How it works**: The AI uses your feedback history to reorder content types (liked styles first, disliked last) and adjusts tone/format in future auto-pilot runs. Combined with performance analytics, this creates a continuous improvement loop — every post teaches the AI what works for your audience.
 
-**Endpoint**: `GET /assistant/opportunities?product_id=1&limit=10`
-
-**Response**:
-```json
-{
-  "opportunities": [
-    {
-      "source": "hackernews",
-      "title": "Ask HN: What tools do you use for social media automation?",
-      "url": "https://news.ycombinator.com/item?id=...",
-      "relevance_score": 92,
-      "suggested_reply": "I built BlogBurst for exactly this — it auto-posts to 4 platforms and even engages with your audience...",
-      "expires_at": "2026-03-12T00:00:00Z"
-    }
-  ]
-}
-```
-
-**When to use**: When user asks "Where should I promote?", "Find places to engage", or "Community opportunities".
-
----
-
-## API 12: Growth Diagnostic (NEW in v3.0)
-
-AI-powered comprehensive analysis of your marketing performance with actionable tasks.
-
-**Endpoint**: `GET /assistant/diagnostic?product_id=1`
-
-**Response**:
-```json
-{
-  "overall_score": 65,
-  "areas": {
-    "content_quality": {"score": 78, "trend": "improving"},
-    "posting_consistency": {"score": 90, "trend": "stable"},
-    "audience_engagement": {"score": 45, "trend": "declining"},
-    "growth_rate": {"score": 52, "trend": "improving"}
-  },
-  "top_actions": [
-    {"task": "Increase reply engagement on Twitter", "priority": "high", "expected_impact": "+30% engagement"},
-    {"task": "Post during US peak hours (10-11 AM EST)", "priority": "medium", "expected_impact": "+20% reach"}
-  ]
-}
-```
-
-**When to use**: When user asks "How am I doing?", "What should I improve?", or "Marketing report".
-
----
-
-## API 13: Task Management (NEW in v3.0)
-
-The CMO agent creates and manages marketing tasks for you.
-
-**Get tasks**: `GET /assistant/tasks?product_id=1&status=pending`
-
-**Response**:
-```json
-{
-  "tasks": [
-    {
-      "id": 42,
-      "title": "Write comparison blog: BlogBurst vs Hootsuite",
-      "category": "seo",
-      "priority": "high",
-      "status": "pending",
-      "prefilled_content": {"title": "BlogBurst vs Hootsuite: Which AI Marketing Tool Is Right for You?", "outline": ["...", "..."]},
-      "due_date": "2026-03-14"
-    }
-  ]
-}
-```
-
-**Complete a task**: `POST /assistant/tasks/42/complete`
-
-**When to use**: When user asks "What should I work on?", "My marketing tasks", or "What's the CMO recommending?"
+**When to use**: After viewing agent-generated content, when user wants to rate it or train the AI.
 
 ---
 
@@ -513,33 +450,35 @@ User shares a URL or pastes text
 User says: "Automate my posting" or "Turn on auto-pilot"
 → Call **API 4** (`/assistant/auto-pilot`)
 
-### Marketing Intelligence (NEW)
-1. Check health with **API 12** (`/assistant/diagnostic`)
-2. Find opportunities with **API 11** (`/assistant/opportunities`)
-3. Run SEO/GEO audit with **API 8/9**
-4. Get tasks from **API 13** (`/assistant/tasks`)
+### E-commerce product launch
+1. Create product with **API 8** (`/ecommerce/products`)
+2. Upload images, then run AI analysis (`/ecommerce/products/{id}/analyze`)
+3. Generate TikTok video (`/ecommerce/products/{id}/video`)
+4. Enable auto-pilot with **API 4** — the AI rotates products daily
 
-## What Makes BlogBurst Different
+### Competitor research
+1. Auto-discover competitors with **API 9** (`/competitors/discover`)
+2. View insights (`/competitors/insights`) — updated weekly
+3. Agent uses competitor data to generate differentiated content
 
-- **Autonomous Agent**: Not just a tool — it's a CMO that works 24/7. Posts, engages, learns, optimizes.
-- **Auto-Engagement**: Replies to mentions, proactively engages with relevant tweets, smart follows — all automated.
-- **Self-Learning**: Tracks what content performs best, continuously adapts strategy based on real data.
-- **SEO + GEO**: Optimizes for both Google AND AI search engines (ChatGPT, Perplexity).
-- **Community Scanner**: Finds conversations on HN/Reddit where your product is relevant.
-- **Multi-Platform**: One agent manages Twitter/X, Bluesky, Telegram, Discord simultaneously.
+### Train the AI
+User rates content → **API 10** (`/feedback/content`)
+→ AI adjusts future content based on your preferences
+→ Combined with analytics data, each post teaches the AI what works
 
 ## Supported Platforms
 
-| Platform | ID | Auto-Publish | Auto-Engage | Content Style |
-|----------|-----|:---:|:---:|---------------|
-| Twitter/X | twitter | ✅ | ✅ Replies, Likes, Follows | Threads with hooks (280 chars/tweet) |
-| Bluesky | bluesky | ✅ | ✅ Replies, Likes | Short authentic posts (300 chars) |
-| Telegram | telegram | ✅ | — | Rich formatted broadcasts |
-| Discord | discord | ✅ | — | Community-friendly announcements |
-| Reddit | reddit | Copy-only | — | Discussion posts + subreddit suggestions |
-| TikTok | tiktok | Copy-only | — | Hook + script + caption + hashtags |
-| YouTube | youtube | Copy-only | — | Title + description + script + tags |
-| LinkedIn | linkedin | Coming soon | — | Professional insights + hashtags |
+| Platform | ID | Auto-Publish | Content Style |
+|----------|-----|:---:|---------------|
+| Twitter/X | twitter | ✅ Yes | Threads with hooks (280 chars/tweet) |
+| Bluesky | bluesky | ✅ Yes | Short authentic posts (300 chars) |
+| Telegram | telegram | ✅ Yes | Rich formatted broadcasts |
+| Discord | discord | ✅ Yes | Community-friendly announcements |
+| Reddit | reddit | Copy-only | Discussion posts + subreddit suggestions |
+| TikTok | tiktok | Copy-only | Hook + script + caption + hashtags |
+| YouTube | youtube | Copy-only | Title + description + script + tags |
+| LinkedIn | linkedin | Coming soon | Professional insights + hashtags |
+| Threads | threads | Coming soon | Conversational posts |
 
 **Important**: To auto-publish, connect your platforms at [Dashboard > Connections](https://blogburst.ai/dashboard/connections). Twitter/X is one-click OAuth — takes 5 seconds.
 

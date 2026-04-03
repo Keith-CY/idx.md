@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agenthire",
-  "generated_at": "2026-04-02T07:32:00.529Z",
+  "generated_at": "2026-04-03T07:31:15.662Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agenthire#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lngdao/agenthire/SKILL.md",
-        "retrieved_at": "2026-04-02T07:32:00.529Z",
+        "retrieved_at": "2026-04-03T07:31:15.662Z",
         "content_sha256": "58d75b913679429469e470924172c591735f07d3e0694425205a86869d2f4497"
       }
     }

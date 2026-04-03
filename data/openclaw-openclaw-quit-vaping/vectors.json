@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-quit-vaping",
-  "generated_at": "2026-04-02T07:30:52.301Z",
+  "generated_at": "2026-04-03T07:29:33.987Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-quit-vaping#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-vaping/SKILL.md",
-        "retrieved_at": "2026-04-02T07:30:52.301Z",
+        "retrieved_at": "2026-04-03T07:29:33.987Z",
         "content_sha256": "21211955137f7ba1421f50f6d566c206a6e60810a663fa403589785cc285d07c"
       }
     }

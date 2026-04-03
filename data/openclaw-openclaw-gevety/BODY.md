@@ -1,7 +1,7 @@
 ---
 name: gevety
-version: 1.8.0
-description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, medications, medical profile, activities, strength training, erg results, daily actions, 90-day health protocol, upcoming tests, lab reports, health documents, and health content
+version: 1.9.0
+description: Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, medications, medical profile, activities, strength training, erg results, daily actions, 90-day health protocol, upcoming tests, lab reports, health documents, clinical findings, and health content
 homepage: https://gevety.com
 user-invocable: true
 command: gevety
@@ -558,6 +558,44 @@ Each document includes:
 
 **Note**: This goes beyond `list_test_results` which only shows lab reports. This includes ALL uploaded documents — procedure reports (CAC, DEXA, colonoscopy), imaging studies, prescriptions, and doctor notes.
 
+### 20. Query Clinical Findings
+
+Get structured clinical findings extracted from health documents (imaging, procedures, etc.).
+
+```
+GET /api/v1/mcp/tools/query_clinical_findings?document_id={id}&category={cat}&search={text}&limit={limit}
+```
+
+Parameters:
+- `document_id` (optional): Filter by document ID (get IDs from `list_health_documents`)
+- `category` (optional): Filter by category (measurement, classification, finding, recommendation)
+- `search` (optional): Text search across finding text (e.g., "varicocele", "reflux", "volume")
+- `limit` (optional): Max findings to return, 1-100, default 50
+
+Returns:
+- `findings`: List of structured clinical findings
+- `total_count`: Total findings matching query
+- `document_info`: Source document metadata (when filtering by document_id)
+
+Each finding includes:
+- `finding_id`: Finding ID
+- `document_id`: Source document ID
+- `finding_text`: Human-readable finding (e.g., "Left varicocele diameter supine rest 3.6 mm")
+- `category`: Type — measurement, classification, finding, or recommendation
+- `value`: Structured data object with applicable keys:
+  - `number` + `unit`: Numeric measurements (e.g., 3.6 mm, 13.3 mL)
+  - `laterality`: Left, right, or bilateral
+  - `condition`: Context (e.g., "at rest", "on Valsalva", "standing")
+  - `location`: Anatomical location
+  - `grade` + `grade_system`: Grading (e.g., Grade III varicocele)
+  - `present` / `absent`: Boolean findings (e.g., reflux present)
+- `confidence`: Extraction confidence 0.0-1.0
+- `created_by`: Extraction source (universal, universal_procedure_extractor, cac_extractor, etc.)
+
+**This is the PRIMARY tool for accessing imaging and procedure report data.** Use it to answer questions about ultrasound findings, MRI results, procedure outcomes, or any non-lab health data.
+
+**Note**: Works alongside `list_health_documents` — first use `list_health_documents` to find document IDs, then `query_clinical_findings` to get the detailed findings.
+
 ## Interpreting Scores
 
 ### Healthspan Score (0-100)
@@ -695,6 +733,19 @@ Each health dimension is scored independently:
 3. List documents with AI summaries
 4. Filter by type if user asks about specific category: `document_type=procedure_report`
 
+### "What did my ultrasound show?" / "What are my imaging results?"
+1. Call `list_health_documents?document_type=procedure_report` to find imaging documents
+2. Call `query_clinical_findings?document_id={id}` with the relevant document ID
+3. Group findings by category (measurements, classifications, clinical findings)
+4. Highlight key measurements with units and laterality
+5. Present grades/classifications prominently
+6. Note the report impression if present
+
+### "Do I have a varicocele?" / "Search for specific findings"
+1. Call `query_clinical_findings?search=varicocele` (or any search term)
+2. Present matching findings with structured values
+3. Cross-reference with related findings from the same document
+
 ### "What should I read about?" / "Any health articles for me?"
 1. Call `get_content_recommendations?limit=5`
 2. Present articles with titles and relevance reasons
@@ -756,7 +807,7 @@ Response (when successful):
 }
 ```
 
-**If `clawdbot_skill.latest` > 1.8.0** (this skill's version), tell the user:
+**If `clawdbot_skill.latest` > 1.9.0** (this skill's version), tell the user:
 > "A Gevety skill update is available. Run: `clawdhub update gevety`"
 
 **If `announcement` is present**, mention it once per session.

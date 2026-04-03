@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-factory-ai",
-  "generated_at": "2026-04-02T07:30:03.347Z",
+  "generated_at": "2026-04-03T07:28:31.141Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-factory-ai#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mitchellbernstein/factory-ai/SKILL.md",
-        "retrieved_at": "2026-04-02T07:30:03.347Z",
+        "retrieved_at": "2026-04-03T07:28:31.141Z",
         "content_sha256": "944112339483bf24c480eda5e01f53d5f2f43cda30fa5775b720545f1f0dde86"
       }
     }

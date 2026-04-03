@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaw-skills-security-checker",
-  "generated_at": "2026-04-02T07:30:39.726Z",
+  "generated_at": "2026-04-03T07:29:17.997Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaw-skills-security-checker#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/digitaladaption/openclaw-skills-security-checker/SKILL.md",
-        "retrieved_at": "2026-04-02T07:30:39.726Z",
+        "retrieved_at": "2026-04-03T07:29:17.997Z",
         "content_sha256": "bb76f09f3f81fa7467c18bb3df5f4f4c6c2c39370289fc3b6700b59239676b9e"
       }
     }

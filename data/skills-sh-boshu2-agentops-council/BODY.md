@@ -159,4 +159,10 @@ developer-experience:
   api-clarity:     {name: Signal}  "Is every public interface self-documenting? Can a user predict behavior from names alone?"
   error-experience: {name: SOS}    "When something goes wrong, does the user know what happened, why, and what to do next?"
   discoverability: {name: Beacon}  "Can a new user find this feature without reading docs? Is the happy path obvious?"
+
+red-team:
+  panicked-sre:        {name: OnCall}    "I'm a 3am on-call SRE with zero prior context. Can I find the runbook, diagnose the failure, and execute recovery in under 3 clicks? I don't know project jargon, internal names, or where things are organized."
+  junior-engineer:     {name: NewHire}   "I'm a day-1 junior engineer with basic language knowledge but zero project context. Can I complete onboarding, understand the architecture, and make my first change without hand-holding?"
+  zero-context-agent:  {name: Agent}     "I'm an AI agent seeing this skill's SKILL.md for the first time. Can I execute the workflow correctly without external knowledge? Are the steps unambiguous? Do the examples cover my use case?"
+  first-time-consumer: {name: Consumer}  "I'm trying to use this API/CLI for the first time with no tribal knowledge. Are error messages helpful? Can I discover flags without reading source? Does the happy path work from the README alone?"
 ```

@@ -11,8 +11,8 @@ summary: |-
   Description:
     Manage Linear authentication
   Options:
-    -h, --help               - Show this help.
-    -w, --workspace  <slug>  - Target workspace (uses credentials)
+    -h, --help           - Show this help.
+    --workspace  <slug>  - Target workspace (uses credentials)
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-02T07:32:53.077Z
-content_sha256: 2106078af9182b688dadbe49784f45c77e60247cf9cd37f47122a27f8c37e71c
+retrieved_at: 2026-04-03T07:32:34.388Z
+content_sha256: 554d464dcc12a0c88ec41bcec75e099db19425a12b77531a4dba45e326852bcc
 ---

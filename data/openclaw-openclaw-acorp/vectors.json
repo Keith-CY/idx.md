@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-acorp",
-  "generated_at": "2026-04-02T07:31:46.200Z",
+  "generated_at": "2026-04-03T07:30:51.617Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-acorp#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thoerner/acorp/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:46.200Z",
+        "retrieved_at": "2026-04-03T07:30:51.617Z",
         "content_sha256": "954bb2bca08d4bdb38f490b929b7a1fd38801616d62136fbed71c199504fcd98"
       }
     }

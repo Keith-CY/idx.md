@@ -1,6 +1,6 @@
 ---
 name: brand-cog
-description: "Other tools make logos. CellCog builds brands. #1 on DeepResearch Bench (Feb 2026) for deep strategic reasoning + the widest modality coverage in AI. Brand identity, brand kits, color palettes, typography, brand guidelines, logo design, visual identity, social media, web design, video — all from one brief."
+description: "Other tools make logos. CellCog builds brands. #1 on DeepResearch Bench (Apr 2026) for deep strategic reasoning + the widest modality coverage in AI. Brand identity, brand kits, color palettes, typography, brand guidelines, logo design, visual identity, social media, web design, video — all from one brief."
 metadata:
   openclaw:
     emoji: "🏷️"
@@ -12,7 +12,7 @@ dependencies: [cellcog]
 
 # Brand Cog - Build Brands, Not Just Logos
 
-**Other tools make logos. CellCog builds brands.** #1 on DeepResearch Bench (Feb 2026) for deep strategic reasoning + the widest modality coverage in AI.
+**Other tools make logos. CellCog builds brands.** #1 on DeepResearch Bench (Apr 2026) for deep strategic reasoning + the widest modality coverage in AI.
 
 Brand building demands two things: deep understanding of your positioning, audience, and competitors — and the ability to produce assets across every format. CellCog delivers both in one request: logos, color systems, typography, brand guidelines, social templates, web assets, and video, all cohesive from a single brief.
 
@@ -28,17 +28,26 @@ clawhub install cellcog
 
 **Read the cellcog skill first** for SDK setup. This skill shows you what's possible.
 
-**Quick pattern (v1.0+):**
+**OpenClaw agents (fire-and-forget — recommended for long tasks):**
 ```python
-# Fire-and-forget - returns immediately
 result = client.create_chat(
-    prompt="[your brand request]",
-    notify_session_key="agent:main:main",
-    task_label="brand-creation",
-    chat_mode="agent"  # Agent mode for most brand work
+    prompt="[your task prompt]",
+    notify_session_key="agent:main:main",  # OpenClaw only
+    task_label="my-task",
+    chat_mode="agent",  # See cellcog skill for all modes
 )
-# Daemon notifies you when complete - do NOT poll
 ```
+
+**All other agents (blocks until done):**
+```python
+result = client.create_chat(
+    prompt="[your task prompt]",
+    task_label="my-task",
+    chat_mode="agent",
+)
+```
+
+See the **cellcog** mothership skill for complete SDK API reference — delivery modes, timeouts, file handling, and more.
 
 ---
 

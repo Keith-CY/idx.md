@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-carapace",
-  "generated_at": "2026-04-02T07:29:48.066Z",
+  "generated_at": "2026-04-03T07:28:09.522Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-carapace#head",
@@ -19,8 +19,8 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/morpheis/carapace/SKILL.md",
-        "retrieved_at": "2026-04-02T07:29:48.066Z",
-        "content_sha256": "8a0c576b77efc9d5bde621f63f39fab8b22e4d39391e7736a5feb7c33f6dd2bb"
+        "retrieved_at": "2026-04-03T07:28:09.522Z",
+        "content_sha256": "d4952d816e411008bb1373f8fc186f63cf4de87675d58a47358717bb51e612c5"
       }
     }
   ]

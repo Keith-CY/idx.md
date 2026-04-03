@@ -16,6 +16,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ketiyohannesch
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-02T07:29:02.907Z
+retrieved_at: 2026-04-03T07:26:56.294Z
 content_sha256: d24ec4fd6b781b42820bb78757254891d26ab6b0e7f65616575671bd452218b7
 ---

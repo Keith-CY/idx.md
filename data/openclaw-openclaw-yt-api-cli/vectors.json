@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yt-api-cli",
-  "generated_at": "2026-04-02T07:31:32.280Z",
+  "generated_at": "2026-04-03T07:30:28.860Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yt-api-cli#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nerveband/yt-api-cli/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:32.280Z",
+        "retrieved_at": "2026-04-03T07:30:28.860Z",
         "content_sha256": "40010d01549a344ea730c478fd34d1cac38c35c31595ec599614e92c4e850dd8"
       }
     }

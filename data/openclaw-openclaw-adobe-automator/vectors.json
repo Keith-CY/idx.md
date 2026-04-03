@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adobe-automator",
-  "generated_at": "2026-04-02T07:31:48.438Z",
+  "generated_at": "2026-04-03T07:30:55.683Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adobe-automator#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abdul-karim-mia/adobe-automator/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:48.438Z",
+        "retrieved_at": "2026-04-03T07:30:55.683Z",
         "content_sha256": "b5e37ca0a6b1d4896e5dafcfbcc21f9c2ba4d8249fb896a056bab4713a3b64d3"
       }
     }

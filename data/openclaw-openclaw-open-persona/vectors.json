@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-open-persona",
-  "generated_at": "2026-04-02T07:32:50.068Z",
+  "generated_at": "2026-04-03T07:32:29.388Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-open-persona#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/neiljo-gy/open-persona/SKILL.md",
-        "retrieved_at": "2026-04-02T07:32:50.068Z",
+        "retrieved_at": "2026-04-03T07:32:29.388Z",
         "content_sha256": "74f6232c8c5b7b72eb39ef1646ae2881302a9eec5fe83e1a84794a87c7c34cb9"
       }
     }

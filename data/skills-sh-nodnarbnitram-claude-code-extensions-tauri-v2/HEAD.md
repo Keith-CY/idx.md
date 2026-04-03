@@ -2,24 +2,17 @@
 stable_id: skills/skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2
 type: skills
 title: skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2
-summary: >-
-  # Tauri v2 Capabilities & Permissions Reference
-
-  ## Overview
-
-  Tauri v2 uses a capabilities-based security model. By default, **nothing is
-  allowed** - you must explicitly grant permissions through capability files.
-
-  ## Capability File Structure
-
-  Location: `src-tauri/capabilities/`
-
-  ```json
-
-  {
-      "$schema": "../gen/schemas/desktop-schema.json",
-      "identifier": "capability-name",
-      "description": "What this capability allows",
+summary: |-
+  # Tauri v2+ Capabilities & Permissions Reference
+  ## Contents
+  - Security Model: v1 vs v2
+  - Overview
+  - Capability File Structure
+  - Core Permissions
+  - Plugin Permissions
+  - Scopes
+  - Permission Sets
+  - Window and Webview Targeting
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -29,6 +22,6 @@ upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-02T07:29:15.624Z
-content_sha256: 8248fda5666bd149a0275c3ab104b9794406255580d59da018ba1eff3e9d58e0
+retrieved_at: 2026-04-03T07:27:19.729Z
+content_sha256: aff274cc3d8731f4faa4bafe892b281edaf9f3e2dc5a2509c6d610819062157e
 ---

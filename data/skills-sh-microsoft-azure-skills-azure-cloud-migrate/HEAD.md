@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/azure-skills/azure-cloud-migrate
 github_stars: 461
 github_forks: 57
 github_is_organization: true
-retrieved_at: 2026-04-02T07:29:07.733Z
+retrieved_at: 2026-04-03T07:27:02.969Z
 content_sha256: 2811f9a08ce21f2cbc24c0da2abaa142bda66de5d17ce75dd706c5ecc6a763d8
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-wled",
-  "generated_at": "2026-04-02T07:31:27.132Z",
+  "generated_at": "2026-04-03T07:30:23.494Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-wled#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rowbotik/wled/SKILL.md",
-        "retrieved_at": "2026-04-02T07:31:27.132Z",
+        "retrieved_at": "2026-04-03T07:30:23.494Z",
         "content_sha256": "1518ccb3f162b98305497601abf0e64073ca7095cc9e0163c5d9c42e64fdabc4"
       }
     }

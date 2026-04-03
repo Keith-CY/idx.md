@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fieldfix",
-  "generated_at": "2026-04-02T07:30:04.747Z",
+  "generated_at": "2026-04-03T07:28:32.843Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fieldfix#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/blueprintstudioco/fieldfix/SKILL.md",
-        "retrieved_at": "2026-04-02T07:30:04.747Z",
+        "retrieved_at": "2026-04-03T07:28:32.843Z",
         "content_sha256": "8d33bb54b3c5a0fdd5d5a0e1eb3a1598170d9954fc987d08e5d9a39ed01888b1"
       }
     }
