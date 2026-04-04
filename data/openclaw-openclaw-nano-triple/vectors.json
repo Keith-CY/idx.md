@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nano-triple",
-  "generated_at": "2026-04-03T07:29:08.901Z",
+  "generated_at": "2026-04-04T07:24:11.512Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nano-triple#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvanhorn/nano-triple/SKILL.md",
-        "retrieved_at": "2026-04-03T07:29:08.901Z",
+        "retrieved_at": "2026-04-04T07:24:11.512Z",
         "content_sha256": "3865d4e6fc48ed7934ee1b225158b9bddeee2b0813b33f8d46cdfa989257e7e7"
       }
     }

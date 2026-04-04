@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-telegram-bot",
-  "generated_at": "2026-04-03T07:29:57.919Z",
+  "generated_at": "2026-04-04T07:25:09.272Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-telegram-bot#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sebastian-buitrag0/telegram-bot/SKILL.md",
-        "retrieved_at": "2026-04-03T07:29:57.919Z",
+        "retrieved_at": "2026-04-04T07:25:09.272Z",
         "content_sha256": "6c9a80859b06db0e9b3e4bc226dad357df7b3a1a52e8946eebdf5539f27c5e5c"
       }
     }

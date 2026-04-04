@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apple-docs",
-  "generated_at": "2026-04-03T07:31:29.902Z",
+  "generated_at": "2026-04-04T07:26:40.546Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apple-docs#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/apple-docs/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:29.902Z",
+        "retrieved_at": "2026-04-04T07:26:40.546Z",
         "content_sha256": "ca591367aa8a72334efb50455b870c13fc8afbd28d6a2dafdf74a0637e57a93b"
       }
     }

@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.92
+
+  - Updated to parity with Claude Code v2.1.92
+
   ## 0.2.91
 
   - Added optional `terminal_reason` field to result messages, exposing why the
@@ -23,11 +27,6 @@ summary: >-
   ## 0.2.90
 
   - Updated to parity with Claude Code v2.1.90
-
-  ## 0.2.89
-
-  - Added `startup()` to pre-warm the CLI subprocess before `query()`, making
-  the first query ~20x faster when startup cost can be paid upfront
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-03T07:27:47.268Z
-content_sha256: 67ac78c1181f178fe0bb7ceb37c55b354149ea0610fa7ebc0e2cc7cb59b321dd
+retrieved_at: 2026-04-04T07:22:39.930Z
+content_sha256: 4c6280db3da2533b9278716e9b31a196b2768b86a08090f5659c2ec978703c36
 ---

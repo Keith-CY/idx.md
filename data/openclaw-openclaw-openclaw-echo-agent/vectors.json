@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaw-echo-agent",
-  "generated_at": "2026-04-03T07:29:16.784Z",
+  "generated_at": "2026-04-04T07:24:21.150Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaw-echo-agent#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/krishna3554/openclaw-echo-agent/SKILL.md",
-        "retrieved_at": "2026-04-03T07:29:16.784Z",
+        "retrieved_at": "2026-04-04T07:24:21.150Z",
         "content_sha256": "89440dfb3b090d9d486da8672664c5d1c96240e6f98f2c6e495b759aba82dd71"
       }
     }

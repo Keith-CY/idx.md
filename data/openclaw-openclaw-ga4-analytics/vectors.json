@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ga4-analytics",
-  "generated_at": "2026-04-03T07:28:36.729Z",
+  "generated_at": "2026-04-04T07:23:33.789Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ga4-analytics#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adamkristopher/ga4-analytics/SKILL.md",
-        "retrieved_at": "2026-04-03T07:28:36.729Z",
+        "retrieved_at": "2026-04-04T07:23:33.789Z",
         "content_sha256": "aa175e6e19a236837250a1fcbe75b2c28f2d08c67e084478df1723585d1ab08b"
       }
     }

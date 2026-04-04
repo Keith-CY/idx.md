@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-crisp",
-  "generated_at": "2026-04-03T07:28:24.509Z",
+  "generated_at": "2026-04-04T07:23:17.326Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-crisp#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/paul-phan/crisp/SKILL.md",
-        "retrieved_at": "2026-04-03T07:28:24.509Z",
+        "retrieved_at": "2026-04-04T07:23:17.326Z",
         "content_sha256": "2348459691ca0c79d7cf03f341651eb0366392625dcbe0c05b9652c4d5451bbb"
       }
     }

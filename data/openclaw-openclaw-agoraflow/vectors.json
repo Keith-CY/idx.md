@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agoraflow",
-  "generated_at": "2026-04-03T07:31:19.982Z",
+  "generated_at": "2026-04-04T07:26:27.995Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agoraflow#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rivera-daniel/agoraflow/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:19.982Z",
+        "retrieved_at": "2026-04-04T07:26:27.995Z",
         "content_sha256": "812784b46a413d232ab5990213d7c9c73e6cae2b64a6d77df1cb92292509619d"
       }
     }

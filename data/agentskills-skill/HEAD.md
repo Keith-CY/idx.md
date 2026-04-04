@@ -7,11 +7,10 @@ summary: >-
 
   name: Agent
 
-  description: Use when creating, authoring, or evaluating Agent Skills —
+  description: Use when creating, optimizing, or evaluating Agent Skills —
   reusable instruction packages that extend AI agent capabilities. Reach for
-  this skill when building new skills, optimizing skill descriptions for
-  reliable triggering, testing skill outputs, or integrating skills into agent
-  clients.
+  this skill when building SKILL.md files, testing skill triggering, bundling
+  scripts, or implementing skills support in an agent client.
 
   metadata:
       mintlify-proj: agent
@@ -24,13 +23,15 @@ summary: >-
 
   Agent Skills is an open format for packaging specialized instructions,
   scripts, and resources that agents can discover and use on demand. A skill is
-  a folder containing a `SKILL.md` file (with YAML frontmatter and Markdown
-  instructions), plus optional `scripts/`, `references/`, and `assets/`
-  directories. Skills use **progressive disclosure**: agents load only the name
-  and description at startup, then read full instructions when a task matches
-  the skill's scope, then load supporting files as needed. This keeps context
+  a directory containing a `SKILL.md` file (metadata + instructions), optional
+  `scripts/` for executable code, and optional `references/` and `assets/`
+  directories for supporting materials. Skills use progressive disclosure:
+  agents load only the name and description at startup, read full instructions
+  when a task matches, and load supporting files on demand. This keeps context
   efficient while giving agents access to domain expertise, repeatable
-  workflows, and company-specific knowledge.
+  workflows, and organizational knowledge. See the [Agent Skills
+  specification](https://agentskills.io/specification) for the complete format
+  reference.
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -38,6 +39,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-03T07:27:21.464Z
-content_sha256: 2416f0403e6a816aadb5897edff2129cf71427568f60372b50142f400f93d527
+retrieved_at: 2026-04-04T07:22:08.983Z
+content_sha256: 8896ab4c00f08b29bb5cfbbab4404d0914981cc63dc0062d69beba125ddca9d1
 ---

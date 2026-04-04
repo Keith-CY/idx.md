@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-withings-family",
-  "generated_at": "2026-04-03T07:30:23.223Z",
+  "generated_at": "2026-04-04T07:25:30.844Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-withings-family#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/withings-family/SKILL.md",
-        "retrieved_at": "2026-04-03T07:30:23.223Z",
+        "retrieved_at": "2026-04-04T07:25:30.844Z",
         "content_sha256": "2f04dd6c0a74b34023fa1093356ec7534573b8062fdbf9b20220fc274fd9c029"
       }
     }

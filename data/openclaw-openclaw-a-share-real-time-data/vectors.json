@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-a-share-real-time-data",
-  "generated_at": "2026-04-03T07:30:48.948Z",
+  "generated_at": "2026-04-04T07:25:55.883Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-a-share-real-time-data#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/wangdinglu/a-share-real-time-data/SKILL.md",
-        "retrieved_at": "2026-04-03T07:30:48.948Z",
+        "retrieved_at": "2026-04-04T07:25:55.883Z",
         "content_sha256": "80a83eeb23a84f8e0294c405b94090e54ae122c09c3d908adf8b82e0fbc31fbc"
       }
     }

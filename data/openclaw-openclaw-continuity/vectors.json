@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-continuity",
-  "generated_at": "2026-04-03T07:32:04.374Z",
+  "generated_at": "2026-04-04T07:27:15.671Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-continuity#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/riley-coyote/continuity/SKILL.md",
-        "retrieved_at": "2026-04-03T07:32:04.374Z",
+        "retrieved_at": "2026-04-04T07:27:15.671Z",
         "content_sha256": "6701a2e4513c4f1a956f10833e34118e10fe2a01e53ed376339acdaa45b9631a"
       }
     }

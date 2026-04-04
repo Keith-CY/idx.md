@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-rate-limiter-b3ddd6c9",
-  "generated_at": "2026-04-03T07:31:08.852Z",
+  "generated_at": "2026-04-04T07:26:17.648Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-rate-limiter-b3ddd6c9#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theagentwire/agent-rate-limiter/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:08.852Z",
+        "retrieved_at": "2026-04-04T07:26:17.648Z",
         "content_sha256": "5e4b9afde8b8f73e42aaff478f16025dabda7f247a10315969ec150038009cc0"
       }
     }

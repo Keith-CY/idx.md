@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-breeze",
-  "generated_at": "2026-04-03T07:31:47.552Z",
+  "generated_at": "2026-04-04T07:27:00.327Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-breeze#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/keeganthomp/breeze/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:47.552Z",
+        "retrieved_at": "2026-04-04T07:27:00.327Z",
         "content_sha256": "491d61a1f2ca541d36dddf6255108de64ad3b4cc45a142ea68070845bf1a8c4f"
       }
     }

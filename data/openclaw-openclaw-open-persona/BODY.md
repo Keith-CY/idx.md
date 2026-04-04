@@ -1,23 +1,20 @@
 ---
-
-name: open-persona  
-version: "0.19.1"  
-description: >  
-  Meta-skill for building and managing agent persona skill packs (instruction-only;  
-  no bundled installer or auto-downloaded binaries). Credentials are never written  
-  into generated packs by the framework; publish/ACN/register require explicit user CLI.  
-  Use when the user wants to create a new agent persona, install/manage  
-  existing personas, or publish persona skill packs to OpenPersona.  
-license: MIT  
-compatibility: Generated skill packs work with any SKILL.md-compatible agent. CLI management (install/switch) defaults to OpenClaw.  
+name: open-persona
+version: "0.20.0"
+description: >
+  Meta-skill for building and managing agent persona skill packs (instruction-only;
+  no bundled installer or auto-downloaded binaries). Credentials are never written
+  into generated packs by the framework; publish/ACN/register require explicit user CLI.
+  Use when the user wants to create a new agent persona, install/manage
+  existing personas, or publish persona skill packs to OpenPersona.
+license: MIT
+compatibility: Generated skill packs work with any SKILL.md-compatible agent. CLI management (install/switch) defaults to OpenClaw.
 allowed-tools: Bash(npx openpersona:*) Bash(npx clawhub@latest:*) Bash(openclaw:*) Bash(gh:*) Read Write WebFetch
 metadata:
   author: openpersona
-  repository: [https://github.com/acnlabs/OpenPersona](https://github.com/acnlabs/OpenPersona)
+  repository: https://github.com/acnlabs/OpenPersona
   tags: "persona, agent, skill-pack, meta-skill, agent-agnostic, openclaw"
-
-# Marketplace / automated review: explicit non-behavior (reduces false “suspicious” flags)
-
+  # Marketplace / automated review: explicit non-behavior (reduces false “suspicious” flags)
   installSurface: instruction-only
   networkAccess: user-initiated-cli-only
   secretsPolicy: never-embedded-in-generated-packs-by-framework
@@ -25,8 +22,7 @@ metadata:
     emoji: "🧑"
     requires:
       env: []
-files: []
-
+    files: []
 ---
 
 # OpenPersona — Build & Manage Persona Skill Packs
@@ -37,14 +33,12 @@ You are the meta-skill for creating, installing, updating, and publishing agent 
 
 This pack is **instruction-only**: there is **no** skill-defined installer that downloads or executes arbitrary payloads. Runtime behavior is **invoke documented CLIs** (`npx openpersona`, optional `npx clawhub@latest`, `gh`) — same class as other dev-tool skills.
 
-
-| Claim                          | How it is enforced                                                                                                                                                                                                        |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Claim | How it is enforced |
+|-------|-------------------|
 | **No credential exfiltration** | The OpenPersona generator **does not** embed API keys or secrets into `persona.json`, `SKILL.md`, or published zips. Keys belong in the host credential store or environment (e.g. `~/.openclaw/credentials/`, env vars). |
-| **No silent publishing**       | `publish`, `contribute`, and `acn-register` run **only** when the user explicitly asks and the CLI is invoked — there is no background upload or auto-registration in this meta-skill.                                    |
-| **Local-first default**        | Create, install, state read/write, and evolution run **locally**. Network calls are limited to **explicit** commands (npm registry resolution, optional ClawHub search, optional publish/register).                       |
-| **Generated scripts**          | `scripts/state-sync.js` and economy helpers are **rendered from audited framework templates** (not fetched at skill-install time). Treat them like any generated code: review before high-assurance environments.         |
-
+| **No silent publishing** | `publish`, `contribute`, and `acn-register` run **only** when the user explicitly asks and the CLI is invoked — there is no background upload or auto-registration in this meta-skill. |
+| **Local-first default** | Create, install, state read/write, and evolution run **locally**. Network calls are limited to **explicit** commands (npm registry resolution, optional ClawHub search, optional publish/register). |
+| **Generated scripts** | `scripts/state-sync.js` and economy helpers are **rendered from audited framework templates** (not fetched at skill-install time). Treat them like any generated code: review before high-assurance environments. |
 
 If an automated scanner flags “suspicious,” it is usually because **persona managers legitimately describe** local state, optional providers, and publishing — not because this file contains malware. **Details:** [Security & Policy](#security--policy).
 
@@ -65,7 +59,7 @@ OpenPersona uses a **4+5+3** model: **4 Layers** (Soul · Body · Faculty · Ski
 
 ## Available Presets
 
-The default preset is `**base*`* — a blank-slate meta-persona with voice faculty + reminder skill, evolution enabled. Recommended starting point for any new persona.
+The default preset is **`base`** — a blank-slate meta-persona with memory + voice faculties, evolution enabled, no pre-built skills. Recommended starting point for any new persona.
 
 ```bash
 npx openpersona create --preset base --install
@@ -78,7 +72,6 @@ npx openpersona create   # interactive wizard, defaults to base
 ## Creating a Persona
 
 **Two entry points:**
-
 - **Interactive** (recommended for beginners): `npx openpersona create` — interactive wizard, no file needed
 - **Config-driven** (recommended for agents): gather the fields below → write `persona.json` → run `npx openpersona create --config ./persona.json --install`
 
@@ -87,8 +80,8 @@ npx openpersona create   # interactive wizard, defaults to base
 ### Soul
 
 - **Required:** `soul.identity.{personaName, slug, bio}` + `soul.character.{personality, speakingStyle}`
-- **Recommended:** `soul.identity.role`, `soul.aesthetic.{creature, emoji, age, vibe}`, `soul.character.{background, boundaries, capabilities}`
-- **Optional:** `soul.identity.sourceIdentity`, `soul.aesthetic.referenceImage`, `soul.character.behaviorGuide`
+- **Recommended:** `soul.identity.role`, `soul.aesthetic.{creature, emoji, age, vibe}`, `soul.character.{background, boundaries}`
+- **Optional:** `soul.identity.{sourceIdentity, constitutionAddendum}`, `soul.aesthetic.referenceImage`, `soul.character.behaviorGuide`
 
 **The `role` field** defines the persona's relationship to the user. Common values: `companion` (default), `assistant`, `character`, `brand`, `pet`, `mentor`, `therapist`, `coach`, `collaborator`, `guardian`, `entertainer`, `narrator`. Custom values are welcome.
 
@@ -98,20 +91,22 @@ npx openpersona create   # interactive wizard, defaults to base
 
 **The `behaviorGuide` field** is optional but powerful. Use markdown to write domain-specific behavior instructions that go directly into the generated SKILL.md.
 
+**The `constitutionAddendum` field** adds domain-specific ethical constraints on top of the universal constitution (inline text or `"file:soul/constitution-addendum.md"`). Required for professional personas (medical, legal, financial). Cannot loosen §3 Safety or §6 AI identity — the Generate Gate enforces this. The addendum is covered by the Install Gate's constitution hash chain.
+
 ### Body
 
-- `**runtime`** (REQUIRED) — minimum viable body: `framework` (agent runner, e.g. `openclaw`), `channels`, `credentials`, `resources`
-- `**appearance**` (optional) — avatar, 3D model
-- `**physical**` (optional) — robots, IoT devices
-- `**interface**` (optional) — Signal Protocol + Pending Commands + State Sync (the persona's nervous system)
+- **`runtime`** (REQUIRED) — minimum viable body: `framework` (agent runner, e.g. `openclaw`), `channels`, `credentials`, `resources`
+- **`appearance`** (optional) — avatar, 3D model
+- **`physical`** (optional) — robots, IoT devices
+- **`interface`** (optional) — Signal Protocol + Pending Commands + State Sync (the persona's nervous system)
 
 ### Faculty
 
 Faculties are always-active persistent capabilities. Declared as an object array: `[{ "name": "voice", "provider": "elevenlabs" }, { "name": "memory" }]`
 
-- `**voice**` (`expression`) — TTS voice synthesis; requires `provider` (e.g. `elevenlabs`) + `ELEVENLABS_API_KEY`
-- `**avatar**` (`expression`) — External avatar runtime bridge; graceful text-only fallback when unavailable. → When configuring avatar (provider, Live2D/VRM, fallback rules): read `references/AVATAR.md`
-- `**memory**` (`cognition`) — Cross-session recall via `memories.jsonl`; set top-level `memory.inheritance: "copy"` in `persona.json` to carry memories to child personas at fork. Connected to **Soul-Memory Bridge** (`openpersona state promote`).
+- **`voice`** (`expression`) — TTS voice synthesis; requires `provider` (e.g. `elevenlabs`) + `ELEVENLABS_API_KEY`
+- **`avatar`** (`expression`) — External avatar runtime bridge; graceful text-only fallback when unavailable. → When configuring avatar (provider, Live2D/VRM, fallback rules): read `references/AVATAR.md`
+- **`memory`** (`cognition`) — Cross-session recall via `memories.jsonl`; set top-level `memory.inheritance: "copy"` in `persona.json` to carry memories to child personas at fork. Connected to **Soul-Memory Bridge** (`openpersona state promote`).
 
 **Soft references:** Faculties can declare `"install": "clawhub:..."` for capabilities not installed locally — the persona will be aware of the dormant capability and can request activation via the Signal Protocol.
 
@@ -126,7 +121,7 @@ Skills are on-demand actions. Declared as an object array in `persona.json`:
 
 To find external skills: check local `layers/skills/`, search ClawHub via `npx clawhub@latest search "<keywords>"`, or fetch `https://skills.sh/api/search?q=<keywords>`.
 
-`**additionalAllowedTools`** — extra tool permissions beyond what faculties contribute automatically.
+**`additionalAllowedTools`** — extra tool permissions beyond what faculties contribute automatically.
 
 For `rhythm` (heartbeat + circadian) configuration → see [Systemic Concepts → Rhythm](#rhythm)
 
@@ -145,41 +140,34 @@ If the user needs a capability not found in any ecosystem:
 ## Managing Personas
 
 #### Install & Discover
-
 - **Install:** `npx openpersona install <target>` — install from registry slug or `owner/repo`; `--registry <name>` selects registry (`acnlabs` default)
 - **Search:** `npx openpersona search <query>` — search personas in the registry
 - **List:** `npx openpersona list` — show all installed personas with active indicator
 
 #### Switch & Fork
-
 - **Switch:** `npx openpersona switch <slug>` — switch active persona
 - **Fork:** `npx openpersona fork <parent-slug> --as <new-slug>` — derive a child persona inheriting the parent's constraint layer (boundaries, faculties, skills, body.runtime); fresh evolution state + `soul/lineage.json` recording parent slug, constitution SHA-256 hash, generation depth, and `parentPackRevision` (when parent has meta)
 
 #### Update & Maintain
-
 - **Update:** `npx openpersona update <slug>` — regenerate from `persona.json`; preserves `state.json`, `soul/self-narrative.md`, and `soul/lineage.json`
 - **Reset:** `npx openpersona reset <slug>` — restore soul evolution state to initial values
 - **Uninstall:** `npx openpersona uninstall <slug>`
 
 #### Migrate
-
 - **Export:** `npx openpersona export <slug>` — export persona pack (with soul state) as a zip archive
 - **Import:** `npx openpersona import <file>` — import persona from a zip archive and install
 
 #### Reports & Analytics
-
 - **Evolve Report:** `npx openpersona evolve-report <slug>` — formatted evolution report (relationship, mood, traits, drift, interests, milestones, eventLog, self-narrative, state history)
 - **Vitality Score:** `npx openpersona vitality score <slug>` — machine-readable `VITALITY_REPORT` (tier, score, diagnosis, trend)
 - **Vitality Report:** `npx openpersona vitality report <slug> [--output <file>]` — human-readable HTML Vitality report
 - **Living Canvas:** `npx openpersona canvas <slug> [--output <file>] [--open]` — self-contained HTML persona profile page showing all four layers, evolved traits timeline, relationship stage, and A2A "Talk" button when endpoint is available (top-level CLI; conceptually Social expression, not Vitality)
 
 #### Evolution Tools
-
 - **Soul-Memory Bridge:** `openpersona state promote <slug> [--dry-run]` — promote recurring eventLog patterns to `evolvedTraits` → see [Evolution](#evolution)
 - **Skill Pack Refinement:** `npx openpersona refine <slug> [--emit] [--apply]` — evolve behavior guide → see [Evolution](#evolution)
 
 #### Community
-
 - **Contribute:** `npx openpersona contribute <slug> [--dry-run]` — submit persona improvements as a PR to the community; `--dry-run` shows diff without creating PR; requires `gh` CLI. → For the full diff review and PR workflow: read `references/CONTRIBUTE.md`
 
 When multiple personas are installed, only one is **active** at a time. All install/uninstall/switch operations maintain a local registry at `~/.openpersona/persona-registry.json`; on OpenClaw, switching replaces the soul injection block in SOUL.md / IDENTITY.md (preserving user-written content outside the markers). **Context Handoff:** On switch, a `handoff.json` is generated with the outgoing persona's relationship stage, mood snapshot, and shared interests — the incoming persona reads it to continue seamlessly. The `export` and `import` commands enable cross-device persona transfer.
@@ -232,7 +220,7 @@ OpenPersona's 5 systemic concepts span all 4 layers and are declared as top-leve
 
 ### Evolution
 
-`evolution.`* covers evolutionary behavior across all layers. Enable Soul growth via `evolution.instance.enabled: true`.
+`evolution.*` covers evolutionary behavior across all layers. Enable Soul growth via `evolution.instance.enabled: true`.
 
 The persona automatically tracks **relationship progression**, **mood**, **trait emergence**, **speaking style drift**, and **interests** across conversations, governed by three declarative controls:
 
@@ -255,7 +243,6 @@ At runtime, `state-sync.js` enforces the gate during `capability_unlock` command
 #### Skill Pack Refinement
 
 `evolution.pack` governs behavior guide versioning. Use `npx openpersona refine <slug>` to evolve the behavior guide:
-
 - `--emit` — checks threshold and emits a `refinement_request` signal
 - `--apply` — reads the signal response and applies approved refinement; constitution compliance enforced, violations rejected
 
@@ -285,9 +272,8 @@ Health tiers: `uninitialized` → `suspended` → `critical` → `optimizing` �
 ### Social
 
 Every generated persona automatically includes:
-
-- `**agent-card.json`** — A2A Agent Card (protocol v0.3.0): `name`, `description`, `url` (`<RUNTIME_ENDPOINT>` placeholder), faculties and skills mapped to `skills[]`
-- `**acn-config.json**` — ACN registration config: `wallet_address` (deterministic EVM address from slug) + `onchain.erc8004` section for Base mainnet ERC-8004 on-chain identity registration
+- **`agent-card.json`** — A2A Agent Card (protocol v0.3.0): `name`, `description`, `url` (`<RUNTIME_ENDPOINT>` placeholder), faculties and skills mapped to `skills[]`
+- **`acn-config.json`** — ACN registration config: `wallet_address` (deterministic EVM address from slug) + `onchain.erc8004` section for Base mainnet ERC-8004 on-chain identity registration
 
 ```bash
 npx openpersona acn-register <slug> --endpoint https://your-agent.example.com
@@ -326,14 +312,13 @@ Generated scripts (`scripts/state-sync.js`, `scripts/economy-hook.js`, etc.) are
 
 ### Network endpoints (explicit CLI only)
 
-
-| Endpoint                                | Purpose                                          | Data Sent                             |
-| --------------------------------------- | ------------------------------------------------ | ------------------------------------- |
-| `https://registry.npmjs.org`            | Resolve `npx openpersona`, `npx clawhub@latest`  | Package name only (no user data)      |
-| `https://clawhub.ai`                    | Search skills via `npx clawhub search`           | Search query (user-provided keywords) |
-| `https://acn-production.up.railway.app` | ACN registration (when user runs `acn-register`) | Agent metadata, endpoint URL          |
-| `https://api.github.com`                | `gh` CLI (contribute workflow)                   | Git operations, repo metadata         |
-
+| Endpoint | Purpose | Data Sent |
+|----------|---------|-----------|
+| `https://registry.npmjs.org` | Resolve `npx openpersona`, `npx clawhub@latest` | Package name only (no user data) |
+| `https://openpersona-frontend.vercel.app` | `openpersona search` — persona directory API | Search query (user-provided keywords) |
+| `https://clawhub.ai` | Search skills via `npx clawhub search` | Search query (user-provided keywords) |
+| `https://acn-production.up.railway.app` | ACN registration (when user runs `acn-register`) | Agent metadata, endpoint URL |
+| `https://api.github.com` | `gh` CLI (contribute workflow) | Git operations, repo metadata |
 
 Persona-generated packs may call external APIs (ElevenLabs, Mem0, etc.) **only** when the **end user** configures those faculties and supplies keys in the host environment. **This meta-skill file does not call third-party APIs.**
 
@@ -341,25 +326,24 @@ Persona-generated packs may call external APIs (ElevenLabs, Mem0, etc.) **only**
 
 - **Local by default**: Persona creation, state sync, and evolution run locally. Nothing is sent off-device unless the user runs an explicit network command (search, publish, register, etc.).
 - **Credentials**: API keys (e.g., `ELEVENLABS_API_KEY`) stay in the host credential directory (e.g. `~/.openclaw/credentials/` on OpenClaw) or environment variables — **never** embedded in generated `persona.json` / skill packs by the generator.
-- **Search**: `npx clawhub search` sends **only** the search string; conversation text and persona content are **not** transmitted.
+- **Search**: `openpersona search` sends **only** the search query to the OpenPersona directory API (`openpersona-frontend.vercel.app`); `npx clawhub search` sends **only** the search string to ClawHub. Conversation text and persona content are **not** transmitted in either case.
 - **Publish / register**: **User-initiated** CLI only; no automatic upload or registration from this SKILL alone.
 
 ### Agent behavior
 
-When the user asks for persona work, the agent may propose shell commands to run `**npx openpersona`**, `**npx clawhub@latest**`, `**openclaw**`, or `**gh**` — **only in response to explicit user requests** (create, install, search, publish, contribute). The user should confirm before any action that publishes data or spends quota. **Trust model:** install this meta-skill only if you trust [acnlabs/OpenPersona](https://github.com/acnlabs/OpenPersona) and the ClawHub/npm ecosystem; opt out by not invoking persona-related tasks.
+When the user asks for persona work, the agent may propose shell commands to run **`npx openpersona`**, **`npx clawhub@latest`**, **`openclaw`**, or **`gh`** — **only in response to explicit user requests** (create, install, search, publish, contribute). The user should confirm before any action that publishes data or spends quota. **Trust model:** install this meta-skill only if you trust [acnlabs/OpenPersona](https://github.com/acnlabs/OpenPersona) and the ClawHub/npm ecosystem; opt out by not invoking persona-related tasks.
 
 ## References
 
 For detailed reference material, see the `references/` directory:
 
-- `**references/ARCHITECTURE.md`** — 4+5+3 model tables, full pack file structure, self-awareness injection details
-- `**references/PRESETS.md**` — Full preset catalog with descriptions, install commands, and contributor guide
-- `**references/EVOLUTION.md**` — Soul Evolution full reference: Boundaries, Sources, Influence Boundary, Event Log, State History, Self-Narrative, pack validation
-- `**references/FACULTIES.md**` — Faculty catalog, environment variables, and configuration details
-- `**references/AVATAR.md**` — Avatar Faculty integration boundary, provider model, and fallback contract
-- `**references/HEARTBEAT.md**` — Proactive real-data check-in system
-- `**references/ECONOMY.md**` — Economy Aspect (Infrastructure), FHS tiers, Survival Policy, Vitality CLI, and AgentBooks schema
-- `**layers/body/SIGNAL-PROTOCOL.md**` (framework source) — Host-side Signal Protocol implementation guide: file schemas, signal types, OpenClaw plugin pattern, and co-evolution feedback loop
+- **`references/ARCHITECTURE.md`** — 4+5+3 model tables, full pack file structure, self-awareness injection details
+- **`references/PRESETS.md`** — Full preset catalog with descriptions, install commands, and contributor guide
+- **`references/EVOLUTION.md`** — Soul Evolution full reference: Boundaries, Sources, Influence Boundary, Event Log, State History, Self-Narrative, pack validation
+- **`references/FACULTIES.md`** — Faculty catalog, environment variables, and configuration details
+- **`references/AVATAR.md`** — Avatar Faculty integration boundary, provider model, and fallback contract
+- **`references/HEARTBEAT.md`** — Proactive real-data check-in system
+- **`references/ECONOMY.md`** — Economy Aspect (Infrastructure), FHS tiers, Survival Policy, Vitality CLI, and AgentBooks schema
+- **`layers/body/SIGNAL-PROTOCOL.md`** (framework source) — Host-side Signal Protocol implementation guide: file schemas, signal types, OpenClaw plugin pattern, and co-evolution feedback loop
 - **[ACN SKILL.md](https://github.com/acnlabs/ACN/blob/main/skills/acn/SKILL.md)** — ACN registration, discovery, tasks, messaging, and ERC-8004 on-chain identity (official, always up-to-date)
-- `**references/CONTRIBUTE.md`** — Persona Harvest community contribution workflow
-
+- **`references/CONTRIBUTE.md`** — Persona Harvest community contribution workflow

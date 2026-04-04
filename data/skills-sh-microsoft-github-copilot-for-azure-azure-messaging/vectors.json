@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-messaging",
-  "generated_at": "2026-04-03T07:27:43.327Z",
+  "generated_at": "2026-04-04T07:22:36.750Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-messaging#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-messaging/references/service-troubleshooting.md",
-        "retrieved_at": "2026-04-03T07:27:43.327Z",
+        "retrieved_at": "2026-04-04T07:22:36.750Z",
         "content_sha256": "206d243b21e22a129b68a4ba36729e18b740bffaf2dfa1aecc9fd36dc7d4df02"
       }
     }

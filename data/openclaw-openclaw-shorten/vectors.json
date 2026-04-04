@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-shorten",
-  "generated_at": "2026-04-03T07:29:46.074Z",
+  "generated_at": "2026-04-04T07:24:53.351Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-shorten#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/shorten/SKILL.md",
-        "retrieved_at": "2026-04-03T07:29:46.074Z",
+        "retrieved_at": "2026-04-04T07:24:53.351Z",
         "content_sha256": "12da84f8795a2bea4afdd7db5b166214694a0fa4dc28a3f965ef0c628051018f"
       }
     }

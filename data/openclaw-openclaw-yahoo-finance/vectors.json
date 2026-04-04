@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yahoo-finance",
-  "generated_at": "2026-04-03T07:27:26.291Z",
+  "generated_at": "2026-04-04T07:22:13.529Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yahoo-finance#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajanraj/yahoo-finance/SKILL.md",
-        "retrieved_at": "2026-04-03T07:27:26.291Z",
+        "retrieved_at": "2026-04-04T07:22:13.529Z",
         "content_sha256": "ee459f2b634cf904b14826fa7920b2e5f8d93648219399a67275fa1b9989fdfe"
       }
     }

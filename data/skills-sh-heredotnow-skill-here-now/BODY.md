@@ -779,6 +779,8 @@ Registers a custom domain for your account. Free plan: 1 domain. Hobby plan: up 
   1. Add an **ALIAS** record pointing to `fallback.here.now`. (Your DNS provider may call this ANAME or CNAME flattening.)
   2. Add a **TXT** record using the `name` and `value` from `ownership_verification`.
 
+**Tip:** Not all DNS providers support ALIAS records for apex domains. If yours doesn't, use `www.example.com` with a CNAME instead, then set up a redirect from the apex to `www` at your registrar.
+
 SSL is provisioned automatically once DNS is verified.
 
 ---

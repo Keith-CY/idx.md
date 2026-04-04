@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aiusd",
-  "generated_at": "2026-04-03T07:31:23.243Z",
+  "generated_at": "2026-04-04T07:26:32.422Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aiusd#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chaunceyliu/aiusd/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:23.243Z",
+        "retrieved_at": "2026-04-04T07:26:32.422Z",
         "content_sha256": "44d4471860a5e0e900c08b63ff1d8adb8f154abed5212ead3901e39b1bbaaf71"
       }
     }

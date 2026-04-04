@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-x",
-  "generated_at": "2026-04-03T07:30:24.499Z",
+  "generated_at": "2026-04-04T07:25:32.280Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-x#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/trymoinai-create/x/SKILL.md",
-        "retrieved_at": "2026-04-03T07:30:24.499Z",
+        "retrieved_at": "2026-04-04T07:25:32.280Z",
         "content_sha256": "041115dcfcce9a29291dcfd9f971aadd39b297b0baa119c8b58574bdd77146bc"
       }
     }

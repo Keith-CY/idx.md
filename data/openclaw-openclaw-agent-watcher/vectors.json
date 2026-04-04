@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-watcher",
-  "generated_at": "2026-04-03T07:31:13.249Z",
+  "generated_at": "2026-04-04T07:26:21.098Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-watcher#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nantes/agent-watcher/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:13.249Z",
+        "retrieved_at": "2026-04-04T07:26:21.098Z",
         "content_sha256": "0d8d97d2653adceddef404645a0146d25e6bd1fdf5e991c2cf4dd3c4435a8e3e"
       }
     }

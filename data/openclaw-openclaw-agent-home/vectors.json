@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-home",
-  "generated_at": "2026-04-03T07:31:07.314Z",
+  "generated_at": "2026-04-04T07:26:15.630Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-home#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aerialcombat/agent-home/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:07.314Z",
+        "retrieved_at": "2026-04-04T07:26:15.630Z",
         "content_sha256": "de5e7d9dbee0b390e0c6da432f189eeecb6fdc266a13298caaa67053e12697ad"
       }
     }

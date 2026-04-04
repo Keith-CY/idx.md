@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence",
-  "generated_at": "2026-04-03T07:26:54.726Z",
+  "generated_at": "2026-04-04T07:21:38.785Z",
   "records": [
     {
       "id": "skills/github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence#head",
@@ -21,7 +21,7 @@
           "github-repo-anthropic-cybersecurity-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md",
-        "retrieved_at": "2026-04-03T07:26:54.726Z",
+        "retrieved_at": "2026-04-04T07:21:38.785Z",
         "content_sha256": "0a638b320cbd6e55d00fdf76c784a38cf7f9fc019717c883bee5b8a94c1d718c"
       }
     }

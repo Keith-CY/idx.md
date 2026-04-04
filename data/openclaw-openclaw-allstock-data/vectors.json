@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-allstock-data",
-  "generated_at": "2026-04-03T07:31:24.959Z",
+  "generated_at": "2026-04-04T07:26:33.809Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-allstock-data#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hacksing/allstock-data/SKILL.md",
-        "retrieved_at": "2026-04-03T07:31:24.959Z",
+        "retrieved_at": "2026-04-04T07:26:33.809Z",
         "content_sha256": "5481119cf3305c4ccada83d696a28db150fe96dbb5bf93984e288aa65ada9682"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat",
-  "generated_at": "2026-04-03T07:27:05.510Z",
+  "generated_at": "2026-04-04T07:21:50.435Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-post-to-wechat#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-post-to-wechat/references/config/first-time-setup.md",
-        "retrieved_at": "2026-04-03T07:27:05.510Z",
+        "retrieved_at": "2026-04-04T07:21:50.435Z",
         "content_sha256": "55a58fc07db8425e45f9943f8b05045c2168ad44acc4206b64a218507b74532a"
       }
     }

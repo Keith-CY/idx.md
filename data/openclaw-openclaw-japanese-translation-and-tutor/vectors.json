@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-japanese-translation-and-tutor",
-  "generated_at": "2026-04-03T07:28:49.493Z",
+  "generated_at": "2026-04-04T07:23:48.933Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-japanese-translation-and-tutor#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsjaydesu/japanese-translation-and-tutor/SKILL.md",
-        "retrieved_at": "2026-04-03T07:28:49.493Z",
+        "retrieved_at": "2026-04-04T07:23:48.933Z",
         "content_sha256": "d1d2a176af66e14eef86a04445493fd6e57798d57c0f432fffee878bf902eddf"
       }
     }
