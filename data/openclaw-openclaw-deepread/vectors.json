@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-deepread",
-  "generated_at": "2026-04-04T07:23:19.861Z",
+  "generated_at": "2026-04-05T07:25:23.858Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-deepread#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/uday390/deepread/SKILL.md",
-        "retrieved_at": "2026-04-04T07:23:19.861Z",
+        "retrieved_at": "2026-04-05T07:25:23.858Z",
         "content_sha256": "79c7184d94e00bed4c7d82874adbd5fc66b2a83f979c4bbb8102681bf5c6470f"
       }
     }

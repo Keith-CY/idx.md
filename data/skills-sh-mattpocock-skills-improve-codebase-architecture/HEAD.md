@@ -40,6 +40,6 @@ upstream_ref: https://skills.sh/mattpocock/skills/improve-codebase-architecture
 github_stars: 8203
 github_forks: 659
 github_is_organization: false
-retrieved_at: 2026-04-04T07:22:05.787Z
+retrieved_at: 2026-04-05T07:24:32.366Z
 content_sha256: dd47bb0359f8e09db95d393c6b9f8c77430af37826d939557edc2abef59cddbb
 ---

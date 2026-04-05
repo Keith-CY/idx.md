@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-read-github",
-  "generated_at": "2026-04-04T07:24:42.252Z",
+  "generated_at": "2026-04-05T07:26:28.733Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-read-github#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/am-will/read-github/SKILL.md",
-        "retrieved_at": "2026-04-04T07:24:42.252Z",
+        "retrieved_at": "2026-04-05T07:26:28.733Z",
         "content_sha256": "7f14ac762eaacf57264a6578c191a089a5cea8aa415e04a30944e04e2126ab9f"
       }
     }

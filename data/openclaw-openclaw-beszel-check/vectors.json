@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-beszel-check",
-  "generated_at": "2026-04-04T07:23:00.887Z",
+  "generated_at": "2026-04-05T07:25:09.536Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-beszel-check#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/karakuscem/beszel-check/SKILL.md",
-        "retrieved_at": "2026-04-04T07:23:00.887Z",
+        "retrieved_at": "2026-04-05T07:25:09.536Z",
         "content_sha256": "34bd3a55cad05115b7eeb231dab621b89c1cd9862a540f27c1f88cb3ed77e8b1"
       }
     }

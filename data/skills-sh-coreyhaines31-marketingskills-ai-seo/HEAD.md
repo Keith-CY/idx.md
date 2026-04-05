@@ -38,6 +38,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ai-seo
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-04-04T07:21:50.189Z
+retrieved_at: 2026-04-05T07:24:22.145Z
 content_sha256: 4004b3d9d562f98273a0048c48af6a46040ed800b1a1ccb958b299217860a623
 ---

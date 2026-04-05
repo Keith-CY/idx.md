@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pleaseprompto-notebooklm-skill-notebooklm",
-  "generated_at": "2026-04-04T07:22:07.486Z",
+  "generated_at": "2026-04-05T07:24:33.575Z",
   "records": [
     {
       "id": "skills/skills-sh-pleaseprompto-notebooklm-skill-notebooklm#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/pleaseprompto/notebooklm-skill/master/SKILL.md",
-        "retrieved_at": "2026-04-04T07:22:07.486Z",
+        "retrieved_at": "2026-04-05T07:24:33.575Z",
         "content_sha256": "8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e"
       }
     }

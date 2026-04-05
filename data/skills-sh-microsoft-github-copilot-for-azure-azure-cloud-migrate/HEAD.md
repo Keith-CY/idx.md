@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-cloud-m
 github_stars: 155
 github_forks: 101
 github_is_organization: true
-retrieved_at: 2026-04-04T07:27:42.808Z
+retrieved_at: 2026-04-05T07:28:48.796Z
 content_sha256: 2811f9a08ce21f2cbc24c0da2abaa142bda66de5d17ce75dd706c5ecc6a763d8
 ---

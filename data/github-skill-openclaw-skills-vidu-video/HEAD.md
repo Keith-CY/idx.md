@@ -15,6 +15,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/hexiaochun/vid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-04T07:21:43.126Z
+retrieved_at: 2026-04-05T07:24:16.762Z
 content_sha256: a768ddbecc35778fde974d963c3797a49466913f38ef4ae28c0d239417768a01
 ---

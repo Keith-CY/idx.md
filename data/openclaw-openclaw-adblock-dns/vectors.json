@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adblock-dns",
-  "generated_at": "2026-04-04T07:26:04.007Z",
+  "generated_at": "2026-04-05T07:27:34.245Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adblock-dns#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/picaye/adblock-dns/SKILL.md",
-        "retrieved_at": "2026-04-04T07:26:04.007Z",
+        "retrieved_at": "2026-04-05T07:27:34.245Z",
         "content_sha256": "3110e56e385beb77a6227338147799a915b990d70b1413d9426ef357c337547a"
       }
     }

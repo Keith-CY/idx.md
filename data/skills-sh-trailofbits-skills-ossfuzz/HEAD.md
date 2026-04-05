@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/ossfuzz
 github_stars: 447
 github_forks: 81
 github_is_organization: true
-retrieved_at: 2026-04-04T07:22:52.229Z
+retrieved_at: 2026-04-05T07:25:03.672Z
 content_sha256: d56091780455026c0e196ef220a339b081bada399e43384d3d85578210591297
 ---

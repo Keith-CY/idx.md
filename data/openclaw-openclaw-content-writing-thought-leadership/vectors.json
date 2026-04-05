@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-content-writing-thought-leadership",
-  "generated_at": "2026-04-04T07:23:14.190Z",
+  "generated_at": "2026-04-05T07:25:19.712Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-content-writing-thought-leadership#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shashwatgtm/content-writing-thought-leadership/SKILL.md",
-        "retrieved_at": "2026-04-04T07:23:14.190Z",
+        "retrieved_at": "2026-04-05T07:25:19.712Z",
         "content_sha256": "5e9330efb1a973ed3eb300fbf9b87e74cd1780f8ed8f2df740375058c21e97dd"
       }
     }

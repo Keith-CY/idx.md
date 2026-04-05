@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-closing-deals",
-  "generated_at": "2026-04-04T07:27:14.685Z",
+  "generated_at": "2026-04-05T07:28:24.646Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-closing-deals#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jk-0001/closing-deals/SKILL.md",
-        "retrieved_at": "2026-04-04T07:27:14.685Z",
+        "retrieved_at": "2026-04-05T07:28:24.646Z",
         "content_sha256": "10d3cea4c577fedc873761570497eb5fae2586e344d0478475f1eda308d28701"
       }
     }

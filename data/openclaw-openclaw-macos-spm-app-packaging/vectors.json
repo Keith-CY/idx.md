@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-macos-spm-app-packaging",
-  "generated_at": "2026-04-04T07:27:34.719Z",
+  "generated_at": "2026-04-05T07:28:41.721Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-macos-spm-app-packaging#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dimillian/macos-spm-app-packaging/SKILL.md",
-        "retrieved_at": "2026-04-04T07:27:34.719Z",
+        "retrieved_at": "2026-04-05T07:28:41.721Z",
         "content_sha256": "9339debc3d729a84c8d6e64384c6546a1e430516bda21b690cb763376a95370a"
       }
     }

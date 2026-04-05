@@ -38,6 +38,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-messagi
 github_stars: 114
 github_forks: 72
 github_is_organization: true
-retrieved_at: 2026-04-04T07:22:36.750Z
+retrieved_at: 2026-04-05T07:24:52.255Z
 content_sha256: 206d243b21e22a129b68a4ba36729e18b740bffaf2dfa1aecc9fd36dc7d4df02
 ---

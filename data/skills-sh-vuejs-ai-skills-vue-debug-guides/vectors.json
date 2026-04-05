@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-vuejs-ai-skills-vue-debug-guides",
-  "generated_at": "2026-04-04T07:22:32.029Z",
+  "generated_at": "2026-04-05T07:24:48.912Z",
   "records": [
     {
       "id": "skills/skills-sh-vuejs-ai-skills-vue-debug-guides#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-debug-guides/reference/reactivity-debugging-hooks.md",
-        "retrieved_at": "2026-04-04T07:22:32.029Z",
+        "retrieved_at": "2026-04-05T07:24:48.912Z",
         "content_sha256": "9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644"
       }
     }

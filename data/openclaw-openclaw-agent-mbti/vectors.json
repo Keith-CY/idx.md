@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-mbti",
-  "generated_at": "2026-04-04T07:26:16.471Z",
+  "generated_at": "2026-04-05T07:27:43.425Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-mbti#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/torchesfrms/agent-mbti/SKILL.md",
-        "retrieved_at": "2026-04-04T07:26:16.471Z",
+        "retrieved_at": "2026-04-05T07:27:43.425Z",
         "content_sha256": "47de3278604ded01d90605cc223229e580271f8a6d9de185f5003de1860c0bbc"
       }
     }

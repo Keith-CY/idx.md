@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mongodb-atlas-admin",
-  "generated_at": "2026-04-04T07:27:36.937Z",
+  "generated_at": "2026-04-05T07:28:44.065Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mongodb-atlas-admin#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mrlynn/mongodb-atlas-admin/SKILL.md",
-        "retrieved_at": "2026-04-04T07:27:36.937Z",
+        "retrieved_at": "2026-04-05T07:28:44.065Z",
         "content_sha256": "f1b06b0288e3453c907e8628fe550c2b395b349a4fc420286f4f3ca73b7ab00e"
       }
     }

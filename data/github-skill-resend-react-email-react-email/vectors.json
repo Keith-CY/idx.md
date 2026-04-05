@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-resend-react-email-react-email",
-  "generated_at": "2026-04-04T07:21:44.540Z",
+  "generated_at": "2026-04-05T07:24:17.202Z",
   "records": [
     {
       "id": "skills/github-skill-resend-react-email-react-email#head",
@@ -21,7 +21,7 @@
           "github-repo-react-email"
         ],
         "source_url": "https://raw.githubusercontent.com/resend/react-email/canary/skills/react-email/SKILL.md",
-        "retrieved_at": "2026-04-04T07:21:44.540Z",
+        "retrieved_at": "2026-04-05T07:24:17.202Z",
         "content_sha256": "3e1c597c4292eaf8555211ba75d7afc57552e21a6657a470ca0e3ef6b934dcae"
       }
     }
