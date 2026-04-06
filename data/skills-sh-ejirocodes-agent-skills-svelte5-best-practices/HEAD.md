@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/ejirocodes/agent-skills/svelte5-best-practices
 github_stars: 2
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-04-05T07:24:51.399Z
+retrieved_at: 2026-04-06T07:32:17.936Z
 content_sha256: 9c7b6330607aa14d90e8b686a205391067c4ca17b6a90d71ba99cc2333e32086
 ---

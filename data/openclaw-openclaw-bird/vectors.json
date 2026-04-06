@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bird",
-  "generated_at": "2026-04-05T07:28:10.031Z",
+  "generated_at": "2026-04-06T07:35:52.439Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bird#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/bird/SKILL.md",
-        "retrieved_at": "2026-04-05T07:28:10.031Z",
+        "retrieved_at": "2026-04-06T07:35:52.439Z",
         "content_sha256": "da997ce6b1360afe25bc510a8763ebad8609ec313d5a1cd91d2110f9bee914e5"
       }
     }

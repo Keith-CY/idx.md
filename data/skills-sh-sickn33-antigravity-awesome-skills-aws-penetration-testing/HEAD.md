@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/aws-penetrati
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-05T07:24:46.919Z
+retrieved_at: 2026-04-06T07:32:11.720Z
 content_sha256: 41556bd893e2f1762271c819b39d072d14b6fcc16879071bc060f470b8673c2d
 ---

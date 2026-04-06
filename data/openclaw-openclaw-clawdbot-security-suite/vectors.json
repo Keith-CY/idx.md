@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-security-suite",
-  "generated_at": "2026-04-05T07:25:14.737Z",
+  "generated_at": "2026-04-06T07:32:42.452Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-security-suite#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gtrusler/clawdbot-security-suite/SKILL.md",
-        "retrieved_at": "2026-04-05T07:25:14.737Z",
+        "retrieved_at": "2026-04-06T07:32:42.452Z",
         "content_sha256": "77fd5feae52d0f7ef2adaaac101bfd1732b46fab84f7d8bee375740ced1d3c0d"
       }
     }

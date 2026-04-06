@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-translate
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-04-05T07:24:29.165Z
+retrieved_at: 2026-04-06T07:31:53.922Z
 content_sha256: ba3677cf40bb5063f450927b4fcde2f361a832e6a8632604a270df8372884593
 ---

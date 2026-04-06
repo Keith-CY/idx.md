@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-cloud-migrate",
-  "generated_at": "2026-04-05T07:28:48.796Z",
+  "generated_at": "2026-04-06T07:36:34.324Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-cloud-migrate#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-cloud-migrate/references/services/functions/global-rules.md",
-        "retrieved_at": "2026-04-05T07:28:48.796Z",
+        "retrieved_at": "2026-04-06T07:36:34.324Z",
         "content_sha256": "2811f9a08ce21f2cbc24c0da2abaa142bda66de5d17ce75dd706c5ecc6a763d8"
       }
     }

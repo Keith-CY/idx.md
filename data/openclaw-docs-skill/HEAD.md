@@ -7,33 +7,29 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying, configuring, or troubleshooting OpenClaw — a
-  self-hosted multi-channel AI agent gateway. Reach for this skill when setting
-  up channels (WhatsApp, Telegram, Discord, etc.), configuring models and
-  authentication, managing sessions and routing, creating or modifying skills,
-  or debugging gateway/agent behavior.
+  description: Use when setting up a self-hosted AI agent gateway, configuring
+  multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing
+  agent sessions and routing, deploying tools and skills, or troubleshooting
+  gateway operations. Reach for this skill when working with the CLI,
+  configuration files, channel setup, or agent workspace management.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill
+  # OpenClaw Skill Reference
 
-  ## Product summary
+  ## Product Summary
 
-  OpenClaw is a self-hosted gateway that connects messaging apps (WhatsApp,
-  Telegram, Discord, Slack, iMessage, Signal, Matrix, Microsoft Teams, and more)
-  to AI agents. The agent runs in an embedded runtime with access to tools
-  (browser, exec, web search, file I/O, image generation, etc.) and skills
-  (markdown-based instruction sets). The gateway manages sessions, routing,
-  authentication, and channel delivery. Key files: `~/.openclaw/openclaw.json`
-  (config), `~/.openclaw/workspace/` (agent workspace with `AGENTS.md`,
-  `SOUL.md`, `TOOLS.md`, `IDENTITY.md`, `USER.md`),
-  `~/.openclaw/agents/<agentId>/sessions/` (session transcripts). Primary CLI:
-  `openclaw` with subcommands like `onboard`, `config`, `gateway`, `agent`,
-  `channels`, `skills`. See [https://docs.openclaw.ai](https://docs.openclaw.ai)
-  for full documentation.
+  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
+  any OS. It connects messaging apps (Discord, Telegram, WhatsApp, Slack,
+  Signal, iMessage, Matrix, and 15+ others) to an embedded agent runtime with
+  tool use, sessions, memory, and multi-agent routing. The Gateway is the single
+  source of truth for sessions, routing, and channel connections. Key files:
+  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent
+  workspace), `~/.openclaw/agents/` (sessions). Primary CLI: `openclaw`. Docs:
+  https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -41,6 +37,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-05T07:24:37.115Z
-content_sha256: 21542e344d48b07f593fa228b0c6bb837c1a0e4323bf96e92d635adfa2e946fe
+retrieved_at: 2026-04-06T07:32:02.788Z
+content_sha256: a6dc6ae605d0e5e1ee97165796b388118d66c0274526fa89e473675731e8c106
 ---

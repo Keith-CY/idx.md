@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-localrank-agent-skills",
-  "generated_at": "2026-04-05T07:25:54.112Z",
+  "generated_at": "2026-04-06T07:33:21.468Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-localrank-agent-skills#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/peterw/localrank-agent-skills/SKILL.md",
-        "retrieved_at": "2026-04-05T07:25:54.112Z",
+        "retrieved_at": "2026-04-06T07:33:21.468Z",
         "content_sha256": "03fba345d43bb2401629ced12a5999a3a72c701ad8e59a95521535c6f5f18a22"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-audit-code",
-  "generated_at": "2026-04-05T07:28:05.319Z",
+  "generated_at": "2026-04-06T07:35:47.677Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-audit-code#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsnishi/audit-code/SKILL.md",
-        "retrieved_at": "2026-04-05T07:28:05.319Z",
+        "retrieved_at": "2026-04-06T07:35:47.677Z",
         "content_sha256": "4fc10cbcb3f8a88924930d42b2658577232e452666a44ef6b77372ed8cc57d83"
       }
     }

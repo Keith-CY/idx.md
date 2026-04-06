@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-xlsx",
-  "generated_at": "2026-04-05T07:27:11.585Z",
+  "generated_at": "2026-04-06T07:34:49.998Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-xlsx#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/xlsx/SKILL.md",
-        "retrieved_at": "2026-04-05T07:27:11.585Z",
+        "retrieved_at": "2026-04-06T07:34:49.998Z",
         "content_sha256": "020ccdb5932257b66c638ec1157ea248d57fa52c8c01f1f68b559b5970c7df35"
       }
     }

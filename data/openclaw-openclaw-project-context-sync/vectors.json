@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-project-context-sync",
-  "generated_at": "2026-04-05T07:26:22.812Z",
+  "generated_at": "2026-04-06T07:33:59.113Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-project-context-sync#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joe3112/project-context-sync/SKILL.md",
-        "retrieved_at": "2026-04-05T07:26:22.812Z",
+        "retrieved_at": "2026-04-06T07:33:59.113Z",
         "content_sha256": "b63b7b1335c1250f6d94a04a1c87d2e75494ccba4d50dff96718737152bc6986"
       }
     }

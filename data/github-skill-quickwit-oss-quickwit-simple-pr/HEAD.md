@@ -15,6 +15,6 @@ upstream_ref: https://github.com/quickwit-oss/quickwit/blob/main/.claude/skills/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-05T07:24:17.063Z
+retrieved_at: 2026-04-06T07:31:42.051Z
 content_sha256: 1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390
 ---

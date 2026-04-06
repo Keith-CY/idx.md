@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-memory-hygiene",
-  "generated_at": "2026-04-05T07:25:57.536Z",
+  "generated_at": "2026-04-06T07:33:27.493Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-memory-hygiene#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dylanbaker24/memory-hygiene/SKILL.md",
-        "retrieved_at": "2026-04-05T07:25:57.536Z",
+        "retrieved_at": "2026-04-06T07:33:27.493Z",
         "content_sha256": "58d9e56da3f96b4191179d092385ccf06335cec615f44d32d9a593f88b126f44"
       }
     }

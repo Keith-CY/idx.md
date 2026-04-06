@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-comfy-ai",
-  "generated_at": "2026-04-05T07:25:17.887Z",
+  "generated_at": "2026-04-06T07:32:46.003Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-comfy-ai#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tullyhu/comfy-ai/SKILL.md",
-        "retrieved_at": "2026-04-05T07:25:17.887Z",
+        "retrieved_at": "2026-04-06T07:32:46.003Z",
         "content_sha256": "adbb56c8a961a56f924a1078be0ab635118bf0bf676bc2e799f2f3c7c08a1d12"
       }
     }

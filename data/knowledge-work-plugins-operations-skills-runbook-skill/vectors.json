@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-operations-skills-runbook-skill",
-  "generated_at": "2026-04-05T07:27:18.589Z",
+  "generated_at": "2026-04-06T07:34:56.610Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-operations-skills-runbook-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/runbook/SKILL.md",
-        "retrieved_at": "2026-04-05T07:27:18.589Z",
+        "retrieved_at": "2026-04-06T07:34:56.610Z",
         "content_sha256": "c5c3eaa4c22fff96ec7239ce67eb3e100661b20a2818749e2f7ee21787233185"
       }
     }
