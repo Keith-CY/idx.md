@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-jtbd-analyzer",
-  "generated_at": "2026-04-06T07:33:15.428Z",
+  "generated_at": "2026-04-07T07:31:51.498Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-jtbd-analyzer#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/artyomx33/jtbd-analyzer/SKILL.md",
-        "retrieved_at": "2026-04-06T07:33:15.428Z",
+        "retrieved_at": "2026-04-07T07:31:51.498Z",
         "content_sha256": "1dffec564be835c41883010a5c6518aec34437257197be6f8198464fe9a70891"
       }
     }

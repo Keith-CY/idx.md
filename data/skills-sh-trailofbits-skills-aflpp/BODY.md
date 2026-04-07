@@ -741,12 +741,10 @@ To stop an afl-fuzz run, press Control-C.
 To restart an afl-fuzz run, just reuse the same command line but replace the `-i
 directory` with `-i -` or set `AFL_AUTORESUME=1`.
 
-If you want to add new seeds to a fuzzing campaign, you can run a temporary
-fuzzing instance, e.g., when your main fuzzer is using `-o out` and the new
-seeds are in `newseeds/` directory:
+If you want to add new seeds to a fuzzing campaign, you can use `afl-addseeds`:
 
 ```
-AFL_BENCH_JUST_ONE=1 AFL_FAST_CAL=1 afl-fuzz -i newseeds -o out -S newseeds -- ./target
+afl-addseeds -i newseeds-an-be-file-or-directory -o out-of-the-fuzzing-campaign
 ```
 
 ### g) Checking the coverage of the fuzzing
@@ -977,6 +975,7 @@ too long for your overall available fuzz run time.
       saturated corpus needs to be loaded.
     * `AFL_CMPLOG_ONLY_NEW` - only perform cmplog on new finds, not the initial
       corpus as this very likely has been done for them already.
+    * If you do not like surprises then set `AFL_PIZZA_MODE`
     * Keep the generated corpus, use afl-cmin and reuse it every time!
 
 2. Additionally randomize the AFL++ compilation options, e.g.:

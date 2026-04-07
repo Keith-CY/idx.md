@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/heredotnow/skill/here-now
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-06T07:31:56.654Z
-content_sha256: c3e87e2d9c9cae8e04c3856391d13c7f36b83ad08a70c275e00a6e1589dc7a63
+retrieved_at: 2026-04-07T07:30:35.327Z
+content_sha256: 85abe359e86f19906e823723509ede528228b52df849e0192a7587f8168270b0
 ---

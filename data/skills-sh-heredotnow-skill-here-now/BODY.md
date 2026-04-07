@@ -119,6 +119,7 @@ Creates a new site with a random slug. Works with or without authentication.
 - `ttlSeconds` (optional): expiry in seconds. Ignored for anonymous sites (always 24h).
 - `viewer` (optional): metadata for auto-viewer pages (only used when no `index.html`).
 - `spaMode` (optional): when `true`, unknown paths serve `index.html` instead of 404. Required for React/Vue/Svelte apps with client-side routing.
+- `forkable` (optional): when `true`, the site's file manifest is exposed at `/.herenow/manifest.json` and a fork button appears on the live site. Mutually exclusive with password protection and payment gating.
 
 **Response (authenticated):**
 
@@ -569,6 +570,7 @@ All fields optional. `ogImagePath` must reference an image file within the curre
   - `recipientAddress` (optional): per-site wallet override. If omitted, uses the account-level wallet address.
 - Password and price are mutually exclusive. Setting one removes the other. The response includes `passwordRemoved: true` or `priceRemoved: true` when this happens.
 - `spaMode`: `true` to enable, `false` to disable, `null` to remove, omit for no change. When enabled, requests for paths that don't match any file serve `index.html` instead of 404. Required for single-page applications with client-side routing.
+- `forkable`: `true` to enable, `false` to disable, omit for no change. When enabled, the site's file manifest is exposed at `/.herenow/manifest.json` and a fork button appears on the live site. Mutually exclusive with password protection and payment gating — enabling forkable when a password or price is set (or vice versa) is rejected with an error.
 
 **Response:**
 

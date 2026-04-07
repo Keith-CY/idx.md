@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "ibelick-fixing-accessibility",
-  "generated_at": "2026-04-06T07:31:42.994Z",
+  "generated_at": "2026-04-07T07:30:21.122Z",
   "records": [
     {
       "id": "skills/ibelick-fixing-accessibility#head",
@@ -18,7 +18,7 @@
           "source-ibelick-ui-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-accessibility/SKILL.md",
-        "retrieved_at": "2026-04-06T07:31:42.994Z",
+        "retrieved_at": "2026-04-07T07:30:21.122Z",
         "content_sha256": "549261e8a53b53a1a20c0ddbf736821e5fc0876ad82eee76e0efab8e9ee9dadf"
       }
     }

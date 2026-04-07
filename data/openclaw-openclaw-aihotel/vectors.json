@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aihotel",
-  "generated_at": "2026-04-06T07:35:35.121Z",
+  "generated_at": "2026-04-07T07:33:58.870Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aihotel#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/qiao101660/aihotel/SKILL.md",
-        "retrieved_at": "2026-04-06T07:35:35.121Z",
+        "retrieved_at": "2026-04-07T07:33:58.870Z",
         "content_sha256": "850829d3b2f694ff20695b8952b6acb76838c08dc9cc9060d3ff17191b12db1c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ridb-search",
-  "generated_at": "2026-04-06T07:34:08.806Z",
+  "generated_at": "2026-04-07T07:32:36.694Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ridb-search#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanrea/ridb-search/SKILL.md",
-        "retrieved_at": "2026-04-06T07:34:08.806Z",
+        "retrieved_at": "2026-04-07T07:32:36.694Z",
         "content_sha256": "d5caae728afb3e1e080554b51a32c136f323741c3c7bdcda837e71efa73cc22d"
       }
     }

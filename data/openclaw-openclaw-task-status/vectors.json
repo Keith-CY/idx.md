@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-task-status",
-  "generated_at": "2026-04-06T07:34:27.875Z",
+  "generated_at": "2026-04-07T07:32:53.106Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-task-status#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mightyprime1/task-status/SKILL.md",
-        "retrieved_at": "2026-04-06T07:34:27.875Z",
+        "retrieved_at": "2026-04-07T07:32:53.106Z",
         "content_sha256": "d0f34e837a05c2a6cae1840b208825c00baf018838f036bc15d03c700547efdf"
       }
     }

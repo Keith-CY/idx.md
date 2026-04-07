@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-lobster-jobs",
-  "generated_at": "2026-04-06T07:33:21.025Z",
+  "generated_at": "2026-04-07T07:31:56.991Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-lobster-jobs#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/lobster-jobs/SKILL.md",
-        "retrieved_at": "2026-04-06T07:33:21.025Z",
+        "retrieved_at": "2026-04-07T07:31:56.991Z",
         "content_sha256": "12345c62a9671f7787fd4a81f23ccafa4b0e337c1ed19850c24a32d928371c72"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-marketing-ideas",
-  "generated_at": "2026-04-06T07:31:46.050Z",
+  "generated_at": "2026-04-07T07:30:23.942Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-marketing-ideas#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/marketing-ideas/references/ideas-by-category.md",
-        "retrieved_at": "2026-04-06T07:31:46.050Z",
+        "retrieved_at": "2026-04-07T07:30:23.942Z",
         "content_sha256": "fac44ef0ea24a3035d85bd11096adef408497ea073ad156933f2d356d482dde2"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aura",
-  "generated_at": "2026-04-06T07:32:33.564Z",
+  "generated_at": "2026-04-07T07:31:07.871Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aura#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/phiro56/aura/SKILL.md",
-        "retrieved_at": "2026-04-06T07:32:33.564Z",
+        "retrieved_at": "2026-04-07T07:31:07.871Z",
         "content_sha256": "ec253d5044dc0227bd1b28c0fe695b31d8f55426df1173a7c2335e1d7b03f0ed"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-location-safety-skill",
-  "generated_at": "2026-04-06T07:33:21.643Z",
+  "generated_at": "2026-04-07T07:31:57.620Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-location-safety-skill#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sidu/location-safety-skill/SKILL.md",
-        "retrieved_at": "2026-04-06T07:33:21.643Z",
+        "retrieved_at": "2026-04-07T07:31:57.620Z",
         "content_sha256": "90c513d3d36dd6285e533cf424bdca91e65754c73c6c0feb35b8d7c451d39b62"
       }
     }

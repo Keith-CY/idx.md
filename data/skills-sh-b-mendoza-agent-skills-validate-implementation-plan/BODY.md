@@ -1,55 +1,52 @@
 # Sample Audit: Retry Mechanism Plan
 
-**User's original request**: "Add a retry mechanism to the API client for transient failures."
+## Audit Scope
 
----
+- Source plan: `docs/retry-plan.md`
+- Snapshot artifact: `docs/retry-plan.audit-input.md`
+- Output report: `docs/retry-plan.audit.md`
+- User's original request: "Add a retry mechanism to the API client for transient failures."
+- Baseline caveat: the source request does not mention any existing tracing infrastructure.
 
 ## Source Requirements
 
-1. Add a retry mechanism to the API client
-2. Target transient failures specifically
+1. [EXPLICIT] Add a retry mechanism to the API client.
+2. [EXPLICIT] Target transient failures specifically.
 
----
+## Findings By Plan Section
 
-## Annotated Plan
+### Step 1: Create RetryPolicy class
 
-> ## Step 1: Create RetryPolicy class
->
-> Define a configurable retry policy with exponential backoff, jitter, circuit breaker pattern, and request deduplication.
+Snapshot summary:
+- Proposes exponential backoff and jitter.
+- Also proposes a circuit breaker pattern and request deduplication.
 
-// annotation made by YAGNI Auditor: 🔴 Critical — "Circuit breaker pattern" and "request deduplication" were not requested. The requirement [1] asks for a retry mechanism — circuit breaker and deduplication are separate concerns that add complexity without explicit justification.
+- Requirements Auditor: `info` - Exponential backoff and jitter are reasonable implementations of requirement [1].
+- YAGNI Auditor: `critical` - Circuit breaker behavior and request deduplication go beyond requirement [1] and introduce separate concerns that were not requested.
 
-// annotation made by Requirements Auditor: ℹ️ Info — Exponential backoff and jitter are reasonable implementations of [1]. Configurability is a sound design choice for retry policies.
+### Step 2: Add retry interceptor
 
-> ## Step 2: Add retry interceptor
->
-> Wrap the HTTP client with a retry-aware interceptor that filters for transient HTTP status codes (408, 429, 500, 502, 503, 504).
+Snapshot summary:
+- Filters retry attempts to transient HTTP status codes.
+- Wraps the existing HTTP client with retry logic.
 
-// annotation made by Requirements Auditor: ℹ️ Info — Maps directly to [1] and [2]. Status code filtering is a well-scoped approach to targeting transient failures.
+- Requirements Auditor: `info` - Maps directly to requirements [1] and [2].
+- YAGNI Auditor: `info` - Scope is appropriate for the stated request.
+- Assumptions Auditor: `info` - No risky assumption detected from the approved baseline.
 
-// annotation made by YAGNI Auditor: ℹ️ Info — No unnecessary additions. Scope is appropriate.
+### Step 3: Add observability
 
-// annotation made by Assumptions Auditor: ℹ️ Info — No assumptions detected. The listed status codes are standard transient failure codes.
+Snapshot summary:
+- Proposes OpenTelemetry tracing for retry attempts.
+- Adds dashboards and alerting.
 
-> ## Step 3: Add observability
->
-> Integrate OpenTelemetry tracing for all retry attempts with dashboards and alerting.
+- Requirements Auditor: `critical` - Observability is an entirely new concern with no basis in requirements [1] or [2].
+- YAGNI Auditor: `warning` - Full tracing, dashboards, and alerting exceed the current scope; structured retry logs would satisfy the likely operational need.
+- Assumptions Auditor: `critical` - The plan assumes tracing infrastructure already exists, but the user confirmed that OpenTelemetry is not in use today.
 
-// annotation made by YAGNI Auditor: 🟡 Warning — Full OpenTelemetry integration with dashboards and alerting was not requested. Basic logging of retry attempts would satisfy observability needs without this scope expansion.
+## Requirement Gaps
 
-// annotation made by Requirements Auditor: 🔴 Critical — Observability was not part of the original requirements [1][2]. This is an entirely new concern added by the plan author.
-
-// annotation made by Assumptions Auditor: 🟡 Warning — Assumes OpenTelemetry is already in use in the project. Verified with the user via `AskUserQuestion`.
-
-**`AskUserQuestion` interaction during audit:**
-
-> **Auditor asked**: "The plan assumes OpenTelemetry is already integrated in your project. Is OpenTelemetry currently in use, or would this introduce a new infrastructure dependency?"
->
-> **User answered**: "We don't use OpenTelemetry. This would be brand new infrastructure."
-
-// annotation made by Assumptions Auditor: 🔴 Critical — User confirmed OpenTelemetry is NOT in use. This step introduces a new infrastructure dependency that was not requested and has no basis in requirements [1][2]. Severity upgraded from 🟡 Warning to 🔴 Critical based on user clarification.
-
----
+- None.
 
 ## Audit Summary
 
@@ -59,12 +56,24 @@
 | YAGNI Compliance          | 1           | 1          | 1       |
 | Assumption Audit          | 1           | 0          | 1       |
 
-**Confidence**: High confidence that Step 1 partially exceeds the scope and Step 3 is entirely out of scope. The user's confirmation about OpenTelemetry removed all ambiguity from the Step 3 assessment.
+Confidence is high for the out-of-scope findings because the baseline request is
+short and explicit. The only initially ambiguous area was tracing
+infrastructure, and the user clarification resolved it cleanly.
 
-**Resolved Assumptions**:
+## Resolved Assumptions
 
-- OpenTelemetry is in use in the project — User confirmed: "We don't use OpenTelemetry. This would be brand new infrastructure." Annotation upgraded from 🟡 Warning to 🔴 Critical.
+- Question: "Is OpenTelemetry currently in use, or would this plan introduce it
+  for the first time?"
+- User answer: "We don't use OpenTelemetry. This would be brand new infrastructure."
+- Result: the assumptions finding for `Step 3: Add observability` was finalized
+  as `critical`.
 
-**Open Questions**:
+## Open Questions
 
-- Is circuit breaker functionality desired as a follow-up, or should it be removed from the scope entirely?
+- Should circuit breaker functionality be treated as a follow-up idea instead of
+  part of the current retry plan?
+
+## Sensitive Content Handling
+
+- No sensitive literals were needed in the report.
+- The report references section summaries instead of reproducing the source plan.

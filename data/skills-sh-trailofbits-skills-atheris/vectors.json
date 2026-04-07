@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-atheris",
-  "generated_at": "2026-04-06T07:32:29.580Z",
+  "generated_at": "2026-04-07T07:31:03.891Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-atheris#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/google/atheris/master/native_extension_fuzzing.md",
-        "retrieved_at": "2026-04-06T07:32:29.580Z",
+        "retrieved_at": "2026-04-07T07:31:03.891Z",
         "content_sha256": "a0e6d407dee1c72505af1c5349a58c29b71dfa3c092f55ecc3b6108278b1b58b"
       }
     }
