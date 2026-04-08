@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-network",
-  "generated_at": "2026-04-07T07:33:48.540Z",
+  "generated_at": "2026-04-08T07:37:36.322Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-network#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/howtimeschange/agent-network/SKILL.md",
-        "retrieved_at": "2026-04-07T07:33:48.540Z",
+        "retrieved_at": "2026-04-08T07:37:36.322Z",
         "content_sha256": "bece56d89ad6b438e58a8a01a2a0ddc640cffc404157de2d6db451f3881ee4f5"
       }
     }

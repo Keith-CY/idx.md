@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-plannotator",
-  "generated_at": "2026-04-07T07:30:27.323Z",
+  "generated_at": "2026-04-08T07:31:29.561Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-plannotator#head",
       "kind": "head",
       "path": "/data/skills-sh-supercent-io-skills-template-plannotator/HEAD.md",
-      "text": "title: skills-sh-supercent-io-skills-template-plannotator\nsummary: # Plannotator Claude Code Plugin This directory contains the Claude Code plugin configuration for Plannotator. ## Prerequisites Install the `plannotator` command so Claude Code can use it: **macOS / Linux / WSL:** ```bash curl -fsSL https://plannotator.ai/install.sh | bash ``` **Windows PowerShell:** ```powershell\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md",
+      "text": "title: skills-sh-supercent-io-skills-template-plannotator\nsummary: # Plannotator Claude Code Plugin This directory contains the Claude Code plugin configuration for Plannotator. ## Prerequisites Install the `plannotator` command so Claude Code can use it: **macOS / Linux / WSL:** ```bash # Latest release curl -fsSL https://plannotator.ai/install.sh | bash # Pin to a specific reviewed version curl -fsSL https://plannotator.ai/install.sh | bash -s -- --version vX.Y.Z\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md",
       "metadata": {
         "stable_id": "skills/skills-sh-supercent-io-skills-template-plannotator",
         "topic": "skills-sh-supercent-io-skills-template-plannotator",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md",
-        "retrieved_at": "2026-04-07T07:30:27.323Z",
-        "content_sha256": "e0cd19fd38e2260d1b3a486efe785e2e7a4970690a73fb66a81720215a582b72"
+        "retrieved_at": "2026-04-08T07:31:29.561Z",
+        "content_sha256": "80be4b05f8297855a7dc4d0e3605c0690a5f039796c010850a91dd0c2fcb640a"
       }
     }
   ]

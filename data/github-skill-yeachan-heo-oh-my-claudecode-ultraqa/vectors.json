@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-yeachan-heo-oh-my-claudecode-ultraqa",
-  "generated_at": "2026-04-07T07:30:20.838Z",
+  "generated_at": "2026-04-08T07:31:16.938Z",
   "records": [
     {
       "id": "skills/github-skill-yeachan-heo-oh-my-claudecode-ultraqa#head",
@@ -21,7 +21,7 @@
           "github-repo-oh-my-claudecode"
         ],
         "source_url": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md",
-        "retrieved_at": "2026-04-07T07:30:20.838Z",
+        "retrieved_at": "2026-04-08T07:31:16.938Z",
         "content_sha256": "6086192291dcc6f9d91367b0842de9d3845b6d67e04fd7bc60dbdcb0b0a8445e"
       }
     }

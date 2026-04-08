@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-startups",
-  "generated_at": "2026-04-07T07:32:49.265Z",
+  "generated_at": "2026-04-08T07:35:51.078Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-startups#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/networkingit/startups/SKILL.md",
-        "retrieved_at": "2026-04-07T07:32:49.265Z",
+        "retrieved_at": "2026-04-08T07:35:51.078Z",
         "content_sha256": "003ff6ba137e1d94199693523d00f1ff376a4ad820cc529ef838ca9ac0448702"
       }
     }

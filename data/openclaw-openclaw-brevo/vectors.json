@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brevo",
-  "generated_at": "2026-04-07T07:34:20.107Z",
+  "generated_at": "2026-04-08T07:38:35.022Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brevo#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/brevo/SKILL.md",
-        "retrieved_at": "2026-04-07T07:34:20.107Z",
+        "retrieved_at": "2026-04-08T07:38:35.022Z",
         "content_sha256": "538b33c5881c6a84b6038a1690e2f34a3f9f2c7d5708898602e3352c1eb9eb96"
       }
     }

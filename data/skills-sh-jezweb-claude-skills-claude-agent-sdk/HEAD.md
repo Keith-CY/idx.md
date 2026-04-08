@@ -5,28 +5,27 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.2.92
+  ## 0.2.96
 
-  - Updated to parity with Claude Code v2.1.92
+  - Updated to parity with Claude Code v2.1.96
 
-  ## 0.2.91
+  ## 0.2.95
 
-  - Added optional `terminal_reason` field to result messages, exposing why the
-  query loop terminated (`completed`, `aborted_tools`, `max_turns`,
-  `blocking_limit`, etc.)
+  - Updated to parity with Claude Code v2.1.95
 
-  - Added `'auto'` to the public `PermissionMode` type
+  ## 0.2.94
 
-  - Changed `sandbox` option to default `failIfUnavailable` to `true` when
-  `enabled: true` is passed — `query()` will emit an error result and exit if
-  sandbox dependencies are missing, instead of silently running unsandboxed. Set
-  `failIfUnavailable: false` to allow graceful degradation.
+  - Fixed `getContextUsage()` to include agents passed via `options.agents` in
+  the `agents` breakdown
 
-  - Updated to parity with Claude Code v2.1.91
+  - Fixed CJK and other multibyte text being corrupted with U+FFFD in
+  stream-json input/output when chunk boundaries split a UTF-8 sequence
 
-  ## 0.2.90
+  - Fixed MCP server child processes not being cleaned up when an SDK `query()`
+  session ends
 
-  - Updated to parity with Claude Code v2.1.90
+  - Fixed a failed error-report write crashing the SDK process with
+  `unhandledRejection`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +35,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-07T07:30:55.829Z
-content_sha256: 4c6280db3da2533b9278716e9b31a196b2768b86a08090f5659c2ec978703c36
+retrieved_at: 2026-04-08T07:32:27.721Z
+content_sha256: 90ef6cdd2780eef050dad84529702ddeff7d93b00f2b4cad65a732b06c8c133e
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-detox-counter",
-  "generated_at": "2026-04-07T07:34:37.632Z",
+  "generated_at": "2026-04-08T07:39:04.173Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-detox-counter#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/detox-counter/SKILL.md",
-        "retrieved_at": "2026-04-07T07:34:37.632Z",
+        "retrieved_at": "2026-04-08T07:39:04.173Z",
         "content_sha256": "98f20f7b5f32541bbf137f2192855396ca4d7935626961523280ce0aa684000c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mersal",
-  "generated_at": "2026-04-07T07:34:51.053Z",
+  "generated_at": "2026-04-08T07:39:27.280Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mersal#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maherucifer/mersal/SKILL.md",
-        "retrieved_at": "2026-04-07T07:34:51.053Z",
+        "retrieved_at": "2026-04-08T07:39:27.280Z",
         "content_sha256": "56c5e8f3fff39155bdc54b5a9d81d168c16fa9a3b39c39661a20bf54dbfdc1ad"
       }
     }

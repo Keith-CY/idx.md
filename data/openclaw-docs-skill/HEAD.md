@@ -7,33 +7,29 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying, configuring, or managing a self-hosted AI
-  agent gateway that connects to multiple messaging channels (Discord, Slack,
-  Telegram, WhatsApp, etc.), setting up agents with tools and skills, managing
-  sessions and routing, or troubleshooting gateway operations.
+  description: Use when setting up, configuring, or troubleshooting a
+  multi-channel AI agent gateway. Reach for this skill when users need to
+  install OpenClaw, connect messaging platforms (Discord, Telegram, WhatsApp,
+  Slack, etc.), configure agents and models, manage tools and permissions, or
+  deploy the gateway to production.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill Reference
+  # OpenClaw Skill
 
   ## Product summary
 
   OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
-  any OS (macOS, Linux, Windows). It connects messaging platforms (Discord,
-  Slack, Telegram, WhatsApp, iMessage, Signal, Matrix, and 15+ others) to an
-  embedded agent runtime with tool support, session management, and multi-agent
-  routing. Agents access tools like browser automation, code execution, web
-  search, file I/O, and media generation. The Gateway runs as a single process
-  on port 18789 (default) and exposes WebSocket RPC, HTTP APIs
-  (OpenAI-compatible), and a web Control UI. Key files:
-  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent
-  workspace), `~/.openclaw/agents/` (sessions). Primary CLI: `openclaw` with
-  subcommands for setup, channels, agents, models, cron, and gateway management.
-  See [https://docs.openclaw.ai](https://docs.openclaw.ai) for full
-  documentation.
+  any OS (macOS, Linux, Windows, Docker). It connects messaging platforms
+  (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft
+  Teams, Google Chat, and more) to an embedded agent runtime with tool use,
+  sessions, memory, and multi-agent routing. The primary config file is
+  `~/.openclaw/openclaw.json` (JSON5 format). Key CLI commands: `openclaw
+  onboard`, `openclaw gateway`, `openclaw configure`, `openclaw channels`,
+  `openclaw agent`. Primary docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -41,6 +37,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-07T07:30:38.754Z
-content_sha256: 34fd0c059fd2963b7eb271a46679461f93d30fe06869a6896f1d0e9482f16575
+retrieved_at: 2026-04-08T07:31:50.896Z
+content_sha256: d731890c3fe3e6daca87103729e00a00824153a2c6c3ca02180a34168c3d73af
 ---

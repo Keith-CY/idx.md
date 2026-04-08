@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-docx",
-  "generated_at": "2026-04-07T07:31:27.478Z",
+  "generated_at": "2026-04-08T07:33:25.042Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-docx#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanphan/docx/SKILL.md",
-        "retrieved_at": "2026-04-07T07:31:27.478Z",
+        "retrieved_at": "2026-04-08T07:33:25.042Z",
         "content_sha256": "0bd90681fcab2e282025ee14acf508b60bbd6c41ac6c3bf83c0dc14d52c37933"
       }
     }

@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/cloudflare/skills/building-ai-agent-on-cloudflar
 github_stars: 377
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-04-07T07:33:25.068Z
+retrieved_at: 2026-04-08T07:36:56.451Z
 content_sha256: e3145bc838178a0f1d92e8d82794583d64aed1f7c32d3ed4d54529278b5c687d
 ---

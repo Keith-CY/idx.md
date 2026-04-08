@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cost-report",
-  "generated_at": "2026-04-07T07:31:22.917Z",
+  "generated_at": "2026-04-08T07:33:16.870Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cost-report#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vincentqiu/cost-report/SKILL.md",
-        "retrieved_at": "2026-04-07T07:31:22.917Z",
+        "retrieved_at": "2026-04-08T07:33:16.870Z",
         "content_sha256": "a0a2f560b60287439a4a385bfe18bc6a9958508b3623429045cfb98d6c40055f"
       }
     }

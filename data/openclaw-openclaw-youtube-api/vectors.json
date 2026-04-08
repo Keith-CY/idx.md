@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-youtube-api",
-  "generated_at": "2026-04-07T07:33:16.104Z",
+  "generated_at": "2026-04-08T07:36:40.406Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-youtube-api#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-api/SKILL.md",
-        "retrieved_at": "2026-04-07T07:33:16.104Z",
+        "retrieved_at": "2026-04-08T07:36:40.406Z",
         "content_sha256": "7c3cc24078999a779e5002955f15bbfc6046b4d4bfe8128f14a2ea6861c98981"
       }
     }

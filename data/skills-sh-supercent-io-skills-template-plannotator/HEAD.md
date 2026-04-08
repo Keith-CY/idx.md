@@ -9,10 +9,10 @@ summary: |-
   Install the `plannotator` command so Claude Code can use it:
   **macOS / Linux / WSL:**
   ```bash
+  # Latest release
   curl -fsSL https://plannotator.ai/install.sh | bash
-  ```
-  **Windows PowerShell:**
-  ```powershell
+  # Pin to a specific reviewed version
+  curl -fsSL https://plannotator.ai/install.sh | bash -s -- --version vX.Y.Z
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/plannotator
 github_stars: 3402
 github_forks: 204
 github_is_organization: false
-retrieved_at: 2026-04-07T07:30:27.323Z
-content_sha256: e0cd19fd38e2260d1b3a486efe785e2e7a4970690a73fb66a81720215a582b72
+retrieved_at: 2026-04-08T07:31:29.561Z
+content_sha256: 80be4b05f8297855a7dc4d0e3605c0690a5f039796c010850a91dd0c2fcb640a
 ---

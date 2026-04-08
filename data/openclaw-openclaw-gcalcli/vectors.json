@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gcalcli",
-  "generated_at": "2026-04-07T07:31:36.753Z",
+  "generated_at": "2026-04-08T07:33:42.250Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gcalcli#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gargravish/gcalcli/SKILL.md",
-        "retrieved_at": "2026-04-07T07:31:36.753Z",
+        "retrieved_at": "2026-04-08T07:33:42.250Z",
         "content_sha256": "92224e7713932c552dfaebae20b2b7db3c48bb1fd1e104e3d6cdd95c08e82e12"
       }
     }

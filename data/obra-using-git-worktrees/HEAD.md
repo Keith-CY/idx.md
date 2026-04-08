@@ -36,6 +36,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-git-wor
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-04-07T07:30:11.006Z
+retrieved_at: 2026-04-08T07:30:58.883Z
 content_sha256: de9dcde34840eee074047ec327d4ea6ca4954c5a73a6d874dc48f25fe46c9e7c
 ---

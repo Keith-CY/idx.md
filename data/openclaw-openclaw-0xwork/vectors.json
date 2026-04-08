@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-0xwork",
-  "generated_at": "2026-04-07T07:33:29.080Z",
+  "generated_at": "2026-04-08T07:37:04.861Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-0xwork#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jkillr/0xwork/SKILL.md",
-        "retrieved_at": "2026-04-07T07:33:29.080Z",
+        "retrieved_at": "2026-04-08T07:37:04.861Z",
         "content_sha256": "1e7e01542af3fc8350e52669502462dcd4ef1531b1e5e1b754148c0b1f2e2271"
       }
     }

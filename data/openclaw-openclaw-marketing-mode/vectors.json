@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-marketing-mode",
-  "generated_at": "2026-04-07T07:31:58.811Z",
+  "generated_at": "2026-04-08T07:34:21.024Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-marketing-mode#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thesethrose/marketing-mode/SKILL.md",
-        "retrieved_at": "2026-04-07T07:31:58.811Z",
+        "retrieved_at": "2026-04-08T07:34:21.024Z",
         "content_sha256": "27f1838f183c95938df215d17ddc784c0a8a07185882061774421c94a5b85f7e"
       }
     }

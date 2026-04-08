@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-advisory-council",
-  "generated_at": "2026-04-07T07:33:39.780Z",
+  "generated_at": "2026-04-08T07:37:22.167Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-advisory-council#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryandeangraves/advisory-council/SKILL.md",
-        "retrieved_at": "2026-04-07T07:33:39.780Z",
+        "retrieved_at": "2026-04-08T07:37:22.167Z",
         "content_sha256": "a831498740d4e4c20c0599b41a343e42d9c6123c3a909d1bae60ba9c429075e2"
       }
     }

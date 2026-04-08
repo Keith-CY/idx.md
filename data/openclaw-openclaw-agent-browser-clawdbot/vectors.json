@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-browser-clawdbot",
-  "generated_at": "2026-04-07T07:33:44.080Z",
+  "generated_at": "2026-04-08T07:37:29.065Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-browser-clawdbot#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/matrixy/agent-browser-clawdbot/SKILL.md",
-        "retrieved_at": "2026-04-07T07:33:44.080Z",
+        "retrieved_at": "2026-04-08T07:37:29.065Z",
         "content_sha256": "9643b9c65476eedd5ab353956c31a4d4ce9ad225f9a786d23376a43893f59979"
       }
     }

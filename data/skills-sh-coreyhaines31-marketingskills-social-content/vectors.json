@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-social-content",
-  "generated_at": "2026-04-07T07:31:01.009Z",
+  "generated_at": "2026-04-08T07:32:39.421Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-social-content#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/social-content/references/platforms.md",
-        "retrieved_at": "2026-04-07T07:31:01.009Z",
+        "retrieved_at": "2026-04-08T07:32:39.421Z",
         "content_sha256": "3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f"
       }
     }
