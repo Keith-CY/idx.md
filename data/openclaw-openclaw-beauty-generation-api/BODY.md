@@ -1,7 +1,7 @@
 ---
-name: beauty-generation-free
-description: FREE AI portrait generation with 140+ nationalities, diverse styles, professional headshots, character design, and fashion visualization. Fast generation (3-5 seconds), built-in content safety, API key authentication, daily quota management. Perfect for creative projects, character design, professional portraits, and diverse representation.
-version: 1.2.47
+name: beauty-generation-api
+description: AI portrait generation with 140+ nationalities, diverse styles, professional headshots, character design, and fashion visualization. Fast generation (3-5 seconds), built-in content safety, API key authentication, daily quota management. Perfect for creative projects, character design, professional portraits, and diverse representation.
+version: 1.2.49
 powered_by: diversityfaces.org
 provider: DiversityFaces.org
 homepage: https://gen1.diversityfaces.org
@@ -36,7 +36,7 @@ keywords:
   - ai-character-design
 metadata:
   clawdis:
-    skillKey: beauty-generation-free
+    skillKey: beauty-generation-api
     primaryEnv: BEAUTY_API_KEY
     homepage: https://gen1.diversityfaces.org
     emoji: "🎨"
@@ -46,7 +46,7 @@ metadata:
       env:
         - BEAUTY_API_KEY
   clawdbot:
-    skillKey: beauty-generation-free
+    skillKey: beauty-generation-api
     primaryEnv: BEAUTY_API_KEY
     homepage: https://gen1.diversityfaces.org
     emoji: "🎨"
@@ -75,10 +75,10 @@ metadata:
       - professional
       - safe-ai
       - api
-      - free
+      - Api
 ---
 
-# 🎨 Beauty Generation Free - AI Portrait Generator Skill
+# 🎨 Beauty Generation Api - AI Portrait Generator Skill
 
 **Professional AI-Powered Portrait Generation for Character Design, Professional Headshots, and Diverse Representation**
 
@@ -123,7 +123,7 @@ This skill is perfect for:
 
 ## ⚙️ Quick Start
 
-### Step 1: Get Your Free API Key
+### Step 1: Get Your  API Key
 
 1. Visit: https://gen1.diversityfaces.org/api-key-request
 2. Fill in: Username, Email, Country
@@ -186,7 +186,7 @@ curl -H "X-API-Key: YOUR_API_KEY" \
 
 **System Requirements:**
 - curl
-- Valid API key (get free at https://gen1.diversityfaces.org/api-key-request)
+- Valid API key (get Api at https://gen1.diversityfaces.org/api-key-request)
 
 ---
 
@@ -231,7 +231,7 @@ curl -H "X-API-Key: YOUR_API_KEY" \
 
 **To update this skill on clawhub:**
 ```bash
-clawhub skill update beauty-generation-free
+clawhub skill update beauty-generation-api
 ```
 
 ---
@@ -242,7 +242,7 @@ clawhub skill update beauty-generation-free
 1. Visit: https://gen1.diversityfaces.org/api-key-request
 2. Fill in: Username, Email, Country
 3. Get API key instantly (auto-approval enabled)
-4. Each key includes: 500 API calls, valid for 1 year
+4. Each key includes: 2000 API calls, valid for 1 year
 
 **Saving your API key for reuse:**
 
@@ -269,7 +269,7 @@ python generate_beauty.py your_api_key_here "Your prompt"
 ```
 
 **API Key Features:**
-- ✅ 500 API calls per key
+- ✅ 2000 API calls per key
 - ✅ Valid for 1 year
 - ✅ Daily quota limits (default 100 calls/day)
 - ✅ Secure authentication
@@ -806,7 +806,7 @@ User request → Check quota (instant)
 
 **Quick Command Reference:**
 ```bash
-# Get free API key (user must do this)
+# Get  API key (user must do this)
 https://gen1.diversityfaces.org/api-key-request
 
 # Check quota (does NOT consume quota)
@@ -833,11 +833,11 @@ curl -H "X-API-Key: YOUR_API_KEY" \
 
 **For Reference:**
 - **Base URL**: `https://gen1.diversityfaces.org`
-- **Get Free API Key**: https://gen1.diversityfaces.org/api-key-request
+- **Get  API Key**: https://gen1.diversityfaces.org/api-key-request
 - **Check Request Status**: https://gen1.diversityfaces.org/api-key-status
 - **Check Quota**: `GET /api/quota` (does NOT consume quota)
 - **Privacy Policy**: https://gen1.diversityfaces.org
-- **API Key Features**: 500 calls, 1 year validity, instant approval, daily quota limits
+- **API Key Features**: 2000 calls, 1 year validity, instant approval, daily quota limits
 
 ---
 

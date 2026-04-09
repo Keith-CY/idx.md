@@ -17,6 +17,6 @@ upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-ema
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-08T07:31:15.720Z
+retrieved_at: 2026-04-09T07:35:45.986Z
 content_sha256: 3e1c597c4292eaf8555211ba75d7afc57552e21a6657a470ca0e3ef6b934dcae
 ---

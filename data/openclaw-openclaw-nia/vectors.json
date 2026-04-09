@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nia",
-  "generated_at": "2026-04-08T07:34:39.328Z",
+  "generated_at": "2026-04-09T07:32:39.353Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nia#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arlanrakh/nia/SKILL.md",
-        "retrieved_at": "2026-04-08T07:34:39.328Z",
+        "retrieved_at": "2026-04-09T07:32:39.353Z",
         "content_sha256": "9f604289d3268e2b67aa49eab8745dddf3275083b0d7bff3a3bbea6f9c1f5550"
       }
     }

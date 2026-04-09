@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-kepano-obsidian-skills-json-canvas",
-  "generated_at": "2026-04-08T07:31:38.843Z",
+  "generated_at": "2026-04-09T07:35:57.277Z",
   "records": [
     {
       "id": "skills/skills-sh-kepano-obsidian-skills-json-canvas#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/json-canvas/references/EXAMPLES.md",
-        "retrieved_at": "2026-04-08T07:31:38.843Z",
+        "retrieved_at": "2026-04-09T07:35:57.277Z",
         "content_sha256": "f5ce15a4b74643122396265e8c37c828874a4005794de2aee7030662968768eb"
       }
     }

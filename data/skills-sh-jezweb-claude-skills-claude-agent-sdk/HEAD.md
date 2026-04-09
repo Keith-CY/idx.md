@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.97
+
+  - Updated to parity with Claude Code v2.1.97
+
   ## 0.2.96
 
   - Updated to parity with Claude Code v2.1.96
@@ -20,12 +24,6 @@ summary: >-
 
   - Fixed CJK and other multibyte text being corrupted with U+FFFD in
   stream-json input/output when chunk boundaries split a UTF-8 sequence
-
-  - Fixed MCP server child processes not being cleaned up when an SDK `query()`
-  session ends
-
-  - Fixed a failed error-report write crashing the SDK process with
-  `unhandledRejection`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +33,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-08T07:32:27.721Z
-content_sha256: 90ef6cdd2780eef050dad84529702ddeff7d93b00f2b4cad65a732b06c8c133e
+retrieved_at: 2026-04-09T07:31:22.665Z
+content_sha256: 0cafbacaaa53adce6a2a41a7aa8b45f0aa3d4a9d8f5f9643e01580de184ec0e7
 ---

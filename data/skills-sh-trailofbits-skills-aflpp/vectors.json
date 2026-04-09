@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-aflpp",
-  "generated_at": "2026-04-08T07:32:44.637Z",
+  "generated_at": "2026-04-09T07:31:30.891Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-aflpp#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/AFLplusplus/AFLplusplus/refs/heads/stable/docs/fuzzing_in_depth.md",
-        "retrieved_at": "2026-04-08T07:32:44.637Z",
+        "retrieved_at": "2026-04-09T07:31:30.891Z",
         "content_sha256": "be2b50d5e1626dc2a618418d1681e9e399784f7a61c780a19600c7172e9e1234"
       }
     }

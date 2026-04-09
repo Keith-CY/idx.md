@@ -254,3 +254,4 @@ A complete brand kit typically includes:
 5. **Include anti-examples**: "Not corporate" or "avoid clinical feel" is useful direction.
 
 6. **Think long-term**: Your brand should have room to evolve. Don't over-constrain.
+

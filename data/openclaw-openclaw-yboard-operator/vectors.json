@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yboard-operator",
-  "generated_at": "2026-04-08T07:36:38.601Z",
+  "generated_at": "2026-04-09T07:33:48.789Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yboard-operator#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zonder/yboard-operator/SKILL.md",
-        "retrieved_at": "2026-04-08T07:36:38.601Z",
+        "retrieved_at": "2026-04-09T07:33:48.789Z",
         "content_sha256": "ab97c3789fe348f5d56b77170a664c8c93da495b8e010923806985d43d28c533"
       }
     }

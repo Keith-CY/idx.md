@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-youtrack",
-  "generated_at": "2026-04-08T07:36:39.878Z",
+  "generated_at": "2026-04-09T07:33:49.571Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-youtrack#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iahmadzain/youtrack/SKILL.md",
-        "retrieved_at": "2026-04-08T07:36:39.878Z",
+        "retrieved_at": "2026-04-09T07:33:49.571Z",
         "content_sha256": "9840ec8f7611342f9c7a1dd58516153ddcc390578154de79abbbc2f569c98018"
       }
     }

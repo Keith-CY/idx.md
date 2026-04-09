@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-lancedb-memory",
-  "generated_at": "2026-04-08T07:34:13.929Z",
+  "generated_at": "2026-04-09T07:32:23.713Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-lancedb-memory#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pntrivedy/lancedb-memory/SKILL.md",
-        "retrieved_at": "2026-04-08T07:34:13.929Z",
+        "retrieved_at": "2026-04-09T07:32:23.713Z",
         "content_sha256": "9c102bea990f358b3ec7d13ebe4b37d8112f12ed1407a968da95fa134c5a6025"
       }
     }

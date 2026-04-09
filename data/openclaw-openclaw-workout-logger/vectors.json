@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-workout-logger",
-  "generated_at": "2026-04-08T07:36:34.276Z",
+  "generated_at": "2026-04-09T07:33:46.110Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-workout-logger#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/workout-logger/SKILL.md",
-        "retrieved_at": "2026-04-08T07:36:34.276Z",
+        "retrieved_at": "2026-04-09T07:33:46.110Z",
         "content_sha256": "967a96fa2ecc4a2f0919c717b35d38c089ea38016532e345feaf94ce9d989aaa"
       }
     }

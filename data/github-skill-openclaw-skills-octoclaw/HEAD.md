@@ -18,6 +18,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/peterhanily/oc
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-08T07:31:13.260Z
+retrieved_at: 2026-04-09T07:35:44.592Z
 content_sha256: 435fe716ecbd98b102532d1f0fe2e19f27b4eaba0f0d19993c3e51ec6dee3628
 ---

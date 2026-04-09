@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-deep-research",
-  "generated_at": "2026-04-08T07:37:32.373Z",
+  "generated_at": "2026-04-09T07:34:19.515Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-deep-research#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/24601/agent-deep-research/SKILL.md",
-        "retrieved_at": "2026-04-08T07:37:32.373Z",
+        "retrieved_at": "2026-04-09T07:34:19.515Z",
         "content_sha256": "4950a72551505bde01f9e0fb2d5cc020310c2a9006d55d8431347804eb2b18b2"
       }
     }

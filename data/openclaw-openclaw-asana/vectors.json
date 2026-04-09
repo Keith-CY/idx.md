@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-asana",
-  "generated_at": "2026-04-08T07:38:15.310Z",
+  "generated_at": "2026-04-09T07:34:43.855Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-asana#head",
@@ -19,8 +19,8 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/k0nkupa/asana/SKILL.md",
-        "retrieved_at": "2026-04-08T07:38:15.310Z",
-        "content_sha256": "3f7cc4b25f22a989525f71f86cb2650f3f72a86da79a01002068f54f061c37d0"
+        "retrieved_at": "2026-04-09T07:34:43.855Z",
+        "content_sha256": "4f978967100cd374573af99ff03e2c4d568afb53a61153564ed4671c34468a46"
       }
     }
   ]

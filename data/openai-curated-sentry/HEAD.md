@@ -9,8 +9,7 @@ summary: >-
 
   description: "Use when the user asks to inspect Sentry issues or events,
   summarize recent production errors, or pull basic Sentry health data via the
-  Sentry API; perform read-only queries with the bundled script and require
-  `SENTRY_AUTH_TOKEN`."
+  Sentry CLI; perform read-only queries using the `sentry` command."
 
   ---
 
@@ -18,16 +17,17 @@ summary: >-
 
   ## Quick start
 
-  - If not already authenticated, ask the user to provide a valid
-  `SENTRY_AUTH_TOKEN` (read-only scopes such as `project:read`, `event:read`) or
-  to log in and create one before running commands.
+  - If not already authenticated, ask the user to run `sentry auth login` or set
+  `SENTRY_AUTH_TOKEN` as an env var.
 
-  - Set `SENTRY_AUTH_TOKEN` as an env var.
+  - The CLI auto-detects org/project from DSNs in `.env` files, source code,
+  config defaults, and directory names. Only specify `<org>/<project>` if
+  auto-detection fails or picks the wrong target.
 
-  - Optional defaults: `SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_BASE_URL`.
+  - Defaults: time range `24h`, environment `production`, limit 20.
 
-  - Defaults: org/project `{your-org}`/`{your-project}`, time range `24h`,
-  environment `prod`, limit 20 (max 50).
+  - Always use `--json` when processing output programmatically. Use `--json
+  --fields` to select specific fields and reduce output size.
 tags:
   - openai
   - source-openai-skills
@@ -37,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/sentry/
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-08T07:30:55.860Z
-content_sha256: b598ea447ad6bec923f5c3879ace25e4a7f1368a7eac019b5c0e2f79a36322c6
+retrieved_at: 2026-04-09T07:35:36.763Z
+content_sha256: 508c6f5c100586c81a34397d30f00f4b8771b66d698a7ac1836998df925dd007
 ---

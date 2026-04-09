@@ -98,12 +98,6 @@ Full specifications: `references/styles/<style>.md`
 - Modern, professional, highly readable
 - Perfect for knowledge articles and tutorials
 
-### infographic + vector-illustration (warm palette)
-- Same rendering: flat vector, black outlines, geometric simplification
-- Warm-only palette: terracotta, gold, brown tones on soft peach
-- Modern-retro feel, approachable and brand-friendly
-- Best for product showcases, team intros, feature grids, brand content
-
 ### flowchart + vector-illustration
 - Bold arrows and connectors
 - Distinct step containers with icons
@@ -200,3 +194,28 @@ Full specifications: `references/styles/<style>.md`
 - Limited color coding (one color per concept level)
 - Clean silhouette-based iconography
 - Poster-style hierarchy with bold typography
+
+---
+
+## Palette Gallery
+
+Palettes override a style's default colors. Combine any style with any palette: `--style vector-illustration --palette macaron`.
+
+| Palette | Description | Best For |
+|---------|-------------|----------|
+| `macaron` | Soft pastel blocks (blue, mint, lavender, peach) on warm cream | Educational, knowledge, tutorials |
+| `warm` | Warm earth tones (orange, terracotta, gold) on soft peach, no cool colors | Brand, product, lifestyle |
+| `neon` | Vibrant neon (pink, cyan, yellow) on dark purple | Gaming, retro, pop culture |
+
+Full specifications: `references/palettes/<palette>.md`
+
+When no palette is specified, the style's built-in Color Palette is used.
+
+## Palette Override Rules
+
+1. Read style file → rendering rules (Visual Elements, Style Rules)
+2. Read palette file → Colors + Background
+3. Palette colors **replace** style's default Color Palette
+4. Palette Background **replaces** style's default Background color
+5. Style's texture description is preserved
+

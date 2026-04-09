@@ -5,27 +5,27 @@ title: skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator
 summary: >-
   # Style Presets
 
-  `--preset X` expands to a type + style combination. Users can override either
-  dimension.
+  `--preset X` expands to a type + style + optional palette combination. Users
+  can override any dimension.
 
   ## By Category
 
   ### Technical & Engineering
 
-  | --preset | Type | Style | Best For |
+  | --preset | Type | Style | Palette | Best For |
 
-  |----------|------|-------|----------|
+  |----------|------|-------|---------|----------|
 
-  | `tech-explainer` | `infographic` | `blueprint` | API docs, system metrics,
-  technical deep-dives |
+  | `tech-explainer` | `infographic` | `blueprint` | — | API docs, system
+  metrics, technical deep-dives |
 
-  | `system-design` | `framework` | `blueprint` | Architecture diagrams, system
-  design |
+  | `system-design` | `framework` | `blueprint` | — | Architecture diagrams,
+  system design |
 
-  | `architecture` | `framework` | `vector-illustration` | Component
+  | `architecture` | `framework` | `vector-illustration` | — | Component
   relationships, module structure |
 
-  | `science-paper` | `infographic` | `scientific` | Research findings, lab
+  | `science-paper` | `infographic` | `scientific` | — | Research findings, lab
   results, academic |
 tags:
   - skills-sh
@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-04-08T07:31:26.656Z
-content_sha256: dc3bbbf21358dd5c266e542cf6180969be4f8c5d3e1e0b1f36a5951235a08171
+retrieved_at: 2026-04-09T07:35:51.211Z
+content_sha256: e65bec4a67089a684c5a5b6116bc74b12a8faee4c1b9b28c6af429e5c4f8f18e
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-perplexity",
-  "generated_at": "2026-04-08T07:34:58.971Z",
+  "generated_at": "2026-04-09T07:32:51.957Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-perplexity#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zats/perplexity/SKILL.md",
-        "retrieved_at": "2026-04-08T07:34:58.971Z",
+        "retrieved_at": "2026-04-09T07:32:51.957Z",
         "content_sha256": "f593e23b0c365a98818ae563dc8563e51ba9fe0a885c03aa19d23716b2eb40e0"
       }
     }

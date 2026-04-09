@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-church",
-  "generated_at": "2026-04-08T07:37:30.496Z",
+  "generated_at": "2026-04-09T07:34:18.380Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-church#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bitbrujo/agent-church/SKILL.md",
-        "retrieved_at": "2026-04-08T07:37:30.496Z",
+        "retrieved_at": "2026-04-09T07:34:18.380Z",
         "content_sha256": "a51b13eaa2feba5ef005747db7c10e9fba220d8e942d2699febf894c81179d7b"
       }
     }

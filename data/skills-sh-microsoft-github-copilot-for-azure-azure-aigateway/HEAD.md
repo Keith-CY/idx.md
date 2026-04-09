@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-aigatew
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-04-08T07:31:19.241Z
+retrieved_at: 2026-04-09T07:35:47.714Z
 content_sha256: 176a5bf61186a45e338dcc9ab6e9320a7b4ae3d8bb356f8613506533348b3b69
 ---

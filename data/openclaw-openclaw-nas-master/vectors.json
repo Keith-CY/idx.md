@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nas-master",
-  "generated_at": "2026-04-08T07:39:30.139Z",
+  "generated_at": "2026-04-09T07:35:29.943Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nas-master#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/afajohn/nas-master/SKILL.md",
-        "retrieved_at": "2026-04-08T07:39:30.139Z",
+        "retrieved_at": "2026-04-09T07:35:29.943Z",
         "content_sha256": "2a4fcc49a0cd45464261951cb4cdb533ea3a9890c330ab976a0f90e154d155b4"
       }
     }

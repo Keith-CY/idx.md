@@ -30,6 +30,6 @@ upstream_ref: https://skills.sh/remotion-dev/skills/remotion-best-practices
 github_stars: 2283
 github_forks: 273
 github_is_organization: true
-retrieved_at: 2026-04-08T07:31:17.831Z
+retrieved_at: 2026-04-09T07:35:46.942Z
 content_sha256: 9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30
 ---

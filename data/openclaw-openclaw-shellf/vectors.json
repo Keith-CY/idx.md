@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-shellf",
-  "generated_at": "2026-04-08T07:35:38.105Z",
+  "generated_at": "2026-04-09T07:33:15.114Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-shellf#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andrewleonardi/shellf/SKILL.md",
-        "retrieved_at": "2026-04-08T07:35:38.105Z",
+        "retrieved_at": "2026-04-09T07:33:15.114Z",
         "content_sha256": "4d2b0b6423d7f9e7f3733896caa12eabf74ade0964dd9815ec248f4dd33ec2a2"
       }
     }

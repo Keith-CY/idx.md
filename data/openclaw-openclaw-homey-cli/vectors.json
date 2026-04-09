@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-homey-cli",
-  "generated_at": "2026-04-08T07:33:57.934Z",
+  "generated_at": "2026-04-09T07:32:14.278Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-homey-cli#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/homey-cli/SKILL.md",
-        "retrieved_at": "2026-04-08T07:33:57.934Z",
+        "retrieved_at": "2026-04-09T07:32:14.278Z",
         "content_sha256": "29a86b070019fe8697a63133eb1aa97f11bea86b59b7c00e0341131706669ddb"
       }
     }

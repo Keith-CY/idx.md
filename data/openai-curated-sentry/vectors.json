@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-sentry",
-  "generated_at": "2026-04-08T07:30:55.860Z",
+  "generated_at": "2026-04-09T07:35:36.763Z",
   "records": [
     {
       "id": "skills/openai-curated-sentry#head",
       "kind": "head",
       "path": "/data/openai-curated-sentry/HEAD.md",
-      "text": "title: openai-curated-sentry\nsummary: --- name: \"sentry\" description: \"Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry API; perform read-only queries with the bundled script and require `SENTRY_AUTH_TOKEN`.\" --- # Sentry (Read-only Observability) ## Quick start - If not already authenticated, ask the user to provide a valid `SENTRY_AUTH_TOKEN` (read-only scopes such as `project:read`, `event:read`) or to log in and create one before running commands. - Set `SENTRY_AUTH_TOKEN` as an env var. - Optional defaults: `SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_BASE_URL`. - Defaults: org/project `{your-org}`/`{your-project}`, time range `24h`, environment `prod`, limit 20 (max 50).\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sentry/SKILL.md",
+      "text": "title: openai-curated-sentry\nsummary: --- name: \"sentry\" description: \"Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.\" --- # Sentry (Read-only Observability) ## Quick start - If not already authenticated, ask the user to run `sentry auth login` or set `SENTRY_AUTH_TOKEN` as an env var. - The CLI auto-detects org/project from DSNs in `.env` files, source code, config defaults, and directory names. Only specify `<org>/<project>` if auto-detection fails or picks the wrong target. - Defaults: time range `24h`, environment `production`, limit 20. - Always use `--json` when processing output programmatically. Use `--json --fields` to select specific fields and reduce output size.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sentry/SKILL.md",
       "metadata": {
         "stable_id": "skills/openai-curated-sentry",
         "topic": "openai-curated-sentry",
@@ -18,8 +18,8 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/sentry/SKILL.md",
-        "retrieved_at": "2026-04-08T07:30:55.860Z",
-        "content_sha256": "b598ea447ad6bec923f5c3879ace25e4a7f1368a7eac019b5c0e2f79a36322c6"
+        "retrieved_at": "2026-04-09T07:35:36.763Z",
+        "content_sha256": "508c6f5c100586c81a34397d30f00f4b8771b66d698a7ac1836998df925dd007"
       }
     }
   ]

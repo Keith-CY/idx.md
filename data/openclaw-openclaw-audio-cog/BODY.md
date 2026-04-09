@@ -36,6 +36,27 @@ clawhub install cellcog
 
 **Read the cellcog skill first** for SDK setup. This skill shows you what's possible.
 
+**OpenClaw agents (fire-and-forget — recommended for long tasks):**
+```python
+result = client.create_chat(
+    prompt="[your task prompt]",
+    notify_session_key="agent:main:main",  # OpenClaw only
+    task_label="my-task",
+    chat_mode="agent",  # See cellcog skill for all modes
+)
+```
+
+**All other agents (blocks until done):**
+```python
+result = client.create_chat(
+    prompt="[your task prompt]",
+    task_label="my-task",
+    chat_mode="agent",
+)
+```
+
+See the **cellcog** mothership skill for complete SDK API reference — delivery modes, timeouts, file handling, and more.
+
 ---
 
 ## Voice Providers
@@ -180,3 +201,4 @@ English, Spanish, French, German, Italian, Portuguese, Chinese (Mandarin/Cantone
 4. **For music**: Specify duration, mood, genre, and tempo (BPM if you know it)
 5. **Pronunciation guidance**: For names or technical terms, add hints: "CellCog (pronounced SELL-kog)"
 6. **For ElevenLabs emotion tags**: Use sparingly — 1-2 per paragraph. Tags affect all subsequent text until a new tag.
+

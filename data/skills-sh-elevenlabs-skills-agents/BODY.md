@@ -78,8 +78,11 @@ npm install @elevenlabs/react   # React hooks
 ```javascript
 import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
 import { Conversation } from "@elevenlabs/client";
-import { useConversation } from "@elevenlabs/react";
+import { ConversationProvider, useConversation } from "@elevenlabs/react";
 ```
+
+Wrap React components that call `useConversation` in `ConversationProvider`. Use
+`@elevenlabs/react-native` for React Native projects with the same provider-and-hooks pattern.
 
 ## Python
 

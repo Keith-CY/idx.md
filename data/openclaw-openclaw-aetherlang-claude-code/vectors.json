@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aetherlang-claude-code",
-  "generated_at": "2026-04-08T07:37:24.707Z",
+  "generated_at": "2026-04-09T07:34:14.996Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aetherlang-claude-code#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/contrario/aetherlang-claude-code/SKILL.md",
-        "retrieved_at": "2026-04-08T07:37:24.707Z",
+        "retrieved_at": "2026-04-09T07:34:14.996Z",
         "content_sha256": "2cd9eb2b0eef8a13968968c06679d040fb38d09835c54e12dd38ea60e0f30019"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fanvue",
-  "generated_at": "2026-04-08T07:33:32.818Z",
+  "generated_at": "2026-04-09T07:31:59.173Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fanvue#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/igorls/fanvue/SKILL.md",
-        "retrieved_at": "2026-04-08T07:33:32.818Z",
+        "retrieved_at": "2026-04-09T07:31:59.173Z",
         "content_sha256": "dc74b96859f4199a4982e680de8cbe2ae04bfefb9df7817b8636b7521324cf88"
       }
     }

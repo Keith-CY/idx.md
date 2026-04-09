@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-security-ownership-map",
-  "generated_at": "2026-04-08T07:30:55.593Z",
+  "generated_at": "2026-04-09T07:35:36.478Z",
   "records": [
     {
       "id": "skills/openai-curated-security-ownership-map#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-ownership-map/SKILL.md",
-        "retrieved_at": "2026-04-08T07:30:55.593Z",
+        "retrieved_at": "2026-04-09T07:35:36.478Z",
         "content_sha256": "f06c1a59247569326702c945f397af163ea96cf2ecfdf2dde280605bf89a3ec8"
       }
     }

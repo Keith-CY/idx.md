@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-config-guardian",
-  "generated_at": "2026-04-08T07:33:13.188Z",
+  "generated_at": "2026-04-09T07:31:47.772Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-config-guardian#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abdhilabs/config-guardian/SKILL.md",
-        "retrieved_at": "2026-04-08T07:33:13.188Z",
+        "retrieved_at": "2026-04-09T07:31:47.772Z",
         "content_sha256": "22fe83c11d2153378c4af79c35d11f30f0fa02db06f605cafbffb839a0090931"
       }
     }

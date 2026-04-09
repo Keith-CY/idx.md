@@ -17,6 +17,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aaron-he-zhu/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-08T07:31:14.115Z
+retrieved_at: 2026-04-09T07:35:45.080Z
 content_sha256: 675f732060cef2784f6425ee97fba9d853a4408b8f3ee0b240d48b51b290aaa3
 ---
