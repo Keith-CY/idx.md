@@ -16,6 +16,6 @@ upstream_ref: https://github.com/prompt-security/clawsec/blob/main/skills/claw-r
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-09T07:35:45.757Z
+retrieved_at: 2026-04-10T07:34:54.742Z
 content_sha256: cda9f58b3be67876ba4a543d6192af60ea155c2102202340fdfc8770a848f07e
 ---

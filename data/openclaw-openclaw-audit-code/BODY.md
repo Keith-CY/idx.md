@@ -40,3 +40,14 @@ Structured report with severity-ranked findings, file locations, and actionable 
 - When reviewing third-party contributions or PRs
 - As part of a periodic security audit of the codebase
 - After AI-assisted code generation to verify no secrets or vulnerabilities were introduced
+
+## Advisory hooks
+
+The repository's `.claude/settings.json` includes PreToolUse hooks that warn on
+dangerous Bash and Write operations. These hooks are **advisory only** -- they
+produce warnings but do not block execution.
+
+- audit-code is the detection layer for source code security issues
+- The hooks provide supplementary runtime warnings during agent operation
+- To enforce blocking, hooks must return `{"decision": "block"}`
+  instead of warning messages

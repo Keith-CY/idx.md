@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-winamp",
-  "generated_at": "2026-04-09T07:33:44.955Z",
+  "generated_at": "2026-04-10T07:33:26.162Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-winamp#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jage9/winamp/SKILL.md",
-        "retrieved_at": "2026-04-09T07:33:44.955Z",
+        "retrieved_at": "2026-04-10T07:33:26.162Z",
         "content_sha256": "7151a8a0a5e546ea3a927a6b940c9dfa506e5a86b19e446dd8b826ee648ad71b"
       }
     }

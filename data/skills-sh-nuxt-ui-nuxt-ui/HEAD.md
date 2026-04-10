@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/nuxt/ui/nuxt-ui
 github_stars: 6254
 github_forks: 1017
 github_is_organization: true
-retrieved_at: 2026-04-09T07:31:19.211Z
+retrieved_at: 2026-04-10T07:31:35.999Z
 content_sha256: e24b7e54fcfb8ba9e4e061f3d5f94c84e771bac41ecfb371c875219081f0c034
 ---

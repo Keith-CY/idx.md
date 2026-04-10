@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-react-native-expo",
-  "generated_at": "2026-04-09T07:31:21.895Z",
+  "generated_at": "2026-04-10T07:31:37.574Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-react-native-expo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/expo/fyi/main/expo-54-reanimated.md",
-        "retrieved_at": "2026-04-09T07:31:21.895Z",
+        "retrieved_at": "2026-04-10T07:31:37.574Z",
         "content_sha256": "3246b413c28f643b21bb72f2b20bda5133ab11bac124b1c6ab3427be96ec997b"
       }
     }

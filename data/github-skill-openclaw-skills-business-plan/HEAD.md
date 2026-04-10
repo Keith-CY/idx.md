@@ -23,6 +23,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/busine
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-09T07:35:42.989Z
+retrieved_at: 2026-04-10T07:34:52.724Z
 content_sha256: 92236ce91a05cd06a791edcefba23213bb33648e67007a03d7d12a10b7a7a3a2
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-receiving-code-review",
-  "generated_at": "2026-04-09T07:31:01.873Z",
+  "generated_at": "2026-04-10T07:31:23.030Z",
   "records": [
     {
       "id": "skills/obra-receiving-code-review#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/receiving-code-review/SKILL.md",
-        "retrieved_at": "2026-04-09T07:31:01.873Z",
+        "retrieved_at": "2026-04-10T07:31:23.030Z",
         "content_sha256": "c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406"
       }
     }

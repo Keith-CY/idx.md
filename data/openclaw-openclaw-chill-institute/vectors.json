@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-chill-institute",
-  "generated_at": "2026-04-09T07:35:00.601Z",
+  "generated_at": "2026-04-10T07:34:23.762Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-chill-institute#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/baanish/chill-institute/SKILL.md",
-        "retrieved_at": "2026-04-09T07:35:00.601Z",
+        "retrieved_at": "2026-04-10T07:34:23.762Z",
         "content_sha256": "6e85b52b6a60c8e7726ed12ac8ffaf81855e709529bd0356ea3d87a2552886b3"
       }
     }

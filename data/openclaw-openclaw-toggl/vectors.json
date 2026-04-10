@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-toggl",
-  "generated_at": "2026-04-09T07:33:31.279Z",
+  "generated_at": "2026-04-10T07:33:14.964Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-toggl#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/clvrobj/toggl/SKILL.md",
-        "retrieved_at": "2026-04-09T07:33:31.279Z",
+        "retrieved_at": "2026-04-10T07:33:14.964Z",
         "content_sha256": "b876aea2092414f4d76373e5d97dd4e1baf6e4713c26832f6ab37337263495f7"
       }
     }

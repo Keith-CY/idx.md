@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-egvert-health-guardian",
-  "generated_at": "2026-04-09T07:35:16.202Z",
+  "generated_at": "2026-04-10T07:34:34.950Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-egvert-health-guardian#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ctsolutionsdev/egvert-health-guardian/SKILL.md",
-        "retrieved_at": "2026-04-09T07:35:16.202Z",
+        "retrieved_at": "2026-04-10T07:34:34.950Z",
         "content_sha256": "076ab0e2718391af0de61afefddaa7d70731034dc5467dbe2bdef7cdcfe33a59"
       }
     }

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-yeet",
-  "generated_at": "2026-04-09T07:35:37.608Z",
+  "generated_at": "2026-04-10T07:34:49.013Z",
   "records": [
     {
       "id": "skills/openai-curated-yeet#head",
       "kind": "head",
       "path": "/data/openai-curated-yeet/HEAD.md",
-      "text": "title: openai-curated-yeet\nsummary: --- name: \"yeet\" description: \"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\" --- ## Prerequisites - Require GitHub CLI `gh`. Check `gh --version`. If missing, ask the user to install `gh` and stop. - Require authenticated `gh` session. Run `gh auth status`. If not authenticated, ask the user to run `gh auth login` (and re-run `gh auth status`) before continuing. ## Naming conventions - Branch: `codex/{description}` when starting from main/master/default. - Commit: `{description}` (terse).\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md",
+      "text": "title: openai-curated-yeet\nsummary: --- name: \"yeet\" description: \"Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).\" --- ## Prerequisites - Require GitHub CLI `gh`. Check `gh --version`. If missing, ask the user to install `gh` and stop. - Require authenticated `gh` session. Run `gh auth status`. If not authenticated, ask the user to run `gh auth login` (and re-run `gh auth status`) before continuing. ## Naming conventions - Branch: `{description}` when starting from main/master/default. - Commit: `{description}` (terse).\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md",
       "metadata": {
         "stable_id": "skills/openai-curated-yeet",
         "topic": "openai-curated-yeet",
@@ -18,8 +18,8 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md",
-        "retrieved_at": "2026-04-09T07:35:37.608Z",
-        "content_sha256": "2b4583b296a3a043b9002cd74e3ca5407fce832598dcd428272da08a9839f64b"
+        "retrieved_at": "2026-04-10T07:34:49.013Z",
+        "content_sha256": "4fcb31435d2ab8ebecba78decd4c3489c876209010ab0b5ef5c960cfd299c52a"
       }
     }
   ]

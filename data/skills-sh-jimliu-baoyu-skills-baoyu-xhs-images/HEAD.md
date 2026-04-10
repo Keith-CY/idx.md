@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-04-09T07:35:51.290Z
+retrieved_at: 2026-04-10T07:34:58.734Z
 content_sha256: 0620ce34347d83247c0502f5386437f1ef8229710a6e46690ac35ccaed65e255
 ---

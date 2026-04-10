@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-davila7-claude-code-templates-google-analytics",
-  "generated_at": "2026-04-09T07:31:06.784Z",
+  "generated_at": "2026-04-10T07:31:27.678Z",
   "records": [
     {
       "id": "skills/skills-sh-davila7-claude-code-templates-google-analytics#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/analytics/google-analytics/REFERENCE.md",
-        "retrieved_at": "2026-04-09T07:31:06.784Z",
+        "retrieved_at": "2026-04-10T07:31:27.678Z",
         "content_sha256": "df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8"
       }
     }

@@ -23,7 +23,7 @@ summary: >-
 
   ## Naming conventions
 
-  - Branch: `codex/{description}` when starting from main/master/default.
+  - Branch: `{description}` when starting from main/master/default.
 
   - Commit: `{description}` (terse).
 tags:
@@ -35,6 +35,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SK
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-09T07:35:37.608Z
-content_sha256: 2b4583b296a3a043b9002cd74e3ca5407fce832598dcd428272da08a9839f64b
+retrieved_at: 2026-04-10T07:34:49.013Z
+content_sha256: 4fcb31435d2ab8ebecba78decd4c3489c876209010ab0b5ef5c960cfd299c52a
 ---

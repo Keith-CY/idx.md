@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-event-watcher",
-  "generated_at": "2026-04-09T07:35:17.870Z",
+  "generated_at": "2026-04-10T07:34:36.167Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-event-watcher#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/solitaire2015/event-watcher/SKILL.md",
-        "retrieved_at": "2026-04-09T07:35:17.870Z",
+        "retrieved_at": "2026-04-10T07:34:36.167Z",
         "content_sha256": "3dddfa4bc386ee650b67107a2d49de0578525434fc7dab23e843b5232f6d13aa"
       }
     }

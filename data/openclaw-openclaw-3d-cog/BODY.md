@@ -194,3 +194,4 @@ All 3D models are delivered as **GLB files** (binary glTF) — the universal web
 4. **For batch jobs, describe style once**: "All in a cohesive hand-painted fantasy style" keeps your assets consistent.
 
 5. **Request PBR materials for realism**: If you need metallic, roughness, and normal maps — say so. Essential for game engines and realistic rendering.
+

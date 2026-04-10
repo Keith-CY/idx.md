@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo",
-  "generated_at": "2026-04-09T07:36:00.010Z",
+  "generated_at": "2026-04-10T07:35:04.453Z",
   "records": [
     {
       "id": "skills/skills-sh-hau823823-gen-paylink-govilo-gen-paylink-govilo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/hau823823/gen-paylink-govilo/HEAD/skills/gen-paylink-govilo/references/setup-guide.md",
-        "retrieved_at": "2026-04-09T07:36:00.010Z",
+        "retrieved_at": "2026-04-10T07:35:04.453Z",
         "content_sha256": "4b03b93077cbb4320a8611a3d141c9047a88bd5efae5844cbe4630bfcdf17b36"
       }
     }

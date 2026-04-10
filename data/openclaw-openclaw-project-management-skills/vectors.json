@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-project-management-skills",
-  "generated_at": "2026-04-09T07:32:59.371Z",
+  "generated_at": "2026-04-10T07:32:50.533Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-project-management-skills#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sedation6612/project-management-skills/SKILL.md",
-        "retrieved_at": "2026-04-09T07:32:59.371Z",
+        "retrieved_at": "2026-04-10T07:32:50.533Z",
         "content_sha256": "4d8fbe26d8501fc248eb65b1202066b9c7fc134fe30c9e83eff7b439a18f2843"
       }
     }

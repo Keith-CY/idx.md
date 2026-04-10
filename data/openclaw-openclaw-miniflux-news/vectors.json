@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-miniflux-news",
-  "generated_at": "2026-04-09T07:32:31.628Z",
+  "generated_at": "2026-04-10T07:32:29.665Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-miniflux-news#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hartlco/miniflux-news/SKILL.md",
-        "retrieved_at": "2026-04-09T07:32:31.628Z",
+        "retrieved_at": "2026-04-10T07:32:29.665Z",
         "content_sha256": "746216ffa76301891ba8878c6fdd5805e5e0c8aef3d70e65520c597b58285a6f"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pskoett-self-improving-agent-self-improvement",
-  "generated_at": "2026-04-09T07:34:02.341Z",
+  "generated_at": "2026-04-10T07:33:38.997Z",
   "records": [
     {
       "id": "skills/skills-sh-pskoett-self-improving-agent-self-improvement#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/pskoett/self-improving-agent/master/SKILL.md",
-        "retrieved_at": "2026-04-09T07:34:02.341Z",
+        "retrieved_at": "2026-04-10T07:33:38.997Z",
         "content_sha256": "a34d1c3407dbaa9a23fdf20f43f4f65c88f07f396cfbf8034c98bf518b8a2d69"
       }
     }

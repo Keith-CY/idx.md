@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-workout",
-  "generated_at": "2026-04-09T07:33:46.009Z",
+  "generated_at": "2026-04-10T07:33:26.975Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-workout#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gricha/workout/SKILL.md",
-        "retrieved_at": "2026-04-09T07:33:46.009Z",
+        "retrieved_at": "2026-04-10T07:33:26.975Z",
         "content_sha256": "cc0ca3a882c5b18094338908f1786d60d8bfa887e9ea3b522b000f89997e8b56"
       }
     }

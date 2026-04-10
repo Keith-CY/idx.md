@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-weight-loss",
-  "generated_at": "2026-04-09T07:33:42.858Z",
+  "generated_at": "2026-04-10T07:33:24.406Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-weight-loss#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/weight-loss/SKILL.md",
-        "retrieved_at": "2026-04-09T07:33:42.858Z",
+        "retrieved_at": "2026-04-10T07:33:24.406Z",
         "content_sha256": "b73aa04daf760798c28ce7d41ef3cab6cb7741c6b5cff2fc2dd7798e2fbadf8b"
       }
     }

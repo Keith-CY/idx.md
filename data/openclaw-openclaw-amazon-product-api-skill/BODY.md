@@ -1,6 +1,7 @@
 ---
 name: amazon-product-api-skill
 description: "This skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings, and specifications. Use this skill when users want to search for products on Amazon, find the best selling brand products, track price changes for items, get a list of categories with high ratings, compare different brand products on Amazon, extract Amazon product data for market research, look for products in a specific language or marketplace, analyze competitor pricing for keywords, find featured products for search terms, get technical specifications like material or color for product lists."
+metadata: {"clawdbot":{"emoji":"🌐","requires":{"bins":["python"],"env":["BROWSERACT_API_KEY"]}}}
 ---
 
 # Amazon Product Search Skill
@@ -9,16 +10,16 @@ description: "This skill helps users extract structured product listings from Am
 This skill utilizes BrowserAct's Amazon Product API template to extract structured product listings from Amazon search results. It provides detailed information including titles, ASINs, prices, ratings, and product specifications, enabling efficient market research and product monitoring without manual data collection.
 
 ## ✨ Features
-1. **No Hallucinations, Reliable Data**: Uses a pre-defined workflow to ensure accurate data extraction without AI-generated errors.
-2. **No CAPTCHA Challenges**: Built-in mechanisms bypass reCAPTCHA and other bot detection systems.
-3. **Global Access, No Geo-fencing**: Overcomes IP restrictions to ensure stable access from any location.
-4. **Fast Execution**: More efficient than general-purpose AI browser automation.
-5. **Cost-Effective**: Reduces data acquisition costs compared to high-token consumption AI models.
+1. **No Hallucinations**: Pre-set workflows avoid AI generative hallucinations, ensuring stable and precise data extraction.
+2. **No Captcha Issues**: No need to handle reCAPTCHA or other verification challenges.
+3. **No IP Restrictions**: No need to handle regional IP restrictions or geofencing.
+4. **Faster Execution**: Tasks execute faster compared to pure AI-driven browser automation solutions.
+5. **Cost-Effective**: Significantly lowers data acquisition costs compared to high-token-consuming AI solutions.
 
-## 🔑 API Key Workflow
-Before running the skill, the `BROWSERACT_API_KEY` environment variable must be checked. If it is not set, do not proceed; instead, request the key from the user.
-**Agent Instruction**:
-> "Since you haven't configured the BrowserAct API Key yet, please go to the [BrowserAct Console](https://www.browseract.com/reception/integrations) to get your Key and provide it here."
+## 🔑 API Key Setup
+Before running, check the `BROWSERACT_API_KEY` environment variable. If not set, do not take other measures; ask and wait for the user to provide it.
+**Agent must inform the user**:
+> "Since you haven't configured the BrowserAct API Key, please visit the [BrowserAct Console](https://www.browseract.com/reception/integrations) to get your Key."
 
 ## 🛠️ Input Parameters
 The agent should configure the following parameters based on user requirements:
@@ -46,22 +47,22 @@ The agent should configure the following parameters based on user requirements:
    - **Default**: `en`
    - **Example**: `zh-CN`, `de`
 
-## 🚀 Usage (Recommended)
-The agent should execute the following script to get results in one command:
+## 🚀 Usage
+Agent should use the following independent script to achieve "one-line command result":
 
 ```bash
 # Example Usage
 python -u ./scripts/amazon_product_api.py "keywords" "brand" pages "language"
 ```
 
-### ⏳ Progress Monitoring
-Since this task involves automated browser operations, it may take a few minutes. The script outputs real-time timestamped status logs (e.g., `[14:30:05] Task Status: running`).
-**Agent Note**:
-- Monitor the terminal output while waiting for results.
-- As long as new status logs are appearing, the task is running normally.
-- Only consider retrying if the status remains unchanged for a long period or the script stops without output.
+### ⏳ Execution Monitoring
+Since this task involves automated browser operations, it may take some time (several minutes). The script will **continuously output status logs with timestamps** (e.g., `[14:30:05] Task Status: running`).
+**Agent Instructions**:
+- While waiting for the script result, keep monitoring the terminal output.
+- As long as the terminal is outputting new status logs, the task is running normally; do not mistake it for a deadlock or unresponsiveness.
+- Only if the status remains unchanged for a long time or the script stops outputting without returning a result should you consider triggering the retry mechanism.
 
-## 📊 Output Data Description
+## 📊 Data Output
 Upon success, the script parses and prints the structured product data from the API response, which includes:
 - `product_title`: Full title of the product.
 - `asin`: Amazon Standard Identification Number.
@@ -74,15 +75,15 @@ Upon success, the script parses and prints the structured product data from the 
 - `featured`: Badges like "Best Seller" or "Amazon's Choice".
 - `color`, `material`, `style`: Product attributes (if available).
 
-## ⚠️ Error Handling & Retry Mechanism
-If an error occurs during execution, the agent should follow this logic:
+## ⚠️ Error Handling & Retry
+If an error occurs during script execution (e.g., network fluctuations or task failure), the Agent should follow this logic:
 
-1. **Check Output**:
-   - If the output contains `"Invalid authorization"`, the API Key is invalid. **Do not retry**; ask the user to provide a valid key.
-   - If the output does not contain `"Invalid authorization"` but the task fails (e.g., output starts with `Error:` or returns empty results), the agent should **automatically retry once**.
+1. **Check Output Content**:
+   - If the output **contains** `"Invalid authorization"`, it means the API Key is invalid or expired. **Do not retry**; guide the user to re-check and provide the correct API Key.
+   - If the output **does not contain** `"Invalid authorization"` but the task failed (e.g., output starts with `Error:` or returns empty results), the Agent should **automatically try to re-execute the script once**.
 
 2. **Retry Limit**:
-   - Automatic retry is limited to **once**. If it fails again, stop and report the error to the user.
+   - Automatic retry is limited to **one time**. If the second attempt fails, stop retrying and report the specific error information to the user.
 
 ## 🌟 Typical Use Cases
 1. **Market Research**: Search for a specific product category to analyze top brands and pricing.

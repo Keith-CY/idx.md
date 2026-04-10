@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pvpc-spain",
-  "generated_at": "2026-04-09T07:33:01.202Z",
+  "generated_at": "2026-04-10T07:32:52.086Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pvpc-spain#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/didelco/pvpc-spain/SKILL.md",
-        "retrieved_at": "2026-04-09T07:33:01.202Z",
+        "retrieved_at": "2026-04-10T07:32:52.086Z",
         "content_sha256": "c22d37569579bd2177461010d6eaa0fa0be9f9c7e244e7e689e4b44eb5bfdb3e"
       }
     }

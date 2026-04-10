@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-camsnap",
-  "generated_at": "2026-04-09T07:34:58.596Z",
+  "generated_at": "2026-04-10T07:34:22.161Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-camsnap#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/camsnap/SKILL.md",
-        "retrieved_at": "2026-04-09T07:34:58.596Z",
+        "retrieved_at": "2026-04-10T07:34:22.161Z",
         "content_sha256": "5e499af0105023f43112460f15d97ac6e741d1c185661e2215a5f8585ad68107"
       }
     }
