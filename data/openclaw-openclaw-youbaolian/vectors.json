@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-youbaolian",
-  "generated_at": "2026-04-10T07:33:29.461Z",
+  "generated_at": "2026-04-11T07:25:45.137Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-youbaolian#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/peterfzh/youbaolian/SKILL.md",
-        "retrieved_at": "2026-04-10T07:33:29.461Z",
+        "retrieved_at": "2026-04-11T07:25:45.137Z",
         "content_sha256": "646ab792b4c2ff6507152142838e7914616933ddf948344b3fc1efc6001d6c29"
       }
     }

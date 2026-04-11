@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-clawdchat",
-  "generated_at": "2026-04-10T07:34:52.815Z",
+  "generated_at": "2026-04-11T07:28:30.983Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-clawdchat#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lucasyao1985/clawdchat/skill.md",
-        "retrieved_at": "2026-04-10T07:34:52.815Z",
+        "retrieved_at": "2026-04-11T07:28:30.983Z",
         "content_sha256": "32c9d3c6feeb9227b1022db18f1680bd9808baae00cd9d72995f6251f1d0759b"
       }
     }

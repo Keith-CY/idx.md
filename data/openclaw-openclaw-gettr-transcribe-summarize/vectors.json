@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gettr-transcribe-summarize",
-  "generated_at": "2026-04-10T07:32:09.565Z",
+  "generated_at": "2026-04-11T07:23:18.738Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gettr-transcribe-summarize#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kevin37li/gettr-transcribe-summarize/SKILL.md",
-        "retrieved_at": "2026-04-10T07:32:09.565Z",
+        "retrieved_at": "2026-04-11T07:23:18.738Z",
         "content_sha256": "61b07a682d17f15ba4541506e6a0ffff41618846753f6da24ee80c51b65591f3"
       }
     }

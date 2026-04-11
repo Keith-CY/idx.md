@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-echodecks",
-  "generated_at": "2026-04-10T07:34:34.664Z",
+  "generated_at": "2026-04-11T07:27:50.208Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-echodecks#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/drgeld/echodecks/SKILL.md",
-        "retrieved_at": "2026-04-10T07:34:34.664Z",
+        "retrieved_at": "2026-04-11T07:27:50.208Z",
         "content_sha256": "e35887a8ffc768104302f04e8d594bfe0eb8aa08ecec8da86fb162f0e1c5f1e3"
       }
     }

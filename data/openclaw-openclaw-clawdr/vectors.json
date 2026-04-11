@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdr",
-  "generated_at": "2026-04-10T07:31:52.715Z",
+  "generated_at": "2026-04-11T07:22:45.772Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdr#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/olavblj/clawdr/SKILL.md",
-        "retrieved_at": "2026-04-10T07:31:52.715Z",
+        "retrieved_at": "2026-04-11T07:22:45.772Z",
         "content_sha256": "de82e2460fa03415966568f22ac5024598e8bcef2a7a28957d4a30eb9415042b"
       }
     }

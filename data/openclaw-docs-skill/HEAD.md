@@ -7,11 +7,12 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up, configuring, or managing OpenClaw — a
-  self-hosted multi-channel AI agent gateway. Reach for this skill when working
-  with the Gateway, connecting messaging channels (Discord, Telegram, WhatsApp,
-  Slack, etc.), configuring agents and models, managing sessions and routing, or
-  deploying OpenClaw on any OS.
+  description: Use when deploying a self-hosted AI agent gateway, configuring
+  multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing
+  agent sessions and memory, setting up automation (cron jobs, webhooks), or
+  controlling tool access and sandboxing. Agents should reach for this skill
+  when working with OpenClaw configuration, CLI commands, channel setup, agent
+  routing, or troubleshooting gateway issues.
 
   metadata:
       mintlify-proj: clawdbot
@@ -22,15 +23,17 @@ summary: >-
 
   ## Product summary
 
-  OpenClaw is a self-hosted multi-channel gateway that connects messaging apps
-  (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Teams, and 15+
-  others) to AI agents. The Gateway runs on any OS (macOS, Linux, Windows,
-  Raspberry Pi) and routes conversations to embedded or remote agents with tool
-  use, memory, and multi-agent isolation. Key files: `~/.openclaw/openclaw.json`
-  (config), `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md,
-  TOOLS.md, IDENTITY.md, USER.md, BOOTSTRAP.md). Primary CLI: `openclaw` (setup,
-  onboard, configure, gateway, channels, agents, skills, etc.). See [OpenClaw
-  docs](https://docs.openclaw.ai).
+  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
+  any OS (macOS, Linux, Windows, Docker, Kubernetes). It bridges messaging apps
+  (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft
+  Teams, Google Chat, Feishu, and more) to a single embedded agent runtime. The
+  Gateway is the core process (`openclaw gateway run` or as a service) that
+  manages sessions, routing, channels, and tool execution. Configuration lives
+  in `~/.openclaw/openclaw.json` (JSON5 format). Key CLI commands: `openclaw
+  onboard` (setup), `openclaw configure` (config wizard), `openclaw config
+  get/set` (one-liners), `openclaw gateway status/restart` (service control),
+  `openclaw channels add` (channel setup), `openclaw agent` (run a turn),
+  `openclaw dashboard` (open Control UI). Primary docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -38,6 +41,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-10T07:31:26.222Z
-content_sha256: dac834bfb85c357b2198d672731a699f5a626a74f90662de0cf5bf470cc7c103
+retrieved_at: 2026-04-11T07:21:39.015Z
+content_sha256: d823edee7dc21c6a2c9f98e72279ae396c69969255ef27e7f97fd3e3ee82e99a
 ---

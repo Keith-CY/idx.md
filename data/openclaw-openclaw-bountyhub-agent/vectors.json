@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bountyhub-agent",
-  "generated_at": "2026-04-10T07:34:18.297Z",
+  "generated_at": "2026-04-11T07:27:19.280Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bountyhub-agent#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nativ3ai/bountyhub-agent/SKILL.md",
-        "retrieved_at": "2026-04-10T07:34:18.297Z",
+        "retrieved_at": "2026-04-11T07:27:19.280Z",
         "content_sha256": "3f0b9b28608e948db93bde32107b40461df8295595e3e9d14bccdc8edfa9608d"
       }
     }

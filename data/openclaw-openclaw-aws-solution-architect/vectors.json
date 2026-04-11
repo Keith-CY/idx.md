@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aws-solution-architect",
-  "generated_at": "2026-04-10T07:31:46.575Z",
+  "generated_at": "2026-04-11T07:22:33.848Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aws-solution-architect#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/aws-solution-architect/SKILL.md",
-        "retrieved_at": "2026-04-10T07:31:46.575Z",
+        "retrieved_at": "2026-04-11T07:22:33.848Z",
         "content_sha256": "4d5f067b82f3ea77d3ed6356eb18e6cda86126a2b36f9e53b7614bbc149e973c"
       }
     }

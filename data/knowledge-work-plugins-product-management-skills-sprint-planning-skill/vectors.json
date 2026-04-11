@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-skills-sprint-planning-skill",
-  "generated_at": "2026-04-10T07:33:32.357Z",
+  "generated_at": "2026-04-11T07:25:50.710Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-skills-sprint-planning-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/sprint-planning/SKILL.md",
-        "retrieved_at": "2026-04-10T07:33:32.357Z",
+        "retrieved_at": "2026-04-11T07:25:50.710Z",
         "content_sha256": "c078d3f838c783e9ab53ca1a4b4c04dcd7930a55a995731b8c020cd656cb1edd"
       }
     }

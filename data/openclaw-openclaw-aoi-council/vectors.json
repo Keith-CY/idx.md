@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aoi-council",
-  "generated_at": "2026-04-10T07:34:06.475Z",
+  "generated_at": "2026-04-11T07:26:57.438Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aoi-council#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edmonddantesj/aoi-council/SKILL.md",
-        "retrieved_at": "2026-04-10T07:34:06.475Z",
+        "retrieved_at": "2026-04-11T07:26:57.438Z",
         "content_sha256": "18bd8d2ef46258dc8e37c941413a76cb0d1d7f98b448d241f2865b606706bada"
       }
     }

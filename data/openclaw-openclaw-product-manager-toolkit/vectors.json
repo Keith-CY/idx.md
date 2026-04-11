@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-product-manager-toolkit",
-  "generated_at": "2026-04-10T07:32:49.945Z",
+  "generated_at": "2026-04-11T07:24:30.814Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-product-manager-toolkit#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-manager-toolkit/SKILL.md",
-        "retrieved_at": "2026-04-10T07:32:49.945Z",
+        "retrieved_at": "2026-04-11T07:24:30.814Z",
         "content_sha256": "39dd480e8a03699d95ccf0aeb457a7e861e822ee77904c6f3ee2efbc0a24992f"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-whatdo",
-  "generated_at": "2026-04-10T07:33:24.608Z",
+  "generated_at": "2026-04-11T07:25:35.288Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-whatdo#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/scottfo/whatdo/SKILL.md",
-        "retrieved_at": "2026-04-10T07:33:24.608Z",
+        "retrieved_at": "2026-04-11T07:25:35.288Z",
         "content_sha256": "8510c926eb5f3d4507e25094ea3e564137d7097e1f209dce1c8846174648d3a0"
       }
     }

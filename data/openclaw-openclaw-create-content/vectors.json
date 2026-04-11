@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-create-content",
-  "generated_at": "2026-04-10T07:34:29.466Z",
+  "generated_at": "2026-04-11T07:27:40.435Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-create-content#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/create-content/SKILL.md",
-        "retrieved_at": "2026-04-10T07:34:29.466Z",
+        "retrieved_at": "2026-04-11T07:27:40.435Z",
         "content_sha256": "d2a5e8b08c5a05f87dbaf4b4dc2b20815f3866a437cbfc1f65c777ceb462f4b3"
       }
     }

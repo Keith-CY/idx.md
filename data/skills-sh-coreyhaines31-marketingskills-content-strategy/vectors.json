@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-content-strategy",
-  "generated_at": "2026-04-10T07:34:57.507Z",
+  "generated_at": "2026-04-11T07:28:41.497Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-content-strategy#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/content-strategy/references/headless-cms.md",
-        "retrieved_at": "2026-04-10T07:34:57.507Z",
+        "retrieved_at": "2026-04-11T07:28:41.497Z",
         "content_sha256": "5434e226fd593a2e1174264c37b7cba589e60a82739deec0c29107b48f1ffae5"
       }
     }

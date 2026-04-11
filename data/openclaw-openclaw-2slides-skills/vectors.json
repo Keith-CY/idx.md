@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-2slides-skills",
-  "generated_at": "2026-04-10T07:33:40.343Z",
+  "generated_at": "2026-04-11T07:26:08.990Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-2slides-skills#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/javainthinking/2slides-skills/SKILL.md",
-        "retrieved_at": "2026-04-10T07:33:40.343Z",
+        "retrieved_at": "2026-04-11T07:26:08.990Z",
         "content_sha256": "1571a27b379246b78f8299def54a77ac59555cf91261ef7b3091bc8be42d504c"
       }
     }

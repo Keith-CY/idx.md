@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swiftui-view-refactor",
-  "generated_at": "2026-04-10T07:34:46.942Z",
+  "generated_at": "2026-04-11T07:28:14.039Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swiftui-view-refactor#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/swiftui-view-refactor/SKILL.md",
-        "retrieved_at": "2026-04-10T07:34:46.942Z",
+        "retrieved_at": "2026-04-11T07:28:14.039Z",
         "content_sha256": "d722d4b9cb4fe61caa979c68975cf932701657077d55279732835c57d5ded9a5"
       }
     }

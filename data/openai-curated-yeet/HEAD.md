@@ -35,6 +35,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/yeet/SK
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-10T07:34:49.013Z
+retrieved_at: 2026-04-11T07:28:21.253Z
 content_sha256: 4fcb31435d2ab8ebecba78decd4c3489c876209010ab0b5ef5c960cfd299c52a
 ---

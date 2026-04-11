@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cloudflare-skills-building-mcp-server-on-cloudflare",
-  "generated_at": "2026-04-10T07:33:36.756Z",
+  "generated_at": "2026-04-11T07:26:00.610Z",
   "records": [
     {
       "id": "skills/skills-sh-cloudflare-skills-building-mcp-server-on-cloudflare#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/cloudflare/skills/HEAD/skills/building-mcp-server-on-cloudflare/references/oauth-setup.md",
-        "retrieved_at": "2026-04-10T07:33:36.756Z",
+        "retrieved_at": "2026-04-11T07:26:00.610Z",
         "content_sha256": "9e57f929797d2827b71c87a6e9e4f5d1ce036b14a8c19fe52ae4eee6c1b493ab"
       }
     }

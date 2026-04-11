@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mlscp",
-  "generated_at": "2026-04-10T07:32:29.911Z",
+  "generated_at": "2026-04-11T07:23:54.900Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mlscp#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sirkrouph-dev/mlscp/SKILL.md",
-        "retrieved_at": "2026-04-10T07:32:29.911Z",
+        "retrieved_at": "2026-04-11T07:23:54.900Z",
         "content_sha256": "8650901914d6d0d6048bfb7cd3172c1a8fbcaa5c6794ceed27e9a15448a8bb2f"
       }
     }

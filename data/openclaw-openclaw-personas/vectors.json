@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-personas",
-  "generated_at": "2026-04-10T07:32:45.655Z",
+  "generated_at": "2026-04-11T07:24:22.619Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-personas#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/robbyczgw-cla/personas/SKILL.md",
-        "retrieved_at": "2026-04-10T07:32:45.655Z",
+        "retrieved_at": "2026-04-11T07:24:22.619Z",
         "content_sha256": "2f7a7737e286962d37f8f4a07c9dd608ffa01c0cf59889162e3fb2478136788f"
       }
     }

@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder
 github_stars: 9471
 github_forks: 1165
 github_is_organization: true
-retrieved_at: 2026-04-10T07:35:02.472Z
+retrieved_at: 2026-04-11T07:28:55.126Z
 content_sha256: da18c63e30d5d496f91c9db29da5ed3dea5ffc1d197b9b38170dc729e6281411
 ---

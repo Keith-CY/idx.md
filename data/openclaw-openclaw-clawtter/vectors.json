@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawtter",
-  "generated_at": "2026-04-10T07:31:53.573Z",
+  "generated_at": "2026-04-11T07:22:47.980Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawtter#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jkjx/clawtter/SKILL.md",
-        "retrieved_at": "2026-04-10T07:31:53.573Z",
+        "retrieved_at": "2026-04-11T07:22:47.980Z",
         "content_sha256": "ccb0c95183ee1143d6e5c2bfb32f8a43738d0197ee7d3af6a95fb0e628ad8f8d"
       }
     }

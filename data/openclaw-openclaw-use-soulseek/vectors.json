@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-use-soulseek",
-  "generated_at": "2026-04-10T07:33:19.525Z",
+  "generated_at": "2026-04-11T07:25:26.264Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-use-soulseek#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/svidovich/use-soulseek/SKILL.md",
-        "retrieved_at": "2026-04-10T07:33:19.525Z",
+        "retrieved_at": "2026-04-11T07:25:26.264Z",
         "content_sha256": "374492cdf729be4d27e96aa0d026be06f6fc0aa6f9251be8a09a592119ec8258"
       }
     }

@@ -10,7 +10,7 @@ summary: >-
   description: Use when creating, optimizing, or evaluating Agent Skills —
   reusable instruction packages that extend AI agent capabilities. Reach for
   this skill when building SKILL.md files, testing skill triggering, bundling
-  scripts, or implementing skills support in an agent client.
+  scripts, or integrating skills into agent platforms.
 
   metadata:
       mintlify-proj: agent
@@ -23,15 +23,9 @@ summary: >-
 
   Agent Skills is an open format for packaging specialized instructions,
   scripts, and resources that agents can discover and use on demand. A skill is
-  a directory containing a `SKILL.md` file (metadata + instructions), optional
-  `scripts/` for executable code, and optional `references/` and `assets/`
-  directories for supporting materials. Skills use progressive disclosure:
-  agents load only the name and description at startup, read full instructions
-  when a task matches, and load supporting files on demand. This keeps context
-  efficient while giving agents access to domain expertise, repeatable
-  workflows, and organizational knowledge. See the [Agent Skills
-  specification](https://agentskills.io/specification) for the complete format
-  reference.
+  a directory containing a `SKILL.md` file with YAML frontmatter (name and
+  description) and markdown instructions, plus optional `scripts/`,
+  `references/`, and `assets/` directories.
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -39,6 +33,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-10T07:31:25.708Z
-content_sha256: 8896ab4c00f08b29bb5cfbbab4404d0914981cc63dc0062d69beba125ddca9d1
+retrieved_at: 2026-04-11T07:21:38.244Z
+content_sha256: 1a74a689e3d2f52240befedbe82b8f82045efa583cc08af50079b912edbcefb7
 ---

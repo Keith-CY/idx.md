@@ -5,24 +5,24 @@ title: skills-sh-jimliu-baoyu-skills-baoyu-xhs-images
 summary: >-
   # Style Presets
 
-  `--preset X` expands to a style + layout combination. Users can override
-  either dimension.
+  `--preset X` expands to a style + layout + optional palette combination. Users
+  can override any dimension.
 
-  | --preset | Style | Layout |
+  | --preset | Style | Layout | Palette |
 
-  |----------|-------|--------|
+  |----------|-------|--------|---------|
 
-  | `knowledge-card` | `notion` | `dense` |
+  | `knowledge-card` | `notion` | `dense` | |
 
-  | `checklist` | `notion` | `list` |
+  | `checklist` | `notion` | `list` | |
 
-  | `concept-map` | `notion` | `mindmap` |
+  | `concept-map` | `notion` | `mindmap` | |
 
-  | `swot` | `notion` | `quadrant` |
+  | `swot` | `notion` | `quadrant` | |
 
-  | `tutorial` | `chalkboard` | `flow` |
+  | `tutorial` | `chalkboard` | `flow` | |
 
-  | `classroom` | `chalkboard` | `balanced` |
+  | `classroom` | `chalkboard` | `balanced` | |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-04-10T07:34:58.734Z
-content_sha256: 0620ce34347d83247c0502f5386437f1ef8229710a6e46690ac35ccaed65e255
+retrieved_at: 2026-04-11T07:28:45.280Z
+content_sha256: edd8d0592fbbc4418af09796fbdf7d1b5f4fb38d60eb42af1c063f5ccc594ecb
 ---
