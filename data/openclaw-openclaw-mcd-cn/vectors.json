@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mcd-cn",
-  "generated_at": "2026-04-11T07:23:50.159Z",
+  "generated_at": "2026-04-12T07:30:18.743Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mcd-cn#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ryanchen01/mcd-cn/SKILL.md",
-        "retrieved_at": "2026-04-11T07:23:50.159Z",
+        "retrieved_at": "2026-04-12T07:30:18.743Z",
         "content_sha256": "3190444d54328d53f5db39a9315977afb0661763647dafaebef62bdf1a9270d2"
       }
     }

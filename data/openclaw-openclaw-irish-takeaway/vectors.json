@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-irish-takeaway",
-  "generated_at": "2026-04-11T07:23:35.921Z",
+  "generated_at": "2026-04-12T07:30:10.854Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-irish-takeaway#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cotyledonlab/irish-takeaway/SKILL.md",
-        "retrieved_at": "2026-04-11T07:23:35.921Z",
+        "retrieved_at": "2026-04-12T07:30:10.854Z",
         "content_sha256": "ee53a403083fd244c3f9535d4d257e6eb3a16ff78c43d7c239d23be453957f94"
       }
     }

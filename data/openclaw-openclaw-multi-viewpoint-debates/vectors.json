@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-multi-viewpoint-debates",
-  "generated_at": "2026-04-11T07:24:00.578Z",
+  "generated_at": "2026-04-12T07:30:24.038Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-multi-viewpoint-debates#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/latentfreedom/multi-viewpoint-debates/SKILL.md",
-        "retrieved_at": "2026-04-11T07:24:00.578Z",
+        "retrieved_at": "2026-04-12T07:30:24.038Z",
         "content_sha256": "41946f302ce6862eec3d2003a8124dab3b0f7c8d435df25f9281dc1bf76ad760"
       }
     }

@@ -1,6 +1,6 @@
 ---
 name: Clawdbot
-description: Use when deploying a self-hosted AI agent gateway, configuring multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing agent sessions and memory, setting up automation (cron jobs, webhooks), or controlling tool access and sandboxing. Agents should reach for this skill when working with OpenClaw configuration, CLI commands, channel setup, agent routing, or troubleshooting gateway issues.
+description: Use when deploying, configuring, or troubleshooting OpenClaw — a self-hosted multi-channel AI agent gateway. Reach for this skill when setting up channels (Discord, Telegram, WhatsApp, etc.), configuring agents and models, managing tools and skills, or working with the CLI and Control UI.
 metadata:
     mintlify-proj: clawdbot
     version: "1.0"
@@ -10,21 +10,18 @@ metadata:
 
 ## Product summary
 
-OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on any OS (macOS, Linux, Windows, Docker, Kubernetes). It bridges messaging apps (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft Teams, Google Chat, Feishu, and more) to a single embedded agent runtime. The Gateway is the core process (`openclaw gateway run` or as a service) that manages sessions, routing, channels, and tool execution. Configuration lives in `~/.openclaw/openclaw.json` (JSON5 format). Key CLI commands: `openclaw onboard` (setup), `openclaw configure` (config wizard), `openclaw config get/set` (one-liners), `openclaw gateway status/restart` (service control), `openclaw channels add` (channel setup), `openclaw agent` (run a turn), `openclaw dashboard` (open Control UI). Primary docs: https://docs.openclaw.ai
+OpenClaw is a self-hosted, multi-channel gateway that connects AI agents to messaging platforms (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, and 15+ others). The agent runs on your hardware, processes messages from any connected channel, and responds with tool use, file I/O, web browsing, and custom skills. Key files: `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md). Primary CLI: `openclaw` with subcommands for setup, channels, config, agents, and gateway management. See [docs.openclaw.ai](https://docs.openclaw.ai) for the full reference.
 
 ## When to use
 
 Reach for this skill when:
-- **Setting up OpenClaw**: initial install, onboarding, workspace initialization
-- **Configuring channels**: adding WhatsApp, Telegram, Discord, Slack, or other messaging platforms
-- **Managing agents**: creating isolated agents, setting workspaces, configuring routing bindings
-- **Controlling access**: setting DM policies (pairing, allowlist, open), group mention gating, allowlists
-- **Configuring tools**: restricting tool access via allow/deny lists, tool profiles, per-agent tool sets
-- **Automation**: setting up cron jobs, webhooks, heartbeat, standing orders
-- **Troubleshooting**: checking gateway health, reading logs, running diagnostics with `openclaw doctor`
-- **Session management**: understanding session scoping, resets, thread bindings
-- **Sandboxing**: enabling Docker-based isolation for agent execution
-- **Multi-agent routing**: binding agents to channels, managing per-agent workspaces
+- **Deploying OpenClaw**: installing, onboarding, running the gateway service
+- **Configuring channels**: setting up WhatsApp, Telegram, Discord, or other messaging platforms
+- **Managing agents**: creating isolated agents, routing messages, configuring workspaces
+- **Tuning models and tools**: selecting providers, setting fallbacks, allowing/denying tools
+- **Troubleshooting**: diagnosing channel health, session issues, config errors
+- **Automating workflows**: setting up cron jobs, hooks, heartbeats, or multi-agent routing
+- **Extending capabilities**: installing skills, plugins, or custom tools
 
 ## Quick reference
 
@@ -33,170 +30,156 @@ Reach for this skill when:
 | Task | Command |
 |------|---------|
 | Initial setup | `openclaw onboard --install-daemon` |
-| Config wizard | `openclaw configure` |
-| Get config value | `openclaw config get agents.defaults.workspace` |
-| Set config value | `openclaw config set channels.telegram.botToken "123:abc"` |
-| Gateway status | `openclaw gateway status` |
-| Start/stop gateway | `openclaw gateway start` / `openclaw gateway stop` |
-| Restart gateway | `openclaw gateway restart` |
 | Open dashboard | `openclaw dashboard` |
-| Add channel | `openclaw channels add --channel telegram --token $BOT_TOKEN` |
-| Run agent turn | `openclaw agent --to +15555550123 --message "Hello"` |
-| Check health | `openclaw health` |
-| Run diagnostics | `openclaw doctor` |
-| View logs | `openclaw logs --follow` |
+| Check status | `openclaw gateway status` |
+| View config | `openclaw config get <path>` |
+| Edit config | `openclaw config set <path> <value>` |
+| Add channel | `openclaw channels add --channel telegram --token <token>` |
 | List agents | `openclaw agents list` |
-| Add agent | `openclaw agents add --workspace ~/.openclaw/workspace-work` |
+| Create agent | `openclaw agents add <name> --workspace <dir>` |
+| Restart gateway | `openclaw gateway restart` |
+| View logs | `openclaw logs --follow` |
 
-### Config file locations
-
-- **Main config**: `~/.openclaw/openclaw.json` (JSON5 format)
-- **Workspace**: `~/.openclaw/workspace` (default; contains AGENTS.md, SOUL.md, TOOLS.md, BOOTSTRAP.md, IDENTITY.md, USER.md)
-- **Sessions**: `~/.openclaw/agents/<agentId>/sessions/<sessionId>.jsonl`
-- **State directory**: `~/.openclaw` (override with `OPENCLAW_STATE_DIR`)
-- **Dev mode**: `~/.openclaw-dev` (use `--dev` flag)
-
-### Config structure (minimal)
+### Config file structure
 
 ```json5
 {
   agents: {
     defaults: {
       workspace: "~/.openclaw/workspace",
-      model: { primary: "anthropic/claude-sonnet-4-6" }
-    }
+      model: { primary: "anthropic/claude-sonnet-4-6" },
+      skills: ["github", "web-search"],
+    },
+    list: [
+      { id: "main", default: true },
+      { id: "work", workspace: "~/.openclaw/workspace-work" },
+    ],
   },
   channels: {
-    whatsapp: { allowFrom: ["+15555550123"] },
-    telegram: { botToken: "123:abc" }
-  }
+    whatsapp: { allowFrom: ["+15555550123"], groups: { "*": { requireMention: true } } },
+    telegram: { botToken: "123:abc", dmPolicy: "pairing" },
+    discord: { botToken: "token", dmPolicy: "allowlist" },
+  },
+  gateway: { port: 18789, auth: { token: "secret" } },
+  tools: { profile: "coding", allow: ["browser", "exec"], deny: [] },
 }
 ```
 
-### Channel setup patterns
+### Workspace files (injected into agent context)
 
-| Channel | Key config | Example |
-|---------|-----------|---------|
-| WhatsApp | `allowFrom`, `groups` | `channels.whatsapp: { allowFrom: ["+15555550123"], groups: { "*": { requireMention: true } } }` |
-| Telegram | `botToken`, `dmPolicy` | `channels.telegram: { botToken: "123:abc", dmPolicy: "pairing" }` |
-| Discord | `botToken`, `guildId` | `channels.discord: { botToken: "abc", guildId: "123" }` |
-| Slack | `botToken`, `appToken` | `channels.slack: { botToken: "xoxb-...", appToken: "xapp-..." }` |
-| Signal | `phoneNumber`, `password` | `channels.signal: { phoneNumber: "+15555550123", password: "..." }` |
+| File | Purpose |
+|------|---------|
+| `AGENTS.md` | Operating instructions and memory |
+| `SOUL.md` | Persona, boundaries, tone |
+| `TOOLS.md` | User-maintained tool notes and conventions |
+| `IDENTITY.md` | Agent name, emoji, theme |
+| `USER.md` | User profile and preferred address |
+| `BOOTSTRAP.md` | One-time first-run ritual (deleted after) |
+| `MEMORY.md` | Long-term memory and recall |
 
-### Tool configuration
+### Tool groups (for allow/deny)
 
-```json5
-{
-  tools: {
-    profile: "coding",  // full | coding | messaging | minimal
-    allow: ["group:fs", "browser", "web_search"],
-    deny: ["exec"],
-    byProvider: {
-      "google-antigravity": { profile: "minimal" }
-    }
-  }
-}
-```
-
-### Tool groups
-
-| Group | Includes |
-|-------|----------|
-| `group:runtime` | exec, process, code_execution |
+| Group | Tools |
+|-------|-------|
 | `group:fs` | read, write, edit, apply_patch |
+| `group:runtime` | exec, process, code_execution |
 | `group:web` | web_search, x_search, web_fetch |
 | `group:ui` | browser, canvas |
 | `group:sessions` | sessions_list, sessions_history, subagents |
-| `group:messaging` | message |
 | `group:media` | image, image_generate, music_generate, video_generate, tts |
+| `group:messaging` | message |
+| `group:automation` | cron, gateway |
 
 ## Decision guidance
 
 ### When to use X vs Y
 
-| Decision | Option A | Option B | Use A when | Use B when |
-|----------|----------|----------|-----------|-----------|
-| **DM access** | `dmPolicy: "pairing"` | `dmPolicy: "allowlist"` | First-time users should approve access | You have a fixed list of allowed senders |
-| **Group mentions** | `requireMention: true` | `requireMention: false` | Avoid spam in busy groups | Bot should respond to all group messages |
-| **Session scope** | `dmScope: "per-peer"` | `dmScope: "main"` | Multi-user setup; isolate conversations | Single user; shared context across channels |
-| **Tool access** | `profile: "coding"` | `profile: "messaging"` | Agent needs file/exec/web access | Agent only sends messages |
-| **Sandboxing** | `sandbox.mode: "non-main"` | `sandbox.mode: "off"` | Untrusted agents or high-risk tools | Trusted agent; performance critical |
-| **Config reload** | `reload.mode: "hybrid"` | `reload.mode: "hot"` | Auto-restart on critical changes | Manual control; log warnings only |
-| **Multi-agent** | Multiple agents + bindings | Single agent | Different workspaces/personas per channel | One agent handles all channels |
+| Scenario | Use | Why |
+|----------|-----|-----|
+| **First time setup** | `openclaw onboard` | Interactive wizard handles all choices |
+| **Editing one config value** | `openclaw config set` | Faster than editing JSON directly |
+| **Large config changes** | Edit `~/.openclaw/openclaw.json` directly | Batch changes, then hot-reload applies |
+| **Restricting tools globally** | `tools.profile: "coding"` | Baseline for all agents |
+| **Restricting tools per agent** | `agents.list[].tools.profile` | Override defaults for one agent |
+| **Single shared agent** | `agents.defaults.workspace` | Simplest setup |
+| **Multiple isolated agents** | `agents.list[]` with separate workspaces | Each agent has own sessions and memory |
+| **DM safety: known users** | `dmPolicy: "allowlist"` + `allowFrom` | Explicit control |
+| **DM safety: new users** | `dmPolicy: "pairing"` | One-time approval code per sender |
+| **Group mention gating** | `channels.<provider>.groups` + `mentionPatterns` | Prevent spam in groups |
+| **Debugging config** | `openclaw doctor` | Detects and fixes common issues |
+| **Debugging channels** | `openclaw channels status --probe` | Live health check per account |
 
 ## Workflow
 
-### Typical task: Set up a new channel
+1. **Install and onboard**
+   - Run `openclaw onboard --install-daemon`
+   - Choose a model provider and API key
+   - Set gateway port and auth token
+   - Verify with `openclaw gateway status`
 
-1. **Check current channels**: `openclaw channels list`
-2. **Gather credentials**: Get bot token, API key, or auth from the platform (Telegram BotFather, Discord Developer Portal, etc.)
-3. **Add the channel**: `openclaw channels add --channel telegram --token $BOT_TOKEN` (interactive) or edit config directly
-4. **Set access policy**: Add `dmPolicy: "pairing"` or `allowFrom: [...]` to `channels.<provider>` in config
-5. **Verify**: `openclaw channels status --probe` to test connectivity
-6. **Test**: Send a message from the channel and confirm the agent responds
+2. **Configure the first channel**
+   - Run `openclaw channels add --channel telegram --token <bot-token>`
+   - Or edit `channels.telegram` in `~/.openclaw/openclaw.json`
+   - Test with `openclaw channels status --probe`
 
-### Typical task: Configure tool access
+3. **Set up agent workspace**
+   - Create `~/.openclaw/workspace/` if missing
+   - Edit `AGENTS.md` with operating instructions
+   - Edit `SOUL.md` with persona and boundaries
+   - Edit `IDENTITY.md` with agent name and emoji
 
-1. **Read current config**: `openclaw config get tools`
-2. **Choose a profile**: `full` (unrestricted), `coding` (file/exec/web), `messaging` (send only), or `minimal` (status only)
-3. **Set profile**: `openclaw config set tools.profile coding`
-4. **Add exceptions**: `openclaw config set tools.deny '["exec"]'` to block specific tools
-5. **Verify**: `openclaw health` or check agent behavior in chat
+4. **Configure tools and skills**
+   - Set `tools.profile` to `coding`, `messaging`, or `minimal`
+   - Use `tools.allow` / `tools.deny` for fine-grained control
+   - Install skills with `openclaw skills install <slug>`
+   - Verify with `openclaw skills check`
 
-### Typical task: Create a multi-agent setup
+5. **Test and iterate**
+   - Open `openclaw dashboard` and send a test message
+   - Check logs with `openclaw logs --follow`
+   - Adjust config and let hot-reload apply changes
+   - Use `openclaw doctor` to diagnose issues
 
-1. **Add new agent**: `openclaw agents add --workspace ~/.openclaw/workspace-work --name work`
-2. **Set up workspace**: Create `AGENTS.md`, `SOUL.md`, etc. in the new workspace
-3. **Bind to channels**: `openclaw agents bind --agent work --bind "slack:work-account"`
-4. **Test routing**: Send a message from the bound channel; verify it routes to the work agent
-5. **Verify isolation**: Check that sessions are separate: `openclaw sessions list --agent work`
-
-### Typical task: Troubleshoot gateway issues
-
-1. **Check status**: `openclaw gateway status` (service running?)
-2. **Run diagnostics**: `openclaw doctor` (config valid? channels healthy?)
-3. **View logs**: `openclaw logs --follow` (real-time errors)
-4. **Check health**: `openclaw health --verbose` (live probe of channels)
-5. **Restart if needed**: `openclaw gateway restart` (apply pending config changes)
+6. **Add more channels or agents**
+   - For channels: `openclaw channels add --channel <name>`
+   - For agents: `openclaw agents add <id> --workspace <dir>`
+   - Set up routing with `agents.list[]` and `bindings`
 
 ## Common gotchas
 
-- **Config validation is strict**: Unknown keys or malformed types cause the Gateway to refuse to start. Run `openclaw doctor` to see exact errors.
-- **JSON5 syntax**: Config uses JSON5 (comments, trailing commas allowed), not plain JSON. Quote keys only if they contain special characters.
-- **Model refs use `provider/model` format**: `anthropic/claude-sonnet-4-6`, not just `claude-sonnet-4-6`. Omitting the provider falls back to the default.
-- **Workspace must exist**: `agents.defaults.workspace` must point to a valid directory. Run `openclaw setup` to initialize it.
-- **Channel tokens are secrets**: Store bot tokens in env vars or SecretRef objects, not plaintext in config. Use `${BOT_TOKEN}` substitution or `{ source: "env", id: "BOT_TOKEN" }`.
-- **Hot reload doesn't restart for all changes**: Gateway server config (`gateway.port`, `gateway.auth`, etc.) requires a manual restart. Use `reload.mode: "hybrid"` for auto-restart on critical changes.
-- **Session scoping affects isolation**: `dmScope: "main"` shares context across all DMs; `dmScope: "per-peer"` isolates per sender. Choose based on your use case.
-- **Tool allow/deny is case-sensitive**: Use exact tool names (`exec`, not `bash`; `web_search`, not `search`).
-- **Group mention patterns are regex**: `mentionPatterns: ["@openclaw", "openclaw"]` uses regex matching. Escape special chars if needed.
-- **Pairing codes are one-time**: Once a sender approves pairing, they're added to the allow store. Pairing codes don't expire; they're consumed on first use.
-- **Cron jobs need `cron.enabled: true`**: Scheduled jobs won't run unless cron is explicitly enabled in config.
-- **Sandboxing requires Docker**: `sandbox.mode: "non-main"` needs Docker running. Check with `docker ps` or disable sandboxing if Docker isn't available.
+- **Config validation is strict**: Unknown keys or malformed types cause the gateway to refuse to start. Run `openclaw doctor` to see exact errors.
+- **Workspace must exist**: If `agents.defaults.workspace` points to a missing directory, create it first or run `openclaw setup`.
+- **Channel tokens are secrets**: Store in env vars or use SecretRef (`source: "env"`) in config, not plaintext.
+- **Hot-reload doesn't restart for all changes**: Gateway server changes (port, auth, TLS) require manual restart. Use `openclaw gateway restart`.
+- **DM allowlists are per-channel**: Setting `allowFrom` on WhatsApp doesn't affect Telegram. Configure each channel separately.
+- **Group mention patterns are regex**: Use safe patterns like `@openclaw` or `openclaw` — avoid complex regex that could break.
+- **Sessions are scoped by default**: Direct messages collapse into `main` session; groups are isolated. Change with `session.dmScope`.
+- **Skills must be installed**: Just adding a skill folder doesn't enable it. Use `openclaw skills install` or place in `~/.openclaw/skills/`.
+- **Tool groups are case-sensitive**: Use `group:fs`, not `group:FS`.
+- **Sandbox requires Docker**: If `agents.defaults.sandbox.mode` is set, run `scripts/sandbox-setup.sh` first.
+- **Model refs need provider prefix**: Use `anthropic/claude-sonnet-4-6`, not just `claude-sonnet-4-6`.
+- **Env var substitution in config**: Use `${VAR_NAME}` syntax; missing vars throw errors at load time.
 
 ## Verification checklist
 
-Before submitting work with OpenClaw:
+Before submitting work:
 
-- [ ] **Config is valid**: Run `openclaw doctor` with no errors
-- [ ] **Gateway is running**: `openclaw gateway status` shows "running"
-- [ ] **Channels are healthy**: `openclaw channels status --probe` shows all channels connected
-- [ ] **Agent responds**: Send a test message and verify the agent replies
-- [ ] **Sessions are isolated** (if multi-agent): `openclaw sessions list --agent <id>` shows correct agent's sessions
-- [ ] **Tools are accessible**: Test a tool the agent should have access to (e.g., `/status` for session_status)
-- [ ] **Config changes applied**: If you edited config, verify with `openclaw config get <path>` or check Control UI
-- [ ] **Logs are clean**: `openclaw logs --limit 50` shows no ERROR or WARN entries (INFO is normal)
-- [ ] **Workspace files exist**: Check `~/.openclaw/workspace/AGENTS.md`, `SOUL.md`, etc. are present
-- [ ] **Credentials are set**: Verify model provider API keys are configured (check `openclaw models status`)
+- [ ] Config passes validation: `openclaw config validate` returns no errors
+- [ ] Gateway is running: `openclaw gateway status` shows `listening`
+- [ ] Channels are healthy: `openclaw channels status --probe` shows `works` or `ok`
+- [ ] Agent workspace exists: `ls ~/.openclaw/workspace/` shows AGENTS.md, SOUL.md, etc.
+- [ ] Skills are ready: `openclaw skills check` shows no missing requirements
+- [ ] Tools are allowed: `openclaw config get tools.allow` includes needed tools
+- [ ] Test message works: Send a message via the dashboard or channel and verify response
+- [ ] Logs are clean: `openclaw logs --limit 50` shows no errors or warnings
+- [ ] Hot-reload applied: If you edited config directly, wait 1–2 seconds and verify with `openclaw config get`
 
 ## Resources
 
-- **Full page-by-page navigation**: https://docs.openclaw.ai/llms.txt
-- **Configuration reference**: https://docs.openclaw.ai/gateway/configuration-reference
-- **CLI reference**: https://docs.openclaw.ai/cli/index
-- **Channel setup guides**: https://docs.openclaw.ai/channels (Discord, Telegram, WhatsApp, Slack, etc.)
-- **Multi-agent routing**: https://docs.openclaw.ai/concepts/multi-agent
-- **Troubleshooting**: https://docs.openclaw.ai/gateway/troubleshooting
+- **Full navigation**: [docs.openclaw.ai/llms.txt](https://docs.openclaw.ai/llms.txt) — comprehensive page-by-page index for agent navigation
+- **Configuration reference**: [docs.openclaw.ai/gateway/configuration-reference](https://docs.openclaw.ai/gateway/configuration-reference) — every config field with defaults and examples
+- **CLI reference**: [docs.openclaw.ai/cli/index](https://docs.openclaw.ai/cli/index) — all commands, subcommands, and options
+- **Channels setup**: [docs.openclaw.ai/channels](https://docs.openclaw.ai/channels) — platform-specific guides for Discord, Telegram, WhatsApp, etc.
 
 ---
 

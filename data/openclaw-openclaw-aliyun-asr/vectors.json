@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aliyun-asr",
-  "generated_at": "2026-04-11T07:26:53.305Z",
+  "generated_at": "2026-04-12T07:31:52.771Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aliyun-asr#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jixsonwang/aliyun-asr/SKILL.md",
-        "retrieved_at": "2026-04-11T07:26:53.305Z",
+        "retrieved_at": "2026-04-12T07:31:52.771Z",
         "content_sha256": "930fff475bd5c59228a4b6d53946fe4cac84c05b0a912402e4254eda530a5a01"
       }
     }

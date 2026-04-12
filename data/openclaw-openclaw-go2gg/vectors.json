@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-go2gg",
-  "generated_at": "2026-04-11T07:23:22.946Z",
+  "generated_at": "2026-04-12T07:30:03.533Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-go2gg#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rakesh1002/go2gg/SKILL.md",
-        "retrieved_at": "2026-04-11T07:23:22.946Z",
+        "retrieved_at": "2026-04-12T07:30:03.533Z",
         "content_sha256": "491ef3647871865ff612f987fa1e42d15cbe762ab5584cafa847e600d599e302"
       }
     }

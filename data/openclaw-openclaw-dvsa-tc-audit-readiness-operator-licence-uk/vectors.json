@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dvsa-tc-audit-readiness-operator-licence-uk",
-  "generated_at": "2026-04-11T07:23:04.371Z",
+  "generated_at": "2026-04-12T07:29:53.179Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dvsa-tc-audit-readiness-operator-licence-uk#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/dvsa-tc-audit-readiness-operator-licence-uk/SKILL.md",
-        "retrieved_at": "2026-04-11T07:23:04.371Z",
+        "retrieved_at": "2026-04-12T07:29:53.179Z",
         "content_sha256": "8cdb3208a10b616cd01f164a8926acd22ad050c0ef00632ac35281bec9698cbf"
       }
     }

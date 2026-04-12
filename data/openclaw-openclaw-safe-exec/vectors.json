@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-safe-exec",
-  "generated_at": "2026-04-11T07:24:47.203Z",
+  "generated_at": "2026-04-12T07:30:49.241Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-safe-exec#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ottttto/safe-exec/SKILL.md",
-        "retrieved_at": "2026-04-11T07:24:47.203Z",
+        "retrieved_at": "2026-04-12T07:30:49.241Z",
         "content_sha256": "a6fa8df7eebee389c215f2ebf4488b7cc420e450708406bda4a2a3524fdde816"
       }
     }

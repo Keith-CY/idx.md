@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-imap-email",
-  "generated_at": "2026-04-11T07:23:32.325Z",
+  "generated_at": "2026-04-12T07:30:08.932Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-imap-email#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mvarrieur/imap-email/SKILL.md",
-        "retrieved_at": "2026-04-11T07:23:32.325Z",
+        "retrieved_at": "2026-04-12T07:30:08.932Z",
         "content_sha256": "c3cea768612ebb8a25dae07bbc5a5b4dbdf52aee31af7bc2f9c448927b0eb482"
       }
     }

@@ -24,6 +24,9 @@
 | `warm-knowledge` | `infographic` | `vector-illustration` | `warm` | Product showcases, team intros, feature cards, brand content |
 | `edu-visual` | `infographic` | `vector-illustration` | `macaron` | Knowledge summaries, concept explainers, educational articles |
 | `hand-drawn-edu` | `flowchart` | `sketch-notes` | `macaron` | Hand-drawn educational diagrams, process explainers, onboarding visuals |
+| `ink-notes-compare` | `comparison` | `ink-notes` | `mono-ink` | Before/After essays, Traditional vs New, OS-style comparisons, mindset-shift narratives |
+| `ink-notes-flow` | `flowchart` | `ink-notes` | `mono-ink` | Professional process explainers, workforce pipelines, hand-drawn technical walkthroughs |
+| `ink-notes-framework` | `framework` | `ink-notes` | `mono-ink` | System analogies, command-center diagrams, architecture-as-metaphor, tech manifestos |
 
 ### Data & Analysis
 
@@ -60,7 +63,8 @@ Use this table during Step 3 to recommend presets based on Step 2 content analys
 | Tutorial | `tutorial` | `process-flow`, `knowledge-base`, `edu-visual` |
 | Methodology / Framework | `system-design` | `architecture`, `process-flow` |
 | Data / Metrics | `data-report` | `versus`, `tech-explainer` |
-| Comparison / Review | `versus` | `business-compare`, `editorial-poster` |
+| Comparison / Review | `versus` | `business-compare`, `editorial-poster`, `ink-notes-compare` |
+| Manifesto / Mindset shift / Professional visual note | `ink-notes-compare` | `ink-notes-framework`, `ink-notes-flow` |
 | Narrative / Personal | `storytelling` | `lifestyle`, `evolution` |
 | Opinion / Editorial | `opinion-piece` | `cinematic`, `editorial-poster` |
 | Historical / Timeline | `history` | `evolution` |

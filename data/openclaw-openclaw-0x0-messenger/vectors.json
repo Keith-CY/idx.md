@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-0x0-messenger",
-  "generated_at": "2026-04-11T07:26:07.225Z",
+  "generated_at": "2026-04-12T07:31:31.205Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-0x0-messenger#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eijiac24/0x0-messenger/SKILL.md",
-        "retrieved_at": "2026-04-11T07:26:07.225Z",
+        "retrieved_at": "2026-04-12T07:31:31.205Z",
         "content_sha256": "588ecb592d429808249293bfb2cfce6429068987c9ec4865b6ba3274b0e4e4dc"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tts-whatsapp",
-  "generated_at": "2026-04-11T07:25:21.815Z",
+  "generated_at": "2026-04-12T07:31:07.972Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tts-whatsapp#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hopyky/tts-whatsapp/SKILL.md",
-        "retrieved_at": "2026-04-11T07:25:21.815Z",
+        "retrieved_at": "2026-04-12T07:31:07.972Z",
         "content_sha256": "4749bfe81c04b23604c495c938067fd6e96757ab4c28eed5777602763154a804"
       }
     }

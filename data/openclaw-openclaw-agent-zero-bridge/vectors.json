@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-zero-bridge",
-  "generated_at": "2026-04-11T07:26:40.092Z",
+  "generated_at": "2026-04-12T07:31:45.768Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-zero-bridge#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dowingard/agent-zero-bridge/SKILL.md",
-        "retrieved_at": "2026-04-11T07:26:40.092Z",
+        "retrieved_at": "2026-04-12T07:31:45.768Z",
         "content_sha256": "e8a13dba2fe9e7708e940666314e9c7cd333b633792e82872c74166869f93574"
       }
     }

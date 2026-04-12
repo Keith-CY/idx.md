@@ -7,12 +7,10 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying a self-hosted AI agent gateway, configuring
-  multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing
-  agent sessions and memory, setting up automation (cron jobs, webhooks), or
-  controlling tool access and sandboxing. Agents should reach for this skill
-  when working with OpenClaw configuration, CLI commands, channel setup, agent
-  routing, or troubleshooting gateway issues.
+  description: Use when deploying, configuring, or troubleshooting OpenClaw — a
+  self-hosted multi-channel AI agent gateway. Reach for this skill when setting
+  up channels (Discord, Telegram, WhatsApp, etc.), configuring agents and
+  models, managing tools and skills, or working with the CLI and Control UI.
 
   metadata:
       mintlify-proj: clawdbot
@@ -23,17 +21,15 @@ summary: >-
 
   ## Product summary
 
-  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
-  any OS (macOS, Linux, Windows, Docker, Kubernetes). It bridges messaging apps
-  (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft
-  Teams, Google Chat, Feishu, and more) to a single embedded agent runtime. The
-  Gateway is the core process (`openclaw gateway run` or as a service) that
-  manages sessions, routing, channels, and tool execution. Configuration lives
-  in `~/.openclaw/openclaw.json` (JSON5 format). Key CLI commands: `openclaw
-  onboard` (setup), `openclaw configure` (config wizard), `openclaw config
-  get/set` (one-liners), `openclaw gateway status/restart` (service control),
-  `openclaw channels add` (channel setup), `openclaw agent` (run a turn),
-  `openclaw dashboard` (open Control UI). Primary docs: https://docs.openclaw.ai
+  OpenClaw is a self-hosted, multi-channel gateway that connects AI agents to
+  messaging platforms (Discord, Telegram, WhatsApp, Slack, Signal, iMessage,
+  Matrix, and 15+ others). The agent runs on your hardware, processes messages
+  from any connected channel, and responds with tool use, file I/O, web
+  browsing, and custom skills. Key files: `~/.openclaw/openclaw.json` (config),
+  `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md).
+  Primary CLI: `openclaw` with subcommands for setup, channels, config, agents,
+  and gateway management. See [docs.openclaw.ai](https://docs.openclaw.ai) for
+  the full reference.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -41,6 +37,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-11T07:21:39.015Z
-content_sha256: d823edee7dc21c6a2c9f98e72279ae396c69969255ef27e7f97fd3e3ee82e99a
+retrieved_at: 2026-04-12T07:29:12.724Z
+content_sha256: f7e06b3ce92ed7ac33f5485057b818615e95fc3f6d44d7fba443fd1fb3b41e35
 ---

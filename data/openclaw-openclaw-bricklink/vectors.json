@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bricklink",
-  "generated_at": "2026-04-11T07:27:21.845Z",
+  "generated_at": "2026-04-12T07:32:08.150Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bricklink#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/bricklink/SKILL.md",
-        "retrieved_at": "2026-04-11T07:27:21.845Z",
+        "retrieved_at": "2026-04-12T07:32:08.150Z",
         "content_sha256": "0538ad131e288eccf854d7908bdc8797c444347b2060771f112c0e542d36c709"
       }
     }

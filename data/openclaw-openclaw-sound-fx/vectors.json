@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-sound-fx",
-  "generated_at": "2026-04-11T07:25:02.268Z",
+  "generated_at": "2026-04-12T07:30:57.071Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-sound-fx#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/javicasper/sound-fx/SKILL.md",
-        "retrieved_at": "2026-04-11T07:25:02.268Z",
+        "retrieved_at": "2026-04-12T07:30:57.071Z",
         "content_sha256": "930f97510b5c1b7050884443335b8182e8febe9eabaa9ea983e5d46a3f317cba"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-postiz",
-  "generated_at": "2026-04-11T07:24:28.422Z",
+  "generated_at": "2026-04-12T07:30:39.287Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-postiz#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nevo-david/postiz/SKILL.md",
-        "retrieved_at": "2026-04-11T07:24:28.422Z",
+        "retrieved_at": "2026-04-12T07:30:39.287Z",
         "content_sha256": "99b608a3c9a4cedcf28233b672a8a9a5774012dbe1fa9202ee0fa0f7cd5177b9"
       }
     }

@@ -71,29 +71,24 @@ Use the returned year for all date-filtered queries and recency checks. Do NOT a
 
 **CRITICAL: Use correct tool and parameters to avoid errors**
 
-Choose ONE search approach per research session:
-
-**Option A: Use WebSearch (built-in, no MCP required)**
-- Standard web search with simple query string
-- Parameters: `query` (required)
-- Optional: `allowed_domains`, `blocked_domains`
-- Example: `WebSearch(query="quantum computing 2025")`
-
-**Option B: Use Exa MCP (if available, more powerful)**
-- Advanced semantic + keyword search
-- Tool name: `mcp__Exa__exa_search`
-- Parameters: `query` (required), `type` (auto/neural/keyword), `num_results`, `start_published_date`, `include_domains`
-- Example: `mcp__Exa__exa_search(query="quantum computing", type="neural", num_results=10)`
-
-**Option C: Use search-cli (if installed, multi-provider)**
+**Primary: search-cli (multi-provider, always use first)**
 - Unified CLI aggregating Brave, Serper, Exa, Jina, and Firecrawl
-- Install: `brew tap 199-biotechnologies/tap && brew install search-cli`
-- Requires API keys: `search config set keys.[provider] YOUR_KEY`
 - Auto-detects best provider per query type (academic, news, general, people)
 - JSON output for structured processing: `search "query" --json`
 - Modes: general, news, academic, scholar, patents, people, images, extract, scrape
 - Example: `search "quantum computing 2025" -m academic --json -c 15`
-- **First-time setup:** Ask user if they want to install search-cli and configure API keys
+- For page content extraction: `search "URL" -m extract --json`
+- For scraping: `search "URL" -m scrape --json`
+- Run via Bash tool: `search "query" --json -c 10`
+
+**Fallback: WebSearch (if search-cli fails or is unavailable)**
+- Built-in Claude web search, no setup required
+- Parameters: `query` (required), optional `allowed_domains`, `blocked_domains`
+- Use when: search-cli returns errors, rate-limited, or for domain-restricted queries
+
+**Optional: Exa MCP (if configured, for semantic/neural search)**
+- Tool name: `mcp__Exa__exa_search`
+- Use for semantic exploration alongside search-cli keyword results
 
 
 **NEVER mix parameter styles** - this causes "Invalid tool parameters" errors.
@@ -112,14 +107,24 @@ Use Task tool with general-purpose agents (3-5 agents) for:
 ```
 This prevents synthesis fatigue when merging results from 3-5 agents.
 
-**Example parallel execution (using WebSearch):**
+**Evidence persistence (v3.0):** After each retrieval batch, persist evidence immediately:
+```bash
+# Register the source first (returns stable source_id)
+python scripts/citation_manager.py register-source --json '{"raw_url": "...", "title": "..."}' --dir [folder]
+
+# Then persist each evidence span from that source
+python scripts/evidence_store.py add --json '{"source_id": "...", "quote": "exact text", "evidence_type": "direct_quote", "locator": "page 5"}' --dir [folder]
 ```
-[Single message with multiple tool calls]
-- WebSearch(query="quantum computing 2025 state of the art")
-- WebSearch(query="quantum computing limitations challenges")
-- WebSearch(query="quantum computing commercial applications [CURRENT_YEAR]")
-- WebSearch(query="quantum computing vs classical comparison")
-- WebSearch(query="quantum error correction research", allowed_domains=["arxiv.org", "scholar.google.com"])
+Evidence must not live only in model context — it must be persisted to `evidence.jsonl` before synthesis begins. This ensures continuation agents and claim-support verification can access the full evidence trail.
+
+**Example parallel execution (using search-cli via Bash):**
+```
+[Single message with multiple Bash tool calls]
+- Bash: search "quantum computing 2026 state of the art" --json -c 10
+- Bash: search "quantum computing limitations challenges" --json -c 10
+- Bash: search "quantum computing commercial applications 2026" -m news --json -c 10
+- Bash: search "quantum computing vs classical comparison" --json -c 10
+- Bash: search "quantum error correction research" -m academic --json -c 10
 - Task(subagent_type="general-purpose", description="Analyze quantum computing papers", prompt="Deep dive into quantum computing academic papers from [CURRENT_YEAR], extract key findings and methodologies")
 - Task(subagent_type="general-purpose", description="Industry analysis", prompt="Analyze quantum computing industry reports and market data, identify commercial applications")
 - Task(subagent_type="general-purpose", description="Technical challenges", prompt="Extract technical limitations and challenges from quantum computing research")
@@ -173,8 +178,8 @@ As results arrive:
 - Prioritize high-credibility sources (>80) for core claims
 
 **Techniques:**
-- Use WebSearch for current information (primary tool)
-- Use search-cli for multi-provider aggregated search (if installed)
+- Use search-cli for all searches (primary tool, multi-provider)
+- Fall back to WebSearch if search-cli fails or is rate-limited
 - Use WebFetch for deep dives into specific sources (secondary)
 - Use Exa search (via WebSearch with type="neural") for semantic exploration
 - Use Grep/Read for local documentation

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-update-plus",
-  "generated_at": "2026-04-11T07:25:25.618Z",
+  "generated_at": "2026-04-12T07:31:10.036Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-update-plus#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hopyky/update-plus/SKILL.md",
-        "retrieved_at": "2026-04-11T07:25:25.618Z",
+        "retrieved_at": "2026-04-12T07:31:10.036Z",
         "content_sha256": "c92003a6c6dddf670bd089ef880e5598dac2b71452f9f1963326236047e5d822"
       }
     }

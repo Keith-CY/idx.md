@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-3d-cog",
-  "generated_at": "2026-04-11T07:26:09.432Z",
+  "generated_at": "2026-04-12T07:31:32.115Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-3d-cog#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/3d-cog/SKILL.md",
-        "retrieved_at": "2026-04-11T07:26:09.432Z",
+        "retrieved_at": "2026-04-12T07:31:32.115Z",
         "content_sha256": "6279e6ffbb14974fe91dbed91e501ab39e845d29a382a2e1073f823eb6526dde"
       }
     }

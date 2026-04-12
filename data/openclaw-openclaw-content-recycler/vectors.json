@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-content-recycler",
-  "generated_at": "2026-04-11T07:27:38.999Z",
+  "generated_at": "2026-04-12T07:32:18.429Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-content-recycler#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/michael-laffin/content-recycler/SKILL.md",
-        "retrieved_at": "2026-04-11T07:27:38.999Z",
+        "retrieved_at": "2026-04-12T07:32:18.429Z",
         "content_sha256": "41ebb4e8f6a754abdcd5454e30cc5412a64fc95c5edca2d13b51d63e18765f5b"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltbook-registry",
-  "generated_at": "2026-04-11T07:28:08.124Z",
+  "generated_at": "2026-04-12T07:32:34.457Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltbook-registry#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/drjmz/moltbook-registry/SKILL.md",
-        "retrieved_at": "2026-04-11T07:28:08.124Z",
+        "retrieved_at": "2026-04-12T07:32:34.457Z",
         "content_sha256": "7ffbb54e871a49ac07bab9bfd336fbae3aa05901c2c0374fda98807fdb49bb4f"
       }
     }

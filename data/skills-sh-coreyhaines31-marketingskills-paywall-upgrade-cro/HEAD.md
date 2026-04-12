@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/paywall-upgrade-cr
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-04-11T07:22:22.869Z
+retrieved_at: 2026-04-12T07:29:31.763Z
 content_sha256: 5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19
 ---

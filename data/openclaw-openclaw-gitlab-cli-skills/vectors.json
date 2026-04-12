@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gitlab-cli-skills",
-  "generated_at": "2026-04-11T07:23:21.436Z",
+  "generated_at": "2026-04-12T07:30:02.710Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gitlab-cli-skills#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vince-winkintel/gitlab-cli-skills/SKILL.md",
-        "retrieved_at": "2026-04-11T07:23:21.436Z",
+        "retrieved_at": "2026-04-12T07:30:02.710Z",
         "content_sha256": "241fd2eea6857f6af0a65ee0fffc54f31d5084f21f7a9919f6ee481a98ec6123"
       }
     }
