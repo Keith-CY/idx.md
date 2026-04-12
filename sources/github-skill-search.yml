@@ -308,6 +308,18 @@
     - github-repo-buildwithclaude
   upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
 - type: skills
+  slug: github-skill-davila7-claude-code-templates-matchms
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/matchms/SKILL.md
+  title: matchms
+  summary: Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-davila7
+    - github-repo-claude-code-templates
+  upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/matchms/SKILL.md
+- type: skills
   slug: github-skill-davila7-claude-code-templates-scientific-schematics
   source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
   title: scientific-schematics
@@ -460,6 +472,23 @@
     - github-repo-claude-skills
   upstream_ref: https://github.com/Jeffallan/claude-skills/blob/main/skills/websocket-engineer/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-castai-install-auth
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/castai-pack/skills/castai-install-auth/SKILL.md
+  title: castai-install-auth
+  summary: |-
+    Install and configure CAST AI agent on a Kubernetes cluster with API key authentication.
+    Use when onboarding a cluster to CAST AI, setting up Helm charts,
+    or configuring Terraform provider authentication.
+    Trigger with phrases like "install cast ai", "connect cluster to cast ai",
+    "cast ai setup", "cast ai api key", "cast ai helm install".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/castai-pack/skills/castai-install-auth/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
   title: code-documentation-analyzer
@@ -474,6 +503,18 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-configure
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/mcp/slack-channel/skills/configure/SKILL.md
+  title: configure
+  summary: Configure Slack channel tokens (bot token + app-level token)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/mcp/slack-channel/skills/configure/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md
@@ -509,6 +550,20 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-performance-tuning
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-performance-tuning/SKILL.md
+  title: juicebox-performance-tuning
+  summary: |-
+    Optimize Juicebox performance.
+    Trigger: "juicebox performance", "optimize juicebox".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-performance-tuning/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md
   title: klingai-pricing-basics
@@ -540,6 +595,37 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-lokalise-migration-deep-dive
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/lokalise-pack/skills/lokalise-migration-deep-dive/SKILL.md
+  title: lokalise-migration-deep-dive
+  summary: |-
+    Execute major migration to Lokalise from other TMS platforms with data migration strategies.
+    Use when migrating to Lokalise from competitors, performing data imports,
+    or re-platforming existing translation management to Lokalise.
+    Trigger with phrases like "migrate to lokalise", "lokalise migration",
+    "switch to lokalise", "lokalise import", "lokalise replatform".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/lokalise-pack/skills/lokalise-migration-deep-dive/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-navan-migration-deep-dive
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/navan-pack/skills/navan-migration-deep-dive/SKILL.md
+  title: navan-migration-deep-dive
+  summary: |-
+    Use when planning or executing a migration from SAP Concur or legacy TMC to Navan — data migration, user provisioning, policy recreation, and cutover planning.
+    Trigger with "navan migration deep dive" or "migrate to navan from concur".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/navan-pack/skills/navan-migration-deep-dive/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
@@ -1317,6 +1403,18 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-webiny-webiny-js-webiny-skill-generator
+  source_url: https://raw.githubusercontent.com/webiny/webiny-js/next/.claude/skills/skills-generator/SKILL.md
+  title: webiny-skill-generator
+  summary: "Generate, update, and maintain abstraction catalogs from the Webiny platform's public API. Use this skill whenever you need to: scan the `webiny` package to discover exported EventHandlers and UseCases, regenerate catalog JSON files after a platform release, check which abstractions are available, or add support for a new abstraction type."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-webiny
+    - github-repo-webiny-js
+  upstream_ref: https://github.com/webiny/webiny-js/blob/next/.claude/skills/skills-generator/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
