@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/differential-review
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-12T07:29:26.261Z
+retrieved_at: 2026-04-13T07:34:07.026Z
 content_sha256: 16b335d24cf2145e3dc4a37f50056550d29db2efa20e6df78fec95ec1e6fb0b4
 ---

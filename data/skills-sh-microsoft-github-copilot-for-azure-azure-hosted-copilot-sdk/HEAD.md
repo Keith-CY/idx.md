@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-hosted-
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-04-12T07:32:50.712Z
+retrieved_at: 2026-04-13T07:38:06.008Z
 content_sha256: b3943c725135fcf780a2a5d768ad3c7ef1ea9485b4c0585be43b788bc6ab44f5
 ---

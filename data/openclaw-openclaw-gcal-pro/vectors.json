@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gcal-pro",
-  "generated_at": "2026-04-12T07:32:28.926Z",
+  "generated_at": "2026-04-13T07:37:42.654Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gcal-pro#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bilalmohamed187-cpu/gcal-pro/SKILL.md",
-        "retrieved_at": "2026-04-12T07:32:28.926Z",
+        "retrieved_at": "2026-04-13T07:37:42.654Z",
         "content_sha256": "02fabcb1006fe0be170ad705468753239adbd7335837b04f52e9a3ff351e766a"
       }
     }

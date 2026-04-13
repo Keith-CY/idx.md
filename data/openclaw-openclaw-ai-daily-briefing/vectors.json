@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-daily-briefing",
-  "generated_at": "2026-04-12T07:31:50.214Z",
+  "generated_at": "2026-04-13T07:36:58.637Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-daily-briefing#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jeffjhunter/ai-daily-briefing/SKILL.md",
-        "retrieved_at": "2026-04-12T07:31:50.214Z",
+        "retrieved_at": "2026-04-13T07:36:58.637Z",
         "content_sha256": "3f40609ff40386fdda542b257135b96c09cdaf00f02c30d54ba9dcca4adac0b9"
       }
     }

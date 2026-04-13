@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-webchat-audio-notifications",
-  "generated_at": "2026-04-12T07:31:15.048Z",
+  "generated_at": "2026-04-13T07:36:13.147Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-webchat-audio-notifications#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/brokemac79/webchat-audio-notifications/SKILL.md",
-        "retrieved_at": "2026-04-12T07:31:15.048Z",
+        "retrieved_at": "2026-04-13T07:36:13.147Z",
         "content_sha256": "b68f0ff64d6bd7be1c38cc0cc9dedb0c3bde0d118f1430242ce2f04c00aa3b6f"
       }
     }

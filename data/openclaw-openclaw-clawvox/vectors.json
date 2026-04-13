@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawvox",
-  "generated_at": "2026-04-12T07:29:44.519Z",
+  "generated_at": "2026-04-13T07:34:27.723Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawvox#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/abhishek-official1/clawvox/SKILL.md",
-        "retrieved_at": "2026-04-12T07:29:44.519Z",
+        "retrieved_at": "2026-04-13T07:34:27.723Z",
         "content_sha256": "a79eaefa628ecff47f42ae8975bc2ea02546a3b2a0cfffa0b1539b2d8e0ddf8f"
       }
     }

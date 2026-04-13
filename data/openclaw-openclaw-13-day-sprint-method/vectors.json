@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-13-day-sprint-method",
-  "generated_at": "2026-04-12T07:31:31.425Z",
+  "generated_at": "2026-04-13T07:36:32.683Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-13-day-sprint-method#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/galizki/13-day-sprint-method/SKILL.md",
-        "retrieved_at": "2026-04-12T07:31:31.425Z",
+        "retrieved_at": "2026-04-13T07:36:32.683Z",
         "content_sha256": "7ed528bd31a1cc9105e1afe792cc83e7e5acc48e2898f3b4259789a2c75b02c7"
       }
     }

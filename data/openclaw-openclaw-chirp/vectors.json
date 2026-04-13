@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-chirp",
-  "generated_at": "2026-04-12T07:29:41.560Z",
+  "generated_at": "2026-04-13T07:34:24.295Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-chirp#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zizi-cat/chirp/SKILL.md",
-        "retrieved_at": "2026-04-12T07:29:41.560Z",
+        "retrieved_at": "2026-04-13T07:34:24.295Z",
         "content_sha256": "8a98f58e41267c0196e73ebca3bd7de201b889872fc1e326208bed399a4ce5ac"
       }
     }

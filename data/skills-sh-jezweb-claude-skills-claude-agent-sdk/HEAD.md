@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.102
+
+  - Updated to parity with Claude Code v2.1.102
+
   ## 0.2.101
 
   - Security: bumped `@anthropic-ai/sdk` to `^0.81.0` and
@@ -23,10 +27,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.100
 
   ## 0.2.99
-
-  - Updated to parity with Claude Code v2.1.99
-
-  ## 0.2.98
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-12T07:29:27.114Z
-content_sha256: 6c146f0961599c0efb7e88dfbc31a2fcc5b2e12e7ce89fec85c9c5cb8ab1807f
+retrieved_at: 2026-04-13T07:34:07.651Z
+content_sha256: 7632828e7746dd8e9763c9d3bf007d15b215ae707087a3dc9662dfde7311201d
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-trmnl",
-  "generated_at": "2026-04-12T07:31:07.585Z",
+  "generated_at": "2026-04-13T07:36:04.287Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-trmnl#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/peetzweg/trmnl/SKILL.md",
-        "retrieved_at": "2026-04-12T07:31:07.585Z",
+        "retrieved_at": "2026-04-13T07:36:04.287Z",
         "content_sha256": "f009be05821feb6e89ce69a6a4e4a3c5e46b4ea7514ef77154e2a9e305316aa2"
       }
     }

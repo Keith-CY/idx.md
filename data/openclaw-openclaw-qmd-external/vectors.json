@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-qmd-external",
-  "generated_at": "2026-04-12T07:30:43.280Z",
+  "generated_at": "2026-04-13T07:35:35.214Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-qmd-external#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/levineam/qmd-external/SKILL.md",
-        "retrieved_at": "2026-04-12T07:30:43.280Z",
+        "retrieved_at": "2026-04-13T07:35:35.214Z",
         "content_sha256": "8bd65e25f407d6e4c8288501d1fa48b99666f0fb56a435bbd2a6a5dd6b67c704"
       }
     }

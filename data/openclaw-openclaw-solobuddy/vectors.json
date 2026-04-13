@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-solobuddy",
-  "generated_at": "2026-04-12T07:30:56.446Z",
+  "generated_at": "2026-04-13T07:35:51.703Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-solobuddy#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/humanji7/solobuddy/SKILL.md",
-        "retrieved_at": "2026-04-12T07:30:56.446Z",
+        "retrieved_at": "2026-04-13T07:35:51.703Z",
         "content_sha256": "efe2494b245203227b3e3dc4c5b6020bbeb775018efb988f7a4d1797bbf63d2e"
       }
     }

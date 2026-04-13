@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-glin-profanity",
-  "generated_at": "2026-04-12T07:30:03.114Z",
+  "generated_at": "2026-04-13T07:34:48.274Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-glin-profanity#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thegdsks/glin-profanity/SKILL.md",
-        "retrieved_at": "2026-04-12T07:30:03.114Z",
+        "retrieved_at": "2026-04-13T07:34:48.274Z",
         "content_sha256": "b9391994738344b267f509711f930610aeaf39aac22f5b5969dec98306e43d1c"
       }
     }

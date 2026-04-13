@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fitbit",
-  "generated_at": "2026-04-12T07:29:58.042Z",
+  "generated_at": "2026-04-13T07:34:42.962Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fitbit#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/fitbit/SKILL.md",
-        "retrieved_at": "2026-04-12T07:29:58.042Z",
+        "retrieved_at": "2026-04-13T07:34:42.962Z",
         "content_sha256": "8374284e3110c0e87e2842881f017fa96049447f6723ae08eb2b5916632f7d05"
       }
     }

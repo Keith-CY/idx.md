@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/qa-test-planner
 github_stars: 672
 github_forks: 53
 github_is_organization: true
-retrieved_at: 2026-04-12T07:29:32.005Z
+retrieved_at: 2026-04-13T07:34:12.622Z
 content_sha256: 42072c5db347039476bd1d045e5f7124018d50c4fd48a0d30cb3aceeb301ff68
 ---

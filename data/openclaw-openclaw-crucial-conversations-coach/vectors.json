@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-crucial-conversations-coach",
-  "generated_at": "2026-04-12T07:32:19.838Z",
+  "generated_at": "2026-04-13T07:37:32.778Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-crucial-conversations-coach#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/crucial-conversations-coach/SKILL.md",
-        "retrieved_at": "2026-04-12T07:32:19.838Z",
+        "retrieved_at": "2026-04-13T07:37:32.778Z",
         "content_sha256": "c071ce35cf8f62c711156d67e87ecad5d622bd424e5cc348477d2186d37ebd7c"
       }
     }

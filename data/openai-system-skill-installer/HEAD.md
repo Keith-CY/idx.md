@@ -37,6 +37,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/skill-in
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-12T07:32:41.642Z
+retrieved_at: 2026-04-13T07:37:56.413Z
 content_sha256: df58efeb75a6001d733701e7d73e24dd71b94a2a0016971f0bcfe097217888a5
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ux-researcher-designer",
-  "generated_at": "2026-04-12T07:31:10.556Z",
+  "generated_at": "2026-04-13T07:36:08.069Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ux-researcher-designer#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/ux-researcher-designer/SKILL.md",
-        "retrieved_at": "2026-04-12T07:31:10.556Z",
+        "retrieved_at": "2026-04-13T07:36:08.069Z",
         "content_sha256": "2c7807fe67790ba93ee70b46c89c4a7594e737c7e4413728169c44c7193e9b9c"
       }
     }

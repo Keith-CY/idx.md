@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-letz-ai-letzai-skill-letzai-api",
-  "generated_at": "2026-04-12T07:29:25.824Z",
+  "generated_at": "2026-04-13T07:34:06.627Z",
   "records": [
     {
       "id": "skills/skills-sh-letz-ai-letzai-skill-letzai-api#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/letz-ai/letzai-skill/HEAD/examples/polling_pattern.md",
-        "retrieved_at": "2026-04-12T07:29:25.824Z",
+        "retrieved_at": "2026-04-13T07:34:06.627Z",
         "content_sha256": "dca10944dcb129ae0451aa5a116a56e569c628f2988d043c9bbe3ed558cda02c"
       }
     }

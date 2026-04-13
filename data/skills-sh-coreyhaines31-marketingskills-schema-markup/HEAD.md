@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/schema-markup
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-04-12T07:32:52.298Z
+retrieved_at: 2026-04-13T07:38:07.586Z
 content_sha256: 5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318
 ---

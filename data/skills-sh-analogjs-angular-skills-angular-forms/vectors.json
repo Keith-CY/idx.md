@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-forms",
-  "generated_at": "2026-04-12T07:32:59.939Z",
+  "generated_at": "2026-04-13T07:38:16.561Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-forms#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-forms/references/form-patterns.md",
-        "retrieved_at": "2026-04-12T07:32:59.939Z",
+        "retrieved_at": "2026-04-13T07:38:16.561Z",
         "content_sha256": "8cbd30faf4fe8457e638b85f612720325b68c875860f292155ddd9a93359de93"
       }
     }

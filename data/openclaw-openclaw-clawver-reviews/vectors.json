@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawver-reviews",
-  "generated_at": "2026-04-12T07:32:17.216Z",
+  "generated_at": "2026-04-13T07:37:29.725Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawver-reviews#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nwang783/clawver-reviews/SKILL.md",
-        "retrieved_at": "2026-04-12T07:32:17.216Z",
+        "retrieved_at": "2026-04-13T07:37:29.725Z",
         "content_sha256": "26ee387d28e18004d967ac452b29bb9413e9ef97292549316b05fc9b3a13edc8"
       }
     }
