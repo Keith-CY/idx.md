@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nest-devices",
-  "generated_at": "2026-04-13T07:35:14.571Z",
+  "generated_at": "2026-04-14T07:33:15.166Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nest-devices#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amogower/nest-devices/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:14.571Z",
+        "retrieved_at": "2026-04-14T07:33:15.166Z",
         "content_sha256": "b88ee29b111bbc4fffd3866c6ac1c674675978b7f2083fe2d307535d6f3b2da2"
       }
     }

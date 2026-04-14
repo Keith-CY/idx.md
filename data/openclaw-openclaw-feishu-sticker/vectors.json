@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-feishu-sticker",
-  "generated_at": "2026-04-13T07:34:41.673Z",
+  "generated_at": "2026-04-14T07:32:41.195Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-feishu-sticker#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-sticker/SKILL.md",
-        "retrieved_at": "2026-04-13T07:34:41.673Z",
+        "retrieved_at": "2026-04-14T07:32:41.195Z",
         "content_sha256": "5e0ab9c04034e5b89cae0b7245b81057d9b7efff1d73f910d8fd7f0af67c836f"
       }
     }

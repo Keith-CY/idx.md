@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swiftui-empty-app-init",
-  "generated_at": "2026-04-13T07:37:52.519Z",
+  "generated_at": "2026-04-14T07:36:02.881Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swiftui-empty-app-init#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ignaciocervino/swiftui-empty-app-init/SKILL.md",
-        "retrieved_at": "2026-04-13T07:37:52.519Z",
+        "retrieved_at": "2026-04-14T07:36:02.881Z",
         "content_sha256": "51817d7f4110c0dffd74dee610542c9fbbabfc8b7a8f1001ea3b7edc1128a6d0"
       }
     }

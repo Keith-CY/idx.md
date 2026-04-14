@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-yeet",
-  "generated_at": "2026-04-13T07:37:56.251Z",
+  "generated_at": "2026-04-14T07:36:07.024Z",
   "records": [
     {
       "id": "skills/openai-curated-yeet#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/yeet/SKILL.md",
-        "retrieved_at": "2026-04-13T07:37:56.251Z",
+        "retrieved_at": "2026-04-14T07:36:07.024Z",
         "content_sha256": "4fcb31435d2ab8ebecba78decd4c3489c876209010ab0b5ef5c960cfd299c52a"
       }
     }

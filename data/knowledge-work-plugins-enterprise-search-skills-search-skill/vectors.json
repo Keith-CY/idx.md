@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-enterprise-search-skills-search-skill",
-  "generated_at": "2026-04-13T07:36:26.960Z",
+  "generated_at": "2026-04-14T07:34:30.602Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-enterprise-search-skills-search-skill#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/enterprise-search/skills/search/SKILL.md",
-        "retrieved_at": "2026-04-13T07:36:26.960Z",
+        "retrieved_at": "2026-04-14T07:34:30.602Z",
         "content_sha256": "5330512ac1f71c4526a7cb8a072902053220a924db052fbace20d584d7cf1d52"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-instapaper",
-  "generated_at": "2026-04-13T07:34:55.830Z",
+  "generated_at": "2026-04-14T07:32:55.679Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-instapaper#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vburojevic/instapaper/SKILL.md",
-        "retrieved_at": "2026-04-13T07:34:55.830Z",
+        "retrieved_at": "2026-04-14T07:32:55.679Z",
         "content_sha256": "03b71d0007f644fd702f7c4cb4caf0154cffa98279808bcc14741f37bc5cde25"
       }
     }

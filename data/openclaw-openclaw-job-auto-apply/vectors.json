@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-job-auto-apply",
-  "generated_at": "2026-04-13T07:34:58.115Z",
+  "generated_at": "2026-04-14T07:32:58.109Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-job-auto-apply#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/veeky-kumar/job-auto-apply/SKILL.md",
-        "retrieved_at": "2026-04-13T07:34:58.115Z",
+        "retrieved_at": "2026-04-14T07:32:58.109Z",
         "content_sha256": "1606c838e8d1fa1deea283eb74b1e17a755b9a00e82d0b120cc2b2f2a5c48aa5"
       }
     }

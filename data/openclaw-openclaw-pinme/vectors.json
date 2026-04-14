@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pinme",
-  "generated_at": "2026-04-13T07:37:51.446Z",
+  "generated_at": "2026-04-14T07:36:01.527Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pinme#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ntlx/pinme/SKILL.md",
-        "retrieved_at": "2026-04-13T07:37:51.446Z",
+        "retrieved_at": "2026-04-14T07:36:01.527Z",
         "content_sha256": "102d636857d2003db5ade8e4d9381c693414fa34ef5017692148d58ac7a147de"
       }
     }

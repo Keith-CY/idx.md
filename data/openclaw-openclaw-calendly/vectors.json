@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-calendly",
-  "generated_at": "2026-04-13T07:34:22.716Z",
+  "generated_at": "2026-04-14T07:32:21.434Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-calendly#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/calendly/SKILL.md",
-        "retrieved_at": "2026-04-13T07:34:22.716Z",
+        "retrieved_at": "2026-04-14T07:32:21.434Z",
         "content_sha256": "e151fa66cd6c5f0deb02bb8cdf6a8058607becad8857e7496e115ec078692db5"
       }
     }

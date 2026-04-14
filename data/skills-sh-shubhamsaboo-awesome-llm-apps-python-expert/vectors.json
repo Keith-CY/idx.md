@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-shubhamsaboo-awesome-llm-apps-python-expert",
-  "generated_at": "2026-04-13T07:36:29.022Z",
+  "generated_at": "2026-04-14T07:34:32.470Z",
   "records": [
     {
       "id": "skills/skills-sh-shubhamsaboo-awesome-llm-apps-python-expert#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/shubhamsaboo/awesome-llm-apps/HEAD/awesome_agent_skills/python-expert/AGENTS.md",
-        "retrieved_at": "2026-04-13T07:36:29.022Z",
+        "retrieved_at": "2026-04-14T07:34:32.470Z",
         "content_sha256": "014a6e33d91a0645a9862723feb11d10f080ae2226ea87ec8f685291eb549cfc"
       }
     }

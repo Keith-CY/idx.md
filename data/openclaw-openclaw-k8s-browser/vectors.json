@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-k8s-browser",
-  "generated_at": "2026-04-13T07:34:59.487Z",
+  "generated_at": "2026-04-14T07:32:59.605Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-k8s-browser#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8s-browser/SKILL.md",
-        "retrieved_at": "2026-04-13T07:34:59.487Z",
+        "retrieved_at": "2026-04-14T07:32:59.605Z",
         "content_sha256": "6ed23be9ac9fb946aea11685a202cb1c76efa4348421c478ebcb4ecddf2b5b0a"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mcp-registry-manager",
-  "generated_at": "2026-04-13T07:35:06.590Z",
+  "generated_at": "2026-04-14T07:33:06.891Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mcp-registry-manager#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/orosha-ai/mcp-registry-manager/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:06.590Z",
+        "retrieved_at": "2026-04-14T07:33:06.891Z",
         "content_sha256": "4461c0b72c56fb5878ac98657cae3b012ab27fe728e9b8716d6ddca60b3c3091"
       }
     }

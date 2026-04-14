@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-portable-tools",
-  "generated_at": "2026-04-13T07:35:30.228Z",
+  "generated_at": "2026-04-14T07:33:30.882Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-portable-tools#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tunaissacoding/portable-tools/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:30.228Z",
+        "retrieved_at": "2026-04-14T07:33:30.882Z",
         "content_sha256": "85e63bd3a9be4ea37e4aff635b44555956154def89a94881248b72e699cee189"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-strava-cycling-coach",
-  "generated_at": "2026-04-13T07:35:54.473Z",
+  "generated_at": "2026-04-14T07:33:56.275Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-strava-cycling-coach#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ericrosenberg/strava-cycling-coach/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:54.473Z",
+        "retrieved_at": "2026-04-14T07:33:56.275Z",
         "content_sha256": "d3fff51cea53299d8b493fb638cfb2828712e4d55b0e76fb82c09128291933f7"
       }
     }

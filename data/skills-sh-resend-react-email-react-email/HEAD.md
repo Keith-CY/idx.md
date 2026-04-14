@@ -13,7 +13,7 @@ summary: >-
 
   ## Available Components
 
-  All components are imported from `@react-email/components`:
+  All components are imported from `react-email`:
 
   - **Body** - A React component to wrap emails
 
@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/resend/react-email/react-email
 github_stars: 18106
 github_forks: 921
 github_is_organization: true
-retrieved_at: 2026-04-13T07:34:12.949Z
-content_sha256: 9bae2a5a2354b28257ec0977d38ebfb74627bb2f4e7860cccc7ce2ce019af8cd
+retrieved_at: 2026-04-14T07:32:11.734Z
+content_sha256: 23a06bde5aa8731e22c02f2e8671d710c2b7025cd17df2c328960d54bcc450a7
 ---

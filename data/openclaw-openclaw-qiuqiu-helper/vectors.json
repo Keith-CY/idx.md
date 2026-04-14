@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-qiuqiu-helper",
-  "generated_at": "2026-04-13T07:35:34.940Z",
+  "generated_at": "2026-04-14T07:33:36.125Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-qiuqiu-helper#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mmogdeveloper/qiuqiu-helper/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:34.940Z",
+        "retrieved_at": "2026-04-14T07:33:36.125Z",
         "content_sha256": "24be086771d426dceeafc26f95f41ac067d53e86266e3b6bb61e042669b7eb69"
       }
     }

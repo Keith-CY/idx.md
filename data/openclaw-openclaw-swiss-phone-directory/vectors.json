@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-swiss-phone-directory",
-  "generated_at": "2026-04-13T07:35:56.385Z",
+  "generated_at": "2026-04-14T07:33:58.413Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-swiss-phone-directory#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xenofex7/swiss-phone-directory/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:56.385Z",
+        "retrieved_at": "2026-04-14T07:33:58.413Z",
         "content_sha256": "cc800325028a89f850db4f8df15d644bfab89f95d3024301cbbadd3d66ee5744"
       }
     }

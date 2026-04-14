@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawd-coach",
-  "generated_at": "2026-04-13T07:37:27.198Z",
+  "generated_at": "2026-04-14T07:35:35.330Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawd-coach#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shiv19/clawd-coach/SKILL.md",
-        "retrieved_at": "2026-04-13T07:37:27.198Z",
+        "retrieved_at": "2026-04-14T07:35:35.330Z",
         "content_sha256": "6fe4ad41a92f04ac991bc3918309760051f2ba204dc9b62ccd21c200f5041ded"
       }
     }

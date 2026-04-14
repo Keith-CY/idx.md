@@ -5,28 +5,25 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.107
+
+  - Updated to parity with Claude Code v2.1.107
+
+  ## 0.2.106
+
+  - Updated to parity with Claude Code v2.1.106
+
+  ## 0.2.105
+
+  - Added `system/memory_recall` event and `memory_paths` on `system/init` for
+  SDK renderers to surface memory operations
+
+  - Fixed `error_max_structured_output_retries` being emitted when the final
+  retry attempt succeeded, discarding valid structured output
+
   ## 0.2.102
 
   - Updated to parity with Claude Code v2.1.102
-
-  ## 0.2.101
-
-  - Security: bumped `@anthropic-ai/sdk` to `^0.81.0` and
-  `@modelcontextprotocol/sdk` to `^1.29.0` to resolve GHSA-5474-4w2j-mq4c and
-  transitive hono advisories
-
-  - Fixed resume-session temp directory leaking on Windows when subprocess file
-  handles weren't released before cleanup, and on macOS/APFS when `await using`
-  disposal raced its own cleanup callback
-
-  - Fixed `MaxListenersExceededWarning` when running 11+ concurrent `query()`
-  calls
-
-  ## 0.2.100
-
-  - Updated to parity with Claude Code v2.1.100
-
-  ## 0.2.99
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +33,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-13T07:34:07.651Z
-content_sha256: 7632828e7746dd8e9763c9d3bf007d15b215ae707087a3dc9662dfde7311201d
+retrieved_at: 2026-04-14T07:32:05.416Z
+content_sha256: 3bbf38c00e9a5c28ddc408951dd7e36572626506373d517744d88752b9ef8e0f
 ---

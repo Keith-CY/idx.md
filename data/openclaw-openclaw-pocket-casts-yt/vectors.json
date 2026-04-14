@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pocket-casts-yt",
-  "generated_at": "2026-04-13T07:35:29.512Z",
+  "generated_at": "2026-04-14T07:33:30.205Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pocket-casts-yt#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manuelhettich/pocket-casts-yt/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:29.512Z",
+        "retrieved_at": "2026-04-14T07:33:30.205Z",
         "content_sha256": "17ae24972c2cf5a8e523d5c53500f46113ade24cd28bafbf854ed8835b8fc39a"
       }
     }

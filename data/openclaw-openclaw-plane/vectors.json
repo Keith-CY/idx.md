@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-plane",
-  "generated_at": "2026-04-13T07:35:28.310Z",
+  "generated_at": "2026-04-14T07:33:29.169Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-plane#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/vaguilera-jinko/plane/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:28.310Z",
+        "retrieved_at": "2026-04-14T07:33:29.169Z",
         "content_sha256": "59dce6e72675d46d1bd712771379113dd09af589088de9e507ec14ae88576225"
       }
     }

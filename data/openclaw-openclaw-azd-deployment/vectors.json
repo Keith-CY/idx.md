@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azd-deployment",
-  "generated_at": "2026-04-13T07:34:19.375Z",
+  "generated_at": "2026-04-14T07:32:17.925Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azd-deployment#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azd-deployment/SKILL.md",
-        "retrieved_at": "2026-04-13T07:34:19.375Z",
+        "retrieved_at": "2026-04-14T07:32:17.925Z",
         "content_sha256": "35a81c4aced27d0718c77bb87104c3b36b0fe0766c50b283efdc9f7ef85ea1f5"
       }
     }

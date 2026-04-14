@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-b2c-marketing",
-  "generated_at": "2026-04-13T07:37:12.965Z",
+  "generated_at": "2026-04-14T07:35:18.692Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-b2c-marketing#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jackfriks/b2c-marketing/SKILL.md",
-        "retrieved_at": "2026-04-13T07:37:12.965Z",
+        "retrieved_at": "2026-04-14T07:35:18.692Z",
         "content_sha256": "18e3cc5ee280f9e74e80938d13eeb6e7f53984aca3121467ce49fa83c6f59701"
       }
     }

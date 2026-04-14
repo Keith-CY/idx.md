@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-acp",
-  "generated_at": "2026-04-13T07:36:38.352Z",
+  "generated_at": "2026-04-14T07:34:42.058Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-acp#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chris6970barbarian-hue/acp/SKILL.md",
-        "retrieved_at": "2026-04-13T07:36:38.352Z",
+        "retrieved_at": "2026-04-14T07:34:42.058Z",
         "content_sha256": "2a447ad9c8e09436e0d6af74567574e5c0992f18cddfae65759edc1de8a83104"
       }
     }

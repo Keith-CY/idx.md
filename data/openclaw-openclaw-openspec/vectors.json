@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openspec",
-  "generated_at": "2026-04-13T07:35:22.368Z",
+  "generated_at": "2026-04-14T07:33:23.367Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openspec#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jcorrego/openspec/SKILL.md",
-        "retrieved_at": "2026-04-13T07:35:22.368Z",
+        "retrieved_at": "2026-04-14T07:33:23.367Z",
         "content_sha256": "720f832d1879e2812f3b7a74f55a75c3fbb0ccb8e694d3024a4fa9dad9dffa22"
       }
     }
