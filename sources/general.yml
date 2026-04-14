@@ -27244,3 +27244,14 @@
     - plugin-command
     - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/brainstorm.md
+- type: skills
+  slug: clicks-protocol
+  source_url: https://raw.githubusercontent.com/clicks-protocol/clicks-protocol/main/SKILL.md
+  title: "Clicks Protocol"
+  summary: "Autonomous DeFi yield for AI agent treasuries on Base. 80/20 USDC split via Aave V3/Morpho. MCP server with 9 tools."
+  tags:
+    - category-defi
+    - category-finance
+    - source-clicks-protocol
+  license: MIT
+  upstream_ref: https://github.com/clicks-protocol/clicks-protocol/blob/main/SKILL.md
