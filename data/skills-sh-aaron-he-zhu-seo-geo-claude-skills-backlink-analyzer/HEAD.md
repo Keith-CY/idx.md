@@ -10,12 +10,12 @@ summary: >-
 
   ## Tool Categories
 
-  | Category | Placeholder | Example Tools | Included Server |
+  | Category | Placeholder | Example Tools | Included Server(s) |
 
-  |----------|-------------|---------------|-----------------|
+  |----------|-------------|---------------|---------------------|
 
-  | SEO Platform | `~~SEO tool` | Ahrefs, SEMrush, Moz, Sistrix, SE Ranking |
-  Ahrefs |
+  | SEO Platform | `~~SEO tool` | Ahrefs, Semrush, Moz, SISTRIX, SE Ranking |
+  Ahrefs, Semrush, SE Ranking, SISTRIX |
 
   | Analytics | `~~analytics` | Google Analytics, Adobe Analytics, Plausible,
   Matomo | Amplitude |
@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-anal
 github_stars: 457
 github_forks: 61
 github_is_organization: false
-retrieved_at: 2026-04-14T07:36:20.348Z
-content_sha256: e8c53b1e0715199cac2fadf6ec4df61b375df22a2b752b180ceea81c188ca888
+retrieved_at: 2026-04-15T07:36:00.707Z
+content_sha256: 4e31a3efd5107a81b3fc851760574f7a2d41367fd02275ac80f551dd6bb68347
 ---

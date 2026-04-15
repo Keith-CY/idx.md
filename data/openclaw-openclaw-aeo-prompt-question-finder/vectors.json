@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aeo-prompt-question-finder",
-  "generated_at": "2026-04-14T07:34:46.668Z",
+  "generated_at": "2026-04-15T07:34:31.771Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aeo-prompt-question-finder#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/psyduckler/aeo-prompt-question-finder/SKILL.md",
-        "retrieved_at": "2026-04-14T07:34:46.668Z",
+        "retrieved_at": "2026-04-15T07:34:31.771Z",
         "content_sha256": "904e57bcfedfa7cc37785d38828faf701eeac2f33a2f7ad4a5c10d949e8e2f3a"
       }
     }

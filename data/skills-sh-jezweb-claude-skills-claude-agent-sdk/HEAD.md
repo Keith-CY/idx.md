@@ -5,6 +5,16 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.109
+
+  - Updated to parity with Claude Code v2.1.109
+
+  ## 0.2.108
+
+  - `SDKStatus` now includes `'requesting'`; when `includePartialMessages` is
+  enabled, a `{type:'system', subtype:'status', status:'requesting'}` message is
+  emitted before each API request in the stream
+
   ## 0.2.107
 
   - Updated to parity with Claude Code v2.1.107
@@ -14,16 +24,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.106
 
   ## 0.2.105
-
-  - Added `system/memory_recall` event and `memory_paths` on `system/init` for
-  SDK renderers to surface memory operations
-
-  - Fixed `error_max_structured_output_retries` being emitted when the final
-  retry attempt succeeded, discarding valid structured output
-
-  ## 0.2.102
-
-  - Updated to parity with Claude Code v2.1.102
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-14T07:32:05.416Z
-content_sha256: 3bbf38c00e9a5c28ddc408951dd7e36572626506373d517744d88752b9ef8e0f
+retrieved_at: 2026-04-15T07:31:49.403Z
+content_sha256: bfe0888c49682f40f4e40dde3546e09ed4226611a3768f0bd4a5d3fd7dc218ef
 ---

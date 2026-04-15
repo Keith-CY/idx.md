@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-seoul-subway",
-  "generated_at": "2026-04-14T07:33:48.314Z",
+  "generated_at": "2026-04-15T07:33:33.671Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-seoul-subway#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dukbong/seoul-subway/SKILL.md",
-        "retrieved_at": "2026-04-14T07:33:48.314Z",
+        "retrieved_at": "2026-04-15T07:33:33.671Z",
         "content_sha256": "484fcc16ca9aa812c43e2efdb880b16fed3ed01223898043b5c0a472932bf3a4"
       }
     }

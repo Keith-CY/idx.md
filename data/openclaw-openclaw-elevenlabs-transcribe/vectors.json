@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-elevenlabs-transcribe",
-  "generated_at": "2026-04-14T07:35:48.084Z",
+  "generated_at": "2026-04-15T07:35:30.062Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-elevenlabs-transcribe#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/paulasjes/elevenlabs-transcribe/SKILL.md",
-        "retrieved_at": "2026-04-14T07:35:48.084Z",
+        "retrieved_at": "2026-04-15T07:35:30.062Z",
         "content_sha256": "c1ecb6d4b2c6c8de1b3dc3b40c24a46759adfe27a04fb386c95a14326bbd73f3"
       }
     }

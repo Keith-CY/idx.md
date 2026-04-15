@@ -27,8 +27,9 @@ actionbook browser start -p driver --header "X-Key:val"    # Provider with custo
 actionbook browser start --open-url https://example.com    # Open URL on start
 actionbook browser start --profile myprofile               # Use named profile
 actionbook browser start --no-stealth                      # Disable anti-detection mode
+actionbook browser start --max-tracked-requests 1000       # Custom network buffer size (default 500, range 1-100000)
 
-actionbook browser list-sessions                           # List all active sessions
+actionbook browser list-sessions                           # List all active sessions (includes max_tracked_requests)
 actionbook browser status --session s1                     # Show session status
 actionbook browser close --session s1                      # Close a session
 actionbook browser restart --session s1                    # Restart a session
@@ -220,11 +221,15 @@ actionbook browser network requests --type xhr,fetch --session s1 --tab t1      
 actionbook browser network requests --method POST --session s1 --tab t1            # Filter by HTTP method
 actionbook browser network requests --status 2xx --session s1 --tab t1             # Filter by status (200, 2xx, 400-499)
 actionbook browser network requests --clear --session s1 --tab t1                  # Clear request buffer
+actionbook browser network requests --dump --out /tmp/dump --session s1 --tab t1  # Export matching requests to /tmp/dump/requests.json
+actionbook browser network requests --dump --out /tmp/dump --filter /api/ --session s1 --tab t1  # Export filtered requests
 
 actionbook browser network request 1234.1 --session s1 --tab t1                   # Get full request detail + response body
 ```
 
-Requests are captured automatically per tab (500 cap ring buffer). Use `network requests` to list IDs, then `network request <id>` for detail including response body.
+Requests are captured automatically per tab (default 500, configurable via `browser start --max-tracked-requests N`). Use `network requests` to list IDs, then `network request <id>` for detail including response body.
+
+`--dump --out <dir>` exports all matching requests (after filters) as a single `<dir>/requests.json` file with best-effort response bodies. Returns `dump: { path, count }` on success.
 
 ## Wait
 
@@ -287,6 +292,31 @@ actionbook browser batch-click @e5 @e6 @e7 --session s1 --tab t1
 ```
 
 `batch-new-tab` (alias `batch-open`) opens each URL as a new tab. If `--tabs` is provided, its length must match `--urls`. `batch-click` stops on first failure and reports progress. `batch-snapshot` returns per-tab results (ok or error).
+
+## Extension
+
+Manage the Chrome extension used by extension mode. The extension bridge runs inside the actionbook daemon (auto-started by browser commands).
+
+The recommended install method is the [Chrome Web Store](https://chromewebstore.google.com/detail/actionbook/bebchpafpemheedhcdabookaifcijmfo) (current version: 0.3.0). `actionbook extension install` is a local fallback — after running it, you must manually load the unpacked extension in Chrome via `chrome://extensions` > Developer mode > Load unpacked, pointing to the path from `actionbook extension path`.
+
+```bash
+actionbook extension status                          # Bridge status + extension connection state
+actionbook extension ping                            # Measure bridge RTT (connects to ws://127.0.0.1:19222)
+actionbook extension install                         # Fallback: install to ~/Actionbook/extension/ (requires manual Chrome load)
+actionbook extension install --force                 # Force reinstall even if up to date
+actionbook extension uninstall                       # Remove extension from ~/Actionbook/extension/
+actionbook extension path                            # Print install path, installed status, and version
+```
+
+`extension status` returns `bridge` state (`listening`, `not_listening`, or `failed`) and `extension_connected` (boolean). `extension ping` connects directly to the bridge WebSocket and measures round-trip time.
+
+## Daemon
+
+The actionbook daemon runs in the background and manages browser sessions. It auto-starts on first CLI call.
+
+```bash
+actionbook daemon restart                            # Stop the running daemon (next CLI call respawns)
+```
 
 ## Setup
 

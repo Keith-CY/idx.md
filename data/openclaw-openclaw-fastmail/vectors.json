@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fastmail",
-  "generated_at": "2026-04-14T07:35:50.147Z",
+  "generated_at": "2026-04-15T07:35:32.147Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fastmail#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/witooh/fastmail/SKILL.md",
-        "retrieved_at": "2026-04-14T07:35:50.147Z",
+        "retrieved_at": "2026-04-15T07:35:32.147Z",
         "content_sha256": "8e7ec86260ad3b126e7b00fbc541cc5a130073ea7da88742c663ced06fa2fb24"
       }
     }

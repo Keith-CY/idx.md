@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-readwise",
-  "generated_at": "2026-04-14T07:33:39.704Z",
+  "generated_at": "2026-04-15T07:33:25.433Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-readwise#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/refrigerator/readwise/SKILL.md",
-        "retrieved_at": "2026-04-14T07:33:39.704Z",
+        "retrieved_at": "2026-04-15T07:33:25.433Z",
         "content_sha256": "73431be24cccd2be0187b7ba54ed89c754484431b6d5ad98a64e40f85f79cb72"
       }
     }

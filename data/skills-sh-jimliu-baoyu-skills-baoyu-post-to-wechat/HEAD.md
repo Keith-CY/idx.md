@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-04-14T07:36:19.425Z
+retrieved_at: 2026-04-15T07:35:59.826Z
 content_sha256: 55a58fc07db8425e45f9943f8b05045c2168ad44acc4206b64a218507b74532a
 ---

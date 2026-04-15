@@ -1,6 +1,6 @@
 ---
 name: Agent
-description: Use when creating, optimizing, or evaluating Agent Skills — reusable instruction packages that extend AI agent capabilities. Reach for this skill when building SKILL.md files, testing skill triggering, bundling scripts, or integrating skills into agent platforms.
+description: Use when creating, testing, optimizing, or implementing Agent Skills — the open format for extending AI agents with specialized instructions, scripts, and workflows. Reach for this skill when building skills for agents, evaluating skill quality, improving skill descriptions, or adding skills support to an agent product.
 metadata:
     mintlify-proj: agent
     version: "1.0"
@@ -8,226 +8,183 @@ metadata:
 
 # Agent Skills
 
+Agent Skills is an open format for packaging specialized instructions, scripts, and resources that agents can discover and use to perform tasks more accurately. A skill is a folder containing a `SKILL.md` file (metadata + instructions), optional `scripts/`, `references/`, and `assets/` directories, and supporting files.
+
 ## Product summary
 
-Agent Skills is an open format for packaging specialized instructions, scripts, and resources that agents can discover and use on demand. A skill is a directory containing a `SKILL.md` file with YAML frontmatter (name and description) and markdown instructions, plus optional `scripts/`, `references/`, and `assets/` directories.
-
-**Key files and structure:**
-- `SKILL.md` — Required. Contains frontmatter (`name`, `description`, optional `license`, `compatibility`, `metadata`) and markdown instructions.
-- `scripts/` — Optional. Executable code (Python, Bash, JavaScript, etc.) that agents can run.
-- `references/` — Optional. Supporting documentation loaded on demand.
-- `assets/` — Optional. Templates, images, data files.
-
-**Primary docs:** https://agentskills.io
+Agent Skills are portable, version-controlled packages of procedural knowledge. Each skill is a directory with a required `SKILL.md` file (YAML frontmatter + Markdown instructions) and optional supporting files. The format enables skill authors to build capabilities once and deploy them across multiple agent products (Claude Code, VS Code with Copilot, OpenAI agents, and others). Key files: `SKILL.md` (required), `scripts/` (optional executables), `references/` (optional documentation), `assets/` (optional templates). Primary docs: https://agentskills.io
 
 ## When to use
 
 Use this skill when:
-- **Creating a new skill** — You need to structure instructions, metadata, and supporting files in the Agent Skills format.
-- **Optimizing skill descriptions** — The skill's description isn't triggering on the right prompts; you need to test and refine it.
-- **Evaluating skill quality** — You're running test cases, grading outputs, and iterating to improve a skill's reliability.
-- **Bundling scripts** — You're adding executable code to a skill and need to design it for agent use (no interactive prompts, clear `--help`, structured output).
-- **Integrating skills into an agent** — You're adding skills support to an agent platform (discovery, activation, context management).
+- **Creating a new skill**: You're building a reusable package of instructions and scripts for agents to discover and use.
+- **Evaluating skill quality**: You need to test whether a skill produces good outputs across varied prompts and edge cases.
+- **Optimizing skill descriptions**: You're improving the `description` field so the skill triggers on the right prompts.
+- **Implementing skills support**: You're adding skills discovery and activation to an agent product.
+- **Debugging skill behavior**: A skill isn't triggering, activating, or executing as expected.
+- **Bundling scripts and resources**: You're organizing executable code and reference materials for agents to load on demand.
 
 ## Quick reference
 
-### SKILL.md frontmatter
+### SKILL.md frontmatter (required fields)
 
-| Field | Required | Constraints |
-|-------|----------|-------------|
-| `name` | Yes | 1-64 chars, lowercase + hyphens only, no leading/trailing hyphens, must match parent directory |
-| `description` | Yes | 1-1024 chars, describes what the skill does and when to use it |
-| `license` | No | License name or reference (e.g., "Apache-2.0") |
-| `compatibility` | No | Max 500 chars, environment requirements (e.g., "Requires Python 3.14+ and uv") |
-| `metadata` | No | Arbitrary key-value pairs for custom properties |
-| `allowed-tools` | No | Space-separated list of pre-approved tools (experimental) |
+| Field | Constraints | Example |
+|-------|-------------|---------|
+| `name` | 1-64 chars, lowercase + hyphens only, no leading/trailing hyphens | `name: pdf-processing` |
+| `description` | 1-1024 chars, describes what the skill does and when to use it | `description: Extract PDF text, fill forms, merge files. Use when handling PDFs.` |
 
-### Minimal SKILL.md template
+### Optional frontmatter fields
 
-```markdown
----
-name: skill-name
-description: What this skill does and when to use it.
----
-
-## When to use this skill
-[Describe the task and context where agents should activate this skill]
-
-## How to [primary task]
-[Step-by-step instructions]
-
-## Common gotchas
-- [Mistake to avoid]
-- [Non-obvious edge case]
-```
+| Field | Purpose |
+|-------|---------|
+| `license` | License name or reference (e.g., `Apache-2.0`) |
+| `compatibility` | Environment requirements (e.g., `Requires Python 3.14+ and uv`) |
+| `metadata` | Key-value pairs for custom properties |
+| `allowed-tools` | Space-separated list of pre-approved tools (experimental) |
 
 ### Directory structure
 
 ```
-my-skill/
-├── SKILL.md                    # Required
-├── scripts/                    # Optional: executable code
-│   ├── process.py
-│   └── validate.sh
-├── references/                 # Optional: supporting docs
-│   ├── REFERENCE.md
-│   └── api-errors.md
-└── assets/                     # Optional: templates, images
-    └── template.json
+skill-name/
+├── SKILL.md              # Required: metadata + instructions
+├── scripts/              # Optional: executable code (Python, Bash, etc.)
+├── references/           # Optional: detailed documentation
+├── assets/               # Optional: templates, images, data files
+└── evals/                # Optional: test cases for evaluation
+    └── evals.json
 ```
 
-### Script invocation patterns
+### Running scripts in skills
 
 | Tool | Command | When to use |
 |------|---------|------------|
-| `uvx` | `uvx ruff@0.8.0 check .` | Python packages, fast caching, no pre-install needed |
-| `npx` | `npx eslint@9 --fix .` | npm packages, bundled with Node.js |
-| `pipx` | `pipx run 'black==24.10.0' .` | Python packages, broader OS availability than uvx |
-| `deno run` | `deno run --allow-read npm:eslint@9 -- --fix .` | Deno environment, permission flags required |
-| `go run` | `go run golang.org/x/tools/cmd/goimports@v0.28.0 .` | Go packages, built into go command |
+| `uvx` | `uvx ruff@0.8.0 check .` | Python packages; fast caching; requires separate install |
+| `npx` | `npx eslint@9 --fix .` | npm packages; bundled with Node.js; pin versions |
+| `pipx` | `pipx run 'black==24.10.0' .` | Python packages; mature alternative to uvx |
+| `deno run` | `deno run npm:eslint@9 -- --fix .` | Scripts from URLs; requires permission flags |
+| `go run` | `go run golang.org/x/tools/cmd/goimports@v0.28.0 .` | Go packages; built into go command |
+
+### File references in SKILL.md
+
+Use relative paths from the skill directory root:
+```markdown
+See [the reference guide](references/REFERENCE.md) for details.
+Run: bash scripts/validate.sh "$INPUT_FILE"
+```
 
 ## Decision guidance
 
-### When to use one-off commands vs. bundled scripts
+### When to use scripts vs. one-off commands
 
-| Use one-off commands | Use bundled scripts |
-|---|---|
-| Simple tool invocation with a few flags | Complex logic or multiple steps |
-| Tool already exists and is well-known | Custom logic specific to your skill |
-| No special dependencies or setup | Needs error handling, validation, or structured output |
-| Example: `npx eslint@9 --fix .` | Example: `python scripts/validate.py --input data.json` |
-
-### When to use prescriptive vs. flexible instructions
-
-| Be prescriptive | Give the agent freedom |
-|---|---|
-| Fragile operations (database migrations, destructive actions) | Multiple valid approaches exist |
-| Specific sequence must be followed | Task tolerates variation |
-| Consistency is critical | Agent can make context-dependent decisions |
-| Example: "Run exactly this command, do not modify" | Example: "Check for SQL injection; use parameterized queries" |
+| Scenario | Use scripts/ | Use one-off commands |
+|----------|-------------|----------------------|
+| Simple tool invocation with a few flags | ❌ | ✅ (e.g., `npx eslint@9 --fix .`) |
+| Complex logic, error handling, or multiple steps | ✅ | ❌ |
+| Reusable across multiple test cases | ✅ | ❌ |
+| Dependency management needed | ✅ (PEP 723, Deno imports) | ✅ (uvx, npx, pipx) |
 
 ### When to keep instructions in SKILL.md vs. move to references/
 
-| Keep in SKILL.md | Move to references/ |
-|---|---|
-| Core workflow steps | Detailed technical reference |
-| Gotchas and non-obvious edge cases | API documentation |
-| Default tool choices | Comprehensive examples |
-| Validation procedures | Troubleshooting guides |
-| Recommended under 500 lines, <5000 tokens | Load on demand when needed |
+| Content | Keep in SKILL.md | Move to references/ |
+|---------|------------------|---------------------|
+| Core workflow steps | ✅ | ❌ |
+| Gotchas and edge cases | ✅ | ❌ |
+| API error codes (reference only) | ❌ | ✅ |
+| Detailed schema documentation | ❌ | ✅ |
+| When to load: "Read references/api-errors.md if the API returns a non-200 status" | ✅ (instruction) | ✅ (file) |
+
+### Skill scope: too narrow vs. too broad
+
+| Scope | Problem | Example |
+|-------|---------|---------|
+| Too narrow | Multiple skills needed for one task; overhead | Separate skills for "extract PDF text" and "merge PDFs" |
+| Too broad | Hard to activate precisely; conflicting instructions | One skill covering PDF work + database administration |
+| Just right | Coherent unit of work; composes well | One skill for all PDF operations (extract, fill, merge) |
 
 ## Workflow
 
-### Creating a new skill
+### Creating a skill
 
-1. **Understand the task.** Complete the task manually with an agent, noting steps, corrections, and context you provide. Extract the reusable pattern.
+1. **Create the directory structure**: Make `skill-name/` with `SKILL.md` inside.
+2. **Write frontmatter**: Add `name` (lowercase, hyphens, 1-64 chars) and `description` (1-1024 chars, include when to use).
+3. **Write instructions**: Add Markdown body with step-by-step guidance, examples, and gotchas. Keep under 500 lines and 5,000 tokens.
+4. **Add scripts** (optional): Create `scripts/` with executable code. Use PEP 723 (Python), Deno imports, or Bun auto-install for self-contained scripts.
+5. **Add references** (optional): Create `references/` for detailed documentation. Tell the agent when to load each file.
+6. **Validate**: Run `skills-ref validate ./skill-name` to check frontmatter and naming.
 
-2. **Create the directory structure.** Make `skill-name/` with `SKILL.md` at the root. Match the directory name to the `name` field in frontmatter.
+### Testing and optimizing a skill
 
-3. **Write frontmatter.** Add `name` (lowercase, hyphens, 1-64 chars) and `description` (1-1024 chars, describe what it does and when to use it).
+1. **Write test cases**: Create `evals/evals.json` with 2-3 realistic prompts and expected outputs.
+2. **Run with and without the skill**: Execute each test case twice — once with the skill, once without — to establish a baseline.
+3. **Grade outputs**: For each test case, write assertions (verifiable statements about what success looks like) and grade them as PASS/FAIL with evidence.
+4. **Analyze patterns**: Identify which assertions pass/fail consistently. Failed assertions point to gaps in instructions.
+5. **Improve the skill**: Use failed assertions and execution transcripts to revise instructions. Focus on generalizing, not patching specific examples.
+6. **Iterate**: Rerun all test cases in a new `iteration-N/` directory. Repeat until results plateau or you're satisfied.
 
-4. **Write core instructions.** Include:
-   - When to use this skill (trigger conditions)
-   - Step-by-step procedures
-   - Gotchas and non-obvious edge cases
-   - Examples of inputs and outputs
-   - Keep under 500 lines; move detailed reference material to `references/`
+### Optimizing skill descriptions
 
-5. **Add scripts if needed.** For reusable logic, create `scripts/` with self-contained scripts. Include `--help` output, clear error messages, and structured output (JSON/CSV preferred).
+1. **Write trigger eval queries**: Create ~20 realistic prompts (8-10 should-trigger, 8-10 should-not-trigger). Include near-misses (queries that share keywords but need something different).
+2. **Split into train/validation**: Use ~60% for training, ~40% for validation. Keep the split fixed across iterations.
+3. **Test trigger rates**: Run each query 3 times through your agent. Compute trigger rate (fraction of runs where the skill was invoked).
+4. **Identify failures**: Which should-trigger queries didn't trigger? Which should-not-trigger queries false-triggered?
+5. **Revise the description**: Broaden if should-trigger queries are failing; narrow if should-not-trigger queries are false-triggering. Avoid overfitting to specific keywords.
+6. **Validate generalization**: Check the validation set pass rate. Select the best iteration by validation performance, not the last one.
+7. **Apply the result**: Update `description` in `SKILL.md`. Verify it's under 1024 characters. Test with 5-10 fresh queries as a sanity check.
 
-6. **Test triggering.** Create 20 eval queries (10 should-trigger, 10 should-not-trigger) with varied phrasing, explicitness, and complexity. Run each 3 times and compute trigger rate. Refine description until should-trigger queries pass >50% of the time.
+### Adding skills support to an agent
 
-7. **Test output quality.** Create 2-3 test cases with realistic prompts, expected outputs, and input files. Run with and without the skill. Grade outputs against assertions. Iterate based on failures.
-
-8. **Validate the skill.** Run `skills-ref validate ./skill-name` to check frontmatter and naming conventions.
-
-### Optimizing a skill's description
-
-1. **Design eval queries.** Create ~20 test queries: 8-10 should-trigger (varied phrasing, explicitness, detail, complexity), 8-10 should-not-trigger (near-misses that share keywords but need something different).
-
-2. **Split train/validation.** Allocate 60% to train set, 40% to validation set. Keep both sets proportionally balanced (don't put all positives in one set).
-
-3. **Evaluate baseline.** Run each train query 3 times through the agent with the skill installed. Compute trigger rate for each query (fraction of runs where skill was invoked).
-
-4. **Identify failures.** Which should-trigger queries didn't trigger? Which should-not-trigger queries false-triggered?
-
-5. **Revise description.** Focus on generalizing, not overfitting:
-   - If should-trigger queries fail, broaden scope or add context about when the skill is useful.
-   - If should-not-trigger queries false-trigger, add specificity about what the skill does *not* do.
-   - Avoid adding specific keywords from failed queries — address the general category instead.
-   - Keep under 1024 characters.
-
-6. **Repeat.** Re-evaluate on train set, revise, repeat 3-5 times until train queries pass or improvement plateaus.
-
-7. **Select best iteration.** Choose the description with the highest validation pass rate (not necessarily the last one).
-
-8. **Verify generalization.** Write 5-10 fresh queries (never seen during optimization) and test them as a sanity check.
-
-### Evaluating and iterating on skill quality
-
-1. **Design test cases.** Create 2-3 realistic prompts with expected outputs and input files. Store in `evals/evals.json`.
-
-2. **Run with and without skill.** Execute each test case twice: once with the skill, once without (or with a previous version). Capture outputs, timing, and token counts.
-
-3. **Write assertions.** After seeing outputs, add verifiable statements (e.g., "output includes a bar chart", "report has at least 3 recommendations"). Keep assertions objective and specific.
-
-4. **Grade outputs.** Evaluate each assertion against actual outputs. Record PASS/FAIL with concrete evidence (quote or reference the output).
-
-5. **Aggregate results.** Compute pass rates, token usage, and timing for both configurations. Calculate delta (what the skill costs vs. what it buys).
-
-6. **Review with a human.** Read actual outputs. Note specific feedback for test cases where results were wrong or unclear.
-
-7. **Iterate.** Give failed assertions, human feedback, and execution transcripts to an LLM. Ask it to propose improvements to the skill. Apply changes, rerun all test cases in a new `iteration-N/` directory, and repeat.
-
-8. **Stop when.** Results are satisfactory, feedback is consistently empty, or improvement plateaus between iterations.
+1. **Discover skills**: Scan `.agents/skills/` and `.<client>/skills/` at project and user levels. Look for subdirectories containing `SKILL.md`.
+2. **Parse metadata**: Extract `name` and `description` from YAML frontmatter. Store in a map keyed by name.
+3. **Build catalog**: Create a structured list (XML, JSON, or text) of available skills with name, description, and location.
+4. **Disclose to model**: Include the catalog in the system prompt or a dedicated skill-activation tool description. Add brief instructions on how to use skills.
+5. **Activate on demand**: When the model or user selects a skill, deliver the full `SKILL.md` body (with or without frontmatter) into context.
+6. **Protect from pruning**: If your agent truncates old messages, exempt skill content from compaction — losing instructions mid-conversation silently degrades performance.
+7. **Deduplicate**: Track which skills are already in context. Skip re-injection if the model attempts to load a skill twice.
 
 ## Common gotchas
 
-- **Description too narrow.** Skill doesn't trigger on valid use cases. Broaden the description; include contexts where the user doesn't explicitly name the domain (e.g., "even if they don't mention 'CSV'").
-
-- **Description too broad.** Skill triggers on irrelevant tasks. Add specificity about what the skill does *not* do, or clarify boundaries with adjacent capabilities.
-
-- **Overfitting to eval queries.** Description works for test queries but fails on new ones. Use train/validation split; optimize only on train set; select based on validation pass rate.
-
-- **Scripts with interactive prompts.** Agents run in non-interactive shells and will hang indefinitely waiting for input. Accept all input via flags, environment variables, or stdin. Always provide `--help` output.
-
-- **Vague error messages in scripts.** "Error: invalid input" wastes a turn. Say what went wrong, what was expected, and what to try: "Error: --format must be one of: json, csv, table. Received: 'xml'".
-
-- **Unstructured script output.** Free-form text is hard for agents to parse. Use JSON, CSV, or TSV. Send data to stdout, diagnostics to stderr.
-
-- **Skill instructions too long.** Bloated SKILL.md competes for context with conversation history and other skills. Keep under 500 lines; move detailed reference material to `references/` and tell the agent when to load it.
-
-- **Gotchas buried in references.** Agents may not recognize when to load a reference file. Keep non-obvious edge cases and environment-specific facts in SKILL.md where the agent reads them before encountering the situation.
-
-- **Name doesn't match directory.** The `name` field must match the parent directory name exactly. `name: pdf-processing` requires directory `pdf-processing/`.
-
-- **Relative paths in scripts.** Use paths relative to the skill directory root (e.g., `scripts/validate.py`). The agent resolves these automatically from the skill's base directory.
-
-- **Skill triggers but produces poor output.** Run structured evals with test cases, assertions, and grading. Iterate based on failed assertions and human feedback, not just gut feel.
+- **Description too vague**: "Helps with PDFs" won't trigger reliably. Be specific: "Extract PDF text, fill forms, merge files. Use when handling PDFs."
+- **Name doesn't match directory**: The `name` field must match the parent directory name exactly. `name: pdf-processing` requires the directory to be `pdf-processing/`.
+- **Frontmatter parsing fails**: Unquoted colons in YAML values break parsing. Quote values with colons: `description: "Use this skill when: the user asks about PDFs"`.
+- **Scripts hang on interactive input**: Agents run in non-interactive shells. Never use `input()`, password prompts, or confirmation menus. Accept all input via flags, env vars, or stdin.
+- **Script output too large**: Agent harnesses truncate output beyond ~10-30K characters. Default to summaries or support pagination flags (`--offset`, `--limit`).
+- **Relative paths fail**: Use paths relative to the skill directory root (where `SKILL.md` lives). The agent resolves these automatically. Don't use absolute paths.
+- **Skill activates on wrong prompts**: The description is doing too much work. Narrow it or add specificity about what the skill does *not* do.
+- **Skill never activates**: The description may be too narrow, or the agent doesn't think it needs the skill for simple tasks. Test with varied prompts and check trigger rates.
+- **Instructions too long**: Keep `SKILL.md` under 500 lines and 5,000 tokens. Move detailed reference material to `references/` and tell the agent when to load it.
+- **Gotchas buried in references**: Keep non-obvious edge cases in `SKILL.md` where the agent reads them before encountering the situation. References are for details the agent can look up on demand.
+- **Scripts with undeclared dependencies**: Use PEP 723 (Python), Deno imports, or Bun auto-install so scripts are self-contained. Don't assume tools are pre-installed.
+- **Overfitting descriptions to test queries**: Use a train/validation split. Optimize against the train set; select the best iteration by validation performance.
 
 ## Verification checklist
 
 Before submitting a skill:
 
-- [ ] **Frontmatter valid.** `name` matches directory, is lowercase + hyphens only, 1-64 chars. `description` is 1-1024 chars and describes both what and when.
-- [ ] **Directory structure correct.** `SKILL.md` at root. Optional `scripts/`, `references/`, `assets/` subdirectories present if needed.
-- [ ] **Scripts are non-interactive.** No prompts, password dialogs, or confirmation menus. All input via flags or stdin. `--help` output is clear and concise.
-- [ ] **Script output is structured.** JSON, CSV, or TSV preferred. Data to stdout, diagnostics to stderr.
-- [ ] **Relative paths correct.** Scripts and references use paths relative to skill directory root (e.g., `scripts/validate.py`, `references/api.md`).
-- [ ] **Instructions are concise.** SKILL.md under 500 lines, <5000 tokens. Detailed reference material in `references/`.
-- [ ] **Gotchas are explicit.** Non-obvious edge cases and environment-specific facts are in SKILL.md, not buried in references.
-- [ ] **Description triggers correctly.** Tested on 20 eval queries (10 should-trigger, 10 should-not-trigger) with >50% trigger rate on should-trigger queries.
-- [ ] **Output quality tested.** Ran 2-3 test cases with assertions, graded results, iterated based on failures.
-- [ ] **Validation passes.** Ran `skills-ref validate ./skill-name` with no errors.
+- [ ] `SKILL.md` exists in the skill directory
+- [ ] `name` field: 1-64 chars, lowercase + hyphens only, no leading/trailing hyphens, matches directory name
+- [ ] `description` field: 1-1024 chars, describes what the skill does and when to use it
+- [ ] Frontmatter is valid YAML (quote values with colons)
+- [ ] Markdown body is clear and concise (under 500 lines, under 5,000 tokens)
+- [ ] All scripts in `scripts/` have `--help` output and handle errors gracefully
+- [ ] Scripts avoid interactive prompts (no `input()`, password dialogs, confirmation menus)
+- [ ] Scripts use relative paths from the skill directory root
+- [ ] All file references use relative paths (e.g., `references/REFERENCE.md`, `scripts/validate.sh`)
+- [ ] Gotchas and non-obvious edge cases are in `SKILL.md`, not buried in references
+- [ ] If using PEP 723 (Python), dependencies are declared in `# /// script` blocks
+- [ ] Skill has been tested with at least 2-3 realistic prompts
+- [ ] Trigger eval queries pass (should-trigger queries trigger, should-not-trigger queries don't)
+- [ ] Assertions are specific and verifiable (not vague like "output is good")
+- [ ] Skill adds value compared to baseline (agent without the skill)
+- [ ] Run `skills-ref validate ./skill-name` and fix any errors
 
 ## Resources
 
-**Comprehensive page listing:** https://agentskills.io/llms.txt
+**Comprehensive navigation**: https://agentskills.io/llms.txt — page-by-page listing of all documentation.
 
-**Critical documentation:**
-- [Specification](https://agentskills.io/specification) — Complete format reference for SKILL.md files, frontmatter fields, directory structure, and validation.
-- [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices) — How to write well-scoped skills, spend context wisely, calibrate control, and use effective instruction patterns.
-- [Optimizing skill descriptions](https://agentskills.io/skill-creation/optimizing-descriptions) — How to test and improve skill descriptions so they trigger reliably on relevant prompts.
+**Critical pages**:
+- [Specification](https://agentskills.io/specification) — Complete format reference for `SKILL.md` files, frontmatter fields, directory structure, and validation.
+- [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices) — How to write well-scoped skills, spend context wisely, calibrate control, and use patterns like gotchas sections and validation loops.
+- [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills) — How to design test cases, run evals, grade outputs, and iterate systematically.
 
 ---
 

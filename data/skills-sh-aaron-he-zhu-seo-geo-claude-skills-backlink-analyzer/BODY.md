@@ -4,16 +4,16 @@
 
 ## Tool Categories
 
-| Category | Placeholder | Example Tools | Included Server |
-|----------|-------------|---------------|-----------------|
-| SEO Platform | `~~SEO tool` | Ahrefs, SEMrush, Moz, Sistrix, SE Ranking | Ahrefs |
+| Category | Placeholder | Example Tools | Included Server(s) |
+|----------|-------------|---------------|---------------------|
+| SEO Platform | `~~SEO tool` | Ahrefs, Semrush, Moz, SISTRIX, SE Ranking | Ahrefs, Semrush, SE Ranking, SISTRIX |
 | Analytics | `~~analytics` | Google Analytics, Adobe Analytics, Plausible, Matomo | Amplitude |
 | Search Console | `~~search console` | Google Search Console, Bing Webmaster Tools | — |
 | AI Visibility | `~~AI monitor` | Otterly, Profound, Scrunch AI | — |
 | Web Crawler | `~~web crawler` | Screaming Frog, Sitebulb, DeepCrawl, Lumar | — |
-| Link Database | `~~link database` | Ahrefs, Majestic, Moz Link Explorer | Ahrefs |
-| Competitive Intel | `~~competitive intel` | SimilarWeb, SpyFu, Semrush | SimilarWeb |
-| CDN / Hosting | `~~CDN` | Cloudflare, Fastly, Vercel, Netlify | — |
+| Link Database | `~~link database` | Ahrefs, Majestic, Moz Link Explorer | Ahrefs, Semrush |
+| Competitive Intel | `~~competitive intel` | SimilarWeb, SpyFu, Semrush | SimilarWeb, Semrush |
+| CDN / Hosting | `~~CDN` | Cloudflare, Fastly, Vercel, Netlify | Cloudflare, Vercel |
 | Page Speed | `~~page speed tool` | Google PageSpeed Insights, WebPageTest, GTmetrix | — |
 | Schema Validator | `~~schema validator` | Google Rich Results Test, Schema.org Validator | — |
 | Knowledge Graph | `~~knowledge graph` | Google Knowledge Graph API, Wikidata SPARQL, DBpedia, CrunchBase | — |
@@ -22,7 +22,7 @@
 | Content Platform | `~~content platform` | Notion, WordPress, Medium, Ghost, Substack | Notion |
 | Communication | `~~team chat` | Slack, Microsoft Teams, Discord | Slack |
 | Reporting | `~~reporting` | Google Data Studio, Tableau, Power BI | — |
-| Content Management | `~~CMS` | WordPress, Webflow, Contentful, Sanity | — |
+| Content Management | `~~CMS` | WordPress, Webflow, Contentful, Sanity | Webflow, Sanity, Contentful |
 
 ## Included MCP Servers
 
@@ -31,10 +31,18 @@ Pre-configured in `.mcp.json` (HTTP-based, no local setup required):
 | Server | What it provides |
 |--------|-----------------|
 | Ahrefs | Keyword data, backlink profiles, site audits |
+| Semrush | Keyword research, domain analytics, backlinks, SERP data |
+| SE Ranking | Keyword tracking, site audits, competitive data |
+| SISTRIX | Visibility Index, rankings, search volume |
 | SimilarWeb | Traffic estimates, competitive intelligence |
+| Cloudflare | DNS management, cache purging, Workers, performance |
+| Vercel | Project deployments, domain management, logs |
 | HubSpot | CRM contacts, marketing analytics |
 | Amplitude | Product analytics, user behavior data |
 | Notion | Project documentation, content calendars |
+| Webflow | Site management, CMS content, design canvas |
+| Sanity | Structured content, schema management, media |
+| Contentful | Content lifecycle management, assets, environments |
 | Slack | Team notifications, alert delivery |
 
 To add more servers, edit `.mcp.json` at the project root:
@@ -72,7 +80,7 @@ Skills are designed to work at three levels of tool integration:
 |------|-------------------|------------|
 | **Tier 1** | No integrations | Paste data, describe context manually. Skills still provide full analysis frameworks. |
 | **Tier 2** | Basic MCP | Connect ~~search console or ~~analytics for automatic data retrieval. |
-| **Tier 3** | Full integration | ~~SEO tool + ~~analytics + ~~search console + ~~web crawler for fully automated workflows. |
+| **Tier 3** | Full integration | All available integrations — SEO, analytics, search console, CDN, CMS, and more — for fully automated workflows. |
 
 Every skill works without any tool integration (paste data manually). Connecting tools via MCP automates data retrieval but is never required.
 
@@ -85,4 +93,6 @@ Some skills declare a `primaryEnv` in their `metadata.openclaw` block for ClawHu
 | `AHREFS_API_KEY` | Ahrefs | keyword-research, competitor-analysis, serp-analysis, content-gap-analysis, backlink-analyzer, rank-tracker, internal-linking-optimizer |
 | `AMPLITUDE_API_KEY` | Amplitude | performance-reporter, alert-manager |
 
-No other skills require environment variables. All 20 skills function at Tier 1 (no integrations) by accepting manually provided data.
+Most new servers (Semrush, SE Ranking, SISTRIX, SimilarWeb, Cloudflare, Vercel, Webflow, Sanity, Contentful) use **OAuth** — authentication happens interactively on first use, no environment variables needed.
+
+All 20 skills function at Tier 1 (no integrations) by accepting manually provided data.

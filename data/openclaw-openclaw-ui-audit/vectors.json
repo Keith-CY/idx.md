@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ui-audit",
-  "generated_at": "2026-04-14T07:34:09.022Z",
+  "generated_at": "2026-04-15T07:33:53.807Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ui-audit#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tommygeoco/ui-audit/SKILL.md",
-        "retrieved_at": "2026-04-14T07:34:09.022Z",
+        "retrieved_at": "2026-04-15T07:33:53.807Z",
         "content_sha256": "2e887f00d42d43c5114e6f193a799f8a4fa134471f7113219f31d8dc8d885cd9"
       }
     }

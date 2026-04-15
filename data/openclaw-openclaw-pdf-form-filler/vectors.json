@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pdf-form-filler",
-  "generated_at": "2026-04-14T07:33:26.426Z",
+  "generated_at": "2026-04-15T07:33:12.735Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pdf-form-filler#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/raulsimpetru/pdf-form-filler/SKILL.md",
-        "retrieved_at": "2026-04-14T07:33:26.426Z",
+        "retrieved_at": "2026-04-15T07:33:12.735Z",
         "content_sha256": "e4585defbc2d3a94b02cb254a6d197d378c992deff6ae979a8504f6ee6c68702"
       }
     }

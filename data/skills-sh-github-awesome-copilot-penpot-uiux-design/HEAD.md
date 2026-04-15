@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/penpot-uiux-design
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-04-14T07:36:22.786Z
+retrieved_at: 2026-04-15T07:36:03.138Z
 content_sha256: 5eceba271320c73a4ed22db14b4c02331b5768f98121eab74cd3e6440bb4f521
 ---

@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/llm-monitoring-dash
 github_stars: 129
 github_forks: 3
 github_is_organization: false
-retrieved_at: 2026-04-14T07:36:25.282Z
+retrieved_at: 2026-04-15T07:36:05.471Z
 content_sha256: 1975b4cb7f02dafe3cbd299b52918bcf4cfb37e5823d59ea7f8720a52d001922
 ---

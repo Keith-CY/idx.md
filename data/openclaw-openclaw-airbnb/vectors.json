@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-airbnb",
-  "generated_at": "2026-04-14T07:35:04.881Z",
+  "generated_at": "2026-04-15T07:34:49.183Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-airbnb#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stveenli/airbnb/SKILL.md",
-        "retrieved_at": "2026-04-14T07:35:04.881Z",
+        "retrieved_at": "2026-04-15T07:34:49.183Z",
         "content_sha256": "57d30c8d76ec436e2c5484e88a9759d170deccd9246a459982d861ef185f5f74"
       }
     }

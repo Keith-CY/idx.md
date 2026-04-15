@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/crewai-multi-agent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-14T07:31:49.250Z
+retrieved_at: 2026-04-15T07:31:34.230Z
 content_sha256: bb4b104c94ffa8145516d73a1d4af3809723df15d47c2d02b24715bc9a1752f2
 ---
