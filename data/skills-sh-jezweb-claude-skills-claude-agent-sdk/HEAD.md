@@ -5,6 +5,20 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.110
+
+  - Fixed `unstable_v2_createSession` not respecting `cwd`, `settingSources`,
+  and `allowDangerouslySkipPermissions` options
+
+  - Added optional `shouldQuery` field to `SDKUserMessage` — set to `false` to
+  append a user message without triggering an assistant turn; fixed
+  `shouldQuery: false` messages incorrectly triggering auto-title generation,
+  prompt suggestions, and `UserPromptSubmit` hooks
+
+  - Auto session-title generation now respects
+  `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` and
+  `CLAUDE_CODE_DISABLE_TERMINAL_TITLE`
+
   ## 0.2.109
 
   - Updated to parity with Claude Code v2.1.109
@@ -16,14 +30,6 @@ summary: >-
   emitted before each API request in the stream
 
   ## 0.2.107
-
-  - Updated to parity with Claude Code v2.1.107
-
-  ## 0.2.106
-
-  - Updated to parity with Claude Code v2.1.106
-
-  ## 0.2.105
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-15T07:31:49.403Z
-content_sha256: bfe0888c49682f40f4e40dde3546e09ed4226611a3768f0bd4a5d3fd7dc218ef
+retrieved_at: 2026-04-16T07:31:50.981Z
+content_sha256: 2a58968db2468a9359bd59f1df1acb342071825331febe91384596c594f8de52
 ---

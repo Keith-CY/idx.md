@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-project-manager",
-  "generated_at": "2026-04-15T07:33:20.115Z",
+  "generated_at": "2026-04-16T07:33:39.998Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-project-manager#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/fr0ziii/project-manager/SKILL.md",
-        "retrieved_at": "2026-04-15T07:33:20.115Z",
+        "retrieved_at": "2026-04-16T07:33:39.998Z",
         "content_sha256": "5a850ea832ef5f4e9224fcf452eb836a6489be00779cc27305c41413382861ce"
       }
     }

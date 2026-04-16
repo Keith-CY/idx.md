@@ -8,6 +8,14 @@ metadata:
       bins:
         - node
         - npm
+      env:
+        - IMAP_HOST
+        - IMAP_USER
+        - IMAP_PASS
+        - SMTP_HOST
+        - SMTP_USER
+        - SMTP_PASS
+    primaryEnv: SMTP_PASS
 ---
 
 # IMAP/SMTP Email Tool
@@ -16,10 +24,16 @@ Read, search, and manage email via IMAP protocol. Send email via SMTP. Supports 
 
 ## Configuration
 
-Run the setup script to configure your email account:
+Run the setup script to install dependencies and configure your email account:
 
 ```bash
 bash setup.sh
+```
+
+If running commands manually without setup.sh, install dependencies first:
+
+```bash
+npm install --production
 ```
 
 Configuration is stored at `~/.config/imap-smtp-email/.env` (survives skill updates). If no config is found there, the skill falls back to a `.env` file in the skill directory (for backward compatibility).
@@ -113,6 +127,7 @@ Without `--account`, the default (unprefixed) account is used.
 | Gmail | imap.gmail.com | 993 | smtp.gmail.com | 587 |
 | Outlook | outlook.office365.com | 993 | smtp.office365.com | 587 |
 | QQ Mail | imap.qq.com | 993 | smtp.qq.com | 587 |
+| exmail.qq.com | imap.exmail.qq.com | 993 | smtp.exmail.qq.com | 465 |
 
 **Important for Gmail:**
 - Gmail does **not** accept your regular account password
@@ -243,12 +258,6 @@ Test SMTP connection by sending a test email to yourself.
 
 ```bash
 node scripts/smtp.js [--account <name>] test
-```
-
-## Dependencies
-
-```bash
-npm install
 ```
 
 ## Security Notes

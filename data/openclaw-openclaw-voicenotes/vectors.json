@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-voicenotes",
-  "generated_at": "2026-04-15T07:33:59.573Z",
+  "generated_at": "2026-04-16T07:34:29.911Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-voicenotes#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shawnhansen/voicenotes/SKILL.md",
-        "retrieved_at": "2026-04-15T07:33:59.573Z",
+        "retrieved_at": "2026-04-16T07:34:29.911Z",
         "content_sha256": "9b8ca88c9cd99f5c27e5c0c4d763e240594c2a03eaa80b01cc530c706de9a45e"
       }
     }

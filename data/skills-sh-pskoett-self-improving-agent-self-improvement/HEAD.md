@@ -14,6 +14,8 @@ summary: >-
   realizes its knowledge is outdated or incorrect, (6) A better approach is
   discovered for a recurring task. Also review learnings before major tasks."
 
+  metadata:
+
   ---
 
   # Self-Improvement Skill
@@ -28,8 +30,6 @@ summary: >-
   the project or workspace root. If any are missing, create them:
 
   ```bash
-
-  mkdir -p .learnings
 tags:
   - skills-sh
   - skills-sh-probed
@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/pskoett/self-improving-agent/self-improvement
 github_stars: 5
 github_forks: 2
 github_is_organization: false
-retrieved_at: 2026-04-15T07:34:20.534Z
-content_sha256: a34d1c3407dbaa9a23fdf20f43f4f65c88f07f396cfbf8034c98bf518b8a2d69
+retrieved_at: 2026-04-16T07:34:57.527Z
+content_sha256: c698ee5c6a1428666cef5e1f51450e00aebc8d8a44f7e432fe8b0421c480d281
 ---

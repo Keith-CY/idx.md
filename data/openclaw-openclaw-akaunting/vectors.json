@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-akaunting",
-  "generated_at": "2026-04-15T07:34:50.411Z",
+  "generated_at": "2026-04-16T07:35:38.382Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-akaunting#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/liekzejaws/akaunting/SKILL.md",
-        "retrieved_at": "2026-04-15T07:34:50.411Z",
+        "retrieved_at": "2026-04-16T07:35:38.382Z",
         "content_sha256": "3d5d386a0eb5da5aa4df5ebefe68f6112e8a20ab5920622afe3d9c399d560b4c"
       }
     }

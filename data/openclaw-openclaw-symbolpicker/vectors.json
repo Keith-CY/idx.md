@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-symbolpicker",
-  "generated_at": "2026-04-15T07:35:44.616Z",
+  "generated_at": "2026-04-16T07:36:48.023Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-symbolpicker#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/szpakkamil/symbolpicker/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:44.616Z",
+        "retrieved_at": "2026-04-16T07:36:48.023Z",
         "content_sha256": "c209b60aee71130cc6ff4044f61415b25920cea6bfb1460689a09d44ef802331"
       }
     }

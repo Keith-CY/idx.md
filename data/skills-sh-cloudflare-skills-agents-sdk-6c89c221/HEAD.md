@@ -5,9 +5,8 @@ title: skills-sh-cloudflare-skills-agents-sdk-6c89c221
 summary: >-
   # Workflows Integration
 
-  Fetch `docs/workflows.md` from
-  `https://github.com/cloudflare/agents/tree/main/docs` for complete
-  documentation.
+  Fetch https://developers.cloudflare.com/agents/api-reference/run-workflows/
+  for complete documentation.
 
   ## Overview
 
@@ -34,6 +33,6 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-15T07:31:34.695Z
-content_sha256: 67c63391a42f208a9ccc2d9e9c2103a6aebb4c4cad44ad34b0ff9c8308e6d794
+retrieved_at: 2026-04-16T07:31:30.790Z
+content_sha256: 1778b2dee2788d0238c1d4b61e3ee42538a24166770cf33c38d78c22c1ac6dbe
 ---

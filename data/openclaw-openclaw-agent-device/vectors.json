@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-device",
-  "generated_at": "2026-04-15T07:34:36.665Z",
+  "generated_at": "2026-04-16T07:35:20.895Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-device#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/okwasniewski/agent-device/SKILL.md",
-        "retrieved_at": "2026-04-15T07:34:36.665Z",
+        "retrieved_at": "2026-04-16T07:35:20.895Z",
         "content_sha256": "03063b8e5be921a1f12a967d928d35b0f65ca6b82e203c39161df227818ee7f8"
       }
     }

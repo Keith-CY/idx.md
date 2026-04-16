@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dellight-cro-revenue-ops",
-  "generated_at": "2026-04-15T07:35:26.538Z",
+  "generated_at": "2026-04-16T07:36:25.046Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dellight-cro-revenue-ops#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cro-revenue-ops/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:26.538Z",
+        "retrieved_at": "2026-04-16T07:36:25.046Z",
         "content_sha256": "8d1754c85655c9e5f03d0ceab52bf1e7b33cb66721d11f4d52b9edb96e2a6bef"
       }
     }

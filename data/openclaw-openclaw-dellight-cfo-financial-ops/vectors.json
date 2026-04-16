@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dellight-cfo-financial-ops",
-  "generated_at": "2026-04-15T07:35:26.435Z",
+  "generated_at": "2026-04-16T07:36:24.929Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dellight-cfo-financial-ops#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arthurelgindell/dellight-cfo-financial-ops/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:26.435Z",
+        "retrieved_at": "2026-04-16T07:36:24.929Z",
         "content_sha256": "d7abc6ab6b27922846ccc59bb902f4957ad90fba87c8733870a886420dc2f1a4"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-instruments-profiling",
-  "generated_at": "2026-04-15T07:35:36.795Z",
+  "generated_at": "2026-04-16T07:36:38.865Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-instruments-profiling#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/instruments-profiling/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:36.795Z",
+        "retrieved_at": "2026-04-16T07:36:38.865Z",
         "content_sha256": "50bec926d31083d59378bcac07a4dd91a2f0098483f3b3d4067dced803a9138c"
       }
     }

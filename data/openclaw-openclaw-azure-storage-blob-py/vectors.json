@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azure-storage-blob-py",
-  "generated_at": "2026-04-15T07:32:02.209Z",
+  "generated_at": "2026-04-16T07:32:07.939Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azure-storage-blob-py#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/thegovind/azure-storage-blob-py/SKILL.md",
-        "retrieved_at": "2026-04-15T07:32:02.209Z",
+        "retrieved_at": "2026-04-16T07:32:07.939Z",
         "content_sha256": "5efb79936a582a76fd8e0c1bd412c0a55cef840847cf3f5486e89b1d14403f0e"
       }
     }

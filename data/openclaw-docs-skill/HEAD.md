@@ -7,10 +7,11 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up or configuring a self-hosted AI agent
-  gateway, connecting messaging channels (Discord, Slack, Telegram, WhatsApp,
-  etc.), managing agent sessions and routing, configuring tools and skills, or
-  deploying multi-agent systems with isolated workspaces.
+  description: Use when setting up, configuring, or managing OpenClaw — a
+  self-hosted multi-channel AI agent gateway. Reach for this skill when working
+  with channels (Discord, Telegram, WhatsApp, etc.), configuring agents,
+  managing sessions, deploying the gateway, or troubleshooting channel/agent
+  issues.
 
   metadata:
       mintlify-proj: clawdbot
@@ -21,15 +22,14 @@ summary: >-
 
   ## Product summary
 
-  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
-  any OS. It connects chat apps (Discord, Slack, Telegram, WhatsApp, iMessage,
-  Signal, Matrix, and 15+ others) to a single embedded agent runtime. The
-  Gateway is the core service that manages sessions, routing, channels, and tool
+  OpenClaw is a self-hosted multi-channel gateway that connects messaging apps
+  (Discord, Telegram, WhatsApp, Signal, Slack, Microsoft Teams, iMessage,
+  Matrix, and more) to AI agents. The Gateway runs on any OS (macOS, Linux,
+  Windows) and routes messages from multiple channels to a single embedded agent
+  runtime with support for multi-agent routing, sessions, memory, and tool
   execution. Key files: `~/.openclaw/openclaw.json` (config),
-  `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md,
-  IDENTITY.md, USER.md, BOOTSTRAP.md). Primary CLI: `openclaw` (install,
-  onboard, configure, gateway, agent, channels, models, skills, nodes). See
-  [OpenClaw docs](https://docs.openclaw.ai).
+  `~/.openclaw/workspace/` (agent workspace), `~/.openclaw/agents/` (session
+  storage). Primary CLI: `openclaw`. Full docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -37,6 +37,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-15T07:31:33.146Z
-content_sha256: c4a5aac3e6c211eb94dfcb6ca88f582e80d2d62d64e2ea154c93ca0df6f975f4
+retrieved_at: 2026-04-16T07:31:28.610Z
+content_sha256: 896913b9d2f45aa8159fa1e9c72edfd602834510920e5bd1d7802213d9086ca1
 ---

@@ -760,28 +760,27 @@ Registers a custom domain for your account. Free plan: 1 domain. Hobby plan: up 
   "namespace_id": "uuid",
   "status": "pending",
   "is_apex": true,
-  "dns_instructions": {
-    "type": "ALIAS",
-    "name": "example.com",
-    "target": "fallback.here.now",
-    "note": "Add an ALIAS record (sometimes called ANAME or CNAME flattening) pointing to fallback.here.now."
-  },
-  "ownership_verification": {
-    "type": "txt",
-    "name": "_cf-custom-hostname.example.com",
-    "value": "uuid-token"
+  "dns_instructions": [
+    { "type": "A", "host": "@", "value": "162.159.142.245" },
+    { "type": "A", "host": "@", "value": "172.66.2.241" },
+    { "type": "CNAME", "host": "www", "value": "fallback.here.now" }
+  ],
+  "www_companion": {
+    "domain": "www.example.com",
+    "namespace_id": "uuid",
+    "status": "pending",
+    "role": "redirect",
+    "redirect_to": "example.com"
   }
 }
 ```
 
+For apex domains, we automatically register both `example.com` and `www.example.com`. Visitors to `www` are redirected to the apex.
+
 **DNS setup by domain type:**
 
-- **Subdomains** (e.g. `docs.example.com`): Add a **CNAME** record pointing to `fallback.here.now`.
-- **Apex domains** (e.g. `example.com`):
-  1. Add an **ALIAS** record pointing to `fallback.here.now`. (Your DNS provider may call this ANAME or CNAME flattening.)
-  2. Add a **TXT** record using the `name` and `value` from `ownership_verification`.
-
-**Tip:** Not all DNS providers support ALIAS records for apex domains. If yours doesn't, use `www.example.com` with a CNAME instead, then set up a redirect from the apex to `www` at your registrar.
+- **Subdomains** (e.g. `docs.example.com`): Add a **CNAME** record pointing to `fallback.here.now`. The `host` field in `dns_instructions` will show the subdomain part (e.g. `docs`).
+- **Apex domains** (e.g. `example.com`): Add the **A** records and **CNAME** record from `dns_instructions` at your DNS provider. The `host` field uses `@` to mean the root domain (some providers use a blank field instead).
 
 SSL is provisioned automatically once DNS is verified.
 
@@ -816,7 +815,7 @@ Returns all custom domains for the authenticated user, including their status an
 }
 ```
 
-For pending domains, this endpoint also polls Cloudflare for SSL verification status and updates automatically. Apex domains include `ownership_verification` with TXT record details.
+For pending domains, this endpoint also polls Cloudflare for SSL verification status and updates automatically.
 
 ---
 
@@ -824,7 +823,7 @@ For pending domains, this endpoint also polls Cloudflare for SSL verification st
 
 `GET /api/v1/domains/:domain`
 
-Returns details for a specific custom domain. Triggers on-demand verification for pending domains. Includes `is_apex`, `ownership_verification` (for apex domains), and `verification_errors` (when applicable).
+Returns details for a specific custom domain. Triggers on-demand verification for pending domains. Includes `is_apex`, `dns_instructions` (with `type`, `host`, `value` fields), and paired domain info.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 
@@ -834,7 +833,7 @@ Returns details for a specific custom domain. Triggers on-demand verification fo
 
 `DELETE /api/v1/domains/:domain`
 
-Removes a custom domain and all links under it.
+Removes a custom domain and all links under it. If the domain is part of an apex/www pair, both sides are deleted.
 
 **Requires:** `Authorization: Bearer <API_KEY>`
 

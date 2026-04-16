@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-camino-route",
-  "generated_at": "2026-04-15T07:35:13.372Z",
+  "generated_at": "2026-04-16T07:36:08.068Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-camino-route#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/james-southendsolutions/camino-route/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:13.372Z",
+        "retrieved_at": "2026-04-16T07:36:08.068Z",
         "content_sha256": "5f8895526f05e08a691bc6d2c0c9e3c5cf126fffe27db8c13bbee21512d96ed5"
       }
     }

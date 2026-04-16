@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-glasses-to-social",
-  "generated_at": "2026-04-15T07:32:33.543Z",
+  "generated_at": "2026-04-16T07:32:43.801Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-glasses-to-social#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/junebugg1214/glasses-to-social/SKILL.md",
-        "retrieved_at": "2026-04-15T07:32:33.543Z",
+        "retrieved_at": "2026-04-16T07:32:43.801Z",
         "content_sha256": "5c8b080fac5289214bede2784ee7ecd954bcfc97cf047286c82a6c5a5591020e"
       }
     }

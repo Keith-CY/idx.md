@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mac-clean-skill",
-  "generated_at": "2026-04-15T07:35:38.242Z",
+  "generated_at": "2026-04-16T07:36:40.574Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mac-clean-skill#head",
@@ -19,7 +19,7 @@
           "category-ios-macos-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aadipapp/mac-clean-skill/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:38.242Z",
+        "retrieved_at": "2026-04-16T07:36:40.574Z",
         "content_sha256": "878d7aefe75e4044914a2037cec6e30cbe10531c99cf9c037596d1e0707c2e6b"
       }
     }

@@ -34,7 +34,27 @@ Knowledge is stored in `.brv/context-tree/` as human-readable Markdown files.
 brv query "How is authentication implemented?"
 ```
 
-### 2. Curate Context
+### 2. Search Context Tree
+**Overview:** Retrieve a ranked list of matching files from `.brv/context-tree/` via pure BM25 lookup. Unlike `brv query`, this does NOT call an LLM — no synthesis, no token cost, no provider setup needed. Returns structured results with paths, scores, and excerpts.
+
+**Use this skill when:**
+- You need file paths to read rather than a synthesized answer
+- You want fast, cheap retrieval with no LLM overhead
+- You're in an automated pipeline that consumes structured results
+
+**Do NOT use this skill when:**
+- You need a natural-language answer synthesized from multiple files — use `brv query` instead
+- The information is already present in your current context
+
+```bash
+brv search "authentication patterns"
+brv search "JWT tokens" --limit 5 --scope "auth/"
+brv search "auth" --format json
+```
+
+**Flags:** `--limit N` (1-50, default 10), `--scope "domain/"` (path prefix filter), `--format json` (structured output for automation).
+
+### 3. Curate Context
 **Overview:** Analyze and save knowledge to the local knowledge base. Uses a configured LLM provider to categorize and structure the context you provide.
 
 **Use this skill when:**
@@ -79,7 +99,7 @@ brv curate view --since 1h --status completed
 brv curate view --help
 ```
 
-### 3. Review Pending Changes
+### 4. Review Pending Changes
 **Overview:** After a curate operation, some changes may require human review before being applied. Use `brv review` to list, approve, or reject pending operations.
 
 **Use this when:**
@@ -142,7 +162,7 @@ brv review approve <taskId> --format json
 brv review reject <taskId> --format json
 ```
 
-### 4. LLM Provider Setup
+### 5. LLM Provider Setup
 `brv query` and `brv curate` require a configured LLM provider. Connect the default ByteRover provider (no API key needed):
 
 ```bash
@@ -156,7 +176,7 @@ brv providers list
 brv providers connect openai --api-key sk-xxx --model gpt-4.1
 ```
 
-### 5. Project Locations
+### 6. Project Locations
 **Overview:** List registered projects and their context tree paths. Returns project metadata including initialization status and active state. Use `-f json` for machine-readable output.
 
 **Use this when:**
@@ -174,7 +194,7 @@ brv locations -f json
 
 JSON fields: `projectPath`, `contextTreePath`, `isCurrent`, `isActive`, `isInitialized`.
 
-### 6. Version Control
+### 7. Version Control
 **Overview:** `brv vc` provides git-based version control for your context tree. It uses standard git semantics — branching, committing, merging, history, and conflict resolution — all working locally with no authentication required. Remote sync with a team is optional. The legacy `brv push`, `brv pull`, and `brv space` commands are deprecated — use `brv vc push`, `brv vc pull`, and `brv vc clone`/`brv vc remote add` instead.
 
 **Use this when:**
@@ -288,6 +308,169 @@ brv vc push -u origin main       # push and set upstream tracking
 **Clone a space:**
 ```bash
 brv vc clone https://byterover.dev/<team>/<space>.git
+```
+
+### 8. Swarm Query
+**Overview:** Search across all active memory providers simultaneously — ByteRover context tree, Obsidian vault, Local Markdown folders, GBrain, and Memory Wiki. Results are fused via Reciprocal Rank Fusion (RRF) and ranked by provider weight and relevance. No LLM call — pure algorithmic search.
+
+**Use this skill when:**
+- You need to search across multiple knowledge sources at once
+- The user has configured multiple memory providers (check with `brv swarm status`)
+- You want results from Obsidian notes, GBrain entities, or wiki pages alongside ByteRover context
+
+**Do NOT use this skill when:**
+- The user only has ByteRover configured — use `brv query` instead (it synthesizes via LLM)
+- You need an LLM-synthesized answer — `brv swarm query` returns raw search results, not synthesized text
+
+```bash
+brv swarm query "How does JWT refresh work?"
+```
+
+Output:
+```
+Swarm Query: "How does JWT refresh work?"
+Type: factual | Providers: 4 queried | Latency: 398ms
+──────────────────────────────────────────────────
+1. [memory-wiki] sources/jwt-token-lifecycle.md    score: 0.0150  [keyword]
+   # JWT Token Lifecycle ...
+2. [obsidian] SwarmTestData/Authentication System.md    score: 0.0142  [keyword]
+   # Authentication System ...
+3. [gbrain] alex-chen    score: 0.0117  [semantic]
+   # Alex Chen — Senior Backend Engineer ...
+```
+
+**With explain mode** (shows classification, provider selection, enrichment):
+```bash
+brv swarm query "authentication patterns" --explain
+```
+
+Output:
+```
+Classification: factual
+Provider selection: 4 of 4 available
+  ✓ byterover    (healthy, selected, 0 results, 14ms)
+  ✓ obsidian    (healthy, selected, 5 results, 91ms)
+  ✓ memory-wiki    (healthy, selected, 2 results, 15ms)
+  ✓ gbrain    (healthy, selected, 1 results, 260ms)
+Enrichment:
+  byterover → obsidian
+  byterover → memory-wiki
+Results: 8 raw → 7 after RRF fusion + precision filtering
+```
+
+**JSON output:**
+```bash
+brv swarm query "rate limiting" --format json
+```
+
+Output:
+```json
+{
+  "meta": {
+    "queryType": "factual",
+    "totalLatencyMs": 340,
+    "providers": {
+      "byterover": { "selected": true, "resultCount": 0 },
+      "obsidian": { "selected": true, "resultCount": 5 },
+      "gbrain": { "selected": true, "resultCount": 1 },
+      "memory-wiki": { "selected": true, "resultCount": 1 }
+    }
+  },
+  "results": [
+    { "provider": "memory-wiki", "providerType": "memory-wiki", "score": 0.015, "content": "# Rate Limiting ..." }
+  ]
+}
+```
+
+**Limit results:**
+```bash
+brv swarm query "testing strategy" -n 5
+```
+
+**Flags:** `--explain` (show routing details), `--format json` (structured output), `-n <value>` (max results).
+
+### 9. Swarm Curate
+**Overview:** Store knowledge in the best available external memory provider. ByteRover automatically classifies the content type and routes accordingly: entities (people, orgs) go to GBrain, notes (meeting notes, TODOs) go to Local Markdown, general content goes to the first writable provider. Falls back to ByteRover context tree if no external providers are available.
+
+**Use this skill when:**
+- You want to store knowledge in an external provider (GBrain, Local Markdown, Memory Wiki)
+- The user has configured writable swarm providers
+
+**Do NOT use this skill when:**
+- You want to store in ByteRover's context tree specifically — use `brv curate` instead
+- No swarm providers are configured — use `brv curate` instead
+
+```bash
+brv swarm curate "Jane Smith is the CTO of TechCorp"
+```
+
+Output:
+```
+Stored to gbrain as concept/jane-smith-cto
+```
+
+**Target a specific provider:**
+```bash
+brv swarm curate "meeting notes: decided on JWT" --provider local-markdown:notes
+```
+
+Output:
+```
+Stored to local-markdown:notes as note-1776052527043.md
+```
+
+```bash
+brv swarm curate "Architecture uses event sourcing" --provider gbrain
+```
+
+Output:
+```
+Stored to gbrain as concept/event-sourcing-architecture
+```
+
+**JSON output:**
+```bash
+brv swarm curate "Test content" --format json
+```
+
+Output:
+```json
+{
+  "id": "note-1776052594462.md",
+  "provider": "local-markdown:project-docs",
+  "success": true,
+  "latencyMs": 1
+}
+```
+
+**Flags:** `--provider <id>` (target specific provider), `--format json` (structured output).
+
+### 10. Swarm Status
+**Overview:** Check provider health and write targets before running swarm query or curate. Use this to verify which providers are available and operational.
+
+**Use this skill when:**
+- Before running `brv swarm query` or `brv swarm curate` to check available providers
+- Diagnosing why swarm results are missing from a specific provider
+
+```bash
+brv swarm status
+```
+
+Output:
+```
+Memory Swarm Health Check
+════════════════════════════════════════
+  ✓ ByteRover       context-tree (always on)
+  ✓ Obsidian        /Users/you/Documents/MyObsidian
+  ✓ Local .md       1 folder(s)
+  ✓ GBrain          /Users/you/workspaces/gbrain
+  ✓ Memory Wiki     /Users/you/.openclaw/wiki/main
+
+Write Targets:
+  gbrain (entity, general)
+  local-markdown:project-docs (note, general)
+
+Swarm is operational (5/5 providers configured).
 ```
 
 ## Data Handling

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dharma-ai",
-  "generated_at": "2026-04-15T07:35:27.213Z",
+  "generated_at": "2026-04-16T07:36:26.020Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dharma-ai#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jigaraero/dharma-ai/SKILL.md",
-        "retrieved_at": "2026-04-15T07:35:27.213Z",
+        "retrieved_at": "2026-04-16T07:36:26.020Z",
         "content_sha256": "fabdb465559cd67a3e1773a102863978269d2eb60694ded9df205315a7530344"
       }
     }

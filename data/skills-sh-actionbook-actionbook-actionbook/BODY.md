@@ -231,6 +231,22 @@ Requests are captured automatically per tab (default 500, configurable via `brow
 
 `--dump --out <dir>` exports all matching requests (after filters) as a single `<dir>/requests.json` file with best-effort response bodies. Returns `dump: { path, count }` on success.
 
+### HAR Recording
+
+Record all network traffic for a tab in HAR 1.2 format.
+
+```bash
+actionbook browser network har start --session s1 --tab t1                        # Start recording
+actionbook browser network har stop --session s1 --tab t1                         # Stop and export to ~/.actionbook/har/
+actionbook browser network har stop --session s1 --tab t1 --out /tmp/trace.har    # Stop and export to custom path
+```
+
+Recording is per-tab: multiple tabs (or sessions) can record independently at the same time. `har stop` writes a HAR 1.2 JSON file and returns `{ path, count }`. If `--out` is omitted, a timestamped file is created in `~/.actionbook/har/`.
+
+Output contains request/response headers, status, mimeType, and detailed timings per entry. Response bodies are not included — use `network requests --dump` if you need bodies. Redirect chains produce one entry per hop.
+
+Error codes: `HAR_ALREADY_RECORDING` (start while already recording on that tab), `HAR_NOT_RECORDING` (stop without a prior start). Recording data is held in memory; closing the tab while recording discards it. Cross-origin iframe requests are not captured (v1 limitation).
+
 ## Wait
 
 ```bash
@@ -301,7 +317,7 @@ The recommended install method is the [Chrome Web Store](https://chromewebstore.
 
 ```bash
 actionbook extension status                          # Bridge status + extension connection state
-actionbook extension ping                            # Measure bridge RTT (connects to ws://127.0.0.1:19222)
+actionbook extension ping                            # Measure bridge RTT (connects to ws://localhost:19222)
 actionbook extension install                         # Fallback: install to ~/Actionbook/extension/ (requires manual Chrome load)
 actionbook extension install --force                 # Force reinstall even if up to date
 actionbook extension uninstall                       # Remove extension from ~/Actionbook/extension/

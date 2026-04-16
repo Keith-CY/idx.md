@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-comp-analysis-skill",
-  "generated_at": "2026-04-15T07:34:12.713Z",
+  "generated_at": "2026-04-16T07:34:46.669Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-comp-analysis-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/comp-analysis/SKILL.md",
-        "retrieved_at": "2026-04-15T07:34:12.713Z",
+        "retrieved_at": "2026-04-16T07:34:46.669Z",
         "content_sha256": "1af196cd1c38cdb96565eadebcf13fa25e979469b3e06f4791e18baa7f2534a6"
       }
     }

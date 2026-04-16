@@ -1,6 +1,6 @@
 ---
 name: chart-image
-description: Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
+description: Generate publication-quality chart images from data. Supports line, bar, area, point, histogram, candlestick, pie/donut, heatmap, multi-series, and stacked charts. Use when visualizing data, creating graphs, plotting time series, showing distributions, or generating chart images for reports/alerts. Designed for Fly.io/VPS deployments - no native compilation, no Puppeteer, no browser required. Pure Node.js with prebuilt binaries.
 ---
 
 # Chart Image Generator
@@ -39,6 +39,16 @@ node /data/clawd/skills/chart-image/scripts/chart.mjs \
 node chart.mjs --type line --data '[{"x":"A","y":10},{"x":"B","y":15}]' --output line.png
 ```
 
+### Quantitative X-domain clamp
+Useful when you want a fixed numeric or temporal window without editing Vega-Lite by hand:
+```bash
+node chart.mjs --type line \
+  --data '[{"minute":0,"value":12},{"minute":1,"value":18},{"minute":2,"value":14},{"minute":3,"value":20}]' \
+  --x-field minute --y-field value --x-type quantitative \
+  --x-domain 0,2 --title "First 3 Minutes" \
+  --output x-domain.png
+```
+
 ### Bar Chart
 ```bash
 node chart.mjs --type bar --data '[{"x":"A","y":10},{"x":"B","y":15}]' --output bar.png
@@ -47,6 +57,16 @@ node chart.mjs --type bar --data '[{"x":"A","y":10},{"x":"B","y":15}]' --output 
 ### Area Chart
 ```bash
 node chart.mjs --type area --data '[{"x":"A","y":10},{"x":"B","y":15}]' --output area.png
+```
+
+### Histogram
+Use this for numeric distributions instead of pre-binned bar charts:
+```bash
+node chart.mjs --type histogram \
+  --data '[{"value":12},{"value":18},{"value":19},{"value":24},{"value":31}]' \
+  --x-field value --x-title "Response Time (ms)" --y-title "Count" \
+  --bins 8 --tick-min-step-y 1 --x-label-angle -30 \
+  --output hist.png
 ```
 
 ### Pie / Donut Chart
@@ -73,6 +93,7 @@ node chart.mjs --type candlestick \
 node chart.mjs --type heatmap \
   --data '[{"x":"Mon","y":"Week1","value":5},{"x":"Tue","y":"Week1","value":8}]' \
   --color-value-field value --color-scheme viridis \
+  --y-label-overlap greedy \
   --title "Activity Heatmap" --output heatmap.png
 ```
 
@@ -110,7 +131,7 @@ Sparklines are 80x20 by default, transparent, no axes.
 ### Basic Options
 | Option | Description | Default |
 |--------|-------------|---------|
-| `--type` | Chart type: line, bar, area, point, pie, donut, candlestick, heatmap | line |
+| `--type` | Chart type: line, bar, area, point, histogram, pie, donut, candlestick, heatmap | line |
 | `--data` | JSON array of data points | - |
 | `--output` | Output file path | chart.png |
 | `--title` | Chart title | - |
@@ -125,6 +146,7 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--x-title` | X axis label | field name |
 | `--y-title` | Y axis label | field name |
 | `--x-type` | X axis type: ordinal, temporal, quantitative | ordinal |
+| `--x-domain` | Clamp/zoom the X scale with `min,max` bounds for quantitative or temporal charts | auto |
 | `--x-format` | Temporal X axis label format (d3-time-format, e.g. `%b %d`, `%H:%M`) | auto |
 | `--x-sort` | X axis order: ascending, descending, or none (preserve input order) | auto |
 | `--series-order CSV` | Explicit series/category order for multi-series and stacked legends (e.g. `Critical,High,Medium`) | data order |
@@ -132,6 +154,14 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--y-label-limit PX` | Max pixel width for Y axis labels before Vega truncates them | auto |
 | `--x-ticks N` | Target X-axis tick count for dense or sparse charts | auto |
 | `--y-ticks N` | Target primary/left Y-axis tick count for dense or sparse charts | auto |
+| `--bins N` | Histogram bin count (`--type histogram` only) | Vega auto |
+| `--tick-min-step N` | Minimum step between ticks on quantitative axes (great for counts / whole-number charts) | Vega auto |
+| `--tick-min-step-x N` | Minimum step between ticks on quantitative X axes only | Vega auto |
+| `--tick-min-step-y N` | Minimum step between ticks on quantitative Y axes only | Vega auto |
+| `--x-label-angle N` | Rotate X-axis labels (for dense categories / timestamps) | -45 |
+| `--y-label-angle N` | Rotate Y-axis labels (useful for horizontal bars / heatmaps) | 0 / Vega default |
+| `--x-label-overlap MODE` | Force Vega X-axis overlap handling (`parity`, `greedy`, `true`, `false`) for crowded labels | Vega auto |
+| `--y-label-overlap MODE` | Force Vega Y-axis overlap handling (`parity`, `greedy`, `true`, `false`) for crowded labels | Vega auto |
 | `--y2-ticks N` | Target secondary/right Y-axis tick count for dual-axis and volume charts | auto |
 | `--y-domain` | Y scale as "min,max" | auto |
 | `--y-pad` | Add vertical padding as a fraction of range (e.g. `0.1` = 10%) | 0 |
@@ -143,6 +173,14 @@ Sparklines are 80x20 by default, transparent, no axes.
 | `--dark` | Dark mode theme | false |
 | `--svg` | Output SVG instead of PNG | false |
 | `--font-family` | CSS font-family string for chart text/legend/title theming | Helvetica, Arial, sans-serif |
+| `--title-align` | Title alignment: `start`, `middle`, `end` | start |
+| `--title-size N` | Title font size override in px | auto |
+| `--subtitle-size N` | Subtitle font size override in px | auto |
+| `--title-weight W` | Title font weight override (`normal`, `bold`, `100`-`900`) | auto |
+| `--subtitle-weight W` | Subtitle font weight override (`normal`, `bold`, `100`-`900`) | auto |
+| `--title-color` | Title text color override | theme text |
+| `--subtitle-color` | Subtitle text color override | theme grid |
+| `--grid-dash A,B` | Dash pattern for gridlines (for example `4,2`) | solid |
 
 **Font examples:** `"Inter, Helvetica, Arial, sans-serif"`, `"Georgia, serif"`, `"JetBrains Mono, Consolas, monospace"`
 | `--no-points` | Hide point markers on line charts | false |
@@ -296,6 +334,8 @@ Add context below the title:
 node chart.mjs --title "MOLT Price" --subtitle "20,668 MOLT held" --data '[...]' --output molt.png
 ```
 
+`--subtitle` works across standard charts plus pie/donut, heatmap, candlestick, stacked, multi-series, volume-overlay, and dual-axis layouts.
+
 ## Theme Selection
 
 Use `--dark` for dark mode. Auto-select based on time:
@@ -349,4 +389,4 @@ node chart.mjs --type line --data '...' --output /data/clawd/tmp/my-chart.png
 - Auto-use `--dark` between 20:00-07:00 Israel time
 
 ---
-*Updated: 2026-03-27 - Added `--y2-ticks` so dual-axis + volume-overlay charts can tune the right-axis tick density independently; version bumped to 2.6.22*
+*Updated: 2026-04-06 - added `--y-label-angle` for crowded categorical/heatmap charts and documented per-axis label rotation; version bumped to 2.6.33*
