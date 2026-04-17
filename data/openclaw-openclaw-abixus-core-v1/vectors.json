@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-abixus-core-v1",
-  "generated_at": "2026-04-16T07:35:04.315Z",
+  "generated_at": "2026-04-17T07:33:54.828Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-abixus-core-v1#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/taofisio/abixus-core-v1/SKILL.md",
-        "retrieved_at": "2026-04-16T07:35:04.315Z",
+        "retrieved_at": "2026-04-17T07:33:54.828Z",
         "content_sha256": "1007c4f6487a534474c74a0aa5cbcdf008f812760a5dc49631b8f9155b1ce216"
       }
     }

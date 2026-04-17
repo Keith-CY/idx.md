@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-model-usage",
-  "generated_at": "2026-04-16T07:33:10.834Z",
+  "generated_at": "2026-04-17T07:32:47.054Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-model-usage#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/model-usage/SKILL.md",
-        "retrieved_at": "2026-04-16T07:33:10.834Z",
+        "retrieved_at": "2026-04-17T07:32:47.054Z",
         "content_sha256": "70e8c1c96f7c1475fd7ac5588171cac6a05e65cb5c39da7e6847f93339347efc"
       }
     }

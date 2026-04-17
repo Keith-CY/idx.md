@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-creator-rights-assistant",
-  "generated_at": "2026-04-16T07:32:24.579Z",
+  "generated_at": "2026-04-17T07:32:19.622Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-creator-rights-assistant#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/otherpowers/creator-rights-assistant/SKILL.md",
-        "retrieved_at": "2026-04-16T07:32:24.579Z",
+        "retrieved_at": "2026-04-17T07:32:19.622Z",
         "content_sha256": "d1a5a83203d815cf77048d97e00ee3ab613089a6f18e2627b442213db7caba62"
       }
     }

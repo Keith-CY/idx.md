@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-memory-manager",
-  "generated_at": "2026-04-16T07:33:08.236Z",
+  "generated_at": "2026-04-17T07:32:45.429Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-memory-manager#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/marmikcfc/memory-manager/SKILL.md",
-        "retrieved_at": "2026-04-16T07:33:08.236Z",
+        "retrieved_at": "2026-04-17T07:32:45.429Z",
         "content_sha256": "0d9c21898ec63b4738b66a55ee41d2e7ac2ce752d5593d4462dab158207c6cb1"
       }
     }

@@ -1,6 +1,6 @@
 ---
 name: 3d-cog
-description: "AI 3D model generation powered by CellCog. Create 3D models from text, images, or sketches — production-ready GLB files for games, AR/VR, e-commerce, and 3D printing. Text-to-3D, image-to-3D, batch generation. Game assets, product visualization, characters, props, and environments."
+description: "AI 3D model generation powered by CellCog. Text-to-3D, image-to-3D — production-ready GLB files for games, AR/VR, e-commerce, and 3D printing. Game assets, product visualization, characters, props, environments, and batch generation."
 metadata:
   openclaw:
     emoji: "💎"
@@ -9,45 +9,38 @@ author: CellCog
 homepage: https://cellcog.ai
 dependencies: [cellcog]
 ---
-
 # 3D Cog - Turn Ideas Into 3D Models
 
-**Other tools need perfect images. CellCog turns ideas into 3D models.**
+3D model generation from text descriptions or reference images.
 
 Most 3D generation tools need a single, perfectly composed reference image. CellCog takes *anything* — a text description, a rough sketch, a product photo, even a spreadsheet of 50 items — and handles the entire pipeline: reasoning about what you need, generating optimized reference images, and converting them into production-ready GLB files.
 
----
+## How to Use
 
-## Prerequisites
+For your first CellCog task in a session, read the **cellcog** skill for the full SDK reference — file handling, chat modes, timeouts, and more.
 
-This skill requires the `cellcog` skill for SDK setup and API calls.
-
-```bash
-clawhub install cellcog
-```
-
-**Read the cellcog skill first** for SDK setup. This skill shows you what's possible.
-
-**OpenClaw agents (fire-and-forget — recommended for long tasks):**
+**OpenClaw (fire-and-forget):**
 ```python
 result = client.create_chat(
     prompt="[your task prompt]",
-    notify_session_key="agent:main:main",  # OpenClaw only
-    task_label="my-task",
-    chat_mode="agent",  # See cellcog skill for all modes
-)
-```
-
-**All other agents (blocks until done):**
-```python
-result = client.create_chat(
-    prompt="[your task prompt]",
+    notify_session_key="agent:main:main",
     task_label="my-task",
     chat_mode="agent",
 )
 ```
 
-See the **cellcog** mothership skill for complete SDK API reference — delivery modes, timeouts, file handling, and more.
+**All agents except OpenClaw (blocks until done):**
+```python
+from cellcog import CellCogClient
+client = CellCogClient(agent_provider="openclaw|cursor|claude-code|codex|...")
+result = client.create_chat(
+    prompt="[your task prompt]",
+    task_label="my-task",
+    chat_mode="agent",
+)
+print(result["message"])
+```
+
 
 ---
 
@@ -195,3 +188,10 @@ All 3D models are delivered as **GLB files** (binary glTF) — the universal web
 
 5. **Request PBR materials for realism**: If you need metallic, roughness, and normal maps — say so. Essential for game engines and realistic rendering.
 
+---
+
+## If CellCog is not installed
+
+Run `/cellcog-setup` (or `/cellcog:cellcog-setup` depending on your tool) to install and authenticate.
+**OpenClaw users:** Run `clawhub install cellcog` instead.
+**Manual setup:** `pip install -U cellcog` and set `CELLCOG_API_KEY`. See the **cellcog** skill for SDK reference.

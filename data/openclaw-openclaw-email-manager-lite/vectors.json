@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-email-manager-lite",
-  "generated_at": "2026-04-16T07:32:31.058Z",
+  "generated_at": "2026-04-17T07:32:23.303Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-email-manager-lite#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jorgermp/email-manager-lite/SKILL.md",
-        "retrieved_at": "2026-04-16T07:32:31.058Z",
+        "retrieved_at": "2026-04-17T07:32:23.303Z",
         "content_sha256": "cf1aa52b62ccbe480d356d5e57946f7453e4d0d5aa976c3d40f8e6974581907d"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-video-gen",
-  "generated_at": "2026-04-16T07:35:36.480Z",
+  "generated_at": "2026-04-17T07:34:12.675Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-video-gen#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rhanbourinajd/ai-video-gen/SKILL.md",
-        "retrieved_at": "2026-04-16T07:35:36.480Z",
+        "retrieved_at": "2026-04-17T07:34:12.675Z",
         "content_sha256": "881cc4c65fde6ef60610a0bb20dc1243e114014e1f64006f00adad309db49e10"
       }
     }

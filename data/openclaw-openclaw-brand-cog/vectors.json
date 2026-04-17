@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brand-cog",
-  "generated_at": "2026-04-16T07:36:03.239Z",
+  "generated_at": "2026-04-17T07:34:27.766Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brand-cog#head",
@@ -19,8 +19,8 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/brand-cog/SKILL.md",
-        "retrieved_at": "2026-04-16T07:36:03.239Z",
-        "content_sha256": "0722bafdfbb92d2fb639b85783491fa9c77ddfbfd6989946e5185b9d90d3a247"
+        "retrieved_at": "2026-04-17T07:34:27.766Z",
+        "content_sha256": "6ea2fa4a072df7327efef145eb528bebaa311040ab9b4e5da63b2f6441a2be15"
       }
     }
   ]

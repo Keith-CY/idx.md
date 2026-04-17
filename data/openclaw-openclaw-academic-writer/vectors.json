@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-academic-writer",
-  "generated_at": "2026-04-16T07:35:05.311Z",
+  "generated_at": "2026-04-17T07:33:55.242Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-academic-writer#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dayunyan/academic-writer/SKILL.md",
-        "retrieved_at": "2026-04-16T07:35:05.311Z",
+        "retrieved_at": "2026-04-17T07:33:55.242Z",
         "content_sha256": "2459604a80ca144e807a93259dfcc8765aa22040e15060e4a09377d172f6e712"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-streaming-buddy",
-  "generated_at": "2026-04-16T07:34:08.170Z",
+  "generated_at": "2026-04-17T07:33:22.434Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-streaming-buddy#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/udiedrichsen/streaming-buddy/SKILL.md",
-        "retrieved_at": "2026-04-16T07:34:08.170Z",
+        "retrieved_at": "2026-04-17T07:33:22.434Z",
         "content_sha256": "06da92b5d66c595af225a283e1b1d30d83d606b6b7d7b1a42e1556096c91d89f"
       }
     }

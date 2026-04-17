@@ -315,10 +315,8 @@
   <url><loc>https://idx.md/openai-curated-security-ownership-map/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-security-threat-model/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-sentry/BODY.md</loc></url>
-  <url><loc>https://idx.md/openai-curated-slides/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-sora/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-speech/BODY.md</loc></url>
-  <url><loc>https://idx.md/openai-curated-spreadsheet/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-transcribe/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-vercel-deploy/BODY.md</loc></url>
   <url><loc>https://idx.md/openai-curated-winui-app/BODY.md</loc></url>
@@ -759,7 +757,6 @@
   <url><loc>https://idx.md/openclaw-openclaw-aura/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-authensor-gateway/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-auto-improve/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-auto-pr-merger/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-auto-skill-hunter/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-auto-updater/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-auto-whisper-safe/BODY.md</loc></url>
@@ -922,7 +919,6 @@
   <url><loc>https://idx.md/openclaw-openclaw-canvas-design/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-canvas-lms/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-capa-officer/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-capability-evolver/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-captcha-ai/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-captchas-openclaw/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-captions/BODY.md</loc></url>
@@ -1283,13 +1279,8 @@
   <url><loc>https://idx.md/openclaw-openclaw-fd-find/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-featurebase/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-feelgoodbot/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-feishu-attendance/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-feishu-calendar/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-feishu-card/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-feishu-doc-reader/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-feishu-doc/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-feishu-leave-request/BODY.md</loc></url>
-  <url><loc>https://idx.md/openclaw-openclaw-feishu-sticker/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-ffmpeg-cli/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-ffmpeg-video-editor/BODY.md</loc></url>
   <url><loc>https://idx.md/openclaw-openclaw-fieldfix/BODY.md</loc></url>
@@ -2635,7 +2626,6 @@
   <url><loc>https://idx.md/skills-sh-kepano-obsidian-skills-json-canvas/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-kepano-obsidian-skills-obsidian-bases/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-kepano-obsidian-skills-obsidian-markdown/BODY.md</loc></url>
-  <url><loc>https://idx.md/skills-sh-kylezantos-design-engineer-auditor-package-design-motion-principles/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-langgenius-dify-frontend-code-review/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-letz-ai-letzai-skill-letzai-api-cd10df60/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-letz-ai-letzai-skill-letzai-api/BODY.md</loc></url>
@@ -2765,7 +2755,6 @@
   <url><loc>https://idx.md/skills-sh-tursodatabase-turso-debugging/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-tursodatabase-turso-testing/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-vercel-ai-ai-sdk/BODY.md</loc></url>
-  <url><loc>https://idx.md/skills-sh-vercel-labs-agent-browser-agent-browser/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-vercel-labs-next-skills-next-best-practices/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-vercel-turborepo-turborepo/BODY.md</loc></url>
   <url><loc>https://idx.md/skills-sh-vuejs-ai-skills-vue-debug-guides/BODY.md</loc></url>

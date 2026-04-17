@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-skills-tools",
-  "generated_at": "2026-04-16T07:35:25.858Z",
+  "generated_at": "2026-04-17T07:34:06.531Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-skills-tools#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rongself/agent-skills-tools/SKILL.md",
-        "retrieved_at": "2026-04-16T07:35:25.858Z",
+        "retrieved_at": "2026-04-17T07:34:06.531Z",
         "content_sha256": "f7b2937418da7ee25cfe9f53e67089a03cd60f203d760e0ef547add70072b735"
       }
     }

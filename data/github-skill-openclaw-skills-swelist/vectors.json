@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-swelist",
-  "generated_at": "2026-04-16T07:37:03.839Z",
+  "generated_at": "2026-04-17T07:35:02.161Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-swelist#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chenyuan99/swelist/SKILLS.md",
-        "retrieved_at": "2026-04-16T07:37:03.839Z",
+        "retrieved_at": "2026-04-17T07:35:02.161Z",
         "content_sha256": "3a6c65e8d92bbbcb71789ad4fbe48bba46fa24ecd38d0bcc1ae41b94bf866ee2"
       }
     }

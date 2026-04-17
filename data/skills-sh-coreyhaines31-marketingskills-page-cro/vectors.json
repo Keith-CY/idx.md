@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-page-cro",
-  "generated_at": "2026-04-16T07:37:10.789Z",
+  "generated_at": "2026-04-17T07:35:05.707Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-page-cro#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/page-cro/references/experiments.md",
-        "retrieved_at": "2026-04-16T07:37:10.789Z",
+        "retrieved_at": "2026-04-17T07:35:05.707Z",
         "content_sha256": "bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca"
       }
     }

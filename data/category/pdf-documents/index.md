@@ -3,7 +3,7 @@
 | Category | PDF & Documents |
 | --- | --- |
 | Slug | pdf-documents |
-| Count | 53 |
+| Count | 52 |
 
 ---
 stable_id: skills/openclaw-openclaw-abixus-core-v1
@@ -21,7 +21,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:04.315Z
+retrieved_at: 2026-04-17T07:33:54.828Z
 content_sha256: 1007c4f6487a534474c74a0aa5cbcdf008f812760a5dc49631b8f9155b1ce216
 ---
 |/data/openclaw-openclaw-abixus-core-v1|
@@ -42,7 +42,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:10.072Z
+retrieved_at: 2026-04-17T07:33:57.790Z
 content_sha256: 6573ba8542d32b39914cbd12f7cb0fb114466db8f042cb439e56aaf01234ce6f
 ---
 |/data/openclaw-openclaw-add-watermark-to-pdf|
@@ -62,7 +62,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:12.772Z
+retrieved_at: 2026-04-17T07:33:59.365Z
 content_sha256: ab8c5054af16195df3ef6eaa55c670bb9484bd5fb9b3b95efc5d76d3ba1cbd4a
 ---
 |/data/openclaw-openclaw-aegis-security-hackathon|
@@ -82,7 +82,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:19.520Z
+retrieved_at: 2026-04-17T07:34:03.082Z
 content_sha256: 3115f08616f0d682f29407888ee3bbf0518055980ffc01afb02391e0aa2571d1
 ---
 |/data/openclaw-openclaw-agent-constitution|
@@ -103,7 +103,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:24.874Z
+retrieved_at: 2026-04-17T07:34:05.854Z
 content_sha256: ecf0013dfb9e204f08ce005864a03b21bcc142b9408b0b493857644363826780
 ---
 |/data/openclaw-openclaw-agent-reputation|
@@ -123,7 +123,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:25.858Z
+retrieved_at: 2026-04-17T07:34:06.531Z
 content_sha256: f7b2937418da7ee25cfe9f53e67089a03cd60f203d760e0ef547add70072b735
 ---
 |/data/openclaw-openclaw-agent-skills-tools|
@@ -144,7 +144,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:26.115Z
+retrieved_at: 2026-04-17T07:34:06.698Z
 content_sha256: 86093cf6bdcc5a5a3ac1c74c95e14b5e3d350f485e3e000dbbb900ad212d1591
 ---
 |/data/openclaw-openclaw-agent-soul-crafter|
@@ -164,7 +164,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:33.765Z
+retrieved_at: 2026-04-17T07:34:11.036Z
 content_sha256: 98be91820e4921c5adf7a16c0d215939797cd46e0922e2e15cb1503adc0c8980
 ---
 |/data/openclaw-openclaw-agentsbank|
@@ -184,7 +184,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:36.100Z
+retrieved_at: 2026-04-17T07:34:12.428Z
 content_sha256: 953cf79ae6ce80eeb34e5e651d911feb9208532965fb1f975aa837c2e6d99100
 ---
 |/data/openclaw-openclaw-ai-pdf-builder|
@@ -204,7 +204,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:42.760Z
+retrieved_at: 2026-04-17T07:34:16.821Z
 content_sha256: 18bd8d2ef46258dc8e37c941413a76cb0d1d7f98b448d241f2865b606706bada
 ---
 |/data/openclaw-openclaw-aoi-council|
@@ -224,7 +224,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:46.389Z
+retrieved_at: 2026-04-17T07:34:19.183Z
 content_sha256: 585c4a7fc7dbe4e0b5c19abdd7f45a953383583a78f02336ab0e9c91663c0b94
 ---
 |/data/openclaw-openclaw-appraisal-ai|
@@ -245,7 +245,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:50.708Z
+retrieved_at: 2026-04-17T07:34:21.265Z
 content_sha256: 2d6703337af8d19946217da8731ab00cb0747ca7906841dbc1df06cd8037fb02
 ---
 |/data/openclaw-openclaw-attendance-sheet|
@@ -266,7 +266,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:55.900Z
+retrieved_at: 2026-04-17T07:34:23.700Z
 content_sha256: e2fe968a107ec1cba4a172fe0491b0ca05e5dd9d43952f2fe28e9fc4f1f5dfc0
 ---
 |/data/openclaw-openclaw-bcra-central-deudores|
@@ -286,7 +286,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:56.587Z
+retrieved_at: 2026-04-17T07:34:24.040Z
 content_sha256: ef2a509e69c70cd551a9ef2985e46384e614f91d46b52c423e7e20b420e96cfe
 ---
 |/data/openclaw-openclaw-beautiful-mermaid|
@@ -307,7 +307,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:59.515Z
+retrieved_at: 2026-04-17T07:34:25.689Z
 content_sha256: 00de10440c77f03b166ed1dc184ac08aaace1f1cf874069068880fee41542a18
 ---
 |/data/openclaw-openclaw-biver-builder|
@@ -328,7 +328,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:35:59.861Z
+retrieved_at: 2026-04-17T07:34:25.937Z
 content_sha256: a1c901d792f7608f07c1b68ef33f3d37487b72a16358d96dcb246ca94a5ce11e
 ---
 |/data/openclaw-openclaw-blankfiles|
@@ -348,7 +348,7 @@ upstream_ref: ""
 github_stars: 3179
 github_forks: 905
 github_is_organization: true
-retrieved_at: 2026-04-16T07:37:06.481Z
+retrieved_at: 2026-04-17T07:35:03.228Z
 content_sha256: 27769f4d507d651bfd84a25d7b38742d3482e26d295dd0d3aa88ce2213e73c9d
 ---
 |/data/openclaw-openclaw-bluente-translate|
@@ -368,7 +368,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:01.251Z
+retrieved_at: 2026-04-17T07:34:26.664Z
 content_sha256: 0462ab5e94f20a448b9d38e8484a13ed1d83c13e070a4e8b2ca2f8a00859d13e
 ---
 |/data/openclaw-openclaw-boggle|
@@ -389,7 +389,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:01.606Z
+retrieved_at: 2026-04-17T07:34:26.897Z
 content_sha256: 228b3f4b9d084688e1d59209523a879fe45df4ce9a22098787738990b28db2a7
 ---
 |/data/openclaw-openclaw-book-cover-generation|
@@ -409,7 +409,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:01.767Z
+retrieved_at: 2026-04-17T07:34:26.941Z
 content_sha256: 984bb9b36e34cd7e9ff3e81757e42ed9bb59707eb26b34753e4951d41f0e5747
 ---
 |/data/openclaw-openclaw-book-reader|
@@ -429,7 +429,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:09.943Z
+retrieved_at: 2026-04-17T07:34:31.574Z
 content_sha256: 4c582075dd287f35eba084949abcfcc37b660f8424a298d0f0fc1df88093afa3
 ---
 |/data/openclaw-openclaw-chain-of-density|
@@ -450,7 +450,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:10.187Z
+retrieved_at: 2026-04-17T07:34:31.636Z
 content_sha256: 411834aa725380d1a767b8dce56296ddec09028d8f6ec9c0ffaff48e0fdc6b02
 ---
 |/data/openclaw-openclaw-change-pdf-permissions|
@@ -470,7 +470,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:11.072Z
+retrieved_at: 2026-04-17T07:34:32.158Z
 content_sha256: 9b2d6c276cbb4d821c51dc3f55ec0892ebea5037a617f7d34c833a9a444c0bbf
 ---
 |/data/openclaw-openclaw-chronobets|
@@ -491,7 +491,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:18.233Z
+retrieved_at: 2026-04-17T07:34:36.600Z
 content_sha256: d24e414d6de7a8e67fbaf8258c0755a131c062d7c729b1b8bacc6b073f0fe1af
 ---
 |/data/openclaw-openclaw-comms-md|
@@ -511,7 +511,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:18.481Z
+retrieved_at: 2026-04-17T07:34:36.769Z
 content_sha256: b7515fc797b22bead7156df93bf6fd03aad919b7b53b90e894d409c22ee02ec2
 ---
 |/data/openclaw-openclaw-competitor-analyzer|
@@ -531,7 +531,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:18.591Z
+retrieved_at: 2026-04-17T07:34:36.849Z
 content_sha256: b2241ed98273f0e5da339522c3b6fc7da4628318559ced3e9146afeca27b419a
 ---
 |/data/openclaw-openclaw-confidant|
@@ -551,7 +551,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-16T07:36:18.707Z
+retrieved_at: 2026-04-17T07:34:36.933Z
 content_sha256: 55f6271a72c064a4e14313c87297bc5209785e480c9e91e49e869b1b3bdbc9a6
 ---
 |/data/openclaw-openclaw-confluence|
@@ -572,7 +572,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:24.439Z
+retrieved_at: 2026-04-17T07:32:19.545Z
 content_sha256: 2c9c375cda48b0b5c3d2d2b58d014aec9f032317b4ab1f21aad87864c2ba61d5
 ---
 |/data/openclaw-openclaw-create-dxf|
@@ -602,7 +602,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:24.579Z
+retrieved_at: 2026-04-17T07:32:19.622Z
 content_sha256: d1a5a83203d815cf77048d97e00ee3ab613089a6f18e2627b442213db7caba62
 ---
 |/data/openclaw-openclaw-creator-rights-assistant|
@@ -623,7 +623,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:28.970Z
+retrieved_at: 2026-04-17T07:32:22.155Z
 content_sha256: 0bd90681fcab2e282025ee14acf508b60bbd6c41ac6c3bf83c0dc14d52c37933
 ---
 |/data/openclaw-openclaw-docx|
@@ -644,30 +644,10 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:32.862Z
+retrieved_at: 2026-04-17T07:32:24.267Z
 content_sha256: 968edc39e349f48fb3365b58172f954c18182e415c2580e0e52c5e25044f3c66
 ---
 |/data/openclaw-openclaw-excel-weekly-dashboard|
-
----
-stable_id: skills/openclaw-openclaw-feishu-card
-type: skills
-title: feishu-card
-summary: Send rich interactive cards to Feishu (Lark) users or groups.
-tags:
-  - openclaw
-  - source-awesome-openclaw-skills
-  - category-pdf-documents
-source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/autogame-17/feishu-card/SKILL.md
-license: ""
-upstream_ref: ""
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-04-16T07:32:34.959Z
-content_sha256: c4dddd580fe306db0bcbda4a0da519d59d2f67d1f0e767b05fca9c370a3ac8f1
----
-|/data/openclaw-openclaw-feishu-card|
 
 ---
 stable_id: skills/openclaw-openclaw-internal-comms
@@ -685,7 +665,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:53.157Z
+retrieved_at: 2026-04-17T07:32:36.386Z
 content_sha256: 067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475
 ---
 |/data/openclaw-openclaw-internal-comms|
@@ -705,7 +685,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:53.633Z
+retrieved_at: 2026-04-17T07:32:36.749Z
 content_sha256: c145476fbae09018005c4e2cd9ce13d22e6e25e4dbbf6194789ec08ad244d907
 ---
 |/data/openclaw-openclaw-intomd|
@@ -725,7 +705,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:53.748Z
+retrieved_at: 2026-04-17T07:32:36.838Z
 content_sha256: f5000cbc5f11f101a36a6bc7a3408b16bf5323d6c9ca54ee3743cf51963f4b8d
 ---
 |/data/openclaw-openclaw-invoice-generator|
@@ -745,7 +725,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:32:54.380Z
+retrieved_at: 2026-04-17T07:32:37.196Z
 content_sha256: c16052754c14eb63f03634adc2ac2549e06d1d752f3d0806919a18eeb0156d46
 ---
 |/data/openclaw-openclaw-japanese-tutor|
@@ -765,7 +745,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:00.804Z
+retrieved_at: 2026-04-17T07:32:41.267Z
 content_sha256: 699d336035f34acc982f80748f0c980e4906c588d6d28a9f579f96fbd6d02a90
 ---
 |/data/openclaw-openclaw-legaldoc-ai|
@@ -785,7 +765,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:05.028Z
+retrieved_at: 2026-04-17T07:32:43.702Z
 content_sha256: 354b8335051b9037e8c23324c33f68b3abbdac5ab9cfa12935c26b53575cf488
 ---
 |/data/openclaw-openclaw-markdown-converter|
@@ -805,7 +785,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:09.460Z
+retrieved_at: 2026-04-17T07:32:46.212Z
 content_sha256: ffef926bcf10f43daac41de204a9f24db10c779b0866a99201d61ffa77fa6209
 ---
 |/data/openclaw-openclaw-mineru-pdf-parser-clawdbot-skill|
@@ -825,7 +805,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:11.721Z
+retrieved_at: 2026-04-17T07:32:47.505Z
 content_sha256: ea0ac1cb6fea4153e129190e1a753d2ae976d4bb33133cce7924f3fb1e6be956
 ---
 |/data/openclaw-openclaw-molt-identity|
@@ -845,7 +825,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:14.502Z
+retrieved_at: 2026-04-17T07:32:49.256Z
 content_sha256: fcf85a8f139d00de627d8107f9545b0d4fa5875c595f626482fa6a618b100dc0
 ---
 |/data/openclaw-openclaw-mspot-generator|
@@ -865,7 +845,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:15.958Z
+retrieved_at: 2026-04-17T07:32:50.331Z
 content_sha256: 4a19c3916062a0b2a303f929be2e11bc89ed8531b47fa565d7936a363f34d4ac
 ---
 |/data/openclaw-openclaw-nano-pdf|
@@ -885,7 +865,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:21.421Z
+retrieved_at: 2026-04-17T07:32:53.803Z
 content_sha256: cff2cd87de65a60e017acee9b011fd40e43b2e81c41635947dfa2e90c913b323
 ---
 |/data/openclaw-openclaw-nudocs|
@@ -905,7 +885,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:30.635Z
+retrieved_at: 2026-04-17T07:32:59.593Z
 content_sha256: e4585defbc2d3a94b02cb254a6d197d378c992deff6ae979a8504f6ee6c68702
 ---
 |/data/openclaw-openclaw-pdf-form-filler|
@@ -925,7 +905,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:37.838Z
+retrieved_at: 2026-04-17T07:33:04.417Z
 content_sha256: 10a2be2f883cd6025218fa9fb9ad533a303b3ffcffe3b6c8b90a66bb1dc7b5e0
 ---
 |/data/openclaw-openclaw-prezentit|
@@ -946,7 +926,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:42.475Z
+retrieved_at: 2026-04-17T07:33:07.109Z
 content_sha256: 39f8b6c34d8640adbed8f90e23fd8f74393e63c3d3b0129bf1fd23e45ca191f8
 ---
 |/data/openclaw-openclaw-pymupdf-pdf-parser-clawdbot-skill|
@@ -966,7 +946,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:51.108Z
+retrieved_at: 2026-04-17T07:33:12.421Z
 content_sha256: e4c969c61dcb92f13866b1ea5014115941b857503870576b8ada07c560ae3800
 ---
 |/data/openclaw-openclaw-resume-cv-builder|
@@ -986,7 +966,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:33:51.237Z
+retrieved_at: 2026-04-17T07:33:12.487Z
 content_sha256: c8b53626e0da4a4c23562490842c37fb5a83244e9aee0470fd4b8c2819a07280
 ---
 |/data/openclaw-openclaw-resume-optimizer|
@@ -1006,7 +986,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:34:02.174Z
+retrieved_at: 2026-04-17T07:33:19.159Z
 content_sha256: f0e378e3c78c28f5de54d8990fe9e755d86b292306eadf408b8f562408a6c79f
 ---
 |/data/openclaw-openclaw-slidespeak|
@@ -1027,7 +1007,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:34:08.813Z
+retrieved_at: 2026-04-17T07:33:22.738Z
 content_sha256: bc5741056ef584ee605984bc65f9c6df28ca89d9e4a822668dae34f19e871fa6
 ---
 |/data/openclaw-openclaw-style-guide-generator|
@@ -1047,7 +1027,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:34:23.587Z
+retrieved_at: 2026-04-17T07:33:31.879Z
 content_sha256: 16e7e07ec4e247b23d3d68d9ec1146448980ea0913677fc6e4f876fe4927392e
 ---
 |/data/openclaw-openclaw-typetex|
@@ -1068,7 +1048,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:34:39.859Z
+retrieved_at: 2026-04-17T07:33:41.823Z
 content_sha256: 020ccdb5932257b66c638ec1157ea248d57fa52c8c01f1f68b559b5970c7df35
 ---
 |/data/openclaw-openclaw-xlsx|
@@ -1088,7 +1068,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:34:40.239Z
+retrieved_at: 2026-04-17T07:33:42.057Z
 content_sha256: ab97c3789fe348f5d56b77170a664c8c93da495b8e010923806985d43d28c533
 ---
 |/data/openclaw-openclaw-yboard-operator|

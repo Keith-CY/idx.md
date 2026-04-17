@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltbot-adsb-overhead",
-  "generated_at": "2026-04-16T07:36:43.052Z",
+  "generated_at": "2026-04-17T07:34:51.162Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltbot-adsb-overhead#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/davestarling/moltbot-adsb-overhead/SKILL.md",
-        "retrieved_at": "2026-04-16T07:36:43.052Z",
+        "retrieved_at": "2026-04-17T07:34:51.162Z",
         "content_sha256": "68e69dbd12ad56062657de24a233e388601712a40450a7256446b55b722041d9"
       }
     }

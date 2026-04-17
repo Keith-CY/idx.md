@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-4claw",
-  "generated_at": "2026-04-16T07:35:00.965Z",
+  "generated_at": "2026-04-17T07:33:53.189Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-4claw#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mfergpt/4claw/SKILL.md",
-        "retrieved_at": "2026-04-16T07:35:00.965Z",
+        "retrieved_at": "2026-04-17T07:33:53.189Z",
         "content_sha256": "eeeec9e81a8c8ab4e5285181fa4585c191cd19d79cce5f82e9366eb953ee4528"
       }
     }

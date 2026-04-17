@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-memory-curator",
-  "generated_at": "2026-04-16T07:33:07.818Z",
+  "generated_at": "2026-04-17T07:32:45.209Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-memory-curator#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/themiloway/memory-curator/SKILL.md",
-        "retrieved_at": "2026-04-16T07:33:07.818Z",
+        "retrieved_at": "2026-04-17T07:32:45.209Z",
         "content_sha256": "9ad7f78681a8d7586fb1a9dd4efd8b83b159d069e644e9a56bd1677a0477d45a"
       }
     }

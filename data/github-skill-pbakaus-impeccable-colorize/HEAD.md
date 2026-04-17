@@ -16,6 +16,6 @@ upstream_ref: https://github.com/pbakaus/impeccable/blob/main/source/skills/colo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-16T07:37:04.578Z
+retrieved_at: 2026-04-17T07:35:02.504Z
 content_sha256: ffe87d74750b2775ba85663fcf7327716a9b12719dcf780ee9976edd05e1ac08
 ---

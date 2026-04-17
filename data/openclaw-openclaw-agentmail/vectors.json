@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentmail",
-  "generated_at": "2026-04-16T07:32:02.387Z",
+  "generated_at": "2026-04-17T07:32:07.318Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentmail#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/adboio/agentmail/SKILL.md",
-        "retrieved_at": "2026-04-16T07:32:02.387Z",
+        "retrieved_at": "2026-04-17T07:32:07.318Z",
         "content_sha256": "c6b8627e5dfa2d7f39774bc86020473b04f3e667d14c90cbb36d1256aaad27ff"
       }
     }

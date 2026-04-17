@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawingtrap",
-  "generated_at": "2026-04-16T07:36:15.906Z",
+  "generated_at": "2026-04-17T07:34:35.157Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawingtrap#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/raulvidis/clawingtrap/SKILL.md",
-        "retrieved_at": "2026-04-16T07:36:15.906Z",
+        "retrieved_at": "2026-04-17T07:34:35.157Z",
         "content_sha256": "a2813931869eed9d65351a0056fb72c23a288d9dd53d3326d6ac153ba86750fc"
       }
     }
