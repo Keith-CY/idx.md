@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-frontend-skill",
-  "generated_at": "2026-04-17T07:34:55.604Z",
+  "generated_at": "2026-04-18T07:28:05.331Z",
   "records": [
     {
       "id": "skills/openai-curated-frontend-skill#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/frontend-skill/SKILL.md",
-        "retrieved_at": "2026-04-17T07:34:55.604Z",
+        "retrieved_at": "2026-04-18T07:28:05.331Z",
         "content_sha256": "d367b2d22825d74c169475507e7ff109b81c1e9c20b2de3421fb19fcfbe3329b"
       }
     }

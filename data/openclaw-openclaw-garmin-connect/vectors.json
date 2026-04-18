@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-garmin-connect",
-  "generated_at": "2026-04-17T07:32:27.819Z",
+  "generated_at": "2026-04-18T07:26:02.389Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-garmin-connect#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rayleigh3105/garmin-connect/SKILL.md",
-        "retrieved_at": "2026-04-17T07:32:27.819Z",
+        "retrieved_at": "2026-04-18T07:26:02.389Z",
         "content_sha256": "01c29630248ee603552c5fb441bc048d09eec3f9eb5a87582e260c279bc14347"
       }
     }

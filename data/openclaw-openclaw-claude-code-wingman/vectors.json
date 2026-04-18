@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-claude-code-wingman",
-  "generated_at": "2026-04-17T07:32:13.748Z",
+  "generated_at": "2026-04-18T07:25:49.234Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-claude-code-wingman#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yossiovadia/claude-code-wingman/SKILL.md",
-        "retrieved_at": "2026-04-17T07:32:13.748Z",
+        "retrieved_at": "2026-04-18T07:25:49.234Z",
         "content_sha256": "84959e4eaa06d7be29e896be261226efe3dfd611673596818d63d32966680b52"
       }
     }

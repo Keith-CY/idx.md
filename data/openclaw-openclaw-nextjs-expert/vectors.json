@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nextjs-expert",
-  "generated_at": "2026-04-17T07:32:51.621Z",
+  "generated_at": "2026-04-18T07:26:22.641Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nextjs-expert#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jgarrison929/nextjs-expert/SKILL.md",
-        "retrieved_at": "2026-04-17T07:32:51.621Z",
+        "retrieved_at": "2026-04-18T07:26:22.641Z",
         "content_sha256": "eb854ad24ffb9069e151be9006457615253687b00786a5d7ee70932ff5c046c1"
       }
     }

@@ -15,6 +15,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/chenyuan99/swe
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-17T07:35:02.161Z
+retrieved_at: 2026-04-18T07:28:10.779Z
 content_sha256: 3a6c65e8d92bbbcb71789ad4fbe48bba46fa24ecd38d0bcc1ae41b94bf866ee2
 ---

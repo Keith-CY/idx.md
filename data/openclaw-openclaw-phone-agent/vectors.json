@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-phone-agent",
-  "generated_at": "2026-04-17T07:33:00.833Z",
+  "generated_at": "2026-04-18T07:26:30.702Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-phone-agent#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/phone-agent/SKILL.md",
-        "retrieved_at": "2026-04-17T07:33:00.833Z",
+        "retrieved_at": "2026-04-18T07:26:30.702Z",
         "content_sha256": "c1c57a4c8cd260d1d854fef5416305530b320d5cc4f05652053afeec9b112687"
       }
     }

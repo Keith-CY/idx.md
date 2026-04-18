@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-basecamp-cli",
-  "generated_at": "2026-04-17T07:34:23.404Z",
+  "generated_at": "2026-04-18T07:27:37.475Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-basecamp-cli#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/emredoganer/basecamp-cli/SKILL.md",
-        "retrieved_at": "2026-04-17T07:34:23.404Z",
+        "retrieved_at": "2026-04-18T07:27:37.475Z",
         "content_sha256": "ae0ffab38354440db5ec03591d27ba0eac79f388309bf7ffee2ad065258d07c4"
       }
     }

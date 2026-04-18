@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-code-maturity-assessor",
-  "generated_at": "2026-04-17T07:33:50.964Z",
+  "generated_at": "2026-04-18T07:27:13.268Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-code-maturity-assessor#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/building-secure-contracts/skills/code-maturity-assessor/resources/ASSESSMENT_CRITERIA.md",
-        "retrieved_at": "2026-04-17T07:33:50.964Z",
+        "retrieved_at": "2026-04-18T07:27:13.268Z",
         "content_sha256": "0ffe131842b209de7910cc2ac77fc1e2cdea1e16455bfba79505c8ba8179009f"
       }
     }

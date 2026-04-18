@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-lead-magnets",
-  "generated_at": "2026-04-17T07:35:11.503Z",
+  "generated_at": "2026-04-18T07:28:18.225Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-lead-magnets#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/lead-magnets/references/format-guide.md",
-        "retrieved_at": "2026-04-17T07:35:11.503Z",
+        "retrieved_at": "2026-04-18T07:28:18.225Z",
         "content_sha256": "160b34c4c0d19e67fcc032181fdfbf1d5cae6dac94937f2333e8e21815ce9732"
       }
     }

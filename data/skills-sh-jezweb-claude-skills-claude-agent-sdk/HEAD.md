@@ -5,27 +5,32 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.2.112
+  ## 0.2.114
 
-  - Updated to parity with Claude Code v2.1.112
+  - Updated to parity with Claude Code v2.1.114
 
-  ## 0.2.111
+  ## 0.2.113
 
-  - Opus 4.7 is now available! This version of the SDK is required to use it.
+  - Changed the SDK to spawn a native Claude Code binary (via a per-platform
+  optional dependency) instead of bundled JavaScript
 
-  - `mcp_set_servers` control request: remote (http/sse) server entries can now
-  carry per-tool `permission_policy` values, which are applied to the session's
-  allow/deny rules
+  - Added `sessionStore` option (alpha) to `query()` and session helpers for
+  mirroring session transcripts to external storage, with
+  `SessionStore`/`SessionKey`/`SessionStoreEntry` types, `InMemorySessionStore`
+  reference implementation, and `importSessionToStore()` for migrating existing
+  sessions
 
-  - `startup()` and `WarmQuery` are now part of the public TypeScript API
+  - Added `deleteSession()` for removing a session from disk or a `SessionStore`
 
-  - Changed `options.env` to overlay the inherited `process.env` instead of
-  replacing it
+  - Added `SDKMirrorErrorMessage` (`subtype: 'mirror_error'`) to the
+  `SDKMessage` union — emitted when a `sessionStore.append()` batch fails
 
-  ## 0.2.110
+  - **Breaking**: `options.env` once again replaces `process.env` for the CLI
+  subprocess instead of overlaying it. To add or override individual variables,
+  pass `env: { ...process.env, MY_VAR: "x" }`
 
-  - Fixed `unstable_v2_createSession` not respecting `cwd`, `settingSources`,
-  and `allowDangerouslySkipPermissions` options
+  - Added `title` option to `query()` — sets the session title and skips
+  auto-generation
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-17T07:32:01.302Z
-content_sha256: 9d8faf6d8ad0bf3d81315475e3302360c2d5f416bf7ea581c617cb3734ce8487
+retrieved_at: 2026-04-18T07:25:37.922Z
+content_sha256: c6eec7bba8596c7f87c31a91e90cbcd939b80357ebae628b85cffa11484f8953
 ---

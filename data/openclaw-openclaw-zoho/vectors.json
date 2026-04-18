@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-zoho",
-  "generated_at": "2026-04-17T07:33:44.385Z",
+  "generated_at": "2026-04-18T07:27:07.785Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-zoho#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/shreefentsar/zoho/SKILL.md",
-        "retrieved_at": "2026-04-17T07:33:44.385Z",
+        "retrieved_at": "2026-04-18T07:27:07.785Z",
         "content_sha256": "e4c8df574386992bca9046a1bc445f64f3de0da5466cee78cadf1f2b0f49052c"
       }
     }

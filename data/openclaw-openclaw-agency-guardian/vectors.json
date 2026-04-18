@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agency-guardian",
-  "generated_at": "2026-04-17T07:34:00.947Z",
+  "generated_at": "2026-04-18T07:27:21.903Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agency-guardian#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aranej/agency-guardian/SKILL.md",
-        "retrieved_at": "2026-04-17T07:34:00.947Z",
+        "retrieved_at": "2026-04-18T07:27:21.903Z",
         "content_sha256": "5e91e0f9adf41a58702956f6d9078ba22d1e72407e1ff88c0238fddc115ba3c1"
       }
     }

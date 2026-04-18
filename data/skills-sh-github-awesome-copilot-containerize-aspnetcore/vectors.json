@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-containerize-aspnetcore",
-  "generated_at": "2026-04-17T07:35:10.227Z",
+  "generated_at": "2026-04-18T07:28:17.074Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-containerize-aspnetcore#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/dotnet/dotnet-docker/main/README.sdk.md",
-        "retrieved_at": "2026-04-17T07:35:10.227Z",
+        "retrieved_at": "2026-04-18T07:28:17.074Z",
         "content_sha256": "224f5b32c1dc586bf7314a6a2a5086c53efdbed6857cc595e5175c6c3eb49f57"
       }
     }

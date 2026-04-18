@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-skills-sql-queries-skill",
-  "generated_at": "2026-04-17T07:31:52.256Z",
+  "generated_at": "2026-04-18T07:25:30.188Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-skills-sql-queries-skill#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/sql-queries/SKILL.md",
-        "retrieved_at": "2026-04-17T07:31:52.256Z",
+        "retrieved_at": "2026-04-18T07:25:30.188Z",
         "content_sha256": "dbd5a5e2d563d83ca6d4d033206f285f503296eabff4a35545cdb4cb5302bd9a"
       }
     }

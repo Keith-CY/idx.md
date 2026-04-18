@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltbook-interact",
-  "generated_at": "2026-04-17T07:34:51.008Z",
+  "generated_at": "2026-04-18T07:28:01.495Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltbook-interact#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/lunarcmd/moltbook-interact/SKILL.md",
-        "retrieved_at": "2026-04-17T07:34:51.008Z",
+        "retrieved_at": "2026-04-18T07:28:01.495Z",
         "content_sha256": "aada5ae772d8fde901501bdf5ba33b5b7b2d4771588b6a1e8664b350d1a43b74"
       }
     }

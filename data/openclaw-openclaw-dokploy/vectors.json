@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dokploy",
-  "generated_at": "2026-04-17T07:32:22.257Z",
+  "generated_at": "2026-04-18T07:25:57.269Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dokploy#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/joshuarileydev/dokploy/SKILL.md",
-        "retrieved_at": "2026-04-17T07:32:22.257Z",
+        "retrieved_at": "2026-04-18T07:25:57.269Z",
         "content_sha256": "9adbcb966f7465569743a06991452a18b843e54a6a75f199a8200dd5a9479ddf"
       }
     }

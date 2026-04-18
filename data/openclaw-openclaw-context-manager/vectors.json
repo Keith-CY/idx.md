@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-context-manager",
-  "generated_at": "2026-04-17T07:32:18.346Z",
+  "generated_at": "2026-04-18T07:25:53.758Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-context-manager#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/plgonzalezrx8/context-manager/SKILL.md",
-        "retrieved_at": "2026-04-17T07:32:18.346Z",
+        "retrieved_at": "2026-04-18T07:25:53.758Z",
         "content_sha256": "13fbe09d62503b2db8f079184d9f16de48613b4d0e950acf0b8b41418a13799d"
       }
     }

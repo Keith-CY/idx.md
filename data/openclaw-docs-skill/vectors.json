@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-docs-skill",
-  "generated_at": "2026-04-17T07:31:49.300Z",
+  "generated_at": "2026-04-18T07:25:27.442Z",
   "records": [
     {
       "id": "skills/openclaw-docs-skill#head",
       "kind": "head",
       "path": "/data/openclaw-docs-skill/HEAD.md",
-      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when setting up a self-hosted AI agent gateway, configuring multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing agent sessions and memory, deploying tools and skills, or troubleshooting gateway operations and channel connectivity. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill Reference ## Product summary OpenClaw is a self-hosted multi-channel gateway that connects AI agents to messaging platforms (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Microsoft Teams, Matrix, and more). Run a single Gateway process on your machine or server; it bridges your chat apps to an always-available AI assistant with tool use, sessions, memory, and multi-agent routing. Key files: `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md, BOOTSTRAP.md, IDENTITY.md, USER.md). Primary CLI: `openclaw` with subcommands for setup, configuration, messaging, agent management, and gateway control. Docs: https://docs.openclaw.ai\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
+      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when deploying a self-hosted AI agent gateway, configuring multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing agent sessions and memory, setting up automation (cron jobs, webhooks), or troubleshooting gateway operations and channel connectivity. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill Reference ## Product Summary OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on any OS (macOS, Linux, Windows). It connects messaging platforms (Discord, Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft Teams, and more) to an embedded agent runtime. Agents use tools (exec, browser, web search, file I/O, message sending) to respond to messages across all channels from a single Gateway process.\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
       "metadata": {
         "stable_id": "skills/openclaw-docs-skill",
         "topic": "openclaw-docs-skill",
@@ -15,8 +15,8 @@
         "title": "openclaw-docs-skill",
         "tags": [],
         "source_url": "https://docs.openclaw.ai/skill.md",
-        "retrieved_at": "2026-04-17T07:31:49.300Z",
-        "content_sha256": "368c6cbaed1015d3eb3b8afbc663deeb5b3a663e2683c073487e86ecf3e60102"
+        "retrieved_at": "2026-04-18T07:25:27.442Z",
+        "content_sha256": "8ade8f52aecd1e629abc7f078ad0a17d93a6f9ab2097af07cc0ae493a75aaae2"
       }
     }
   ]
