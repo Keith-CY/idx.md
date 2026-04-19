@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-communication-skill",
-  "generated_at": "2026-04-18T07:25:52.726Z",
+  "generated_at": "2026-04-19T07:30:23.367Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-communication-skill#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aatmaan1/communication-skill/SKILL.md",
-        "retrieved_at": "2026-04-18T07:25:52.726Z",
+        "retrieved_at": "2026-04-19T07:30:23.367Z",
         "content_sha256": "525095fce4df7732674a52dc17ff04a001a565f1aa136640441d32b8077eb1df"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aavegotchi-3d-renderer",
-  "generated_at": "2026-04-18T07:27:16.276Z",
+  "generated_at": "2026-04-19T07:31:42.759Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aavegotchi-3d-renderer#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-3d-renderer/SKILL.md",
-        "retrieved_at": "2026-04-18T07:27:16.276Z",
+        "retrieved_at": "2026-04-19T07:31:42.759Z",
         "content_sha256": "c9cb68c384b8f863005ba14bb0349e26a4264fe81d5c57abfaa02a19d9449475"
       }
     }

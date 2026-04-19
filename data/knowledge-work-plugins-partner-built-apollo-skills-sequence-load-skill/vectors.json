@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill",
-  "generated_at": "2026-04-18T07:25:40.482Z",
+  "generated_at": "2026-04-19T07:30:11.309Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-apollo-skills-sequence-load-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/sequence-load/SKILL.md",
-        "retrieved_at": "2026-04-18T07:25:40.482Z",
+        "retrieved_at": "2026-04-19T07:30:11.309Z",
         "content_sha256": "a536c7d818bc8bd42df0d1e116270b51ffcfc12be7472f2eb48a46e2aab5a5c6"
       }
     }

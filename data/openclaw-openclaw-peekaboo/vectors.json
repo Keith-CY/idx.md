@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-peekaboo",
-  "generated_at": "2026-04-18T07:26:29.820Z",
+  "generated_at": "2026-04-19T07:30:58.204Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-peekaboo#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/peekaboo/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:29.820Z",
+        "retrieved_at": "2026-04-19T07:30:58.204Z",
         "content_sha256": "7a87a01399f99780e872b16f3df999d0e684a3b8dbc189cd20b9cc4230762ed5"
       }
     }

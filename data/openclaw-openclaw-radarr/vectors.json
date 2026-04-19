@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-radarr",
-  "generated_at": "2026-04-18T07:26:37.223Z",
+  "generated_at": "2026-04-19T07:31:05.210Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-radarr#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jordyvandomselaar/radarr/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:37.223Z",
+        "retrieved_at": "2026-04-19T07:31:05.210Z",
         "content_sha256": "29a480485392f74003dc0955e5e6a0a2a6ea9d9892958675f1bf177d43822742"
       }
     }

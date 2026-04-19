@@ -25,6 +25,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/boxingyi/liste
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-18T07:28:09.915Z
+retrieved_at: 2026-04-19T07:32:40.138Z
 content_sha256: e229582acfaa15327d5400c6bccc614d46d729a3609e0acb4479b41bb8e42d0a
 ---

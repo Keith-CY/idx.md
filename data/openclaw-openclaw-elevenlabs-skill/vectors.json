@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-elevenlabs-skill",
-  "generated_at": "2026-04-18T07:27:54.802Z",
+  "generated_at": "2026-04-19T07:32:24.765Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-elevenlabs-skill#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/elevenlabs-skill/SKILL.md",
-        "retrieved_at": "2026-04-18T07:27:54.802Z",
+        "retrieved_at": "2026-04-19T07:32:24.765Z",
         "content_sha256": "832c7d332b357433bc85a6a81bd48e553809925460c93202e592b9102e4eb01b"
       }
     }

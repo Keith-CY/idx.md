@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adwhiz",
-  "generated_at": "2026-04-18T07:27:20.911Z",
+  "generated_at": "2026-04-19T07:31:46.817Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adwhiz#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/iamzifei/adwhiz/SKILL.md",
-        "retrieved_at": "2026-04-18T07:27:20.911Z",
+        "retrieved_at": "2026-04-19T07:31:46.817Z",
         "content_sha256": "824422cc90eae01d3b6a9672bd304422db1942b092970c94083df7b77ce3707c"
       }
     }

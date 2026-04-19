@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-thecolony-heartbeat",
-  "generated_at": "2026-04-18T07:26:52.907Z",
+  "generated_at": "2026-04-19T07:31:19.921Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-thecolony-heartbeat#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jackparnell/thecolony-heartbeat/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:52.907Z",
+        "retrieved_at": "2026-04-19T07:31:19.921Z",
         "content_sha256": "27c8942d072ced586e6fc3a4da806a583c55870f5892cc2974d82ced02a6a280"
       }
     }

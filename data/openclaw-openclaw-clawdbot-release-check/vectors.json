@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-release-check",
-  "generated_at": "2026-04-18T07:27:46.900Z",
+  "generated_at": "2026-04-19T07:32:16.674Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-release-check#head",
@@ -19,7 +19,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/pors/clawdbot-release-check/SKILL.md",
-        "retrieved_at": "2026-04-18T07:27:46.900Z",
+        "retrieved_at": "2026-04-19T07:32:16.674Z",
         "content_sha256": "b51a34c3b6e93b10033659e7b8b8de279a16286994be6abfaccdef1d11216afe"
       }
     }

@@ -7,26 +7,27 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying a self-hosted AI agent gateway, configuring
-  multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing
-  agent sessions and memory, setting up automation (cron jobs, webhooks), or
-  troubleshooting gateway operations and channel connectivity.
+  description: Use when setting up or managing a self-hosted AI agent gateway,
+  configuring channels (Discord, Telegram, WhatsApp, etc.), managing agent
+  workspaces and sessions, deploying the gateway service, or troubleshooting
+  channel/agent issues.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill Reference
+  # OpenClaw Skill
 
-  ## Product Summary
+  ## Product summary
 
-  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
-  any OS (macOS, Linux, Windows). It connects messaging platforms (Discord,
-  Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft Teams, and
-  more) to an embedded agent runtime. Agents use tools (exec, browser, web
-  search, file I/O, message sending) to respond to messages across all channels
-  from a single Gateway process.
+  OpenClaw is a self-hosted multi-channel gateway for AI agents that runs on any
+  OS (macOS, Linux, Windows). It connects messaging platforms (Discord,
+  Telegram, WhatsApp, Slack, Signal, iMessage, Matrix, Microsoft Teams, Google
+  Chat, Feishu, and more) to an embedded agent runtime. The gateway is a single
+  Node.js process that routes messages, manages sessions, handles
+  authentication, and exposes a WebSocket API plus OpenAI-compatible HTTP
+  endpoints.
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -34,6 +35,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-18T07:25:27.442Z
-content_sha256: 8ade8f52aecd1e629abc7f078ad0a17d93a6f9ab2097af07cc0ae493a75aaae2
+retrieved_at: 2026-04-19T07:29:58.746Z
+content_sha256: c4e355277636c2aabb31fe377a39472806671c97cd937971315666043cb6af48
 ---

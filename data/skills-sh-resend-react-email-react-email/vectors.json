@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-resend-react-email-react-email",
-  "generated_at": "2026-04-18T07:25:41.927Z",
+  "generated_at": "2026-04-19T07:30:12.918Z",
   "records": [
     {
       "id": "skills/skills-sh-resend-react-email-react-email#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/resend/react-email/HEAD/skills/react-email/references/COMPONENTS.md",
-        "retrieved_at": "2026-04-18T07:25:41.927Z",
+        "retrieved_at": "2026-04-19T07:30:12.918Z",
         "content_sha256": "23a06bde5aa8731e22c02f2e8671d710c2b7025cd17df2c328960d54bcc450a7"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-skill-homebridge",
-  "generated_at": "2026-04-18T07:25:50.474Z",
+  "generated_at": "2026-04-19T07:30:21.316Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-skill-homebridge#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jiasenl/clawdbot-skill-homebridge/SKILL.md",
-        "retrieved_at": "2026-04-18T07:25:50.474Z",
+        "retrieved_at": "2026-04-19T07:30:21.316Z",
         "content_sha256": "e6cefa1e9cba28a591752a099be0e29727394edba34b3f9de65cd25fbdf1a140"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-insula-memory",
-  "generated_at": "2026-04-18T07:26:09.859Z",
+  "generated_at": "2026-04-19T07:30:38.984Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-insula-memory#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/impkind/insula-memory/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:09.859Z",
+        "retrieved_at": "2026-04-19T07:30:38.984Z",
         "content_sha256": "546f0b74cd3e8ab070a4b0b187276d6b966cb8ee3ec74077c357aacb54da4461"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-journal-to-post",
-  "generated_at": "2026-04-18T07:26:11.378Z",
+  "generated_at": "2026-04-19T07:30:40.519Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-journal-to-post#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/itsflow/journal-to-post/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:11.378Z",
+        "retrieved_at": "2026-04-19T07:30:40.519Z",
         "content_sha256": "bff752e8b1138f6ac29f2d5fd30b88528f044a2750e97a0282570c0d5f365993"
       }
     }

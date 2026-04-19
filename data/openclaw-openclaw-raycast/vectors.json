@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-raycast",
-  "generated_at": "2026-04-18T07:26:37.635Z",
+  "generated_at": "2026-04-19T07:31:05.635Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-raycast#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xaif/raycast/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:37.635Z",
+        "retrieved_at": "2026-04-19T07:31:05.635Z",
         "content_sha256": "703e9242c5dcec325d00c430e87c9820e26b8ad9e37a593637c880b129631cde"
       }
     }

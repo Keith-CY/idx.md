@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-testosterone-optimization",
-  "generated_at": "2026-04-18T07:26:52.602Z",
+  "generated_at": "2026-04-19T07:31:19.623Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-testosterone-optimization#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/testosterone-optimization/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:52.602Z",
+        "retrieved_at": "2026-04-19T07:31:19.623Z",
         "content_sha256": "d44277cc6394adc6acc5836f01808fd33a332fcbb917b6b3c75193ccbc69c7b1"
       }
     }

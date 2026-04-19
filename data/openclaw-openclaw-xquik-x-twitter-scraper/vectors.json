@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-xquik-x-twitter-scraper",
-  "generated_at": "2026-04-18T07:28:04.707Z",
+  "generated_at": "2026-04-19T07:32:35.280Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-xquik-x-twitter-scraper#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kriptoburak/xquik-x-twitter-scraper/SKILL.md",
-        "retrieved_at": "2026-04-18T07:28:04.707Z",
+        "retrieved_at": "2026-04-19T07:32:35.280Z",
         "content_sha256": "235db422c20d2e49509564515c7c2d742c6dfb990d20a62087638d3214713bac"
       }
     }

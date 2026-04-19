@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/free-tool-strategy
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-04-18T07:28:14.107Z
+retrieved_at: 2026-04-19T07:32:44.316Z
 content_sha256: 3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f
 ---

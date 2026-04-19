@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-byterover",
-  "generated_at": "2026-04-18T07:25:47.741Z",
+  "generated_at": "2026-04-19T07:30:18.665Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-byterover#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/byteroverinc/byterover/SKILL.md",
-        "retrieved_at": "2026-04-18T07:25:47.741Z",
+        "retrieved_at": "2026-04-19T07:30:18.665Z",
         "content_sha256": "cc73a880147c663cdbb3662ecc856ce4e73f02a820e50d10ba774556b1798e5d"
       }
     }

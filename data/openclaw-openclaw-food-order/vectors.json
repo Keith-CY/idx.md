@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-food-order",
-  "generated_at": "2026-04-18T07:26:01.839Z",
+  "generated_at": "2026-04-19T07:30:31.214Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-food-order#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/food-order/SKILL.md",
-        "retrieved_at": "2026-04-18T07:26:01.839Z",
+        "retrieved_at": "2026-04-19T07:30:31.214Z",
         "content_sha256": "dea1c9acafb64448eee8f80f0971306363c53fcfbd22ccc605f23a7e3c69670d"
       }
     }
