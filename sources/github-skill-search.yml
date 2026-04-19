@@ -68,6 +68,18 @@
     - github-repo-hf-mem
   upstream_ref: https://github.com/alvarobartt/hf-mem/blob/main/SKILL.md
 - type: skills
+  slug: github-skill-andyhuo520-aetherviz-master-aetherviz-master
+  source_url: https://raw.githubusercontent.com/andyhuo520/aetherviz-master/master/SKILL.md
+  title: aetherviz-master
+  summary: AetherViz Master - 互动教育可视化建筑师，将任意教学主题转化为极致美观、高度交互的专业教学网页
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-andyhuo520
+    - github-repo-aetherviz-master
+  upstream_ref: https://github.com/andyhuo520/aetherviz-master/blob/master/SKILL.md
+- type: skills
   slug: github-skill-anthropics-knowledge-work-plugins-call-prep
   source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/call-prep/SKILL.md
   title: call-prep
@@ -79,6 +91,18 @@
     - github-owner-anthropics
     - github-repo-knowledge-work-plugins
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
+- type: skills
+  slug: github-skill-bikeshaving-crank-crank-component-authoring
+  source_url: https://raw.githubusercontent.com/bikeshaving/crank/main/docs/SKILL.md
+  title: crank-component-authoring
+  summary: Build web apps, dashboards, landing pages, widgets, calculators, forms, quizzes, charts, visualizations, animations, dynamic SVGs, MathML equations, blogs, or games as single-file HTML with no build step, using Crank.js, an elegant UI framework which allows you to write components with plain JavaScript functions, generators, and promises. Use when user asks to create something interactive, build a single-file HTML app, or start a greenfield frontend project. Always trigger when converting code from React, Vue, Svelte, Solid, or any other web framework to Crank.js, when the user mentions Crank by name, or when comparing different web/UI frameworks. Not for projects already using other frameworks.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-bikeshaving
+    - github-repo-crank
+  upstream_ref: https://github.com/bikeshaving/crank/blob/main/docs/SKILL.md
 - type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
@@ -658,6 +682,30 @@
     - github-owner-kevoreilly
     - github-repo-capev2
   upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
+- type: skills
+  slug: github-skill-kingkongshot-pensieve-pensieve
+  source_url: https://raw.githubusercontent.com/kingkongshot/Pensieve/main/SKILL.md
+  title: pensieve
+  summary: "Project knowledge base and workflow router. knowledge/ caches previously explored file locations, module boundaries, and call chains for direct reuse; decisions/maxims are established architectural decisions and coding standards -- follow, don't re-debate; pipelines are reusable workflows; short-term/ holds new conclusions temporarily, promoted or deleted upon expiry. Use self-improve to capture new insights after completing tasks. Provides five tools: init, upgrade, migrate, doctor, self-improve."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-kingkongshot
+    - github-repo-pensieve
+  upstream_ref: https://github.com/kingkongshot/Pensieve/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-kiwi233333-jiwuchat-jiwuchat-quickstart
+  source_url: https://raw.githubusercontent.com/KiWi233333/JiwuChat/main/docs/SKILL.md
+  title: jiwuchat-quickstart
+  summary: JiwuChat 项目快速入门知识库 - 基于 Tauri 2.9+ 和 Nuxt.js 4.0 的跨平台聊天应用
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-kiwi233333
+    - github-repo-jiwuchat
+  upstream_ref: https://github.com/KiWi233333/JiwuChat/blob/main/docs/SKILL.md
 - type: skills
   slug: github-skill-kurtosis-tech-kurtosis-cluster-manage
   source_url: https://raw.githubusercontent.com/kurtosis-tech/kurtosis/main/skills/cluster-manage/SKILL.md
@@ -1270,6 +1318,34 @@
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/upstash-qstash/SKILL.md
 - type: skills
+  slug: github-skill-srod-node-minify-node-minify
+  source_url: https://raw.githubusercontent.com/srod/node-minify/main/SKILL.md
+  title: node-minify
+  summary: |-
+    Compress JavaScript, CSS, HTML, JSON, and image files using node-minify library.
+    Use when: minifying/compressing assets, bundling JS/CSS files, optimizing images (WebP/AVIF),
+    concatenating files, or when user mentions "node-minify", "@node-minify", "minification".
+    Triggers: "minify", "compress JS/CSS", "bundle", "optimize images", "reduce file size".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-srod
+    - github-repo-node-minify
+  upstream_ref: https://github.com/srod/node-minify/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-synalinks-synalinks-skills-synalinks
+  source_url: https://raw.githubusercontent.com/SynaLinks/synalinks-skills/main/synalinks/SKILL.md
+  title: synalinks
+  summary: Build neuro-symbolic LLM applications with Synalinks framework. Use when working with DataModel, Program, Generator, Module, training LLM pipelines, in-context learning, structured output, JSON operators, Branch/Decision control flow, FunctionCallingAgent, RAG/KAG, or Keras-like LLM workflows.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-synalinks
+    - github-repo-synalinks-skills
+  upstream_ref: https://github.com/SynaLinks/synalinks-skills/blob/main/synalinks/SKILL.md
+- type: skills
   slug: github-skill-tencentblueking-bk-bcs-node-js
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
   title: Node.js 安全审查
@@ -1294,6 +1370,30 @@
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 - type: skills
+  slug: github-skill-videosdk-live-agents-videosdk-plugins-aws
+  source_url: https://raw.githubusercontent.com/videosdk-live/agents/main/videosdk-plugins/videosdk-plugins-aws/SKILLS.md
+  title: videosdk-plugins-aws
+  summary: Plugin for AWS Nova Sonic (Realtime) and AWS Polly (TTS) services
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-videosdk-live
+    - github-repo-agents
+  upstream_ref: https://github.com/videosdk-live/agents/blob/main/videosdk-plugins/videosdk-plugins-aws/SKILLS.md
+- type: skills
+  slug: github-skill-videosdk-live-agents-videosdk-plugins-simli
+  source_url: https://raw.githubusercontent.com/videosdk-live/agents/main/videosdk-plugins/videosdk-plugins-simli/SKILLS.md
+  title: videosdk-plugins-simli
+  summary: Plugin for Simli virtual avatar integration
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-videosdk-live
+    - github-repo-agents
+  upstream_ref: https://github.com/videosdk-live/agents/blob/main/videosdk-plugins/videosdk-plugins-simli/SKILLS.md
+- type: skills
   slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
   source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
   title: vllm-ascend-model-adapter
@@ -1317,6 +1417,42 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-webrpc-webrpc-webrpc-ridl-schema
+  source_url: https://raw.githubusercontent.com/webrpc/webrpc/master/SKILL.md
+  title: webrpc-ridl-schema
+  summary: webrpc schema and RIDL syntax
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-webrpc
+    - github-repo-webrpc
+  upstream_ref: https://github.com/webrpc/webrpc/blob/master/SKILL.md
+- type: skills
+  slug: github-skill-xiaotianfotos-skills-dlna
+  source_url: https://raw.githubusercontent.com/xiaotianfotos/skills/main/dlna/SKILL.md
+  title: dlna
+  summary: Control DLNA MediaRenderer devices. Discover devices and play media URLs on DLNA-compatible TVs, speakers, and media players. Supports default device configuration.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xiaotianfotos
+    - github-repo-skills
+  upstream_ref: https://github.com/xiaotianfotos/skills/blob/main/dlna/SKILL.md
+- type: skills
+  slug: github-skill-xiaou61-code-nest-code-nest-project-spec
+  source_url: https://raw.githubusercontent.com/xiaou61/Code-Nest/master/SKILL.md
+  title: code-nest-project-spec
+  summary: Code-Nest 多模块全栈项目协作规范与落点导航。Use when modifying this repository for feature development, bug fixing, refactor, API change, SQL migration, or frontend-backend联调 so changes land in the correct module with consistent conventions.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xiaou61
+    - github-repo-code-nest
+  upstream_ref: https://github.com/xiaou61/Code-Nest/blob/master/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
