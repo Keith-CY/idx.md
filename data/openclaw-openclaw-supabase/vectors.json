@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-supabase",
-  "generated_at": "2026-04-19T07:31:16.686Z",
+  "generated_at": "2026-04-20T07:36:37.509Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-supabase#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/stopmoclay/supabase/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:16.686Z",
+        "retrieved_at": "2026-04-20T07:36:37.509Z",
         "content_sha256": "02e06c95610cdc5a2ac39b0c09dbf4f54e5e808ce6b3609399220be247a6280d"
       }
     }

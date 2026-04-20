@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-competitor-alternatives",
-  "generated_at": "2026-04-19T07:30:07.958Z",
+  "generated_at": "2026-04-20T07:34:42.430Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-competitor-alternatives#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/competitor-alternatives/references/templates.md",
-        "retrieved_at": "2026-04-19T07:30:07.958Z",
+        "retrieved_at": "2026-04-20T07:34:42.430Z",
         "content_sha256": "8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046"
       }
     }

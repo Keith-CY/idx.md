@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-umea-data",
-  "generated_at": "2026-04-19T07:31:24.089Z",
+  "generated_at": "2026-04-20T07:36:49.739Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-umea-data#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/simskii/umea-data/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:24.089Z",
+        "retrieved_at": "2026-04-20T07:36:49.739Z",
         "content_sha256": "c954737a73f0fb8c106cca5373e700b56176efbdabfda35c7433d56d3d145682"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mh-apple-reminders",
-  "generated_at": "2026-04-19T07:32:31.673Z",
+  "generated_at": "2026-04-20T07:38:35.467Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mh-apple-reminders#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mohdalhashemi98-hue/mh-apple-reminders/SKILL.md",
-        "retrieved_at": "2026-04-19T07:32:31.673Z",
+        "retrieved_at": "2026-04-20T07:38:35.467Z",
         "content_sha256": "75f6b4bbe4eb91ab563f597a5b83442fec1969d6fb4ddae069b5bac74fe2b0b8"
       }
     }

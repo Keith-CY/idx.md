@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-picnic",
-  "generated_at": "2026-04-19T07:30:59.283Z",
+  "generated_at": "2026-04-20T07:36:08.530Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-picnic#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mpociot/picnic/SKILL.md",
-        "retrieved_at": "2026-04-19T07:30:59.283Z",
+        "retrieved_at": "2026-04-20T07:36:08.530Z",
         "content_sha256": "89f180b6b2dffef93ecfae1768698dce07c587ccfc4326ddb5efe6dd356c9dde"
       }
     }

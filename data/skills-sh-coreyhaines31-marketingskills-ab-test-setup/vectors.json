@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-ab-test-setup",
-  "generated_at": "2026-04-19T07:30:07.994Z",
+  "generated_at": "2026-04-20T07:34:42.486Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-ab-test-setup#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ab-test-setup/references/sample-size-guide.md",
-        "retrieved_at": "2026-04-19T07:30:07.994Z",
+        "retrieved_at": "2026-04-20T07:34:42.486Z",
         "content_sha256": "96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2"
       }
     }

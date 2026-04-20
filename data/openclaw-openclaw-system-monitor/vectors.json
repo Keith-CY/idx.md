@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-system-monitor",
-  "generated_at": "2026-04-19T07:31:17.563Z",
+  "generated_at": "2026-04-20T07:36:38.861Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-system-monitor#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zerofire03/system-monitor/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:17.563Z",
+        "retrieved_at": "2026-04-20T07:36:38.861Z",
         "content_sha256": "29f36e551e738525adbd9cf929c8f62f7e1dfca0fa809b32bb91b724f14f394b"
       }
     }

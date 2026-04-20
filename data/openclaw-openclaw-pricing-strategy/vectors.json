@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pricing-strategy",
-  "generated_at": "2026-04-19T07:31:01.717Z",
+  "generated_at": "2026-04-20T07:36:12.431Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pricing-strategy#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/pricing-strategy/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:01.717Z",
+        "retrieved_at": "2026-04-20T07:36:12.431Z",
         "content_sha256": "44cd0b6d3dfc1921d1a3eefdcbc43ef2fbb909bb913af44db1923c5f68e1ebb1"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dwlf",
-  "generated_at": "2026-04-19T07:30:28.470Z",
+  "generated_at": "2026-04-20T07:35:16.615Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dwlf#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/andywilliams/dwlf/SKILL.md",
-        "retrieved_at": "2026-04-19T07:30:28.470Z",
+        "retrieved_at": "2026-04-20T07:35:16.615Z",
         "content_sha256": "c6c1475e44a2401a161fa5fd290acd54de8b030dbfbc368920fec3135f6f9148"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-image-gen",
-  "generated_at": "2026-04-19T07:32:44.685Z",
+  "generated_at": "2026-04-20T07:39:02.048Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-image-gen#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-image-gen/references/config/first-time-setup.md",
-        "retrieved_at": "2026-04-19T07:32:44.685Z",
+        "retrieved_at": "2026-04-20T07:39:02.048Z",
         "content_sha256": "d66d0c856f77b3f5ab42a082b61fe199d68dc2430e5caa090504b38700d1eff6"
       }
     }

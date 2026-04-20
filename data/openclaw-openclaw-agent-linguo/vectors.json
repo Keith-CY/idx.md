@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-linguo",
-  "generated_at": "2026-04-19T07:31:51.138Z",
+  "generated_at": "2026-04-20T07:37:33.305Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-linguo#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xiwan/agent-linguo/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:51.138Z",
+        "retrieved_at": "2026-04-20T07:37:33.305Z",
         "content_sha256": "dfa0e674b80f9e090a77097714f92a9adf88c3dd5152fd8f3471514a3e38e624"
       }
     }

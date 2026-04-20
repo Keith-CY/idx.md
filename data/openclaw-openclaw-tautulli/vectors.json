@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tautulli",
-  "generated_at": "2026-04-19T07:31:18.531Z",
+  "generated_at": "2026-04-20T07:36:40.261Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tautulli#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rjmurillo/tautulli/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:18.531Z",
+        "retrieved_at": "2026-04-20T07:36:40.261Z",
         "content_sha256": "5ad4437bb8abbb056b103f7b521f442fc986bff8582d1819bfed653e69743722"
       }
     }

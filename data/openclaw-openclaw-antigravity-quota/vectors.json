@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-antigravity-quota",
-  "generated_at": "2026-04-19T07:30:15.152Z",
+  "generated_at": "2026-04-20T07:34:55.302Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-antigravity-quota#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mukhtharcm/antigravity-quota/SKILL.md",
-        "retrieved_at": "2026-04-19T07:30:15.152Z",
+        "retrieved_at": "2026-04-20T07:34:55.302Z",
         "content_sha256": "d1d420e82cd021e6845e6247742a08654261ae0d55dbd750e01c364518f142f8"
       }
     }

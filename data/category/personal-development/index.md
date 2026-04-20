@@ -21,7 +21,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:43.126Z
+retrieved_at: 2026-04-20T07:37:20.112Z
 content_sha256: 98bd14298c546678f1f973815e24d478f1713a818033ddd38b19446db76ac764
 ---
 |/data/openclaw-openclaw-aawu|
@@ -41,7 +41,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:44.600Z
+retrieved_at: 2026-04-20T07:37:22.593Z
 content_sha256: 954bb2bca08d4bdb38f490b929b7a1fd38801616d62136fbed71c199504fcd98
 ---
 |/data/openclaw-openclaw-acorp|
@@ -61,7 +61,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:45.184Z
+retrieved_at: 2026-04-20T07:37:23.664Z
 content_sha256: 6dc3e4a55a224d4ea35da77e6550d8578b3d4fc6404fe3b04d88c429ac76d400
 ---
 |/data/openclaw-openclaw-adaptive-learning-agents|
@@ -82,7 +82,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:45.327Z
+retrieved_at: 2026-04-20T07:37:23.954Z
 content_sha256: 4cf01ba89832ea1310fe6c0397fbf3c30a45296d01d6bfd9aada9fecc52f9a37
 ---
 |/data/openclaw-openclaw-adaptivetest|
@@ -102,7 +102,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:46.044Z
+retrieved_at: 2026-04-20T07:37:24.920Z
 content_sha256: e81f4b482d60315b9d992f00837082270869652d010552c2c86233adff8e7321
 ---
 |/data/openclaw-openclaw-adhd-body-doubling|
@@ -122,7 +122,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:46.647Z
+retrieved_at: 2026-04-20T07:37:25.867Z
 content_sha256: 8c41456d4a345610206663306d562411ff54711b502b7e4bfcd4046140137854
 ---
 |/data/openclaw-openclaw-adversarial-coach|
@@ -143,7 +143,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:50.693Z
+retrieved_at: 2026-04-20T07:37:32.416Z
 content_sha256: b5c4167190af0d92072f1c5bd9c180ebe2530fe206d278261c57651333063a74
 ---
 |/data/openclaw-openclaw-agent-evolver|
@@ -163,7 +163,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:51.934Z
+retrieved_at: 2026-04-20T07:37:35.042Z
 content_sha256: 0d5c558e160854aa4000a4d8697033f573ef9c44a0989f3c2a82d0e9e850a21d
 ---
 |/data/openclaw-openclaw-agent-reflect|
@@ -183,7 +183,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:31:57.659Z
+retrieved_at: 2026-04-20T07:37:44.354Z
 content_sha256: 0fceb130b20a3c52137a74ddc9cff1db2b3b98fc4c5e939fb616b9cab1bc64b8
 ---
 |/data/openclaw-openclaw-ai-persona-os|
@@ -203,7 +203,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:00.853Z
+retrieved_at: 2026-04-20T07:37:49.717Z
 content_sha256: 163e985645b4c288c02dd9f733745e8f9b7df4bb50989f7ea82b9ff72155edc3
 ---
 |/data/openclaw-openclaw-anxiety-relief|
@@ -224,7 +224,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:01.391Z
+retrieved_at: 2026-04-20T07:37:50.692Z
 content_sha256: f5c5d949cb323ddfc714a4178a6d969074bb9905a406032a9df7e157863b740f
 ---
 |/data/openclaw-openclaw-apikiss|
@@ -244,7 +244,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:07.466Z
+retrieved_at: 2026-04-20T07:37:59.834Z
 content_sha256: ff00cc0027b15988921eb778f23c22014ee85abe0f20f08b911b427be744ab71
 ---
 |/data/openclaw-openclaw-beaverhabits|
@@ -264,7 +264,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:13.607Z
+retrieved_at: 2026-04-20T07:38:08.507Z
 content_sha256: a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b
 ---
 |/data/openclaw-openclaw-canvas-design|
@@ -285,7 +285,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:14.194Z
+retrieved_at: 2026-04-20T07:38:09.605Z
 content_sha256: ae5061d08767f598cb65b630591c0e5bc097286dfb1bbadddb5fb09958b91b0b
 ---
 |/data/openclaw-openclaw-cedh-advisor|
@@ -305,7 +305,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:16.257Z
+retrieved_at: 2026-04-20T07:38:12.793Z
 content_sha256: 26c1f4f3b03607e84832e3001fcb35b93c0aa9ab3483baa97b28b976787c796b
 ---
 |/data/openclaw-openclaw-clawcierge|
@@ -325,7 +325,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:20.396Z
+retrieved_at: 2026-04-20T07:38:18.840Z
 content_sha256: c071ce35cf8f62c711156d67e87ecad5d622bd424e5cc348477d2186d37ebd7c
 ---
 |/data/openclaw-openclaw-crucial-conversations-coach|
@@ -346,7 +346,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:21.329Z
+retrieved_at: 2026-04-20T07:38:20.070Z
 content_sha256: 7ed05c9ab3cd0af8ef2879e55197e9287c00ed6b5d6135b64460d0da0313be65
 ---
 |/data/openclaw-openclaw-daily-questions|
@@ -366,7 +366,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:21.466Z
+retrieved_at: 2026-04-20T07:38:20.242Z
 content_sha256: e4bddd7e66b553cb4d9d1c0f02b31f8a7299fb69ac5257e2fedf337de6f4cada
 ---
 |/data/openclaw-openclaw-daily-review-ritual|
@@ -386,7 +386,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:22.137Z
+retrieved_at: 2026-04-20T07:38:21.389Z
 content_sha256: 553aa0d811271b458b450ea05637d4d54c7edbc46b4acc942d8f832b21b3122f
 ---
 |/data/openclaw-openclaw-deepthink|
@@ -406,7 +406,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:22.342Z
+retrieved_at: 2026-04-20T07:38:21.804Z
 content_sha256: 773918919f7dc561ae0eeeff45ed5a58a272d5aff6df7c09c36a884763698528
 ---
 |/data/openclaw-openclaw-depression-support|
@@ -426,7 +426,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:22.607Z
+retrieved_at: 2026-04-20T07:38:22.323Z
 content_sha256: 08a4168fe6f6decda57797f948996a463283684d1e44e90bdf4024e509698056
 ---
 |/data/openclaw-openclaw-device-assistant|
@@ -446,7 +446,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:23.123Z
+retrieved_at: 2026-04-20T07:38:23.109Z
 content_sha256: 8e58f05650f07906b42a9755fdf00be3bee7c5a453cd28dbd696402b7ec107b6
 ---
 |/data/openclaw-openclaw-docstrange|
@@ -467,7 +467,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:28.214Z
+retrieved_at: 2026-04-20T07:35:16.195Z
 content_sha256: 0076e6a56ba39a069430b60827f282028dd4fa38a8092bffe13bae1a71cedd04
 ---
 |/data/openclaw-openclaw-drivers-hours-wtd-infringement-coach-uk|
@@ -487,7 +487,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:25.154Z
+retrieved_at: 2026-04-20T07:38:26.104Z
 content_sha256: a9170006cb231c7eccd82c207a8c50aa40c4b3492ce45f8f992ada16be4935c2
 ---
 |/data/openclaw-openclaw-english-learn-cards|
@@ -507,7 +507,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:25.513Z
+retrieved_at: 2026-04-20T07:38:26.681Z
 content_sha256: 458e5c88d62d1acb38a027ec9a9f3fae75eeb836e48b1445c9add2ae009b8d29
 ---
 |/data/openclaw-openclaw-expanso-cve-scan|
@@ -527,7 +527,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:25.804Z
+retrieved_at: 2026-04-20T07:38:27.043Z
 content_sha256: ad8dceb1852ae3026fa5d28fbd4f4d204d8350e53d61c2cbf877d75e019feda0
 ---
 |/data/openclaw-openclaw-ezbookkeeping|
@@ -547,7 +547,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:26.978Z
+retrieved_at: 2026-04-20T07:38:28.876Z
 content_sha256: 9ed88f35c543b442fdfe370db5a4df01e790fdbcd18221db8e21514eeea4adb9
 ---
 |/data/openclaw-openclaw-fix-life-in-1-day|
@@ -567,7 +567,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:27.137Z
+retrieved_at: 2026-04-20T07:38:28.977Z
 content_sha256: 0fbc9f53d04914c913a4893b0acaee668c9aab8d76a2f2c363a801b763926207
 ---
 |/data/openclaw-openclaw-founder-coach|
@@ -588,7 +588,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:32.688Z
+retrieved_at: 2026-04-20T07:35:25.841Z
 content_sha256: bbc0ef7e09d7666e18483c1c7d5b782bb89d9c25339dcf1b72ecdaa46603a749
 ---
 |/data/openclaw-openclaw-get-you-some-britches|
@@ -608,7 +608,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:35.732Z
+retrieved_at: 2026-04-20T07:35:30.383Z
 content_sha256: 3fafeaa23f126d6830edbd9d2fc5c9620ff807e4e2ea9152bad0ba2ffacfcd29
 ---
 |/data/openclaw-openclaw-graphiti|
@@ -629,7 +629,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:47.307Z
+retrieved_at: 2026-04-20T07:35:48.307Z
 content_sha256: 7c5161e20619f7a54e70255fd9377d94946c397b8f626187ffd3e5a4071ad929
 ---
 |/data/openclaw-openclaw-mindfulness-meditation|
@@ -649,7 +649,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:49.758Z
+retrieved_at: 2026-04-20T07:35:52.492Z
 content_sha256: d5619bb0ca6de2aea84fec4878b67bdfe0ebe1a0a4ca71f79289b055bd402f6b
 ---
 |/data/openclaw-openclaw-morning-routine|
@@ -670,7 +670,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:50.160Z
+retrieved_at: 2026-04-20T07:35:53.224Z
 content_sha256: 748819dc4bd30a0e2a739d898cb4e54660e4c8760efd6f60b0eab89225e9648f
 ---
 |/data/openclaw-openclaw-munger-observer|
@@ -691,7 +691,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:51.785Z
+retrieved_at: 2026-04-20T07:35:55.974Z
 content_sha256: e4d4c1b1bef7fbe8069ce1ee6a3c5ef13c6efa0d5ebac2f838a048f26069a5d1
 ---
 |/data/openclaw-openclaw-night-routine|
@@ -711,7 +711,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:56.956Z
+retrieved_at: 2026-04-20T07:36:04.754Z
 content_sha256: 67b2603c1b644b5558ec7ebed36dd3049eb47077746349271ac70f8e0e885971
 ---
 |/data/openclaw-openclaw-overcome-problem|
@@ -732,7 +732,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:30:58.787Z
+retrieved_at: 2026-04-20T07:36:07.847Z
 content_sha256: a3a75d2c511cbea71692889dc29848e2efad2555e86138fce9ed3e1764b0fb8f
 ---
 |/data/openclaw-openclaw-personality-test|
@@ -752,7 +752,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:02.161Z
+retrieved_at: 2026-04-20T07:36:13.098Z
 content_sha256: 61d2f46a95d50f9d7b1ba00957520d65222df6b9911034392cd45cf41c9700ea
 ---
 |/data/openclaw-openclaw-procrastination-buster|
@@ -772,7 +772,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.552Z
+retrieved_at: 2026-04-20T07:36:17.038Z
 content_sha256: 59f86a700d02edf0f4b3ce417c559f36e2abf3645f2a061f1260ae4158627675
 ---
 |/data/openclaw-openclaw-quit-alcohol|
@@ -792,7 +792,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.629Z
+retrieved_at: 2026-04-20T07:36:17.124Z
 content_sha256: b4859b8e266a82bd90682a24e966f26530c17ab2b627e7732546cbbc16e84186
 ---
 |/data/openclaw-openclaw-quit-caffeine|
@@ -812,7 +812,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.686Z
+retrieved_at: 2026-04-20T07:36:17.211Z
 content_sha256: 7c2683af8b009eda51e08b28143110d0a2ffbd5d302b2ac3ccc0184e9954335d
 ---
 |/data/openclaw-openclaw-quit-overspending|
@@ -832,7 +832,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.757Z
+retrieved_at: 2026-04-20T07:36:17.365Z
 content_sha256: d497254391b5ad788b5ada25ecb525dd4c0b008b6e6dbaf84335851d281ad2b1
 ---
 |/data/openclaw-openclaw-quit-porn|
@@ -853,7 +853,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.814Z
+retrieved_at: 2026-04-20T07:36:17.538Z
 content_sha256: 493ee30a1f880b1c5f254555f2f65041a517f6147cf0dcaafe4595d9cdda70d8
 ---
 |/data/openclaw-openclaw-quit-smoking|
@@ -873,7 +873,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.884Z
+retrieved_at: 2026-04-20T07:36:17.641Z
 content_sha256: 21211955137f7ba1421f50f6d566c206a6e60810a663fa403589785cc285d07c
 ---
 |/data/openclaw-openclaw-quit-vaping|
@@ -894,7 +894,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:04.957Z
+retrieved_at: 2026-04-20T07:36:17.777Z
 content_sha256: 144911797e32c580e865f79f8ba64eae2e769d03a38f46e76b880ec3e609d789
 ---
 |/data/openclaw-openclaw-quit-weed|
@@ -914,7 +914,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:06.623Z
+retrieved_at: 2026-04-20T07:36:20.304Z
 content_sha256: aaf9bec12df53d3866d41c27349a23deafdf789e744f22d54967a8c1cc34d5d3
 ---
 |/data/openclaw-openclaw-reflect-learn|
@@ -934,7 +934,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:10.211Z
+retrieved_at: 2026-04-20T07:36:26.487Z
 content_sha256: 754fa186639e177f616f0afb1656a901625c31097db8f28b7fe34f222022a961
 ---
 |/data/openclaw-openclaw-self-improvement|
@@ -955,7 +955,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:10.309Z
+retrieved_at: 2026-04-20T07:36:26.665Z
 content_sha256: c766b93bfbe2b6fbc72ba07240f990781039a03b509ee3cb79a70fae0f617f8f
 ---
 |/data/openclaw-openclaw-self-love-confidence|
@@ -975,7 +975,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:14.128Z
+retrieved_at: 2026-04-20T07:36:33.128Z
 content_sha256: 5f2bb9ba876d193c2dd00b1ee3671b1638b103f1e4837adf8fde8318d1fd3244
 ---
 |/data/openclaw-openclaw-social-media-detox|
@@ -995,7 +995,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:16.222Z
+retrieved_at: 2026-04-20T07:36:36.765Z
 content_sha256: 138770866502de0139e7bc9f2380eded4751eb12e64f9a0c16501834bcccc642
 ---
 |/data/openclaw-openclaw-stress-relief|
@@ -1015,7 +1015,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:16.293Z
+retrieved_at: 2026-04-20T07:36:36.883Z
 content_sha256: bec02a8e878e0fc91043af68ca33549c91a2057a043b8501d7b4a700701b766a
 ---
 |/data/openclaw-openclaw-study-habits|
@@ -1035,7 +1035,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:19.991Z
+retrieved_at: 2026-04-20T07:36:43.106Z
 content_sha256: 1ee98efb02225ea84238d9ff8c4d1f4543c44c4becd17bfa42643c7b19052cb1
 ---
 |/data/openclaw-openclaw-therapy-mode|
@@ -1055,7 +1055,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:28.284Z
+retrieved_at: 2026-04-20T07:36:55.769Z
 content_sha256: a6742cf0e7347058a6191e122075895d51721fdeac9495c9475a619e5493a78a
 ---
 |/data/openclaw-openclaw-weekly-synthesis|
@@ -1075,7 +1075,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-19T07:31:28.495Z
+retrieved_at: 2026-04-20T07:36:56.128Z
 content_sha256: 8510c926eb5f3d4507e25094ea3e564137d7097e1f209dce1c8846174648d3a0
 ---
 |/data/openclaw-openclaw-whatdo|

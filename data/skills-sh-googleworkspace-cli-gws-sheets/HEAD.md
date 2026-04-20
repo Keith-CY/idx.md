@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-sheets
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-04-19T07:32:46.376Z
+retrieved_at: 2026-04-20T07:39:04.804Z
 content_sha256: ef337f5249f50ef0209f95baf906b2d8a93fcc042797197423575518d96fbe6a
 ---

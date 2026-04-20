@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-azure-infra",
-  "generated_at": "2026-04-19T07:30:17.096Z",
+  "generated_at": "2026-04-20T07:34:58.362Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-azure-infra#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bmdhodl/azure-infra/SKILL.md",
-        "retrieved_at": "2026-04-19T07:30:17.096Z",
+        "retrieved_at": "2026-04-20T07:34:58.362Z",
         "content_sha256": "88826b68645c881eb13a563abd0367aa6e33dd19b24b895f5e0b67ae0f8421a8"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ytmusic",
-  "generated_at": "2026-04-19T07:31:33.644Z",
+  "generated_at": "2026-04-20T07:37:04.817Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ytmusic#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gentrycopsy/ytmusic/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:33.644Z",
+        "retrieved_at": "2026-04-20T07:37:04.817Z",
         "content_sha256": "b27c3cc80196f8b2b8d098356249c48787218081ac038e6175b1ae7c41f3ac28"
       }
     }

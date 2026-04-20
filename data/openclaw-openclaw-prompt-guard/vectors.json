@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-prompt-guard",
-  "generated_at": "2026-04-19T07:31:03.077Z",
+  "generated_at": "2026-04-20T07:36:14.650Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-prompt-guard#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seojoonkim/prompt-guard/SKILL.md",
-        "retrieved_at": "2026-04-19T07:31:03.077Z",
+        "retrieved_at": "2026-04-20T07:36:14.650Z",
         "content_sha256": "c09fbce4925b051833c91a1142f980937d5fdf13e12b9a9fd28a0dccf60ecff4"
       }
     }
