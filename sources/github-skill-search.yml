@@ -20,6 +20,18 @@
     - github-repo-rust-skills
   upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zero-cost/SKILL.md
 - type: skills
+  slug: github-skill-agents365-ai-video-podcast-maker-video-podcast-maker
+  source_url: https://raw.githubusercontent.com/Agents365-ai/video-podcast-maker/main/SKILL.md
+  title: video-podcast-maker
+  summary: Use when user provides a topic and wants an automated video podcast created, OR when user wants to learn/analyze video design patterns from reference videos — handles research, script writing, TTS audio synthesis, Remotion video creation, and final MP4 output with background music. Also supports design learning from reference videos (learn command), style profile management, and design reference library. Supports Bilibili, YouTube, Xiaohongshu, Douyin, and WeChat Channels platforms with independent language configuration (zh-CN, en-US).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-agents365-ai
+    - github-repo-video-podcast-maker
+  upstream_ref: https://github.com/Agents365-ai/video-podcast-maker/blob/main/SKILL.md
+- type: skills
   slug: github-skill-agno-agi-agno-git-workflow
   source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
   title: git-workflow
@@ -683,6 +695,18 @@
     - github-repo-swarms
   upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
 - type: skills
+  slug: github-skill-lewislulu-html-ppt-skill-html-ppt
+  source_url: https://raw.githubusercontent.com/lewislulu/html-ppt-skill/main/SKILL.md
+  title: html-ppt
+  summary: HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user asks for a presentation, PPT, slides, keynote, deck, slideshow, "幻灯片", "演讲稿", "做一份 PPT", "做一份 slides", a reveal-style HTML deck, a 小红书 图文, or any kind of multi-slide pitch/report/sharing document that should look tasteful and be usable with keyboard navigation. Triggers include keywords like "presentation", "ppt", "slides", "deck", "keynote", "reveal", "slideshow", "幻灯片", "演讲稿", "分享稿", "小红书图文", "talk slides", "pitch deck", "tech sharing", "technical presentation".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-lewislulu
+    - github-repo-html-ppt-skill
+  upstream_ref: https://github.com/lewislulu/html-ppt-skill/blob/main/SKILL.md
+- type: skills
   slug: github-skill-lobehub-lobehub-data-fetching
   source_url: https://raw.githubusercontent.com/lobehub/lobehub/canary/.agents/skills/data-fetching/SKILL.md
   title: data-fetching
@@ -809,6 +833,22 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/okaris/ai-music-generation/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-awp
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/kilb/awp/SKILL.md
+  title: awp
+  summary: |-
+    AWP (Agent Work Protocol) — the complete toolkit for agent mining on Base, Ethereum, Arbitrum, and BSC. Use this skill when the user explicitly mentions AWP, worknets, veAWP, awp-wallet, or AWP-specific operations.
+    Handles: onboarding (wallet setup, registration, worknet joining), staking (deposit, withdraw, gasless relay via ERC-2612 permit), allocation (allocate/deallocate stake to agents on worknets), worknet management (register, pause, resume, cancel), agent binding (link agent wallet to owner), governance (proposals, voting), and querying (balances, positions, emissions, epochs, announcements).
+    Trigger keywords: AWP, veAWP, awp-wallet, worknet, AWPRegistry, AWPAllocator, AWPWorkNet, agent staking (in AWP context), "allocate AWP", "bind my agent", "claim AWP rewards", "AWP emission", "AWP epoch".
+    NOT for: Uniswap, Aave, Lido, Compound, generic Solidity/Hardhat, token swaps, bridging, or non-AWP DeFi protocols. Do NOT trigger on generic phrases like "start working" or "start earning" unless AWP is explicitly mentioned in context.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/kilb/awp/SKILL.md
 - type: skills
   slug: github-skill-openclaw-skills-bagman
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/zscole/openclaw/SKILL.md
@@ -954,6 +994,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/sp0oby/game-theory/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-getpost
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/dommholland/getpost/skills.md
+  title: getpost
+  summary: The API platform for bots. Email, SMS, search, scrape, AI, domains, shipping - one API key.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/dommholland/getpost/skills.md
+- type: skills
   slug: github-skill-openclaw-skills-journal
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/ivangdavila/journal/SKILL.md
   title: Journal
@@ -1089,6 +1141,18 @@
     - github-owner-openclaw
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/ivangdavila/physics/SKILL.md
+- type: skills
+  slug: github-skill-openclaw-skills-proviras-logger
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/nataliaivan0v/proviras-logger/SKILLS.md
+  title: proviras-logger
+  summary: Run on every heartbeat to summarize completed tasks and log them to your analytics dashboard. Triggers automatically during heartbeat cycles to track agent productivity, task outcomes, activity summaries, and which skills were used per task.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/nataliaivan0v/proviras-logger/SKILLS.md
 - type: skills
   slug: github-skill-openclaw-skills-qa-check
   source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/qa-check/SKILL.md
@@ -1234,6 +1298,18 @@
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
 - type: skills
+  slug: github-skill-sharpai-deepcamera-depth-estimation
+  source_url: https://raw.githubusercontent.com/SharpAI/DeepCamera/master/SKILL.md
+  title: depth-estimation
+  summary: Real-time depth map privacy transforms using Depth Anything v2 (CoreML + PyTorch)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sharpai
+    - github-repo-deepcamera
+  upstream_ref: https://github.com/SharpAI/DeepCamera/blob/master/SKILL.md
+- type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
   title: hubspot-integration
@@ -1294,6 +1370,18 @@
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 - type: skills
+  slug: github-skill-unbrowse-ai-unbrowse-unbrowse
+  source_url: https://raw.githubusercontent.com/unbrowse-ai/unbrowse/stable/SKILL.md
+  title: unbrowse
+  summary: "API-native agent browser powered by Kuri (Zig-native CDP, 464KB, ~3ms cold start). Unbrowse is the intelligence layer — learns internal APIs (shadow APIs) from real browsing traffic and progressively replaces browser calls with cached API routes (<200ms). Three paths: skill cache, shared route graph, or Kuri browser fallback. 3.6x mean speedup over Playwright across 94 domains. Full Kuri API surface exposed (snapshots, ref-based actions, HAR, cookies, DOM, screenshots). Free to capture and index; agents earn from mining routes for other agents."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-unbrowse-ai
+    - github-repo-unbrowse
+  upstream_ref: https://github.com/unbrowse-ai/unbrowse/blob/stable/SKILL.md
+- type: skills
   slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
   source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
   title: vllm-ascend-model-adapter
@@ -1317,6 +1405,18 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-x-cmd-x-cmd-ccal
+  source_url: https://raw.githubusercontent.com/x-cmd/x-cmd/X/mod/ccal/SKILL.md
+  title: ccal
+  summary: Chinese Calendar with Lunar-Solar Conversion
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-calendar-scheduling
+    - github-owner-x-cmd
+    - github-repo-x-cmd
+  upstream_ref: https://github.com/x-cmd/x-cmd/blob/X/mod/ccal/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
