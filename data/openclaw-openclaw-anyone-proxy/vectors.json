@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-anyone-proxy",
-  "generated_at": "2026-04-20T07:37:49.995Z",
+  "generated_at": "2026-04-21T07:35:06.667Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-anyone-proxy#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ra3ka/anyone-proxy/SKILL.md",
-        "retrieved_at": "2026-04-20T07:37:49.995Z",
+        "retrieved_at": "2026-04-21T07:35:06.667Z",
         "content_sha256": "a9322a6d70f459c6e887d7551b40604d301db53c2387527a100696fcacfb7a4a"
       }
     }

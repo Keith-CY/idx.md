@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apipick-telegram-phone-check",
-  "generated_at": "2026-04-20T07:37:50.877Z",
+  "generated_at": "2026-04-21T07:35:07.350Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apipick-telegram-phone-check#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/javainthinking/apipick-telegram-phone-check/SKILL.md",
-        "retrieved_at": "2026-04-20T07:37:50.877Z",
+        "retrieved_at": "2026-04-21T07:35:07.350Z",
         "content_sha256": "d5970f5956ba4253c550bd4b7582b13e4fa03e9a50ca2bae0627eb39d1b6cc03"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-clawgang",
-  "generated_at": "2026-04-20T07:38:48.953Z",
+  "generated_at": "2026-04-21T07:35:58.267Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-clawgang#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/syslink/clawgang/SKILL.md",
-        "retrieved_at": "2026-04-20T07:38:48.953Z",
+        "retrieved_at": "2026-04-21T07:35:58.267Z",
         "content_sha256": "c505beae8b72dbb7342e19e79f0848ed44929ef0f4990f1ddced0379c741bb87"
       }
     }

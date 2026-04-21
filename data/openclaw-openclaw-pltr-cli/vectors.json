@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-pltr-cli",
-  "generated_at": "2026-04-20T07:36:10.190Z",
+  "generated_at": "2026-04-21T07:33:44.581Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-pltr-cli#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/anjor/pltr-cli/SKILL.md",
-        "retrieved_at": "2026-04-20T07:36:10.190Z",
+        "retrieved_at": "2026-04-21T07:33:44.581Z",
         "content_sha256": "feb9ff6fab99ca34528d7adb400ad019804f1bf740379eeba0af24cf67f9591a"
       }
     }

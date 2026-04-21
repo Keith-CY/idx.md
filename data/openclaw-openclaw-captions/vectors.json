@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-captions",
-  "generated_at": "2026-04-20T07:35:01.441Z",
+  "generated_at": "2026-04-21T07:32:46.800Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-captions#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/captions/SKILL.md",
-        "retrieved_at": "2026-04-20T07:35:01.441Z",
+        "retrieved_at": "2026-04-21T07:32:46.800Z",
         "content_sha256": "ef79050e4a1ffd8e0c70ea9716ef8933605771b7a4e5bc294c69c3ee376c71f2"
       }
     }

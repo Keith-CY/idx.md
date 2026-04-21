@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-spool",
-  "generated_at": "2026-04-20T07:36:34.811Z",
+  "generated_at": "2026-04-21T07:34:05.348Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-spool#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/zizi-cat/spool/SKILL.md",
-        "retrieved_at": "2026-04-20T07:36:34.811Z",
+        "retrieved_at": "2026-04-21T07:34:05.348Z",
         "content_sha256": "53ee39c43394815048d8e171bccd6fbccfee3346509e6188f958619de5ff21cf"
       }
     }

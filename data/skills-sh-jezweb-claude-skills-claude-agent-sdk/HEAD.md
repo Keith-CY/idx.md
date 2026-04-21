@@ -5,6 +5,14 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.116
+
+  - Updated to parity with Claude Code v2.1.116
+
+  ## 0.2.115
+
+  - Updated to parity with Claude Code v2.1.115
+
   ## 0.2.114
 
   - Updated to parity with Claude Code v2.1.114
@@ -19,18 +27,6 @@ summary: >-
   `SessionStore`/`SessionKey`/`SessionStoreEntry` types, `InMemorySessionStore`
   reference implementation, and `importSessionToStore()` for migrating existing
   sessions
-
-  - Added `deleteSession()` for removing a session from disk or a `SessionStore`
-
-  - Added `SDKMirrorErrorMessage` (`subtype: 'mirror_error'`) to the
-  `SDKMessage` union — emitted when a `sessionStore.append()` batch fails
-
-  - **Breaking**: `options.env` once again replaces `process.env` for the CLI
-  subprocess instead of overlaying it. To add or override individual variables,
-  pass `env: { ...process.env, MY_VAR: "x" }`
-
-  - Added `title` option to `query()` — sets the session title and skips
-  auto-generation
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-20T07:34:43.840Z
-content_sha256: c6eec7bba8596c7f87c31a91e90cbcd939b80357ebae628b85cffa11484f8953
+retrieved_at: 2026-04-21T07:32:32.475Z
+content_sha256: 3996b2cf985da3df67c45d58dbe7d85796506cad44e8e1552c2ef91c1bdec4c9
 ---

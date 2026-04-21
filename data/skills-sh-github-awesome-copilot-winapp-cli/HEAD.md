@@ -5,26 +5,24 @@ title: skills-sh-github-awesome-copilot-winapp-cli
 summary: >-
   # CLI Documentation and Usage
 
-  ### init
+  ## Shell Completion
 
-  Initialize a directory with Windows SDK, Windows App SDK, and required assets
-  for modern Windows development.
+  Enable tab completion for commands, options, and values. See the [Shell
+  Completion guide](guides/shell-completion.md) for setup instructions.
 
-  ```bash
+  ```powershell
 
-  winapp init [base-directory] [options]
+  # Quick setup for PowerShell (permanent — add to profile)
+
+  winapp complete --setup powershell >> $PROFILE
+
+  # Or try it in the current session only
+
+  winapp complete --setup powershell | Out-String | Invoke-Expression
 
   ```
 
-  **Arguments:**
-
-  - `base-directory` - Base/root directory for the app/workspace (default:
-  current directory)
-
-  **Options:**
-
-  - `--config-dir <path>` - Directory to read/store configuration (default:
-  current directory)
+  ### init
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
 github_stars: 932
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-04-20T07:39:11.863Z
-content_sha256: 4a8e7578993bf79d7d322f6f9f7b240730476e547e324209174c0f3f0ff5d0c8
+retrieved_at: 2026-04-21T07:36:07.591Z
+content_sha256: e11046e57af02cd4fe7559ed125d8811eee8f873c718a55d681c70e77b721af6
 ---

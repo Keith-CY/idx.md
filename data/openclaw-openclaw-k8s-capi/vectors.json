@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-k8s-capi",
-  "generated_at": "2026-04-20T07:35:39.385Z",
+  "generated_at": "2026-04-21T07:33:18.744Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-k8s-capi#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rohitg00/k8s-capi/SKILL.md",
-        "retrieved_at": "2026-04-20T07:35:39.385Z",
+        "retrieved_at": "2026-04-21T07:33:18.744Z",
         "content_sha256": "a8fa2b2a617d03ed97f747deaa92dc533f929d32bc17c989f1167d2caacd97d9"
       }
     }

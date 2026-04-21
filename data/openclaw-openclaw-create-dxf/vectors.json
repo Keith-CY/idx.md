@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-create-dxf",
-  "generated_at": "2026-04-20T07:35:11.677Z",
+  "generated_at": "2026-04-21T07:32:55.483Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-create-dxf#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/create-dxf/SKILL.md",
-        "retrieved_at": "2026-04-20T07:35:11.677Z",
+        "retrieved_at": "2026-04-21T07:32:55.483Z",
         "content_sha256": "2c9c375cda48b0b5c3d2d2b58d014aec9f032317b4ab1f21aad87864c2ba61d5"
       }
     }

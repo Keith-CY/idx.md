@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-spots",
-  "generated_at": "2026-04-20T07:36:35.480Z",
+  "generated_at": "2026-04-21T07:34:06.009Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-spots#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/foeken/spots/SKILL.md",
-        "retrieved_at": "2026-04-20T07:36:35.480Z",
+        "retrieved_at": "2026-04-21T07:34:06.009Z",
         "content_sha256": "235dce3953505f146dcb76a3393698454f09ca31bcd6cf04d7b730fa2f2b9588"
       }
     }

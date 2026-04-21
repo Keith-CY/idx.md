@@ -7,30 +7,28 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up a self-hosted AI agent gateway, configuring
-  multi-channel messaging (Discord, Telegram, WhatsApp, Slack, etc.), managing
-  agent workspaces and sessions, controlling tool access, or deploying agents
-  across multiple platforms. Reach for this skill when building personal AI
-  assistants, routing messages to agents, configuring security policies, or
-  troubleshooting gateway and channel issues.
+  description: Use when setting up or configuring a self-hosted AI agent
+  gateway, connecting messaging channels (Discord, Slack, Telegram, WhatsApp,
+  etc.), managing agent workspaces and sessions, configuring tools and skills,
+  or deploying multi-agent systems with isolated routing and memory.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill
+  # OpenClaw Skill Reference
 
   ## Product summary
 
-  OpenClaw is a self-hosted gateway that connects chat apps (Discord, Telegram,
-  WhatsApp, Slack, Signal, iMessage, Microsoft Teams, Matrix, and more) to AI
-  agents. You run a single Gateway process on your machine or server; it bridges
-  messaging channels to an agent runtime with tool use, sessions, memory, and
-  multi-agent routing. Key files: `~/.openclaw/openclaw.json` (config),
-  `~/.openclaw/workspace/` (agent workspace with `AGENTS.md`, `SOUL.md`,
-  `TOOLS.md`, `IDENTITY.md`, `USER.md`). Primary CLI: `openclaw` (setup, config,
-  channels, agents, gateway, models, nodes). Docs: https://docs.openclaw.ai
+  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
+  any OS (macOS, Linux, Windows). It connects your favorite chat apps—Discord,
+  Slack, Telegram, WhatsApp, iMessage, Signal, Matrix, Microsoft Teams, and 15+
+  others—to a single embedded agent runtime. The agent can read/write files,
+  execute commands, browse the web, send messages, and interact with paired
+  mobile devices. Key files: `~/.openclaw/openclaw.json` (config),
+  `~/.openclaw/workspace/` (agent files), `~/.openclaw/agents/` (sessions).
+  Primary CLI: `openclaw`. Primary docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -38,6 +36,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-20T07:34:25.779Z
-content_sha256: b7d1135585898d9550c6fa63e55ca963513ab6d356cfccb2b71a18a4dcd19642
+retrieved_at: 2026-04-21T07:32:19.473Z
+content_sha256: 17f15c6e6869b7b692914fad36d3d954a29dd0184df44ac4e88cac2bba85a971
 ---

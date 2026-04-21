@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-wheels-router",
-  "generated_at": "2026-04-20T07:36:56.954Z",
+  "generated_at": "2026-04-21T07:34:24.365Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-wheels-router#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/anscg/wheels-router/SKILL.md",
-        "retrieved_at": "2026-04-20T07:36:56.954Z",
+        "retrieved_at": "2026-04-21T07:34:24.365Z",
         "content_sha256": "0ee441593fc7a03d9ae3a42d3ab8a1947fca4ceff418d56413d594b820942099"
       }
     }
