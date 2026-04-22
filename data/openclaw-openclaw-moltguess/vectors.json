@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-moltguess",
-  "generated_at": "2026-04-21T07:33:28.814Z",
+  "generated_at": "2026-04-22T07:33:03.733Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-moltguess#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nwx77/moltguess/SKILL.md",
-        "retrieved_at": "2026-04-21T07:33:28.814Z",
+        "retrieved_at": "2026-04-22T07:33:03.733Z",
         "content_sha256": "efbdbc49936eda8aea62adee36b5c5298cdf2d7f45bfa1b73d104527e88248c2"
       }
     }

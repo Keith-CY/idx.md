@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-yollomi",
-  "generated_at": "2026-04-21T07:34:29.054Z",
+  "generated_at": "2026-04-22T07:33:58.374Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-yollomi#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/anichikage/yollomi/SKILL.md",
-        "retrieved_at": "2026-04-21T07:34:29.054Z",
+        "retrieved_at": "2026-04-22T07:33:58.374Z",
         "content_sha256": "745c99a13feb365fee537aa6f51e8d056b27368be25c235e8bd351f097a3bdf2"
       }
     }

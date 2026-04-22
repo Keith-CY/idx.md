@@ -29,7 +29,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/bookke
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:35:57.768Z
+retrieved_at: 2026-04-22T07:35:28.670Z
 content_sha256: 7fcf42d37641d113c018d11f21d8faa27655cc0aca428df9fd9d2afd15dc2e93
 ---
 |/data/github-skill-openclaw-skills-bookkeeping-basics|
@@ -55,7 +55,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/satbot-mdk/mon
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:35:58.960Z
+retrieved_at: 2026-04-22T07:35:29.776Z
 content_sha256: 6dfb522bb23e6b910613e471d0eb787f12a8219a3b17f9e8fda57359ad99c0fd
 ---
 |/data/github-skill-openclaw-skills-moneydevkit|
@@ -79,7 +79,7 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/matbalez/origr
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:35:59.305Z
+retrieved_at: 2026-04-22T07:35:30.106Z
 content_sha256: d32eca31dba25101031d2b7a3bc99ebad760ff25279675382b30f69e0111de60
 ---
 |/data/github-skill-openclaw-skills-origram|
@@ -104,7 +104,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:23.853Z
+retrieved_at: 2026-04-22T07:32:04.989Z
 content_sha256: 6e53c9529c42bb92c11d00a58af5119f7383903d9cb3b911625089fec2ff4784
 ---
 |/data/knowledge-work-plugins-finance-skills-audit-support-skill|
@@ -128,7 +128,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:24.069Z
+retrieved_at: 2026-04-22T07:32:05.060Z
 content_sha256: 6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732
 ---
 |/data/knowledge-work-plugins-finance-skills-close-management-skill|
@@ -153,7 +153,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:24.013Z
+retrieved_at: 2026-04-22T07:32:05.024Z
 content_sha256: 1a9ba1cc85495eef32fa250b8a4c05e4854430af574a290b855f919dbb557dfc
 ---
 |/data/knowledge-work-plugins-finance-skills-financial-statements-skill|
@@ -178,7 +178,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:24.213Z
+retrieved_at: 2026-04-22T07:32:05.209Z
 content_sha256: 122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e
 ---
 |/data/knowledge-work-plugins-finance-skills-journal-entry-prep-skill|
@@ -203,7 +203,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:34:33.593Z
+retrieved_at: 2026-04-22T07:34:03.275Z
 content_sha256: c085de41feb0b8c74771cdd631fff1f668ec253938c69fee47b6a953fc03a266
 ---
 |/data/knowledge-work-plugins-finance-skills-journal-entry-skill|
@@ -228,7 +228,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:24.250Z
+retrieved_at: 2026-04-22T07:32:05.256Z
 content_sha256: aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6
 ---
 |/data/knowledge-work-plugins-finance-skills-reconciliation-skill|
@@ -253,7 +253,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:34:33.628Z
+retrieved_at: 2026-04-22T07:34:03.398Z
 content_sha256: 5e5939a070a25d9696b27aaec6c20e64084e6f58637994b2f7ec92744074ea23
 ---
 |/data/knowledge-work-plugins-finance-skills-sox-testing-skill|
@@ -278,7 +278,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:23.800Z
+retrieved_at: 2026-04-22T07:32:04.806Z
 content_sha256: 467db7de3fb118550d013409254e2d4a9f87385a661e154655bf3431919b0ba1
 ---
 |/data/knowledge-work-plugins-finance-skills-variance-analysis-skill|
@@ -298,7 +298,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:05.483Z
+retrieved_at: 2026-04-22T07:34:33.070Z
 content_sha256: d3619b093a80a814821d87f40e230e165918800820738af9d6087975d765ccff
 ---
 |/data/openclaw-openclaw-analytics-tracking|
@@ -318,7 +318,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:06.923Z
+retrieved_at: 2026-04-22T07:34:34.330Z
 content_sha256: 8852d382d53f1446f5fe2db478a809d718aa073b31d831d54682d394b2effbef
 ---
 |/data/openclaw-openclaw-api-credentials-hygiene|
@@ -338,7 +338,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:07.568Z
+retrieved_at: 2026-04-22T07:34:34.852Z
 content_sha256: 4e442b2c83de3958084373885ddcd0df6607ea30496fda8389c545f8c4ffe9d9
 ---
 |/data/openclaw-openclaw-app-store-changelog|
@@ -358,7 +358,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:27.408Z
+retrieved_at: 2026-04-22T07:34:59.131Z
 content_sha256: b51a34c3b6e93b10033659e7b8b8de279a16286994be6abfaccdef1d11216afe
 ---
 |/data/openclaw-openclaw-clawdbot-release-check|
@@ -378,7 +378,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:31.165Z
+retrieved_at: 2026-04-22T07:35:03.559Z
 content_sha256: d2a5e8b08c5a05f87dbaf4b4dc2b20815f3866a437cbfc1f65c777ceb462f4b3
 ---
 |/data/openclaw-openclaw-create-content|
@@ -398,7 +398,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:39.265Z
+retrieved_at: 2026-04-22T07:35:11.185Z
 content_sha256: d30f200ff8ba229a003b8f9dfc18680ec425bb5a4d9670a88f860c785792b8b5
 ---
 |/data/openclaw-openclaw-expense-tracker-pro|
@@ -418,7 +418,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:42.660Z
+retrieved_at: 2026-04-22T07:35:14.639Z
 content_sha256: f062a3bff708fea3e95e3dd0ca359400192b22acb01443523134e92e5c0bfd5b
 ---
 |/data/openclaw-openclaw-harvey|
@@ -438,7 +438,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:44.557Z
+retrieved_at: 2026-04-22T07:35:16.399Z
 content_sha256: 8dc96ecab8ac87e8ec01d884e79bfea5a5b2cb36d3cf8ae7aabe984cee21e7d5
 ---
 |/data/openclaw-openclaw-just-fucking-cancel|
@@ -458,7 +458,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:44.884Z
+retrieved_at: 2026-04-22T07:35:16.729Z
 content_sha256: f4bb88f62b9217214a9362f7ab2787cf1f3c47065623c9ae43aab0f932c5e84d
 ---
 |/data/openclaw-openclaw-launch-strategy|
@@ -478,7 +478,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:46.153Z
+retrieved_at: 2026-04-22T07:35:17.844Z
 content_sha256: 27528960d32a0dd30d556f360d47357abf6051ac4a563af1506af92aff231983
 ---
 |/data/openclaw-openclaw-marketing-ideas|
@@ -498,7 +498,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:48.181Z
+retrieved_at: 2026-04-22T07:35:19.673Z
 content_sha256: 5dfba1d4f02f6344e67e8a2627ac6eca09c16f92b2cf10a702c7f7cc22df4bbd
 ---
 |/data/openclaw-openclaw-nordpool-fi|
@@ -518,7 +518,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:48.703Z
+retrieved_at: 2026-04-22T07:35:20.048Z
 content_sha256: 1330f5f3da8bfb2e19f6e91d2b593b055aa47bbf7a864aec5375c010ed756924
 ---
 |/data/openclaw-openclaw-openssl|
@@ -538,7 +538,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:48.783Z
+retrieved_at: 2026-04-22T07:35:20.133Z
 content_sha256: ea4ac2ac8400f1853ae386785f63a0a9c445e1c08c981a9f6b734bc7c810cfc9
 ---
 |/data/openclaw-openclaw-page-cro|
@@ -558,7 +558,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:49.217Z
+retrieved_at: 2026-04-22T07:35:20.563Z
 content_sha256: b974d276d94307f18001858862d8e7a58f4ebcc8df7c1c110317d9d8b66838af
 ---
 |/data/openclaw-openclaw-plaid|
@@ -578,7 +578,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:49.304Z
+retrieved_at: 2026-04-22T07:35:20.646Z
 content_sha256: 0737e7f1df8b517403af778884096c8d96cf5a827864686ee61f46a142e81cd7
 ---
 |/data/openclaw-openclaw-publisher|
@@ -598,7 +598,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:49.373Z
+retrieved_at: 2026-04-22T07:35:20.728Z
 content_sha256: ca844e395ff26e80c1f01b081302191ff06452d7fa997a95c0e946236c2e3240
 ---
 |/data/openclaw-openclaw-relationship-skills|
@@ -618,7 +618,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:49.701Z
+retrieved_at: 2026-04-22T07:35:20.965Z
 content_sha256: ada9b7db061b3b7c89eb9624e9317838425db7e7968eb0444251516049c89c9b
 ---
 |/data/openclaw-openclaw-sharesight-skill|
@@ -638,7 +638,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:49.780Z
+retrieved_at: 2026-04-22T07:35:21.047Z
 content_sha256: ccbfa6237880cecc0277a6cf69e24b4ec5425252efe22b4de851ffd1be639e65
 ---
 |/data/openclaw-openclaw-solo-cli|
@@ -658,7 +658,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:50.765Z
+retrieved_at: 2026-04-22T07:35:21.757Z
 content_sha256: aef28aca51ff51860cf265375d3d05a1a6593831a6cba283b230026c31a28ea3
 ---
 |/data/openclaw-openclaw-swissweather|
@@ -678,7 +678,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:51.104Z
+retrieved_at: 2026-04-22T07:35:22.032Z
 content_sha256: dc0310ce7f96d00afd6ba4707c2cd5d300dc1739eafdcf5f62def54e594d6b25
 ---
 |/data/openclaw-openclaw-tax-professional|
@@ -698,7 +698,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:21.671Z
+retrieved_at: 2026-04-22T07:32:03.181Z
 content_sha256: ee459f2b634cf904b14826fa7920b2e5f8d93648219399a67275fa1b9989fdfe
 ---
 |/data/openclaw-openclaw-yahoo-finance|
@@ -718,7 +718,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-21T07:35:51.651Z
+retrieved_at: 2026-04-22T07:35:22.505Z
 content_sha256: 2440ad2094ccc9952419b11435d00dd7e5c9d7e53c100daa42242fb9a9d83d62
 ---
 |/data/openclaw-openclaw-ynab|
@@ -739,7 +739,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:36:11.724Z
+retrieved_at: 2026-04-22T07:35:41.728Z
 content_sha256: c12a553ca38e48f4325c92a94ca58b01e2399550b2c91c4b4000e8d9b6922098
 ---
 |/data/playbook-industry-finance|

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-rankaj",
-  "generated_at": "2026-04-21T07:32:21.372Z",
+  "generated_at": "2026-04-22T07:32:03.042Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-rankaj#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rjnpage/rankaj/SKILL.md",
-        "retrieved_at": "2026-04-21T07:32:21.372Z",
+        "retrieved_at": "2026-04-22T07:32:03.042Z",
         "content_sha256": "b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70"
       }
     }

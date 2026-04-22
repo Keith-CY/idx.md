@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mac-tts",
-  "generated_at": "2026-04-21T07:35:45.719Z",
+  "generated_at": "2026-04-22T07:35:17.409Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mac-tts#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kalijason/mac-tts/SKILL.md",
-        "retrieved_at": "2026-04-21T07:35:45.719Z",
+        "retrieved_at": "2026-04-22T07:35:17.409Z",
         "content_sha256": "eba20b0888c528895b868f187e84be6d6d230b7cd0d5f01f2f10b958fd5f2c74"
       }
     }

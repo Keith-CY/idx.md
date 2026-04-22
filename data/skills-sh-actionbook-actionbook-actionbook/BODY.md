@@ -36,7 +36,7 @@ actionbook man youtube                                     # Alias for manual
 
 ```bash
 actionbook browser start                                   # Start a browser session
-actionbook browser start --set-session-id s1               # Start with a custom session ID
+actionbook browser start --set-session-id s1               # Get-or-create: reuse if Running, create if not (same as --session)
 actionbook browser start --session s1                      # Get-or-create: reuse if exists, create if not
 actionbook browser start --headless                        # Start headless
 actionbook browser start --mode cloud --cdp-endpoint <ws>  # Connect to cloud browser
@@ -49,9 +49,19 @@ actionbook browser start --max-tracked-requests 1000       # Custom network buff
 
 actionbook browser list-sessions                           # List all active sessions (includes max_tracked_requests)
 actionbook browser status --session s1                     # Show session status
-actionbook browser close --session s1                      # Close a session
+actionbook browser close --session s1                      # Close a session (idempotent)
 actionbook browser restart --session s1                    # Restart a session
 ```
+
+`browser close` is **idempotent**: closing an unknown or already-closed session returns `ok: true` with `meta.warnings` instead of a fatal error. Envelope shape for an already-gone session:
+
+- `ok: true`
+- `data: { status: "closed", closed_tabs: 0 }`
+- `meta.warnings: ["session not found in daemon — already closed or daemon restarted"]`
+
+If another close is already in flight for the same session, the command returns `SESSION_CLOSING` (fatal, unchanged). Safe to call unconditionally during cleanup without checking session existence first. Read `meta.warnings` to distinguish a fresh close from an already-gone session.
+
+Both `--session` and `--set-session-id` are get-or-create: they reuse a Running session with the given ID, or create one if not found. `--set-session-id` is a functional alias for `--session`. When reusing, if `--profile` is passed and does not match the session's bound profile, the command fails with `SESSION_PROFILE_MISMATCH` (retryable: false). Omitting `--profile` or passing a matching value allows reuse.
 
 Supported cloud providers: `driver` (`DRIVER_API_KEY`), `hyperbrowser` (`HYPERBROWSER_API_KEY`), `browseruse` (`BROWSER_USE_API_KEY`). `-p` is mutually exclusive with `--cdp-endpoint` and `--mode local/extension`.
 
@@ -132,13 +142,57 @@ actionbook browser upload "<selector>" /path/to/file.pdf --session s1 --tab t1
 actionbook browser eval "document.title" --session s1 --tab t1
 actionbook browser eval "document.querySelectorAll('a').length" --session s1 --tab t1
 actionbook browser eval "await fetch('/api/data').then(r => r.json())" --no-isolate --session s1 --tab t1
+actionbook browser eval --file script.js --session s1 --tab t1
+echo 'document.title' | actionbook browser eval - --session s1 --tab t1
 ```
+
+**eval input sources:** The expression comes from exactly one of three mutually-exclusive sources:
+- **Positional argument** (default): `actionbook browser eval "expr" ...`
+- **`--file <path>`**: read expression from a local file: `actionbook browser eval --file script.js ...`
+- **Stdin (`-`)**: pipe the expression via stdin: `echo 'expr' | actionbook browser eval - ...`
+
+Providing more than one source (or none) returns `EVAL_ARGS_CONFLICT`.
 
 **eval scope isolation:** By default, `eval` wraps `let`/`const` declarations in an isolated scope so they don't leak across calls. Use `--no-isolate` to disable this — needed for multi-statement async expressions or when you want shared scope.
 
-**eval response fields:** Success includes `pre_url`, `pre_origin`, `pre_readyState` (page state before execution) and `post_url`, `post_title` (page state after). On failure, `details` contains `{stage, pre_url, pre_origin, pre_readyState, error_type}` for diagnostics.
+**eval response fields:** Success includes `pre_url`, `pre_origin`, `pre_readyState` (page state before execution) and `post_url`, `post_title` (page state after). On failure, `error.details` contains `{stage, pre_url, pre_origin, pre_readyState, error_type, reason}` plus optional `status`, `content_type`, and `body_head` (≤256 chars, UTF-8 boundary safe) for fetch-related errors.
+
+**eval error codes:** On failure, `error.code` is one of:
+
+| Code | When | Hint | `error.details` extras |
+|------|------|------|------------------------|
+| `EVAL_RUNTIME_ERROR` | JS exception (ReferenceError, TypeError, etc.) | Inspect the expression and referenced variables before retrying | `reason` |
+| `EVAL_CROSS_ORIGIN` | Cross-origin fetch or SecurityError | Use same-origin fetch or proxy the request server-side | `reason` |
+| `EVAL_RESPONSE_NOT_JSON` | `Content-Type` is not JSON when JSON was expected | Check content-type before parsing JSON | `reason`, `status`, `content_type`, `body_head` |
+| `EVAL_RESPONSE_NOT_OK` | HTTP status is not 2xx | Handle non-2xx responses before decoding the body | `reason`, `status`, `content_type`, `body_head` |
+| `EVAL_TIMEOUT` | Expression did not resolve within `--timeout` | Reduce work or raise --timeout | `reason` |
+| `EVAL_ARGS_CONFLICT` | Multiple input sources, or no source at all | Provide exactly one of: positional expression, --file, or stdin (`-`) | `reason` |
+| `EVAL_FILE_NOT_FOUND` | `--file` path unreadable (not found, permission denied, invalid data) | Verify --file points to a readable script path | `reason`, `path` |
+| `EVAL_STDIN_TTY` | Positional `-` but stdin is a terminal (not piped) | Pipe the expression via stdin, e.g. `echo 'expr' \| actionbook browser eval -` | `reason` |
+| `EVAL_STDIN_EMPTY` | Stdin read produced empty or whitespace-only input | Verify the upstream command or pipeline produces output | `reason` |
+
+The first 5 codes are **runtime errors** (after CDP execution). The last 4 are **CLI-layer errors** (before any browser interaction) — they carry `details.stage` and `details.reason` but no page context (`pre_url`, `pre_origin`, etc.).
+
+Read `error.code` to branch on the failure class. For `EVAL_RESPONSE_NOT_OK` and `EVAL_RESPONSE_NOT_JSON`, inspect `error.details.body_head` to distinguish 403 / challenge pages / CORS errors before deciding whether to retry. The `details.reason` field is an observability signal — branch on `error.code`, not on `details.reason`.
 
 **fill vs type:** `fill` clears the field and sets the value directly (like pasting). `type` simulates individual keystrokes and appends to existing content.
+
+**CDP error codes:** Browser commands that interact with elements, navigate, or communicate via CDP return structured error codes on failure. Branch on `error.code`:
+
+| Code | When | Hint | Retryable | `error.details` extras |
+|------|------|------|-----------|------------------------|
+| `CDP_NODE_NOT_FOUND` | DOM node is stale or nonexistent | Call `actionbook browser snapshot` to refresh node references then retry | No | `reason`, `cdp_code` |
+| `CDP_NOT_INTERACTABLE` | Element exists but can't be acted on (no box model) | Scroll it into view, wait for visibility, or dismiss overlays | No | `reason`, `cdp_code` |
+| `CDP_NAV_TIMEOUT` | Navigation or eval timeout | Increase `--timeout` or verify the target URL is reachable | Yes | `reason`, `cdp_code`, `timeout_ms` |
+| `CDP_TARGET_CLOSED` | CDP target closed mid-command (tab navigated away or session torn down) | Start a fresh session or re-attach to the tab | Yes | `reason`, `cdp_code` |
+| `CDP_PROTOCOL_ERROR` | CDP response malformed or missing expected fields (`-32xxx` error codes) | Inspect `details.reason` and `details.cdp_code` for the raw protocol error | No | `reason`, `cdp_code` |
+| `CDP_GENERIC` | CDP error that doesn't match any of the above (transport/parse) | *(no specific remediation)* | No | `reason` |
+
+`CDP_NAV_TIMEOUT` and `CDP_TARGET_CLOSED` are retryable (`error.retryable == true` in the JSON envelope). All other CDP codes require caller intervention before retrying.
+
+When `error.code` is a `CDP_*` code, `error.details` includes `reason` (raw CDP message) and `cdp_code` (upstream CDP numeric code, e.g. `-32000`) when available. Some sites include additional fields like `timeout_ms` for navigation timeouts.
+
+**Legacy `CDP_ERROR`**: Some interaction paths (cookies, screenshots, PDF, etc.) still emit the legacy `CDP_ERROR` code. These are being migrated to the structured `CDP_*` taxonomy (ACT-999).
 
 ## Observation
 
@@ -259,9 +313,16 @@ actionbook browser network har stop --session s1 --tab t1                       
 actionbook browser network har stop --session s1 --tab t1 --out /tmp/trace.har    # Stop and export to custom path
 ```
 
-Recording is per-tab: multiple tabs (or sessions) can record independently at the same time. `har stop` writes a HAR 1.2 JSON file and returns `{ path, count }`. If `--out` is omitted, a timestamped file is created in `~/.actionbook/har/`.
+Recording is per-tab: multiple tabs (or sessions) can record independently at the same time. `har start` accepts `--max-entries N` to set the ring-buffer cap (default: 10000). `har stop` writes a HAR 1.2 JSON file and returns `{ path, count, dropped, max_entries }`. If `--out` is omitted, a timestamped file is created in `~/.actionbook/har/`.
 
 Output contains request/response headers, status, mimeType, and detailed timings per entry. Response bodies are not included — use `network requests --dump` if you need bodies. Redirect chains produce one entry per hop.
+
+**Truncation signal**: When `har stop` completes and entries were dropped due to the ring-buffer cap (`dropped > 0`), the envelope includes:
+- `meta.truncated == true`
+- `meta.warnings` containing `"HAR_TRUNCATED: <N> earlier entries dropped (max_entries=<cap>); raise --max-entries or stop recording sooner to keep the full trace"`
+- `data.max_entries` — the configured cap at stop time
+
+On a clean stop (`dropped == 0`), `meta.truncated` is `false` and `meta.warnings` is empty.
 
 Error codes: `HAR_ALREADY_RECORDING` (start while already recording on that tab), `HAR_NOT_RECORDING` (stop without a prior start). Recording data is held in memory; closing the tab while recording discards it. Cross-origin iframe requests are not captured (v1 limitation).
 
@@ -277,7 +338,7 @@ actionbook browser wait condition "document.readyState === 'complete'" --session
 
 Default timeout for all wait commands: 30000ms. Override with `--timeout <ms>`.
 
-`wait network-idle` uses two modes automatically. **Strict**: zero in-flight requests for 500ms. **Relaxed** (fallback): when pages have persistent background traffic (analytics pings, health-checks), relaxed mode kicks in — requires fewer than 5 new requests in a 10s sliding window with ≤5 pending, sustained for 3s. The response includes `mode` ("strict" or "relaxed") so callers know which condition was satisfied.
+`wait network-idle` is edge-triggered: it only tracks fetch/XHR requests started after the command begins. Pre-existing background connections (SSE, WebSocket, in-flight fetches, analytics pings) are ignored and do not block. This is an agent-friendly settle signal, not a guarantee of global network silence.
 
 ## Cookies
 

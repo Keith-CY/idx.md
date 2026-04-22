@@ -7,10 +7,10 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up or configuring a self-hosted AI agent
-  gateway, connecting messaging channels (Discord, Slack, Telegram, WhatsApp,
-  etc.), managing agent workspaces and sessions, configuring tools and skills,
-  or deploying multi-agent systems with isolated routing and memory.
+  description: Use when deploying a self-hosted multi-channel AI agent gateway,
+  configuring messaging channels (WhatsApp, Telegram, Discord, etc.), managing
+  agent sessions and memory, setting up tools and skills, or controlling who can
+  access the agent.
 
   metadata:
       mintlify-proj: clawdbot
@@ -21,14 +21,14 @@ summary: >-
 
   ## Product summary
 
-  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
-  any OS (macOS, Linux, Windows). It connects your favorite chat apps—Discord,
-  Slack, Telegram, WhatsApp, iMessage, Signal, Matrix, Microsoft Teams, and 15+
-  others—to a single embedded agent runtime. The agent can read/write files,
-  execute commands, browse the web, send messages, and interact with paired
-  mobile devices. Key files: `~/.openclaw/openclaw.json` (config),
-  `~/.openclaw/workspace/` (agent files), `~/.openclaw/agents/` (sessions).
-  Primary CLI: `openclaw`. Primary docs: https://docs.openclaw.ai
+  OpenClaw is a self-hosted gateway that connects AI agents to multiple
+  messaging channels (Discord, WhatsApp, Telegram, Slack, Microsoft Teams,
+  Signal, iMessage, Matrix, and more) simultaneously. Agents run on your
+  hardware with full control over data, configuration, and routing. The gateway
+  manages sessions, memory, tool access, and multi-agent isolation. Key files:
+  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent files),
+  `~/.openclaw/agents/` (sessions). Primary CLI: `openclaw`. Full docs:
+  https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -36,6 +36,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-21T07:32:19.473Z
-content_sha256: 17f15c6e6869b7b692914fad36d3d954a29dd0184df44ac4e88cac2bba85a971
+retrieved_at: 2026-04-22T07:32:01.309Z
+content_sha256: e4ad9bcf0e3c4bb7257bf9ce0b7f0affb7b95ca687b714e72ffac61b2fbd7cbe
 ---

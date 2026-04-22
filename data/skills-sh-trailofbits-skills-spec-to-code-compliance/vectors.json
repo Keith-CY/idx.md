@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-spec-to-code-compliance",
-  "generated_at": "2026-04-21T07:32:32.059Z",
+  "generated_at": "2026-04-22T07:32:12.752Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-spec-to-code-compliance#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/resources/IR_EXAMPLES.md",
-        "retrieved_at": "2026-04-21T07:32:32.059Z",
+        "retrieved_at": "2026-04-22T07:32:12.752Z",
         "content_sha256": "053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec"
       }
     }

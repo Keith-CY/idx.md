@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-web-perf",
-  "generated_at": "2026-04-21T07:34:22.528Z",
+  "generated_at": "2026-04-22T07:33:53.081Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-web-perf#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/elithrar/web-perf/SKILL.md",
-        "retrieved_at": "2026-04-21T07:34:22.528Z",
+        "retrieved_at": "2026-04-22T07:33:53.081Z",
         "content_sha256": "dbb0e6ab3e3565cf49de6b2c3bcd62339aafebb099514ec3c86771a096cd920b"
       }
     }

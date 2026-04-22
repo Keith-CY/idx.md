@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gifgrep",
-  "generated_at": "2026-04-21T07:33:07.292Z",
+  "generated_at": "2026-04-22T07:32:43.506Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gifgrep#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/gifgrep/SKILL.md",
-        "retrieved_at": "2026-04-21T07:33:07.292Z",
+        "retrieved_at": "2026-04-22T07:32:43.506Z",
         "content_sha256": "1cf64ee164ffffac317b7156d0c107cff8714abe4ae6438387cf27d4a513890c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tally",
-  "generated_at": "2026-04-21T07:34:09.435Z",
+  "generated_at": "2026-04-22T07:33:41.389Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tally#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yujesyoga/tally/SKILL.md",
-        "retrieved_at": "2026-04-21T07:34:09.435Z",
+        "retrieved_at": "2026-04-22T07:33:41.389Z",
         "content_sha256": "4466663a89dbc0700a9ad85c36190a55ac1353bed93e014be074bf4aaa59ff13"
       }
     }

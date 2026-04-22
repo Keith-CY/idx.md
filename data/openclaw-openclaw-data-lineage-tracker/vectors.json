@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-data-lineage-tracker",
-  "generated_at": "2026-04-21T07:35:33.452Z",
+  "generated_at": "2026-04-22T07:35:06.075Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-data-lineage-tracker#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/datadrivenconstruction/data-lineage-tracker/SKILL.md",
-        "retrieved_at": "2026-04-21T07:35:33.452Z",
+        "retrieved_at": "2026-04-22T07:35:06.075Z",
         "content_sha256": "45474ee7cbaacf1827512478be134dbd19a4545ff295bd9c3f89dfca6dff2f95"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aulifox",
-  "generated_at": "2026-04-21T07:35:12.742Z",
+  "generated_at": "2026-04-22T07:34:40.901Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aulifox#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ailexminecraft7/aulifox/SKILL.md",
-        "retrieved_at": "2026-04-21T07:35:12.742Z",
+        "retrieved_at": "2026-04-22T07:34:40.901Z",
         "content_sha256": "1a25b2f3216f107631e7d724480a4465307297f872f37c018fce7ca395c0fb10"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kakiyo",
-  "generated_at": "2026-04-21T07:33:18.987Z",
+  "generated_at": "2026-04-22T07:32:54.739Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kakiyo#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cyberboyayush/kakiyo/SKILL.md",
-        "retrieved_at": "2026-04-21T07:33:18.987Z",
+        "retrieved_at": "2026-04-22T07:32:54.739Z",
         "content_sha256": "98409eae67ac476591b12a3363b7316d682bb7b3682a58aa9f40d500823aef89"
       }
     }

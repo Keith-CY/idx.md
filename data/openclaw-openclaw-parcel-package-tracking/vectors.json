@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-parcel-package-tracking",
-  "generated_at": "2026-04-21T07:33:41.144Z",
+  "generated_at": "2026-04-22T07:33:15.251Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-parcel-package-tracking#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/parcel-package-tracking/SKILL.md",
-        "retrieved_at": "2026-04-21T07:33:41.144Z",
+        "retrieved_at": "2026-04-22T07:33:15.251Z",
         "content_sha256": "e7eabca1819e2b9512f13966c46559b9f9a44eda2b4c376b1e61439641584c29"
       }
     }

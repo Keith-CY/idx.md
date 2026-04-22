@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-browser-use-browser-use-browser-use",
-  "generated_at": "2026-04-21T07:36:02.215Z",
+  "generated_at": "2026-04-22T07:35:33.106Z",
   "records": [
     {
       "id": "skills/skills-sh-browser-use-browser-use-browser-use#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/browser-use/browser-use/main/browser_use/skill_cli/README.md",
-        "retrieved_at": "2026-04-21T07:36:02.215Z",
+        "retrieved_at": "2026-04-22T07:35:33.106Z",
         "content_sha256": "8e3582aa18e7d1d2f5e92c0e01ade642af8c50844b7489573f0b55e7aa88a3f8"
       }
     }

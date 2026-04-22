@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-anki-connect",
-  "generated_at": "2026-04-21T07:35:06.058Z",
+  "generated_at": "2026-04-22T07:34:33.550Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-anki-connect#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gyroninja/anki-connect/SKILL.md",
-        "retrieved_at": "2026-04-21T07:35:06.058Z",
+        "retrieved_at": "2026-04-22T07:34:33.550Z",
         "content_sha256": "99e76607782909410001f40616fcaaa5d87649dad5cefe2a60c5821999b3d5c5"
       }
     }

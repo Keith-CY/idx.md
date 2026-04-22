@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-access-control",
-  "generated_at": "2026-04-21T07:34:49.608Z",
+  "generated_at": "2026-04-22T07:34:18.677Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-access-control#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bowen31337/agent-access-control/SKILL.md",
-        "retrieved_at": "2026-04-21T07:34:49.608Z",
+        "retrieved_at": "2026-04-22T07:34:18.677Z",
         "content_sha256": "1c8a95f21f0f06cb1b3337fe2927fa8a9852a697e5ccb6e79fd81fa26ef7e376"
       }
     }

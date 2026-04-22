@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-transcript-to-content",
-  "generated_at": "2026-04-21T07:34:14.543Z",
+  "generated_at": "2026-04-22T07:33:45.959Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-transcript-to-content#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/transcript-to-content/SKILL.md",
-        "retrieved_at": "2026-04-21T07:34:14.543Z",
+        "retrieved_at": "2026-04-22T07:33:45.959Z",
         "content_sha256": "3ec273c22ae4ff586c57be380fef3aa5a4fecb6168d4bd68ee26f86056722cfa"
       }
     }

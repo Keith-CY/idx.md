@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ct-health-guardian",
-  "generated_at": "2026-04-21T07:35:32.495Z",
+  "generated_at": "2026-04-22T07:35:05.181Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ct-health-guardian#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ctsolutionsdev/ct-health-guardian/SKILL.md",
-        "retrieved_at": "2026-04-21T07:35:32.495Z",
+        "retrieved_at": "2026-04-22T07:35:05.181Z",
         "content_sha256": "076ab0e2718391af0de61afefddaa7d70731034dc5467dbe2bdef7cdcfe33a59"
       }
     }

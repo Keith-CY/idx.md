@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ecap-security-auditor",
-  "generated_at": "2026-04-21T07:32:59.586Z",
+  "generated_at": "2026-04-22T07:32:36.721Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ecap-security-auditor#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/starbuck100/ecap-security-auditor/SKILL.md",
-        "retrieved_at": "2026-04-21T07:32:59.586Z",
+        "retrieved_at": "2026-04-22T07:32:36.721Z",
         "content_sha256": "e9d5d15ce4a8d7e3c1dc57c37f0ecd4e1810e59e7cf86423c33ff84746b564d2"
       }
     }
