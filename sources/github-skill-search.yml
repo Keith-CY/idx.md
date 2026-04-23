@@ -8,6 +8,18 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
+  slug: github-skill-0xsero-parchi-parchi-relay
+  source_url: https://raw.githubusercontent.com/0xSero/parchi/master/SKILL.MD
+  title: parchi-relay
+  summary: Use Parchi Relay to control a real browser via the Parchi extension agent (WebSocket) or directly via JSON-RPC from a CLI/tooling workflow.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-0xsero
+    - github-repo-parchi
+  upstream_ref: https://github.com/0xSero/parchi/blob/master/SKILL.MD
+- type: skills
   slug: github-skill-actionbook-rust-skills-m04-zero-cost
   source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
   title: m04-zero-cost
@@ -19,6 +31,30 @@
     - github-owner-actionbook
     - github-repo-rust-skills
   upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zero-cost/SKILL.md
+- type: skills
+  slug: github-skill-agenmod-immortal-skill-immortal-skill
+  source_url: https://raw.githubusercontent.com/agenmod/immortal-skill/main/SKILL.md
+  title: immortal-skill
+  summary: 通用数字永生框架：从聊天记录、社交媒体、文档等多平台数据中蒸馏任何人的数字分身——支持自己、同事、导师、亲人、伴侣/前任、朋友、公众人物 7 种角色模板，接入国内外 12+ 数据平台。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-agenmod
+    - github-repo-immortal-skill
+  upstream_ref: https://github.com/agenmod/immortal-skill/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-agents365-ai-video-podcast-maker-video-podcast-maker
+  source_url: https://raw.githubusercontent.com/Agents365-ai/video-podcast-maker/main/SKILL.md
+  title: video-podcast-maker
+  summary: Use when user provides a topic and wants an automated video podcast created, OR when user wants to learn/analyze video design patterns from reference videos — handles research, script writing, TTS audio synthesis, Remotion video creation, and final MP4 output with background music. Also supports design learning from reference videos (learn command), style profile management, and design reference library. Supports Bilibili, YouTube, Xiaohongshu, Douyin, and WeChat Channels platforms with independent language configuration (zh-CN, en-US).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-agents365-ai
+    - github-repo-video-podcast-maker
+  upstream_ref: https://github.com/Agents365-ai/video-podcast-maker/blob/main/SKILL.md
 - type: skills
   slug: github-skill-agno-agi-agno-git-workflow
   source_url: https://raw.githubusercontent.com/agno-agi/agno/main/cookbook/02_agents/skills/sample_skills/git-workflow/SKILL.md
@@ -1174,6 +1210,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
 - type: skills
+  slug: github-skill-openclaw-skills-zopia-skill
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/lambdua/zopia-skill/SKILL.md
+  title: zopia-skill
+  summary: Zopia AI 视频创作技能 - 通过 Zopia 平台的 AI Agent 进行视频/图片创作。覆盖场景包括：AI 视频生成（文生视频、图生视频）、AI 图片生成（角色设定图、分镜关键帧）、剧本创作（对话/旁白/场景描述）、角色设计、分镜设计、多集连续剧制作。当用户提到 zopia、视频创作、短剧制作、分镜、角色设计、AI 视频生成时应触发。关键判断：只要用户的请求涉及通过 AI 进行系统化的视频创作流程（剧本→角色→分镜→视频），都必须触发此技能。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-openclaw
+    - github-repo-skills
+  upstream_ref: https://github.com/openclaw/skills/blob/main/skills/lambdua/zopia-skill/SKILL.md
+- type: skills
   slug: github-skill-pbakaus-impeccable-colorize
   source_url: https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md
   title: colorize
@@ -1233,6 +1281,18 @@
     - github-owner-resend
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-sharpai-deepcamera-depth-estimation
+  source_url: https://raw.githubusercontent.com/SharpAI/DeepCamera/master/SKILL.md
+  title: depth-estimation
+  summary: Real-time depth map privacy transforms using Depth Anything v2 (CoreML + PyTorch)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sharpai
+    - github-repo-deepcamera
+  upstream_ref: https://github.com/SharpAI/DeepCamera/blob/master/SKILL.md
 - type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
@@ -1294,6 +1354,18 @@
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 - type: skills
+  slug: github-skill-unbrowse-ai-unbrowse-unbrowse
+  source_url: https://raw.githubusercontent.com/unbrowse-ai/unbrowse/stable/SKILL.md
+  title: unbrowse
+  summary: "API-native agent browser powered by Kuri (Zig-native CDP, 464KB, ~3ms cold start). Unbrowse is the intelligence layer — learns internal APIs (shadow APIs) from real browsing traffic and progressively replaces browser calls with cached API routes (<200ms). Three paths: skill cache, shared route graph, or Kuri browser fallback. 3.6x mean speedup over Playwright across 94 domains. Full Kuri API surface exposed (snapshots, ref-based actions, HAR, cookies, DOM, screenshots). Free to capture and index; agents earn from mining routes for other agents."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-unbrowse-ai
+    - github-repo-unbrowse
+  upstream_ref: https://github.com/unbrowse-ai/unbrowse/blob/stable/SKILL.md
+- type: skills
   slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
   source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
   title: vllm-ascend-model-adapter
@@ -1317,6 +1389,18 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-x-cmd-x-cmd-ccal
+  source_url: https://raw.githubusercontent.com/x-cmd/x-cmd/X/mod/ccal/SKILL.md
+  title: ccal
+  summary: Chinese Calendar with Lunar-Solar Conversion
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-calendar-scheduling
+    - github-owner-x-cmd
+    - github-repo-x-cmd
+  upstream_ref: https://github.com/x-cmd/x-cmd/blob/X/mod/ccal/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
