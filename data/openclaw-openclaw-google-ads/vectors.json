@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-ads",
-  "generated_at": "2026-04-22T07:32:45.776Z",
+  "generated_at": "2026-04-23T07:34:57.026Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-ads#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jdrhyne/google-ads/SKILL.md",
-        "retrieved_at": "2026-04-22T07:32:45.776Z",
+        "retrieved_at": "2026-04-23T07:34:57.026Z",
         "content_sha256": "917872794d3786f6db68fb4392bba662f79099fcf98b435cab274615d8d94553"
       }
     }

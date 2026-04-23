@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-sag",
-  "generated_at": "2026-04-22T07:33:30.107Z",
+  "generated_at": "2026-04-23T07:36:35.855Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-sag#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/sag/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:30.107Z",
+        "retrieved_at": "2026-04-23T07:36:35.855Z",
         "content_sha256": "e9a062586db13baf6088c28779bc21b0ca80f0e96628de8fe91d604a934c12bb"
       }
     }

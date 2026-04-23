@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-veo",
-  "generated_at": "2026-04-22T07:33:49.980Z",
+  "generated_at": "2026-04-23T07:37:23.450Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-veo#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/buddyh/veo/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:49.980Z",
+        "retrieved_at": "2026-04-23T07:37:23.450Z",
         "content_sha256": "4161c4c2a8c88046a9fe5b3cbe200a6aad890a09cbd7294ab0ee67d7cdbaeac0"
       }
     }

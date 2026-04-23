@@ -2,7 +2,7 @@
 
 ```sh
 curl -fsSL https://cli.inference.sh | sh
-infsh login
+belt login
 ```
 
 ## What does the installer do?

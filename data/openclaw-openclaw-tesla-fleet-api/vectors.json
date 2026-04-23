@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tesla-fleet-api",
-  "generated_at": "2026-04-22T07:33:43.106Z",
+  "generated_at": "2026-04-23T07:37:06.778Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tesla-fleet-api#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/odrobnik/tesla-fleet-api/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:43.106Z",
+        "retrieved_at": "2026-04-23T07:37:06.778Z",
         "content_sha256": "470e0b1d650bdc6ad448b5f94a67db972536739894ca7608202896a2dc7b749f"
       }
     }

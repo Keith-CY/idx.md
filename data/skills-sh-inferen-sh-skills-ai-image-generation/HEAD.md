@@ -9,7 +9,7 @@ summary: >-
 
   curl -fsSL https://cli.inference.sh | sh
 
-  infsh login
+  belt login
 
   ```
 
@@ -29,6 +29,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/ai-image-generation
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-04-22T07:35:32.847Z
-content_sha256: 1db16252b21ac0a43f2736edc572f290a5d251795706972a0cced0f8615c0e17
+retrieved_at: 2026-04-23T07:41:07.381Z
+content_sha256: 4b4fae9a1332d7ce05bf6b71fc2d5a2cfc4d73531b480d978bf796df169e3682
 ---

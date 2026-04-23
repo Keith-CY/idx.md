@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-admet-prediction",
-  "generated_at": "2026-04-22T07:34:16.180Z",
+  "generated_at": "2026-04-23T07:38:27.602Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-admet-prediction#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/huifer/admet-prediction/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:16.180Z",
+        "retrieved_at": "2026-04-23T07:38:27.602Z",
         "content_sha256": "47ec92f4781b9540dcf59838c6b62ee5ed7e261dfa75009d154e72bd24e29c41"
       }
     }

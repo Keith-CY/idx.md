@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-camino-real-estate",
-  "generated_at": "2026-04-22T07:34:54.301Z",
+  "generated_at": "2026-04-23T07:39:43.105Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-camino-real-estate#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/james-southendsolutions/camino-real-estate/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:54.301Z",
+        "retrieved_at": "2026-04-23T07:39:43.105Z",
         "content_sha256": "787316773c8faf661e21f89dc0184a7c5732dbf9e49fcf71f8bbfc21126d9a5c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-disclawd",
-  "generated_at": "2026-04-22T07:32:35.379Z",
+  "generated_at": "2026-04-23T07:34:32.023Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-disclawd#head",
@@ -19,7 +19,7 @@
           "category-clawdbot-tools"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alexerm/disclawd/SKILL.md",
-        "retrieved_at": "2026-04-22T07:32:35.379Z",
+        "retrieved_at": "2026-04-23T07:34:32.023Z",
         "content_sha256": "e9d69358cb341dfa85afb13627069d11a5ced3efba81d115d6c326d4b81b3640"
       }
     }

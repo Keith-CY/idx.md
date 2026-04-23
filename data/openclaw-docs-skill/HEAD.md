@@ -7,28 +7,30 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying a self-hosted multi-channel AI agent gateway,
-  configuring messaging channels (WhatsApp, Telegram, Discord, etc.), managing
-  agent sessions and memory, setting up tools and skills, or controlling who can
-  access the agent.
+  description: Use when deploying a self-hosted AI agent gateway across
+  messaging channels (Discord, Telegram, WhatsApp, Slack, iMessage, Signal,
+  Matrix, etc.), configuring multi-channel routing, managing agent workspaces
+  and sessions, setting up tools and skills, or troubleshooting gateway
+  operations.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # OpenClaw Skill Reference
+  # OpenClaw Skill
 
   ## Product summary
 
-  OpenClaw is a self-hosted gateway that connects AI agents to multiple
-  messaging channels (Discord, WhatsApp, Telegram, Slack, Microsoft Teams,
-  Signal, iMessage, Matrix, and more) simultaneously. Agents run on your
-  hardware with full control over data, configuration, and routing. The gateway
-  manages sessions, memory, tool access, and multi-agent isolation. Key files:
-  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent files),
-  `~/.openclaw/agents/` (sessions). Primary CLI: `openclaw`. Full docs:
-  https://docs.openclaw.ai
+  OpenClaw is a self-hosted, multi-channel gateway for AI agents that runs on
+  any OS (macOS, Linux, Windows). It connects messaging apps (Discord, Telegram,
+  WhatsApp, Slack, iMessage, Signal, Matrix, Mattermost, Microsoft Teams, Google
+  Chat, Feishu, and more) to a single embedded agent runtime. The agent has
+  access to tools for file I/O, shell execution, web browsing, image/video
+  generation, and device control. Configuration lives in
+  `~/.openclaw/openclaw.json` (JSON5 format). Key CLI: `openclaw onboard`,
+  `openclaw gateway`, `openclaw config`, `openclaw message`, `openclaw
+  channels`. Primary docs: https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -36,6 +38,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-22T07:32:01.309Z
-content_sha256: e4ad9bcf0e3c4bb7257bf9ce0b7f0affb7b95ca687b714e72ffac61b2fbd7cbe
+retrieved_at: 2026-04-23T07:32:55.082Z
+content_sha256: ed04178aa3e6cb0bff7b520e97d7bb6426168b9e774da5335c5417b7ec3bfe4a
 ---

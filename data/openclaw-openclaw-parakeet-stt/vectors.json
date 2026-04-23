@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-parakeet-stt",
-  "generated_at": "2026-04-22T07:33:15.103Z",
+  "generated_at": "2026-04-23T07:36:02.880Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-parakeet-stt#head",
@@ -19,7 +19,7 @@
           "category-speech-transcription"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/carlulsoe/parakeet-stt/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:15.103Z",
+        "retrieved_at": "2026-04-23T07:36:02.880Z",
         "content_sha256": "b7e010a68292d4bfbf8c418a3f822a79c32418e11b398368111a6095f87b93ab"
       }
     }

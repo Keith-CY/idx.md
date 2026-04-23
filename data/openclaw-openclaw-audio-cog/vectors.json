@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-audio-cog",
-  "generated_at": "2026-04-22T07:34:40.182Z",
+  "generated_at": "2026-04-23T07:39:20.860Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-audio-cog#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nitishgargiitd/audio-cog/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:40.182Z",
+        "retrieved_at": "2026-04-23T07:39:20.860Z",
         "content_sha256": "e67020e1f18f1b6b31671634bd9f789462c3431f7298ea365fc1e8a88b177aa7"
       }
     }

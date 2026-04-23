@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-arc-wake-state",
-  "generated_at": "2026-04-22T07:34:37.354Z",
+  "generated_at": "2026-04-23T07:39:16.697Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-arc-wake-state#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/trypto1019/arc-wake-state/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:37.354Z",
+        "retrieved_at": "2026-04-23T07:39:16.697Z",
         "content_sha256": "bed18fc535e6fa44a68c6d4e0459b785a66b4a1c2b2c38180804ceec7a988634"
       }
     }

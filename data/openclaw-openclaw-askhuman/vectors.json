@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-askhuman",
-  "generated_at": "2026-04-22T07:34:39.071Z",
+  "generated_at": "2026-04-23T07:39:19.200Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-askhuman#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hagiss/askhuman/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:39.071Z",
+        "retrieved_at": "2026-04-23T07:39:19.200Z",
         "content_sha256": "440102448dd8671a9c119391349ea90b6f29b172201a3602891ba8f76e94601a"
       }
     }

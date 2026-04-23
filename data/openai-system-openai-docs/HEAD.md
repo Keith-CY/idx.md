@@ -9,10 +9,9 @@ summary: >-
 
   description: "Use when the user asks how to build with OpenAI products or APIs
   and needs up-to-date official documentation with citations, help choosing the
-  latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade
-  guidance; prioritize OpenAI docs MCP tools, use bundled references only as
-  helper context, and restrict any fallback browsing to official OpenAI
-  domains."
+  latest model for a use case, or model upgrade and prompt-upgrade guidance;
+  prioritize OpenAI docs MCP tools, use bundled references only as helper
+  context, and restrict any fallback browsing to official OpenAI domains."
 
   ---
 
@@ -21,10 +20,10 @@ summary: >-
   Provide authoritative, current guidance from OpenAI developer docs using the
   developers.openai.com MCP server. Always prioritize the developer docs MCP
   tools over web.run for OpenAI-related questions. This skill may also load
-  targeted files from `references/` for model-selection and GPT-5.4-specific
-  requests, but current OpenAI docs remain authoritative. Only if the MCP server
-  is installed and returns no meaningful results should you fall back to web
-  search.
+  targeted files from `references/` for model-selection, model-upgrade, and
+  prompt-upgrade requests, but current OpenAI docs remain authoritative. Only if
+  the MCP server is installed and returns no meaningful results should you fall
+  back to web search.
 
   ## Quick start
 
@@ -45,6 +44,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/openai-d
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-22T07:35:25.355Z
-content_sha256: 8d8ed6246315074b8fe51e1251dd3e2ef42e54d8e9dff892c70acf88ab0e4235
+retrieved_at: 2026-04-23T07:40:46.675Z
+content_sha256: b93d0da4fbf0d472c9671237c452be359f675845f281aa2cac0a718264421068
 ---

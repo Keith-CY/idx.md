@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-system-openai-docs",
-  "generated_at": "2026-04-22T07:35:25.355Z",
+  "generated_at": "2026-04-23T07:40:46.675Z",
   "records": [
     {
       "id": "skills/openai-system-openai-docs#head",
       "kind": "head",
       "path": "/data/openai-system-openai-docs/HEAD.md",
-      "text": "title: openai-system-openai-docs\nsummary: --- name: \"openai-docs\" description: \"Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.\" --- # OpenAI Docs Provide authoritative, current guidance from OpenAI developer docs using the developers.openai.com MCP server. Always prioritize the developer docs MCP tools over web.run for OpenAI-related questions. This skill may also load targeted files from `references/` for model-selection and GPT-5.4-specific requests, but current OpenAI docs remain authoritative. Only if the MCP server is installed and returns no meaningful results should you fall back to web search. ## Quick start - Use `mcp__openaiDeveloperDocs__search_openai_docs` to find the most relevant doc pages. - Use `mcp__openaiDeveloperDocs__fetch_openai_doc` to pull exact sections and quote/paraphrase accurately. - Use `mcp__openaiDeveloperDocs__list_openai_docs` only when you need to browse or discover pages without a clear query.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/openai-docs/SKILL.md",
+      "text": "title: openai-system-openai-docs\nsummary: --- name: \"openai-docs\" description: \"Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains.\" --- # OpenAI Docs Provide authoritative, current guidance from OpenAI developer docs using the developers.openai.com MCP server. Always prioritize the developer docs MCP tools over web.run for OpenAI-related questions. This skill may also load targeted files from `references/` for model-selection, model-upgrade, and prompt-upgrade requests, but current OpenAI docs remain authoritative. Only if the MCP server is installed and returns no meaningful results should you fall back to web search. ## Quick start - Use `mcp__openaiDeveloperDocs__search_openai_docs` to find the most relevant doc pages. - Use `mcp__openaiDeveloperDocs__fetch_openai_doc` to pull exact sections and quote/paraphrase accurately. - Use `mcp__openaiDeveloperDocs__list_openai_docs` only when you need to browse or discover pages without a clear query.\ntype: skills\ntags: openai, source-openai-skills\nsource_url: https://raw.githubusercontent.com/openai/skills/main/skills/.system/openai-docs/SKILL.md",
       "metadata": {
         "stable_id": "skills/openai-system-openai-docs",
         "topic": "openai-system-openai-docs",
@@ -18,8 +18,8 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.system/openai-docs/SKILL.md",
-        "retrieved_at": "2026-04-22T07:35:25.355Z",
-        "content_sha256": "8d8ed6246315074b8fe51e1251dd3e2ef42e54d8e9dff892c70acf88ab0e4235"
+        "retrieved_at": "2026-04-23T07:40:46.675Z",
+        "content_sha256": "b93d0da4fbf0d472c9671237c452be359f675845f281aa2cac0a718264421068"
       }
     }
   ]

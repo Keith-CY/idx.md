@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-strava",
-  "generated_at": "2026-04-22T07:33:38.895Z",
+  "generated_at": "2026-04-23T07:36:56.722Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-strava#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bohdanpodvirnyi/strava/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:38.895Z",
+        "retrieved_at": "2026-04-23T07:36:56.722Z",
         "content_sha256": "139ac186dac368e8f2e54055907d002957bc5168d0f31910d69951ffe3fa1a7e"
       }
     }

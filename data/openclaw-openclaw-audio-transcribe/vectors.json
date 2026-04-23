@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-audio-transcribe",
-  "generated_at": "2026-04-22T07:34:40.591Z",
+  "generated_at": "2026-04-23T07:39:21.395Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-audio-transcribe#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aktheknight/audio-transcribe/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:40.591Z",
+        "retrieved_at": "2026-04-23T07:39:21.395Z",
         "content_sha256": "7e56ac6b9cbf8fdaf15f17e6c7b224cd32569d520e8050fc647e4f5024e6292d"
       }
     }

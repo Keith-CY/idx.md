@@ -17,7 +17,7 @@ summary: >-
 
   ```bash
 
-  infsh login
+  belt login
 
   ```
 
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/infsh-cli
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-04-22T07:35:32.937Z
-content_sha256: 65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e
+retrieved_at: 2026-04-23T07:41:07.735Z
+content_sha256: a1458f503127f62288f776577d276171d4f3803493f4886e937379b7a5f4ff7b
 ---

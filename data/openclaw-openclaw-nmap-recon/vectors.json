@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nmap-recon",
-  "generated_at": "2026-04-22T07:33:08.052Z",
+  "generated_at": "2026-04-23T07:35:46.044Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nmap-recon#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nsahal/nmap-recon/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:08.052Z",
+        "retrieved_at": "2026-04-23T07:35:46.044Z",
         "content_sha256": "1be50ce6fe2e9e1824d556e6e206b4c244ff8ccf05ad1b3347e84628f766eb41"
       }
     }

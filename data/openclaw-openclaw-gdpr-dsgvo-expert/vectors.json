@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gdpr-dsgvo-expert",
-  "generated_at": "2026-04-22T07:32:42.462Z",
+  "generated_at": "2026-04-23T07:34:49.593Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gdpr-dsgvo-expert#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/gdpr-dsgvo-expert/SKILL.md",
-        "retrieved_at": "2026-04-22T07:32:42.462Z",
+        "retrieved_at": "2026-04-23T07:34:49.593Z",
         "content_sha256": "56d9cfc84b077a7a8b921d058e99e5208077ef686c718ff9de4cc139c7cf257c"
       }
     }

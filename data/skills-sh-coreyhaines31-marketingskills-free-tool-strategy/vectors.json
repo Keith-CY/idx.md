@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-free-tool-strategy",
-  "generated_at": "2026-04-22T07:35:34.333Z",
+  "generated_at": "2026-04-23T07:41:12.001Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-free-tool-strategy#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/free-tool-strategy/references/tool-types.md",
-        "retrieved_at": "2026-04-22T07:35:34.333Z",
+        "retrieved_at": "2026-04-23T07:41:12.001Z",
         "content_sha256": "3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
       }
     }

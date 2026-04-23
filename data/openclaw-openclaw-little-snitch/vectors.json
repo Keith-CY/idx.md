@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-little-snitch",
-  "generated_at": "2026-04-22T07:32:57.769Z",
+  "generated_at": "2026-04-23T07:35:22.712Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-little-snitch#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/little-snitch/SKILL.md",
-        "retrieved_at": "2026-04-22T07:32:57.769Z",
+        "retrieved_at": "2026-04-23T07:35:22.712Z",
         "content_sha256": "73eb485b3f3e35a39bc9e1fce3cc0ff86a38d9c2681adcb3657c115aa94a1815"
       }
     }

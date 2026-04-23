@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-chat-ux-v1-4-0",
-  "generated_at": "2026-04-22T07:34:20.071Z",
+  "generated_at": "2026-04-23T07:38:36.745Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-chat-ux-v1-4-0#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/maverick-software/agent-chat-ux-v1-4-0/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:20.071Z",
+        "retrieved_at": "2026-04-23T07:38:36.745Z",
         "content_sha256": "4cc5c40f7f9f8659d90ebc107368852ea5cc72933f95e775a61bb2ff513e68b4"
       }
     }

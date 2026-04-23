@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-oura-ring-skill",
-  "generated_at": "2026-04-22T07:33:13.972Z",
+  "generated_at": "2026-04-23T07:36:00.305Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-oura-ring-skill#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/sameerbajaj/oura-ring-skill/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:13.972Z",
+        "retrieved_at": "2026-04-23T07:36:00.305Z",
         "content_sha256": "665c859b80e3d0dd42889251c3dc1a295334c6a73f4aad5089ed3cf2ff097c04"
       }
     }

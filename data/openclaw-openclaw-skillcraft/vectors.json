@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-skillcraft",
-  "generated_at": "2026-04-22T07:33:35.232Z",
+  "generated_at": "2026-04-23T07:36:48.017Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-skillcraft#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jmz1/skillcraft/SKILL.md",
-        "retrieved_at": "2026-04-22T07:33:35.232Z",
+        "retrieved_at": "2026-04-23T07:36:48.017Z",
         "content_sha256": "d2e8a417c2b53b1c2aa9dc517378975323a6b24deace108ee042824517ca3270"
       }
     }

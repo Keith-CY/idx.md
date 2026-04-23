@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-camino-ev-charger",
-  "generated_at": "2026-04-22T07:34:54.139Z",
+  "generated_at": "2026-04-23T07:39:42.734Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-camino-ev-charger#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/james-southendsolutions/camino-ev-charger/SKILL.md",
-        "retrieved_at": "2026-04-22T07:34:54.139Z",
+        "retrieved_at": "2026-04-23T07:39:42.734Z",
         "content_sha256": "fff8ac14573c0fefa63aeea4d3d13368404f82f8c07b7eec523ef332674d815d"
       }
     }

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-inferen-sh-skills-ai-image-generation",
-  "generated_at": "2026-04-22T07:35:32.847Z",
+  "generated_at": "2026-04-23T07:41:07.381Z",
   "records": [
     {
       "id": "skills/skills-sh-inferen-sh-skills-ai-image-generation#head",
       "kind": "head",
       "path": "/data/skills-sh-inferen-sh-skills-ai-image-generation/HEAD.md",
-      "text": "title: skills-sh-inferen-sh-skills-ai-image-generation\nsummary: # Install CLI ```sh curl -fsSL https://cli.inference.sh | sh infsh login ``` ## What does the installer do? The install script detects your OS and architecture, downloads the correct binary from dist.inference.sh, verifies its SHA-256 checksum, and places it in your PATH. That's it — no elevated permissions, no background processes, no telemetry. If you have cosign installed, the installer also verifies the Sigstore signature automatically.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/inference-sh/skills/refs/heads/main/cli-install.md",
+      "text": "title: skills-sh-inferen-sh-skills-ai-image-generation\nsummary: # Install CLI ```sh curl -fsSL https://cli.inference.sh | sh belt login ``` ## What does the installer do? The install script detects your OS and architecture, downloads the correct binary from dist.inference.sh, verifies its SHA-256 checksum, and places it in your PATH. That's it — no elevated permissions, no background processes, no telemetry. If you have cosign installed, the installer also verifies the Sigstore signature automatically.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/inference-sh/skills/refs/heads/main/cli-install.md",
       "metadata": {
         "stable_id": "skills/skills-sh-inferen-sh-skills-ai-image-generation",
         "topic": "skills-sh-inferen-sh-skills-ai-image-generation",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/inference-sh/skills/refs/heads/main/cli-install.md",
-        "retrieved_at": "2026-04-22T07:35:32.847Z",
-        "content_sha256": "1db16252b21ac0a43f2736edc572f290a5d251795706972a0cced0f8615c0e17"
+        "retrieved_at": "2026-04-23T07:41:07.381Z",
+        "content_sha256": "4b4fae9a1332d7ce05bf6b71fc2d5a2cfc4d73531b480d978bf796df169e3682"
       }
     }
   ]
