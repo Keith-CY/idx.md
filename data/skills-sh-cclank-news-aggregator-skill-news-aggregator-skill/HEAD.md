@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/cclank/news-aggregator-skill/news-aggregator-ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:32:52.742Z
+retrieved_at: 2026-04-24T07:34:27.238Z
 content_sha256: 62decab2ad9fbd5966958f01a0de25d2f25d8ccadc0bbf83762a28fc739bbe8d
 ---

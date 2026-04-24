@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bitwarden",
-  "generated_at": "2026-04-23T07:39:31.032Z",
+  "generated_at": "2026-04-24T07:38:15.494Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bitwarden#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/asleep123/bitwarden/SKILL.md",
-        "retrieved_at": "2026-04-23T07:39:31.032Z",
+        "retrieved_at": "2026-04-24T07:38:15.494Z",
         "content_sha256": "407aa8f629c3429e5d09617acd30df974079fdfb2f475d2c2201ca6af3d3804b"
       }
     }

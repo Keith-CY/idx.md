@@ -1,6 +1,6 @@
 ---
 name: blossom-hire
-version: 3.0.0
+version: 3.0.1
 description: Post jobs and hire people, or search for local work and apply. Connects employers and job-seekers via the Blossom marketplace.
 ---
 
@@ -80,6 +80,7 @@ https://hello.blossomai.org/api/v1/blossom/protocol
 | `POST` | `/role` | Bearer | Create / update role(s) |
 | `DELETE` | `/role` | Bearer | Soft-delete role(s) |
 | `POST` | `/ask` | Bearer | Conversational AI endpoint |
+| `POST` | `/image` | Bearer | Upload profile image (person or role) |
 
 ### Session state
 
@@ -149,12 +150,12 @@ If the email already exists → `400`. Do not retry — inform the user.
   "addresses": [
     {
       "id": 0,
-      "houseNumber": "<optional>",
-      "street": "<street>",
-      "area": "<optional>",
-      "city": "<city>",
-      "country": "<country>",
-      "postcode": "<postcode>",
+      "houseNumber": "10",
+      "street": "High Street",
+      "area": "Sherwood",
+      "city": "Nottingham",
+      "country": "GB",
+      "postcode": "NG5 1AA",
       "label": "Work location",
       "isHome": false,
       "isActive": true
@@ -163,7 +164,19 @@ If the email already exists → `400`. Do not retry — inform the user.
 }
 ```
 
-- `id: 0` creates a new address. Set `id` to an existing ID to update.
+| Field | Required | Notes |
+|---|---|---|
+| `id` | yes | `0` to create, existing ID to update |
+| `street` | yes | Street name |
+| `city` | yes | City / town |
+| `country` | yes | ISO 3166-1 alpha-2 code — e.g. `"GB"`, `"US"`, `"AU"`. Server rejects unrecognised codes. |
+| `postcode` | yes | Postal / ZIP code |
+| `label` | yes | User-facing label, e.g. `"Work location"` |
+| `houseNumber` | no | House / building number |
+| `area` | no | Neighbourhood / district |
+| `isHome` | no | Default `false` |
+| `isActive` | no | Default `true` |
+
 - The response includes the address with its assigned `id` — store as `ADDRESS_ID`.
 
 ---
@@ -193,7 +206,7 @@ Cannot delete an address linked to an active role (`409`).
       "id": 0,
       "headline": "<headline>",
       "jobDescription": "<description>",
-      "introduction": "",
+      "introduction": "<short introduction, at least 10 characters>",
       "workingHours": "<when>",
       "salary": <amount>,
       "currencyName": "GBP",
@@ -222,6 +235,7 @@ Cannot delete an address linked to an active role (`409`).
 | `id` | yes | `0` to create, existing ID to update |
 | `headline` | yes | Short title |
 | `jobDescription` | yes | Full description |
+| `introduction` | yes | Short intro text, minimum 10 characters |
 | `workingHours` | yes | e.g. `"Saturday 11am–5pm"` or `"Flexible"` |
 | `salary` | yes | Numeric amount |
 | `paymentFrequency` | yes | `choices` array with one entry, `selectedIndex: 0` |
@@ -232,6 +246,35 @@ Cannot delete an address linked to an active role (`409`).
 | `roleIdentifier` | yes | Unique string, e.g. `"openclaw-" + epochMillis` |
 | `requirements` | no | Screening questions |
 | `benefits` | no | Perks |
+
+**Validation notes**
+
+The backend currently enforces these role validation rules:
+
+| Field | Validation |
+|---|---|
+| `headline` | Required, 5-100 characters |
+| `jobDescription` | Required, 1-500 characters |
+| `introduction` | Required, 10-500 characters |
+| `workingHours` | Required, 1-100 characters |
+| `roleIdentifier` | Required, 1-100 characters |
+| `currencySymbol` | Required, 1-3 characters |
+| `addressId` | Required, whole number `>= 0` |
+| `id` | Required, whole number `>= 0` |
+| `modified` | Required, must be present |
+| `isActive` | Required, boolean |
+| `isRemote` | Required, boolean |
+| `email` | Optional, but if provided it must be a valid email address |
+| `requirements[].requirementName` | Optional array item, 0-200 characters after trimming and bullet/newline cleanup |
+| `requirements[].mandatory` | Optional, but if provided it must be a boolean |
+| `benefits[].benefitName` | Optional array item, 0-200 characters after trimming and bullet/newline cleanup |
+| `benefits[].mandatory` | Optional, but if provided it must be a boolean |
+
+Operational notes for protocol callers:
+
+- New roles still need a valid `addressId`.
+- The docs and examples should always send a non-empty `introduction`.
+- `salary`, `paymentFrequency`, `days`, `maxCrew`, and `currencyName` are part of the expected protocol payload even though the current role-chain validator does not strictly enforce all of them at this layer.
 
 **Response** `201`: The role(s) with assigned IDs.
 
@@ -251,7 +294,44 @@ Every role `id` must belong to the authenticated account (`403` otherwise).
 
 ---
 
-### 6. Ask
+### 6. Upload image
+
+`POST /image` — Bearer auth required. Multipart form-data.
+
+Upload a profile image for the person account or for a specific role. Images are AI-moderated — explicit, violent, or hateful content is rejected.
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `image` | file | yes | jpeg/jpg/png/gif/webp, max 3 MB, one file only |
+| `imageType` | string | yes | `"person"` or `"role"` |
+| `roleId` | number | conditional | Required when `imageType` is `"role"`. Must belong to the authenticated account. Only employer accounts may upload role images. |
+
+**Response** `201`:
+```json
+{
+  "success": true,
+  "filename": "1712937600000-photo.jpg",
+  "imageType": "person",
+  "approved": true,
+  "synopsis": "Nice photo!"
+}
+```
+
+**Rejected** `400`:
+```json
+{
+  "success": false,
+  "approved": false,
+  "reason": "Image did not pass moderation",
+  "synopsis": "Hey \ud83d\ude0a, this image contains content that..."
+}
+```
+
+Rate-limited: 1 upload per 30 seconds per API key.
+
+---
+
+### 7. Ask
 
 `POST /ask` — Bearer auth required.
 

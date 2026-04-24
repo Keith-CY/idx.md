@@ -1,6 +1,6 @@
 ---
 name: agent-chronicle
-version: 0.7.1
+version: 0.7.2
 description: AI-powered diary generation for agents - creates rich, reflective journal entries (400-600 words) with Quote Hall of Fame, Curiosity Backlog, Decision Archaeology, Relationship Evolution, mood analytics, weekly digests, "On This Day" resurfacing, and cron auto-generation. Works best with Claude models (Haiku, Sonnet, Opus).
 metadata: {"openclaw":{"requires":{"bins":["python3"],"note":"No API keys needed. Uses OpenClaw sessions_spawn."}}}
 ---
@@ -91,11 +91,11 @@ Workflow:
 
 1) **Emit a generation task JSON** (context + prompts):
 ```bash
-python3 scripts/generate.py --today --emit-task > /tmp/chronicle-task.json
+python3 scripts/generate.py --today --emit-task > $TMP_DIR/chronicle-task.json
 ```
 
 2) **Spawn a sub-agent** (inside your agent run):
-- Read `/tmp/chronicle-task.json`
+- Read `$TMP_DIR/chronicle-task.json`
 - Use `sessions_spawn` with a task like:
   - system: `task.system`
   - user: `task.prompt`

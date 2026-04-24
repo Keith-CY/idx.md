@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-softaworks-agent-toolkit-react-useeffect",
-  "generated_at": "2026-04-23T07:33:48.859Z",
+  "generated_at": "2026-04-24T07:34:58.317Z",
   "records": [
     {
       "id": "skills/skills-sh-softaworks-agent-toolkit-react-useeffect#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-useeffect/anti-patterns.md",
-        "retrieved_at": "2026-04-23T07:33:48.859Z",
+        "retrieved_at": "2026-04-24T07:34:58.317Z",
         "content_sha256": "69146321260d67972646ba3cc98465d516431f543c4908cc60c2d60886a8dda9"
       }
     }

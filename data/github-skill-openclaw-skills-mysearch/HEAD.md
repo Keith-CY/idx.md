@@ -19,6 +19,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/skernelx/mysea
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:40:59.927Z
+retrieved_at: 2026-04-24T07:39:07.278Z
 content_sha256: e5de6513c1b78150ba5fbf33b3bce2bf8ae3653dc9df51c55a9600aa1ef7c718
 ---

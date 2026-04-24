@@ -2,6 +2,10 @@
 
 `--preset X` expands to a type + style + optional palette combination. Users can override any dimension.
 
+## Default Preset
+
+When content analysis surfaces no strong signal (generic knowledge article, mixed-topic post, no clear data/comparison/narrative cue), recommend **`hand-drawn-edu`** as the primary option in Step 3 Q1. It is the warm, friendly educational-infographic default — safe for most articles and universally readable.
+
 ## By Category
 
 ### Technical & Engineering
@@ -23,7 +27,9 @@
 | `process-flow` | `flowchart` | `notion` | — | Workflow documentation, onboarding flows |
 | `warm-knowledge` | `infographic` | `vector-illustration` | `warm` | Product showcases, team intros, feature cards, brand content |
 | `edu-visual` | `infographic` | `vector-illustration` | `macaron` | Knowledge summaries, concept explainers, educational articles |
-| `hand-drawn-edu` | `flowchart` | `sketch-notes` | `macaron` | Hand-drawn educational diagrams, process explainers, onboarding visuals |
+| `hand-drawn-edu` | `infographic` | `sketch-notes` | `macaron` | **Default preset.** Hand-drawn educational infographic — warm cream paper, black lines, pastel blocks. Great for single-page explainers, concept summaries, onboarding, general knowledge articles |
+| `hand-drawn-edu-flow` | `flowchart` | `sketch-notes` | `macaron` | Hand-drawn process explainer — step-by-step workflow in the same warm educational style |
+| `hand-drawn-edu-compare` | `comparison` | `sketch-notes` | `macaron` | Hand-drawn side-by-side comparison in the warm educational style |
 | `ink-notes-compare` | `comparison` | `ink-notes` | `mono-ink` | Before/After essays, Traditional vs New, OS-style comparisons, mindset-shift narratives |
 | `ink-notes-flow` | `flowchart` | `ink-notes` | `mono-ink` | Professional process explainers, workforce pipelines, hand-drawn technical walkthroughs |
 | `ink-notes-framework` | `framework` | `ink-notes` | `mono-ink` | System analogies, command-center diagrams, architecture-as-metaphor, tech manifestos |
@@ -59,18 +65,19 @@ Use this table during Step 3 to recommend presets based on Step 2 content analys
 
 | Content Type (Step 2) | Primary Preset | Alternatives |
 |------------------------|----------------|--------------|
-| Technical | `tech-explainer` | `system-design`, `architecture` |
-| Tutorial | `tutorial` | `process-flow`, `knowledge-base`, `edu-visual` |
+| **General / No strong signal** | `hand-drawn-edu` | `edu-visual`, `knowledge-base` |
+| Education / Knowledge | `hand-drawn-edu` | `edu-visual`, `knowledge-base`, `tutorial` |
+| Tutorial | `hand-drawn-edu-flow` | `tutorial`, `process-flow`, `hand-drawn-edu` |
+| SaaS / Product | `hand-drawn-edu` | `saas-guide`, `knowledge-base`, `process-flow`, `warm-knowledge` |
+| Technical | `tech-explainer` | `system-design`, `architecture`, `hand-drawn-edu` |
 | Methodology / Framework | `system-design` | `architecture`, `process-flow` |
 | Data / Metrics | `data-report` | `versus`, `tech-explainer` |
-| Comparison / Review | `versus` | `business-compare`, `editorial-poster`, `ink-notes-compare` |
+| Comparison / Review | `versus` | `business-compare`, `hand-drawn-edu-compare`, `editorial-poster`, `ink-notes-compare` |
 | Manifesto / Mindset shift / Professional visual note | `ink-notes-compare` | `ink-notes-framework`, `ink-notes-flow` |
 | Narrative / Personal | `storytelling` | `lifestyle`, `evolution` |
 | Opinion / Editorial | `opinion-piece` | `cinematic`, `editorial-poster` |
 | Historical / Timeline | `history` | `evolution` |
 | Academic / Research | `science-paper` | `tech-explainer`, `data-report` |
-| SaaS / Product | `saas-guide` | `knowledge-base`, `process-flow`, `warm-knowledge` |
-| Education / Knowledge | `edu-visual` | `knowledge-base`, `tutorial`, `hand-drawn-edu` |
 
 ## Override Examples
 

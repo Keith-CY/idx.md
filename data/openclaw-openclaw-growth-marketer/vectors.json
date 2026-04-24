@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-growth-marketer",
-  "generated_at": "2026-04-23T07:35:00.023Z",
+  "generated_at": "2026-04-24T07:35:38.380Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-growth-marketer#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/growth-marketer/SKILL.md",
-        "retrieved_at": "2026-04-23T07:35:00.023Z",
+        "retrieved_at": "2026-04-24T07:35:38.380Z",
         "content_sha256": "4532ff5871381dc0263eebe734a174e2845fc45a07f60ab7be47dc1008bbec0c"
       }
     }

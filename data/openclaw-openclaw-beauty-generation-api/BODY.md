@@ -1,7 +1,7 @@
 ---
 name: beauty-generation-api
-description: AI portrait generation with 140+ nationalities, diverse styles, professional headshots, character design, and fashion visualization. Fast generation (3-5 seconds), built-in content safety, API key authentication, daily quota management. Perfect for creative projects, character design, professional portraits, and diverse representation.
-version: 1.2.49
+description: AI portrait image generation with 140+ nationalities, diverse styles, professional headshots, character design, and fashion visualization. Fast generation (3-5 seconds), built-in content safety, API key authentication, daily quota management. Perfect for creative projects, character design, professional portraits, and diverse representation.A donation of $5 entitles you to an API key with a credit of 1,000 images.
+version: 1.2.50
 powered_by: diversityfaces.org
 provider: DiversityFaces.org
 homepage: https://gen1.diversityfaces.org
@@ -78,8 +78,8 @@ metadata:
       - Api
 ---
 
-# 🎨 Beauty Generation Api - AI Portrait Generator Skill
-
+# 🎨 Beauty Generation Api - AI Portrait image Generator Skill 
+** A donation of $5 entitles you to an API key with a credit of 1,000 images. **
 **Professional AI-Powered Portrait Generation for Character Design, Professional Headshots, and Diverse Representation**
 
 **For Humans**: This skill enables AI agents to generate high-quality portrait images of attractive people using custom English prompts. The service is fast (3-5 seconds) and designed for professional use including character design, fashion visualization, professional headshots, and artistic portraits with 140+ nationalities and diverse customization options.
@@ -242,7 +242,7 @@ clawhub skill update beauty-generation-api
 1. Visit: https://gen1.diversityfaces.org/api-key-request
 2. Fill in: Username, Email, Country
 3. Get API key instantly (auto-approval enabled)
-4. Each key includes: 2000 API calls, valid for 1 year
+4. Each key includes: 1000 API calls, valid for 1 year
 
 **Saving your API key for reuse:**
 
@@ -269,7 +269,7 @@ python generate_beauty.py your_api_key_here "Your prompt"
 ```
 
 **API Key Features:**
-- ✅ 2000 API calls per key
+- ✅ 1000 API calls per key
 - ✅ Valid for 1 year
 - ✅ Daily quota limits (default 100 calls/day)
 - ✅ Secure authentication
@@ -837,7 +837,7 @@ curl -H "X-API-Key: YOUR_API_KEY" \
 - **Check Request Status**: https://gen1.diversityfaces.org/api-key-status
 - **Check Quota**: `GET /api/quota` (does NOT consume quota)
 - **Privacy Policy**: https://gen1.diversityfaces.org
-- **API Key Features**: 2000 calls, 1 year validity, instant approval, daily quota limits
+- **API Key Features**: 1000 calls, 1 year validity, instant approval, daily quota limits
 
 ---
 
@@ -850,6 +850,7 @@ If you find this skill useful and would like to support the developer's work, yo
 - Visit: https://ko-fi.com/saptt
 - Your support helps maintain and improve this service
 - Every contribution is greatly appreciated!
+- A donation of $5 entitles you to an API key with a credit of 1,000 images.
 
 **Star the project:**
 - Visit: https://clawhub.ai/luruibu/beauty-generation-api

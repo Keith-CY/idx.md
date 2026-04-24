@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.119
+
+  - `excludeDynamicSections` now keeps static auto-memory instructions in the
+  cacheable system-prompt block; only the per-user memory directory path and
+  per-machine environment values are relocated to the first user message
+
+  - Long-running SDK sessions now reconnect claude.ai-proxied MCP servers after
+  a transport-stream abort
+
+  - `SessionStore.append()` failures are now retried up to 3 times with short
+  backoff before the batch is dropped and `mirror_error` is emitted
+
   ## 0.2.118
 
   - Added `Options.managedSettings` for embedders to pass policy-tier settings
@@ -15,14 +27,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.117
 
   ## 0.2.116
-
-  - Updated to parity with Claude Code v2.1.116
-
-  ## 0.2.115
-
-  - Updated to parity with Claude Code v2.1.115
-
-  ## 0.2.114
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:33:34.597Z
-content_sha256: 3e02317f2de20bea84409a5c21f2d3d4488988c2944411194d9e068494b5a9e6
+retrieved_at: 2026-04-24T07:34:50.075Z
+content_sha256: ea2ef7741f8f550bdb1b330f893b444fb7518f875d5bc142b809fd32dc32e89d
 ---

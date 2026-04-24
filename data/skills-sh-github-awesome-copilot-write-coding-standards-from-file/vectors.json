@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-write-coding-standards-from-file",
-  "generated_at": "2026-04-23T07:41:21.669Z",
+  "generated_at": "2026-04-24T07:39:19.204Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-write-coding-standards-from-file#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/lowRISC/style-guides/master/VerilogCodingStyle.md",
-        "retrieved_at": "2026-04-23T07:41:21.669Z",
+        "retrieved_at": "2026-04-24T07:39:19.204Z",
         "content_sha256": "57869e2f133aa0db840c9562134cbbfaef457137c4a72f5bbf9ec44b6e672170"
       }
     }

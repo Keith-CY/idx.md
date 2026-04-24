@@ -13,14 +13,16 @@ summary: >-
 
   |------------|---------|----------|
 
+  | `hand-drawn` | sketch-notes | **Default.** Warm cream paper, black
+  hand-drawn lines, pastel blocks — educational infographics, concept
+  explainers, onboarding, general knowledge articles |
+
   | `vector` | vector-illustration | Knowledge articles, tutorials, tech content
   |
 
   | `minimal-flat` | notion | General, knowledge sharing, SaaS |
 
   | `sci-fi` | blueprint | AI, frontier tech, system design |
-
-  | `hand-drawn` | sketch/warm | Relaxed, reflective, casual content |
 
   | `editorial` | editorial | Processes, data, journalism |
 tags:
@@ -32,6 +34,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:32:57.175Z
-content_sha256: 80605dbfb34adb1a6450724ea2232f85d3a38e0a8a9fb3017b9863e32fdde526
+retrieved_at: 2026-04-24T07:34:30.524Z
+content_sha256: f11809de146dd728d7878e5992f11b46d925c7bd659538022a302d2282931f9a
 ---

@@ -5,6 +5,9 @@ metadata:
   openclaw:
     emoji: "💎"
     os: [darwin, linux, windows]
+    requires:
+      bins: [python3]
+      env: [CELLCOG_API_KEY]
 author: CellCog
 homepage: https://cellcog.ai
 dependencies: [cellcog]

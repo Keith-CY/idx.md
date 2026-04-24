@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-slack-commands-draft-announcement",
-  "generated_at": "2026-04-23T07:33:47.512Z",
+  "generated_at": "2026-04-24T07:34:57.490Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-slack-commands-draft-announcement#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/draft-announcement.md",
-        "retrieved_at": "2026-04-23T07:33:47.512Z",
+        "retrieved_at": "2026-04-24T07:34:57.490Z",
         "content_sha256": "bdffe9b4a5c73dc588fd730a46d8ecf152c6c617201b2fdf21a7a0e37820f333"
       }
     }

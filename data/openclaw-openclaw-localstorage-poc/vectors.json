@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-localstorage-poc",
-  "generated_at": "2026-04-23T07:35:24.509Z",
+  "generated_at": "2026-04-24T07:35:53.067Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-localstorage-poc#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/orlyjamie/localstorage-poc/SKILL.md",
-        "retrieved_at": "2026-04-23T07:35:24.509Z",
+        "retrieved_at": "2026-04-24T07:35:53.067Z",
         "content_sha256": "6a1fefbe18ea544e95e8f86a141019d35e1f4e3b918ce0c4cb7840603bcd6fb1"
       }
     }

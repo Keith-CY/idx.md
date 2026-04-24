@@ -6,15 +6,15 @@ Simplified style tier for quick selection:
 
 | Core Style | Maps To | Best For |
 |------------|---------|----------|
+| `hand-drawn` | sketch-notes | **Default.** Warm cream paper, black hand-drawn lines, pastel blocks — educational infographics, concept explainers, onboarding, general knowledge articles |
 | `vector` | vector-illustration | Knowledge articles, tutorials, tech content |
 | `minimal-flat` | notion | General, knowledge sharing, SaaS |
 | `sci-fi` | blueprint | AI, frontier tech, system design |
-| `hand-drawn` | sketch/warm | Relaxed, reflective, casual content |
 | `editorial` | editorial | Processes, data, journalism |
 | `scene` | warm/watercolor | Narratives, emotional, lifestyle |
 | `poster` | screen-print | Opinion, editorial, cultural, cinematic |
 
-Use Core Styles for most cases. See full Style Gallery below for granular control.
+Use Core Styles for most cases. **When no strong content signal is detected, default to `hand-drawn` (→ sketch-notes).** See full Style Gallery below for granular control.
 
 ---
 
@@ -50,48 +50,60 @@ Full specifications: `references/styles/<style>.md`
 
 ## Type × Style Compatibility Matrix
 
-| | vector-illustration | notion | warm | minimal | blueprint | watercolor | elegant | editorial | scientific | screen-print |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| infographic | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ |
-| scene | ✓ | ✓ | ✓✓ | ✓ | ✗ | ✓✓ | ✓ | ✓ | ✗ | ✓✓ |
-| flowchart | ✓✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✗ | ✓ | ✓✓ | ✓ | ✗ |
-| comparison | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓ |
-| framework | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✓ |
-| timeline | ✓ | ✓✓ | ✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓ |
+| | sketch-notes | vector-illustration | notion | warm | minimal | blueprint | watercolor | elegant | editorial | scientific | screen-print |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| infographic | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ |
+| scene | ✗ | ✓ | ✓ | ✓✓ | ✓ | ✗ | ✓✓ | ✓ | ✓ | ✗ | ✓✓ |
+| flowchart | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✗ | ✓ | ✓✓ | ✓ | ✗ |
+| comparison | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓ | ✓ |
+| framework | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓✓ | ✓✓ | ✗ | ✓✓ | ✓ | ✓✓ | ✓ |
+| timeline | ✓ | ✓ | ✓✓ | ✓ | ✓ | ✓ | ✓✓ | ✓✓ | ✓✓ | ✓ | ✓ |
 
 ✓✓ = highly recommended | ✓ = compatible | ✗ = not recommended
 
 ## Auto Selection by Type
 
+When no content signal matches strongly, `sketch-notes` is the default primary for every diagrammatic type. Only override with another primary when the content analysis in Step 2 surfaces a clear signal (technical/data/narrative/opinion).
+
 | Type | Primary Style | Secondary Styles |
 |------|---------------|------------------|
-| infographic | vector-illustration | notion, blueprint, editorial |
+| infographic | sketch-notes | vector-illustration, notion, blueprint, editorial |
 | scene | warm | watercolor, elegant |
-| flowchart | vector-illustration | notion, blueprint |
-| comparison | vector-illustration | notion, elegant |
-| framework | blueprint | vector-illustration, notion |
-| timeline | elegant | warm, editorial |
+| flowchart | sketch-notes | vector-illustration, notion, blueprint |
+| comparison | sketch-notes | vector-illustration, notion, elegant |
+| framework | sketch-notes | blueprint, vector-illustration, notion |
+| timeline | elegant | sketch-notes, warm, editorial |
 
 ## Auto Selection by Content Signals
 
 | Content Signals | Recommended Type | Recommended Style |
 |-----------------|------------------|-------------------|
+| **(no strong signal / general article)** | **infographic** | **sketch-notes** |
+| Knowledge, concept, tutorial, learning, guide, onboarding | infographic | sketch-notes, vector-illustration, notion |
+| Productivity, SaaS, tool, app, software | infographic | sketch-notes, notion, vector-illustration |
+| How-to, steps, workflow, process, tutorial | flowchart | sketch-notes, vector-illustration, notion |
 | API, metrics, data, comparison, numbers | infographic | blueprint, vector-illustration |
-| Knowledge, concept, tutorial, learning, guide | infographic | vector-illustration, notion |
-| Tech, AI, programming, development, code | infographic | vector-illustration, blueprint |
-| How-to, steps, workflow, process, tutorial | flowchart | vector-illustration, notion |
-| Framework, model, architecture, principles | framework | blueprint, vector-illustration |
-| vs, pros/cons, before/after, alternatives | comparison | vector-illustration, notion |
+| Tech, AI, programming, development, code | infographic | vector-illustration, blueprint, sketch-notes |
+| Framework, model, architecture, principles | framework | blueprint, vector-illustration, sketch-notes |
+| vs, pros/cons, before/after, alternatives | comparison | vector-illustration, notion, sketch-notes |
 | Manifesto, mindset shift, workforce, OS, whiteboard, professional visual note | comparison / framework | ink-notes |
 | Story, emotion, journey, experience, personal | scene | warm, watercolor |
 | History, timeline, progress, evolution | timeline | elegant, warm |
-| Productivity, SaaS, tool, app, software | infographic | notion, vector-illustration |
 | Business, professional, strategy, corporate | framework | elegant |
 | Opinion, editorial, culture, philosophy, cinematic, dramatic, poster | scene | screen-print |
 | Biology, chemistry, medical, scientific | infographic | scientific |
 | Explainer, journalism, magazine, investigation | infographic | editorial |
 
 ## Style Characteristics by Type
+
+### infographic + sketch-notes (default)
+- Warm cream paper background, black hand-drawn lines with slight wobble
+- 2–6 rounded pastel info boxes (light blue / mint / lavender / peach)
+- Bold hand-lettered title at the top
+- Short keyword labels, simple icons, small doodles (stars, underlines, sparkles)
+- One-line hand-lettered takeaway sentence at the bottom
+- Airy, minimal, diagram-style — never realistic
+- Perfect for single-page educational explainers and concept summaries
 
 ### infographic + vector-illustration
 - Clean flat vector shapes, bold geometric forms

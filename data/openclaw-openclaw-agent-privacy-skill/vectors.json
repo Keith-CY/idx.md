@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-privacy-skill",
-  "generated_at": "2026-04-23T07:38:43.616Z",
+  "generated_at": "2026-04-24T07:37:47.778Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-privacy-skill#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/se7enhvn/agent-privacy-skill/SKILL.md",
-        "retrieved_at": "2026-04-23T07:38:43.616Z",
+        "retrieved_at": "2026-04-24T07:37:47.778Z",
         "content_sha256": "02a9dcbe9996a9786b867c956c7815970c382b9afa629de3064e151914317d94"
       }
     }

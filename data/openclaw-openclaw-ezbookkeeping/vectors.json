@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ezbookkeeping",
-  "generated_at": "2026-04-23T07:40:15.270Z",
+  "generated_at": "2026-04-24T07:38:41.996Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ezbookkeeping#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mayswind/ezbookkeeping/SKILL.md",
-        "retrieved_at": "2026-04-23T07:40:15.270Z",
+        "retrieved_at": "2026-04-24T07:38:41.996Z",
         "content_sha256": "ad8dceb1852ae3026fa5d28fbd4f4d204d8350e53d61c2cbf877d75e019feda0"
       }
     }

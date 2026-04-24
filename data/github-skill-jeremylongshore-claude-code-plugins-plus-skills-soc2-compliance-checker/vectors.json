@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker",
-  "generated_at": "2026-04-23T07:40:53.581Z",
+  "generated_at": "2026-04-24T07:39:03.445Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md",
-        "retrieved_at": "2026-04-23T07:40:53.581Z",
+        "retrieved_at": "2026-04-24T07:39:03.445Z",
         "content_sha256": "a3fc062feffc0b2a0683c9d9736f60ce293dbf649c7aeb68d9d6814756b70875"
       }
     }

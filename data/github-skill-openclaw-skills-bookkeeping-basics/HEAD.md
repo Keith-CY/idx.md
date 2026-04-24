@@ -22,6 +22,6 @@ upstream_ref: https://github.com/openclaw/skills/blob/main/skills/jk-0001/bookke
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:40:57.043Z
+retrieved_at: 2026-04-24T07:39:05.567Z
 content_sha256: 7fcf42d37641d113c018d11f21d8faa27655cc0aca428df9fd9d2afd15dc2e93
 ---

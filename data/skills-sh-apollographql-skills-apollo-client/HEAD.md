@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-client
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:38:03.830Z
-content_sha256: f339ad6a06907be5f66cf034cda9bd78de4e4d79315c9a93faf366974f161cc9
+retrieved_at: 2026-04-24T07:37:25.398Z
+content_sha256: a7de0b5949ce0fef044942ac4d7409bbd6f7738a453deb99a04acc12b219bedd
 ---

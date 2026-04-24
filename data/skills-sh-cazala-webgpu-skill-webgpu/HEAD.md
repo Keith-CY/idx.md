@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/cazala/webgpu-skill/webgpu
 github_stars: 10
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-04-23T07:33:30.592Z
+retrieved_at: 2026-04-24T07:34:47.936Z
 content_sha256: 44cd05656c416b86a9c9b023e9955feaf4eebb35e45cb99bb8a5715422cc3872
 ---

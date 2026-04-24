@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors",
-  "generated_at": "2026-04-23T07:40:52.837Z",
+  "generated_at": "2026-04-24T07:39:03.128Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md",
-        "retrieved_at": "2026-04-23T07:40:52.837Z",
+        "retrieved_at": "2026-04-24T07:39:03.128Z",
         "content_sha256": "945ba848b0b2024c543dc42816eb110d1bc208a2701681431c5f81fab7045e5f"
       }
     }

@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/googleworkspace/cli/gws-drive
 github_stars: 21821
 github_forks: 1033
 github_is_organization: true
-retrieved_at: 2026-04-23T07:41:18.391Z
+retrieved_at: 2026-04-24T07:39:17.663Z
 content_sha256: 7ffd4bdffab870e3aab8b9081b60d485dc5d0bb7f6e6524ee84100a630f84595
 ---

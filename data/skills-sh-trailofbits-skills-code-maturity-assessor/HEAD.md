@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/code-maturity-assessor
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-23T07:38:08.590Z
+retrieved_at: 2026-04-24T07:37:28.125Z
 content_sha256: 0ffe131842b209de7910cc2ac77fc1e2cdea1e16455bfba79505c8ba8179009f
 ---

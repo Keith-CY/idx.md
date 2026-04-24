@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-blogwatcher",
-  "generated_at": "2026-04-23T07:39:32.977Z",
+  "generated_at": "2026-04-24T07:38:16.565Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-blogwatcher#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/steipete/blogwatcher/SKILL.md",
-        "retrieved_at": "2026-04-23T07:39:32.977Z",
+        "retrieved_at": "2026-04-24T07:38:16.565Z",
         "content_sha256": "c22cd0c2c61891df92e3fb18a3ec5952cbffd5d1e06455cde78753e0cc8d3e32"
       }
     }
