@@ -7,6 +7,9 @@ summary: >-
 
   ## 0.2.119
 
+  - Added `forwardSubagentText` option to stream subagent text deltas to SDK
+  consumers
+
   - `excludeDynamicSections` now keeps static auto-memory instructions in the
   cacheable system-prompt block; only the per-user memory directory path and
   per-machine environment values are relocated to the first user message
@@ -25,8 +28,6 @@ summary: >-
   ## 0.2.117
 
   - Updated to parity with Claude Code v2.1.117
-
-  ## 0.2.116
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-24T07:34:50.075Z
-content_sha256: ea2ef7741f8f550bdb1b330f893b444fb7518f875d5bc142b809fd32dc32e89d
+retrieved_at: 2026-04-25T07:29:25.027Z
+content_sha256: 1f59aa05c98e1aeb152681b037ed38a9cd84e469118922d49bf469628acdead9
 ---

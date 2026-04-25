@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ggshield-scanner",
-  "generated_at": "2026-04-24T07:35:33.685Z",
+  "generated_at": "2026-04-25T07:29:49.866Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ggshield-scanner#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amascia-gg/ggshield-scanner/SKILL.md",
-        "retrieved_at": "2026-04-24T07:35:33.685Z",
+        "retrieved_at": "2026-04-25T07:29:49.866Z",
         "content_sha256": "0a45cc9eda447baf8cbe523201168bcf9dab70eba2cd121999283dab160bd828"
       }
     }

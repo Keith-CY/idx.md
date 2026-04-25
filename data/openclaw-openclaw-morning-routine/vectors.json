@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-morning-routine",
-  "generated_at": "2026-04-24T07:36:01.304Z",
+  "generated_at": "2026-04-25T07:30:06.842Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-morning-routine#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/morning-routine/SKILL.md",
-        "retrieved_at": "2026-04-24T07:36:01.304Z",
+        "retrieved_at": "2026-04-25T07:30:06.842Z",
         "content_sha256": "d5619bb0ca6de2aea84fec4878b67bdfe0ebe1a0a4ca71f79289b055bd402f6b"
       }
     }

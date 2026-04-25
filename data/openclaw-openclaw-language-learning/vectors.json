@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-language-learning",
-  "generated_at": "2026-04-24T07:35:49.939Z",
+  "generated_at": "2026-04-25T07:29:59.891Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-language-learning#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chipagosfinest/language-learning/SKILL.md",
-        "retrieved_at": "2026-04-24T07:35:49.939Z",
+        "retrieved_at": "2026-04-25T07:29:59.891Z",
         "content_sha256": "bb9b988f3423308577acf60cbd22b7e734f64ba6960b96f0b36fce426f160fed"
       }
     }

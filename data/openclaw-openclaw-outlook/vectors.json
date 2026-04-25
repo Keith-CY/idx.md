@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-outlook",
-  "generated_at": "2026-04-24T07:36:14.488Z",
+  "generated_at": "2026-04-25T07:30:14.337Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-outlook#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jotamed/outlook/SKILL.md",
-        "retrieved_at": "2026-04-24T07:36:14.488Z",
+        "retrieved_at": "2026-04-25T07:30:14.337Z",
         "content_sha256": "b50fec118666e0b8f1864795c5c9387e313d2231d7dcea5395fa24810a48e4a4"
       }
     }

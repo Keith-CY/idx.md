@@ -19,11 +19,10 @@ summary: >-
 
   Provide authoritative, current guidance from OpenAI developer docs using the
   developers.openai.com MCP server. Always prioritize the developer docs MCP
-  tools over web.run for OpenAI-related questions. This skill may also load
-  targeted files from `references/` for model-selection, model-upgrade, and
-  prompt-upgrade requests, but current OpenAI docs remain authoritative. Only if
-  the MCP server is installed and returns no meaningful results should you fall
-  back to web search.
+  tools over web.run for OpenAI-related questions. This skill also owns model
+  selection, API model migration, and prompt-upgrade guidance. Only if the MCP
+  server is installed and returns no meaningful results should you fall back to
+  web search.
 
   ## Quick start
 
@@ -44,6 +43,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/openai-d
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-24T07:38:59.883Z
-content_sha256: b93d0da4fbf0d472c9671237c452be359f675845f281aa2cac0a718264421068
+retrieved_at: 2026-04-25T07:31:54.741Z
+content_sha256: 1941a2fa1d815f9fa46efbe410df4dbb57092e22140e768c085c4bedba859fa3
 ---

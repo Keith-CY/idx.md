@@ -2,6 +2,7 @@
 
 ## 0.2.119
 
+- Added `forwardSubagentText` option to stream subagent text deltas to SDK consumers
 - `excludeDynamicSections` now keeps static auto-memory instructions in the cacheable system-prompt block; only the per-user memory directory path and per-machine environment values are relocated to the first user message
 - Long-running SDK sessions now reconnect claude.ai-proxied MCP servers after a transport-stream abort
 - `SessionStore.append()` failures are now retried up to 3 times with short backoff before the batch is dropped and `mirror_error` is emitted

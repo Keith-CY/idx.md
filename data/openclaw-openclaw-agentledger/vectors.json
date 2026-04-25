@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentledger",
-  "generated_at": "2026-04-24T07:35:01.888Z",
+  "generated_at": "2026-04-25T07:29:30.774Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentledger#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/c-goro/agentledger/SKILL.md",
-        "retrieved_at": "2026-04-24T07:35:01.888Z",
+        "retrieved_at": "2026-04-25T07:29:30.774Z",
         "content_sha256": "a86dd0f5da6435181382f9993df8b108c6efff06220ff2034f58a71992985e7e"
       }
     }

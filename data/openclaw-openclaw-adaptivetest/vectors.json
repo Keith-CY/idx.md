@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adaptivetest",
-  "generated_at": "2026-04-24T07:37:37.611Z",
+  "generated_at": "2026-04-25T07:31:05.381Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adaptivetest#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/woodstocksoftware/adaptivetest/SKILL.md",
-        "retrieved_at": "2026-04-24T07:37:37.611Z",
+        "retrieved_at": "2026-04-25T07:31:05.381Z",
         "content_sha256": "4cf01ba89832ea1310fe6c0397fbf3c30a45296d01d6bfd9aada9fecc52f9a37"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-buy-anything",
-  "generated_at": "2026-04-24T07:38:20.714Z",
+  "generated_at": "2026-04-25T07:31:32.342Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-buy-anything#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tsyvic/buy-anything/SKILL.md",
-        "retrieved_at": "2026-04-24T07:38:20.714Z",
+        "retrieved_at": "2026-04-25T07:31:32.342Z",
         "content_sha256": "3994b4acfc89ce5ac90bd2c3792fce0bf7b8395dcf21a433341aa7f9523e15f1"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-donotify-voice-call-reminder",
-  "generated_at": "2026-04-24T07:38:38.315Z",
+  "generated_at": "2026-04-25T07:31:42.365Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-donotify-voice-call-reminder#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/micahele/donotify-voice-call-reminder/SKILL.md",
-        "retrieved_at": "2026-04-24T07:38:38.315Z",
+        "retrieved_at": "2026-04-25T07:31:42.365Z",
         "content_sha256": "edc184652365dc343715f72494e95b0eeddc3eb05c4dabf5285af0bf6b3ccf33"
       }
     }

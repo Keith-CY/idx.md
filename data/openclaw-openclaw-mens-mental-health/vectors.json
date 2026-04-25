@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mens-mental-health",
-  "generated_at": "2026-04-24T07:35:56.688Z",
+  "generated_at": "2026-04-25T07:30:03.956Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mens-mental-health#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/mens-mental-health/SKILL.md",
-        "retrieved_at": "2026-04-24T07:35:56.688Z",
+        "retrieved_at": "2026-04-25T07:30:03.956Z",
         "content_sha256": "296dc9a8e419b8c5edea38601b11701a184ff67715a8974e6a0d4c1e9d38096b"
       }
     }

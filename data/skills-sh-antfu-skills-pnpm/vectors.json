@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-pnpm",
-  "generated_at": "2026-04-24T07:34:46.424Z",
+  "generated_at": "2026-04-25T07:29:22.767Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-pnpm#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md",
-        "retrieved_at": "2026-04-24T07:34:46.424Z",
+        "retrieved_at": "2026-04-25T07:29:22.767Z",
         "content_sha256": "44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543"
       }
     }

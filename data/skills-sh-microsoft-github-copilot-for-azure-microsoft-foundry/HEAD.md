@@ -6,8 +6,8 @@ summary: >-
   # Foundry Agent Deploy
 
   Create and manage agent deployments in Azure AI Foundry. For hosted agents,
-  this includes the full workflow from containerizing the project to starting
-  the agent container.
+  this includes the full workflow from containerizing the project to verifying
+  the deployed agent.
 
   ## Quick Reference
 
@@ -15,16 +15,16 @@ summary: >-
 
   |----------|-------|
 
-  | Agent types | Prompt (LLM-based), Hosted (ACA based), Hosted (vNext) |
+  | Agent types | Prompt (LLM-based), Hosted |
 
   | MCP server | `azure` |
 
-  | Key MCP tools | `agent_update`, `agent_container_control`,
-  `agent_container_status_get` |
+  | Key Foundry MCP tools | `agent_definition_schema_get`, `agent_update`,
+  `agent_get` |
 
   | CLI tools | `docker`, `az acr` (hosted agents only) |
 
-  | Container protocols | `a2a`, `responses`, `mcp` |
+  | Container protocols | `a2a`, `responses`, `invocations`, `mcp` |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-fou
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-04-24T07:39:11.580Z
-content_sha256: 293de40b0c4eb713222b8cd51930613502c251121140bf4c69ef58925a4b5d31
+retrieved_at: 2026-04-25T07:32:01.172Z
+content_sha256: af38883d9c16998d378e0d8c71a682fc411608e2f486bdb312457b82124b9d50
 ---

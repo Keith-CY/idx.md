@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-shadcn-ui-shadcn",
-  "generated_at": "2026-04-24T07:39:12.998Z",
+  "generated_at": "2026-04-25T07:32:02.118Z",
   "records": [
     {
       "id": "skills/skills-sh-shadcn-ui-shadcn#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/shadcn/ui/HEAD/skills/shadcn/rules/styling.md",
-        "retrieved_at": "2026-04-24T07:39:12.998Z",
+        "retrieved_at": "2026-04-25T07:32:02.118Z",
         "content_sha256": "4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7"
       }
     }

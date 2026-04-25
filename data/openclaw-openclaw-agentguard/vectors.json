@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentguard",
-  "generated_at": "2026-04-24T07:37:53.148Z",
+  "generated_at": "2026-04-25T07:31:15.596Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentguard#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/manas-io-ai/agentguard/SKILL.md",
-        "retrieved_at": "2026-04-24T07:37:53.148Z",
+        "retrieved_at": "2026-04-25T07:31:15.596Z",
         "content_sha256": "76724e501a7ea5ad7e2b4507ee3f07a0992dd626020a53a3c3ed834c8b496ea3"
       }
     }

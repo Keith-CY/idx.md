@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-noir-developer",
-  "generated_at": "2026-04-24T07:36:06.553Z",
+  "generated_at": "2026-04-25T07:30:09.463Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-noir-developer#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jp4g/noir-developer/SKILL.md",
-        "retrieved_at": "2026-04-24T07:36:06.553Z",
+        "retrieved_at": "2026-04-25T07:30:09.463Z",
         "content_sha256": "e87f5a3cd6dac426e7bf72d9c0a69d51584e189b797acb96b07f2b49a30f9619"
       }
     }

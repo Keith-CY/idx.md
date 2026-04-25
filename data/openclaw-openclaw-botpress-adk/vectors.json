@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-botpress-adk",
-  "generated_at": "2026-04-24T07:35:07.686Z",
+  "generated_at": "2026-04-25T07:29:34.077Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-botpress-adk#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/yueranlu/botpress-adk/SKILL.md",
-        "retrieved_at": "2026-04-24T07:35:07.686Z",
+        "retrieved_at": "2026-04-25T07:29:34.077Z",
         "content_sha256": "244f081db6cc8df312e23840fe542483d9684dcb03cb23abacee49ce563afe44"
       }
     }
