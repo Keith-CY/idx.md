@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-security-monitor",
-  "generated_at": "2026-04-25T07:30:28.012Z",
+  "generated_at": "2026-04-26T07:33:52.570Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-security-monitor#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/chandrasekar-r/security-monitor/SKILL.md",
-        "retrieved_at": "2026-04-25T07:30:28.012Z",
+        "retrieved_at": "2026-04-26T07:33:52.570Z",
         "content_sha256": "ff2c622ba0707d6d1a28c70cee77b33ee78807b8ddc52f3351892a1fcbf098b6"
       }
     }

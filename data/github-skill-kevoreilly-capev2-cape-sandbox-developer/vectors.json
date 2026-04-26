@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-kevoreilly-capev2-cape-sandbox-developer",
-  "generated_at": "2026-04-25T07:31:56.839Z",
+  "generated_at": "2026-04-26T07:37:01.271Z",
   "records": [
     {
       "id": "skills/github-skill-kevoreilly-capev2-cape-sandbox-developer#head",
@@ -21,7 +21,7 @@
           "github-repo-capev2"
         ],
         "source_url": "https://raw.githubusercontent.com/kevoreilly/CAPEv2/master/SKILLS.md",
-        "retrieved_at": "2026-04-25T07:31:56.839Z",
+        "retrieved_at": "2026-04-26T07:37:01.271Z",
         "content_sha256": "4e1a25951a698c4a157214082fa2e8f61d6bb3a3e87343a0e8424737b08a880e"
       }
     }

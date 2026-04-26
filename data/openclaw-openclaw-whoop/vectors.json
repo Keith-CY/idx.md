@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-whoop",
-  "generated_at": "2026-04-25T07:30:47.400Z",
+  "generated_at": "2026-04-26T07:34:33.170Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-whoop#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/whoop/SKILL.md",
-        "retrieved_at": "2026-04-25T07:30:47.400Z",
+        "retrieved_at": "2026-04-26T07:34:33.170Z",
         "content_sha256": "43a9e184cdc8c22253d2634018fd42dfea1d2ce01851362f46e3d9f9266112b2"
       }
     }

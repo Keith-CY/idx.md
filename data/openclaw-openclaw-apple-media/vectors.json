@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apple-media",
-  "generated_at": "2026-04-25T07:31:22.926Z",
+  "generated_at": "2026-04-26T07:35:46.734Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apple-media#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronn/apple-media/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:22.926Z",
+        "retrieved_at": "2026-04-26T07:35:46.734Z",
         "content_sha256": "367bb3a98bc8eee413e21034a5c3f619852aaa9dd017949438348c07e30e19a6"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adcp-advertising",
-  "generated_at": "2026-04-25T07:31:05.598Z",
+  "generated_at": "2026-04-26T07:35:10.363Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adcp-advertising#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/edyyy62/adcp-advertising/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:05.598Z",
+        "retrieved_at": "2026-04-26T07:35:10.363Z",
         "content_sha256": "153117c450abeee23c3ff234750cf49c18ec71e8f9a70726dbf955533d0eaaf6"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-metrics-osiris",
-  "generated_at": "2026-04-25T07:31:11.718Z",
+  "generated_at": "2026-04-26T07:35:23.335Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-metrics-osiris#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nantes/agent-metrics-osiris/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:11.718Z",
+        "retrieved_at": "2026-04-26T07:35:23.335Z",
         "content_sha256": "aba743092fb607aba7813482ed7c1294d27ca77df28be29d6ca91b28a1be7106"
       }
     }

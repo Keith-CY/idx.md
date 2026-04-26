@@ -7,10 +7,11 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when deploying and managing a self-hosted AI agent gateway,
-  configuring multi-channel messaging (Discord, Slack, Telegram, WhatsApp,
-  etc.), setting up agent workspaces and sessions, controlling tool access, or
-  troubleshooting gateway operations
+  description: Use when setting up, configuring, or operating a self-hosted AI
+  agent gateway. Reach for this skill when deploying OpenClaw across messaging
+  channels (Discord, Slack, Telegram, WhatsApp, etc.), configuring agent
+  workspaces and tools, managing multi-agent routing, or troubleshooting gateway
+  operations.
 
   metadata:
       mintlify-proj: clawdbot
@@ -21,14 +22,13 @@ summary: >-
 
   ## Product summary
 
-  OpenClaw is a self-hosted gateway that connects AI agents to multiple
-  messaging channels (Discord, Slack, Telegram, WhatsApp, iMessage, Signal,
-  Matrix, and more) with a single Gateway process. Agents run in isolated
-  workspaces with session management, tool access control, and multi-agent
-  routing. The primary config file is `~/.openclaw/openclaw.json` (JSON5
-  format). Key CLI commands: `openclaw onboard` (setup), `openclaw gateway`
-  (service control), `openclaw config` (configuration), `openclaw dashboard`
-  (web UI). Primary docs: https://docs.openclaw.ai
+  OpenClaw is a self-hosted gateway that connects AI agents to messaging apps
+  and channels. It runs a single embedded agent runtime with workspace-based
+  configuration, session management, and multi-channel delivery. Key files:
+  `~/.openclaw/openclaw.json` (config), `~/.openclaw/workspace/` (agent files),
+  `~/.openclaw/agents/` (sessions). Primary CLI: `openclaw` with subcommands for
+  setup, config, messaging, and operations. Primary docs:
+  https://docs.openclaw.ai
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -36,6 +36,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-25T07:29:14.398Z
-content_sha256: 0f1edaa9d467624a1ce18f4434c886c032285eaf81f225b9c4da9df872db136b
+retrieved_at: 2026-04-26T07:31:09.271Z
+content_sha256: 705704e44665e3160de9d4430d8bd54ce13003228e6e09a7f0b896461f459eb3
 ---

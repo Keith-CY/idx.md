@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-helpscout",
-  "generated_at": "2026-04-25T07:29:53.736Z",
+  "generated_at": "2026-04-26T07:32:41.415Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-helpscout#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/fabiensebban/helpscout/SKILL.md",
-        "retrieved_at": "2026-04-25T07:29:53.736Z",
+        "retrieved_at": "2026-04-26T07:32:41.415Z",
         "content_sha256": "0e70e98e3733b03aa2ed9203e7f8c2987e5bdbbe26506af083af8111920bfa27"
       }
     }

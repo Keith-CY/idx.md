@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-btc15-prediction-market",
-  "generated_at": "2026-04-25T07:31:32.139Z",
+  "generated_at": "2026-04-26T07:36:05.803Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-btc15-prediction-market#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kamal-sutra/btc15-prediction-market/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:32.139Z",
+        "retrieved_at": "2026-04-26T07:36:05.803Z",
         "content_sha256": "dda092c562ffc1ea25c1109d2f6ad8a6d47c1dbe555caf47c09340dd9ab4bebb"
       }
     }

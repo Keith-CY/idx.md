@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-snow-report",
-  "generated_at": "2026-04-25T07:30:31.730Z",
+  "generated_at": "2026-04-26T07:34:00.579Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-snow-report#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/davemorin/snow-report/SKILL.md",
-        "retrieved_at": "2026-04-25T07:30:31.730Z",
+        "retrieved_at": "2026-04-26T07:34:00.579Z",
         "content_sha256": "fdc70caa1d7147f6ae957d26695f00381dc6ea29496e66a778f90ebe90cb7202"
       }
     }

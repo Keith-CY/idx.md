@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-browsh",
-  "generated_at": "2026-04-25T07:29:34.630Z",
+  "generated_at": "2026-04-26T07:32:00.003Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-browsh#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/browsh/SKILL.md",
-        "retrieved_at": "2026-04-25T07:29:34.630Z",
+        "retrieved_at": "2026-04-26T07:32:00.003Z",
         "content_sha256": "24db613bf79de40329b5a4634cd7566f9bda17975dc2c993e23148fd8be84268"
       }
     }

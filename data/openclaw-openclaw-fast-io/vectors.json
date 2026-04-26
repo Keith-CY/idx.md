@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-fast-io",
-  "generated_at": "2026-04-25T07:31:44.906Z",
+  "generated_at": "2026-04-26T07:36:33.337Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-fast-io#head",
@@ -19,7 +19,7 @@
           "category-self-hosted-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dbalve/fast-io/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:44.906Z",
+        "retrieved_at": "2026-04-26T07:36:33.337Z",
         "content_sha256": "1136585d4e35758d11ffa590aa75eeaa486528d7668332c0b3df8078dd74a1ef"
       }
     }

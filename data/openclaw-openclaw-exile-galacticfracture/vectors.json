@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-exile-galacticfracture",
-  "generated_at": "2026-04-25T07:29:46.030Z",
+  "generated_at": "2026-04-26T07:32:24.739Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-exile-galacticfracture#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dantunes-github/exile-galacticfracture/SKILL.md",
-        "retrieved_at": "2026-04-25T07:29:46.030Z",
+        "retrieved_at": "2026-04-26T07:32:24.739Z",
         "content_sha256": "851859f939947e214279f1812fbf569fec34771098b77af3c960332cde03280c"
       }
     }

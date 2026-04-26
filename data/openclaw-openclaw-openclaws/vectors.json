@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-openclaws",
-  "generated_at": "2026-04-25T07:30:13.193Z",
+  "generated_at": "2026-04-26T07:33:22.331Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-openclaws#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/amoghacloud/openclaws/SKILL.md",
-        "retrieved_at": "2026-04-25T07:30:13.193Z",
+        "retrieved_at": "2026-04-26T07:33:22.331Z",
         "content_sha256": "f879237afc94eba03df58b91ee3b7f64d40050284ee60414c98553bb35d0141a"
       }
     }

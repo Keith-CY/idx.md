@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-4todo",
-  "generated_at": "2026-04-25T07:31:01.518Z",
+  "generated_at": "2026-04-26T07:35:02.416Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-4todo#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/blackstorm/4todo/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:01.518Z",
+        "retrieved_at": "2026-04-26T07:35:02.416Z",
         "content_sha256": "d4df7be349011741e18c07a71edbf26d675ab74d98e87c1ef02f82161b90bebe"
       }
     }

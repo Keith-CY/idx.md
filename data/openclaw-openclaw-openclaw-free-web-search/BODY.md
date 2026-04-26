@@ -1,58 +1,84 @@
 ---
-name: cross-validated-search
-version: "16.0.0"
+name: zero-api-key-web-search
+version: "18.0.0"
 description: >
-  OpenClaw skill for source-backed web search, page reading, and evidence-aware claim checking.
-  Use it to verify factual answers with live search results and explicit source handling.
-homepage: https://github.com/wd041216-bit/cross-validated-search
+  Zero-API-key free web search, browsing, and claim verification for AI agents.
+  No API keys required. 100% free. Designed to reduce hallucination risk by
+  surfacing corroborating and conflicting sources.
+homepage: https://github.com/wd041216-bit/zero-api-key-web-search
+platforms:
+  - claude-code
+  - cursor
+  - copilot
+  - gemini
+  - manus
+  - continue
+  - kiro
+  - opencode
+  - codex
+  - openclaw
+  - mcp
+  - cli
 ---
 
-# Cross-Validated Search for OpenClaw
+# Zero-API-Key Web Search
 
-This skill gives OpenClaw a practical verification workflow:
-
-- `search-web` for live search results
-- `browse-page` for reading the full content of a source
-- `verify-claim` for support/conflict classification
-- `evidence-report` for a citation-ready summary with next steps
+Use this skill when a task needs live search results, source-backed verification, or full-page reading. No API keys required. 100% free.
 
 ## Install
 
 ```bash
-pip install cross-validated-search
+pip install zero-api-key-web-search
 ```
 
-## Minimum verification
+For Claude Code, the repository also ships `.claude/skills/zero-api-key-web-search/SKILL.md`.
+For Manus-style Agent Skills workflows, use this root `SKILL.md` plus [docs/manus.md](docs/manus.md).
+
+## Core Commands
 
 ```bash
-search-web "OpenAI API pricing" --type news --timelimit w
-verify-claim "Python 3.13 is the latest stable release" --deep --max-pages 2 --json
-evidence-report "Python 3.13 stable release" --claim "Python 3.13 is the latest stable release" --deep --json
+zero-search "latest Python release" --type news --timelimit w
+zero-browse "https://docs.python.org/3/whatsnew/"
+zero-verify "Python 3.13 is the latest stable release" --json
+zero-report "Python 3.13 stable release" --claim "Python 3.13 is the latest stable release" --deep --json
 ```
 
-## Recommended flow
+Legacy aliases: `zero-search`, `zero-browse`, `zero-verify`, `zero-report`.
 
-1. Run `search-web` for factual or recent questions.
-2. Use `browse-page` on the most relevant source when snippets are not enough.
-3. Use `verify-claim` when a concrete claim needs a support/conflict summary.
-4. Use `evidence-report` when you want a compact evidence package with citations and next steps.
-5. Use `--deep` when the claim matters enough to justify page-aware verification.
-6. Cite the returned URLs in the final answer.
+## When to Use
 
-## What success looks like
+- facts, versions, releases, dates, or statistics
+- recent or time-sensitive questions
+- claim checking with citations
+- compact evidence reports with citation-ready source digests
+- tasks where conflicting sources should be surfaced instead of hidden
+- free dual-provider verification with `ddgs + self-hosted searxng`
 
-- the verdict is explicit
-- the result includes support and conflict scores
-- `page_aware` is true when deep verification ran
-- the recommended free path is `ddgs + self-hosted searxng`
-- source URLs are ready to cite
+## Operating Guidance
+
+- Treat `zero-verify` as a first-pass evidence classifier, not a proof engine.
+- Prefer `zero-report` when you need a single artifact that combines verdict, citations, and next steps.
+- Prefer `zero-search --type news` for recent events.
+- Use `zero-browse` when snippets are too thin to justify an answer.
+- Cite URLs for factual claims.
+- If support and conflict are both present, present the disagreement rather than collapsing it.
+
+## Compatibility Names
+
+- Repository: `zero-api-key-web-search`
+- Package: `zero-api-key-web-search`
+- Module: `zero_api_key_web_search`
+- CLI: `zero-search`, `zero-browse`, `zero-verify`, `zero-report`
+- MCP: `zero-mcp`
+- Legacy aliases: `search-web`, `browse-page`, `verify-claim`, `evidence-report`, `cross-validated-search-mcp`, `free-web-search-mcp`
+- Legacy modules: `free_web_search`, `zero_api_key_web_search_compat`
 
 ## Limits
 
-- `verify-claim` is heuristic and evidence-aware, not a proof engine.
-- The default provider path is `ddgs`.
-- The recommended free upgrade path is self-hosted `searxng` via `CROSS_VALIDATED_SEARCH_SEARXNG_URL`.
-- Conflicting sources are surfaced, not automatically reconciled.
+- Default provider diversity is limited because the default path uses `ddgs`.
+- The recommended free upgrade path is self-hosted `searxng` via `ZERO_SEARCH_SEARXNG_URL`.
+- Scoring is heuristic and depends on returned snippets.
+- TLS verification is enabled by default; insecure mode requires an explicit environment variable.
 
 ## License
 

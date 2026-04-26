@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-ai-headshot-generation",
-  "generated_at": "2026-04-25T07:31:17.862Z",
+  "generated_at": "2026-04-26T07:35:35.927Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-ai-headshot-generation#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/eftalyurtseven/ai-headshot-generation/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:17.862Z",
+        "retrieved_at": "2026-04-26T07:35:35.927Z",
         "content_sha256": "339092c4ea879322ff818a6d756e0e410536432413f2efe0f5cd5edbc3a92c18"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-book-reader",
-  "generated_at": "2026-04-25T07:31:30.258Z",
+  "generated_at": "2026-04-26T07:36:01.914Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-book-reader#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/josharsh/book-reader/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:30.258Z",
+        "retrieved_at": "2026-04-26T07:36:01.914Z",
         "content_sha256": "984bb9b36e34cd7e9ff3e81757e42ed9bb59707eb26b34753e4951d41f0e5747"
       }
     }

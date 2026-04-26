@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apple-find-my-local",
-  "generated_at": "2026-04-25T07:31:22.637Z",
+  "generated_at": "2026-04-26T07:35:46.060Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apple-find-my-local#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/loganprit/apple-find-my-local/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:22.637Z",
+        "retrieved_at": "2026-04-26T07:35:46.060Z",
         "content_sha256": "54a8a5f860d7991b53c730cafc673657304ea7a77293b20e5f0b77383751a5d5"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-change-pdf-permissions",
-  "generated_at": "2026-04-25T07:31:34.506Z",
+  "generated_at": "2026-04-26T07:36:10.731Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-change-pdf-permissions#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crossservicesolutions/change-pdf-permissions/SKILL.md",
-        "retrieved_at": "2026-04-25T07:31:34.506Z",
+        "retrieved_at": "2026-04-26T07:36:10.731Z",
         "content_sha256": "411834aa725380d1a767b8dce56296ddec09028d8f6ec9c0ffaff48e0fdc6b02"
       }
     }

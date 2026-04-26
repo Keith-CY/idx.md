@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-babyconnect",
-  "generated_at": "2026-04-25T07:29:33.450Z",
+  "generated_at": "2026-04-26T07:31:57.348Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-babyconnect#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kesslerio/babyconnect/SKILL.md",
-        "retrieved_at": "2026-04-25T07:29:33.450Z",
+        "retrieved_at": "2026-04-26T07:31:57.348Z",
         "content_sha256": "ebf55f1494f9caab236d320ab5062e2ec2c3ff0d63e6d2fb1c5fcd7db1c852a1"
       }
     }
