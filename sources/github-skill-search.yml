@@ -8,6 +8,18 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
+  slug: github-skill-a5c-ai-babysitter-five-s-auditor
+  source_url: https://raw.githubusercontent.com/a5c-ai/babysitter/main/library/specializations/domains/science/industrial-engineering/skills/five-s-auditor/SKILL.md
+  title: five-s-auditor
+  summary: 5S workplace organization audit skill with scoring, photo documentation, and sustainability tracking.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-a5c-ai
+    - github-repo-babysitter
+  upstream_ref: https://github.com/a5c-ai/babysitter/blob/main/library/specializations/domains/science/industrial-engineering/skills/five-s-auditor/SKILL.md
+- type: skills
   slug: github-skill-actionbook-rust-skills-m04-zero-cost
   source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
   title: m04-zero-cost
@@ -475,6 +487,18 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-configure
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/mcp/slack-channel/skills/configure/SKILL.md
+  title: configure
+  summary: Configure Slack channel tokens (bot token + app-level token)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/mcp/slack-channel/skills/configure/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md
   title: ideogram-common-errors
@@ -682,6 +706,18 @@
     - github-owner-kyegomez
     - github-repo-swarms
   upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
+- type: skills
+  slug: github-skill-laravel-agent-skills-configure-nightwatch
+  source_url: https://raw.githubusercontent.com/laravel/agent-skills/main/laravel-nightwatch/skills/configure-nightwatch/SKILL.md
+  title: configure-nightwatch
+  summary: Configures Laravel Nightwatch data collection, sampling rates, filtering rules, and redaction policies. Use when setting up Nightwatch, managing data volume, protecting sensitive data (PII), or optimizing event collection for production workloads.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-laravel
+    - github-repo-agent-skills
+  upstream_ref: https://github.com/laravel/agent-skills/blob/main/laravel-nightwatch/skills/configure-nightwatch/SKILL.md
 - type: skills
   slug: github-skill-lobehub-lobehub-data-fetching
   source_url: https://raw.githubusercontent.com/lobehub/lobehub/canary/.agents/skills/data-fetching/SKILL.md
@@ -1174,6 +1210,21 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
 - type: skills
+  slug: github-skill-oss-apps-split-pro-find-docs
+  source_url: https://raw.githubusercontent.com/oss-apps/split-pro/main/.opencode/skills/find-docs/SKILL.md
+  title: find-docs
+  summary: |-
+    Retrieves up-to-date documentation, API references, and code examples for any developer technology. Use this skill whenever the user asks about a specific library, framework, SDK, CLI tool, or cloud service -- even for well-known ones like React, Next.js, Prisma, Express, Tailwind, Django, or Spring Boot. Your training data may not reflect recent API changes or version updates.
+    Always use for: API syntax questions, configuration options, version migration issues, "how do I" questions mentioning a library name, debugging that involves library-specific behavior, setup instructions, and CLI tool usage.
+    Use even when you think you know the answer -- do not rely on training data for API details, signatures, or configuration options as they are frequently outdated. Always verify against current docs. Prefer this over web search for library documentation and API details.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-oss-apps
+    - github-repo-split-pro
+  upstream_ref: https://github.com/oss-apps/split-pro/blob/main/.opencode/skills/find-docs/SKILL.md
+- type: skills
   slug: github-skill-pbakaus-impeccable-colorize
   source_url: https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md
   title: colorize
@@ -1258,6 +1309,18 @@
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/outlook-calendar-automation/SKILL.md
 - type: skills
+  slug: github-skill-sickn33-antigravity-awesome-skills-python-performance-optimization
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/plugins/antigravity-awesome-skills/skills/python-performance-optimization/SKILL.md
+  title: python-performance-optimization
+  summary: Profile and optimize Python code using cProfile, memory profilers, and performance best practices. Use when debugging slow Python code, optimizing bottlenecks, or improving application performance.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sickn33
+    - github-repo-antigravity-awesome-skills
+  upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/plugins/antigravity-awesome-skills/skills/python-performance-optimization/SKILL.md
+- type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-upstash-qstash
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md
   title: upstash-qstash
@@ -1269,6 +1332,18 @@
     - github-owner-sickn33
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/upstash-qstash/SKILL.md
+- type: skills
+  slug: github-skill-star23-day1global-skills-btc-bottom-model
+  source_url: https://raw.githubusercontent.com/star23/Day1Global-Skills/main/btc-bottom-model/SKILL.md
+  title: btc-bottom-model
+  summary: Bitcoin cycle timing model with weighted scoring system. Tracks 13 indicators across 2 categories — Daily Pulse (4 indicators, 32 points) and Weekly Structure (9 indicators, 68 points) — producing a composite 0-100 Market Heat Score. Covers ETF flows, funding rate, long/short ratio, fear & greed index, LTH-MVRV, NUPL, SOPR (LTH + STH), LTH supply %, moving average multiples (365d MA, 200w MA), weekly RSI, and volume trends. Provides both buy AND sell recommendations across the full market cycle. Use this skill when users mention Bitcoin bottom-fishing, BTC cycle position, whether to buy or sell BTC, on-chain metrics, MVRV, NUPL, SOPR, LTH behavior, ETF inflows/outflows, funding rates, fear index, whether Bitcoin is overheated, miner cost, crypto market sentiment, BTC position sizing, or any question like "Should I buy Bitcoin now?" or "Is BTC topping out?" or "What do on-chain indicators say?"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-star23
+    - github-repo-day1global-skills
+  upstream_ref: https://github.com/star23/Day1Global-Skills/blob/main/btc-bottom-model/SKILL.md
 - type: skills
   slug: github-skill-tencentblueking-bk-bcs-node-js
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
@@ -1294,6 +1369,18 @@
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 - type: skills
+  slug: github-skill-tractorjuice-arc-kit-arckit-fr-marche-public
+  source_url: https://raw.githubusercontent.com/tractorjuice/arc-kit/main/arckit-codex/skills/arckit-fr-marche-public/SKILL.md
+  title: arckit-fr-marche-public
+  summary: "[COMMUNITY] Generate French public procurement documentation aligned with code de la commande publique, UGAP catalogue, and DINUM digital standards"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-tractorjuice
+    - github-repo-arc-kit
+  upstream_ref: https://github.com/tractorjuice/arc-kit/blob/main/arckit-codex/skills/arckit-fr-marche-public/SKILL.md
+- type: skills
   slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
   source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
   title: vllm-ascend-model-adapter
@@ -1317,6 +1404,18 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-webiny-webiny-js-webiny-skill-generator
+  source_url: https://raw.githubusercontent.com/webiny/webiny-js/next/.claude/skills/skills-generator/SKILL.md
+  title: webiny-skill-generator
+  summary: "Generate, update, and maintain abstraction catalogs from the Webiny platform's public API. Use this skill whenever you need to: scan the `webiny` package to discover exported EventHandlers and UseCases, regenerate catalog JSON files after a platform release, check which abstractions are available, or add support for a new abstraction type."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-webiny
+    - github-repo-webiny-js
+  upstream_ref: https://github.com/webiny/webiny-js/blob/next/.claude/skills/skills-generator/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
