@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-marketing-psychology",
-  "generated_at": "2026-04-26T07:33:00.144Z",
+  "generated_at": "2026-04-27T07:48:43.859Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-marketing-psychology#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jchopard69/marketing-skills/references/marketing-psychology/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:00.144Z",
+        "retrieved_at": "2026-04-27T07:48:43.859Z",
         "content_sha256": "793332c9374bc4c28f23590e01bff5e5730ff5900ef2c8ffbc9ba4337a1a9f5d"
       }
     }

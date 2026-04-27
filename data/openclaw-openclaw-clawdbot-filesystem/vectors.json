@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawdbot-filesystem",
-  "generated_at": "2026-04-26T07:32:05.114Z",
+  "generated_at": "2026-04-27T07:47:33.631Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawdbot-filesystem#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gtrusler/clawdbot-filesystem/SKILL.md",
-        "retrieved_at": "2026-04-26T07:32:05.114Z",
+        "retrieved_at": "2026-04-27T07:47:33.631Z",
         "content_sha256": "c36367f5492e8eec4c6e0d4a977a714786f72611f8d8ddd693aa0eaef2b07149"
       }
     }

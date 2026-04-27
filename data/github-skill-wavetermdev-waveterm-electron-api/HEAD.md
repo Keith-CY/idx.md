@@ -16,6 +16,6 @@ upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-26T07:37:08.202Z
+retrieved_at: 2026-04-27T07:54:08.258Z
 content_sha256: 53b5f9666ec2ac61b8f3cf08e554ddf611b751e28795a84dd34f91fd20939203
 ---

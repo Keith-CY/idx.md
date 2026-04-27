@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mcp-applemusic",
-  "generated_at": "2026-04-26T07:36:43.220Z",
+  "generated_at": "2026-04-27T07:53:36.188Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mcp-applemusic#head",
@@ -19,7 +19,7 @@
           "category-media-streaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/epheterson/mcp-applemusic/SKILL.md",
-        "retrieved_at": "2026-04-26T07:36:43.220Z",
+        "retrieved_at": "2026-04-27T07:53:36.188Z",
         "content_sha256": "06012f4b3aae8899e9cb550885d62688d21fbadf7618ad0cef2c29f559969eb1"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-analytics",
-  "generated_at": "2026-04-26T07:35:16.464Z",
+  "generated_at": "2026-04-27T07:51:42.449Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-analytics#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dannyshmueli/agent-analytics/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:16.464Z",
+        "retrieved_at": "2026-04-27T07:51:42.449Z",
         "content_sha256": "1f96b13bc1b4eb10ab6719d354385b4eb9bd3fb8d3cbe83d917858fb6ee7cee9"
       }
     }

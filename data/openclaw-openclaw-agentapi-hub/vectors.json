@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentapi-hub",
-  "generated_at": "2026-04-26T07:35:28.960Z",
+  "generated_at": "2026-04-27T07:51:59.332Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentapi-hub#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gizmo-dev/agentapi-hub/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:28.960Z",
+        "retrieved_at": "2026-04-27T07:51:59.332Z",
         "content_sha256": "f7429706db25b1abeccc251563ee056fa35f7fc951c12cb9d259e18d7397a007"
       }
     }

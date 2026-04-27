@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apple-contacts",
-  "generated_at": "2026-04-26T07:35:45.803Z",
+  "generated_at": "2026-04-27T07:52:21.523Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apple-contacts#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/apple-contacts/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:45.803Z",
+        "retrieved_at": "2026-04-27T07:52:21.523Z",
         "content_sha256": "f4b4a9c7eaf3c627c5320e5a0e05a66450a94a491ce7812291af26ccb86ac1da"
       }
     }

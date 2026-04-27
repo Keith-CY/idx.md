@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-shopify-marketing-expert",
-  "generated_at": "2026-04-26T07:33:56.102Z",
+  "generated_at": "2026-04-27T07:49:56.283Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-shopify-marketing-expert#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/metehan777/shopify-marketing-expert/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:56.102Z",
+        "retrieved_at": "2026-04-27T07:49:56.283Z",
         "content_sha256": "5d99ad42861b35f0cf0800b9b2ee884a2da7257378cbc4191905c73d84bba57c"
       }
     }

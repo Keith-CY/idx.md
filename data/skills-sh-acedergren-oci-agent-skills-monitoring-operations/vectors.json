@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-acedergren-oci-agent-skills-monitoring-operations",
-  "generated_at": "2026-04-26T07:34:52.442Z",
+  "generated_at": "2026-04-27T07:51:11.274Z",
   "records": [
     {
       "id": "skills/skills-sh-acedergren-oci-agent-skills-monitoring-operations#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/acedergren/oci-agent-skills/HEAD/skills/monitoring-operations/references/oci-monitoring-reference.md",
-        "retrieved_at": "2026-04-26T07:34:52.442Z",
+        "retrieved_at": "2026-04-27T07:51:11.274Z",
         "content_sha256": "873c0481f2754c71feb79e14a1c1a08d753fa1dd4fad94e5aefa9a42770693c0"
       }
     }

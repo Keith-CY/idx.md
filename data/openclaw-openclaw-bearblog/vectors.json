@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bearblog",
-  "generated_at": "2026-04-26T07:35:56.703Z",
+  "generated_at": "2026-04-27T07:52:35.931Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bearblog#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/azade-c/bearblog/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:56.703Z",
+        "retrieved_at": "2026-04-27T07:52:35.931Z",
         "content_sha256": "2844e35d72d206f2e728ea29ff27306af83f17d01a5d54d8dfb081a34c0a64dc"
       }
     }

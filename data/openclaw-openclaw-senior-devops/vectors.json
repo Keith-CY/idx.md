@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-senior-devops",
-  "generated_at": "2026-04-26T07:33:54.170Z",
+  "generated_at": "2026-04-27T07:49:53.769Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-senior-devops#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/senior-devops/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:54.170Z",
+        "retrieved_at": "2026-04-27T07:49:53.769Z",
         "content_sha256": "cae9ef37460887e73de1a2fe8bb0e34bdf2d7d0371ae74dae2bc9bddf16d6eff"
       }
     }

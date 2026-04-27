@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-storage",
-  "generated_at": "2026-04-26T07:37:09.027Z",
+  "generated_at": "2026-04-27T07:54:09.436Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-storage#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-storage/references/sdk/azure-storage-blob-py.md",
-        "retrieved_at": "2026-04-26T07:37:09.027Z",
+        "retrieved_at": "2026-04-27T07:54:09.436Z",
         "content_sha256": "afdd86c5b3e59452e36819195f578ee47207c9f4fd639e047675ef95cbd903d8"
       }
     }

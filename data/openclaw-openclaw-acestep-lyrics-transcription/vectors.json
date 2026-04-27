@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-acestep-lyrics-transcription",
-  "generated_at": "2026-04-26T07:35:07.462Z",
+  "generated_at": "2026-04-27T07:51:30.849Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-acestep-lyrics-transcription#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dumoedss/acestep-lyrics-transcription/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:07.462Z",
+        "retrieved_at": "2026-04-27T07:51:30.849Z",
         "content_sha256": "8639bcbd51771913250b2149eb8d12a63c5788ed7cb3679ff5bd8bcdc92399f1"
       }
     }

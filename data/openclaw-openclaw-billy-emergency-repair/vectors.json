@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-billy-emergency-repair",
-  "generated_at": "2026-04-26T07:35:58.468Z",
+  "generated_at": "2026-04-27T07:52:38.183Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-billy-emergency-repair#head",
@@ -19,7 +19,7 @@
           "category-git-github"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/highlander89/billy-emergency-repair/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:58.468Z",
+        "retrieved_at": "2026-04-27T07:52:38.183Z",
         "content_sha256": "92d937c5d52244e25d6e20665e131a11bf5f681d3d1563b88d18646e97c892f8"
       }
     }

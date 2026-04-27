@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-react-email-skills",
-  "generated_at": "2026-04-26T07:33:43.443Z",
+  "generated_at": "2026-04-27T07:49:39.716Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-react-email-skills#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/christina-de-martinez/react-email-skills/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:43.443Z",
+        "retrieved_at": "2026-04-27T07:49:39.716Z",
         "content_sha256": "3e1c597c4292eaf8555211ba75d7afc57552e21a6657a470ca0e3ef6b934dcae"
       }
     }

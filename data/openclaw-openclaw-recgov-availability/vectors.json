@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-recgov-availability",
-  "generated_at": "2026-04-26T07:33:44.266Z",
+  "generated_at": "2026-04-27T07:49:40.720Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-recgov-availability#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/seanrea/recgov-availability/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:44.266Z",
+        "retrieved_at": "2026-04-27T07:49:40.720Z",
         "content_sha256": "7a1eabd1727de725ca988a3cd61419241e7375869912cd49ce333008ddb468cf"
       }
     }

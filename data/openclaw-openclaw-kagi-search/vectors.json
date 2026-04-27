@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-kagi-search",
-  "generated_at": "2026-04-26T07:32:52.236Z",
+  "generated_at": "2026-04-27T07:48:33.816Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-kagi-search#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/silversteez/kagi-search/SKILL.md",
-        "retrieved_at": "2026-04-26T07:32:52.236Z",
+        "retrieved_at": "2026-04-27T07:48:33.816Z",
         "content_sha256": "0a12456a93901deae91979902dd313a5bc55a45c186ea5d507fa1f9f617679fc"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aviation-weather",
-  "generated_at": "2026-04-26T07:35:53.956Z",
+  "generated_at": "2026-04-27T07:52:32.545Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aviation-weather#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dimitryvin/aviation-weather/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:53.956Z",
+        "retrieved_at": "2026-04-27T07:52:32.545Z",
         "content_sha256": "45294eac352391fe122b1c020800c8f9fe4430c9b425c9d5e72f9a4bf6971857"
       }
     }

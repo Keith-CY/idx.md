@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bayclub-gateway-booking",
-  "generated_at": "2026-04-26T07:35:55.871Z",
+  "generated_at": "2026-04-27T07:52:34.931Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bayclub-gateway-booking#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/elizabethsiegle/bayclub-gateway-booking/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:55.871Z",
+        "retrieved_at": "2026-04-27T07:52:34.931Z",
         "content_sha256": "1b5fafa42a42da52950a78ad6bbf32faae9798071fb046bc14e69ac0797437d0"
       }
     }

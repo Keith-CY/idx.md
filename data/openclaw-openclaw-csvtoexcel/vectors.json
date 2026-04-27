@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-csvtoexcel",
-  "generated_at": "2026-04-26T07:36:23.212Z",
+  "generated_at": "2026-04-27T07:53:10.053Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-csvtoexcel#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xuanguan2020/csvtoexcel/SKILL.md",
-        "retrieved_at": "2026-04-26T07:36:23.212Z",
+        "retrieved_at": "2026-04-27T07:53:10.053Z",
         "content_sha256": "862720161fd3ab611595668baadf9e8693c070cb8c13caca50aae98edb992b00"
       }
     }

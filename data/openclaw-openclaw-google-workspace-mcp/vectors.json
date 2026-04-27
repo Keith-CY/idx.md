@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-google-workspace-mcp",
-  "generated_at": "2026-04-26T07:31:12.969Z",
+  "generated_at": "2026-04-27T07:46:23.207Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-google-workspace-mcp#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/dru-ca/google-workspace-mcp/SKILL.md",
-        "retrieved_at": "2026-04-26T07:31:12.969Z",
+        "retrieved_at": "2026-04-27T07:46:23.207Z",
         "content_sha256": "bfe848d8a0f1375bf6c9f6f4eb94eced1566b3724231a78c15e1718194bb5ec0"
       }
     }

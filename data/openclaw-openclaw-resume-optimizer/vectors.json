@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-resume-optimizer",
-  "generated_at": "2026-04-26T07:33:48.273Z",
+  "generated_at": "2026-04-27T07:49:45.951Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-resume-optimizer#head",
@@ -19,7 +19,7 @@
           "category-pdf-documents"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tomstools11/resume-optimizer/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:48.273Z",
+        "retrieved_at": "2026-04-27T07:49:45.951Z",
         "content_sha256": "c8b53626e0da4a4c23562490842c37fb5a83244e9aee0470fd4b8c2819a07280"
       }
     }

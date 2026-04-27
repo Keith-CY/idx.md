@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-resend",
-  "generated_at": "2026-04-26T07:33:47.896Z",
+  "generated_at": "2026-04-27T07:49:45.424Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-resend#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mjrussell/resend/SKILL.md",
-        "retrieved_at": "2026-04-26T07:33:47.896Z",
+        "retrieved_at": "2026-04-27T07:49:45.424Z",
         "content_sha256": "4da9e1e45cd1c32afa5743e80a5070688593c0e6ace35292118d86798b07887b"
       }
     }

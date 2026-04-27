@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-beeper",
-  "generated_at": "2026-04-26T07:35:57.385Z",
+  "generated_at": "2026-04-27T07:52:36.799Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-beeper#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/krausefx/beeper/SKILL.md",
-        "retrieved_at": "2026-04-26T07:35:57.385Z",
+        "retrieved_at": "2026-04-27T07:52:36.799Z",
         "content_sha256": "97c58ae08dc06ee419c94dc9a45016eab0ca8ad65ea1e7ab9ee6e69be6b71278"
       }
     }

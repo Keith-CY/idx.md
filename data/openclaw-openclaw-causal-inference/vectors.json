@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-causal-inference",
-  "generated_at": "2026-04-26T07:32:01.702Z",
+  "generated_at": "2026-04-27T07:47:29.401Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-causal-inference#head",
@@ -19,7 +19,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/oswalpalash/causal-inference/SKILL.md",
-        "retrieved_at": "2026-04-26T07:32:01.702Z",
+        "retrieved_at": "2026-04-27T07:47:29.401Z",
         "content_sha256": "fc5b1df7433652646c22b8406588a16de1d3f3878129956bdcdce8e9eba011fe"
       }
     }

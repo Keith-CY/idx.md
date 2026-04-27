@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/content-strategy
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-04-26T07:37:12.514Z
+retrieved_at: 2026-04-27T07:54:14.514Z
 content_sha256: 5434e226fd593a2e1174264c37b7cba589e60a82739deec0c29107b48f1ffae5
 ---
