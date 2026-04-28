@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aave-liquidation-monitor",
-  "generated_at": "2026-04-27T07:51:26.291Z",
+  "generated_at": "2026-04-28T07:51:41.616Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aave-liquidation-monitor#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jgramajo4/aave-liquidation-monitor/SKILL.md",
-        "retrieved_at": "2026-04-27T07:51:26.291Z",
+        "retrieved_at": "2026-04-28T07:51:41.616Z",
         "content_sha256": "13625bce621967f23e1b291cfef469275091a050f3fd345eedf10d8a86945084"
       }
     }

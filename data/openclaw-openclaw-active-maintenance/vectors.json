@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-active-maintenance",
-  "generated_at": "2026-04-27T07:51:32.450Z",
+  "generated_at": "2026-04-28T07:51:48.081Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-active-maintenance#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xiaowenzhou/active-maintenance/SKILL.md",
-        "retrieved_at": "2026-04-27T07:51:32.450Z",
+        "retrieved_at": "2026-04-28T07:51:48.081Z",
         "content_sha256": "4c4d27af999444647409078a36e172264f7ad770a00afc551cc5e3ec3f5d532e"
       }
     }

@@ -5,6 +5,16 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.2.121
+
+  - Added `updatedToolOutput` to `PostToolUseHookSpecificOutput` for replacing
+  tool output on all tools. `updatedMCPToolOutput` is deprecated.
+
+  ## 0.2.120
+
+  - Added `skills` option (`string[] | 'all'`) to control which Skills are
+  loaded into the main session, matching the Python SDK
+
   ## 0.2.119
 
   - Added `forwardSubagentText` option to stream subagent text deltas to SDK
@@ -19,15 +29,6 @@ summary: >-
 
   - `SessionStore.append()` failures are now retried up to 3 times with short
   backoff before the batch is dropped and `mirror_error` is emitted
-
-  ## 0.2.118
-
-  - Added `Options.managedSettings` for embedders to pass policy-tier settings
-  to the spawned CLI in-memory, honored below IT-controlled managed sources
-
-  ## 0.2.117
-
-  - Updated to parity with Claude Code v2.1.117
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-27T07:46:55.564Z
-content_sha256: 1f59aa05c98e1aeb152681b037ed38a9cd84e469118922d49bf469628acdead9
+retrieved_at: 2026-04-28T07:46:56.771Z
+content_sha256: 9565d3c00e701dee5b22b5ab12292685262b17034ae9329c86cdddffde3d5540
 ---

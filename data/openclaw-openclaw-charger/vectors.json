@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-charger",
-  "generated_at": "2026-04-27T07:47:29.945Z",
+  "generated_at": "2026-04-28T07:47:30.493Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-charger#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/charger/SKILL.md",
-        "retrieved_at": "2026-04-27T07:47:29.945Z",
+        "retrieved_at": "2026-04-28T07:47:30.493Z",
         "content_sha256": "31a2f49da28714c14540343d6b85c1c98b025037a12120a6ac19ea0022bc40fe"
       }
     }

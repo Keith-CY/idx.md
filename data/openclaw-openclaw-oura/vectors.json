@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-oura",
-  "generated_at": "2026-04-27T07:49:14.957Z",
+  "generated_at": "2026-04-28T07:49:21.264Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-oura#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ruhrpotter/oura/SKILL.md",
-        "retrieved_at": "2026-04-27T07:49:14.957Z",
+        "retrieved_at": "2026-04-28T07:49:21.264Z",
         "content_sha256": "b149674ccedf7d75c32c51a8d4a3d876aed01a5aa4325642ffec000927c4cca7"
       }
     }

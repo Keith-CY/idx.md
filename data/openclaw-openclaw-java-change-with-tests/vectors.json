@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-java-change-with-tests",
-  "generated_at": "2026-04-27T07:48:29.286Z",
+  "generated_at": "2026-04-28T07:48:33.524Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-java-change-with-tests#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tanerilyazov/java-change-with-tests/SKILL.md",
-        "retrieved_at": "2026-04-27T07:48:29.286Z",
+        "retrieved_at": "2026-04-28T07:48:33.524Z",
         "content_sha256": "a66c85d187ce7d7268f25da179d32f66df9bf0552c9f236bb49f581d5b55d642"
       }
     }

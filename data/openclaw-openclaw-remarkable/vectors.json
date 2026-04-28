@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-remarkable",
-  "generated_at": "2026-04-27T07:49:43.148Z",
+  "generated_at": "2026-04-28T07:49:50.409Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-remarkable#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/nickian/remarkable/SKILL.md",
-        "retrieved_at": "2026-04-27T07:49:43.148Z",
+        "retrieved_at": "2026-04-28T07:49:50.409Z",
         "content_sha256": "8a8d5a7877efe3be2593c53533f661c534200ee9d8823f6cba8605fe87554b77"
       }
     }

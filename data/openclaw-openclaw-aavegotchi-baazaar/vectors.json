@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aavegotchi-baazaar",
-  "generated_at": "2026-04-27T07:51:26.643Z",
+  "generated_at": "2026-04-28T07:51:41.951Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aavegotchi-baazaar#head",
@@ -19,7 +19,7 @@
           "category-health-fitness"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cinnabarhorse/aavegotchi-baazaar/SKILL.md",
-        "retrieved_at": "2026-04-27T07:51:26.643Z",
+        "retrieved_at": "2026-04-28T07:51:41.951Z",
         "content_sha256": "9bbcd14c941e20ae89ebdb3de2d6f0e82b20f12a1f71bc44cb6ad36edd661041"
       }
     }

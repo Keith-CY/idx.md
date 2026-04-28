@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-deploy",
-  "generated_at": "2026-04-27T07:47:11.851Z",
+  "generated_at": "2026-04-28T07:47:13.506Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-deploy#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-deploy/references/pre-deploy-checklist.md",
-        "retrieved_at": "2026-04-27T07:47:11.851Z",
+        "retrieved_at": "2026-04-28T07:47:13.506Z",
         "content_sha256": "d2d7cc119027ce726ac725f4b1066b742a5f45edc74b215d657d7b80acf9c2dd"
       }
     }

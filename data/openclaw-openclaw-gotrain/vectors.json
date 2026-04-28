@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-gotrain",
-  "generated_at": "2026-04-27T07:48:16.566Z",
+  "generated_at": "2026-04-28T07:48:20.641Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-gotrain#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gumadeiras/gotrain/SKILL.md",
-        "retrieved_at": "2026-04-27T07:48:16.566Z",
+        "retrieved_at": "2026-04-28T07:48:20.641Z",
         "content_sha256": "9aeaaa3f2e41fa22585eaccb9a419a5ed1ad8bc393b0764ef2bc6585fc5163f5"
       }
     }

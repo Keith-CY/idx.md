@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-sovereign-stack",
-  "generated_at": "2026-04-27T07:51:55.748Z",
+  "generated_at": "2026-04-28T07:52:12.388Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-sovereign-stack#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/quriustus/agent-sovereign-stack/SKILL.md",
-        "retrieved_at": "2026-04-27T07:51:55.748Z",
+        "retrieved_at": "2026-04-28T07:52:12.388Z",
         "content_sha256": "f779211251a3dc6a68554b079a0dacf4ee04699f11b926d46211e41c4b38925a"
       }
     }

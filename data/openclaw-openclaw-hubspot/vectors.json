@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-hubspot",
-  "generated_at": "2026-04-27T07:48:22.022Z",
+  "generated_at": "2026-04-28T07:48:26.711Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-hubspot#head",
@@ -19,7 +19,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kwall1/hubspot/SKILL.md",
-        "retrieved_at": "2026-04-27T07:48:22.022Z",
+        "retrieved_at": "2026-04-28T07:48:26.711Z",
         "content_sha256": "8222c27c3906b42eaeb93ab9935192c01fba9c0f97216055578773c060529056"
       }
     }

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-docs-skill",
-  "generated_at": "2026-04-27T07:46:18.320Z",
+  "generated_at": "2026-04-28T07:46:18.693Z",
   "records": [
     {
       "id": "skills/openclaw-docs-skill#head",
       "kind": "head",
       "path": "/data/openclaw-docs-skill/HEAD.md",
-      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when setting up, configuring, or troubleshooting a self-hosted AI agent gateway. Reach for this skill when agents need to understand OpenClaw's multi-channel architecture, CLI commands, configuration patterns, tool management, or deployment across Discord, Slack, Telegram, WhatsApp, and other messaging platforms. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill ## Product summary OpenClaw is a self-hosted gateway that connects AI agents to multiple messaging platforms (Discord, Slack, Telegram, WhatsApp, iMessage, Signal, Matrix, and 15+ others) through a single unified process. The Gateway runs on any OS, manages sessions and routing, and exposes a CLI (`openclaw`), browser Control UI, and REST APIs for configuration and automation.\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
+      "text": "title: openclaw-docs-skill\nsummary: --- name: Clawdbot description: Use when deploying, configuring, or troubleshooting OpenClaw gateways; setting up multi-channel AI agents; managing channels (Discord, Slack, Telegram, WhatsApp, etc.); configuring agent workspaces and sessions; or implementing agent routing and security policies. metadata: mintlify-proj: clawdbot version: \"1.0\" --- # OpenClaw Skill Reference ## Product summary OpenClaw is a self-hosted multi-channel gateway that connects AI agents to messaging platforms (Discord, Slack, Telegram, WhatsApp, iMessage, Signal, Matrix, Microsoft Teams, Google Chat, Feishu, and more). A single Gateway process bridges chat apps to coding agents with tool use, sessions, memory, and multi-agent routing. Configuration lives in `~/.openclaw/openclaw.json` (JSON5 format). Key CLI: `openclaw onboard`, `openclaw gateway`, `openclaw config`, `openclaw dashboard`. Primary docs: https://docs.openclaw.ai\ntype: skills\ntags: (none)\nsource_url: https://docs.openclaw.ai/skill.md",
       "metadata": {
         "stable_id": "skills/openclaw-docs-skill",
         "topic": "openclaw-docs-skill",
@@ -15,8 +15,8 @@
         "title": "openclaw-docs-skill",
         "tags": [],
         "source_url": "https://docs.openclaw.ai/skill.md",
-        "retrieved_at": "2026-04-27T07:46:18.320Z",
-        "content_sha256": "ddadd7a90fc50a526f8a589e67e0c0c65e3451f838666057b885c2c695b8689e"
+        "retrieved_at": "2026-04-28T07:46:18.693Z",
+        "content_sha256": "d4276037e04a613627aa12646b081cf346cb60131b40ad4ba1273946e177498e"
       }
     }
   ]

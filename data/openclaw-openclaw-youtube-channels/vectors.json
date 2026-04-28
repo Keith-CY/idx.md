@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-youtube-channels",
-  "generated_at": "2026-04-27T07:50:54.878Z",
+  "generated_at": "2026-04-28T07:51:09.777Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-youtube-channels#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/therohitdas/youtube-channels/SKILL.md",
-        "retrieved_at": "2026-04-27T07:50:54.878Z",
+        "retrieved_at": "2026-04-28T07:51:09.777Z",
         "content_sha256": "fae2ca84580d829b18592a363545e9b91b6723560f47c62878d04ea08f7a797f"
       }
     }

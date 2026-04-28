@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agentmail-integration",
-  "generated_at": "2026-04-27T07:52:04.453Z",
+  "generated_at": "2026-04-28T07:52:20.661Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agentmail-integration#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/synesthesia-wav/agentmail-integration/SKILL.md",
-        "retrieved_at": "2026-04-27T07:52:04.453Z",
+        "retrieved_at": "2026-04-28T07:52:20.661Z",
         "content_sha256": "1035420efdbab81fd00695bd071a4d313f4e5c3a0f6913ef6f42ddb15cc8a9b0"
       }
     }

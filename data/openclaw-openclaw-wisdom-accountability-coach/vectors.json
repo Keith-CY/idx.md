@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-wisdom-accountability-coach",
-  "generated_at": "2026-04-27T07:50:46.839Z",
+  "generated_at": "2026-04-28T07:51:01.662Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-wisdom-accountability-coach#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/mikecourt/wisdom-accountability-coach/SKILL.md",
-        "retrieved_at": "2026-04-27T07:50:46.839Z",
+        "retrieved_at": "2026-04-28T07:51:01.662Z",
         "content_sha256": "0c6982f9ec20e71e5345ef81d05f0cc0971ec8a7634bc04175fcbe4f29499cad"
       }
     }

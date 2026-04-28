@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-better-notion",
-  "generated_at": "2026-04-27T07:52:37.840Z",
+  "generated_at": "2026-04-28T07:52:55.375Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-better-notion#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tyler6204/better-notion/SKILL.md",
-        "retrieved_at": "2026-04-27T07:52:37.840Z",
+        "retrieved_at": "2026-04-28T07:52:55.375Z",
         "content_sha256": "4e9c074b6f805c912867b9e20a1872e57b75bbc40eff60ce13aafcccfc351ea0"
       }
     }

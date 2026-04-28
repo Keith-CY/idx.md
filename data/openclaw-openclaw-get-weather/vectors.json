@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-get-weather",
-  "generated_at": "2026-04-27T07:53:26.856Z",
+  "generated_at": "2026-04-28T07:53:46.811Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-get-weather#head",
@@ -19,7 +19,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/noypearl/get-weather/SKILL.md",
-        "retrieved_at": "2026-04-27T07:53:26.856Z",
+        "retrieved_at": "2026-04-28T07:53:46.811Z",
         "content_sha256": "b896ecbadae76ff9f2b64ab9bad87afaa9f03fdb3cbaa1c8b7a7c83878baae70"
       }
     }

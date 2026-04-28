@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-decision-trees",
-  "generated_at": "2026-04-27T07:47:48.960Z",
+  "generated_at": "2026-04-28T07:47:50.936Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-decision-trees#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/evgyur/decision-trees/SKILL.md",
-        "retrieved_at": "2026-04-27T07:47:48.960Z",
+        "retrieved_at": "2026-04-28T07:47:50.936Z",
         "content_sha256": "12a6190b2d4226955b4313671c418813c005e86de4da3ef23f2275aeb1cf528b"
       }
     }

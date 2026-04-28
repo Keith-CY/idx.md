@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-tinyfish-web-agent",
-  "generated_at": "2026-04-27T07:50:22.340Z",
+  "generated_at": "2026-04-28T07:50:35.700Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-tinyfish-web-agent#head",
@@ -19,7 +19,7 @@
           "category-browser-automation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/simantak-dabhade/tinyfish-web-agent/SKILL.md",
-        "retrieved_at": "2026-04-27T07:50:22.340Z",
+        "retrieved_at": "2026-04-28T07:50:35.700Z",
         "content_sha256": "93addb63baa5aac0be0c896052ec0cddc275fb778bb9cca656e6d974f60b44f4"
       }
     }

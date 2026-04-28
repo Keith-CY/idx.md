@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-skills-write-spec-skill",
-  "generated_at": "2026-04-27T07:50:59.750Z",
+  "generated_at": "2026-04-28T07:51:14.773Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-skills-write-spec-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/write-spec/SKILL.md",
-        "retrieved_at": "2026-04-27T07:50:59.750Z",
+        "retrieved_at": "2026-04-28T07:51:14.773Z",
         "content_sha256": "ca6670913878b4ac4582727562bfced5271492a5a800d934f68c9e7bc1cd4dcc"
       }
     }
