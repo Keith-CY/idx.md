@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mailchannels",
-  "generated_at": "2026-04-28T07:53:55.666Z",
+  "generated_at": "2026-04-29T07:46:15.114Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mailchannels#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ttulttul/mailchannels/SKILL.md",
-        "retrieved_at": "2026-04-28T07:53:55.666Z",
+        "retrieved_at": "2026-04-29T07:46:15.114Z",
         "content_sha256": "c40e33cefeda00066d37f3a489cc74e006931dff5e05c06f9b54b17f156f9477"
       }
     }

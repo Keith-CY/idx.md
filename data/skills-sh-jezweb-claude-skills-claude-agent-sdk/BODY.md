@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.123
+
+- Updated to parity with Claude Code v2.1.123
+
+## 0.2.122
+
+- Updated to parity with Claude Code v2.1.122
+
 ## 0.2.121
 
 - Added `updatedToolOutput` to `PostToolUseHookSpecificOutput` for replacing tool output on all tools. `updatedMCPToolOutput` is deprecated.

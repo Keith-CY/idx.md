@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/emzod/speak-turbo/speakturbo-tts
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:46:15.419Z
+retrieved_at: 2026-04-29T07:41:31.083Z
 content_sha256: 68b384e376e1c67a308bdb9ba5827bb15c01189a1a9db28fa1ba4e6b4c7cfb03
 ---

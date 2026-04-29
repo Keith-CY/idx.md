@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-skills-listenhub",
-  "generated_at": "2026-04-28T07:54:19.920Z",
+  "generated_at": "2026-04-29T07:46:33.067Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-skills-listenhub#head",
@@ -21,7 +21,7 @@
           "github-repo-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/boxingyi/listenhub/SKILL.md",
-        "retrieved_at": "2026-04-28T07:54:19.920Z",
+        "retrieved_at": "2026-04-29T07:46:33.067Z",
         "content_sha256": "e229582acfaa15327d5400c6bccc614d46d729a3609e0acb4479b41bb8e42d0a"
       }
     }

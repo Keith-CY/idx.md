@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-dupe",
-  "generated_at": "2026-04-28T07:53:36.272Z",
+  "generated_at": "2026-04-29T07:46:02.666Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-dupe#head",
@@ -19,7 +19,7 @@
           "category-shopping-e-commerce"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/crisanmm/dupe/SKILL.md",
-        "retrieved_at": "2026-04-28T07:53:36.272Z",
+        "retrieved_at": "2026-04-29T07:46:02.666Z",
         "content_sha256": "a115ed8edd86ef0a17c872ade663e8bc96a111c2ea7b72d0fa90a6cd1c2e9290"
       }
     }

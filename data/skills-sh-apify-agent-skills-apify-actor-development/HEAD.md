@@ -3,7 +3,7 @@ stable_id: skills/skills-sh-apify-agent-skills-apify-actor-development
 type: skills
 title: skills-sh-apify-agent-skills-apify-actor-development
 summary: >-
-  # Actor Configuration (actor.json)
+  # Actor configuration (actor.json)
 
   The `.actor/actor.json` file contains the Actor's configuration including
   metadata, schema references, and platform settings.
@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:55:02.968Z
-content_sha256: 181516bc5db71e3c5abded8d866bc3775359d0b97fbd9bb3cbd552415fd98fa2
+retrieved_at: 2026-04-29T07:46:53.930Z
+content_sha256: bd02b1f94f4f2486f5a582cc0ab654f5f5fd6b595175786150146df78987266b
 ---

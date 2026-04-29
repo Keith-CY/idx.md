@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-verification-before-completion",
-  "generated_at": "2026-04-28T07:54:31.904Z",
+  "generated_at": "2026-04-29T07:41:30.391Z",
   "records": [
     {
       "id": "skills/obra-verification-before-completion#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md",
-        "retrieved_at": "2026-04-28T07:54:31.904Z",
+        "retrieved_at": "2026-04-29T07:41:30.391Z",
         "content_sha256": "ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c"
       }
     }

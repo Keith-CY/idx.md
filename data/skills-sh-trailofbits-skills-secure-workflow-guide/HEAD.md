@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/secure-workflow-guide
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:51:30.610Z
+retrieved_at: 2026-04-29T07:44:43.090Z
 content_sha256: 8b048011407a9a123a01ba4548b62a944f8cd5f271e4e0cdfe58b09583bd9291
 ---

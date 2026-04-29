@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
-  "generated_at": "2026-04-28T07:54:35.190Z",
+  "generated_at": "2026-04-29T07:46:37.347Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md",
-        "retrieved_at": "2026-04-28T07:54:35.190Z",
+        "retrieved_at": "2026-04-29T07:46:37.347Z",
         "content_sha256": "0f2a95f92e7898c79c55ae82203430162ae330b57e1df22bda012365e79521f2"
       }
     }

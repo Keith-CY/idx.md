@@ -20,7 +20,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:52:34.740Z
+retrieved_at: 2026-04-29T07:45:23.509Z
 content_sha256: ff324581400911a293b537afedd5946151fe63abf52ce743d612dbce10c9e964
 ---
 |/data/openclaw-openclaw-anova-skill|
@@ -40,7 +40,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:52:34.953Z
+retrieved_at: 2026-04-29T07:45:23.626Z
 content_sha256: 0185dfcaceee1495d68e92b8c0d229a1776ae1621df77d759dee8b90df3f2c37
 ---
 |/data/openclaw-openclaw-anthropology|
@@ -61,7 +61,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:52:42.978Z
+retrieved_at: 2026-04-29T07:45:28.773Z
 content_sha256: 594f1341f4e81ab94a2a56f7dea408784f9e1940a9ea9a8c2c0ce0b1ba337134
 ---
 |/data/openclaw-openclaw-arccos-golf|
@@ -81,7 +81,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:52:51.039Z
+retrieved_at: 2026-04-29T07:45:34.132Z
 content_sha256: b9bc9d176226b95a31010372ae3d9164b047b67dc4923fdf8cf0c3128b0c2f5d
 ---
 |/data/openclaw-openclaw-bambu-cli|
@@ -101,7 +101,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:52:51.209Z
+retrieved_at: 2026-04-29T07:45:34.248Z
 content_sha256: cc02fbb90003b5c2265a9118204e832fa3c11c184c039106910d544497149658
 ---
 |/data/openclaw-openclaw-bambu-local|
@@ -121,7 +121,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:52:54.465Z
+retrieved_at: 2026-04-29T07:45:36.382Z
 content_sha256: 5b977fcbcbde5f1432ff35a4f9abe05b88e9ba2b15c79369a688ba6eab0ad7f1
 ---
 |/data/openclaw-openclaw-beestat|
@@ -141,7 +141,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:04.877Z
+retrieved_at: 2026-04-29T07:45:42.976Z
 content_sha256: 6e45b857673834dd5ccb5ef303de3e2dc6e29af7d02e2c7fd3047ed37decf9ee
 ---
 |/data/openclaw-openclaw-bring-add|
@@ -161,7 +161,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:47:35.082Z
+retrieved_at: 2026-04-29T07:42:17.635Z
 content_sha256: e6cefa1e9cba28a591752a099be0e29727394edba34b3f9de65cd25fbdf1a140
 ---
 |/data/openclaw-openclaw-clawdbot-skill-homebridge|
@@ -181,7 +181,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:23.917Z
+retrieved_at: 2026-04-29T07:45:55.005Z
 content_sha256: 6436b62fa55689ced84856c4ca712ebda8769fa49ebf893b4110c7910c3137f1
 ---
 |/data/openclaw-openclaw-communication-coach|
@@ -201,7 +201,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:24.999Z
+retrieved_at: 2026-04-29T07:45:55.636Z
 content_sha256: 1699984e76312757c6b9744fb68d09d6729a5f1cdb2e0bb17dfa98433e194a0b
 ---
 |/data/openclaw-openclaw-context-engineering|
@@ -221,7 +221,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:25.540Z
+retrieved_at: 2026-04-29T07:45:55.966Z
 content_sha256: 9724e42c1991d40488abe5e18fe3e6f40bd8e623dc91fdddd2ac2685dba57971
 ---
 |/data/openclaw-openclaw-control-ikea-lightbulb|
@@ -241,7 +241,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:26.110Z
+retrieved_at: 2026-04-29T07:45:56.280Z
 content_sha256: 91c7e28e99d3c48960b12138d685d7fd0e6e94daec9d61a9afac8f60e8a7ed47
 ---
 |/data/openclaw-openclaw-crabnet|
@@ -261,7 +261,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:32.282Z
+retrieved_at: 2026-04-29T07:46:00.174Z
 content_sha256: d7abc6ab6b27922846ccc59bb902f4957ad90fba87c8733870a886420dc2f1a4
 ---
 |/data/openclaw-openclaw-dellight-cfo-financial-ops|
@@ -281,7 +281,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:33.204Z
+retrieved_at: 2026-04-29T07:46:00.738Z
 content_sha256: 5dfc7a8099875917b552089c198d9f91dfac0e22977e6511512c699e4aafe4d3
 ---
 |/data/openclaw-openclaw-devialet|
@@ -301,7 +301,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:33.897Z
+retrieved_at: 2026-04-29T07:46:01.155Z
 content_sha256: fa1a688fd2df902aad1170463945920c392527692a73ef8dc33febace9721ca5
 ---
 |/data/openclaw-openclaw-dht11-temp|
@@ -321,7 +321,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:34.257Z
+retrieved_at: 2026-04-29T07:46:01.394Z
 content_sha256: ba100e5d3f78c05baf15b3390ae0d1eff9b533edaf29eea9c9e5121ca7a58c15
 ---
 |/data/openclaw-openclaw-dirigera-control|
@@ -341,7 +341,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:36.482Z
+retrieved_at: 2026-04-29T07:46:02.769Z
 content_sha256: b3f9cb8b85c030d097bd46ba9f42474a5b257610f6c0ae2b25e1cd705171823b
 ---
 |/data/openclaw-openclaw-dyson-cli|
@@ -361,7 +361,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:37.486Z
+retrieved_at: 2026-04-29T07:46:03.346Z
 content_sha256: e35887a8ffc768104302f04e8d594bfe0eb8aa08ecec8da86fb162f0e1c5f1e3
 ---
 |/data/openclaw-openclaw-echodecks|
@@ -381,7 +381,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:37.673Z
+retrieved_at: 2026-04-29T07:46:03.460Z
 content_sha256: 67da566c7a35799a5e1b63e9d1a0d62f341171f300e142bbd37d3013fa1e61df
 ---
 |/data/openclaw-openclaw-echodecks-ultimate|
@@ -401,7 +401,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:38.206Z
+retrieved_at: 2026-04-29T07:46:03.811Z
 content_sha256: 1b9f4a871415be4d9d2bffbe454604359291bf528b07f202d4c1925786054028
 ---
 |/data/openclaw-openclaw-eightctl|
@@ -421,7 +421,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:40.605Z
+retrieved_at: 2026-04-29T07:46:05.240Z
 content_sha256: b397ebde9d70e0f1cfd0a692c204527e764ff5d3c46ba45b382d2118a789d9cf
 ---
 |/data/openclaw-openclaw-enzoldhazam|
@@ -441,7 +441,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:42.941Z
+retrieved_at: 2026-04-29T07:46:06.990Z
 content_sha256: 6cea5868f89e5b0359947aa071e76c761999d27b13a855b5b370bc390272305f
 ---
 |/data/openclaw-openclaw-farmos-weather|
@@ -461,7 +461,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:45.271Z
+retrieved_at: 2026-04-29T07:46:08.499Z
 content_sha256: 8c7303ec012dfa1855349982d0b5516f7326c6c90bc9b11f212e5c853e319044
 ---
 |/data/openclaw-openclaw-fivem-dev|
@@ -481,7 +481,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:46.151Z
+retrieved_at: 2026-04-29T07:46:09.060Z
 content_sha256: 85030baba736dd14b48929d69b714f0e51a683fc617a335751b5f80599df897b
 ---
 |/data/openclaw-openclaw-frigate|
@@ -501,7 +501,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:47.167Z
+retrieved_at: 2026-04-29T07:46:09.796Z
 content_sha256: 39486e9866c696ceb48f61e8c324d6b3288624cee674ea2068c90bfa4b898136
 ---
 |/data/openclaw-openclaw-glitch-homeassistant|
@@ -521,7 +521,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:48.231Z
+retrieved_at: 2026-04-29T07:46:10.480Z
 content_sha256: 7d07d5a119bda2e5ca1d362f6a69eedefc7f0e6e5aa124dd25cf855d4e8072f8
 ---
 |/data/openclaw-openclaw-google-home|
@@ -541,7 +541,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:48.591Z
+retrieved_at: 2026-04-29T07:46:10.730Z
 content_sha256: 5919324f3cb58a9fc5cd7e8baf8052f85e09df0a31b4850d39badcea91dc7be7
 ---
 |/data/openclaw-openclaw-govee-lights|
@@ -561,7 +561,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:48.766Z
+retrieved_at: 2026-04-29T07:46:10.847Z
 content_sha256: b06f97adb3625fe1bdbe2a6799148a675cd3cb26a1f564f297e0f122d6c80a73
 ---
 |/data/openclaw-openclaw-govpredict|
@@ -581,7 +581,7 @@ upstream_ref: ""
 github_stars: 2898
 github_forks: 848
 github_is_organization: true
-retrieved_at: 2026-04-28T07:53:49.816Z
+retrieved_at: 2026-04-29T07:46:11.480Z
 content_sha256: 217187023db6beda478dfaa23018261f186ec4230cf101fa72bb31fe99c624ee
 ---
 |/data/openclaw-openclaw-home-music|
@@ -601,7 +601,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:48:26.195Z
+retrieved_at: 2026-04-29T07:42:50.456Z
 content_sha256: ae18bb17de18e44e9f3f301eb445c2be69c9b5f5250d8be97d9800fc8b6b463e
 ---
 |/data/openclaw-openclaw-homey|
@@ -621,7 +621,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:48:26.370Z
+retrieved_at: 2026-04-29T07:42:50.560Z
 content_sha256: 29a86b070019fe8697a63133eb1aa97f11bea86b59b7c00e0341131706669ddb
 ---
 |/data/openclaw-openclaw-homey-cli|
@@ -641,7 +641,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:48:31.657Z
+retrieved_at: 2026-04-29T07:42:54.068Z
 content_sha256: a1290332b22c3eda78d0e10aa492ac164a71d49ea860007c8515f0732ccbb71e
 ---
 |/data/openclaw-openclaw-internet-lookup-verifier|
@@ -661,7 +661,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:48:43.295Z
+retrieved_at: 2026-04-29T07:43:01.553Z
 content_sha256: bb08c94fc1b9e1c0bcc1d25670ca412deb667bce676ba59b60c74f1f19e5209a
 ---
 |/data/openclaw-openclaw-lg-thinq|
@@ -681,7 +681,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:48:45.029Z
+retrieved_at: 2026-04-29T07:43:02.775Z
 content_sha256: 73eb485b3f3e35a39bc9e1fce3cc0ff86a38d9c2681adcb3657c115aa94a1815
 ---
 |/data/openclaw-openclaw-little-snitch|
@@ -701,7 +701,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:48:53.802Z
+retrieved_at: 2026-04-29T07:43:08.454Z
 content_sha256: 3f86554ff39ce08ac7841563159aebb3148504fd30ddce06613393f4b9183dd8
 ---
 |/data/openclaw-openclaw-mijia|
@@ -721,7 +721,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:04.320Z
+retrieved_at: 2026-04-29T07:43:15.757Z
 content_sha256: 6fccf9e0c1489a77f2b9a1d47fce7a15d48f5f2cdd55306af7ce947399868fea
 ---
 |/data/openclaw-openclaw-nanoleaf|
@@ -742,7 +742,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:05.228Z
+retrieved_at: 2026-04-29T07:43:16.310Z
 content_sha256: b88ee29b111bbc4fffd3866c6ac1c674675978b7f2083fe2d307535d6f3b2da2
 ---
 |/data/openclaw-openclaw-nest-devices|
@@ -762,7 +762,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:05.402Z
+retrieved_at: 2026-04-29T07:43:16.418Z
 content_sha256: 1fc2d081d9195de297941c3277b6e57e641fbb6b4558fdd1d092d684409ada83
 ---
 |/data/openclaw-openclaw-netatmo|
@@ -782,7 +782,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:19.603Z
+retrieved_at: 2026-04-29T07:43:25.426Z
 content_sha256: 1ef85a78007c604eaff827692b83f6c5d2a40ccac8929b5c387db2ffbc6997ac
 ---
 |/data/openclaw-openclaw-openhue|
@@ -802,7 +802,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:27.828Z
+retrieved_at: 2026-04-29T07:43:30.465Z
 content_sha256: e4e842e8e6a5b7c7ddd07760a34ecf41948a219c81cc1a5afd96dee1b8ca2486
 ---
 |/data/openclaw-openclaw-philips-hue-thinking|
@@ -822,7 +822,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:28.760Z
+retrieved_at: 2026-04-29T07:43:31.048Z
 content_sha256: ef056a1f6c809c995761be8343c370182e01cee4253afc675222fe8f12effe31
 ---
 |/data/openclaw-openclaw-pihole|
@@ -842,7 +842,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:35.445Z
+retrieved_at: 2026-04-29T07:43:35.541Z
 content_sha256: 26dcfee26ba889bacffdf38c0ab59a17d65e263a93a4192b3492ea403de18627
 ---
 |/data/openclaw-openclaw-printer|
@@ -862,7 +862,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:49:54.624Z
+retrieved_at: 2026-04-29T07:43:47.747Z
 content_sha256: ca0371fbb3119a1c12cc01b4d0f2aaab670442c3c1d94167832fd2eda4f6fa86
 ---
 |/data/openclaw-openclaw-robo-rock|
@@ -883,7 +883,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:05.679Z
+retrieved_at: 2026-04-29T07:43:52.183Z
 content_sha256: a32df14f4dd022a0f8224c1a5dac4c66e8dafd1381e57956444a6ff69994787e
 ---
 |/data/openclaw-openclaw-senior-computer-vision|
@@ -904,7 +904,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:07.931Z
+retrieved_at: 2026-04-29T07:43:53.491Z
 content_sha256: dedd55f34c7c766568e5c9eac9986af0c757bd6f567064cf6dc3e544fb93a110
 ---
 |/data/openclaw-openclaw-set-reminder|
@@ -924,7 +924,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:13.448Z
+retrieved_at: 2026-04-29T07:43:56.579Z
 content_sha256: 0ab9f7d5e429e0f9613b600f772540ccb0b4189164aabea647d0269ac4f57da3
 ---
 |/data/openclaw-openclaw-skillsign|
@@ -945,7 +945,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:15.317Z
+retrieved_at: 2026-04-29T07:43:57.712Z
 content_sha256: fdc70caa1d7147f6ae957d26695f00381dc6ea29496e66a778f90ebe90cb7202
 ---
 |/data/openclaw-openclaw-snow-report|
@@ -965,7 +965,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:16.880Z
+retrieved_at: 2026-04-29T07:43:58.714Z
 content_sha256: 4afbad1d930d98a0610f09bbf810f8a49de7b3187a7050d7974c3b600ae83c90
 ---
 |/data/openclaw-openclaw-solarpunk-evidence-logger|
@@ -985,7 +985,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:21.089Z
+retrieved_at: 2026-04-29T07:44:01.256Z
 content_sha256: e1dd9378c801279d98d6a8ba12edb015153a2a89805604d57ebab2603766e102
 ---
 |/data/openclaw-openclaw-starlink|
@@ -1005,7 +1005,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:31.930Z
+retrieved_at: 2026-04-29T07:44:07.737Z
 content_sha256: 470e0b1d650bdc6ad448b5f94a67db972536739894ca7608202896a2dc7b749f
 ---
 |/data/openclaw-openclaw-tesla-fleet-api|
@@ -1026,7 +1026,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:52.805Z
+retrieved_at: 2026-04-29T07:44:20.698Z
 content_sha256: b81241ed69a3b3b2cb2bc19b1c3878417d938de3508d54d4cb95ec535e544fa8
 ---
 |/data/openclaw-openclaw-voicemonkey|
@@ -1046,7 +1046,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:54.668Z
+retrieved_at: 2026-04-29T07:44:22.183Z
 content_sha256: 1ca0c8d768ad603ea8d5d47f56a9b435fe575f7f34e719eda85c82003d740e93
 ---
 |/data/openclaw-openclaw-weather|
@@ -1066,7 +1066,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:54.827Z
+retrieved_at: 2026-04-29T07:44:22.289Z
 content_sha256: 75849b8edc2e0c35a9fdd46311beea7cf94c0d3310cd5da57c0c02fb1762e0b5
 ---
 |/data/openclaw-openclaw-weather-pollen|
@@ -1086,7 +1086,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:50:54.993Z
+retrieved_at: 2026-04-29T07:44:22.468Z
 content_sha256: f00ba5ea644402239cbbb4e7785f486f48dfe8ab22d6dca1864aa8f78d8e86f2
 ---
 |/data/openclaw-openclaw-weathercli|
@@ -1106,7 +1106,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:51:02.402Z
+retrieved_at: 2026-04-29T07:44:26.983Z
 content_sha256: 1518ccb3f162b98305497601abf0e64073ca7095cc9e0163c5d9c42e64fdabc4
 ---
 |/data/openclaw-openclaw-wled|

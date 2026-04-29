@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-imitationgame-agent",
-  "generated_at": "2026-04-28T07:53:51.354Z",
+  "generated_at": "2026-04-29T07:46:12.544Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-imitationgame-agent#head",
@@ -19,7 +19,7 @@
           "category-gaming"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/cyberverse2/imitationgame-agent/SKILL.md",
-        "retrieved_at": "2026-04-28T07:53:51.354Z",
+        "retrieved_at": "2026-04-29T07:46:12.544Z",
         "content_sha256": "08fb2a4a694bc8cda93aff1e3e81b45a2861c1fb1ec098d77781c32e202c201a"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brainstorming-studio",
-  "generated_at": "2026-04-28T07:53:01.953Z",
+  "generated_at": "2026-04-29T07:45:41.237Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brainstorming-studio#head",
@@ -19,7 +19,7 @@
           "category-transportation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/myboxstorage/brainstorming-studio/SKILL.md",
-        "retrieved_at": "2026-04-28T07:53:01.953Z",
+        "retrieved_at": "2026-04-29T07:45:41.237Z",
         "content_sha256": "1f8676022f99227d8b6d159a766497c68bdfb1ed4de0702c5222a6664c2ebba2"
       }
     }

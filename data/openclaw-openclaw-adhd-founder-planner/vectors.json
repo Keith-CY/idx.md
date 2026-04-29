@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-adhd-founder-planner",
-  "generated_at": "2026-04-28T07:51:52.126Z",
+  "generated_at": "2026-04-29T07:44:55.737Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-adhd-founder-planner#head",
@@ -19,7 +19,7 @@
           "category-coding-agents-ides"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jankutschera/adhd-founder-planner/SKILL.md",
-        "retrieved_at": "2026-04-28T07:51:52.126Z",
+        "retrieved_at": "2026-04-29T07:44:55.737Z",
         "content_sha256": "626535665e4afe19b9f5a9540fdfae716b6347178bb90a938e48c2d8807f5303"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bird-dms",
-  "generated_at": "2026-04-28T07:52:56.086Z",
+  "generated_at": "2026-04-29T07:45:37.366Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bird-dms#head",
@@ -19,7 +19,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/tolibear/bird-dms/SKILL.md",
-        "retrieved_at": "2026-04-28T07:52:56.086Z",
+        "retrieved_at": "2026-04-29T07:45:37.366Z",
         "content_sha256": "d681cb0d98b8a4ad3412c8fee6bc05f23c1b95836f6a35f03687c16abf97d2a6"
       }
     }

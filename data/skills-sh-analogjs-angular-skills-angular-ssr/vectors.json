@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-ssr",
-  "generated_at": "2026-04-28T07:51:26.964Z",
+  "generated_at": "2026-04-29T07:44:40.910Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-ssr#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-ssr/references/ssr-patterns.md",
-        "retrieved_at": "2026-04-28T07:51:26.964Z",
+        "retrieved_at": "2026-04-29T07:44:40.910Z",
         "content_sha256": "23aedff793dbe7c92dfd4f8bec9e48657d5f0399dae3232fc9b5a3b88a8284c5"
       }
     }

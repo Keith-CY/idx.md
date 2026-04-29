@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-nobot",
-  "generated_at": "2026-04-28T07:49:08.491Z",
+  "generated_at": "2026-04-29T07:43:18.398Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-nobot#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/swordfish444/nobot/SKILL.md",
-        "retrieved_at": "2026-04-28T07:49:08.491Z",
+        "retrieved_at": "2026-04-29T07:43:18.398Z",
         "content_sha256": "33617db18876f90f52fd2c50ee4a710f696936034c913a8fa16e607553d47dbc"
       }
     }

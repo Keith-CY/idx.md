@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-product-strategist",
-  "generated_at": "2026-04-28T07:49:36.876Z",
+  "generated_at": "2026-04-29T07:43:36.380Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-product-strategist#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alirezarezvani/product-strategist/SKILL.md",
-        "retrieved_at": "2026-04-28T07:49:36.876Z",
+        "retrieved_at": "2026-04-29T07:43:36.380Z",
         "content_sha256": "814500c35c693c547b93df0aaecc37652ee5a949f5e5517ed144b6d8f026244f"
       }
     }

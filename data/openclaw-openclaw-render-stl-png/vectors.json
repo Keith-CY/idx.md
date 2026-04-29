@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-render-stl-png",
-  "generated_at": "2026-04-28T07:49:51.594Z",
+  "generated_at": "2026-04-29T07:43:45.759Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-render-stl-png#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/ajmwagar/render-stl-png/SKILL.md",
-        "retrieved_at": "2026-04-28T07:49:51.594Z",
+        "retrieved_at": "2026-04-29T07:43:45.759Z",
         "content_sha256": "e324a7398fbb5d3e7c9a2a3ecda6602e2f6682621701f69f20f2c12ffa7eec9c"
       }
     }

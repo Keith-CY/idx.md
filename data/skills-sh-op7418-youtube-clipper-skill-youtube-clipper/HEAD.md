@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/op7418/youtube-clipper-skill/youtube-clipper
 github_stars: 1428
 github_forks: 224
 github_is_organization: false
-retrieved_at: 2026-04-28T07:51:25.470Z
+retrieved_at: 2026-04-29T07:44:40.231Z
 content_sha256: 16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e
 ---

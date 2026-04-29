@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-roadrunner",
-  "generated_at": "2026-04-28T07:49:54.402Z",
+  "generated_at": "2026-04-29T07:43:47.643Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-roadrunner#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/johntheyoung/roadrunner/SKILL.md",
-        "retrieved_at": "2026-04-28T07:49:54.402Z",
+        "retrieved_at": "2026-04-29T07:43:47.643Z",
         "content_sha256": "a4ca70377b611d0b15d8a689a282a0d867d7c2563a19b950fbf50166e1c930c0"
       }
     }

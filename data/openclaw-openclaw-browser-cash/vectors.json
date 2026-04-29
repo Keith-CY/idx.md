@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-browser-cash",
-  "generated_at": "2026-04-28T07:47:27.256Z",
+  "generated_at": "2026-04-29T07:42:12.659Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-browser-cash#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/alexander-spring/browser-cash/SKILL.md",
-        "retrieved_at": "2026-04-28T07:47:27.256Z",
+        "retrieved_at": "2026-04-29T07:42:12.659Z",
         "content_sha256": "c5e75e1a076ed3b767d3b1fba9392a388251226e5c722da6d3b614dc90003f1f"
       }
     }

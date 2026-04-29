@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-quit-caffeine",
-  "generated_at": "2026-04-28T07:49:43.566Z",
+  "generated_at": "2026-04-29T07:43:40.879Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-quit-caffeine#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-caffeine/SKILL.md",
-        "retrieved_at": "2026-04-28T07:49:43.566Z",
+        "retrieved_at": "2026-04-29T07:43:40.879Z",
         "content_sha256": "b4859b8e266a82bd90682a24e966f26530c17ab2b627e7732546cbbc16e84186"
       }
     }

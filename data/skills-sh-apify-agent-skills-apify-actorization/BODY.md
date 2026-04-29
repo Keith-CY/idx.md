@@ -6,7 +6,7 @@
 npm install apify
 ```
 
-## Wrap Main Code with Actor Lifecycle
+## Wrap main code with Actor lifecycle
 
 ```javascript
 import { Actor } from 'apify';
@@ -37,14 +37,14 @@ console.log('Input:', input);
 await Actor.exit();
 ```
 
-## Key Points
+## Key points
 
 - `Actor.init()` configures storage to use Apify API when running on platform
 - `Actor.exit()` handles graceful shutdown and cleanup
 - Both calls must be awaited
 - Local execution remains unchanged - the SDK automatically detects the environment
 
-## Crawlee Projects
+## Crawlee projects
 
 Crawlee projects require minimal changes - just wrap with Actor lifecycle:
 
@@ -78,7 +78,7 @@ await crawler.run([startUrl]);
 await Actor.exit();
 ```
 
-## Express/HTTP Servers
+## Express/HTTP servers
 
 For web servers, use standby mode in actor.json:
 
@@ -92,7 +92,7 @@ For web servers, use standby mode in actor.json:
 
 Then implement readiness probe. See [standby-mode.md](../../apify-actor-development/references/standby-mode.md).
 
-## Batch Processing Scripts
+## Batch processing scripts
 
 ```javascript
 import { Actor } from 'apify';

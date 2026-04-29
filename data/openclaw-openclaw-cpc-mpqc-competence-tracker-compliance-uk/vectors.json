@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk",
-  "generated_at": "2026-04-28T07:47:46.532Z",
+  "generated_at": "2026-04-29T07:42:24.996Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-cpc-mpqc-competence-tracker-compliance-uk#head",
@@ -19,7 +19,7 @@
           "category-calendar-scheduling"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/kowl64/cpc-mpqc-competence-tracker-compliance-uk/SKILL.md",
-        "retrieved_at": "2026-04-28T07:47:46.532Z",
+        "retrieved_at": "2026-04-29T07:42:24.996Z",
         "content_sha256": "cd7a4d5446bf4f75301b00ae5e0d2a6fbdd2cf7c9502ed2d07632661245eb1aa"
       }
     }

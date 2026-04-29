@@ -8,7 +8,7 @@ summary: |-
   ```bash
   npm install apify
   ```
-  ## Wrap Main Code with Actor Lifecycle
+  ## Wrap main code with Actor lifecycle
   ```javascript
   import { Actor } from 'apify';
   // Initialize connection to Apify platform
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actorization
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-28T07:46:56.032Z
-content_sha256: 60984cafaba3c7789dc210fe1fc77c37497b1e6bb0be8af2183e79cba85a0832
+retrieved_at: 2026-04-29T07:41:53.499Z
+content_sha256: 683336ab365ade9a8e3cc9654a8e5d9bf7c2ce43a0b7594c5ee0c895f7e7b4d6
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-agent-weave",
-  "generated_at": "2026-04-28T07:52:15.127Z",
+  "generated_at": "2026-04-29T07:45:11.020Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-agent-weave#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/gl813788-byte/agent-weave/SKILL.md",
-        "retrieved_at": "2026-04-28T07:52:15.127Z",
+        "retrieved_at": "2026-04-29T07:45:11.020Z",
         "content_sha256": "adc9d8d8975c0e3c0553baabfe43311a3bc76145ab1c82b2de3f5489f19e747f"
       }
     }

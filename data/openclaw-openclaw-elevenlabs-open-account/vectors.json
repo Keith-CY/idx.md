@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-elevenlabs-open-account",
-  "generated_at": "2026-04-28T07:53:38.756Z",
+  "generated_at": "2026-04-29T07:46:04.186Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-elevenlabs-open-account#head",
@@ -19,7 +19,7 @@
           "category-moltbook"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/the-timebeing/elevenlabs-open-account/SKILL.md",
-        "retrieved_at": "2026-04-28T07:53:38.756Z",
+        "retrieved_at": "2026-04-29T07:46:04.186Z",
         "content_sha256": "b1233ab7f0642270f2d5c593ec87da76cc0826c8b98615d33c636c6fdd7f7e1b"
       }
     }
