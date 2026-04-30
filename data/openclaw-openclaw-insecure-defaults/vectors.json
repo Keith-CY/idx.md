@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-insecure-defaults",
-  "generated_at": "2026-04-29T07:42:53.255Z",
+  "generated_at": "2026-04-30T07:46:00.895Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-insecure-defaults#head",
@@ -19,7 +19,7 @@
           "category-security-passwords"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/atlas-secint/insecure-defaults/SKILL.md",
-        "retrieved_at": "2026-04-29T07:42:53.255Z",
+        "retrieved_at": "2026-04-30T07:46:00.895Z",
         "content_sha256": "6c6c54ab48dc13f2c4c514953808155433b7fa02752c5364d36a7720b758c6e9"
       }
     }

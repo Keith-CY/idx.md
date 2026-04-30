@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-testing
 github_stars: 558
 github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-04-29T07:46:52.672Z
+retrieved_at: 2026-04-30T07:50:22.477Z
 content_sha256: edf5f9f9b473a39ff51064b41d358e81628cc469781328d3a2447b03820004e6
 ---

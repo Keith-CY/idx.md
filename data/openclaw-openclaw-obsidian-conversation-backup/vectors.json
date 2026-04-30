@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-obsidian-conversation-backup",
-  "generated_at": "2026-04-29T07:43:20.982Z",
+  "generated_at": "2026-04-30T07:46:30.838Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-obsidian-conversation-backup#head",
@@ -19,7 +19,7 @@
           "category-notes-pkm"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/laserducktales/obsidian-conversation-backup/SKILL.md",
-        "retrieved_at": "2026-04-29T07:43:20.982Z",
+        "retrieved_at": "2026-04-30T07:46:30.838Z",
         "content_sha256": "6a6d89cee920328af439d7392aad8fe0e66a40d44798efea38f372f22cb7ac9c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-brew-install",
-  "generated_at": "2026-04-29T07:45:42.364Z",
+  "generated_at": "2026-04-30T07:49:05.195Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-brew-install#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/xejrax/brew-install/SKILL.md",
-        "retrieved_at": "2026-04-29T07:45:42.364Z",
+        "retrieved_at": "2026-04-30T07:49:05.195Z",
         "content_sha256": "97f7aae93ef175eb1a035a293e7c1d96017a53ec4355e1223c266f81fd100405"
       }
     }

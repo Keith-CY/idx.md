@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-coloring-page",
-  "generated_at": "2026-04-29T07:42:20.882Z",
+  "generated_at": "2026-04-30T07:45:26.336Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-coloring-page#head",
@@ -19,7 +19,7 @@
           "category-image-video-generation"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/borahm/coloring-page/SKILL.md",
-        "retrieved_at": "2026-04-29T07:42:20.882Z",
+        "retrieved_at": "2026-04-30T07:45:26.336Z",
         "content_sha256": "9ad556a3ff990a13231dccae66fef4bd2c64cf4f34e89aeab29d3644cb7e673a"
       }
     }

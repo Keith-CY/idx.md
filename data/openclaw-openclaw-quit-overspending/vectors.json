@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-quit-overspending",
-  "generated_at": "2026-04-29T07:43:41.001Z",
+  "generated_at": "2026-04-30T07:46:53.051Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-quit-overspending#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/quit-overspending/SKILL.md",
-        "retrieved_at": "2026-04-29T07:43:41.001Z",
+        "retrieved_at": "2026-04-30T07:46:53.051Z",
         "content_sha256": "7c2683af8b009eda51e08b28143110d0a2ffbd5d302b2ac3ccc0184e9954335d"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-mijia",
-  "generated_at": "2026-04-29T07:43:08.454Z",
+  "generated_at": "2026-04-30T07:46:18.302Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-mijia#head",
@@ -19,7 +19,7 @@
           "category-smart-home-iot"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/hqman/mijia/SKILL.md",
-        "retrieved_at": "2026-04-29T07:43:08.454Z",
+        "retrieved_at": "2026-04-30T07:46:18.302Z",
         "content_sha256": "3f86554ff39ce08ac7841563159aebb3148504fd30ddce06613393f4b9183dd8"
       }
     }

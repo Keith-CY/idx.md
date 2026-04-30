@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-asc-release-flow",
-  "generated_at": "2026-04-29T07:45:29.812Z",
+  "generated_at": "2026-04-30T07:48:52.148Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-asc-release-flow#head",
@@ -19,7 +19,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rudrankriyam/asc-release-flow/SKILL.md",
-        "retrieved_at": "2026-04-29T07:45:29.812Z",
+        "retrieved_at": "2026-04-30T07:48:52.148Z",
         "content_sha256": "a1f8383ff0e200a1c086b6502c2f5a4abab0923ff28ea36937ad067d75dd76f3"
       }
     }

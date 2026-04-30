@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-apikiss",
-  "generated_at": "2026-04-29T07:45:24.789Z",
+  "generated_at": "2026-04-30T07:48:46.817Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-apikiss#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/theill/apikiss/SKILL.md",
-        "retrieved_at": "2026-04-29T07:45:24.789Z",
+        "retrieved_at": "2026-04-30T07:48:46.817Z",
         "content_sha256": "f5c5d949cb323ddfc714a4178a6d969074bb9905a406032a9df7e157863b740f"
       }
     }

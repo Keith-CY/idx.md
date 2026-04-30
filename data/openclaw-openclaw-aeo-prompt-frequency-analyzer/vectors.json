@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-aeo-prompt-frequency-analyzer",
-  "generated_at": "2026-04-29T07:44:58.069Z",
+  "generated_at": "2026-04-30T07:48:18.676Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-aeo-prompt-frequency-analyzer#head",
@@ -19,7 +19,7 @@
           "category-web-frontend-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/psyduckler/aeo-prompt-frequency-analyzer/SKILL.md",
-        "retrieved_at": "2026-04-29T07:44:58.069Z",
+        "retrieved_at": "2026-04-30T07:48:18.676Z",
         "content_sha256": "ed2e30c127d530dd43b3f9e27b71e16f5adafe41c5b8b3689f851812be14e423"
       }
     }

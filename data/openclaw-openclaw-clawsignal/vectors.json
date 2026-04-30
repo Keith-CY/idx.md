@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-clawsignal",
-  "generated_at": "2026-04-29T07:42:19.088Z",
+  "generated_at": "2026-04-30T07:45:24.358Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-clawsignal#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bmcalister/clawsignal/SKILL.md",
-        "retrieved_at": "2026-04-29T07:42:19.088Z",
+        "retrieved_at": "2026-04-30T07:45:24.358Z",
         "content_sha256": "7febe07adf998a92366fc0e77d5b32c2406c2b48bf42a1e9a309e60562f65389"
       }
     }

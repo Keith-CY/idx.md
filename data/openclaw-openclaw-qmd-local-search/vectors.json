@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-qmd-local-search",
-  "generated_at": "2026-04-29T07:43:40.194Z",
+  "generated_at": "2026-04-30T07:46:52.072Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-qmd-local-search#head",
@@ -19,7 +19,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/bheemreddy181/qmd-local-search/SKILL.md",
-        "retrieved_at": "2026-04-29T07:43:40.194Z",
+        "retrieved_at": "2026-04-30T07:46:52.072Z",
         "content_sha256": "6f8ee896ea01ec636ca367f8b4bac63d40026957886a9c11b88c97971281b7f1"
       }
     }

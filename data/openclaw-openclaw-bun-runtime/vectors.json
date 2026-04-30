@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-bun-runtime",
-  "generated_at": "2026-04-29T07:45:43.534Z",
+  "generated_at": "2026-04-30T07:49:06.566Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-bun-runtime#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/rabin-thami/bun-runtime/SKILL.md",
-        "retrieved_at": "2026-04-29T07:45:43.534Z",
+        "retrieved_at": "2026-04-30T07:49:06.566Z",
         "content_sha256": "2e313b3b4ebd1b63a9ecb06998fd1212e37ed5157227a70adb3bb86dcf25823f"
       }
     }

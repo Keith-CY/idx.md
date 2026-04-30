@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-inkjet",
-  "generated_at": "2026-04-29T07:46:12.754Z",
+  "generated_at": "2026-04-30T07:49:38.306Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-inkjet#head",
@@ -19,7 +19,7 @@
           "category-apple-apps-services"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/aaronchartier/inkjet/SKILL.md",
-        "retrieved_at": "2026-04-29T07:46:12.754Z",
+        "retrieved_at": "2026-04-30T07:49:38.306Z",
         "content_sha256": "e4a9c6ed11feb5fd0599e4fbad5dc5a7d225aee1a6352b5c3313ffc5918db161"
       }
     }

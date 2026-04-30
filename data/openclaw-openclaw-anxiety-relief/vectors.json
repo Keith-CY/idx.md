@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-anxiety-relief",
-  "generated_at": "2026-04-29T07:45:23.832Z",
+  "generated_at": "2026-04-30T07:48:45.797Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-anxiety-relief#head",
@@ -19,7 +19,7 @@
           "category-personal-development"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/jhillin8/anxiety-relief/SKILL.md",
-        "retrieved_at": "2026-04-29T07:45:23.832Z",
+        "retrieved_at": "2026-04-30T07:48:45.797Z",
         "content_sha256": "163e985645b4c288c02dd9f733745e8f9b7df4bb50989f7ea82b9ff72155edc3"
       }
     }

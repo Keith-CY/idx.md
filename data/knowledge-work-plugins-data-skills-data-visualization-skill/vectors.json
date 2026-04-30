@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-skills-data-visualization-skill",
-  "generated_at": "2026-04-29T07:41:37.753Z",
+  "generated_at": "2026-04-30T07:44:38.267Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-skills-data-visualization-skill#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/data-visualization/SKILL.md",
-        "retrieved_at": "2026-04-29T07:41:37.753Z",
+        "retrieved_at": "2026-04-30T07:44:38.267Z",
         "content_sha256": "5811e8b3547cda6bc8af118aaf0d7589e8861cdc9facce6372dc78aea99ab87d"
       }
     }

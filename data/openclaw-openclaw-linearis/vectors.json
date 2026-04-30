@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-linearis",
-  "generated_at": "2026-04-29T07:43:02.024Z",
+  "generated_at": "2026-04-30T07:46:10.262Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-linearis#head",
@@ -19,7 +19,7 @@
           "category-devops-cloud"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/whoisnnamdi/linearis/SKILL.md",
-        "retrieved_at": "2026-04-29T07:43:02.024Z",
+        "retrieved_at": "2026-04-30T07:46:10.262Z",
         "content_sha256": "8d19fd85f4cd752dd4ca4ff9324437177fc68ff10c6156b79a87594bee5b3bdc"
       }
     }

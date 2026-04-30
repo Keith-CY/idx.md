@@ -18,6 +18,6 @@ upstream_ref: https://github.com/actionbook/rust-skills/blob/main/skills/m04-zer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-29T07:46:25.988Z
+retrieved_at: 2026-04-30T07:49:53.193Z
 content_sha256: 3a2eed8faf0a0087aa5c823d66341123cc6f43ef36d1767c3fdbcc86cf8b4b54
 ---

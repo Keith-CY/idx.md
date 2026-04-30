@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openclaw-openclaw-curl-http",
-  "generated_at": "2026-04-29T07:42:26.545Z",
+  "generated_at": "2026-04-30T07:45:32.070Z",
   "records": [
     {
       "id": "skills/openclaw-openclaw-curl-http#head",
@@ -19,7 +19,7 @@
           "category-cli-utilities"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/skills/main/skills/arnarsson/curl-http/SKILL.md",
-        "retrieved_at": "2026-04-29T07:42:26.545Z",
+        "retrieved_at": "2026-04-30T07:45:32.070Z",
         "content_sha256": "be6d626cfcbdbc5280fc23f73bc5dcd43db1297c7e9c5a095ac9c12fc39b0e5f"
       }
     }
