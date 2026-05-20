@@ -18,6 +18,6 @@ upstream_ref: https://github.com/lobehub/lobehub/blob/canary/.agents/skills/data
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-30T07:49:57.937Z
-content_sha256: 001c135990eca9924a03c8c9e8330f8d18393151827d5ddef5074f23eb6fb6de
+retrieved_at: 2026-05-20T08:08:45.142Z
+content_sha256: 7acc7fdd05ddb09f90d5f8f36f5d6cb6416e2db68787b0728627553b3ccb9369
 ---

@@ -1,5 +1,103 @@
 # Changelog
 
+## 0.3.145
+
+- Updated to parity with Claude Code v2.1.145
+
+## 0.3.144
+
+- Assistant messages and `StopFailure` hooks now report `error: 'model_not_found'` when the selected model doesn't exist or isn't available, instead of the generic `'invalid_request'`. The `api_error_status` field on result messages is now documented.
+- Added `@anthropic-ai/claude-agent-sdk/extract` export for `bun build --compile` consumers: import the platform native binary with `with { type: 'file' }`, call `extractFromBunfs(binPath)` to copy it out of the compiled executable's virtual filesystem, and pass the result to `options.pathToClaudeCodeExecutable`
+
+## 0.3.143
+
+- `@anthropic-ai/sdk` and `@modelcontextprotocol/sdk` are now `peerDependencies` instead of `dependencies`. Runtime is unaffected (both are bundled); npm/bun/pnpm auto-install them. yarn classic users should add them explicitly for full TypeScript type resolution
+
+## 0.3.142
+
+- **Breaking:** Removed the v2 session API (`unstable_v2_createSession`, `unstable_v2_resumeSession`, `unstable_v2_prompt`, `SDKSession`, `SDKSessionOptions`), deprecated since 0.2.133. Use `query()` — pass an `AsyncIterable<SDKUserMessage>` for multi-turn, or `options.resume` to continue a session.
+- **Breaking:** MCP servers now connect in the background by default; sessions start immediately and slow servers report `status: "pending"` in `init` until ready. Set `MCP_CONNECTION_NONBLOCKING=0` to restore the old behavior of waiting up to 5s before the first query, or mark a server `alwaysLoad: true` to require it in turn 1.
+- **Breaking:** Headless and SDK sessions now use Task tools (`TaskCreate` / `TaskUpdate` / `TaskGet` / `TaskList`) instead of `TodoWrite`, deprecated since 0.2.136. Tool consumers should accumulate by task ID instead of replacing a snapshot list.
+- Surfaced `request_id`, `subagent_type`, and `task_description` on SDK message types and task system events
+- Headless `--sdk-url` sessions now exit non-zero with a stderr diagnostic when the remote transport closes permanently (401/403/404 or WS permanent close), instead of silently exiting 0
+
+## 0.2.141
+
+- `TaskCreateInput`, `TaskCreateOutput`, `TaskGetInput`, `TaskGetOutput`, `TaskUpdateInput`, `TaskUpdateOutput`, `TaskListInput`, and `TaskListOutput` types are now exported from `@anthropic-ai/claude-agent-sdk/sdk-tools` and included in the `ToolInputSchemas`/`ToolOutputSchemas` unions
+- Aligned `@anthropic-ai/sdk` dependency to ^0.93.0
+
+## 0.2.140
+
+- Updated to parity with Claude Code v2.1.140
+
+## 0.2.139
+
+- Updated to parity with Claude Code v2.1.139
+
+## 0.2.138
+
+- Updated to parity with Claude Code v2.1.138
+
+## 0.2.137
+
+- Updated to parity with Claude Code v2.1.137
+
+## 0.2.136
+
+- Added `resolveSettings()` (alpha) to inspect effective merged settings without spawning the Claude CLI; reads MDM (plist/HKLM/HKCU) for parity with CLI startup
+- Deprecated `TodoWrite` tool — future versions will switch to Task tools (`TaskCreate`, `TaskGet`, `TaskUpdate`, `TaskList`)
+
+## 0.2.135
+
+- Updated to parity with Claude Code v2.1.135
+
+## 0.2.134
+
+- Updated to parity with Claude Code v2.1.134
+
+## 0.2.133
+
+- Deprecated the unstable V2 session API (`unstable_v2_createSession` / `unstable_v2_resumeSession` / `unstable_v2_prompt`) — use `query()` instead
+- Deprecated passing `'Skill'` in `allowedTools` — use the `skills` option instead
+- Updated to parity with Claude Code v2.1.133
+
+## 0.2.132
+
+- Documented `applyFlagSettings()` in the TypeScript Agent SDK reference and added support for `null` on top-level keys to clear flag-settings overrides
+- Updated to parity with Claude Code v2.1.132
+
+## 0.2.131
+
+- Updated to parity with Claude Code v2.1.131
+
+## 0.2.130
+
+- Updated to parity with Claude Code v2.1.130
+
+## 0.2.129
+
+- Updated to parity with Claude Code v2.1.129
+
+## 0.2.128
+
+- Updated to parity with Claude Code v2.1.128
+
+## 0.2.127
+
+- Updated to parity with Claude Code v2.1.127
+
+## 0.2.126
+
+- Added `origin` to result messages (`SDKResultSuccess` / `SDKResultError`) — forwards the triggering message's `SDKMessageOrigin` so consumers can distinguish user-prompted results from `task-notification` followups
+
+## 0.2.125
+
+- Updated to parity with Claude Code v2.1.125
+
+## 0.2.124
+
+- Updated to parity with Claude Code v2.1.124
+
 ## 0.2.123
 
 - Updated to parity with Claude Code v2.1.123

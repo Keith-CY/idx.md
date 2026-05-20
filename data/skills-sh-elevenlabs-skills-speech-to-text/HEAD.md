@@ -9,7 +9,7 @@ summary: >-
 
   ```bash
 
-  npm install @elevenlabs/elevenlabs-js
+  npm install @elevenlabs/elevenlabs-js@latest
 
   ```
 
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-30T07:44:54.512Z
-content_sha256: f88c8285e03acdc53f26ff51ba49b8a7d7f4298a1d5456942ace182ed4ab4915
+retrieved_at: 2026-05-20T08:09:18.860Z
+content_sha256: 4ab0635663a2065ade4b0e35ac53d21223bcc2ab257c019bd775866a81c7742f
 ---

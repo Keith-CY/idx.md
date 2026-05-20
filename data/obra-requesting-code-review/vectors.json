@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-requesting-code-review",
-  "generated_at": "2026-04-30T07:44:28.468Z",
+  "generated_at": "2026-05-20T08:09:02.410Z",
   "records": [
     {
       "id": "skills/obra-requesting-code-review#head",
       "kind": "head",
       "path": "/data/obra-requesting-code-review/HEAD.md",
-      "text": "title: obra-requesting-code-review\nsummary: --- name: requesting-code-review description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements --- # Requesting Code Review Dispatch superpowers:code-reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation — never your session's history. This keeps the reviewer focused on the work product, not your thought process, and preserves your own context for continued work. **Core principle:** Review early, review often. ## When to Request Review **Mandatory:** - After each task in subagent-driven development\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md",
+      "text": "title: obra-requesting-code-review\nsummary: --- name: requesting-code-review description: Use when completing tasks, implementing major features, or before merging to verify work meets requirements --- # Requesting Code Review Dispatch a code reviewer subagent to catch issues before they cascade. The reviewer gets precisely crafted context for evaluation — never your session's history. This keeps the reviewer focused on the work product, not your thought process, and preserves your own context for continued work. **Core principle:** Review early, review often. ## When to Request Review **Mandatory:** - After each task in subagent-driven development\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md",
       "metadata": {
         "stable_id": "skills/obra-requesting-code-review",
         "topic": "obra-requesting-code-review",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md",
-        "retrieved_at": "2026-04-30T07:44:28.468Z",
-        "content_sha256": "a5ff68586ccf62d1803cedeb71d60fd96ec05591d29c8d123196117eefd34cd0"
+        "retrieved_at": "2026-05-20T08:09:02.410Z",
+        "content_sha256": "5a3a44a3667800e2dc836829c6b92fada51e6dc58ac144ec05fe59f47d6bcd84"
       }
     }
   ]

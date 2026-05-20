@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-insecure-defaults",
-  "generated_at": "2026-04-30T07:44:53.515Z",
+  "generated_at": "2026-05-20T08:09:18.199Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-insecure-defaults#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/insecure-defaults/skills/insecure-defaults/references/examples.md",
-        "retrieved_at": "2026-04-30T07:44:53.515Z",
+        "retrieved_at": "2026-05-20T08:09:18.199Z",
         "content_sha256": "1d47703f84b6c5866e299e46f7f797c6178c2896fe37e02759fec5bfbf5b8d1f"
       }
     }

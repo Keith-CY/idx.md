@@ -1,9 +1,10 @@
 ---
 name: rtk-optimizer
 description: "Wrap high-verbosity shell commands with RTK to reduce token consumption. Use when running git log, git diff, cargo test, pytest, or other verbose CLI output that wastes context window tokens."
-version: 1.0.0
-tags: [optimization, tokens, efficiency, git]
+allowed-tools: Bash
 effort: low
+metadata:
+  version: 1.0.0
 ---
 
 # RTK Optimizer Skill

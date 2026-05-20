@@ -7,19 +7,22 @@ summary: >-
 
   ```sh
 
-  curl -fsSL https://cli.inference.sh | sh
-
-  belt login
+  curl -fsSL cli.inference.sh | sh
 
   ```
 
-  ## What does the installer do?
+  Or via package managers:
 
-  The install script detects your OS and architecture, downloads the correct
-  binary from dist.inference.sh, verifies its SHA-256 checksum, and places it in
-  your PATH. That's it — no elevated permissions, no background processes, no
-  telemetry. If you have cosign installed, the installer also verifies the
-  Sigstore signature automatically.
+  ```sh
+
+  brew install inference-sh/tap/belt       # macOS / Linux
+
+  npx @inferencesh/belt                    # Node.js
+
+  scoop bucket add inference https://github.com/inference-sh/scoop-bucket &&
+  scoop install belt  # Windows
+
+  ```
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -29,6 +32,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/ai-image-generation
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-04-30T07:50:06.020Z
-content_sha256: 4b4fae9a1332d7ce05bf6b71fc2d5a2cfc4d73531b480d978bf796df169e3682
+retrieved_at: 2026-05-20T08:08:51.203Z
+content_sha256: 0f050f2e2feb82e205786863bbb5239d98792bbc41545cfc87d5ff8693ce4c0c
 ---

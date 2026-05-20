@@ -28,8 +28,8 @@ summary: >-
   **Announce at start:** "I'm using the writing-plans skill to create the
   implementation plan."
 
-  **Context:** This should be run in a dedicated worktree (created by
-  brainstorming skill).
+  **Context:** If working in an isolated worktree, it should have been created
+  via the `superpowers:using-git-worktrees` skill at execution time.
 tags:
   - obra
   - source-obra-superpowers
@@ -39,6 +39,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-04-30T07:44:28.607Z
-content_sha256: 90056bad3d5f196fa7c9fec0ffe592e6d9c86bc983e406642a51d1a4198b7024
+retrieved_at: 2026-05-20T08:09:02.700Z
+content_sha256: 4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b
 ---

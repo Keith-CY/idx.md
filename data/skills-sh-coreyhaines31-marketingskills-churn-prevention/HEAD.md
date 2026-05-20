@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/churn-prevention
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-04-30T07:45:05.849Z
-content_sha256: bd4f9eb09757189e4fe4f849c708731a307508e8765c3345639480c222378120
+retrieved_at: 2026-05-20T08:09:25.651Z
+content_sha256: d64b9282b956da6831ec97a1fffda5841c5c43a71721b512b66b04bde104c139
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "pinchboard-skill",
-  "generated_at": "2026-04-30T07:44:31.588Z",
+  "generated_at": "2026-05-20T08:09:05.042Z",
   "records": [
     {
       "id": "skills/pinchboard-skill#head",
@@ -15,7 +15,7 @@
         "title": "pinchboard-skill",
         "tags": [],
         "source_url": "https://pinchboard.up.railway.app/skill.md",
-        "retrieved_at": "2026-04-30T07:44:31.588Z",
+        "retrieved_at": "2026-05-20T08:09:05.042Z",
         "content_sha256": "485db7c6fe19be083bde01ced7027103de7df5fac74a8c2c486a94685569005e"
       }
     }

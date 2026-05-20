@@ -7,27 +7,30 @@ summary: >-
 
   name: Clawdbot
 
-  description: Use when setting up, configuring, or troubleshooting OpenClaw
-  agents, channels, models, tools, automation, or gateway operations. Reach for
-  this skill when users ask about agent configuration, connecting messaging
-  platforms, enabling tools, managing sessions, or deploying the OpenClaw
-  gateway.
+  description: Use when setting up or managing a self-hosted AI agent gateway,
+  configuring channels (Discord, Slack, Telegram, WhatsApp, etc.), managing
+  agent workspaces and sessions, deploying multi-agent systems, or
+  troubleshooting gateway operations and channel connectivity.
 
   metadata:
       mintlify-proj: clawdbot
       version: "1.0"
   ---
 
-  # clawdbot
+  # OpenClaw Skill
 
-  OpenClaw is an agentic AI platform that runs a single embedded agent runtime
-  with configurable channels (Discord, Telegram, WhatsApp, Slack, etc.), tools,
-  models, and automation. Agents operate from a workspace directory with
-  bootstrap files (AGENTS.md, SOUL.md, TOOLS.md, etc.) and are managed through a
-  JSON5 config file at `~/.openclaw/openclaw.json`. The gateway listens on port
-  18789 and exposes a Control UI dashboard, RPC API, and CLI commands.
+  ## Product summary
 
-  **Key files and commands:**
+  OpenClaw is a self-hosted multi-channel gateway for AI agents that runs on any
+  OS (macOS, Linux, Windows, Raspberry Pi). It connects messaging platforms
+  (Discord, Slack, Telegram, WhatsApp, Signal, iMessage, Matrix, Microsoft
+  Teams, Google Chat, and more) to a single embedded agent runtime. Agents use
+  tools, manage sessions, and route messages across channels from one Gateway
+  process. Key files: `~/.openclaw/openclaw.json` (config),
+  `~/.openclaw/workspace/` (agent workspace with AGENTS.md, SOUL.md, TOOLS.md,
+  IDENTITY.md, USER.md, BOOTSTRAP.md). Primary CLI: `openclaw` with subcommands
+  for gateway, agents, channels, models, and automation. [Full
+  docs](https://docs.openclaw.ai).
 tags: []
 source_url: https://docs.openclaw.ai/skill.md
 license: ""
@@ -35,6 +38,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-30T07:44:32.395Z
-content_sha256: af4944ccad8bedcc67803eb57343876294c718ba364416a2381cc5c1920b46bb
+retrieved_at: 2026-05-20T08:09:05.450Z
+content_sha256: 063ae087f404c6dd63ea95598330ca198b93328c5ae738d7d87aabc9d6516d1b
 ---

@@ -5,14 +5,14 @@ title: skills-sh-ccheney-robust-skills-clean-ddd-hexagonal
 summary: |-
   # Layer Structure - Complete Reference
   > Sources:
+  > Primary:
   > - [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) — Robert C. Martin
+  > - [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) — Jeffrey Palermo
+  > Implementation guide:
   > - [Designing a DDD-oriented Microservice](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) — Microsoft
+  > Supplemental synthesis:
   > - [Clean Architecture: Standing on the Shoulders of Giants](https://herbertograca.com/2017/09/28/clean-architecture-standing-on-the-shoulders-of-giants/) — Herberto Graça
   ## The Four Layers
-  | Layer | Responsibility | Dependencies |
-  |-------|---------------|--------------|
-  | **Domain** | Business logic, entities, rules | None (pure) |
-  | **Application** | Use cases, orchestration | Domain |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/ccheney/robust-skills/clean-ddd-hexagonal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-04-30T07:44:55.326Z
-content_sha256: dba15a07f0f6981bb30201464edcd9a71a7b6cc5a024aaa8536fd03a152711b2
+retrieved_at: 2026-05-20T08:09:19.349Z
+content_sha256: 2fd1ee569b25ead0d5683e16da82451a46659f4fe271fa50a960a4aad7680a28
 ---

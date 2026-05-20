@@ -3,6 +3,14 @@ stable_id: skills/skills-sh-github-awesome-copilot-winapp-cli
 type: skills
 title: skills-sh-github-awesome-copilot-winapp-cli
 summary: >-
+  <!-- mslearn: true -->
+
+  <!-- ms.topic: reference -->
+
+  <!-- description: Complete command reference for the Windows App Development
+  CLI (winapp CLI) including setup, packaging, identity, certificates, signing,
+  and utility commands. -->
+
   # CLI Documentation and Usage
 
   ## Shell Completion
@@ -17,12 +25,6 @@ summary: >-
   winapp complete --setup powershell >> $PROFILE
 
   # Or try it in the current session only
-
-  winapp complete --setup powershell | Out-String | Invoke-Expression
-
-  ```
-
-  ### init
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +34,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
 github_stars: 932
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-04-30T07:50:16.209Z
-content_sha256: c8d584885bdc1c6d54741116a3da31b1b22d1f61513d652dd5faeb328de7bb19
+retrieved_at: 2026-05-20T08:08:57.243Z
+content_sha256: d5fd7d119bdb886ef71b4334a83cd2ac5e739d3835584dcda1e88f2191ff4f1f
 ---

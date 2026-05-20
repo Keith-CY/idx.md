@@ -8,8 +8,8 @@ summary: >-
   name: using-git-worktrees
 
   description: Use when starting feature work that needs isolation from current
-  workspace or before executing implementation plans - creates isolated git
-  worktrees with smart directory selection and safety verification
+  workspace or before executing implementation plans - ensures an isolated
+  workspace exists via native tools or git worktree fallback
 
   ---
 
@@ -17,16 +17,17 @@ summary: >-
 
   ## Overview
 
-  Git worktrees create isolated workspaces sharing the same repository, allowing
-  work on multiple branches simultaneously without switching.
+  Ensure work happens in an isolated workspace. Prefer your platform's native
+  worktree tools. Fall back to manual git worktrees only when no native tool is
+  available.
 
-  **Core principle:** Systematic directory selection + safety verification =
-  reliable isolation.
+  **Core principle:** Detect existing isolation first. Then use native tools.
+  Then fall back to git. Never fight the harness.
 
   **Announce at start:** "I'm using the using-git-worktrees skill to set up an
   isolated workspace."
 
-  ## Directory Selection Process
+  ## Step 0: Detect Existing Isolation
 tags:
   - obra
   - source-obra-superpowers
@@ -36,6 +37,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-git-wor
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-04-30T07:44:28.547Z
-content_sha256: de9dcde34840eee074047ec327d4ea6ca4954c5a73a6d874dc48f25fe46c9e7c
+retrieved_at: 2026-05-20T08:09:02.535Z
+content_sha256: 085a45ee3de432bdb2768011591d9a882cb6c759e2317f379226451c5618fe8e
 ---

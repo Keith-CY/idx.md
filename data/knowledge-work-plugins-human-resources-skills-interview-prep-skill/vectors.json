@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-interview-prep-skill",
-  "generated_at": "2026-04-30T07:44:58.239Z",
+  "generated_at": "2026-05-20T08:09:21.027Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-interview-prep-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/interview-prep/SKILL.md",
-        "retrieved_at": "2026-04-30T07:44:58.239Z",
+        "retrieved_at": "2026-05-20T08:09:21.027Z",
         "content_sha256": "c687311babdeccf086aa5f6d86dcbfc3a9d1b8bb7124f072450ffa4315d98c4c"
       }
     }

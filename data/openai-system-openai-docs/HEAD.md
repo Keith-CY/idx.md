@@ -24,16 +24,18 @@ summary: >-
   server is installed and returns no meaningful results should you fall back to
   web search.
 
+  ## API Key Setup
+
+  For requests to build, run, configure, debug, or implement an API-backed app,
+  script, CLI, generator, or tool, use `openai-platform-api-key` first when
+  available. After that credential gate is resolved, return here for current
+  docs as needed.
+
+  Use this skill directly for docs-only questions, citations, model/API
+  guidance, conceptual explanations, and examples that do not require building
+  or running an API-backed artifact.
+
   ## Quick start
-
-  - Use `mcp__openaiDeveloperDocs__search_openai_docs` to find the most relevant
-  doc pages.
-
-  - Use `mcp__openaiDeveloperDocs__fetch_openai_doc` to pull exact sections and
-  quote/paraphrase accurately.
-
-  - Use `mcp__openaiDeveloperDocs__list_openai_docs` only when you need to
-  browse or discover pages without a clear query.
 tags:
   - openai
   - source-openai-skills
@@ -43,6 +45,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/openai-d
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-04-30T07:49:52.849Z
-content_sha256: 1941a2fa1d815f9fa46efbe410df4dbb57092e22140e768c085c4bedba859fa3
+retrieved_at: 2026-05-20T08:08:49.775Z
+content_sha256: 1ee3c911a5c615c4f508e5611cb6e38548aba5ea12efb0c3e8838614cc6347b9
 ---

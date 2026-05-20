@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-writing-plans",
-  "generated_at": "2026-04-30T07:44:28.607Z",
+  "generated_at": "2026-05-20T08:09:02.700Z",
   "records": [
     {
       "id": "skills/obra-writing-plans#head",
       "kind": "head",
       "path": "/data/obra-writing-plans/HEAD.md",
-      "text": "title: obra-writing-plans\nsummary: --- name: writing-plans description: Use when you have a spec or requirements for a multi-step task, before touching code --- # Writing Plans ## Overview Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits. Assume they are a skilled developer, but know almost nothing about our toolset or problem domain. Assume they don't know good test design very well. **Announce at start:** \"I'm using the writing-plans skill to create the implementation plan.\" **Context:** This should be run in a dedicated worktree (created by brainstorming skill).\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md",
+      "text": "title: obra-writing-plans\nsummary: --- name: writing-plans description: Use when you have a spec or requirements for a multi-step task, before touching code --- # Writing Plans ## Overview Write comprehensive implementation plans assuming the engineer has zero context for our codebase and questionable taste. Document everything they need to know: which files to touch for each task, code, testing, docs they might need to check, how to test it. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits. Assume they are a skilled developer, but know almost nothing about our toolset or problem domain. Assume they don't know good test design very well. **Announce at start:** \"I'm using the writing-plans skill to create the implementation plan.\" **Context:** If working in an isolated worktree, it should have been created via the `superpowers:using-git-worktrees` skill at execution time.\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md",
       "metadata": {
         "stable_id": "skills/obra-writing-plans",
         "topic": "obra-writing-plans",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md",
-        "retrieved_at": "2026-04-30T07:44:28.607Z",
-        "content_sha256": "90056bad3d5f196fa7c9fec0ffe592e6d9c86bc983e406642a51d1a4198b7024"
+        "retrieved_at": "2026-05-20T08:09:02.700Z",
+        "content_sha256": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b"
       }
     }
   ]

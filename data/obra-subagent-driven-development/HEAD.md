@@ -26,9 +26,14 @@ summary: >-
   **Core principle:** Fresh subagent per task + two-stage review (spec then
   quality) = high quality, fast iteration
 
-  ## When to Use
+  **Continuous execution:** Do not pause to check in with your human partner
+  between tasks. Execute all tasks from the plan without stopping. The only
+  reasons to stop are: BLOCKED status you cannot resolve, ambiguity that
+  genuinely prevents progress, or all tasks complete. "Should I continue?"
+  prompts and progress summaries waste their time — they asked you to execute
+  the plan, so execute it.
 
-  ```dot
+  ## When to Use
 tags:
   - obra
   - source-obra-superpowers
@@ -38,6 +43,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driv
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-04-30T07:44:28.487Z
-content_sha256: 081ad3869e55c80bf8f890b4768a90c0e8057daf94b1b6fadebfc85ea5b8304a
+retrieved_at: 2026-05-20T08:09:02.459Z
+content_sha256: 905a2b9be59b734dbe166525ad31dcaaf712a75926135adee1f554557aba5744
 ---
