@@ -2,40 +2,17 @@
 stable_id: skills/skills-sh-jezweb-claude-skills-claude-agent-sdk
 type: skills
 title: skills-sh-jezweb-claude-skills-claude-agent-sdk
-summary: >-
+summary: |-
   # Changelog
-
+  ## 0.3.148
+  - Updated to parity with Claude Code v2.1.148
+  ## 0.3.147
+  - Updated to parity with Claude Code v2.1.147
+  ## 0.3.146
+  - Updated to parity with Claude Code v2.1.146
   ## 0.3.145
-
   - Updated to parity with Claude Code v2.1.145
-
   ## 0.3.144
-
-  - Assistant messages and `StopFailure` hooks now report `error:
-  'model_not_found'` when the selected model doesn't exist or isn't available,
-  instead of the generic `'invalid_request'`. The `api_error_status` field on
-  result messages is now documented.
-
-  - Added `@anthropic-ai/claude-agent-sdk/extract` export for `bun build
-  --compile` consumers: import the platform native binary with `with { type:
-  'file' }`, call `extractFromBunfs(binPath)` to copy it out of the compiled
-  executable's virtual filesystem, and pass the result to
-  `options.pathToClaudeCodeExecutable`
-
-  ## 0.3.143
-
-  - `@anthropic-ai/sdk` and `@modelcontextprotocol/sdk` are now
-  `peerDependencies` instead of `dependencies`. Runtime is unaffected (both are
-  bundled); npm/bun/pnpm auto-install them. yarn classic users should add them
-  explicitly for full TypeScript type resolution
-
-  ## 0.3.142
-
-  - **Breaking:** Removed the v2 session API (`unstable_v2_createSession`,
-  `unstable_v2_resumeSession`, `unstable_v2_prompt`, `SDKSession`,
-  `SDKSessionOptions`), deprecated since 0.2.133. Use `query()` — pass an
-  `AsyncIterable<SDKUserMessage>` for multi-turn, or `options.resume` to
-  continue a session.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -45,6 +22,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-20T08:09:19.755Z
-content_sha256: a076b893dd34cad546e0350919c27a8823bfd4759bc03181a830eb0150e023e1
+retrieved_at: 2026-05-22T08:07:54.786Z
+content_sha256: 8000ff6e4cd4db972c4c2fd89899b8aca4254587615eea053e936680a1c841f1
 ---

@@ -26,6 +26,6 @@ upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metad
 github_stars: 1047
 github_forks: 47
 github_is_organization: false
-retrieved_at: 2026-05-20T08:08:50.009Z
+retrieved_at: 2026-05-22T08:06:58.082Z
 content_sha256: b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation",
-  "generated_at": "2026-05-20T08:08:50.588Z",
+  "generated_at": "2026-05-22T08:06:59.227Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-appinsights-instrumentation#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/appinsights-instrumentation/references/auto.md",
-        "retrieved_at": "2026-05-20T08:08:50.588Z",
+        "retrieved_at": "2026-05-22T08:06:59.227Z",
         "content_sha256": "8a0a447289e232dc54909017b4a490b46ca5fc1eb90099645eeb99b1b9a8a732"
       }
     }

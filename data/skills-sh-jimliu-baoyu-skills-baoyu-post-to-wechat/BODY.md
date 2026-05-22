@@ -86,7 +86,11 @@ options:
     description: "Fast, requires API credentials (AppID + AppSecret)"
   - label: "browser"
     description: "Slow, requires Chrome and login session"
+  - label: "remote-api"
+    description: "Fast, tunnels WeChat API calls through SSH to a server whose IP is on the WeChat allowlist"
 ```
+
+If the user selects `remote-api`, prompt for `remote_publish_host` and (optionally) `remote_publish_user`, `remote_publish_identity_file`. These can also be filled in later by editing EXTEND.md.
 
 ### Question 4: Default Author
 
@@ -157,12 +161,25 @@ options:
 ```md
 default_theme: [default/grace/simple/modern]
 default_color: [preset name, hex, or empty for theme default]
-default_publish_method: [api/browser]
+default_publish_method: [api/browser/remote-api]
 default_author: [author name or empty]
 need_open_comment: [1/0]
 only_fans_can_comment: [1/0]
 chrome_profile_path:
+
+# Remote API publishing — only fill in if default_publish_method is remote-api
+# or you plan to pass --remote on the CLI.
+remote_publish_host:
+remote_publish_user:
+remote_publish_port:
+remote_publish_identity_file:
+remote_publish_known_hosts_file:
+remote_publish_strict_host_key_checking:
+remote_publish_connect_timeout:
+remote_publish_proxy_jump:
 ```
+
+Raw `ssh` / `scp` options are intentionally not supported; only the typed keys above are honored. Authentication is SSH key only.
 
 ### Multi-Account
 
@@ -174,15 +191,19 @@ accounts:
   - name: [display name]
     alias: [short key, e.g. "baoyu"]
     default: true
-    default_publish_method: [api/browser]
+    default_publish_method: [api/browser/remote-api]
     default_author: [author name]
     need_open_comment: [1/0]
     only_fans_can_comment: [1/0]
     app_id: [WeChat App ID, optional]
     app_secret: [WeChat App Secret, optional]
+    # Remote API publishing (optional, per-account override of globals)
+    remote_publish_host:
+    remote_publish_user:
+    remote_publish_identity_file:
   - name: [second account name]
     alias: [short key, e.g. "ai-tools"]
-    default_publish_method: [api/browser]
+    default_publish_method: [api/browser/remote-api]
     default_author: [author name]
     need_open_comment: [1/0]
     only_fans_can_comment: [1/0]

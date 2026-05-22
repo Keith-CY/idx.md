@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/firebase-apk-scanner
 github_stars: 2952
 github_forks: 236
 github_is_organization: true
-retrieved_at: 2026-05-20T08:09:26.601Z
+retrieved_at: 2026-05-22T08:08:08.341Z
 content_sha256: 7ae89875a6e0f5a0dfc0da6172f1bdfe6d2719e66dcea6b94c62158d5e9ae1fa
 ---

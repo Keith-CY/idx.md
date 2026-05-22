@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "agentskills-skill",
-  "generated_at": "2026-05-20T08:09:04.581Z",
+  "generated_at": "2026-05-22T08:07:24.168Z",
   "records": [
     {
       "id": "skills/agentskills-skill#head",
       "kind": "head",
       "path": "/data/agentskills-skill/HEAD.md",
-      "text": "title: agentskills-skill\nsummary: --- name: Agent description: Use when creating, testing, optimizing, or implementing Agent Skills — the open format for extending AI agents with specialized instructions, scripts, and workflows. Reach for this skill when building skills for agents, evaluating skill quality, improving skill descriptions, or adding skills support to an agent product. metadata: mintlify-proj: agent version: \"1.0\" --- # Agent Skills Agent Skills is an open format for packaging specialized instructions, scripts, and resources that agents can discover and use to perform tasks more accurately. A skill is a folder containing a `SKILL.md` file (metadata + instructions), optional `scripts/`, `references/`, and `assets/` directories, and supporting files. ## Product summary\ntype: skills\ntags: (none)\nsource_url: https://agentskills.io/skill.md",
+      "text": "title: agentskills-skill\nsummary: --- name: Agent description: Use when creating, optimizing, or implementing Agent Skills — a lightweight format for packaging specialized knowledge and workflows into reusable instructions for AI agents. Reach for this skill when authoring SKILL.md files, evaluating skill quality, designing skill descriptions, bundling scripts, or integrating skills into agent products. metadata: mintlify-proj: agent version: \"1.0\" --- # Agent Skills Playbook ## Product summary Agent Skills is an open format for extending AI agent capabilities with specialized knowledge and workflows. A skill is a folder containing a `SKILL.md` file (required metadata + instructions) plus optional supporting files: `scripts/` (executable code), `references/` (documentation), and `assets/` (templates, data). Skills use **progressive disclosure** — agents load only the name and description at startup, read full instructions when a task matches, and load supporting files on demand. This keeps agents fast while giving them access to specialized knowledge when needed.\ntype: skills\ntags: (none)\nsource_url: https://agentskills.io/skill.md",
       "metadata": {
         "stable_id": "skills/agentskills-skill",
         "topic": "agentskills-skill",
@@ -15,8 +15,8 @@
         "title": "agentskills-skill",
         "tags": [],
         "source_url": "https://agentskills.io/skill.md",
-        "retrieved_at": "2026-05-20T08:09:04.581Z",
-        "content_sha256": "3227e0c0d3bbf14915ce8e6ce53241ed64f4d41e4b2a25bccb99935789400d3f"
+        "retrieved_at": "2026-05-22T08:07:24.168Z",
+        "content_sha256": "fa2fd73ceea7f1596a619bdff76526c3bce97cec1f3c40b98b2124a7c4d7059f"
       }
     }
   ]

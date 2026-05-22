@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/vercel/turborepo/turborepo
 github_stars: 30048
 github_forks: 2301
 github_is_organization: true
-retrieved_at: 2026-05-20T08:08:53.772Z
-content_sha256: 77a3d10363aa4527845331ed6028f6792333e8318399e5f1f4dd96b1554a866e
+retrieved_at: 2026-05-22T08:07:05.180Z
+content_sha256: 13f31bbfd1d09899d0002bc9fc5b183fe139a2f8bc45a5183db3c05f6b33d91f
 ---

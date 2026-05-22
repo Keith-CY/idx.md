@@ -15,17 +15,21 @@ You are now in **ULTRAQA** mode - an autonomous QA cycling workflow that runs un
 
 **Cycle**: qa-tester → architect verification → fix → repeat
 
+## Relationship to `/goal`, Ralph, Team, and Ultragoal
+
+UltraQA owns repeated quality-gate cycling only. Use the deterministic conflict policies `refuse`, `adopt_existing`, and `artifact_only` rather than non-deterministic warning handling. Use it after the target behavior is known and the remaining question is whether tests, build, lint, typecheck, or another explicit QA condition passes. If Claude Code `/goal` is active, UltraQA may produce visible command evidence for that goal, but must not describe the `/goal` evaluator as independently running commands or reading files. If Ralph or Team is active, UltraQA is a verification/fix sub-loop under that authority rather than a competing session loop. If no active loop is safe, record QA expectations and evidence in artifact-only Ultragoal notes instead of claiming automatic execution.
+
 ## Goal Parsing
 
 Parse the goal from arguments. Supported formats:
 
-| Invocation | Goal Type | What to Check |
-|------------|-----------|---------------|
-| `/oh-my-claudecode:ultraqa --tests` | tests | All test suites pass |
-| `/oh-my-claudecode:ultraqa --build` | build | Build succeeds with exit 0 |
-| `/oh-my-claudecode:ultraqa --lint` | lint | No lint errors |
-| `/oh-my-claudecode:ultraqa --typecheck` | typecheck | No TypeScript errors |
-| `/oh-my-claudecode:ultraqa --custom "pattern"` | custom | Custom success pattern in output |
+| Invocation                                     | Goal Type | What to Check                    |
+| ---------------------------------------------- | --------- | -------------------------------- |
+| `/oh-my-claudecode:ultraqa --tests`            | tests     | All test suites pass             |
+| `/oh-my-claudecode:ultraqa --build`            | build     | Build succeeds with exit 0       |
+| `/oh-my-claudecode:ultraqa --lint`             | lint      | No lint errors                   |
+| `/oh-my-claudecode:ultraqa --typecheck`        | typecheck | No TypeScript errors             |
+| `/oh-my-claudecode:ultraqa --custom "pattern"` | custom    | Custom success pattern in output |
 
 If no structured goal provided, interpret the argument as a custom goal.
 
@@ -52,6 +56,7 @@ If no structured goal provided, interpret the argument as a custom goal.
    - **NO** → Continue to step 3
 
 3. **ARCHITECT DIAGNOSIS**: Spawn architect to analyze failure
+
    ```
    Task(subagent_type="oh-my-claudecode:architect", model="opus", prompt="DIAGNOSE FAILURE:
    Goal: [goal type]
@@ -60,6 +65,7 @@ If no structured goal provided, interpret the argument as a custom goal.
    ```
 
 4. **FIX ISSUES**: Apply architect's recommendations
+
    ```
    Task(subagent_type="oh-my-claudecode:executor", model="sonnet", prompt="FIX:
    Issue: [architect diagnosis]
@@ -71,16 +77,17 @@ If no structured goal provided, interpret the argument as a custom goal.
 
 ## Exit Conditions
 
-| Condition | Action |
-|-----------|--------|
-| **Goal Met** | Exit with success: "ULTRAQA COMPLETE: Goal met after N cycles" |
-| **Cycle 5 Reached** | Exit with diagnosis: "ULTRAQA STOPPED: Max cycles. Diagnosis: ..." |
-| **Same Failure 3x** | Exit early: "ULTRAQA STOPPED: Same failure detected 3 times. Root cause: ..." |
-| **Environment Error** | Exit: "ULTRAQA ERROR: [tmux/port/dependency issue]" |
+| Condition             | Action                                                                        |
+| --------------------- | ----------------------------------------------------------------------------- |
+| **Goal Met**          | Exit with success: "ULTRAQA COMPLETE: Goal met after N cycles"                |
+| **Cycle 5 Reached**   | Exit with diagnosis: "ULTRAQA STOPPED: Max cycles. Diagnosis: ..."            |
+| **Same Failure 3x**   | Exit early: "ULTRAQA STOPPED: Same failure detected 3 times. Root cause: ..." |
+| **Environment Error** | Exit: "ULTRAQA ERROR: [tmux/port/dependency issue]"                           |
 
 ## Observability
 
 Output progress each cycle:
+
 ```
 [ULTRAQA Cycle 1/5] Running tests...
 [ULTRAQA Cycle 1/5] FAILED - 3 tests failing
@@ -94,6 +101,7 @@ Output progress each cycle:
 ## State Tracking
 
 Track state in `.omc/ultraqa-state.json`:
+
 ```json
 {
   "active": true,
