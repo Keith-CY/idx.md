@@ -38,6 +38,6 @@ upstream_ref: https://skills.sh/hairyf/skills/arch-tsdown-monorepo
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-22T08:07:44.120Z
+retrieved_at: 2026-05-23T07:47:58.889Z
 content_sha256: 0e08a66c2488d2e14e8c56d3258df2b5b1fba61c011bf885004de91c427ed8a9
 ---
