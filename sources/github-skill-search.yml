@@ -44,6 +44,18 @@
     - github-repo-agno
   upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
 - type: skills
+  slug: github-skill-aimeos-pagible-paper
+  source_url: https://raw.githubusercontent.com/aimeos/pagible/master/themes/paper/SKILL.md
+  title: paper
+  summary: Paper-textured, print-inspired design with minimal colors, clean serif/sans typography, and tactile surface qualities.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-aimeos
+    - github-repo-pagible
+  upstream_ref: https://github.com/aimeos/pagible/blob/master/themes/paper/SKILL.md
+- type: skills
   slug: github-skill-alirezarezvani-claude-skills-confluence-expert
   source_url: https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/project-management/confluence-expert/SKILL.md
   title: confluence-expert
@@ -1233,6 +1245,42 @@
     - github-owner-resend
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-rohanarun-phoneclaw-superpowers-streamer-cli
+  source_url: https://raw.githubusercontent.com/rohanarun/phoneclaw/main/SKILL.md
+  title: superpowers-streamer-cli
+  summary: Install, log into, run, and troubleshoot the published SuperPowers desktop streamer npm package. Use when a user wants to set up `superpowers-ai` from npm, sign in or create an account with email or phone, start the streamer, open the printed control link, stop it later, or recover from common npm or runtime issues without needing source-code access.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-rohanarun
+    - github-repo-phoneclaw
+  upstream_ref: https://github.com/rohanarun/phoneclaw/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-runningz1-union-search-skill-union-search-skill
+  source_url: https://raw.githubusercontent.com/runningZ1/union-search-skill/master/SKILL.md
+  title: union-search-skill
+  summary: 当用户需要跨多个平台搜索内容时使用此技能，包括 GitHub（仓库、代码、问题）、Reddit（帖子、子版块、用户）、小红书、抖音、Bilibili、YouTube、Twitter、微信（公众号文章）、Google、Tavily、秘塔搜索、火山引擎，以及通用搜索引擎（DuckDuckGo、Brave、Yahoo、Bing、Wikipedia、Anna's Archive），或从 18 个图片平台（百度、Bing、Google、Pixabay、Unsplash、火山引擎等）下载图片。提供统一的搜索接口，支持结构化输出格式、结果过滤、排序、自动响应归档和批量图片下载（保留元数据）。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-runningz1
+    - github-repo-union-search-skill
+  upstream_ref: https://github.com/runningZ1/union-search-skill/blob/master/SKILL.md
+- type: skills
+  slug: github-skill-sharpai-deepcamera-depth-estimation
+  source_url: https://raw.githubusercontent.com/SharpAI/DeepCamera/master/SKILL.md
+  title: depth-estimation
+  summary: Real-time depth map privacy transforms using Depth Anything v2 (CoreML + PyTorch)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sharpai
+    - github-repo-deepcamera
+  upstream_ref: https://github.com/SharpAI/DeepCamera/blob/master/SKILL.md
 - type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
