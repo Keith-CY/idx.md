@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-vercel-labs-next-skills-next-best-practices",
-  "generated_at": "2026-05-23T07:47:41.231Z",
+  "generated_at": "2026-05-24T07:55:12.871Z",
   "records": [
     {
       "id": "skills/skills-sh-vercel-labs-next-skills-next-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/vercel-labs/next-skills/HEAD/skills/next-best-practices/file-conventions.md",
-        "retrieved_at": "2026-05-23T07:47:41.231Z",
+        "retrieved_at": "2026-05-24T07:55:12.871Z",
         "content_sha256": "0fed8bd429983c930c95eab3ab0254d4f2c128068fa290d758a057e3467252c3"
       }
     }
