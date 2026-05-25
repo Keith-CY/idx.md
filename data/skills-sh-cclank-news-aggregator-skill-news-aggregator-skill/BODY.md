@@ -1,11 +1,11 @@
 ---
 name: news-aggregator-skill
-description: "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 28 sources including Hacker News, GitHub, Hugging Face Papers, AI Newsletters, WallStreetCN, Weibo, and Podcasts. Use when user requests 'daily scans', 'tech news', 'finance updates', 'AI briefings', 'deep analysis', or says '如意如意' to open the interactive menu."
+description: "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 33+ sources including Hacker News, Lobsters, Dev.to, GitHub, arXiv, Hugging Face Papers, AI Newsletters, WallStreetCN, Weibo, 少数派, InfoQ 中文, Podcasts, and user-defined OPML feeds. Use when user requests 'daily scans', 'tech news', 'finance updates', 'AI briefings', 'deep analysis', or says '如意如意' to open the interactive menu."
 ---
 
 # News Aggregator Skill
 
-Fetch real-time hot news from 28 sources, generate deep analysis reports in Chinese.
+Fetch real-time hot news from 33+ sources (including user-defined OPML feeds), generate deep analysis reports in Chinese.
 
 ---
 
@@ -74,7 +74,7 @@ Only the **differences** from the universal template:
 | `--save` | Force save to reports dir | Auto for single source |
 | `--outdir` | Custom output directory | `reports/YYYY-MM-DD/` |
 
-### Available Sources (28)
+### Available Sources (33+ with user OPML)
 
 | Category | Key | Name |
 |---|---|---|
@@ -86,7 +86,10 @@ Only the **differences** from the universal template:
 | | `v2ex` | V2EX |
 | | `producthunt` | Product Hunt |
 | | `github` | GitHub Trending |
+| **Tech Community** (v2) | `lobsters` | Lobsters |
+| | `devto` | Dev.to |
 | **AI/Tech** | `huggingface` | HF Daily Papers |
+| | `arxiv` | arXiv (cs.AI/cs.CL/cs.LG, v2) |
 | | `ai_newsletters` | All AI Newsletters (aggregate) |
 | | `bensbites` | Ben's Bites |
 | | `interconnects` | Interconnects (Nathan Lambert) |
@@ -95,6 +98,8 @@ Only the **differences** from the universal template:
 | | `memia` | Memia |
 | | `aitoroi` | AI to ROI |
 | | `kdnuggets` | KDnuggets |
+| **Chinese** (v2) | `sspai` | 少数派 |
+| | `infoq_cn` | InfoQ 中文站（RSS 只给标题，**推荐配 `--deep`** 拿正文） |
 | **Podcasts** | `podcasts` | All Podcasts (aggregate) |
 | | `lexfridman` | Lex Fridman |
 | | `80000hours` | 80,000 Hours |
@@ -106,6 +111,27 @@ Only the **differences** from the universal template:
 | | `farnamstreet` | Farnam Street |
 | | `scottyoung` | Scott Young |
 | | `dankoe` | Dan Koe |
+| **Custom** (v2) | `user` | Your OPML feeds (see below) |
+
+### 自定义订阅源 (User OPML)
+
+把你常看的 RSS/Atom 源写进 OPML，`--source user` 即可统一抓取。
+
+**1. 放置 OPML 文件**（按优先级查找）：
+- `~/.config/news-aggregator/user_sources.opml`（推荐，跨 skill 复用）
+- `<skill_root>/user_sources.opml`（本仓库内）
+
+**2. 文件格式**：标准 OPML 2.0，可直接从 Feedly / Inoreader / NetNewsWire 导出。参考 `user_sources.opml.example`：
+
+```xml
+<outline type="rss" text="Simon Willison" title="Simon Willison"
+         xmlUrl="https://simonwillison.net/atom/everything/" />
+```
+
+只 `xmlUrl` 必填，其它可选。
+
+**3. 运行**：`python3 scripts/fetch_news.py --source user --limit 15`
+
 
 ### daily_briefing.py (Morning Routines)
 

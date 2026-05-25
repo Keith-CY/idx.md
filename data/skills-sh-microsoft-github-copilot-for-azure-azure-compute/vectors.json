@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-compute",
-  "generated_at": "2026-05-24T07:55:12.490Z",
+  "generated_at": "2026-05-25T08:29:33.052Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-compute#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-compute/references/vmss-guide.md",
-        "retrieved_at": "2026-05-24T07:55:12.490Z",
+        "retrieved_at": "2026-05-25T08:29:33.052Z",
         "content_sha256": "dc71cfc7809c72f95ef36a37d086ed8f55d59d977a23eaba41423ae473da7c1a"
       }
     }

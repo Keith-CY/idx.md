@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-system-skill-installer",
-  "generated_at": "2026-05-24T07:55:11.272Z",
+  "generated_at": "2026-05-25T08:29:31.661Z",
   "records": [
     {
       "id": "skills/openai-system-skill-installer#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.system/skill-installer/SKILL.md",
-        "retrieved_at": "2026-05-24T07:55:11.272Z",
+        "retrieved_at": "2026-05-25T08:29:31.661Z",
         "content_sha256": "df58efeb75a6001d733701e7d73e24dd71b94a2a0016971f0bcfe097217888a5"
       }
     }

@@ -10,7 +10,7 @@
 | Finance | 9 | /category/finance/index.md |
 | Git & GitHub | 3 | /category/git-github/index.md |
 | Marketing & Sales | 18 | /category/marketing-sales/index.md |
-| Productivity Tasks | 20 | /category/productivity-tasks/index.md |
+| Productivity Tasks | 19 | /category/productivity-tasks/index.md |
 | Search & Research | 11 | /category/search-research/index.md |
 | Security & Passwords | 1 | /category/security-passwords/index.md |
 | Transportation | 1 | /category/transportation/index.md |
