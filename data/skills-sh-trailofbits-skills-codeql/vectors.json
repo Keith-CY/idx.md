@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-codeql",
-  "generated_at": "2026-05-25T08:30:01.430Z",
+  "generated_at": "2026-05-26T08:12:36.413Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-codeql#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md",
-        "retrieved_at": "2026-05-25T08:30:01.430Z",
+        "retrieved_at": "2026-05-26T08:12:36.413Z",
         "content_sha256": "7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-zjunlp-skillnet-webshop-query-parser",
-  "generated_at": "2026-05-25T08:29:29.925Z",
+  "generated_at": "2026-05-26T08:11:37.863Z",
   "records": [
     {
       "id": "skills/github-skill-zjunlp-skillnet-webshop-query-parser#head",
@@ -21,7 +21,7 @@
           "github-repo-skillnet"
         ],
         "source_url": "https://raw.githubusercontent.com/zjunlp/SkillNet/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md",
-        "retrieved_at": "2026-05-25T08:29:29.925Z",
+        "retrieved_at": "2026-05-26T08:11:37.863Z",
         "content_sha256": "83ad60b67e2aabc8db03e1e6c43f39fd385ae9c53293a575a9defa3ed79aa53f"
       }
     }

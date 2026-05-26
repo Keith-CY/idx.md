@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-common-room-skills-compose-outreach-skill",
-  "generated_at": "2026-05-25T08:29:58.612Z",
+  "generated_at": "2026-05-26T08:12:30.385Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-common-room-skills-compose-outreach-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/compose-outreach/SKILL.md",
-        "retrieved_at": "2026-05-25T08:29:58.612Z",
+        "retrieved_at": "2026-05-26T08:12:30.385Z",
         "content_sha256": "6bba827598fce66ed3ce3672b62bb4d21e4ec7dd3dc54d7264bec8b515df0a43"
       }
     }

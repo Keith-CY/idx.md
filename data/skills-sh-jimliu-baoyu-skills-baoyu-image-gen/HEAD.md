@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-05-25T08:29:34.864Z
+retrieved_at: 2026-05-26T08:11:46.930Z
 content_sha256: ad2073834e6c4c3123a9fe9a9e984ef031fcd3a40558e39e527cf9c6fb772040
 ---
