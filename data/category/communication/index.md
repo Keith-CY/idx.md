@@ -25,7 +25,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/par
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:11:27.753Z
+retrieved_at: 2026-05-27T08:17:30.767Z
 content_sha256: 652c42776860edfa9b81c77aac0b545bb7748a708e01c001f356acc11d7e9f58
 ---
 |/data/github-skill-anthropics-knowledge-work-plugins-call-prep|
@@ -49,7 +49,7 @@ upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-emai
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:11:33.160Z
+retrieved_at: 2026-05-27T08:17:34.455Z
 content_sha256: 188d1556f5601bd3dbd9f0e57f9cbba9cbd7fad1ff75a1597fa7cbe7f15a73c6
 ---
 |/data/github-skill-novuhq-novu-react-email|
@@ -73,7 +73,7 @@ upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-ema
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:11:36.823Z
+retrieved_at: 2026-05-27T08:17:36.762Z
 content_sha256: 44581bef4b3e3904e42ba2f01d2499d36f1f76475128dddaf225c1211f287b59
 ---
 |/data/github-skill-resend-react-email-react-email|
@@ -97,7 +97,7 @@ upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/sk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:11:36.993Z
+retrieved_at: 2026-05-27T08:17:36.953Z
 content_sha256: c9df5ad16247b62fc0671c39b85405f4d0c5767ff7ecf7631ac1d63e1f9d03fc
 ---
 |/data/github-skill-sickn33-antigravity-awesome-skills-outlook-calendar-automation|
@@ -122,7 +122,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:14:05.122Z
+retrieved_at: 2026-05-27T08:18:59.039Z
 content_sha256: 90c33574a41371e8e116aaf40237141adcd6075ef8bcb9de993de2b543867b3e
 ---
 |/data/knowledge-work-plugins-customer-support-skills-customer-escalation-skill|
@@ -147,7 +147,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:12:14.732Z
+retrieved_at: 2026-05-27T08:17:48.016Z
 content_sha256: 9c504672d26dbb01ad4bb527a5352399760503aea0edf83bd3695e6bc346a128
 ---
 |/data/knowledge-work-plugins-customer-support-skills-customer-research-skill|
@@ -172,7 +172,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:14:05.362Z
+retrieved_at: 2026-05-27T08:18:59.257Z
 content_sha256: 1a201228b75a98fc3b5d45090cb7443d50df204b2ee748bfc8970790a64f0026
 ---
 |/data/knowledge-work-plugins-customer-support-skills-draft-response-skill|
@@ -197,7 +197,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:14:04.965Z
+retrieved_at: 2026-05-27T08:18:58.891Z
 content_sha256: cfc300f5ecc5128910a8ff04514d565a45ca9178bf1dc2a40cc40e2ce4db9292
 ---
 |/data/knowledge-work-plugins-customer-support-skills-kb-article-skill|
@@ -222,7 +222,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cus
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:12:14.510Z
+retrieved_at: 2026-05-27T08:17:47.898Z
 content_sha256: d0e5e95443e358ad2a74811b196071d10807ca95aa20351ab5760feeecee1294
 ---
 |/data/knowledge-work-plugins-customer-support-skills-ticket-triage-skill|
@@ -242,7 +242,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:15:10.947Z
+retrieved_at: 2026-05-27T08:19:58.556Z
 content_sha256: 8a7e47ed81e19552b8d5e08b8ee37c9aab87a82ca8b7120ac287e53134b293f9
 ---
 |/data/playbook-scenario-customer-support|

@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.152
+
+  - `SessionStart` hooks can now return `reloadSkills: true` to trigger a skill
+  re-scan, and set the session title via `hookSpecificOutput.sessionTitle`
+
+  - Added a `MessageDisplay` hook event that lets hooks transform or hide
+  assistant message text as it is displayed
+
+  ## 0.3.151
+
+  - Updated to parity with Claude Code v2.1.151
+
   ## 0.3.150
 
   - Updated to parity with Claude Code v2.1.150
@@ -15,16 +27,6 @@ summary: >-
   `User-Agent` and telemetry) when a custom environment is supplied, and
   corrected the `Options.env` docs to state that the value replaces the
   subprocess environment rather than merging with `process.env`
-
-  ## 0.3.148
-
-  - Updated to parity with Claude Code v2.1.148
-
-  ## 0.3.147
-
-  - Updated to parity with Claude Code v2.1.147
-
-  ## 0.3.146
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-26T08:12:25.322Z
-content_sha256: 3cf4021e19d8389951ec4e9ddb626f3f84cbd3f79446873d5637340646677a8c
+retrieved_at: 2026-05-27T08:17:57.991Z
+content_sha256: cf81ab216846152c5d58afe900ed37664949d1bb76903ac3257a2bdea8094e72
 ---

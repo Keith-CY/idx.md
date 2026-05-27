@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-ccheney-robust-skills-clean-ddd-hexagonal",
-  "generated_at": "2026-05-26T08:12:24.512Z",
+  "generated_at": "2026-05-27T08:17:57.397Z",
   "records": [
     {
       "id": "skills/skills-sh-ccheney-robust-skills-clean-ddd-hexagonal#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/ccheney/robust-skills/HEAD/skills/clean-ddd-hexagonal/references/LAYERS.md",
-        "retrieved_at": "2026-05-26T08:12:24.512Z",
+        "retrieved_at": "2026-05-27T08:17:57.397Z",
         "content_sha256": "2fd1ee569b25ead0d5683e16da82451a46659f4fe271fa50a960a4aad7680a28"
       }
     }

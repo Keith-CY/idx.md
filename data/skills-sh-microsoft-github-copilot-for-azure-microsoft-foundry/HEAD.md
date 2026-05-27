@@ -24,7 +24,8 @@ summary: >-
 
   | CLI tools | `docker`, `az acr` (hosted agents only) |
 
-  | Container protocols | `a2a`, `responses`, `invocations`, `mcp` |
+  | Container protocols | `a2a`, `responses`, `invocations`, `invocations_ws`,
+  `mcp` |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +35,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-fou
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-05-26T08:11:43.044Z
-content_sha256: 536c27abe1df95bbea6f2468638e74a1e96ed7d6427c31271b26722d37f4d3eb
+retrieved_at: 2026-05-27T08:19:44.698Z
+content_sha256: 8f48dd95af560897ad549983f72c172b1fb61e1799e3a90ae3827b71672f3f2f
 ---
