@@ -1,11 +1,11 @@
 ---
 name: news-aggregator-skill
-description: "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 33+ sources including Hacker News, Lobsters, Dev.to, GitHub, arXiv, Hugging Face Papers, AI Newsletters, WallStreetCN, Weibo, 少数派, InfoQ 中文, Podcasts, and user-defined OPML feeds. Use when user requests 'daily scans', 'tech news', 'finance updates', 'AI briefings', 'deep analysis', or says '如意如意' to open the interactive menu."
+description: "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 44+ sources including Hacker News, Lobsters, Dev.to, GitHub, arXiv, Hugging Face Papers, AIHOT, TLDR AI, Import AI, BBC, The Guardian, Al Jazeera, France 24, Reuters fallback, AI Newsletters, WallStreetCN, Weibo, 少数派, InfoQ 中文, Podcasts, and user-defined OPML feeds. Use when user requests 'daily scans', 'tech news', 'finance updates', 'AI briefings', 'international news', 'deep analysis', or says '如意如意' to open the interactive menu."
 ---
 
 # News Aggregator Skill
 
-Fetch real-time hot news from 33+ sources (including user-defined OPML feeds), generate deep analysis reports in Chinese.
+Fetch real-time hot news from 44+ sources (including international news + AI curated aggregators + user-defined OPML feeds), generate deep analysis reports in Chinese.
 
 ---
 
@@ -58,6 +58,11 @@ Only the **differences** from the universal template:
 | **GitHub** | Use `🌟 Stars` for Heat, add `Lang` field, add `#Tags` in Deep Dive |
 | **Hugging Face** | Use `🔥 +N` upvotes for Heat, include `[GitHub](url)` if present, write **深度解读** (not just translate abstract) |
 | **Weibo** | Preserve exact heat text (e.g. "108万") |
+| **AIHOT** | `summary` 已是中文编辑稿，**直接引用**不要再翻译；Heat 字段为空也别造数据；保留 `推荐理由` 风格的一句话点评 |
+| **TLDR AI** | 单条标题往往是多主题混合（`Topic A 💻, Topic B ⚡, Topic C ⛪`），**拆成 bullet 列出每个主题**；`summary` 是 HTML 段落，需要拆出每个主题对应的一两句概述 |
+| **Import AI** | 周刊长文，标题形如 `Import AI 458: 主题1; 主题2; 主题3`。**建议默认配 `--deep`**，否则 RSS summary 只是开头几句；Deep Dive 直接提炼 Jack Clark 的核心观点而非平铺事实 |
+| **International News** | **MUST** use the Unified Report Template for every item；只使用最近 24h RSS 条目，不用更早新闻 Smart Fill；英文标题与摘要翻译成简体中文，保留原始媒体名与链接；同一事件多家媒体重复时可合并观点但不能合并链接 |
+| **Reuters** | `reuters` 使用 Google News RSS 的 `site:reuters.com` fallback；报告里保留 `Reuters (Google News fallback)` source，不要写成官方公开 RSS |
 
 ---
 
@@ -74,7 +79,7 @@ Only the **differences** from the universal template:
 | `--save` | Force save to reports dir | Auto for single source |
 | `--outdir` | Custom output directory | `reports/YYYY-MM-DD/` |
 
-### Available Sources (33+ with user OPML)
+### Available Sources (44+ with user OPML)
 
 | Category | Key | Name |
 |---|---|---|
@@ -100,6 +105,17 @@ Only the **differences** from the universal template:
 | | `kdnuggets` | KDnuggets |
 | **Chinese** (v2) | `sspai` | 少数派 |
 | | `infoq_cn` | InfoQ 中文站（RSS 只给标题，**推荐配 `--deep`** 拿正文） |
+| **AI Curated** (v3) | `aihot` | AIHOT 中文 AI 精选（跨源 + 中文编辑稿）|
+| | `tldr_ai` | TLDR AI 英文日刊 |
+| | `import_ai` | Import AI by Jack Clark 周刊（**推荐 `--deep`**）|
+| **International News** | `international` | 最近 24h 国际新闻聚合（BBC / Guardian / Al Jazeera / France 24 / Reuters fallback）|
+| | `bbc_top` | BBC Top News (24h) |
+| | `bbc_world` | BBC World (24h) |
+| | `bbc_chinese` | BBC 中文 (24h) |
+| | `guardian_world` | The Guardian World (24h) |
+| | `aljazeera` | Al Jazeera (24h) |
+| | `france24` | France 24 (24h) |
+| | `reuters` | Reuters via Google News RSS fallback (24h) |
 | **Podcasts** | `podcasts` | All Podcasts (aggregate) |
 | | `lexfridman` | Lex Fridman |
 | | `80000hours` | 80,000 Hours |
@@ -160,7 +176,7 @@ python3 scripts/daily_briefing.py --profile <profile>
 2. **Time**: **MANDATORY** field. Never skip. If missing in JSON, mark as "Unknown Time". Preserve "Real-time" / "Today" / "Hot" as-is.
 3. **Anti-Hallucination**: Only use data from the JSON. Never invent news items. Use simple SVO sentences. Do not fabricate causal relationships.
 4. **Smart Keyword Expansion**: When user says "AI" → auto-expand to `"AI,LLM,GPT,Claude,Agent,RAG,DeepSeek"`. Similar expansions for other domains.
-5. **Smart Fill**: If results < 5 items in a time window, supplement with high-value items from wider range. Mark supplementary items with ⚠️.
+5. **Smart Fill**: If results < 5 items in a time window, supplement with high-value items from wider range. Mark supplementary items with ⚠️. **Exception**: International News sources are a hard 24h window; do not supplement with older items.
 6. **Save**: Always save report to `reports/YYYY-MM-DD/` before displaying.
 
 ---

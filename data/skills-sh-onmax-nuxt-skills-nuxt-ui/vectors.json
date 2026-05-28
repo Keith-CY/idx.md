@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-nuxt-ui",
-  "generated_at": "2026-05-27T08:17:52.759Z",
+  "generated_at": "2026-05-28T08:19:07.615Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-nuxt-ui#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-ui/references/installation.md",
-        "retrieved_at": "2026-05-27T08:17:52.759Z",
+        "retrieved_at": "2026-05-28T08:19:07.615Z",
         "content_sha256": "3eebd995590401035dd57598ce2f6eee22e8d7ca0403044f80b5765a847e34c7"
       }
     }

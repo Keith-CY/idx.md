@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-systematic-debugging",
-  "generated_at": "2026-05-27T08:19:43.139Z",
+  "generated_at": "2026-05-28T08:24:28.660Z",
   "records": [
     {
       "id": "skills/obra-systematic-debugging#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/systematic-debugging/SKILL.md",
-        "retrieved_at": "2026-05-27T08:19:43.139Z",
+        "retrieved_at": "2026-05-28T08:24:28.660Z",
         "content_sha256": "4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473"
       }
     }

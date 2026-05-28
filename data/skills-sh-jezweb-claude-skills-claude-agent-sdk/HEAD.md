@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.153
+
+  - Updated to parity with Claude Code v2.1.153
+
   ## 0.3.152
 
   - `SessionStart` hooks can now return `reloadSkills: true` to trigger a skill
@@ -20,13 +24,6 @@ summary: >-
   ## 0.3.150
 
   - Updated to parity with Claude Code v2.1.150
-
-  ## 0.3.149
-
-  - Fixed `options.env` dropping `CLAUDE_AGENT_SDK_VERSION` (used for
-  `User-Agent` and telemetry) when a custom environment is supplied, and
-  corrected the `Options.env` docs to state that the value replaces the
-  subprocess environment rather than merging with `process.env`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +33,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-27T08:17:57.991Z
-content_sha256: cf81ab216846152c5d58afe900ed37664949d1bb76903ac3257a2bdea8094e72
+retrieved_at: 2026-05-28T08:19:16.780Z
+content_sha256: 6b15537aa1d8fee2e3d7804c91f11e1afbb82ab25534aff925a0b3e7a0c95026
 ---

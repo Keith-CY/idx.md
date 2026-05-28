@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-op7418-document-illustrator-skill-document-illustrator",
-  "generated_at": "2026-05-27T08:17:38.572Z",
+  "generated_at": "2026-05-28T08:18:37.616Z",
   "records": [
     {
       "id": "skills/skills-sh-op7418-document-illustrator-skill-document-illustrator#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/op7418/document-illustrator-skill/main/SKILL.md",
-        "retrieved_at": "2026-05-27T08:17:38.572Z",
+        "retrieved_at": "2026-05-28T08:18:37.616Z",
         "content_sha256": "159a7b86419b7c27afba2754781575ad5537eb7b83195d9d62dadc733debffc2"
       }
     }
