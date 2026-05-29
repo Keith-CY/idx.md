@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-adaptive-ui
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-28T08:22:36.521Z
+retrieved_at: 2026-05-29T08:18:02.238Z
 content_sha256: afe9bfb38b076a97af0e96e5f7dd1427e0ac2ddd72c52812ae74448397f05174
 ---

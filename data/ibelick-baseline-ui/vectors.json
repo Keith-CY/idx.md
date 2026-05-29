@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "ibelick-baseline-ui",
-  "generated_at": "2026-05-28T08:24:29.363Z",
+  "generated_at": "2026-05-29T08:18:38.968Z",
   "records": [
     {
       "id": "skills/ibelick-baseline-ui#head",
@@ -18,7 +18,7 @@
           "source-ibelick-ui-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md",
-        "retrieved_at": "2026-05-28T08:24:29.363Z",
+        "retrieved_at": "2026-05-29T08:18:38.968Z",
         "content_sha256": "9bb2f868098a9d28ce7d10383039a28169d838cea6299f9df3706ecda7932949"
       }
     }
