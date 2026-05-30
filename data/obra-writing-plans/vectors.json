@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-writing-plans",
-  "generated_at": "2026-05-29T08:18:38.886Z",
+  "generated_at": "2026-05-30T07:56:15.613Z",
   "records": [
     {
       "id": "skills/obra-writing-plans#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-plans/SKILL.md",
-        "retrieved_at": "2026-05-29T08:18:38.886Z",
+        "retrieved_at": "2026-05-30T07:56:15.613Z",
         "content_sha256": "4fd4627d2c02367879c0307d7249270bed633317ff9be82e926a6d57bf5d331b"
       }
     }

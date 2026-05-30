@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/vercel-labs/next-skills/next-best-practices
 github_stars: 745
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-05-29T08:18:41.096Z
+retrieved_at: 2026-05-30T07:56:18.955Z
 content_sha256: 0fed8bd429983c930c95eab3ab0254d4f2c128068fa290d758a057e3467252c3
 ---

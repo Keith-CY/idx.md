@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-skills-competitive-brief-skill",
-  "generated_at": "2026-05-29T08:17:55.994Z",
+  "generated_at": "2026-05-30T07:55:06.246Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-skills-competitive-brief-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/competitive-brief/SKILL.md",
-        "retrieved_at": "2026-05-29T08:17:55.994Z",
+        "retrieved_at": "2026-05-30T07:55:06.246Z",
         "content_sha256": "720916695f99a70e723be02d0123908c9c968ce56e1ffdeeb423014587017cd2"
       }
     }

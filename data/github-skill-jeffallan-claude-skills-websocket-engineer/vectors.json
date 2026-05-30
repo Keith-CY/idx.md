@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeffallan-claude-skills-websocket-engineer",
-  "generated_at": "2026-05-29T08:16:38.920Z",
+  "generated_at": "2026-05-30T07:52:55.875Z",
   "records": [
     {
       "id": "skills/github-skill-jeffallan-claude-skills-websocket-engineer#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md",
-        "retrieved_at": "2026-05-29T08:16:38.920Z",
+        "retrieved_at": "2026-05-30T07:52:55.875Z",
         "content_sha256": "3557582d3169663c5561950fc390a6e1998b38d9722169ae09548624eb6c1f02"
       }
     }

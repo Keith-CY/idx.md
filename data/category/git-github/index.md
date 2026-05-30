@@ -23,7 +23,7 @@ upstream_ref: https://github.com/dlt-hub/dlt/blob/devel/.claude/skills/review-pr
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-29T08:16:38.431Z
+retrieved_at: 2026-05-30T07:52:55.442Z
 content_sha256: 9eb2198eded473c8a2b9be4ea034ab10066e2509847c22ee18709ccc4dec0827
 ---
 |/data/github-skill-dlt-hub-dlt-review-pr|
@@ -48,7 +48,7 @@ upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-29T08:16:38.822Z
+retrieved_at: 2026-05-30T07:52:55.793Z
 content_sha256: e53409119442128e2afbc2b48ad1b286fb23b884934de26dd088b3a375fcfb2b
 ---
 |/data/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator|
@@ -74,7 +74,7 @@ upstream_ref: https://github.com/openclaw/openclaw/blob/main/skills/gh-issues/SK
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-29T08:16:40.716Z
+retrieved_at: 2026-05-30T07:52:58.133Z
 content_sha256: 952a14ac4b441fc4dfbfd50d27aa26e12d0d4977fcca70bb315a68b8ff450f71
 ---
 |/data/github-skill-openclaw-openclaw-gh-issues|

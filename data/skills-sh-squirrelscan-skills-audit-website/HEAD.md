@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/squirrelscan/skills/audit-website
 github_stars: 65
 github_forks: 7
 github_is_organization: true
-retrieved_at: 2026-05-29T08:18:41.156Z
+retrieved_at: 2026-05-30T07:56:19.044Z
 content_sha256: 4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a
 ---

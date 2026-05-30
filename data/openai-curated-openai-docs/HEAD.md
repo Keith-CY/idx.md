@@ -7,33 +7,38 @@ summary: >-
 
   name: "openai-docs"
 
-  description: "Use when the user asks how to build with OpenAI products or APIs
-  and needs up-to-date official documentation with citations, help choosing the
-  latest model for a use case, or model upgrade and prompt-upgrade guidance;
-  prioritize OpenAI docs MCP tools, use bundled references only as helper
-  context, and restrict any fallback browsing to official OpenAI domains."
+  description: "Use when the user asks how to build with OpenAI products or
+  APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date
+  official documentation with citations, help choosing the latest model for a
+  use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP
+  tools for non-Codex docs questions, use the Codex manual helper first for
+  broad Codex self-knowledge, and restrict fallback browsing to official OpenAI
+  domains."
 
   ---
 
   # OpenAI Docs
 
   Provide authoritative, current guidance from OpenAI developer docs using the
-  developers.openai.com MCP server. Always prioritize the developer docs MCP
-  tools over web.run for OpenAI-related questions. This skill also owns model
-  selection, API model migration, and prompt-upgrade guidance. Only if the MCP
-  server is installed and returns no meaningful results should you fall back to
-  web search.
+  developers.openai.com MCP server. "Docs MCP" means
+  `mcp__openaiDeveloperDocs__search_openai_docs` and
+  `mcp__openaiDeveloperDocs__fetch_openai_doc`; for API reference, schema,
+  parameter, or required-field questions, also use
+  `mcp__openaiDeveloperDocs__get_openapi_spec` when available. Official-domain
+  web search is fallback after those tools are unavailable or unhelpful. Broad
+  Codex questions use the manual helper before Docs MCP. This skill also owns
+  model selection, API model migration, and prompt-upgrade guidance.
 
-  ## Quick start
+  ## Workflow Configuration
 
-  - Use `mcp__openaiDeveloperDocs__search_openai_docs` to find the most relevant
-  doc pages.
+  ### Source Priority
 
-  - Use `mcp__openaiDeveloperDocs__fetch_openai_doc` to pull exact sections and
-  quote/paraphrase accurately.
+  - For Codex self-knowledge, use the Codex source route below; it owns when to
+  use the manual helper, Docs MCP, or bounded uncertainty.
 
-  - Use `mcp__openaiDeveloperDocs__list_openai_docs` only when you need to
-  browse or discover pages without a clear query.
+  - For non-Codex OpenAI docs questions, use
+  `mcp__openaiDeveloperDocs__search_openai_docs` to find the most relevant doc
+  pages.
 tags:
   - openai
   - source-openai-skills
@@ -43,6 +48,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/openai-
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-05-29T08:18:52.413Z
-content_sha256: 1941a2fa1d815f9fa46efbe410df4dbb57092e22140e768c085c4bedba859fa3
+retrieved_at: 2026-05-30T07:56:37.553Z
+content_sha256: d2b48f7b356a0880ced6fba52a29af24565e2818437694052b96f84bc2f69e92
 ---
