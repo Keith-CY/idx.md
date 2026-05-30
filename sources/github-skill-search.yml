@@ -8,6 +8,18 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
+  slug: github-skill-a5c-ai-babysitter-xrd-crystallography-analyzer
+  source_url: https://raw.githubusercontent.com/a5c-ai/babysitter/main/library/specializations/domains/science/nanotechnology/skills/xrd-crystallography-analyzer/SKILL.md
+  title: xrd-crystallography-analyzer
+  summary: X-ray Diffraction skill for crystal structure, phase identification, and crystallite size analysis of nanomaterials
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-a5c-ai
+    - github-repo-babysitter
+  upstream_ref: https://github.com/a5c-ai/babysitter/blob/main/library/specializations/domains/science/nanotechnology/skills/xrd-crystallography-analyzer/SKILL.md
+- type: skills
   slug: github-skill-actionbook-rust-skills-m04-zero-cost
   source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
   title: m04-zero-cost
@@ -80,6 +92,18 @@
     - github-repo-knowledge-work-plugins
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
 - type: skills
+  slug: github-skill-bankrbot-skills-versa-deploy
+  source_url: https://raw.githubusercontent.com/BankrBot/skills/main/versa/SKILL.md
+  title: versa-deploy
+  summary: "Deploy, manage, or withdraw from an AI agent vault on Versa — the onchain adversarial AI arena on Base. Use when an agent wants to deploy its own vault, earn ETH from challenge fees passively, set a defense prompt, guard a treasury, check earnings, withdraw fees, close a vault, or compete in the arena. Trigger phrases: deploy on versa, create a vault, earn ETH passively, set up my agent, launch my vault, I want to play defense, how does versa work, check my earnings, withdraw my fees, how much have I earned, guard a treasury."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-bankrbot
+    - github-repo-skills
+  upstream_ref: https://github.com/BankrBot/skills/blob/main/versa/SKILL.md
+- type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
   title: browserwing-executor
@@ -103,6 +127,18 @@
     - github-owner-catlog22
     - github-repo-claude-code-workflow
   upstream_ref: https://github.com/catlog22/Claude-Code-Workflow/blob/main/.claude/skills/team-lifecycle/SKILL.md
+- type: skills
+  slug: github-skill-chorus-aidlc-chorus-review
+  source_url: https://raw.githubusercontent.com/Chorus-AIDLC/Chorus/main/public/chorus-plugin/skills/review/SKILL.md
+  title: review
+  summary: Chorus Review workflow — approve/reject proposals, verify tasks, and manage project governance.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-chorus-aidlc
+    - github-repo-chorus
+  upstream_ref: https://github.com/Chorus-AIDLC/Chorus/blob/main/public/chorus-plugin/skills/review/SKILL.md
 - type: skills
   slug: github-skill-composiohq-awesome-claude-skills-abuselpdb-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/abuselpdb-automation/SKILL.md
@@ -308,6 +344,18 @@
     - github-repo-buildwithclaude
   upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
 - type: skills
+  slug: github-skill-davila7-claude-code-templates-matchms
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/matchms/SKILL.md
+  title: matchms
+  summary: Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-davila7
+    - github-repo-claude-code-templates
+  upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/matchms/SKILL.md
+- type: skills
   slug: github-skill-davila7-claude-code-templates-scientific-schematics
   source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
   title: scientific-schematics
@@ -424,6 +472,18 @@
     - github-repo-epic-stack
   upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
 - type: skills
+  slug: github-skill-first-fluke-oh-my-agent-oma-recap
+  source_url: https://raw.githubusercontent.com/first-fluke/oh-my-agent/main/benchmarks/runs/oma/.agents/skills/oma-recap/SKILL.md
+  title: oma-recap
+  summary: Analyze conversation histories from multiple AI tools (Claude, Codex, Gemini, Qwen, Cursor) and generate themed daily/period work summaries. Filter by date or time window.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-first-fluke
+    - github-repo-oh-my-agent
+  upstream_ref: https://github.com/first-fluke/oh-my-agent/blob/main/benchmarks/runs/oma/.agents/skills/oma-recap/SKILL.md
+- type: skills
   slug: github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer
   source_url: https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md
   title: rtk-optimizer
@@ -436,6 +496,18 @@
     - github-repo-claude-code-ultimate-guide
   upstream_ref: https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/examples/skills/rtk-optimizer/SKILL.md
 - type: skills
+  slug: github-skill-getsentry-xcodebuildmcp-xcodebuildmcp-structured-output-review
+  source_url: https://raw.githubusercontent.com/getsentry/XcodeBuildMCP/main/.agents/skills/xcodebuildmcp-structured-output-review/SKILL.md
+  title: xcodebuildmcp-structured-output-review
+  summary: Use when reviewing XcodeBuildMCP structured output schema changes, schema versioning, manifest outputSchema metadata, and JSON fixture compatibility.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-getsentry
+    - github-repo-xcodebuildmcp
+  upstream_ref: https://github.com/getsentry/XcodeBuildMCP/blob/main/.agents/skills/xcodebuildmcp-structured-output-review/SKILL.md
+- type: skills
   slug: github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
   title: copilot-instructions-blueprint-generator
@@ -447,6 +519,18 @@
     - github-owner-github
     - github-repo-awesome-copilot
   upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+- type: skills
+  slug: github-skill-gooseworks-ai-goose-skills-sponsored-newsletter-finder
+  source_url: https://raw.githubusercontent.com/gooseworks-ai/goose-skills/main/skills/composites/sponsored-newsletter-finder/SKILL.md
+  title: sponsored-newsletter-finder
+  summary: Discover newsletters in a target niche relevant to your ICP, evaluate audience fit, estimate reach and CPM, and output a ranked shortlist of sponsorship opportunities. Uses web search to find newsletters, then scores each against ICP alignment criteria. Use when a marketing team wants to reach an existing engaged audience for less than the cost of building their own, or when testing a new channel before committing.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-gooseworks-ai
+    - github-repo-goose-skills
+  upstream_ref: https://github.com/gooseworks-ai/goose-skills/blob/main/skills/composites/sponsored-newsletter-finder/SKILL.md
 - type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
@@ -509,6 +593,20 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-multi-env-setup
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-multi-env-setup/SKILL.md
+  title: juicebox-multi-env-setup
+  summary: |-
+    Configure Juicebox multi-environment.
+    Trigger: "juicebox environments", "juicebox staging".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/juicebox-pack/skills/juicebox-multi-env-setup/SKILL.md
+- type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md
   title: klingai-pricing-basics
@@ -540,6 +638,39 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/langchain-pack/skills/langchain-core-workflow-a/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-langfuse-multi-env-setup
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/langfuse-pack/skills/langfuse-multi-env-setup/SKILL.md
+  title: langfuse-multi-env-setup
+  summary: |-
+    Configure Langfuse across development, staging, and production environments.
+    Use when setting up multi-environment deployments, configuring per-environment keys,
+    or implementing environment-specific Langfuse configurations.
+    Trigger with phrases like "langfuse environments", "langfuse staging",
+    "langfuse dev prod", "langfuse environment setup", "langfuse config by env".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/langfuse-pack/skills/langfuse-multi-env-setup/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-modeling-nosql-data
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/database/nosql-data-modeler/skills/modeling-nosql-data/SKILL.md
+  title: modeling-nosql-data
+  summary: |-
+    Build use when you need to work with NoSQL data modeling.
+    This skill provides NoSQL database design with comprehensive guidance and automation.
+    Trigger with phrases like "model NoSQL data", "design document structure",
+    or "optimize NoSQL schema".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/database/nosql-data-modeler/skills/modeling-nosql-data/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-prisma-schema-helper
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
@@ -683,6 +814,18 @@
     - github-repo-swarms
   upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
 - type: skills
+  slug: github-skill-laravel-agent-skills-configure-nightwatch
+  source_url: https://raw.githubusercontent.com/laravel/agent-skills/main/laravel-nightwatch/skills/configure-nightwatch/SKILL.md
+  title: configure-nightwatch
+  summary: Configures Laravel Nightwatch data collection, sampling rates, filtering rules, and redaction policies. Use when setting up Nightwatch, managing data volume, protecting sensitive data (PII), or optimizing event collection for production workloads.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-laravel
+    - github-repo-agent-skills
+  upstream_ref: https://github.com/laravel/agent-skills/blob/main/laravel-nightwatch/skills/configure-nightwatch/SKILL.md
+- type: skills
   slug: github-skill-lobehub-lobehub-data-fetching
   source_url: https://raw.githubusercontent.com/lobehub/lobehub/canary/.agents/skills/data-fetching/SKILL.md
   title: data-fetching
@@ -719,6 +862,18 @@
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
 - type: skills
+  slug: github-skill-microsoftdocs-agent-skills-azure-boards
+  source_url: https://raw.githubusercontent.com/MicrosoftDocs/Agent-Skills/main/skills/azure-boards/SKILL.md
+  title: azure-boards
+  summary: Expert knowledge for Azure Boards development including troubleshooting, best practices, decision making, limits & quotas, security, configuration, and integrations & coding patterns. Use when managing work items, backlogs, queries/charts, GitHub links, or Excel/Slack/Teams integrations, and other Azure Boards related development tasks. Not for Azure DevOps (use azure-devops), Azure Test Plans (use azure-test-plans), Azure Pipelines (use azure-pipelines), Azure Repos (use azure-repos).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-microsoftdocs
+    - github-repo-agent-skills
+  upstream_ref: https://github.com/MicrosoftDocs/Agent-Skills/blob/main/skills/azure-boards/SKILL.md
+- type: skills
   slug: github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence
   source_url: https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
   title: analyzing-ransomware-leak-site-intelligence
@@ -730,6 +885,18 @@
     - github-owner-mukul975
     - github-repo-anthropic-cybersecurity-skills
   upstream_ref: https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
+- type: skills
+  slug: github-skill-mvanhorn-printing-press-library-pp-tiktok-shop
+  source_url: https://raw.githubusercontent.com/mvanhorn/printing-press-library/main/cli-skills/pp-tiktok-shop/SKILL.md
+  title: pp-tiktok-shop
+  summary: Printing Press CLI/MCP for confirmed TikTok Shop Seller APIs. Safe v1 supports auth readiness, token exchange/refresh, read-only shops/orders/products/inventory/package/warehouse commands, and defers risky mutations.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-mvanhorn
+    - github-repo-printing-press-library
+  upstream_ref: https://github.com/mvanhorn/printing-press-library/blob/main/cli-skills/pp-tiktok-shop/SKILL.md
 - type: skills
   slug: github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns
   source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
@@ -743,6 +910,18 @@
     - github-repo-context-engineering-kit
   upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
 - type: skills
+  slug: github-skill-nomadamas-k-skill-kosis-stats
+  source_url: https://raw.githubusercontent.com/NomaDamas/k-skill/main/kosis-stats/SKILL.md
+  title: kosis-stats
+  summary: 국가데이터처가 운영하는 KOSIS(국가통계포털, kosis.kr) Open API로 한국 공식 통계표를 검색하고 메타데이터·데이터·대용량 자료를 조회한다. Use when the user asks for 한국 공식 통계 (인구, 가구, 물가, 고용 등) 수치 조회, not for analysis or visualization.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-nomadamas
+    - github-repo-k-skill
+  upstream_ref: https://github.com/NomaDamas/k-skill/blob/main/kosis-stats/SKILL.md
+- type: skills
   slug: github-skill-novuhq-novu-react-email
   source_url: https://raw.githubusercontent.com/novuhq/novu/next/.agents/skills/react-email/SKILL.md
   title: react-email
@@ -754,6 +933,18 @@
     - github-owner-novuhq
     - github-repo-novu
   upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-nvidia-ai-blueprints-video-search-and-summarization-video-analytics
+  source_url: https://raw.githubusercontent.com/NVIDIA-AI-Blueprints/video-search-and-summarization/main/skills/video-analytics/SKILL.md
+  title: video-analytics
+  summary: Query video analytics data and metrics from Elastic search via the VA-MCP server (port 9901). This includes incidents, alerts, sensor data, and metrics. Use for any question about violations, alerts, incidents, object counts, speeds, occupancy, or anything that requires looking up recorded events. This is the primary way to answer a question that requires incidents, alerts and other metrics such as people counts and violations.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-nvidia-ai-blueprints
+    - github-repo-video-search-and-summarization
+  upstream_ref: https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization/blob/main/skills/video-analytics/SKILL.md
 - type: skills
   slug: github-skill-onmax-nuxt-skills-nuxt-seo
   source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md
@@ -1174,6 +1365,45 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
 - type: skills
+  slug: github-skill-opentabs-dev-opentabs-build-plugin
+  source_url: https://raw.githubusercontent.com/opentabs-dev/opentabs/main/.claude/skills/build-plugin/SKILL.md
+  title: build-plugin
+  summary: "Complete plugin development workflow: build, test, icon, troubleshoot, and setup. Use when the user wants to build a plugin, create a plugin, troubleshoot issues, add icons, or install/configure plugins. Triggers on: build plugin, create plugin, develop plugin, new plugin, plugin icon, troubleshoot, debug, setup plugin, install plugin."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-opentabs-dev
+    - github-repo-opentabs
+  upstream_ref: https://github.com/opentabs-dev/opentabs/blob/main/.claude/skills/build-plugin/SKILL.md
+- type: skills
+  slug: github-skill-oss-apps-split-pro-find-docs
+  source_url: https://raw.githubusercontent.com/oss-apps/split-pro/main/.opencode/skills/find-docs/SKILL.md
+  title: find-docs
+  summary: |-
+    Retrieves up-to-date documentation, API references, and code examples for any developer technology. Use this skill whenever the user asks about a specific library, framework, SDK, CLI tool, or cloud service -- even for well-known ones like React, Next.js, Prisma, Express, Tailwind, Django, or Spring Boot. Your training data may not reflect recent API changes or version updates.
+    Always use for: API syntax questions, configuration options, version migration issues, "how do I" questions mentioning a library name, debugging that involves library-specific behavior, setup instructions, and CLI tool usage.
+    Use even when you think you know the answer -- do not rely on training data for API details, signatures, or configuration options as they are frequently outdated. Always verify against current docs. Prefer this over web search for library documentation and API details.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-oss-apps
+    - github-repo-split-pro
+  upstream_ref: https://github.com/oss-apps/split-pro/blob/main/.opencode/skills/find-docs/SKILL.md
+- type: skills
+  slug: github-skill-paperclipai-paperclip-diagnose-why-work-stopped
+  source_url: https://raw.githubusercontent.com/paperclipai/paperclip/master/skills/diagnose-why-work-stopped/SKILL.md
+  title: diagnose-why-work-stopped
+  summary: How to handle "why did this work stop / why is this looping?" assignments. Forensics first on the named tree, surface the exact stop-point, frame the fix as a general product rule that respects three invariants (productive work continues, only real blockers stop work, no infinite loops), and deliver a plan — no code changes — gated by board/CTO approval before child issues are created. Use whenever the issue title or body asks for forensics on a stalled, looping, or "went too deep" tree.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-paperclipai
+    - github-repo-paperclip
+  upstream_ref: https://github.com/paperclipai/paperclip/blob/master/skills/diagnose-why-work-stopped/SKILL.md
+- type: skills
   slug: github-skill-pbakaus-impeccable-colorize
   source_url: https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md
   title: colorize
@@ -1234,6 +1464,18 @@
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
 - type: skills
+  slug: github-skill-revfactory-harness-100-strategy-framework
+  source_url: https://raw.githubusercontent.com/revfactory/harness-100/main/en/47-strategy-framework/.claude/skills/strategy-framework/skill.md
+  title: strategy-framework
+  summary: "A full pipeline that systematizes an organization's strategy framework through OKR design, BSC mapping, SWOT analysis, vision & mission statement, and strategy execution roadmap. Use this skill for 'build a strategy framework,' 'design OKRs,' 'BSC analysis,' 'SWOT analysis,' 'write vision and mission,' 'strategy roadmap,' 'strategy formulation,' 'mid-to-long-term strategy,' 'business strategy framework,' and 'strategy system design' — across the full spectrum of organizational strategy development. It also supports supplementing and validating existing OKRs or SWOT analyses. Note: Financial statement preparation, ERP system implementation, performance review execution, and real-time KPI dashboard development are outside the scope of this skill."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-revfactory
+    - github-repo-harness-100
+  upstream_ref: https://github.com/revfactory/harness-100/blob/main/en/47-strategy-framework/.claude/skills/strategy-framework/skill.md
+- type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
   title: hubspot-integration
@@ -1245,6 +1487,18 @@
     - github-owner-sickn33
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/hubspot-integration/SKILL.md
+- type: skills
+  slug: github-skill-sickn33-antigravity-awesome-skills-memory-forensics
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/plugins/antigravity-awesome-skills/skills/memory-forensics/SKILL.md
+  title: memory-forensics
+  summary: Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sickn33
+    - github-repo-antigravity-awesome-skills
+  upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/plugins/antigravity-awesome-skills/skills/memory-forensics/SKILL.md
 - type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-outlook-calendar-automation
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/outlook-calendar-automation/SKILL.md
@@ -1270,6 +1524,18 @@
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/upstash-qstash/SKILL.md
 - type: skills
+  slug: github-skill-star23-day1global-skills-btc-bottom-model
+  source_url: https://raw.githubusercontent.com/star23/Day1Global-Skills/main/btc-bottom-model/SKILL.md
+  title: btc-bottom-model
+  summary: Bitcoin cycle timing model with weighted scoring system. Tracks 13 indicators across 2 categories — Daily Pulse (4 indicators, 32 points) and Weekly Structure (9 indicators, 68 points) — producing a composite 0-100 Market Heat Score. Covers ETF flows, funding rate, long/short ratio, fear & greed index, LTH-MVRV, NUPL, SOPR (LTH + STH), LTH supply %, moving average multiples (365d MA, 200w MA), weekly RSI, and volume trends. Provides both buy AND sell recommendations across the full market cycle. Use this skill when users mention Bitcoin bottom-fishing, BTC cycle position, whether to buy or sell BTC, on-chain metrics, MVRV, NUPL, SOPR, LTH behavior, ETF inflows/outflows, funding rates, fear index, whether Bitcoin is overheated, miner cost, crypto market sentiment, BTC position sizing, or any question like "Should I buy Bitcoin now?" or "Is BTC topping out?" or "What do on-chain indicators say?"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-star23
+    - github-repo-day1global-skills
+  upstream_ref: https://github.com/star23/Day1Global-Skills/blob/main/btc-bottom-model/SKILL.md
+- type: skills
   slug: github-skill-tencentblueking-bk-bcs-node-js
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
   title: Node.js 安全审查
@@ -1294,6 +1560,42 @@
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 - type: skills
+  slug: github-skill-videosdk-live-agents-videosdk-agents-repo
+  source_url: https://raw.githubusercontent.com/videosdk-live/agents/main/SKILLS.md
+  title: videosdk-agents-repo
+  summary: Root of the VideoSDK AI Agents monorepo — Python framework for real-time voice and multimodal AI agents
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-videosdk-live
+    - github-repo-agents
+  upstream_ref: https://github.com/videosdk-live/agents/blob/main/SKILLS.md
+- type: skills
+  slug: github-skill-videosdk-live-agents-videosdk-plugins-aws
+  source_url: https://raw.githubusercontent.com/videosdk-live/agents/main/videosdk-plugins/videosdk-plugins-aws/SKILLS.md
+  title: videosdk-plugins-aws
+  summary: Plugin for AWS Nova Sonic (Realtime) and AWS Polly (TTS) services
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-videosdk-live
+    - github-repo-agents
+  upstream_ref: https://github.com/videosdk-live/agents/blob/main/videosdk-plugins/videosdk-plugins-aws/SKILLS.md
+- type: skills
+  slug: github-skill-videosdk-live-agents-videosdk-plugins-simli
+  source_url: https://raw.githubusercontent.com/videosdk-live/agents/main/videosdk-plugins/videosdk-plugins-simli/SKILLS.md
+  title: videosdk-plugins-simli
+  summary: Plugin for Simli virtual avatar integration
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-videosdk-live
+    - github-repo-agents
+  upstream_ref: https://github.com/videosdk-live/agents/blob/main/videosdk-plugins/videosdk-plugins-simli/SKILLS.md
+- type: skills
   slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
   source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
   title: vllm-ascend-model-adapter
@@ -1306,6 +1608,18 @@
     - github-repo-vllm-ascend
   upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
 - type: skills
+  slug: github-skill-wanshuiyin-auto-claude-code-research-in-sleep-grant-proposal
+  source_url: https://raw.githubusercontent.com/wanshuiyin/Auto-claude-code-research-in-sleep/main/skills/grant-proposal/SKILL.md
+  title: grant-proposal
+  summary: Draft a structured grant proposal from research ideas and literature. Supports KAKENHI (Japan), NSF (US), NSFC (China, including 面上/青年/优青/杰青/海外优青/重点), ERC (EU), DFG (Germany), SNSF (Switzerland), ARC (Australia), NWO (Netherlands), and generic formats. Use when user says "write grant", "grant proposal", "申請書", "write KAKENHI", "科研費", "基金申请", "写基金", "NSF proposal", or wants to turn research ideas into a funding application.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wanshuiyin
+    - github-repo-auto-claude-code-research-in-sleep
+  upstream_ref: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/blob/main/skills/grant-proposal/SKILL.md
+- type: skills
   slug: github-skill-wavetermdev-waveterm-electron-api
   source_url: https://raw.githubusercontent.com/wavetermdev/waveterm/main/.kilocode/skills/electron-api/SKILL.md
   title: electron-api
@@ -1317,6 +1631,30 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-wgpsec-aboutsecurity-ctf-reverse
+  source_url: https://raw.githubusercontent.com/wgpsec/AboutSecurity/master/skills/ctf/ctf-reverse/SKILL.md
+  title: ctf-reverse
+  summary: CTF 逆向工程技术。当挑战提供未知二进制文件需要分析算法逻辑、游戏客户端需要破解验证、混淆代码需要还原、自定义 VM 需要解释执行时使用。覆盖 Ghidra/IDA 静态分析、GDB/Frida 动态调试、反调试绕过、WASM/.NET/APK/Python 字节码/Go/Rust 多平台逆向
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wgpsec
+    - github-repo-aboutsecurity
+  upstream_ref: https://github.com/wgpsec/AboutSecurity/blob/master/skills/ctf/ctf-reverse/SKILL.md
+- type: skills
+  slug: github-skill-xu-xiang-everything-claude-code-zh-golang-testing
+  source_url: https://raw.githubusercontent.com/xu-xiang/everything-claude-code-zh/main/skills/golang-testing/SKILL.md
+  title: golang-testing
+  summary: Go 测试模式，包括表格驱动测试、子测试、基准测试、模糊测试和测试覆盖率。遵循具有惯用 Go 实践的 TDD 方法论。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xu-xiang
+    - github-repo-everything-claude-code-zh
+  upstream_ref: https://github.com/xu-xiang/everything-claude-code-zh/blob/main/skills/golang-testing/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
