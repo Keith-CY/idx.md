@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/wshobson/agents/context-driven-development
 github_stars: 29309
 github_forks: 3212
 github_is_organization: false
-retrieved_at: 2026-05-30T07:53:33.458Z
+retrieved_at: 2026-05-31T08:02:37.671Z
 content_sha256: ebfa857d59fd603e55c3a53f29dbf0f96e0bb21429edf2a78519bce995bf37c8
 ---

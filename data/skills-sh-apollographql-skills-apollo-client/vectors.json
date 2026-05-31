@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-apollo-client",
-  "generated_at": "2026-05-30T07:55:12.674Z",
+  "generated_at": "2026-05-31T08:03:22.299Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-apollo-client#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-client/references/integration-client.md",
-        "retrieved_at": "2026-05-30T07:55:12.674Z",
+        "retrieved_at": "2026-05-31T08:03:22.299Z",
         "content_sha256": "a7de0b5949ce0fef044942ac4d7409bbd6f7738a453deb99a04acc12b219bedd"
       }
     }

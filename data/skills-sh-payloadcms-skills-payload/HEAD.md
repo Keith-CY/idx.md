@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/payloadcms/skills/payload
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-30T07:53:24.187Z
+retrieved_at: 2026-05-31T08:02:32.512Z
 content_sha256: 990172ff51d8958c9711a23e0857029ef2c92dfeb75112e304aa96af1704825d
 ---

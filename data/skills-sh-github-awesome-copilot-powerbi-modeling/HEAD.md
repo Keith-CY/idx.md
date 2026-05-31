@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/powerbi-modeling
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-05-30T07:56:27.230Z
+retrieved_at: 2026-05-31T08:03:55.084Z
 content_sha256: af288e11a243a090f9a2d540103d49d3b6d0d20e39a85e9b45c51175eb0028b2
 ---

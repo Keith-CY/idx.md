@@ -42,6 +42,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/winui-a
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-05-30T07:56:38.839Z
+retrieved_at: 2026-05-31T08:04:00.514Z
 content_sha256: 917341ec9eb688d73e21362910a7178a92b2ae49544b7d8f17ee9e19adfe2ea8
 ---

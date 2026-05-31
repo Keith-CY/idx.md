@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/azure-deployment-prefligh
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-05-30T07:56:26.685Z
+retrieved_at: 2026-05-31T08:03:54.883Z
 content_sha256: 685de9d8d43bfe58cfd9f20d8fa35b04e9da983f8122754400dc4b7457420197
 ---

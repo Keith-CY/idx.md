@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-mcp-tools-expert
 github_stars: 3070
 github_forks: 546
 github_is_organization: false
-retrieved_at: 2026-05-30T07:55:12.165Z
+retrieved_at: 2026-05-31T08:03:21.986Z
 content_sha256: 294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0
 ---
