@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/halthelobster/proactive-agent/proactive-agent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-31T08:02:29.159Z
+retrieved_at: 2026-06-01T08:49:48.759Z
 content_sha256: 5a61dae55820c670d23de61500aa48956b7a1b20c3f01cdc7e596b51fd854c03
 ---

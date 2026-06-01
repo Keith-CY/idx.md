@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/github-issues
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-05-31T08:02:28.852Z
+retrieved_at: 2026-06-01T08:49:48.350Z
 content_sha256: 8202c0277a34033acd44ed960a236f31a5b7a74d98769dffac497f2267279fed
 ---

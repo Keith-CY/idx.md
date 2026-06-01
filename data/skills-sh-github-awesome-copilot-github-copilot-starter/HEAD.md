@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/github-copilot-starter
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-05-31T08:03:55.670Z
+retrieved_at: 2026-06-01T08:51:35.075Z
 content_sha256: 3843218b3407c98ae49b3f7c8cce7ad3588d47bc186ece8f1de348ddbbbbab8e
 ---
