@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-daleseo-korean-skills-style-guide",
-  "generated_at": "2026-06-01T08:49:51.551Z",
+  "generated_at": "2026-06-02T08:31:37.459Z",
   "records": [
     {
       "id": "skills/skills-sh-daleseo-korean-skills-style-guide#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/daleseo/korean-skills/HEAD/skills/style-guide/references/tone-consistency.md",
-        "retrieved_at": "2026-06-01T08:49:51.551Z",
+        "retrieved_at": "2026-06-02T08:31:37.459Z",
         "content_sha256": "41c33bda9e64c062b0b5e7e6bee27d74eaf0002b0273d856e7f4b5a3ab03f48a"
       }
     }

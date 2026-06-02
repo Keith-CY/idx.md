@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-davila7-claude-code-templates-scientific-schematics",
-  "generated_at": "2026-06-01T08:49:32.691Z",
+  "generated_at": "2026-06-02T08:30:52.165Z",
   "records": [
     {
       "id": "skills/github-skill-davila7-claude-code-templates-scientific-schematics#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-templates"
         ],
         "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md",
-        "retrieved_at": "2026-06-01T08:49:32.691Z",
+        "retrieved_at": "2026-06-02T08:30:52.165Z",
         "content_sha256": "0ffbbb6c89e2a58b5d7fee718ab10db7ac663243eac22adb441722b278bd7da0"
       }
     }

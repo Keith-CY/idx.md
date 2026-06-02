@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/giulioco/skills/postbridge-social-growth
 github_stars: 2
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-06-01T08:50:52.537Z
+retrieved_at: 2026-06-02T08:35:07.577Z
 content_sha256: a9aca976f35f235f3cad5fba2e23a44214ac273965368d45a1cce5b129edefbc
 ---

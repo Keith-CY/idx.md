@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-server
 github_stars: 25
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-06-01T08:49:53.681Z
+retrieved_at: 2026-06-02T08:31:42.255Z
 content_sha256: 55a33184bb8e1d4fac044523888fa8267afe40f7557fbb508c77032e9ea32ea9
 ---
