@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apify-agent-skills-apify-actorization",
-  "generated_at": "2026-06-02T08:31:45.459Z",
+  "generated_at": "2026-06-03T08:38:06.613Z",
   "records": [
     {
       "id": "skills/skills-sh-apify-agent-skills-apify-actorization#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apify/agent-skills/HEAD/skills/apify-actorization/references/js-ts-actorization.md",
-        "retrieved_at": "2026-06-02T08:31:45.459Z",
+        "retrieved_at": "2026-06-03T08:38:06.613Z",
         "content_sha256": "683336ab365ade9a8e3cc9654a8e5d9bf7c2ce43a0b7594c5ee0c895f7e7b4d6"
       }
     }

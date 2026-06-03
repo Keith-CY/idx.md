@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pproenca-dot-skills-nuqs",
-  "generated_at": "2026-06-02T08:31:37.711Z",
+  "generated_at": "2026-06-03T08:38:00.573Z",
   "records": [
     {
       "id": "skills/skills-sh-pproenca-dot-skills-nuqs#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/nuqs/references/parser-use-typed-parsers.md",
-        "retrieved_at": "2026-06-02T08:31:37.711Z",
+        "retrieved_at": "2026-06-03T08:38:00.573Z",
         "content_sha256": "b9e4443768bf511646481557c779ff23c1045b0978750577dc0699c1ce759b82"
       }
     }
