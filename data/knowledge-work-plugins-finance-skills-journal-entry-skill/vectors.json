@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-finance-skills-journal-entry-skill",
-  "generated_at": "2026-06-03T08:40:15.094Z",
+  "generated_at": "2026-06-04T08:30:53.607Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-finance-skills-journal-entry-skill#head",
@@ -21,7 +21,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/journal-entry/SKILL.md",
-        "retrieved_at": "2026-06-03T08:40:15.094Z",
+        "retrieved_at": "2026-06-04T08:30:53.607Z",
         "content_sha256": "c085de41feb0b8c74771cdd631fff1f668ec253938c69fee47b6a953fc03a266"
       }
     }

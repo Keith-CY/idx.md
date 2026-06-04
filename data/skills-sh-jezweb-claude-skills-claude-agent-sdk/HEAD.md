@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.162
+
+  - Refusal error messages now carry `stop_reason: "refusal"` and `stop_details`
+  on the assistant message and in session transcripts, so SDK consumers can
+  detect refusals without text-matching the error content
+
+  - Agent SDK sessions on native builds now default to fast embedded
+  `find`/`grep` search in Bash, matching the interactive CLI, instead of always
+  registering the dedicated Grep/Glob tools. To keep the dedicated tools (e.g.
+  to intercept searches via `canUseTool` or hooks), name them in the `tools`
+  option or reference them in `allowedTools`
+
   ## 0.3.161
 
   - The `initialize` control request is now idempotent: a second `initialize`
@@ -23,12 +35,6 @@ summary: >-
   hanging the calling process
 
   ## 0.3.159
-
-  - Updated to parity with Claude Code v2.1.159
-
-  ## 0.3.158
-
-  - Updated to parity with Claude Code v2.1.158
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +44,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-03T08:38:07.170Z
-content_sha256: f637fbad91f1e0a7b1f54ce3d07b380235b93b05afe1609c5b4b9f3a55bb0912
+retrieved_at: 2026-06-04T08:27:36.965Z
+content_sha256: 2825b19ecf8bd5fa9cecc25bfcff241d5c2221d08555bda3d5a47e63494e4abc
 ---

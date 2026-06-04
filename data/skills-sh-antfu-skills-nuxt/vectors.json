@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-nuxt",
-  "generated_at": "2026-06-03T08:41:53.729Z",
+  "generated_at": "2026-06-04T08:33:19.934Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-nuxt#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/nuxt/references/core-directory-structure.md",
-        "retrieved_at": "2026-06-03T08:41:53.729Z",
+        "retrieved_at": "2026-06-04T08:33:19.934Z",
         "content_sha256": "8483343d5291ce55111ba074c671549c323f63c85a806a4bf9002d576ab53a2b"
       }
     }

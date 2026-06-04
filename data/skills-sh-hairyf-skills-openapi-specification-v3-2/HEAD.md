@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/hairyf/skills/openapi-specification-v3.2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-03T08:37:57.014Z
+retrieved_at: 2026-06-04T08:27:22.230Z
 content_sha256: e68161c9bfbeb686afb6fd374982b4b21a13bc335079d4d6944767fc976bfd2b
 ---

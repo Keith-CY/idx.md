@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cazala-webgpu-skill-webgpu",
-  "generated_at": "2026-06-03T08:38:03.551Z",
+  "generated_at": "2026-06-04T08:27:32.617Z",
   "records": [
     {
       "id": "skills/skills-sh-cazala-webgpu-skill-webgpu#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/cazala/webgpu-skill/HEAD/REFERENCE.md",
-        "retrieved_at": "2026-06-03T08:38:03.551Z",
+        "retrieved_at": "2026-06-04T08:27:32.617Z",
         "content_sha256": "44cd05656c416b86a9c9b023e9955feaf4eebb35e45cb99bb8a5715422cc3872"
       }
     }

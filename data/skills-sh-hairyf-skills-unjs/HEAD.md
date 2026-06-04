@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/hairyf/skills/unjs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-03T08:38:03.051Z
+retrieved_at: 2026-06-04T08:27:32.025Z
 content_sha256: 7768ed479085ade59cd6cda262376409822a83228748d36c03753bc90e5f2a34
 ---

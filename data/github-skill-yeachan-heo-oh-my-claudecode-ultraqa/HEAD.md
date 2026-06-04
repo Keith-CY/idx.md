@@ -15,6 +15,6 @@ upstream_ref: https://github.com/Yeachan-Heo/oh-my-claudecode/blob/main/skills/u
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-03T08:37:38.890Z
-content_sha256: 5fb11cb2eb80d87adde9e2b9232e663987fa5fe48fe304a94ddb18b29a01f99a
+retrieved_at: 2026-06-04T08:26:52.520Z
+content_sha256: 772795925d7f6ad5444f0eccb82153ce0fee44b84da157de5c48c2afaa7f5a30
 ---

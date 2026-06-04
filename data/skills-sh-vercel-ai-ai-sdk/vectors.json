@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-vercel-ai-ai-sdk",
-  "generated_at": "2026-06-03T08:41:48.473Z",
+  "generated_at": "2026-06-04T08:33:13.076Z",
   "records": [
     {
       "id": "skills/skills-sh-vercel-ai-ai-sdk#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/vercel/ai/HEAD/skills/use-ai-sdk/references/common-errors.md",
-        "retrieved_at": "2026-06-03T08:41:48.473Z",
+        "retrieved_at": "2026-06-04T08:33:13.076Z",
         "content_sha256": "7dc881a7db69c68cdf13069e689c474fbde8b291f65baa6d853175fa14d12f48"
       }
     }

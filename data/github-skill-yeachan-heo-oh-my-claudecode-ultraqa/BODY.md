@@ -140,6 +140,13 @@ rm -f .omc/state/ultraqa-state.json
 
 This ensures clean state for future sessions. Stale state files with `active: false` should not be left behind.
 
+## Parallel session caveats
+
+- **Multi-repo workspace anchor:** drop a `.omc-workspace` marker at the parent directory so multiple sessions across sub-repos share one `.omc/`. Resolution order: `OMC_STATE_DIR > .omc-workspace > git > cwd`. See `docs/REFERENCE.md`.
+- **Session id source:** OMC_SESSION_ID env var wins in CLI contexts; hook payload data.session_id wins in hook contexts.
+- **Plan id (when applicable):** UltraQA state is session-scoped. Mutual-exclusion with ralph applies only within the same session.
+- **Parallel verdict:** supported (session-scoped state)
+
 ---
 
 Begin ULTRAQA cycling now. Parse the goal and start cycle 1.

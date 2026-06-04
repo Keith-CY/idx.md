@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/mrgoonie/claudekit-skills/chrome-devtools
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-03T08:37:59.151Z
+retrieved_at: 2026-06-04T08:27:26.113Z
 content_sha256: fa81fa0fda1ae94ff2c25c924cfcb16f5a6e967b6d8412ddd372dc8a1b26f601
 ---

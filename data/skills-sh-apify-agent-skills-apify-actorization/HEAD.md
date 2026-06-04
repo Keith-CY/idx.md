@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actorization
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-03T08:38:06.613Z
+retrieved_at: 2026-06-04T08:27:36.192Z
 content_sha256: 683336ab365ade9a8e3cc9654a8e5d9bf7c2ce43a0b7594c5ee0c895f7e7b4d6
 ---
