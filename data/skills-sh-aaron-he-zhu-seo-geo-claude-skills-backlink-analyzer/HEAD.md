@@ -5,28 +5,32 @@ title: skills-sh-aaron-he-zhu-seo-geo-claude-skills-backlink-analyzer
 summary: >-
   # Connectors
 
-  > Skills use `~~category` placeholders instead of specific tool names. Replace
-  each placeholder with whichever tool your organization uses.
+  > Skills use `~~category` placeholders instead of specific tool names. **Every
+  skill runs at Tier 1 with zero external dependencies** — paste data manually,
+  or pull it yourself from the free/public sources below. MCP servers (further
+  down) are an optional Tier 2/3 convenience, never required.
 
-  ## Tool Categories
+  All endpoints below were verified against primary vendor/source docs
+  (2026-05). If a call 404s, re-check the linked doc — vendors move endpoints.
 
-  | Category | Placeholder | Example Tools | Included Server(s) |
+  ## Bundled helpers — run the data fetch locally (zero-dependency)
 
-  |----------|-------------|---------------|---------------------|
+  For the bundle-able categories the repo ships small **Python-3-stdlib**
+  helpers under [`scripts/connectors/`](scripts/connectors/README.md) — no
+  `pip`, no key (except where noted). They turn the recipes below into one
+  command, so a skill can pull real data itself instead of asking you to paste
+  it. Run from the repo root:
 
-  | SEO Platform | `~~SEO tool` | Ahrefs, Semrush, Moz, SISTRIX, SE Ranking |
-  Ahrefs, Semrush, SE Ranking, SISTRIX |
+  | Capability | Helper | Needs |
 
-  | Analytics | `~~analytics` | Google Analytics, Adobe Analytics, Plausible,
-  Matomo | Amplitude |
+  |---|---|---|
 
-  | Search Console | `~~search console` | Google Search Console, Bing Webmaster
-  Tools | — |
+  | Crawl a site (→ page records) | `crawl.py <url>` | — |
 
-  | AI Visibility | `~~AI monitor` | Otterly, Profound, Scrunch AI | — |
-
-  | Web Crawler | `~~web crawler` | Screaming Frog, Sitebulb, DeepCrawl, Lumar |
+  | On-page audit (title/meta/headings/canonical/JSON-LD) | `onpage.py <url>` |
   — |
+
+  | robots.txt eval + AI-bot check | `robots.py <url> --check-ai-bots` | — |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +40,6 @@ upstream_ref: https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-anal
 github_stars: 457
 github_forks: 61
 github_is_organization: false
-retrieved_at: 2026-06-04T08:33:14.764Z
-content_sha256: a255a0dba31bd69e41ae5354799d3bf76056368eb4cb2775ceb21ab644e5cab9
+retrieved_at: 2026-06-05T08:22:12.332Z
+content_sha256: 568f3d605dccb774aef01c6fdf7798efcd0dbd8ffddd54235ee40d74a3cbf863
 ---

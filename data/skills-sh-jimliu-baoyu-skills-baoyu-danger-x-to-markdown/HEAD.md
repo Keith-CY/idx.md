@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown
 github_stars: 5324
 github_forks: 600
 github_is_organization: false
-retrieved_at: 2026-06-04T08:27:51.196Z
+retrieved_at: 2026-06-05T08:20:50.102Z
 content_sha256: 61db3aa0512d452163903d0b40c7d4062372e10df2053570a1a89ed656718800
 ---

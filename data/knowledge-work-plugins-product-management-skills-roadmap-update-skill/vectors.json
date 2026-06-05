@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-skills-roadmap-update-skill",
-  "generated_at": "2026-06-04T08:30:48.928Z",
+  "generated_at": "2026-06-05T08:21:32.904Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-skills-roadmap-update-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/roadmap-update/SKILL.md",
-        "retrieved_at": "2026-06-04T08:30:48.928Z",
+        "retrieved_at": "2026-06-05T08:21:32.904Z",
         "content_sha256": "bdb121e290b590d60b94bca84d1700a8803c78db9f68f2a28fd04ccfe8aceb9e"
       }
     }

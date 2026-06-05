@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-deploy
 github_stars: 127
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-06-04T08:27:54.509Z
+retrieved_at: 2026-06-05T08:20:51.192Z
 content_sha256: b70ad5778684dfdf4a8f3b3b48bc4f3491769c0324579aac0f8a281c9f89497e
 ---

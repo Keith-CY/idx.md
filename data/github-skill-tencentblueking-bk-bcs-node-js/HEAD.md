@@ -15,6 +15,6 @@ upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-04T08:26:51.669Z
+retrieved_at: 2026-06-05T08:20:28.420Z
 content_sha256: 311c55532125c7d080151847da11210f1e63997265d2d7a3103dc8c81da72a1d
 ---

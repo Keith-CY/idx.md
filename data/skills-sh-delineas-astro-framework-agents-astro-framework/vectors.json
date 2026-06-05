@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-delineas-astro-framework-agents-astro-framework",
-  "generated_at": "2026-06-04T08:31:03.394Z",
+  "generated_at": "2026-06-05T08:21:38.439Z",
   "records": [
     {
       "id": "skills/skills-sh-delineas-astro-framework-agents-astro-framework#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/delineas/astro-framework-agents/HEAD/skills/astro-framework/references/components.md",
-        "retrieved_at": "2026-06-04T08:31:03.394Z",
+        "retrieved_at": "2026-06-05T08:21:38.439Z",
         "content_sha256": "caab3735ec58990967f419a370f52a92dae52de84b660ecd92b807fe6003c828"
       }
     }

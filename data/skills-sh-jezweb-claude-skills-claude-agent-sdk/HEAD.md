@@ -5,36 +5,27 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.165
+
+  - Updated to parity with Claude Code v2.1.165
+
+  ## 0.3.164
+
+  - Updated to parity with Claude Code v2.1.164
+
+  ## 0.3.163
+
+  - `stop_task` control requests now return success when the target task is
+  already gone (`not_found` or `not_running`), so SDK clients can reliably prune
+  stale task chips
+
+  - Fixed SDK hosts being unable to add builtin MCP servers (e.g.
+  `claude-in-chrome`) via `setMcpServers` when the CLI was launched without them
+
+  - Stop and SubagentStop hook events now support `additionalContext` in
+  `hookSpecificOutput`, enabling non-error feedback that continues the turn
+
   ## 0.3.162
-
-  - Refusal error messages now carry `stop_reason: "refusal"` and `stop_details`
-  on the assistant message and in session transcripts, so SDK consumers can
-  detect refusals without text-matching the error content
-
-  - Agent SDK sessions on native builds now default to fast embedded
-  `find`/`grep` search in Bash, matching the interactive CLI, instead of always
-  registering the dedicated Grep/Glob tools. To keep the dedicated tools (e.g.
-  to intercept searches via `canUseTool` or hooks), name them in the `tools`
-  option or reference them in `allowedTools`
-
-  ## 0.3.161
-
-  - The `initialize` control request is now idempotent: a second `initialize`
-  returns the same success payload instead of an `Already initialized` error.
-  `ControlResponse` gains an optional `pending_permission_requests` field,
-  mirroring `ControlErrorResponse`
-
-  - `applyFlagSettings` now live-applies `agent` changes: switching the active
-  agent (or passing `null` to reset) takes effect on the next turn in a running
-  session
-
-  ## 0.3.160
-
-  - Fixed SDK hook callbacks swallowing abort signals: aborting during a
-  PostToolUse hook now ends the turn with a final `result` message instead of
-  hanging the calling process
-
-  ## 0.3.159
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +35,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-04T08:27:36.965Z
-content_sha256: 2825b19ecf8bd5fa9cecc25bfcff241d5c2221d08555bda3d5a47e63494e4abc
+retrieved_at: 2026-06-05T08:20:44.791Z
+content_sha256: 89b7ca337910e590152a2844bff2922886d96739bd5b7d987d34f89266c282e5
 ---

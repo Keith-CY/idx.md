@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-langgenius-dify-frontend-code-review",
-  "generated_at": "2026-06-04T08:33:29.400Z",
+  "generated_at": "2026-06-05T08:22:16.907Z",
   "records": [
     {
       "id": "skills/skills-sh-langgenius-dify-frontend-code-review#head",
       "kind": "head",
       "path": "/data/skills-sh-langgenius-dify-frontend-code-review/HEAD.md",
-      "text": "title: skills-sh-langgenius-dify-frontend-code-review\nsummary: # Rule Catalog — Code Quality ## Conditional class names use utility function IsUrgent: True Category: Code Quality ### Description Ensure conditional CSS is handled via the shared `classNames` instead of custom ternaries, string concatenation, or template strings. Centralizing class logic keeps components consistent and easier to maintain. ### Suggested Fix ```ts import { cn } from '@/utils/classnames' const classNames = cn(isActive ? 'text-primary-600' : 'text-gray-500')\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md",
+      "text": "title: skills-sh-langgenius-dify-frontend-code-review\nsummary: # Code Quality Rules ## Scope Control Flag changes that expand beyond the requested feature or review scope: - Repo-wide cleanup mixed into a targeted fix. - Compatibility exports, aliases, shims, or wrapper layers added without an explicit migration requirement. - Shared abstractions created before there is stable cross-feature reuse. - Business components moved into generic shared locations without a clear ownership boundary. ## TypeScript Flag: - `any` or broad `Record<string, any>` where generated/API types or local domain types exist.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md",
       "metadata": {
         "stable_id": "skills/skills-sh-langgenius-dify-frontend-code-review",
         "topic": "skills-sh-langgenius-dify-frontend-code-review",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md",
-        "retrieved_at": "2026-06-04T08:33:29.400Z",
-        "content_sha256": "b67ba50627f957bce3c6f67cd96e186485d48f3c6636267fbad1e0aba8f521fa"
+        "retrieved_at": "2026-06-05T08:22:16.907Z",
+        "content_sha256": "f3e970e61b8325ac4e2737edb195018c6a2f1d0255509c08637beb541996cdb7"
       }
     }
   ]

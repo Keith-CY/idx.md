@@ -3,27 +3,28 @@ stable_id: skills/skills-sh-langgenius-dify-frontend-code-review
 type: skills
 title: skills-sh-langgenius-dify-frontend-code-review
 summary: >-
-  # Rule Catalog — Code Quality
+  # Code Quality Rules
 
-  ## Conditional class names use utility function
+  ## Scope Control
 
-  IsUrgent: True
+  Flag changes that expand beyond the requested feature or review scope:
 
-  Category: Code Quality
+  - Repo-wide cleanup mixed into a targeted fix.
 
-  ### Description
+  - Compatibility exports, aliases, shims, or wrapper layers added without an
+  explicit migration requirement.
 
-  Ensure conditional CSS is handled via the shared `classNames` instead of
-  custom ternaries, string concatenation, or template strings. Centralizing
-  class logic keeps components consistent and easier to maintain.
+  - Shared abstractions created before there is stable cross-feature reuse.
 
-  ### Suggested Fix
+  - Business components moved into generic shared locations without a clear
+  ownership boundary.
 
-  ```ts
+  ## TypeScript
 
-  import { cn } from '@/utils/classnames'
+  Flag:
 
-  const classNames = cn(isActive ? 'text-primary-600' : 'text-gray-500')
+  - `any` or broad `Record<string, any>` where generated/API types or local
+  domain types exist.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +34,6 @@ upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
 github_stars: 133762
 github_forks: 20840
 github_is_organization: true
-retrieved_at: 2026-06-04T08:33:29.400Z
-content_sha256: b67ba50627f957bce3c6f67cd96e186485d48f3c6636267fbad1e0aba8f521fa
+retrieved_at: 2026-06-05T08:22:16.907Z
+content_sha256: f3e970e61b8325ac4e2737edb195018c6a2f1d0255509c08637beb541996cdb7
 ---
