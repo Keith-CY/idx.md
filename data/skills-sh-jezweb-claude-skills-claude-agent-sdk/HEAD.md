@@ -5,6 +5,15 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.167
+
+  - Updated to parity with Claude Code v2.1.167
+
+  ## 0.3.166
+
+  - Fixed MCP resource tools not being injected for servers added at runtime via
+  the `mcp_set_servers` control request
+
   ## 0.3.165
 
   - Updated to parity with Claude Code v2.1.165
@@ -14,18 +23,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.164
 
   ## 0.3.163
-
-  - `stop_task` control requests now return success when the target task is
-  already gone (`not_found` or `not_running`), so SDK clients can reliably prune
-  stale task chips
-
-  - Fixed SDK hosts being unable to add builtin MCP servers (e.g.
-  `claude-in-chrome`) via `setMcpServers` when the CLI was launched without them
-
-  - Stop and SubagentStop hook events now support `additionalContext` in
-  `hookSpecificOutput`, enabling non-error feedback that continues the turn
-
-  ## 0.3.162
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +32,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-05T08:20:44.791Z
-content_sha256: 89b7ca337910e590152a2844bff2922886d96739bd5b7d987d34f89266c282e5
+retrieved_at: 2026-06-06T07:56:23.508Z
+content_sha256: 7fd10223cb8d14ddd59c5630fd77b513aef75a1e37ff14d97ed19443e6224d1b
 ---

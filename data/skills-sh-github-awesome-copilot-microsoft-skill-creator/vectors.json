@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-microsoft-skill-creator",
-  "generated_at": "2026-06-05T08:22:14.653Z",
+  "generated_at": "2026-06-06T07:58:46.801Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-microsoft-skill-creator#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/microsoft-skill-creator/references/skill-templates.md",
-        "retrieved_at": "2026-06-05T08:22:14.653Z",
+        "retrieved_at": "2026-06-06T07:58:46.801Z",
         "content_sha256": "ff30f0b66e3d4ce70fa97fb764491fd33728a2b47baf9c37f892bc2b64fe73f6"
       }
     }

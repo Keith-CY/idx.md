@@ -17,6 +17,6 @@ upstream_ref: https://github.com/kurtosis-tech/kurtosis/blob/main/skills/cluster
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-05T08:20:26.252Z
+retrieved_at: 2026-06-06T07:55:58.223Z
 content_sha256: b1fdde0f27221a9223b6a79b4c2946da391dacc758f7320f745ca1c79fc14912
 ---
