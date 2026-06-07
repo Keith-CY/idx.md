@@ -50,6 +50,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.system/openai-d
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-06-06T07:58:55.834Z
+retrieved_at: 2026-06-07T08:12:44.623Z
 content_sha256: 5cae604fb26d9ca3db47af72e16e9c1bffa47f9e6508b77566d2374dac75e610
 ---

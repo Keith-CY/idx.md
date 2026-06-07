@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-connectors
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-06T07:56:18.647Z
+retrieved_at: 2026-06-07T08:10:30.220Z
 content_sha256: aea9ec3e60c9d96a95d3b0aafe0f08aa2900e5b2068db47fc0fc8dcd683eef8e
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-langgenius-dify-frontend-code-review",
-  "generated_at": "2026-06-06T07:58:50.325Z",
+  "generated_at": "2026-06-07T08:12:40.468Z",
   "records": [
     {
       "id": "skills/skills-sh-langgenius-dify-frontend-code-review#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/langgenius/dify/HEAD/.agents/skills/frontend-code-review/references/code-quality.md",
-        "retrieved_at": "2026-06-06T07:58:50.325Z",
+        "retrieved_at": "2026-06-07T08:12:40.468Z",
         "content_sha256": "f3e970e61b8325ac4e2737edb195018c6a2f1d0255509c08637beb541996cdb7"
       }
     }

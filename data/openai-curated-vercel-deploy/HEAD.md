@@ -36,6 +36,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/vercel-
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-06-06T07:58:55.634Z
+retrieved_at: 2026-06-07T08:12:44.516Z
 content_sha256: f4a6cbfbb378a320fae179a79f727a881d19677e9b3db96ed49d2dc02a74fa46
 ---

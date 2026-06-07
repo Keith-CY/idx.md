@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/aspire
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-06-06T07:58:47.181Z
+retrieved_at: 2026-06-07T08:12:37.240Z
 content_sha256: 224e09146fa0a8af3f661c8538e1fee660f9288d4eccf80985c47e2f732136c9
 ---

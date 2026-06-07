@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-davila7-claude-code-templates-pdf-processing-pro",
-  "generated_at": "2026-06-06T07:56:07.432Z",
+  "generated_at": "2026-06-07T08:10:22.423Z",
   "records": [
     {
       "id": "skills/skills-sh-davila7-claude-code-templates-pdf-processing-pro#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/document-processing/pdf-processing-pro/FORMS.md",
-        "retrieved_at": "2026-06-06T07:56:07.432Z",
+        "retrieved_at": "2026-06-07T08:10:22.423Z",
         "content_sha256": "ea43f2930d53347e0cf19a205bf94315737cbb034153181ebdff6d037bac8d24"
       }
     }

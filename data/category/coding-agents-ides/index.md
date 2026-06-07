@@ -26,7 +26,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cow
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-06T07:56:14.905Z
+retrieved_at: 2026-06-07T08:10:27.108Z
 content_sha256: d7a9455692f26479806b837aef09d4711b74f82b6e32ef304a5c33ae8feb441f
 ---
 |/data/knowledge-work-plugins-cowork-plugin-management-skills-cowork-plugin-customizer-skill|
@@ -52,7 +52,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/cow
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-06T07:56:18.194Z
+retrieved_at: 2026-06-07T08:10:29.792Z
 content_sha256: 4769717426502a5517ae9d512095b49c223cccb0223e20268dfa6a44ef18ab94
 ---
 |/data/knowledge-work-plugins-cowork-plugin-management-skills-create-cowork-plugin-skill|

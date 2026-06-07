@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-ai
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-06-06T07:58:38.795Z
+retrieved_at: 2026-06-07T08:12:30.353Z
 content_sha256: d65d61fe00ed7c54d4163279da7f915613aa94a88b0613801dfb82514f89bc86
 ---

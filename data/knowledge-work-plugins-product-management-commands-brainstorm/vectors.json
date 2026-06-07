@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-commands-brainstorm",
-  "generated_at": "2026-06-06T07:58:37.551Z",
+  "generated_at": "2026-06-07T08:12:29.333Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-commands-brainstorm#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/commands/brainstorm.md",
-        "retrieved_at": "2026-06-06T07:58:37.551Z",
+        "retrieved_at": "2026-06-07T08:12:29.333Z",
         "content_sha256": "fb0ce47a71ac9b7d952cfaafaf40ad361b53d5e9627e93f409bd1ccc80cc0522"
       }
     }

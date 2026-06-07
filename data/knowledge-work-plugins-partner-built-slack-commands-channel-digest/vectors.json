@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-slack-commands-channel-digest",
-  "generated_at": "2026-06-06T07:56:29.842Z",
+  "generated_at": "2026-06-07T08:10:40.343Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-slack-commands-channel-digest#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/slack/commands/channel-digest.md",
-        "retrieved_at": "2026-06-06T07:56:29.842Z",
+        "retrieved_at": "2026-06-07T08:10:40.343Z",
         "content_sha256": "4445bdab04221e5d91cd5f1d986f78d314cf3391aa3b2d149989722aafc62291"
       }
     }

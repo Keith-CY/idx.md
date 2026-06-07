@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.168
+
+  - Updated to parity with Claude Code v2.1.168
+
   ## 0.3.167
 
   - Updated to parity with Claude Code v2.1.167
@@ -19,10 +23,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.165
 
   ## 0.3.164
-
-  - Updated to parity with Claude Code v2.1.164
-
-  ## 0.3.163
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-06T07:56:23.508Z
-content_sha256: 7fd10223cb8d14ddd59c5630fd77b513aef75a1e37ff14d97ed19443e6224d1b
+retrieved_at: 2026-06-07T08:10:34.851Z
+content_sha256: 50d49e3999a9c28c7d7c0500da1d14f9f4178f8e1a00494d2e3a64e85fc92852
 ---
