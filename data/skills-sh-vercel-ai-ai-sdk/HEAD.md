@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/vercel/ai/ai-sdk
 github_stars: 22851
 github_forks: 4028
 github_is_organization: true
-retrieved_at: 2026-06-07T08:12:33.386Z
+retrieved_at: 2026-06-08T08:37:29.130Z
 content_sha256: 7dc881a7db69c68cdf13069e689c474fbde8b291f65baa6d853175fa14d12f48
 ---

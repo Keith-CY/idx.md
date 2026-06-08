@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-component
 github_stars: 558
 github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-06-07T08:12:39.358Z
+retrieved_at: 2026-06-08T08:37:38.449Z
 content_sha256: b283e168020ee75c443e9d53f50bfb1889f9cb932732337d67a1242af96ce112
 ---

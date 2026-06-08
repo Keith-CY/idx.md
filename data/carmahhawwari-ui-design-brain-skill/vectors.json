@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "carmahhawwari-ui-design-brain-skill",
-  "generated_at": "2026-06-07T08:11:50.114Z",
+  "generated_at": "2026-06-08T08:36:17.048Z",
   "records": [
     {
       "id": "skills/carmahhawwari-ui-design-brain-skill#head",
@@ -15,7 +15,7 @@
         "title": "carmahhawwari-ui-design-brain-skill",
         "tags": [],
         "source_url": "https://raw.githubusercontent.com/carmahhawwari/ui-design-brain/main/SKILL.md",
-        "retrieved_at": "2026-06-07T08:11:50.114Z",
+        "retrieved_at": "2026-06-08T08:36:17.048Z",
         "content_sha256": "89e6ee68cef797d2b5c822043c478972db0dfda1ccef534f87c1687f4c3f6ec0"
       }
     }

@@ -8,7 +8,7 @@
 | Communication | 10 | /category/communication/index.md |
 | Data & Analytics | 10 | /category/data-analytics/index.md |
 | Finance | 9 | /category/finance/index.md |
-| Git & GitHub | 2 | /category/git-github/index.md |
+| Git & GitHub | 3 | /category/git-github/index.md |
 | Marketing & Sales | 18 | /category/marketing-sales/index.md |
 | Productivity Tasks | 19 | /category/productivity-tasks/index.md |
 | Search & Research | 11 | /category/search-research/index.md |

@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/antfu/skills/pnpm
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-06-07T08:10:31.629Z
+retrieved_at: 2026-06-08T08:34:06.661Z
 content_sha256: 44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543
 ---

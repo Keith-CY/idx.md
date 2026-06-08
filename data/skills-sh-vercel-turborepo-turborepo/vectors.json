@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-vercel-turborepo-turborepo",
-  "generated_at": "2026-06-07T08:12:33.550Z",
+  "generated_at": "2026-06-08T08:37:29.406Z",
   "records": [
     {
       "id": "skills/skills-sh-vercel-turborepo-turborepo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/vercel/turborepo/HEAD/skills/turborepo/references/configuration/RULE.md",
-        "retrieved_at": "2026-06-07T08:12:33.550Z",
+        "retrieved_at": "2026-06-08T08:37:29.406Z",
         "content_sha256": "15136bc20f6d268c63df05663b4abf3901dfa85621bd1b32e53b2040f76142ff"
       }
     }

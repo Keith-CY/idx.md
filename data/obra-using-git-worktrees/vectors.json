@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-using-git-worktrees",
-  "generated_at": "2026-06-07T08:12:29.931Z",
+  "generated_at": "2026-06-08T08:37:23.307Z",
   "records": [
     {
       "id": "skills/obra-using-git-worktrees#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/using-git-worktrees/SKILL.md",
-        "retrieved_at": "2026-06-07T08:12:29.931Z",
+        "retrieved_at": "2026-06-08T08:37:23.307Z",
         "content_sha256": "085a45ee3de432bdb2768011591d9a882cb6c759e2317f379226451c5618fe8e"
       }
     }
