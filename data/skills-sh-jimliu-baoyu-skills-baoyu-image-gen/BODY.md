@@ -59,6 +59,8 @@ options:
     description: "MiniMax image generation with subject-reference character workflows"
   - label: "Replicate"
     description: "Curated Replicate image families - nano-banana-2, Seedream, and Wan image models"
+  - label: "Agnes"
+    description: "Sapiens AI Agnes - optimized for high information density, complex layouts, reference-image support"
 ```
 
 ### Question 2: Default Google Model
@@ -187,6 +189,7 @@ default_model:
   zai: [selected Z.AI model or null]
   minimax: [selected minimax model or null]
   replicate: null
+  agnes: null
 ---
 ```
 
@@ -358,6 +361,7 @@ default_model:
   zai: [value or null]
   minimax: [value or null]
   replicate: [value or null]
+  agnes: [value or null]
 ```
 
 Only set the selected provider's model; leave others as their current value or null.

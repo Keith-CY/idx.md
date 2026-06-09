@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-directives
 github_stars: 352
 github_forks: 40
 github_is_organization: true
-retrieved_at: 2026-06-08T08:34:07.373Z
+retrieved_at: 2026-06-09T08:12:32.569Z
 content_sha256: 399465cefcfea352c0a1ad709df7959298b3c2ec160cd6453cf850aaccce9f3a
 ---

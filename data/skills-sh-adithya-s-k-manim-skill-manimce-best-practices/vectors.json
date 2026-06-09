@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-adithya-s-k-manim-skill-manimce-best-practices",
-  "generated_at": "2026-06-08T08:36:12.429Z",
+  "generated_at": "2026-06-09T08:14:40.031Z",
   "records": [
     {
       "id": "skills/skills-sh-adithya-s-k-manim-skill-manimce-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/adithya-s-k/manim_skill/HEAD/skills/manimce-best-practices/rules/scenes.md",
-        "retrieved_at": "2026-06-08T08:36:12.429Z",
+        "retrieved_at": "2026-06-09T08:14:40.031Z",
         "content_sha256": "7dc32c7c8bfd50d9266351f90cbfc59b2b71f610a37ea6a836af9946dc64b3ba"
       }
     }

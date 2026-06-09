@@ -5,6 +5,17 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.169
+
+  - Added an experimental
+  `usage_EXPERIMENTAL_MAY_CHANGE_DO_NOT_RELY_ON_THIS_API_YET()` method on
+  `Query` returning structured session cost, plan rate-limit, and local
+  usage-behaviors data
+
+  - Added an `sse` option (`SSEOptions`) to `BrowserQueryOptions` as an
+  alternative to `websocket`, for browser SDK consumers who prefer Server-Sent
+  Events
+
   ## 0.3.168
 
   - Updated to parity with Claude Code v2.1.168
@@ -17,12 +28,6 @@ summary: >-
 
   - Fixed MCP resource tools not being injected for servers added at runtime via
   the `mcp_set_servers` control request
-
-  ## 0.3.165
-
-  - Updated to parity with Claude Code v2.1.165
-
-  ## 0.3.164
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-08T08:34:11.257Z
-content_sha256: 50d49e3999a9c28c7d7c0500da1d14f9f4178f8e1a00494d2e3a64e85fc92852
+retrieved_at: 2026-06-09T08:12:36.253Z
+content_sha256: 3f043c95ebead77c0d1797fea614e83b080cb661a411b14234c6a5d17790be80
 ---

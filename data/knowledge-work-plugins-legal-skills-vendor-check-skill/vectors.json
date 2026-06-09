@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-legal-skills-vendor-check-skill",
-  "generated_at": "2026-06-08T08:36:08.461Z",
+  "generated_at": "2026-06-09T08:14:36.108Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-legal-skills-vendor-check-skill#head",
@@ -21,7 +21,7 @@
           "category-uncategorized"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/vendor-check/SKILL.md",
-        "retrieved_at": "2026-06-08T08:36:08.461Z",
+        "retrieved_at": "2026-06-09T08:14:36.108Z",
         "content_sha256": "38be57a5e9e959874d2cb78e8493211664bc452e6225cb5bdbb8b12e6f444d2e"
       }
     }

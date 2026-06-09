@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-linear",
-  "generated_at": "2026-06-08T08:37:45.497Z",
+  "generated_at": "2026-06-09T08:16:17.856Z",
   "records": [
     {
       "id": "skills/openai-curated-linear#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/linear/SKILL.md",
-        "retrieved_at": "2026-06-08T08:37:45.497Z",
+        "retrieved_at": "2026-06-09T08:16:17.856Z",
         "content_sha256": "ce0f39c95b6c9190f8ea33614393cdb556b2684dd8388ded394e9cb915f42601"
       }
     }
