@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-docs-write",
-  "generated_at": "2026-06-09T08:16:07.738Z",
+  "generated_at": "2026-06-10T08:23:06.839Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-docs-write#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-shared/SKILL.md",
-        "retrieved_at": "2026-06-09T08:16:07.738Z",
+        "retrieved_at": "2026-06-10T08:23:06.839Z",
         "content_sha256": "87abfb41cdcc300b7f2f733d1558a8af8d3c2a7cca1512f9eba244965fad98b2"
       }
     }

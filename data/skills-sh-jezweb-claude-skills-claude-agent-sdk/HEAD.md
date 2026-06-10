@@ -5,6 +5,13 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.170
+
+  - Added claude-fable-5 model and the fable alias to SDK model types.
+  https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+  - Updated to parity with Claude Code v2.1.170
+
   ## 0.3.169
 
   - Added an experimental
@@ -21,13 +28,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.168
 
   ## 0.3.167
-
-  - Updated to parity with Claude Code v2.1.167
-
-  ## 0.3.166
-
-  - Fixed MCP resource tools not being injected for servers added at runtime via
-  the `mcp_set_servers` control request
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-09T08:12:36.253Z
-content_sha256: 3f043c95ebead77c0d1797fea614e83b080cb661a411b14234c6a5d17790be80
+retrieved_at: 2026-06-10T08:21:35.910Z
+content_sha256: 3015d0fb76e5f5045876afb5d50e5377d2e172d4336c382e4fec73956cfa6e64
 ---

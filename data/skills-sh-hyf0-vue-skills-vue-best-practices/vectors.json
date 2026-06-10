@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-hyf0-vue-skills-vue-best-practices",
-  "generated_at": "2026-06-09T08:16:02.754Z",
+  "generated_at": "2026-06-10T08:23:04.153Z",
   "records": [
     {
       "id": "skills/skills-sh-hyf0-vue-skills-vue-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/hyf0/vue-skills/HEAD/skills/vue-best-practices/references/reactivity.md",
-        "retrieved_at": "2026-06-09T08:16:02.754Z",
+        "retrieved_at": "2026-06-10T08:23:04.153Z",
         "content_sha256": "48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b"
       }
     }

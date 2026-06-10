@@ -19,6 +19,6 @@ upstream_ref: https://github.com/openclaw/openclaw/blob/main/skills/gh-issues/SK
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-09T08:12:03.419Z
+retrieved_at: 2026-06-10T08:23:16.368Z
 content_sha256: 952a14ac4b441fc4dfbfd50d27aa26e12d0d4977fcca70bb315a68b8ff450f71
 ---

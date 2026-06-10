@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-testing-handbook-generator",
-  "generated_at": "2026-06-09T08:14:44.365Z",
+  "generated_at": "2026-06-10T08:22:32.987Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-testing-handbook-generator#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/testing-handbook-skills/skills/testing-handbook-generator/discovery.md",
-        "retrieved_at": "2026-06-09T08:14:44.365Z",
+        "retrieved_at": "2026-06-10T08:22:32.987Z",
         "content_sha256": "2bc2412af856e91ffacefb85a9f98811fe7238c99b485c03cf206969fee9dfa1"
       }
     }
