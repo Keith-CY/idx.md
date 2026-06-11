@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/plannotator
 github_stars: 3402
 github_forks: 204
 github_is_organization: false
-retrieved_at: 2026-06-10T08:23:05.339Z
+retrieved_at: 2026-06-11T08:33:22.353Z
 content_sha256: adb1de6102e4cb94ac6206689e4c694caffa6af44300571d3e9c4c77c855bfaa
 ---

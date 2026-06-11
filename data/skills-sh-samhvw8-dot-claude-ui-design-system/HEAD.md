@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/samhvw8/dot-claude/ui-design-system
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-10T08:23:00.464Z
+retrieved_at: 2026-06-11T08:33:17.712Z
 content_sha256: 8d12d8d26d288f383e36dabea1cda9f1a9bbd96b6d8d23b7e364403dd2cb5c8f
 ---

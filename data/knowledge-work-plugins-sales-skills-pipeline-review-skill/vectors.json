@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-skills-pipeline-review-skill",
-  "generated_at": "2026-06-10T08:22:28.251Z",
+  "generated_at": "2026-06-11T08:32:51.148Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-skills-pipeline-review-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/pipeline-review/SKILL.md",
-        "retrieved_at": "2026-06-10T08:22:28.251Z",
+        "retrieved_at": "2026-06-11T08:32:51.148Z",
         "content_sha256": "43b396b8292b5e11d1797fd3a549d7ebadf09b79c1a4d20a5e1cbea31032f4ab"
       }
     }

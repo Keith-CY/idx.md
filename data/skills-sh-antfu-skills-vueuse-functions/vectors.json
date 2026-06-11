@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-vueuse-functions",
-  "generated_at": "2026-06-10T08:23:05.947Z",
+  "generated_at": "2026-06-11T08:33:22.998Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-vueuse-functions#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vueuse-functions/references/createGlobalState.md",
-        "retrieved_at": "2026-06-10T08:23:05.947Z",
+        "retrieved_at": "2026-06-11T08:33:22.998Z",
         "content_sha256": "43a260724cb8610553d487a4cd59591efbc61a9876c07dbea04b07381ca7479f"
       }
     }

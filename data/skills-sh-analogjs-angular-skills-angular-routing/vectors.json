@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-routing",
-  "generated_at": "2026-06-10T08:21:33.921Z",
+  "generated_at": "2026-06-11T08:32:02.684Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-routing#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-routing/references/routing-patterns.md",
-        "retrieved_at": "2026-06-10T08:21:33.921Z",
+        "retrieved_at": "2026-06-11T08:32:02.684Z",
         "content_sha256": "8005369d8fe2f045580ae46dc6b067d9fb54fb3cdd3148a583269e0557c9e91c"
       }
     }

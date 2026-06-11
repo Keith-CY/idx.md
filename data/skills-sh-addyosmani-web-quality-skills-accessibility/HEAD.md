@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/accessibility
 github_stars: 573
 github_forks: 61
 github_is_organization: false
-retrieved_at: 2026-06-10T08:21:34.986Z
+retrieved_at: 2026-06-11T08:32:03.762Z
 content_sha256: b39c62f24e6eea1ffb517924b738f052f3888f32a8a5ca3cf348c1b33aeea291
 ---

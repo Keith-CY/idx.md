@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-winui-app",
-  "generated_at": "2026-06-10T08:23:12.197Z",
+  "generated_at": "2026-06-11T08:33:28.518Z",
   "records": [
     {
       "id": "skills/openai-curated-winui-app#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/winui-app/SKILL.md",
-        "retrieved_at": "2026-06-10T08:23:12.197Z",
+        "retrieved_at": "2026-06-11T08:33:28.518Z",
         "content_sha256": "917341ec9eb688d73e21362910a7178a92b2ae49544b7d8f17ee9e19adfe2ea8"
       }
     }
