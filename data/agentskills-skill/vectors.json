@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "agentskills-skill",
-  "generated_at": "2026-06-11T08:31:51.181Z",
+  "generated_at": "2026-06-12T08:29:28.809Z",
   "records": [
     {
       "id": "skills/agentskills-skill#head",
@@ -15,7 +15,7 @@
         "title": "agentskills-skill",
         "tags": [],
         "source_url": "https://agentskills.io/skill.md",
-        "retrieved_at": "2026-06-11T08:31:51.181Z",
+        "retrieved_at": "2026-06-12T08:29:28.809Z",
         "content_sha256": "415bae7d5099fe082b159ba6651607456a37c2f9a99e82f730033846f27cff48"
       }
     }

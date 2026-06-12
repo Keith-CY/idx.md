@@ -5,6 +5,17 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.175
+
+  - Updated to parity with Claude Code v2.1.175
+
+  ## 0.3.174
+
+  - SDK consumers now receive the `system/model_fallback` message for all
+  fallback triggers — `overloaded`, `server_error`, and `last_resort` in
+  addition to `model_not_found` and `permission_denied` — and the message's
+  `trigger` field gained the `server_error` and `last_resort` values
+
   ## 0.3.173
 
   - Updated to parity with Claude Code v2.1.173
@@ -17,15 +28,6 @@ summary: >-
 
   - Fixed slash-followed-by-whitespace input (e.g. `/ add tests`) being silently
   dropped instead of treated as a plain prompt
-
-  ## 0.3.171
-
-  - Updated to parity with Claude Code v2.1.171
-
-  ## 0.3.170
-
-  - Added claude-fable-5 model and the fable alias to SDK model types.
-  https://www.anthropic.com/news/claude-fable-5-mythos-5
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-11T08:32:04.733Z
-content_sha256: c62955a39f3436ebfca9ef3a8d237b438c65aeb0443e44647b7dd4f065f73ac1
+retrieved_at: 2026-06-12T08:29:53.962Z
+content_sha256: c761510459eb3d6cb3f27495e5fe867ec7cae805875d40267bf6b178d7c491d8
 ---

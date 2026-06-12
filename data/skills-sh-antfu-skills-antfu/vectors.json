@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-antfu",
-  "generated_at": "2026-06-11T08:32:02.425Z",
+  "generated_at": "2026-06-12T08:29:49.477Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-antfu#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/antfu/references/antfu-eslint-config.md",
-        "retrieved_at": "2026-06-11T08:32:02.425Z",
+        "retrieved_at": "2026-06-12T08:29:49.477Z",
         "content_sha256": "d5a17c833786c37013a997108a7ecd78a49264098f5f3a5733c74aa1899585ed"
       }
     }

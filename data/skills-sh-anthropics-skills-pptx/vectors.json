@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-anthropics-skills-pptx",
-  "generated_at": "2026-06-11T08:32:02.170Z",
+  "generated_at": "2026-06-12T08:29:48.969Z",
   "records": [
     {
       "id": "skills/skills-sh-anthropics-skills-pptx#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/pptx/editing.md",
-        "retrieved_at": "2026-06-11T08:32:02.170Z",
+        "retrieved_at": "2026-06-12T08:29:48.969Z",
         "content_sha256": "6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68"
       }
     }

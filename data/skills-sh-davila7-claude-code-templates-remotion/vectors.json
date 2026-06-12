@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-davila7-claude-code-templates-remotion",
-  "generated_at": "2026-06-11T08:31:59.896Z",
+  "generated_at": "2026-06-12T08:29:43.624Z",
   "records": [
     {
       "id": "skills/skills-sh-davila7-claude-code-templates-remotion#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/video/remotion/references/animations.md",
-        "retrieved_at": "2026-06-11T08:31:59.896Z",
+        "retrieved_at": "2026-06-12T08:29:43.624Z",
         "content_sha256": "99a6377d64061af5f7fcd1a179c0c8f6d7bcd0a515060a46db117a757ac3387a"
       }
     }
