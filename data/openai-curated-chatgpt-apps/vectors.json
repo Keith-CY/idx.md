@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-chatgpt-apps",
-  "generated_at": "2026-06-12T08:33:19.733Z",
+  "generated_at": "2026-06-13T08:08:13.353Z",
   "records": [
     {
       "id": "skills/openai-curated-chatgpt-apps#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/chatgpt-apps/SKILL.md",
-        "retrieved_at": "2026-06-12T08:33:19.733Z",
+        "retrieved_at": "2026-06-13T08:08:13.353Z",
         "content_sha256": "c3a13a659ce26e9d067b5a97c321e8abec6d8e878afce31b7e841dfcf2635c3a"
       }
     }

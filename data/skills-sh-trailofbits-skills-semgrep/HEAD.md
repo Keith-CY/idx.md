@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/semgrep
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-12T08:31:54.836Z
+retrieved_at: 2026-06-13T08:07:39.848Z
 content_sha256: 76c8d41c8fc2c36daa44171db345373e169da46a69387378a31ef26061102c97
 ---

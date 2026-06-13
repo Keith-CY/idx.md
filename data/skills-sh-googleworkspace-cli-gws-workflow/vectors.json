@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-workflow",
-  "generated_at": "2026-06-12T08:33:15.296Z",
+  "generated_at": "2026-06-13T08:08:11.304Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-workflow#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-workflow-standup-report/SKILL.md",
-        "retrieved_at": "2026-06-12T08:33:15.296Z",
+        "retrieved_at": "2026-06-13T08:08:11.304Z",
         "content_sha256": "678cacadf6459205b2459ef79cca9a96ef1c68be1130c03f32ee26f6b9d4da66"
       }
     }

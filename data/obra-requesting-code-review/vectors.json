@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-requesting-code-review",
-  "generated_at": "2026-06-12T08:33:23.173Z",
+  "generated_at": "2026-06-13T08:08:14.719Z",
   "records": [
     {
       "id": "skills/obra-requesting-code-review#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/requesting-code-review/SKILL.md",
-        "retrieved_at": "2026-06-12T08:33:23.173Z",
+        "retrieved_at": "2026-06-13T08:08:14.719Z",
         "content_sha256": "5a3a44a3667800e2dc836829c6b92fada51e6dc58ac144ec05fe59f47d6bcd84"
       }
     }

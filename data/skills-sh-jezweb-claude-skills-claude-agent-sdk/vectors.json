@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-06-12T08:29:53.962Z",
+  "generated_at": "2026-06-13T08:06:52.497Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.175 - Updated to parity with Claude Code v2.1.175 ## 0.3.174 - SDK consumers now receive the `system/model_fallback` message for all fallback triggers — `overloaded`, `server_error`, and `last_resort` in addition to `model_not_found` and `permission_denied` — and the message's `trigger` field gained the `server_error` and `last_resort` values ## 0.3.173 - Updated to parity with Claude Code v2.1.173 ## 0.3.172 - SDK `plugins` option now accepts `skipMcpDiscovery: true` per plugin, so a host that manages a plugin's MCP connections itself can load skills/hooks from the plugin path without the engine re-reading its `.mcp.json` - Fixed slash-followed-by-whitespace input (e.g. `/ add tests`) being silently dropped instead of treated as a plain prompt\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.177 - Updated to parity with Claude Code v2.1.177 ## 0.3.176 - Fixed turn `result` messages being dropped when multiple turns complete while a background agent or workflow is running - Fixed background agent, remote agent, and MCP task state not being restored when resuming a session via the SDK ## 0.3.175 - Updated to parity with Claude Code v2.1.175 ## 0.3.174 - SDK consumers now receive the `system/model_fallback` message for all fallback triggers — `overloaded`, `server_error`, and `last_resort` in addition to `model_not_found` and `permission_denied` — and the message's `trigger` field gained the `server_error` and `last_resort` values\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-06-12T08:29:53.962Z",
-        "content_sha256": "c761510459eb3d6cb3f27495e5fe867ec7cae805875d40267bf6b178d7c491d8"
+        "retrieved_at": "2026-06-13T08:06:52.497Z",
+        "content_sha256": "0ebe227d2ef22540b70b441775fbd434d03874663d0c7116f2a7bf4c435981d4"
       }
     }
   ]

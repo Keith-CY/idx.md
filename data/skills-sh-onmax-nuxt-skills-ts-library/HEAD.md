@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/ts-library
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-06-12T08:30:05.472Z
+retrieved_at: 2026-06-13T08:06:58.320Z
 content_sha256: 2c48c69f958dbc84d435513df0b8ba0d1d507b72d8eb3033c3413f70875ee18b
 ---

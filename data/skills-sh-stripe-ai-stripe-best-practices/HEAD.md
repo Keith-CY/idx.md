@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/stripe/ai/stripe-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-12T08:33:19.302Z
+retrieved_at: 2026-06-13T08:08:13.175Z
 content_sha256: e766b6de3455f5d3dbc9a61add5b61fad87573c30fef3cc55c6102f422c58c4b
 ---

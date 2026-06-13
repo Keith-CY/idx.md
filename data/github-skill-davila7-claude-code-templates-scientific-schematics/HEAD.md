@@ -19,6 +19,6 @@ upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-too
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-12T08:33:26.107Z
+retrieved_at: 2026-06-13T08:08:16.046Z
 content_sha256: 0ffbbb6c89e2a58b5d7fee718ab10db7ac663243eac22adb441722b278bd7da0
 ---
