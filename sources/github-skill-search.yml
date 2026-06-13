@@ -8,6 +8,18 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
+  slug: github-skill-a5c-ai-babysitter-facial-animation
+  source_url: https://raw.githubusercontent.com/a5c-ai/babysitter/main/library/specializations/game-development/skills/facial-animation/SKILL.md
+  title: facial-animation
+  summary: Facial animation skill for blend shapes and lip sync.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-a5c-ai
+    - github-repo-babysitter
+  upstream_ref: https://github.com/a5c-ai/babysitter/blob/main/library/specializations/game-development/skills/facial-animation/SKILL.md
+- type: skills
   slug: github-skill-actionbook-rust-skills-m04-zero-cost
   source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
   title: m04-zero-cost
@@ -44,6 +56,30 @@
     - github-repo-agno
   upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_skills/sample_skills/git-workflow/SKILL.md
 - type: skills
+  slug: github-skill-aipoch-medical-research-skills-peer-review
+  source_url: https://raw.githubusercontent.com/aipoch/medical-research-skills/main/scientific-skills/Academic Writing/peer-review/SKILL.md
+  title: peer-review
+  summary: Conduct professional peer reviews for papers or theses, providing structured evaluations and improvement suggestions; use when you need a pre-submission assessment, an internal review, or academic quality control.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-aipoch
+    - github-repo-medical-research-skills
+  upstream_ref: https://github.com/aipoch/medical-research-skills/blob/main/scientific-skills/Academic Writing/peer-review/SKILL.md
+- type: skills
+  slug: github-skill-alinaqi-maggy-llm-patterns
+  source_url: https://raw.githubusercontent.com/alinaqi/maggy/main/skills/llm-patterns/SKILL.md
+  title: llm-patterns
+  summary: AI-first application patterns, LLM testing, prompt management
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-alinaqi
+    - github-repo-maggy
+  upstream_ref: https://github.com/alinaqi/maggy/blob/main/skills/llm-patterns/SKILL.md
+- type: skills
   slug: github-skill-alirezarezvani-claude-skills-confluence-expert
   source_url: https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/project-management/confluence-expert/SKILL.md
   title: confluence-expert
@@ -55,6 +91,18 @@
     - github-owner-alirezarezvani
     - github-repo-claude-skills
   upstream_ref: https://github.com/alirezarezvani/claude-skills/blob/main/project-management/confluence-expert/SKILL.md
+- type: skills
+  slug: github-skill-alirezarezvani-claude-skills-quality-documentation-manager
+  source_url: https://raw.githubusercontent.com/alirezarezvani/claude-skills/main/ra-qm-team/skills/quality-documentation-manager/SKILL.md
+  title: quality-documentation-manager
+  summary: Document control system management for medical device QMS. Covers document numbering, version control, change management, and 21 CFR Part 11 compliance. Use when working on document control procedures, change control workflows, document numbering, version management, electronic signature compliance, or regulatory documentation review.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-alirezarezvani
+    - github-repo-claude-skills
+  upstream_ref: https://github.com/alirezarezvani/claude-skills/blob/main/ra-qm-team/skills/quality-documentation-manager/SKILL.md
 - type: skills
   slug: github-skill-alvarobartt-hf-mem-hf-mem
   source_url: https://raw.githubusercontent.com/alvarobartt/hf-mem/main/SKILL.md
@@ -80,6 +128,20 @@
     - github-repo-knowledge-work-plugins
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
 - type: skills
+  slug: github-skill-autoclaw-cc-xiaohongshu-skills-xiaohongshu-skills
+  source_url: https://raw.githubusercontent.com/autoclaw-cc/xiaohongshu-skills/main/SKILL.md
+  title: xiaohongshu-skills
+  summary: |-
+    小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。
+    当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-autoclaw-cc
+    - github-repo-xiaohongshu-skills
+  upstream_ref: https://github.com/autoclaw-cc/xiaohongshu-skills/blob/main/SKILL.md
+- type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
   title: browserwing-executor
@@ -92,6 +154,33 @@
     - github-repo-browserwing
   upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
 - type: skills
+  slug: github-skill-brycewang-stanford-auto-empirical-research-skills-digital-humanities-guide
+  source_url: https://raw.githubusercontent.com/brycewang-stanford/Auto-Empirical-Research-Skills/main/skills/43-wentorai-research-plugins/skills/domains/humanities/digital-humanities-guide/SKILL.md
+  title: digital-humanities-guide
+  summary: Computational methods for humanities research including text mining and netwo...
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-brycewang-stanford
+    - github-repo-auto-empirical-research-skills
+  upstream_ref: https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/blob/main/skills/43-wentorai-research-plugins/skills/domains/humanities/digital-humanities-guide/SKILL.md
+- type: skills
+  slug: github-skill-catlog22-claude-code-workflow-brainstorm
+  source_url: https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.codex/skills/brainstorm/SKILL.md
+  title: brainstorm
+  summary: |-
+    Dual-mode brainstorming pipeline. Auto mode: framework generation → parallel role analysis
+    (spawn_agents_on_csv) → cross-role synthesis. Single role mode: individual role analysis.
+    CSV-driven parallel coordination with NDJSON discovery board.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-catlog22
+    - github-repo-claude-code-workflow
+  upstream_ref: https://github.com/catlog22/Claude-Code-Workflow/blob/main/.codex/skills/brainstorm/SKILL.md
+- type: skills
   slug: github-skill-catlog22-claude-code-workflow-team-lifecycle
   source_url: https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.claude/skills/team-lifecycle/SKILL.md
   title: team-lifecycle
@@ -103,6 +192,18 @@
     - github-owner-catlog22
     - github-repo-claude-code-workflow
   upstream_ref: https://github.com/catlog22/Claude-Code-Workflow/blob/main/.claude/skills/team-lifecycle/SKILL.md
+- type: skills
+  slug: github-skill-comeonzhj-auto-redbook-skills-xhs-note-creator
+  source_url: https://raw.githubusercontent.com/comeonzhj/Auto-Redbook-Skills/main/SKILL.md
+  title: xhs-note-creator
+  summary: 小红书笔记素材创作技能。当用户需要创建小红书笔记素材时使用这个技能。技能包含：根据用户的需求和提供的资料，撰写小红书笔记内容（标题+正文），生成图片卡片（封面+正文卡片），以及发布小红书笔记。支持 8 种精美排版主题和 4 种智能分页模式。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-comeonzhj
+    - github-repo-auto-redbook-skills
+  upstream_ref: https://github.com/comeonzhj/Auto-Redbook-Skills/blob/main/SKILL.md
 - type: skills
   slug: github-skill-composiohq-awesome-claude-skills-abuselpdb-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/abuselpdb-automation/SKILL.md
@@ -308,6 +409,18 @@
     - github-repo-buildwithclaude
   upstream_ref: https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-skills/skills/content-research-writer/SKILL.md
 - type: skills
+  slug: github-skill-davila7-claude-code-templates-accessibility
+  source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/development/accessibility/SKILL.md
+  title: accessibility
+  summary: Audit and improve web accessibility following WCAG 2.1 guidelines. Use when asked to "improve accessibility", "a11y audit", "WCAG compliance", "screen reader support", "keyboard navigation", or "make accessible".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-davila7
+    - github-repo-claude-code-templates
+  upstream_ref: https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/development/accessibility/SKILL.md
+- type: skills
   slug: github-skill-davila7-claude-code-templates-scientific-schematics
   source_url: https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/scientific/scientific-schematics/SKILL.md
   title: scientific-schematics
@@ -343,6 +456,18 @@
     - github-owner-deanpeters
     - github-repo-product-manager-skills
   upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
+- type: skills
+  slug: github-skill-denissergeevitch-repo-task-proof-loop-repo-task-proof-loop
+  source_url: https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/main/SKILL.md
+  title: repo-task-proof-loop
+  summary: Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-denissergeevitch
+    - github-repo-repo-task-proof-loop
+  upstream_ref: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/main/SKILL.md
 - type: skills
   slug: github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks
   source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
@@ -412,6 +537,18 @@
     - github-repo-eliza
   upstream_ref: https://github.com/elizaOS/eliza/blob/develop/packages/skills/skills/blucli/SKILL.md
 - type: skills
+  slug: github-skill-emdash-cms-emdash-creating-plugins
+  source_url: https://raw.githubusercontent.com/emdash-cms/emdash/main/skills/creating-plugins/SKILL.md
+  title: creating-plugins
+  summary: Create EmDash CMS plugins with hooks, storage, settings, admin UI, API routes, and Portable Text block types. Use this skill when asked to build, scaffold, or implement an EmDash plugin, or when creating plugin features like custom block types, admin pages, or content hooks.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-emdash-cms
+    - github-repo-emdash
+  upstream_ref: https://github.com/emdash-cms/emdash/blob/main/skills/creating-plugins/SKILL.md
+- type: skills
   slug: github-skill-epicweb-dev-epic-stack-epic-ui-guidelines
   source_url: https://raw.githubusercontent.com/epicweb-dev/epic-stack/main/docs/skills/epic-ui-guidelines/SKILL.md
   title: epic-ui-guidelines
@@ -423,6 +560,18 @@
     - github-owner-epicweb-dev
     - github-repo-epic-stack
   upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
+- type: skills
+  slug: github-skill-eze-is-web-access-web-access
+  source_url: https://raw.githubusercontent.com/eze-is/web-access/main/SKILL.md
+  title: web-access
+  summary: 所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-eze-is
+    - github-repo-web-access
+  upstream_ref: https://github.com/eze-is/web-access/blob/main/SKILL.md
 - type: skills
   slug: github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer
   source_url: https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md
@@ -436,6 +585,18 @@
     - github-repo-claude-code-ultimate-guide
   upstream_ref: https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/examples/skills/rtk-optimizer/SKILL.md
 - type: skills
+  slug: github-skill-gerritcodereview-gerrit-gerrit-frontend-engineering
+  source_url: https://raw.githubusercontent.com/GerritCodeReview/gerrit/master/configs/skills/gerrit_frontend_engineering/SKILL.md
+  title: gerrit-frontend-engineering
+  summary: Provides guidance and best practices on Polygerrit UI development, frontend architecture, and TypeScript/JS coding standards in Gerrit.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-gerritcodereview
+    - github-repo-gerrit
+  upstream_ref: https://github.com/GerritCodeReview/gerrit/blob/master/configs/skills/gerrit_frontend_engineering/SKILL.md
+- type: skills
   slug: github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
   title: copilot-instructions-blueprint-generator
@@ -448,6 +609,42 @@
     - github-repo-awesome-copilot
   upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot-instructions-blueprint-generator/SKILL.md
 - type: skills
+  slug: github-skill-gmickel-flow-next-flow-next-prime
+  source_url: https://raw.githubusercontent.com/gmickel/flow-next/main/plugins/flow-next/codex/skills/flow-next-prime/SKILL.md
+  title: flow-next-prime
+  summary: Comprehensive codebase assessment for agent and production readiness. Scans 8 pillars (48 criteria), verifies commands work, checks GitHub settings. Reports everything, fixes agent readiness only. Triggers on /flow-next:prime.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-gmickel
+    - github-repo-flow-next
+  upstream_ref: https://github.com/gmickel/flow-next/blob/main/plugins/flow-next/codex/skills/flow-next-prime/SKILL.md
+- type: skills
+  slug: github-skill-gptomics-bioskills-bio-comparative-genomics-synteny-analysis
+  source_url: https://raw.githubusercontent.com/GPTomics/bioSkills/main/comparative-genomics/synteny-analysis/SKILL.md
+  title: bio-comparative-genomics-synteny-analysis
+  summary: Detect syntenic blocks and structural rearrangements between genomes using MCScanX (Wang 2012), JCVI/MCScan (Tang 2008 Python), GENESPACE (Lovell 2022) for orthology-anchored riparian visualization, SyRI for structural variation, AnchorWave for sequence-level synteny, i-ADHoRe 3.0 for highly diverged species, SynNet for synteny networks, and ntSynt for multi-genome macrosynteny. Use when identifying collinear gene blocks across species, distinguishing macrosynteny from microsynteny, detecting inversions/translocations/duplications, anchoring orthology in WGD lineages, producing publication riparian plots, computing synteny block age via Ks (cross-references whole-genome-duplication), or running synteny-aware ortholog inference in polyploids.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-gptomics
+    - github-repo-bioskills
+  upstream_ref: https://github.com/GPTomics/bioSkills/blob/main/comparative-genomics/synteny-analysis/SKILL.md
+- type: skills
+  slug: github-skill-hoangnguyen0403-agent-skills-standard-laravel-eloquent
+  source_url: https://raw.githubusercontent.com/HoangNguyen0403/agent-skills-standard/develop/skills/laravel/laravel-eloquent/SKILL.md
+  title: laravel-eloquent
+  summary: Write performant Eloquent queries with eager loading, reusable scopes, and strict lazy-loading prevention in Laravel. Use when defining model relationships, creating query scopes, or processing large datasets with chunk/cursor.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-hoangnguyen0403
+    - github-repo-agent-skills-standard
+  upstream_ref: https://github.com/HoangNguyen0403/agent-skills-standard/blob/develop/skills/laravel/laravel-eloquent/SKILL.md
+- type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
   title: websocket-engineer
@@ -459,6 +656,21 @@
     - github-owner-jeffallan
     - github-repo-claude-skills
   upstream_ref: https://github.com/Jeffallan/claude-skills/blob/main/skills/websocket-engineer/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-attack-surface-analyzer
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/skills/04-security-advanced/attack-surface-analyzer/SKILL.md
+  title: attack-surface-analyzer
+  summary: |-
+    Analyze attack surface analyzer operations. Auto-activating skill for Security Advanced.
+    Triggers on: attack surface analyzer, attack surface analyzer
+    Part of the Security Advanced skill category. Use when analyzing or auditing attack surface analyzer. Trigger with phrases like "attack surface analyzer", "attack analyzer", "analyze attack surface r".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/04-security-advanced/attack-surface-analyzer/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-code-documentation-analyzer
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
@@ -474,6 +686,21 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/planned-skills/generated/17-technical-docs/code-documentation-analyzer/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-finding-arbitrage-opportunities
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/crypto/arbitrage-opportunity-finder/skills/finding-arbitrage-opportunities/SKILL.md
+  title: finding-arbitrage-opportunities
+  summary: |-
+    Detect profitable arbitrage opportunities across CEX, DEX, and cross-chain markets in real-time.
+    Use when scanning for price spreads, finding arbitrage paths, comparing exchange prices, or analyzing triangular arbitrage opportunities.
+    Trigger with phrases like "find arbitrage", "scan for arb", "price spread", "exchange arbitrage", "triangular arb", "DEX price difference", or "cross-exchange opportunity".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/crypto/arbitrage-opportunity-finder/skills/finding-arbitrage-opportunities/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-ideogram-common-errors
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md
@@ -491,6 +718,23 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/ideogram-pack/skills/ideogram-common-errors/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-instantly-migration-deep-dive
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/instantly-pack/skills/instantly-migration-deep-dive/SKILL.md
+  title: instantly-migration-deep-dive
+  summary: |-
+    Execute complex Instantly.ai migration strategies for platform changes.
+    Use when migrating between cold email platforms, consolidating workspaces,
+    or re-architecting outreach infrastructure around Instantly.
+    Trigger with phrases like "migrate to instantly", "instantly migration",
+    "switch to instantly", "instantly platform migration", "outreach migration".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/instantly-pack/skills/instantly-migration-deep-dive/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-juicebox-migration-deep-dive
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/juicebox-pack/skills/juicebox-migration-deep-dive/SKILL.md
@@ -555,6 +799,22 @@
     - github-owner-jeremylongshore
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/06-backend-dev/prisma-schema-helper/SKILL.md
+- type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-salesloft-upgrade-migration
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/salesloft-pack/skills/salesloft-upgrade-migration/SKILL.md
+  title: salesloft-upgrade-migration
+  summary: |-
+    Migrate between SalesLoft API versions and handle breaking changes.
+    Use when SalesLoft announces API deprecations, upgrading OAuth flows,
+    or transitioning from legacy endpoints.
+    Trigger: "upgrade salesloft", "salesloft migration", "salesloft API version".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/salesloft-pack/skills/salesloft-upgrade-migration/SKILL.md
 - type: skills
   slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-soc2-compliance-checker
   source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/planned-skills/generated/04-security-advanced/soc2-compliance-checker/SKILL.md
@@ -635,6 +895,34 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/16-api-integration/websocket-client-creator/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-claude-code-plugins-plus-skills-workhuman-webhooks-events
+  source_url: https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/workhuman-pack/skills/workhuman-webhooks-events/SKILL.md
+  title: workhuman-webhooks-events
+  summary: |-
+    Workhuman webhooks events for employee recognition and rewards API.
+    Use when integrating Workhuman Social Recognition,
+    or building recognition workflows with HRIS systems.
+    Trigger: "workhuman webhooks events".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-claude-code-plugins-plus-skills
+  upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/plugins/saas-packs/workhuman-pack/skills/workhuman-webhooks-events/SKILL.md
+- type: skills
+  slug: github-skill-jinchenma94-bazi-skill-bazi
+  source_url: https://raw.githubusercontent.com/jinchenma94/bazi-skill/main/SKILL.md
+  title: bazi
+  summary: '四柱八字命理分析。通过交互式步骤收集出生信息（姓名、曾用名、阳历/农历生日、时辰、性别、出生地）， 排出四柱八字，参照经典命理典籍（穷通宝典、三命通会、滴天髓、渊海子平、子平真诠等）进行专业分析。 Use this skill whenever the user asks for 八字、四柱、命理、算命、Bazi、fortune telling、 birth chart analysis, or wants to know about their 八字命盘、运势、大运、流年. Triggers: "算八字", "看八字", "批八字", "排八字", "四柱", "命盘", "算命", "帮我看看八字", "我想算八字", "分析八字", "排盘", "bazi", "bazi analysis", "fortune telling", "birth chart", "算一卦", "看运势", "命运分析". 即使只是提到"算命"、"八字"而没有明确说要用skill，也应该使用此skill。'
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jinchenma94
+    - github-repo-bazi-skill
+  upstream_ref: https://github.com/jinchenma94/bazi-skill/blob/main/SKILL.md
+- type: skills
   slug: github-skill-k-dense-ai-claude-scientific-skills-pdf
   source_url: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/scientific-skills/document-skills/pdf/SKILL.md
   title: pdf
@@ -658,6 +946,126 @@
     - github-owner-kevoreilly
     - github-repo-capev2
   upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-berufsgericht-beweisaufnahme
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/berufsgerichtliche-verfahren-freie-berufe/skills/berufsgericht-beweisaufnahme/SKILL.md
+  title: berufsgericht-beweisaufnahme
+  summary: "Berufsgericht Beweisaufnahme (Präventions- und Organisationspaket): steuert Zeugen, Urkunden, Mandatsgeheimnis, Kammerakte und Beweisanträge im Berufsverfahren mit berufsrechtlicher Quellenprüfung, Verhältnismäßigkeit, Aktenlog und verwertbarem Arbeitsprodukt im Berufsgerichtliche Verfahren Freie..."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/berufsgerichtliche-verfahren-freie-berufe/skills/berufsgericht-beweisaufnahme/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-digital-transmission-streaming
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/us-copyright-registrierung-verlag/skills/digital-transmission-streaming/SKILL.md
+  title: digital-transmission-streaming
+  summary: Prüft Streams, Downloads, interactive/noninteractive services, public performance, mechanicals, sound recording und platform splits im Us Copyright Registrierung Verlag.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/us-copyright-registrierung-verlag/skills/digital-transmission-streaming/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-digitale-inhalte-vergleich-vorschlagen
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verbraucherschutzrecht-pruefer/skills/digitale-inhalte-vergleich-vorschlagen/SKILL.md
+  title: digitale-inhalte-vergleich-vorschlagen
+  summary: "Prüfer: Digitale Inhalte: Vergleich vorschlagen im Verbraucherschutzrecht: prüft konkret die einschlägigen Tatbestandsmerkmale, Fristen, Belege und Rechtsprechung dieses Spezialthemas."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/verbraucherschutzrecht-pruefer/skills/digitale-inhalte-vergleich-vorschlagen/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-inso-negativeintrag-bestreiten-belegpaket
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/insolvenzrecht/skills/inso-negativeintrag-bestreiten-belegpaket/SKILL.md
+  title: inso-negativeintrag-bestreiten-belegpaket
+  summary: "Belegpaket gegen negative Auskunfteieinträge: Beschlüsse, Registerauszüge, Erledigungsnachweise, Löschfristen, Auskunft und Versandnachweis im Insolvenzrecht."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/insolvenzrecht/skills/inso-negativeintrag-bestreiten-belegpaket/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-kaufvertrags-check-grundbuch
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/grundbuchamt-praxis/skills/kaufvertrags-check-grundbuch/SKILL.md
+  title: kaufvertrags-check-grundbuch
+  summary: Prüft Belastungen, Fälligkeit, Löschung, Vormerkung, Finanzierung, Besitzübergang und Risiken aus Abteilung II im Grundbuchamt Praxis.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/grundbuchamt-praxis/skills/kaufvertrags-check-grundbuch/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-richterlicher-hinweis-und-aufklaerung
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/urteilsbauer-relationsmacher/skills/richterlicher-hinweis-und-aufklaerung/SKILL.md
+  title: richterlicher-hinweis-und-aufklaerung
+  summary: "Richterlicher Hinweis, Aufklärung und Parteivortrag in die Relation einbauen: führt schnell durch Sachverhalt, Rechtsgrundlagen, Belege, Risiken und erzeugt einen verwertbaren nächsten Output im Urteilsbauer Relationsmacher."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/urteilsbauer-relationsmacher/skills/richterlicher-hinweis-und-aufklaerung/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-verbraucherinsolvenz-pfaendungsschutzkonto
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verbraucherinsolvenz-schuldenbereinigung/skills/verbraucherinsolvenz-pfaendungsschutzkonto/SKILL.md
+  title: verbraucherinsolvenz-pfaendungsschutzkonto
+  summary: "Verbraucherinsolvenz: Pfaendungsschutzkonto P-Konto: Skill klaert die rechtliche Konstruktion des Pfaendungsschutzkontos nach §§ 850k 850l ZPO Grundfreibetraege Erhoehungsbetraege Antrag und Beweisfuehrun..."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/verbraucherinsolvenz-schuldenbereinigung/skills/verbraucherinsolvenz-pfaendungsschutzkonto/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-verkehr-infrastruktur-rechtsquellen-beweislast-darlegungslast
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/verkehr-infrastrukturrecht/skills/verkehr-infrastruktur-rechtsquellen-beweislast-darlegungslast/SKILL.md
+  title: verkehr-infrastruktur-rechtsquellen-beweislast-darlegungslast
+  summary: "Rechtsquellen: Quellenprüfung; Beweislast, Darlegungslast und Substantiierung: Normenstand, Rechtsprechung, Behördenpraxis und Zitierfähigkeit werden vor einer tragenden Aussage verifiziert"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/verkehr-infrastrukturrecht/skills/verkehr-infrastruktur-rechtsquellen-beweislast-darlegungslast/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-werkvertrag-maengelrechte
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/bgb-bt-pruefer/skills/werkvertrag-maengelrechte/SKILL.md
+  title: werkvertrag-maengelrechte
+  summary: "Werkvertrag-Mängelrechte §§ 633-638 BGB: Nacherfüllung, Selbstvornahme, Minderung, Schadensersatz."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/bgb-bt-pruefer/skills/werkvertrag-maengelrechte/SKILL.md
+- type: skills
+  slug: github-skill-kostja94-marketing-skills-landing-page-generator
+  source_url: https://raw.githubusercontent.com/kostja94/marketing-skills/main/skills/pages/marketing/landing-page/SKILL.md
+  title: landing-page-generator
+  summary: When the user wants to create, optimize, or audit campaign landing pages for paid ads, email, or other traffic. Also use when the user mentions "landing page," "PPC landing page," "SEM landing page," "conversion page," "campaign page," "lead capture page," "landing page optimization," "LP conversion," "single-page funnel," or "squeeze page." Not for the main site homepage; use homepage-generator.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-kostja94
+    - github-repo-marketing-skills
+  upstream_ref: https://github.com/kostja94/marketing-skills/blob/main/skills/pages/marketing/landing-page/SKILL.md
 - type: skills
   slug: github-skill-kurtosis-tech-kurtosis-cluster-manage
   source_url: https://raw.githubusercontent.com/kurtosis-tech/kurtosis/main/skills/cluster-manage/SKILL.md
@@ -719,6 +1127,18 @@
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
 - type: skills
+  slug: github-skill-microsoft-fluidframework-trigger-pipelines-for-copilot-pr
+  source_url: https://raw.githubusercontent.com/microsoft/FluidFramework/main/.claude/skills/trigger-pipelines-for-copilot-pr/SKILL.md
+  title: trigger-pipelines-for-copilot-pr
+  summary: Trigger ADO pipelines for a Copilot-created PR by posting /azp run comments. Use when the user asks to trigger CI pipelines for a specific PR.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-microsoft
+    - github-repo-fluidframework
+  upstream_ref: https://github.com/microsoft/FluidFramework/blob/main/.claude/skills/trigger-pipelines-for-copilot-pr/SKILL.md
+- type: skills
   slug: github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence
   source_url: https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
   title: analyzing-ransomware-leak-site-intelligence
@@ -743,6 +1163,18 @@
     - github-repo-context-engineering-kit
   upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
 - type: skills
+  slug: github-skill-nexu-io-open-design-magazine-web-ppt
+  source_url: https://raw.githubusercontent.com/nexu-io/open-design/main/plugins/_official/examples/guizang-ppt/SKILL.md
+  title: magazine-web-ppt
+  summary: 生成"电子杂志 × 电子墨水"风格的横向翻页网页 PPT（单 HTML 文件），含 WebGL 流体背景、衬线标题 + 非衬线正文、章节幕封、数据大字报、图片网格等模板。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到"杂志风 PPT"、"horizontal swipe deck"、"editorial magazine"、"e-ink presentation"时使用。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-nexu-io
+    - github-repo-open-design
+  upstream_ref: https://github.com/nexu-io/open-design/blob/main/plugins/_official/examples/guizang-ppt/SKILL.md
+- type: skills
   slug: github-skill-novuhq-novu-react-email
   source_url: https://raw.githubusercontent.com/novuhq/novu/next/.agents/skills/react-email/SKILL.md
   title: react-email
@@ -754,6 +1186,30 @@
     - github-owner-novuhq
     - github-repo-novu
   upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-ohh-889-skyroc-admin-feature-dev
+  source_url: https://raw.githubusercontent.com/Ohh-889/skyroc-admin/master/.agents/skills/feature-dev/SKILL.md
+  title: feature-dev
+  summary: Guided feature development with codebase understanding and architecture focus
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-ohh-889
+    - github-repo-skyroc-admin
+  upstream_ref: https://github.com/Ohh-889/skyroc-admin/blob/master/.agents/skills/feature-dev/SKILL.md
+- type: skills
+  slug: github-skill-ok-oldking-ok-script-commit
+  source_url: https://raw.githubusercontent.com/ok-oldking/ok-script/master/.agents/skills/commit_changes/SKILL.md
+  title: commit
+  summary: Generate a commit message based on current changes and commit all staged and unstaged changes to git
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-ok-oldking
+    - github-repo-ok-script
+  upstream_ref: https://github.com/ok-oldking/ok-script/blob/master/.agents/skills/commit_changes/SKILL.md
 - type: skills
   slug: github-skill-onmax-nuxt-skills-nuxt-seo
   source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md
@@ -1174,6 +1630,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
 - type: skills
+  slug: github-skill-oracle-graal-build-native-image-gradle
+  source_url: https://raw.githubusercontent.com/oracle/graal/master/docs/reference-manual/native-image/assets/skills/build-native-image-gradle/SKILL.md
+  title: build-native-image-gradle
+  summary: Build GraalVM native images using Gradle Native Build Tools. Use this skill to build Java applications with Gradle, configure native-image build.gradle settings, or resolve build or runtime issues.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-oracle
+    - github-repo-graal
+  upstream_ref: https://github.com/oracle/graal/blob/master/docs/reference-manual/native-image/assets/skills/build-native-image-gradle/SKILL.md
+- type: skills
   slug: github-skill-pbakaus-impeccable-colorize
   source_url: https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md
   title: colorize
@@ -1186,6 +1654,18 @@
     - github-repo-impeccable
   upstream_ref: https://github.com/pbakaus/impeccable/blob/main/source/skills/colorize/SKILL.md
 - type: skills
+  slug: github-skill-polyarch-humanize-humanize-refine-plan
+  source_url: https://raw.githubusercontent.com/PolyArch/humanize/main/skills/humanize-refine-plan/SKILL.md
+  title: humanize-refine-plan
+  summary: Refine an annotated implementation plan into a comment-free plan and a QA ledger while preserving the gen-plan schema.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-polyarch
+    - github-repo-humanize
+  upstream_ref: https://github.com/PolyArch/humanize/blob/main/skills/humanize-refine-plan/SKILL.md
+- type: skills
   slug: github-skill-prompt-security-clawsec-claw-release
   source_url: https://raw.githubusercontent.com/prompt-security/clawsec/main/skills/claw-release/SKILL.md
   title: claw-release
@@ -1197,6 +1677,18 @@
     - github-owner-prompt-security
     - github-repo-clawsec
   upstream_ref: https://github.com/prompt-security/clawsec/blob/main/skills/claw-release/SKILL.md
+- type: skills
+  slug: github-skill-purpleailab-decepticon-contracts-governance-attack
+  source_url: https://raw.githubusercontent.com/PurpleAILAB/Decepticon/main/packages/decepticon/decepticon/skills/standard/contracts/governance-attack/SKILL.md
+  title: contracts-governance-attack
+  summary: DAO governance attack — flash-loan-backed vote manipulation, delegation hijack, quorum dilution, proposal-spam DoS, time-lock bypass via emergency multisig, snapshot vs. on-chain vote desync, Compound/Aave/Uniswap-style GovernorBravo abuse.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-purpleailab
+    - github-repo-decepticon
+  upstream_ref: https://github.com/PurpleAILAB/Decepticon/blob/main/packages/decepticon/decepticon/skills/standard/contracts/governance-attack/SKILL.md
 - type: skills
   slug: github-skill-quickwit-oss-quickwit-simple-pr
   source_url: https://raw.githubusercontent.com/quickwit-oss/quickwit/main/.claude/skills/simple-pr/SKILL.md
@@ -1234,6 +1726,42 @@
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
 - type: skills
+  slug: github-skill-revfactory-harness-100-argumentation-framework
+  source_url: https://raw.githubusercontent.com/revfactory/harness-100/main/en/60-debate-simulator/.claude/skills/argumentation-framework/skill.md
+  title: argumentation-framework
+  summary: A specialized skill that systematically provides the Toulmin argument model, evidence type classification, and rebuttal strategies for debate argumentation. Used by pro-debater and con-debater agents to construct robust arguments and effectively rebut opposing claims. Automatically applied in contexts such as 'argumentation structure', 'Toulmin model', 'argument construction', 'rebuttal strategy', 'evidence types', 'argument strengthening'. However, legal advocacy and academic paper argumentation structure are outside the scope of this skill.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-revfactory
+    - github-repo-harness-100
+  upstream_ref: https://github.com/revfactory/harness-100/blob/main/en/60-debate-simulator/.claude/skills/argumentation-framework/skill.md
+- type: skills
+  slug: github-skill-ruvnet-ruflo-sparc-implement
+  source_url: https://raw.githubusercontent.com/ruvnet/ruflo/main/plugins/ruflo-sparc/skills/sparc-implement/SKILL.md
+  title: sparc-implement
+  summary: Run the SPARC Architecture and Implementation phases — design module boundaries, write pseudocode, implement code, and run tests
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-ruvnet
+    - github-repo-ruflo
+  upstream_ref: https://github.com/ruvnet/ruflo/blob/main/plugins/ruflo-sparc/skills/sparc-implement/SKILL.md
+- type: skills
+  slug: github-skill-sceneview-sceneview-sceneview-web
+  source_url: https://raw.githubusercontent.com/sceneview/sceneview/main/agents/sceneview-web/SKILL.md
+  title: sceneview-web
+  summary: Build 3D and WebXR (AR/VR) experiences in the browser with SceneView for Web — Filament.js (WebGL2/WASM) wrapped in a Kotlin/JS DSL and a plain-JavaScript API on `window.sceneview`. Use whenever the user asks for "3D in the browser", "a web model viewer", "WebXR AR/VR", or any browser 3D/AR app where the dependency is the `sceneview-web` npm package or its CDN script. For Jetpack Compose use the `sceneview` skill; for SwiftUI use `sceneview-ios`. Skip for raw Three.js / Babylon.js / model-viewer / A-Frame work.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sceneview
+    - github-repo-sceneview
+  upstream_ref: https://github.com/sceneview/sceneview/blob/main/agents/sceneview-web/SKILL.md
+- type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
   title: hubspot-integration
@@ -1258,6 +1786,18 @@
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/outlook-calendar-automation/SKILL.md
 - type: skills
+  slug: github-skill-sickn33-antigravity-awesome-skills-ui-a11y
+  source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/plugins/antigravity-awesome-skills/skills/ui-a11y/SKILL.md
+  title: ui-a11y
+  summary: Audit a StyleSeed-based component or page for WCAG 2.2 AA issues and apply practical accessibility fixes where the code makes them safe.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-sickn33
+    - github-repo-antigravity-awesome-skills
+  upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/plugins/antigravity-awesome-skills/skills/ui-a11y/SKILL.md
+- type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-upstash-qstash
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md
   title: upstash-qstash
@@ -1269,6 +1809,18 @@
     - github-owner-sickn33
     - github-repo-antigravity-awesome-skills
   upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/upstash-qstash/SKILL.md
+- type: skills
+  slug: github-skill-tech-leads-club-agent-skills-domain-identification-grouping
+  source_url: https://raw.githubusercontent.com/tech-leads-club/agent-skills/main/packages/skills-catalog/skills/(architecture)/domain-identification-grouping/SKILL.md
+  title: domain-identification-grouping
+  summary: Groups existing components into logical business domains to plan service-based architecture. Use when asking "which components belong together?", "group these into services", "organize by domain", "component-to-domain mapping", or planning service extraction from an existing codebase. Do NOT use for identifying new domains from scratch (use domain-analysis) or analyzing coupling (use coupling-analysis).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-tech-leads-club
+    - github-repo-agent-skills
+  upstream_ref: https://github.com/tech-leads-club/agent-skills/blob/main/packages/skills-catalog/skills/(architecture)/domain-identification-grouping/SKILL.md
 - type: skills
   slug: github-skill-tencentblueking-bk-bcs-node-js
   source_url: https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md
@@ -1294,6 +1846,30 @@
     - github-repo-bk-bcs
   upstream_ref: https://github.com/TencentBlueKing/bk-bcs/blob/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md
 - type: skills
+  slug: github-skill-tripleyak-skillforge-skillforge
+  source_url: https://raw.githubusercontent.com/tripleyak/SkillForge/main/SKILL.md
+  title: skillforge
+  summary: Intelligent skill router, proactive advisor, and creator. Analyzes ANY input to recommend existing skills, improve them, or create new ones. Adds proactive Context Skill Advisor suggestions from session, project, and personal context using user-controlled Proactivity Levels.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-tripleyak
+    - github-repo-skillforge
+  upstream_ref: https://github.com/tripleyak/SkillForge/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-utkusen-sast-skills-sast-idor
+  source_url: https://raw.githubusercontent.com/utkusen/sast-skills/main/sast-files/.claude/skills/sast-idor/SKILL.md
+  title: sast-idor
+  summary: "Detect Insecure Direct Object Reference (IDOR) vulnerabilities in a codebase using a three-phase approach: recon (find candidates), batched verify (check authorization in parallel subagents, 3 candidates each), and merge (consolidate batch results). Checks endpoints for missing ownership or authorization checks on user-supplied identifiers. Requires sast/architecture.md (run sast-analysis first). Outputs findings to sast/idor-results.md. Use when asked to find IDOR or authorization bypass bugs."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-utkusen
+    - github-repo-sast-skills
+  upstream_ref: https://github.com/utkusen/sast-skills/blob/main/sast-files/.claude/skills/sast-idor/SKILL.md
+- type: skills
   slug: github-skill-vllm-project-vllm-ascend-vllm-ascend-model-adapter
   source_url: https://raw.githubusercontent.com/vllm-project/vllm-ascend/main/.agents/skills/vllm-ascend-model-adapter/SKILL.md
   title: vllm-ascend-model-adapter
@@ -1318,6 +1894,42 @@
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
 - type: skills
+  slug: github-skill-wjz-p-gemini-skill-gemini-skill
+  source_url: https://raw.githubusercontent.com/WJZ-P/gemini-skill/main/SKILL.md
+  title: gemini-skill
+  summary: 通过 Gemini 官网（gemini.google.com）执行生图、对话等操作。用户提到"生图/画图/绘图/nano banana/nanobanana/生成图片"等关键词时触发。操作方式分三级优先级：首选 MCP 工具 → 次选 Skill 脚本 → 最次连接 Skill 浏览器手动操作（需用户授权）。禁止自行启动外部浏览器访问 Gemini。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wjz-p
+    - github-repo-gemini-skill
+  upstream_ref: https://github.com/WJZ-P/gemini-skill/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-xalgord-xalgorix-configuring-identity-aware-proxy-with-google-iap
+  source_url: https://raw.githubusercontent.com/xalgord/xalgorix/main/internal/tools/skills/data/zero-trust-architecture/configuring-identity-aware-proxy-with-google-iap/SKILL.md
+  title: configuring-identity-aware-proxy-with-google-iap
+  summary: Configuring Google Cloud Identity-Aware Proxy (IAP) to enforce per-request identity verification for Compute Engine, App Engine, Cloud Run, and GKE services using access levels, context-aware policies, and programmatic access with service accounts.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xalgord
+    - github-repo-xalgorix
+  upstream_ref: https://github.com/xalgord/xalgorix/blob/main/internal/tools/skills/data/zero-trust-architecture/configuring-identity-aware-proxy-with-google-iap/SKILL.md
+- type: skills
+  slug: github-skill-xalgord-xalgorix-pentesting-freeipa
+  source_url: https://raw.githubusercontent.com/xalgord/xalgorix/main/internal/tools/skills/data/linux-hardening/pentesting-freeipa/SKILL.md
+  title: pentesting-freeipa
+  summary: Enumerating and attacking FreeIPA domains during authorized engagements — anonymous and authenticated LDAP enumeration, Kerberos ticket (CCACHE/keytab) abuse, HBAC and sudo-rule analysis, hash extraction, IPAHound graphing, and PKINIT/S4U2proxy delegation takeover paths.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-xalgord
+    - github-repo-xalgorix
+  upstream_ref: https://github.com/xalgord/xalgorix/blob/main/internal/tools/skills/data/linux-hardening/pentesting-freeipa/SKILL.md
+- type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
   title: ultraqa
@@ -1329,6 +1941,18 @@
     - github-owner-yeachan-heo
     - github-repo-oh-my-claudecode
   upstream_ref: https://github.com/Yeachan-Heo/oh-my-claudecode/blob/main/skills/ultraqa/SKILL.md
+- type: skills
+  slug: github-skill-zakirkun-guardian-cli-guardian-cli
+  source_url: https://raw.githubusercontent.com/zakirkun/guardian-cli/main/SKILL.md
+  title: guardian-cli
+  summary: An enterprise-grade, AI-powered penetration testing automation CLI tool. Orchestrates multiple specialized AI agents (Planner, ToolAgent, Analyst, Reporter) backed by 4 AI providers (OpenAI, Claude, Gemini, OpenRouter) and 19 integrated security tools through YAML-defined workflows. Produces professional Markdown, HTML, or JSON security reports with full evidence capture and traceability.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-zakirkun
+    - github-repo-guardian-cli
+  upstream_ref: https://github.com/zakirkun/guardian-cli/blob/main/SKILL.md
 - type: skills
   slug: github-skill-zjunlp-skillnet-webshop-query-parser
   source_url: https://raw.githubusercontent.com/zjunlp/SkillNet/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md
