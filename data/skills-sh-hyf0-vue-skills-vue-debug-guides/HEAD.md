@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/hyf0/vue-skills/vue-debug-guides
 github_stars: 1611
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-06-13T08:06:50.300Z
+retrieved_at: 2026-06-14T08:23:00.900Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---

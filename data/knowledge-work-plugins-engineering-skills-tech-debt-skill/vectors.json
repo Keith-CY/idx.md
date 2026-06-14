@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-tech-debt-skill",
-  "generated_at": "2026-06-13T08:06:54.716Z",
+  "generated_at": "2026-06-14T08:23:12.099Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-tech-debt-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/tech-debt/SKILL.md",
-        "retrieved_at": "2026-06-13T08:06:54.716Z",
+        "retrieved_at": "2026-06-14T08:23:12.099Z",
         "content_sha256": "ed3b4b1450c0fd9b8dad17313b5a4fafd8e6947d380b79b36a2e8259f3b1df0f"
       }
     }

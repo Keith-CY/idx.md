@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-davepoon-buildwithclaude-content-research-writer",
-  "generated_at": "2026-06-13T08:08:15.992Z",
+  "generated_at": "2026-06-14T08:28:07.184Z",
   "records": [
     {
       "id": "skills/github-skill-davepoon-buildwithclaude-content-research-writer#head",
@@ -21,7 +21,7 @@
           "github-repo-buildwithclaude"
         ],
         "source_url": "https://raw.githubusercontent.com/davepoon/buildwithclaude/main/plugins/all-skills/skills/content-research-writer/SKILL.md",
-        "retrieved_at": "2026-06-13T08:08:15.992Z",
+        "retrieved_at": "2026-06-14T08:28:07.184Z",
         "content_sha256": "1e2e8681cf7ba31550ac69151ec3fcb427559bcd3a92dc5e3b7070b7f4e076d3"
       }
     }

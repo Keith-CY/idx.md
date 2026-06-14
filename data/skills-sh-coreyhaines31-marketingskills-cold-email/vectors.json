@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-cold-email",
-  "generated_at": "2026-06-13T08:06:57.459Z",
+  "generated_at": "2026-06-14T08:23:18.865Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-cold-email#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/cold-email/references/personalization.md",
-        "retrieved_at": "2026-06-13T08:06:57.459Z",
+        "retrieved_at": "2026-06-14T08:23:18.865Z",
         "content_sha256": "08f18652938e14143402786fbdb8e1a6269650bb5eef9106898f1cdf31e47e36"
       }
     }
