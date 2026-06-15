@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
-  "generated_at": "2026-06-14T08:27:34.943Z",
+  "generated_at": "2026-06-15T09:05:11.402Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry#head",
       "kind": "head",
       "path": "/data/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry/HEAD.md",
-      "text": "title: skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry\nsummary: # Foundry Agent Deploy Create and manage agent deployments in Azure AI Foundry. For hosted agents, this includes the full workflow from containerizing the project to verifying the deployed agent. ## Quick Reference | Property | Value | |----------|-------| | Agent types | Prompt (LLM-based), Hosted | | MCP server | `azure` | | Key Foundry MCP tools | `agent_definition_schema_get`, `agent_update`, `agent_get` | | CLI tools | `docker`, `az acr` (hosted agents only) | | Container protocols | `a2a`, `responses`, `invocations`, `invocations_ws`, `mcp` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md",
+      "text": "title: skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry\nsummary: # Deploy a Foundry Agent Provision Azure resources when needed, deploy the agent, and smoke-test it. For **hosted agents** (custom container or code), use `azd deploy`. Prefer **direct code deployment through azd** (no Docker/ACR required): `agent.yaml` must contain `code_configuration:`, so `azd deploy` will use direct code deployment and zip the source and let Foundry build it. Use container/ACR deployment only when the agent truly needs a Dockerfile, custom system packages, or a pre-built image. For **prompt agents** (LLM + instructions, no custom code), use the Foundry MCP `agent_update` tool. ## Quick Reference | Property | Value | |----------|-------| | Hosted (recommended) | `azd provision` when needed, direct code deployment via `azd deploy` (`code_configuration` present), `azd ai agent invoke` | | Hosted (container) | `azd provision` when needed, container/ACR deployment via `azd deploy` (requires Docker/Podman + ACR, no `code_configuration:` in agent.yaml) | | Prompt MCP | `agent_definition_schema_get`, `agent_update`, `agent_get`, `agent_delete` |\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md",
       "metadata": {
         "stable_id": "skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
         "topic": "skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/microsoft-foundry/foundry-agent/deploy/deploy.md",
-        "retrieved_at": "2026-06-14T08:27:34.943Z",
-        "content_sha256": "903340b03720697c331dd213e779eef03332c74d11b805981ff73b0b102e3c3b"
+        "retrieved_at": "2026-06-15T09:05:11.402Z",
+        "content_sha256": "252b8d6b34d4ca23df31e7245da38ef2168db2ac01bb0a6f1469d6de80a55af8"
       }
     }
   ]

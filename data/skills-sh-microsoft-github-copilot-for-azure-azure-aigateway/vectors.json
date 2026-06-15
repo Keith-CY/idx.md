@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-aigateway",
-  "generated_at": "2026-06-14T08:27:34.447Z",
+  "generated_at": "2026-06-15T09:05:11.131Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-aigateway#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-aigateway/references/policies.md",
-        "retrieved_at": "2026-06-14T08:27:34.447Z",
+        "retrieved_at": "2026-06-15T09:05:11.131Z",
         "content_sha256": "176a5bf61186a45e338dcc9ab6e9320a7b4ae3d8bb356f8613506533348b3b69"
       }
     }

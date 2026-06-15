@@ -3,11 +3,19 @@ stable_id: skills/skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry
 type: skills
 title: skills-sh-microsoft-github-copilot-for-azure-microsoft-foundry
 summary: >-
-  # Foundry Agent Deploy
+  # Deploy a Foundry Agent
 
-  Create and manage agent deployments in Azure AI Foundry. For hosted agents,
-  this includes the full workflow from containerizing the project to verifying
-  the deployed agent.
+  Provision Azure resources when needed, deploy the agent, and smoke-test it.
+
+  For **hosted agents** (custom container or code), use `azd deploy`. Prefer
+  **direct code deployment through azd** (no Docker/ACR required): `agent.yaml`
+  must contain `code_configuration:`, so `azd deploy` will use direct code
+  deployment and zip the source and let Foundry build it. Use container/ACR
+  deployment only when the agent truly needs a Dockerfile, custom system
+  packages, or a pre-built image.
+
+  For **prompt agents** (LLM + instructions, no custom code), use the Foundry
+  MCP `agent_update` tool.
 
   ## Quick Reference
 
@@ -15,17 +23,15 @@ summary: >-
 
   |----------|-------|
 
-  | Agent types | Prompt (LLM-based), Hosted |
+  | Hosted (recommended) | `azd provision` when needed, direct code deployment
+  via `azd deploy` (`code_configuration` present), `azd ai agent invoke` |
 
-  | MCP server | `azure` |
+  | Hosted (container) | `azd provision` when needed, container/ACR deployment
+  via `azd deploy` (requires Docker/Podman + ACR, no `code_configuration:` in
+  agent.yaml) |
 
-  | Key Foundry MCP tools | `agent_definition_schema_get`, `agent_update`,
-  `agent_get` |
-
-  | CLI tools | `docker`, `az acr` (hosted agents only) |
-
-  | Container protocols | `a2a`, `responses`, `invocations`, `invocations_ws`,
-  `mcp` |
+  | Prompt MCP | `agent_definition_schema_get`, `agent_update`, `agent_get`,
+  `agent_delete` |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +41,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/microsoft-fou
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-06-14T08:27:34.943Z
-content_sha256: 903340b03720697c331dd213e779eef03332c74d11b805981ff73b0b102e3c3b
+retrieved_at: 2026-06-15T09:05:11.402Z
+content_sha256: 252b8d6b34d4ca23df31e7245da38ef2168db2ac01bb0a6f1469d6de80a55af8
 ---

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "ibelick-baseline-ui",
-  "generated_at": "2026-06-14T08:28:17.730Z",
+  "generated_at": "2026-06-15T09:05:30.799Z",
   "records": [
     {
       "id": "skills/ibelick-baseline-ui#head",
       "kind": "head",
       "path": "/data/ibelick-baseline-ui/HEAD.md",
-      "text": "title: ibelick-baseline-ui\nsummary: --- name: baseline-ui description: Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency. --- # Baseline UI Enforces an opinionated UI baseline to prevent AI-generated interface slop. ## How to use - `/baseline-ui` Apply these constraints to any UI work in this conversation. - `/baseline-ui <file>`\ntype: skills\ntags: ibelick, source-ibelick-ui-skills\nsource_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md",
+      "text": "title: ibelick-baseline-ui\nsummary: --- name: baseline-ui description: Quickly deslop UI code by fixing spacing, hierarchy, typography, and small layout issues. Use when the interface needs a fast cleanup or polish pass. --- # Baseline UI Enforces an opinionated UI baseline to prevent AI-generated interface slop. ## How to use - `/baseline-ui` Apply these constraints to any UI work in this conversation. - `/baseline-ui <file>`\ntype: skills\ntags: ibelick, source-ibelick-ui-skills\nsource_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md",
       "metadata": {
         "stable_id": "skills/ibelick-baseline-ui",
         "topic": "ibelick-baseline-ui",
@@ -18,8 +18,8 @@
           "source-ibelick-ui-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/baseline-ui/SKILL.md",
-        "retrieved_at": "2026-06-14T08:28:17.730Z",
-        "content_sha256": "9bb2f868098a9d28ce7d10383039a28169d838cea6299f9df3706ecda7932949"
+        "retrieved_at": "2026-06-15T09:05:30.799Z",
+        "content_sha256": "fea3322f36d58fdafafce2aef56e4556dd2ac7b20876b7dff7d8be7f25fa597f"
       }
     }
   ]

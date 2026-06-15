@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-writing-skills",
-  "generated_at": "2026-06-14T08:28:04.024Z",
+  "generated_at": "2026-06-15T09:05:24.587Z",
   "records": [
     {
       "id": "skills/obra-writing-skills#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md",
-        "retrieved_at": "2026-06-14T08:28:04.024Z",
+        "retrieved_at": "2026-06-15T09:05:24.587Z",
         "content_sha256": "38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e"
       }
     }
