@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-brand-review-skill",
-  "generated_at": "2026-06-15T09:04:38.669Z",
+  "generated_at": "2026-06-16T08:56:17.700Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-brand-review-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/brand-review/SKILL.md",
-        "retrieved_at": "2026-06-15T09:04:38.669Z",
+        "retrieved_at": "2026-06-16T08:56:17.700Z",
         "content_sha256": "759f29397a908c32521080247292a4e1c52ac01643bea70ccd6e807e86c1fa4b"
       }
     }

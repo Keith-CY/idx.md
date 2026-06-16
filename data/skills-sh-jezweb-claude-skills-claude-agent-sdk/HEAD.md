@@ -5,28 +5,32 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.178
+
+  - Spawn failures on an existing native binary now explain the likely libc
+  mismatch (musl binary on a glibc host) and suggest
+  `options.pathToClaudeCodeExecutable`
+
+  - Permission-denied advisory messages now carry typed denial reasons
+  (`safetyCheck`, `asyncAgent`), enabling SDK consumers to programmatically
+  match denial causes
+
+  - Fixed `UserPromptSubmit` hook block feedback not being emitted to the SDK
+  event stream — consumers can now see why a prompt was blocked by a hook
+  instead of a silent hang
+
+  - Remote Control workers now send a `worker_shutting_down` system message on
+  graceful exit so remote clients can show why the session ended
+
+  - Fixed MCP server-level specs (`mcp__server`, `mcp__server__*`) in
+  `disallowedTools` being silently ignored — they now correctly remove all tools
+  from the named server
+
   ## 0.3.177
 
   - Updated to parity with Claude Code v2.1.177
 
   ## 0.3.176
-
-  - Fixed turn `result` messages being dropped when multiple turns complete
-  while a background agent or workflow is running
-
-  - Fixed background agent, remote agent, and MCP task state not being restored
-  when resuming a session via the SDK
-
-  ## 0.3.175
-
-  - Updated to parity with Claude Code v2.1.175
-
-  ## 0.3.174
-
-  - SDK consumers now receive the `system/model_fallback` message for all
-  fallback triggers — `overloaded`, `server_error`, and `last_resort` in
-  addition to `model_not_found` and `permission_denied` — and the message's
-  `trigger` field gained the `server_error` and `last_resort` values
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-15T09:03:49.760Z
-content_sha256: 0ebe227d2ef22540b70b441775fbd434d03874663d0c7116f2a7bf4c435981d4
+retrieved_at: 2026-06-16T08:55:02.085Z
+content_sha256: 215c3bd7ed97c293660b7ded993e0a87a962ec7745e68e3058635f2d0868443f
 ---
