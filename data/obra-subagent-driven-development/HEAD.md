@@ -14,8 +14,9 @@ summary: >-
 
   # Subagent-Driven Development
 
-  Execute plan by dispatching fresh subagent per task, with two-stage review
-  after each: spec compliance review first, then code quality review.
+  Execute plan by dispatching a fresh implementer subagent per task, a task
+  review (spec compliance + code quality) after each, and a broad whole-branch
+  review at the end.
 
   **Why subagents:** You delegate tasks to specialized agents with isolated
   context. By precisely crafting their instructions and context, you ensure they
@@ -23,17 +24,12 @@ summary: >-
   session's context or history — you construct exactly what they need. This also
   preserves your own context for coordination work.
 
-  **Core principle:** Fresh subagent per task + two-stage review (spec then
-  quality) = high quality, fast iteration
+  **Core principle:** Fresh subagent per task + task review (spec + quality) +
+  broad final review = high quality, fast iteration
 
-  **Continuous execution:** Do not pause to check in with your human partner
-  between tasks. Execute all tasks from the plan without stopping. The only
-  reasons to stop are: BLOCKED status you cannot resolve, ambiguity that
-  genuinely prevents progress, or all tasks complete. "Should I continue?"
-  prompts and progress summaries waste their time — they asked you to execute
-  the plan, so execute it.
+  **Narration:** between tool calls, narrate at most one short line — the
 
-  ## When to Use
+  ledger and the tool results carry the record.
 tags:
   - obra
   - source-obra-superpowers
@@ -43,6 +39,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driv
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-06-16T08:57:31.645Z
-content_sha256: 905a2b9be59b734dbe166525ad31dcaaf712a75926135adee1f554557aba5744
+retrieved_at: 2026-06-17T08:48:56.235Z
+content_sha256: d6b0873771ea957f36ad43faaa936301b83b1788b3ee790b1ce39bf389bce386
 ---

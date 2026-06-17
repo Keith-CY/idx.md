@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-czlonkowski-n8n-skills-n8n-expression-syntax",
-  "generated_at": "2026-06-16T08:56:24.828Z",
+  "generated_at": "2026-06-17T08:46:42.102Z",
   "records": [
     {
       "id": "skills/skills-sh-czlonkowski-n8n-skills-n8n-expression-syntax#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-expression-syntax/COMMON_MISTAKES.md",
-        "retrieved_at": "2026-06-16T08:56:24.828Z",
+        "retrieved_at": "2026-06-17T08:46:42.102Z",
         "content_sha256": "31400d8b454039410ca9ce9fb4f833d3f2ea563b0732fe633a9a5f9554b9fde8"
       }
     }

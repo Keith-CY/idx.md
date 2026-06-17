@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-using-superpowers",
-  "generated_at": "2026-06-16T08:57:31.930Z",
+  "generated_at": "2026-06-17T08:48:56.677Z",
   "records": [
     {
       "id": "skills/obra-using-superpowers#head",
       "kind": "head",
       "path": "/data/obra-using-superpowers/HEAD.md",
-      "text": "title: obra-using-superpowers\nsummary: --- name: using-superpowers description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions --- <SUBAGENT-STOP> If you were dispatched as a subagent to execute a specific task, skip this skill. </SUBAGENT-STOP> <EXTREMELY-IMPORTANT> If you think there is even a 1% chance a skill might apply to what you are doing, you ABSOLUTELY MUST invoke the skill. IF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md",
+      "text": "title: obra-using-superpowers\nsummary: --- name: using-superpowers description: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions --- <SUBAGENT-STOP> If you were dispatched as a subagent to execute a specific task, skip this skill. </SUBAGENT-STOP> <EXTREMELY-IMPORTANT> If you think there is even a 1% chance a skill might apply to what you are doing, you ABSOLUTELY MUST invoke the skill. IF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md",
       "metadata": {
         "stable_id": "skills/obra-using-superpowers",
         "topic": "obra-using-superpowers",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md",
-        "retrieved_at": "2026-06-16T08:57:31.930Z",
-        "content_sha256": "316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa"
+        "retrieved_at": "2026-06-17T08:48:56.677Z",
+        "content_sha256": "918562bbba1c73d1407c50de77a92eeaa6930508bdb57a64324d7d508a9069e1"
       }
     }
   ]

@@ -8,7 +8,7 @@ summary: >-
   name: using-superpowers
 
   description: Use when starting any conversation - establishes how to find and
-  use skills, requiring Skill tool invocation before ANY response including
+  use skills, requiring skill invocation before ANY response including
   clarifying questions
 
   ---
@@ -35,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpo
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-06-16T08:57:31.930Z
-content_sha256: 316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa
+retrieved_at: 2026-06-17T08:48:56.677Z
+content_sha256: 918562bbba1c73d1407c50de77a92eeaa6930508bdb57a64324d7d508a9069e1
 ---

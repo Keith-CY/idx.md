@@ -43,6 +43,6 @@ upstream_ref: https://skills.sh/xenitv1/claude-code-maestro/maestro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-16T08:54:40.348Z
+retrieved_at: 2026-06-17T08:43:00.696Z
 content_sha256: 9e1ecadf0c6b3ec9edc2197af88c452c974e7ce3a7876d1875e303f5bd3b10ba
 ---

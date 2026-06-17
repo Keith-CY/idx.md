@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-vue",
-  "generated_at": "2026-06-16T08:57:16.224Z",
+  "generated_at": "2026-06-17T08:48:31.852Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-vue#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vue/references/script-setup-macros.md",
-        "retrieved_at": "2026-06-16T08:57:16.224Z",
+        "retrieved_at": "2026-06-17T08:48:31.852Z",
         "content_sha256": "ad47db85f8fbda6c055cedcc1d4175cd79d414e9be3ebf1e631d0e493eb4480a"
       }
     }

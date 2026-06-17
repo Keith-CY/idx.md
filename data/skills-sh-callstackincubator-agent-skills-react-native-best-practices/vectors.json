@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-callstackincubator-agent-skills-react-native-best-practices",
-  "generated_at": "2026-06-16T08:57:19.756Z",
+  "generated_at": "2026-06-17T08:48:36.740Z",
   "records": [
     {
       "id": "skills/skills-sh-callstackincubator-agent-skills-react-native-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/react-native-best-practices/references/js-lists-flatlist-flashlist.md",
-        "retrieved_at": "2026-06-16T08:57:19.756Z",
+        "retrieved_at": "2026-06-17T08:48:36.740Z",
         "content_sha256": "a4137a0d895bd2c3662aef624d72d7ef2dda09f17f6f7ecd64e4648a8c89c1bd"
       }
     }
