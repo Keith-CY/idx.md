@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-programmatic-seo",
-  "generated_at": "2026-06-17T08:48:27.618Z",
+  "generated_at": "2026-06-18T08:33:32.204Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-programmatic-seo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/programmatic-seo/references/playbooks.md",
-        "retrieved_at": "2026-06-17T08:48:27.618Z",
+        "retrieved_at": "2026-06-18T08:33:32.204Z",
         "content_sha256": "b2b3fd7c58c686f0670b94cf7192ff79436ccf0d602650b33a83a9d01102f11d"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-dadbodgeoff-drift-deduplication-1871b9dd",
-  "generated_at": "2026-06-17T08:48:59.717Z",
+  "generated_at": "2026-06-18T08:33:41.083Z",
   "records": [
     {
       "id": "skills/github-skill-dadbodgeoff-drift-deduplication-1871b9dd#head",
@@ -21,7 +21,7 @@
           "github-repo-drift"
         ],
         "source_url": "https://raw.githubusercontent.com/dadbodgeoff/drift/main/drift v1 depreciated/skills/deduplication/SKILL.md",
-        "retrieved_at": "2026-06-17T08:48:59.717Z",
+        "retrieved_at": "2026-06-18T08:33:41.083Z",
         "content_sha256": "4deb634eb2c423d4c175b0ac25cf35e595556b53a588b270acabc9677727164c"
       }
     }

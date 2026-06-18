@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-operations-skills-change-request-skill",
-  "generated_at": "2026-06-17T08:46:32.122Z",
+  "generated_at": "2026-06-18T08:33:05.017Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-operations-skills-change-request-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/change-request/SKILL.md",
-        "retrieved_at": "2026-06-17T08:46:32.122Z",
+        "retrieved_at": "2026-06-18T08:33:05.017Z",
         "content_sha256": "b1ee71cc1fecb22c7d27e2e00171f5d62fb54c405095b51098dacfea0447d8d7"
       }
     }
