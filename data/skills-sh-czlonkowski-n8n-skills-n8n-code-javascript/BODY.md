@@ -345,7 +345,7 @@ const item = $input.item;
 const userId = item.json.userId;
 
 // Make API call specific to this item
-const response = await $helpers.httpRequest({
+const response = await this.helpers.httpRequest({
   method: 'GET',
   url: `https://api.example.com/users/${userId}/details`
 });
@@ -358,7 +358,7 @@ return [{
 }];
 ```
 
-> ⚠️ **For authenticated APIs, don't extend this pattern.** `$helpers.httpRequestWithAuthentication` is blocked in the Code node sandbox (since n8n v2.0). Use an HTTP Request node with the credential attached, or delegate to a sub-workflow whose HTTP Request node holds the credential. See ERROR_PATTERNS.md Error #6.
+> ⚠️ **Use `this.helpers.httpRequest`, not `$helpers`.** In the Code node's task-runner sandbox (default since n8n v2.0) the bare `$helpers` global is undefined — `$helpers.httpRequest()` throws `ReferenceError: $helpers is not defined`. **For authenticated APIs, don't extend this pattern.** `this.helpers.httpRequestWithAuthentication` is blocked in the task-runner sandbox. Use an HTTP Request node with the credential attached, or delegate to a sub-workflow whose HTTP Request node holds the credential. For anything beyond a trivial unauthenticated GET, prefer the HTTP Request node anyway. See ERROR_PATTERNS.md Error #6.
 
 ### Example 4: Conditional Processing
 

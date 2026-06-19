@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-operations-skills-capacity-plan-skill",
-  "generated_at": "2026-06-18T08:33:04.772Z",
+  "generated_at": "2026-06-19T08:48:58.546Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-operations-skills-capacity-plan-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/capacity-plan/SKILL.md",
-        "retrieved_at": "2026-06-18T08:33:04.772Z",
+        "retrieved_at": "2026-06-19T08:48:58.546Z",
         "content_sha256": "3b8f1379471eae19e5be26c750681ad0c6054f4c8cdbf79c94309fcf46957ea8"
       }
     }

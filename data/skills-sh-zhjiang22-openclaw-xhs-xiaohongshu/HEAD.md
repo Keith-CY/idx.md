@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/zhjiang22/openclaw-xhs/xiaohongshu
 github_stars: 66
 github_forks: 10
 github_is_organization: false
-retrieved_at: 2026-06-18T08:33:09.935Z
+retrieved_at: 2026-06-19T08:49:10.283Z
 content_sha256: 54e65dc79c7cf4e4285ee563ff3a96cbab427bf2f257c7e20f18b922046b6f01
 ---

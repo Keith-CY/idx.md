@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-architecture-skill",
-  "generated_at": "2026-06-18T08:33:03.706Z",
+  "generated_at": "2026-06-19T08:48:56.309Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-architecture-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/architecture/SKILL.md",
-        "retrieved_at": "2026-06-18T08:33:03.706Z",
+        "retrieved_at": "2026-06-19T08:48:56.309Z",
         "content_sha256": "de7db3170a3ae1a894c70ef6cb555fe15618ed9b9674d20895eda3d2a0a5f9a2"
       }
     }
