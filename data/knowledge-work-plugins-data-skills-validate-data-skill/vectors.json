@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-skills-validate-data-skill",
-  "generated_at": "2026-06-19T08:48:55.459Z",
+  "generated_at": "2026-06-20T08:10:15.780Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-skills-validate-data-skill#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/validate-data/SKILL.md",
-        "retrieved_at": "2026-06-19T08:48:55.459Z",
+        "retrieved_at": "2026-06-20T08:10:15.780Z",
         "content_sha256": "1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b"
       }
     }

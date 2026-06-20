@@ -38,6 +38,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/speech/
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-06-19T08:51:16.989Z
+retrieved_at: 2026-06-20T08:11:48.050Z
 content_sha256: d6120efc03ea0e80204f687801cfaec8efc4519a3430b68e13e4ebd8e1c69b52
 ---

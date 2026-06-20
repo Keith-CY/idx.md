@@ -34,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/systematic-de
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-06-19T08:51:18.927Z
+retrieved_at: 2026-06-20T08:11:49.203Z
 content_sha256: 3b20719eca4f0461cb51a195221320d775dcf03b6859271066a03a5132a6ce7a
 ---
