@@ -15,6 +15,6 @@ upstream_ref: https://github.com/agno-agi/agno/blob/main/cookbook/02_agents/16_s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-20T08:11:49.906Z
+retrieved_at: 2026-06-21T08:32:03.015Z
 content_sha256: f7c93d25f3d18d937331eac825ad08147416c22992db98afe1bab170f399d732
 ---

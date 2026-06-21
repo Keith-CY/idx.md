@@ -27,6 +27,28 @@ mitre_attack:
 - T1486
 - T1567.002
 - T1591
+mitre_f3:
+  version: '1.1'
+  tactics:
+  - monetization
+  - reconnaissance
+  techniques:
+  - id: F1018
+    name: Convert to Cryptocurrency
+    tactic: monetization
+    source: f3
+  - id: F1029
+    name: Gather Customer Information
+    tactic: reconnaissance
+    source: f3
+  - id: T1593
+    name: Search Open Websites/Domains
+    tactic: reconnaissance
+    source: attack
+  - id: F1025.003
+    name: 'Electronic Funds Transfer: Wire Transfer'
+    tactic: monetization
+    source: f3
 ---
 # Analyzing Ransomware Leak Site Intelligence
 

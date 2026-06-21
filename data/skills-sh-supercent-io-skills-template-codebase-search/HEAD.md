@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/supercent-io/skills-template/codebase-search
 github_stars: 61172
 github_forks: 2438
 github_is_organization: false
-retrieved_at: 2026-06-20T08:11:34.092Z
+retrieved_at: 2026-06-21T08:31:52.748Z
 content_sha256: 156337b59d9813beadc8f7489e9e86da9eec2c09e755e6baa31ec2c40c7e77eb
 ---

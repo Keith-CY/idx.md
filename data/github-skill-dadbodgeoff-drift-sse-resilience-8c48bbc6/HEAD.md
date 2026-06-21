@@ -19,6 +19,6 @@ upstream_ref: https://github.com/dadbodgeoff/drift/blob/main/drift v1
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-20T08:11:51.201Z
+retrieved_at: 2026-06-21T08:32:03.933Z
 content_sha256: aac5d2e3719a15f8d764114ac9ccc88c8e66911735120681d88fa9237bc57c82
 ---

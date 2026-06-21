@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-emzod-speak-turbo-speakturbo-tts",
-  "generated_at": "2026-06-20T08:08:04.264Z",
+  "generated_at": "2026-06-21T08:29:44.694Z",
   "records": [
     {
       "id": "skills/skills-sh-emzod-speak-turbo-speakturbo-tts#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/emzod/speak-turbo/main/SKILL.md",
-        "retrieved_at": "2026-06-20T08:08:04.264Z",
+        "retrieved_at": "2026-06-21T08:29:44.694Z",
         "content_sha256": "68b384e376e1c67a308bdb9ba5827bb15c01189a1a9db28fa1ba4e6b4c7cfb03"
       }
     }

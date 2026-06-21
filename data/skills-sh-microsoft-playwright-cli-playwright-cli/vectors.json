@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-playwright-cli-playwright-cli",
-  "generated_at": "2026-06-20T08:08:37.580Z",
+  "generated_at": "2026-06-21T08:30:08.066Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-playwright-cli-playwright-cli#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/playwright-cli/HEAD/skills/playwright-cli/references/request-mocking.md",
-        "retrieved_at": "2026-06-20T08:08:37.580Z",
+        "retrieved_at": "2026-06-21T08:30:08.066Z",
         "content_sha256": "54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c"
       }
     }
