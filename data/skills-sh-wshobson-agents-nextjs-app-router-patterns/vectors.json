@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-wshobson-agents-nextjs-app-router-patterns",
-  "generated_at": "2026-06-21T08:31:09.721Z",
+  "generated_at": "2026-06-22T09:01:48.402Z",
   "records": [
     {
       "id": "skills/skills-sh-wshobson-agents-nextjs-app-router-patterns#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/reactjs/rfcs/main/text/0188-server-components.md",
-        "retrieved_at": "2026-06-21T08:31:09.721Z",
+        "retrieved_at": "2026-06-22T09:01:48.402Z",
         "content_sha256": "69a2811dc897b66d94690243a13ab78146a998b8753087c97d14c78a38643575"
       }
     }

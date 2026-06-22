@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-design-skills-design-system-skill",
-  "generated_at": "2026-06-21T08:31:09.286Z",
+  "generated_at": "2026-06-22T09:01:48.202Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-design-skills-design-system-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/design/skills/design-system/SKILL.md",
-        "retrieved_at": "2026-06-21T08:31:09.286Z",
+        "retrieved_at": "2026-06-22T09:01:48.202Z",
         "content_sha256": "fb31bd0144c43955106f01927126ae9fd2d4148be44c8d5887b3391f40c31445"
       }
     }

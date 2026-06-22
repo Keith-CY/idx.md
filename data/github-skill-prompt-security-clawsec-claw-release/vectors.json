@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-prompt-security-clawsec-claw-release",
-  "generated_at": "2026-06-21T08:32:08.440Z",
+  "generated_at": "2026-06-22T09:02:38.833Z",
   "records": [
     {
       "id": "skills/github-skill-prompt-security-clawsec-claw-release#head",
@@ -21,7 +21,7 @@
           "github-repo-clawsec"
         ],
         "source_url": "https://raw.githubusercontent.com/prompt-security/clawsec/main/skills/claw-release/SKILL.md",
-        "retrieved_at": "2026-06-21T08:32:08.440Z",
+        "retrieved_at": "2026-06-22T09:02:38.833Z",
         "content_sha256": "f6f326b1b91a0ce92cb7d159b0207ed47a94837c751f8ae3798921a4ff747d8c"
       }
     }

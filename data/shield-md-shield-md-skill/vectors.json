@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "shield-md-shield-md-skill",
-  "generated_at": "2026-06-21T08:29:55.368Z",
+  "generated_at": "2026-06-22T09:00:52.084Z",
   "records": [
     {
       "id": "skills/shield-md-shield-md-skill#head",
@@ -20,7 +20,7 @@
           "category-ai-llms"
         ],
         "source_url": "https://raw.githubusercontent.com/shield-md/shield.md/main/skill.md",
-        "retrieved_at": "2026-06-21T08:29:55.368Z",
+        "retrieved_at": "2026-06-22T09:00:52.084Z",
         "content_sha256": "d1a2f699123a487c205234f36c725034a6dc4250d9f3340d09aa174eb7d22458"
       }
     }

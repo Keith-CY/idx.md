@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-remotion-dev-skills-remotion-best-practices",
-  "generated_at": "2026-06-21T08:31:48.348Z",
+  "generated_at": "2026-06-22T09:02:18.662Z",
   "records": [
     {
       "id": "skills/skills-sh-remotion-dev-skills-remotion-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/remotion-dev/skills/HEAD/skills/remotion/rules/subtitles.md",
-        "retrieved_at": "2026-06-21T08:31:48.348Z",
+        "retrieved_at": "2026-06-22T09:02:18.662Z",
         "content_sha256": "9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30"
       }
     }

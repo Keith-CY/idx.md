@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-prepare
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-06-21T08:31:48.871Z
+retrieved_at: 2026-06-22T09:02:19.378Z
 content_sha256: b54cbc8a0d806748790454738c1f3a65b6f84e7279cbe6b158738229eba0e296
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-sickn33-antigravity-awesome-skills-app-builder",
-  "generated_at": "2026-06-21T08:29:58.114Z",
+  "generated_at": "2026-06-22T09:00:54.707Z",
   "records": [
     {
       "id": "skills/skills-sh-sickn33-antigravity-awesome-skills-app-builder#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/app-builder/templates/nextjs-fullstack/TEMPLATE.md",
-        "retrieved_at": "2026-06-21T08:29:58.114Z",
+        "retrieved_at": "2026-06-22T09:00:54.707Z",
         "content_sha256": "ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c"
       }
     }
