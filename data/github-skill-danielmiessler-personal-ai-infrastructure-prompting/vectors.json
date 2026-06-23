@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-danielmiessler-personal-ai-infrastructure-prompting",
-  "generated_at": "2026-06-22T09:02:35.372Z",
+  "generated_at": "2026-06-23T08:13:45.295Z",
   "records": [
     {
       "id": "skills/github-skill-danielmiessler-personal-ai-infrastructure-prompting#head",
@@ -21,7 +21,7 @@
           "github-repo-personal_ai_infrastructure"
         ],
         "source_url": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/Releases/v2.5/.claude/skills/Prompting/SKILL.md",
-        "retrieved_at": "2026-06-22T09:02:35.372Z",
+        "retrieved_at": "2026-06-23T08:13:45.295Z",
         "content_sha256": "14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5"
       }
     }

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-pnpm",
-  "generated_at": "2026-06-22T09:00:55.478Z",
+  "generated_at": "2026-06-23T08:10:56.492Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-pnpm#head",
       "kind": "head",
       "path": "/data/skills-sh-antfu-skills-pnpm/HEAD.md",
-      "text": "title: skills-sh-antfu-skills-pnpm\nsummary: --- name: pnpm-cli-commands description: Essential pnpm commands for package management, running scripts, and workspace operations --- # pnpm CLI Commands pnpm provides a comprehensive CLI for package management with commands similar to npm/yarn but with unique features. ## Installation Commands ### Install all dependencies ```bash pnpm install\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md",
+      "text": "title: skills-sh-antfu-skills-pnpm\nsummary: --- name: pnpm-cli-commands description: Essential pnpm commands for package management, running scripts, workspaces, publishing, and runtimes --- # pnpm CLI Commands pnpm provides a comprehensive CLI. Commands resemble npm/yarn but with unique features. ## Installation Commands ```bash pnpm install # install all deps (alias: pnpm i) pnpm add <pkg> # production dependency\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md",
       "metadata": {
         "stable_id": "skills/skills-sh-antfu-skills-pnpm",
         "topic": "skills-sh-antfu-skills-pnpm",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pnpm/references/core-cli.md",
-        "retrieved_at": "2026-06-22T09:00:55.478Z",
-        "content_sha256": "44ef8040b418b287577dec5b6b60b30044adda417020a27b571ef10bbf21a543"
+        "retrieved_at": "2026-06-23T08:10:56.492Z",
+        "content_sha256": "b315a23c83606baf70814f7fb021a7cbc000a5f2106833ae7899d40277d83a73"
       }
     }
   ]

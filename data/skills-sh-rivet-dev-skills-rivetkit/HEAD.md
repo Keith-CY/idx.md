@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/rivet-dev/skills/rivetkit
 github_stars: 6
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-06-22T09:01:48.770Z
+retrieved_at: 2026-06-23T08:12:32.185Z
 content_sha256: c154cbb97ae430649982616b6bbf3d753e42834b5d860092e3c19bb24482cab1
 ---

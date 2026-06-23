@@ -13,16 +13,20 @@ summary: >-
 
   # Directory Structure
 
-  Nuxt uses conventions-based directory structure. Understanding it is key to
+  Nuxt uses a conventions-based directory structure. Understanding it is key to
   effective development.
 
-  ## Standard Project Structure
+  > **Nuxt 4 change:** The default `srcDir` is now `app/`. All Vue application
+  code (`app.vue`, `components/`, `composables/`, `pages/`, etc.) lives inside
+  `app/`, while `server/`, `shared/`, `public/`, `modules/`, `layers/` and
+  `nuxt.config.ts` stay at the project root. (In Nuxt 3 these app directories
+  lived at the root by default.)
+
+  ## Standard Project Structure (Nuxt 4)
 
   ```
 
   my-nuxt-app/
-
-  ├── app/                    # Application source (can be at root level)
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +36,6 @@ upstream_ref: https://skills.sh/antfu/skills/nuxt
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-06-22T09:02:24.899Z
-content_sha256: 8483343d5291ce55111ba074c671549c323f63c85a806a4bf9002d576ab53a2b
+retrieved_at: 2026-06-23T08:13:32.471Z
+content_sha256: 0b3940e7e21524091ca6ef86024ac03c4c44e19597575049fec787bfc544d6ab
 ---
