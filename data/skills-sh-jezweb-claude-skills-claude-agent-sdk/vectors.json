@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-06-23T08:11:00.726Z",
+  "generated_at": "2026-06-24T08:07:57.377Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.186 - Added `agent_id` field to `can_use_tool` control requests — background agents now forward permission prompts to `canUseTool` instead of auto-denying, and stdin stays open while background tasks are running - Added `ReadMcpResourceDirTool` tool type to SDK schemas — MCP resource directory listing is now a dedicated tool instead of a fallback inside `ReadMcpResourceTool` - Added `rewind_conversation` control request for rewinding a conversation to a previous point with durable resume anchor support ## 0.3.185 - Updated to parity with Claude Code v2.1.185 ## 0.3.184 - Updated to parity with Claude Code v2.1.184 ## 0.3.183\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.187 - Added `sandbox.credentials` to SDK settings types for configuring credential file and environment variable denial in sandboxed commands ## 0.3.186 - Added `agent_id` field to `can_use_tool` control requests — background agents now forward permission prompts to `canUseTool` instead of auto-denying, and stdin stays open while background tasks are running - Added `ReadMcpResourceDirTool` tool type to SDK schemas — MCP resource directory listing is now a dedicated tool instead of a fallback inside `ReadMcpResourceTool` - Added `rewind_conversation` control request for rewinding a conversation to a previous point with durable resume anchor support ## 0.3.185 - Updated to parity with Claude Code v2.1.185 ## 0.3.184\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-06-23T08:11:00.726Z",
-        "content_sha256": "c0ac9dbceb31c232c3dd3aa5dee352ac05e4e1723a7e7973c9c570a23bd4da31"
+        "retrieved_at": "2026-06-24T08:07:57.377Z",
+        "content_sha256": "9c31a24b0231f87ce66791518d80736d5087a83845b336182bfae0542e69b9ff"
       }
     }
   ]

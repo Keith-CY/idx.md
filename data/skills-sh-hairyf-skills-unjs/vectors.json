@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-hairyf-skills-unjs",
-  "generated_at": "2026-06-23T08:10:57.972Z",
+  "generated_at": "2026-06-24T08:07:55.914Z",
   "records": [
     {
       "id": "skills/skills-sh-hairyf-skills-unjs#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/hairyf/skills/HEAD/skills/unjs/references/core-h3.md",
-        "retrieved_at": "2026-06-23T08:10:57.972Z",
+        "retrieved_at": "2026-06-24T08:07:55.914Z",
         "content_sha256": "7768ed479085ade59cd6cda262376409822a83228748d36c03753bc90e5f2a34"
       }
     }

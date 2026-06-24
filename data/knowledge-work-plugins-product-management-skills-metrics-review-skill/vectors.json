@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-skills-metrics-review-skill",
-  "generated_at": "2026-06-23T08:12:25.341Z",
+  "generated_at": "2026-06-24T08:08:38.227Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-skills-metrics-review-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/metrics-review/SKILL.md",
-        "retrieved_at": "2026-06-23T08:12:25.341Z",
+        "retrieved_at": "2026-06-24T08:08:38.227Z",
         "content_sha256": "e92f364b668074c72b36fd0f69a6adef2ead66640b2c17dc824c043fb613d278"
       }
     }

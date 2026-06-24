@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-validation-expert
 github_stars: 2848
 github_forks: 501
 github_is_organization: false
-retrieved_at: 2026-06-23T08:10:57.558Z
+retrieved_at: 2026-06-24T08:07:55.618Z
 content_sha256: 1fdf213c564f87937ef9b79582a0964966c7528f21448819fde3b4d24a3dfd5e
 ---

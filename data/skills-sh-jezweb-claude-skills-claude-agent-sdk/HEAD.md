@@ -5,6 +5,11 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.187
+
+  - Added `sandbox.credentials` to SDK settings types for configuring credential
+  file and environment variable denial in sandboxed commands
+
   ## 0.3.186
 
   - Added `agent_id` field to `can_use_tool` control requests — background
@@ -23,10 +28,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.185
 
   ## 0.3.184
-
-  - Updated to parity with Claude Code v2.1.184
-
-  ## 0.3.183
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-23T08:11:00.726Z
-content_sha256: c0ac9dbceb31c232c3dd3aa5dee352ac05e4e1723a7e7973c9c570a23bd4da31
+retrieved_at: 2026-06-24T08:07:57.377Z
+content_sha256: 9c31a24b0231f87ce66791518d80736d5087a83845b336182bfae0542e69b9ff
 ---
