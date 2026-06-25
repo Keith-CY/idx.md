@@ -5,29 +5,27 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.187
+  ## 0.3.191
 
-  - Added `sandbox.credentials` to SDK settings types for configuring credential
-  file and environment variable denial in sandboxed commands
+  - Added `old_source` field to `NotebookEdit` tool results for `replace` and
+  `delete` operations, enabling inline diffs
 
-  ## 0.3.186
+  - Added `seven_day_overage_included` to `SDKRateLimitInfo.rateLimitType` for
+  per-model weekly usage limits
 
-  - Added `agent_id` field to `can_use_tool` control requests — background
-  agents now forward permission prompts to `canUseTool` instead of auto-denying,
-  and stdin stays open while background tasks are running
+  - Added `model_scoped` array to usage response for per-model weekly limit
+  windows with utilization and reset times
 
-  - Added `ReadMcpResourceDirTool` tool type to SDK schemas — MCP resource
-  directory listing is now a dedicated tool instead of a fallback inside
-  `ReadMcpResourceTool`
+  - Fixed fast mode reverting to standard after the first turn when
+  `settingSources` includes user/project settings
 
-  - Added `rewind_conversation` control request for rewinding a conversation to
-  a previous point with durable resume anchor support
+  ## 0.3.190
 
-  ## 0.3.185
+  - Updated to parity with Claude Code v2.1.190
 
-  - Updated to parity with Claude Code v2.1.185
+  ## 0.3.188
 
-  ## 0.3.184
+  - Updated to parity with Claude Code v2.1.188
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +35,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-24T08:07:57.377Z
-content_sha256: 9c31a24b0231f87ce66791518d80736d5087a83845b336182bfae0542e69b9ff
+retrieved_at: 2026-06-25T08:07:21.529Z
+content_sha256: 073cd6be82c959eb1dd370d9e98e347362323de5e5e2ff26a0104e59970dbe53
 ---
