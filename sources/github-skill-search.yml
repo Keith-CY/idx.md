@@ -80,6 +80,20 @@
     - github-repo-knowledge-work-plugins
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
 - type: skills
+  slug: github-skill-autoclaw-cc-xiaohongshu-skills-xiaohongshu-skills
+  source_url: https://raw.githubusercontent.com/autoclaw-cc/xiaohongshu-skills/main/SKILL.md
+  title: xiaohongshu-skills
+  summary: |-
+    小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。
+    当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-autoclaw-cc
+    - github-repo-xiaohongshu-skills
+  upstream_ref: https://github.com/autoclaw-cc/xiaohongshu-skills/blob/main/SKILL.md
+- type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
   title: browserwing-executor
@@ -103,6 +117,18 @@
     - github-owner-catlog22
     - github-repo-claude-code-workflow
   upstream_ref: https://github.com/catlog22/Claude-Code-Workflow/blob/main/.claude/skills/team-lifecycle/SKILL.md
+- type: skills
+  slug: github-skill-comeonzhj-auto-redbook-skills-xhs-note-creator
+  source_url: https://raw.githubusercontent.com/comeonzhj/Auto-Redbook-Skills/main/SKILL.md
+  title: xhs-note-creator
+  summary: 小红书笔记素材创作技能。当用户需要创建小红书笔记素材时使用这个技能。技能包含：根据用户的需求和提供的资料，撰写小红书笔记内容（标题+正文），生成图片卡片（封面+正文卡片），以及发布小红书笔记。支持 8 种精美排版主题和 4 种智能分页模式。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-comeonzhj
+    - github-repo-auto-redbook-skills
+  upstream_ref: https://github.com/comeonzhj/Auto-Redbook-Skills/blob/main/SKILL.md
 - type: skills
   slug: github-skill-composiohq-awesome-claude-skills-abuselpdb-automation
   source_url: https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/abuselpdb-automation/SKILL.md
@@ -344,6 +370,18 @@
     - github-repo-product-manager-skills
   upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
 - type: skills
+  slug: github-skill-denissergeevitch-repo-task-proof-loop-repo-task-proof-loop
+  source_url: https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/main/SKILL.md
+  title: repo-task-proof-loop
+  summary: Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-denissergeevitch
+    - github-repo-repo-task-proof-loop
+  upstream_ref: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/main/SKILL.md
+- type: skills
   slug: github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks
   source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
   title: deploying-monitoring-stacks
@@ -423,6 +461,18 @@
     - github-owner-epicweb-dev
     - github-repo-epic-stack
   upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/epic-ui-guidelines/SKILL.md
+- type: skills
+  slug: github-skill-eze-is-web-access-web-access
+  source_url: https://raw.githubusercontent.com/eze-is/web-access/main/SKILL.md
+  title: web-access
+  summary: 所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。 触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-eze-is
+    - github-repo-web-access
+  upstream_ref: https://github.com/eze-is/web-access/blob/main/SKILL.md
 - type: skills
   slug: github-skill-florianbruniaux-claude-code-ultimate-guide-rtk-optimizer
   source_url: https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/examples/skills/rtk-optimizer/SKILL.md
@@ -635,6 +685,18 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/16-api-integration/websocket-client-creator/SKILL.md
 - type: skills
+  slug: github-skill-jinchenma94-bazi-skill-bazi
+  source_url: https://raw.githubusercontent.com/jinchenma94/bazi-skill/main/SKILL.md
+  title: bazi
+  summary: '四柱八字命理分析。通过交互式步骤收集出生信息（姓名、曾用名、阳历/农历生日、时辰、性别、出生地）， 排出四柱八字，参照经典命理典籍（穷通宝典、三命通会、滴天髓、渊海子平、子平真诠等）进行专业分析。 Use this skill whenever the user asks for 八字、四柱、命理、算命、Bazi、fortune telling、 birth chart analysis, or wants to know about their 八字命盘、运势、大运、流年. Triggers: "算八字", "看八字", "批八字", "排八字", "四柱", "命盘", "算命", "帮我看看八字", "我想算八字", "分析八字", "排盘", "bazi", "bazi analysis", "fortune telling", "birth chart", "算一卦", "看运势", "命运分析". 即使只是提到"算命"、"八字"而没有明确说要用skill，也应该使用此skill。'
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jinchenma94
+    - github-repo-bazi-skill
+  upstream_ref: https://github.com/jinchenma94/bazi-skill/blob/main/SKILL.md
+- type: skills
   slug: github-skill-k-dense-ai-claude-scientific-skills-pdf
   source_url: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/scientific-skills/document-skills/pdf/SKILL.md
   title: pdf
@@ -718,6 +780,18 @@
     - github-owner-luongnv89
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
+- type: skills
+  slug: github-skill-mingli30119-stock-analysis-stock-analysis-enhanced
+  source_url: https://raw.githubusercontent.com/mingli30119/stock-analysis/main/SKILL.md
+  title: stock-analysis-enhanced
+  summary: 一句话搞定个股分析 — 说"分析XXX"，自动采集30+数据源 → AI完成基本面(Step 0-8)+技术面+资金面的完整研报 → 生成交互式HTML报告。支持增量更新（K线/行情/技术指标自动刷新）。触发词："分析XXX股票"（首次）或"更新XXX股票"（增量）。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-mingli30119
+    - github-repo-stock-analysis
+  upstream_ref: https://github.com/mingli30119/stock-analysis/blob/main/SKILL.md
 - type: skills
   slug: github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence
   source_url: https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
@@ -1318,6 +1392,30 @@
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
 - type: skills
+  slug: github-skill-wjz-p-gemini-skill-gemini-skill
+  source_url: https://raw.githubusercontent.com/WJZ-P/gemini-skill/main/SKILL.md
+  title: gemini-skill
+  summary: 通过 Gemini 官网（gemini.google.com）执行生图、对话等操作。用户提到"生图/画图/绘图/nano banana/nanobanana/生成图片"等关键词时触发。操作方式分三级优先级：首选 MCP 工具 → 次选 Skill 脚本 → 最次连接 Skill 浏览器手动操作（需用户授权）。禁止自行启动外部浏览器访问 Gemini。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wjz-p
+    - github-repo-gemini-skill
+  upstream_ref: https://github.com/WJZ-P/gemini-skill/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-xiaopu-ai-web-design-web-design
+  source_url: https://raw.githubusercontent.com/xiaopu-ai/web-design/main/SKILL.md
+  title: web-design
+  summary: Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个页面""参考 XX 做一个""把这个截图/PRD 做成网页""做一个 landing page""出一份 design 规范"时触发。不用于后端、数据库、纯逻辑 bug 修复。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xiaopu-ai
+    - github-repo-web-design
+  upstream_ref: https://github.com/xiaopu-ai/web-design/blob/main/SKILL.md
+- type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
   title: ultraqa
@@ -1329,6 +1427,18 @@
     - github-owner-yeachan-heo
     - github-repo-oh-my-claudecode
   upstream_ref: https://github.com/Yeachan-Heo/oh-my-claudecode/blob/main/skills/ultraqa/SKILL.md
+- type: skills
+  slug: github-skill-zakirkun-guardian-cli-guardian-cli
+  source_url: https://raw.githubusercontent.com/zakirkun/guardian-cli/main/SKILL.md
+  title: guardian-cli
+  summary: An enterprise-grade, AI-powered penetration testing automation CLI tool. Orchestrates multiple specialized AI agents (Planner, ToolAgent, Analyst, Reporter) backed by 4 AI providers (OpenAI, Claude, Gemini, OpenRouter) and 19 integrated security tools through YAML-defined workflows. Produces professional Markdown, HTML, or JSON security reports with full evidence capture and traceability.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-zakirkun
+    - github-repo-guardian-cli
+  upstream_ref: https://github.com/zakirkun/guardian-cli/blob/main/SKILL.md
 - type: skills
   slug: github-skill-zjunlp-skillnet-webshop-query-parser
   source_url: https://raw.githubusercontent.com/zjunlp/SkillNet/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md
