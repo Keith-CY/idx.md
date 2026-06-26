@@ -3,9 +3,9 @@ stable_id: skills/skills-sh-tursodatabase-turso-testing
 type: skills
 title: skills-sh-tursodatabase-turso-testing
 summary: >-
-  # Testing in Limbo
+  # Testing in Turso
 
-  Limbo supports a comprehensive testing system to ensure correctness,
+  Turso supports a comprehensive testing system to ensure correctness,
   performance, and compatibility with SQLite.
 
   ## 1. Compatibility Tests
@@ -13,7 +13,7 @@ summary: >-
   The `make test` target is the main entry point.
 
   Most compatibility tests live in the testing/ directory and are written in
-  SQLite’s TCL test format. These tests ensure that Limbo matches SQLite’s
+  SQLite’s TCL test format. These tests ensure that Turso matches SQLite’s
   behavior exactly. The database used during these tests is located at
   testing/testing.db, which includes the following schema:
 
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/tursodatabase/turso/testing
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-25T08:07:15.923Z
-content_sha256: 553e1e5ed219556549e87ecf892930a74fff4f8fe8a74aafd6c3122cf80e4505
+retrieved_at: 2026-06-26T08:11:58.808Z
+content_sha256: 738ff36d7a6685ae9ae31cb8f30346ba58eefc6a634ce67a2a185fc9f233d345
 ---

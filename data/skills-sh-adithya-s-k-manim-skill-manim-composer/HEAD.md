@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manim-composer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-25T08:08:53.767Z
+retrieved_at: 2026-06-26T08:12:47.565Z
 content_sha256: fc77ac5b0224fd79adc5b6dab889a8ab4719ea99c419634bc66759ec49543656
 ---
