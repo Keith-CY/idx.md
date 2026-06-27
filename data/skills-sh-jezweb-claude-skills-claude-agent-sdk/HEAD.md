@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.195
+
+  - Added `Query.reinitialize()` to re-send the initialize control request and
+  redeliver pending permission/dialog prompts after a transport gap
+
+  - Fixed `commands_changed` event not being emitted for synced skills when the
+  skill list resolves before the change-detector subscribes
+
+  ## 0.3.194
+
+  - Updated to parity with Claude Code v2.1.194
+
   ## 0.3.193
 
   - Added `promptSuggestions` option to Browser SDK `query()` to opt the remote
@@ -13,19 +25,6 @@ summary: >-
   - Fixed brief console window flashes on Windows when spawning CLI subprocesses
 
   ## 0.3.192
-
-  - Updated to parity with Claude Code v2.1.192
-
-  ## 0.3.191
-
-  - Added `old_source` field to `NotebookEdit` tool results for `replace` and
-  `delete` operations, enabling inline diffs
-
-  - Added `seven_day_overage_included` to `SDKRateLimitInfo.rateLimitType` for
-  per-model weekly usage limits
-
-  - Added `model_scoped` array to usage response for per-model weekly limit
-  windows with utilization and reset times
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +34,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-26T08:12:02.685Z
-content_sha256: d0c10bd080f09a3dac72e12c064720dea7e6586a5616277d54a3024b122d182e
+retrieved_at: 2026-06-27T07:57:05.231Z
+content_sha256: ffc26390c23c995411d2e1d76a78f05ddac1e7b937f078795568fb7afb42de17
 ---

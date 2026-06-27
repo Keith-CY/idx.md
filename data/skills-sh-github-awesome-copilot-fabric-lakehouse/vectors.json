@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-fabric-lakehouse",
-  "generated_at": "2026-06-26T08:13:17.822Z",
+  "generated_at": "2026-06-27T07:59:03.357Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-fabric-lakehouse#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/fabric-lakehouse/references/pyspark.md",
-        "retrieved_at": "2026-06-26T08:13:17.822Z",
+        "retrieved_at": "2026-06-27T07:59:03.357Z",
         "content_sha256": "417e001196a12281c910bcd113ab55ffe47ad0e31ad53e18914bbd103ace0296"
       }
     }

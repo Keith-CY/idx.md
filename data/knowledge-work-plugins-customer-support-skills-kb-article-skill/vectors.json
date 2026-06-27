@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-customer-support-skills-kb-article-skill",
-  "generated_at": "2026-06-26T08:12:42.602Z",
+  "generated_at": "2026-06-27T07:58:09.936Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-customer-support-skills-kb-article-skill#head",
@@ -21,7 +21,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/kb-article/SKILL.md",
-        "retrieved_at": "2026-06-26T08:12:42.602Z",
+        "retrieved_at": "2026-06-27T07:58:09.936Z",
         "content_sha256": "cfc300f5ecc5128910a8ff04514d565a45ca9178bf1dc2a40cc40e2ce4db9292"
       }
     }

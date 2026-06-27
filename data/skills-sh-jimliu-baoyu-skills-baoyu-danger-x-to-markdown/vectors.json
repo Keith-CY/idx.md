@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown",
-  "generated_at": "2026-06-26T08:12:07.106Z",
+  "generated_at": "2026-06-27T07:57:10.955Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-danger-x-to-markdown#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-danger-x-to-markdown/references/config/first-time-setup.md",
-        "retrieved_at": "2026-06-26T08:12:07.106Z",
+        "retrieved_at": "2026-06-27T07:57:10.955Z",
         "content_sha256": "61db3aa0512d452163903d0b40c7d4062372e10df2053570a1a89ed656718800"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2",
-  "generated_at": "2026-06-26T08:13:21.292Z",
+  "generated_at": "2026-06-27T07:59:07.842Z",
   "records": [
     {
       "id": "skills/skills-sh-nodnarbnitram-claude-code-extensions-tauri-v2#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/nodnarbnitram/claude-code-extensions/HEAD/.claude/skills/tauri-v2/references/capabilities-reference.md",
-        "retrieved_at": "2026-06-26T08:13:21.292Z",
+        "retrieved_at": "2026-06-27T07:59:07.842Z",
         "content_sha256": "aff274cc3d8731f4faa4bafe892b281edaf9f3e2dc5a2509c6d610819062157e"
       }
     }
