@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-anthropics-knowledge-work-plugins-call-prep",
-  "generated_at": "2026-06-27T07:59:11.308Z",
+  "generated_at": "2026-06-28T08:09:18.052Z",
   "records": [
     {
       "id": "skills/github-skill-anthropics-knowledge-work-plugins-call-prep#head",
@@ -21,7 +21,7 @@
           "github-repo-knowledge-work-plugins"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/call-prep/SKILL.md",
-        "retrieved_at": "2026-06-27T07:59:11.308Z",
+        "retrieved_at": "2026-06-28T08:09:18.052Z",
         "content_sha256": "652c42776860edfa9b81c77aac0b545bb7748a708e01c001f356acc11d7e9f58"
       }
     }

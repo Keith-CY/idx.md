@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/callstackincubator/agent-skills/github
 github_stars: 937
 github_forks: 51
 github_is_organization: true
-retrieved_at: 2026-06-27T07:57:12.716Z
+retrieved_at: 2026-06-28T08:07:05.985Z
 content_sha256: 9957f4dbe0703ce704f0e695ede5384bc1a9865fdc4f7ca08e0979a0db444604
 ---

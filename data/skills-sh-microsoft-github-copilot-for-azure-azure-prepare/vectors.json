@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-prepare",
-  "generated_at": "2026-06-27T07:58:55.746Z",
+  "generated_at": "2026-06-28T08:09:00.680Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-prepare#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-prepare/references/azure-context.md",
-        "retrieved_at": "2026-06-27T07:58:55.746Z",
+        "retrieved_at": "2026-06-28T08:09:00.680Z",
         "content_sha256": "b54cbc8a0d806748790454738c1f3a65b6f84e7279cbe6b158738229eba0e296"
       }
     }

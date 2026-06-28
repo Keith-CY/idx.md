@@ -35,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpo
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-06-27T07:59:10.908Z
+retrieved_at: 2026-06-28T08:09:17.574Z
 content_sha256: 918562bbba1c73d1407c50de77a92eeaa6930508bdb57a64324d7d508a9069e1
 ---

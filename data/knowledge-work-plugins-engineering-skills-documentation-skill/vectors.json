@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-documentation-skill",
-  "generated_at": "2026-06-27T07:57:07.480Z",
+  "generated_at": "2026-06-28T08:07:01.735Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-documentation-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/documentation/SKILL.md",
-        "retrieved_at": "2026-06-27T07:57:07.480Z",
+        "retrieved_at": "2026-06-28T08:07:01.735Z",
         "content_sha256": "1d469418f786a05be83d2a05f04d68788aeed584d13863a650f5ad73c6c4cf50"
       }
     }
