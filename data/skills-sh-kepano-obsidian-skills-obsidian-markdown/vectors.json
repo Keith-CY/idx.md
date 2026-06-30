@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-kepano-obsidian-skills-obsidian-markdown",
-  "generated_at": "2026-06-29T08:44:07.159Z",
+  "generated_at": "2026-06-30T08:14:37.929Z",
   "records": [
     {
       "id": "skills/skills-sh-kepano-obsidian-skills-obsidian-markdown#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-markdown/references/PROPERTIES.md",
-        "retrieved_at": "2026-06-29T08:44:07.159Z",
+        "retrieved_at": "2026-06-30T08:14:37.929Z",
         "content_sha256": "392953b5838c3ab3df135b5a914f100ae7b95e4501b6a2e5c8dc63da3ac7558b"
       }
     }

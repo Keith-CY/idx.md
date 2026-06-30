@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/site-architecture
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-06-29T08:44:03.643Z
+retrieved_at: 2026-06-30T08:14:34.988Z
 content_sha256: 3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140
 ---

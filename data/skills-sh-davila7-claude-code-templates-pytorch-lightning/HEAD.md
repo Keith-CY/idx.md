@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/pytorch-lightning
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-29T08:37:21.369Z
+retrieved_at: 2026-06-30T08:10:52.657Z
 content_sha256: 2940b978bdec21b6f8da54c72d1858015e5ba290f9b05f1a659d67c25860e259
 ---

@@ -5,6 +5,15 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.196
+
+  - Added `prompt_id` field to hook input payloads for correlating hook events
+  with OpenTelemetry prompt-level events
+
+  - Fixed control protocol deduplication dropping tool-use IDs after 1000
+  resolutions, which could cause duplicate `tool_result` deliveries in
+  long-running sessions
+
   ## 0.3.195
 
   - Added `Query.reinitialize()` to re-send the initialize control request and
@@ -18,13 +27,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.194
 
   ## 0.3.193
-
-  - Added `promptSuggestions` option to Browser SDK `query()` to opt the remote
-  CLI into emitting follow-up suggestions
-
-  - Fixed brief console window flashes on Windows when spawning CLI subprocesses
-
-  ## 0.3.192
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-29T08:37:59.976Z
-content_sha256: ffc26390c23c995411d2e1d76a78f05ddac1e7b937f078795568fb7afb42de17
+retrieved_at: 2026-06-30T08:11:15.173Z
+content_sha256: 19216850b404435e7c3a76340ec3e2e45dc13e1f668493f307cbd3a00f557afa
 ---

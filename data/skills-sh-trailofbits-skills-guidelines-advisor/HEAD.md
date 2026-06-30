@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/guidelines-advisor
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-29T08:41:46.763Z
+retrieved_at: 2026-06-30T08:13:20.814Z
 content_sha256: 951352a5e7c3afa717ed62770ae1b7c152c4792480e3beebefc68f9c96d2a46c
 ---

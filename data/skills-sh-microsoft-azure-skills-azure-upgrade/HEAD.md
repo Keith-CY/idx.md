@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/azure-skills/azure-upgrade
 github_stars: 461
 github_forks: 57
 github_is_organization: true
-retrieved_at: 2026-06-29T08:43:56.571Z
+retrieved_at: 2026-06-30T08:14:29.885Z
 content_sha256: 759f12ea3fb1b747173342dbb08a14435a2e22010ab27b3e377cbc28c446332b
 ---

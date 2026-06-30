@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/shadcn/ui/shadcn
 github_stars: 110214
 github_forks: 8267
 github_is_organization: true
-retrieved_at: 2026-06-29T08:43:56.756Z
-content_sha256: 4a71da3fc53d8efbedac26946e5b13b53d1edf71583d62088ccc2b8cc7b5fef7
+retrieved_at: 2026-06-30T08:14:29.982Z
+content_sha256: 47bd2c3b6216b96af0ab169063a83dfef7f80c58536cf69445a6f4d22753326c
 ---
