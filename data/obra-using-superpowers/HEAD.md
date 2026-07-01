@@ -15,7 +15,7 @@ summary: >-
 
   <SUBAGENT-STOP>
 
-  If you were dispatched as a subagent to execute a specific task, skip this
+  If you were dispatched as a subagent to execute a specific task, ignore this
   skill.
 
   </SUBAGENT-STOP>
@@ -35,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/using-superpo
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-06-30T08:14:58.418Z
-content_sha256: 918562bbba1c73d1407c50de77a92eeaa6930508bdb57a64324d7d508a9069e1
+retrieved_at: 2026-07-01T08:26:19.847Z
+content_sha256: 55379fe7c1c473a02c61961c822996bff30e1320d6921d9062509bc508482c05
 ---

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-writing-skills",
-  "generated_at": "2026-06-30T08:14:58.702Z",
+  "generated_at": "2026-07-01T08:26:20.137Z",
   "records": [
     {
       "id": "skills/obra-writing-skills#head",
       "kind": "head",
       "path": "/data/obra-writing-skills/HEAD.md",
-      "text": "title: obra-writing-skills\nsummary: --- name: writing-skills description: Use when creating new skills, editing existing skills, or verifying skills work before deployment --- # Writing Skills ## Overview **Writing skills IS Test-Driven Development applied to process documentation.** **Personal skills live in your runtime's skills directory** — see [claude-code-tools.md](../using-superpowers/references/claude-code-tools.md), [codex-tools.md](../using-superpowers/references/codex-tools.md), [copilot-tools.md](../using-superpowers/references/copilot-tools.md), or [gemini-tools.md](../using-superpowers/references/gemini-tools.md) for the path on your runtime. Codex, Copilot CLI, and Gemini CLI all also recognize `~/.agents/skills/` as a cross-runtime alias. You write test cases (pressure scenarios with subagents), watch them fail (baseline behavior), write the skill (documentation), watch tests pass (agents comply), and refactor (close loopholes). **Core principle:** If you didn't watch an agent fail without the skill, you don't know if the skill teaches the right thing.\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md",
+      "text": "title: obra-writing-skills\nsummary: --- name: writing-skills description: Use when creating new skills, editing existing skills, or verifying skills work before deployment --- # Writing Skills ## Overview **Writing skills IS Test-Driven Development applied to process documentation.** **Personal skills live in your runtime's skills directory** You write test cases (pressure scenarios with subagents), watch them fail (baseline behavior), write the skill (documentation), watch tests pass (agents comply), and refactor (close loopholes). **Core principle:** If you didn't watch an agent fail without the skill, you don't know if the skill teaches the right thing.\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md",
       "metadata": {
         "stable_id": "skills/obra-writing-skills",
         "topic": "obra-writing-skills",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/writing-skills/SKILL.md",
-        "retrieved_at": "2026-06-30T08:14:58.702Z",
-        "content_sha256": "f01f666a4426ce800d40649704104c252e6607c196656e5ce6a28e9f51650f3a"
+        "retrieved_at": "2026-07-01T08:26:20.137Z",
+        "content_sha256": "6b8d08fe863318be8480ae8428e169640309fa9208df84bb0510012764454146"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-brand-voice-agents-quality-assurance",
-  "generated_at": "2026-06-30T08:11:22.110Z",
+  "generated_at": "2026-07-01T08:23:46.421Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-brand-voice-agents-quality-assurance#head",
@@ -19,7 +19,7 @@
           "plugin-component-brand-voice"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/quality-assurance.md",
-        "retrieved_at": "2026-06-30T08:11:22.110Z",
+        "retrieved_at": "2026-07-01T08:23:46.421Z",
         "content_sha256": "49f61dcd82f2cd7e00061b7c1fc973e83dc0f17e44b6b8156d79bbb0be798fe5"
       }
     }

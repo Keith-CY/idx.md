@@ -19,13 +19,7 @@ summary: >-
   **Writing skills IS Test-Driven Development applied to process
   documentation.**
 
-  **Personal skills live in your runtime's skills directory** — see
-  [claude-code-tools.md](../using-superpowers/references/claude-code-tools.md),
-  [codex-tools.md](../using-superpowers/references/codex-tools.md),
-  [copilot-tools.md](../using-superpowers/references/copilot-tools.md), or
-  [gemini-tools.md](../using-superpowers/references/gemini-tools.md) for the
-  path on your runtime. Codex, Copilot CLI, and Gemini CLI all also recognize
-  `~/.agents/skills/` as a cross-runtime alias.
+  **Personal skills live in your runtime's skills directory**
 
   You write test cases (pressure scenarios with subagents), watch them fail
   (baseline behavior), write the skill (documentation), watch tests pass (agents
@@ -42,6 +36,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skill
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-06-30T08:14:58.702Z
-content_sha256: f01f666a4426ce800d40649704104c252e6607c196656e5ce6a28e9f51650f3a
+retrieved_at: 2026-07-01T08:26:20.137Z
+content_sha256: 6b8d08fe863318be8480ae8428e169640309fa9208df84bb0510012764454146
 ---

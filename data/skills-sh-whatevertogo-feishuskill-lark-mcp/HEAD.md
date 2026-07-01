@@ -25,6 +25,6 @@ upstream_ref: https://skills.sh/whatevertogo/feishuskill/lark-mcp
 github_stars: 30
 github_forks: 4
 github_is_organization: false
-retrieved_at: 2026-06-30T08:14:49.368Z
+retrieved_at: 2026-07-01T08:26:16.168Z
 content_sha256: eab1c2aaacb473c9019f6de85c0a230afb265d5554a3e4edad122c11c64a6cd8
 ---

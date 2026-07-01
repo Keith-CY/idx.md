@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/zaddy6/agent-email-skill/agent-email-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-30T08:14:25.406Z
+retrieved_at: 2026-07-01T08:26:01.408Z
 content_sha256: 31cb0325dc81ca6522fe0b64c3ddae01c1d1a1a31d80b79ff9c4207e9c5d7c2b
 ---

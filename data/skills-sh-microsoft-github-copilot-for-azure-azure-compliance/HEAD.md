@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-complia
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-06-30T08:14:27.169Z
+retrieved_at: 2026-07-01T08:26:02.376Z
 content_sha256: abf2578f34b6bafa53d32794e71b09980a8223cbfe535f1e6d06bb0f3b8a0f63
 ---

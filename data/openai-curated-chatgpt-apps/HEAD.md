@@ -39,6 +39,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/chatgpt
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-06-30T08:14:51.496Z
+retrieved_at: 2026-07-01T08:26:17.146Z
 content_sha256: c3a13a659ce26e9d067b5a97c321e8abec6d8e878afce31b7e841dfcf2635c3a
 ---

@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.197
+
+  - Updated to parity with Claude Code v2.1.197
+
   ## 0.3.196
 
   - Added `prompt_id` field to hook input payloads for correlating hook events
@@ -23,10 +27,6 @@ summary: >-
   skill list resolves before the change-detector subscribes
 
   ## 0.3.194
-
-  - Updated to parity with Claude Code v2.1.194
-
-  ## 0.3.193
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-06-30T08:11:15.173Z
-content_sha256: 19216850b404435e7c3a76340ec3e2e45dc13e1f668493f307cbd3a00f557afa
+retrieved_at: 2026-07-01T08:23:41.231Z
+content_sha256: 89cdb7ee435284496acef984b3babc2fadf052bbde019598e7c3505cc5a295ab
 ---

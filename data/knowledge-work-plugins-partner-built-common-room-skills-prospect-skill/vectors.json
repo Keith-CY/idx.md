@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-common-room-skills-prospect-skill",
-  "generated_at": "2026-06-30T08:11:20.658Z",
+  "generated_at": "2026-07-01T08:23:45.219Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-common-room-skills-prospect-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/skills/prospect/SKILL.md",
-        "retrieved_at": "2026-06-30T08:11:20.658Z",
+        "retrieved_at": "2026-07-01T08:23:45.219Z",
         "content_sha256": "52f94d6084af91a0872a93b4d60ffda3c7578cc6d1d3246819954835d88637b5"
       }
     }
