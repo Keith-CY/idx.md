@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-signals",
-  "generated_at": "2026-07-01T08:26:14.319Z",
+  "generated_at": "2026-07-02T08:04:32.826Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-signals#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-signals/references/signal-patterns.md",
-        "retrieved_at": "2026-07-01T08:26:14.319Z",
+        "retrieved_at": "2026-07-02T08:04:32.826Z",
         "content_sha256": "c1ec67a9697f3c8f405a3fef91d774e79bd064f974d6fdad9c283f326349954a"
       }
     }

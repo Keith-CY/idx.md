@@ -5,6 +5,21 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.198
+
+  - Added a runtime warning when `canUseTool` is configured alongside
+  `allowedTools` or `bypassPermissions`, which shadow the callback
+
+  - Added per-server `request_timeout_ms` option to `mcp_set_servers` control
+  request
+
+  - Fixed `SDKUserMessage.isSynthetic` not being mapped to `isMeta` on
+  ingestion, which could cause synthetic messages to be treated as real user
+  messages
+
+  - Fixed workflow progress events silently dropping earliest agents from the
+  list while the phase counter remained correct
+
   ## 0.3.197
 
   - Updated to parity with Claude Code v2.1.197
@@ -13,20 +28,6 @@ summary: >-
 
   - Added `prompt_id` field to hook input payloads for correlating hook events
   with OpenTelemetry prompt-level events
-
-  - Fixed control protocol deduplication dropping tool-use IDs after 1000
-  resolutions, which could cause duplicate `tool_result` deliveries in
-  long-running sessions
-
-  ## 0.3.195
-
-  - Added `Query.reinitialize()` to re-send the initialize control request and
-  redeliver pending permission/dialog prompts after a transport gap
-
-  - Fixed `commands_changed` event not being emitted for synced skills when the
-  skill list resolves before the change-detector subscribes
-
-  ## 0.3.194
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-01T08:23:41.231Z
-content_sha256: 89cdb7ee435284496acef984b3babc2fadf052bbde019598e7c3505cc5a295ab
+retrieved_at: 2026-07-02T08:02:14.958Z
+content_sha256: d7e559094682bf9fc679499af8cd128bba930fbb556c645d7d0276ac87bc3ce0
 ---

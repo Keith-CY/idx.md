@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-composiohq-awesome-claude-skills-kickbox-automation-3347ff5a",
-  "generated_at": "2026-07-01T08:26:21.139Z",
+  "generated_at": "2026-07-02T08:04:40.001Z",
   "records": [
     {
       "id": "skills/github-skill-composiohq-awesome-claude-skills-kickbox-automation-3347ff5a#head",
@@ -21,7 +21,7 @@
           "github-repo-awesome-claude-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/kickbox-automation/SKILL.md",
-        "retrieved_at": "2026-07-01T08:26:21.139Z",
+        "retrieved_at": "2026-07-02T08:04:40.001Z",
         "content_sha256": "af9fe0d1f5271243ae5584a05649b47db516845e350fa6609ea7289a012f76da"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-product-management-skills-product-brainstorming-skill",
-  "generated_at": "2026-07-01T08:26:01.663Z",
+  "generated_at": "2026-07-02T08:04:21.068Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-product-management-skills-product-brainstorming-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/product-management/skills/product-brainstorming/SKILL.md",
-        "retrieved_at": "2026-07-01T08:26:01.663Z",
+        "retrieved_at": "2026-07-02T08:04:21.068Z",
         "content_sha256": "53ee71b6863b277aba87002d8a5bb58bd2a4172d7cfeb2e282a0161958edc8e7"
       }
     }
