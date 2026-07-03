@@ -39,6 +39,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/aspnet-
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-07-02T08:04:35.410Z
+retrieved_at: 2026-07-03T09:51:11.796Z
 content_sha256: 1f487ef3565e5ac1ee6c93cbeb9ac666292b30285877c82ddb0a77c9777fe92f
 ---

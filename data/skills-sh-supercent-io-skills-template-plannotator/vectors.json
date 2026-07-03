@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-plannotator",
-  "generated_at": "2026-07-02T08:04:27.044Z",
+  "generated_at": "2026-07-03T09:51:05.130Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-plannotator#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/backnotprop/plannotator/main/apps/hook/README.md",
-        "retrieved_at": "2026-07-02T08:04:27.044Z",
+        "retrieved_at": "2026-07-03T09:51:05.130Z",
         "content_sha256": "f0c331622ca0638a991597f8c010391217cbe407ed6403f66357a605fa8ebd2c"
       }
     }

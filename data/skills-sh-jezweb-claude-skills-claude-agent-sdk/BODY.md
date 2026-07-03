@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.199
+
+- Added `requestId` to `canUseTool` callback options for correlating out-of-band permission responses, and support for returning `null` to suppress the SDK's automatic control response
+- Added `blocked` field to `workflow_agent` progress events indicating when an agent was blocked by the auto-mode safety classifier
+- Added `mode:"mask"` and per-credential `injectHosts` to `sandbox.credentials` settings types for injecting masked credentials into sandboxed commands
+
 ## 0.3.198
 
 - Added a runtime warning when `canUseTool` is configured alongside `allowedTools` or `bypassPermissions`, which shadow the callback

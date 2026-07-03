@@ -5,6 +5,19 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.199
+
+  - Added `requestId` to `canUseTool` callback options for correlating
+  out-of-band permission responses, and support for returning `null` to suppress
+  the SDK's automatic control response
+
+  - Added `blocked` field to `workflow_agent` progress events indicating when an
+  agent was blocked by the auto-mode safety classifier
+
+  - Added `mode:"mask"` and per-credential `injectHosts` to
+  `sandbox.credentials` settings types for injecting masked credentials into
+  sandboxed commands
+
   ## 0.3.198
 
   - Added a runtime warning when `canUseTool` is configured alongside
@@ -19,15 +32,6 @@ summary: >-
 
   - Fixed workflow progress events silently dropping earliest agents from the
   list while the phase counter remained correct
-
-  ## 0.3.197
-
-  - Updated to parity with Claude Code v2.1.197
-
-  ## 0.3.196
-
-  - Added `prompt_id` field to hook input payloads for correlating hook events
-  with OpenTelemetry prompt-level events
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-02T08:02:14.958Z
-content_sha256: d7e559094682bf9fc679499af8cd128bba930fbb556c645d7d0276ac87bc3ce0
+retrieved_at: 2026-07-03T09:49:56.820Z
+content_sha256: 2d242586be6eda1601bf1fd1791c6805bbf150326cf188ac65cbd7b4ae10b33f
 ---

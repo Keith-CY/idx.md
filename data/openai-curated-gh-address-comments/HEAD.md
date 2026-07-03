@@ -35,6 +35,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/gh-addr
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-07-02T08:04:36.041Z
+retrieved_at: 2026-07-03T09:51:12.069Z
 content_sha256: 77389eefd3fb6584210668ca8e43f4b8de87e7722ddd953474bc9e24cdfaaedd
 ---

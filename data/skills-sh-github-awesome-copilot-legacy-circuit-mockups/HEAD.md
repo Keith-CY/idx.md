@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-07-02T08:04:29.265Z
+retrieved_at: 2026-07-03T09:51:06.895Z
 content_sha256: b053c8faa2db8049ccbecb6151fca496546e9a5cd846d19321bd6f80570c045f
 ---
