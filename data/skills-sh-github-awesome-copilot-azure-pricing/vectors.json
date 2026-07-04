@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-azure-pricing",
-  "generated_at": "2026-07-03T09:51:10.272Z",
+  "generated_at": "2026-07-04T09:19:35.505Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-azure-pricing#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/azure-pricing/references/REGIONS.md",
-        "retrieved_at": "2026-07-03T09:51:10.272Z",
+        "retrieved_at": "2026-07-04T09:19:35.505Z",
         "content_sha256": "c0125df101ab525177a7c84fc49f11ae78cde538599c10b07df1de894946dfff"
       }
     }

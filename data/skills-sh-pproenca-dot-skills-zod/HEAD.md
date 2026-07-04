@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/pproenca/dot-skills/zod
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-03T09:50:39.731Z
+retrieved_at: 2026-07-04T09:17:31.576Z
 content_sha256: f9518bb5e0e5dff531041fd82962a307495f034ec0259217ab4a47a1090236c2
 ---

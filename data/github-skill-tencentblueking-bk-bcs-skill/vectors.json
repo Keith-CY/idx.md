@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-tencentblueking-bk-bcs-skill",
-  "generated_at": "2026-07-03T09:51:18.223Z",
+  "generated_at": "2026-07-04T09:19:58.272Z",
   "records": [
     {
       "id": "skills/github-skill-tencentblueking-bk-bcs-skill#head",
@@ -21,7 +21,7 @@
           "github-repo-bk-bcs"
         ],
         "source_url": "https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/virtual-list/SKILL.md",
-        "retrieved_at": "2026-07-03T09:51:18.223Z",
+        "retrieved_at": "2026-07-04T09:19:58.272Z",
         "content_sha256": "915a6b40fc01129073647d2139d73154189768f622e1c3c4d652d10ab63526f0"
       }
     }

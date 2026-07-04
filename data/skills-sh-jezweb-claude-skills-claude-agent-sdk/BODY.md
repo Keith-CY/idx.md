@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.201
+
+- Updated to parity with Claude Code v2.1.201
+
+## 0.3.200
+
+- Added `'manual'` as an accepted alias for the `'default'` permission mode in SDK inputs
+- Fixed `onSetPermissionMode` callback not firing for SDK-hosted Remote Control sessions
+- Fixed `set_model` control request accepting unrecognized model strings; invalid models are now rejected before latching
+
 ## 0.3.199
 
 - Added `requestId` to `canUseTool` callback options for correlating out-of-band permission responses, and support for returning `null` to suppress the SDK's automatic control response
