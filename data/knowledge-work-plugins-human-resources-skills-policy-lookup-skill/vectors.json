@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-policy-lookup-skill",
-  "generated_at": "2026-07-04T09:17:18.967Z",
+  "generated_at": "2026-07-05T09:36:00.957Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-policy-lookup-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/policy-lookup/SKILL.md",
-        "retrieved_at": "2026-07-04T09:17:18.967Z",
+        "retrieved_at": "2026-07-05T09:36:00.957Z",
         "content_sha256": "5fc79b5e81922431b5665d33552dcce7de499e2680b4a81720cb4e2a68015edf"
       }
     }

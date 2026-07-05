@@ -1,5 +1,6 @@
 ---
 name: pestel-analysis
+argument-hint: "[product or market]"
 description: Analyze political, economic, social, technological, environmental, and legal forces. Use when external market shifts could materially affect a product, roadmap, or strategy.
 intent: >-
   Conduct a systematic analysis of macro-environmental factors—Political, Economic, Social, Technological, Environmental, and Legal—that could impact your product or project. Use this to identify external opportunities and threats, inform strategic planning, assess market entry risks, and make data-driven decisions about product direction in the context of broader forces beyond your control.
@@ -11,6 +12,17 @@ type: component
 Conduct a systematic analysis of macro-environmental factors—Political, Economic, Social, Technological, Environmental, and Legal—that could impact your product or project. Use this to identify external opportunities and threats, inform strategic planning, assess market entry risks, and make data-driven decisions about product direction in the context of broader forces beyond your control.
 
 This is not internal analysis—it's outward-facing assessment of the big-picture forces shaping your product's environment.
+
+## Input
+
+**Works best with:** The product, market, or strategic decision the analysis should serve.
+**Also useful:** Geography, time horizon, and which forces you already suspect matter most.
+
+Anything supplied with the invocation itself — text after the skill name, a pasted context dump, or an appended `ARGUMENTS:` line — counts as answers already given. Use it and skip whatever it covers; don't re-ask.
+
+**Arriving empty-handed? That works too.** The skill asks what product/market and geography to analyze before scanning the six forces — an unanchored PESTEL is a trivia exercise.
+
+**Example invocation:** `PESTEL for launching our telehealth platform in Germany over the next 18 months.`
 
 ## Key Concepts
 
