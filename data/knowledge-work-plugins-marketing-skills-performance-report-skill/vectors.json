@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-performance-report-skill",
-  "generated_at": "2026-07-05T09:36:01.769Z",
+  "generated_at": "2026-07-06T11:23:16.285Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-performance-report-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/performance-report/SKILL.md",
-        "retrieved_at": "2026-07-05T09:36:01.769Z",
+        "retrieved_at": "2026-07-06T11:23:16.285Z",
         "content_sha256": "997397e23ba5124cdcbbf17e4be9f5cb36f2a2145b5648e02b2852c91c3cc140"
       }
     }

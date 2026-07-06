@@ -17,6 +17,6 @@ upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-emai
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-05T09:36:34.606Z
+retrieved_at: 2026-07-06T11:24:03.350Z
 content_sha256: 188d1556f5601bd3dbd9f0e57f9cbba9cbd7fad1ff75a1597fa7cbe7f15a73c6
 ---

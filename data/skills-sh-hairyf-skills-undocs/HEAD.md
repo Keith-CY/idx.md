@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/hairyf/skills/undocs
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-05T09:35:28.220Z
+retrieved_at: 2026-07-06T11:22:23.627Z
 content_sha256: 9bea28f87385164472dac28df9719a778a4dbe5aae4fe63f0c146ca86aeca3c5
 ---

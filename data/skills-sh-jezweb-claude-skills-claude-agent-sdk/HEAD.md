@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-05T09:35:30.914Z
+retrieved_at: 2026-07-06T11:22:28.610Z
 content_sha256: 4dbfb9d87eb3119d94ebbdceb82b093271225e343dfb27f8278175b1becfa471
 ---

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-python
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-05T09:35:22.783Z
+retrieved_at: 2026-07-06T11:22:16.205Z
 content_sha256: a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7
 ---

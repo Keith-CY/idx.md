@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-sickn33-antigravity-awesome-skills-active-directory-attacks",
-  "generated_at": "2026-07-05T09:35:23.172Z",
+  "generated_at": "2026-07-06T11:22:16.896Z",
   "records": [
     {
       "id": "skills/skills-sh-sickn33-antigravity-awesome-skills-active-directory-attacks#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/active-directory-attacks/references/advanced-attacks.md",
-        "retrieved_at": "2026-07-05T09:35:23.172Z",
+        "retrieved_at": "2026-07-06T11:22:16.896Z",
         "content_sha256": "2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316"
       }
     }
