@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-ccheney-robust-skills-clean-ddd-hexagonal",
-  "generated_at": "2026-07-06T11:22:28.055Z",
+  "generated_at": "2026-07-07T10:19:38.041Z",
   "records": [
     {
       "id": "skills/skills-sh-ccheney-robust-skills-clean-ddd-hexagonal#head",
       "kind": "head",
       "path": "/data/skills-sh-ccheney-robust-skills-clean-ddd-hexagonal/HEAD.md",
-      "text": "title: skills-sh-ccheney-robust-skills-clean-ddd-hexagonal\nsummary: # Layer Structure - Complete Reference > Sources: > Primary: > - [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) — Robert C. Martin > - [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) — Jeffrey Palermo > Implementation guide: > - [Designing a DDD-oriented Microservice](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) — Microsoft > Supplemental synthesis: > - [Clean Architecture: Standing on the Shoulders of Giants](https://herbertograca.com/2017/09/28/clean-architecture-standing-on-the-shoulders-of-giants/) — Herberto Graça ## The Four Layers\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/ccheney/robust-skills/HEAD/skills/clean-ddd-hexagonal/references/LAYERS.md",
+      "text": "title: skills-sh-ccheney-robust-skills-clean-ddd-hexagonal\nsummary: # Layer Structure - Complete Reference > Sources: > Primary: > - [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) — Robert C. Martin > - [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) — Jeffrey Palermo > Implementation guide: > - [Designing a DDD-oriented Microservice](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice) — Microsoft > Supplemental synthesis: > - [Clean Architecture: Standing on the Shoulders of Giants](https://herbertograca.com/2017/09/28/clean-architecture-standing-on-the-shoulders-of-giants/) — Herberto Graça ## Contents\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/ccheney/robust-skills/HEAD/skills/clean-ddd-hexagonal/references/LAYERS.md",
       "metadata": {
         "stable_id": "skills/skills-sh-ccheney-robust-skills-clean-ddd-hexagonal",
         "topic": "skills-sh-ccheney-robust-skills-clean-ddd-hexagonal",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/ccheney/robust-skills/HEAD/skills/clean-ddd-hexagonal/references/LAYERS.md",
-        "retrieved_at": "2026-07-06T11:22:28.055Z",
-        "content_sha256": "2fd1ee569b25ead0d5683e16da82451a46659f4fe271fa50a960a4aad7680a28"
+        "retrieved_at": "2026-07-07T10:19:38.041Z",
+        "content_sha256": "6d320e7332558bb160740bb7f4ea875755b12b3e55f2ca318ca8b51e8509930d"
       }
     }
   ]

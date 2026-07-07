@@ -5,6 +5,14 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.202
+
+  - Added `parent_agent_id` field to subagent session messages for building
+  depth-2+ agent trees from disk-persisted metadata
+
+  - Fixed `apply_flag_settings` with a non-object settings value crashing the
+  session instead of returning a control error
+
   ## 0.3.201
 
   - Updated to parity with Claude Code v2.1.201
@@ -19,15 +27,6 @@ summary: >-
 
   - Fixed `set_model` control request accepting unrecognized model strings;
   invalid models are now rejected before latching
-
-  ## 0.3.199
-
-  - Added `requestId` to `canUseTool` callback options for correlating
-  out-of-band permission responses, and support for returning `null` to suppress
-  the SDK's automatic control response
-
-  - Added `blocked` field to `workflow_agent` progress events indicating when an
-  agent was blocked by the auto-mode safety classifier
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-06T11:22:28.610Z
-content_sha256: 4dbfb9d87eb3119d94ebbdceb82b093271225e343dfb27f8278175b1becfa471
+retrieved_at: 2026-07-07T10:19:39.125Z
+content_sha256: 861a5c1c572896e6ac5c650869d2627bf323031ead6b0ee4b2cfa14f0f7be662
 ---

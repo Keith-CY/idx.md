@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.202
+
+- Added `parent_agent_id` field to subagent session messages for building depth-2+ agent trees from disk-persisted metadata
+- Fixed `apply_flag_settings` with a non-object settings value crashing the session instead of returning a control error
+
 ## 0.3.201
 
 - Updated to parity with Claude Code v2.1.201

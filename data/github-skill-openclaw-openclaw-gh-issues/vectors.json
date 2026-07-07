@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openclaw-openclaw-gh-issues",
-  "generated_at": "2026-07-06T11:24:03.522Z",
+  "generated_at": "2026-07-07T10:25:29.903Z",
   "records": [
     {
       "id": "skills/github-skill-openclaw-openclaw-gh-issues#head",
@@ -21,7 +21,7 @@
           "github-repo-openclaw"
         ],
         "source_url": "https://raw.githubusercontent.com/openclaw/openclaw/main/skills/gh-issues/SKILL.md",
-        "retrieved_at": "2026-07-06T11:24:03.522Z",
+        "retrieved_at": "2026-07-07T10:25:29.903Z",
         "content_sha256": "e7a64973e186211725e18a45d076803abc07915e348fd94691e7acaea367d54a"
       }
     }
