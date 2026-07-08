@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.204
+
+- Updated to parity with Claude Code v2.1.204
+
+## 0.3.203
+
+- Added a `background_tasks_changed` system message with the full set of live background tasks on every membership change, so consumers can track background activity as a level instead of pairing `task_started`/`task_notification` edges
+- Fixed stable releases shipping a `sdk.d.ts` with unresolved type references that broke consumer typechecking with `skipLibCheck` disabled
+
 ## 0.3.202
 
 - Added `parent_agent_id` field to subagent session messages for building depth-2+ agent trees from disk-persisted metadata

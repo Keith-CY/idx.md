@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-bilalmk-todo-correct-browsing-with-playwright",
-  "generated_at": "2026-07-07T10:22:55.951Z",
+  "generated_at": "2026-07-08T09:25:00.499Z",
   "records": [
     {
       "id": "skills/skills-sh-bilalmk-todo-correct-browsing-with-playwright#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/bilalmk/todo_correct/HEAD/.claude/skills/mjs/browsing-with-playwright/references/playwright-tools.md",
-        "retrieved_at": "2026-07-07T10:22:55.951Z",
+        "retrieved_at": "2026-07-08T09:25:00.499Z",
         "content_sha256": "465def4e7763e7b9bf55ef2b2aa67e62cef20106529520bf6aa9ab2c94ec351d"
       }
     }

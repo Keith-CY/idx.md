@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-azure-validate",
-  "generated_at": "2026-07-07T10:24:48.922Z",
+  "generated_at": "2026-07-08T09:26:58.928Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-azure-validate#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/azure-validate/references/global-rules.md",
-        "retrieved_at": "2026-07-07T10:24:48.922Z",
+        "retrieved_at": "2026-07-08T09:26:58.928Z",
         "content_sha256": "81395542533728334615e91f7a46ee88ce627d8e21a0fc1b1d5966ce1a2723f4"
       }
     }

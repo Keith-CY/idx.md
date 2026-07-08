@@ -5,6 +5,20 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.204
+
+  - Updated to parity with Claude Code v2.1.204
+
+  ## 0.3.203
+
+  - Added a `background_tasks_changed` system message with the full set of live
+  background tasks on every membership change, so consumers can track background
+  activity as a level instead of pairing `task_started`/`task_notification`
+  edges
+
+  - Fixed stable releases shipping a `sdk.d.ts` with unresolved type references
+  that broke consumer typechecking with `skipLibCheck` disabled
+
   ## 0.3.202
 
   - Added `parent_agent_id` field to subagent session messages for building
@@ -14,19 +28,6 @@ summary: >-
   session instead of returning a control error
 
   ## 0.3.201
-
-  - Updated to parity with Claude Code v2.1.201
-
-  ## 0.3.200
-
-  - Added `'manual'` as an accepted alias for the `'default'` permission mode in
-  SDK inputs
-
-  - Fixed `onSetPermissionMode` callback not firing for SDK-hosted Remote
-  Control sessions
-
-  - Fixed `set_model` control request accepting unrecognized model strings;
-  invalid models are now rejected before latching
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-07T10:19:39.125Z
-content_sha256: 861a5c1c572896e6ac5c650869d2627bf323031ead6b0ee4b2cfa14f0f7be662
+retrieved_at: 2026-07-08T09:21:36.841Z
+content_sha256: 9172fa88c4a12ceb0b5d068d9fcdce7270b298b3956447a3331c99de1cd39f06
 ---
