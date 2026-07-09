@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-payloadcms-skills-payload",
-  "generated_at": "2026-07-08T09:21:34.848Z",
+  "generated_at": "2026-07-09T10:18:59.428Z",
   "records": [
     {
       "id": "skills/skills-sh-payloadcms-skills-payload#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/payloadcms/skills/HEAD/skills/payload/reference/FIELDS.md",
-        "retrieved_at": "2026-07-08T09:21:34.848Z",
+        "retrieved_at": "2026-07-09T10:18:59.428Z",
         "content_sha256": "e7e93833a67b4064fde7d0a8d17e32e4f34cdc6b0c695656e2f88547ced32058"
       }
     }

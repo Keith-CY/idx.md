@@ -1,7 +1,15 @@
 # Changelog
 
+## 0.3.205
+
+- Interrupt control responses now include `still_queued` (UUIDs of queued async messages that will still run), `Query.interrupt()` returns the typed receipt, and `system/init` advertises an `interrupt_receipt_v1` capability for feature detection
+- Added structured `name` and `body` fields to peer-message session events, exposing the sender display name and decoded message body
+
 ## 0.3.204
 
+- Added `terminal_reason` values `tool_deferred_unavailable` (deferred tool resume found the tool gone — previously an `is_error` result with no reason, read as a clean completion by lifecycle sweeps) and `turn_setup_failed` (the turn-input builder threw before the turn started). Both classify as dead turns, so commands consumed by them report `command_lifecycle` state `cancelled`
+- Fixed the post-merge cancel backstop cancelling every member of a coalesced prompt batch when a cancel named only one: uncancelled siblings now re-merge and run (previously they were reported `cancelled` — on remote transports that acknowledged them as processed, silently dropping messages nobody cancelled)
+- Added `terminal_reason` values `api_error`, `malformed_tool_use_exhausted`, `budget_exhausted`, and `structured_output_retry_exhausted`. Turns that die on an exhausted-API-retry or malformed-tool-use give-up previously reported `completed`; budget and structured-output exhaustion results previously omitted `terminal_reason`. Commands consumed by such turns now report `command_lifecycle` state `cancelled` instead of `completed` (dup-over-loss)
 - Updated to parity with Claude Code v2.1.204
 
 ## 0.3.203

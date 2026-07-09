@@ -35,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/receiving-cod
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-08T09:27:34.833Z
+retrieved_at: 2026-07-09T10:25:01.707Z
 content_sha256: 647036bbdab7bf2317e14e079595e984c9030f64295e2b4c0fb57dbeb48f25dd
 ---
