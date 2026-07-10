@@ -5,6 +5,13 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.206
+
+  - Added `command_lifecycle` frames to stream-json and SDK sessions, reporting
+  each uuid-stamped message's terminal state
+  (`queued`/`started`/`completed`/`cancelled`/`discarded`); zero-API results no
+  longer report stale `duration_api_ms`
+
   ## 0.3.205
 
   - Interrupt control responses now include `still_queued` (UUIDs of queued
@@ -35,10 +42,6 @@ summary: >-
   `completed`; budget and structured-output exhaustion results previously
   omitted `terminal_reason`. Commands consumed by such turns now report
   `command_lifecycle` state `cancelled` instead of `completed` (dup-over-loss)
-
-  - Updated to parity with Claude Code v2.1.204
-
-  ## 0.3.203
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -48,6 +51,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-09T10:19:01.720Z
-content_sha256: 0c28f564205ded952a9082ffdca307021d53beec7d667fc3154cc473839dd0b1
+retrieved_at: 2026-07-10T10:15:25.112Z
+content_sha256: 2c9a000befda8763e6cf0edc449e96ce5c59f6b897f97410f490b40f569a1535
 ---

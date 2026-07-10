@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.206
+
+- Added `command_lifecycle` frames to stream-json and SDK sessions, reporting each uuid-stamped message's terminal state (`queued`/`started`/`completed`/`cancelled`/`discarded`); zero-API results no longer report stale `duration_api_ms`
+
 ## 0.3.205
 
 - Interrupt control responses now include `still_queued` (UUIDs of queued async messages that will still run), `Query.interrupt()` returns the typed receipt, and `system/init` advertises an `interrupt_receipt_v1` capability for feature detection

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-wavetermdev-waveterm-electron-api",
-  "generated_at": "2026-07-09T10:25:19.557Z",
+  "generated_at": "2026-07-10T10:19:21.189Z",
   "records": [
     {
       "id": "skills/github-skill-wavetermdev-waveterm-electron-api#head",
@@ -21,7 +21,7 @@
           "github-repo-waveterm"
         ],
         "source_url": "https://raw.githubusercontent.com/wavetermdev/waveterm/main/.kilocode/skills/electron-api/SKILL.md",
-        "retrieved_at": "2026-07-09T10:25:19.557Z",
+        "retrieved_at": "2026-07-10T10:19:21.189Z",
         "content_sha256": "53b5f9666ec2ac61b8f3cf08e554ddf611b751e28795a84dd34f91fd20939203"
       }
     }

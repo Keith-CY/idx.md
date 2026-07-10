@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-googleworkspace-cli-gws-chat",
-  "generated_at": "2026-07-09T10:24:47.279Z",
+  "generated_at": "2026-07-10T10:18:58.151Z",
   "records": [
     {
       "id": "skills/skills-sh-googleworkspace-cli-gws-chat#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/googleworkspace/cli/HEAD/skills/gws-chat-send/SKILL.md",
-        "retrieved_at": "2026-07-09T10:24:47.279Z",
+        "retrieved_at": "2026-07-10T10:18:58.151Z",
         "content_sha256": "ec61a071b258c9ce87ec0b00d87b4e839a54c915a925e3cab9ecedcf2560b32e"
       }
     }
