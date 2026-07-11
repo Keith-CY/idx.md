@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-kurtosis-tech-kurtosis-cluster-manage",
-  "generated_at": "2026-07-10T10:19:14.179Z",
+  "generated_at": "2026-07-11T08:45:56.457Z",
   "records": [
     {
       "id": "skills/github-skill-kurtosis-tech-kurtosis-cluster-manage#head",
@@ -21,7 +21,7 @@
           "github-repo-kurtosis"
         ],
         "source_url": "https://raw.githubusercontent.com/kurtosis-tech/kurtosis/main/skills/cluster-manage/SKILL.md",
-        "retrieved_at": "2026-07-10T10:19:14.179Z",
+        "retrieved_at": "2026-07-11T08:45:56.457Z",
         "content_sha256": "b1fdde0f27221a9223b6a79b4c2946da391dacc758f7320f745ca1c79fc14912"
       }
     }

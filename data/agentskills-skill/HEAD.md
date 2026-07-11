@@ -7,11 +7,10 @@ summary: >-
 
   name: Agent
 
-  description: Use when creating, testing, optimizing, or implementing Agent
-  Skills — a standardized format for extending AI agent capabilities. Reach for
-  this skill when building skills for agents, evaluating skill quality,
-  optimizing skill descriptions for triggering, or adding skills support to an
-  agent product.
+  description: Use when creating, optimizing, or evaluating Agent Skills — the
+  open format for extending AI agent capabilities. Reach for this skill when
+  building SKILL.md files, designing skill descriptions, bundling scripts,
+  testing skill quality, or implementing skills support in an agent product.
 
   metadata:
       mintlify-proj: agent
@@ -23,13 +22,12 @@ summary: >-
   ## Product summary
 
   Agent Skills is an open format for packaging specialized knowledge and
-  workflows into reusable instructions that AI agents can load on demand. A
-  skill is a folder containing a `SKILL.md` file (metadata + instructions) plus
-  optional supporting files (scripts, references, assets). Skills use
-  **progressive disclosure**: agents load only the name and description at
-  startup, then read full instructions when a task matches the skill's scope,
-  and load supporting files on demand. This keeps context efficient while giving
-  agents access to specialized knowledge.
+  workflows into portable, reusable instructions for AI agents. A skill is a
+  folder containing a `SKILL.md` file (metadata + instructions) plus optional
+  supporting files (scripts, references, assets). Skills use **progressive
+  disclosure** — agents load only the name and description at startup, then read
+  full instructions when a task matches the skill's scope, keeping context
+  overhead minimal.
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -37,6 +35,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-10T10:14:58.009Z
-content_sha256: 231cf703c93db00d44d0b71081b1d59da1b1a5d63f2144177c49952f7ccfd446
+retrieved_at: 2026-07-11T08:42:05.930Z
+content_sha256: e3c7a6ec85e8bfb168a36bb0697926a376b0631c939dc62520e459b14cc283dd
 ---
