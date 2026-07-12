@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-rivet-dev-skills-sandbox-agent",
-  "generated_at": "2026-07-11T08:42:38.455Z",
+  "generated_at": "2026-07-12T08:58:06.719Z",
   "records": [
     {
       "id": "skills/skills-sh-rivet-dev-skills-sandbox-agent#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/rivet-dev/skills/HEAD/skills/sandbox-agent/references/ai/llms-txt.md",
-        "retrieved_at": "2026-07-11T08:42:38.455Z",
+        "retrieved_at": "2026-07-12T08:58:06.719Z",
         "content_sha256": "ff197fd6e2e1533fb0c7358e6a2259616db2bc81607ed26a68228a73476e325c"
       }
     }

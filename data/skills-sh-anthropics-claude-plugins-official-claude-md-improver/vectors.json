@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-anthropics-claude-plugins-official-claude-md-improver",
-  "generated_at": "2026-07-11T08:44:20.671Z",
+  "generated_at": "2026-07-12T08:58:41.885Z",
   "records": [
     {
       "id": "skills/skills-sh-anthropics-claude-plugins-official-claude-md-improver#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-md-management/skills/claude-md-improver/references/quality-criteria.md",
-        "retrieved_at": "2026-07-11T08:44:20.671Z",
+        "retrieved_at": "2026-07-12T08:58:41.885Z",
         "content_sha256": "383def16b05dca948297dd1acb33f007cb1b1b2c368454d424c5634348a8bab1"
       }
     }
