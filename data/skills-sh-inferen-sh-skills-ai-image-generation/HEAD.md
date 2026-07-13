@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/ai-image-generation
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-07-12T08:59:06.362Z
+retrieved_at: 2026-07-13T10:21:41.226Z
 content_sha256: 0f050f2e2feb82e205786863bbb5239d98792bbc41545cfc87d5ff8693ce4c0c
 ---

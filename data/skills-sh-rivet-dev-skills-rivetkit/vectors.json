@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-rivet-dev-skills-rivetkit",
-  "generated_at": "2026-07-12T08:58:41.547Z",
+  "generated_at": "2026-07-13T10:19:50.365Z",
   "records": [
     {
       "id": "skills/skills-sh-rivet-dev-skills-rivetkit#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/rivet-dev/skills/HEAD/rivetkit/reference/actors/access-control.md",
-        "retrieved_at": "2026-07-12T08:58:41.547Z",
+        "retrieved_at": "2026-07-13T10:19:50.365Z",
         "content_sha256": "e1afb15010ba6768e41d7ced200913e7e6cec39afe288e06ff1617ee842051cf"
       }
     }
