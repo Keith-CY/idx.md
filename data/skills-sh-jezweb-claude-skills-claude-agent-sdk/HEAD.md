@@ -5,33 +5,32 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.207
+  ## 0.3.209
 
-  - Fixed `canUseTool` returning `{behavior: 'allow'}` without `updatedInput`
-  being rejected as a deny with a raw ZodError message; the tool now runs with
-  the original input per the documented contract
+  - Updated to parity with Claude Code v2.1.209
 
-  - The Agent tool's structured result now has a published SDK type
-  (`AgentToolCompletedOutput`) that matches the emitted object exactly
+  ## 0.3.208
 
-  ## 0.3.206
+  - Fixed a caller abort during a pending SDK hook callback being converted into
+  hook success, which let PreToolUse-gated tools execute after the abort
 
-  - Added `command_lifecycle` frames to stream-json and SDK sessions, reporting
-  each uuid-stamped message's terminal state
-  (`queued`/`started`/`completed`/`cancelled`/`discarded`); zero-API results no
-  longer report stale `duration_api_ms`
+  - Fixed a per-query resource leak in the SDK's process tracking when spawning
+  the CLI fails (nonexistent or inaccessible executable path)
 
-  ## 0.3.205
+  - Fixed an SDK `UserPromptSubmit` hook callback exceeding its timeout killing
+  the entire query with an empty error; it now blocks the prompt with a clear
+  timeout message and the session continues
 
-  - Interrupt control responses now include `still_queued` (UUIDs of queued
-  async messages that will still run), `Query.interrupt()` returns the typed
-  receipt, and `system/init` advertises an `interrupt_receipt_v1` capability for
-  feature detection
+  - Fixed `extraArgs` values that look like flags (e.g. `resume: '--version'`)
+  being parsed as their own CLI flags; dash-leading values are now bound with
+  equals-form argv
 
-  - Added structured `name` and `body` fields to peer-message session events,
-  exposing the sender display name and decoded message body
+  - Fixed an abort-listener leak: streaming queries sharing one
+  `AbortController` no longer accumulate `abort` listeners on its signal after
+  each completed query
 
-  ## 0.3.204
+  - Fixed `createSdkMcpServer` docs pointing at a nonexistent env var; the MCP
+  tool-call timeout knob is `MCP_TOOL_TIMEOUT`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-13T10:16:51.126Z
-content_sha256: 78f72e2284ab2b9aa6976998f7f7d653d532fc1512a02dbacf5705baf6bc212b
+retrieved_at: 2026-07-14T09:00:14.277Z
+content_sha256: 1970c2153a4a58de504874185c373d7613878452a192ad10f42dd568b43edcc3
 ---

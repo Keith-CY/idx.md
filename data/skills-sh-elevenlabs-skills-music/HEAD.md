@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/music
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-13T10:19:52.933Z
+retrieved_at: 2026-07-14T09:03:10.045Z
 content_sha256: a0765c7af5800268fdae3ff443d7306d54cf66d3461cce839d3ac9d49ff58625
 ---

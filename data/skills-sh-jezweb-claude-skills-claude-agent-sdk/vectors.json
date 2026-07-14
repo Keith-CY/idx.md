@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-07-13T10:16:51.126Z",
+  "generated_at": "2026-07-14T09:00:14.277Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.207 - Fixed `canUseTool` returning `{behavior: 'allow'}` without `updatedInput` being rejected as a deny with a raw ZodError message; the tool now runs with the original input per the documented contract - The Agent tool's structured result now has a published SDK type (`AgentToolCompletedOutput`) that matches the emitted object exactly ## 0.3.206 - Added `command_lifecycle` frames to stream-json and SDK sessions, reporting each uuid-stamped message's terminal state (`queued`/`started`/`completed`/`cancelled`/`discarded`); zero-API results no longer report stale `duration_api_ms` ## 0.3.205 - Interrupt control responses now include `still_queued` (UUIDs of queued async messages that will still run), `Query.interrupt()` returns the typed receipt, and `system/init` advertises an `interrupt_receipt_v1` capability for feature detection - Added structured `name` and `body` fields to peer-message session events, exposing the sender display name and decoded message body ## 0.3.204\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.209 - Updated to parity with Claude Code v2.1.209 ## 0.3.208 - Fixed a caller abort during a pending SDK hook callback being converted into hook success, which let PreToolUse-gated tools execute after the abort - Fixed a per-query resource leak in the SDK's process tracking when spawning the CLI fails (nonexistent or inaccessible executable path) - Fixed an SDK `UserPromptSubmit` hook callback exceeding its timeout killing the entire query with an empty error; it now blocks the prompt with a clear timeout message and the session continues - Fixed `extraArgs` values that look like flags (e.g. `resume: '--version'`) being parsed as their own CLI flags; dash-leading values are now bound with equals-form argv - Fixed an abort-listener leak: streaming queries sharing one `AbortController` no longer accumulate `abort` listeners on its signal after each completed query - Fixed `createSdkMcpServer` docs pointing at a nonexistent env var; the MCP tool-call timeout knob is `MCP_TOOL_TIMEOUT`\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-07-13T10:16:51.126Z",
-        "content_sha256": "78f72e2284ab2b9aa6976998f7f7d653d532fc1512a02dbacf5705baf6bc212b"
+        "retrieved_at": "2026-07-14T09:00:14.277Z",
+        "content_sha256": "1970c2153a4a58de504874185c373d7613878452a192ad10f42dd568b43edcc3"
       }
     }
   ]

@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/microsoft/playwright-cli/playwright-cli
 github_stars: 4106
 github_forks: 154
 github_is_organization: true
-retrieved_at: 2026-07-13T10:17:05.077Z
+retrieved_at: 2026-07-14T09:00:31.533Z
 content_sha256: 54e801c9663fc2b6d68ceb058cb1c360724c2499f42acc7852a68e83e5b5f37c
 ---

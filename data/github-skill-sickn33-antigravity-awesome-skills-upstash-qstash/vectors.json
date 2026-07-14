@@ -1,0 +1,29 @@
+{
+  "schema": "idx.md/vectors@1",
+  "topic": "github-skill-sickn33-antigravity-awesome-skills-upstash-qstash",
+  "generated_at": "2026-07-14T09:05:34.805Z",
+  "records": [
+    {
+      "id": "skills/github-skill-sickn33-antigravity-awesome-skills-upstash-qstash#head",
+      "kind": "head",
+      "path": "/data/github-skill-sickn33-antigravity-awesome-skills-upstash-qstash/HEAD.md",
+      "text": "title: upstash-qstash\nsummary: Upstash QStash expert for serverless message queues, scheduled jobs, and reliable HTTP-based task delivery without managing infrastructure. Use when: qstash, upstash queue, serverless cron, schedul...\ntype: skills\ntags: github-skill-search, source-github-code-search, category-calendar-scheduling, github-owner-sickn33, github-repo-antigravity-awesome-skills\nsource_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md",
+      "metadata": {
+        "stable_id": "skills/github-skill-sickn33-antigravity-awesome-skills-upstash-qstash",
+        "topic": "github-skill-sickn33-antigravity-awesome-skills-upstash-qstash",
+        "type": "skills",
+        "title": "upstash-qstash",
+        "tags": [
+          "github-skill-search",
+          "source-github-code-search",
+          "category-calendar-scheduling",
+          "github-owner-sickn33",
+          "github-repo-antigravity-awesome-skills"
+        ],
+        "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md",
+        "retrieved_at": "2026-07-14T09:05:34.805Z",
+        "content_sha256": "1455b4c257f8477787eb7064c2b6e5258dd44f4de9fc99bd78272922804ae5b3"
+      }
+    }
+  ]
+}

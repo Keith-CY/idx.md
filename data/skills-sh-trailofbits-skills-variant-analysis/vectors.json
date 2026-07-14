@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-variant-analysis",
-  "generated_at": "2026-07-13T10:19:55.294Z",
+  "generated_at": "2026-07-14T09:03:12.650Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-variant-analysis#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/variant-analysis/skills/variant-analysis/METHODOLOGY.md",
-        "retrieved_at": "2026-07-13T10:19:55.294Z",
+        "retrieved_at": "2026-07-14T09:03:12.650Z",
         "content_sha256": "bbe15a7e6edf419f348564542fec22200b4f0ce30a0f801d620fbd2e406c14f3"
       }
     }

@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.209
+
+- Updated to parity with Claude Code v2.1.209
+
+## 0.3.208
+
+- Fixed a caller abort during a pending SDK hook callback being converted into hook success, which let PreToolUse-gated tools execute after the abort
+- Fixed a per-query resource leak in the SDK's process tracking when spawning the CLI fails (nonexistent or inaccessible executable path)
+- Fixed an SDK `UserPromptSubmit` hook callback exceeding its timeout killing the entire query with an empty error; it now blocks the prompt with a clear timeout message and the session continues
+- Fixed `extraArgs` values that look like flags (e.g. `resume: '--version'`) being parsed as their own CLI flags; dash-leading values are now bound with equals-form argv
+- Fixed an abort-listener leak: streaming queries sharing one `AbortController` no longer accumulate `abort` listeners on its signal after each completed query
+- Fixed `createSdkMcpServer` docs pointing at a nonexistent env var; the MCP tool-call timeout knob is `MCP_TOOL_TIMEOUT`
+- Fixed an uncaught exception when writing to stdin after the Claude Code subprocess has exited
+
 ## 0.3.207
 
 - Fixed `canUseTool` returning `{behavior: 'allow'}` without `updatedInput` being rejected as a deny with a raw ZodError message; the tool now runs with the original input per the documented contract
