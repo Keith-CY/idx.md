@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/token-integration-analyzer
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-14T09:03:13.731Z
+retrieved_at: 2026-07-15T09:08:35.254Z
 content_sha256: bf1313e59c960688cc73bda5b7a98579336a277c521b9b37937aa1cda3a122a7
 ---

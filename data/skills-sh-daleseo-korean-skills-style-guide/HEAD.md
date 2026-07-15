@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/daleseo/korean-skills/style-guide
 github_stars: 6
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-07-14T09:00:06.814Z
+retrieved_at: 2026-07-15T09:05:06.800Z
 content_sha256: 41c33bda9e64c062b0b5e7e6bee27d74eaf0002b0273d856e7f4b5a3ab03f48a
 ---

@@ -5,6 +5,11 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.210
+
+  - Added `timedOutAfterMs` to `BashToolOutput`, set when a command is
+  auto-backgrounded on timeout
+
   ## 0.3.209
 
   - Updated to parity with Claude Code v2.1.209
@@ -24,13 +29,6 @@ summary: >-
   - Fixed `extraArgs` values that look like flags (e.g. `resume: '--version'`)
   being parsed as their own CLI flags; dash-leading values are now bound with
   equals-form argv
-
-  - Fixed an abort-listener leak: streaming queries sharing one
-  `AbortController` no longer accumulate `abort` listeners on its signal after
-  each completed query
-
-  - Fixed `createSdkMcpServer` docs pointing at a nonexistent env var; the MCP
-  tool-call timeout knob is `MCP_TOOL_TIMEOUT`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-14T09:00:14.277Z
-content_sha256: 1970c2153a4a58de504874185c373d7613878452a192ad10f42dd568b43edcc3
+retrieved_at: 2026-07-15T09:05:15.411Z
+content_sha256: d51bd6965def57b42d109a1c93a67db1eb45faf9802f16b4e457cb4a41117b45
 ---

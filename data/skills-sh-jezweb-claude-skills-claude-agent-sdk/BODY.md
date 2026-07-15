@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.210
+
+- Added `timedOutAfterMs` to `BashToolOutput`, set when a command is auto-backgrounded on timeout
+
 ## 0.3.209
 
 - Updated to parity with Claude Code v2.1.209
@@ -1009,7 +1013,7 @@
 ## 0.1.58
 
 - Updated to parity with Claude Code v2.0.58
-- Added `betas` option to enable beta features. Currently supports `'context-1m-2025-08-07'` for 1M token context window on Sonnet 4/4.5. See https://docs.anthropic.com/en/api/beta-headers for more details.
+- Added `betas` option to enable beta features. Currently supports `'context-1m-2025-08-07'` for 1M token context window on Sonnet 4/4.5. See https://platform.claude.com/docs/en/api/beta-headers for more details.
 
 ## 0.1.57
 

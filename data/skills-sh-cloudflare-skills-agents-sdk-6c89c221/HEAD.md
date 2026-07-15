@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-14T08:59:34.503Z
+retrieved_at: 2026-07-15T09:04:39.151Z
 content_sha256: 1778b2dee2788d0238c1d4b61e3ee42538a24166770cf33c38d78c22c1ac6dbe
 ---

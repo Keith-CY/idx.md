@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-debug-guides
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-14T09:00:03.968Z
+retrieved_at: 2026-07-15T09:05:03.588Z
 content_sha256: 9bd2991786bc470ae00e655a7712d67393a6e904152a942b680c7a9d2f987644
 ---

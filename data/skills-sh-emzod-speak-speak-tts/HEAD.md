@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/emzod/speak/speak-tts
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-14T08:59:29.473Z
+retrieved_at: 2026-07-15T09:04:33.182Z
 content_sha256: ca405caf24ed179997aa55b0ae20b154f31c7b04c35153a5bcf98755e8ef4c8b
 ---
