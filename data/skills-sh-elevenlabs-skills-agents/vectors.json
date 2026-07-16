@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-agents",
-  "generated_at": "2026-07-15T09:08:30.953Z",
+  "generated_at": "2026-07-16T09:09:28.340Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-agents#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/agents/references/installation.md",
-        "retrieved_at": "2026-07-15T09:08:30.953Z",
+        "retrieved_at": "2026-07-16T09:09:28.340Z",
         "content_sha256": "e384a2fc9dd473f3d564a9e107cbf25e5739a0870adbe3a35f6f24279389cc9f"
       }
     }

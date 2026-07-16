@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-reka-ui",
-  "generated_at": "2026-07-15T09:10:44.139Z",
+  "generated_at": "2026-07-16T09:08:16.028Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-reka-ui#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/reka-ui/references/components.md",
-        "retrieved_at": "2026-07-15T09:10:44.139Z",
+        "retrieved_at": "2026-07-16T09:08:16.028Z",
         "content_sha256": "48e417f86ac1fc35c038d9cf6b377a5461a09032a285883cf125f4aa33180f9c"
       }
     }

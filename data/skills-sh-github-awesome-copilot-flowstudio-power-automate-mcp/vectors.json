@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-flowstudio-power-automate-mcp",
-  "generated_at": "2026-07-15T09:10:47.217Z",
+  "generated_at": "2026-07-16T09:08:17.544Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-flowstudio-power-automate-mcp#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/flowstudio-power-automate-mcp/references/MCP-BOOTSTRAP.md",
-        "retrieved_at": "2026-07-15T09:10:47.217Z",
+        "retrieved_at": "2026-07-16T09:08:17.544Z",
         "content_sha256": "a0f100df8c50311819350c33b5880402332185ac7a480689236b5cf1231b64cf"
       }
     }

@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/vueuse
 github_stars: 560
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-07-15T09:05:32.878Z
+retrieved_at: 2026-07-16T09:08:43.246Z
 content_sha256: 66e49744fc99ab846eda3fe20bb435f35eb9f0ecddd9c293115792fc4810ee90
 ---
