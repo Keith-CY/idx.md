@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-legal-skills-triage-nda-skill",
-  "generated_at": "2026-07-16T09:09:26.421Z",
+  "generated_at": "2026-07-17T09:04:51.092Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-legal-skills-triage-nda-skill#head",
@@ -21,7 +21,7 @@
           "category-uncategorized"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/triage-nda/SKILL.md",
-        "retrieved_at": "2026-07-16T09:09:26.421Z",
+        "retrieved_at": "2026-07-17T09:04:51.092Z",
         "content_sha256": "767a8f6759268e003ee882af8dfb56579aca2121b9dc49a2c65c4e77de93f768"
       }
     }

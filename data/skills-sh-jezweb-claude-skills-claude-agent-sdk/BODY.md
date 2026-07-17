@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3.212
+
+- Fixed dash-leading `resumeSessionAt` and `sessionId` values being passed to the CLI as separate argv tokens; both now use equals-form (`--flag=value`)
+- Agent tool output now includes the resolved model when a mid-turn model swap changed the subagent's model
+
 ## 0.3.211
 
 - Fixed `--replay-user-messages` with `--include-partial-messages` emitting the turn-start user replay after the first content block instead of before the turn's content events

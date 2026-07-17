@@ -5,6 +5,14 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.212
+
+  - Fixed dash-leading `resumeSessionAt` and `sessionId` values being passed to
+  the CLI as separate argv tokens; both now use equals-form (`--flag=value`)
+
+  - Agent tool output now includes the resolved model when a mid-turn model swap
+  changed the subagent's model
+
   ## 0.3.211
 
   - Fixed `--replay-user-messages` with `--include-partial-messages` emitting
@@ -23,13 +31,6 @@ summary: >-
   child reports its actual cause instead of only an exit code
 
   ## 0.3.210
-
-  - Added `timedOutAfterMs` to `BashToolOutput`, set when a command is
-  auto-backgrounded on timeout
-
-  ## 0.3.209
-
-  - Updated to parity with Claude Code v2.1.209
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-16T09:08:36.798Z
-content_sha256: efa787a074ee67cd47e460a4e1cf97df0ae540ba0f1b5acce6135492344b614d
+retrieved_at: 2026-07-17T09:03:37.761Z
+content_sha256: 5ebe444291a3d837b85e0a605598e3a4499466fa18f6cabe2c8ef50c002ead4d
 ---
