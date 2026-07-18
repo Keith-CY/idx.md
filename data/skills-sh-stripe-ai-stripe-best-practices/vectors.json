@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-stripe-ai-stripe-best-practices",
-  "generated_at": "2026-07-17T09:03:17.349Z",
+  "generated_at": "2026-07-18T08:43:22.866Z",
   "records": [
     {
       "id": "skills/skills-sh-stripe-ai-stripe-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/stripe/ai/HEAD/skills/stripe-best-practices/references/payments.md",
-        "retrieved_at": "2026-07-17T09:03:17.349Z",
+        "retrieved_at": "2026-07-18T08:43:22.866Z",
         "content_sha256": "c56f39bbd590225c269e28cd01903f7d50d0041b56f821f330e72f6f843756f8"
       }
     }

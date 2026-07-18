@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-deanpeters-product-manager-skills-pestel-analysis",
-  "generated_at": "2026-07-17T09:05:39.878Z",
+  "generated_at": "2026-07-18T08:45:28.252Z",
   "records": [
     {
       "id": "skills/github-skill-deanpeters-product-manager-skills-pestel-analysis#head",
@@ -21,7 +21,7 @@
           "github-repo-product-manager-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/deanpeters/Product-Manager-Skills/main/skills/pestel-analysis/SKILL.md",
-        "retrieved_at": "2026-07-17T09:05:39.878Z",
+        "retrieved_at": "2026-07-18T08:45:28.252Z",
         "content_sha256": "683ed025fc0a281c8e073cf101c467f210d680f59cf092697da83b8809f6601b"
       }
     }

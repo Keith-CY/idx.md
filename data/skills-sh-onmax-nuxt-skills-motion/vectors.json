@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-motion",
-  "generated_at": "2026-07-17T09:03:33.041Z",
+  "generated_at": "2026-07-18T08:43:37.303Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-motion#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/motion/references/components.md",
-        "retrieved_at": "2026-07-17T09:03:33.041Z",
+        "retrieved_at": "2026-07-18T08:43:37.303Z",
         "content_sha256": "739a643e263a50006fb29dce5fd1e84a704574d4bdfcda485b4951023ac02110"
       }
     }

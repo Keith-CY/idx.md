@@ -5,32 +5,33 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.212
+  ## 0.3.214
 
-  - Fixed dash-leading `resumeSessionAt` and `sessionId` values being passed to
-  the CLI as separate argv tokens; both now use equals-form (`--flag=value`)
+  - `set_permission_mode` now rejects unrecognized permission modes with an
+  error instead of silently adopting them; the `'manual'` alias is accepted at
+  every ingress
 
-  - Agent tool output now includes the resolved model when a mid-turn model swap
-  changed the subagent's model
+  - Added optional `subkind: 'scheduled-trigger'` to the `task-notification`
+  member of `SDKMessageOrigin`, marking deliveries that are the fired prompt of
+  a user-configured scheduled task
 
-  ## 0.3.211
+  - `applyFlagSettings({effortLevel})` now accepts `'max'` in its TypeScript
+  type (runtime already supported it)
 
-  - Fixed `--replay-user-messages` with `--include-partial-messages` emitting
-  the turn-start user replay after the first content block instead of before the
-  turn's content events
+  - Assistant messages truncated by `interrupt()` now carry `aborted: true`, so
+  consumers can distinguish a mid-stream partial from a completed message
 
-  - Added `SDKAssistantMessage.timestamp` (ISO-8601) to the live stream,
-  matching `SDKUserMessage`; older emitters omit it, consumers should fall back
-  to receive time
+  - Added optional `subagent_type` and `subagent_retry` fields to
+  `tool_progress` messages so clients can show a subagent waiting out an API
+  rate-limit retry
 
-  - Added rate-limit message prefix buckets (`USAGE_LIMIT_ERROR_PREFIXES` and
-  siblings) as `@alpha` exports for classifying rate-limit messages without
-  hand-mirrored lists
+  - The `system/init` message's `plugins` entries and the `reload_plugins`
+  response now include each plugin's manifest `version`
 
-  - Improved process-exit errors to include the CLI's stderr output, so a failed
-  child reports its actual cause instead of only an exit code
+  - SessionStart hooks now report source `"fork"` instead of `"resume"` when the
+  session begins as a fork
 
-  ## 0.3.210
+  ## 0.3.213
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-17T09:03:37.761Z
-content_sha256: 5ebe444291a3d837b85e0a605598e3a4499466fa18f6cabe2c8ef50c002ead4d
+retrieved_at: 2026-07-18T08:43:41.295Z
+content_sha256: c63ba898f085777c1ab83667d3e0826b352dfe3ebf25601a0dd637200b99208b
 ---

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-forms
 github_stars: 558
 github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-07-17T09:03:15.500Z
+retrieved_at: 2026-07-18T08:43:21.237Z
 content_sha256: 8cbd30faf4fe8457e638b85f612720325b68c875860f292155ddd9a93359de93
 ---

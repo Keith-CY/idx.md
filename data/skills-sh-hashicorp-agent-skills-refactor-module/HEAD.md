@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/hashicorp/agent-skills/refactor-module
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-17T09:04:56.133Z
+retrieved_at: 2026-07-18T08:44:50.275Z
 content_sha256: fea8a0eadf68f1ac45cae3b1d6dc4c66b489fb6e40a3d41762120059c49540c2
 ---

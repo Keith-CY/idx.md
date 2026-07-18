@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/nodnarbnitram/claude-code-extensions/tauri-v2
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-17T09:03:17.186Z
+retrieved_at: 2026-07-18T08:43:22.706Z
 content_sha256: aff274cc3d8731f4faa4bafe892b281edaf9f3e2dc5a2509c6d610819062157e
 ---

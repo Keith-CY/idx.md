@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-github-copilot-for-azure-entra-app-registration",
-  "generated_at": "2026-07-17T09:03:03.108Z",
+  "generated_at": "2026-07-18T08:43:09.581Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-github-copilot-for-azure-entra-app-registration#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/github-copilot-for-azure/HEAD/plugin/skills/entra-app-registration/references/cli-commands.md",
-        "retrieved_at": "2026-07-17T09:03:03.108Z",
+        "retrieved_at": "2026-07-18T08:43:09.581Z",
         "content_sha256": "c6c7881bcd6c9710fd71f54413077109f455cd2a1ba0d233652410f72f56ad24"
       }
     }

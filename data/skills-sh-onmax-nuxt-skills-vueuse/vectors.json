@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-vueuse",
-  "generated_at": "2026-07-17T09:03:45.364Z",
+  "generated_at": "2026-07-18T08:43:48.309Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-vueuse#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/vueuse/references/composables.md",
-        "retrieved_at": "2026-07-17T09:03:45.364Z",
+        "retrieved_at": "2026-07-18T08:43:48.309Z",
         "content_sha256": "66e49744fc99ab846eda3fe20bb435f35eb9f0ecddd9c293115792fc4810ee90"
       }
     }

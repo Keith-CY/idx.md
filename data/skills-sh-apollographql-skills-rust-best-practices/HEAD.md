@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/apollographql/skills/rust-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-17T09:03:45.272Z
+retrieved_at: 2026-07-18T08:43:48.254Z
 content_sha256: 96130f7b81a525f16824b0fc319d9e7ad3e913e8dcd75cc03e85d3ae83947df4
 ---

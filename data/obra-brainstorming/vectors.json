@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-brainstorming",
-  "generated_at": "2026-07-17T09:03:01.499Z",
+  "generated_at": "2026-07-18T08:43:08.647Z",
   "records": [
     {
       "id": "skills/obra-brainstorming#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/brainstorming/SKILL.md",
-        "retrieved_at": "2026-07-17T09:03:01.499Z",
+        "retrieved_at": "2026-07-18T08:43:08.647Z",
         "content_sha256": "e14914605f640e0841758e45d0ab2a53243b59b921f929e47921c99668f2e61d"
       }
     }
