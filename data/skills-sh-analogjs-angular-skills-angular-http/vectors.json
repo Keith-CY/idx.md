@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-analogjs-angular-skills-angular-http",
-  "generated_at": "2026-07-18T08:43:21.434Z",
+  "generated_at": "2026-07-19T09:01:43.392Z",
   "records": [
     {
       "id": "skills/skills-sh-analogjs-angular-skills-angular-http#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/analogjs/angular-skills/HEAD/skills/angular-http/references/http-patterns.md",
-        "retrieved_at": "2026-07-18T08:43:21.434Z",
+        "retrieved_at": "2026-07-19T09:01:43.392Z",
         "content_sha256": "fbf54fc7b87b23e24794781e98640748306a67d28e0cc4e62a6816af2cb780ec"
       }
     }

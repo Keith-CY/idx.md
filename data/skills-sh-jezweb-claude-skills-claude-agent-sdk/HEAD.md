@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.215
+
+  - Updated to parity with Claude Code v2.1.215
+
   ## 0.3.214
 
   - `set_permission_mode` now rejects unrecognized permission modes with an
@@ -27,11 +31,6 @@ summary: >-
 
   - The `system/init` message's `plugins` entries and the `reload_plugins`
   response now include each plugin's manifest `version`
-
-  - SessionStart hooks now report source `"fork"` instead of `"resume"` when the
-  session begins as a fork
-
-  ## 0.3.213
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-18T08:43:41.295Z
-content_sha256: c63ba898f085777c1ab83667d3e0826b352dfe3ebf25601a0dd637200b99208b
+retrieved_at: 2026-07-19T09:02:11.448Z
+content_sha256: 43ed53519e9db09654d9cab1828b57650e3624fb2fef3baf9caa6f553ab9cca5
 ---

@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-nuxt-content",
-  "generated_at": "2026-07-18T08:44:48.827Z",
+  "generated_at": "2026-07-19T09:04:01.506Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-nuxt-content#head",
       "kind": "head",
       "path": "/data/skills-sh-onmax-nuxt-skills-nuxt-content/HEAD.md",
-      "text": "title: skills-sh-onmax-nuxt-skills-nuxt-content\nsummary: # Collections ## When to Use Setting up `content.config.ts`, defining collection schemas, or configuring content sources. ## Defining Collections ```ts // content.config.ts import { defineCollection, defineContentConfig } from '@nuxt/content' import { z } from 'zod' // Import z from 'zod' directly (not from @nuxt/content) export default defineContentConfig({ collections: {\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-content/references/collections.md",
+      "text": "title: skills-sh-onmax-nuxt-skills-nuxt-content\nsummary: # Collections Use collections as the schema and routing boundary for content. Once `content.config.ts` exists, Nuxt Content imports only files matched by a collection source. ## Choose the collection type - `page` adds `path`, `title`, `description`, `seo`, `body`, and `navigation`; use it when one content file maps to one route. - `data` adds the common file fields but leaves the domain schema to you; use it for authors, products, configuration, and other structured records. - Every collection includes `id`, `stem`, `extension`, and `meta`. Keep each source file in one collection. Overlapping collection globs can break live reload, so use `exclude` to make ownership explicit. ## Validators and editor metadata Import validators from their packages. The `z` re-export from `@nuxt/content` is deprecated. ```ts\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-content/references/collections.md",
       "metadata": {
         "stable_id": "skills/skills-sh-onmax-nuxt-skills-nuxt-content",
         "topic": "skills-sh-onmax-nuxt-skills-nuxt-content",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-content/references/collections.md",
-        "retrieved_at": "2026-07-18T08:44:48.827Z",
-        "content_sha256": "eb10a535052b1ecf968008adaf360e1fb130f229808e83482519b83c78aaae4c"
+        "retrieved_at": "2026-07-19T09:04:01.506Z",
+        "content_sha256": "4fd01d8b51793c18b6235f625c2bf54b92161180fbf544109623ece5f449c7b0"
       }
     }
   ]

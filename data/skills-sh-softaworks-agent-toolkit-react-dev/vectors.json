@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-softaworks-agent-toolkit-react-dev",
-  "generated_at": "2026-07-18T08:43:21.359Z",
+  "generated_at": "2026-07-19T09:01:43.298Z",
   "records": [
     {
       "id": "skills/skills-sh-softaworks-agent-toolkit-react-dev#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/react-dev/references/react-19-patterns.md",
-        "retrieved_at": "2026-07-18T08:43:21.359Z",
+        "retrieved_at": "2026-07-19T09:01:43.298Z",
         "content_sha256": "385551bdf34ca46da9241299cc3850b801e98087f8a192c872691d3209d90738"
       }
     }

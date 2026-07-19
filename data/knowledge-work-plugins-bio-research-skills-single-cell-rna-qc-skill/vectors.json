@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-bio-research-skills-single-cell-rna-qc-skill",
-  "generated_at": "2026-07-18T08:43:32.945Z",
+  "generated_at": "2026-07-19T09:01:58.582Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-bio-research-skills-single-cell-rna-qc-skill#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/single-cell-rna-qc/SKILL.md",
-        "retrieved_at": "2026-07-18T08:43:32.945Z",
+        "retrieved_at": "2026-07-19T09:01:58.582Z",
         "content_sha256": "49cb573916deec6fcf6cc2cb1b573469cbc8c34b84326597ce2db22d0202393f"
       }
     }

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.215
+
+- Updated to parity with Claude Code v2.1.215
+
 ## 0.3.214
 
 - `set_permission_mode` now rejects unrecognized permission modes with an error instead of silently adopting them; the `'manual'` alias is accepted at every ingress

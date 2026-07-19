@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/sharp-edges
 github_stars: 2952
 github_forks: 236
 github_is_organization: true
-retrieved_at: 2026-07-18T08:43:48.934Z
+retrieved_at: 2026-07-19T09:02:21.475Z
 content_sha256: 1d99f2716f7bef18efe71015ce0c56e0f4961c042faa503d796d6d4d1626fdc6
 ---

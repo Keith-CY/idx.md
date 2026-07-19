@@ -5,24 +5,29 @@ title: skills-sh-onmax-nuxt-skills-nuxt-content
 summary: >-
   # Collections
 
-  ## When to Use
+  Use collections as the schema and routing boundary for content. Once
+  `content.config.ts` exists, Nuxt Content imports only files matched by a
+  collection source.
 
-  Setting up `content.config.ts`, defining collection schemas, or configuring
-  content sources.
+  ## Choose the collection type
 
-  ## Defining Collections
+  - `page` adds `path`, `title`, `description`, `seo`, `body`, and `navigation`;
+  use it when one content file maps to one route.
+
+  - `data` adds the common file fields but leaves the domain schema to you; use
+  it for authors, products, configuration, and other structured records.
+
+  - Every collection includes `id`, `stem`, `extension`, and `meta`.
+
+  Keep each source file in one collection. Overlapping collection globs can
+  break live reload, so use `exclude` to make ownership explicit.
+
+  ## Validators and editor metadata
+
+  Import validators from their packages. The `z` re-export from `@nuxt/content`
+  is deprecated.
 
   ```ts
-
-  // content.config.ts
-
-  import { defineCollection, defineContentConfig } from '@nuxt/content'
-
-  import { z } from 'zod'  // Import z from 'zod' directly (not from
-  @nuxt/content)
-
-  export default defineContentConfig({
-    collections: {
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +37,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-content
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-07-18T08:44:48.827Z
-content_sha256: eb10a535052b1ecf968008adaf360e1fb130f229808e83482519b83c78aaae4c
+retrieved_at: 2026-07-19T09:04:01.506Z
+content_sha256: 4fd01d8b51793c18b6235f625c2bf54b92161180fbf544109623ece5f449c7b0
 ---

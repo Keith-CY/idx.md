@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/apollographql/skills/graphql-operations
 github_stars: 23
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-07-18T08:43:39.114Z
+retrieved_at: 2026-07-19T09:02:07.952Z
 content_sha256: 2c66262d754fb4c286961fdac0a115cd2e9105710be9c3d812b6b2ac135995ee
 ---

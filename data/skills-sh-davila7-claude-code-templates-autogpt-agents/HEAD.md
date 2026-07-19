@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/autogpt-agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-18T08:43:28.196Z
+retrieved_at: 2026-07-19T09:01:52.102Z
 content_sha256: e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b
 ---
