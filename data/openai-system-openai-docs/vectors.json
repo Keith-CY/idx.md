@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-system-openai-docs",
-  "generated_at": "2026-07-19T09:01:26.230Z",
+  "generated_at": "2026-07-21T09:22:34.337Z",
   "records": [
     {
       "id": "skills/openai-system-openai-docs#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.system/openai-docs/SKILL.md",
-        "retrieved_at": "2026-07-19T09:01:26.230Z",
+        "retrieved_at": "2026-07-21T09:22:34.337Z",
         "content_sha256": "669a42ccf3323fe0ceda6e466730bcb05dddf1e0c220d6523ea504909fc49165"
       }
     }

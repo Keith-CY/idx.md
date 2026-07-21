@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.216
+
+- Added optional `skippedLinks` count to `rewindFiles` responses for paths the rewind safety guards refused to restore or delete
+- Added `tool_result_meta` sidecar to user messages (`non_execution_kind`, `user_feedback`) so consumers can classify denied, interrupted, or cancelled tool calls without string-matching result prose
+- Added optional `user_message_uuid` and `request_sent_wall_ms` fields to the success result message for cross-host request-latency correlation
+
 ## 0.3.215
 
 - Updated to parity with Claude Code v2.1.215

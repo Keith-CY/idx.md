@@ -24,7 +24,7 @@ upstream_ref: https://github.com/onmax/nuxt-skills/blob/main/skills/nuxt-seo/SKI
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-19T09:05:09.632Z
+retrieved_at: 2026-07-21T09:24:33.170Z
 content_sha256: 254b902fbdd467b08ff7c2556f02dec2afc99fcd47583e02d1f31f9c30e8fbb3
 ---
 |/data/github-skill-onmax-nuxt-skills-nuxt-seo|

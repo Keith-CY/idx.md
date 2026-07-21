@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/logo-creator
 github_stars: 480
 github_forks: 47
 github_is_organization: true
-retrieved_at: 2026-07-19T09:04:01.681Z
+retrieved_at: 2026-07-21T09:24:05.055Z
 content_sha256: 3586f209bc6f7f3e0addbeb289d240f3d0b13cfae654a33512b12ba1bd2df80e
 ---

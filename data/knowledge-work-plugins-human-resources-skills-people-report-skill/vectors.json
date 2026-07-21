@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-people-report-skill",
-  "generated_at": "2026-07-19T09:03:53.889Z",
+  "generated_at": "2026-07-21T09:23:57.708Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-people-report-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/people-report/SKILL.md",
-        "retrieved_at": "2026-07-19T09:03:53.889Z",
+        "retrieved_at": "2026-07-21T09:23:57.708Z",
         "content_sha256": "e68d00be15a681da288e6023df095a952add099db2c14873c47a69e3ab3634b8"
       }
     }

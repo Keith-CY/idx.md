@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/adithya-s-k/manim_skill/manimgl-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-19T09:02:07.594Z
+retrieved_at: 2026-07-21T09:23:09.609Z
 content_sha256: af4f98dc732fb9be522b2d53e7727c439258fb217cbaaa3c1360537f5cebc7ed
 ---

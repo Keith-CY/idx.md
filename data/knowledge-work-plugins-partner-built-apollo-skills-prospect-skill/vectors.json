@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-apollo-skills-prospect-skill",
-  "generated_at": "2026-07-19T09:02:16.442Z",
+  "generated_at": "2026-07-21T09:23:17.848Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-apollo-skills-prospect-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/apollo/skills/prospect/SKILL.md",
-        "retrieved_at": "2026-07-19T09:02:16.442Z",
+        "retrieved_at": "2026-07-21T09:23:17.848Z",
         "content_sha256": "6ec8535206190b38599a13f2df2786626a2f6790e4d9bd40ecd0b97b2e4a8e3c"
       }
     }

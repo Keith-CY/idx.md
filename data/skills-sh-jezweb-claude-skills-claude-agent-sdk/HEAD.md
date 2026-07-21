@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.216
+
+  - Added optional `skippedLinks` count to `rewindFiles` responses for paths the
+  rewind safety guards refused to restore or delete
+
+  - Added `tool_result_meta` sidecar to user messages (`non_execution_kind`,
+  `user_feedback`) so consumers can classify denied, interrupted, or cancelled
+  tool calls without string-matching result prose
+
+  - Added optional `user_message_uuid` and `request_sent_wall_ms` fields to the
+  success result message for cross-host request-latency correlation
+
   ## 0.3.215
 
   - Updated to parity with Claude Code v2.1.215
@@ -18,19 +30,6 @@ summary: >-
   - Added optional `subkind: 'scheduled-trigger'` to the `task-notification`
   member of `SDKMessageOrigin`, marking deliveries that are the fired prompt of
   a user-configured scheduled task
-
-  - `applyFlagSettings({effortLevel})` now accepts `'max'` in its TypeScript
-  type (runtime already supported it)
-
-  - Assistant messages truncated by `interrupt()` now carry `aborted: true`, so
-  consumers can distinguish a mid-stream partial from a completed message
-
-  - Added optional `subagent_type` and `subagent_retry` fields to
-  `tool_progress` messages so clients can show a subagent waiting out an API
-  rate-limit retry
-
-  - The `system/init` message's `plugins` entries and the `reload_plugins`
-  response now include each plugin's manifest `version`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-19T09:02:11.448Z
-content_sha256: 43ed53519e9db09654d9cab1828b57650e3624fb2fef3baf9caa6f553ab9cca5
+retrieved_at: 2026-07-21T09:23:13.622Z
+content_sha256: c2c3aa903529cb2b957bbfddad7a7339bf7c858026a17055c324c2c2e6440b96
 ---
