@@ -25,6 +25,6 @@ upstream_ref: https://skills.sh/othmanadi/planning-with-files/pi-planning-with-f
 github_stars: 16661
 github_forks: 1525
 github_is_organization: false
-retrieved_at: 2026-07-21T09:22:46.588Z
-content_sha256: 03ab63b35434c8cf2375000762bb1f360db2e9b3a825810d0aee311bad5f49aa
+retrieved_at: 2026-07-22T09:22:20.899Z
+content_sha256: fef51835c7567d334c019f355a5794e9fe6124f49fcbe0e9e2694b7406ad2c37
 ---

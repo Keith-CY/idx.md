@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.217
+
+- Changed subagents to no longer spawn nested subagents by default (depth cap lowered from 5 to 1); set `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to allow deeper nesting
+- Added a cap on concurrently-running subagents (default 20, override with `CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS`)
+- Fixed Remote Control sessions not re-sending pending permission prompts to clients that connect after the prompt appeared
+
 ## 0.3.216
 
 - Added optional `skippedLinks` count to `rewindFiles` responses for paths the rewind safety guards refused to restore or delete

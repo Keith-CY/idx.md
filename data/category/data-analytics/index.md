@@ -25,7 +25,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:58.063Z
+retrieved_at: 2026-07-22T09:24:56.806Z
 content_sha256: 4ee816363d944c7a959e43384576d979a414f37fff7071c0bfb8935aae10143e
 ---
 |/data/knowledge-work-plugins-data-skills-analyze-skill|
@@ -50,7 +50,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:58.292Z
+retrieved_at: 2026-07-22T09:24:57.007Z
 content_sha256: 6f23faa0b266820a23096f76df9d83e6b67597af4fc8c3306b4eba7e9f409f99
 ---
 |/data/knowledge-work-plugins-data-skills-build-dashboard-skill|
@@ -75,7 +75,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:58.339Z
+retrieved_at: 2026-07-22T09:24:57.185Z
 content_sha256: 3b13a9c2c9d2b1d36f9c323d952d93f578216f2094bc80d4be6fd4ccbfe9b77d
 ---
 |/data/knowledge-work-plugins-data-skills-create-viz-skill|
@@ -112,7 +112,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:22:51.850Z
+retrieved_at: 2026-07-22T09:22:30.387Z
 content_sha256: 6d05dec52ac3667b551898b9eb943f5ee08141bc8d2fabb69a8e39bb9ce7c754
 ---
 |/data/knowledge-work-plugins-data-skills-data-context-extractor-skill|
@@ -137,7 +137,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:22:51.632Z
+retrieved_at: 2026-07-22T09:22:30.078Z
 content_sha256: 5811e8b3547cda6bc8af118aaf0d7589e8861cdc9facce6372dc78aea99ab87d
 ---
 |/data/knowledge-work-plugins-data-skills-data-visualization-skill|
@@ -162,7 +162,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:58.406Z
+retrieved_at: 2026-07-22T09:24:57.296Z
 content_sha256: af7590fa616360259da712b5ede5f79b817beb854c47a465f95774354988e8a2
 ---
 |/data/knowledge-work-plugins-data-skills-explore-data-skill|
@@ -187,7 +187,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:22:51.783Z
+retrieved_at: 2026-07-22T09:22:30.188Z
 content_sha256: dbd5a5e2d563d83ca6d4d033206f285f503296eabff4a35545cdb4cb5302bd9a
 ---
 |/data/knowledge-work-plugins-data-skills-sql-queries-skill|
@@ -212,7 +212,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:22:51.446Z
+retrieved_at: 2026-07-22T09:22:29.891Z
 content_sha256: 91a15cfc144efffcd622b09827362a73993a3ff30e3a78114801832477c9f8a0
 ---
 |/data/knowledge-work-plugins-data-skills-statistical-analysis-skill|
@@ -238,7 +238,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:58.113Z
+retrieved_at: 2026-07-22T09:24:56.913Z
 content_sha256: 1e424822043480375b80aef9416227b1c8083af749ca536568716265f79ca54b
 ---
 |/data/knowledge-work-plugins-data-skills-validate-data-skill|
@@ -264,7 +264,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/dat
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:57.912Z
+retrieved_at: 2026-07-22T09:24:56.616Z
 content_sha256: 4c7ef791db1f23504c457cc52de0d8855d26f176d5acf037260deb1b98e5e34e
 ---
 |/data/knowledge-work-plugins-data-skills-write-query-skill|

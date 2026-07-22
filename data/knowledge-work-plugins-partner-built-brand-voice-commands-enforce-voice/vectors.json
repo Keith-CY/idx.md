@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice",
-  "generated_at": "2026-07-21T09:23:18.693Z",
+  "generated_at": "2026-07-22T09:23:00.508Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-brand-voice-commands-enforce-voice#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/commands/enforce-voice.md",
-        "retrieved_at": "2026-07-21T09:23:18.693Z",
+        "retrieved_at": "2026-07-22T09:23:00.508Z",
         "content_sha256": "ab67acc3ab40ae221044595c35714aaaa52302045f57a26cc07d4b7f10310435"
       }
     }

@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.217
+
+  - Changed subagents to no longer spawn nested subagents by default (depth cap
+  lowered from 5 to 1); set `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to allow
+  deeper nesting
+
+  - Added a cap on concurrently-running subagents (default 20, override with
+  `CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS`)
+
+  - Fixed Remote Control sessions not re-sending pending permission prompts to
+  clients that connect after the prompt appeared
+
   ## 0.3.216
 
   - Added optional `skippedLinks` count to `rewindFiles` responses for paths the
@@ -18,18 +30,6 @@ summary: >-
   success result message for cross-host request-latency correlation
 
   ## 0.3.215
-
-  - Updated to parity with Claude Code v2.1.215
-
-  ## 0.3.214
-
-  - `set_permission_mode` now rejects unrecognized permission modes with an
-  error instead of silently adopting them; the `'manual'` alias is accepted at
-  every ingress
-
-  - Added optional `subkind: 'scheduled-trigger'` to the `task-notification`
-  member of `SDKMessageOrigin`, marking deliveries that are the fired prompt of
-  a user-configured scheduled task
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-21T09:23:13.622Z
-content_sha256: c2c3aa903529cb2b957bbfddad7a7339bf7c858026a17055c324c2c2e6440b96
+retrieved_at: 2026-07-22T09:22:51.359Z
+content_sha256: 099b9f52167b517d225686b17da1cbe98be52c9964e65a57ae9c911352ddac68
 ---
