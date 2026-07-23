@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.218
+
+- `SkillToolOutput` now reports `background: true` when a forked skill was dispatched as a detached background agent
+- Fixed the result event's `api_error_status` reporting null for rate-limit and overloaded errors delivered mid-stream; it now reports 429/529
+- Added `canonicalModel` and `provider` to each `modelUsage` entry in result messages so downstream billing can look up the correct rate table for `costUSD`
+
 ## 0.3.217
 
 - Changed subagents to no longer spawn nested subagents by default (depth cap lowered from 5 to 1); set `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to allow deeper nesting

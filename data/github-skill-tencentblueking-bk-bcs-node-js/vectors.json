@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-tencentblueking-bk-bcs-node-js",
-  "generated_at": "2026-07-22T09:26:30.586Z",
+  "generated_at": "2026-07-23T09:23:43.622Z",
   "records": [
     {
       "id": "skills/github-skill-tencentblueking-bk-bcs-node-js#head",
@@ -21,7 +21,7 @@
           "github-repo-bk-bcs"
         ],
         "source_url": "https://raw.githubusercontent.com/TencentBlueKing/bk-bcs/master/bcs-services/bcs-project-manager/.cursor/skills/nodejs-security-check/SKILL.md",
-        "retrieved_at": "2026-07-22T09:26:30.586Z",
+        "retrieved_at": "2026-07-23T09:23:43.622Z",
         "content_sha256": "311c55532125c7d080151847da11210f1e63997265d2d7a3103dc8c81da72a1d"
       }
     }
