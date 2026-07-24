@@ -16,8 +16,7 @@ summary: >-
 
   Dispatch a code reviewer subagent to catch issues before they cascade. The
   reviewer gets precisely crafted context for evaluation — never your session's
-  history. This keeps the reviewer focused on the work product, not your thought
-  process, and preserves your own context for continued work.
+  history.
 
   **Core principle:** Review early, review often.
 
@@ -35,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-co
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-23T09:19:17.031Z
-content_sha256: 1017ccdd5bc61fab67c654cf118cbdb520464b313073a0a6b9a6b9aa647a3ad6
+retrieved_at: 2026-07-24T09:14:24.497Z
+content_sha256: d71cc01ba56d2325cf8af5f7c11837819b63ecd57de0bfdb812f7f3ff7751df8
 ---

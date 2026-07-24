@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pproenca-dot-skills-zod",
-  "generated_at": "2026-07-23T09:22:25.309Z",
+  "generated_at": "2026-07-24T09:16:40.961Z",
   "records": [
     {
       "id": "skills/skills-sh-pproenca-dot-skills-zod#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/zod/references/_sections.md",
-        "retrieved_at": "2026-07-23T09:22:25.309Z",
+        "retrieved_at": "2026-07-24T09:16:40.961Z",
         "content_sha256": "f9518bb5e0e5dff531041fd82962a307495f034ec0259217ab4a47a1090236c2"
       }
     }

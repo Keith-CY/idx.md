@@ -22,9 +22,8 @@ summary: >-
   plan."
 
   **Note:** Tell your human partner that Superpowers works much better with
-  access to subagents. The quality of its work will be significantly higher if
-  run on a platform with subagent support (Claude Code, Codex CLI, Codex App,
-  and Copilot CLI all qualify; see the per-platform tool refs in
+  access to subagents (Claude Code, Codex CLI, Codex App, Copilot CLI, and
+  Gemini CLI all qualify; see the per-platform tool refs in
   `../using-superpowers/references/`). If subagents are available, use
   superpowers:subagent-driven-development instead of this skill.
 
@@ -38,6 +37,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-pla
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-23T09:19:16.785Z
-content_sha256: bbd8d28bb655a52817cc129ce49f9e46fa7c6303f72ed5de95bfe914ef8e0ce8
+retrieved_at: 2026-07-24T09:14:24.358Z
+content_sha256: c4c3d8b628c51114cd165fb8246fe02744cd8be180032328391252e653028d9b
 ---

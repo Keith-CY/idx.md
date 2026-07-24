@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-finishing-a-development-branch",
-  "generated_at": "2026-07-23T09:19:16.864Z",
+  "generated_at": "2026-07-24T09:14:24.410Z",
   "records": [
     {
       "id": "skills/obra-finishing-a-development-branch#head",
       "kind": "head",
       "path": "/data/obra-finishing-a-development-branch/HEAD.md",
-      "text": "title: obra-finishing-a-development-branch\nsummary: --- name: finishing-a-development-branch description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup --- # Finishing a Development Branch ## Overview Guide completion of development work by presenting clear options and handling chosen workflow. **Core principle:** Verify tests → Detect environment → Present options → Execute choice → Clean up. **Announce at start:** \"I'm using the finishing-a-development-branch skill to complete this work.\" ## The Process\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md",
+      "text": "title: obra-finishing-a-development-branch\nsummary: --- name: finishing-a-development-branch description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work --- # Finishing a Development Branch ## Overview **Core principle:** Verify tests → Detect environment → Present options → Execute choice → Clean up. **Announce at start:** \"I'm using the finishing-a-development-branch skill to complete this work.\" ## Step 1: Verify Tests Run the project's full test suite (`npm test` / `cargo test` / `pytest` / `go test ./...`).\ntype: skills\ntags: obra, source-obra-superpowers\nsource_url: https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md",
       "metadata": {
         "stable_id": "skills/obra-finishing-a-development-branch",
         "topic": "obra-finishing-a-development-branch",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md",
-        "retrieved_at": "2026-07-23T09:19:16.864Z",
-        "content_sha256": "e6d4a812de900d33c6eacfb40747f99427f25c304a7b7099120f9373b115a47f"
+        "retrieved_at": "2026-07-24T09:14:24.410Z",
+        "content_sha256": "d0ac8360ed9d59121776ef95c84bcb38e9747de0d7ae7e227dca81e437593b9b"
       }
     }
   ]

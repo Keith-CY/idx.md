@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-brand-voice-agents-conversation-analysis",
-  "generated_at": "2026-07-23T09:20:32.302Z",
+  "generated_at": "2026-07-24T09:15:13.772Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-brand-voice-agents-conversation-analysis#head",
@@ -19,7 +19,7 @@
           "plugin-component-brand-voice"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/conversation-analysis.md",
-        "retrieved_at": "2026-07-23T09:20:32.302Z",
+        "retrieved_at": "2026-07-24T09:15:13.772Z",
         "content_sha256": "56f4372a35e6f82c1c8c837d7738d26d25cdc62c97c385c098209e924666af5e"
       }
     }

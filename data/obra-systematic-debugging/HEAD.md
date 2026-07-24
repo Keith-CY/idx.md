@@ -16,15 +16,14 @@ summary: >-
 
   ## Overview
 
-  Random fixes waste time and create new bugs. Quick patches mask underlying
-  issues.
-
   **Core principle:** ALWAYS find root cause before attempting fixes. Symptom
   fixes are failure.
 
   **Violating the letter of this process is violating the spirit of debugging.**
 
   ## The Iron Law
+
+  ```
 tags:
   - obra
   - source-obra-superpowers
@@ -34,6 +33,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/systematic-de
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-23T09:19:17.197Z
-content_sha256: 3b20719eca4f0461cb51a195221320d775dcf03b6859271066a03a5132a6ce7a
+retrieved_at: 2026-07-24T09:14:24.602Z
+content_sha256: 808fc5717aa88ad65efff312b11c186294d3e6ee301afb584e2f86599b137787
 ---

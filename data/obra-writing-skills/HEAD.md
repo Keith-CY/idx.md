@@ -20,6 +20,11 @@ summary: >-
   documentation.**
 
   **Personal skills live in your runtime's skills directory**
+  (`~/.claude/skills/` on Claude Code) — see
+  [codex-tools.md](../using-superpowers/references/codex-tools.md) or
+  [gemini-tools.md](../using-superpowers/references/gemini-tools.md) for the
+  path on those runtimes. Codex, Copilot CLI, and Gemini CLI all also recognize
+  `~/.agents/skills/` as a cross-runtime alias.
 
   You write test cases (pressure scenarios with subagents), watch them fail
   (baseline behavior), write the skill (documentation), watch tests pass (agents
@@ -36,6 +41,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-skill
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-23T09:19:17.783Z
-content_sha256: 6b8d08fe863318be8480ae8428e169640309fa9208df84bb0510012764454146
+retrieved_at: 2026-07-24T09:14:24.886Z
+content_sha256: d34db5c8aed6a4e0440132bd0613aace70a693ec7819d5637ad77481d8e10d1b
 ---

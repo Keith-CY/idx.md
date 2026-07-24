@@ -18,13 +18,13 @@ summary: >-
 
   ## Overview
 
-  Claiming work is complete without verification is dishonesty, not efficiency.
-
   **Core principle:** Evidence before claims, always.
 
   **Violating the letter of this rule is violating the spirit of this rule.**
 
   ## The Iron Law
+
+  ```
 tags:
   - obra
   - source-obra-superpowers
@@ -34,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/verification-
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-23T09:19:17.523Z
-content_sha256: ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c
+retrieved_at: 2026-07-24T09:14:24.789Z
+content_sha256: 2befe7fc55bcadaa3d97dd9e8efeb633d2561c0ebe74c5a8b17c4d9e7e4520b3
 ---
