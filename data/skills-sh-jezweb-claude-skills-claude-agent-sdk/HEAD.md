@@ -5,31 +5,30 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.218
+  ## 0.3.220
 
-  - `SkillToolOutput` now reports `background: true` when a forked skill was
-  dispatched as a detached background agent
+  - Updated to parity with Claude Code v2.1.220
 
-  - Fixed the result event's `api_error_status` reporting null for rate-limit
-  and overloaded errors delivered mid-stream; it now reports 429/529
+  ## 0.3.219
 
-  - Added `canonicalModel` and `provider` to each `modelUsage` entry in result
-  messages so downstream billing can look up the correct rate table for
-  `costUSD`
+  - Added opt-in `cancel_queued` to the interrupt control request (capability
+  `interrupt_cancel_queued_v1`): cancels queued and pending-dispatch messages
+  alongside the abort
 
-  ## 0.3.217
+  - Added `fast_mode_disabled_reason` to result and init messages so SDK hosts
+  can explain why fast mode is off
 
-  - Changed subagents to no longer spawn nested subagents by default (depth cap
-  lowered from 5 to 1); set `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to allow
-  deeper nesting
+  - Added `DirectoryAdded` lifecycle hook event to the control protocol, fired
+  when a new working directory is registered mid-session
 
-  - Added a cap on concurrently-running subagents (default 20, override with
-  `CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS`)
+  - Fixed the initialize response reporting `fast_mode_state` from the
+  spawn-time model after a model switch
 
-  - Fixed Remote Control sessions not re-sending pending permission prompts to
-  clients that connect after the prompt appeared
+  - Added `sandbox.network.strictAllowlist` to SDK settings types for
+  deterministically denying non-allowlisted hosts in sandboxed commands
 
-  ## 0.3.216
+  - Added `workflowSizeGuideline` to SDK settings types for setting the advisory
+  dynamic-workflow size guideline
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:15:07.062Z
-content_sha256: e779c83a557f6ef95b5025bf089135585fb463dcacadd6d35eec5753fb8b27fc
+retrieved_at: 2026-07-25T08:56:49.390Z
+content_sha256: d1c387b8e19e09d2402fc09f87f6d0ceef13aac0cc6a75accb5e1746a0bb5a6c
 ---

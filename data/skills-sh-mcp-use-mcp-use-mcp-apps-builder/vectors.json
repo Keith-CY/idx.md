@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-mcp-use-mcp-use-mcp-apps-builder",
-  "generated_at": "2026-07-24T09:15:15.263Z",
+  "generated_at": "2026-07-25T08:57:16.472Z",
   "records": [
     {
       "id": "skills/skills-sh-mcp-use-mcp-use-mcp-apps-builder#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/mcp-use/mcp-use/HEAD/skills/mcp-apps-builder/references/foundations/quickstart.md",
-        "retrieved_at": "2026-07-24T09:15:15.263Z",
+        "retrieved_at": "2026-07-25T08:57:16.472Z",
         "content_sha256": "80675d7718f7f2586eb9074e1411ed53b59b27d3559da95114c149cd3fb7f524"
       }
     }

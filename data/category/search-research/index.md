@@ -29,7 +29,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:58.391Z
+retrieved_at: 2026-07-25T08:56:20.693Z
 content_sha256: 6167bf1731e568b63110a8f27e987cfe386f44e64cd2d78d9080d5d7628a79c5
 ---
 |/data/knowledge-work-plugins-bio-research-skills-instrument-data-to-allotrope-skill|
@@ -55,7 +55,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:58.430Z
+retrieved_at: 2026-07-25T08:56:20.799Z
 content_sha256: f30017df5d499427a701ec6cedfc5c9948ca3bd04ee1a2b6a585a29cd93ad0d7
 ---
 |/data/knowledge-work-plugins-bio-research-skills-nextflow-development-skill|
@@ -84,7 +84,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:58.599Z
+retrieved_at: 2026-07-25T08:56:21.122Z
 content_sha256: 9ec99e3e5b2f4cd7474ef2bb8a1b10ee1f97dbe688c7723c7ec0b18deb8ff0f4
 ---
 |/data/knowledge-work-plugins-bio-research-skills-scientific-problem-selection-skill|
@@ -115,7 +115,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:58.486Z
+retrieved_at: 2026-07-25T08:56:20.907Z
 content_sha256: 03a69b32b77db86afe5f87b75db2ae4c92b03b6e9e16e2c5e66cde2d4ad9c5bc
 ---
 |/data/knowledge-work-plugins-bio-research-skills-scvi-tools-skill|
@@ -141,7 +141,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:58.540Z
+retrieved_at: 2026-07-25T08:56:21.018Z
 content_sha256: 49cb573916deec6fcf6cc2cb1b573469cbc8c34b84326597ce2db22d0202393f
 ---
 |/data/knowledge-work-plugins-bio-research-skills-single-cell-rna-qc-skill|
@@ -166,7 +166,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/bio
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:16:18.151Z
+retrieved_at: 2026-07-25T09:01:45.980Z
 content_sha256: 6016fe5c28952feef14ac851134b35b56a1c86614d9163d21fb82205d7e7694b
 ---
 |/data/knowledge-work-plugins-bio-research-skills-start-skill|
@@ -191,7 +191,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:16:32.055Z
+retrieved_at: 2026-07-25T09:02:01.183Z
 content_sha256: d711d49b898eb303b74488dce75308e8737786d87210f1dca13ec325bc7f5737
 ---
 |/data/knowledge-work-plugins-enterprise-search-skills-digest-skill|
@@ -215,7 +215,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:59.381Z
+retrieved_at: 2026-07-25T08:56:22.616Z
 content_sha256: 8dc66c66ef0004010bbf2d569251163e90a6675b982e0cb99ef26b4dd1c5a0f6
 ---
 |/data/knowledge-work-plugins-enterprise-search-skills-knowledge-synthesis-skill|
@@ -240,7 +240,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:16:31.903Z
+retrieved_at: 2026-07-25T09:02:00.899Z
 content_sha256: 5330512ac1f71c4526a7cb8a072902053220a924db052fbace20d584d7cf1d52
 ---
 |/data/knowledge-work-plugins-enterprise-search-skills-search-skill|
@@ -265,7 +265,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:59.420Z
+retrieved_at: 2026-07-25T08:56:22.725Z
 content_sha256: 71d5ba2d219a72d696e079885cba2fb5455ba5da6b1404491f8b945bdd8694c6
 ---
 |/data/knowledge-work-plugins-enterprise-search-skills-search-strategy-skill|
@@ -289,7 +289,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/ent
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-24T09:14:59.329Z
+retrieved_at: 2026-07-25T08:56:22.509Z
 content_sha256: 221d8acdc5c686033bb073d2bba83841892f6b8be0888c0267247fd1dd34461d
 ---
 |/data/knowledge-work-plugins-enterprise-search-skills-source-management-skill|
