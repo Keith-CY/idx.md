@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-expression-syntax
 github_stars: 3070
 github_forks: 546
 github_is_organization: false
-retrieved_at: 2026-07-25T09:02:15.491Z
+retrieved_at: 2026-07-27T10:35:19.097Z
 content_sha256: 851270e95a74cb1c667594d44f46ee7a955f1ac92faea378a63ef88e2187c5b2
 ---

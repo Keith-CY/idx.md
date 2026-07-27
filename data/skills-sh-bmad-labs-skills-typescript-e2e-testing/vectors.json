@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-bmad-labs-skills-typescript-e2e-testing",
-  "generated_at": "2026-07-25T09:02:03.383Z",
+  "generated_at": "2026-07-27T10:35:15.012Z",
   "records": [
     {
       "id": "skills/skills-sh-bmad-labs-skills-typescript-e2e-testing#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/bmad-labs/skills/HEAD/skills/typescript-e2e-testing/workflows/setup/workflow.md",
-        "retrieved_at": "2026-07-25T09:02:03.383Z",
+        "retrieved_at": "2026-07-27T10:35:15.012Z",
         "content_sha256": "49277713b85b553bed78a8976f06fbbdd55d6aa675ce169ea3aa541b9ceb38f5"
       }
     }
