@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-dlt-hub-dlt-review-pr",
-  "generated_at": "2026-07-27T10:32:44.983Z",
+  "generated_at": "2026-07-28T09:30:30.384Z",
   "records": [
     {
       "id": "skills/github-skill-dlt-hub-dlt-review-pr#head",
@@ -21,7 +21,7 @@
           "github-repo-dlt"
         ],
         "source_url": "https://raw.githubusercontent.com/dlt-hub/dlt/devel/.claude/skills/review-pr/SKILL.md",
-        "retrieved_at": "2026-07-27T10:32:44.983Z",
+        "retrieved_at": "2026-07-28T09:30:30.384Z",
         "content_sha256": "9eb2198eded473c8a2b9be4ea034ab10066e2509847c22ee18709ccc4dec0827"
       }
     }

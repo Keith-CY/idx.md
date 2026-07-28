@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks",
-  "generated_at": "2026-07-27T10:32:44.708Z",
+  "generated_at": "2026-07-28T09:30:30.203Z",
   "records": [
     {
       "id": "skills/github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks#head",
@@ -21,7 +21,7 @@
           "github-repo-pi_agent_rust"
         ],
         "source_url": "https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md",
-        "retrieved_at": "2026-07-27T10:32:44.708Z",
+        "retrieved_at": "2026-07-28T09:30:30.203Z",
         "content_sha256": "3f2a4dcade9871009e99d23342a686cd1b5079e27feb1be20d32a0fb7932bf89"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-competitive-brief-skill",
-  "generated_at": "2026-07-27T10:35:10.821Z",
+  "generated_at": "2026-07-28T09:31:39.105Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-competitive-brief-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/competitive-brief/SKILL.md",
-        "retrieved_at": "2026-07-27T10:35:10.821Z",
+        "retrieved_at": "2026-07-28T09:31:39.105Z",
         "content_sha256": "c1e5442facbc3206ac6a77392bef009fe9aff4ba7c2678e2f4118be2f6be82b3"
       }
     }

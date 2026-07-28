@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-luongnv89-claude-howto-brand-voice-consistency",
-  "generated_at": "2026-07-27T10:32:47.435Z",
+  "generated_at": "2026-07-28T09:30:31.564Z",
   "records": [
     {
       "id": "skills/github-skill-luongnv89-claude-howto-brand-voice-consistency#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-howto"
         ],
         "source_url": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/03-skills/brand-voice/SKILL.md",
-        "retrieved_at": "2026-07-27T10:32:47.435Z",
+        "retrieved_at": "2026-07-28T09:30:31.564Z",
         "content_sha256": "47a9966bd5f65ec55e99a8595f068ca8e87b51e78647e9bc86f9f9b7005585b0"
       }
     }

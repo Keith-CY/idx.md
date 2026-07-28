@@ -7,9 +7,9 @@ summary: >-
 
   <!-- ms.topic: reference -->
 
-  <!-- description: Complete command reference for the Windows App Development
-  CLI (winapp CLI) including setup, packaging, identity, certificates, signing,
-  and utility commands. -->
+  <!-- description: Complete command reference for the winapp CLI covering
+  setup, packaging, identity, certificates, signing, and other utility commands.
+  -->
 
   # CLI Documentation and Usage
 
@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
 github_stars: 932
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-07-27T10:32:34.915Z
-content_sha256: 080639b1f6627e460e946ca79c1911df89b5ec7f5990ffa1ad5b9a83a128381c
+retrieved_at: 2026-07-28T09:30:24.484Z
+content_sha256: 7addb6970894816363e129f86efa50452afe507a992cd27c0caa7608eab3c769
 ---

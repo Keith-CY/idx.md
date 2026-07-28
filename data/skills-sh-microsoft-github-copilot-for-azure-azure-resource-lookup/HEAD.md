@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/microsoft/github-copilot-for-azure/azure-resourc
 github_stars: 160
 github_forks: 103
 github_is_organization: true
-retrieved_at: 2026-07-27T10:32:25.699Z
+retrieved_at: 2026-07-28T09:30:19.351Z
 content_sha256: 478e6a6d0ce9c515523548c2e4b44b71baedd3bd8c27e2af7f3bd3aa804060ea
 ---
