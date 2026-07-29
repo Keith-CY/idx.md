@@ -1,6 +1,6 @@
 ---
 name: letzai-api
-description: "Generate AI images and videos via LetzAI API. Supports Nano Banana Pro, Flux2 Max, SeeDream for images; VEO, Kling for videos. Use custom trained models with @modelname. Includes context editing and upscaling. Use for content creation apps and automation."
+description: "Generate AI images and videos via the LetzAI API. Images with Nano Banana Pro, Seedream 5, Flux 2, GPT Image 2; videos with Veo 3.1, Kling V3, Seedance 2.0. Includes context editing, upscaling, asset uploads, and custom @model training. Use for content creation apps and automation."
 license: MIT
 dependencies:
   - node-fetch (npm)
@@ -11,288 +11,369 @@ dependencies:
 
 ## Overview
 
-This skill enables Claude to help users integrate with the LetzAI API for AI-powered image and video generation, editing, and upscaling. Users can also leverage custom-trained AI models (persons, objects, styles) via the @modelname syntax.
+Helps you integrate the LetzAI public API for AI image and video generation, editing,
+upscaling, asset uploads, and custom model (LoRA) training. Custom-trained models for
+persons, objects and styles are referenced inside prompts with `@modelname`.
 
 ## Authentication
 
 - **Base URL:** `https://api.letz.ai`
-- **Authentication:** Bearer token in Authorization header
-- **Get API Key:** [letz.ai/subscription](https://letz.ai/subscription)
-- **API Documentation:** [api.letz.ai/doc](https://api.letz.ai/doc)
-
-### Setting Up Authentication
+- **Auth:** `Authorization: Bearer YOUR_API_KEY`
+- **Get an API key:** [letz.ai/subscription](https://letz.ai/subscription)
+- **Swagger (source of truth):** [api.letz.ai/doc](https://api.letz.ai/doc) — machine-readable at `/doc-json` and `/doc-yaml`
 
 ```javascript
 const headers = {
   'Content-Type': 'application/json',
-  'Authorization': 'Bearer YOUR_API_KEY'
+  Authorization: `Bearer ${process.env.LETZAI_API_KEY}`,
 };
 ```
 
 ```python
 headers = {
-    'Content-Type': 'application/json',
-    'Authorization': 'Bearer YOUR_API_KEY'
+    "Content-Type": "application/json",
+    "Authorization": f"Bearer {os.environ['LETZAI_API_KEY']}",
 }
 ```
+
+> **Do not confuse the public API with the private one.** `https://api.letz.ai` is the
+> public developer API described here. `https://private-api.letz.ai` powers the LetzAI web
+> app and has different route names (`/upscales`, `/image_completions`, `/video-edits`).
+> Those routes 404 on the public API.
+
+### Unknown-field rejection
+
+The API validates request bodies strictly. Sending a field that is not in the schema
+returns `400`. In particular there is **no** `negativePrompt`, `seed` or `aspectRatio` on
+`POST /images` — aspect ratio is expressed via `width`/`height`.
 
 ## Core Workflows
 
-### 1. Image Generation
+### 1. Image Generation — `POST /images`
 
-**Endpoint:** `POST /images`
+| Parameter | Type | Default | Notes |
+|---|---|---|---|
+| `prompt` | string | — | **Required.** May contain `@modelname` tags. |
+| `baseModel` | string | account default | See model table below. |
+| `mode` | string | model default | Resolution tier — allowed values differ per model. |
+| `width` | int | `1600` | 480–2160 |
+| `height` | int | `1600` | 480–2160 |
+| `quality` | int | `2` | 1–6 |
+| `creativity` | int | `2` | 1–6 |
+| `hasWatermark` | bool | `true` | |
+| `systemVersion` | int | account default | `2` or `3` |
+| `hideFromUserProfile` | bool | `false` | |
+| `webhookUrl` | string | — | POSTed when the job finishes. |
+| `organizationId` | UUID | — | Bill credits to an org you belong to. |
 
-**Required Parameters:**
-- `prompt` (string): Text description of the desired image. Can include `@modelname` to use trained models.
+#### Image models
 
-**Optional Parameters:**
-- `baseModel`: AI model to use
-  - `"gemini-3-pro-image-preview"` - Nano Banana Pro (recommended)
-  - `"flux2-max"` - Flux2 Max
-  - `"seedream-4-5-251128"` - SeeDream 4.5
-- `mode`: Resolution mode (varies by model)
-  - Nano Banana Pro: `"default"`, `"2k"`, `"4k"`
-  - Flux2 Max: `"1k"`, `"hd"`
-  - SeeDream: `"2k"`, `"4k"`
-- `width` / `height`: Image dimensions (520-2160px)
+`mode` is the **resolution tier**, and the accepted values are model-specific.
 
-**Workflow:**
-1. POST to `/images` with parameters
-2. Receive `id` in response
-3. Poll `GET /images/{id}` every 3 seconds
-4. When `status === "ready"`, access `imageVersions.original`
+| Model | `baseModel` | `mode` values | Credits (generate) | Credits (edit) |
+|---|---|---|---|---|
+| Nano Banana Pro (Google) | `gemini-3-pro-image` | `default` (1K) · `2k` (HD) · `4k` | 80 / 160 / 240 | 80 / 160 / 240 |
+| Nano Banana 2 (Google) | `nbf-inferencesh` | `default` (1K) · `2k` (HD) · `4k` | 40 / 80 / 160 | 50 / 100 / 150 |
+| Nano Banana 2 Lite (Google) | `nano-banana-2-lite` | `default` (1K) | 20 | 25 |
+| Seedream 5 Pro (ByteDance) | `seedream-5-0-pro` | `2k` (HD) · `4k` | 80 / 160 | 80 / 160 |
+| Seedream 4.5 (ByteDance) | `seedream-4-5-251128` | `2k` (HD) · `4k` | 80 / 160 | 80 / 160 |
+| Flux 2 (Black Forest Labs) | `flux2` | `1k` · `hd` | 60 / 120 | 60 / 120 |
+| GPT Image 2 (OpenAI) | `gpt-image-2` | `1k` · `hd` · `4k` | 160 / 240 / 480 | 160 / 240 / 480 |
+| WAN 2.7 Image Pro (Alibaba) | `wan-2-7-image-pro` | `1k` · `2k` | 10 | 10 |
 
-For code examples, see [examples/image_generation.js](examples/image_generation.js)
+Aliases are accepted, e.g. `gemini-3-pro-image-preview` still resolves to Nano Banana Pro.
+The live catalogue with pricing lives at [letz.ai/docs/models.json](https://letz.ai/docs/models.json).
 
-### 2. Video Generation
+**Workflow**
+1. `POST /images`
+2. Read `id` from the response
+3. Poll `GET /images/{id}` every 3 s
+4. On `status === "ready"`, read `imageVersions.original`
 
-**Endpoint:** `POST /videos`
+See [examples/image_generation.js](examples/image_generation.js).
 
-**Required Parameters:**
-- `prompt` (string): Text description of the desired video
-- Source image (one of):
-  - `imageUrl`: URL of source image
-  - `originalImageCompletionId`: ID from previous image generation
+### 2. Video Generation — `POST /videos`
 
-**Optional Parameters:**
-- `settings.mode`: Video model
-  - `"default"` - Default model
-  - `"veo31"` - VEO 3.1
-  - `"kling26"` - Kling 2.6
-  - `"wan25"` - Wan 2.5
-- `settings.duration`: Video length in seconds (2-12 depending on model)
+| Parameter | Type | Notes |
+|---|---|---|
+| `prompt` | string | **Required.** |
+| `originalImageCompletionId` | UUID | Animate a previously generated LetzAI image. |
+| `imageUrl` | string | Animate a public image URL. |
+| `imageUrls` | string[] | Multi-frame: `[0]` = first frame, `[1]` = last frame. |
+| `prompts` | object[] | Multi-shot storyboards (`video-kling3`): `[{ prompt, duration }]`. |
+| `baseModel` | string | Optional; `settings.mode` is the usual selector. |
+| `width` / `height` / `resolution` | number | Optional output sizing. |
+| `settings` | object | Model + duration + audio (below). |
+| `webhookUrl` | string | |
+| `hidePrompt` | bool | |
+| `organizationId` | UUID | |
 
-**Workflow:**
-1. Ensure you have a source image (generate one first if needed)
-2. POST to `/videos` with parameters
-3. Receive `id` in response
-4. Poll `GET /videos/{id}` every 2-3 seconds
-5. When `status === "ready"`, access `videoPaths`
+**Image input is optional** — omit all of `originalImageCompletionId` / `imageUrl` /
+`imageUrls` for pure text-to-video.
 
-For code examples, see [examples/video_generation.py](examples/video_generation.py)
+#### `settings`
 
-### 3. Image Editing (Context Editing)
+| Field | Notes |
+|---|---|
+| `mode` | Video model key — see table. |
+| `duration` | Seconds, clamped to the model's allowed values. |
+| `withSound` | Enable native audio where supported. |
+| `highQuality` | Higher-resolution tier; usually doubles the price. |
+| `resolution` | `"720p"`, `"1080p"`, `"4k"` for per-second-priced models. |
 
-**Endpoint:** `POST /image-edits`
+#### Video models
 
-**Required Parameters:**
-- `mode`: Edit mode
-  - `"context"` - AI editing (primary mode)
-  - `"skin"` - Skin fix
-- `prompt`: Edit instruction (e.g., "change background to beach")
-- Source image (one of):
-  - `imageUrl`: URL of source image
-  - `inputImageUrls[]`: Array of source image URLs (max 9)
-  - `originalImageCompletionId`: ID of previously generated LetzAI image
+Use the **`video-` prefixed key** as `settings.mode`.
 
-**Optional Parameters:**
-- `settings.model`: `"gemini-3-pro-image-preview"`, `"flux2-max"`, `"seedream-4-5-251128"`
-- `settings.resolution`: `"2k"` (HD) or `"4k"` (Ultra HD)
-- `settings.aspect_ratio`: `"1:1"`, `"16:9"`, `"9:16"`, `"4:3"`, `"3:4"`, `"21:9"`, `"9:21"`
-- `baseModel`: Alternative to settings.model
-- `webhookUrl`: Optional callback URL
-- `organizationId`: Optional org ID for billing
+| Model | `settings.mode` | Duration | Credits |
+|---|---|---|---|
+| Google Veo 3.1 | `video-veo31` | 8 s (fixed) | 1500 · ×2 with audio · ×2 at 1080p |
+| Kling V3 | `video-kling3` | 3–15 s | 150 · 300 with audio |
+| Kling V2.6 | `video-kling26` | 5 or 10 s | 150 · ×2 with audio · ×2 at 1080p |
+| WAN 2.5 | `video-wan25` | 5 or 10 s | 110 · ×2 at 1080p (image-to-video only) |
+| Seedance 2.0 | `video-seedance2` | 4–15 s | per second: 105 @480p · 210 @720p · 500 @1080p · 1000 @4K (audio always on) |
+| Seedance 2.0 Enterprise | `video-seedance2-enterprise` | 4–15 s | same as Seedance 2.0; requires `organizationId` | only available to Enterprise Customers with an active organization
+| Gemini Omni Flash | `video-gemini-omni` | 3–10 s | 100 per second (audio always on) |
 
-**Workflow:**
-1. POST to `/image-edits` with parameters
-2. Receive `id` in response
-3. Poll `GET /image-edits/{id}` every 3 seconds
-4. When `status === "ready"`, access `generatedImageCompletion.imageVersions.original`
+**Workflow**
+1. `POST /videos`
+2. Poll `GET /videos/{id}` every 2–3 s
+3. On `status === "ready"`, read `videoVersions.original`
 
-**Note:** Inpainting (mode: "in") and Outpainting (mode: "out") are deprecated - use Context Editing instead.
+See [examples/video_generation.py](examples/video_generation.py).
 
-### 4. Image Upscaling
+### 3. Image Editing — `POST /image-edits`
 
-**Endpoint:** `POST /upscales`
+| Parameter | Type | Notes |
+|---|---|---|
+| `mode` | string | **Required.** `context` (AI editing) or `skin` (skin fix). |
+| `prompt` | string | Edit instruction. May contain `@modelname` tags. |
+| `imageUrl` | string | Single source image URL. |
+| `inputImageUrls` | string[] | Multi-reference source images (up to 9 in practice). |
+| `originalImageCompletionId` | UUID | Edit a previously generated LetzAI image. |
+| `originalImageCompletionIds` | UUID[] | Several LetzAI images as sources. |
+| `baseModel` | string | Same identifiers as image generation. |
+| `settings` | object | `{ resolution, aspect_ratio, model }` |
+| `imageCompletionsCount` | int | Variations to generate (1–5, default 1). Not used by `skin`. |
+| `mask` | string | Base64 mask, legacy inpainting only. |
+| `width` / `height` | number | Target dimensions. |
+| `webhookUrl`, `organizationId`, `hidePrompt` | | |
 
-**Required Parameters:**
-- Source image (one of):
-  - `imageUrl`: URL of source image
-  - `imageCompletionId`: ID from previous image generation
+`settings`:
+- `resolution`: `"2k"` (HD) or `"4k"` (Ultra HD)
+- `aspect_ratio`: `"1:1"`, `"16:9"`, `"9:16"`, `"4:3"`, `"3:4"`, `"21:9"`, `"9:21"`
+- `model`: same identifiers as `baseModel`
 
-**Optional Parameters:**
-- `strength`: Upscale factor (1-3)
+Provide at least one source: `imageUrl`, `inputImageUrls`, `originalImageCompletionId`
+or `originalImageCompletionIds`.
 
-**Workflow:**
-1. POST to `/upscales` with parameters
-2. Receive `id` in response
-3. Poll `GET /upscales/{id}` every 3 seconds
-4. When `status === "ready"`, access upscaled image
+**Prefer the top-level `baseModel`.** Server-side queue routing reads `baseModel`;
+`settings.model` is forwarded to the worker. Setting both to the same value is safest.
 
-### 5. Custom AI Models (Trained Models)
+**Workflow**
+1. `POST /image-edits`
+2. Poll `GET /image-edits/{id}` every 3 s
+3. On `status === "ready"`, read `generatedImageCompletion.imageVersions.original`
 
-LetzAI users can train custom AI models on persons, objects, or styles via the web interface. These trained models can be used in prompts via the `@modelname` syntax.
+`mode: "in"` (inpainting) and `mode: "out"` (outpainting) are deprecated — use `context`.
 
-**List Models Endpoint:** `GET /models`
+### 4. Upscaling — `POST /upscale`
 
-**Query Parameters:**
-- `page`: int (default: 1)
-- `limit`: int (default: 10)
-- `sortBy`: `"createdAt"` | `"usages"`
-- `sortOrder`: `"ASC"` | `"DESC"`
-- `class`: `"person"` | `"object"` | `"style"`
+> The public route is **`/upscale`** (singular). `/upscales` is the private web-app route
+> and returns 404 here.
 
-**Get Model Details:** `GET /models/{id}`
+| Parameter | Type | Default | Notes |
+|---|---|---|---|
+| `imageId` | UUID | — | A LetzAI image completion ID. |
+| `imageUrl` | string | — | Public image URL. Use instead of `imageId`. To upscale your own file, upload it via `/user-assets` and pass the returned `imageUrl`. |
+| `mode` | string | `default` | Upscaler model — see table. |
+| `size` | number | — | 2–12; output tier — see table. |
+| `strength` | number | `1` | 1–5. |
+| `prompt` | string | — | Optional guidance for creative upscalers. |
+| `webhookUrl`, `organizationId` | | | |
 
-**Model Classes:**
-- `person`: Trained on photos of a specific person
-- `object`: Trained on product/object images
-- `style`: Trained on artistic style examples
+| `mode` | Upscaler | `size` → output | Credits |
+|---|---|---|---|
+| `nano-banana-pro` | Google Gemini 3 Pro | 4 → 1K · 8 → 2K · 12 → 4K | 80 / 160 / 240 |
+| `nano-banana-2` | Google Gemini 3.1 Flash | 4 → 1K · 8 → 2K · 12 → 4K | 50 / 100 / 150 |
+| `gpt-image-2` | OpenAI GPT Image 2 | 4 → 1K · 8 → 2K · 12 → 4K | 160 / 240 / 480 |
+| `pruna` | Pruna P-Image-Upscale | 4 → 1 MP · 8 → 4 MP · 12 → 16 MP | 20 / 40 / 80 |
+| `default` | LetzAI in-house | — | 20 |
 
-**Using Models in Prompts:**
-Tag models with `@modelname` syntax:
-- `@john_doe on the beach at sunset` - Use a person model
-- `A product photo featuring @my_product` - Use an object model
-- `Portrait in @vintage_style aesthetic` - Use a style model
+**Workflow**
+1. `POST /upscale`
+2. Poll `GET /upscale/{id}` every 3 s
+3. On `status === "ready"`, read `imageVersions.original`
 
-**Note:** Model training is done via the LetzAI web interface (letz.ai), not via API.
+### 5. Uploading Your Own Files — `POST /user-assets`
+
+Two-step pre-signed S3 upload. Use this to get a public URL for a local file before
+feeding it to `/image-edits`, `/videos` or `/upscale`.
+
+1. `POST /user-assets` with `{ extension }` (plus optional `originalFilename`,
+   `mimeType`, `fileSize`, `caption`, `metadata`, `numberOfImages`).
+2. `PUT` the raw file bytes to the returned `uploadUrl` with the matching `Content-Type`
+   header. **No `Authorization` header** — the URL is already signed.
+3. The file is then reachable at `imageUrl` from the step-1 response.
+
+Allowed `extension` values: `jpg`, `jpeg`, `png`, `gif`, `webp`, `mp4`, `webm`, `mov`,
+`avi`, `mp3`, `wav`, `ogg`, `m4a`, `aac`, `flac`.
+
+`POST /user-images` is the older image/video-only variant of the same flow; prefer
+`/user-assets`, which also accepts audio.
+
+See [examples/uploads_and_training.md](examples/uploads_and_training.md).
+
+### 6. Custom AI Models (`@modelname`)
+
+Trained models for persons, objects and styles. Tag them inside any image or edit
+prompt: `@john_doe on the beach at sunset`.
+
+**List:** `GET /models` — query params `page`, `limit`, `sortBy`, `sortOrder`, `search`,
+`name`, `userId`, `username`, `class` (`person` | `object` | `style`), `type`,
+`description`, `privacy` (`public` | `private` | `licensed`), `systemVersion`,
+`isActive`, `status`. Pagination is reported through the `X-Total-Count`,
+`X-Current-Page`, `X-Per-Page` and `X-Total-Pages` response headers.
+
+**Get one:** `GET /models/{id}`
+
+**Train a new model:** `POST /models` — this *is* available over the API (Enterprise
+plans).
+
+| Parameter | Notes |
+|---|---|
+| `name` | Required. Alphanumeric, `_` and `.`, max 50 chars. Becomes the `@tag`. |
+| `class` | Required. `person` \| `style` \| `object` |
+| `privacy` | `public` \| `private` \| `licensed` |
+| `type` | Optional; auto-generated when omitted. |
+| `trainingDataUrls` | 1–50 public image URLs. Upload via `/user-assets` first. |
+| `trainingMode` | e.g. `default`, `slow` |
+| `settings` | e.g. `["NO_ADULT_CONTENT", "NO_VIOLENCE"]` |
+| `description`, `website`, `webhookUrl`, `organizationId` | Optional. |
+
+Training starts automatically. Poll `GET /models/{id}` until `status` is `available`.
+
+**Manage:** `PATCH /models/{id}`, `DELETE /models/{id}`,
+`PUT /models/{id}/thumbnail`.
 
 ## Workflow Decision Tree
 
-### User wants to create an image:
-1. Determine appropriate model based on quality/cost needs
-2. Use `POST /images` with appropriate `baseModel`
-3. If using a trained model, include `@modelname` in the prompt
-4. Poll `GET /images/{id}` every 3s until ready
-5. Return `imageVersions.original` URL
+**Create an image** → pick `baseModel` + `mode` from the model table → `POST /images` →
+poll `GET /images/{id}` → `imageVersions.original`.
 
-### User wants to use a custom trained model:
-1. Use `GET /models` to list available trained models (filter by class if needed)
-2. Include `@modelname` in the prompt when generating images
-3. Generate image normally with `POST /images`
+**Use a trained model** → `GET /models?class=person` to find the name → put
+`@name` in the prompt → generate normally.
 
-### User wants to edit an existing image:
-1. Obtain source image URL, inputImageUrls array, or originalImageCompletionId
-2. Use `POST /image-edits` with `mode="context"`
-3. Include settings for resolution, aspect_ratio, and model as needed
-4. Poll `GET /image-edits/{id}` every 3s until ready
-5. Return `generatedImageCompletion.imageVersions.original`
+**Edit an image** → get a source (URL, `/user-assets` upload, or a LetzAI completion id)
+→ `POST /image-edits` with `mode: "context"` → poll → `generatedImageCompletion.imageVersions.original`.
 
-### User wants to create a video:
-1. Ensure they have a source image (URL or imageCompletionId)
-2. If no source image, generate one first using `/images`
-3. Use `POST /videos` with desired settings
-4. Poll `GET /videos/{id}` every 2-3s until ready
-5. Return video URL from `videoPaths`
+**Create a video** → optional source image → `POST /videos` with
+`settings.mode` = a `video-*` key → poll → `videoVersions.original`.
 
-### User wants to upscale an image:
-1. Obtain source image URL or imageCompletionId
-2. Use `POST /upscales` with desired `strength`
-3. Poll `GET /upscales/{id}` every 3s until ready
-4. Return upscaled image URL
+**Upscale** → `POST /upscale` with `imageId` or `imageUrl` → poll → `imageVersions.original`.
 
-## Status Polling Pattern
+**Train a model** → upload images via `/user-assets` → `POST /models` with
+`trainingDataUrls` → poll `GET /models/{id}` until `available`.
 
-LetzAI uses asynchronous generation. After any POST request, you must poll the corresponding GET endpoint until the job completes.
+## Status Polling
 
-### Status Values
-| Status | Meaning |
-|--------|---------|
-| `new` | Job created, queued for processing |
-| `in progress` / `generating` | Currently processing |
-| `ready` | Complete - fetch URLs from response |
-| `failed` | Error occurred - check error message |
+Every generation endpoint is asynchronous: the POST returns an `id`, and you poll the
+matching GET until a terminal status.
 
-### Polling Intervals
-- **Images:** Every 3 seconds
-- **Videos:** Every 2-3 seconds
-- **Image Edits:** Every 3 seconds
-- **Upscales:** Every 3 seconds
+| Resource | Statuses |
+|---|---|
+| Images | `new` · `generating` · `ready` · `failed` · `interrupted` · `not_allowed` · `hidden` |
+| Videos | `new` · `generating` · `ready` · `saved` · `failed` · `interrupted` |
+| Image edits | `new` · `generating` · `ready` · `saved` · `failed` · `interrupted` |
+| Upscales | `new` · `generating` · `ready` · `failed` |
+| Models | `new` · `pending` · `training` · `finished` · `available` · `failed` |
 
-For detailed polling implementation, see [examples/polling_pattern.md](examples/polling_pattern.md)
+There is no `"in progress"` status — in-flight jobs report `generating`. Treat
+`ready` and `saved` as success; `failed`, `interrupted` and `not_allowed` as terminal
+failures. Responses also carry `progress` (0–100) and, during generation, a base64
+`previewImage`.
 
-## Pricing Reference
+Recommended intervals: 3 s for images / edits / upscales, 2–3 s for videos. Pass a
+`webhookUrl` instead of polling for production workloads.
 
-| Feature | Model | Credits |
-|---------|-------|---------|
-| Image Gen | Nano Banana Pro | 80/160/240 (1k/HD/4K) |
-| Image Gen | Flux2 Max | 60/120 (1k/HD) |
-| Image Gen | SeeDream | 80/160 (HD/4K) |
-| Editing | Same as above | Same pricing |
-| Video | Default | 60 cr/sec (2-6 sec) |
-| Video | VEO 3.1 | 1500-6000 cr (8 sec) |
-| Video | Kling 2.6 | 750-1500 cr (5-10 sec) |
-| Upscale | All | 40 cr |
+For a full implementation, see [examples/polling_pattern.md](examples/polling_pattern.md).
 
 ## Error Handling
 
-### Common HTTP Status Codes
-| Status | Meaning | Solution |
-|--------|---------|----------|
-| 401 | Invalid or missing API key | Check Authorization header format |
-| 402 | Insufficient credits | Top up at letz.ai/subscription |
-| 400 | Invalid parameters | Verify baseModel, mode, dimensions |
-| 404 | Resource not found | Check the ID is correct |
-| 429 | Rate limited | Implement exponential backoff |
-| 500 | Server error | Retry after delay |
-
-### Error Response Format
-```json
-{
-  "error": "Error description",
-  "code": "ERROR_CODE"
-}
-```
+| Status | Meaning | Fix |
+|---|---|---|
+| 400 | Invalid parameters, or an unknown field in the body | Check ranges and remove fields that are not in the schema |
+| 401 | Missing/invalid key, or not a member of `organizationId` | Check the `Authorization` header |
+| 402 | Insufficient credits | Top up at [letz.ai/subscription](https://letz.ai/subscription) |
+| 404 | Resource not found — or you used a private-API route | Check the id, and that the path exists on `api.letz.ai` |
+| 429 | Rate limited | Back off exponentially |
+| 500 | Server error | Retry with backoff |
 
 ## Limitations
 
-- **Async Generation:** All generation is asynchronous - must poll for results
-- **Video Source:** Video generation requires a source image
-- **Reference Images:** Maximum 9 reference images for image editing
-- **Model Training:** Cannot train custom AI models via API - use letz.ai web interface
-- **API Key Required:** Paid subscription required for API access
+- All generation is asynchronous — poll or use webhooks.
+- Videos are billed per model; per-second models can be expensive at 1080p/4K.
+- `mode` values are model-specific; an unsupported tier falls back to the model default.
+- Seedance 2.0 Enterprise requires an `organizationId` you are a member of.
+- A paid subscription is required for API access.
 
 ## Quick Reference: API Endpoints
 
 | Endpoint | Method | Purpose |
-|----------|--------|---------|
-| `/images` | GET | List user's images |
-| `/images` | POST | Create image (prompt, baseModel, mode, width, height) |
-| `/images/{id}` | GET | Get image status & URLs (poll every 3s) |
-| `/images/{id}/interruption` | PUT | Stop image generation |
-| `/images/{id}/privacy` | PUT | Change image privacy |
-| `/videos` | GET | List user's videos |
-| `/videos` | POST | Create video (prompt, imageUrl, settings) |
-| `/videos/{id}` | GET | Get video status & URLs (poll every 2-3s) |
-| `/videos/{id}/interruption` | PUT | Stop video generation |
+|---|---|---|
+| `/images` | POST | Create image |
+| `/images` | GET | List / filter images |
+| `/images/{id}` | GET | Image status + URLs |
+| `/images/{id}/interruption` | PUT | Stop generation |
+| `/images/{id}/privacy` | PUT | `{ privacy: "public" \| "private" \| "licensed" }` |
+| `/images/{id}/prompt-privacy` | PUT | Hide/show the prompt publicly |
+| `/image-edits` | POST | Create edit |
+| `/image-edits` | GET | List edits |
+| `/image-edits/{id}` | GET | Edit status + URLs |
+| `/image-edits/{imageCompletionId}/mask` | GET | Mask used for a legacy inpaint |
+| `/videos` | POST | Create video |
+| `/videos` | GET | List videos |
+| `/videos/{id}` | GET | Video status + URLs |
 | `/videos/{id}/privacy` | PUT | Change video privacy |
-| `/image-edits` | GET | List user's edits |
-| `/image-edits` | POST | Edit image (mode, prompt, imageUrl/inputImageUrls, settings) |
-| `/image-edits/{id}` | GET | Get edit status & URLs (poll every 3s) |
-| `/upscales` | POST | Upscale image (imageUrl/imageUrls, strength, mode, size) |
-| `/upscales/{id}` | GET | Get upscale status & URLs (poll every 3s) |
-| `/models` | GET | List trained AI models (filter by class: person/object/style) |
-| `/models/{id}` | GET | Get specific model details |
+| `/videos/{id}/prompt-privacy` | PUT | Hide/show the prompt publicly |
+| `/upscale` | POST | Create upscale |
+| `/upscale` | GET | List upscales |
+| `/upscale/{id}` | GET | Upscale status + URLs |
+| `/upscale/{id}` | DELETE | Delete an upscale |
+| `/models` | GET | List models |
+| `/models` | POST | Train a new model |
+| `/models/{id}` | GET | Model details |
+| `/models/{id}` | PATCH | Update model metadata |
+| `/models/{id}` | DELETE | Delete model |
+| `/models/{id}/thumbnail` | PUT | Set thumbnail |
+| `/user-assets` | POST | Get a pre-signed upload URL (image/video/audio) |
+| `/user-assets` | GET | List uploads |
+| `/user-assets/{id}` | GET / PATCH / DELETE | Manage an upload |
+| `/user-images` | POST / GET | Legacy image+video-only upload flow |
+| `/user-images/{id}` | GET / DELETE | Manage a legacy upload |
+| `/realtime/health` | GET | Realtime gateway health |
 
-### Key Response Fields
-- **Images/Upscales:** `imageVersions.original`, `imageVersions["1920x1920"]`, `imageVersions["640x640"]`
-- **Edits:** `generatedImageCompletion.imageVersions.original`
-- **Videos:** `videoPaths` object, `videoVersions` array
-- **Status values:** `new`, `in progress`/`generating`, `ready`, `failed`
+**Not on the public API** (private web-app routes — these 404): `/upscales`,
+`/video-edits`, `/image_completions`, `PUT /videos/{id}/interruption`.
+
+### Key response fields
+
+- **Images / upscales:** `imageVersions.original`, `imageVersions["1920x1920"]`, `imageVersions["640x640"]`
+- **Edits:** `generatedImageCompletion.imageVersions.original` (source in `originalImageCompletion`)
+- **Videos:** `videoVersions.original`
+- **In flight:** `progress` (0–100), `previewImage` (base64), `statusDetail` on failure
+
+### Model Catalogue
+To see the current list of AI Models that are supported on LetzAI, including their parameters and token costs, always read the models.json file:
+
+**Model catalogue (live):** [letz.ai/docs/models.json](https://letz.ai/docs/models.json)
+
 
 ## Additional Resources
 
-- **API Documentation:** [api.letz.ai/doc](https://api.letz.ai/doc)
-- **Developer Docs:** [letz.ai/docs/api](https://letz.ai/docs/api)
-- **Detailed API Reference:** [api_reference.md](api_reference.md)
-- **Code Examples:** [examples/](examples/)
+- **Swagger / OpenAPI:** [api.letz.ai/doc](https://api.letz.ai/doc) · [`/doc-json`](https://api.letz.ai/doc-json)
+- **Developer docs:** [letz.ai/docs/api](https://letz.ai/docs/api)
+- **Model catalogue (live):** [letz.ai/docs/models.json](https://letz.ai/docs/models.json)
+- **Detailed reference:** [api_reference.md](api_reference.md)
+- **Code examples:** [examples/](examples/)
+- **LetzAI Documentation with all features of the platform:** [letz.ai/docs](https://letz.ai/docs)

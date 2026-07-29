@@ -1,367 +1,279 @@
 # LetzAI Polling Pattern Guide
 
-LetzAI uses asynchronous generation for all image and video operations. This guide explains how to properly implement polling to check job status and retrieve results.
+Every LetzAI generation endpoint is asynchronous. The POST returns a job id immediately;
+you then poll the matching GET until the job reaches a terminal state.
 
-## Why Polling?
-
-AI image and video generation takes time (seconds to minutes). Instead of keeping connections open, LetzAI uses an async pattern:
-
-1. **Submit Job** → Receive job ID immediately
-2. **Poll Status** → Check periodically until complete
-3. **Get Result** → Fetch URLs when ready
+1. **Submit** → receive `id`
+2. **Poll** → check `status` periodically
+3. **Collect** → read the result URLs
 
 ## Status Flow
 
 ```
-┌─────┐     ┌─────────────┐     ┌───────┐
-│ new │ ──> │ in progress │ ──> │ ready │
-└─────┘     └─────────────┘     └───────┘
+┌─────┐     ┌────────────┐     ┌───────┐
+│ new │ ──> │ generating │ ──> │ ready │
+└─────┘     └────────────┘     └───────┘
                   │
-                  v
-              ┌────────┐
-              │ failed │
-              └────────┘
+                  ├──> failed
+                  ├──> interrupted
+                  └──> not_allowed
 ```
 
-### Status Values
+### Status values per resource
 
-| Status | Description | Action |
-|--------|-------------|--------|
-| `new` | Job queued | Continue polling |
-| `in progress` | Processing | Continue polling |
-| `generating` | Alternative for processing | Continue polling |
-| `ready` | Complete! | Fetch result URLs |
-| `failed` | Error occurred | Handle error, stop polling |
+| Resource | Statuses |
+|---|---|
+| Images | `new` · `generating` · `ready` · `hidden` · `failed` · `interrupted` · `not_allowed` |
+| Videos | `new` · `generating` · `ready` · `saved` · `failed` · `interrupted` |
+| Image edits | `new` · `generating` · `ready` · `saved` · `failed` · `interrupted` |
+| Upscales | `new` · `generating` · `ready` · `failed` |
+| Models | `new` · `pending` · `training` · `finished` · `available` · `failed` |
 
-## Recommended Polling Intervals
+**There is no `"in progress"` status.** In-flight jobs report `generating`. Older
+documentation and SDK snippets that check for `"in progress"` will simply never match and
+poll until they time out.
 
-| Operation | Interval | Typical Wait Time |
-|-----------|----------|-------------------|
-| Images | 3 seconds | 10-30 seconds |
-| Videos | 2-3 seconds | 30-120 seconds |
-| Image Edits | 3 seconds | 15-45 seconds |
-| Upscales | 3 seconds | 10-30 seconds |
+Treat `ready` (and `saved` on videos and edits) as success. `failed`, `interrupted` and
+`not_allowed` are terminal failures — `statusDetail` explains why.
 
-## Implementation Patterns
+## Job endpoints
 
-### JavaScript/TypeScript
+| Create | Poll | Interval |
+|---|---|---|
+| `POST /images` | `GET /images/{id}` | 3 s |
+| `POST /image-edits` | `GET /image-edits/{id}` | 3 s |
+| `POST /upscale` | `GET /upscale/{id}` | 3 s |
+| `POST /videos` | `GET /videos/{id}` | 2–3 s |
+| `POST /models` | `GET /models/{id}` | 30 s (training takes minutes) |
+
+Note the **singular `/upscale`** — `/upscales` is a private web-app route and returns 404
+on the public API.
+
+## Where the result lives
+
+| Resource | Field |
+|---|---|
+| Images, upscales | `imageVersions.original` (also `["1920x1920"]`, `["640x640"]`) |
+| Image edits | `generatedImageCompletion.imageVersions.original` |
+| Videos | `videoVersions.original` |
+
+While a job runs, `progress` is 0–100 and `previewImage` may hold a base64 preview.
+
+## Implementation
+
+### JavaScript / TypeScript
 
 ```javascript
-async function pollUntilReady(endpoint, jobId, intervalMs = 3000, maxAttempts = 60) {
+const READY = new Set(['ready', 'saved']);
+const FAILED = new Set(['failed', 'interrupted', 'not_allowed']);
+
+async function pollUntilDone(endpoint, jobId, intervalMs = 3000, maxAttempts = 120) {
   const url = `https://api.letz.ai/${endpoint}/${jobId}`;
-  
+
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const response = await fetch(url, {
-      headers: { 'Authorization': `Bearer ${API_KEY}` }
+      headers: { Authorization: `Bearer ${process.env.LETZAI_API_KEY}` },
     });
-    
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+
+    if (response.status === 429) {
+      const retryAfter = Number(response.headers.get('Retry-After') || 30);
+      await new Promise((r) => setTimeout(r, retryAfter * 1000));
+      continue;
     }
-    
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
     const data = await response.json();
-    
-    switch (data.status) {
-      case 'ready':
-        return data;
-      case 'failed':
-        throw new Error(data.error || 'Generation failed');
-      case 'new':
-      case 'in progress':
-      case 'generating':
-        // Continue polling
-        await new Promise(r => setTimeout(r, intervalMs));
-        break;
-      default:
-        console.warn(`Unknown status: ${data.status}`);
-        await new Promise(r => setTimeout(r, intervalMs));
+    if (READY.has(data.status)) return data;
+    if (FAILED.has(data.status)) {
+      throw new Error(`Job ${data.status}: ${data.statusDetail ?? 'no detail'}`);
     }
+
+    await new Promise((r) => setTimeout(r, intervalMs));
   }
-  
-  throw new Error(`Timeout: Job did not complete in ${maxAttempts} attempts`);
+
+  throw new Error(`Timeout after ${maxAttempts} attempts`);
 }
 
-// Usage
-const imageResult = await pollUntilReady('images', imageId, 3000);
-const videoResult = await pollUntilReady('videos', videoId, 2500);
+const image = await pollUntilDone('images', imageId, 3000);
+const video = await pollUntilDone('videos', videoId, 2500);
+const upscale = await pollUntilDone('upscale', upscaleId, 3000);
 ```
 
 ### Python
 
 ```python
+import os
 import time
+
 import requests
 
-def poll_until_ready(endpoint: str, job_id: str, interval: float = 3.0, max_attempts: int = 60):
-    """
-    Poll LetzAI API until job completes.
-    
-    Args:
-        endpoint: API endpoint ('images', 'videos', 'image-edits', 'upscales')
-        job_id: The job ID to poll
-        interval: Seconds between polls
-        max_attempts: Maximum polling attempts before timeout
-        
-    Returns:
-        dict: The completed job data
-        
-    Raises:
-        TimeoutError: If job doesn't complete
-        RuntimeError: If job fails
-    """
+READY = {"ready", "saved"}
+FAILED = {"failed", "interrupted", "not_allowed"}
+
+
+def poll_until_done(endpoint: str, job_id: str, interval: float = 3.0, max_attempts: int = 120):
+    """endpoint is one of 'images', 'videos', 'image-edits', 'upscale'."""
     url = f"https://api.letz.ai/{endpoint}/{job_id}"
-    headers = {"Authorization": f"Bearer {API_KEY}"}
-    
-    for attempt in range(max_attempts):
+    headers = {"Authorization": f"Bearer {os.environ['LETZAI_API_KEY']}"}
+
+    for _ in range(max_attempts):
         response = requests.get(url, headers=headers)
+
+        if response.status_code == 429:
+            time.sleep(float(response.headers.get("Retry-After", 30)))
+            continue
+
         response.raise_for_status()
         data = response.json()
-        
         status = data.get("status", "")
-        
-        if status == "ready":
-            return data
-        elif status == "failed":
-            raise RuntimeError(data.get("error", "Generation failed"))
-        elif status in ("new", "in progress", "generating"):
-            time.sleep(interval)
-        else:
-            print(f"Warning: Unknown status '{status}'")
-            time.sleep(interval)
-    
-    raise TimeoutError(f"Job {job_id} timed out after {max_attempts} attempts")
 
-# Usage
-image_result = poll_until_ready("images", image_id, interval=3.0)
-video_result = poll_until_ready("videos", video_id, interval=2.5)
+        if status in READY:
+            return data
+        if status in FAILED:
+            raise RuntimeError(f"Job {status}: {data.get('statusDetail') or 'no detail'}")
+
+        time.sleep(interval)
+
+    raise TimeoutError(f"Timed out after {max_attempts} attempts")
+
+
+image = poll_until_done("images", image_id, interval=3.0)
+video = poll_until_done("videos", video_id, interval=2.5)
 ```
 
-### cURL / Shell Script
+### cURL / shell
 
 ```bash
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-API_KEY="your_api_key"
-JOB_ID="$1"
-ENDPOINT="${2:-images}"  # Default to images
-INTERVAL="${3:-3}"       # Default 3 seconds
-MAX_ATTEMPTS="${4:-60}"  # Default 60 attempts
+ENDPOINT="${1:-images}"   # images | videos | image-edits | upscale
+JOB_ID="$2"
+INTERVAL="${3:-3}"
+MAX_ATTEMPTS="${4:-120}"
 
-poll_job() {
-    local attempt=0
-    
-    while [ $attempt -lt $MAX_ATTEMPTS ]; do
-        response=$(curl -s -H "Authorization: Bearer $API_KEY" \
-            "https://api.letz.ai/${ENDPOINT}/${JOB_ID}")
-        
-        status=$(echo "$response" | jq -r '.status')
-        
-        case "$status" in
-            "ready")
-                echo "Job complete!"
-                echo "$response" | jq
-                return 0
-                ;;
-            "failed")
-                echo "Job failed!"
-                echo "$response" | jq
-                return 1
-                ;;
-            *)
-                echo "Attempt $((attempt + 1)): Status = $status"
-                sleep $INTERVAL
-                ;;
-        esac
-        
-        attempt=$((attempt + 1))
-    done
-    
-    echo "Timeout: Job did not complete"
-    return 1
-}
+for ((attempt = 0; attempt < MAX_ATTEMPTS; attempt++)); do
+  response=$(curl -sS -H "Authorization: Bearer $LETZAI_API_KEY" \
+    "https://api.letz.ai/${ENDPOINT}/${JOB_ID}")
+  status=$(jq -r '.status' <<<"$response")
 
-poll_job
+  case "$status" in
+    ready|saved)
+      jq '.' <<<"$response"
+      exit 0
+      ;;
+    failed|interrupted|not_allowed)
+      echo "Job $status: $(jq -r '.statusDetail // "no detail"' <<<"$response")" >&2
+      exit 1
+      ;;
+    *)
+      echo "attempt $((attempt + 1)): $status ($(jq -r '.progress // 0' <<<"$response")%)"
+      sleep "$INTERVAL"
+      ;;
+  esac
+done
+
+echo "Timed out" >&2
+exit 1
 ```
 
 ## Advanced Patterns
 
-### Exponential Backoff
+### Exponential backoff
 
-For long-running jobs (especially videos), consider exponential backoff:
+Useful for videos, which can take minutes:
 
 ```javascript
-async function pollWithBackoff(endpoint, jobId, initialInterval = 2000, maxInterval = 30000) {
-  let interval = initialInterval;
-  
+async function pollWithBackoff(endpoint, jobId, initialMs = 2000, maxMs = 30000) {
+  let interval = initialMs;
+
   while (true) {
     const response = await fetch(`https://api.letz.ai/${endpoint}/${jobId}`, {
-      headers: { 'Authorization': `Bearer ${API_KEY}` }
+      headers: { Authorization: `Bearer ${process.env.LETZAI_API_KEY}` },
     });
-    
     const data = await response.json();
-    
-    if (data.status === 'ready') return data;
-    if (data.status === 'failed') throw new Error(data.error);
-    
-    await new Promise(r => setTimeout(r, interval));
-    
-    // Increase interval, up to max
-    interval = Math.min(interval * 1.5, maxInterval);
+
+    if (READY.has(data.status)) return data;
+    if (FAILED.has(data.status)) throw new Error(data.statusDetail ?? data.status);
+
+    await new Promise((r) => setTimeout(r, interval));
+    interval = Math.min(interval * 1.5, maxMs);
   }
 }
 ```
 
-### Progress Tracking
-
-Some responses include progress information:
+### Progress reporting
 
 ```javascript
 async function pollWithProgress(endpoint, jobId, onProgress) {
   while (true) {
     const response = await fetch(`https://api.letz.ai/${endpoint}/${jobId}`, {
-      headers: { 'Authorization': `Bearer ${API_KEY}` }
+      headers: { Authorization: `Bearer ${process.env.LETZAI_API_KEY}` },
     });
-    
     const data = await response.json();
-    
-    // Report progress if available
-    if (data.progress && onProgress) {
-      onProgress(data.progress);
-    }
-    
-    if (data.status === 'ready') return data;
-    if (data.status === 'failed') throw new Error(data.error);
-    
-    await new Promise(r => setTimeout(r, 3000));
+
+    // `previewImage` carries a base64 preview mid-generation on some models.
+    onProgress?.(data.progress ?? 0, data.previewImage);
+
+    if (READY.has(data.status)) return data;
+    if (FAILED.has(data.status)) throw new Error(data.statusDetail ?? data.status);
+
+    await new Promise((r) => setTimeout(r, 3000));
   }
 }
-
-// Usage with progress callback
-const result = await pollWithProgress('images', imageId, (progress) => {
-  console.log(`Progress: ${progress}%`);
-});
 ```
 
-### Parallel Polling
-
-Poll multiple jobs simultaneously:
+### Polling several jobs at once
 
 ```javascript
-async function pollMultiple(jobs) {
-  // jobs = [{ endpoint: 'images', id: 'abc' }, { endpoint: 'videos', id: 'xyz' }]
-  
-  return Promise.all(
-    jobs.map(job => pollUntilReady(job.endpoint, job.id))
-  );
-}
-
-// Usage
-const [image1, image2, video1] = await pollMultiple([
-  { endpoint: 'images', id: imageId1 },
-  { endpoint: 'images', id: imageId2 },
-  { endpoint: 'videos', id: videoId1 }
+const [imageA, imageB, video] = await Promise.all([
+  pollUntilDone('images', imageIdA),
+  pollUntilDone('images', imageIdB),
+  pollUntilDone('videos', videoId, 2500),
 ]);
 ```
 
-## Error Handling
+## Errors During Polling
 
-### Common Errors During Polling
+| Status | Cause | Handling |
+|---|---|---|
+| 401 | Invalid or expired key | Fix the `Authorization` header; do not retry |
+| 404 | Wrong job id, or a private-API route (`/upscales`, `/video-edits`) | Check the id and the path |
+| 429 | Polling too aggressively | Honour `Retry-After`, then increase the interval |
+| 500 | Transient server error | Retry with exponential backoff, cap at ~3 attempts |
 
-| Error | Cause | Solution |
-|-------|-------|----------|
-| 401 Unauthorized | Invalid/expired API key | Check API key |
-| 404 Not Found | Invalid job ID | Verify ID from creation response |
-| 429 Rate Limited | Too many requests | Increase polling interval |
-| 500 Server Error | API issue | Retry with backoff |
-
-### Robust Error Handling
-
-```javascript
-async function robustPoll(endpoint, jobId) {
-  let retries = 0;
-  const maxRetries = 3;
-  
-  while (true) {
-    try {
-      const response = await fetch(`https://api.letz.ai/${endpoint}/${jobId}`, {
-        headers: { 'Authorization': `Bearer ${API_KEY}` }
-      });
-      
-      if (response.status === 429) {
-        // Rate limited - wait longer
-        const retryAfter = response.headers.get('Retry-After') || 30;
-        await new Promise(r => setTimeout(r, retryAfter * 1000));
-        continue;
-      }
-      
-      if (response.status === 500 && retries < maxRetries) {
-        // Server error - retry with backoff
-        retries++;
-        await new Promise(r => setTimeout(r, Math.pow(2, retries) * 1000));
-        continue;
-      }
-      
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-      
-      const data = await response.json();
-      
-      if (data.status === 'ready') return data;
-      if (data.status === 'failed') throw new Error(data.error);
-      
-      // Reset retries on successful poll
-      retries = 0;
-      await new Promise(r => setTimeout(r, 3000));
-      
-    } catch (error) {
-      if (error.name === 'AbortError' || retries >= maxRetries) {
-        throw error;
-      }
-      retries++;
-      await new Promise(r => setTimeout(r, Math.pow(2, retries) * 1000));
-    }
-  }
-}
-```
+Reset your retry counter after each successful poll so a single hiccup halfway through a
+long video job does not abort it.
 
 ## Best Practices
 
-1. **Don't poll too frequently** - Respect the recommended intervals (3s for images, 2-3s for videos)
+1. Respect the intervals — 3 s for images, edits and upscales; 2–3 s for videos.
+2. Set a timeout. Images usually finish in 10–30 s, videos in 30 s–5 min depending on the model.
+3. Handle unknown statuses by continuing to poll rather than throwing.
+4. Persist job ids so you can resume polling after a restart.
+5. Use webhooks for production workloads and keep polling only as a fallback.
 
-2. **Set reasonable timeouts** - Images typically complete in 10-30s, videos in 30-120s
+## Webhooks
 
-3. **Handle all status values** - Always have a case for unknown statuses
-
-4. **Log progress** - Helpful for debugging and user feedback
-
-5. **Implement backoff** - For production systems, use exponential backoff
-
-6. **Cancel capability** - Allow users to cancel long-running polls
-
-7. **Store job IDs** - Save IDs to resume polling after page refresh or app restart
-
-## Webhook Alternative
-
-For production systems, consider using webhooks instead of polling:
+Pass `webhookUrl` on any create call and LetzAI will POST to it when the job reaches a
+terminal state:
 
 ```javascript
-// When creating the job, include webhook URL
-const response = await fetch('https://api.letz.ai/images', {
+await fetch('https://api.letz.ai/images', {
   method: 'POST',
   headers: {
-    'Authorization': `Bearer ${API_KEY}`,
-    'Content-Type': 'application/json'
+    Authorization: `Bearer ${process.env.LETZAI_API_KEY}`,
+    'Content-Type': 'application/json',
   },
   body: JSON.stringify({
     prompt: 'A beautiful landscape',
-    webhookUrl: 'https://your-server.com/api/letzai/callback'
-  })
+    baseModel: 'gemini-3-pro-image',
+    mode: '2k',
+    webhookUrl: 'https://your-server.com/api/letzai/callback',
+  }),
 });
-
-// Your server receives a POST when complete:
-// POST /api/letzai/callback
-// Body: { event: 'image.completed', data: { id, status, imageVersions, ... } }
 ```
 
-See the [API Reference](../api_reference.md) for webhook configuration details.
+The callback body is the same DTO the corresponding GET returns. Match the `id` against
+your own records before acting on it, and keep a polling fallback for jobs you cannot
+afford to lose.

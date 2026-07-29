@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-bobmatnyc-claude-mpm-skills-drizzle-orm",
-  "generated_at": "2026-07-28T09:31:42.692Z",
+  "generated_at": "2026-07-29T09:33:35.276Z",
   "records": [
     {
       "id": "skills/skills-sh-bobmatnyc-claude-mpm-skills-drizzle-orm#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/bobmatnyc/claude-mpm-skills/HEAD/toolchains/typescript/data/drizzle/references/advanced-schemas.md",
-        "retrieved_at": "2026-07-28T09:31:42.692Z",
+        "retrieved_at": "2026-07-29T09:33:35.276Z",
         "content_sha256": "420e86801c18d535ab531e6621c8a9df5247c11158b9a9f30dc44f11ea35108d"
       }
     }

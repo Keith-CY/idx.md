@@ -5,26 +5,24 @@ title: skills-sh-letz-ai-letzai-skill-letzai-api
 summary: >-
   # LetzAI Polling Pattern Guide
 
-  LetzAI uses asynchronous generation for all image and video operations. This
-  guide explains how to properly implement polling to check job status and
-  retrieve results.
+  Every LetzAI generation endpoint is asynchronous. The POST returns a job id
+  immediately;
 
-  ## Why Polling?
+  you then poll the matching GET until the job reaches a terminal state.
 
-  AI image and video generation takes time (seconds to minutes). Instead of
-  keeping connections open, LetzAI uses an async pattern:
+  1. **Submit** → receive `id`
 
-  1. **Submit Job** → Receive job ID immediately
+  2. **Poll** → check `status` periodically
 
-  2. **Poll Status** → Check periodically until complete
-
-  3. **Get Result** → Fetch URLs when ready
+  3. **Collect** → read the result URLs
 
   ## Status Flow
 
   ```
 
-  ┌─────┐     ┌─────────────┐     ┌───────┐
+  ┌─────┐     ┌────────────┐     ┌───────┐
+
+  │ new │ ──> │ generating │ ──> │ ready │
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +32,6 @@ upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-28T09:30:50.497Z
-content_sha256: dca10944dcb129ae0451aa5a116a56e569c628f2988d043c9bbe3ed558cda02c
+retrieved_at: 2026-07-29T09:32:51.698Z
+content_sha256: 8ed7322ab7c13a593574c69d0410aacbdb0f5e8b53e84a19f01eb50101dfc585
 ---

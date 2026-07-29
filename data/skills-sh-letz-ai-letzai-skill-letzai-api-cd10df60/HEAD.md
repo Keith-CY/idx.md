@@ -7,10 +7,10 @@ summary: >-
 
   name: letzai-api
 
-  description: "Generate AI images and videos via LetzAI API. Supports Nano
-  Banana Pro, Flux2 Max, SeeDream for images; VEO, Kling for videos. Use custom
-  trained models with @modelname. Includes context editing and upscaling. Use
-  for content creation apps and automation."
+  description: "Generate AI images and videos via the LetzAI API. Images with
+  Nano Banana Pro, Seedream 5, Flux 2, GPT Image 2; videos with Veo 3.1, Kling
+  V3, Seedance 2.0. Includes context editing, upscaling, asset uploads, and
+  custom @model training. Use for content creation apps and automation."
 
   license: MIT
 
@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-28T09:30:51.549Z
-content_sha256: 08821bcc515584894006f42acde1e00e380f50ea34a30de4bccfbb3b4a8f8e24
+retrieved_at: 2026-07-29T09:32:52.619Z
+content_sha256: 17bc9bdc78a01195a9df5258ed96f2ea00ad162372fc8f9321df1a6e824698ce
 ---

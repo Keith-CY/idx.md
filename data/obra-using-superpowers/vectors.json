@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-using-superpowers",
-  "generated_at": "2026-07-28T09:30:18.624Z",
+  "generated_at": "2026-07-29T09:32:22.636Z",
   "records": [
     {
       "id": "skills/obra-using-superpowers#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/using-superpowers/SKILL.md",
-        "retrieved_at": "2026-07-28T09:30:18.624Z",
+        "retrieved_at": "2026-07-29T09:32:22.636Z",
         "content_sha256": "55379fe7c1c473a02c61961c822996bff30e1320d6921d9062509bc508482c05"
       }
     }

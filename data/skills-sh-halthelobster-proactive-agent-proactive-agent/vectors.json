@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-halthelobster-proactive-agent-proactive-agent",
-  "generated_at": "2026-07-28T09:30:46.414Z",
+  "generated_at": "2026-07-29T09:32:48.401Z",
   "records": [
     {
       "id": "skills/skills-sh-halthelobster-proactive-agent-proactive-agent#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/halthelobster/proactive-agent/main/SKILL.md",
-        "retrieved_at": "2026-07-28T09:30:46.414Z",
+        "retrieved_at": "2026-07-29T09:32:48.401Z",
         "content_sha256": "5a61dae55820c670d23de61500aa48956b7a1b20c3f01cdc7e596b51fd854c03"
       }
     }
