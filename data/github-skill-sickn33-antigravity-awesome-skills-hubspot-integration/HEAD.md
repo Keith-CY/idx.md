@@ -17,6 +17,6 @@ upstream_ref: https://github.com/sickn33/antigravity-awesome-skills/blob/main/sk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-07-29T09:32:35.718Z
-content_sha256: 846a7edd9709e38cc410e704fef70571624403f1ba6e48c301ce23d548716f15
+retrieved_at: 2026-07-30T09:25:04.115Z
+content_sha256: d5630cde16a412d62cbf581078d30309777702bb2b2201f56367db7b7410f798
 ---

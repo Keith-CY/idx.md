@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/containerize-aspnetcore
 github_stars: 4838
 github_forks: 1954
 github_is_organization: true
-retrieved_at: 2026-07-29T09:32:28.483Z
+retrieved_at: 2026-07-30T09:24:53.235Z
 content_sha256: 8a865644accc6297ee21f08532f9a51b3696d27458a03952904d24c8c0e9e7a5
 ---
