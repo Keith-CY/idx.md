@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-ssr
 github_stars: 404
 github_forks: 44
 github_is_organization: true
-retrieved_at: 2026-07-30T09:26:48.807Z
+retrieved_at: 2026-07-31T09:41:28.931Z
 content_sha256: 23aedff793dbe7c92dfd4f8bec9e48657d5f0399dae3232fc9b5a3b88a8284c5
 ---

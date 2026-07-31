@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-callstackincubator-agent-skills-upgrading-react-native",
-  "generated_at": "2026-07-30T09:25:28.499Z",
+  "generated_at": "2026-07-31T09:38:26.554Z",
   "records": [
     {
       "id": "skills/skills-sh-callstackincubator-agent-skills-upgrading-react-native#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/callstackincubator/agent-skills/HEAD/skills/upgrading-react-native/references/upgrading-react-native.md",
-        "retrieved_at": "2026-07-30T09:25:28.499Z",
+        "retrieved_at": "2026-07-31T09:38:26.554Z",
         "content_sha256": "286e9284da759e1243cd71e6b2612a439fe609b0ca0ee9173b36e06df6855c34"
       }
     }

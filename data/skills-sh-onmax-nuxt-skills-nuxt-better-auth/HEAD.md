@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-better-auth
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-07-30T09:26:50.855Z
+retrieved_at: 2026-07-31T09:41:33.022Z
 content_sha256: 2fb4a6e8b4eae28125eef6479a7c78dbd9ebde2152c800f7b804407308ec1f17
 ---
