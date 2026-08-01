@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-ossfuzz",
-  "generated_at": "2026-07-31T09:38:44.613Z",
+  "generated_at": "2026-08-01T09:00:31.115Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-ossfuzz#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/ossf/fuzz-introspector/main/doc/CaseStudies.md",
-        "retrieved_at": "2026-07-31T09:38:44.613Z",
+        "retrieved_at": "2026-08-01T09:00:31.115Z",
         "content_sha256": "d56091780455026c0e196ef220a339b081bada399e43384d3d85578210591297"
       }
     }

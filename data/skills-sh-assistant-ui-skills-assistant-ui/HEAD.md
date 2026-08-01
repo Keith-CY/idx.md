@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
 github_stars: 5
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-07-31T09:38:23.296Z
+retrieved_at: 2026-08-01T09:00:21.958Z
 content_sha256: 4f878825755030b24727f1b66e432c6502db0dfec211f000621e5357ed32adb7
 ---

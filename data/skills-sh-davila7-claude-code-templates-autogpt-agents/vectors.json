@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-davila7-claude-code-templates-autogpt-agents",
-  "generated_at": "2026-07-31T09:37:55.132Z",
+  "generated_at": "2026-08-01T09:00:12.621Z",
   "records": [
     {
       "id": "skills/skills-sh-davila7-claude-code-templates-autogpt-agents#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/davila7/claude-code-templates/main/cli-tool/components/skills/ai-research/agents-autogpt/references/advanced-usage.md",
-        "retrieved_at": "2026-07-31T09:37:55.132Z",
+        "retrieved_at": "2026-08-01T09:00:12.621Z",
         "content_sha256": "e0b9f472e7487061b5123f1a507ebd1fa19bb0e91f95de5931c7a5b6279b104b"
       }
     }

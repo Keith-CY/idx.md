@@ -39,6 +39,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-07-31T09:36:50.572Z
+retrieved_at: 2026-08-01T08:59:50.803Z
 content_sha256: 72190c88b2b5a67a96b91d66aa72b9161913e10e8769da3f28a226f4cc7b99d0
 ---
