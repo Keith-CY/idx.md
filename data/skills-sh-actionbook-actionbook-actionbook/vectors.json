@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-actionbook-actionbook-actionbook",
-  "generated_at": "2026-08-01T09:00:22.142Z",
+  "generated_at": "2026-08-02T09:05:39.035Z",
   "records": [
     {
       "id": "skills/skills-sh-actionbook-actionbook-actionbook#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/actionbook/actionbook/HEAD/skills/actionbook/references/command-reference.md",
-        "retrieved_at": "2026-08-01T09:00:22.142Z",
+        "retrieved_at": "2026-08-02T09:05:39.035Z",
         "content_sha256": "a8d4fdda69c882068209f7e77875bd61359dcf03261f5aa1a3269c9fd224ec93"
       }
     }

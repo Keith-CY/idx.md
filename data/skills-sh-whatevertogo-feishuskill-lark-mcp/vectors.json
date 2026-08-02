@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-whatevertogo-feishuskill-lark-mcp",
-  "generated_at": "2026-08-01T08:59:59.663Z",
+  "generated_at": "2026-08-02T09:04:46.153Z",
   "records": [
     {
       "id": "skills/skills-sh-whatevertogo-feishuskill-lark-mcp#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/whatevertogo/feishuskill/HEAD/lark-mcp/reference/installation.md",
-        "retrieved_at": "2026-08-01T08:59:59.663Z",
+        "retrieved_at": "2026-08-02T09:04:46.153Z",
         "content_sha256": "eab1c2aaacb473c9019f6de85c0a230afb265d5554a3e4edad122c11c64a6cd8"
       }
     }

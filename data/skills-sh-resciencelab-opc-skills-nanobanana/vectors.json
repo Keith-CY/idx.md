@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-resciencelab-opc-skills-nanobanana",
-  "generated_at": "2026-08-01T09:01:14.575Z",
+  "generated_at": "2026-08-02T09:08:28.359Z",
   "records": [
     {
       "id": "skills/skills-sh-resciencelab-opc-skills-nanobanana#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/resciencelab/opc-skills/HEAD/skills/nanobanana/references/prompts.md",
-        "retrieved_at": "2026-08-01T09:01:14.575Z",
+        "retrieved_at": "2026-08-02T09:08:28.359Z",
         "content_sha256": "f48d19fe05684f799698b03b46178dc7f2003acc3407b6b78fe5f102de721b24"
       }
     }
