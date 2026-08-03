@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-apollo-connectors",
-  "generated_at": "2026-08-02T09:05:32.917Z",
+  "generated_at": "2026-08-03T10:33:06.679Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-apollo-connectors#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-connectors/references/grammar.md",
-        "retrieved_at": "2026-08-02T09:05:32.917Z",
+        "retrieved_at": "2026-08-03T10:33:06.679Z",
         "content_sha256": "aea9ec3e60c9d96a95d3b0aafe0f08aa2900e5b2068db47fc0fc8dcd683eef8e"
       }
     }

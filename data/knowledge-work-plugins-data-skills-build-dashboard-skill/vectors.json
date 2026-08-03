@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-skills-build-dashboard-skill",
-  "generated_at": "2026-08-02T09:08:16.021Z",
+  "generated_at": "2026-08-03T10:34:32.330Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-skills-build-dashboard-skill#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/build-dashboard/SKILL.md",
-        "retrieved_at": "2026-08-02T09:08:16.021Z",
+        "retrieved_at": "2026-08-03T10:34:32.330Z",
         "content_sha256": "6f23faa0b266820a23096f76df9d83e6b67597af4fc8c3306b4eba7e9f409f99"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-czlonkowski-n8n-skills-n8n-code-python",
-  "generated_at": "2026-08-02T09:05:13.649Z",
+  "generated_at": "2026-08-03T10:32:56.020Z",
   "records": [
     {
       "id": "skills/skills-sh-czlonkowski-n8n-skills-n8n-code-python#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/czlonkowski/n8n-skills/main/skills/n8n-code-python/DATA_ACCESS.md",
-        "retrieved_at": "2026-08-02T09:05:13.649Z",
+        "retrieved_at": "2026-08-03T10:32:56.020Z",
         "content_sha256": "a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7"
       }
     }

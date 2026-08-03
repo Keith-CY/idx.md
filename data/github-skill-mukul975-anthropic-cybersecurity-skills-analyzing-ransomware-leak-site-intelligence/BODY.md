@@ -1,8 +1,6 @@
 ---
 name: analyzing-ransomware-leak-site-intelligence
-description: Monitor and analyze ransomware group data leak sites (DLS) to track victim
-  postings, extract threat intelligence on group tactics, and assess sector-specific
-  ransomware risk for proactive defense.
+description: Safely monitor ransomware group Tor-hosted data leak sites (DLS) to collect and extract structured victim posting data, track group activity trends over time, and produce sector- and geography-specific ransomware risk assessments. Use when performing threat intelligence gathering on active ransomware groups or building proactive defense reporting from double-extortion leak-site activity.
 domain: cybersecurity
 subdomain: threat-intelligence
 tags:
