@@ -5,6 +5,16 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.221
+
+  - Improved `skills` option validation: malformed names (delimiters or control
+  characters) and wildcard-form names are rejected with a clear error; use
+  `skills: 'all'` to enable every skill
+
+  - Fixed external MCP servers passed via the `mcpServers` option not being
+  connected before the first turn, which caused the model to emit tool calls as
+  literal text
+
   ## 0.3.220
 
   - Updated to parity with Claude Code v2.1.220
@@ -20,15 +30,6 @@ summary: >-
 
   - Added `DirectoryAdded` lifecycle hook event to the control protocol, fired
   when a new working directory is registered mid-session
-
-  - Fixed the initialize response reporting `fast_mode_state` from the
-  spawn-time model after a model switch
-
-  - Added `sandbox.network.strictAllowlist` to SDK settings types for
-  deterministically denying non-allowlisted hosts in sandboxed commands
-
-  - Added `workflowSizeGuideline` to SDK settings types for setting the advisory
-  dynamic-workflow size guideline
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-03T10:33:13.315Z
-content_sha256: d1c387b8e19e09d2402fc09f87f6d0ceef13aac0cc6a75accb5e1746a0bb5a6c
+retrieved_at: 2026-08-04T09:34:47.473Z
+content_sha256: 1072dec83d8ad556ed485a82848617a33ad287de8f19e7565d8d7a9676c7ef13
 ---

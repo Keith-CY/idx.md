@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-marketing-skills-seo-audit-skill",
-  "generated_at": "2026-08-03T10:34:33.950Z",
+  "generated_at": "2026-08-04T09:37:23.132Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-marketing-skills-seo-audit-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/marketing/skills/seo-audit/SKILL.md",
-        "retrieved_at": "2026-08-03T10:34:33.950Z",
+        "retrieved_at": "2026-08-04T09:37:23.132Z",
         "content_sha256": "25008ccdda6f4d9b7ba05f11120d0b9cc976c2d0b04f3d86605e63b1a54a8c40"
       }
     }

@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/spec-to-code-compliance
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-03T10:33:12.553Z
+retrieved_at: 2026-08-04T09:34:46.479Z
 content_sha256: 053f670171dbb59b795257bbf24865641c66af657a025dc9d79baad4fb2501ec
 ---

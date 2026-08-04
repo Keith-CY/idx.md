@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-anthropics-claude-plugins-official-claude-automation-recommender",
-  "generated_at": "2026-08-03T10:34:39.999Z",
+  "generated_at": "2026-08-04T09:37:31.164Z",
   "records": [
     {
       "id": "skills/skills-sh-anthropics-claude-plugins-official-claude-automation-recommender#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-plugins-official/HEAD/plugins/claude-code-setup/skills/claude-automation-recommender/references/mcp-servers.md",
-        "retrieved_at": "2026-08-03T10:34:39.999Z",
+        "retrieved_at": "2026-08-04T09:37:31.164Z",
         "content_sha256": "0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97"
       }
     }
