@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "openai-curated-security-best-practices",
-  "generated_at": "2026-08-04T09:34:12.219Z",
+  "generated_at": "2026-08-05T09:30:29.133Z",
   "records": [
     {
       "id": "skills/openai-curated-security-best-practices#head",
@@ -18,7 +18,7 @@
           "source-openai-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/skills/main/skills/.curated/security-best-practices/SKILL.md",
-        "retrieved_at": "2026-08-04T09:34:12.219Z",
+        "retrieved_at": "2026-08-05T09:30:29.133Z",
         "content_sha256": "7b3dae1ffc5434d890f3c65c8f552af52d0307fab3b35dec13013c9ca3844c4f"
       }
     }

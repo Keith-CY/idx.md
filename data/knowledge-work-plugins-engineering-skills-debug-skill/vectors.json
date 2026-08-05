@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-debug-skill",
-  "generated_at": "2026-08-04T09:37:21.939Z",
+  "generated_at": "2026-08-05T09:33:46.419Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-debug-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/debug/SKILL.md",
-        "retrieved_at": "2026-08-04T09:37:21.939Z",
+        "retrieved_at": "2026-08-05T09:33:46.419Z",
         "content_sha256": "e50bb92cbcb2715139f3a3cb9ff282a8f0f9ae794f8f35d81338654e2601d32a"
       }
     }

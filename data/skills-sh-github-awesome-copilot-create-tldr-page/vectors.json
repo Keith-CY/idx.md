@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-create-tldr-page",
-  "generated_at": "2026-08-04T09:33:47.262Z",
+  "generated_at": "2026-08-05T09:30:02.442Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-create-tldr-page#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jhauga/tldr/refs/heads/main/pages/common/git.md",
-        "retrieved_at": "2026-08-04T09:33:47.262Z",
+        "retrieved_at": "2026-08-05T09:30:02.442Z",
         "content_sha256": "5cc833305da2df33386f2085fa907385d5d29d82d8f7f2dc87476d760c9e5b25"
       }
     }

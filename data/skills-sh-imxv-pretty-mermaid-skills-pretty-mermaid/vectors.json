@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid",
-  "generated_at": "2026-08-04T09:37:31.639Z",
+  "generated_at": "2026-08-05T09:33:57.614Z",
   "records": [
     {
       "id": "skills/skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/imxv/pretty-mermaid-skills/HEAD/references/DIAGRAM_TYPES.md",
-        "retrieved_at": "2026-08-04T09:37:31.639Z",
+        "retrieved_at": "2026-08-05T09:33:57.614Z",
         "content_sha256": "79514ada712884f201f50cddced0a059697a0b82cee7b9a80cf744b9bc369739"
       }
     }

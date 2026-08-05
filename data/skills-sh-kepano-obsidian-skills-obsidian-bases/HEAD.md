@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/kepano/obsidian-skills/obsidian-bases
 github_stars: 15199
 github_forks: 846
 github_is_organization: false
-retrieved_at: 2026-08-04T09:33:42.490Z
+retrieved_at: 2026-08-05T09:29:57.650Z
 content_sha256: 208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b
 ---

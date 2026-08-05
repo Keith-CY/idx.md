@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-containerize-aspnet-framework",
-  "generated_at": "2026-08-04T09:33:47.491Z",
+  "generated_at": "2026-08-05T09:30:02.668Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-containerize-aspnet-framework#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/dotnet-framework-docker/main/README.aspnet.md",
-        "retrieved_at": "2026-08-04T09:33:47.491Z",
+        "retrieved_at": "2026-08-05T09:30:02.668Z",
         "content_sha256": "7ff282127232de0d3d076bd17d82586d062ac6c7f68c7094b41081fe29ed76a0"
       }
     }

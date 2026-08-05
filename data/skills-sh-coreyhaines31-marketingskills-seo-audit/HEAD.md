@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/seo-audit
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-08-04T09:33:34.190Z
+retrieved_at: 2026-08-05T09:29:48.891Z
 content_sha256: f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4
 ---

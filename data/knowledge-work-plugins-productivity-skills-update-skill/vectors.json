@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-productivity-skills-update-skill",
-  "generated_at": "2026-08-04T09:37:26.111Z",
+  "generated_at": "2026-08-05T09:33:51.470Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-productivity-skills-update-skill#head",
@@ -21,7 +21,7 @@
           "category-productivity-tasks"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/update/SKILL.md",
-        "retrieved_at": "2026-08-04T09:37:26.111Z",
+        "retrieved_at": "2026-08-05T09:33:51.470Z",
         "content_sha256": "27dbb2c732a9140ea3f01da6cdf7e533df5e75e9614c80e7e356c8f39c959799"
       }
     }
