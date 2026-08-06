@@ -3,28 +3,27 @@ stable_id: skills/skills-sh-trailofbits-skills-audit-context-building
 type: skills
 title: skills-sh-trailofbits-skills-audit-context-building
 summary: >-
-  # Function Micro-Analysis Example
+  # Worked Example
 
-  This example demonstrates a complete micro-analysis following the Per-Function
-  Microstructure Checklist.
+  A complete per-function analysis. The subject is C; the format is
+  language-neutral, and the notes at the end
+
+  cover what changes for contract code.
+
+  The point of this example is the callee. `session_acquire` looks safe read on
+  its own, and the analysis only
+
+  becomes accurate once `session_lookup` has been read.
 
   ---
 
-  ## Target: `swap(address tokenIn, address tokenOut, uint256 amountIn, uint256
-  minAmountOut, uint256 deadline)` in Router.sol
+  ## `session_acquire` in src/session.c (L112-L138)
 
-  **Purpose:**
+  ```c
 
-  Enables users to swap one token for another through a liquidity pool. Core
-  trading operation in a DEX that:
+  // L112
 
-  - Calculates output amount using constant product formula (x * y = k)
-
-  - Deducts 0.3% protocol fee from input amount
-
-  - Enforces user-specified slippage protection
-
-  - Updates pool reserves to maintain AMM invariant
+  int session_acquire(uint32_t id, struct session **out) {
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/audit-context-building
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-05T09:33:58.700Z
-content_sha256: 49024fff7893c383618ae71e969a6ac1b9d96f672348e1810383b04f8b265d7c
+retrieved_at: 2026-08-06T09:35:37.620Z
+content_sha256: 3351010d83b61bfb34a0359498f153817fdfa6528cead54536b06e035ff2399c
 ---

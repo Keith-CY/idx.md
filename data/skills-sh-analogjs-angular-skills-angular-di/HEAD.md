@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/analogjs/angular-skills/angular-di
 github_stars: 558
 github_forks: 59
 github_is_organization: true
-retrieved_at: 2026-08-05T09:30:11.909Z
+retrieved_at: 2026-08-06T09:34:31.973Z
 content_sha256: 82a96864d1bc95d2cadac94ad888b147edb5d66d24c76510fbd215983fdcf903
 ---

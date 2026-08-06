@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-audit-context-building",
-  "generated_at": "2026-08-05T09:33:58.700Z",
+  "generated_at": "2026-08-06T09:35:37.620Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-audit-context-building#head",
       "kind": "head",
       "path": "/data/skills-sh-trailofbits-skills-audit-context-building/HEAD.md",
-      "text": "title: skills-sh-trailofbits-skills-audit-context-building\nsummary: # Function Micro-Analysis Example This example demonstrates a complete micro-analysis following the Per-Function Microstructure Checklist. --- ## Target: `swap(address tokenIn, address tokenOut, uint256 amountIn, uint256 minAmountOut, uint256 deadline)` in Router.sol **Purpose:** Enables users to swap one token for another through a liquidity pool. Core trading operation in a DEX that: - Calculates output amount using constant product formula (x * y = k) - Deducts 0.3% protocol fee from input amount - Enforces user-specified slippage protection - Updates pool reserves to maintain AMM invariant\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/audit-context-building/skills/audit-context-building/resources/FUNCTION_MICRO_ANALYSIS_EXAMPLE.md",
+      "text": "title: skills-sh-trailofbits-skills-audit-context-building\nsummary: # Worked Example A complete per-function analysis. The subject is C; the format is language-neutral, and the notes at the end cover what changes for contract code. The point of this example is the callee. `session_acquire` looks safe read on its own, and the analysis only becomes accurate once `session_lookup` has been read. --- ## `session_acquire` in src/session.c (L112-L138) ```c // L112 int session_acquire(uint32_t id, struct session **out) {\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/audit-context-building/skills/audit-context-building/resources/FUNCTION_MICRO_ANALYSIS_EXAMPLE.md",
       "metadata": {
         "stable_id": "skills/skills-sh-trailofbits-skills-audit-context-building",
         "topic": "skills-sh-trailofbits-skills-audit-context-building",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/audit-context-building/skills/audit-context-building/resources/FUNCTION_MICRO_ANALYSIS_EXAMPLE.md",
-        "retrieved_at": "2026-08-05T09:33:58.700Z",
-        "content_sha256": "49024fff7893c383618ae71e969a6ac1b9d96f672348e1810383b04f8b265d7c"
+        "retrieved_at": "2026-08-06T09:35:37.620Z",
+        "content_sha256": "3351010d83b61bfb34a0359498f153817fdfa6528cead54536b06e035ff2399c"
       }
     }
   ]

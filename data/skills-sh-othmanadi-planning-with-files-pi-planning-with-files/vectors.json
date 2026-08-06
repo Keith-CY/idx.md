@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-othmanadi-planning-with-files-pi-planning-with-files",
-  "generated_at": "2026-08-05T09:30:13.373Z",
+  "generated_at": "2026-08-06T09:34:32.641Z",
   "records": [
     {
       "id": "skills/skills-sh-othmanadi-planning-with-files-pi-planning-with-files#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/othmanadi/planning-with-files/HEAD/.pi/skills/planning-with-files/templates/task_plan.md",
-        "retrieved_at": "2026-08-05T09:30:13.373Z",
+        "retrieved_at": "2026-08-06T09:34:32.641Z",
         "content_sha256": "fef51835c7567d334c019f355a5794e9fe6124f49fcbe0e9e2694b7406ad2c37"
       }
     }

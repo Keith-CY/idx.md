@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/madteacher/mad-agents-skills/flutter-architectur
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-05T09:33:57.502Z
+retrieved_at: 2026-08-06T09:35:37.082Z
 content_sha256: 15bb275986b3916c819fdc99e0f80075b4f6d0e0ca2cc39c6c44e6f39ab08d92
 ---

@@ -28,6 +28,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/containerize-aspnet-frame
 github_stars: 761
 github_forks: 351
 github_is_organization: true
-retrieved_at: 2026-08-05T09:30:02.668Z
+retrieved_at: 2026-08-06T09:34:30.165Z
 content_sha256: 7ff282127232de0d3d076bd17d82586d062ac6c7f68c7094b41081fe29ed76a0
 ---

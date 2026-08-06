@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-05T09:33:57.614Z
+retrieved_at: 2026-08-06T09:35:37.151Z
 content_sha256: 79514ada712884f201f50cddced0a059697a0b82cee7b9a80cf744b9bc369739
 ---

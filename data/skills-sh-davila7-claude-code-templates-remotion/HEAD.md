@@ -30,6 +30,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/remotion
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-05T09:30:55.280Z
+retrieved_at: 2026-08-06T09:34:47.347Z
 content_sha256: 99a6377d64061af5f7fcd1a179c0c8f6d7bcd0a515060a46db117a757ac3387a
 ---

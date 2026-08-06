@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtoo
 github_stars: 26831
 github_forks: 1565
 github_is_organization: true
-retrieved_at: 2026-08-05T09:31:27.671Z
+retrieved_at: 2026-08-06T09:35:00.708Z
 content_sha256: ec9359f4321dfc2d669226c2a8b6d13808645b682aa75c3f6f24b38a3a145909
 ---

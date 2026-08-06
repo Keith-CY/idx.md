@@ -25,6 +25,6 @@ upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-file
 github_stars: 16661
 github_forks: 1525
 github_is_organization: false
-retrieved_at: 2026-08-05T09:29:57.103Z
+retrieved_at: 2026-08-06T09:34:27.988Z
 content_sha256: fef51835c7567d334c019f355a5794e9fe6124f49fcbe0e9e2694b7406ad2c37
 ---

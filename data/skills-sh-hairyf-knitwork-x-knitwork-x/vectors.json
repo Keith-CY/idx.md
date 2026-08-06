@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-hairyf-knitwork-x-knitwork-x",
-  "generated_at": "2026-08-05T09:30:58.466Z",
+  "generated_at": "2026-08-06T09:34:48.517Z",
   "records": [
     {
       "id": "skills/skills-sh-hairyf-knitwork-x-knitwork-x#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/hairyf/knitwork-x/HEAD/skills/knitwork-x/references/core-overview.md",
-        "retrieved_at": "2026-08-05T09:30:58.466Z",
+        "retrieved_at": "2026-08-06T09:34:48.517Z",
         "content_sha256": "14f498087b077d54f43319de2fad52747d95f44d408646d00c15fdf17be11bb7"
       }
     }

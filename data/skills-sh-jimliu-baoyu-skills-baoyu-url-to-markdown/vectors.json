@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
-  "generated_at": "2026-08-05T09:29:55.397Z",
+  "generated_at": "2026-08-06T09:34:27.440Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md",
-        "retrieved_at": "2026-08-05T09:29:55.397Z",
+        "retrieved_at": "2026-08-06T09:34:27.440Z",
         "content_sha256": "571620de72538e8b4f247a63e6db27ce5a27495d1283015ec16c1076d91811cc"
       }
     }

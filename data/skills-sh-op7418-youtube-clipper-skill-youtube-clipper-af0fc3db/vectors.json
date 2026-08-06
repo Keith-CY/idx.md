@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db",
-  "generated_at": "2026-08-05T09:30:37.715Z",
+  "generated_at": "2026-08-06T09:34:41.575Z",
   "records": [
     {
       "id": "skills/skills-sh-op7418-youtube-clipper-skill-youtube-clipper-af0fc3db#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/op7418/youtube-clipper-skill/main/README.md",
-        "retrieved_at": "2026-08-05T09:30:37.715Z",
+        "retrieved_at": "2026-08-06T09:34:41.575Z",
         "content_sha256": "16234a04fc31ebd88e44c294220619c4b98b331a7356101bee8d05821a831d1e"
       }
     }
