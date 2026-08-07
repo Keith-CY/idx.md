@@ -12,7 +12,7 @@ summary: >-
 
   ## Template
 
-  ```markdown
+  ````markdown
 
   # Azure Deployment Preflight Report
 
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/azure-deployment-prefligh
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-08-06T09:34:28.840Z
-content_sha256: 685de9d8d43bfe58cfd9f20d8fa35b04e9da983f8122754400dc4b7457420197
+retrieved_at: 2026-08-07T08:07:07.943Z
+content_sha256: 7c283a3fe492bd270d3a640954909364501856f7e12710a3c0a69370908343a4
 ---

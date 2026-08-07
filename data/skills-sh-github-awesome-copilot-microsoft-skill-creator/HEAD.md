@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/microsoft-skill-creator
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-08-06T09:34:29.216Z
-content_sha256: ff30f0b66e3d4ce70fa97fb764491fd33728a2b47baf9c37f892bc2b64fe73f6
+retrieved_at: 2026-08-07T08:07:08.444Z
+content_sha256: 7d98e8889e6c8859bb6d9520ea753adf0f69690c33f050ce3225eba51b604fcb
 ---

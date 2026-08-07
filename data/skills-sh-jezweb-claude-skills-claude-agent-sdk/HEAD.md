@@ -5,6 +5,27 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.224
+
+  - Added `crossSessionInbound` and `dialogExpiry` settings: cross-session
+  messages sent to a session running with bypassed permissions are held for your
+  approval, and messages to other sessions auto-deliver
+
+  - Added `subkind: 'peer-send-message'` to the `task-notification` member of
+  `SDKMessageOrigin`, marking a notification raised by a cross-session
+  `SendMessage`
+
+  - Added `source: 'archive'` plugin config variant to `Settings`, with `url`
+  and optional `sha256`, for installing plugins from a zip over HTTPS
+
+  - Added sandbox credential-masking fields to `Settings`: `decode: 'jwt'` with
+  `maskClaims`, `extract`/`onExtractNoMatch` on `envVars`, and
+  `awsPairs`/`sigv4` for AWS SigV4 re-signing
+
+  - Fixed long (>200 char) project paths resolving to another project's session
+  directory under a shared sanitized prefix; session
+  list/get/rename/tag/fork/delete and `/resume` no longer cross projects
+
   ## 0.3.223
 
   - Added `resumeDropsTurn` option: with `resumeSessionAt`, declares the turn a
@@ -14,24 +35,6 @@ summary: >-
   - Result messages for repeated 529 overload failures now include
   `api_error_status: 529`, so SDK consumers can detect overload terminations
   structurally instead of matching message text
-
-  - Bare headless (`-p` / SDK `query()` without `canUseTool`) now emits
-  `system/permission_denied` stream events when a tool call is auto-denied
-
-  - Documented `usage` vs `modelUsage` on stream-json results: `usage` is
-  main-loop-only and per-turn; `modelUsage` is cumulative, covers all
-  query-pipeline calls, and is the field for cost accounting
-
-  ## 0.3.222
-
-  - Fixed `query({ sessionStore, resume })` not carrying user `settings.json`
-  (`apiKeyHelper`, `env`, `hooks`, `permissions`) into the resumed subprocess
-
-  ## 0.3.221
-
-  - Improved `skills` option validation: malformed names (delimiters or control
-  characters) and wildcard-form names are rejected with a clear error; use
-  `skills: 'all'` to enable every skill
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +44,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-06T09:34:52.790Z
-content_sha256: b6526480aba17aacac0376364c9ef45eda255b9863139c77924e296d152ebc33
+retrieved_at: 2026-08-07T08:07:33.946Z
+content_sha256: 0ebd880555e385f734fbecad14f0ae2c1bb82451e7db24d6df0e9e2eabc166f4
 ---

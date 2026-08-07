@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-legacy-circuit-mockups",
-  "generated_at": "2026-08-06T09:34:29.172Z",
+  "generated_at": "2026-08-07T08:07:08.375Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-legacy-circuit-mockups#head",
       "kind": "head",
       "path": "/data/skills-sh-github-awesome-copilot-legacy-circuit-mockups/HEAD.md",
-      "text": "title: skills-sh-github-awesome-copilot-legacy-circuit-mockups\nsummary: # 555 [www.fairchildsemi.com](www.fairchildsemi.com) The LM555/NE555/SA555 is a highly stable controller capable of producing accurate timing pulses. With a monostable operation, the time delay is controlled by one external resistor and one capacitor. With an astable operation, the frequency and duty cycle are accurately controlled by two external resistors and one capacitor. ## Features - High Current Drive Capability (200mA) - Adjustable Duty Cycle - Temperature Stability of 0.005%/°C - Timing From μSec to Hours - Turn off Time Less Than 2μSec ## Applications\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md",
+      "text": "title: skills-sh-github-awesome-copilot-legacy-circuit-mockups\nsummary: # 555 [www.fairchildsemi.com](https://www.fairchildsemi.com) The LM555/NE555/SA555 is a highly stable controller capable of producing accurate timing pulses. With a monostable operation, the time delay is controlled by one external resistor and one capacitor. With an astable operation, the frequency and duty cycle are accurately controlled by two external resistors and one capacitor. ## Features - High Current Drive Capability (200mA) - Adjustable Duty Cycle - Temperature Stability of 0.005%/°C - Timing From μSec to Hours - Turn off Time Less Than 2μSec ## Applications\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md",
       "metadata": {
         "stable_id": "skills/skills-sh-github-awesome-copilot-legacy-circuit-mockups",
         "topic": "skills-sh-github-awesome-copilot-legacy-circuit-mockups",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/legacy-circuit-mockups/references/555.md",
-        "retrieved_at": "2026-08-06T09:34:29.172Z",
-        "content_sha256": "b053c8faa2db8049ccbecb6151fca496546e9a5cd846d19321bd6f80570c045f"
+        "retrieved_at": "2026-08-07T08:07:08.375Z",
+        "content_sha256": "ba71f4f78946d28fd9719db505535e77287f7a072cd4523cfbd1de1fa0043ea1"
       }
     }
   ]

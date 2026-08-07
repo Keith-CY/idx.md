@@ -5,7 +5,7 @@ title: skills-sh-github-awesome-copilot-legacy-circuit-mockups
 summary: >-
   # 555
 
-  [www.fairchildsemi.com](www.fairchildsemi.com)
+  [www.fairchildsemi.com](https://www.fairchildsemi.com)
 
   The LM555/NE555/SA555 is  a highly stable controller capable of producing
   accurate timing pulses. With a monostable operation, the time delay is
@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/legacy-circuit-mockups
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-08-06T09:34:29.172Z
-content_sha256: b053c8faa2db8049ccbecb6151fca496546e9a5cd846d19321bd6f80570c045f
+retrieved_at: 2026-08-07T08:07:08.375Z
+content_sha256: ba71f4f78946d28fd9719db505535e77287f7a072cd4523cfbd1de1fa0043ea1
 ---

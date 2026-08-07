@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-madteacher-mad-agents-skills-flutter-architecture",
-  "generated_at": "2026-08-06T09:35:37.082Z",
+  "generated_at": "2026-08-07T08:08:21.809Z",
   "records": [
     {
       "id": "skills/skills-sh-madteacher-mad-agents-skills-flutter-architecture#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/madteacher/mad-agents-skills/HEAD/flutter-architecture/references/feature-first.md",
-        "retrieved_at": "2026-08-06T09:35:37.082Z",
+        "retrieved_at": "2026-08-07T08:08:21.809Z",
         "content_sha256": "15bb275986b3916c819fdc99e0f80075b4f6d0e0ca2cc39c6c44e6f39ab08d92"
       }
     }
