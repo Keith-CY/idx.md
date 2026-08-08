@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics",
-  "generated_at": "2026-08-07T08:07:14.251Z",
+  "generated_at": "2026-08-08T07:40:51.797Z",
   "records": [
     {
       "id": "skills/github-skill-jeremylongshore-claude-code-plugins-plus-skills-klingai-pricing-basics#head",
@@ -21,7 +21,7 @@
           "github-repo-claude-code-plugins-plus-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/jeremylongshore/claude-code-plugins-plus-skills/main/plugins/saas-packs/klingai-pack/skills/klingai-pricing-basics/SKILL.md",
-        "retrieved_at": "2026-08-07T08:07:14.251Z",
+        "retrieved_at": "2026-08-08T07:40:51.797Z",
         "content_sha256": "116845254a0fb499650c7604aefe94d4e040628bc06f9e7ac780d15daa732b82"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-madteacher-mad-agents-skills-flutter-adaptive-ui",
-  "generated_at": "2026-08-07T08:08:21.634Z",
+  "generated_at": "2026-08-08T07:43:25.478Z",
   "records": [
     {
       "id": "skills/skills-sh-madteacher-mad-agents-skills-flutter-adaptive-ui#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/madteacher/mad-agents-skills/HEAD/flutter-adaptive-ui/references/layout-constraints.md",
-        "retrieved_at": "2026-08-07T08:08:21.634Z",
+        "retrieved_at": "2026-08-08T07:43:25.478Z",
         "content_sha256": "afe9bfb38b076a97af0e96e5f7dd1427e0ac2ddd72c52812ae74448397f05174"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-coreyhaines31-marketingskills-programmatic-seo",
-  "generated_at": "2026-08-07T08:07:13.177Z",
+  "generated_at": "2026-08-08T07:40:49.437Z",
   "records": [
     {
       "id": "skills/github-skill-coreyhaines31-marketingskills-programmatic-seo#head",
@@ -21,7 +21,7 @@
           "github-repo-marketingskills"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/skills/programmatic-seo/SKILL.md",
-        "retrieved_at": "2026-08-07T08:07:13.177Z",
+        "retrieved_at": "2026-08-08T07:40:49.437Z",
         "content_sha256": "15cb5979cab5263ede902a830e03342869256ece17905bff240eef498e27cde1"
       }
     }
