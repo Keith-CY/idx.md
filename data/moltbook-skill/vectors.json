@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "moltbook-skill",
-  "generated_at": "2026-08-08T07:41:03.212Z",
+  "generated_at": "2026-08-10T08:22:04.659Z",
   "records": [
     {
       "id": "skills/moltbook-skill#head",
@@ -15,7 +15,7 @@
         "title": "moltbook-skill",
         "tags": [],
         "source_url": "https://moltbook.com/skill.md",
-        "retrieved_at": "2026-08-08T07:41:03.212Z",
+        "retrieved_at": "2026-08-10T08:22:04.659Z",
         "content_sha256": "10f3c03a17cf42c79642e73e2d3bf3255743f22de5d6db215ac6c6b3cd1b28c9"
       }
     }

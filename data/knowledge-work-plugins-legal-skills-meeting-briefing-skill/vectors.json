@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-legal-skills-meeting-briefing-skill",
-  "generated_at": "2026-08-08T07:41:10.461Z",
+  "generated_at": "2026-08-10T08:22:14.103Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-legal-skills-meeting-briefing-skill#head",
@@ -21,7 +21,7 @@
           "category-uncategorized"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/meeting-briefing/SKILL.md",
-        "retrieved_at": "2026-08-08T07:41:10.461Z",
+        "retrieved_at": "2026-08-10T08:22:14.103Z",
         "content_sha256": "4d19bc2ddb2138d1b306b150c5d0900ce0a398d5ab690b8eba8101ef33d98baa"
       }
     }

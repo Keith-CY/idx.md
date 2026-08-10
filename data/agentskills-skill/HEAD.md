@@ -7,10 +7,11 @@ summary: >-
 
   name: Agent
 
-  description: Use when creating, optimizing, or evaluating Agent Skills —
-  reusable instruction packages that extend AI agent capabilities. Reach for
-  this skill when you need to package domain expertise into a SKILL.md file,
-  test skill triggering, grade skill outputs, or integrate skills into an agent
+  description: Use when creating, testing, optimizing, or implementing Agent
+  Skills — the open format for packaging specialized knowledge and workflows
+  into reusable skill directories that agents load on demand. Reach for this
+  skill when building skills for agents, evaluating skill quality, optimizing
+  skill descriptions for triggering, or integrating skills support into an agent
   product.
 
   metadata:
@@ -18,17 +19,15 @@ summary: >-
       version: "1.0"
   ---
 
-  # Agent Skills Skill
+  # Agent Skills
 
   ## Product summary
 
-  Agent Skills is an open format for packaging specialized knowledge and
-  workflows into reusable instruction sets that agents load on demand. A skill
-  is a folder containing a `SKILL.md` file (required metadata + instructions)
-  plus optional supporting files: scripts, references, and assets. Agents use
-  **progressive disclosure** to load only the metadata at startup, then read
-  full instructions when a task matches the skill's description, keeping context
-  efficient while providing access to specialized knowledge.
+  Agent Skills is an open format for packaging specialized knowledge, workflows,
+  and code into portable, version-controlled skill directories that AI agents
+  load on demand. A skill is a folder containing a required `SKILL.md` file
+  (metadata + instructions in YAML frontmatter + markdown body), plus optional
+  supporting files in `scripts/`, `references/`, and `assets/` directories.
 tags: []
 source_url: https://agentskills.io/skill.md
 license: ""
@@ -36,6 +35,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-08T07:41:03.542Z
-content_sha256: 623c345c132e2676bfb343f4a09327a9eb13ca37130f72937024096c208074b0
+retrieved_at: 2026-08-10T08:22:04.737Z
+content_sha256: 624f1c7f14a89481823f156aad5b665064a3c595cd9682e73c26f48db88994fc
 ---

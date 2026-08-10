@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-ts-library",
-  "generated_at": "2026-08-08T07:41:39.884Z",
+  "generated_at": "2026-08-10T08:22:59.169Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-ts-library#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/ts-library/references/project-setup.md",
-        "retrieved_at": "2026-08-08T07:41:39.884Z",
+        "retrieved_at": "2026-08-10T08:22:59.169Z",
         "content_sha256": "2c48c69f958dbc84d435513df0b8ba0d1d507b72d8eb3033c3413f70875ee18b"
       }
     }

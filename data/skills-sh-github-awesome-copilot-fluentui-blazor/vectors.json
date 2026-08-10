@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-fluentui-blazor",
-  "generated_at": "2026-08-08T07:40:40.437Z",
+  "generated_at": "2026-08-10T08:21:30.355Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-fluentui-blazor#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/HEAD/skills/fluentui-blazor/references/SETUP.md",
-        "retrieved_at": "2026-08-08T07:40:40.437Z",
+        "retrieved_at": "2026-08-10T08:21:30.355Z",
         "content_sha256": "297ae2f3ceade5e6c79d03b9739150cd2ee687714e78e0b0ffbe94ff6f20e062"
       }
     }
