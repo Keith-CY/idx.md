@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert",
-  "generated_at": "2026-08-10T08:25:48.828Z",
+  "generated_at": "2026-08-11T08:06:40.834Z",
   "records": [
     {
       "id": "skills/skills-sh-czlonkowski-n8n-skills-n8n-mcp-tools-expert#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/czlonkowski/n8n-skills/HEAD/skills/n8n-mcp-tools-expert/SEARCH_GUIDE.md",
-        "retrieved_at": "2026-08-10T08:25:48.828Z",
+        "retrieved_at": "2026-08-11T08:06:40.834Z",
         "content_sha256": "294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0"
       }
     }

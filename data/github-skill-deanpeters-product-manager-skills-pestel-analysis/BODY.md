@@ -5,6 +5,15 @@ description: Analyze political, economic, social, technological, environmental, 
 intent: >-
   Conduct a systematic analysis of macro-environmental factors—Political, Economic, Social, Technological, Environmental, and Legal—that could impact your product or project. Use this to identify external opportunities and threats, inform strategic planning, assess market entry risks, and make data-driven decisions about product direction in the context of broader forces beyond your control.
 type: component
+theme: market-intelligence
+best_for:
+  - "Scanning external forces before committing to a strategy or roadmap"
+  - "Naming the macro assumptions your plan quietly depends on"
+  - "Preparing the environmental context for a strategy review"
+scenarios:
+  - "We're setting next year's strategy and haven't looked at external forces in a while"
+  - "New regulation is coming and I need to map what else could shift underneath us"
+estimated_time: "30-45 min"
 ---
 
 

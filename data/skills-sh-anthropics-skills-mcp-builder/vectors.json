@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-anthropics-skills-mcp-builder",
-  "generated_at": "2026-08-10T08:21:18.407Z",
+  "generated_at": "2026-08-11T08:03:37.810Z",
   "records": [
     {
       "id": "skills/skills-sh-anthropics-skills-mcp-builder#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/skills/HEAD/skills/mcp-builder/reference/mcp_best_practices.md",
-        "retrieved_at": "2026-08-10T08:21:18.407Z",
+        "retrieved_at": "2026-08-11T08:03:37.810Z",
         "content_sha256": "80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007"
       }
     }

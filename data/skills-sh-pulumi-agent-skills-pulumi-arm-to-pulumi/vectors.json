@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi",
-  "generated_at": "2026-08-10T08:22:57.760Z",
+  "generated_at": "2026-08-11T08:04:52.635Z",
   "records": [
     {
       "id": "skills/skills-sh-pulumi-agent-skills-pulumi-arm-to-pulumi#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/pulumi/agent-skills/HEAD/migration/skills/pulumi-arm-to-pulumi/arm-import.md",
-        "retrieved_at": "2026-08-10T08:22:57.760Z",
+        "retrieved_at": "2026-08-11T08:04:52.635Z",
         "content_sha256": "ea39de8e596c580b86a0d0e4878bd3a29acf19b65549d641c50bff203bdb24b5"
       }
     }

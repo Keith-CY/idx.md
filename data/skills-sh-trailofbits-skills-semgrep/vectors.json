@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-semgrep",
-  "generated_at": "2026-08-10T08:25:50.803Z",
+  "generated_at": "2026-08-11T08:06:42.414Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-semgrep#head",
       "kind": "head",
       "path": "/data/skills-sh-trailofbits-skills-semgrep/HEAD.md",
-      "text": "title: skills-sh-trailofbits-skills-semgrep\nsummary: # Scan Modes Reference ## Mode: Run All Full scan with all rulesets and severity levels. Current default behavior. No filtering applied — all findings are reported and triaged. ## Mode: Important Only Focused on high-confidence security vulnerabilities. Excludes code quality, best practices, and low-confidence audit findings. ### Pre-Filter: CLI Severity Flag Add these flags to every `semgrep` command: ```bash --severity MEDIUM --severity HIGH --severity CRITICAL ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/semgrep/references/scan-modes.md",
+      "text": "title: skills-sh-trailofbits-skills-semgrep\nsummary: # Scan Modes Reference ## Mode: Run All Full scan with all rulesets and severity levels. Current default behavior. No filtering applied — all findings are reported and triaged. ## Mode: Important Only Focused on high-confidence security vulnerabilities. Excludes code quality, best practices, and low-confidence audit findings. ### Pre-Filter: CLI Severity Flag Add these flags to every `semgrep` command: ```bash --severity WARNING --severity ERROR ```\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/semgrep/references/scan-modes.md",
       "metadata": {
         "stable_id": "skills/skills-sh-trailofbits-skills-semgrep",
         "topic": "skills-sh-trailofbits-skills-semgrep",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/semgrep/references/scan-modes.md",
-        "retrieved_at": "2026-08-10T08:25:50.803Z",
-        "content_sha256": "76c8d41c8fc2c36daa44171db345373e169da46a69387378a31ef26061102c97"
+        "retrieved_at": "2026-08-11T08:06:42.414Z",
+        "content_sha256": "6450b636217ae7aff577828c9e4b570737291b09e3cd25f3678c8bf6e48deeab"
       }
     }
   ]

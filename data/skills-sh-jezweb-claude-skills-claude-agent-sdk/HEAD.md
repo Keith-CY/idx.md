@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.227
+
+  - Updated to parity with Claude Code v2.1.227
+
   ## 0.3.226
 
   - Updated to parity with Claude Code v2.1.226
@@ -24,13 +28,6 @@ summary: >-
   - Added `subkind: 'peer-send-message'` to the `task-notification` member of
   `SDKMessageOrigin`, marking a notification raised by a cross-session
   `SendMessage`
-
-  - Added `source: 'archive'` plugin config variant to `Settings`, with `url`
-  and optional `sha256`, for installing plugins from a zip over HTTPS
-
-  - Added sandbox credential-masking fields to `Settings`: `decode: 'jwt'` with
-  `maskClaims`, `extract`/`onExtractNoMatch` on `envVars`, and
-  `awsPairs`/`sigv4` for AWS SigV4 re-signing
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-10T08:22:41.912Z
-content_sha256: 86108f6e40c6bfca5dd25f09ec8a70b178af9694fde3ba15fa53e99e619aa110
+retrieved_at: 2026-08-11T08:04:40.330Z
+content_sha256: dd59efbcaa5647134b06997afde5d30d8a24f9c1dfb4f9cf713426df012f68c9
 ---

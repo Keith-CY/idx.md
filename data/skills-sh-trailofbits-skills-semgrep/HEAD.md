@@ -21,7 +21,7 @@ summary: >-
 
   ```bash
 
-  --severity MEDIUM --severity HIGH --severity CRITICAL
+  --severity WARNING --severity ERROR
 
   ```
 tags:
@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/semgrep
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-10T08:25:50.803Z
-content_sha256: 76c8d41c8fc2c36daa44171db345373e169da46a69387378a31ef26061102c97
+retrieved_at: 2026-08-11T08:06:42.414Z
+content_sha256: 6450b636217ae7aff577828c9e4b570737291b09e3cd25f3678c8bf6e48deeab
 ---
