@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-codeql",
-  "generated_at": "2026-08-11T08:04:53.091Z",
+  "generated_at": "2026-08-12T08:09:01.588Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-codeql#head",
       "kind": "head",
       "path": "/data/skills-sh-trailofbits-skills-codeql/HEAD.md",
-      "text": "title: skills-sh-trailofbits-skills-codeql\nsummary: # Build Database Workflow Create high-quality CodeQL databases by trying build methods in sequence until one produces good results. ## Task System Create these tasks on workflow start: ``` TaskCreate: \"Detect language and configure\" (Step 1) TaskCreate: \"Build database\" (Step 2) - blockedBy: Step 1 TaskCreate: \"Apply fixes if needed\" (Step 3) - blockedBy: Step 2 TaskCreate: \"Assess quality\" (Step 4) - blockedBy: Step 3 TaskCreate: \"Improve quality if needed\" (Step 5) - blockedBy: Step 4\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md",
+      "text": "title: skills-sh-trailofbits-skills-codeql\nsummary: # Build Database Workflow Create high-quality CodeQL databases by trying build methods in sequence until one produces good results. ## Overview What matters is which build modes a language accepts, not whether it is interpreted. Go is compiled but has no `none` mode; C# and Java are compiled and do. Confirm against your own CLI with `codeql database create --help`, and note its `none` list is incomplete — it omits C/C++ and Rust, both of which do support `none` (2.25.6). ### No build needed (Python, JavaScript/TypeScript, Ruby) - CodeQL extracts source directly - **Exclusion config supported** — use `--codescanning-config` to skip irrelevant files\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md",
       "metadata": {
         "stable_id": "skills/skills-sh-trailofbits-skills-codeql",
         "topic": "skills-sh-trailofbits-skills-codeql",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/codeql/workflows/build-database.md",
-        "retrieved_at": "2026-08-11T08:04:53.091Z",
-        "content_sha256": "7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1"
+        "retrieved_at": "2026-08-12T08:09:01.588Z",
+        "content_sha256": "06794bb67182303b0c81d30b3772531537d9f986b7b2cbe2a9ffa4b4f3e230ba"
       }
     }
   ]

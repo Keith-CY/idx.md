@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-router-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-11T08:04:29.008Z
+retrieved_at: 2026-08-12T08:08:53.141Z
 content_sha256: 8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad
 ---

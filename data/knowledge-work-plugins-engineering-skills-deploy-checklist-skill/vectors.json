@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-deploy-checklist-skill",
-  "generated_at": "2026-08-11T08:06:33.923Z",
+  "generated_at": "2026-08-12T08:09:30.726Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-deploy-checklist-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/deploy-checklist/SKILL.md",
-        "retrieved_at": "2026-08-11T08:06:33.923Z",
+        "retrieved_at": "2026-08-12T08:09:30.726Z",
         "content_sha256": "85ca53dc471970e3e12c36ec814ebf5f6cb9419016c55adb05ff34789bae3be9"
       }
     }

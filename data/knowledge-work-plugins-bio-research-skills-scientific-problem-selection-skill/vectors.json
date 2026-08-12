@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-bio-research-skills-scientific-problem-selection-skill",
-  "generated_at": "2026-08-11T08:04:24.829Z",
+  "generated_at": "2026-08-12T08:08:52.048Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-bio-research-skills-scientific-problem-selection-skill#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/scientific-problem-selection/SKILL.md",
-        "retrieved_at": "2026-08-11T08:04:24.829Z",
+        "retrieved_at": "2026-08-12T08:08:52.048Z",
         "content_sha256": "9ec99e3e5b2f4cd7474ef2bb8a1b10ee1f97dbe688c7723c7ec0b18deb8ff0f4"
       }
     }

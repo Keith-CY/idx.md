@@ -8,21 +8,25 @@ summary: >-
   Create high-quality CodeQL databases by trying build methods in sequence until
   one produces good results.
 
-  ## Task System
+  ## Overview
 
-  Create these tasks on workflow start:
+  What matters is which build modes a language accepts, not whether it is
+  interpreted.
 
-  ```
+  Go is compiled but has no `none` mode; C# and Java are compiled and do.
+  Confirm against
 
-  TaskCreate: "Detect language and configure" (Step 1)
+  your own CLI with `codeql database create --help`, and note its `none` list is
 
-  TaskCreate: "Build database" (Step 2) - blockedBy: Step 1
+  incomplete — it omits C/C++ and Rust, both of which do support `none`
+  (2.25.6).
 
-  TaskCreate: "Apply fixes if needed" (Step 3) - blockedBy: Step 2
+  ### No build needed (Python, JavaScript/TypeScript, Ruby)
 
-  TaskCreate: "Assess quality" (Step 4) - blockedBy: Step 3
+  - CodeQL extracts source directly
 
-  TaskCreate: "Improve quality if needed" (Step 5) - blockedBy: Step 4
+  - **Exclusion config supported** — use `--codescanning-config` to skip
+  irrelevant files
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +36,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/codeql
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-11T08:04:53.091Z
-content_sha256: 7fb24c47ffe46a0d6c99b59eadbfd3159017703e77ef799bb1d8e1e7095518f1
+retrieved_at: 2026-08-12T08:09:01.588Z
+content_sha256: 06794bb67182303b0c81d30b3772531537d9f986b7b2cbe2a9ffa4b4f3e230ba
 ---
