@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator",
-  "generated_at": "2026-08-12T08:09:55.218Z",
+  "generated_at": "2026-08-13T08:11:55.882Z",
   "records": [
     {
       "id": "skills/github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator#head",
@@ -21,7 +21,7 @@
           "github-repo-awesome-copilot"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md",
-        "retrieved_at": "2026-08-12T08:09:55.218Z",
+        "retrieved_at": "2026-08-13T08:11:55.882Z",
         "content_sha256": "e53409119442128e2afbc2b48ad1b286fb23b884934de26dd088b3a375fcfb2b"
       }
     }

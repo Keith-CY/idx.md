@@ -20,6 +20,6 @@ upstream_ref: https://github.com/zjunlp/SkillNet/blob/main/experiments/src/skill
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-12T08:09:57.913Z
+retrieved_at: 2026-08-13T08:12:01.841Z
 content_sha256: 83ad60b67e2aabc8db03e1e6c43f39fd385ae9c53293a575a9defa3ed79aa53f
 ---

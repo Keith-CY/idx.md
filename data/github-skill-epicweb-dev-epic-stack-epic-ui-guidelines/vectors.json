@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-epicweb-dev-epic-stack-epic-ui-guidelines",
-  "generated_at": "2026-08-12T08:09:55.153Z",
+  "generated_at": "2026-08-13T08:11:55.720Z",
   "records": [
     {
       "id": "skills/github-skill-epicweb-dev-epic-stack-epic-ui-guidelines#head",
@@ -21,7 +21,7 @@
           "github-repo-epic-stack"
         ],
         "source_url": "https://raw.githubusercontent.com/epicweb-dev/epic-stack/main/docs/skills/epic-ui-guidelines/SKILL.md",
-        "retrieved_at": "2026-08-12T08:09:55.153Z",
+        "retrieved_at": "2026-08-13T08:11:55.720Z",
         "content_sha256": "74bcb9051bf6c222bb994885d81abe0c6b227bbf9913a48e6a594cfd1ff9bec9"
       }
     }

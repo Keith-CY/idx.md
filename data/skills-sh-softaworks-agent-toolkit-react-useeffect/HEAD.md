@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/react-useeffect
 github_stars: 672
 github_forks: 53
 github_is_organization: true
-retrieved_at: 2026-08-12T08:09:01.008Z
+retrieved_at: 2026-08-13T08:12:38.058Z
 content_sha256: 69146321260d67972646ba3cc98465d516431f543c4908cc60c2d60886a8dda9
 ---

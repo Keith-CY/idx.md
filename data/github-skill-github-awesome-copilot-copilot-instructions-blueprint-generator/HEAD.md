@@ -18,6 +18,6 @@ upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-12T08:09:55.218Z
+retrieved_at: 2026-08-13T08:11:55.882Z
 content_sha256: e53409119442128e2afbc2b48ad1b286fb23b884934de26dd088b3a375fcfb2b
 ---

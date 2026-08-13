@@ -18,18 +18,13 @@ summary: >-
   Help turn ideas into fully formed designs and specs through natural
   collaborative dialogue.
 
-  Start by understanding the current project context, then ask questions one at
-  a time to refine the idea. Once you understand what you're building, present
-  the design and get user approval.
+  Start by classifying how much process the request needs, then work
+
+  through your path: understand the context, refine the idea, present a
+
+  design, and get your human partner's approval.
 
   <HARD-GATE>
-
-  Do NOT invoke any implementation skill, write any code, scaffold any project,
-  or take any implementation action until you have presented a design and the
-  user has approved it. This applies to EVERY project regardless of perceived
-  simplicity.
-
-  </HARD-GATE>
 tags:
   - obra
   - source-obra-superpowers
@@ -39,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-08-12T08:09:53.162Z
-content_sha256: 4a54a4858b99807f3155ed1614b2f116e35ea5c1b788e793f565dd837fd3891f
+retrieved_at: 2026-08-13T08:11:34.785Z
+content_sha256: 74edf03ea6d24ef53db48677b93558d14a979bdf052ca3f57ecdca0c66791608
 ---
