@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pproenca-dot-skills-typescript",
-  "generated_at": "2026-08-13T08:12:24.855Z",
+  "generated_at": "2026-08-14T08:07:47.582Z",
   "records": [
     {
       "id": "skills/skills-sh-pproenca-dot-skills-typescript#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/pproenca/dot-skills/HEAD/skills/.curated/typescript/references/_sections.md",
-        "retrieved_at": "2026-08-13T08:12:24.855Z",
+        "retrieved_at": "2026-08-14T08:07:47.582Z",
         "content_sha256": "bd6767139e4f005dc79cb3d8c5dec25a25eb2b0ac6e2fa0f1571fe8595ca2ffe"
       }
     }

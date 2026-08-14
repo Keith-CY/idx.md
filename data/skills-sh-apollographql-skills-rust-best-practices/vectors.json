@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-rust-best-practices",
-  "generated_at": "2026-08-13T08:12:38.879Z",
+  "generated_at": "2026-08-14T08:08:01.318Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-rust-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/rust-best-practices/references/chapter_01.md",
-        "retrieved_at": "2026-08-13T08:12:38.879Z",
+        "retrieved_at": "2026-08-14T08:08:01.318Z",
         "content_sha256": "05aed21a95cce7a97badc44f628eb7e23466f7be178a8c8ce8e3c7c1f82fd306"
       }
     }

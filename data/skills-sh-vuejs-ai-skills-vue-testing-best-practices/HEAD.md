@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-testing-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-13T08:12:20.544Z
+retrieved_at: 2026-08-14T08:07:42.392Z
 content_sha256: acfa0b3986e092f43d4cd8090864860cff07ffa3aaa62a10c5a622770ccaeb6b
 ---

@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.232
+
+- Subagent MCP `tool_result` frames whose result carries `_meta` now emit `tool_use_result` as `{ content, _meta }` (matching main-loop frames) instead of a bare value
+- `/context` result messages now carry a structured `context_usage` payload (new `SDKContextUsage` type), so consumers can render the context-usage card without parsing the markdown table
+- `vcs_state_changed` events now populate the `branch` field for push operations, sourced from the pushed ref
+
+## 0.3.231
+
+- Updated to parity with Claude Code v2.1.231
+
+## 0.3.230
+
+- Updated to parity with Claude Code v2.1.230
+
 ## 0.3.229
 
 - Added `terminal_slash_commands` to the system init message so Remote Control clients can hide terminal-oriented commands

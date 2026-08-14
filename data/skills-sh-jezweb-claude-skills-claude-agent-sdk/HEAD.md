@@ -5,27 +5,28 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.232
+
+  - Subagent MCP `tool_result` frames whose result carries `_meta` now emit
+  `tool_use_result` as `{ content, _meta }` (matching main-loop frames) instead
+  of a bare value
+
+  - `/context` result messages now carry a structured `context_usage` payload
+  (new `SDKContextUsage` type), so consumers can render the context-usage card
+  without parsing the markdown table
+
+  - `vcs_state_changed` events now populate the `branch` field for push
+  operations, sourced from the pushed ref
+
+  ## 0.3.231
+
+  - Updated to parity with Claude Code v2.1.231
+
+  ## 0.3.230
+
+  - Updated to parity with Claude Code v2.1.230
+
   ## 0.3.229
-
-  - Added `terminal_slash_commands` to the system init message so Remote Control
-  clients can hide terminal-oriented commands
-
-  - Changed conversations whose messages alone exceed the API's 32 MB limit to
-  end the turn with `terminal_reason` `"api_error"` instead of `"image_error"`;
-  `StopFailure` `error_details` is `"request_body_over_limit: …"`
-
-  ## 0.3.228
-
-  - Agent tool results (`AgentOutput`): `usage.output_tokens_details` is now
-  carried through
-
-  ## 0.3.227
-
-  - Updated to parity with Claude Code v2.1.227
-
-  ## 0.3.226
-
-  - Updated to parity with Claude Code v2.1.226
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-13T08:12:27.752Z
-content_sha256: bb40761de8ade3967f87664fbc4a878616b6674925405ddc8c7631a3b5539503
+retrieved_at: 2026-08-14T08:07:51.266Z
+content_sha256: 05fc04048a87c7725f80fb0925d764604283bff2b7f89c5a4d238395c5769f7c
 ---
