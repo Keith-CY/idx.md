@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-firecrawl-cli-firecrawl",
-  "generated_at": "2026-08-14T08:06:59.160Z",
+  "generated_at": "2026-08-15T07:31:10.961Z",
   "records": [
     {
       "id": "skills/skills-sh-firecrawl-cli-firecrawl#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-cli/rules/install.md",
-        "retrieved_at": "2026-08-14T08:06:59.160Z",
+        "retrieved_at": "2026-08-15T07:31:10.961Z",
         "content_sha256": "e8675643b85744cb5b40e43600d85fe86b412d1863c501b0ecba1e11a6eae9c4"
       }
     }

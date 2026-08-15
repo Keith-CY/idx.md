@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-translate",
-  "generated_at": "2026-08-14T08:07:08.170Z",
+  "generated_at": "2026-08-15T07:31:22.177Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-translate#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md",
-        "retrieved_at": "2026-08-14T08:07:08.170Z",
+        "retrieved_at": "2026-08-15T07:31:22.177Z",
         "content_sha256": "ba3677cf40bb5063f450927b4fcde2f361a832e6a8632604a270df8372884593"
       }
     }

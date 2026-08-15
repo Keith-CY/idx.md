@@ -36,6 +36,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/screens
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-08-14T08:07:24.740Z
+retrieved_at: 2026-08-15T07:31:30.513Z
 content_sha256: 081935a6a163277537d46365f49d6b4a3cb40b4748347e7e88759c5927fa8cf5
 ---

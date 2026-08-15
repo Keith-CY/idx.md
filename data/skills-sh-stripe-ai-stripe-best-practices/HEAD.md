@@ -9,10 +9,10 @@ summary: |-
   - Integration surfaces
   - Payment Element guidance
   - Saving payment methods
+  - Webhooks and fulfillment
   - Dynamic payment methods
   - Deprecated APIs and migration paths
   - PCI compliance
-  ## API hierarchy
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/stripe/ai/stripe-best-practices
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-14T08:07:12.612Z
-content_sha256: c56f39bbd590225c269e28cd01903f7d50d0041b56f821f330e72f6f843756f8
+retrieved_at: 2026-08-15T07:31:27.459Z
+content_sha256: da5ba3569a74231c17933f93a3928c5d7035498e1c2bc4b8674c0444bd13d7ec
 ---

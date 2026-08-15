@@ -5,6 +5,17 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.233
+
+  - Notification hooks now fire for pending permission prompts on the SDK path,
+  matching the interactive REPL behavior
+
+  - Todo/task-tracking tools (`TaskCreate`/`TaskGet`/`TaskUpdate`/`TaskList`,
+  `TodoWrite`) are no longer in the default tool surface on Opus 4.8, Sonnet 5,
+  Fable 5, Mythos 5, and newer models; name them in the `tools` option or
+  reference them in `allowedTools` (or set `CLAUDE_CODE_ENABLE_TODO_TOOLS=1`) to
+  keep them
+
   ## 0.3.232
 
   - Subagent MCP `tool_result` frames whose result carries `_meta` now emit
@@ -21,12 +32,6 @@ summary: >-
   ## 0.3.231
 
   - Updated to parity with Claude Code v2.1.231
-
-  ## 0.3.230
-
-  - Updated to parity with Claude Code v2.1.230
-
-  ## 0.3.229
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-14T08:07:51.266Z
-content_sha256: 05fc04048a87c7725f80fb0925d764604283bff2b7f89c5a4d238395c5769f7c
+retrieved_at: 2026-08-15T07:22:56.545Z
+content_sha256: 1b582d238219eae32cff799240dffeb89ad3d04a28919c713fad135a92045faa
 ---
