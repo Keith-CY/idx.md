@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-comic
 github_stars: 4718
 github_forks: 521
 github_is_organization: false
-retrieved_at: 2026-08-15T07:22:49.814Z
+retrieved_at: 2026-08-17T07:43:56.835Z
 content_sha256: b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6
 ---

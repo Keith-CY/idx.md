@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-kepano-obsidian-skills-obsidian-bases",
-  "generated_at": "2026-08-15T07:31:16.318Z",
+  "generated_at": "2026-08-17T07:49:08.520Z",
   "records": [
     {
       "id": "skills/skills-sh-kepano-obsidian-skills-obsidian-bases#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/kepano/obsidian-skills/HEAD/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-        "retrieved_at": "2026-08-15T07:31:16.318Z",
+        "retrieved_at": "2026-08-17T07:49:08.520Z",
         "content_sha256": "208fd63aead9bca1975626fea52605e6ab9434dc0529d923feb36b18b8877d3b"
       }
     }

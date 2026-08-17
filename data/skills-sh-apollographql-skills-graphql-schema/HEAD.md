@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/apollographql/skills/graphql-schema
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-15T07:28:10.313Z
+retrieved_at: 2026-08-17T07:47:07.078Z
 content_sha256: 7dab0e654365865feeb43547cb758a74d69a395ec4e2c755c28a2f97cc7c1e5d
 ---

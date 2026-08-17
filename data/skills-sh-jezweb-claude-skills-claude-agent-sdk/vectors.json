@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-08-15T07:22:56.545Z",
+  "generated_at": "2026-08-17T07:44:02.885Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-08-15T07:22:56.545Z",
+        "retrieved_at": "2026-08-17T07:44:02.885Z",
         "content_sha256": "1b582d238219eae32cff799240dffeb89ad3d04a28919c713fad135a92045faa"
       }
     }
