@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-quickwit-oss-quickwit-simple-pr",
-  "generated_at": "2026-08-17T07:48:55.209Z",
+  "generated_at": "2026-08-18T07:34:50.477Z",
   "records": [
     {
       "id": "skills/github-skill-quickwit-oss-quickwit-simple-pr#head",
@@ -21,7 +21,7 @@
           "github-repo-quickwit"
         ],
         "source_url": "https://raw.githubusercontent.com/quickwit-oss/quickwit/main/.claude/skills/simple-pr/SKILL.md",
-        "retrieved_at": "2026-08-17T07:48:55.209Z",
+        "retrieved_at": "2026-08-18T07:34:50.477Z",
         "content_sha256": "465ec53738d70b2103e5c3bcc53837884b914d7a517b217f8fa856179e0eda13"
       }
     }
