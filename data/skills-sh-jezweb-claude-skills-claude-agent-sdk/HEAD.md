@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.235
+
+  - Updated to parity with Claude Code v2.1.235
+
   ## 0.3.234
 
   - Removed unused `bypass_permissions_disabled` from `ExitReason` type; the
@@ -26,15 +30,6 @@ summary: >-
   Control bridge init frames
 
   ## 0.3.233
-
-  - Notification hooks now fire for pending permission prompts on the SDK path,
-  matching the interactive REPL behavior
-
-  - Todo/task-tracking tools (`TaskCreate`/`TaskGet`/`TaskUpdate`/`TaskList`,
-  `TodoWrite`) are no longer in the default tool surface on Opus 4.8, Sonnet 5,
-  Fable 5, Mythos 5, and newer models; name them in the `tools` option or
-  reference them in `allowedTools` (or set `CLAUDE_CODE_ENABLE_TODO_TOOLS=1`) to
-  keep them
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-18T07:30:23.759Z
-content_sha256: aa76b0b4e1b23b990f4be07b614a1df10a1a6c850ae59dbba4bf2c01fb02d06c
+retrieved_at: 2026-08-19T07:30:51.207Z
+content_sha256: 5052341f98e997db6d14af00d6c8d4b33be04a9e481ef64f9712789efc5305f5
 ---

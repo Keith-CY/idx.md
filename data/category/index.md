@@ -14,4 +14,4 @@
 | Search & Research | 11 | /category/search-research/index.md |
 | Security & Passwords | 1 | /category/security-passwords/index.md |
 | Transportation | 1 | /category/transportation/index.md |
-| Uncategorized | 452 | /category/uncategorized/index.md |
+| Uncategorized | 451 | /category/uncategorized/index.md |

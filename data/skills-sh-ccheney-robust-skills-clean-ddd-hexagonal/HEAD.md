@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/ccheney/robust-skills/clean-ddd-hexagonal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-18T07:30:22.828Z
+retrieved_at: 2026-08-19T07:30:50.053Z
 content_sha256: 6d320e7332558bb160740bb7f4ea875755b12b3e55f2ca318ca8b51e8509930d
 ---

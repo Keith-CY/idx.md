@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/google-analytics
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-18T07:29:57.091Z
+retrieved_at: 2026-08-19T07:30:20.214Z
 content_sha256: df511151c947a38919aeeec85711229519a65c3a01a5ae50f974b7229c2fabe8
 ---
