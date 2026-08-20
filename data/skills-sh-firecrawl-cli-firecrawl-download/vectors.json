@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-firecrawl-cli-firecrawl-download",
-  "generated_at": "2026-08-19T07:36:02.913Z",
+  "generated_at": "2026-08-20T07:37:53.056Z",
   "records": [
     {
       "id": "skills/skills-sh-firecrawl-cli-firecrawl-download#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-map/SKILL.md",
-        "retrieved_at": "2026-08-19T07:36:02.913Z",
+        "retrieved_at": "2026-08-20T07:37:53.056Z",
         "content_sha256": "ba1d77f6077d7f286fc326c5ff08bb6f21094d3ced939b6fa5117437aeacb3bf"
       }
     }

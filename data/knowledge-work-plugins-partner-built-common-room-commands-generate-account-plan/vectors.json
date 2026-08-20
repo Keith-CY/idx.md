@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-common-room-commands-generate-account-plan",
-  "generated_at": "2026-08-19T07:30:58.759Z",
+  "generated_at": "2026-08-20T07:33:11.720Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-common-room-commands-generate-account-plan#head",
@@ -20,7 +20,7 @@
           "plugin-command"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/common-room/commands/generate-account-plan.md",
-        "retrieved_at": "2026-08-19T07:30:58.759Z",
+        "retrieved_at": "2026-08-20T07:33:11.720Z",
         "content_sha256": "3a8dbc4a8ae7e1a61e37552a21840d1162dfa59ccd6a4f7289355217b71ab6f9"
       }
     }

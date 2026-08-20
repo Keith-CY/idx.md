@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-resciencelab-opc-skills-domain-hunter-6d172174",
-  "generated_at": "2026-08-19T07:30:19.699Z",
+  "generated_at": "2026-08-20T07:32:35.868Z",
   "records": [
     {
       "id": "skills/skills-sh-resciencelab-opc-skills-domain-hunter-6d172174#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/ReScienceLab/opc-skills/main/skills/domain-hunter/references/registrars.md",
-        "retrieved_at": "2026-08-19T07:30:19.699Z",
+        "retrieved_at": "2026-08-20T07:32:35.868Z",
         "content_sha256": "3f36d8253a88fad4526356ade419c97393b075e7c4d3a288e519525be0463078"
       }
     }

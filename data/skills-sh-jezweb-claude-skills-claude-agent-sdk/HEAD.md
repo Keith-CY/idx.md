@@ -5,6 +5,16 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.237
+
+  - Updated to parity with Claude Code v2.1.237
+
+  ## 0.3.236
+
+  - `PostToolUse` hooks can return `hookSpecificOutput.classifierContext`, a
+  short host-asserted note about a tool call's result that the auto mode
+  permission classifier reads alongside that result
+
   ## 0.3.235
 
   - Updated to parity with Claude Code v2.1.235
@@ -17,19 +27,6 @@ summary: >-
 
   - Updated the `ApiKeySource` type to include the values `system/init` actually
   reports (`ANTHROPIC_API_KEY`, `apiKeyHelper`, `/login managed key`, `none`)
-
-  - `vcs_state_changed` events report the directory the shell finished in (an
-  inner `cd` is reflected)
-
-  - A peer `origin` injected by the host may declare the sending session's
-  permission class (`fromMode`) so a same-class message is delivered to a
-  recipient that runs without asking
-
-  - `SDKSystemMessage` (`system`/`init`) gains an optional `effort` field: the
-  session's applied effort level, or `null` when none is sent. Set on Remote
-  Control bridge init frames
-
-  ## 0.3.233
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-19T07:30:51.207Z
-content_sha256: 5052341f98e997db6d14af00d6c8d4b33be04a9e481ef64f9712789efc5305f5
+retrieved_at: 2026-08-20T07:33:04.156Z
+content_sha256: c7217eb208a4116f1f437e88a3e1fc07436b09b209bf709cb7249aa4546fd4d0
 ---

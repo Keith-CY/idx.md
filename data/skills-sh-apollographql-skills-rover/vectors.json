@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-rover",
-  "generated_at": "2026-08-19T07:30:36.749Z",
+  "generated_at": "2026-08-20T07:32:52.638Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-rover#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/rover/references/subgraphs.md",
-        "retrieved_at": "2026-08-19T07:30:36.749Z",
+        "retrieved_at": "2026-08-20T07:32:52.638Z",
         "content_sha256": "f732157ff9b42fdd8dd71280d8ba9c03886cbace4031df5b06831f52835a5c5b"
       }
     }
