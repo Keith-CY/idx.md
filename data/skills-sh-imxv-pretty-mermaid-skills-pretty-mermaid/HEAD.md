@@ -4,15 +4,15 @@ type: skills
 title: skills-sh-imxv-pretty-mermaid-skills-pretty-mermaid
 summary: |-
   # Mermaid Diagram Types Reference
+  ## Contents
+  - [Flowchart / Graph](#flowchart--graph)
+  - [Sequence Diagram](#sequence-diagram)
+  - [State Diagram](#state-diagram)
+  - [Class Diagram](#class-diagram)
+  - [ER Diagram](#er-diagram)
+  - [XY Chart](#xy-chart)
+  - [General Best Practices](#general-best-practices)
   ## Flowchart / Graph
-  ### Basic Syntax
-  ```mermaid
-  flowchart LR
-      A[Node] --> B[Another Node]
-      B --> C{Decision}
-      C -->|Yes| D[Result 1]
-      C -->|No| E[Result 2]
-  ```
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-20T07:35:46.694Z
-content_sha256: 79514ada712884f201f50cddced0a059697a0b82cee7b9a80cf744b9bc369739
+retrieved_at: 2026-08-21T07:36:02.583Z
+content_sha256: dd3a6fd1bdf291dc8f79aa81bfaa959d830ea6cbaa6b2d524da369d739fa53ff
 ---

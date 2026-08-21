@@ -8,7 +8,7 @@ summary: >-
   name: firecrawl-search
 
   description: |
-    Web search with full page content extraction, plus routing to Firecrawl's research paper index. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says "search for", "find me", "look up", "what are people saying about", or "find articles about". Also use it for scientific literature — finding papers, studies, trials, or preprints on PubMed, bioRxiv, medRxiv, or arXiv. Returns real search results with optional full-page markdown — not just snippets. Provides capabilities beyond Claude's built-in WebSearch.
+    Web search with full page content. Use when no URL is known: finding sources, articles, or news. For papers use firecrawl-research-index; for library, API, error, or bug questions use firecrawl-developer-index.
   allowed-tools:
     - Bash(firecrawl *)
     - Bash(npx firecrawl-cli *)
@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-08-20T07:37:52.809Z
-content_sha256: 186e9247597e266c4a2ae7fcfeaa9bfb569dc9e78472765c78b95e2b9229c18d
+retrieved_at: 2026-08-21T07:36:49.478Z
+content_sha256: b3f1649ff94b53c5d8e08b36b1f7786b743ce4a45c1b2971a230aef0839e8211
 ---

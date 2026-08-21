@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-xenitv1-claude-code-maestro-maestro",
-  "generated_at": "2026-08-20T07:32:32.148Z",
+  "generated_at": "2026-08-21T07:34:49.824Z",
   "records": [
     {
       "id": "skills/skills-sh-xenitv1-claude-code-maestro-maestro#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/xenitv1/claude-code-maestro/main/SKILL.md",
-        "retrieved_at": "2026-08-20T07:32:32.148Z",
+        "retrieved_at": "2026-08-21T07:34:49.824Z",
         "content_sha256": "9e1ecadf0c6b3ec9edc2197af88c452c974e7ce3a7876d1875e303f5bd3b10ba"
       }
     }

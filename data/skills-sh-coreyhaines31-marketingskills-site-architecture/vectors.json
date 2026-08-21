@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-site-architecture",
-  "generated_at": "2026-08-20T07:37:43.621Z",
+  "generated_at": "2026-08-21T07:36:44.605Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-site-architecture#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/site-architecture/references/site-type-templates.md",
-        "retrieved_at": "2026-08-20T07:37:43.621Z",
+        "retrieved_at": "2026-08-21T07:36:44.605Z",
         "content_sha256": "3c3cd7ce5e31c502dc071baf82bb58cb30f5edf4a2fd8ca052fbc8f3777db140"
       }
     }

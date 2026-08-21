@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/terraform-azurerm-set-dif
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-08-20T07:37:48.585Z
+retrieved_at: 2026-08-21T07:36:47.269Z
 content_sha256: fcabc67e277dbbc3d46b81edce7aae50e71da4f93dc0b1358e4c45737570e82c
 ---

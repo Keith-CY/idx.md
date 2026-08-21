@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-inferen-sh-skills-ai-image-generation",
-  "generated_at": "2026-08-20T07:37:36.843Z",
+  "generated_at": "2026-08-21T07:36:40.677Z",
   "records": [
     {
       "id": "skills/skills-sh-inferen-sh-skills-ai-image-generation#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/inference-sh/skills/refs/heads/main/cli-install.md",
-        "retrieved_at": "2026-08-20T07:37:36.843Z",
+        "retrieved_at": "2026-08-21T07:36:40.677Z",
         "content_sha256": "0f050f2e2feb82e205786863bbb5239d98792bbc41545cfc87d5ff8693ce4c0c"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-customer-support-skills-customer-escalation-skill",
-  "generated_at": "2026-08-20T07:35:33.414Z",
+  "generated_at": "2026-08-21T07:35:59.742Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-customer-support-skills-customer-escalation-skill#head",
@@ -21,7 +21,7 @@
           "category-communication"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/customer-support/skills/customer-escalation/SKILL.md",
-        "retrieved_at": "2026-08-20T07:35:33.414Z",
+        "retrieved_at": "2026-08-21T07:35:59.742Z",
         "content_sha256": "90c33574a41371e8e116aaf40237141adcd6075ef8bcb9de993de2b543867b3e"
       }
     }
