@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "ibelick-fixing-metadata",
-  "generated_at": "2026-08-21T07:36:34.130Z",
+  "generated_at": "2026-08-22T07:25:02.986Z",
   "records": [
     {
       "id": "skills/ibelick-fixing-metadata#head",
@@ -18,7 +18,7 @@
           "source-ibelick-ui-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/fixing-metadata/SKILL.md",
-        "retrieved_at": "2026-08-21T07:36:34.130Z",
+        "retrieved_at": "2026-08-22T07:25:02.986Z",
         "content_sha256": "b8315ff95a92dcfa48c33e2b4838a31d9448bd46252aab45726549ce865d6547"
       }
     }

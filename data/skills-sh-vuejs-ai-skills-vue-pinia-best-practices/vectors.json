@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-vuejs-ai-skills-vue-pinia-best-practices",
-  "generated_at": "2026-08-21T07:36:49.832Z",
+  "generated_at": "2026-08-22T07:25:15.583Z",
   "records": [
     {
       "id": "skills/skills-sh-vuejs-ai-skills-vue-pinia-best-practices#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/vuejs-ai/skills/HEAD/skills/vue-pinia-best-practices/reference/pinia-no-active-pinia-error.md",
-        "retrieved_at": "2026-08-21T07:36:49.832Z",
+        "retrieved_at": "2026-08-22T07:25:15.583Z",
         "content_sha256": "fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf"
       }
     }

@@ -5,6 +5,24 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.239
+
+  - `total_cost_usd` / `modelUsage.costUSD` now include the 1.1×
+  US-only-inference (data residency) multiplier when the response reports
+  `inference_geo: "us"`
+
+  - A result held back for background subagents in one-shot mode now reports
+  `total_cost_usd`, `duration_api_ms` and `modelUsage` as of its release, not
+  the turn-end snapshot
+
+  - Fixed `SYSTEM_PROMPT_DYNAMIC_BOUNDARY` in an array `systemPrompt` being sent
+  to the model as literal text on Bedrock, Vertex, Foundry, and gateway
+  providers
+
+  - A repeated `initialize` on a running process is now followed by a
+  `background_tasks_changed` snapshot of the live background tasks, so
+  reconnecting hosts see work that is still running
+
   ## 0.3.238
 
   - Added `is_backgrounded` and `spawn_depth` to `task_started` events for
@@ -16,20 +34,6 @@ summary: >-
   - Added `command_lifecycle` state `refused`: a cross-session peer message the
   session's receive-side policy declines now reports this terminal state instead
   of producing no lifecycle frames
-
-  - Fixed SDK hook callbacks silently not applying after a host re-sends
-  `initialize` to an already-running CLI; the response now reports
-  `hooks_applied`
-
-  - Fixed `CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=true` not keeping
-  `prompt_suggestion` messages on when the account is near, but not over, its
-  usage limit
-
-  - Changed `vcs_state_changed` push events to emit one event per pushed branch
-
-  ## 0.3.237
-
-  - Updated to parity with Claude Code v2.1.237
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +43,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-21T07:35:08.839Z
-content_sha256: 200ba0bd1590802b8ea16e3f043dad135610b4b3de77125a1210f132673d1271
+retrieved_at: 2026-08-22T07:23:44.569Z
+content_sha256: 67d2572bf4d9643757d135b4fb89abb8a9a8903f72f21cd4c41e02ad19ee7e07
 ---

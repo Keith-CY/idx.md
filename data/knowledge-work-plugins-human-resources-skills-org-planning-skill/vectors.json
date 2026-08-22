@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-org-planning-skill",
-  "generated_at": "2026-08-21T07:35:10.577Z",
+  "generated_at": "2026-08-22T07:23:45.724Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-org-planning-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/org-planning/SKILL.md",
-        "retrieved_at": "2026-08-21T07:35:10.577Z",
+        "retrieved_at": "2026-08-22T07:23:45.724Z",
         "content_sha256": "b3c6e33d251487225485c7fe455586f0cd490b282d7e41054273fa60820891ea"
       }
     }

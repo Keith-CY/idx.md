@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-assistant-ui-skills-assistant-ui",
-  "generated_at": "2026-08-21T07:35:07.421Z",
+  "generated_at": "2026-08-22T07:23:43.197Z",
   "records": [
     {
       "id": "skills/skills-sh-assistant-ui-skills-assistant-ui#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md",
-        "retrieved_at": "2026-08-21T07:35:07.421Z",
+        "retrieved_at": "2026-08-22T07:23:43.197Z",
         "content_sha256": "675a9e430ba46b3e44ce5fe99d57a4359b4b1254abd1888f58bd84011b2667ef"
       }
     }

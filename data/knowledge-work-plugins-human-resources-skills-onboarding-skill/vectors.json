@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-human-resources-skills-onboarding-skill",
-  "generated_at": "2026-08-21T07:35:59.765Z",
+  "generated_at": "2026-08-22T07:24:31.005Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-human-resources-skills-onboarding-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/human-resources/skills/onboarding/SKILL.md",
-        "retrieved_at": "2026-08-21T07:35:59.765Z",
+        "retrieved_at": "2026-08-22T07:24:31.005Z",
         "content_sha256": "c9210cdd00f8c2998a01c6d1310a8742aafa82a5861fb7c1c18686b72a56da97"
       }
     }
