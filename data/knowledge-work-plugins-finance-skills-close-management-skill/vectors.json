@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-finance-skills-close-management-skill",
-  "generated_at": "2026-08-22T07:23:36.871Z",
+  "generated_at": "2026-08-23T07:25:13.840Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-finance-skills-close-management-skill#head",
@@ -21,7 +21,7 @@
           "category-finance"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/finance/skills/close-management/SKILL.md",
-        "retrieved_at": "2026-08-22T07:23:36.871Z",
+        "retrieved_at": "2026-08-23T07:25:13.840Z",
         "content_sha256": "6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732"
       }
     }

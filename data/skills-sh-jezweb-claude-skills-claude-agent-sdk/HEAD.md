@@ -5,6 +5,14 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.241
+
+  - Updated to parity with Claude Code v2.1.241
+
+  ## 0.3.240
+
+  - Updated to parity with Claude Code v2.1.240
+
   ## 0.3.239
 
   - `total_cost_usd` / `modelUsage.costUSD` now include the 1.1×
@@ -22,18 +30,6 @@ summary: >-
   - A repeated `initialize` on a running process is now followed by a
   `background_tasks_changed` snapshot of the live background tasks, so
   reconnecting hosts see work that is still running
-
-  ## 0.3.238
-
-  - Added `is_backgrounded` and `spawn_depth` to `task_started` events for
-  subagent tasks (`is_backgrounded` also on background Bash tasks)
-
-  - Added `suppressOriginalPrompt` to `UserPromptExpansion` hook output,
-  matching `UserPromptSubmit`
-
-  - Added `command_lifecycle` state `refused`: a cross-session peer message the
-  session's receive-side policy declines now reports this terminal state instead
-  of producing no lifecycle frames
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -43,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-22T07:23:44.569Z
-content_sha256: 67d2572bf4d9643757d135b4fb89abb8a9a8903f72f21cd4c41e02ad19ee7e07
+retrieved_at: 2026-08-23T07:25:21.902Z
+content_sha256: 0695b23e112469aa9d2894ce96d2145080e1575cc11179bf8b20fbf8f4a6696d
 ---

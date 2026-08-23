@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-base44-skills-base44-sdk",
-  "generated_at": "2026-08-22T07:23:44.290Z",
+  "generated_at": "2026-08-23T07:25:21.543Z",
   "records": [
     {
       "id": "skills/skills-sh-base44-skills-base44-sdk#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/base44/skills/HEAD/skills/base44-sdk/references/QUICK_REFERENCE.md",
-        "retrieved_at": "2026-08-22T07:23:44.290Z",
+        "retrieved_at": "2026-08-23T07:25:21.543Z",
         "content_sha256": "81cc3883867d8fa8fbc31a72c27f32fbb20e2464643fd3088e53345461355930"
       }
     }
