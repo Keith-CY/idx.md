@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/langchain
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-23T07:25:18.572Z
+retrieved_at: 2026-08-24T07:50:41.872Z
 content_sha256: 724838c970b1cd9d5d99eff5f6f8730514cccd3b09a23baafdb882ecf42cc555
 ---

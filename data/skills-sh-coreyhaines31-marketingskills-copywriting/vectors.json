@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-copywriting",
-  "generated_at": "2026-08-23T07:26:42.985Z",
+  "generated_at": "2026-08-24T07:55:33.131Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-copywriting#head",
       "kind": "head",
       "path": "/data/skills-sh-coreyhaines31-marketingskills-copywriting/HEAD.md",
-      "text": "title: skills-sh-coreyhaines31-marketingskills-copywriting\nsummary: # Copy Frameworks Reference Headline formulas, page section types, and structural templates. ## Contents - Headline Formulas (outcome-focused, problem-focused, audience-focused, differentiation-focused, proof-focused, additional formulas) - Landing Page Section Types (core sections, supporting sections) - Page Structure Templates (feature-heavy page, varied engaging page, compact landing page, enterprise/B2B landing page, product launch page) - Section Writing Tips (problem section, benefits section, how it works section, testimonial selection) ## Headline Formulas ### Outcome-Focused **{Achieve desirable outcome} without {pain point}**\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md",
+      "text": "title: skills-sh-coreyhaines31-marketingskills-copywriting\nsummary: # Copy Frameworks Reference Headline formulas, page section types, and structural templates. ## Contents - Headline Formulas (outcome-focused, problem-focused, audience-focused, differentiation-focused, proof-focused, additional formulas) - Landing Page Section Types (core sections, supporting sections) - Page Structure Templates (feature-heavy page, varied engaging page, compact landing page, enterprise/B2B landing page, product launch page) - Section Writing Tips (problem section, benefits section, how it works section, testimonial selection) - Clarity & Message-Market Fit (the \"Now you can\" test, Human Action Model, the Perception Gap, the SavvyCal case, clarity metrics) ## Headline Formulas ### Outcome-Focused\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md",
       "metadata": {
         "stable_id": "skills/skills-sh-coreyhaines31-marketingskills-copywriting",
         "topic": "skills-sh-coreyhaines31-marketingskills-copywriting",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md",
-        "retrieved_at": "2026-08-23T07:26:42.985Z",
-        "content_sha256": "f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186"
+        "retrieved_at": "2026-08-24T07:55:33.131Z",
+        "content_sha256": "d98818886525908bf17dd6412d0b72731b313d6eef3e1ab6b365828a3a342779"
       }
     }
   ]

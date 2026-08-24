@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-data-skills-statistical-analysis-skill",
-  "generated_at": "2026-08-23T07:25:12.784Z",
+  "generated_at": "2026-08-24T07:50:22.004Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-data-skills-statistical-analysis-skill#head",
@@ -21,7 +21,7 @@
           "category-data-analytics"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/data/skills/statistical-analysis/SKILL.md",
-        "retrieved_at": "2026-08-23T07:25:12.784Z",
+        "retrieved_at": "2026-08-24T07:50:22.004Z",
         "content_sha256": "91a15cfc144efffcd622b09827362a73993a3ff30e3a78114801832477c9f8a0"
       }
     }

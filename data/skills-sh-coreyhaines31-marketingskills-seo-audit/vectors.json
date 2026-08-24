@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-seo-audit",
-  "generated_at": "2026-08-23T07:26:42.747Z",
+  "generated_at": "2026-08-24T07:55:32.874Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-seo-audit#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/seo-audit/references/ai-writing-detection.md",
-        "retrieved_at": "2026-08-23T07:26:42.747Z",
+        "retrieved_at": "2026-08-24T07:55:32.874Z",
         "content_sha256": "f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4"
       }
     }

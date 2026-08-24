@@ -20,11 +20,12 @@ summary: >-
   - Section Writing Tips (problem section, benefits section, how it works
   section, testimonial selection)
 
+  - Clarity & Message-Market Fit (the "Now you can" test, Human Action Model,
+  the Perception Gap, the SavvyCal case, clarity metrics)
+
   ## Headline Formulas
 
   ### Outcome-Focused
-
-  **{Achieve desirable outcome} without {pain point}**
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +35,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-08-23T07:26:42.985Z
-content_sha256: f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186
+retrieved_at: 2026-08-24T07:55:33.131Z
+content_sha256: d98818886525908bf17dd6412d0b72731b313d6eef3e1ab6b365828a3a342779
 ---
