@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-elizaos-eliza-blucli",
-  "generated_at": "2026-08-24T07:55:20.957Z",
+  "generated_at": "2026-08-25T07:37:25.907Z",
   "records": [
     {
       "id": "skills/github-skill-elizaos-eliza-blucli#head",
@@ -21,7 +21,7 @@
           "github-repo-eliza"
         ],
         "source_url": "https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md",
-        "retrieved_at": "2026-08-24T07:55:20.957Z",
+        "retrieved_at": "2026-08-25T07:37:25.907Z",
         "content_sha256": "bbf1c0acde2756f06d8663bc9d4de4f8c87f784e65556de8c78d7f27fd3a5d00"
       }
     }

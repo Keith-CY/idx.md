@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-emzod-speak-speak-tts",
-  "generated_at": "2026-08-24T07:50:12.826Z",
+  "generated_at": "2026-08-25T07:35:55.014Z",
   "records": [
     {
       "id": "skills/skills-sh-emzod-speak-speak-tts#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/emzod/speak/main/SKILL.md",
-        "retrieved_at": "2026-08-24T07:50:12.826Z",
+        "retrieved_at": "2026-08-25T07:35:55.014Z",
         "content_sha256": "ca405caf24ed179997aa55b0ae20b154f31c7b04c35153a5bcf98755e8ef4c8b"
       }
     }

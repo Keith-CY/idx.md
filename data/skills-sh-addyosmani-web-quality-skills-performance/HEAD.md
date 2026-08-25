@@ -8,21 +8,21 @@ summary: >-
   name: core-web-vitals
 
   description: Optimize Core Web Vitals (LCP, INP, CLS) for better page
-  experience and search ranking. Use when asked to "improve Core Web Vitals",
-  "fix LCP", "reduce CLS", "optimize INP", "page experience optimization", or
-  "fix layout shifts".
+  experience using field and lab evidence. Use when asked to "improve Core Web
+  Vitals", "fix LCP", "reduce CLS", "optimize INP", "page experience
+  optimization", or "fix layout shifts".
 
   license: MIT
 
   metadata:
     author: web-quality-skills
-    version: "1.0"
+    version: "2.0"
   ---
 
   # Core Web Vitals optimization
 
-  Targeted optimization for the three Core Web Vitals metrics that affect Google
-  Search ranking and user experience.
+  Targeted optimization for the three Core Web Vitals using field data to
+  identify user impact and browser traces to diagnose causes.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/performance
 github_stars: 1464
 github_forks: 132
 github_is_organization: false
-retrieved_at: 2026-08-24T07:55:48.877Z
-content_sha256: 6129e8dfdb38965242c0d11e4af6a7670c50484ddfe335d07ce3f4ec636d8ffb
+retrieved_at: 2026-08-25T07:37:38.185Z
+content_sha256: 731aa78c0347e8b3e191b75962175bee058ce73817278e610ac0fe546e685914
 ---

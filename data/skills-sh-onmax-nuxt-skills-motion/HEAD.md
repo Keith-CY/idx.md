@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/motion
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-24T07:50:41.702Z
+retrieved_at: 2026-08-25T07:36:03.524Z
 content_sha256: 739a643e263a50006fb29dce5fd1e84a704574d4bdfcda485b4951023ac02110
 ---

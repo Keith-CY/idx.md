@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-addyosmani-web-quality-skills-performance",
-  "generated_at": "2026-08-24T07:55:48.877Z",
+  "generated_at": "2026-08-25T07:37:38.185Z",
   "records": [
     {
       "id": "skills/skills-sh-addyosmani-web-quality-skills-performance#head",
       "kind": "head",
       "path": "/data/skills-sh-addyosmani-web-quality-skills-performance/HEAD.md",
-      "text": "title: skills-sh-addyosmani-web-quality-skills-performance\nsummary: --- name: core-web-vitals description: Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\". license: MIT metadata: author: web-quality-skills version: \"1.0\" --- # Core Web Vitals optimization Targeted optimization for the three Core Web Vitals metrics that affect Google Search ranking and user experience.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md",
+      "text": "title: skills-sh-addyosmani-web-quality-skills-performance\nsummary: --- name: core-web-vitals description: Optimize Core Web Vitals (LCP, INP, CLS) for better page experience using field and lab evidence. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\". license: MIT metadata: author: web-quality-skills version: \"2.0\" --- # Core Web Vitals optimization Targeted optimization for the three Core Web Vitals using field data to identify user impact and browser traces to diagnose causes.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-addyosmani-web-quality-skills-performance",
         "topic": "skills-sh-addyosmani-web-quality-skills-performance",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md",
-        "retrieved_at": "2026-08-24T07:55:48.877Z",
-        "content_sha256": "6129e8dfdb38965242c0d11e4af6a7670c50484ddfe335d07ce3f4ec636d8ffb"
+        "retrieved_at": "2026-08-25T07:37:38.185Z",
+        "content_sha256": "731aa78c0347e8b3e191b75962175bee058ce73817278e610ac0fe546e685914"
       }
     }
   ]

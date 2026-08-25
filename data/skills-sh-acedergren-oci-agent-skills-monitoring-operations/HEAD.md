@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/acedergren/oci-agent-skills/monitoring-operation
 github_stars: 3
 github_forks: 1
 github_is_organization: false
-retrieved_at: 2026-08-24T07:53:33.317Z
+retrieved_at: 2026-08-25T07:36:54.977Z
 content_sha256: 873c0481f2754c71feb79e14a1c1a08d753fa1dd4fad94e5aefa9a42770693c0
 ---

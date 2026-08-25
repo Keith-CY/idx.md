@@ -7,22 +7,23 @@ summary: >-
 
   name: web-quality-audit
 
-  description: Comprehensive web quality audit covering performance,
-  accessibility, SEO, and best practices. Use when asked to "audit my site",
-  "review web quality", "run lighthouse audit", "check page quality", or
-  "optimize my website".
+  description: Run an evidence-led web quality audit covering performance,
+  accessibility, SEO, best practices, and agentic browsing. Use when asked to
+  "audit my site", "review web quality", "run lighthouse audit", "check page
+  quality", or "optimize my website".
 
   license: MIT
 
   metadata:
     author: web-quality-skills
-    version: "1.0"
+    version: "2.0"
   ---
 
   # Web quality audit
 
-  Comprehensive quality review based on Google Lighthouse audits. Covers
-  Performance, Accessibility, SEO, and Best Practices across 150+ checks.
+  Comprehensive quality review that combines live browser evidence with source
+  inspection. Covers Performance, Accessibility, SEO, Best Practices, and
+  Agentic Browsing without treating an aggregate score as proof of quality.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +33,6 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/accessibility
 github_stars: 573
 github_forks: 61
 github_is_organization: false
-retrieved_at: 2026-08-24T07:50:50.573Z
-content_sha256: b39c62f24e6eea1ffb517924b738f052f3888f32a8a5ca3cf348c1b33aeea291
+retrieved_at: 2026-08-25T07:36:06.081Z
+content_sha256: 1903cfb4dcba987d50dc7a51f6c19ec43830ff924c2c8f78979d8775fbe20f91
 ---

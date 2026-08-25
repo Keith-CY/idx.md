@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/create-readme
 github_stars: 857
 github_forks: 486
 github_is_organization: true
-retrieved_at: 2026-08-24T07:55:42.325Z
+retrieved_at: 2026-08-25T07:37:35.821Z
 content_sha256: c94501dd4e1635ecbd1e59401803b27ccfec287683fa855eb19841fe24e959f8
 ---

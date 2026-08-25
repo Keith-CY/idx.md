@@ -16,13 +16,14 @@ summary: >-
 
   metadata:
     author: web-quality-skills
-    version: "1.0"
+    version: "2.0"
   ---
 
   # Performance optimization
 
-  Deep performance optimization based on Lighthouse performance audits. Focuses
-  on loading speed, runtime efficiency, and resource optimization.
+  Evidence-led performance optimization using real-user signals for
+  prioritization and browser traces for diagnosis. Focuses on loading speed,
+  runtime responsiveness, and resource delivery.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +33,6 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/core-web-vitals
 github_stars: 1464
 github_forks: 132
 github_is_organization: false
-retrieved_at: 2026-08-24T07:55:53.427Z
-content_sha256: f2e2a354e2ccb0b1b177872b7683e429ca6b79642e4aaac374859a9aefa40f25
+retrieved_at: 2026-08-25T07:37:40.028Z
+content_sha256: b0c220185d88c61f7770eb127d8facf86c86d2dd1fd82b86e15a4965a0137265
 ---
