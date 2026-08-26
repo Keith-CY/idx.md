@@ -2,27 +2,17 @@
 stable_id: skills/skills-sh-elevenlabs-skills-sound-effects
 type: skills
 title: skills-sh-elevenlabs-skills-sound-effects
-summary: >-
+summary: |-
   # Installation
-
-  ## JavaScript / TypeScript
-
+  ## CLI (Recommended)
+  macOS / Linux (Homebrew):
   ```bash
-
-  npm install @elevenlabs/elevenlabs-js
-
+  brew install elevenlabs/tap/elevenlabs
   ```
-
-  > **Important:** Always use `@elevenlabs/elevenlabs-js`. The old `elevenlabs`
-  npm package (v1.x) is deprecated and should not be used.
-
-  ```javascript
-
-  import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
-
-  // Option 1: Environment variable (recommended)
-
-  // Set ELEVENLABS_API_KEY in your environment
+  Windows (Scoop):
+  ```bash
+  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
+  scoop install elevenlabs
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
 github_stars: 119
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-08-25T07:36:12.108Z
-content_sha256: 7f76781829131f3ccac1e549b960446d8aa3ac370d34a384f425766035266725
+retrieved_at: 2026-08-26T07:39:12.408Z
+content_sha256: bfa812f99dd5af58b22a8ac23db96f3747b9fab9e71f6e46bfd22e4ef34ef3a7
 ---

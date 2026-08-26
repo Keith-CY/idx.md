@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-text-to-speech",
-  "generated_at": "2026-08-25T07:36:06.124Z",
+  "generated_at": "2026-08-26T07:38:45.346Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-text-to-speech#head",
       "kind": "head",
       "path": "/data/skills-sh-elevenlabs-skills-text-to-speech/HEAD.md",
-      "text": "title: skills-sh-elevenlabs-skills-text-to-speech\nsummary: # Installation ## JavaScript / TypeScript ```bash npm install @elevenlabs/elevenlabs-js ``` > **Important:** Always use `@elevenlabs/elevenlabs-js`. The old `elevenlabs` npm package (v1.x) is deprecated and should not be used. ```javascript import { ElevenLabsClient } from \"@elevenlabs/elevenlabs-js\"; // Option 1: Environment variable (recommended) // Set ELEVENLABS_API_KEY in your environment\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/text-to-speech/references/installation.md",
+      "text": "title: skills-sh-elevenlabs-skills-text-to-speech\nsummary: # Installation ## CLI (Recommended) The ElevenLabs CLI is the fastest way to call the API from the terminal or scripts. ```bash # macOS / Linux (Homebrew) brew install elevenlabs/tap/elevenlabs ``` ```powershell # Windows (Scoop) scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/text-to-speech/references/installation.md",
       "metadata": {
         "stable_id": "skills/skills-sh-elevenlabs-skills-text-to-speech",
         "topic": "skills-sh-elevenlabs-skills-text-to-speech",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/text-to-speech/references/installation.md",
-        "retrieved_at": "2026-08-25T07:36:06.124Z",
-        "content_sha256": "22b2794655c2c30986771476f6a261b33e61e5e6b6fd784023a2c2d52eb63588"
+        "retrieved_at": "2026-08-26T07:38:45.346Z",
+        "content_sha256": "c6e075a5e0162f51272139947563726a40ec7e5ff3985f569659b7ff54ae75ea"
       }
     }
   ]

@@ -2,27 +2,17 @@
 stable_id: skills/skills-sh-elevenlabs-skills-speech-to-text
 type: skills
 title: skills-sh-elevenlabs-skills-speech-to-text
-summary: >-
+summary: |-
   # Installation
-
-  ## JavaScript / TypeScript
-
+  ## CLI (Recommended)
+  Install the ElevenLabs CLI:
   ```bash
-
-  npm install @elevenlabs/elevenlabs-js@latest
-
+  # macOS / Linux (Homebrew)
+  brew install elevenlabs/tap/elevenlabs
   ```
-
-  > **Important:** Always use `@elevenlabs/elevenlabs-js`. The old `elevenlabs`
-  npm package (v1.x) is deprecated and should not be used.
-
-  ```javascript
-
-  import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
-
-  // Option 1: Environment variable (recommended)
-
-  // Set ELEVENLABS_API_KEY in your environment
+  ```powershell
+  # Windows (Scoop)
+  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-25T07:36:06.373Z
-content_sha256: 4ab0635663a2065ade4b0e35ac53d21223bcc2ab257c019bd775866a81c7742f
+retrieved_at: 2026-08-26T07:38:45.833Z
+content_sha256: aa946d693294be645af17fdf3529eff65b3b6fa9e405d53fa8f70026a9eb2474
 ---

@@ -7,12 +7,12 @@ summary: |-
   ## CLI (Recommended)
   The ElevenLabs CLI is the recommended way to create and manage agents:
   ```bash
-  npm install -g @elevenlabs/cli
-  # or
-  pnpm add -g @elevenlabs/cli
-  # or
-  yarn global add @elevenlabs/cli
+  # macOS / Linux (Homebrew)
+  brew install elevenlabs/tap/elevenlabs
   ```
+  ```powershell
+  # Windows (Scoop)
+  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-25T07:36:55.376Z
-content_sha256: e384a2fc9dd473f3d564a9e107cbf25e5739a0870adbe3a35f6f24279389cc9f
+retrieved_at: 2026-08-26T07:44:50.749Z
+content_sha256: b338ff4d7f527416c1dfc8b6783cf0f49f1084aae485911dfc78a9db7df4c999
 ---

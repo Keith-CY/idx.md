@@ -5,6 +5,23 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.246
+
+  - Added optional `user_message_uuid` to error result messages and to the first
+  assistant message or `stream_event` of each turn, linking a reply or failure
+  to the user message that triggered it
+
+  - Added `modelUsage[*].costBasis` (`'list' | 'managed' | 'unknown'`) reporting
+  which price table each model's `costUSD` was computed from
+
+  - Added `modelPricing` support in the `managedSettings` option for hosts that
+  set `CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST`; an admin-managed settings source
+  that sets `modelPricing` still wins
+
+  - Added `perTaskStopAffordance` option: when set, `interrupt()` aborts only
+  the current turn and keeps background agents and workflows running; otherwise
+  (and for one-shot string prompts) they stop
+
   ## 0.3.245
 
   - Updated to parity with Claude Code v2.1.245
@@ -12,24 +29,6 @@ summary: >-
   ## 0.3.244
 
   - Updated to parity with Claude Code v2.1.244
-
-  ## 0.3.243
-
-  - Added optional `queued_turn_count` to result messages: the number of queued
-  user sends still pending when the result was produced, so hosts know whether
-  another turn and result will follow
-
-  - Fixed `mcp_status` reporting a remote MCP server as connected after its
-  connection dropped; it now reports pending while reconnecting, then connected
-  or failed
-
-  - Fixed managed `disableAllHooks` also disabling hook callbacks registered
-  through the `hooks` option; they now keep running, matching
-  `allowManagedHooksOnly`
-
-  - Changed Read tool PDF results: the `document` block (or page `image` blocks
-  for `pages` reads) now arrives inside the `tool_result` content instead of as
-  a separate `user` message after it
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-25T07:36:07.133Z
-content_sha256: 800463b939ab93b303eff7eac4c411d376da6fed151aea30b51a040c5e71434c
+retrieved_at: 2026-08-26T07:38:47.533Z
+content_sha256: 1436c929ccbee3e822e181ef0219a74de5fd0ed506644b91cc966c6d9fea65a4
 ---

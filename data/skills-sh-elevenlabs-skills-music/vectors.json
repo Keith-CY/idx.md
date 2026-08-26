@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-music",
-  "generated_at": "2026-08-25T07:36:55.710Z",
+  "generated_at": "2026-08-26T07:44:52.988Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-music#head",
       "kind": "head",
       "path": "/data/skills-sh-elevenlabs-skills-music/HEAD.md",
-      "text": "title: skills-sh-elevenlabs-skills-music\nsummary: # Installation ## JavaScript / TypeScript ```bash npm install @elevenlabs/elevenlabs-js ``` > **Important:** Always use `@elevenlabs/elevenlabs-js`. The old `elevenlabs` npm package (v1.x) is deprecated and should not be used. ```javascript import { ElevenLabsClient } from \"@elevenlabs/elevenlabs-js\"; // Option 1: Environment variable (recommended) // Set ELEVENLABS_API_KEY in your environment\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/music/references/installation.md",
+      "text": "title: skills-sh-elevenlabs-skills-music\nsummary: # Installation ## CLI (Recommended) macOS / Linux (Homebrew): ```bash brew install elevenlabs/tap/elevenlabs ``` Windows (Scoop): ```bash scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket scoop install elevenlabs\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/music/references/installation.md",
       "metadata": {
         "stable_id": "skills/skills-sh-elevenlabs-skills-music",
         "topic": "skills-sh-elevenlabs-skills-music",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/music/references/installation.md",
-        "retrieved_at": "2026-08-25T07:36:55.710Z",
-        "content_sha256": "a0765c7af5800268fdae3ff443d7306d54cf66d3461cce839d3ac9d49ff58625"
+        "retrieved_at": "2026-08-26T07:44:52.988Z",
+        "content_sha256": "28eaf09e3c9481621d6e6cfd793bd119a86f2cb6124cde8066ff000956436aa2"
       }
     }
   ]

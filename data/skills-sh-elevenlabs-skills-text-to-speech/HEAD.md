@@ -5,24 +5,24 @@ title: skills-sh-elevenlabs-skills-text-to-speech
 summary: >-
   # Installation
 
-  ## JavaScript / TypeScript
+  ## CLI (Recommended)
+
+  The ElevenLabs CLI is the fastest way to call the API from the terminal or
+  scripts.
 
   ```bash
 
-  npm install @elevenlabs/elevenlabs-js
+  # macOS / Linux (Homebrew)
+
+  brew install elevenlabs/tap/elevenlabs
 
   ```
 
-  > **Important:** Always use `@elevenlabs/elevenlabs-js`. The old `elevenlabs`
-  npm package (v1.x) is deprecated and should not be used.
+  ```powershell
 
-  ```javascript
+  # Windows (Scoop)
 
-  import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
-
-  // Option 1: Environment variable (recommended)
-
-  // Set ELEVENLABS_API_KEY in your environment
+  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/text-to-speech
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-25T07:36:06.124Z
-content_sha256: 22b2794655c2c30986771476f6a261b33e61e5e6b6fd784023a2c2d52eb63588
+retrieved_at: 2026-08-26T07:38:45.346Z
+content_sha256: c6e075a5e0162f51272139947563726a40ec7e5ff3985f569659b7ff54ae75ea
 ---

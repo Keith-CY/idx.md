@@ -2,27 +2,17 @@
 stable_id: skills/skills-sh-elevenlabs-skills-music
 type: skills
 title: skills-sh-elevenlabs-skills-music
-summary: >-
+summary: |-
   # Installation
-
-  ## JavaScript / TypeScript
-
+  ## CLI (Recommended)
+  macOS / Linux (Homebrew):
   ```bash
-
-  npm install @elevenlabs/elevenlabs-js
-
+  brew install elevenlabs/tap/elevenlabs
   ```
-
-  > **Important:** Always use `@elevenlabs/elevenlabs-js`. The old `elevenlabs`
-  npm package (v1.x) is deprecated and should not be used.
-
-  ```javascript
-
-  import { ElevenLabsClient } from "@elevenlabs/elevenlabs-js";
-
-  // Option 1: Environment variable (recommended)
-
-  // Set ELEVENLABS_API_KEY in your environment
+  Windows (Scoop):
+  ```bash
+  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
+  scoop install elevenlabs
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/music
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-25T07:36:55.710Z
-content_sha256: a0765c7af5800268fdae3ff443d7306d54cf66d3461cce839d3ac9d49ff58625
+retrieved_at: 2026-08-26T07:44:52.988Z
+content_sha256: 28eaf09e3c9481621d6e6cfd793bd119a86f2cb6124cde8066ff000956436aa2
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-graphql-schema",
-  "generated_at": "2026-08-25T07:36:57.824Z",
+  "generated_at": "2026-08-26T07:45:01.833Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-graphql-schema#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/graphql-schema/references/types.md",
-        "retrieved_at": "2026-08-25T07:36:57.824Z",
+        "retrieved_at": "2026-08-26T07:45:01.833Z",
         "content_sha256": "7dab0e654365865feeb43547cb758a74d69a395ec4e2c755c28a2f97cc7c1e5d"
       }
     }

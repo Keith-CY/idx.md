@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-download
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-08-25T07:37:38.867Z
+retrieved_at: 2026-08-26T07:49:48.949Z
 content_sha256: c09663f6a8c822d9e6d65c1458f549e80062ff8ddcba6e7e21c95a9df03fcef0
 ---

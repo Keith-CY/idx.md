@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-zaddy6-agent-email-skill-agent-email-cli",
-  "generated_at": "2026-08-25T07:37:23.169Z",
+  "generated_at": "2026-08-26T07:48:59.972Z",
   "records": [
     {
       "id": "skills/skills-sh-zaddy6-agent-email-skill-agent-email-cli#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/zaddy6/agent-email-skill/HEAD/skills/agent-email-cli/references/commands.md",
-        "retrieved_at": "2026-08-25T07:37:23.169Z",
+        "retrieved_at": "2026-08-26T07:48:59.972Z",
         "content_sha256": "31cb0325dc81ca6522fe0b64c3ddae01c1d1a1a31d80b79ff9c4207e9c5d7c2b"
       }
     }
