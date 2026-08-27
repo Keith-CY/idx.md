@@ -5,6 +5,16 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.247
+
+  - Added an optional `ambient` flag to `task_started`, `task_notification` and
+  `background_tasks_changed` task entries so hosts can exclude housekeeping
+  tasks from activity indicators
+
+  - Fixed the `permissionMode` on per-turn `system/init` frames reporting the
+  mode at turn start instead of the live mode, so a mode switch right after
+  submitting no longer sends a stale value
+
   ## 0.3.246
 
   - Added optional `user_message_uuid` to error result messages and to the first
@@ -23,12 +33,6 @@ summary: >-
   (and for one-shot string prompts) they stop
 
   ## 0.3.245
-
-  - Updated to parity with Claude Code v2.1.245
-
-  ## 0.3.244
-
-  - Updated to parity with Claude Code v2.1.244
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +42,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-26T07:38:47.533Z
-content_sha256: 1436c929ccbee3e822e181ef0219a74de5fd0ed506644b91cc966c6d9fea65a4
+retrieved_at: 2026-08-27T17:59:23.527Z
+content_sha256: 7a7824e0c69e4c824f57ec1368f201f7f6cc2b5db6f6c8c781198c989e094f08
 ---

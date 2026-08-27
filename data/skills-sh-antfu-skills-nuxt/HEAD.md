@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/antfu/skills/nuxt
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-08-26T07:49:37.971Z
+retrieved_at: 2026-08-27T18:01:04.271Z
 content_sha256: 0b3940e7e21524091ca6ef86024ac03c4c44e19597575049fec787bfc544d6ab
 ---

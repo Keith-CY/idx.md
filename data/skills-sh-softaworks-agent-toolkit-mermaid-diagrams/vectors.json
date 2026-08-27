@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-softaworks-agent-toolkit-mermaid-diagrams",
-  "generated_at": "2026-08-26T07:49:50.514Z",
+  "generated_at": "2026-08-27T18:01:07.703Z",
   "records": [
     {
       "id": "skills/skills-sh-softaworks-agent-toolkit-mermaid-diagrams#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/mermaid-diagrams/references/class-diagrams.md",
-        "retrieved_at": "2026-08-26T07:49:50.514Z",
+        "retrieved_at": "2026-08-27T18:01:07.703Z",
         "content_sha256": "5eba3606f37be8409843826901f0c846a1bd4796e2e9145c787d4e5ba1646ce3"
       }
     }

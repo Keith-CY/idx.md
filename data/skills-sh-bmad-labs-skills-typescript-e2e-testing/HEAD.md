@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/bmad-labs/skills/typescript-e2e-testing
 github_stars: 2
 github_forks: 1
 github_is_organization: true
-retrieved_at: 2026-08-26T07:44:46.786Z
+retrieved_at: 2026-08-27T18:00:19.215Z
 content_sha256: 49277713b85b553bed78a8976f06fbbdd55d6aa675ce169ea3aa541b9ceb38f5
 ---

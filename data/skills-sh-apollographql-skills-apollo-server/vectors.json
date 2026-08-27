@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-apollo-server",
-  "generated_at": "2026-08-26T07:38:43.820Z",
+  "generated_at": "2026-08-27T17:59:22.116Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-apollo-server#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-server/references/resolvers.md",
-        "retrieved_at": "2026-08-26T07:38:43.820Z",
+        "retrieved_at": "2026-08-27T17:59:22.116Z",
         "content_sha256": "55a33184bb8e1d4fac044523888fa8267afe40f7557fbb508c77032e9ea32ea9"
       }
     }

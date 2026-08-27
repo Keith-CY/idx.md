@@ -25,6 +25,6 @@ upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-26T07:49:11.188Z
-content_sha256: 512365af3744f3bf7b9aa5d67517314949525de35de331b2f8e2ff4afab39a7b
+retrieved_at: 2026-08-27T18:00:56.209Z
+content_sha256: b1d04c4c8c5572322c876417858d9ef6cff8f644df55d76b9bdf58d8136e4dba
 ---

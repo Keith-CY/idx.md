@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator",
-  "generated_at": "2026-08-26T07:49:31.182Z",
+  "generated_at": "2026-08-27T18:01:02.401Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-article-illustrator#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-article-illustrator/references/style-presets.md",
-        "retrieved_at": "2026-08-26T07:49:31.182Z",
+        "retrieved_at": "2026-08-27T18:01:02.401Z",
         "content_sha256": "4dd2b3b6fc176b9fbb862245cc9f73bbcf4c317c9faed7be061954a752214cc9"
       }
     }

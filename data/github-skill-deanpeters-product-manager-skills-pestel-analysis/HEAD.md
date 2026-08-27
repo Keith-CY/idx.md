@@ -17,6 +17,6 @@ upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/ski
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-26T07:49:07.629Z
+retrieved_at: 2026-08-27T18:00:55.015Z
 content_sha256: 78b9aea0238e7ef47cbd3b4c8775da7e193da0784fe10d1a304fcb0b37255492
 ---
