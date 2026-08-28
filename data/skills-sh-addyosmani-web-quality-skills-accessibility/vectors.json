@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-addyosmani-web-quality-skills-accessibility",
-  "generated_at": "2026-08-27T17:59:22.499Z",
+  "generated_at": "2026-08-28T19:09:35.540Z",
   "records": [
     {
       "id": "skills/skills-sh-addyosmani-web-quality-skills-accessibility#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/web-quality-audit/SKILL.md",
-        "retrieved_at": "2026-08-27T17:59:22.499Z",
+        "retrieved_at": "2026-08-28T19:09:35.540Z",
         "content_sha256": "1903cfb4dcba987d50dc7a51f6c19ec43830ff924c2c8f78979d8775fbe20f91"
       }
     }

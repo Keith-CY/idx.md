@@ -12,17 +12,17 @@ summary: >-
 
   ```bash
 
-  # macOS / Linux (Homebrew)
+  # npm (any platform with Node.js)
 
-  brew install elevenlabs/tap/elevenlabs
+  npm install -g @elevenlabs/cli
 
   ```
 
-  ```powershell
+  ```bash
 
-  # Windows (Scoop)
+  # macOS / Linux (Homebrew)
 
-  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
+  brew install elevenlabs/tap/elevenlabs
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/text-to-speech
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-27T17:59:22.543Z
-content_sha256: c6e075a5e0162f51272139947563726a40ec7e5ff3985f569659b7ff54ae75ea
+retrieved_at: 2026-08-28T19:09:35.585Z
+content_sha256: 052ada238eb61412db885a38079dc508a8b77c5a96fc2f3e80236f74fe4a9350
 ---

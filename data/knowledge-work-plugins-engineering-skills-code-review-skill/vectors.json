@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-code-review-skill",
-  "generated_at": "2026-08-27T17:59:25.447Z",
+  "generated_at": "2026-08-28T19:09:37.952Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-code-review-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/code-review/SKILL.md",
-        "retrieved_at": "2026-08-27T17:59:25.447Z",
+        "retrieved_at": "2026-08-28T19:09:37.952Z",
         "content_sha256": "6303932f1b301c614a6f5a0099cd87a19e1cd1b7cbfa1a1e11e996edbca6426b"
       }
     }

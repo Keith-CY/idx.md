@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-speech-to-text",
-  "generated_at": "2026-08-27T17:59:22.784Z",
+  "generated_at": "2026-08-28T19:09:35.749Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-speech-to-text#head",
       "kind": "head",
       "path": "/data/skills-sh-elevenlabs-skills-speech-to-text/HEAD.md",
-      "text": "title: skills-sh-elevenlabs-skills-speech-to-text\nsummary: # Installation ## CLI (Recommended) Install the ElevenLabs CLI: ```bash # macOS / Linux (Homebrew) brew install elevenlabs/tap/elevenlabs ``` ```powershell # Windows (Scoop) scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/speech-to-text/references/installation.md",
+      "text": "title: skills-sh-elevenlabs-skills-speech-to-text\nsummary: # Installation ## CLI (Recommended) Install the ElevenLabs CLI: ```bash # npm (any platform with Node.js) npm install -g @elevenlabs/cli ``` ```bash # macOS / Linux (Homebrew) brew install elevenlabs/tap/elevenlabs\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/elevenlabs/skills/HEAD/speech-to-text/references/installation.md",
       "metadata": {
         "stable_id": "skills/skills-sh-elevenlabs-skills-speech-to-text",
         "topic": "skills-sh-elevenlabs-skills-speech-to-text",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/speech-to-text/references/installation.md",
-        "retrieved_at": "2026-08-27T17:59:22.784Z",
-        "content_sha256": "aa946d693294be645af17fdf3529eff65b3b6fa9e405d53fa8f70026a9eb2474"
+        "retrieved_at": "2026-08-28T19:09:35.749Z",
+        "content_sha256": "95ced4021a8cca97249d584baabbb427c94d43c3e7364815cf15e263f54d8c2a"
       }
     }
   ]

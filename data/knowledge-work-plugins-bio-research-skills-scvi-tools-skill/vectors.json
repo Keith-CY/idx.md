@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-bio-research-skills-scvi-tools-skill",
-  "generated_at": "2026-08-27T17:59:15.682Z",
+  "generated_at": "2026-08-28T19:09:29.723Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-bio-research-skills-scvi-tools-skill#head",
@@ -21,7 +21,7 @@
           "category-search-research"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/bio-research/skills/scvi-tools/SKILL.md",
-        "retrieved_at": "2026-08-27T17:59:15.682Z",
+        "retrieved_at": "2026-08-28T19:09:29.723Z",
         "content_sha256": "03a69b32b77db86afe5f87b75db2ae4c92b03b6e9e16e2c5e66cde2d4ad9c5bc"
       }
     }

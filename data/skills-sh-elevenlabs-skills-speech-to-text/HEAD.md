@@ -7,12 +7,12 @@ summary: |-
   ## CLI (Recommended)
   Install the ElevenLabs CLI:
   ```bash
+  # npm (any platform with Node.js)
+  npm install -g @elevenlabs/cli
+  ```
+  ```bash
   # macOS / Linux (Homebrew)
   brew install elevenlabs/tap/elevenlabs
-  ```
-  ```powershell
-  # Windows (Scoop)
-  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-08-27T17:59:22.784Z
-content_sha256: aa946d693294be645af17fdf3529eff65b3b6fa9e405d53fa8f70026a9eb2474
+retrieved_at: 2026-08-28T19:09:35.749Z
+content_sha256: 95ced4021a8cca97249d584baabbb427c94d43c3e7364815cf15e263f54d8c2a
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-legal-skills-signature-request-skill",
-  "generated_at": "2026-08-27T18:00:17.622Z",
+  "generated_at": "2026-08-28T19:10:31.652Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-legal-skills-signature-request-skill#head",
@@ -21,7 +21,7 @@
           "category-uncategorized"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/legal/skills/signature-request/SKILL.md",
-        "retrieved_at": "2026-08-27T18:00:17.622Z",
+        "retrieved_at": "2026-08-28T19:10:31.652Z",
         "content_sha256": "bf702fbe7d21073c3e6952ee2c72f66bf6c56fc806b3abb7e44d7863d7534682"
       }
     }

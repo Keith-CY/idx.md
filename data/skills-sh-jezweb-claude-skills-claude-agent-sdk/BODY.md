@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.3.251
+
+- Updated to parity with Claude Code v2.1.251
+
+## 0.3.250
+
+- Updated to parity with Claude Code v2.1.250
+
+## 0.3.249
+
+- Updated to parity with Claude Code v2.1.249
+
+## 0.3.248
+
+- Added a per-server `timeout` for SDK-hosted MCP servers (`createSdkMcpServer({ timeout })`), overriding `MCP_TOOL_TIMEOUT` for that server's tool calls
+
 ## 0.3.247
 
 - Added an optional `ambient` flag to `task_started`, `task_notification` and `background_tasks_changed` task entries so hosts can exclude housekeeping tasks from activity indicators

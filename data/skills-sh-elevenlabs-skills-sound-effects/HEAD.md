@@ -5,14 +5,14 @@ title: skills-sh-elevenlabs-skills-sound-effects
 summary: |-
   # Installation
   ## CLI (Recommended)
+  npm (any platform with Node.js):
+  ```bash
+  npm install -g @elevenlabs/cli
+  ```
   macOS / Linux (Homebrew):
   ```bash
   brew install elevenlabs/tap/elevenlabs
   ```
-  Windows (Scoop):
-  ```bash
-  scoop bucket add elevenlabs https://github.com/elevenlabs/scoop-bucket
-  scoop install elevenlabs
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
 github_stars: 119
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-08-27T17:59:30.920Z
-content_sha256: bfa812f99dd5af58b22a8ac23db96f3747b9fab9e71f6e46bfd22e4ef34ef3a7
+retrieved_at: 2026-08-28T19:09:42.256Z
+content_sha256: 58724eebca1477e889a13d8a5cb9956b95f6b0269b3ecb16e5a74b1a57034522
 ---
