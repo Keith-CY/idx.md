@@ -5,17 +5,25 @@ title: skills-sh-othmanadi-planning-with-files-planning-with-files
 summary: >-
   # Task Plan: [Brief Description]
 
-  <!--
-    WHAT: This is your roadmap for the entire task. Think of it as your "working memory on disk."
-    WHY: After 50+ tool calls, your original goals can get forgotten. This file keeps them fresh.
-    WHEN: Create this FIRST, before starting any work. Update after each phase completes.
-  -->
+  Use this file as the durable roadmap for the task. Create it before complex
+  work and keep it current as phases change.
 
   ## Goal
 
-  <!--
-    WHAT: One clear sentence describing what you're trying to achieve.
-    WHY: This is your north star. Re-reading this keeps you focused on the end state.
+  State the intended end result in one clear sentence.
+
+  [One sentence describing the end state]
+
+  ## Next Step
+
+  Record the single action that should happen next. Update it whenever the
+  active phase or immediate action changes.
+
+  [The single next action. Update whenever phase status changes.]
+
+  ## Current Phase
+
+  Name the phase currently being worked on.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -25,6 +33,6 @@ upstream_ref: https://skills.sh/othmanadi/planning-with-files/planning-with-file
 github_stars: 16661
 github_forks: 1525
 github_is_organization: false
-retrieved_at: 2026-08-28T19:11:20.948Z
-content_sha256: fef51835c7567d334c019f355a5794e9fe6124f49fcbe0e9e2694b7406ad2c37
+retrieved_at: 2026-08-30T12:32:13.535Z
+content_sha256: 3c4b61444270f689c3dab81b7113467fb87e9705175aea9c3a3b970bd4e777a3
 ---
