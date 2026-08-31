@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-sales-enablement",
-  "generated_at": "2026-08-30T12:32:12.355Z",
+  "generated_at": "2026-08-31T14:43:45.893Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-sales-enablement#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/sales-enablement/references/deck-frameworks.md",
-        "retrieved_at": "2026-08-30T12:32:12.355Z",
+        "retrieved_at": "2026-08-31T14:43:45.893Z",
         "content_sha256": "265eea6c1b358d10f2dd22fd987789a9d115c14d30bf77a9086734ac60659336"
       }
     }
