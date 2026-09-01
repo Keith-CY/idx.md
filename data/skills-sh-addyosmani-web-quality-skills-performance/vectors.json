@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-addyosmani-web-quality-skills-performance",
-  "generated_at": "2026-08-31T14:43:56.769Z",
+  "generated_at": "2026-09-01T12:20:07.996Z",
   "records": [
     {
       "id": "skills/skills-sh-addyosmani-web-quality-skills-performance#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/addyosmani/web-quality-skills/HEAD/skills/core-web-vitals/SKILL.md",
-        "retrieved_at": "2026-08-31T14:43:56.769Z",
+        "retrieved_at": "2026-09-01T12:20:07.996Z",
         "content_sha256": "731aa78c0347e8b3e191b75962175bee058ce73817278e610ac0fe546e685914"
       }
     }

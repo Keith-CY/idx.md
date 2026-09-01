@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-content
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-08-31T14:41:45.811Z
+retrieved_at: 2026-09-01T12:17:45.799Z
 content_sha256: 4fd01d8b51793c18b6235f625c2bf54b92161180fbf544109623ece5f449c7b0
 ---

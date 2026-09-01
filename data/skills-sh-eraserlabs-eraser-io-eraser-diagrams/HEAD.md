@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/eraserlabs/eraser-io/eraser-diagrams
 github_stars: 8
 github_forks: 0
 github_is_organization: true
-retrieved_at: 2026-08-31T14:39:03.292Z
+retrieved_at: 2026-09-01T12:15:15.020Z
 content_sha256: 14ef890e72b0f7c063d399525ef72509973232b2de1651085ab33ec5d384d08c
 ---

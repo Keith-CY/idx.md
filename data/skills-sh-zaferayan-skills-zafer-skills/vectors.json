@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-zaferayan-skills-zafer-skills",
-  "generated_at": "2026-08-31T14:38:07.495Z",
+  "generated_at": "2026-09-01T12:14:22.251Z",
   "records": [
     {
       "id": "skills/skills-sh-zaferayan-skills-zafer-skills#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/zaferayan/skills/main/SKILL.md",
-        "retrieved_at": "2026-08-31T14:38:07.495Z",
+        "retrieved_at": "2026-09-01T12:14:22.251Z",
         "content_sha256": "dc010b204b24e8ba93afdaebf5e3093c377918cf7b0250afb928383e48b2ac0d"
       }
     }
