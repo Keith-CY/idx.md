@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-pexoai-pexo-skills-videoagent-video-studio",
-  "generated_at": "2026-09-02T11:57:24.480Z",
+  "generated_at": "2026-09-03T11:54:15.562Z",
   "records": [
     {
       "id": "skills/skills-sh-pexoai-pexo-skills-videoagent-video-studio#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/pexoai/pexo-skills/HEAD/skills/videoagent-video-studio/references/models.md",
-        "retrieved_at": "2026-09-02T11:57:24.480Z",
+        "retrieved_at": "2026-09-03T11:54:15.562Z",
         "content_sha256": "c18c3b7a89765b6c1292e074c22ed56a6334b71e91ef192fb86de60dcd754f74"
       }
     }

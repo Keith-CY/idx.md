@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-wshobson-agents-context-driven-development",
-  "generated_at": "2026-09-02T11:53:12.237Z",
+  "generated_at": "2026-09-03T11:51:13.186Z",
   "records": [
     {
       "id": "skills/skills-sh-wshobson-agents-context-driven-development#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/wshobson/agents/HEAD/plugins/conductor/skills/context-driven-development/references/artifact-templates.md",
-        "retrieved_at": "2026-09-02T11:53:12.237Z",
+        "retrieved_at": "2026-09-03T11:51:13.186Z",
         "content_sha256": "ebfa857d59fd603e55c3a53f29dbf0f96e0bb21429edf2a78519bce995bf37c8"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa",
-  "generated_at": "2026-09-02T11:57:00.213Z",
+  "generated_at": "2026-09-03T11:53:56.906Z",
   "records": [
     {
       "id": "skills/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa#head",
@@ -21,7 +21,7 @@
           "github-repo-awesome-claude-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/composio-skills/forcemanager-automation/SKILL.md",
-        "retrieved_at": "2026-09-02T11:57:00.213Z",
+        "retrieved_at": "2026-09-03T11:53:56.906Z",
         "content_sha256": "2df436e1a15073c3a2dba36d4b2caa85dffb362413ee35fa0cb61fe561258849"
       }
     }
