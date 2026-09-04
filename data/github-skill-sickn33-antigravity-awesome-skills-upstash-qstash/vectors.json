@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-sickn33-antigravity-awesome-skills-upstash-qstash",
-  "generated_at": "2026-09-03T11:54:05.922Z",
+  "generated_at": "2026-09-04T11:54:19.792Z",
   "records": [
     {
       "id": "skills/github-skill-sickn33-antigravity-awesome-skills-upstash-qstash#head",
@@ -21,7 +21,7 @@
           "github-repo-antigravity-awesome-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/upstash-qstash/SKILL.md",
-        "retrieved_at": "2026-09-03T11:54:05.922Z",
+        "retrieved_at": "2026-09-04T11:54:19.792Z",
         "content_sha256": "4f9a74255296d998578a1f19a926b55663934229f9ebe5949ec4c35376ca4dac"
       }
     }

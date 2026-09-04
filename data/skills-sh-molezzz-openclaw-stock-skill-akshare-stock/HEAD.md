@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/molezzz/openclaw-stock-skill/akshare-stock
 github_stars: 3
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-09-03T11:52:57.234Z
+retrieved_at: 2026-09-04T11:58:04.610Z
 content_sha256: 235be18f969784adbbeb19470e245ad55469c5abb909a7948213dc8c1073cbeb
 ---

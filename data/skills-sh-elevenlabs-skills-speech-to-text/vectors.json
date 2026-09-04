@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-speech-to-text",
-  "generated_at": "2026-09-03T11:51:00.977Z",
+  "generated_at": "2026-09-04T11:55:03.860Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-speech-to-text#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/speech-to-text/references/installation.md",
-        "retrieved_at": "2026-09-03T11:51:00.977Z",
+        "retrieved_at": "2026-09-04T11:55:03.860Z",
         "content_sha256": "95ced4021a8cca97249d584baabbb427c94d43c3e7364815cf15e263f54d8c2a"
       }
     }

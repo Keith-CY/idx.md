@@ -5,24 +5,30 @@ title: skills-sh-assistant-ui-skills-assistant-ui
 summary: >-
   # assistant-ui Architecture
 
-  ## Layered System
+  ## Layers
 
-  assistant-ui follows a 4-layer architecture where each layer depends only on
-  layers below it.
+  Each layer depends only on the layers below it.
 
-  ### Layer 1: RuntimeCore (Internal)
+  ### UI: elements and primitives
 
-  Internal implementations that manage state:
+  Primitives from `@assistant-ui/react` are unstyled, Radix-style parts
+  (`ThreadPrimitive.Root`, `ComposerPrimitive.Input`, `MessagePrimitive.Parts`,
+  ...) that read and write through the aui client, never against the backend
+  directly. Elements are styled compositions of those primitives that the CLI
+  copies into `components/assistant-ui/elements/`; runtime-connected ones carry
+  the `.aui.tsx` suffix and standalone ones take props.
 
-  - `LocalRuntimeCore` - In-browser state
+  ### The aui client
 
-  - `ExternalStoreRuntimeCore` - External state sync
+  `useAui()` returns an `AssistantClient`: one property accessor per registered
+  scope plus `subscribe` and `on`. Application code uses it instead of the
+  runtime object.
 
-  - `ThreadListRuntimeCore` - Thread management
+  ```tsx
 
-  ```typescript
+  import { useAui, useAuiState, useAuiEvent } from "@assistant-ui/react";
 
-  // Internal - not directly used
+  const aui = useAui();
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +38,6 @@ upstream_ref: https://skills.sh/assistant-ui/skills/assistant-ui
 github_stars: 5
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-09-03T11:50:59.957Z
-content_sha256: 675a9e430ba46b3e44ce5fe99d57a4359b4b1254abd1888f58bd84011b2667ef
+retrieved_at: 2026-09-04T11:55:02.111Z
+content_sha256: 00cee1aff4625b7865384ede0fc064e9915f640dfc3df70f2916c1677382a56c
 ---

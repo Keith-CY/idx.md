@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-assistant-ui-skills-assistant-ui",
-  "generated_at": "2026-09-03T11:50:59.957Z",
+  "generated_at": "2026-09-04T11:55:02.111Z",
   "records": [
     {
       "id": "skills/skills-sh-assistant-ui-skills-assistant-ui#head",
       "kind": "head",
       "path": "/data/skills-sh-assistant-ui-skills-assistant-ui/HEAD.md",
-      "text": "title: skills-sh-assistant-ui-skills-assistant-ui\nsummary: # assistant-ui Architecture ## Layered System assistant-ui follows a 4-layer architecture where each layer depends only on layers below it. ### Layer 1: RuntimeCore (Internal) Internal implementations that manage state: - `LocalRuntimeCore` - In-browser state - `ExternalStoreRuntimeCore` - External state sync - `ThreadListRuntimeCore` - Thread management ```typescript // Internal - not directly used\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md",
+      "text": "title: skills-sh-assistant-ui-skills-assistant-ui\nsummary: # assistant-ui Architecture ## Layers Each layer depends only on the layers below it. ### UI: elements and primitives Primitives from `@assistant-ui/react` are unstyled, Radix-style parts (`ThreadPrimitive.Root`, `ComposerPrimitive.Input`, `MessagePrimitive.Parts`, ...) that read and write through the aui client, never against the backend directly. Elements are styled compositions of those primitives that the CLI copies into `components/assistant-ui/elements/`; runtime-connected ones carry the `.aui.tsx` suffix and standalone ones take props. ### The aui client `useAui()` returns an `AssistantClient`: one property accessor per registered scope plus `subscribe` and `on`. Application code uses it instead of the runtime object. ```tsx import { useAui, useAuiState, useAuiEvent } from \"@assistant-ui/react\"; const aui = useAui();\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md",
       "metadata": {
         "stable_id": "skills/skills-sh-assistant-ui-skills-assistant-ui",
         "topic": "skills-sh-assistant-ui-skills-assistant-ui",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/assistant-ui/skills/HEAD/assistant-ui/skills/assistant-ui/references/architecture.md",
-        "retrieved_at": "2026-09-03T11:50:59.957Z",
-        "content_sha256": "675a9e430ba46b3e44ce5fe99d57a4359b4b1254abd1888f58bd84011b2667ef"
+        "retrieved_at": "2026-09-04T11:55:02.111Z",
+        "content_sha256": "00cee1aff4625b7865384ede0fc064e9915f640dfc3df70f2916c1677382a56c"
       }
     }
   ]
