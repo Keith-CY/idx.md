@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-finishing-a-development-branch",
-  "generated_at": "2026-09-04T11:54:06.321Z",
+  "generated_at": "2026-09-05T11:03:42.929Z",
   "records": [
     {
       "id": "skills/obra-finishing-a-development-branch#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/finishing-a-development-branch/SKILL.md",
-        "retrieved_at": "2026-09-04T11:54:06.321Z",
+        "retrieved_at": "2026-09-05T11:03:42.929Z",
         "content_sha256": "8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-partner-built-brand-voice-agents-discover-brand",
-  "generated_at": "2026-09-04T11:55:15.928Z",
+  "generated_at": "2026-09-05T11:04:52.437Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-partner-built-brand-voice-agents-discover-brand#head",
@@ -19,7 +19,7 @@
           "plugin-component-brand-voice"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/brand-voice/agents/discover-brand.md",
-        "retrieved_at": "2026-09-04T11:55:15.928Z",
+        "retrieved_at": "2026-09-05T11:04:52.437Z",
         "content_sha256": "1fe968c860d85ec9b210eb0c213da6308675937464a8ac7f870029c092068932"
       }
     }

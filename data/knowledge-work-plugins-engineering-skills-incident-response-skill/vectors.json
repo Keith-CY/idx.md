@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-engineering-skills-incident-response-skill",
-  "generated_at": "2026-09-04T11:55:12.346Z",
+  "generated_at": "2026-09-05T11:04:46.201Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-engineering-skills-incident-response-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/engineering/skills/incident-response/SKILL.md",
-        "retrieved_at": "2026-09-04T11:55:12.346Z",
+        "retrieved_at": "2026-09-05T11:04:46.201Z",
         "content_sha256": "9eaa7a974c90395ac7116e82710f74546f38e69f735d78f684ee13fd79646e9a"
       }
     }

@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.261
+
+  - Added `pluginDelivery: 'initialize'` to send `plugins` over stdin so the
+  launch command line no longer grows with the plugin count (fixes Windows start
+  failures with many plugins)
+
+  - Fixed `query()` throwing "Object not disposable" in runtimes without a
+  native `Symbol.dispose`, such as Node ≤22 `vm` contexts (Jest's `node`
+  environment, vitest `vmThreads`/`vmForks`) and Node <18.18
+
+  - Updated to parity with Claude Code v2.1.261
+
   ## 0.3.260
 
   - Added optional `user_message_uuid` to `thinking_tokens` system messages,
@@ -20,18 +32,6 @@ summary: >-
 
   - Fixed `rewindFiles()` reporting success when no files could be restored (for
   example when checkpoint backups are missing); it now fails
-
-  - Changed `error_max_structured_output_retries` results to append the last
-  StructuredOutput tool error; validation errors now name the offending key,
-  allowed values, and actual length or count
-
-  - Changed `rate_limit_event` to also re-emit during an exceeded window on
-  repeat 429s (about once per 30 seconds per limit window), so stream consumers
-  can refresh stale rate-limit state
-
-  - Updated to parity with Claude Code v2.1.260
-
-  ## 0.3.259
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-04T11:55:06.155Z
-content_sha256: 84f137eb5780586f9aff1b44385df05fe9f509161ad0277a58ca1992c8b6a70c
+retrieved_at: 2026-09-05T11:04:40.799Z
+content_sha256: 75a75e4939942f48d977fbd9f595ddea124c6c06ac62e2d57b3cd9006126bba3
 ---
