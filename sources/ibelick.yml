@@ -17,8 +17,18 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/baseline-ui/SKILL.md
-  github_stars: 1047
-  github_forks: 47
+  github_stars: 8153
+  github_forks: 365
+  github_is_organization: false
+- type: skills
+  slug: ibelick-create-design-md
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/create-design-md/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/create-design-md/SKILL.md
+  github_stars: 8153
+  github_forks: 365
   github_is_organization: false
 - type: skills
   slug: ibelick-fixing-accessibility
@@ -27,8 +37,8 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-accessibility/SKILL.md
-  github_stars: 1047
-  github_forks: 47
+  github_stars: 8153
+  github_forks: 365
   github_is_organization: false
 - type: skills
   slug: ibelick-fixing-metadata
@@ -37,8 +47,8 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md
-  github_stars: 1047
-  github_forks: 47
+  github_stars: 8153
+  github_forks: 365
   github_is_organization: false
 - type: skills
   slug: ibelick-fixing-motion-performance
@@ -47,6 +57,26 @@
     - ibelick
     - source-ibelick-ui-skills
   upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/fixing-motion-performance/SKILL.md
-  github_stars: 1047
-  github_forks: 47
+  github_stars: 8153
+  github_forks: 365
+  github_is_organization: false
+- type: skills
+  slug: ibelick-improve-ui
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/improve-ui/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/improve-ui/SKILL.md
+  github_stars: 8153
+  github_forks: 365
+  github_is_organization: false
+- type: skills
+  slug: ibelick-ui-skills-root
+  source_url: https://raw.githubusercontent.com/ibelick/ui-skills/main/skills/ui-skills-root/SKILL.md
+  tags:
+    - ibelick
+    - source-ibelick-ui-skills
+  upstream_ref: https://github.com/ibelick/ui-skills/blob/main/skills/ui-skills-root/SKILL.md
+  github_stars: 8153
+  github_forks: 365
   github_is_organization: false
