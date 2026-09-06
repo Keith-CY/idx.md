@@ -8,6 +8,30 @@
 #   license: string (optional)
 #   upstream_ref: string (optional)
 - type: skills
+  slug: github-skill-a5c-ai-babysitter-click-scaffolder
+  source_url: https://raw.githubusercontent.com/a5c-ai/babysitter/main/library/specializations/cli-mcp-development/skills/click-scaffolder/SKILL.md
+  title: click-scaffolder
+  summary: Generate Click-based Python CLI applications with decorators, groups, context, and modern Python patterns. Creates complete scaffolded CLI with proper project structure.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-a5c-ai
+    - github-repo-babysitter
+  upstream_ref: https://github.com/a5c-ai/babysitter/blob/main/library/specializations/cli-mcp-development/skills/click-scaffolder/SKILL.md
+- type: skills
+  slug: github-skill-a5c-ai-babysitter-crisis-management-platform
+  source_url: https://raw.githubusercontent.com/a5c-ai/babysitter/main/library/specializations/domains/business/public-relations/skills/crisis-management-platform/SKILL.md
+  title: crisis-management-platform
+  summary: Crisis response platform integration and real-time monitoring
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-a5c-ai
+    - github-repo-babysitter
+  upstream_ref: https://github.com/a5c-ai/babysitter/blob/main/library/specializations/domains/business/public-relations/skills/crisis-management-platform/SKILL.md
+- type: skills
   slug: github-skill-actionbook-rust-skills-m04-zero-cost
   source_url: https://raw.githubusercontent.com/actionbook/rust-skills/main/skills/m04-zero-cost/SKILL.md
   title: m04-zero-cost
@@ -91,6 +115,30 @@
     - github-owner-browserwing
     - github-repo-browserwing
   upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-brycewang-stanford-awesome-journal-skills-fse-experiments
+  source_url: https://raw.githubusercontent.com/brycewang-stanford/Awesome-Journal-Skills/main/FSE-Skills/skills/fse-experiments/SKILL.md
+  title: fse-experiments
+  summary: Use when designing or auditing ESEC/FSE empirical evaluations, covering real subject systems, fair baselines, SE-standard statistics and effect sizes, qualitative and mixed-methods rigor, contamination-aware LLM ablations, provenance for mining studies, and matching evidence to the shape of each software-engineering claim.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-brycewang-stanford
+    - github-repo-awesome-journal-skills
+  upstream_ref: https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/FSE-Skills/skills/fse-experiments/SKILL.md
+- type: skills
+  slug: github-skill-cas-bigdatalab-piflow-qc3-numericdatathresholdcheck
+  source_url: https://raw.githubusercontent.com/cas-bigdatalab/piflow/master/workspace/skills/QC3_NumericDataThresholdCheck/SKILL.md
+  title: QC3_NumericDataThresholdCheck
+  summary: 数值数据阈值检验工具。读取结构化数据文件（CSV、TSV、Excel等），检查数值字段是否在指定的门限范围内，不允许超出门限值之外，最后输出为同格式的文件。当用户需要对数据进行阈值检验、数值范围检查、数据质量控制等操作时使用此skill。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-cas-bigdatalab
+    - github-repo-piflow
+  upstream_ref: https://github.com/cas-bigdatalab/piflow/blob/master/workspace/skills/QC3_NumericDataThresholdCheck/SKILL.md
 - type: skills
   slug: github-skill-catlog22-claude-code-workflow-team-lifecycle
   source_url: https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.claude/skills/team-lifecycle/SKILL.md
@@ -344,6 +392,18 @@
     - github-repo-product-manager-skills
   upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
 - type: skills
+  slug: github-skill-denissergeevitch-repo-task-proof-loop-repo-task-proof-loop
+  source_url: https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/main/SKILL.md
+  title: repo-task-proof-loop
+  summary: Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-denissergeevitch
+    - github-repo-repo-task-proof-loop
+  upstream_ref: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/main/SKILL.md
+- type: skills
   slug: github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks
   source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
   title: deploying-monitoring-stacks
@@ -400,6 +460,30 @@
     - github-repo-dlt
   upstream_ref: https://github.com/dlt-hub/dlt/blob/devel/.claude/skills/review-pr/SKILL.md
 - type: skills
+  slug: github-skill-dokhacgiakhoa-agent-skills-4-vibe-coding-cli-bazel-build-optimization
+  source_url: https://raw.githubusercontent.com/Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI/main/tests/manual-repair-test/.agent/skills/bazel-build-optimization/SKILL.md
+  title: bazel-build-optimization
+  summary: Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-dokhacgiakhoa
+    - github-repo-agent-skills-4-vibe-coding-cli
+  upstream_ref: https://github.com/Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI/blob/main/tests/manual-repair-test/.agent/skills/bazel-build-optimization/SKILL.md
+- type: skills
+  slug: github-skill-ecnu-icalk-autoskill-generate-twitch-game-outreach
+  source_url: https://raw.githubusercontent.com/ECNU-ICALK/AutoSkill/main/SkillBank/ConvSkill/english_gpt4_8_GLM4.7/generate_twitch_game_outreach/SKILL.md
+  title: generate_twitch_game_outreach
+  summary: Generates personalized, authentic outreach messages for Twitch streamers to request game keys or coverage, adapting tone while maintaining a human, community-focused voice.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-ecnu-icalk
+    - github-repo-autoskill
+  upstream_ref: https://github.com/ECNU-ICALK/AutoSkill/blob/main/SkillBank/ConvSkill/english_gpt4_8_GLM4.7/generate_twitch_game_outreach/SKILL.md
+- type: skills
   slug: github-skill-elizaos-eliza-blucli
   source_url: https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md
   title: blucli
@@ -435,6 +519,18 @@
     - github-owner-florianbruniaux
     - github-repo-claude-code-ultimate-guide
   upstream_ref: https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/examples/skills/rtk-optimizer/SKILL.md
+- type: skills
+  slug: github-skill-fradser-dotclaude-resolving-merge-conflicts
+  source_url: https://raw.githubusercontent.com/FradSer/dotclaude/main/mattpocock/skills/engineering/resolving-merge-conflicts/SKILL.md
+  title: resolving-merge-conflicts
+  summary: Use when you need to resolve an in-progress git merge/rebase conflict.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-fradser
+    - github-repo-dotclaude
+  upstream_ref: https://github.com/FradSer/dotclaude/blob/main/mattpocock/skills/engineering/resolving-merge-conflicts/SKILL.md
 - type: skills
   slug: github-skill-github-awesome-copilot-copilot-instructions-blueprint-generator
   source_url: https://raw.githubusercontent.com/github/awesome-copilot/main/skills/copilot-instructions-blueprint-generator/SKILL.md
@@ -635,6 +731,18 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/16-api-integration/websocket-client-creator/SKILL.md
 - type: skills
+  slug: github-skill-jeremylongshore-tons-of-skills-marketplace-podium-webhook-reliability
+  source_url: https://raw.githubusercontent.com/jeremylongshore/tons-of-skills-marketplace/main/skills/.curated/podium-webhook-reliability/SKILL.md
+  title: podium-webhook-reliability
+  summary: Operate a Podium webhook receiver that survives the delivery-side failures — forged events without signature verification, replay attacks against a stateless handler, duplicate processing from Podium's 24h retry policy, lost events with no dead-letter queue, out-of-order batch deliveries, and timing-attack-vulnerable HMAC compares. Use when building a webhook endpoint for call transcripts, webchat events, conversation lifecycle, or review notifications; hardening an existing handler that processes events twice or drops them silently; or wiring a DLQ + replay path before the on-call rotation starts. Trigger with "podium webhook", "podium hmac", "podium signature", "podium webhook idempotency", "podium webhook replay", "podium dlq", "podium webhook retries".
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jeremylongshore
+    - github-repo-tons-of-skills-marketplace
+  upstream_ref: https://github.com/jeremylongshore/tons-of-skills-marketplace/blob/main/skills/.curated/podium-webhook-reliability/SKILL.md
+- type: skills
   slug: github-skill-k-dense-ai-claude-scientific-skills-pdf
   source_url: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/scientific-skills/document-skills/pdf/SKILL.md
   title: pdf
@@ -659,6 +767,42 @@
     - github-repo-capev2
   upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
 - type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-airline-local-dashboard-bauen
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/luftrecht-flughafenrecht/skills/airline-local-dashboard-bauen/SKILL.md
+  title: airline-local-dashboard-bauen
+  summary: "Für Airline – Local Counsel briefen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/luftrecht-flughafenrecht/skills/airline-local-dashboard-bauen/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-immobilien-formular-portal-und-einreichung
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/tabellenreview-3d/skills/immobilien-formular-portal-und-einreichung/SKILL.md
+  title: immobilien-formular-portal-und-einreichung
+  summary: "Für Immobilien: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck. Fachgebiet: Tabellenreview 3D. Route: immobilien-formular-portal-und-einreichung."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/tabellenreview-3d/skills/immobilien-formular-portal-und-einreichung/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-klausel-mindestlizenzen-meldungen-audit
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/lizenzvertragsersteller/skills/klausel-mindestlizenzen-meldungen-audit/SKILL.md
+  title: klausel-mindestlizenzen-meldungen-audit
+  summary: "Für Klausel Mindestlizenzen, Meldungen, Audit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/lizenzvertragsersteller/skills/klausel-mindestlizenzen-meldungen-audit/SKILL.md
+- type: skills
   slug: github-skill-kurtosis-tech-kurtosis-cluster-manage
   source_url: https://raw.githubusercontent.com/kurtosis-tech/kurtosis/main/skills/cluster-manage/SKILL.md
   title: cluster-manage
@@ -682,6 +826,18 @@
     - github-owner-kyegomez
     - github-repo-swarms
   upstream_ref: https://github.com/kyegomez/swarms/blob/master/examples/single_agent/agent_skill_examples/financial-analysis/SKILL.md
+- type: skills
+  slug: github-skill-larashero3-dotcom-lieflat-less-ai-tone-lieflat-less-ai-tone
+  source_url: https://raw.githubusercontent.com/larashero3-dotcom/lieflat-less-ai-tone/main/SKILL.md
+  title: lieflat-less-ai-tone
+  summary: 按 SKILL.md 明确列出的规则识别并改写写作中的 AI 痕迹。只能处理清单内的问题；未命中规则的文字必须原样保留，也不能改变文章框架。适用于写作完成后的成稿清理。 Remove AI writing tells using an explicit whitelist of rules; leaves unmatched text untouched.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-larashero3-dotcom
+    - github-repo-lieflat-less-ai-tone
+  upstream_ref: https://github.com/larashero3-dotcom/lieflat-less-ai-tone/blob/main/SKILL.md
 - type: skills
   slug: github-skill-lobehub-lobehub-data-fetching
   source_url: https://raw.githubusercontent.com/lobehub/lobehub/canary/.agents/skills/data-fetching/SKILL.md
@@ -719,6 +875,384 @@
     - github-repo-claude-howto
   upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/brand-voice/SKILL.md
 - type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-003-skills-inventory
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/003-skills-inventory/SKILL.md
+  title: 003-skills-inventory
+  summary: Use when you need to generate a checklist document with Java system prompts from skills.xml, following the embedded section template and producing INVENTORY-SKILLS-JAVA.md. This should trigger for requests such as Create Java system prompts checklist; Generate INVENTORY-SKILLS-JAVA.md; Use @003-skills-inventory. Part of cursor-rules-java project
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/other/003-skills-inventory/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-agent-sona-learning-optimizer
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/ai-ml/agent-sona-learning-optimizer/SKILL.md
+  title: agent-sona-learning-optimizer
+  summary: Agent skill for sona-learning-optimizer - invoke with $agent-sona-learning-optimizer
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/ai-ml/agent-sona-learning-optimizer/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-ai-agents
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/agent/ai-agents/SKILL.md
+  title: ai-agents
+  summary: Production-grade AI agent patterns with MCP integration, agentic RAG, handoff orchestration, multi-layer guardrails, and observability (modern best practices)
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/agent/ai-agents/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-android-kotlin-development
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/android-kotlin-development-aj-geddes-useful-ai-prompts/SKILL.md
+  title: android-kotlin-development
+  summary: Develop native Android apps with Kotlin. Covers MVVM with Jetpack, Compose for modern UI, Retrofit for API calls, Room for local storage, and navigation architecture.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/development/android-kotlin-development-aj-geddes-useful-ai-prompts/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-api-implementation-patterns
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/api/api-implementation-patterns-michsindlinger-agent-os-extended-bf8/SKILL.md
+  title: api-implementation-patterns
+  summary: "> Template for project-specific API implementation skill"
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/api/api-implementation-patterns-michsindlinger-agent-os-extended-bf8/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-automating-tmux-windows
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/workflow/automating-tmux-windows/SKILL.md
+  title: automating-tmux-windows
+  summary: Automates terminal sessions in tmux windows using MCP tools. Use when launching background processes, monitoring builds/servers, sending commands to debuggers (pdb/gdb), interacting with CLI prompts, using interactive commands or commands that require sudo, or orchestrating parallel tasks across multiple terminal sessions.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/workflow/automating-tmux-windows/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-axel-skill
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/skills/axel-skill/SKILL.md
+  title: axel-skill
+  summary: Structure of skill definition files - role, capabilities, enforcement, registry
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/skills/axel-skill/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-bio-annotation
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/domains/bio-annotation/SKILL.md
+  title: bio-annotation
+  summary: Functional annotation and taxonomy inference from sequence homology.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/domains/bio-annotation/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-bio-microbiome-functional-prediction
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/functional-prediction/SKILL.md
+  title: bio-microbiome-functional-prediction
+  summary: Predict metagenome functional content from 16S rRNA marker gene data using PICRUSt2. Infer KEGG, MetaCyc, and EC abundances from ASV tables. Use when functional profiling is needed from 16S data without shotgun metagenomics sequencing.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/functional-prediction/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-ccxt-python
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/integration/ccxt-python/SKILL.md
+  title: ccxt-python
+  summary: CCXT cryptocurrency exchange library for Python developers. Covers both REST API (standard) and WebSocket API (real-time). Helps install CCXT, connect to exchanges, fetch market data, place orders, stream live tickers/orderbooks, handle authentication, and manage errors in Python. Use when working with crypto exchanges in Python projects, trading bots, data analysis, or portfolio management. Supports both sync and async (asyncio) usage.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/integration/ccxt-python/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-commands-manager
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/commands-manager-henmessi-plugin-dev/SKILL.md
+  title: commands-manager
+  summary: "Branch skill for building and improving commands. Use when creating new slash commands, adapting marketplace commands, validating command structure, working with $ARGUMENTS, or improving existing commands. Triggers: 'create command', 'improve command', 'validate command', 'fix command', 'slash command', '$ARGUMENTS', 'adapt command', 'multi-phase command', 'command frontmatter'."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/development/commands-manager-henmessi-plugin-dev/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-distress-screening
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/domains/distress-screening/SKILL.md
+  title: distress-screening
+  summary: Use when screening for nonspecific psychological distress or tracking symptom burden over time. Provides K6 and K10 scales with scoring and interpretation guidance.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/domains/distress-screening/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-git-master
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/git-master-chanhee-kang-oh-my-gemini/SKILL.md
+  title: git-master
+  summary: Git expert for atomic commits, rebasing, and history management with style detection
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/devops/git-master-chanhee-kang-oh-my-gemini/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-global-conventions
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/global-conventions-dpietersz-pietersz-me/SKILL.md
+  title: Global Conventions
+  summary: Follow project-wide development conventions including consistent project structure, clear documentation, version control best practices, environment configuration, and dependency management. Use this skill when organizing project files and directories, writing README files, creating commit messages, managing environment variables, or handling dependencies. When working with configuration files, documentation files, package managers, or version control. When setting up new features, organizing code structure, or maintaining project documentation. This skill applies when working with project structure, `.env` files, `package.json`, `requirements.txt`, `Gemfile`, README files, and any project-level configuration.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/development/global-conventions-dpietersz-pietersz-me/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-hydrological-modeller
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/hydrological-modeller/SKILL.md
+  title: hydrological-modeller
+  summary: |-
+    Hydrological modelling expert who develops, maintains, and critically reviews forecast models within
+    SAPPHIRE. Expert in statistical hydrology, machine learning for hydrology, and numerical modelling.
+    Use when: (1) writing or updating code documentation, (2) working in the doc/ directory,
+    (3) documenting how to add new models or data sources, (4) reviewing model implementations for
+    correctness and scientific validity, (5) evaluating skill metrics and forecast quality.
+    Read-only, provides feedback but does not make edits.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/hydrological-modeller/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-issue-pr
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/devops/issue-pr/SKILL.md
+  title: issue-pr
+  summary: 現在のブランチでPull Requestを作成し、CIステータスを確認。「/issue-pr」で使用
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/devops/issue-pr/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-issue-size-estimation
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/issue-size-estimation/SKILL.md
+  title: issue-size-estimation
+  summary: Issue粒度判定とコード行数見積もりの基準、サイズラベル、分割判定ロジックを定義
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/issue-size-estimation/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-linkedin-post
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/linkedin-post/SKILL.md
+  title: linkedin-post
+  summary: Create engaging LinkedIn posts that drive engagement and build authority. Use when the user wants to write LinkedIn content, needs posts for their LinkedIn strategy, or wants to repurpose content for LinkedIn.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/development/linkedin-post/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-mckinsey-consultant
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/analysis/mckinsey-consultant-11-mann1988-awesome-claude-skill/SKILL.md
+  title: mckinsey-consultant
+  summary: McKinsey顾问式问题解决系统。从商业问题出发,通过假设驱动的结构化分析方法,生成McKinsey风格研究报告和PPT。融合Problem Solving方法论、MECE原则、Issue Tree拆解、Hypotheses形成、Dummy Page设计、智能数据收集和专业PPT生成能力。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/analysis/mckinsey-consultant-11-mann1988-awesome-claude-skill/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-moai-foundation-quality
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/quality/moai-foundation-quality-hnabyz-bot-mcp-agent-server/SKILL.md
+  title: moai-foundation-quality
+  summary: Enterprise code quality orchestrator with TRUST 5 validation, proactive analysis, and automated best practices enforcement
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/quality/moai-foundation-quality-hnabyz-bot-mcp-agent-server/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-moai-icons-vector
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/moai-icons-vector/SKILL.md
+  title: moai-icons-vector
+  summary: Vector icon libraries ecosystem guide covering 10+ major libraries with 200K+ icons, including React Icons (35K+), Lucide (1000+), Tabler Icons (5900+), Iconify (200K+), Heroicons, Phosphor, and Radix Icons with implementation patterns, decision trees, and best practices.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/moai-icons-vector/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-new-column
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/new-column/SKILL.md
+  title: new-column
+  summary: conventions for new columns
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/development/new-column/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-novel-to-game
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/novel-to-game-zenstory-ai-novel-to-game/SKILL.md
+  title: novel-to-game
+  summary: Turn a novel into a fully playable game on the selected target platform. Orchestrates the whole adaptation pipeline — requirements intake, gameable deconstruction, concept selection, world and visual design, target-runtime build, and evidence-based QA — for a novel in any language. Use for novel to game, story to game, book to game, adapt this novel into a game, turn this book into a playable prototype, make an interactive story or text adventure from this novel. NovelToGame 总入口。把任意语言的原始小说、拆文库或 oh-story 写作工程转成有原著依据、可在目标平台完整游玩的游戏，编排游戏化拆解、概念选择、游戏与视觉设计、目标运行环境构建和证据化质量验证。用于小说转游戏、把这本书做成游戏、把小说改成互动小说 / 互动叙事 / 文字冒险游戏等需求。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/other/novel-to-game-zenstory-ai-novel-to-game/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-paid-ads-tiktok
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/other/paid-ads-tiktok-nowork-studio-notfair-plugin-2/SKILL.md
+  title: paid-ads-tiktok
+  summary: Plan and review TikTok Ads creative experiments with measurement, rights, and conversion guardrails. Use for TikTok advertising, Spark Ads, short-form video ads, creator briefs, TikTok campaign setup, or TikTok performance exports.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/other/paid-ads-tiktok-nowork-studio-notfair-plugin-2/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-skills-audit-improve
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/development/skills-audit-improve/SKILL.md
+  title: skills-audit-improve
+  summary: 评估、评分并改进 .codex/skills 下的已有技能。适用于用户要求审查、优化或重构 skills 的场景。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/development/skills-audit-improve/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-solidstart-data-mutation
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/solidstart-data-mutation/SKILL.md
+  title: solidstart-data-mutation
+  summary: "SolidStart data mutation: form submissions with actions, validation, error handling, pending states, optimistic UI, redirects, database operations, programmatic triggers."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/solidstart-data-mutation/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-survey-sdk-audit
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/survey-sdk-audit/SKILL.md
+  title: survey-sdk-audit
+  summary: Audit PostHog survey SDK features and version requirements
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/survey-sdk-audit/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-universal-design
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/data/universal-design/SKILL.md
+  title: universal-design
+  summary: Diseño que funciona para todos sin necesidad de adaptación. Use cuando diseñe productos para audiencias diversas o cuando busque máximo alcance.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/data/universal-design/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-vibecode-brand-design
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/vibecode-brand-design-rbrown101010-landingpageoptions/SKILL.md
+  title: vibecode-brand-design
+  summary: Vibecode brand design system with colors, typography, spacing, and component guidelines. Use when designing UI, styling components, or ensuring brand consistency in the Vibecode app.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/design/vibecode-brand-design-rbrown101010-landingpageoptions/SKILL.md
+- type: skills
+  slug: github-skill-majiayu000-claude-skill-registry-web-development-skill
+  source_url: https://raw.githubusercontent.com/majiayu000/claude-skill-registry/main/skills/design/web-development-skill-pluginagentmarketpla-custom-plugin-nextjs/SKILL.md
+  title: web-development-skill
+  summary: Master modern web development. Learn HTML/CSS/JavaScript fundamentals, React/Vue/Angular frameworks, Node.js backend, databases, APIs, and full-stack architectures. Use when building web applications, learning web technologies, or choosing tech stacks.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-majiayu000
+    - github-repo-claude-skill-registry
+  upstream_ref: https://github.com/majiayu000/claude-skill-registry/blob/main/skills/design/web-development-skill-pluginagentmarketpla-custom-plugin-nextjs/SKILL.md
+- type: skills
+  slug: github-skill-matlab-matlab-agentic-toolkit-matlab-analyze-pcb-pdn
+  source_url: https://raw.githubusercontent.com/matlab/matlab-agentic-toolkit/main/skills-catalog/rf-and-mixed-signal/matlab-analyze-pcb-pdn/SKILL.md
+  title: matlab-analyze-pcb-pdn
+  summary: "PDN DC voltage/current analysis, IR drop, design rule checking, and multi-net batch analysis on imported PCB layouts. TRIGGER: user asks about power integrity, PDN analysis, IR drop, voltage distribution, current density, power nets, or design rule checking on a PCB. Invoke BEFORE writing code — the PDN API chain is specialized and non-obvious. SKIP: importing a PCB file (use matlab-read-pcb-layout), EM field/S-parameter extraction (use matlab-analyze-em), material/stackup setup only (use matlab-manage-pcb-material), transmission line design (use matlab-design-pcb-transmission-line)."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-communication
+    - github-owner-matlab
+    - github-repo-matlab-agentic-toolkit
+  upstream_ref: https://github.com/matlab/matlab-agentic-toolkit/blob/main/skills-catalog/rf-and-mixed-signal/matlab-analyze-pcb-pdn/SKILL.md
+- type: skills
   slug: github-skill-mukul975-anthropic-cybersecurity-skills-analyzing-ransomware-leak-site-intelligence
   source_url: https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
   title: analyzing-ransomware-leak-site-intelligence
@@ -730,6 +1264,18 @@
     - github-owner-mukul975
     - github-repo-anthropic-cybersecurity-skills
   upstream_ref: https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
+- type: skills
+  slug: github-skill-neolabhq-context-engineering-kit-review-pr
+  source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/skills/review-pr/SKILL.md
+  title: review-pr
+  summary: Review an existing GitHub pull request and post inline review comments on its diff. Use when the changes are on an opened PR rather than your local working tree.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-neolabhq
+    - github-repo-context-engineering-kit
+  upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/skills/review-pr/SKILL.md
 - type: skills
   slug: github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns
   source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
@@ -743,6 +1289,18 @@
     - github-repo-context-engineering-kit
   upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
 - type: skills
+  slug: github-skill-nocobase-nocobase-analysis
+  source_url: https://raw.githubusercontent.com/nocobase/nocobase/main/packages/core/ai/src/__tests__/resource/ai/ai-employees/with-skills/skills/analysis/SKILLS.md
+  title: analysis
+  summary: analysis skill
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-nocobase
+    - github-repo-nocobase
+  upstream_ref: https://github.com/nocobase/nocobase/blob/main/packages/core/ai/src/__tests__/resource/ai/ai-employees/with-skills/skills/analysis/SKILLS.md
+- type: skills
   slug: github-skill-novuhq-novu-react-email
   source_url: https://raw.githubusercontent.com/novuhq/novu/next/.agents/skills/react-email/SKILL.md
   title: react-email
@@ -754,6 +1312,30 @@
     - github-owner-novuhq
     - github-repo-novu
   upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-nvidia-nemoclaw-nemoclaw-contributor-implement-issue
+  source_url: https://raw.githubusercontent.com/NVIDIA/NemoClaw/main/.agents/skills/nemoclaw-contributor-implement-issue/SKILL.md
+  title: nemoclaw-contributor-implement-issue
+  summary: Implement an accepted NemoClaw GitHub issue in the current checkout. Use when a user asks to pick up an issue for implementation, implement or fix a named issue, or add the issue's tests. Confirm accepted scope, deliver the smallest independently valuable capability slice, and record validation and remaining gates without publishing a PR. Ask which lifecycle stage they want when "work on this issue" could mean planning or implementation. Do not use for issue planning, PR publication, independent security review, or maintainer loops. Trigger keywords - pick up issue for implementation, implement issue, fix issue, code issue, add issue tests.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-nvidia
+    - github-repo-nemoclaw
+  upstream_ref: https://github.com/NVIDIA/NemoClaw/blob/main/.agents/skills/nemoclaw-contributor-implement-issue/SKILL.md
+- type: skills
+  slug: github-skill-nvidia-skills-tao-run-automl
+  source_url: https://raw.githubusercontent.com/NVIDIA/skills/main/skills/tao-run-automl/SKILL.md
+  title: tao-run-automl
+  summary: Run container-backed AutoML / hyperparameter optimization (HPO) for NVIDIA TAO networks using AutoMLRunner. Handles algorithm selection (bayesian, hyperband, asha, bohb, llm, hybrid, autoresearch), WandB experiment tracking, job execution on any TAO SDK platform, result interpretation, and per-rec custom evaluation hooks. Use when the user mentions TAO AutoML, hyperparameter optimization, HPO, automl, automl_settings, AutoMLRunner, tao_automl, bayesian search, hyperband, ASHA, LLM-guided search, autoresearch, or wants to tune train/distill/prune/quantize action parameters for any TAO network. Model actions use the model skill's resolved container image by default; venv training requires an explicit user request. Platform-agnostic — runs on any SDK (Brev, SLURM, Kubernetes, Docker).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-nvidia
+    - github-repo-skills
+  upstream_ref: https://github.com/NVIDIA/skills/blob/main/skills/tao-run-automl/SKILL.md
 - type: skills
   slug: github-skill-onmax-nuxt-skills-nuxt-seo
   source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md
@@ -1174,6 +1756,18 @@
     - github-repo-skills
   upstream_ref: https://github.com/openclaw/skills/blob/main/skills/aikarjal/wilma-triage/SKILL.md
 - type: skills
+  slug: github-skill-orchestra-research-ai-research-skills-hqq-quantization
+  source_url: https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/main/10-optimization/hqq/SKILL.md
+  title: hqq-quantization
+  summary: Half-Quadratic Quantization for LLMs without calibration data. Use when quantizing models to 4/3/2-bit precision without needing calibration datasets, for fast quantization workflows, or when deploying with vLLM or HuggingFace Transformers.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-orchestra-research
+    - github-repo-ai-research-skills
+  upstream_ref: https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/main/10-optimization/hqq/SKILL.md
+- type: skills
   slug: github-skill-pbakaus-impeccable-colorize
   source_url: https://raw.githubusercontent.com/pbakaus/impeccable/main/source/skills/colorize/SKILL.md
   title: colorize
@@ -1233,6 +1827,18 @@
     - github-owner-resend
     - github-repo-react-email
   upstream_ref: https://github.com/resend/react-email/blob/canary/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-shift-labs-ai-markit-markit
+  source_url: https://raw.githubusercontent.com/shift-labs-ai/markit/main/SKILL.md
+  title: markit
+  summary: Convert files and URLs to Markdown. Supports PDF, DOCX, PPTX, XLSX, HTML, EPUB, CSV, JSON, GitHub URLs, images, audio, ZIP, and more. Use when you need to extract content from any document format.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-shift-labs-ai
+    - github-repo-markit
+  upstream_ref: https://github.com/shift-labs-ai/markit/blob/main/SKILL.md
 - type: skills
   slug: github-skill-sickn33-antigravity-awesome-skills-hubspot-integration
   source_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/hubspot-integration/SKILL.md
@@ -1318,6 +1924,30 @@
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
 - type: skills
+  slug: github-skill-wjz-p-gemini-skill-gemini-skill
+  source_url: https://raw.githubusercontent.com/WJZ-P/gemini-skill/main/SKILL.md
+  title: gemini-skill
+  summary: 通过 Gemini 官网（gemini.google.com）执行生图、对话等操作。用户提到"生图/画图/绘图/nano banana/nanobanana/生成图片"等关键词时触发。操作方式分三级优先级：首选 MCP 工具 → 次选 Skill 脚本 → 最次连接 Skill 浏览器手动操作（需用户授权）。禁止自行启动外部浏览器访问 Gemini。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-wjz-p
+    - github-repo-gemini-skill
+  upstream_ref: https://github.com/WJZ-P/gemini-skill/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-xiaopu-ai-web-design-web-design
+  source_url: https://raw.githubusercontent.com/xiaopu-ai/web-design/main/SKILL.md
+  title: web-design
+  summary: Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个页面""参考 XX 做一个""把这个截图/PRD 做成网页""做一个 landing page""出一份 design 规范"时触发。不用于后端、数据库、纯逻辑 bug 修复。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xiaopu-ai
+    - github-repo-web-design
+  upstream_ref: https://github.com/xiaopu-ai/web-design/blob/main/SKILL.md
+- type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
   title: ultraqa
@@ -1329,6 +1959,18 @@
     - github-owner-yeachan-heo
     - github-repo-oh-my-claudecode
   upstream_ref: https://github.com/Yeachan-Heo/oh-my-claudecode/blob/main/skills/ultraqa/SKILL.md
+- type: skills
+  slug: github-skill-zakirkun-guardian-cli-guardian-cli
+  source_url: https://raw.githubusercontent.com/zakirkun/guardian-cli/main/SKILL.md
+  title: guardian-cli
+  summary: An enterprise-grade, AI-powered penetration testing automation CLI tool. Orchestrates multiple specialized AI agents (Planner, ToolAgent, Analyst, Reporter) backed by 4 AI providers (OpenAI, Claude, Gemini, OpenRouter) and 19 integrated security tools through YAML-defined workflows. Produces professional Markdown, HTML, or JSON security reports with full evidence capture and traceability.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-zakirkun
+    - github-repo-guardian-cli
+  upstream_ref: https://github.com/zakirkun/guardian-cli/blob/main/SKILL.md
 - type: skills
   slug: github-skill-zjunlp-skillnet-webshop-query-parser
   source_url: https://raw.githubusercontent.com/zjunlp/SkillNet/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md
