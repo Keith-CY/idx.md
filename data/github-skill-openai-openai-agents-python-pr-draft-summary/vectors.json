@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-openai-openai-agents-python-pr-draft-summary",
-  "generated_at": "2026-09-05T11:03:53.706Z",
+  "generated_at": "2026-09-06T11:27:11.640Z",
   "records": [
     {
       "id": "skills/github-skill-openai-openai-agents-python-pr-draft-summary#head",
@@ -21,7 +21,7 @@
           "github-repo-openai-agents-python"
         ],
         "source_url": "https://raw.githubusercontent.com/openai/openai-agents-python/main/.agents/skills/pr-draft-summary/SKILL.md",
-        "retrieved_at": "2026-09-05T11:03:53.706Z",
+        "retrieved_at": "2026-09-06T11:27:11.640Z",
         "content_sha256": "a14f15abd9684da75acd8eca16e6b44a90151830135deb23bb0578fc83e57485"
       }
     }

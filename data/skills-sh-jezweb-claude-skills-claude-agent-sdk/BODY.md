@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.263
+
+- Updated to parity with Claude Code v2.1.263
+
+## 0.3.262
+
+- Updated to parity with Claude Code v2.1.262
+
 ## 0.3.261
 
 - Added `pluginDelivery: 'initialize'` to send `plugins` over stdin so the launch command line no longer grows with the plugin count (fixes Windows start failures with many plugins)

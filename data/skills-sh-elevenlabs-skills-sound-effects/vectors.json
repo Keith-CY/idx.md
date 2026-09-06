@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-sound-effects",
-  "generated_at": "2026-09-05T11:04:58.501Z",
+  "generated_at": "2026-09-06T11:27:37.817Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-sound-effects#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/sound-effects/references/installation.md",
-        "retrieved_at": "2026-09-05T11:04:58.501Z",
+        "retrieved_at": "2026-09-06T11:27:37.817Z",
         "content_sha256": "58724eebca1477e889a13d8a5cb9956b95f6b0269b3ecb16e5a74b1a57034522"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-supercent-io-skills-template-codebase-search",
-  "generated_at": "2026-09-05T11:03:25.496Z",
+  "generated_at": "2026-09-06T11:27:00.583Z",
   "records": [
     {
       "id": "skills/skills-sh-supercent-io-skills-template-codebase-search#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/BurntSushi/ripgrep/master/GUIDE.md",
-        "retrieved_at": "2026-09-05T11:03:25.496Z",
+        "retrieved_at": "2026-09-06T11:27:00.583Z",
         "content_sha256": "156337b59d9813beadc8f7489e9e86da9eec2c09e755e6baa31ec2c40c7e77eb"
       }
     }

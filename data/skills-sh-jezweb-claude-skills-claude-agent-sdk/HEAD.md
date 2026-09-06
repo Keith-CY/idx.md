@@ -5,6 +5,14 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.263
+
+  - Updated to parity with Claude Code v2.1.263
+
+  ## 0.3.262
+
+  - Updated to parity with Claude Code v2.1.262
+
   ## 0.3.261
 
   - Added `pluginDelivery: 'initialize'` to send `plugins` over stdin so the
@@ -18,20 +26,6 @@ summary: >-
   - Updated to parity with Claude Code v2.1.261
 
   ## 0.3.260
-
-  - Added optional `user_message_uuid` to `thinking_tokens` system messages,
-  linking thinking progress to the user message that triggered the turn
-
-  - Added optional `first_content_frame_ms`, `first_stream_post_ms`,
-  `first_stream_post_ack_ms` and `first_stream_post_wall_ms` fields to the
-  success result message for remote-session latency breakdowns
-
-  - Fixed `managedSettings` `disableAutoMode: "disable"` (either spelling) being
-  dropped by the restrictive-only filter instead of turning auto mode off for
-  the spawned session
-
-  - Fixed `rewindFiles()` reporting success when no files could be restored (for
-  example when checkpoint backups are missing); it now fails
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +35,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-05T11:04:40.799Z
-content_sha256: 75a75e4939942f48d977fbd9f595ddea124c6c06ac62e2d57b3cd9006126bba3
+retrieved_at: 2026-09-06T11:27:31.571Z
+content_sha256: b92fd4b97b0947b9e8dfaa859c8a39a925c7c4a929b37a6c0adfd8bca6250522
 ---
