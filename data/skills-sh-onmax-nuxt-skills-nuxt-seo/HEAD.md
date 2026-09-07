@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-seo
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-09-06T11:28:18.486Z
+retrieved_at: 2026-09-07T13:13:34.506Z
 content_sha256: 5fe0f6314f21f851027e203b33e483fa94d318ec6ac82fa047124674b82a89b0
 ---

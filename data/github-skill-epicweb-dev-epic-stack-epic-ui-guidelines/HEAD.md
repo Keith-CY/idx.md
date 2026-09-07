@@ -15,6 +15,6 @@ upstream_ref: https://github.com/epicweb-dev/epic-stack/blob/main/docs/skills/ep
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-06T11:27:10.037Z
+retrieved_at: 2026-09-07T13:10:02.556Z
 content_sha256: 74bcb9051bf6c222bb994885d81abe0c6b227bbf9913a48e6a594cfd1ff9bec9
 ---
