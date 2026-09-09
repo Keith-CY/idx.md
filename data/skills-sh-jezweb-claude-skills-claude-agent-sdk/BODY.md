@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.3.266
+
+- Updated to parity with Claude Code v2.1.266
+
+## 0.3.265
+
+- Added `user_message_uuid` and `user_message_uuids` to a synthetic turn's first reply and result for a message sent with `isSynthetic: true` and a `uuid`, naming the message that started it
+- Added `user_message_uuid` and `user_message_uuids` to the first reply and the result of a turn Claude Code started itself, such as a resume, naming the messages you sent that it picked up mid-turn
+- Fixed `user_message_uuid` missing from the success result of a turn that sent no API request, such as a slash command
+- Fixed multi-turn sessions resetting the shell working directory to the `cwd` option at each new user message; a `cd` made by the agent now persists across turns, as in the interactive app
+- Changed `user_message_uuid` to be set on the first reply after each change of the message a turn is answering, instead of on one reply frame per turn
+- Updated to parity with Claude Code v2.1.265
+
+## 0.3.264
+
+- Updated to parity with Claude Code v2.1.264
+
 ## 0.3.263
 
 - Updated to parity with Claude Code v2.1.263

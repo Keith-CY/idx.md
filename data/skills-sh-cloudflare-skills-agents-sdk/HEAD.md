@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/cloudflare/skills/agents-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-07T13:10:51.239Z
+retrieved_at: 2026-09-09T12:04:48.241Z
 content_sha256: da59e9c265f91cca1011cbb9d9956f52371ec9a60be7f6201dbac7fb84879b8e
 ---

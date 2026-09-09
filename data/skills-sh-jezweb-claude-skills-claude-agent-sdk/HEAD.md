@@ -5,27 +5,31 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.263
+  ## 0.3.266
 
-  - Updated to parity with Claude Code v2.1.263
+  - Updated to parity with Claude Code v2.1.266
 
-  ## 0.3.262
+  ## 0.3.265
 
-  - Updated to parity with Claude Code v2.1.262
+  - Added `user_message_uuid` and `user_message_uuids` to a synthetic turn's
+  first reply and result for a message sent with `isSynthetic: true` and a
+  `uuid`, naming the message that started it
 
-  ## 0.3.261
+  - Added `user_message_uuid` and `user_message_uuids` to the first reply and
+  the result of a turn Claude Code started itself, such as a resume, naming the
+  messages you sent that it picked up mid-turn
 
-  - Added `pluginDelivery: 'initialize'` to send `plugins` over stdin so the
-  launch command line no longer grows with the plugin count (fixes Windows start
-  failures with many plugins)
+  - Fixed `user_message_uuid` missing from the success result of a turn that
+  sent no API request, such as a slash command
 
-  - Fixed `query()` throwing "Object not disposable" in runtimes without a
-  native `Symbol.dispose`, such as Node ≤22 `vm` contexts (Jest's `node`
-  environment, vitest `vmThreads`/`vmForks`) and Node <18.18
+  - Fixed multi-turn sessions resetting the shell working directory to the `cwd`
+  option at each new user message; a `cd` made by the agent now persists across
+  turns, as in the interactive app
 
-  - Updated to parity with Claude Code v2.1.261
+  - Changed `user_message_uuid` to be set on the first reply after each change
+  of the message a turn is answering, instead of on one reply frame per turn
 
-  ## 0.3.260
+  - Updated to parity with Claude Code v2.1.265
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-07T13:10:53.511Z
-content_sha256: b92fd4b97b0947b9e8dfaa859c8a39a925c7c4a929b37a6c0adfd8bca6250522
+retrieved_at: 2026-09-09T12:04:51.265Z
+content_sha256: 7ddecce5b2cb789a832067281391d51519442bebe895ca192ae236f7860b794e
 ---
