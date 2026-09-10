@@ -24,6 +24,6 @@ upstream_ref: https://skills.sh/youmind-openlab/nano-banana-pro-prompts-recommen
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-09T12:04:14.295Z
+retrieved_at: 2026-09-10T11:58:38.949Z
 content_sha256: 668abbedcda5f863c80cd60fe89f388d72bde09ee6ec2f8b68797f1b63557884
 ---

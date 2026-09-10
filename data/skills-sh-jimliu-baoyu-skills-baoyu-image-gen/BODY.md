@@ -75,6 +75,8 @@ options:
     description: "Highest quality, best for production use"
   - label: "gemini-3.1-flash-image"
     description: "Fast generation, good quality, lower cost"
+  - label: "gemini-3.1-flash-lite-image"
+    description: "Cheapest and fastest; 1K output only"
   - label: "gemini-3-flash-preview"
     description: "Fast generation, balanced quality and speed"
 ```
@@ -103,7 +105,11 @@ Only show if user selected Azure OpenAI.
 header: "Azure Deploy"
 question: "Default Azure image deployment name?"
 options:
-  - label: "gpt-image-2 (Recommended)"
+  - label: "gpt-image-2.5-flare (Recommended)"
+    description: "Use if your Azure deployment uses the GPT Image 2.5 Flare model name"
+  - label: "gpt-image-2.5-sunburst"
+    description: "Use if your Azure deployment uses the GPT Image 2.5 Sunburst model name"
+  - label: "gpt-image-2"
     description: "Use if your Azure deployment uses the GPT Image 2 model name"
   - label: "gpt-image-1.5"
     description: "Previous GPT Image deployment name"
@@ -209,6 +215,8 @@ options:
     description: "Highest quality, best for production use"
   - label: "gemini-3.1-flash-image"
     description: "Fast generation, good quality, lower cost"
+  - label: "gemini-3.1-flash-lite-image"
+    description: "Cheapest and fastest; 1K output only"
   - label: "gemini-3-flash-preview"
     description: "Fast generation, balanced quality and speed"
 ```
@@ -219,8 +227,12 @@ options:
 header: "OpenAI Model"
 question: "Choose a default OpenAI image generation model?"
 options:
-  - label: "gpt-image-2 (Recommended)"
-    description: "Latest GPT Image model, flexible sizes up to 4K, high-fidelity image inputs"
+  - label: "gpt-image-2.5-flare (Recommended)"
+    description: "Latest GPT Image model, fastest; flexible sizes up to 4K, high-fidelity image inputs"
+  - label: "gpt-image-2.5-sunburst"
+    description: "Most capable GPT Image model for complex scenes and precise edits; slower"
+  - label: "gpt-image-2"
+    description: "Previous GPT Image generation, flexible sizes up to 4K"
   - label: "gpt-image-1.5"
     description: "Previous GPT Image model"
   - label: "gpt-image-1"
@@ -233,7 +245,11 @@ options:
 header: "Azure Deploy"
 question: "Choose a default Azure image deployment name?"
 options:
-  - label: "gpt-image-2 (Recommended)"
+  - label: "gpt-image-2.5-flare (Recommended)"
+    description: "Use when your Azure deployment name matches the GPT Image 2.5 Flare model"
+  - label: "gpt-image-2.5-sunburst"
+    description: "Use when your Azure deployment name matches the GPT Image 2.5 Sunburst model"
+  - label: "gpt-image-2"
     description: "Use when your Azure deployment name matches the GPT Image 2 model"
   - label: "gpt-image-1.5"
     description: "Use when your Azure deployment name matches the GPT Image 1.5 model"
@@ -267,7 +283,9 @@ header: "DashScope Model"
 question: "Choose a default DashScope image generation model?"
 options:
   - label: "qwen-image-2.0-pro (Recommended)"
-    description: "Best DashScope model for text rendering and custom sizes"
+    description: "Best-verified DashScope model for text rendering and custom sizes"
+  - label: "qwen-image-3.0-pro"
+    description: "Newest Qwen flagship; same sizing rules, not yet the built-in default"
   - label: "qwen-image-2.0"
     description: "Faster 2.0 variant with flexible output size"
   - label: "qwen-image-max"
@@ -286,7 +304,7 @@ options:
 
 Notes for DashScope setup:
 
-- Prefer `qwen-image-2.0-pro` when the user needs custom `--size`, uncommon ratios like `21:9`, or strong Chinese/English text rendering.
+- Prefer `qwen-image-2.0-pro` (or the newer `qwen-image-3.0-pro`) when the user needs custom `--size`, uncommon ratios like `21:9`, or strong Chinese/English text rendering.
 - `qwen-image-max` / `qwen-image-plus` / `qwen-image` only support five fixed sizes: `1664*928`, `1472*1104`, `1328*1328`, `1104*1472`, `928*1664`.
 - `wan2.7-image-pro` and `wan2.7-image` are the only DashScope models that accept `--ref`. Pick one of these when the user wants reference-image editing or multi-image fusion via DashScope.
 - In `baoyu-image-gen`, `quality` is a compatibility preset. It is not a native DashScope parameter.

@@ -5,6 +5,18 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.267
+
+  - Added `getCcrEvent(query, message)` and `getSseLastSequenceNum(query)` to
+  the browser SDK's SSE transport, plus `fromSequenceNum`, `onCatchUpTruncated`
+  and `onDeliveryUpdate` SSE options
+
+  - Changed `systemPrompt` recording to default on for custom prompts and
+  appends (a mid-session prompt change takes effect at the next compaction);
+  pass `snapshot: false` to keep per-request rendering
+
+  - Updated to parity with Claude Code v2.1.267
+
   ## 0.3.266
 
   - Updated to parity with Claude Code v2.1.266
@@ -18,18 +30,6 @@ summary: >-
   - Added `user_message_uuid` and `user_message_uuids` to the first reply and
   the result of a turn Claude Code started itself, such as a resume, naming the
   messages you sent that it picked up mid-turn
-
-  - Fixed `user_message_uuid` missing from the success result of a turn that
-  sent no API request, such as a slash command
-
-  - Fixed multi-turn sessions resetting the shell working directory to the `cwd`
-  option at each new user message; a `cd` made by the agent now persists across
-  turns, as in the interactive app
-
-  - Changed `user_message_uuid` to be set on the first reply after each change
-  of the message a turn is answering, instead of on one reply frame per turn
-
-  - Updated to parity with Claude Code v2.1.265
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-09T12:04:51.265Z
-content_sha256: 7ddecce5b2cb789a832067281391d51519442bebe895ca192ae236f7860b794e
+retrieved_at: 2026-09-10T11:59:23.015Z
+content_sha256: 1c3238396b2b309520a0a433fb08b07940326d9756786fb5760abeff89b95c71
 ---

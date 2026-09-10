@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.267
+
+- Added `getCcrEvent(query, message)` and `getSseLastSequenceNum(query)` to the browser SDK's SSE transport, plus `fromSequenceNum`, `onCatchUpTruncated` and `onDeliveryUpdate` SSE options
+- Changed `systemPrompt` recording to default on for custom prompts and appends (a mid-session prompt change takes effect at the next compaction); pass `snapshot: false` to keep per-request rendering
+- Updated to parity with Claude Code v2.1.267
+
 ## 0.3.266
 
 - Updated to parity with Claude Code v2.1.266
