@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.268
+
+- Added `result_index` to result messages: the result's position in delivery order within the run, from 0
+- Added `local_command` to the result message of a turn that ran a slash command without entering the model loop, carrying the command's name
+- Added `hold_on_cache_impact` to the `reload_plugins` control request (`Query.reloadPlugins({ holdOnCacheImpact: true })`): holds a reload that would invalidate the session's prompt cache
+- Added `resume_reason` to assistant, stream-event and result messages, set only on the automatic re-run of a turn a host restart interrupted
+- Added `kind` (used, free, buffer, deferred) to each category in the `get_context_usage` control response, matching the `/context` result's `context_usage` rows
+- Added optional `defaultToNo` and `suppressAlwaysAllowRule` hints to `canUseTool` options: the prompt should open on its decline option, or offer no persistent "always allow" choice
+- Changed `setModel()` to confirm a model id the CLI doesn't know locally with the API the first time a session uses it, instead of refusing it as unrecognized
+- Changed `user_message_uuid` on the automatic re-run of an interrupted turn to name that turn's last user prompt
+- Changed the `initialize` success response to always include `pending_permission_requests` (empty when nothing is pending), so clients can tell that apart from an older CLI
+- Changed the task-tracking tools (TaskCreate/Get/Update/List, TodoWrite) to be default tools only on Claude 3.x, Opus 4.0–4.7, Sonnet 4.0–4.6 and Haiku 4.5; elsewhere list them in `tools`/`allowedTools`
+- Updated to parity with Claude Code v2.1.268
+
 ## 0.3.267
 
 - Added `getCcrEvent(query, message)` and `getSseLastSequenceNum(query)` to the browser SDK's SSE transport, plus `fromSequenceNum`, `onCatchUpTruncated` and `onDeliveryUpdate` SSE options
