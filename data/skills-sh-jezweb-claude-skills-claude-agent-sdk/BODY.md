@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.269
+
+- Changed `user_message_uuid`, `user_message_uuids` and `resume_reason` to be stamped on a turn's first complete assistant message as well as its first stream event when partial messages are on
+- Fixed `result.permission_denials` omitting Read, Edit and Write calls blocked by a path-scoped deny rule
+- Fixed interrupts and permission responses being delayed while a host-started MCP server OAuth sign-in waited on a slow authorization server
+- Fixed missing `tool_use_id` on `task_started` / `task_notification` when the CLI resumes a background subagent on its own; they now carry the agent's last call id
+- Changed plan mode to route writes through `canUseTool` even when `allowDangerouslySkipPermissions` is set; the flag now only enables switching to `bypassPermissions` later
+- Updated to parity with Claude Code v2.1.269
+
 ## 0.3.268
 
 - Added `result_index` to result messages: the result's position in delivery order within the run, from 0
