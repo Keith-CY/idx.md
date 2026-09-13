@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.270
+
+  - Updated to parity with Claude Code v2.1.270
+
   ## 0.3.269
 
   - Changed `user_message_uuid`, `user_message_uuids` and `resume_reason` to be
@@ -26,11 +30,6 @@ summary: >-
   to `bypassPermissions` later
 
   - Updated to parity with Claude Code v2.1.269
-
-  ## 0.3.268
-
-  - Added `result_index` to result messages: the result's position in delivery
-  order within the run, from 0
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-12T11:24:56.104Z
-content_sha256: b8e76eaff583ccb7729321a28bad3354e3012d8b3a66b63756b80bac3271441a
+retrieved_at: 2026-09-13T12:28:20.558Z
+content_sha256: f108b7730cdd2047005572046c61a3cb7675ab15fc3c37037ba10195de5b614a
 ---

@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/document-writer
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-09-12T11:27:35.295Z
+retrieved_at: 2026-09-13T12:31:09.396Z
 content_sha256: 978b9e55ca9c992652d2b6ff28b57d75d24771b4c5b53fab1d33421c49615769
 ---

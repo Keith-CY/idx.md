@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/core-web-vitals
 github_stars: 1464
 github_forks: 132
 github_is_organization: false
-retrieved_at: 2026-09-12T11:24:00.747Z
+retrieved_at: 2026-09-13T12:27:22.193Z
 content_sha256: b0c220185d88c61f7770eb127d8facf86c86d2dd1fd82b86e15a4965a0137265
 ---

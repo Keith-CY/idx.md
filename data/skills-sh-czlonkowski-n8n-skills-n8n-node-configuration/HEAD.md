@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-node-configuration
 github_stars: 3051
 github_forks: 540
 github_is_organization: false
-retrieved_at: 2026-09-12T11:25:11.695Z
+retrieved_at: 2026-09-13T12:28:34.908Z
 content_sha256: 9da4e555505dd358cdc764a90ac0f279cb2e2ab5414065fb457eabb24be0cd4a
 ---
