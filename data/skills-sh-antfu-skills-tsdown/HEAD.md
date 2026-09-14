@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/antfu/skills/tsdown
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-09-13T12:28:14.716Z
+retrieved_at: 2026-09-14T13:30:45.180Z
 content_sha256: ae39017c73e572459fe227ff3eacc37c7761fc7b8e5264625b40c1862186a8b7
 ---
