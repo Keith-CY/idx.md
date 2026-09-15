@@ -27244,3 +27244,1368 @@
     - plugin-command
     - category-productivity-tasks
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/product-management/commands/brainstorm.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-job-post-builder-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/job-post-builder/SKILL.md
+  title: job-post-builder
+  summary: "Builds end-to-end hiring packets — job post, structured interview
+    guide with scoring rubric, and offer letter template — from a hiring brief.
+    Triggers on: \"help me hire\", \"we're hiring for\", \"write a job post\",
+    \"job description\", \"JD\", \"open role\", \"create a job ad\", \"interview
+    questions\", \"scoring rubric\", \"draft an offer letter\", \"send an
+    offer\", \"make a hiring packet\", or any request to recruit for a position.
+    When in doubt, trigger — covers the full hiring workflow from job post
+    through DocuSign envelope creation via browser. Does NOT screen or rank
+    applicants."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/job-post-builder/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-lead-triage-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/lead-triage/SKILL.md
+  title: lead-triage
+  summary: Scores inbound HubSpot leads by engagement signals, company fit, and
+    urgency markers to produce a "call these 5 today" list with talking points,
+    drafts the follow-ups, and blocks Calendar time. Use when the user asks to
+    prioritize leads, who to call first, or about their pipeline.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/lead-triage/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-ticket-deflector-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/ticket-deflector/SKILL.md
+  title: ticket-deflector
+  summary: Reads a forwarded customer email or ticket, pulls order/refund status
+    from PayPal and account history from HubSpot, drafts a tone-matched reply in
+    the owner's writing voice, and can issue a PayPal refund with explicit owner
+    approval. Use when the user says "draft a response," "answer this customer,"
+    "where's my order," or "I want a refund."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/ticket-deflector/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-review-contract-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/review-contract/SKILL.md
+  title: review-contract
+  summary: Reviews a contract in plain English, surfaces red flags with severity
+    ratings, and produces a marked-up docx/PDF with suggested redlines. Accepts
+    optional file path or DocuSign envelope ID.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/review-contract/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-plan-payroll-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/plan-payroll/SKILL.md
+  title: plan-payroll
+  summary: Forecasts cash, ranks overdue invoices, and stages PayPal reminders so
+    the owner can confidently run payroll. Accepts optional horizon and
+    payroll-date arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/plan-payroll/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-crm-cleanup-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/crm-cleanup/SKILL.md
+  title: crm-cleanup
+  summary: Scans HubSpot for stale deals, duplicate contacts, and missing fields,
+    then fixes what the owner approves. Accepts optional scope argument for
+    deals, contacts, or all.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/crm-cleanup/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-business-pulse-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/business-pulse/SKILL.md
+  title: business-pulse
+  summary: Produces a one-page cross-functional business snapshot for SMB owners —
+    cash position (QuickBooks), sales trend (PayPal/Square), pipeline movement
+    (HubSpot), this week's commitments (Calendar), urgent watch-list items
+    (Gmail/Slack), and the single most important thing needing attention today.
+    Proactively tries every available connector and gracefully scopes to
+    whatever is connected — one connector gives a partial pulse; the full stack
+    gives the full picture. Trigger when the user asks how the business is
+    doing, wants a snapshot, a weekly summary, a Monday brief, or says anything
+    like "what am I missing" or "catch me up on the business."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/business-pulse/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-smb-onboard-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/smb-onboard/SKILL.md
+  title: smb-onboard
+  summary: "Claude as the trainer. Walks an SMB owner through connecting their
+    first two tools, runs one recipe to prove immediate value, interviews them
+    about their business (industry, size, top three headaches), stores that
+    context persistently so every other skill benefits, and sets a weekly
+    check-in cadence. Use when the owner is getting started or says any of:
+    \"set me up,\" \"setup,\" \"help me get set up,\" \"get started,\" \"help me
+    get started,\" \"get me started,\" \"what can you do,\" \"I'm new to this,\"
+    or is in their first session."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/smb-onboard/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-tax-prep-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/tax-prep/SKILL.md
+  title: tax-prep
+  summary: Prepares tax-season materials — quarterly estimated tax calculation or
+    year-end 1099 prep — and produces an accountant handoff packet. Accepts
+    optional mode and year arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/tax-prep/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-canva-creator-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/canva-creator/SKILL.md
+  title: canva-creator
+  summary: 'Takes an approved content brief and executes a campaign end-to-end:
+    builds the posting calendar, generates Canva designs for social posts,
+    drafts caption and email copy, and stages social sends in HubSpot. Canva is
+    used for social posts only (Instagram, Facebook, X, LinkedIn) — email
+    content is drafted as plain text and surfaced inline for the owner to send
+    from their own tool. Every step requires explicit owner approval. Use when
+    the user says "make the content," "generate the posts," "create the assets,"
+    "turn this into a campaign," or hands off an approved brief for execution.'
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/canva-creator/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-customer-pulse-check-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/customer-pulse-check/SKILL.md
+  title: customer-pulse-check
+  summary: Synthesizes themes from PayPal disputes, HubSpot tickets, and review
+    exports into a top-3 fixable issues list with drafted response templates.
+    Accepts optional since-date argument.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/customer-pulse-check/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-handle-complaint-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/handle-complaint/SKILL.md
+  title: handle-complaint
+  summary: Handles an incoming customer complaint end-to-end — pulls context,
+    drafts a response, and suggests an operational fix. Accepts optional email
+    or ticket ID argument.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/handle-complaint/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-price-check-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/price-check/SKILL.md
+  title: price-check
+  summary: Produces a margin-by-product table and three pricing-scenario data
+    views so the owner can see the full financial picture before making a
+    pricing decision. Accepts optional product name argument.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/price-check/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-month-heads-up-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/month-heads-up/SKILL.md
+  title: month-heads-up
+  summary: Runs on the 25th — shows the next 30-day cash-flow outlook and flags
+    anything that needs attention before month-end. Accepts optional 30 or 60
+    day horizon.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/month-heads-up/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-sales-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/sales-brief/SKILL.md
+  title: sales-brief
+  summary: Surfaces top and bottom sellers, identifies seasonality patterns, and
+    produces a 2-week content brief to push winners and clear slow movers.
+    Accepts optional lookback window of 30, 60, or 90 days.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/sales-brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-smb-router-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/smb-router/SKILL.md
+  title: smb-router
+  summary: "The front door to the Small Business plugin. Listens to what the owner
+    needs right now — vague or specific — and routes them to the best skill or
+    slash command for the moment. Also serves as a guide: explains what's
+    available, suggests what to try next, and adapts recommendations based on
+    stored business context. Trigger whenever the owner asks \"what can you
+    do,\" \"help me with my business,\" \"what should I focus on,\" \"I don't
+    know where to start,\" or any open-ended business request that doesn't
+    clearly match a single skill."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/smb-router/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-monday-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/monday-brief/SKILL.md
+  title: monday-brief
+  summary: Generates a one-page Monday morning briefing — cash, sales, pipeline,
+    week ahead, top three to-dos. Accepts optional post destination and save-to
+    arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/monday-brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-invoice-chase-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/invoice-chase/SKILL.md
+  title: invoice-chase
+  summary: Drafts overdue-invoice reminder emails from QuickBooks and PayPal data,
+    matched to each customer's payment history and tone (gentle for good
+    customers, firm for repeat late payers). Sends via PayPal with owner
+    approval; non-PayPal invoices queue as mail drafts. Use when the user asks
+    "who owes me money," mentions overdue invoices, or wants to follow up on
+    unpaid invoices.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/invoice-chase/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-friday-brief-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/friday-brief/SKILL.md
+  title: friday-brief
+  summary: Delivers the Friday end-of-week pulse — revenue vs prior week, top
+    sellers, wins and watches. Accepts optional lookback window of 7 or 14 days.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/friday-brief/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-cash-flow-snapshot-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/cash-flow-snapshot/SKILL.md
+  title: cash-flow-snapshot
+  summary: Reads AR/AP, historical cash timing, and known fixed costs from
+    QuickBooks, PayPal, Stripe, or Square — or a CSV upload — and produces a
+    30/60/90-day cash flow forecast with percentage-variance confidence bands
+    and named risk flags. Delivers a chat summary and a downloadable XLSX. Use
+    when the user asks "forecast my cash flow," "will I make payroll," mentions
+    "runway," or says "cash crunch." Falls back to CSV upload when no connector
+    is live.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/cash-flow-snapshot/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-quarterly-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/quarterly-review/SKILL.md
+  title: quarterly-review
+  summary: Generates a full QBR narrative — revenue trend, margin trend, customer
+    health, top opportunities and risks — as a presentation-ready PDF or deck.
+    Accepts optional quarter and save-to arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/quarterly-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-content-strategy-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/content-strategy/SKILL.md
+  title: content-strategy
+  summary: "Analyzes sales data from PayPal and QuickBooks to find top performers
+    and slow movers, layers in seasonality, and produces a prioritized 30-day
+    content brief: what to push, what offers to run, what to hold. Strategic
+    output only — no calendars or assets. Use when the user asks what to post,
+    wants a content plan, asks what's selling, or what to promote this month."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/content-strategy/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-run-campaign-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/run-campaign/SKILL.md
+  title: run-campaign
+  summary: Runs an end-to-end marketing campaign — sales analysis, content brief,
+    Canva assets, HubSpot send. Accepts optional lookback and channel arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/run-campaign/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-month-end-prep-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/month-end-prep/SKILL.md
+  title: month-end-prep
+  summary: "Walks an SMB owner through month-end close: reconciles QuickBooks
+    against PayPal (and Square/Stripe) settlements, flags uncategorized
+    transactions, suspicious duplicates, and missing receipts, then writes a
+    plain-English P&L narrative and exports a close packet (xlsx + one-page
+    PDF). Use when the user says \"close the month,\" \"month-end,\"
+    \"reconcile,\" \"what's missing,\" \"P&L,\" or asks why revenue or margin
+    changed this month."
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/month-end-prep/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-call-list-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/call-list/SKILL.md
+  title: call-list
+  summary: Ranks the top-5 leads most worth calling today, supplies talking points
+    from email history, blocks time on the calendar, and drafts follow-up
+    messages. Accepts optional count and date arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/call-list/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-close-month-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/close-month/SKILL.md
+  title: close-month
+  summary: Closes the month — reconciles QB vs payment processors, flags gaps,
+    writes P&L narrative, exports close packet. Accepts optional month and
+    save-to arguments.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/close-month/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-crm-maintenance-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/crm-maintenance/SKILL.md
+  title: crm-maintenance
+  summary: 'Keeps HubSpot current without the owner opening it: creates and
+    updates contacts and deals from email and calendar context, logs notes and
+    calls, and flags stale records. The "stop doing data entry" skill. Use when
+    the user asks to update the CRM, log a call, clean up HubSpot, or add
+    context to a deal.'
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/crm-maintenance/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-contract-review-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/contract-review/SKILL.md
+  title: contract-review
+  summary: Lightweight NDA, MSA, and vendor contract review for SMBs without legal
+    on staff. Reads contracts from local files, Gmail attachments, or DocuSign
+    envelopes; flags non-standard terms; explains risks in plain English; and
+    outputs a marked-up redline as a separate DOCX. Use when the user says
+    "review this contract," "what am I signing," "red flags," "flag any
+    concerns," "check the payment terms," or uploads/forwards a contract or
+    legal agreement.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/contract-review/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-tax-season-organizer-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/tax-season-organizer/SKILL.md
+  title: tax-season-organizer
+  summary: >-
+    Prepares tax-season materials for small business owners — framed as
+    deliverables for their accountant, not tax advice. Two modes: (1) quarterly
+    estimated tax calculation — pulls YTD net income from QuickBooks and
+    calculates the federal income tax + self-employment tax liability and
+    quarterly payment due; (2) year-end 1099 prep — scans QuickBooks, PayPal,
+    and Stripe for contractors paid over $600, builds a 1099-NEC candidate list
+    with missing W-9 flags, and produces a plain-English summary a CPA can work
+    from directly.
+
+    Trigger this skill whenever the user mentions: quarterly taxes, estimated
+    tax payment, how much to set aside for taxes, 1099s, 1099-NEC, year-end tax
+    prep, contractor payments, W-9s, or any phrase suggesting they are preparing
+    for a tax deadline or handing materials to an accountant. Also trigger
+    proactively when a user asks about net profit or YTD income in a context
+    that suggests they are worried about their tax bill.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/tax-season-organizer/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-margin-analyzer-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/margin-analyzer/SKILL.md
+  title: margin-analyzer
+  summary: Analyzes unit economics by product or service using PayPal merchant
+    insights and QuickBooks cost data, benchmarks against inflation and cost
+    changes, and shows pricing-scenario data (e.g. "a 5% increase historically
+    correlates with ~3% volume drop"). Surfaces analysis only — does not
+    recommend a price. Use when the user asks about raising prices, pricing,
+    margin analysis, what to charge, whether costs are eating into profit, or
+    how a price change might affect their business. Trigger even if the user
+    doesn't say "margin" explicitly — phrases like "am I making enough?",
+    "should I charge more?", or "my costs are going up" all call for this skill.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/margin-analyzer/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-small-business-skills-customer-pulse-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/small-business/skills/customer-pulse/SKILL.md
+  title: customer-pulse
+  summary: Aggregates PayPal disputes, HubSpot feedback and tickets, and email
+    sentiment (plus pasted or exported Google/Yelp reviews) into a themes report
+    with verbatim evidence and a "do these three things this week" list. Use
+    when the user asks how customers are feeling, for review analysis, what
+    people are saying, or about disputes.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-small-business
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/small-business/skills/customer-pulse/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-rtms-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/rtms/SKILL.md
+  title: zoom-rtms
+  summary: Reference skill for Zoom RTMS. Use after routing to a live-media
+    workflow when processing real-time audio, video, chat, transcripts, screen
+    share, or contact-center voice streams.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/rtms/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-build-zoom-meeting-app-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/build-zoom-meeting-app/SKILL.md
+  title: build-zoom-meeting-app
+  summary: Build or embed a Zoom meeting flow. Use when implementing Meeting SDK
+    joins, web or mobile meeting embeds, meeting lifecycle flows, or when
+    deciding between Meeting SDK and Video SDK.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/build-zoom-meeting-app/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-design-mcp-workflow-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/design-mcp-workflow/SKILL.md
+  title: design-mcp-workflow
+  summary: Design a Zoom MCP workflow for Claude. Use when deciding whether Zoom
+    MCP fits a task, when planning tool-based AI workflows, or when separating
+    MCP responsibilities from REST API responsibilities.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/design-mcp-workflow/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-build-zoom-bot-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/build-zoom-bot/SKILL.md
+  title: build-zoom-bot
+  summary: Build a Zoom meeting bot, recorder, or real-time media workflow. Use
+    when joining meetings programmatically, processing live media or
+    transcripts, or combining Meeting SDK, RTMS, and backend services.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/build-zoom-bot/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/SKILL.md
+  title: build-zoom-video-sdk-app
+  summary: Reference skill for Zoom Video SDK. Use after routing to a
+    custom-session workflow when the user needs full control over the video
+    experience rather than an actual Zoom meeting.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-react-native-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/react-native/SKILL.md
+  title: zoom-video-sdk-react-native
+  summary: >-
+    Zoom Video SDK for React Native. Use when building custom mobile video
+    session experiences
+
+    with @zoom/react-native-videosdk, event listeners, helper-based APIs, and
+    backend JWT token flows.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/react-native/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-macos-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/macos/SKILL.md
+  title: zoom-video-sdk-macos
+  summary: >-
+    Zoom Video SDK for macOS native desktop apps. Use when building custom macOS
+    video sessions
+
+    with native UI control, tokenized join, and desktop-oriented media/device
+    workflows.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/macos/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-web-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/web/SKILL.md
+  title: video-sdk/web
+  summary: Zoom Video SDK for Web - JavaScript/TypeScript integration for
+    browser-based video sessions, real-time communication, screen sharing,
+    recording, and live transcription
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/web/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-flutter-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/flutter/SKILL.md
+  title: zoom-video-sdk-flutter
+  summary: >-
+    Zoom Video SDK for Flutter. Use when building custom video session apps in
+    Flutter with
+
+    flutter_zoom_videosdk, event-driven architecture, session lifecycle
+    handling, and mobile
+
+    platform integration patterns.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/flutter/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-unity-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/unity/SKILL.md
+  title: zoom-video-sdk-unity
+  summary: >-
+    Zoom Video SDK for Unity wrapper integrations. Use when building custom
+    Unity-based
+
+    video session experiences and mapping Unity scene/UI state to Video SDK
+    events.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/unity/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-android-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/android/SKILL.md
+  title: zoom-video-sdk-android
+  summary: >-
+    Zoom Video SDK for Android native apps. Use when building custom Android
+    video experiences
+
+    with full UI control, session tokens, raw media options, and event-driven
+    participant state.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/android/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-ios-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/ios/SKILL.md
+  title: zoom-video-sdk-ios
+  summary: >-
+    Zoom Video SDK for iOS native apps. Use when building custom iOS video
+    sessions with
+
+    full UI control, token-based session auth, and event-driven
+    media/participant flows.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/ios/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-windows-windows
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/windows/windows.md
+  title: video-sdk/windows
+  summary: Zoom Video SDK for Windows - C++ integration for video sessions, raw
+    audio/video capture, screen sharing, recording, and real-time communication
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/windows/windows.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-windows-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/windows/SKILL.md
+  title: video-sdk/windows
+  summary: Zoom Video SDK for Windows - C++ integration for video sessions, raw
+    audio/video capture, screen sharing, recording, and real-time communication
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/windows/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-linux-linux
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/linux/linux.md
+  title: video-sdk/linux
+  summary: Zoom Video SDK for Linux - C++ integration for video sessions, raw
+    audio/video capture, screen sharing, recording, and real-time communication
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/linux/linux.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-video-sdk-linux-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/video-sdk/linux/SKILL.md
+  title: video-sdk/linux
+  summary: Zoom Video SDK for Linux - C++ headless bots, raw audio/video
+    capture/injection, Qt/GTK integration, Docker support
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/video-sdk/linux/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-setup-zoom-oauth-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/setup-zoom-oauth/SKILL.md
+  title: setup-zoom-oauth
+  summary: Implement Zoom authentication correctly. Use when setting up app
+    credentials, choosing an OAuth grant, requesting scopes, handling token
+    refresh, or debugging auth failures.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/setup-zoom-oauth/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-start-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/start/SKILL.md
+  title: start
+  summary: Start here for any Zoom integration or app idea. Use when you need to
+    choose the right Zoom surface, shape the architecture, or route into the
+    correct implementation skill without reading the whole Zoom doc set first.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/start/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-rivet-sdk-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/rivet-sdk/SKILL.md
+  title: rivet-sdk
+  summary: Reference skill for Zoom Rivet SDK. Use after routing to a Rivet-based
+    server workflow when implementing auth handling, webhook consumers, API
+    wrappers, multi-module composition, or Lambda receiver patterns.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/rivet-sdk/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-webhooks-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/webhooks/SKILL.md
+  title: setup-zoom-webhooks
+  summary: Reference skill for Zoom webhooks. Use after routing to an event-driven
+    workflow when implementing subscriptions, signature verification, delivery
+    handling, retries, or event-type selection.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/webhooks/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-websockets-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/websockets/SKILL.md
+  title: setup-zoom-websockets
+  summary: Reference skill for Zoom WebSockets. Use after routing to a low-latency
+    event workflow when persistent connections, faster event delivery, or
+    security constraints make WebSockets preferable to webhooks.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/websockets/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-general-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/general/SKILL.md
+  title: zoom-general
+  summary: Cross-product Zoom reference skill. Use after the workflow is clear
+    when you need shared platform guidance, app-model comparisons,
+    authentication context, scopes, marketplace considerations, or API-vs-MCP
+    routing.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/general/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-rest-api-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/rest-api/SKILL.md
+  title: build-zoom-rest-api-app
+  summary: Reference skill for Zoom REST API. Use after choosing an API-based
+    workflow when you need endpoint selection, resource-management patterns,
+    OAuth requirements, rate-limit awareness, or API error debugging.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/rest-api/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-debug-zoom-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/debug-zoom/SKILL.md
+  title: debug-zoom
+  summary: Debug a broken Zoom integration by isolating the failure point and
+    routing into the right Zoom references. Use when auth, API, webhook, SDK, or
+    MCP behavior is failing and you need a ranked hypothesis list plus
+    verification steps.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/debug-zoom/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-debug-zoom-integration-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/debug-zoom-integration/SKILL.md
+  title: debug-zoom-integration
+  summary: Debug broken Zoom implementations quickly. Use when auth, webhooks, SDK
+    joins, MCP transport, or real-time media workflows are failing and you need
+    to isolate the layer before proposing a fix.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/debug-zoom-integration/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-scribe-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/scribe/SKILL.md
+  title: scribe
+  summary: Reference skill for Zoom AI Services Scribe. Use after routing to a
+    transcription workflow when handling uploaded or stored media,
+    Build-platform JWT auth, fast mode transcription, batch jobs, or transcript
+    pipeline design.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/scribe/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-ui-toolkit-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/ui-toolkit/SKILL.md
+  title: ui-toolkit/web
+  summary: Reference skill for Zoom Video SDK UI Toolkit. Use after routing to a
+    web video workflow when you want prebuilt React UI instead of building a
+    fully custom Video SDK interface.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/ui-toolkit/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-plan-zoom-product-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/plan-zoom-product/SKILL.md
+  title: plan-zoom-product
+  summary: Choose the right Zoom building surface for a use case and explain the
+    tradeoffs clearly. Use when deciding between REST API, Webhooks, WebSockets,
+    Meeting SDK, Video SDK, Zoom Apps SDK, Phone, Contact Center, or MCP for a
+    specific product idea or integration goal.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/plan-zoom-product/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-setup-zoom-mcp-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/setup-zoom-mcp/SKILL.md
+  title: setup-zoom-mcp
+  summary: Decide when Zoom MCP is the right fit and produce a safe setup plan for
+    Claude. Use when planning AI workflows over Zoom data, deciding between MCP
+    and REST, or defining a hybrid MCP architecture.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/setup-zoom-mcp/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-probe-sdk-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/probe-sdk/SKILL.md
+  title: probe-sdk
+  summary: Reference skill for Zoom Probe SDK. Use after routing to a preflight
+    workflow when testing browser compatibility, media permissions, audio or
+    video diagnostics, and network readiness before users join.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/probe-sdk/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-oauth-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/oauth/SKILL.md
+  title: zoom-oauth
+  summary: Reference skill for Zoom authentication. Use after routing to an auth
+    workflow when choosing app credentials, grant types, scopes, token refresh
+    behavior, or debugging Zoom OAuth failures.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/oauth/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-phone-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/phone/SKILL.md
+  title: build-zoom-phone-integration
+  summary: Reference skill for Zoom Phone. Use after routing to a phone workflow
+    when implementing OAuth, Phone APIs, webhooks, Smart Embed events, URI
+    schemes, CRM or CTI dialers, or call handling automation.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/phone/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-choose-zoom-approach-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/choose-zoom-approach/SKILL.md
+  title: choose-zoom-approach
+  summary: Choose the right Zoom architecture for a use case. Use when deciding
+    between REST API, Webhooks, WebSockets, Meeting SDK, Video SDK, Zoom Apps
+    SDK, Zoom MCP, Phone, Contact Center, or a hybrid approach.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/choose-zoom-approach/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/SKILL.md
+  title: build-zoom-meeting-sdk-app
+  summary: Reference skill for Zoom Meeting SDK. Use after routing to a
+    meeting-embed workflow when implementing real Zoom meeting joins,
+    platform-specific SDK behavior, auth and join flows, waiting room issues, or
+    meeting bot patterns.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-react-native-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/react-native/SKILL.md
+  title: zoom-meeting-sdk-react-native
+  summary: Zoom Meeting SDK for React Native. Use when embedding Zoom meetings in
+    React Native iOS/Android apps with @zoom/meetingsdk-react-native, JWT auth,
+    join/start flows, platform setup, and native bridge troubleshooting.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/react-native/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-unreal-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/unreal/SKILL.md
+  title: zoom-meeting-sdk-unreal
+  summary: >-
+    Zoom Meeting SDK for Unreal Engine wrapper integrations. Use when building
+    Unreal projects that
+
+    embed Zoom meetings with C++ and Blueprint wrappers, including
+    wrapper-to-SDK mapping concerns.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/unreal/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-macos-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/macos/SKILL.md
+  title: zoom-meeting-sdk-macos
+  summary: >-
+    Zoom Meeting SDK for macOS native apps. Use when embedding Zoom meetings in
+    macOS with
+
+    default/custom UI, PKCE + SDK auth, host start/join flows, and desktop
+    meeting feature controllers.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/macos/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-web-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/web/SKILL.md
+  title: zoom-meeting-sdk-web
+  summary: >-
+    Zoom Meeting SDK for Web - Embed Zoom meeting capabilities into web
+    applications. Two integration
+
+    options: Client View (full-page, familiar Zoom UI) and Component View
+    (embeddable, Promise-based API).
+
+    Includes SharedArrayBuffer setup for HD video, gallery view, and virtual
+    backgrounds.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/web/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-web-component-view-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/web/component-view/SKILL.md
+  title: zoom-meeting-sdk-web-component-view
+  summary: >-
+    Zoom Meeting SDK Web - Component View. Embeddable Zoom meeting components
+    with Promise-based API
+
+    for flexible integration. Ideal for React/Vue/Angular apps and custom
+    layouts. Uses ZoomMtgEmbedded
+
+    with async/await patterns and embeddable UI containers.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/web/component-view/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-web-client-view-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/web/client-view/SKILL.md
+  title: zoom-meeting-sdk-web-client-view
+  summary: >-
+    Zoom Meeting SDK Web - Client View. Full-page Zoom meeting experience with
+    the familiar Zoom interface.
+
+    Uses ZoomMtg global singleton with callback-based API. Ideal for quick
+    integration with minimal
+
+    customization. Provides the same UI as Zoom Web Client.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/web/client-view/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-electron-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/electron/SKILL.md
+  title: zoom-meeting-sdk-electron
+  summary: >-
+    Zoom Meeting SDK for Electron desktop applications. Use when embedding Zoom
+    meetings in an Electron app
+
+    with the Node addon wrapper, JWT auth, join/start flows, settings
+    controllers, and raw data integration.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/electron/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-android-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/android/SKILL.md
+  title: zoom-meeting-sdk-android
+  summary: >-
+    Zoom Meeting SDK for Android native apps. Use when embedding Zoom meetings
+    in Android with
+
+    default/custom UI, PKCE + SDK auth, join/start flows, and Meeting SDK API
+    integration.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/android/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-ios-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/ios/SKILL.md
+  title: zoom-meeting-sdk-ios
+  summary: >-
+    Zoom Meeting SDK for iOS native apps. Use when embedding Zoom meetings in
+    iOS with
+
+    default/custom UI, PKCE + SDK auth, host start with ZAK, and mobile
+    lifecycle handling.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/ios/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-windows-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/windows/SKILL.md
+  title: zoom-meeting-sdk-windows
+  summary: >-
+    Zoom Meeting SDK for Windows - Native C++ SDK for embedding Zoom meetings
+    into Windows desktop
+
+    applications. Supports custom UI architecture with raw video/audio data,
+    headless bots, and deep
+
+    integration with meeting features. Includes SDK architecture patterns and
+    Windows message loop handling.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/windows/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-meeting-sdk-linux-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/meeting-sdk/linux/SKILL.md
+  title: meeting-sdk/linux
+  summary: Zoom Meeting SDK for Linux - C++ headless meeting bots with raw
+    audio/video access, transcription, recording, and AI integration for
+    server-side automation
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/meeting-sdk/linux/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-virtual-agent-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/virtual-agent/SKILL.md
+  title: build-zoom-virtual-agent
+  summary: Reference skill for Zoom Virtual Agent. Use after routing to a
+    virtual-agent workflow when implementing web embeds, Android or iOS wrapper
+    integrations, knowledge-base sync, lifecycle handling, or troubleshooting.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/virtual-agent/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-virtual-agent-web-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/virtual-agent/web/SKILL.md
+  title: virtual-agent/web
+  summary: Zoom Virtual Agent SDK for web embeds. Use for campaign or entry ID
+    chat launch, event-driven controls, user context updates, and CSP-safe
+    deployment.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/virtual-agent/web/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-virtual-agent-android-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/virtual-agent/android/SKILL.md
+  title: virtual-agent/android
+  summary: Zoom Virtual Agent Android integration via WebView. Use for Java/Kotlin
+    bridge callbacks, native URL handling, support_handoff relay, and
+    lifecycle-safe embedding.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/virtual-agent/android/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-virtual-agent-ios-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/virtual-agent/ios/SKILL.md
+  title: virtual-agent/ios
+  summary: Zoom Virtual Agent iOS integration via WKWebView. Use for
+    Swift/Objective-C script injection, message handlers, support_handoff relay,
+    and URL routing policies.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/virtual-agent/ios/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-team-chat-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/team-chat/SKILL.md
+  title: build-zoom-team-chat-app
+  summary: Reference skill for Zoom Team Chat. Use after routing to a chat
+    workflow when building user-scoped messaging integrations, chatbot
+    experiences, rich cards, buttons, slash commands, or chat webhooks.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/team-chat/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-cobrowse-sdk-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/cobrowse-sdk/SKILL.md
+  title: zoom-cobrowse-sdk
+  summary: Reference skill for Zoom Cobrowse SDK. Use after routing to a
+    collaborative-support workflow when implementing browser co-browsing,
+    annotation tools, privacy masking, remote assist, or PIN-based session
+    sharing.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/cobrowse-sdk/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-plan-zoom-integration-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/plan-zoom-integration/SKILL.md
+  title: plan-zoom-integration
+  summary: Turn a Zoom integration idea into an implementation plan with
+    architecture, auth, and delivery milestones. Use when you need a practical
+    build plan, phased delivery sequence, risk list, and next-step
+    recommendation.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/plan-zoom-integration/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-zoom-apps-sdk-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/zoom-apps-sdk/SKILL.md
+  title: zoom-apps-sdk
+  summary: Reference skill for Zoom Apps SDK. Use after routing to an in-client
+    app workflow when building web apps that run inside Zoom meetings, webinars,
+    the main client, or Zoom Phone.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/zoom-apps-sdk/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-contact-center-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/contact-center/SKILL.md
+  title: build-zoom-contact-center-app
+  summary: Reference skill for Zoom Contact Center. Use after routing to a
+    contact-center workflow when implementing app, web, or native integrations;
+    engagement context and state handling; campaigns; callbacks; or
+    version-drift troubleshooting.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/contact-center/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-contact-center-web-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/contact-center/web/SKILL.md
+  title: contact-center/web
+  summary: Zoom Contact Center SDK for Web. Use for web chat/video/campaign
+    embeds, engagement event handling, app-context integrations, and Smart Embed
+    postMessage workflows.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/contact-center/web/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-contact-center-android-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/contact-center/android/SKILL.md
+  title: contact-center/android
+  summary: Zoom Contact Center SDK for Android. Use for native Android
+    chat/video/ZVA/scheduled callback integrations, campaign mode, service
+    lifecycle, and rejoin handling.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/contact-center/android/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-contact-center-ios-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/contact-center/ios/SKILL.md
+  title: contact-center/ios
+  summary: Zoom Contact Center SDK for iOS. Use for native iOS
+    chat/video/ZVA/scheduled callback integrations, app lifecycle bridging,
+    rejoin flow, and callback handling.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/contact-center/ios/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-zoom-mcp-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/zoom-mcp/SKILL.md
+  title: zoom-mcp
+  summary: Guidance for the bundled Zoom MCP connectors. Use after routing to an
+    MCP workflow when planning or troubleshooting tool-based access to meetings,
+    recordings, meeting assets, or transcripts. Route Zoom Docs requests to the
+    dedicated Docs MCP server and Whiteboard-specific requests to
+    `zoom-mcp/whiteboard`.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/zoom-mcp/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-partner-built-zoom-plugin-skills-zoom-mcp-whiteboard-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/partner-built/zoom-plugin/skills/zoom-mcp/whiteboard/SKILL.md
+  title: zoom-mcp/whiteboard
+  summary: >-
+    Guidance for the bundled Zoom Whiteboard MCP connector. Use for Whiteboard
+    MCP auth,
+
+    endpoints, ID mapping, and tool workflows such as list_whiteboards and
+    get_a_whiteboard.
+
+    Prefer this skill when the request is specifically about Whiteboard MCP
+    rather than general Zoom MCP.
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-partner-built
+    - plugin-component-zoom-plugin
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/zoom-plugin/skills/zoom-mcp/whiteboard/SKILL.md
+- type: skills
+  slug: knowledge-work-plugins-pdf-viewer-commands-fill-form
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/pdf-viewer/commands/fill-form.md
+  title: fill-form
+  summary: Fill PDF form fields interactively with live visual feedback
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-pdf-viewer
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pdf-viewer/commands/fill-form.md
+- type: skills
+  slug: knowledge-work-plugins-pdf-viewer-commands-annotate
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/pdf-viewer/commands/annotate.md
+  title: annotate
+  summary: Collaboratively annotate a PDF — propose markup, review together, iterate
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-pdf-viewer
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pdf-viewer/commands/annotate.md
+- type: skills
+  slug: knowledge-work-plugins-pdf-viewer-commands-open
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/pdf-viewer/commands/open.md
+  title: open
+  summary: Open a PDF in the interactive viewer
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-pdf-viewer
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pdf-viewer/commands/open.md
+- type: skills
+  slug: knowledge-work-plugins-pdf-viewer-commands-sign
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/pdf-viewer/commands/sign.md
+  title: sign
+  summary: Place a signature or initials image on a PDF
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-pdf-viewer
+    - plugin-component-commands
+    - plugin-command
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pdf-viewer/commands/sign.md
+- type: skills
+  slug: knowledge-work-plugins-pdf-viewer-skills-view-pdf-skill
+  source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/pdf-viewer/skills/view-pdf/SKILL.md
+  title: view-pdf
+  summary: Interactive PDF viewer. Use when the user wants to open, show, or view
+    a PDF and collaborate on it visually — annotate, highlight, stamp, fill form
+    fields, place signature/initials, or review markup together. Not for
+    summarization or text extraction (use native Read instead).
+  tags:
+    - source-knowledge-work-plugins
+    - plugin-pdf-viewer
+    - plugin-component-skills
+    - plugin-skill
+  upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pdf-viewer/skills/view-pdf/SKILL.md
