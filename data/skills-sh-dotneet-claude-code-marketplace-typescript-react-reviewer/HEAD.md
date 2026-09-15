@@ -30,6 +30,6 @@ upstream_ref: https://skills.sh/dotneet/claude-code-marketplace/typescript-react
 github_stars: 0
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-09-14T13:30:21.446Z
+retrieved_at: 2026-09-15T12:22:07.985Z
 content_sha256: ccc9ea423070269e62fad0d98d6dab6ce7b244c858cac7128421c243f8ecbf85
 ---

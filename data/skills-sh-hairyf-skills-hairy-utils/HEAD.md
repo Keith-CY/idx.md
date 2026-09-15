@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/hairyf/skills/hairy-utils
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-14T13:31:43.288Z
+retrieved_at: 2026-09-15T12:25:42.266Z
 content_sha256: 73115192ce2234e3f3ebf6d7640b72c9ebd4f8aac137b565421255122f930899
 ---
