@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-15T12:27:09.478Z
+retrieved_at: 2026-09-16T12:24:38.841Z
 content_sha256: 5194be72489f658dcfcf566ebe6e395688f4335e076edb29451c3c81cfb65e93
 ---

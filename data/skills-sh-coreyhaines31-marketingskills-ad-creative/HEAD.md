@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ad-creative
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-09-15T12:21:53.532Z
+retrieved_at: 2026-09-16T12:19:24.623Z
 content_sha256: de69753161071a8d3e4d244280562810a6c4d6ae2696c5a21940f983abd0aa8e
 ---

@@ -16,8 +16,9 @@ summary: >-
 
   # firecrawl search
 
-  Web search with optional content scraping. Returns search results as JSON,
-  optionally with full page content.
+  Search naturally using the user’s actual question. In the Alexandria beta,
+  default search returns web results plus relevant Alexandria tools, with
+  optional web content scraping.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -27,6 +28,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-09-15T12:22:06.059Z
-content_sha256: 2d782f5da2f905178f7773c9d3b18b15331b0892d6d1cb678d166dc672ac41f5
+retrieved_at: 2026-09-16T12:19:40.655Z
+content_sha256: 8368f1c691f8521b97b05947ea06dbab79be1b201e87cd13d59899aa893ba2ca
 ---

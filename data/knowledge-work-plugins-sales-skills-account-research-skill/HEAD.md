@@ -18,6 +18,6 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-15T12:22:48.803Z
-content_sha256: 9b73bf462b1e96516ed7de68c628c34c5416b233ddda249d5186fdd4bbdabc17
+retrieved_at: 2026-09-16T12:20:23.416Z
+content_sha256: 97e1e9884149f7801cfc60c3e9119f37a66c53b30f730ab7b4a2862eedabdb05
 ---

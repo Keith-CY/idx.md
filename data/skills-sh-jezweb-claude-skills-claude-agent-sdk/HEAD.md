@@ -5,28 +5,31 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.273
+
+  - Added a `usage_report` sibling (`SDKUsageReport`: session totals, the plan's
+  usage rows as the server sends them, extra usage) on the assistant message
+  that delivers a headless `/usage` result
+
+  - Added `reason: "worker_restart"` to `task_notification` messages when a
+  background task was stopped by a worker process restart
+
+  - Added a one-line transcript notice when the SDK host's `Stop` or
+  `SessionStart` hook callback times out, shown once until the host answers
+  again
+
+  - Fixed a `Stop`, `SubagentStop` or `SessionStart` hook callback that exceeds
+  its timeout being reported as a hook failure and discarding other hooks'
+  decisions; it now counts as no decision
+
+  - Fixed the browser SSE transport dropping the live slash-command list update
+  (`system/commands_changed`)
+
+  - Updated to parity with Claude Code v2.1.273
+
   ## 0.3.272
 
   - Updated to parity with Claude Code v2.1.272
-
-  ## 0.3.271
-
-  - Added optional `omitClaudeMd` to `AgentDefinition` in the `agents` option,
-  so a subagent can run without user, project and local CLAUDE.md files; managed
-  policy files still load
-
-  - Fixed `listSessions`, `getSessionMessages` and `getSessionInfo` with `dir`
-  on Windows not finding sessions for a directory on a mapped network drive or
-  SUBST drive
-
-  - Fixed `sessionStore` resume losing the global config when it is stored under
-  the legacy `.config.json` name or an OAuth-suffixed file name
-
-  - Removed `persistent` from the `MonitorInput` tool type
-
-  - Updated to parity with Claude Code v2.1.271
-
-  ## 0.3.270
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-15T12:23:05.285Z
-content_sha256: 662e3c1702da81a7e3892728f6464e091076adb61962ed3291e18a038910b509
+retrieved_at: 2026-09-16T12:20:41.151Z
+content_sha256: 25639e59ecfed65f90e6bbfff62b53b66bfecb6629477514653edd4c36004a24
 ---

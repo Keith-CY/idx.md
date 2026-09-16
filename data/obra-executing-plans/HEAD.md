@@ -37,6 +37,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-pla
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-09-15T12:22:12.754Z
+retrieved_at: 2026-09-16T12:19:47.506Z
 content_sha256: c4c3d8b628c51114cd165fb8246fe02744cd8be180032328391252e653028d9b
 ---
