@@ -26,8 +26,9 @@ summary: >-
 
   **To Use/Apply:**
 
-  - Copy these instructions to your `.github/copilot-instructions.md` file in
-  your workspace
+  - For repository-wide guidance, merge the resource's Markdown body into your
+  `.github/copilot-instructions.md` file, preserving existing instructions and
+  omitting the YAML frontmatter
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +38,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/github-copilot-starter
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-09-16T12:19:36.259Z
-content_sha256: b6be2ed031c4de0c66a3496d9267c496e432203e2641dff84bee2205902d9533
+retrieved_at: 2026-09-17T12:19:12.635Z
+content_sha256: c79e5fb84d5a170b9c5d2c1b1eb6ea992c97fc4a0646f532b9b5eee9363c7f11
 ---

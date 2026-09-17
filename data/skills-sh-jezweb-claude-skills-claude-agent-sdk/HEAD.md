@@ -5,31 +5,35 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.273
+  ## 0.3.274
 
-  - Added a `usage_report` sibling (`SDKUsageReport`: session totals, the plan's
-  usage rows as the server sends them, extra usage) on the assistant message
-  that delivers a headless `/usage` result
+  - Added `startup_failure_reason` to the error result a stream-json run writes
+  before exiting on a known startup failure
 
-  - Added `reason: "worker_restart"` to `task_notification` messages when a
-  background task was stopped by a worker process restart
+  - Added `mcpServer: {name, source}` to `canUseTool` options, `mcp_server` to
+  tool hook inputs, and `source` to MCP server status rows, so hosts can key
+  trust on `source === "sdk"`
 
-  - Added a one-line transcript notice when the SDK host's `Stop` or
-  `SessionStart` hook callback times out, shown once until the host answers
-  again
+  - Added `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` (pass via `env`) to bound or disable
+  (`0`) the first-turn wait for connecting MCP servers
 
-  - Fixed a `Stop`, `SubagentStop` or `SessionStart` hook callback that exceeds
-  its timeout being reported as a hook failure and discarding other hooks'
-  decisions; it now counts as no decision
+  - Added `CLAUDE_CODE_EMIT_STARTUP_TIMING=1` for stream-json hosts: the
+  session's first `system/init` then carries the per-phase `startup_timing`
+  breakdown that cloud sessions already emit
 
-  - Fixed the browser SSE transport dropping the live slash-command list update
-  (`system/commands_changed`)
+  - Fixed `getSessionMessages()` omitting a message the user sent while Claude
+  was running a tool; it now comes back as a user message where Claude read it
 
-  - Updated to parity with Claude Code v2.1.273
+  - Fixed missing `origin: {kind: 'task-notification'}` on the replayed user
+  message when a background task finishes during a running turn
+  (`--replay-user-messages`)
 
-  ## 0.3.272
+  - Improved startup: the first turn no longer waits up to 2s for connecting MCP
+  servers from settings files or plugins whose tools tool search defers;
+  `options.mcpServers` servers are still awaited
 
-  - Updated to parity with Claude Code v2.1.272
+  - Changed queued background-task completions to share one model call: each
+  still gets its own `result`, all but the last empty with `num_turns: 0`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +43,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-16T12:20:41.151Z
-content_sha256: 25639e59ecfed65f90e6bbfff62b53b66bfecb6629477514653edd4c36004a24
+retrieved_at: 2026-09-17T12:20:14.781Z
+content_sha256: 7c245aeb436b682ca7a12757ca35473dd2e8dbe67c01acdf0f9e45b794820db4
 ---
