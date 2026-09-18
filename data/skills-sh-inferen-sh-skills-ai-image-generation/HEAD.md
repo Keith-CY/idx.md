@@ -11,18 +11,18 @@ summary: >-
 
   ```
 
-  Or via package managers:
+  Windows:
 
-  ```sh
+  ```powershell
 
-  brew install inference-sh/tap/belt       # macOS / Linux
-
-  npx @inferencesh/belt                    # Node.js
-
-  scoop bucket add inference https://github.com/inference-sh/scoop-bucket &&
-  scoop install belt  # Windows
+  irm https://cli.inference.sh/install.ps1 | iex
 
   ```
+
+  In Git Bash, the `curl -fsSL https://cli.inference.sh | sh` command above
+  works as is.
+
+  Or via package managers:
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/ai-image-generation
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-09-17T12:18:59.931Z
-content_sha256: 0f050f2e2feb82e205786863bbb5239d98792bbc41545cfc87d5ff8693ce4c0c
+retrieved_at: 2026-09-18T11:59:03.816Z
+content_sha256: bfb8aa25d2caed12774ef8f3cc07e86d5e749d557d3493126a9c2bcb072970f8
 ---

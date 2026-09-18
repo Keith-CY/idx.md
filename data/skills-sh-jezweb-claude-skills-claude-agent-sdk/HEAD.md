@@ -5,35 +5,31 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.274
+  ## 0.3.276
 
-  - Added `startup_failure_reason` to the error result a stream-json run writes
-  before exiting on a known startup failure
+  - Updated to parity with Claude Code v2.1.276
 
-  - Added `mcpServer: {name, source}` to `canUseTool` options, `mcp_server` to
-  tool hook inputs, and `source` to MCP server status rows, so hosts can key
-  trust on `source === "sdk"`
+  ## 0.3.275
 
-  - Added `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` (pass via `env`) to bound or disable
-  (`0`) the first-turn wait for connecting MCP servers
+  - Fixed a deferred tool call's result being emitted with internal keys such as
+  `toolUseResult` instead of `tool_use_result` when the tool re-runs at the
+  start of a resumed turn
 
-  - Added `CLAUDE_CODE_EMIT_STARTUP_TIMING=1` for stream-json hosts: the
-  session's first `system/init` then carries the per-phase `startup_timing`
-  breakdown that cloud sessions already emit
+  - Fixed `getSessionMessages()` and `forkSession()` sometimes missing a turn's
+  assistant message when called right after the turn's `result` message
 
-  - Fixed `getSessionMessages()` omitting a message the user sent while Claude
-  was running a tool; it now comes back as a user message where Claude read it
+  - Fixed `forkSession({ upToMessageId })` rejecting a client-supplied
+  `SDKUserMessage.uuid` that is not in UUID format
 
-  - Fixed missing `origin: {kind: 'task-notification'}` on the replayed user
-  message when a background task finishes during a running turn
-  (`--replay-user-messages`)
+  - Fixed `forkSession` rejecting the id that `getSessionMessages` returns for a
+  message sent while Claude was working, and a fork showing a re-run prompt
+  twice
 
-  - Improved startup: the first turn no longer waits up to 2s for connecting MCP
-  servers from settings files or plugins whose tools tool search defers;
-  `options.mcpServers` servers are still awaited
+  - Fixed `getSessionMessages()` omitting a task notification or other queued
+  message that Claude read while running a tool; it now comes back where Claude
+  read it
 
-  - Changed queued background-task completions to share one model call: each
-  still gets its own `result`, all but the last empty with `num_turns: 0`
+  - Updated to parity with Claude Code v2.1.275
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -43,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-17T12:20:14.781Z
-content_sha256: 7c245aeb436b682ca7a12757ca35473dd2e8dbe67c01acdf0f9e45b794820db4
+retrieved_at: 2026-09-18T12:00:40.924Z
+content_sha256: 804fdd7fd84d41dee28f66ce9d6fdaec7c520b3b235b20a2e7fc52452125c828
 ---
