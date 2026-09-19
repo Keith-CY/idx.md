@@ -24,7 +24,7 @@ summary: >-
 
   design, and get your human partner's approval.
 
-  <HARD-GATE>
+  ## Establish Shared Understanding
 tags:
   - obra
   - source-obra-superpowers
@@ -34,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-09-18T11:59:32.252Z
-content_sha256: 74edf03ea6d24ef53db48677b93558d14a979bdf052ca3f57ecdca0c66791608
+retrieved_at: 2026-09-19T11:43:05.524Z
+content_sha256: a32d2255354775aa124855aa7100cf276bea096fff4ebb3a0edf57be216e6c72
 ---

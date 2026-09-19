@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-skills-forecast-skill",
-  "generated_at": "2026-09-18T12:03:52.738Z",
+  "generated_at": "2026-09-19T11:44:11.159Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-skills-forecast-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/forecast/SKILL.md",
-        "retrieved_at": "2026-09-18T12:03:52.738Z",
+        "retrieved_at": "2026-09-19T11:44:11.159Z",
         "content_sha256": "834d1a12fb3ea5555a7a2b4db7db43aa086aaecd60a04aa451e0c1202cdcf046"
       }
     }

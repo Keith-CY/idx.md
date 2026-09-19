@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-test-driven-development",
-  "generated_at": "2026-09-18T11:59:32.844Z",
+  "generated_at": "2026-09-19T11:43:05.816Z",
   "records": [
     {
       "id": "skills/obra-test-driven-development#head",
@@ -18,8 +18,8 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/test-driven-development/SKILL.md",
-        "retrieved_at": "2026-09-18T11:59:32.844Z",
-        "content_sha256": "bf1b8216e523851a411e91d429a7c1c2a173e79d88957bc78e348218d50edd54"
+        "retrieved_at": "2026-09-19T11:43:05.816Z",
+        "content_sha256": "64b03fce4aee5a97a93160cea8111f3ba13a17b7c001db4bd5836d67fd10705d"
       }
     }
   ]

@@ -7,27 +7,23 @@ summary: >-
 
   name: executing-plans
 
-  description: Use when you have a written implementation plan to execute in a
-  separate session with review checkpoints
+  description: Use when executing an implementation plan in the current session
+  as the implementer yourself — your human partner chose inline execution, or no
+  subagent tool is available
 
   ---
 
   # Executing Plans
 
-  ## Overview
+  Execute the plan yourself, task by task, in this session: no implementer
 
-  Load plan, review critically, execute all tasks, report when complete.
+  subagent per task, no reviewer per task. One fresh-context review of the
 
-  **Announce at start:** "I'm using the executing-plans skill to implement this
-  plan."
+  whole branch at the end.
 
-  **Note:** Tell your human partner that Superpowers works much better with
-  access to subagents (Claude Code, Codex CLI, Codex App, Copilot CLI, and
-  Gemini CLI all qualify; see the per-platform tool refs in
-  `../using-superpowers/references/`). If subagents are available, use
-  superpowers:subagent-driven-development instead of this skill.
+  **Why inline:** Subagent-driven development pays for a fresh implementer
 
-  ## The Process
+  and a fresh reviewer on every task, each re-reading the codebase from zero.
 tags:
   - obra
   - source-obra-superpowers
@@ -37,6 +33,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/executing-pla
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-09-18T11:59:32.540Z
-content_sha256: c4c3d8b628c51114cd165fb8246fe02744cd8be180032328391252e653028d9b
+retrieved_at: 2026-09-19T11:43:05.599Z
+content_sha256: f38e8f2ddcf079f65493adc713c1fed78421dfaf5f4dbf6b3a6b2b1d95466e71
 ---
