@@ -34,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-09-19T11:43:05.524Z
+retrieved_at: 2026-09-21T13:29:22.976Z
 content_sha256: a32d2255354775aa124855aa7100cf276bea096fff4ebb3a0edf57be216e6c72
 ---

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-skills-daily-briefing-skill",
-  "generated_at": "2026-09-19T11:43:20.019Z",
+  "generated_at": "2026-09-21T13:29:37.647Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-skills-daily-briefing-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/daily-briefing/SKILL.md",
-        "retrieved_at": "2026-09-19T11:43:20.019Z",
+        "retrieved_at": "2026-09-21T13:29:37.647Z",
         "content_sha256": "6829b09af0d90494aebfd4721bca91193c45fd1755e2357188735d93c88f87a4"
       }
     }
