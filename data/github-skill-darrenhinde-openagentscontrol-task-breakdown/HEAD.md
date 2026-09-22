@@ -17,6 +17,6 @@ upstream_ref: https://github.com/darrenhinde/OpenAgentsControl/blob/main/plugins
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-21T13:29:24.643Z
+retrieved_at: 2026-09-22T12:13:46.244Z
 content_sha256: 1787142d7a588474118d5fde5927779cd56d0da476acc0454fccc9af4671a39b
 ---

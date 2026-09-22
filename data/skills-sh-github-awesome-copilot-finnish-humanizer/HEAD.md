@@ -26,6 +26,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/finnish-humanizer
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-09-21T13:29:17.506Z
+retrieved_at: 2026-09-22T12:13:35.236Z
 content_sha256: 048028753dff8810aff9266586244157cbc952b06ffe87510683e2aad49a40f9
 ---

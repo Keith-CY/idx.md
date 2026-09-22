@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/cold-email
 github_stars: 9230
 github_forks: 1250
 github_is_organization: false
-retrieved_at: 2026-09-21T13:29:50.991Z
+retrieved_at: 2026-09-22T12:14:36.936Z
 content_sha256: 08f18652938e14143402786fbdb8e1a6269650bb5eef9106898f1cdf31e47e36
 ---

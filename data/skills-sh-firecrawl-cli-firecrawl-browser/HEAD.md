@@ -7,8 +7,10 @@ summary: >-
 
   name: firecrawl-scrape
 
-  description: |
-    Extract a URL's content as clean markdown, including JS-rendered pages. Use whenever the user provides a URL and wants its content; prefer over WebFetch.
+  description: Read a known webpage or execute a discovered workflow or
+  data-provider capability. Use for page content or structured results once the
+  URL or tool is selected.
+
   allowed-tools:
     - Bash(firecrawl *)
     - Bash(npx firecrawl-cli *)
@@ -16,8 +18,13 @@ summary: >-
 
   # firecrawl scrape
 
-  Scrape one or more URLs. Returns clean, LLM-optimized markdown. Multiple URLs
-  are scraped concurrently.
+  Read a URL for page content, or execute a selected provider tool for
+  structured data. Discover tools with `search` and inspect their inputs with
+  `list` before execution. Multiple URLs can be scraped concurrently.
+
+  For structured datasets, first check for a suitable workflow or data provider
+  using the [search skill](../firecrawl-search/SKILL.md). Read a known page
+  directly; reuse a selected contract instead of repeating discovery.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -27,6 +34,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-browser
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-09-21T13:29:19.738Z
-content_sha256: 503ca147fed2cc924b37749934b420e4dffa5c6b838310b05c4561c0ce2c4f8f
+retrieved_at: 2026-09-22T12:13:38.589Z
+content_sha256: afb5885258595b1ee606da7d24c568aa69f435612a566fac35b27b2402360f15
 ---
