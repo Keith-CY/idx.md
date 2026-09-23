@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-subagent-driven-development",
-  "generated_at": "2026-09-22T12:13:43.391Z",
+  "generated_at": "2026-09-23T12:26:35.911Z",
   "records": [
     {
       "id": "skills/obra-subagent-driven-development#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/subagent-driven-development/SKILL.md",
-        "retrieved_at": "2026-09-22T12:13:43.391Z",
+        "retrieved_at": "2026-09-23T12:26:35.911Z",
         "content_sha256": "8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046"
       }
     }

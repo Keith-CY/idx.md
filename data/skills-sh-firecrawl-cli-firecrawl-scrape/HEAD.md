@@ -7,10 +7,11 @@ summary: >-
 
   name: firecrawl-search
 
-  description: Find web sources and discover workflows, data APIs, and indexes.
-  Use for web research or finding structured records, listings, transcripts, and
-  datasets. Supports semantic tool discovery, domain matching, and progressive
-  catalogue browsing.
+  description: Find web sources with query-relevant page excerpts and optional
+  full-page content, and discover workflows, data APIs, and indexes. Use for web
+  research or finding structured records, listings, transcripts, and datasets.
+  Supports semantic tool discovery, domain matching, and progressive catalogue
+  browsing.
 
   allowed-tools:
     - Bash(firecrawl *)
@@ -39,6 +40,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-09-22T12:13:38.496Z
-content_sha256: bb5c24292b1dd49bf33b17c777d31d4829ef26e8f3676eb8a4f2931401f97206
+retrieved_at: 2026-09-23T12:27:00.929Z
+content_sha256: 11142abbdd83b3e19c2183e35d90903142b2a1622ea441795a17e7715e8a7172
 ---

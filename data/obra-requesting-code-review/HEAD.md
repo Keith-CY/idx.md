@@ -34,6 +34,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/requesting-co
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-09-22T12:13:43.327Z
+retrieved_at: 2026-09-23T12:26:35.774Z
 content_sha256: cfcee1b06774e7c0517f1e09be1a11f2d5680257072723e709ddbcf7e08b795a
 ---

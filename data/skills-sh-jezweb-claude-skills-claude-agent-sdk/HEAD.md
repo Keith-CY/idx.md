@@ -5,33 +5,36 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.278
+  ## 0.3.280
 
-  - Updated to parity with Claude Code v2.1.278
+  - Added optional `fireReason` to the task-notification `SDKMessageOrigin`; a
+  local host's declared scheduled-task fire is honored only in a process it
+  started with `CLAUDE_CODE_HOST_SCHEDULED_RUN=1`
 
-  ## 0.3.277
+  - Added `verbatimPrompts` option: prompts are delivered as written — no
+  `@path` expansion, no slash-command dispatch and, on current CLIs, no ambient
+  attachments with the prompt (Claude Code 2.1.248+)
 
-  - Added an optional `builtin` field to `SlashCommand`, set when a command is
-  built into Claude Code
+  - Added `_meta` to `mcpServerStatus()` tool entries, carrying a tool's MCP
+  Apps `ui` metadata so a host can find its `ui://` resource
 
-  - Added `pasted_content` to `SDKUserMessage`: text the user pasted rather than
-  typed, appended after the typed prompt
+  - Added `readMcpResource()` (alpha) to read an MCP Apps `ui://` resource from
+  an MCP server that Claude Code connected
 
-  - Added optional remote-session latency fields (`first_text_post_ms`,
-  `first_text_post_wall_ms`, `first_stream_post_queue_wait_ms`,
-  `first_stream_post_queued_behind`) to the success result message
+  - Improved `askSideQuestion()`: asked while a turn is running, it now sees
+  that turn (its prompt, replies and finished tool results so far) instead of
+  only the last completed turn
 
-  - Added `'userSettings'` as an `updateSettings()` source, accepting only
-  `effortLevel`, which is saved for the session's current model as `/effort`
-  saves it
+  - Improved unattended retry (`CLAUDE_CODE_RETRY_WATCHDOG`): a usage-limit wait
+  emits `rate_limit_event` (`rejected`, `resetsAt`) as it begins; `api_retry`
+  heartbeats continue while sub-agent work waits
 
-  - Fixed a resumed or forked session's `total_cost_usd`, `modelUsage` and
-  `get_usage` totals starting at zero instead of continuing from the earlier
-  turns (`maxBudgetUsd` is unchanged)
+  - Changed `session_state_changed` events
+  (`CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS=1`) to report `requires_action` while
+  an MCP elicitation waits on the user, as for permission prompts
 
-  - Changed `SDKUsageReport` usage rows to always carry `severity` and
-  `is_active`: the report relays only rows from a live server reply, and none
-  while the usage fetch is failing
+  - Changed headless sessions to cancel an MCP server's pending form question
+  when the tool call that drew it ends
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +44,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-22T12:14:25.998Z
-content_sha256: 9d46ff24dc9ebd11cbabdee3cef54556e9b5e53335f62877d8fe17710ad35d12
+retrieved_at: 2026-09-23T12:27:57.692Z
+content_sha256: 8c7d01eff2fb98a2199d6844d30a1e8c6e903a82e299795763f231b72361f740
 ---

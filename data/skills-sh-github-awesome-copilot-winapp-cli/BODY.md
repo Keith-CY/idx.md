@@ -1357,7 +1357,7 @@ winapp cert generate [options]
 **Options:**
 
 - `--manifest <Package.appxmanifest>` - Extract the certificate publisher from the manifest's `Identity/@Publisher`. Only the publisher is required, so a partially-complete manifest still works. If the manifest has no usable publisher, the command fails instead of substituting a default, so the certificate can never silently mismatch the manifest.
-- `--publisher <name>` - Publisher for the certificate. Accepts a full X.500 distinguished name (e.g., `CN=Contoso, O=Contoso Ltd, C=US`) or a bare name which is automatically wrapped as `CN=<name>`. Components must be single-valued and comma-separated; multi-valued RDNs (`CN=Foo+OU=Bar`) and backslashes are not supported because the MSIX manifest publisher cannot represent them. A malformed distinguished name (e.g. `CN=` or `CN=A,,O=B`) is rejected with a non-zero exit and an error naming the problem, rather than producing a certificate that can never match the manifest publisher.
+- `--publisher <name>` - Publisher for the certificate. When generating a certificate, this option takes precedence over `--manifest`; an explicitly empty value fails instead of using the manifest publisher. Accepts a full X.500 distinguished name (e.g., `CN=Contoso, O=Contoso Ltd, C=US`) or a bare name which is automatically wrapped as `CN=<name>`. Components must be single-valued and comma-separated; multi-valued RDNs (`CN=Foo+OU=Bar`) and backslashes are not supported because the MSIX manifest publisher cannot represent them. A malformed distinguished name (e.g. `CN=` or `CN=A,,O=B`) is rejected with a non-zero exit and an error naming the problem, rather than producing a certificate that can never match the manifest publisher.
 - `--output <path>` - Output certificate file path (supports absolute and relative paths)
 - `--password <password>` - Certificate password (default: `password`, which is publicly known — see [JSON output](#cert-generate-json-output) and [Security](security.md#the-default-password))
 - `--valid-days <valid-days>` - Number of days the certificate is valid (default: 365)
@@ -1611,13 +1611,21 @@ winapp tool signtool verify /pa MyApp.msix
 
 **Signature verification**
 
-Build tools are downloaded from NuGet and then executed, so winapp checks each one for a valid Microsoft Authenticode signature immediately before running it. This applies to every command that shells out to an SDK tool, including `tool`, `package`, and `sign`. A tool that fails the check is not run:
+Build tools are downloaded from NuGet and then executed, so winapp checks each one for a valid Microsoft Authenticode signature immediately before running it. The certificate must name Microsoft Corporation as the signing organization. This applies to every command that shells out to an SDK tool, including `tool`, `package`, and `sign`. A tool that fails the check is not run:
 
 ```text
 'mt.exe' is not validly signed by Microsoft, so it was not run (C:\...\mt.exe).
 ```
 
 A failure here means the file on disk is not what Microsoft published — most often a corrupt or partial download. Delete the package from the NuGet cache and run the command again so winapp re-downloads it.
+
+winapp then keeps the tool open for as long as it runs, so the file it checked is the file Windows loads. If it cannot hold the tool in place, it is not run either:
+
+```text
+'mt.exe' could not be held open for verification, so it was not run (C:\...\mt.exe).
+```
+
+Close whatever is using the file — an antivirus scan or an open editor is the usual cause — and run the command again. If the tool is gone rather than in use, delete the package from the NuGet cache so winapp re-downloads it.
 
 ---
 

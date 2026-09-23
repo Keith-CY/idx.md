@@ -2,17 +2,22 @@
 stable_id: skills/skills-sh-op7418-humanizer-zh-humanizer-zh
 type: skills
 title: skills-sh-op7418-humanizer-zh-humanizer-zh
-summary: |-
+summary: >-
   ---
+
   name: humanizer-zh
-  description: |
-    去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。
-    基于维基百科的"AI 写作特征"综合指南。检测并修复以下模式：夸大的象征意义、
-    宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、
-    AI 词汇、否定式排比、过多的连接性短语。
+
+  description:
+  编辑中文文章、评论和文档中的空话、重复及模板化表达，让文字更自然，同时保留事实、确定程度和作者声音。适用于润色已有文本，不用于判断作者身份或保证通过 AI
+  检测器。
+
   allowed-tools:
     - Read
     - Write
+    - Edit
+    - AskUserQuestion
+  metadata:
+    trigger: 编辑或审阅中文文本，去除模板化表达
 tags:
   - skills-sh
   - skills-sh-probed
@@ -22,6 +27,6 @@ upstream_ref: https://skills.sh/op7418/humanizer-zh/humanizer-zh
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-22T12:13:59.108Z
-content_sha256: e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb
+retrieved_at: 2026-09-23T12:27:21.870Z
+content_sha256: 95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df
 ---

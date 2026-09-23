@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-skills-call-summary-skill",
-  "generated_at": "2026-09-22T12:16:07.220Z",
+  "generated_at": "2026-09-23T12:30:19.171Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-skills-call-summary-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/call-summary/SKILL.md",
-        "retrieved_at": "2026-09-22T12:16:07.220Z",
+        "retrieved_at": "2026-09-23T12:30:19.171Z",
         "content_sha256": "23d174b441604a2f333aa671ec1b6130018c56018c6375620c8a41ed13e92819"
       }
     }

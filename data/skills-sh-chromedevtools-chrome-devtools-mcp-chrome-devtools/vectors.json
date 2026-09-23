@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools",
-  "generated_at": "2026-09-22T12:14:38.553Z",
+  "generated_at": "2026-09-23T12:28:12.506Z",
   "records": [
     {
       "id": "skills/skills-sh-chromedevtools-chrome-devtools-mcp-chrome-devtools#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/main/docs/troubleshooting.md",
-        "retrieved_at": "2026-09-22T12:14:38.553Z",
+        "retrieved_at": "2026-09-23T12:28:12.506Z",
         "content_sha256": "5243bcdc13cfae8610be4bf5ea1dc6b4a0ef0f0c614625e0f5e4b6aa3bafebac"
       }
     }

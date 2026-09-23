@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-quickwit-oss-tantivy-simple-pr",
-  "generated_at": "2026-09-22T12:13:53.076Z",
+  "generated_at": "2026-09-23T12:27:20.237Z",
   "records": [
     {
       "id": "skills/github-skill-quickwit-oss-tantivy-simple-pr#head",
@@ -21,7 +21,7 @@
           "github-repo-tantivy"
         ],
         "source_url": "https://raw.githubusercontent.com/quickwit-oss/tantivy/main/.claude/skills/simple-pr/SKILL.md",
-        "retrieved_at": "2026-09-22T12:13:53.076Z",
+        "retrieved_at": "2026-09-23T12:27:20.237Z",
         "content_sha256": "1cfa210ff5fcefe144f4968411f8656b9874aad4e79180e54847356cefe2f390"
       }
     }

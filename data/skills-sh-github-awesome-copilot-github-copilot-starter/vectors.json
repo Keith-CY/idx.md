@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-github-copilot-starter",
-  "generated_at": "2026-09-22T12:13:35.536Z",
+  "generated_at": "2026-09-23T12:26:57.060Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-github-copilot-starter#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/github/awesome-copilot/main/docs/README.instructions.md",
-        "retrieved_at": "2026-09-22T12:13:35.536Z",
+        "retrieved_at": "2026-09-23T12:26:57.060Z",
         "content_sha256": "c79e5fb84d5a170b9c5d2c1b1eb6ea992c97fc4a0646f532b9b5eee9363c7f11"
       }
     }

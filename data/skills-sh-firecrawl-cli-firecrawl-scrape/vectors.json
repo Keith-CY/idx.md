@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-firecrawl-cli-firecrawl-scrape",
-  "generated_at": "2026-09-22T12:13:38.496Z",
+  "generated_at": "2026-09-23T12:27:00.929Z",
   "records": [
     {
       "id": "skills/skills-sh-firecrawl-cli-firecrawl-scrape#head",
       "kind": "head",
       "path": "/data/skills-sh-firecrawl-cli-firecrawl-scrape/HEAD.md",
-      "text": "title: skills-sh-firecrawl-cli-firecrawl-scrape\nsummary: --- name: firecrawl-search description: Find web sources and discover workflows, data APIs, and indexes. Use for web research or finding structured records, listings, transcripts, and datasets. Supports semantic tool discovery, domain matching, and progressive catalogue browsing. allowed-tools: - Bash(firecrawl *) - Bash(npx firecrawl-cli *) --- # firecrawl search Search naturally using the user’s actual question. Default search returns web results plus relevant Alexandria tools, with optional web content scraping. For structured records, filterable listings, transcripts, or datasets, first check `firecrawl search alexandria '<data you need>'` for a suitable workflow or data provider. For a known website, use `firecrawl find-tools <url>`. Inspect a selected contract with `firecrawl list <provider> <capability> --pretty` before executing it through `scrape`; reuse a complete contract already returned by discovery. If no suitable tool exists, continue with web search or Agent. Use ordinary `search` for web research and URL `scrape` for a known page.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md",
+      "text": "title: skills-sh-firecrawl-cli-firecrawl-scrape\nsummary: --- name: firecrawl-search description: Find web sources with query-relevant page excerpts and optional full-page content, and discover workflows, data APIs, and indexes. Use for web research or finding structured records, listings, transcripts, and datasets. Supports semantic tool discovery, domain matching, and progressive catalogue browsing. allowed-tools: - Bash(firecrawl *) - Bash(npx firecrawl-cli *) --- # firecrawl search Search naturally using the user’s actual question. Default search returns web results plus relevant Alexandria tools, with optional web content scraping. For structured records, filterable listings, transcripts, or datasets, first check `firecrawl search alexandria '<data you need>'` for a suitable workflow or data provider. For a known website, use `firecrawl find-tools <url>`. Inspect a selected contract with `firecrawl list <provider> <capability> --pretty` before executing it through `scrape`; reuse a complete contract already returned by discovery. If no suitable tool exists, continue with web search or Agent. Use ordinary `search` for web research and URL `scrape` for a known page.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-firecrawl-cli-firecrawl-scrape",
         "topic": "skills-sh-firecrawl-cli-firecrawl-scrape",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md",
-        "retrieved_at": "2026-09-22T12:13:38.496Z",
-        "content_sha256": "bb5c24292b1dd49bf33b17c777d31d4829ef26e8f3676eb8a4f2931401f97206"
+        "retrieved_at": "2026-09-23T12:27:00.929Z",
+        "content_sha256": "11142abbdd83b3e19c2183e35d90903142b2a1622ea441795a17e7715e8a7172"
       }
     }
   ]
