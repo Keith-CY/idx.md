@@ -5,36 +5,36 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.280
+  ## 0.3.281
 
-  - Added optional `fireReason` to the task-notification `SDKMessageOrigin`; a
-  local host's declared scheduled-task fire is honored only in a process it
-  started with `CLAUDE_CODE_HOST_SCHEDULED_RUN=1`
+  - Added optional `trigger`, `user_message_uuid` and `timestamp` fields to the
+  `conversation_reset` message so clients can tell what reset the conversation,
+  match a /clear to its message, and show when the reset happened
 
-  - Added `verbatimPrompts` option: prompts are delivered as written — no
-  `@path` expansion, no slash-command dispatch and, on current CLIs, no ambient
-  attachments with the prompt (Claude Code 2.1.248+)
+  - Fixed permission and dialog callbacks still being invoked for requests that
+  arrived after `close()`
 
-  - Added `_meta` to `mcpServerStatus()` tool entries, carrying a tool's MCP
-  Apps `ui` metadata so a host can find its `ui://` resource
+  - Fixed control requests issued after a query closed hanging or leaking, and
+  permission prompts that could not be cancelled after a cancelled request was
+  redelivered
 
-  - Added `readMcpResource()` (alpha) to read an MCP Apps `ui://` resource from
-  an MCP server that Claude Code connected
+  - Fixed `session_state_changed` staying at `requires_action` after an
+  overlapping permission prompt and sandbox network-access prompt were both
+  answered
 
-  - Improved `askSideQuestion()`: asked while a turn is running, it now sees
-  that turn (its prompt, replies and finished tool results so far) instead of
-  only the last completed turn
+  - Improved SDK package size and load time: `sdk.mjs` no longer bundles unused
+  dependencies (1.47 MB → 0.97 MB)
 
-  - Improved unattended retry (`CLAUDE_CODE_RETRY_WATCHDOG`): a usage-limit wait
-  emits `rate_limit_event` (`rejected`, `resetsAt`) as it begins; `api_retry`
-  heartbeats continue while sub-agent work waits
+  - Improved startup time for `query()` sessions with in-process MCP servers
+  (`createSdkMcpServer`) by running their handshake inside the SDK; `initialize`
+  may now wait up to 250 ms for them
 
-  - Changed `session_state_changed` events
-  (`CLAUDE_CODE_EMIT_SESSION_STATE_EVENTS=1`) to report `requires_action` while
-  an MCP elicitation waits on the user, as for permission prompts
+  - Improved SDK session start-up: the CLI now answers the host's initialize
+  request before starting its background start-up work
 
-  - Changed headless sessions to cancel an MCP server's pending form question
-  when the tool call that drew it ends
+  - Changed the `Settings` type's `attribution` field to `boolean | {...}`;
+  TypeScript code that reads `attribution.commit` from returned settings needs a
+  type narrow
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +44,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-23T12:27:57.692Z
-content_sha256: 8c7d01eff2fb98a2199d6844d30a1e8c6e903a82e299795763f231b72361f740
+retrieved_at: 2026-09-24T12:27:08.409Z
+content_sha256: 45a6c8f443eeac5554392b64452ef5b32da75aaa6d1988d6de578fb4e2ea5848
 ---

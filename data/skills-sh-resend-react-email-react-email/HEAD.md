@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/resend/react-email/react-email
 github_stars: 18106
 github_forks: 921
 github_is_organization: true
-retrieved_at: 2026-09-23T12:28:09.802Z
+retrieved_at: 2026-09-24T12:27:19.839Z
 content_sha256: c70a474382ec0a32711d9c56e28681adf8f1bad5bdb1d2f04b89c968a2c5fd21
 ---

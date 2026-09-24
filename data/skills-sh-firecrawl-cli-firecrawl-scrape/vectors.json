@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-firecrawl-cli-firecrawl-scrape",
-  "generated_at": "2026-09-23T12:27:00.929Z",
+  "generated_at": "2026-09-24T12:26:17.572Z",
   "records": [
     {
       "id": "skills/skills-sh-firecrawl-cli-firecrawl-scrape#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/firecrawl/cli/HEAD/skills/firecrawl-search/SKILL.md",
-        "retrieved_at": "2026-09-23T12:27:00.929Z",
+        "retrieved_at": "2026-09-24T12:26:17.572Z",
         "content_sha256": "11142abbdd83b3e19c2183e35d90903142b2a1622ea441795a17e7715e8a7172"
       }
     }
