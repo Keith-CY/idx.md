@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-skills-draft-outreach-skill",
-  "generated_at": "2026-09-24T12:26:52.277Z",
+  "generated_at": "2026-09-25T12:27:08.865Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-skills-draft-outreach-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/draft-outreach/SKILL.md",
-        "retrieved_at": "2026-09-24T12:26:52.277Z",
+        "retrieved_at": "2026-09-25T12:27:08.865Z",
         "content_sha256": "159a79d94036f3b3082975d3b01ae739691829fa939d16689a33dde16f6b6c47"
       }
     }

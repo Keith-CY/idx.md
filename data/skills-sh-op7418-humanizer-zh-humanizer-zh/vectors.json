@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-op7418-humanizer-zh-humanizer-zh",
-  "generated_at": "2026-09-24T12:26:35.976Z",
+  "generated_at": "2026-09-25T12:26:49.954Z",
   "records": [
     {
       "id": "skills/skills-sh-op7418-humanizer-zh-humanizer-zh#head",
@@ -18,7 +18,7 @@
           "skills-sh-probed"
         ],
         "source_url": "https://raw.githubusercontent.com/op7418/humanizer-zh/main/SKILL.md",
-        "retrieved_at": "2026-09-24T12:26:35.976Z",
+        "retrieved_at": "2026-09-25T12:26:49.954Z",
         "content_sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df"
       }
     }

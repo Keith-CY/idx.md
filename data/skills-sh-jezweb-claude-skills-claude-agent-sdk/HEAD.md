@@ -5,6 +5,26 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.282
+
+  - Added support for `strictKnownMarketplaces` and `blockedMarketplaces` in
+  host-supplied `managedSettings`: the allowlist applies only where admin policy
+  sets none; the blocklist adds to the admin's
+
+  - Added `@anthropic-ai/claude-agent-sdk/core`, a smaller entry point for apps
+  that bundle the SDK (query, MCP tool helpers, session mutations,
+  `resolveSettings`); it uses your installed zod and MCP SDK
+
+  - Added `prewarm()` and `SpareProcess.claim()` (alpha): start a Claude Code
+  process before its session is known and bind it to a folder and its
+  per-session options later
+
+  - Fixed `readMcpResource()` relaying content `_meta` keys under the
+  CLI-reserved `com.anthropic/` prefix; they are now dropped, as for tool
+  results
+
+  - Updated to parity with Claude Code v2.1.282
+
   ## 0.3.281
 
   - Added optional `trigger`, `user_message_uuid` and `timestamp` fields to the
@@ -13,28 +33,6 @@ summary: >-
 
   - Fixed permission and dialog callbacks still being invoked for requests that
   arrived after `close()`
-
-  - Fixed control requests issued after a query closed hanging or leaking, and
-  permission prompts that could not be cancelled after a cancelled request was
-  redelivered
-
-  - Fixed `session_state_changed` staying at `requires_action` after an
-  overlapping permission prompt and sandbox network-access prompt were both
-  answered
-
-  - Improved SDK package size and load time: `sdk.mjs` no longer bundles unused
-  dependencies (1.47 MB → 0.97 MB)
-
-  - Improved startup time for `query()` sessions with in-process MCP servers
-  (`createSdkMcpServer`) by running their handshake inside the SDK; `initialize`
-  may now wait up to 250 ms for them
-
-  - Improved SDK session start-up: the CLI now answers the host's initialize
-  request before starting its background start-up work
-
-  - Changed the `Settings` type's `attribution` field to `boolean | {...}`;
-  TypeScript code that reads `attribution.commit` from returned settings needs a
-  type narrow
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +42,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-24T12:27:08.409Z
-content_sha256: 45a6c8f443eeac5554392b64452ef5b32da75aaa6d1988d6de578fb4e2ea5848
+retrieved_at: 2026-09-25T12:27:25.814Z
+content_sha256: 3c2c9a349a9facc1959468d5c0bf28f40b2aeb1930a3dbe831f261c7d1152692
 ---
