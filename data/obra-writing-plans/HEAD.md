@@ -16,20 +16,21 @@ summary: >-
 
   ## Overview
 
-  Write comprehensive implementation plans assuming the engineer has zero
-  context for our codebase and questionable taste. Document everything they need
-  to know: which files to touch for each task, code, testing, docs they might
-  need to check, how to test it. Give them the whole plan as bite-sized tasks.
-  DRY. YAGNI. TDD. Frequent commits.
-
-  Assume they are a skilled developer, but know almost nothing about our toolset
-  or problem domain. Assume they don't know good test design very well.
+  Write implementation plans for an engineer who has not seen this codebase or
+  this spec. Assume they write idiomatic code in the project's language once
+  they know the exact interface and the exact test, and that they will make a
+  reasonable choice wherever the plan leaves one open. What they cannot know is
+  what you decided: which files, which names and signatures, which values from
+  the spec, which tests prove each task. Document those. Give them the whole
+  plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits.
 
   **Announce at start:** "I'm using the writing-plans skill to create the
   implementation plan."
 
   **Context:** If working in an isolated worktree, it should have been created
   via the `superpowers:using-git-worktrees` skill at execution time.
+
+  **Save plans to:** `docs/superpowers/plans/YYYY-MM-DD-<feature-name>.md`
 tags:
   - obra
   - source-obra-superpowers
@@ -39,6 +40,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/writing-plans
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-09-25T12:26:05.820Z
-content_sha256: 0bc3d36590f7b2c323ed3ec18ff77e9f8ed57af42f5680a02b11a2d20de265cf
+retrieved_at: 2026-09-26T11:58:03.960Z
+content_sha256: a6c67c1900064347c2a329990dd3c555657c51c3ec53b259a08aa01a2c26139a
 ---
