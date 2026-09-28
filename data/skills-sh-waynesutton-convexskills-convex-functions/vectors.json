@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-waynesutton-convexskills-convex-functions",
-  "generated_at": "2026-09-26T11:59:27.841Z",
+  "generated_at": "2026-09-28T14:46:29.656Z",
   "records": [
     {
       "id": "skills/skills-sh-waynesutton-convexskills-convex-functions#head",
       "kind": "head",
       "path": "/data/skills-sh-waynesutton-convexskills-convex-functions/HEAD.md",
-      "text": "title: skills-sh-waynesutton-convexskills-convex-functions\nsummary: --- name: convex-best-practices description: Guidelines for building production-ready Convex apps covering function organization, query patterns, validation, TypeScript usage, error handling, and the Zen of Convex design philosophy --- # Convex Best Practices Build production-ready Convex applications by following established patterns for function organization, query optimization, validation, TypeScript usage, and error handling. ## Code Quality All patterns in this skill comply with `@convex-dev/eslint-plugin`. Install it for build-time validation: ```bash npm i @convex-dev/eslint-plugin --save-dev\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md",
+      "text": "title: skills-sh-waynesutton-convexskills-convex-functions\nsummary: --- name: convex-best-practices description: Production patterns for Convex apps and the rules the @convex-dev/eslint-plugin enforces: validators, indexes, idempotent mutations, avoiding OCC conflicts, thin function wrappers, error handling. Use when reviewing Convex code, asking whether a pattern is right, setting up ESLint, or fixing write conflicts and slow queries. --- # Convex best practices The patterns that keep a Convex app fast and correct in production. The rule that matters most: read as little as possible before you write, and read through an index. ## Rules that matter most 1. Validators on every function. `args` and `returns`, with `returns: v.null()` when nothing comes back. 2. Indexes, not filters. Every table read goes through `withIndex` against an index in `convex/schema.ts`. 3. Idempotent mutations. Return early when the document is already in the target state so retries are safe.\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md",
       "metadata": {
         "stable_id": "skills/skills-sh-waynesutton-convexskills-convex-functions",
         "topic": "skills-sh-waynesutton-convexskills-convex-functions",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md",
-        "retrieved_at": "2026-09-26T11:59:27.841Z",
-        "content_sha256": "20e2298b8ebeca51e189394ec924756dfaef5fa70170ff7fd2fbdb5177718fcd"
+        "retrieved_at": "2026-09-28T14:46:29.656Z",
+        "content_sha256": "90160ccaa0a95a08527ef1b67a240731ce411cd3266c1f9f6ba3c1bcc5ba390d"
       }
     }
   ]

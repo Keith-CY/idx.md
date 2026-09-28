@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-vite",
-  "generated_at": "2026-09-26T11:58:08.977Z",
+  "generated_at": "2026-09-28T14:43:57.217Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-vite#head",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/vite/references/core-config.md",
-        "retrieved_at": "2026-09-26T11:58:08.977Z",
-        "content_sha256": "d207a85730c32eff47e343ea69644a6c7898af251098a60255efe8f1c922fb4b"
+        "retrieved_at": "2026-09-28T14:43:57.217Z",
+        "content_sha256": "818fbba3a9842052bf8ee06213bd74fded5330e5af8b72bf7457cf22666efe87"
       }
     }
   ]

@@ -17,13 +17,16 @@ summary: >-
   pnpm provides a comprehensive CLI. Commands resemble npm/yarn but with unique
   features.
 
+  > **pnpm v12 is a Rust rewrite** of v11, stable, keeping v11's commands,
+  flags, settings, and lockfile format. A few behaviors differ (see
+  best-practices-migration). One removed flag fails outright: `pnpm install
+  --resolution-only` is gone — use `pnpm peers check`.
+
   ## Installation Commands
 
   ```bash
 
   pnpm install            # install all deps (alias: pnpm i)
-
-  pnpm add <pkg>          # production dependency
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +36,6 @@ upstream_ref: https://skills.sh/antfu/skills/pnpm
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-09-26T11:58:34.552Z
-content_sha256: b315a23c83606baf70814f7fb021a7cbc000a5f2106833ae7899d40277d83a73
+retrieved_at: 2026-09-28T14:44:42.520Z
+content_sha256: 1527737245a0183c241cf0fdf8bd5cdd18501bd2befbb0085b7a6358f8a1ef9a
 ---
