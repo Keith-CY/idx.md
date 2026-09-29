@@ -5,33 +5,36 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.283
+  ## 0.3.284
 
-  - Added `plugin_errors` to the `SDKSystemMessage` type (`system/init`),
-  including `path` for a `--plugin-dir` entry that did not load
+  - Added a renamed skill's directory name to its `SlashCommand` `aliases` when
+  the name is plain and Claude Code ships no command by that name
 
-  - Fixed `getSessionMessages()` returning, and `forkSession()` copying, a
-  rewound-away branch when the newest branch ends at a meta row or a local
-  command's rows
+  - Added `applied.ultracodeAvailable` and `applied.ultracodeRequested` to
+  `getSettings()`: whether this session can run Ultracode, and whether it is
+  requested, independent of whether it is in effect
 
-  - Changed stream-json output to include warnings and notices raised during a
-  turn as `system/informational` messages; it previously dropped them
+  - Fixed `forkSession()` copies reading back the wrong history when cut at a
+  progress row or fork briefing after a rewind, or when the session was
+  compacted with some messages kept
 
-  - Changed the `set_max_thinking_tokens` control request: omitting
-  `max_thinking_tokens` now leaves the session's thinking budget unchanged; send
-  `null` to reset it to the session default
+  - Fixed `getSessionMessages()` leaving out messages from other agents,
+  sessions and channels that the CLI transcript shows
 
-  - Updated to parity with Claude Code v2.1.283
+  - Fixed `{ decision: 'block' }` returned by Elicitation and ElicitationResult
+  hook callbacks being ignored; it now declines the MCP elicitation
 
-  ## 0.3.282
+  - Fixed `query()` closing stdin before a follow-up turn woken by a finished
+  background agent, which failed that turn's hooks, `canUseTool` and SDK MCP
+  calls with "Stream closed"
 
-  - Added support for `strictKnownMarketplaces` and `blockedMarketplaces` in
-  host-supplied `managedSettings`: the allowlist applies only where admin policy
-  sets none; the blocklist adds to the admin's
+  - Changed the first turn to still wait up to 2s for connecting MCP servers
+  named in `allowedTools` or by an `mcp_tool` hook, even with
+  `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` set to `0`
 
-  - Added `@anthropic-ai/claude-agent-sdk/core`, a smaller entry point for apps
-  that bundle the SDK (query, MCP tool helpers, session mutations,
-  `resolveSettings`); it uses your installed zod and MCP SDK
+  - Changed `applyFlagSettings({ ultracode: true })` to keep the current effort
+  level instead of switching to `xhigh`; an `effortLevel` that changes the level
+  without `ultracode` turns Ultracode off
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +44,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-28T14:44:47.913Z
-content_sha256: 14a77a256902a525bfd8493319905b030cdbf1724aa21e516afefc8000126ce2
+retrieved_at: 2026-09-29T13:34:55.565Z
+content_sha256: b550c068cae83a58839614853b97cc5c76f016c6fb7875d0c05cd115f9b7f579
 ---

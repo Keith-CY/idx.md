@@ -14,7 +14,7 @@ Rust's ownership system encourages **borrow** (`&T`) instead of **cloning** (`T.
 * When caching results (dummy example below):
 ```rust
 fn get_config(&self) -> Config {
-    self.cached_config.clone()
+  self.cached_config.clone()
 }
 ```
 * When the underlying API expects Owned Data.
@@ -30,14 +30,14 @@ fn get_config(&self) -> Config {
 * Clone a reference argument, if you need ownership, make it explicit in the arguments for the caller. Example:
 ```rust
 fn take_a_borrow(thing: &Thing) {
-    let thing_cloned = thing.clone(); // the caller should have passed ownership instead
+  let thing_cloned = thing.clone(); // the caller should have passed ownership instead
 }
 ```
 
 ### ✅ Prefer borrowing:
 ```rust
 fn process(name: &str) {
-    println!("Hello {name}");
+  println!("Hello {name}");
 }
 
 let user = String::from("foo");
@@ -47,7 +47,7 @@ process(&user);
 ### ❌ Avoid redundant cloning:
 ```rust
 fn process_string(name: String) {
-    println!("Hello {name}");
+  println!("Hello {name}");
 }
 
 let user = String::from("foo");
@@ -75,7 +75,7 @@ let new_num = increment(num); // `num` still usable after this point
 * When to consider declaring `Copy` on your own types:
 * All fields are `Copy` themselves.
 * The struct is `small`, up to 2 (maybe 3) words of memory or 24 bytes (each word is 64 bits/8bytes).
-* The struct **represents a "plain data object"**, without resourcing to ownership (no heap allocations. Example: `Vec` and `Strings`).
+* The struct **represents a "plain data object"**, without resorting to ownership (no heap allocations. Example: `Vec` and `Strings`).
 * ❗**The type does not also implement `Iterator`.** Even if every field is `Copy`, never put `Copy` and `Iterator` on the same type (see [§1.5](#15-iterator-iter-vs-for)).
 
 ❗**Rust Arrays are stack allocated.** Which means they can be copied if their underlying type is `Copy`, but this will be allocated in the program stack which can easily become a stack overflow. More on [Chapter 3 - Stack vs Heap](./chapter_03.md#33-stack-vs-heap-be-size-smart)
@@ -84,38 +84,38 @@ For reference, each primitive type size in bytes:
 
 #### Integers:
 
-| Type | Size |
-|------------- |---------- |
-| i8 u8 | 1 byte |
-| i16 u16 | 2 bytes |
-| i32 u32 | 4 bytes |
-| i64 u64 | 8 bytes |
-| isize usize | Arch |
-| i128 u128 | 16 bytes |
+| Type        	| Size     	|
+|-------------	|----------	|
+|    i8 u8    	|  1 byte  	|
+| i16 u16     	| 2 bytes  	|
+| i32 u32     	| 4 bytes  	|
+| i64 u64     	| 8 bytes  	|
+| isize usize 	| Arch     	|
+| i128 u128   	| 16 bytes 	|
 
 #### Floating Point:
 
-| Type | Size |
-|---------- |---------- |
-| f32 | 4 bytes |
-| f64 | 8 bytes |
+| Type     	| Size     	|
+|----------	|----------	|
+| f32     	| 4 bytes  	|
+| f64     	| 8 bytes  	|
 
 
 #### Other:
 
-| Type | Size |
-|---------- |---------- |
-| bool | 1 byte |
-| char | 4 bytes |
+| Type     	| Size     	|
+|----------	|----------	|
+| bool     	| 1 byte  	|
+| char     	| 4 bytes  	|
 
 
 ### ✅ Good struct to derive `Copy`:
 ```rust
 #[derive(Debug, Copy, Clone)]
 struct Point {
-    x: f32,
-    y: f32,
-    z: f32
+  x: f32,
+  y: f32,
+  z: f32
 }
 ```
 
@@ -123,8 +123,8 @@ struct Point {
 ```rust
 #[derive(Debug, Clone)]
 struct BadIdea {
-    age: i32,
-    name: String, // String is not `Copy`
+  age: i32,
+  name: String, // String is not `Copy`
 }
 ```
 
@@ -137,89 +137,89 @@ struct BadIdea {
 ```rust
 #[derive(Debug, Copy, Clone)]
 enum Direction {
-    North,
-    South,
-    East,
-    West,
+  North,
+  South,
+  East,
+  West,
 }
 ```
 
 ## 1.3 Handling `Option<T>` and `Result<T, E>`
 Rust 1.65 introduced a better way to safely unpack Option and Result types with the `let Some(x) = … else { … }` or `let Ok(x) = … else { … }` when you have a default `return` value, `continue` or `break` default else case. It allows early returns when the missing case is **expected and normal**, not exceptional.
 
-### ✅ Cases to use each pattern matching for Option and Return
+### ✅ Cases to use each pattern matching for Option and Result
 * Use `match` when you want to pattern match against the inner types `T` and `E`
 ```rust
 match self {
-    Ok(Direction::South) => { … },
-    Ok(Direction::North) => { … },
-    Ok(Direction::East) => { … },
-    Ok(Direction::West) => { … },
-    Err(E::One) => { … },
-    Err(E::Two) => { … },
+  Ok(Direction::South) => { … },
+  Ok(Direction::North) => { … },
+  Ok(Direction::East) => { … },
+  Ok(Direction::West) => { … },
+  Err(E::One) => { … },
+  Err(E::Two) => { … },
 }
 
 match self {
-    Some(3|5) => { … }
-    Some(x) if x > 10 => { … }
-    Some(x) => { … }
-    None => { … }
+  Some(3|5) => { … }
+  Some(x) if x > 10  => { … }
+  Some(x) => { … }
+  None => { … }
 }
 ```
 
-* Use `match` when your type is transformed into something more complex Like `Result<T, E>` becoming `Result<Option<T>, E>`.
+* Use `match` when your type is transformed into something more complex Like `Result<T, E>` becoming `Result<Option<U>, E>`.
 ```rust
 match self {
-    Ok(t) => Ok(Some(t)),
-    Err(E::Empty) => Ok(None),
-    Err(err) => Err(err),
+  Ok(t) => Ok(Some(t)),
+  Err(E::Empty) => Ok(None),
+  Err(err) => Err(err),
 }
 ```
 
-* Use `let PATTERN = EXPRESSION else { DIVERGING_CODE; }` when the divergent code doesn't need to know about the failed pattern matches or doesn't need extra computation:
+* Use `let PATTERN = EXPRESSION else {  DIVERGING_CODE; }` when the divergent code doesn't need to know about the failed pattern matches or doesn't need extra computation:
 ```rust
 let Some(&Direction::North) = self.direction.as_ref() else {
-    return Err(DirectionNotAvailable(self.direction));
+	return Err(DirectionNotAvailable(self.direction));
 }
 ```
 
-* Use `let PATTERN = EXPRESSION else { DIVERGING_CODE; }` when you want to break or continue a pattern match
+* Use `let PATTERN = EXPRESSION else {  DIVERGING_CODE; }` when you want to break or continue a pattern match
 ```rust
 for x in self {
     let Some(x) = x else {
-        continue;
+	continue;
     }
 }
 ```
 
-* Use `if let PATTERN = EXPRESSION else { DIVERGING_CODE; }` when `DIVERGING_CODE` needs extra computation:
+* Use `if let PATTERN = EXPRESSION else {  DIVERGING_CODE; }` when `DIVERGING_CODE` needs extra computation:
 ```rust
 if let Some(x) = self.next() {
-    // computation
+  // computation
 } else {
-    // computation when `None/Err` or not matched
+  // computation when `None/Err` or not matched
 }
 ```
 
 ❗**If you don't care about the value of the `Err` case, please use `?` to propagate the `Err` to the caller.**
 
-### ❌ Bad Option/Return pattern matching:
+### ❌ Bad Option/Result pattern matching:
 
 * Conversion between Result and Option (prefer `.ok()`,`.ok_or()`, and `ok_or_else()`)
 ```rust
 match self {
-    Ok(t) => Some(t),
-    Err(_) => None
+  Ok(t) => Some(t),
+  Err(_) => None
 }
 ```
 
-* `if let PATTERN = EXPRESSION else { DIVERGING_CODE; }` when divergent code is a default or pre-computed value (prefer `let PATTERN = EXPRESSION else { DIVERGING_CODE; }`):
+* `if let PATTERN = EXPRESSION else {  DIVERGING_CODE; }` when divergent code is a default or pre-computed value (prefer `let PATTERN = EXPRESSION else {  DIVERGING_CODE; }`):
 ```rust
 if let Some(values) = self.next() {
-    // computation
-    (Some(..), values)
+  // computation
+  (Some(..), values)
 } else {
-    (None, Vec::new())
+  (None, Vec::new())
 }
 ```
 
@@ -274,8 +274,8 @@ When dealing with Result::Err, sometimes is necessary to log and transform the E
 let x = Err(ParseError::InvalidContent(...));
 
 x
-    .inspect_err(|err| tracing::error!("function_name: {err}"))
-    .map_err(|err| GeneralError::from(("function_name", err)))?;
+.inspect_err(|err| tracing::error!("function_name: {err}"))
+.map_err(|err| GeneralError::from(("function_name", err)))?;
 ```
 
 ## 1.5 Iterator, `.iter` vs `for`
@@ -338,6 +338,7 @@ for value in vec.iter().enumerate()
     .filter(|(index, value)| value % index == 0) {
     // ...
 }
+    
 ```
 
 > #### ❗REMEMBER: Iterators are Lazy
@@ -351,13 +352,13 @@ for value in vec.iter().enumerate()
 * Don't chain if it makes the code unreadable.
 * Avoid needlessly collect/allocate of a collection (e.g. vector) just to throw it away later by some larger operation or by another iteration.
 * Prefer `iter` over `into_iter` unless you don't need the ownership of the collection.
-* Prefer `iter` over `into_iter` for collections that inner type implements `Copy`, e.g. `Vec<i32>`.
+* Prefer `iter` over `into_iter` for collections that inner type implements `Copy`, e.g. `Vec<T: Copy>`.
 * **Never implement (or derive) both `Copy` and `Iterator` on the same type.** Copying an iterator and advancing one copy leaves the other untouched, which silently yields wrong results -- it is a well-known footgun. The standard library hit exactly this: it is why `Range` historically could not be `Copy`, and why the new `core::range` types (stabilized in Rust 1.96) implement `IntoIterator` instead of `Iterator` so they *can* be `Copy`. If you need an iterator on a `Copy` type, implement `IntoIterator` and return a separate iterator struct.
-* For summing numbers prefer `.sum` over `.fold`. `.sum` is specialized for summing values, so the compiler knows it can make optimizations on that front, while fold has a blackbox closure that needs to be applied at every step. If you need to sum by an initial value, just added in the expression `let my_sum = [1, 2, 3].sum() + 3`.
+* For summing numbers prefer `.sum` over `.fold`. `.sum` is specialized for summing values, so the compiler knows it can make optimizations on that front, while fold has a blackbox closure that needs to be applied at every step. If you need to sum by an initial value, just add it in the expression `let my_sum = [1, 2, 3].sum() + 3`.
 
 ## 1.6 Comments: Context, not Clutter
 
-> "Context are for why, not what or how"
+> "Comments are for why, not what or how"
 
 Well-written Rust code, with expressive types and good naming, often speaks for itself. Many high-quality codebases thrive on **few or no comments**. And that's a good thing.
 
@@ -376,10 +377,10 @@ unsafe { std::ptr::copy_nonoverlapping(src, dst, len); }
 // This algorithm is a fast square root approximation
 const THREE_HALVES: f32 = 1.5;
 fn q_rsqrt(number: f32 ) -> f32 {
-    let mut i: i32 = number.to_bits() as i32;
-    i = 0x5F375A86_i32.wrapping_sub(i >> 1);
-    let y = f32::from_bits(i as u32);
-    y * (THREE_HALVES - (number * 0.5 * y * y))
+	let mut i: i32 = number.to_bits() as i32;
+i = 0x5F375A86_i32.wrapping_sub(i >> 1);
+let y = f32::from_bits(i as u32);
+y * (THREE_HALVES - (number * 0.5 * y * y))
 }
 ```
 
@@ -394,7 +395,16 @@ let subgraph_tls_root_store: RootCertStore = configuration
     .create_certificate_store()
     .transpose()?
     .unwrap_or_else(crate::services::http::HttpClientService::native_roots_store);
+let connector_tls_root_store: RootCertStore = configuration
+    .tls
+    .connector
+    .all
+    .create_certificate_store()
+    .transpose()?
+    .unwrap_or_else(crate::services::http::HttpClientService::native_roots_store);
 ```
+
+* ❗ More use cases to come in their appropriate sections.
 
 ### ❌ Bad comments
 
@@ -404,7 +414,7 @@ let subgraph_tls_root_store: RootCertStore = configuration
 // Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
 // when an unknown printer took a galley
 fn do_something_odd() {
-    …
+  …
 }
 ```
 > Prefer `/// doc` comment if it's describing the function.
@@ -412,8 +422,8 @@ fn do_something_odd() {
 * Comments that could be better represented as functions or are plain obvious
 ```rust
 fn computation() {
-    // increment i by 1
-    i += 1;
+  // increment i by 1
+  i += 1;
 }
 ```
 
@@ -482,7 +492,7 @@ There are a few gotchas when calling comments "living documentation":
 * Context changes.
 * Comments get stale.
 * Many large comments make people avoid reading them.
-* Team becomes fearful of delete irrelevant comments.
+* Team becomes fearful of deleting irrelevant comments.
 
 If you find a comment, **don't trust it blindly**. Read it in context. If it's wrong or outdated, fix or remove it. A misleading comment is worse than no comments at all. 
 

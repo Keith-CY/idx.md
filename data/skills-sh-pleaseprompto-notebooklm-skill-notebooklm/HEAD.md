@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/pleaseprompto/notebooklm-skill/notebooklm
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-28T14:44:21.112Z
+retrieved_at: 2026-09-29T13:34:27.876Z
 content_sha256: 8fcfe1aa04523483c1d1a5aa10835bc796228d2de9a66460a767bf2d6ed7432e
 ---
