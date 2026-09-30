@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/antfu/skills/antfu
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-09-29T13:34:50.369Z
-content_sha256: d5a17c833786c37013a997108a7ecd78a49264098f5f3a5733c74aa1899585ed
+retrieved_at: 2026-09-30T13:12:24.901Z
+content_sha256: 8c229378b69c0a8c24ad40573c4e4cefc7b56fb15cd5e26b7027526176d21e87
 ---

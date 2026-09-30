@@ -5,36 +5,35 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.284
+  ## 0.3.285
 
-  - Added a renamed skill's directory name to its `SlashCommand` `aliases` when
-  the name is plain and Claude Code ships no command by that name
+  - Added an optional `read.title` (the artifact's stored title) to the Artifact
+  tool's structured read result
 
-  - Added `applied.ultracodeAvailable` and `applied.ultracodeRequested` to
-  `getSettings()`: whether this session can run Ultracode, and whether it is
-  requested, independent of whether it is in effect
+  - Added `provider_not_allowed` to `startup_failure_reason` and
+  `allowedProviders` to the `Settings` type
 
-  - Fixed `forkSession()` copies reading back the wrong history when cut at a
-  progress row or fork briefing after a rewind, or when the session was
-  compacted with some messages kept
+  - Fixed sessions with `CLAUDE_CODE_FORK_SUBAGENT=1`: a subagent's own Agent
+  call now runs in the foreground, so the subagent gets the child's result
 
-  - Fixed `getSessionMessages()` leaving out messages from other agents,
-  sessions and channels that the CLI transcript shows
+  - Fixed `getSessionMessages()` leaving out a message sent while Claude was
+  working when the process stopped before the reply, or when another prompt
+  followed it with no reply in between
 
-  - Fixed `{ decision: 'block' }` returned by Elicitation and ElicitationResult
-  hook callbacks being ignored; it now declines the MCP elicitation
+  - Fixed `toggleMcpServer(name, false)` leaving the connection open for a
+  server that had not yet connected when the session started, or whose config
+  was edited after it connected
 
-  - Fixed `query()` closing stdin before a follow-up turn woken by a finished
-  background agent, which failed that turn's hooks, `canUseTool` and SDK MCP
-  calls with "Stream closed"
+  - Fixed `rewind_conversation` leaving a backgrounded MCP tool call running
+  after the message that started it was removed
 
-  - Changed the first turn to still wait up to 2s for connecting MCP servers
-  named in `allowedTools` or by an `mcp_tool` hook, even with
-  `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` set to `0`
+  - Changed Bash/PowerShell `timeout` to bound a `run_in_background` command
+  (was ignored; default 30 min, max 2 h); the `stopped` task notification for a
+  stop at that limit says why
 
-  - Changed `applyFlagSettings({ ultracode: true })` to keep the current effort
-  level instead of switching to `xhigh`; an `effortLevel` that changes the level
-  without `ultracode` turns Ultracode off
+  - Changed `getSubagentMessages()` to also return the messages a subagent read
+  while it ran, such as a message sent to it; `offset` and `limit` count these
+  rows
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +43,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-29T13:34:55.565Z
-content_sha256: b550c068cae83a58839614853b97cc5c76f016c6fb7875d0c05cd115f9b7f579
+retrieved_at: 2026-09-30T13:12:28.763Z
+content_sha256: 707a4e87ae88a78df4f74123643c82b49f3431feb862ed75160fed0fde2c4d2d
 ---

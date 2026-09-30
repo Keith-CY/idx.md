@@ -23,9 +23,10 @@ summary: >-
 
   - Download the `*.agent.md` file and add it to your repository
 
-  **MCP Server Setup:**
+  **To Activate/Use:**
 
-  - Each agent may require one or more MCP servers to function
+  - Access installed agents through the VS Code Chat interface, assign them in
+  CCA, or through Copilot CLI (coming soon)
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +36,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-co
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-09-29T13:34:11.331Z
-content_sha256: 6e8d3243a4be0516b44af8ee9e61710566617058a57d6b109c14b4c385e12c17
+retrieved_at: 2026-09-30T13:11:58.017Z
+content_sha256: d07a2da87cb896bb2177e210056576c6b1ea4bd9154c3acc200a1990c0d0b6fb
 ---

@@ -27,6 +27,6 @@ upstream_ref: https://skills.sh/apify/agent-skills/apify-actor-development
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-29T13:34:17.613Z
-content_sha256: bd02b1f94f4f2486f5a582cc0ab654f5f5fd6b595175786150146df78987266b
+retrieved_at: 2026-09-30T13:12:03.293Z
+content_sha256: d9a0719d8eafd341e23af6c4cc2e743a512ff8f458b5989d5ecf403090a5fea7
 ---
