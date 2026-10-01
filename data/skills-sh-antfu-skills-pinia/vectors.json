@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-pinia",
-  "generated_at": "2026-09-30T13:11:58.741Z",
+  "generated_at": "2026-10-01T14:02:06.258Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-pinia#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/pinia/references/core-stores.md",
-        "retrieved_at": "2026-09-30T13:11:58.741Z",
+        "retrieved_at": "2026-10-01T14:02:06.258Z",
         "content_sha256": "2a2fc59a0b1fc0d949a4c21d4b2a5eb892ea94214043ab84f0ee7c6e29369768"
       }
     }

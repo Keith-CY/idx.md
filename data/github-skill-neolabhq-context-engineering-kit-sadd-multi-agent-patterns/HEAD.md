@@ -17,6 +17,6 @@ upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/pl
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-09-30T13:12:08.651Z
+retrieved_at: 2026-10-01T14:02:24.238Z
 content_sha256: 2d223dd152ae8dfda1bda6b3e604220373d377708d93409061eb2d5739e2f19b
 ---

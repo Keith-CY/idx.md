@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-09-30T13:11:54.089Z
+retrieved_at: 2026-10-01T14:01:58.874Z
 content_sha256: 571620de72538e8b4f247a63e6db27ce5a27495d1283015ec16c1076d91811cc
 ---
