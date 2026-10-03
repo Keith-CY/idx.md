@@ -21,8 +21,9 @@ summary: >-
   search backend (Google, Bing, Brave, or their own). If you're not indexed, you
   can't be cited.
 
-  2. **Your content must be crawlable** — AI bots need access via robots.txt.
-  Block the bot, lose the citation.
+  2. **Your content must be crawlable for discovery** — Allow the relevant
+  search-discovery path through robots.txt and your WAF; model-training controls
+  are separate.
 
   3. **Your content must be extractable** — AI systems pull passages, not pages.
   Clear structure and self-contained paragraphs win.
@@ -38,6 +39,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ai-seo
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-10-02T13:22:51.386Z
-content_sha256: ca3fb8c09fec3445abe611bab2cd1b5f20751c5d51a3a5c63ecd2b85cd458ee8
+retrieved_at: 2026-10-03T12:09:08.772Z
+content_sha256: e3b06d48e3db081ee3ee12727e864b3023f4e2c5cc73bea44215cbd15e11fbfa
 ---

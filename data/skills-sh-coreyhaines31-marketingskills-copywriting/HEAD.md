@@ -25,7 +25,9 @@ summary: >-
 
   ## Headline Formulas
 
-  ### Outcome-Focused
+  These are starting points. Fill every slot with specifics, and check the
+  result against [ai-tells.md](ai-tells.md): a "without" or "Never X again"
+  headline is fine once, but don't follow it with a negation list.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +37,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-10-02T13:22:48.752Z
-content_sha256: d98818886525908bf17dd6412d0b72731b313d6eef3e1ab6b365828a3a342779
+retrieved_at: 2026-10-03T12:09:06.725Z
+content_sha256: 352122944bf9e891ceb0e003adce41591d111e9d97057700626249919dfe430d
 ---

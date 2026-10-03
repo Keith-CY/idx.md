@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.288
+
+  - Updated to parity with Claude Code v2.1.288
+
   ## 0.3.287
 
   - Added optional remote-session latency fields
@@ -28,12 +32,6 @@ summary: >-
   - Changed `tool_use_result` for a WebFetch or WebSearch call that steps aside
   for a priority "now" message to `{ detachedToolCall: true }`; the result
   follows in a later turn
-
-  - Changed `tool_use_result` for MCP tools: `structuredContent` over 1,048,576
-  JSON characters is left off and `structuredContentOmitted: true` set, except
-  for SDK-server and MCP Apps tools
-
-  - Updated to parity with Claude Code v2.1.287
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -43,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-02T13:24:00.501Z
-content_sha256: 8237245c0939b39ce9e3026c7ca145732fd53eb0e02ad294ab3528d0ee334094
+retrieved_at: 2026-10-03T12:09:58.297Z
+content_sha256: 698318de8503b9e6bd9c92d94a2330dc15f9738292198c303f3d42754e9bd56b
 ---
