@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.289
+
+  - Updated to parity with Claude Code v2.1.289
+
   ## 0.3.288
 
   - Updated to parity with Claude Code v2.1.288
@@ -25,13 +29,6 @@ summary: >-
 
   - Fixed a tool call to an in-process MCP server being left waiting after
   `toggleMcpServer()` disabled the server or `setMcpServers()` removed it
-
-  - Fixed `commands_changed` arriving before `init`, or twice, at session start:
-  the `initialize` response now includes commands registered at startup
-
-  - Changed `tool_use_result` for a WebFetch or WebSearch call that steps aside
-  for a priority "now" message to `{ detachedToolCall: true }`; the result
-  follows in a later turn
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-03T12:09:58.297Z
-content_sha256: 698318de8503b9e6bd9c92d94a2330dc15f9738292198c303f3d42754e9bd56b
+retrieved_at: 2026-10-04T12:58:23.313Z
+content_sha256: 1e0ab10adf1e80e3fbacfb1b1c0710a194719bc17ec86b5a5a79cff8c268a0d0
 ---
