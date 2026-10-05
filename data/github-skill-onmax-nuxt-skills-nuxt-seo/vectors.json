@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-skill-onmax-nuxt-skills-nuxt-seo",
-  "generated_at": "2026-10-04T12:57:49.197Z",
+  "generated_at": "2026-10-05T15:25:18.545Z",
   "records": [
     {
       "id": "skills/github-skill-onmax-nuxt-skills-nuxt-seo#head",
@@ -21,7 +21,7 @@
           "github-repo-nuxt-skills"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md",
-        "retrieved_at": "2026-10-04T12:57:49.197Z",
+        "retrieved_at": "2026-10-05T15:25:18.545Z",
         "content_sha256": "254b902fbdd467b08ff7c2556f02dec2afc99fcd47583e02d1f31f9c30e8fbb3"
       }
     }

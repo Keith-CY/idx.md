@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/antfu/skills/pinia
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-10-04T12:57:34.901Z
+retrieved_at: 2026-10-05T15:25:09.244Z
 content_sha256: 2a2fc59a0b1fc0d949a4c21d4b2a5eb892ea94214043ab84f0ee7c6e29369768
 ---

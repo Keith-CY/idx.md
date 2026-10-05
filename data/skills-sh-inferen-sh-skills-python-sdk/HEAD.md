@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/python-sdk
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-10-04T12:57:27.879Z
+retrieved_at: 2026-10-05T15:25:04.236Z
 content_sha256: da24fe3d637d13163a570db4f0a25d840b7e61076662500826a10f80b4d4db4e
 ---

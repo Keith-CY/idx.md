@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-modules
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-10-04T13:00:30.025Z
-content_sha256: 22572b0823c7d75231a6ab867e3e83bc98a3fa8758dd51645b0bede5a8d6081b
+retrieved_at: 2026-10-05T15:26:42.452Z
+content_sha256: b86b8b08b49c1c0599000c682f7cee6becc58948b872eab66f212104be1a1dab
 ---
