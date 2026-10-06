@@ -5,30 +5,34 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.289
+  ## 0.3.291
 
-  - Updated to parity with Claude Code v2.1.289
+  - Updated to parity with Claude Code v2.1.291
 
-  ## 0.3.288
+  ## 0.3.290
 
-  - Updated to parity with Claude Code v2.1.288
+  - Added an optional `offset` field to the WebFetch tool input for reading on
+  through long pages
 
-  ## 0.3.287
+  - Fixed failed Claude in Chrome tool calls dropping the result's `_meta`: when
+  the result has one, `tool_use_result` is now `{ content, _meta }`, as for
+  other MCP tools
 
-  - Added optional remote-session latency fields
-  (`first_text_post_queue_wait_ms`, `first_text_post_queued_behind`) to the
-  success result message
+  - Fixed deny and ask rules missing `toolAliases` tools when written with a
+  wildcard (`Bash*`), a match-all pattern (`Bash(**)`, also on the mapped name),
+  or an input field also in `disallowedTools`
 
-  - Fixed `includePartialMessages` streams sending a cut-short reply's
-  `message_stop` late or never, so apps could show the reply as still in
-  progress
+  - Fixed a user message sent again under the same `uuid` being replayed
+  (`--replay-user-messages`) while the first copy still waited for its turn; its
+  replay now comes when a turn takes it
 
-  - Fixed the error for a revoked claude.ai login, which now reads "Failed to
-  authenticate: OAuth token revoked" instead of a generic or "does not have
-  access" message
+  - Fixed `includePartialMessages` streams leaving a message without
+  `message_stop` when the stream was cut, interrupted or fell back to
+  non-streaming
 
-  - Fixed a tool call to an in-process MCP server being left waiting after
-  `toggleMcpServer()` disabled the server or `setMcpServers()` removed it
+  - Changed `user_message_uuid`, `user_message_uuids` and `resume_reason` to
+  also be set on a turn a restarted worker resumes from a permission answer or
+  from tool calls still in flight
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +42,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-05T15:25:41.704Z
-content_sha256: 1e0ab10adf1e80e3fbacfb1b1c0710a194719bc17ec86b5a5a79cff8c268a0d0
+retrieved_at: 2026-10-06T13:48:12.025Z
+content_sha256: 9a41b55debb72f99acb31db999b158977cc1f9765a35b0eebce0a0813abb2237
 ---

@@ -4,15 +4,15 @@ type: skills
 title: skills-sh-schpet-linear-cli-linear-cli
 summary: |-
   # auth
-  > Manage Linear authentication
+  > Log in to workspaces and manage their credentials
   ## Usage
   ```
-  Usage:   linear auth
-  Description:
-    Manage Linear authentication
-  Options:
-    -h, --help           - Show this help.
-    --workspace  <slug>  - Target workspace (uses credentials)
+  Log in to workspaces and manage their credentials
+  Usage: linear auth [OPTIONS] <COMMAND>
+  Commands:
+    login    Log in to a workspace with an API key
+    logout   Remove a workspace's credential
+    list     List the workspaces you are logged in to
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/schpet/linear-cli/linear-cli
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-05T15:27:16.998Z
-content_sha256: 5194be72489f658dcfcf566ebe6e395688f4335e076edb29451c3c81cfb65e93
+retrieved_at: 2026-10-06T13:49:53.346Z
+content_sha256: 43986212bace274de55bb3931b9564052912fec590cc744cd30886d7d13c4f67
 ---
