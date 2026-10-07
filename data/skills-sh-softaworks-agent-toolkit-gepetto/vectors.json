@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-softaworks-agent-toolkit-gepetto",
-  "generated_at": "2026-10-06T13:49:15.075Z",
+  "generated_at": "2026-10-07T14:05:46.620Z",
   "records": [
     {
       "id": "skills/skills-sh-softaworks-agent-toolkit-gepetto#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/softaworks/agent-toolkit/HEAD/skills/gepetto/references/research-protocol.md",
-        "retrieved_at": "2026-10-06T13:49:15.075Z",
+        "retrieved_at": "2026-10-07T14:05:46.620Z",
         "content_sha256": "d219729ce530953d53aeb0a0831567a577981ee79df4f713c01845ced6214163"
       }
     }

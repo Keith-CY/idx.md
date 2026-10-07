@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-ai-seo",
-  "generated_at": "2026-10-06T13:47:37.180Z",
+  "generated_at": "2026-10-07T14:04:11.848Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-ai-seo#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/ai-seo/references/platform-ranking-factors.md",
-        "retrieved_at": "2026-10-06T13:47:37.180Z",
+        "retrieved_at": "2026-10-07T14:04:11.848Z",
         "content_sha256": "e3b06d48e3db081ee3ee12727e864b3023f4e2c5cc73bea44215cbd15e11fbfa"
       }
     }

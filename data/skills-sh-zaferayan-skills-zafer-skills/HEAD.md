@@ -7,8 +7,9 @@ summary: >-
 
   name: zafer-skills
 
-  description: Expo React Native mobile app development with RevenueCat
-  payments, AdMob ads, i18n localization, onboarding flow, paywall, and
+  description: Expo React Native mobile app development with StoreKit 2
+  subscriptions (expo-iap) plus RevenueCat observer mode, AdMob ads with UMP/ATT
+  consent, PostHog analytics, i18n with RTL, onboarding flow, paywall, and
   NativeTabs navigation
 
   ---
@@ -37,6 +38,6 @@ upstream_ref: https://skills.sh/zaferayan/skills/zafer-skills
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-06T13:47:55.667Z
-content_sha256: dc010b204b24e8ba93afdaebf5e3093c377918cf7b0250afb928383e48b2ac0d
+retrieved_at: 2026-10-07T14:04:32.523Z
+content_sha256: 7e900d656445b39b03205ee6db8d4642a3cfc2a57a843ce3c45ecc4be18c4eac
 ---

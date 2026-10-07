@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "obra-dispatching-parallel-agents",
-  "generated_at": "2026-10-06T13:47:32.015Z",
+  "generated_at": "2026-10-07T14:04:07.311Z",
   "records": [
     {
       "id": "skills/obra-dispatching-parallel-agents#head",
@@ -18,7 +18,7 @@
           "source-obra-superpowers"
         ],
         "source_url": "https://raw.githubusercontent.com/obra/superpowers/main/skills/dispatching-parallel-agents/SKILL.md",
-        "retrieved_at": "2026-10-06T13:47:32.015Z",
+        "retrieved_at": "2026-10-07T14:04:07.311Z",
         "content_sha256": "1968923066f3b707eb01d1992cdf4c42284c3855f70253b9cd5000ff45fca13c"
       }
     }

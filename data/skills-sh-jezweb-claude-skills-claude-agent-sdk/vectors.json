@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-10-06T13:48:12.025Z",
+  "generated_at": "2026-10-07T14:04:50.419Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.291 - Updated to parity with Claude Code v2.1.291 ## 0.3.290 - Added an optional `offset` field to the WebFetch tool input for reading on through long pages - Fixed failed Claude in Chrome tool calls dropping the result's `_meta`: when the result has one, `tool_use_result` is now `{ content, _meta }`, as for other MCP tools - Fixed deny and ask rules missing `toolAliases` tools when written with a wildcard (`Bash*`), a match-all pattern (`Bash(**)`, also on the mapped name), or an input field also in `disallowedTools` - Fixed a user message sent again under the same `uuid` being replayed (`--replay-user-messages`) while the first copy still waited for its turn; its replay now comes when a turn takes it - Fixed `includePartialMessages` streams leaving a message without `message_stop` when the stream was cut, interrupted or fell back to non-streaming - Changed `user_message_uuid`, `user_message_uuids` and `resume_reason` to also be set on a turn a restarted worker resumes from a permission answer or from tool calls still in flight\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.292 - Added `agent_id` to the `assistant` and `user` messages a subagent produces; it equals the `task_id` on that subagent's task events and stays the same when the subagent is resumed - Added `parent_task_id` to `task_started` events and `background_tasks_changed` entries, naming the subagent task that launched a task - Added `run_id` to background task events and `origin.runId` to task notifications, so a host can tell a resumed task's runs apart - Added typed `sections` and `notes` to the `ListAgents` tool's `tool_use_result`, so hosts can list agents without parsing its text - Added `recipient_kind` to SendMessage `tool_use` inputs on assistant messages, and their top-level `approve` is now always a boolean, so hosts no longer infer them from the raw input - Added two optional fields to the `ReadNotifications` tool output: `read_at`, when the tool read the session's queued notifications, and `arrived_at` on each notification, when it reached the session - Fixed subagents with a declared auto permission mode having their tool calls decided by the auto-mode classifier instead of the canUseTool callback when auto mode is unavailable - Changed `background_tasks_changed` for a finishing background task to arrive after that task's `task_updated` and `task_notification`\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-10-06T13:48:12.025Z",
-        "content_sha256": "9a41b55debb72f99acb31db999b158977cc1f9765a35b0eebce0a0813abb2237"
+        "retrieved_at": "2026-10-07T14:04:50.419Z",
+        "content_sha256": "3be530a0692692517c8585bc9f1b6af2cb26ad932133bbc0ace410e991f86837"
       }
     }
   ]
