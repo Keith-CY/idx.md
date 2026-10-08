@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-10-07T14:04:50.419Z",
+  "generated_at": "2026-10-08T14:15:10.560Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.292 - Added `agent_id` to the `assistant` and `user` messages a subagent produces; it equals the `task_id` on that subagent's task events and stays the same when the subagent is resumed - Added `parent_task_id` to `task_started` events and `background_tasks_changed` entries, naming the subagent task that launched a task - Added `run_id` to background task events and `origin.runId` to task notifications, so a host can tell a resumed task's runs apart - Added typed `sections` and `notes` to the `ListAgents` tool's `tool_use_result`, so hosts can list agents without parsing its text - Added `recipient_kind` to SendMessage `tool_use` inputs on assistant messages, and their top-level `approve` is now always a boolean, so hosts no longer infer them from the raw input - Added two optional fields to the `ReadNotifications` tool output: `read_at`, when the tool read the session's queued notifications, and `arrived_at` on each notification, when it reached the session - Fixed subagents with a declared auto permission mode having their tool calls decided by the auto-mode classifier instead of the canUseTool callback when auto mode is unavailable - Changed `background_tasks_changed` for a finishing background task to arrive after that task's `task_updated` and `task_notification`\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.294 - Updated to parity with Claude Code v2.1.294 ## 0.3.293 - Added an optional `subagent_type` to `background_tasks_changed` task entries, so hosts can name each subagent's type without pairing with `task_started` - Updated to parity with Claude Code v2.1.293 ## 0.3.292 - Added `agent_id` to the `assistant` and `user` messages a subagent produces; it equals the `task_id` on that subagent's task events and stays the same when the subagent is resumed - Added `parent_task_id` to `task_started` events and `background_tasks_changed` entries, naming the subagent task that launched a task - Added `run_id` to background task events and `origin.runId` to task notifications, so a host can tell a resumed task's runs apart\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-10-07T14:04:50.419Z",
-        "content_sha256": "3be530a0692692517c8585bc9f1b6af2cb26ad932133bbc0ace410e991f86837"
+        "retrieved_at": "2026-10-08T14:15:10.560Z",
+        "content_sha256": "adfe6e18149c66093a1a432c9b58a1efc817c788306c4feaa8aaf51310b064a5"
       }
     }
   ]

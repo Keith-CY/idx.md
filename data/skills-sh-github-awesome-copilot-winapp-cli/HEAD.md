@@ -13,18 +13,18 @@ summary: >-
 
   # CLI Documentation and Usage
 
-  ## Shell Completion
+  ## Version
 
-  Enable tab completion for commands, options, and values. See the [Shell
-  Completion guide](guides/shell-completion.md) for setup instructions.
+  Print the installed winapp version with `--version` or its short form `-V`:
 
   ```powershell
 
-  # Quick setup for PowerShell (permanent — add to profile)
+  winapp -V
 
-  winapp complete --setup powershell >> $PROFILE
+  ```
 
-  # Or try it in the current session only
+  Lowercase `-v` is the short form of `--verbose` on commands (for example,
+  `winapp restore -v`).
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
 github_stars: 932
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-10-07T14:04:17.577Z
-content_sha256: 9f2916c03343eb43bea88ae3c4d76ec659a8fa6c2bae044a18d588e7b9699658
+retrieved_at: 2026-10-08T14:14:06.691Z
+content_sha256: 4e47b9bcb088b7a12282d92e9881439e37671e3adbbd5b130d31d41858f5e6d8
 ---
