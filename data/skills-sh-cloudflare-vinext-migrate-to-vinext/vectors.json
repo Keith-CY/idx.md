@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-cloudflare-vinext-migrate-to-vinext",
-  "generated_at": "2026-10-08T14:15:29.591Z",
+  "generated_at": "2026-10-09T14:01:41.387Z",
   "records": [
     {
       "id": "skills/skills-sh-cloudflare-vinext-migrate-to-vinext#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/cloudflare/vinext/HEAD/.agents/skills/migrate-to-vinext/references/compatibility.md",
-        "retrieved_at": "2026-10-08T14:15:29.591Z",
+        "retrieved_at": "2026-10-09T14:01:41.387Z",
         "content_sha256": "56e07811a174a66eeb9648538a2ccbaa89947d87a4ebea60101735c748c3128e"
       }
     }

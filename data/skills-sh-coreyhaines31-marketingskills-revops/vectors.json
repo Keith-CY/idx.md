@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-revops",
-  "generated_at": "2026-10-08T14:14:02.048Z",
+  "generated_at": "2026-10-09T14:00:23.548Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-revops#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/revops/references/lifecycle-definitions.md",
-        "retrieved_at": "2026-10-08T14:14:02.048Z",
+        "retrieved_at": "2026-10-09T14:00:23.548Z",
         "content_sha256": "89b5c51f0296977df1fccea20dc96e98e539cc1f2786b796fdb43e2a3d5b8219"
       }
     }

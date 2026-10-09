@@ -5,30 +5,32 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.294
+  ## 0.3.295
 
-  - Updated to parity with Claude Code v2.1.294
+  - Added `overageEnabled` to `SDKRateLimitInfo`: on usage-limit warnings,
+  whether the account has extra usage turned on
 
-  ## 0.3.293
+  - Fixed an MCP server added with `mcp_set_servers` sometimes keeping an
+  outdated tool list when another server in the same request connected later
 
-  - Added an optional `subagent_type` to `background_tasks_changed` task
-  entries, so hosts can name each subagent's type without pairing with
-  `task_started`
+  - Fixed assistant text blocks losing their `citations` in streamed responses
 
-  - Updated to parity with Claude Code v2.1.293
+  - Fixed Claude being told "disabled by the user" about an in-process MCP
+  server that was switched off with `toggleMcpServer()`
 
-  ## 0.3.292
+  - Fixed `rate_limit_event` with status `allowed_warning` omitting
+  `overageStatus`, `overageResetsAt` and `overageDisabledReason`, which
+  `allowed` and `rejected` events already carry
 
-  - Added `agent_id` to the `assistant` and `user` messages a subagent produces;
-  it equals the `task_id` on that subagent's task events and stays the same when
-  the subagent is resumed
+  - Changed MCP tool descriptions the model loads through tool search, including
+  those from in-process SDK servers, to be cut at 16,384 characters instead of
+  2,048
 
-  - Added `parent_task_id` to `task_started` events and
-  `background_tasks_changed` entries, naming the subagent task that launched a
-  task
+  - Changed a permission answer whose `updatedPermissions` holds over 4,096
+  updates, rules and directories to count as a denial
 
-  - Added `run_id` to background task events and `origin.runId` to task
-  notifications, so a host can tell a resumed task's runs apart
+  - Changed `tool_result_meta[].non_execution_kind` to be absent when a mod
+  withheld the result of a tool that ran without error; it was `permission-rule`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +40,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-08T14:15:10.560Z
-content_sha256: adfe6e18149c66093a1a432c9b58a1efc817c788306c4feaa8aaf51310b064a5
+retrieved_at: 2026-10-09T14:01:27.636Z
+content_sha256: d3a320623963961c2fbbdb6565b12f066ea409d9c37d6a88ac7781c91f323582
 ---

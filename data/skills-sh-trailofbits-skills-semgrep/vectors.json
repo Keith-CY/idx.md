@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-trailofbits-skills-semgrep",
-  "generated_at": "2026-10-08T14:17:52.339Z",
+  "generated_at": "2026-10-09T14:03:57.895Z",
   "records": [
     {
       "id": "skills/skills-sh-trailofbits-skills-semgrep#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/trailofbits/skills/HEAD/plugins/static-analysis/skills/semgrep/references/scan-modes.md",
-        "retrieved_at": "2026-10-08T14:17:52.339Z",
+        "retrieved_at": "2026-10-09T14:03:57.895Z",
         "content_sha256": "99ed0ffb9e9ee68bcb175da469f1310f28f96e356c69c65918a0afc430027d3d"
       }
     }
