@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/write-coding-standards-fr
 github_stars: 487
 github_forks: 128
 github_is_organization: true
-retrieved_at: 2026-10-09T14:00:26.761Z
+retrieved_at: 2026-10-10T13:09:42.561Z
 content_sha256: f16c75f95ddca539c179057f9e6ea732574478d7000d8ddcf7787ecec1c79833
 ---

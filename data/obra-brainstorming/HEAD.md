@@ -8,23 +8,22 @@ summary: >-
   name: brainstorming
 
   description: "You MUST use this before any creative work - creating features,
-  building components, adding functionality, or modifying behavior. Explores
-  user intent, requirements and design before implementation."
+  building components, adding functionality, modifying behavior, or planning
+  anything new, in software or out of it (a talk, a business, a renovation)."
 
   ---
 
-  # Brainstorming Ideas Into Designs
+  # Brainstorming
 
-  Help turn ideas into fully formed designs and specs through natural
-  collaborative dialogue.
+  You are very good at building. You build what you believe your human
 
-  Start by classifying how much process the request needs, then work
+  partner wants, and that belief is usually thinner than it feels. This
 
-  through your path: understand the context, refine the idea, present a
+  skill is for finding out what they actually want, and why, before
 
-  design, and get your human partner's approval.
+  anything gets built.
 
-  ## Establish Shared Understanding
+  People often haven't finished working out what they want. Good questions
 tags:
   - obra
   - source-obra-superpowers
@@ -34,6 +33,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/brainstorming
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-10-09T14:00:08.682Z
-content_sha256: a32d2255354775aa124855aa7100cf276bea096fff4ebb3a0edf57be216e6c72
+retrieved_at: 2026-10-10T13:09:35.362Z
+content_sha256: 6ee10d1481b8a2580d5336ff66c5c08acc9d4b251b13bbc3bfd31be99c261d43
 ---

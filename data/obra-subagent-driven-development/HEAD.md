@@ -39,6 +39,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/subagent-driv
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-10-09T14:00:09.181Z
+retrieved_at: 2026-10-10T13:09:35.430Z
 content_sha256: 8dde5589ee083fb4999106d116f01c8fdaf3116a8a9813fdedeb80329de49046
 ---

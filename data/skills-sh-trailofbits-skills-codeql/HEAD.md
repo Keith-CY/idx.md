@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/codeql
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-09T14:01:40.522Z
+retrieved_at: 2026-10-10T13:10:20.573Z
 content_sha256: 06794bb67182303b0c81d30b3772531537d9f986b7b2cbe2a9ffa4b4f3e230ba
 ---

@@ -31,6 +31,6 @@ upstream_ref: https://skills.sh/letz-ai/letzai-skill/letzai-api
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-09T14:01:27.793Z
+retrieved_at: 2026-10-10T13:10:14.005Z
 content_sha256: 17bc9bdc78a01195a9df5258ed96f2ea00ad162372fc8f9321df1a6e824698ce
 ---
