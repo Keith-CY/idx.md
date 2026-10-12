@@ -27,8 +27,10 @@ Shows your user info if authenticated.
 For CI/CD or scripts, set your API key:
 
 ```bash
-export INFSH_API_KEY=your-api-key
+export INFERENCE_API_KEY=your-api-key
 ```
+
+This is the same variable the SDKs and curl examples read. `INFSH_API_KEY` still works but is deprecated; older belt versions read only `INFSH_API_KEY`.
 
 The environment variable overrides the config file.
 
@@ -50,7 +52,7 @@ curl -fsSL https://cli.inference.sh | sh
 |-------|----------|
 | "not authenticated" | Run `belt login` |
 | "command not found" | Reinstall CLI or add to PATH |
-| "API key invalid" | Check `INFSH_API_KEY` or re-login |
+| "API key invalid" | Check `INFERENCE_API_KEY` or re-login |
 
 ## Documentation
 
