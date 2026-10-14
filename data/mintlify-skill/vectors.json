@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "mintlify-skill",
-  "generated_at": "2026-10-13T14:42:26.972Z",
+  "generated_at": "2026-10-14T12:34:28.373Z",
   "records": [
     {
       "id": "skills/mintlify-skill#head",
       "kind": "head",
       "path": "/data/mintlify-skill/HEAD.md",
-      "text": "title: mintlify-skill\nsummary: {\"skills\":[{\"name\":\"mintlify\",\"description\":\"Build and maintain documentation sites with Mintlify. Use when creating docs pages, configuring navigation, adding components, or setting up API references.\",\"files\":[\"SKILL.md\"]},{\"name\":\"mintlify-api\",\"description\":\"Interact with the Mintlify REST API to manage deployments, trigger builds, and query documentation site metadata programmatically.\",\"files\":[\"SKILL.md\"]},{\"name\":\"mintlify-docs\",\"description\":\"Build and maintain documentation sites with Mintlify. Use when creating docs pages, configuring navigation, adding components, or setting up API references.\",\"files\":[\"SKILL.md\"]}]}\ntype: skills\ntags: (none)\nsource_url: https://www.mintlify.com/docs/skill.md",
+      "text": "title: mintlify-skill\nsummary: {\"skills\":[{\"name\":\"mintlify\",\"description\":\"Set up, write, and publish documentation sites with Mintlify. Use when the user wants to create a docs site for a repo or product, publish docs to a shareable URL, migrate docs from another platform, create docs pages, configure navigation, add components, or set up API references.\",\"files\":[\"SKILL.md\"]},{\"name\":\"mintlify-api\",\"description\":\"Interact with the Mintlify REST API to manage deployments, trigger builds, and query documentation site metadata programmatically.\",\"files\":[\"SKILL.md\"]}]}\ntype: skills\ntags: (none)\nsource_url: https://www.mintlify.com/docs/skill.md",
       "metadata": {
         "stable_id": "skills/mintlify-skill",
         "topic": "mintlify-skill",
@@ -15,8 +15,8 @@
         "title": "mintlify-skill",
         "tags": [],
         "source_url": "https://www.mintlify.com/docs/skill.md",
-        "retrieved_at": "2026-10-13T14:42:26.972Z",
-        "content_sha256": "7a5d280114468972047bcd313c4fd4c021c5df20aaa0ab57f44c355740dd65af"
+        "retrieved_at": "2026-10-14T12:34:28.373Z",
+        "content_sha256": "767edfc8e6834e400ac8fedfb198b6c36ee5d99c7297c8a471e31ae903feabe3"
       }
     }
   ]

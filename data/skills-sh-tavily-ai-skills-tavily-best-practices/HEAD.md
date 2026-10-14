@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/tavily-ai/skills/tavily-best-practices
 github_stars: 118
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-10-13T14:42:04.464Z
+retrieved_at: 2026-10-14T12:34:07.216Z
 content_sha256: b0c745315f2ca16647a2c298644dc9918ea31bf732921b02841e26814da2087a
 ---

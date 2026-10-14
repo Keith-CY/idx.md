@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/antfu/skills/vite
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-10-13T14:41:53.830Z
+retrieved_at: 2026-10-14T12:33:56.955Z
 content_sha256: 818fbba3a9842052bf8ee06213bd74fded5330e5af8b72bf7457cf22666efe87
 ---
