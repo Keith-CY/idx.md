@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-github-awesome-copilot-winapp-cli",
-  "generated_at": "2026-10-14T12:34:02.097Z",
+  "generated_at": "2026-10-15T12:18:59.506Z",
   "records": [
     {
       "id": "skills/skills-sh-github-awesome-copilot-winapp-cli#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/WinAppCli/main/docs/usage.md",
-        "retrieved_at": "2026-10-14T12:34:02.097Z",
+        "retrieved_at": "2026-10-15T12:18:59.506Z",
         "content_sha256": "12438dfb1c3f78721452efcad9d2a2a05df41250af7b5817d308ba6213206b5b"
       }
     }

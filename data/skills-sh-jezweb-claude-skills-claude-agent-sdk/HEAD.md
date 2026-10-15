@@ -5,35 +5,33 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.299
+  ## 0.3.300
 
-  - Added an optional `nextFireAt` (epoch ms of the next run) to the CronCreate
-  and CronList tool outputs
+  - Fixed `importSessionToStore` skipping transcript rows that contain a Unicode
+  line or paragraph separator (U+2028, U+2029) on Node 24 and Bun
 
-  - Added `property_order` to the `elicitation` control request: a form's field
-  names in the order the MCP server listed them, for hosts whose transport keeps
-  no JSON object key order
+  - Fixed a background subagent's final report in auto mode being joined into
+  one turn with another message from the same subagent; the report now always
+  runs as its own turn
 
-  - Fixed `rewind_conversation` answering "target not found" for a message
-  stopped during its prompt hooks or plugins: until a reply or input follows, it
-  answers `rewound: true` with a null `prefillText`
+  - Fixed `rewind_conversation` with `interrupt_if_running` stopping the running
+  turn before refusing with "unseen later turn"
 
-  - Fixed in-process SDK MCP servers named `constructor` or `toString` being
-  silently dropped when a `prewarm()` process is claimed with
-  `SpareProcess.claim()`
+  - Reverted `canUseTool` options carrying `suppressAlwaysAllowRule: true` for
+  connector tools that an organization set to require approval (added in
+  0.3.292)
 
-  - Fixed queued user messages with content-block arrays running together
-  without a line break when merged into one turn
+  - Improved the browser SDK bundle (`@anthropic-ai/claude-agent-sdk/browser`):
+  40% smaller to download, by no longer bundling a Node `crypto` polyfill
 
-  - Fixed `origin.body` on a user message that merges several queued peer
-  messages (from other sessions or agents) carrying only the first message's
-  text; it is now omitted
+  - Changed `thinking: { type: 'disabled' }` and `maxThinkingTokens: 0` to run
+  as adaptive thinking on models that can't turn thinking off
 
-  - Changed `initialize`, `mcp_set_servers` and `claim_session` to refuse the
-  reserved MCP server names `__proto__`, `__defineGetter__`, `__defineSetter__`,
-  `__lookupGetter__`, `__lookupSetter__`
+  - Changed `updatedInput` from PreToolUse and PermissionRequest hook callbacks:
+  it is now validated like Claude's own input and unknown keys are dropped;
+  `canUseTool` is unchanged
 
-  - Updated to parity with Claude Code v2.1.299
+  - Updated to parity with Claude Code v2.1.300
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -43,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-14T12:35:00.119Z
-content_sha256: a953ff195866abe1d9a0e419e9c6a7a9c94090f1e2798db6d1010356845d74de
+retrieved_at: 2026-10-15T12:20:03.009Z
+content_sha256: 681f5f3a583c9c2c03b06ec9a9255a39dd48587c6d8d78d517859807efdd6bd3
 ---
