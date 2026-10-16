@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/seo-geo
 github_stars: 606
 github_forks: 62
 github_is_organization: true
-retrieved_at: 2026-10-15T12:18:47.456Z
+retrieved_at: 2026-10-16T12:00:54.192Z
 content_sha256: 76f781cd26f929b87d943775db223523a444ef4c66e8ee143c4d9ccdb8850457
 ---

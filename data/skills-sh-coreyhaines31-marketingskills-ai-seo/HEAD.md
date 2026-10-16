@@ -8,8 +8,17 @@ summary: >-
   Each AI search platform has its own search index, ranking logic, and content
   preferences. This guide covers what matters for getting cited on each one.
 
-  Sources cited throughout: Princeton GEO study (KDD 2024), SE Ranking domain
-  authority study, ZipTie content-answer fit analysis.
+  Sources cited throughout: Princeton GEO study (KDD 2024), SE Ranking's domain
+  study (Nov 2025), Sellm.io's ranking-factor model, and Profound's citation
+  data (2025). Most are vendor research with correlational methods.
+
+  **Evidence order.** Weigh claims in this order: (1) official engine
+  documentation and webmaster guidance, (2) controlled experiments and primary
+  research, (3) large observational datasets, (4) practitioner case studies and
+  commentary. When official guidance and observational data conflict, follow the
+  documentation for eligibility and crawler controls and test the observation.
+  Every number below is a dated snapshot of a moving system; re-check it before
+  quoting it to a client.
 
   ---
 
@@ -27,9 +36,6 @@ summary: >-
 
   3. **Your content must be extractable** — AI systems pull passages, not pages.
   Clear structure and self-contained paragraphs win.
-
-  Beyond these basics, each platform weights different signals. Here's what
-  matters and where.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +45,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/ai-seo
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-10-15T12:18:47.575Z
-content_sha256: e3b06d48e3db081ee3ee12727e864b3023f4e2c5cc73bea44215cbd15e11fbfa
+retrieved_at: 2026-10-16T12:00:54.306Z
+content_sha256: c6226b715875e4e7683c021b6aea437e4e92788b469b5aaf76097b2c9eaaa531
 ---

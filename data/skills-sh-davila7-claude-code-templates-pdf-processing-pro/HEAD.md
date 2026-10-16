@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/davila7/claude-code-templates/pdf-processing-pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:32.460Z
+retrieved_at: 2026-10-16T12:01:37.583Z
 content_sha256: ea43f2930d53347e0cf19a205bf94315737cbb034153181ebdff6d037bac8d24
 ---

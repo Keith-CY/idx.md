@@ -3,7 +3,7 @@
 | Category | Productivity Tasks |
 | --- | --- |
 | Slug | productivity-tasks |
-| Count | 19 |
+| Count | 18 |
 
 ---
 stable_id: skills/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa
@@ -23,7 +23,7 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:11.832Z
+retrieved_at: 2026-10-16T12:01:17.068Z
 content_sha256: 2df436e1a15073c3a2dba36d4b2caa85dffb362413ee35fa0cb61fe561258849
 ---
 |/data/github-skill-composiohq-awesome-claude-skills-forcemanager-automation-185f86fa|
@@ -46,7 +46,7 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:12.084Z
+retrieved_at: 2026-10-16T12:01:17.330Z
 content_sha256: 9d97fd2f3e0b46186b51284313f1c7123df6ec79c1d45c9d57c6eb323ba81122
 ---
 |/data/github-skill-composiohq-awesome-claude-skills-ip2location-io-automation-e171a20b|
@@ -69,7 +69,7 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:12.331Z
+retrieved_at: 2026-10-16T12:01:17.594Z
 content_sha256: af9fe0d1f5271243ae5584a05649b47db516845e350fa6609ea7289a012f76da
 ---
 |/data/github-skill-composiohq-awesome-claude-skills-kickbox-automation-3347ff5a|
@@ -95,7 +95,7 @@ upstream_ref: https://github.com/coreyhaines31/marketingskills/blob/main/skills/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:12.555Z
+retrieved_at: 2026-10-16T12:01:17.812Z
 content_sha256: b31208c88e2b018214f61f514bce9bbc7724ceef794c0bcf6a9f762cb91cf254
 ---
 |/data/github-skill-coreyhaines31-marketingskills-programmatic-seo|
@@ -119,7 +119,7 @@ upstream_ref: https://github.com/darrenhinde/OpenAgentsControl/blob/main/plugins
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:13.347Z
+retrieved_at: 2026-10-16T12:01:18.620Z
 content_sha256: 1787142d7a588474118d5fde5927779cd56d0da476acc0454fccc9af4671a39b
 ---
 |/data/github-skill-darrenhinde-openagentscontrol-task-breakdown|
@@ -143,7 +143,7 @@ upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/pl
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:17.939Z
+retrieved_at: 2026-10-16T12:01:23.863Z
 content_sha256: 2d223dd152ae8dfda1bda6b3e604220373d377708d93409061eb2d5739e2f19b
 ---
 |/data/github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns|
@@ -166,7 +166,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:24:02.328Z
+retrieved_at: 2026-10-16T12:09:20.724Z
 content_sha256: fb0ce47a71ac9b7d952cfaafaf40ad361b53d5e9627e93f409bd1ccc80cc0522
 ---
 |/data/knowledge-work-plugins-product-management-commands-brainstorm|
@@ -191,7 +191,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:22.114Z
+retrieved_at: 2026-10-16T12:05:38.651Z
 content_sha256: 720916695f99a70e723be02d0123908c9c968ce56e1ffdeeb423014587017cd2
 ---
 |/data/knowledge-work-plugins-product-management-skills-competitive-brief-skill|
@@ -216,7 +216,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:20.753Z
+retrieved_at: 2026-10-16T12:05:37.169Z
 content_sha256: e92f364b668074c72b36fd0f69a6adef2ead66640b2c17dc824c043fb613d278
 ---
 |/data/knowledge-work-plugins-product-management-skills-metrics-review-skill|
@@ -242,7 +242,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:24:02.138Z
+retrieved_at: 2026-10-16T12:09:20.381Z
 content_sha256: 53ee71b6863b277aba87002d8a5bb58bd2a4172d7cfeb2e282a0161958edc8e7
 ---
 |/data/knowledge-work-plugins-product-management-skills-product-brainstorming-skill|
@@ -267,7 +267,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:21.055Z
+retrieved_at: 2026-10-16T12:05:37.466Z
 content_sha256: bdb121e290b590d60b94bca84d1700a8803c78db9f68f2a28fd04ccfe8aceb9e
 ---
 |/data/knowledge-work-plugins-product-management-skills-roadmap-update-skill|
@@ -292,7 +292,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:22.278Z
+retrieved_at: 2026-10-16T12:05:38.932Z
 content_sha256: c078d3f838c783e9ab53ca1a4b4c04dcd7930a55a995731b8c020cd656cb1edd
 ---
 |/data/knowledge-work-plugins-product-management-skills-sprint-planning-skill|
@@ -317,7 +317,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:21.738Z
+retrieved_at: 2026-10-16T12:05:38.366Z
 content_sha256: bcdb8ee95dc34d025dcc3d98e7435c4dca45930581b3b7a8707f8770dd364e79
 ---
 |/data/knowledge-work-plugins-product-management-skills-stakeholder-update-skill|
@@ -343,7 +343,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:21.230Z
+retrieved_at: 2026-10-16T12:05:37.761Z
 content_sha256: ae98c11102545c911a1ea5d8527be0e08a3db8e53327f2865f0db19bbb2d7e9c
 ---
 |/data/knowledge-work-plugins-product-management-skills-synthesize-research-skill|
@@ -368,7 +368,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:21.558Z
+retrieved_at: 2026-10-16T12:05:38.051Z
 content_sha256: ca6670913878b4ac4582727562bfced5271492a5a800d934f68c9e7bc1cd4dcc
 ---
 |/data/knowledge-work-plugins-product-management-skills-write-spec-skill|
@@ -393,7 +393,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:34.101Z
+retrieved_at: 2026-10-16T12:01:39.308Z
 content_sha256: ad42fd09cbab585b8ae8fcce54e711d37105d5d5b7d9ceaf9b29bf6441f7a88d
 ---
 |/data/knowledge-work-plugins-productivity-skills-memory-management-skill|
@@ -418,7 +418,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:22:30.126Z
+retrieved_at: 2026-10-16T12:05:53.754Z
 content_sha256: def467be29ec60f1567c9fa92dc4b1ca9a6d3ed85f964f338a02502a44779208
 ---
 |/data/knowledge-work-plugins-productivity-skills-start-skill|
@@ -442,32 +442,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/pro
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-15T12:19:34.213Z
+retrieved_at: 2026-10-16T12:01:39.431Z
 content_sha256: db1320873d68caab09cdbc1788e78d81e3b9b7cc6b499e2c4b975f25e873049f
 ---
 |/data/knowledge-work-plugins-productivity-skills-task-management-skill|
-
----
-stable_id: skills/knowledge-work-plugins-productivity-skills-update-skill
-type: skills
-title: update
-summary: Sync tasks and refresh memory from your current activity. Use when
-  pulling new assignments from your project tracker into TASKS.md, triaging
-  stale or overdue tasks, filling memory gaps for unknown people or projects, or
-  running a comprehensive scan to catch todos buried in chat and email.
-tags:
-  - source-knowledge-work-plugins
-  - plugin-productivity
-  - plugin-component-skills
-  - plugin-skill
-  - category-productivity-tasks
-source_url: https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/productivity/skills/update/SKILL.md
-license: ""
-upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/productivity/skills/update/SKILL.md
-github_stars: null
-github_forks: null
-github_is_organization: null
-retrieved_at: 2026-10-15T12:22:29.800Z
-content_sha256: 27dbb2c732a9140ea3f01da6cdf7e533df5e75e9614c80e7e356c8f39c959799
----
-|/data/knowledge-work-plugins-productivity-skills-update-skill|
