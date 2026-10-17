@@ -34,6 +34,6 @@ upstream_ref: https://github.com/openai/skills/blob/main/skills/.curated/netlify
 github_stars: 14772
 github_forks: 861
 github_is_organization: true
-retrieved_at: 2026-10-16T12:00:38.935Z
+retrieved_at: 2026-10-17T11:16:22.168Z
 content_sha256: bb2c29bf599a043cade932f60cc64f632ca100e8767ccdfa2ba1a42c8d43958f
 ---

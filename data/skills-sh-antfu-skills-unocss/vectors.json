@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-antfu-skills-unocss",
-  "generated_at": "2026-10-16T12:02:34.839Z",
+  "generated_at": "2026-10-17T11:17:39.252Z",
   "records": [
     {
       "id": "skills/skills-sh-antfu-skills-unocss#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/antfu/skills/HEAD/skills/unocss/references/core-config.md",
-        "retrieved_at": "2026-10-16T12:02:34.839Z",
+        "retrieved_at": "2026-10-17T11:17:39.252Z",
         "content_sha256": "3e8f96fafb6f1e64a6c81044d1bdc2f1ef70804baa6387ddfdc18352c6b92a25"
       }
     }

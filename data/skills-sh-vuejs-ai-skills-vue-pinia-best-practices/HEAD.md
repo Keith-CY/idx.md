@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-pinia-best-practices
 github_stars: 1988
 github_forks: 104
 github_is_organization: true
-retrieved_at: 2026-10-16T12:01:09.283Z
+retrieved_at: 2026-10-17T11:16:41.867Z
 content_sha256: fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf
 ---

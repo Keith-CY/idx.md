@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "github-markup-readme",
-  "generated_at": "2026-10-16T12:01:30.230Z",
+  "generated_at": "2026-10-17T11:16:58.725Z",
   "records": [
     {
       "id": "example/github-markup-readme#head",
@@ -15,7 +15,7 @@
         "title": "github-markup-readme",
         "tags": [],
         "source_url": "https://raw.githubusercontent.com/github/markup/master/README.md",
-        "retrieved_at": "2026-10-16T12:01:30.230Z",
+        "retrieved_at": "2026-10-17T11:16:58.725Z",
         "content_sha256": "1e35ac420a53932e0b8824953bfc10e63f4ab2be7335349b87d487886a9b6628"
       }
     }

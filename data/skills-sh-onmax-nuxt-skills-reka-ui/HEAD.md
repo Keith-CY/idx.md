@@ -10,26 +10,26 @@ summary: >-
 
   ## Form
 
-  | Component       | Description                                 |
+  | Component       | Description                                       |
   File                         |
 
-  | --------------- | ------------------------------------------- |
+  | --------------- | ------------------------------------------------- |
   ---------------------------- |
 
-  | **checkbox**    | Selection control with indeterminate state  |
+  | **checkbox**    | Selection control with indeterminate state        |
   `components/checkbox.md`     |
 
-  | **combobox**    | Searchable dropdown with filtering          |
+  | **combobox**    | Searchable dropdown with filtering                |
   `components/combobox.md`     |
 
-  | **editable**    | Inline text editing with preview/edit modes |
+  | **field**       | Field with label, control, and validation (v2.11) |
+  `components/field.md`        |
+
+  | **editable**    | Inline text editing with preview/edit modes       |
   `components/editable.md`     |
 
-  | **label**       | Accessible form label                       |
+  | **label**       | Accessible form label                             |
   `components/label.md`        |
-
-  | **listbox**     | Accessible list selection                   |
-  `components/listbox.md`      |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/reka-ui
 github_stars: 599
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-10-16T12:01:10.377Z
-content_sha256: 48e417f86ac1fc35c038d9cf6b377a5461a09032a285883cf125f4aa33180f9c
+retrieved_at: 2026-10-17T11:16:42.684Z
+content_sha256: 7b0435bbccf9fdd272bb424eeb522128ddc32bcf62b24e9e8d869bd4481933e2
 ---

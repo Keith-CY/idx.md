@@ -46,7 +46,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-16T12:09:20.728Z
+retrieved_at: 2026-10-17T11:21:01.932Z
 content_sha256: d71ccd45f40f23342c317548510b1eb8bbc39f4ed6d1a889b141aa8b5a036349
 ---
 |/data/playbook-scenario-content-marketing|

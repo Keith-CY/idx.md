@@ -35,6 +35,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/atheris
 github_stars: 1588
 github_forks: 119
 github_is_organization: true
-retrieved_at: 2026-10-16T12:02:39.310Z
+retrieved_at: 2026-10-17T11:17:42.985Z
 content_sha256: a0e6d407dee1c72505af1c5349a58c29b71dfa3c092f55ecc3b6108278b1b58b
 ---

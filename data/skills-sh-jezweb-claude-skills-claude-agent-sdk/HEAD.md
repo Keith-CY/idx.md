@@ -5,6 +5,22 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.302
+
+  - Fixed structured output results delivering a response's output as
+  `structured_output` when the API refused that response; the result is now an
+  error with no payload
+
+  - Changed an omitted `permissionMode` to start in `default` mode on
+  third-party providers, with telemetry off or on a fresh install; pass
+  `permissionMode: 'auto'` to keep auto mode
+
+  - Changed fork subagents (`subagent_type: "fork"`) to be on by default in SDK
+  sessions, as in the terminal; `run_in_background` is still offered, and
+  `CLAUDE_CODE_FORK_SUBAGENT=0` turns them off
+
+  - Updated to parity with Claude Code v2.1.302
+
   ## 0.3.301
 
   - Added per-tool permission policies to sdk-type MCP server configs: `tools`
@@ -17,21 +33,6 @@ summary: >-
 
   - Added `addPlugins` to `Query.reloadPlugins()` so a host can load more plugin
   folders into a running session
-
-  - Fixed `setModel()` with a model ID failing while the account is at its
-  five-hour or weekly usage limit; the model now applies and the next message
-  reports the limit
-
-  - Changed the error when a full disk keeps the login from being refreshed:
-  `error` is now `invalid_request`, not `authentication_failed`, and
-  `api_error_status` is `null`, not 401
-
-  - Changed `mcpServerStatus()` to still report a tool's `_meta.ui.visibility`
-  when the rest of its `_meta.ui` fails validation
-
-  - Updated to parity with Claude Code v2.1.301
-
-  ## 0.3.300
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +42,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-16T12:02:23.568Z
-content_sha256: 5fbbcb5cd0dd8e5a78c33c8116dca59f08d4b577ff2bed4778709d47de1387fa
+retrieved_at: 2026-10-17T11:17:29.810Z
+content_sha256: e68d3b16af6cbb6b7301151d604841fc50350ee454aee5ad9de6bd86f84bb65e
 ---
