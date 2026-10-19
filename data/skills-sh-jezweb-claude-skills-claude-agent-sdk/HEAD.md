@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.303
+
+  - Updated to parity with Claude Code v2.1.303
+
   ## 0.3.302
 
   - Fixed structured output results delivering a response's output as
@@ -26,13 +30,6 @@ summary: >-
   - Added per-tool permission policies to sdk-type MCP server configs: `tools`
   entries with `permission_policy` `always_ask` or `always_deny`, applied on
   `initialize` and `setMcpServers()`
-
-  - Added `BUILTIN_TOOL_NAMES` and `LEGACY_TOOL_NAME_ALIASES` exports: the
-  public built-in tool names and their earlier names, for checking permission
-  rules and tool settings
-
-  - Added `addPlugins` to `Query.reloadPlugins()` so a host can load more plugin
-  folders into a running session
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -42,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-18T11:53:46.606Z
-content_sha256: e68d3b16af6cbb6b7301151d604841fc50350ee454aee5ad9de6bd86f84bb65e
+retrieved_at: 2026-10-19T14:11:41.386Z
+content_sha256: 70dd0e26e9d9cdcfd1566a0fb756118a2ababc5595944a219e56e80cf6a3abef
 ---

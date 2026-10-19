@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-inferen-sh-skills-agent-tools",
-  "generated_at": "2026-10-18T11:52:51.437Z",
+  "generated_at": "2026-10-19T14:10:53.891Z",
   "records": [
     {
       "id": "skills/skills-sh-inferen-sh-skills-agent-tools#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/inferen-sh/skills/HEAD/tools/agent-tools/references/authentication.md",
-        "retrieved_at": "2026-10-18T11:52:51.437Z",
+        "retrieved_at": "2026-10-19T14:10:53.891Z",
         "content_sha256": "f248db5edc3fe7472cac696c9aad53baca0e3b18d595abf5912b40a55052bdda"
       }
     }

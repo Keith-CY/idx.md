@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/speech-to-text
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-18T11:53:45.253Z
-content_sha256: 95ced4021a8cca97249d584baabbb427c94d43c3e7364815cf15e263f54d8c2a
+retrieved_at: 2026-10-19T14:11:40.061Z
+content_sha256: a2a6cab545a5cc6a4f113b17efdd7fa60276bda13c2dfe29d20ede843d9b6bed
 ---

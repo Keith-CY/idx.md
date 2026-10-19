@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
-  "generated_at": "2026-10-18T11:53:46.606Z",
+  "generated_at": "2026-10-19T14:11:41.386Z",
   "records": [
     {
       "id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk#head",
       "kind": "head",
       "path": "/data/skills-sh-jezweb-claude-skills-claude-agent-sdk/HEAD.md",
-      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.302 - Fixed structured output results delivering a response's output as `structured_output` when the API refused that response; the result is now an error with no payload - Changed an omitted `permissionMode` to start in `default` mode on third-party providers, with telemetry off or on a fresh install; pass `permissionMode: 'auto'` to keep auto mode - Changed fork subagents (`subagent_type: \"fork\"`) to be on by default in SDK sessions, as in the terminal; `run_in_background` is still offered, and `CLAUDE_CODE_FORK_SUBAGENT=0` turns them off - Updated to parity with Claude Code v2.1.302 ## 0.3.301 - Added per-tool permission policies to sdk-type MCP server configs: `tools` entries with `permission_policy` `always_ask` or `always_deny`, applied on `initialize` and `setMcpServers()` - Added `BUILTIN_TOOL_NAMES` and `LEGACY_TOOL_NAME_ALIASES` exports: the public built-in tool names and their earlier names, for checking permission rules and tool settings - Added `addPlugins` to `Query.reloadPlugins()` so a host can load more plugin folders into a running session\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
+      "text": "title: skills-sh-jezweb-claude-skills-claude-agent-sdk\nsummary: # Changelog ## 0.3.303 - Updated to parity with Claude Code v2.1.303 ## 0.3.302 - Fixed structured output results delivering a response's output as `structured_output` when the API refused that response; the result is now an error with no payload - Changed an omitted `permissionMode` to start in `default` mode on third-party providers, with telemetry off or on a fresh install; pass `permissionMode: 'auto'` to keep auto mode - Changed fork subagents (`subagent_type: \"fork\"`) to be on by default in SDK sessions, as in the terminal; `run_in_background` is still offered, and `CLAUDE_CODE_FORK_SUBAGENT=0` turns them off - Updated to parity with Claude Code v2.1.302 ## 0.3.301 - Added per-tool permission policies to sdk-type MCP server configs: `tools` entries with `permission_policy` `always_ask` or `always_deny`, applied on `initialize` and `setMcpServers()`\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jezweb-claude-skills-claude-agent-sdk",
         "topic": "skills-sh-jezweb-claude-skills-claude-agent-sdk",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/claude-agent-sdk-typescript/main/CHANGELOG.md",
-        "retrieved_at": "2026-10-18T11:53:46.606Z",
-        "content_sha256": "e68d3b16af6cbb6b7301151d604841fc50350ee454aee5ad9de6bd86f84bb65e"
+        "retrieved_at": "2026-10-19T14:11:41.386Z",
+        "content_sha256": "70dd0e26e9d9cdcfd1566a0fb756118a2ababc5595944a219e56e80cf6a3abef"
       }
     }
   ]
