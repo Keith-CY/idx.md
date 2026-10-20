@@ -25,7 +25,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:27.741Z
+retrieved_at: 2026-10-20T12:25:06.858Z
 content_sha256: 6e53c9529c42bb92c11d00a58af5119f7383903d9cb3b911625089fec2ff4784
 ---
 |/data/knowledge-work-plugins-finance-skills-audit-support-skill|
@@ -49,7 +49,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:27.841Z
+retrieved_at: 2026-10-20T12:25:07.097Z
 content_sha256: 6c2df93bcd15eddf65017445fa44f3eb0b16a755711a5e0602d73ca595e73732
 ---
 |/data/knowledge-work-plugins-finance-skills-close-management-skill|
@@ -74,7 +74,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:27.779Z
+retrieved_at: 2026-10-20T12:25:06.970Z
 content_sha256: 1a9ba1cc85495eef32fa250b8a4c05e4854430af574a290b855f919dbb557dfc
 ---
 |/data/knowledge-work-plugins-finance-skills-financial-statements-skill|
@@ -99,7 +99,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:27.881Z
+retrieved_at: 2026-10-20T12:25:07.188Z
 content_sha256: 122715fb18246c2f04d31a5f7c07584ecbfc5c0b46ee09b4c0f4557767d7351e
 ---
 |/data/knowledge-work-plugins-finance-skills-journal-entry-prep-skill|
@@ -124,7 +124,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:13:06.620Z
+retrieved_at: 2026-10-20T12:27:45.767Z
 content_sha256: c085de41feb0b8c74771cdd631fff1f668ec253938c69fee47b6a953fc03a266
 ---
 |/data/knowledge-work-plugins-finance-skills-journal-entry-skill|
@@ -149,7 +149,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:27.944Z
+retrieved_at: 2026-10-20T12:25:07.282Z
 content_sha256: aa17e90539f4d4d84130c910c7f527236bfaa71977c4c03493c8e8e515ddeea6
 ---
 |/data/knowledge-work-plugins-finance-skills-reconciliation-skill|
@@ -174,7 +174,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:13:06.697Z
+retrieved_at: 2026-10-20T12:27:45.887Z
 content_sha256: 5e5939a070a25d9696b27aaec6c20e64084e6f58637994b2f7ec92744074ea23
 ---
 |/data/knowledge-work-plugins-finance-skills-sox-testing-skill|
@@ -199,7 +199,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/fin
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:27.675Z
+retrieved_at: 2026-10-20T12:25:06.745Z
 content_sha256: 467db7de3fb118550d013409254e2d4a9f87385a661e154655bf3431919b0ba1
 ---
 |/data/knowledge-work-plugins-finance-skills-variance-analysis-skill|
@@ -220,7 +220,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:14:05.672Z
+retrieved_at: 2026-10-20T12:29:51.914Z
 content_sha256: c12a553ca38e48f4325c92a94ca58b01e2399550b2c91c4b4000e8d9b6922098
 ---
 |/data/playbook-industry-finance|

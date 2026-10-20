@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/rivet-dev/skills/sandbox-agent
 github_stars: 6
 github_forks: 2
 github_is_organization: true
-retrieved_at: 2026-10-19T14:11:49.837Z
+retrieved_at: 2026-10-20T12:25:39.651Z
 content_sha256: b0bc6f55671066206c1295729c1065510da253fc67013c9fa822f5a4fbdcd9c8
 ---

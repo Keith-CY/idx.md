@@ -17,6 +17,6 @@ upstream_ref: https://github.com/luongnv89/claude-howto/blob/main/03-skills/bran
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-19T14:11:15.140Z
+retrieved_at: 2026-10-20T12:24:43.744Z
 content_sha256: fa20cc4408b6516e13f827378ec667052cb12b30ed3d90183f222d83463655e2
 ---
