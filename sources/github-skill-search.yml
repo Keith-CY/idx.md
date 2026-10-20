@@ -80,6 +80,20 @@
     - github-repo-knowledge-work-plugins
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
 - type: skills
+  slug: github-skill-autoclaw-cc-xiaohongshu-skills-xiaohongshu-skills
+  source_url: https://raw.githubusercontent.com/autoclaw-cc/xiaohongshu-skills/main/SKILL.md
+  title: xiaohongshu-skills
+  summary: |-
+    小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。
+    当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-autoclaw-cc
+    - github-repo-xiaohongshu-skills
+  upstream_ref: https://github.com/autoclaw-cc/xiaohongshu-skills/blob/main/SKILL.md
+- type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
   title: browserwing-executor
@@ -91,6 +105,18 @@
     - github-owner-browserwing
     - github-repo-browserwing
   upstream_ref: https://github.com/browserwing/browserwing/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-cas-bigdatalab-piflow-qc3-numericdatathresholdcheck
+  source_url: https://raw.githubusercontent.com/cas-bigdatalab/piflow/master/workspace/skills/QC3_NumericDataThresholdCheck/SKILL.md
+  title: QC3_NumericDataThresholdCheck
+  summary: 数值数据阈值检验工具。读取结构化数据文件（CSV、TSV、Excel等），检查数值字段是否在指定的门限范围内，不允许超出门限值之外，最后输出为同格式的文件。当用户需要对数据进行阈值检验、数值范围检查、数据质量控制等操作时使用此skill。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-cas-bigdatalab
+    - github-repo-piflow
+  upstream_ref: https://github.com/cas-bigdatalab/piflow/blob/master/workspace/skills/QC3_NumericDataThresholdCheck/SKILL.md
 - type: skills
   slug: github-skill-catlog22-claude-code-workflow-team-lifecycle
   source_url: https://raw.githubusercontent.com/catlog22/Claude-Code-Workflow/main/.claude/skills/team-lifecycle/SKILL.md
@@ -344,6 +370,18 @@
     - github-repo-product-manager-skills
   upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
 - type: skills
+  slug: github-skill-denissergeevitch-repo-task-proof-loop-repo-task-proof-loop
+  source_url: https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/main/SKILL.md
+  title: repo-task-proof-loop
+  summary: Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-denissergeevitch
+    - github-repo-repo-task-proof-loop
+  upstream_ref: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/main/SKILL.md
+- type: skills
   slug: github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks
   source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
   title: deploying-monitoring-stacks
@@ -400,6 +438,18 @@
     - github-repo-dlt
   upstream_ref: https://github.com/dlt-hub/dlt/blob/devel/.claude/skills/review-pr/SKILL.md
 - type: skills
+  slug: github-skill-ecnu-icalk-autoskill-generate-twitch-game-outreach
+  source_url: https://raw.githubusercontent.com/ECNU-ICALK/AutoSkill/main/SkillBank/ConvSkill/english_gpt4_8_GLM4.7/generate_twitch_game_outreach/SKILL.md
+  title: generate_twitch_game_outreach
+  summary: Generates personalized, authentic outreach messages for Twitch streamers to request game keys or coverage, adapting tone while maintaining a human, community-focused voice.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-ecnu-icalk
+    - github-repo-autoskill
+  upstream_ref: https://github.com/ECNU-ICALK/AutoSkill/blob/main/SkillBank/ConvSkill/english_gpt4_8_GLM4.7/generate_twitch_game_outreach/SKILL.md
+- type: skills
   slug: github-skill-elizaos-eliza-blucli
   source_url: https://raw.githubusercontent.com/elizaOS/eliza/develop/packages/skills/skills/blucli/SKILL.md
   title: blucli
@@ -447,6 +497,18 @@
     - github-owner-github
     - github-repo-awesome-copilot
   upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+- type: skills
+  slug: github-skill-jangviktor-web-nihaixia-nihaixia
+  source_url: https://raw.githubusercontent.com/jangviktor-web/nihaixia/main/SKILL.md
+  title: nihaixia
+  summary: 倪海厦（1954-2012）台湾中医师，经方派代表人物，汉唐中医创始人。核心心智模型：六经辨证、阳气论、经典至上、经方为主。决策启发式：先辨六经再选方、阳气不足先扶阳、经典原方最可靠。触发词：倪海厦、海厦视角、中医倪海厦、经方思维、倪海厦会怎么看、倪师。知识库覆盖：伤寒论条文补齐（太阳下篇+阳明篇，modules/13）+伤寒论129条全（modules/01）+金匮23篇+黄帝内经72篇+针灸教程+神农本草经374种+天纪+1257例全量结构化医案+243例分类叙事医案+梁冬对话+口述表达DNA+六经辨证诊断公式（8个公式+快速诊断流程图+脉舌速查+合病并病速查+真寒假热鉴别+七步走思维模式）。基于一手素材：梁冬对话录音稿、人纪班闭门课记录、医案集、神农本草经视频讲义。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jangviktor-web
+    - github-repo-nihaixia
+  upstream_ref: https://github.com/jangviktor-web/nihaixia/blob/main/SKILL.md
 - type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
@@ -635,6 +697,18 @@
     - github-repo-claude-code-plugins-plus-skills
   upstream_ref: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/blob/main/skills/16-api-integration/websocket-client-creator/SKILL.md
 - type: skills
+  slug: github-skill-johell1ns-browser-search-browser-search
+  source_url: https://raw.githubusercontent.com/Johell1NS/browser-search/master/SKILL.md
+  title: browser-search
+  summary: Multi-engine web search (SearXNG) + browsing/scraping (Camofox, CloakBrowser). Use whenever you need to do web research.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-johell1ns
+    - github-repo-browser-search
+  upstream_ref: https://github.com/Johell1NS/browser-search/blob/master/SKILL.md
+- type: skills
   slug: github-skill-k-dense-ai-claude-scientific-skills-pdf
   source_url: https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/scientific-skills/document-skills/pdf/SKILL.md
   title: pdf
@@ -658,6 +732,42 @@
     - github-owner-kevoreilly
     - github-repo-capev2
   upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-airline-local-dashboard-bauen
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/luftrecht-flughafenrecht/skills/airline-local-dashboard-bauen/SKILL.md
+  title: airline-local-dashboard-bauen
+  summary: "Für Airline – Local Counsel briefen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/luftrecht-flughafenrecht/skills/airline-local-dashboard-bauen/SKILL.md
+- type: skills
+  slug: github-skill-klotzkette-claude-fuer-deutsches-recht-immobilien-formular-portal-und-einreichung
+  source_url: https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/main/tabellenreview-3d/skills/immobilien-formular-portal-und-einreichung/SKILL.md
+  title: immobilien-formular-portal-und-einreichung
+  summary: "Für Immobilien: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck. Fachgebiet: Tabellenreview 3D. Route: immobilien-formular-portal-und-einreichung."
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-klotzkette
+    - github-repo-claude-fuer-deutsches-recht
+  upstream_ref: https://github.com/Klotzkette/claude-fuer-deutsches-recht/blob/main/tabellenreview-3d/skills/immobilien-formular-portal-und-einreichung/SKILL.md
+- type: skills
+  slug: github-skill-kortix-ai-suna-xlsx
+  source_url: https://raw.githubusercontent.com/kortix-ai/suna/dev/packages/starter/templates/general-knowledge-worker/skills/xlsx/SKILL.md
+  title: xlsx
+  summary: Use for spreadsheet creation, analysis, financial models, and polished workbook outputs.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-kortix-ai
+    - github-repo-suna
+  upstream_ref: https://github.com/kortix-ai/suna/blob/dev/packages/starter/templates/general-knowledge-worker/skills/xlsx/SKILL.md
 - type: skills
   slug: github-skill-kurtosis-tech-kurtosis-cluster-manage
   source_url: https://raw.githubusercontent.com/kurtosis-tech/kurtosis/main/skills/cluster-manage/SKILL.md
@@ -731,6 +841,18 @@
     - github-repo-anthropic-cybersecurity-skills
   upstream_ref: https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/main/skills/analyzing-ransomware-leak-site-intelligence/SKILL.md
 - type: skills
+  slug: github-skill-neolabhq-context-engineering-kit-review-pr
+  source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/skills/review-pr/SKILL.md
+  title: review-pr
+  summary: Review an existing GitHub pull request and post inline review comments on its diff. Use when the changes are on an opened PR rather than your local working tree.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-git-github
+    - github-owner-neolabhq
+    - github-repo-context-engineering-kit
+  upstream_ref: https://github.com/NeoLabHQ/context-engineering-kit/blob/master/skills/review-pr/SKILL.md
+- type: skills
   slug: github-skill-neolabhq-context-engineering-kit-sadd-multi-agent-patterns
   source_url: https://raw.githubusercontent.com/NeoLabHQ/context-engineering-kit/master/plugins/sadd/skills/multi-agent-patterns/SKILL.md
   title: sadd:multi-agent-patterns
@@ -754,6 +876,18 @@
     - github-owner-novuhq
     - github-repo-novu
   upstream_ref: https://github.com/novuhq/novu/blob/next/.agents/skills/react-email/SKILL.md
+- type: skills
+  slug: github-skill-nvidia-cuopt-cuopt-multi-objective-exploration
+  source_url: https://raw.githubusercontent.com/NVIDIA/cuopt/main/skills/cuopt-multi-objective-exploration/SKILL.md
+  title: cuopt-multi-objective-exploration
+  summary: Trace, complete, and interpret the Pareto frontier across competing objectives using repeated single-objective cuOpt solves (weighted-sum and ε-constraint).
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-nvidia
+    - github-repo-cuopt
+  upstream_ref: https://github.com/NVIDIA/cuopt/blob/main/skills/cuopt-multi-objective-exploration/SKILL.md
 - type: skills
   slug: github-skill-onmax-nuxt-skills-nuxt-seo
   source_url: https://raw.githubusercontent.com/onmax/nuxt-skills/main/skills/nuxt-seo/SKILL.md
@@ -1318,6 +1452,18 @@
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
 - type: skills
+  slug: github-skill-xiaopu-ai-web-design-web-design
+  source_url: https://raw.githubusercontent.com/xiaopu-ai/web-design/main/SKILL.md
+  title: web-design
+  summary: Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个页面""参考 XX 做一个""把这个截图/PRD 做成网页""做一个 landing page""出一份 design 规范"时触发。不用于后端、数据库、纯逻辑 bug 修复。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xiaopu-ai
+    - github-repo-web-design
+  upstream_ref: https://github.com/xiaopu-ai/web-design/blob/main/SKILL.md
+- type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
   title: ultraqa
@@ -1329,6 +1475,30 @@
     - github-owner-yeachan-heo
     - github-repo-oh-my-claudecode
   upstream_ref: https://github.com/Yeachan-Heo/oh-my-claudecode/blob/main/skills/ultraqa/SKILL.md
+- type: skills
+  slug: github-skill-zakirkun-guardian-cli-guardian-cli
+  source_url: https://raw.githubusercontent.com/zakirkun/guardian-cli/main/SKILL.md
+  title: guardian-cli
+  summary: An enterprise-grade, AI-powered penetration testing automation CLI tool. Orchestrates multiple specialized AI agents (Planner, ToolAgent, Analyst, Reporter) backed by 4 AI providers (OpenAI, Claude, Gemini, OpenRouter) and 19 integrated security tools through YAML-defined workflows. Produces professional Markdown, HTML, or JSON security reports with full evidence capture and traceability.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-zakirkun
+    - github-repo-guardian-cli
+  upstream_ref: https://github.com/zakirkun/guardian-cli/blob/main/SKILL.md
+- type: skills
+  slug: github-skill-zanwei-design-dna-design-dna
+  source_url: https://raw.githubusercontent.com/zanwei/design-dna/main/SKILL.md
+  title: design-dna
+  summary: 'Extract, define, and apply design DNA across three dimensions: design system (tokens), design style (qualitative feel), and visual effects (Canvas, WebGL, 3D, particles, shaders, scroll effects, etc.). Use this skill when: (1) a user wants to see the full 3-dimension design structure/schema, (2) a user provides images, screenshots, or URLs of reference designs and wants them analyzed into a structured JSON profile covering all three dimensions, (3) a user has a Design DNA JSON and content and wants a design generated from it, or (4) any combination of these phases. Triggers on "design DNA", "extract design style", "analyze design", "design tokens from reference", "generate design from JSON", "design system from screenshot", "design profile", "style guide JSON", "visual effects analysis", "design with effects", "3d design analysis".'
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-zanwei
+    - github-repo-design-dna
+  upstream_ref: https://github.com/zanwei/design-dna/blob/main/SKILL.md
 - type: skills
   slug: github-skill-zjunlp-skillnet-webshop-query-parser
   source_url: https://raw.githubusercontent.com/zjunlp/SkillNet/main/experiments/src/skills/webshop/webshop-query-parser/SKILL.md
