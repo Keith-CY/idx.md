@@ -2,17 +2,28 @@
 stable_id: skills/skills-sh-apollographql-skills-apollo-mcp-server
 type: skills
 title: skills-sh-apollographql-skills-apollo-mcp-server
-summary: |-
+summary: >-
   # Apollo MCP Server Tools Reference
-  ## Table of Contents
-  - [Introspection Tools](#introspection-tools)
-    - [introspect](#introspect)
-    - [search](#search)
-    - [validate](#validate)
-    - [execute](#execute)
-  - [Minify Notation](#minify-notation)
-  - [Custom Tools](#custom-tools)
-  ---
+
+  ## Introspection Tools
+
+  Apollo MCP Server provides four introspection tools and one explorer tool. All
+  are disabled by default and must be enabled in configuration.
+
+  Each introspection tool supports an optional `hint` config option for
+  providing custom instructions to the AI agent.
+
+  ### introspect
+
+  Explore schema types in detail with configurable depth.
+
+  **Parameters:**
+
+  | Parameter | Type | Default | Description |
+
+  |-----------|------|---------|-------------|
+
+  | `type` | String | required | Type name to introspect |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +33,6 @@ upstream_ref: https://skills.sh/apollographql/skills/apollo-mcp-server
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-20T12:25:27.156Z
-content_sha256: 6efc864d9cb8c89936893259cc754f315278ad37b21f249ccce8aee88383c451
+retrieved_at: 2026-10-21T12:36:22.727Z
+content_sha256: 84aae2c6fd698fe19b41983dc4e197c434d209f7022d10d5f70d0dfe37033c7e
 ---
