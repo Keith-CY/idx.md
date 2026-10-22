@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/audit-context-building
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-21T12:39:03.273Z
+retrieved_at: 2026-10-22T12:41:24.440Z
 content_sha256: 3351010d83b61bfb34a0359498f153817fdfa6528cead54536b06e035ff2399c
 ---

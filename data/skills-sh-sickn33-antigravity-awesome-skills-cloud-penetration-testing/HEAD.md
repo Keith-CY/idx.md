@@ -29,6 +29,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetra
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-21T12:36:08.418Z
+retrieved_at: 2026-10-22T12:39:01.655Z
 content_sha256: bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff
 ---

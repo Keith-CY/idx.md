@@ -19,6 +19,6 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/leg
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-21T12:38:55.447Z
+retrieved_at: 2026-10-22T12:41:17.401Z
 content_sha256: 767a8f6759268e003ee882af8dfb56579aca2121b9dc49a2c65c4e77de93f768
 ---
