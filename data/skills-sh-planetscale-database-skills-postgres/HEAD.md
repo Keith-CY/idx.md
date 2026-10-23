@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/planetscale/database-skills/postgres
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-22T12:41:22.008Z
+retrieved_at: 2026-10-23T12:21:31.470Z
 content_sha256: a831161ebd0343cfb506a069e0d6d4b274c671c81d2580c544c4ffed136a04ba
 ---

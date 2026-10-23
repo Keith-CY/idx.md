@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/antfu/skills/vitest
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-10-22T12:42:44.184Z
-content_sha256: 60fd084b93f2c398236c55031070a85c549711234df1eb2faefeaa7312b8576c
+retrieved_at: 2026-10-23T12:17:38.680Z
+content_sha256: 3f3907631a15c60f7cb5876e8d6f9e560e0f6d7addfdc92efd199dbf2c8d92ee
 ---

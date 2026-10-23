@@ -3,28 +3,28 @@ stable_id: skills/skills-sh-langgenius-dify-frontend-code-review
 type: skills
 title: skills-sh-langgenius-dify-frontend-code-review
 summary: >-
-  # Code Quality Rules
+  # Code Quality Review
 
-  ## Scope Control
+  Use this pack for changed type, styling, or copy contracts. Scope and
+  reporting thresholds come
 
-  Flag changes that expand beyond the requested feature or review scope:
+  from the skill entrypoint; do not turn general style preferences into
+  findings.
 
-  - Repo-wide cleanup mixed into a targeted fix.
+  ## Types And Boundaries
 
-  - Compatibility exports, aliases, shims, or wrapper layers added without an
-  explicit migration requirement.
+  [Ownership] defines module boundaries, extraction, props, and domain types;
+  [Data] owns generated
 
-  - Shared abstractions created before there is stable cross-feature reuse.
+  API types. For Dify UI public exports and upstream-derived props, use [Public
+  API authoring].
 
-  - Business components moved into generic shared locations without a clear
-  ownership boundary.
-
-  ## TypeScript
-
-  Flag:
-
-  - `any` or broad `Record<string, any>` where generated/API types or local
-  domain types exist.
+  - Identify the actual type information lost by a widened field, DTO mirror, or
+  assertion. Trace
+    consumers before proposing a new abstraction or adapter.
+  - Check that moved imports still use the intended public boundary. Distinguish
+  an application
+    bypassing that boundary from the implementation that owns a library integration.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
 github_stars: 133762
 github_forks: 20840
 github_is_organization: true
-retrieved_at: 2026-10-22T12:42:53.372Z
-content_sha256: 1470560e29158f4db6a90d140e49b51eec5492470e99f6df73fdc68202bdee1b
+retrieved_at: 2026-10-23T12:17:50.058Z
+content_sha256: 00e4b4aaf216ad03da876f3a8ba0a1aaf6340e1515e9d9c5933b584f37a08a7c
 ---

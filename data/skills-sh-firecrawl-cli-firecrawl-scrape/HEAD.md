@@ -40,6 +40,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-scrape
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-10-22T12:42:52.178Z
-content_sha256: 51955e92d17cdc2a647d8c9051456af9464bddb7bb0a2e613f302acbc7f83287
+retrieved_at: 2026-10-23T12:17:48.840Z
+content_sha256: 86eff5f134da2e35a22aabea79013d0d1eca518c0ad3761fb3eae47ffcddc2d2
 ---
