@@ -80,6 +80,20 @@
     - github-repo-knowledge-work-plugins
   upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/partner-built/common-room/skills/call-prep/SKILL.md
 - type: skills
+  slug: github-skill-autoclaw-cc-xiaohongshu-skills-xiaohongshu-skills
+  source_url: https://raw.githubusercontent.com/autoclaw-cc/xiaohongshu-skills/main/SKILL.md
+  title: xiaohongshu-skills
+  summary: |-
+    小红书自动化技能集合。支持认证登录、内容发布、搜索发现、社交互动、复合运营。
+    当用户要求操作小红书（发布、搜索、评论、登录、分析、点赞、收藏）时触发。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-autoclaw-cc
+    - github-repo-xiaohongshu-skills
+  upstream_ref: https://github.com/autoclaw-cc/xiaohongshu-skills/blob/main/SKILL.md
+- type: skills
   slug: github-skill-browserwing-browserwing-browserwing-executor
   source_url: https://raw.githubusercontent.com/browserwing/browserwing/main/SKILL.md
   title: browserwing-executor
@@ -344,6 +358,18 @@
     - github-repo-product-manager-skills
   upstream_ref: https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/pestel-analysis/SKILL.md
 - type: skills
+  slug: github-skill-denissergeevitch-repo-task-proof-loop-repo-task-proof-loop
+  source_url: https://raw.githubusercontent.com/DenisSergeevitch/repo-task-proof-loop/main/SKILL.md
+  title: repo-task-proof-loop
+  summary: Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md plus the repo's Claude guide file with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-productivity-tasks
+    - github-owner-denissergeevitch
+    - github-repo-repo-task-proof-loop
+  upstream_ref: https://github.com/DenisSergeevitch/repo-task-proof-loop/blob/main/SKILL.md
+- type: skills
   slug: github-skill-dicklesworthstone-pi-agent-rust-deploying-monitoring-stacks
   source_url: https://raw.githubusercontent.com/Dicklesworthstone/pi_agent_rust/main/tests/ext_conformance/artifacts/plugins-community/plugins/devops/monitoring-stack-deployer/skills/deploying-monitoring-stacks/SKILL.md
   title: deploying-monitoring-stacks
@@ -447,6 +473,18 @@
     - github-owner-github
     - github-repo-awesome-copilot
   upstream_ref: https://github.com/github/awesome-copilot/blob/main/skills/copilot-instructions-blueprint-generator/SKILL.md
+- type: skills
+  slug: github-skill-jangviktor-web-nihaixia-nihaixia
+  source_url: https://raw.githubusercontent.com/jangviktor-web/nihaixia/main/SKILL.md
+  title: nihaixia
+  summary: 倪海厦（1954-2012）台湾中医师，经方派代表人物，汉唐中医创始人。核心心智模型：六经辨证、阳气论、经典至上、经方为主。决策启发式：先辨六经再选方、阳气不足先扶阳、经典原方最可靠。触发词：倪海厦、海厦视角、中医倪海厦、经方思维、倪海厦会怎么看、倪师。知识库覆盖：伤寒论条文补齐（太阳下篇+阳明篇，modules/13）+伤寒论129条全（modules/01）+金匮23篇+黄帝内经72篇+针灸教程+神农本草经374种+天纪+1257例全量结构化医案+243例分类叙事医案+梁冬对话+口述表达DNA+六经辨证诊断公式（8个公式+快速诊断流程图+脉舌速查+合病并病速查+真寒假热鉴别+七步走思维模式）。基于一手素材：梁冬对话录音稿、人纪班闭门课记录、医案集、神农本草经视频讲义。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-jangviktor-web
+    - github-repo-nihaixia
+  upstream_ref: https://github.com/jangviktor-web/nihaixia/blob/main/SKILL.md
 - type: skills
   slug: github-skill-jeffallan-claude-skills-websocket-engineer
   source_url: https://raw.githubusercontent.com/Jeffallan/claude-skills/main/skills/websocket-engineer/SKILL.md
@@ -1317,6 +1355,18 @@
     - github-owner-wavetermdev
     - github-repo-waveterm
   upstream_ref: https://github.com/wavetermdev/waveterm/blob/main/.kilocode/skills/electron-api/SKILL.md
+- type: skills
+  slug: github-skill-xiaopu-ai-web-design-web-design
+  source_url: https://raw.githubusercontent.com/xiaopu-ai/web-design/main/SKILL.md
+  title: web-design
+  summary: Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个页面""参考 XX 做一个""把这个截图/PRD 做成网页""做一个 landing page""出一份 design 规范"时触发。不用于后端、数据库、纯逻辑 bug 修复。
+  tags:
+    - github-skill-search
+    - source-github-code-search
+    - category-uncategorized
+    - github-owner-xiaopu-ai
+    - github-repo-web-design
+  upstream_ref: https://github.com/xiaopu-ai/web-design/blob/main/SKILL.md
 - type: skills
   slug: github-skill-yeachan-heo-oh-my-claudecode-ultraqa
   source_url: https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/skills/ultraqa/SKILL.md
