@@ -26,7 +26,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:20.869Z
+retrieved_at: 2026-10-24T11:44:18.307Z
 content_sha256: 759f29397a908c32521080247292a4e1c52ac01643bea70ccd6e807e86c1fa4b
 ---
 |/data/knowledge-work-plugins-marketing-skills-brand-review-skill|
@@ -52,7 +52,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:21.801Z
+retrieved_at: 2026-10-24T11:44:18.341Z
 content_sha256: f0b146074b64ee0fd52f7864e30191eab83878c8c1e3e7cf24754e13c7dbfad3
 ---
 |/data/knowledge-work-plugins-marketing-skills-campaign-plan-skill|
@@ -78,7 +78,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:21.511Z
+retrieved_at: 2026-10-24T11:44:18.331Z
 content_sha256: c1e5442facbc3206ac6a77392bef009fe9aff4ba7c2678e2f4118be2f6be82b3
 ---
 |/data/knowledge-work-plugins-marketing-skills-competitive-brief-skill|
@@ -103,7 +103,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:22.512Z
+retrieved_at: 2026-10-24T11:43:29.681Z
 content_sha256: 17f0bfd536502a91c760accaa1ae6c0c76c3812973571729664133e282c5dded
 ---
 |/data/knowledge-work-plugins-marketing-skills-content-creation-skill|
@@ -129,7 +129,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:21.335Z
+retrieved_at: 2026-10-24T11:44:18.326Z
 content_sha256: 0bfe029dcc039ff71a76b0fec3c5d900fba0e447eb9dcd505ab25b14be3577fd
 ---
 |/data/knowledge-work-plugins-marketing-skills-draft-content-skill|
@@ -155,7 +155,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:21.184Z
+retrieved_at: 2026-10-24T11:44:18.321Z
 content_sha256: 4303252cbe340b19945b3e58d46430fdf42ea47b3e26d985e3ef1d6da5e36021
 ---
 |/data/knowledge-work-plugins-marketing-skills-email-sequence-skill|
@@ -181,7 +181,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:21.036Z
+retrieved_at: 2026-10-24T11:44:18.317Z
 content_sha256: 997397e23ba5124cdcbbf17e4be9f5cb36f2a2145b5648e02b2852c91c3cc140
 ---
 |/data/knowledge-work-plugins-marketing-skills-performance-report-skill|
@@ -207,7 +207,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/mar
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:21.654Z
+retrieved_at: 2026-10-24T11:44:18.337Z
 content_sha256: 25008ccdda6f4d9b7ba05f11120d0b9cc976c2d0b04f3d86605e63b1a54a8c40
 ---
 |/data/knowledge-work-plugins-marketing-skills-seo-audit-skill|
@@ -232,7 +232,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:27.781Z
+retrieved_at: 2026-10-24T11:43:30.622Z
 content_sha256: 1f5e40ac7cea793dff344f331be95bf2bd6fd8e03c6734aedae2d514707ec59b
 ---
 |/data/knowledge-work-plugins-sales-skills-account-research-skill|
@@ -258,7 +258,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:27.363Z
+retrieved_at: 2026-10-24T11:43:30.615Z
 content_sha256: 4f772694f3f8fc1ef0d8bb8bb868f6c44661160f57c99dd8c9ebf97f7fe2a947
 ---
 |/data/knowledge-work-plugins-sales-skills-call-prep-skill|
@@ -284,7 +284,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:22.811Z
+retrieved_at: 2026-10-24T11:44:18.371Z
 content_sha256: a709cb16a6439ed2e5e74bff918821f51b3f263d63277048957739baf429710f
 ---
 |/data/knowledge-work-plugins-sales-skills-call-summary-skill|
@@ -310,7 +310,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:27.472Z
+retrieved_at: 2026-10-24T11:43:30.618Z
 content_sha256: aa0041f9133e8901fcdd4768b907c5c8f50c4f15edcce8c04b0d3a8a9a6e6811
 ---
 |/data/knowledge-work-plugins-sales-skills-competitive-intelligence-skill|
@@ -334,7 +334,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:28.209Z
+retrieved_at: 2026-10-24T11:43:30.629Z
 content_sha256: 771b65ed674b0478a7e31f4ea430fadfb685ec2a51150b48254baf09cf994db6
 ---
 |/data/knowledge-work-plugins-sales-skills-create-an-asset-skill|
@@ -359,7 +359,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:28.103Z
+retrieved_at: 2026-10-24T11:43:30.626Z
 content_sha256: 2ff4943356a8a7fd5e4d3fdb22719a1070b588c1f72375cd2d2804b2bdd49e78
 ---
 |/data/knowledge-work-plugins-sales-skills-daily-briefing-skill|
@@ -383,7 +383,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:28.313Z
+retrieved_at: 2026-10-24T11:43:30.635Z
 content_sha256: 1f28e9a07e9464e9eef71859d94d28cae955b1d2291a4d76665a71fa232f37f8
 ---
 |/data/knowledge-work-plugins-sales-skills-draft-outreach-skill|
@@ -409,7 +409,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:23.054Z
+retrieved_at: 2026-10-24T11:44:18.382Z
 content_sha256: 23b355ac3f994c729bf6271b7e0533dcf1ae2f4bd51104696624ef009cace37e
 ---
 |/data/knowledge-work-plugins-sales-skills-forecast-skill|
@@ -434,7 +434,7 @@ upstream_ref: https://github.com/anthropics/knowledge-work-plugins/blob/main/sal
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:21:22.928Z
+retrieved_at: 2026-10-24T11:44:18.378Z
 content_sha256: 36baa5f9c9a64a4c9eb036676ebe6af7a2ebd168e4f21ac1bf3c385ad2e47028
 ---
 |/data/knowledge-work-plugins-sales-skills-pipeline-review-skill|
@@ -454,7 +454,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:22:59.622Z
+retrieved_at: 2026-10-24T11:44:46.906Z
 content_sha256: d71ccd45f40f23342c317548510b1eb8bbc39f4ed6d1a889b141aa8b5a036349
 ---
 |/data/playbook-scenario-content-marketing|

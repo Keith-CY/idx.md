@@ -8,6 +8,17 @@ summary: >-
   Reference: [Cloud Pentesting Cheatsheet by Beau
   Bullock](https://github.com/dafthack/CloudPentestCheatsheets)
 
+  ## Scope and handling
+
+  The all-subscription loops below are templates, not permission to broaden the
+  engagement. Replace discovery with an explicit authorized
+  subscription/resource allowlist and private output directory. Runbooks, job
+  output, function settings and ScoutSuite exports may contain secrets; redact
+  before reporting. Service-principal resets, new users and role assignments can
+  break access or create persistence: document a path without executing it
+  unless a separate lab mutation plan and cleanup are approved. Old
+  module/API/JSON schemas must be checked before use.
+
   ## Azure Automation Runbooks
 
   ### Export All Runbooks from All Subscriptions
@@ -18,8 +29,6 @@ summary: >-
 
   Foreach($s in $subs){
       $subscriptionid = $s.SubscriptionId
-      mkdir .\$subscriptionid\
-      Select-AzSubscription -Subscription $subscriptionid
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -29,6 +38,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/cloud-penetra
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:31.567Z
-content_sha256: bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff
+retrieved_at: 2026-10-24T11:43:31.421Z
+content_sha256: 87fd4cd420c6e9c49be150b9cc28fa36e980e6c2626da67bbf6b1ee40067e5e9
 ---

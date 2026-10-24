@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing",
-  "generated_at": "2026-10-23T12:18:31.567Z",
+  "generated_at": "2026-10-24T11:43:31.421Z",
   "records": [
     {
       "id": "skills/skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing#head",
       "kind": "head",
       "path": "/data/skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing/HEAD.md",
-      "text": "title: skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing\nsummary: # Advanced Cloud Pentesting Scripts Reference: [Cloud Pentesting Cheatsheet by Beau Bullock](https://github.com/dafthack/CloudPentestCheatsheets) ## Azure Automation Runbooks ### Export All Runbooks from All Subscriptions ```powershell $subs = Get-AzSubscription Foreach($s in $subs){ $subscriptionid = $s.SubscriptionId mkdir .\\$subscriptionid\\ Select-AzSubscription -Subscription $subscriptionid\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
+      "text": "title: skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing\nsummary: # Advanced Cloud Pentesting Scripts Reference: [Cloud Pentesting Cheatsheet by Beau Bullock](https://github.com/dafthack/CloudPentestCheatsheets) ## Scope and handling The all-subscription loops below are templates, not permission to broaden the engagement. Replace discovery with an explicit authorized subscription/resource allowlist and private output directory. Runbooks, job output, function settings and ScoutSuite exports may contain secrets; redact before reporting. Service-principal resets, new users and role assignments can break access or create persistence: document a path without executing it unless a separate lab mutation plan and cleanup are approved. Old module/API/JSON schemas must be checked before use. ## Azure Automation Runbooks ### Export All Runbooks from All Subscriptions ```powershell $subs = Get-AzSubscription Foreach($s in $subs){ $subscriptionid = $s.SubscriptionId\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
       "metadata": {
         "stable_id": "skills/skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing",
         "topic": "skills-sh-sickn33-antigravity-awesome-skills-cloud-penetration-testing",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/main/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md",
-        "retrieved_at": "2026-10-23T12:18:31.567Z",
-        "content_sha256": "bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff"
+        "retrieved_at": "2026-10-24T11:43:31.421Z",
+        "content_sha256": "87fd4cd420c6e9c49be150b9cc28fa36e980e6c2626da67bbf6b1ee40067e5e9"
       }
     }
   ]

@@ -3,9 +3,9 @@ stable_id: skills/skills-sh-sickn33-antigravity-awesome-skills-playwright-skill
 type: skills
 title: skills-sh-sickn33-antigravity-awesome-skills-playwright-skill
 summary: >-
-  # Playwright Skill - Complete API Reference
+  # Playwright Skill - Selected API Patterns
 
-  This document contains the comprehensive Playwright API reference and advanced
+  This document contains the selected Playwright API patterns and advanced
   patterns. For quick-start execution patterns, see [SKILL.md](SKILL.md).
 
   ## Table of Contents
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-sk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:17:55.534Z
-content_sha256: ed10f6472af9f2597be746cb6e0bce4a8a99864ae1a724c42f0ec61b6db4dd6b
+retrieved_at: 2026-10-24T11:43:17.731Z
+content_sha256: 0fe07d3357155e2ce889b5b05ff6f7d5083e830539e3dc63b0980620062e7f50
 ---

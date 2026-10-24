@@ -18,6 +18,6 @@ upstream_ref: https://github.com/openai/openai-agents-python/blob/main/.agents/s
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:05.151Z
+retrieved_at: 2026-10-24T11:43:21.934Z
 content_sha256: a14f15abd9684da75acd8eca16e6b44a90151830135deb23bb0578fc83e57485
 ---

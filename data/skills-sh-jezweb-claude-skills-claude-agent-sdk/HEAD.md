@@ -5,6 +5,10 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.310
+
+  - Updated to parity with Claude Code v2.1.310
+
   ## 0.3.309
 
   - Fixed host-supplied `managedSettings` dropping `disableAllHooks`,
@@ -23,12 +27,6 @@ summary: >-
   ## 0.3.308
 
   - Updated to parity with Claude Code v2.1.308
-
-  ## 0.3.307
-
-  - Added `wakeup_source` to the `command_lifecycle` `started` frame of a
-  scheduled wakeup or task, and `scheduled_for` for a wakeup (capability
-  `lifecycle_wakeup_source_v1`), so a host can tell which one fired
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +36,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:18:46.424Z
-content_sha256: 02b679b22bc23c79c03a0f4a05a53a13df2c76330b2cd814f2941303eee89e97
+retrieved_at: 2026-10-24T11:43:37.894Z
+content_sha256: 5651d2bb9d784833bdbfccb7bb3e3c294c5fcecf7f9e84b6687610fc4515b565
 ---

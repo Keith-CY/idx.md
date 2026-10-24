@@ -46,7 +46,7 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-23T12:22:59.622Z
+retrieved_at: 2026-10-24T11:44:46.906Z
 content_sha256: 8a7e47ed81e19552b8d5e08b8ee37c9aab87a82ca8b7120ac287e53134b293f9
 ---
 |/data/playbook-scenario-customer-support|
