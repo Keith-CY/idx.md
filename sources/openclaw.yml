@@ -19,8 +19,20 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-image-video-generation
-  github_stars: 3179
-  github_forks: 905
+  github_stars: 4207
+  github_forks: 1157
+  github_is_organization: true
+- type: skills
+  slug: openclaw-openclaw-agent-security-harness
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/msaleme/agent-security-harness/SKILL.md
+  title: agent-security-harness
+  summary: Security testing for AI agent wire protocols and platforms.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-security-passwords
+  github_stars: 4207
+  github_forks: 1157
   github_is_organization: true
 - type: skills
   slug: openclaw-openclaw-bluente-translate
@@ -31,6 +43,18 @@
     - openclaw
     - source-awesome-openclaw-skills
     - category-pdf-documents
-  github_stars: 3179
-  github_forks: 905
+  github_stars: 4207
+  github_forks: 1157
+  github_is_organization: true
+- type: skills
+  slug: openclaw-openclaw-boss-ai-agent
+  source_url: https://raw.githubusercontent.com/openclaw/skills/main/skills/tonypk/boss-ai-agent/SKILL.md
+  title: boss-ai-agent
+  summary: AI management middleware with 14 mentors and 9 culture packs.
+  tags:
+    - openclaw
+    - source-awesome-openclaw-skills
+    - category-productivity-tasks
+  github_stars: 4207
+  github_forks: 1157
   github_is_organization: true
