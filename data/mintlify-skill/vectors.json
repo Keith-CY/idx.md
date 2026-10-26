@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "mintlify-skill",
-  "generated_at": "2026-10-24T11:43:25.757Z",
+  "generated_at": "2026-10-26T13:45:10.418Z",
   "records": [
     {
       "id": "skills/mintlify-skill#head",
@@ -15,7 +15,7 @@
         "title": "mintlify-skill",
         "tags": [],
         "source_url": "https://www.mintlify.com/docs/skill.md",
-        "retrieved_at": "2026-10-24T11:43:25.757Z",
+        "retrieved_at": "2026-10-26T13:45:10.418Z",
         "content_sha256": "cf52f2852b90beef89e1c34f0f073c08480904c8d2dd59d014082897545e5edc"
       }
     }

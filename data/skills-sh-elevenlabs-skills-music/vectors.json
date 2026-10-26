@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-elevenlabs-skills-music",
-  "generated_at": "2026-10-24T11:44:20.040Z",
+  "generated_at": "2026-10-26T13:48:15.821Z",
   "records": [
     {
       "id": "skills/skills-sh-elevenlabs-skills-music#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/elevenlabs/skills/HEAD/music/references/installation.md",
-        "retrieved_at": "2026-10-24T11:44:20.040Z",
+        "retrieved_at": "2026-10-26T13:48:15.821Z",
         "content_sha256": "bc434123987153fc0eb96409f503cee37c84b53a6ae95873ae85b368b2986bb9"
       }
     }

@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-apollographql-skills-apollo-mcp-server",
-  "generated_at": "2026-10-24T11:43:37.636Z",
+  "generated_at": "2026-10-26T13:45:40.564Z",
   "records": [
     {
       "id": "skills/skills-sh-apollographql-skills-apollo-mcp-server#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/apollographql/skills/HEAD/skills/apollo-mcp-server/references/tools.md",
-        "retrieved_at": "2026-10-24T11:43:37.636Z",
+        "retrieved_at": "2026-10-26T13:45:40.564Z",
         "content_sha256": "84aae2c6fd698fe19b41983dc4e197c434d209f7022d10d5f70d0dfe37033c7e"
       }
     }
