@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/javascript-sdk
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-10-26T13:44:37.052Z
+retrieved_at: 2026-10-27T12:52:01.248Z
 content_sha256: 81d7e3e42f5803e8e820edf19ca4b5e54c54ad18afa3c0be98b7d3949b8adbd8
 ---

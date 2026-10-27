@@ -5,6 +5,20 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.311
+
+  - Added `cacheCreationEphemeral5mInputTokens` and
+  `cacheCreationEphemeral1hInputTokens` to `ModelUsage`, splitting
+  `cacheCreationInputTokens` by cache lifetime
+
+  - Changed background start-up work to wait until the first model request is
+  sent, for about 10 seconds at most, when the first message arrives during
+  start-up
+
+  - Changed the minimum supported Node.js version from 18.0.0 to 18.14.0
+
+  - Updated to parity with Claude Code v2.1.311
+
   ## 0.3.310
 
   - Updated to parity with Claude Code v2.1.310
@@ -14,19 +28,6 @@ summary: >-
   - Fixed host-supplied `managedSettings` dropping `disableAllHooks`,
   `disableSkillShellExecution` and empty `allowedHttpHookUrls` /
   `httpHookAllowedEnvVars` lists
-
-  - Changed `extractFromBunfs()` to extract the embedded CLI into its own
-  per-user temp directory (`claude-agent-sdk-<uid>`, or `claude-agent-sdk` on
-  Windows) instead of Claude Code's temp root
-
-  - Changed `extractFromBunfs()` to reuse an already-extracted file only when
-  its bytes match the embedded binary, replacing it otherwise
-
-  - Updated to parity with Claude Code v2.1.309
-
-  ## 0.3.308
-
-  - Updated to parity with Claude Code v2.1.308
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -36,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-26T13:45:41.239Z
-content_sha256: 5651d2bb9d784833bdbfccb7bb3e3c294c5fcecf7f9e84b6687610fc4515b565
+retrieved_at: 2026-10-27T12:53:08.266Z
+content_sha256: b633e76515939e41ca84ff2e284204f0ba6558c70c8bd6f3fcfbd4c452514af7
 ---

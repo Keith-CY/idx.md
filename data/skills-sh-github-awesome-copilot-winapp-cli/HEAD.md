@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/winapp-cli
 github_stars: 932
 github_forks: 38
 github_is_organization: true
-retrieved_at: 2026-10-26T13:44:42.805Z
-content_sha256: aff5937514f16776c3e4b723890ae02673a8343e98135361dbbcc9aecc637e15
+retrieved_at: 2026-10-27T12:52:07.371Z
+content_sha256: 24fb1b3f5d93d9f83dfdffae5848fa76b5445b1110439549332cdaff12fefb4c
 ---
