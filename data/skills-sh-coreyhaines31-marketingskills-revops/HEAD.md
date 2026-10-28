@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/revops
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-10-27T12:52:02.778Z
-content_sha256: 89b5c51f0296977df1fccea20dc96e98e539cc1f2786b796fdb43e2a3d5b8219
+retrieved_at: 2026-10-28T13:40:37.005Z
+content_sha256: bf67eff377248f3d2239e25ec357e4f2e0b978fab7e8a85e818032a396fc7e6f
 ---

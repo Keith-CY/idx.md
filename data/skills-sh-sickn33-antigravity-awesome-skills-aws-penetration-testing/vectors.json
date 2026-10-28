@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-sickn33-antigravity-awesome-skills-aws-penetration-testing",
-  "generated_at": "2026-10-27T12:52:53.740Z",
+  "generated_at": "2026-10-28T13:41:01.259Z",
   "records": [
     {
       "id": "skills/skills-sh-sickn33-antigravity-awesome-skills-aws-penetration-testing#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/sickn33/antigravity-awesome-skills/HEAD/skills/aws-penetration-testing/references/advanced-aws-pentesting.md",
-        "retrieved_at": "2026-10-27T12:52:53.740Z",
+        "retrieved_at": "2026-10-28T13:41:01.259Z",
         "content_sha256": "1addcca71a17ec7cef0565ed37b43e3cee90b9b23fe5a80d03a0acfa7741c9bc"
       }
     }
