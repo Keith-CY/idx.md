@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/firecrawl/cli/firecrawl-browser
 github_stars: 197
 github_forks: 28
 github_is_organization: true
-retrieved_at: 2026-10-28T13:40:42.530Z
+retrieved_at: 2026-10-29T13:51:15.188Z
 content_sha256: beadacd5032c3d534f6c142190fb2c347c2e99e040e9a48d3f832b861592f813
 ---

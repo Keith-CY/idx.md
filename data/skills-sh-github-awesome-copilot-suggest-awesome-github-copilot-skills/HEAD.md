@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/suggest-awesome-github-co
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-10-28T13:40:40.532Z
-content_sha256: 8b2dbabda91efdf84b70081feb845d8a335a1be1e84a225aaf3d2ca49562bf6e
+retrieved_at: 2026-10-29T13:51:11.693Z
+content_sha256: 0988ff3a66ca97539e53c78d9121141beb461d1c4282cef90f7de189294701b6
 ---

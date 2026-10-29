@@ -37,6 +37,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/copywriting
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-10-28T13:40:33.257Z
+retrieved_at: 2026-10-29T13:50:59.886Z
 content_sha256: 4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441
 ---
