@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-coreyhaines31-marketingskills-copywriting",
-  "generated_at": "2026-10-29T13:50:59.886Z",
+  "generated_at": "2026-10-30T13:43:21.415Z",
   "records": [
     {
       "id": "skills/skills-sh-coreyhaines31-marketingskills-copywriting#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/HEAD/skills/copywriting/references/copy-frameworks.md",
-        "retrieved_at": "2026-10-29T13:50:59.886Z",
+        "retrieved_at": "2026-10-30T13:43:21.415Z",
         "content_sha256": "4db06c481a904be3e4571ad8f671532c97ec186ddf0fb8aee3e3a56ef8e3d441"
       }
     }

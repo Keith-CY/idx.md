@@ -26,10 +26,13 @@ summary: >-
   apply to every task. For detailed reference on specific topics, read the files
   listed in the reference index below.
 
-  ## Reference index
+  The Mintlify CLI also prints current guidance on completing specific tasks in
+  Mintlify, fetched from the live documentation. Run `mint instructions` to list
+  topics, then `mint instructions <topic>` to fetch instructions. If the command
+  is unknown, run `npx mint@latest instructions`. When it differs from this
+  file, follow `mint instructions`.
 
-  Read these **only when your task requires them**. Each links to a Mintlify
-  documentation page or, for agent workflow guidance, the source file on GitHub.
+  ## Reference index
 tags: []
 source_url: https://www.mintlify.com/docs/skill.md
 license: ""
@@ -37,6 +40,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-29T13:51:37.513Z
-content_sha256: 71fa79f7ddf134cba2a3eb3dee5abdd487a50e854e6d501a101e72ce524471e7
+retrieved_at: 2026-10-30T13:43:47.933Z
+content_sha256: 8ed0d7a0ed1ade0b5b49b7ead87729b34a964eb3dfac45b1877679c2d4694042
 ---
