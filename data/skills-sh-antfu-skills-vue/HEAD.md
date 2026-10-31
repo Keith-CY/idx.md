@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/antfu/skills/vue
 github_stars: 4218
 github_forks: 211
 github_is_organization: false
-retrieved_at: 2026-10-30T13:43:24.408Z
+retrieved_at: 2026-10-31T13:12:22.546Z
 content_sha256: f83bf0744905cbfe5b91aaaf5e5f4bb6de8eb76e3bf2f0d92280393f7b6a055b
 ---

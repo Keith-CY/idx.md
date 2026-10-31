@@ -5,6 +5,19 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.316
+
+  - Added `permissions.blockReadsExemptPaths` to the `Settings` type: paths,
+  read only from `--settings` and settings the host sends, that
+  `blockReadsOutsideWorkingDirectories` lets through without making them working
+  directories
+
+  - Updated to parity with Claude Code v2.1.316
+
+  ## 0.3.315
+
+  - Updated to parity with Claude Code v2.1.315
+
   ## 0.3.314
 
   - Added `sandbox_required_unavailable` to `startup_failure_reason`, for the
@@ -15,17 +28,6 @@ summary: >-
 
   - Added `prewarm()` (alpha) to the `@anthropic-ai/claude-agent-sdk/core` entry
   point
-
-  - Fixed a settings file left out of `settingSources` still supplying some
-  settings, such as auto mode rules and saved permission consents
-
-  - Updated to parity with Claude Code v2.1.314
-
-  ## 0.3.313
-
-  - Updated to parity with Claude Code v2.1.313
-
-  ## 0.3.312
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -35,6 +37,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-30T13:44:06.390Z
-content_sha256: 0ab24f0e7998d5f77fe71e9b96b754d432c4178fcabd0c18e010420cb16665f9
+retrieved_at: 2026-10-31T13:13:27.350Z
+content_sha256: 7e534c9009b67144d9f0fa643575bb00eccf3e67d8c1ac87df9106d9660b0391
 ---

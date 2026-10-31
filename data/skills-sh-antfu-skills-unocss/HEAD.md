@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/antfu/skills/unocss
 github_stars: 3597
 github_forks: 169
 github_is_organization: false
-retrieved_at: 2026-10-30T13:44:11.676Z
+retrieved_at: 2026-10-31T13:13:36.235Z
 content_sha256: 3e8f96fafb6f1e64a6c81044d1bdc2f1ef70804baa6387ddfdc18352c6b92a25
 ---

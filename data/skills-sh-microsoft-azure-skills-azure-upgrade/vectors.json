@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-microsoft-azure-skills-azure-upgrade",
-  "generated_at": "2026-10-30T13:43:21.752Z",
+  "generated_at": "2026-10-31T13:12:18.876Z",
   "records": [
     {
       "id": "skills/skills-sh-microsoft-azure-skills-azure-upgrade#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/microsoft/azure-skills/HEAD/.github/plugins/azure-skills/skills/azure-upgrade/references/global-rules.md",
-        "retrieved_at": "2026-10-30T13:43:21.752Z",
+        "retrieved_at": "2026-10-31T13:12:18.876Z",
         "content_sha256": "c9c6e791c88c907bb978289dfe01d99aee4eba2a7b294b7c84271d478da42e3d"
       }
     }
