@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4",
-  "generated_at": "2026-10-31T13:12:59.521Z",
+  "generated_at": "2026-11-02T16:42:01.699Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4#head",
       "kind": "head",
       "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4/HEAD.md",
-      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4\nsummary: # Partial Workflows Options to run specific parts of the workflow. ## Options Summary | Option | Steps Executed | Output | |--------|----------------|--------| | `--storyboard-only` | 1-3 | `storyboard.md` + `characters/` | | `--prompts-only` | 1-5 | + `prompts/*.md` | | `--images-only` | 7-9 | + images + PDF | | `--regenerate N` | 7 (partial) | Specific page(s) + PDF | ---\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-comic/references/partial-workflows.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4\nsummary: # Partial Workflows | Option | Steps Executed | Output | |--------|----------------|--------| | `--storyboard-only` | 1-3 | `storyboard.md` + `characters/` | | `--prompts-only` | 1-5 | + `prompts/*.md` | | `--images-only` | 7-9 | + images + PDF | | `--regenerate N` | 7 (partial) | Specific page(s) + PDF | ## `--storyboard-only` ```bash /baoyu-comic content.md --storyboard-only\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-comic/references/partial-workflows.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4",
         "topic": "skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-comic/references/partial-workflows.md",
-        "retrieved_at": "2026-10-31T13:12:59.521Z",
-        "content_sha256": "b4930b48fa45d58b149a1700305bf2dd90e90b9e42f6d9f896659f73a73f98f6"
+        "retrieved_at": "2026-11-02T16:42:01.699Z",
+        "content_sha256": "4e9e697e957d74d55813ff20a21327f1ab645a25b359c0ed763c1af25259e523"
       }
     }
   ]

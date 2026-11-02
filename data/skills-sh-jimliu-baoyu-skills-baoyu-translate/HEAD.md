@@ -5,9 +5,7 @@ title: skills-sh-jimliu-baoyu-skills-baoyu-translate
 summary: >-
   # EXTEND.md Schema for baoyu-translate
 
-  ## Format
-
-  EXTEND.md uses YAML format:
+  YAML format:
 
   ```yaml
 
@@ -23,6 +21,8 @@ summary: >-
 
   audience: general  # general | technical | academic | business | or custom
   string
+
+  # Translation style preference
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-translate
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-10-31T13:12:31.426Z
-content_sha256: ba3677cf40bb5063f450927b4fcde2f361a832e6a8632604a270df8372884593
+retrieved_at: 2026-11-02T16:41:38.853Z
+content_sha256: d26f87b129ff26a2d8d268aa2f9ce48a9bb49b857a07e3626249aceaf49572da
 ---

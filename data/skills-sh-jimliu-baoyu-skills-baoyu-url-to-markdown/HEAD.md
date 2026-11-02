@@ -13,16 +13,18 @@ summary: >-
 
   # First-Time Setup
 
-  ## Overview
+  **BLOCKING**: runs when no EXTEND.md is found and must finish before any
+  conversion. Ask only these questions (don't start converting or ask about
+  URLs/output paths), save EXTEND.md, then continue.
 
-  When no EXTEND.md is found, guide user through preference setup.
+  ## Questions
 
-  **BLOCKING OPERATION**: This setup MUST complete before ANY other workflow
-  steps. Do NOT:
+  Use the user's input language (or saved language preference). Ask all
+  questions in ONE call:
 
-  - Start converting URLs
+  ### Question 1: Download Media
 
-  - Ask about URLs or output paths
+  ```yaml
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +34,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-10-31T13:12:23.422Z
-content_sha256: 571620de72538e8b4f247a63e6db27ce5a27495d1283015ec16c1076d91811cc
+retrieved_at: 2026-11-02T16:41:31.594Z
+content_sha256: 4702a513e4de22d43536f0c71b3cd952e6f8f8c92cf2619e490b2f7a3a739171
 ---

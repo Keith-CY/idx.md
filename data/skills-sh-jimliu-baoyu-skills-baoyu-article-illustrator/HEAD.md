@@ -8,13 +8,8 @@ summary: >-
   `--preset X` expands to a type + style + optional palette combination. Users
   can override any dimension.
 
-  ## Default Preset
-
-  When content analysis surfaces no strong signal (generic knowledge article,
-  mixed-topic post, no clear data/comparison/narrative cue), recommend
-  **`hand-drawn-edu`** as the primary option in Step 3 Q1. It is the warm,
-  friendly educational-infographic default — safe for most articles and
-  universally readable.
+  **Default**: when content analysis surfaces no strong signal, recommend
+  **`hand-drawn-edu`** as the primary option in Step 3 Q1.
 
   ## By Category
 
@@ -29,6 +24,9 @@ summary: >-
 
   | `system-design` | `framework` | `blueprint` | — | Architecture diagrams,
   system design |
+
+  | `architecture` | `framework` | `vector-illustration` | — | Component
+  relationships, module structure |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -38,6 +36,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-10-31T13:12:21.931Z
-content_sha256: 4dd2b3b6fc176b9fbb862245cc9f73bbcf4c317c9faed7be061954a752214cc9
+retrieved_at: 2026-11-02T16:41:30.117Z
+content_sha256: 8e48f0f57c9810f8a7312f01f4aa3c64270636269cea893f706355fc326f3996
 ---

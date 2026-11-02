@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
-  "generated_at": "2026-10-31T13:12:23.422Z",
+  "generated_at": "2026-11-02T16:41:31.594Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown#head",
       "kind": "head",
       "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown/HEAD.md",
-      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown\nsummary: --- name: first-time-setup description: First-time setup flow for baoyu-url-to-markdown preferences --- # First-Time Setup ## Overview When no EXTEND.md is found, guide user through preference setup. **BLOCKING OPERATION**: This setup MUST complete before ANY other workflow steps. Do NOT: - Start converting URLs - Ask about URLs or output paths\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown\nsummary: --- name: first-time-setup description: First-time setup flow for baoyu-url-to-markdown preferences --- # First-Time Setup **BLOCKING**: runs when no EXTEND.md is found and must finish before any conversion. Ask only these questions (don't start converting or ask about URLs/output paths), save EXTEND.md, then continue. ## Questions Use the user's input language (or saved language preference). Ask all questions in ONE call: ### Question 1: Download Media ```yaml\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
         "topic": "skills-sh-jimliu-baoyu-skills-baoyu-url-to-markdown",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-url-to-markdown/references/config/first-time-setup.md",
-        "retrieved_at": "2026-10-31T13:12:23.422Z",
-        "content_sha256": "571620de72538e8b4f247a63e6db27ce5a27495d1283015ec16c1076d91811cc"
+        "retrieved_at": "2026-11-02T16:41:31.594Z",
+        "content_sha256": "4702a513e4de22d43536f0c71b3cd952e6f8f8c92cf2619e490b2f7a3a739171"
       }
     }
   ]

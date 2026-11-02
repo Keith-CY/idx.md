@@ -13,16 +13,18 @@ summary: >-
 
   # First-Time Setup
 
-  ## Overview
+  **BLOCKING**: when no EXTEND.md exists, complete this setup before ANY other
+  step — don't ask about content, files, themes or methods, and don't convert or
+  publish. Ask only these questions, save EXTEND.md, then continue.
 
-  When no EXTEND.md is found, guide user through preference setup.
+  ## Questions
 
-  **BLOCKING OPERATION**: This setup MUST complete before ANY other workflow
-  steps. Do NOT:
+  Use the user's language (or saved language preference). Ask ALL questions in
+  ONE AskUserQuestion call:
 
-  - Ask about content or files to publish
+  ### Question 1: Default Theme
 
-  - Ask about themes or publishing methods
+  ```yaml
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -32,6 +34,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-10-31T13:12:20.839Z
-content_sha256: 2dc9a4b9b294d6683ca2079fedbc5426955d94a05d4ff97b2a079182df97f986
+retrieved_at: 2026-11-02T16:41:29.120Z
+content_sha256: e2f61d4155a96815ffdfed5aebc61785203b5a46922ed730b46803d080277366
 ---

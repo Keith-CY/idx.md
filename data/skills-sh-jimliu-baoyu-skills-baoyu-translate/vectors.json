@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-translate",
-  "generated_at": "2026-10-31T13:12:31.426Z",
+  "generated_at": "2026-11-02T16:41:38.853Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-translate#head",
       "kind": "head",
       "path": "/data/skills-sh-jimliu-baoyu-skills-baoyu-translate/HEAD.md",
-      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-translate\nsummary: # EXTEND.md Schema for baoyu-translate ## Format EXTEND.md uses YAML format: ```yaml # Default target language (ISO code or common name) target_language: zh-CN # Default translation mode default_mode: normal # quick | normal | refined # Target audience (affects annotation depth and register) audience: general # general | technical | academic | business | or custom string\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md",
+      "text": "title: skills-sh-jimliu-baoyu-skills-baoyu-translate\nsummary: # EXTEND.md Schema for baoyu-translate YAML format: ```yaml # Default target language (ISO code or common name) target_language: zh-CN # Default translation mode default_mode: normal # quick | normal | refined # Target audience (affects annotation depth and register) audience: general # general | technical | academic | business | or custom string # Translation style preference\ntype: skills\ntags: skills-sh, skills-sh-all-time\nsource_url: https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md",
       "metadata": {
         "stable_id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-translate",
         "topic": "skills-sh-jimliu-baoyu-skills-baoyu-translate",
@@ -18,8 +18,8 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/HEAD/skills/baoyu-translate/references/config/extend-schema.md",
-        "retrieved_at": "2026-10-31T13:12:31.426Z",
-        "content_sha256": "ba3677cf40bb5063f450927b4fcde2f361a832e6a8632604a270df8372884593"
+        "retrieved_at": "2026-11-02T16:41:38.853Z",
+        "content_sha256": "d26f87b129ff26a2d8d268aa2f9ce48a9bb49b857a07e3626249aceaf49572da"
       }
     }
   ]

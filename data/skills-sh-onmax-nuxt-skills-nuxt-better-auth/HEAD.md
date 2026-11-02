@@ -11,7 +11,7 @@ summary: |-
   Required files:
   - `server/auth.config.ts`
   - `app/auth.config.ts` or the equivalent file inside your `srcDir`
-  - `.env` with `NUXT_BETTER_AUTH_SECRET`
+  - `.env` with `NUXT_APP_SECRET` (Nuxt 4.6+) or `NUXT_BETTER_AUTH_SECRET`
   ## Environment variables
 tags:
   - skills-sh
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/nuxt-better-auth
 github_stars: 564
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-10-31T13:15:50.726Z
-content_sha256: 9d532d346d2409e9918ff83281ff2e69b11bde932c8f801208d9c455df65e43d
+retrieved_at: 2026-11-02T16:44:29.897Z
+content_sha256: 3e8eb4c12cf846448cb7b7f25d0dc0dd895aff3407d21ff511a408563f2b47d9
 ---

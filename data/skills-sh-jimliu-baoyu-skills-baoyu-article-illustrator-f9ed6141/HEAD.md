@@ -7,8 +7,6 @@ summary: >-
 
   ## Core Styles
 
-  Simplified style tier for quick selection:
-
   | Core Style | Maps To | Best For |
 
   |------------|---------|----------|
@@ -25,6 +23,8 @@ summary: >-
   | `sci-fi` | blueprint | AI, frontier tech, system design |
 
   | `editorial` | editorial | Processes, data, journalism |
+
+  | `scene` | warm/watercolor | Narratives, emotional, lifestyle |
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-10-31T13:12:59.189Z
-content_sha256: f11809de146dd728d7878e5992f11b46d925c7bd659538022a302d2282931f9a
+retrieved_at: 2026-11-02T16:42:01.474Z
+content_sha256: 9dab264a9d5a52c503432107d9d6c851480a0abb8b095d442c2838c8e357f4aa
 ---

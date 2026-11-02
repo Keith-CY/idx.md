@@ -14,16 +14,17 @@ summary: >-
 
   # First-Time Setup
 
-  ## Overview
-
   Triggered when:
 
-  1. No EXTEND.md found → full setup (provider + model + preferences)
+  1. No EXTEND.md found → full setup (Flow 1), create EXTEND.md
 
-  2. EXTEND.md found but `default_model.[provider]` is null → model selection
-  only
+  2. EXTEND.md found but `default_model.[provider]` is null → model question
+  only (Flow 2), update EXTEND.md
 
-  ## Setup Flow
+  Then continue with generation. Ask in the user's input language or saved
+  language preference.
+
+  ## Flow 1: Full Setup
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +34,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-image-gen
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-10-31T13:12:21.071Z
-content_sha256: 0b2a498e43305b0c2b6c13502dce1ecf48eef7893525dad1fdd4e121d146458e
+retrieved_at: 2026-11-02T16:41:29.326Z
+content_sha256: 31752a4bdb7d106bca9eb91f158e8c6caaf42303671ad65373575d255ce5f91e
 ---
