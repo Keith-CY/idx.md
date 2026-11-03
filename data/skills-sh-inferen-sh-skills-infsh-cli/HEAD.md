@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/infsh-cli
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-11-02T16:41:26.116Z
+retrieved_at: 2026-11-03T14:45:25.135Z
 content_sha256: 27eb823038ff84bd8b1510dc6606109e32214f18472ab739bdd14db48601b9c8
 ---

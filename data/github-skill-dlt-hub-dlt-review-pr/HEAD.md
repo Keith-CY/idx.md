@@ -16,6 +16,6 @@ upstream_ref: https://github.com/dlt-hub/dlt/blob/devel/.claude/skills/review-pr
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-02T16:41:49.070Z
+retrieved_at: 2026-11-03T14:45:48.725Z
 content_sha256: 8b27824183e2da0b4f1bbf68918fb2c7fce71a87c64ee69a71fc41804959823c
 ---

@@ -5,29 +5,33 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.316
+  ## 0.3.317
 
-  - Added `permissions.blockReadsExemptPaths` to the `Settings` type: paths,
-  read only from `--settings` and settings the host sends, that
-  `blockReadsOutsideWorkingDirectories` lets through without making them working
-  directories
+  - Added `onFailure` to hook matchers: with `"block"`, a hook that throws or
+  returns invalid output blocks the action
 
-  - Updated to parity with Claude Code v2.1.316
+  - Added a warning message in the stream when a hook callback fails
 
-  ## 0.3.315
+  - Added a `session_writes_lost` system message, sent after the last result
+  when a full disk or disk quota kept the CLI from saving the session transcript
+  or ~/.claude.json
 
-  - Updated to parity with Claude Code v2.1.315
+  - Added `initialize_not_first` to `startup_failure_reason`, for a
+  `--await-initialize` launch whose first stdin line is not the initialize
+  request
 
-  ## 0.3.314
+  - Added `task.description` to the TaskCreate tool's `tool_use_result`: the
+  description the task was created with
 
-  - Added `sandbox_required_unavailable` to `startup_failure_reason`, for the
-  result Claude Code writes when a required sandbox cannot run
+  - Added `lossy` to `readFile()` utf-8 answers: `true` when decoding replaced
+  bytes that are not valid UTF-8
 
-  - Added `permissions.blockWritesOutsideWorkingDirectories` to the `Settings`
-  type
+  - Removed the `file_unchanged` variant of `FileReadOutput` in
+  `sdk-tools.d.ts`; a repeated Read now returns the file content
 
-  - Added `prewarm()` (alpha) to the `@anthropic-ai/claude-agent-sdk/core` entry
-  point
+  - Fixed `setMcpServers` closing a folder's `.mcp.json` and local-scope MCP
+  servers in sessions started with `prewarm()` and bound with
+  `SpareProcess.claim()`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -37,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-02T16:42:26.970Z
-content_sha256: 7e534c9009b67144d9f0fa643575bb00eccf3e67d8c1ac87df9106d9660b0391
+retrieved_at: 2026-11-03T14:46:27.861Z
+content_sha256: e9a0ab545a4d47910f5f137c9bfc64f10bf8ab1c92ad609854fb3d5d08158409
 ---
