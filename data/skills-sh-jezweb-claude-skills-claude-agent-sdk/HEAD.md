@@ -5,33 +5,30 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
+  ## 0.3.318
+
+  - Added an optional `credential_expires_at` field to result messages: when the
+  stored claude.ai sign-in in use ends
+
+  - Added the `config_file_invalid` startup failure reason, reported when a
+  configuration file read at startup isn't valid JSON
+
+  - Fixed the interrupt response missing a message held behind a model change:
+  it is now listed, cancelled with `cancel_queued`, and stopped at start-up as a
+  queued message is
+
+  - Changed `agentProgressSummaries`: while the subagent waits for a response on
+  a likely-cold prompt cache, a summary can wait up to 5 minutes, and is not
+  sent if the subagent ends first
+
+  - Changed `status` in `PushNotificationInput` to optional
+
+  - Updated to parity with Claude Code v2.1.318
+
   ## 0.3.317
 
   - Added `onFailure` to hook matchers: with `"block"`, a hook that throws or
   returns invalid output blocks the action
-
-  - Added a warning message in the stream when a hook callback fails
-
-  - Added a `session_writes_lost` system message, sent after the last result
-  when a full disk or disk quota kept the CLI from saving the session transcript
-  or ~/.claude.json
-
-  - Added `initialize_not_first` to `startup_failure_reason`, for a
-  `--await-initialize` launch whose first stdin line is not the initialize
-  request
-
-  - Added `task.description` to the TaskCreate tool's `tool_use_result`: the
-  description the task was created with
-
-  - Added `lossy` to `readFile()` utf-8 answers: `true` when decoding replaced
-  bytes that are not valid UTF-8
-
-  - Removed the `file_unchanged` variant of `FileReadOutput` in
-  `sdk-tools.d.ts`; a repeated Read now returns the file content
-
-  - Fixed `setMcpServers` closing a folder's `.mcp.json` and local-scope MCP
-  servers in sessions started with `prewarm()` and bound with
-  `SpareProcess.claim()`
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +38,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-03T14:46:27.861Z
-content_sha256: e9a0ab545a4d47910f5f137c9bfc64f10bf8ab1c92ad609854fb3d5d08158409
+retrieved_at: 2026-11-04T14:59:01.820Z
+content_sha256: ace0dee0ab153f2395e88e8e659ce1970a0f181307face9a86c5fa4f2157f7a8
 ---

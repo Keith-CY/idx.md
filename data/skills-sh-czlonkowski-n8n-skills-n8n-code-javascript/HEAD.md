@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-code-javascript
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-03T14:46:40.370Z
+retrieved_at: 2026-11-04T14:59:14.637Z
 content_sha256: a312c301a1501eb26417e115933f1a05bc8d10132e43687948a0718cc6288d35
 ---

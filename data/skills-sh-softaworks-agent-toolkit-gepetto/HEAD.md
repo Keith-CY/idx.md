@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/softaworks/agent-toolkit/gepetto
 github_stars: 716
 github_forks: 56
 github_is_organization: true
-retrieved_at: 2026-11-03T14:48:26.218Z
+retrieved_at: 2026-11-04T15:01:30.710Z
 content_sha256: d219729ce530953d53aeb0a0831567a577981ee79df4f713c01845ced6214163
 ---

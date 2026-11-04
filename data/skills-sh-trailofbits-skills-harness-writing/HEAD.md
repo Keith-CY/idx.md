@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/harness-writing
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-03T14:48:31.208Z
+retrieved_at: 2026-11-04T15:01:37.053Z
 content_sha256: 8d02acadc413ae8aca770761382c32a0d468a4616ecca91bcabe171c0c89587a
 ---
