@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4",
-  "generated_at": "2026-11-04T14:58:31.518Z",
+  "generated_at": "2026-11-05T15:04:06.326Z",
   "records": [
     {
       "id": "skills/skills-sh-jimliu-baoyu-skills-baoyu-comic-901918a4#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/jimliu/baoyu-skills/main/skills/baoyu-comic/references/partial-workflows.md",
-        "retrieved_at": "2026-11-04T14:58:31.518Z",
+        "retrieved_at": "2026-11-05T15:04:06.326Z",
         "content_sha256": "4e9e697e957d74d55813ff20a21327f1ab645a25b359c0ed763c1af25259e523"
       }
     }

@@ -19,8 +19,7 @@ summary: >-
 
   > **pnpm v12 is a Rust rewrite** of v11, stable, keeping v11's commands,
   flags, settings, and lockfile format. A few behaviors differ (see
-  best-practices-migration). One removed flag fails outright: `pnpm install
-  --resolution-only` is gone — use `pnpm peers check`.
+  best-practices-migration).
 
   ## Installation Commands
 
@@ -36,6 +35,6 @@ upstream_ref: https://skills.sh/antfu/skills/pnpm
 github_stars: 3463
 github_forks: 159
 github_is_organization: false
-retrieved_at: 2026-11-04T14:58:55.065Z
-content_sha256: 1527737245a0183c241cf0fdf8bd5cdd18501bd2befbb0085b7a6358f8a1ef9a
+retrieved_at: 2026-11-05T15:04:32.031Z
+content_sha256: 1b0b33b75d982353cc98a9c8a65bb08cf3ae1cee31056f2334e18a77a87a97c2
 ---

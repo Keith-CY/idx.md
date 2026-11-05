@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/czlonkowski/n8n-skills/n8n-workflow-patterns
 github_stars: 3640
 github_forks: 635
 github_is_organization: false
-retrieved_at: 2026-11-04T14:58:09.758Z
+retrieved_at: 2026-11-05T15:03:36.133Z
 content_sha256: 83da6dc3de2c340b37eb4bbf97d14d893cd5e664bcc03d9b9f1d35532ff9b040
 ---

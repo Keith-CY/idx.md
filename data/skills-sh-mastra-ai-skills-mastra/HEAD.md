@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/mastra-ai/skills/mastra
 github_stars: 35
 github_forks: 3
 github_is_organization: true
-retrieved_at: 2026-11-04T14:57:58.841Z
-content_sha256: b7f2e7fe5dc4aaf091d1e2df42c0eff3a2cb72267870383cb56aca5ba283e6d6
+retrieved_at: 2026-11-05T15:03:12.109Z
+content_sha256: 3cc7a4367f7bc9c010329fa15e506adf606fa290d16fac85b0ce9ea13a5b0277
 ---
