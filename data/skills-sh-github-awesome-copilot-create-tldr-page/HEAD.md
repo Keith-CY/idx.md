@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/create-tldr-page
 github_stars: 0
 github_forks: 0
 github_is_organization: false
-retrieved_at: 2026-11-05T15:03:18.244Z
+retrieved_at: 2026-11-06T14:42:16.279Z
 content_sha256: 5cc833305da2df33386f2085fa907385d5d29d82d8f7f2dc87476d760c9e5b25
 ---

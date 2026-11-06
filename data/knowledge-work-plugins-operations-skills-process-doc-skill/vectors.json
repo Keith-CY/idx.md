@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-operations-skills-process-doc-skill",
-  "generated_at": "2026-11-05T15:07:15.368Z",
+  "generated_at": "2026-11-06T14:43:29.646Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-operations-skills-process-doc-skill#head",
@@ -20,7 +20,7 @@
           "plugin-skill"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/operations/skills/process-doc/SKILL.md",
-        "retrieved_at": "2026-11-05T15:07:15.368Z",
+        "retrieved_at": "2026-11-06T14:43:29.646Z",
         "content_sha256": "fceeeddb363e813ba831f9f2de1adb4c7e45ad179366bbb9ea9e40377abe96a9"
       }
     }

@@ -41,6 +41,6 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-jsx-best-practices
 github_stars: 1988
 github_forks: 104
 github_is_organization: true
-retrieved_at: 2026-11-05T15:03:33.878Z
+retrieved_at: 2026-11-06T14:42:18.635Z
 content_sha256: da8c635b448b23360bf1c53eea02b004bb755a712a0325c8851f9c33a072c834
 ---
