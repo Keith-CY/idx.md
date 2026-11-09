@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/app-builder
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-07T13:40:35.200Z
+retrieved_at: 2026-11-09T17:00:36.502Z
 content_sha256: ab1216024dafc747c61a5aa1164ea3d1b278eb7f92381cd8a5ca93e41f2bc81c
 ---

@@ -19,6 +19,6 @@ upstream_ref: https://github.com/coreyhaines31/marketingskills/blob/main/skills/
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-07T13:40:04.849Z
+retrieved_at: 2026-11-09T16:59:44.920Z
 content_sha256: 5fbbf874bcc65cbc8b527bd6074a21168c73e191e1bc2c124438dfae710ccf04
 ---

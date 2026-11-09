@@ -7,30 +7,26 @@ summary: >-
 
   name: convex-best-practices
 
-  description: Production patterns for Convex apps and the rules the
-  @convex-dev/eslint-plugin enforces: validators, indexes, idempotent mutations,
-  avoiding OCC conflicts, thin function wrappers, error handling. Use when
-  reviewing Convex code, asking whether a pattern is right, setting up ESLint,
-  or fixing write conflicts and slow queries.
+  description: "Retired. Points to the skill that replaced convex-best-practices
+  in builder-skills 3.0. Use when /convex-best-practices is invoked by name or
+  the user asks where convex-best-practices went."
 
   ---
 
-  # Convex best practices
+  # convex-best-practices (retired)
 
-  The patterns that keep a Convex app fast and correct in production. The rule
-  that matters most: read as little as possible before you write, and read
-  through an index.
+  This skill moved. Use `convex-reviewer` (official Convex) and
+  `convex-optimize` (official Convex) instead. Tell the user this, then load the
+  replacement if it is installed.
 
-  ## Rules that matter most
+  Install the replacement:
 
-  1. Validators on every function. `args` and `returns`, with `returns:
-  v.null()` when nothing comes back.
+  ```bash
 
-  2. Indexes, not filters. Every table read goes through `withIndex` against an
-  index in `convex/schema.ts`.
+  npx skills add convex/agent-skills --skill convex-reviewer --skill
+  convex-optimize
 
-  3. Idempotent mutations. Return early when the document is already in the
-  target state so retries are safe.
+  ```
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +36,6 @@ upstream_ref: https://skills.sh/waynesutton/convexskills/convex-functions
 github_stars: 335
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-11-07T13:42:43.580Z
-content_sha256: 90160ccaa0a95a08527ef1b67a240731ce411cd3266c1f9f6ba3c1bcc5ba390d
+retrieved_at: 2026-11-09T17:03:13.587Z
+content_sha256: f17409082b0fbf9ce5a826c12ea589e035df6039ec5715fc7fe9d71bd148e151
 ---

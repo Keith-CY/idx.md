@@ -12,7 +12,7 @@ Set up a complete E2E testing infrastructure for a TypeScript/NestJS project wit
 ## When to Use
 
 - Setting up E2E testing for a new project
-- Configuring docker-compose for testing (Kafka, PostgreSQL, MongoDB, Redis)
+- Configuring Docker Compose for testing (Kafka, PostgreSQL, MongoDB, Redis)
 - Creating jest-e2e.config.ts or E2E Jest configuration
 - Setting up test helpers for database, Kafka, or Redis
 - Configuring .env.e2e environment variables
