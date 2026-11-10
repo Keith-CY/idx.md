@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-waynesutton-convexskills-convex-functions",
-  "generated_at": "2026-11-09T17:03:13.587Z",
+  "generated_at": "2026-11-10T15:21:53.836Z",
   "records": [
     {
       "id": "skills/skills-sh-waynesutton-convexskills-convex-functions#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/waynesutton/convexskills/HEAD/skills/convex-best-practices/SKILL.md",
-        "retrieved_at": "2026-11-09T17:03:13.587Z",
+        "retrieved_at": "2026-11-10T15:21:53.836Z",
         "content_sha256": "f17409082b0fbf9ce5a826c12ea589e035df6039ec5715fc7fe9d71bd148e151"
       }
     }

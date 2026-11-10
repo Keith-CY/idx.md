@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/playwright-sk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-09T16:59:40.179Z
+retrieved_at: 2026-11-10T15:19:17.995Z
 content_sha256: 0fe07d3357155e2ce889b5b05ff6f7d5083e830539e3dc63b0980620062e7f50
 ---

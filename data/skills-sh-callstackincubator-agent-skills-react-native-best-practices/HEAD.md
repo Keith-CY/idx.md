@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/callstackincubator/agent-skills/react-native-bes
 github_stars: 1047
 github_forks: 61
 github_is_organization: true
-retrieved_at: 2026-11-09T16:59:26.899Z
+retrieved_at: 2026-11-10T15:19:04.945Z
 content_sha256: 4d62b3a9d6325fc77cdc4fc18597d9e5d241e5afd37f9284babf0fc69ce0def7
 ---

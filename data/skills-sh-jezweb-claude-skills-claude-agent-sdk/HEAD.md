@@ -5,32 +5,31 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.319
+  ## 0.3.322
 
-  - Added MCP task support in SDK sessions (not on Bedrock, Vertex or Foundry):
-  with `CLAUDE_AUTO_BACKGROUND_TASKS=1` and streaming input, an MCP task runs in
-  the background with `task_type` `"mcp_task"`
+  - Updated to parity with Claude Code v2.1.322
 
-  - Fixed the OpenTelemetry `claude_code.session.count` metric counting
-  `prewarm()` processes that were never claimed; a pre-started process now
-  counts once, when `SpareProcess.claim()` succeeds
+  ## 0.3.321
 
-  - Fixed `session_writes_lost` listing the wrong session in
-  `transcript_session_ids` after `/clear` in a session resumed from a transcript
-  file outside the projects folder
+  - Fixed `canUseTool` getting the app's own PreToolUse hook reason in
+  `decisionReason` when another hook also asked
 
-  - Improved `deleteSession()` to reject with `ENOTEMPTY` if the session's
-  folder could not be fully deleted
+  - Fixed a PreToolUse hook's `ask` being lost when another hook's `defer`
+  finished first and could not be honored
 
-  - Changed `session_writes_lost` to be sent only when the CLI exits 0; a run
-  that ends on an error result now gets only the stderr line
+  - Fixed every hook being dropped when one event in the `hooks` option is set
+  to `undefined`
 
-  - Updated to parity with Claude Code v2.1.319
+  - Fixed `WarmQuery.query()` with a string prompt hanging after `startup()`
+  with `resume` when the resumed session finished a turn of its own before the
+  prompt was sent
 
-  ## 0.3.318
+  - Fixed `setMcpServers` closing a folder's `.mcp.json` or local-scope MCP
+  server when passed an in-process server of the same name, in sessions bound
+  with `SpareProcess.claim()`
 
-  - Added an optional `credential_expires_at` field to result messages: when the
-  stored claude.ai sign-in in use ends
+  - Fixed `reloadSkills()`, `reloadPlugins()` and `system/init` dropping project
+  skills, commands or agents that a worktree lacks after Claude entered it
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -40,6 +39,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-09T17:00:48.136Z
-content_sha256: 462dd97caf179d45f8603f29dc6921640509b03f393ecc651257939591684223
+retrieved_at: 2026-11-10T15:20:08.849Z
+content_sha256: d93c72c484a1161bea79adcbf512fb4ce54fa46a39dce3d8efea43448ef31629
 ---
