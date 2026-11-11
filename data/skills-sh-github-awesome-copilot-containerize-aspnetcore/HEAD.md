@@ -5,14 +5,14 @@ title: skills-sh-github-awesome-copilot-containerize-aspnetcore
 summary: |-
   # .NET SDK
   ## Featured Tags
+  * `11.0` (Standard Support)
+    * `docker pull mcr.microsoft.com/dotnet/sdk:11.0`
   * `10.0` (Long-Term Support)
     * `docker pull mcr.microsoft.com/dotnet/sdk:10.0`
-  * `9.0` (Standard Support)
-    * `docker pull mcr.microsoft.com/dotnet/sdk:9.0`
-  * `8.0` (Long-Term Support)
-    * `docker pull mcr.microsoft.com/dotnet/sdk:8.0`
   ## About
   This image contains the .NET SDK which is comprised of three parts:
+  1. .NET CLI
+  1. .NET runtime
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/containerize-aspnetcore
 github_stars: 4838
 github_forks: 1954
 github_is_organization: true
-retrieved_at: 2026-11-10T15:19:08.272Z
-content_sha256: 73c708692227e6912c649979a16017744df9543c1d5254d31c2a143a1a83212c
+retrieved_at: 2026-11-11T14:49:35.618Z
+content_sha256: a2635d1b3767dcaf76e386bcd1f5e4b64d04cc0d5fe5795990031ebdcdc8a7ee
 ---

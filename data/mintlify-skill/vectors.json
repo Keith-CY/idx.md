@@ -1,13 +1,13 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "mintlify-skill",
-  "generated_at": "2026-11-10T15:19:41.337Z",
+  "generated_at": "2026-11-11T14:50:02.438Z",
   "records": [
     {
       "id": "skills/mintlify-skill#head",
       "kind": "head",
       "path": "/data/mintlify-skill/HEAD.md",
-      "text": "title: mintlify-skill\nsummary: --- name: mintlify description: Set up, write, and publish documentation sites with Mintlify, and work on existing Mintlify projects. Use when the user wants to create a docs site for a repo or product, turn a docs/ folder or README into a hosted docs site, document an API from an OpenAPI spec, migrate docs from Docusaurus, GitBook, ReadMe, Fern, or another platform, preview docs locally, or publish docs to a shareable URL. Also use when editing a project with docs.json, including pages, navigation, components, API references, and customizing appearance or browser behavior with CSS, JavaScript, React, and snippets. metadata: generated-from: \"mintlify/docs/agent-context. Edit the canonical source, not this copy.\" --- # Mintlify reference Reference for working on Mintlify projects. This file covers essentials that apply to every task. For detailed reference on specific topics, read the files listed in the reference index below. The Mintlify CLI also prints current guidance on completing specific tasks in Mintlify, fetched from the live documentation. Run `mint instructions` to list topics, then `mint instructions <topic>` to fetch instructions. If the command is unknown, run `npx mint@latest instructions`. When it differs from this file, follow `mint instructions`. ## Reference index\ntype: skills\ntags: (none)\nsource_url: https://www.mintlify.com/docs/skill.md",
+      "text": "title: mintlify-skill\nsummary: --- name: mintlify description: Set up, write, and publish documentation sites with Mintlify, and work on existing Mintlify projects. Use when the user wants to create a docs site for a repo or product, turn a docs/ folder or README into a hosted docs site, document an API from an OpenAPI spec, migrate docs from Docusaurus, GitBook, ReadMe, Fern, or another platform, preview docs locally, or publish docs to a shareable URL. Also use when editing a project with docs.json, including pages, navigation, components, API references, and customizing appearance or browser behavior with CSS, JavaScript, React, and snippets. metadata: generated-from: \"mintlify/docs/agent-context. Edit the canonical source, not this copy.\" --- # Mintlify reference Reference for working on Mintlify projects. This file covers essentials that apply to every task. For detailed reference on specific topics, read the files listed in the reference index below. The Mintlify CLI also prints current guidance on completing specific tasks in Mintlify, fetched from the live documentation. Run `mint instructions` to list topics, then `mint instructions <topic>` to fetch instructions. If the command is unknown, run `npx mint@latest instructions`. When it differs from this file, follow this file; use `mint instructions` for details this file doesn't cover. ## Reference index\ntype: skills\ntags: (none)\nsource_url: https://www.mintlify.com/docs/skill.md",
       "metadata": {
         "stable_id": "skills/mintlify-skill",
         "topic": "mintlify-skill",
@@ -15,8 +15,8 @@
         "title": "mintlify-skill",
         "tags": [],
         "source_url": "https://www.mintlify.com/docs/skill.md",
-        "retrieved_at": "2026-11-10T15:19:41.337Z",
-        "content_sha256": "a1ed7190fdf8cf0d586d50a3effa578a619151b2d5140918339b2055ac888096"
+        "retrieved_at": "2026-11-11T14:50:02.438Z",
+        "content_sha256": "ad4faf0405c3955ecebd26e9de9972fc6e39e858f10c52455d25179468eabbd4"
       }
     }
   ]

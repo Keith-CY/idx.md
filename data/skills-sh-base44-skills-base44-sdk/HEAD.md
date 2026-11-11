@@ -17,11 +17,14 @@ summary: >-
   loginViaEmailPassword(email, password, turnstileToken?) →
   Promise<{access_token, user}>
 
-  loginWithProvider('google' | 'microsoft' | 'facebook', fromUrl?) → void
+  loginWithProvider('google' | 'microsoft' | 'facebook' | 'apple' | 'sso',
+  fromUrl?) → void
 
   me() → Promise<User | null>
 
-  updateMe(data) → Promise<User>
+  updateMe(data) → Promise<User>               // Record<string, any>;
+  id/email/full_name/created_by/collaborator_role immutable; role needs editor
+  access
 
   isAuthenticated() → Promise<boolean>
 tags:
@@ -33,6 +36,6 @@ upstream_ref: https://skills.sh/base44/skills/base44-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-10T15:20:07.947Z
-content_sha256: 80ecf7d6047de463458f34cef77bc249bfd2b92c3812fff186dbb84678f630af
+retrieved_at: 2026-11-11T14:50:32.810Z
+content_sha256: da9033218e8ca8feafbdb65e746837795dc75ed9addccbce4957444f919cad70
 ---

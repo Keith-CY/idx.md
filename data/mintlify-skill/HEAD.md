@@ -30,7 +30,8 @@ summary: >-
   Mintlify, fetched from the live documentation. Run `mint instructions` to list
   topics, then `mint instructions <topic>` to fetch instructions. If the command
   is unknown, run `npx mint@latest instructions`. When it differs from this
-  file, follow `mint instructions`.
+  file, follow this file; use `mint instructions` for details this file doesn't
+  cover.
 
   ## Reference index
 tags: []
@@ -40,6 +41,6 @@ upstream_ref: ""
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-10T15:19:41.337Z
-content_sha256: a1ed7190fdf8cf0d586d50a3effa578a619151b2d5140918339b2055ac888096
+retrieved_at: 2026-11-11T14:50:02.438Z
+content_sha256: ad4faf0405c3955ecebd26e9de9972fc6e39e858f10c52455d25179468eabbd4
 ---
