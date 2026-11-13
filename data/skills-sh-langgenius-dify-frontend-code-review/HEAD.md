@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/langgenius/dify/frontend-code-review
 github_stars: 133762
 github_forks: 20840
 github_is_organization: true
-retrieved_at: 2026-11-12T15:40:58.189Z
+retrieved_at: 2026-11-13T15:04:01.029Z
 content_sha256: 00e4b4aaf216ad03da876f3a8ba0a1aaf6340e1515e9d9c5933b584f37a08a7c
 ---
