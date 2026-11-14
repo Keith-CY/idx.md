@@ -39,6 +39,6 @@ upstream_ref: https://skills.sh/onmax/nuxt-skills/reka-ui
 github_stars: 599
 github_forks: 27
 github_is_organization: false
-retrieved_at: 2026-11-13T15:04:01.473Z
+retrieved_at: 2026-11-14T13:52:30.779Z
 content_sha256: 7b0435bbccf9fdd272bb424eeb522128ddc32bcf62b24e9e8d869bd4481933e2
 ---

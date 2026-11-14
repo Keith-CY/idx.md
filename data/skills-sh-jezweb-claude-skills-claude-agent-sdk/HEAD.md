@@ -5,35 +5,33 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.323
+  ## 0.3.325
 
-  - Added `machinePolicy.didNotLoad` (alpha) to `resolveSettings()`'s result,
-  which tells a host when a machine policy source may be there and did not load
+  - Added `archiveSession()` and `unarchiveSession()`, and an `archived` field
+  on the sessions that `listSessions()` and `getSessionInfo()` return
 
-  - Added `matchDeniedModels()` (alpha), which tells a host which models a
-  `deniedModels` list blocks, by Claude Code's own entry rules
+  - Added `refuseIfBusy` to `Query.reloadPlugins()` so a host can have a reload
+  refused while the session is busy
 
-  - Added the periodic `tool_progress` heartbeat while a turn waits on
-  long-running hooks; `tool_name` is the hook event, `tool_use_id` begins
-  `hook-`, `parent_tool_use_id` may name no tool call
+  - Added `managed_lock` to `plugin_errors` entries on `system/init`, naming the
+  managed `enabledPlugins` entry that dropped a plugin copy
 
-  - Added `CLAUDE_CODE_DISABLE_AGENT_PROGRESS_SUMMARIES`: set to `1` to turn off
-  subagent progress summaries even when `agentProgressSummaries` is `true`
-  (available since 0.3.318)
+  - Added a `system/informational` warning, tagged `hook_no_verdict`, when a
+  `PreToolUse` hook can't run or answer, or times out, without refusing its tool
+  call
 
-  - Added `tool_use_result` to a subagent's WebSearch result message when the
-  search did not run or found nothing
+  - Added `invalid_config_file` to the `config_file_invalid` startup failure
+  result: the broken config file's path and its backup's path as fields
 
-  - Fixed progress notifications from SDK MCP servers being dropped for tool
-  calls that were still running when the set of SDK MCP servers changed
+  - Fixed deny rules (`disallowedTools`, `permissions.deny`, `always_deny`) that
+  name an in-process SDK MCP tool or its server, or match it with a glob,
+  leaving it in Claude's tool list and `system/init`
 
-  - Fixed `resolveSettings()` keeping its first reading of a macOS MDM profile
-  or Windows registry policy for the life of the process: it now re-reads after
-  30 minutes, and sooner after a read that failed
+  - Fixed `supportedEffortLevels` in model info listing effort levels above the
+  organization's effort cap or the `maxEffortLevel` setting
 
-  - Fixed `forkSession()` with `upToMessageId`: forking at a compaction summary
-  no longer brings back the messages kept after it, and forking at a compaction
-  boundary keeps the conversation before it
+  - Changed the `sandbox` option: sandboxed Bash commands are no longer
+  auto-approved unless `autoAllowBashIfSandboxed: true` is set
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -43,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-13T15:00:03.595Z
-content_sha256: 2a93be6a977a70386c69c65134634a18b3c065c4efcecd4aa9a1c80ed9b23ac0
+retrieved_at: 2026-11-14T13:53:12.046Z
+content_sha256: 05158c9086a0f3bf5ed6064490d2fd184af6693c2b178dbb9cb5e20be9ce7c37
 ---
