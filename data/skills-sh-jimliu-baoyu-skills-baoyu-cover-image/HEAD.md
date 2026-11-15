@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/jimliu/baoyu-skills/baoyu-cover-image
 github_stars: 9795
 github_forks: 1111
 github_is_organization: false
-retrieved_at: 2026-11-14T13:52:21.961Z
+retrieved_at: 2026-11-15T14:27:12.630Z
 content_sha256: d2cce0e9d0c061e9f591c753a3d1f4881e18e3620f30bd64d950e7dbdffa4e1c
 ---
