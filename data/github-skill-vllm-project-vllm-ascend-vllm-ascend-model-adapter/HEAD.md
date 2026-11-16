@@ -18,6 +18,6 @@ upstream_ref: https://github.com/vllm-project/vllm-ascend/blob/main/.agents/skil
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-15T14:27:24.950Z
+retrieved_at: 2026-11-16T16:38:15.935Z
 content_sha256: 5daa57b7435d70a279181b534a116bbeca730d263e28ca5ae1a6ce870580cda2
 ---

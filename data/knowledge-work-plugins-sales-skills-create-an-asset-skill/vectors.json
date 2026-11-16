@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "knowledge-work-plugins-sales-skills-create-an-asset-skill",
-  "generated_at": "2026-11-15T14:25:56.861Z",
+  "generated_at": "2026-11-16T16:38:27.306Z",
   "records": [
     {
       "id": "skills/knowledge-work-plugins-sales-skills-create-an-asset-skill#head",
@@ -21,7 +21,7 @@
           "category-marketing-sales"
         ],
         "source_url": "https://raw.githubusercontent.com/anthropics/knowledge-work-plugins/main/sales/skills/create-an-asset/SKILL.md",
-        "retrieved_at": "2026-11-15T14:25:56.861Z",
+        "retrieved_at": "2026-11-16T16:38:27.306Z",
         "content_sha256": "771b65ed674b0478a7e31f4ea430fadfb685ec2a51150b48254baf09cf994db6"
       }
     }
