@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/vuejs-ai/skills/vue-options-api-best-practices
 github_stars: 1611
 github_forks: 80
 github_is_organization: true
-retrieved_at: 2026-11-16T16:38:32.970Z
+retrieved_at: 2026-11-17T16:35:06.431Z
 content_sha256: 7430211d979c775b3b4578438447a1d4c4b02c3ec925908041ae4f808eb7d788
 ---

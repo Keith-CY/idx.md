@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/axtonliu/axton-obsidian-visual-skills/excalidraw
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-16T16:39:35.358Z
+retrieved_at: 2026-11-17T16:36:03.906Z
 content_sha256: e1ac098f16f723aaf0b1fc6e511c6981cfb7cfa57a646da8eaa623f047287d5b
 ---

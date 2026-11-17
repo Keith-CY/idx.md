@@ -16,6 +16,6 @@ upstream_ref: https://github.com/ComposioHQ/awesome-claude-skills/blob/master/co
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-16T16:38:10.872Z
+retrieved_at: 2026-11-17T16:36:51.698Z
 content_sha256: 2df436e1a15073c3a2dba36d4b2caa85dffb362413ee35fa0cb61fe561258849
 ---

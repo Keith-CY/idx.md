@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/coreyhaines31/marketingskills/marketing-ideas
 github_stars: 15070
 github_forks: 2250
 github_is_organization: false
-retrieved_at: 2026-11-16T16:37:59.861Z
+retrieved_at: 2026-11-17T16:36:38.729Z
 content_sha256: 8b6aa55b3255616ea80c0ea45eca8f2bb70e528510ed76f6392e71475dd0c09b
 ---

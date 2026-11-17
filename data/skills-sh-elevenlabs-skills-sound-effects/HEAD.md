@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/sound-effects
 github_stars: 119
 github_forks: 11
 github_is_organization: true
-retrieved_at: 2026-11-16T16:38:42.259Z
+retrieved_at: 2026-11-17T16:35:15.986Z
 content_sha256: 40e28b7366308d7e22130b4688d1b9194b31567563e6cf0ecf6cd8cc5d957f0e
 ---

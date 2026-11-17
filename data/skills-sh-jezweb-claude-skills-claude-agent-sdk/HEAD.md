@@ -5,33 +5,33 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.325
+  ## 0.3.326
 
-  - Added `archiveSession()` and `unarchiveSession()`, and an `archived` field
-  on the sessions that `listSessions()` and `getSessionInfo()` return
+  - Added `mcpServersDelivery: 'initialize'`: sends `mcpServers` in the
+  initialize request instead of on Claude Code's command line; needs the bundled
+  Claude Code or newer
 
-  - Added `refuseIfBusy` to `Query.reloadPlugins()` so a host can have a reload
-  refused while the session is busy
+  - Added `getSessionInfo()` to the `/core` entry
 
-  - Added `managed_lock` to `plugin_errors` entries on `system/init`, naming the
-  managed `enabledPlugins` entry that dropped a plugin copy
+  - Added `message_uuid` to `cancel_async_message` responses, naming the dropped
+  message
 
-  - Added a `system/informational` warning, tagged `hook_no_verdict`, when a
-  `PreToolUse` hook can't run or answer, or times out, without refusing its tool
-  call
+  - Added a warning on stderr and as a `system/informational` message when a
+  tool list has an entry that doesn't look like a complete rule
 
-  - Added `invalid_config_file` to the `config_file_invalid` startup failure
-  result: the broken config file's path and its backup's path as fields
+  - Added a `system/informational` warning, tagged `managed_mcp_arrived`, when
+  an administrator's `managed-mcp.json` arrives during a session and your own
+  MCP servers stop loading
 
-  - Fixed deny rules (`disallowedTools`, `permissions.deny`, `always_deny`) that
-  name an in-process SDK MCP tool or its server, or match it with a glob,
-  leaving it in Claude's tool list and `system/init`
+  - Fixed a tool call in a running turn reconnecting to an MCP server just
+  removed with `setMcpServers()`, or reporting that it needs authentication; the
+  call is now refused
 
-  - Fixed `supportedEffortLevels` in model info listing effort levels above the
-  organization's effort cap or the `maxEffortLevel` setting
+  - Fixed `resumeSessionAt` failing on an empty reply, and a resumed session
+  losing recent turns after a crash when the previous turn ended with one
 
-  - Changed the `sandbox` option: sandboxed Bash commands are no longer
-  auto-approved unless `autoAllowBashIfSandboxed: true` is set
+  - Fixed a tool result from an SDK MCP server being lost, or delivered to
+  another call, when a long call overlapped a reconnect of the SDK MCP servers
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-16T16:38:35.987Z
-content_sha256: 05158c9086a0f3bf5ed6064490d2fd184af6693c2b178dbb9cb5e20be9ce7c37
+retrieved_at: 2026-11-17T16:35:09.419Z
+content_sha256: b27d5dadbff19253e91d6dfc2bf8393bb16b35aa4f56bb9d6ec6b7f691a30bfc
 ---

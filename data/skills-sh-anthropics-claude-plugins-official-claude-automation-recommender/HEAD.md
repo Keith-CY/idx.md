@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/anthropics/claude-plugins-official/claude-automa
 github_stars: 8532
 github_forks: 835
 github_is_organization: true
-retrieved_at: 2026-11-16T16:39:36.398Z
+retrieved_at: 2026-11-17T16:36:04.823Z
 content_sha256: 0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97
 ---

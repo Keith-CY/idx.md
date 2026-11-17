@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/addyosmani/web-quality-skills/performance
 github_stars: 1464
 github_forks: 132
 github_is_organization: false
-retrieved_at: 2026-11-16T16:38:06.287Z
+retrieved_at: 2026-11-17T16:36:45.080Z
 content_sha256: 731aa78c0347e8b3e191b75962175bee058ce73817278e610ac0fe546e685914
 ---

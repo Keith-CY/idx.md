@@ -34,6 +34,6 @@ upstream_ref: https://skills.sh/github/awesome-copilot/pdftk-server
 github_stars: 26261
 github_forks: 3023
 github_is_organization: true
-retrieved_at: 2026-11-16T16:38:04.558Z
+retrieved_at: 2026-11-17T16:36:43.311Z
 content_sha256: 2af43f0330b9e1e1b33c239261c7f5c092c7331f4e50013f1d42d6d41b3bd2a5
 ---
