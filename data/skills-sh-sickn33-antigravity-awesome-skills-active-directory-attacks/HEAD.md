@@ -50,6 +50,6 @@ upstream_ref: https://skills.sh/sickn33/antigravity-awesome-skills/active-direct
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-17T16:34:57.305Z
+retrieved_at: 2026-11-18T16:04:24.995Z
 content_sha256: f5e12b3c982b1cef082787bb12528d3183161bbebf8f0e15fbca148bfa2a2d44
 ---

@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/elevenlabs/skills/agents
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-17T16:36:03.801Z
+retrieved_at: 2026-11-18T16:07:18.926Z
 content_sha256: 7d821023abf0d1033ca7e38ee918c733d93aa652d1636f269804a6d7ebf61871
 ---

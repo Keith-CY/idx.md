@@ -5,33 +5,36 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.326
+  ## 0.3.327
 
-  - Added `mcpServersDelivery: 'initialize'`: sends `mcpServers` in the
-  initialize request instead of on Claude Code's command line; needs the bundled
-  Claude Code or newer
+  - Breaking: Changed `query()`, `startup()` and `prewarm()` to refuse options
+  that can't be sent to Claude Code, such as an agent with a circular or BigInt
+  field. Fix the named option.
 
-  - Added `getSessionInfo()` to the `/core` entry
+  - Breaking: Changed hook options to require arrays: a hook event's value and a
+  matcher's `hooks`. A Set, generator, plain object, `true` or number is now
+  refused.
 
-  - Added `message_uuid` to `cancel_async_message` responses, naming the dropped
-  message
+  - Fixed `task_started` sending Claude Code's own text, such as a task
+  notification, as `prompt` when a background subagent is woken; such an event
+  now has no `prompt`
 
-  - Added a warning on stderr and as a `system/informational` message when a
-  tool list has an entry that doesn't look like a complete rule
+  - Fixed Claude reporting a background agent as still running when its
+  permission request had waited on `canUseTool` for 30 seconds or more
 
-  - Added a `system/informational` warning, tagged `managed_mcp_arrived`, when
-  an administrator's `managed-mcp.json` arrives during a session and your own
-  MCP servers stop loading
+  - Reverted 0.3.326's fix for a tool result from an SDK MCP server being lost,
+  or delivered to another call, after a reconnect
 
-  - Fixed a tool call in a running turn reconnecting to an MCP server just
-  removed with `setMcpServers()`, or reporting that it needs authentication; the
-  call is now refused
+  - Changed the JSON-RPC `id` of requests to an SDK MCP server back from a
+  string to a number
 
-  - Fixed `resumeSessionAt` failing on an empty reply, and a resumed session
-  losing recent turns after a crash when the previous turn ended with one
+  - Changed background retries for most MCP servers on other machines, reached
+  by hostname over https, to go on for about a day after a drop, up from at most
+  about 27 minutes
 
-  - Fixed a tool result from an SDK MCP server being lost, or delivered to
-  another call, when a long call overlapped a reconnect of the SDK MCP servers
+  - Deprecated `createSdkMcpServer()` servers in an agent's `mcpServers`:
+  ignored with a warning, and other options apply. Move them to top-level
+  `mcpServers`, which gives the main session their tools.
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -41,6 +44,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-17T16:35:09.419Z
-content_sha256: b27d5dadbff19253e91d6dfc2bf8393bb16b35aa4f56bb9d6ec6b7f691a30bfc
+retrieved_at: 2026-11-18T16:04:54.174Z
+content_sha256: 5007c6ac3f64cce317f5e8f1b1270d47a9f5659d91f749aa19a2aebf9519df9c
 ---

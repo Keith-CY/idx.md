@@ -25,7 +25,7 @@ upstream_ref: https://github.com/shield-md/shield.md/blob/main/skill.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-17T16:35:02.087Z
+retrieved_at: 2026-11-18T16:04:35.820Z
 content_sha256: d1a2f699123a487c205234f36c725034a6dc4250d9f3340d09aa174eb7d22458
 ---
 |/data/shield-md-shield-md-skill|
