@@ -5,36 +5,34 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.327
+  ## 0.3.328
 
-  - Breaking: Changed `query()`, `startup()` and `prewarm()` to refuse options
-  that can't be sent to Claude Code, such as an agent with a circular or BigInt
-  field. Fix the named option.
+  - Added `onFailure` to `mcp_tool` hooks in the `Settings` type: with
+  `"block"`, a hook whose call fails blocks the action it guards
 
-  - Breaking: Changed hook options to require arrays: a hook event's value and a
-  matcher's `hooks`. A Set, generator, plain object, `true` or number is now
-  refused.
+  - Added `CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME`: set it in the `env` option
+  to stop `resume` and `continue` from running a tool call that a hook deferred;
+  settings can't set it
 
-  - Fixed `task_started` sending Claude Code's own text, such as a task
-  notification, as `prompt` when a background subagent is woken; such an event
-  now has no `prompt`
+  - Added support for the policy plugin's `allowManagedModsOnly` option in
+  host-supplied `managedSettings`; an admin's managed settings still win
 
-  - Fixed Claude reporting a background agent as still running when its
-  permission request had waited on `canUseTool` for 30 seconds or more
+  - Fixed the `agent` option: an inline definition in `agents` now wins over a
+  user, project, plugin or built-in agent of the same name for model, prompt and
+  hooks
 
-  - Reverted 0.3.326's fix for a tool result from an SDK MCP server being lost,
-  or delivered to another call, after a reconnect
+  - Fixed the `agent` option: an agent from an agents directory now keeps its
+  system prompt when `systemPrompt` is not set
 
-  - Changed the JSON-RPC `id` of requests to an SDK MCP server back from a
-  string to a number
+  - Fixed the model saying background agents were still running after an SDK
+  interrupt had stopped them
 
-  - Changed background retries for most MCP servers on other machines, reached
-  by hostname over https, to go on for about a day after a drop, up from at most
-  about 27 minutes
+  - Changed subagents to wait for their own subagents by default when
+  `CLAUDE_CODE_FORK_SUBAGENT=0` is set
 
-  - Deprecated `createSdkMcpServer()` servers in an agent's `mcpServers`:
-  ignored with a warning, and other options apply. Move them to top-level
-  `mcpServers`, which gives the main session their tools.
+  - Changed a shell command rewritten by a `PermissionRequest` hook: the
+  rewrite's own permission check now decides the sandbox, so a sandbox-excluded
+  rewrite runs outside it; `canUseTool` is unchanged
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -44,6 +42,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-18T16:04:54.174Z
-content_sha256: 5007c6ac3f64cce317f5e8f1b1270d47a9f5659d91f749aa19a2aebf9519df9c
+retrieved_at: 2026-11-19T16:11:15.728Z
+content_sha256: 3b5bad78601a74829160be009dbd89afa39ed32b1e12342a9beb24b279a658d4
 ---

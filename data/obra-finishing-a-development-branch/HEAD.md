@@ -35,6 +35,6 @@ upstream_ref: https://github.com/obra/superpowers/blob/main/skills/finishing-a-d
 github_stars: 101712
 github_forks: 8129
 github_is_organization: false
-retrieved_at: 2026-11-18T16:04:10.360Z
+retrieved_at: 2026-11-19T16:12:42.945Z
 content_sha256: 8db5a922b242dd4e1bf824cb91c13b3e8d8e8a86d6ceaf7f0774eb9cce909d65
 ---

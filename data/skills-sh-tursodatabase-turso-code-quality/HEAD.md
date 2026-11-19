@@ -7,23 +7,22 @@ summary: >-
 
   name: async-io-model
 
-  description: Explanations of common asynchronous patterns used in tursodb.
-  Involves IOResult, state machines, re-entrancy pitfalls, CompletionGroup.
-  Always use these patterns in `core` when doing anything IO
+  description: Use when writing or changing code that returns IOResult or keeps
+  I/O state across yields - state machines, re-entrancy, CompletionGroup
 
   ---
 
-  # Async I/O Model Guide
+  # Async I/O model
 
-  Turso uses cooperative yielding with explicit state machines instead of Rust
+  Turso uses cooperative yielding with explicit state machines instead of
   async/await.
 
-  ## Core Types
+  ## Types
 
   ```rust
 
-  pub enum IOCompletions {
-      Single(Completion),
+  pub enum IOResult<T> {
+      Done(T),            // finished, here is the result
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -33,6 +32,6 @@ upstream_ref: https://skills.sh/tursodatabase/turso/code-quality
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-18T16:04:53.850Z
-content_sha256: 13b6204799f68fe315b6d49d1dead9d48cbc433f25f638cc6100e9f95b511387
+retrieved_at: 2026-11-19T16:11:15.513Z
+content_sha256: 60e11b81603aabccf221ba9462c5f51aebef446977cc54f9ff923ef414de2462
 ---
