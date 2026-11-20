@@ -5,34 +5,35 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.328
+  ## 0.3.329
 
-  - Added `onFailure` to `mcp_tool` hooks in the `Settings` type: with
-  `"block"`, a hook whose call fails blocks the action it guards
+  - Added a `system/informational` warning, tagged `managed_hooks_not_loaded`,
+  when hooks in managed settings fail to load
 
-  - Added `CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME`: set it in the `env` option
-  to stop `resume` and `continue` from running a tool call that a hook deferred;
-  settings can't set it
+  - Added `permissions.workingDirectoriesExclude` to the `Settings` type: paths,
+  read only from `--settings` and settings the host sends, that the
+  working-directory read and write blocks treat as outside
 
-  - Added support for the policy plugin's `allowManagedModsOnly` option in
-  host-supplied `managedSettings`; an admin's managed settings still win
+  - Fixed sessions bound with `SpareProcess.claim()` ignoring
+  `autoCompactWindow` from the folder's settings or the claim's `settings`
 
-  - Fixed the `agent` option: an inline definition in `agents` now wins over a
-  user, project, plugin or built-in agent of the same name for model, prompt and
-  hooks
+  - Fixed retained memory when an in-process MCP server does not answer its
+  start-up handshake
 
-  - Fixed the `agent` option: an agent from an agents directory now keeps its
-  system prompt when `systemPrompt` is not set
+  - Fixed memory growth in long sessions that use `--replay-user-messages`: the
+  SDK no longer keeps echoes of its own tool results and permission answers
 
-  - Fixed the model saying background agents were still running after an SDK
-  interrupt had stopped them
+  - Fixed an MCP server that a plugin started at launch staying connected after
+  the plugin was disabled or uninstalled and `reload_plugins` ran, in headless
+  and SDK sessions
 
-  - Changed subagents to wait for their own subagents by default when
-  `CLAUDE_CODE_FORK_SUBAGENT=0` is set
+  - Fixed `rewind_conversation` removing history under a message sent right
+  after a model change: the request is now refused with "commands queued", and
+  callers can send it again
 
-  - Changed a shell command rewritten by a `PermissionRequest` hook: the
-  rewrite's own permission check now decides the sandbox, so a sandbox-excluded
-  rewrite runs outside it; `canUseTool` is unchanged
+  - Improved memory use of idle SDK sessions: after 30 seconds idle, large tool
+  result data that no model request reads is released, except while Remote
+  Control is on
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -42,6 +43,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-19T16:11:15.728Z
-content_sha256: 3b5bad78601a74829160be009dbd89afa39ed32b1e12342a9beb24b279a658d4
+retrieved_at: 2026-11-20T15:51:10.307Z
+content_sha256: 130740a89cc43c87ca8a2be7f47f43458bed07d25755411f908e263dbf4ae1f0
 ---

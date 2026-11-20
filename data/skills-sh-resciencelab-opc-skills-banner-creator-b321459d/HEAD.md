@@ -22,6 +22,6 @@ upstream_ref: https://skills.sh/resciencelab/opc-skills/banner-creator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-19T16:11:06.327Z
+retrieved_at: 2026-11-20T15:50:59.468Z
 content_sha256: 71286bbaf6ae664977dcbcca899d13643ed5a9a794c812e0c42c1f1356eea16a
 ---

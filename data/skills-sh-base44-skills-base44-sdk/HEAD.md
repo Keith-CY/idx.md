@@ -36,6 +36,6 @@ upstream_ref: https://skills.sh/base44/skills/base44-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-19T16:11:15.281Z
+retrieved_at: 2026-11-20T15:51:09.967Z
 content_sha256: da9033218e8ca8feafbdb65e746837795dc75ed9addccbce4957444f919cad70
 ---
