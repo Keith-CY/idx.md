@@ -5,35 +5,33 @@ title: skills-sh-jezweb-claude-skills-claude-agent-sdk
 summary: >-
   # Changelog
 
-  ## 0.3.329
+  ## 0.3.330
 
-  - Added a `system/informational` warning, tagged `managed_hooks_not_loaded`,
-  when hooks in managed settings fail to load
+  - Added a `system/informational` warning, tagged `settings_not_in_effect`,
+  when `settings` or a user, project or local settings file fails validation and
+  is not in effect
 
-  - Added `permissions.workingDirectoriesExclude` to the `Settings` type: paths,
-  read only from `--settings` and settings the host sends, that the
-  working-directory read and write blocks treat as outside
+  - Fixed Claude still waiting for a background agent that `stopTask()` stopped
+  just as it finished
 
-  - Fixed sessions bound with `SpareProcess.claim()` ignoring
-  `autoCompactWindow` from the folder's settings or the claim's `settings`
+  - Fixed variables that a `SessionStart` hook writes to `CLAUDE_ENV_FILE` not
+  reaching the Bash tool with the `continue` option
 
-  - Fixed retained memory when an in-process MCP server does not answer its
-  start-up handshake
+  - Fixed Google Cloud's Agent Platform sessions ignoring `fastMode` in
+  `settings` when the model comes from `ANTHROPIC_MODEL` or a settings file;
+  such sessions now bill at the fast mode price
 
-  - Fixed memory growth in long sessions that use `--replay-user-messages`: the
-  SDK no longer keeps echoes of its own tool results and permission answers
+  - Fixed the initialize response's `fast_mode_state` describing the default
+  model instead of the model the session runs
 
-  - Fixed an MCP server that a plugin started at launch staying connected after
-  the plugin was disabled or uninstalled and `reload_plugins` ran, in headless
-  and SDK sessions
+  - Fixed a lost or swapped tool result from an SDK MCP server when a call
+  overlapped a reconnect; while an earlier request is unanswered, a new one can
+  carry an `id` of 1,048,576 or more
 
-  - Fixed `rewind_conversation` removing history under a message sent right
-  after a model change: the request is now refused with "commands queued", and
-  callers can send it again
+  - Changed the TypeScript SDK's `query()` to fail with an error when `settings`
+  is a JSON string that doesn't parse
 
-  - Improved memory use of idle SDK sessions: after 30 seconds idle, large tool
-  result data that no model request reads is released, except while Remote
-  Control is on
+  - Updated to parity with Claude Code v2.1.330
 tags:
   - skills-sh
   - skills-sh-all-time
@@ -43,6 +41,6 @@ upstream_ref: https://skills.sh/jezweb/claude-skills/claude-agent-sdk
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-20T15:51:10.307Z
-content_sha256: 130740a89cc43c87ca8a2be7f47f43458bed07d25755411f908e263dbf4ae1f0
+retrieved_at: 2026-11-21T15:00:40.237Z
+content_sha256: 3aa03285b0f26e5274af02a6ae41c06df0a2e5f8ab7aceb7d2b43cf5e911762b
 ---
