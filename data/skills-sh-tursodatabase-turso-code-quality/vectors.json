@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-tursodatabase-turso-code-quality",
-  "generated_at": "2026-11-23T18:54:49.638Z",
+  "generated_at": "2026-11-24T18:29:10.192Z",
   "records": [
     {
       "id": "skills/skills-sh-tursodatabase-turso-code-quality#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/tursodatabase/turso/HEAD/.claude/skills/async-io-model/SKILL.md",
-        "retrieved_at": "2026-11-23T18:54:49.638Z",
+        "retrieved_at": "2026-11-24T18:29:10.192Z",
         "content_sha256": "60e11b81603aabccf221ba9462c5f51aebef446977cc54f9ff923ef414de2462"
       }
     }

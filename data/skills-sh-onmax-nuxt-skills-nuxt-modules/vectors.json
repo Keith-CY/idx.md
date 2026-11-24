@@ -1,7 +1,7 @@
 {
   "schema": "idx.md/vectors@1",
   "topic": "skills-sh-onmax-nuxt-skills-nuxt-modules",
-  "generated_at": "2026-11-23T19:00:37.352Z",
+  "generated_at": "2026-11-24T18:31:49.436Z",
   "records": [
     {
       "id": "skills/skills-sh-onmax-nuxt-skills-nuxt-modules#head",
@@ -18,7 +18,7 @@
           "skills-sh-all-time"
         ],
         "source_url": "https://raw.githubusercontent.com/onmax/nuxt-skills/HEAD/skills/nuxt-modules/references/development.md",
-        "retrieved_at": "2026-11-23T19:00:37.352Z",
+        "retrieved_at": "2026-11-24T18:31:49.436Z",
         "content_sha256": "407ecc10d30e7a8bae78a2494e2f3d788450f5891fd8646e5e5e46df42adfd53"
       }
     }
