@@ -32,6 +32,6 @@ upstream_ref: https://skills.sh/inferen-sh/skills/agent-tools
 github_stars: 169
 github_forks: 24
 github_is_organization: true
-retrieved_at: 2026-11-24T18:33:16.314Z
+retrieved_at: 2026-11-25T17:46:40.755Z
 content_sha256: f248db5edc3fe7472cac696c9aad53baca0e3b18d595abf5912b40a55052bdda
 ---

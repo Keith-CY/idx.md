@@ -33,6 +33,6 @@ upstream_ref: https://skills.sh/trailofbits/skills/testing-handbook-generator
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-24T18:31:53.625Z
+retrieved_at: 2026-11-25T17:45:25.011Z
 content_sha256: 2bc2412af856e91ffacefb85a9f98811fe7238c99b485c03cf206969fee9dfa1
 ---
