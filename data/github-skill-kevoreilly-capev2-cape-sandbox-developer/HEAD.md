@@ -16,6 +16,6 @@ upstream_ref: https://github.com/kevoreilly/CAPEv2/blob/master/SKILLS.md
 github_stars: null
 github_forks: null
 github_is_organization: null
-retrieved_at: 2026-11-25T17:47:13.251Z
+retrieved_at: 2026-11-26T17:28:00.281Z
 content_sha256: b1dfab5a9df3ed14afd9ed702e9534073ec3628447a54ea658fd0a347c3a1656
 ---
